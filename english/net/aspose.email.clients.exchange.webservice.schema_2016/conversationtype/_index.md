@@ -1,0 +1,103 @@
+---
+title: ConversationType
+second_title: Aspose.Email for .NET API Reference
+description: 
+type: docs
+weight: 4210
+url: /net/aspose.email.clients.exchange.webservice.schema_2016/conversationtype/
+---
+## ConversationType class
+
+```csharp
+public class ConversationType
+```
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [ConversationType](conversationtype)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AtAllMention](atallmention) { get; set; } |  |
+| [AtAllMentionSpecified](atallmentionspecified) { get; set; } |  |
+| [Categories](categories) { get; set; } |  |
+| [ConversationId](conversationid) { get; set; } |  |
+| [ConversationTopic](conversationtopic) { get; set; } |  |
+| [DraftItemIds](draftitemids) { get; set; } |  |
+| [FlagStatus](flagstatus) { get; set; } |  |
+| [FlagStatusSpecified](flagstatusspecified) { get; set; } |  |
+| [From](from) { get; set; } |  |
+| [GlobalAtAllMention](globalatallmention) { get; set; } |  |
+| [GlobalAtAllMentionSpecified](globalatallmentionspecified) { get; set; } |  |
+| [GlobalCategories](globalcategories) { get; set; } |  |
+| [GlobalFlagStatus](globalflagstatus) { get; set; } |  |
+| [GlobalFlagStatusSpecified](globalflagstatusspecified) { get; set; } |  |
+| [GlobalHasAttachments](globalhasattachments) { get; set; } |  |
+| [GlobalHasAttachmentsSpecified](globalhasattachmentsspecified) { get; set; } |  |
+| [GlobalHasIrm](globalhasirm) { get; set; } |  |
+| [GlobalHasIrmSpecified](globalhasirmspecified) { get; set; } |  |
+| [GlobalIconIndex](globaliconindex) { get; set; } |  |
+| [GlobalIconIndexSpecified](globaliconindexspecified) { get; set; } |  |
+| [GlobalImportance](globalimportance) { get; set; } |  |
+| [GlobalImportanceSpecified](globalimportancespecified) { get; set; } |  |
+| [GlobalItemClasses](globalitemclasses) { get; set; } |  |
+| [GlobalItemIds](globalitemids) { get; set; } |  |
+| [GlobalLastDeliveryTime](globallastdeliverytime) { get; set; } |  |
+| [GlobalLastDeliveryTimeSpecified](globallastdeliverytimespecified) { get; set; } |  |
+| [GlobalMentionedMe](globalmentionedme) { get; set; } |  |
+| [GlobalMentionedMeSpecified](globalmentionedmespecified) { get; set; } |  |
+| [GlobalMessageCount](globalmessagecount) { get; set; } |  |
+| [GlobalMessageCountSpecified](globalmessagecountspecified) { get; set; } |  |
+| [GlobalSize](globalsize) { get; set; } |  |
+| [GlobalSizeSpecified](globalsizespecified) { get; set; } |  |
+| [GlobalUniqueRecipients](globaluniquerecipients) { get; set; } |  |
+| [GlobalUniqueSenders](globaluniquesenders) { get; set; } |  |
+| [GlobalUniqueUnreadSenders](globaluniqueunreadsenders) { get; set; } |  |
+| [GlobalUnreadCount](globalunreadcount) { get; set; } |  |
+| [GlobalUnreadCountSpecified](globalunreadcountspecified) { get; set; } |  |
+| [HasAttachments](hasattachments) { get; set; } |  |
+| [HasAttachmentsSpecified](hasattachmentsspecified) { get; set; } |  |
+| [HasIrm](hasirm) { get; set; } |  |
+| [HasIrmSpecified](hasirmspecified) { get; set; } |  |
+| [IconIndex](iconindex) { get; set; } |  |
+| [IconIndexSpecified](iconindexspecified) { get; set; } |  |
+| [Importance](importance) { get; set; } |  |
+| [ImportanceSpecified](importancespecified) { get; set; } |  |
+| [InferenceClassification](inferenceclassification) { get; set; } |  |
+| [InferenceClassificationSpecified](inferenceclassificationspecified) { get; set; } |  |
+| [InstanceKey](instancekey) { get; set; } |  |
+| [ItemClasses](itemclasses) { get; set; } |  |
+| [ItemIds](itemids) { get; set; } |  |
+| [LastDeliveryTime](lastdeliverytime) { get; set; } |  |
+| [LastDeliveryTimeSpecified](lastdeliverytimespecified) { get; set; } |  |
+| [LastModifiedTime](lastmodifiedtime) { get; set; } |  |
+| [LastModifiedTimeSpecified](lastmodifiedtimespecified) { get; set; } |  |
+| [MailboxGuids](mailboxguids) { get; set; } |  |
+| [MailboxScope](mailboxscope) { get; set; } |  |
+| [MailboxScopeSpecified](mailboxscopespecified) { get; set; } |  |
+| [MentionedMe](mentionedme) { get; set; } |  |
+| [MentionedMeSpecified](mentionedmespecified) { get; set; } |  |
+| [MessageCount](messagecount) { get; set; } |  |
+| [MessageCountSpecified](messagecountspecified) { get; set; } |  |
+| [Preview](preview) { get; set; } |  |
+| [SenderSMTPAddress](sendersmtpaddress) { get; set; } |  |
+| [Size](size) { get; set; } |  |
+| [SizeSpecified](sizespecified) { get; set; } |  |
+| [SortKey](sortkey) { get; set; } |  |
+| [SortKeySpecified](sortkeyspecified) { get; set; } |  |
+| [UniqueRecipients](uniquerecipients) { get; set; } |  |
+| [UniqueSenders](uniquesenders) { get; set; } |  |
+| [UniqueUnreadSenders](uniqueunreadsenders) { get; set; } |  |
+| [UnreadCount](unreadcount) { get; set; } |  |
+| [UnreadCountSpecified](unreadcountspecified) { get; set; } |  |
+
+### See Also
+
+* namespace [Aspose.Email.Clients.Exchange.WebService.Schema_2016](../../aspose.email.clients.exchange.webservice.schema_2016)
+* assembly [Aspose.Email](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

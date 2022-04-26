@@ -1,0 +1,175 @@
+---
+title: CreateFolder
+second_title: Aspose.Email for .NET API Reference
+description: 
+type: docs
+weight: 500
+url: /net/aspose.email.clients.exchange.webservice/iewsclient/createfolder/
+---
+## IEWSClient.CreateFolder method (1 of 6)
+
+Creates new folder in the root folder.
+
+```csharp
+public ExchangeFolderInfo CreateFolder(string name)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of new folder |
+
+## Return Value
+
+Returns folder information
+
+### See Also
+
+* class [ExchangeFolderInfo](../../../aspose.email.clients.exchange/exchangefolderinfo)
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## IEWSClient.CreateFolder method (2 of 6)
+
+Creates the new folder with the specified name in the specified parent folder.
+
+```csharp
+public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentFolderUri | String | An uri of parent folder. |
+| name | String | A name of folder to be created. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri* or *name* is `null` or `empty`. |
+
+### See Also
+
+* class [ExchangeFolderInfo](../../../aspose.email.clients.exchange/exchangefolderinfo)
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## IEWSClient.CreateFolder method (3 of 6)
+
+Creates the new folder
+
+```csharp
+public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name, 
+    ExchangeFolderPermissionCollection permissions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentFolderUri | String | The URI of parent folder |
+| name | String | The name of new folder |
+| permissions | ExchangeFolderPermissionCollection | A permission on new folder |
+
+## Return Value
+
+Returns folder information
+
+### See Also
+
+* class [ExchangeFolderInfo](../../../aspose.email.clients.exchange/exchangefolderinfo)
+* class [ExchangeFolderPermissionCollection](../../../aspose.email.clients.exchange/exchangefolderpermissioncollection)
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## IEWSClient.CreateFolder method (4 of 6)
+
+Creates the new folder
+
+```csharp
+public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name, 
+    ExchangeFolderPermissionCollection permissions, string folderClass)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentFolderUri | String | The URI of parent folder |
+| name | String | The name of new folder |
+| permissions | ExchangeFolderPermissionCollection | A permission on new folder |
+| folderClass | String | The class of new folder |
+
+## Return Value
+
+Returns folder information
+
+### See Also
+
+* class [ExchangeFolderInfo](../../../aspose.email.clients.exchange/exchangefolderinfo)
+* class [ExchangeFolderPermissionCollection](../../../aspose.email.clients.exchange/exchangefolderpermissioncollection)
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## IEWSClient.CreateFolder method (5 of 6)
+
+Creates new folder in the root folder.
+
+```csharp
+public ExchangeFolderInfo CreateFolder(string name, ExchangeFolderType folderType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of new folder |
+| folderType | ExchangeFolderType | Type of folder |
+
+## Return Value
+
+Returns folder information
+
+### See Also
+
+* class [ExchangeFolderInfo](../../../aspose.email.clients.exchange/exchangefolderinfo)
+* enum [ExchangeFolderType](../../../aspose.email.clients.exchange/exchangefoldertype)
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## IEWSClient.CreateFolder method (6 of 6)
+
+Creates the new folder
+
+```csharp
+public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name, 
+    ExchangeFolderType folderType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentFolderUri | String | The URI of parent folder |
+| name | String | The name of new folder |
+| folderType | ExchangeFolderType | Type of folder |
+
+## Return Value
+
+Returns folder information
+
+### See Also
+
+* class [ExchangeFolderInfo](../../../aspose.email.clients.exchange/exchangefolderinfo)
+* enum [ExchangeFolderType](../../../aspose.email.clients.exchange/exchangefoldertype)
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

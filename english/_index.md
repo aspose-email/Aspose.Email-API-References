@@ -1,0 +1,54 @@
+---
+title: Aspose.Email Product Family
+additionalTitle: Aspose API References
+type: docs
+is_root: true
+weight: 10
+url: /
+---
+
+## Aspose.Email for .NET
+
+{{% alert color="primary" %}} 
+
+![Aspose.Email for .NET Product Logo](home_1.png)
+
+Aspose.Email for .NET is a suite of flexible and easy to use .NET class libraries brought together to produce a most unique and powerful email programming component. Aspose.Email saves you time and effort by allowing you to code complex message file handling into your applications quickly and easily.
+
+Aspose.Email implements a number of network protocols, for example SMTP, MIME, POP3, IMAP; message file formats, for example EML, MSG, MHT; mail storage formats such as PST and MBOX; and Exchange Servers to allow developers to create a wide variety of email processing applications. Aspose.Email helps developers program without getting lost in the complexities of message format detail.
+
+{{% /alert %}} 
+
+These are links to useful resources:
+- [Aspose.Email for .NET API Reference](/email/net/)
+
+## Aspose.Email for Java
+
+{{% alert color="primary" %}} 
+
+![Aspose.Email for Java Product Logo](home_2.png)
+
+Aspose.Email for Java is a Java API that enables Java applications to read and write Microsoft Outlook® documents without using Microsoft Outlook®. Aspose.Email for Java provides a number of key features such as managing recipients, subject, body, attachments in Microsoft Outlook® MSG documents and reading contacts, messages and folder information from Microsoft Outlook® PST documents. It can also be used to create, modify and convert email messages in EML, MSG and MHT formats.
+
+{{% /alert %}} 
+
+These are links to useful resources:
+- [Aspose.Email for Java API Reference](/email/java/)
+
+## Aspose.Email for C++
+
+{{% alert color="primary" %}} 
+
+![Aspose.Email for C++ Product Logo](home_3.png)
+
+Aspose.Eamil for C++ is a native C++ library that enables C++ developers to create, manipulate and convert Outlook and other popular emailing file formats. The API is independent of Office Automation or MS Outlook, and doesn't need these to be installed on the server.
+
+The API can be used on Windows OS for working with emailing file formats. 
+
+{{% /alert %}} 
+
+These are links to useful resources:
+- [Aspose.Email for C++ API Reference](/email/cpp/)
+
+
+
