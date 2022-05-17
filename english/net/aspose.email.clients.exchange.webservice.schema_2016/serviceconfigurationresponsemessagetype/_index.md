@@ -3,7 +3,7 @@ title: ServiceConfigurationResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12120
+weight: 13660
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/serviceconfigurationresponsemessagetype/
 ---
 ## ServiceConfigurationResponseMessageType class

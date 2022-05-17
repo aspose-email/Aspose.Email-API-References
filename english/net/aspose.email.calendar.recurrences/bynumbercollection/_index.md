@@ -3,7 +3,7 @@ title: ByNumberCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 640
+weight: 660
 url: /net/aspose.email.calendar.recurrences/bynumbercollection/
 ---
 ## ByNumberCollection class

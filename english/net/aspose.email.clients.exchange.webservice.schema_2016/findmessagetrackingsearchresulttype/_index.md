@@ -3,7 +3,7 @@ title: FindMessageTrackingSearchResultType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6470
+weight: 8010
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/
 ---
 ## FindMessageTrackingSearchResultType class

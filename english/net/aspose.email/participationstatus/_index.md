@@ -3,7 +3,7 @@ title: ParticipationStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17480
+weight: 19080
 url: /net/aspose.email/participationstatus/
 ---
 ## ParticipationStatus enumeration

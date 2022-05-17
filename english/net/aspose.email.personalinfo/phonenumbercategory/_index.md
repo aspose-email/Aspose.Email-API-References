@@ -3,7 +3,7 @@ title: PhoneNumberCategory
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17670
+weight: 19270
 url: /net/aspose.email.personalinfo/phonenumbercategory/
 ---
 ## PhoneNumberCategory class

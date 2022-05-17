@@ -3,7 +3,7 @@ title: PipeliningMode
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15170
+weight: 16720
 url: /net/aspose.email.clients/pipeliningmode/
 ---
 ## PipeliningMode enumeration

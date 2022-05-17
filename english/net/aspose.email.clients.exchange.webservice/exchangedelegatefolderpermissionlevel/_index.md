@@ -3,7 +3,7 @@ title: ExchangeDelegateFolderPermissionLevel
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2220
+weight: 3760
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegatefolderpermissionlevel/
 ---
 ## ExchangeDelegateFolderPermissionLevel enumeration

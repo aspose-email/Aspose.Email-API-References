@@ -3,7 +3,7 @@ title: StandardIpmFolder
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18480
+weight: 20130
 url: /net/aspose.email.storage.pst/standardipmfolder/
 ---
 ## StandardIpmFolder enumeration

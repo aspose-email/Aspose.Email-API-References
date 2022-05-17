@@ -3,7 +3,7 @@ title: SyncFolderItemsCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12880
+weight: 14420
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemscompletedeventhandler/
 ---
 ## SyncFolderItemsCompletedEventHandler delegate

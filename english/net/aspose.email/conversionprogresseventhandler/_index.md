@@ -3,7 +3,7 @@ title: ConversionProgressEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15470
+weight: 17020
 url: /net/aspose.email/conversionprogresseventhandler/
 ---
 ## ConversionProgressEventHandler delegate

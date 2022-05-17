@@ -3,7 +3,7 @@ title: MboxLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18150
+weight: 19800
 url: /net/aspose.email.storage.mbox/mboxloadoptions/
 ---
 ## MboxLoadOptions class

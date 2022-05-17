@@ -3,7 +3,7 @@ title: ReplyBody
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2580
+weight: 4120
 url: /net/aspose.email.clients.exchange.webservice/replybody/
 ---
 ## ReplyBody class

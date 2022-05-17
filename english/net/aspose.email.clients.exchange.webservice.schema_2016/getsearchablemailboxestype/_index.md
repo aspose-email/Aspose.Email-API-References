@@ -3,7 +3,7 @@ title: GetSearchableMailboxesType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7990
+weight: 9530
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getsearchablemailboxestype/
 ---
 ## GetSearchableMailboxesType class

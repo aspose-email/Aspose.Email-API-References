@@ -8,9 +8,20 @@ url: /net/aspose.email.clients.imap/imapclient/unsubscribefolderasync/
 ---
 ## ImapClient.UnsubscribeFolderAsync method (1 of 4)
 
+Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
+
 ```csharp
 public Task UnsubscribeFolderAsync(IConnection connection, string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Name of the folder |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +34,19 @@ public Task UnsubscribeFolderAsync(IConnection connection, string folderName)
 
 ## ImapClient.UnsubscribeFolderAsync method (2 of 4)
 
+Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
+
 ```csharp
 public Task UnsubscribeFolderAsync(string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Name of the folder |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,10 +58,22 @@ public Task UnsubscribeFolderAsync(string folderName)
 
 ## ImapClient.UnsubscribeFolderAsync method (3 of 4)
 
+Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
+
 ```csharp
 public Task UnsubscribeFolderAsync(IConnection connection, string folderName, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Name of the folder |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -53,9 +86,20 @@ public Task UnsubscribeFolderAsync(IConnection connection, string folderName,
 
 ## ImapClient.UnsubscribeFolderAsync method (4 of 4)
 
+Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes
+
 ```csharp
 public Task UnsubscribeFolderAsync(string folderName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Name of the folder |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

@@ -8,10 +8,26 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/moveconversat
 ---
 ## IAsyncEwsClient.MoveConversationItemsAsync method
 
+Moves the conversation items, which are located in the specified folder, into the specified target folder
+
 ```csharp
 public Task MoveConversationItemsAsync(string conversationId, string destinationFolderId, 
     string contextFolderId = null, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| conversationId | String | Id of conversation to move |
+| destinationFolderId | String | Id of folder into which move items |
+| contextFolderId | String | Id of folder from which move conversation items. Note: If it's set to null(or empty), all conversation items will be moved |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* is `null` or `empty` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId* is `null` or `empty` |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: TimeoutException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18520
+weight: 20170
 url: /net/aspose.email/timeoutexception/
 ---
 ## TimeoutException class

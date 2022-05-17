@@ -3,7 +3,7 @@ title: ByDayCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 650
 url: /net/aspose.email.calendar.recurrences/bydaycollection/
 ---
 ## ByDayCollection class

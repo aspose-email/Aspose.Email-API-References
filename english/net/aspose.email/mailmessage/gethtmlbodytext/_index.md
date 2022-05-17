@@ -3,7 +3,7 @@ title: GetHtmlBodyText
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.email/mailmessage/gethtmlbodytext/
 ---
 ## MailMessage.GetHtmlBodyText method (1 of 2)

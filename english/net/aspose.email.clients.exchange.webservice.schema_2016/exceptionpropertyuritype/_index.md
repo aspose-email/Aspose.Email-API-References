@@ -3,7 +3,7 @@ title: ExceptionPropertyURIType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5740
+weight: 7280
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/exceptionpropertyuritype/
 ---
 ## ExceptionPropertyURIType enumeration

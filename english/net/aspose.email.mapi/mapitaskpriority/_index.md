@@ -3,7 +3,7 @@ title: MapiTaskPriority
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16930
+weight: 18530
 url: /net/aspose.email.mapi/mapitaskpriority/
 ---
 ## MapiTaskPriority enumeration

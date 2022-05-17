@@ -3,7 +3,7 @@ title: GetNonIndexableItemStatisticsResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7620
+weight: 9160
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemstatisticsresponsemessagetype/
 ---
 ## GetNonIndexableItemStatisticsResponseMessageType class

@@ -8,9 +8,23 @@ url: /net/aspose.email.clients.pop3/pop3client/deletemessagesasync/
 ---
 ## Pop3Client.DeleteMessagesAsync method (1 of 4)
 
+Deletes all messages
+
 ```csharp
 public Task DeleteMessagesAsync(IConnection connection)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+## Return Value
+
+Task object, with delegate for this operation
+
+### Remarks
+
+The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
@@ -23,9 +37,19 @@ public Task DeleteMessagesAsync(IConnection connection)
 
 ## Pop3Client.DeleteMessagesAsync method (2 of 4)
 
+Deletes all messages
+
 ```csharp
 public Task DeleteMessagesAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
+
+### Remarks
+
+The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
@@ -37,9 +61,24 @@ public Task DeleteMessagesAsync()
 
 ## Pop3Client.DeleteMessagesAsync method (3 of 4)
 
+Deletes all messages
+
 ```csharp
 public Task DeleteMessagesAsync(IConnection connection, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
+
+### Remarks
+
+The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 
@@ -52,9 +91,23 @@ public Task DeleteMessagesAsync(IConnection connection, CancellationToken token)
 
 ## Pop3Client.DeleteMessagesAsync method (4 of 4)
 
+Deletes all messages
+
 ```csharp
 public Task DeleteMessagesAsync(CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
+
+### Remarks
+
+The POP3 server marks the message as deleted. The POP3 server does not actually delete the message until the POP3 session enters the UPDATE state.
 
 ### See Also
 

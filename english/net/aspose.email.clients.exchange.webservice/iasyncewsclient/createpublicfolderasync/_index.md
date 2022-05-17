@@ -8,11 +8,25 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createpublicf
 ---
 ## IAsyncEwsClient.CreatePublicFolderAsync method (1 of 2)
 
+Creates the specified public folder in the root public folder
+
 ```csharp
 public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name, 
     ExchangeFolderPermissionCollection permissions, ExchangeFolderType folderType, 
     string parentFolderUri = null, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | A name of new folder |
+| permissions | ExchangeFolderPermissionCollection | A permission on new folder |
+| folderType | ExchangeFolderType | Type of folder |
+| parentFolderUri | String | The URI of parent folder |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Returns folder information
 
 ### See Also
 
@@ -27,11 +41,24 @@ public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name,
 
 ## IAsyncEwsClient.CreatePublicFolderAsync method (2 of 2)
 
+Creates the specified public folder in the root public folder
+
 ```csharp
 public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name, 
     ExchangeFolderPermissionCollection permissions, string parentFolderUri = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | A name of new folder |
+| permissions | ExchangeFolderPermissionCollection | A permission on new folder |
+| parentFolderUri | String | The URI of parent folder |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Returns folder information
 
 ### See Also
 

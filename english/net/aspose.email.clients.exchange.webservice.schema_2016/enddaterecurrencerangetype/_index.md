@@ -3,7 +3,7 @@ title: EndDateRecurrenceRangeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5650
+weight: 7190
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/enddaterecurrencerangetype/
 ---
 ## EndDateRecurrenceRangeType class

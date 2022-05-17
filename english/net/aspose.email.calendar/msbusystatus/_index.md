@@ -3,7 +3,7 @@ title: MSBusyStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 610
 url: /net/aspose.email.calendar/msbusystatus/
 ---
 ## MSBusyStatus enumeration

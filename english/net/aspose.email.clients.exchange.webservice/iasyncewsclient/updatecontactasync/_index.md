@@ -8,9 +8,16 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/updatecontact
 ---
 ## IAsyncEwsClient.UpdateContactAsync method
 
+Updates a contact item in the Exchange store.
+
 ```csharp
 public Task UpdateContactAsync(Contact contact, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| contact | Contact | Contact item. |
+| cancellationToken | CancellationToken | The cancellation token. |
 
 ### See Also
 

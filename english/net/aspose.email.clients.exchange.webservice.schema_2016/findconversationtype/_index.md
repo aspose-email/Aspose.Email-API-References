@@ -3,7 +3,7 @@ title: FindConversationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6150
+weight: 7690
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/
 ---
 ## FindConversationType class

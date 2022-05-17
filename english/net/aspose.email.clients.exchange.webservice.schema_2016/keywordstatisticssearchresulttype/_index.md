@@ -3,7 +3,7 @@ title: KeywordStatisticsSearchResultType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9090
+weight: 10630
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/keywordstatisticssearchresulttype/
 ---
 ## KeywordStatisticsSearchResultType class

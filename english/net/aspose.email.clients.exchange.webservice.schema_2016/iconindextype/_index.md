@@ -3,7 +3,7 @@ title: IconIndexType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8620
+weight: 10160
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/iconindextype/
 ---
 ## IconIndexType enumeration

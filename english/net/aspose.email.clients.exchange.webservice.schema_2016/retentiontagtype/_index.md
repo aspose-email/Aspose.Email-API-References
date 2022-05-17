@@ -3,7 +3,7 @@ title: RetentionTagType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11530
+weight: 13070
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/retentiontagtype/
 ---
 ## RetentionTagType class

@@ -3,7 +3,7 @@ title: ReminderAttendeeCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 830
+weight: 850
 url: /net/aspose.email.calendar/reminderattendeecollection/
 ---
 ## ReminderAttendeeCollection class

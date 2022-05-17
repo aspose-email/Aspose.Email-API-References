@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.imap/imapclient/existfolderasync/
 ---
 ## ImapClient.ExistFolderAsync method (1 of 4)
 
+Check whether this folder exists
+
 ```csharp
 public Task<bool> ExistFolderAsync(string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Name of the folder |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -22,9 +32,20 @@ public Task<bool> ExistFolderAsync(string folderName)
 
 ## ImapClient.ExistFolderAsync method (2 of 4)
 
+Check whether this folder exists
+
 ```csharp
 public Task<bool> ExistFolderAsync(IConnection connection, string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Name of the folder |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,9 +58,20 @@ public Task<bool> ExistFolderAsync(IConnection connection, string folderName)
 
 ## ImapClient.ExistFolderAsync method (3 of 4)
 
+Check whether this folder exists
+
 ```csharp
 public Task<bool> ExistFolderAsync(string folderName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Name of the folder |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -51,10 +83,22 @@ public Task<bool> ExistFolderAsync(string folderName, CancellationToken token)
 
 ## ImapClient.ExistFolderAsync method (4 of 4)
 
+Check whether this folder exists
+
 ```csharp
 public Task<bool> ExistFolderAsync(IConnection connection, string folderName, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Name of the folder |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

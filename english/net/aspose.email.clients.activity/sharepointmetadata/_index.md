@@ -3,7 +3,7 @@ title: SharePointMetadata
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1320
+weight: 2770
 url: /net/aspose.email.clients.activity/sharepointmetadata/
 ---
 ## SharePointMetadata class

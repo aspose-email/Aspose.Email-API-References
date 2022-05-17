@@ -3,7 +3,7 @@ title: TimeChangeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13050
+weight: 14590
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/timechangetype/
 ---
 ## TimeChangeType class

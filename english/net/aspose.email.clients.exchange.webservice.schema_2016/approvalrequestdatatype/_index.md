@@ -3,7 +3,7 @@ title: ApprovalRequestDataType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3220
+weight: 4760
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/approvalrequestdatatype/
 ---
 ## ApprovalRequestDataType class

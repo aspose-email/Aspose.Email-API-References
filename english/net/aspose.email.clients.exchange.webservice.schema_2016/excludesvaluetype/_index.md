@@ -3,7 +3,7 @@ title: ExcludesValueType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5780
+weight: 7320
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/excludesvaluetype/
 ---
 ## ExcludesValueType class

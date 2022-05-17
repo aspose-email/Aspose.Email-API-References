@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15780
+weight: 17380
 url: /net/aspose.email/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class

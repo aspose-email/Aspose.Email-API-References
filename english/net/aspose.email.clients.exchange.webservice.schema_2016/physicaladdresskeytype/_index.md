@@ -3,7 +3,7 @@ title: PhysicalAddressKeyType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10440
+weight: 11980
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/physicaladdresskeytype/
 ---
 ## PhysicalAddressKeyType enumeration

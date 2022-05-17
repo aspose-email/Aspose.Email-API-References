@@ -3,7 +3,7 @@ title: ActivityClient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 910
+weight: 2360
 url: /net/aspose.email.clients.activity/activityclient/
 ---
 ## ActivityClient class

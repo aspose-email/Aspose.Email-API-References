@@ -3,7 +3,7 @@ title: ContactItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3980
+weight: 5520
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/contactitemtype/
 ---
 ## ContactItemType class

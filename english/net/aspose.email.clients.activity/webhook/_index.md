@@ -3,7 +3,7 @@ title: Webhook
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1370
+weight: 2820
 url: /net/aspose.email.clients.activity/webhook/
 ---
 ## Webhook class

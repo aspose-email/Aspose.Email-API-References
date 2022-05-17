@@ -3,7 +3,7 @@ title: MessageInfoType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1980
+weight: 3520
 url: /net/aspose.email.clients.exchange/messageinfotype/
 ---
 ## MessageInfoType enumeration

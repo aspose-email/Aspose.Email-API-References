@@ -3,7 +3,7 @@ title: AsposeArgumentOutOfRangeException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 280
 url: /net/aspose.email/asposeargumentoutofrangeexception/
 ---
 ## AsposeArgumentOutOfRangeException class

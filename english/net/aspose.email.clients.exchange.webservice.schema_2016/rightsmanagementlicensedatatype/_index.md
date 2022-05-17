@@ -3,7 +3,7 @@ title: RightsManagementLicenseDataType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11550
+weight: 13090
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/
 ---
 ## RightsManagementLicenseDataType class

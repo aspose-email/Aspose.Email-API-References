@@ -3,7 +3,7 @@ title: CalendarItemUpdateOperationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3770
+weight: 5310
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/calendaritemupdateoperationtype/
 ---
 ## CalendarItemUpdateOperationType enumeration

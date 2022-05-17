@@ -3,7 +3,7 @@ title: SearchFolderTraversalType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11750
+weight: 13290
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/searchfoldertraversaltype/
 ---
 ## SearchFolderTraversalType enumeration

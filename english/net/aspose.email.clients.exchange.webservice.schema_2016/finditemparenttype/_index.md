@@ -3,7 +3,7 @@ title: FindItemParentType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6240
+weight: 7780
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/
 ---
 ## FindItemParentType class

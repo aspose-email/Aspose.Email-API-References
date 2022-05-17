@@ -3,7 +3,7 @@ title: TeamMailboxLifecycleStateType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13030
+weight: 14570
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/teammailboxlifecyclestatetype/
 ---
 ## TeamMailboxLifecycleStateType enumeration

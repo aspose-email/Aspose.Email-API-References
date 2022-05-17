@@ -3,7 +3,7 @@ title: ConversationNodeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4160
+weight: 5700
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/conversationnodetype/
 ---
 ## ConversationNodeType class

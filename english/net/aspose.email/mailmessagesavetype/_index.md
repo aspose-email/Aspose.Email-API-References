@@ -3,7 +3,7 @@ title: MailMessageSaveType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15960
+weight: 17560
 url: /net/aspose.email/mailmessagesavetype/
 ---
 ## MailMessageSaveType class

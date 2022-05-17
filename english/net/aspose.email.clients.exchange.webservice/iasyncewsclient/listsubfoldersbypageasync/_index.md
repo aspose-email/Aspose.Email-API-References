@@ -8,10 +8,22 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listsubfolder
 ---
 ## IAsyncEwsClient.ListSubFoldersByPageAsync method
 
+Searches the specified folder in the given parent folder with paging Method supports paging.
+
 ```csharp
 public Task<ExchangeFolderPageInfo> ListSubFoldersByPageAsync(string parentFolderUri, 
     PageInfo page, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentFolderUri | String | A parent folder URI |
+| page | PageInfo | A page info |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+A [`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo) containing the found folder if folder name is specified; otherwise, returns all subfolders
 
 ### See Also
 

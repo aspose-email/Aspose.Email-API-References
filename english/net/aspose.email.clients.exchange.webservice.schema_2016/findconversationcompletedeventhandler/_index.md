@@ -3,7 +3,7 @@ title: FindConversationCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6130
+weight: 7670
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findconversationcompletedeventhandler/
 ---
 ## FindConversationCompletedEventHandler delegate

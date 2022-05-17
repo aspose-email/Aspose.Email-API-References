@@ -3,7 +3,7 @@ title: ContextPropertyType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4120
+weight: 5660
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/contextpropertytype/
 ---
 ## ContextPropertyType class

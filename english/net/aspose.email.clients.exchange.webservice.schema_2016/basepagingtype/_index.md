@@ -3,7 +3,7 @@ title: BasePagingType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3590
+weight: 5130
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/
 ---
 ## BasePagingType class

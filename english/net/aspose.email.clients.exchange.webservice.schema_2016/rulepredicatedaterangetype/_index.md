@@ -3,7 +3,7 @@ title: RulePredicateDateRangeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11640
+weight: 13180
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/rulepredicatedaterangetype/
 ---
 ## RulePredicateDateRangeType class

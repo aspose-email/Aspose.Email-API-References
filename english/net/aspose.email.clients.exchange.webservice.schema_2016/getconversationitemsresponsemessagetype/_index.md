@@ -3,7 +3,7 @@ title: GetConversationItemsResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6940
+weight: 8480
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getconversationitemsresponsemessagetype/
 ---
 ## GetConversationItemsResponseMessageType class

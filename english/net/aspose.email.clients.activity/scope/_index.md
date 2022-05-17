@@ -3,7 +3,7 @@ title: Scope
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1300
+weight: 2750
 url: /net/aspose.email.clients.activity/scope/
 ---
 ## Scope enumeration

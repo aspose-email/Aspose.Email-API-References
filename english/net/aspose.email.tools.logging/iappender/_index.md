@@ -3,7 +3,7 @@ title: IAppender
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18630
+weight: 20280
 url: /net/aspose.email.tools.logging/iappender/
 ---
 ## IAppender interface

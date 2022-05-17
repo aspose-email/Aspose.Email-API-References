@@ -3,7 +3,7 @@ title: UserRole
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14540
+weight: 16080
 url: /net/aspose.email.clients.graph/userrole/
 ---
 ## UserRole enumeration

@@ -3,7 +3,7 @@ title: ExportItemsCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5920
+weight: 7460
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/exportitemscompletedeventhandler/
 ---
 ## ExportItemsCompletedEventHandler delegate

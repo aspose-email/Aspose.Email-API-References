@@ -3,7 +3,7 @@ title: AttendeeConstraintItem
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3450
+weight: 4990
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/attendeeconstraintitem/
 ---
 ## AttendeeConstraintItem class

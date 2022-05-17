@@ -3,7 +3,7 @@ title: ResultStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1290
+weight: 2740
 url: /net/aspose.email.clients.activity/resultstatus/
 ---
 ## ResultStatus enumeration

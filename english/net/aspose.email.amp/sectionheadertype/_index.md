@@ -3,7 +3,7 @@ title: SectionHeaderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.email.amp/sectionheadertype/
 ---
 ## SectionHeaderType enumeration

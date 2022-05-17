@@ -3,7 +3,7 @@ title: SearchPageDirectionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11840
+weight: 13380
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/searchpagedirectiontype/
 ---
 ## SearchPageDirectionType enumeration

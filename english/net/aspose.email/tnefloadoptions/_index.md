@@ -3,7 +3,7 @@ title: TnefLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18530
+weight: 20180
 url: /net/aspose.email/tnefloadoptions/
 ---
 ## TnefLoadOptions class

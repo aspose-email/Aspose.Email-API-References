@@ -3,7 +3,7 @@ title: MailboxStatisticsSearchResultType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9310
+weight: 10850
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mailboxstatisticssearchresulttype/
 ---
 ## MailboxStatisticsSearchResultType class

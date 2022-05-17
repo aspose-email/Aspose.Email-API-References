@@ -3,7 +3,7 @@ title: MessageKind
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18400
+weight: 20050
 url: /net/aspose.email.storage.pst/messagekind/
 ---
 ## MessageKind enumeration

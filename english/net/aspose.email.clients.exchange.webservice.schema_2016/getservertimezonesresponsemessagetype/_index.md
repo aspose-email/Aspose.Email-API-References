@@ -3,7 +3,7 @@ title: GetServerTimeZonesResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8020
+weight: 9560
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getservertimezonesresponsemessagetype/
 ---
 ## GetServerTimeZonesResponseMessageType class

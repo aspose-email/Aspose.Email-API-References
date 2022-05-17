@@ -3,7 +3,7 @@ title: Appointment
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 430
 url: /net/aspose.email.calendar/appointment/
 ---
 ## Appointment class
@@ -36,7 +36,7 @@ public class Appointment
 | [EndDate](enddate) { get; set; } | Gets or sets the end date. |
 | [EndTimeZone](endtimezone) { get; set; } | End time zone |
 | [Flags](flags) { get; set; } | Gets or sets appointment flags. |
-| [IsDescriptionHtml](isdescriptionhtml) { get; set; } | Gets or sets value which indicates if description is in HTML format |
+| [HtmlDescription](htmldescription) { get; set; } | Gets or sets html representation of description. |
 | [LastModifiedDate](lastmodifieddate) { get; set; } | Gets or sets the date and time that calendar information was last revised. |
 | [Location](location) { get; set; } | Gets or sets the location. |
 | [MethodType](methodtype) { get; set; } | Gets or sets the iCalendar object method type associated with the calendar object. |

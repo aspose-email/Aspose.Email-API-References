@@ -3,7 +3,7 @@ title: EmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15510
+weight: 17110
 url: /net/aspose.email/emlsaveoptions/
 ---
 ## EmlSaveOptions class

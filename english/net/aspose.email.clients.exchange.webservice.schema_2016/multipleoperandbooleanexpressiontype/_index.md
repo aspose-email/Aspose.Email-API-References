@@ -3,7 +3,7 @@ title: MultipleOperandBooleanExpressionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9820
+weight: 11360
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/multipleoperandbooleanexpressiontype/
 ---
 ## MultipleOperandBooleanExpressionType class

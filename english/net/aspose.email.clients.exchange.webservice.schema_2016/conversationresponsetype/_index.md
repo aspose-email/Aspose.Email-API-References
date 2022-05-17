@@ -3,7 +3,7 @@ title: ConversationResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4200
+weight: 5740
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/conversationresponsetype/
 ---
 ## ConversationResponseType class

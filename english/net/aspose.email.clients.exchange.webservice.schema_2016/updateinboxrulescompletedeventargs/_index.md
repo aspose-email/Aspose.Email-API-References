@@ -3,7 +3,7 @@ title: UpdateInboxRulesCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13390
+weight: 14930
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updateinboxrulescompletedeventargs/
 ---
 ## UpdateInboxRulesCompletedEventArgs class

@@ -3,7 +3,7 @@ title: ValidationResponseCode
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18990
+weight: 20640
 url: /net/aspose.email.tools.verifications/validationresponsecode/
 ---
 ## ValidationResponseCode enumeration

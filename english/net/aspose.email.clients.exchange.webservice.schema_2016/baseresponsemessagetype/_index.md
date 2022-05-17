@@ -3,7 +3,7 @@ title: BaseResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3630
+weight: 5170
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/baseresponsemessagetype/
 ---
 ## BaseResponseMessageType class

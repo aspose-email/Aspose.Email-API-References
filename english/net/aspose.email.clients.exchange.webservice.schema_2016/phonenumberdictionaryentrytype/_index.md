@@ -3,7 +3,7 @@ title: PhoneNumberDictionaryEntryType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10390
+weight: 11930
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/phonenumberdictionaryentrytype/
 ---
 ## PhoneNumberDictionaryEntryType class

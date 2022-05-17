@@ -3,7 +3,7 @@ title: GetAppMarketplaceUrlResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6810
+weight: 8350
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getappmarketplaceurlresponsemessagetype/
 ---
 ## GetAppMarketplaceUrlResponseMessageType class

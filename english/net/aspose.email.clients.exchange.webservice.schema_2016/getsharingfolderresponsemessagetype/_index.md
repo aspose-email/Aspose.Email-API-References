@@ -3,7 +3,7 @@ title: GetSharingFolderResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8110
+weight: 9650
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getsharingfolderresponsemessagetype/
 ---
 ## GetSharingFolderResponseMessageType class

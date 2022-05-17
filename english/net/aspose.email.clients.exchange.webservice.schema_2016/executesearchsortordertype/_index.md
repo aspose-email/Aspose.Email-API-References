@@ -3,7 +3,7 @@ title: ExecuteSearchSortOrderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5840
+weight: 7380
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/executesearchsortordertype/
 ---
 ## ExecuteSearchSortOrderType enumeration

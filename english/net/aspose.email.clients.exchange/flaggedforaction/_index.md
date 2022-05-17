@@ -3,7 +3,7 @@ title: FlaggedForAction
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1920
+weight: 3460
 url: /net/aspose.email.clients.exchange/flaggedforaction/
 ---
 ## FlaggedForAction enumeration

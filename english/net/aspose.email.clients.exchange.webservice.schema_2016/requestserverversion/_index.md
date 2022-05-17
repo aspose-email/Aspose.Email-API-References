@@ -3,7 +3,7 @@ title: RequestServerVersion
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11350
+weight: 12890
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/requestserverversion/
 ---
 ## RequestServerVersion class
@@ -27,7 +27,6 @@ public class RequestServerVersion : SoapHeader
 
 ### See Also
 
-* class [SoapHeader](../../system.web.services.protocols/soapheader)
 * namespace [Aspose.Email.Clients.Exchange.WebService.Schema_2016](../../aspose.email.clients.exchange.webservice.schema_2016)
 * assembly [Aspose.Email](../../)
 

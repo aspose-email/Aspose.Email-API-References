@@ -3,7 +3,7 @@ title: UpdateItemInRecoverableItemsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13490
+weight: 15030
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updateiteminrecoverableitemstype/
 ---
 ## UpdateItemInRecoverableItemsType class

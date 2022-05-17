@@ -3,7 +3,7 @@ title: GetPrivateCatalogAddInsCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7780
+weight: 9320
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getprivatecatalogaddinscompletedeventhandler/
 ---
 ## GetPrivateCatalogAddInsCompletedEventHandler delegate

@@ -3,7 +3,7 @@ title: GetUserPhotoCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8400
+weight: 9940
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuserphotocompletedeventargs/
 ---
 ## GetUserPhotoCompletedEventArgs class

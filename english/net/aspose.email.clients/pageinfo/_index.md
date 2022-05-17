@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15160
+weight: 16710
 url: /net/aspose.email.clients/pageinfo/
 ---
 ## PageInfo class

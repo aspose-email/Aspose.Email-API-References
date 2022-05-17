@@ -3,7 +3,7 @@ title: LinkedResourceCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15880
+weight: 17480
 url: /net/aspose.email/linkedresourcecollection/
 ---
 ## LinkedResourceCollection class

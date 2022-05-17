@@ -3,7 +3,7 @@ title: FreebusyQuery
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14190
+weight: 15730
 url: /net/aspose.email.clients.google/freebusyquery/
 ---
 ## FreebusyQuery class

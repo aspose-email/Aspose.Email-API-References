@@ -8,31 +8,6 @@ url: /net/aspose.email.clients.exchange.webservice/iewsclient/createfolder/
 ---
 ## IEWSClient.CreateFolder method (1 of 6)
 
-Creates new folder in the root folder.
-
-```csharp
-public ExchangeFolderInfo CreateFolder(string name)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | String | The name of new folder |
-
-## Return Value
-
-Returns folder information
-
-### See Also
-
-* class [ExchangeFolderInfo](../../../aspose.email.clients.exchange/exchangefolderinfo)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## IEWSClient.CreateFolder method (2 of 6)
-
 Creates the new folder with the specified name in the specified parent folder.
 
 ```csharp
@@ -59,7 +34,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name)
 
 ---
 
-## IEWSClient.CreateFolder method (3 of 6)
+## IEWSClient.CreateFolder method (2 of 6)
 
 Creates the new folder
 
@@ -88,7 +63,7 @@ Returns folder information
 
 ---
 
-## IEWSClient.CreateFolder method (4 of 6)
+## IEWSClient.CreateFolder method (3 of 6)
 
 Creates the new folder
 
@@ -118,7 +93,7 @@ Returns folder information
 
 ---
 
-## IEWSClient.CreateFolder method (5 of 6)
+## IEWSClient.CreateFolder method (4 of 6)
 
 Creates new folder in the root folder.
 
@@ -145,7 +120,7 @@ Returns folder information
 
 ---
 
-## IEWSClient.CreateFolder method (6 of 6)
+## IEWSClient.CreateFolder method (5 of 6)
 
 Creates the new folder
 
@@ -168,6 +143,31 @@ Returns folder information
 
 * class [ExchangeFolderInfo](../../../aspose.email.clients.exchange/exchangefolderinfo)
 * enum [ExchangeFolderType](../../../aspose.email.clients.exchange/exchangefoldertype)
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## IEWSClient.CreateFolder method (6 of 6)
+
+Creates new folder in the root folder.
+
+```csharp
+public ExchangeFolderInfo CreateFolder(string name)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of new folder |
+
+## Return Value
+
+Returns folder information
+
+### See Also
+
+* class [ExchangeFolderInfo](../../../aspose.email.clients.exchange/exchangefolderinfo)
 * interface [IEWSClient](../../iewsclient)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
 * assembly [Aspose.Email](../../../)

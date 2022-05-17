@@ -3,7 +3,7 @@ title: MessageObjectAttachmentsCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17040
+weight: 18640
 url: /net/aspose.email.mapi.msg/messageobjectattachmentscollection/
 ---
 ## MessageObjectAttachmentsCollection class

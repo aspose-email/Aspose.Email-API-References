@@ -3,7 +3,7 @@ title: PerformReminderActionResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10210
+weight: 11750
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/performreminderactionresponsemessagetype/
 ---
 ## PerformReminderActionResponseMessageType class

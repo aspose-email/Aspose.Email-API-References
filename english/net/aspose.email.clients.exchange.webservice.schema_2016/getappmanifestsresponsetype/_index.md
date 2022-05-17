@@ -3,7 +3,7 @@ title: GetAppManifestsResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6770
+weight: 8310
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getappmanifestsresponsetype/
 ---
 ## GetAppManifestsResponseType class

@@ -3,7 +3,7 @@ title: UpdateUserConfigurationCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13610
+weight: 15150
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updateuserconfigurationcompletedeventargs/
 ---
 ## UpdateUserConfigurationCompletedEventArgs class

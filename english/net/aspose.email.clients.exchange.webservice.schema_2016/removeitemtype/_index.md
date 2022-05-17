@@ -3,7 +3,7 @@ title: RemoveItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11240
+weight: 12780
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/removeitemtype/
 ---
 ## RemoveItemType class

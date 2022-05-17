@@ -3,7 +3,7 @@ title: AcceptSharingInvitationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2680
+weight: 4220
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/acceptsharinginvitationtype/
 ---
 ## AcceptSharingInvitationType class

@@ -3,7 +3,7 @@ title: ArrayOfTrackingPropertiesType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3360
+weight: 4900
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/arrayoftrackingpropertiestype/
 ---
 ## ArrayOfTrackingPropertiesType class

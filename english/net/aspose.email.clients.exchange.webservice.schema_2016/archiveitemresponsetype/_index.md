@@ -3,7 +3,7 @@ title: ArchiveItemResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3250
+weight: 4790
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/archiveitemresponsetype/
 ---
 ## ArchiveItemResponseType class

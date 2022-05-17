@@ -3,7 +3,7 @@ title: AbsoluteMonthlyRecurrencePatternType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2650
+weight: 4190
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/absolutemonthlyrecurrencepatterntype/
 ---
 ## AbsoluteMonthlyRecurrencePatternType class

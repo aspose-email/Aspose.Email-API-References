@@ -3,7 +3,7 @@ title: AddImContactToGroupResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2800
+weight: 4340
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/addimcontacttogroupresponsemessagetype/
 ---
 ## AddImContactToGroupResponseMessageType class

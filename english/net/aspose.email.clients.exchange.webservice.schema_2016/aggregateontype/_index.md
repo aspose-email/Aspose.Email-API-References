@@ -3,7 +3,7 @@ title: AggregateOnType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3030
+weight: 4570
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/aggregateontype/
 ---
 ## AggregateOnType class

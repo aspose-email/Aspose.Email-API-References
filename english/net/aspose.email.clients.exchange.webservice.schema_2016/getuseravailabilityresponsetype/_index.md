@@ -3,7 +3,7 @@ title: GetUserAvailabilityResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8300
+weight: 9840
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuseravailabilityresponsetype/
 ---
 ## GetUserAvailabilityResponseType class

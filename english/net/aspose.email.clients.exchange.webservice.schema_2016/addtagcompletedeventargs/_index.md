@@ -3,7 +3,7 @@ title: AddTagCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2960
+weight: 4500
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/addtagcompletedeventargs/
 ---
 ## AddTagCompletedEventArgs class

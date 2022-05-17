@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18540
+weight: 20190
 url: /net/aspose.email.tools/fileformatutil/
 ---
 ## FileFormatUtil class

@@ -3,7 +3,7 @@ title: GetPrivateCatalogAddInsResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7790
+weight: 9330
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getprivatecatalogaddinsresponsetype/
 ---
 ## GetPrivateCatalogAddInsResponseType class

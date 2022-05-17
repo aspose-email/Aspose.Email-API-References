@@ -3,7 +3,7 @@ title: ConversationActionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4130
+weight: 5670
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/
 ---
 ## ConversationActionType class

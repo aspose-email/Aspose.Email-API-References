@@ -3,7 +3,7 @@ title: EWSClient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2140
+weight: 3680
 url: /net/aspose.email.clients.exchange.webservice/ewsclient/
 ---
 ## EWSClient class
@@ -26,7 +26,7 @@ public abstract class EWSClient : ExchangeClientBase
 | static [GetEWSClient](getewsclient)(string, string, string, WebProxy) | Initializes a new instance of the [`EWSClient`](../ewsclient) based class |
 | static [GetEWSClient](getewsclient)(string, string, string, string, WebProxy) | Initializes a new instance of the [`EWSClient`](../ewsclient) based class |
 | static [GetEWSClient](getewsclient)(ExchangeVersion, bool, string, string, ICredentials, WebProxy) | Initializes a new instance of the [`EWSClient`](../ewsclient) based class |
-| static [GetEwsClientAsync](getewsclientasync)(string, ICredentials, WebProxy, CancellationToken) |  |
+| static [GetEwsClientAsync](getewsclientasync)(string, ICredentials, WebProxy, CancellationToken) | Initializes a new instance of the [`EWSClient`](../ewsclient) based class |
 
 ### See Also
 

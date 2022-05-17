@@ -8,10 +8,24 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesb
 ---
 ## IAsyncEwsClient.ListMessagesByPageAsync method (1 of 2)
 
+List the messages in the specified folder.
+
 ```csharp
 public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, int itemsPerPage, 
     int offset = 0, MailQuery query = null, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folder | String | A folder to search messages in. |
+| itemsPerPage | Int32 | A number of items in page |
+| offset | Int32 | An offset of next page in view |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search criteria. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
 ### See Also
 
@@ -25,10 +39,22 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, int 
 
 ## IAsyncEwsClient.ListMessagesByPageAsync method (2 of 2)
 
+List the messages in the specified folder.
+
 ```csharp
 public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, PageInfo pageInfo, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folder | String | A folder to search messages in. |
+| pageInfo | PageInfo | A page info |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
 ### See Also
 

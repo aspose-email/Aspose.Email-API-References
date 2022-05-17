@@ -3,7 +3,7 @@ title: GetUserConfigurationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8350
+weight: 9890
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuserconfigurationtype/
 ---
 ## GetUserConfigurationType class

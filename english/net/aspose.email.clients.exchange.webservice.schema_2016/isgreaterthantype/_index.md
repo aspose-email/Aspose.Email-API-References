@@ -3,7 +3,7 @@ title: IsGreaterThanType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8890
+weight: 10430
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/isgreaterthantype/
 ---
 ## IsGreaterThanType class

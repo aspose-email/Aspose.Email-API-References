@@ -3,7 +3,7 @@ title: FailureItem
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15590
+weight: 17190
 url: /net/aspose.email.exceptions/failureitem/
 ---
 ## FailureItem enumeration

@@ -3,7 +3,7 @@ title: DeleteAttachmentCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4830
+weight: 6370
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deleteattachmentcompletedeventargs/
 ---
 ## DeleteAttachmentCompletedEventArgs class

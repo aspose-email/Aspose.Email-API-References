@@ -3,7 +3,7 @@ title: GetPhoneCallInformationResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7750
+weight: 9290
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getphonecallinformationresponsemessagetype/
 ---
 ## GetPhoneCallInformationResponseMessageType class

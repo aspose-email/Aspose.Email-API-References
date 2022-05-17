@@ -3,7 +3,7 @@ title: GetSharingFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8120
+weight: 9660
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getsharingfoldertype/
 ---
 ## GetSharingFolderType class

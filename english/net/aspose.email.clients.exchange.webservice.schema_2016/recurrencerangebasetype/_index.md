@@ -3,7 +3,7 @@ title: RecurrenceRangeBaseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10800
+weight: 12340
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/recurrencerangebasetype/
 ---
 ## RecurrenceRangeBaseType class

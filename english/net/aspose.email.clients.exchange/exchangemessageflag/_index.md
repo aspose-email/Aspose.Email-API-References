@@ -3,7 +3,7 @@ title: ExchangeMessageFlag
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1850
+weight: 3390
 url: /net/aspose.email.clients.exchange/exchangemessageflag/
 ---
 ## ExchangeMessageFlag enumeration

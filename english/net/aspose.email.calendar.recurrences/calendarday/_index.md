@@ -3,7 +3,7 @@ title: CalendarDay
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 650
+weight: 670
 url: /net/aspose.email.calendar.recurrences/calendarday/
 ---
 ## CalendarDay enumeration

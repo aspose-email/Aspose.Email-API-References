@@ -3,7 +3,7 @@ title: AppointmentCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 460
 url: /net/aspose.email.calendar/appointmentcollection/
 ---
 ## AppointmentCollection class

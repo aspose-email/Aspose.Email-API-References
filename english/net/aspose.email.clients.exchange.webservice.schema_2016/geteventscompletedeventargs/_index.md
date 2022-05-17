@@ -3,7 +3,7 @@ title: GetEventsCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7050
+weight: 8590
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/geteventscompletedeventargs/
 ---
 ## GetEventsCompletedEventArgs class

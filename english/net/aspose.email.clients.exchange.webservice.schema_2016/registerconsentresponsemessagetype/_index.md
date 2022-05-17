@@ -3,7 +3,7 @@ title: RegisterConsentResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10950
+weight: 12490
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/registerconsentresponsemessagetype/
 ---
 ## RegisterConsentResponseMessageType class

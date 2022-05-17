@@ -3,7 +3,7 @@ title: FileCompatibilityMode
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15670
+weight: 17270
 url: /net/aspose.email/filecompatibilitymode/
 ---
 ## FileCompatibilityMode enumeration

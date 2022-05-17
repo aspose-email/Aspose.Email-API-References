@@ -8,11 +8,26 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/emptyfolderas
 ---
 ## IAsyncEwsClient.EmptyFolderAsync method
 
+Empties the specified folder
+
 ```csharp
 public Task EmptyFolderAsync(string folderUri, 
     EmptyFolderOptions options = EmptyFolderOptions.None, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderUri | String | Specifies the folder to be empty |
+| options | EmptyFolderOptions | Specifies the options of clearing folder |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [ExchangeException](../../../aspose.email/exchangeexception) | EmptyFolder operation failed |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* is `null` or `empty` |
 
 ### See Also
 

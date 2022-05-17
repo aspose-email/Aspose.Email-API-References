@@ -3,7 +3,7 @@ title: MeetingRequestTypeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9530
+weight: 11070
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/meetingrequesttypetype/
 ---
 ## MeetingRequestTypeType enumeration

@@ -3,7 +3,7 @@ title: ComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18800
+weight: 20450
 url: /net/aspose.email.tools.search/comparisonfield/
 ---
 ## ComparisonField class

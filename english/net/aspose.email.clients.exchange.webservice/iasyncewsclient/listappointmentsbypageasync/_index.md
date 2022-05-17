@@ -8,10 +8,24 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listappointme
 ---
 ## IAsyncEwsClient.ListAppointmentsByPageAsync method
 
+Retrieves page with appointments for specified calendar folder
+
 ```csharp
 public Task<AppointmentPageInfo> ListAppointmentsByPageAsync(string folderUri, MailQuery query, 
     int itemsPerPage, int itemOffset, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderUri | String | A folder to search appointments in. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| itemsPerPage | Int32 | A number of items in page |
+| itemOffset | Int32 | An offset of next item in view |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Returns page with appointments
 
 ### See Also
 

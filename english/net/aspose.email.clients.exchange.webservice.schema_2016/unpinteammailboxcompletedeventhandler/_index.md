@@ -3,7 +3,7 @@ title: UnpinTeamMailboxCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13240
+weight: 14780
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/unpinteammailboxcompletedeventhandler/
 ---
 ## UnpinTeamMailboxCompletedEventHandler delegate

@@ -3,7 +3,7 @@ title: AmpAccordion
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.email.amp/ampaccordion/
 ---
 ## AmpAccordion class

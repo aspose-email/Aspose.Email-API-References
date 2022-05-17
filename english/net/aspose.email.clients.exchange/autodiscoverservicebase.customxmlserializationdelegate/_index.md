@@ -3,7 +3,7 @@ title: AutodiscoverServiceBase.CustomXmlSerializationDelegate
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1570
+weight: 3110
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase.customxmlserializationdelegate/
 ---
 ## AutodiscoverServiceBase.CustomXmlSerializationDelegate delegate

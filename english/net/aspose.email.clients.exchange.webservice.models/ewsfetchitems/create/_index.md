@@ -8,7 +8,7 @@ url: /net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/create/
 ---
 ## EwsFetchItems.Create method
 
-Creates !:IAsyncEwsClient.FetchItemsAsync method's parameter set.
+Creates [`FetchItemsAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync) method's parameter set.
 
 ```csharp
 public static EwsFetchItems Create()

@@ -3,7 +3,7 @@ title: HttpProxy
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14560
+weight: 16100
 url: /net/aspose.email.clients/httpproxy/
 ---
 ## HttpProxy class

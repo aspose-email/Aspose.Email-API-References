@@ -3,7 +3,7 @@ title: VCardTelephoneType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17970
+weight: 19570
 url: /net/aspose.email.personalinfo.vcard/vcardtelephonetype/
 ---
 ## VCardTelephoneType enumeration

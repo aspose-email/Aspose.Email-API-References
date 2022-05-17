@@ -3,7 +3,7 @@ title: SortingKey
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15070
+weight: 16620
 url: /net/aspose.email.clients.imap/sortingkey/
 ---
 ## SortingKey enumeration

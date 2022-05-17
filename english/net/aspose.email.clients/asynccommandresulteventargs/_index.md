@@ -3,7 +3,7 @@ title: AsyncCommandResultEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1400
+weight: 2850
 url: /net/aspose.email.clients/asynccommandresulteventargs/
 ---
 ## AsyncCommandResultEventArgs class

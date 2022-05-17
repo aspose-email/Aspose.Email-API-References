@@ -3,7 +3,7 @@ title: MapiConversionOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16550
+weight: 18150
 url: /net/aspose.email.mapi/mapiconversionoptions/
 ---
 ## MapiConversionOptions class

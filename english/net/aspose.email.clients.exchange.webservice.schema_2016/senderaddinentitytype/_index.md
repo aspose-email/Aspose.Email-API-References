@@ -3,7 +3,7 @@ title: SenderAddInEntityType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12060
+weight: 13600
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/senderaddinentitytype/
 ---
 ## SenderAddInEntityType class

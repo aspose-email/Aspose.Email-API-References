@@ -8,10 +8,23 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listappointme
 ---
 ## IAsyncEwsClient.ListAppointmentsAsync method
 
+Retrieves list of appointments for specified calendar folder
+
 ```csharp
 public Task<Appointment[]> ListAppointmentsAsync(string folderUri, MailQuery query, bool recursive, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderUri | String | A folder to search appointments in. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
+| recursive | Boolean | Indicates whether recursive listing or not. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Returns array of appointments
 
 ### See Also
 

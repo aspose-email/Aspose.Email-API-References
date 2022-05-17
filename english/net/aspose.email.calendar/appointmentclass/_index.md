@@ -3,7 +3,7 @@ title: AppointmentClass
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 450
 url: /net/aspose.email.calendar/appointmentclass/
 ---
 ## AppointmentClass enumeration

@@ -3,7 +3,7 @@ title: NoteColor
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17130
+weight: 18730
 url: /net/aspose.email.mapi/notecolor/
 ---
 ## NoteColor enumeration

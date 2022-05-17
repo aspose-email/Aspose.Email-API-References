@@ -3,7 +3,7 @@ title: MboxStorageReader
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18160
+weight: 19810
 url: /net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 ## MboxStorageReader class

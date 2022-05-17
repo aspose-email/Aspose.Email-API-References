@@ -3,7 +3,7 @@ title: VCardSoundType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17940
+weight: 19540
 url: /net/aspose.email.personalinfo.vcard/vcardsoundtype/
 ---
 ## VCardSoundType enumeration

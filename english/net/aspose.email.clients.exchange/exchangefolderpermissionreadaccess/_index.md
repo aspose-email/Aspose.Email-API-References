@@ -3,7 +3,7 @@ title: ExchangeFolderPermissionReadAccess
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1790
+weight: 3330
 url: /net/aspose.email.clients.exchange/exchangefolderpermissionreadaccess/
 ---
 ## ExchangeFolderPermissionReadAccess enumeration

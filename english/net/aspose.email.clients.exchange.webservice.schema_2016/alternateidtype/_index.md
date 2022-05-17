@@ -3,7 +3,7 @@ title: AlternateIdType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3060
+weight: 4600
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/alternateidtype/
 ---
 ## AlternateIdType class

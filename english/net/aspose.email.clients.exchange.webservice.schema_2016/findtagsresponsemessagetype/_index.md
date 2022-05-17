@@ -3,7 +3,7 @@ title: FindTagsResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6540
+weight: 8080
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findtagsresponsemessagetype/
 ---
 ## FindTagsResponseMessageType class

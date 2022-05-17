@@ -3,7 +3,7 @@ title: EmptyFolderCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5590
+weight: 7130
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/emptyfoldercompletedeventargs/
 ---
 ## EmptyFolderCompletedEventArgs class

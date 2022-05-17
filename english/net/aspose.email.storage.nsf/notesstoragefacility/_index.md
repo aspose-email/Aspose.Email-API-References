@@ -3,7 +3,7 @@ title: NotesStorageFacility
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18210
+weight: 19860
 url: /net/aspose.email.storage.nsf/notesstoragefacility/
 ---
 ## NotesStorageFacility class

@@ -3,7 +3,7 @@ title: DeclineItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4770
+weight: 6310
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/declineitemtype/
 ---
 ## DeclineItemType class

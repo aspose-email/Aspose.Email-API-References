@@ -3,7 +3,7 @@ title: ExpandDLCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5870
+weight: 7410
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/expanddlcompletedeventhandler/
 ---
 ## ExpandDLCompletedEventHandler delegate

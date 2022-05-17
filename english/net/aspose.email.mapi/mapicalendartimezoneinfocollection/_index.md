@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16350
+weight: 17950
 url: /net/aspose.email.mapi/mapicalendartimezoneinfocollection/
 ---
 ## MapiCalendarTimeZoneInfoCollection class

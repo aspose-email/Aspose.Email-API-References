@@ -8,10 +8,28 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/exportitemsas
 ---
 ## IAsyncEwsClient.ExportItemsAsync method
 
+Exports the specified items from mailbox
+
 ```csharp
 public Task<IEnumerable<ExchangeStreamedItem>> ExportItemsAsync(IEnumerable<string> itemIds, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| itemIds | IEnumerable`1 | Ids of items to be exported |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+An array of [`ExchangeStreamedItem`](../../exchangestreameditem)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *itemIds* is `null` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemIds* is `empty` |
 
 ### See Also
 

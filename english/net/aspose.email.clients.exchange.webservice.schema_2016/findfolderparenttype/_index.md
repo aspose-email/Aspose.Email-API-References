@@ -3,7 +3,7 @@ title: FindFolderParentType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6180
+weight: 7720
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/
 ---
 ## FindFolderParentType class

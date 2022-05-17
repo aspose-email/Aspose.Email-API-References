@@ -3,7 +3,7 @@ title: AllowedConferenceSolutionTypes
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14080
+weight: 15620
 url: /net/aspose.email.clients.google/allowedconferencesolutiontypes/
 ---
 ## AllowedConferenceSolutionTypes enumeration

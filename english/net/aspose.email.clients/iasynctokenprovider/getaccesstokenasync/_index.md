@@ -8,10 +8,21 @@ url: /net/aspose.email.clients/iasynctokenprovider/getaccesstokenasync/
 ---
 ## IAsyncTokenProvider.GetAccessTokenAsync method
 
+Gets oAuth access token.
+
 ```csharp
 public Task<OAuthToken> GetAccessTokenAsync(bool ignoreExistingToken = false, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ignoreExistingToken | Boolean | If ignoreExistingToken is true, requests new token from a server. Otherwise behaviour is depended on whether token exists or not. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
+| cancellationToken | CancellationToken | The cancellation token |
+
+## Return Value
+
+Returns oAuth access token
 
 ### See Also
 

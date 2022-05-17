@@ -3,7 +3,7 @@ title: SyncState
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13970
+weight: 15510
 url: /net/aspose.email.clients.exchange.webservice/syncstate/
 ---
 ## SyncState class

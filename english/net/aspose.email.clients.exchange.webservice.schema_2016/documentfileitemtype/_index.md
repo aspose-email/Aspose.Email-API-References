@@ -3,7 +3,7 @@ title: DocumentFileItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5430
+weight: 6970
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/documentfileitemtype/
 ---
 ## DocumentFileItemType class

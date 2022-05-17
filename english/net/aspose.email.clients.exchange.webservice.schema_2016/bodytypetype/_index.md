@@ -3,7 +3,7 @@ title: BodyTypeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3690
+weight: 5230
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/bodytypetype/
 ---
 ## BodyTypeType enumeration

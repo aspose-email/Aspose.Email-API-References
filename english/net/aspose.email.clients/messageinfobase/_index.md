@@ -3,7 +3,7 @@ title: MessageInfoBase
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15100
+weight: 16650
 url: /net/aspose.email.clients/messageinfobase/
 ---
 ## MessageInfoBase class

@@ -3,7 +3,7 @@ title: FindItemResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6250
+weight: 7790
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/finditemresponsemessagetype/
 ---
 ## FindItemResponseMessageType class

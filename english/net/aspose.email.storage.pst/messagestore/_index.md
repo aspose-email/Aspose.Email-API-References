@@ -3,7 +3,7 @@ title: MessageStore
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18410
+weight: 20060
 url: /net/aspose.email.storage.pst/messagestore/
 ---
 ## MessageStore class

@@ -3,7 +3,7 @@ title: MessageAddedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18370
+weight: 20020
 url: /net/aspose.email.storage.pst/messageaddedeventhandler/
 ---
 ## MessageAddedEventHandler delegate

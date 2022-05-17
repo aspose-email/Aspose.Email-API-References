@@ -8,11 +8,29 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchmessages
 ---
 ## IAsyncEwsClient.FetchMessagesAsync method
 
+Fetches the specified messages.
+
 ```csharp
 public Task<MailMessageCollection> FetchMessagesAsync(IEnumerable<string> uris, 
     IEnumerable<PropertyDescriptor> extendedProperties = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uris | IEnumerable`1 | A IEnumerable containing message uris to be retrieved |
+| extendedProperties | IEnumerable`1 | An enumeration of extended properties |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) containing fetched messages
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris* is `null` |
 
 ### See Also
 

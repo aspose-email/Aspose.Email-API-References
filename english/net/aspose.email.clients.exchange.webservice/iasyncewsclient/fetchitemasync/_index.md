@@ -8,11 +8,29 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemasyn
 ---
 ## IAsyncEwsClient.FetchItemAsync method
 
+Retrieves the complete item with attachments.
+
 ```csharp
 public Task<MapiMessage> FetchItemAsync(string uri, 
     IEnumerable<PropertyDescriptor> extendedProperties = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uri | String | The item URI. |
+| extendedProperties | IEnumerable`1 | Specified properties to retrieve. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage) object.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | The item URI is null or empty. |
 
 ### See Also
 

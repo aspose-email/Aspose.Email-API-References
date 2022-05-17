@@ -3,7 +3,7 @@ title: BaseRequestType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3620
+weight: 5160
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/baserequesttype/
 ---
 ## BaseRequestType class

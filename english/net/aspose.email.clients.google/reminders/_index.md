@@ -3,7 +3,7 @@ title: Reminders
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14300
+weight: 15840
 url: /net/aspose.email.clients.google/reminders/
 ---
 ## Reminders class

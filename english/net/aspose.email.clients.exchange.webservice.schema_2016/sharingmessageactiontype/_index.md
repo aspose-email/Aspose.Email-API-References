@@ -3,7 +3,7 @@ title: SharingMessageActionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12480
+weight: 14020
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/sharingmessageactiontype/
 ---
 ## SharingMessageActionType class

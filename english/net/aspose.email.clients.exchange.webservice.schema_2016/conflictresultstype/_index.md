@@ -3,7 +3,7 @@ title: ConflictResultsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3920
+weight: 5460
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/conflictresultstype/
 ---
 ## ConflictResultsType class

@@ -3,7 +3,7 @@ title: SortConditions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15060
+weight: 16610
 url: /net/aspose.email.clients.imap/sortconditions/
 ---
 ## SortConditions class

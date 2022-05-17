@@ -3,7 +3,7 @@ title: ConnectionFailureCause
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2100
+weight: 3640
 url: /net/aspose.email.clients.exchange.webservice/connectionfailurecause/
 ---
 ## ConnectionFailureCause enumeration

@@ -3,7 +3,7 @@ title: NullAppender
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18700
+weight: 20350
 url: /net/aspose.email.tools.logging/nullappender/
 ---
 ## NullAppender class

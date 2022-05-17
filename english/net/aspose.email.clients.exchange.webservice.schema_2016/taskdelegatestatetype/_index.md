@@ -3,7 +3,7 @@ title: TaskDelegateStateType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12970
+weight: 14510
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/taskdelegatestatetype/
 ---
 ## TaskDelegateStateType enumeration

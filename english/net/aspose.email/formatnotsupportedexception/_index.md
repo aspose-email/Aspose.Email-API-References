@@ -3,7 +3,7 @@ title: FormatNotSupportedException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15710
+weight: 17310
 url: /net/aspose.email/formatnotsupportedexception/
 ---
 ## FormatNotSupportedException class

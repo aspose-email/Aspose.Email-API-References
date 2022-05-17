@@ -3,7 +3,7 @@ title: ProtectionRuleArgumentType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10670
+weight: 12210
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/protectionruleargumenttype/
 ---
 ## ProtectionRuleArgumentType class

@@ -3,7 +3,7 @@ title: AppointmentTransparency
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 580
 url: /net/aspose.email.calendar/appointmenttransparency/
 ---
 ## AppointmentTransparency enumeration

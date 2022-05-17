@@ -3,7 +3,7 @@ title: ExchangeListMessagesOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1830
+weight: 3370
 url: /net/aspose.email.clients.exchange/exchangelistmessagesoptions/
 ---
 ## ExchangeListMessagesOptions enumeration

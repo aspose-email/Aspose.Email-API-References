@@ -3,7 +3,7 @@ title: UninstallAppResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13200
+weight: 14740
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/uninstallappresponsetype/
 ---
 ## UninstallAppResponseType class

@@ -3,7 +3,7 @@ title: GraphClient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14380
+weight: 15920
 url: /net/aspose.email.clients.graph/graphclient/
 ---
 ## GraphClient class

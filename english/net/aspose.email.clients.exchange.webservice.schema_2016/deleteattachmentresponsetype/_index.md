@@ -3,7 +3,7 @@ title: DeleteAttachmentResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4860
+weight: 6400
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deleteattachmentresponsetype/
 ---
 ## DeleteAttachmentResponseType class

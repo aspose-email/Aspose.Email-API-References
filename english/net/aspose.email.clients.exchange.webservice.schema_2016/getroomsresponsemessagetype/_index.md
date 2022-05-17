@@ -3,7 +3,7 @@ title: GetRoomsResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7900
+weight: 9440
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getroomsresponsemessagetype/
 ---
 ## GetRoomsResponseMessageType class

@@ -3,7 +3,7 @@ title: UnsubscribeCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13280
+weight: 14820
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/unsubscribecompletedeventhandler/
 ---
 ## UnsubscribeCompletedEventHandler delegate

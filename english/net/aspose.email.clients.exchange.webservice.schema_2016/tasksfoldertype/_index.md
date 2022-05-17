@@ -3,7 +3,7 @@ title: TasksFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13020
+weight: 14560
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/tasksfoldertype/
 ---
 ## TasksFolderType class

@@ -8,10 +8,29 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/copyitemasync
 ---
 ## IAsyncEwsClient.CopyItemAsync method
 
+Copies the item to specified folder
+
 ```csharp
 public Task<string> CopyItemAsync(string itemUri, string destinationFolderUri, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| itemUri | String | The item URI |
+| destinationFolderUri | String | The destination folder URI |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+An uri of the copied message
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemUri* is `null` or `empty` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderUri* is `null` or `empty` |
 
 ### See Also
 

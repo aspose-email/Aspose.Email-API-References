@@ -3,7 +3,7 @@ title: SuggestionDayResult
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12710
+weight: 14250
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/suggestiondayresult/
 ---
 ## SuggestionDayResult class

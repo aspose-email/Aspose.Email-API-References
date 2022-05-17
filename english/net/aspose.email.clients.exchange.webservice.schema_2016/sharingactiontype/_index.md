@@ -3,7 +3,7 @@ title: SharingActionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12460
+weight: 14000
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/sharingactiontype/
 ---
 ## SharingActionType enumeration

@@ -3,7 +3,7 @@ title: ExchangeAttachmentInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1650
+weight: 3190
 url: /net/aspose.email.clients.exchange/exchangeattachmentinfocollection/
 ---
 ## ExchangeAttachmentInfoCollection class

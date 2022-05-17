@@ -3,7 +3,7 @@ title: PhoneCallState
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2560
+weight: 4100
 url: /net/aspose.email.clients.exchange.webservice/phonecallstate/
 ---
 ## PhoneCallState enumeration

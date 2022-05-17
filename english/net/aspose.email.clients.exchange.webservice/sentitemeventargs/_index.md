@@ -3,7 +3,7 @@ title: SentItemEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13930
+weight: 15470
 url: /net/aspose.email.clients.exchange.webservice/sentitemeventargs/
 ---
 ## SentItemEventArgs class

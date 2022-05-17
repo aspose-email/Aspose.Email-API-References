@@ -8,9 +8,15 @@ url: /net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/setcance
 ---
 ## EwsFindPeople.SetCancellationToken method
 
+Sets the cancellation token.
+
 ```csharp
 public EwsFindPeople SetCancellationToken(CancellationToken cancellationToken)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cancellationToken | CancellationToken | The cancellation token. |
 
 ### See Also
 

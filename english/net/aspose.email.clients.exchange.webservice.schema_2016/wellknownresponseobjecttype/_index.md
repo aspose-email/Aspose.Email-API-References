@@ -3,7 +3,7 @@ title: WellKnownResponseObjectType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13890
+weight: 15430
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/wellknownresponseobjecttype/
 ---
 ## WellKnownResponseObjectType class

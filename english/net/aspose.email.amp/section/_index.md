@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.email.amp/section/
 ---
 ## Section class

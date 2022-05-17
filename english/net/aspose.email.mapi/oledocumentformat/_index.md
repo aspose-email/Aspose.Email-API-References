@@ -3,7 +3,7 @@ title: OleDocumentFormat
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17150
+weight: 18750
 url: /net/aspose.email.mapi/oledocumentformat/
 ---
 ## OleDocumentFormat class

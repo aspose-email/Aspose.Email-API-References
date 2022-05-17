@@ -3,7 +3,7 @@ title: LongComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18860
+weight: 20510
 url: /net/aspose.email.tools.search/longcomparisonfield/
 ---
 ## LongComparisonField class

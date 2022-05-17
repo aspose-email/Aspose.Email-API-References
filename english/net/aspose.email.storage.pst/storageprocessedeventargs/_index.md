@@ -3,7 +3,7 @@ title: StorageProcessedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18490
+weight: 20140
 url: /net/aspose.email.storage.pst/storageprocessedeventargs/
 ---
 ## StorageProcessedEventArgs class

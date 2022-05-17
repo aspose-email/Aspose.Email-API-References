@@ -3,7 +3,7 @@ title: MapiMessageFlags
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16660
+weight: 18260
 url: /net/aspose.email.mapi/mapimessageflags/
 ---
 ## MapiMessageFlags enumeration

@@ -3,7 +3,7 @@ title: AbchEmailAddressDictionaryEntryType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2600
+weight: 4140
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/abchemailaddressdictionaryentrytype/
 ---
 ## AbchEmailAddressDictionaryEntryType class

@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneFlags
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16330
+weight: 17930
 url: /net/aspose.email.mapi/mapicalendartimezoneflags/
 ---
 ## MapiCalendarTimeZoneFlags enumeration

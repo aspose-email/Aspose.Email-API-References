@@ -3,7 +3,7 @@ title: SubscriptionStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1340
+weight: 2790
 url: /net/aspose.email.clients.activity/subscriptionstatus/
 ---
 ## SubscriptionStatus enumeration

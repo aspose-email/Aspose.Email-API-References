@@ -3,7 +3,7 @@ title: FileVerdict
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1110
+weight: 2560
 url: /net/aspose.email.clients.activity/fileverdict/
 ---
 ## FileVerdict enumeration

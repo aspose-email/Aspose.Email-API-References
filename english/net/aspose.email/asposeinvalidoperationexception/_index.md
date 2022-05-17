@@ -3,7 +3,7 @@ title: AsposeInvalidOperationException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 330
 url: /net/aspose.email/asposeinvalidoperationexception/
 ---
 ## AsposeInvalidOperationException class

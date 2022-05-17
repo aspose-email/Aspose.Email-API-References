@@ -3,7 +3,7 @@ title: ImportanceChoices
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1960
+weight: 3500
 url: /net/aspose.email.clients.exchange/importancechoices/
 ---
 ## ImportanceChoices enumeration

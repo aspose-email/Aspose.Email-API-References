@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.smtp/smtpclient/validatecredentialsasync/
 ---
 ## SmtpClient.ValidateCredentialsAsync method (1 of 4)
 
+Executes credentials validation
+
 ```csharp
 public Task<bool> ValidateCredentialsAsync(IConnection connection)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +33,15 @@ public Task<bool> ValidateCredentialsAsync(IConnection connection)
 
 ## SmtpClient.ValidateCredentialsAsync method (2 of 4)
 
+Executes credentials validation
+
 ```csharp
 public Task<bool> ValidateCredentialsAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,9 +53,20 @@ public Task<bool> ValidateCredentialsAsync()
 
 ## SmtpClient.ValidateCredentialsAsync method (3 of 4)
 
+Executes credentials validation
+
 ```csharp
 public Task<bool> ValidateCredentialsAsync(IConnection connection, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -52,9 +79,19 @@ public Task<bool> ValidateCredentialsAsync(IConnection connection, CancellationT
 
 ## SmtpClient.ValidateCredentialsAsync method (4 of 4)
 
+Executes credentials validation
+
 ```csharp
 public Task<bool> ValidateCredentialsAsync(CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

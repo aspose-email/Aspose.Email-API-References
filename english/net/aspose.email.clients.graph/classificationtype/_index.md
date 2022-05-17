@@ -3,7 +3,7 @@ title: ClassificationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14350
+weight: 15890
 url: /net/aspose.email.clients.graph/classificationtype/
 ---
 ## ClassificationType enumeration

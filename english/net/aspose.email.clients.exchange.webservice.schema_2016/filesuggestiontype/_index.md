@@ -3,7 +3,7 @@ title: FileSuggestionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6070
+weight: 7610
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/filesuggestiontype/
 ---
 ## FileSuggestionType class

@@ -8,10 +8,27 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchtaskasyn
 ---
 ## IAsyncEwsClient.FetchTaskAsync method
 
+Fetches the specified task.
+
 ```csharp
 public Task<ExchangeTask> FetchTaskAsync(string taskUri, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| taskUri | String | A task uri. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+A fetched [`ExchangeTask`](../../exchangetask)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *taskUri* is `null` or `empty`. |
 
 ### See Also
 

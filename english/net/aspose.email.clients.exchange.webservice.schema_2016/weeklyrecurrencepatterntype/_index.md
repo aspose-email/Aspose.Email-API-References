@@ -3,7 +3,7 @@ title: WeeklyRecurrencePatternType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13870
+weight: 15410
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/weeklyrecurrencepatterntype/
 ---
 ## WeeklyRecurrencePatternType class

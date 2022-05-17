@@ -8,10 +8,19 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/markallitemsa
 ---
 ## IAsyncEwsClient.MarkAllItemsAsync method
 
+Marks all items in specified folders.
+
 ```csharp
 public Task MarkAllItemsAsync(IEnumerable<string> folderIds = null, bool read = true, 
     bool suppressReadReceipts = true, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| read | IEnumerable`1 | Sets the read/unread state to messages in specified folder. True to mark messages in the folder as read. False to mark messages as unread. |
+| suppressReadReceipts | Boolean | True to suppress sending read receipts for messages; otherwise, false. |
+| folderIds | Boolean | List of folder URIs for processing. Set to Inbox URI by default. |
+| cancellationToken | CancellationToken | The cancellation token. |
 
 ### See Also
 

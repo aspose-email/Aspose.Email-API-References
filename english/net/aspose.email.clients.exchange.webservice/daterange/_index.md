@@ -3,7 +3,7 @@ title: DateRange
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2110
+weight: 3650
 url: /net/aspose.email.clients.exchange.webservice/daterange/
 ---
 ## DateRange class

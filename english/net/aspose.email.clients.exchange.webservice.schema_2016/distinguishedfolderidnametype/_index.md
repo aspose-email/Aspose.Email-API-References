@@ -3,7 +3,7 @@ title: DistinguishedFolderIdNameType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5370
+weight: 6910
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/distinguishedfolderidnametype/
 ---
 ## DistinguishedFolderIdNameType enumeration

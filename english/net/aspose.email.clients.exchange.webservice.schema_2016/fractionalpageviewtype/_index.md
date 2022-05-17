@@ -3,7 +3,7 @@ title: FractionalPageViewType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6700
+weight: 8240
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/fractionalpageviewtype/
 ---
 ## FractionalPageViewType class

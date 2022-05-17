@@ -8,9 +8,15 @@ url: /net/aspose.email.clients.imap/imapclient/getnamespacesasync/
 ---
 ## ImapClient.GetNamespacesAsync method (1 of 4)
 
+Gets namespaces that are available on a server.
+
 ```csharp
 public Task<ImapNamespace[]> GetNamespacesAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +29,19 @@ public Task<ImapNamespace[]> GetNamespacesAsync()
 
 ## ImapClient.GetNamespacesAsync method (2 of 4)
 
+Gets namespaces that are available on a server.
+
 ```csharp
 public Task<ImapNamespace[]> GetNamespacesAsync(IConnection connection)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -39,9 +55,19 @@ public Task<ImapNamespace[]> GetNamespacesAsync(IConnection connection)
 
 ## ImapClient.GetNamespacesAsync method (3 of 4)
 
+Gets namespaces that are available on a server.
+
 ```csharp
 public Task<ImapNamespace[]> GetNamespacesAsync(CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -54,9 +80,20 @@ public Task<ImapNamespace[]> GetNamespacesAsync(CancellationToken token)
 
 ## ImapClient.GetNamespacesAsync method (4 of 4)
 
+Gets namespaces that are available on a server.
+
 ```csharp
 public Task<ImapNamespace[]> GetNamespacesAsync(IConnection connection, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

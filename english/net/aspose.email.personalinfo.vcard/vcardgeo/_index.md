@@ -3,7 +3,7 @@ title: VCardGeo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17860
+weight: 19460
 url: /net/aspose.email.personalinfo.vcard/vcardgeo/
 ---
 ## VCardGeo class

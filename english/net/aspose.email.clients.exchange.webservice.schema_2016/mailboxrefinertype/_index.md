@@ -3,7 +3,7 @@ title: MailboxRefinerType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9270
+weight: 10810
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mailboxrefinertype/
 ---
 ## MailboxRefinerType class

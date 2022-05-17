@@ -3,7 +3,7 @@ title: EndInstantSearchSessionRequest
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5660
+weight: 7200
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/endinstantsearchsessionrequest/
 ---
 ## EndInstantSearchSessionRequest class

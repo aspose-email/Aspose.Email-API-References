@@ -3,7 +3,7 @@ title: NotificationMethod
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14260
+weight: 15800
 url: /net/aspose.email.clients.google/notificationmethod/
 ---
 ## NotificationMethod enumeration

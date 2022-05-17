@@ -3,7 +3,7 @@ title: SmtpException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18110
+weight: 19760
 url: /net/aspose.email/smtpexception/
 ---
 ## SmtpException class

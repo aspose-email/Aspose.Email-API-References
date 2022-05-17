@@ -3,7 +3,7 @@ title: DataCenterSecurityEventType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 980
+weight: 2430
 url: /net/aspose.email.clients.activity/datacentersecurityeventtype/
 ---
 ## DataCenterSecurityEventType enumeration

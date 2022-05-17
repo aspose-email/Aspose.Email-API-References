@@ -3,7 +3,7 @@ title: TraversalFailureKind
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15650
+weight: 17250
 url: /net/aspose.email.exceptions/traversalfailurekind/
 ---
 ## TraversalFailureKind class

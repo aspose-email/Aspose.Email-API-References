@@ -3,7 +3,7 @@ title: ImapException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15850
+weight: 17450
 url: /net/aspose.email/imapexception/
 ---
 ## ImapException class

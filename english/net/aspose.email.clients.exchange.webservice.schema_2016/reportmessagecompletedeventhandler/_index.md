@@ -3,7 +3,7 @@ title: ReportMessageCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11300
+weight: 12840
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/reportmessagecompletedeventhandler/
 ---
 ## ReportMessageCompletedEventHandler delegate

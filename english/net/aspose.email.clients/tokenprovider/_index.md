@@ -3,7 +3,7 @@ title: TokenProvider
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15400
+weight: 16950
 url: /net/aspose.email.clients/tokenprovider/
 ---
 ## TokenProvider class

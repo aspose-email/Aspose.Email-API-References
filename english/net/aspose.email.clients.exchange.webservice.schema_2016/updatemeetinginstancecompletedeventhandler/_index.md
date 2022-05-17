@@ -3,7 +3,7 @@ title: UpdateMeetingInstanceCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13540
+weight: 15080
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updatemeetinginstancecompletedeventhandler/
 ---
 ## UpdateMeetingInstanceCompletedEventHandler delegate

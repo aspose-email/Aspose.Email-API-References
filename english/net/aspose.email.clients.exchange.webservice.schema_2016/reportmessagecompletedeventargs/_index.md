@@ -3,7 +3,7 @@ title: ReportMessageCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11290
+weight: 12830
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/reportmessagecompletedeventargs/
 ---
 ## ReportMessageCompletedEventArgs class

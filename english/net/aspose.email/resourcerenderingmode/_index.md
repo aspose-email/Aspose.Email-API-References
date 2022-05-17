@@ -3,7 +3,7 @@ title: ResourceRenderingMode
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18080
+weight: 19730
 url: /net/aspose.email/resourcerenderingmode/
 ---
 ## ResourceRenderingMode enumeration

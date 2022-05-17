@@ -3,7 +3,7 @@ title: ExchangeException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15660
+weight: 17260
 url: /net/aspose.email/exchangeexception/
 ---
 ## ExchangeException class

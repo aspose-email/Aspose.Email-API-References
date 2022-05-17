@@ -3,7 +3,7 @@ title: ExtendedKeywordDefinitionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5970
+weight: 7510
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/extendedkeyworddefinitiontype/
 ---
 ## ExtendedKeywordDefinitionType class

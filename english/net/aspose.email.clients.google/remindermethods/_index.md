@@ -3,7 +3,7 @@ title: ReminderMethods
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14290
+weight: 15830
 url: /net/aspose.email.clients.google/remindermethods/
 ---
 ## ReminderMethods enumeration

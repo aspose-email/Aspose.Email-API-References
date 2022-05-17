@@ -3,7 +3,7 @@ title: ArrayOfTimeZoneDefinitionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3350
+weight: 4890
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/arrayoftimezonedefinitiontype/
 ---
 ## ArrayOfTimeZoneDefinitionType class

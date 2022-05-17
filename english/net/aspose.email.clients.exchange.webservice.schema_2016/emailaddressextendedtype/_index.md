@@ -3,7 +3,7 @@ title: EmailAddressExtendedType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5520
+weight: 7060
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/emailaddressextendedtype/
 ---
 ## EmailAddressExtendedType class

@@ -3,7 +3,7 @@ title: SingleRecipientType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12510
+weight: 14050
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/singlerecipienttype/
 ---
 ## SingleRecipientType class

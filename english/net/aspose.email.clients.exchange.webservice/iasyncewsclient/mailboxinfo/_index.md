@@ -8,9 +8,15 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/mailboxinfo/
 ---
 ## IAsyncEwsClient.MailboxInfo property
 
+Gets the mailbox info.
+
 ```csharp
 public ExchangeMailboxInfo MailboxInfo { get; }
 ```
+
+## Property Value
+
+The mailbox info.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: FindTagsCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6530
+weight: 8070
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findtagscompletedeventhandler/
 ---
 ## FindTagsCompletedEventHandler delegate

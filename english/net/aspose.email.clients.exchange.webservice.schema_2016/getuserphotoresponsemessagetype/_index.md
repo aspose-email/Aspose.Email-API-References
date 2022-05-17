@@ -3,7 +3,7 @@ title: GetUserPhotoResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8420
+weight: 9960
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuserphotoresponsemessagetype/
 ---
 ## GetUserPhotoResponseMessageType class

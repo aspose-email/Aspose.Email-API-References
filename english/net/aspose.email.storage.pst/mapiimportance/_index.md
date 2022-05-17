@@ -3,7 +3,7 @@ title: MapiImportance
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18340
+weight: 19990
 url: /net/aspose.email.storage.pst/mapiimportance/
 ---
 ## MapiImportance enumeration

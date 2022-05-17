@@ -3,12 +3,12 @@ title: EwsArchiveItems
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2510
+weight: 4050
 url: /net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/
 ---
 ## EwsArchiveItems class
 
-!:IAsyncEwsClient.ArchiveItemsAsync method parameters.
+[`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync) method parameters.
 
 ```csharp
 public class EwsArchiveItems
@@ -18,12 +18,12 @@ public class EwsArchiveItems
 
 | Name | Description |
 | --- | --- |
-| static [Create](create)(string) | Create !:IAsyncEwsClient.ArchiveItemsAsync method parameter set. |
+| static [Create](create)(string) | Create [`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync) method parameter set. |
 | [AddItem](additem)(Appointment) | Add item to archive. |
 | [AddItem](additem)(ExchangeTask) | Add item to archive. |
 | [AddItem](additem)(MapiMessageItemBase) | Add item to archive. |
 | [AddItemId](additemid)(string) | Add item to archive. |
-| [SetCancellationToken](setcancellationtoken)(CancellationToken) |  |
+| [SetCancellationToken](setcancellationtoken)(CancellationToken) | Sets the cancellation token |
 
 ### See Also
 

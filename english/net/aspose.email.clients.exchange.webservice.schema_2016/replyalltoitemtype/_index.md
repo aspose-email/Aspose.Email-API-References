@@ -3,7 +3,7 @@ title: ReplyAllToItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11250
+weight: 12790
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/replyalltoitemtype/
 ---
 ## ReplyAllToItemType class

@@ -3,7 +3,7 @@ title: ReminderDuration
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 840
+weight: 860
 url: /net/aspose.email.calendar/reminderduration/
 ---
 ## ReminderDuration class

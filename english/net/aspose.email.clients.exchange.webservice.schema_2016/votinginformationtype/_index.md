@@ -3,7 +3,7 @@ title: VotingInformationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13840
+weight: 15380
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/votinginformationtype/
 ---
 ## VotingInformationType class

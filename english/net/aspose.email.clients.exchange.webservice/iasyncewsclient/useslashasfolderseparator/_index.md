@@ -8,6 +8,8 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/useslashasfol
 ---
 ## IAsyncEwsClient.UseSlashAsFolderSeparator property
 
+Gets or sets value that determines whether the slash '/' is used as folder separator.
+
 ```csharp
 public bool UseSlashAsFolderSeparator { get; set; }
 ```

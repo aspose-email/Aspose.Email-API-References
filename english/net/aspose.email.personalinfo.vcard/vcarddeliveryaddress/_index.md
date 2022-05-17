@@ -3,7 +3,7 @@ title: VCardDeliveryAddress
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17780
+weight: 19380
 url: /net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/
 ---
 ## VCardDeliveryAddress class

@@ -3,7 +3,7 @@ title: AttachmentData
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 930
+weight: 2380
 url: /net/aspose.email.clients.activity/attachmentdata/
 ---
 ## AttachmentData class

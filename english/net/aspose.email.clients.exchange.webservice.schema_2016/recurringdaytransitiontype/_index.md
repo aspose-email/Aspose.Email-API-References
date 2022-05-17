@@ -3,7 +3,7 @@ title: RecurringDayTransitionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10830
+weight: 12370
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/recurringdaytransitiontype/
 ---
 ## RecurringDayTransitionType class

@@ -3,7 +3,7 @@ title: DetectionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 990
+weight: 2440
 url: /net/aspose.email.clients.activity/detectiontype/
 ---
 ## DetectionType enumeration

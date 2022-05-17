@@ -3,7 +3,7 @@ title: BaseRestObject
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14310
+weight: 15850
 url: /net/aspose.email.clients.graph/baserestobject/
 ---
 ## BaseRestObject class

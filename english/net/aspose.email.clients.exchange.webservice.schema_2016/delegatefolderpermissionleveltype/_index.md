@@ -3,7 +3,7 @@ title: DelegateFolderPermissionLevelType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4790
+weight: 6330
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/delegatefolderpermissionleveltype/
 ---
 ## DelegateFolderPermissionLevelType enumeration

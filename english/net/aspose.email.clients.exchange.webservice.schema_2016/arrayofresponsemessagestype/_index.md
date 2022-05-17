@@ -3,7 +3,7 @@ title: ArrayOfResponseMessagesType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3330
+weight: 4870
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/arrayofresponsemessagestype/
 ---
 ## ArrayOfResponseMessagesType class

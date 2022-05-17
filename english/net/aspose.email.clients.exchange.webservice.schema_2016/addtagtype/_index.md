@@ -3,7 +3,7 @@ title: AddTagType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2990
+weight: 4530
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/addtagtype/
 ---
 ## AddTagType class

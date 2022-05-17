@@ -3,7 +3,7 @@ title: GetStreamingEventsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8260
+weight: 9800
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getstreamingeventstype/
 ---
 ## GetStreamingEventsType class

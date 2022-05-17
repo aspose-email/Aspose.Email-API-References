@@ -3,7 +3,7 @@ title: AmpTimeago
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.email.amp/amptimeago/
 ---
 ## AmpTimeago class

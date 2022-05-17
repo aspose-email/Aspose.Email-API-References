@@ -8,6 +8,8 @@ url: /net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/setcan
 ---
 ## EwsArchiveItems.SetCancellationToken method
 
+Sets the cancellation token
+
 ```csharp
 public EwsArchiveItems SetCancellationToken(CancellationToken cancellationToken)
 ```

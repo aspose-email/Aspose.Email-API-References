@@ -3,7 +3,7 @@ title: ListFoldersReturnOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14950
+weight: 16490
 url: /net/aspose.email.clients.imap/listfoldersreturnoptions/
 ---
 ## ListFoldersReturnOptions enumeration

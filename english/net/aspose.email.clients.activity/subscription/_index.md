@@ -3,7 +3,7 @@ title: Subscription
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1330
+weight: 2780
 url: /net/aspose.email.clients.activity/subscription/
 ---
 ## Subscription class

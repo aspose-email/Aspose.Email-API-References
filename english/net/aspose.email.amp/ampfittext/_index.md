@@ -3,7 +3,7 @@ title: AmpFitText
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.email.amp/ampfittext/
 ---
 ## AmpFitText class

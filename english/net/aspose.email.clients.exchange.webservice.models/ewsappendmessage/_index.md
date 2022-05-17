@@ -3,12 +3,12 @@ title: EwsAppendMessage
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2500
+weight: 4040
 url: /net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/
 ---
 ## EwsAppendMessage class
 
-Represents !:IAsyncEwsClient.AppendMessagesAsync parameters.
+Represents [`AppendMessagesAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync) parameters.
 
 ```csharp
 public class EwsAppendMessage
@@ -18,12 +18,12 @@ public class EwsAppendMessage
 
 | Name | Description |
 | --- | --- |
-| static [Create](create)() | Creates !:IAsyncEwsClient.AppendMessagesAsync method's parameter set. |
+| static [Create](create)() | Creates [`AppendMessagesAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync) method's parameter set. |
 | [AddMessage](addmessage)(MailMessage) | Add a mail message to append. |
 | [AddMessage](addmessage)(MapiMessage) | Add a MAPI message to append. |
 | [AddMessages](addmessages)(IEnumerable&lt;MailMessage&gt;) | Add a list of the mail messages to append. |
 | [AddMessages](addmessages)(IEnumerable&lt;MapiMessage&gt;) | Add a list of the MAPI messages to append. |
-| [SetCancellationToken](setcancellationtoken)(CancellationToken) |  |
+| [SetCancellationToken](setcancellationtoken)(CancellationToken) | Set the cancellation token. |
 | [SetFolder](setfolder)(string) | A folder to which messages are uploaded. |
 
 ### See Also

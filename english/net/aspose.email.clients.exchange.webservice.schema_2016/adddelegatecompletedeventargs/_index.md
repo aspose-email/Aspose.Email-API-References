@@ -3,7 +3,7 @@ title: AddDelegateCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2700
+weight: 4240
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/adddelegatecompletedeventargs/
 ---
 ## AddDelegateCompletedEventArgs class

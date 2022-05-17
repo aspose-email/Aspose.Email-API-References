@@ -3,7 +3,7 @@ title: MessageDispositionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9640
+weight: 11180
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/messagedispositiontype/
 ---
 ## MessageDispositionType enumeration

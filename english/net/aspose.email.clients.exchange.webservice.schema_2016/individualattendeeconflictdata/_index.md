@@ -3,7 +3,7 @@ title: IndividualAttendeeConflictData
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8720
+weight: 10260
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/individualattendeeconflictdata/
 ---
 ## IndividualAttendeeConflictData class

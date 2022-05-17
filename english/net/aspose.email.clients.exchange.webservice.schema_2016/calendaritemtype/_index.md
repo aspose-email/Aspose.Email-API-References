@@ -3,7 +3,7 @@ title: CalendarItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3750
+weight: 5290
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/calendaritemtype/
 ---
 ## CalendarItemType class

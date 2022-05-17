@@ -3,7 +3,7 @@ title: IEWSClient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2420
+weight: 3960
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/
 ---
 ## IEWSClient interface
@@ -131,7 +131,7 @@ public interface IEWSClient : IExchangeClientBase
 | [FetchDistributionList](fetchdistributionlist)(ExchangeDistributionList) | Fetches the private Distribution List members. |
 | [FetchItem](fetchitem)(string) | Retrieves the item as [`MapiMessage`](../../aspose.email.mapi/mapimessage). |
 | [FetchItem](fetchitem)(string, IEnumerable&lt;PropertyDescriptor&gt;) | Retrieves the item as [`MapiMessage`](../../aspose.email.mapi/mapimessage). |
-| [FetchItems](fetchitems)(EwsFetchItems) |  |
+| [FetchItems](fetchitems)(EwsFetchItems) | Retrieves the items. |
 | [FetchMapiCalendar](fetchmapicalendar)(IEnumerable&lt;string&gt;) | Fetch array of [`MapiCalendar`](../../aspose.email.mapi/mapicalendar) objects. |
 | [FetchMapiCalendar](fetchmapicalendar)(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) | Fetch array of [`MapiCalendar`](../../aspose.email.mapi/mapicalendar) objects. |
 | [FetchMapiMessages](fetchmapimessages)(IEnumerable&lt;string&gt;) | Fetches the speciifed messages |

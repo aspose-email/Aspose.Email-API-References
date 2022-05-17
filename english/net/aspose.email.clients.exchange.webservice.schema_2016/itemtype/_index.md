@@ -3,7 +3,7 @@ title: ItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9020
+weight: 10560
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/itemtype/
 ---
 ## ItemType class

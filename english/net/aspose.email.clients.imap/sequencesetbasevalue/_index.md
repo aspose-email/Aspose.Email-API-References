@@ -3,7 +3,7 @@ title: SequenceSetBaseValue
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15030
+weight: 16580
 url: /net/aspose.email.clients.imap/sequencesetbasevalue/
 ---
 ## SequenceSetBaseValue class

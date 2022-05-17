@@ -3,7 +3,7 @@ title: VCardIdentificationInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17870
+weight: 19470
 url: /net/aspose.email.personalinfo.vcard/vcardidentificationinfo/
 ---
 ## VCardIdentificationInfo class

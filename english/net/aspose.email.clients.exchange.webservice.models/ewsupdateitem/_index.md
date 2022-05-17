@@ -3,12 +3,12 @@ title: EwsUpdateItem
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2540
+weight: 4080
 url: /net/aspose.email.clients.exchange.webservice.models/ewsupdateitem/
 ---
 ## EwsUpdateItem class
 
-Represents !:IAsyncEwsClient.UpdateItemAsync method parameters.
+Represents [`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) method parameters.
 
 ```csharp
 public class EwsUpdateItem
@@ -18,11 +18,11 @@ public class EwsUpdateItem
 
 | Name | Description |
 | --- | --- |
-| static [Create](create)(MapiContact) | Initializes the !:IAsyncEwsClient.UpdateItemAsync method's parameter set with MapiContact item. |
-| static [Create](create)(MapiCalendar, string) | Initializes the !:IAsyncEwsClient.UpdateItemAsync method's parameter set with MapiCalendar item. |
-| static [Create](create)(MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) | Initializes the !:IAsyncEwsClient.UpdateItemAsync method's parameter set with MapiNote item. |
-| static [Create](create)(MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) | Initializes the !:IAsyncEwsClient.UpdateItemAsync method's parameter set with MapiTask item. |
-| [SetCancellationToken](setcancellationtoken)(CancellationToken) |  |
+| static [Create](create)(MapiContact) | Initializes the [`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) method's parameter set with MapiContact item. |
+| static [Create](create)(MapiCalendar, string) | Initializes the [`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) method's parameter set with MapiCalendar item. |
+| static [Create](create)(MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) | Initializes the [`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) method's parameter set with MapiNote item. |
+| static [Create](create)(MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) | Initializes the [`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) method's parameter set with MapiTask item. |
+| [SetCancellationToken](setcancellationtoken)(CancellationToken) | Sets the cancellation token. |
 
 ### See Also
 

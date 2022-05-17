@@ -3,7 +3,7 @@ title: ReminderRelated
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 850
+weight: 870
 url: /net/aspose.email.calendar/reminderrelated/
 ---
 ## ReminderRelated enumeration

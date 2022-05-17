@@ -3,7 +3,7 @@ title: ContactGroupCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14140
+weight: 15680
 url: /net/aspose.email.clients.google/contactgroupcollection/
 ---
 ## ContactGroupCollection class

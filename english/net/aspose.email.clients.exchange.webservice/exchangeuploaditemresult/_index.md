@@ -3,7 +3,7 @@ title: ExchangeUploadItemResult
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2310
+weight: 3850
 url: /net/aspose.email.clients.exchange.webservice/exchangeuploaditemresult/
 ---
 ## ExchangeUploadItemResult class

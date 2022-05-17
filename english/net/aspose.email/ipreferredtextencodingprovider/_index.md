@@ -3,7 +3,7 @@ title: IPreferredTextEncodingProvider
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15840
+weight: 17440
 url: /net/aspose.email/ipreferredtextencodingprovider/
 ---
 ## IPreferredTextEncodingProvider interface

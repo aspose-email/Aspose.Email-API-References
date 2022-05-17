@@ -3,7 +3,7 @@ title: MoveItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9800
+weight: 11340
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/moveitemtype/
 ---
 ## MoveItemType class

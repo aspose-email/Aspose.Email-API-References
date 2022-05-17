@@ -3,7 +3,7 @@ title: LocationSourceType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9160
+weight: 10700
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/locationsourcetype/
 ---
 ## LocationSourceType enumeration

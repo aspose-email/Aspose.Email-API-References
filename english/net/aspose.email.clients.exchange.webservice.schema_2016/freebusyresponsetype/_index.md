@@ -3,7 +3,7 @@ title: FreeBusyResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6710
+weight: 8250
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/freebusyresponsetype/
 ---
 ## FreeBusyResponseType class

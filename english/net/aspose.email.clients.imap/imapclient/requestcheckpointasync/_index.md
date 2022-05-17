@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.imap/imapclient/requestcheckpointasync/
 ---
 ## ImapClient.RequestCheckpointAsync method (1 of 4)
 
+Requests a checkpoint of the currently selected mailbox.
+
 ```csharp
 public Task RequestCheckpointAsync(IConnection connection)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +33,15 @@ public Task RequestCheckpointAsync(IConnection connection)
 
 ## ImapClient.RequestCheckpointAsync method (2 of 4)
 
+Requests a checkpoint of the currently selected mailbox.
+
 ```csharp
 public Task RequestCheckpointAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,9 +53,20 @@ public Task RequestCheckpointAsync()
 
 ## ImapClient.RequestCheckpointAsync method (3 of 4)
 
+Requests a checkpoint of the currently selected mailbox.
+
 ```csharp
 public Task RequestCheckpointAsync(IConnection connection, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -52,9 +79,19 @@ public Task RequestCheckpointAsync(IConnection connection, CancellationToken tok
 
 ## ImapClient.RequestCheckpointAsync method (4 of 4)
 
+Requests a checkpoint of the currently selected mailbox.
+
 ```csharp
 public Task RequestCheckpointAsync(CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

@@ -8,12 +8,23 @@ url: /net/aspose.email.clients.imap/imapclient/validatecredentialsasync/
 ---
 ## ImapClient.ValidateCredentialsAsync method (1 of 4)
 
+Executes credentials validation
+
 ```csharp
-public Task<bool> ValidateCredentialsAsync()
+public Task<bool> ValidateCredentialsAsync(IConnection connection)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
+* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)
@@ -22,13 +33,18 @@ public Task<bool> ValidateCredentialsAsync()
 
 ## ImapClient.ValidateCredentialsAsync method (2 of 4)
 
+Executes credentials validation
+
 ```csharp
-public Task<bool> ValidateCredentialsAsync(IConnection connection, CancellationToken token)
+public Task<bool> ValidateCredentialsAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)
@@ -37,12 +53,24 @@ public Task<bool> ValidateCredentialsAsync(IConnection connection, CancellationT
 
 ## ImapClient.ValidateCredentialsAsync method (3 of 4)
 
+Executes credentials validation
+
 ```csharp
-public Task<bool> ValidateCredentialsAsync(CancellationToken token)
+public Task<bool> ValidateCredentialsAsync(IConnection connection, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
+* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)
@@ -51,13 +79,22 @@ public Task<bool> ValidateCredentialsAsync(CancellationToken token)
 
 ## ImapClient.ValidateCredentialsAsync method (4 of 4)
 
+Executes credentials validation
+
 ```csharp
-public Task<bool> ValidateCredentialsAsync(IConnection connection)
+public Task<bool> ValidateCredentialsAsync(CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

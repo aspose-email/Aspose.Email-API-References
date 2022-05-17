@@ -3,7 +3,7 @@ title: MapiPropertyContainer
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16780
+weight: 18380
 url: /net/aspose.email.mapi/mapipropertycontainer/
 ---
 ## MapiPropertyContainer class

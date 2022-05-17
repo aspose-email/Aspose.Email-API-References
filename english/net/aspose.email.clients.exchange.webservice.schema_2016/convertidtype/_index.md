@@ -3,7 +3,7 @@ title: ConvertIdType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4260
+weight: 5800
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/convertidtype/
 ---
 ## ConvertIdType class

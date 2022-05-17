@@ -3,7 +3,7 @@ title: PeopleRefinerType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10170
+weight: 11710
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/peoplerefinertype/
 ---
 ## PeopleRefinerType class

@@ -3,7 +3,7 @@ title: ContactQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1590
+weight: 3130
 url: /net/aspose.email.clients.exchange/contactquerybuilder/
 ---
 ## ContactQueryBuilder class

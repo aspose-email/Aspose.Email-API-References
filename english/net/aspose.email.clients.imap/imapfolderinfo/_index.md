@@ -3,7 +3,7 @@ title: ImapFolderInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14730
+weight: 16270
 url: /net/aspose.email.clients.imap/imapfolderinfo/
 ---
 ## ImapFolderInfo class

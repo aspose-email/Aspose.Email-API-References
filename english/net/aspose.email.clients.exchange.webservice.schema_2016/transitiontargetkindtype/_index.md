@@ -3,7 +3,7 @@ title: TransitionTargetKindType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13120
+weight: 14660
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/transitiontargetkindtype/
 ---
 ## TransitionTargetKindType enumeration

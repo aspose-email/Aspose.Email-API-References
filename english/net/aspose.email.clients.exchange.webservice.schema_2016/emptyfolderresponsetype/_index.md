@@ -3,7 +3,7 @@ title: EmptyFolderResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5610
+weight: 7150
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/emptyfolderresponsetype/
 ---
 ## EmptyFolderResponseType class

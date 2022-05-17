@@ -3,7 +3,7 @@ title: MarkAsJunkResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9420
+weight: 10960
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/markasjunkresponsemessagetype/
 ---
 ## MarkAsJunkResponseMessageType class

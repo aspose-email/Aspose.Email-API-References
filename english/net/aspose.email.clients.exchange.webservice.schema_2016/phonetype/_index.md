@@ -3,7 +3,7 @@ title: PhoneType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10410
+weight: 11950
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/phonetype/
 ---
 ## PhoneType class

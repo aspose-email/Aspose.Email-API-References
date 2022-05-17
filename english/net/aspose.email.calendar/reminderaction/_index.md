@@ -3,7 +3,7 @@ title: ReminderAction
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 810
 url: /net/aspose.email.calendar/reminderaction/
 ---
 ## ReminderAction enumeration

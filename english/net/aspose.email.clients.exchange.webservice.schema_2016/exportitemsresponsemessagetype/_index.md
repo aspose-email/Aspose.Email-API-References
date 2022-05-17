@@ -3,7 +3,7 @@ title: ExportItemsResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5930
+weight: 7470
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/exportitemsresponsemessagetype/
 ---
 ## ExportItemsResponseMessageType class

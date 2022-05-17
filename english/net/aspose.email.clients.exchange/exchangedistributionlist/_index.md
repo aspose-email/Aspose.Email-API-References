@@ -3,7 +3,7 @@ title: ExchangeDistributionList
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1710
+weight: 3250
 url: /net/aspose.email.clients.exchange/exchangedistributionlist/
 ---
 ## ExchangeDistributionList class

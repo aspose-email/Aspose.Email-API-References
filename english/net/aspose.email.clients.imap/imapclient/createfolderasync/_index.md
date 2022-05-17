@@ -8,9 +8,20 @@ url: /net/aspose.email.clients.imap/imapclient/createfolderasync/
 ---
 ## ImapClient.CreateFolderAsync method (1 of 4)
 
+Creates a folder with the specified name
+
 ```csharp
 public Task CreateFolderAsync(IConnection connection, string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder to be created |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +34,19 @@ public Task CreateFolderAsync(IConnection connection, string folderName)
 
 ## ImapClient.CreateFolderAsync method (2 of 4)
 
+Creates a folder with the specified name
+
 ```csharp
 public Task CreateFolderAsync(string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to be created |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,9 +58,21 @@ public Task CreateFolderAsync(string folderName)
 
 ## ImapClient.CreateFolderAsync method (3 of 4)
 
+Creates a folder with the specified name
+
 ```csharp
 public Task CreateFolderAsync(IConnection connection, string folderName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder to be created |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -52,9 +85,20 @@ public Task CreateFolderAsync(IConnection connection, string folderName, Cancell
 
 ## ImapClient.CreateFolderAsync method (4 of 4)
 
+Creates a folder with the specified name
+
 ```csharp
 public Task CreateFolderAsync(string folderName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to be created |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: SimpleFormatter
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18710
+weight: 20360
 url: /net/aspose.email.tools.logging/simpleformatter/
 ---
 ## SimpleFormatter class

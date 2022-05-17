@@ -3,7 +3,7 @@ title: FileFormatVersion
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18280
+weight: 19930
 url: /net/aspose.email.storage.pst/fileformatversion/
 ---
 ## FileFormatVersion enumeration

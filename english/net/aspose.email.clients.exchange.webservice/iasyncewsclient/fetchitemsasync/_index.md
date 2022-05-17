@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasy
 ---
 ## IAsyncEwsClient.FetchItemsAsync method
 
+Fetches the specified items.
+
 ```csharp
 public Task<IEnumerable<MapiMessage>> FetchItemsAsync(EwsFetchItems ewsFetchItems)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ewsFetchItems | EwsFetchItems | Method parameters. |
+
+## Return Value
+
+A list of fetched items.
 
 ### See Also
 

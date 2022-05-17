@@ -3,7 +3,7 @@ title: NotificationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14270
+weight: 15810
 url: /net/aspose.email.clients.google/notificationtype/
 ---
 ## NotificationType enumeration

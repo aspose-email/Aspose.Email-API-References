@@ -3,7 +3,7 @@ title: MimeHeader
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17420
+weight: 19020
 url: /net/aspose.email.mime/mimeheader/
 ---
 ## MimeHeader class

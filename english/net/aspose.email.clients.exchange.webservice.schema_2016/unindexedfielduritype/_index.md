@@ -3,7 +3,7 @@ title: UnindexedFieldURIType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13170
+weight: 14710
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/unindexedfielduritype/
 ---
 ## UnindexedFieldURIType enumeration

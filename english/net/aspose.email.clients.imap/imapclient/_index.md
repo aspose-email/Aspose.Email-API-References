@@ -3,7 +3,7 @@ title: ImapClient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14710
+weight: 16250
 url: /net/aspose.email.clients.imap/imapclient/
 ---
 ## ImapClient class
@@ -108,62 +108,62 @@ public sealed class ImapClient : EmailClient
 | [AddMessageFlags](addmessageflags)(string, string, ImapMessageFlags, long) | Adds the flags of the message |
 | [AddMessageFlags](addmessageflags)(IConnection, int, int, ImapMessageFlags, long) | Adds the flags of the message |
 | [AddMessageFlags](addmessageflags)(IConnection, string, string, ImapMessageFlags, long) | Adds the flags of the message |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(int, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(string, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(int, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(int, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(int, int, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(string, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(string, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(string, string, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, int, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, string, ImapMessageFlags) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(int, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(int, int, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(int, int, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(string, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(string, string, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(string, string, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, int, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, int, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, string, ImapMessageFlags, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, string, ImapMessageFlags, long) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(int, int, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(string, string, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, int, ImapMessageFlags, long, CancellationToken) |  |
-| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, string, ImapMessageFlags, long, CancellationToken) |  |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(int, ImapMessageFlags) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(string, ImapMessageFlags) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, ImapMessageFlags) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, ImapMessageFlags) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(int, ImapMessageFlags, CancellationToken) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(int, ImapMessageFlags, long) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(int, int, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(string, ImapMessageFlags, CancellationToken) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(string, ImapMessageFlags, long) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(string, string, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, ImapMessageFlags, CancellationToken) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, ImapMessageFlags, long) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, int, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, ImapMessageFlags, CancellationToken) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, ImapMessageFlags, long) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, string, ImapMessageFlags) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(int, ImapMessageFlags, long, CancellationToken) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(int, int, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(int, int, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(string, ImapMessageFlags, long, CancellationToken) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(string, string, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(string, string, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, ImapMessageFlags, long, CancellationToken) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, int, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, int, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, ImapMessageFlags, long, CancellationToken) | Adds the flags to the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, string, ImapMessageFlags, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, string, ImapMessageFlags, long) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(int, int, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(string, string, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, int, int, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
+| [AddMessageFlagsAsync](addmessageflagsasync)(IConnection, string, string, ImapMessageFlags, long, CancellationToken) | Adds the flags of the message |
 | [AppendMessage](appendmessage)(MailMessage) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
 | [AppendMessage](appendmessage)(string) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
 | [AppendMessage](appendmessage)(IConnection, MailMessage) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
@@ -172,46 +172,46 @@ public sealed class ImapClient : EmailClient
 | [AppendMessage](appendmessage)(string, string) | Uploads the mail message to the specified folder |
 | [AppendMessage](appendmessage)(IConnection, string, MailMessage) | Uploads the mail message to the specified folder |
 | [AppendMessage](appendmessage)(IConnection, string, string) | Uploads the mail message to the specified folder |
-| [AppendMessageAsync](appendmessageasync)(MailMessage) |  |
-| [AppendMessageAsync](appendmessageasync)(string) |  |
-| [AppendMessageAsync](appendmessageasync)(IConnection, MailMessage) |  |
-| [AppendMessageAsync](appendmessageasync)(IConnection, string) |  |
-| [AppendMessageAsync](appendmessageasync)(MailMessage, CancellationToken) |  |
-| [AppendMessageAsync](appendmessageasync)(string, CancellationToken) |  |
-| [AppendMessageAsync](appendmessageasync)(string, MailMessage) |  |
-| [AppendMessageAsync](appendmessageasync)(string, string) |  |
-| [AppendMessageAsync](appendmessageasync)(IConnection, MailMessage, CancellationToken) |  |
-| [AppendMessageAsync](appendmessageasync)(IConnection, string, CancellationToken) |  |
-| [AppendMessageAsync](appendmessageasync)(IConnection, string, MailMessage) |  |
-| [AppendMessageAsync](appendmessageasync)(IConnection, string, string) |  |
-| [AppendMessageAsync](appendmessageasync)(string, MailMessage, CancellationToken) |  |
-| [AppendMessageAsync](appendmessageasync)(string, string, CancellationToken) |  |
-| [AppendMessageAsync](appendmessageasync)(IConnection, string, MailMessage, CancellationToken) |  |
-| [AppendMessageAsync](appendmessageasync)(IConnection, string, string, CancellationToken) |  |
+| [AppendMessageAsync](appendmessageasync)(MailMessage) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessageAsync](appendmessageasync)(string) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessageAsync](appendmessageasync)(IConnection, MailMessage) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessageAsync](appendmessageasync)(IConnection, string) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessageAsync](appendmessageasync)(MailMessage, CancellationToken) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessageAsync](appendmessageasync)(string, CancellationToken) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessageAsync](appendmessageasync)(string, MailMessage) | Uploads the mail message to the specified folder |
+| [AppendMessageAsync](appendmessageasync)(string, string) | Uploads the mail message to the specified folder |
+| [AppendMessageAsync](appendmessageasync)(IConnection, MailMessage, CancellationToken) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessageAsync](appendmessageasync)(IConnection, string, CancellationToken) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessageAsync](appendmessageasync)(IConnection, string, MailMessage) | Uploads the mail message to the specified folder |
+| [AppendMessageAsync](appendmessageasync)(IConnection, string, string) | Uploads the mail message to the specified folder |
+| [AppendMessageAsync](appendmessageasync)(string, MailMessage, CancellationToken) | Uploads the mail message to the specified folder |
+| [AppendMessageAsync](appendmessageasync)(string, string, CancellationToken) | Uploads the mail message to the specified folder |
+| [AppendMessageAsync](appendmessageasync)(IConnection, string, MailMessage, CancellationToken) | Uploads the mail message to the specified folder |
+| [AppendMessageAsync](appendmessageasync)(IConnection, string, string, CancellationToken) | Uploads the mail message to the specified folder |
 | [AppendMessages](appendmessages)(IEnumerable&lt;MailMessage&gt;) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
 | [AppendMessages](appendmessages)(IConnection, IEnumerable&lt;MailMessage&gt;) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
 | [AppendMessages](appendmessages)(string, IEnumerable&lt;MailMessage&gt;) | Uploads the mail message to the specified folder |
 | [AppendMessages](appendmessages)(IConnection, string, IEnumerable&lt;MailMessage&gt;) | Uploads the mail message to the specified folder |
-| [AppendMessagesAsync](appendmessagesasync)(IEnumerable&lt;MailMessage&gt;) |  |
-| [AppendMessagesAsync](appendmessagesasync)(IConnection, IEnumerable&lt;MailMessage&gt;) |  |
-| [AppendMessagesAsync](appendmessagesasync)(IEnumerable&lt;MailMessage&gt;, CancellationToken) |  |
-| [AppendMessagesAsync](appendmessagesasync)(string, IEnumerable&lt;MailMessage&gt;) |  |
-| [AppendMessagesAsync](appendmessagesasync)(IConnection, IEnumerable&lt;MailMessage&gt;, CancellationToken) |  |
-| [AppendMessagesAsync](appendmessagesasync)(IConnection, string, IEnumerable&lt;MailMessage&gt;) |  |
-| [AppendMessagesAsync](appendmessagesasync)(string, IEnumerable&lt;MailMessage&gt;, CancellationToken) |  |
-| [AppendMessagesAsync](appendmessagesasync)(IConnection, string, IEnumerable&lt;MailMessage&gt;, CancellationToken) |  |
+| [AppendMessagesAsync](appendmessagesasync)(IEnumerable&lt;MailMessage&gt;) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessagesAsync](appendmessagesasync)(IConnection, IEnumerable&lt;MailMessage&gt;) | Uploads the mail messages to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessagesAsync](appendmessagesasync)(IEnumerable&lt;MailMessage&gt;, CancellationToken) | Uploads the mail message to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessagesAsync](appendmessagesasync)(string, IEnumerable&lt;MailMessage&gt;) | Uploads the mail messages to the current folder |
+| [AppendMessagesAsync](appendmessagesasync)(IConnection, IEnumerable&lt;MailMessage&gt;, CancellationToken) | Uploads the mail messages to the current folder If current folder hasn't been specified default folder is used. |
+| [AppendMessagesAsync](appendmessagesasync)(IConnection, string, IEnumerable&lt;MailMessage&gt;) | Uploads the mail messages to the current folder |
+| [AppendMessagesAsync](appendmessagesasync)(string, IEnumerable&lt;MailMessage&gt;, CancellationToken) | Uploads the mail messages to the current folder |
+| [AppendMessagesAsync](appendmessagesasync)(IConnection, string, IEnumerable&lt;MailMessage&gt;, CancellationToken) | Uploads the mail messages to the current folder |
 | [Backup](backup)(ImapFolderInfoCollection, Stream, BackupSettings) | Backups the content of the specified folders |
 | [Backup](backup)(ImapFolderInfoCollection, string, BackupSettings) | Backups the content of the specified folders |
 | [Backup](backup)(IConnection, ImapFolderInfoCollection, Stream, BackupSettings) | Backups the content of the specified folders |
 | [Backup](backup)(IConnection, ImapFolderInfoCollection, string, BackupSettings) | Backups the content of the specified folders |
-| [BackupAsync](backupasync)(ImapFolderInfoCollection, Stream, BackupSettings) |  |
-| [BackupAsync](backupasync)(ImapFolderInfoCollection, string, BackupSettings) |  |
-| [BackupAsync](backupasync)(IConnection, ImapFolderInfoCollection, Stream, BackupSettings) |  |
-| [BackupAsync](backupasync)(IConnection, ImapFolderInfoCollection, string, BackupSettings) |  |
-| [BackupAsync](backupasync)(ImapFolderInfoCollection, Stream, BackupSettings, CancellationToken) |  |
-| [BackupAsync](backupasync)(ImapFolderInfoCollection, string, BackupSettings, CancellationToken) |  |
-| [BackupAsync](backupasync)(IConnection, ImapFolderInfoCollection, Stream, BackupSettings, CancellationToken) |  |
-| [BackupAsync](backupasync)(IConnection, ImapFolderInfoCollection, string, BackupSettings, CancellationToken) |  |
+| [BackupAsync](backupasync)(ImapFolderInfoCollection, Stream, BackupSettings) | Backups the content of the specified folders |
+| [BackupAsync](backupasync)(ImapFolderInfoCollection, string, BackupSettings) | Backups the content of the specified folders |
+| [BackupAsync](backupasync)(IConnection, ImapFolderInfoCollection, Stream, BackupSettings) | Backups the content of the specified folders |
+| [BackupAsync](backupasync)(IConnection, ImapFolderInfoCollection, string, BackupSettings) | Backups the content of the specified folders |
+| [BackupAsync](backupasync)(ImapFolderInfoCollection, Stream, BackupSettings, CancellationToken) | Backups the content of the specified folders |
+| [BackupAsync](backupasync)(ImapFolderInfoCollection, string, BackupSettings, CancellationToken) | Backups the content of the specified folders |
+| [BackupAsync](backupasync)(IConnection, ImapFolderInfoCollection, Stream, BackupSettings, CancellationToken) | Backups the content of the specified folders |
+| [BackupAsync](backupasync)(IConnection, ImapFolderInfoCollection, string, BackupSettings, CancellationToken) | Backups the content of the specified folders |
 | [ChangeMessageFlags](changemessageflags)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) | Changes the flags of the message |
 | [ChangeMessageFlags](changemessageflags)(IEnumerable&lt;int&gt;, ImapMessageFlags) | Changes the flags of the message |
 | [ChangeMessageFlags](changemessageflags)(IEnumerable&lt;string&gt;, ImapMessageFlags) | Changes the flags of the message |
@@ -240,68 +240,68 @@ public sealed class ImapClient : EmailClient
 | [ChangeMessageFlags](changemessageflags)(string, string, ImapMessageFlags, long) | Changes the flags of the message |
 | [ChangeMessageFlags](changemessageflags)(IConnection, int, int, ImapMessageFlags, long) | Changes the flags of the message |
 | [ChangeMessageFlags](changemessageflags)(IConnection, string, string, ImapMessageFlags, long) | Changes the flags of the message |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, int, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, string, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, int, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, string, ImapMessageFlags) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, int, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, int, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, string, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, string, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, int, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, int, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, string, ImapMessageFlags, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, string, ImapMessageFlags, long) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, int, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, string, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, int, ImapMessageFlags, long, CancellationToken) |  |
-| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, string, ImapMessageFlags, long, CancellationToken) |  |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, int, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, string, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, int, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, string, ImapMessageFlags) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, int, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, int, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, string, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, string, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, int, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, int, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, string, ImapMessageFlags, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, string, ImapMessageFlags, long) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(int, int, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(string, string, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, int, int, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
+| [ChangeMessageFlagsAsync](changemessageflagsasync)(IConnection, string, string, ImapMessageFlags, long, CancellationToken) | Changes the flags of the message |
 | [ClientCapabilities](clientcapabilities)(params string[]) | Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161 |
 | [ClientCapabilities](clientcapabilities)(IConnection, params string[]) | Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161 |
-| [ClientCapabilitiesAsync](clientcapabilitiesasync)(params string[]) |  |
-| [ClientCapabilitiesAsync](clientcapabilitiesasync)(CancellationToken, params string[]) |  |
-| [ClientCapabilitiesAsync](clientcapabilitiesasync)(IConnection, params string[]) |  |
-| [ClientCapabilitiesAsync](clientcapabilitiesasync)(IConnection, CancellationToken, params string[]) |  |
+| [ClientCapabilitiesAsync](clientcapabilitiesasync)(params string[]) | Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161 |
+| [ClientCapabilitiesAsync](clientcapabilitiesasync)(CancellationToken, params string[]) | Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161 |
+| [ClientCapabilitiesAsync](clientcapabilitiesasync)(IConnection, params string[]) | Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161 |
+| [ClientCapabilitiesAsync](clientcapabilitiesasync)(IConnection, CancellationToken, params string[]) | Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161 |
 | [CommitDeletes](commitdeletes)() | Commit the deletions |
 | [CommitDeletes](commitdeletes)(IConnection) | Commit the deletions |
 | [CommitDeletes](commitdeletes)(IEnumerable&lt;string&gt;) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
@@ -312,38 +312,38 @@ public sealed class ImapClient : EmailClient
 | [CommitDeletes](commitdeletes)(IConnection, string) | Commit the deletions |
 | [CommitDeletes](commitdeletes)(string, string) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
 | [CommitDeletes](commitdeletes)(IConnection, string, string) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
-| [CommitDeletesAsync](commitdeletesasync)() |  |
-| [CommitDeletesAsync](commitdeletesasync)(CancellationToken) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IEnumerable&lt;string&gt;) |  |
-| [CommitDeletesAsync](commitdeletesasync)(int) |  |
-| [CommitDeletesAsync](commitdeletesasync)(string) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection, CancellationToken) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection, IEnumerable&lt;string&gt;) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection, int) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection, string) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [CommitDeletesAsync](commitdeletesasync)(int, CancellationToken) |  |
-| [CommitDeletesAsync](commitdeletesasync)(string, CancellationToken) |  |
-| [CommitDeletesAsync](commitdeletesasync)(string, string) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection, IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection, int, CancellationToken) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection, string, CancellationToken) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection, string, string) |  |
-| [CommitDeletesAsync](commitdeletesasync)(string, string, CancellationToken) |  |
-| [CommitDeletesAsync](commitdeletesasync)(IConnection, string, string, CancellationToken) |  |
+| [CommitDeletesAsync](commitdeletesasync)() | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(CancellationToken) | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection) | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(IEnumerable&lt;string&gt;) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [CommitDeletesAsync](commitdeletesasync)(int) | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(string) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection, CancellationToken) | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection, IEnumerable&lt;string&gt;) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection, int) | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection, string) | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(IEnumerable&lt;string&gt;, CancellationToken) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [CommitDeletesAsync](commitdeletesasync)(int, CancellationToken) | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(string, CancellationToken) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [CommitDeletesAsync](commitdeletesasync)(string, string) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection, IEnumerable&lt;string&gt;, CancellationToken) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection, int, CancellationToken) | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection, string, CancellationToken) | Commit the deletions |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection, string, string) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [CommitDeletesAsync](commitdeletesasync)(string, string, CancellationToken) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [CommitDeletesAsync](commitdeletesasync)(IConnection, string, string, CancellationToken) | Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
 | [CopyMessage](copymessage)(int, string) | Copies the message |
 | [CopyMessage](copymessage)(string, string) | Copies the message |
 | [CopyMessage](copymessage)(IConnection, int, string) | Copies the message |
 | [CopyMessage](copymessage)(IConnection, string, string) | Copies the message |
-| [CopyMessageAsync](copymessageasync)(int, string) |  |
-| [CopyMessageAsync](copymessageasync)(string, string) |  |
-| [CopyMessageAsync](copymessageasync)(IConnection, int, string) |  |
-| [CopyMessageAsync](copymessageasync)(IConnection, string, string) |  |
-| [CopyMessageAsync](copymessageasync)(int, string, CancellationToken) |  |
-| [CopyMessageAsync](copymessageasync)(string, string, CancellationToken) |  |
-| [CopyMessageAsync](copymessageasync)(IConnection, int, string, CancellationToken) |  |
-| [CopyMessageAsync](copymessageasync)(IConnection, string, string, CancellationToken) |  |
+| [CopyMessageAsync](copymessageasync)(int, string) | Copies the message |
+| [CopyMessageAsync](copymessageasync)(string, string) | Copies the message |
+| [CopyMessageAsync](copymessageasync)(IConnection, int, string) | Copies the message |
+| [CopyMessageAsync](copymessageasync)(IConnection, string, string) | Copies the message |
+| [CopyMessageAsync](copymessageasync)(int, string, CancellationToken) | Copies the message |
+| [CopyMessageAsync](copymessageasync)(string, string, CancellationToken) | Copies the message |
+| [CopyMessageAsync](copymessageasync)(IConnection, int, string, CancellationToken) | Copies the message |
+| [CopyMessageAsync](copymessageasync)(IConnection, string, string, CancellationToken) | Copies the message |
 | [CopyMessages](copymessages)(IEnumerable&lt;ImapMessageInfo&gt;, string) | Copy messages |
 | [CopyMessages](copymessages)(IEnumerable&lt;int&gt;, string) | Copy messages |
 | [CopyMessages](copymessages)(IEnumerable&lt;string&gt;, string) | Copy messages |
@@ -355,38 +355,38 @@ public sealed class ImapClient : EmailClient
 | [CopyMessages](copymessages)(string, string, string) | Copy messages |
 | [CopyMessages](copymessages)(IConnection, int, int, string) | Copy the messaeg |
 | [CopyMessages](copymessages)(IConnection, string, string, string) | Copy messages |
-| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;int&gt;, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;string&gt;, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;int&gt;, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;string&gt;, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string, CancellationToken) |  |
-| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;int&gt;, string, CancellationToken) |  |
-| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;string&gt;, string, CancellationToken) |  |
-| [CopyMessagesAsync](copymessagesasync)(int, int, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(string, string, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string, CancellationToken) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;int&gt;, string, CancellationToken) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;string&gt;, string, CancellationToken) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, int, int, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, string, string, string) |  |
-| [CopyMessagesAsync](copymessagesasync)(int, int, string, CancellationToken) |  |
-| [CopyMessagesAsync](copymessagesasync)(string, string, string, CancellationToken) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, int, int, string, CancellationToken) |  |
-| [CopyMessagesAsync](copymessagesasync)(IConnection, string, string, string, CancellationToken) |  |
+| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;int&gt;, string) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;string&gt;, string) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;int&gt;, string) | Copy the messaeg |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;string&gt;, string) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string, CancellationToken) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;int&gt;, string, CancellationToken) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IEnumerable&lt;string&gt;, string, CancellationToken) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(int, int, string) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(string, string, string) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string, CancellationToken) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;int&gt;, string, CancellationToken) | Copy the messaeg |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, IEnumerable&lt;string&gt;, string, CancellationToken) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, int, int, string) | Copy the messaeg |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, string, string, string) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(int, int, string, CancellationToken) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(string, string, string, CancellationToken) | Copy messages |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, int, int, string, CancellationToken) | Copy the messaeg |
+| [CopyMessagesAsync](copymessagesasync)(IConnection, string, string, string, CancellationToken) | Copy messages |
 | [CreateFolder](createfolder)(string) | Creates a folder with the specified name |
 | [CreateFolder](createfolder)(IConnection, string) | Creates a folder with the specified name |
-| [CreateFolderAsync](createfolderasync)(string) |  |
-| [CreateFolderAsync](createfolderasync)(IConnection, string) |  |
-| [CreateFolderAsync](createfolderasync)(string, CancellationToken) |  |
-| [CreateFolderAsync](createfolderasync)(IConnection, string, CancellationToken) |  |
+| [CreateFolderAsync](createfolderasync)(string) | Creates a folder with the specified name |
+| [CreateFolderAsync](createfolderasync)(IConnection, string) | Creates a folder with the specified name |
+| [CreateFolderAsync](createfolderasync)(string, CancellationToken) | Creates a folder with the specified name |
+| [CreateFolderAsync](createfolderasync)(IConnection, string, CancellationToken) | Creates a folder with the specified name |
 | [DeleteFolder](deletefolder)(string) | Deletes a specified folder. This method represents IMAP DELETE command |
 | [DeleteFolder](deletefolder)(IConnection, string) | Deletes a specified folder. This method represents IMAP DELETE command |
-| [DeleteFolderAsync](deletefolderasync)(string) |  |
-| [DeleteFolderAsync](deletefolderasync)(IConnection, string) |  |
-| [DeleteFolderAsync](deletefolderasync)(string, CancellationToken) |  |
-| [DeleteFolderAsync](deletefolderasync)(IConnection, string, CancellationToken) |  |
+| [DeleteFolderAsync](deletefolderasync)(string) | Deletes a specified folder. This method represents IMAP DELETE command |
+| [DeleteFolderAsync](deletefolderasync)(IConnection, string) | Deletes a specified folder. This method represents IMAP DELETE command |
+| [DeleteFolderAsync](deletefolderasync)(string, CancellationToken) | Deletes a specified folder. This method represents IMAP DELETE command |
+| [DeleteFolderAsync](deletefolderasync)(IConnection, string, CancellationToken) | Deletes a specified folder. This method represents IMAP DELETE command |
 | [DeleteMessage](deletemessage)(int) | Marks a message with the specified sequence number as deleted |
 | [DeleteMessage](deletemessage)(string) | Marks a message with the specified sequence number as deleted |
 | [DeleteMessage](deletemessage)(IConnection, int) | Marks a message with the specified sequence number as deleted |
@@ -399,30 +399,30 @@ public sealed class ImapClient : EmailClient
 | [DeleteMessage](deletemessage)(IConnection, string, long) | Marks a message with the specified unique identifier as deleted |
 | [DeleteMessage](deletemessage)(string, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
 | [DeleteMessage](deletemessage)(IConnection, string, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
-| [DeleteMessageAsync](deletemessageasync)(int) |  |
-| [DeleteMessageAsync](deletemessageasync)(string) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, int) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, string) |  |
-| [DeleteMessageAsync](deletemessageasync)(int, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(int, long) |  |
-| [DeleteMessageAsync](deletemessageasync)(string, bool) |  |
-| [DeleteMessageAsync](deletemessageasync)(string, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(string, long) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, int, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, int, long) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, string, bool) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, string, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, string, long) |  |
-| [DeleteMessageAsync](deletemessageasync)(int, long, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(string, bool, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(string, long, bool) |  |
-| [DeleteMessageAsync](deletemessageasync)(string, long, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, int, long, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, string, bool, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, string, long, bool) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, string, long, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(string, long, bool, CancellationToken) |  |
-| [DeleteMessageAsync](deletemessageasync)(IConnection, string, long, bool, CancellationToken) |  |
+| [DeleteMessageAsync](deletemessageasync)(int) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(string) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, int) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, string) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(int, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(int, long) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(string, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessageAsync](deletemessageasync)(string, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(string, long) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, int, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, int, long) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, string, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, string, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, string, long) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessageAsync](deletemessageasync)(int, long, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(string, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessageAsync](deletemessageasync)(string, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessageAsync](deletemessageasync)(string, long, CancellationToken) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, int, long, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, string, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, string, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, string, long, CancellationToken) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessageAsync](deletemessageasync)(string, long, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessageAsync](deletemessageasync)(IConnection, string, long, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
 | [DeleteMessages](deletemessages)(IEnumerable&lt;ImapMessageInfo&gt;) | Marks a message with the specified sequence number as deleted |
 | [DeleteMessages](deletemessages)(IEnumerable&lt;int&gt;) | Marks a message with the specified sequence number as deleted |
 | [DeleteMessages](deletemessages)(IEnumerable&lt;string&gt;) | Marks a message with the specified sequence number as deleted |
@@ -455,160 +455,160 @@ public sealed class ImapClient : EmailClient
 | [DeleteMessages](deletemessages)(IConnection, string, string, long) | Marks a message with the specified unique identifier as deleted |
 | [DeleteMessages](deletemessages)(string, string, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
 | [DeleteMessages](deletemessages)(IConnection, string, string, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;int&gt;) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;int&gt;) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;int&gt;, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;int&gt;, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(int, int) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(string, string) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;int&gt;, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;int&gt;, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, int, int) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, long, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;int&gt;, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, long, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(int, int, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(int, int, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(string, string, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(string, string, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(string, string, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;int&gt;, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, long, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, int, int, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, int, int, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, long) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, long, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, long, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(int, int, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(string, string, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(string, string, long, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(string, string, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, long, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, int, int, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, long, bool) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, long, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(string, string, long, bool, CancellationToken) |  |
-| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, long, bool, CancellationToken) |  |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;int&gt;) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;int&gt;) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, long) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;int&gt;, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;int&gt;, long) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, long) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(int, int) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(string, string) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;int&gt;, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;int&gt;, long) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, long) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, int, int) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, long, CancellationToken) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;int&gt;, long, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, long, CancellationToken) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(int, int, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(int, int, long) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(string, string, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(string, string, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(string, string, long) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, CancellationToken) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;int&gt;, long, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, long, CancellationToken) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, int, int, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, int, int, long) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, long) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, long, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IEnumerable&lt;string&gt;, long, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(int, int, long, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(string, string, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(string, string, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(string, string, long, CancellationToken) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, IEnumerable&lt;string&gt;, long, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, int, int, long, CancellationToken) | Marks a message with the specified sequence number as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, long, bool) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, long, CancellationToken) | Marks a message with the specified unique identifier as deleted |
+| [DeleteMessagesAsync](deletemessagesasync)(string, string, long, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [DeleteMessagesAsync](deletemessagesasync)(IConnection, string, string, long, bool, CancellationToken) | Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315 |
 | override [Dispose](dispose)() | Finalizes all operations with a server. |
 | [ExistFolder](existfolder)(string) | Check whether this folder exists |
 | [ExistFolder](existfolder)(IConnection, string) | Check whether this folder exists |
 | [ExistFolder](existfolder)(string, out ImapFolderInfo) | Check whether this folder exists, extract folder info if so |
 | [ExistFolder](existfolder)(IConnection, string, out ImapFolderInfo) | Check whether this folder exists, extract folder info if so |
-| [ExistFolderAsync](existfolderasync)(string) |  |
-| [ExistFolderAsync](existfolderasync)(IConnection, string) |  |
-| [ExistFolderAsync](existfolderasync)(string, CancellationToken) |  |
-| [ExistFolderAsync](existfolderasync)(IConnection, string, CancellationToken) |  |
+| [ExistFolderAsync](existfolderasync)(string) | Check whether this folder exists |
+| [ExistFolderAsync](existfolderasync)(IConnection, string) | Check whether this folder exists |
+| [ExistFolderAsync](existfolderasync)(string, CancellationToken) | Check whether this folder exists |
+| [ExistFolderAsync](existfolderasync)(IConnection, string, CancellationToken) | Check whether this folder exists |
 | [FetchAttachment](fetchattachment)(int, string) | Fetches the specified attachment |
 | [FetchAttachment](fetchattachment)(IConnection, int, string) | Fetches the specified attachment |
-| [FetchAttachmentAsync](fetchattachmentasync)(int, string) |  |
-| [FetchAttachmentAsync](fetchattachmentasync)(IConnection, int, string) |  |
-| [FetchAttachmentAsync](fetchattachmentasync)(int, string, CancellationToken) |  |
-| [FetchAttachmentAsync](fetchattachmentasync)(IConnection, int, string, CancellationToken) |  |
+| [FetchAttachmentAsync](fetchattachmentasync)(int, string) | Fetches the specified attachment |
+| [FetchAttachmentAsync](fetchattachmentasync)(IConnection, int, string) | Fetches the specified attachment |
+| [FetchAttachmentAsync](fetchattachmentasync)(int, string, CancellationToken) | Fetches the specified attachment |
+| [FetchAttachmentAsync](fetchattachmentasync)(IConnection, int, string, CancellationToken) | Fetches the specified attachment |
 | [FetchMessage](fetchmessage)(int) | Fetches the message |
 | [FetchMessage](fetchmessage)(string) | Fetches the message |
 | [FetchMessage](fetchmessage)(IConnection, int) | Fetches the message |
 | [FetchMessage](fetchmessage)(IConnection, string) | Fetches the message |
 | [FetchMessage](fetchmessage)(int, bool) | Fetches the message |
 | [FetchMessage](fetchmessage)(IConnection, int, bool) | Fetches the message |
-| [FetchMessageAsync](fetchmessageasync)(int) |  |
-| [FetchMessageAsync](fetchmessageasync)(string) |  |
-| [FetchMessageAsync](fetchmessageasync)(IConnection, int) |  |
-| [FetchMessageAsync](fetchmessageasync)(IConnection, string) |  |
-| [FetchMessageAsync](fetchmessageasync)(int, bool) |  |
-| [FetchMessageAsync](fetchmessageasync)(int, CancellationToken) |  |
-| [FetchMessageAsync](fetchmessageasync)(string, CancellationToken) |  |
-| [FetchMessageAsync](fetchmessageasync)(IConnection, int, bool) |  |
-| [FetchMessageAsync](fetchmessageasync)(IConnection, int, CancellationToken) |  |
-| [FetchMessageAsync](fetchmessageasync)(IConnection, string, CancellationToken) |  |
-| [FetchMessageAsync](fetchmessageasync)(int, bool, CancellationToken) |  |
-| [FetchMessageAsync](fetchmessageasync)(IConnection, int, bool, CancellationToken) |  |
+| [FetchMessageAsync](fetchmessageasync)(int) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(string) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(IConnection, int) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(IConnection, string) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(int, bool) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(int, CancellationToken) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(string, CancellationToken) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(IConnection, int, bool) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(IConnection, int, CancellationToken) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(IConnection, string, CancellationToken) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(int, bool, CancellationToken) | Fetches the message |
+| [FetchMessageAsync](fetchmessageasync)(IConnection, int, bool, CancellationToken) | Fetches the message |
 | [FetchMessages](fetchmessages)(IEnumerable&lt;int&gt;) | Fetches the messages |
 | [FetchMessages](fetchmessages)(IEnumerable&lt;string&gt;) | Fetches the messages |
 | [FetchMessages](fetchmessages)(IConnection, IEnumerable&lt;int&gt;) | Fetches the messages |
 | [FetchMessages](fetchmessages)(IConnection, IEnumerable&lt;string&gt;) | Fetches the messages |
-| [FetchMessagesAsync](fetchmessagesasync)(IEnumerable&lt;int&gt;) |  |
-| [FetchMessagesAsync](fetchmessagesasync)(IEnumerable&lt;string&gt;) |  |
-| [FetchMessagesAsync](fetchmessagesasync)(IConnection, IEnumerable&lt;int&gt;) |  |
-| [FetchMessagesAsync](fetchmessagesasync)(IConnection, IEnumerable&lt;string&gt;) |  |
-| [FetchMessagesAsync](fetchmessagesasync)(IEnumerable&lt;int&gt;, CancellationToken) |  |
-| [FetchMessagesAsync](fetchmessagesasync)(IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [FetchMessagesAsync](fetchmessagesasync)(IConnection, IEnumerable&lt;int&gt;, CancellationToken) |  |
-| [FetchMessagesAsync](fetchmessagesasync)(IConnection, IEnumerable&lt;string&gt;, CancellationToken) |  |
+| [FetchMessagesAsync](fetchmessagesasync)(IEnumerable&lt;int&gt;) | Fetches the messages asynchronously |
+| [FetchMessagesAsync](fetchmessagesasync)(IEnumerable&lt;string&gt;) | Fetches the messages asynchronously |
+| [FetchMessagesAsync](fetchmessagesasync)(IConnection, IEnumerable&lt;int&gt;) | Fetches the messages asynchronously |
+| [FetchMessagesAsync](fetchmessagesasync)(IConnection, IEnumerable&lt;string&gt;) | Fetches the messages asynchronously |
+| [FetchMessagesAsync](fetchmessagesasync)(IEnumerable&lt;int&gt;, CancellationToken) | Fetches the messages asynchronously |
+| [FetchMessagesAsync](fetchmessagesasync)(IEnumerable&lt;string&gt;, CancellationToken) | Fetches the messages asynchronously |
+| [FetchMessagesAsync](fetchmessagesasync)(IConnection, IEnumerable&lt;int&gt;, CancellationToken) | Fetches the messages asynchronously |
+| [FetchMessagesAsync](fetchmessagesasync)(IConnection, IEnumerable&lt;string&gt;, CancellationToken) | Fetches the messages asynchronously |
 | [GetFolderInfo](getfolderinfo)(string) | Returns information about the specified folder without selecting it |
 | [GetFolderInfo](getfolderinfo)(IConnection, string) | Returns information about the specified folder without selecting it |
-| [GetFolderInfoAsync](getfolderinfoasync)(string) |  |
-| [GetFolderInfoAsync](getfolderinfoasync)(IConnection, string) |  |
-| [GetFolderInfoAsync](getfolderinfoasync)(string, CancellationToken) |  |
-| [GetFolderInfoAsync](getfolderinfoasync)(IConnection, string, CancellationToken) |  |
+| [GetFolderInfoAsync](getfolderinfoasync)(string) | Returns information about the specified folder without selecting it |
+| [GetFolderInfoAsync](getfolderinfoasync)(IConnection, string) | Returns information about the specified folder without selecting it |
+| [GetFolderInfoAsync](getfolderinfoasync)(string, CancellationToken) | Returns information about the specified folder without selecting it |
+| [GetFolderInfoAsync](getfolderinfoasync)(IConnection, string, CancellationToken) | Returns information about the specified folder without selecting it |
 | [GetMessageThreads](getmessagethreads)(BaseSearchConditions) | Get message threads. |
 | [GetMessageThreads](getmessagethreads)(IConnection, BaseSearchConditions) | Get message threads. |
-| [GetMessageThreadsAsync](getmessagethreadsasync)(BaseSearchConditions) |  |
-| [GetMessageThreadsAsync](getmessagethreadsasync)(BaseSearchConditions, CancellationToken) |  |
-| [GetMessageThreadsAsync](getmessagethreadsasync)(IConnection, BaseSearchConditions) |  |
-| [GetMessageThreadsAsync](getmessagethreadsasync)(IConnection, BaseSearchConditions, CancellationToken) |  |
+| [GetMessageThreadsAsync](getmessagethreadsasync)(BaseSearchConditions) | Get message threads. |
+| [GetMessageThreadsAsync](getmessagethreadsasync)(BaseSearchConditions, CancellationToken) | Get message threads. |
+| [GetMessageThreadsAsync](getmessagethreadsasync)(IConnection, BaseSearchConditions) | Get message threads. |
+| [GetMessageThreadsAsync](getmessagethreadsasync)(IConnection, BaseSearchConditions, CancellationToken) | Get message threads. |
 | [GetNamespaces](getnamespaces)() | Gets namespaces that are available on a server. |
 | [GetNamespaces](getnamespaces)(IConnection) | Gets namespaces that are available on a server. |
-| [GetNamespacesAsync](getnamespacesasync)() |  |
-| [GetNamespacesAsync](getnamespacesasync)(CancellationToken) |  |
-| [GetNamespacesAsync](getnamespacesasync)(IConnection) |  |
-| [GetNamespacesAsync](getnamespacesasync)(IConnection, CancellationToken) |  |
+| [GetNamespacesAsync](getnamespacesasync)() | Gets namespaces that are available on a server. |
+| [GetNamespacesAsync](getnamespacesasync)(CancellationToken) | Gets namespaces that are available on a server. |
+| [GetNamespacesAsync](getnamespacesasync)(IConnection) | Gets namespaces that are available on a server. |
+| [GetNamespacesAsync](getnamespacesasync)(IConnection, CancellationToken) | Gets namespaces that are available on a server. |
 | [GetQuota](getquota)(string) | Gets quota information |
 | [GetQuota](getquota)(IConnection, string) | Gets quota information |
-| [GetQuotaAsync](getquotaasync)(string) |  |
-| [GetQuotaAsync](getquotaasync)(IConnection, string) |  |
-| [GetQuotaAsync](getquotaasync)(string, CancellationToken) |  |
-| [GetQuotaAsync](getquotaasync)(IConnection, string, CancellationToken) |  |
+| [GetQuotaAsync](getquotaasync)(string) | Gets quota information |
+| [GetQuotaAsync](getquotaasync)(IConnection, string) | Gets quota information |
+| [GetQuotaAsync](getquotaasync)(string, CancellationToken) | Gets quota information |
+| [GetQuotaAsync](getquotaasync)(IConnection, string, CancellationToken) | Gets quota information |
 | [GetQuotaRoot](getquotaroot)(string) | Gets quota root information for mailbox |
 | [GetQuotaRoot](getquotaroot)(IConnection, string) | Gets quota root information for mailbox |
-| [GetQuotaRootAsync](getquotarootasync)(string) |  |
-| [GetQuotaRootAsync](getquotarootasync)(IConnection, string) |  |
-| [GetQuotaRootAsync](getquotarootasync)(string, CancellationToken) |  |
-| [GetQuotaRootAsync](getquotarootasync)(IConnection, string, CancellationToken) |  |
+| [GetQuotaRootAsync](getquotarootasync)(string) | Gets quota root information for mailbox |
+| [GetQuotaRootAsync](getquotarootasync)(IConnection, string) | Gets quota root information for mailbox |
+| [GetQuotaRootAsync](getquotarootasync)(string, CancellationToken) | Gets quota root information for mailbox |
+| [GetQuotaRootAsync](getquotarootasync)(IConnection, string, CancellationToken) | Gets quota root information for mailbox |
 | [IntroduceClient](introduceclient)() | Introduces client information to a server. |
 | [IntroduceClient](introduceclient)(IConnection) | Introduces client information to a server. |
 | [IntroduceClient](introduceclient)(ImapIdentificationInfo) | Introduces client information to a server. |
 | [IntroduceClient](introduceclient)(IConnection, ImapIdentificationInfo) | Introduces client information to a server. |
-| [IntroduceClientAsync](introduceclientasync)() |  |
-| [IntroduceClientAsync](introduceclientasync)(CancellationToken) |  |
-| [IntroduceClientAsync](introduceclientasync)(IConnection) |  |
-| [IntroduceClientAsync](introduceclientasync)(ImapIdentificationInfo) |  |
-| [IntroduceClientAsync](introduceclientasync)(IConnection, CancellationToken) |  |
-| [IntroduceClientAsync](introduceclientasync)(IConnection, ImapIdentificationInfo) |  |
-| [IntroduceClientAsync](introduceclientasync)(ImapIdentificationInfo, CancellationToken) |  |
-| [IntroduceClientAsync](introduceclientasync)(IConnection, ImapIdentificationInfo, CancellationToken) |  |
+| [IntroduceClientAsync](introduceclientasync)() | Introduces client information to a server. |
+| [IntroduceClientAsync](introduceclientasync)(CancellationToken) | Introduces client information to a server. |
+| [IntroduceClientAsync](introduceclientasync)(IConnection) | Introduces client information to a server. |
+| [IntroduceClientAsync](introduceclientasync)(ImapIdentificationInfo) | Introduces client information to a server. |
+| [IntroduceClientAsync](introduceclientasync)(IConnection, CancellationToken) | Introduces client information to a server. |
+| [IntroduceClientAsync](introduceclientasync)(IConnection, ImapIdentificationInfo) | Introduces client information to a server. |
+| [IntroduceClientAsync](introduceclientasync)(ImapIdentificationInfo, CancellationToken) | Introduces client information to a server. |
+| [IntroduceClientAsync](introduceclientasync)(IConnection, ImapIdentificationInfo, CancellationToken) | Introduces client information to a server. |
 | [ListAttachments](listattachments)(int) | Gets the message attachments list. Gets an information for each attachment in message. |
-| [ListAttachmentsAsync](listattachmentsasync)(int) |  |
-| [ListAttachmentsAsync](listattachmentsasync)(int, CancellationToken) |  |
+| [ListAttachmentsAsync](listattachmentsasync)(int) | Gets the message attachments list. Gets an information for each attachment in message. |
+| [ListAttachmentsAsync](listattachmentsasync)(int, CancellationToken) | Gets the message attachments list. Gets an information for each attachment in message. |
 | [ListFolders](listfolders)() | Gets the list of folders in the mailbox |
 | [ListFolders](listfolders)(bool) | Gets the list of folders in the mailbox |
 | [ListFolders](listfolders)(IConnection) | Gets the list of folders in the mailbox |
@@ -619,26 +619,26 @@ public sealed class ImapClient : EmailClient
 | [ListFolders](listfolders)(IConnection, string, bool) | Gets the list of subfolders in the specified folder |
 | [ListFolders](listfolders)(string, bool, ListFoldersOptions, ListFoldersReturnOptions) | Gets the list of subfolders in the specified folder |
 | [ListFolders](listfolders)(IConnection, string, bool, ListFoldersOptions, ListFoldersReturnOptions) | Gets the list of subfolders in the specified folder |
-| [ListFoldersAsync](listfoldersasync)() |  |
-| [ListFoldersAsync](listfoldersasync)(bool) |  |
-| [ListFoldersAsync](listfoldersasync)(CancellationToken) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection) |  |
-| [ListFoldersAsync](listfoldersasync)(string) |  |
-| [ListFoldersAsync](listfoldersasync)(bool, CancellationToken) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection, bool) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection, CancellationToken) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection, string) |  |
-| [ListFoldersAsync](listfoldersasync)(string, bool) |  |
-| [ListFoldersAsync](listfoldersasync)(string, CancellationToken) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection, bool, CancellationToken) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection, string, bool) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection, string, CancellationToken) |  |
-| [ListFoldersAsync](listfoldersasync)(string, bool, CancellationToken) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection, string, bool, CancellationToken) |  |
-| [ListFoldersAsync](listfoldersasync)(string, bool, ListFoldersOptions, ListFoldersReturnOptions) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection, string, bool, ListFoldersOptions, ListFoldersReturnOptions) |  |
-| [ListFoldersAsync](listfoldersasync)(string, bool, ListFoldersOptions, ListFoldersReturnOptions, CancellationToken) |  |
-| [ListFoldersAsync](listfoldersasync)(IConnection, string, bool, ListFoldersOptions, ListFoldersReturnOptions, CancellationToken) |  |
+| [ListFoldersAsync](listfoldersasync)() | Gets the list of folders in the mailbox |
+| [ListFoldersAsync](listfoldersasync)(bool) | Gets the list of folders in the mailbox |
+| [ListFoldersAsync](listfoldersasync)(CancellationToken) | Gets the list of folders in the mailbox |
+| [ListFoldersAsync](listfoldersasync)(IConnection) | Gets the list of folders in the mailbox |
+| [ListFoldersAsync](listfoldersasync)(string) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(bool, CancellationToken) | Gets the list of folders in the mailbox |
+| [ListFoldersAsync](listfoldersasync)(IConnection, bool) | Gets the list of folders in the mailbox |
+| [ListFoldersAsync](listfoldersasync)(IConnection, CancellationToken) | Gets the list of folders in the mailbox |
+| [ListFoldersAsync](listfoldersasync)(IConnection, string) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(string, bool) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(string, CancellationToken) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(IConnection, bool, CancellationToken) | Gets the list of folders in the mailbox |
+| [ListFoldersAsync](listfoldersasync)(IConnection, string, bool) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(IConnection, string, CancellationToken) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(string, bool, CancellationToken) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(IConnection, string, bool, CancellationToken) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(string, bool, ListFoldersOptions, ListFoldersReturnOptions) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(IConnection, string, bool, ListFoldersOptions, ListFoldersReturnOptions) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(string, bool, ListFoldersOptions, ListFoldersReturnOptions, CancellationToken) | Gets the list of subfolders in the specified folder |
+| [ListFoldersAsync](listfoldersasync)(IConnection, string, bool, ListFoldersOptions, ListFoldersReturnOptions, CancellationToken) | Gets the list of subfolders in the specified folder |
 | [ListMessage](listmessage)(int) | Gets information about a message. |
 | [ListMessage](listmessage)(string) | Gets information about a message. |
 | [ListMessage](listmessage)(IConnection, int) | Gets information about a message. |
@@ -647,22 +647,22 @@ public sealed class ImapClient : EmailClient
 | [ListMessage](listmessage)(string, IEnumerable&lt;string&gt;) | Gets information about a message. |
 | [ListMessage](listmessage)(IConnection, int, IEnumerable&lt;string&gt;) | Gets information about a message. |
 | [ListMessage](listmessage)(IConnection, string, IEnumerable&lt;string&gt;) | Gets information about a message. |
-| [ListMessageAsync](listmessageasync)(int) |  |
-| [ListMessageAsync](listmessageasync)(string) |  |
-| [ListMessageAsync](listmessageasync)(IConnection, int) |  |
-| [ListMessageAsync](listmessageasync)(IConnection, string) |  |
-| [ListMessageAsync](listmessageasync)(int, CancellationToken) |  |
-| [ListMessageAsync](listmessageasync)(int, IEnumerable&lt;string&gt;) |  |
-| [ListMessageAsync](listmessageasync)(string, CancellationToken) |  |
-| [ListMessageAsync](listmessageasync)(string, IEnumerable&lt;string&gt;) |  |
-| [ListMessageAsync](listmessageasync)(IConnection, int, CancellationToken) |  |
-| [ListMessageAsync](listmessageasync)(IConnection, int, IEnumerable&lt;string&gt;) |  |
-| [ListMessageAsync](listmessageasync)(IConnection, string, CancellationToken) |  |
-| [ListMessageAsync](listmessageasync)(IConnection, string, IEnumerable&lt;string&gt;) |  |
-| [ListMessageAsync](listmessageasync)(int, IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [ListMessageAsync](listmessageasync)(string, IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [ListMessageAsync](listmessageasync)(IConnection, int, IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [ListMessageAsync](listmessageasync)(IConnection, string, IEnumerable&lt;string&gt;, CancellationToken) |  |
+| [ListMessageAsync](listmessageasync)(int) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(string) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(IConnection, int) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(IConnection, string) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(int, CancellationToken) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(int, IEnumerable&lt;string&gt;) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(string, CancellationToken) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(string, IEnumerable&lt;string&gt;) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(IConnection, int, CancellationToken) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(IConnection, int, IEnumerable&lt;string&gt;) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(IConnection, string, CancellationToken) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(IConnection, string, IEnumerable&lt;string&gt;) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(int, IEnumerable&lt;string&gt;, CancellationToken) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(string, IEnumerable&lt;string&gt;, CancellationToken) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(IConnection, int, IEnumerable&lt;string&gt;, CancellationToken) | Gets information about a message. |
+| [ListMessageAsync](listmessageasync)(IConnection, string, IEnumerable&lt;string&gt;, CancellationToken) | Gets information about a message. |
 | [ListMessages](listmessages)() | Gets the list of messages in the current folder |
 | [ListMessages](listmessages)(bool) | Gets the list of messages in the current folder |
 | [ListMessages](listmessages)(IConnection) | Gets the list of messages in the current folder |
@@ -690,62 +690,62 @@ public sealed class ImapClient : EmailClient
 | [ListMessages](listmessages)(IConnection, string, ImapListFields, int) | Lists the messages. Gets an information for earch message |
 | [ListMessages](listmessages)(IConnection, string, MailQuery, int) | Gets the list of messages in the current folder. |
 | [ListMessages](listmessages)(IConnection, string, long, bool, IEnumerable&lt;string&gt;) | Gets the list of messages in the specified folder |
-| [ListMessagesAsync](listmessagesasync)() |  |
-| [ListMessagesAsync](listmessagesasync)(bool) |  |
-| [ListMessagesAsync](listmessagesasync)(CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection) |  |
-| [ListMessagesAsync](listmessagesasync)(IEnumerable&lt;string&gt;) |  |
-| [ListMessagesAsync](listmessagesasync)(int) |  |
-| [ListMessagesAsync](listmessagesasync)(long) |  |
-| [ListMessagesAsync](listmessagesasync)(MailQuery) |  |
-| [ListMessagesAsync](listmessagesasync)(string) |  |
-| [ListMessagesAsync](listmessagesasync)(bool, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, bool) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, int) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, long) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, MailQuery) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, string) |  |
-| [ListMessagesAsync](listmessagesasync)(IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(int, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(long, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(MailQuery, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(MailQuery, int) |  |
-| [ListMessagesAsync](listmessagesasync)(string, bool) |  |
-| [ListMessagesAsync](listmessagesasync)(string, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, bool, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, int, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, long, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, MailQuery, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, MailQuery, int) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, string, bool) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, string, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(MailQuery, int, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(string, bool, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(string, bool, IEnumerable&lt;string&gt;) |  |
-| [ListMessagesAsync](listmessagesasync)(string, MailQuery, int) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, MailQuery, int, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, string, bool, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, string, MailQuery, int) |  |
-| [ListMessagesAsync](listmessagesasync)(string, bool, IEnumerable&lt;string&gt;, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(string, MailQuery, int, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, string, long, bool, IEnumerable&lt;string&gt;) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, string, MailQuery, int, CancellationToken) |  |
-| [ListMessagesAsync](listmessagesasync)(IConnection, string, long, bool, IEnumerable&lt;string&gt;, CancellationToken) |  |
+| [ListMessagesAsync](listmessagesasync)() | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(bool) | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(CancellationToken) | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(IConnection) | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(IEnumerable&lt;string&gt;) | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(int) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(long) | Gets the list of messages in the current folder that have a modification sequence bigger than specified value. Please, see more https://tools.ietf.org/html/rfc7162 |
+| [ListMessagesAsync](listmessagesasync)(MailQuery) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(string) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(bool, CancellationToken) | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(IConnection, bool) | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(IConnection, CancellationToken) | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(IConnection, int) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(IConnection, long) | Gets the list of messages in the current folder that have a modification sequence bigger than specified value. Please, see more https://tools.ietf.org/html/rfc7162 |
+| [ListMessagesAsync](listmessagesasync)(IConnection, MailQuery) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(IConnection, string) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(IEnumerable&lt;string&gt;, CancellationToken) | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(int, CancellationToken) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(long, CancellationToken) | Gets the list of messages in the current folder that have a modification sequence bigger than specified value. Please, see more https://tools.ietf.org/html/rfc7162 |
+| [ListMessagesAsync](listmessagesasync)(MailQuery, CancellationToken) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(MailQuery, int) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(string, bool) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(string, CancellationToken) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(IConnection, bool, CancellationToken) | Gets the list of messages in the current folder |
+| [ListMessagesAsync](listmessagesasync)(IConnection, int, CancellationToken) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(IConnection, long, CancellationToken) | Gets the list of messages in the current folder that have a modification sequence bigger than specified value. Please, see more https://tools.ietf.org/html/rfc7162 |
+| [ListMessagesAsync](listmessagesasync)(IConnection, MailQuery, CancellationToken) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(IConnection, MailQuery, int) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(IConnection, string, bool) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(IConnection, string, CancellationToken) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(MailQuery, int, CancellationToken) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(string, bool, CancellationToken) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(string, bool, IEnumerable&lt;string&gt;) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(string, MailQuery, int) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(IConnection, MailQuery, int, CancellationToken) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(IConnection, string, bool, CancellationToken) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(IConnection, string, MailQuery, int) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(string, bool, IEnumerable&lt;string&gt;, CancellationToken) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(string, MailQuery, int, CancellationToken) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(IConnection, string, long, bool, IEnumerable&lt;string&gt;) | Gets the list of messages in the specified folder |
+| [ListMessagesAsync](listmessagesasync)(IConnection, string, MailQuery, int, CancellationToken) | Gets the list of messages in the current folder. |
+| [ListMessagesAsync](listmessagesasync)(IConnection, string, long, bool, IEnumerable&lt;string&gt;, CancellationToken) | Gets the list of messages in the specified folder |
 | [ListMessagesByPage](listmessagesbypage)(int, PageSettings) | Gets the list of messages |
 | [ListMessagesByPage](listmessagesbypage)(PageInfo, PageSettings) | Gets the list of messages |
 | [ListMessagesByPage](listmessagesbypage)(int, int, PageSettings) | Gets the list of messages |
 | [ListMessagesByPage](listmessagesbypage)(MailQuery, PageInfo, PageSettings) | Gets the list of messages |
-| [ListMessagesByPageAsync](listmessagesbypageasync)(int, int, PageSettings) |  |
-| [ListMessagesByPageAsync](listmessagesbypageasync)(MailQuery, PageInfo, PageSettings) |  |
-| [ListMessagesByPageAsync](listmessagesbypageasync)(int, int, PageSettings, CancellationToken) |  |
-| [ListMessagesByPageAsync](listmessagesbypageasync)(MailQuery, PageInfo, PageSettings, CancellationToken) |  |
+| [ListMessagesByPageAsync](listmessagesbypageasync)(int, int, PageSettings) | Gets the list of messages |
+| [ListMessagesByPageAsync](listmessagesbypageasync)(MailQuery, PageInfo, PageSettings) | Gets the list of messages |
+| [ListMessagesByPageAsync](listmessagesbypageasync)(int, int, PageSettings, CancellationToken) | Gets the list of messages |
+| [ListMessagesByPageAsync](listmessagesbypageasync)(MailQuery, PageInfo, PageSettings, CancellationToken) | Gets the list of messages |
 | [MoveFolder](movefolder)(string, string) | Moves specified folder and its subfolders to new location. |
 | [MoveFolder](movefolder)(IConnection, string, string) | Moves specified folder and its subfolders to new location. |
-| [MoveFolderAsync](movefolderasync)(string, string) |  |
-| [MoveFolderAsync](movefolderasync)(IConnection, string, string) |  |
-| [MoveFolderAsync](movefolderasync)(string, string, CancellationToken) |  |
-| [MoveFolderAsync](movefolderasync)(IConnection, string, string, CancellationToken) |  |
+| [MoveFolderAsync](movefolderasync)(string, string) | Moves specified folder and its subfolders to new location. |
+| [MoveFolderAsync](movefolderasync)(IConnection, string, string) | Moves specified folder and its subfolders to new location. |
+| [MoveFolderAsync](movefolderasync)(string, string, CancellationToken) | Moves specified folder and its subfolders to new location. |
+| [MoveFolderAsync](movefolderasync)(IConnection, string, string, CancellationToken) | Moves specified folder and its subfolders to new location. |
 | [MoveMessage](movemessage)(int, string) | Moves the message |
 | [MoveMessage](movemessage)(string, string) | Moves the message |
 | [MoveMessage](movemessage)(IConnection, int, string) | Moves the messaeg |
@@ -754,22 +754,22 @@ public sealed class ImapClient : EmailClient
 | [MoveMessage](movemessage)(string, string, bool) | Moves the message |
 | [MoveMessage](movemessage)(IConnection, int, string, bool) | Moves the messaeg |
 | [MoveMessage](movemessage)(IConnection, string, string, bool) | Moves the message |
-| [MoveMessageAsync](movemessageasync)(int, string) |  |
-| [MoveMessageAsync](movemessageasync)(string, string) |  |
-| [MoveMessageAsync](movemessageasync)(IConnection, int, string) |  |
-| [MoveMessageAsync](movemessageasync)(IConnection, string, string) |  |
-| [MoveMessageAsync](movemessageasync)(int, string, bool) |  |
-| [MoveMessageAsync](movemessageasync)(int, string, CancellationToken) |  |
-| [MoveMessageAsync](movemessageasync)(string, string, bool) |  |
-| [MoveMessageAsync](movemessageasync)(string, string, CancellationToken) |  |
-| [MoveMessageAsync](movemessageasync)(IConnection, int, string, bool) |  |
-| [MoveMessageAsync](movemessageasync)(IConnection, int, string, CancellationToken) |  |
-| [MoveMessageAsync](movemessageasync)(IConnection, string, string, bool) |  |
-| [MoveMessageAsync](movemessageasync)(IConnection, string, string, CancellationToken) |  |
-| [MoveMessageAsync](movemessageasync)(int, string, bool, CancellationToken) |  |
-| [MoveMessageAsync](movemessageasync)(string, string, bool, CancellationToken) |  |
-| [MoveMessageAsync](movemessageasync)(IConnection, int, string, bool, CancellationToken) |  |
-| [MoveMessageAsync](movemessageasync)(IConnection, string, string, bool, CancellationToken) |  |
+| [MoveMessageAsync](movemessageasync)(int, string) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(string, string) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(IConnection, int, string) | Moves the messaeg |
+| [MoveMessageAsync](movemessageasync)(IConnection, string, string) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(int, string, bool) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(int, string, CancellationToken) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(string, string, bool) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(string, string, CancellationToken) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(IConnection, int, string, bool) | Moves the messaeg |
+| [MoveMessageAsync](movemessageasync)(IConnection, int, string, CancellationToken) | Moves the messaeg |
+| [MoveMessageAsync](movemessageasync)(IConnection, string, string, bool) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(IConnection, string, string, CancellationToken) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(int, string, bool, CancellationToken) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(string, string, bool, CancellationToken) | Moves the message |
+| [MoveMessageAsync](movemessageasync)(IConnection, int, string, bool, CancellationToken) | Moves the messaeg |
+| [MoveMessageAsync](movemessageasync)(IConnection, string, string, bool, CancellationToken) | Moves the message |
 | [MoveMessages](movemessages)(IEnumerable&lt;ImapMessageInfo&gt;, string) | Moves the message |
 | [MoveMessages](movemessages)(IEnumerable&lt;int&gt;, string) | Moves the message |
 | [MoveMessages](movemessages)(IEnumerable&lt;string&gt;, string) | Moves the message |
@@ -790,52 +790,52 @@ public sealed class ImapClient : EmailClient
 | [MoveMessages](movemessages)(string, string, string, bool) | Moves the message |
 | [MoveMessages](movemessages)(IConnection, int, int, string, bool) | Moves the messaeg |
 | [MoveMessages](movemessages)(IConnection, string, string, string, bool) | Moves the message |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;int&gt;, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;string&gt;, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;int&gt;, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;string&gt;, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;int&gt;, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;int&gt;, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;string&gt;, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;string&gt;, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(int, int, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(string, string, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;int&gt;, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;int&gt;, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;string&gt;, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;string&gt;, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, int, int, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, string, string, string) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string, bool, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;int&gt;, string, bool, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;string&gt;, string, bool, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(int, int, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(int, int, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(string, string, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(string, string, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string, bool, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;int&gt;, string, bool, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;string&gt;, string, bool, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, int, int, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, int, int, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, string, string, string, bool) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, string, string, string, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(int, int, string, bool, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(string, string, string, bool, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, int, int, string, bool, CancellationToken) |  |
-| [MoveMessagesAsync](movemessagesasync)(IConnection, string, string, string, bool, CancellationToken) |  |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;int&gt;, string) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;string&gt;, string) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;int&gt;, string) | Moves the messaeg |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;string&gt;, string) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string, bool) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;int&gt;, string, bool) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;int&gt;, string, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;string&gt;, string, bool) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;string&gt;, string, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(int, int, string) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(string, string, string) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string, bool) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;int&gt;, string, bool) | Moves the messaeg |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;int&gt;, string, CancellationToken) | Moves the messaeg |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;string&gt;, string, bool) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;string&gt;, string, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, int, int, string) | Moves the messaeg |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, string, string, string) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;ImapMessageInfo&gt;, string, bool, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;int&gt;, string, bool, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IEnumerable&lt;string&gt;, string, bool, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(int, int, string, bool) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(int, int, string, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(string, string, string, bool) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(string, string, string, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, string, bool, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;int&gt;, string, bool, CancellationToken) | Moves the messaeg |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, IEnumerable&lt;string&gt;, string, bool, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, int, int, string, bool) | Moves the messaeg |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, int, int, string, CancellationToken) | Moves the messaeg |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, string, string, string, bool) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, string, string, string, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(int, int, string, bool, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(string, string, string, bool, CancellationToken) | Moves the message |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, int, int, string, bool, CancellationToken) | Moves the messaeg |
+| [MoveMessagesAsync](movemessagesasync)(IConnection, string, string, string, bool, CancellationToken) | Moves the message |
 | override [Noop](noop)() | 'No operation' command |
 | override [Noop](noop)(IConnection) | 'No operation' command |
-| [NoopAsync](noopasync)() |  |
-| [NoopAsync](noopasync)(CancellationToken) |  |
-| [NoopAsync](noopasync)(IConnection) |  |
-| [NoopAsync](noopasync)(IConnection, CancellationToken) |  |
+| [NoopAsync](noopasync)() | 'No operation' command |
+| [NoopAsync](noopasync)(CancellationToken) | 'No operation' command |
+| [NoopAsync](noopasync)(IConnection) | 'No operation' command |
+| [NoopAsync](noopasync)(IConnection, CancellationToken) | 'No operation' command |
 | [RemoveMessageFlags](removemessageflags)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) | Removes the flags of the message |
 | [RemoveMessageFlags](removemessageflags)(IEnumerable&lt;int&gt;, ImapMessageFlags) | Removes the flags of the message |
 | [RemoveMessageFlags](removemessageflags)(IEnumerable&lt;string&gt;, ImapMessageFlags) | Removes the flags of the message |
@@ -864,79 +864,79 @@ public sealed class ImapClient : EmailClient
 | [RemoveMessageFlags](removemessageflags)(string, string, ImapMessageFlags, long) | Removes the flags of the message |
 | [RemoveMessageFlags](removemessageflags)(IConnection, int, int, ImapMessageFlags, long) | Removes the flags of the message |
 | [RemoveMessageFlags](removemessageflags)(IConnection, string, string, ImapMessageFlags, long) | Removes the flags of the message |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, int, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, string, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, int, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, string, ImapMessageFlags) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, int, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, int, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, string, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, string, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, int, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, int, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, string, ImapMessageFlags, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, string, ImapMessageFlags, long) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, int, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, string, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, int, ImapMessageFlags, long, CancellationToken) |  |
-| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, string, ImapMessageFlags, long, CancellationToken) |  |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, int, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, string, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, int, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, string, ImapMessageFlags) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, int, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, int, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, string, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, string, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, int, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, int, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, string, ImapMessageFlags, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, string, ImapMessageFlags, long) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(int, int, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(string, string, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, int, int, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
+| [RemoveMessageFlagsAsync](removemessageflagsasync)(IConnection, string, string, ImapMessageFlags, long, CancellationToken) | Removes the flags of the message |
 | [RenameFolder](renamefolder)(string, string) | Renames a specified folder to a new name |
 | [RenameFolder](renamefolder)(IConnection, string, string) | Renames a specified folder to a new name |
-| [RenameFolderAsync](renamefolderasync)(string, string) |  |
-| [RenameFolderAsync](renamefolderasync)(IConnection, string, string) |  |
-| [RenameFolderAsync](renamefolderasync)(string, string, CancellationToken) |  |
-| [RenameFolderAsync](renamefolderasync)(IConnection, string, string, CancellationToken) |  |
+| [RenameFolderAsync](renamefolderasync)(string, string) | Renames a specified folder to a new name |
+| [RenameFolderAsync](renamefolderasync)(IConnection, string, string) | Renames a specified folder to a new name |
+| [RenameFolderAsync](renamefolderasync)(string, string, CancellationToken) | Renames a specified folder to a new name |
+| [RenameFolderAsync](renamefolderasync)(IConnection, string, string, CancellationToken) | Renames a specified folder to a new name |
 | [RequestCheckpoint](requestcheckpoint)() | Requests a checkpoint of the currently selected mailbox. |
 | [RequestCheckpoint](requestcheckpoint)(IConnection) | Requests a checkpoint of the currently selected mailbox. |
-| [RequestCheckpointAsync](requestcheckpointasync)() |  |
-| [RequestCheckpointAsync](requestcheckpointasync)(CancellationToken) |  |
-| [RequestCheckpointAsync](requestcheckpointasync)(IConnection) |  |
-| [RequestCheckpointAsync](requestcheckpointasync)(IConnection, CancellationToken) |  |
+| [RequestCheckpointAsync](requestcheckpointasync)() | Requests a checkpoint of the currently selected mailbox. |
+| [RequestCheckpointAsync](requestcheckpointasync)(CancellationToken) | Requests a checkpoint of the currently selected mailbox. |
+| [RequestCheckpointAsync](requestcheckpointasync)(IConnection) | Requests a checkpoint of the currently selected mailbox. |
+| [RequestCheckpointAsync](requestcheckpointasync)(IConnection, CancellationToken) | Requests a checkpoint of the currently selected mailbox. |
 | [Restore](restore)(PersonalStorage, RestoreSettings) | Begins to restore imap folders from the given personal storage. |
-| [RestoreAsync](restoreasync)(PersonalStorage, RestoreSettings) |  |
-| [RestoreAsync](restoreasync)(PersonalStorage, RestoreSettings, CancellationToken) |  |
+| [RestoreAsync](restoreasync)(PersonalStorage, RestoreSettings) | Begins to restore imap folders from the given personal storage. |
+| [RestoreAsync](restoreasync)(PersonalStorage, RestoreSettings, CancellationToken) | Begins to restore imap folders from the given personal storage. |
 | [ResumeMonitoring](resumemonitoring)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, IImapMonitoringState) | Resumes monitoring of message changes for specified folder. Unlike the StartMonitoring method, it will find all missing mailbox changes and call the callback for them. |
-| [ResumeMonitoringAsync](resumemonitoringasync)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, IImapMonitoringState) |  |
+| [ResumeMonitoringAsync](resumemonitoringasync)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, IImapMonitoringState) | Resumes monitoring of message changes for specified folder. Unlike the StartMonitoring method, it will find all missing mailbox changes and call the callback for them. |
 | [SaveMessage](savemessage)(int, Stream) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
 | [SaveMessage](savemessage)(int, string) | Downloads the message with the specified sequence number and writes its data into a local file |
 | [SaveMessage](savemessage)(string, Stream) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
@@ -945,58 +945,58 @@ public sealed class ImapClient : EmailClient
 | [SaveMessage](savemessage)(IConnection, int, string) | Downloads the message with the specified sequence number and writes its data into a local file |
 | [SaveMessage](savemessage)(IConnection, string, Stream) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
 | [SaveMessage](savemessage)(IConnection, string, string) | Downloads the message with the specified sequence number and writes its data into a local file |
-| [SaveMessageAsync](savemessageasync)(int, Stream) |  |
-| [SaveMessageAsync](savemessageasync)(int, string) |  |
-| [SaveMessageAsync](savemessageasync)(string, Stream) |  |
-| [SaveMessageAsync](savemessageasync)(string, string) |  |
-| [SaveMessageAsync](savemessageasync)(IConnection, int, Stream) |  |
-| [SaveMessageAsync](savemessageasync)(IConnection, int, string) |  |
-| [SaveMessageAsync](savemessageasync)(IConnection, string, Stream) |  |
-| [SaveMessageAsync](savemessageasync)(IConnection, string, string) |  |
-| [SaveMessageAsync](savemessageasync)(int, Stream, CancellationToken) |  |
-| [SaveMessageAsync](savemessageasync)(int, string, CancellationToken) |  |
-| [SaveMessageAsync](savemessageasync)(string, Stream, CancellationToken) |  |
-| [SaveMessageAsync](savemessageasync)(string, string, CancellationToken) |  |
-| [SaveMessageAsync](savemessageasync)(IConnection, int, Stream, CancellationToken) |  |
-| [SaveMessageAsync](savemessageasync)(IConnection, int, string, CancellationToken) |  |
-| [SaveMessageAsync](savemessageasync)(IConnection, string, Stream, CancellationToken) |  |
-| [SaveMessageAsync](savemessageasync)(IConnection, string, string, CancellationToken) |  |
+| [SaveMessageAsync](savemessageasync)(int, Stream) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
+| [SaveMessageAsync](savemessageasync)(int, string) | Downloads the message with the specified sequence number and writes its data into a local file |
+| [SaveMessageAsync](savemessageasync)(string, Stream) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
+| [SaveMessageAsync](savemessageasync)(string, string) | Downloads the message with the specified sequence number and writes its data into a local file |
+| [SaveMessageAsync](savemessageasync)(IConnection, int, Stream) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
+| [SaveMessageAsync](savemessageasync)(IConnection, int, string) | Downloads the message with the specified sequence number and writes its data into a local file |
+| [SaveMessageAsync](savemessageasync)(IConnection, string, Stream) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
+| [SaveMessageAsync](savemessageasync)(IConnection, string, string) | Downloads the message with the specified sequence number and writes its data into a local file |
+| [SaveMessageAsync](savemessageasync)(int, Stream, CancellationToken) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
+| [SaveMessageAsync](savemessageasync)(int, string, CancellationToken) | Downloads the message with the specified sequence number and writes its data into a local file |
+| [SaveMessageAsync](savemessageasync)(string, Stream, CancellationToken) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
+| [SaveMessageAsync](savemessageasync)(string, string, CancellationToken) | Downloads the message with the specified sequence number and writes its data into a local file |
+| [SaveMessageAsync](savemessageasync)(IConnection, int, Stream, CancellationToken) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
+| [SaveMessageAsync](savemessageasync)(IConnection, int, string, CancellationToken) | Downloads the message with the specified sequence number and writes its data into a local file |
+| [SaveMessageAsync](savemessageasync)(IConnection, string, Stream, CancellationToken) | Downloads the message with the specified sequence number and writes its data into a supplied stream |
+| [SaveMessageAsync](savemessageasync)(IConnection, string, string, CancellationToken) | Downloads the message with the specified sequence number and writes its data into a local file |
 | [SelectFolder](selectfolder)(string) | Selects the specified folder |
 | [SelectFolder](selectfolder)(IConnection, string) | Selects the specified folder |
 | [SelectFolder](selectfolder)(string, bool?) | Selects the specified folder |
 | [SelectFolder](selectfolder)(IConnection, string, bool?) | Selects the specified folder |
-| [SelectFolderAsync](selectfolderasync)(string) |  |
-| [SelectFolderAsync](selectfolderasync)(IConnection, string) |  |
-| [SelectFolderAsync](selectfolderasync)(string, bool?) |  |
-| [SelectFolderAsync](selectfolderasync)(string, CancellationToken) |  |
-| [SelectFolderAsync](selectfolderasync)(IConnection, string, bool?) |  |
-| [SelectFolderAsync](selectfolderasync)(IConnection, string, CancellationToken) |  |
-| [SelectFolderAsync](selectfolderasync)(string, bool?, CancellationToken) |  |
-| [SelectFolderAsync](selectfolderasync)(IConnection, string, bool?, CancellationToken) |  |
+| [SelectFolderAsync](selectfolderasync)(string) | Selects the specified folder |
+| [SelectFolderAsync](selectfolderasync)(IConnection, string) | Selects the specified folder |
+| [SelectFolderAsync](selectfolderasync)(string, bool?) | Selects the specified folder |
+| [SelectFolderAsync](selectfolderasync)(string, CancellationToken) | Selects the specified folder |
+| [SelectFolderAsync](selectfolderasync)(IConnection, string, bool?) | Selects the specified folder |
+| [SelectFolderAsync](selectfolderasync)(IConnection, string, CancellationToken) | Selects the specified folder |
+| [SelectFolderAsync](selectfolderasync)(string, bool?, CancellationToken) | Selects the specified folder |
+| [SelectFolderAsync](selectfolderasync)(IConnection, string, bool?, CancellationToken) | Selects the specified folder |
 | [SetQuota](setquota)(string, string, int) | Sets quota information |
 | [SetQuota](setquota)(IConnection, string, string, int) | Sets quota information |
-| [SetQuotaAsync](setquotaasync)(string, string, int) |  |
-| [SetQuotaAsync](setquotaasync)(IConnection, string, string, int) |  |
-| [SetQuotaAsync](setquotaasync)(string, string, int, CancellationToken) |  |
-| [SetQuotaAsync](setquotaasync)(IConnection, string, string, int, CancellationToken) |  |
+| [SetQuotaAsync](setquotaasync)(string, string, int) | Sets quota information |
+| [SetQuotaAsync](setquotaasync)(IConnection, string, string, int) | Sets quota information |
+| [SetQuotaAsync](setquotaasync)(string, string, int, CancellationToken) | Sets quota information |
+| [SetQuotaAsync](setquotaasync)(IConnection, string, string, int, CancellationToken) | Sets quota information |
 | [SortMessageThreads](sortmessagethreads)(SortConditions) | Get message threads. |
 | [SortMessageThreads](sortmessagethreads)(IConnection, SortConditions) | Get message threads. |
-| [SortMessageThreadsAsync](sortmessagethreadsasync)(SortConditions) |  |
-| [SortMessageThreadsAsync](sortmessagethreadsasync)(IConnection, SortConditions) |  |
-| [SortMessageThreadsAsync](sortmessagethreadsasync)(SortConditions, CancellationToken) |  |
-| [SortMessageThreadsAsync](sortmessagethreadsasync)(IConnection, SortConditions, CancellationToken) |  |
+| [SortMessageThreadsAsync](sortmessagethreadsasync)(SortConditions) | Sort message threads. |
+| [SortMessageThreadsAsync](sortmessagethreadsasync)(IConnection, SortConditions) | Sort message threads. |
+| [SortMessageThreadsAsync](sortmessagethreadsasync)(SortConditions, CancellationToken) | Sort message threads. |
+| [SortMessageThreadsAsync](sortmessagethreadsasync)(IConnection, SortConditions, CancellationToken) | Sort message threads. |
 | [StartMonitoring](startmonitoring)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, string) | Starts monitoring of message changes for specified folder. |
-| [StartMonitoringAsync](startmonitoringasync)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, string) |  |
+| [StartMonitoringAsync](startmonitoringasync)(ImapMonitoringEventHandler, ImapMonitoringErrorEventHandler, string) | Starts monitoring of message changes for specified folder. |
 | [StopMonitoring](stopmonitoring)() | Stops any monitoring of changes. |
 | [StopMonitoring](stopmonitoring)(string) | Stops monitoring of message changes for specified folder. |
-| [StopMonitoringAsync](stopmonitoringasync)() |  |
-| [StopMonitoringAsync](stopmonitoringasync)(string) |  |
+| [StopMonitoringAsync](stopmonitoringasync)() | Stops any monitoring of changes. |
+| [StopMonitoringAsync](stopmonitoringasync)(string) | Stops monitoring of message changes for specified folder. |
 | [SubscribeFolder](subscribefolder)(string) | Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes. |
 | [SubscribeFolder](subscribefolder)(IConnection, string) | Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes. |
-| [SubscribeFolderAsync](subscribefolderasync)(string) |  |
-| [SubscribeFolderAsync](subscribefolderasync)(IConnection, string) |  |
-| [SubscribeFolderAsync](subscribefolderasync)(string, CancellationToken) |  |
-| [SubscribeFolderAsync](subscribefolderasync)(IConnection, string, CancellationToken) |  |
+| [SubscribeFolderAsync](subscribefolderasync)(string) | Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes. |
+| [SubscribeFolderAsync](subscribefolderasync)(IConnection, string) | Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes. |
+| [SubscribeFolderAsync](subscribefolderasync)(string, CancellationToken) | Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes. |
+| [SubscribeFolderAsync](subscribefolderasync)(IConnection, string, CancellationToken) | Sent the SUBSCRIBE command that adds the specified mailbox name to the server's set of "active" mailboxes. |
 | [UndeleteMessage](undeletemessage)(int) | Marks a message with the specified sequence number as not deleted |
 | [UndeleteMessage](undeletemessage)(string) | Marks a message with the specified sequence number as not deleted. |
 | [UndeleteMessage](undeletemessage)(IConnection, int) | Marks a message with the specified sequence number as not deleted |
@@ -1005,46 +1005,46 @@ public sealed class ImapClient : EmailClient
 | [UndeleteMessage](undeletemessage)(string, long) | Marks a message with the specified sequence number as not deleted. |
 | [UndeleteMessage](undeletemessage)(IConnection, int, long) | Marks a message with the specified sequence number as not deleted |
 | [UndeleteMessage](undeletemessage)(IConnection, string, long) | Marks a message with the specified sequence number as not deleted. |
-| [UndeleteMessageAsync](undeletemessageasync)(int) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(string) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(IConnection, int) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(IConnection, string) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(int, CancellationToken) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(int, long) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(string, CancellationToken) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(string, long) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(IConnection, int, CancellationToken) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(IConnection, int, long) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(IConnection, string, CancellationToken) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(IConnection, string, long) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(int, long, CancellationToken) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(string, long, CancellationToken) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(IConnection, int, long, CancellationToken) |  |
-| [UndeleteMessageAsync](undeletemessageasync)(IConnection, string, long, CancellationToken) |  |
+| [UndeleteMessageAsync](undeletemessageasync)(int) | Marks a message with the specified sequence number as not deleted |
+| [UndeleteMessageAsync](undeletemessageasync)(string) | Marks a message with the specified sequence number as not deleted. |
+| [UndeleteMessageAsync](undeletemessageasync)(IConnection, int) | Marks a message with the specified sequence number as not deleted |
+| [UndeleteMessageAsync](undeletemessageasync)(IConnection, string) | Marks a message with the specified sequence number as not deleted. |
+| [UndeleteMessageAsync](undeletemessageasync)(int, CancellationToken) | Marks a message with the specified sequence number as not deleted |
+| [UndeleteMessageAsync](undeletemessageasync)(int, long) | Marks a message with the specified sequence number as not deleted |
+| [UndeleteMessageAsync](undeletemessageasync)(string, CancellationToken) | Marks a message with the specified sequence number as not deleted. |
+| [UndeleteMessageAsync](undeletemessageasync)(string, long) | Marks a message with the specified sequence number as not deleted. |
+| [UndeleteMessageAsync](undeletemessageasync)(IConnection, int, CancellationToken) | Marks a message with the specified sequence number as not deleted |
+| [UndeleteMessageAsync](undeletemessageasync)(IConnection, int, long) | Marks a message with the specified sequence number as not deleted |
+| [UndeleteMessageAsync](undeletemessageasync)(IConnection, string, CancellationToken) | Marks a message with the specified sequence number as not deleted. |
+| [UndeleteMessageAsync](undeletemessageasync)(IConnection, string, long) | Marks a message with the specified sequence number as not deleted. |
+| [UndeleteMessageAsync](undeletemessageasync)(int, long, CancellationToken) | Marks a message with the specified sequence number as not deleted |
+| [UndeleteMessageAsync](undeletemessageasync)(string, long, CancellationToken) | Marks a message with the specified sequence number as not deleted. |
+| [UndeleteMessageAsync](undeletemessageasync)(IConnection, int, long, CancellationToken) | Marks a message with the specified sequence number as not deleted |
+| [UndeleteMessageAsync](undeletemessageasync)(IConnection, string, long, CancellationToken) | Marks a message with the specified sequence number as not deleted. |
 | [UnselectFolder](unselectfolder)() | Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder. |
 | [UnselectFolder](unselectfolder)(bool) | Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691 |
 | [UnselectFolder](unselectfolder)(IConnection) | Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder. |
 | [UnselectFolder](unselectfolder)(IConnection, bool) | Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691 |
-| [UnselectFolderAsync](unselectfolderasync)() |  |
-| [UnselectFolderAsync](unselectfolderasync)(bool) |  |
-| [UnselectFolderAsync](unselectfolderasync)(CancellationToken) |  |
-| [UnselectFolderAsync](unselectfolderasync)(IConnection) |  |
-| [UnselectFolderAsync](unselectfolderasync)(bool, CancellationToken) |  |
-| [UnselectFolderAsync](unselectfolderasync)(IConnection, bool) |  |
-| [UnselectFolderAsync](unselectfolderasync)(IConnection, CancellationToken) |  |
-| [UnselectFolderAsync](unselectfolderasync)(IConnection, bool, CancellationToken) |  |
+| [UnselectFolderAsync](unselectfolderasync)() | Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder. |
+| [UnselectFolderAsync](unselectfolderasync)(bool) | Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691 |
+| [UnselectFolderAsync](unselectfolderasync)(CancellationToken) | Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder. |
+| [UnselectFolderAsync](unselectfolderasync)(IConnection) | Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder. |
+| [UnselectFolderAsync](unselectfolderasync)(bool, CancellationToken) | Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691 |
+| [UnselectFolderAsync](unselectfolderasync)(IConnection, bool) | Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691 |
+| [UnselectFolderAsync](unselectfolderasync)(IConnection, CancellationToken) | Permanently removes all messages marked as deleted for currently selected folder and removes selected-state for this folder. |
+| [UnselectFolderAsync](unselectfolderasync)(IConnection, bool, CancellationToken) | Unselects folder which are currently selected. if doNotExpunge property is true, all messages are marked as deleted are removed, otherwise deletion canceled. Please note, this operation works only in case if server supports RFC3691 See more https://tools.ietf.org/html/rfc3691 |
 | [UnsubscribeFolder](unsubscribefolder)(string) | Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes |
 | [UnsubscribeFolder](unsubscribefolder)(IConnection, string) | Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes |
-| [UnsubscribeFolderAsync](unsubscribefolderasync)(string) |  |
-| [UnsubscribeFolderAsync](unsubscribefolderasync)(IConnection, string) |  |
-| [UnsubscribeFolderAsync](unsubscribefolderasync)(string, CancellationToken) |  |
-| [UnsubscribeFolderAsync](unsubscribefolderasync)(IConnection, string, CancellationToken) |  |
+| [UnsubscribeFolderAsync](unsubscribefolderasync)(string) | Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes |
+| [UnsubscribeFolderAsync](unsubscribefolderasync)(IConnection, string) | Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes |
+| [UnsubscribeFolderAsync](unsubscribefolderasync)(string, CancellationToken) | Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes |
+| [UnsubscribeFolderAsync](unsubscribefolderasync)(IConnection, string, CancellationToken) | Sent the UNSUBSCRIBE command that removes the specified mailbox name from the server's set of "active" mailboxes |
 | override [ValidateCredentials](validatecredentials)() | Executes credentials validation |
 | [ValidateCredentials](validatecredentials)(IConnection) | Executes credentials validation |
-| [ValidateCredentialsAsync](validatecredentialsasync)() |  |
-| [ValidateCredentialsAsync](validatecredentialsasync)(CancellationToken) |  |
-| [ValidateCredentialsAsync](validatecredentialsasync)(IConnection) |  |
-| [ValidateCredentialsAsync](validatecredentialsasync)(IConnection, CancellationToken) |  |
+| [ValidateCredentialsAsync](validatecredentialsasync)() | Executes credentials validation |
+| [ValidateCredentialsAsync](validatecredentialsasync)(CancellationToken) | Executes credentials validation |
+| [ValidateCredentialsAsync](validatecredentialsasync)(IConnection) | Executes credentials validation |
+| [ValidateCredentialsAsync](validatecredentialsasync)(IConnection, CancellationToken) | Executes credentials validation |
 
 ### See Also
 

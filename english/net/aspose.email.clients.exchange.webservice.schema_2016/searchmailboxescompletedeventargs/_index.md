@@ -3,7 +3,7 @@ title: SearchMailboxesCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11780
+weight: 13320
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/searchmailboxescompletedeventargs/
 ---
 ## SearchMailboxesCompletedEventArgs class

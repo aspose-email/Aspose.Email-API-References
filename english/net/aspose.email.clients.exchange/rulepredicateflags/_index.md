@@ -3,7 +3,7 @@ title: RulePredicateFlags
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2000
+weight: 3540
 url: /net/aspose.email.clients.exchange/rulepredicateflags/
 ---
 ## RulePredicateFlags enumeration

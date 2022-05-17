@@ -3,7 +3,7 @@ title: LargeArchiveSearchScopeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9100
+weight: 10640
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/largearchivesearchscopetype/
 ---
 ## LargeArchiveSearchScopeType class

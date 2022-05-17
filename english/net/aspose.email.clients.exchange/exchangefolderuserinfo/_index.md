@@ -3,7 +3,7 @@ title: ExchangeFolderUserInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1810
+weight: 3350
 url: /net/aspose.email.clients.exchange/exchangefolderuserinfo/
 ---
 ## ExchangeFolderUserInfo class

@@ -3,7 +3,7 @@ title: ExportItemsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5950
+weight: 7490
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/exportitemstype/
 ---
 ## ExportItemsType class

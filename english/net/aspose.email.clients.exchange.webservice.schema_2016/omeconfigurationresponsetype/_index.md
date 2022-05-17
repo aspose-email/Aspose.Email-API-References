@@ -3,7 +3,7 @@ title: OMEConfigurationResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9960
+weight: 11500
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/omeconfigurationresponsetype/
 ---
 ## OMEConfigurationResponseType class

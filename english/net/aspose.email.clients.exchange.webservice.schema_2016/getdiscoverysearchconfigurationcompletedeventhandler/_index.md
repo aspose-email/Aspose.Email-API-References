@@ -3,7 +3,7 @@ title: GetDiscoverySearchConfigurationCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7020
+weight: 8560
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getdiscoverysearchconfigurationcompletedeventhandler/
 ---
 ## GetDiscoverySearchConfigurationCompletedEventHandler delegate

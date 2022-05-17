@@ -3,7 +3,7 @@ title: ObjectName
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1230
+weight: 2680
 url: /net/aspose.email.clients.activity/objectname/
 ---
 ## ObjectName class

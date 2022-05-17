@@ -8,10 +8,21 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getservertime
 ---
 ## IAsyncEwsClient.GetServerTimeZoneIdsAsync method
 
+The GetServerTimeZoneIds returns information from time zone id that are available on an Exchange server.
+
 ```csharp
 public Task<string[]> GetServerTimeZoneIdsAsync(IEnumerable<string> timeZoneIds, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| timeZoneIds | IEnumerable`1 | Identifiers of time zones for checking existence on the server. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Returns an array of time zone id that are available on an Exchange server.
 
 ### See Also
 

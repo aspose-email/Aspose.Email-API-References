@@ -8,9 +8,20 @@ url: /net/aspose.email.clients.imap/imapclient/getquotaasync/
 ---
 ## ImapClient.GetQuotaAsync method (1 of 4)
 
+Gets quota information
+
 ```csharp
 public Task<ImapQuota[]> GetQuotaAsync(IConnection connection, string quotaRootName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| quotaRootName | String | quota root name |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -24,9 +35,19 @@ public Task<ImapQuota[]> GetQuotaAsync(IConnection connection, string quotaRootN
 
 ## ImapClient.GetQuotaAsync method (2 of 4)
 
+Gets quota information
+
 ```csharp
 public Task<ImapQuota[]> GetQuotaAsync(string quotaRootName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| quotaRootName | String | quota root name |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -39,10 +60,22 @@ public Task<ImapQuota[]> GetQuotaAsync(string quotaRootName)
 
 ## ImapClient.GetQuotaAsync method (3 of 4)
 
+Gets quota information
+
 ```csharp
 public Task<ImapQuota[]> GetQuotaAsync(IConnection connection, string quotaRootName, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| quotaRootName | String | quota root name |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -56,9 +89,20 @@ public Task<ImapQuota[]> GetQuotaAsync(IConnection connection, string quotaRootN
 
 ## ImapClient.GetQuotaAsync method (4 of 4)
 
+Gets quota information
+
 ```csharp
 public Task<ImapQuota[]> GetQuotaAsync(string quotaRootName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| quotaRootName | String | quota root name |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

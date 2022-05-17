@@ -3,7 +3,7 @@ title: DistinguishedUserType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5410
+weight: 6950
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/distinguishedusertype/
 ---
 ## DistinguishedUserType enumeration

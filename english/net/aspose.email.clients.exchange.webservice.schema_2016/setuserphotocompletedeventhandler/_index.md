@@ -3,7 +3,7 @@ title: SetUserPhotoCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12400
+weight: 13940
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/setuserphotocompletedeventhandler/
 ---
 ## SetUserPhotoCompletedEventHandler delegate

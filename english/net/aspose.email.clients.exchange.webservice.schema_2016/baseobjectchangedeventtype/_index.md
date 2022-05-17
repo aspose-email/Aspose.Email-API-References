@@ -3,7 +3,7 @@ title: BaseObjectChangedEventType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3580
+weight: 5120
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/baseobjectchangedeventtype/
 ---
 ## BaseObjectChangedEventType class

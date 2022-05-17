@@ -3,7 +3,7 @@ title: O365URLTimeOfClickActivity
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1220
+weight: 2670
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/
 ---
 ## O365URLTimeOfClickActivity class

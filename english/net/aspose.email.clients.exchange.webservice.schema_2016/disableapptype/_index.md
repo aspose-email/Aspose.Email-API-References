@@ -3,7 +3,7 @@ title: DisableAppType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5290
+weight: 6830
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/disableapptype/
 ---
 ## DisableAppType class

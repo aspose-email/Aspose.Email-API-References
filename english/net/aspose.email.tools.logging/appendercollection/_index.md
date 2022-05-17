@@ -3,7 +3,7 @@ title: AppenderCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18570
+weight: 20220
 url: /net/aspose.email.tools.logging/appendercollection/
 ---
 ## AppenderCollection class

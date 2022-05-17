@@ -3,7 +3,7 @@ title: DelveSearchScopeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5220
+weight: 6760
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/delvesearchscopetype/
 ---
 ## DelveSearchScopeType class

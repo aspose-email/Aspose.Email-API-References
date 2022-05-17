@@ -3,7 +3,7 @@ title: VCardUrlType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18000
+weight: 19600
 url: /net/aspose.email.personalinfo.vcard/vcardurltype/
 ---
 ## VCardUrlType enumeration

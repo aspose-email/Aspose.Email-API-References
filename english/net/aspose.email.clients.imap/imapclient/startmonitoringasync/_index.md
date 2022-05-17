@@ -8,10 +8,18 @@ url: /net/aspose.email.clients.imap/imapclient/startmonitoringasync/
 ---
 ## ImapClient.StartMonitoringAsync method
 
+Starts monitoring of message changes for specified folder.
+
 ```csharp
 public Task StartMonitoringAsync(ImapMonitoringEventHandler callback, 
     ImapMonitoringErrorEventHandler errorCallback, string folderName = "Inbox")
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| callback | ImapMonitoringEventHandler | The callback function for monitoring operation. |
+| errorCallback | ImapMonitoringErrorEventHandler | The callback function for monitoring error handling. Monitoring of specified folder is stopped when this callback is called. The callback also provides a state holder so folder monitoring could be resumed using [`ResumeMonitoringAsync`](../resumemonitoringasync) method. |
+| folderName | String | The folder for monitoring operation. |
 
 ### See Also
 

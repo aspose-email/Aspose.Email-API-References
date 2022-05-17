@@ -3,7 +3,7 @@ title: AccessRole
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14050
+weight: 15590
 url: /net/aspose.email.clients.google/accessrole/
 ---
 ## AccessRole enumeration

@@ -3,7 +3,7 @@ title: ExchangeCalendarPermissionReadAccess
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1690
+weight: 3230
 url: /net/aspose.email.clients.exchange/exchangecalendarpermissionreadaccess/
 ---
 ## ExchangeCalendarPermissionReadAccess enumeration

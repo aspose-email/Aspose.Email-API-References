@@ -3,7 +3,7 @@ title: GetSearchSuggestionsCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7930
+weight: 9470
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestionscompletedeventargs/
 ---
 ## GetSearchSuggestionsCompletedEventArgs class

@@ -3,7 +3,7 @@ title: SequenceSetField
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15040
+weight: 16590
 url: /net/aspose.email.clients.imap/sequencesetfield/
 ---
 ## SequenceSetField class

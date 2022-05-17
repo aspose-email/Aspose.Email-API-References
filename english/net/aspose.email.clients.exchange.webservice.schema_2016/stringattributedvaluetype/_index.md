@@ -3,7 +3,7 @@ title: StringAttributedValueType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12640
+weight: 14180
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/stringattributedvaluetype/
 ---
 ## StringAttributedValueType class

@@ -8,10 +8,28 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemsas
 ---
 ## IAsyncEwsClient.UpdateItemsAsync method
 
+Updates the specified items in to a mailbox.
+
 ```csharp
 public Task<IEnumerable<ExchangeUploadItemResult>> UpdateItemsAsync(
     IEnumerable<ExchangeStreamedItem> items, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| items | IEnumerable`1 | The items to be updated. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+An array of [`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *items* is `null` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *items* is `empty` |
 
 ### See Also
 

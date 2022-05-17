@@ -3,7 +3,7 @@ title: MapiType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17010
+weight: 18610
 url: /net/aspose.email.mapi.msg/mapitype/
 ---
 ## MapiType enumeration

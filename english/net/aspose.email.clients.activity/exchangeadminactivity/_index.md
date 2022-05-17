@@ -3,7 +3,7 @@ title: ExchangeAdminActivity
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1030
+weight: 2480
 url: /net/aspose.email.clients.activity/exchangeadminactivity/
 ---
 ## ExchangeAdminActivity class

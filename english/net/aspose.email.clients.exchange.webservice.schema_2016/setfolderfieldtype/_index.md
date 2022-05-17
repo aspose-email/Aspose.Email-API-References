@@ -3,7 +3,7 @@ title: SetFolderFieldType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12140
+weight: 13680
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/setfolderfieldtype/
 ---
 ## SetFolderFieldType class

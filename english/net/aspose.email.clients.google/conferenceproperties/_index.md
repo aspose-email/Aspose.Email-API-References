@@ -3,7 +3,7 @@ title: ConferenceProperties
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14130
+weight: 15670
 url: /net/aspose.email.clients.google/conferenceproperties/
 ---
 ## ConferenceProperties class

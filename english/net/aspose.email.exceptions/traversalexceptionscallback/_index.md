@@ -3,7 +3,7 @@ title: TraversalExceptionsCallback
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15640
+weight: 17240
 url: /net/aspose.email.exceptions/traversalexceptionscallback/
 ---
 ## TraversalExceptionsCallback delegate

@@ -3,7 +3,7 @@ title: FolderChangeDescriptionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6610
+weight: 8150
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/folderchangedescriptiontype/
 ---
 ## FolderChangeDescriptionType class

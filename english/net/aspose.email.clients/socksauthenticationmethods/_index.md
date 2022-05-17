@@ -3,7 +3,7 @@ title: SocksAuthenticationMethods
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15370
+weight: 16920
 url: /net/aspose.email.clients/socksauthenticationmethods/
 ---
 ## SocksAuthenticationMethods enumeration

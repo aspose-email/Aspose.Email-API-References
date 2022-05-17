@@ -3,7 +3,7 @@ title: ExecuteSearchCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5800
+weight: 7340
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/executesearchcompletedeventargs/
 ---
 ## ExecuteSearchCompletedEventArgs class

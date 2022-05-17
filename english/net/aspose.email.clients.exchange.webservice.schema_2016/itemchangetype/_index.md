@@ -3,7 +3,7 @@ title: ItemChangeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8950
+weight: 10490
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/itemchangetype/
 ---
 ## ItemChangeType class

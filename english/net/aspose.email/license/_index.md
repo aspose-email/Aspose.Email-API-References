@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15860
+weight: 17460
 url: /net/aspose.email/license/
 ---
 ## License class

@@ -3,12 +3,12 @@ title: EwsFindPeople
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2530
+weight: 4070
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/
 ---
 ## EwsFindPeople class
 
-Represents the !:IAsyncEwsClient.FindPeopleAsync parameters.
+Represents the [`FindPeopleAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync) parameters.
 
 ```csharp
 public class EwsFindPeople
@@ -18,8 +18,8 @@ public class EwsFindPeople
 
 | Name | Description |
 | --- | --- |
-| static [Create](create)() | Creates the !:IAsyncEwsClient.FindPeopleAsync parameter set. |
-| [SetCancellationToken](setcancellationtoken)(CancellationToken) |  |
+| static [Create](create)() | Creates the [`FindPeopleAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync) parameter set. |
+| [SetCancellationToken](setcancellationtoken)(CancellationToken) | Sets the cancellation token. |
 | [SetMailQuery](setmailquery)(MailQuery, string) | Sets the mail query and the folder URI to search contacts in the specified user's personal mailbox. |
 | [SetMaxNumberOfItems](setmaxnumberofitems)(int) | Sets the maximum number of items to find. |
 | [SetQueryString](setquerystring)(string) | Sets the query string to search contacts in global address list (GAL). |

@@ -3,7 +3,7 @@ title: OAuthNetworkCredential
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15140
+weight: 16690
 url: /net/aspose.email.clients/oauthnetworkcredential/
 ---
 ## OAuthNetworkCredential class
@@ -18,7 +18,7 @@ public class OAuthNetworkCredential : NetworkCredential
 
 | Name | Description |
 | --- | --- |
-| [OAuthNetworkCredential](oauthnetworkcredential)(IAsyncTokenProvider) |  |
+| [OAuthNetworkCredential](oauthnetworkcredential)(IAsyncTokenProvider) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
 | [OAuthNetworkCredential](oauthnetworkcredential)(ITokenProvider) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
 | [OAuthNetworkCredential](oauthnetworkcredential)(string) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
 | [OAuthNetworkCredential](oauthnetworkcredential)(string, ITokenProvider) | Initializes a new instance of the [`OAuthNetworkCredential`](../oauthnetworkcredential) class |
@@ -29,7 +29,7 @@ public class OAuthNetworkCredential : NetworkCredential
 | Name | Description |
 | --- | --- |
 | [AccessToken](accesstoken) { get; } | Gets OAuth 2.0 access token. |
-| [AsyncTokenProvider](asynctokenprovider) { get; } |  |
+| [AsyncTokenProvider](asynctokenprovider) { get; } | Gets the async token provider. |
 | [TokenProvider](tokenprovider) { get; } | Gets the token provider. |
 
 ### See Also

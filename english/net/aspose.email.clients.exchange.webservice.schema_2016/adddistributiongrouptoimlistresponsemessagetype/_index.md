@@ -3,7 +3,7 @@ title: AddDistributionGroupToImListResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2760
+weight: 4300
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/adddistributiongrouptoimlistresponsemessagetype/
 ---
 ## AddDistributionGroupToImListResponseMessageType class

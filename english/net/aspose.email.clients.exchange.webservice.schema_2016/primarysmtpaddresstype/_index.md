@@ -3,7 +3,7 @@ title: PrimarySmtpAddressType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10600
+weight: 12140
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/primarysmtpaddresstype/
 ---
 ## PrimarySmtpAddressType class

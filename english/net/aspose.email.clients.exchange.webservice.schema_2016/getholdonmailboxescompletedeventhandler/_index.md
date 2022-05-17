@@ -3,7 +3,7 @@ title: GetHoldOnMailboxesCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7170
+weight: 8710
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getholdonmailboxescompletedeventhandler/
 ---
 ## GetHoldOnMailboxesCompletedEventHandler delegate

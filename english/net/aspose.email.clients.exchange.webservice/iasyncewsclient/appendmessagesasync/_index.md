@@ -8,9 +8,15 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessage
 ---
 ## IAsyncEwsClient.AppendMessagesAsync method
 
+Uploads mail messages to the specified folder.
+
 ```csharp
 public Task<IEnumerable<string>> AppendMessagesAsync(EwsAppendMessage ewsAppendMessage)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ewsAppendMessage | EwsAppendMessage | Method parameters. |
 
 ### See Also
 

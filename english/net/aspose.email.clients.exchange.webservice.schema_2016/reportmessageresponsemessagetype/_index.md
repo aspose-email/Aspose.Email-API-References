@@ -3,7 +3,7 @@ title: ReportMessageResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11310
+weight: 12850
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/reportmessageresponsemessagetype/
 ---
 ## ReportMessageResponseMessageType class

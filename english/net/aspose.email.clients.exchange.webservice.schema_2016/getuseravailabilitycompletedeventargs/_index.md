@@ -3,7 +3,7 @@ title: GetUserAvailabilityCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8270
+weight: 9810
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuseravailabilitycompletedeventargs/
 ---
 ## GetUserAvailabilityCompletedEventArgs class

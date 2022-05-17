@@ -3,7 +3,7 @@ title: FlightEntityType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6590
+weight: 8130
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/flightentitytype/
 ---
 ## FlightEntityType class

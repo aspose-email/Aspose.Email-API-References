@@ -3,7 +3,7 @@ title: CopyFolderCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4280
+weight: 5820
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/copyfoldercompletedeventhandler/
 ---
 ## CopyFolderCompletedEventHandler delegate

@@ -3,7 +3,7 @@ title: ImAddressDictionaryEntryType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8640
+weight: 10180
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/imaddressdictionaryentrytype/
 ---
 ## ImAddressDictionaryEntryType class

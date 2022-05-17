@@ -3,7 +3,7 @@ title: DeleteUserConfigurationCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5150
+weight: 6690
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deleteuserconfigurationcompletedeventargs/
 ---
 ## DeleteUserConfigurationCompletedEventArgs class

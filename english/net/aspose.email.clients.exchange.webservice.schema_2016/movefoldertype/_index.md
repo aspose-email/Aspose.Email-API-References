@@ -3,7 +3,7 @@ title: MoveFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9760
+weight: 11300
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/movefoldertype/
 ---
 ## MoveFolderType class

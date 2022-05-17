@@ -3,7 +3,7 @@ title: PostReplyItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10520
+weight: 12060
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/postreplyitemtype/
 ---
 ## PostReplyItemType class

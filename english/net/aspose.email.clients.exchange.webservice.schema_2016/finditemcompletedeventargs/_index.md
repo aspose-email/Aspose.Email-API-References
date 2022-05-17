@@ -3,7 +3,7 @@ title: FindItemCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6220
+weight: 7760
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/finditemcompletedeventargs/
 ---
 ## FindItemCompletedEventArgs class

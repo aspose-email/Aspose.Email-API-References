@@ -3,7 +3,7 @@ title: ExchangeFolderPermissionCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1770
+weight: 3310
 url: /net/aspose.email.clients.exchange/exchangefolderpermissioncollection/
 ---
 ## ExchangeFolderPermissionCollection class

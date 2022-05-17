@@ -3,7 +3,7 @@ title: DeleteItemCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4960
+weight: 6500
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deleteitemcompletedeventhandler/
 ---
 ## DeleteItemCompletedEventHandler delegate

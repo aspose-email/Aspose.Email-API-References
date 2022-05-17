@@ -3,7 +3,7 @@ title: DailyRecurrencePatternType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4720
+weight: 6260
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/dailyrecurrencepatterntype/
 ---
 ## DailyRecurrencePatternType class

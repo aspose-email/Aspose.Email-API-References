@@ -3,7 +3,7 @@ title: ItemResponseShapeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9010
+weight: 10550
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/
 ---
 ## ItemResponseShapeType class

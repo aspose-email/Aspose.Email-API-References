@@ -8,6 +8,8 @@ url: /net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/setcance
 ---
 ## EwsFetchItems.SetCancellationToken method
 
+Set the cancellation token.
+
 ```csharp
 public EwsFetchItems SetCancellationToken(CancellationToken cancellationToken)
 ```

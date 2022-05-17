@@ -3,7 +3,7 @@ title: MapiCalendarAttendees
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16150
+weight: 17750
 url: /net/aspose.email.mapi/mapicalendarattendees/
 ---
 ## MapiCalendarAttendees class

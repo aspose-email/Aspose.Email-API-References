@@ -3,7 +3,7 @@ title: RemoveImGroupType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11230
+weight: 12770
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/removeimgrouptype/
 ---
 ## RemoveImGroupType class

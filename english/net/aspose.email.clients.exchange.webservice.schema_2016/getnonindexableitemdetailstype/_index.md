@@ -3,7 +3,7 @@ title: GetNonIndexableItemDetailsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7590
+weight: 9130
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemdetailstype/
 ---
 ## GetNonIndexableItemDetailsType class

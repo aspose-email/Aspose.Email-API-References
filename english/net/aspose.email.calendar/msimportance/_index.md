@@ -3,7 +3,7 @@ title: MSImportance
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 600
+weight: 620
 url: /net/aspose.email.calendar/msimportance/
 ---
 ## MSImportance enumeration

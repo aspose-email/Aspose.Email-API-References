@@ -3,7 +3,7 @@ title: SearchMailboxesResultType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11820
+weight: 13360
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/
 ---
 ## SearchMailboxesResultType class

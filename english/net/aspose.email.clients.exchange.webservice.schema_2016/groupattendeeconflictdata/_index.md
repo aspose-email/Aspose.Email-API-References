@@ -3,7 +3,7 @@ title: GroupAttendeeConflictData
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8490
+weight: 10030
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/groupattendeeconflictdata/
 ---
 ## GroupAttendeeConflictData class

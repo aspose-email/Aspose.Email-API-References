@@ -3,7 +3,7 @@ title: ResponseTypeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11490
+weight: 13030
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/responsetypetype/
 ---
 ## ResponseTypeType enumeration

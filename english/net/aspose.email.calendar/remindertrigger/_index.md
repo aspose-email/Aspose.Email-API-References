@@ -3,7 +3,7 @@ title: ReminderTrigger
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 860
+weight: 880
 url: /net/aspose.email.calendar/remindertrigger/
 ---
 ## ReminderTrigger class

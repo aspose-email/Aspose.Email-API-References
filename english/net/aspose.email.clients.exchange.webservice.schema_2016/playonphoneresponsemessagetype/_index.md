@@ -3,7 +3,7 @@ title: PlayOnPhoneResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10470
+weight: 12010
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/playonphoneresponsemessagetype/
 ---
 ## PlayOnPhoneResponseMessageType class

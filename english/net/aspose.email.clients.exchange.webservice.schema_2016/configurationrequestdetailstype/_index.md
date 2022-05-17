@@ -3,7 +3,7 @@ title: ConfigurationRequestDetailsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3900
+weight: 5440
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/configurationrequestdetailstype/
 ---
 ## ConfigurationRequestDetailsType class

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.email.clients.smtp/smtpclient/smtpclient/
 ---
-## SmtpClient constructor (1 of 17)
+## SmtpClient constructor (1 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -22,7 +22,31 @@ public SmtpClient()
 
 ---
 
-## SmtpClient constructor (2 of 17)
+## SmtpClient constructor (2 of 18)
+
+Initializes a new instance of the [`SmtpClient`](../../smtpclient) class by using configuration file settings.
+
+```csharp
+public SmtpClient(Configuration configuration)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| configuration | Configuration | The configuration. |
+
+### Remarks
+
+Initializes the Host, Port, Username, Password properties for the new SmtpClient.
+
+### See Also
+
+* class [SmtpClient](../../smtpclient)
+* namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SmtpClient constructor (3 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -42,7 +66,7 @@ public SmtpClient(string host)
 
 ---
 
-## SmtpClient constructor (3 of 17)
+## SmtpClient constructor (4 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -64,7 +88,7 @@ public SmtpClient(string host, SecurityOptions securityOptions)
 
 ---
 
-## SmtpClient constructor (4 of 17)
+## SmtpClient constructor (5 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -85,7 +109,7 @@ public SmtpClient(string host, int port)
 
 ---
 
-## SmtpClient constructor (5 of 17)
+## SmtpClient constructor (6 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -108,7 +132,7 @@ public SmtpClient(string host, int port, SecurityOptions securityOptions)
 
 ---
 
-## SmtpClient constructor (6 of 17)
+## SmtpClient constructor (7 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -130,7 +154,7 @@ public SmtpClient(string host, string username, string password)
 
 ---
 
-## SmtpClient constructor (7 of 17)
+## SmtpClient constructor (8 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -154,7 +178,7 @@ public SmtpClient(string host, string username, string password, SecurityOptions
 
 ---
 
-## SmtpClient constructor (8 of 17)
+## SmtpClient constructor (9 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -177,7 +201,7 @@ public SmtpClient(string host, int port, string username, string password)
 
 ---
 
-## SmtpClient constructor (9 of 17)
+## SmtpClient constructor (10 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -203,7 +227,7 @@ public SmtpClient(string host, int port, string username, string password,
 
 ---
 
-## SmtpClient constructor (10 of 17)
+## SmtpClient constructor (11 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -226,7 +250,7 @@ public SmtpClient(string host, string username, string authInfo, bool useOAuth)
 
 ---
 
-## SmtpClient constructor (11 of 17)
+## SmtpClient constructor (12 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -252,7 +276,7 @@ public SmtpClient(string host, string username, string authInfo, bool useOAuth,
 
 ---
 
-## SmtpClient constructor (12 of 17)
+## SmtpClient constructor (13 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -276,7 +300,7 @@ public SmtpClient(string host, int port, string username, string authInfo, bool 
 
 ---
 
-## SmtpClient constructor (13 of 17)
+## SmtpClient constructor (14 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -303,7 +327,7 @@ public SmtpClient(string host, int port, string username, string authInfo, bool 
 
 ---
 
-## SmtpClient constructor (14 of 17)
+## SmtpClient constructor (15 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -326,7 +350,7 @@ public SmtpClient(string host, string username, ITokenProvider tokenProvider)
 
 ---
 
-## SmtpClient constructor (15 of 17)
+## SmtpClient constructor (16 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -352,7 +376,7 @@ public SmtpClient(string host, string username, ITokenProvider tokenProvider,
 
 ---
 
-## SmtpClient constructor (16 of 17)
+## SmtpClient constructor (17 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 
@@ -376,7 +400,7 @@ public SmtpClient(string host, int port, string username, ITokenProvider tokenPr
 
 ---
 
-## SmtpClient constructor (17 of 17)
+## SmtpClient constructor (18 of 18)
 
 Initializes a new instance of the [`SmtpClient`](../../smtpclient) class.
 

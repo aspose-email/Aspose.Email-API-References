@@ -3,7 +3,7 @@ title: SuggestionQuality
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12730
+weight: 14270
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/suggestionquality/
 ---
 ## SuggestionQuality enumeration

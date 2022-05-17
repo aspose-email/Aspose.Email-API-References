@@ -3,7 +3,7 @@ title: FetchTimeoutException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14670
+weight: 16210
 url: /net/aspose.email.clients.imap/fetchtimeoutexception/
 ---
 ## FetchTimeoutException class

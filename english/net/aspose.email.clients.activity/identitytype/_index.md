@@ -3,7 +3,7 @@ title: IdentityType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1130
+weight: 2580
 url: /net/aspose.email.clients.activity/identitytype/
 ---
 ## IdentityType enumeration

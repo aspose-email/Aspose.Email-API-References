@@ -3,7 +3,7 @@ title: LayoutType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.email.amp/layouttype/
 ---
 ## LayoutType enumeration

@@ -3,7 +3,7 @@ title: OAuthToken
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15150
+weight: 16700
 url: /net/aspose.email.clients/oauthtoken/
 ---
 ## OAuthToken class

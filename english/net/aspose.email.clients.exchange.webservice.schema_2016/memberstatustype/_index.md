@@ -3,7 +3,7 @@ title: MemberStatusType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9600
+weight: 11140
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/memberstatustype/
 ---
 ## MemberStatusType enumeration

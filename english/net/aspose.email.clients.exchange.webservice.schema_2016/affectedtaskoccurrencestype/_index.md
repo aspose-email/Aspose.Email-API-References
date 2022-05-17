@@ -3,7 +3,7 @@ title: AffectedTaskOccurrencesType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3020
+weight: 4560
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/affectedtaskoccurrencestype/
 ---
 ## AffectedTaskOccurrencesType enumeration

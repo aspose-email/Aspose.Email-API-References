@@ -3,7 +3,7 @@ title: GetAttachmentResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6850
+weight: 8390
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getattachmentresponsetype/
 ---
 ## GetAttachmentResponseType class

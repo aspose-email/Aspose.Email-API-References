@@ -3,7 +3,7 @@ title: AppointmentStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 570
 url: /net/aspose.email.calendar/appointmentstatus/
 ---
 ## AppointmentStatus enumeration

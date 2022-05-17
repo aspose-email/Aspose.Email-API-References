@@ -3,7 +3,7 @@ title: ExchangeMetadata
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1090
+weight: 2540
 url: /net/aspose.email.clients.activity/exchangemetadata/
 ---
 ## ExchangeMetadata class

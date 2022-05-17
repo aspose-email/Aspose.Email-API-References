@@ -3,7 +3,7 @@ title: AppMetadata
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3110
+weight: 4650
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/appmetadata/
 ---
 ## AppMetadata class

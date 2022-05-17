@@ -8,9 +8,15 @@ url: /net/aspose.email.clients.exchange.webservice.models/ewsupdateitem/setcance
 ---
 ## EwsUpdateItem.SetCancellationToken method
 
+Sets the cancellation token.
+
 ```csharp
 public EwsUpdateItem SetCancellationToken(CancellationToken cancellationToken)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cancellationToken | CancellationToken | The cancellation token. |
 
 ### See Also
 

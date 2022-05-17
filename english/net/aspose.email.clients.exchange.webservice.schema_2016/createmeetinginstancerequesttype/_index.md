@@ -3,7 +3,7 @@ title: CreateMeetingInstanceRequestType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4580
+weight: 6120
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createmeetinginstancerequesttype/
 ---
 ## CreateMeetingInstanceRequestType class

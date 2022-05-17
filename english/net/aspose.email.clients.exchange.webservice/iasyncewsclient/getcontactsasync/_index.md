@@ -8,11 +8,23 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getcontactsas
 ---
 ## IAsyncEwsClient.GetContactsAsync method
 
+Lists contacts located in the specified folder on server
+
 ```csharp
 public Task<Contact[]> GetContactsAsync(string folder, 
     ExchangeListContactsOptions options = ExchangeListContactsOptions.FetchPhoto, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folder | String | A folder to search contacts in |
+| options | ExchangeListContactsOptions | Enumerates the list contacts options |
+| cancellationToken | CancellationToken | The cancellation token |
+
+## Return Value
+
+An array of read [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 
 ### See Also
 

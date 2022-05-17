@@ -3,7 +3,7 @@ title: SyncFolderItemsReadFlagType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12910
+weight: 14450
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemsreadflagtype/
 ---
 ## SyncFolderItemsReadFlagType class

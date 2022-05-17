@@ -3,7 +3,7 @@ title: SendNotificationResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12040
+weight: 13580
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/sendnotificationresponsetype/
 ---
 ## SendNotificationResponseType class

@@ -3,7 +3,7 @@ title: MarkAllItemsAsReadResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9380
+weight: 10920
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/markallitemsasreadresponsetype/
 ---
 ## MarkAllItemsAsReadResponseType class

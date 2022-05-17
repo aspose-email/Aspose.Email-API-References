@@ -3,7 +3,7 @@ title: MeetingSuggestionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9570
+weight: 11110
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/meetingsuggestiontype/
 ---
 ## MeetingSuggestionType class

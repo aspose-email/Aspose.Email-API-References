@@ -3,7 +3,7 @@ title: UpdateItemCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13440
+weight: 14980
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updateitemcompletedeventhandler/
 ---
 ## UpdateItemCompletedEventHandler delegate

@@ -3,7 +3,7 @@ title: ExchangeQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1900
+weight: 3440
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/
 ---
 ## ExchangeQueryBuilder class

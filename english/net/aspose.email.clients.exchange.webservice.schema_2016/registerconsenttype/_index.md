@@ -3,7 +3,7 @@ title: RegisterConsentType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10960
+weight: 12500
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/registerconsenttype/
 ---
 ## RegisterConsentType class

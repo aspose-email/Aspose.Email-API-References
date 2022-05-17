@@ -3,7 +3,7 @@ title: HeaderCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17360
+weight: 18960
 url: /net/aspose.email.mime/headercollection/
 ---
 ## HeaderCollection class

@@ -3,7 +3,7 @@ title: HtmlLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15770
+weight: 17370
 url: /net/aspose.email/htmlloadoptions/
 ---
 ## HtmlLoadOptions class

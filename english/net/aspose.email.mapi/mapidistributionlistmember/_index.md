@@ -3,7 +3,7 @@ title: MapiDistributionListMember
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16590
+weight: 18190
 url: /net/aspose.email.mapi/mapidistributionlistmember/
 ---
 ## MapiDistributionListMember class

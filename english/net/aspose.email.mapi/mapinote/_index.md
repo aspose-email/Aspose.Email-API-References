@@ -3,7 +3,7 @@ title: MapiNote
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16730
+weight: 18330
 url: /net/aspose.email.mapi/mapinote/
 ---
 ## MapiNote class

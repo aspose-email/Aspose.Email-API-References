@@ -3,7 +3,7 @@ title: Pop3Exception
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18030
+weight: 19630
 url: /net/aspose.email/pop3exception/
 ---
 ## Pop3Exception class

@@ -3,7 +3,7 @@ title: GetSharingMetadataCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8140
+weight: 9680
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getsharingmetadatacompletedeventhandler/
 ---
 ## GetSharingMetadataCompletedEventHandler delegate

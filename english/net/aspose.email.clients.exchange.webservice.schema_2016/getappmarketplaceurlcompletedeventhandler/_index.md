@@ -3,7 +3,7 @@ title: GetAppMarketplaceUrlCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6800
+weight: 8340
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getappmarketplaceurlcompletedeventhandler/
 ---
 ## GetAppMarketplaceUrlCompletedEventHandler delegate

@@ -3,7 +3,7 @@ title: ConnectionAsgmtType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1460
+weight: 2910
 url: /net/aspose.email.clients/connectionasgmttype/
 ---
 ## ConnectionAsgmtType enumeration

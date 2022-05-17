@@ -3,7 +3,7 @@ title: MapiCalendar
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16140
+weight: 17740
 url: /net/aspose.email.mapi/mapicalendar/
 ---
 ## MapiCalendar class

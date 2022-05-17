@@ -3,7 +3,7 @@ title: SmtpFailedRecipientException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15330
+weight: 16880
 url: /net/aspose.email.clients.smtp/smtpfailedrecipientexception/
 ---
 ## SmtpFailedRecipientException class

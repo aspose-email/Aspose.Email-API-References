@@ -3,7 +3,7 @@ title: CalendarWriter
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 600
 url: /net/aspose.email.calendar/calendarwriter/
 ---
 ## CalendarWriter class

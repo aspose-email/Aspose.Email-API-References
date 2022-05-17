@@ -3,7 +3,7 @@ title: ExchangeAdvancedSyntaxQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1630
+weight: 3170
 url: /net/aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/
 ---
 ## ExchangeAdvancedSyntaxQueryBuilder class

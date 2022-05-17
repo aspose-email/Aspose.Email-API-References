@@ -3,7 +3,7 @@ title: ElcFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5470
+weight: 7010
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/elcfoldertype/
 ---
 ## ElcFolderType enumeration

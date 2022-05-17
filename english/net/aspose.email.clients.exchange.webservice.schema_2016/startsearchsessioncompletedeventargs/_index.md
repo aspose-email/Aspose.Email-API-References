@@ -3,7 +3,7 @@ title: StartSearchSessionCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12590
+weight: 14130
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/startsearchsessioncompletedeventargs/
 ---
 ## StartSearchSessionCompletedEventArgs class

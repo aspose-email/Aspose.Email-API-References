@@ -3,7 +3,7 @@ title: MarkAsJunkType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9440
+weight: 10980
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/markasjunktype/
 ---
 ## MarkAsJunkType class

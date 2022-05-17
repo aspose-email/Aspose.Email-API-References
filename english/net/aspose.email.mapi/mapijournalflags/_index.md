@@ -3,7 +3,7 @@ title: MapiJournalFlags
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16640
+weight: 18240
 url: /net/aspose.email.mapi/mapijournalflags/
 ---
 ## MapiJournalFlags enumeration

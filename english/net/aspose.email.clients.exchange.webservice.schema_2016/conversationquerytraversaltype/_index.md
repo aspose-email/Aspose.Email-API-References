@@ -3,7 +3,7 @@ title: ConversationQueryTraversalType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4170
+weight: 5710
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/conversationquerytraversaltype/
 ---
 ## ConversationQueryTraversalType enumeration

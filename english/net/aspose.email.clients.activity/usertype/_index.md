@@ -3,7 +3,7 @@ title: UserType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1360
+weight: 2810
 url: /net/aspose.email.clients.activity/usertype/
 ---
 ## UserType enumeration

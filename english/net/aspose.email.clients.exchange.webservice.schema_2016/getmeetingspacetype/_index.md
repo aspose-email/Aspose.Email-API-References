@@ -3,7 +3,7 @@ title: GetMeetingSpaceType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7510
+weight: 9050
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getmeetingspacetype/
 ---
 ## GetMeetingSpaceType class

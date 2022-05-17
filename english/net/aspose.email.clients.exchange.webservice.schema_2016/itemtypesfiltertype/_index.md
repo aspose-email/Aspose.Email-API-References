@@ -3,7 +3,7 @@ title: ItemTypesFilterType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9030
+weight: 10570
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/itemtypesfiltertype/
 ---
 ## ItemTypesFilterType enumeration

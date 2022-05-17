@@ -3,7 +3,7 @@ title: InvalidRecipientType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8860
+weight: 10400
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/invalidrecipienttype/
 ---
 ## InvalidRecipientType class

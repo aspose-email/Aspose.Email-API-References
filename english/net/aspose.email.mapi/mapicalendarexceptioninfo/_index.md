@@ -3,7 +3,7 @@ title: MapiCalendarExceptionInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16210
+weight: 17810
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/
 ---
 ## MapiCalendarExceptionInfo class

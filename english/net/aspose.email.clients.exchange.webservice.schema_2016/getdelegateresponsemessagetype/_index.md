@@ -3,7 +3,7 @@ title: GetDelegateResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6990
+weight: 8530
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getdelegateresponsemessagetype/
 ---
 ## GetDelegateResponseMessageType class

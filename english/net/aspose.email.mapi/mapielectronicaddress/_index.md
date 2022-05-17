@@ -3,7 +3,7 @@ title: MapiElectronicAddress
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16610
+weight: 18210
 url: /net/aspose.email.mapi/mapielectronicaddress/
 ---
 ## MapiElectronicAddress class

@@ -3,7 +3,7 @@ title: GetClientAccessTokenType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6910
+weight: 8450
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getclientaccesstokentype/
 ---
 ## GetClientAccessTokenType class

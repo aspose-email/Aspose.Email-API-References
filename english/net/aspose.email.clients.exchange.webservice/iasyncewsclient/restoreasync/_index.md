@@ -8,10 +8,24 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/restoreasync/
 ---
 ## IAsyncEwsClient.RestoreAsync method
 
+Restores the specified exchange folders from the given personal storage.
+
 ```csharp
 public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pst | PersonalStorage | A personal storage containing the backuped exchange folders. |
+| settings | RestoreSettings | The restore settings. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst* is `null`. |
 
 ### See Also
 

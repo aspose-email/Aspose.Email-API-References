@@ -3,7 +3,7 @@ title: AmpAnim
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.email.amp/ampanim/
 ---
 ## AmpAnim class

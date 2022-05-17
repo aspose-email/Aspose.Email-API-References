@@ -3,7 +3,7 @@ title: ExtendedCalendar
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14160
+weight: 15700
 url: /net/aspose.email.clients.google/extendedcalendar/
 ---
 ## ExtendedCalendar class

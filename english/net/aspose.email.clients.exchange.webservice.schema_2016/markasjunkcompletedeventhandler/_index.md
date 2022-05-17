@@ -3,7 +3,7 @@ title: MarkAsJunkCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9410
+weight: 10950
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/markasjunkcompletedeventhandler/
 ---
 ## MarkAsJunkCompletedEventHandler delegate

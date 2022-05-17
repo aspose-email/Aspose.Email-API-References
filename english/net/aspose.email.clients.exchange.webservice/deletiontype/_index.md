@@ -3,7 +3,7 @@ title: DeletionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2130
+weight: 3670
 url: /net/aspose.email.clients.exchange.webservice/deletiontype/
 ---
 ## DeletionType enumeration

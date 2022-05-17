@@ -3,7 +3,7 @@ title: DisconnectPhoneCallType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5340
+weight: 6880
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/disconnectphonecalltype/
 ---
 ## DisconnectPhoneCallType class

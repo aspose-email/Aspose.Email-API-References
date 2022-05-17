@@ -3,7 +3,7 @@ title: GetUserAvailabilityCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8280
+weight: 9820
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuseravailabilitycompletedeventhandler/
 ---
 ## GetUserAvailabilityCompletedEventHandler delegate

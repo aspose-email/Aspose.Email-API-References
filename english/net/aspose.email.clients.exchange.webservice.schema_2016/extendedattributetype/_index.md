@@ -3,7 +3,7 @@ title: ExtendedAttributeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5960
+weight: 7500
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/extendedattributetype/
 ---
 ## ExtendedAttributeType class

@@ -8,10 +8,24 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listtasksasyn
 ---
 ## IAsyncEwsClient.ListTasksAsync method
 
+Retrieves lists of exchange tasks.
+
 ```csharp
 public Task<TaskCollection> ListTasksAsync(string folder = null, int maxNumberOfItems = 0, 
     MailQuery query = null, bool recursive = false, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folder | String | Tasks folder |
+| maxNumberOfItems | Int32 | Maximum number of items |
+| query | MailQuery | Mail query |
+| recursive | Boolean | Retrieve tasks recursively |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Tasks collection
 
 ### See Also
 

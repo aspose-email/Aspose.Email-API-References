@@ -3,7 +3,7 @@ title: EmlValidationErrorCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15530
+weight: 17130
 url: /net/aspose.email/emlvalidationerrorcollection/
 ---
 ## EmlValidationErrorCollection class

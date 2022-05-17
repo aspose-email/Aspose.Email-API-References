@@ -3,7 +3,7 @@ title: AbsoluteYearlyRecurrencePatternType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2660
+weight: 4200
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/absoluteyearlyrecurrencepatterntype/
 ---
 ## AbsoluteYearlyRecurrencePatternType class

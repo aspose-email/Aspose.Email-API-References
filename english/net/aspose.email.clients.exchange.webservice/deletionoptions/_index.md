@@ -3,7 +3,7 @@ title: DeletionOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2120
+weight: 3660
 url: /net/aspose.email.clients.exchange.webservice/deletionoptions/
 ---
 ## DeletionOptions class

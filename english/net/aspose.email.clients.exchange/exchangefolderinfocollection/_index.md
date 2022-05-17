@@ -3,7 +3,7 @@ title: ExchangeFolderInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1730
+weight: 3270
 url: /net/aspose.email.clients.exchange/exchangefolderinfocollection/
 ---
 ## ExchangeFolderInfoCollection class

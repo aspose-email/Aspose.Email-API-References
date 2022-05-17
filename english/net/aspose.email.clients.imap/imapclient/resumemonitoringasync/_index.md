@@ -8,10 +8,18 @@ url: /net/aspose.email.clients.imap/imapclient/resumemonitoringasync/
 ---
 ## ImapClient.ResumeMonitoringAsync method
 
+Resumes monitoring of message changes for specified folder. Unlike the StartMonitoring method, it will find all missing mailbox changes and call the callback for them.
+
 ```csharp
 public Task ResumeMonitoringAsync(ImapMonitoringEventHandler callback, 
     ImapMonitoringErrorEventHandler errorCallback, IImapMonitoringState monitoringState)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| callback | ImapMonitoringEventHandler | The callback function for monitoring operation. |
+| errorCallback | ImapMonitoringErrorEventHandler | The callback function for monitoring error handling. Monitoring of specified folder is stopped when this callback is called. The callback also provides a state holder so folder monitoring could be resumed using `ResumeMonitoringAsync` method. |
+| monitoringState | IImapMonitoringState | The monitoring state to resume folder monitoring from. Can be retrieved from [`MonitoringState`](../../imapmonitoringerroreventargs/monitoringstate). |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: MultiConnectionMode
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15110
+weight: 16660
 url: /net/aspose.email.clients/multiconnectionmode/
 ---
 ## MultiConnectionMode enumeration

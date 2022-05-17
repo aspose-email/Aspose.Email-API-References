@@ -3,7 +3,7 @@ title: GetSpecificUserConfigurationResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8200
+weight: 9740
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getspecificuserconfigurationresponsetype/
 ---
 ## GetSpecificUserConfigurationResponseType class

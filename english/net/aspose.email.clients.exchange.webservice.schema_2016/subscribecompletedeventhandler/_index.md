@@ -3,7 +3,7 @@ title: SubscribeCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12660
+weight: 14200
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/subscribecompletedeventhandler/
 ---
 ## SubscribeCompletedEventHandler delegate

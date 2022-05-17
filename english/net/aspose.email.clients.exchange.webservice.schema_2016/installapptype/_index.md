@@ -3,7 +3,7 @@ title: InstallAppType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8780
+weight: 10320
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/installapptype/
 ---
 ## InstallAppType class

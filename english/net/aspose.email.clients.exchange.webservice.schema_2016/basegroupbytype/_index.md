@@ -3,7 +3,7 @@ title: BaseGroupByType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3530
+weight: 5070
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/basegroupbytype/
 ---
 ## BaseGroupByType class

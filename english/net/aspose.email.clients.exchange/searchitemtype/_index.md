@@ -3,7 +3,7 @@ title: SearchItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2020
+weight: 3560
 url: /net/aspose.email.clients.exchange/searchitemtype/
 ---
 ## SearchItemType enumeration

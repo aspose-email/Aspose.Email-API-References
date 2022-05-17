@@ -3,7 +3,7 @@ title: MailboxQueryType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9260
+weight: 10800
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mailboxquerytype/
 ---
 ## MailboxQueryType class

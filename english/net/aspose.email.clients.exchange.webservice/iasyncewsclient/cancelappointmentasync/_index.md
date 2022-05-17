@@ -8,10 +8,18 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/cancelappoint
 ---
 ## IAsyncEwsClient.CancelAppointmentAsync method
 
+Cancels an exiting meeting on an organizers calendar
+
 ```csharp
 public Task CancelAppointmentAsync(string uniqueId, string folderUri = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | Unique identifier |
+| folderUri | String | An uri of appointments parent folder. |
+| cancellationToken | CancellationToken | The cancellation token. |
 
 ### See Also
 

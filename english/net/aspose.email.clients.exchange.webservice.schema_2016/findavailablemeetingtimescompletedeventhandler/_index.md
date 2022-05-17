@@ -3,7 +3,7 @@ title: FindAvailableMeetingTimesCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6090
+weight: 7630
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimescompletedeventhandler/
 ---
 ## FindAvailableMeetingTimesCompletedEventHandler delegate

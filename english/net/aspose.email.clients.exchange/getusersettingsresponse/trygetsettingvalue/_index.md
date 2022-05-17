@@ -14,11 +14,11 @@ Tries the get the user setting value.
 public bool TryGetSettingValue<T>(UserSettingName setting, out T value)
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T | UserSettingName | Type of user setting. |
-| setting | UserSettingName | The setting. |
-| value | T& | The setting value. |
+| Parameter | Description |
+| --- | --- |
+| T | Type of user setting. |
+| setting | The setting. |
+| value | The setting value. |
 
 ## Return Value
 

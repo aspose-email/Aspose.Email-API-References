@@ -3,7 +3,7 @@ title: RemoveDelegateCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11080
+weight: 12620
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/removedelegatecompletedeventargs/
 ---
 ## RemoveDelegateCompletedEventArgs class

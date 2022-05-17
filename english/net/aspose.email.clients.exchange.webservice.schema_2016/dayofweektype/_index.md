@@ -3,7 +3,7 @@ title: DayOfWeekType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4760
+weight: 6300
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/dayofweektype/
 ---
 ## DayOfWeekType enumeration

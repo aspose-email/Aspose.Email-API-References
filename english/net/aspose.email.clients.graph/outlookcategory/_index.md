@@ -3,7 +3,7 @@ title: OutlookCategory
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14490
+weight: 16030
 url: /net/aspose.email.clients.graph/outlookcategory/
 ---
 ## OutlookCategory class

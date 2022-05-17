@@ -8,10 +8,23 @@ url: /net/aspose.email.clients.imap/imapclient/setquotaasync/
 ---
 ## ImapClient.SetQuotaAsync method (1 of 4)
 
+Sets quota information
+
 ```csharp
 public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootName, 
     string resourceName, int resourceLimit)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| quotaRootName | String | quota root name |
+| resourceName | String | resource name |
+| resourceLimit | Int32 | resource limit |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -25,9 +38,21 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 
 ## ImapClient.SetQuotaAsync method (2 of 4)
 
+Sets quota information
+
 ```csharp
 public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName, int resourceLimit)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| quotaRootName | String | quota root name |
+| resourceName | String | resource name |
+| resourceLimit | Int32 | resource limit |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -40,10 +65,24 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 
 ## ImapClient.SetQuotaAsync method (3 of 4)
 
+Sets quota information
+
 ```csharp
 public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootName, 
     string resourceName, int resourceLimit, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| quotaRootName | String | quota root name |
+| resourceName | String | resource name |
+| resourceLimit | Int32 | resource limit |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -57,10 +96,23 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 
 ## ImapClient.SetQuotaAsync method (4 of 4)
 
+Sets quota information
+
 ```csharp
 public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName, 
     int resourceLimit, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| quotaRootName | String | quota root name |
+| resourceName | String | resource name |
+| resourceLimit | Int32 | resource limit |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

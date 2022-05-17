@@ -8,9 +8,20 @@ url: /net/aspose.email.clients.imap/imapclient/restoreasync/
 ---
 ## ImapClient.RestoreAsync method (1 of 2)
 
+Begins to restore imap folders from the given personal storage.
+
 ```csharp
 public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pst | PersonalStorage | A personal storage containing the backuped imap folders. |
+| settings | RestoreSettings | The restore settings |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -24,9 +35,21 @@ public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings)
 
 ## ImapClient.RestoreAsync method (2 of 2)
 
+Begins to restore imap folders from the given personal storage.
+
 ```csharp
 public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pst | PersonalStorage | A personal storage containing the backuped imap folders. |
+| settings | RestoreSettings | The restore settings |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

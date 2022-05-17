@@ -8,11 +8,25 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createfoldera
 ---
 ## IAsyncEwsClient.CreateFolderAsync method
 
+Creates the new folder
+
 ```csharp
 public Task<ExchangeFolderInfo> CreateFolderAsync(string parentFolderUri, string name, 
     ExchangeFolderPermissionCollection permissions = null, string folderClass = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentFolderUri | String | The URI of parent folder |
+| name | String | The name of new folder |
+| permissions | ExchangeFolderPermissionCollection | A permission on new folder |
+| folderClass | String | The class of new folder |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Returns folder information
 
 ### See Also
 

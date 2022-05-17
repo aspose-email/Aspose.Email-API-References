@@ -3,7 +3,7 @@ title: OlmStorage
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18250
+weight: 19900
 url: /net/aspose.email.storage.olm/olmstorage/
 ---
 ## OlmStorage class

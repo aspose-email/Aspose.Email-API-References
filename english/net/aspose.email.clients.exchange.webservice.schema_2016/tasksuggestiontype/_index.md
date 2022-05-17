@@ -3,7 +3,7 @@ title: TaskSuggestionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13000
+weight: 14540
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/tasksuggestiontype/
 ---
 ## TaskSuggestionType class

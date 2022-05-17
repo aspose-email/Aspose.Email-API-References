@@ -3,7 +3,7 @@ title: SmtpClient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15310
+weight: 16860
 url: /net/aspose.email.clients.smtp/smtpclient/
 ---
 ## SmtpClient class
@@ -19,6 +19,7 @@ public sealed class SmtpClient : EmailClient, IMailTransferAgent
 | Name | Description |
 | --- | --- |
 | [SmtpClient](smtpclient)() | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
+| [SmtpClient](smtpclient)(Configuration) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class by using configuration file settings. |
 | [SmtpClient](smtpclient)(string) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
 | [SmtpClient](smtpclient)(string, int) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
 | [SmtpClient](smtpclient)(string, SecurityOptions) | Initializes a new instance of the [`SmtpClient`](../smtpclient) class. |
@@ -60,24 +61,24 @@ public sealed class SmtpClient : EmailClient, IMailTransferAgent
 | [Forward](forward)(IConnection, string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
 | [Forward](forward)(IConnection, string, MailAddressCollection, Stream) | Forwards specified message to recipient |
 | [Forward](forward)(IConnection, string, string, MailMessage) | Forwards specified message to recipient |
-| [ForwardAsync](forwardasync)(string, MailAddressCollection, MailMessage) |  |
-| [ForwardAsync](forwardasync)(string, MailAddressCollection, Stream) |  |
-| [ForwardAsync](forwardasync)(string, string, MailMessage) |  |
-| [ForwardAsync](forwardasync)(IConnection, string, MailAddressCollection, MailMessage) |  |
-| [ForwardAsync](forwardasync)(IConnection, string, MailAddressCollection, Stream) |  |
-| [ForwardAsync](forwardasync)(IConnection, string, string, MailMessage) |  |
-| [ForwardAsync](forwardasync)(string, MailAddressCollection, MailMessage, CancellationToken) |  |
-| [ForwardAsync](forwardasync)(string, MailAddressCollection, Stream, CancellationToken) |  |
-| [ForwardAsync](forwardasync)(string, string, MailMessage, CancellationToken) |  |
-| [ForwardAsync](forwardasync)(IConnection, string, MailAddressCollection, MailMessage, CancellationToken) |  |
-| [ForwardAsync](forwardasync)(IConnection, string, MailAddressCollection, Stream, CancellationToken) |  |
-| [ForwardAsync](forwardasync)(IConnection, string, string, MailMessage, CancellationToken) |  |
+| [ForwardAsync](forwardasync)(string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(string, MailAddressCollection, Stream) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(string, string, MailMessage) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(IConnection, string, MailAddressCollection, MailMessage) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(IConnection, string, MailAddressCollection, Stream) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(IConnection, string, string, MailMessage) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(string, MailAddressCollection, MailMessage, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(string, MailAddressCollection, Stream, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(string, string, MailMessage, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(IConnection, string, MailAddressCollection, MailMessage, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(IConnection, string, MailAddressCollection, Stream, CancellationToken) | Forwards specified message to recipient |
+| [ForwardAsync](forwardasync)(IConnection, string, string, MailMessage, CancellationToken) | Forwards specified message to recipient |
 | override [Noop](noop)() | 'No operation' command |
 | override [Noop](noop)(IConnection) | 'No operation' command |
-| [NoopAsync](noopasync)() |  |
-| [NoopAsync](noopasync)(CancellationToken) |  |
-| [NoopAsync](noopasync)(IConnection) |  |
-| [NoopAsync](noopasync)(IConnection, CancellationToken) |  |
+| [NoopAsync](noopasync)() | 'No operation' command |
+| [NoopAsync](noopasync)(CancellationToken) | 'No operation' command |
+| [NoopAsync](noopasync)(IConnection) | 'No operation' command |
+| [NoopAsync](noopasync)(IConnection, CancellationToken) | 'No operation' command |
 | [Send](send)(IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
 | [Send](send)(MailMessage) | Send the specified message. |
 | [Send](send)(MailMessageCollection) | Send the specified message collection. |
@@ -88,33 +89,33 @@ public sealed class SmtpClient : EmailClient, IMailTransferAgent
 | [Send](send)(IConnection, params MailMessage[]) | Send the specified message. |
 | [Send](send)(string, string, string, string) | Creates and sends the specified message. |
 | [Send](send)(IConnection, string, string, string, string) | Creates and sends the specified message. |
-| [SendAsync](sendasync)(IEnumerable&lt;MailMessage&gt;) |  |
-| [SendAsync](sendasync)(MailMessage) |  |
-| [SendAsync](sendasync)(MailMessageCollection) |  |
-| [SendAsync](sendasync)(params MailMessage[]) |  |
-| [SendAsync](sendasync)(CancellationToken, params MailMessage[]) |  |
-| [SendAsync](sendasync)(IConnection, IEnumerable&lt;MailMessage&gt;) |  |
-| [SendAsync](sendasync)(IConnection, MailMessage) |  |
-| [SendAsync](sendasync)(IConnection, MailMessageCollection) |  |
-| [SendAsync](sendasync)(IConnection, params MailMessage[]) |  |
-| [SendAsync](sendasync)(IEnumerable&lt;MailMessage&gt;, CancellationToken) |  |
-| [SendAsync](sendasync)(MailMessage, CancellationToken) |  |
-| [SendAsync](sendasync)(MailMessageCollection, CancellationToken) |  |
-| [SendAsync](sendasync)(IConnection, CancellationToken, params MailMessage[]) |  |
-| [SendAsync](sendasync)(IConnection, IEnumerable&lt;MailMessage&gt;, CancellationToken) |  |
-| [SendAsync](sendasync)(IConnection, MailMessage, CancellationToken) |  |
-| [SendAsync](sendasync)(IConnection, MailMessageCollection, CancellationToken) |  |
-| [SendAsync](sendasync)(string, string, string, string) |  |
-| [SendAsync](sendasync)(IConnection, string, string, string, string) |  |
-| [SendAsync](sendasync)(string, string, string, string, CancellationToken) |  |
-| [SendAsync](sendasync)(IConnection, string, string, string, string, CancellationToken) |  |
+| [SendAsync](sendasync)(IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
+| [SendAsync](sendasync)(MailMessage) | Send the specified message. |
+| [SendAsync](sendasync)(MailMessageCollection) | Send the specified message collection. |
+| [SendAsync](sendasync)(params MailMessage[]) | Send the specified message. |
+| [SendAsync](sendasync)(CancellationToken, params MailMessage[]) | Send the specified message. |
+| [SendAsync](sendasync)(IConnection, IEnumerable&lt;MailMessage&gt;) | Send the specified messages. |
+| [SendAsync](sendasync)(IConnection, MailMessage) | Send the specified message. |
+| [SendAsync](sendasync)(IConnection, MailMessageCollection) | Send the specified message collection. |
+| [SendAsync](sendasync)(IConnection, params MailMessage[]) | Send the specified message. |
+| [SendAsync](sendasync)(IEnumerable&lt;MailMessage&gt;, CancellationToken) | Send the specified messages. |
+| [SendAsync](sendasync)(MailMessage, CancellationToken) | Send the specified message. |
+| [SendAsync](sendasync)(MailMessageCollection, CancellationToken) | Send the specified message collection. |
+| [SendAsync](sendasync)(IConnection, CancellationToken, params MailMessage[]) | Send the specified message. |
+| [SendAsync](sendasync)(IConnection, IEnumerable&lt;MailMessage&gt;, CancellationToken) | Send the specified messages. |
+| [SendAsync](sendasync)(IConnection, MailMessage, CancellationToken) | Send the specified message. |
+| [SendAsync](sendasync)(IConnection, MailMessageCollection, CancellationToken) | Send the specified message collection. |
+| [SendAsync](sendasync)(string, string, string, string) | Creates and sends the specified message. |
+| [SendAsync](sendasync)(IConnection, string, string, string, string) | Creates and sends the specified message. |
+| [SendAsync](sendasync)(string, string, string, string, CancellationToken) | Creates and sends the specified message. |
+| [SendAsync](sendasync)(IConnection, string, string, string, string, CancellationToken) | Creates and sends the specified message. |
 | [SendToQueue](sendtoqueue)(IEnumerable&lt;MailMessage&gt;) | Append messages to queue |
 | override [ValidateCredentials](validatecredentials)() | Executes credentials validation |
 | [ValidateCredentials](validatecredentials)(IConnection) | Executes credentials validation |
-| [ValidateCredentialsAsync](validatecredentialsasync)() |  |
-| [ValidateCredentialsAsync](validatecredentialsasync)(CancellationToken) |  |
-| [ValidateCredentialsAsync](validatecredentialsasync)(IConnection) |  |
-| [ValidateCredentialsAsync](validatecredentialsasync)(IConnection, CancellationToken) |  |
+| [ValidateCredentialsAsync](validatecredentialsasync)() | Executes credentials validation |
+| [ValidateCredentialsAsync](validatecredentialsasync)(CancellationToken) | Executes credentials validation |
+| [ValidateCredentialsAsync](validatecredentialsasync)(IConnection) | Executes credentials validation |
+| [ValidateCredentialsAsync](validatecredentialsasync)(IConnection, CancellationToken) | Executes credentials validation |
 
 ## Other Members
 

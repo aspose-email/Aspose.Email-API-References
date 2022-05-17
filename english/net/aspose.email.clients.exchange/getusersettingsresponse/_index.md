@@ -3,7 +3,7 @@ title: GetUserSettingsResponse
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1930
+weight: 3470
 url: /net/aspose.email.clients.exchange/getusersettingsresponse/
 ---
 ## GetUserSettingsResponse class

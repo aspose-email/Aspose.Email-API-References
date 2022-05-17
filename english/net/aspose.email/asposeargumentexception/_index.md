@@ -3,7 +3,7 @@ title: AsposeArgumentException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.email/asposeargumentexception/
 ---
 ## AsposeArgumentException class

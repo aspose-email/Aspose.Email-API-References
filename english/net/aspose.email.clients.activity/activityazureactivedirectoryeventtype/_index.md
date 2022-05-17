@@ -3,7 +3,7 @@ title: ActivityAzureActiveDirectoryEventType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 900
+weight: 2350
 url: /net/aspose.email.clients.activity/activityazureactivedirectoryeventtype/
 ---
 ## ActivityAzureActiveDirectoryEventType enumeration

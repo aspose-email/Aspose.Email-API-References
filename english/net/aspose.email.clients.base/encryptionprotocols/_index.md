@@ -3,7 +3,7 @@ title: EncryptionProtocols
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1420
+weight: 2870
 url: /net/aspose.email.clients.base/encryptionprotocols/
 ---
 ## EncryptionProtocols enumeration

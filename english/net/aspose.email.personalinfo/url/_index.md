@@ -3,7 +3,7 @@ title: Url
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17730
+weight: 19330
 url: /net/aspose.email.personalinfo/url/
 ---
 ## Url class

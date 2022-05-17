@@ -3,7 +3,7 @@ title: MessageInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18390
+weight: 20040
 url: /net/aspose.email.storage.pst/messageinfocollection/
 ---
 ## MessageInfoCollection class

@@ -3,7 +3,7 @@ title: WeeklyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 770
+weight: 790
 url: /net/aspose.email.calendar.recurrences/weeklyrecurrencepattern/
 ---
 ## WeeklyRecurrencePattern class

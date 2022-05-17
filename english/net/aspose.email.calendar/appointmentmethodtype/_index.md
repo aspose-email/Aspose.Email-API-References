@@ -3,7 +3,7 @@ title: AppointmentMethodType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 510
 url: /net/aspose.email.calendar/appointmentmethodtype/
 ---
 ## AppointmentMethodType enumeration

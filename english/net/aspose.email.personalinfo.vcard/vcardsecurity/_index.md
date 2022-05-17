@@ -3,7 +3,7 @@ title: VCardSecurity
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17920
+weight: 19520
 url: /net/aspose.email.personalinfo.vcard/vcardsecurity/
 ---
 ## VCardSecurity class

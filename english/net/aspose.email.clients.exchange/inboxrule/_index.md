@@ -3,7 +3,7 @@ title: InboxRule
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1970
+weight: 3510
 url: /net/aspose.email.clients.exchange/inboxrule/
 ---
 ## InboxRule class

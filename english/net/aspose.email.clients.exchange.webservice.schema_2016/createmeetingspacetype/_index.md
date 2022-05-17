@@ -3,7 +3,7 @@ title: CreateMeetingSpaceType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4630
+weight: 6170
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createmeetingspacetype/
 ---
 ## CreateMeetingSpaceType class

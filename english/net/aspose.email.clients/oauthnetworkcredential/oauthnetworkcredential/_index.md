@@ -49,9 +49,15 @@ public OAuthNetworkCredential(ITokenProvider tokenProvider)
 
 ## OAuthNetworkCredential constructor (3 of 5)
 
+Initializes a new instance of the [`OAuthNetworkCredential`](../../oauthnetworkcredential) class
+
 ```csharp
 public OAuthNetworkCredential(IAsyncTokenProvider tokenProvider)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tokenProvider | IAsyncTokenProvider | Token provider |
 
 ### See Also
 

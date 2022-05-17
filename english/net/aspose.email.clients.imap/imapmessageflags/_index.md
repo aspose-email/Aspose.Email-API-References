@@ -3,7 +3,7 @@ title: ImapMessageFlags
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14790
+weight: 16330
 url: /net/aspose.email.clients.imap/imapmessageflags/
 ---
 ## ImapMessageFlags class

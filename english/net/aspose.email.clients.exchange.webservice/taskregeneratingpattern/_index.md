@@ -3,7 +3,7 @@ title: TaskRegeneratingPattern
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13980
+weight: 15520
 url: /net/aspose.email.clients.exchange.webservice/taskregeneratingpattern/
 ---
 ## TaskRegeneratingPattern class

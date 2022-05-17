@@ -3,7 +3,7 @@ title: AuthenticationMethod
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 940
+weight: 2390
 url: /net/aspose.email.clients.activity/authenticationmethod/
 ---
 ## AuthenticationMethod enumeration

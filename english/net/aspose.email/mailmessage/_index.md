@@ -3,7 +3,7 @@ title: MailMessage
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15940
+weight: 17540
 url: /net/aspose.email/mailmessage/
 ---
 ## MailMessage class
@@ -12,7 +12,7 @@ Represents an e-mail message. It allows to access message properties, ex. subjec
 
 ```csharp
 public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage, 
-    IPreferredTextEncodingProvider
+    IPreferredTextEncodingProvider, ISerializable
 ```
 
 ## Constructors
@@ -85,6 +85,7 @@ public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage,
 | virtual [Decrypt](decrypt)() | Decrypts this message |
 | virtual [Decrypt](decrypt)(X509Certificate2) | Decrypts this message |
 | [Dispose](dispose)() | Releases all resources used by the MailMessage |
+| virtual [DKIMSign](dkimsign)(RSACryptoServiceProvider, DKIMSignatureInfo) | Signs this message using DKIM (DomainKeys Identified Mail) signature. |
 | virtual [Encrypt](encrypt)(X509Certificate2) | Encrypts this message |
 | virtual [Encrypt](encrypt)(X509Certificate2[]) | Encrypts this message |
 | override [Equals](equals)(object) | Determines whether the specified Object is equal to the current Object. |
@@ -92,6 +93,7 @@ public class MailMessage : IDisposable, IEnumerable<MailMessage>, IMessage,
 | override [GetHashCode](gethashcode)() | Returns a hash code for object |
 | virtual [GetHtmlBodyText](gethtmlbodytext)(bool) | Gets the message html body as plain text. This method parses the HtmlBody property and returns plain text content ignoring the html markup. |
 | virtual [GetHtmlBodyText](gethtmlbodytext)(HyperlinkRenderingCallback) | Gets the message htmlbody as plain text. |
+| virtual [GetObjectData](getobjectdata)(SerializationInfo, StreamingContext) | Populates a SerializationInfo with the data needed to serialize the target object. |
 | virtual [Import](import)(Stream) | Imports message from stream |
 | [RecomposeTnefContent](recomposetnefcontent)() | Composes the TNEF content. Note, that tnef attachment is composed if a message initially contained TNEF and was loaded without FileCompatibilityMode.PreserveTnefAttachments flag, That is this method doesn't create tnef message out of the regular one. |
 | virtual [RemoveSignature](removesignature)() | Remove signature |

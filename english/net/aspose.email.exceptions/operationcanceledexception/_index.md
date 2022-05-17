@@ -3,7 +3,7 @@ title: OperationCanceledException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15620
+weight: 17220
 url: /net/aspose.email.exceptions/operationcanceledexception/
 ---
 ## OperationCanceledException class

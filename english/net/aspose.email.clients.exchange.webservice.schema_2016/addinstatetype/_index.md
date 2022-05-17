@@ -3,7 +3,7 @@ title: AddInStateType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2860
+weight: 4400
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/addinstatetype/
 ---
 ## AddInStateType enumeration

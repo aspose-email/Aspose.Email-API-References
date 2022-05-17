@@ -3,7 +3,7 @@ title: DeleteItemFieldType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4970
+weight: 6510
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deleteitemfieldtype/
 ---
 ## DeleteItemFieldType class

@@ -3,7 +3,7 @@ title: IMapiMessageItem
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16050
+weight: 17650
 url: /net/aspose.email.mapi/imapimessageitem/
 ---
 ## IMapiMessageItem interface

@@ -3,7 +3,7 @@ title: ExtendedPropertyType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5990
+weight: 7530
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/extendedpropertytype/
 ---
 ## ExtendedPropertyType class

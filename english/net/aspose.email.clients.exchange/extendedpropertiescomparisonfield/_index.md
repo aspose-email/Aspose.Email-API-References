@@ -3,7 +3,7 @@ title: ExtendedPropertiesComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1910
+weight: 3450
 url: /net/aspose.email.clients.exchange/extendedpropertiescomparisonfield/
 ---
 ## ExtendedPropertiesComparisonField class

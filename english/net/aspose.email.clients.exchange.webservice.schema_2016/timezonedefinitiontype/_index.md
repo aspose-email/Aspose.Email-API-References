@@ -3,7 +3,7 @@ title: TimeZoneDefinitionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13080
+weight: 14620
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/timezonedefinitiontype/
 ---
 ## TimeZoneDefinitionType class

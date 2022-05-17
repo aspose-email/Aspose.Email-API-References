@@ -3,7 +3,7 @@ title: DSNAction
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 410
 url: /net/aspose.email.bounce/dsnaction/
 ---
 ## DSNAction enumeration

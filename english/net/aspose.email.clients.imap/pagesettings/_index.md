@@ -3,7 +3,7 @@ title: PageSettings
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14980
+weight: 16520
 url: /net/aspose.email.clients.imap/pagesettings/
 ---
 ## PageSettings class

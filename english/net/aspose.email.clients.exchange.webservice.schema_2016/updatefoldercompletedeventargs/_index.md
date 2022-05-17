@@ -3,7 +3,7 @@ title: UpdateFolderCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13350
+weight: 14890
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updatefoldercompletedeventargs/
 ---
 ## UpdateFolderCompletedEventArgs class

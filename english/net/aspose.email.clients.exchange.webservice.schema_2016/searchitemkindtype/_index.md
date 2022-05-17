@@ -3,7 +3,7 @@ title: SearchItemKindType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11770
+weight: 13310
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/searchitemkindtype/
 ---
 ## SearchItemKindType enumeration

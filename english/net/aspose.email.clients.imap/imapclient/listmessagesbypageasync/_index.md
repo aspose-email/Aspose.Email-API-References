@@ -8,10 +8,22 @@ url: /net/aspose.email.clients.imap/imapclient/listmessagesbypageasync/
 ---
 ## ImapClient.ListMessagesByPageAsync method (1 of 4)
 
+Gets the list of messages
+
 ```csharp
 public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffset, 
     PageSettings settings)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| itemsPerPage | Int32 | A number of items in page |
+| pageOffset | Int32 | An offset of next page in view |
+| settings | PageSettings | The settings. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -25,10 +37,22 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffs
 
 ## ImapClient.ListMessagesByPageAsync method (2 of 4)
 
+Gets the list of messages
+
 ```csharp
 public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo pageInfo, 
     PageSettings settings)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
+| pageInfo | PageInfo | The next page to retrieve. |
+| settings | PageSettings | The settings. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -44,10 +68,23 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo page
 
 ## ImapClient.ListMessagesByPageAsync method (3 of 4)
 
+Gets the list of messages
+
 ```csharp
 public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffset, 
     PageSettings settings, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| itemsPerPage | Int32 | A number of items in page |
+| pageOffset | Int32 | An offset of next page in view |
+| settings | PageSettings | The settings. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -61,10 +98,23 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffs
 
 ## ImapClient.ListMessagesByPageAsync method (4 of 4)
 
+Gets the list of messages
+
 ```csharp
 public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo pageInfo, 
     PageSettings settings, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
+| pageInfo | PageInfo | The next page to retrieve. |
+| settings | PageSettings | The settings. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

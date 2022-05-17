@@ -3,7 +3,7 @@ title: CategoryPreset
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14330
+weight: 15870
 url: /net/aspose.email.clients.graph/categorypreset/
 ---
 ## CategoryPreset enumeration

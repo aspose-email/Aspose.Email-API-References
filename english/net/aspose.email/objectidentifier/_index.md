@@ -3,7 +3,7 @@ title: ObjectIdentifier
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17470
+weight: 19070
 url: /net/aspose.email/objectidentifier/
 ---
 ## ObjectIdentifier class

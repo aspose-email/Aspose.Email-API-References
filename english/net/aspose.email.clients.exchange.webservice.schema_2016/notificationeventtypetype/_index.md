@@ -3,7 +3,7 @@ title: NotificationEventTypeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9930
+weight: 11470
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/notificationeventtypetype/
 ---
 ## NotificationEventTypeType enumeration

@@ -3,7 +3,7 @@ title: UpdateMeetingInstanceRequestType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13550
+weight: 15090
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updatemeetinginstancerequesttype/
 ---
 ## UpdateMeetingInstanceRequestType class

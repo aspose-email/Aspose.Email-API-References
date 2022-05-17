@@ -3,7 +3,7 @@ title: TaskType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13010
+weight: 14550
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/tasktype/
 ---
 ## TaskType class

@@ -8,9 +8,20 @@ url: /net/aspose.email.clients.imap/imapclient/movefolderasync/
 ---
 ## ImapClient.MoveFolderAsync method (1 of 4)
 
+Moves specified folder and its subfolders to new location.
+
 ```csharp
 public Task MoveFolderAsync(string newParentFolder, string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newParentFolder | String | New location for moved folder |
+| folderName | String | Folder to move |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -22,9 +33,21 @@ public Task MoveFolderAsync(string newParentFolder, string folderName)
 
 ## ImapClient.MoveFolderAsync method (2 of 4)
 
+Moves specified folder and its subfolders to new location.
+
 ```csharp
 public Task MoveFolderAsync(IConnection connection, string newParentFolder, string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| newParentFolder | String | New location for moved folder |
+| folderName | String | Folder to move |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,9 +60,21 @@ public Task MoveFolderAsync(IConnection connection, string newParentFolder, stri
 
 ## ImapClient.MoveFolderAsync method (3 of 4)
 
+Moves specified folder and its subfolders to new location.
+
 ```csharp
 public Task MoveFolderAsync(string newParentFolder, string folderName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newParentFolder | String | New location for moved folder |
+| folderName | String | Folder to move |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -51,10 +86,23 @@ public Task MoveFolderAsync(string newParentFolder, string folderName, Cancellat
 
 ## ImapClient.MoveFolderAsync method (4 of 4)
 
+Moves specified folder and its subfolders to new location.
+
 ```csharp
 public Task MoveFolderAsync(IConnection connection, string newParentFolder, string folderName, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| newParentFolder | String | New location for moved folder |
+| folderName | String | Folder to move |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

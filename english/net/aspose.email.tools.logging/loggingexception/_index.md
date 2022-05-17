@@ -3,7 +3,7 @@ title: LoggingException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18690
+weight: 20340
 url: /net/aspose.email.tools.logging/loggingexception/
 ---
 ## LoggingException class

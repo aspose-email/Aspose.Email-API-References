@@ -3,7 +3,7 @@ title: GetRemindersTypeReminderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7830
+weight: 9370
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getreminderstyperemindertype/
 ---
 ## GetRemindersTypeReminderType enumeration

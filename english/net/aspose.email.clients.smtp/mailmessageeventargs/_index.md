@@ -3,7 +3,7 @@ title: MailMessageEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15290
+weight: 16840
 url: /net/aspose.email.clients.smtp/mailmessageeventargs/
 ---
 ## MailMessageEventArgs class

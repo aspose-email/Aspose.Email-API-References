@@ -3,7 +3,7 @@ title: AsyncCommandResults
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1410
+weight: 2860
 url: /net/aspose.email.clients/asynccommandresults/
 ---
 ## AsyncCommandResults enumeration

@@ -3,7 +3,7 @@ title: SearchDiagnosticsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11720
+weight: 13260
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/searchdiagnosticstype/
 ---
 ## SearchDiagnosticsType class

@@ -3,7 +3,7 @@ title: BounceResult
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 400
 url: /net/aspose.email.bounce/bounceresult/
 ---
 ## BounceResult class

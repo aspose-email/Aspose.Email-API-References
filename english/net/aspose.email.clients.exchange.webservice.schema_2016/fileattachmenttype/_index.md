@@ -3,7 +3,7 @@ title: FileAttachmentType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6050
+weight: 7590
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/fileattachmenttype/
 ---
 ## FileAttachmentType class

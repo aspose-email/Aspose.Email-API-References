@@ -3,7 +3,7 @@ title: RecipientTrackingEvent
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2570
+weight: 4110
 url: /net/aspose.email.clients.exchange.webservice/recipienttrackingevent/
 ---
 ## RecipientTrackingEvent class

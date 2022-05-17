@@ -3,7 +3,7 @@ title: TemplateEngine
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18730
+weight: 20380
 url: /net/aspose.email.tools.merging/templateengine/
 ---
 ## TemplateEngine class

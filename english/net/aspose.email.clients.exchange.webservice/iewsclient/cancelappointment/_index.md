@@ -8,6 +8,27 @@ url: /net/aspose.email.clients.exchange.webservice/iewsclient/cancelappointment/
 ---
 ## IEWSClient.CancelAppointment method (1 of 6)
 
+Cancels an exiting meeting on an organizers calendar
+
+```csharp
+public void CancelAppointment(string uniqueId, string folderUri)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | Unique identifier |
+| folderUri | String | An uri of appointments parent folder. |
+
+### See Also
+
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## IEWSClient.CancelAppointment method (2 of 6)
+
 Cancels appointment.
 
 ```csharp
@@ -27,7 +48,7 @@ public void CancelAppointment(MapiCalendar appointment)
 
 ---
 
-## IEWSClient.CancelAppointment method (2 of 6)
+## IEWSClient.CancelAppointment method (3 of 6)
 
 Cancels appointment.
 
@@ -49,7 +70,7 @@ public void CancelAppointment(MapiCalendar appointment, string folderUri)
 
 ---
 
-## IEWSClient.CancelAppointment method (3 of 6)
+## IEWSClient.CancelAppointment method (4 of 6)
 
 Cancels appointment.
 
@@ -70,7 +91,7 @@ public void CancelAppointment(Appointment appointment)
 
 ---
 
-## IEWSClient.CancelAppointment method (4 of 6)
+## IEWSClient.CancelAppointment method (5 of 6)
 
 Cancels appointment.
 
@@ -92,7 +113,7 @@ public void CancelAppointment(Appointment appointment, string folderUri)
 
 ---
 
-## IEWSClient.CancelAppointment method (5 of 6)
+## IEWSClient.CancelAppointment method (6 of 6)
 
 Cancels an exiting meeting on an organizers calendar
 
@@ -103,27 +124,6 @@ public void CancelAppointment(string uniqueId)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uniqueId | String | Unique identifier |
-
-### See Also
-
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## IEWSClient.CancelAppointment method (6 of 6)
-
-Cancels an exiting meeting on an organizers calendar
-
-```csharp
-public void CancelAppointment(string uniqueId, string folderUri)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| uniqueId | String | Unique identifier |
-| folderUri | String | An uri of appointments parent folder. |
 
 ### See Also
 

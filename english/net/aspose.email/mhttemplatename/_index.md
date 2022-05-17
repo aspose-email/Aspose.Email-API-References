@@ -3,7 +3,7 @@ title: MhtTemplateName
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17290
+weight: 18890
 url: /net/aspose.email/mhttemplatename/
 ---
 ## MhtTemplateName class

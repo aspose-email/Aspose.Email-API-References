@@ -14,9 +14,9 @@ Gets the element at the specified index.
 public PropertyDescriptor this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero-based index of the element to get or set. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero-based index of the element to get or set. |
 
 ## Return Value
 

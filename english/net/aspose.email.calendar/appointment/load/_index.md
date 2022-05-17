@@ -8,6 +8,54 @@ url: /net/aspose.email.calendar/appointment/load/
 ---
 ## Appointment.Load method (1 of 5)
 
+Loads [`Appointment`](../../appointment) from the file. Supported file formats: iCalendar A file path.Represents appointment load options[`AppointmentLoadOptions`](../../appointmentloadoptions).A read [`Appointment`](../../appointment).
+
+```csharp
+public static Appointment Load(string filePath, AppointmentLoadOptions options)
+```
+
+### See Also
+
+* class [AppointmentLoadOptions](../../appointmentloadoptions)
+* class [Appointment](../../appointment)
+* namespace [Aspose.Email.Calendar](../../appointment)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Appointment.Load method (2 of 5)
+
+Loads [`Appointment`](../../appointment) from the stream
+
+```csharp
+public static Appointment Load(Stream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | A stream to load from |
+
+## Return Value
+
+A read [`Appointment`](../../appointment)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *stream* is `null` |
+| NotSupportedException | *stream* does not support reading |
+
+### See Also
+
+* class [Appointment](../../appointment)
+* namespace [Aspose.Email.Calendar](../../appointment)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Appointment.Load method (3 of 5)
+
 Loads [`Appointment`](../../appointment) from the stream
 
 ```csharp
@@ -38,7 +86,7 @@ A read [`Appointment`](../../appointment)
 
 ---
 
-## Appointment.Load method (2 of 5)
+## Appointment.Load method (4 of 5)
 
 Loads [`Appointment`](../../appointment) from the stream
 
@@ -71,7 +119,7 @@ A read [`Appointment`](../../appointment)
 
 ---
 
-## Appointment.Load method (3 of 5)
+## Appointment.Load method (5 of 5)
 
 Loads [`Appointment`](../../appointment) from the file. Supported file formats: iCalendar
 
@@ -92,54 +140,6 @@ A read [`Appointment`](../../appointment)
 | exception | condition |
 | --- | --- |
 | ArgumentException | *filePath* is `null` or `empty` |
-
-### See Also
-
-* class [Appointment](../../appointment)
-* namespace [Aspose.Email.Calendar](../../appointment)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Appointment.Load method (4 of 5)
-
-Loads [`Appointment`](../../appointment) from the file. Supported file formats: iCalendar A file path.Represents appointment load options[`AppointmentLoadOptions`](../../appointmentloadoptions).A read [`Appointment`](../../appointment).
-
-```csharp
-public static Appointment Load(string filePath, AppointmentLoadOptions options)
-```
-
-### See Also
-
-* class [AppointmentLoadOptions](../../appointmentloadoptions)
-* class [Appointment](../../appointment)
-* namespace [Aspose.Email.Calendar](../../appointment)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Appointment.Load method (5 of 5)
-
-Loads [`Appointment`](../../appointment) from the stream
-
-```csharp
-public static Appointment Load(Stream stream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | A stream to load from |
-
-## Return Value
-
-A read [`Appointment`](../../appointment)
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | *stream* is `null` |
-| NotSupportedException | *stream* does not support reading |
 
 ### See Also
 

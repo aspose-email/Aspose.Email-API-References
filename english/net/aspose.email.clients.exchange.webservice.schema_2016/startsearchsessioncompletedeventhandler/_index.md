@@ -3,7 +3,7 @@ title: StartSearchSessionCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12600
+weight: 14140
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/startsearchsessioncompletedeventhandler/
 ---
 ## StartSearchSessionCompletedEventHandler delegate

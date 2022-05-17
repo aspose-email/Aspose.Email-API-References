@@ -3,7 +3,7 @@ title: AsposeInvalidEnumArgumentException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 320
 url: /net/aspose.email/asposeinvalidenumargumentexception/
 ---
 ## AsposeInvalidEnumArgumentException class

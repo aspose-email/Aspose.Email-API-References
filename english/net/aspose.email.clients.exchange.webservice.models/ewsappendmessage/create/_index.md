@@ -8,7 +8,7 @@ url: /net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/creat
 ---
 ## EwsAppendMessage.Create method
 
-Creates !:IAsyncEwsClient.AppendMessagesAsync method's parameter set.
+Creates [`AppendMessagesAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync) method's parameter set.
 
 ```csharp
 public static EwsAppendMessage Create()

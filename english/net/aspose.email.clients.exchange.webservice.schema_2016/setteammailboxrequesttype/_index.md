@@ -3,7 +3,7 @@ title: SetTeamMailboxRequestType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12330
+weight: 13870
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/setteammailboxrequesttype/
 ---
 ## SetTeamMailboxRequestType class

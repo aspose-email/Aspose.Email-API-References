@@ -3,7 +3,7 @@ title: SearchFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11760
+weight: 13300
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/searchfoldertype/
 ---
 ## SearchFolderType class

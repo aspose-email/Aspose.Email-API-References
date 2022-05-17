@@ -3,7 +3,7 @@ title: AcceptItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2670
+weight: 4210
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/acceptitemtype/
 ---
 ## AcceptItemType class

@@ -8,10 +8,24 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listitemsasyn
 ---
 ## IAsyncEwsClient.ListItemsAsync method
 
+Retrieve list of item URIes in specified folder
+
 ```csharp
 public Task<string[]> ListItemsAsync(string folder, string mailbox = null, MailQuery query = null, 
     bool recursive = false, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folder | String | folder to search items |
+| mailbox | String | The mailbox that is used to initialize the folder id class. |
+| query | MailQuery | Additional conditions to select items |
+| recursive | Boolean | Specifies whether request should be reqursive. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Returns list of item URIes
 
 ### See Also
 

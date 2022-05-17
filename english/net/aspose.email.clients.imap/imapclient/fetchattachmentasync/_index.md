@@ -8,10 +8,22 @@ url: /net/aspose.email.clients.imap/imapclient/fetchattachmentasync/
 ---
 ## ImapClient.FetchAttachmentAsync method (1 of 4)
 
+Fetches the specified attachment
+
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenceNumber, 
     string attachmentName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of a message |
+| attachmentName | String | A name of attachment |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -25,9 +37,20 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 
 ## ImapClient.FetchAttachmentAsync method (2 of 4)
 
+Fetches the specified attachment
+
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachmentName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of a message |
+| attachmentName | String | A name of attachment |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -40,10 +63,23 @@ public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachme
 
 ## ImapClient.FetchAttachmentAsync method (3 of 4)
 
+Fetches the specified attachment
+
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenceNumber, 
     string attachmentName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of a message |
+| attachmentName | String | A name of attachment |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -57,10 +93,22 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 
 ## ImapClient.FetchAttachmentAsync method (4 of 4)
 
+Fetches the specified attachment
+
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachmentName, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of a message |
+| attachmentName | String | A name of attachment |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

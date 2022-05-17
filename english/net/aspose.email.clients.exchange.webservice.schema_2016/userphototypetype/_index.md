@@ -3,7 +3,7 @@ title: UserPhotoTypeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13820
+weight: 15360
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/userphototypetype/
 ---
 ## UserPhotoTypeType enumeration

@@ -3,7 +3,7 @@ title: NotType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9920
+weight: 11460
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/nottype/
 ---
 ## NotType class

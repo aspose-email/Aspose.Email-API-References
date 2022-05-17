@@ -3,7 +3,7 @@ title: RestrictionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11500
+weight: 13040
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/restrictiontype/
 ---
 ## RestrictionType class

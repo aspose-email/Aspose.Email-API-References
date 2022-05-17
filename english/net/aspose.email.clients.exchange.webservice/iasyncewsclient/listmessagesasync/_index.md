@@ -8,12 +8,28 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesa
 ---
 ## IAsyncEwsClient.ListMessagesAsync method (1 of 2)
 
+List the messages in the specified folder.
+
 ```csharp
 public Task<ExchangeMessageInfoCollection> ListMessagesAsync(string folder, string mailbox = null, 
     int maxNumberOfMessages = 0, MailQuery query = null, bool recursive = false, 
     IEnumerable<PropertyDescriptor> extendedProperties = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folder | String | A folder to search messages in. |
+| mailbox | String | The mailbox that is used to initialize the folder id class. |
+| maxNumberOfMessages | Int32 | Maximum number of messages. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
+| recursive | Boolean | Indicates whether recursive listing or not. |
+| extendedProperties | IEnumerable`1 | Extended properties of retrieved messages |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
 ### See Also
 
@@ -28,10 +44,21 @@ public Task<ExchangeMessageInfoCollection> ListMessagesAsync(string folder, stri
 
 ## IAsyncEwsClient.ListMessagesAsync method (2 of 2)
 
+List the messages in the specified folder.
+
 ```csharp
 public Task<ExchangeMessageInfoCollection> ListMessagesAsync(IEnumerable<string> ids, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ids | IEnumerable`1 | Enumeration of message ids |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages with.
 
 ### See Also
 

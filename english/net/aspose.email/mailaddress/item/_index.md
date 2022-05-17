@@ -14,9 +14,9 @@ Gets the element at the specified index.
 public MailAddress this[int i] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| i |  | The zero-based index of the element to get or set. |
+| Parameter | Description |
+| --- | --- |
+| i | The zero-based index of the element to get or set. |
 
 ## Return Value
 

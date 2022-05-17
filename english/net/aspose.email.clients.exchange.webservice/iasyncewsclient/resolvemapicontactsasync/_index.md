@@ -8,10 +8,21 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/resolvemapico
 ---
 ## IAsyncEwsClient.ResolveMapiContactsAsync method
 
+Resolves ambiguous e-mail addresses and display names Note: the maximum count of returned contacts is 100. This is a restriction of used EWS operation.
+
 ```csharp
 public Task<MapiContactCollection> ResolveMapiContactsAsync(string unresolvedEntry, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| unresolvedEntry | String | A name of contact to resolve |
+| cancellationToken | CancellationToken | The cancellation token |
+
+## Return Value
+
+A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contacts information
 
 ### See Also
 

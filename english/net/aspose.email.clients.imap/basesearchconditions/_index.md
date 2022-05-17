@@ -3,7 +3,7 @@ title: BaseSearchConditions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14650
+weight: 16190
 url: /net/aspose.email.clients.imap/basesearchconditions/
 ---
 ## BaseSearchConditions class

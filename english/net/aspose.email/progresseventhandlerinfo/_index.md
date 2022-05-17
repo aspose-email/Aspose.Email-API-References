@@ -3,7 +3,7 @@ title: ProgressEventHandlerInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18040
+weight: 19690
 url: /net/aspose.email/progresseventhandlerinfo/
 ---
 ## ProgressEventHandlerInfo class

@@ -11,6 +11,27 @@ url: /net/aspose.email.clients.imap/imapclient/movefolder/
 Moves specified folder and its subfolders to new location.
 
 ```csharp
+public void MoveFolder(string newParentFolder, string folderName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newParentFolder | String | New location for moved folder |
+| folderName | String | Folder to move |
+
+### See Also
+
+* class [ImapClient](../../imapclient)
+* namespace [Aspose.Email.Clients.Imap](../../imapclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ImapClient.MoveFolder method (2 of 2)
+
+Moves specified folder and its subfolders to new location.
+
+```csharp
 public void MoveFolder(IConnection connection, string newParentFolder, string folderName)
 ```
 
@@ -23,27 +44,6 @@ public void MoveFolder(IConnection connection, string newParentFolder, string fo
 ### See Also
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* namespace [Aspose.Email.Clients.Imap](../../imapclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## ImapClient.MoveFolder method (2 of 2)
-
-Moves specified folder and its subfolders to new location.
-
-```csharp
-public void MoveFolder(string newParentFolder, string folderName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newParentFolder | String | New location for moved folder |
-| folderName | String | Folder to move |
-
-### See Also
-
 * class [ImapClient](../../imapclient)
 * namespace [Aspose.Email.Clients.Imap](../../imapclient)
 * assembly [Aspose.Email](../../../)

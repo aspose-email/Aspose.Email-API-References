@@ -3,7 +3,7 @@ title: NotebookLinks
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14470
+weight: 16010
 url: /net/aspose.email.clients.graph/notebooklinks/
 ---
 ## NotebookLinks class

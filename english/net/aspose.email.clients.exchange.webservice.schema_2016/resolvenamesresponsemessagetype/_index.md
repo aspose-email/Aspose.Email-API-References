@@ -3,7 +3,7 @@ title: ResolveNamesResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11390
+weight: 12930
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/resolvenamesresponsemessagetype/
 ---
 ## ResolveNamesResponseMessageType class

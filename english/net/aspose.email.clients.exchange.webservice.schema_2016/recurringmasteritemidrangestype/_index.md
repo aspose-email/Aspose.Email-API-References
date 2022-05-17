@@ -3,7 +3,7 @@ title: RecurringMasterItemIdRangesType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10840
+weight: 12380
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/recurringmasteritemidrangestype/
 ---
 ## RecurringMasterItemIdRangesType class

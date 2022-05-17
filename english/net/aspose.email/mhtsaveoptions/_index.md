@@ -3,7 +3,7 @@ title: MhtSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17280
+weight: 18880
 url: /net/aspose.email/mhtsaveoptions/
 ---
 ## MhtSaveOptions class

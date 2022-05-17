@@ -3,7 +3,7 @@ title: ProtectionRuleAndType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10660
+weight: 12200
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/protectionruleandtype/
 ---
 ## ProtectionRuleAndType class

@@ -3,7 +3,7 @@ title: ComparisonFieldAdapter
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1580
+weight: 3120
 url: /net/aspose.email.clients.exchange/comparisonfieldadapter/
 ---
 ## ComparisonFieldAdapter class

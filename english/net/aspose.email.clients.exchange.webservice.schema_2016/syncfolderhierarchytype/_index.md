@@ -3,7 +3,7 @@ title: SyncFolderHierarchyType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12850
+weight: 14390
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchytype/
 ---
 ## SyncFolderHierarchyType class

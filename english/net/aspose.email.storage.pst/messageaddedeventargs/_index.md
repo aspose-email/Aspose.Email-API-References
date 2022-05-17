@@ -3,7 +3,7 @@ title: MessageAddedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18360
+weight: 20010
 url: /net/aspose.email.storage.pst/messageaddedeventargs/
 ---
 ## MessageAddedEventArgs class

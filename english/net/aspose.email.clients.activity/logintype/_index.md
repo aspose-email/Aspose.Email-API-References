@@ -3,7 +3,7 @@ title: LoginType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1150
+weight: 2600
 url: /net/aspose.email.clients.activity/logintype/
 ---
 ## LoginType enumeration

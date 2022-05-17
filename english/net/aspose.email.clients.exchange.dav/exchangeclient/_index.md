@@ -3,7 +3,7 @@ title: ExchangeClient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1610
+weight: 3150
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/
 ---
 ## ExchangeClient class

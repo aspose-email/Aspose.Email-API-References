@@ -3,7 +3,7 @@ title: GetConversationItemsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6960
+weight: 8500
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/
 ---
 ## GetConversationItemsType class

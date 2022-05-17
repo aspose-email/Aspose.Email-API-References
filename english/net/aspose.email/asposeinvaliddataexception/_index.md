@@ -3,7 +3,7 @@ title: AsposeInvalidDataException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 310
 url: /net/aspose.email/asposeinvaliddataexception/
 ---
 ## AsposeInvalidDataException class

@@ -3,7 +3,7 @@ title: MapiTaskOwnership
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16920
+weight: 18520
 url: /net/aspose.email.mapi/mapitaskownership/
 ---
 ## MapiTaskOwnership enumeration

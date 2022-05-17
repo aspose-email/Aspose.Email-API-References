@@ -3,7 +3,7 @@ title: UnsubscribeCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13270
+weight: 14810
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/unsubscribecompletedeventargs/
 ---
 ## UnsubscribeCompletedEventArgs class

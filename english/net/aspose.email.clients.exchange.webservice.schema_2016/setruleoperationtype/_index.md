@@ -3,7 +3,7 @@ title: SetRuleOperationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12300
+weight: 13840
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/setruleoperationtype/
 ---
 ## SetRuleOperationType class

@@ -3,7 +3,7 @@ title: GetRoomsCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7880
+weight: 9420
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getroomscompletedeventargs/
 ---
 ## GetRoomsCompletedEventArgs class

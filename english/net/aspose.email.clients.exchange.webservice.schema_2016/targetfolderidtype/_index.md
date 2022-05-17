@@ -3,7 +3,7 @@ title: TargetFolderIdType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12960
+weight: 14500
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/targetfolderidtype/
 ---
 ## TargetFolderIdType class

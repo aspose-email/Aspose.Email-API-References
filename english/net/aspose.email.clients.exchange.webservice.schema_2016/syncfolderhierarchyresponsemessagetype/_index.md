@@ -3,7 +3,7 @@ title: SyncFolderHierarchyResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12830
+weight: 14370
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchyresponsemessagetype/
 ---
 ## SyncFolderHierarchyResponseMessageType class

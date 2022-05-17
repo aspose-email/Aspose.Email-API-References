@@ -8,9 +8,25 @@ url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchitems/
 ---
 ## IEWSClient.FetchItems method
 
+Retrieves the items.
+
 ```csharp
 public IEnumerable<MapiMessage> FetchItems(EwsFetchItems options)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | EwsFetchItems | The [`EwsFetchItems`](../../../aspose.email.clients.exchange.webservice.models/ewsfetchitems) options allowing to customize the fetch method behavior. |
+
+## Return Value
+
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage) object.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | The item URI is null or empty. |
 
 ### See Also
 

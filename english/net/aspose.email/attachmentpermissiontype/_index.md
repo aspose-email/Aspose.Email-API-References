@@ -3,7 +3,7 @@ title: AttachmentPermissionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 380
 url: /net/aspose.email/attachmentpermissiontype/
 ---
 ## AttachmentPermissionType enumeration

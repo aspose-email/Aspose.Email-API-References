@@ -3,7 +3,7 @@ title: ItemsChoiceType4
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9080
+weight: 10620
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/itemschoicetype4/
 ---
 ## ItemsChoiceType4 enumeration

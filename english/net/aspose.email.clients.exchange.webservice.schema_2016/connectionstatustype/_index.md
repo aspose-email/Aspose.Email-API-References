@@ -3,7 +3,7 @@ title: ConnectionStatusType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3950
+weight: 5490
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/connectionstatustype/
 ---
 ## ConnectionStatusType enumeration

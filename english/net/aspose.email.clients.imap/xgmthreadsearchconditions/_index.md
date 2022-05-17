@@ -3,7 +3,7 @@ title: XGMThreadSearchConditions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15090
+weight: 16640
 url: /net/aspose.email.clients.imap/xgmthreadsearchconditions/
 ---
 ## XGMThreadSearchConditions class

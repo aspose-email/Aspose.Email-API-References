@@ -3,7 +3,7 @@ title: ItemMovedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18330
+weight: 19980
 url: /net/aspose.email.storage.pst/itemmovedeventhandler/
 ---
 ## ItemMovedEventHandler delegate

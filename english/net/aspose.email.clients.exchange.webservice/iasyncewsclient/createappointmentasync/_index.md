@@ -8,10 +8,22 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createappoint
 ---
 ## IAsyncEwsClient.CreateAppointmentAsync method
 
+Creates appointment.
+
 ```csharp
 public Task<string> CreateAppointmentAsync(Appointment appointment, string folderUri = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| appointment | Appointment | Calendar appointment. |
+| folderUri | String | An uri of appointments parent folder. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Returns appointment UID
 
 ### See Also
 

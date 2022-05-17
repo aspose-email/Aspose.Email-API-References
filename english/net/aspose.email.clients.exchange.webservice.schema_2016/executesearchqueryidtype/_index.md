@@ -3,7 +3,7 @@ title: ExecuteSearchQueryIdType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5820
+weight: 7360
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/executesearchqueryidtype/
 ---
 ## ExecuteSearchQueryIdType class

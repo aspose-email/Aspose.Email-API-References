@@ -3,7 +3,7 @@ title: AutodiscoverRedirectionUrlValidationCallback
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1520
+weight: 3060
 url: /net/aspose.email.clients.exchange/autodiscoverredirectionurlvalidationcallback/
 ---
 ## AutodiscoverRedirectionUrlValidationCallback delegate

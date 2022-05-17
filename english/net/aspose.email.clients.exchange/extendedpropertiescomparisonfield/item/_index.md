@@ -14,9 +14,9 @@ Gets [`ComparisonFieldAdapter`](../../comparisonfieldadapter) for [`PropertyDesc
 public ComparisonFieldAdapter this[PropertyDescriptor pd] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pd |  | [`PropertyDescriptor`](../../../aspose.email.mapi/propertydescriptor) |
+| Parameter | Description |
+| --- | --- |
+| pd | [`PropertyDescriptor`](../../../aspose.email.mapi/propertydescriptor) |
 
 ## Return Value
 

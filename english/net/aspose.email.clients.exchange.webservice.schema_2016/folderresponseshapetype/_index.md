@@ -3,7 +3,7 @@ title: FolderResponseShapeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6670
+weight: 8210
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/folderresponseshapetype/
 ---
 ## FolderResponseShapeType class

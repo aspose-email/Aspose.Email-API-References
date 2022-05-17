@@ -3,7 +3,7 @@ title: RemoveImContactFromGroupCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11160
+weight: 12700
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/removeimcontactfromgroupcompletedeventargs/
 ---
 ## RemoveImContactFromGroupCompletedEventArgs class

@@ -3,7 +3,7 @@ title: AttachmentIdType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3380
+weight: 4920
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/attachmentidtype/
 ---
 ## AttachmentIdType class

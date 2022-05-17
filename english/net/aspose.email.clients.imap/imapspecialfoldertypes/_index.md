@@ -3,7 +3,7 @@ title: ImapSpecialFolderTypes
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14920
+weight: 16460
 url: /net/aspose.email.clients.imap/imapspecialfoldertypes/
 ---
 ## ImapSpecialFolderTypes enumeration

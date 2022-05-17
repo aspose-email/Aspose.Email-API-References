@@ -3,7 +3,7 @@ title: SocksProxy
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15380
+weight: 16930
 url: /net/aspose.email.clients/socksproxy/
 ---
 ## SocksProxy class

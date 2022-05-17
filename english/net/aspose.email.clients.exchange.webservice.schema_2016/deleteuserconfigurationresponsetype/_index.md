@@ -3,7 +3,7 @@ title: DeleteUserConfigurationResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5170
+weight: 6710
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deleteuserconfigurationresponsetype/
 ---
 ## DeleteUserConfigurationResponseType class

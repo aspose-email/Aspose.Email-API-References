@@ -3,7 +3,7 @@ title: MapiCalendarBusyStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16160
+weight: 17760
 url: /net/aspose.email.mapi/mapicalendarbusystatus/
 ---
 ## MapiCalendarBusyStatus enumeration

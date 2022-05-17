@@ -3,7 +3,7 @@ title: MapiContactPhoto
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16480
+weight: 18080
 url: /net/aspose.email.mapi/mapicontactphoto/
 ---
 ## MapiContactPhoto class

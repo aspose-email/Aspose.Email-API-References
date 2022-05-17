@@ -3,7 +3,7 @@ title: CalendarReader
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 590
 url: /net/aspose.email.calendar/calendarreader/
 ---
 ## CalendarReader class

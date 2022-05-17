@@ -3,7 +3,7 @@ title: FileAccessViolationException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16020
+weight: 17620
 url: /net/aspose.email.mapi/fileaccessviolationexception/
 ---
 ## FileAccessViolationException class

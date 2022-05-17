@@ -3,7 +3,7 @@ title: IGraphClient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14390
+weight: 15930
 url: /net/aspose.email.clients.graph/igraphclient/
 ---
 ## IGraphClient interface

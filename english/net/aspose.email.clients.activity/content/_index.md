@@ -3,7 +3,7 @@ title: Content
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 950
+weight: 2400
 url: /net/aspose.email.clients.activity/content/
 ---
 ## Content class

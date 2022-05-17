@@ -3,7 +3,7 @@ title: Pop3ListFields
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15210
+weight: 16760
 url: /net/aspose.email.clients.pop3/pop3listfields/
 ---
 ## Pop3ListFields enumeration

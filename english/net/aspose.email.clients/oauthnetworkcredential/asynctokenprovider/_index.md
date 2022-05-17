@@ -8,6 +8,8 @@ url: /net/aspose.email.clients/oauthnetworkcredential/asynctokenprovider/
 ---
 ## OAuthNetworkCredential.AsyncTokenProvider property
 
+Gets the async token provider.
+
 ```csharp
 public IAsyncTokenProvider AsyncTokenProvider { get; }
 ```

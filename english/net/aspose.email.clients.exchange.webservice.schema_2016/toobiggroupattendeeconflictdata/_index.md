@@ -3,7 +3,7 @@ title: TooBigGroupAttendeeConflictData
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13100
+weight: 14640
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/toobiggroupattendeeconflictdata/
 ---
 ## TooBigGroupAttendeeConflictData class

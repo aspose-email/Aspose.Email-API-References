@@ -3,7 +3,7 @@ title: AutodiscoverErrorCode
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1510
+weight: 3050
 url: /net/aspose.email.clients.exchange/autodiscovererrorcode/
 ---
 ## AutodiscoverErrorCode enumeration

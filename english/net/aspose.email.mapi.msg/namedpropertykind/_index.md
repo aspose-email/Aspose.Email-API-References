@@ -3,7 +3,7 @@ title: NamedPropertyKind
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17120
+weight: 18720
 url: /net/aspose.email.mapi.msg/namedpropertykind/
 ---
 ## NamedPropertyKind enumeration

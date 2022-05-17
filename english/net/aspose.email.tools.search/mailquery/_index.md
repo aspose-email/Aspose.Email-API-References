@@ -3,7 +3,7 @@ title: MailQuery
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18870
+weight: 20520
 url: /net/aspose.email.tools.search/mailquery/
 ---
 ## MailQuery class

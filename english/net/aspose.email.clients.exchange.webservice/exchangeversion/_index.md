@@ -3,7 +3,7 @@ title: ExchangeVersion
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2370
+weight: 3910
 url: /net/aspose.email.clients.exchange.webservice/exchangeversion/
 ---
 ## ExchangeVersion enumeration

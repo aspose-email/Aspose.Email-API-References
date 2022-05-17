@@ -8,9 +8,15 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsa
 ---
 ## IAsyncEwsClient.ArchiveItemsAsync method
 
+The ArchiveItem operation moves an item into the mailbox user's archive mailbox.
+
 ```csharp
 public Task ArchiveItemsAsync(EwsArchiveItems ewsArchiveItems)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ewsArchiveItems | EwsArchiveItems | The parameter set. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: MailTipsServiceConfiguration
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9200
+weight: 10740
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mailtipsserviceconfiguration/
 ---
 ## MailTipsServiceConfiguration class

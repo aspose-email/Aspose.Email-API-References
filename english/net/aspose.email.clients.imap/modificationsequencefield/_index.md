@@ -3,7 +3,7 @@ title: ModificationSequenceField
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14970
+weight: 16510
 url: /net/aspose.email.clients.imap/modificationsequencefield/
 ---
 ## ModificationSequenceField class

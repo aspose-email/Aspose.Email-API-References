@@ -3,7 +3,7 @@ title: RecurrenceRuleCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 760
+weight: 780
 url: /net/aspose.email.calendar.recurrences/recurrencerulecollection/
 ---
 ## RecurrenceRuleCollection class

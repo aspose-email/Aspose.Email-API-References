@@ -3,7 +3,7 @@ title: SyncFolderItemsCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12870
+weight: 14410
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemscompletedeventargs/
 ---
 ## SyncFolderItemsCompletedEventArgs class

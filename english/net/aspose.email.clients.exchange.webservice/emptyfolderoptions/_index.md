@@ -3,7 +3,7 @@ title: EmptyFolderOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2150
+weight: 3690
 url: /net/aspose.email.clients.exchange.webservice/emptyfolderoptions/
 ---
 ## EmptyFolderOptions enumeration

@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 880
+weight: 900
 url: /net/aspose.email.calendar/task/
 ---
 ## Task class

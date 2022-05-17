@@ -3,7 +3,7 @@ title: MessageFormat
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17250
+weight: 18850
 url: /net/aspose.email/messageformat/
 ---
 ## MessageFormat class

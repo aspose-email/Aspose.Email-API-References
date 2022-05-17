@@ -3,7 +3,7 @@ title: TentativelyAcceptItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13040
+weight: 14580
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/tentativelyacceptitemtype/
 ---
 ## TentativelyAcceptItemType class

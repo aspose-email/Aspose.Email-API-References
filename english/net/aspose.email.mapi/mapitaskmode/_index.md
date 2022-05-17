@@ -3,7 +3,7 @@ title: MapiTaskMode
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16910
+weight: 18510
 url: /net/aspose.email.mapi/mapitaskmode/
 ---
 ## MapiTaskMode enumeration

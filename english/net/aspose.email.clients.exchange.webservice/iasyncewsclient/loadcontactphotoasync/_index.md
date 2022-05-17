@@ -8,9 +8,16 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/loadcontactph
 ---
 ## IAsyncEwsClient.LoadContactPhotoAsync method
 
+Loads contact photo binary data
+
 ```csharp
 public Task LoadContactPhotoAsync(ContactPhoto photo, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| photo | ContactPhoto | contact photo |
+| cancellationToken | CancellationToken | The cancellation token. |
 
 ### See Also
 

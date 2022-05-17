@@ -3,7 +3,7 @@ title: ContainmentComparisonType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4050
+weight: 5590
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/containmentcomparisontype/
 ---
 ## ContainmentComparisonType enumeration

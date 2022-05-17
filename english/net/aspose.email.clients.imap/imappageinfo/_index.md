@@ -3,7 +3,7 @@ title: ImapPageInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14880
+weight: 16420
 url: /net/aspose.email.clients.imap/imappageinfo/
 ---
 ## ImapPageInfo class

@@ -3,7 +3,7 @@ title: IMultipleServicesTokenProvider
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14610
+weight: 16150
 url: /net/aspose.email.clients/imultipleservicestokenprovider/
 ---
 ## IMultipleServicesTokenProvider interface

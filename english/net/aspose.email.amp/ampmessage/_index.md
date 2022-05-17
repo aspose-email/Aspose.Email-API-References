@@ -3,7 +3,7 @@ title: AmpMessage
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.email.amp/ampmessage/
 ---
 ## AmpMessage class

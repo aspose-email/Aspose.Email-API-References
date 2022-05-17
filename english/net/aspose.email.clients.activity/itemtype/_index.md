@@ -3,7 +3,7 @@ title: ItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1140
+weight: 2590
 url: /net/aspose.email.clients.activity/itemtype/
 ---
 ## ItemType enumeration

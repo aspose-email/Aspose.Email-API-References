@@ -3,7 +3,7 @@ title: GetLastPrivateCatalogUpdateCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7370
+weight: 8910
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getlastprivatecatalogupdatecompletedeventhandler/
 ---
 ## GetLastPrivateCatalogUpdateCompletedEventHandler delegate

@@ -3,7 +3,7 @@ title: FindPeopleResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6500
+weight: 8040
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findpeopleresponsemessagetype/
 ---
 ## FindPeopleResponseMessageType class

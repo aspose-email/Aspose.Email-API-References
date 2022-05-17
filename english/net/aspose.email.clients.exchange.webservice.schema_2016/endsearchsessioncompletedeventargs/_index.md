@@ -3,7 +3,7 @@ title: EndSearchSessionCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5680
+weight: 7220
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/endsearchsessioncompletedeventargs/
 ---
 ## EndSearchSessionCompletedEventArgs class

@@ -3,7 +3,7 @@ title: TokenType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15430
+weight: 16980
 url: /net/aspose.email.clients/tokentype/
 ---
 ## TokenType enumeration

@@ -3,7 +3,7 @@ title: ImapQuotaRoot
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14910
+weight: 16450
 url: /net/aspose.email.clients.imap/imapquotaroot/
 ---
 ## ImapQuotaRoot class

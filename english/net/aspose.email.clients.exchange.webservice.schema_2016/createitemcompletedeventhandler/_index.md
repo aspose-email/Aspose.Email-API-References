@@ -3,7 +3,7 @@ title: CreateItemCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4490
+weight: 6030
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createitemcompletedeventhandler/
 ---
 ## CreateItemCompletedEventHandler delegate

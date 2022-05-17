@@ -3,7 +3,7 @@ title: OnenoteOperation
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14480
+weight: 16020
 url: /net/aspose.email.clients.graph/onenoteoperation/
 ---
 ## OnenoteOperation class

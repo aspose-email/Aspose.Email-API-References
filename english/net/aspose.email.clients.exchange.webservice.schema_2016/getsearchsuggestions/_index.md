@@ -3,7 +3,7 @@ title: GetSearchSuggestions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7920
+weight: 9460
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/
 ---
 ## GetSearchSuggestions class

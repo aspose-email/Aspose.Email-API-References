@@ -3,7 +3,7 @@ title: PolicyNudgeRulesServiceConfiguration
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10490
+weight: 12030
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/policynudgerulesserviceconfiguration/
 ---
 ## PolicyNudgeRulesServiceConfiguration class

@@ -8,10 +8,22 @@ url: /net/aspose.email.clients.imap/imapclient/changemessageflagsasync/
 ---
 ## ImapClient.ChangeMessageFlagsAsync method (1 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of the message |
+| flags | ImapMessageFlags | The flags to be removed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -24,10 +36,23 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 ## ImapClient.ChangeMessageFlagsAsync method (2 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, 
     ImapMessageFlags flags, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The uid of the message |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -41,10 +66,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId,
 
 ## ImapClient.ChangeMessageFlagsAsync method (3 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber, 
     ImapMessageFlags flags, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of the message |
+| flags | ImapMessageFlags | The flags to be removed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -58,10 +96,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 ## ImapClient.ChangeMessageFlagsAsync method (4 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, 
     long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The uid of the message |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -74,10 +125,23 @@ public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 
 ## ImapClient.ChangeMessageFlagsAsync method (5 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags, 
     long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of the message |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -90,10 +154,24 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 ## ImapClient.ChangeMessageFlagsAsync method (6 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, 
     ImapMessageFlags flags, long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The uid of the message |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -107,10 +185,24 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId,
 
 ## ImapClient.ChangeMessageFlagsAsync method (7 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber, 
     ImapMessageFlags flags, long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of the message |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -124,10 +216,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 ## ImapClient.ChangeMessageFlagsAsync method (8 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageFlags flags, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -140,10 +245,23 @@ public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 ## ImapClient.ChangeMessageFlagsAsync method (9 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMessageFlags flags, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| flags | ImapMessageFlags | The flags to be removed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -156,10 +274,24 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## ImapClient.ChangeMessageFlagsAsync method (10 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
     ImapMessageFlags flags, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -173,10 +305,24 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## ImapClient.ChangeMessageFlagsAsync method (11 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
     ImapMessageFlags flags, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| flags | ImapMessageFlags | The flags to be removed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -190,10 +336,24 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, i
 
 ## ImapClient.ChangeMessageFlagsAsync method (12 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageFlags flags, 
     long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -206,10 +366,24 @@ public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 ## ImapClient.ChangeMessageFlagsAsync method (13 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMessageFlags flags, 
     long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -222,10 +396,25 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## ImapClient.ChangeMessageFlagsAsync method (14 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
     ImapMessageFlags flags, long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -239,10 +428,25 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## ImapClient.ChangeMessageFlagsAsync method (15 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
     ImapMessageFlags flags, long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -256,10 +460,22 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, i
 
 ## ImapClient.ChangeMessageFlagsAsync method (16 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags flags, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -272,10 +488,22 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 ## ImapClient.ChangeMessageFlagsAsync method (17 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -288,10 +516,23 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## ImapClient.ChangeMessageFlagsAsync method (18 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
     ImapMessageFlags flags, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -305,10 +546,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## ImapClient.ChangeMessageFlagsAsync method (19 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
     ImapMessageFlags flags, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -322,10 +576,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 
 ## ImapClient.ChangeMessageFlagsAsync method (20 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags flags, 
     long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -338,10 +605,23 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 ## ImapClient.ChangeMessageFlagsAsync method (21 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
     long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -354,10 +634,24 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## ImapClient.ChangeMessageFlagsAsync method (22 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
     ImapMessageFlags flags, long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -371,10 +665,24 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## ImapClient.ChangeMessageFlagsAsync method (23 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
     ImapMessageFlags flags, long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -388,10 +696,22 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 
 ## ImapClient.ChangeMessageFlagsAsync method (24 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet, 
     ImapMessageFlags flags, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -405,10 +725,23 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## ImapClient.ChangeMessageFlagsAsync method (25 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, 
     IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -423,10 +756,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection,
 
 ## ImapClient.ChangeMessageFlagsAsync method (26 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet, 
     ImapMessageFlags flags, long modificationSequence, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -440,11 +786,25 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## ImapClient.ChangeMessageFlagsAsync method (27 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, 
     IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -459,9 +819,20 @@ public Task ChangeMessageFlagsAsync(IConnection connection,
 
 ## ImapClient.ChangeMessageFlagsAsync method (28 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The uid of the message |
+| flags | ImapMessageFlags | The flags to be changed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -474,9 +845,20 @@ public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags)
 
 ## ImapClient.ChangeMessageFlagsAsync method (29 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of the message |
+| flags | ImapMessageFlags | The flags to be removed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -489,9 +871,21 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags)
 
 ## ImapClient.ChangeMessageFlagsAsync method (30 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The uid of the message |
+| flags | ImapMessageFlags | The flags to be changed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -505,10 +899,22 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, Ima
 
 ## ImapClient.ChangeMessageFlagsAsync method (31 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber, 
     ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of the message |
+| flags | ImapMessageFlags | The flags to be removed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -522,10 +928,22 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 ## ImapClient.ChangeMessageFlagsAsync method (32 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, 
     long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The uid of the message |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -538,10 +956,22 @@ public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 
 ## ImapClient.ChangeMessageFlagsAsync method (33 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags, 
     long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of the message |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -554,10 +984,23 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 ## ImapClient.ChangeMessageFlagsAsync method (34 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, 
     ImapMessageFlags flags, long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uniqueId | String | The uid of the message |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -571,10 +1014,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId,
 
 ## ImapClient.ChangeMessageFlagsAsync method (35 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber, 
     ImapMessageFlags flags, long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of the message |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -588,9 +1044,21 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 ## ImapClient.ChangeMessageFlagsAsync method (36 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| flags | ImapMessageFlags | The flags to be changed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -603,9 +1071,21 @@ public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 ## ImapClient.ChangeMessageFlagsAsync method (37 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| flags | ImapMessageFlags | The flags to be removed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -618,10 +1098,23 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## ImapClient.ChangeMessageFlagsAsync method (38 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
     ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| flags | ImapMessageFlags | The flags to be changed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -635,10 +1128,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## ImapClient.ChangeMessageFlagsAsync method (39 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
     ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| flags | ImapMessageFlags | The flags to be removed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -652,10 +1158,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, i
 
 ## ImapClient.ChangeMessageFlagsAsync method (40 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageFlags flags, 
     long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -668,10 +1187,23 @@ public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 ## ImapClient.ChangeMessageFlagsAsync method (41 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMessageFlags flags, 
     long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -684,10 +1216,24 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## ImapClient.ChangeMessageFlagsAsync method (42 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
     ImapMessageFlags flags, long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startUid | String | The starting UID of a message list |
+| endUid | String | The ending UID of a message list |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -701,10 +1247,24 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## ImapClient.ChangeMessageFlagsAsync method (43 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
     ImapMessageFlags flags, long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| startSequence | Int32 | The starting sequence number of a message list |
+| endSequence | Int32 | The ending sequence number of a message list |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -718,9 +1278,20 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, i
 
 ## ImapClient.ChangeMessageFlagsAsync method (44 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -733,9 +1304,20 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 ## ImapClient.ChangeMessageFlagsAsync method (45 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -748,10 +1330,22 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## ImapClient.ChangeMessageFlagsAsync method (46 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
     ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -765,10 +1359,22 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## ImapClient.ChangeMessageFlagsAsync method (47 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
     ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -782,10 +1388,22 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 
 ## ImapClient.ChangeMessageFlagsAsync method (48 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags flags, 
     long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -798,10 +1416,22 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 ## ImapClient.ChangeMessageFlagsAsync method (49 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
     long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -814,10 +1444,23 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## ImapClient.ChangeMessageFlagsAsync method (50 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
     ImapMessageFlags flags, long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| uidSet | IEnumerable`1 | The set of UID for messages |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -831,10 +1474,23 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## ImapClient.ChangeMessageFlagsAsync method (51 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
     ImapMessageFlags flags, long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
+| flags | ImapMessageFlags | The flags to be removed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -848,10 +1504,21 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 
 ## ImapClient.ChangeMessageFlagsAsync method (52 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet, 
     ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -865,10 +1532,22 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## ImapClient.ChangeMessageFlagsAsync method (53 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, 
     IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -883,10 +1562,22 @@ public Task ChangeMessageFlagsAsync(IConnection connection,
 
 ## ImapClient.ChangeMessageFlagsAsync method (54 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet, 
     ImapMessageFlags flags, long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -900,10 +1591,23 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## ImapClient.ChangeMessageFlagsAsync method (55 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, 
     IEnumerable<ImapMessageInfo> messageInfoSet, ImapMessageFlags flags, long modificationSequence)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
+| flags | ImapMessageFlags | The flags to be changed |
+| modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -918,10 +1622,22 @@ public Task ChangeMessageFlagsAsync(IConnection connection,
 
 ## ImapClient.ChangeMessageFlagsAsync method (56 of 56)
 
+Changes the flags of the message
+
 ```csharp
 public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uniqueId | String | The uid of the message |
+| flags | ImapMessageFlags | The flags to be changed |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: CreateOrUpdateFocusedOtherOverrideRequestType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4640
+weight: 6180
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createorupdatefocusedotheroverriderequesttype/
 ---
 ## CreateOrUpdateFocusedOtherOverrideRequestType class

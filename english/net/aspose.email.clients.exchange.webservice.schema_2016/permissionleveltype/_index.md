@@ -3,7 +3,7 @@ title: PermissionLevelType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10250
+weight: 11790
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/permissionleveltype/
 ---
 ## PermissionLevelType enumeration

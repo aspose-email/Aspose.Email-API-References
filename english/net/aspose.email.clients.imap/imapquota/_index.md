@@ -3,7 +3,7 @@ title: ImapQuota
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14900
+weight: 16440
 url: /net/aspose.email.clients.imap/imapquota/
 ---
 ## ImapQuota class

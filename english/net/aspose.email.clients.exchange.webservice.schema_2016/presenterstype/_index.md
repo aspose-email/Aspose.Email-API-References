@@ -3,7 +3,7 @@ title: PresentersType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10550
+weight: 12090
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/presenterstype/
 ---
 ## PresentersType enumeration

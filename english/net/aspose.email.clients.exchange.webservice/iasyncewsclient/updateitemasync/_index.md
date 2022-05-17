@@ -8,9 +8,15 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasy
 ---
 ## IAsyncEwsClient.UpdateItemAsync method
 
+Updates the item.
+
 ```csharp
 public Task UpdateItemAsync(EwsUpdateItem parameters)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | EwsUpdateItem | Method parameters |
 
 ### See Also
 

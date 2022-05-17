@@ -3,7 +3,7 @@ title: Colors
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14110
+weight: 15650
 url: /net/aspose.email.clients.google/colors/
 ---
 ## Colors class

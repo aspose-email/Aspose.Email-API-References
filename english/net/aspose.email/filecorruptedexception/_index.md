@@ -3,7 +3,7 @@ title: FileCorruptedException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15680
+weight: 17280
 url: /net/aspose.email/filecorruptedexception/
 ---
 ## FileCorruptedException class

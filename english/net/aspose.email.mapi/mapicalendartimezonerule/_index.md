@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneRule
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16360
+weight: 17960
 url: /net/aspose.email.mapi/mapicalendartimezonerule/
 ---
 ## MapiCalendarTimeZoneRule class

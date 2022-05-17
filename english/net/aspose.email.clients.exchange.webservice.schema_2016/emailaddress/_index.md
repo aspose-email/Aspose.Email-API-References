@@ -3,7 +3,7 @@ title: EmailAddress
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5480
+weight: 7020
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/emailaddress/
 ---
 ## EmailAddress class

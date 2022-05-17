@@ -8,10 +8,20 @@ url: /net/aspose.email.clients.imap/imapclient/listattachmentsasync/
 ---
 ## ImapClient.ListAttachmentsAsync method (1 of 2)
 
+Gets the message attachments list. Gets an information for each attachment in message.
+
 ```csharp
 public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumber, 
     CancellationToken token)
 ```
+
+| Parameter | Description |
+| --- | --- |
+| sequenceNumber | The message sequence number. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -24,9 +34,19 @@ public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumbe
 
 ## ImapClient.ListAttachmentsAsync method (2 of 2)
 
+Gets the message attachments list. Gets an information for each attachment in message.
+
 ```csharp
 public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumber)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The message sequence number. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

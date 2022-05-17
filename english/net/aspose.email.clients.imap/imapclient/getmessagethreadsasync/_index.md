@@ -8,10 +8,21 @@ url: /net/aspose.email.clients.imap/imapclient/getmessagethreadsasync/
 ---
 ## ImapClient.GetMessageThreadsAsync method (1 of 4)
 
+Get message threads.
+
 ```csharp
 public Task<List<MessageThreadResult>> GetMessageThreadsAsync(IConnection connection, 
     BaseSearchConditions conditions)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| conditions | BaseSearchConditions | Thread conditions. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -26,9 +37,19 @@ public Task<List<MessageThreadResult>> GetMessageThreadsAsync(IConnection connec
 
 ## ImapClient.GetMessageThreadsAsync method (2 of 4)
 
+Get message threads.
+
 ```csharp
 public Task<List<MessageThreadResult>> GetMessageThreadsAsync(BaseSearchConditions conditions)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| conditions | BaseSearchConditions | Thread conditions. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -42,10 +63,22 @@ public Task<List<MessageThreadResult>> GetMessageThreadsAsync(BaseSearchConditio
 
 ## ImapClient.GetMessageThreadsAsync method (3 of 4)
 
+Get message threads.
+
 ```csharp
 public Task<List<MessageThreadResult>> GetMessageThreadsAsync(IConnection connection, 
     BaseSearchConditions conditions, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| conditions | BaseSearchConditions | Thread conditions. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -60,10 +93,21 @@ public Task<List<MessageThreadResult>> GetMessageThreadsAsync(IConnection connec
 
 ## ImapClient.GetMessageThreadsAsync method (4 of 4)
 
+Get message threads.
+
 ```csharp
 public Task<List<MessageThreadResult>> GetMessageThreadsAsync(BaseSearchConditions conditions, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| conditions | BaseSearchConditions | Thread conditions. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

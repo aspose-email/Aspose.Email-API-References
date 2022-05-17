@@ -3,7 +3,7 @@ title: GetNonIndexableItemStatisticsCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7610
+weight: 9150
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemstatisticscompletedeventhandler/
 ---
 ## GetNonIndexableItemStatisticsCompletedEventHandler delegate

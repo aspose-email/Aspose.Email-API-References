@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17260
+weight: 18860
 url: /net/aspose.email/metered/
 ---
 ## Metered class

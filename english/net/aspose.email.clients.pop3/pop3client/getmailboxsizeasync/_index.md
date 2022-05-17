@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.pop3/pop3client/getmailboxsizeasync/
 ---
 ## Pop3Client.GetMailboxSizeAsync method (1 of 4)
 
+Gets the size of the mailbox
+
 ```csharp
 public Task<long> GetMailboxSizeAsync(IConnection connection)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +33,15 @@ public Task<long> GetMailboxSizeAsync(IConnection connection)
 
 ## Pop3Client.GetMailboxSizeAsync method (2 of 4)
 
+Gets the size of the mailbox
+
 ```csharp
 public Task<long> GetMailboxSizeAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,9 +53,20 @@ public Task<long> GetMailboxSizeAsync()
 
 ## Pop3Client.GetMailboxSizeAsync method (3 of 4)
 
+Gets the size of the mailbox
+
 ```csharp
 public Task<long> GetMailboxSizeAsync(IConnection connection, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -52,9 +79,19 @@ public Task<long> GetMailboxSizeAsync(IConnection connection, CancellationToken 
 
 ## Pop3Client.GetMailboxSizeAsync method (4 of 4)
 
+Gets the size of the mailbox
+
 ```csharp
 public Task<long> GetMailboxSizeAsync(CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: MemberRoleType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1170
+weight: 2620
 url: /net/aspose.email.clients.activity/memberroletype/
 ---
 ## MemberRoleType enumeration

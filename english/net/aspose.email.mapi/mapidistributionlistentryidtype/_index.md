@@ -3,7 +3,7 @@ title: MapiDistributionListEntryIdType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16580
+weight: 18180
 url: /net/aspose.email.mapi/mapidistributionlistentryidtype/
 ---
 ## MapiDistributionListEntryIdType enumeration

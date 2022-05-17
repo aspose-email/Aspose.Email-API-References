@@ -3,7 +3,7 @@ title: CarouselType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 160
 url: /net/aspose.email.amp/carouseltype/
 ---
 ## CarouselType enumeration

@@ -1,9 +1,9 @@
 ---
-title: AutodiscoverResponseCollection<TResponse>
+title: AutodiscoverResponseCollectionTResponse
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1540
+weight: 3080
 url: /net/aspose.email.clients.exchange/autodiscoverresponsecollection-1/
 ---
 ## AutodiscoverResponseCollection&lt;TResponse&gt; class
@@ -16,9 +16,9 @@ public abstract class AutodiscoverResponseCollection<TResponse> : AutodiscoverRe
     where TResponse : AutodiscoverResponse
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| TResponse |  | The type of the responses in the collection. |
+| Parameter | Description |
+| --- | --- |
+| TResponse | The type of the responses in the collection. |
 
 ## Properties
 

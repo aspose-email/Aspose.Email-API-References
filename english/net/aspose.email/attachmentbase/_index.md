@@ -3,7 +3,7 @@ title: AttachmentBase
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 360
 url: /net/aspose.email/attachmentbase/
 ---
 ## AttachmentBase class

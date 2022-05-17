@@ -3,7 +3,7 @@ title: UpdateFolderResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13370
+weight: 14910
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updatefolderresponsetype/
 ---
 ## UpdateFolderResponseType class

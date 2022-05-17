@@ -8,10 +8,25 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/setconversati
 ---
 ## IAsyncEwsClient.SetConversationReadStateAsync method
 
+Set read state of the conversation items, which are located in the specified folder, to the specified value
+
 ```csharp
 public Task SetConversationReadStateAsync(string conversationId, bool isRead = true, 
     string contextFolderId = null, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| conversationId | String | Id of conversation to be changed |
+| isRead | Boolean | A flag that enables setting the read state of items in a conversation. |
+| contextFolderId | String | Id of folder in which conversation items are located. Note: If it's set to null(or empty), all conversation items will be copied |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* is `null` or `empty` |
 
 ### See Also
 

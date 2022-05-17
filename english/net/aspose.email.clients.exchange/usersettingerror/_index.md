@@ -3,7 +3,7 @@ title: UserSettingError
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2050
+weight: 3590
 url: /net/aspose.email.clients.exchange/usersettingerror/
 ---
 ## UserSettingError class

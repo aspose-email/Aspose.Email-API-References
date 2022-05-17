@@ -3,7 +3,7 @@ title: MailMessageCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15950
+weight: 17550
 url: /net/aspose.email/mailmessagecollection/
 ---
 ## MailMessageCollection class

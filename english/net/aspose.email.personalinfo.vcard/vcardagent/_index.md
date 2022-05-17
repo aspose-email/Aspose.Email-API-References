@@ -3,7 +3,7 @@ title: VCardAgent
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17760
+weight: 19360
 url: /net/aspose.email.personalinfo.vcard/vcardagent/
 ---
 ## VCardAgent class

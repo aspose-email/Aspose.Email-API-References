@@ -3,7 +3,7 @@ title: GetSharingFolderCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8100
+weight: 9640
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getsharingfoldercompletedeventhandler/
 ---
 ## GetSharingFolderCompletedEventHandler delegate

@@ -3,7 +3,7 @@ title: ResponseObjectCoreType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11470
+weight: 13010
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/responseobjectcoretype/
 ---
 ## ResponseObjectCoreType class

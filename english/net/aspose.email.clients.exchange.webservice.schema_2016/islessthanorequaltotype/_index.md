@@ -3,7 +3,7 @@ title: IsLessThanOrEqualToType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8900
+weight: 10440
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/islessthanorequaltotype/
 ---
 ## IsLessThanOrEqualToType class

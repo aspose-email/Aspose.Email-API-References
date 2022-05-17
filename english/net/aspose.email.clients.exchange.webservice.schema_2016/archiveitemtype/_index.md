@@ -3,7 +3,7 @@ title: ArchiveItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3260
+weight: 4800
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/archiveitemtype/
 ---
 ## ArchiveItemType class

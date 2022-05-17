@@ -3,7 +3,7 @@ title: IMessageObjectPropertyContainer
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16980
+weight: 18580
 url: /net/aspose.email.mapi.msg/imessageobjectpropertycontainer/
 ---
 ## IMessageObjectPropertyContainer interface

@@ -3,7 +3,7 @@ title: FreebusyGroupInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14180
+weight: 15720
 url: /net/aspose.email.clients.google/freebusygroupinfo/
 ---
 ## FreebusyGroupInfo class

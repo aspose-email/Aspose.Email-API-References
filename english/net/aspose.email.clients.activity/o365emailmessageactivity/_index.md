@@ -3,7 +3,7 @@ title: O365EmailMessageActivity
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1210
+weight: 2660
 url: /net/aspose.email.clients.activity/o365emailmessageactivity/
 ---
 ## O365EmailMessageActivity class

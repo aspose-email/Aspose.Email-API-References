@@ -8,9 +8,20 @@ url: /net/aspose.email.clients.imap/imapclient/getquotarootasync/
 ---
 ## ImapClient.GetQuotaRootAsync method (1 of 4)
 
+Gets quota root information for mailbox
+
 ```csharp
 public Task<ImapQuotaRoot[]> GetQuotaRootAsync(IConnection connection, string mailboxName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| mailboxName | String | mailbox name |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -24,9 +35,19 @@ public Task<ImapQuotaRoot[]> GetQuotaRootAsync(IConnection connection, string ma
 
 ## ImapClient.GetQuotaRootAsync method (2 of 4)
 
+Gets quota root information for mailbox
+
 ```csharp
 public Task<ImapQuotaRoot[]> GetQuotaRootAsync(string mailboxName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mailboxName | String | mailbox name |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -39,10 +60,22 @@ public Task<ImapQuotaRoot[]> GetQuotaRootAsync(string mailboxName)
 
 ## ImapClient.GetQuotaRootAsync method (3 of 4)
 
+Gets quota root information for mailbox
+
 ```csharp
 public Task<ImapQuotaRoot[]> GetQuotaRootAsync(IConnection connection, string mailboxName, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| mailboxName | String | mailbox name |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -56,9 +89,20 @@ public Task<ImapQuotaRoot[]> GetQuotaRootAsync(IConnection connection, string ma
 
 ## ImapClient.GetQuotaRootAsync method (4 of 4)
 
+Gets quota root information for mailbox
+
 ```csharp
 public Task<ImapQuotaRoot[]> GetQuotaRootAsync(string mailboxName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mailboxName | String | mailbox name |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: BuildVersionInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 420
 url: /net/aspose.email/buildversioninfo/
 ---
 ## BuildVersionInfo class

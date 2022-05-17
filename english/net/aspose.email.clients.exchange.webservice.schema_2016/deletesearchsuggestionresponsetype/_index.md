@@ -3,7 +3,7 @@ title: DeleteSearchSuggestionResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5140
+weight: 6680
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestionresponsetype/
 ---
 ## DeleteSearchSuggestionResponseType class

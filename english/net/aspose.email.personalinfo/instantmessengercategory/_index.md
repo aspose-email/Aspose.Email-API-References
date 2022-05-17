@@ -3,7 +3,7 @@ title: InstantMessengerCategory
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17640
+weight: 19240
 url: /net/aspose.email.personalinfo/instantmessengercategory/
 ---
 ## InstantMessengerCategory class

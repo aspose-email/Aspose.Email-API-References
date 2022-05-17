@@ -3,7 +3,7 @@ title: UnpinTeamMailboxRequestType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13250
+weight: 14790
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/unpinteammailboxrequesttype/
 ---
 ## UnpinTeamMailboxRequestType class

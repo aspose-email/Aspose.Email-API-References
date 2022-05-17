@@ -3,7 +3,7 @@ title: SubscribeResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12680
+weight: 14220
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/subscriberesponsetype/
 ---
 ## SubscribeResponseType class

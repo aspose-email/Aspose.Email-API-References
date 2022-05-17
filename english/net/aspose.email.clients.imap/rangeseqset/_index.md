@@ -3,7 +3,7 @@ title: RangeSeqSet
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15000
+weight: 16540
 url: /net/aspose.email.clients.imap/rangeseqset/
 ---
 ## RangeSeqSet class

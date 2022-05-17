@@ -3,7 +3,7 @@ title: ItemQueryTraversalType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9000
+weight: 10540
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/itemquerytraversaltype/
 ---
 ## ItemQueryTraversalType enumeration

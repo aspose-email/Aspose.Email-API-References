@@ -3,7 +3,7 @@ title: ContentInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 960
+weight: 2410
 url: /net/aspose.email.clients.activity/contentinfo/
 ---
 ## ContentInfo class

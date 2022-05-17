@@ -3,7 +3,7 @@ title: GetUserRetentionPolicyTagsCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8450
+weight: 9990
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuserretentionpolicytagscompletedeventargs/
 ---
 ## GetUserRetentionPolicyTagsCompletedEventArgs class

@@ -3,7 +3,7 @@ title: UpdateMeetingSpaceCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13570
+weight: 15110
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updatemeetingspacecompletedeventargs/
 ---
 ## UpdateMeetingSpaceCompletedEventArgs class

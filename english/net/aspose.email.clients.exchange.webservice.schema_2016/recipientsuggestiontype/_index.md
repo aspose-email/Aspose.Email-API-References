@@ -3,7 +3,7 @@ title: RecipientSuggestionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10770
+weight: 12310
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/recipientsuggestiontype/
 ---
 ## RecipientSuggestionType class

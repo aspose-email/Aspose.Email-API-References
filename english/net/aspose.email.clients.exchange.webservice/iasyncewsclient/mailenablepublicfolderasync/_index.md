@@ -8,10 +8,23 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/mailenablepub
 ---
 ## IAsyncEwsClient.MailEnablePublicFolderAsync method
 
+Mail-enable a public folder
+
 ```csharp
 public Task MailEnablePublicFolderAsync(string folderUri, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderUri | String | A folder uri |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* is `null` or `empty` |
 
 ### See Also
 

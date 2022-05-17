@@ -3,7 +3,7 @@ title: TaskRecurrenceType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12980
+weight: 14520
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/taskrecurrencetype/
 ---
 ## TaskRecurrenceType class

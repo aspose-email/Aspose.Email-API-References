@@ -3,7 +3,7 @@ title: UserSettingName
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2060
+weight: 3600
 url: /net/aspose.email.clients.exchange/usersettingname/
 ---
 ## UserSettingName enumeration

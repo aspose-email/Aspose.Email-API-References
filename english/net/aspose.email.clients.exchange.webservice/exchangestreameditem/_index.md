@@ -3,7 +3,7 @@ title: ExchangeStreamedItem
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2280
+weight: 3820
 url: /net/aspose.email.clients.exchange.webservice/exchangestreameditem/
 ---
 ## ExchangeStreamedItem class

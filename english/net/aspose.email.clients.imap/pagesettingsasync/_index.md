@@ -3,7 +3,7 @@ title: PageSettingsAsync
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14990
+weight: 16530
 url: /net/aspose.email.clients.imap/pagesettingsasync/
 ---
 ## PageSettingsAsync class

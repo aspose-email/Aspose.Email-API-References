@@ -3,7 +3,7 @@ title: CustomerEvent
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17550
+weight: 19150
 url: /net/aspose.email.personalinfo/customerevent/
 ---
 ## CustomerEvent class

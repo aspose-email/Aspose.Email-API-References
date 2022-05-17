@@ -3,7 +3,7 @@ title: SetUserOofSettingsCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12350
+weight: 13890
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/setuseroofsettingscompletedeventargs/
 ---
 ## SetUserOofSettingsCompletedEventArgs class

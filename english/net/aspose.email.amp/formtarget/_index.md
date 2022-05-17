@@ -3,7 +3,7 @@ title: FormTarget
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.email.amp/formtarget/
 ---
 ## FormTarget enumeration

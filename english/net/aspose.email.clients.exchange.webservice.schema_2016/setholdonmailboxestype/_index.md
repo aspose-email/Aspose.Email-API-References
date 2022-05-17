@@ -3,7 +3,7 @@ title: SetHoldOnMailboxesType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12180
+weight: 13720
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/
 ---
 ## SetHoldOnMailboxesType class

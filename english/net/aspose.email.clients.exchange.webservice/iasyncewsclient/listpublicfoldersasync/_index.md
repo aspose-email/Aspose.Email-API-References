@@ -8,10 +8,20 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listpublicfol
 ---
 ## IAsyncEwsClient.ListPublicFoldersAsync method
 
+Gets collection of public folders from root public folder
+
 ```csharp
 public Task<ExchangeFolderInfoCollection> ListPublicFoldersAsync(
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) that contains subfolders from the root public folder
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: MailAddress
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15910
+weight: 17510
 url: /net/aspose.email/mailaddress/
 ---
 ## MailAddress class

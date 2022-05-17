@@ -3,7 +3,7 @@ title: AddDistributionGroupToImListType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2770
+weight: 4310
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/adddistributiongrouptoimlisttype/
 ---
 ## AddDistributionGroupToImListType class

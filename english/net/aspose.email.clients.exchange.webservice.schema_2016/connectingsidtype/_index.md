@@ -3,7 +3,7 @@ title: ConnectingSIDType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3930
+weight: 5470
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/connectingsidtype/
 ---
 ## ConnectingSIDType class

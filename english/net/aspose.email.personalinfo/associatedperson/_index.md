@@ -3,7 +3,7 @@ title: AssociatedPerson
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17490
+weight: 19090
 url: /net/aspose.email.personalinfo/associatedperson/
 ---
 ## AssociatedPerson class

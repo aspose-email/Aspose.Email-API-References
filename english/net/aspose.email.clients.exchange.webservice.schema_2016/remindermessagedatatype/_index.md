@@ -3,7 +3,7 @@ title: ReminderMessageDataType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11020
+weight: 12560
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/remindermessagedatatype/
 ---
 ## ReminderMessageDataType class

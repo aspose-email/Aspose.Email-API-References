@@ -3,7 +3,7 @@ title: EmailClient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1480
+weight: 3020
 url: /net/aspose.email.clients/emailclient/
 ---
 ## EmailClient class

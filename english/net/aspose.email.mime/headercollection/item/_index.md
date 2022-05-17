@@ -14,9 +14,9 @@ Gets a value from collection by the name.
 public string this[string name] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The name (key) in collection for an item. |
+| Parameter | Description |
+| --- | --- |
+| name | The name (key) in collection for an item. |
 
 ## Return Value
 
@@ -38,9 +38,9 @@ Gets a value from collection by the index.
 public string this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index in collection for an item. |
+| Parameter | Description |
+| --- | --- |
+| index | The index in collection for an item. |
 
 ## Return Value
 

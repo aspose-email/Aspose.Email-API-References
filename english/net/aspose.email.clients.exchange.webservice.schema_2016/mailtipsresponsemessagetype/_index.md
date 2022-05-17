@@ -3,7 +3,7 @@ title: MailTipsResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9190
+weight: 10730
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mailtipsresponsemessagetype/
 ---
 ## MailTipsResponseMessageType class

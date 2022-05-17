@@ -8,6 +8,36 @@ url: /net/aspose.email.clients.exchange.webservice/iewsclient/listtasks/
 ---
 ## IEWSClient.ListTasks method (1 of 6)
 
+Retrieves lists of exchange tasks.
+
+```csharp
+public TaskCollection ListTasks(string folder, int maxNumberOfItems, MailQuery query, 
+    bool recursive)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folder | String | Tasks folder |
+| maxNumberOfItems | Int32 | Maximum number of items |
+| query | MailQuery | Mail query |
+| recursive | Boolean | Retrieve tasks recursivly |
+
+## Return Value
+
+Tasks collection
+
+### See Also
+
+* class [TaskCollection](../../../aspose.email.calendar/taskcollection)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery)
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## IEWSClient.ListTasks method (2 of 6)
+
 Retrieves lists of exchange tasks for default folder.
 
 ```csharp
@@ -27,7 +57,7 @@ Tasks collection
 
 ---
 
-## IEWSClient.ListTasks method (2 of 6)
+## IEWSClient.ListTasks method (3 of 6)
 
 Retrieves lists of exchange tasks.
 
@@ -52,7 +82,7 @@ Tasks collection
 
 ---
 
-## IEWSClient.ListTasks method (3 of 6)
+## IEWSClient.ListTasks method (4 of 6)
 
 Retrieves lists of exchange tasks.
 
@@ -79,7 +109,7 @@ Tasks collection
 
 ---
 
-## IEWSClient.ListTasks method (4 of 6)
+## IEWSClient.ListTasks method (5 of 6)
 
 Retrieves lists of exchange tasks.
 
@@ -105,7 +135,7 @@ Tasks collection
 
 ---
 
-## IEWSClient.ListTasks method (5 of 6)
+## IEWSClient.ListTasks method (6 of 6)
 
 Retrieves lists of exchange tasks.
 
@@ -118,36 +148,6 @@ public TaskCollection ListTasks(string folder, int maxNumberOfItems, MailQuery q
 | folder | String | Tasks folder |
 | maxNumberOfItems | Int32 | Maximum number of items |
 | query | MailQuery | Mail query |
-
-## Return Value
-
-Tasks collection
-
-### See Also
-
-* class [TaskCollection](../../../aspose.email.calendar/taskcollection)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* interface [IEWSClient](../../iewsclient)
-* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
-* assembly [Aspose.Email](../../../)
-
----
-
-## IEWSClient.ListTasks method (6 of 6)
-
-Retrieves lists of exchange tasks.
-
-```csharp
-public TaskCollection ListTasks(string folder, int maxNumberOfItems, MailQuery query, 
-    bool recursive)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folder | String | Tasks folder |
-| maxNumberOfItems | Int32 | Maximum number of items |
-| query | MailQuery | Mail query |
-| recursive | Boolean | Retrieve tasks recursivly |
 
 ## Return Value
 

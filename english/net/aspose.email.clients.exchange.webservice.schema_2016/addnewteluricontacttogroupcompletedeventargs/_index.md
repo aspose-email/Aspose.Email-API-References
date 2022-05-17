@@ -3,7 +3,7 @@ title: AddNewTelUriContactToGroupCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2920
+weight: 4460
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/addnewteluricontacttogroupcompletedeventargs/
 ---
 ## AddNewTelUriContactToGroupCompletedEventArgs class

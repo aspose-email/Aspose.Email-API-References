@@ -3,7 +3,7 @@ title: RemoveImContactFromGroupResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11180
+weight: 12720
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/removeimcontactfromgroupresponsemessagetype/
 ---
 ## RemoveImContactFromGroupResponseMessageType class

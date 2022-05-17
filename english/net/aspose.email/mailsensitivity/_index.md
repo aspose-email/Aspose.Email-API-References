@@ -3,7 +3,7 @@ title: MailSensitivity
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15980
+weight: 17580
 url: /net/aspose.email/mailsensitivity/
 ---
 ## MailSensitivity enumeration

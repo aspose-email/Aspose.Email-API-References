@@ -3,7 +3,7 @@ title: FollowUpManager
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16030
+weight: 17630
 url: /net/aspose.email.mapi/followupmanager/
 ---
 ## FollowUpManager class

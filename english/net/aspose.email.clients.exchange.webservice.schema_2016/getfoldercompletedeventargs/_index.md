@@ -3,7 +3,7 @@ title: GetFolderCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7120
+weight: 8660
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getfoldercompletedeventargs/
 ---
 ## GetFolderCompletedEventArgs class

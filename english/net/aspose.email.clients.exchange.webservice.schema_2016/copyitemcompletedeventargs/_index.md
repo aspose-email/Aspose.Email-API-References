@@ -3,7 +3,7 @@ title: CopyItemCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4310
+weight: 5850
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/copyitemcompletedeventargs/
 ---
 ## CopyItemCompletedEventArgs class

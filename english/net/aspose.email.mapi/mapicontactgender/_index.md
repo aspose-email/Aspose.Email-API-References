@@ -3,7 +3,7 @@ title: MapiContactGender
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16440
+weight: 18040
 url: /net/aspose.email.mapi/mapicontactgender/
 ---
 ## MapiContactGender enumeration

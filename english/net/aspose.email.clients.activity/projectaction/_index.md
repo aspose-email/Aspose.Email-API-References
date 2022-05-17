@@ -3,7 +3,7 @@ title: ProjectAction
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1250
+weight: 2700
 url: /net/aspose.email.clients.activity/projectaction/
 ---
 ## ProjectAction enumeration

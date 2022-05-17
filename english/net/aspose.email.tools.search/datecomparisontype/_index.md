@@ -3,7 +3,7 @@ title: DateComparisonType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18820
+weight: 20470
 url: /net/aspose.email.tools.search/datecomparisontype/
 ---
 ## DateComparisonType enumeration

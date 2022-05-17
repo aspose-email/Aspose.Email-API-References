@@ -3,7 +3,7 @@ title: GetStreamingEventsCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8220
+weight: 9760
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getstreamingeventscompletedeventargs/
 ---
 ## GetStreamingEventsCompletedEventArgs class

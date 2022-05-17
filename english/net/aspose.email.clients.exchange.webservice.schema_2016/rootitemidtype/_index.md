@@ -3,7 +3,7 @@ title: RootItemIdType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11590
+weight: 13130
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/rootitemidtype/
 ---
 ## RootItemIdType class

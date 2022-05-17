@@ -3,7 +3,7 @@ title: RulePredicates
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2010
+weight: 3550
 url: /net/aspose.email.clients.exchange/rulepredicates/
 ---
 ## RulePredicates class

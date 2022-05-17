@@ -3,7 +3,7 @@ title: AppointmentSaveFormat
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 550
 url: /net/aspose.email.calendar/appointmentsaveformat/
 ---
 ## AppointmentSaveFormat enumeration

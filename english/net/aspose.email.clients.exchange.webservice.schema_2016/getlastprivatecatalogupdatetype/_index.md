@@ -3,7 +3,7 @@ title: GetLastPrivateCatalogUpdateType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7390
+weight: 8930
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getlastprivatecatalogupdatetype/
 ---
 ## GetLastPrivateCatalogUpdateType class

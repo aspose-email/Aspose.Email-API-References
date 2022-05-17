@@ -3,7 +3,7 @@ title: ImapStatusCode
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14930
+weight: 16470
 url: /net/aspose.email.clients.imap/imapstatuscode/
 ---
 ## ImapStatusCode enumeration

@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18100
+weight: 19750
 url: /net/aspose.email/saveoptions/
 ---
 ## SaveOptions class

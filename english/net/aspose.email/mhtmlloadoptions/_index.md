@@ -3,7 +3,7 @@ title: MhtmlLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17320
+weight: 18920
 url: /net/aspose.email/mhtmlloadoptions/
 ---
 ## MhtmlLoadOptions class

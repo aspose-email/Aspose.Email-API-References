@@ -3,7 +3,7 @@ title: MboxrdStorageWriter
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18200
+weight: 19850
 url: /net/aspose.email.storage.mbox/mboxrdstoragewriter/
 ---
 ## MboxrdStorageWriter class

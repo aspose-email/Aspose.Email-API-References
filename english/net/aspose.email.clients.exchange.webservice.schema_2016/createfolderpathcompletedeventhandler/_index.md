@@ -3,7 +3,7 @@ title: CreateFolderPathCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4430
+weight: 5970
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createfolderpathcompletedeventhandler/
 ---
 ## CreateFolderPathCompletedEventHandler delegate

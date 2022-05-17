@@ -3,7 +3,7 @@ title: InferenceClassificationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8740
+weight: 10280
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/inferenceclassificationtype/
 ---
 ## InferenceClassificationType enumeration

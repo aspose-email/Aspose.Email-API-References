@@ -3,7 +3,7 @@ title: UpdateDelegateType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13340
+weight: 14880
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updatedelegatetype/
 ---
 ## UpdateDelegateType class

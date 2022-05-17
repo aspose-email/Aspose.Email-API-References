@@ -3,7 +3,7 @@ title: UnknownAttendeeConflictData
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13220
+weight: 14760
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/unknownattendeeconflictdata/
 ---
 ## UnknownAttendeeConflictData class

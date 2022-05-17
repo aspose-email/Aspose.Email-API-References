@@ -3,7 +3,7 @@ title: GetUserPhotoType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8440
+weight: 9980
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuserphototype/
 ---
 ## GetUserPhotoType class

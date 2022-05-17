@@ -3,7 +3,7 @@ title: GetAttachmentCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6840
+weight: 8380
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getattachmentcompletedeventhandler/
 ---
 ## GetAttachmentCompletedEventHandler delegate

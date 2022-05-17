@@ -3,7 +3,7 @@ title: AlternatePublicFolderItemIdType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3080
+weight: 4620
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/alternatepublicfolderitemidtype/
 ---
 ## AlternatePublicFolderItemIdType class

@@ -3,7 +3,7 @@ title: CreateItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4510
+weight: 6050
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createitemtype/
 ---
 ## CreateItemType class

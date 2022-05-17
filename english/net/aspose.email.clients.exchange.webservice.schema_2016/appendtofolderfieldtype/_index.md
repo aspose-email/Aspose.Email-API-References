@@ -3,7 +3,7 @@ title: AppendToFolderFieldType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3130
+weight: 4670
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/appendtofolderfieldtype/
 ---
 ## AppendToFolderFieldType class

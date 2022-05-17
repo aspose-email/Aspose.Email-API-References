@@ -3,7 +3,7 @@ title: SyncFolderHierarchyCreateOrUpdateType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12810
+weight: 14350
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchycreateorupdatetype/
 ---
 ## SyncFolderHierarchyCreateOrUpdateType class

@@ -3,7 +3,7 @@ title: Appender
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18560
+weight: 20210
 url: /net/aspose.email.tools.logging/appender/
 ---
 ## Appender class

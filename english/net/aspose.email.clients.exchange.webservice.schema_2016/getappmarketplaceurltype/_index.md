@@ -3,7 +3,7 @@ title: GetAppMarketplaceUrlType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6820
+weight: 8360
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getappmarketplaceurltype/
 ---
 ## GetAppMarketplaceUrlType class

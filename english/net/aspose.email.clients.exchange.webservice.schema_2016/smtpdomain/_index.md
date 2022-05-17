@@ -3,7 +3,7 @@ title: SmtpDomain
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12550
+weight: 14090
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/smtpdomain/
 ---
 ## SmtpDomain class

@@ -3,7 +3,7 @@ title: Attachment
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 350
 url: /net/aspose.email/attachment/
 ---
 ## Attachment class

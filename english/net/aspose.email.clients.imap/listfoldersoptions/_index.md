@@ -3,7 +3,7 @@ title: ListFoldersOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14940
+weight: 16480
 url: /net/aspose.email.clients.imap/listfoldersoptions/
 ---
 ## ListFoldersOptions enumeration

@@ -3,7 +3,7 @@ title: PersonaPostalAddressType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10310
+weight: 11850
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/
 ---
 ## PersonaPostalAddressType class

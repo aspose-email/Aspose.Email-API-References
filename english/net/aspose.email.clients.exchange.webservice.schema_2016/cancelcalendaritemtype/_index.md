@@ -3,7 +3,7 @@ title: CancelCalendarItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3830
+weight: 5370
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/cancelcalendaritemtype/
 ---
 ## CancelCalendarItemType class

@@ -3,7 +3,7 @@ title: CalendarMonth
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 660
+weight: 680
 url: /net/aspose.email.calendar.recurrences/calendarmonth/
 ---
 ## CalendarMonth enumeration

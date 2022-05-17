@@ -3,7 +3,7 @@ title: FileAsMappingType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6040
+weight: 7580
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/fileasmappingtype/
 ---
 ## FileAsMappingType enumeration

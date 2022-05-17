@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Graph
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 210
 url: /net/aspose.email.clients.graph/
 ---
 
@@ -12,37 +12,37 @@ url: /net/aspose.email.clients.graph/
 
 | Class | Description |
 | --- | --- |
-| abstract class [BaseRestObject](./baserestobject) | Represents functionality for base object. |
-| class [Bucket](./bucket) | https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 The plannerBucket resource represents a bucket (or "custom column") for tasks in a plan in Office 365. It is contained in a plannerPlan and can have a collection of plannerTasks. |
-| class [ClassificationOverride](./classificationoverride) | Represents a user's override for how incoming messages from a specific sender should always be classified as. |
-| class [FolderInfo](./folderinfo) | Represents information about personal folder. |
-| class [FolderInfoCollection](./folderinfocollection) | Represents collection of GraphFolderInfo. |
-| abstract class [GraphClient](./graphclient) | Provides access to MS Exchange Server (Office365) by using REST API. |
-| class [Identity](./identity) | https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 The Identity resource represents an identity of an actor. For example, an actor can be a user, device, or application. |
-| class [IdentitySet](./identityset) | https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 The IdentitySet resource is a keyed collection of identity resources. It is used to represent a set of identities associated with various events for an item, such as created by or last modified by. |
-| class [KnownFolders](./knownfolders) | Well-known folders |
-| class [MessageInfo](./messageinfo) | The MessageInfo represents the server item info fetched from the Graph service. |
-| class [MessageInfoCollection](./messageinfocollection) | Represents collection of GraphMessageInfo. |
-| class [Notebook](./notebook) | https://docs.microsoft.com/en-us/graph/api/resources/notebook?view=graph-rest-1.0 A OneNote notebook. |
-| class [NotebookCollection](./notebookcollection) | Represents collection of Notebook. |
-| class [NotebookLinks](./notebooklinks) | https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 Links for opening a OneNote notebook. |
-| class [OnenoteOperation](./onenoteoperation) | The status of certain long-running OneNote operations. |
-| class [OutlookCategory](./outlookcategory) | Represents a category by which a user can group Outlook items such as messages and events. The user defines categories in a master list, and can apply one or more of these user-defined categories to an item. https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view=graph-rest-1.0 |
-| class [Thumbnail](./thumbnail) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1.0 The thumbnail resource type represents a thumbnail for an image, video, document, or any item that has a bitmap representation. |
-| class [ThumbnailSet](./thumbnailset) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 The ThumbnailSet resource is a keyed collection of thumbnail resources. It is used to represent a set of thumbnails associated with a DriveItem. |
-| class [UpdateSettings](./updatesettings) | Update settings |
+| [BaseRestObject](./baserestobject) | Represents functionality for base object. |
+| [Bucket](./bucket) | https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 The plannerBucket resource represents a bucket (or "custom column") for tasks in a plan in Office 365. It is contained in a plannerPlan and can have a collection of plannerTasks. |
+| [ClassificationOverride](./classificationoverride) | Represents a user's override for how incoming messages from a specific sender should always be classified as. |
+| [FolderInfo](./folderinfo) | Represents information about personal folder. |
+| [FolderInfoCollection](./folderinfocollection) | Represents collection of GraphFolderInfo. |
+| [GraphClient](./graphclient) | Provides access to MS Exchange Server (Office365) by using REST API. |
+| [Identity](./identity) | https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 The Identity resource represents an identity of an actor. For example, an actor can be a user, device, or application. |
+| [IdentitySet](./identityset) | https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 The IdentitySet resource is a keyed collection of identity resources. It is used to represent a set of identities associated with various events for an item, such as created by or last modified by. |
+| [KnownFolders](./knownfolders) | Well-known folders |
+| [MessageInfo](./messageinfo) | The MessageInfo represents the server item info fetched from the Graph service. |
+| [MessageInfoCollection](./messageinfocollection) | Represents collection of GraphMessageInfo. |
+| [Notebook](./notebook) | https://docs.microsoft.com/en-us/graph/api/resources/notebook?view=graph-rest-1.0 A OneNote notebook. |
+| [NotebookCollection](./notebookcollection) | Represents collection of Notebook. |
+| [NotebookLinks](./notebooklinks) | https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 Links for opening a OneNote notebook. |
+| [OnenoteOperation](./onenoteoperation) | The status of certain long-running OneNote operations. |
+| [OutlookCategory](./outlookcategory) | Represents a category by which a user can group Outlook items such as messages and events. The user defines categories in a master list, and can apply one or more of these user-defined categories to an item. https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view=graph-rest-1.0 |
+| [Thumbnail](./thumbnail) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnail?view=graph-rest-1.0 The thumbnail resource type represents a thumbnail for an image, video, document, or any item that has a bitmap representation. |
+| [ThumbnailSet](./thumbnailset) | https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 The ThumbnailSet resource is a keyed collection of thumbnail resources. It is used to represent a set of thumbnails associated with a DriveItem. |
+| [UpdateSettings](./updatesettings) | Update settings |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| interface [IGraphClient](./igraphclient) | Represents the interface for Exchange REST client. |
+| [IGraphClient](./igraphclient) | Represents the interface for Exchange REST client. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| enum [CategoryPreset](./categorypreset) | A pre-set color enumeration that characterizes a categories, and that is mapped to one of 25 predefined colors. Note The possible values for color are pre-set constants such as None, preset0 and preset1. Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in. |
-| enum [ClassificationType](./classificationtype) | https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0 https://docs.microsoft.com/en-us/graph/api/resources/inferenceclassificationoverride?view=graph-rest-1.0 Specifies how incoming messages from a specific sender should always be classified as. |
-| enum [ResourceType](./resourcetype) | The resource in Microsoft Graph that you're referencing. |
-| enum [UserRole](./userrole) | OneNote user role |
+| [CategoryPreset](./categorypreset) | A pre-set color enumeration that characterizes a categories, and that is mapped to one of 25 predefined colors. Note The possible values for color are pre-set constants such as None, preset0 and preset1. Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in. |
+| [ClassificationType](./classificationtype) | https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0 https://docs.microsoft.com/en-us/graph/api/resources/inferenceclassificationoverride?view=graph-rest-1.0 Specifies how incoming messages from a specific sender should always be classified as. |
+| [ResourceType](./resourcetype) | The resource in Microsoft Graph that you're referencing. |
+| [UserRole](./userrole) | OneNote user role |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

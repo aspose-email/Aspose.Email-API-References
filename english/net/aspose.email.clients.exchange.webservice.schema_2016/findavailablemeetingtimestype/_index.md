@@ -3,7 +3,7 @@ title: FindAvailableMeetingTimesType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6110
+weight: 7650
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/
 ---
 ## FindAvailableMeetingTimesType class

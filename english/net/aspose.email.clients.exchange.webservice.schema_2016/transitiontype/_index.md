@@ -3,7 +3,7 @@ title: TransitionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13140
+weight: 14680
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/transitiontype/
 ---
 ## TransitionType class

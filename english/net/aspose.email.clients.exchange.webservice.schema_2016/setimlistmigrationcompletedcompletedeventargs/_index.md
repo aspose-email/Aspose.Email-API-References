@@ -3,7 +3,7 @@ title: SetImListMigrationCompletedCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12230
+weight: 13770
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/setimlistmigrationcompletedcompletedeventargs/
 ---
 ## SetImListMigrationCompletedCompletedEventArgs class

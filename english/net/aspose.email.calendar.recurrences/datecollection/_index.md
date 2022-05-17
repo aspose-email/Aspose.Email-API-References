@@ -3,7 +3,7 @@ title: DateCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 710
 url: /net/aspose.email.calendar.recurrences/datecollection/
 ---
 ## DateCollection class

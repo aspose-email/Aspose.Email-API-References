@@ -3,7 +3,7 @@ title: IAsyncResultExt
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14570
+weight: 16110
 url: /net/aspose.email.clients/iasyncresultext/
 ---
 ## IAsyncResultExt interface

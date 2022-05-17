@@ -3,7 +3,7 @@ title: AclScope
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14060
+weight: 15600
 url: /net/aspose.email.clients.google/aclscope/
 ---
 ## AclScope class

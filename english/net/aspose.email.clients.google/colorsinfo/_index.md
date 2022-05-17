@@ -3,7 +3,7 @@ title: ColorsInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14120
+weight: 15660
 url: /net/aspose.email.clients.google/colorsinfo/
 ---
 ## ColorsInfo class

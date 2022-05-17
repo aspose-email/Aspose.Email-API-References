@@ -3,7 +3,7 @@ title: Range
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14280
+weight: 15820
 url: /net/aspose.email.clients.google/range/
 ---
 ## Range class

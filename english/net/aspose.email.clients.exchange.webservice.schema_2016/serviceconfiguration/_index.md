@@ -3,7 +3,7 @@ title: ServiceConfiguration
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12110
+weight: 13650
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/serviceconfiguration/
 ---
 ## ServiceConfiguration class

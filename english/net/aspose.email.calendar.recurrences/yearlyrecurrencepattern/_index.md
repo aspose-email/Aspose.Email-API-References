@@ -3,7 +3,7 @@ title: YearlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 780
+weight: 800
 url: /net/aspose.email.calendar.recurrences/yearlyrecurrencepattern/
 ---
 ## YearlyRecurrencePattern class

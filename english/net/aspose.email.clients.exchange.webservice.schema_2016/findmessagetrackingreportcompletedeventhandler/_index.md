@@ -3,7 +3,7 @@ title: FindMessageTrackingReportCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6440
+weight: 7980
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportcompletedeventhandler/
 ---
 ## FindMessageTrackingReportCompletedEventHandler delegate

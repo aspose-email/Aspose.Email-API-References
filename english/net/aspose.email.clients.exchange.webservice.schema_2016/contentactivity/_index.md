@@ -3,7 +3,7 @@ title: ContentActivity
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4080
+weight: 5620
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/contentactivity/
 ---
 ## ContentActivity class

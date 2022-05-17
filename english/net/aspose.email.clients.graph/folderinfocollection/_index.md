@@ -3,7 +3,7 @@ title: FolderInfoCollection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14370
+weight: 15910
 url: /net/aspose.email.clients.graph/folderinfocollection/
 ---
 ## FolderInfoCollection class

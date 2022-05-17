@@ -3,7 +3,7 @@ title: MonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 730
+weight: 750
 url: /net/aspose.email.calendar.recurrences/monthlyrecurrencepattern/
 ---
 ## MonthlyRecurrencePattern class

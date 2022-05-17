@@ -3,7 +3,7 @@ title: CreateManagedFolderResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4550
+weight: 6090
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createmanagedfolderresponsetype/
 ---
 ## CreateManagedFolderResponseType class

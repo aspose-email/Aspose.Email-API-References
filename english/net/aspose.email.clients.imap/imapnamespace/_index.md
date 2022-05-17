@@ -3,7 +3,7 @@ title: ImapNamespace
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14860
+weight: 16400
 url: /net/aspose.email.clients.imap/imapnamespace/
 ---
 ## ImapNamespace class

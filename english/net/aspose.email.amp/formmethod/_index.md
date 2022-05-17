@@ -3,7 +3,7 @@ title: FormMethod
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 180
 url: /net/aspose.email.amp/formmethod/
 ---
 ## FormMethod enumeration

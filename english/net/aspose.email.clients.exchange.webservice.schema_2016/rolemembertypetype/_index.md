@@ -3,7 +3,7 @@ title: RoleMemberTypeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11570
+weight: 13110
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/rolemembertypetype/
 ---
 ## RoleMemberTypeType enumeration

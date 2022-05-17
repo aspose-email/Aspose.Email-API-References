@@ -3,7 +3,7 @@ title: ExchangeDelegateUser
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2250
+weight: 3790
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegateuser/
 ---
 ## ExchangeDelegateUser class

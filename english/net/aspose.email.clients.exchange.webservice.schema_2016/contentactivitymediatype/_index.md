@@ -3,7 +3,7 @@ title: ContentActivityMediaType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4100
+weight: 5640
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/contentactivitymediatype/
 ---
 ## ContentActivityMediaType enumeration

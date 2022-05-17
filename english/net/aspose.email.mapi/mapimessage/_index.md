@@ -3,7 +3,7 @@ title: MapiMessage
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16650
+weight: 18250
 url: /net/aspose.email.mapi/mapimessage/
 ---
 ## MapiMessage class

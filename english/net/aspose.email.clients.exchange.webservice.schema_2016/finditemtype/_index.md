@@ -3,7 +3,7 @@ title: FindItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6270
+weight: 7810
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/finditemtype/
 ---
 ## FindItemType class

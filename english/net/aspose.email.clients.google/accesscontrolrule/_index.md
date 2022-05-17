@@ -3,7 +3,7 @@ title: AccessControlRule
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14040
+weight: 15580
 url: /net/aspose.email.clients.google/accesscontrolrule/
 ---
 ## AccessControlRule class

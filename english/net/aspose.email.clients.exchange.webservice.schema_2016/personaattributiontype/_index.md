@@ -3,7 +3,7 @@ title: PersonaAttributionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10290
+weight: 11830
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/
 ---
 ## PersonaAttributionType class

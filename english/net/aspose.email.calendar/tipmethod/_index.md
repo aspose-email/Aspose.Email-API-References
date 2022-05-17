@@ -3,7 +3,7 @@ title: TIPMethod
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 870
+weight: 890
 url: /net/aspose.email.calendar/tipmethod/
 ---
 ## TIPMethod enumeration

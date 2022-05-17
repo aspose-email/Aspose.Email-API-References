@@ -3,7 +3,7 @@ title: AppointmentPageInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1490
+weight: 3030
 url: /net/aspose.email.clients.exchange/appointmentpageinfo/
 ---
 ## AppointmentPageInfo class

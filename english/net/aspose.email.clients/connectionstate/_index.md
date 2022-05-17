@@ -3,7 +3,7 @@ title: ConnectionState
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1470
+weight: 2920
 url: /net/aspose.email.clients/connectionstate/
 ---
 ## ConnectionState enumeration

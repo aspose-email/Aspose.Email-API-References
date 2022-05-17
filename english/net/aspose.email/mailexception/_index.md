@@ -3,7 +3,7 @@ title: MailException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15930
+weight: 17530
 url: /net/aspose.email/mailexception/
 ---
 ## MailException class

@@ -3,7 +3,7 @@ title: MarkAllItemsAsReadCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9370
+weight: 10910
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/markallitemsasreadcompletedeventhandler/
 ---
 ## MarkAllItemsAsReadCompletedEventHandler delegate

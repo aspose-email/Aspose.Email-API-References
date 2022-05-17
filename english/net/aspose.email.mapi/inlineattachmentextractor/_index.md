@@ -3,7 +3,7 @@ title: InlineAttachmentExtractor
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16070
+weight: 17670
 url: /net/aspose.email.mapi/inlineattachmentextractor/
 ---
 ## InlineAttachmentExtractor class

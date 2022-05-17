@@ -3,7 +3,7 @@ title: PeriodType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10230
+weight: 11770
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/periodtype/
 ---
 ## PeriodType class

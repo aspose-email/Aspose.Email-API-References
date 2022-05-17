@@ -8,10 +8,28 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getfolderinfo
 ---
 ## IAsyncEwsClient.GetFolderInfoAsync method
 
+Gets the folder information
+
 ```csharp
 public Task<ExchangeFolderInfo> GetFolderInfoAsync(string folder, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folder | String | A folder uri, distinguished folder name. path/to/folder can also be used, if UseSlashAsFolderSeparator is set |
+| cancellationToken | CancellationToken | The cancellation token |
+
+## Return Value
+
+A [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) that represents the folder information
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folder* is `null` or `empty` |
+| [ExchangeException](../../../aspose.email/exchangeexception) | Server responded an error message |
 
 ### See Also
 

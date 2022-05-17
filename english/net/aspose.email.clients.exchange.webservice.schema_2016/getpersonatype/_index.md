@@ -3,7 +3,7 @@ title: GetPersonaType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7720
+weight: 9260
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getpersonatype/
 ---
 ## GetPersonaType class

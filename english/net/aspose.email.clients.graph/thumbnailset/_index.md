@@ -3,7 +3,7 @@ title: ThumbnailSet
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14520
+weight: 16060
 url: /net/aspose.email.clients.graph/thumbnailset/
 ---
 ## ThumbnailSet class

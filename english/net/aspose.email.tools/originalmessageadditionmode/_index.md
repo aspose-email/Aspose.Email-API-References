@@ -3,7 +3,7 @@ title: OriginalMessageAdditionMode
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18750
+weight: 20400
 url: /net/aspose.email.tools/originalmessageadditionmode/
 ---
 ## OriginalMessageAdditionMode enumeration

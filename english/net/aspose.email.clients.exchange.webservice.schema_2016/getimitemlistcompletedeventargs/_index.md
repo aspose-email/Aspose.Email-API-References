@@ -3,7 +3,7 @@ title: GetImItemListCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7200
+weight: 8740
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getimitemlistcompletedeventargs/
 ---
 ## GetImItemListCompletedEventArgs class

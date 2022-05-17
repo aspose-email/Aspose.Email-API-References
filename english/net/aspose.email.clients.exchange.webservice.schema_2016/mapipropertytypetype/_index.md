@@ -3,7 +3,7 @@ title: MapiPropertyTypeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9350
+weight: 10890
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mapipropertytypetype/
 ---
 ## MapiPropertyTypeType enumeration

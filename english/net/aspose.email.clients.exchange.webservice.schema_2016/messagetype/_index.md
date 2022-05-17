@@ -3,7 +3,7 @@ title: MessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9670
+weight: 11210
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/messagetype/
 ---
 ## MessageType class

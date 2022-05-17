@@ -8,7 +8,7 @@ url: /net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/create
 ---
 ## EwsArchiveItems.Create method
 
-Create !:IAsyncEwsClient.ArchiveItemsAsync method parameter set.
+Create [`ArchiveItemsAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync) method parameter set.
 
 ```csharp
 public static EwsArchiveItems Create(string sourceFolderUri)

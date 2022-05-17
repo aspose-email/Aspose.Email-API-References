@@ -3,7 +3,7 @@ title: ResourceType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14500
+weight: 16040
 url: /net/aspose.email.clients.graph/resourcetype/
 ---
 ## ResourceType enumeration

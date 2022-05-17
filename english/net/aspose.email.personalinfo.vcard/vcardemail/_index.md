@@ -3,7 +3,7 @@ title: VCardEmail
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17810
+weight: 19410
 url: /net/aspose.email.personalinfo.vcard/vcardemail/
 ---
 ## VCardEmail class

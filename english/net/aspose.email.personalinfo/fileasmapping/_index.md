@@ -3,7 +3,7 @@ title: FileAsMapping
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17610
+weight: 19210
 url: /net/aspose.email.personalinfo/fileasmapping/
 ---
 ## FileAsMapping enumeration

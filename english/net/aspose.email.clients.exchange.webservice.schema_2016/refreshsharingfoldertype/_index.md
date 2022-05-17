@@ -3,7 +3,7 @@ title: RefreshSharingFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10930
+weight: 12470
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/refreshsharingfoldertype/
 ---
 ## RefreshSharingFolderType class

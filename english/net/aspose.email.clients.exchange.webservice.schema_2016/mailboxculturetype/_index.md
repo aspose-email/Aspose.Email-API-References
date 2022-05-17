@@ -3,7 +3,7 @@ title: MailboxCultureType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9210
+weight: 10750
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mailboxculturetype/
 ---
 ## MailboxCultureType class
@@ -27,7 +27,6 @@ public class MailboxCultureType : SoapHeader
 
 ### See Also
 
-* class [SoapHeader](../../system.web.services.protocols/soapheader)
 * namespace [Aspose.Email.Clients.Exchange.WebService.Schema_2016](../../aspose.email.clients.exchange.webservice.schema_2016)
 * assembly [Aspose.Email](../../)
 

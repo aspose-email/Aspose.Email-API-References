@@ -3,7 +3,7 @@ title: GetRoomListsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7870
+weight: 9410
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getroomliststype/
 ---
 ## GetRoomListsType class

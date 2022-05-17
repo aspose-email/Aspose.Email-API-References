@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.pop3/pop3client/undeletemessagesasync/
 ---
 ## Pop3Client.UndeleteMessagesAsync method (1 of 4)
 
+Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
+
 ```csharp
 public Task UndeleteMessagesAsync(IConnection connection)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +33,15 @@ public Task UndeleteMessagesAsync(IConnection connection)
 
 ## Pop3Client.UndeleteMessagesAsync method (2 of 4)
 
+Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
+
 ```csharp
 public Task UndeleteMessagesAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,9 +53,20 @@ public Task UndeleteMessagesAsync()
 
 ## Pop3Client.UndeleteMessagesAsync method (3 of 4)
 
+Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
+
 ```csharp
 public Task UndeleteMessagesAsync(IConnection connection, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -52,9 +79,19 @@ public Task UndeleteMessagesAsync(IConnection connection, CancellationToken toke
 
 ## Pop3Client.UndeleteMessagesAsync method (4 of 4)
 
+Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
+
 ```csharp
 public Task UndeleteMessagesAsync(CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

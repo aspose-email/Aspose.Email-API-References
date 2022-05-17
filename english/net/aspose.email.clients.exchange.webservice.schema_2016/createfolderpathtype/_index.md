@@ -3,7 +3,7 @@ title: CreateFolderPathType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4450
+weight: 5990
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createfolderpathtype/
 ---
 ## CreateFolderPathType class

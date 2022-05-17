@@ -3,7 +3,7 @@ title: OneDriveViewType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10030
+weight: 11570
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/onedriveviewtype/
 ---
 ## OneDriveViewType enumeration

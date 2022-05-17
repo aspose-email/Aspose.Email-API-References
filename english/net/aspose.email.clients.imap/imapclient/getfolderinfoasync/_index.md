@@ -8,9 +8,22 @@ url: /net/aspose.email.clients.imap/imapclient/getfolderinfoasync/
 ---
 ## ImapClient.GetFolderInfoAsync method (1 of 4)
 
+Returns information about the specified folder without selecting it
+
 ```csharp
-public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName)
+public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName, 
+    CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder to retrieve information about |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -24,9 +37,20 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string fo
 
 ## ImapClient.GetFolderInfoAsync method (2 of 4)
 
+Returns information about the specified folder without selecting it
+
 ```csharp
-public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName)
+public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to retrieve information about |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -39,10 +63,20 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName)
 
 ## ImapClient.GetFolderInfoAsync method (3 of 4)
 
+Returns information about the specified folder without selecting it
+
 ```csharp
-public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName, 
-    CancellationToken token)
+public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder to retrieve information about |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -56,9 +90,19 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string fo
 
 ## ImapClient.GetFolderInfoAsync method (4 of 4)
 
+Returns information about the specified folder without selecting it
+
 ```csharp
-public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName, CancellationToken token)
+public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to retrieve information about |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

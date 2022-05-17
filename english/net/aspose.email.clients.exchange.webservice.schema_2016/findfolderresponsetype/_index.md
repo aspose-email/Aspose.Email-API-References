@@ -3,7 +3,7 @@ title: FindFolderResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6200
+weight: 7740
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findfolderresponsetype/
 ---
 ## FindFolderResponseType class

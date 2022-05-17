@@ -8,10 +8,21 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listmailboxes
 ---
 ## IAsyncEwsClient.ListMailboxesAsync method
 
+Lists mailboxes having smtp addresses. Note: the maximum count of returned contacts is 100. This is a restriction of used EWS operation.
+
 ```csharp
 public Task<MapiContactCollection> ListMailboxesAsync(string filter = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filter | String | Filter string |
+| cancellationToken | CancellationToken | The cancellation token |
+
+## Return Value
+
+A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contact information
 
 ### See Also
 

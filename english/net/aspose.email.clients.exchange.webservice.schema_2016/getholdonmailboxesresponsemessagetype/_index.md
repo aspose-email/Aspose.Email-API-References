@@ -3,7 +3,7 @@ title: GetHoldOnMailboxesResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7180
+weight: 8720
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getholdonmailboxesresponsemessagetype/
 ---
 ## GetHoldOnMailboxesResponseMessageType class

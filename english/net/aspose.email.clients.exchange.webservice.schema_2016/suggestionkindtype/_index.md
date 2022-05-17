@@ -3,7 +3,7 @@ title: SuggestionKindType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12720
+weight: 14260
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/suggestionkindtype/
 ---
 ## SuggestionKindType enumeration

@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.imap/imapclient/stopmonitoringasync/
 ---
 ## ImapClient.StopMonitoringAsync method (1 of 2)
 
+Stops monitoring of message changes for specified folder.
+
 ```csharp
 public Task StopMonitoringAsync(string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | specified folder for monitoring operation |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -22,9 +32,15 @@ public Task StopMonitoringAsync(string folderName)
 
 ## ImapClient.StopMonitoringAsync method (2 of 2)
 
+Stops any monitoring of changes.
+
 ```csharp
 public Task StopMonitoringAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

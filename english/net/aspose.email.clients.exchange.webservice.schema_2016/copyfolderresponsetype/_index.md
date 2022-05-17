@@ -3,7 +3,7 @@ title: CopyFolderResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4290
+weight: 5830
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/copyfolderresponsetype/
 ---
 ## CopyFolderResponseType class

@@ -8,10 +8,24 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/deletefolders
 ---
 ## IAsyncEwsClient.DeleteFoldersAsync method
 
+Deletes the folders
+
 ```csharp
 public Task DeleteFoldersAsync(IEnumerable<string> folderUris, bool deletePermanently = false, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderUris | IEnumerable`1 | The list of folder URIs |
+| deletePermanently | Boolean | Indicates whether the folder should be deleted permanently or should be moved into DeletedItems folder |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris* is `null` |
 
 ### See Also
 

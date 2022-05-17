@@ -8,10 +8,21 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/syncfolderasy
 ---
 ## IAsyncEwsClient.SyncFolderAsync method
 
+Retrieves changes of the items in a specified folder.
+
 ```csharp
 public Task<SyncFolderResult> SyncFolderAsync(SyncState syncState, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| syncState | SyncState | The synchronization state. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+Returns result of SyncFolder operation.
 
 ### See Also
 

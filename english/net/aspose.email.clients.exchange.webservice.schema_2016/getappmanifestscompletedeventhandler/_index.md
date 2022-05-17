@@ -3,7 +3,7 @@ title: GetAppManifestsCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6760
+weight: 8300
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getappmanifestscompletedeventhandler/
 ---
 ## GetAppManifestsCompletedEventHandler delegate

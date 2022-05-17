@@ -3,7 +3,7 @@ title: SensitivityChoices
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2030
+weight: 3570
 url: /net/aspose.email.clients.exchange/sensitivitychoices/
 ---
 ## SensitivityChoices enumeration

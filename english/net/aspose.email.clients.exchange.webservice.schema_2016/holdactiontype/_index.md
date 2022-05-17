@@ -3,7 +3,7 @@ title: HoldActionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8600
+weight: 10140
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/holdactiontype/
 ---
 ## HoldActionType enumeration

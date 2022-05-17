@@ -3,7 +3,7 @@ title: MailboxHoldStatusType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9240
+weight: 10780
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mailboxholdstatustype/
 ---
 ## MailboxHoldStatusType class

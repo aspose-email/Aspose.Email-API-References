@@ -1,9 +1,9 @@
 ---
 title: Aspose.Email.PersonalInfo
 second_title: Aspose.Email for .NET API Reference
-description: The **Aspose.Email.PersonalInfo** namespace contains classes that represents contact information.
+description: The Aspose.Email.PersonalInfo namespace contains classes that represents contact information.
 type: docs
-weight: 260
+weight: 310
 url: /net/aspose.email.personalinfo/
 ---
 The **Aspose.Email.PersonalInfo** namespace contains classes that represents contact information.
@@ -12,36 +12,36 @@ The **Aspose.Email.PersonalInfo** namespace contains classes that represents con
 
 | Class | Description |
 | --- | --- |
-| class [AssociatedPerson](./associatedperson) | Describes organization which is associated with a person. |
-| class [AssociatedPersonCategory](./associatedpersoncategory) | Represents category for a persons |
-| class [AssociatedPersonsList](./associatedpersonslist) | List of associated persons for a contact |
-| class [Contact](./contact) | Represents contact information. |
-| class [ContactPhoto](./contactphoto) | Represents contact photo. |
-| class [CustomerEvent](./customerevent) | Represents an event. |
-| class [EmailAddress](./emailaddress) | Represents an email address |
-| class [EmailAddressCategory](./emailaddresscategory) | Represents category for an email address |
-| class [EmailAddressList](./emailaddresslist) | List of email addresses for a contact |
-| class [EventCategory](./eventcategory) | Represents category for an event |
-| class [EventList](./eventlist) | List of events for a contact |
-| class [InstantMessengerAddress](./instantmessengeraddress) | Represents an instant messanger address. |
-| class [InstantMessengerCategory](./instantmessengercategory) | Represents category for an instant messenger address |
-| class [InstantMessengerList](./instantmessengerlist) | List of instant messenger addresses for a contact. |
-| class [PhoneNumber](./phonenumber) | Represents a phone number. |
-| class [PhoneNumberCategory](./phonenumbercategory) | Represents category for a phone number |
-| class [PhoneNumberList](./phonenumberlist) | List of phone numbers for a contact. |
-| class [PostalAddress](./postaladdress) | Represents a postal address. |
-| class [PostalAddressCategory](./postaladdresscategory) | Represents category for a postal address |
-| class [PostalAddressList](./postaladdresslist) | List of postal addresses for a contact. |
-| class [Url](./url) | Objects represents a URL and its category. |
-| class [UrlCategory](./urlcategory) | Represents category for a URL |
-| class [UrlList](./urllist) | List of urls for contact |
+| [AssociatedPerson](./associatedperson) | Describes organization which is associated with a person. |
+| [AssociatedPersonCategory](./associatedpersoncategory) | Represents category for a persons |
+| [AssociatedPersonsList](./associatedpersonslist) | List of associated persons for a contact |
+| [Contact](./contact) | Represents contact information. |
+| [ContactPhoto](./contactphoto) | Represents contact photo. |
+| [CustomerEvent](./customerevent) | Represents an event. |
+| [EmailAddress](./emailaddress) | Represents an email address |
+| [EmailAddressCategory](./emailaddresscategory) | Represents category for an email address |
+| [EmailAddressList](./emailaddresslist) | List of email addresses for a contact |
+| [EventCategory](./eventcategory) | Represents category for an event |
+| [EventList](./eventlist) | List of events for a contact |
+| [InstantMessengerAddress](./instantmessengeraddress) | Represents an instant messanger address. |
+| [InstantMessengerCategory](./instantmessengercategory) | Represents category for an instant messenger address |
+| [InstantMessengerList](./instantmessengerlist) | List of instant messenger addresses for a contact. |
+| [PhoneNumber](./phonenumber) | Represents a phone number. |
+| [PhoneNumberCategory](./phonenumbercategory) | Represents category for a phone number |
+| [PhoneNumberList](./phonenumberlist) | List of phone numbers for a contact. |
+| [PostalAddress](./postaladdress) | Represents a postal address. |
+| [PostalAddressCategory](./postaladdresscategory) | Represents category for a postal address |
+| [PostalAddressList](./postaladdresslist) | List of postal addresses for a contact. |
+| [Url](./url) | Objects represents a URL and its category. |
+| [UrlCategory](./urlcategory) | Represents category for a URL |
+| [UrlList](./urllist) | List of urls for contact |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| enum [ContactLoadFormat](./contactloadformat) | Enumerates contact load formats |
-| enum [FileAsMapping](./fileasmapping) | Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change. Coincides MS-OXPROPS revision 16.2 from 7/31/2014 |
-| enum [Gender](./gender) | Enum defines gender of a person |
-| enum [TextFormat](./textformat) | Defines format of a text. |
+| [ContactLoadFormat](./contactloadformat) | Enumerates contact load formats |
+| [FileAsMapping](./fileasmapping) | Specifies how to generate and recompute the value of the dispidFileAs property when other contact name properties change. Coincides MS-OXPROPS revision 16.2 from 7/31/2014 |
+| [Gender](./gender) | Enum defines gender of a person |
+| [TextFormat](./textformat) | Defines format of a text. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

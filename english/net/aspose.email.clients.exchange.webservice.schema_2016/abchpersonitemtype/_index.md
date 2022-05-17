@@ -3,7 +3,7 @@ title: AbchPersonItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2630
+weight: 4170
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/abchpersonitemtype/
 ---
 ## AbchPersonItemType class

@@ -3,7 +3,7 @@ title: FileFormatType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15700
+weight: 17300
 url: /net/aspose.email/fileformattype/
 ---
 ## FileFormatType enumeration

@@ -3,7 +3,7 @@ title: AbchPersonContactHandle
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2620
+weight: 4160
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/abchpersoncontacthandle/
 ---
 ## AbchPersonContactHandle class

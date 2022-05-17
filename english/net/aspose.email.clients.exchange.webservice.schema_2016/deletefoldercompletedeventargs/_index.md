@@ -3,7 +3,7 @@ title: DeleteFolderCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4900
+weight: 6440
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deletefoldercompletedeventargs/
 ---
 ## DeleteFolderCompletedEventArgs class

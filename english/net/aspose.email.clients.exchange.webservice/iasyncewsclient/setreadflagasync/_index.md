@@ -8,10 +8,24 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/setreadflagas
 ---
 ## IAsyncEwsClient.SetReadFlagAsync method
 
+Marks the specified message as read.
+
 ```csharp
 public Task SetReadFlagAsync(string messageUri, bool isRead = true, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messageUri | String | A message uri. |
+| isRead | Boolean | A value indicating whether the message was read |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri* is `null` or `empty`. |
 
 ### See Also
 

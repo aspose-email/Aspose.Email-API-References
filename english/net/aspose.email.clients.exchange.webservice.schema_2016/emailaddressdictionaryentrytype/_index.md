@@ -3,7 +3,7 @@ title: EmailAddressDictionaryEntryType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5500
+weight: 7040
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/emailaddressdictionaryentrytype/
 ---
 ## EmailAddressDictionaryEntryType class

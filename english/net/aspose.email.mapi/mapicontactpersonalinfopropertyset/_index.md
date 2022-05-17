@@ -3,7 +3,7 @@ title: MapiContactPersonalInfoPropertySet
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16470
+weight: 18070
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/
 ---
 ## MapiContactPersonalInfoPropertySet class

@@ -3,7 +3,7 @@ title: AddImGroupCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2830
+weight: 4370
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/addimgroupcompletedeventhandler/
 ---
 ## AddImGroupCompletedEventHandler delegate

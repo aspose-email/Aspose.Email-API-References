@@ -3,7 +3,7 @@ title: MailboxConverter
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18140
+weight: 19790
 url: /net/aspose.email.storage/mailboxconverter/
 ---
 ## MailboxConverter class

@@ -3,7 +3,7 @@ title: ExchangeTaskStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2300
+weight: 3840
 url: /net/aspose.email.clients.exchange.webservice/exchangetaskstatus/
 ---
 ## ExchangeTaskStatus enumeration

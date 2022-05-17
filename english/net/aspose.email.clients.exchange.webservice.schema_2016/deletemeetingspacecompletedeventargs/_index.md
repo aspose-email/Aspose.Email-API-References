@@ -3,7 +3,7 @@ title: DeleteMeetingSpaceCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5050
+weight: 6590
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deletemeetingspacecompletedeventargs/
 ---
 ## DeleteMeetingSpaceCompletedEventArgs class

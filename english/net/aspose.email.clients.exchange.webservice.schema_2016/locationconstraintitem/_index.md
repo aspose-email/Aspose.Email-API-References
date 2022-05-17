@@ -3,7 +3,7 @@ title: LocationConstraintItem
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9150
+weight: 10690
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/locationconstraintitem/
 ---
 ## LocationConstraintItem class

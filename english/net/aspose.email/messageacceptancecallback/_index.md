@@ -3,7 +3,7 @@ title: MessageAcceptanceCallback
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17240
+weight: 18840
 url: /net/aspose.email/messageacceptancecallback/
 ---
 ## MessageAcceptanceCallback delegate

@@ -3,7 +3,7 @@ title: CreateUserConfigurationResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4690
+weight: 6230
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createuserconfigurationresponsetype/
 ---
 ## CreateUserConfigurationResponseType class

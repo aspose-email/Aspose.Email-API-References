@@ -3,7 +3,7 @@ title: SyncFolderItemsChangesType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12860
+weight: 14400
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemschangestype/
 ---
 ## SyncFolderItemsChangesType class

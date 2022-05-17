@@ -3,7 +3,7 @@ title: ExchangeClientBase
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1700
+weight: 3240
 url: /net/aspose.email.clients.exchange/exchangeclientbase/
 ---
 ## ExchangeClientBase class

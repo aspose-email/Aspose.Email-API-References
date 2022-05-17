@@ -3,7 +3,7 @@ title: MessageObjectPropertyComparerById
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17080
+weight: 18680
 url: /net/aspose.email.mapi.msg/messageobjectpropertycomparerbyid/
 ---
 ## MessageObjectPropertyComparerById class

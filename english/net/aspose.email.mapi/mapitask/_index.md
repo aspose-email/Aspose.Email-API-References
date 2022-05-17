@@ -3,7 +3,7 @@ title: MapiTask
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16870
+weight: 18470
 url: /net/aspose.email.mapi/mapitask/
 ---
 ## MapiTask class

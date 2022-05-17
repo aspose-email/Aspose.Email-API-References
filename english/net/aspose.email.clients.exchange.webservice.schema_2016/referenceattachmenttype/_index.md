@@ -3,7 +3,7 @@ title: ReferenceAttachmentType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10870
+weight: 12410
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/referenceattachmenttype/
 ---
 ## ReferenceAttachmentType class

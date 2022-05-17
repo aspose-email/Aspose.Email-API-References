@@ -3,7 +3,7 @@ title: ExchangeFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1800
+weight: 3340
 url: /net/aspose.email.clients.exchange/exchangefoldertype/
 ---
 ## ExchangeFolderType enumeration

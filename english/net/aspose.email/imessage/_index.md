@@ -3,7 +3,7 @@ title: IMessage
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15820
+weight: 17420
 url: /net/aspose.email/imessage/
 ---
 ## IMessage interface

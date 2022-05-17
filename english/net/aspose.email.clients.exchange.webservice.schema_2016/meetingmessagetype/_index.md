@@ -3,7 +3,7 @@ title: MeetingMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9500
+weight: 11040
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/meetingmessagetype/
 ---
 ## MeetingMessageType class

@@ -3,7 +3,7 @@ title: ExchangeTask
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2290
+weight: 3830
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/
 ---
 ## ExchangeTask class

@@ -3,7 +3,7 @@ title: UpdateFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13380
+weight: 14920
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updatefoldertype/
 ---
 ## UpdateFolderType class

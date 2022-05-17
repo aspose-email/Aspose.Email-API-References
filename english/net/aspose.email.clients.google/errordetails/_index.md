@@ -3,7 +3,7 @@ title: ErrorDetails
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14150
+weight: 15690
 url: /net/aspose.email.clients.google/errordetails/
 ---
 ## ErrorDetails class

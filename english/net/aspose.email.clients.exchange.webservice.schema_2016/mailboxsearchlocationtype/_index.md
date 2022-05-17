@@ -3,7 +3,7 @@ title: MailboxSearchLocationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9280
+weight: 10820
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mailboxsearchlocationtype/
 ---
 ## MailboxSearchLocationType enumeration

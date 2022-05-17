@@ -3,7 +3,7 @@ title: MailPriority
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15970
+weight: 17570
 url: /net/aspose.email/mailpriority/
 ---
 ## MailPriority enumeration

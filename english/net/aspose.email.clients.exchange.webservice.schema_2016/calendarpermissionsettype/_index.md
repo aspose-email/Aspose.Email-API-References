@@ -3,7 +3,7 @@ title: CalendarPermissionSetType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3800
+weight: 5340
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/calendarpermissionsettype/
 ---
 ## CalendarPermissionSetType class

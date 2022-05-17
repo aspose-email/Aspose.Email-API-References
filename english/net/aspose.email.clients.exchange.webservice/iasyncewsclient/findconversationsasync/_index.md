@@ -8,10 +8,27 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/findconversat
 ---
 ## IAsyncEwsClient.FindConversationsAsync method
 
+Finds conversations in the specified folder
+
 ```csharp
 public Task<ExchangeConversation[]> FindConversationsAsync(string folderId, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderId | String | An id of folder in which search |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+An array of found [`ExchangeConversation`](../../exchangeconversation)
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderId* is `null` or `empty` |
 
 ### See Also
 

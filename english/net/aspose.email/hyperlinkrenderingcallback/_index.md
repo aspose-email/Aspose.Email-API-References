@@ -3,7 +3,7 @@ title: HyperlinkRenderingCallback
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15790
+weight: 17390
 url: /net/aspose.email/hyperlinkrenderingcallback/
 ---
 ## HyperlinkRenderingCallback delegate

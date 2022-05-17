@@ -3,7 +3,7 @@ title: AssociatedPersonCategory
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17500
+weight: 19100
 url: /net/aspose.email.personalinfo/associatedpersoncategory/
 ---
 ## AssociatedPersonCategory class

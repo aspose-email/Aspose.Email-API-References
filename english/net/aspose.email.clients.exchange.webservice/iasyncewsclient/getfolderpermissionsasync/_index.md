@@ -8,10 +8,21 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getfolderperm
 ---
 ## IAsyncEwsClient.GetFolderPermissionsAsync method
 
+Gets the folder permissions.
+
 ```csharp
 public Task<ExchangePermissionCollection> GetFolderPermissionsAsync(string folderUrl, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderUrl | String | The folder URL. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+The [`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
 
 ### See Also
 

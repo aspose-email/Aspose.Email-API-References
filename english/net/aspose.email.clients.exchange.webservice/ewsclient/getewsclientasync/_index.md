@@ -8,10 +8,23 @@ url: /net/aspose.email.clients.exchange.webservice/ewsclient/getewsclientasync/
 ---
 ## EWSClient.GetEwsClientAsync method
 
+Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
+
 ```csharp
 public static Task<IAsyncEwsClient> GetEwsClientAsync(string mailboxUri, ICredentials credentials, 
     WebProxy proxy = null, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mailboxUri | String | The URI of mailbox |
+| credentials | ICredentials | Contains the credentials for authentication. |
+| proxy | WebProxy | Contains HTTP proxy settings |
+| cancellationToken | CancellationToken | The cancellation token |
+
+## Return Value
+
+Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
 ### See Also
 

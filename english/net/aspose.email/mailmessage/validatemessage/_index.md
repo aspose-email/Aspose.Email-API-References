@@ -3,7 +3,7 @@ title: ValidateMessage
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 590
 url: /net/aspose.email/mailmessage/validatemessage/
 ---
 ## MailMessage.ValidateMessage method (1 of 2)

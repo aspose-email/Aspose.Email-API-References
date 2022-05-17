@@ -3,7 +3,7 @@ title: ChangeDescriptionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3840
+weight: 5380
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/changedescriptiontype/
 ---
 ## ChangeDescriptionType class

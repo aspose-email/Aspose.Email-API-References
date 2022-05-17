@@ -3,7 +3,7 @@ title: ImItemListType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8670
+weight: 10210
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/imitemlisttype/
 ---
 ## ImItemListType class

@@ -3,7 +3,7 @@ title: FlagStatusType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6560
+weight: 8100
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/flagstatustype/
 ---
 ## FlagStatusType enumeration

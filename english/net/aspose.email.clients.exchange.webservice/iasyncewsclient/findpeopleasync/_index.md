@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasy
 ---
 ## IAsyncEwsClient.FindPeopleAsync method
 
+Find contacts.
+
 ```csharp
 public Task<IEnumerable<Contact>> FindPeopleAsync(EwsFindPeople parameters)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | EwsFindPeople | The search parameters. |
+
+## Return Value
+
+An array of [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 
 ### See Also
 

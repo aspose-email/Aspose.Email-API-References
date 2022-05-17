@@ -3,7 +3,7 @@ title: GetInboxRulesCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7290
+weight: 8830
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getinboxrulescompletedeventhandler/
 ---
 ## GetInboxRulesCompletedEventHandler delegate

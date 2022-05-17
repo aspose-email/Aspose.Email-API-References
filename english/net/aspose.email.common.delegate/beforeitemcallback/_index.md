@@ -3,7 +3,7 @@ title: BeforeItemCallback
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15440
+weight: 16990
 url: /net/aspose.email.common.delegate/beforeitemcallback/
 ---
 ## BeforeItemCallback delegate

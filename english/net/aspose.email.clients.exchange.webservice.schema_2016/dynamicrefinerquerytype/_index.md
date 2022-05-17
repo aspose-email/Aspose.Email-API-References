@@ -3,7 +3,7 @@ title: DynamicRefinerQueryType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5450
+weight: 6990
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/dynamicrefinerquerytype/
 ---
 ## DynamicRefinerQueryType class

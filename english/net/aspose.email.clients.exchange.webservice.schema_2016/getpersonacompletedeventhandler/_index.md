@@ -3,7 +3,7 @@ title: GetPersonaCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7700
+weight: 9240
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getpersonacompletedeventhandler/
 ---
 ## GetPersonaCompletedEventHandler delegate

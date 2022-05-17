@@ -3,7 +3,7 @@ title: ImapIdentificationInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14750
+weight: 16290
 url: /net/aspose.email.clients.imap/imapidentificationinfo/
 ---
 ## ImapIdentificationInfo class

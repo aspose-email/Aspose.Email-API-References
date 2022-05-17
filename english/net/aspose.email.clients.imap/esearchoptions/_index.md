@@ -3,7 +3,7 @@ title: ESearchOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14660
+weight: 16200
 url: /net/aspose.email.clients.imap/esearchoptions/
 ---
 ## ESearchOptions class

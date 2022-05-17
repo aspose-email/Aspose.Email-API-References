@@ -3,7 +3,7 @@ title: MailTips
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2450
+weight: 3990
 url: /net/aspose.email.clients.exchange.webservice/mailtips/
 ---
 ## MailTips class

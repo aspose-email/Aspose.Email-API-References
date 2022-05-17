@@ -3,7 +3,7 @@ title: FindMeetingSpaceByJoinUrlResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6330
+weight: 7870
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findmeetingspacebyjoinurlresponsemessagetype/
 ---
 ## FindMeetingSpaceByJoinUrlResponseMessageType class

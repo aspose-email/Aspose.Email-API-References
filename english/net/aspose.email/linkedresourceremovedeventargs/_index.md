@@ -3,7 +3,7 @@ title: LinkedResourceRemovedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15890
+weight: 17490
 url: /net/aspose.email/linkedresourceremovedeventargs/
 ---
 ## LinkedResourceRemovedEventArgs class

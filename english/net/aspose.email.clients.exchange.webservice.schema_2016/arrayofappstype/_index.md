@@ -3,7 +3,7 @@ title: ArrayOfAppsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3280
+weight: 4820
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/arrayofappstype/
 ---
 ## ArrayOfAppsType class

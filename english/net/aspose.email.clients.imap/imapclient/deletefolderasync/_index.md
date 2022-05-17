@@ -8,9 +8,20 @@ url: /net/aspose.email.clients.imap/imapclient/deletefolderasync/
 ---
 ## ImapClient.DeleteFolderAsync method (1 of 4)
 
+Deletes a specified folder. This method represents IMAP DELETE command
+
 ```csharp
 public Task DeleteFolderAsync(IConnection connection, string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder to be deleted |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +34,19 @@ public Task DeleteFolderAsync(IConnection connection, string folderName)
 
 ## ImapClient.DeleteFolderAsync method (2 of 4)
 
+Deletes a specified folder. This method represents IMAP DELETE command
+
 ```csharp
 public Task DeleteFolderAsync(string folderName)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to be deleted |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,9 +58,21 @@ public Task DeleteFolderAsync(string folderName)
 
 ## ImapClient.DeleteFolderAsync method (3 of 4)
 
+Deletes a specified folder. This method represents IMAP DELETE command
+
 ```csharp
 public Task DeleteFolderAsync(IConnection connection, string folderName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder to be deleted |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -52,9 +85,20 @@ public Task DeleteFolderAsync(IConnection connection, string folderName, Cancell
 
 ## ImapClient.DeleteFolderAsync method (4 of 4)
 
+Deletes a specified folder. This method represents IMAP DELETE command
+
 ```csharp
 public Task DeleteFolderAsync(string folderName, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder to be deleted |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

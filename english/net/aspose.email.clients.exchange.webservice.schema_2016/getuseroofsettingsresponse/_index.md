@@ -3,7 +3,7 @@ title: GetUserOofSettingsResponse
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8390
+weight: 9930
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuseroofsettingsresponse/
 ---
 ## GetUserOofSettingsResponse class

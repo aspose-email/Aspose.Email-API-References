@@ -3,7 +3,7 @@ title: CompressionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1450
+weight: 2900
 url: /net/aspose.email.clients/compressiontype/
 ---
 ## CompressionType enumeration

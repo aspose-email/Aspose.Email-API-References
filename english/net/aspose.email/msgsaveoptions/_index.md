@@ -3,7 +3,7 @@ title: MsgSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17460
+weight: 19060
 url: /net/aspose.email/msgsaveoptions/
 ---
 ## MsgSaveOptions class

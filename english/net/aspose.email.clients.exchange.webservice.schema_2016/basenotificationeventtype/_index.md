@@ -3,7 +3,7 @@ title: BaseNotificationEventType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3570
+weight: 5110
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/basenotificationeventtype/
 ---
 ## BaseNotificationEventType class

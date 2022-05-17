@@ -3,7 +3,7 @@ title: HeaderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15740
+weight: 17340
 url: /net/aspose.email/headertype/
 ---
 ## HeaderType class

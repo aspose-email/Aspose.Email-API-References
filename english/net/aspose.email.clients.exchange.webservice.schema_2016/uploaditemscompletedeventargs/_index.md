@@ -3,7 +3,7 @@ title: UploadItemsCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13660
+weight: 15200
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/uploaditemscompletedeventargs/
 ---
 ## UploadItemsCompletedEventArgs class

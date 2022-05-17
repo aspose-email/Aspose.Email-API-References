@@ -3,7 +3,7 @@ title: CreateFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4470
+weight: 6010
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/createfoldertype/
 ---
 ## CreateFolderType class

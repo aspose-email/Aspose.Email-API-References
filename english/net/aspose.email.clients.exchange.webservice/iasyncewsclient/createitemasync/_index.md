@@ -8,10 +8,22 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createitemasy
 ---
 ## IAsyncEwsClient.CreateItemAsync method
 
+Creates the given item in the specified folder.
+
 ```csharp
 public Task<string> CreateItemAsync(MapiMessageItemBase item, string folderUri = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| item | MapiMessageItemBase | An item to create. |
+| folderUri | String | A folder Uri where item should be created. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+The item Uri
 
 ### See Also
 

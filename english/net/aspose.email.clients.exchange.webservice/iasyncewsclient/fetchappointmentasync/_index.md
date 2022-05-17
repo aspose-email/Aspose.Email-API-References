@@ -8,10 +8,28 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchappointm
 ---
 ## IAsyncEwsClient.FetchAppointmentAsync method
 
+Fetch the specified appointment from server.
+
 ```csharp
 public Task<Appointment> FetchAppointmentAsync(string appointmentUri, string folderUri, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| appointmentUri | String | An uri of appointment to be fetched. |
+| folderUri | String | An uri of appointments parent folder. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+A fetched [`Appointment`](../../../aspose.email.calendar/appointment).
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri* is `null` or `empty`. |
 
 ### See Also
 

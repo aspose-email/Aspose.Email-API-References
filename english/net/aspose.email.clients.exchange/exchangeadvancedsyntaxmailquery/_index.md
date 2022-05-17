@@ -3,7 +3,7 @@ title: ExchangeAdvancedSyntaxMailQuery
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1620
+weight: 3160
 url: /net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/
 ---
 ## ExchangeAdvancedSyntaxMailQuery class

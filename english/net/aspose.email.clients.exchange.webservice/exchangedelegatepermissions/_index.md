@@ -3,7 +3,7 @@ title: ExchangeDelegatePermissions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2240
+weight: 3780
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/
 ---
 ## ExchangeDelegatePermissions class

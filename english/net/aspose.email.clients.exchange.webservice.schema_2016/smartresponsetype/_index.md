@@ -3,7 +3,7 @@ title: SmartResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12530
+weight: 14070
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/smartresponsetype/
 ---
 ## SmartResponseType class

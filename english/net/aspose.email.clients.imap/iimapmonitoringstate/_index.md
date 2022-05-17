@@ -3,7 +3,7 @@ title: IImapMonitoringState
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14680
+weight: 16220
 url: /net/aspose.email.clients.imap/iimapmonitoringstate/
 ---
 ## IImapMonitoringState interface

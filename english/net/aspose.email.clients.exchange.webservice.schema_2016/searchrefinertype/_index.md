@@ -3,7 +3,7 @@ title: SearchRefinerType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11880
+weight: 13420
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/
 ---
 ## SearchRefinerType class

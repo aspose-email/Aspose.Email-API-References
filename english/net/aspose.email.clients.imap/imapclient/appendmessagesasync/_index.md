@@ -8,10 +8,23 @@ url: /net/aspose.email.clients.imap/imapclient/appendmessagesasync/
 ---
 ## ImapClient.AppendMessagesAsync method (1 of 8)
 
+Uploads the mail messages to the current folder
+
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, string folderName, 
     IEnumerable<MailMessage> messages, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder that will receive the mail message |
+| messages | IEnumerable`1 | Enumeration of email messages to be upload |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -26,10 +39,21 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 
 ## ImapClient.AppendMessagesAsync method (2 of 8)
 
+Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
+
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> messages, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messages | IEnumerable`1 | Enumeration of email messages to be upload |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -43,10 +67,22 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> m
 
 ## ImapClient.AppendMessagesAsync method (3 of 8)
 
+Uploads the mail messages to the current folder
+
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(string folderName, 
     IEnumerable<MailMessage> messages, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder that will receive the mail message |
+| messages | IEnumerable`1 | Enumeration of email messages to be upload |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -60,10 +96,21 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 
 ## ImapClient.AppendMessagesAsync method (4 of 8)
 
+Uploads the mail messages to the current folder If current folder hasn't been specified default folder is used.
+
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, 
     IEnumerable<MailMessage> messages)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messages | IEnumerable`1 | Enumeration of email messages to be upload |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -78,10 +125,22 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection,
 
 ## ImapClient.AppendMessagesAsync method (5 of 8)
 
+Uploads the mail messages to the current folder
+
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, string folderName, 
     IEnumerable<MailMessage> messages)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| folderName | String | Folder that will receive the mail message |
+| messages | IEnumerable`1 | Enumeration of email messages to be upload |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -96,9 +155,19 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 
 ## ImapClient.AppendMessagesAsync method (6 of 8)
 
+Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
+
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> messages)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| messages | IEnumerable`1 | Enumeration of email messages to be upload |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -112,10 +181,21 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> m
 
 ## ImapClient.AppendMessagesAsync method (7 of 8)
 
+Uploads the mail messages to the current folder
+
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(string folderName, 
     IEnumerable<MailMessage> messages)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderName | String | Folder that will receive the mail message |
+| messages | IEnumerable`1 | Enumeration of email messages to be upload |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -129,10 +209,22 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 
 ## ImapClient.AppendMessagesAsync method (8 of 8)
 
+Uploads the mail messages to the current folder If current folder hasn't been specified default folder is used.
+
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, 
     IEnumerable<MailMessage> messages, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| messages | IEnumerable`1 | Enumeration of email messages to be upload |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

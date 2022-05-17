@@ -8,10 +8,24 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createtaskasy
 ---
 ## IAsyncEwsClient.CreateTaskAsync method
 
+Creates the given task in the specified folder.
+
 ```csharp
 public Task<string> CreateTaskAsync(ExchangeTask task, string folder = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| task | ExchangeTask | A task to create. |
+| folder | String | A folder where task should be created. The folder [`TasksUri`](../../../aspose.email.clients.exchange/exchangemailboxinfo/tasksuri) is used by default. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task* is `null`. |
 
 ### See Also
 

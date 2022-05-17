@@ -3,7 +3,7 @@ title: BoolComparisonField
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18790
+weight: 20440
 url: /net/aspose.email.tools.search/boolcomparisonfield/
 ---
 ## BoolComparisonField class

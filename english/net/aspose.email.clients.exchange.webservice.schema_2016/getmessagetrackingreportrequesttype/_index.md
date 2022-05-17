@@ -3,7 +3,7 @@ title: GetMessageTrackingReportRequestType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7540
+weight: 9080
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportrequesttype/
 ---
 ## GetMessageTrackingReportRequestType class

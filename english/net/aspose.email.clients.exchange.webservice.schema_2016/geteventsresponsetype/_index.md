@@ -3,7 +3,7 @@ title: GetEventsResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7080
+weight: 8620
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/geteventsresponsetype/
 ---
 ## GetEventsResponseType class

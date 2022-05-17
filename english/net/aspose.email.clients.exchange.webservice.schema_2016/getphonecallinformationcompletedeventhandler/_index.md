@@ -3,7 +3,7 @@ title: GetPhoneCallInformationCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7740
+weight: 9280
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getphonecallinformationcompletedeventhandler/
 ---
 ## GetPhoneCallInformationCompletedEventHandler delegate

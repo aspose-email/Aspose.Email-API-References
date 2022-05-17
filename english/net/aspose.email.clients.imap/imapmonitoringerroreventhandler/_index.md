@@ -3,7 +3,7 @@ title: ImapMonitoringErrorEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14830
+weight: 16370
 url: /net/aspose.email.clients.imap/imapmonitoringerroreventhandler/
 ---
 ## ImapMonitoringErrorEventHandler delegate

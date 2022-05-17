@@ -3,7 +3,7 @@ title: TwoOperandExpressionType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13150
+weight: 14690
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/twooperandexpressiontype/
 ---
 ## TwoOperandExpressionType class

@@ -3,7 +3,7 @@ title: SmtpAddressType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12540
+weight: 14080
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/smtpaddresstype/
 ---
 ## SmtpAddressType class

@@ -3,7 +3,7 @@ title: UserConfigurationDictionaryObjectType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13730
+weight: 15270
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/userconfigurationdictionaryobjecttype/
 ---
 ## UserConfigurationDictionaryObjectType class

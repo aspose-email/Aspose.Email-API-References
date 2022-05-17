@@ -3,7 +3,7 @@ title: GetMailTipsOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2390
+weight: 3930
 url: /net/aspose.email.clients.exchange.webservice/getmailtipsoptions/
 ---
 ## GetMailTipsOptions class

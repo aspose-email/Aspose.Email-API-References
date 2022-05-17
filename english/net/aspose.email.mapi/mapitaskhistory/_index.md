@@ -3,7 +3,7 @@ title: MapiTaskHistory
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16900
+weight: 18500
 url: /net/aspose.email.mapi/mapitaskhistory/
 ---
 ## MapiTaskHistory enumeration

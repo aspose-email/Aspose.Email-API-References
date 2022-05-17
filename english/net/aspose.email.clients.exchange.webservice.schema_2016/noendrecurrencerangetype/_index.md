@@ -3,7 +3,7 @@ title: NoEndRecurrenceRangeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9850
+weight: 11390
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/noendrecurrencerangetype/
 ---
 ## NoEndRecurrenceRangeType class

@@ -3,7 +3,7 @@ title: UploadItemsResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13680
+weight: 15220
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/uploaditemsresponsemessagetype/
 ---
 ## UploadItemsResponseMessageType class

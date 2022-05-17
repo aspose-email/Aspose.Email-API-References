@@ -3,7 +3,7 @@ title: SyncFolderItemsResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12920
+weight: 14460
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemsresponsemessagetype/
 ---
 ## SyncFolderItemsResponseMessageType class

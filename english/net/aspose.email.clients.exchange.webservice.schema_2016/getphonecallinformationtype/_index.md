@@ -3,7 +3,7 @@ title: GetPhoneCallInformationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7760
+weight: 9300
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getphonecallinformationtype/
 ---
 ## GetPhoneCallInformationType class

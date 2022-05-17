@@ -3,7 +3,7 @@ title: IConnection
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14600
+weight: 16140
 url: /net/aspose.email.clients/iconnection/
 ---
 ## IConnection interface

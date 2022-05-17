@@ -3,7 +3,7 @@ title: DeviceType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1000
+weight: 2450
 url: /net/aspose.email.clients.activity/devicetype/
 ---
 ## DeviceType enumeration

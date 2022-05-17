@@ -3,7 +3,7 @@ title: DeleteMeetingInstanceResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5040
+weight: 6580
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/deletemeetinginstanceresponsemessagetype/
 ---
 ## DeleteMeetingInstanceResponseMessageType class

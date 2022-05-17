@@ -8,10 +8,18 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/deleteitemsas
 ---
 ## IAsyncEwsClient.DeleteItemsAsync method
 
+Deletes specified items
+
 ```csharp
 public Task DeleteItemsAsync(IEnumerable<string> itemUris, DeletionOptions options, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| itemUris | IEnumerable`1 | An items uris |
+| options | DeletionOptions | Defines parameters for items deletion |
+| cancellationToken | CancellationToken | The cancellation token. |
 
 ### See Also
 

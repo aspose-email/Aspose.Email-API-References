@@ -3,7 +3,7 @@ title: SwayAuditOperation
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1350
+weight: 2800
 url: /net/aspose.email.clients.activity/swayauditoperation/
 ---
 ## SwayAuditOperation enumeration

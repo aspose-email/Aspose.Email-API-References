@@ -3,7 +3,7 @@ title: ClassificationOverride
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14340
+weight: 15880
 url: /net/aspose.email.clients.graph/classificationoverride/
 ---
 ## ClassificationOverride class

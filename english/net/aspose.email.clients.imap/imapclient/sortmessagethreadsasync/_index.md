@@ -8,10 +8,21 @@ url: /net/aspose.email.clients.imap/imapclient/sortmessagethreadsasync/
 ---
 ## ImapClient.SortMessageThreadsAsync method (1 of 4)
 
+Sort message threads.
+
 ```csharp
 public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection connection, 
     SortConditions conditions)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| conditions | SortConditions | Thread conditions. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -26,9 +37,19 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 
 ## ImapClient.SortMessageThreadsAsync method (2 of 4)
 
+Sort message threads.
+
 ```csharp
 public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions conditions)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| conditions | SortConditions | Thread conditions. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -42,10 +63,22 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions co
 
 ## ImapClient.SortMessageThreadsAsync method (3 of 4)
 
+Sort message threads.
+
 ```csharp
 public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection connection, 
     SortConditions conditions, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| conditions | SortConditions | Thread conditions. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -60,10 +93,21 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 
 ## ImapClient.SortMessageThreadsAsync method (4 of 4)
 
+Sort message threads.
+
 ```csharp
 public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions conditions, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| conditions | SortConditions | Thread conditions. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

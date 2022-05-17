@@ -3,7 +3,7 @@ title: ExchangeBasePermission
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1660
+weight: 3200
 url: /net/aspose.email.clients.exchange/exchangebasepermission/
 ---
 ## ExchangeBasePermission class

@@ -3,7 +3,7 @@ title: HideTagCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8550
+weight: 10090
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/hidetagcompletedeventargs/
 ---
 ## HideTagCompletedEventArgs class

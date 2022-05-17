@@ -3,7 +3,7 @@ title: AppointmentFlags
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 470
 url: /net/aspose.email.calendar/appointmentflags/
 ---
 ## AppointmentFlags enumeration

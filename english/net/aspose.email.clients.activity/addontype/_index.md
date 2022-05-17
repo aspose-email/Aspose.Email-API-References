@@ -3,7 +3,7 @@ title: AddOnType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 920
+weight: 2370
 url: /net/aspose.email.clients.activity/addontype/
 ---
 ## AddOnType enumeration

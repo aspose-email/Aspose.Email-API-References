@@ -3,7 +3,7 @@ title: MessageThreadResult
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14960
+weight: 16500
 url: /net/aspose.email.clients.imap/messagethreadresult/
 ---
 ## MessageThreadResult class

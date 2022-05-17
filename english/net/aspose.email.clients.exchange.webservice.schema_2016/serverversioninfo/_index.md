@@ -3,7 +3,7 @@ title: ServerVersionInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12100
+weight: 13640
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/
 ---
 ## ServerVersionInfo class
@@ -34,7 +34,6 @@ public class ServerVersionInfo : SoapHeader
 
 ### See Also
 
-* class [SoapHeader](../../system.web.services.protocols/soapheader)
 * namespace [Aspose.Email.Clients.Exchange.WebService.Schema_2016](../../aspose.email.clients.exchange.webservice.schema_2016)
 * assembly [Aspose.Email](../../)
 

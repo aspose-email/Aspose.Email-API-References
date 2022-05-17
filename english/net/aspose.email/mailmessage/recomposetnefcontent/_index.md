@@ -3,7 +3,7 @@ title: RecomposeTnefContent
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 530
 url: /net/aspose.email/mailmessage/recomposetnefcontent/
 ---
 ## MailMessage.RecomposeTnefContent method

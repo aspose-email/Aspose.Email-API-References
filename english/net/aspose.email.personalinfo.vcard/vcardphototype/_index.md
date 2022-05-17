@@ -3,7 +3,7 @@ title: VCardPhotoType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17900
+weight: 19500
 url: /net/aspose.email.personalinfo.vcard/vcardphototype/
 ---
 ## VCardPhotoType enumeration

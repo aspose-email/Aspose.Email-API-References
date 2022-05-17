@@ -3,7 +3,7 @@ title: TraversalAsposeException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15630
+weight: 17230
 url: /net/aspose.email.exceptions/traversalasposeexception/
 ---
 ## TraversalAsposeException class

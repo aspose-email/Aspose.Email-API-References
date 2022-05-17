@@ -3,7 +3,7 @@ title: ExceptionManager
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15560
+weight: 17160
 url: /net/aspose.email.exceptions/exceptionmanager/
 ---
 ## ExceptionManager class

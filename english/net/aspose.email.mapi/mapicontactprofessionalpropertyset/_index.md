@@ -3,7 +3,7 @@ title: MapiContactProfessionalPropertySet
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16520
+weight: 18120
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/
 ---
 ## MapiContactProfessionalPropertySet class

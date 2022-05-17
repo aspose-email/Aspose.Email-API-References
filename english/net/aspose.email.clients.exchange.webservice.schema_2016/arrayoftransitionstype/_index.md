@@ -3,7 +3,7 @@ title: ArrayOfTransitionsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3370
+weight: 4910
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/arrayoftransitionstype/
 ---
 ## ArrayOfTransitionsType class

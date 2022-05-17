@@ -3,7 +3,7 @@ title: UserConfigurationPropertyType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13760
+weight: 15300
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/userconfigurationpropertytype/
 ---
 ## UserConfigurationPropertyType enumeration

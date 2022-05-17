@@ -3,7 +3,7 @@ title: MessageObjectProperty
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17070
+weight: 18670
 url: /net/aspose.email.mapi.msg/messageobjectproperty/
 ---
 ## MessageObjectProperty class

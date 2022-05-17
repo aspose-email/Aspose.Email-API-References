@@ -8,11 +8,23 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listcontactsa
 ---
 ## IAsyncEwsClient.ListContactsAsync method
 
+Lists contacts located in the specified folder on server.
+
 ```csharp
 public Task<IEnumerable<MapiContact>> ListContactsAsync(string folderUri, 
     IEnumerable<PropertyDescriptor> mapiProperties = null, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderUri | String | A folder to search contacts in. |
+| mapiProperties | IEnumerable`1 | Required additional mapi properties. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+An array of read [`MapiContact`](../../../aspose.email.mapi/mapicontact) that represents contact information.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: DisconnectPhoneCallCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5320
+weight: 6860
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/disconnectphonecallcompletedeventhandler/
 ---
 ## DisconnectPhoneCallCompletedEventHandler delegate

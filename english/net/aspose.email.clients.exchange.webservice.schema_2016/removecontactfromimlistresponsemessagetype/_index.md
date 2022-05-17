@@ -3,7 +3,7 @@ title: RemoveContactFromImListResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11060
+weight: 12600
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/removecontactfromimlistresponsemessagetype/
 ---
 ## RemoveContactFromImListResponseMessageType class

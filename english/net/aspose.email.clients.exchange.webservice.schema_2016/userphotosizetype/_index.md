@@ -3,7 +3,7 @@ title: UserPhotoSizeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13810
+weight: 15350
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/userphotosizetype/
 ---
 ## UserPhotoSizeType enumeration

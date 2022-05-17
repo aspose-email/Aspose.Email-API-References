@@ -3,7 +3,7 @@ title: RemoveDistributionGroupFromImListCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11120
+weight: 12660
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/removedistributiongroupfromimlistcompletedeventargs/
 ---
 ## RemoveDistributionGroupFromImListCompletedEventArgs class

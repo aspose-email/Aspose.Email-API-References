@@ -8,10 +8,28 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/folderexistsa
 ---
 ## IAsyncEwsClient.FolderExistsAsync method
 
+Checks whether the specified folder exists.
+
 ```csharp
 public Task<bool> FolderExistsAsync(string parentFolderUri, string folderName, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentFolderUri | String | An uri of parent folder. |
+| folderName | String | A folder name. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+`true` if the specified folder exists in the specified parent folder; otherwise, `false`.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri* or *folderName* is `null` or `empty` |
 
 ### See Also
 

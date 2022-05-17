@@ -3,7 +3,7 @@ title: MeetingTimeCandidatesConstraintItem
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9590
+weight: 11130
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidatesconstraintitem/
 ---
 ## MeetingTimeCandidatesConstraintItem class

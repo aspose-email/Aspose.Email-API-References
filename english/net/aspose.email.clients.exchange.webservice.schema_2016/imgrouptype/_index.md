@@ -3,7 +3,7 @@ title: ImGroupType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8660
+weight: 10200
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/imgrouptype/
 ---
 ## ImGroupType class

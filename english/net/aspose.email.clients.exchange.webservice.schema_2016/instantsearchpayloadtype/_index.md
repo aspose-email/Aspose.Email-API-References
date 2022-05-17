@@ -3,7 +3,7 @@ title: InstantSearchPayloadType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8810
+weight: 10350
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/instantsearchpayloadtype/
 ---
 ## InstantSearchPayloadType class

@@ -3,7 +3,7 @@ title: MapiMessageReader
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16700
+weight: 18300
 url: /net/aspose.email.mapi/mapimessagereader/
 ---
 ## MapiMessageReader class

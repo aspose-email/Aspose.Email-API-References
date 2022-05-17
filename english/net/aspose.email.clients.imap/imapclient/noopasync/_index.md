@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.imap/imapclient/noopasync/
 ---
 ## ImapClient.NoopAsync method (1 of 4)
 
+'No operation' command
+
 ```csharp
 public Task NoopAsync(IConnection connection)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +33,15 @@ public Task NoopAsync(IConnection connection)
 
 ## ImapClient.NoopAsync method (2 of 4)
 
+'No operation' command
+
 ```csharp
 public Task NoopAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,9 +53,20 @@ public Task NoopAsync()
 
 ## ImapClient.NoopAsync method (3 of 4)
 
+'No operation' command
+
 ```csharp
 public Task NoopAsync(IConnection connection, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -52,9 +79,19 @@ public Task NoopAsync(IConnection connection, CancellationToken token)
 
 ## ImapClient.NoopAsync method (4 of 4)
 
+'No operation' command
+
 ```csharp
 public Task NoopAsync(CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: PropertyDataType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17200
+weight: 18800
 url: /net/aspose.email.mapi/propertydatatype/
 ---
 ## PropertyDataType enumeration

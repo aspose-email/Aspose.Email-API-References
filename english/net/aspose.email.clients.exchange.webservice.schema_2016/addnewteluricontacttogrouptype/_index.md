@@ -3,7 +3,7 @@ title: AddNewTelUriContactToGroupType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2950
+weight: 4490
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/addnewteluricontacttogrouptype/
 ---
 ## AddNewTelUriContactToGroupType class

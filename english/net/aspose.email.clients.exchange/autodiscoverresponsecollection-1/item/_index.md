@@ -14,9 +14,9 @@ Gets the response at the specified index.
 public TResponse this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Index. |
+| Parameter | Description |
+| --- | --- |
+| index | Index. |
 
 ### See Also
 

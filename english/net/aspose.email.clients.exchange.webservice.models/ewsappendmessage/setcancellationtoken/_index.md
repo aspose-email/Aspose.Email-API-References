@@ -8,6 +8,8 @@ url: /net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/setca
 ---
 ## EwsAppendMessage.SetCancellationToken method
 
+Set the cancellation token.
+
 ```csharp
 public EwsAppendMessage SetCancellationToken(CancellationToken cancellationToken)
 ```

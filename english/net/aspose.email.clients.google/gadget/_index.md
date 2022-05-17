@@ -3,7 +3,7 @@ title: Gadget
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14210
+weight: 15750
 url: /net/aspose.email.clients.google/gadget/
 ---
 ## Gadget class

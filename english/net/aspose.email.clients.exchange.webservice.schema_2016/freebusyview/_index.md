@@ -3,7 +3,7 @@ title: FreeBusyView
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6720
+weight: 8260
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/freebusyview/
 ---
 ## FreeBusyView class

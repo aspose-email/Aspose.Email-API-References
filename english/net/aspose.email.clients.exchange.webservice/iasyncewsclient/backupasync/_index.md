@@ -8,10 +8,26 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/backupasync/
 ---
 ## IAsyncEwsClient.BackupAsync method (1 of 2)
 
+Backups the content of the specified folders.
+
 ```csharp
 public Task BackupAsync(ExchangeFolderInfoCollection folders, string fileName, 
     BackupOptions options, CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folders | ExchangeFolderInfoCollection | The collection of folders to backup. |
+| fileName | String | The path to the personal storage file. |
+| options | BackupOptions | The backup options. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | A *fileName* is `null` or `empty`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders* is `null`. |
 
 ### See Also
 
@@ -25,10 +41,26 @@ public Task BackupAsync(ExchangeFolderInfoCollection folders, string fileName,
 
 ## IAsyncEwsClient.BackupAsync method (2 of 2)
 
+Backups the content of the specified folders.
+
 ```csharp
 public Task BackupAsync(ExchangeFolderInfoCollection folders, Stream stream, BackupOptions options, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folders | ExchangeFolderInfoCollection | The collection of folders to backup. |
+| stream | Stream | The stream to write into. |
+| options | BackupOptions | The backup options. |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| NotSupportedException | The given stream does not support writing. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders* or *stream* is `null`. |
 
 ### See Also
 

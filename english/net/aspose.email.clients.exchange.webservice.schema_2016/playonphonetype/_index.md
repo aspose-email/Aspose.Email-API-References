@@ -3,7 +3,7 @@ title: PlayOnPhoneType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10480
+weight: 12020
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/playonphonetype/
 ---
 ## PlayOnPhoneType class

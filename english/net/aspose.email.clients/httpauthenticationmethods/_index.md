@@ -3,7 +3,7 @@ title: HttpAuthenticationMethods
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14550
+weight: 16090
 url: /net/aspose.email.clients/httpauthenticationmethods/
 ---
 ## HttpAuthenticationMethods enumeration

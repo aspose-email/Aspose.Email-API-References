@@ -3,7 +3,7 @@ title: ParticipantActivityRole
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10120
+weight: 11660
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/participantactivityrole/
 ---
 ## ParticipantActivityRole enumeration

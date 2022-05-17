@@ -3,7 +3,7 @@ title: UpdateItemResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13500
+weight: 15040
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updateitemresponsemessagetype/
 ---
 ## UpdateItemResponseMessageType class

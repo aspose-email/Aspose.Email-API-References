@@ -3,7 +3,7 @@ title: MSIntendedStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 630
 url: /net/aspose.email.calendar/msintendedstatus/
 ---
 ## MSIntendedStatus enumeration

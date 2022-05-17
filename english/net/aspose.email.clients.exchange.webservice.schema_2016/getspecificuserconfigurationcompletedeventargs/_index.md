@@ -3,7 +3,7 @@ title: GetSpecificUserConfigurationCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8170
+weight: 9710
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getspecificuserconfigurationcompletedeventargs/
 ---
 ## GetSpecificUserConfigurationCompletedEventArgs class

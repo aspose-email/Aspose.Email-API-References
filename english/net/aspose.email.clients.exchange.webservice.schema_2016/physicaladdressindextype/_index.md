@@ -3,7 +3,7 @@ title: PhysicalAddressIndexType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10430
+weight: 11970
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/physicaladdressindextype/
 ---
 ## PhysicalAddressIndexType enumeration

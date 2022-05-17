@@ -3,7 +3,7 @@ title: EnhancedLocationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 5710
+weight: 7250
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/enhancedlocationtype/
 ---
 ## EnhancedLocationType class

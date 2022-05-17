@@ -3,7 +3,7 @@ title: FollowUpOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16040
+weight: 17640
 url: /net/aspose.email.mapi/followupoptions/
 ---
 ## FollowUpOptions class

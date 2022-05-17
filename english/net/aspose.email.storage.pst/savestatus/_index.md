@@ -3,7 +3,7 @@ title: SaveStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18470
+weight: 20120
 url: /net/aspose.email.storage.pst/savestatus/
 ---
 ## SaveStatus enumeration

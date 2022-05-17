@@ -3,7 +3,7 @@ title: StartSearchSessionResponseMessage
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12610
+weight: 14150
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/startsearchsessionresponsemessage/
 ---
 ## StartSearchSessionResponseMessage class

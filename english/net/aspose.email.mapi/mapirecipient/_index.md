@@ -3,7 +3,7 @@ title: MapiRecipient
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16820
+weight: 18420
 url: /net/aspose.email.mapi/mapirecipient/
 ---
 ## MapiRecipient class

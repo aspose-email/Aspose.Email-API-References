@@ -8,6 +8,8 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/settimezoneid
 ---
 ## IAsyncEwsClient.SetTimezoneIdAsync method
 
+Sets timezone id.
+
 ```csharp
 public Task SetTimezoneIdAsync(string timezoneId, CancellationToken cancellationToken = default)
 ```

@@ -3,7 +3,7 @@ title: TokenProvider.Google
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15410
+weight: 16960
 url: /net/aspose.email.clients/tokenprovider.google/
 ---
 ## TokenProvider.Google class

@@ -3,7 +3,7 @@ title: BaseDelegateType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3490
+weight: 5030
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/basedelegatetype/
 ---
 ## BaseDelegateType class

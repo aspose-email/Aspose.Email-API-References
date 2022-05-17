@@ -8,9 +8,19 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getmailboxesa
 ---
 ## IAsyncEwsClient.GetMailboxesAsync method
 
+Lists mailboxes having smtp addresses. Note: the maximum count of returned contacts is 100. This is a restriction of used EWS operation.
+
 ```csharp
 public Task<Contact[]> GetMailboxesAsync(CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cancellationToken | CancellationToken | The cancellation token |
+
+## Return Value
+
+Contacts that represent contact information
 
 ### See Also
 

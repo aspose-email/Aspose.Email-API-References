@@ -3,7 +3,7 @@ title: ObjectDisposedException
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15610
+weight: 17210
 url: /net/aspose.email.exceptions/objectdisposedexception/
 ---
 ## ObjectDisposedException class

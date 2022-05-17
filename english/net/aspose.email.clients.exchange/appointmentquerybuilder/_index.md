@@ -3,7 +3,7 @@ title: AppointmentQueryBuilder
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1500
+weight: 3040
 url: /net/aspose.email.clients.exchange/appointmentquerybuilder/
 ---
 ## AppointmentQueryBuilder class

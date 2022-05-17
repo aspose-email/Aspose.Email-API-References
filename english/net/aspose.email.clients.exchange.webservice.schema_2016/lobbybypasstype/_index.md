@@ -3,7 +3,7 @@ title: LobbyBypassType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9140
+weight: 10680
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/lobbybypasstype/
 ---
 ## LobbyBypassType enumeration

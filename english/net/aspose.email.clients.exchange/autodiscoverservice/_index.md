@@ -3,7 +3,7 @@ title: AutodiscoverService
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1550
+weight: 3090
 url: /net/aspose.email.clients.exchange/autodiscoverservice/
 ---
 ## AutodiscoverService class

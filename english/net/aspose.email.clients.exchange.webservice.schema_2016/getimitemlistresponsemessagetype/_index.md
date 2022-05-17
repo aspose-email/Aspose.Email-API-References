@@ -3,7 +3,7 @@ title: GetImItemListResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7220
+weight: 8760
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getimitemlistresponsemessagetype/
 ---
 ## GetImItemListResponseMessageType class

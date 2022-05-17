@@ -3,7 +3,7 @@ title: PathToExceptionFieldType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10130
+weight: 11670
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/pathtoexceptionfieldtype/
 ---
 ## PathToExceptionFieldType class

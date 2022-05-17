@@ -3,7 +3,7 @@ title: Endpoint
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1010
+weight: 2460
 url: /net/aspose.email.clients.activity/endpoint/
 ---
 ## Endpoint enumeration

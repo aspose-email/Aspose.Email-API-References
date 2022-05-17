@@ -3,7 +3,7 @@ title: FindPeopleType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6510
+weight: 8050
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/
 ---
 ## FindPeopleType class

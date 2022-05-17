@@ -3,7 +3,7 @@ title: DebugFormatter
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18600
+weight: 20250
 url: /net/aspose.email.tools.logging/debugformatter/
 ---
 ## DebugFormatter class

@@ -3,7 +3,7 @@ title: MapiCalendarClientIntent
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16170
+weight: 17770
 url: /net/aspose.email.mapi/mapicalendarclientintent/
 ---
 ## MapiCalendarClientIntent enumeration

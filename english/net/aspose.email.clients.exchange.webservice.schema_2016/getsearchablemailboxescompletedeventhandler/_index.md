@@ -3,7 +3,7 @@ title: GetSearchableMailboxesCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7970
+weight: 9510
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getsearchablemailboxescompletedeventhandler/
 ---
 ## GetSearchableMailboxesCompletedEventHandler delegate

@@ -3,7 +3,7 @@ title: TaskStatusType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12990
+weight: 14530
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/taskstatustype/
 ---
 ## TaskStatusType enumeration

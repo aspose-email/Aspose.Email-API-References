@@ -8,7 +8,7 @@ url: /net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/create/
 ---
 ## EwsFindPeople.Create method
 
-Creates the !:IAsyncEwsClient.FindPeopleAsync parameter set.
+Creates the [`FindPeopleAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync) parameter set.
 
 ```csharp
 public static EwsFindPeople Create()

@@ -3,7 +3,7 @@ title: KnownPropertySets
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16090
+weight: 17690
 url: /net/aspose.email.mapi/knownpropertysets/
 ---
 ## KnownPropertySets class

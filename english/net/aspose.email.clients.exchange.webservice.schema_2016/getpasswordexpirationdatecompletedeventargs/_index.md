@@ -3,7 +3,7 @@ title: GetPasswordExpirationDateCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7650
+weight: 9190
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getpasswordexpirationdatecompletedeventargs/
 ---
 ## GetPasswordExpirationDateCompletedEventArgs class

@@ -3,7 +3,7 @@ title: MapiSensitivity
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18350
+weight: 20000
 url: /net/aspose.email.storage.pst/mapisensitivity/
 ---
 ## MapiSensitivity enumeration

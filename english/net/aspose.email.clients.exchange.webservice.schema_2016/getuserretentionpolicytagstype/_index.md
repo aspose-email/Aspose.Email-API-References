@@ -3,7 +3,7 @@ title: GetUserRetentionPolicyTagsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8480
+weight: 10020
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getuserretentionpolicytagstype/
 ---
 ## GetUserRetentionPolicyTagsType class

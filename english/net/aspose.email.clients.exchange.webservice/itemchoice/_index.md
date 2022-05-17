@@ -3,7 +3,7 @@ title: ItemChoice
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2430
+weight: 3970
 url: /net/aspose.email.clients.exchange.webservice/itemchoice/
 ---
 ## ItemChoice enumeration

@@ -3,7 +3,7 @@ title: SyncFolderHierarchyDeleteType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12820
+weight: 14360
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchydeletetype/
 ---
 ## SyncFolderHierarchyDeleteType class

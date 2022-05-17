@@ -3,7 +3,7 @@ title: GetFolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7150
+weight: 8690
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getfoldertype/
 ---
 ## GetFolderType class

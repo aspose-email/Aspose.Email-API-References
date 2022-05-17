@@ -3,7 +3,7 @@ title: GetInboxRulesResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7310
+weight: 8850
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getinboxrulesresponsetype/
 ---
 ## GetInboxRulesResponseType class

@@ -3,7 +3,7 @@ title: Identity
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14400
+weight: 15940
 url: /net/aspose.email.clients.graph/identity/
 ---
 ## Identity class

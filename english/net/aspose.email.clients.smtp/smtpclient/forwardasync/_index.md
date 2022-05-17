@@ -8,10 +8,23 @@ url: /net/aspose.email.clients.smtp/smtpclient/forwardasync/
 ---
 ## SmtpClient.ForwardAsync method (1 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, string recipient, 
     MailMessage message)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sender | String | Sender of the forwarded message. |
+| recipient | String | Recipient of the forwarded message. |
+| message | MailMessage | The message for a forwarding. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -25,10 +38,23 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 
 ## SmtpClient.ForwardAsync method (2 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, MailAddressCollection recipients, 
     MailMessage message)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sender | String | Sender of the forwarded message. |
+| recipients | MailAddressCollection | Recipients of the forwarded message. |
+| message | MailMessage | The message for a forwarding. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -43,9 +69,21 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 ## SmtpClient.ForwardAsync method (3 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(string sender, string recipient, MailMessage message)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sender | String | Sender of the forwarded message. |
+| recipient | String | Recipient of the forwarded message. |
+| message | MailMessage | The message for a forwarding. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -58,9 +96,21 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message)
 
 ## SmtpClient.ForwardAsync method (4 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMessage message)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sender | String | Sender of the forwarded message. |
+| recipients | MailAddressCollection | Recipients of the forwarded message. |
+| message | MailMessage | The message for a forwarding. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -74,10 +124,23 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 
 ## SmtpClient.ForwardAsync method (5 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, MailAddressCollection recipients, 
     Stream messageStream)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sender | String | Sender of the forwarded message. |
+| recipients | MailAddressCollection | Recipients of the forwarded message. |
+| messageStream | Stream | The stream that represents message in eml format. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -91,9 +154,21 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 ## SmtpClient.ForwardAsync method (6 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream messageStream)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sender | String | Sender of the forwarded message. |
+| recipients | MailAddressCollection | Recipients of the forwarded message. |
+| messageStream | Stream | The stream that represents message in eml format. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -106,10 +181,24 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 
 ## SmtpClient.ForwardAsync method (7 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, string recipient, 
     MailMessage message, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sender | String | Sender of the forwarded message. |
+| recipient | String | Recipient of the forwarded message. |
+| message | MailMessage | The message for a forwarding. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -123,10 +212,24 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 
 ## SmtpClient.ForwardAsync method (8 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, MailAddressCollection recipients, 
     MailMessage message, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sender | String | Sender of the forwarded message. |
+| recipients | MailAddressCollection | Recipients of the forwarded message. |
+| message | MailMessage | The message for a forwarding. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -141,10 +244,23 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 ## SmtpClient.ForwardAsync method (9 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(string sender, string recipient, MailMessage message, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sender | String | Sender of the forwarded message. |
+| recipient | String | Recipient of the forwarded message. |
+| message | MailMessage | The message for a forwarding. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -157,10 +273,23 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message,
 
 ## SmtpClient.ForwardAsync method (10 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMessage message, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sender | String | Sender of the forwarded message. |
+| recipients | MailAddressCollection | Recipients of the forwarded message. |
+| message | MailMessage | The message for a forwarding. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -174,10 +303,24 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 
 ## SmtpClient.ForwardAsync method (11 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(IConnection connection, string sender, MailAddressCollection recipients, 
     Stream messageStream, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sender | String | Sender of the forwarded message. |
+| recipients | MailAddressCollection | Recipients of the forwarded message. |
+| messageStream | Stream | The stream that represents message in eml format. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -191,10 +334,23 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 
 ## SmtpClient.ForwardAsync method (12 of 12)
 
+Forwards specified message to recipient
+
 ```csharp
 public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream messageStream, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sender | String | Sender of the forwarded message. |
+| recipients | MailAddressCollection | Recipients of the forwarded message. |
+| messageStream | Stream | The stream that represents message in eml format. |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

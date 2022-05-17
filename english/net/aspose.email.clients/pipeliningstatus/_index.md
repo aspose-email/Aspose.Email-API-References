@@ -3,7 +3,7 @@ title: PipeliningStatus
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15180
+weight: 16730
 url: /net/aspose.email.clients/pipeliningstatus/
 ---
 ## PipeliningStatus class

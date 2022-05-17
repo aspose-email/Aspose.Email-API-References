@@ -3,7 +3,7 @@ title: MapiCalendarDayOfWeek
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16190
+weight: 17790
 url: /net/aspose.email.mapi/mapicalendardayofweek/
 ---
 ## MapiCalendarDayOfWeek enumeration

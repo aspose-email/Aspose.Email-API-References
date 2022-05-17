@@ -3,7 +3,7 @@ title: OccurrenceInfoType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9970
+weight: 11510
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/occurrenceinfotype/
 ---
 ## OccurrenceInfoType class

@@ -3,7 +3,7 @@ title: TextFormat
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 17720
+weight: 19320
 url: /net/aspose.email.personalinfo/textformat/
 ---
 ## TextFormat enumeration

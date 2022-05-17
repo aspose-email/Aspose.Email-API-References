@@ -3,7 +3,7 @@ title: UserConfigurationName
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14030
+weight: 15570
 url: /net/aspose.email.clients.exchange.webservice/userconfigurationname/
 ---
 ## UserConfigurationName class

@@ -3,7 +3,7 @@ title: ExchangeMessagePageInfo
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1880
+weight: 3420
 url: /net/aspose.email.clients.exchange/exchangemessagepageinfo/
 ---
 ## ExchangeMessagePageInfo class

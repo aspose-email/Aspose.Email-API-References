@@ -8,9 +8,20 @@ url: /net/aspose.email.clients.pop3/pop3client/getmessageuniqueidasync/
 ---
 ## Pop3Client.GetMessageUniqueIdAsync method (1 of 4)
 
+Gets the message unique id
+
 ```csharp
 public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequenceNumber)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of the message |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -23,9 +34,19 @@ public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequence
 
 ## Pop3Client.GetMessageUniqueIdAsync method (2 of 4)
 
+Gets the message unique id
+
 ```csharp
 public Task<string> GetMessageUniqueIdAsync(int sequenceNumber)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of the message |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -37,10 +58,22 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber)
 
 ## Pop3Client.GetMessageUniqueIdAsync method (3 of 4)
 
+Gets the message unique id
+
 ```csharp
 public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequenceNumber, 
     CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| sequenceNumber | Int32 | The sequence number of the message |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
@@ -53,9 +86,20 @@ public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequence
 
 ## Pop3Client.GetMessageUniqueIdAsync method (4 of 4)
 
+Gets the message unique id
+
 ```csharp
 public Task<string> GetMessageUniqueIdAsync(int sequenceNumber, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceNumber | Int32 | The sequence number of the message |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 

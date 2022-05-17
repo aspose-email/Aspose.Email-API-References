@@ -3,7 +3,7 @@ title: FolderType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6680
+weight: 8220
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/foldertype/
 ---
 ## FolderType class

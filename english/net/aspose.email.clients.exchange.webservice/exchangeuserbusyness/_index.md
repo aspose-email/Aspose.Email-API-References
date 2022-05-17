@@ -3,7 +3,7 @@ title: ExchangeUserBusyness
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2340
+weight: 3880
 url: /net/aspose.email.clients.exchange.webservice/exchangeuserbusyness/
 ---
 ## ExchangeUserBusyness enumeration

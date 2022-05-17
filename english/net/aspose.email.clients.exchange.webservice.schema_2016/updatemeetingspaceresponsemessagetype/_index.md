@@ -3,7 +3,7 @@ title: UpdateMeetingSpaceResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13590
+weight: 15130
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/updatemeetingspaceresponsemessagetype/
 ---
 ## UpdateMeetingSpaceResponseMessageType class

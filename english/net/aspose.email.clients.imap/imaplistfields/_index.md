@@ -3,7 +3,7 @@ title: ImapListFields
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14770
+weight: 16310
 url: /net/aspose.email.clients.imap/imaplistfields/
 ---
 ## ImapListFields enumeration

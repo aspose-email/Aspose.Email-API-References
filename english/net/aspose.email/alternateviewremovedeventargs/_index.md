@@ -3,7 +3,7 @@ title: AlternateViewRemovedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.email/alternateviewremovedeventargs/
 ---
 ## AlternateViewRemovedEventArgs class

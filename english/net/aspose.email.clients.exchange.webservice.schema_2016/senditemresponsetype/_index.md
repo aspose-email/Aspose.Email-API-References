@@ -3,7 +3,7 @@ title: SendItemResponseType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 12010
+weight: 13550
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/senditemresponsetype/
 ---
 ## SendItemResponseType class

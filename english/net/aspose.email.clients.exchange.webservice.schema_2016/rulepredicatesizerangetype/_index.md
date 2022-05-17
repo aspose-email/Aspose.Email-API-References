@@ -3,7 +3,7 @@ title: RulePredicateSizeRangeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11650
+weight: 13190
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/rulepredicatesizerangetype/
 ---
 ## RulePredicateSizeRangeType class

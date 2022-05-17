@@ -3,7 +3,7 @@ title: LogEntry
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18650
+weight: 20300
 url: /net/aspose.email.tools.logging/logentry/
 ---
 ## LogEntry class

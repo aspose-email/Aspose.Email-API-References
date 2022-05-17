@@ -3,7 +3,7 @@ title: SmtpKnownAuthenticationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15350
+weight: 16900
 url: /net/aspose.email.clients.smtp/smtpknownauthenticationtype/
 ---
 ## SmtpKnownAuthenticationType enumeration

@@ -3,7 +3,7 @@ title: GetServiceConfigurationCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 8060
+weight: 9600
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getserviceconfigurationcompletedeventhandler/
 ---
 ## GetServiceConfigurationCompletedEventHandler delegate

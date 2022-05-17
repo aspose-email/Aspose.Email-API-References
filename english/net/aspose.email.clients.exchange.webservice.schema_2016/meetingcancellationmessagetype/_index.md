@@ -3,7 +3,7 @@ title: MeetingCancellationMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9470
+weight: 11010
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/meetingcancellationmessagetype/
 ---
 ## MeetingCancellationMessageType class

@@ -3,7 +3,7 @@ title: FindPeopleCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 6490
+weight: 8030
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/findpeoplecompletedeventhandler/
 ---
 ## FindPeopleCompletedEventHandler delegate

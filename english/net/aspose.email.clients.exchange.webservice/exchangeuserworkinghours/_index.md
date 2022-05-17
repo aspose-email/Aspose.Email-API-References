@@ -3,7 +3,7 @@ title: ExchangeUserWorkingHours
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2350
+weight: 3890
 url: /net/aspose.email.clients.exchange.webservice/exchangeuserworkinghours/
 ---
 ## ExchangeUserWorkingHours class

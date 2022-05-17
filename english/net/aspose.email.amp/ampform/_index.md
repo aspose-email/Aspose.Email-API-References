@@ -3,7 +3,7 @@ title: AmpForm
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.email.amp/ampform/
 ---
 ## AmpForm class

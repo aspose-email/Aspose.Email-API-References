@@ -3,7 +3,7 @@ title: Workload
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1390
+weight: 2840
 url: /net/aspose.email.clients.activity/workload/
 ---
 ## Workload enumeration

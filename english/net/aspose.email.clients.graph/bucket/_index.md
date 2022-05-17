@@ -3,7 +3,7 @@ title: Bucket
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14320
+weight: 15860
 url: /net/aspose.email.clients.graph/bucket/
 ---
 ## Bucket class

@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.email/mailmessage/getenumerator/
 ---
 ## MailMessage.GetEnumerator method

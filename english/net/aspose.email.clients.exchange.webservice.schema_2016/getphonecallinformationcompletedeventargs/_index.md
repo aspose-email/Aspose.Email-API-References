@@ -3,7 +3,7 @@ title: GetPhoneCallInformationCompletedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7730
+weight: 9270
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getphonecallinformationcompletedeventargs/
 ---
 ## GetPhoneCallInformationCompletedEventArgs class

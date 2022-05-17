@@ -3,7 +3,7 @@ title: ProjectEntity
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1260
+weight: 2710
 url: /net/aspose.email.clients.activity/projectentity/
 ---
 ## ProjectEntity enumeration

@@ -3,7 +3,7 @@ title: ItemMovedEventArgs
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18320
+weight: 19970
 url: /net/aspose.email.storage.pst/itemmovedeventargs/
 ---
 ## ItemMovedEventArgs class

@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 550
 url: /net/aspose.email/mailmessage/save/
 ---
 ## MailMessage.Save method (1 of 4)

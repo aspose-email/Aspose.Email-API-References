@@ -3,7 +3,7 @@ title: ConvertIdResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 4240
+weight: 5780
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/convertidresponsemessagetype/
 ---
 ## ConvertIdResponseMessageType class

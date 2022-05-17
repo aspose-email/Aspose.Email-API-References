@@ -3,7 +3,7 @@ title: MailboxSearchScopeType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9290
+weight: 10830
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/mailboxsearchscopetype/
 ---
 ## MailboxSearchScopeType class

@@ -3,7 +3,7 @@ title: HeadersFormattingOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15750
+weight: 17350
 url: /net/aspose.email/headersformattingoptions/
 ---
 ## HeadersFormattingOptions class

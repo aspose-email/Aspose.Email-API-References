@@ -3,7 +3,7 @@ title: IdentitySet
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 14410
+weight: 15950
 url: /net/aspose.email.clients.graph/identityset/
 ---
 ## IdentitySet class

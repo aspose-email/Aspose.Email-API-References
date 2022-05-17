@@ -3,7 +3,7 @@ title: EventSource
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 1020
+weight: 2470
 url: /net/aspose.email.clients.activity/eventsource/
 ---
 ## EventSource enumeration

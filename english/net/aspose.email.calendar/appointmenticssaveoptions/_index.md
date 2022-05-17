@@ -3,7 +3,7 @@ title: AppointmentIcsSaveOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 470
+weight: 490
 url: /net/aspose.email.calendar/appointmenticssaveoptions/
 ---
 ## AppointmentIcsSaveOptions class

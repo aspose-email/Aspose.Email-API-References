@@ -3,7 +3,7 @@ title: ManagementRoleType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 9340
+weight: 10880
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/managementroletype/
 ---
 ## ManagementRoleType class
@@ -27,7 +27,6 @@ public class ManagementRoleType : SoapHeader
 
 ### See Also
 
-* class [SoapHeader](../../system.web.services.protocols/soapheader)
 * namespace [Aspose.Email.Clients.Exchange.WebService.Schema_2016](../../aspose.email.clients.exchange.webservice.schema_2016)
 * assembly [Aspose.Email](../../)
 

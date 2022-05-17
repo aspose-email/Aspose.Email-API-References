@@ -3,7 +3,7 @@ title: EmlLoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15500
+weight: 17100
 url: /net/aspose.email/emlloadoptions/
 ---
 ## EmlLoadOptions class

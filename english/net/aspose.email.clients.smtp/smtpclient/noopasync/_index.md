@@ -8,12 +8,23 @@ url: /net/aspose.email.clients.smtp/smtpclient/noopasync/
 ---
 ## SmtpClient.NoopAsync method (1 of 4)
 
+'No operation' command
+
 ```csharp
-public Task NoopAsync()
+public Task NoopAsync(IConnection connection)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
+* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [SmtpClient](../../smtpclient)
 * namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
 * assembly [Aspose.Email](../../../)
@@ -22,13 +33,18 @@ public Task NoopAsync()
 
 ## SmtpClient.NoopAsync method (2 of 4)
 
+'No operation' command
+
 ```csharp
-public Task NoopAsync(IConnection connection, CancellationToken token)
+public Task NoopAsync()
 ```
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [SmtpClient](../../smtpclient)
 * namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
 * assembly [Aspose.Email](../../../)
@@ -37,12 +53,24 @@ public Task NoopAsync(IConnection connection, CancellationToken token)
 
 ## SmtpClient.NoopAsync method (3 of 4)
 
+'No operation' command
+
 ```csharp
-public Task NoopAsync(CancellationToken token)
+public Task NoopAsync(IConnection connection, CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
+* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [SmtpClient](../../smtpclient)
 * namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
 * assembly [Aspose.Email](../../../)
@@ -51,13 +79,22 @@ public Task NoopAsync(CancellationToken token)
 
 ## SmtpClient.NoopAsync method (4 of 4)
 
+'No operation' command
+
 ```csharp
-public Task NoopAsync(IConnection connection)
+public Task NoopAsync(CancellationToken token)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| token | CancellationToken | Propagates notification that operations should be canceled. |
+
+## Return Value
+
+Task object, with delegate for this operation
 
 ### See Also
 
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [SmtpClient](../../smtpclient)
 * namespace [Aspose.Email.Clients.Smtp](../../smtpclient)
 * assembly [Aspose.Email](../../../)

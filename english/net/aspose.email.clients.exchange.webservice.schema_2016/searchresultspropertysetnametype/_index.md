@@ -3,7 +3,7 @@ title: SearchResultsPropertySetNameType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11920
+weight: 13460
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/searchresultspropertysetnametype/
 ---
 ## SearchResultsPropertySetNameType enumeration

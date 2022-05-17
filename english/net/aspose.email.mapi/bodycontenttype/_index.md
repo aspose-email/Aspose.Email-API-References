@@ -3,7 +3,7 @@ title: BodyContentType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15990
+weight: 17590
 url: /net/aspose.email.mapi/bodycontenttype/
 ---
 ## BodyContentType enumeration

@@ -3,7 +3,7 @@ title: AttachmentRefinerType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3400
+weight: 4940
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/attachmentrefinertype/
 ---
 ## AttachmentRefinerType class

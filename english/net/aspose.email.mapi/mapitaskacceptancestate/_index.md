@@ -3,7 +3,7 @@ title: MapiTaskAcceptanceState
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16880
+weight: 18480
 url: /net/aspose.email.mapi/mapitaskacceptancestate/
 ---
 ## MapiTaskAcceptanceState enumeration

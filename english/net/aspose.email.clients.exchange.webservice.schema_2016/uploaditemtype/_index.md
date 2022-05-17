@@ -3,7 +3,7 @@ title: UploadItemType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 13650
+weight: 15190
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/uploaditemtype/
 ---
 ## UploadItemType class

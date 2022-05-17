@@ -3,7 +3,7 @@ title: AddImContactToGroupType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2810
+weight: 4350
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/addimcontacttogrouptype/
 ---
 ## AddImContactToGroupType class

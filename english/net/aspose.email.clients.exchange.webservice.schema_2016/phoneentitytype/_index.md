@@ -3,7 +3,7 @@ title: PhoneEntityType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 10370
+weight: 11910
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/phoneentitytype/
 ---
 ## PhoneEntityType class

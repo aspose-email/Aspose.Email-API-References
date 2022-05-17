@@ -3,7 +3,7 @@ title: GetMeetingInstanceResponseMessageType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7470
+weight: 9010
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getmeetinginstanceresponsemessagetype/
 ---
 ## GetMeetingInstanceResponseMessageType class

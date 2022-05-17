@@ -3,7 +3,7 @@ title: EmailValidator
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18930
+weight: 20580
 url: /net/aspose.email.tools.verifications/emailvalidator/
 ---
 ## EmailValidator class
@@ -31,6 +31,8 @@ public sealed class EmailValidator
 
 | Name | Description |
 | --- | --- |
+| [BeginValidate](beginvalidate)(string, ValidationPolicy, out ValidationResult, AsyncCallback, object) | Begins an asynchronous validating process for an email address. |
+| [EndValidate](endvalidate)(out ValidationResult, IAsyncResult) | Ends an asynchronous validating process for an email address. |
 | [Validate](validate)(string, out ValidationResult) | Validate email address, with the MailServer validation policy. |
 | [Validate](validate)(string, ValidationPolicy, out ValidationResult) | Validating the email address |
 

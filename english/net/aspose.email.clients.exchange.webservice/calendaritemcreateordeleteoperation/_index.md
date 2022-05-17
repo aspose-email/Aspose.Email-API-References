@@ -3,7 +3,7 @@ title: CalendarItemCreateOrDeleteOperation
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2080
+weight: 3620
 url: /net/aspose.email.clients.exchange.webservice/calendaritemcreateordeleteoperation/
 ---
 ## CalendarItemCreateOrDeleteOperation enumeration

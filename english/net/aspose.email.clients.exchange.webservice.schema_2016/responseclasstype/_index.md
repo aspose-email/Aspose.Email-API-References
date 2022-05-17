@@ -3,7 +3,7 @@ title: ResponseClassType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 11430
+weight: 12970
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/responseclasstype/
 ---
 ## ResponseClassType enumeration

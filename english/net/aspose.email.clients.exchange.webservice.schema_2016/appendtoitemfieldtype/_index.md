@@ -3,7 +3,7 @@ title: AppendToItemFieldType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 3140
+weight: 4680
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/appendtoitemfieldtype/
 ---
 ## AppendToItemFieldType class

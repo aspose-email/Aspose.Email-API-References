@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Exchange.WebService.Schema_2016
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 190
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/
 ---
 
@@ -12,1142 +12,1142 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/
 
 | Class | Description |
 | --- | --- |
-| class [AbchEmailAddressDictionaryEntryType](./abchemailaddressdictionaryentrytype) |  |
-| class [AbchPersonContactHandle](./abchpersoncontacthandle) |  |
-| class [AbchPersonItemType](./abchpersonitemtype) |  |
-| class [AbsoluteDateTransitionType](./absolutedatetransitiontype) |  |
-| class [AbsoluteMonthlyRecurrencePatternType](./absolutemonthlyrecurrencepatterntype) |  |
-| class [AbsoluteYearlyRecurrencePatternType](./absoluteyearlyrecurrencepatterntype) |  |
-| class [AcceptItemType](./acceptitemtype) |  |
-| class [AcceptSharingInvitationType](./acceptsharinginvitationtype) |  |
-| class [AddDelegateCompletedEventArgs](./adddelegatecompletedeventargs) |  |
-| delegate [AddDelegateCompletedEventHandler](./adddelegatecompletedeventhandler) |  |
-| class [AddDelegateResponseMessageType](./adddelegateresponsemessagetype) |  |
-| class [AddDelegateType](./adddelegatetype) |  |
-| class [AddDistributionGroupToImListCompletedEventArgs](./adddistributiongrouptoimlistcompletedeventargs) |  |
-| delegate [AddDistributionGroupToImListCompletedEventHandler](./adddistributiongrouptoimlistcompletedeventhandler) |  |
-| class [AddDistributionGroupToImListResponseMessageType](./adddistributiongrouptoimlistresponsemessagetype) |  |
-| class [AddDistributionGroupToImListType](./adddistributiongrouptoimlisttype) |  |
-| class [AddImContactToGroupCompletedEventArgs](./addimcontacttogroupcompletedeventargs) |  |
-| delegate [AddImContactToGroupCompletedEventHandler](./addimcontacttogroupcompletedeventhandler) |  |
-| class [AddImContactToGroupResponseMessageType](./addimcontacttogroupresponsemessagetype) |  |
-| class [AddImContactToGroupType](./addimcontacttogrouptype) |  |
-| class [AddImGroupCompletedEventArgs](./addimgroupcompletedeventargs) |  |
-| delegate [AddImGroupCompletedEventHandler](./addimgroupcompletedeventhandler) |  |
-| class [AddImGroupResponseMessageType](./addimgroupresponsemessagetype) |  |
-| class [AddImGroupType](./addimgrouptype) |  |
-| class [AddItemToMyCalendarType](./additemtomycalendartype) |  |
-| class [AddNewImContactToGroupCompletedEventArgs](./addnewimcontacttogroupcompletedeventargs) |  |
-| delegate [AddNewImContactToGroupCompletedEventHandler](./addnewimcontacttogroupcompletedeventhandler) |  |
-| class [AddNewImContactToGroupResponseMessageType](./addnewimcontacttogroupresponsemessagetype) |  |
-| class [AddNewImContactToGroupType](./addnewimcontacttogrouptype) |  |
-| class [AddNewTelUriContactToGroupCompletedEventArgs](./addnewteluricontacttogroupcompletedeventargs) |  |
-| delegate [AddNewTelUriContactToGroupCompletedEventHandler](./addnewteluricontacttogroupcompletedeventhandler) |  |
-| class [AddNewTelUriContactToGroupResponseMessageType](./addnewteluricontacttogroupresponsemessagetype) |  |
-| class [AddNewTelUriContactToGroupType](./addnewteluricontacttogrouptype) |  |
-| class [AddressEntityType](./addressentitytype) |  |
-| class [AddressListIdType](./addresslistidtype) |  |
-| class [AddTagCompletedEventArgs](./addtagcompletedeventargs) |  |
-| delegate [AddTagCompletedEventHandler](./addtagcompletedeventhandler) |  |
-| class [AddTagResponseMessageType](./addtagresponsemessagetype) |  |
-| class [AddTagType](./addtagtype) |  |
-| class [AggregateOnType](./aggregateontype) |  |
-| abstract class [AlternateIdBaseType](./alternateidbasetype) |  |
-| class [AlternateIdType](./alternateidtype) |  |
-| class [AlternatePublicFolderIdType](./alternatepublicfolderidtype) |  |
-| class [AlternatePublicFolderItemIdType](./alternatepublicfolderitemidtype) |  |
-| class [AnalyzedQuery](./analyzedquery) |  |
-| class [AndType](./andtype) |  |
-| class [AppendToFolderFieldType](./appendtofolderfieldtype) |  |
-| class [AppendToItemFieldType](./appendtoitemfieldtype) |  |
-| class [AppliedHashtagsPreviewType](./appliedhashtagspreviewtype) |  |
-| class [AppliedHashtagType](./appliedhashtagtype) |  |
-| class [ApplyConversationActionCompletedEventArgs](./applyconversationactioncompletedeventargs) |  |
-| delegate [ApplyConversationActionCompletedEventHandler](./applyconversationactioncompletedeventhandler) |  |
-| class [ApplyConversationActionResponseMessageType](./applyconversationactionresponsemessagetype) |  |
-| class [ApplyConversationActionResponseType](./applyconversationactionresponsetype) |  |
-| class [ApplyConversationActionType](./applyconversationactiontype) |  |
-| class [AppMetadata](./appmetadata) |  |
-| class [ApprovalRequestDataType](./approvalrequestdatatype) |  |
-| class [AppType](./apptype) |  |
-| class [ArchiveItemCompletedEventArgs](./archiveitemcompletedeventargs) |  |
-| delegate [ArchiveItemCompletedEventHandler](./archiveitemcompletedeventhandler) |  |
-| class [ArchiveItemResponseType](./archiveitemresponsetype) |  |
-| class [ArchiveItemType](./archiveitemtype) |  |
-| class [ArrayOfAppManifestsType](./arrayofappmanifeststype) |  |
-| class [ArrayOfAppsType](./arrayofappstype) |  |
-| class [ArrayOfDLExpansionType](./arrayofdlexpansiontype) |  |
-| class [ArrayOfGroupedItemsType](./arrayofgroupeditemstype) |  |
-| class [ArrayOfRealItemsType](./arrayofrealitemstype) |  |
-| class [ArrayOfResolutionType](./arrayofresolutiontype) |  |
-| class [ArrayOfResponseMessagesType](./arrayofresponsemessagestype) |  |
-| class [ArrayOfSearchScopeType](./arrayofsearchscopetype) |  |
-| class [ArrayOfTimeZoneDefinitionType](./arrayoftimezonedefinitiontype) |  |
-| class [ArrayOfTrackingPropertiesType](./arrayoftrackingpropertiestype) |  |
-| class [ArrayOfTransitionsType](./arrayoftransitionstype) |  |
-| class [AttachmentIdType](./attachmentidtype) |  |
-| class [AttachmentInfoResponseMessageType](./attachmentinforesponsemessagetype) |  |
-| class [AttachmentRefinerType](./attachmentrefinertype) |  |
-| class [AttachmentResponseShapeType](./attachmentresponseshapetype) |  |
-| class [AttachmentType](./attachmenttype) |  |
-| class [AttendeeAvailability](./attendeeavailability) |  |
-| abstract class [AttendeeConflictData](./attendeeconflictdata) |  |
-| class [AttendeeConstraintItem](./attendeeconstraintitem) |  |
-| class [AttendeeType](./attendeetype) |  |
-| abstract class [BaseDelegateResponseMessageType](./basedelegateresponsemessagetype) |  |
-| abstract class [BaseDelegateType](./basedelegatetype) |  |
-| class [BaseEmailAddressType](./baseemailaddresstype) |  |
-| abstract class [BaseFolderIdType](./basefolderidtype) |  |
-| abstract class [BaseFolderType](./basefoldertype) |  |
-| abstract class [BaseGroupByType](./basegroupbytype) |  |
-| abstract class [BaseItemIdType](./baseitemidtype) |  |
-| class [BaseMoveCopyFolderType](./basemovecopyfoldertype) |  |
-| class [BaseMoveCopyItemType](./basemovecopyitemtype) |  |
-| class [BaseNotificationEventType](./basenotificationeventtype) |  |
-| class [BaseObjectChangedEventType](./baseobjectchangedeventtype) |  |
-| abstract class [BasePagingType](./basepagingtype) |  |
-| abstract class [BasePathToElementType](./basepathtoelementtype) |  |
-| abstract class [BasePermissionType](./basepermissiontype) |  |
-| abstract class [BaseRequestType](./baserequesttype) |  |
-| class [BaseResponseMessageType](./baseresponsemessagetype) |  |
-| abstract class [BaseSubscriptionRequestType](./basesubscriptionrequesttype) |  |
-| class [BodyContentAttributedValueType](./bodycontentattributedvaluetype) |  |
-| class [BodyContentType](./bodycontenttype) |  |
-| class [BodyType](./bodytype) |  |
-| class [CalendarActivityDataType](./calendaractivitydatatype) |  |
-| class [CalendarEvent](./calendarevent) |  |
-| class [CalendarEventDetails](./calendareventdetails) |  |
-| class [CalendarFolderType](./calendarfoldertype) |  |
-| class [CalendarItemType](./calendaritemtype) |  |
-| class [CalendarPermissionSetType](./calendarpermissionsettype) |  |
-| class [CalendarPermissionType](./calendarpermissiontype) |  |
-| class [CalendarViewType](./calendarviewtype) |  |
-| class [CancelCalendarItemType](./cancelcalendaritemtype) |  |
-| abstract class [ChangeDescriptionType](./changedescriptiontype) |  |
-| class [ChangeHighlightsType](./changehighlightstype) |  |
-| class [ClientAccessTokenRequestType](./clientaccesstokenrequesttype) |  |
-| class [ClientAccessTokenType](./clientaccesstokentype) |  |
-| class [CompleteNameType](./completenametype) |  |
-| class [ConfigurationRequestDetailsType](./configurationrequestdetailstype) |  |
-| class [ConflictResultsType](./conflictresultstype) |  |
-| class [ConnectingSIDType](./connectingsidtype) |  |
-| class [ConstantValueType](./constantvaluetype) |  |
-| class [ContactItemType](./contactitemtype) |  |
-| class [ContactsFolderType](./contactsfoldertype) |  |
-| class [ContactsViewType](./contactsviewtype) |  |
-| class [ContactType](./contacttype) |  |
-| class [ContactUrlDictionaryEntryType](./contacturldictionaryentrytype) |  |
-| class [ContainsExpressionType](./containsexpressiontype) |  |
-| class [ContentActivity](./contentactivity) |  |
-| class [ContextPropertyType](./contextpropertytype) |  |
-| class [ConversationActionType](./conversationactiontype) |  |
-| class [ConversationNodeType](./conversationnodetype) |  |
-| class [ConversationRequestType](./conversationrequesttype) |  |
-| class [ConversationResponseShapeType](./conversationresponseshapetype) |  |
-| class [ConversationResponseType](./conversationresponsetype) |  |
-| class [ConversationType](./conversationtype) |  |
-| class [ConvertIdCompletedEventArgs](./convertidcompletedeventargs) |  |
-| delegate [ConvertIdCompletedEventHandler](./convertidcompletedeventhandler) |  |
-| class [ConvertIdResponseMessageType](./convertidresponsemessagetype) |  |
-| class [ConvertIdResponseType](./convertidresponsetype) |  |
-| class [ConvertIdType](./convertidtype) |  |
-| class [CopyFolderCompletedEventArgs](./copyfoldercompletedeventargs) |  |
-| delegate [CopyFolderCompletedEventHandler](./copyfoldercompletedeventhandler) |  |
-| class [CopyFolderResponseType](./copyfolderresponsetype) |  |
-| class [CopyFolderType](./copyfoldertype) |  |
-| class [CopyItemCompletedEventArgs](./copyitemcompletedeventargs) |  |
-| delegate [CopyItemCompletedEventHandler](./copyitemcompletedeventhandler) |  |
-| class [CopyItemResponseType](./copyitemresponsetype) |  |
-| class [CopyItemType](./copyitemtype) |  |
-| class [CreateAttachmentCompletedEventArgs](./createattachmentcompletedeventargs) |  |
-| delegate [CreateAttachmentCompletedEventHandler](./createattachmentcompletedeventhandler) |  |
-| class [CreateAttachmentResponseType](./createattachmentresponsetype) |  |
-| class [CreateAttachmentType](./createattachmenttype) |  |
-| class [CreateFolderCompletedEventArgs](./createfoldercompletedeventargs) |  |
-| delegate [CreateFolderCompletedEventHandler](./createfoldercompletedeventhandler) |  |
-| class [CreateFolderPathCompletedEventArgs](./createfolderpathcompletedeventargs) |  |
-| delegate [CreateFolderPathCompletedEventHandler](./createfolderpathcompletedeventhandler) |  |
-| class [CreateFolderPathResponseType](./createfolderpathresponsetype) |  |
-| class [CreateFolderPathType](./createfolderpathtype) |  |
-| class [CreateFolderResponseType](./createfolderresponsetype) |  |
-| class [CreateFolderType](./createfoldertype) |  |
-| class [CreateItemCompletedEventArgs](./createitemcompletedeventargs) |  |
-| delegate [CreateItemCompletedEventHandler](./createitemcompletedeventhandler) |  |
-| class [CreateItemResponseType](./createitemresponsetype) |  |
-| class [CreateItemType](./createitemtype) |  |
-| class [CreateManagedFolderCompletedEventArgs](./createmanagedfoldercompletedeventargs) |  |
-| delegate [CreateManagedFolderCompletedEventHandler](./createmanagedfoldercompletedeventhandler) |  |
-| class [CreateManagedFolderRequestType](./createmanagedfolderrequesttype) |  |
-| class [CreateManagedFolderResponseType](./createmanagedfolderresponsetype) |  |
-| class [CreateMeetingInstanceCompletedEventArgs](./createmeetinginstancecompletedeventargs) |  |
-| delegate [CreateMeetingInstanceCompletedEventHandler](./createmeetinginstancecompletedeventhandler) |  |
-| class [CreateMeetingInstanceRequestType](./createmeetinginstancerequesttype) |  |
-| class [CreateMeetingInstanceResponseMessageType](./createmeetinginstanceresponsemessagetype) |  |
-| class [CreateMeetingSpaceCompletedEventArgs](./createmeetingspacecompletedeventargs) |  |
-| delegate [CreateMeetingSpaceCompletedEventHandler](./createmeetingspacecompletedeventhandler) |  |
-| class [CreateMeetingSpaceResponseMessageType](./createmeetingspaceresponsemessagetype) |  |
-| class [CreateMeetingSpaceType](./createmeetingspacetype) |  |
-| class [CreateOrUpdateFocusedOtherOverrideRequestType](./createorupdatefocusedotheroverriderequesttype) |  |
-| class [CreateOrUpdateFocusedOtherOverrideResponseType](./createorupdatefocusedotheroverrideresponsetype) |  |
-| class [CreateRuleOperationType](./createruleoperationtype) |  |
-| class [CreateUserConfigurationCompletedEventArgs](./createuserconfigurationcompletedeventargs) |  |
-| delegate [CreateUserConfigurationCompletedEventHandler](./createuserconfigurationcompletedeventhandler) |  |
-| class [CreateUserConfigurationResponseType](./createuserconfigurationresponsetype) |  |
-| class [CreateUserConfigurationType](./createuserconfigurationtype) |  |
-| class [CustomSearchScopeType](./customsearchscopetype) |  |
-| class [DailyRecurrencePatternType](./dailyrecurrencepatterntype) |  |
-| class [DailyRegeneratingPatternType](./dailyregeneratingpatterntype) |  |
-| class [DateTimePrecisionType](./datetimeprecisiontype) |  |
-| class [DeclineItemType](./declineitemtype) |  |
-| class [DelegatePermissionsType](./delegatepermissionstype) |  |
-| class [DelegateUserResponseMessageType](./delegateuserresponsemessagetype) |  |
-| class [DelegateUserType](./delegateusertype) |  |
-| class [DeleteAttachmentCompletedEventArgs](./deleteattachmentcompletedeventargs) |  |
-| delegate [DeleteAttachmentCompletedEventHandler](./deleteattachmentcompletedeventhandler) |  |
-| class [DeleteAttachmentResponseMessageType](./deleteattachmentresponsemessagetype) |  |
-| class [DeleteAttachmentResponseType](./deleteattachmentresponsetype) |  |
-| class [DeleteAttachmentType](./deleteattachmenttype) |  |
-| class [DeletedOccurrenceInfoType](./deletedoccurrenceinfotype) |  |
-| class [DeleteFocusedOtherOverrideRequestType](./deletefocusedotheroverriderequesttype) |  |
-| class [DeleteFocusedOtherOverrideResponseType](./deletefocusedotheroverrideresponsetype) |  |
-| class [DeleteFolderCompletedEventArgs](./deletefoldercompletedeventargs) |  |
-| delegate [DeleteFolderCompletedEventHandler](./deletefoldercompletedeventhandler) |  |
-| class [DeleteFolderFieldType](./deletefolderfieldtype) |  |
-| class [DeleteFolderResponseType](./deletefolderresponsetype) |  |
-| class [DeleteFolderType](./deletefoldertype) |  |
-| class [DeleteItemCompletedEventArgs](./deleteitemcompletedeventargs) |  |
-| delegate [DeleteItemCompletedEventHandler](./deleteitemcompletedeventhandler) |  |
-| class [DeleteItemFieldType](./deleteitemfieldtype) |  |
-| class [DeleteItemResponseMessageType](./deleteitemresponsemessagetype) |  |
-| class [DeleteItemResponseType](./deleteitemresponsetype) |  |
-| class [DeleteItemType](./deleteitemtype) |  |
-| class [DeleteMeetingInstanceCompletedEventArgs](./deletemeetinginstancecompletedeventargs) |  |
-| delegate [DeleteMeetingInstanceCompletedEventHandler](./deletemeetinginstancecompletedeventhandler) |  |
-| class [DeleteMeetingInstanceRequestType](./deletemeetinginstancerequesttype) |  |
-| class [DeleteMeetingInstanceResponseMessageType](./deletemeetinginstanceresponsemessagetype) |  |
-| class [DeleteMeetingSpaceCompletedEventArgs](./deletemeetingspacecompletedeventargs) |  |
-| delegate [DeleteMeetingSpaceCompletedEventHandler](./deletemeetingspacecompletedeventhandler) |  |
-| class [DeleteMeetingSpaceResponseMessageType](./deletemeetingspaceresponsemessagetype) |  |
-| class [DeleteMeetingSpaceType](./deletemeetingspacetype) |  |
-| class [DeleteRuleOperationType](./deleteruleoperationtype) |  |
-| class [DeleteSearchSuggestion](./deletesearchsuggestion) |  |
-| class [DeleteSearchSuggestionCompletedEventArgs](./deletesearchsuggestioncompletedeventargs) |  |
-| delegate [DeleteSearchSuggestionCompletedEventHandler](./deletesearchsuggestioncompletedeventhandler) |  |
-| class [DeleteSearchSuggestionResponseMessageType](./deletesearchsuggestionresponsemessagetype) |  |
-| class [DeleteSearchSuggestionResponseType](./deletesearchsuggestionresponsetype) |  |
-| class [DeleteUserConfigurationCompletedEventArgs](./deleteuserconfigurationcompletedeventargs) |  |
-| delegate [DeleteUserConfigurationCompletedEventHandler](./deleteuserconfigurationcompletedeventhandler) |  |
-| class [DeleteUserConfigurationResponseType](./deleteuserconfigurationresponsetype) |  |
-| class [DeleteUserConfigurationType](./deleteuserconfigurationtype) |  |
-| class [DelveItemType](./delveitemtype) |  |
-| class [DelveSearchScopeType](./delvesearchscopetype) |  |
-| class [DirectoryEntryType](./directoryentrytype) |  |
-| class [DisableAppCompletedEventArgs](./disableappcompletedeventargs) |  |
-| delegate [DisableAppCompletedEventHandler](./disableappcompletedeventhandler) |  |
-| class [DisableAppResponseType](./disableappresponsetype) |  |
-| class [DisableAppType](./disableapptype) |  |
-| class [DisconnectPhoneCallCompletedEventArgs](./disconnectphonecallcompletedeventargs) |  |
-| delegate [DisconnectPhoneCallCompletedEventHandler](./disconnectphonecallcompletedeventhandler) |  |
-| class [DisconnectPhoneCallResponseMessageType](./disconnectphonecallresponsemessagetype) |  |
-| class [DisconnectPhoneCallType](./disconnectphonecalltype) |  |
-| class [DiscoverySearchConfigurationType](./discoverysearchconfigurationtype) |  |
-| class [DistinguishedFolderIdType](./distinguishedfolderidtype) |  |
-| class [DistinguishedGroupByType](./distinguishedgroupbytype) |  |
-| class [DistributionListType](./distributionlisttype) |  |
-| class [DocumentFileItemType](./documentfileitemtype) |  |
-| class [Duration](./duration) |  |
-| class [DynamicRefinerQueryType](./dynamicrefinerquerytype) |  |
-| class [EffectiveRightsType](./effectiverightstype) |  |
-| class [EmailAddress](./emailaddress) |  |
-| class [EmailAddressAttributedValueType](./emailaddressattributedvaluetype) |  |
-| class [EmailAddressDictionaryEntryType](./emailaddressdictionaryentrytype) |  |
-| class [EmailAddressEntityType](./emailaddressentitytype) |  |
-| class [EmailAddressExtendedType](./emailaddressextendedtype) |  |
-| class [EmailAddressType](./emailaddresstype) |  |
-| class [EmailUserType](./emailusertype) |  |
-| class [EmptyFolderCompletedEventArgs](./emptyfoldercompletedeventargs) |  |
-| delegate [EmptyFolderCompletedEventHandler](./emptyfoldercompletedeventhandler) |  |
-| class [EmptyFolderResponseType](./emptyfolderresponsetype) |  |
-| class [EmptyFolderType](./emptyfoldertype) |  |
-| class [EncryptedSharedFolderDataType](./encryptedsharedfolderdatatype) |  |
-| class [EndDateRecurrenceRangeType](./enddaterecurrencerangetype) |  |
-| class [EndInstantSearchSessionRequest](./endinstantsearchsessionrequest) |  |
-| class [EndSearchSession](./endsearchsession) |  |
-| class [EndSearchSessionCompletedEventArgs](./endsearchsessioncompletedeventargs) |  |
-| delegate [EndSearchSessionCompletedEventHandler](./endsearchsessioncompletedeventhandler) |  |
-| class [EndSearchSessionResponseMessage](./endsearchsessionresponsemessage) |  |
-| class [EnhancedLocationType](./enhancedlocationtype) |  |
-| class [EntityExtractionResultType](./entityextractionresulttype) |  |
-| class [EntityType](./entitytype) |  |
-| class [ExchangeImpersonationType](./exchangeimpersonationtype) |  |
-| class [ExcludesType](./excludestype) |  |
-| class [ExcludesValueType](./excludesvaluetype) |  |
-| class [ExecuteSearch](./executesearch) |  |
-| class [ExecuteSearchCompletedEventArgs](./executesearchcompletedeventargs) |  |
-| delegate [ExecuteSearchCompletedEventHandler](./executesearchcompletedeventhandler) |  |
-| class [ExecuteSearchQueryIdType](./executesearchqueryidtype) |  |
-| class [ExecuteSearchResponseMessage](./executesearchresponsemessage) |  |
-| class [ExistsType](./existstype) |  |
-| class [ExpandDLCompletedEventArgs](./expanddlcompletedeventargs) |  |
-| delegate [ExpandDLCompletedEventHandler](./expanddlcompletedeventhandler) |  |
-| class [ExpandDLResponseMessageType](./expanddlresponsemessagetype) |  |
-| class [ExpandDLResponseType](./expanddlresponsetype) |  |
-| class [ExpandDLType](./expanddltype) |  |
-| class [ExportItemsCompletedEventArgs](./exportitemscompletedeventargs) |  |
-| delegate [ExportItemsCompletedEventHandler](./exportitemscompletedeventhandler) |  |
-| class [ExportItemsResponseMessageType](./exportitemsresponsemessagetype) |  |
-| class [ExportItemsResponseType](./exportitemsresponsetype) |  |
-| class [ExportItemsType](./exportitemstype) |  |
-| class [ExtendedAttributeType](./extendedattributetype) |  |
-| class [ExtendedKeywordDefinitionType](./extendedkeyworddefinitiontype) |  |
-| class [ExtendedPropertyAttributedValueType](./extendedpropertyattributedvaluetype) |  |
-| class [ExtendedPropertyType](./extendedpropertytype) |  |
-| class [FailedSearchMailboxType](./failedsearchmailboxtype) |  |
-| class [FieldOrderType](./fieldordertype) |  |
-| class [FieldURIOrConstantType](./fielduriorconstanttype) |  |
-| class [FileAttachmentType](./fileattachmenttype) |  |
-| class [FileItemType](./fileitemtype) |  |
-| class [FileSuggestionType](./filesuggestiontype) |  |
-| class [FindAvailableMeetingTimesCompletedEventArgs](./findavailablemeetingtimescompletedeventargs) |  |
-| delegate [FindAvailableMeetingTimesCompletedEventHandler](./findavailablemeetingtimescompletedeventhandler) |  |
-| class [FindAvailableMeetingTimesResponseMessageType](./findavailablemeetingtimesresponsemessagetype) |  |
-| class [FindAvailableMeetingTimesType](./findavailablemeetingtimestype) |  |
-| class [FindConversationCompletedEventArgs](./findconversationcompletedeventargs) |  |
-| delegate [FindConversationCompletedEventHandler](./findconversationcompletedeventhandler) |  |
-| class [FindConversationResponseMessageType](./findconversationresponsemessagetype) |  |
-| class [FindConversationType](./findconversationtype) |  |
-| class [FindFolderCompletedEventArgs](./findfoldercompletedeventargs) |  |
-| delegate [FindFolderCompletedEventHandler](./findfoldercompletedeventhandler) |  |
-| class [FindFolderParentType](./findfolderparenttype) |  |
-| class [FindFolderResponseMessageType](./findfolderresponsemessagetype) |  |
-| class [FindFolderResponseType](./findfolderresponsetype) |  |
-| class [FindFolderType](./findfoldertype) |  |
-| class [FindItemCompletedEventArgs](./finditemcompletedeventargs) |  |
-| delegate [FindItemCompletedEventHandler](./finditemcompletedeventhandler) |  |
-| class [FindItemParentType](./finditemparenttype) |  |
-| class [FindItemResponseMessageType](./finditemresponsemessagetype) |  |
-| class [FindItemResponseType](./finditemresponsetype) |  |
-| class [FindItemType](./finditemtype) |  |
-| class [FindMailboxStatisticsByKeywordsResponseMessageType](./findmailboxstatisticsbykeywordsresponsemessagetype) |  |
-| class [FindMailboxStatisticsByKeywordsResponseType](./findmailboxstatisticsbykeywordsresponsetype) |  |
-| class [FindMailboxStatisticsByKeywordsType](./findmailboxstatisticsbykeywordstype) |  |
-| class [FindMeetingSpaceByJoinUrlCompletedEventArgs](./findmeetingspacebyjoinurlcompletedeventargs) |  |
-| delegate [FindMeetingSpaceByJoinUrlCompletedEventHandler](./findmeetingspacebyjoinurlcompletedeventhandler) |  |
-| class [FindMeetingSpaceByJoinUrlResponseMessageType](./findmeetingspacebyjoinurlresponsemessagetype) |  |
-| class [FindMeetingSpaceByJoinUrlType](./findmeetingspacebyjoinurltype) |  |
-| class [FindMeetingTimeCandidatesCompletedEventArgs](./findmeetingtimecandidatescompletedeventargs) |  |
-| delegate [FindMeetingTimeCandidatesCompletedEventHandler](./findmeetingtimecandidatescompletedeventhandler) |  |
-| class [FindMeetingTimeCandidatesResponseMessageType](./findmeetingtimecandidatesresponsemessagetype) |  |
-| class [FindMeetingTimeCandidatesType](./findmeetingtimecandidatestype) |  |
-| class [FindMeetingTimesAttendeeConstraints](./findmeetingtimesattendeeconstraints) |  |
-| class [FindMeetingTimesConstraints](./findmeetingtimesconstraints) |  |
-| class [FindMeetingTimesLocationConstraints](./findmeetingtimeslocationconstraints) |  |
-| class [FindMeetingTimesSearchConstraints](./findmeetingtimessearchconstraints) |  |
-| class [FindMessageTrackingReportCompletedEventArgs](./findmessagetrackingreportcompletedeventargs) |  |
-| delegate [FindMessageTrackingReportCompletedEventHandler](./findmessagetrackingreportcompletedeventhandler) |  |
-| class [FindMessageTrackingReportRequestType](./findmessagetrackingreportrequesttype) |  |
-| class [FindMessageTrackingReportResponseMessageType](./findmessagetrackingreportresponsemessagetype) |  |
-| class [FindMessageTrackingSearchResultType](./findmessagetrackingsearchresulttype) |  |
-| class [FindPeopleCompletedEventArgs](./findpeoplecompletedeventargs) |  |
-| delegate [FindPeopleCompletedEventHandler](./findpeoplecompletedeventhandler) |  |
-| class [FindPeopleResponseMessageType](./findpeopleresponsemessagetype) |  |
-| class [FindPeopleType](./findpeopletype) |  |
-| class [FindTagsCompletedEventArgs](./findtagscompletedeventargs) |  |
-| delegate [FindTagsCompletedEventHandler](./findtagscompletedeventhandler) |  |
-| class [FindTagsResponseMessageType](./findtagsresponsemessagetype) |  |
-| class [FindTagsType](./findtagstype) |  |
-| class [FlagType](./flagtype) |  |
-| class [FlightEntityType](./flightentitytype) |  |
-| class [FlightReservationEntityType](./flightreservationentitytype) |  |
-| class [FolderChangeDescriptionType](./folderchangedescriptiontype) |  |
-| class [FolderChangeType](./folderchangetype) |  |
-| class [FolderIdType](./folderidtype) |  |
-| class [FolderInfoResponseMessageType](./folderinforesponsemessagetype) |  |
-| class [FolderRefinerType](./folderrefinertype) |  |
-| class [FolderResponseShapeType](./folderresponseshapetype) |  |
-| class [FolderType](./foldertype) |  |
-| class [ForwardItemType](./forwarditemtype) |  |
-| class [FractionalPageViewType](./fractionalpageviewtype) |  |
-| class [FreeBusyResponseType](./freebusyresponsetype) |  |
-| class [FreeBusyView](./freebusyview) |  |
-| class [FreeBusyViewOptionsType](./freebusyviewoptionstype) |  |
-| class [GetAppManifestsCompletedEventArgs](./getappmanifestscompletedeventargs) |  |
-| delegate [GetAppManifestsCompletedEventHandler](./getappmanifestscompletedeventhandler) |  |
-| class [GetAppManifestsResponseType](./getappmanifestsresponsetype) |  |
-| class [GetAppManifestsType](./getappmanifeststype) |  |
-| class [GetAppMarketplaceUrlCompletedEventArgs](./getappmarketplaceurlcompletedeventargs) |  |
-| delegate [GetAppMarketplaceUrlCompletedEventHandler](./getappmarketplaceurlcompletedeventhandler) |  |
-| class [GetAppMarketplaceUrlResponseMessageType](./getappmarketplaceurlresponsemessagetype) |  |
-| class [GetAppMarketplaceUrlType](./getappmarketplaceurltype) |  |
-| class [GetAttachmentCompletedEventArgs](./getattachmentcompletedeventargs) |  |
-| delegate [GetAttachmentCompletedEventHandler](./getattachmentcompletedeventhandler) |  |
-| class [GetAttachmentResponseType](./getattachmentresponsetype) |  |
-| class [GetAttachmentType](./getattachmenttype) |  |
-| class [GetClientAccessTokenCompletedEventArgs](./getclientaccesstokencompletedeventargs) |  |
-| delegate [GetClientAccessTokenCompletedEventHandler](./getclientaccesstokencompletedeventhandler) |  |
-| class [GetClientAccessTokenResponseMessageType](./getclientaccesstokenresponsemessagetype) |  |
-| class [GetClientAccessTokenResponseType](./getclientaccesstokenresponsetype) |  |
-| class [GetClientAccessTokenType](./getclientaccesstokentype) |  |
-| class [GetConversationItemsCompletedEventArgs](./getconversationitemscompletedeventargs) |  |
-| delegate [GetConversationItemsCompletedEventHandler](./getconversationitemscompletedeventhandler) |  |
-| class [GetConversationItemsResponseMessageType](./getconversationitemsresponsemessagetype) |  |
-| class [GetConversationItemsResponseType](./getconversationitemsresponsetype) |  |
-| class [GetConversationItemsType](./getconversationitemstype) |  |
-| class [GetDelegateCompletedEventArgs](./getdelegatecompletedeventargs) |  |
-| delegate [GetDelegateCompletedEventHandler](./getdelegatecompletedeventhandler) |  |
-| class [GetDelegateResponseMessageType](./getdelegateresponsemessagetype) |  |
-| class [GetDelegateType](./getdelegatetype) |  |
-| class [GetDiscoverySearchConfigurationCompletedEventArgs](./getdiscoverysearchconfigurationcompletedeventargs) |  |
-| delegate [GetDiscoverySearchConfigurationCompletedEventHandler](./getdiscoverysearchconfigurationcompletedeventhandler) |  |
-| class [GetDiscoverySearchConfigurationResponseMessageType](./getdiscoverysearchconfigurationresponsemessagetype) |  |
-| class [GetDiscoverySearchConfigurationType](./getdiscoverysearchconfigurationtype) |  |
-| class [GetEventsCompletedEventArgs](./geteventscompletedeventargs) |  |
-| delegate [GetEventsCompletedEventHandler](./geteventscompletedeventhandler) |  |
-| class [GetEventsResponseMessageType](./geteventsresponsemessagetype) |  |
-| class [GetEventsResponseType](./geteventsresponsetype) |  |
-| class [GetEventsType](./geteventstype) |  |
-| class [GetFocusedOtherOverridesRequestType](./getfocusedotheroverridesrequesttype) |  |
-| class [GetFocusedOtherOverridesResponseType](./getfocusedotheroverridesresponsetype) |  |
-| class [GetFolderCompletedEventArgs](./getfoldercompletedeventargs) |  |
-| delegate [GetFolderCompletedEventHandler](./getfoldercompletedeventhandler) |  |
-| class [GetFolderResponseType](./getfolderresponsetype) |  |
-| class [GetFolderType](./getfoldertype) |  |
-| class [GetHoldOnMailboxesCompletedEventArgs](./getholdonmailboxescompletedeventargs) |  |
-| delegate [GetHoldOnMailboxesCompletedEventHandler](./getholdonmailboxescompletedeventhandler) |  |
-| class [GetHoldOnMailboxesResponseMessageType](./getholdonmailboxesresponsemessagetype) |  |
-| class [GetHoldOnMailboxesType](./getholdonmailboxestype) |  |
-| class [GetImItemListCompletedEventArgs](./getimitemlistcompletedeventargs) |  |
-| delegate [GetImItemListCompletedEventHandler](./getimitemlistcompletedeventhandler) |  |
-| class [GetImItemListResponseMessageType](./getimitemlistresponsemessagetype) |  |
-| class [GetImItemListType](./getimitemlisttype) |  |
-| class [GetImItemsCompletedEventArgs](./getimitemscompletedeventargs) |  |
-| delegate [GetImItemsCompletedEventHandler](./getimitemscompletedeventhandler) |  |
-| class [GetImItemsResponseMessageType](./getimitemsresponsemessagetype) |  |
-| class [GetImItemsType](./getimitemstype) |  |
-| class [GetInboxRulesCompletedEventArgs](./getinboxrulescompletedeventargs) |  |
-| delegate [GetInboxRulesCompletedEventHandler](./getinboxrulescompletedeventhandler) |  |
-| class [GetInboxRulesRequestType](./getinboxrulesrequesttype) |  |
-| class [GetInboxRulesResponseType](./getinboxrulesresponsetype) |  |
-| class [GetItemCompletedEventArgs](./getitemcompletedeventargs) |  |
-| delegate [GetItemCompletedEventHandler](./getitemcompletedeventhandler) |  |
-| class [GetItemResponseType](./getitemresponsetype) |  |
-| class [GetItemType](./getitemtype) |  |
-| class [GetLastPrivateCatalogUpdateCompletedEventArgs](./getlastprivatecatalogupdatecompletedeventargs) |  |
-| delegate [GetLastPrivateCatalogUpdateCompletedEventHandler](./getlastprivatecatalogupdatecompletedeventhandler) |  |
-| class [GetLastPrivateCatalogUpdateResponseType](./getlastprivatecatalogupdateresponsetype) |  |
-| class [GetLastPrivateCatalogUpdateType](./getlastprivatecatalogupdatetype) |  |
-| class [GetMailTipsCompletedEventArgs](./getmailtipscompletedeventargs) |  |
-| delegate [GetMailTipsCompletedEventHandler](./getmailtipscompletedeventhandler) |  |
-| class [GetMailTipsResponseMessageType](./getmailtipsresponsemessagetype) |  |
-| class [GetMailTipsType](./getmailtipstype) |  |
-| class [GetMeetingInstanceCompletedEventArgs](./getmeetinginstancecompletedeventargs) |  |
-| delegate [GetMeetingInstanceCompletedEventHandler](./getmeetinginstancecompletedeventhandler) |  |
-| class [GetMeetingInstanceRequestType](./getmeetinginstancerequesttype) |  |
-| class [GetMeetingInstanceResponseMessageType](./getmeetinginstanceresponsemessagetype) |  |
-| class [GetMeetingSpaceCompletedEventArgs](./getmeetingspacecompletedeventargs) |  |
-| delegate [GetMeetingSpaceCompletedEventHandler](./getmeetingspacecompletedeventhandler) |  |
-| class [GetMeetingSpaceResponseMessageType](./getmeetingspaceresponsemessagetype) |  |
-| class [GetMeetingSpaceType](./getmeetingspacetype) |  |
-| class [GetMessageTrackingReportCompletedEventArgs](./getmessagetrackingreportcompletedeventargs) |  |
-| delegate [GetMessageTrackingReportCompletedEventHandler](./getmessagetrackingreportcompletedeventhandler) |  |
-| class [GetMessageTrackingReportRequestType](./getmessagetrackingreportrequesttype) |  |
-| class [GetMessageTrackingReportResponseMessageType](./getmessagetrackingreportresponsemessagetype) |  |
-| class [GetNonIndexableItemDetailsCompletedEventArgs](./getnonindexableitemdetailscompletedeventargs) |  |
-| delegate [GetNonIndexableItemDetailsCompletedEventHandler](./getnonindexableitemdetailscompletedeventhandler) |  |
-| class [GetNonIndexableItemDetailsResponseMessageType](./getnonindexableitemdetailsresponsemessagetype) |  |
-| class [GetNonIndexableItemDetailsType](./getnonindexableitemdetailstype) |  |
-| class [GetNonIndexableItemStatisticsCompletedEventArgs](./getnonindexableitemstatisticscompletedeventargs) |  |
-| delegate [GetNonIndexableItemStatisticsCompletedEventHandler](./getnonindexableitemstatisticscompletedeventhandler) |  |
-| class [GetNonIndexableItemStatisticsResponseMessageType](./getnonindexableitemstatisticsresponsemessagetype) |  |
-| class [GetNonIndexableItemStatisticsType](./getnonindexableitemstatisticstype) |  |
-| class [GetOMEConfigurationType](./getomeconfigurationtype) |  |
-| class [GetPasswordExpirationDateCompletedEventArgs](./getpasswordexpirationdatecompletedeventargs) |  |
-| delegate [GetPasswordExpirationDateCompletedEventHandler](./getpasswordexpirationdatecompletedeventhandler) |  |
-| class [GetPasswordExpirationDateResponseMessageType](./getpasswordexpirationdateresponsemessagetype) |  |
-| class [GetPasswordExpirationDateType](./getpasswordexpirationdatetype) |  |
-| class [GetPersonaCompletedEventArgs](./getpersonacompletedeventargs) |  |
-| delegate [GetPersonaCompletedEventHandler](./getpersonacompletedeventhandler) |  |
-| class [GetPersonaResponseMessageType](./getpersonaresponsemessagetype) |  |
-| class [GetPersonaType](./getpersonatype) |  |
-| class [GetPhoneCallInformationCompletedEventArgs](./getphonecallinformationcompletedeventargs) |  |
-| delegate [GetPhoneCallInformationCompletedEventHandler](./getphonecallinformationcompletedeventhandler) |  |
-| class [GetPhoneCallInformationResponseMessageType](./getphonecallinformationresponsemessagetype) |  |
-| class [GetPhoneCallInformationType](./getphonecallinformationtype) |  |
-| class [GetPrivateCatalogAddInsCompletedEventArgs](./getprivatecatalogaddinscompletedeventargs) |  |
-| delegate [GetPrivateCatalogAddInsCompletedEventHandler](./getprivatecatalogaddinscompletedeventhandler) |  |
-| class [GetPrivateCatalogAddInsResponseType](./getprivatecatalogaddinsresponsetype) |  |
-| class [GetPrivateCatalogAddInsType](./getprivatecatalogaddinstype) |  |
-| class [GetRemindersResponseMessageType](./getremindersresponsemessagetype) |  |
-| class [GetRemindersType](./getreminderstype) |  |
-| class [GetRoomListsCompletedEventArgs](./getroomlistscompletedeventargs) |  |
-| delegate [GetRoomListsCompletedEventHandler](./getroomlistscompletedeventhandler) |  |
-| class [GetRoomListsResponseMessageType](./getroomlistsresponsemessagetype) |  |
-| class [GetRoomListsType](./getroomliststype) |  |
-| class [GetRoomsCompletedEventArgs](./getroomscompletedeventargs) |  |
-| delegate [GetRoomsCompletedEventHandler](./getroomscompletedeventhandler) |  |
-| class [GetRoomsResponseMessageType](./getroomsresponsemessagetype) |  |
-| class [GetRoomsType](./getroomstype) |  |
-| class [GetSearchableMailboxesCompletedEventArgs](./getsearchablemailboxescompletedeventargs) |  |
-| delegate [GetSearchableMailboxesCompletedEventHandler](./getsearchablemailboxescompletedeventhandler) |  |
-| class [GetSearchableMailboxesResponseMessageType](./getsearchablemailboxesresponsemessagetype) |  |
-| class [GetSearchableMailboxesType](./getsearchablemailboxestype) |  |
-| class [GetSearchSuggestions](./getsearchsuggestions) |  |
-| class [GetSearchSuggestionsCompletedEventArgs](./getsearchsuggestionscompletedeventargs) |  |
-| delegate [GetSearchSuggestionsCompletedEventHandler](./getsearchsuggestionscompletedeventhandler) |  |
-| class [GetSearchSuggestionsResponseMessage](./getsearchsuggestionsresponsemessage) |  |
-| class [GetServerTimeZonesCompletedEventArgs](./getservertimezonescompletedeventargs) |  |
-| delegate [GetServerTimeZonesCompletedEventHandler](./getservertimezonescompletedeventhandler) |  |
-| class [GetServerTimeZonesResponseMessageType](./getservertimezonesresponsemessagetype) |  |
-| class [GetServerTimeZonesResponseType](./getservertimezonesresponsetype) |  |
-| class [GetServerTimeZonesType](./getservertimezonestype) |  |
-| class [GetServiceConfigurationCompletedEventArgs](./getserviceconfigurationcompletedeventargs) |  |
-| delegate [GetServiceConfigurationCompletedEventHandler](./getserviceconfigurationcompletedeventhandler) |  |
-| class [GetServiceConfigurationResponseMessageType](./getserviceconfigurationresponsemessagetype) |  |
-| class [GetServiceConfigurationType](./getserviceconfigurationtype) |  |
-| class [GetSharingFolderCompletedEventArgs](./getsharingfoldercompletedeventargs) |  |
-| delegate [GetSharingFolderCompletedEventHandler](./getsharingfoldercompletedeventhandler) |  |
-| class [GetSharingFolderResponseMessageType](./getsharingfolderresponsemessagetype) |  |
-| class [GetSharingFolderType](./getsharingfoldertype) |  |
-| class [GetSharingMetadataCompletedEventArgs](./getsharingmetadatacompletedeventargs) |  |
-| delegate [GetSharingMetadataCompletedEventHandler](./getsharingmetadatacompletedeventhandler) |  |
-| class [GetSharingMetadataResponseMessageType](./getsharingmetadataresponsemessagetype) |  |
-| class [GetSharingMetadataType](./getsharingmetadatatype) |  |
-| class [GetSpecificUserConfigurationCompletedEventArgs](./getspecificuserconfigurationcompletedeventargs) |  |
-| delegate [GetSpecificUserConfigurationCompletedEventHandler](./getspecificuserconfigurationcompletedeventhandler) |  |
-| class [GetSpecificUserConfigurationResponseMessageType](./getspecificuserconfigurationresponsemessagetype) |  |
-| class [GetSpecificUserConfigurationResponseType](./getspecificuserconfigurationresponsetype) |  |
-| class [GetSpecificUserConfigurationType](./getspecificuserconfigurationtype) |  |
-| class [GetStreamingEventsCompletedEventArgs](./getstreamingeventscompletedeventargs) |  |
-| delegate [GetStreamingEventsCompletedEventHandler](./getstreamingeventscompletedeventhandler) |  |
-| class [GetStreamingEventsResponseMessageType](./getstreamingeventsresponsemessagetype) |  |
-| class [GetStreamingEventsResponseType](./getstreamingeventsresponsetype) |  |
-| class [GetStreamingEventsType](./getstreamingeventstype) |  |
-| class [GetUserAvailabilityCompletedEventArgs](./getuseravailabilitycompletedeventargs) |  |
-| delegate [GetUserAvailabilityCompletedEventHandler](./getuseravailabilitycompletedeventhandler) |  |
-| class [GetUserAvailabilityRequestType](./getuseravailabilityrequesttype) |  |
-| class [GetUserAvailabilityResponseType](./getuseravailabilityresponsetype) |  |
-| class [GetUserConfigurationCompletedEventArgs](./getuserconfigurationcompletedeventargs) |  |
-| delegate [GetUserConfigurationCompletedEventHandler](./getuserconfigurationcompletedeventhandler) |  |
-| class [GetUserConfigurationResponseMessageType](./getuserconfigurationresponsemessagetype) |  |
-| class [GetUserConfigurationResponseType](./getuserconfigurationresponsetype) |  |
-| class [GetUserConfigurationType](./getuserconfigurationtype) |  |
-| class [GetUserOofSettingsCompletedEventArgs](./getuseroofsettingscompletedeventargs) |  |
-| delegate [GetUserOofSettingsCompletedEventHandler](./getuseroofsettingscompletedeventhandler) |  |
-| class [GetUserOofSettingsRequest](./getuseroofsettingsrequest) |  |
-| class [GetUserOofSettingsResponse](./getuseroofsettingsresponse) |  |
-| class [GetUserPhotoCompletedEventArgs](./getuserphotocompletedeventargs) |  |
-| delegate [GetUserPhotoCompletedEventHandler](./getuserphotocompletedeventhandler) |  |
-| class [GetUserPhotoResponseMessageType](./getuserphotoresponsemessagetype) |  |
-| class [GetUserPhotoResponseType](./getuserphotoresponsetype) |  |
-| class [GetUserPhotoType](./getuserphototype) |  |
-| class [GetUserRetentionPolicyTagsCompletedEventArgs](./getuserretentionpolicytagscompletedeventargs) |  |
-| delegate [GetUserRetentionPolicyTagsCompletedEventHandler](./getuserretentionpolicytagscompletedeventhandler) |  |
-| class [GetUserRetentionPolicyTagsResponseMessageType](./getuserretentionpolicytagsresponsemessagetype) |  |
-| class [GetUserRetentionPolicyTagsType](./getuserretentionpolicytagstype) |  |
-| class [GroupAttendeeConflictData](./groupattendeeconflictdata) |  |
-| class [GroupByType](./groupbytype) |  |
-| class [GroupedItemsType](./groupeditemstype) |  |
-| class [GroupSearchScopeType](./groupsearchscopetype) |  |
-| class [GroupSummaryType](./groupsummarytype) |  |
-| class [HashtagRefinerType](./hashtagrefinertype) |  |
-| class [HideTagCompletedEventArgs](./hidetagcompletedeventargs) |  |
-| delegate [HideTagCompletedEventHandler](./hidetagcompletedeventhandler) |  |
-| class [HideTagResponseMessageType](./hidetagresponsemessagetype) |  |
-| class [HideTagType](./hidetagtype) |  |
-| class [HighlightTermType](./highlighttermtype) |  |
-| class [ImAddressDictionaryEntryType](./imaddressdictionaryentrytype) |  |
-| class [ImGroupType](./imgrouptype) |  |
-| class [ImItemListType](./imitemlisttype) |  |
-| class [InboxReminderType](./inboxremindertype) |  |
-| class [IndexedPageViewType](./indexedpageviewtype) |  |
-| class [IndividualAttendeeConflictData](./individualattendeeconflictdata) |  |
-| class [InferenceClassificationOverrideType](./inferenceclassificationoverridetype) |  |
-| class [InstallAppCompletedEventArgs](./installappcompletedeventargs) |  |
-| delegate [InstallAppCompletedEventHandler](./installappcompletedeventhandler) |  |
-| class [InstallAppResponseType](./installappresponsetype) |  |
-| class [InstallAppType](./installapptype) |  |
-| class [InstalledAppType](./installedapptype) |  |
-| class [InstantSearchPayloadType](./instantsearchpayloadtype) |  |
-| class [InternetHeaderType](./internetheadertype) |  |
-| abstract class [IntervalRecurrencePatternBaseType](./intervalrecurrencepatternbasetype) |  |
-| class [InvalidRecipientType](./invalidrecipienttype) |  |
-| class [IsEqualToType](./isequaltotype) |  |
-| class [IsGreaterThanOrEqualToType](./isgreaterthanorequaltotype) |  |
-| class [IsGreaterThanType](./isgreaterthantype) |  |
-| class [IsLessThanOrEqualToType](./islessthanorequaltotype) |  |
-| class [IsLessThanType](./islessthantype) |  |
-| class [IsNotEqualToType](./isnotequaltotype) |  |
-| class [ItemAttachmentType](./itemattachmenttype) |  |
-| class [ItemChangeDescriptionType](./itemchangedescriptiontype) |  |
-| class [ItemChangeType](./itemchangetype) |  |
-| class [ItemIdType](./itemidtype) |  |
-| class [ItemInfoResponseMessageType](./iteminforesponsemessagetype) |  |
-| class [ItemResponseShapeType](./itemresponseshapetype) |  |
-| class [ItemType](./itemtype) |  |
-| class [KeywordStatisticsSearchResultType](./keywordstatisticssearchresulttype) |  |
-| class [LargeArchiveSearchScopeType](./largearchivesearchscopetype) |  |
-| class [LikesPreviewType](./likespreviewtype) |  |
-| class [LikeType](./liketype) |  |
-| class [LocationConstraintItem](./locationconstraintitem) |  |
-| class [MailboxCultureType](./mailboxculturetype) |  |
-| class [MailboxData](./mailboxdata) |  |
-| class [MailboxHoldResultType](./mailboxholdresulttype) |  |
-| class [MailboxHoldStatusType](./mailboxholdstatustype) |  |
-| class [MailboxInformationType](./mailboxinformationtype) |  |
-| class [MailboxQueryType](./mailboxquerytype) |  |
-| class [MailboxRefinerType](./mailboxrefinertype) |  |
-| class [MailboxSearchScopeType](./mailboxsearchscopetype) |  |
-| class [MailboxStatisticsItemType](./mailboxstatisticsitemtype) |  |
-| class [MailboxStatisticsSearchResultType](./mailboxstatisticssearchresulttype) |  |
-| class [MailTips](./mailtips) |  |
-| class [MailTipsResponseMessageType](./mailtipsresponsemessagetype) |  |
-| class [MailTipsServiceConfiguration](./mailtipsserviceconfiguration) |  |
-| class [ManagedFolderInformationType](./managedfolderinformationtype) |  |
-| class [ManagementRoleType](./managementroletype) |  |
-| class [MarkAllItemsAsReadCompletedEventArgs](./markallitemsasreadcompletedeventargs) |  |
-| delegate [MarkAllItemsAsReadCompletedEventHandler](./markallitemsasreadcompletedeventhandler) |  |
-| class [MarkAllItemsAsReadResponseType](./markallitemsasreadresponsetype) |  |
-| class [MarkAllItemsAsReadType](./markallitemsasreadtype) |  |
-| class [MarkAsJunkCompletedEventArgs](./markasjunkcompletedeventargs) |  |
-| delegate [MarkAsJunkCompletedEventHandler](./markasjunkcompletedeventhandler) |  |
-| class [MarkAsJunkResponseMessageType](./markasjunkresponsemessagetype) |  |
-| class [MarkAsJunkResponseType](./markasjunkresponsetype) |  |
-| class [MarkAsJunkType](./markasjunktype) |  |
-| class [MeetingCancellationMessageType](./meetingcancellationmessagetype) |  |
-| class [MeetingInstanceType](./meetinginstancetype) |  |
-| class [MeetingLocation](./meetinglocation) |  |
-| class [MeetingMessageType](./meetingmessagetype) |  |
-| class [MeetingRegistrationResponseObjectType](./meetingregistrationresponseobjecttype) |  |
-| class [MeetingRequestMessageType](./meetingrequestmessagetype) |  |
-| class [MeetingResponseMessageType](./meetingresponsemessagetype) |  |
-| class [MeetingSpaceType](./meetingspacetype) |  |
-| class [MeetingSuggestionType](./meetingsuggestiontype) |  |
-| class [MeetingTimeCandidate](./meetingtimecandidate) |  |
-| class [MeetingTimeCandidatesConstraintItem](./meetingtimecandidatesconstraintitem) |  |
-| class [MemberType](./membertype) |  |
-| class [MentionActionType](./mentionactiontype) |  |
-| class [MentionsPreviewType](./mentionspreviewtype) |  |
-| class [MessageTrackingReportType](./messagetrackingreporttype) |  |
-| class [MessageType](./messagetype) |  |
-| class [Metadata](./metadata) |  |
-| class [MimeContentType](./mimecontenttype) |  |
-| class [ModifiedEventType](./modifiedeventtype) |  |
-| class [MonthlyRegeneratingPatternType](./monthlyregeneratingpatterntype) |  |
-| class [MovedCopiedEventType](./movedcopiedeventtype) |  |
-| class [MoveFolderCompletedEventArgs](./movefoldercompletedeventargs) |  |
-| delegate [MoveFolderCompletedEventHandler](./movefoldercompletedeventhandler) |  |
-| class [MoveFolderResponseType](./movefolderresponsetype) |  |
-| class [MoveFolderType](./movefoldertype) |  |
-| class [MoveItemCompletedEventArgs](./moveitemcompletedeventargs) |  |
-| delegate [MoveItemCompletedEventHandler](./moveitemcompletedeventhandler) |  |
-| class [MoveItemResponseType](./moveitemresponsetype) |  |
-| class [MoveItemType](./moveitemtype) |  |
-| abstract class [MultipleOperandBooleanExpressionType](./multipleoperandbooleanexpressiontype) |  |
-| class [NearType](./neartype) |  |
-| class [NetworkItemType](./networkitemtype) |  |
-| class [NoEndRecurrenceRangeType](./noendrecurrencerangetype) |  |
-| class [NonEmptyArrayOfAllItemsType](./nonemptyarrayofallitemstype) |  |
-| class [NonEmptyArrayOfExtendedPropertyType](./nonemptyarrayofextendedpropertytype) |  |
-| class [NonEmptyArrayOfPropertyValuesType](./nonemptyarrayofpropertyvaluestype) |  |
-| class [NonIndexableItemDetailResultType](./nonindexableitemdetailresulttype) |  |
-| class [NonIndexableItemDetailType](./nonindexableitemdetailtype) |  |
-| class [NonIndexableItemStatisticType](./nonindexableitemstatistictype) |  |
-| class [NotificationType](./notificationtype) |  |
-| class [NotType](./nottype) |  |
-| class [NumberedRecurrenceRangeType](./numberedrecurrencerangetype) |  |
-| class [OccurrenceInfoType](./occurrenceinfotype) |  |
-| class [OccurrenceItemIdType](./occurrenceitemidtype) |  |
-| class [OccurrencesRangeType](./occurrencesrangetype) |  |
-| class [OfficeClientType](./officeclienttype) |  |
-| class [OMEConfigurationResponseType](./omeconfigurationresponsetype) |  |
-| class [OneDriveItemType](./onedriveitemtype) |  |
-| class [OneDriveSearchScopeType](./onedrivesearchscopetype) |  |
-| class [OnlineMeetingSettingsType](./onlinemeetingsettingstype) |  |
-| class [OrType](./ortype) |  |
-| class [OutOfOfficeMailTip](./outofofficemailtip) |  |
-| class [ParcelDeliveryEntityType](./parceldeliveryentitytype) |  |
-| class [ParticipantActivity](./participantactivity) |  |
-| class [PathToExceptionFieldType](./pathtoexceptionfieldtype) |  |
-| class [PathToExtendedFieldType](./pathtoextendedfieldtype) |  |
-| class [PathToIndexedFieldType](./pathtoindexedfieldtype) |  |
-| class [PathToUnindexedFieldType](./pathtounindexedfieldtype) |  |
-| class [PeopleRefinerType](./peoplerefinertype) |  |
-| class [PeopleSuggestionType](./peoplesuggestiontype) |  |
-| class [PerformInstantSearchRequest](./performinstantsearchrequest) |  |
-| class [PerformInstantSearchResponse](./performinstantsearchresponse) |  |
-| class [PerformReminderActionResponseMessageType](./performreminderactionresponsemessagetype) |  |
-| class [PerformReminderActionType](./performreminderactiontype) |  |
-| class [PeriodType](./periodtype) |  |
-| class [PermissionSetType](./permissionsettype) |  |
-| class [PermissionType](./permissiontype) |  |
-| class [PersonaAttributionType](./personaattributiontype) |  |
-| class [PersonaPhoneNumberType](./personaphonenumbertype) |  |
-| class [PersonaPostalAddressType](./personapostaladdresstype) |  |
-| class [PersonaResponseShapeType](./personaresponseshapetype) |  |
-| class [PersonaType](./personatype) |  |
-| class [PhoneCallIdType](./phonecallidtype) |  |
-| class [PhoneCallInformationType](./phonecallinformationtype) |  |
-| class [PhoneEntityType](./phoneentitytype) |  |
-| class [PhoneNumberAttributedValueType](./phonenumberattributedvaluetype) |  |
-| class [PhoneNumberDictionaryEntryType](./phonenumberdictionaryentrytype) |  |
-| class [PhoneType](./phonetype) |  |
-| class [PhysicalAddressDictionaryEntryType](./physicaladdressdictionaryentrytype) |  |
-| class [PlayOnPhoneCompletedEventArgs](./playonphonecompletedeventargs) |  |
-| delegate [PlayOnPhoneCompletedEventHandler](./playonphonecompletedeventhandler) |  |
-| class [PlayOnPhoneResponseMessageType](./playonphoneresponsemessagetype) |  |
-| class [PlayOnPhoneType](./playonphonetype) |  |
-| class [PolicyNudgeRulesServiceConfiguration](./policynudgerulesserviceconfiguration) |  |
-| class [PostalAddressAttributedValueType](./postaladdressattributedvaluetype) |  |
-| class [PostItemType](./postitemtype) |  |
-| class [PostReplyItemBaseType](./postreplyitembasetype) |  |
-| class [PostReplyItemType](./postreplyitemtype) |  |
-| class [PreviewItemMailboxType](./previewitemmailboxtype) |  |
-| class [PreviewItemResponseShapeType](./previewitemresponseshapetype) |  |
-| class [PrimaryMailboxSearchScopeType](./primarymailboxsearchscopetype) |  |
-| class [PrimarySmtpAddressType](./primarysmtpaddresstype) |  |
-| class [PrincipalNameType](./principalnametype) |  |
-| class [PrivateCatalogAddInsType](./privatecatalogaddinstype) |  |
-| class [ProposeNewTimeType](./proposenewtimetype) |  |
-| class [ProtectionRuleActionType](./protectionruleactiontype) |  |
-| class [ProtectionRuleAndType](./protectionruleandtype) |  |
-| class [ProtectionRuleArgumentType](./protectionruleargumenttype) |  |
-| class [ProtectionRuleConditionType](./protectionruleconditiontype) |  |
-| class [ProtectionRuleRecipientIsType](./protectionrulerecipientistype) |  |
-| class [ProtectionRuleSenderDepartmentsType](./protectionrulesenderdepartmentstype) |  |
-| class [ProtectionRulesServiceConfiguration](./protectionrulesserviceconfiguration) |  |
-| class [ProtectionRuleType](./protectionruletype) |  |
-| class [PullSubscriptionRequestType](./pullsubscriptionrequesttype) |  |
-| class [PushSubscriptionRequestType](./pushsubscriptionrequesttype) |  |
-| class [QueryStringType](./querystringtype) |  |
-| class [RecipientSuggestionType](./recipientsuggestiontype) |  |
-| class [RecipientTrackingEventType](./recipienttrackingeventtype) |  |
-| abstract class [RecurrencePatternBaseType](./recurrencepatternbasetype) |  |
-| abstract class [RecurrenceRangeBaseType](./recurrencerangebasetype) |  |
-| class [RecurrenceType](./recurrencetype) |  |
-| class [RecurringDateTransitionType](./recurringdatetransitiontype) |  |
-| class [RecurringDayTransitionType](./recurringdaytransitiontype) |  |
-| class [RecurringMasterItemIdRangesType](./recurringmasteritemidrangestype) |  |
-| class [RecurringMasterItemIdType](./recurringmasteritemidtype) |  |
-| abstract class [RecurringTimeTransitionType](./recurringtimetransitiontype) |  |
-| class [ReferenceAttachmentType](./referenceattachmenttype) |  |
-| class [ReferenceItemResponseType](./referenceitemresponsetype) |  |
-| class [RefreshSharingFolderCompletedEventArgs](./refreshsharingfoldercompletedeventargs) |  |
-| delegate [RefreshSharingFolderCompletedEventHandler](./refreshsharingfoldercompletedeventhandler) |  |
-| class [RefreshSharingFolderResponseMessageType](./refreshsharingfolderresponsemessagetype) |  |
-| class [RefreshSharingFolderType](./refreshsharingfoldertype) |  |
-| abstract class [RegeneratingPatternBaseType](./regeneratingpatternbasetype) |  |
-| class [RegisterConsentResponseMessageType](./registerconsentresponsemessagetype) |  |
-| class [RegisterConsentType](./registerconsenttype) |  |
-| class [RelativeMonthlyRecurrencePatternType](./relativemonthlyrecurrencepatterntype) |  |
-| class [RelativeYearlyRecurrencePatternType](./relativeyearlyrecurrencepatterntype) |  |
-| class [ReminderItemActionType](./reminderitemactiontype) |  |
-| class [ReminderMessageDataType](./remindermessagedatatype) |  |
-| class [ReminderType](./remindertype) |  |
-| class [RemoveContactFromImListCompletedEventArgs](./removecontactfromimlistcompletedeventargs) |  |
-| delegate [RemoveContactFromImListCompletedEventHandler](./removecontactfromimlistcompletedeventhandler) |  |
-| class [RemoveContactFromImListResponseMessageType](./removecontactfromimlistresponsemessagetype) |  |
-| class [RemoveContactFromImListType](./removecontactfromimlisttype) |  |
-| class [RemoveDelegateCompletedEventArgs](./removedelegatecompletedeventargs) |  |
-| delegate [RemoveDelegateCompletedEventHandler](./removedelegatecompletedeventhandler) |  |
-| class [RemoveDelegateResponseMessageType](./removedelegateresponsemessagetype) |  |
-| class [RemoveDelegateType](./removedelegatetype) |  |
-| class [RemoveDistributionGroupFromImListCompletedEventArgs](./removedistributiongroupfromimlistcompletedeventargs) |  |
-| delegate [RemoveDistributionGroupFromImListCompletedEventHandler](./removedistributiongroupfromimlistcompletedeventhandler) |  |
-| class [RemoveDistributionGroupFromImListResponseMessageType](./removedistributiongroupfromimlistresponsemessagetype) |  |
-| class [RemoveDistributionGroupFromImListType](./removedistributiongroupfromimlisttype) |  |
-| class [RemoveImContactFromGroupCompletedEventArgs](./removeimcontactfromgroupcompletedeventargs) |  |
-| delegate [RemoveImContactFromGroupCompletedEventHandler](./removeimcontactfromgroupcompletedeventhandler) |  |
-| class [RemoveImContactFromGroupResponseMessageType](./removeimcontactfromgroupresponsemessagetype) |  |
-| class [RemoveImContactFromGroupType](./removeimcontactfromgrouptype) |  |
-| class [RemoveImGroupCompletedEventArgs](./removeimgroupcompletedeventargs) |  |
-| delegate [RemoveImGroupCompletedEventHandler](./removeimgroupcompletedeventhandler) |  |
-| class [RemoveImGroupResponseMessageType](./removeimgroupresponsemessagetype) |  |
-| class [RemoveImGroupType](./removeimgrouptype) |  |
-| class [RemoveItemType](./removeitemtype) |  |
-| class [ReplyAllToItemType](./replyalltoitemtype) |  |
-| class [ReplyBody](./replybody) |  |
-| class [ReplyToItemType](./replytoitemtype) |  |
-| class [ReportMessageCompletedEventArgs](./reportmessagecompletedeventargs) |  |
-| delegate [ReportMessageCompletedEventHandler](./reportmessagecompletedeventhandler) |  |
-| class [ReportMessageResponseMessageType](./reportmessageresponsemessagetype) |  |
-| class [ReportMessageResponseType](./reportmessageresponsetype) |  |
-| class [ReportMessageType](./reportmessagetype) |  |
-| class [RequestAttachmentIdType](./requestattachmentidtype) |  |
-| class [RequestServerVersion](./requestserverversion) |  |
-| class [ResolutionType](./resolutiontype) |  |
-| class [ResolveNamesCompletedEventArgs](./resolvenamescompletedeventargs) |  |
-| delegate [ResolveNamesCompletedEventHandler](./resolvenamescompletedeventhandler) |  |
-| class [ResolveNamesResponseMessageType](./resolvenamesresponsemessagetype) |  |
-| class [ResolveNamesResponseType](./resolvenamesresponsetype) |  |
-| class [ResolveNamesType](./resolvenamestype) |  |
-| class [ResponseMessageType](./responsemessagetype) |  |
-| class [ResponseMessageTypeMessageXml](./responsemessagetypemessagexml) |  |
-| abstract class [ResponseObjectCoreType](./responseobjectcoretype) |  |
-| abstract class [ResponseObjectType](./responseobjecttype) |  |
-| class [RestrictionType](./restrictiontype) |  |
-| class [RetentionPolicyTagType](./retentionpolicytagtype) |  |
-| class [RetentionTagType](./retentiontagtype) |  |
-| class [RightsManagementLicenseDataType](./rightsmanagementlicensedatatype) |  |
-| class [RoleMemberItemType](./rolememberitemtype) |  |
-| class [RoomType](./roomtype) |  |
-| class [RootItemIdType](./rootitemidtype) |  |
-| class [RuleActionsType](./ruleactionstype) |  |
-| class [RuleOperationErrorType](./ruleoperationerrortype) |  |
-| abstract class [RuleOperationType](./ruleoperationtype) |  |
-| class [RulePredicateDateRangeType](./rulepredicatedaterangetype) |  |
-| class [RulePredicateSizeRangeType](./rulepredicatesizerangetype) |  |
-| class [RulePredicatesType](./rulepredicatestype) |  |
-| class [RuleType](./ruletype) |  |
-| class [RuleValidationErrorType](./rulevalidationerrortype) |  |
-| class [SearchableMailboxType](./searchablemailboxtype) |  |
-| class [SearchDiagnosticsType](./searchdiagnosticstype) |  |
-| abstract class [SearchExpressionType](./searchexpressiontype) |  |
-| class [SearchFolderScopeType](./searchfolderscopetype) |  |
-| class [SearchFolderType](./searchfoldertype) |  |
-| class [SearchMailboxesCompletedEventArgs](./searchmailboxescompletedeventargs) |  |
-| delegate [SearchMailboxesCompletedEventHandler](./searchmailboxescompletedeventhandler) |  |
-| class [SearchMailboxesResponseMessageType](./searchmailboxesresponsemessagetype) |  |
-| class [SearchMailboxesResponseType](./searchmailboxesresponsetype) |  |
-| class [SearchMailboxesResultType](./searchmailboxesresulttype) |  |
-| class [SearchMailboxesType](./searchmailboxestype) |  |
-| class [SearchParametersType](./searchparameterstype) |  |
-| class [SearchPreviewItemType](./searchpreviewitemtype) |  |
-| class [SearchRefinerItemType](./searchrefineritemtype) |  |
-| class [SearchRefinerType](./searchrefinertype) |  |
-| class [SearchResultConversationIdType](./searchresultconversationidtype) |  |
-| class [SearchResultItemIdType](./searchresultitemidtype) |  |
-| class [SearchResultsType](./searchresultstype) |  |
-| class [SearchSuggestionsType](./searchsuggestionstype) |  |
-| class [SeekToConditionPageViewType](./seektoconditionpageviewtype) |  |
-| class [SenderAddInEntityType](./senderaddinentitytype) |  |
-| class [SendItemCompletedEventArgs](./senditemcompletedeventargs) |  |
-| delegate [SendItemCompletedEventHandler](./senditemcompletedeventhandler) |  |
-| class [SendItemResponseType](./senditemresponsetype) |  |
-| class [SendItemType](./senditemtype) |  |
-| class [SendNotificationResponseMessageType](./sendnotificationresponsemessagetype) |  |
-| class [SendNotificationResponseType](./sendnotificationresponsetype) |  |
-| class [SerializableTimeZone](./serializabletimezone) |  |
-| class [SerializableTimeZoneTime](./serializabletimezonetime) |  |
-| class [ServerVersionInfo](./serverversioninfo) |  |
-| class [ServiceConfiguration](./serviceconfiguration) |  |
-| class [ServiceConfigurationResponseMessageType](./serviceconfigurationresponsemessagetype) |  |
-| class [SetFolderFieldType](./setfolderfieldtype) |  |
-| class [SetHoldOnMailboxesCompletedEventArgs](./setholdonmailboxescompletedeventargs) |  |
-| delegate [SetHoldOnMailboxesCompletedEventHandler](./setholdonmailboxescompletedeventhandler) |  |
-| class [SetHoldOnMailboxesResponseMessageType](./setholdonmailboxesresponsemessagetype) |  |
-| class [SetHoldOnMailboxesType](./setholdonmailboxestype) |  |
-| class [SetImGroupCompletedEventArgs](./setimgroupcompletedeventargs) |  |
-| delegate [SetImGroupCompletedEventHandler](./setimgroupcompletedeventhandler) |  |
-| class [SetImGroupResponseMessageType](./setimgroupresponsemessagetype) |  |
-| class [SetImGroupType](./setimgrouptype) |  |
-| class [SetImListMigrationCompletedCompletedEventArgs](./setimlistmigrationcompletedcompletedeventargs) |  |
-| delegate [SetImListMigrationCompletedCompletedEventHandler](./setimlistmigrationcompletedcompletedeventhandler) |  |
-| class [SetImListMigrationCompletedResponseMessageType](./setimlistmigrationcompletedresponsemessagetype) |  |
-| class [SetImListMigrationCompletedType](./setimlistmigrationcompletedtype) |  |
-| class [SetItemFieldType](./setitemfieldtype) |  |
-| class [SetOMEConfigurationResponseType](./setomeconfigurationresponsetype) |  |
-| class [SetOMEConfigurationType](./setomeconfigurationtype) |  |
-| class [SetRuleOperationType](./setruleoperationtype) |  |
-| class [SetTeamMailboxCompletedEventArgs](./setteammailboxcompletedeventargs) |  |
-| delegate [SetTeamMailboxCompletedEventHandler](./setteammailboxcompletedeventhandler) |  |
-| class [SetTeamMailboxRequestType](./setteammailboxrequesttype) |  |
-| class [SetTeamMailboxResponseMessageType](./setteammailboxresponsemessagetype) |  |
-| class [SetUserOofSettingsCompletedEventArgs](./setuseroofsettingscompletedeventargs) |  |
-| delegate [SetUserOofSettingsCompletedEventHandler](./setuseroofsettingscompletedeventhandler) |  |
-| class [SetUserOofSettingsRequest](./setuseroofsettingsrequest) |  |
-| class [SetUserOofSettingsResponse](./setuseroofsettingsresponse) |  |
-| class [SetUserPhotoCompletedEventArgs](./setuserphotocompletedeventargs) |  |
-| delegate [SetUserPhotoCompletedEventHandler](./setuserphotocompletedeventhandler) |  |
-| class [SetUserPhotoResponseMessageType](./setuserphotoresponsemessagetype) |  |
-| class [SetUserPhotoType](./setuserphototype) |  |
-| class [SharePointURLsServiceConfiguration](./sharepointurlsserviceconfiguration) |  |
-| class [SharingMessageActionType](./sharingmessageactiontype) |  |
-| class [SharingMessageType](./sharingmessagetype) |  |
-| class [SIDType](./sidtype) |  |
-| class [SingleLargeArchiveSearchScopeType](./singlelargearchivesearchscopetype) |  |
-| class [SingleRecipientType](./singlerecipienttype) |  |
-| class [SmartResponseBaseType](./smartresponsebasetype) |  |
-| class [SmartResponseType](./smartresponsetype) |  |
-| class [SmtpAddressType](./smtpaddresstype) |  |
-| class [SmtpDomain](./smtpdomain) |  |
-| class [StartSearchSession](./startsearchsession) |  |
-| class [StartSearchSessionCompletedEventArgs](./startsearchsessioncompletedeventargs) |  |
-| delegate [StartSearchSessionCompletedEventHandler](./startsearchsessioncompletedeventhandler) |  |
-| class [StartSearchSessionResponseMessage](./startsearchsessionresponsemessage) |  |
-| class [StreamingSubscriptionRequestType](./streamingsubscriptionrequesttype) |  |
-| class [StringArrayAttributedValueType](./stringarrayattributedvaluetype) |  |
-| class [StringAttributedValueType](./stringattributedvaluetype) |  |
-| class [SubscribeCompletedEventArgs](./subscribecompletedeventargs) |  |
-| delegate [SubscribeCompletedEventHandler](./subscribecompletedeventhandler) |  |
-| class [SubscribeResponseMessageType](./subscriberesponsemessagetype) |  |
-| class [SubscribeResponseType](./subscriberesponsetype) |  |
-| class [SubscribeType](./subscribetype) |  |
-| class [Suggestion](./suggestion) |  |
-| class [SuggestionDayResult](./suggestiondayresult) |  |
-| class [SuggestionsResponseType](./suggestionsresponsetype) |  |
-| class [SuggestionsViewOptionsType](./suggestionsviewoptionstype) |  |
-| class [SuggestionType](./suggestiontype) |  |
-| class [SuppressReadReceiptType](./suppressreadreceipttype) |  |
-| class [SyncFolderHierarchyChangesType](./syncfolderhierarchychangestype) |  |
-| class [SyncFolderHierarchyCompletedEventArgs](./syncfolderhierarchycompletedeventargs) |  |
-| delegate [SyncFolderHierarchyCompletedEventHandler](./syncfolderhierarchycompletedeventhandler) |  |
-| class [SyncFolderHierarchyCreateOrUpdateType](./syncfolderhierarchycreateorupdatetype) |  |
-| class [SyncFolderHierarchyDeleteType](./syncfolderhierarchydeletetype) |  |
-| class [SyncFolderHierarchyResponseMessageType](./syncfolderhierarchyresponsemessagetype) |  |
-| class [SyncFolderHierarchyResponseType](./syncfolderhierarchyresponsetype) |  |
-| class [SyncFolderHierarchyType](./syncfolderhierarchytype) |  |
-| class [SyncFolderItemsChangesType](./syncfolderitemschangestype) |  |
-| class [SyncFolderItemsCompletedEventArgs](./syncfolderitemscompletedeventargs) |  |
-| delegate [SyncFolderItemsCompletedEventHandler](./syncfolderitemscompletedeventhandler) |  |
-| class [SyncFolderItemsCreateOrUpdateType](./syncfolderitemscreateorupdatetype) |  |
-| class [SyncFolderItemsDeleteType](./syncfolderitemsdeletetype) |  |
-| class [SyncFolderItemsReadFlagType](./syncfolderitemsreadflagtype) |  |
-| class [SyncFolderItemsResponseMessageType](./syncfolderitemsresponsemessagetype) |  |
-| class [SyncFolderItemsResponseType](./syncfolderitemsresponsetype) |  |
-| class [SyncFolderItemsType](./syncfolderitemstype) |  |
-| class [TargetFolderIdType](./targetfolderidtype) |  |
-| class [TaskRecurrenceType](./taskrecurrencetype) |  |
-| class [TasksFolderType](./tasksfoldertype) |  |
-| class [TaskSuggestionType](./tasksuggestiontype) |  |
-| class [TaskType](./tasktype) |  |
-| class [TentativelyAcceptItemType](./tentativelyacceptitemtype) |  |
-| class [TimeChangeType](./timechangetype) |  |
-| class [TimeSlot](./timeslot) |  |
-| class [TimeZoneContextType](./timezonecontexttype) |  |
-| class [TimeZoneDefinitionType](./timezonedefinitiontype) |  |
-| class [TimeZoneType](./timezonetype) |  |
-| class [TooBigGroupAttendeeConflictData](./toobiggroupattendeeconflictdata) |  |
-| class [TrackingPropertyType](./trackingpropertytype) |  |
-| class [TransitionTargetType](./transitiontargettype) |  |
-| class [TransitionType](./transitiontype) |  |
-| abstract class [TwoOperandExpressionType](./twooperandexpressiontype) |  |
-| class [UnifiedMessageServiceConfiguration](./unifiedmessageserviceconfiguration) |  |
-| class [UninstallAppCompletedEventArgs](./uninstallappcompletedeventargs) |  |
-| delegate [UninstallAppCompletedEventHandler](./uninstallappcompletedeventhandler) |  |
-| class [UninstallAppResponseType](./uninstallappresponsetype) |  |
-| class [UninstallAppType](./uninstallapptype) |  |
-| class [UnknownAttendeeConflictData](./unknownattendeeconflictdata) |  |
-| class [UnpinTeamMailboxCompletedEventArgs](./unpinteammailboxcompletedeventargs) |  |
-| delegate [UnpinTeamMailboxCompletedEventHandler](./unpinteammailboxcompletedeventhandler) |  |
-| class [UnpinTeamMailboxRequestType](./unpinteammailboxrequesttype) |  |
-| class [UnpinTeamMailboxResponseMessageType](./unpinteammailboxresponsemessagetype) |  |
-| class [UnsubscribeCompletedEventArgs](./unsubscribecompletedeventargs) |  |
-| delegate [UnsubscribeCompletedEventHandler](./unsubscribecompletedeventhandler) |  |
-| class [UnsubscribeResponseType](./unsubscriberesponsetype) |  |
-| class [UnsubscribeType](./unsubscribetype) |  |
-| class [UpdateDelegateCompletedEventArgs](./updatedelegatecompletedeventargs) |  |
-| delegate [UpdateDelegateCompletedEventHandler](./updatedelegatecompletedeventhandler) |  |
-| class [UpdateDelegateResponseMessageType](./updatedelegateresponsemessagetype) |  |
-| class [UpdateDelegateType](./updatedelegatetype) |  |
-| class [UpdateFolderCompletedEventArgs](./updatefoldercompletedeventargs) |  |
-| delegate [UpdateFolderCompletedEventHandler](./updatefoldercompletedeventhandler) |  |
-| class [UpdateFolderResponseType](./updatefolderresponsetype) |  |
-| class [UpdateFolderType](./updatefoldertype) |  |
-| class [UpdateInboxRulesCompletedEventArgs](./updateinboxrulescompletedeventargs) |  |
-| delegate [UpdateInboxRulesCompletedEventHandler](./updateinboxrulescompletedeventhandler) |  |
-| class [UpdateInboxRulesRequestType](./updateinboxrulesrequesttype) |  |
-| class [UpdateInboxRulesResponseType](./updateinboxrulesresponsetype) |  |
-| class [UpdateItemCompletedEventArgs](./updateitemcompletedeventargs) |  |
-| delegate [UpdateItemCompletedEventHandler](./updateitemcompletedeventhandler) |  |
-| class [UpdateItemInRecoverableItemsCompletedEventArgs](./updateiteminrecoverableitemscompletedeventargs) |  |
-| delegate [UpdateItemInRecoverableItemsCompletedEventHandler](./updateiteminrecoverableitemscompletedeventhandler) |  |
-| class [UpdateItemInRecoverableItemsResponseMessageType](./updateiteminrecoverableitemsresponsemessagetype) |  |
-| class [UpdateItemInRecoverableItemsResponseType](./updateiteminrecoverableitemsresponsetype) |  |
-| class [UpdateItemInRecoverableItemsType](./updateiteminrecoverableitemstype) |  |
-| class [UpdateItemResponseMessageType](./updateitemresponsemessagetype) |  |
-| class [UpdateItemResponseType](./updateitemresponsetype) |  |
-| class [UpdateItemType](./updateitemtype) |  |
-| class [UpdateMeetingInstanceCompletedEventArgs](./updatemeetinginstancecompletedeventargs) |  |
-| delegate [UpdateMeetingInstanceCompletedEventHandler](./updatemeetinginstancecompletedeventhandler) |  |
-| class [UpdateMeetingInstanceRequestType](./updatemeetinginstancerequesttype) |  |
-| class [UpdateMeetingInstanceResponseMessageType](./updatemeetinginstanceresponsemessagetype) |  |
-| class [UpdateMeetingSpaceCompletedEventArgs](./updatemeetingspacecompletedeventargs) |  |
-| delegate [UpdateMeetingSpaceCompletedEventHandler](./updatemeetingspacecompletedeventhandler) |  |
-| class [UpdateMeetingSpaceResponseMessageType](./updatemeetingspaceresponsemessagetype) |  |
-| class [UpdateMeetingSpaceType](./updatemeetingspacetype) |  |
-| class [UpdateUserConfigurationCompletedEventArgs](./updateuserconfigurationcompletedeventargs) |  |
-| delegate [UpdateUserConfigurationCompletedEventHandler](./updateuserconfigurationcompletedeventhandler) |  |
-| class [UpdateUserConfigurationResponseType](./updateuserconfigurationresponsetype) |  |
-| class [UpdateUserConfigurationType](./updateuserconfigurationtype) |  |
-| class [UploadItemsCompletedEventArgs](./uploaditemscompletedeventargs) |  |
-| delegate [UploadItemsCompletedEventHandler](./uploaditemscompletedeventhandler) |  |
-| class [UploadItemsResponseMessageType](./uploaditemsresponsemessagetype) |  |
-| class [UploadItemsResponseType](./uploaditemsresponsetype) |  |
-| class [UploadItemsType](./uploaditemstype) |  |
-| class [UploadItemType](./uploaditemtype) |  |
-| class [UrlEntityType](./urlentitytype) |  |
-| class [UserConfigurationDictionaryEntryType](./userconfigurationdictionaryentrytype) |  |
-| class [UserConfigurationDictionaryObjectType](./userconfigurationdictionaryobjecttype) |  |
-| class [UserConfigurationNameType](./userconfigurationnametype) |  |
-| class [UserConfigurationType](./userconfigurationtype) |  |
-| class [UserIdType](./useridtype) |  |
-| class [UserMailboxType](./usermailboxtype) |  |
-| class [UserOofSettings](./useroofsettings) |  |
-| class [VotingInformationType](./votinginformationtype) |  |
-| class [VotingOptionDataType](./votingoptiondatatype) |  |
-| class [WeeklyRecurrencePatternType](./weeklyrecurrencepatterntype) |  |
-| class [WeeklyRegeneratingPatternType](./weeklyregeneratingpatterntype) |  |
-| class [WellKnownResponseObjectType](./wellknownresponseobjecttype) |  |
-| class [WorkingHours](./workinghours) |  |
-| class [WorkingPeriod](./workingperiod) |  |
-| class [YearlyRegeneratingPatternType](./yearlyregeneratingpatterntype) |  |
+| [AbchEmailAddressDictionaryEntryType](./abchemailaddressdictionaryentrytype) |  |
+| [AbchPersonContactHandle](./abchpersoncontacthandle) |  |
+| [AbchPersonItemType](./abchpersonitemtype) |  |
+| [AbsoluteDateTransitionType](./absolutedatetransitiontype) |  |
+| [AbsoluteMonthlyRecurrencePatternType](./absolutemonthlyrecurrencepatterntype) |  |
+| [AbsoluteYearlyRecurrencePatternType](./absoluteyearlyrecurrencepatterntype) |  |
+| [AcceptItemType](./acceptitemtype) |  |
+| [AcceptSharingInvitationType](./acceptsharinginvitationtype) |  |
+| [AddDelegateCompletedEventArgs](./adddelegatecompletedeventargs) |  |
+| [AddDelegateCompletedEventHandler](./adddelegatecompletedeventhandler) |  |
+| [AddDelegateResponseMessageType](./adddelegateresponsemessagetype) |  |
+| [AddDelegateType](./adddelegatetype) |  |
+| [AddDistributionGroupToImListCompletedEventArgs](./adddistributiongrouptoimlistcompletedeventargs) |  |
+| [AddDistributionGroupToImListCompletedEventHandler](./adddistributiongrouptoimlistcompletedeventhandler) |  |
+| [AddDistributionGroupToImListResponseMessageType](./adddistributiongrouptoimlistresponsemessagetype) |  |
+| [AddDistributionGroupToImListType](./adddistributiongrouptoimlisttype) |  |
+| [AddImContactToGroupCompletedEventArgs](./addimcontacttogroupcompletedeventargs) |  |
+| [AddImContactToGroupCompletedEventHandler](./addimcontacttogroupcompletedeventhandler) |  |
+| [AddImContactToGroupResponseMessageType](./addimcontacttogroupresponsemessagetype) |  |
+| [AddImContactToGroupType](./addimcontacttogrouptype) |  |
+| [AddImGroupCompletedEventArgs](./addimgroupcompletedeventargs) |  |
+| [AddImGroupCompletedEventHandler](./addimgroupcompletedeventhandler) |  |
+| [AddImGroupResponseMessageType](./addimgroupresponsemessagetype) |  |
+| [AddImGroupType](./addimgrouptype) |  |
+| [AddItemToMyCalendarType](./additemtomycalendartype) |  |
+| [AddNewImContactToGroupCompletedEventArgs](./addnewimcontacttogroupcompletedeventargs) |  |
+| [AddNewImContactToGroupCompletedEventHandler](./addnewimcontacttogroupcompletedeventhandler) |  |
+| [AddNewImContactToGroupResponseMessageType](./addnewimcontacttogroupresponsemessagetype) |  |
+| [AddNewImContactToGroupType](./addnewimcontacttogrouptype) |  |
+| [AddNewTelUriContactToGroupCompletedEventArgs](./addnewteluricontacttogroupcompletedeventargs) |  |
+| [AddNewTelUriContactToGroupCompletedEventHandler](./addnewteluricontacttogroupcompletedeventhandler) |  |
+| [AddNewTelUriContactToGroupResponseMessageType](./addnewteluricontacttogroupresponsemessagetype) |  |
+| [AddNewTelUriContactToGroupType](./addnewteluricontacttogrouptype) |  |
+| [AddressEntityType](./addressentitytype) |  |
+| [AddressListIdType](./addresslistidtype) |  |
+| [AddTagCompletedEventArgs](./addtagcompletedeventargs) |  |
+| [AddTagCompletedEventHandler](./addtagcompletedeventhandler) |  |
+| [AddTagResponseMessageType](./addtagresponsemessagetype) |  |
+| [AddTagType](./addtagtype) |  |
+| [AggregateOnType](./aggregateontype) |  |
+| [AlternateIdBaseType](./alternateidbasetype) |  |
+| [AlternateIdType](./alternateidtype) |  |
+| [AlternatePublicFolderIdType](./alternatepublicfolderidtype) |  |
+| [AlternatePublicFolderItemIdType](./alternatepublicfolderitemidtype) |  |
+| [AnalyzedQuery](./analyzedquery) |  |
+| [AndType](./andtype) |  |
+| [AppendToFolderFieldType](./appendtofolderfieldtype) |  |
+| [AppendToItemFieldType](./appendtoitemfieldtype) |  |
+| [AppliedHashtagsPreviewType](./appliedhashtagspreviewtype) |  |
+| [AppliedHashtagType](./appliedhashtagtype) |  |
+| [ApplyConversationActionCompletedEventArgs](./applyconversationactioncompletedeventargs) |  |
+| [ApplyConversationActionCompletedEventHandler](./applyconversationactioncompletedeventhandler) |  |
+| [ApplyConversationActionResponseMessageType](./applyconversationactionresponsemessagetype) |  |
+| [ApplyConversationActionResponseType](./applyconversationactionresponsetype) |  |
+| [ApplyConversationActionType](./applyconversationactiontype) |  |
+| [AppMetadata](./appmetadata) |  |
+| [ApprovalRequestDataType](./approvalrequestdatatype) |  |
+| [AppType](./apptype) |  |
+| [ArchiveItemCompletedEventArgs](./archiveitemcompletedeventargs) |  |
+| [ArchiveItemCompletedEventHandler](./archiveitemcompletedeventhandler) |  |
+| [ArchiveItemResponseType](./archiveitemresponsetype) |  |
+| [ArchiveItemType](./archiveitemtype) |  |
+| [ArrayOfAppManifestsType](./arrayofappmanifeststype) |  |
+| [ArrayOfAppsType](./arrayofappstype) |  |
+| [ArrayOfDLExpansionType](./arrayofdlexpansiontype) |  |
+| [ArrayOfGroupedItemsType](./arrayofgroupeditemstype) |  |
+| [ArrayOfRealItemsType](./arrayofrealitemstype) |  |
+| [ArrayOfResolutionType](./arrayofresolutiontype) |  |
+| [ArrayOfResponseMessagesType](./arrayofresponsemessagestype) |  |
+| [ArrayOfSearchScopeType](./arrayofsearchscopetype) |  |
+| [ArrayOfTimeZoneDefinitionType](./arrayoftimezonedefinitiontype) |  |
+| [ArrayOfTrackingPropertiesType](./arrayoftrackingpropertiestype) |  |
+| [ArrayOfTransitionsType](./arrayoftransitionstype) |  |
+| [AttachmentIdType](./attachmentidtype) |  |
+| [AttachmentInfoResponseMessageType](./attachmentinforesponsemessagetype) |  |
+| [AttachmentRefinerType](./attachmentrefinertype) |  |
+| [AttachmentResponseShapeType](./attachmentresponseshapetype) |  |
+| [AttachmentType](./attachmenttype) |  |
+| [AttendeeAvailability](./attendeeavailability) |  |
+| [AttendeeConflictData](./attendeeconflictdata) |  |
+| [AttendeeConstraintItem](./attendeeconstraintitem) |  |
+| [AttendeeType](./attendeetype) |  |
+| [BaseDelegateResponseMessageType](./basedelegateresponsemessagetype) |  |
+| [BaseDelegateType](./basedelegatetype) |  |
+| [BaseEmailAddressType](./baseemailaddresstype) |  |
+| [BaseFolderIdType](./basefolderidtype) |  |
+| [BaseFolderType](./basefoldertype) |  |
+| [BaseGroupByType](./basegroupbytype) |  |
+| [BaseItemIdType](./baseitemidtype) |  |
+| [BaseMoveCopyFolderType](./basemovecopyfoldertype) |  |
+| [BaseMoveCopyItemType](./basemovecopyitemtype) |  |
+| [BaseNotificationEventType](./basenotificationeventtype) |  |
+| [BaseObjectChangedEventType](./baseobjectchangedeventtype) |  |
+| [BasePagingType](./basepagingtype) |  |
+| [BasePathToElementType](./basepathtoelementtype) |  |
+| [BasePermissionType](./basepermissiontype) |  |
+| [BaseRequestType](./baserequesttype) |  |
+| [BaseResponseMessageType](./baseresponsemessagetype) |  |
+| [BaseSubscriptionRequestType](./basesubscriptionrequesttype) |  |
+| [BodyContentAttributedValueType](./bodycontentattributedvaluetype) |  |
+| [BodyContentType](./bodycontenttype) |  |
+| [BodyType](./bodytype) |  |
+| [CalendarActivityDataType](./calendaractivitydatatype) |  |
+| [CalendarEvent](./calendarevent) |  |
+| [CalendarEventDetails](./calendareventdetails) |  |
+| [CalendarFolderType](./calendarfoldertype) |  |
+| [CalendarItemType](./calendaritemtype) |  |
+| [CalendarPermissionSetType](./calendarpermissionsettype) |  |
+| [CalendarPermissionType](./calendarpermissiontype) |  |
+| [CalendarViewType](./calendarviewtype) |  |
+| [CancelCalendarItemType](./cancelcalendaritemtype) |  |
+| [ChangeDescriptionType](./changedescriptiontype) |  |
+| [ChangeHighlightsType](./changehighlightstype) |  |
+| [ClientAccessTokenRequestType](./clientaccesstokenrequesttype) |  |
+| [ClientAccessTokenType](./clientaccesstokentype) |  |
+| [CompleteNameType](./completenametype) |  |
+| [ConfigurationRequestDetailsType](./configurationrequestdetailstype) |  |
+| [ConflictResultsType](./conflictresultstype) |  |
+| [ConnectingSIDType](./connectingsidtype) |  |
+| [ConstantValueType](./constantvaluetype) |  |
+| [ContactItemType](./contactitemtype) |  |
+| [ContactsFolderType](./contactsfoldertype) |  |
+| [ContactsViewType](./contactsviewtype) |  |
+| [ContactType](./contacttype) |  |
+| [ContactUrlDictionaryEntryType](./contacturldictionaryentrytype) |  |
+| [ContainsExpressionType](./containsexpressiontype) |  |
+| [ContentActivity](./contentactivity) |  |
+| [ContextPropertyType](./contextpropertytype) |  |
+| [ConversationActionType](./conversationactiontype) |  |
+| [ConversationNodeType](./conversationnodetype) |  |
+| [ConversationRequestType](./conversationrequesttype) |  |
+| [ConversationResponseShapeType](./conversationresponseshapetype) |  |
+| [ConversationResponseType](./conversationresponsetype) |  |
+| [ConversationType](./conversationtype) |  |
+| [ConvertIdCompletedEventArgs](./convertidcompletedeventargs) |  |
+| [ConvertIdCompletedEventHandler](./convertidcompletedeventhandler) |  |
+| [ConvertIdResponseMessageType](./convertidresponsemessagetype) |  |
+| [ConvertIdResponseType](./convertidresponsetype) |  |
+| [ConvertIdType](./convertidtype) |  |
+| [CopyFolderCompletedEventArgs](./copyfoldercompletedeventargs) |  |
+| [CopyFolderCompletedEventHandler](./copyfoldercompletedeventhandler) |  |
+| [CopyFolderResponseType](./copyfolderresponsetype) |  |
+| [CopyFolderType](./copyfoldertype) |  |
+| [CopyItemCompletedEventArgs](./copyitemcompletedeventargs) |  |
+| [CopyItemCompletedEventHandler](./copyitemcompletedeventhandler) |  |
+| [CopyItemResponseType](./copyitemresponsetype) |  |
+| [CopyItemType](./copyitemtype) |  |
+| [CreateAttachmentCompletedEventArgs](./createattachmentcompletedeventargs) |  |
+| [CreateAttachmentCompletedEventHandler](./createattachmentcompletedeventhandler) |  |
+| [CreateAttachmentResponseType](./createattachmentresponsetype) |  |
+| [CreateAttachmentType](./createattachmenttype) |  |
+| [CreateFolderCompletedEventArgs](./createfoldercompletedeventargs) |  |
+| [CreateFolderCompletedEventHandler](./createfoldercompletedeventhandler) |  |
+| [CreateFolderPathCompletedEventArgs](./createfolderpathcompletedeventargs) |  |
+| [CreateFolderPathCompletedEventHandler](./createfolderpathcompletedeventhandler) |  |
+| [CreateFolderPathResponseType](./createfolderpathresponsetype) |  |
+| [CreateFolderPathType](./createfolderpathtype) |  |
+| [CreateFolderResponseType](./createfolderresponsetype) |  |
+| [CreateFolderType](./createfoldertype) |  |
+| [CreateItemCompletedEventArgs](./createitemcompletedeventargs) |  |
+| [CreateItemCompletedEventHandler](./createitemcompletedeventhandler) |  |
+| [CreateItemResponseType](./createitemresponsetype) |  |
+| [CreateItemType](./createitemtype) |  |
+| [CreateManagedFolderCompletedEventArgs](./createmanagedfoldercompletedeventargs) |  |
+| [CreateManagedFolderCompletedEventHandler](./createmanagedfoldercompletedeventhandler) |  |
+| [CreateManagedFolderRequestType](./createmanagedfolderrequesttype) |  |
+| [CreateManagedFolderResponseType](./createmanagedfolderresponsetype) |  |
+| [CreateMeetingInstanceCompletedEventArgs](./createmeetinginstancecompletedeventargs) |  |
+| [CreateMeetingInstanceCompletedEventHandler](./createmeetinginstancecompletedeventhandler) |  |
+| [CreateMeetingInstanceRequestType](./createmeetinginstancerequesttype) |  |
+| [CreateMeetingInstanceResponseMessageType](./createmeetinginstanceresponsemessagetype) |  |
+| [CreateMeetingSpaceCompletedEventArgs](./createmeetingspacecompletedeventargs) |  |
+| [CreateMeetingSpaceCompletedEventHandler](./createmeetingspacecompletedeventhandler) |  |
+| [CreateMeetingSpaceResponseMessageType](./createmeetingspaceresponsemessagetype) |  |
+| [CreateMeetingSpaceType](./createmeetingspacetype) |  |
+| [CreateOrUpdateFocusedOtherOverrideRequestType](./createorupdatefocusedotheroverriderequesttype) |  |
+| [CreateOrUpdateFocusedOtherOverrideResponseType](./createorupdatefocusedotheroverrideresponsetype) |  |
+| [CreateRuleOperationType](./createruleoperationtype) |  |
+| [CreateUserConfigurationCompletedEventArgs](./createuserconfigurationcompletedeventargs) |  |
+| [CreateUserConfigurationCompletedEventHandler](./createuserconfigurationcompletedeventhandler) |  |
+| [CreateUserConfigurationResponseType](./createuserconfigurationresponsetype) |  |
+| [CreateUserConfigurationType](./createuserconfigurationtype) |  |
+| [CustomSearchScopeType](./customsearchscopetype) |  |
+| [DailyRecurrencePatternType](./dailyrecurrencepatterntype) |  |
+| [DailyRegeneratingPatternType](./dailyregeneratingpatterntype) |  |
+| [DateTimePrecisionType](./datetimeprecisiontype) |  |
+| [DeclineItemType](./declineitemtype) |  |
+| [DelegatePermissionsType](./delegatepermissionstype) |  |
+| [DelegateUserResponseMessageType](./delegateuserresponsemessagetype) |  |
+| [DelegateUserType](./delegateusertype) |  |
+| [DeleteAttachmentCompletedEventArgs](./deleteattachmentcompletedeventargs) |  |
+| [DeleteAttachmentCompletedEventHandler](./deleteattachmentcompletedeventhandler) |  |
+| [DeleteAttachmentResponseMessageType](./deleteattachmentresponsemessagetype) |  |
+| [DeleteAttachmentResponseType](./deleteattachmentresponsetype) |  |
+| [DeleteAttachmentType](./deleteattachmenttype) |  |
+| [DeletedOccurrenceInfoType](./deletedoccurrenceinfotype) |  |
+| [DeleteFocusedOtherOverrideRequestType](./deletefocusedotheroverriderequesttype) |  |
+| [DeleteFocusedOtherOverrideResponseType](./deletefocusedotheroverrideresponsetype) |  |
+| [DeleteFolderCompletedEventArgs](./deletefoldercompletedeventargs) |  |
+| [DeleteFolderCompletedEventHandler](./deletefoldercompletedeventhandler) |  |
+| [DeleteFolderFieldType](./deletefolderfieldtype) |  |
+| [DeleteFolderResponseType](./deletefolderresponsetype) |  |
+| [DeleteFolderType](./deletefoldertype) |  |
+| [DeleteItemCompletedEventArgs](./deleteitemcompletedeventargs) |  |
+| [DeleteItemCompletedEventHandler](./deleteitemcompletedeventhandler) |  |
+| [DeleteItemFieldType](./deleteitemfieldtype) |  |
+| [DeleteItemResponseMessageType](./deleteitemresponsemessagetype) |  |
+| [DeleteItemResponseType](./deleteitemresponsetype) |  |
+| [DeleteItemType](./deleteitemtype) |  |
+| [DeleteMeetingInstanceCompletedEventArgs](./deletemeetinginstancecompletedeventargs) |  |
+| [DeleteMeetingInstanceCompletedEventHandler](./deletemeetinginstancecompletedeventhandler) |  |
+| [DeleteMeetingInstanceRequestType](./deletemeetinginstancerequesttype) |  |
+| [DeleteMeetingInstanceResponseMessageType](./deletemeetinginstanceresponsemessagetype) |  |
+| [DeleteMeetingSpaceCompletedEventArgs](./deletemeetingspacecompletedeventargs) |  |
+| [DeleteMeetingSpaceCompletedEventHandler](./deletemeetingspacecompletedeventhandler) |  |
+| [DeleteMeetingSpaceResponseMessageType](./deletemeetingspaceresponsemessagetype) |  |
+| [DeleteMeetingSpaceType](./deletemeetingspacetype) |  |
+| [DeleteRuleOperationType](./deleteruleoperationtype) |  |
+| [DeleteSearchSuggestion](./deletesearchsuggestion) |  |
+| [DeleteSearchSuggestionCompletedEventArgs](./deletesearchsuggestioncompletedeventargs) |  |
+| [DeleteSearchSuggestionCompletedEventHandler](./deletesearchsuggestioncompletedeventhandler) |  |
+| [DeleteSearchSuggestionResponseMessageType](./deletesearchsuggestionresponsemessagetype) |  |
+| [DeleteSearchSuggestionResponseType](./deletesearchsuggestionresponsetype) |  |
+| [DeleteUserConfigurationCompletedEventArgs](./deleteuserconfigurationcompletedeventargs) |  |
+| [DeleteUserConfigurationCompletedEventHandler](./deleteuserconfigurationcompletedeventhandler) |  |
+| [DeleteUserConfigurationResponseType](./deleteuserconfigurationresponsetype) |  |
+| [DeleteUserConfigurationType](./deleteuserconfigurationtype) |  |
+| [DelveItemType](./delveitemtype) |  |
+| [DelveSearchScopeType](./delvesearchscopetype) |  |
+| [DirectoryEntryType](./directoryentrytype) |  |
+| [DisableAppCompletedEventArgs](./disableappcompletedeventargs) |  |
+| [DisableAppCompletedEventHandler](./disableappcompletedeventhandler) |  |
+| [DisableAppResponseType](./disableappresponsetype) |  |
+| [DisableAppType](./disableapptype) |  |
+| [DisconnectPhoneCallCompletedEventArgs](./disconnectphonecallcompletedeventargs) |  |
+| [DisconnectPhoneCallCompletedEventHandler](./disconnectphonecallcompletedeventhandler) |  |
+| [DisconnectPhoneCallResponseMessageType](./disconnectphonecallresponsemessagetype) |  |
+| [DisconnectPhoneCallType](./disconnectphonecalltype) |  |
+| [DiscoverySearchConfigurationType](./discoverysearchconfigurationtype) |  |
+| [DistinguishedFolderIdType](./distinguishedfolderidtype) |  |
+| [DistinguishedGroupByType](./distinguishedgroupbytype) |  |
+| [DistributionListType](./distributionlisttype) |  |
+| [DocumentFileItemType](./documentfileitemtype) |  |
+| [Duration](./duration) |  |
+| [DynamicRefinerQueryType](./dynamicrefinerquerytype) |  |
+| [EffectiveRightsType](./effectiverightstype) |  |
+| [EmailAddress](./emailaddress) |  |
+| [EmailAddressAttributedValueType](./emailaddressattributedvaluetype) |  |
+| [EmailAddressDictionaryEntryType](./emailaddressdictionaryentrytype) |  |
+| [EmailAddressEntityType](./emailaddressentitytype) |  |
+| [EmailAddressExtendedType](./emailaddressextendedtype) |  |
+| [EmailAddressType](./emailaddresstype) |  |
+| [EmailUserType](./emailusertype) |  |
+| [EmptyFolderCompletedEventArgs](./emptyfoldercompletedeventargs) |  |
+| [EmptyFolderCompletedEventHandler](./emptyfoldercompletedeventhandler) |  |
+| [EmptyFolderResponseType](./emptyfolderresponsetype) |  |
+| [EmptyFolderType](./emptyfoldertype) |  |
+| [EncryptedSharedFolderDataType](./encryptedsharedfolderdatatype) |  |
+| [EndDateRecurrenceRangeType](./enddaterecurrencerangetype) |  |
+| [EndInstantSearchSessionRequest](./endinstantsearchsessionrequest) |  |
+| [EndSearchSession](./endsearchsession) |  |
+| [EndSearchSessionCompletedEventArgs](./endsearchsessioncompletedeventargs) |  |
+| [EndSearchSessionCompletedEventHandler](./endsearchsessioncompletedeventhandler) |  |
+| [EndSearchSessionResponseMessage](./endsearchsessionresponsemessage) |  |
+| [EnhancedLocationType](./enhancedlocationtype) |  |
+| [EntityExtractionResultType](./entityextractionresulttype) |  |
+| [EntityType](./entitytype) |  |
+| [ExchangeImpersonationType](./exchangeimpersonationtype) |  |
+| [ExcludesType](./excludestype) |  |
+| [ExcludesValueType](./excludesvaluetype) |  |
+| [ExecuteSearch](./executesearch) |  |
+| [ExecuteSearchCompletedEventArgs](./executesearchcompletedeventargs) |  |
+| [ExecuteSearchCompletedEventHandler](./executesearchcompletedeventhandler) |  |
+| [ExecuteSearchQueryIdType](./executesearchqueryidtype) |  |
+| [ExecuteSearchResponseMessage](./executesearchresponsemessage) |  |
+| [ExistsType](./existstype) |  |
+| [ExpandDLCompletedEventArgs](./expanddlcompletedeventargs) |  |
+| [ExpandDLCompletedEventHandler](./expanddlcompletedeventhandler) |  |
+| [ExpandDLResponseMessageType](./expanddlresponsemessagetype) |  |
+| [ExpandDLResponseType](./expanddlresponsetype) |  |
+| [ExpandDLType](./expanddltype) |  |
+| [ExportItemsCompletedEventArgs](./exportitemscompletedeventargs) |  |
+| [ExportItemsCompletedEventHandler](./exportitemscompletedeventhandler) |  |
+| [ExportItemsResponseMessageType](./exportitemsresponsemessagetype) |  |
+| [ExportItemsResponseType](./exportitemsresponsetype) |  |
+| [ExportItemsType](./exportitemstype) |  |
+| [ExtendedAttributeType](./extendedattributetype) |  |
+| [ExtendedKeywordDefinitionType](./extendedkeyworddefinitiontype) |  |
+| [ExtendedPropertyAttributedValueType](./extendedpropertyattributedvaluetype) |  |
+| [ExtendedPropertyType](./extendedpropertytype) |  |
+| [FailedSearchMailboxType](./failedsearchmailboxtype) |  |
+| [FieldOrderType](./fieldordertype) |  |
+| [FieldURIOrConstantType](./fielduriorconstanttype) |  |
+| [FileAttachmentType](./fileattachmenttype) |  |
+| [FileItemType](./fileitemtype) |  |
+| [FileSuggestionType](./filesuggestiontype) |  |
+| [FindAvailableMeetingTimesCompletedEventArgs](./findavailablemeetingtimescompletedeventargs) |  |
+| [FindAvailableMeetingTimesCompletedEventHandler](./findavailablemeetingtimescompletedeventhandler) |  |
+| [FindAvailableMeetingTimesResponseMessageType](./findavailablemeetingtimesresponsemessagetype) |  |
+| [FindAvailableMeetingTimesType](./findavailablemeetingtimestype) |  |
+| [FindConversationCompletedEventArgs](./findconversationcompletedeventargs) |  |
+| [FindConversationCompletedEventHandler](./findconversationcompletedeventhandler) |  |
+| [FindConversationResponseMessageType](./findconversationresponsemessagetype) |  |
+| [FindConversationType](./findconversationtype) |  |
+| [FindFolderCompletedEventArgs](./findfoldercompletedeventargs) |  |
+| [FindFolderCompletedEventHandler](./findfoldercompletedeventhandler) |  |
+| [FindFolderParentType](./findfolderparenttype) |  |
+| [FindFolderResponseMessageType](./findfolderresponsemessagetype) |  |
+| [FindFolderResponseType](./findfolderresponsetype) |  |
+| [FindFolderType](./findfoldertype) |  |
+| [FindItemCompletedEventArgs](./finditemcompletedeventargs) |  |
+| [FindItemCompletedEventHandler](./finditemcompletedeventhandler) |  |
+| [FindItemParentType](./finditemparenttype) |  |
+| [FindItemResponseMessageType](./finditemresponsemessagetype) |  |
+| [FindItemResponseType](./finditemresponsetype) |  |
+| [FindItemType](./finditemtype) |  |
+| [FindMailboxStatisticsByKeywordsResponseMessageType](./findmailboxstatisticsbykeywordsresponsemessagetype) |  |
+| [FindMailboxStatisticsByKeywordsResponseType](./findmailboxstatisticsbykeywordsresponsetype) |  |
+| [FindMailboxStatisticsByKeywordsType](./findmailboxstatisticsbykeywordstype) |  |
+| [FindMeetingSpaceByJoinUrlCompletedEventArgs](./findmeetingspacebyjoinurlcompletedeventargs) |  |
+| [FindMeetingSpaceByJoinUrlCompletedEventHandler](./findmeetingspacebyjoinurlcompletedeventhandler) |  |
+| [FindMeetingSpaceByJoinUrlResponseMessageType](./findmeetingspacebyjoinurlresponsemessagetype) |  |
+| [FindMeetingSpaceByJoinUrlType](./findmeetingspacebyjoinurltype) |  |
+| [FindMeetingTimeCandidatesCompletedEventArgs](./findmeetingtimecandidatescompletedeventargs) |  |
+| [FindMeetingTimeCandidatesCompletedEventHandler](./findmeetingtimecandidatescompletedeventhandler) |  |
+| [FindMeetingTimeCandidatesResponseMessageType](./findmeetingtimecandidatesresponsemessagetype) |  |
+| [FindMeetingTimeCandidatesType](./findmeetingtimecandidatestype) |  |
+| [FindMeetingTimesAttendeeConstraints](./findmeetingtimesattendeeconstraints) |  |
+| [FindMeetingTimesConstraints](./findmeetingtimesconstraints) |  |
+| [FindMeetingTimesLocationConstraints](./findmeetingtimeslocationconstraints) |  |
+| [FindMeetingTimesSearchConstraints](./findmeetingtimessearchconstraints) |  |
+| [FindMessageTrackingReportCompletedEventArgs](./findmessagetrackingreportcompletedeventargs) |  |
+| [FindMessageTrackingReportCompletedEventHandler](./findmessagetrackingreportcompletedeventhandler) |  |
+| [FindMessageTrackingReportRequestType](./findmessagetrackingreportrequesttype) |  |
+| [FindMessageTrackingReportResponseMessageType](./findmessagetrackingreportresponsemessagetype) |  |
+| [FindMessageTrackingSearchResultType](./findmessagetrackingsearchresulttype) |  |
+| [FindPeopleCompletedEventArgs](./findpeoplecompletedeventargs) |  |
+| [FindPeopleCompletedEventHandler](./findpeoplecompletedeventhandler) |  |
+| [FindPeopleResponseMessageType](./findpeopleresponsemessagetype) |  |
+| [FindPeopleType](./findpeopletype) |  |
+| [FindTagsCompletedEventArgs](./findtagscompletedeventargs) |  |
+| [FindTagsCompletedEventHandler](./findtagscompletedeventhandler) |  |
+| [FindTagsResponseMessageType](./findtagsresponsemessagetype) |  |
+| [FindTagsType](./findtagstype) |  |
+| [FlagType](./flagtype) |  |
+| [FlightEntityType](./flightentitytype) |  |
+| [FlightReservationEntityType](./flightreservationentitytype) |  |
+| [FolderChangeDescriptionType](./folderchangedescriptiontype) |  |
+| [FolderChangeType](./folderchangetype) |  |
+| [FolderIdType](./folderidtype) |  |
+| [FolderInfoResponseMessageType](./folderinforesponsemessagetype) |  |
+| [FolderRefinerType](./folderrefinertype) |  |
+| [FolderResponseShapeType](./folderresponseshapetype) |  |
+| [FolderType](./foldertype) |  |
+| [ForwardItemType](./forwarditemtype) |  |
+| [FractionalPageViewType](./fractionalpageviewtype) |  |
+| [FreeBusyResponseType](./freebusyresponsetype) |  |
+| [FreeBusyView](./freebusyview) |  |
+| [FreeBusyViewOptionsType](./freebusyviewoptionstype) |  |
+| [GetAppManifestsCompletedEventArgs](./getappmanifestscompletedeventargs) |  |
+| [GetAppManifestsCompletedEventHandler](./getappmanifestscompletedeventhandler) |  |
+| [GetAppManifestsResponseType](./getappmanifestsresponsetype) |  |
+| [GetAppManifestsType](./getappmanifeststype) |  |
+| [GetAppMarketplaceUrlCompletedEventArgs](./getappmarketplaceurlcompletedeventargs) |  |
+| [GetAppMarketplaceUrlCompletedEventHandler](./getappmarketplaceurlcompletedeventhandler) |  |
+| [GetAppMarketplaceUrlResponseMessageType](./getappmarketplaceurlresponsemessagetype) |  |
+| [GetAppMarketplaceUrlType](./getappmarketplaceurltype) |  |
+| [GetAttachmentCompletedEventArgs](./getattachmentcompletedeventargs) |  |
+| [GetAttachmentCompletedEventHandler](./getattachmentcompletedeventhandler) |  |
+| [GetAttachmentResponseType](./getattachmentresponsetype) |  |
+| [GetAttachmentType](./getattachmenttype) |  |
+| [GetClientAccessTokenCompletedEventArgs](./getclientaccesstokencompletedeventargs) |  |
+| [GetClientAccessTokenCompletedEventHandler](./getclientaccesstokencompletedeventhandler) |  |
+| [GetClientAccessTokenResponseMessageType](./getclientaccesstokenresponsemessagetype) |  |
+| [GetClientAccessTokenResponseType](./getclientaccesstokenresponsetype) |  |
+| [GetClientAccessTokenType](./getclientaccesstokentype) |  |
+| [GetConversationItemsCompletedEventArgs](./getconversationitemscompletedeventargs) |  |
+| [GetConversationItemsCompletedEventHandler](./getconversationitemscompletedeventhandler) |  |
+| [GetConversationItemsResponseMessageType](./getconversationitemsresponsemessagetype) |  |
+| [GetConversationItemsResponseType](./getconversationitemsresponsetype) |  |
+| [GetConversationItemsType](./getconversationitemstype) |  |
+| [GetDelegateCompletedEventArgs](./getdelegatecompletedeventargs) |  |
+| [GetDelegateCompletedEventHandler](./getdelegatecompletedeventhandler) |  |
+| [GetDelegateResponseMessageType](./getdelegateresponsemessagetype) |  |
+| [GetDelegateType](./getdelegatetype) |  |
+| [GetDiscoverySearchConfigurationCompletedEventArgs](./getdiscoverysearchconfigurationcompletedeventargs) |  |
+| [GetDiscoverySearchConfigurationCompletedEventHandler](./getdiscoverysearchconfigurationcompletedeventhandler) |  |
+| [GetDiscoverySearchConfigurationResponseMessageType](./getdiscoverysearchconfigurationresponsemessagetype) |  |
+| [GetDiscoverySearchConfigurationType](./getdiscoverysearchconfigurationtype) |  |
+| [GetEventsCompletedEventArgs](./geteventscompletedeventargs) |  |
+| [GetEventsCompletedEventHandler](./geteventscompletedeventhandler) |  |
+| [GetEventsResponseMessageType](./geteventsresponsemessagetype) |  |
+| [GetEventsResponseType](./geteventsresponsetype) |  |
+| [GetEventsType](./geteventstype) |  |
+| [GetFocusedOtherOverridesRequestType](./getfocusedotheroverridesrequesttype) |  |
+| [GetFocusedOtherOverridesResponseType](./getfocusedotheroverridesresponsetype) |  |
+| [GetFolderCompletedEventArgs](./getfoldercompletedeventargs) |  |
+| [GetFolderCompletedEventHandler](./getfoldercompletedeventhandler) |  |
+| [GetFolderResponseType](./getfolderresponsetype) |  |
+| [GetFolderType](./getfoldertype) |  |
+| [GetHoldOnMailboxesCompletedEventArgs](./getholdonmailboxescompletedeventargs) |  |
+| [GetHoldOnMailboxesCompletedEventHandler](./getholdonmailboxescompletedeventhandler) |  |
+| [GetHoldOnMailboxesResponseMessageType](./getholdonmailboxesresponsemessagetype) |  |
+| [GetHoldOnMailboxesType](./getholdonmailboxestype) |  |
+| [GetImItemListCompletedEventArgs](./getimitemlistcompletedeventargs) |  |
+| [GetImItemListCompletedEventHandler](./getimitemlistcompletedeventhandler) |  |
+| [GetImItemListResponseMessageType](./getimitemlistresponsemessagetype) |  |
+| [GetImItemListType](./getimitemlisttype) |  |
+| [GetImItemsCompletedEventArgs](./getimitemscompletedeventargs) |  |
+| [GetImItemsCompletedEventHandler](./getimitemscompletedeventhandler) |  |
+| [GetImItemsResponseMessageType](./getimitemsresponsemessagetype) |  |
+| [GetImItemsType](./getimitemstype) |  |
+| [GetInboxRulesCompletedEventArgs](./getinboxrulescompletedeventargs) |  |
+| [GetInboxRulesCompletedEventHandler](./getinboxrulescompletedeventhandler) |  |
+| [GetInboxRulesRequestType](./getinboxrulesrequesttype) |  |
+| [GetInboxRulesResponseType](./getinboxrulesresponsetype) |  |
+| [GetItemCompletedEventArgs](./getitemcompletedeventargs) |  |
+| [GetItemCompletedEventHandler](./getitemcompletedeventhandler) |  |
+| [GetItemResponseType](./getitemresponsetype) |  |
+| [GetItemType](./getitemtype) |  |
+| [GetLastPrivateCatalogUpdateCompletedEventArgs](./getlastprivatecatalogupdatecompletedeventargs) |  |
+| [GetLastPrivateCatalogUpdateCompletedEventHandler](./getlastprivatecatalogupdatecompletedeventhandler) |  |
+| [GetLastPrivateCatalogUpdateResponseType](./getlastprivatecatalogupdateresponsetype) |  |
+| [GetLastPrivateCatalogUpdateType](./getlastprivatecatalogupdatetype) |  |
+| [GetMailTipsCompletedEventArgs](./getmailtipscompletedeventargs) |  |
+| [GetMailTipsCompletedEventHandler](./getmailtipscompletedeventhandler) |  |
+| [GetMailTipsResponseMessageType](./getmailtipsresponsemessagetype) |  |
+| [GetMailTipsType](./getmailtipstype) |  |
+| [GetMeetingInstanceCompletedEventArgs](./getmeetinginstancecompletedeventargs) |  |
+| [GetMeetingInstanceCompletedEventHandler](./getmeetinginstancecompletedeventhandler) |  |
+| [GetMeetingInstanceRequestType](./getmeetinginstancerequesttype) |  |
+| [GetMeetingInstanceResponseMessageType](./getmeetinginstanceresponsemessagetype) |  |
+| [GetMeetingSpaceCompletedEventArgs](./getmeetingspacecompletedeventargs) |  |
+| [GetMeetingSpaceCompletedEventHandler](./getmeetingspacecompletedeventhandler) |  |
+| [GetMeetingSpaceResponseMessageType](./getmeetingspaceresponsemessagetype) |  |
+| [GetMeetingSpaceType](./getmeetingspacetype) |  |
+| [GetMessageTrackingReportCompletedEventArgs](./getmessagetrackingreportcompletedeventargs) |  |
+| [GetMessageTrackingReportCompletedEventHandler](./getmessagetrackingreportcompletedeventhandler) |  |
+| [GetMessageTrackingReportRequestType](./getmessagetrackingreportrequesttype) |  |
+| [GetMessageTrackingReportResponseMessageType](./getmessagetrackingreportresponsemessagetype) |  |
+| [GetNonIndexableItemDetailsCompletedEventArgs](./getnonindexableitemdetailscompletedeventargs) |  |
+| [GetNonIndexableItemDetailsCompletedEventHandler](./getnonindexableitemdetailscompletedeventhandler) |  |
+| [GetNonIndexableItemDetailsResponseMessageType](./getnonindexableitemdetailsresponsemessagetype) |  |
+| [GetNonIndexableItemDetailsType](./getnonindexableitemdetailstype) |  |
+| [GetNonIndexableItemStatisticsCompletedEventArgs](./getnonindexableitemstatisticscompletedeventargs) |  |
+| [GetNonIndexableItemStatisticsCompletedEventHandler](./getnonindexableitemstatisticscompletedeventhandler) |  |
+| [GetNonIndexableItemStatisticsResponseMessageType](./getnonindexableitemstatisticsresponsemessagetype) |  |
+| [GetNonIndexableItemStatisticsType](./getnonindexableitemstatisticstype) |  |
+| [GetOMEConfigurationType](./getomeconfigurationtype) |  |
+| [GetPasswordExpirationDateCompletedEventArgs](./getpasswordexpirationdatecompletedeventargs) |  |
+| [GetPasswordExpirationDateCompletedEventHandler](./getpasswordexpirationdatecompletedeventhandler) |  |
+| [GetPasswordExpirationDateResponseMessageType](./getpasswordexpirationdateresponsemessagetype) |  |
+| [GetPasswordExpirationDateType](./getpasswordexpirationdatetype) |  |
+| [GetPersonaCompletedEventArgs](./getpersonacompletedeventargs) |  |
+| [GetPersonaCompletedEventHandler](./getpersonacompletedeventhandler) |  |
+| [GetPersonaResponseMessageType](./getpersonaresponsemessagetype) |  |
+| [GetPersonaType](./getpersonatype) |  |
+| [GetPhoneCallInformationCompletedEventArgs](./getphonecallinformationcompletedeventargs) |  |
+| [GetPhoneCallInformationCompletedEventHandler](./getphonecallinformationcompletedeventhandler) |  |
+| [GetPhoneCallInformationResponseMessageType](./getphonecallinformationresponsemessagetype) |  |
+| [GetPhoneCallInformationType](./getphonecallinformationtype) |  |
+| [GetPrivateCatalogAddInsCompletedEventArgs](./getprivatecatalogaddinscompletedeventargs) |  |
+| [GetPrivateCatalogAddInsCompletedEventHandler](./getprivatecatalogaddinscompletedeventhandler) |  |
+| [GetPrivateCatalogAddInsResponseType](./getprivatecatalogaddinsresponsetype) |  |
+| [GetPrivateCatalogAddInsType](./getprivatecatalogaddinstype) |  |
+| [GetRemindersResponseMessageType](./getremindersresponsemessagetype) |  |
+| [GetRemindersType](./getreminderstype) |  |
+| [GetRoomListsCompletedEventArgs](./getroomlistscompletedeventargs) |  |
+| [GetRoomListsCompletedEventHandler](./getroomlistscompletedeventhandler) |  |
+| [GetRoomListsResponseMessageType](./getroomlistsresponsemessagetype) |  |
+| [GetRoomListsType](./getroomliststype) |  |
+| [GetRoomsCompletedEventArgs](./getroomscompletedeventargs) |  |
+| [GetRoomsCompletedEventHandler](./getroomscompletedeventhandler) |  |
+| [GetRoomsResponseMessageType](./getroomsresponsemessagetype) |  |
+| [GetRoomsType](./getroomstype) |  |
+| [GetSearchableMailboxesCompletedEventArgs](./getsearchablemailboxescompletedeventargs) |  |
+| [GetSearchableMailboxesCompletedEventHandler](./getsearchablemailboxescompletedeventhandler) |  |
+| [GetSearchableMailboxesResponseMessageType](./getsearchablemailboxesresponsemessagetype) |  |
+| [GetSearchableMailboxesType](./getsearchablemailboxestype) |  |
+| [GetSearchSuggestions](./getsearchsuggestions) |  |
+| [GetSearchSuggestionsCompletedEventArgs](./getsearchsuggestionscompletedeventargs) |  |
+| [GetSearchSuggestionsCompletedEventHandler](./getsearchsuggestionscompletedeventhandler) |  |
+| [GetSearchSuggestionsResponseMessage](./getsearchsuggestionsresponsemessage) |  |
+| [GetServerTimeZonesCompletedEventArgs](./getservertimezonescompletedeventargs) |  |
+| [GetServerTimeZonesCompletedEventHandler](./getservertimezonescompletedeventhandler) |  |
+| [GetServerTimeZonesResponseMessageType](./getservertimezonesresponsemessagetype) |  |
+| [GetServerTimeZonesResponseType](./getservertimezonesresponsetype) |  |
+| [GetServerTimeZonesType](./getservertimezonestype) |  |
+| [GetServiceConfigurationCompletedEventArgs](./getserviceconfigurationcompletedeventargs) |  |
+| [GetServiceConfigurationCompletedEventHandler](./getserviceconfigurationcompletedeventhandler) |  |
+| [GetServiceConfigurationResponseMessageType](./getserviceconfigurationresponsemessagetype) |  |
+| [GetServiceConfigurationType](./getserviceconfigurationtype) |  |
+| [GetSharingFolderCompletedEventArgs](./getsharingfoldercompletedeventargs) |  |
+| [GetSharingFolderCompletedEventHandler](./getsharingfoldercompletedeventhandler) |  |
+| [GetSharingFolderResponseMessageType](./getsharingfolderresponsemessagetype) |  |
+| [GetSharingFolderType](./getsharingfoldertype) |  |
+| [GetSharingMetadataCompletedEventArgs](./getsharingmetadatacompletedeventargs) |  |
+| [GetSharingMetadataCompletedEventHandler](./getsharingmetadatacompletedeventhandler) |  |
+| [GetSharingMetadataResponseMessageType](./getsharingmetadataresponsemessagetype) |  |
+| [GetSharingMetadataType](./getsharingmetadatatype) |  |
+| [GetSpecificUserConfigurationCompletedEventArgs](./getspecificuserconfigurationcompletedeventargs) |  |
+| [GetSpecificUserConfigurationCompletedEventHandler](./getspecificuserconfigurationcompletedeventhandler) |  |
+| [GetSpecificUserConfigurationResponseMessageType](./getspecificuserconfigurationresponsemessagetype) |  |
+| [GetSpecificUserConfigurationResponseType](./getspecificuserconfigurationresponsetype) |  |
+| [GetSpecificUserConfigurationType](./getspecificuserconfigurationtype) |  |
+| [GetStreamingEventsCompletedEventArgs](./getstreamingeventscompletedeventargs) |  |
+| [GetStreamingEventsCompletedEventHandler](./getstreamingeventscompletedeventhandler) |  |
+| [GetStreamingEventsResponseMessageType](./getstreamingeventsresponsemessagetype) |  |
+| [GetStreamingEventsResponseType](./getstreamingeventsresponsetype) |  |
+| [GetStreamingEventsType](./getstreamingeventstype) |  |
+| [GetUserAvailabilityCompletedEventArgs](./getuseravailabilitycompletedeventargs) |  |
+| [GetUserAvailabilityCompletedEventHandler](./getuseravailabilitycompletedeventhandler) |  |
+| [GetUserAvailabilityRequestType](./getuseravailabilityrequesttype) |  |
+| [GetUserAvailabilityResponseType](./getuseravailabilityresponsetype) |  |
+| [GetUserConfigurationCompletedEventArgs](./getuserconfigurationcompletedeventargs) |  |
+| [GetUserConfigurationCompletedEventHandler](./getuserconfigurationcompletedeventhandler) |  |
+| [GetUserConfigurationResponseMessageType](./getuserconfigurationresponsemessagetype) |  |
+| [GetUserConfigurationResponseType](./getuserconfigurationresponsetype) |  |
+| [GetUserConfigurationType](./getuserconfigurationtype) |  |
+| [GetUserOofSettingsCompletedEventArgs](./getuseroofsettingscompletedeventargs) |  |
+| [GetUserOofSettingsCompletedEventHandler](./getuseroofsettingscompletedeventhandler) |  |
+| [GetUserOofSettingsRequest](./getuseroofsettingsrequest) |  |
+| [GetUserOofSettingsResponse](./getuseroofsettingsresponse) |  |
+| [GetUserPhotoCompletedEventArgs](./getuserphotocompletedeventargs) |  |
+| [GetUserPhotoCompletedEventHandler](./getuserphotocompletedeventhandler) |  |
+| [GetUserPhotoResponseMessageType](./getuserphotoresponsemessagetype) |  |
+| [GetUserPhotoResponseType](./getuserphotoresponsetype) |  |
+| [GetUserPhotoType](./getuserphototype) |  |
+| [GetUserRetentionPolicyTagsCompletedEventArgs](./getuserretentionpolicytagscompletedeventargs) |  |
+| [GetUserRetentionPolicyTagsCompletedEventHandler](./getuserretentionpolicytagscompletedeventhandler) |  |
+| [GetUserRetentionPolicyTagsResponseMessageType](./getuserretentionpolicytagsresponsemessagetype) |  |
+| [GetUserRetentionPolicyTagsType](./getuserretentionpolicytagstype) |  |
+| [GroupAttendeeConflictData](./groupattendeeconflictdata) |  |
+| [GroupByType](./groupbytype) |  |
+| [GroupedItemsType](./groupeditemstype) |  |
+| [GroupSearchScopeType](./groupsearchscopetype) |  |
+| [GroupSummaryType](./groupsummarytype) |  |
+| [HashtagRefinerType](./hashtagrefinertype) |  |
+| [HideTagCompletedEventArgs](./hidetagcompletedeventargs) |  |
+| [HideTagCompletedEventHandler](./hidetagcompletedeventhandler) |  |
+| [HideTagResponseMessageType](./hidetagresponsemessagetype) |  |
+| [HideTagType](./hidetagtype) |  |
+| [HighlightTermType](./highlighttermtype) |  |
+| [ImAddressDictionaryEntryType](./imaddressdictionaryentrytype) |  |
+| [ImGroupType](./imgrouptype) |  |
+| [ImItemListType](./imitemlisttype) |  |
+| [InboxReminderType](./inboxremindertype) |  |
+| [IndexedPageViewType](./indexedpageviewtype) |  |
+| [IndividualAttendeeConflictData](./individualattendeeconflictdata) |  |
+| [InferenceClassificationOverrideType](./inferenceclassificationoverridetype) |  |
+| [InstallAppCompletedEventArgs](./installappcompletedeventargs) |  |
+| [InstallAppCompletedEventHandler](./installappcompletedeventhandler) |  |
+| [InstallAppResponseType](./installappresponsetype) |  |
+| [InstallAppType](./installapptype) |  |
+| [InstalledAppType](./installedapptype) |  |
+| [InstantSearchPayloadType](./instantsearchpayloadtype) |  |
+| [InternetHeaderType](./internetheadertype) |  |
+| [IntervalRecurrencePatternBaseType](./intervalrecurrencepatternbasetype) |  |
+| [InvalidRecipientType](./invalidrecipienttype) |  |
+| [IsEqualToType](./isequaltotype) |  |
+| [IsGreaterThanOrEqualToType](./isgreaterthanorequaltotype) |  |
+| [IsGreaterThanType](./isgreaterthantype) |  |
+| [IsLessThanOrEqualToType](./islessthanorequaltotype) |  |
+| [IsLessThanType](./islessthantype) |  |
+| [IsNotEqualToType](./isnotequaltotype) |  |
+| [ItemAttachmentType](./itemattachmenttype) |  |
+| [ItemChangeDescriptionType](./itemchangedescriptiontype) |  |
+| [ItemChangeType](./itemchangetype) |  |
+| [ItemIdType](./itemidtype) |  |
+| [ItemInfoResponseMessageType](./iteminforesponsemessagetype) |  |
+| [ItemResponseShapeType](./itemresponseshapetype) |  |
+| [ItemType](./itemtype) |  |
+| [KeywordStatisticsSearchResultType](./keywordstatisticssearchresulttype) |  |
+| [LargeArchiveSearchScopeType](./largearchivesearchscopetype) |  |
+| [LikesPreviewType](./likespreviewtype) |  |
+| [LikeType](./liketype) |  |
+| [LocationConstraintItem](./locationconstraintitem) |  |
+| [MailboxCultureType](./mailboxculturetype) |  |
+| [MailboxData](./mailboxdata) |  |
+| [MailboxHoldResultType](./mailboxholdresulttype) |  |
+| [MailboxHoldStatusType](./mailboxholdstatustype) |  |
+| [MailboxInformationType](./mailboxinformationtype) |  |
+| [MailboxQueryType](./mailboxquerytype) |  |
+| [MailboxRefinerType](./mailboxrefinertype) |  |
+| [MailboxSearchScopeType](./mailboxsearchscopetype) |  |
+| [MailboxStatisticsItemType](./mailboxstatisticsitemtype) |  |
+| [MailboxStatisticsSearchResultType](./mailboxstatisticssearchresulttype) |  |
+| [MailTips](./mailtips) |  |
+| [MailTipsResponseMessageType](./mailtipsresponsemessagetype) |  |
+| [MailTipsServiceConfiguration](./mailtipsserviceconfiguration) |  |
+| [ManagedFolderInformationType](./managedfolderinformationtype) |  |
+| [ManagementRoleType](./managementroletype) |  |
+| [MarkAllItemsAsReadCompletedEventArgs](./markallitemsasreadcompletedeventargs) |  |
+| [MarkAllItemsAsReadCompletedEventHandler](./markallitemsasreadcompletedeventhandler) |  |
+| [MarkAllItemsAsReadResponseType](./markallitemsasreadresponsetype) |  |
+| [MarkAllItemsAsReadType](./markallitemsasreadtype) |  |
+| [MarkAsJunkCompletedEventArgs](./markasjunkcompletedeventargs) |  |
+| [MarkAsJunkCompletedEventHandler](./markasjunkcompletedeventhandler) |  |
+| [MarkAsJunkResponseMessageType](./markasjunkresponsemessagetype) |  |
+| [MarkAsJunkResponseType](./markasjunkresponsetype) |  |
+| [MarkAsJunkType](./markasjunktype) |  |
+| [MeetingCancellationMessageType](./meetingcancellationmessagetype) |  |
+| [MeetingInstanceType](./meetinginstancetype) |  |
+| [MeetingLocation](./meetinglocation) |  |
+| [MeetingMessageType](./meetingmessagetype) |  |
+| [MeetingRegistrationResponseObjectType](./meetingregistrationresponseobjecttype) |  |
+| [MeetingRequestMessageType](./meetingrequestmessagetype) |  |
+| [MeetingResponseMessageType](./meetingresponsemessagetype) |  |
+| [MeetingSpaceType](./meetingspacetype) |  |
+| [MeetingSuggestionType](./meetingsuggestiontype) |  |
+| [MeetingTimeCandidate](./meetingtimecandidate) |  |
+| [MeetingTimeCandidatesConstraintItem](./meetingtimecandidatesconstraintitem) |  |
+| [MemberType](./membertype) |  |
+| [MentionActionType](./mentionactiontype) |  |
+| [MentionsPreviewType](./mentionspreviewtype) |  |
+| [MessageTrackingReportType](./messagetrackingreporttype) |  |
+| [MessageType](./messagetype) |  |
+| [Metadata](./metadata) |  |
+| [MimeContentType](./mimecontenttype) |  |
+| [ModifiedEventType](./modifiedeventtype) |  |
+| [MonthlyRegeneratingPatternType](./monthlyregeneratingpatterntype) |  |
+| [MovedCopiedEventType](./movedcopiedeventtype) |  |
+| [MoveFolderCompletedEventArgs](./movefoldercompletedeventargs) |  |
+| [MoveFolderCompletedEventHandler](./movefoldercompletedeventhandler) |  |
+| [MoveFolderResponseType](./movefolderresponsetype) |  |
+| [MoveFolderType](./movefoldertype) |  |
+| [MoveItemCompletedEventArgs](./moveitemcompletedeventargs) |  |
+| [MoveItemCompletedEventHandler](./moveitemcompletedeventhandler) |  |
+| [MoveItemResponseType](./moveitemresponsetype) |  |
+| [MoveItemType](./moveitemtype) |  |
+| [MultipleOperandBooleanExpressionType](./multipleoperandbooleanexpressiontype) |  |
+| [NearType](./neartype) |  |
+| [NetworkItemType](./networkitemtype) |  |
+| [NoEndRecurrenceRangeType](./noendrecurrencerangetype) |  |
+| [NonEmptyArrayOfAllItemsType](./nonemptyarrayofallitemstype) |  |
+| [NonEmptyArrayOfExtendedPropertyType](./nonemptyarrayofextendedpropertytype) |  |
+| [NonEmptyArrayOfPropertyValuesType](./nonemptyarrayofpropertyvaluestype) |  |
+| [NonIndexableItemDetailResultType](./nonindexableitemdetailresulttype) |  |
+| [NonIndexableItemDetailType](./nonindexableitemdetailtype) |  |
+| [NonIndexableItemStatisticType](./nonindexableitemstatistictype) |  |
+| [NotificationType](./notificationtype) |  |
+| [NotType](./nottype) |  |
+| [NumberedRecurrenceRangeType](./numberedrecurrencerangetype) |  |
+| [OccurrenceInfoType](./occurrenceinfotype) |  |
+| [OccurrenceItemIdType](./occurrenceitemidtype) |  |
+| [OccurrencesRangeType](./occurrencesrangetype) |  |
+| [OfficeClientType](./officeclienttype) |  |
+| [OMEConfigurationResponseType](./omeconfigurationresponsetype) |  |
+| [OneDriveItemType](./onedriveitemtype) |  |
+| [OneDriveSearchScopeType](./onedrivesearchscopetype) |  |
+| [OnlineMeetingSettingsType](./onlinemeetingsettingstype) |  |
+| [OrType](./ortype) |  |
+| [OutOfOfficeMailTip](./outofofficemailtip) |  |
+| [ParcelDeliveryEntityType](./parceldeliveryentitytype) |  |
+| [ParticipantActivity](./participantactivity) |  |
+| [PathToExceptionFieldType](./pathtoexceptionfieldtype) |  |
+| [PathToExtendedFieldType](./pathtoextendedfieldtype) |  |
+| [PathToIndexedFieldType](./pathtoindexedfieldtype) |  |
+| [PathToUnindexedFieldType](./pathtounindexedfieldtype) |  |
+| [PeopleRefinerType](./peoplerefinertype) |  |
+| [PeopleSuggestionType](./peoplesuggestiontype) |  |
+| [PerformInstantSearchRequest](./performinstantsearchrequest) |  |
+| [PerformInstantSearchResponse](./performinstantsearchresponse) |  |
+| [PerformReminderActionResponseMessageType](./performreminderactionresponsemessagetype) |  |
+| [PerformReminderActionType](./performreminderactiontype) |  |
+| [PeriodType](./periodtype) |  |
+| [PermissionSetType](./permissionsettype) |  |
+| [PermissionType](./permissiontype) |  |
+| [PersonaAttributionType](./personaattributiontype) |  |
+| [PersonaPhoneNumberType](./personaphonenumbertype) |  |
+| [PersonaPostalAddressType](./personapostaladdresstype) |  |
+| [PersonaResponseShapeType](./personaresponseshapetype) |  |
+| [PersonaType](./personatype) |  |
+| [PhoneCallIdType](./phonecallidtype) |  |
+| [PhoneCallInformationType](./phonecallinformationtype) |  |
+| [PhoneEntityType](./phoneentitytype) |  |
+| [PhoneNumberAttributedValueType](./phonenumberattributedvaluetype) |  |
+| [PhoneNumberDictionaryEntryType](./phonenumberdictionaryentrytype) |  |
+| [PhoneType](./phonetype) |  |
+| [PhysicalAddressDictionaryEntryType](./physicaladdressdictionaryentrytype) |  |
+| [PlayOnPhoneCompletedEventArgs](./playonphonecompletedeventargs) |  |
+| [PlayOnPhoneCompletedEventHandler](./playonphonecompletedeventhandler) |  |
+| [PlayOnPhoneResponseMessageType](./playonphoneresponsemessagetype) |  |
+| [PlayOnPhoneType](./playonphonetype) |  |
+| [PolicyNudgeRulesServiceConfiguration](./policynudgerulesserviceconfiguration) |  |
+| [PostalAddressAttributedValueType](./postaladdressattributedvaluetype) |  |
+| [PostItemType](./postitemtype) |  |
+| [PostReplyItemBaseType](./postreplyitembasetype) |  |
+| [PostReplyItemType](./postreplyitemtype) |  |
+| [PreviewItemMailboxType](./previewitemmailboxtype) |  |
+| [PreviewItemResponseShapeType](./previewitemresponseshapetype) |  |
+| [PrimaryMailboxSearchScopeType](./primarymailboxsearchscopetype) |  |
+| [PrimarySmtpAddressType](./primarysmtpaddresstype) |  |
+| [PrincipalNameType](./principalnametype) |  |
+| [PrivateCatalogAddInsType](./privatecatalogaddinstype) |  |
+| [ProposeNewTimeType](./proposenewtimetype) |  |
+| [ProtectionRuleActionType](./protectionruleactiontype) |  |
+| [ProtectionRuleAndType](./protectionruleandtype) |  |
+| [ProtectionRuleArgumentType](./protectionruleargumenttype) |  |
+| [ProtectionRuleConditionType](./protectionruleconditiontype) |  |
+| [ProtectionRuleRecipientIsType](./protectionrulerecipientistype) |  |
+| [ProtectionRuleSenderDepartmentsType](./protectionrulesenderdepartmentstype) |  |
+| [ProtectionRulesServiceConfiguration](./protectionrulesserviceconfiguration) |  |
+| [ProtectionRuleType](./protectionruletype) |  |
+| [PullSubscriptionRequestType](./pullsubscriptionrequesttype) |  |
+| [PushSubscriptionRequestType](./pushsubscriptionrequesttype) |  |
+| [QueryStringType](./querystringtype) |  |
+| [RecipientSuggestionType](./recipientsuggestiontype) |  |
+| [RecipientTrackingEventType](./recipienttrackingeventtype) |  |
+| [RecurrencePatternBaseType](./recurrencepatternbasetype) |  |
+| [RecurrenceRangeBaseType](./recurrencerangebasetype) |  |
+| [RecurrenceType](./recurrencetype) |  |
+| [RecurringDateTransitionType](./recurringdatetransitiontype) |  |
+| [RecurringDayTransitionType](./recurringdaytransitiontype) |  |
+| [RecurringMasterItemIdRangesType](./recurringmasteritemidrangestype) |  |
+| [RecurringMasterItemIdType](./recurringmasteritemidtype) |  |
+| [RecurringTimeTransitionType](./recurringtimetransitiontype) |  |
+| [ReferenceAttachmentType](./referenceattachmenttype) |  |
+| [ReferenceItemResponseType](./referenceitemresponsetype) |  |
+| [RefreshSharingFolderCompletedEventArgs](./refreshsharingfoldercompletedeventargs) |  |
+| [RefreshSharingFolderCompletedEventHandler](./refreshsharingfoldercompletedeventhandler) |  |
+| [RefreshSharingFolderResponseMessageType](./refreshsharingfolderresponsemessagetype) |  |
+| [RefreshSharingFolderType](./refreshsharingfoldertype) |  |
+| [RegeneratingPatternBaseType](./regeneratingpatternbasetype) |  |
+| [RegisterConsentResponseMessageType](./registerconsentresponsemessagetype) |  |
+| [RegisterConsentType](./registerconsenttype) |  |
+| [RelativeMonthlyRecurrencePatternType](./relativemonthlyrecurrencepatterntype) |  |
+| [RelativeYearlyRecurrencePatternType](./relativeyearlyrecurrencepatterntype) |  |
+| [ReminderItemActionType](./reminderitemactiontype) |  |
+| [ReminderMessageDataType](./remindermessagedatatype) |  |
+| [ReminderType](./remindertype) |  |
+| [RemoveContactFromImListCompletedEventArgs](./removecontactfromimlistcompletedeventargs) |  |
+| [RemoveContactFromImListCompletedEventHandler](./removecontactfromimlistcompletedeventhandler) |  |
+| [RemoveContactFromImListResponseMessageType](./removecontactfromimlistresponsemessagetype) |  |
+| [RemoveContactFromImListType](./removecontactfromimlisttype) |  |
+| [RemoveDelegateCompletedEventArgs](./removedelegatecompletedeventargs) |  |
+| [RemoveDelegateCompletedEventHandler](./removedelegatecompletedeventhandler) |  |
+| [RemoveDelegateResponseMessageType](./removedelegateresponsemessagetype) |  |
+| [RemoveDelegateType](./removedelegatetype) |  |
+| [RemoveDistributionGroupFromImListCompletedEventArgs](./removedistributiongroupfromimlistcompletedeventargs) |  |
+| [RemoveDistributionGroupFromImListCompletedEventHandler](./removedistributiongroupfromimlistcompletedeventhandler) |  |
+| [RemoveDistributionGroupFromImListResponseMessageType](./removedistributiongroupfromimlistresponsemessagetype) |  |
+| [RemoveDistributionGroupFromImListType](./removedistributiongroupfromimlisttype) |  |
+| [RemoveImContactFromGroupCompletedEventArgs](./removeimcontactfromgroupcompletedeventargs) |  |
+| [RemoveImContactFromGroupCompletedEventHandler](./removeimcontactfromgroupcompletedeventhandler) |  |
+| [RemoveImContactFromGroupResponseMessageType](./removeimcontactfromgroupresponsemessagetype) |  |
+| [RemoveImContactFromGroupType](./removeimcontactfromgrouptype) |  |
+| [RemoveImGroupCompletedEventArgs](./removeimgroupcompletedeventargs) |  |
+| [RemoveImGroupCompletedEventHandler](./removeimgroupcompletedeventhandler) |  |
+| [RemoveImGroupResponseMessageType](./removeimgroupresponsemessagetype) |  |
+| [RemoveImGroupType](./removeimgrouptype) |  |
+| [RemoveItemType](./removeitemtype) |  |
+| [ReplyAllToItemType](./replyalltoitemtype) |  |
+| [ReplyBody](./replybody) |  |
+| [ReplyToItemType](./replytoitemtype) |  |
+| [ReportMessageCompletedEventArgs](./reportmessagecompletedeventargs) |  |
+| [ReportMessageCompletedEventHandler](./reportmessagecompletedeventhandler) |  |
+| [ReportMessageResponseMessageType](./reportmessageresponsemessagetype) |  |
+| [ReportMessageResponseType](./reportmessageresponsetype) |  |
+| [ReportMessageType](./reportmessagetype) |  |
+| [RequestAttachmentIdType](./requestattachmentidtype) |  |
+| [RequestServerVersion](./requestserverversion) |  |
+| [ResolutionType](./resolutiontype) |  |
+| [ResolveNamesCompletedEventArgs](./resolvenamescompletedeventargs) |  |
+| [ResolveNamesCompletedEventHandler](./resolvenamescompletedeventhandler) |  |
+| [ResolveNamesResponseMessageType](./resolvenamesresponsemessagetype) |  |
+| [ResolveNamesResponseType](./resolvenamesresponsetype) |  |
+| [ResolveNamesType](./resolvenamestype) |  |
+| [ResponseMessageType](./responsemessagetype) |  |
+| [ResponseMessageTypeMessageXml](./responsemessagetypemessagexml) |  |
+| [ResponseObjectCoreType](./responseobjectcoretype) |  |
+| [ResponseObjectType](./responseobjecttype) |  |
+| [RestrictionType](./restrictiontype) |  |
+| [RetentionPolicyTagType](./retentionpolicytagtype) |  |
+| [RetentionTagType](./retentiontagtype) |  |
+| [RightsManagementLicenseDataType](./rightsmanagementlicensedatatype) |  |
+| [RoleMemberItemType](./rolememberitemtype) |  |
+| [RoomType](./roomtype) |  |
+| [RootItemIdType](./rootitemidtype) |  |
+| [RuleActionsType](./ruleactionstype) |  |
+| [RuleOperationErrorType](./ruleoperationerrortype) |  |
+| [RuleOperationType](./ruleoperationtype) |  |
+| [RulePredicateDateRangeType](./rulepredicatedaterangetype) |  |
+| [RulePredicateSizeRangeType](./rulepredicatesizerangetype) |  |
+| [RulePredicatesType](./rulepredicatestype) |  |
+| [RuleType](./ruletype) |  |
+| [RuleValidationErrorType](./rulevalidationerrortype) |  |
+| [SearchableMailboxType](./searchablemailboxtype) |  |
+| [SearchDiagnosticsType](./searchdiagnosticstype) |  |
+| [SearchExpressionType](./searchexpressiontype) |  |
+| [SearchFolderScopeType](./searchfolderscopetype) |  |
+| [SearchFolderType](./searchfoldertype) |  |
+| [SearchMailboxesCompletedEventArgs](./searchmailboxescompletedeventargs) |  |
+| [SearchMailboxesCompletedEventHandler](./searchmailboxescompletedeventhandler) |  |
+| [SearchMailboxesResponseMessageType](./searchmailboxesresponsemessagetype) |  |
+| [SearchMailboxesResponseType](./searchmailboxesresponsetype) |  |
+| [SearchMailboxesResultType](./searchmailboxesresulttype) |  |
+| [SearchMailboxesType](./searchmailboxestype) |  |
+| [SearchParametersType](./searchparameterstype) |  |
+| [SearchPreviewItemType](./searchpreviewitemtype) |  |
+| [SearchRefinerItemType](./searchrefineritemtype) |  |
+| [SearchRefinerType](./searchrefinertype) |  |
+| [SearchResultConversationIdType](./searchresultconversationidtype) |  |
+| [SearchResultItemIdType](./searchresultitemidtype) |  |
+| [SearchResultsType](./searchresultstype) |  |
+| [SearchSuggestionsType](./searchsuggestionstype) |  |
+| [SeekToConditionPageViewType](./seektoconditionpageviewtype) |  |
+| [SenderAddInEntityType](./senderaddinentitytype) |  |
+| [SendItemCompletedEventArgs](./senditemcompletedeventargs) |  |
+| [SendItemCompletedEventHandler](./senditemcompletedeventhandler) |  |
+| [SendItemResponseType](./senditemresponsetype) |  |
+| [SendItemType](./senditemtype) |  |
+| [SendNotificationResponseMessageType](./sendnotificationresponsemessagetype) |  |
+| [SendNotificationResponseType](./sendnotificationresponsetype) |  |
+| [SerializableTimeZone](./serializabletimezone) |  |
+| [SerializableTimeZoneTime](./serializabletimezonetime) |  |
+| [ServerVersionInfo](./serverversioninfo) |  |
+| [ServiceConfiguration](./serviceconfiguration) |  |
+| [ServiceConfigurationResponseMessageType](./serviceconfigurationresponsemessagetype) |  |
+| [SetFolderFieldType](./setfolderfieldtype) |  |
+| [SetHoldOnMailboxesCompletedEventArgs](./setholdonmailboxescompletedeventargs) |  |
+| [SetHoldOnMailboxesCompletedEventHandler](./setholdonmailboxescompletedeventhandler) |  |
+| [SetHoldOnMailboxesResponseMessageType](./setholdonmailboxesresponsemessagetype) |  |
+| [SetHoldOnMailboxesType](./setholdonmailboxestype) |  |
+| [SetImGroupCompletedEventArgs](./setimgroupcompletedeventargs) |  |
+| [SetImGroupCompletedEventHandler](./setimgroupcompletedeventhandler) |  |
+| [SetImGroupResponseMessageType](./setimgroupresponsemessagetype) |  |
+| [SetImGroupType](./setimgrouptype) |  |
+| [SetImListMigrationCompletedCompletedEventArgs](./setimlistmigrationcompletedcompletedeventargs) |  |
+| [SetImListMigrationCompletedCompletedEventHandler](./setimlistmigrationcompletedcompletedeventhandler) |  |
+| [SetImListMigrationCompletedResponseMessageType](./setimlistmigrationcompletedresponsemessagetype) |  |
+| [SetImListMigrationCompletedType](./setimlistmigrationcompletedtype) |  |
+| [SetItemFieldType](./setitemfieldtype) |  |
+| [SetOMEConfigurationResponseType](./setomeconfigurationresponsetype) |  |
+| [SetOMEConfigurationType](./setomeconfigurationtype) |  |
+| [SetRuleOperationType](./setruleoperationtype) |  |
+| [SetTeamMailboxCompletedEventArgs](./setteammailboxcompletedeventargs) |  |
+| [SetTeamMailboxCompletedEventHandler](./setteammailboxcompletedeventhandler) |  |
+| [SetTeamMailboxRequestType](./setteammailboxrequesttype) |  |
+| [SetTeamMailboxResponseMessageType](./setteammailboxresponsemessagetype) |  |
+| [SetUserOofSettingsCompletedEventArgs](./setuseroofsettingscompletedeventargs) |  |
+| [SetUserOofSettingsCompletedEventHandler](./setuseroofsettingscompletedeventhandler) |  |
+| [SetUserOofSettingsRequest](./setuseroofsettingsrequest) |  |
+| [SetUserOofSettingsResponse](./setuseroofsettingsresponse) |  |
+| [SetUserPhotoCompletedEventArgs](./setuserphotocompletedeventargs) |  |
+| [SetUserPhotoCompletedEventHandler](./setuserphotocompletedeventhandler) |  |
+| [SetUserPhotoResponseMessageType](./setuserphotoresponsemessagetype) |  |
+| [SetUserPhotoType](./setuserphototype) |  |
+| [SharePointURLsServiceConfiguration](./sharepointurlsserviceconfiguration) |  |
+| [SharingMessageActionType](./sharingmessageactiontype) |  |
+| [SharingMessageType](./sharingmessagetype) |  |
+| [SIDType](./sidtype) |  |
+| [SingleLargeArchiveSearchScopeType](./singlelargearchivesearchscopetype) |  |
+| [SingleRecipientType](./singlerecipienttype) |  |
+| [SmartResponseBaseType](./smartresponsebasetype) |  |
+| [SmartResponseType](./smartresponsetype) |  |
+| [SmtpAddressType](./smtpaddresstype) |  |
+| [SmtpDomain](./smtpdomain) |  |
+| [StartSearchSession](./startsearchsession) |  |
+| [StartSearchSessionCompletedEventArgs](./startsearchsessioncompletedeventargs) |  |
+| [StartSearchSessionCompletedEventHandler](./startsearchsessioncompletedeventhandler) |  |
+| [StartSearchSessionResponseMessage](./startsearchsessionresponsemessage) |  |
+| [StreamingSubscriptionRequestType](./streamingsubscriptionrequesttype) |  |
+| [StringArrayAttributedValueType](./stringarrayattributedvaluetype) |  |
+| [StringAttributedValueType](./stringattributedvaluetype) |  |
+| [SubscribeCompletedEventArgs](./subscribecompletedeventargs) |  |
+| [SubscribeCompletedEventHandler](./subscribecompletedeventhandler) |  |
+| [SubscribeResponseMessageType](./subscriberesponsemessagetype) |  |
+| [SubscribeResponseType](./subscriberesponsetype) |  |
+| [SubscribeType](./subscribetype) |  |
+| [Suggestion](./suggestion) |  |
+| [SuggestionDayResult](./suggestiondayresult) |  |
+| [SuggestionsResponseType](./suggestionsresponsetype) |  |
+| [SuggestionsViewOptionsType](./suggestionsviewoptionstype) |  |
+| [SuggestionType](./suggestiontype) |  |
+| [SuppressReadReceiptType](./suppressreadreceipttype) |  |
+| [SyncFolderHierarchyChangesType](./syncfolderhierarchychangestype) |  |
+| [SyncFolderHierarchyCompletedEventArgs](./syncfolderhierarchycompletedeventargs) |  |
+| [SyncFolderHierarchyCompletedEventHandler](./syncfolderhierarchycompletedeventhandler) |  |
+| [SyncFolderHierarchyCreateOrUpdateType](./syncfolderhierarchycreateorupdatetype) |  |
+| [SyncFolderHierarchyDeleteType](./syncfolderhierarchydeletetype) |  |
+| [SyncFolderHierarchyResponseMessageType](./syncfolderhierarchyresponsemessagetype) |  |
+| [SyncFolderHierarchyResponseType](./syncfolderhierarchyresponsetype) |  |
+| [SyncFolderHierarchyType](./syncfolderhierarchytype) |  |
+| [SyncFolderItemsChangesType](./syncfolderitemschangestype) |  |
+| [SyncFolderItemsCompletedEventArgs](./syncfolderitemscompletedeventargs) |  |
+| [SyncFolderItemsCompletedEventHandler](./syncfolderitemscompletedeventhandler) |  |
+| [SyncFolderItemsCreateOrUpdateType](./syncfolderitemscreateorupdatetype) |  |
+| [SyncFolderItemsDeleteType](./syncfolderitemsdeletetype) |  |
+| [SyncFolderItemsReadFlagType](./syncfolderitemsreadflagtype) |  |
+| [SyncFolderItemsResponseMessageType](./syncfolderitemsresponsemessagetype) |  |
+| [SyncFolderItemsResponseType](./syncfolderitemsresponsetype) |  |
+| [SyncFolderItemsType](./syncfolderitemstype) |  |
+| [TargetFolderIdType](./targetfolderidtype) |  |
+| [TaskRecurrenceType](./taskrecurrencetype) |  |
+| [TasksFolderType](./tasksfoldertype) |  |
+| [TaskSuggestionType](./tasksuggestiontype) |  |
+| [TaskType](./tasktype) |  |
+| [TentativelyAcceptItemType](./tentativelyacceptitemtype) |  |
+| [TimeChangeType](./timechangetype) |  |
+| [TimeSlot](./timeslot) |  |
+| [TimeZoneContextType](./timezonecontexttype) |  |
+| [TimeZoneDefinitionType](./timezonedefinitiontype) |  |
+| [TimeZoneType](./timezonetype) |  |
+| [TooBigGroupAttendeeConflictData](./toobiggroupattendeeconflictdata) |  |
+| [TrackingPropertyType](./trackingpropertytype) |  |
+| [TransitionTargetType](./transitiontargettype) |  |
+| [TransitionType](./transitiontype) |  |
+| [TwoOperandExpressionType](./twooperandexpressiontype) |  |
+| [UnifiedMessageServiceConfiguration](./unifiedmessageserviceconfiguration) |  |
+| [UninstallAppCompletedEventArgs](./uninstallappcompletedeventargs) |  |
+| [UninstallAppCompletedEventHandler](./uninstallappcompletedeventhandler) |  |
+| [UninstallAppResponseType](./uninstallappresponsetype) |  |
+| [UninstallAppType](./uninstallapptype) |  |
+| [UnknownAttendeeConflictData](./unknownattendeeconflictdata) |  |
+| [UnpinTeamMailboxCompletedEventArgs](./unpinteammailboxcompletedeventargs) |  |
+| [UnpinTeamMailboxCompletedEventHandler](./unpinteammailboxcompletedeventhandler) |  |
+| [UnpinTeamMailboxRequestType](./unpinteammailboxrequesttype) |  |
+| [UnpinTeamMailboxResponseMessageType](./unpinteammailboxresponsemessagetype) |  |
+| [UnsubscribeCompletedEventArgs](./unsubscribecompletedeventargs) |  |
+| [UnsubscribeCompletedEventHandler](./unsubscribecompletedeventhandler) |  |
+| [UnsubscribeResponseType](./unsubscriberesponsetype) |  |
+| [UnsubscribeType](./unsubscribetype) |  |
+| [UpdateDelegateCompletedEventArgs](./updatedelegatecompletedeventargs) |  |
+| [UpdateDelegateCompletedEventHandler](./updatedelegatecompletedeventhandler) |  |
+| [UpdateDelegateResponseMessageType](./updatedelegateresponsemessagetype) |  |
+| [UpdateDelegateType](./updatedelegatetype) |  |
+| [UpdateFolderCompletedEventArgs](./updatefoldercompletedeventargs) |  |
+| [UpdateFolderCompletedEventHandler](./updatefoldercompletedeventhandler) |  |
+| [UpdateFolderResponseType](./updatefolderresponsetype) |  |
+| [UpdateFolderType](./updatefoldertype) |  |
+| [UpdateInboxRulesCompletedEventArgs](./updateinboxrulescompletedeventargs) |  |
+| [UpdateInboxRulesCompletedEventHandler](./updateinboxrulescompletedeventhandler) |  |
+| [UpdateInboxRulesRequestType](./updateinboxrulesrequesttype) |  |
+| [UpdateInboxRulesResponseType](./updateinboxrulesresponsetype) |  |
+| [UpdateItemCompletedEventArgs](./updateitemcompletedeventargs) |  |
+| [UpdateItemCompletedEventHandler](./updateitemcompletedeventhandler) |  |
+| [UpdateItemInRecoverableItemsCompletedEventArgs](./updateiteminrecoverableitemscompletedeventargs) |  |
+| [UpdateItemInRecoverableItemsCompletedEventHandler](./updateiteminrecoverableitemscompletedeventhandler) |  |
+| [UpdateItemInRecoverableItemsResponseMessageType](./updateiteminrecoverableitemsresponsemessagetype) |  |
+| [UpdateItemInRecoverableItemsResponseType](./updateiteminrecoverableitemsresponsetype) |  |
+| [UpdateItemInRecoverableItemsType](./updateiteminrecoverableitemstype) |  |
+| [UpdateItemResponseMessageType](./updateitemresponsemessagetype) |  |
+| [UpdateItemResponseType](./updateitemresponsetype) |  |
+| [UpdateItemType](./updateitemtype) |  |
+| [UpdateMeetingInstanceCompletedEventArgs](./updatemeetinginstancecompletedeventargs) |  |
+| [UpdateMeetingInstanceCompletedEventHandler](./updatemeetinginstancecompletedeventhandler) |  |
+| [UpdateMeetingInstanceRequestType](./updatemeetinginstancerequesttype) |  |
+| [UpdateMeetingInstanceResponseMessageType](./updatemeetinginstanceresponsemessagetype) |  |
+| [UpdateMeetingSpaceCompletedEventArgs](./updatemeetingspacecompletedeventargs) |  |
+| [UpdateMeetingSpaceCompletedEventHandler](./updatemeetingspacecompletedeventhandler) |  |
+| [UpdateMeetingSpaceResponseMessageType](./updatemeetingspaceresponsemessagetype) |  |
+| [UpdateMeetingSpaceType](./updatemeetingspacetype) |  |
+| [UpdateUserConfigurationCompletedEventArgs](./updateuserconfigurationcompletedeventargs) |  |
+| [UpdateUserConfigurationCompletedEventHandler](./updateuserconfigurationcompletedeventhandler) |  |
+| [UpdateUserConfigurationResponseType](./updateuserconfigurationresponsetype) |  |
+| [UpdateUserConfigurationType](./updateuserconfigurationtype) |  |
+| [UploadItemsCompletedEventArgs](./uploaditemscompletedeventargs) |  |
+| [UploadItemsCompletedEventHandler](./uploaditemscompletedeventhandler) |  |
+| [UploadItemsResponseMessageType](./uploaditemsresponsemessagetype) |  |
+| [UploadItemsResponseType](./uploaditemsresponsetype) |  |
+| [UploadItemsType](./uploaditemstype) |  |
+| [UploadItemType](./uploaditemtype) |  |
+| [UrlEntityType](./urlentitytype) |  |
+| [UserConfigurationDictionaryEntryType](./userconfigurationdictionaryentrytype) |  |
+| [UserConfigurationDictionaryObjectType](./userconfigurationdictionaryobjecttype) |  |
+| [UserConfigurationNameType](./userconfigurationnametype) |  |
+| [UserConfigurationType](./userconfigurationtype) |  |
+| [UserIdType](./useridtype) |  |
+| [UserMailboxType](./usermailboxtype) |  |
+| [UserOofSettings](./useroofsettings) |  |
+| [VotingInformationType](./votinginformationtype) |  |
+| [VotingOptionDataType](./votingoptiondatatype) |  |
+| [WeeklyRecurrencePatternType](./weeklyrecurrencepatterntype) |  |
+| [WeeklyRegeneratingPatternType](./weeklyregeneratingpatterntype) |  |
+| [WellKnownResponseObjectType](./wellknownresponseobjecttype) |  |
+| [WorkingHours](./workinghours) |  |
+| [WorkingPeriod](./workingperiod) |  |
+| [YearlyRegeneratingPatternType](./yearlyregeneratingpatterntype) |  |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| enum [AbchEmailAddressTypeType](./abchemailaddresstypetype) |  |
-| enum [ActivityDomainType](./activitydomaintype) |  |
-| enum [AddInStateType](./addinstatetype) |  |
-| enum [AffectedTaskOccurrencesType](./affectedtaskoccurrencestype) |  |
-| enum [AggregateType](./aggregatetype) |  |
-| enum [AvailabilityStatusType](./availabilitystatustype) |  |
-| enum [BodyTypeResponseType](./bodytyperesponsetype) |  |
-| enum [BodyTypeType](./bodytypetype) |  |
-| enum [CalendarItemCreateOrDeleteOperationType](./calendaritemcreateordeleteoperationtype) |  |
-| enum [CalendarItemTypeType](./calendaritemtypetype) |  |
-| enum [CalendarItemUpdateOperationType](./calendaritemupdateoperationtype) |  |
-| enum [CalendarPermissionLevelType](./calendarpermissionleveltype) |  |
-| enum [CalendarPermissionReadAccessType](./calendarpermissionreadaccesstype) |  |
-| enum [ClientAccessTokenTypeType](./clientaccesstokentypetype) |  |
-| enum [ConflictResolutionType](./conflictresolutiontype) |  |
-| enum [ConnectionFailureCauseType](./connectionfailurecausetype) |  |
-| enum [ConnectionStatusType](./connectionstatustype) |  |
-| enum [ConsentStateType](./consentstatetype) |  |
-| enum [ContactSourceType](./contactsourcetype) |  |
-| enum [ContactUrlKeyType](./contacturlkeytype) |  |
-| enum [ContainmentComparisonType](./containmentcomparisontype) |  |
-| enum [ContainmentModeType](./containmentmodetype) |  |
-| enum [ContentActivityAcl](./contentactivityacl) |  |
-| enum [ContentActivityMediaType](./contentactivitymediatype) |  |
-| enum [ContentActivityType](./contentactivitytype) |  |
-| enum [ConversationActionTypeType](./conversationactiontypetype) |  |
-| enum [ConversationNodeSortOrder](./conversationnodesortorder) |  |
-| enum [ConversationQueryTraversalType](./conversationquerytraversaltype) |  |
-| enum [CreateActionType](./createactiontype) |  |
-| enum [DayOfWeekIndexType](./dayofweekindextype) |  |
-| enum [DayOfWeekType](./dayofweektype) |  |
-| enum [DefaultShapeNamesType](./defaultshapenamestype) |  |
-| enum [DelegateFolderPermissionLevelType](./delegatefolderpermissionleveltype) |  |
-| enum [DeliverMeetingRequestsType](./delivermeetingrequeststype) |  |
-| enum [DelveViewType](./delveviewtype) |  |
-| enum [DictionaryURIType](./dictionaryuritype) |  |
-| enum [DisableReasonType](./disablereasontype) |  |
-| enum [DisposalType](./disposaltype) |  |
-| enum [DistinguishedFolderIdNameType](./distinguishedfolderidnametype) |  |
-| enum [DistinguishedPropertySetType](./distinguishedpropertysettype) |  |
-| enum [DistinguishedUserType](./distinguishedusertype) |  |
-| enum [ElcFolderType](./elcfoldertype) |  |
-| enum [EmailAddressKeyType](./emailaddresskeytype) |  |
-| enum [EmailPositionType](./emailpositiontype) |  |
-| enum [EmailReminderChangeType](./emailreminderchangetype) |  |
-| enum [EmailReminderSendOption](./emailremindersendoption) |  |
-| enum [EmptySuggestionReason](./emptysuggestionreason) |  |
-| enum [ExceptionPropertyURIType](./exceptionpropertyuritype) |  |
-| enum [ExchangeVersionType](./exchangeversiontype) |  |
-| enum [ExecuteSearchSortOrderType](./executesearchsortordertype) |  |
-| enum [ExternalAudience](./externalaudience) |  |
-| enum [FileAsMappingType](./fileasmappingtype) |  |
-| enum [FlaggedForActionType](./flaggedforactiontype) |  |
-| enum [FlagStatusType](./flagstatustype) |  |
-| enum [FolderQueryTraversalType](./folderquerytraversaltype) |  |
-| enum [FreeBusyViewType](./freebusyviewtype) |  |
-| enum [GetRemindersTypeReminderType](./getreminderstyperemindertype) |  |
-| enum [HoldActionType](./holdactiontype) |  |
-| enum [HoldStatusType](./holdstatustype) |  |
-| enum [IconIndexType](./iconindextype) |  |
-| enum [IdFormatType](./idformattype) |  |
-| enum [ImAddressKeyType](./imaddresskeytype) |  |
-| enum [ImportanceChoicesType](./importancechoicestype) |  |
-| enum [IndexBasePointType](./indexbasepointtype) |  |
-| enum [InferenceClassificationType](./inferenceclassificationtype) |  |
-| enum [InstantSearchItemType](./instantsearchitemtype) |  |
-| enum [InstantSearchResultType](./instantsearchresulttype) |  |
-| enum [InvalidRecipientResponseCodeType](./invalidrecipientresponsecodetype) |  |
-| enum [ItemChoiceType](./itemchoicetype) |  |
-| enum [ItemIndexErrorType](./itemindexerrortype) |  |
-| enum [ItemQueryTraversalType](./itemquerytraversaltype) |  |
-| enum [ItemsChoiceType](./itemschoicetype) |  |
-| enum [ItemsChoiceType1](./itemschoicetype1) |  |
-| enum [ItemsChoiceType2](./itemschoicetype2) |  |
-| enum [ItemsChoiceType3](./itemschoicetype3) |  |
-| enum [ItemsChoiceType4](./itemschoicetype4) |  |
-| enum [ItemTypesFilterType](./itemtypesfiltertype) |  |
-| enum [LegacyFreeBusyType](./legacyfreebusytype) |  |
-| enum [LobbyBypassType](./lobbybypasstype) |  |
-| enum [LocationSourceType](./locationsourcetype) |  |
-| enum [MailboxSearchLocationType](./mailboxsearchlocationtype) |  |
-| enum [MailboxTypeType](./mailboxtypetype) |  |
-| enum [MailTipTypes](./mailtiptypes) |  |
-| enum [MapiPropertyTypeType](./mapipropertytypetype) |  |
-| enum [MatchOptionsType](./matchoptionstype) |  |
-| enum [MeetingAttendeeType](./meetingattendeetype) |  |
-| enum [MeetingRequestTypeType](./meetingrequesttypetype) |  |
-| enum [MeetingSpaceTypeEnum](./meetingspacetypeenum) |  |
-| enum [MemberStatusType](./memberstatustype) |  |
-| enum [MessageDispositionType](./messagedispositiontype) |  |
-| enum [MessageTrackingReportTemplateType](./messagetrackingreporttemplatetype) |  |
-| enum [MonthNamesType](./monthnamestype) |  |
-| enum [NotificationEventTypeType](./notificationeventtypetype) |  |
-| enum [OneDriveViewType](./onedriveviewtype) |  |
-| enum [OnlineMeetingAccessLevelType](./onlinemeetingaccessleveltype) |  |
-| enum [OofState](./oofstate) |  |
-| enum [ParticipantActivityMediaType](./participantactivitymediatype) |  |
-| enum [ParticipantActivityRole](./participantactivityrole) |  |
-| enum [PermissionActionType](./permissionactiontype) |  |
-| enum [PermissionLevelType](./permissionleveltype) |  |
-| enum [PermissionReadAccessType](./permissionreadaccesstype) |  |
-| enum [PhoneCallStateType](./phonecallstatetype) |  |
-| enum [PhoneNumberKeyType](./phonenumberkeytype) |  |
-| enum [PhysicalAddressIndexType](./physicaladdressindextype) |  |
-| enum [PhysicalAddressKeyType](./physicaladdresskeytype) |  |
-| enum [PredictedActionReasonType](./predictedactionreasontype) |  |
-| enum [PresentersType](./presenterstype) |  |
-| enum [PreviewItemBaseShapeType](./previewitembaseshapetype) |  |
-| enum [ProtectionRuleActionKindType](./protectionruleactionkindtype) |  |
-| enum [QueryOptionsType](./queryoptionstype) |  |
-| enum [RefinerTypeType](./refinertypetype) |  |
-| enum [ReminderActionType](./reminderactiontype) |  |
-| enum [ReminderGroupType](./remindergrouptype) |  |
-| enum [ReportMessageActionType](./reportmessageactiontype) |  |
-| enum [ResolveNamesSearchScopeType](./resolvenamessearchscopetype) |  |
-| enum [ResponseClassType](./responseclasstype) |  |
-| enum [ResponseCodeType](./responsecodetype) |  |
-| enum [ResponseTypeType](./responsetypetype) |  |
-| enum [RetentionActionType](./retentionactiontype) |  |
-| enum [RetentionType](./retentiontype) |  |
-| enum [RoleMemberTypeType](./rolemembertypetype) |  |
-| enum [RuleFieldURIType](./rulefielduritype) |  |
-| enum [RuleValidationErrorCodeType](./rulevalidationerrorcodetype) |  |
-| enum [SearchApplicationIdType](./searchapplicationidtype) |  |
-| enum [SearchFolderTraversalType](./searchfoldertraversaltype) |  |
-| enum [SearchItemKindType](./searchitemkindtype) |  |
-| enum [SearchPageDirectionType](./searchpagedirectiontype) |  |
-| enum [SearchResultsPropertySetNameType](./searchresultspropertysetnametype) |  |
-| enum [SearchResultType](./searchresulttype) |  |
-| enum [SearchScopeArchivesType](./searchscopearchivestype) |  |
-| enum [SearchScopeGroupsType](./searchscopegroupstype) |  |
-| enum [SendPromptType](./sendprompttype) |  |
-| enum [SensitivityChoicesType](./sensitivitychoicestype) |  |
-| enum [ServiceConfigurationType](./serviceconfigurationtype) |  |
-| enum [SharingAction](./sharingaction) |  |
-| enum [SharingActionImportance](./sharingactionimportance) |  |
-| enum [SharingActionType](./sharingactiontype) |  |
-| enum [SharingDataType](./sharingdatatype) |  |
-| enum [SortDirectionType](./sortdirectiontype) |  |
-| enum [StandardGroupByType](./standardgroupbytype) |  |
-| enum [SuggestionKindType](./suggestionkindtype) |  |
-| enum [SuggestionQuality](./suggestionquality) |  |
-| enum [SyncFolderItemsScopeType](./syncfolderitemsscopetype) |  |
-| enum [TaskDelegateStateType](./taskdelegatestatetype) |  |
-| enum [TaskStatusType](./taskstatustype) |  |
-| enum [TeamMailboxLifecycleStateType](./teammailboxlifecyclestatetype) |  |
-| enum [TransitionTargetKindType](./transitiontargetkindtype) |  |
-| enum [UnindexedFieldURIType](./unindexedfielduritype) |  |
-| enum [UserConfigurationDictionaryObjectTypesType](./userconfigurationdictionaryobjecttypestype) |  |
-| enum [UserConfigurationPropertyType](./userconfigurationpropertytype) |  |
-| enum [UserPhotoSizeType](./userphotosizetype) |  |
-| enum [UserPhotoTypeType](./userphototypetype) |  |
-| enum [ViewFilterType](./viewfiltertype) |  |
-| enum [WarmupOptionsType](./warmupoptionstype) |  |
+| [AbchEmailAddressTypeType](./abchemailaddresstypetype) |  |
+| [ActivityDomainType](./activitydomaintype) |  |
+| [AddInStateType](./addinstatetype) |  |
+| [AffectedTaskOccurrencesType](./affectedtaskoccurrencestype) |  |
+| [AggregateType](./aggregatetype) |  |
+| [AvailabilityStatusType](./availabilitystatustype) |  |
+| [BodyTypeResponseType](./bodytyperesponsetype) |  |
+| [BodyTypeType](./bodytypetype) |  |
+| [CalendarItemCreateOrDeleteOperationType](./calendaritemcreateordeleteoperationtype) |  |
+| [CalendarItemTypeType](./calendaritemtypetype) |  |
+| [CalendarItemUpdateOperationType](./calendaritemupdateoperationtype) |  |
+| [CalendarPermissionLevelType](./calendarpermissionleveltype) |  |
+| [CalendarPermissionReadAccessType](./calendarpermissionreadaccesstype) |  |
+| [ClientAccessTokenTypeType](./clientaccesstokentypetype) |  |
+| [ConflictResolutionType](./conflictresolutiontype) |  |
+| [ConnectionFailureCauseType](./connectionfailurecausetype) |  |
+| [ConnectionStatusType](./connectionstatustype) |  |
+| [ConsentStateType](./consentstatetype) |  |
+| [ContactSourceType](./contactsourcetype) |  |
+| [ContactUrlKeyType](./contacturlkeytype) |  |
+| [ContainmentComparisonType](./containmentcomparisontype) |  |
+| [ContainmentModeType](./containmentmodetype) |  |
+| [ContentActivityAcl](./contentactivityacl) |  |
+| [ContentActivityMediaType](./contentactivitymediatype) |  |
+| [ContentActivityType](./contentactivitytype) |  |
+| [ConversationActionTypeType](./conversationactiontypetype) |  |
+| [ConversationNodeSortOrder](./conversationnodesortorder) |  |
+| [ConversationQueryTraversalType](./conversationquerytraversaltype) |  |
+| [CreateActionType](./createactiontype) |  |
+| [DayOfWeekIndexType](./dayofweekindextype) |  |
+| [DayOfWeekType](./dayofweektype) |  |
+| [DefaultShapeNamesType](./defaultshapenamestype) |  |
+| [DelegateFolderPermissionLevelType](./delegatefolderpermissionleveltype) |  |
+| [DeliverMeetingRequestsType](./delivermeetingrequeststype) |  |
+| [DelveViewType](./delveviewtype) |  |
+| [DictionaryURIType](./dictionaryuritype) |  |
+| [DisableReasonType](./disablereasontype) |  |
+| [DisposalType](./disposaltype) |  |
+| [DistinguishedFolderIdNameType](./distinguishedfolderidnametype) |  |
+| [DistinguishedPropertySetType](./distinguishedpropertysettype) |  |
+| [DistinguishedUserType](./distinguishedusertype) |  |
+| [ElcFolderType](./elcfoldertype) |  |
+| [EmailAddressKeyType](./emailaddresskeytype) |  |
+| [EmailPositionType](./emailpositiontype) |  |
+| [EmailReminderChangeType](./emailreminderchangetype) |  |
+| [EmailReminderSendOption](./emailremindersendoption) |  |
+| [EmptySuggestionReason](./emptysuggestionreason) |  |
+| [ExceptionPropertyURIType](./exceptionpropertyuritype) |  |
+| [ExchangeVersionType](./exchangeversiontype) |  |
+| [ExecuteSearchSortOrderType](./executesearchsortordertype) |  |
+| [ExternalAudience](./externalaudience) |  |
+| [FileAsMappingType](./fileasmappingtype) |  |
+| [FlaggedForActionType](./flaggedforactiontype) |  |
+| [FlagStatusType](./flagstatustype) |  |
+| [FolderQueryTraversalType](./folderquerytraversaltype) |  |
+| [FreeBusyViewType](./freebusyviewtype) |  |
+| [GetRemindersTypeReminderType](./getreminderstyperemindertype) |  |
+| [HoldActionType](./holdactiontype) |  |
+| [HoldStatusType](./holdstatustype) |  |
+| [IconIndexType](./iconindextype) |  |
+| [IdFormatType](./idformattype) |  |
+| [ImAddressKeyType](./imaddresskeytype) |  |
+| [ImportanceChoicesType](./importancechoicestype) |  |
+| [IndexBasePointType](./indexbasepointtype) |  |
+| [InferenceClassificationType](./inferenceclassificationtype) |  |
+| [InstantSearchItemType](./instantsearchitemtype) |  |
+| [InstantSearchResultType](./instantsearchresulttype) |  |
+| [InvalidRecipientResponseCodeType](./invalidrecipientresponsecodetype) |  |
+| [ItemChoiceType](./itemchoicetype) |  |
+| [ItemIndexErrorType](./itemindexerrortype) |  |
+| [ItemQueryTraversalType](./itemquerytraversaltype) |  |
+| [ItemsChoiceType](./itemschoicetype) |  |
+| [ItemsChoiceType1](./itemschoicetype1) |  |
+| [ItemsChoiceType2](./itemschoicetype2) |  |
+| [ItemsChoiceType3](./itemschoicetype3) |  |
+| [ItemsChoiceType4](./itemschoicetype4) |  |
+| [ItemTypesFilterType](./itemtypesfiltertype) |  |
+| [LegacyFreeBusyType](./legacyfreebusytype) |  |
+| [LobbyBypassType](./lobbybypasstype) |  |
+| [LocationSourceType](./locationsourcetype) |  |
+| [MailboxSearchLocationType](./mailboxsearchlocationtype) |  |
+| [MailboxTypeType](./mailboxtypetype) |  |
+| [MailTipTypes](./mailtiptypes) |  |
+| [MapiPropertyTypeType](./mapipropertytypetype) |  |
+| [MatchOptionsType](./matchoptionstype) |  |
+| [MeetingAttendeeType](./meetingattendeetype) |  |
+| [MeetingRequestTypeType](./meetingrequesttypetype) |  |
+| [MeetingSpaceTypeEnum](./meetingspacetypeenum) |  |
+| [MemberStatusType](./memberstatustype) |  |
+| [MessageDispositionType](./messagedispositiontype) |  |
+| [MessageTrackingReportTemplateType](./messagetrackingreporttemplatetype) |  |
+| [MonthNamesType](./monthnamestype) |  |
+| [NotificationEventTypeType](./notificationeventtypetype) |  |
+| [OneDriveViewType](./onedriveviewtype) |  |
+| [OnlineMeetingAccessLevelType](./onlinemeetingaccessleveltype) |  |
+| [OofState](./oofstate) |  |
+| [ParticipantActivityMediaType](./participantactivitymediatype) |  |
+| [ParticipantActivityRole](./participantactivityrole) |  |
+| [PermissionActionType](./permissionactiontype) |  |
+| [PermissionLevelType](./permissionleveltype) |  |
+| [PermissionReadAccessType](./permissionreadaccesstype) |  |
+| [PhoneCallStateType](./phonecallstatetype) |  |
+| [PhoneNumberKeyType](./phonenumberkeytype) |  |
+| [PhysicalAddressIndexType](./physicaladdressindextype) |  |
+| [PhysicalAddressKeyType](./physicaladdresskeytype) |  |
+| [PredictedActionReasonType](./predictedactionreasontype) |  |
+| [PresentersType](./presenterstype) |  |
+| [PreviewItemBaseShapeType](./previewitembaseshapetype) |  |
+| [ProtectionRuleActionKindType](./protectionruleactionkindtype) |  |
+| [QueryOptionsType](./queryoptionstype) |  |
+| [RefinerTypeType](./refinertypetype) |  |
+| [ReminderActionType](./reminderactiontype) |  |
+| [ReminderGroupType](./remindergrouptype) |  |
+| [ReportMessageActionType](./reportmessageactiontype) |  |
+| [ResolveNamesSearchScopeType](./resolvenamessearchscopetype) |  |
+| [ResponseClassType](./responseclasstype) |  |
+| [ResponseCodeType](./responsecodetype) |  |
+| [ResponseTypeType](./responsetypetype) |  |
+| [RetentionActionType](./retentionactiontype) |  |
+| [RetentionType](./retentiontype) |  |
+| [RoleMemberTypeType](./rolemembertypetype) |  |
+| [RuleFieldURIType](./rulefielduritype) |  |
+| [RuleValidationErrorCodeType](./rulevalidationerrorcodetype) |  |
+| [SearchApplicationIdType](./searchapplicationidtype) |  |
+| [SearchFolderTraversalType](./searchfoldertraversaltype) |  |
+| [SearchItemKindType](./searchitemkindtype) |  |
+| [SearchPageDirectionType](./searchpagedirectiontype) |  |
+| [SearchResultsPropertySetNameType](./searchresultspropertysetnametype) |  |
+| [SearchResultType](./searchresulttype) |  |
+| [SearchScopeArchivesType](./searchscopearchivestype) |  |
+| [SearchScopeGroupsType](./searchscopegroupstype) |  |
+| [SendPromptType](./sendprompttype) |  |
+| [SensitivityChoicesType](./sensitivitychoicestype) |  |
+| [ServiceConfigurationType](./serviceconfigurationtype) |  |
+| [SharingAction](./sharingaction) |  |
+| [SharingActionImportance](./sharingactionimportance) |  |
+| [SharingActionType](./sharingactiontype) |  |
+| [SharingDataType](./sharingdatatype) |  |
+| [SortDirectionType](./sortdirectiontype) |  |
+| [StandardGroupByType](./standardgroupbytype) |  |
+| [SuggestionKindType](./suggestionkindtype) |  |
+| [SuggestionQuality](./suggestionquality) |  |
+| [SyncFolderItemsScopeType](./syncfolderitemsscopetype) |  |
+| [TaskDelegateStateType](./taskdelegatestatetype) |  |
+| [TaskStatusType](./taskstatustype) |  |
+| [TeamMailboxLifecycleStateType](./teammailboxlifecyclestatetype) |  |
+| [TransitionTargetKindType](./transitiontargetkindtype) |  |
+| [UnindexedFieldURIType](./unindexedfielduritype) |  |
+| [UserConfigurationDictionaryObjectTypesType](./userconfigurationdictionaryobjecttypestype) |  |
+| [UserConfigurationPropertyType](./userconfigurationpropertytype) |  |
+| [UserPhotoSizeType](./userphotosizetype) |  |
+| [UserPhotoTypeType](./userphototypetype) |  |
+| [ViewFilterType](./viewfiltertype) |  |
+| [WarmupOptionsType](./warmupoptionstype) |  |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

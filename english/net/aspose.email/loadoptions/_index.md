@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15900
+weight: 17500
 url: /net/aspose.email/loadoptions/
 ---
 ## LoadOptions class

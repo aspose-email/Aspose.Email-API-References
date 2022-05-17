@@ -8,10 +8,22 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/moveitemasync
 ---
 ## IAsyncEwsClient.MoveItemAsync method
 
+Moves the item to specified folder
+
 ```csharp
 public Task<string> MoveItemAsync(string itemUri, string destinationFolderUri, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| itemUri | String | The item URI |
+| destinationFolderUri | String | The destination folder URI |
+| cancellationToken | CancellationToken | The cancellation token. |
+
+## Return Value
+
+An uri of the moved message
 
 ### See Also
 

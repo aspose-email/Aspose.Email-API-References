@@ -3,7 +3,7 @@ title: GetRoomsType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 7910
+weight: 9450
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/getroomstype/
 ---
 ## GetRoomsType class

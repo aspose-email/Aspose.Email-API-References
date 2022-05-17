@@ -3,7 +3,7 @@ title: DayPosition
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 720
 url: /net/aspose.email.calendar.recurrences/dayposition/
 ---
 ## DayPosition enumeration

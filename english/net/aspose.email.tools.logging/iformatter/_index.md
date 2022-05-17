@@ -3,7 +3,7 @@ title: IFormatter
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 18640
+weight: 20290
 url: /net/aspose.email.tools.logging/iformatter/
 ---
 ## IFormatter interface

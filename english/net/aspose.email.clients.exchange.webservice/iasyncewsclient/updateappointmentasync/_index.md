@@ -8,10 +8,18 @@ url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/updateappoint
 ---
 ## IAsyncEwsClient.UpdateAppointmentAsync method
 
+Updates appointment.
+
 ```csharp
 public Task UpdateAppointmentAsync(Appointment appointment, string folderUri, 
     CancellationToken cancellationToken = default)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| appointment | Appointment | Calendar appointment. |
+| folderUri | String | An uri of appointments parent folder. |
+| cancellationToken | CancellationToken | The cancellation token. |
 
 ### See Also
 

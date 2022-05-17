@@ -3,7 +3,7 @@ title: AddNewImContactToGroupCompletedEventHandler
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 2890
+weight: 4430
 url: /net/aspose.email.clients.exchange.webservice.schema_2016/addnewimcontacttogroupcompletedeventhandler/
 ---
 ## AddNewImContactToGroupCompletedEventHandler delegate

@@ -3,7 +3,7 @@ title: ValidationResult
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 19000
+weight: 20650
 url: /net/aspose.email.tools.verifications/validationresult/
 ---
 ## ValidationResult class

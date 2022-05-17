@@ -3,7 +3,7 @@ title: ThreadSearchConditions
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 15080
+weight: 16630
 url: /net/aspose.email.clients.imap/threadsearchconditions/
 ---
 ## ThreadSearchConditions class
