@@ -16,20 +16,20 @@ The **Aspose.Email.Clients.Exchange.WebService** namespace provides access to MS
 | [CallInformation](./callinformation) | Phone call information |
 | [DateRange](./daterange) | Represents the date range |
 | [DeletionOptions](./deletionoptions) | Defines parameters for item deletion |
-| [EWSClient](./ewsclient) | Provides access to MS Exchange Server by using Exchange Web Services (EWS). |
+| [EWSClient](./ewsclient) | Provides access to MS Exchange Server by using Exchange Web Services (../EWS). |
 | [ExchangeCalendarEvent](./exchangecalendarevent) | Represents the event in the user's calendar |
-| [ExchangeCalendarEventCollection](./exchangecalendareventcollection) | Represents the collection of [`ExchangeCalendarEvent`](aspose.email.clients.exchange.webservice/exchangecalendarevent) |
+| [ExchangeCalendarEventCollection](./exchangecalendareventcollection) | Represents the collection of [`ExchangeCalendarEvent`](../aspose.email.clients.exchange.webservice/exchangecalendarevent) |
 | [ExchangeConversation](./exchangeconversation) | Represents a single conversation. |
 | [ExchangeDelegatePermissions](./exchangedelegatepermissions) | Represents the folder permissions for the delegate user |
 | [ExchangeDelegateUser](./exchangedelegateuser) | Represents a user who is granted access to the principal mailbox |
-| [ExchangeDelegateUserCollection](./exchangedelegateusercollection) | Represents the collection of [`ExchangeDelegateUser`](aspose.email.clients.exchange.webservice/exchangedelegateuser) |
+| [ExchangeDelegateUserCollection](./exchangedelegateusercollection) | Represents the collection of [`ExchangeDelegateUser`](../aspose.email.clients.exchange.webservice/exchangedelegateuser) |
 | [ExchangeStreamedItem](./exchangestreameditem) | Represents the item received in ExportItems response |
 | [ExchangeTask](./exchangetask) | Represents the exchange task information. |
 | [ExchangeUploadItemResult](./exchangeuploaditemresult) | Represents a result of updating or creating a streamed item |
 | [ExchangeUserAvailability](./exchangeuseravailability) | Represents user availability information |
-| [ExchangeUserAvailabilityCollection](./exchangeuseravailabilitycollection) | Represents the collection of [`ExchangeUserAvailability`](aspose.email.clients.exchange.webservice/exchangeuseravailability) |
+| [ExchangeUserAvailabilityCollection](./exchangeuseravailabilitycollection) | Represents the collection of [`ExchangeUserAvailability`](../aspose.email.clients.exchange.webservice/exchangeuseravailability) |
 | [ExchangeUserWorkingHours](./exchangeuserworkinghours) | Represents the user working hours. |
-| [ExchangeUserWorkingHoursCollection](./exchangeuserworkinghourscollection) | Represents the collection of [`ExchangeUserWorkingHours`](aspose.email.clients.exchange.webservice/exchangeuserworkinghours) |
+| [ExchangeUserWorkingHoursCollection](./exchangeuserworkinghourscollection) | Represents the collection of [`ExchangeUserWorkingHours`](../aspose.email.clients.exchange.webservice/exchangeuserworkinghours) |
 | [FindMessageTrackingReportOptions](./findmessagetrackingreportoptions) | Represents options for FindMessageTrackingReport operation |
 | [GetMailTipsOptions](./getmailtipsoptions) | Represents options for GetMailTips |
 | [GetMessageTrackingReportOptions](./getmessagetrackingreportoptions) | Represents options for GetMessageTrackingReport operation |

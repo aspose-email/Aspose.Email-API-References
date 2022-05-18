@@ -22,17 +22,17 @@ public class FindFolderParentType
 
 | Name | Description |
 | --- | --- |
-| [AbsoluteDenominator](absolutedenominator) { get; set; } |  |
-| [AbsoluteDenominatorSpecified](absolutedenominatorspecified) { get; set; } |  |
-| [Folders](folders) { get; set; } |  |
-| [IncludesLastItemInRange](includeslastiteminrange) { get; set; } |  |
-| [IncludesLastItemInRangeSpecified](includeslastiteminrangespecified) { get; set; } |  |
-| [IndexedPagingOffset](indexedpagingoffset) { get; set; } |  |
-| [IndexedPagingOffsetSpecified](indexedpagingoffsetspecified) { get; set; } |  |
-| [NumeratorOffset](numeratoroffset) { get; set; } |  |
-| [NumeratorOffsetSpecified](numeratoroffsetspecified) { get; set; } |  |
-| [TotalItemsInView](totalitemsinview) { get; set; } |  |
-| [TotalItemsInViewSpecified](totalitemsinviewspecified) { get; set; } |  |
+| [AbsoluteDenominator](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/absolutedenominator) { get; set; } |  |
+| [AbsoluteDenominatorSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/absolutedenominatorspecified) { get; set; } |  |
+| [Folders](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/folders) { get; set; } |  |
+| [IncludesLastItemInRange](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/includeslastiteminrange) { get; set; } |  |
+| [IncludesLastItemInRangeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/includeslastiteminrangespecified) { get; set; } |  |
+| [IndexedPagingOffset](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/indexedpagingoffset) { get; set; } |  |
+| [IndexedPagingOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/indexedpagingoffsetspecified) { get; set; } |  |
+| [NumeratorOffset](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/numeratoroffset) { get; set; } |  |
+| [NumeratorOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/numeratoroffsetspecified) { get; set; } |  |
+| [TotalItemsInView](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/totalitemsinview) { get; set; } |  |
+| [TotalItemsInViewSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findfolderparenttype/totalitemsinviewspecified) { get; set; } |  |
 
 ### See Also
 

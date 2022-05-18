@@ -22,8 +22,9 @@ public class NearType : MultipleOperandBooleanExpressionType
 
 | Name | Description |
 | --- | --- |
-| [Distance](distance) { get; set; } |  |
-| [Ordered](ordered) { get; set; } |  |
+| [Distance](../../aspose.email.clients.exchange.webservice.schema_2016/neartype/distance) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/multipleoperandbooleanexpressiontype/items) { get; set; } |  |
+| [Ordered](../../aspose.email.clients.exchange.webservice.schema_2016/neartype/ordered) { get; set; } |  |
 
 ### See Also
 

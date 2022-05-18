@@ -24,22 +24,22 @@ public class ExchangeFolderInfo
 
 | Name | Description |
 | --- | --- |
-| [ChildFolderCount](childfoldercount) { get; } | Count of child folders |
-| [DisplayName](displayname) { get; } | Display name of folder |
-| [FolderClass](folderclass) { get; } | Gets the folder class for a given folder. |
-| [FolderType](foldertype) { get; } | Gets the folder type for a given folder. |
-| [Hidden](hidden) { get; } | Gets value which indicates if folder is hidden |
-| [ParentUri](parenturi) { get; } | Parent folder uri |
-| [Size](size) { get; } | Contains the size, in bytes, consumed by the Message object on the server. |
-| [TotalCount](totalcount) { get; } | Gets the total count of items. |
-| [UnreadCount](unreadcount) { get; } | Gets the count of unread items. |
-| [Uri](uri) { get; } | Folder Uri |
+| [ChildFolderCount](../../aspose.email.clients.exchange/exchangefolderinfo/childfoldercount) { get; } | Count of child folders |
+| [DisplayName](../../aspose.email.clients.exchange/exchangefolderinfo/displayname) { get; } | Display name of folder |
+| [FolderClass](../../aspose.email.clients.exchange/exchangefolderinfo/folderclass) { get; } | Gets the folder class for a given folder. |
+| [FolderType](../../aspose.email.clients.exchange/exchangefolderinfo/foldertype) { get; } | Gets the folder type for a given folder. |
+| [Hidden](../../aspose.email.clients.exchange/exchangefolderinfo/hidden) { get; } | Gets value which indicates if folder is hidden |
+| [ParentUri](../../aspose.email.clients.exchange/exchangefolderinfo/parenturi) { get; } | Parent folder uri |
+| [Size](../../aspose.email.clients.exchange/exchangefolderinfo/size) { get; } | Contains the size, in bytes, consumed by the Message object on the server. |
+| [TotalCount](../../aspose.email.clients.exchange/exchangefolderinfo/totalcount) { get; } | Gets the total count of items. |
+| [UnreadCount](../../aspose.email.clients.exchange/exchangefolderinfo/unreadcount) { get; } | Gets the count of unread items. |
+| [Uri](../../aspose.email.clients.exchange/exchangefolderinfo/uri) { get; } | Folder Uri |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String which represents the object instance. |
+| override [ToString](../../aspose.email.clients.exchange/exchangefolderinfo/tostring)() | Returns a String which represents the object instance. |
 
 ### See Also
 

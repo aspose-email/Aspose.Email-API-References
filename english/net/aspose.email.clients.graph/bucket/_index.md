@@ -24,10 +24,10 @@ public class Bucket
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | ID of the bucket. Read-only. |
-| [Name](name) { get; set; } | Name of the bucket. |
-| [OrderHint](orderhint) { get; set; } | Hint used to order items of this type in a list view.The format is defined as outlined here. |
-| [PlanId](planid) { get; set; } | Plan ID to which the bucket belongs. |
+| [Id](../../aspose.email.clients.graph/bucket/id) { get; set; } | ID of the bucket. Read-only. |
+| [Name](../../aspose.email.clients.graph/bucket/name) { get; set; } | Name of the bucket. |
+| [OrderHint](../../aspose.email.clients.graph/bucket/orderhint) { get; set; } | Hint used to order items of this type in a list view.The format is defined as outlined here. |
+| [PlanId](../../aspose.email.clients.graph/bucket/planid) { get; set; } | Plan ID to which the bucket belongs. |
 
 ### See Also
 

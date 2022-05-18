@@ -27,21 +27,21 @@ public sealed class MapiContactElectronicAddress
 
 | Name | Description |
 | --- | --- |
-| [AddressType](addresstype) { get; set; } | Gets or sets the address type of an electronic address |
-| [DisplayName](displayname) { get; set; } | Gets or sets the user-readable display name for the e-mail address |
-| [EmailAddress](emailaddress) { get; set; } | Gets or sets the e-mail address of the contact |
-| [FaxNumber](faxnumber) { get; set; } | Gets or sets the telephone number of the mail user's primary fax machine |
-| [IsEmpty](isempty) { get; } | Shows if MapiContactElectronicAddress is empty |
-| [OriginalDisplayName](originaldisplayname) { get; set; } | Gets or sets the SMTP e-mail address that corresponds to the e-mail address for the Contact object. |
+| [AddressType](../../aspose.email.mapi/mapicontactelectronicaddress/addresstype) { get; set; } | Gets or sets the address type of an electronic address |
+| [DisplayName](../../aspose.email.mapi/mapicontactelectronicaddress/displayname) { get; set; } | Gets or sets the user-readable display name for the e-mail address |
+| [EmailAddress](../../aspose.email.mapi/mapicontactelectronicaddress/emailaddress) { get; set; } | Gets or sets the e-mail address of the contact |
+| [FaxNumber](../../aspose.email.mapi/mapicontactelectronicaddress/faxnumber) { get; set; } | Gets or sets the telephone number of the mail user's primary fax machine |
+| [IsEmpty](../../aspose.email.mapi/mapicontactelectronicaddress/isempty) { get; } | Shows if MapiContactElectronicAddress is empty |
+| [OriginalDisplayName](../../aspose.email.mapi/mapicontactelectronicaddress/originaldisplayname) { get; set; } | Gets or sets the SMTP e-mail address that corresponds to the e-mail address for the Contact object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](gethashcode)() |  |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [implicit operator](op_implicit) | Performs an implicit conversion from String to [`MapiContactElectronicAddress`](../mapicontactelectronicaddress). |
+| override [Equals](../../aspose.email.mapi/mapicontactelectronicaddress/equals)(object) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.email.mapi/mapicontactelectronicaddress/gethashcode)() |  |
+| override [ToString](../../aspose.email.mapi/mapicontactelectronicaddress/tostring)() | Returns a string that represents the current object. |
+| [implicit operator](../../aspose.email.mapi/mapicontactelectronicaddress/op_implicit) | Performs an implicit conversion from String to [`MapiContactElectronicAddress`](../mapicontactelectronicaddress). |
 
 ### See Also
 

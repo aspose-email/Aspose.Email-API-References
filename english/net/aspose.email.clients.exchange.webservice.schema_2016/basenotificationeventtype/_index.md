@@ -22,7 +22,7 @@ public class BaseNotificationEventType
 
 | Name | Description |
 | --- | --- |
-| [Watermark](watermark) { get; set; } |  |
+| [Watermark](../../aspose.email.clients.exchange.webservice.schema_2016/basenotificationeventtype/watermark) { get; set; } |  |
 
 ### See Also
 

@@ -24,8 +24,8 @@ public class ItemOperationsMoveResponce
 
 | Name | Description |
 | --- | --- |
-| [ConversationId](conversationid) { get; set; } | Specifies the conversation that has to be moved. |
-| [Status](status) { get; set; } | Contains a code and description that indicates the success or failure of the ItemOperations operation |
+| [ConversationId](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/conversationid) { get; set; } | Specifies the conversation that has to be moved. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/status) { get; set; } | Contains a code and description that indicates the success or failure of the ItemOperations operation |
 
 ### See Also
 

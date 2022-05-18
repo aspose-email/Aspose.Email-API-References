@@ -24,16 +24,16 @@ public class Section
 
 | Name | Description |
 | --- | --- |
-| [Expanded](expanded) { get; set; } | Displays the section as expanded on page load. |
-| [Header](header) { get; set; } | Represents the heading for the section. |
-| [Value](value) { get; set; } | Represents the content of the section. |
+| [Expanded](../../aspose.email.amp/section/expanded) { get; set; } | Displays the section as expanded on page load. |
+| [Header](../../aspose.email.amp/section/header) { get; set; } | Represents the heading for the section. |
+| [Value](../../aspose.email.amp/section/value) { get; set; } | Represents the content of the section. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToAmpHtml](toamphtml)() | AmpHtml representation of section value. |
-| [ToHtml](tohtml)() | Html representation of section. |
+| [ToAmpHtml](../../aspose.email.amp/section/toamphtml)() | AmpHtml representation of section value. |
+| [ToHtml](../../aspose.email.amp/section/tohtml)() | Html representation of section. |
 
 ### See Also
 

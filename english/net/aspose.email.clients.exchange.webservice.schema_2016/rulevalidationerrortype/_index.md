@@ -22,10 +22,10 @@ public class RuleValidationErrorType
 
 | Name | Description |
 | --- | --- |
-| [ErrorCode](errorcode) { get; set; } |  |
-| [ErrorMessage](errormessage) { get; set; } |  |
-| [FieldURI](fielduri) { get; set; } |  |
-| [FieldValue](fieldvalue) { get; set; } |  |
+| [ErrorCode](../../aspose.email.clients.exchange.webservice.schema_2016/rulevalidationerrortype/errorcode) { get; set; } |  |
+| [ErrorMessage](../../aspose.email.clients.exchange.webservice.schema_2016/rulevalidationerrortype/errormessage) { get; set; } |  |
+| [FieldURI](../../aspose.email.clients.exchange.webservice.schema_2016/rulevalidationerrortype/fielduri) { get; set; } |  |
+| [FieldValue](../../aspose.email.clients.exchange.webservice.schema_2016/rulevalidationerrortype/fieldvalue) { get; set; } |  |
 
 ### See Also
 

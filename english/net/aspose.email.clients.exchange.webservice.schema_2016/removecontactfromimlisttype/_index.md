@@ -22,7 +22,7 @@ public class RemoveContactFromImListType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ContactId](contactid) { get; set; } |  |
+| [ContactId](../../aspose.email.clients.exchange.webservice.schema_2016/removecontactfromimlisttype/contactid) { get; set; } |  |
 
 ### See Also
 

@@ -24,13 +24,13 @@ public sealed class MapiCalendarTimeZoneInfo
 
 | Name | Description |
 | --- | --- |
-| [Bias](bias) { get; set; } | Gets or sets the time zone's offset in minutes from UTC. |
-| [DaylightBias](daylightbias) { get; set; } | Gets or sets offset in minutes from lBias during daylight saving time. |
-| [DaylightDate](daylightdate) { get; set; } | Gets or sets the date and local time that indicate when to begin using the DaylightBias. |
-| [StandardBias](standardbias) { get; set; } | Gets or sets the offset in minutes from lBias during standard time. |
-| [StandardDate](standarddate) { get; set; } | Gets or sets the date and local time that indicate when to begin using the StandardBias. |
-| [TimeZoneFlags](timezoneflags) { get; set; } | Gets or sets individual bit flags that specify information about this TimeZoneRule |
-| [Year](year) { get; set; } | Gets or sets the year in which this rule is scheduled to take effect. |
+| [Bias](../../aspose.email.mapi/mapicalendartimezoneinfo/bias) { get; set; } | Gets or sets the time zone's offset in minutes from UTC. |
+| [DaylightBias](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightbias) { get; set; } | Gets or sets offset in minutes from lBias during daylight saving time. |
+| [DaylightDate](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightdate) { get; set; } | Gets or sets the date and local time that indicate when to begin using the DaylightBias. |
+| [StandardBias](../../aspose.email.mapi/mapicalendartimezoneinfo/standardbias) { get; set; } | Gets or sets the offset in minutes from lBias during standard time. |
+| [StandardDate](../../aspose.email.mapi/mapicalendartimezoneinfo/standarddate) { get; set; } | Gets or sets the date and local time that indicate when to begin using the StandardBias. |
+| [TimeZoneFlags](../../aspose.email.mapi/mapicalendartimezoneinfo/timezoneflags) { get; set; } | Gets or sets individual bit flags that specify information about this TimeZoneRule |
+| [Year](../../aspose.email.mapi/mapicalendartimezoneinfo/year) { get; set; } | Gets or sets the year in which this rule is scheduled to take effect. |
 
 ### See Also
 

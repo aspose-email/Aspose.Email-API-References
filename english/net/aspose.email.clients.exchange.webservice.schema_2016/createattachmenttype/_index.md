@@ -22,8 +22,8 @@ public class CreateAttachmentType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Attachments](attachments) { get; set; } |  |
-| [ParentItemId](parentitemid) { get; set; } |  |
+| [Attachments](../../aspose.email.clients.exchange.webservice.schema_2016/createattachmenttype/attachments) { get; set; } |  |
+| [ParentItemId](../../aspose.email.clients.exchange.webservice.schema_2016/createattachmenttype/parentitemid) { get; set; } |  |
 
 ### See Also
 

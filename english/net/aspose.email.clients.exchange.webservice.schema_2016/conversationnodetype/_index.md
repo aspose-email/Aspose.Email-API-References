@@ -22,9 +22,9 @@ public class ConversationNodeType
 
 | Name | Description |
 | --- | --- |
-| [InternetMessageId](internetmessageid) { get; set; } |  |
-| [Items](items) { get; set; } |  |
-| [ParentInternetMessageId](parentinternetmessageid) { get; set; } |  |
+| [InternetMessageId](../../aspose.email.clients.exchange.webservice.schema_2016/conversationnodetype/internetmessageid) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/conversationnodetype/items) { get; set; } |  |
+| [ParentInternetMessageId](../../aspose.email.clients.exchange.webservice.schema_2016/conversationnodetype/parentinternetmessageid) { get; set; } |  |
 
 ### See Also
 

@@ -22,9 +22,9 @@ public class MailboxHoldResultType
 
 | Name | Description |
 | --- | --- |
-| [HoldId](holdid) { get; set; } |  |
-| [MailboxHoldStatuses](mailboxholdstatuses) { get; set; } |  |
-| [Query](query) { get; set; } |  |
+| [HoldId](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxholdresulttype/holdid) { get; set; } |  |
+| [MailboxHoldStatuses](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxholdresulttype/mailboxholdstatuses) { get; set; } |  |
+| [Query](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxholdresulttype/query) { get; set; } |  |
 
 ### See Also
 

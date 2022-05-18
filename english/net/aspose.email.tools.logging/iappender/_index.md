@@ -18,14 +18,14 @@ public interface IAppender
 
 | Name | Description |
 | --- | --- |
-| [Formatter](formatter) { get; set; } | Gets or sets the IFormatter. |
+| [Formatter](../../aspose.email.tools.logging/iappender/formatter) { get; set; } | Gets or sets the IFormatter. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Append](append)(LogEntry) | Log the specified log entry in Appender specific way. |
-| [AppendHeader](appendheader)() | Starts log file with specific header. |
+| [Append](../../aspose.email.tools.logging/iappender/append)(LogEntry) | Log the specified log entry in Appender specific way. |
+| [AppendHeader](../../aspose.email.tools.logging/iappender/appendheader)() | Starts log file with specific header. |
 
 ### See Also
 

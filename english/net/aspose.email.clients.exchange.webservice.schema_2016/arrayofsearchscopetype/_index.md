@@ -22,13 +22,13 @@ public class ArrayOfSearchScopeType
 
 | Name | Description |
 | --- | --- |
-| [CustomSearchScope](customsearchscope) { get; set; } |  |
-| [DelveSearchScope](delvesearchscope) { get; set; } |  |
-| [GroupSearchScope](groupsearchscope) { get; set; } |  |
-| [LargeArchiveSearchScope](largearchivesearchscope) { get; set; } |  |
-| [OneDriveSearchScope](onedrivesearchscope) { get; set; } |  |
-| [PrimaryMailboxSearchScope](primarymailboxsearchscope) { get; set; } |  |
-| [SingleLargeArchiveSearchScope](singlelargearchivesearchscope) { get; set; } |  |
+| [CustomSearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofsearchscopetype/customsearchscope) { get; set; } |  |
+| [DelveSearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofsearchscopetype/delvesearchscope) { get; set; } |  |
+| [GroupSearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofsearchscopetype/groupsearchscope) { get; set; } |  |
+| [LargeArchiveSearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofsearchscopetype/largearchivesearchscope) { get; set; } |  |
+| [OneDriveSearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofsearchscopetype/onedrivesearchscope) { get; set; } |  |
+| [PrimaryMailboxSearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofsearchscopetype/primarymailboxsearchscope) { get; set; } |  |
+| [SingleLargeArchiveSearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofsearchscopetype/singlelargearchivesearchscope) { get; set; } |  |
 
 ### See Also
 

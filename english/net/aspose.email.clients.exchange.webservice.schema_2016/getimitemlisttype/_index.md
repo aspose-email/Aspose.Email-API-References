@@ -22,7 +22,7 @@ public class GetImItemListType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ExtendedProperties](extendedproperties) { get; set; } |  |
+| [ExtendedProperties](../../aspose.email.clients.exchange.webservice.schema_2016/getimitemlisttype/extendedproperties) { get; set; } |  |
 
 ### See Also
 

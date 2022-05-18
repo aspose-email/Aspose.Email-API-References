@@ -22,7 +22,7 @@ public class DirectoryEntryType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/directoryentrytype/id) { get; set; } |  |
 
 ### See Also
 

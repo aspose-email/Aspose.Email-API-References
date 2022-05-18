@@ -22,8 +22,8 @@ public class RuleOperationErrorType
 
 | Name | Description |
 | --- | --- |
-| [OperationIndex](operationindex) { get; set; } |  |
-| [ValidationErrors](validationerrors) { get; set; } |  |
+| [OperationIndex](../../aspose.email.clients.exchange.webservice.schema_2016/ruleoperationerrortype/operationindex) { get; set; } |  |
+| [ValidationErrors](../../aspose.email.clients.exchange.webservice.schema_2016/ruleoperationerrortype/validationerrors) { get; set; } |  |
 
 ### See Also
 

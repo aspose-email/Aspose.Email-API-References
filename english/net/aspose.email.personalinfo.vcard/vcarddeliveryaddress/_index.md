@@ -24,14 +24,14 @@ public sealed class VCardDeliveryAddress
 
 | Name | Description |
 | --- | --- |
-| [AddressType](addresstype) { get; set; } | Gets or sets an address type |
-| [CountryName](countryname) { get; set; } | Gets or sets a country |
-| [ExtendedAddress](extendedaddress) { get; set; } | Gets or sets an extended address |
-| [Locality](locality) { get; set; } | Gets or sets a locality |
-| [PoBox](pobox) { get; set; } | Gets or sets a PO box |
-| [PostalCode](postalcode) { get; set; } | Gets or sets a postal code |
-| [Region](region) { get; set; } | Gets or sets a region |
-| [Street](street) { get; set; } | Gets or sets a street |
+| [AddressType](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/addresstype) { get; set; } | Gets or sets an address type |
+| [CountryName](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/countryname) { get; set; } | Gets or sets a country |
+| [ExtendedAddress](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/extendedaddress) { get; set; } | Gets or sets an extended address |
+| [Locality](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/locality) { get; set; } | Gets or sets a locality |
+| [PoBox](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/pobox) { get; set; } | Gets or sets a PO box |
+| [PostalCode](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/postalcode) { get; set; } | Gets or sets a postal code |
+| [Region](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/region) { get; set; } | Gets or sets a region |
+| [Street](../../aspose.email.personalinfo.vcard/vcarddeliveryaddress/street) { get; set; } | Gets or sets a street |
 
 ### See Also
 

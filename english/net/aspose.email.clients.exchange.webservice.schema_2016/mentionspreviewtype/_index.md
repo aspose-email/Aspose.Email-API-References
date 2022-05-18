@@ -22,7 +22,7 @@ public class MentionsPreviewType
 
 | Name | Description |
 | --- | --- |
-| [IsMentioned](ismentioned) { get; set; } |  |
+| [IsMentioned](../../aspose.email.clients.exchange.webservice.schema_2016/mentionspreviewtype/ismentioned) { get; set; } |  |
 
 ### See Also
 

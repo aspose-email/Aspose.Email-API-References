@@ -24,9 +24,9 @@ public class IdentitySet
 
 | Name | Description |
 | --- | --- |
-| [Application](application) { get; set; } | Optional.The application associated with this action. |
-| [Device](device) { get; set; } | Optional.The device associated with this action. |
-| [User](user) { get; set; } | Optional.The user associated with this action. |
+| [Application](../../aspose.email.clients.graph/identityset/application) { get; set; } | Optional.The application associated with this action. |
+| [Device](../../aspose.email.clients.graph/identityset/device) { get; set; } | Optional.The device associated with this action. |
+| [User](../../aspose.email.clients.graph/identityset/user) { get; set; } | Optional.The user associated with this action. |
 
 ### See Also
 

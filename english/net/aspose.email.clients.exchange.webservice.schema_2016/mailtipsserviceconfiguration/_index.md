@@ -22,14 +22,14 @@ public class MailTipsServiceConfiguration : ServiceConfiguration
 
 | Name | Description |
 | --- | --- |
-| [InternalDomains](internaldomains) { get; set; } |  |
-| [LargeAudienceCap](largeaudiencecap) { get; set; } |  |
-| [LargeAudienceThreshold](largeaudiencethreshold) { get; set; } |  |
-| [MailTipsEnabled](mailtipsenabled) { get; set; } |  |
-| [MaxMessageSize](maxmessagesize) { get; set; } |  |
-| [MaxRecipientsPerGetMailTipsRequest](maxrecipientspergetmailtipsrequest) { get; set; } |  |
-| [PolicyTipsEnabled](policytipsenabled) { get; set; } |  |
-| [ShowExternalRecipientCount](showexternalrecipientcount) { get; set; } |  |
+| [InternalDomains](../../aspose.email.clients.exchange.webservice.schema_2016/mailtipsserviceconfiguration/internaldomains) { get; set; } |  |
+| [LargeAudienceCap](../../aspose.email.clients.exchange.webservice.schema_2016/mailtipsserviceconfiguration/largeaudiencecap) { get; set; } |  |
+| [LargeAudienceThreshold](../../aspose.email.clients.exchange.webservice.schema_2016/mailtipsserviceconfiguration/largeaudiencethreshold) { get; set; } |  |
+| [MailTipsEnabled](../../aspose.email.clients.exchange.webservice.schema_2016/mailtipsserviceconfiguration/mailtipsenabled) { get; set; } |  |
+| [MaxMessageSize](../../aspose.email.clients.exchange.webservice.schema_2016/mailtipsserviceconfiguration/maxmessagesize) { get; set; } |  |
+| [MaxRecipientsPerGetMailTipsRequest](../../aspose.email.clients.exchange.webservice.schema_2016/mailtipsserviceconfiguration/maxrecipientspergetmailtipsrequest) { get; set; } |  |
+| [PolicyTipsEnabled](../../aspose.email.clients.exchange.webservice.schema_2016/mailtipsserviceconfiguration/policytipsenabled) { get; set; } |  |
+| [ShowExternalRecipientCount](../../aspose.email.clients.exchange.webservice.schema_2016/mailtipsserviceconfiguration/showexternalrecipientcount) { get; set; } |  |
 
 ### See Also
 

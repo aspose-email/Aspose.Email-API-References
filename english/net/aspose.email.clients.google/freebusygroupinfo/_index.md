@@ -27,9 +27,9 @@ public class FreebusyGroupInfo
 
 | Name | Description |
 | --- | --- |
-| [Calendars](calendars) { get; } | List of calendars' identifiers within a group. |
-| [Errors](errors) { get; } | Optional error(s) (if computation for the group failed). |
-| [GroupId](groupid) { get; set; } | Group id |
+| [Calendars](../../aspose.email.clients.google/freebusygroupinfo/calendars) { get; } | List of calendars' identifiers within a group. |
+| [Errors](../../aspose.email.clients.google/freebusygroupinfo/errors) { get; } | Optional error(s) (if computation for the group failed). |
+| [GroupId](../../aspose.email.clients.google/freebusygroupinfo/groupid) { get; set; } | Group id |
 
 ### See Also
 

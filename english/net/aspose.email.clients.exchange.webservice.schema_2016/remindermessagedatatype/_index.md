@@ -22,13 +22,13 @@ public class ReminderMessageDataType
 
 | Name | Description |
 | --- | --- |
-| [AssociatedCalendarItemId](associatedcalendaritemid) { get; set; } |  |
-| [EndTime](endtime) { get; set; } |  |
-| [EndTimeSpecified](endtimespecified) { get; set; } |  |
-| [Location](location) { get; set; } |  |
-| [ReminderText](remindertext) { get; set; } |  |
-| [StartTime](starttime) { get; set; } |  |
-| [StartTimeSpecified](starttimespecified) { get; set; } |  |
+| [AssociatedCalendarItemId](../../aspose.email.clients.exchange.webservice.schema_2016/remindermessagedatatype/associatedcalendaritemid) { get; set; } |  |
+| [EndTime](../../aspose.email.clients.exchange.webservice.schema_2016/remindermessagedatatype/endtime) { get; set; } |  |
+| [EndTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/remindermessagedatatype/endtimespecified) { get; set; } |  |
+| [Location](../../aspose.email.clients.exchange.webservice.schema_2016/remindermessagedatatype/location) { get; set; } |  |
+| [ReminderText](../../aspose.email.clients.exchange.webservice.schema_2016/remindermessagedatatype/remindertext) { get; set; } |  |
+| [StartTime](../../aspose.email.clients.exchange.webservice.schema_2016/remindermessagedatatype/starttime) { get; set; } |  |
+| [StartTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/remindermessagedatatype/starttimespecified) { get; set; } |  |
 
 ### See Also
 

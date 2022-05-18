@@ -22,7 +22,8 @@ public class DistinguishedGroupByType : BaseGroupByType
 
 | Name | Description |
 | --- | --- |
-| [StandardGroupBy](standardgroupby) { get; set; } |  |
+| [Order](../../aspose.email.clients.exchange.webservice.schema_2016/basegroupbytype/order) { get; set; } |  |
+| [StandardGroupBy](../../aspose.email.clients.exchange.webservice.schema_2016/distinguishedgroupbytype/standardgroupby) { get; set; } |  |
 
 ### See Also
 

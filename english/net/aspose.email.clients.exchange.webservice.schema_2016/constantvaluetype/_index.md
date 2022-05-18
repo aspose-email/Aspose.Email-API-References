@@ -22,7 +22,7 @@ public class ConstantValueType
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/constantvaluetype/value) { get; set; } |  |
 
 ### See Also
 

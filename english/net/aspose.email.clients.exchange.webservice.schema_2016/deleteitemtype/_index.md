@@ -22,14 +22,14 @@ public class DeleteItemType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [AffectedTaskOccurrences](affectedtaskoccurrences) { get; set; } |  |
-| [AffectedTaskOccurrencesSpecified](affectedtaskoccurrencesspecified) { get; set; } |  |
-| [DeleteType](deletetype) { get; set; } |  |
-| [ItemIds](itemids) { get; set; } |  |
-| [SendMeetingCancellations](sendmeetingcancellations) { get; set; } |  |
-| [SendMeetingCancellationsSpecified](sendmeetingcancellationsspecified) { get; set; } |  |
-| [SuppressReadReceipts](suppressreadreceipts) { get; set; } |  |
-| [SuppressReadReceiptsSpecified](suppressreadreceiptsspecified) { get; set; } |  |
+| [AffectedTaskOccurrences](../../aspose.email.clients.exchange.webservice.schema_2016/deleteitemtype/affectedtaskoccurrences) { get; set; } |  |
+| [AffectedTaskOccurrencesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/deleteitemtype/affectedtaskoccurrencesspecified) { get; set; } |  |
+| [DeleteType](../../aspose.email.clients.exchange.webservice.schema_2016/deleteitemtype/deletetype) { get; set; } |  |
+| [ItemIds](../../aspose.email.clients.exchange.webservice.schema_2016/deleteitemtype/itemids) { get; set; } |  |
+| [SendMeetingCancellations](../../aspose.email.clients.exchange.webservice.schema_2016/deleteitemtype/sendmeetingcancellations) { get; set; } |  |
+| [SendMeetingCancellationsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/deleteitemtype/sendmeetingcancellationsspecified) { get; set; } |  |
+| [SuppressReadReceipts](../../aspose.email.clients.exchange.webservice.schema_2016/deleteitemtype/suppressreadreceipts) { get; set; } |  |
+| [SuppressReadReceiptsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/deleteitemtype/suppressreadreceiptsspecified) { get; set; } |  |
 
 ### See Also
 

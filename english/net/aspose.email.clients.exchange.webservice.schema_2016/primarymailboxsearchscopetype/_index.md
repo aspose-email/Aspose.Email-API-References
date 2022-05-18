@@ -22,9 +22,9 @@ public class PrimaryMailboxSearchScopeType
 
 | Name | Description |
 | --- | --- |
-| [FolderScope](folderscope) { get; set; } |  |
-| [IsDeepTraversal](isdeeptraversal) { get; set; } |  |
-| [IsDeepTraversalSpecified](isdeeptraversalspecified) { get; set; } |  |
+| [FolderScope](../../aspose.email.clients.exchange.webservice.schema_2016/primarymailboxsearchscopetype/folderscope) { get; set; } |  |
+| [IsDeepTraversal](../../aspose.email.clients.exchange.webservice.schema_2016/primarymailboxsearchscopetype/isdeeptraversal) { get; set; } |  |
+| [IsDeepTraversalSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/primarymailboxsearchscopetype/isdeeptraversalspecified) { get; set; } |  |
 
 ### See Also
 

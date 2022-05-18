@@ -22,7 +22,8 @@ public class UrlEntityType : EntityType
 
 | Name | Description |
 | --- | --- |
-| [Url](url) { get; set; } |  |
+| [Position](../../aspose.email.clients.exchange.webservice.schema_2016/entitytype/position) { get; set; } |  |
+| [Url](../../aspose.email.clients.exchange.webservice.schema_2016/urlentitytype/url) { get; set; } |  |
 
 ### See Also
 

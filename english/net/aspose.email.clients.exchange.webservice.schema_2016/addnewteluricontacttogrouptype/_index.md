@@ -22,10 +22,10 @@ public class AddNewTelUriContactToGroupType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [GroupId](groupid) { get; set; } |  |
-| [ImContactSipUriAddress](imcontactsipuriaddress) { get; set; } |  |
-| [ImTelephoneNumber](imtelephonenumber) { get; set; } |  |
-| [TelUriAddress](teluriaddress) { get; set; } |  |
+| [GroupId](../../aspose.email.clients.exchange.webservice.schema_2016/addnewteluricontacttogrouptype/groupid) { get; set; } |  |
+| [ImContactSipUriAddress](../../aspose.email.clients.exchange.webservice.schema_2016/addnewteluricontacttogrouptype/imcontactsipuriaddress) { get; set; } |  |
+| [ImTelephoneNumber](../../aspose.email.clients.exchange.webservice.schema_2016/addnewteluricontacttogrouptype/imtelephonenumber) { get; set; } |  |
+| [TelUriAddress](../../aspose.email.clients.exchange.webservice.schema_2016/addnewteluricontacttogrouptype/teluriaddress) { get; set; } |  |
 
 ### See Also
 

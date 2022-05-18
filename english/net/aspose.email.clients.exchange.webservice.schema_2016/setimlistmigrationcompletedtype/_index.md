@@ -22,7 +22,7 @@ public class SetImListMigrationCompletedType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ImListMigrationCompleted](imlistmigrationcompleted) { get; set; } |  |
+| [ImListMigrationCompleted](../../aspose.email.clients.exchange.webservice.schema_2016/setimlistmigrationcompletedtype/imlistmigrationcompleted) { get; set; } |  |
 
 ### See Also
 

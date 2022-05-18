@@ -16,7 +16,7 @@ public class PlayOnPhoneCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/playonphonecompletedeventargs/result) { get; } |  |
 
 ### See Also
 

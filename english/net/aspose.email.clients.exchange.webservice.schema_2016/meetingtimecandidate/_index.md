@@ -22,13 +22,13 @@ public class MeetingTimeCandidate
 
 | Name | Description |
 | --- | --- |
-| [AttendeeAvailabilities](attendeeavailabilities) { get; set; } |  |
-| [Confidence](confidence) { get; set; } |  |
-| [Locations](locations) { get; set; } |  |
-| [MeetingTimeslot](meetingtimeslot) { get; set; } |  |
-| [OrganizerAvailability](organizeravailability) { get; set; } |  |
-| [Score](score) { get; set; } |  |
-| [SuggestionHint](suggestionhint) { get; set; } |  |
+| [AttendeeAvailabilities](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidate/attendeeavailabilities) { get; set; } |  |
+| [Confidence](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidate/confidence) { get; set; } |  |
+| [Locations](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidate/locations) { get; set; } |  |
+| [MeetingTimeslot](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidate/meetingtimeslot) { get; set; } |  |
+| [OrganizerAvailability](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidate/organizeravailability) { get; set; } |  |
+| [Score](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidate/score) { get; set; } |  |
+| [SuggestionHint](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidate/suggestionhint) { get; set; } |  |
 
 ### See Also
 

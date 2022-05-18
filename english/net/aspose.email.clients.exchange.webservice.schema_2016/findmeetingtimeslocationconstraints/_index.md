@@ -22,11 +22,11 @@ public class FindMeetingTimesLocationConstraints
 
 | Name | Description |
 | --- | --- |
-| [IsRequired](isrequired) { get; set; } |  |
-| [IsRequiredSpecified](isrequiredspecified) { get; set; } |  |
-| [LocationEntries](locationentries) { get; set; } |  |
-| [SuggestLocation](suggestlocation) { get; set; } |  |
-| [SuggestLocationSpecified](suggestlocationspecified) { get; set; } |  |
+| [IsRequired](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimeslocationconstraints/isrequired) { get; set; } |  |
+| [IsRequiredSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimeslocationconstraints/isrequiredspecified) { get; set; } |  |
+| [LocationEntries](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimeslocationconstraints/locationentries) { get; set; } |  |
+| [SuggestLocation](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimeslocationconstraints/suggestlocation) { get; set; } |  |
+| [SuggestLocationSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimeslocationconstraints/suggestlocationspecified) { get; set; } |  |
 
 ### See Also
 

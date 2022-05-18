@@ -25,14 +25,14 @@ public class MapiAttachmentCollection : List<MapiAttachment>
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(MapiAttachment) | Adds an object to the end of the Collection. |
-| [Add](add)(string, byte[]) | Adds the new attachment. |
-| [Add](add)(string, MapiMessage) | Adds the new attachment as embedded message. |
-| [Insert](insert)(int, MapiAttachment) | Inserts an element into the Collection at the specified index. |
-| [Insert](insert)(int, string, MapiMessage) | Inserts a message as attachment into the [`MapiAttachmentCollection`](../mapiattachmentcollection) at the specified index. |
-| [Remove](remove)(MapiAttachment) | Removes the first occurrence of a specific object from the MapiAttachmentCollection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index of the MapiAttachmentCollection. |
-| [Replace](replace)(int, string, MapiMessage) | Replaces an element at the specified index. |
+| [Add](../../aspose.email.mapi/mapiattachmentcollection/add)(MapiAttachment) | Adds an object to the end of the Collection. |
+| [Add](../../aspose.email.mapi/mapiattachmentcollection/add)(string, byte[]) | Adds the new attachment. |
+| [Add](../../aspose.email.mapi/mapiattachmentcollection/add)(string, MapiMessage) | Adds the new attachment as embedded message. |
+| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert)(int, MapiAttachment) | Inserts an element into the Collection at the specified index. |
+| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert)(int, string, MapiMessage) | Inserts a message as attachment into the [`MapiAttachmentCollection`](../mapiattachmentcollection) at the specified index. |
+| [Remove](../../aspose.email.mapi/mapiattachmentcollection/remove)(MapiAttachment) | Removes the first occurrence of a specific object from the MapiAttachmentCollection. |
+| [RemoveAt](../../aspose.email.mapi/mapiattachmentcollection/removeat)(int) | Removes the element at the specified index of the MapiAttachmentCollection. |
+| [Replace](../../aspose.email.mapi/mapiattachmentcollection/replace)(int, string, MapiMessage) | Replaces an element at the specified index. |
 
 ### See Also
 

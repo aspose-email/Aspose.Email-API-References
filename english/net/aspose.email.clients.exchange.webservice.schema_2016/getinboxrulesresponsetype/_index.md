@@ -22,9 +22,16 @@ public class GetInboxRulesResponseType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [InboxRules](inboxrules) { get; set; } |  |
-| [OutlookRuleBlobExists](outlookruleblobexists) { get; set; } |  |
-| [OutlookRuleBlobExistsSpecified](outlookruleblobexistsspecified) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [InboxRules](../../aspose.email.clients.exchange.webservice.schema_2016/getinboxrulesresponsetype/inboxrules) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [OutlookRuleBlobExists](../../aspose.email.clients.exchange.webservice.schema_2016/getinboxrulesresponsetype/outlookruleblobexists) { get; set; } |  |
+| [OutlookRuleBlobExistsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getinboxrulesresponsetype/outlookruleblobexistsspecified) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
 
 ### See Also
 

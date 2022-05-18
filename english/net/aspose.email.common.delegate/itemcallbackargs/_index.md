@@ -24,7 +24,7 @@ public class ItemCallbackArgs
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } | The item being processed. |
+| [Item](../../aspose.email.common.delegate/itemcallbackargs/item) { get; set; } | The item being processed. |
 
 ### See Also
 

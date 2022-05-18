@@ -18,15 +18,15 @@ The **Aspose.Email.Clients.Imap** namespace provides classes to access and manip
 | [ESearchOptions](./esearchoptions) | ESEARCH Result Options This method works only if server supports ESEARCH extension. Please, read more https://tools.ietf.org/html/rfc4315 |
 | [FetchTimeoutException](./fetchtimeoutexception) | Represents the exception that is thrown when a message can not be read within the specified time. |
 | [ImapAttachmentInfo](./imapattachmentinfo) | Represents an attachment information. |
-| [ImapAttachmentInfoCollection](./imapattachmentinfocollection) | Represents the collection of [`ImapAttachmentInfo`](aspose.email.clients.imap/imapattachmentinfo) |
-| [ImapClient](./imapclient) | Allows applications to access and manipulate messages by using the Internet Message Access Protocol (IMAP). |
+| [ImapAttachmentInfoCollection](./imapattachmentinfocollection) | Represents the collection of [`ImapAttachmentInfo`](../aspose.email.clients.imap/imapattachmentinfo) |
+| [ImapClient](./imapclient) | Allows applications to access and manipulate messages by using the Internet Message Access Protocol (../IMAP). |
 | [ImapFolderInfo](./imapfolderinfo) | Represents an IMAP folder. |
 | [ImapFolderInfoCollection](./imapfolderinfocollection) | Provides a container for a collection of ImapFolderInfo objects. |
 | [ImapIdentificationInfo](./imapidentificationinfo) | Represents class-container with identification information to exchange between mail client and server. Please, read more rfc2971 https://tools.ietf.org/html/rfc2971 |
 | [ImapMailboxInfo](./imapmailboxinfo) | Contains set of special-use mailboxes |
 | [ImapMessageFlags](./imapmessageflags) | Represents the flags associated with the message. |
 | [ImapMessageInfo](./imapmessageinfo) | Represents a Imap message object. |
-| [ImapMessageInfoCollection](./imapmessageinfocollection) | Provides a container for a collection of [`ImapMessageInfo`](aspose.email.clients.imap/imapmessageinfo) objects |
+| [ImapMessageInfoCollection](./imapmessageinfocollection) | Provides a container for a collection of [`ImapMessageInfo`](../aspose.email.clients.imap/imapmessageinfo) objects |
 | [ImapMonitoringErrorEventArgs](./imapmonitoringerroreventargs) | Class contains monitoring error event data. |
 | [ImapMonitoringErrorEventHandler](./imapmonitoringerroreventhandler) | Represents the method that will handle an imap monitoring error event |
 | [ImapMonitoringEventArgs](./imapmonitoringeventargs) | Class contains monitoring event data. |
@@ -54,7 +54,7 @@ The **Aspose.Email.Clients.Imap** namespace provides classes to access and manip
 
 | Interface | Description |
 | --- | --- |
-| [IImapMonitoringState](./iimapmonitoringstate) | Holds folder monitoring state. This can be used to resume folder monitoring from place where it stopped when error occured. Use [`ResumeMonitoring`](aspose.email.clients.imap/imapclient/resumemonitoring) method. |
+| [IImapMonitoringState](./iimapmonitoringstate) | Holds folder monitoring state. This can be used to resume folder monitoring from place where it stopped when error occured. Use [`ResumeMonitoring`](../aspose.email.clients.imap/imapclient/resumemonitoring) method. |
 ## Enumeration
 
 | Enumeration | Description |

@@ -22,9 +22,9 @@ public class EmptyFolderType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DeleteSubFolders](deletesubfolders) { get; set; } |  |
-| [DeleteType](deletetype) { get; set; } |  |
-| [FolderIds](folderids) { get; set; } |  |
+| [DeleteSubFolders](../../aspose.email.clients.exchange.webservice.schema_2016/emptyfoldertype/deletesubfolders) { get; set; } |  |
+| [DeleteType](../../aspose.email.clients.exchange.webservice.schema_2016/emptyfoldertype/deletetype) { get; set; } |  |
+| [FolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/emptyfoldertype/folderids) { get; set; } |  |
 
 ### See Also
 

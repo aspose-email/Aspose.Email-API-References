@@ -22,21 +22,21 @@ public class AppMetadata
 
 | Name | Description |
 | --- | --- |
-| [ActionUrl](actionurl) { get; set; } |  |
-| [AppStatus](appstatus) { get; set; } |  |
-| [ConsentState](consentstate) { get; set; } |  |
-| [EnabledStatus](enabledstatus) { get; set; } |  |
-| [EnabledStatusSpecified](enabledstatusspecified) { get; set; } |  |
-| [EndNodeUrl](endnodeurl) { get; set; } |  |
-| [ExtensionType](extensiontype) { get; set; } |  |
-| [InstalledBy](installedby) { get; set; } |  |
-| [IsMandatory](ismandatory) { get; set; } |  |
-| [IsMandatorySpecified](ismandatoryspecified) { get; set; } |  |
-| [LicenseStatus](licensestatus) { get; set; } |  |
-| [MarketplaceAssetId](marketplaceassetid) { get; set; } |  |
-| [ProductId](productid) { get; set; } |  |
-| [TrialExpirationDate](trialexpirationdate) { get; set; } |  |
-| [TrialExpirationDateSpecified](trialexpirationdatespecified) { get; set; } |  |
+| [ActionUrl](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/actionurl) { get; set; } |  |
+| [AppStatus](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/appstatus) { get; set; } |  |
+| [ConsentState](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/consentstate) { get; set; } |  |
+| [EnabledStatus](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/enabledstatus) { get; set; } |  |
+| [EnabledStatusSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/enabledstatusspecified) { get; set; } |  |
+| [EndNodeUrl](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/endnodeurl) { get; set; } |  |
+| [ExtensionType](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/extensiontype) { get; set; } |  |
+| [InstalledBy](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/installedby) { get; set; } |  |
+| [IsMandatory](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/ismandatory) { get; set; } |  |
+| [IsMandatorySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/ismandatoryspecified) { get; set; } |  |
+| [LicenseStatus](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/licensestatus) { get; set; } |  |
+| [MarketplaceAssetId](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/marketplaceassetid) { get; set; } |  |
+| [ProductId](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/productid) { get; set; } |  |
+| [TrialExpirationDate](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/trialexpirationdate) { get; set; } |  |
+| [TrialExpirationDateSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/appmetadata/trialexpirationdatespecified) { get; set; } |  |
 
 ### See Also
 

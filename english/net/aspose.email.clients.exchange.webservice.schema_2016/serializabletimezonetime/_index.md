@@ -22,12 +22,12 @@ public class SerializableTimeZoneTime
 
 | Name | Description |
 | --- | --- |
-| [Bias](bias) { get; set; } |  |
-| [DayOfWeek](dayofweek) { get; set; } |  |
-| [DayOrder](dayorder) { get; set; } |  |
-| [Month](month) { get; set; } |  |
-| [Time](time) { get; set; } |  |
-| [Year](year) { get; set; } |  |
+| [Bias](../../aspose.email.clients.exchange.webservice.schema_2016/serializabletimezonetime/bias) { get; set; } |  |
+| [DayOfWeek](../../aspose.email.clients.exchange.webservice.schema_2016/serializabletimezonetime/dayofweek) { get; set; } |  |
+| [DayOrder](../../aspose.email.clients.exchange.webservice.schema_2016/serializabletimezonetime/dayorder) { get; set; } |  |
+| [Month](../../aspose.email.clients.exchange.webservice.schema_2016/serializabletimezonetime/month) { get; set; } |  |
+| [Time](../../aspose.email.clients.exchange.webservice.schema_2016/serializabletimezonetime/time) { get; set; } |  |
+| [Year](../../aspose.email.clients.exchange.webservice.schema_2016/serializabletimezonetime/year) { get; set; } |  |
 
 ### See Also
 

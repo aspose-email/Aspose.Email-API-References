@@ -22,12 +22,12 @@ public class ImGroupType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
-| [ExchangeStoreId](exchangestoreid) { get; set; } |  |
-| [ExtendedProperties](extendedproperties) { get; set; } |  |
-| [GroupType](grouptype) { get; set; } |  |
-| [MemberCorrelationKey](membercorrelationkey) { get; set; } |  |
-| [SmtpAddress](smtpaddress) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/imgrouptype/displayname) { get; set; } |  |
+| [ExchangeStoreId](../../aspose.email.clients.exchange.webservice.schema_2016/imgrouptype/exchangestoreid) { get; set; } |  |
+| [ExtendedProperties](../../aspose.email.clients.exchange.webservice.schema_2016/imgrouptype/extendedproperties) { get; set; } |  |
+| [GroupType](../../aspose.email.clients.exchange.webservice.schema_2016/imgrouptype/grouptype) { get; set; } |  |
+| [MemberCorrelationKey](../../aspose.email.clients.exchange.webservice.schema_2016/imgrouptype/membercorrelationkey) { get; set; } |  |
+| [SmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/imgrouptype/smtpaddress) { get; set; } |  |
 
 ### See Also
 

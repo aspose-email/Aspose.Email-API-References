@@ -22,9 +22,9 @@ public class EmailAddress
 
 | Name | Description |
 | --- | --- |
-| [Address](address) { get; set; } |  |
-| [Name](name) { get; set; } |  |
-| [RoutingType](routingtype) { get; set; } |  |
+| [Address](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddress/address) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddress/name) { get; set; } |  |
+| [RoutingType](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddress/routingtype) { get; set; } |  |
 
 ### See Also
 

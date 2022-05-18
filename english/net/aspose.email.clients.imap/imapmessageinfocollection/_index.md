@@ -25,19 +25,19 @@ public sealed class ImapMessageInfoCollection : Collection<ImapMessageInfo>
 
 | Name | Description |
 | --- | --- |
-| [Exceptions](exceptions) { get; } | Gets collection of exceptions, that occurred during message processing. |
-| [SyncRoot](syncroot) { get; } | Gets an object that can be used to synchronize access to the collection. |
+| [Exceptions](../../aspose.email.clients.imap/imapmessageinfocollection/exceptions) { get; } | Gets collection of exceptions, that occurred during message processing. |
+| [SyncRoot](../../aspose.email.clients.imap/imapmessageinfocollection/syncroot) { get; } | Gets an object that can be used to synchronize access to the collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(ImapMessageInfo) | Adds the ImapMessageInfo to the ImapMessageCollection. |
-| [AddRange](addrange)(IEnumerable&lt;ImapMessageInfo&gt;) | Adds the enumeration of ImapMessageInfo objects to the end of the collection |
-| [Insert](insert)(int, ImapMessageInfo) | Insert the specified ImapMessagInfo object at the specified index. |
-| [Remove](remove)(ImapMessageInfo) | Remove specifed ImapMessageInfo object from this collection. |
-| [RemoveAt](removeat)(int) | Remove a ImapMessageInfo in specified index from this collection. |
-| [implicit operator](op_implicit) | Converts collection of ImapMessageInfo to array (4 operators) |
+| [Add](../../aspose.email.clients.imap/imapmessageinfocollection/add)(ImapMessageInfo) | Adds the ImapMessageInfo to the ImapMessageCollection. |
+| [AddRange](../../aspose.email.clients.imap/imapmessageinfocollection/addrange)(IEnumerable&lt;ImapMessageInfo&gt;) | Adds the enumeration of ImapMessageInfo objects to the end of the collection |
+| [Insert](../../aspose.email.clients.imap/imapmessageinfocollection/insert)(int, ImapMessageInfo) | Insert the specified ImapMessagInfo object at the specified index. |
+| [Remove](../../aspose.email.clients.imap/imapmessageinfocollection/remove)(ImapMessageInfo) | Remove specifed ImapMessageInfo object from this collection. |
+| [RemoveAt](../../aspose.email.clients.imap/imapmessageinfocollection/removeat)(int) | Remove a ImapMessageInfo in specified index from this collection. |
+| [implicit operator](../../aspose.email.clients.imap/imapmessageinfocollection/op_implicit) | Converts collection of ImapMessageInfo to array (4 operators) |
 
 ### See Also
 

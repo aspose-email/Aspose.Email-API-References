@@ -24,11 +24,11 @@ public class SettingsResponse
 
 | Name | Description |
 | --- | --- |
-| [DeviceInformationStatus](deviceinformationstatus) { get; set; } | Indicates the result of the DeviceInformation setup request |
-| [DevicePasswordStatus](devicepasswordstatus) { get; set; } | Indicates the result of the DevicePassword setup request |
-| [Oof](oof) { get; set; } | Specifies a class for retrieving and setting Out of Office (OOF) information. |
-| [RightsManagementInformation](rightsmanagementinformation) { get; set; } | Contains rights management information settings retrieved from the server. |
-| [UserInformation](userinformation) { get; set; } | Contains status of the request and a list of a user’s account information (email addresses). |
+| [DeviceInformationStatus](../../aspose.email.clients.activesync.transportlayer/settingsresponse/deviceinformationstatus) { get; set; } | Indicates the result of the DeviceInformation setup request |
+| [DevicePasswordStatus](../../aspose.email.clients.activesync.transportlayer/settingsresponse/devicepasswordstatus) { get; set; } | Indicates the result of the DevicePassword setup request |
+| [Oof](../../aspose.email.clients.activesync.transportlayer/settingsresponse/oof) { get; set; } | Specifies a class for retrieving and setting Out of Office (OOF) information. |
+| [RightsManagementInformation](../../aspose.email.clients.activesync.transportlayer/settingsresponse/rightsmanagementinformation) { get; set; } | Contains rights management information settings retrieved from the server. |
+| [UserInformation](../../aspose.email.clients.activesync.transportlayer/settingsresponse/userinformation) { get; set; } | Contains status of the request and a list of a user’s account information (email addresses). |
 
 ### See Also
 

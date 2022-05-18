@@ -18,6 +18,13 @@ public class MoveFolderType : BaseMoveCopyFolderType
 | --- | --- |
 | [MoveFolderType](movefoldertype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [FolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/basemovecopyfoldertype/folderids) { get; set; } |  |
+| [ToFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/basemovecopyfoldertype/tofolderid) { get; set; } |  |
+
 ### See Also
 
 * class [BaseMoveCopyFolderType](../basemovecopyfoldertype)

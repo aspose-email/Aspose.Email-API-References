@@ -24,9 +24,9 @@ public class RestoreSettings
 
 | Name | Description |
 | --- | --- |
-| [BeforeItemCallback](beforeitemcallback) { get; set; } | The callback called when the next item (message or folder) is processed. |
-| [Folders](folders) { get; set; } | A folders to be restored. |
-| [Options](options) { get; set; } | Restore options. |
+| [BeforeItemCallback](../../aspose.email.clients.exchange.webservice/restoresettings/beforeitemcallback) { get; set; } | The callback called when the next item (message or folder) is processed. |
+| [Folders](../../aspose.email.clients.exchange.webservice/restoresettings/folders) { get; set; } | A folders to be restored. |
+| [Options](../../aspose.email.clients.exchange.webservice/restoresettings/options) { get; set; } | Restore options. |
 
 ### See Also
 

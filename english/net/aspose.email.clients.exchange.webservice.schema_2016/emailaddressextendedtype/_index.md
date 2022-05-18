@@ -22,8 +22,15 @@ public class EmailAddressExtendedType : EmailAddressType
 
 | Name | Description |
 | --- | --- |
-| [ExternalObjectId](externalobjectid) { get; set; } |  |
-| [PrimaryEmailAddress](primaryemailaddress) { get; set; } |  |
+| [EmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/emailaddress) { get; set; } |  |
+| [ExternalObjectId](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressextendedtype/externalobjectid) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/itemid) { get; set; } |  |
+| [MailboxType](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/mailboxtype) { get; set; } |  |
+| [MailboxTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/mailboxtypespecified) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/name) { get; set; } |  |
+| [OriginalDisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/originaldisplayname) { get; set; } |  |
+| [PrimaryEmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressextendedtype/primaryemailaddress) { get; set; } |  |
+| [RoutingType](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/routingtype) { get; set; } |  |
 
 ### See Also
 

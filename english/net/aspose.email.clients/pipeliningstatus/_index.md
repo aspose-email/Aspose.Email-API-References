@@ -18,16 +18,16 @@ public class PipeliningStatus
 
 | Name | Description |
 | --- | --- |
-| [ClientMode](clientmode) { get; set; } | Gets or sets a value that defines how mail client supports the pipelining |
-| [PipeliningEnabled](pipeliningenabled) { get; } | Gets a value that defines if pipelining mode is enabled. |
-| [SupportedByServer](supportedbyserver) { get; } | Gets value that indicates if pipelining mode is supported by a server. |
+| [ClientMode](../../aspose.email.clients/pipeliningstatus/clientmode) { get; set; } | Gets or sets a value that defines how mail client supports the pipelining |
+| [PipeliningEnabled](../../aspose.email.clients/pipeliningstatus/pipeliningenabled) { get; } | Gets a value that defines if pipelining mode is enabled. |
+| [SupportedByServer](../../aspose.email.clients/pipeliningstatus/supportedbyserver) { get; } | Gets value that indicates if pipelining mode is supported by a server. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [implicit operator](op_implicit) | Converts boolean value to [`PipeliningStatus`](../pipeliningstatus) object (4 operators) |
+| override [ToString](../../aspose.email.clients/pipeliningstatus/tostring)() | Returns a string that represents the current object. |
+| [implicit operator](../../aspose.email.clients/pipeliningstatus/op_implicit) | Converts boolean value to [`PipeliningStatus`](../pipeliningstatus) object (4 operators) |
 
 ### See Also
 

@@ -28,15 +28,15 @@ public class RangeSeqSet : SequenceSetBaseValue
 
 | Name | Description |
 | --- | --- |
-| [EndRange](endrange) { get; set; } | Gets or sets ending boundary of the range to search |
-| [StartRange](startrange) { get; set; } | Gets or sets starting boundary of the range to search |
+| [EndRange](../../aspose.email.clients.imap/rangeseqset/endrange) { get; set; } | Gets or sets ending boundary of the range to search |
+| [StartRange](../../aspose.email.clients.imap/rangeseqset/startrange) { get; set; } | Gets or sets starting boundary of the range to search |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [implicit operator](op_implicit) | Implicit conversion operation from [`RangeSeqSet`](../rangeseqset) to String |
+| override [ToString](../../aspose.email.clients.imap/rangeseqset/tostring)() | Returns a string that represents the current object. |
+| [implicit operator](../../aspose.email.clients.imap/rangeseqset/op_implicit) | Implicit conversion operation from [`RangeSeqSet`](../rangeseqset) to String |
 
 ### See Also
 

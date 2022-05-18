@@ -22,9 +22,9 @@ public class GetSharingMetadataType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [IdOfFolderToShare](idoffoldertoshare) { get; set; } |  |
-| [Recipients](recipients) { get; set; } |  |
-| [SenderSmtpAddress](sendersmtpaddress) { get; set; } |  |
+| [IdOfFolderToShare](../../aspose.email.clients.exchange.webservice.schema_2016/getsharingmetadatatype/idoffoldertoshare) { get; set; } |  |
+| [Recipients](../../aspose.email.clients.exchange.webservice.schema_2016/getsharingmetadatatype/recipients) { get; set; } |  |
+| [SenderSmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/getsharingmetadatatype/sendersmtpaddress) { get; set; } |  |
 
 ### See Also
 

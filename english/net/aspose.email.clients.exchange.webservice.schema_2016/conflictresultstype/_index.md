@@ -22,7 +22,7 @@ public class ConflictResultsType
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; set; } |  |
+| [Count](../../aspose.email.clients.exchange.webservice.schema_2016/conflictresultstype/count) { get; set; } |  |
 
 ### See Also
 

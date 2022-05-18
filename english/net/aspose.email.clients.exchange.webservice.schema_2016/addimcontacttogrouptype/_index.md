@@ -22,8 +22,8 @@ public class AddImContactToGroupType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ContactId](contactid) { get; set; } |  |
-| [GroupId](groupid) { get; set; } |  |
+| [ContactId](../../aspose.email.clients.exchange.webservice.schema_2016/addimcontacttogrouptype/contactid) { get; set; } |  |
+| [GroupId](../../aspose.email.clients.exchange.webservice.schema_2016/addimcontacttogrouptype/groupid) { get; set; } |  |
 
 ### See Also
 

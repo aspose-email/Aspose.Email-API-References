@@ -25,9 +25,9 @@ public class RightsManagementTemplate
 
 | Name | Description |
 | --- | --- |
-| [TemplateDescription](templatedescription) { get; set; } | Template description |
-| [TemplateID](templateid) { get; set; } | Template identifier |
-| [TemplateName](templatename) { get; set; } | Template name |
+| [TemplateDescription](../../aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/templatedescription) { get; set; } | Template description |
+| [TemplateID](../../aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/templateid) { get; set; } | Template identifier |
+| [TemplateName](../../aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/templatename) { get; set; } | Template name |
 
 ### See Also
 

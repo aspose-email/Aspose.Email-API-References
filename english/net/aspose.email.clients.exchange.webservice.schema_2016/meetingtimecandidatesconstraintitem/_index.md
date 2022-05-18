@@ -22,7 +22,7 @@ public class MeetingTimeCandidatesConstraintItem
 
 | Name | Description |
 | --- | --- |
-| [Email](email) { get; set; } |  |
+| [Email](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidatesconstraintitem/email) { get; set; } |  |
 
 ### See Also
 

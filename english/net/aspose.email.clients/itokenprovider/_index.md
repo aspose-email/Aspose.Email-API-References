@@ -18,8 +18,8 @@ public interface ITokenProvider : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [GetAccessToken](getaccesstoken)() | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
-| [GetAccessToken](getaccesstoken)(bool) | Gets oAuth access token. |
+| [GetAccessToken](../../aspose.email.clients/itokenprovider/getaccesstoken)() | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
+| [GetAccessToken](../../aspose.email.clients/itokenprovider/getaccesstoken)(bool) | Gets oAuth access token. |
 
 ### See Also
 

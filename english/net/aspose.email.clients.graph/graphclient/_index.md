@@ -18,21 +18,21 @@ public abstract class GraphClient : IDisposable
 
 | Name | Description |
 | --- | --- |
-| virtual [MultipleServicesTokenProvider](multipleservicestokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
-| virtual [Proxy](proxy) { get; set; } | Gets or sets data to proxy access to Exchange server. |
-| virtual [Resource](resource) { get; set; } | Gets or sets resource type. |
-| virtual [ResourceId](resourceid) { get; set; } | Gets or sets resource id. For instance for users it may be user principal name (UPN) or user id |
-| virtual [TenantId](tenantid) { get; set; } | Gets or sets tenant identifier |
-| virtual [Timeout](timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
-| virtual [TokenProvider](tokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
+| virtual [MultipleServicesTokenProvider](../../aspose.email.clients.graph/graphclient/multipleservicestokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
+| virtual [Proxy](../../aspose.email.clients.graph/graphclient/proxy) { get; set; } | Gets or sets data to proxy access to Exchange server. |
+| virtual [Resource](../../aspose.email.clients.graph/graphclient/resource) { get; set; } | Gets or sets resource type. |
+| virtual [ResourceId](../../aspose.email.clients.graph/graphclient/resourceid) { get; set; } | Gets or sets resource id. For instance for users it may be user principal name (UPN) or user id |
+| virtual [TenantId](../../aspose.email.clients.graph/graphclient/tenantid) { get; set; } | Gets or sets tenant identifier |
+| virtual [Timeout](../../aspose.email.clients.graph/graphclient/timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
+| virtual [TokenProvider](../../aspose.email.clients.graph/graphclient/tokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| static [GetClient](getclient)(IMultipleServicesTokenProvider, string) | Initializes a new instance of the [`GraphClient`](../graphclient) based class |
-| static [GetClient](getclient)(ITokenProvider, string) | Initializes a new instance of the [`GraphClient`](../graphclient) based class |
+| virtual [Dispose](../../aspose.email.clients.graph/graphclient/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient)(IMultipleServicesTokenProvider, string) | Initializes a new instance of the [`GraphClient`](../graphclient) based class |
+| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient)(ITokenProvider, string) | Initializes a new instance of the [`GraphClient`](../graphclient) based class |
 
 ### See Also
 

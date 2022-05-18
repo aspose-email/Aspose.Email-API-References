@@ -22,15 +22,15 @@ public class GetConversationItemsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Conversations](conversations) { get; set; } |  |
-| [FoldersToIgnore](folderstoignore) { get; set; } |  |
-| [ItemShape](itemshape) { get; set; } |  |
-| [MailboxScope](mailboxscope) { get; set; } |  |
-| [MailboxScopeSpecified](mailboxscopespecified) { get; set; } |  |
-| [MaxItemsToReturn](maxitemstoreturn) { get; set; } |  |
-| [MaxItemsToReturnSpecified](maxitemstoreturnspecified) { get; set; } |  |
-| [SortOrder](sortorder) { get; set; } |  |
-| [SortOrderSpecified](sortorderspecified) { get; set; } |  |
+| [Conversations](../../aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/conversations) { get; set; } |  |
+| [FoldersToIgnore](../../aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/folderstoignore) { get; set; } |  |
+| [ItemShape](../../aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/itemshape) { get; set; } |  |
+| [MailboxScope](../../aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/mailboxscope) { get; set; } |  |
+| [MailboxScopeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/mailboxscopespecified) { get; set; } |  |
+| [MaxItemsToReturn](../../aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/maxitemstoreturn) { get; set; } |  |
+| [MaxItemsToReturnSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/maxitemstoreturnspecified) { get; set; } |  |
+| [SortOrder](../../aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/sortorder) { get; set; } |  |
+| [SortOrderSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getconversationitemstype/sortorderspecified) { get; set; } |  |
 
 ### See Also
 

@@ -24,8 +24,8 @@ public class NotebookLinks
 
 | Name | Description |
 | --- | --- |
-| [OneNoteClientUrl](onenoteclienturl) { get; set; } | Opens the notebook in readonly the OneNote readonly native client if it's installed. |
-| [OneNoteWebUrl](onenoteweburl) { get; set; } | Opens the notebook in readonly OneNote on the web. |
+| [OneNoteClientUrl](../../aspose.email.clients.graph/notebooklinks/onenoteclienturl) { get; set; } | Opens the notebook in readonly the OneNote readonly native client if it's installed. |
+| [OneNoteWebUrl](../../aspose.email.clients.graph/notebooklinks/onenoteweburl) { get; set; } | Opens the notebook in readonly OneNote on the web. |
 
 ### See Also
 

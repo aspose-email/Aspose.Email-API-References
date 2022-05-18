@@ -22,11 +22,11 @@ public class GetPersonaType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [AdditionalProperties](additionalproperties) { get; set; } |  |
-| [EmailAddress](emailaddress) { get; set; } |  |
-| [ItemLinkId](itemlinkid) { get; set; } |  |
-| [ParentFolderId](parentfolderid) { get; set; } |  |
-| [PersonaId](personaid) { get; set; } |  |
+| [AdditionalProperties](../../aspose.email.clients.exchange.webservice.schema_2016/getpersonatype/additionalproperties) { get; set; } |  |
+| [EmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/getpersonatype/emailaddress) { get; set; } |  |
+| [ItemLinkId](../../aspose.email.clients.exchange.webservice.schema_2016/getpersonatype/itemlinkid) { get; set; } |  |
+| [ParentFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/getpersonatype/parentfolderid) { get; set; } |  |
+| [PersonaId](../../aspose.email.clients.exchange.webservice.schema_2016/getpersonatype/personaid) { get; set; } |  |
 
 ### See Also
 

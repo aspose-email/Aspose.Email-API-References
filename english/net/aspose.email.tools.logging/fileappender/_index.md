@@ -28,18 +28,21 @@ public sealed class FileAppender : Appender
 
 | Name | Description |
 | --- | --- |
-| [Encoding](encoding) { get; set; } | Gets or sets the encoding. |
-| [FileName](filename) { get; set; } | Gets or sets file name. |
-| [UseDate](usedate) { get; set; } | Gets or sets value which indicates whether date is used for logging. |
+| [Encoding](../../aspose.email.tools.logging/fileappender/encoding) { get; set; } | Gets or sets the encoding. |
+| [FileName](../../aspose.email.tools.logging/fileappender/filename) { get; set; } | Gets or sets file name. |
+| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Gets or sets the formatter. |
+| [UseDate](../../aspose.email.tools.logging/fileappender/usedate) { get; set; } | Gets or sets value which indicates whether date is used for logging. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Append](append)(LogEntry) | Appends the log entry information to the appender. |
-| [Append](append)(LogEntry[]) | Appends a set of log entries to the appender. |
-| override [AppendHeader](appendheader)() | Starts log file with specific header. |
-| override [Close](close)() | Closes the appender. |
+| override [Append](../../aspose.email.tools.logging/fileappender/append)(LogEntry) | Appends the log entry information to the appender. |
+| [Append](../../aspose.email.tools.logging/fileappender/append)(LogEntry[]) | Appends a set of log entries to the appender. |
+| override [AppendHeader](../../aspose.email.tools.logging/fileappender/appendheader)() | Starts log file with specific header. |
+| override [Close](../../aspose.email.tools.logging/fileappender/close)() | Closes the appender. |
+| [Dispose](../../aspose.email.tools.logging/appender/dispose)() | Releases the unmanaged resources used by the Appender. |
+| virtual [Initialize](../../aspose.email.tools.logging/appender/initialize)() | Initializes the appender instance. |
 
 ### See Also
 

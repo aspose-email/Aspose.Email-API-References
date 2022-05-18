@@ -25,19 +25,31 @@ public sealed class ImapQueryBuilder : MailQueryBuilder
 
 | Name | Description |
 | --- | --- |
-| [ESearchParameters](esearchparameters) { get; set; } | Gets or sets ESEARCH Parameters This method works only if server supports ESEARCH extension. Please, read more https://tools.ietf.org/html/rfc4315 |
-| [MessageSize](messagesize) { get; } | Gets messages with an specified size. |
-| [ModSeq](modseq) { get; } | Modification sequence |
-| [UniqueId](uniqueid) { get; } | Unique identifier |
+| [Bcc](../../aspose.email.tools.search/mailquerybuilder/bcc) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's BCC field. |
+| [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | Gets the field that allows to find messages that contain the specified string in the body of the message. |
+| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's CC field. |
+| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | Gets default encoding (charset) for query builder |
+| [ESearchParameters](../../aspose.email.clients.imap/imapquerybuilder/esearchparameters) { get; set; } | Gets or sets ESEARCH Parameters This method works only if server supports ESEARCH extension. Please, read more https://tools.ietf.org/html/rfc4315 |
+| [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's FROM field. |
+| [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | Gets the field that allows to find messages by internal date. |
+| [MessageSize](../../aspose.email.clients.imap/imapquerybuilder/messagesize) { get; } | Gets messages with an specified size. |
+| [ModSeq](../../aspose.email.clients.imap/imapquerybuilder/modseq) { get; } | Modification sequence |
+| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Gets the field that allows to find messages by sent date. |
+| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's SUBJECT field. |
+| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | Gets the field that allows to find the messages that contain the specified string in the headers (subject, from, to, cc) and body of the message. |
+| [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's TO field. |
+| [UniqueId](../../aspose.email.clients.imap/imapquerybuilder/uniqueid) { get; } | Unique identifier |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CustomSearch](customsearch)(string) | Search messages according to extended server search syntax. |
-| [HasFlags](hasflags)(ImapMessageFlags) | Search messages with the specified flags. |
-| [HasHeader](hasheader)(string, string) | Search messages that have a header with the specified field-name and that contains the specified string in the text of the header (what comes after the colon). If the string to search is zero-length, this matches all messages that have a header line with the specified field-name regardless of the contents. |
-| [HasNoFlags](hasnoflags)(ImapMessageFlags) | Search messages with the unspecified flags. |
+| [CustomSearch](../../aspose.email.clients.imap/imapquerybuilder/customsearch)(string) | Search messages according to extended server search syntax. |
+| [GetQuery](../../aspose.email.tools.search/mailquerybuilder/getquery)() | Gets the query. |
+| [HasFlags](../../aspose.email.clients.imap/imapquerybuilder/hasflags)(ImapMessageFlags) | Search messages with the specified flags. |
+| [HasHeader](../../aspose.email.clients.imap/imapquerybuilder/hasheader)(string, string) | Search messages that have a header with the specified field-name and that contains the specified string in the text of the header (what comes after the colon). If the string to search is zero-length, this matches all messages that have a header line with the specified field-name regardless of the contents. |
+| [HasNoFlags](../../aspose.email.clients.imap/imapquerybuilder/hasnoflags)(ImapMessageFlags) | Search messages with the unspecified flags. |
+| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | Search messages that match either search key. Provides disjunction between two expressions (OR). |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class MailboxCultureType : SoapHeader
 
 | Name | Description |
 | --- | --- |
-| [AnyAttr](anyattr) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [AnyAttr](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxculturetype/anyattr) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxculturetype/value) { get; set; } |  |
 
 ### See Also
 

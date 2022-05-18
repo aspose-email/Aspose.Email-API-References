@@ -22,9 +22,9 @@ public class GetMailTipsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [MailTipsRequested](mailtipsrequested) { get; set; } |  |
-| [Recipients](recipients) { get; set; } |  |
-| [SendingAs](sendingas) { get; set; } |  |
+| [MailTipsRequested](../../aspose.email.clients.exchange.webservice.schema_2016/getmailtipstype/mailtipsrequested) { get; set; } |  |
+| [Recipients](../../aspose.email.clients.exchange.webservice.schema_2016/getmailtipstype/recipients) { get; set; } |  |
+| [SendingAs](../../aspose.email.clients.exchange.webservice.schema_2016/getmailtipstype/sendingas) { get; set; } |  |
 
 ### See Also
 

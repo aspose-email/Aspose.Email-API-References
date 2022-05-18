@@ -16,7 +16,7 @@ public class GetMeetingSpaceCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getmeetingspacecompletedeventargs/result) { get; } |  |
 
 ### See Also
 

@@ -18,6 +18,12 @@ public class AndType : MultipleOperandBooleanExpressionType
 | --- | --- |
 | [AndType](andtype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/multipleoperandbooleanexpressiontype/items) { get; set; } |  |
+
 ### See Also
 
 * class [MultipleOperandBooleanExpressionType](../multipleoperandbooleanexpressiontype)

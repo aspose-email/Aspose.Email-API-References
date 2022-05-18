@@ -30,8 +30,15 @@ public class AsposeArgumentOutOfRangeException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| override [Message](message) { get; } | Gets a message that describes the current exception. |
-| virtual [ParamName](paramname) { get; } | Parameter name |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Gets extra information aboout error |
+| override [Message](../../aspose.email/asposeargumentoutofrangeexception/message) { get; } | Gets a message that describes the current exception. |
+| virtual [ParamName](../../aspose.email/asposeargumentoutofrangeexception/paramname) { get; } | Parameter name |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email/asposeexception/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

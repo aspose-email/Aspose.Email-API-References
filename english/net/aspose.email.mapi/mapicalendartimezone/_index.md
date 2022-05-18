@@ -25,8 +25,8 @@ public sealed class MapiCalendarTimeZone
 
 | Name | Description |
 | --- | --- |
-| [KeyName](keyname) { get; set; } | Gets or sets a human-readable description of the time zone |
-| [TimeZoneRules](timezonerules) { get; set; } | Gets or sets the time zone rules |
+| [KeyName](../../aspose.email.mapi/mapicalendartimezone/keyname) { get; set; } | Gets or sets a human-readable description of the time zone |
+| [TimeZoneRules](../../aspose.email.mapi/mapicalendartimezone/timezonerules) { get; set; } | Gets or sets the time zone rules |
 
 ### See Also
 

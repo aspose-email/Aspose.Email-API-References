@@ -18,9 +18,9 @@ public class SaveResult
 
 | Name | Description |
 | --- | --- |
-| [Attachments](attachments) { get; } | Gets the save results of attachments. |
-| [MissedProperties](missedproperties) { get; } | Gets the collection of missed properties. |
-| [Status](status) { get; } | Gets the saving status. |
+| [Attachments](../../aspose.email.storage.pst/saveresult/attachments) { get; } | Gets the save results of attachments. |
+| [MissedProperties](../../aspose.email.storage.pst/saveresult/missedproperties) { get; } | Gets the collection of missed properties. |
+| [Status](../../aspose.email.storage.pst/saveresult/status) { get; } | Gets the saving status. |
 
 ### See Also
 

@@ -16,7 +16,7 @@ public class SubscribeCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/subscribecompletedeventargs/result) { get; } |  |
 
 ### See Also
 

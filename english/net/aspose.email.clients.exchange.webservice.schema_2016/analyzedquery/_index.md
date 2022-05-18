@@ -22,8 +22,8 @@ public class AnalyzedQuery
 
 | Name | Description |
 | --- | --- |
-| [QueryLanguage](querylanguage) { get; set; } |  |
-| [SearchRestrictions](searchrestrictions) { get; set; } |  |
+| [QueryLanguage](../../aspose.email.clients.exchange.webservice.schema_2016/analyzedquery/querylanguage) { get; set; } |  |
+| [SearchRestrictions](../../aspose.email.clients.exchange.webservice.schema_2016/analyzedquery/searchrestrictions) { get; set; } |  |
 
 ### See Also
 

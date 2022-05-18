@@ -16,7 +16,7 @@ public class DeleteMeetingInstanceCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/deletemeetinginstancecompletedeventargs/result) { get; } |  |
 
 ### See Also
 

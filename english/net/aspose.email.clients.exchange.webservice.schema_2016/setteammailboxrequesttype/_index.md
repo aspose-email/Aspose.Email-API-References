@@ -22,9 +22,9 @@ public class SetTeamMailboxRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [EmailAddress](emailaddress) { get; set; } |  |
-| [SharePointSiteUrl](sharepointsiteurl) { get; set; } |  |
-| [State](state) { get; set; } |  |
+| [EmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/setteammailboxrequesttype/emailaddress) { get; set; } |  |
+| [SharePointSiteUrl](../../aspose.email.clients.exchange.webservice.schema_2016/setteammailboxrequesttype/sharepointsiteurl) { get; set; } |  |
+| [State](../../aspose.email.clients.exchange.webservice.schema_2016/setteammailboxrequesttype/state) { get; set; } |  |
 
 ### See Also
 

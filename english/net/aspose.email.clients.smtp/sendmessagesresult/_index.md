@@ -24,9 +24,9 @@ public class SendMessagesResult
 
 | Name | Description |
 | --- | --- |
-| [Failed](failed) { get; } | Gets mail messages that have been handled with errors |
-| [NotHandled](nothandled) { get; } | Gets mail messages that have not been handled |
-| [Succeeded](succeeded) { get; } | Gets mail messages that have been handled successfully |
+| [Failed](../../aspose.email.clients.smtp/sendmessagesresult/failed) { get; } | Gets mail messages that have been handled with errors |
+| [NotHandled](../../aspose.email.clients.smtp/sendmessagesresult/nothandled) { get; } | Gets mail messages that have not been handled |
+| [Succeeded](../../aspose.email.clients.smtp/sendmessagesresult/succeeded) { get; } | Gets mail messages that have been handled successfully |
 
 ### See Also
 

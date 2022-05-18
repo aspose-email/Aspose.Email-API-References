@@ -22,7 +22,14 @@ public class AddImGroupResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [ImGroup](imgroup) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [ImGroup](../../aspose.email.clients.exchange.webservice.schema_2016/addimgroupresponsemessagetype/imgroup) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
 
 ### See Also
 

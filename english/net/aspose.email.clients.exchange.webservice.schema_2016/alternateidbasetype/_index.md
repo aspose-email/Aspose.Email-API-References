@@ -16,7 +16,7 @@ public abstract class AlternateIdBaseType
 
 | Name | Description |
 | --- | --- |
-| [Format](format) { get; set; } |  |
+| [Format](../../aspose.email.clients.exchange.webservice.schema_2016/alternateidbasetype/format) { get; set; } |  |
 
 ### See Also
 

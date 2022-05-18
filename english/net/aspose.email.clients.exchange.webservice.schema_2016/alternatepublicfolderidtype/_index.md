@@ -22,7 +22,8 @@ public class AlternatePublicFolderIdType : AlternateIdBaseType
 
 | Name | Description |
 | --- | --- |
-| [FolderId](folderid) { get; set; } |  |
+| [FolderId](../../aspose.email.clients.exchange.webservice.schema_2016/alternatepublicfolderidtype/folderid) { get; set; } |  |
+| [Format](../../aspose.email.clients.exchange.webservice.schema_2016/alternateidbasetype/format) { get; set; } |  |
 
 ### See Also
 

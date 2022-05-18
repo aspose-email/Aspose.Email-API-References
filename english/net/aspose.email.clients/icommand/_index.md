@@ -18,13 +18,13 @@ public interface ICommand : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [CanExecute](canexecute) { get; } | Defines the operator that determines whether the command can execute in its current state. |
+| [CanExecute](../../aspose.email.clients/icommand/canexecute) { get; } | Defines the operator that determines whether the command can execute in its current state. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Execute](execute)() | Defines the method to be called when the command is invoked. |
+| [Execute](../../aspose.email.clients/icommand/execute)() | Defines the method to be called when the command is invoked. |
 
 ## Other Members
 

@@ -24,8 +24,8 @@ public sealed class VCardUrl
 
 | Name | Description |
 | --- | --- |
-| [Url](url) { get; set; } | Gets or sets a url |
-| [UrlType](urltype) { get; set; } | Gets or sets a url type |
+| [Url](../../aspose.email.personalinfo.vcard/vcardurl/url) { get; set; } | Gets or sets a url |
+| [UrlType](../../aspose.email.personalinfo.vcard/vcardurl/urltype) { get; set; } | Gets or sets a url type |
 
 ### See Also
 

@@ -22,15 +22,15 @@ public class RetentionPolicyTagType
 
 | Name | Description |
 | --- | --- |
-| [Description](description) { get; set; } |  |
-| [DisplayName](displayname) { get; set; } |  |
-| [IsArchive](isarchive) { get; set; } |  |
-| [IsVisible](isvisible) { get; set; } |  |
-| [OptedInto](optedinto) { get; set; } |  |
-| [RetentionAction](retentionaction) { get; set; } |  |
-| [RetentionId](retentionid) { get; set; } |  |
-| [RetentionPeriod](retentionperiod) { get; set; } |  |
-| [Type](type) { get; set; } |  |
+| [Description](../../aspose.email.clients.exchange.webservice.schema_2016/retentionpolicytagtype/description) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/retentionpolicytagtype/displayname) { get; set; } |  |
+| [IsArchive](../../aspose.email.clients.exchange.webservice.schema_2016/retentionpolicytagtype/isarchive) { get; set; } |  |
+| [IsVisible](../../aspose.email.clients.exchange.webservice.schema_2016/retentionpolicytagtype/isvisible) { get; set; } |  |
+| [OptedInto](../../aspose.email.clients.exchange.webservice.schema_2016/retentionpolicytagtype/optedinto) { get; set; } |  |
+| [RetentionAction](../../aspose.email.clients.exchange.webservice.schema_2016/retentionpolicytagtype/retentionaction) { get; set; } |  |
+| [RetentionId](../../aspose.email.clients.exchange.webservice.schema_2016/retentionpolicytagtype/retentionid) { get; set; } |  |
+| [RetentionPeriod](../../aspose.email.clients.exchange.webservice.schema_2016/retentionpolicytagtype/retentionperiod) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/retentionpolicytagtype/type) { get; set; } |  |
 
 ### See Also
 

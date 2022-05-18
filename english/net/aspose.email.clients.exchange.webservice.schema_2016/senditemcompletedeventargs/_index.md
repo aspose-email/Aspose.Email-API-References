@@ -16,7 +16,7 @@ public class SendItemCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/senditemcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

@@ -22,10 +22,10 @@ public class TimeZoneType
 
 | Name | Description |
 | --- | --- |
-| [BaseOffset](baseoffset) { get; set; } |  |
-| [Daylight](daylight) { get; set; } |  |
-| [Standard](standard) { get; set; } |  |
-| [TimeZoneName](timezonename) { get; set; } |  |
+| [BaseOffset](../../aspose.email.clients.exchange.webservice.schema_2016/timezonetype/baseoffset) { get; set; } |  |
+| [Daylight](../../aspose.email.clients.exchange.webservice.schema_2016/timezonetype/daylight) { get; set; } |  |
+| [Standard](../../aspose.email.clients.exchange.webservice.schema_2016/timezonetype/standard) { get; set; } |  |
+| [TimeZoneName](../../aspose.email.clients.exchange.webservice.schema_2016/timezonetype/timezonename) { get; set; } |  |
 
 ### See Also
 

@@ -13,11 +13,11 @@ url: /net/aspose.email.clients.graph/
 | Class | Description |
 | --- | --- |
 | [BaseRestObject](./baserestobject) | Represents functionality for base object. |
-| [Bucket](./bucket) | https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 The plannerBucket resource represents a bucket (or "custom column") for tasks in a plan in Office 365. It is contained in a plannerPlan and can have a collection of plannerTasks. |
+| [Bucket](./bucket) | https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 The plannerBucket resource represents a bucket (../or "custom column") for tasks in a plan in Office 365. It is contained in a plannerPlan and can have a collection of plannerTasks. |
 | [ClassificationOverride](./classificationoverride) | Represents a user's override for how incoming messages from a specific sender should always be classified as. |
 | [FolderInfo](./folderinfo) | Represents information about personal folder. |
 | [FolderInfoCollection](./folderinfocollection) | Represents collection of GraphFolderInfo. |
-| [GraphClient](./graphclient) | Provides access to MS Exchange Server (Office365) by using REST API. |
+| [GraphClient](./graphclient) | Provides access to MS Exchange Server (../Office365) by using REST API. |
 | [Identity](./identity) | https://docs.microsoft.com/en-us/graph/api/resources/identity?view=graph-rest-1.0 The Identity resource represents an identity of an actor. For example, an actor can be a user, device, or application. |
 | [IdentitySet](./identityset) | https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 The IdentitySet resource is a keyed collection of identity resources. It is used to represent a set of identities associated with various events for an item, such as created by or last modified by. |
 | [KnownFolders](./knownfolders) | Well-known folders |

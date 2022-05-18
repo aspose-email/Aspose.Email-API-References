@@ -22,8 +22,8 @@ public class ManagementRoleType : SoapHeader
 
 | Name | Description |
 | --- | --- |
-| [ApplicationRoles](applicationroles) { get; set; } |  |
-| [UserRoles](userroles) { get; set; } |  |
+| [ApplicationRoles](../../aspose.email.clients.exchange.webservice.schema_2016/managementroletype/applicationroles) { get; set; } |  |
+| [UserRoles](../../aspose.email.clients.exchange.webservice.schema_2016/managementroletype/userroles) { get; set; } |  |
 
 ### See Also
 

@@ -22,20 +22,20 @@ public class SearchResultsType
 
 | Name | Description |
 | --- | --- |
-| [Conversations](conversations) { get; set; } |  |
-| [DiagnosticsData](diagnosticsdata) { get; set; } |  |
-| [Items](items) { get; set; } |  |
-| [MailboxesInformation](mailboxesinformation) { get; set; } |  |
-| [MoreResultsAvailable](moreresultsavailable) { get; set; } |  |
-| [People](people) { get; set; } |  |
-| [QueryId](queryid) { get; set; } |  |
-| [RefinerTelemetryBatchId](refinertelemetrybatchid) { get; set; } |  |
-| [SearchRefiners](searchrefiners) { get; set; } |  |
-| [SearchResultsCount](searchresultscount) { get; set; } |  |
-| [SearchResultsCountSpecified](searchresultscountspecified) { get; set; } |  |
-| [SearchTerms](searchterms) { get; set; } |  |
-| [TotalResultsCount](totalresultscount) { get; set; } |  |
-| [TotalResultsCountSpecified](totalresultscountspecified) { get; set; } |  |
+| [Conversations](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/conversations) { get; set; } |  |
+| [DiagnosticsData](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/diagnosticsdata) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/items) { get; set; } |  |
+| [MailboxesInformation](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/mailboxesinformation) { get; set; } |  |
+| [MoreResultsAvailable](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/moreresultsavailable) { get; set; } |  |
+| [People](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/people) { get; set; } |  |
+| [QueryId](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/queryid) { get; set; } |  |
+| [RefinerTelemetryBatchId](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/refinertelemetrybatchid) { get; set; } |  |
+| [SearchRefiners](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/searchrefiners) { get; set; } |  |
+| [SearchResultsCount](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/searchresultscount) { get; set; } |  |
+| [SearchResultsCountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/searchresultscountspecified) { get; set; } |  |
+| [SearchTerms](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/searchterms) { get; set; } |  |
+| [TotalResultsCount](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/totalresultscount) { get; set; } |  |
+| [TotalResultsCountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultstype/totalresultscountspecified) { get; set; } |  |
 
 ### See Also
 

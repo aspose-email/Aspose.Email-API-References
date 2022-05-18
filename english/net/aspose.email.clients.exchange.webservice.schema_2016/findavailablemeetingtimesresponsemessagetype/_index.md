@@ -22,9 +22,16 @@ public class FindAvailableMeetingTimesResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [EmptySuggestionsHint](emptysuggestionshint) { get; set; } |  |
-| [EmptySuggestionsHintSpecified](emptysuggestionshintspecified) { get; set; } |  |
-| [MeetingTimeCandidates](meetingtimecandidates) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [EmptySuggestionsHint](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimesresponsemessagetype/emptysuggestionshint) { get; set; } |  |
+| [EmptySuggestionsHintSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimesresponsemessagetype/emptysuggestionshintspecified) { get; set; } |  |
+| [MeetingTimeCandidates](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimesresponsemessagetype/meetingtimecandidates) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
 
 ### See Also
 

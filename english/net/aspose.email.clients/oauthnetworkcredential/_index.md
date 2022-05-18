@@ -28,9 +28,9 @@ public class OAuthNetworkCredential : NetworkCredential
 
 | Name | Description |
 | --- | --- |
-| [AccessToken](accesstoken) { get; } | Gets OAuth 2.0 access token. |
-| [AsyncTokenProvider](asynctokenprovider) { get; } | Gets the async token provider. |
-| [TokenProvider](tokenprovider) { get; } | Gets the token provider. |
+| [AccessToken](../../aspose.email.clients/oauthnetworkcredential/accesstoken) { get; } | Gets OAuth 2.0 access token. |
+| [AsyncTokenProvider](../../aspose.email.clients/oauthnetworkcredential/asynctokenprovider) { get; } | Gets the async token provider. |
+| [TokenProvider](../../aspose.email.clients/oauthnetworkcredential/tokenprovider) { get; } | Gets the token provider. |
 
 ### See Also
 

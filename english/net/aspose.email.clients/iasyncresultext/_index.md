@@ -18,8 +18,8 @@ public interface IAsyncResultExt : IAsyncResult
 
 | Name | Description |
 | --- | --- |
-| [ErrorInfo](errorinfo) { get; } | Gets a value that represents operation error. |
-| [IsCanceled](iscanceled) { get; } | Gets a value that indicates whether the asynchronous operation completed synchronously. |
+| [ErrorInfo](../../aspose.email.clients/iasyncresultext/errorinfo) { get; } | Gets a value that represents operation error. |
+| [IsCanceled](../../aspose.email.clients/iasyncresultext/iscanceled) { get; } | Gets a value that indicates whether the asynchronous operation completed synchronously. |
 
 ### See Also
 

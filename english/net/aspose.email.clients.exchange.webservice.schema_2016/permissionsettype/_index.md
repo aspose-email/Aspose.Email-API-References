@@ -22,8 +22,8 @@ public class PermissionSetType
 
 | Name | Description |
 | --- | --- |
-| [Permissions](permissions) { get; set; } |  |
-| [UnknownEntries](unknownentries) { get; set; } |  |
+| [Permissions](../../aspose.email.clients.exchange.webservice.schema_2016/permissionsettype/permissions) { get; set; } |  |
+| [UnknownEntries](../../aspose.email.clients.exchange.webservice.schema_2016/permissionsettype/unknownentries) { get; set; } |  |
 
 ### See Also
 

@@ -25,26 +25,26 @@ public sealed class MailPrinter : IPrintSettingsProvider
 
 | Name | Description |
 | --- | --- |
-| [CultureName](culturename) { get; set; } | Gets or sets the culture name in the format languagecode2-country/regioncode2. |
-| [DpiX](dpix) { get; set; } | Gets or sets the horizontal DPI. |
-| [DpiY](dpiy) { get; set; } | Gets or sets the vertical DPI. |
-| [FormattingFlags](formattingflags) { get; set; } | Gets or sets the printer options. |
-| [MarginBottom](marginbottom) { get; set; } | Gets or sets the bottom margin. |
-| [MarginLeft](marginleft) { get; set; } | Gets or sets the left margin. |
-| [MarginRight](marginright) { get; set; } | Gets or sets the right margin. |
-| [MarginTop](margintop) { get; set; } | Gets or sets the top margin. |
-| [PageHeight](pageheight) { get; set; } | Gets or sets the height of the page. |
-| [PageUnit](pageunit) { get; set; } | Gets or sets the page unit. |
-| [PageWidth](pagewidth) { get; set; } | Gets or sets the width of the page. |
+| [CultureName](../../aspose.email.printing/mailprinter/culturename) { get; set; } | Gets or sets the culture name in the format languagecode2-country/regioncode2. |
+| [DpiX](../../aspose.email.printing/mailprinter/dpix) { get; set; } | Gets or sets the horizontal DPI. |
+| [DpiY](../../aspose.email.printing/mailprinter/dpiy) { get; set; } | Gets or sets the vertical DPI. |
+| [FormattingFlags](../../aspose.email.printing/mailprinter/formattingflags) { get; set; } | Gets or sets the printer options. |
+| [MarginBottom](../../aspose.email.printing/mailprinter/marginbottom) { get; set; } | Gets or sets the bottom margin. |
+| [MarginLeft](../../aspose.email.printing/mailprinter/marginleft) { get; set; } | Gets or sets the left margin. |
+| [MarginRight](../../aspose.email.printing/mailprinter/marginright) { get; set; } | Gets or sets the right margin. |
+| [MarginTop](../../aspose.email.printing/mailprinter/margintop) { get; set; } | Gets or sets the top margin. |
+| [PageHeight](../../aspose.email.printing/mailprinter/pageheight) { get; set; } | Gets or sets the height of the page. |
+| [PageUnit](../../aspose.email.printing/mailprinter/pageunit) { get; set; } | Gets or sets the page unit. |
+| [PageWidth](../../aspose.email.printing/mailprinter/pagewidth) { get; set; } | Gets or sets the width of the page. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Print](print)(MailMessage, Stream, PrintFormat) | Prints the specified message object using the desired format. |
-| [Print](print)(MailMessage, string, PrintFormat) | Prints the specified message object using the desired format. |
-| [Print](print)(MapiMessage, Stream, PrintFormat) | Prints the specified MSG object using the desired format. |
-| [Print](print)(MapiMessage, string, PrintFormat) | Prints the specified MSG object using the desired format. |
+| [Print](../../aspose.email.printing/mailprinter/print)(MailMessage, Stream, PrintFormat) | Prints the specified message object using the desired format. |
+| [Print](../../aspose.email.printing/mailprinter/print)(MailMessage, string, PrintFormat) | Prints the specified message object using the desired format. |
+| [Print](../../aspose.email.printing/mailprinter/print)(MapiMessage, Stream, PrintFormat) | Prints the specified MSG object using the desired format. |
+| [Print](../../aspose.email.printing/mailprinter/print)(MapiMessage, string, PrintFormat) | Prints the specified MSG object using the desired format. |
 
 ### See Also
 

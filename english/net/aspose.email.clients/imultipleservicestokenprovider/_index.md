@@ -18,8 +18,8 @@ public interface IMultipleServicesTokenProvider : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [GetAccessToken](getaccesstoken)(string) | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
-| [GetAccessToken](getaccesstoken)(bool, string) | Gets oAuth access token. |
+| [GetAccessToken](../../aspose.email.clients/imultipleservicestokenprovider/getaccesstoken)(string) | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
+| [GetAccessToken](../../aspose.email.clients/imultipleservicestokenprovider/getaccesstoken)(bool, string) | Gets oAuth access token. |
 
 ### See Also
 

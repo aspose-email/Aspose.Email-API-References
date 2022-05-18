@@ -18,8 +18,8 @@ public class RecurrenceRuleCollection : Collection<RecurrenceRule>
 
 | Name | Description |
 | --- | --- |
-| [Add](add)() | Adds a [`RecurrenceRule`](../recurrencerule) to the collection. |
-| [Add](add)(RecurrenceRule) | Adds a [`RecurrenceRule`](../recurrencerule) to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add)() | Adds a [`RecurrenceRule`](../recurrencerule) to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add)(RecurrenceRule) | Adds a [`RecurrenceRule`](../recurrencerule) to the collection. |
 
 ### Remarks
 

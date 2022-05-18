@@ -25,9 +25,9 @@ public sealed class ExchangeDelegateUser
 
 | Name | Description |
 | --- | --- |
-| [FolderPermissions](folderpermissions) { get; set; } | Gets or sets the folder permissions for the delegate user |
-| [Options](options) { get; set; } | Gets or sets additional options |
-| [UserInfo](userinfo) { get; set; } | Gets or sets the user information |
+| [FolderPermissions](../../aspose.email.clients.exchange.webservice/exchangedelegateuser/folderpermissions) { get; set; } | Gets or sets the folder permissions for the delegate user |
+| [Options](../../aspose.email.clients.exchange.webservice/exchangedelegateuser/options) { get; set; } | Gets or sets additional options |
+| [UserInfo](../../aspose.email.clients.exchange.webservice/exchangedelegateuser/userinfo) { get; set; } | Gets or sets the user information |
 
 ### See Also
 

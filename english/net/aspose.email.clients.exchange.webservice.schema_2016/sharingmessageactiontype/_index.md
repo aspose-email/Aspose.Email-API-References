@@ -22,12 +22,12 @@ public class SharingMessageActionType
 
 | Name | Description |
 | --- | --- |
-| [Action](action) { get; set; } |  |
-| [ActionSpecified](actionspecified) { get; set; } |  |
-| [ActionType](actiontype) { get; set; } |  |
-| [ActionTypeSpecified](actiontypespecified) { get; set; } |  |
-| [Importance](importance) { get; set; } |  |
-| [ImportanceSpecified](importancespecified) { get; set; } |  |
+| [Action](../../aspose.email.clients.exchange.webservice.schema_2016/sharingmessageactiontype/action) { get; set; } |  |
+| [ActionSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/sharingmessageactiontype/actionspecified) { get; set; } |  |
+| [ActionType](../../aspose.email.clients.exchange.webservice.schema_2016/sharingmessageactiontype/actiontype) { get; set; } |  |
+| [ActionTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/sharingmessageactiontype/actiontypespecified) { get; set; } |  |
+| [Importance](../../aspose.email.clients.exchange.webservice.schema_2016/sharingmessageactiontype/importance) { get; set; } |  |
+| [ImportanceSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/sharingmessageactiontype/importancespecified) { get; set; } |  |
 
 ### See Also
 

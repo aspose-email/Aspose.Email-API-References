@@ -22,7 +22,7 @@ public class ApplyConversationActionType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ConversationActions](conversationactions) { get; set; } |  |
+| [ConversationActions](../../aspose.email.clients.exchange.webservice.schema_2016/applyconversationactiontype/conversationactions) { get; set; } |  |
 
 ### See Also
 

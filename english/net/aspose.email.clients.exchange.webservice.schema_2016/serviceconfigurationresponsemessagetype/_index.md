@@ -22,11 +22,18 @@ public class ServiceConfigurationResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [MailTipsConfiguration](mailtipsconfiguration) { get; set; } |  |
-| [PolicyNudgeRulesConfiguration](policynudgerulesconfiguration) { get; set; } |  |
-| [ProtectionRulesConfiguration](protectionrulesconfiguration) { get; set; } |  |
-| [SharePointURLsConfiguration](sharepointurlsconfiguration) { get; set; } |  |
-| [UnifiedMessagingConfiguration](unifiedmessagingconfiguration) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [MailTipsConfiguration](../../aspose.email.clients.exchange.webservice.schema_2016/serviceconfigurationresponsemessagetype/mailtipsconfiguration) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [PolicyNudgeRulesConfiguration](../../aspose.email.clients.exchange.webservice.schema_2016/serviceconfigurationresponsemessagetype/policynudgerulesconfiguration) { get; set; } |  |
+| [ProtectionRulesConfiguration](../../aspose.email.clients.exchange.webservice.schema_2016/serviceconfigurationresponsemessagetype/protectionrulesconfiguration) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
+| [SharePointURLsConfiguration](../../aspose.email.clients.exchange.webservice.schema_2016/serviceconfigurationresponsemessagetype/sharepointurlsconfiguration) { get; set; } |  |
+| [UnifiedMessagingConfiguration](../../aspose.email.clients.exchange.webservice.schema_2016/serviceconfigurationresponsemessagetype/unifiedmessagingconfiguration) { get; set; } |  |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public interface IDeliveryServiceClient : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Send](send)(MailMessage, List&lt;string&gt;, CancellationToken?) | Sends email synchronously |
-| [SendAsync](sendasync)(MailMessage, List&lt;string&gt;, CancellationToken?) | Sends email asynchronously |
+| [Send](../../aspose.email.clients.deliveryservice/ideliveryserviceclient/send)(MailMessage, List&lt;string&gt;, CancellationToken?) | Sends email synchronously |
+| [SendAsync](../../aspose.email.clients.deliveryservice/ideliveryserviceclient/sendasync)(MailMessage, List&lt;string&gt;, CancellationToken?) | Sends email asynchronously |
 
 ### See Also
 

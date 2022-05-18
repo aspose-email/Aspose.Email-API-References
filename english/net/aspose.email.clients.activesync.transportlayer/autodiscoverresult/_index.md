@@ -26,17 +26,17 @@ public class AutodiscoverResult
 
 | Name | Description |
 | --- | --- |
-| [Culture](culture) { get; } | Specifies the client culture, which is used to localize error messages. |
-| [DisplayName](displayname) { get; } | Contains the user's display name in the directory service. |
-| [EMailAddress](emailaddress) { get; } | Contains the SMTP email address of the user and is used to identify the user's mailbox in the network. |
-| [Redirect](redirect) { get; } | Specifies the SMTP address of the requested user. |
-| [Servers](servers) { get; } | Contains array of server settings |
+| [Culture](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/culture) { get; } | Specifies the client culture, which is used to localize error messages. |
+| [DisplayName](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/displayname) { get; } | Contains the user's display name in the directory service. |
+| [EMailAddress](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/emailaddress) { get; } | Contains the SMTP email address of the user and is used to identify the user's mailbox in the network. |
+| [Redirect](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/redirect) { get; } | Specifies the SMTP address of the requested user. |
+| [Servers](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/servers) { get; } | Contains array of server settings |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

@@ -18,9 +18,17 @@ public sealed class EwsMarkAsJunkException : ExchangeException
 
 | Name | Description |
 | --- | --- |
-| [ErrorMessages](errormessages) { get; } | Error messages for failed operations |
-| [FailedMessageIds](failedmessageids) { get; } | The array of message ID which haven't been moved to the junk mail folder. |
-| [MovedMessageIds](movedmessageids) { get; } | The array of message ID which are moved to the junk mail folder. |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Gets extra information aboout error |
+| [ErrorMessages](../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/errormessages) { get; } | Error messages for failed operations |
+| [FailedMessageIds](../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/failedmessageids) { get; } | The array of message ID which haven't been moved to the junk mail folder. |
+| override [Message](../../aspose.email/asposeexception/message) { get; } | Gets a message that describes the current exception. |
+| [MovedMessageIds](../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/movedmessageids) { get; } | The array of message ID which are moved to the junk mail folder. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email/asposeexception/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

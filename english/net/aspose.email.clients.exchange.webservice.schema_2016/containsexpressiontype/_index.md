@@ -22,12 +22,12 @@ public class ContainsExpressionType : SearchExpressionType
 
 | Name | Description |
 | --- | --- |
-| [Constant](constant) { get; set; } |  |
-| [ContainmentComparison](containmentcomparison) { get; set; } |  |
-| [ContainmentComparisonSpecified](containmentcomparisonspecified) { get; set; } |  |
-| [ContainmentMode](containmentmode) { get; set; } |  |
-| [ContainmentModeSpecified](containmentmodespecified) { get; set; } |  |
-| [Item](item) { get; set; } |  |
+| [Constant](../../aspose.email.clients.exchange.webservice.schema_2016/containsexpressiontype/constant) { get; set; } |  |
+| [ContainmentComparison](../../aspose.email.clients.exchange.webservice.schema_2016/containsexpressiontype/containmentcomparison) { get; set; } |  |
+| [ContainmentComparisonSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/containsexpressiontype/containmentcomparisonspecified) { get; set; } |  |
+| [ContainmentMode](../../aspose.email.clients.exchange.webservice.schema_2016/containsexpressiontype/containmentmode) { get; set; } |  |
+| [ContainmentModeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/containsexpressiontype/containmentmodespecified) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/containsexpressiontype/item) { get; set; } |  |
 
 ### See Also
 

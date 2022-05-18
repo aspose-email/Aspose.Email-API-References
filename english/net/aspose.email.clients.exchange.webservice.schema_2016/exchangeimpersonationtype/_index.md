@@ -22,8 +22,8 @@ public class ExchangeImpersonationType : SoapHeader
 
 | Name | Description |
 | --- | --- |
-| [AnyAttr](anyattr) { get; set; } |  |
-| [ConnectingSID](connectingsid) { get; set; } |  |
+| [AnyAttr](../../aspose.email.clients.exchange.webservice.schema_2016/exchangeimpersonationtype/anyattr) { get; set; } |  |
+| [ConnectingSID](../../aspose.email.clients.exchange.webservice.schema_2016/exchangeimpersonationtype/connectingsid) { get; set; } |  |
 
 ### See Also
 

@@ -18,6 +18,12 @@ public class MonthlyRegeneratingPatternType : RegeneratingPatternBaseType
 | --- | --- |
 | [MonthlyRegeneratingPatternType](monthlyregeneratingpatterntype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Interval](../../aspose.email.clients.exchange.webservice.schema_2016/intervalrecurrencepatternbasetype/interval) { get; set; } |  |
+
 ### See Also
 
 * class [RegeneratingPatternBaseType](../regeneratingpatternbasetype)

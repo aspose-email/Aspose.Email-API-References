@@ -18,15 +18,15 @@ public class UnifiedMessagingConfiguration
 
 | Name | Description |
 | --- | --- |
-| [PlayOnPhoneDialString](playonphonedialstring) { get; } | Play On Phone dial string |
-| [PlayOnPhoneEnabled](playonphoneenabled) { get; } | Indicates whether Play On Phone enabled |
-| [UMEnabled](umenabled) { get; } | The UMEnabled determines whether a mailbox is enabled for Unified Messaging. |
+| [PlayOnPhoneDialString](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphonedialstring) { get; } | Play On Phone dial string |
+| [PlayOnPhoneEnabled](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphoneenabled) { get; } | Indicates whether Play On Phone enabled |
+| [UMEnabled](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/umenabled) { get; } | The UMEnabled determines whether a mailbox is enabled for Unified Messaging. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string which represents the object instance. |
+| override [ToString](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/tostring)() | Returns a string which represents the object instance. |
 
 ### See Also
 

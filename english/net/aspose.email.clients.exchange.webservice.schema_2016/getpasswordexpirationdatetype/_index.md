@@ -22,7 +22,7 @@ public class GetPasswordExpirationDateType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [MailboxSmtpAddress](mailboxsmtpaddress) { get; set; } |  |
+| [MailboxSmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/getpasswordexpirationdatetype/mailboxsmtpaddress) { get; set; } |  |
 
 ### See Also
 

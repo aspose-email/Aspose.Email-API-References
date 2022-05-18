@@ -27,9 +27,9 @@ public class FreebusyCalendarInfo
 
 | Name | Description |
 | --- | --- |
-| [Busy](busy) { get; } | List of time ranges during which this calendar should be regarded as busy. |
-| [CalendarId](calendarid) { get; set; } | Calendar Id |
-| [Errors](errors) { get; } | Optional error(s) (if computation for the calendar failed). |
+| [Busy](../../aspose.email.clients.google/freebusycalendarinfo/busy) { get; } | List of time ranges during which this calendar should be regarded as busy. |
+| [CalendarId](../../aspose.email.clients.google/freebusycalendarinfo/calendarid) { get; set; } | Calendar Id |
+| [Errors](../../aspose.email.clients.google/freebusycalendarinfo/errors) { get; } | Optional error(s) (if computation for the calendar failed). |
 
 ### See Also
 

@@ -22,11 +22,11 @@ public class UpdateItemInRecoverableItemsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Attachments](attachments) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
-| [MakeItemImmutable](makeitemimmutable) { get; set; } |  |
-| [MakeItemImmutableSpecified](makeitemimmutablespecified) { get; set; } |  |
-| [Updates](updates) { get; set; } |  |
+| [Attachments](../../aspose.email.clients.exchange.webservice.schema_2016/updateiteminrecoverableitemstype/attachments) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/updateiteminrecoverableitemstype/itemid) { get; set; } |  |
+| [MakeItemImmutable](../../aspose.email.clients.exchange.webservice.schema_2016/updateiteminrecoverableitemstype/makeitemimmutable) { get; set; } |  |
+| [MakeItemImmutableSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/updateiteminrecoverableitemstype/makeitemimmutablespecified) { get; set; } |  |
+| [Updates](../../aspose.email.clients.exchange.webservice.schema_2016/updateiteminrecoverableitemstype/updates) { get; set; } |  |
 
 ### See Also
 

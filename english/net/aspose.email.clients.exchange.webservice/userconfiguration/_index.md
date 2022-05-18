@@ -24,11 +24,11 @@ public sealed class UserConfiguration
 
 | Name | Description |
 | --- | --- |
-| [BinaryData](binarydata) { get; set; } | Gets or sets binary data property content. |
-| [Dictionary](dictionary) { get; } | Gets or sets a set of dictionary property entries. |
-| [Id](id) { get; set; } | Gets or sets the user configuration object item identifier. |
-| [UserConfigurationName](userconfigurationname) { get; set; } | Gets or sets the user configuration object name. |
-| [XmlData](xmldata) { get; set; } | Gets or sets XML data property content. |
+| [BinaryData](../../aspose.email.clients.exchange.webservice/userconfiguration/binarydata) { get; set; } | Gets or sets binary data property content. |
+| [Dictionary](../../aspose.email.clients.exchange.webservice/userconfiguration/dictionary) { get; } | Gets or sets a set of dictionary property entries. |
+| [Id](../../aspose.email.clients.exchange.webservice/userconfiguration/id) { get; set; } | Gets or sets the user configuration object item identifier. |
+| [UserConfigurationName](../../aspose.email.clients.exchange.webservice/userconfiguration/userconfigurationname) { get; set; } | Gets or sets the user configuration object name. |
+| [XmlData](../../aspose.email.clients.exchange.webservice/userconfiguration/xmldata) { get; set; } | Gets or sets XML data property content. |
 
 ### See Also
 

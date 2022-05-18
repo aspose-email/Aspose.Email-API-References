@@ -22,29 +22,29 @@ public class MailTips
 
 | Name | Description |
 | --- | --- |
-| [CustomMailTip](custommailtip) { get; set; } |  |
-| [DeliveryRestricted](deliveryrestricted) { get; set; } |  |
-| [DeliveryRestrictedSpecified](deliveryrestrictedspecified) { get; set; } |  |
-| [ExternalMemberCount](externalmembercount) { get; set; } |  |
-| [ExternalMemberCountSpecified](externalmembercountspecified) { get; set; } |  |
-| [InvalidRecipient](invalidrecipient) { get; set; } |  |
-| [InvalidRecipientSpecified](invalidrecipientspecified) { get; set; } |  |
-| [IsModerated](ismoderated) { get; set; } |  |
-| [IsModeratedSpecified](ismoderatedspecified) { get; set; } |  |
-| [MailboxFull](mailboxfull) { get; set; } |  |
-| [MailboxFullSpecified](mailboxfullspecified) { get; set; } |  |
-| [MaxMessageSize](maxmessagesize) { get; set; } |  |
-| [MaxMessageSizeSpecified](maxmessagesizespecified) { get; set; } |  |
-| [OutOfOffice](outofoffice) { get; set; } |  |
-| [PendingMailTips](pendingmailtips) { get; set; } |  |
-| [PreferAccessibleContent](preferaccessiblecontent) { get; set; } |  |
-| [PreferAccessibleContentSpecified](preferaccessiblecontentspecified) { get; set; } |  |
-| [RecipientAddress](recipientaddress) { get; set; } |  |
-| [RecipientSuggestions](recipientsuggestions) { get; set; } |  |
-| [Scope](scope) { get; set; } |  |
-| [ScopeSpecified](scopespecified) { get; set; } |  |
-| [TotalMemberCount](totalmembercount) { get; set; } |  |
-| [TotalMemberCountSpecified](totalmembercountspecified) { get; set; } |  |
+| [CustomMailTip](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/custommailtip) { get; set; } |  |
+| [DeliveryRestricted](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/deliveryrestricted) { get; set; } |  |
+| [DeliveryRestrictedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/deliveryrestrictedspecified) { get; set; } |  |
+| [ExternalMemberCount](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/externalmembercount) { get; set; } |  |
+| [ExternalMemberCountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/externalmembercountspecified) { get; set; } |  |
+| [InvalidRecipient](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/invalidrecipient) { get; set; } |  |
+| [InvalidRecipientSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/invalidrecipientspecified) { get; set; } |  |
+| [IsModerated](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/ismoderated) { get; set; } |  |
+| [IsModeratedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/ismoderatedspecified) { get; set; } |  |
+| [MailboxFull](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/mailboxfull) { get; set; } |  |
+| [MailboxFullSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/mailboxfullspecified) { get; set; } |  |
+| [MaxMessageSize](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/maxmessagesize) { get; set; } |  |
+| [MaxMessageSizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/maxmessagesizespecified) { get; set; } |  |
+| [OutOfOffice](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/outofoffice) { get; set; } |  |
+| [PendingMailTips](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/pendingmailtips) { get; set; } |  |
+| [PreferAccessibleContent](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/preferaccessiblecontent) { get; set; } |  |
+| [PreferAccessibleContentSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/preferaccessiblecontentspecified) { get; set; } |  |
+| [RecipientAddress](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/recipientaddress) { get; set; } |  |
+| [RecipientSuggestions](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/recipientsuggestions) { get; set; } |  |
+| [Scope](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/scope) { get; set; } |  |
+| [ScopeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/scopespecified) { get; set; } |  |
+| [TotalMemberCount](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/totalmembercount) { get; set; } |  |
+| [TotalMemberCountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailtips/totalmembercountspecified) { get; set; } |  |
 
 ### See Also
 

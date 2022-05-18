@@ -22,10 +22,10 @@ public class MailboxStatisticsItemType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
-| [ItemCount](itemcount) { get; set; } |  |
-| [MailboxId](mailboxid) { get; set; } |  |
-| [Size](size) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxstatisticsitemtype/displayname) { get; set; } |  |
+| [ItemCount](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxstatisticsitemtype/itemcount) { get; set; } |  |
+| [MailboxId](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxstatisticsitemtype/mailboxid) { get; set; } |  |
+| [Size](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxstatisticsitemtype/size) { get; set; } |  |
 
 ### See Also
 

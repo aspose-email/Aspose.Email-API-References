@@ -22,7 +22,7 @@ public class RemoveImGroupType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [GroupId](groupid) { get; set; } |  |
+| [GroupId](../../aspose.email.clients.exchange.webservice.schema_2016/removeimgrouptype/groupid) { get; set; } |  |
 
 ### See Also
 

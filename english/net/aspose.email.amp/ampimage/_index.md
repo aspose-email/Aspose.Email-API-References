@@ -22,17 +22,20 @@ public class AmpImage : AmpComponent
 
 | Name | Description |
 | --- | --- |
-| [Alt](alt) { get; set; } | A string of alternate text, similar to the alt attribute on img. |
-| [IsValid](isvalid) { get; } | Indicates whether this image is valid of AmpImage. |
-| override [RequiredScript](requiredscript) { get; } | Required script that muct be added to head section. |
-| [Src](src) { get; set; } | Similar to the src attribute on the img tag. The value must be a URL that points to a publicly-cacheable image file |
+| [Alt](../../aspose.email.amp/ampimage/alt) { get; set; } | A string of alternate text, similar to the alt attribute on img. |
+| [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP provides a set of common attributes that are extended to many AMP components. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
+| [IsValid](../../aspose.email.amp/ampimage/isvalid) { get; } | Indicates whether this image is valid of AmpImage. |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. If specified, a placeholder element must be a direct child of the AMP element. |
+| override [RequiredScript](../../aspose.email.amp/ampimage/requiredscript) { get; } | Required script that muct be added to head section. |
+| [Src](../../aspose.email.amp/ampimage/src) { get; set; } | Similar to the src attribute on the img tag. The value must be a URL that points to a publicly-cacheable image file |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToAmpHtml](toamphtml)() | Represents amp html version of component. |
-| override [ToHtml](tohtml)() | Represents html version of component. |
+| override [ToAmpHtml](../../aspose.email.amp/ampimage/toamphtml)() | Represents amp html version of component. |
+| override [ToHtml](../../aspose.email.amp/ampimage/tohtml)() | Represents html version of component. |
 
 ### See Also
 

@@ -22,10 +22,10 @@ public class SearchRefinerItemType
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; set; } |  |
-| [Name](name) { get; set; } |  |
-| [Token](token) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Count](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefineritemtype/count) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefineritemtype/name) { get; set; } |  |
+| [Token](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefineritemtype/token) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefineritemtype/value) { get; set; } |  |
 
 ### See Also
 

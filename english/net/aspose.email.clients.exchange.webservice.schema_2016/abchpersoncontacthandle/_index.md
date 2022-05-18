@@ -22,9 +22,9 @@ public class AbchPersonContactHandle
 
 | Name | Description |
 | --- | --- |
-| [AccountName](accountname) { get; set; } |  |
-| [ObjectId](objectid) { get; set; } |  |
-| [SourceId](sourceid) { get; set; } |  |
+| [AccountName](../../aspose.email.clients.exchange.webservice.schema_2016/abchpersoncontacthandle/accountname) { get; set; } |  |
+| [ObjectId](../../aspose.email.clients.exchange.webservice.schema_2016/abchpersoncontacthandle/objectid) { get; set; } |  |
+| [SourceId](../../aspose.email.clients.exchange.webservice.schema_2016/abchpersoncontacthandle/sourceid) { get; set; } |  |
 
 ### See Also
 

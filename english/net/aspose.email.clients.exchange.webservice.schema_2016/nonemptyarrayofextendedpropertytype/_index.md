@@ -22,7 +22,7 @@ public class NonEmptyArrayOfExtendedPropertyType
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/nonemptyarrayofextendedpropertytype/items) { get; set; } |  |
 
 ### See Also
 

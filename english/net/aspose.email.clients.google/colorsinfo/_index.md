@@ -25,9 +25,9 @@ public class ColorsInfo
 
 | Name | Description |
 | --- | --- |
-| [Calendar](calendar) { get; } | Palette of calendar colors, mapping from the color ID to its definition. An 'calendarListEntry' resource refers to one of these color IDs in its 'color' field. |
-| [Event](event) { get; } | Palette of event colors, mapping from the color ID to its definition. An 'event' resource may refer to one of these color IDs in its 'color' field. |
-| [Updated](updated) { get; set; } | Last modification time of the color palette. |
+| [Calendar](../../aspose.email.clients.google/colorsinfo/calendar) { get; } | Palette of calendar colors, mapping from the color ID to its definition. An 'calendarListEntry' resource refers to one of these color IDs in its 'color' field. |
+| [Event](../../aspose.email.clients.google/colorsinfo/event) { get; } | Palette of event colors, mapping from the color ID to its definition. An 'event' resource may refer to one of these color IDs in its 'color' field. |
+| [Updated](../../aspose.email.clients.google/colorsinfo/updated) { get; set; } | Last modification time of the color palette. |
 
 ### See Also
 

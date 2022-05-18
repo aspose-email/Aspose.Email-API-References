@@ -16,7 +16,7 @@ public class UpdateUserConfigurationCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/updateuserconfigurationcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

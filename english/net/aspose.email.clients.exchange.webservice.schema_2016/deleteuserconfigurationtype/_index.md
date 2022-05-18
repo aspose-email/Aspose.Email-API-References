@@ -22,7 +22,7 @@ public class DeleteUserConfigurationType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [UserConfigurationName](userconfigurationname) { get; set; } |  |
+| [UserConfigurationName](../../aspose.email.clients.exchange.webservice.schema_2016/deleteuserconfigurationtype/userconfigurationname) { get; set; } |  |
 
 ### See Also
 

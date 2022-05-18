@@ -25,18 +25,18 @@ public sealed class MessageObject : IMessageObjectPropertyContainer
 
 | Name | Description |
 | --- | --- |
-| [Attachments](attachments) { get; } | Gets the attachments of the [`MessageObject`](../messageobject). |
-| [Codepage](codepage) { get; } | Gets the codepage used to encode/decode string properties in case PT_STRING8 type for them is used. |
-| [Properties](properties) { get; } | Gets the properties of the [`MessageObject`](../messageobject). |
-| [Recipients](recipients) { get; } | Gets the recipients of the [`MessageObject`](../messageobject). |
+| [Attachments](../../aspose.email.mapi.msg/messageobject/attachments) { get; } | Gets the attachments of the [`MessageObject`](../messageobject). |
+| [Codepage](../../aspose.email.mapi.msg/messageobject/codepage) { get; } | Gets the codepage used to encode/decode string properties in case PT_STRING8 type for them is used. |
+| [Properties](../../aspose.email.mapi.msg/messageobject/properties) { get; } | Gets the properties of the [`MessageObject`](../messageobject). |
+| [Recipients](../../aspose.email.mapi.msg/messageobject/recipients) { get; } | Gets the recipients of the [`MessageObject`](../messageobject). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetIdForNamedProperty](getidfornamedproperty)() | Gets the id to be used for named property, named properties are special properties and should have their ids in range [0x8000,0xfffe] aligned starting from 0x8000 sequentally. Use this method to find the available id cause it could be hard to calculate it yourself. |
-| [Save](save)(Stream, MessageObjectSaveFormat) | Saves the current message object to the specified stream. |
-| [Save](save)(string, MessageObjectSaveFormat) | Saves the current message object to the specified file. |
+| [GetIdForNamedProperty](../../aspose.email.mapi.msg/messageobject/getidfornamedproperty)() | Gets the id to be used for named property, named properties are special properties and should have their ids in range [0x8000,0xfffe] aligned starting from 0x8000 sequentally. Use this method to find the available id cause it could be hard to calculate it yourself. |
+| [Save](../../aspose.email.mapi.msg/messageobject/save)(Stream, MessageObjectSaveFormat) | Saves the current message object to the specified stream. |
+| [Save](../../aspose.email.mapi.msg/messageobject/save)(string, MessageObjectSaveFormat) | Saves the current message object to the specified file. |
 
 ### See Also
 

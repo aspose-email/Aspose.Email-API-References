@@ -24,14 +24,16 @@ public abstract class AutodiscoverResponseCollection<TResponse> : AutodiscoverRe
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of responses in the collection. |
-| [Item](item) { get; } | Gets the response at the specified index. |
+| [Count](../../aspose.email.clients.exchange/autodiscoverresponsecollection`1/count) { get; } | Gets the number of responses in the collection. |
+| [ErrorCode](../../aspose.email.clients.exchange/autodiscoverresponse/errorcode) { get; } | Gets the error code that was returned by the service. |
+| [ErrorMessage](../../aspose.email.clients.exchange/autodiscoverresponse/errormessage) { get; } | Gets the error message that was returned by the service. |
+| [Item](../../aspose.email.clients.exchange/autodiscoverresponsecollection`1/item) { get; } | Gets the response at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Gets an enumerator that iterates through the elements of the collection. |
+| [GetEnumerator](../../aspose.email.clients.exchange/autodiscoverresponsecollection`1/getenumerator)() | Gets an enumerator that iterates through the elements of the collection. |
 
 ### See Also
 

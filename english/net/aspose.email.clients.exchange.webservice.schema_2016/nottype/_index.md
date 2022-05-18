@@ -22,7 +22,7 @@ public class NotType : SearchExpressionType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/nottype/item) { get; set; } |  |
 
 ### See Also
 

@@ -24,9 +24,9 @@ public sealed class GetMailTipsOptions
 
 | Name | Description |
 | --- | --- |
-| [MailTipsRequested](mailtipsrequested) { get; set; } | Gets or sets the types of mail tips requested from the service. |
-| [Recipients](recipients) { get; set; } | Gets or sets a list of recipients to check for mail tips. |
-| [SendingAs](sendingas) { get; set; } | Gets or sets an e-mail address that a user is trying to send as. |
+| [MailTipsRequested](../../aspose.email.clients.exchange.webservice/getmailtipsoptions/mailtipsrequested) { get; set; } | Gets or sets the types of mail tips requested from the service. |
+| [Recipients](../../aspose.email.clients.exchange.webservice/getmailtipsoptions/recipients) { get; set; } | Gets or sets a list of recipients to check for mail tips. |
+| [SendingAs](../../aspose.email.clients.exchange.webservice/getmailtipsoptions/sendingas) { get; set; } | Gets or sets an e-mail address that a user is trying to send as. |
 
 ### See Also
 

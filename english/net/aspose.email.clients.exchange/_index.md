@@ -19,12 +19,12 @@ The **Aspose.Email.Clients.Exchange** namespace provides classes for Microsofrt 
 | [AutodiscoverResponseCollection&lt;TResponse&gt;](./autodiscoverresponsecollection-1) | Represents a collection of responses to a call to the Autodiscover service. |
 | [AutodiscoverService](./autodiscoverservice) | Represents a binding to the Exchange Autodiscover Service. |
 | [AutodiscoverServiceBase](./autodiscoverservicebase) | Represents an abstract binding to an Autodiscover Service. |
-| [ComparisonFieldAdapter](./comparisonfieldadapter) | Implements adapter for using [`ComparisonField`](aspose.email.tools.search/comparisonfield) according to their type |
+| [ComparisonFieldAdapter](./comparisonfieldadapter) | Implements adapter for using [`ComparisonField`](../aspose.email.tools.search/comparisonfield) according to their type |
 | [ContactQueryBuilder](./contactquerybuilder) | Represents the builder of search expression that used by Exchange protocol. |
-| [ExchangeAdvancedSyntaxMailQuery](./exchangeadvancedsyntaxmailquery) | Represents the search criteria, that are used to match several message properties in the mailbox. Implements an Advanced Query Syntax (AQS) search that is used by EWS. AQS described at https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange. |
-| [ExchangeAdvancedSyntaxQueryBuilder](./exchangeadvancedsyntaxquerybuilder) | Represents the builder of search expression based on the Advanced Query Syntax (AQS) that used by Exchange protocol. AQS is an alternative to search filters for expressing search criteria. |
+| [ExchangeAdvancedSyntaxMailQuery](./exchangeadvancedsyntaxmailquery) | Represents the search criteria, that are used to match several message properties in the mailbox. Implements an Advanced Query Syntax (../AQS) search that is used by EWS. AQS described at https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange. |
+| [ExchangeAdvancedSyntaxQueryBuilder](./exchangeadvancedsyntaxquerybuilder) | Represents the builder of search expression based on the Advanced Query Syntax (../AQS) that used by Exchange protocol. AQS is an alternative to search filters for expressing search criteria. |
 | [ExchangeAttachmentInfo](./exchangeattachmentinfo) | Represents an attachment information transmitted over exchange protocols |
-| [ExchangeAttachmentInfoCollection](./exchangeattachmentinfocollection) | Represents the collection of [`ExchangeAttachmentInfo`](aspose.email.clients.exchange/exchangeattachmentinfo) |
+| [ExchangeAttachmentInfoCollection](./exchangeattachmentinfocollection) | Represents the collection of [`ExchangeAttachmentInfo`](../aspose.email.clients.exchange/exchangeattachmentinfo) |
 | [ExchangeBasePermission](./exchangebasepermission) | Provides abstract base class for permissions to folders on Exchange Server. |
 | [ExchangeCalendarPermission](./exchangecalendarpermission) | Represents a permission on a calendar folder. |
 | [ExchangeClientBase](./exchangeclientbase) | Provides the abstract base class to MS Exchange Server access. |
@@ -33,13 +33,13 @@ The **Aspose.Email.Clients.Exchange** namespace provides classes for Microsofrt 
 | [ExchangeFolderInfoCollection](./exchangefolderinfocollection) | Represents a collection of ExchangeMessageInfo objects. |
 | [ExchangeFolderPageInfo](./exchangefolderpageinfo) | Contains information about retrieved page when paging methods are used. |
 | [ExchangeFolderPermission](./exchangefolderpermission) | Represents a permission on a folder. |
-| [ExchangeFolderPermissionCollection](./exchangefolderpermissioncollection) | Represents the collection of [`ExchangeFolderPermission`](aspose.email.clients.exchange/exchangefolderpermission) |
+| [ExchangeFolderPermissionCollection](./exchangefolderpermissioncollection) | Represents the collection of [`ExchangeFolderPermission`](../aspose.email.clients.exchange/exchangefolderpermission) |
 | [ExchangeFolderUserInfo](./exchangefolderuserinfo) | Represents a user who has folder access permissions |
 | [ExchangeMailboxInfo](./exchangemailboxinfo) | Represents the mail box information of an exchange server. |
 | [ExchangeMessageInfo](./exchangemessageinfo) | The ExchangeMessageInfo represents the E-Mail message info fetched from the Exchange Store. |
 | [ExchangeMessageInfoCollection](./exchangemessageinfocollection) | Represents a collection of ExchangeMessageInfo objects. |
 | [ExchangeMessagePageInfo](./exchangemessagepageinfo) | Contains information about retrieved page when paging methods are used. |
-| [ExchangePermissionCollection](./exchangepermissioncollection) | Represents the collection of [`ExchangeBasePermission`](aspose.email.clients.exchange/exchangebasepermission) |
+| [ExchangePermissionCollection](./exchangepermissioncollection) | Represents the collection of [`ExchangeBasePermission`](../aspose.email.clients.exchange/exchangebasepermission) |
 | [ExchangeQueryBuilder](./exchangequerybuilder) | Represents the builder of search expression based on search filters that used by Exchange protocol. |
 | [ExtendedPropertiesComparisonField](./extendedpropertiescomparisonfield) | Defines dictionary with pairs of property descriptors and comparison field to search by extended properties |
 | [GetUserSettingsResponse](./getusersettingsresponse) | Represents the response to a GetUsersSettings call for an individual user. |

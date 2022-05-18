@@ -18,16 +18,16 @@ public abstract class ResponseMessageBuilder
 
 | Name | Description |
 | --- | --- |
-| [AdditionMode](additionmode) { get; set; } | Gets or sets the format of response message. |
-| [ResponseText](responsetext) { get; set; } | Gets or sets the body of response message. |
-| [Sender](sender) { get; set; } | Gets or sets the addres from which the response message will be sent. |
+| [AdditionMode](../../aspose.email.tools/responsemessagebuilder/additionmode) { get; set; } | Gets or sets the format of response message. |
+| [ResponseText](../../aspose.email.tools/responsemessagebuilder/responsetext) { get; set; } | Gets or sets the body of response message. |
+| [Sender](../../aspose.email.tools/responsemessagebuilder/sender) { get; set; } | Gets or sets the addres from which the response message will be sent. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| abstract [BuildResponse](buildresponse)(MailMessage) | Builds the forwarding and replying messages. |
-| abstract [BuildResponse](buildresponse)(MapiMessage) | Builds the forwarding and replying messages. |
+| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse)(MailMessage) | Builds the forwarding and replying messages. |
+| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse)(MapiMessage) | Builds the forwarding and replying messages. |
 
 ### See Also
 

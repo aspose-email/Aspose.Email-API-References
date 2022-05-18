@@ -22,8 +22,8 @@ public class ItemIdType : BaseItemIdType
 
 | Name | Description |
 | --- | --- |
-| [ChangeKey](changekey) { get; set; } |  |
-| [Id](id) { get; set; } |  |
+| [ChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/itemidtype/changekey) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/itemidtype/id) { get; set; } |  |
 
 ### See Also
 

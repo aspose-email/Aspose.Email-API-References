@@ -22,7 +22,7 @@ public class DelveSearchScopeType
 
 | Name | Description |
 | --- | --- |
-| [DelveView](delveview) { get; set; } |  |
+| [DelveView](../../aspose.email.clients.exchange.webservice.schema_2016/delvesearchscopetype/delveview) { get; set; } |  |
 
 ### See Also
 

@@ -24,14 +24,14 @@ public sealed class FileDropTargetManager : IDropTarget
 
 | Name | Description |
 | --- | --- |
-| [AllowDrop](allowdrop) { get; set; } | The AllowDrop property gets or sets permission for drag and drop operations. |
+| [AllowDrop](../../aspose.email.windows.forms/filedroptargetmanager/allowdrop) { get; set; } | The AllowDrop property gets or sets permission for drag and drop operations. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [EnsureRegistered](ensureregistered)(IDropTarget) | Ensures the registered. |
-| [EnsureUnRegistered](ensureunregistered)(IDropTarget) | Ensures the un registered. |
+| [EnsureRegistered](../../aspose.email.windows.forms/filedroptargetmanager/ensureregistered)(IDropTarget) | Ensures the registered. |
+| [EnsureUnRegistered](../../aspose.email.windows.forms/filedroptargetmanager/ensureunregistered)(IDropTarget) | Ensures the un registered. |
 
 ### See Also
 

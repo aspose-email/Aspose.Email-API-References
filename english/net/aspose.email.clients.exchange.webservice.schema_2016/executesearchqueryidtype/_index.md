@@ -22,7 +22,7 @@ public class ExecuteSearchQueryIdType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/executesearchqueryidtype/id) { get; set; } |  |
 
 ### See Also
 

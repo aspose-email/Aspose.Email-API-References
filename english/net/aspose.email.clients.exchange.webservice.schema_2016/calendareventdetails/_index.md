@@ -22,14 +22,14 @@ public class CalendarEventDetails
 
 | Name | Description |
 | --- | --- |
-| [ID](id) { get; set; } |  |
-| [IsException](isexception) { get; set; } |  |
-| [IsMeeting](ismeeting) { get; set; } |  |
-| [IsPrivate](isprivate) { get; set; } |  |
-| [IsRecurring](isrecurring) { get; set; } |  |
-| [IsReminderSet](isreminderset) { get; set; } |  |
-| [Location](location) { get; set; } |  |
-| [Subject](subject) { get; set; } |  |
+| [ID](../../aspose.email.clients.exchange.webservice.schema_2016/calendareventdetails/id) { get; set; } |  |
+| [IsException](../../aspose.email.clients.exchange.webservice.schema_2016/calendareventdetails/isexception) { get; set; } |  |
+| [IsMeeting](../../aspose.email.clients.exchange.webservice.schema_2016/calendareventdetails/ismeeting) { get; set; } |  |
+| [IsPrivate](../../aspose.email.clients.exchange.webservice.schema_2016/calendareventdetails/isprivate) { get; set; } |  |
+| [IsRecurring](../../aspose.email.clients.exchange.webservice.schema_2016/calendareventdetails/isrecurring) { get; set; } |  |
+| [IsReminderSet](../../aspose.email.clients.exchange.webservice.schema_2016/calendareventdetails/isreminderset) { get; set; } |  |
+| [Location](../../aspose.email.clients.exchange.webservice.schema_2016/calendareventdetails/location) { get; set; } |  |
+| [Subject](../../aspose.email.clients.exchange.webservice.schema_2016/calendareventdetails/subject) { get; set; } |  |
 
 ### See Also
 

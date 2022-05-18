@@ -36,29 +36,29 @@ public class LogEntry
 
 | Name | Description |
 | --- | --- |
-| [AppDomainName](appdomainname) { get; set; } | The AppDomain in which we are running |
-| [BinaryDataMessage](binarydatamessage) { get; set; } | Binary message body to log. |
-| [Category](category) { get; set; } | Category name used to route the log entry to a one or more sinks. |
-| [ContextualProperties](contextualproperties) { get; set; } | Dictionary of key/value pairs to record. |
-| [ErrorMessages](errormessages) { get; } | Gets the error message with the [`LogEntry`](../logentry) |
-| [EventId](eventid) { get; set; } | Event number or identifier. |
-| [InnerException](innerexception) { get; set; } | Gets or sets the inner exception object. |
-| [MachineName](machinename) { get; set; } | Name of the computer. |
-| [Message](message) { get; set; } | Message body to log. Value from ToString() method from message object. |
-| [MessageEncoding](messageencoding) { get; set; } | Encoding for binary message body |
-| [SequenceId](sequenceid) { get; } | The unique identifier of log event which is automatically generated and monotonously increasing. |
-| [Severity](severity) { get; set; } | Log entry severity as a [`Severity`](./severity) enumeration. (Unspecified, Information, Warning or Error). |
-| [ThreadName](threadname) { get; set; } | The name of the .NET thread. |
-| [TimeStamp](timestamp) { get; set; } | Date and time of the log entry message. |
-| [Title](title) { get; set; } | Additional description of the log entry message. |
+| [AppDomainName](../../aspose.email.tools.logging/logentry/appdomainname) { get; set; } | The AppDomain in which we are running |
+| [BinaryDataMessage](../../aspose.email.tools.logging/logentry/binarydatamessage) { get; set; } | Binary message body to log. |
+| [Category](../../aspose.email.tools.logging/logentry/category) { get; set; } | Category name used to route the log entry to a one or more sinks. |
+| [ContextualProperties](../../aspose.email.tools.logging/logentry/contextualproperties) { get; set; } | Dictionary of key/value pairs to record. |
+| [ErrorMessages](../../aspose.email.tools.logging/logentry/errormessages) { get; } | Gets the error message with the [`LogEntry`](../logentry) |
+| [EventId](../../aspose.email.tools.logging/logentry/eventid) { get; set; } | Event number or identifier. |
+| [InnerException](../../aspose.email.tools.logging/logentry/innerexception) { get; set; } | Gets or sets the inner exception object. |
+| [MachineName](../../aspose.email.tools.logging/logentry/machinename) { get; set; } | Name of the computer. |
+| [Message](../../aspose.email.tools.logging/logentry/message) { get; set; } | Message body to log. Value from ToString() method from message object. |
+| [MessageEncoding](../../aspose.email.tools.logging/logentry/messageencoding) { get; set; } | Encoding for binary message body |
+| [SequenceId](../../aspose.email.tools.logging/logentry/sequenceid) { get; } | The unique identifier of log event which is automatically generated and monotonously increasing. |
+| [Severity](../../aspose.email.tools.logging/logentry/severity) { get; set; } | Log entry severity as a [`Severity`](./severity) enumeration. (Unspecified, Information, Warning or Error). |
+| [ThreadName](../../aspose.email.tools.logging/logentry/threadname) { get; set; } | The name of the .NET thread. |
+| [TimeStamp](../../aspose.email.tools.logging/logentry/timestamp) { get; set; } | Date and time of the log entry message. |
+| [Title](../../aspose.email.tools.logging/logentry/title) { get; set; } | Additional description of the log entry message. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [AddErrorMessage](adderrormessage)(string) | Add an error or warning message to the start of the messages string builder. Used by the distributor to record problems. |
-| [Clone](clone)() | Creates a new [`LogEntry`](../logentry) that is a copy of the current instance. |
-| override [ToString](tostring)() |  |
+| virtual [AddErrorMessage](../../aspose.email.tools.logging/logentry/adderrormessage)(string) | Add an error or warning message to the start of the messages string builder. Used by the distributor to record problems. |
+| [Clone](../../aspose.email.tools.logging/logentry/clone)() | Creates a new [`LogEntry`](../logentry) that is a copy of the current instance. |
+| override [ToString](../../aspose.email.tools.logging/logentry/tostring)() |  |
 
 ### See Also
 

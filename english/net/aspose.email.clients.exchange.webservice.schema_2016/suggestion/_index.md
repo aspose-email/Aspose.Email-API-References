@@ -22,10 +22,10 @@ public class Suggestion
 
 | Name | Description |
 | --- | --- |
-| [AttendeeConflictDataArray](attendeeconflictdataarray) { get; set; } |  |
-| [IsWorkTime](isworktime) { get; set; } |  |
-| [MeetingTime](meetingtime) { get; set; } |  |
-| [SuggestionQuality](suggestionquality) { get; set; } |  |
+| [AttendeeConflictDataArray](../../aspose.email.clients.exchange.webservice.schema_2016/suggestion/attendeeconflictdataarray) { get; set; } |  |
+| [IsWorkTime](../../aspose.email.clients.exchange.webservice.schema_2016/suggestion/isworktime) { get; set; } |  |
+| [MeetingTime](../../aspose.email.clients.exchange.webservice.schema_2016/suggestion/meetingtime) { get; set; } |  |
+| [SuggestionQuality](../../aspose.email.clients.exchange.webservice.schema_2016/suggestion/suggestionquality) { get; set; } |  |
 
 ### See Also
 

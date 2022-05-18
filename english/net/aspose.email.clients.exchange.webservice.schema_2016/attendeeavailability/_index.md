@@ -22,8 +22,8 @@ public class AttendeeAvailability
 
 | Name | Description |
 | --- | --- |
-| [Availability](availability) { get; set; } |  |
-| [EmailAddress](emailaddress) { get; set; } |  |
+| [Availability](../../aspose.email.clients.exchange.webservice.schema_2016/attendeeavailability/availability) { get; set; } |  |
+| [EmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/attendeeavailability/emailaddress) { get; set; } |  |
 
 ### See Also
 

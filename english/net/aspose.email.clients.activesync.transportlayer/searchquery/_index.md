@@ -24,8 +24,8 @@ public class SearchQuery
 
 | Name | Description |
 | --- | --- |
-| [And](and) { get; set; } | Specifies the keywords to use for matching the entries in the store that is being searched. |
-| [EqualTo](equalto) { get; set; } | Specifies a property and a value that are compared for a "Equal To" condition during a search. |
+| [And](../../aspose.email.clients.activesync.transportlayer/searchquery/and) { get; set; } | Specifies the keywords to use for matching the entries in the store that is being searched. |
+| [EqualTo](../../aspose.email.clients.activesync.transportlayer/searchquery/equalto) { get; set; } | Specifies a property and a value that are compared for a "Equal To" condition during a search. |
 
 ### See Also
 

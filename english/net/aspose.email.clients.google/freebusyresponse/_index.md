@@ -26,10 +26,10 @@ public class FreebusyResponse
 
 | Name | Description |
 | --- | --- |
-| [Calendars](calendars) { get; } | List of free/busy information for calendars. |
-| [Groups](groups) { get; } | Expansion of groups. |
-| [TimeMax](timemax) { get; set; } | The end of the interval for the query. |
-| [TimeMin](timemin) { get; set; } | The start of the interval for the query. |
+| [Calendars](../../aspose.email.clients.google/freebusyresponse/calendars) { get; } | List of free/busy information for calendars. |
+| [Groups](../../aspose.email.clients.google/freebusyresponse/groups) { get; } | Expansion of groups. |
+| [TimeMax](../../aspose.email.clients.google/freebusyresponse/timemax) { get; set; } | The end of the interval for the query. |
+| [TimeMin](../../aspose.email.clients.google/freebusyresponse/timemin) { get; set; } | The start of the interval for the query. |
 
 ### See Also
 

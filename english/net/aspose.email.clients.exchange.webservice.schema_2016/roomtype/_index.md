@@ -18,6 +18,12 @@ public class RoomType : DirectoryEntryType
 | --- | --- |
 | [RoomType](roomtype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/directoryentrytype/id) { get; set; } |  |
+
 ### See Also
 
 * class [DirectoryEntryType](../directoryentrytype)

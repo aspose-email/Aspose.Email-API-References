@@ -22,9 +22,9 @@ public class NonIndexableItemStatisticType
 
 | Name | Description |
 | --- | --- |
-| [ErrorMessage](errormessage) { get; set; } |  |
-| [ItemCount](itemcount) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
+| [ErrorMessage](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemstatistictype/errormessage) { get; set; } |  |
+| [ItemCount](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemstatistictype/itemcount) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemstatistictype/mailbox) { get; set; } |  |
 
 ### See Also
 

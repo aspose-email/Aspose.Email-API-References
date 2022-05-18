@@ -26,9 +26,9 @@ public class ClassificationOverride
 
 | Name | Description |
 | --- | --- |
-| [ClassifyAs](classifyas) { get; set; } | Gets or sets value which specifies how incoming messages from a specific sender should always be classified as. |
-| [Id](id) { get; set; } | Gets or sets unique identifier of the override. |
-| [Sender](sender) { get; set; } | Gets or sets email address information of the sender for whom the override is created. |
+| [ClassifyAs](../../aspose.email.clients.graph/classificationoverride/classifyas) { get; set; } | Gets or sets value which specifies how incoming messages from a specific sender should always be classified as. |
+| [Id](../../aspose.email.clients.graph/classificationoverride/id) { get; set; } | Gets or sets unique identifier of the override. |
+| [Sender](../../aspose.email.clients.graph/classificationoverride/sender) { get; set; } | Gets or sets email address information of the sender for whom the override is created. |
 
 ### See Also
 

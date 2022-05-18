@@ -22,7 +22,7 @@ public class SetRuleOperationType : RuleOperationType
 
 | Name | Description |
 | --- | --- |
-| [Rule](rule) { get; set; } |  |
+| [Rule](../../aspose.email.clients.exchange.webservice.schema_2016/setruleoperationtype/rule) { get; set; } |  |
 
 ### See Also
 

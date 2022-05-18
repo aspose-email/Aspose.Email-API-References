@@ -22,8 +22,8 @@ public class GetStreamingEventsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ConnectionTimeout](connectiontimeout) { get; set; } |  |
-| [SubscriptionIds](subscriptionids) { get; set; } |  |
+| [ConnectionTimeout](../../aspose.email.clients.exchange.webservice.schema_2016/getstreamingeventstype/connectiontimeout) { get; set; } |  |
+| [SubscriptionIds](../../aspose.email.clients.exchange.webservice.schema_2016/getstreamingeventstype/subscriptionids) { get; set; } |  |
 
 ### See Also
 

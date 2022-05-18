@@ -24,15 +24,15 @@ public sealed class VCardExplanatoryInfo
 
 | Name | Description |
 | --- | --- |
-| [Categories](categories) { get; set; } | Gets or sets a categories information |
-| [Note](note) { get; set; } | Gets or sets a comments |
-| [ProdId](prodid) { get; } | Gets an id of product that created a vCard |
-| [Revision](revision) { get; set; } | Gets or sets a revision time |
-| [SortString](sortstring) { get; set; } | Gets or sets a sort string |
-| [Sound](sound) { get; set; } | Gets or sets a sound |
-| [Uid](uid) { get; set; } | Gets or sets a unique identifier |
-| [Urls](urls) { get; set; } | Gets or sets a urls |
-| [Version](version) { get; } | Gets a vCard version |
+| [Categories](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/categories) { get; set; } | Gets or sets a categories information |
+| [Note](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/note) { get; set; } | Gets or sets a comments |
+| [ProdId](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/prodid) { get; } | Gets an id of product that created a vCard |
+| [Revision](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/revision) { get; set; } | Gets or sets a revision time |
+| [SortString](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sortstring) { get; set; } | Gets or sets a sort string |
+| [Sound](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sound) { get; set; } | Gets or sets a sound |
+| [Uid](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/uid) { get; set; } | Gets or sets a unique identifier |
+| [Urls](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/urls) { get; set; } | Gets or sets a urls |
+| [Version](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/version) { get; } | Gets a vCard version |
 
 ### See Also
 

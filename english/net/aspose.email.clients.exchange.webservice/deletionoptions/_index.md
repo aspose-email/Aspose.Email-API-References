@@ -25,10 +25,10 @@ public class DeletionOptions
 
 | Name | Description |
 | --- | --- |
-| static [Default](default) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings uses by default |
-| static [DeletePermanently](deletepermanently) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings for permanent deletion |
-| static [MoveToDeletedItems](movetodeleteditems) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings for moving to deleted items |
-| [Type](type) { get; set; } | Type of deletion |
+| static [Default](../../aspose.email.clients.exchange.webservice/deletionoptions/default) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings uses by default |
+| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/deletionoptions/deletepermanently) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings for permanent deletion |
+| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/deletionoptions/movetodeleteditems) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings for moving to deleted items |
+| [Type](../../aspose.email.clients.exchange.webservice/deletionoptions/type) { get; set; } | Type of deletion |
 
 ### See Also
 

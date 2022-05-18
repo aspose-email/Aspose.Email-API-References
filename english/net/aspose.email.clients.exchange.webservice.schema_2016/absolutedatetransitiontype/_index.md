@@ -22,7 +22,8 @@ public class AbsoluteDateTransitionType : TransitionType
 
 | Name | Description |
 | --- | --- |
-| [DateTime](datetime) { get; set; } |  |
+| [DateTime](../../aspose.email.clients.exchange.webservice.schema_2016/absolutedatetransitiontype/datetime) { get; set; } |  |
+| [To](../../aspose.email.clients.exchange.webservice.schema_2016/transitiontype/to) { get; set; } |  |
 
 ### See Also
 

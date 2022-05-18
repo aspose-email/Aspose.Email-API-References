@@ -24,10 +24,10 @@ public class PageSettings
 
 | Name | Description |
 | --- | --- |
-| [AscendingSorting](ascendingsorting) { get; set; } | Gets or sets value which indicates if client uses ascending or descending sorting. Set true if you want to use ascending sorting, otherwise set false. |
-| [Connection](connection) { get; set; } | Connection to a server. |
-| [FolderName](foldername) { get; set; } | The messages folder |
-| [IgnoreExceptions](ignoreexceptions) { get; set; } | If the property is set to true, exceptions that occur during message processing will be caught and placed in the ImapPageInfo.Items.Exceptions. |
+| [AscendingSorting](../../aspose.email.clients.imap/pagesettings/ascendingsorting) { get; set; } | Gets or sets value which indicates if client uses ascending or descending sorting. Set true if you want to use ascending sorting, otherwise set false. |
+| [Connection](../../aspose.email.clients.imap/pagesettings/connection) { get; set; } | Connection to a server. |
+| [FolderName](../../aspose.email.clients.imap/pagesettings/foldername) { get; set; } | The messages folder |
+| [IgnoreExceptions](../../aspose.email.clients.imap/pagesettings/ignoreexceptions) { get; set; } | If the property is set to true, exceptions that occur during message processing will be caught and placed in the ImapPageInfo.Items.Exceptions. |
 
 ### See Also
 

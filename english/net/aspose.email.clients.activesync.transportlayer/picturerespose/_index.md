@@ -24,8 +24,8 @@ public class PictureRespose
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Contains the binary data of the contact photo. The Data is not supported when the protocol version is 12.1 or 14.0. |
-| [Status](status) { get; set; } | Indicates the result of the ActiveSync command request. |
+| [Data](../../aspose.email.clients.activesync.transportlayer/picturerespose/data) { get; set; } | Contains the binary data of the contact photo. The Data is not supported when the protocol version is 12.1 or 14.0. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/picturerespose/status) { get; set; } | Indicates the result of the ActiveSync command request. |
 
 ### See Also
 

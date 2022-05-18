@@ -22,10 +22,10 @@ public class MailboxData
 
 | Name | Description |
 | --- | --- |
-| [AttendeeType](attendeetype) { get; set; } |  |
-| [Email](email) { get; set; } |  |
-| [ExcludeConflicts](excludeconflicts) { get; set; } |  |
-| [ExcludeConflictsSpecified](excludeconflictsspecified) { get; set; } |  |
+| [AttendeeType](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxdata/attendeetype) { get; set; } |  |
+| [Email](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxdata/email) { get; set; } |  |
+| [ExcludeConflicts](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxdata/excludeconflicts) { get; set; } |  |
+| [ExcludeConflictsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxdata/excludeconflictsspecified) { get; set; } |  |
 
 ### See Also
 

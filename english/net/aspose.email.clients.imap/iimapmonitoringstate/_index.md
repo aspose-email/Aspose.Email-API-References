@@ -18,7 +18,7 @@ public interface IImapMonitoringState
 
 | Name | Description |
 | --- | --- |
-| [FolderName](foldername) { get; } | Folder for which monitoring state is held. |
+| [FolderName](../../aspose.email.clients.imap/iimapmonitoringstate/foldername) { get; } | Folder for which monitoring state is held. |
 
 ### See Also
 

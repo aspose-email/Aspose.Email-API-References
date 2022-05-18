@@ -18,12 +18,12 @@ public interface IExchangeClientBase : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Credentials](credentials) { get; set; } | Gets or sets the credentials. |
-| [LogFileName](logfilename) { get; set; } | Gets or sets log file name |
-| [MailboxUri](mailboxuri) { get; set; } | Gets or sets the mailbox uri. |
-| [Proxy](proxy) { get; set; } | Gets or sets the proxy. |
-| [Timeout](timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
-| [UseDateInLogFileName](usedateinlogfilename) { get; set; } | Gets or sets value which indicates if date has to be used in log file name. |
+| [Credentials](../../aspose.email.clients.exchange/iexchangeclientbase/credentials) { get; set; } | Gets or sets the credentials. |
+| [LogFileName](../../aspose.email.clients.exchange/iexchangeclientbase/logfilename) { get; set; } | Gets or sets log file name |
+| [MailboxUri](../../aspose.email.clients.exchange/iexchangeclientbase/mailboxuri) { get; set; } | Gets or sets the mailbox uri. |
+| [Proxy](../../aspose.email.clients.exchange/iexchangeclientbase/proxy) { get; set; } | Gets or sets the proxy. |
+| [Timeout](../../aspose.email.clients.exchange/iexchangeclientbase/timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
+| [UseDateInLogFileName](../../aspose.email.clients.exchange/iexchangeclientbase/usedateinlogfilename) { get; set; } | Gets or sets value which indicates if date has to be used in log file name. |
 
 ### See Also
 

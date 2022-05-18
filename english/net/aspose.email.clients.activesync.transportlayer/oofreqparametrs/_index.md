@@ -24,7 +24,7 @@ public class OOFReqParametrs
 
 | Name | Description |
 | --- | --- |
-| [BodyType](bodytype) { get; set; } | Specifies the format type of the body content of the item. The following are the permitted values for the BodyType element: - Text - HTML |
+| [BodyType](../../aspose.email.clients.activesync.transportlayer/oofreqparametrs/bodytype) { get; set; } | Specifies the format type of the body content of the item. The following are the permitted values for the BodyType element: - Text - HTML |
 
 ### See Also
 

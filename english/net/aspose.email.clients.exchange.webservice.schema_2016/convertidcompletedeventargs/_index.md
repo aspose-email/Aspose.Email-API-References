@@ -16,7 +16,7 @@ public class ConvertIdCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/convertidcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

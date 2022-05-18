@@ -22,8 +22,9 @@ public class WeeklyRecurrencePatternType : IntervalRecurrencePatternBaseType
 
 | Name | Description |
 | --- | --- |
-| [DaysOfWeek](daysofweek) { get; set; } |  |
-| [FirstDayOfWeek](firstdayofweek) { get; set; } |  |
+| [DaysOfWeek](../../aspose.email.clients.exchange.webservice.schema_2016/weeklyrecurrencepatterntype/daysofweek) { get; set; } |  |
+| [FirstDayOfWeek](../../aspose.email.clients.exchange.webservice.schema_2016/weeklyrecurrencepatterntype/firstdayofweek) { get; set; } |  |
+| [Interval](../../aspose.email.clients.exchange.webservice.schema_2016/intervalrecurrencepatternbasetype/interval) { get; set; } |  |
 
 ### See Also
 

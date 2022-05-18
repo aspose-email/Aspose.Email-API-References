@@ -24,14 +24,14 @@ public class ExchangeMetadata
 
 | Name | Description |
 | --- | --- |
-| [BCC](bcc) { get; set; } | A collection of email addresses that were on the BCC line of the message. Mandatory: No |
-| [CC](cc) { get; set; } | A collection of email addresses that were on the CC line of the message. Mandatory: Yes |
-| [From](from) { get; set; } | The user who sent the email. Mandatory: Yes |
-| [MessageID](messageid) { get; set; } | The message ID of the email that triggered the event. Mandatory: Yes |
-| [RecipientCount](recipientcount) { get; set; } | The total number of all recipients on the TO, CC, and BCC lines of the message. Mandatory: Yes |
-| [Sent](sent) { get; set; } | The time in UTC of when the email was sent. Mandatory: Yes |
-| [Subject](subject) { get; set; } | Suject of the email message. Mandatory: No |
-| [To](to) { get; set; } | A collection of email addresses that were on the To line of the message. Mandatory: No |
+| [BCC](../../aspose.email.clients.activity/exchangemetadata/bcc) { get; set; } | A collection of email addresses that were on the BCC line of the message. Mandatory: No |
+| [CC](../../aspose.email.clients.activity/exchangemetadata/cc) { get; set; } | A collection of email addresses that were on the CC line of the message. Mandatory: Yes |
+| [From](../../aspose.email.clients.activity/exchangemetadata/from) { get; set; } | The user who sent the email. Mandatory: Yes |
+| [MessageID](../../aspose.email.clients.activity/exchangemetadata/messageid) { get; set; } | The message ID of the email that triggered the event. Mandatory: Yes |
+| [RecipientCount](../../aspose.email.clients.activity/exchangemetadata/recipientcount) { get; set; } | The total number of all recipients on the TO, CC, and BCC lines of the message. Mandatory: Yes |
+| [Sent](../../aspose.email.clients.activity/exchangemetadata/sent) { get; set; } | The time in UTC of when the email was sent. Mandatory: Yes |
+| [Subject](../../aspose.email.clients.activity/exchangemetadata/subject) { get; set; } | Suject of the email message. Mandatory: No |
+| [To](../../aspose.email.clients.activity/exchangemetadata/to) { get; set; } | A collection of email addresses that were on the To line of the message. Mandatory: No |
 
 ### See Also
 

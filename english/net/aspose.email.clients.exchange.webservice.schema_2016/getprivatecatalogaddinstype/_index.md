@@ -22,7 +22,7 @@ public class GetPrivateCatalogAddInsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Client](client) { get; set; } |  |
+| [Client](../../aspose.email.clients.exchange.webservice.schema_2016/getprivatecatalogaddinstype/client) { get; set; } |  |
 
 ### See Also
 

@@ -18,6 +18,12 @@ public class FolderChangeDescriptionType : ChangeDescriptionType
 | --- | --- |
 | [FolderChangeDescriptionType](folderchangedescriptiontype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/changedescriptiontype/item) { get; set; } |  |
+
 ### See Also
 
 * class [ChangeDescriptionType](../changedescriptiontype)

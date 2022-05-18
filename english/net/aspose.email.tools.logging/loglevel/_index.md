@@ -18,12 +18,12 @@ public class LogLevel
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](compareto)(object) | Compares the level to the other [`LogLevel`](../loglevel) object. |
-| override [ToString](tostring)() | Returns a string representation of the log level. |
-| [operator &gt;](op_greaterthan) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is greater than the second one. |
-| [operator &gt;=](op_greaterthanorequal) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is greater than or equal to the second one. |
-| [operator &lt;](op_lessthan) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is less than the second one. |
-| [operator &lt;=](op_lessthanorequal) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is less than or equal to the second one. |
+| [CompareTo](../../aspose.email.tools.logging/loglevel/compareto)(object) | Compares the level to the other [`LogLevel`](../loglevel) object. |
+| override [ToString](../../aspose.email.tools.logging/loglevel/tostring)() | Returns a string representation of the log level. |
+| [operator &gt;](../../aspose.email.tools.logging/loglevel/op_greaterthan) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is greater than the second one. |
+| [operator &gt;=](../../aspose.email.tools.logging/loglevel/op_greaterthanorequal) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is greater than or equal to the second one. |
+| [operator &lt;](../../aspose.email.tools.logging/loglevel/op_lessthan) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is less than the second one. |
+| [operator &lt;=](../../aspose.email.tools.logging/loglevel/op_lessthanorequal) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is less than or equal to the second one. |
 
 ## Other Members
 

@@ -22,11 +22,11 @@ public class ConversationResponseType
 
 | Name | Description |
 | --- | --- |
-| [CanDelete](candelete) { get; set; } |  |
-| [CanDeleteSpecified](candeletespecified) { get; set; } |  |
-| [ConversationId](conversationid) { get; set; } |  |
-| [ConversationNodes](conversationnodes) { get; set; } |  |
-| [SyncState](syncstate) { get; set; } |  |
+| [CanDelete](../../aspose.email.clients.exchange.webservice.schema_2016/conversationresponsetype/candelete) { get; set; } |  |
+| [CanDeleteSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/conversationresponsetype/candeletespecified) { get; set; } |  |
+| [ConversationId](../../aspose.email.clients.exchange.webservice.schema_2016/conversationresponsetype/conversationid) { get; set; } |  |
+| [ConversationNodes](../../aspose.email.clients.exchange.webservice.schema_2016/conversationresponsetype/conversationnodes) { get; set; } |  |
+| [SyncState](../../aspose.email.clients.exchange.webservice.schema_2016/conversationresponsetype/syncstate) { get; set; } |  |
 
 ### See Also
 

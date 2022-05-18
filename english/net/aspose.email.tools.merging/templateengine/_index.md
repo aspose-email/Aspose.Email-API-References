@@ -25,17 +25,17 @@ public sealed class TemplateEngine
 
 | Name | Description |
 | --- | --- |
-| [Instantiate](instantiate)(DataRowCollection) | Instantiates the template with a DataRowCollection as datasource. |
-| [Instantiate](instantiate)(DataTable) | Instantiates the template with a DataTable as datasource. |
-| [Instantiate](instantiate)(IDataReader) | Instantiates the template with a IDataReader as datasource. |
-| [Instantiate](instantiate)(DataRowCollection, IColumnMappingCollection) | Instantiates the template with a DataRowCollection as datasource. |
-| [Instantiate](instantiate)(DataTable, IColumnMappingCollection) | Instantiates the template with a DataTable as datasource. |
-| [IsRoutineRegistered](isroutineregistered)(string) | Determines if a name of template routine is registered in the template engine. |
-| [Merge](merge)(DataRow) | Merge a source DataRow with the template. |
-| [Merge](merge)(MailMessage) | Merge a source MailMessage with the template |
-| [RegisterRoutine](registerroutine)(string, TemplateRoutine) | Registers the template routine to the temaplate engine. |
-| [Reset](reset)() | Resets this instance. |
-| [UnregisterRoutine](unregisterroutine)(string) | Unregister the template routine from the template engine by name. |
+| [Instantiate](../../aspose.email.tools.merging/templateengine/instantiate)(DataRowCollection) | Instantiates the template with a DataRowCollection as datasource. |
+| [Instantiate](../../aspose.email.tools.merging/templateengine/instantiate)(DataTable) | Instantiates the template with a DataTable as datasource. |
+| [Instantiate](../../aspose.email.tools.merging/templateengine/instantiate)(IDataReader) | Instantiates the template with a IDataReader as datasource. |
+| [Instantiate](../../aspose.email.tools.merging/templateengine/instantiate)(DataRowCollection, IColumnMappingCollection) | Instantiates the template with a DataRowCollection as datasource. |
+| [Instantiate](../../aspose.email.tools.merging/templateengine/instantiate)(DataTable, IColumnMappingCollection) | Instantiates the template with a DataTable as datasource. |
+| [IsRoutineRegistered](../../aspose.email.tools.merging/templateengine/isroutineregistered)(string) | Determines if a name of template routine is registered in the template engine. |
+| [Merge](../../aspose.email.tools.merging/templateengine/merge)(DataRow) | Merge a source DataRow with the template. |
+| [Merge](../../aspose.email.tools.merging/templateengine/merge)(MailMessage) | Merge a source MailMessage with the template |
+| [RegisterRoutine](../../aspose.email.tools.merging/templateengine/registerroutine)(string, TemplateRoutine) | Registers the template routine to the temaplate engine. |
+| [Reset](../../aspose.email.tools.merging/templateengine/reset)() | Resets this instance. |
+| [UnregisterRoutine](../../aspose.email.tools.merging/templateengine/unregisterroutine)(string) | Unregister the template routine from the template engine by name. |
 
 ### See Also
 

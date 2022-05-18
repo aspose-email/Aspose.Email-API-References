@@ -18,7 +18,7 @@ public static class Outlook
 
 | Name | Description |
 | --- | --- |
-| static [GetInstance](getinstance)(string, string, string) | Gets an instance of the TokenProvider for Outlook mail server |
+| static [GetInstance](../../aspose.email.clients/outlook/getinstance)(string, string, string) | Gets an instance of the TokenProvider for Outlook mail server |
 
 ### See Also
 

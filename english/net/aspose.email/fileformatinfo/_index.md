@@ -18,7 +18,7 @@ public class FileFormatInfo
 
 | Name | Description |
 | --- | --- |
-| [FileFormatType](fileformattype) { get; } | Gets file format type. |
+| [FileFormatType](../../aspose.email/fileformatinfo/fileformattype) { get; } | Gets file format type. |
 
 ### See Also
 

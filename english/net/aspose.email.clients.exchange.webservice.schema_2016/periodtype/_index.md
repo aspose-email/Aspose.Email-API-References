@@ -22,9 +22,9 @@ public class PeriodType
 
 | Name | Description |
 | --- | --- |
-| [Bias](bias) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [Name](name) { get; set; } |  |
+| [Bias](../../aspose.email.clients.exchange.webservice.schema_2016/periodtype/bias) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/periodtype/id) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/periodtype/name) { get; set; } |  |
 
 ### See Also
 

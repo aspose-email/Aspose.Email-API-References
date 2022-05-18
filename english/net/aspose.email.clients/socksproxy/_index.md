@@ -27,14 +27,20 @@ public class SocksProxy : Proxy
 
 | Name | Description |
 | --- | --- |
-| [SupportedAuthenticationMethods](supportedauthenticationmethods) { get; set; } | The supported authentication methods to connect to SOCKS server |
-| [Version](version) { get; set; } | Required SOCKS server version. |
+| [Address](../../aspose.email.clients/proxy/address) { get; set; } | The domain name or IP address of the proxy server |
+| [Password](../../aspose.email.clients/proxy/password) { get; set; } | Password for proxy authentication |
+| [Port](../../aspose.email.clients/proxy/port) { get; set; } | The port number for the proxy server |
+| [SupportedAuthenticationMethods](../../aspose.email.clients/socksproxy/supportedauthenticationmethods) { get; set; } | The supported authentication methods to connect to SOCKS server |
+| [Username](../../aspose.email.clients/proxy/username) { get; set; } | Username for proxy authentication |
+| [Version](../../aspose.email.clients/socksproxy/version) { get; set; } | Required SOCKS server version. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [SetUpStream](setupstream)(Stream, string, int) | Configures proxy-server to transport data to the target host. |
+| virtual [Dispose](../../aspose.email.clients/proxy/dispose)() | Disposes this instance and requests that the underlying TCP connection be closed. |
+| [GetStream](../../aspose.email.clients/proxy/getstream)(string, int) | Returns configured network stream to transport data to the required host through the proxy server. |
+| override [SetUpStream](../../aspose.email.clients/socksproxy/setupstream)(Stream, string, int) | Configures proxy-server to transport data to the target host. |
 
 ### See Also
 

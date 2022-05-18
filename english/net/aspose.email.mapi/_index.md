@@ -14,10 +14,10 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | --- | --- |
 | [ContactSaveOptions](./contactsaveoptions) | Represents the base contact save options |
 | [FileAccessViolationException](./fileaccessviolationexception) | This exception wile be thrown when the file open and locked by another caller. |
-| [FollowUpManager](./followupmanager) | Provides the ability to set and handle follow-up Outlook flags and categories. Supports the features to add and remove a flag in [`MapiMessage`](aspose.email.mapi/mapimessage), and mark it as completed as well. |
+| [FollowUpManager](./followupmanager) | Provides the ability to set and handle follow-up Outlook flags and categories. Supports the features to add and remove a flag in [`MapiMessage`](../aspose.email.mapi/mapimessage), and mark it as completed as well. |
 | [FollowUpOptions](./followupoptions) | Represents options for using follow-up flags and reminders in a message. |
 | [InlineAttachmentExtractor](./inlineattachmentextractor) | Provides ability to extract files from MSO packages. Can be used to process "oledata.mso" and similar files typically attached to messages created using Outlook. |
-| [KnownPropertyList](./knownpropertylist) | The read-only Master Property List provides implementers with a single source of information about all the properties that are described by the specifications that comprise the Exchange Server Protocols documentation (MS-OXPROPS). Coincides MS-OXPROPS revision 16.2 from 7/31/2014 |
+| [KnownPropertyList](./knownpropertylist) | The read-only Master Property List provides implementers with a single source of information about all the properties that are described by the specifications that comprise the Exchange Server Protocols documentation (../MS-OXPROPS). Coincides MS-OXPROPS revision 16.2 from 7/31/2014 |
 | [KnownPropertySets](./knownpropertysets) | [MS-OXCDATA]: Commonly Used Property Sets |
 | [MailConversionOptions](./mailconversionoptions) | Specify additional options when converting from MapiMessage to MailMessage. |
 | [MapiAttachment](./mapiattachment) | Represents the attachment in the E-mail message. |
@@ -39,9 +39,9 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiCalendarWeeklyRecurrencePattern](./mapicalendarweeklyrecurrencepattern) | Represents the weekly recurrence pattern of the mapi calendar |
 | [MapiCalendarYearlyAndMonthlyRecurrencePattern](./mapicalendaryearlyandmonthlyrecurrencepattern) | Represents the yearly and monthly recurrence pattern of the mapi calendar |
 | [MapiContact](./mapicontact) | Represents outlook contact information |
-| [MapiContactCollection](./mapicontactcollection) | Represents the collection of [`MapiContact`](aspose.email.mapi/mapicontact) |
+| [MapiContactCollection](./mapicontactcollection) | Represents the collection of [`MapiContact`](../aspose.email.mapi/mapicontact) |
 | [MapiContactElectronicAddress](./mapicontactelectronicaddress) | Refers to the group of properties that define the e-mail address or fax address for a contact. |
-| [MapiContactElectronicAddressPropertySet](./mapicontactelectronicaddresspropertyset) | Specify properties for up to three different e-mail addresses (Email1, Email2, and Email3) and three different fax addresses (Primary Fax, Business Fax, and Home Fax) |
+| [MapiContactElectronicAddressPropertySet](./mapicontactelectronicaddresspropertyset) | Specify properties for up to three different e-mail addresses (../Email1, Email2, and Email3) and three different fax addresses (../Primary Fax, Business Fax, and Home Fax) |
 | [MapiContactEventPropertySet](./mapicontacteventpropertyset) | Specify events associated with a contact |
 | [MapiContactNamePropertySet](./mapicontactnamepropertyset) | The properties are used to specify the name of the person represented by the contact |
 | [MapiContactOtherPropertySet](./mapicontactotherpropertyset) | The properties are used to specify additional properies of contact. |
@@ -55,7 +55,7 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiConversionOptions](./mapiconversionoptions) | This class allows the user to specify additional options when converting from MailMessage to MapiMessage. |
 | [MapiDistributionList](./mapidistributionlist) | Represents the Personal Distribution List object. |
 | [MapiDistributionListMember](./mapidistributionlistmember) | Represents the members of the personal distribution list. |
-| [MapiDistributionListMemberCollection](./mapidistributionlistmembercollection) | Represents a collection of [`MapiDistributionListMember`](aspose.email.mapi/mapidistributionlistmember) objects. |
+| [MapiDistributionListMemberCollection](./mapidistributionlistmembercollection) | Represents a collection of [`MapiDistributionListMember`](../aspose.email.mapi/mapidistributionlistmember) objects. |
 | [MapiElectronicAddress](./mapielectronicaddress) | Refers to the group of properties that define the e-mail address or fax address. |
 | [MapiJournal](./mapijournal) | Represents the Outlook Journal object. |
 | [MapiMessage](./mapimessage) | Represents an Outlook Message format document that can be parsed. |
@@ -65,11 +65,11 @@ The **Aspose.Email.Mapi** namespace contains classes that represent Outlook mess
 | [MapiMessageReader](./mapimessagereader) | Represents a reader that can read a Microsoft Outlook Message format document. |
 | [MapiNamedProperty](./mapinamedproperty) | Represents the data type of Named Property. |
 | [MapiNamedPropertyMappingStorage](./mapinamedpropertymappingstorage) | Represents the named property mapping |
-| [MapiNote](./mapinote) | Represents outlook Note object ("sticky note") |
+| [MapiNote](./mapinote) | Represents outlook Note object (../"sticky note") |
 | [MapiObjectProperty](./mapiobjectproperty) | Represents a Custom object included in Outlook Message documents. |
 | [MapiProperty](./mapiproperty) | Represents the mapi property. |
 | [MapiPropertyCollection](./mapipropertycollection) | Represents the collection of MapiProperty items. |
-| [MapiPropertyContainer](./mapipropertycontainer) | Represents the base class for [`MapiAttachment`](aspose.email.mapi/mapiattachment), [`MapiRecipient`](aspose.email.mapi/mapirecipient), [`MapiMessage`](aspose.email.mapi/mapimessage). |
+| [MapiPropertyContainer](./mapipropertycontainer) | Represents the base class for [`MapiAttachment`](../aspose.email.mapi/mapiattachment), [`MapiRecipient`](../aspose.email.mapi/mapirecipient), [`MapiMessage`](../aspose.email.mapi/mapimessage). |
 | [MapiPropertyStream](./mapipropertystream) | Represents the property stream. |
 | [MapiPropertyTag](./mapipropertytag) | Represents the MAPI property tags definition. |
 | [MapiRecipient](./mapirecipient) | Represents the recipient information in the Microsoft Outlook Message. |

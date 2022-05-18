@@ -24,33 +24,33 @@ public sealed class ContentClassType
 
 | Name | Description |
 | --- | --- |
-| static [Activity](activity) { get; } | Gets the urn:content-classes:activity content class that defines a set of properties for an item that is a Journal. This maps to IPM.Activity. |
-| static [Appointment](appointment) { get; } | Gets the urn:content-classes:appointment content class that defines properties for items that are appointments. |
-| static [CalendarFolder](calendarfolder) { get; } | Gets the The urn:content-classes:calendarfolder content class that defines a set of properties for a folder that primarily contains appointment items. |
-| static [CalendarMessage](calendarmessage) { get; } | Gets the urn:content-classes:calendarmessage content class that defines a set of properties for message items that contain meeting requests. |
-| static [ContactFolder](contactfolder) { get; } | Gets the The urn:content-classes:contactfolder content class that defines a set of properties for a folder that primarily contains contact items. |
-| static [Document](document) { get; } | Gets the urn:content-classes:document content class that defines a set of properties for an item that is a document such as a Microsoft� Word file. |
-| static [DSN](dsn) { get; } | Gets the the urn:content-classes:dsn content class that defines a set of properties for an item that is a Delivery Status Notification (DSN) message. |
-| static [Folder](folder) { get; } | Gets the urn:content-classes:folder content class that defines a set of properties for a folder in the Exchange store. |
-| static [Group](group) { get; } | Gets the value that represents the content class urn:content-classes:group. |
-| static [JournalFolder](journalfolder) { get; } | Gets the urn:content-classes:journalfolder content class that defines a set of properties for a folder that primarily contains journal items. |
-| static [MailFolder](mailfolder) { get; } | Gets the urn:content-classes:mailfolder content class that defines a set of properties for a folder that primarily contains messages. |
-| static [MDN](mdn) { get; } | Gets the urn:content-classes:mdn content class that defines a set of properties for an item that is a Mail Delivery Notification (MDN) message. |
-| static [Message](message) { get; } | Gets the urn:content-classes:message content class that defines a set of properties for an item that is a message. |
-| static [Note](note) { get; } | Gets the value that represents the content class urn:content-classes:note. |
-| static [NoteFolder](notefolder) { get; } | Gets the urn:content-classes:notesfolder content class that defines a set of properties for a folder that primarily contains note items. |
-| static [Person](person) { get; } | Gets the urn:content-classes:person content class that defines a set of properties for an item that is a contact. |
-| static [RecallMesage](recallmesage) { get; } | Gets the urn:content-classes:recallmessage content class that defines a set of properties for a recall message. |
-| static [RecallReport](recallreport) { get; } | Gets the urn:content-classes:recallreport content class that defines a set of properties for an item that is a recall report message. |
-| static [ReportMessage](reportmessage) { get; } | Gets the value that represents the content class urn:content-classes:reportmessage. |
-| static [Task](task) { get; } | Gets the value that represents the content class urn:content-classes:task. |
-| static [TaskFolder](taskfolder) { get; } | Gets the urn:content-classes:taskfolder content class that defines a set of properties for a folder that primarily contains task items. |
+| static [Activity](../../aspose.email.clients.exchange.dav/contentclasstype/activity) { get; } | Gets the urn:content-classes:activity content class that defines a set of properties for an item that is a Journal. This maps to IPM.Activity. |
+| static [Appointment](../../aspose.email.clients.exchange.dav/contentclasstype/appointment) { get; } | Gets the urn:content-classes:appointment content class that defines properties for items that are appointments. |
+| static [CalendarFolder](../../aspose.email.clients.exchange.dav/contentclasstype/calendarfolder) { get; } | Gets the The urn:content-classes:calendarfolder content class that defines a set of properties for a folder that primarily contains appointment items. |
+| static [CalendarMessage](../../aspose.email.clients.exchange.dav/contentclasstype/calendarmessage) { get; } | Gets the urn:content-classes:calendarmessage content class that defines a set of properties for message items that contain meeting requests. |
+| static [ContactFolder](../../aspose.email.clients.exchange.dav/contentclasstype/contactfolder) { get; } | Gets the The urn:content-classes:contactfolder content class that defines a set of properties for a folder that primarily contains contact items. |
+| static [Document](../../aspose.email.clients.exchange.dav/contentclasstype/document) { get; } | Gets the urn:content-classes:document content class that defines a set of properties for an item that is a document such as a Microsoft� Word file. |
+| static [DSN](../../aspose.email.clients.exchange.dav/contentclasstype/dsn) { get; } | Gets the the urn:content-classes:dsn content class that defines a set of properties for an item that is a Delivery Status Notification (DSN) message. |
+| static [Folder](../../aspose.email.clients.exchange.dav/contentclasstype/folder) { get; } | Gets the urn:content-classes:folder content class that defines a set of properties for a folder in the Exchange store. |
+| static [Group](../../aspose.email.clients.exchange.dav/contentclasstype/group) { get; } | Gets the value that represents the content class urn:content-classes:group. |
+| static [JournalFolder](../../aspose.email.clients.exchange.dav/contentclasstype/journalfolder) { get; } | Gets the urn:content-classes:journalfolder content class that defines a set of properties for a folder that primarily contains journal items. |
+| static [MailFolder](../../aspose.email.clients.exchange.dav/contentclasstype/mailfolder) { get; } | Gets the urn:content-classes:mailfolder content class that defines a set of properties for a folder that primarily contains messages. |
+| static [MDN](../../aspose.email.clients.exchange.dav/contentclasstype/mdn) { get; } | Gets the urn:content-classes:mdn content class that defines a set of properties for an item that is a Mail Delivery Notification (MDN) message. |
+| static [Message](../../aspose.email.clients.exchange.dav/contentclasstype/message) { get; } | Gets the urn:content-classes:message content class that defines a set of properties for an item that is a message. |
+| static [Note](../../aspose.email.clients.exchange.dav/contentclasstype/note) { get; } | Gets the value that represents the content class urn:content-classes:note. |
+| static [NoteFolder](../../aspose.email.clients.exchange.dav/contentclasstype/notefolder) { get; } | Gets the urn:content-classes:notesfolder content class that defines a set of properties for a folder that primarily contains note items. |
+| static [Person](../../aspose.email.clients.exchange.dav/contentclasstype/person) { get; } | Gets the urn:content-classes:person content class that defines a set of properties for an item that is a contact. |
+| static [RecallMesage](../../aspose.email.clients.exchange.dav/contentclasstype/recallmesage) { get; } | Gets the urn:content-classes:recallmessage content class that defines a set of properties for a recall message. |
+| static [RecallReport](../../aspose.email.clients.exchange.dav/contentclasstype/recallreport) { get; } | Gets the urn:content-classes:recallreport content class that defines a set of properties for an item that is a recall report message. |
+| static [ReportMessage](../../aspose.email.clients.exchange.dav/contentclasstype/reportmessage) { get; } | Gets the value that represents the content class urn:content-classes:reportmessage. |
+| static [Task](../../aspose.email.clients.exchange.dav/contentclasstype/task) { get; } | Gets the value that represents the content class urn:content-classes:task. |
+| static [TaskFolder](../../aspose.email.clients.exchange.dav/contentclasstype/taskfolder) { get; } | Gets the urn:content-classes:taskfolder content class that defines a set of properties for a folder that primarily contains task items. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.email.clients.exchange.dav/contentclasstype/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

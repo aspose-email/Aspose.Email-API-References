@@ -22,10 +22,10 @@ public class BodyType
 
 | Name | Description |
 | --- | --- |
-| [BodyType1](bodytype1) { get; set; } |  |
-| [IsTruncated](istruncated) { get; set; } |  |
-| [IsTruncatedSpecified](istruncatedspecified) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [BodyType1](../../aspose.email.clients.exchange.webservice.schema_2016/bodytype/bodytype1) { get; set; } |  |
+| [IsTruncated](../../aspose.email.clients.exchange.webservice.schema_2016/bodytype/istruncated) { get; set; } |  |
+| [IsTruncatedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/bodytype/istruncatedspecified) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/bodytype/value) { get; set; } |  |
 
 ### See Also
 

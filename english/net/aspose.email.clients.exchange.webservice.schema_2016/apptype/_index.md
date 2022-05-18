@@ -22,8 +22,8 @@ public class AppType
 
 | Name | Description |
 | --- | --- |
-| [Manifest](manifest) { get; set; } |  |
-| [Metadata](metadata) { get; set; } |  |
+| [Manifest](../../aspose.email.clients.exchange.webservice.schema_2016/apptype/manifest) { get; set; } |  |
+| [Metadata](../../aspose.email.clients.exchange.webservice.schema_2016/apptype/metadata) { get; set; } |  |
 
 ### See Also
 

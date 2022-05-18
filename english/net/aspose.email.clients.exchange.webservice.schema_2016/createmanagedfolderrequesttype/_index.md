@@ -22,8 +22,8 @@ public class CreateManagedFolderRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [FolderNames](foldernames) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
+| [FolderNames](../../aspose.email.clients.exchange.webservice.schema_2016/createmanagedfolderrequesttype/foldernames) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/createmanagedfolderrequesttype/mailbox) { get; set; } |  |
 
 ### See Also
 

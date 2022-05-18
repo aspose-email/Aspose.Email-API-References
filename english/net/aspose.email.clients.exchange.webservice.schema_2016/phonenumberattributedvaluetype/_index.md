@@ -22,8 +22,8 @@ public class PhoneNumberAttributedValueType
 
 | Name | Description |
 | --- | --- |
-| [Attributions](attributions) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Attributions](../../aspose.email.clients.exchange.webservice.schema_2016/phonenumberattributedvaluetype/attributions) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/phonenumberattributedvaluetype/value) { get; set; } |  |
 
 ### See Also
 

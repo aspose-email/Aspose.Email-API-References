@@ -22,13 +22,14 @@ public class ContactType : EntityType
 
 | Name | Description |
 | --- | --- |
-| [Addresses](addresses) { get; set; } |  |
-| [BusinessName](businessname) { get; set; } |  |
-| [ContactString](contactstring) { get; set; } |  |
-| [EmailAddresses](emailaddresses) { get; set; } |  |
-| [PersonName](personname) { get; set; } |  |
-| [PhoneNumbers](phonenumbers) { get; set; } |  |
-| [Urls](urls) { get; set; } |  |
+| [Addresses](../../aspose.email.clients.exchange.webservice.schema_2016/contacttype/addresses) { get; set; } |  |
+| [BusinessName](../../aspose.email.clients.exchange.webservice.schema_2016/contacttype/businessname) { get; set; } |  |
+| [ContactString](../../aspose.email.clients.exchange.webservice.schema_2016/contacttype/contactstring) { get; set; } |  |
+| [EmailAddresses](../../aspose.email.clients.exchange.webservice.schema_2016/contacttype/emailaddresses) { get; set; } |  |
+| [PersonName](../../aspose.email.clients.exchange.webservice.schema_2016/contacttype/personname) { get; set; } |  |
+| [PhoneNumbers](../../aspose.email.clients.exchange.webservice.schema_2016/contacttype/phonenumbers) { get; set; } |  |
+| [Position](../../aspose.email.clients.exchange.webservice.schema_2016/entitytype/position) { get; set; } |  |
+| [Urls](../../aspose.email.clients.exchange.webservice.schema_2016/contacttype/urls) { get; set; } |  |
 
 ### See Also
 

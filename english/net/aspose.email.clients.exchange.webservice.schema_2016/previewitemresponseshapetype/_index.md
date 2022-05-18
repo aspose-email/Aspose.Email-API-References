@@ -22,8 +22,8 @@ public class PreviewItemResponseShapeType
 
 | Name | Description |
 | --- | --- |
-| [AdditionalProperties](additionalproperties) { get; set; } |  |
-| [BaseShape](baseshape) { get; set; } |  |
+| [AdditionalProperties](../../aspose.email.clients.exchange.webservice.schema_2016/previewitemresponseshapetype/additionalproperties) { get; set; } |  |
+| [BaseShape](../../aspose.email.clients.exchange.webservice.schema_2016/previewitemresponseshapetype/baseshape) { get; set; } |  |
 
 ### See Also
 

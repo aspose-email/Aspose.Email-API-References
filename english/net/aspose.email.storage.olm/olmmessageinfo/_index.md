@@ -18,13 +18,13 @@ public class OlmMessageInfo
 
 | Name | Description |
 | --- | --- |
-| [Date](date) { get; } | Gets the date of message. |
-| [From](from) { get; } | Gets the from address. |
-| [HasAttachments](hasattachments) { get; } | Gets or sets a value indicating whether the message has attachments. |
-| [MessageClass](messageclass) { get; } | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message. |
-| [ModifiedDate](modifieddate) { get; } | Gets the date of message. |
-| [Subject](subject) { get; } | Gets the message subject. |
-| [To](to) { get; } | Gets the address collection that contains the recipients of message. |
+| [Date](../../aspose.email.storage.olm/olmmessageinfo/date) { get; } | Gets the date of message. |
+| [From](../../aspose.email.storage.olm/olmmessageinfo/from) { get; } | Gets the from address. |
+| [HasAttachments](../../aspose.email.storage.olm/olmmessageinfo/hasattachments) { get; } | Gets or sets a value indicating whether the message has attachments. |
+| [MessageClass](../../aspose.email.storage.olm/olmmessageinfo/messageclass) { get; } | Gets a case-sensitive string that identifies the sender-defined message class, such as IPM.Note. The message class specifies the type, purpose, or content of the message. |
+| [ModifiedDate](../../aspose.email.storage.olm/olmmessageinfo/modifieddate) { get; } | Gets the date of message. |
+| [Subject](../../aspose.email.storage.olm/olmmessageinfo/subject) { get; } | Gets the message subject. |
+| [To](../../aspose.email.storage.olm/olmmessageinfo/to) { get; } | Gets the address collection that contains the recipients of message. |
 
 ### See Also
 

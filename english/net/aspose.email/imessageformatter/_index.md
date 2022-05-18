@@ -18,13 +18,13 @@ public interface IMessageFormatter
 
 | Name | Description |
 | --- | --- |
-| [FormatTemplates](formattemplates) { get; } | Gets the format templates. |
+| [FormatTemplates](../../aspose.email/imessageformatter/formattemplates) { get; } | Gets the format templates. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Format](format)(MailMessage) | Formats the specified message. |
+| [Format](../../aspose.email/imessageformatter/format)(MailMessage) | Formats the specified message. |
 
 ### See Also
 

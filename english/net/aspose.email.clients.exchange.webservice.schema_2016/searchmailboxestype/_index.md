@@ -22,18 +22,18 @@ public class SearchMailboxesType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Deduplication](deduplication) { get; set; } |  |
-| [DeduplicationSpecified](deduplicationspecified) { get; set; } |  |
-| [Language](language) { get; set; } |  |
-| [PageDirection](pagedirection) { get; set; } |  |
-| [PageDirectionSpecified](pagedirectionspecified) { get; set; } |  |
-| [PageItemReference](pageitemreference) { get; set; } |  |
-| [PageSize](pagesize) { get; set; } |  |
-| [PageSizeSpecified](pagesizespecified) { get; set; } |  |
-| [PreviewItemResponseShape](previewitemresponseshape) { get; set; } |  |
-| [ResultType](resulttype) { get; set; } |  |
-| [SearchQueries](searchqueries) { get; set; } |  |
-| [SortBy](sortby) { get; set; } |  |
+| [Deduplication](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/deduplication) { get; set; } |  |
+| [DeduplicationSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/deduplicationspecified) { get; set; } |  |
+| [Language](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/language) { get; set; } |  |
+| [PageDirection](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/pagedirection) { get; set; } |  |
+| [PageDirectionSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/pagedirectionspecified) { get; set; } |  |
+| [PageItemReference](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/pageitemreference) { get; set; } |  |
+| [PageSize](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/pagesize) { get; set; } |  |
+| [PageSizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/pagesizespecified) { get; set; } |  |
+| [PreviewItemResponseShape](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/previewitemresponseshape) { get; set; } |  |
+| [ResultType](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/resulttype) { get; set; } |  |
+| [SearchQueries](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/searchqueries) { get; set; } |  |
+| [SortBy](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxestype/sortby) { get; set; } |  |
 
 ### See Also
 

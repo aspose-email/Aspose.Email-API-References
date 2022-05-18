@@ -22,12 +22,12 @@ public class ResolveNamesType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ContactDataShape](contactdatashape) { get; set; } |  |
-| [ContactDataShapeSpecified](contactdatashapespecified) { get; set; } |  |
-| [ParentFolderIds](parentfolderids) { get; set; } |  |
-| [ReturnFullContactData](returnfullcontactdata) { get; set; } |  |
-| [SearchScope](searchscope) { get; set; } |  |
-| [UnresolvedEntry](unresolvedentry) { get; set; } |  |
+| [ContactDataShape](../../aspose.email.clients.exchange.webservice.schema_2016/resolvenamestype/contactdatashape) { get; set; } |  |
+| [ContactDataShapeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/resolvenamestype/contactdatashapespecified) { get; set; } |  |
+| [ParentFolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/resolvenamestype/parentfolderids) { get; set; } |  |
+| [ReturnFullContactData](../../aspose.email.clients.exchange.webservice.schema_2016/resolvenamestype/returnfullcontactdata) { get; set; } |  |
+| [SearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/resolvenamestype/searchscope) { get; set; } |  |
+| [UnresolvedEntry](../../aspose.email.clients.exchange.webservice.schema_2016/resolvenamestype/unresolvedentry) { get; set; } |  |
 
 ### See Also
 

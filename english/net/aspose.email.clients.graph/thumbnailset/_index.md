@@ -24,11 +24,11 @@ public class ThumbnailSet
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | The id within the item.Read-only. |
-| [Large](large) { get; set; } | A 1920x1920 scaled thumbnail. |
-| [Medium](medium) { get; set; } | A 176x176 scaled thumbnail. |
-| [Small](small) { get; set; } | A 48x48 cropped thumbnail. |
-| [Source](source) { get; set; } | A custom thumbnail image or the original image used to generate other thumbnails. |
+| [Id](../../aspose.email.clients.graph/thumbnailset/id) { get; set; } | The id within the item.Read-only. |
+| [Large](../../aspose.email.clients.graph/thumbnailset/large) { get; set; } | A 1920x1920 scaled thumbnail. |
+| [Medium](../../aspose.email.clients.graph/thumbnailset/medium) { get; set; } | A 176x176 scaled thumbnail. |
+| [Small](../../aspose.email.clients.graph/thumbnailset/small) { get; set; } | A 48x48 cropped thumbnail. |
+| [Source](../../aspose.email.clients.graph/thumbnailset/source) { get; set; } | A custom thumbnail image or the original image used to generate other thumbnails. |
 
 ### See Also
 

@@ -16,8 +16,9 @@ public abstract class RecurringTimeTransitionType : TransitionType
 
 | Name | Description |
 | --- | --- |
-| [Month](month) { get; set; } |  |
-| [TimeOffset](timeoffset) { get; set; } |  |
+| [Month](../../aspose.email.clients.exchange.webservice.schema_2016/recurringtimetransitiontype/month) { get; set; } |  |
+| [TimeOffset](../../aspose.email.clients.exchange.webservice.schema_2016/recurringtimetransitiontype/timeoffset) { get; set; } |  |
+| [To](../../aspose.email.clients.exchange.webservice.schema_2016/transitiontype/to) { get; set; } |  |
 
 ### See Also
 

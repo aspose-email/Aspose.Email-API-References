@@ -22,8 +22,8 @@ public class WorkingHours
 
 | Name | Description |
 | --- | --- |
-| [TimeZone](timezone) { get; set; } |  |
-| [WorkingPeriodArray](workingperiodarray) { get; set; } |  |
+| [TimeZone](../../aspose.email.clients.exchange.webservice.schema_2016/workinghours/timezone) { get; set; } |  |
+| [WorkingPeriodArray](../../aspose.email.clients.exchange.webservice.schema_2016/workinghours/workingperiodarray) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class CalendarPermissionSetType
 
 | Name | Description |
 | --- | --- |
-| [CalendarPermissions](calendarpermissions) { get; set; } |  |
-| [UnknownEntries](unknownentries) { get; set; } |  |
+| [CalendarPermissions](../../aspose.email.clients.exchange.webservice.schema_2016/calendarpermissionsettype/calendarpermissions) { get; set; } |  |
+| [UnknownEntries](../../aspose.email.clients.exchange.webservice.schema_2016/calendarpermissionsettype/unknownentries) { get; set; } |  |
 
 ### See Also
 

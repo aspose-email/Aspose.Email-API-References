@@ -22,18 +22,18 @@ public class GetAppManifestsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [AddIns](addins) { get; set; } |  |
-| [ApiVersionSupported](apiversionsupported) { get; set; } |  |
-| [ExtensionIds](extensionids) { get; set; } |  |
-| [IncludeAllInstalledAddIns](includeallinstalledaddins) { get; set; } |  |
-| [IncludeAllInstalledAddInsSpecified](includeallinstalledaddinsspecified) { get; set; } |  |
-| [IncludeCustomAppsData](includecustomappsdata) { get; set; } |  |
-| [IncludeCustomAppsDataSpecified](includecustomappsdataspecified) { get; set; } |  |
-| [IncludeEntitlementData](includeentitlementdata) { get; set; } |  |
-| [IncludeEntitlementDataSpecified](includeentitlementdataspecified) { get; set; } |  |
-| [IncludeManifestData](includemanifestdata) { get; set; } |  |
-| [IncludeManifestDataSpecified](includemanifestdataspecified) { get; set; } |  |
-| [SchemaVersionSupported](schemaversionsupported) { get; set; } |  |
+| [AddIns](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/addins) { get; set; } |  |
+| [ApiVersionSupported](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/apiversionsupported) { get; set; } |  |
+| [ExtensionIds](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/extensionids) { get; set; } |  |
+| [IncludeAllInstalledAddIns](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/includeallinstalledaddins) { get; set; } |  |
+| [IncludeAllInstalledAddInsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/includeallinstalledaddinsspecified) { get; set; } |  |
+| [IncludeCustomAppsData](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/includecustomappsdata) { get; set; } |  |
+| [IncludeCustomAppsDataSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/includecustomappsdataspecified) { get; set; } |  |
+| [IncludeEntitlementData](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/includeentitlementdata) { get; set; } |  |
+| [IncludeEntitlementDataSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/includeentitlementdataspecified) { get; set; } |  |
+| [IncludeManifestData](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/includemanifestdata) { get; set; } |  |
+| [IncludeManifestDataSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/includemanifestdataspecified) { get; set; } |  |
+| [SchemaVersionSupported](../../aspose.email.clients.exchange.webservice.schema_2016/getappmanifeststype/schemaversionsupported) { get; set; } |  |
 
 ### See Also
 

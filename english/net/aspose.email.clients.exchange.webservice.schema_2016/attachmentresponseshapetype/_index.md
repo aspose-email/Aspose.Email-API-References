@@ -22,13 +22,13 @@ public class AttachmentResponseShapeType
 
 | Name | Description |
 | --- | --- |
-| [AdditionalProperties](additionalproperties) { get; set; } |  |
-| [BodyType](bodytype) { get; set; } |  |
-| [BodyTypeSpecified](bodytypespecified) { get; set; } |  |
-| [FilterHtmlContent](filterhtmlcontent) { get; set; } |  |
-| [FilterHtmlContentSpecified](filterhtmlcontentspecified) { get; set; } |  |
-| [IncludeMimeContent](includemimecontent) { get; set; } |  |
-| [IncludeMimeContentSpecified](includemimecontentspecified) { get; set; } |  |
+| [AdditionalProperties](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentresponseshapetype/additionalproperties) { get; set; } |  |
+| [BodyType](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentresponseshapetype/bodytype) { get; set; } |  |
+| [BodyTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentresponseshapetype/bodytypespecified) { get; set; } |  |
+| [FilterHtmlContent](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentresponseshapetype/filterhtmlcontent) { get; set; } |  |
+| [FilterHtmlContentSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentresponseshapetype/filterhtmlcontentspecified) { get; set; } |  |
+| [IncludeMimeContent](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentresponseshapetype/includemimecontent) { get; set; } |  |
+| [IncludeMimeContentSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentresponseshapetype/includemimecontentspecified) { get; set; } |  |
 
 ### See Also
 

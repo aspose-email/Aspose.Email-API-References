@@ -22,8 +22,8 @@ public class ExtendedKeywordDefinitionType
 
 | Name | Description |
 | --- | --- |
-| [Keyword](keyword) { get; set; } |  |
-| [Properties](properties) { get; set; } |  |
+| [Keyword](../../aspose.email.clients.exchange.webservice.schema_2016/extendedkeyworddefinitiontype/keyword) { get; set; } |  |
+| [Properties](../../aspose.email.clients.exchange.webservice.schema_2016/extendedkeyworddefinitiontype/properties) { get; set; } |  |
 
 ### See Also
 

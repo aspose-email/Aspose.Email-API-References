@@ -18,17 +18,17 @@ public abstract class RecurrencePattern
 
 | Name | Description |
 | --- | --- |
-| [EndDate](enddate) { get; set; } | Gets or sets the end date. |
-| [Interval](interval) { get; set; } | Gets or sets the number of recurrence units. |
-| [Occurs](occurs) { get; set; } | Gets or sets the number of occurrences of the recurrence pattern. |
-| [WeekStart](weekstart) { get; set; } | Gets or sets the week start. |
+| [EndDate](../../aspose.email.calendar.recurrences/recurrencepattern/enddate) { get; set; } | Gets or sets the end date. |
+| [Interval](../../aspose.email.calendar.recurrences/recurrencepattern/interval) { get; set; } | Gets or sets the number of recurrence units. |
+| [Occurs](../../aspose.email.calendar.recurrences/recurrencepattern/occurs) { get; set; } | Gets or sets the number of occurrences of the recurrence pattern. |
+| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Gets or sets the week start. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [explicit operator](op_explicit) | Converts string representation of recurrence pattern in ICalendar format to object |
+| override [ToString](../../aspose.email.calendar.recurrences/recurrencepattern/tostring)() | Returns a string that represents the current object. |
+| [explicit operator](../../aspose.email.calendar.recurrences/recurrencepattern/op_explicit) | Converts string representation of recurrence pattern in ICalendar format to object |
 
 ### See Also
 

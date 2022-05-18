@@ -22,7 +22,7 @@ public class SyncFolderItemsCreateOrUpdateType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemscreateorupdatetype/item) { get; set; } |  |
 
 ### See Also
 

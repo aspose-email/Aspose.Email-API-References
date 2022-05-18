@@ -22,8 +22,8 @@ public class UserConfigurationDictionaryEntryType
 
 | Name | Description |
 | --- | --- |
-| [DictionaryKey](dictionarykey) { get; set; } |  |
-| [DictionaryValue](dictionaryvalue) { get; set; } |  |
+| [DictionaryKey](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationdictionaryentrytype/dictionarykey) { get; set; } |  |
+| [DictionaryValue](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationdictionaryentrytype/dictionaryvalue) { get; set; } |  |
 
 ### See Also
 

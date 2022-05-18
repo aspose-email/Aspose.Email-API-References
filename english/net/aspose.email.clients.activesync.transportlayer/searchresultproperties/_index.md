@@ -24,11 +24,11 @@ public class SearchResultProperties
 
 | Name | Description |
 | --- | --- |
-| [Body](body) { get; } | Specifies a free-form, variable-length data field associated with a stored item on the server. |
-| [BodyPart](bodypart) { get; } | Specifies details about the message part of an e-mail in a response. |
-| [DataContainer](datacontainer) { get; } | Contains data elements from the content classes. |
-| [Picture](picture) { get; set; } | Contains the data related to the contact photos. |
-| [RightsManagementLicense](rightsmanagementlicense) { get; set; } | Contains the rights policy template settings for the template applied to the e-mail message being synchronized. |
+| [Body](../../aspose.email.clients.activesync.transportlayer/searchresultproperties/body) { get; } | Specifies a free-form, variable-length data field associated with a stored item on the server. |
+| [BodyPart](../../aspose.email.clients.activesync.transportlayer/searchresultproperties/bodypart) { get; } | Specifies details about the message part of an e-mail in a response. |
+| [DataContainer](../../aspose.email.clients.activesync.transportlayer/searchresultproperties/datacontainer) { get; } | Contains data elements from the content classes. |
+| [Picture](../../aspose.email.clients.activesync.transportlayer/searchresultproperties/picture) { get; set; } | Contains the data related to the contact photos. |
+| [RightsManagementLicense](../../aspose.email.clients.activesync.transportlayer/searchresultproperties/rightsmanagementlicense) { get; set; } | Contains the rights policy template settings for the template applied to the e-mail message being synchronized. |
 
 ### See Also
 

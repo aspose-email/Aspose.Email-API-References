@@ -22,8 +22,8 @@ public class PersonaResponseShapeType
 
 | Name | Description |
 | --- | --- |
-| [AdditionalProperties](additionalproperties) { get; set; } |  |
-| [BaseShape](baseshape) { get; set; } |  |
+| [AdditionalProperties](../../aspose.email.clients.exchange.webservice.schema_2016/personaresponseshapetype/additionalproperties) { get; set; } |  |
+| [BaseShape](../../aspose.email.clients.exchange.webservice.schema_2016/personaresponseshapetype/baseshape) { get; set; } |  |
 
 ### See Also
 

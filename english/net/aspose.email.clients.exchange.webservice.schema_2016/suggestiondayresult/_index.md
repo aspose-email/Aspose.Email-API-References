@@ -22,9 +22,9 @@ public class SuggestionDayResult
 
 | Name | Description |
 | --- | --- |
-| [Date](date) { get; set; } |  |
-| [DayQuality](dayquality) { get; set; } |  |
-| [SuggestionArray](suggestionarray) { get; set; } |  |
+| [Date](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiondayresult/date) { get; set; } |  |
+| [DayQuality](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiondayresult/dayquality) { get; set; } |  |
+| [SuggestionArray](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiondayresult/suggestionarray) { get; set; } |  |
 
 ### See Also
 

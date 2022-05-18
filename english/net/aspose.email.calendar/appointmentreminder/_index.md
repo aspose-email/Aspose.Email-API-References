@@ -24,15 +24,15 @@ public class AppointmentReminder
 
 | Name | Description |
 | --- | --- |
-| static [Default15MinReminder](default15minreminder) { get; } | Gets the default 15 min reminder. |
-| [Action](action) { get; set; } | Defines the action to be invoked when an alarm is triggered. |
-| [Attachments](attachments) { get; } | Contains collection of ReminderAttachment [`ReminderAttachment`](../reminderattachment)objects. |
-| [Attendees](attendees) { get; } | Contains collection of ReminderAttendee [`ReminderAttendee`](../reminderattendee)objects. |
-| [Description](description) { get; set; } | Provides a more complete description of the alarm. |
-| [Duration](duration) { get; set; } | Specifies the delay period, after which the alarm will repeat. |
-| [Repeat](repeat) { get; set; } | Defines the number of time the alarm should be repeated, after the initial trigger. |
-| [Summary](summary) { get; set; } | Defines a short summary or subject for the alarm. |
-| [Trigger](trigger) { get; set; } | Specifies when an alarm will trigger. |
+| static [Default15MinReminder](../../aspose.email.calendar/appointmentreminder/default15minreminder) { get; } | Gets the default 15 min reminder. |
+| [Action](../../aspose.email.calendar/appointmentreminder/action) { get; set; } | Defines the action to be invoked when an alarm is triggered. |
+| [Attachments](../../aspose.email.calendar/appointmentreminder/attachments) { get; } | Contains collection of ReminderAttachment [`ReminderAttachment`](../reminderattachment)objects. |
+| [Attendees](../../aspose.email.calendar/appointmentreminder/attendees) { get; } | Contains collection of ReminderAttendee [`ReminderAttendee`](../reminderattendee)objects. |
+| [Description](../../aspose.email.calendar/appointmentreminder/description) { get; set; } | Provides a more complete description of the alarm. |
+| [Duration](../../aspose.email.calendar/appointmentreminder/duration) { get; set; } | Specifies the delay period, after which the alarm will repeat. |
+| [Repeat](../../aspose.email.calendar/appointmentreminder/repeat) { get; set; } | Defines the number of time the alarm should be repeated, after the initial trigger. |
+| [Summary](../../aspose.email.calendar/appointmentreminder/summary) { get; set; } | Defines a short summary or subject for the alarm. |
+| [Trigger](../../aspose.email.calendar/appointmentreminder/trigger) { get; set; } | Specifies when an alarm will trigger. |
 
 ### See Also
 

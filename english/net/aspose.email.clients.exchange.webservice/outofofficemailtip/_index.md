@@ -18,8 +18,8 @@ public sealed class OutOfOfficeMailTip
 
 | Name | Description |
 | --- | --- |
-| [Duration](duration) { get; } | Gets the start and end time for sending OOF messages |
-| [ReplyBody](replybody) { get; } | Gets the OOF message response. |
+| [Duration](../../aspose.email.clients.exchange.webservice/outofofficemailtip/duration) { get; } | Gets the start and end time for sending OOF messages |
+| [ReplyBody](../../aspose.email.clients.exchange.webservice/outofofficemailtip/replybody) { get; } | Gets the OOF message response. |
 
 ### See Also
 

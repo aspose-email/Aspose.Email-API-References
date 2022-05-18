@@ -22,21 +22,29 @@ public class Status : CommandStatus, IEquatable<Status>
 | [Status](status)(string) | Initializes a new instance of the Status class. Status code is initialized with 0 value. |
 | [Status](status)(int, string) | Initializes a new instance of the Status class. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| virtual [Description](../../aspose.email.clients/commandstatus/description) { get; } | Contains status description |
+| virtual [StatusCode](../../aspose.email.clients/commandstatus/statuscode) { get; } | Contains status code |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [GetStatus](getstatus)(int) | Gets status by code. |
-| static [GetStatus](getstatus)(CommandCodes, int) | Gets status by code. |
-| static [GetStatus](getstatus)(CommandCodes, string) | Gets status by code. |
-| static [GetStatus](getstatus)(CommandCodes, int, int) | Gets status by code. |
-| static [GetStatus](getstatus)(CommandCodes, string, int) | Gets status by code. |
-| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
-| virtual [Equals](equals)(Status) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
-| [operator ==](op_equality) | The inequality operator (==) returns true if its operands are equal, false otherwise. |
-| [implicit operator](op_implicit) | Converts status to int value |
-| [operator !=](op_inequality) | The inequality operator (!=) returns false if its operands are equal, true otherwise. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(int) | Gets status by code. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(CommandCodes, int) | Gets status by code. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(CommandCodes, string) | Gets status by code. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(CommandCodes, int, int) | Gets status by code. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(CommandCodes, string, int) | Gets status by code. |
+| override [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals)(object) | Determines whether the specified object is equal to the current object. |
+| virtual [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals)(Status) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.email.clients.activesync.transportlayer/status/gethashcode)() | Serves as a hash function for a particular type. |
+| override [ToString](../../aspose.email.clients/commandstatus/tostring)() | Returns a string that represents the current object. |
+| [operator ==](../../aspose.email.clients.activesync.transportlayer/status/op_equality) | The inequality operator (==) returns true if its operands are equal, false otherwise. |
+| [implicit operator](../../aspose.email.clients.activesync.transportlayer/status/op_implicit) | Converts status to int value |
+| [operator !=](../../aspose.email.clients.activesync.transportlayer/status/op_inequality) | The inequality operator (!=) returns false if its operands are equal, true otherwise. |
 
 ### See Also
 

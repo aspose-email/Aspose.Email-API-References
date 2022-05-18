@@ -22,7 +22,7 @@ public class SyncFolderHierarchyDeleteType
 
 | Name | Description |
 | --- | --- |
-| [FolderId](folderid) { get; set; } |  |
+| [FolderId](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchydeletetype/folderid) { get; set; } |  |
 
 ### See Also
 

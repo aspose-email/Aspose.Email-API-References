@@ -24,37 +24,37 @@ public class PhoneNumberCategory : IEquatable<PhoneNumberCategory>
 
 | Name | Description |
 | --- | --- |
-| static [Assistant](assistant) { get; } | Assistant phone number |
-| static [Callback](callback) { get; } | Callback phone number |
-| static [Car](car) { get; } | Car phone number |
-| static [Company](company) { get; } | Company phone number |
-| static [Custom](custom) { get; } | Custom phone category |
-| static [Fax](fax) { get; } | Fax number |
-| static [Home](home) { get; } | Home phone number |
-| static [HomeFax](homefax) { get; } | Home fax number |
-| static [Isdn](isdn) { get; } | Isdn phone number |
-| static [Mobile](mobile) { get; } | Mobile phone number |
-| static [Office](office) { get; } | Office phone number |
-| static [Pager](pager) { get; } | Pager number |
-| static [Primary](primary) { get; } | Primary phone number |
-| static [Radio](radio) { get; } | Radio phone number |
-| static [Telex](telex) { get; } | Telex |
-| static [TtyTdd](ttytdd) { get; } | Tty/Tdd |
-| static [Work](work) { get; } | Work phone number |
-| static [WorkFax](workfax) { get; } | Work fax number |
-| [Description](description) { get; } | Gets description for the 'Custom' category of a phone number |
-| [Value](value) { get; } | Gets category of a phone number |
+| static [Assistant](../../aspose.email.personalinfo/phonenumbercategory/assistant) { get; } | Assistant phone number |
+| static [Callback](../../aspose.email.personalinfo/phonenumbercategory/callback) { get; } | Callback phone number |
+| static [Car](../../aspose.email.personalinfo/phonenumbercategory/car) { get; } | Car phone number |
+| static [Company](../../aspose.email.personalinfo/phonenumbercategory/company) { get; } | Company phone number |
+| static [Custom](../../aspose.email.personalinfo/phonenumbercategory/custom) { get; } | Custom phone category |
+| static [Fax](../../aspose.email.personalinfo/phonenumbercategory/fax) { get; } | Fax number |
+| static [Home](../../aspose.email.personalinfo/phonenumbercategory/home) { get; } | Home phone number |
+| static [HomeFax](../../aspose.email.personalinfo/phonenumbercategory/homefax) { get; } | Home fax number |
+| static [Isdn](../../aspose.email.personalinfo/phonenumbercategory/isdn) { get; } | Isdn phone number |
+| static [Mobile](../../aspose.email.personalinfo/phonenumbercategory/mobile) { get; } | Mobile phone number |
+| static [Office](../../aspose.email.personalinfo/phonenumbercategory/office) { get; } | Office phone number |
+| static [Pager](../../aspose.email.personalinfo/phonenumbercategory/pager) { get; } | Pager number |
+| static [Primary](../../aspose.email.personalinfo/phonenumbercategory/primary) { get; } | Primary phone number |
+| static [Radio](../../aspose.email.personalinfo/phonenumbercategory/radio) { get; } | Radio phone number |
+| static [Telex](../../aspose.email.personalinfo/phonenumbercategory/telex) { get; } | Telex |
+| static [TtyTdd](../../aspose.email.personalinfo/phonenumbercategory/ttytdd) { get; } | Tty/Tdd |
+| static [Work](../../aspose.email.personalinfo/phonenumbercategory/work) { get; } | Work phone number |
+| static [WorkFax](../../aspose.email.personalinfo/phonenumbercategory/workfax) { get; } | Work fax number |
+| [Description](../../aspose.email.personalinfo/phonenumbercategory/description) { get; } | Gets description for the 'Custom' category of a phone number |
+| [Value](../../aspose.email.personalinfo/phonenumbercategory/value) { get; } | Gets category of a phone number |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| virtual [Equals](equals)(PhoneNumberCategory) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](gethashcode)() | GetHashCode returns a hash function for this object. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [operator ==](op_equality) | Determines whether the specified objects are equal. |
-| [operator !=](op_inequality) | Determines whether the specified objects are not equal. |
+| override [Equals](../../aspose.email.personalinfo/phonenumbercategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| virtual [Equals](../../aspose.email.personalinfo/phonenumbercategory/equals)(PhoneNumberCategory) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.email.personalinfo/phonenumbercategory/gethashcode)() | GetHashCode returns a hash function for this object. |
+| override [ToString](../../aspose.email.personalinfo/phonenumbercategory/tostring)() | Returns a string that represents the current object. |
+| [operator ==](../../aspose.email.personalinfo/phonenumbercategory/op_equality) | Determines whether the specified objects are equal. |
+| [operator !=](../../aspose.email.personalinfo/phonenumbercategory/op_inequality) | Determines whether the specified objects are not equal. |
 
 ## Other Members
 

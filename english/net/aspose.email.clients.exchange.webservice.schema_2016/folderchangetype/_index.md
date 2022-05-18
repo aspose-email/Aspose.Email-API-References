@@ -22,8 +22,8 @@ public class FolderChangeType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
-| [Updates](updates) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/folderchangetype/item) { get; set; } |  |
+| [Updates](../../aspose.email.clients.exchange.webservice.schema_2016/folderchangetype/updates) { get; set; } |  |
 
 ### See Also
 

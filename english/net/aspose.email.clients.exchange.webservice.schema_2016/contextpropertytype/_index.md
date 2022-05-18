@@ -22,8 +22,8 @@ public class ContextPropertyType
 
 | Name | Description |
 | --- | --- |
-| [Key](key) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Key](../../aspose.email.clients.exchange.webservice.schema_2016/contextpropertytype/key) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/contextpropertytype/value) { get; set; } |  |
 
 ### See Also
 

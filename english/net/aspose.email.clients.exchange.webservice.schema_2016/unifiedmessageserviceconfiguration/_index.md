@@ -22,9 +22,9 @@ public class UnifiedMessageServiceConfiguration : ServiceConfiguration
 
 | Name | Description |
 | --- | --- |
-| [PlayOnPhoneDialString](playonphonedialstring) { get; set; } |  |
-| [PlayOnPhoneEnabled](playonphoneenabled) { get; set; } |  |
-| [UmEnabled](umenabled) { get; set; } |  |
+| [PlayOnPhoneDialString](../../aspose.email.clients.exchange.webservice.schema_2016/unifiedmessageserviceconfiguration/playonphonedialstring) { get; set; } |  |
+| [PlayOnPhoneEnabled](../../aspose.email.clients.exchange.webservice.schema_2016/unifiedmessageserviceconfiguration/playonphoneenabled) { get; set; } |  |
+| [UmEnabled](../../aspose.email.clients.exchange.webservice.schema_2016/unifiedmessageserviceconfiguration/umenabled) { get; set; } |  |
 
 ### See Also
 

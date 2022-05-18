@@ -18,7 +18,13 @@ public class ExtendedPropertiesComparisonField : ComparisonField
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets [`ComparisonFieldAdapter`](../comparisonfieldadapter) for [`PropertyDescriptor`](../../aspose.email.mapi/propertydescriptor) |
+| [Item](../../aspose.email.clients.exchange/extendedpropertiescomparisonfield/item) { get; } | Gets [`ComparisonFieldAdapter`](../comparisonfieldadapter) for [`PropertyDescriptor`](../../aspose.email.mapi/propertydescriptor) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | Sets value which indicates if client uses ascending or descending sorting on the Field. |
 
 ### See Also
 

@@ -22,7 +22,7 @@ public class GetRoomsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [RoomList](roomlist) { get; set; } |  |
+| [RoomList](../../aspose.email.clients.exchange.webservice.schema_2016/getroomstype/roomlist) { get; set; } |  |
 
 ### See Also
 

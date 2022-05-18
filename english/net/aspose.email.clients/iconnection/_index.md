@@ -18,8 +18,8 @@ public interface IConnection : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [ConnectionId](connectionid) { get; } | Gets connection Id |
-| [IsDisposed](isdisposed) { get; } | Gets value which is indicates whether connection is disposed |
+| [ConnectionId](../../aspose.email.clients/iconnection/connectionid) { get; } | Gets connection Id |
+| [IsDisposed](../../aspose.email.clients/iconnection/isdisposed) { get; } | Gets value which is indicates whether connection is disposed |
 
 ### See Also
 

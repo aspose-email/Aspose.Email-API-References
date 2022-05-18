@@ -22,8 +22,9 @@ public class RelativeMonthlyRecurrencePatternType : IntervalRecurrencePatternBas
 
 | Name | Description |
 | --- | --- |
-| [DayOfWeekIndex](dayofweekindex) { get; set; } |  |
-| [DaysOfWeek](daysofweek) { get; set; } |  |
+| [DayOfWeekIndex](../../aspose.email.clients.exchange.webservice.schema_2016/relativemonthlyrecurrencepatterntype/dayofweekindex) { get; set; } |  |
+| [DaysOfWeek](../../aspose.email.clients.exchange.webservice.schema_2016/relativemonthlyrecurrencepatterntype/daysofweek) { get; set; } |  |
+| [Interval](../../aspose.email.clients.exchange.webservice.schema_2016/intervalrecurrencepatternbasetype/interval) { get; set; } |  |
 
 ### See Also
 

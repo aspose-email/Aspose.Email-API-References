@@ -24,10 +24,10 @@ public class SearchResult
 
 | Name | Description |
 | --- | --- |
-| [Class](class) { get; set; } | Identifies the class of the item. |
-| [CollectionId](collectionid) { get; } | Specifies the folders in which the item was found. |
-| [LongId](longid) { get; set; } | Specifies a unique identifier that is assigned by the server to each result set that is returned. The value of the LongId can be used as the long ID specified in the ItemOperations command request, the SmartReply command request, the SmartForward command request, or the MeetingResponse command request to reference the result set. The client MUST store the value of LongId as an opaque string of up to 256 characters. |
-| [Properties](properties) { get; set; } | The Search command response Properties is a container for properties that apply to an individual entry that matches the Query element search string. For example, the Properties element contains an element for each nonempty, text-valued GAL property that is attached to the matching GAL entry. Only those properties that are attached to the specific GAL entry are returned; therefore different sets of properties can be returned in the response XML for different matching GAL entries. Each element in the Properties container is scoped to the appropriate namespace that is specified in the top-level Search element. |
+| [Class](../../aspose.email.clients.activesync.transportlayer/searchresult/class) { get; set; } | Identifies the class of the item. |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/searchresult/collectionid) { get; } | Specifies the folders in which the item was found. |
+| [LongId](../../aspose.email.clients.activesync.transportlayer/searchresult/longid) { get; set; } | Specifies a unique identifier that is assigned by the server to each result set that is returned. The value of the LongId can be used as the long ID specified in the ItemOperations command request, the SmartReply command request, the SmartForward command request, or the MeetingResponse command request to reference the result set. The client MUST store the value of LongId as an opaque string of up to 256 characters. |
+| [Properties](../../aspose.email.clients.activesync.transportlayer/searchresult/properties) { get; set; } | The Search command response Properties is a container for properties that apply to an individual entry that matches the Query element search string. For example, the Properties element contains an element for each nonempty, text-valued GAL property that is attached to the matching GAL entry. Only those properties that are attached to the specific GAL entry are returned; therefore different sets of properties can be returned in the response XML for different matching GAL entries. Each element in the Properties container is scoped to the appropriate namespace that is specified in the top-level Search element. |
 
 ### See Also
 

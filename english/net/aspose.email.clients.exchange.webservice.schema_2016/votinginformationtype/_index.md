@@ -22,8 +22,8 @@ public class VotingInformationType
 
 | Name | Description |
 | --- | --- |
-| [UserOptions](useroptions) { get; set; } |  |
-| [VotingResponse](votingresponse) { get; set; } |  |
+| [UserOptions](../../aspose.email.clients.exchange.webservice.schema_2016/votinginformationtype/useroptions) { get; set; } |  |
+| [VotingResponse](../../aspose.email.clients.exchange.webservice.schema_2016/votinginformationtype/votingresponse) { get; set; } |  |
 
 ### See Also
 

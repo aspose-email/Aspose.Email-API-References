@@ -22,8 +22,9 @@ public class AttendeeConstraintItem : MeetingTimeCandidatesConstraintItem
 
 | Name | Description |
 | --- | --- |
-| [IsRequired](isrequired) { get; set; } |  |
-| [IsRequiredSpecified](isrequiredspecified) { get; set; } |  |
+| [Email](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidatesconstraintitem/email) { get; set; } |  |
+| [IsRequired](../../aspose.email.clients.exchange.webservice.schema_2016/attendeeconstraintitem/isrequired) { get; set; } |  |
+| [IsRequiredSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attendeeconstraintitem/isrequiredspecified) { get; set; } |  |
 
 ### See Also
 

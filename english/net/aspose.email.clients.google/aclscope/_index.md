@@ -25,8 +25,8 @@ public class AclScope
 
 | Name | Description |
 | --- | --- |
-| [Type](type) { get; set; } | The type of the ACL scope. |
-| [Value](value) { get; set; } | The email address of a user or group, or the name of a domain, depending on the scope type. Omitted for type "default". |
+| [Type](../../aspose.email.clients.google/aclscope/type) { get; set; } | The type of the ACL scope. |
+| [Value](../../aspose.email.clients.google/aclscope/value) { get; set; } | The email address of a user or group, or the name of a domain, depending on the scope type. Omitted for type "default". |
 
 ### See Also
 

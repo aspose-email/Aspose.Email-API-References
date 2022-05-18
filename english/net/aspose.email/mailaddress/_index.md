@@ -29,24 +29,24 @@ public class MailAddress : IMailAddress
 
 | Name | Description |
 | --- | --- |
-| [Address](address) { get; set; } | Gets or sets the e-mail address. |
-| [Count](count) { get; } | Contains count of mail addresses. |
-| [DisplayName](displayname) { get; set; } | Gets or sets a display name. |
-| [Host](host) { get; } | Gets the host portion of the address. |
-| [Id](id) { get; } | Gets object identification information |
-| [Item](item) { get; } | Gets the element at the specified index. |
-| [OriginalAddressString](originaladdressstring) { get; } | Gets or sets the original e-mail address string. |
-| [ParticipationStatus](participationstatus) { get; set; } | Gets or sets the participation status for the calendar user. |
-| [User](user) { get; } | Gets the username. |
+| [Address](../../aspose.email/mailaddress/address) { get; set; } | Gets or sets the e-mail address. |
+| [Count](../../aspose.email/mailaddress/count) { get; } | Contains count of mail addresses. |
+| [DisplayName](../../aspose.email/mailaddress/displayname) { get; set; } | Gets or sets a display name. |
+| [Host](../../aspose.email/mailaddress/host) { get; } | Gets the host portion of the address. |
+| [Id](../../aspose.email/mailaddress/id) { get; } | Gets object identification information |
+| [Item](../../aspose.email/mailaddress/item) { get; } | Gets the element at the specified index. |
+| [OriginalAddressString](../../aspose.email/mailaddress/originaladdressstring) { get; } | Gets or sets the original e-mail address string. |
+| [ParticipationStatus](../../aspose.email/mailaddress/participationstatus) { get; set; } | Gets or sets the participation status for the calendar user. |
+| [User](../../aspose.email/mailaddress/user) { get; } | Gets the username. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to this instance. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
-| [implicit operator](op_implicit) | Performs an implicit conversion from String to [`MailAddress`](../mailaddress). (2 operators) |
+| override [Equals](../../aspose.email/mailaddress/equals)(object) | Determines whether the specified Object is equal to this instance. |
+| override [GetHashCode](../../aspose.email/mailaddress/gethashcode)() | Returns a hash code for this instance. |
+| override [ToString](../../aspose.email/mailaddress/tostring)() | Returns a String that represents this instance. |
+| [implicit operator](../../aspose.email/mailaddress/op_implicit) | Performs an implicit conversion from String to [`MailAddress`](../mailaddress). (2 operators) |
 
 ### See Also
 

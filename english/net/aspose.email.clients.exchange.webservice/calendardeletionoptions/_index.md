@@ -26,10 +26,11 @@ public class CalendarDeletionOptions : DeletionOptions
 
 | Name | Description |
 | --- | --- |
-| static [Default](default) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings uses by default |
-| static [DeletePermanently](deletepermanently) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings for permanent deletion |
-| static [MoveToDeletedItems](movetodeleteditems) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings for moving to deleted items |
-| [NotyficationType](notyficationtype) { get; set; } | Gets or sets value which indicates how members of event has to be notified |
+| static [Default](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/default) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings uses by default |
+| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/deletepermanently) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings for permanent deletion |
+| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/movetodeleteditems) { get; } | Gets instance of the [`DeletionOptions`](../deletionoptions) object with settings for moving to deleted items |
+| [NotyficationType](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/notyficationtype) { get; set; } | Gets or sets value which indicates how members of event has to be notified |
+| [Type](../../aspose.email.clients.exchange.webservice/deletionoptions/type) { get; set; } | Type of deletion |
 
 ### See Also
 

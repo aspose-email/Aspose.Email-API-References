@@ -22,8 +22,8 @@ public class RecurrenceType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
-| [Item1](item1) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/recurrencetype/item) { get; set; } |  |
+| [Item1](../../aspose.email.clients.exchange.webservice.schema_2016/recurrencetype/item1) { get; set; } |  |
 
 ### See Also
 

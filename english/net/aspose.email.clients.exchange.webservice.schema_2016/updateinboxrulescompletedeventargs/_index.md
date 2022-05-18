@@ -16,7 +16,7 @@ public class UpdateInboxRulesCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/updateinboxrulescompletedeventargs/result) { get; } |  |
 
 ### See Also
 

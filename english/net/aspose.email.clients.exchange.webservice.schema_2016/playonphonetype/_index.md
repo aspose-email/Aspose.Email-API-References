@@ -22,8 +22,8 @@ public class PlayOnPhoneType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DialString](dialstring) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
+| [DialString](../../aspose.email.clients.exchange.webservice.schema_2016/playonphonetype/dialstring) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/playonphonetype/itemid) { get; set; } |  |
 
 ### See Also
 

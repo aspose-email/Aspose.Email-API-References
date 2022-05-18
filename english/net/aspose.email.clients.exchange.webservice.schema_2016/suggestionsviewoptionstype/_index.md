@@ -22,20 +22,20 @@ public class SuggestionsViewOptionsType
 
 | Name | Description |
 | --- | --- |
-| [CurrentMeetingTime](currentmeetingtime) { get; set; } |  |
-| [CurrentMeetingTimeSpecified](currentmeetingtimespecified) { get; set; } |  |
-| [DetailedSuggestionsWindow](detailedsuggestionswindow) { get; set; } |  |
-| [GlobalObjectId](globalobjectid) { get; set; } |  |
-| [GoodThreshold](goodthreshold) { get; set; } |  |
-| [GoodThresholdSpecified](goodthresholdspecified) { get; set; } |  |
-| [MaximumNonWorkHourResultsByDay](maximumnonworkhourresultsbyday) { get; set; } |  |
-| [MaximumNonWorkHourResultsByDaySpecified](maximumnonworkhourresultsbydayspecified) { get; set; } |  |
-| [MaximumResultsByDay](maximumresultsbyday) { get; set; } |  |
-| [MaximumResultsByDaySpecified](maximumresultsbydayspecified) { get; set; } |  |
-| [MeetingDurationInMinutes](meetingdurationinminutes) { get; set; } |  |
-| [MeetingDurationInMinutesSpecified](meetingdurationinminutesspecified) { get; set; } |  |
-| [MinimumSuggestionQuality](minimumsuggestionquality) { get; set; } |  |
-| [MinimumSuggestionQualitySpecified](minimumsuggestionqualityspecified) { get; set; } |  |
+| [CurrentMeetingTime](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/currentmeetingtime) { get; set; } |  |
+| [CurrentMeetingTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/currentmeetingtimespecified) { get; set; } |  |
+| [DetailedSuggestionsWindow](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/detailedsuggestionswindow) { get; set; } |  |
+| [GlobalObjectId](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/globalobjectid) { get; set; } |  |
+| [GoodThreshold](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/goodthreshold) { get; set; } |  |
+| [GoodThresholdSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/goodthresholdspecified) { get; set; } |  |
+| [MaximumNonWorkHourResultsByDay](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/maximumnonworkhourresultsbyday) { get; set; } |  |
+| [MaximumNonWorkHourResultsByDaySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/maximumnonworkhourresultsbydayspecified) { get; set; } |  |
+| [MaximumResultsByDay](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/maximumresultsbyday) { get; set; } |  |
+| [MaximumResultsByDaySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/maximumresultsbydayspecified) { get; set; } |  |
+| [MeetingDurationInMinutes](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/meetingdurationinminutes) { get; set; } |  |
+| [MeetingDurationInMinutesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/meetingdurationinminutesspecified) { get; set; } |  |
+| [MinimumSuggestionQuality](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/minimumsuggestionquality) { get; set; } |  |
+| [MinimumSuggestionQualitySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsviewoptionstype/minimumsuggestionqualityspecified) { get; set; } |  |
 
 ### See Also
 

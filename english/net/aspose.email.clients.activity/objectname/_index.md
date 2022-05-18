@@ -24,14 +24,14 @@ public class ObjectName
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | Gets or sets object name identifier |
-| [Name](name) { get; set; } | Gets or sets object name |
+| [Id](../../aspose.email.clients.activity/objectname/id) { get; set; } | Gets or sets object name identifier |
+| [Name](../../aspose.email.clients.activity/objectname/name) { get; set; } | Gets or sets object name |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email.clients.activity/objectname/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

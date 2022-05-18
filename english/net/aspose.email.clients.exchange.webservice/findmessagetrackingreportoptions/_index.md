@@ -24,16 +24,16 @@ public sealed class FindMessageTrackingReportOptions
 
 | Name | Description |
 | --- | --- |
-| [DiagnosticsLevel](diagnosticslevel) { get; set; } | Gets or sets diagnostics level specifying how detailed the tracing report should be. |
-| [Domain](domain) { get; set; } | Gets or sets the domain to search for. |
-| [EndDateTime](enddatetime) { get; set; } | Gets or sets the search time period, indicating that the message was sent before this value. |
-| [FederatedDeliveryMailbox](federateddeliverymailbox) { get; set; } | Gets or sets the mailbox to which a cross-premise message was sent. |
-| [MessageId](messageid) { get; set; } | Gets or sets the message identification to search for. |
-| [Recipient](recipient) { get; set; } | Gets or sets the e-mail addresses of the people who are receiving the message. |
-| [Scope](scope) { get; set; } | Gets or sets the search scope (non-empty string) |
-| [Sender](sender) { get; set; } | Gets or sets the e-mail address of the person who is sending the message. |
-| [StartDateTime](startdatetime) { get; set; } | Gets or sets the search time period, indicating that the message was sent after this value. |
-| [Subject](subject) { get; set; } | Gets or sets the subject filter to search for. |
+| [DiagnosticsLevel](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/diagnosticslevel) { get; set; } | Gets or sets diagnostics level specifying how detailed the tracing report should be. |
+| [Domain](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/domain) { get; set; } | Gets or sets the domain to search for. |
+| [EndDateTime](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/enddatetime) { get; set; } | Gets or sets the search time period, indicating that the message was sent before this value. |
+| [FederatedDeliveryMailbox](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/federateddeliverymailbox) { get; set; } | Gets or sets the mailbox to which a cross-premise message was sent. |
+| [MessageId](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/messageid) { get; set; } | Gets or sets the message identification to search for. |
+| [Recipient](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/recipient) { get; set; } | Gets or sets the e-mail addresses of the people who are receiving the message. |
+| [Scope](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/scope) { get; set; } | Gets or sets the search scope (non-empty string) |
+| [Sender](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/sender) { get; set; } | Gets or sets the e-mail address of the person who is sending the message. |
+| [StartDateTime](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/startdatetime) { get; set; } | Gets or sets the search time period, indicating that the message was sent after this value. |
+| [Subject](../../aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/subject) { get; set; } | Gets or sets the subject filter to search for. |
 
 ### See Also
 

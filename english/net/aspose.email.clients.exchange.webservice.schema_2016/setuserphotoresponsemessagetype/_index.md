@@ -18,6 +18,12 @@ public class SetUserPhotoResponseMessageType : BaseResponseMessageType
 | --- | --- |
 | [SetUserPhotoResponseMessageType](setuserphotoresponsemessagetype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [ResponseMessages](../../aspose.email.clients.exchange.webservice.schema_2016/baseresponsemessagetype/responsemessages) { get; set; } |  |
+
 ### See Also
 
 * class [BaseResponseMessageType](../baseresponsemessagetype)

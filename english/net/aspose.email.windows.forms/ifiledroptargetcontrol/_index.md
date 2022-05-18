@@ -18,17 +18,17 @@ public interface IFileDropTargetControl
 
 | Name | Description |
 | --- | --- |
-| [AllowDrop](allowdrop) { get; set; } | Gets or sets a value indicating whether the control can accept data that the user drags onto it. |
-| [Handle](handle) { get; } | Contains the window handle (HWND) of the control. |
+| [AllowDrop](../../aspose.email.windows.forms/ifiledroptargetcontrol/allowdrop) { get; set; } | Gets or sets a value indicating whether the control can accept data that the user drags onto it. |
+| [Handle](../../aspose.email.windows.forms/ifiledroptargetcontrol/handle) { get; } | Contains the window handle (HWND) of the control. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [OnDragDrop](ondragdrop)(DragEventArgs) | Raises the DragDrop event. |
-| [OnDragEnter](ondragenter)(DragEventArgs) | Raises the DragEnter event. |
-| [OnDragLeave](ondragleave)(EventArgs) | Raises the DragLeave event. |
-| [OnDragOver](ondragover)(DragEventArgs) | Raises the DragOver event. |
+| [OnDragDrop](../../aspose.email.windows.forms/ifiledroptargetcontrol/ondragdrop)(DragEventArgs) | Raises the DragDrop event. |
+| [OnDragEnter](../../aspose.email.windows.forms/ifiledroptargetcontrol/ondragenter)(DragEventArgs) | Raises the DragEnter event. |
+| [OnDragLeave](../../aspose.email.windows.forms/ifiledroptargetcontrol/ondragleave)(EventArgs) | Raises the DragLeave event. |
+| [OnDragOver](../../aspose.email.windows.forms/ifiledroptargetcontrol/ondragover)(DragEventArgs) | Raises the DragOver event. |
 
 ### See Also
 

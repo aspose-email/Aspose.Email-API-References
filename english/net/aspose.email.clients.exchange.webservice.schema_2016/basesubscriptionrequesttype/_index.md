@@ -16,11 +16,11 @@ public abstract class BaseSubscriptionRequestType
 
 | Name | Description |
 | --- | --- |
-| [EventTypes](eventtypes) { get; set; } |  |
-| [FolderIds](folderids) { get; set; } |  |
-| [SubscribeToAllFolders](subscribetoallfolders) { get; set; } |  |
-| [SubscribeToAllFoldersSpecified](subscribetoallfoldersspecified) { get; set; } |  |
-| [Watermark](watermark) { get; set; } |  |
+| [EventTypes](../../aspose.email.clients.exchange.webservice.schema_2016/basesubscriptionrequesttype/eventtypes) { get; set; } |  |
+| [FolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/basesubscriptionrequesttype/folderids) { get; set; } |  |
+| [SubscribeToAllFolders](../../aspose.email.clients.exchange.webservice.schema_2016/basesubscriptionrequesttype/subscribetoallfolders) { get; set; } |  |
+| [SubscribeToAllFoldersSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/basesubscriptionrequesttype/subscribetoallfoldersspecified) { get; set; } |  |
+| [Watermark](../../aspose.email.clients.exchange.webservice.schema_2016/basesubscriptionrequesttype/watermark) { get; set; } |  |
 
 ### See Also
 

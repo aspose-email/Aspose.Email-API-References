@@ -22,16 +22,16 @@ public class FindAvailableMeetingTimesType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ActivityDomain](activitydomain) { get; set; } |  |
-| [ActivityDomainSpecified](activitydomainspecified) { get; set; } |  |
-| [Attendees](attendees) { get; set; } |  |
-| [Location](location) { get; set; } |  |
-| [MaxCandidates](maxcandidates) { get; set; } |  |
-| [MaxCandidatesSpecified](maxcandidatesspecified) { get; set; } |  |
-| [MeetingDurationInMinutes](meetingdurationinminutes) { get; set; } |  |
-| [MeetingDurationInMinutesSpecified](meetingdurationinminutesspecified) { get; set; } |  |
-| [SearchWindowDuration](searchwindowduration) { get; set; } |  |
-| [SearchWindowStart](searchwindowstart) { get; set; } |  |
+| [ActivityDomain](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/activitydomain) { get; set; } |  |
+| [ActivityDomainSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/activitydomainspecified) { get; set; } |  |
+| [Attendees](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/attendees) { get; set; } |  |
+| [Location](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/location) { get; set; } |  |
+| [MaxCandidates](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/maxcandidates) { get; set; } |  |
+| [MaxCandidatesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/maxcandidatesspecified) { get; set; } |  |
+| [MeetingDurationInMinutes](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/meetingdurationinminutes) { get; set; } |  |
+| [MeetingDurationInMinutesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/meetingdurationinminutesspecified) { get; set; } |  |
+| [SearchWindowDuration](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/searchwindowduration) { get; set; } |  |
+| [SearchWindowStart](../../aspose.email.clients.exchange.webservice.schema_2016/findavailablemeetingtimestype/searchwindowstart) { get; set; } |  |
 
 ### See Also
 

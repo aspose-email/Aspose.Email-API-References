@@ -35,7 +35,7 @@ The **Aspose.Email** namespace contains common classes of Aspose.Email.
 | [EmlLoadOptions](./emlloadoptions) | Allows to specify additional options when loading MailMessage from Eml format. |
 | [EmlSaveOptions](./emlsaveoptions) | Allows to specify additional options when saving MailMessage to Eml and Emlx format. |
 | [EmlValidationError](./emlvalidationerror) | Represents the eml validation error information. |
-| [EmlValidationErrorCollection](./emlvalidationerrorcollection) | Represents the collection of [`EmlValidationError`](aspose.email/emlvalidationerror) |
+| [EmlValidationErrorCollection](./emlvalidationerrorcollection) | Represents the collection of [`EmlValidationError`](../aspose.email/emlvalidationerror) |
 | [EmlxLoadOptions](./emlxloadoptions) | Allows to specify additional options when loading MailMessage from Eml format. |
 | [ExchangeException](./exchangeexception) | Thrown if there is a MS Exchange communication failure. |
 | [FileCorruptedException](./filecorruptedexception) | Exception that is thrown during file reading, when the file appears to be corrupted and impossible to read. |
@@ -55,10 +55,10 @@ The **Aspose.Email** namespace contains common classes of Aspose.Email.
 | [LinkedResourceRemovedEventArgs](./linkedresourceremovedeventargs) |  |
 | [LoadOptions](./loadoptions) | This is an abstract base class for classes that allow the user to specify additional options when loading a MailMessage from a particular format. |
 | [MailAddress](./mailaddress) | Represents the address of a message. |
-| [MailAddressCollection](./mailaddresscollection) | Represents a collection of [`MailAddress`](aspose.email/mailaddress) objects. |
+| [MailAddressCollection](./mailaddresscollection) | Represents a collection of [`MailAddress`](../aspose.email/mailaddress) objects. |
 | [MailException](./mailexception) | Represents the exception that is thrown when the mail message processing. |
 | [MailMessage](./mailmessage) | Represents an e-mail message. It allows to access message properties, ex. subject, body, sender and recipients addreses, etc. Also it can be sent and delivered by means of supported mail protocols. |
-| [MailMessageCollection](./mailmessagecollection) | Represents a collection of [`MailMessage`](aspose.email/mailmessage) objects. |
+| [MailMessageCollection](./mailmessagecollection) | Represents a collection of [`MailMessage`](../aspose.email/mailmessage) objects. |
 | [MailMessageSaveType](./mailmessagesavetype) | Represents the mail message format.It can be in eml,msg or mhtml format. |
 | [MessageAcceptanceCallback](./messageacceptancecallback) | Callback function which is being called during the conversion process. |
 | [MessageFormat](./messageformat) | Represents the mail message format.It can be in eml,msg or mhtml format. |
@@ -67,7 +67,7 @@ The **Aspose.Email** namespace contains common classes of Aspose.Email.
 | [MhtSaveOptions](./mhtsaveoptions) | Allows to specify additional options when saving MailMessage to Mhtml format. |
 | [MhtTemplateName](./mhttemplatename) | Defines well known names of headers for Mhtml formatting. |
 | [MsgLoadOptions](./msgloadoptions) | Allows to specify additional options when loading MailMessage from Msg format. |
-| [MsgSaveOptions](./msgsaveoptions) | This class allows the user to specify additional settings when saving a MailMessage in the Msg(ASCII) and Msg(Unicode) format. |
+| [MsgSaveOptions](./msgsaveoptions) | This class allows the user to specify additional settings when saving a MailMessage in the Msg(../ASCII) and Msg(../Unicode) format. |
 | [ObjectIdentifier](./objectidentifier) | Contains object identification information |
 | [Pop3Exception](./pop3exception) | Represents the exception that is thrown when the Pop3Client is not able to complete an operation. |
 | [ProgressEventHandlerInfo](./progresseventhandlerinfo) | This class represents information about conversion progress that can be used in external applicatuion to show conversion progress to end user. |

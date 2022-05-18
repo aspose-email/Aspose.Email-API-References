@@ -24,16 +24,19 @@ public class AmpCarousel : AmpComponent
 
 | Name | Description |
 | --- | --- |
-| [Images](images) { get; } | Set of images for displaying. |
-| override [RequiredScript](requiredscript) { get; } | Required script that muct be added to head section. |
-| [Type](type) { get; set; } | Specifies the display type for the carousel items. |
+| [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP provides a set of common attributes that are extended to many AMP components. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
+| [Images](../../aspose.email.amp/ampcarousel/images) { get; } | Set of images for displaying. |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. If specified, a placeholder element must be a direct child of the AMP element. |
+| override [RequiredScript](../../aspose.email.amp/ampcarousel/requiredscript) { get; } | Required script that muct be added to head section. |
+| [Type](../../aspose.email.amp/ampcarousel/type) { get; set; } | Specifies the display type for the carousel items. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToAmpHtml](toamphtml)() | Represents amp html version of component. |
-| override [ToHtml](tohtml)() | Represents html version of component. |
+| override [ToAmpHtml](../../aspose.email.amp/ampcarousel/toamphtml)() | Represents amp html version of component. |
+| override [ToHtml](../../aspose.email.amp/ampcarousel/tohtml)() | Represents html version of component. |
 
 ### See Also
 

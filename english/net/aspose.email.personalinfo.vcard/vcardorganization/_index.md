@@ -24,12 +24,12 @@ public sealed class VCardOrganization
 
 | Name | Description |
 | --- | --- |
-| [Agent](agent) { get; set; } | Gets or sets an agent |
-| [Departments](departments) { get; set; } | Gets or sets a departments |
-| [Logo](logo) { get; set; } | Gets or sets a logo |
-| [Organization](organization) { get; set; } | Gets or sets a organization |
-| [Role](role) { get; set; } | Gets or sets a role |
-| [Title](title) { get; set; } | Gets or sets a job title |
+| [Agent](../../aspose.email.personalinfo.vcard/vcardorganization/agent) { get; set; } | Gets or sets an agent |
+| [Departments](../../aspose.email.personalinfo.vcard/vcardorganization/departments) { get; set; } | Gets or sets a departments |
+| [Logo](../../aspose.email.personalinfo.vcard/vcardorganization/logo) { get; set; } | Gets or sets a logo |
+| [Organization](../../aspose.email.personalinfo.vcard/vcardorganization/organization) { get; set; } | Gets or sets a organization |
+| [Role](../../aspose.email.personalinfo.vcard/vcardorganization/role) { get; set; } | Gets or sets a role |
+| [Title](../../aspose.email.personalinfo.vcard/vcardorganization/title) { get; set; } | Gets or sets a job title |
 
 ### See Also
 

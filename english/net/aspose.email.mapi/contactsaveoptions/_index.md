@@ -18,7 +18,7 @@ public abstract class ContactSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [SaveFormat](saveformat) { get; } | Gets a save format |
+| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat) { get; } | Gets a save format |
 
 ### See Also
 

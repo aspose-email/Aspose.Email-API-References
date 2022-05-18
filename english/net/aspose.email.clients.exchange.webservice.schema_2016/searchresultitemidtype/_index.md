@@ -22,8 +22,10 @@ public class SearchResultItemIdType : ItemIdType
 
 | Name | Description |
 | --- | --- |
-| [EntryId](entryid) { get; set; } |  |
-| [OutlookItemId](outlookitemid) { get; set; } |  |
+| [ChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/itemidtype/changekey) { get; set; } |  |
+| [EntryId](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultitemidtype/entryid) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/itemidtype/id) { get; set; } |  |
+| [OutlookItemId](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultitemidtype/outlookitemid) { get; set; } |  |
 
 ### See Also
 

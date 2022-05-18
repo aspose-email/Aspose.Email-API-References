@@ -25,9 +25,9 @@ public class ItemEstimateOptions
 
 | Name | Description |
 | --- | --- |
-| [Class](class) { get; set; } | Identifies the class of the item. |
-| [FilterType](filtertype) { get; set; } | Specifies an optional time window for the objects |
-| [MaxItems](maxitems) { get; set; } | Specifies the maximum number of items to include in the response. |
+| [Class](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/class) { get; set; } | Identifies the class of the item. |
+| [FilterType](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/filtertype) { get; set; } | Specifies an optional time window for the objects |
+| [MaxItems](../../aspose.email.clients.activesync.transportlayer/itemestimateoptions/maxitems) { get; set; } | Specifies the maximum number of items to include in the response. |
 
 ### See Also
 

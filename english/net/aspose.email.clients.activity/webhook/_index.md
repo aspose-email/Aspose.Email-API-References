@@ -24,10 +24,10 @@ public class Webhook
 
 | Name | Description |
 | --- | --- |
-| [Address](address) { get; set; } | Gets or sets webhook address |
-| [AuthId](authid) { get; set; } | Gets or sets authentication identifier |
-| [Expiration](expiration) { get; set; } | Gets or sets expiration date |
-| [Status](status) { get; set; } | Gets or sets webhook status |
+| [Address](../../aspose.email.clients.activity/webhook/address) { get; set; } | Gets or sets webhook address |
+| [AuthId](../../aspose.email.clients.activity/webhook/authid) { get; set; } | Gets or sets authentication identifier |
+| [Expiration](../../aspose.email.clients.activity/webhook/expiration) { get; set; } | Gets or sets expiration date |
+| [Status](../../aspose.email.clients.activity/webhook/status) { get; set; } | Gets or sets webhook status |
 
 ### See Also
 

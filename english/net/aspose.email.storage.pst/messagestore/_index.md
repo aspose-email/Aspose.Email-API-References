@@ -18,18 +18,18 @@ public class MessageStore
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; } | Gets the display Name of PST. |
-| [IsPasswordProtected](ispasswordprotected) { get; } | Gets a value indicating whether the storage is password protected. |
-| [Properties](properties) { get; } | Gets the MAPI properties of message store object. The message store contains the top-level PST settings and metadata that are required to access and manage the PST contents. |
+| [DisplayName](../../aspose.email.storage.pst/messagestore/displayname) { get; } | Gets the display Name of PST. |
+| [IsPasswordProtected](../../aspose.email.storage.pst/messagestore/ispasswordprotected) { get; } | Gets a value indicating whether the storage is password protected. |
+| [Properties](../../aspose.email.storage.pst/messagestore/properties) { get; } | Gets the MAPI properties of message store object. The message store contains the top-level PST settings and metadata that are required to access and manage the PST contents. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ChangeDisplayName](changedisplayname)(string) | Changes the pst display name. |
-| [ChangePassword](changepassword)(string) | Sets the password. |
-| [IsPasswordValid](ispasswordvalid)(string) | Determines whether the specified string is a valid password for the storage. |
-| [SetProperty](setproperty)(MapiProperty) | Sets the property. |
+| [ChangeDisplayName](../../aspose.email.storage.pst/messagestore/changedisplayname)(string) | Changes the pst display name. |
+| [ChangePassword](../../aspose.email.storage.pst/messagestore/changepassword)(string) | Sets the password. |
+| [IsPasswordValid](../../aspose.email.storage.pst/messagestore/ispasswordvalid)(string) | Determines whether the specified string is a valid password for the storage. |
+| [SetProperty](../../aspose.email.storage.pst/messagestore/setproperty)(MapiProperty) | Sets the property. |
 
 ### See Also
 

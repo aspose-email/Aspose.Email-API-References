@@ -24,10 +24,10 @@ public class SyncCommandsResponse
 
 | Name | Description |
 | --- | --- |
-| [Add](add) { get; } | Contains the list of responses to add operations. |
-| [Change](change) { get; } | Contains the list of responses to update operations. |
-| [Delete](delete) { get; } | Contains the list of responses to delete operations. |
-| [SoftDelete](softdelete) { get; } | Contains the list of responses to delete operations. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/synccommandsresponse/add) { get; } | Contains the list of responses to add operations. |
+| [Change](../../aspose.email.clients.activesync.transportlayer/synccommandsresponse/change) { get; } | Contains the list of responses to update operations. |
+| [Delete](../../aspose.email.clients.activesync.transportlayer/synccommandsresponse/delete) { get; } | Contains the list of responses to delete operations. |
+| [SoftDelete](../../aspose.email.clients.activesync.transportlayer/synccommandsresponse/softdelete) { get; } | Contains the list of responses to delete operations. |
 
 ### See Also
 

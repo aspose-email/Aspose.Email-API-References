@@ -22,10 +22,10 @@ public class FailedSearchMailboxType
 
 | Name | Description |
 | --- | --- |
-| [ErrorCode](errorcode) { get; set; } |  |
-| [ErrorMessage](errormessage) { get; set; } |  |
-| [IsArchive](isarchive) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
+| [ErrorCode](../../aspose.email.clients.exchange.webservice.schema_2016/failedsearchmailboxtype/errorcode) { get; set; } |  |
+| [ErrorMessage](../../aspose.email.clients.exchange.webservice.schema_2016/failedsearchmailboxtype/errormessage) { get; set; } |  |
+| [IsArchive](../../aspose.email.clients.exchange.webservice.schema_2016/failedsearchmailboxtype/isarchive) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/failedsearchmailboxtype/mailbox) { get; set; } |  |
 
 ### See Also
 

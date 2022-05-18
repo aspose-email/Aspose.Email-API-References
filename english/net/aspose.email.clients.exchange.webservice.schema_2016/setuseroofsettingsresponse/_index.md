@@ -22,7 +22,7 @@ public class SetUserOofSettingsResponse
 
 | Name | Description |
 | --- | --- |
-| [ResponseMessage](responsemessage) { get; set; } |  |
+| [ResponseMessage](../../aspose.email.clients.exchange.webservice.schema_2016/setuseroofsettingsresponse/responsemessage) { get; set; } |  |
 
 ### See Also
 

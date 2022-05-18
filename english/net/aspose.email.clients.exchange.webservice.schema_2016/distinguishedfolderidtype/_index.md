@@ -22,9 +22,9 @@ public class DistinguishedFolderIdType : BaseFolderIdType
 
 | Name | Description |
 | --- | --- |
-| [ChangeKey](changekey) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
+| [ChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/distinguishedfolderidtype/changekey) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/distinguishedfolderidtype/id) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/distinguishedfolderidtype/mailbox) { get; set; } |  |
 
 ### See Also
 

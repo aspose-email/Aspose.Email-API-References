@@ -24,9 +24,9 @@ public class ImapMonitoringEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [DeletedMessages](deletedmessages) { get; } | Gets deleted messages |
-| [FolderName](foldername) { get; } | Gets specified folder for monitoring operation. |
-| [NewMessages](newmessages) { get; } | Gets new messages |
+| [DeletedMessages](../../aspose.email.clients.imap/imapmonitoringeventargs/deletedmessages) { get; } | Gets deleted messages |
+| [FolderName](../../aspose.email.clients.imap/imapmonitoringeventargs/foldername) { get; } | Gets specified folder for monitoring operation. |
+| [NewMessages](../../aspose.email.clients.imap/imapmonitoringeventargs/newmessages) { get; } | Gets new messages |
 
 ### See Also
 

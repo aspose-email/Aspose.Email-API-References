@@ -24,9 +24,9 @@ public class ProvisionResponse
 
 | Name | Description |
 | --- | --- |
-| [DeviceInformationStatus](deviceinformationstatus) { get; set; } | Contains DeviceInformation status |
-| [Policies](policies) { get; } | Specifies a collection of security policies. |
-| [RemoteWipe](remotewipe) { get; set; } | Specifies a remote wipe directive from the server. |
+| [DeviceInformationStatus](../../aspose.email.clients.activesync.transportlayer/provisionresponse/deviceinformationstatus) { get; set; } | Contains DeviceInformation status |
+| [Policies](../../aspose.email.clients.activesync.transportlayer/provisionresponse/policies) { get; } | Specifies a collection of security policies. |
+| [RemoteWipe](../../aspose.email.clients.activesync.transportlayer/provisionresponse/remotewipe) { get; set; } | Specifies a remote wipe directive from the server. |
 
 ### See Also
 

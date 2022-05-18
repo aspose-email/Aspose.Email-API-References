@@ -18,7 +18,15 @@ public class TraversalAsposeException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [Kind](kind) { get; set; } | Gets or sets the kind of failure. |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Gets extra information aboout error |
+| [Kind](../../aspose.email.exceptions/traversalasposeexception/kind) { get; set; } | Gets or sets the kind of failure. |
+| override [Message](../../aspose.email/asposeexception/message) { get; } | Gets a message that describes the current exception. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email/asposeexception/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

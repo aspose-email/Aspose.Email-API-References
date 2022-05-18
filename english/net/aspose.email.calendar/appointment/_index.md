@@ -28,59 +28,59 @@ public class Appointment
 
 | Name | Description |
 | --- | --- |
-| [Attachments](attachments) { get; } | Gets the collection of attachments of appointment. |
-| [Attendees](attendees) { get; set; } | Gets or sets the attendees. |
-| [Class](class) { get; set; } | Specifies the access classification for the appointment. |
-| [CreatedDate](createddate) { get; set; } | Gets or sets the date and time that calendar information was created. |
-| [Description](description) { get; set; } | Gets or sets the description. |
-| [EndDate](enddate) { get; set; } | Gets or sets the end date. |
-| [EndTimeZone](endtimezone) { get; set; } | End time zone |
-| [Flags](flags) { get; set; } | Gets or sets appointment flags. |
-| [HtmlDescription](htmldescription) { get; set; } | Gets or sets html representation of description. |
-| [LastModifiedDate](lastmodifieddate) { get; set; } | Gets or sets the date and time that calendar information was last revised. |
-| [Location](location) { get; set; } | Gets or sets the location. |
-| [MethodType](methodtype) { get; set; } | Gets or sets the iCalendar object method type associated with the calendar object. |
-| [MicrosoftBusyStatus](microsoftbusystatus) { get; set; } | Specifies the BUSY status of an appointment. |
-| [MicrosoftImportance](microsoftimportance) { get; set; } | Specifies the importance of an appointment. |
-| [MicrosoftIntendedStatus](microsoftintendedstatus) { get; set; } | Specifies the INTENDED status of an appointment. |
-| [OptionalAttendees](optionalattendees) { get; } | Gets the optional attendees. |
-| [Organizer](organizer) { get; set; } | Gets or sets the organizer. |
-| [Recurrence](recurrence) { get; set; } | Gets or sets the recurrence pattern. |
-| [Reminders](reminders) { get; } | Contains collection of AppointmentReminder [`AppointmentReminder`](../appointmentreminder) objects. |
-| [SequenceId](sequenceid) { get; } | Gets the sequence id. |
-| [StartDate](startdate) { get; set; } | Gets or sets the start date. |
-| [StartTimeZone](starttimezone) { get; set; } | Start time zone |
-| [Status](status) { get; set; } | Gets or sets the overall status or confirmation for the object. |
-| [Summary](summary) { get; set; } | Gets or sets the summary. |
-| [Transparency](transparency) { get; set; } | Specifies whether or not this appointment is intended to be visible in availability searches. |
-| [UniqueId](uniqueid) { get; set; } | Gets or sets a string value that contains the GUID for the calendar item. In MS Exchange this is PidLidGlobalObjectId mapi property. |
+| [Attachments](../../aspose.email.calendar/appointment/attachments) { get; } | Gets the collection of attachments of appointment. |
+| [Attendees](../../aspose.email.calendar/appointment/attendees) { get; set; } | Gets or sets the attendees. |
+| [Class](../../aspose.email.calendar/appointment/class) { get; set; } | Specifies the access classification for the appointment. |
+| [CreatedDate](../../aspose.email.calendar/appointment/createddate) { get; set; } | Gets or sets the date and time that calendar information was created. |
+| [Description](../../aspose.email.calendar/appointment/description) { get; set; } | Gets or sets the description. |
+| [EndDate](../../aspose.email.calendar/appointment/enddate) { get; set; } | Gets or sets the end date. |
+| [EndTimeZone](../../aspose.email.calendar/appointment/endtimezone) { get; set; } | End time zone |
+| [Flags](../../aspose.email.calendar/appointment/flags) { get; set; } | Gets or sets appointment flags. |
+| [HtmlDescription](../../aspose.email.calendar/appointment/htmldescription) { get; set; } | Gets or sets html representation of description. |
+| [LastModifiedDate](../../aspose.email.calendar/appointment/lastmodifieddate) { get; set; } | Gets or sets the date and time that calendar information was last revised. |
+| [Location](../../aspose.email.calendar/appointment/location) { get; set; } | Gets or sets the location. |
+| [MethodType](../../aspose.email.calendar/appointment/methodtype) { get; set; } | Gets or sets the iCalendar object method type associated with the calendar object. |
+| [MicrosoftBusyStatus](../../aspose.email.calendar/appointment/microsoftbusystatus) { get; set; } | Specifies the BUSY status of an appointment. |
+| [MicrosoftImportance](../../aspose.email.calendar/appointment/microsoftimportance) { get; set; } | Specifies the importance of an appointment. |
+| [MicrosoftIntendedStatus](../../aspose.email.calendar/appointment/microsoftintendedstatus) { get; set; } | Specifies the INTENDED status of an appointment. |
+| [OptionalAttendees](../../aspose.email.calendar/appointment/optionalattendees) { get; } | Gets the optional attendees. |
+| [Organizer](../../aspose.email.calendar/appointment/organizer) { get; set; } | Gets or sets the organizer. |
+| [Recurrence](../../aspose.email.calendar/appointment/recurrence) { get; set; } | Gets or sets the recurrence pattern. |
+| [Reminders](../../aspose.email.calendar/appointment/reminders) { get; } | Contains collection of AppointmentReminder [`AppointmentReminder`](../appointmentreminder) objects. |
+| [SequenceId](../../aspose.email.calendar/appointment/sequenceid) { get; } | Gets the sequence id. |
+| [StartDate](../../aspose.email.calendar/appointment/startdate) { get; set; } | Gets or sets the start date. |
+| [StartTimeZone](../../aspose.email.calendar/appointment/starttimezone) { get; set; } | Start time zone |
+| [Status](../../aspose.email.calendar/appointment/status) { get; set; } | Gets or sets the overall status or confirmation for the object. |
+| [Summary](../../aspose.email.calendar/appointment/summary) { get; set; } | Gets or sets the summary. |
+| [Transparency](../../aspose.email.calendar/appointment/transparency) { get; set; } | Specifies whether or not this appointment is intended to be visible in availability searches. |
+| [UniqueId](../../aspose.email.calendar/appointment/uniqueid) { get; set; } | Gets or sets a string value that contains the GUID for the calendar item. In MS Exchange this is PidLidGlobalObjectId mapi property. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [Load](load)(Stream) | Loads [`Appointment`](../appointment) from the stream |
-| static [Load](load)(string) | Loads [`Appointment`](../appointment) from the file. Supported file formats: iCalendar |
-| static [Load](load)(Stream, AppointmentLoadOptions) | Loads [`Appointment`](../appointment) from the stream |
-| static [Load](load)(Stream, bool) | Loads [`Appointment`](../appointment) from the stream |
-| static [Load](load)(string, AppointmentLoadOptions) | Loads [`Appointment`](../appointment) from the file. Supported file formats: iCalendar A file path.Represents appointment load options[`AppointmentLoadOptions`](../appointmentloadoptions).A read [`Appointment`](../appointment). |
-| [CancelAppointment](cancelappointment)() | Cancels the appointment. |
-| [CancelAppointment](cancelappointment)(int) | Cancels the appointment. |
-| [GetAppointmentHtml](getappointmenthtml)() | Gets the calendar HTML. |
-| [GetAppointmentText](getappointmenttext)() | Gets the calendar text. |
-| [GetAppointmentText](getappointmenttext)(AppointmentFormattingOptions) | Gets the calendar text. |
-| [RequestApointment](requestapointment)() | Requests the apointment. |
-| [RequestApointment](requestapointment)(int) | Requests the apointment. |
-| [ResetTimeZone](resettimezone)() | Set local time zone |
-| [Save](save)(Stream) | Saves appointment to the file with iCalendar format using te default save options |
-| [Save](save)(string) | Saves appointment to the file with iCalendar format using te default save options |
-| [Save](save)(Stream, AppointmentSaveFormat) | Saves appointment to the stream with specified format using te default save options |
-| [Save](save)(Stream, AppointmentSaveOptions) | Saves appointment to the stream with specified save options |
-| [Save](save)(string, AppointmentSaveFormat) | Saves appointment to the file with specified format using te default save options |
-| [Save](save)(string, AppointmentSaveOptions) | Saves appointment to the file with specified save options |
-| [SetTimeZone](settimezone)(string) | Set time zone |
-| [UpdateAppointment](updateappointment)() | Updates the appointment. |
-| [UpdateAppointment](updateappointment)(int) | Updates the appointment. |
+| static [Load](../../aspose.email.calendar/appointment/load)(Stream) | Loads [`Appointment`](../appointment) from the stream |
+| static [Load](../../aspose.email.calendar/appointment/load)(string) | Loads [`Appointment`](../appointment) from the file. Supported file formats: iCalendar |
+| static [Load](../../aspose.email.calendar/appointment/load)(Stream, AppointmentLoadOptions) | Loads [`Appointment`](../appointment) from the stream |
+| static [Load](../../aspose.email.calendar/appointment/load)(Stream, bool) | Loads [`Appointment`](../appointment) from the stream |
+| static [Load](../../aspose.email.calendar/appointment/load)(string, AppointmentLoadOptions) | Loads [`Appointment`](../appointment) from the file. Supported file formats: iCalendar A file path.Represents appointment load options[`AppointmentLoadOptions`](../appointmentloadoptions).A read [`Appointment`](../appointment). |
+| [CancelAppointment](../../aspose.email.calendar/appointment/cancelappointment)() | Cancels the appointment. |
+| [CancelAppointment](../../aspose.email.calendar/appointment/cancelappointment)(int) | Cancels the appointment. |
+| [GetAppointmentHtml](../../aspose.email.calendar/appointment/getappointmenthtml)() | Gets the calendar HTML. |
+| [GetAppointmentText](../../aspose.email.calendar/appointment/getappointmenttext)() | Gets the calendar text. |
+| [GetAppointmentText](../../aspose.email.calendar/appointment/getappointmenttext)(AppointmentFormattingOptions) | Gets the calendar text. |
+| [RequestApointment](../../aspose.email.calendar/appointment/requestapointment)() | Requests the apointment. |
+| [RequestApointment](../../aspose.email.calendar/appointment/requestapointment)(int) | Requests the apointment. |
+| [ResetTimeZone](../../aspose.email.calendar/appointment/resettimezone)() | Set local time zone |
+| [Save](../../aspose.email.calendar/appointment/save)(Stream) | Saves appointment to the file with iCalendar format using te default save options |
+| [Save](../../aspose.email.calendar/appointment/save)(string) | Saves appointment to the file with iCalendar format using te default save options |
+| [Save](../../aspose.email.calendar/appointment/save)(Stream, AppointmentSaveFormat) | Saves appointment to the stream with specified format using te default save options |
+| [Save](../../aspose.email.calendar/appointment/save)(Stream, AppointmentSaveOptions) | Saves appointment to the stream with specified save options |
+| [Save](../../aspose.email.calendar/appointment/save)(string, AppointmentSaveFormat) | Saves appointment to the file with specified format using te default save options |
+| [Save](../../aspose.email.calendar/appointment/save)(string, AppointmentSaveOptions) | Saves appointment to the file with specified save options |
+| [SetTimeZone](../../aspose.email.calendar/appointment/settimezone)(string) | Set time zone |
+| [UpdateAppointment](../../aspose.email.calendar/appointment/updateappointment)() | Updates the appointment. |
+| [UpdateAppointment](../../aspose.email.calendar/appointment/updateappointment)(int) | Updates the appointment. |
 
 ### Examples
 

@@ -24,8 +24,8 @@ public class ResourceHtmlRenderingEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [Caption](caption) { get; set; } | Caprion for resource. |
-| [PathToResourceFile](pathtoresourcefile) { get; set; } | Path to resource file. |
+| [Caption](../../aspose.email/resourcehtmlrenderingeventargs/caption) { get; set; } | Caprion for resource. |
+| [PathToResourceFile](../../aspose.email/resourcehtmlrenderingeventargs/pathtoresourcefile) { get; set; } | Path to resource file. |
 
 ### See Also
 

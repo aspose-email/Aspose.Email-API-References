@@ -22,8 +22,15 @@ public class ExportItemsResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
+| [Data](../../aspose.email.clients.exchange.webservice.schema_2016/exportitemsresponsemessagetype/data) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/exportitemsresponsemessagetype/itemid) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
 
 ### See Also
 

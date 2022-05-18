@@ -22,17 +22,17 @@ public class FindItemParentType
 
 | Name | Description |
 | --- | --- |
-| [AbsoluteDenominator](absolutedenominator) { get; set; } |  |
-| [AbsoluteDenominatorSpecified](absolutedenominatorspecified) { get; set; } |  |
-| [IncludesLastItemInRange](includeslastiteminrange) { get; set; } |  |
-| [IncludesLastItemInRangeSpecified](includeslastiteminrangespecified) { get; set; } |  |
-| [IndexedPagingOffset](indexedpagingoffset) { get; set; } |  |
-| [IndexedPagingOffsetSpecified](indexedpagingoffsetspecified) { get; set; } |  |
-| [Item](item) { get; set; } |  |
-| [NumeratorOffset](numeratoroffset) { get; set; } |  |
-| [NumeratorOffsetSpecified](numeratoroffsetspecified) { get; set; } |  |
-| [TotalItemsInView](totalitemsinview) { get; set; } |  |
-| [TotalItemsInViewSpecified](totalitemsinviewspecified) { get; set; } |  |
+| [AbsoluteDenominator](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/absolutedenominator) { get; set; } |  |
+| [AbsoluteDenominatorSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/absolutedenominatorspecified) { get; set; } |  |
+| [IncludesLastItemInRange](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/includeslastiteminrange) { get; set; } |  |
+| [IncludesLastItemInRangeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/includeslastiteminrangespecified) { get; set; } |  |
+| [IndexedPagingOffset](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/indexedpagingoffset) { get; set; } |  |
+| [IndexedPagingOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/indexedpagingoffsetspecified) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/item) { get; set; } |  |
+| [NumeratorOffset](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/numeratoroffset) { get; set; } |  |
+| [NumeratorOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/numeratoroffsetspecified) { get; set; } |  |
+| [TotalItemsInView](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/totalitemsinview) { get; set; } |  |
+| [TotalItemsInViewSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/finditemparenttype/totalitemsinviewspecified) { get; set; } |  |
 
 ### See Also
 

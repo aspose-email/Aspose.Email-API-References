@@ -22,7 +22,7 @@ public class LargeArchiveSearchScopeType
 
 | Name | Description |
 | --- | --- |
-| [ArchiveTypes](archivetypes) { get; set; } |  |
+| [ArchiveTypes](../../aspose.email.clients.exchange.webservice.schema_2016/largearchivesearchscopetype/archivetypes) { get; set; } |  |
 
 ### See Also
 

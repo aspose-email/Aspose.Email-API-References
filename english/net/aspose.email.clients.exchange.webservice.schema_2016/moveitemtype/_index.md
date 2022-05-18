@@ -18,6 +18,15 @@ public class MoveItemType : BaseMoveCopyItemType
 | --- | --- |
 | [MoveItemType](moveitemtype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [ItemIds](../../aspose.email.clients.exchange.webservice.schema_2016/basemovecopyitemtype/itemids) { get; set; } |  |
+| [ReturnNewItemIds](../../aspose.email.clients.exchange.webservice.schema_2016/basemovecopyitemtype/returnnewitemids) { get; set; } |  |
+| [ReturnNewItemIdsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/basemovecopyitemtype/returnnewitemidsspecified) { get; set; } |  |
+| [ToFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/basemovecopyitemtype/tofolderid) { get; set; } |  |
+
 ### See Also
 
 * class [BaseMoveCopyItemType](../basemovecopyitemtype)

@@ -16,7 +16,7 @@ public class GetNonIndexableItemStatisticsCompletedEventArgs : AsyncCompletedEve
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemstatisticscompletedeventargs/result) { get; } |  |
 
 ### See Also
 

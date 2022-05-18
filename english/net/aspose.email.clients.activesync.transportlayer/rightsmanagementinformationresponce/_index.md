@@ -24,8 +24,8 @@ public class RightsManagementInformationResponce
 
 | Name | Description |
 | --- | --- |
-| [RightsManagementTemplates](rightsmanagementtemplates) { get; } | The list of RightsManagementTemplates. A maximum of 20 RightsManagementTemplate objects can be returned to the client. |
-| [Status](status) { get; set; } | Indicates the result of the ActiveSync command request. |
+| [RightsManagementTemplates](../../aspose.email.clients.activesync.transportlayer/rightsmanagementinformationresponce/rightsmanagementtemplates) { get; } | The list of RightsManagementTemplates. A maximum of 20 RightsManagementTemplate objects can be returned to the client. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/rightsmanagementinformationresponce/status) { get; set; } | Indicates the result of the ActiveSync command request. |
 
 ### See Also
 

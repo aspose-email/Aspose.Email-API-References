@@ -24,8 +24,12 @@ public class PageSettingsAsync : PageSettings
 
 | Name | Description |
 | --- | --- |
-| [Callback](callback) { get; set; } | References a method to be called when a corresponding asynchronous operation completes. |
-| [State](state) { get; set; } | The state. |
+| [AscendingSorting](../../aspose.email.clients.imap/pagesettings/ascendingsorting) { get; set; } | Gets or sets value which indicates if client uses ascending or descending sorting. Set true if you want to use ascending sorting, otherwise set false. |
+| [Callback](../../aspose.email.clients.imap/pagesettingsasync/callback) { get; set; } | References a method to be called when a corresponding asynchronous operation completes. |
+| [Connection](../../aspose.email.clients.imap/pagesettings/connection) { get; set; } | Connection to a server. |
+| [FolderName](../../aspose.email.clients.imap/pagesettings/foldername) { get; set; } | The messages folder |
+| [IgnoreExceptions](../../aspose.email.clients.imap/pagesettings/ignoreexceptions) { get; set; } | If the property is set to true, exceptions that occur during message processing will be caught and placed in the ImapPageInfo.Items.Exceptions. |
+| [State](../../aspose.email.clients.imap/pagesettingsasync/state) { get; set; } | The state. |
 
 ### See Also
 

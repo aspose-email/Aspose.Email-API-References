@@ -24,7 +24,7 @@ public class ItOpMoveOptions
 
 | Name | Description |
 | --- | --- |
-| [MoveAlways](movealways) { get; set; } | Indicates whether to always move the specified conversation, including all future emails in the conversation, to the folder specified by the DstFldId. The MoveAlways MUST be set in an ItemOperations request when performing a move operation on a conversation. A Status element value of 155 is returned if the MoveAlways element is not set in the ItemOperations request for a move operation. |
+| [MoveAlways](../../aspose.email.clients.activesync.transportlayer/itopmoveoptions/movealways) { get; set; } | Indicates whether to always move the specified conversation, including all future emails in the conversation, to the folder specified by the DstFldId. The MoveAlways MUST be set in an ItemOperations request when performing a move operation on a conversation. A Status element value of 155 is returned if the MoveAlways element is not set in the ItemOperations request for a move operation. |
 
 ### See Also
 

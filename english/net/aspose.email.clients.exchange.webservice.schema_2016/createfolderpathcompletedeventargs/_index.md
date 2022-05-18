@@ -16,7 +16,7 @@ public class CreateFolderPathCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/createfolderpathcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

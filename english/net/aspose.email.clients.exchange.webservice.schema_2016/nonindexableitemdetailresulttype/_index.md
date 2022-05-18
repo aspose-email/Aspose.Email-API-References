@@ -22,8 +22,8 @@ public class NonIndexableItemDetailResultType
 
 | Name | Description |
 | --- | --- |
-| [FailedMailboxes](failedmailboxes) { get; set; } |  |
-| [Items](items) { get; set; } |  |
+| [FailedMailboxes](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailresulttype/failedmailboxes) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailresulttype/items) { get; set; } |  |
 
 ### See Also
 

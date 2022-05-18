@@ -22,7 +22,8 @@ public class EndDateRecurrenceRangeType : RecurrenceRangeBaseType
 
 | Name | Description |
 | --- | --- |
-| [EndDate](enddate) { get; set; } |  |
+| [EndDate](../../aspose.email.clients.exchange.webservice.schema_2016/enddaterecurrencerangetype/enddate) { get; set; } |  |
+| [StartDate](../../aspose.email.clients.exchange.webservice.schema_2016/recurrencerangebasetype/startdate) { get; set; } |  |
 
 ### See Also
 

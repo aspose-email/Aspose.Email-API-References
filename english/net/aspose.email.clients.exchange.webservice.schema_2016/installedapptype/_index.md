@@ -22,22 +22,22 @@ public class InstalledAppType
 
 | Name | Description |
 | --- | --- |
-| [ConsentState](consentstate) { get; set; } |  |
-| [Description](description) { get; set; } |  |
-| [DisplayName](displayname) { get; set; } |  |
-| [Enabled](enabled) { get; set; } |  |
-| [EnabledSpecified](enabledspecified) { get; set; } |  |
-| [HighResolutionIconUrl](highresolutioniconurl) { get; set; } |  |
-| [IconUrl](iconurl) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [LicenseStatus](licensestatus) { get; set; } |  |
-| [MarketplaceAssetId](marketplaceassetid) { get; set; } |  |
-| [ProviderName](providername) { get; set; } |  |
-| [Requirements](requirements) { get; set; } |  |
-| [TrialExpirationDate](trialexpirationdate) { get; set; } |  |
-| [TrialExpirationDateSpecified](trialexpirationdatespecified) { get; set; } |  |
-| [Type](type) { get; set; } |  |
-| [Version](version) { get; set; } |  |
+| [ConsentState](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/consentstate) { get; set; } |  |
+| [Description](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/description) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/displayname) { get; set; } |  |
+| [Enabled](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/enabled) { get; set; } |  |
+| [EnabledSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/enabledspecified) { get; set; } |  |
+| [HighResolutionIconUrl](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/highresolutioniconurl) { get; set; } |  |
+| [IconUrl](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/iconurl) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/id) { get; set; } |  |
+| [LicenseStatus](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/licensestatus) { get; set; } |  |
+| [MarketplaceAssetId](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/marketplaceassetid) { get; set; } |  |
+| [ProviderName](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/providername) { get; set; } |  |
+| [Requirements](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/requirements) { get; set; } |  |
+| [TrialExpirationDate](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/trialexpirationdate) { get; set; } |  |
+| [TrialExpirationDateSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/trialexpirationdatespecified) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/type) { get; set; } |  |
+| [Version](../../aspose.email.clients.exchange.webservice.schema_2016/installedapptype/version) { get; set; } |  |
 
 ### See Also
 

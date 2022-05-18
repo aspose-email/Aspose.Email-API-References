@@ -18,9 +18,9 @@ public sealed class EmlValidationError
 
 | Name | Description |
 | --- | --- |
-| [ErrorMessage](errormessage) { get; } | Gets an error message. |
-| [ErrorType](errortype) { get; } | Gets a type of error. |
-| [LineNumber](linenumber) { get; } | Gets a number of line where error was found. |
+| [ErrorMessage](../../aspose.email/emlvalidationerror/errormessage) { get; } | Gets an error message. |
+| [ErrorType](../../aspose.email/emlvalidationerror/errortype) { get; } | Gets a type of error. |
+| [LineNumber](../../aspose.email/emlvalidationerror/linenumber) { get; } | Gets a number of line where error was found. |
 
 ### See Also
 

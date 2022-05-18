@@ -18,8 +18,8 @@ public sealed class ReplyBody
 
 | Name | Description |
 | --- | --- |
-| [Language](language) { get; } | Gets the language that the OOF message was written in. |
-| [Message](message) { get; } | Gets the OOF message response. |
+| [Language](../../aspose.email.clients.exchange.webservice/replybody/language) { get; } | Gets the language that the OOF message was written in. |
+| [Message](../../aspose.email.clients.exchange.webservice/replybody/message) { get; } | Gets the OOF message response. |
 
 ### See Also
 

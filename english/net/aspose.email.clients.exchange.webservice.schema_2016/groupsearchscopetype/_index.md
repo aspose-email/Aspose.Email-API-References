@@ -22,7 +22,7 @@ public class GroupSearchScopeType
 
 | Name | Description |
 | --- | --- |
-| [GroupTypes](grouptypes) { get; set; } |  |
+| [GroupTypes](../../aspose.email.clients.exchange.webservice.schema_2016/groupsearchscopetype/grouptypes) { get; set; } |  |
 
 ### See Also
 

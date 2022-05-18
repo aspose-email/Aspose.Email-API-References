@@ -25,8 +25,8 @@ public class ReminderAttachment
 
 | Name | Description |
 | --- | --- |
-| [BinaryData](binarydata) { get; set; } | Contain a character encoding of inline binary data. |
-| [Uri](uri) { get; set; } | URI type of reference to the data. |
+| [BinaryData](../../aspose.email.calendar/reminderattachment/binarydata) { get; set; } | Contain a character encoding of inline binary data. |
+| [Uri](../../aspose.email.calendar/reminderattachment/uri) { get; set; } | URI type of reference to the data. |
 
 ### See Also
 

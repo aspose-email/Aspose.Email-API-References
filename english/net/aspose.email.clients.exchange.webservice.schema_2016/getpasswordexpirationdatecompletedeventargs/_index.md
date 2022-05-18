@@ -16,7 +16,7 @@ public class GetPasswordExpirationDateCompletedEventArgs : AsyncCompletedEventAr
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getpasswordexpirationdatecompletedeventargs/result) { get; } |  |
 
 ### See Also
 

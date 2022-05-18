@@ -22,7 +22,7 @@ public class GetInboxRulesRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [MailboxSmtpAddress](mailboxsmtpaddress) { get; set; } |  |
+| [MailboxSmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/getinboxrulesrequesttype/mailboxsmtpaddress) { get; set; } |  |
 
 ### See Also
 

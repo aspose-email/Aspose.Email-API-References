@@ -18,8 +18,8 @@ public abstract class AutodiscoverResponse
 
 | Name | Description |
 | --- | --- |
-| [ErrorCode](errorcode) { get; } | Gets the error code that was returned by the service. |
-| [ErrorMessage](errormessage) { get; } | Gets the error message that was returned by the service. |
+| [ErrorCode](../../aspose.email.clients.exchange/autodiscoverresponse/errorcode) { get; } | Gets the error code that was returned by the service. |
+| [ErrorMessage](../../aspose.email.clients.exchange/autodiscoverresponse/errormessage) { get; } | Gets the error message that was returned by the service. |
 
 ### See Also
 

@@ -22,10 +22,10 @@ public class RulePredicateSizeRangeType
 
 | Name | Description |
 | --- | --- |
-| [MaximumSize](maximumsize) { get; set; } |  |
-| [MaximumSizeSpecified](maximumsizespecified) { get; set; } |  |
-| [MinimumSize](minimumsize) { get; set; } |  |
-| [MinimumSizeSpecified](minimumsizespecified) { get; set; } |  |
+| [MaximumSize](../../aspose.email.clients.exchange.webservice.schema_2016/rulepredicatesizerangetype/maximumsize) { get; set; } |  |
+| [MaximumSizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rulepredicatesizerangetype/maximumsizespecified) { get; set; } |  |
+| [MinimumSize](../../aspose.email.clients.exchange.webservice.schema_2016/rulepredicatesizerangetype/minimumsize) { get; set; } |  |
+| [MinimumSizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rulepredicatesizerangetype/minimumsizespecified) { get; set; } |  |
 
 ### See Also
 

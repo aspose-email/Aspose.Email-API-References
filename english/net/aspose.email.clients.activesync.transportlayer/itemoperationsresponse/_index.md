@@ -24,9 +24,9 @@ public class ItemOperationsResponse
 
 | Name | Description |
 | --- | --- |
-| [EmptyFolderContents](emptyfoldercontents) { get; } | Identifies the body of the response as containing the operation that deletes the contents of a folder. |
-| [Fetch](fetch) { get; } | Contains responce about retrieving an items from the server. |
-| [Move](move) { get; } | Identifies the body of the response as containing the operation that moves a given conversation. The Move element is not supported when the protocol version is 12.1. |
+| [EmptyFolderContents](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/emptyfoldercontents) { get; } | Identifies the body of the response as containing the operation that deletes the contents of a folder. |
+| [Fetch](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/fetch) { get; } | Contains responce about retrieving an items from the server. |
+| [Move](../../aspose.email.clients.activesync.transportlayer/itemoperationsresponse/move) { get; } | Identifies the body of the response as containing the operation that moves a given conversation. The Move element is not supported when the protocol version is 12.1. |
 
 ### See Also
 

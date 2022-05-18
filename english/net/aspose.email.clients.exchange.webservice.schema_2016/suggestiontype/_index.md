@@ -22,12 +22,12 @@ public class SuggestionType
 
 | Name | Description |
 | --- | --- |
-| [DisplayText](displaytext) { get; set; } |  |
-| [IsDeletable](isdeletable) { get; set; } |  |
-| [SuggestedQuery](suggestedquery) { get; set; } |  |
-| [SuggestionType1](suggestiontype1) { get; set; } |  |
-| [TDSuggestionId](tdsuggestionid) { get; set; } |  |
-| [Trigger](trigger) { get; set; } |  |
+| [DisplayText](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/displaytext) { get; set; } |  |
+| [IsDeletable](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/isdeletable) { get; set; } |  |
+| [SuggestedQuery](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/suggestedquery) { get; set; } |  |
+| [SuggestionType1](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/suggestiontype1) { get; set; } |  |
+| [TDSuggestionId](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/tdsuggestionid) { get; set; } |  |
+| [Trigger](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/trigger) { get; set; } |  |
 
 ### See Also
 

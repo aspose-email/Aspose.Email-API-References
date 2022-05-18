@@ -22,8 +22,8 @@ public class PathToIndexedFieldType : BasePathToElementType
 
 | Name | Description |
 | --- | --- |
-| [FieldIndex](fieldindex) { get; set; } |  |
-| [FieldURI](fielduri) { get; set; } |  |
+| [FieldIndex](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoindexedfieldtype/fieldindex) { get; set; } |  |
+| [FieldURI](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoindexedfieldtype/fielduri) { get; set; } |  |
 
 ### See Also
 

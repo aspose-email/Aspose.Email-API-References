@@ -24,11 +24,11 @@ public class ContentInfo
 
 | Name | Description |
 | --- | --- |
-| [ContentId](contentid) { get; set; } | Gets or sets an opaque string that uniquely identifies the content. |
-| [ContentType](contenttype) { get; set; } | Gets or sets content type. |
-| [ContentUri](contenturi) { get; set; } | Gets or sets URL to use when retrieving the content. |
-| [Created](created) { get; set; } | Gets or sets datetime when the content was made available. |
-| [Expiration](expiration) { get; set; } | Gets or sets datetime after which the content will no longer be available for retrieval. |
+| [ContentId](../../aspose.email.clients.activity/contentinfo/contentid) { get; set; } | Gets or sets an opaque string that uniquely identifies the content. |
+| [ContentType](../../aspose.email.clients.activity/contentinfo/contenttype) { get; set; } | Gets or sets content type. |
+| [ContentUri](../../aspose.email.clients.activity/contentinfo/contenturi) { get; set; } | Gets or sets URL to use when retrieving the content. |
+| [Created](../../aspose.email.clients.activity/contentinfo/created) { get; set; } | Gets or sets datetime when the content was made available. |
+| [Expiration](../../aspose.email.clients.activity/contentinfo/expiration) { get; set; } | Gets or sets datetime after which the content will no longer be available for retrieval. |
 
 ### See Also
 

@@ -18,8 +18,9 @@ public sealed class BoolComparisonField : ComparisonField
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(bool) | Indicates that field must be equal to the specified value. |
-| [NotEquals](notequals)(bool) | Indicates that field must not be equal to the specified value. |
+| [Equals](../../aspose.email.tools.search/boolcomparisonfield/equals)(bool) | Indicates that field must be equal to the specified value. |
+| [NotEquals](../../aspose.email.tools.search/boolcomparisonfield/notequals)(bool) | Indicates that field must not be equal to the specified value. |
+| [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | Sets value which indicates if client uses ascending or descending sorting on the Field. |
 
 ### See Also
 

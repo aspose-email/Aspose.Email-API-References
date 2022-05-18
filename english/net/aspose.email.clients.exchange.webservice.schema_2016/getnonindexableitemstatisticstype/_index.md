@@ -22,9 +22,9 @@ public class GetNonIndexableItemStatisticsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Mailboxes](mailboxes) { get; set; } |  |
-| [SearchArchiveOnly](searcharchiveonly) { get; set; } |  |
-| [SearchArchiveOnlySpecified](searcharchiveonlyspecified) { get; set; } |  |
+| [Mailboxes](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemstatisticstype/mailboxes) { get; set; } |  |
+| [SearchArchiveOnly](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemstatisticstype/searcharchiveonly) { get; set; } |  |
+| [SearchArchiveOnlySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemstatisticstype/searcharchiveonlyspecified) { get; set; } |  |
 
 ### See Also
 

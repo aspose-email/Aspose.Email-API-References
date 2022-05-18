@@ -24,7 +24,7 @@ public class SearchCondition
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } | String value of condition |
+| [Value](../../aspose.email.clients.activesync.transportlayer/searchcondition/value) { get; set; } | String value of condition |
 
 ### See Also
 

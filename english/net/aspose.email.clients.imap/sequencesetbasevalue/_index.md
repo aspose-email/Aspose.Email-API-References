@@ -18,7 +18,7 @@ public abstract class SequenceSetBaseValue
 
 | Name | Description |
 | --- | --- |
-| [implicit operator](op_implicit) | Implicit conversion operation from [`SequenceSetBaseValue`](../sequencesetbasevalue) to String |
+| [implicit operator](../../aspose.email.clients.imap/sequencesetbasevalue/op_implicit) | Implicit conversion operation from [`SequenceSetBaseValue`](../sequencesetbasevalue) to String |
 
 ### See Also
 

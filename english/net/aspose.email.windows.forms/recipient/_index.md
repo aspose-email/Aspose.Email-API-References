@@ -27,9 +27,9 @@ public class Recipient
 
 | Name | Description |
 | --- | --- |
-| [Address](address) { get; set; } | The email address of this recipient. |
-| [DisplayName](displayname) { get; set; } | The display name of this recipient. |
-| [RecipientType](recipienttype) { get; set; } | How the recipient will receive this message (To, CC, BCC). |
+| [Address](../../aspose.email.windows.forms/recipient/address) { get; set; } | The email address of this recipient. |
+| [DisplayName](../../aspose.email.windows.forms/recipient/displayname) { get; set; } | The display name of this recipient. |
+| [RecipientType](../../aspose.email.windows.forms/recipient/recipienttype) { get; set; } | How the recipient will receive this message (To, CC, BCC). |
 
 ### See Also
 

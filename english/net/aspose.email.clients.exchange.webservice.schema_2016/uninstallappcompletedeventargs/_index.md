@@ -16,7 +16,7 @@ public class UninstallAppCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/uninstallappcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

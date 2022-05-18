@@ -18,14 +18,14 @@ public abstract class ExchangeBasePermission
 
 | Name | Description |
 | --- | --- |
-| [CanCreateItems](cancreateitems) { get; set; } | Gets or sets a value indicating whether a client can create items in a folder. |
-| [CanCreateSubFolders](cancreatesubfolders) { get; set; } | Gets or sets a value indicating whether the client can create subfolders. |
-| [DeleteItems](deleteitems) { get; set; } | Gets or sets a value indicating whether the client can delete items. |
-| [EditItems](edititems) { get; set; } | Gets or sets a value indicating whether a client can edit items. |
-| [IsFolderContact](isfoldercontact) { get; set; } | Gets or sets a value indicating whether a user is a contact for a folder. |
-| [IsFolderOwner](isfolderowner) { get; set; } | Gets or sets a value indicating whether the user is the owner of a folder. |
-| [IsFolderVisible](isfoldervisible) { get; set; } | Gets or sets a value indicating whether a user can view a folder. |
-| [UserInfo](userinfo) { get; set; } | Gets or sets a user or a delegate user who has folder access permissions |
+| [CanCreateItems](../../aspose.email.clients.exchange/exchangebasepermission/cancreateitems) { get; set; } | Gets or sets a value indicating whether a client can create items in a folder. |
+| [CanCreateSubFolders](../../aspose.email.clients.exchange/exchangebasepermission/cancreatesubfolders) { get; set; } | Gets or sets a value indicating whether the client can create subfolders. |
+| [DeleteItems](../../aspose.email.clients.exchange/exchangebasepermission/deleteitems) { get; set; } | Gets or sets a value indicating whether the client can delete items. |
+| [EditItems](../../aspose.email.clients.exchange/exchangebasepermission/edititems) { get; set; } | Gets or sets a value indicating whether a client can edit items. |
+| [IsFolderContact](../../aspose.email.clients.exchange/exchangebasepermission/isfoldercontact) { get; set; } | Gets or sets a value indicating whether a user is a contact for a folder. |
+| [IsFolderOwner](../../aspose.email.clients.exchange/exchangebasepermission/isfolderowner) { get; set; } | Gets or sets a value indicating whether the user is the owner of a folder. |
+| [IsFolderVisible](../../aspose.email.clients.exchange/exchangebasepermission/isfoldervisible) { get; set; } | Gets or sets a value indicating whether a user can view a folder. |
+| [UserInfo](../../aspose.email.clients.exchange/exchangebasepermission/userinfo) { get; set; } | Gets or sets a user or a delegate user who has folder access permissions |
 
 ### See Also
 

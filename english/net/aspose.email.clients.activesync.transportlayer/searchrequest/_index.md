@@ -24,7 +24,7 @@ public class SearchRequest
 
 | Name | Description |
 | --- | --- |
-| [Store](store) { get; set; } | Specify the location, name, and options for the search. |
+| [Store](../../aspose.email.clients.activesync.transportlayer/searchrequest/store) { get; set; } | Specify the location, name, and options for the search. |
 
 ### See Also
 

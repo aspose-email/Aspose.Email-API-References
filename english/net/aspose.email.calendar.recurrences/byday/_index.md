@@ -25,9 +25,9 @@ public class ByDay
 
 | Name | Description |
 | --- | --- |
-| [DayOfWeek](dayofweek) { get; set; } | Gets or sets the day of the week. |
-| [IsAllOccurrences](isalloccurrences) { get; } | Returns True when NthOccurrence is zero (meaning all occurrences of this day of week). |
-| [NthOccurrence](nthoccurrence) { get; set; } | Gets or sets the nth occurrence of the day of the week. |
+| [DayOfWeek](../../aspose.email.calendar.recurrences/byday/dayofweek) { get; set; } | Gets or sets the day of the week. |
+| [IsAllOccurrences](../../aspose.email.calendar.recurrences/byday/isalloccurrences) { get; } | Returns True when NthOccurrence is zero (meaning all occurrences of this day of week). |
+| [NthOccurrence](../../aspose.email.calendar.recurrences/byday/nthoccurrence) { get; set; } | Gets or sets the nth occurrence of the day of the week. |
 
 ### Remarks
 

@@ -22,10 +22,10 @@ public class OccurrenceInfoType
 
 | Name | Description |
 | --- | --- |
-| [End](end) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
-| [OriginalStart](originalstart) { get; set; } |  |
-| [Start](start) { get; set; } |  |
+| [End](../../aspose.email.clients.exchange.webservice.schema_2016/occurrenceinfotype/end) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/occurrenceinfotype/itemid) { get; set; } |  |
+| [OriginalStart](../../aspose.email.clients.exchange.webservice.schema_2016/occurrenceinfotype/originalstart) { get; set; } |  |
+| [Start](../../aspose.email.clients.exchange.webservice.schema_2016/occurrenceinfotype/start) { get; set; } |  |
 
 ### See Also
 

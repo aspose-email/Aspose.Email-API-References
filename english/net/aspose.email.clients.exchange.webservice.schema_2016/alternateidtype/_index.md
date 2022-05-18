@@ -22,10 +22,11 @@ public class AlternateIdType : AlternateIdBaseType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
-| [IsArchive](isarchive) { get; set; } |  |
-| [IsArchiveSpecified](isarchivespecified) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
+| [Format](../../aspose.email.clients.exchange.webservice.schema_2016/alternateidbasetype/format) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/alternateidtype/id) { get; set; } |  |
+| [IsArchive](../../aspose.email.clients.exchange.webservice.schema_2016/alternateidtype/isarchive) { get; set; } |  |
+| [IsArchiveSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/alternateidtype/isarchivespecified) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/alternateidtype/mailbox) { get; set; } |  |
 
 ### See Also
 

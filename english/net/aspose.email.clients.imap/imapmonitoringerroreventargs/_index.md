@@ -18,9 +18,9 @@ public class ImapMonitoringErrorEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [Error](error) { get; } | IMAP monitoring error. |
-| [FolderName](foldername) { get; } | Specified folder for monitoring operation. |
-| [MonitoringState](monitoringstate) { get; } | Holds folder monitoring state. This object can be used to resume folder monitoring from place where it stopped when error occured. Use [`ResumeMonitoring`](../imapclient/resumemonitoring) method. |
+| [Error](../../aspose.email.clients.imap/imapmonitoringerroreventargs/error) { get; } | IMAP monitoring error. |
+| [FolderName](../../aspose.email.clients.imap/imapmonitoringerroreventargs/foldername) { get; } | Specified folder for monitoring operation. |
+| [MonitoringState](../../aspose.email.clients.imap/imapmonitoringerroreventargs/monitoringstate) { get; } | Holds folder monitoring state. This object can be used to resume folder monitoring from place where it stopped when error occured. Use [`ResumeMonitoring`](../imapclient/resumemonitoring) method. |
 
 ### See Also
 

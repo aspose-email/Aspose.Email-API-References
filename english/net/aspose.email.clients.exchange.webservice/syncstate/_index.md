@@ -25,11 +25,11 @@ public class SyncState
 
 | Name | Description |
 | --- | --- |
-| [FoldersSyncState](folderssyncstate) { get; set; } | Synchronization state for next subfolders synchronization operation. |
-| [FolderUri](folderuri) { get; set; } | The folder uri to synchronize |
-| [IgnoredItems](ignoreditems) { get; } | The optional list of item uris that should be ignored. |
-| [ItemsSyncState](itemssyncstate) { get; set; } | Synchronization state for next items synchronization operation. |
-| [SyncType](synctype) { get; set; } | Folder synchronization type |
+| [FoldersSyncState](../../aspose.email.clients.exchange.webservice/syncstate/folderssyncstate) { get; set; } | Synchronization state for next subfolders synchronization operation. |
+| [FolderUri](../../aspose.email.clients.exchange.webservice/syncstate/folderuri) { get; set; } | The folder uri to synchronize |
+| [IgnoredItems](../../aspose.email.clients.exchange.webservice/syncstate/ignoreditems) { get; } | The optional list of item uris that should be ignored. |
+| [ItemsSyncState](../../aspose.email.clients.exchange.webservice/syncstate/itemssyncstate) { get; set; } | Synchronization state for next items synchronization operation. |
+| [SyncType](../../aspose.email.clients.exchange.webservice/syncstate/synctype) { get; set; } | Folder synchronization type |
 
 ### See Also
 

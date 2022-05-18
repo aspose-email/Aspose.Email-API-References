@@ -24,7 +24,7 @@ public class DeliveryServiceClientFactory
 
 | Name | Description |
 | --- | --- |
-| static [Get](get)(DeliveryServiceOptions) | Gets DeliveryServiceClient instance by DeliveryServiceOptions. |
+| static [Get](../../aspose.email.clients.deliveryservice/deliveryserviceclientfactory/get)(DeliveryServiceOptions) | Gets DeliveryServiceClient instance by DeliveryServiceOptions. |
 
 ### See Also
 

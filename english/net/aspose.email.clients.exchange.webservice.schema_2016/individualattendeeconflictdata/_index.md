@@ -22,7 +22,7 @@ public class IndividualAttendeeConflictData : AttendeeConflictData
 
 | Name | Description |
 | --- | --- |
-| [BusyType](busytype) { get; set; } |  |
+| [BusyType](../../aspose.email.clients.exchange.webservice.schema_2016/individualattendeeconflictdata/busytype) { get; set; } |  |
 
 ### See Also
 

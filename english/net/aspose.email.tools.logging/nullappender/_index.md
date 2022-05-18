@@ -20,11 +20,21 @@ public sealed class NullAppender : Appender
 | --- | --- |
 | [NullAppender](nullappender)() | Creates a new instace of NullAppender. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Gets or sets the formatter. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Append](append)(LogEntry) | Appends a log entry to NullAppender. |
+| override [Append](../../aspose.email.tools.logging/nullappender/append)(LogEntry) | Appends a log entry to NullAppender. |
+| virtual [AppendHeader](../../aspose.email.tools.logging/appender/appendheader)() | Starts log file with specific header. |
+| virtual [Close](../../aspose.email.tools.logging/appender/close)() | Closes the appender. |
+| [Dispose](../../aspose.email.tools.logging/appender/dispose)() | Releases the unmanaged resources used by the Appender. |
+| virtual [Initialize](../../aspose.email.tools.logging/appender/initialize)() | Initializes the appender instance. |
 
 ### See Also
 

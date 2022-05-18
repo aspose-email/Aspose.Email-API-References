@@ -24,8 +24,8 @@ public sealed class Pop3MessageInfoCollection : Collection<Pop3MessageInfo>
 
 | Name | Description |
 | --- | --- |
-| [GetMessage](getmessage)(int) | Gets the [`Pop3MessageInfo`](../pop3messageinfo) of the E-Mail message. |
-| [GetMessage](getmessage)(string) | Gets the [`Pop3MessageInfo`](../pop3messageinfo) of the E-Mail message. |
+| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage)(int) | Gets the [`Pop3MessageInfo`](../pop3messageinfo) of the E-Mail message. |
+| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage)(string) | Gets the [`Pop3MessageInfo`](../pop3messageinfo) of the E-Mail message. |
 
 ### See Also
 

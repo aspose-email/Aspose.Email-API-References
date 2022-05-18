@@ -16,7 +16,7 @@ public class GetPersonaCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getpersonacompletedeventargs/result) { get; } |  |
 
 ### See Also
 

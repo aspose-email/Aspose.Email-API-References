@@ -22,9 +22,9 @@ public class SmtpDomain
 
 | Name | Description |
 | --- | --- |
-| [IncludeSubdomains](includesubdomains) { get; set; } |  |
-| [IncludeSubdomainsSpecified](includesubdomainsspecified) { get; set; } |  |
-| [Name](name) { get; set; } |  |
+| [IncludeSubdomains](../../aspose.email.clients.exchange.webservice.schema_2016/smtpdomain/includesubdomains) { get; set; } |  |
+| [IncludeSubdomainsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/smtpdomain/includesubdomainsspecified) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/smtpdomain/name) { get; set; } |  |
 
 ### See Also
 

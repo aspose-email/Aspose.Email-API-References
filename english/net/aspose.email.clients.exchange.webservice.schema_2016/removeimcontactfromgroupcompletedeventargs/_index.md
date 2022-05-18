@@ -16,7 +16,7 @@ public class RemoveImContactFromGroupCompletedEventArgs : AsyncCompletedEventArg
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/removeimcontactfromgroupcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class HighlightTermType
 
 | Name | Description |
 | --- | --- |
-| [Scope](scope) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Scope](../../aspose.email.clients.exchange.webservice.schema_2016/highlighttermtype/scope) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/highlighttermtype/value) { get; set; } |  |
 
 ### See Also
 

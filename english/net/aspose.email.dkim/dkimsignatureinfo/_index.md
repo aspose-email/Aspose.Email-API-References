@@ -24,13 +24,13 @@ public class DKIMSignatureInfo
 
 | Name | Description |
 | --- | --- |
-| [BodyCanonicalization](bodycanonicalization) { get; set; } | Gets or sets body canonicalization (c=). |
-| [Domain](domain) { get; set; } | Gets or sets public key DNS domain (d=). |
-| [HashAlgorithm](hashalgorithm) { get; set; } | Gets or sets hash algorithm (a=). |
-| [HeaderCanonicalization](headercanonicalization) { get; set; } | Gets or sets header canonicalization (c=). |
-| [Headers](headers) { get; } | Headers that are included in the signature (h=). |
-| [Selector](selector) { get; set; } | Gets or sets public key DNS selector (s=). |
-| [Time](time) { get; set; } | Gets or sets the signature timestamp - the time that this signature was created (t=). Default (null) is an unknown creation time. |
+| [BodyCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/bodycanonicalization) { get; set; } | Gets or sets body canonicalization (c=). |
+| [Domain](../../aspose.email.dkim/dkimsignatureinfo/domain) { get; set; } | Gets or sets public key DNS domain (d=). |
+| [HashAlgorithm](../../aspose.email.dkim/dkimsignatureinfo/hashalgorithm) { get; set; } | Gets or sets hash algorithm (a=). |
+| [HeaderCanonicalization](../../aspose.email.dkim/dkimsignatureinfo/headercanonicalization) { get; set; } | Gets or sets header canonicalization (c=). |
+| [Headers](../../aspose.email.dkim/dkimsignatureinfo/headers) { get; } | Headers that are included in the signature (h=). |
+| [Selector](../../aspose.email.dkim/dkimsignatureinfo/selector) { get; set; } | Gets or sets public key DNS selector (s=). |
+| [Time](../../aspose.email.dkim/dkimsignatureinfo/time) { get; set; } | Gets or sets the signature timestamp - the time that this signature was created (t=). Default (null) is an unknown creation time. |
 
 ### See Also
 

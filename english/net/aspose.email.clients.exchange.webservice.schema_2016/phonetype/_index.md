@@ -22,9 +22,9 @@ public class PhoneType
 
 | Name | Description |
 | --- | --- |
-| [OriginalPhoneString](originalphonestring) { get; set; } |  |
-| [PhoneString](phonestring) { get; set; } |  |
-| [Type](type) { get; set; } |  |
+| [OriginalPhoneString](../../aspose.email.clients.exchange.webservice.schema_2016/phonetype/originalphonestring) { get; set; } |  |
+| [PhoneString](../../aspose.email.clients.exchange.webservice.schema_2016/phonetype/phonestring) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/phonetype/type) { get; set; } |  |
 
 ### See Also
 

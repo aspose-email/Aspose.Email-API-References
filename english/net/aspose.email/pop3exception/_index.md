@@ -23,6 +23,19 @@ public class Pop3Exception : AsposeException
 | [Pop3Exception](pop3exception)(string, Exception) | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class. |
 | [Pop3Exception](pop3exception)(string, params object[]) | Initializes a new instance of the [`Pop3Exception`](../pop3exception) class with a specified error message. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Gets extra information aboout error |
+| override [Message](../../aspose.email/asposeexception/message) { get; } | Gets a message that describes the current exception. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email/asposeexception/tostring)() | Returns a string that represents the current object. |
+
 ### See Also
 
 * class [AsposeException](../asposeexception)

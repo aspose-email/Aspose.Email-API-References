@@ -24,9 +24,9 @@ public sealed class ExchangeAttachmentInfo
 
 | Name | Description |
 | --- | --- |
-| [AttachmentUri](attachmenturi) { get; } | Gets an attachment uri |
-| [Name](name) { get; } | Gets an attachment name |
-| [Size](size) { get; } | Gets an attachment size (in bytes) |
+| [AttachmentUri](../../aspose.email.clients.exchange/exchangeattachmentinfo/attachmenturi) { get; } | Gets an attachment uri |
+| [Name](../../aspose.email.clients.exchange/exchangeattachmentinfo/name) { get; } | Gets an attachment name |
+| [Size](../../aspose.email.clients.exchange/exchangeattachmentinfo/size) { get; } | Gets an attachment size (in bytes) |
 
 ### See Also
 

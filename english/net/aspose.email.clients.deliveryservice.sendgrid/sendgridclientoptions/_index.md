@@ -24,7 +24,8 @@ public class SendGridClientOptions : DeliveryServiceOptions
 
 | Name | Description |
 | --- | --- |
-| [SandBoxMode](sandboxmode) { get; set; } | Set the sandbox mode setting. |
+| [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | Private API key |
+| [SandBoxMode](../../aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/sandboxmode) { get; set; } | Set the sandbox mode setting. |
 
 ### See Also
 

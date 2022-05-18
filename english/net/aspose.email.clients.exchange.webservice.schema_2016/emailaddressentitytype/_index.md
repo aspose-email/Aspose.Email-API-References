@@ -22,7 +22,8 @@ public class EmailAddressEntityType : EntityType
 
 | Name | Description |
 | --- | --- |
-| [EmailAddress](emailaddress) { get; set; } |  |
+| [EmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressentitytype/emailaddress) { get; set; } |  |
+| [Position](../../aspose.email.clients.exchange.webservice.schema_2016/entitytype/position) { get; set; } |  |
 
 ### See Also
 

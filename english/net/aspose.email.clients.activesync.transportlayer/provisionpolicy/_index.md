@@ -24,10 +24,10 @@ public class ProvisionPolicy
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Specifies the settings for a policy. Used in the Policy responses only. It is not present in responses to acknowledgment requests. |
-| [PolicyKey](policykey) { get; set; } | PolicyKey is used by the server to mark the state of policy settings on the client in the settings download phase of the Provision command. The PolicyKey is an element of type string with a maximum of 64 characters. The value of the PolicyKey SHOULD be a string representation of a 32-bit unsigned integer. |
-| [PolicyType](policytype) { get; set; } | Specifies the format in which the policy settings are to be provided to the client device. |
-| [Status](status) { get; set; } | Indicates the result of the operation. |
+| [Data](../../aspose.email.clients.activesync.transportlayer/provisionpolicy/data) { get; set; } | Specifies the settings for a policy. Used in the Policy responses only. It is not present in responses to acknowledgment requests. |
+| [PolicyKey](../../aspose.email.clients.activesync.transportlayer/provisionpolicy/policykey) { get; set; } | PolicyKey is used by the server to mark the state of policy settings on the client in the settings download phase of the Provision command. The PolicyKey is an element of type string with a maximum of 64 characters. The value of the PolicyKey SHOULD be a string representation of a 32-bit unsigned integer. |
+| [PolicyType](../../aspose.email.clients.activesync.transportlayer/provisionpolicy/policytype) { get; set; } | Specifies the format in which the policy settings are to be provided to the client device. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/provisionpolicy/status) { get; set; } | Indicates the result of the operation. |
 
 ### See Also
 

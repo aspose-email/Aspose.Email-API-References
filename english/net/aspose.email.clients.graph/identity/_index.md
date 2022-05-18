@@ -24,9 +24,9 @@ public class Identity
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } | The identity's display name. Note that this may not always be available or up to date. For example, if a user changes their display name, the API may show the new value in a future response, but the items associated with the user won't show up as having changed when using delta. |
-| [Id](id) { get; set; } | Unique identifier for the identity. |
-| [Thumbnails](thumbnails) { get; set; } | The ThumbnailSet resource is a keyed collection of thumbnail resources. |
+| [DisplayName](../../aspose.email.clients.graph/identity/displayname) { get; set; } | The identity's display name. Note that this may not always be available or up to date. For example, if a user changes their display name, the API may show the new value in a future response, but the items associated with the user won't show up as having changed when using delta. |
+| [Id](../../aspose.email.clients.graph/identity/id) { get; set; } | Unique identifier for the identity. |
+| [Thumbnails](../../aspose.email.clients.graph/identity/thumbnails) { get; set; } | The ThumbnailSet resource is a keyed collection of thumbnail resources. |
 
 ### See Also
 

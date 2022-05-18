@@ -24,9 +24,9 @@ public class ObjectIdentifier
 
 | Name | Description |
 | --- | --- |
-| [EWSId](ewsid) { get; } | Exchange web service id |
-| [GoogleId](googleid) { get; } | Google services id |
-| [WebDavId](webdavid) { get; } | WebDav services id |
+| [EWSId](../../aspose.email/objectidentifier/ewsid) { get; } | Exchange web service id |
+| [GoogleId](../../aspose.email/objectidentifier/googleid) { get; } | Google services id |
+| [WebDavId](../../aspose.email/objectidentifier/webdavid) { get; } | WebDav services id |
 
 ### See Also
 

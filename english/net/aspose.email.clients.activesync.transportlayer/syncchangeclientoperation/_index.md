@@ -25,9 +25,9 @@ public class SyncChangeClientOperation
 
 | Name | Description |
 | --- | --- |
-| [ApplicationData](applicationdata) { get; } | ApplicationData contains data for a particular object, such as a contact, email message, calendar appointment, or task item. |
-| [Class](class) { get; set; } | Identifies the class of the item being added to the collection. Used in server responses only. |
-| [ServerId](serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
+| [ApplicationData](../../aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/applicationdata) { get; } | ApplicationData contains data for a particular object, such as a contact, email message, calendar appointment, or task item. |
+| [Class](../../aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/class) { get; set; } | Identifies the class of the item being added to the collection. Used in server responses only. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
 
 ### See Also
 

@@ -29,17 +29,20 @@ public class Calendar : BaseDataObject
 
 | Name | Description |
 | --- | --- |
-| virtual [ConferenceProperties](conferenceproperties) { get; } | Gets conferencing properties for this calendar. |
-| virtual [Description](description) { get; set; } | Description of the calendar. |
-| virtual [Location](location) { get; set; } | Geographic location of the calendar as free-form text. |
-| virtual [Summary](summary) { get; set; } | Title of the calendar. |
-| virtual [TimeZone](timezone) { get; set; } | The time zone of the calendar. |
+| virtual [ConferenceProperties](../../aspose.email.clients.google/calendar/conferenceproperties) { get; } | Gets conferencing properties for this calendar. |
+| virtual [Description](../../aspose.email.clients.google/calendar/description) { get; set; } | Description of the calendar. |
+| virtual [ETag](../../aspose.email.clients.google/basedataobject/etag) { get; set; } | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other. |
+| virtual [Id](../../aspose.email.clients.google/basedataobject/id) { get; set; } | Identifier of the resource. |
+| virtual [Kind](../../aspose.email.clients.google/basedataobject/kind) { get; } | Type of the resource |
+| virtual [Location](../../aspose.email.clients.google/calendar/location) { get; set; } | Geographic location of the calendar as free-form text. |
+| virtual [Summary](../../aspose.email.clients.google/calendar/summary) { get; set; } | Title of the calendar. |
+| virtual [TimeZone](../../aspose.email.clients.google/calendar/timezone) { get; set; } | The time zone of the calendar. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string which represents the object instance. |
+| override [ToString](../../aspose.email.clients.google/calendar/tostring)() | Returns a string which represents the object instance. |
 
 ## Other Members
 

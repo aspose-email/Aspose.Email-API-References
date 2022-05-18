@@ -18,8 +18,8 @@ public static class ValueConverter
 
 | Name | Description |
 | --- | --- |
-| static [ToASProtocolVersions](toasprotocolversions)(string) | Converts ActiveSync protocol version from string representation to enum. |
-| static [ToString](tostring)(ASProtocolVersions) | Converts ActiveSync protocol version from enum to string representation. |
+| static [ToASProtocolVersions](../../aspose.email.clients.activesync.transportlayer/valueconverter/toasprotocolversions)(string) | Converts ActiveSync protocol version from string representation to enum. |
+| static [ToString](../../aspose.email.clients.activesync.transportlayer/valueconverter/tostring)(ASProtocolVersions) | Converts ActiveSync protocol version from enum to string representation. |
 
 ### See Also
 

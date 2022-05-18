@@ -22,12 +22,12 @@ public class AbchEmailAddressDictionaryEntryType
 
 | Name | Description |
 | --- | --- |
-| [Address](address) { get; set; } |  |
-| [Capabilities](capabilities) { get; set; } |  |
-| [CapabilitiesSpecified](capabilitiesspecified) { get; set; } |  |
-| [IsMessengerEnabled](ismessengerenabled) { get; set; } |  |
-| [IsMessengerEnabledSpecified](ismessengerenabledspecified) { get; set; } |  |
-| [Type](type) { get; set; } |  |
+| [Address](../../aspose.email.clients.exchange.webservice.schema_2016/abchemailaddressdictionaryentrytype/address) { get; set; } |  |
+| [Capabilities](../../aspose.email.clients.exchange.webservice.schema_2016/abchemailaddressdictionaryentrytype/capabilities) { get; set; } |  |
+| [CapabilitiesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/abchemailaddressdictionaryentrytype/capabilitiesspecified) { get; set; } |  |
+| [IsMessengerEnabled](../../aspose.email.clients.exchange.webservice.schema_2016/abchemailaddressdictionaryentrytype/ismessengerenabled) { get; set; } |  |
+| [IsMessengerEnabledSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/abchemailaddressdictionaryentrytype/ismessengerenabledspecified) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/abchemailaddressdictionaryentrytype/type) { get; set; } |  |
 
 ### See Also
 

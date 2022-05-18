@@ -22,8 +22,8 @@ public class EncryptedSharedFolderDataType
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } |  |
-| [Token](token) { get; set; } |  |
+| [Data](../../aspose.email.clients.exchange.webservice.schema_2016/encryptedsharedfolderdatatype/data) { get; set; } |  |
+| [Token](../../aspose.email.clients.exchange.webservice.schema_2016/encryptedsharedfolderdatatype/token) { get; set; } |  |
 
 ### See Also
 

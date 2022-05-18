@@ -22,14 +22,14 @@ public class GetMessageTrackingReportRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DiagnosticsLevel](diagnosticslevel) { get; set; } |  |
-| [MessageTrackingReportId](messagetrackingreportid) { get; set; } |  |
-| [Properties](properties) { get; set; } |  |
-| [RecipientFilter](recipientfilter) { get; set; } |  |
-| [ReportTemplate](reporttemplate) { get; set; } |  |
-| [ReturnQueueEvents](returnqueueevents) { get; set; } |  |
-| [ReturnQueueEventsSpecified](returnqueueeventsspecified) { get; set; } |  |
-| [Scope](scope) { get; set; } |  |
+| [DiagnosticsLevel](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportrequesttype/diagnosticslevel) { get; set; } |  |
+| [MessageTrackingReportId](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportrequesttype/messagetrackingreportid) { get; set; } |  |
+| [Properties](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportrequesttype/properties) { get; set; } |  |
+| [RecipientFilter](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportrequesttype/recipientfilter) { get; set; } |  |
+| [ReportTemplate](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportrequesttype/reporttemplate) { get; set; } |  |
+| [ReturnQueueEvents](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportrequesttype/returnqueueevents) { get; set; } |  |
+| [ReturnQueueEventsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportrequesttype/returnqueueeventsspecified) { get; set; } |  |
+| [Scope](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportrequesttype/scope) { get; set; } |  |
 
 ### See Also
 

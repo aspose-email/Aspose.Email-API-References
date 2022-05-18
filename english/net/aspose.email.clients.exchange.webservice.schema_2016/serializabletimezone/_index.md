@@ -22,9 +22,9 @@ public class SerializableTimeZone
 
 | Name | Description |
 | --- | --- |
-| [Bias](bias) { get; set; } |  |
-| [DaylightTime](daylighttime) { get; set; } |  |
-| [StandardTime](standardtime) { get; set; } |  |
+| [Bias](../../aspose.email.clients.exchange.webservice.schema_2016/serializabletimezone/bias) { get; set; } |  |
+| [DaylightTime](../../aspose.email.clients.exchange.webservice.schema_2016/serializabletimezone/daylighttime) { get; set; } |  |
+| [StandardTime](../../aspose.email.clients.exchange.webservice.schema_2016/serializabletimezone/standardtime) { get; set; } |  |
 
 ### See Also
 

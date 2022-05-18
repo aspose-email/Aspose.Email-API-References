@@ -18,10 +18,10 @@ public static class ExceptionManager
 
 | Name | Description |
 | --- | --- |
-| static [IgnoreAll](ignoreall) { get; set; } | Ignore all exceptions. |
-| static [IgnoreExceptionsHandler](ignoreexceptionshandler) { get; set; } | Provides possibility to handle Exceptions. |
-| static [IgnoreExceptionsLogHandler](ignoreexceptionsloghandler) { get; set; } | Provides possibility to handle Ignored Exceptions Log. |
-| static [IgnoreList](ignorelist) { get; } | List of exceptions to be ignored. |
+| static [IgnoreAll](../../aspose.email.exceptions/exceptionmanager/ignoreall) { get; set; } | Ignore all exceptions. |
+| static [IgnoreExceptionsHandler](../../aspose.email.exceptions/exceptionmanager/ignoreexceptionshandler) { get; set; } | Provides possibility to handle Exceptions. |
+| static [IgnoreExceptionsLogHandler](../../aspose.email.exceptions/exceptionmanager/ignoreexceptionsloghandler) { get; set; } | Provides possibility to handle Ignored Exceptions Log. |
+| static [IgnoreList](../../aspose.email.exceptions/exceptionmanager/ignorelist) { get; } | List of exceptions to be ignored. |
 
 ### See Also
 

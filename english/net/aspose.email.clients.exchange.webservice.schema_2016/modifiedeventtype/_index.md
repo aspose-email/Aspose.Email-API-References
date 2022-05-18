@@ -22,8 +22,12 @@ public class ModifiedEventType : BaseObjectChangedEventType
 
 | Name | Description |
 | --- | --- |
-| [UnreadCount](unreadcount) { get; set; } |  |
-| [UnreadCountSpecified](unreadcountspecified) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/baseobjectchangedeventtype/item) { get; set; } |  |
+| [ParentFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/baseobjectchangedeventtype/parentfolderid) { get; set; } |  |
+| [TimeStamp](../../aspose.email.clients.exchange.webservice.schema_2016/baseobjectchangedeventtype/timestamp) { get; set; } |  |
+| [UnreadCount](../../aspose.email.clients.exchange.webservice.schema_2016/modifiedeventtype/unreadcount) { get; set; } |  |
+| [UnreadCountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/modifiedeventtype/unreadcountspecified) { get; set; } |  |
+| [Watermark](../../aspose.email.clients.exchange.webservice.schema_2016/basenotificationeventtype/watermark) { get; set; } |  |
 
 ### See Also
 

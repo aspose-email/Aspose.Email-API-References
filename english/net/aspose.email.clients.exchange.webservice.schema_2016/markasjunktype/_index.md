@@ -22,9 +22,9 @@ public class MarkAsJunkType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [IsJunk](isjunk) { get; set; } |  |
-| [ItemIds](itemids) { get; set; } |  |
-| [MoveItem](moveitem) { get; set; } |  |
+| [IsJunk](../../aspose.email.clients.exchange.webservice.schema_2016/markasjunktype/isjunk) { get; set; } |  |
+| [ItemIds](../../aspose.email.clients.exchange.webservice.schema_2016/markasjunktype/itemids) { get; set; } |  |
+| [MoveItem](../../aspose.email.clients.exchange.webservice.schema_2016/markasjunktype/moveitem) { get; set; } |  |
 
 ### See Also
 

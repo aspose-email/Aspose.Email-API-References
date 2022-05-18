@@ -27,14 +27,17 @@ public class AccessControlRule : BaseDataObject
 
 | Name | Description |
 | --- | --- |
-| [Role](role) { get; set; } | The role assigned to the scope. |
-| [Scope](scope) { get; set; } | The scope of the rule. |
+| virtual [ETag](../../aspose.email.clients.google/basedataobject/etag) { get; set; } | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other. |
+| virtual [Id](../../aspose.email.clients.google/basedataobject/id) { get; set; } | Identifier of the resource. |
+| virtual [Kind](../../aspose.email.clients.google/basedataobject/kind) { get; } | Type of the resource |
+| [Role](../../aspose.email.clients.google/accesscontrolrule/role) { get; set; } | The role assigned to the scope. |
+| [Scope](../../aspose.email.clients.google/accesscontrolrule/scope) { get; set; } | The scope of the rule. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string which represents the object instance. |
+| override [ToString](../../aspose.email.clients.google/accesscontrolrule/tostring)() | Returns a string which represents the object instance. |
 
 ## Other Members
 

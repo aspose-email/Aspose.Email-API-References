@@ -22,14 +22,14 @@ public class PathToExtendedFieldType : BasePathToElementType
 
 | Name | Description |
 | --- | --- |
-| [DistinguishedPropertySetId](distinguishedpropertysetid) { get; set; } |  |
-| [DistinguishedPropertySetIdSpecified](distinguishedpropertysetidspecified) { get; set; } |  |
-| [PropertyId](propertyid) { get; set; } |  |
-| [PropertyIdSpecified](propertyidspecified) { get; set; } |  |
-| [PropertyName](propertyname) { get; set; } |  |
-| [PropertySetId](propertysetid) { get; set; } |  |
-| [PropertyTag](propertytag) { get; set; } |  |
-| [PropertyType](propertytype) { get; set; } |  |
+| [DistinguishedPropertySetId](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoextendedfieldtype/distinguishedpropertysetid) { get; set; } |  |
+| [DistinguishedPropertySetIdSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoextendedfieldtype/distinguishedpropertysetidspecified) { get; set; } |  |
+| [PropertyId](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoextendedfieldtype/propertyid) { get; set; } |  |
+| [PropertyIdSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoextendedfieldtype/propertyidspecified) { get; set; } |  |
+| [PropertyName](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoextendedfieldtype/propertyname) { get; set; } |  |
+| [PropertySetId](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoextendedfieldtype/propertysetid) { get; set; } |  |
+| [PropertyTag](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoextendedfieldtype/propertytag) { get; set; } |  |
+| [PropertyType](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoextendedfieldtype/propertytype) { get; set; } |  |
 
 ### See Also
 

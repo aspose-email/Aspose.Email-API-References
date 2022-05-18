@@ -22,9 +22,9 @@ public class OccurrenceItemIdType : BaseItemIdType
 
 | Name | Description |
 | --- | --- |
-| [ChangeKey](changekey) { get; set; } |  |
-| [InstanceIndex](instanceindex) { get; set; } |  |
-| [RecurringMasterId](recurringmasterid) { get; set; } |  |
+| [ChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/occurrenceitemidtype/changekey) { get; set; } |  |
+| [InstanceIndex](../../aspose.email.clients.exchange.webservice.schema_2016/occurrenceitemidtype/instanceindex) { get; set; } |  |
+| [RecurringMasterId](../../aspose.email.clients.exchange.webservice.schema_2016/occurrenceitemidtype/recurringmasterid) { get; set; } |  |
 
 ### See Also
 

@@ -22,23 +22,23 @@ public class UserOofSettings
 
 | Name | Description |
 | --- | --- |
-| [AutoDeclineFutureRequestsWhenOOF](autodeclinefuturerequestswhenoof) { get; set; } |  |
-| [AutoDeclineFutureRequestsWhenOOFSpecified](autodeclinefuturerequestswhenoofspecified) { get; set; } |  |
-| [CreateOOFEvent](createoofevent) { get; set; } |  |
-| [CreateOOFEventSpecified](createoofeventspecified) { get; set; } |  |
-| [DeclineAllEventsForScheduledOOF](declinealleventsforscheduledoof) { get; set; } |  |
-| [DeclineAllEventsForScheduledOOFSpecified](declinealleventsforscheduledoofspecified) { get; set; } |  |
-| [DeclineEventsForScheduledOOF](declineeventsforscheduledoof) { get; set; } |  |
-| [DeclineEventsForScheduledOOFSpecified](declineeventsforscheduledoofspecified) { get; set; } |  |
-| [DeclineMeetingReply](declinemeetingreply) { get; set; } |  |
-| [Duration](duration) { get; set; } |  |
-| [EventsToDeleteIDs](eventstodeleteids) { get; set; } |  |
-| [ExternalAudience](externalaudience) { get; set; } |  |
-| [ExternalReply](externalreply) { get; set; } |  |
-| [InternalReply](internalreply) { get; set; } |  |
-| [OOFEventID](oofeventid) { get; set; } |  |
-| [OOFEventSubject](oofeventsubject) { get; set; } |  |
-| [OofState](oofstate) { get; set; } |  |
+| [AutoDeclineFutureRequestsWhenOOF](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/autodeclinefuturerequestswhenoof) { get; set; } |  |
+| [AutoDeclineFutureRequestsWhenOOFSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/autodeclinefuturerequestswhenoofspecified) { get; set; } |  |
+| [CreateOOFEvent](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/createoofevent) { get; set; } |  |
+| [CreateOOFEventSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/createoofeventspecified) { get; set; } |  |
+| [DeclineAllEventsForScheduledOOF](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/declinealleventsforscheduledoof) { get; set; } |  |
+| [DeclineAllEventsForScheduledOOFSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/declinealleventsforscheduledoofspecified) { get; set; } |  |
+| [DeclineEventsForScheduledOOF](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/declineeventsforscheduledoof) { get; set; } |  |
+| [DeclineEventsForScheduledOOFSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/declineeventsforscheduledoofspecified) { get; set; } |  |
+| [DeclineMeetingReply](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/declinemeetingreply) { get; set; } |  |
+| [Duration](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/duration) { get; set; } |  |
+| [EventsToDeleteIDs](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/eventstodeleteids) { get; set; } |  |
+| [ExternalAudience](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/externalaudience) { get; set; } |  |
+| [ExternalReply](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/externalreply) { get; set; } |  |
+| [InternalReply](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/internalreply) { get; set; } |  |
+| [OOFEventID](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/oofeventid) { get; set; } |  |
+| [OOFEventSubject](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/oofeventsubject) { get; set; } |  |
+| [OofState](../../aspose.email.clients.exchange.webservice.schema_2016/useroofsettings/oofstate) { get; set; } |  |
 
 ### See Also
 

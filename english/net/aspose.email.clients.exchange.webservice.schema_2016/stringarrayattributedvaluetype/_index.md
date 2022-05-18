@@ -22,8 +22,8 @@ public class StringArrayAttributedValueType
 
 | Name | Description |
 | --- | --- |
-| [Attributions](attributions) { get; set; } |  |
-| [Values](values) { get; set; } |  |
+| [Attributions](../../aspose.email.clients.exchange.webservice.schema_2016/stringarrayattributedvaluetype/attributions) { get; set; } |  |
+| [Values](../../aspose.email.clients.exchange.webservice.schema_2016/stringarrayattributedvaluetype/values) { get; set; } |  |
 
 ### See Also
 

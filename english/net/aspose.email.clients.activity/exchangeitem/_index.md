@@ -24,10 +24,10 @@ public class ExchangeItem
 
 | Name | Description |
 | --- | --- |
-| [Attachments](attachments) { get; set; } | A list of the names and file size of all items that are attached to the message. |
-| [Id](id) { get; set; } | The store ID. |
-| [ParentFolder](parentfolder) { get; set; } | The name of the folder where the item is located. |
-| [Subject](subject) { get; set; } | The subject line of the message that was accessed. |
+| [Attachments](../../aspose.email.clients.activity/exchangeitem/attachments) { get; set; } | A list of the names and file size of all items that are attached to the message. |
+| [Id](../../aspose.email.clients.activity/exchangeitem/id) { get; set; } | The store ID. |
+| [ParentFolder](../../aspose.email.clients.activity/exchangeitem/parentfolder) { get; set; } | The name of the folder where the item is located. |
+| [Subject](../../aspose.email.clients.activity/exchangeitem/subject) { get; set; } | The subject line of the message that was accessed. |
 
 ### See Also
 

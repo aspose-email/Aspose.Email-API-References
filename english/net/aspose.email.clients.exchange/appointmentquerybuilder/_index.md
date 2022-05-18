@@ -18,23 +18,23 @@ public sealed class AppointmentQueryBuilder
 
 | Name | Description |
 | --- | --- |
-| [End](end) { get; } | Gets the field that allows to find items with a specified End field. |
-| [EndTimeZoneId](endtimezoneid) { get; } | Gets the field that allows to find items with a specified EndTimeZoneId. |
-| [IsAllDayEvent](isalldayevent) { get; } | Gets the field that allows to find AllDayEvent items. |
-| [IsCancelled](iscancelled) { get; } | Gets the field that allows to find cancelled items. |
-| [IsMeeting](ismeeting) { get; } | Gets the field that allows to find Meeting items. |
-| [IsOrganizer](isorganizer) { get; } | Gets the field that allows to find items where user is organizer. |
-| [IsRecurring](isrecurring) { get; } | Gets the field that allows to find recurring items. |
-| [Location](location) { get; } | Gets the field that allows to find items with a specified Location. |
-| [OriginalStart](originalstart) { get; } | Gets the field that allows to find items with a specified OriginalStart field. |
-| [Start](start) { get; } | Gets the field that allows to find items with a specified Start field. |
-| [StartTimeZoneId](starttimezoneid) { get; } | Gets the field that allows to find items with a specified StartTimeZoneId. |
+| [End](../../aspose.email.clients.exchange/appointmentquerybuilder/end) { get; } | Gets the field that allows to find items with a specified End field. |
+| [EndTimeZoneId](../../aspose.email.clients.exchange/appointmentquerybuilder/endtimezoneid) { get; } | Gets the field that allows to find items with a specified EndTimeZoneId. |
+| [IsAllDayEvent](../../aspose.email.clients.exchange/appointmentquerybuilder/isalldayevent) { get; } | Gets the field that allows to find AllDayEvent items. |
+| [IsCancelled](../../aspose.email.clients.exchange/appointmentquerybuilder/iscancelled) { get; } | Gets the field that allows to find cancelled items. |
+| [IsMeeting](../../aspose.email.clients.exchange/appointmentquerybuilder/ismeeting) { get; } | Gets the field that allows to find Meeting items. |
+| [IsOrganizer](../../aspose.email.clients.exchange/appointmentquerybuilder/isorganizer) { get; } | Gets the field that allows to find items where user is organizer. |
+| [IsRecurring](../../aspose.email.clients.exchange/appointmentquerybuilder/isrecurring) { get; } | Gets the field that allows to find recurring items. |
+| [Location](../../aspose.email.clients.exchange/appointmentquerybuilder/location) { get; } | Gets the field that allows to find items with a specified Location. |
+| [OriginalStart](../../aspose.email.clients.exchange/appointmentquerybuilder/originalstart) { get; } | Gets the field that allows to find items with a specified OriginalStart field. |
+| [Start](../../aspose.email.clients.exchange/appointmentquerybuilder/start) { get; } | Gets the field that allows to find items with a specified Start field. |
+| [StartTimeZoneId](../../aspose.email.clients.exchange/appointmentquerybuilder/starttimezoneid) { get; } | Gets the field that allows to find items with a specified StartTimeZoneId. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetCalendarView](setcalendarview)(DateTime, DateTime, int) |  |
+| [SetCalendarView](../../aspose.email.clients.exchange/appointmentquerybuilder/setcalendarview)(DateTime, DateTime, int) |  |
 
 ### See Also
 

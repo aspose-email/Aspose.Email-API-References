@@ -22,10 +22,10 @@ public class GroupAttendeeConflictData : AttendeeConflictData
 
 | Name | Description |
 | --- | --- |
-| [NumberOfMembers](numberofmembers) { get; set; } |  |
-| [NumberOfMembersAvailable](numberofmembersavailable) { get; set; } |  |
-| [NumberOfMembersWithConflict](numberofmemberswithconflict) { get; set; } |  |
-| [NumberOfMembersWithNoData](numberofmemberswithnodata) { get; set; } |  |
+| [NumberOfMembers](../../aspose.email.clients.exchange.webservice.schema_2016/groupattendeeconflictdata/numberofmembers) { get; set; } |  |
+| [NumberOfMembersAvailable](../../aspose.email.clients.exchange.webservice.schema_2016/groupattendeeconflictdata/numberofmembersavailable) { get; set; } |  |
+| [NumberOfMembersWithConflict](../../aspose.email.clients.exchange.webservice.schema_2016/groupattendeeconflictdata/numberofmemberswithconflict) { get; set; } |  |
+| [NumberOfMembersWithNoData](../../aspose.email.clients.exchange.webservice.schema_2016/groupattendeeconflictdata/numberofmemberswithnodata) { get; set; } |  |
 
 ### See Also
 

@@ -24,8 +24,8 @@ public class MboxLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [LeaveOpen](leaveopen) { get; set; } | Gets or sets a value indicating whether to keep the underlying stream open after disposing. Default value is false. |
-| [PreferredTextEncoding](preferredtextencoding) { get; set; } | Gets or sets preferred encoding for messages. The default value is null. |
+| [LeaveOpen](../../aspose.email.storage.mbox/mboxloadoptions/leaveopen) { get; set; } | Gets or sets a value indicating whether to keep the underlying stream open after disposing. Default value is false. |
+| [PreferredTextEncoding](../../aspose.email.storage.mbox/mboxloadoptions/preferredtextencoding) { get; set; } | Gets or sets preferred encoding for messages. The default value is null. |
 
 ### See Also
 

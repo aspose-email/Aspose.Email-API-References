@@ -18,15 +18,15 @@ public class ModificationSequenceField : QueryField
 
 | Name | Description |
 | --- | --- |
-| [ModificationSequence](modificationsequence) { get; } | Gets values to search |
+| [ModificationSequence](../../aspose.email.clients.imap/modificationsequencefield/modificationsequence) { get; } | Gets values to search |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateQuery](createquery)() | Creates the search key. |
-| [GreaterOrEqualTo](greaterorequalto)(long) | Sets a value to search for messages that have modification sequence greater or equal to this value. |
-| override [ToString](tostring)() | Returns a String which represents the object instance. |
+| [CreateQuery](../../aspose.email.clients.imap/modificationsequencefield/createquery)() | Creates the search key. |
+| [GreaterOrEqualTo](../../aspose.email.clients.imap/modificationsequencefield/greaterorequalto)(long) | Sets a value to search for messages that have modification sequence greater or equal to this value. |
+| override [ToString](../../aspose.email.clients.imap/modificationsequencefield/tostring)() | Returns a String which represents the object instance. |
 
 ### See Also
 

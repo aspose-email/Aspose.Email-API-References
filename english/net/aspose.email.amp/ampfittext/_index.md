@@ -24,17 +24,20 @@ public class AmpFitText : AmpComponent
 
 | Name | Description |
 | --- | --- |
-| [MaxFontSize](maxfontsize) { get; set; } | Specifies the maximum font size as an integer that the amp-fit-text can use. |
-| [MinFontSize](minfontsize) { get; set; } | Specifies the minimum font size as an integer that the amp-fit-text can use. |
-| override [RequiredScript](requiredscript) { get; } | Required script that muct be added to head section. |
-| [Value](value) { get; set; } | Text Value of component. |
+| [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP provides a set of common attributes that are extended to many AMP components. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
+| [MaxFontSize](../../aspose.email.amp/ampfittext/maxfontsize) { get; set; } | Specifies the maximum font size as an integer that the amp-fit-text can use. |
+| [MinFontSize](../../aspose.email.amp/ampfittext/minfontsize) { get; set; } | Specifies the minimum font size as an integer that the amp-fit-text can use. |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. If specified, a placeholder element must be a direct child of the AMP element. |
+| override [RequiredScript](../../aspose.email.amp/ampfittext/requiredscript) { get; } | Required script that muct be added to head section. |
+| [Value](../../aspose.email.amp/ampfittext/value) { get; set; } | Text Value of component. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToAmpHtml](toamphtml)() | Represents amp html version of component. |
-| override [ToHtml](tohtml)() | Represents html version of component. |
+| override [ToAmpHtml](../../aspose.email.amp/ampfittext/toamphtml)() | Represents amp html version of component. |
+| override [ToHtml](../../aspose.email.amp/ampfittext/tohtml)() | Represents html version of component. |
 
 ### See Also
 

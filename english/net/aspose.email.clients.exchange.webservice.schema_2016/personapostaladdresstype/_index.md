@@ -22,27 +22,27 @@ public class PersonaPostalAddressType
 
 | Name | Description |
 | --- | --- |
-| [Accuracy](accuracy) { get; set; } |  |
-| [AccuracySpecified](accuracyspecified) { get; set; } |  |
-| [Altitude](altitude) { get; set; } |  |
-| [AltitudeAccuracy](altitudeaccuracy) { get; set; } |  |
-| [AltitudeAccuracySpecified](altitudeaccuracyspecified) { get; set; } |  |
-| [AltitudeSpecified](altitudespecified) { get; set; } |  |
-| [City](city) { get; set; } |  |
-| [Country](country) { get; set; } |  |
-| [FormattedAddress](formattedaddress) { get; set; } |  |
-| [Latitude](latitude) { get; set; } |  |
-| [LatitudeSpecified](latitudespecified) { get; set; } |  |
-| [LocationSource](locationsource) { get; set; } |  |
-| [LocationSourceSpecified](locationsourcespecified) { get; set; } |  |
-| [LocationUri](locationuri) { get; set; } |  |
-| [Longitude](longitude) { get; set; } |  |
-| [LongitudeSpecified](longitudespecified) { get; set; } |  |
-| [PostalCode](postalcode) { get; set; } |  |
-| [PostOfficeBox](postofficebox) { get; set; } |  |
-| [State](state) { get; set; } |  |
-| [Street](street) { get; set; } |  |
-| [Type](type) { get; set; } |  |
+| [Accuracy](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/accuracy) { get; set; } |  |
+| [AccuracySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/accuracyspecified) { get; set; } |  |
+| [Altitude](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/altitude) { get; set; } |  |
+| [AltitudeAccuracy](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/altitudeaccuracy) { get; set; } |  |
+| [AltitudeAccuracySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/altitudeaccuracyspecified) { get; set; } |  |
+| [AltitudeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/altitudespecified) { get; set; } |  |
+| [City](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/city) { get; set; } |  |
+| [Country](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/country) { get; set; } |  |
+| [FormattedAddress](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/formattedaddress) { get; set; } |  |
+| [Latitude](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/latitude) { get; set; } |  |
+| [LatitudeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/latitudespecified) { get; set; } |  |
+| [LocationSource](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/locationsource) { get; set; } |  |
+| [LocationSourceSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/locationsourcespecified) { get; set; } |  |
+| [LocationUri](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/locationuri) { get; set; } |  |
+| [Longitude](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/longitude) { get; set; } |  |
+| [LongitudeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/longitudespecified) { get; set; } |  |
+| [PostalCode](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/postalcode) { get; set; } |  |
+| [PostOfficeBox](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/postofficebox) { get; set; } |  |
+| [State](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/state) { get; set; } |  |
+| [Street](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/street) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/personapostaladdresstype/type) { get; set; } |  |
 
 ### See Also
 

@@ -22,22 +22,22 @@ public class FindMailboxStatisticsByKeywordsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [FromDate](fromdate) { get; set; } |  |
-| [FromDateSpecified](fromdatespecified) { get; set; } |  |
-| [IncludePersonalArchive](includepersonalarchive) { get; set; } |  |
-| [IncludePersonalArchiveSpecified](includepersonalarchivespecified) { get; set; } |  |
-| [IncludeUnsearchableItems](includeunsearchableitems) { get; set; } |  |
-| [IncludeUnsearchableItemsSpecified](includeunsearchableitemsspecified) { get; set; } |  |
-| [Keywords](keywords) { get; set; } |  |
-| [Language](language) { get; set; } |  |
-| [Mailboxes](mailboxes) { get; set; } |  |
-| [MessageTypes](messagetypes) { get; set; } |  |
-| [Recipients](recipients) { get; set; } |  |
-| [SearchDumpster](searchdumpster) { get; set; } |  |
-| [SearchDumpsterSpecified](searchdumpsterspecified) { get; set; } |  |
-| [Senders](senders) { get; set; } |  |
-| [ToDate](todate) { get; set; } |  |
-| [ToDateSpecified](todatespecified) { get; set; } |  |
+| [FromDate](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/fromdate) { get; set; } |  |
+| [FromDateSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/fromdatespecified) { get; set; } |  |
+| [IncludePersonalArchive](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/includepersonalarchive) { get; set; } |  |
+| [IncludePersonalArchiveSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/includepersonalarchivespecified) { get; set; } |  |
+| [IncludeUnsearchableItems](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/includeunsearchableitems) { get; set; } |  |
+| [IncludeUnsearchableItemsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/includeunsearchableitemsspecified) { get; set; } |  |
+| [Keywords](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/keywords) { get; set; } |  |
+| [Language](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/language) { get; set; } |  |
+| [Mailboxes](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/mailboxes) { get; set; } |  |
+| [MessageTypes](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/messagetypes) { get; set; } |  |
+| [Recipients](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/recipients) { get; set; } |  |
+| [SearchDumpster](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/searchdumpster) { get; set; } |  |
+| [SearchDumpsterSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/searchdumpsterspecified) { get; set; } |  |
+| [Senders](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/senders) { get; set; } |  |
+| [ToDate](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/todate) { get; set; } |  |
+| [ToDateSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmailboxstatisticsbykeywordstype/todatespecified) { get; set; } |  |
 
 ### See Also
 

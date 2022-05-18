@@ -24,16 +24,16 @@ public class ServerInfo
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; } | Specifies a URL if the Type element (section 2.2.3.170.1) value is set to "MobileSync". If the Type element value is "MobileSync", then the Name element specifies the URL that conveys the protocol. If the Type element value is "CertEnroll", then the Name element value is NULL. |
-| [ServerData](serverdata) { get; } | The ServerData specifies the template name for the client certificate. Optional. |
-| [Type](type) { get; } | Specifies the server type The following are the valid values for the Type element: MobileSync — Indicates that the URL that is returned by the URL element (section 2.2.3.172) can be accessed by clients. CertEnroll — Indicates that the URL that is returned by the URL element can be accessed by clients to obtain a client certificate for Secure Sockets Layer (SSL) negotiation. |
-| [Url](url) { get; } | Specifies a URL string that conveys the protocol, port, resource location, and other information. |
+| [Name](../../aspose.email.clients.activesync.transportlayer/serverinfo/name) { get; } | Specifies a URL if the Type element (section 2.2.3.170.1) value is set to "MobileSync". If the Type element value is "MobileSync", then the Name element specifies the URL that conveys the protocol. If the Type element value is "CertEnroll", then the Name element value is NULL. |
+| [ServerData](../../aspose.email.clients.activesync.transportlayer/serverinfo/serverdata) { get; } | The ServerData specifies the template name for the client certificate. Optional. |
+| [Type](../../aspose.email.clients.activesync.transportlayer/serverinfo/type) { get; } | Specifies the server type The following are the valid values for the Type element: MobileSync — Indicates that the URL that is returned by the URL element (section 2.2.3.172) can be accessed by clients. CertEnroll — Indicates that the URL that is returned by the URL element can be accessed by clients to obtain a client certificate for Secure Sockets Layer (SSL) negotiation. |
+| [Url](../../aspose.email.clients.activesync.transportlayer/serverinfo/url) { get; } | Specifies a URL string that conveys the protocol, port, resource location, and other information. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email.clients.activesync.transportlayer/serverinfo/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

@@ -22,12 +22,12 @@ public class DelegateUserType
 
 | Name | Description |
 | --- | --- |
-| [DelegatePermissions](delegatepermissions) { get; set; } |  |
-| [ReceiveCopiesOfMeetingMessages](receivecopiesofmeetingmessages) { get; set; } |  |
-| [ReceiveCopiesOfMeetingMessagesSpecified](receivecopiesofmeetingmessagesspecified) { get; set; } |  |
-| [UserId](userid) { get; set; } |  |
-| [ViewPrivateItems](viewprivateitems) { get; set; } |  |
-| [ViewPrivateItemsSpecified](viewprivateitemsspecified) { get; set; } |  |
+| [DelegatePermissions](../../aspose.email.clients.exchange.webservice.schema_2016/delegateusertype/delegatepermissions) { get; set; } |  |
+| [ReceiveCopiesOfMeetingMessages](../../aspose.email.clients.exchange.webservice.schema_2016/delegateusertype/receivecopiesofmeetingmessages) { get; set; } |  |
+| [ReceiveCopiesOfMeetingMessagesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/delegateusertype/receivecopiesofmeetingmessagesspecified) { get; set; } |  |
+| [UserId](../../aspose.email.clients.exchange.webservice.schema_2016/delegateusertype/userid) { get; set; } |  |
+| [ViewPrivateItems](../../aspose.email.clients.exchange.webservice.schema_2016/delegateusertype/viewprivateitems) { get; set; } |  |
+| [ViewPrivateItemsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/delegateusertype/viewprivateitemsspecified) { get; set; } |  |
 
 ### See Also
 

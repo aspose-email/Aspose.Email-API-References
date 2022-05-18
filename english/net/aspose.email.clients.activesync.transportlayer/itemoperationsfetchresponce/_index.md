@@ -24,13 +24,13 @@ public class ItemOperationsFetchResponce
 
 | Name | Description |
 | --- | --- |
-| [Class](class) { get; set; } | Identifies the class of the item. The valid Class element values are: - Email - Contacts - Calendar - Tasks |
-| [CollectionId](collectionid) { get; set; } | Specifies the folder that has to be fetched. Contains ServerId of a folder. |
-| [LinkId](linkid) { get; set; } | Specifies a Uniform Resource Identifier (URI) that is assigned by the server to certain resources, such as Windows SharePoint Services or UNC documents. Can be used by the Fetch element to refer to the location of an item. |
-| [LongId](longid) { get; set; } | Specifies a unique identifier that was assigned by the server to each result returned by a previous Search response. The LongId element value can be up to 256 characters in length. |
-| [Properties](properties) { get; set; } | Contains the properties that are returned for item(s) in the response. |
-| [ServerId](serverid) { get; set; } | Specifies a unique identifier that is assigned by the server to each object that can be synchronized or have an item operation applied to it. |
-| [Status](status) { get; set; } | Contains a code and description that indicates the success or failure of the ItemOperations operation |
+| [Class](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/class) { get; set; } | Identifies the class of the item. The valid Class element values are: - Email - Contacts - Calendar - Tasks |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/collectionid) { get; set; } | Specifies the folder that has to be fetched. Contains ServerId of a folder. |
+| [LinkId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/linkid) { get; set; } | Specifies a Uniform Resource Identifier (URI) that is assigned by the server to certain resources, such as Windows SharePoint Services or UNC documents. Can be used by the Fetch element to refer to the location of an item. |
+| [LongId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/longid) { get; set; } | Specifies a unique identifier that was assigned by the server to each result returned by a previous Search response. The LongId element value can be up to 256 characters in length. |
+| [Properties](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/properties) { get; set; } | Contains the properties that are returned for item(s) in the response. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/serverid) { get; set; } | Specifies a unique identifier that is assigned by the server to each object that can be synchronized or have an item operation applied to it. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/status) { get; set; } | Contains a code and description that indicates the success or failure of the ItemOperations operation |
 
 ### See Also
 

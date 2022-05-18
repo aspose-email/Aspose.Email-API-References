@@ -22,15 +22,15 @@ public class ServerVersionInfo : SoapHeader
 
 | Name | Description |
 | --- | --- |
-| [MajorBuildNumber](majorbuildnumber) { get; set; } |  |
-| [MajorBuildNumberSpecified](majorbuildnumberspecified) { get; set; } |  |
-| [MajorVersion](majorversion) { get; set; } |  |
-| [MajorVersionSpecified](majorversionspecified) { get; set; } |  |
-| [MinorBuildNumber](minorbuildnumber) { get; set; } |  |
-| [MinorBuildNumberSpecified](minorbuildnumberspecified) { get; set; } |  |
-| [MinorVersion](minorversion) { get; set; } |  |
-| [MinorVersionSpecified](minorversionspecified) { get; set; } |  |
-| [Version](version) { get; set; } |  |
+| [MajorBuildNumber](../../aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/majorbuildnumber) { get; set; } |  |
+| [MajorBuildNumberSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/majorbuildnumberspecified) { get; set; } |  |
+| [MajorVersion](../../aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/majorversion) { get; set; } |  |
+| [MajorVersionSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/majorversionspecified) { get; set; } |  |
+| [MinorBuildNumber](../../aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/minorbuildnumber) { get; set; } |  |
+| [MinorBuildNumberSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/minorbuildnumberspecified) { get; set; } |  |
+| [MinorVersion](../../aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/minorversion) { get; set; } |  |
+| [MinorVersionSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/minorversionspecified) { get; set; } |  |
+| [Version](../../aspose.email.clients.exchange.webservice.schema_2016/serverversioninfo/version) { get; set; } |  |
 
 ### See Also
 

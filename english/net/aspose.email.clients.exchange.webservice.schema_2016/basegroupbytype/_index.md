@@ -16,7 +16,7 @@ public abstract class BaseGroupByType
 
 | Name | Description |
 | --- | --- |
-| [Order](order) { get; set; } |  |
+| [Order](../../aspose.email.clients.exchange.webservice.schema_2016/basegroupbytype/order) { get; set; } |  |
 
 ### See Also
 

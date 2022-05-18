@@ -18,13 +18,13 @@ public sealed class FileDataObject
 
 | Name | Description |
 | --- | --- |
-| [FileName](filename) { get; } | Gets the name of the file. |
+| [FileName](../../aspose.email.windows.forms/filedataobject/filename) { get; } | Gets the name of the file. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(Stream) | Saves the specified stream. |
+| [Save](../../aspose.email.windows.forms/filedataobject/save)(Stream) | Saves the specified stream. |
 
 ### See Also
 

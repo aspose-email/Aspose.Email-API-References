@@ -21,12 +21,19 @@ public sealed class MboxrdStorageWriter : MboxStorageWriter
 | [MboxrdStorageWriter](mboxrdstoragewriter)(Stream, bool) | Initializes a new instance of the [`MboxrdStorageWriter`](../mboxrdstoragewriter) class. |
 | [MboxrdStorageWriter](mboxrdstoragewriter)(string, bool) | Initializes a new instance of the [`MboxrdStorageWriter`](../mboxrdstoragewriter) class. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [BaseStream](../../aspose.email.storage.mbox/mboxstoragewriter/basestream) { get; } | Gets the base stream. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [WriteMessage](writemessage)(MailMessage) | Writes the message to underlying storage stream. |
-| override [WriteMessage](writemessage)(MailMessage, out string) | Writes the message to underlying storage stream. |
+| [Dispose](../../aspose.email.storage.mbox/mboxstoragewriter/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| override [WriteMessage](../../aspose.email.storage.mbox/mboxrdstoragewriter/writemessage)(MailMessage) | Writes the message to underlying storage stream. |
+| override [WriteMessage](../../aspose.email.storage.mbox/mboxrdstoragewriter/writemessage)(MailMessage, out string) | Writes the message to underlying storage stream. |
 
 ### See Also
 

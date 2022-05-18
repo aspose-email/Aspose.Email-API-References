@@ -22,11 +22,11 @@ public class FindMeetingTimesSearchConstraints
 
 | Name | Description |
 | --- | --- |
-| [ActivityDomain](activitydomain) { get; set; } |  |
-| [ActivityDomainSpecified](activitydomainspecified) { get; set; } |  |
-| [MeetingDurationInMinutes](meetingdurationinminutes) { get; set; } |  |
-| [MeetingDurationInMinutesSpecified](meetingdurationinminutesspecified) { get; set; } |  |
-| [SearchWindows](searchwindows) { get; set; } |  |
+| [ActivityDomain](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimessearchconstraints/activitydomain) { get; set; } |  |
+| [ActivityDomainSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimessearchconstraints/activitydomainspecified) { get; set; } |  |
+| [MeetingDurationInMinutes](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimessearchconstraints/meetingdurationinminutes) { get; set; } |  |
+| [MeetingDurationInMinutesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimessearchconstraints/meetingdurationinminutesspecified) { get; set; } |  |
+| [SearchWindows](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimessearchconstraints/searchwindows) { get; set; } |  |
 
 ### See Also
 

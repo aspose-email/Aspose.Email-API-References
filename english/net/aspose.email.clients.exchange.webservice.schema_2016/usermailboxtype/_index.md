@@ -22,8 +22,8 @@ public class UserMailboxType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
-| [IsArchive](isarchive) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/usermailboxtype/id) { get; set; } |  |
+| [IsArchive](../../aspose.email.clients.exchange.webservice.schema_2016/usermailboxtype/isarchive) { get; set; } |  |
 
 ### See Also
 

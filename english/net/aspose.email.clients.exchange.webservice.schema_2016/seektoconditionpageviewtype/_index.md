@@ -22,8 +22,10 @@ public class SeekToConditionPageViewType : BasePagingType
 
 | Name | Description |
 | --- | --- |
-| [BasePoint](basepoint) { get; set; } |  |
-| [Condition](condition) { get; set; } |  |
+| [BasePoint](../../aspose.email.clients.exchange.webservice.schema_2016/seektoconditionpageviewtype/basepoint) { get; set; } |  |
+| [Condition](../../aspose.email.clients.exchange.webservice.schema_2016/seektoconditionpageviewtype/condition) { get; set; } |  |
+| [MaxEntriesReturned](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturned) { get; set; } |  |
+| [MaxEntriesReturnedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturnedspecified) { get; set; } |  |
 
 ### See Also
 

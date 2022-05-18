@@ -22,7 +22,7 @@ public class CreateMeetingSpaceType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [MeetingSpace](meetingspace) { get; set; } |  |
+| [MeetingSpace](../../aspose.email.clients.exchange.webservice.schema_2016/createmeetingspacetype/meetingspace) { get; set; } |  |
 
 ### See Also
 

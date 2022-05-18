@@ -24,10 +24,10 @@ public sealed class VCardPhoto
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Gets or sets an image data (`null` if valueLocation is not `inline`) |
-| [PhotoType](phototype) { get; set; } | Gets or sets a photo type |
-| [Uri](uri) { get; set; } | Gets or sets a uri of photo (`null` if valueLocation is `inline`) |
-| [ValueLocation](valuelocation) { get; set; } | Gets or sets a value location |
+| [Data](../../aspose.email.personalinfo.vcard/vcardphoto/data) { get; set; } | Gets or sets an image data (`null` if valueLocation is not `inline`) |
+| [PhotoType](../../aspose.email.personalinfo.vcard/vcardphoto/phototype) { get; set; } | Gets or sets a photo type |
+| [Uri](../../aspose.email.personalinfo.vcard/vcardphoto/uri) { get; set; } | Gets or sets a uri of photo (`null` if valueLocation is `inline`) |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardphoto/valuelocation) { get; set; } | Gets or sets a value location |
 
 ### See Also
 

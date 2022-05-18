@@ -22,7 +22,7 @@ public class EntityType
 
 | Name | Description |
 | --- | --- |
-| [Position](position) { get; set; } |  |
+| [Position](../../aspose.email.clients.exchange.webservice.schema_2016/entitytype/position) { get; set; } |  |
 
 ### See Also
 

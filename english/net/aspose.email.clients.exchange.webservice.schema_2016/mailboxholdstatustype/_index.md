@@ -22,9 +22,9 @@ public class MailboxHoldStatusType
 
 | Name | Description |
 | --- | --- |
-| [AdditionalInfo](additionalinfo) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
-| [Status](status) { get; set; } |  |
+| [AdditionalInfo](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxholdstatustype/additionalinfo) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxholdstatustype/mailbox) { get; set; } |  |
+| [Status](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxholdstatustype/status) { get; set; } |  |
 
 ### See Also
 

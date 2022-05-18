@@ -25,14 +25,14 @@ public class Range
 
 | Name | Description |
 | --- | --- |
-| [End](end) { get; set; } | The end of the time period. |
-| [Start](start) { get; set; } | The start of the time period. |
+| [End](../../aspose.email.clients.google/range/end) { get; set; } | The end of the time period. |
+| [Start](../../aspose.email.clients.google/range/start) { get; set; } | The start of the time period. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String which represents the object instance. |
+| override [ToString](../../aspose.email.clients.google/range/tostring)() | Returns a String which represents the object instance. |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class SetImGroupType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [GroupId](groupid) { get; set; } |  |
-| [NewDisplayName](newdisplayname) { get; set; } |  |
+| [GroupId](../../aspose.email.clients.exchange.webservice.schema_2016/setimgrouptype/groupid) { get; set; } |  |
+| [NewDisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/setimgrouptype/newdisplayname) { get; set; } |  |
 
 ### See Also
 

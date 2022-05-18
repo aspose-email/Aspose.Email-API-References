@@ -18,8 +18,8 @@ public static class MailboxConverter
 
 | Name | Description |
 | --- | --- |
-| static [ConvertPersonalStorageToMbox](convertpersonalstoragetombox)(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) | Converts the [`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) to mbox format using given [`MboxStorageWriter`](../../aspose.email.storage.mbox/mboxstoragewriter). |
-| static [ConvertPersonalStorageToMbox](convertpersonalstoragetombox)(PersonalStorage, string, MessageAcceptanceCallback) | Converts the [`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) to mbox format using given path. |
+| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox)(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) | Converts the [`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) to mbox format using given [`MboxStorageWriter`](../../aspose.email.storage.mbox/mboxstoragewriter). |
+| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox)(PersonalStorage, string, MessageAcceptanceCallback) | Converts the [`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) to mbox format using given path. |
 
 ### See Also
 

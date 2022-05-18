@@ -22,7 +22,7 @@ public class PhoneCallIdType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/phonecallidtype/id) { get; set; } |  |
 
 ### See Also
 

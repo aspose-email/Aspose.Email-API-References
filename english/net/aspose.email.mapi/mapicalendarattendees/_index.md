@@ -24,10 +24,10 @@ public sealed class MapiCalendarAttendees
 
 | Name | Description |
 | --- | --- |
-| [AppointmentRecipients](appointmentrecipients) { get; set; } | Gets or sets a list of attendees. |
-| [AppointmentUnsendableRecipients](appointmentunsendablerecipients) { get; set; } | Gets or sets a list of unsendable attendees. |
-| [NotAllowPropose](notallowpropose) { get; set; } | Gets or sets a value indicating whether attendees are not allowed to propose a new date and/or time for the meeting. |
-| [ResponseRequested](responserequested) { get; set; } | Gets or sets a value indicating whether a response is requested to a Message object. |
+| [AppointmentRecipients](../../aspose.email.mapi/mapicalendarattendees/appointmentrecipients) { get; set; } | Gets or sets a list of attendees. |
+| [AppointmentUnsendableRecipients](../../aspose.email.mapi/mapicalendarattendees/appointmentunsendablerecipients) { get; set; } | Gets or sets a list of unsendable attendees. |
+| [NotAllowPropose](../../aspose.email.mapi/mapicalendarattendees/notallowpropose) { get; set; } | Gets or sets a value indicating whether attendees are not allowed to propose a new date and/or time for the meeting. |
+| [ResponseRequested](../../aspose.email.mapi/mapicalendarattendees/responserequested) { get; set; } | Gets or sets a value indicating whether a response is requested to a Message object. |
 
 ### See Also
 

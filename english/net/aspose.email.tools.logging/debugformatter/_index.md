@@ -20,11 +20,20 @@ public class DebugFormatter : Formatter
 | --- | --- |
 | [DebugFormatter](debugformatter)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | Gets or sets the footer. |
+| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | Gets or sets the header. |
+| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Gets or sets the log header |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Format](format)(LogEntry) | Formats a log entry and return a string to be outputted. |
+| virtual [Format](../../aspose.email.tools.logging/formatter/format)(DateTime) | Formats a datetime and return a string to be outputted. |
+| override [Format](../../aspose.email.tools.logging/debugformatter/format)(LogEntry) | Formats a log entry and return a string to be outputted. |
 
 ### See Also
 

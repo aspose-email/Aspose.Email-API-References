@@ -16,7 +16,7 @@ public class FileDragEventArgs : DragEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Files](files) { get; } | Gets the files. |
+| [Files](../../aspose.email.windows.forms/filedrageventargs/files) { get; } | Gets the files. |
 
 ### See Also
 

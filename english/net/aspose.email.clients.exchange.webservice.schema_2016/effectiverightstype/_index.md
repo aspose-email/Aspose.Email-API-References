@@ -22,14 +22,14 @@ public class EffectiveRightsType
 
 | Name | Description |
 | --- | --- |
-| [CreateAssociated](createassociated) { get; set; } |  |
-| [CreateContents](createcontents) { get; set; } |  |
-| [CreateHierarchy](createhierarchy) { get; set; } |  |
-| [Delete](delete) { get; set; } |  |
-| [Modify](modify) { get; set; } |  |
-| [Read](read) { get; set; } |  |
-| [ViewPrivateItems](viewprivateitems) { get; set; } |  |
-| [ViewPrivateItemsSpecified](viewprivateitemsspecified) { get; set; } |  |
+| [CreateAssociated](../../aspose.email.clients.exchange.webservice.schema_2016/effectiverightstype/createassociated) { get; set; } |  |
+| [CreateContents](../../aspose.email.clients.exchange.webservice.schema_2016/effectiverightstype/createcontents) { get; set; } |  |
+| [CreateHierarchy](../../aspose.email.clients.exchange.webservice.schema_2016/effectiverightstype/createhierarchy) { get; set; } |  |
+| [Delete](../../aspose.email.clients.exchange.webservice.schema_2016/effectiverightstype/delete) { get; set; } |  |
+| [Modify](../../aspose.email.clients.exchange.webservice.schema_2016/effectiverightstype/modify) { get; set; } |  |
+| [Read](../../aspose.email.clients.exchange.webservice.schema_2016/effectiverightstype/read) { get; set; } |  |
+| [ViewPrivateItems](../../aspose.email.clients.exchange.webservice.schema_2016/effectiverightstype/viewprivateitems) { get; set; } |  |
+| [ViewPrivateItemsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/effectiverightstype/viewprivateitemsspecified) { get; set; } |  |
 
 ### See Also
 

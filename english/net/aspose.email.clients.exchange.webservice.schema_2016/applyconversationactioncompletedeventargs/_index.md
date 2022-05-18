@@ -16,7 +16,7 @@ public class ApplyConversationActionCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/applyconversationactioncompletedeventargs/result) { get; } |  |
 
 ### See Also
 

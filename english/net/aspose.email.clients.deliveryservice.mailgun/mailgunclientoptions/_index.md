@@ -24,8 +24,9 @@ public class MailgunClientOptions : DeliveryServiceOptions
 
 | Name | Description |
 | --- | --- |
-| [Domain](domain) { get; set; } | Domain name. |
-| [Region](region) { get; set; } | US or EU region. |
+| [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | Private API key |
+| [Domain](../../aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/domain) { get; set; } | Domain name. |
+| [Region](../../aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/region) { get; set; } | US or EU region. |
 
 ### See Also
 

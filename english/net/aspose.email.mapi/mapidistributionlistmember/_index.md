@@ -24,12 +24,12 @@ public sealed class MapiDistributionListMember
 
 | Name | Description |
 | --- | --- |
-| [AddressType](addresstype) { get; set; } | Gets or sets the recipient's e-mail address type. |
-| [ContactAddressType](contactaddresstype) { get; set; } | Gets or sets the type of the address, when EntryId property contains a the EntryID of a Contact object. |
-| [DisplayName](displayname) { get; set; } | Gets or sets the recipient's display name. |
-| [EmailAddress](emailaddress) { get; set; } | Gets or sets the recipient's e-mail address. |
-| [EntryId](entryid) { get; set; } | Gets or sets the EntryID of a member of a personal distribution list. |
-| [EntryIdType](entryidtype) { get; set; } | Gets or sets the type of EntryID. |
+| [AddressType](../../aspose.email.mapi/mapidistributionlistmember/addresstype) { get; set; } | Gets or sets the recipient's e-mail address type. |
+| [ContactAddressType](../../aspose.email.mapi/mapidistributionlistmember/contactaddresstype) { get; set; } | Gets or sets the type of the address, when EntryId property contains a the EntryID of a Contact object. |
+| [DisplayName](../../aspose.email.mapi/mapidistributionlistmember/displayname) { get; set; } | Gets or sets the recipient's display name. |
+| [EmailAddress](../../aspose.email.mapi/mapidistributionlistmember/emailaddress) { get; set; } | Gets or sets the recipient's e-mail address. |
+| [EntryId](../../aspose.email.mapi/mapidistributionlistmember/entryid) { get; set; } | Gets or sets the EntryID of a member of a personal distribution list. |
+| [EntryIdType](../../aspose.email.mapi/mapidistributionlistmember/entryidtype) { get; set; } | Gets or sets the type of EntryID. |
 
 ### See Also
 

@@ -18,24 +18,24 @@ public interface IActivityClient : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [MultipleServicesTokenProvider](multipleservicestokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
-| [Proxy](proxy) { get; set; } | Gets or sets data to proxy access to Exchange server. |
-| [ResourceId](resourceid) { get; set; } | Gets or sets resource id. For instance for users it may be user principal name (UPN) or user id |
-| [TenantId](tenantid) { get; set; } | Gets or sets tenant identifier |
-| [Timeout](timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
-| [TokenProvider](tokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
+| [MultipleServicesTokenProvider](../../aspose.email.clients.activity/iactivityclient/multipleservicestokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
+| [Proxy](../../aspose.email.clients.activity/iactivityclient/proxy) { get; set; } | Gets or sets data to proxy access to Exchange server. |
+| [ResourceId](../../aspose.email.clients.activity/iactivityclient/resourceid) { get; set; } | Gets or sets resource id. For instance for users it may be user principal name (UPN) or user id |
+| [TenantId](../../aspose.email.clients.activity/iactivityclient/tenantid) { get; set; } | Gets or sets tenant identifier |
+| [Timeout](../../aspose.email.clients.activity/iactivityclient/timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
+| [TokenProvider](../../aspose.email.clients.activity/iactivityclient/tokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [FetchContent](fetchcontent)(string) | This operation fetches content currently available for retrieval for the specified content id. |
-| [ListContent](listcontent)(string) | This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential. By default, when startTime and endTime are omitted, then the content available in the last 24 hours is returned. |
-| [ListContent](listcontent)(string, DateTime?, DateTime?) | This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential. |
-| [ListFriendlyNames](listfriendlynames)() | This operation retrieves friendly names for objects in the data feed identified by guids. |
-| [ListSubscriptions](listsubscriptions)() | This operation returns a collection of the current subscriptions together with the associated webhooks. |
-| [StartSubscription](startsubscription)(string, Webhook) | Starts a subscription to the specified content type. If a subscription to the specified content type already exists, this operation is used to: - update the properties of an active webhook - enable a webhook that was disabled because of excessive failed notifications - re-enable an expired webhook by specifying a later or null expiration date - remove a webhook |
-| [StopSubscription](stopsubscription)(string) | This operation stops a subscription to the specified content type. When a subscription is stopped, you will no longer receive notifications and you will not be able to retrieve available content. If the subscription is later restarted, you will have access to new content from that point forward. You will not be able to retrieve content that was available between the time the subscription was stopped and restarted. |
+| [FetchContent](../../aspose.email.clients.activity/iactivityclient/fetchcontent)(string) | This operation fetches content currently available for retrieval for the specified content id. |
+| [ListContent](../../aspose.email.clients.activity/iactivityclient/listcontent)(string) | This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential. By default, when startTime and endTime are omitted, then the content available in the last 24 hours is returned. |
+| [ListContent](../../aspose.email.clients.activity/iactivityclient/listcontent)(string, DateTime?, DateTime?) | This operation lists the content currently available for retrieval for the specified content type. The content is an aggregation of actions and events harvested from multiple servers across multiple datacenters. The content will be listed in the order in which the aggregations become available, but the events and actions within the aggregations are not guaranteed to be sequential. |
+| [ListFriendlyNames](../../aspose.email.clients.activity/iactivityclient/listfriendlynames)() | This operation retrieves friendly names for objects in the data feed identified by guids. |
+| [ListSubscriptions](../../aspose.email.clients.activity/iactivityclient/listsubscriptions)() | This operation returns a collection of the current subscriptions together with the associated webhooks. |
+| [StartSubscription](../../aspose.email.clients.activity/iactivityclient/startsubscription)(string, Webhook) | Starts a subscription to the specified content type. If a subscription to the specified content type already exists, this operation is used to: - update the properties of an active webhook - enable a webhook that was disabled because of excessive failed notifications - re-enable an expired webhook by specifying a later or null expiration date - remove a webhook |
+| [StopSubscription](../../aspose.email.clients.activity/iactivityclient/stopsubscription)(string) | This operation stops a subscription to the specified content type. When a subscription is stopped, you will no longer receive notifications and you will not be able to retrieve available content. If the subscription is later restarted, you will have access to new content from that point forward. You will not be able to retrieve content that was available between the time the subscription was stopped and restarted. |
 
 ### See Also
 

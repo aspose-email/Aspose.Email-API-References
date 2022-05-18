@@ -22,8 +22,8 @@ public class DynamicRefinerQueryType
 
 | Name | Description |
 | --- | --- |
-| [RefinerQuery](refinerquery) { get; set; } |  |
-| [TDRefinerId](tdrefinerid) { get; set; } |  |
+| [RefinerQuery](../../aspose.email.clients.exchange.webservice.schema_2016/dynamicrefinerquerytype/refinerquery) { get; set; } |  |
+| [TDRefinerId](../../aspose.email.clients.exchange.webservice.schema_2016/dynamicrefinerquerytype/tdrefinerid) { get; set; } |  |
 
 ### See Also
 

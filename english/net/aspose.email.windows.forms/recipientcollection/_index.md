@@ -24,16 +24,16 @@ public class RecipientCollection : Collection<Recipient>
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Returns the recipient stored in this collection at the specified index. |
+| [Item](../../aspose.email.windows.forms/recipientcollection/item) { get; } | Returns the recipient stored in this collection at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string) | Adds a new recipient with the specified address to this collection. |
-| [Add](add)(string, RecipientType) | Adds a new recipient with the specified address and recipient type to this collection. |
-| [Add](add)(string, string) | Adds a new recipient with the specified address and display name to this collection. |
-| [Add](add)(string, string, RecipientType) | Adds a new recipient with the specified address, display name and recipient type to this collection. |
+| [Add](../../aspose.email.windows.forms/recipientcollection/add)(string) | Adds a new recipient with the specified address to this collection. |
+| [Add](../../aspose.email.windows.forms/recipientcollection/add)(string, RecipientType) | Adds a new recipient with the specified address and recipient type to this collection. |
+| [Add](../../aspose.email.windows.forms/recipientcollection/add)(string, string) | Adds a new recipient with the specified address and display name to this collection. |
+| [Add](../../aspose.email.windows.forms/recipientcollection/add)(string, string, RecipientType) | Adds a new recipient with the specified address, display name and recipient type to this collection. |
 
 ### See Also
 

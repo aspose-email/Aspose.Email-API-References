@@ -18,9 +18,9 @@ public class ImapAttachmentInfo
 
 | Name | Description |
 | --- | --- |
-| [MediaType](mediatype) { get; } | Gets an attachment MIME-type. |
-| [Name](name) { get; } | Gets an attachment name. |
-| [Size](size) { get; } | Gets an attachment size. |
+| [MediaType](../../aspose.email.clients.imap/imapattachmentinfo/mediatype) { get; } | Gets an attachment MIME-type. |
+| [Name](../../aspose.email.clients.imap/imapattachmentinfo/name) { get; } | Gets an attachment name. |
+| [Size](../../aspose.email.clients.imap/imapattachmentinfo/size) { get; } | Gets an attachment size. |
 
 ### See Also
 

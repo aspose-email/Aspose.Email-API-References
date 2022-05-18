@@ -30,39 +30,39 @@ public class MapiProperty
 
 | Name | Description |
 | --- | --- |
-| virtual [Data](data) { get; } | Gets the binary data. |
-| virtual [DataType](datatype) { get; } | Gets the data type. |
-| [Descriptor](descriptor) { get; } | Gets descriptor of MAPI property |
-| virtual [Identifier](identifier) { get; } | Gets the indifier. |
-| [IsNamed](isnamed) { get; } | Indicates whether the property is a named property. |
-| virtual [IsSigned](issigned) { get; set; } | Indicates whether the binary data is signed. |
-| [MVEntries](mventries) { get; } | Gets the MV entries list. |
-| virtual [Name](name) { get; } | Gets the name. |
-| virtual [PropertyTagName](propertytagname) { get; } | Gets the PropertyName. |
-| virtual [Tag](tag) { get; } | Gets the tag. |
+| virtual [Data](../../aspose.email.mapi/mapiproperty/data) { get; } | Gets the binary data. |
+| virtual [DataType](../../aspose.email.mapi/mapiproperty/datatype) { get; } | Gets the data type. |
+| [Descriptor](../../aspose.email.mapi/mapiproperty/descriptor) { get; } | Gets descriptor of MAPI property |
+| virtual [Identifier](../../aspose.email.mapi/mapiproperty/identifier) { get; } | Gets the indifier. |
+| [IsNamed](../../aspose.email.mapi/mapiproperty/isnamed) { get; } | Indicates whether the property is a named property. |
+| virtual [IsSigned](../../aspose.email.mapi/mapiproperty/issigned) { get; set; } | Indicates whether the binary data is signed. |
+| [MVEntries](../../aspose.email.mapi/mapiproperty/mventries) { get; } | Gets the MV entries list. |
+| virtual [Name](../../aspose.email.mapi/mapiproperty/name) { get; } | Gets the name. |
+| virtual [PropertyTagName](../../aspose.email.mapi/mapiproperty/propertytagname) { get; } | Gets the PropertyName. |
+| virtual [Tag](../../aspose.email.mapi/mapiproperty/tag) { get; } | Gets the tag. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateMapiPropertyFromBytes](createmapipropertyfrombytes)(long, byte[]) | Creates the mapi property from bytes. |
-| static [CreateMapiPropertyFromDateTime](createmapipropertyfromdatetime)(long, DateTime) | Creates the mapi property from date time. |
-| static [CreateMapiPropertyFromLong](createmapipropertyfromlong)(long, long) | Creates the mapi property from long. |
-| static [CreateMapiPropertyFromLong](createmapipropertyfromlong)(long, long, long) | Creates the mapi property from long. |
-| virtual [GetBoolean](getboolean)() | Gets the first bytes of the binary data as boolean. |
-| virtual [GetCurrency](getcurrency)() | Gets the Currency as string using the specified code page. |
-| virtual [GetDateTime](getdatetime)() | Gets the first bytes of the binary data as datetime. |
-| virtual [GetDouble](getdouble)() | Gets the bytes of the binary data as double. |
-| virtual [GetFloat](getfloat)() | Gets the bytes of the binary data as float. |
-| virtual [GetFloatingDate](getfloatingdate)() | Gets the bytes of the binary data as DateTime. |
-| virtual [GetGuid](getguid)() | Gets the bytes of the binary data as Guid. |
-| virtual [GetInt32](getint32)() | Gets the first 4 bytes of the binary data as int32. |
-| virtual [GetLong](getlong)() | Gets the first 8 bytes of the binary data as long. |
-| virtual [GetShort](getshort)() | Gets the first 2 bytes of the binary data as short. |
-| virtual [GetString](getstring)() | Gets the binary data as string. |
-| virtual [GetString](getstring)(int) | Gets the binary data as string using the specified code page. |
-| [GetValue](getvalue)() | Gets value as object |
-| override [ToString](tostring)() | Returns a String that represents the current Object. |
+| static [CreateMapiPropertyFromBytes](../../aspose.email.mapi/mapiproperty/createmapipropertyfrombytes)(long, byte[]) | Creates the mapi property from bytes. |
+| static [CreateMapiPropertyFromDateTime](../../aspose.email.mapi/mapiproperty/createmapipropertyfromdatetime)(long, DateTime) | Creates the mapi property from date time. |
+| static [CreateMapiPropertyFromLong](../../aspose.email.mapi/mapiproperty/createmapipropertyfromlong)(long, long) | Creates the mapi property from long. |
+| static [CreateMapiPropertyFromLong](../../aspose.email.mapi/mapiproperty/createmapipropertyfromlong)(long, long, long) | Creates the mapi property from long. |
+| virtual [GetBoolean](../../aspose.email.mapi/mapiproperty/getboolean)() | Gets the first bytes of the binary data as boolean. |
+| virtual [GetCurrency](../../aspose.email.mapi/mapiproperty/getcurrency)() | Gets the Currency as string using the specified code page. |
+| virtual [GetDateTime](../../aspose.email.mapi/mapiproperty/getdatetime)() | Gets the first bytes of the binary data as datetime. |
+| virtual [GetDouble](../../aspose.email.mapi/mapiproperty/getdouble)() | Gets the bytes of the binary data as double. |
+| virtual [GetFloat](../../aspose.email.mapi/mapiproperty/getfloat)() | Gets the bytes of the binary data as float. |
+| virtual [GetFloatingDate](../../aspose.email.mapi/mapiproperty/getfloatingdate)() | Gets the bytes of the binary data as DateTime. |
+| virtual [GetGuid](../../aspose.email.mapi/mapiproperty/getguid)() | Gets the bytes of the binary data as Guid. |
+| virtual [GetInt32](../../aspose.email.mapi/mapiproperty/getint32)() | Gets the first 4 bytes of the binary data as int32. |
+| virtual [GetLong](../../aspose.email.mapi/mapiproperty/getlong)() | Gets the first 8 bytes of the binary data as long. |
+| virtual [GetShort](../../aspose.email.mapi/mapiproperty/getshort)() | Gets the first 2 bytes of the binary data as short. |
+| virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)() | Gets the binary data as string. |
+| virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)(int) | Gets the binary data as string using the specified code page. |
+| [GetValue](../../aspose.email.mapi/mapiproperty/getvalue)() | Gets value as object |
+| override [ToString](../../aspose.email.mapi/mapiproperty/tostring)() | Returns a String that represents the current Object. |
 
 ### See Also
 

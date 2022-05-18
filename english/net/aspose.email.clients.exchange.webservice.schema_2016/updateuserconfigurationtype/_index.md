@@ -22,7 +22,7 @@ public class UpdateUserConfigurationType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [UserConfiguration](userconfiguration) { get; set; } |  |
+| [UserConfiguration](../../aspose.email.clients.exchange.webservice.schema_2016/updateuserconfigurationtype/userconfiguration) { get; set; } |  |
 
 ### See Also
 

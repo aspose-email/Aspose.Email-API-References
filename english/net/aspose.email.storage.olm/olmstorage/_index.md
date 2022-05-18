@@ -26,21 +26,21 @@ public class OlmStorage : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [FolderHierarchy](folderhierarchy) { get; } | Gets the folder hierarchy. |
+| [FolderHierarchy](../../aspose.email.storage.olm/olmstorage/folderhierarchy) { get; } | Gets the folder hierarchy. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [FromFile](fromfile)(string) | Load OLM storage from file. |
-| static [FromStream](fromstream)(Stream) | Load OLM from stream. |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [EnumerateMessages](enumeratemessages)(OlmFolder) | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [ExtractMapiMessage](extractmapimessage)(OlmMessageInfo) | Get the message from OLM storage. |
-| [GetFolder](getfolder)(string, bool) | Gets the folder by name. |
-| [GetFolders](getfolders)() | Gets collection of folders. |
-| [Load](load)(Stream) | Load OLM storage from stream. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter. |
-| [Load](load)(string) | Load OLM storage from file. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter. |
+| static [FromFile](../../aspose.email.storage.olm/olmstorage/fromfile)(string) | Load OLM storage from file. |
+| static [FromStream](../../aspose.email.storage.olm/olmstorage/fromstream)(Stream) | Load OLM from stream. |
+| [Dispose](../../aspose.email.storage.olm/olmstorage/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [EnumerateMessages](../../aspose.email.storage.olm/olmstorage/enumeratemessages)(OlmFolder) | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [ExtractMapiMessage](../../aspose.email.storage.olm/olmstorage/extractmapimessage)(OlmMessageInfo) | Get the message from OLM storage. |
+| [GetFolder](../../aspose.email.storage.olm/olmstorage/getfolder)(string, bool) | Gets the folder by name. |
+| [GetFolders](../../aspose.email.storage.olm/olmstorage/getfolders)() | Gets collection of folders. |
+| [Load](../../aspose.email.storage.olm/olmstorage/load)(Stream) | Load OLM storage from stream. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter. |
+| [Load](../../aspose.email.storage.olm/olmstorage/load)(string) | Load OLM storage from file. This method is used when a OlmStorage object is created using constructor with the TraversalExceptionsCallback parameter. |
 
 ### See Also
 

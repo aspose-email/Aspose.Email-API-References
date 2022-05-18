@@ -16,7 +16,7 @@ public class GetRoomsCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getroomscompletedeventargs/result) { get; } |  |
 
 ### See Also
 

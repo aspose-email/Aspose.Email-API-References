@@ -22,7 +22,8 @@ public class AbsoluteMonthlyRecurrencePatternType : IntervalRecurrencePatternBas
 
 | Name | Description |
 | --- | --- |
-| [DayOfMonth](dayofmonth) { get; set; } |  |
+| [DayOfMonth](../../aspose.email.clients.exchange.webservice.schema_2016/absolutemonthlyrecurrencepatterntype/dayofmonth) { get; set; } |  |
+| [Interval](../../aspose.email.clients.exchange.webservice.schema_2016/intervalrecurrencepatternbasetype/interval) { get; set; } |  |
 
 ### See Also
 

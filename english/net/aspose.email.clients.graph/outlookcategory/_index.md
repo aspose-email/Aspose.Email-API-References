@@ -26,16 +26,16 @@ public class OutlookCategory
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; set; } | String representation of a pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. The possible values for color are pre-set constants such as None, preset0 and preset1. Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in. |
-| [DisplayName](displayname) { get; set; } | A unique name that identifies a category in the user's mailbox. After a category is created, the name cannot be changed. |
-| [Id](id) { get; set; } | Category identifier |
-| [Preset](preset) { get; set; } | A pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in. |
+| [Color](../../aspose.email.clients.graph/outlookcategory/color) { get; set; } | String representation of a pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. The possible values for color are pre-set constants such as None, preset0 and preset1. Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in. |
+| [DisplayName](../../aspose.email.clients.graph/outlookcategory/displayname) { get; set; } | A unique name that identifies a category in the user's mailbox. After a category is created, the name cannot be changed. |
+| [Id](../../aspose.email.clients.graph/outlookcategory/id) { get; set; } | Category identifier |
+| [Preset](../../aspose.email.clients.graph/outlookcategory/preset) { get; set; } | A pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors. Each pre-set constant is further mapped to a color; the actual color is dependent on the Outlook client that the categories are being displayed in. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email.clients.graph/outlookcategory/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

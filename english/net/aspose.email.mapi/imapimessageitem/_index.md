@@ -18,9 +18,9 @@ public interface IMapiMessageItem
 
 | Name | Description |
 | --- | --- |
-| [Body](body) { get; set; } | Gets message body |
-| [MessageClass](messageclass) { get; } | Gets message class |
-| [Subject](subject) { get; set; } | Gets message subject |
+| [Body](../../aspose.email.mapi/imapimessageitem/body) { get; set; } | Gets message body |
+| [MessageClass](../../aspose.email.mapi/imapimessageitem/messageclass) { get; } | Gets message class |
+| [Subject](../../aspose.email.mapi/imapimessageitem/subject) { get; set; } | Gets message subject |
 
 ### See Also
 

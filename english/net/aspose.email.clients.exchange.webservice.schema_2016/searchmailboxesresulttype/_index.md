@@ -22,17 +22,17 @@ public class SearchMailboxesResultType
 
 | Name | Description |
 | --- | --- |
-| [FailedMailboxes](failedmailboxes) { get; set; } |  |
-| [ItemCount](itemcount) { get; set; } |  |
-| [Items](items) { get; set; } |  |
-| [KeywordStats](keywordstats) { get; set; } |  |
-| [MailboxStats](mailboxstats) { get; set; } |  |
-| [PageItemCount](pageitemcount) { get; set; } |  |
-| [PageItemSize](pageitemsize) { get; set; } |  |
-| [Refiners](refiners) { get; set; } |  |
-| [ResultType](resulttype) { get; set; } |  |
-| [SearchQueries](searchqueries) { get; set; } |  |
-| [Size](size) { get; set; } |  |
+| [FailedMailboxes](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/failedmailboxes) { get; set; } |  |
+| [ItemCount](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/itemcount) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/items) { get; set; } |  |
+| [KeywordStats](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/keywordstats) { get; set; } |  |
+| [MailboxStats](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/mailboxstats) { get; set; } |  |
+| [PageItemCount](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/pageitemcount) { get; set; } |  |
+| [PageItemSize](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/pageitemsize) { get; set; } |  |
+| [Refiners](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/refiners) { get; set; } |  |
+| [ResultType](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/resulttype) { get; set; } |  |
+| [SearchQueries](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/searchqueries) { get; set; } |  |
+| [Size](../../aspose.email.clients.exchange.webservice.schema_2016/searchmailboxesresulttype/size) { get; set; } |  |
 
 ### See Also
 

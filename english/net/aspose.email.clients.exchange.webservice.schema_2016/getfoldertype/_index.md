@@ -22,8 +22,8 @@ public class GetFolderType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [FolderIds](folderids) { get; set; } |  |
-| [FolderShape](foldershape) { get; set; } |  |
+| [FolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/getfoldertype/folderids) { get; set; } |  |
+| [FolderShape](../../aspose.email.clients.exchange.webservice.schema_2016/getfoldertype/foldershape) { get; set; } |  |
 
 ### See Also
 

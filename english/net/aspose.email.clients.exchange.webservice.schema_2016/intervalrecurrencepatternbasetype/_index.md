@@ -16,7 +16,7 @@ public abstract class IntervalRecurrencePatternBaseType : RecurrencePatternBaseT
 
 | Name | Description |
 | --- | --- |
-| [Interval](interval) { get; set; } |  |
+| [Interval](../../aspose.email.clients.exchange.webservice.schema_2016/intervalrecurrencepatternbasetype/interval) { get; set; } |  |
 
 ### See Also
 

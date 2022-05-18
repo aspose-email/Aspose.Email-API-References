@@ -22,13 +22,13 @@ public class SearchableMailboxType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
-| [ExternalEmailAddress](externalemailaddress) { get; set; } |  |
-| [Guid](guid) { get; set; } |  |
-| [IsExternalMailbox](isexternalmailbox) { get; set; } |  |
-| [IsMembershipGroup](ismembershipgroup) { get; set; } |  |
-| [PrimarySmtpAddress](primarysmtpaddress) { get; set; } |  |
-| [ReferenceId](referenceid) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/searchablemailboxtype/displayname) { get; set; } |  |
+| [ExternalEmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/searchablemailboxtype/externalemailaddress) { get; set; } |  |
+| [Guid](../../aspose.email.clients.exchange.webservice.schema_2016/searchablemailboxtype/guid) { get; set; } |  |
+| [IsExternalMailbox](../../aspose.email.clients.exchange.webservice.schema_2016/searchablemailboxtype/isexternalmailbox) { get; set; } |  |
+| [IsMembershipGroup](../../aspose.email.clients.exchange.webservice.schema_2016/searchablemailboxtype/ismembershipgroup) { get; set; } |  |
+| [PrimarySmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/searchablemailboxtype/primarysmtpaddress) { get; set; } |  |
+| [ReferenceId](../../aspose.email.clients.exchange.webservice.schema_2016/searchablemailboxtype/referenceid) { get; set; } |  |
 
 ### See Also
 

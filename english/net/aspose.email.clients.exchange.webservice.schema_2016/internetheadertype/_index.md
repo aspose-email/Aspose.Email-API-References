@@ -22,8 +22,8 @@ public class InternetHeaderType
 
 | Name | Description |
 | --- | --- |
-| [HeaderName](headername) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [HeaderName](../../aspose.email.clients.exchange.webservice.schema_2016/internetheadertype/headername) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/internetheadertype/value) { get; set; } |  |
 
 ### See Also
 

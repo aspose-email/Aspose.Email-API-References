@@ -22,8 +22,9 @@ public class GetDelegateType : BaseDelegateType
 
 | Name | Description |
 | --- | --- |
-| [IncludePermissions](includepermissions) { get; set; } |  |
-| [UserIds](userids) { get; set; } |  |
+| [IncludePermissions](../../aspose.email.clients.exchange.webservice.schema_2016/getdelegatetype/includepermissions) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/basedelegatetype/mailbox) { get; set; } |  |
+| [UserIds](../../aspose.email.clients.exchange.webservice.schema_2016/getdelegatetype/userids) { get; set; } |  |
 
 ### See Also
 

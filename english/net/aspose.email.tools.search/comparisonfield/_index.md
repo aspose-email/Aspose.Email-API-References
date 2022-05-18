@@ -18,7 +18,7 @@ public abstract class ComparisonField : QueryField
 
 | Name | Description |
 | --- | --- |
-| [OrderBy](orderby)(bool) | Sets value which indicates if client uses ascending or descending sorting on the Field. |
+| [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | Sets value which indicates if client uses ascending or descending sorting on the Field. |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class AggregateOnType
 
 | Name | Description |
 | --- | --- |
-| [Aggregate](aggregate) { get; set; } |  |
-| [Item](item) { get; set; } |  |
+| [Aggregate](../../aspose.email.clients.exchange.webservice.schema_2016/aggregateontype/aggregate) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/aggregateontype/item) { get; set; } |  |
 
 ### See Also
 

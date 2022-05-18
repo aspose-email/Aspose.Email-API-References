@@ -22,7 +22,7 @@ public class DeleteRuleOperationType : RuleOperationType
 
 | Name | Description |
 | --- | --- |
-| [RuleId](ruleid) { get; set; } |  |
+| [RuleId](../../aspose.email.clients.exchange.webservice.schema_2016/deleteruleoperationtype/ruleid) { get; set; } |  |
 
 ### See Also
 

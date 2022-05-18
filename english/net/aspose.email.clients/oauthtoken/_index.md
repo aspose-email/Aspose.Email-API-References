@@ -26,18 +26,18 @@ public class OAuthToken
 
 | Name | Description |
 | --- | --- |
-| [ExpirationDate](expirationdate) { get; } | Gets expiration date of the token. |
-| [Expired](expired) { get; } | Indicates whether token is expired |
-| [Token](token) { get; } | Gets token value |
-| [TokenType](tokentype) { get; } | Gets OAuth token type |
+| [ExpirationDate](../../aspose.email.clients/oauthtoken/expirationdate) { get; } | Gets expiration date of the token. |
+| [Expired](../../aspose.email.clients/oauthtoken/expired) { get; } | Indicates whether token is expired |
+| [Token](../../aspose.email.clients/oauthtoken/token) { get; } | Gets token value |
+| [TokenType](../../aspose.email.clients/oauthtoken/tokentype) { get; } | Gets OAuth token type |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [Equals](../../aspose.email.clients/oauthtoken/equals)(object) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.email.clients/oauthtoken/gethashcode)() | Serves as a hash function for a particular type. |
+| override [ToString](../../aspose.email.clients/oauthtoken/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

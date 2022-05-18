@@ -24,7 +24,15 @@ public class ElementProcessingException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [ElementIndex](elementindex) { get; } | The index of the processed element. |
+| [ElementIndex](../../aspose.email/elementprocessingexception/elementindex) { get; } | The index of the processed element. |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Gets extra information aboout error |
+| override [Message](../../aspose.email/asposeexception/message) { get; } | Gets a message that describes the current exception. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email/asposeexception/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

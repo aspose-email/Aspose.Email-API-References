@@ -22,10 +22,10 @@ public class RulePredicateDateRangeType
 
 | Name | Description |
 | --- | --- |
-| [EndDateTime](enddatetime) { get; set; } |  |
-| [EndDateTimeSpecified](enddatetimespecified) { get; set; } |  |
-| [StartDateTime](startdatetime) { get; set; } |  |
-| [StartDateTimeSpecified](startdatetimespecified) { get; set; } |  |
+| [EndDateTime](../../aspose.email.clients.exchange.webservice.schema_2016/rulepredicatedaterangetype/enddatetime) { get; set; } |  |
+| [EndDateTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rulepredicatedaterangetype/enddatetimespecified) { get; set; } |  |
+| [StartDateTime](../../aspose.email.clients.exchange.webservice.schema_2016/rulepredicatedaterangetype/startdatetime) { get; set; } |  |
+| [StartDateTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rulepredicatedaterangetype/startdatetimespecified) { get; set; } |  |
 
 ### See Also
 

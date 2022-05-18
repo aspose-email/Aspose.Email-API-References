@@ -24,8 +24,8 @@ public class NameValuePair
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Value of the property |
-| [Value](value) { get; set; } | Name of the property |
+| [Name](../../aspose.email.clients/namevaluepair/name) { get; set; } | Value of the property |
+| [Value](../../aspose.email.clients/namevaluepair/value) { get; set; } | Name of the property |
 
 ### See Also
 

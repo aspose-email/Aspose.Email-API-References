@@ -18,22 +18,22 @@ public class ESearchOptions : QueryField
 
 | Name | Description |
 | --- | --- |
-| static [Max](max) { get; } | Return the highest message |
-| static [Min](min) { get; } | Return the lowest message |
-| static [NotDefined](notdefined) { get; } | Not defined |
+| static [Max](../../aspose.email.clients.imap/esearchoptions/max) { get; } | Return the highest message |
+| static [Min](../../aspose.email.clients.imap/esearchoptions/min) { get; } | Return the lowest message |
+| static [NotDefined](../../aspose.email.clients.imap/esearchoptions/notdefined) { get; } | Not defined |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreateQuery](createquery)() | Creates the search key. |
-| [CreateQuery](createquery)(MailQueryBuilder) | Creates the search key. |
-| override [Equals](equals)(object) |  |
-| override [ToString](tostring)() | String representation of an object |
-| [operator +](op_addition) | Plus operation is defined |
-| [operator ==](op_equality) | Equel operation is defined |
-| [operator !=](op_inequality) | Not equel operation is defined |
-| [operator -](op_subtraction) | Minus operation is defined |
+| [CreateQuery](../../aspose.email.clients.imap/esearchoptions/createquery)() | Creates the search key. |
+| [CreateQuery](../../aspose.email.clients.imap/esearchoptions/createquery)(MailQueryBuilder) | Creates the search key. |
+| override [Equals](../../aspose.email.clients.imap/esearchoptions/equals)(object) |  |
+| override [ToString](../../aspose.email.clients.imap/esearchoptions/tostring)() | String representation of an object |
+| [operator +](../../aspose.email.clients.imap/esearchoptions/op_addition) | Plus operation is defined |
+| [operator ==](../../aspose.email.clients.imap/esearchoptions/op_equality) | Equel operation is defined |
+| [operator !=](../../aspose.email.clients.imap/esearchoptions/op_inequality) | Not equel operation is defined |
+| [operator -](../../aspose.email.clients.imap/esearchoptions/op_subtraction) | Minus operation is defined |
 
 ### See Also
 

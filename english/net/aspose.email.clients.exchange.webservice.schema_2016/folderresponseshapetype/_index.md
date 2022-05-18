@@ -22,8 +22,8 @@ public class FolderResponseShapeType
 
 | Name | Description |
 | --- | --- |
-| [AdditionalProperties](additionalproperties) { get; set; } |  |
-| [BaseShape](baseshape) { get; set; } |  |
+| [AdditionalProperties](../../aspose.email.clients.exchange.webservice.schema_2016/folderresponseshapetype/additionalproperties) { get; set; } |  |
+| [BaseShape](../../aspose.email.clients.exchange.webservice.schema_2016/folderresponseshapetype/baseshape) { get; set; } |  |
 
 ### See Also
 

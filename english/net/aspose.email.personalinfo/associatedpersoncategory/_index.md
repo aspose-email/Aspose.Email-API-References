@@ -24,34 +24,34 @@ public class AssociatedPersonCategory : IEquatable<AssociatedPersonCategory>
 
 | Name | Description |
 | --- | --- |
-| static [Assistant](assistant) { get; } | Assistant |
-| static [Brother](brother) { get; } | Brother |
-| static [Child](child) { get; } | Child |
-| static [Custom](custom) { get; } | Custom category with empty description |
-| static [DomesticPartner](domesticpartner) { get; } | Domestic partner |
-| static [Father](father) { get; } | Father |
-| static [Friend](friend) { get; } | Friend |
-| static [Manager](manager) { get; } | Manager |
-| static [Mother](mother) { get; } | Mother |
-| static [Parent](parent) { get; } | Parent |
-| static [Partner](partner) { get; } | Partner |
-| static [ReferredBy](referredby) { get; } | Referred by |
-| static [Relative](relative) { get; } | Relative |
-| static [Sister](sister) { get; } | Sister |
-| static [Spouse](spouse) { get; } | Spouse |
-| [Description](description) { get; } | Gets description for the 'Custom' category of a person |
-| [Value](value) { get; } | Gets category of a person |
+| static [Assistant](../../aspose.email.personalinfo/associatedpersoncategory/assistant) { get; } | Assistant |
+| static [Brother](../../aspose.email.personalinfo/associatedpersoncategory/brother) { get; } | Brother |
+| static [Child](../../aspose.email.personalinfo/associatedpersoncategory/child) { get; } | Child |
+| static [Custom](../../aspose.email.personalinfo/associatedpersoncategory/custom) { get; } | Custom category with empty description |
+| static [DomesticPartner](../../aspose.email.personalinfo/associatedpersoncategory/domesticpartner) { get; } | Domestic partner |
+| static [Father](../../aspose.email.personalinfo/associatedpersoncategory/father) { get; } | Father |
+| static [Friend](../../aspose.email.personalinfo/associatedpersoncategory/friend) { get; } | Friend |
+| static [Manager](../../aspose.email.personalinfo/associatedpersoncategory/manager) { get; } | Manager |
+| static [Mother](../../aspose.email.personalinfo/associatedpersoncategory/mother) { get; } | Mother |
+| static [Parent](../../aspose.email.personalinfo/associatedpersoncategory/parent) { get; } | Parent |
+| static [Partner](../../aspose.email.personalinfo/associatedpersoncategory/partner) { get; } | Partner |
+| static [ReferredBy](../../aspose.email.personalinfo/associatedpersoncategory/referredby) { get; } | Referred by |
+| static [Relative](../../aspose.email.personalinfo/associatedpersoncategory/relative) { get; } | Relative |
+| static [Sister](../../aspose.email.personalinfo/associatedpersoncategory/sister) { get; } | Sister |
+| static [Spouse](../../aspose.email.personalinfo/associatedpersoncategory/spouse) { get; } | Spouse |
+| [Description](../../aspose.email.personalinfo/associatedpersoncategory/description) { get; } | Gets description for the 'Custom' category of a person |
+| [Value](../../aspose.email.personalinfo/associatedpersoncategory/value) { get; } | Gets category of a person |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Equals](equals)(AssociatedPersonCategory) | Determines whether the specified object is equal to the current object. |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| override [GetHashCode](gethashcode)() | GetHashCode returns a hash function for this object. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [operator ==](op_equality) | Determines whether the specified objects are equal. |
-| [operator !=](op_inequality) | Determines whether the specified objects are not equal. |
+| virtual [Equals](../../aspose.email.personalinfo/associatedpersoncategory/equals)(AssociatedPersonCategory) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.email.personalinfo/associatedpersoncategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| override [GetHashCode](../../aspose.email.personalinfo/associatedpersoncategory/gethashcode)() | GetHashCode returns a hash function for this object. |
+| override [ToString](../../aspose.email.personalinfo/associatedpersoncategory/tostring)() | Returns a string that represents the current object. |
+| [operator ==](../../aspose.email.personalinfo/associatedpersoncategory/op_equality) | Determines whether the specified objects are equal. |
+| [operator !=](../../aspose.email.personalinfo/associatedpersoncategory/op_inequality) | Determines whether the specified objects are not equal. |
 
 ## Other Members
 

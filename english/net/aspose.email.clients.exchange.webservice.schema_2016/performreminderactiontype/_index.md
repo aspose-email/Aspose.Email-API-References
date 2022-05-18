@@ -22,7 +22,7 @@ public class PerformReminderActionType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ReminderItemActions](reminderitemactions) { get; set; } |  |
+| [ReminderItemActions](../../aspose.email.clients.exchange.webservice.schema_2016/performreminderactiontype/reminderitemactions) { get; set; } |  |
 
 ### See Also
 

@@ -22,7 +22,9 @@ public class AlternatePublicFolderItemIdType : AlternatePublicFolderIdType
 
 | Name | Description |
 | --- | --- |
-| [ItemId](itemid) { get; set; } |  |
+| [FolderId](../../aspose.email.clients.exchange.webservice.schema_2016/alternatepublicfolderidtype/folderid) { get; set; } |  |
+| [Format](../../aspose.email.clients.exchange.webservice.schema_2016/alternateidbasetype/format) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/alternatepublicfolderitemidtype/itemid) { get; set; } |  |
 
 ### See Also
 

@@ -22,7 +22,8 @@ public class RemoveDelegateType : BaseDelegateType
 
 | Name | Description |
 | --- | --- |
-| [UserIds](userids) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/basedelegatetype/mailbox) { get; set; } |  |
+| [UserIds](../../aspose.email.clients.exchange.webservice.schema_2016/removedelegatetype/userids) { get; set; } |  |
 
 ### See Also
 

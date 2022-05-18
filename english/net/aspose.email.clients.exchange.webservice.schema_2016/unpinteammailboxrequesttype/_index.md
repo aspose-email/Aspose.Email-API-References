@@ -22,7 +22,7 @@ public class UnpinTeamMailboxRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [EmailAddress](emailaddress) { get; set; } |  |
+| [EmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/unpinteammailboxrequesttype/emailaddress) { get; set; } |  |
 
 ### See Also
 

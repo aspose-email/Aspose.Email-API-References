@@ -22,9 +22,9 @@ public class SendItemType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ItemIds](itemids) { get; set; } |  |
-| [SavedItemFolderId](saveditemfolderid) { get; set; } |  |
-| [SaveItemToFolder](saveitemtofolder) { get; set; } |  |
+| [ItemIds](../../aspose.email.clients.exchange.webservice.schema_2016/senditemtype/itemids) { get; set; } |  |
+| [SavedItemFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/senditemtype/saveditemfolderid) { get; set; } |  |
+| [SaveItemToFolder](../../aspose.email.clients.exchange.webservice.schema_2016/senditemtype/saveitemtofolder) { get; set; } |  |
 
 ### See Also
 

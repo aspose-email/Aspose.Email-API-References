@@ -22,9 +22,9 @@ public class InvalidRecipientType
 
 | Name | Description |
 | --- | --- |
-| [MessageText](messagetext) { get; set; } |  |
-| [ResponseCode](responsecode) { get; set; } |  |
-| [SmtpAddress](smtpaddress) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/invalidrecipienttype/messagetext) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/invalidrecipienttype/responsecode) { get; set; } |  |
+| [SmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/invalidrecipienttype/smtpaddress) { get; set; } |  |
 
 ### See Also
 

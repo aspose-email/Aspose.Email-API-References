@@ -22,9 +22,9 @@ public class VotingOptionDataType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
-| [SendPrompt](sendprompt) { get; set; } |  |
-| [SendPromptSpecified](sendpromptspecified) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/votingoptiondatatype/displayname) { get; set; } |  |
+| [SendPrompt](../../aspose.email.clients.exchange.webservice.schema_2016/votingoptiondatatype/sendprompt) { get; set; } |  |
+| [SendPromptSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/votingoptiondatatype/sendpromptspecified) { get; set; } |  |
 
 ### See Also
 

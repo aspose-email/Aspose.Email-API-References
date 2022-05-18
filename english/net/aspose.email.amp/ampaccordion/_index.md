@@ -24,17 +24,20 @@ public class AmpAccordion : AmpComponent
 
 | Name | Description |
 | --- | --- |
-| [DisableSessionStates](disablesessionstates) { get; set; } | Set this attribute on the amp-accordion to opt out of preserving the collapsed/expanded state of the accordion. |
-| [ExpandSingleSection](expandsinglesection) { get; set; } | Set this attribute on the amp-accordion to only allow one section to be expanded at a time. |
-| override [RequiredScript](requiredscript) { get; } | Required script that muct be added to head section. |
-| [Sections](sections) { get; } | List of sections. |
+| [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP provides a set of common attributes that are extended to many AMP components. |
+| [DisableSessionStates](../../aspose.email.amp/ampaccordion/disablesessionstates) { get; set; } | Set this attribute on the amp-accordion to opt out of preserving the collapsed/expanded state of the accordion. |
+| [ExpandSingleSection](../../aspose.email.amp/ampaccordion/expandsinglesection) { get; set; } | Set this attribute on the amp-accordion to only allow one section to be expanded at a time. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. If specified, a placeholder element must be a direct child of the AMP element. |
+| override [RequiredScript](../../aspose.email.amp/ampaccordion/requiredscript) { get; } | Required script that muct be added to head section. |
+| [Sections](../../aspose.email.amp/ampaccordion/sections) { get; } | List of sections. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToAmpHtml](toamphtml)() | Represents amp html version of component. |
-| override [ToHtml](tohtml)() | Represents html version of component. |
+| override [ToAmpHtml](../../aspose.email.amp/ampaccordion/toamphtml)() | Represents amp html version of component. |
+| override [ToHtml](../../aspose.email.amp/ampaccordion/tohtml)() | Represents html version of component. |
 
 ### See Also
 

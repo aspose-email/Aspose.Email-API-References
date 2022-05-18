@@ -22,16 +22,16 @@ public class CompleteNameType
 
 | Name | Description |
 | --- | --- |
-| [FirstName](firstname) { get; set; } |  |
-| [FullName](fullname) { get; set; } |  |
-| [Initials](initials) { get; set; } |  |
-| [LastName](lastname) { get; set; } |  |
-| [MiddleName](middlename) { get; set; } |  |
-| [Nickname](nickname) { get; set; } |  |
-| [Suffix](suffix) { get; set; } |  |
-| [Title](title) { get; set; } |  |
-| [YomiFirstName](yomifirstname) { get; set; } |  |
-| [YomiLastName](yomilastname) { get; set; } |  |
+| [FirstName](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/firstname) { get; set; } |  |
+| [FullName](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/fullname) { get; set; } |  |
+| [Initials](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/initials) { get; set; } |  |
+| [LastName](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/lastname) { get; set; } |  |
+| [MiddleName](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/middlename) { get; set; } |  |
+| [Nickname](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/nickname) { get; set; } |  |
+| [Suffix](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/suffix) { get; set; } |  |
+| [Title](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/title) { get; set; } |  |
+| [YomiFirstName](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/yomifirstname) { get; set; } |  |
+| [YomiLastName](../../aspose.email.clients.exchange.webservice.schema_2016/completenametype/yomilastname) { get; set; } |  |
 
 ### See Also
 

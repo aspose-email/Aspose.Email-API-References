@@ -22,8 +22,8 @@ public class RegisterConsentType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ConsentState](consentstate) { get; set; } |  |
-| [Id](id) { get; set; } |  |
+| [ConsentState](../../aspose.email.clients.exchange.webservice.schema_2016/registerconsenttype/consentstate) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/registerconsenttype/id) { get; set; } |  |
 
 ### See Also
 

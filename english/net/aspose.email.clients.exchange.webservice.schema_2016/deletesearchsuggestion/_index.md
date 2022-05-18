@@ -22,11 +22,11 @@ public class DeleteSearchSuggestion : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Query](query) { get; set; } |  |
-| [Scenario](scenario) { get; set; } |  |
-| [SearchScope](searchscope) { get; set; } |  |
-| [SearchSessionId](searchsessionid) { get; set; } |  |
-| [SuggestionTypes](suggestiontypes) { get; set; } |  |
+| [Query](../../aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestion/query) { get; set; } |  |
+| [Scenario](../../aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestion/scenario) { get; set; } |  |
+| [SearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestion/searchscope) { get; set; } |  |
+| [SearchSessionId](../../aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestion/searchsessionid) { get; set; } |  |
+| [SuggestionTypes](../../aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestion/suggestiontypes) { get; set; } |  |
 
 ### See Also
 

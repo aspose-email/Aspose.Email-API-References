@@ -16,8 +16,8 @@ public abstract class BasePagingType
 
 | Name | Description |
 | --- | --- |
-| [MaxEntriesReturned](maxentriesreturned) { get; set; } |  |
-| [MaxEntriesReturnedSpecified](maxentriesreturnedspecified) { get; set; } |  |
+| [MaxEntriesReturned](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturned) { get; set; } |  |
+| [MaxEntriesReturnedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturnedspecified) { get; set; } |  |
 
 ### See Also
 

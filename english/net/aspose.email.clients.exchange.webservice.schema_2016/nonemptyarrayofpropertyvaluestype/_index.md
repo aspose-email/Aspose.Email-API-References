@@ -22,7 +22,7 @@ public class NonEmptyArrayOfPropertyValuesType
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/nonemptyarrayofpropertyvaluestype/items) { get; set; } |  |
 
 ### See Also
 

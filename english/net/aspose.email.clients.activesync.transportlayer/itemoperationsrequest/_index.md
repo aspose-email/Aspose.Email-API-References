@@ -24,9 +24,9 @@ public class ItemOperationsRequest
 
 | Name | Description |
 | --- | --- |
-| [EmptyFolderContents](emptyfoldercontents) { get; } | Contains requests about deleting the contents of a folder. EmptyFolderContents supports a single child element of the Options element, the DeleteSubFolders, which determines whether subfolders contained in the folder are deleted. If the DeleteSubFolders option is not included in the request, the subfolders of the specified CollectionId are not deleted. |
-| [Fetch](fetch) { get; } | Contains requests about retrieving an items from the server. |
-| [Move](move) { get; } | Contains requests about moving a conversations to specific folders. |
+| [EmptyFolderContents](../../aspose.email.clients.activesync.transportlayer/itemoperationsrequest/emptyfoldercontents) { get; } | Contains requests about deleting the contents of a folder. EmptyFolderContents supports a single child element of the Options element, the DeleteSubFolders, which determines whether subfolders contained in the folder are deleted. If the DeleteSubFolders option is not included in the request, the subfolders of the specified CollectionId are not deleted. |
+| [Fetch](../../aspose.email.clients.activesync.transportlayer/itemoperationsrequest/fetch) { get; } | Contains requests about retrieving an items from the server. |
+| [Move](../../aspose.email.clients.activesync.transportlayer/itemoperationsrequest/move) { get; } | Contains requests about moving a conversations to specific folders. |
 
 ### See Also
 

@@ -22,6 +22,19 @@ public class FormatNotSupportedException : AsposeException
 | [FormatNotSupportedException](formatnotsupportedexception)(string) | Initializes a new instance of the [`FormatNotSupportedException`](../formatnotsupportedexception) class with a specified error message. |
 | [FormatNotSupportedException](formatnotsupportedexception)(string, Exception) | Initializes a new instance of the [`FormatNotSupportedException`](../formatnotsupportedexception) class with a specified error message. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Gets extra information aboout error |
+| override [Message](../../aspose.email/asposeexception/message) { get; } | Gets a message that describes the current exception. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email/asposeexception/tostring)() | Returns a string that represents the current object. |
+
 ### See Also
 
 * class [AsposeException](../asposeexception)

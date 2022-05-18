@@ -24,15 +24,15 @@ public class FolderSyncResult
 
 | Name | Description |
 | --- | --- |
-| [Added](added) { get; } | Contains array of added folders. |
-| [Deleted](deleted) { get; } | Contains array of deleted folders. |
-| [Updated](updated) { get; } | Contains array of modified folders. |
+| [Added](../../aspose.email.clients.activesync.transportlayer/foldersyncresult/added) { get; } | Contains array of added folders. |
+| [Deleted](../../aspose.email.clients.activesync.transportlayer/foldersyncresult/deleted) { get; } | Contains array of deleted folders. |
+| [Updated](../../aspose.email.clients.activesync.transportlayer/foldersyncresult/updated) { get; } | Contains array of modified folders. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email.clients.activesync.transportlayer/foldersyncresult/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

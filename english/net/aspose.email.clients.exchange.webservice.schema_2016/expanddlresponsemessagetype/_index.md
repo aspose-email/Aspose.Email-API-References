@@ -22,17 +22,24 @@ public class ExpandDLResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [AbsoluteDenominator](absolutedenominator) { get; set; } |  |
-| [AbsoluteDenominatorSpecified](absolutedenominatorspecified) { get; set; } |  |
-| [DLExpansion](dlexpansion) { get; set; } |  |
-| [IncludesLastItemInRange](includeslastiteminrange) { get; set; } |  |
-| [IncludesLastItemInRangeSpecified](includeslastiteminrangespecified) { get; set; } |  |
-| [IndexedPagingOffset](indexedpagingoffset) { get; set; } |  |
-| [IndexedPagingOffsetSpecified](indexedpagingoffsetspecified) { get; set; } |  |
-| [NumeratorOffset](numeratoroffset) { get; set; } |  |
-| [NumeratorOffsetSpecified](numeratoroffsetspecified) { get; set; } |  |
-| [TotalItemsInView](totalitemsinview) { get; set; } |  |
-| [TotalItemsInViewSpecified](totalitemsinviewspecified) { get; set; } |  |
+| [AbsoluteDenominator](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/absolutedenominator) { get; set; } |  |
+| [AbsoluteDenominatorSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/absolutedenominatorspecified) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [DLExpansion](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/dlexpansion) { get; set; } |  |
+| [IncludesLastItemInRange](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/includeslastiteminrange) { get; set; } |  |
+| [IncludesLastItemInRangeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/includeslastiteminrangespecified) { get; set; } |  |
+| [IndexedPagingOffset](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/indexedpagingoffset) { get; set; } |  |
+| [IndexedPagingOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/indexedpagingoffsetspecified) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [NumeratorOffset](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/numeratoroffset) { get; set; } |  |
+| [NumeratorOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/numeratoroffsetspecified) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
+| [TotalItemsInView](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/totalitemsinview) { get; set; } |  |
+| [TotalItemsInViewSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/expanddlresponsemessagetype/totalitemsinviewspecified) { get; set; } |  |
 
 ### See Also
 

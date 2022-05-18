@@ -16,7 +16,7 @@ public class GetPhoneCallInformationCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getphonecallinformationcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

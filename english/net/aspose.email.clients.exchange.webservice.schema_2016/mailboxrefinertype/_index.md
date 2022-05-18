@@ -22,7 +22,11 @@ public class MailboxRefinerType : SearchRefinerType
 
 | Name | Description |
 | --- | --- |
-| [MailboxDisplayName](mailboxdisplayname) { get; set; } |  |
+| [MailboxDisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxrefinertype/mailboxdisplayname) { get; set; } |  |
+| [Refiner](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/refiner) { get; set; } |  |
+| [RefinerType](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/refinertype) { get; set; } |  |
+| [ResultCount](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/resultcount) { get; set; } |  |
+| [ResultCountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/resultcountspecified) { get; set; } |  |
 
 ### See Also
 

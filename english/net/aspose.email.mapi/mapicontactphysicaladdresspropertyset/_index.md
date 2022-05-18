@@ -25,9 +25,9 @@ public sealed class MapiContactPhysicalAddressPropertySet
 
 | Name | Description |
 | --- | --- |
-| [HomeAddress](homeaddress) { get; set; } | Specifies the address of the contact's home |
-| [OtherAddress](otheraddress) { get; set; } | Specifies the other contact's address |
-| [WorkAddress](workaddress) { get; set; } | Specifies the address of the contact's work |
+| [HomeAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/homeaddress) { get; set; } | Specifies the address of the contact's home |
+| [OtherAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/otheraddress) { get; set; } | Specifies the other contact's address |
+| [WorkAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/workaddress) { get; set; } | Specifies the address of the contact's work |
 
 ### See Also
 

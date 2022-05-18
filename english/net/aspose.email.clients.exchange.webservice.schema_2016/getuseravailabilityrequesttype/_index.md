@@ -22,10 +22,10 @@ public class GetUserAvailabilityRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [FreeBusyViewOptions](freebusyviewoptions) { get; set; } |  |
-| [MailboxDataArray](mailboxdataarray) { get; set; } |  |
-| [SuggestionsViewOptions](suggestionsviewoptions) { get; set; } |  |
-| [TimeZone](timezone) { get; set; } |  |
+| [FreeBusyViewOptions](../../aspose.email.clients.exchange.webservice.schema_2016/getuseravailabilityrequesttype/freebusyviewoptions) { get; set; } |  |
+| [MailboxDataArray](../../aspose.email.clients.exchange.webservice.schema_2016/getuseravailabilityrequesttype/mailboxdataarray) { get; set; } |  |
+| [SuggestionsViewOptions](../../aspose.email.clients.exchange.webservice.schema_2016/getuseravailabilityrequesttype/suggestionsviewoptions) { get; set; } |  |
+| [TimeZone](../../aspose.email.clients.exchange.webservice.schema_2016/getuseravailabilityrequesttype/timezone) { get; set; } |  |
 
 ### See Also
 

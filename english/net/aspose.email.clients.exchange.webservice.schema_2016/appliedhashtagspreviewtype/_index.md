@@ -22,7 +22,7 @@ public class AppliedHashtagsPreviewType
 
 | Name | Description |
 | --- | --- |
-| [Hashtags](hashtags) { get; set; } |  |
+| [Hashtags](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagspreviewtype/hashtags) { get; set; } |  |
 
 ### See Also
 

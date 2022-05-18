@@ -24,13 +24,13 @@ public class Thumbnail
 
 | Name | Description |
 | --- | --- |
-| [Content](content) { get; set; } | The content stream for the thumbnail. |
-| [Height](height) { get; set; } | The height of the thumbnail, in pixels. |
-| [IsHeightSpecified](isheightspecified) { get; set; } | Indicates whether Height property is specified. |
-| [IsWidthSpecified](iswidthspecified) { get; set; } | Indicates whether Width property is specified. |
-| [SourceItemId](sourceitemid) { get; set; } | The unique identifier of the item that provided the thumbnail.This is only available when a folder thumbnail is requested. |
-| [Url](url) { get; set; } | The URL used to fetch the thumbnail content. |
-| [Width](width) { get; set; } | The width of the thumbnail, in pixels. |
+| [Content](../../aspose.email.clients.graph/thumbnail/content) { get; set; } | The content stream for the thumbnail. |
+| [Height](../../aspose.email.clients.graph/thumbnail/height) { get; set; } | The height of the thumbnail, in pixels. |
+| [IsHeightSpecified](../../aspose.email.clients.graph/thumbnail/isheightspecified) { get; set; } | Indicates whether Height property is specified. |
+| [IsWidthSpecified](../../aspose.email.clients.graph/thumbnail/iswidthspecified) { get; set; } | Indicates whether Width property is specified. |
+| [SourceItemId](../../aspose.email.clients.graph/thumbnail/sourceitemid) { get; set; } | The unique identifier of the item that provided the thumbnail.This is only available when a folder thumbnail is requested. |
+| [Url](../../aspose.email.clients.graph/thumbnail/url) { get; set; } | The URL used to fetch the thumbnail content. |
+| [Width](../../aspose.email.clients.graph/thumbnail/width) { get; set; } | The width of the thumbnail, in pixels. |
 
 ### See Also
 

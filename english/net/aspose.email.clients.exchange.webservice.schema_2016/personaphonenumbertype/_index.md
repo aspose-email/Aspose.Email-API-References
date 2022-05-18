@@ -22,8 +22,8 @@ public class PersonaPhoneNumberType
 
 | Name | Description |
 | --- | --- |
-| [Number](number) { get; set; } |  |
-| [Type](type) { get; set; } |  |
+| [Number](../../aspose.email.clients.exchange.webservice.schema_2016/personaphonenumbertype/number) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/personaphonenumbertype/type) { get; set; } |  |
 
 ### See Also
 

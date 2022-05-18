@@ -22,8 +22,8 @@ public class PreviewItemMailboxType
 
 | Name | Description |
 | --- | --- |
-| [MailboxId](mailboxid) { get; set; } |  |
-| [PrimarySmtpAddress](primarysmtpaddress) { get; set; } |  |
+| [MailboxId](../../aspose.email.clients.exchange.webservice.schema_2016/previewitemmailboxtype/mailboxid) { get; set; } |  |
+| [PrimarySmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/previewitemmailboxtype/primarysmtpaddress) { get; set; } |  |
 
 ### See Also
 

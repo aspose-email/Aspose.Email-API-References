@@ -24,7 +24,7 @@ public class DevicePasswordRequest
 
 | Name | Description |
 | --- | --- |
-| [Password](password) { get; set; } | Specifies the recovery password of the client device, which is stored by the server. The value of the DevicePassword has a maximum length of 255 characters. |
+| [Password](../../aspose.email.clients.activesync.transportlayer/devicepasswordrequest/password) { get; set; } | Specifies the recovery password of the client device, which is stored by the server. The value of the DevicePassword has a maximum length of 255 characters. |
 
 ### See Also
 

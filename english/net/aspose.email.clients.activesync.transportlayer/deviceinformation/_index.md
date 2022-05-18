@@ -24,15 +24,15 @@ public class DeviceInformation
 
 | Name | Description |
 | --- | --- |
-| [EnableOutboundSMS](enableoutboundsms) { get; set; } | Whether to enable outbound SMS |
-| [FriendlyName](friendlyname) { get; set; } | Device friendly name |
-| [IMEI](imei) { get; set; } | International Mobile Equipment Identity (IMEI) |
-| [MobileOperator](mobileoperator) { get; set; } | Mobile operator name |
-| [Model](model) { get; set; } | Device model |
-| [OS](os) { get; set; } | Device operating system |
-| [OSLanguage](oslanguage) { get; set; } | Device operating system language |
-| [PhoneNumber](phonenumber) { get; set; } | Telephone number |
-| [UserAgent](useragent) { get; set; } | User Agent |
+| [EnableOutboundSMS](../../aspose.email.clients.activesync.transportlayer/deviceinformation/enableoutboundsms) { get; set; } | Whether to enable outbound SMS |
+| [FriendlyName](../../aspose.email.clients.activesync.transportlayer/deviceinformation/friendlyname) { get; set; } | Device friendly name |
+| [IMEI](../../aspose.email.clients.activesync.transportlayer/deviceinformation/imei) { get; set; } | International Mobile Equipment Identity (IMEI) |
+| [MobileOperator](../../aspose.email.clients.activesync.transportlayer/deviceinformation/mobileoperator) { get; set; } | Mobile operator name |
+| [Model](../../aspose.email.clients.activesync.transportlayer/deviceinformation/model) { get; set; } | Device model |
+| [OS](../../aspose.email.clients.activesync.transportlayer/deviceinformation/os) { get; set; } | Device operating system |
+| [OSLanguage](../../aspose.email.clients.activesync.transportlayer/deviceinformation/oslanguage) { get; set; } | Device operating system language |
+| [PhoneNumber](../../aspose.email.clients.activesync.transportlayer/deviceinformation/phonenumber) { get; set; } | Telephone number |
+| [UserAgent](../../aspose.email.clients.activesync.transportlayer/deviceinformation/useragent) { get; set; } | User Agent |
 
 ### See Also
 

@@ -27,12 +27,12 @@ public class PageInfo
 
 | Name | Description |
 | --- | --- |
-| [AbsoluteOffset](absoluteoffset) { get; set; } | Gets additinal offset added to start index of a page |
-| [ItemsPerPage](itemsperpage) { get; set; } | A number of items in page |
-| [LastPage](lastpage) { get; set; } | Indicates whether current page is last page in view. |
-| virtual [NextPage](nextpage) { get; } | Information of the next page or null if current page is last |
-| [PageOffset](pageoffset) { get; set; } | Gets offset of a page |
-| [TotalCount](totalcount) { get; set; } | Gets total count of items in view |
+| [AbsoluteOffset](../../aspose.email.clients/pageinfo/absoluteoffset) { get; set; } | Gets additinal offset added to start index of a page |
+| [ItemsPerPage](../../aspose.email.clients/pageinfo/itemsperpage) { get; set; } | A number of items in page |
+| [LastPage](../../aspose.email.clients/pageinfo/lastpage) { get; set; } | Indicates whether current page is last page in view. |
+| virtual [NextPage](../../aspose.email.clients/pageinfo/nextpage) { get; } | Information of the next page or null if current page is last |
+| [PageOffset](../../aspose.email.clients/pageinfo/pageoffset) { get; set; } | Gets offset of a page |
+| [TotalCount](../../aspose.email.clients/pageinfo/totalcount) { get; set; } | Gets total count of items in view |
 
 ### See Also
 

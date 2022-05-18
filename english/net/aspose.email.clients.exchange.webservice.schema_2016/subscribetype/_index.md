@@ -22,7 +22,7 @@ public class SubscribeType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/subscribetype/item) { get; set; } |  |
 
 ### See Also
 

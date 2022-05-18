@@ -22,24 +22,24 @@ public class RuleActionsType
 
 | Name | Description |
 | --- | --- |
-| [AssignCategories](assigncategories) { get; set; } |  |
-| [CopyToFolder](copytofolder) { get; set; } |  |
-| [Delete](delete) { get; set; } |  |
-| [DeleteSpecified](deletespecified) { get; set; } |  |
-| [ForwardAsAttachmentToRecipients](forwardasattachmenttorecipients) { get; set; } |  |
-| [ForwardToRecipients](forwardtorecipients) { get; set; } |  |
-| [MarkAsRead](markasread) { get; set; } |  |
-| [MarkAsReadSpecified](markasreadspecified) { get; set; } |  |
-| [MarkImportance](markimportance) { get; set; } |  |
-| [MarkImportanceSpecified](markimportancespecified) { get; set; } |  |
-| [MoveToFolder](movetofolder) { get; set; } |  |
-| [PermanentDelete](permanentdelete) { get; set; } |  |
-| [PermanentDeleteSpecified](permanentdeletespecified) { get; set; } |  |
-| [RedirectToRecipients](redirecttorecipients) { get; set; } |  |
-| [SendSMSAlertToRecipients](sendsmsalerttorecipients) { get; set; } |  |
-| [ServerReplyWithMessage](serverreplywithmessage) { get; set; } |  |
-| [StopProcessingRules](stopprocessingrules) { get; set; } |  |
-| [StopProcessingRulesSpecified](stopprocessingrulesspecified) { get; set; } |  |
+| [AssignCategories](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/assigncategories) { get; set; } |  |
+| [CopyToFolder](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/copytofolder) { get; set; } |  |
+| [Delete](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/delete) { get; set; } |  |
+| [DeleteSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/deletespecified) { get; set; } |  |
+| [ForwardAsAttachmentToRecipients](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/forwardasattachmenttorecipients) { get; set; } |  |
+| [ForwardToRecipients](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/forwardtorecipients) { get; set; } |  |
+| [MarkAsRead](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/markasread) { get; set; } |  |
+| [MarkAsReadSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/markasreadspecified) { get; set; } |  |
+| [MarkImportance](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/markimportance) { get; set; } |  |
+| [MarkImportanceSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/markimportancespecified) { get; set; } |  |
+| [MoveToFolder](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/movetofolder) { get; set; } |  |
+| [PermanentDelete](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/permanentdelete) { get; set; } |  |
+| [PermanentDeleteSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/permanentdeletespecified) { get; set; } |  |
+| [RedirectToRecipients](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/redirecttorecipients) { get; set; } |  |
+| [SendSMSAlertToRecipients](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/sendsmsalerttorecipients) { get; set; } |  |
+| [ServerReplyWithMessage](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/serverreplywithmessage) { get; set; } |  |
+| [StopProcessingRules](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/stopprocessingrules) { get; set; } |  |
+| [StopProcessingRulesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/ruleactionstype/stopprocessingrulesspecified) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class ArrayOfAppsType
 
 | Name | Description |
 | --- | --- |
-| [App](app) { get; set; } |  |
-| [Metadata](metadata) { get; set; } |  |
+| [App](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofappstype/app) { get; set; } |  |
+| [Metadata](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofappstype/metadata) { get; set; } |  |
 
 ### See Also
 

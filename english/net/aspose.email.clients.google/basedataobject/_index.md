@@ -26,9 +26,9 @@ public abstract class BaseDataObject
 
 | Name | Description |
 | --- | --- |
-| virtual [ETag](etag) { get; set; } | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other. |
-| virtual [Id](id) { get; set; } | Identifier of the resource. |
-| virtual [Kind](kind) { get; } | Type of the resource |
+| virtual [ETag](../../aspose.email.clients.google/basedataobject/etag) { get; set; } | An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation, and which allows a client to make conditional requests. This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control, as a way to help prevent simultaneous updates of a resource from overwriting each other. |
+| virtual [Id](../../aspose.email.clients.google/basedataobject/id) { get; set; } | Identifier of the resource. |
+| virtual [Kind](../../aspose.email.clients.google/basedataobject/kind) { get; } | Type of the resource |
 
 ### See Also
 

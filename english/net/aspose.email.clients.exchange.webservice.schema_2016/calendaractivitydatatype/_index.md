@@ -22,10 +22,10 @@ public class CalendarActivityDataType
 
 | Name | Description |
 | --- | --- |
-| [ActivityAction](activityaction) { get; set; } |  |
-| [CasRequestId](casrequestid) { get; set; } |  |
-| [ClientId](clientid) { get; set; } |  |
-| [IndexSelected](indexselected) { get; set; } |  |
+| [ActivityAction](../../aspose.email.clients.exchange.webservice.schema_2016/calendaractivitydatatype/activityaction) { get; set; } |  |
+| [CasRequestId](../../aspose.email.clients.exchange.webservice.schema_2016/calendaractivitydatatype/casrequestid) { get; set; } |  |
+| [ClientId](../../aspose.email.clients.exchange.webservice.schema_2016/calendaractivitydatatype/clientid) { get; set; } |  |
+| [IndexSelected](../../aspose.email.clients.exchange.webservice.schema_2016/calendaractivitydatatype/indexselected) { get; set; } |  |
 
 ### See Also
 

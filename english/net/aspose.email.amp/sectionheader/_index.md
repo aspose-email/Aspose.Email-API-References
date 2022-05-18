@@ -24,8 +24,8 @@ public class SectionHeader
 
 | Name | Description |
 | --- | --- |
-| [Type](type) { get; set; } | Type of header. |
-| [Value](value) { get; set; } | Header's value. |
+| [Type](../../aspose.email.amp/sectionheader/type) { get; set; } | Type of header. |
+| [Value](../../aspose.email.amp/sectionheader/value) { get; set; } | Header's value. |
 
 ### See Also
 

@@ -29,16 +29,24 @@ public class LinkedResource : AttachmentBase
 
 | Name | Description |
 | --- | --- |
-| [ContentDisposition](contentdisposition) { get; } | Gets Content-Disposition header |
-| [ContentLink](contentlink) { get; set; } | Gets or sets a URI that the resource must match. |
+| [ContentDisposition](../../aspose.email/linkedresource/contentdisposition) { get; } | Gets Content-Disposition header |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Gets or sets the content id. |
+| [ContentLink](../../aspose.email/linkedresource/contentlink) { get; set; } | Gets or sets a URI that the resource must match. |
+| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Gets or sets the content stream. |
+| [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | Gets or sets the type of the content. |
+| virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | Gets headers collection of attachment. |
+| [TransferEncoding](../../aspose.email/attachmentbase/transferencoding) { get; set; } | Gets or sets the transfer encoding. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateLinkedResourceFromString](createlinkedresourcefromstring)(string) | Creates the linked resource from string. |
-| static [CreateLinkedResourceFromString](createlinkedresourcefromstring)(string, ContentType) | Creates the linked resource from string. |
-| static [CreateLinkedResourceFromString](createlinkedresourcefromstring)(string, Encoding, string) | Creates the linked resource from string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring)(string) | Creates the linked resource from string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring)(string, ContentType) | Creates the linked resource from string. |
+| static [CreateLinkedResourceFromString](../../aspose.email/linkedresource/createlinkedresourcefromstring)(string, Encoding, string) | Creates the linked resource from string. |
+| [Dispose](../../aspose.email/attachmentbase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Saves the specified stream. |
+| virtual [Save](../../aspose.email/attachmentbase/save)(string) | Saves the specified file name. |
 
 ### See Also
 

@@ -18,6 +18,12 @@ public class YearlyRegeneratingPatternType : RegeneratingPatternBaseType
 | --- | --- |
 | [YearlyRegeneratingPatternType](yearlyregeneratingpatterntype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Interval](../../aspose.email.clients.exchange.webservice.schema_2016/intervalrecurrencepatternbasetype/interval) { get; set; } |  |
+
 ### See Also
 
 * class [RegeneratingPatternBaseType](../regeneratingpatternbasetype)

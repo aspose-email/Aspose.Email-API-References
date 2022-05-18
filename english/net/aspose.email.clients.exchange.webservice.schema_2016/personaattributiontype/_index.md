@@ -22,16 +22,16 @@ public class PersonaAttributionType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
-| [FolderId](folderid) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [IsHidden](ishidden) { get; set; } |  |
-| [IsHiddenSpecified](ishiddenspecified) { get; set; } |  |
-| [IsQuickContact](isquickcontact) { get; set; } |  |
-| [IsQuickContactSpecified](isquickcontactspecified) { get; set; } |  |
-| [IsWritable](iswritable) { get; set; } |  |
-| [IsWritableSpecified](iswritablespecified) { get; set; } |  |
-| [SourceId](sourceid) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/displayname) { get; set; } |  |
+| [FolderId](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/folderid) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/id) { get; set; } |  |
+| [IsHidden](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/ishidden) { get; set; } |  |
+| [IsHiddenSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/ishiddenspecified) { get; set; } |  |
+| [IsQuickContact](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/isquickcontact) { get; set; } |  |
+| [IsQuickContactSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/isquickcontactspecified) { get; set; } |  |
+| [IsWritable](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/iswritable) { get; set; } |  |
+| [IsWritableSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/iswritablespecified) { get; set; } |  |
+| [SourceId](../../aspose.email.clients.exchange.webservice.schema_2016/personaattributiontype/sourceid) { get; set; } |  |
 
 ### See Also
 

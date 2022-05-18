@@ -25,9 +25,9 @@ public class MoveItemData
 
 | Name | Description |
 | --- | --- |
-| [DstFldId](dstfldid) { get; set; } | Specifies the server ID of the destination folder (that is, the folder to which the items are moved). The DstFldId property value can be up to 64 characters in length. |
-| [SrcFldId](srcfldid) { get; set; } | Specifies the server ID of the source folder (that is, the folder that contains the items to be moved). The SrcFldId element value can be up to 64 characters in length. |
-| [SrcMsgId](srcmsgid) { get; set; } | Specifies the server ID of the item that was moved. The SrcMsgId element value can be up to 64 characters in length. |
+| [DstFldId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/dstfldid) { get; set; } | Specifies the server ID of the destination folder (that is, the folder to which the items are moved). The DstFldId property value can be up to 64 characters in length. |
+| [SrcFldId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/srcfldid) { get; set; } | Specifies the server ID of the source folder (that is, the folder that contains the items to be moved). The SrcFldId element value can be up to 64 characters in length. |
+| [SrcMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/srcmsgid) { get; set; } | Specifies the server ID of the item that was moved. The SrcMsgId element value can be up to 64 characters in length. |
 
 ### See Also
 

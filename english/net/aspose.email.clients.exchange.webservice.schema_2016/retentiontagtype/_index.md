@@ -22,8 +22,8 @@ public class RetentionTagType
 
 | Name | Description |
 | --- | --- |
-| [IsExplicit](isexplicit) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [IsExplicit](../../aspose.email.clients.exchange.webservice.schema_2016/retentiontagtype/isexplicit) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/retentiontagtype/value) { get; set; } |  |
 
 ### See Also
 

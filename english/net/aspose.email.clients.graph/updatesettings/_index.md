@@ -24,7 +24,7 @@ public class UpdateSettings
 
 | Name | Description |
 | --- | --- |
-| [SkipAttachments](skipattachments) { get; set; } | Specifies if attachments has to be igored in update operation |
+| [SkipAttachments](../../aspose.email.clients.graph/updatesettings/skipattachments) { get; set; } | Specifies if attachments has to be igored in update operation |
 
 ### See Also
 

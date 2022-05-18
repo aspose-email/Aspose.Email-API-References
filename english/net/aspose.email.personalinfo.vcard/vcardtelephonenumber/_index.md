@@ -24,8 +24,8 @@ public sealed class VCardTelephoneNumber
 
 | Name | Description |
 | --- | --- |
-| [TelephoneNumber](telephonenumber) { get; set; } | Gets or sets a telephone number |
-| [TelephoneType](telephonetype) { get; set; } | Gets or sets a telephone numer type |
+| [TelephoneNumber](../../aspose.email.personalinfo.vcard/vcardtelephonenumber/telephonenumber) { get; set; } | Gets or sets a telephone number |
+| [TelephoneType](../../aspose.email.personalinfo.vcard/vcardtelephonenumber/telephonetype) { get; set; } | Gets or sets a telephone numer type |
 
 ### See Also
 

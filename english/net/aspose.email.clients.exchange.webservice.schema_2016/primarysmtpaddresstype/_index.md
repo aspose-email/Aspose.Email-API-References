@@ -22,7 +22,7 @@ public class PrimarySmtpAddressType
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/primarysmtpaddresstype/value) { get; set; } |  |
 
 ### See Also
 

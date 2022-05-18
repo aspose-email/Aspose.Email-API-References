@@ -22,7 +22,7 @@ public class SenderAddInEntityType
 
 | Name | Description |
 | --- | --- |
-| [ExtensionId](extensionid) { get; set; } |  |
+| [ExtensionId](../../aspose.email.clients.exchange.webservice.schema_2016/senderaddinentitytype/extensionid) { get; set; } |  |
 
 ### See Also
 

@@ -26,15 +26,15 @@ public class SpamAnalyzer
 
 | Name | Description |
 | --- | --- |
-| [LoadDatabase](loaddatabase)(Stream) | Loads Bayesian database from stream. |
-| [LoadDatabase](loaddatabase)(string) | Loads Bayesian database from file. |
-| [Reset](reset)() | Clears all statistics (Bayesian database). |
-| [SaveDatabase](savedatabase)(Stream) | Saves the Bayesian database to stream. |
-| [SaveDatabase](savedatabase)(string) | Saves the Bayesian database to file. |
-| [Test](test)(MailMessage) | Analyses the message and returns the probability of the message being spam. |
-| [TrainFilter](trainfilter)(MailMessage, bool) | Learns from the specified message as from spam or non-spam source. |
-| [TrainFilter](trainfilter)(MailMessage[], MailMessage[]) | Learns from the specified messages as from spam or non-spam source. |
-| [TrainFilter](trainfilter)(string, bool) | Learns from the specified string as from spam or non-spam source. |
+| [LoadDatabase](../../aspose.email.antispam/spamanalyzer/loaddatabase)(Stream) | Loads Bayesian database from stream. |
+| [LoadDatabase](../../aspose.email.antispam/spamanalyzer/loaddatabase)(string) | Loads Bayesian database from file. |
+| [Reset](../../aspose.email.antispam/spamanalyzer/reset)() | Clears all statistics (Bayesian database). |
+| [SaveDatabase](../../aspose.email.antispam/spamanalyzer/savedatabase)(Stream) | Saves the Bayesian database to stream. |
+| [SaveDatabase](../../aspose.email.antispam/spamanalyzer/savedatabase)(string) | Saves the Bayesian database to file. |
+| [Test](../../aspose.email.antispam/spamanalyzer/test)(MailMessage) | Analyses the message and returns the probability of the message being spam. |
+| [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter)(MailMessage, bool) | Learns from the specified message as from spam or non-spam source. |
+| [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter)(MailMessage[], MailMessage[]) | Learns from the specified messages as from spam or non-spam source. |
+| [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter)(string, bool) | Learns from the specified string as from spam or non-spam source. |
 
 ### See Also
 

@@ -22,8 +22,10 @@ public class CalendarViewType : BasePagingType
 
 | Name | Description |
 | --- | --- |
-| [EndDate](enddate) { get; set; } |  |
-| [StartDate](startdate) { get; set; } |  |
+| [EndDate](../../aspose.email.clients.exchange.webservice.schema_2016/calendarviewtype/enddate) { get; set; } |  |
+| [MaxEntriesReturned](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturned) { get; set; } |  |
+| [MaxEntriesReturnedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturnedspecified) { get; set; } |  |
+| [StartDate](../../aspose.email.clients.exchange.webservice.schema_2016/calendarviewtype/startdate) { get; set; } |  |
 
 ### See Also
 

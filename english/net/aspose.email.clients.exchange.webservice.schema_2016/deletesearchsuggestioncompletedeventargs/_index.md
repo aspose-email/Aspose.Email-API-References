@@ -16,7 +16,7 @@ public class DeleteSearchSuggestionCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestioncompletedeventargs/result) { get; } |  |
 
 ### See Also
 

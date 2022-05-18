@@ -18,16 +18,16 @@ public sealed class RecipientTrackingEvent
 
 | Name | Description |
 | --- | --- |
-| [BccRecipient](bccrecipient) { get; } | Gets a value indicating whether the recipient was addressed as a blind carbon copy (BCC) recipient. |
-| [Date](date) { get; } | Gets the time at which the event occurred. |
-| [DeliveryStatus](deliverystatus) { get; } | Gets the status for the message. |
-| [EventData](eventdata) { get; } | Gets data that is associated with the processing step for the event. |
-| [EventDescription](eventdescription) { get; } | Gets the processing step for the event |
-| [HiddenRecipient](hiddenrecipient) { get; } | Gets a value indicating whether the recipient was added by an organization policy that should be hidden from unprivileged users |
-| [InternalIdentifier](internalidentifier) { get; } | Gets an integer value for the event. |
-| [Recipient](recipient) { get; } | Gets the recipient for whom the event occurred. |
-| [Server](server) { get; } | Gets the physical server where the event occurred. |
-| [UniquePathId](uniquepathid) { get; } | Gets a string that is different for each path. |
+| [BccRecipient](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/bccrecipient) { get; } | Gets a value indicating whether the recipient was addressed as a blind carbon copy (BCC) recipient. |
+| [Date](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/date) { get; } | Gets the time at which the event occurred. |
+| [DeliveryStatus](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/deliverystatus) { get; } | Gets the status for the message. |
+| [EventData](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/eventdata) { get; } | Gets data that is associated with the processing step for the event. |
+| [EventDescription](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/eventdescription) { get; } | Gets the processing step for the event |
+| [HiddenRecipient](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/hiddenrecipient) { get; } | Gets a value indicating whether the recipient was added by an organization policy that should be hidden from unprivileged users |
+| [InternalIdentifier](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/internalidentifier) { get; } | Gets an integer value for the event. |
+| [Recipient](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/recipient) { get; } | Gets the recipient for whom the event occurred. |
+| [Server](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/server) { get; } | Gets the physical server where the event occurred. |
+| [UniquePathId](../../aspose.email.clients.exchange.webservice/recipienttrackingevent/uniquepathid) { get; } | Gets a string that is different for each path. |
 
 ### See Also
 

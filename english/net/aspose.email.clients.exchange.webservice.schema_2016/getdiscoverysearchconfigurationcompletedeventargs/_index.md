@@ -16,7 +16,7 @@ public class GetDiscoverySearchConfigurationCompletedEventArgs : AsyncCompletedE
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getdiscoverysearchconfigurationcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

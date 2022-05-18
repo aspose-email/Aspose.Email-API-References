@@ -24,8 +24,8 @@ public class ExtendedProperty
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Extended properties name |
-| [Value](value) { get; set; } | Extended properties value |
+| [Name](../../aspose.email.clients.activity/extendedproperty/name) { get; set; } | Extended properties name |
+| [Value](../../aspose.email.clients.activity/extendedproperty/value) { get; set; } | Extended properties value |
 
 ### See Also
 

@@ -25,14 +25,14 @@ public class SimpleSeqSet : SequenceSetBaseValue
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } | Gets or sets value to search |
+| [Value](../../aspose.email.clients.imap/simpleseqset/value) { get; set; } | Gets or sets value to search |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [implicit operator](op_implicit) | Implicit conversion operation from String to [`SimpleSeqSet`](../simpleseqset) (2 operators) |
+| override [ToString](../../aspose.email.clients.imap/simpleseqset/tostring)() | Returns a string that represents the current object. |
+| [implicit operator](../../aspose.email.clients.imap/simpleseqset/op_implicit) | Implicit conversion operation from String to [`SimpleSeqSet`](../simpleseqset) (2 operators) |
 
 ### See Also
 

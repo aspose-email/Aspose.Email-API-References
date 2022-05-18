@@ -22,10 +22,10 @@ public class GetSharingFolderType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DataType](datatype) { get; set; } |  |
-| [DataTypeSpecified](datatypespecified) { get; set; } |  |
-| [SharedFolderId](sharedfolderid) { get; set; } |  |
-| [SmtpAddress](smtpaddress) { get; set; } |  |
+| [DataType](../../aspose.email.clients.exchange.webservice.schema_2016/getsharingfoldertype/datatype) { get; set; } |  |
+| [DataTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getsharingfoldertype/datatypespecified) { get; set; } |  |
+| [SharedFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/getsharingfoldertype/sharedfolderid) { get; set; } |  |
+| [SmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/getsharingfoldertype/smtpaddress) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class SyncFolderItemsChangesType
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; set; } |  |
-| [ItemsElementName](itemselementname) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemschangestype/items) { get; set; } |  |
+| [ItemsElementName](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemschangestype/itemselementname) { get; set; } |  |
 
 ### See Also
 

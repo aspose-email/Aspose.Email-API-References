@@ -24,14 +24,14 @@ public sealed class MapiTaskUsers
 
 | Name | Description |
 | --- | --- |
-| [Assigner](assigner) { get; set; } | Specifies the group of properties that defines the display name and e-mail address of user who created task. |
-| [Attendees](attendees) { get; } | Gets the attendees. |
-| [Delegator](delegator) { get; set; } | Gets or sets task delegator. |
-| [LastAssigner](lastassigner) { get; set; } | Gets or sets the name of the user that last assigned the task. |
-| [LastDelegate](lastdelegate) { get; set; } | Gets or sets the name of the mailbox's delegate who most recently assigned the task, or an empty string if there is no delegate. |
-| [LastUser](lastuser) { get; set; } | Gets or sets the name of the most recent user to have been the task owner. |
-| [Owner](owner) { get; set; } | Gets or sets the name of the task owner. |
-| [Ownership](ownership) { get; set; } | Gets or sets the role of the current user relative to the Task object. |
+| [Assigner](../../aspose.email.mapi/mapitaskusers/assigner) { get; set; } | Specifies the group of properties that defines the display name and e-mail address of user who created task. |
+| [Attendees](../../aspose.email.mapi/mapitaskusers/attendees) { get; } | Gets the attendees. |
+| [Delegator](../../aspose.email.mapi/mapitaskusers/delegator) { get; set; } | Gets or sets task delegator. |
+| [LastAssigner](../../aspose.email.mapi/mapitaskusers/lastassigner) { get; set; } | Gets or sets the name of the user that last assigned the task. |
+| [LastDelegate](../../aspose.email.mapi/mapitaskusers/lastdelegate) { get; set; } | Gets or sets the name of the mailbox's delegate who most recently assigned the task, or an empty string if there is no delegate. |
+| [LastUser](../../aspose.email.mapi/mapitaskusers/lastuser) { get; set; } | Gets or sets the name of the most recent user to have been the task owner. |
+| [Owner](../../aspose.email.mapi/mapitaskusers/owner) { get; set; } | Gets or sets the name of the task owner. |
+| [Ownership](../../aspose.email.mapi/mapitaskusers/ownership) { get; set; } | Gets or sets the role of the current user relative to the Task object. |
 
 ### See Also
 

@@ -26,20 +26,20 @@ public class FormField
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | Get or set Id of field. |
-| [InputType](inputtype) { get; set; } | Get or set input type of field. |
-| [IsRequired](isrequired) { get; set; } | Get or set value that define field as required. |
-| [Label](label) { get; set; } | Get or set label of field. |
-| [Name](name) { get; set; } | Get or set name of field. |
-| [Placeholder](placeholder) { get; set; } | Get or set placeholder of field. |
-| [Value](value) { get; set; } | Get or set value of field. |
+| [Id](../../aspose.email.amp/formfield/id) { get; set; } | Get or set Id of field. |
+| [InputType](../../aspose.email.amp/formfield/inputtype) { get; set; } | Get or set input type of field. |
+| [IsRequired](../../aspose.email.amp/formfield/isrequired) { get; set; } | Get or set value that define field as required. |
+| [Label](../../aspose.email.amp/formfield/label) { get; set; } | Get or set label of field. |
+| [Name](../../aspose.email.amp/formfield/name) { get; set; } | Get or set name of field. |
+| [Placeholder](../../aspose.email.amp/formfield/placeholder) { get; set; } | Get or set placeholder of field. |
+| [Value](../../aspose.email.amp/formfield/value) { get; set; } | Get or set value of field. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [ToAmpHtml](toamphtml)() | Represents amp html version of field. |
-| virtual [ToHtml](tohtml)() | Represents html version of field. |
+| virtual [ToAmpHtml](../../aspose.email.amp/formfield/toamphtml)() | Represents amp html version of field. |
+| virtual [ToHtml](../../aspose.email.amp/formfield/tohtml)() | Represents html version of field. |
 
 ### See Also
 

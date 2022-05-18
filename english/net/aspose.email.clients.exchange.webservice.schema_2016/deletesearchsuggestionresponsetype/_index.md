@@ -22,9 +22,9 @@ public class DeleteSearchSuggestionResponseType
 
 | Name | Description |
 | --- | --- |
-| [DiagnosticsData](diagnosticsdata) { get; set; } |  |
-| [StatusMessage](statusmessage) { get; set; } |  |
-| [Success](success) { get; set; } |  |
+| [DiagnosticsData](../../aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestionresponsetype/diagnosticsdata) { get; set; } |  |
+| [StatusMessage](../../aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestionresponsetype/statusmessage) { get; set; } |  |
+| [Success](../../aspose.email.clients.exchange.webservice.schema_2016/deletesearchsuggestionresponsetype/success) { get; set; } |  |
 
 ### See Also
 

@@ -18,27 +18,27 @@ public abstract class ActivityClient : IActivityClient
 
 | Name | Description |
 | --- | --- |
-| virtual [MultipleServicesTokenProvider](multipleservicestokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
-| virtual [Proxy](proxy) { get; set; } | Gets or sets data to proxy access to Exchange server. |
-| virtual [ResourceId](resourceid) { get; set; } | Gets or sets resource id. For instance for users it may be user principal name (UPN) or user id |
-| virtual [TenantId](tenantid) { get; set; } | Gets or sets tenant identifier |
-| virtual [Timeout](timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
-| virtual [TokenProvider](tokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
+| virtual [MultipleServicesTokenProvider](../../aspose.email.clients.activity/activityclient/multipleservicestokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
+| virtual [Proxy](../../aspose.email.clients.activity/activityclient/proxy) { get; set; } | Gets or sets data to proxy access to Exchange server. |
+| virtual [ResourceId](../../aspose.email.clients.activity/activityclient/resourceid) { get; set; } | Gets or sets resource id. For instance for users it may be user principal name (UPN) or user id |
+| virtual [TenantId](../../aspose.email.clients.activity/activityclient/tenantid) { get; set; } | Gets or sets tenant identifier |
+| virtual [Timeout](../../aspose.email.clients.activity/activityclient/timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
+| virtual [TokenProvider](../../aspose.email.clients.activity/activityclient/tokenprovider) { get; set; } | Gets or sets an object allows to retrieve OAuth access token. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [FetchContent](fetchcontent)(string) |  |
-| [ListContent](listcontent)(string) |  |
-| [ListContent](listcontent)(string, DateTime?, DateTime?) |  |
-| [ListFriendlyNames](listfriendlynames)() |  |
-| [ListSubscriptions](listsubscriptions)() |  |
-| [StartSubscription](startsubscription)(string, Webhook) |  |
-| [StopSubscription](stopsubscription)(string) |  |
-| static [GetClient](getclient)(IMultipleServicesTokenProvider, string) | Initializes a new instance of the [`ActivityClient`](../activityclient) based class |
-| static [GetClient](getclient)(ITokenProvider, string) | Initializes a new instance of the [`ActivityClient`](../activityclient) based class |
+| virtual [Dispose](../../aspose.email.clients.activity/activityclient/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [FetchContent](../../aspose.email.clients.activity/activityclient/fetchcontent)(string) |  |
+| [ListContent](../../aspose.email.clients.activity/activityclient/listcontent)(string) |  |
+| [ListContent](../../aspose.email.clients.activity/activityclient/listcontent)(string, DateTime?, DateTime?) |  |
+| [ListFriendlyNames](../../aspose.email.clients.activity/activityclient/listfriendlynames)() |  |
+| [ListSubscriptions](../../aspose.email.clients.activity/activityclient/listsubscriptions)() |  |
+| [StartSubscription](../../aspose.email.clients.activity/activityclient/startsubscription)(string, Webhook) |  |
+| [StopSubscription](../../aspose.email.clients.activity/activityclient/stopsubscription)(string) |  |
+| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient)(IMultipleServicesTokenProvider, string) | Initializes a new instance of the [`ActivityClient`](../activityclient) based class |
+| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient)(ITokenProvider, string) | Initializes a new instance of the [`ActivityClient`](../activityclient) based class |
 
 ### See Also
 

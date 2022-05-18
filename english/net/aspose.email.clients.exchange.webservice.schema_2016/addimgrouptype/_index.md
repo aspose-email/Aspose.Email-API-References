@@ -22,7 +22,7 @@ public class AddImGroupType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/addimgrouptype/displayname) { get; set; } |  |
 
 ### See Also
 

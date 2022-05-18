@@ -22,16 +22,16 @@ public class NonIndexableItemDetailType
 
 | Name | Description |
 | --- | --- |
-| [AdditionalInfo](additionalinfo) { get; set; } |  |
-| [AttemptCount](attemptcount) { get; set; } |  |
-| [ErrorCode](errorcode) { get; set; } |  |
-| [ErrorDescription](errordescription) { get; set; } |  |
-| [IsPartiallyIndexed](ispartiallyindexed) { get; set; } |  |
-| [IsPermanentFailure](ispermanentfailure) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
-| [LastAttemptTime](lastattempttime) { get; set; } |  |
-| [LastAttemptTimeSpecified](lastattempttimespecified) { get; set; } |  |
-| [SortValue](sortvalue) { get; set; } |  |
+| [AdditionalInfo](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/additionalinfo) { get; set; } |  |
+| [AttemptCount](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/attemptcount) { get; set; } |  |
+| [ErrorCode](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/errorcode) { get; set; } |  |
+| [ErrorDescription](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/errordescription) { get; set; } |  |
+| [IsPartiallyIndexed](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/ispartiallyindexed) { get; set; } |  |
+| [IsPermanentFailure](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/ispermanentfailure) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/itemid) { get; set; } |  |
+| [LastAttemptTime](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/lastattempttime) { get; set; } |  |
+| [LastAttemptTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/lastattempttimespecified) { get; set; } |  |
+| [SortValue](../../aspose.email.clients.exchange.webservice.schema_2016/nonindexableitemdetailtype/sortvalue) { get; set; } |  |
 
 ### See Also
 

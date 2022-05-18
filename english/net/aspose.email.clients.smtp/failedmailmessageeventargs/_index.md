@@ -24,7 +24,8 @@ public class FailedMailMessageEventArgs : MailMessageEventArgs
 
 | Name | Description |
 | --- | --- |
-| [OperationError](operationerror) { get; } | Operation error |
+| [Message](../../aspose.email.clients.smtp/mailmessageeventargs/message) { get; } | Gets the sending message. |
+| [OperationError](../../aspose.email.clients.smtp/failedmailmessageeventargs/operationerror) { get; } | Operation error |
 
 ### See Also
 

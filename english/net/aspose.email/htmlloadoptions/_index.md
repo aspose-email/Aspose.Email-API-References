@@ -24,8 +24,11 @@ public class HtmlLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [PathToResources](pathtoresources) { get; set; } | Path to directory with resources files. |
-| [ShouldAddPlainTextView](shouldaddplaintextview) { get; set; } | Specifies whether to add a text representation of the body or not. Default value is false. |
+| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | Represents the mail message format.It can be in eml,msg or mhtml format. The default value is Eml. |
+| [PathToResources](../../aspose.email/htmlloadoptions/pathtoresources) { get; set; } | Path to directory with resources files. |
+| [PrefferedTextEncoding](../../aspose.email/loadoptions/prefferedtextencoding) { get; set; } | Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading in MailMessage. |
+| [ShouldAddPlainTextView](../../aspose.email/htmlloadoptions/shouldaddplaintextview) { get; set; } | Specifies whether to add a text representation of the body or not. Default value is false. |
 
 ### See Also
 

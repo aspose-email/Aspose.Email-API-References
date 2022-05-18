@@ -26,9 +26,9 @@ public class ValidationResult
 
 | Name | Description |
 | --- | --- |
-| [LastException](lastexception) { get; set; } | The last error met in the validating process. |
-| [Message](message) { get; } | Gets the detail message about the result. |
-| [ReturnCode](returncode) { get; set; } | Gets or ses the response code of the validating process. |
+| [LastException](../../aspose.email.tools.verifications/validationresult/lastexception) { get; set; } | The last error met in the validating process. |
+| [Message](../../aspose.email.tools.verifications/validationresult/message) { get; } | Gets the detail message about the result. |
+| [ReturnCode](../../aspose.email.tools.verifications/validationresult/returncode) { get; set; } | Gets or ses the response code of the validating process. |
 
 ### See Also
 

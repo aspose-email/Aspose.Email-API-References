@@ -22,7 +22,7 @@ public class SearchDiagnosticsType
 
 | Name | Description |
 | --- | --- |
-| [Any](any) { get; set; } |  |
+| [Any](../../aspose.email.clients.exchange.webservice.schema_2016/searchdiagnosticstype/any) { get; set; } |  |
 
 ### See Also
 

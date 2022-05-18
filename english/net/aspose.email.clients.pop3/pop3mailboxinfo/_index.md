@@ -24,14 +24,14 @@ public class Pop3MailboxInfo
 
 | Name | Description |
 | --- | --- |
-| [MessageCount](messagecount) { get; } | Gets the count of messages in the mailbox. |
-| [OccupiedSize](occupiedsize) { get; } | Gets the occupied size of the mailbox. |
+| [MessageCount](../../aspose.email.clients.pop3/pop3mailboxinfo/messagecount) { get; } | Gets the count of messages in the mailbox. |
+| [OccupiedSize](../../aspose.email.clients.pop3/pop3mailboxinfo/occupiedsize) { get; } | Gets the occupied size of the mailbox. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.email.clients.pop3/pop3mailboxinfo/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

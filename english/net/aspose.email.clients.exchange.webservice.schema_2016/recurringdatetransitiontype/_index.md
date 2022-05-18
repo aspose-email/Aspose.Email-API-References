@@ -22,7 +22,10 @@ public class RecurringDateTransitionType : RecurringTimeTransitionType
 
 | Name | Description |
 | --- | --- |
-| [Day](day) { get; set; } |  |
+| [Day](../../aspose.email.clients.exchange.webservice.schema_2016/recurringdatetransitiontype/day) { get; set; } |  |
+| [Month](../../aspose.email.clients.exchange.webservice.schema_2016/recurringtimetransitiontype/month) { get; set; } |  |
+| [TimeOffset](../../aspose.email.clients.exchange.webservice.schema_2016/recurringtimetransitiontype/timeoffset) { get; set; } |  |
+| [To](../../aspose.email.clients.exchange.webservice.schema_2016/transitiontype/to) { get; set; } |  |
 
 ### See Also
 

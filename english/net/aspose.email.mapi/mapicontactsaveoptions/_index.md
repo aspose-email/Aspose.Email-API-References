@@ -24,7 +24,8 @@ public sealed class MapiContactSaveOptions : ContactSaveOptions
 
 | Name | Description |
 | --- | --- |
-| static [Default](default) { get; } | Gets the default options. |
+| static [Default](../../aspose.email.mapi/mapicontactsaveoptions/default) { get; } | Gets the default options. |
+| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat) { get; } | Gets a save format |
 
 ### See Also
 

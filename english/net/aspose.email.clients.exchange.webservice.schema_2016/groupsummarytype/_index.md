@@ -22,10 +22,10 @@ public class GroupSummaryType
 
 | Name | Description |
 | --- | --- |
-| [GroupByValue](groupbyvalue) { get; set; } |  |
-| [GroupCount](groupcount) { get; set; } |  |
-| [InstanceKey](instancekey) { get; set; } |  |
-| [UnreadCount](unreadcount) { get; set; } |  |
+| [GroupByValue](../../aspose.email.clients.exchange.webservice.schema_2016/groupsummarytype/groupbyvalue) { get; set; } |  |
+| [GroupCount](../../aspose.email.clients.exchange.webservice.schema_2016/groupsummarytype/groupcount) { get; set; } |  |
+| [InstanceKey](../../aspose.email.clients.exchange.webservice.schema_2016/groupsummarytype/instancekey) { get; set; } |  |
+| [UnreadCount](../../aspose.email.clients.exchange.webservice.schema_2016/groupsummarytype/unreadcount) { get; set; } |  |
 
 ### See Also
 

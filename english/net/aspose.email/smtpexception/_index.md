@@ -31,8 +31,16 @@ public class SmtpException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [OperationDetails](operationdetails) { get; } | Gets extra information aboout error |
-| [StatusCode](statuscode) { get; set; } | Smtp status code |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Gets extra information aboout error |
+| override [Message](../../aspose.email/asposeexception/message) { get; } | Gets a message that describes the current exception. |
+| [OperationDetails](../../aspose.email/smtpexception/operationdetails) { get; } | Gets extra information aboout error |
+| [StatusCode](../../aspose.email/smtpexception/statuscode) { get; set; } | Smtp status code |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email/asposeexception/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

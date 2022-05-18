@@ -24,15 +24,15 @@ public class MimeHeader
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; } | Gets the name. |
-| [RawContent](rawcontent) { get; } | Gets the content of the raw. |
+| [Name](../../aspose.email.mime/mimeheader/name) { get; } | Gets the name. |
+| [RawContent](../../aspose.email.mime/mimeheader/rawcontent) { get; } | Gets the content of the raw. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](clone)() | Clones this instance. |
-| override [ToString](tostring)() | Returns a String that represents the current Object. |
+| [Clone](../../aspose.email.mime/mimeheader/clone)() | Clones this instance. |
+| override [ToString](../../aspose.email.mime/mimeheader/tostring)() | Returns a String that represents the current Object. |
 
 ### See Also
 

@@ -24,22 +24,32 @@ public sealed class ExchangeAdvancedSyntaxQueryBuilder : MailQueryBuilder
 
 | Name | Description |
 | --- | --- |
-| [Attachment](attachment) { get; } | Gets the field that allows to find items with a specified attachment name. |
-| [Category](category) { get; } |  |
-| [HasAttachment](hasattachment) { get; } |  |
-| [Importance](importance) { get; } |  |
-| [Isflagged](isflagged) { get; } |  |
-| [IsRead](isread) { get; } |  |
-| [Kind](kind) { get; } |  |
-| [Participants](participants) { get; } |  |
-| [Size](size) { get; } |  |
+| [Attachment](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/attachment) { get; } | Gets the field that allows to find items with a specified attachment name. |
+| [Bcc](../../aspose.email.tools.search/mailquerybuilder/bcc) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's BCC field. |
+| [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | Gets the field that allows to find messages that contain the specified string in the body of the message. |
+| [Category](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/category) { get; } |  |
+| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's CC field. |
+| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | Gets default encoding (charset) for query builder |
+| [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's FROM field. |
+| [HasAttachment](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/hasattachment) { get; } |  |
+| [Importance](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/importance) { get; } |  |
+| [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | Gets the field that allows to find messages by internal date. |
+| [Isflagged](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/isflagged) { get; } |  |
+| [IsRead](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/isread) { get; } |  |
+| [Kind](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/kind) { get; } |  |
+| [Participants](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/participants) { get; } |  |
+| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Gets the field that allows to find messages by sent date. |
+| [Size](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/size) { get; } |  |
+| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's SUBJECT field. |
+| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | Gets the field that allows to find the messages that contain the specified string in the headers (subject, from, to, cc) and body of the message. |
+| [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | Gets the field that allows to find messages that contain the specified string in the envelope structure's TO field. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetQuery](getquery)() | Gets the query. |
-| [Or](or)(MailQuery, MailQuery) | Search messages that match either search key. Provides disjunction between two expressions (OR). |
+| [GetQuery](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/getquery)() | Gets the query. (2 methods) |
+| [Or](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/or)(MailQuery, MailQuery) | Search messages that match either search key. Provides disjunction between two expressions (OR). (2 methods) |
 
 ### See Also
 

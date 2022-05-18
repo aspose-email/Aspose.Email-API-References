@@ -24,7 +24,7 @@ public abstract class BaseRestObject
 
 | Name | Description |
 | --- | --- |
-| virtual [Properties](properties) { get; } | Gets the mapi properties. |
+| virtual [Properties](../../aspose.email.clients.graph/baserestobject/properties) { get; } | Gets the mapi properties. |
 
 ### See Also
 

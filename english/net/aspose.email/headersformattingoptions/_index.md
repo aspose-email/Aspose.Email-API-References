@@ -24,14 +24,16 @@ public abstract class HeadersFormattingOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AfterHeadersFormat](afterheadersformat) { get; set; } | After headers format. |
-| [BeforeHeadersFormat](beforeheadersformat) { get; set; } | Before headers format. |
-| [CssStyles](cssstyles) { get; set; } | Gets or sets the additional css styles for the formatter. |
-| [DefaultHeaderFormat](defaultheaderformat) { get; set; } | Default header line format. |
-| [DefaultPageHeaderFormat](defaultpageheaderformat) { get; set; } | Default page header format. |
-| [FormatTemplates](formattemplates) { get; } | Gets the format templates. |
-| [RenderedContactFields](renderedcontactfields) { get; set; } | Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting. |
-| [RenderingHeaders](renderingheaders) { get; } | Gets list of headers for rendering. |
+| [AfterHeadersFormat](../../aspose.email/headersformattingoptions/afterheadersformat) { get; set; } | After headers format. |
+| [BeforeHeadersFormat](../../aspose.email/headersformattingoptions/beforeheadersformat) { get; set; } | Before headers format. |
+| [CssStyles](../../aspose.email/headersformattingoptions/cssstyles) { get; set; } | Gets or sets the additional css styles for the formatter. |
+| [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | Represents method that usually supplied by calling side and handles progress events. |
+| [DefaultHeaderFormat](../../aspose.email/headersformattingoptions/defaultheaderformat) { get; set; } | Default header line format. |
+| [DefaultPageHeaderFormat](../../aspose.email/headersformattingoptions/defaultpageheaderformat) { get; set; } | Default page header format. |
+| [FormatTemplates](../../aspose.email/headersformattingoptions/formattemplates) { get; } | Gets the format templates. |
+| [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | Represents the mail message save type.It can be in eml,msg(ASCII or Unicode),mhtml or html format. The default value is Eml. |
+| [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields) { get; set; } | Defines groups of Contact fields which will be included in output mhtml. Default value is ContactFieldsSet.AllExisting. |
+| [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders) { get; } | Gets list of headers for rendering. |
 
 ### See Also
 

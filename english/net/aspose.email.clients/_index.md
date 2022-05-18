@@ -12,7 +12,7 @@ The **Aspose.Email.Clients** namespace provides classes to access messages by us
 
 | Class | Description |
 | --- | --- |
-| [AsyncCommandResultEventArgs](./asynccommandresulteventargs) | [`AsyncCommandResultEventArgs`](aspose.email.clients/asynccommandresulteventargs) is containing event data. |
+| [AsyncCommandResultEventArgs](./asynccommandresulteventargs) | [`AsyncCommandResultEventArgs`](../aspose.email.clients/asynccommandresulteventargs) is containing event data. |
 | [BindIPEndPointHandler](./bindipendpointhandler) | Use the BindIPEndPointHandler if you need to use a specific local endpoint. |
 | [CommandStatus](./commandstatus) | Indicates the result of an operation. |
 | [EmailClient](./emailclient) | Represents the client that creates server connection by using the host credentials. |

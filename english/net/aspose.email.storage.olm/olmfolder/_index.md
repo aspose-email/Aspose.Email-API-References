@@ -18,22 +18,22 @@ public class OlmFolder
 
 | Name | Description |
 | --- | --- |
-| [HasMessages](hasmessages) { get; } | Gets a value indicating whether the current folder has messages. |
-| [MessageCount](messagecount) { get; } | Gets the message count. |
-| [Name](name) { get; } | Gets the folder name. |
-| [Path](path) { get; } | Gets the path. |
-| [SubFolders](subfolders) { get; } | Gets the list of sub-folders. |
+| [HasMessages](../../aspose.email.storage.olm/olmfolder/hasmessages) { get; } | Gets a value indicating whether the current folder has messages. |
+| [MessageCount](../../aspose.email.storage.olm/olmfolder/messagecount) { get; } | Gets the message count. |
+| [Name](../../aspose.email.storage.olm/olmfolder/name) { get; } | Gets the folder name. |
+| [Path](../../aspose.email.storage.olm/olmfolder/path) { get; } | Gets the path. |
+| [SubFolders](../../aspose.email.storage.olm/olmfolder/subfolders) { get; } | Gets the list of sub-folders. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [EnumerateMapiMessages](enumeratemapimessages)() | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [EnumerateMessages](enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [EnumerateMessages](enumeratemessages)(MailQuery) | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [EnumerateMessages](enumeratemessages)(int, int) | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [GetSubFolder](getsubfolder)(string, bool) | Gets the subfolder by name. |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| [EnumerateMapiMessages](../../aspose.email.storage.olm/olmfolder/enumeratemapimessages)() | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages)(MailQuery) | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [EnumerateMessages](../../aspose.email.storage.olm/olmfolder/enumeratemessages)(int, int) | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [GetSubFolder](../../aspose.email.storage.olm/olmfolder/getsubfolder)(string, bool) | Gets the subfolder by name. |
+| override [ToString](../../aspose.email.storage.olm/olmfolder/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

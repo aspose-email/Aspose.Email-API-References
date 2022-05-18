@@ -24,9 +24,9 @@ public class SyntaxValidatingEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [Mail](mail) { get; } | Gets the mail address is being validating. |
-| [Result](result) { get; set; } | Gets or sets the validation result. |
-| [Skip](skip) { get; set; } | Indicates whether to ignore the check. |
+| [Mail](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/mail) { get; } | Gets the mail address is being validating. |
+| [Result](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/result) { get; set; } | Gets or sets the validation result. |
+| [Skip](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/skip) { get; set; } | Indicates whether to ignore the check. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public static class MapiPropertyTag
 
 | Name | Description |
 | --- | --- |
-| static [GetPropertyName](getpropertyname)(long) | Gets the name of the property. |
+| static [GetPropertyName](../../aspose.email.mapi/mapipropertytag/getpropertyname)(long) | Gets the name of the property. |
 
 ## Other Members
 

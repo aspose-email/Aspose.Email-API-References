@@ -18,10 +18,10 @@ public static class GlobalFormattingOptions
 
 | Name | Description |
 | --- | --- |
-| static [AfterHeadersFormat](afterheadersformat) { get; set; } | AfterHeadersFormat for instances of HeadersFormattingOptions if AfterHeadersFormat is not set. |
-| static [BeforeHeadersFormat](beforeheadersformat) { get; set; } | BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set. |
-| static [HeaderFormat](headerformat) { get; set; } | HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set. |
-| static [PageHeaderFormat](pageheaderformat) { get; set; } | PageHeaderFormat for instances of HeadersFormattingOptions if DefaultPageHeaderFormat is not set. |
+| static [AfterHeadersFormat](../../aspose.email/globalformattingoptions/afterheadersformat) { get; set; } | AfterHeadersFormat for instances of HeadersFormattingOptions if AfterHeadersFormat is not set. |
+| static [BeforeHeadersFormat](../../aspose.email/globalformattingoptions/beforeheadersformat) { get; set; } | BeforeHeadersFormat for instances of HeadersFormattingOptions if BeforeHeadersFormat is not set. |
+| static [HeaderFormat](../../aspose.email/globalformattingoptions/headerformat) { get; set; } | HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set. |
+| static [PageHeaderFormat](../../aspose.email/globalformattingoptions/pageheaderformat) { get; set; } | PageHeaderFormat for instances of HeadersFormattingOptions if DefaultPageHeaderFormat is not set. |
 
 ### See Also
 

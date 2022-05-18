@@ -22,9 +22,9 @@ public class AddNewImContactToGroupType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
-| [GroupId](groupid) { get; set; } |  |
-| [ImAddress](imaddress) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/addnewimcontacttogrouptype/displayname) { get; set; } |  |
+| [GroupId](../../aspose.email.clients.exchange.webservice.schema_2016/addnewimcontacttogrouptype/groupid) { get; set; } |  |
+| [ImAddress](../../aspose.email.clients.exchange.webservice.schema_2016/addnewimcontacttogrouptype/imaddress) { get; set; } |  |
 
 ### See Also
 

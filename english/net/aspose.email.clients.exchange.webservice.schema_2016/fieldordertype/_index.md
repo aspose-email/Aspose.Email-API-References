@@ -22,8 +22,8 @@ public class FieldOrderType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
-| [Order](order) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/fieldordertype/item) { get; set; } |  |
+| [Order](../../aspose.email.clients.exchange.webservice.schema_2016/fieldordertype/order) { get; set; } |  |
 
 ### See Also
 

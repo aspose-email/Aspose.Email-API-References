@@ -18,7 +18,7 @@ public abstract class AppointmentSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [SaveFormat](saveformat) { get; } | Gets a save format |
+| [SaveFormat](../../aspose.email.calendar/appointmentsaveoptions/saveformat) { get; } | Gets a save format |
 
 ### See Also
 

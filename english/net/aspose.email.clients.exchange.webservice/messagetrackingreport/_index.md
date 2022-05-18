@@ -18,11 +18,11 @@ public sealed class MessageTrackingReport
 
 | Name | Description |
 | --- | --- |
-| [OriginalRecipients](originalrecipients) { get; } | Gets the e-mail addresses of the message recipients. |
-| [RecipientTrackingEvents](recipienttrackingevents) { get; } | Gets the type of events to report. |
-| [Sender](sender) { get; } | Gets the e-mail address for the sender of the message. |
-| [Subject](subject) { get; } | Gets the subject of the message. |
-| [SubmitTime](submittime) { get; } | Gets the time at which the message was sent to the server. |
+| [OriginalRecipients](../../aspose.email.clients.exchange.webservice/messagetrackingreport/originalrecipients) { get; } | Gets the e-mail addresses of the message recipients. |
+| [RecipientTrackingEvents](../../aspose.email.clients.exchange.webservice/messagetrackingreport/recipienttrackingevents) { get; } | Gets the type of events to report. |
+| [Sender](../../aspose.email.clients.exchange.webservice/messagetrackingreport/sender) { get; } | Gets the e-mail address for the sender of the message. |
+| [Subject](../../aspose.email.clients.exchange.webservice/messagetrackingreport/subject) { get; } | Gets the subject of the message. |
+| [SubmitTime](../../aspose.email.clients.exchange.webservice/messagetrackingreport/submittime) { get; } | Gets the time at which the message was sent to the server. |
 
 ### See Also
 

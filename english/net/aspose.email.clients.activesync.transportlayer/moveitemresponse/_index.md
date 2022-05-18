@@ -25,9 +25,9 @@ public class MoveItemResponse
 
 | Name | Description |
 | --- | --- |
-| [DstMsgId](dstmsgid) { get; set; } | Specifies the new server ID of the item after the item is moved to the destination folder. The DstMsgId element value can be up to 64 characters in length. |
-| [SrcMsgId](srcmsgid) { get; set; } | Specifies the server ID of the item to be moved. The SrcMsgId element value can be up to 64 characters in length. |
-| [Status](status) { get; set; } | Indicates the success or failure the MoveItems command request. |
+| [DstMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemresponse/dstmsgid) { get; set; } | Specifies the new server ID of the item after the item is moved to the destination folder. The DstMsgId element value can be up to 64 characters in length. |
+| [SrcMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemresponse/srcmsgid) { get; set; } | Specifies the server ID of the item to be moved. The SrcMsgId element value can be up to 64 characters in length. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/moveitemresponse/status) { get; set; } | Indicates the success or failure the MoveItems command request. |
 
 ### See Also
 

@@ -22,7 +22,7 @@ public class GetMeetingInstanceRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ItemId](itemid) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/getmeetinginstancerequesttype/itemid) { get; set; } |  |
 
 ### See Also
 

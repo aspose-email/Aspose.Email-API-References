@@ -22,9 +22,9 @@ public class GetImItemsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ContactIds](contactids) { get; set; } |  |
-| [ExtendedProperties](extendedproperties) { get; set; } |  |
-| [GroupIds](groupids) { get; set; } |  |
+| [ContactIds](../../aspose.email.clients.exchange.webservice.schema_2016/getimitemstype/contactids) { get; set; } |  |
+| [ExtendedProperties](../../aspose.email.clients.exchange.webservice.schema_2016/getimitemstype/extendedproperties) { get; set; } |  |
+| [GroupIds](../../aspose.email.clients.exchange.webservice.schema_2016/getimitemstype/groupids) { get; set; } |  |
 
 ### See Also
 

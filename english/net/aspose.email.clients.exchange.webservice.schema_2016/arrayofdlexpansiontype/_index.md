@@ -22,17 +22,17 @@ public class ArrayOfDLExpansionType
 
 | Name | Description |
 | --- | --- |
-| [AbsoluteDenominator](absolutedenominator) { get; set; } |  |
-| [AbsoluteDenominatorSpecified](absolutedenominatorspecified) { get; set; } |  |
-| [IncludesLastItemInRange](includeslastiteminrange) { get; set; } |  |
-| [IncludesLastItemInRangeSpecified](includeslastiteminrangespecified) { get; set; } |  |
-| [IndexedPagingOffset](indexedpagingoffset) { get; set; } |  |
-| [IndexedPagingOffsetSpecified](indexedpagingoffsetspecified) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
-| [NumeratorOffset](numeratoroffset) { get; set; } |  |
-| [NumeratorOffsetSpecified](numeratoroffsetspecified) { get; set; } |  |
-| [TotalItemsInView](totalitemsinview) { get; set; } |  |
-| [TotalItemsInViewSpecified](totalitemsinviewspecified) { get; set; } |  |
+| [AbsoluteDenominator](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/absolutedenominator) { get; set; } |  |
+| [AbsoluteDenominatorSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/absolutedenominatorspecified) { get; set; } |  |
+| [IncludesLastItemInRange](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/includeslastiteminrange) { get; set; } |  |
+| [IncludesLastItemInRangeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/includeslastiteminrangespecified) { get; set; } |  |
+| [IndexedPagingOffset](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/indexedpagingoffset) { get; set; } |  |
+| [IndexedPagingOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/indexedpagingoffsetspecified) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/mailbox) { get; set; } |  |
+| [NumeratorOffset](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/numeratoroffset) { get; set; } |  |
+| [NumeratorOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/numeratoroffsetspecified) { get; set; } |  |
+| [TotalItemsInView](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/totalitemsinview) { get; set; } |  |
+| [TotalItemsInViewSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofdlexpansiontype/totalitemsinviewspecified) { get; set; } |  |
 
 ### See Also
 

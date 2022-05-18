@@ -16,7 +16,7 @@ public class DeleteItemCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/deleteitemcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

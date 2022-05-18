@@ -24,10 +24,10 @@ public class SyncCommandsRequest
 
 | Name | Description |
 | --- | --- |
-| [Add](add) { get; } | Contains the list of add operations. |
-| [Change](change) { get; } | Contains the list of update operations. |
-| [Delete](delete) { get; } | Contains the list of delete operations. |
-| [Fetch](fetch) { get; } | Contains the list of fetch operations. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/synccommandsrequest/add) { get; } | Contains the list of add operations. |
+| [Change](../../aspose.email.clients.activesync.transportlayer/synccommandsrequest/change) { get; } | Contains the list of update operations. |
+| [Delete](../../aspose.email.clients.activesync.transportlayer/synccommandsrequest/delete) { get; } | Contains the list of delete operations. |
+| [Fetch](../../aspose.email.clients.activesync.transportlayer/synccommandsrequest/fetch) { get; } | Contains the list of fetch operations. |
 
 ### See Also
 

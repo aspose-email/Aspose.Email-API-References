@@ -24,9 +24,9 @@ public sealed class MessageObjectAttachmentEntity : IMessageObjectPropertyContai
 
 | Name | Description |
 | --- | --- |
-| [CustomAttachmentStorageData](customattachmentstoragedata) { get; set; } | Gets or sets the custom attachment storage data.Can be null. |
-| [EmbeddedMessage](embeddedmessage) { get; set; } | Gets or sets the Embedded Message Object storage if present.Can be null. |
-| [Properties](properties) { get; } | Gets the attachment properties. |
+| [CustomAttachmentStorageData](../../aspose.email.mapi.msg/messageobjectattachmententity/customattachmentstoragedata) { get; set; } | Gets or sets the custom attachment storage data.Can be null. |
+| [EmbeddedMessage](../../aspose.email.mapi.msg/messageobjectattachmententity/embeddedmessage) { get; set; } | Gets or sets the Embedded Message Object storage if present.Can be null. |
+| [Properties](../../aspose.email.mapi.msg/messageobjectattachmententity/properties) { get; } | Gets the attachment properties. |
 
 ### See Also
 

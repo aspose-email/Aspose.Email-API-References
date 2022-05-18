@@ -18,9 +18,9 @@ public sealed class ExchangeUploadItemResult
 
 | Name | Description |
 | --- | --- |
-| [ErrorMessage](errormessage) { get; } | Gets the error message (if the uploading item failed) |
-| [IsSuccessful](issuccessful) { get; } | Gets a value indicating whether the item is uploaded successfully |
-| [ItemId](itemid) { get; } | Gets the item id |
+| [ErrorMessage](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/errormessage) { get; } | Gets the error message (if the uploading item failed) |
+| [IsSuccessful](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/issuccessful) { get; } | Gets a value indicating whether the item is uploaded successfully |
+| [ItemId](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/itemid) { get; } | Gets the item id |
 
 ### See Also
 

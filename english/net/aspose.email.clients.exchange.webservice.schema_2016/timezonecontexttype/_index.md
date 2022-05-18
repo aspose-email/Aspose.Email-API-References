@@ -22,8 +22,8 @@ public class TimeZoneContextType : SoapHeader
 
 | Name | Description |
 | --- | --- |
-| [AnyAttr](anyattr) { get; set; } |  |
-| [TimeZoneDefinition](timezonedefinition) { get; set; } |  |
+| [AnyAttr](../../aspose.email.clients.exchange.webservice.schema_2016/timezonecontexttype/anyattr) { get; set; } |  |
+| [TimeZoneDefinition](../../aspose.email.clients.exchange.webservice.schema_2016/timezonecontexttype/timezonedefinition) { get; set; } |  |
 
 ### See Also
 

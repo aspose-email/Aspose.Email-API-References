@@ -24,12 +24,12 @@ public sealed class ExchangeFolderUserInfo
 
 | Name | Description |
 | --- | --- |
-| static [AnonymousUser](anonymoususer) { get; } | Gets Anonymous user account |
-| static [DefaultUser](defaultuser) { get; } | Gets Default user account |
-| [DisplayName](displayname) { get; set; } | Gets or sets the user name for display. |
-| [PrimarySmtpAddress](primarysmtpaddress) { get; set; } | Gets or sets the primary SMTP address of an account. |
-| [Sid](sid) { get; set; } | Gets or sets the security descriptor definition language (SSDL) form of the security identifier (SID) for a user. |
-| [UserAccountType](useraccounttype) { get; set; } | Gets or sets a value that identifies the Anonymous and Default user accounts for delegate access. |
+| static [AnonymousUser](../../aspose.email.clients.exchange/exchangefolderuserinfo/anonymoususer) { get; } | Gets Anonymous user account |
+| static [DefaultUser](../../aspose.email.clients.exchange/exchangefolderuserinfo/defaultuser) { get; } | Gets Default user account |
+| [DisplayName](../../aspose.email.clients.exchange/exchangefolderuserinfo/displayname) { get; set; } | Gets or sets the user name for display. |
+| [PrimarySmtpAddress](../../aspose.email.clients.exchange/exchangefolderuserinfo/primarysmtpaddress) { get; set; } | Gets or sets the primary SMTP address of an account. |
+| [Sid](../../aspose.email.clients.exchange/exchangefolderuserinfo/sid) { get; set; } | Gets or sets the security descriptor definition language (SSDL) form of the security identifier (SID) for a user. |
+| [UserAccountType](../../aspose.email.clients.exchange/exchangefolderuserinfo/useraccounttype) { get; set; } | Gets or sets a value that identifies the Anonymous and Default user accounts for delegate access. |
 
 ### See Also
 

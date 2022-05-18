@@ -22,7 +22,7 @@ public class SIDType
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/sidtype/value) { get; set; } |  |
 
 ### See Also
 

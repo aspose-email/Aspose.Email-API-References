@@ -22,8 +22,8 @@ public class OutOfOfficeMailTip
 
 | Name | Description |
 | --- | --- |
-| [Duration](duration) { get; set; } |  |
-| [ReplyBody](replybody) { get; set; } |  |
+| [Duration](../../aspose.email.clients.exchange.webservice.schema_2016/outofofficemailtip/duration) { get; set; } |  |
+| [ReplyBody](../../aspose.email.clients.exchange.webservice.schema_2016/outofofficemailtip/replybody) { get; set; } |  |
 
 ### See Also
 

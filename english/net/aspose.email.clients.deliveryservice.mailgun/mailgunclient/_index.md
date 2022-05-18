@@ -24,9 +24,9 @@ public class MailgunClient : IDeliveryServiceClient
 
 | Name | Description |
 | --- | --- |
-| virtual [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [Send](send)(MailMessage, List&lt;string&gt;, CancellationToken?) | Sends email synchronously |
-| [SendAsync](sendasync)(MailMessage, List&lt;string&gt;, CancellationToken?) | Sends email asynchronously |
+| virtual [Dispose](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Send](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/send)(MailMessage, List&lt;string&gt;, CancellationToken?) | Sends email synchronously |
+| [SendAsync](../../aspose.email.clients.deliveryservice.mailgun/mailgunclient/sendasync)(MailMessage, List&lt;string&gt;, CancellationToken?) | Sends email asynchronously |
 
 ### See Also
 

@@ -22,7 +22,7 @@ public class Metadata
 
 | Name | Description |
 | --- | --- |
-| [CustomApps](customapps) { get; set; } |  |
+| [CustomApps](../../aspose.email.clients.exchange.webservice.schema_2016/metadata/customapps) { get; set; } |  |
 
 ### See Also
 

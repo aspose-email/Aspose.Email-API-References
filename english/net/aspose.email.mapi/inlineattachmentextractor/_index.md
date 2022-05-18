@@ -18,7 +18,7 @@ public static class InlineAttachmentExtractor
 
 | Name | Description |
 | --- | --- |
-| static [EnumerateMsoPackage](enumeratemsopackage)(Stream) | Enumerates the MSO package and returns a dictionary containing files data. The key is file identifier and value contains actual data.Files are usually referenced in message body using the identifiers provided. |
+| static [EnumerateMsoPackage](../../aspose.email.mapi/inlineattachmentextractor/enumeratemsopackage)(Stream) | Enumerates the MSO package and returns a dictionary containing files data. The key is file identifier and value contains actual data.Files are usually referenced in message body using the identifiers provided. |
 
 ### See Also
 

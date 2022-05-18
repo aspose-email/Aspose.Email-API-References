@@ -24,12 +24,12 @@ public sealed class GetMessageTrackingReportOptions
 
 | Name | Description |
 | --- | --- |
-| [DiagnosticsLevel](diagnosticslevel) { get; set; } | Gets or sets a timing and performance information that will be used to derive the report. |
-| [MessageTrackingReportId](messagetrackingreportid) { get; set; } | Gets or sets an identity string that was obtained from the FindMessageTrackingReport operation (non-empty string) |
-| [RecipientFilter](recipientfilter) { get; set; } | Gets or sets a recipient address to use with the specified report. |
-| [ReportTemplate](reporttemplate) { get; set; } | Gets or sets the type of report to get. |
-| [ReturnQueueEvents](returnqueueevents) { get; set; } | Gets or sets a value indicating whether the person who is running the task is in a privileged role. |
-| [Scope](scope) { get; set; } | Gets or sets the search scope (non-empty string) |
+| [DiagnosticsLevel](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/diagnosticslevel) { get; set; } | Gets or sets a timing and performance information that will be used to derive the report. |
+| [MessageTrackingReportId](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/messagetrackingreportid) { get; set; } | Gets or sets an identity string that was obtained from the FindMessageTrackingReport operation (non-empty string) |
+| [RecipientFilter](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/recipientfilter) { get; set; } | Gets or sets a recipient address to use with the specified report. |
+| [ReportTemplate](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/reporttemplate) { get; set; } | Gets or sets the type of report to get. |
+| [ReturnQueueEvents](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/returnqueueevents) { get; set; } | Gets or sets a value indicating whether the person who is running the task is in a privileged role. |
+| [Scope](../../aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/scope) { get; set; } | Gets or sets the search scope (non-empty string) |
 
 ### See Also
 

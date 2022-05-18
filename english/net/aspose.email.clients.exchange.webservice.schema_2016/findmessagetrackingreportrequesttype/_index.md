@@ -22,21 +22,21 @@ public class FindMessageTrackingReportRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DiagnosticsLevel](diagnosticslevel) { get; set; } |  |
-| [Domain](domain) { get; set; } |  |
-| [EndDateTime](enddatetime) { get; set; } |  |
-| [EndDateTimeSpecified](enddatetimespecified) { get; set; } |  |
-| [FederatedDeliveryMailbox](federateddeliverymailbox) { get; set; } |  |
-| [MessageId](messageid) { get; set; } |  |
-| [Properties](properties) { get; set; } |  |
-| [PurportedSender](purportedsender) { get; set; } |  |
-| [Recipient](recipient) { get; set; } |  |
-| [Scope](scope) { get; set; } |  |
-| [Sender](sender) { get; set; } |  |
-| [ServerHint](serverhint) { get; set; } |  |
-| [StartDateTime](startdatetime) { get; set; } |  |
-| [StartDateTimeSpecified](startdatetimespecified) { get; set; } |  |
-| [Subject](subject) { get; set; } |  |
+| [DiagnosticsLevel](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/diagnosticslevel) { get; set; } |  |
+| [Domain](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/domain) { get; set; } |  |
+| [EndDateTime](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/enddatetime) { get; set; } |  |
+| [EndDateTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/enddatetimespecified) { get; set; } |  |
+| [FederatedDeliveryMailbox](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/federateddeliverymailbox) { get; set; } |  |
+| [MessageId](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/messageid) { get; set; } |  |
+| [Properties](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/properties) { get; set; } |  |
+| [PurportedSender](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/purportedsender) { get; set; } |  |
+| [Recipient](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/recipient) { get; set; } |  |
+| [Scope](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/scope) { get; set; } |  |
+| [Sender](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/sender) { get; set; } |  |
+| [ServerHint](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/serverhint) { get; set; } |  |
+| [StartDateTime](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/startdatetime) { get; set; } |  |
+| [StartDateTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/startdatetimespecified) { get; set; } |  |
+| [Subject](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingreportrequesttype/subject) { get; set; } |  |
 
 ### See Also
 

@@ -22,7 +22,11 @@ public class FolderRefinerType : SearchRefinerType
 
 | Name | Description |
 | --- | --- |
-| [FolderId](folderid) { get; set; } |  |
+| [FolderId](../../aspose.email.clients.exchange.webservice.schema_2016/folderrefinertype/folderid) { get; set; } |  |
+| [Refiner](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/refiner) { get; set; } |  |
+| [RefinerType](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/refinertype) { get; set; } |  |
+| [ResultCount](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/resultcount) { get; set; } |  |
+| [ResultCountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/resultcountspecified) { get; set; } |  |
 
 ### See Also
 

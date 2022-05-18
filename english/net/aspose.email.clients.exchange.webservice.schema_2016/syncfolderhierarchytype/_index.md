@@ -22,9 +22,9 @@ public class SyncFolderHierarchyType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [FolderShape](foldershape) { get; set; } |  |
-| [SyncFolderId](syncfolderid) { get; set; } |  |
-| [SyncState](syncstate) { get; set; } |  |
+| [FolderShape](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchytype/foldershape) { get; set; } |  |
+| [SyncFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchytype/syncfolderid) { get; set; } |  |
+| [SyncState](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchytype/syncstate) { get; set; } |  |
 
 ### See Also
 

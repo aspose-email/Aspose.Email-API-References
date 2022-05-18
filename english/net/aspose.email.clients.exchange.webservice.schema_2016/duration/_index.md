@@ -22,8 +22,8 @@ public class Duration
 
 | Name | Description |
 | --- | --- |
-| [EndTime](endtime) { get; set; } |  |
-| [StartTime](starttime) { get; set; } |  |
+| [EndTime](../../aspose.email.clients.exchange.webservice.schema_2016/duration/endtime) { get; set; } |  |
+| [StartTime](../../aspose.email.clients.exchange.webservice.schema_2016/duration/starttime) { get; set; } |  |
 
 ### See Also
 

@@ -24,9 +24,9 @@ public sealed class ExchangeStreamedItem
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Gets or sets the item data |
-| [DataEncoding](dataencoding) { get; set; } | Gets or sets the data encoding. |
-| [ItemId](itemid) { get; set; } | Gets or sets the item identifier |
+| [Data](../../aspose.email.clients.exchange.webservice/exchangestreameditem/data) { get; set; } | Gets or sets the item data |
+| [DataEncoding](../../aspose.email.clients.exchange.webservice/exchangestreameditem/dataencoding) { get; set; } | Gets or sets the data encoding. |
+| [ItemId](../../aspose.email.clients.exchange.webservice/exchangestreameditem/itemid) { get; set; } | Gets or sets the item identifier |
 
 ### See Also
 

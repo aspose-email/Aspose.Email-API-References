@@ -29,7 +29,17 @@ public class SmtpFailedRecipientException : SmtpException
 
 | Name | Description |
 | --- | --- |
-| [FailedRecipient](failedrecipient) { get; } | Failed recipient |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Gets extra information aboout error |
+| [FailedRecipient](../../aspose.email.clients.smtp/smtpfailedrecipientexception/failedrecipient) { get; } | Failed recipient |
+| override [Message](../../aspose.email/asposeexception/message) { get; } | Gets a message that describes the current exception. |
+| [OperationDetails](../../aspose.email/smtpexception/operationdetails) { get; } | Gets extra information aboout error |
+| [StatusCode](../../aspose.email/smtpexception/statuscode) { get; set; } | Smtp status code |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email/asposeexception/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

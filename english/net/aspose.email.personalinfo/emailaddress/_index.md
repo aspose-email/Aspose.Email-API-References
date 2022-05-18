@@ -26,23 +26,32 @@ public class EmailAddress : MailAddress, IComparable<EmailAddress>, IEquatable<E
 
 | Name | Description |
 | --- | --- |
-| [Category](category) { get; set; } | Gets or sets an object category |
-| [Prefered](prefered) { get; set; } | Gets or sets a value which defines whether email address is preferred. |
-| [RoutingType](routingtype) { get; set; } | Gets or sets a routing type for an email |
+| [Address](../../aspose.email/mailaddress/address) { get; set; } | Gets or sets the e-mail address. |
+| [Category](../../aspose.email.personalinfo/emailaddress/category) { get; set; } | Gets or sets an object category |
+| [Count](../../aspose.email/mailaddress/count) { get; } | Contains count of mail addresses. |
+| [DisplayName](../../aspose.email/mailaddress/displayname) { get; set; } | Gets or sets a display name. |
+| [Host](../../aspose.email/mailaddress/host) { get; } | Gets the host portion of the address. |
+| [Id](../../aspose.email/mailaddress/id) { get; } | Gets object identification information |
+| [Item](../../aspose.email/mailaddress/item) { get; } | Gets the element at the specified index. |
+| [OriginalAddressString](../../aspose.email/mailaddress/originaladdressstring) { get; } | Gets or sets the original e-mail address string. |
+| [ParticipationStatus](../../aspose.email/mailaddress/participationstatus) { get; set; } | Gets or sets the participation status for the calendar user. |
+| [Prefered](../../aspose.email.personalinfo/emailaddress/prefered) { get; set; } | Gets or sets a value which defines whether email address is preferred. |
+| [RoutingType](../../aspose.email.personalinfo/emailaddress/routingtype) { get; set; } | Gets or sets a routing type for an email |
+| [User](../../aspose.email/mailaddress/user) { get; } | Gets the username. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [CompareTo](compareto)(EmailAddress) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
-| [Equals](equals)(EmailAddress) | Determines whether the specified Object is equal to the current Object. |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| [Equals](equals)(EmailAddress, EmailAddress) | Determines whether the specified object instances are considered equal. |
-| override [GetHashCode](gethashcode)() | GetHashCode returns a hash function for this object. |
-| [GetHashCode](gethashcode)(EmailAddress) | GetHashCode returns a hash function for specified object. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [operator ==](op_equality) | Determines whether the specified objects are equal. |
-| [operator !=](op_inequality) | Determines whether the specified objects are not equal. |
+| virtual [CompareTo](../../aspose.email.personalinfo/emailaddress/compareto)(EmailAddress) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
+| [Equals](../../aspose.email.personalinfo/emailaddress/equals)(EmailAddress) | Determines whether the specified Object is equal to the current Object. |
+| override [Equals](../../aspose.email.personalinfo/emailaddress/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| [Equals](../../aspose.email.personalinfo/emailaddress/equals)(EmailAddress, EmailAddress) | Determines whether the specified object instances are considered equal. |
+| override [GetHashCode](../../aspose.email.personalinfo/emailaddress/gethashcode)() | GetHashCode returns a hash function for this object. |
+| [GetHashCode](../../aspose.email.personalinfo/emailaddress/gethashcode)(EmailAddress) | GetHashCode returns a hash function for specified object. |
+| override [ToString](../../aspose.email.personalinfo/emailaddress/tostring)() | Returns a string that represents the current object. |
+| [operator ==](../../aspose.email.personalinfo/emailaddress/op_equality) | Determines whether the specified objects are equal. |
+| [operator !=](../../aspose.email.personalinfo/emailaddress/op_inequality) | Determines whether the specified objects are not equal. |
 
 ### See Also
 

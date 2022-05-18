@@ -24,7 +24,7 @@ public class ProvisionPolicyData
 
 | Name | Description |
 | --- | --- |
-| [EASProvisionDoc](easprovisiondoc) { get; set; } | Specifies the collection of security settings for device provisioning. |
+| [EASProvisionDoc](../../aspose.email.clients.activesync.transportlayer/provisionpolicydata/easprovisiondoc) { get; set; } | Specifies the collection of security settings for device provisioning. |
 
 ### See Also
 

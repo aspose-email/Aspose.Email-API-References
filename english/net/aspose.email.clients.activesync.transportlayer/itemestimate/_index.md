@@ -25,15 +25,15 @@ public class ItemEstimate
 
 | Name | Description |
 | --- | --- |
-| [CollectionId](collectionid) { get; } | Specifies the server ID of the collection from which the item estimate is being obtained. |
-| [Estimate](estimate) { get; } | Specifies the estimated number of items in the collection or folder that have to be synchronized. |
-| [Status](status) { get; } | Indicates the result of an operation. |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemestimate/collectionid) { get; } | Specifies the server ID of the collection from which the item estimate is being obtained. |
+| [Estimate](../../aspose.email.clients.activesync.transportlayer/itemestimate/estimate) { get; } | Specifies the estimated number of items in the collection or folder that have to be synchronized. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/itemestimate/status) { get; } | Indicates the result of an operation. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email.clients.activesync.transportlayer/itemestimate/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

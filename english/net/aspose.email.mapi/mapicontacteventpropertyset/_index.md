@@ -25,8 +25,8 @@ public sealed class MapiContactEventPropertySet
 
 | Name | Description |
 | --- | --- |
-| [Birthday](birthday) { get; set; } | Specifies the birthday of the contact |
-| [WeddingAnniversary](weddinganniversary) { get; set; } | Specifies the wedding anniversary of the contact |
+| [Birthday](../../aspose.email.mapi/mapicontacteventpropertyset/birthday) { get; set; } | Specifies the birthday of the contact |
+| [WeddingAnniversary](../../aspose.email.mapi/mapicontacteventpropertyset/weddinganniversary) { get; set; } | Specifies the wedding anniversary of the contact |
 
 ### See Also
 

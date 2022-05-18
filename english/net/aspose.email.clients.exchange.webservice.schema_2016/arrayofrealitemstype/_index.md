@@ -22,7 +22,7 @@ public class ArrayOfRealItemsType
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofrealitemstype/items) { get; set; } |  |
 
 ### See Also
 

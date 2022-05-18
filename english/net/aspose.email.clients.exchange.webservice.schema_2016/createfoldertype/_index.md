@@ -22,8 +22,8 @@ public class CreateFolderType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Folders](folders) { get; set; } |  |
-| [ParentFolderId](parentfolderid) { get; set; } |  |
+| [Folders](../../aspose.email.clients.exchange.webservice.schema_2016/createfoldertype/folders) { get; set; } |  |
+| [ParentFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/createfoldertype/parentfolderid) { get; set; } |  |
 
 ### See Also
 

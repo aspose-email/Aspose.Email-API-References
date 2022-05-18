@@ -22,8 +22,8 @@ public class UpdateMeetingSpaceType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ItemId](itemid) { get; set; } |  |
-| [MeetingSpace](meetingspace) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/updatemeetingspacetype/itemid) { get; set; } |  |
+| [MeetingSpace](../../aspose.email.clients.exchange.webservice.schema_2016/updatemeetingspacetype/meetingspace) { get; set; } |  |
 
 ### See Also
 

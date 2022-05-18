@@ -24,11 +24,11 @@ public class SettingsRequest
 
 | Name | Description |
 | --- | --- |
-| [DeviceInformation](deviceinformation) { get; set; } | Request that is used for sending the client device's properties to the server. |
-| [DevicePassword](devicepassword) { get; set; } | Specifies the request to set recovery password of the client device by the server. To clear an existing recovery password, the client MUST send an empty Password. |
-| [GetRightsManagementInformation](getrightsmanagementinformation) { get; set; } | Requests a rights management information from the server. |
-| [GetUserInformation](getuserinformation) { get; set; } | Requests a list of a user's email addresses from the server. |
-| [Oof](oof) { get; set; } | Specifies a request for retrieving and setting Out of Office (OOF) information. |
+| [DeviceInformation](../../aspose.email.clients.activesync.transportlayer/settingsrequest/deviceinformation) { get; set; } | Request that is used for sending the client device's properties to the server. |
+| [DevicePassword](../../aspose.email.clients.activesync.transportlayer/settingsrequest/devicepassword) { get; set; } | Specifies the request to set recovery password of the client device by the server. To clear an existing recovery password, the client MUST send an empty Password. |
+| [GetRightsManagementInformation](../../aspose.email.clients.activesync.transportlayer/settingsrequest/getrightsmanagementinformation) { get; set; } | Requests a rights management information from the server. |
+| [GetUserInformation](../../aspose.email.clients.activesync.transportlayer/settingsrequest/getuserinformation) { get; set; } | Requests a list of a user's email addresses from the server. |
+| [Oof](../../aspose.email.clients.activesync.transportlayer/settingsrequest/oof) { get; set; } | Specifies a request for retrieving and setting Out of Office (OOF) information. |
 
 ### See Also
 

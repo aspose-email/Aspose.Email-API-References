@@ -22,10 +22,17 @@ public class GetMessageTrackingReportResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [Diagnostics](diagnostics) { get; set; } |  |
-| [Errors](errors) { get; set; } |  |
-| [MessageTrackingReport](messagetrackingreport) { get; set; } |  |
-| [Properties](properties) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [Diagnostics](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportresponsemessagetype/diagnostics) { get; set; } |  |
+| [Errors](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportresponsemessagetype/errors) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageTrackingReport](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportresponsemessagetype/messagetrackingreport) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [Properties](../../aspose.email.clients.exchange.webservice.schema_2016/getmessagetrackingreportresponsemessagetype/properties) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
 
 ### See Also
 

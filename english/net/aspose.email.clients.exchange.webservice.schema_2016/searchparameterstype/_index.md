@@ -22,10 +22,10 @@ public class SearchParametersType
 
 | Name | Description |
 | --- | --- |
-| [BaseFolderIds](basefolderids) { get; set; } |  |
-| [Restriction](restriction) { get; set; } |  |
-| [Traversal](traversal) { get; set; } |  |
-| [TraversalSpecified](traversalspecified) { get; set; } |  |
+| [BaseFolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/searchparameterstype/basefolderids) { get; set; } |  |
+| [Restriction](../../aspose.email.clients.exchange.webservice.schema_2016/searchparameterstype/restriction) { get; set; } |  |
+| [Traversal](../../aspose.email.clients.exchange.webservice.schema_2016/searchparameterstype/traversal) { get; set; } |  |
+| [TraversalSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchparameterstype/traversalspecified) { get; set; } |  |
 
 ### See Also
 

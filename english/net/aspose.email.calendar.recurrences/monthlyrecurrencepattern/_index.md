@@ -26,9 +26,19 @@ public class MonthlyRecurrencePattern : RecurrencePattern
 
 | Name | Description |
 | --- | --- |
-| [StartDay](startday) { get; set; } | Gets or sets the start day. |
-| [StartOffset](startoffset) { get; set; } | Gets or sets the start offset. |
-| [StartPosition](startposition) { get; set; } | Gets or sets the start position. |
+| [EndDate](../../aspose.email.calendar.recurrences/recurrencepattern/enddate) { get; set; } | Gets or sets the end date. |
+| [Interval](../../aspose.email.calendar.recurrences/recurrencepattern/interval) { get; set; } | Gets or sets the number of recurrence units. |
+| [Occurs](../../aspose.email.calendar.recurrences/recurrencepattern/occurs) { get; set; } | Gets or sets the number of occurrences of the recurrence pattern. |
+| [StartDay](../../aspose.email.calendar.recurrences/monthlyrecurrencepattern/startday) { get; set; } | Gets or sets the start day. |
+| [StartOffset](../../aspose.email.calendar.recurrences/monthlyrecurrencepattern/startoffset) { get; set; } | Gets or sets the start offset. |
+| [StartPosition](../../aspose.email.calendar.recurrences/monthlyrecurrencepattern/startposition) { get; set; } | Gets or sets the start position. |
+| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Gets or sets the week start. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email.calendar.recurrences/recurrencepattern/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

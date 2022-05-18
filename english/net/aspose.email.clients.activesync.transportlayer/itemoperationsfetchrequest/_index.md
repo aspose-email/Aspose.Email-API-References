@@ -24,14 +24,14 @@ public class ItemOperationsFetchRequest
 
 | Name | Description |
 | --- | --- |
-| [CollectionId](collectionid) { get; set; } | Identifies the folder that was fetched. |
-| [FileReference](filereference) { get; set; } | Specifies a unique identifier that is assigned by the server to each attachment. In an ItemOperations request, only one FileReference identifier can exist per Fetch. Violation of this constraint results in a Status element value of 2 being returned from the server. The client can, however, retrieve multiple attachments by using one Fetch node per attachment. |
-| [LinkId](linkid) { get; set; } | Specifies a Uniform Resource Identifier (URI) that is assigned by the server to certain resources, such as Windows SharePoint Services or UNC documents. LinkId can be used to refer to the location of an item. |
-| [LongId](longid) { get; set; } | Specifies a unique identifier that was assigned by the server to each result returned by a previous Search response. The LongId value can be up to 256 characters in length. |
-| [Options](options) { get; set; } | Contains the options for the ItemOperations.Fetch operation. |
-| [RemoveRightsManagementProtection](removerightsmanagementprotection) { get; set; } | If present or true, it indicates that the client is removing the IRM protection from the e-mail. IRM protection can only be removed from e-mail messages when the ExportAllowed element is set to TRUE. |
-| [ServerId](serverid) { get; set; } | Specifies a unique identifier that is assigned by the server to each object that have an item operation applied to it. |
-| [Store](store) { get; set; } | Specifies the name of the store to which the parent operation applies. The following values are valid for the Store element: - Document Library (Microsoft SharePoint Server and UNC links) - Mailbox (items and attachments) |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/collectionid) { get; set; } | Identifies the folder that was fetched. |
+| [FileReference](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/filereference) { get; set; } | Specifies a unique identifier that is assigned by the server to each attachment. In an ItemOperations request, only one FileReference identifier can exist per Fetch. Violation of this constraint results in a Status element value of 2 being returned from the server. The client can, however, retrieve multiple attachments by using one Fetch node per attachment. |
+| [LinkId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/linkid) { get; set; } | Specifies a Uniform Resource Identifier (URI) that is assigned by the server to certain resources, such as Windows SharePoint Services or UNC documents. LinkId can be used to refer to the location of an item. |
+| [LongId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/longid) { get; set; } | Specifies a unique identifier that was assigned by the server to each result returned by a previous Search response. The LongId value can be up to 256 characters in length. |
+| [Options](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/options) { get; set; } | Contains the options for the ItemOperations.Fetch operation. |
+| [RemoveRightsManagementProtection](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/removerightsmanagementprotection) { get; set; } | If present or true, it indicates that the client is removing the IRM protection from the e-mail. IRM protection can only be removed from e-mail messages when the ExportAllowed element is set to TRUE. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/serverid) { get; set; } | Specifies a unique identifier that is assigned by the server to each object that have an item operation applied to it. |
+| [Store](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/store) { get; set; } | Specifies the name of the store to which the parent operation applies. The following values are valid for the Store element: - Document Library (Microsoft SharePoint Server and UNC links) - Mailbox (items and attachments) |
 
 ### See Also
 

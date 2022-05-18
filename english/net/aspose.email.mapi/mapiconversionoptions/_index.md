@@ -25,16 +25,16 @@ public class MapiConversionOptions
 
 | Name | Description |
 | --- | --- |
-| static [ASCIIFormat](asciiformat) { get; } | Returns MapiConversionOptions with OutlookMessageFormat is ASCII(PreserveSignature is False, UseBodyCompression is False). |
-| static [UnicodeFormat](unicodeformat) { get; } | Returns MapiConversionOptions with OutlookMessageFormat is Unicode(PreserveSignature is False, UseBodyCompression is False). |
-| [CustomProgressHandler](customprogresshandler) { get; set; } |  |
-| [ForcedRtfBodyForAppointment](forcedrtfbodyforappointment) { get; set; } | Gets or sets a value indicating whether it is necessary to use forced RTF body for an appointment. Default value is true. |
-| [Format](format) { get; set; } | Represents outlook message format. |
-| [PreserveEmbeddedMessageFormat](preserveembeddedmessageformat) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve conversion .eml attachment to .msg attachment. |
-| [PreserveOriginalAddresses](preserveoriginaladdresses) { get; set; } | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
-| [PreserveOriginalDates](preserveoriginaldates) { get; set; } | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message. |
-| [PreserveSignature](preservesignature) { get; set; } | Set to true, if signature is to be preserved. |
-| [UseBodyCompression](usebodycompression) { get; set; } | Set to true, if need RTF body compression. |
+| static [ASCIIFormat](../../aspose.email.mapi/mapiconversionoptions/asciiformat) { get; } | Returns MapiConversionOptions with OutlookMessageFormat is ASCII(PreserveSignature is False, UseBodyCompression is False). |
+| static [UnicodeFormat](../../aspose.email.mapi/mapiconversionoptions/unicodeformat) { get; } | Returns MapiConversionOptions with OutlookMessageFormat is Unicode(PreserveSignature is False, UseBodyCompression is False). |
+| [CustomProgressHandler](../../aspose.email.mapi/mapiconversionoptions/customprogresshandler) { get; set; } |  |
+| [ForcedRtfBodyForAppointment](../../aspose.email.mapi/mapiconversionoptions/forcedrtfbodyforappointment) { get; set; } | Gets or sets a value indicating whether it is necessary to use forced RTF body for an appointment. Default value is true. |
+| [Format](../../aspose.email.mapi/mapiconversionoptions/format) { get; set; } | Represents outlook message format. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mapiconversionoptions/preserveembeddedmessageformat) { get; set; } | Gets or sets a value indicating whether it is necessary to preserve conversion .eml attachment to .msg attachment. |
+| [PreserveOriginalAddresses](../../aspose.email.mapi/mapiconversionoptions/preserveoriginaladdresses) { get; set; } | Gets or sets a value indicating whether it is necessary to keep original value of mail addresses (without validation). |
+| [PreserveOriginalDates](../../aspose.email.mapi/mapiconversionoptions/preserveoriginaldates) { get; set; } | Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when converting a message. |
+| [PreserveSignature](../../aspose.email.mapi/mapiconversionoptions/preservesignature) { get; set; } | Set to true, if signature is to be preserved. |
+| [UseBodyCompression](../../aspose.email.mapi/mapiconversionoptions/usebodycompression) { get; set; } | Set to true, if need RTF body compression. |
 
 ### See Also
 

@@ -22,9 +22,10 @@ public class BaseObjectChangedEventType : BaseNotificationEventType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
-| [ParentFolderId](parentfolderid) { get; set; } |  |
-| [TimeStamp](timestamp) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/baseobjectchangedeventtype/item) { get; set; } |  |
+| [ParentFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/baseobjectchangedeventtype/parentfolderid) { get; set; } |  |
+| [TimeStamp](../../aspose.email.clients.exchange.webservice.schema_2016/baseobjectchangedeventtype/timestamp) { get; set; } |  |
+| [Watermark](../../aspose.email.clients.exchange.webservice.schema_2016/basenotificationeventtype/watermark) { get; set; } |  |
 
 ### See Also
 

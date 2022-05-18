@@ -25,15 +25,15 @@ public sealed class ImapFolderInfoCollection : Collection<ImapFolderInfo>
 
 | Name | Description |
 | --- | --- |
-| [SyncRoot](syncroot) { get; } | Gets an object that can be used to synchronize access to the collection. |
+| [SyncRoot](../../aspose.email.clients.imap/imapfolderinfocollection/syncroot) { get; } | Gets an object that can be used to synchronize access to the collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(ImapFolderInfo) | Adds the ImapFolderInfo to the ImapFolderInfoCollection. |
-| [AddRange](addrange)(IEnumerable&lt;ImapFolderInfo&gt;) | Adds the ImapFolderInfo to the ImapFolderInfoCollection. |
-| [RemoveAt](removeat)(int) | Remove a folder info at specified index. |
+| [Add](../../aspose.email.clients.imap/imapfolderinfocollection/add)(ImapFolderInfo) | Adds the ImapFolderInfo to the ImapFolderInfoCollection. |
+| [AddRange](../../aspose.email.clients.imap/imapfolderinfocollection/addrange)(IEnumerable&lt;ImapFolderInfo&gt;) | Adds the ImapFolderInfo to the ImapFolderInfoCollection. |
+| [RemoveAt](../../aspose.email.clients.imap/imapfolderinfocollection/removeat)(int) | Remove a folder info at specified index. |
 
 ### See Also
 

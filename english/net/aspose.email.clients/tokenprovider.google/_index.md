@@ -18,7 +18,7 @@ public static class Google
 
 | Name | Description |
 | --- | --- |
-| static [GetInstance](getinstance)(string, string, string) | Gets an instance of the TokenProvider for Google mail server |
+| static [GetInstance](../../aspose.email.clients/google/getinstance)(string, string, string) | Gets an instance of the TokenProvider for Google mail server |
 
 ### See Also
 

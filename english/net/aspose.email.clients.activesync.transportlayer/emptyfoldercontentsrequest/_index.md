@@ -24,8 +24,8 @@ public class EmptyFolderContentsRequest
 
 | Name | Description |
 | --- | --- |
-| [CollectionId](collectionid) { get; set; } | Specifies the folder to be emptied. |
-| [Options](options) { get; set; } | Contains the options for the ItemOperations.EmptyFolderContents operation |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/emptyfoldercontentsrequest/collectionid) { get; set; } | Specifies the folder to be emptied. |
+| [Options](../../aspose.email.clients.activesync.transportlayer/emptyfoldercontentsrequest/options) { get; set; } | Contains the options for the ItemOperations.EmptyFolderContents operation |
 
 ### See Also
 

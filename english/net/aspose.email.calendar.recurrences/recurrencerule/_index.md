@@ -24,22 +24,22 @@ public class RecurrenceRule
 
 | Name | Description |
 | --- | --- |
-| [ByDay](byday) { get; } | Gets the by day. |
-| [ByHour](byhour) { get; } | Gets the by hour. |
-| [ByMinute](byminute) { get; } | Gets the by minute. |
-| [ByMonth](bymonth) { get; } | Gets the by month. |
-| [ByMonthDay](bymonthday) { get; } | Gets the by month day. |
-| [BySecond](bysecond) { get; } | Gets the by second. |
-| [BySetPos](bysetpos) { get; } | Gets the by set pos. |
-| [ByWeekNo](byweekno) { get; } | Gets the by week no. |
-| [ByYearDay](byyearday) { get; } | Gets the by year day. |
-| [Count](count) { get; set; } | Gets or sets the count. |
-| [EndType](endtype) { get; set; } | Gets or sets the end type. |
-| [Frequency](frequency) { get; set; } | Gets or sets the type of the recurrence rule. |
-| [FriendlyText](friendlytext) { get; } | Gets user friendly text of rule. |
-| [Interval](interval) { get; set; } | Gets or sets the interval. |
-| [Until](until) { get; set; } | Gets or sets the until. |
-| [WeekStart](weekstart) { get; set; } | Gets or sets the starting day of the week. |
+| [ByDay](../../aspose.email.calendar.recurrences/recurrencerule/byday) { get; } | Gets the by day. |
+| [ByHour](../../aspose.email.calendar.recurrences/recurrencerule/byhour) { get; } | Gets the by hour. |
+| [ByMinute](../../aspose.email.calendar.recurrences/recurrencerule/byminute) { get; } | Gets the by minute. |
+| [ByMonth](../../aspose.email.calendar.recurrences/recurrencerule/bymonth) { get; } | Gets the by month. |
+| [ByMonthDay](../../aspose.email.calendar.recurrences/recurrencerule/bymonthday) { get; } | Gets the by month day. |
+| [BySecond](../../aspose.email.calendar.recurrences/recurrencerule/bysecond) { get; } | Gets the by second. |
+| [BySetPos](../../aspose.email.calendar.recurrences/recurrencerule/bysetpos) { get; } | Gets the by set pos. |
+| [ByWeekNo](../../aspose.email.calendar.recurrences/recurrencerule/byweekno) { get; } | Gets the by week no. |
+| [ByYearDay](../../aspose.email.calendar.recurrences/recurrencerule/byyearday) { get; } | Gets the by year day. |
+| [Count](../../aspose.email.calendar.recurrences/recurrencerule/count) { get; set; } | Gets or sets the count. |
+| [EndType](../../aspose.email.calendar.recurrences/recurrencerule/endtype) { get; set; } | Gets or sets the end type. |
+| [Frequency](../../aspose.email.calendar.recurrences/recurrencerule/frequency) { get; set; } | Gets or sets the type of the recurrence rule. |
+| [FriendlyText](../../aspose.email.calendar.recurrences/recurrencerule/friendlytext) { get; } | Gets user friendly text of rule. |
+| [Interval](../../aspose.email.calendar.recurrences/recurrencerule/interval) { get; set; } | Gets or sets the interval. |
+| [Until](../../aspose.email.calendar.recurrences/recurrencerule/until) { get; set; } | Gets or sets the until. |
+| [WeekStart](../../aspose.email.calendar.recurrences/recurrencerule/weekstart) { get; set; } | Gets or sets the starting day of the week. |
 
 ### Remarks
 

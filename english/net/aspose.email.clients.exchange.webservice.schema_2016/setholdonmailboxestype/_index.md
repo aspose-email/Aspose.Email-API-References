@@ -22,17 +22,17 @@ public class SetHoldOnMailboxesType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ActionType](actiontype) { get; set; } |  |
-| [Deduplication](deduplication) { get; set; } |  |
-| [DeduplicationSpecified](deduplicationspecified) { get; set; } |  |
-| [HoldId](holdid) { get; set; } |  |
-| [IncludeNonIndexableItems](includenonindexableitems) { get; set; } |  |
-| [IncludeNonIndexableItemsSpecified](includenonindexableitemsspecified) { get; set; } |  |
-| [InPlaceHoldIdentity](inplaceholdidentity) { get; set; } |  |
-| [ItemHoldPeriod](itemholdperiod) { get; set; } |  |
-| [Language](language) { get; set; } |  |
-| [Mailboxes](mailboxes) { get; set; } |  |
-| [Query](query) { get; set; } |  |
+| [ActionType](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/actiontype) { get; set; } |  |
+| [Deduplication](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/deduplication) { get; set; } |  |
+| [DeduplicationSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/deduplicationspecified) { get; set; } |  |
+| [HoldId](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/holdid) { get; set; } |  |
+| [IncludeNonIndexableItems](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/includenonindexableitems) { get; set; } |  |
+| [IncludeNonIndexableItemsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/includenonindexableitemsspecified) { get; set; } |  |
+| [InPlaceHoldIdentity](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/inplaceholdidentity) { get; set; } |  |
+| [ItemHoldPeriod](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/itemholdperiod) { get; set; } |  |
+| [Language](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/language) { get; set; } |  |
+| [Mailboxes](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/mailboxes) { get; set; } |  |
+| [Query](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxestype/query) { get; set; } |  |
 
 ### See Also
 

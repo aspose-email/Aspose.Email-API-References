@@ -22,13 +22,13 @@ public class SyncFolderItemsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Ignore](ignore) { get; set; } |  |
-| [ItemShape](itemshape) { get; set; } |  |
-| [MaxChangesReturned](maxchangesreturned) { get; set; } |  |
-| [SyncFolderId](syncfolderid) { get; set; } |  |
-| [SyncScope](syncscope) { get; set; } |  |
-| [SyncScopeSpecified](syncscopespecified) { get; set; } |  |
-| [SyncState](syncstate) { get; set; } |  |
+| [Ignore](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemstype/ignore) { get; set; } |  |
+| [ItemShape](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemstype/itemshape) { get; set; } |  |
+| [MaxChangesReturned](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemstype/maxchangesreturned) { get; set; } |  |
+| [SyncFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemstype/syncfolderid) { get; set; } |  |
+| [SyncScope](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemstype/syncscope) { get; set; } |  |
+| [SyncScopeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemstype/syncscopespecified) { get; set; } |  |
+| [SyncState](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemstype/syncstate) { get; set; } |  |
 
 ### See Also
 

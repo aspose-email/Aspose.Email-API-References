@@ -22,10 +22,10 @@ public class FindMeetingTimeCandidatesType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [AttendeeConstraints](attendeeconstraints) { get; set; } |  |
-| [Constraints](constraints) { get; set; } |  |
-| [LocationConstraints](locationconstraints) { get; set; } |  |
-| [SearchConstraints](searchconstraints) { get; set; } |  |
+| [AttendeeConstraints](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimecandidatestype/attendeeconstraints) { get; set; } |  |
+| [Constraints](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimecandidatestype/constraints) { get; set; } |  |
+| [LocationConstraints](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimecandidatestype/locationconstraints) { get; set; } |  |
+| [SearchConstraints](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimecandidatestype/searchconstraints) { get; set; } |  |
 
 ### See Also
 

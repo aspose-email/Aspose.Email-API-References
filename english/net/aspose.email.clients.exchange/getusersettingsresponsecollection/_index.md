@@ -15,6 +15,21 @@ public sealed class GetUserSettingsResponseCollection :
     AutodiscoverResponseCollection<GetUserSettingsResponse>
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Count](../../aspose.email.clients.exchange/autodiscoverresponsecollection`1/count) { get; } |  |
+| [ErrorCode](../../aspose.email.clients.exchange/autodiscoverresponse/errorcode) { get; } | Gets the error code that was returned by the service. |
+| [ErrorMessage](../../aspose.email.clients.exchange/autodiscoverresponse/errormessage) { get; } | Gets the error message that was returned by the service. |
+| [Item](../../aspose.email.clients.exchange/autodiscoverresponsecollection`1/item) { get; } |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetEnumerator](../../aspose.email.clients.exchange/autodiscoverresponsecollection`1/getenumerator)() |  |
+
 ### See Also
 
 * class [AutodiscoverResponseCollection&lt;TResponse&gt;](../autodiscoverresponsecollection-1)

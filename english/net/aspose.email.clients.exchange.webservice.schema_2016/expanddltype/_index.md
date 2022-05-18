@@ -22,7 +22,7 @@ public class ExpandDLType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Mailbox](mailbox) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/expanddltype/mailbox) { get; set; } |  |
 
 ### See Also
 

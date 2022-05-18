@@ -22,8 +22,8 @@ public class GetUserAvailabilityResponseType
 
 | Name | Description |
 | --- | --- |
-| [FreeBusyResponseArray](freebusyresponsearray) { get; set; } |  |
-| [SuggestionsResponse](suggestionsresponse) { get; set; } |  |
+| [FreeBusyResponseArray](../../aspose.email.clients.exchange.webservice.schema_2016/getuseravailabilityresponsetype/freebusyresponsearray) { get; set; } |  |
+| [SuggestionsResponse](../../aspose.email.clients.exchange.webservice.schema_2016/getuseravailabilityresponsetype/suggestionsresponse) { get; set; } |  |
 
 ### See Also
 

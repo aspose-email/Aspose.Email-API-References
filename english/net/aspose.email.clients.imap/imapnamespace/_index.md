@@ -18,15 +18,15 @@ public class ImapNamespace
 
 | Name | Description |
 | --- | --- |
-| [HierarchyDelimiter](hierarchydelimiter) { get; } | Gets hierarchy delimiter |
-| [NamespaceType](namespacetype) { get; } | Gets namespace type |
-| [Prefix](prefix) { get; } | Gets namespace prefix |
+| [HierarchyDelimiter](../../aspose.email.clients.imap/imapnamespace/hierarchydelimiter) { get; } | Gets hierarchy delimiter |
+| [NamespaceType](../../aspose.email.clients.imap/imapnamespace/namespacetype) { get; } | Gets namespace type |
+| [Prefix](../../aspose.email.clients.imap/imapnamespace/prefix) { get; } | Gets namespace prefix |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email.clients.imap/imapnamespace/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

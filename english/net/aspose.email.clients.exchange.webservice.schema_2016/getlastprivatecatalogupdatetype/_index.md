@@ -22,7 +22,7 @@ public class GetLastPrivateCatalogUpdateType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Client](client) { get; set; } |  |
+| [Client](../../aspose.email.clients.exchange.webservice.schema_2016/getlastprivatecatalogupdatetype/client) { get; set; } |  |
 
 ### See Also
 

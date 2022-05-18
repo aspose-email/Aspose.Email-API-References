@@ -22,8 +22,8 @@ public class ReportMessageType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ItemIds](itemids) { get; set; } |  |
-| [ReportAction](reportaction) { get; set; } |  |
+| [ItemIds](../../aspose.email.clients.exchange.webservice.schema_2016/reportmessagetype/itemids) { get; set; } |  |
+| [ReportAction](../../aspose.email.clients.exchange.webservice.schema_2016/reportmessagetype/reportaction) { get; set; } |  |
 
 ### See Also
 

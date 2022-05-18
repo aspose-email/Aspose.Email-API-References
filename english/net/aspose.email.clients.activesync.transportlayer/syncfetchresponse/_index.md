@@ -24,7 +24,9 @@ public class SyncFetchResponse : SyncOperationResponse
 
 | Name | Description |
 | --- | --- |
-| [ApplicationData](applicationdata) { get; } | ApplicationData contains data for a particular object, such as a contact, email message, calendar appointment, or task item. |
+| [ApplicationData](../../aspose.email.clients.activesync.transportlayer/syncfetchresponse/applicationdata) { get; } | ApplicationData contains data for a particular object, such as a contact, email message, calendar appointment, or task item. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/status) { get; set; } | Indicates the result of the operation. Used in server responses only. |
 
 ### See Also
 

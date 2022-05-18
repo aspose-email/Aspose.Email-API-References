@@ -22,12 +22,12 @@ public class CreateItemType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; set; } |  |
-| [MessageDisposition](messagedisposition) { get; set; } |  |
-| [MessageDispositionSpecified](messagedispositionspecified) { get; set; } |  |
-| [SavedItemFolderId](saveditemfolderid) { get; set; } |  |
-| [SendMeetingInvitations](sendmeetinginvitations) { get; set; } |  |
-| [SendMeetingInvitationsSpecified](sendmeetinginvitationsspecified) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/createitemtype/items) { get; set; } |  |
+| [MessageDisposition](../../aspose.email.clients.exchange.webservice.schema_2016/createitemtype/messagedisposition) { get; set; } |  |
+| [MessageDispositionSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/createitemtype/messagedispositionspecified) { get; set; } |  |
+| [SavedItemFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/createitemtype/saveditemfolderid) { get; set; } |  |
+| [SendMeetingInvitations](../../aspose.email.clients.exchange.webservice.schema_2016/createitemtype/sendmeetinginvitations) { get; set; } |  |
+| [SendMeetingInvitationsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/createitemtype/sendmeetinginvitationsspecified) { get; set; } |  |
 
 ### See Also
 

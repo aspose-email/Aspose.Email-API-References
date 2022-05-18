@@ -24,12 +24,12 @@ public class AccountInformation
 
 | Name | Description |
 | --- | --- |
-| [AccountId](accountid) { get; set; } | Identifies an account. The primary account, as identified by the PrimarySmtpAddress element, does not have an AccountId value. The AccountId is not supported when the protocol version is 12.1 or 14.0. |
-| [AccountName](accountname) { get; set; } | Specifies the friendly name for the given account. The AccountName value is a string value up to 512 characters in length. The AccountName is not supported when the protocol version is 12.1 or 14.0. |
-| [PrimarySmtpAddress](primarysmtpaddress) { get; set; } | Specifies the primary SMTP address for the given account. The value of the PrimarySmtpAddress can also be returned as a value for the SMTPAddress. The PrimarySmtpAddress is not supported when the protocol version is 12.1 or 14.0. |
-| [SendDisabled](senddisabled) { get; set; } | Specifies whether the client can send messages using the given account. The value of the SendDisabled is TRUE if the client cannot send using the given account; otherwise, FALSE. The SendDisabled is not supported when the protocol version is 12.1 or 14.0. |
-| [SMTPAddresses](smtpaddresses) { get; } | Specifies one of the user's email addresses. |
-| [UserDisplayName](userdisplayname) { get; set; } | Specifies the display name of the user associated with the given account. The UserDisplayName value can be up to 512 characters in length. The UserDisplayName is not supported when the protocol version is 12.1 or 14.0. |
+| [AccountId](../../aspose.email.clients.activesync.transportlayer/accountinformation/accountid) { get; set; } | Identifies an account. The primary account, as identified by the PrimarySmtpAddress element, does not have an AccountId value. The AccountId is not supported when the protocol version is 12.1 or 14.0. |
+| [AccountName](../../aspose.email.clients.activesync.transportlayer/accountinformation/accountname) { get; set; } | Specifies the friendly name for the given account. The AccountName value is a string value up to 512 characters in length. The AccountName is not supported when the protocol version is 12.1 or 14.0. |
+| [PrimarySmtpAddress](../../aspose.email.clients.activesync.transportlayer/accountinformation/primarysmtpaddress) { get; set; } | Specifies the primary SMTP address for the given account. The value of the PrimarySmtpAddress can also be returned as a value for the SMTPAddress. The PrimarySmtpAddress is not supported when the protocol version is 12.1 or 14.0. |
+| [SendDisabled](../../aspose.email.clients.activesync.transportlayer/accountinformation/senddisabled) { get; set; } | Specifies whether the client can send messages using the given account. The value of the SendDisabled is TRUE if the client cannot send using the given account; otherwise, FALSE. The SendDisabled is not supported when the protocol version is 12.1 or 14.0. |
+| [SMTPAddresses](../../aspose.email.clients.activesync.transportlayer/accountinformation/smtpaddresses) { get; } | Specifies one of the user's email addresses. |
+| [UserDisplayName](../../aspose.email.clients.activesync.transportlayer/accountinformation/userdisplayname) { get; set; } | Specifies the display name of the user associated with the given account. The UserDisplayName value can be up to 512 characters in length. The UserDisplayName is not supported when the protocol version is 12.1 or 14.0. |
 
 ### See Also
 

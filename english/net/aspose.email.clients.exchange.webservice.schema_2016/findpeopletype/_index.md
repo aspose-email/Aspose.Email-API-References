@@ -22,18 +22,18 @@ public class FindPeopleType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [AggregationRestriction](aggregationrestriction) { get; set; } |  |
-| [Context](context) { get; set; } |  |
-| [IndexedPageItemView](indexedpageitemview) { get; set; } |  |
-| [ParentFolderId](parentfolderid) { get; set; } |  |
-| [PersonaShape](personashape) { get; set; } |  |
-| [QuerySources](querysources) { get; set; } |  |
-| [QueryString](querystring) { get; set; } |  |
-| [Restriction](restriction) { get; set; } |  |
-| [SearchPeopleSuggestionIndex](searchpeoplesuggestionindex) { get; set; } |  |
-| [SearchPeopleSuggestionIndexSpecified](searchpeoplesuggestionindexspecified) { get; set; } |  |
-| [SortOrder](sortorder) { get; set; } |  |
-| [TopicQueryString](topicquerystring) { get; set; } |  |
+| [AggregationRestriction](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/aggregationrestriction) { get; set; } |  |
+| [Context](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/context) { get; set; } |  |
+| [IndexedPageItemView](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/indexedpageitemview) { get; set; } |  |
+| [ParentFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/parentfolderid) { get; set; } |  |
+| [PersonaShape](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/personashape) { get; set; } |  |
+| [QuerySources](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/querysources) { get; set; } |  |
+| [QueryString](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/querystring) { get; set; } |  |
+| [Restriction](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/restriction) { get; set; } |  |
+| [SearchPeopleSuggestionIndex](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/searchpeoplesuggestionindex) { get; set; } |  |
+| [SearchPeopleSuggestionIndexSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/searchpeoplesuggestionindexspecified) { get; set; } |  |
+| [SortOrder](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/sortorder) { get; set; } |  |
+| [TopicQueryString](../../aspose.email.clients.exchange.webservice.schema_2016/findpeopletype/topicquerystring) { get; set; } |  |
 
 ### See Also
 

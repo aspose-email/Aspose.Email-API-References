@@ -22,9 +22,9 @@ public class MarkAllItemsAsReadType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [FolderIds](folderids) { get; set; } |  |
-| [ReadFlag](readflag) { get; set; } |  |
-| [SuppressReadReceipts](suppressreadreceipts) { get; set; } |  |
+| [FolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/markallitemsasreadtype/folderids) { get; set; } |  |
+| [ReadFlag](../../aspose.email.clients.exchange.webservice.schema_2016/markallitemsasreadtype/readflag) { get; set; } |  |
+| [SuppressReadReceipts](../../aspose.email.clients.exchange.webservice.schema_2016/markallitemsasreadtype/suppressreadreceipts) { get; set; } |  |
 
 ### See Also
 

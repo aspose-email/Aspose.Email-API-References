@@ -22,7 +22,7 @@ public class LikesPreviewType
 
 | Name | Description |
 | --- | --- |
-| [LikeCount](likecount) { get; set; } |  |
+| [LikeCount](../../aspose.email.clients.exchange.webservice.schema_2016/likespreviewtype/likecount) { get; set; } |  |
 
 ### See Also
 

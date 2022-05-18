@@ -22,7 +22,8 @@ public class SetFolderFieldType : FolderChangeDescriptionType
 
 | Name | Description |
 | --- | --- |
-| [Item1](item1) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/changedescriptiontype/item) { get; set; } |  |
+| [Item1](../../aspose.email.clients.exchange.webservice.schema_2016/setfolderfieldtype/item1) { get; set; } |  |
 
 ### See Also
 

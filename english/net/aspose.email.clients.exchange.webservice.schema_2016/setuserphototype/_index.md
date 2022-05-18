@@ -22,10 +22,10 @@ public class SetUserPhotoType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Content](content) { get; set; } |  |
-| [Email](email) { get; set; } |  |
-| [TypeRequested](typerequested) { get; set; } |  |
-| [TypeRequestedSpecified](typerequestedspecified) { get; set; } |  |
+| [Content](../../aspose.email.clients.exchange.webservice.schema_2016/setuserphototype/content) { get; set; } |  |
+| [Email](../../aspose.email.clients.exchange.webservice.schema_2016/setuserphototype/email) { get; set; } |  |
+| [TypeRequested](../../aspose.email.clients.exchange.webservice.schema_2016/setuserphototype/typerequested) { get; set; } |  |
+| [TypeRequestedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/setuserphototype/typerequestedspecified) { get; set; } |  |
 
 ### See Also
 

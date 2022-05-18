@@ -16,7 +16,7 @@ public class CopyFolderCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/copyfoldercompletedeventargs/result) { get; } |  |
 
 ### See Also
 

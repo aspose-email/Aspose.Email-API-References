@@ -24,13 +24,13 @@ public class SyncCollectionResponse
 
 | Name | Description |
 | --- | --- |
-| [Class](class) { get; set; } | Identifies the class of the item being added to the collection. Uses when the protocol version is 12.1 only. |
-| [CollectionId](collectionid) { get; set; } | Specifies the server ID of the folder to be synchronized. |
-| [Commands](commands) { get; set; } | Contains operations that apply to a collection. Available operations are Add, Delete, Change, SoftDelete. |
-| [MoreAvailable](moreavailable) { get; set; } | Indicates there are more changes than the number that are requested in the WindowSize element. In Exchange 2007, the server sends Sync response messages containing the MoreAvailable and between zero (0) and WindowSize schema changes when it encounters elements external to the protocol. |
-| [Responses](responses) { get; set; } | Contains responses to operations such as Add, Fetch, Change that are processed by the server. |
-| [Status](status) { get; set; } | Indicates the status of the command operation |
-| [SyncKey](synckey) { get; set; } | SyncKey value is used by the server to mark the synchronization state of a collection. A synchronization key of value 0 (zero) initializes the synchronization state on the server and causes a full synchronization of the collection. |
+| [Class](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/class) { get; set; } | Identifies the class of the item being added to the collection. Uses when the protocol version is 12.1 only. |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/collectionid) { get; set; } | Specifies the server ID of the folder to be synchronized. |
+| [Commands](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/commands) { get; set; } | Contains operations that apply to a collection. Available operations are Add, Delete, Change, SoftDelete. |
+| [MoreAvailable](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/moreavailable) { get; set; } | Indicates there are more changes than the number that are requested in the WindowSize element. In Exchange 2007, the server sends Sync response messages containing the MoreAvailable and between zero (0) and WindowSize schema changes when it encounters elements external to the protocol. |
+| [Responses](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/responses) { get; set; } | Contains responses to operations such as Add, Fetch, Change that are processed by the server. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/status) { get; set; } | Indicates the status of the command operation |
+| [SyncKey](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/synckey) { get; set; } | SyncKey value is used by the server to mark the synchronization state of a collection. A synchronization key of value 0 (zero) initializes the synchronization state on the server and causes a full synchronization of the collection. |
 
 ### See Also
 

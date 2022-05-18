@@ -18,8 +18,8 @@ public sealed class ContactQueryBuilder
 
 | Name | Description |
 | --- | --- |
-| [CreationTime](creationtime) { get; } | Gets the field that allows to find items with a specified CreationTime. |
-| [DisplayName](displayname) { get; } | Gets the field that allows to find Contact that contain the specified string in the DisplayName field. |
+| [CreationTime](../../aspose.email.clients.exchange/contactquerybuilder/creationtime) { get; } | Gets the field that allows to find items with a specified CreationTime. |
+| [DisplayName](../../aspose.email.clients.exchange/contactquerybuilder/displayname) { get; } | Gets the field that allows to find Contact that contain the specified string in the DisplayName field. |
 
 ### See Also
 

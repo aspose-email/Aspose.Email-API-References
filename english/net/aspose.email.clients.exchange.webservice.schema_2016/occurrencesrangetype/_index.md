@@ -22,14 +22,14 @@ public class OccurrencesRangeType
 
 | Name | Description |
 | --- | --- |
-| [CompareOriginalStartTime](compareoriginalstarttime) { get; set; } |  |
-| [CompareOriginalStartTimeSpecified](compareoriginalstarttimespecified) { get; set; } |  |
-| [Count](count) { get; set; } |  |
-| [CountSpecified](countspecified) { get; set; } |  |
-| [End](end) { get; set; } |  |
-| [EndSpecified](endspecified) { get; set; } |  |
-| [Start](start) { get; set; } |  |
-| [StartSpecified](startspecified) { get; set; } |  |
+| [CompareOriginalStartTime](../../aspose.email.clients.exchange.webservice.schema_2016/occurrencesrangetype/compareoriginalstarttime) { get; set; } |  |
+| [CompareOriginalStartTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/occurrencesrangetype/compareoriginalstarttimespecified) { get; set; } |  |
+| [Count](../../aspose.email.clients.exchange.webservice.schema_2016/occurrencesrangetype/count) { get; set; } |  |
+| [CountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/occurrencesrangetype/countspecified) { get; set; } |  |
+| [End](../../aspose.email.clients.exchange.webservice.schema_2016/occurrencesrangetype/end) { get; set; } |  |
+| [EndSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/occurrencesrangetype/endspecified) { get; set; } |  |
+| [Start](../../aspose.email.clients.exchange.webservice.schema_2016/occurrencesrangetype/start) { get; set; } |  |
+| [StartSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/occurrencesrangetype/startspecified) { get; set; } |  |
 
 ### See Also
 

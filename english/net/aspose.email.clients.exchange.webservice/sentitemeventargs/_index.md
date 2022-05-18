@@ -18,7 +18,7 @@ public class SentItemEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [SentFolderItemId](sentfolderitemid) { get; } | Gets the string that represents the ItemId of the sent item. |
+| [SentFolderItemId](../../aspose.email.clients.exchange.webservice/sentitemeventargs/sentfolderitemid) { get; } | Gets the string that represents the ItemId of the sent item. |
 
 ### See Also
 

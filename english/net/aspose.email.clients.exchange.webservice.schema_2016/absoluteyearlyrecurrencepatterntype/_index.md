@@ -22,8 +22,8 @@ public class AbsoluteYearlyRecurrencePatternType : RecurrencePatternBaseType
 
 | Name | Description |
 | --- | --- |
-| [DayOfMonth](dayofmonth) { get; set; } |  |
-| [Month](month) { get; set; } |  |
+| [DayOfMonth](../../aspose.email.clients.exchange.webservice.schema_2016/absoluteyearlyrecurrencepatterntype/dayofmonth) { get; set; } |  |
+| [Month](../../aspose.email.clients.exchange.webservice.schema_2016/absoluteyearlyrecurrencepatterntype/month) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class ExcludesType : SearchExpressionType
 
 | Name | Description |
 | --- | --- |
-| [Bitmask](bitmask) { get; set; } |  |
-| [Item](item) { get; set; } |  |
+| [Bitmask](../../aspose.email.clients.exchange.webservice.schema_2016/excludestype/bitmask) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/excludestype/item) { get; set; } |  |
 
 ### See Also
 

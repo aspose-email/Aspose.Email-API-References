@@ -16,7 +16,7 @@ public class AddNewImContactToGroupCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/addnewimcontacttogroupcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

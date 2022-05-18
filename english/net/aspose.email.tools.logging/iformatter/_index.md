@@ -18,16 +18,16 @@ public interface IFormatter
 
 | Name | Description |
 | --- | --- |
-| [Footer](footer) { get; } | Gest the footer string. |
-| [Header](header) { get; } | Gets the header string. |
-| [LogHeader](logheader) { get; } | Represents start log header |
+| [Footer](../../aspose.email.tools.logging/iformatter/footer) { get; } | Gest the footer string. |
+| [Header](../../aspose.email.tools.logging/iformatter/header) { get; } | Gets the header string. |
+| [LogHeader](../../aspose.email.tools.logging/iformatter/logheader) { get; } | Represents start log header |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Format](format)(DateTime) | Formats a datetime and return a string to be outputted. |
-| [Format](format)(LogEntry) | Formats a log entry and return a string to be outputted. |
+| [Format](../../aspose.email.tools.logging/iformatter/format)(DateTime) | Formats a datetime and return a string to be outputted. |
+| [Format](../../aspose.email.tools.logging/iformatter/format)(LogEntry) | Formats a log entry and return a string to be outputted. |
 
 ### See Also
 

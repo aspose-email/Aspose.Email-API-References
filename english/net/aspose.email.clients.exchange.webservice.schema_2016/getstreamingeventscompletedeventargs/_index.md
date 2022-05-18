@@ -16,7 +16,7 @@ public class GetStreamingEventsCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getstreamingeventscompletedeventargs/result) { get; } |  |
 
 ### See Also
 

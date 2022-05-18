@@ -18,10 +18,10 @@ public class ImapQuota
 
 | Name | Description |
 | --- | --- |
-| [Limit](limit) { get; } | Gets limit for resource |
-| [QuotaRootName](quotarootname) { get; } | Gets qupta root name |
-| [ResourceName](resourcename) { get; } | Gets resource name |
-| [Used](used) { get; } | Gets usage of resource |
+| [Limit](../../aspose.email.clients.imap/imapquota/limit) { get; } | Gets limit for resource |
+| [QuotaRootName](../../aspose.email.clients.imap/imapquota/quotarootname) { get; } | Gets qupta root name |
+| [ResourceName](../../aspose.email.clients.imap/imapquota/resourcename) { get; } | Gets resource name |
+| [Used](../../aspose.email.clients.imap/imapquota/used) { get; } | Gets usage of resource |
 
 ### See Also
 

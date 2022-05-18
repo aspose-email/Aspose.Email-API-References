@@ -22,8 +22,8 @@ public class SyncFolderHierarchyChangesType
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; set; } |  |
-| [ItemsElementName](itemselementname) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchychangestype/items) { get; set; } |  |
+| [ItemsElementName](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderhierarchychangestype/itemselementname) { get; set; } |  |
 
 ### See Also
 

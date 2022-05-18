@@ -22,7 +22,11 @@ public class HashtagRefinerType : SearchRefinerType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/hashtagrefinertype/displayname) { get; set; } |  |
+| [Refiner](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/refiner) { get; set; } |  |
+| [RefinerType](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/refinertype) { get; set; } |  |
+| [ResultCount](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/resultcount) { get; set; } |  |
+| [ResultCountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/resultcountspecified) { get; set; } |  |
 
 ### See Also
 

@@ -22,12 +22,12 @@ public class FlightEntityType
 
 | Name | Description |
 | --- | --- |
-| [AirlineIataCode](airlineiatacode) { get; set; } |  |
-| [ArrivalAirportIataCode](arrivalairportiatacode) { get; set; } |  |
-| [DepartureAirportIataCode](departureairportiatacode) { get; set; } |  |
-| [DepartureTime](departuretime) { get; set; } |  |
-| [FlightNumber](flightnumber) { get; set; } |  |
-| [WindowsTimeZoneName](windowstimezonename) { get; set; } |  |
+| [AirlineIataCode](../../aspose.email.clients.exchange.webservice.schema_2016/flightentitytype/airlineiatacode) { get; set; } |  |
+| [ArrivalAirportIataCode](../../aspose.email.clients.exchange.webservice.schema_2016/flightentitytype/arrivalairportiatacode) { get; set; } |  |
+| [DepartureAirportIataCode](../../aspose.email.clients.exchange.webservice.schema_2016/flightentitytype/departureairportiatacode) { get; set; } |  |
+| [DepartureTime](../../aspose.email.clients.exchange.webservice.schema_2016/flightentitytype/departuretime) { get; set; } |  |
+| [FlightNumber](../../aspose.email.clients.exchange.webservice.schema_2016/flightentitytype/flightnumber) { get; set; } |  |
+| [WindowsTimeZoneName](../../aspose.email.clients.exchange.webservice.schema_2016/flightentitytype/windowstimezonename) { get; set; } |  |
 
 ### See Also
 

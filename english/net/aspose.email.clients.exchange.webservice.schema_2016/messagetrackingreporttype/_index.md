@@ -22,14 +22,14 @@ public class MessageTrackingReportType
 
 | Name | Description |
 | --- | --- |
-| [OriginalRecipients](originalrecipients) { get; set; } |  |
-| [Properties](properties) { get; set; } |  |
-| [PurportedSender](purportedsender) { get; set; } |  |
-| [RecipientTrackingEvents](recipienttrackingevents) { get; set; } |  |
-| [Sender](sender) { get; set; } |  |
-| [Subject](subject) { get; set; } |  |
-| [SubmitTime](submittime) { get; set; } |  |
-| [SubmitTimeSpecified](submittimespecified) { get; set; } |  |
+| [OriginalRecipients](../../aspose.email.clients.exchange.webservice.schema_2016/messagetrackingreporttype/originalrecipients) { get; set; } |  |
+| [Properties](../../aspose.email.clients.exchange.webservice.schema_2016/messagetrackingreporttype/properties) { get; set; } |  |
+| [PurportedSender](../../aspose.email.clients.exchange.webservice.schema_2016/messagetrackingreporttype/purportedsender) { get; set; } |  |
+| [RecipientTrackingEvents](../../aspose.email.clients.exchange.webservice.schema_2016/messagetrackingreporttype/recipienttrackingevents) { get; set; } |  |
+| [Sender](../../aspose.email.clients.exchange.webservice.schema_2016/messagetrackingreporttype/sender) { get; set; } |  |
+| [Subject](../../aspose.email.clients.exchange.webservice.schema_2016/messagetrackingreporttype/subject) { get; set; } |  |
+| [SubmitTime](../../aspose.email.clients.exchange.webservice.schema_2016/messagetrackingreporttype/submittime) { get; set; } |  |
+| [SubmitTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/messagetrackingreporttype/submittimespecified) { get; set; } |  |
 
 ### See Also
 

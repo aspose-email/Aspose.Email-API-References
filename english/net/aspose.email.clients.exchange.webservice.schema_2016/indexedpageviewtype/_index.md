@@ -22,8 +22,10 @@ public class IndexedPageViewType : BasePagingType
 
 | Name | Description |
 | --- | --- |
-| [BasePoint](basepoint) { get; set; } |  |
-| [Offset](offset) { get; set; } |  |
+| [BasePoint](../../aspose.email.clients.exchange.webservice.schema_2016/indexedpageviewtype/basepoint) { get; set; } |  |
+| [MaxEntriesReturned](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturned) { get; set; } |  |
+| [MaxEntriesReturnedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturnedspecified) { get; set; } |  |
+| [Offset](../../aspose.email.clients.exchange.webservice.schema_2016/indexedpageviewtype/offset) { get; set; } |  |
 
 ### See Also
 

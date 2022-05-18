@@ -24,8 +24,8 @@ public sealed class UserConfigurationName
 
 | Name | Description |
 | --- | --- |
-| [FolderId](folderid) { get; set; } | Gets or sets the identifier of folder containing the user configuration object. |
-| [Name](name) { get; set; } | Gets or sets the user configuration object name. |
+| [FolderId](../../aspose.email.clients.exchange.webservice/userconfigurationname/folderid) { get; set; } | Gets or sets the identifier of folder containing the user configuration object. |
+| [Name](../../aspose.email.clients.exchange.webservice/userconfigurationname/name) { get; set; } | Gets or sets the user configuration object name. |
 
 ### See Also
 

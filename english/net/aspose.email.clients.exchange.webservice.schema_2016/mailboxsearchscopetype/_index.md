@@ -22,9 +22,9 @@ public class MailboxSearchScopeType
 
 | Name | Description |
 | --- | --- |
-| [ExtendedAttributes](extendedattributes) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
-| [SearchScope](searchscope) { get; set; } |  |
+| [ExtendedAttributes](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxsearchscopetype/extendedattributes) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxsearchscopetype/mailbox) { get; set; } |  |
+| [SearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxsearchscopetype/searchscope) { get; set; } |  |
 
 ### See Also
 

@@ -22,7 +22,7 @@ public class BaseResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [ResponseMessages](responsemessages) { get; set; } |  |
+| [ResponseMessages](../../aspose.email.clients.exchange.webservice.schema_2016/baseresponsemessagetype/responsemessages) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class SuggestionsResponseType
 
 | Name | Description |
 | --- | --- |
-| [ResponseMessage](responsemessage) { get; set; } |  |
-| [SuggestionDayResultArray](suggestiondayresultarray) { get; set; } |  |
+| [ResponseMessage](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsresponsetype/responsemessage) { get; set; } |  |
+| [SuggestionDayResultArray](../../aspose.email.clients.exchange.webservice.schema_2016/suggestionsresponsetype/suggestiondayresultarray) { get; set; } |  |
 
 ### See Also
 

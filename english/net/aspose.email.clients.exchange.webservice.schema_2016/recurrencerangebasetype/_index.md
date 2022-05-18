@@ -16,7 +16,7 @@ public abstract class RecurrenceRangeBaseType
 
 | Name | Description |
 | --- | --- |
-| [StartDate](startdate) { get; set; } |  |
+| [StartDate](../../aspose.email.clients.exchange.webservice.schema_2016/recurrencerangebasetype/startdate) { get; set; } |  |
 
 ### See Also
 

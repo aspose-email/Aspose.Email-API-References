@@ -22,16 +22,16 @@ public class FindMeetingTimesConstraints
 
 | Name | Description |
 | --- | --- |
-| [AppName](appname) { get; set; } |  |
-| [AppScenario](appscenario) { get; set; } |  |
-| [IsOrganizerOptional](isorganizeroptional) { get; set; } |  |
-| [IsOrganizerOptionalSpecified](isorganizeroptionalspecified) { get; set; } |  |
-| [MaxCandidates](maxcandidates) { get; set; } |  |
-| [MaxCandidatesSpecified](maxcandidatesspecified) { get; set; } |  |
-| [MinimumAttendeePercentage](minimumattendeepercentage) { get; set; } |  |
-| [MinimumAttendeePercentageSpecified](minimumattendeepercentagespecified) { get; set; } |  |
-| [ReturnSuggestionHints](returnsuggestionhints) { get; set; } |  |
-| [ReturnSuggestionHintsSpecified](returnsuggestionhintsspecified) { get; set; } |  |
+| [AppName](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/appname) { get; set; } |  |
+| [AppScenario](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/appscenario) { get; set; } |  |
+| [IsOrganizerOptional](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/isorganizeroptional) { get; set; } |  |
+| [IsOrganizerOptionalSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/isorganizeroptionalspecified) { get; set; } |  |
+| [MaxCandidates](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/maxcandidates) { get; set; } |  |
+| [MaxCandidatesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/maxcandidatesspecified) { get; set; } |  |
+| [MinimumAttendeePercentage](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/minimumattendeepercentage) { get; set; } |  |
+| [MinimumAttendeePercentageSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/minimumattendeepercentagespecified) { get; set; } |  |
+| [ReturnSuggestionHints](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/returnsuggestionhints) { get; set; } |  |
+| [ReturnSuggestionHintsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesconstraints/returnsuggestionhintsspecified) { get; set; } |  |
 
 ### See Also
 

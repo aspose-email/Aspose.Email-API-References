@@ -24,17 +24,17 @@ public sealed class EmailValidator
 
 | Name | Description |
 | --- | --- |
-| [DnsServers](dnsservers) { get; set; } | Gets or sets the Dns server list to use in the email validation. |
-| [Timeout](timeout) { get; set; } | Gets or sets the length of time (in milliseconds) until the request times out. |
+| [DnsServers](../../aspose.email.tools.verifications/emailvalidator/dnsservers) { get; set; } | Gets or sets the Dns server list to use in the email validation. |
+| [Timeout](../../aspose.email.tools.verifications/emailvalidator/timeout) { get; set; } | Gets or sets the length of time (in milliseconds) until the request times out. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [BeginValidate](beginvalidate)(string, ValidationPolicy, out ValidationResult, AsyncCallback, object) | Begins an asynchronous validating process for an email address. |
-| [EndValidate](endvalidate)(out ValidationResult, IAsyncResult) | Ends an asynchronous validating process for an email address. |
-| [Validate](validate)(string, out ValidationResult) | Validate email address, with the MailServer validation policy. |
-| [Validate](validate)(string, ValidationPolicy, out ValidationResult) | Validating the email address |
+| [BeginValidate](../../aspose.email.tools.verifications/emailvalidator/beginvalidate)(string, ValidationPolicy, out ValidationResult, AsyncCallback, object) | Begins an asynchronous validating process for an email address. |
+| [EndValidate](../../aspose.email.tools.verifications/emailvalidator/endvalidate)(out ValidationResult, IAsyncResult) | Ends an asynchronous validating process for an email address. |
+| [Validate](../../aspose.email.tools.verifications/emailvalidator/validate)(string, out ValidationResult) | Validate email address, with the MailServer validation policy. |
+| [Validate](../../aspose.email.tools.verifications/emailvalidator/validate)(string, ValidationPolicy, out ValidationResult) | Validating the email address |
 
 ## Other Members
 

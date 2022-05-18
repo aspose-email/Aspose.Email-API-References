@@ -22,7 +22,7 @@ public class DateTimePrecisionType : SoapHeader
 
 | Name | Description |
 | --- | --- |
-| [Text](text) { get; set; } |  |
+| [Text](../../aspose.email.clients.exchange.webservice.schema_2016/datetimeprecisiontype/text) { get; set; } |  |
 
 ### See Also
 

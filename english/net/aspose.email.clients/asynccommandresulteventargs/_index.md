@@ -26,8 +26,8 @@ public class AsyncCommandResultEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [Error](error) { get; } | Operation error |
-| [Result](result) { get; } | Operation state |
+| [Error](../../aspose.email.clients/asynccommandresulteventargs/error) { get; } | Operation error |
+| [Result](../../aspose.email.clients/asynccommandresulteventargs/result) { get; } | Operation state |
 
 ### See Also
 

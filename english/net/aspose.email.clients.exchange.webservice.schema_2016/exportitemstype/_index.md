@@ -22,7 +22,7 @@ public class ExportItemsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ItemIds](itemids) { get; set; } |  |
+| [ItemIds](../../aspose.email.clients.exchange.webservice.schema_2016/exportitemstype/itemids) { get; set; } |  |
 
 ### See Also
 

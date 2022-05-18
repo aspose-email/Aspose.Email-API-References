@@ -22,8 +22,8 @@ public class SyncFolderItemsReadFlagType
 
 | Name | Description |
 | --- | --- |
-| [IsRead](isread) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
+| [IsRead](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemsreadflagtype/isread) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemsreadflagtype/itemid) { get; set; } |  |
 
 ### See Also
 

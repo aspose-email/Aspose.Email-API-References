@@ -22,11 +22,11 @@ public class ProtectionRuleType
 
 | Name | Description |
 | --- | --- |
-| [Action](action) { get; set; } |  |
-| [Condition](condition) { get; set; } |  |
-| [Name](name) { get; set; } |  |
-| [Priority](priority) { get; set; } |  |
-| [UserOverridable](useroverridable) { get; set; } |  |
+| [Action](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruletype/action) { get; set; } |  |
+| [Condition](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruletype/condition) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruletype/name) { get; set; } |  |
+| [Priority](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruletype/priority) { get; set; } |  |
+| [UserOverridable](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruletype/useroverridable) { get; set; } |  |
 
 ### See Also
 

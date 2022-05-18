@@ -18,9 +18,9 @@ public sealed class UserSettingError
 
 | Name | Description |
 | --- | --- |
-| [ErrorCode](errorcode) { get; } | Gets the error code. |
-| [ErrorMessage](errormessage) { get; } | Gets the error message. |
-| [SettingName](settingname) { get; } | Gets the name of the setting. |
+| [ErrorCode](../../aspose.email.clients.exchange/usersettingerror/errorcode) { get; } | Gets the error code. |
+| [ErrorMessage](../../aspose.email.clients.exchange/usersettingerror/errormessage) { get; } | Gets the error message. |
+| [SettingName](../../aspose.email.clients.exchange/usersettingerror/settingname) { get; } | Gets the name of the setting. |
 
 ### See Also
 

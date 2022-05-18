@@ -24,15 +24,15 @@ public sealed class MapiCalendarTimeZoneRule
 
 | Name | Description |
 | --- | --- |
-| [Date](date) { get; } | Gets the date and time that indicate when to begin using the Standard/Daylight time. |
-| [DayOfWeek](dayofweek) { get; set; } | Gets or sets the day of week |
-| [Hour](hour) { get; set; } | Gets or sets the hour |
-| [Milliseconds](milliseconds) { get; set; } | Gets or sets the milliseconds |
-| [Minute](minute) { get; set; } | Gets or sets the minutes |
-| [Month](month) { get; set; } | Gets or sets the month |
-| [Position](position) { get; set; } | Gets or sets the day position |
-| [Seconds](seconds) { get; set; } | Gets or sets the seconds |
-| [Year](year) { get; set; } | Gets or sets the year |
+| [Date](../../aspose.email.mapi/mapicalendartimezonerule/date) { get; } | Gets the date and time that indicate when to begin using the Standard/Daylight time. |
+| [DayOfWeek](../../aspose.email.mapi/mapicalendartimezonerule/dayofweek) { get; set; } | Gets or sets the day of week |
+| [Hour](../../aspose.email.mapi/mapicalendartimezonerule/hour) { get; set; } | Gets or sets the hour |
+| [Milliseconds](../../aspose.email.mapi/mapicalendartimezonerule/milliseconds) { get; set; } | Gets or sets the milliseconds |
+| [Minute](../../aspose.email.mapi/mapicalendartimezonerule/minute) { get; set; } | Gets or sets the minutes |
+| [Month](../../aspose.email.mapi/mapicalendartimezonerule/month) { get; set; } | Gets or sets the month |
+| [Position](../../aspose.email.mapi/mapicalendartimezonerule/position) { get; set; } | Gets or sets the day position |
+| [Seconds](../../aspose.email.mapi/mapicalendartimezonerule/seconds) { get; set; } | Gets or sets the seconds |
+| [Year](../../aspose.email.mapi/mapicalendartimezonerule/year) { get; set; } | Gets or sets the year |
 
 ### See Also
 

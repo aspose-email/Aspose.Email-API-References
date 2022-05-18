@@ -16,7 +16,7 @@ public class AddNewTelUriContactToGroupCompletedEventArgs : AsyncCompletedEventA
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/addnewteluricontacttogroupcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

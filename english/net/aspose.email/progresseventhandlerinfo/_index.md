@@ -24,9 +24,9 @@ public class ProgressEventHandlerInfo
 
 | Name | Description |
 | --- | --- |
-| [EventType](eventtype) { get; set; } | Type of progress event that occured. |
-| [SavedMimePartCount](savedmimepartcount) { get; set; } | Amount of mime parts that were saved. |
-| [TotalMimePartCount](totalmimepartcount) { get; set; } | Total amount of mime parts. |
+| [EventType](../../aspose.email/progresseventhandlerinfo/eventtype) { get; set; } | Type of progress event that occured. |
+| [SavedMimePartCount](../../aspose.email/progresseventhandlerinfo/savedmimepartcount) { get; set; } | Amount of mime parts that were saved. |
+| [TotalMimePartCount](../../aspose.email/progresseventhandlerinfo/totalmimepartcount) { get; set; } | Total amount of mime parts. |
 
 ### See Also
 

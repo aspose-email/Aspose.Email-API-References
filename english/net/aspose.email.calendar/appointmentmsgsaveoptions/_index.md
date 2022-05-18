@@ -20,6 +20,12 @@ public sealed class AppointmentMsgSaveOptions : AppointmentSaveOptions
 | --- | --- |
 | [AppointmentMsgSaveOptions](appointmentmsgsaveoptions)() | Initializes a new instance of the [`MsgSaveOptions`](../../aspose.email/msgsaveoptions) class |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [SaveFormat](../../aspose.email.calendar/appointmentsaveoptions/saveformat) { get; } | Gets a save format |
+
 ### See Also
 
 * class [AppointmentSaveOptions](../appointmentsaveoptions)

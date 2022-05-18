@@ -22,9 +22,9 @@ public class ClientAccessTokenRequestType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
-| [Scope](scope) { get; set; } |  |
-| [TokenType](tokentype) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/clientaccesstokenrequesttype/id) { get; set; } |  |
+| [Scope](../../aspose.email.clients.exchange.webservice.schema_2016/clientaccesstokenrequesttype/scope) { get; set; } |  |
+| [TokenType](../../aspose.email.clients.exchange.webservice.schema_2016/clientaccesstokenrequesttype/tokentype) { get; set; } |  |
 
 ### See Also
 

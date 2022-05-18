@@ -22,8 +22,10 @@ public class FractionalPageViewType : BasePagingType
 
 | Name | Description |
 | --- | --- |
-| [Denominator](denominator) { get; set; } |  |
-| [Numerator](numerator) { get; set; } |  |
+| [Denominator](../../aspose.email.clients.exchange.webservice.schema_2016/fractionalpageviewtype/denominator) { get; set; } |  |
+| [MaxEntriesReturned](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturned) { get; set; } |  |
+| [MaxEntriesReturnedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturnedspecified) { get; set; } |  |
+| [Numerator](../../aspose.email.clients.exchange.webservice.schema_2016/fractionalpageviewtype/numerator) { get; set; } |  |
 
 ### See Also
 

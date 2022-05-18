@@ -22,33 +22,33 @@ public class RightsManagementLicenseDataType
 
 | Name | Description |
 | --- | --- |
-| [ContentExpiryDate](contentexpirydate) { get; set; } |  |
-| [ContentOwner](contentowner) { get; set; } |  |
-| [EditAllowed](editallowed) { get; set; } |  |
-| [EditAllowedSpecified](editallowedspecified) { get; set; } |  |
-| [ExportAllowed](exportallowed) { get; set; } |  |
-| [ExportAllowedSpecified](exportallowedspecified) { get; set; } |  |
-| [ExtractAllowed](extractallowed) { get; set; } |  |
-| [ExtractAllowedSpecified](extractallowedspecified) { get; set; } |  |
-| [ForwardAllowed](forwardallowed) { get; set; } |  |
-| [ForwardAllowedSpecified](forwardallowedspecified) { get; set; } |  |
-| [IsOwner](isowner) { get; set; } |  |
-| [IsOwnerSpecified](isownerspecified) { get; set; } |  |
-| [ModifyRecipientsAllowed](modifyrecipientsallowed) { get; set; } |  |
-| [ModifyRecipientsAllowedSpecified](modifyrecipientsallowedspecified) { get; set; } |  |
-| [PrintAllowed](printallowed) { get; set; } |  |
-| [PrintAllowedSpecified](printallowedspecified) { get; set; } |  |
-| [ProgrammaticAccessAllowed](programmaticaccessallowed) { get; set; } |  |
-| [ProgrammaticAccessAllowedSpecified](programmaticaccessallowedspecified) { get; set; } |  |
-| [ReplyAllAllowed](replyallallowed) { get; set; } |  |
-| [ReplyAllAllowedSpecified](replyallallowedspecified) { get; set; } |  |
-| [ReplyAllowed](replyallowed) { get; set; } |  |
-| [ReplyAllowedSpecified](replyallowedspecified) { get; set; } |  |
-| [RightsManagedMessageDecryptionStatus](rightsmanagedmessagedecryptionstatus) { get; set; } |  |
-| [RightsManagedMessageDecryptionStatusSpecified](rightsmanagedmessagedecryptionstatusspecified) { get; set; } |  |
-| [RmsTemplateId](rmstemplateid) { get; set; } |  |
-| [TemplateDescription](templatedescription) { get; set; } |  |
-| [TemplateName](templatename) { get; set; } |  |
+| [ContentExpiryDate](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/contentexpirydate) { get; set; } |  |
+| [ContentOwner](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/contentowner) { get; set; } |  |
+| [EditAllowed](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/editallowed) { get; set; } |  |
+| [EditAllowedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/editallowedspecified) { get; set; } |  |
+| [ExportAllowed](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/exportallowed) { get; set; } |  |
+| [ExportAllowedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/exportallowedspecified) { get; set; } |  |
+| [ExtractAllowed](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/extractallowed) { get; set; } |  |
+| [ExtractAllowedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/extractallowedspecified) { get; set; } |  |
+| [ForwardAllowed](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/forwardallowed) { get; set; } |  |
+| [ForwardAllowedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/forwardallowedspecified) { get; set; } |  |
+| [IsOwner](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/isowner) { get; set; } |  |
+| [IsOwnerSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/isownerspecified) { get; set; } |  |
+| [ModifyRecipientsAllowed](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/modifyrecipientsallowed) { get; set; } |  |
+| [ModifyRecipientsAllowedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/modifyrecipientsallowedspecified) { get; set; } |  |
+| [PrintAllowed](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/printallowed) { get; set; } |  |
+| [PrintAllowedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/printallowedspecified) { get; set; } |  |
+| [ProgrammaticAccessAllowed](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/programmaticaccessallowed) { get; set; } |  |
+| [ProgrammaticAccessAllowedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/programmaticaccessallowedspecified) { get; set; } |  |
+| [ReplyAllAllowed](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/replyallallowed) { get; set; } |  |
+| [ReplyAllAllowedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/replyallallowedspecified) { get; set; } |  |
+| [ReplyAllowed](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/replyallowed) { get; set; } |  |
+| [ReplyAllowedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/replyallowedspecified) { get; set; } |  |
+| [RightsManagedMessageDecryptionStatus](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/rightsmanagedmessagedecryptionstatus) { get; set; } |  |
+| [RightsManagedMessageDecryptionStatusSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/rightsmanagedmessagedecryptionstatusspecified) { get; set; } |  |
+| [RmsTemplateId](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/rmstemplateid) { get; set; } |  |
+| [TemplateDescription](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/templatedescription) { get; set; } |  |
+| [TemplateName](../../aspose.email.clients.exchange.webservice.schema_2016/rightsmanagementlicensedatatype/templatename) { get; set; } |  |
 
 ### See Also
 

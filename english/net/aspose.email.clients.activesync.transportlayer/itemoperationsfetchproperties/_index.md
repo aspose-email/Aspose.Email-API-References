@@ -24,15 +24,15 @@ public class ItemOperationsFetchProperties
 
 | Name | Description |
 | --- | --- |
-| [Body](body) { get; } | Specifies a free-form, variable-length data field associated with a stored item on the server. |
-| [BodyPart](bodypart) { get; } | Specifies details about the message part of an e-mail in a response. |
-| [Data](data) { get; set; } | Contains the item content for inline content responses. The content of the Data element is a base64 encoding of the binary document, attachment, or body data. The size of the data (in bytes) that is contained within the Data element is indicated by the Range property. The total size of the item (in bytes) is indicated by the Total element. |
-| [DataContainer](datacontainer) { get; } | Contains data elements from the content classes. |
-| [Part](part) { get; set; } | Specifies an integer index into the metadata of the multipart response. The Part element is present only in a multipart ItemOperations response. It presents in Properties if the item being fetched is located in a document library. |
-| [Range](range) { get; set; } | Specifies the range of bytes that the client can receive in response to the Fetch operation for a document library item. The Range element contains a string value in the format m-n, where m less than n, and m is the minimum value and n is the maximum value. The byte range is zero-indexed; the first byte is indicated by a 0 (zero). If the Range element is omitted in the Fetch request, the whole item is fetched. |
-| [RightsManagementLicense](rightsmanagementlicense) { get; set; } | Contains the rights policy template settings for the template applied to the e-mail message being synchronized. |
-| [Total](total) { get; set; } | Specifies the total size of an item on the server, in bytes. |
-| [Version](version) { get; set; } | Specifies the time at which a document item was last modified. The Version element is present only when the ItemOperations command is used to access a Windows SharePoint Services or UNC resource. |
+| [Body](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/body) { get; } | Specifies a free-form, variable-length data field associated with a stored item on the server. |
+| [BodyPart](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/bodypart) { get; } | Specifies details about the message part of an e-mail in a response. |
+| [Data](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/data) { get; set; } | Contains the item content for inline content responses. The content of the Data element is a base64 encoding of the binary document, attachment, or body data. The size of the data (in bytes) that is contained within the Data element is indicated by the Range property. The total size of the item (in bytes) is indicated by the Total element. |
+| [DataContainer](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/datacontainer) { get; } | Contains data elements from the content classes. |
+| [Part](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/part) { get; set; } | Specifies an integer index into the metadata of the multipart response. The Part element is present only in a multipart ItemOperations response. It presents in Properties if the item being fetched is located in a document library. |
+| [Range](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/range) { get; set; } | Specifies the range of bytes that the client can receive in response to the Fetch operation for a document library item. The Range element contains a string value in the format m-n, where m less than n, and m is the minimum value and n is the maximum value. The byte range is zero-indexed; the first byte is indicated by a 0 (zero). If the Range element is omitted in the Fetch request, the whole item is fetched. |
+| [RightsManagementLicense](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/rightsmanagementlicense) { get; set; } | Contains the rights policy template settings for the template applied to the e-mail message being synchronized. |
+| [Total](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/total) { get; set; } | Specifies the total size of an item on the server, in bytes. |
+| [Version](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/version) { get; set; } | Specifies the time at which a document item was last modified. The Version element is present only when the ItemOperations command is used to access a Windows SharePoint Services or UNC resource. |
 
 ### See Also
 

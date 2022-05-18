@@ -24,8 +24,8 @@ public class PingParameter
 
 | Name | Description |
 | --- | --- |
-| [Class](class) { get; } | The Class element is a required child element of the Folder element in Ping command requests that specifies the content class of the folder to be monitored. The valid Class element values are: Email, Calendar, Contacts, Tasks, Notes |
-| [ServerId](serverid) { get; } | The Id element is a required child element of the Folder element in Ping command requests that specifies the server ID of the folder to be monitored. Elements referenced in this section are defined in the Ping namespace, except where otherwise indicated by the presence of a namespace prefix (as defined in section 2.2.1). |
+| [Class](../../aspose.email.clients.activesync.transportlayer/pingparameter/class) { get; } | The Class element is a required child element of the Folder element in Ping command requests that specifies the content class of the folder to be monitored. The valid Class element values are: Email, Calendar, Contacts, Tasks, Notes |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/pingparameter/serverid) { get; } | The Id element is a required child element of the Folder element in Ping command requests that specifies the server ID of the folder to be monitored. Elements referenced in this section are defined in the Ping namespace, except where otherwise indicated by the presence of a namespace prefix (as defined in section 2.2.1). |
 
 ### See Also
 

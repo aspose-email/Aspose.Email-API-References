@@ -12,8 +12,8 @@ The **Aspose.Email.Calendar.Recurrences** namespace contains classes for work wi
 
 | Class | Description |
 | --- | --- |
-| [ByDay](./byday) | Represents Nth occurrence (or all occurrences) of the specified day of the week. |
-| [ByDayCollection](./bydaycollection) | Represents a collection of [`ByDay`](aspose.email.calendar.recurrences/byday) objects. |
+| [ByDay](./byday) | Represents Nth occurrence (../or all occurrences) of the specified day of the week. |
+| [ByDayCollection](./bydaycollection) | Represents a collection of [`ByDay`](../aspose.email.calendar.recurrences/byday) objects. |
 | [ByNumberCollection](./bynumbercollection) | Represents a set of months, weeks, days, hours, minutes or seconds in a recurrence rule. |
 | [CalendarRecurrence](./calendarrecurrence) | The main class, represents an iCalendar recurrence. |
 | [DailyRecurrencePattern](./dailyrecurrencepattern) | Represents a recurrence pattern of daily recurrence type. |
@@ -21,7 +21,7 @@ The **Aspose.Email.Calendar.Recurrences** namespace contains classes for work wi
 | [MonthlyRecurrencePattern](./monthlyrecurrencepattern) | Represents a recurrence pattern of monthly recurrence type. |
 | [RecurrencePattern](./recurrencepattern) | Represents a recurrence pattern. |
 | [RecurrenceRule](./recurrencerule) | Represents one recurrence or exception rule in a recurrence pattern. |
-| [RecurrenceRuleCollection](./recurrencerulecollection) | Represents a collection of [`RecurrenceRule`](aspose.email.calendar.recurrences/recurrencerule) objects. |
+| [RecurrenceRuleCollection](./recurrencerulecollection) | Represents a collection of [`RecurrenceRule`](../aspose.email.calendar.recurrences/recurrencerule) objects. |
 | [WeeklyRecurrencePattern](./weeklyrecurrencepattern) | Represents a recurrence pattern of weekly recurrence type. |
 | [YearlyRecurrencePattern](./yearlyrecurrencepattern) | Represents a recurrence pattern of yearly recurrence type. |
 ## Enumeration

@@ -24,7 +24,8 @@ public class WebDavContactSaveOptions : ContactSaveOptions
 
 | Name | Description |
 | --- | --- |
-| static [Default](default) { get; } | Gets the default options. |
+| static [Default](../../aspose.email.mapi/webdavcontactsaveoptions/default) { get; } | Gets the default options. |
+| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat) { get; } | Gets a save format |
 
 ### See Also
 

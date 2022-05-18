@@ -22,14 +22,14 @@ public class GetNonIndexableItemDetailsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Mailboxes](mailboxes) { get; set; } |  |
-| [PageDirection](pagedirection) { get; set; } |  |
-| [PageDirectionSpecified](pagedirectionspecified) { get; set; } |  |
-| [PageItemReference](pageitemreference) { get; set; } |  |
-| [PageSize](pagesize) { get; set; } |  |
-| [PageSizeSpecified](pagesizespecified) { get; set; } |  |
-| [SearchArchiveOnly](searcharchiveonly) { get; set; } |  |
-| [SearchArchiveOnlySpecified](searcharchiveonlyspecified) { get; set; } |  |
+| [Mailboxes](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemdetailstype/mailboxes) { get; set; } |  |
+| [PageDirection](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemdetailstype/pagedirection) { get; set; } |  |
+| [PageDirectionSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemdetailstype/pagedirectionspecified) { get; set; } |  |
+| [PageItemReference](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemdetailstype/pageitemreference) { get; set; } |  |
+| [PageSize](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemdetailstype/pagesize) { get; set; } |  |
+| [PageSizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemdetailstype/pagesizespecified) { get; set; } |  |
+| [SearchArchiveOnly](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemdetailstype/searcharchiveonly) { get; set; } |  |
+| [SearchArchiveOnlySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getnonindexableitemdetailstype/searcharchiveonlyspecified) { get; set; } |  |
 
 ### See Also
 

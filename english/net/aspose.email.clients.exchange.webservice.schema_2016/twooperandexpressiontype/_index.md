@@ -16,8 +16,8 @@ public abstract class TwoOperandExpressionType : SearchExpressionType
 
 | Name | Description |
 | --- | --- |
-| [FieldURIOrConstant](fielduriorconstant) { get; set; } |  |
-| [Item](item) { get; set; } |  |
+| [FieldURIOrConstant](../../aspose.email.clients.exchange.webservice.schema_2016/twooperandexpressiontype/fielduriorconstant) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/twooperandexpressiontype/item) { get; set; } |  |
 
 ### See Also
 

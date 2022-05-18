@@ -22,14 +22,14 @@ public class ContentActivity
 
 | Name | Description |
 | --- | --- |
-| [Acl](acl) { get; set; } |  |
-| [ContentLocation](contentlocation) { get; set; } |  |
-| [EndTime](endtime) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [MediaType](mediatype) { get; set; } |  |
-| [SharedBy](sharedby) { get; set; } |  |
-| [StartTime](starttime) { get; set; } |  |
-| [Type](type) { get; set; } |  |
+| [Acl](../../aspose.email.clients.exchange.webservice.schema_2016/contentactivity/acl) { get; set; } |  |
+| [ContentLocation](../../aspose.email.clients.exchange.webservice.schema_2016/contentactivity/contentlocation) { get; set; } |  |
+| [EndTime](../../aspose.email.clients.exchange.webservice.schema_2016/contentactivity/endtime) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/contentactivity/id) { get; set; } |  |
+| [MediaType](../../aspose.email.clients.exchange.webservice.schema_2016/contentactivity/mediatype) { get; set; } |  |
+| [SharedBy](../../aspose.email.clients.exchange.webservice.schema_2016/contentactivity/sharedby) { get; set; } |  |
+| [StartTime](../../aspose.email.clients.exchange.webservice.schema_2016/contentactivity/starttime) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/contentactivity/type) { get; set; } |  |
 
 ### See Also
 

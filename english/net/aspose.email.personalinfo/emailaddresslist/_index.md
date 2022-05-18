@@ -24,29 +24,29 @@ public class EmailAddressList : IList<EmailAddress>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in the ICollection. |
-| [Email1](email1) { get; set; } | Default email1 address. |
-| [Email2](email2) { get; set; } | Default email2 address. |
-| [Email3](email3) { get; set; } | Default email3 address. |
-| [Home](home) { get; set; } | Default home email address. |
-| [IsReadOnly](isreadonly) { get; } | Gets a value indicating whether the list is read-only. |
-| [Item](item) { get; set; } | Default email address for specified category. (2 indexers) |
-| [SyncRoot](syncroot) { get; } | Gets an object that can be used to synchronize access to the ICollection. |
-| [Work](work) { get; set; } | Default work email address. |
+| [Count](../../aspose.email.personalinfo/emailaddresslist/count) { get; } | Gets the number of elements contained in the ICollection. |
+| [Email1](../../aspose.email.personalinfo/emailaddresslist/email1) { get; set; } | Default email1 address. |
+| [Email2](../../aspose.email.personalinfo/emailaddresslist/email2) { get; set; } | Default email2 address. |
+| [Email3](../../aspose.email.personalinfo/emailaddresslist/email3) { get; set; } | Default email3 address. |
+| [Home](../../aspose.email.personalinfo/emailaddresslist/home) { get; set; } | Default home email address. |
+| [IsReadOnly](../../aspose.email.personalinfo/emailaddresslist/isreadonly) { get; } | Gets a value indicating whether the list is read-only. |
+| [Item](../../aspose.email.personalinfo/emailaddresslist/item) { get; set; } | Default email address for specified category. (2 indexers) |
+| [SyncRoot](../../aspose.email.personalinfo/emailaddresslist/syncroot) { get; } | Gets an object that can be used to synchronize access to the ICollection. |
+| [Work](../../aspose.email.personalinfo/emailaddresslist/work) { get; set; } | Default work email address. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(EmailAddress) | Adds an item to the list. |
-| [Clear](clear)() | Removes all items from the list. |
-| [Contains](contains)(EmailAddress) | Determines whether the list contains a specific value. |
-| [CopyTo](copyto)(EmailAddress[], int) | Copies the elements to an array, starting at a particular array index. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through a collection. |
-| [IndexOf](indexof)(EmailAddress) | Determines the index of a specific item in the list. |
-| [Insert](insert)(int, EmailAddress) | Inserts an item to the list at the specified index. |
-| [Remove](remove)(EmailAddress) | Removes the first occurrence of a specific object from the list. |
-| [RemoveAt](removeat)(int) | Removes the list item at the specified index. |
+| [Add](../../aspose.email.personalinfo/emailaddresslist/add)(EmailAddress) | Adds an item to the list. |
+| [Clear](../../aspose.email.personalinfo/emailaddresslist/clear)() | Removes all items from the list. |
+| [Contains](../../aspose.email.personalinfo/emailaddresslist/contains)(EmailAddress) | Determines whether the list contains a specific value. |
+| [CopyTo](../../aspose.email.personalinfo/emailaddresslist/copyto)(EmailAddress[], int) | Copies the elements to an array, starting at a particular array index. |
+| [GetEnumerator](../../aspose.email.personalinfo/emailaddresslist/getenumerator)() | Returns an enumerator that iterates through a collection. |
+| [IndexOf](../../aspose.email.personalinfo/emailaddresslist/indexof)(EmailAddress) | Determines the index of a specific item in the list. |
+| [Insert](../../aspose.email.personalinfo/emailaddresslist/insert)(int, EmailAddress) | Inserts an item to the list at the specified index. |
+| [Remove](../../aspose.email.personalinfo/emailaddresslist/remove)(EmailAddress) | Removes the first occurrence of a specific object from the list. |
+| [RemoveAt](../../aspose.email.personalinfo/emailaddresslist/removeat)(int) | Removes the list item at the specified index. |
 
 ### See Also
 

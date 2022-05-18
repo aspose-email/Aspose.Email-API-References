@@ -24,22 +24,22 @@ public class PostalAddressCategory : IEquatable<PostalAddressCategory>
 
 | Name | Description |
 | --- | --- |
-| static [Custom](custom) { get; } | Defines a type of an address as an address of type other. |
-| static [Home](home) { get; } | Defines a type of an address as a home address. |
-| static [Work](work) { get; } | Defines a type of an address as a work address. |
-| [Description](description) { get; } | Gets description for the 'Custom' category of a postal address |
-| [Value](value) { get; } | Gets category of a postal address |
+| static [Custom](../../aspose.email.personalinfo/postaladdresscategory/custom) { get; } | Defines a type of an address as an address of type other. |
+| static [Home](../../aspose.email.personalinfo/postaladdresscategory/home) { get; } | Defines a type of an address as a home address. |
+| static [Work](../../aspose.email.personalinfo/postaladdresscategory/work) { get; } | Defines a type of an address as a work address. |
+| [Description](../../aspose.email.personalinfo/postaladdresscategory/description) { get; } | Gets description for the 'Custom' category of a postal address |
+| [Value](../../aspose.email.personalinfo/postaladdresscategory/value) { get; } | Gets category of a postal address |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| virtual [Equals](equals)(PostalAddressCategory) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](gethashcode)() | GetHashCode returns a hash function for this object. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [operator ==](op_equality) | Determines whether the specified objects are equal. |
-| [operator !=](op_inequality) | Determines whether the specified objects are not equal. |
+| override [Equals](../../aspose.email.personalinfo/postaladdresscategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| virtual [Equals](../../aspose.email.personalinfo/postaladdresscategory/equals)(PostalAddressCategory) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.email.personalinfo/postaladdresscategory/gethashcode)() | GetHashCode returns a hash function for this object. |
+| override [ToString](../../aspose.email.personalinfo/postaladdresscategory/tostring)() | Returns a string that represents the current object. |
+| [operator ==](../../aspose.email.personalinfo/postaladdresscategory/op_equality) | Determines whether the specified objects are equal. |
+| [operator !=](../../aspose.email.personalinfo/postaladdresscategory/op_inequality) | Determines whether the specified objects are not equal. |
 
 ## Other Members
 

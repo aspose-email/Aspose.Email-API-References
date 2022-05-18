@@ -22,16 +22,16 @@ public class InboxReminderType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
-| [IsOrganizerReminder](isorganizerreminder) { get; set; } |  |
-| [IsOrganizerReminderSpecified](isorganizerreminderspecified) { get; set; } |  |
-| [Message](message) { get; set; } |  |
-| [OccurrenceChange](occurrencechange) { get; set; } |  |
-| [OccurrenceChangeSpecified](occurrencechangespecified) { get; set; } |  |
-| [ReminderOffset](reminderoffset) { get; set; } |  |
-| [ReminderOffsetSpecified](reminderoffsetspecified) { get; set; } |  |
-| [SendOption](sendoption) { get; set; } |  |
-| [SendOptionSpecified](sendoptionspecified) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/id) { get; set; } |  |
+| [IsOrganizerReminder](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/isorganizerreminder) { get; set; } |  |
+| [IsOrganizerReminderSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/isorganizerreminderspecified) { get; set; } |  |
+| [Message](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/message) { get; set; } |  |
+| [OccurrenceChange](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/occurrencechange) { get; set; } |  |
+| [OccurrenceChangeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/occurrencechangespecified) { get; set; } |  |
+| [ReminderOffset](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/reminderoffset) { get; set; } |  |
+| [ReminderOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/reminderoffsetspecified) { get; set; } |  |
+| [SendOption](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/sendoption) { get; set; } |  |
+| [SendOptionSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/inboxremindertype/sendoptionspecified) { get; set; } |  |
 
 ### See Also
 

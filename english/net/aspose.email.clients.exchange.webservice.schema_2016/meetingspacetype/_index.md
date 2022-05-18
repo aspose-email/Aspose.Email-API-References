@@ -22,17 +22,17 @@ public class MeetingSpaceType
 
 | Name | Description |
 | --- | --- |
-| [ChangeKey](changekey) { get; set; } |  |
-| [DateTimeCreated](datetimecreated) { get; set; } |  |
-| [DateTimeModified](datetimemodified) { get; set; } |  |
-| [ExpiryTime](expirytime) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [JoinUrl](joinurl) { get; set; } |  |
-| [Meadata](meadata) { get; set; } |  |
-| [Tag](tag) { get; set; } |  |
-| [Type](type) { get; set; } |  |
-| [TypeSpecified](typespecified) { get; set; } |  |
-| [Version](version) { get; set; } |  |
+| [ChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/changekey) { get; set; } |  |
+| [DateTimeCreated](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/datetimecreated) { get; set; } |  |
+| [DateTimeModified](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/datetimemodified) { get; set; } |  |
+| [ExpiryTime](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/expirytime) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/id) { get; set; } |  |
+| [JoinUrl](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/joinurl) { get; set; } |  |
+| [Meadata](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/meadata) { get; set; } |  |
+| [Tag](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/tag) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/type) { get; set; } |  |
+| [TypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/typespecified) { get; set; } |  |
+| [Version](../../aspose.email.clients.exchange.webservice.schema_2016/meetingspacetype/version) { get; set; } |  |
 
 ### See Also
 

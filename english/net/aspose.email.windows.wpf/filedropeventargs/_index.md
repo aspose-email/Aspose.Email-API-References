@@ -24,7 +24,7 @@ public sealed class FileDropEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [FileCollection](filecollection) { get; } | Gets dropped files collection. |
+| [FileCollection](../../aspose.email.windows.wpf/filedropeventargs/filecollection) { get; } | Gets dropped files collection. |
 
 ### See Also
 

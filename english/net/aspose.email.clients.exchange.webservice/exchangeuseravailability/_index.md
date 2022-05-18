@@ -24,15 +24,15 @@ public sealed class ExchangeUserAvailability
 
 | Name | Description |
 | --- | --- |
-| [CalendarAppointments](calendarappointments) { get; } | Gets the calendar appointments in the user's calendar. |
-| [User](user) { get; } | Gets the user smtp address. |
-| [WorkingHours](workinghours) { get; } | Gets the working hours. |
+| [CalendarAppointments](../../aspose.email.clients.exchange.webservice/exchangeuseravailability/calendarappointments) { get; } | Gets the calendar appointments in the user's calendar. |
+| [User](../../aspose.email.clients.exchange.webservice/exchangeuseravailability/user) { get; } | Gets the user smtp address. |
+| [WorkingHours](../../aspose.email.clients.exchange.webservice/exchangeuseravailability/workinghours) { get; } | Gets the working hours. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetWorkingHours](getworkinghours)(DateTime) | Gets the working hours in the specified date taking into account the user's timezone. |
+| [GetWorkingHours](../../aspose.email.clients.exchange.webservice/exchangeuseravailability/getworkinghours)(DateTime) | Gets the working hours in the specified date taking into account the user's timezone. |
 
 ### See Also
 

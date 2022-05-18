@@ -22,7 +22,8 @@ public class DeleteFocusedOtherOverrideResponseType : BaseResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [Override](override) { get; set; } |  |
+| [Override](../../aspose.email.clients.exchange.webservice.schema_2016/deletefocusedotheroverrideresponsetype/override) { get; set; } |  |
+| [ResponseMessages](../../aspose.email.clients.exchange.webservice.schema_2016/baseresponsemessagetype/responsemessages) { get; set; } |  |
 
 ### See Also
 

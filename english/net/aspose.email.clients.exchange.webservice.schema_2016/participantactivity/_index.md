@@ -22,14 +22,14 @@ public class ParticipantActivity
 
 | Name | Description |
 | --- | --- |
-| [ClientVersion](clientversion) { get; set; } |  |
-| [CreatedBy](createdby) { get; set; } |  |
-| [EndTime](endtime) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [MediaDetails](mediadetails) { get; set; } |  |
-| [MediaType](mediatype) { get; set; } |  |
-| [Role](role) { get; set; } |  |
-| [StartTime](starttime) { get; set; } |  |
+| [ClientVersion](../../aspose.email.clients.exchange.webservice.schema_2016/participantactivity/clientversion) { get; set; } |  |
+| [CreatedBy](../../aspose.email.clients.exchange.webservice.schema_2016/participantactivity/createdby) { get; set; } |  |
+| [EndTime](../../aspose.email.clients.exchange.webservice.schema_2016/participantactivity/endtime) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/participantactivity/id) { get; set; } |  |
+| [MediaDetails](../../aspose.email.clients.exchange.webservice.schema_2016/participantactivity/mediadetails) { get; set; } |  |
+| [MediaType](../../aspose.email.clients.exchange.webservice.schema_2016/participantactivity/mediatype) { get; set; } |  |
+| [Role](../../aspose.email.clients.exchange.webservice.schema_2016/participantactivity/role) { get; set; } |  |
+| [StartTime](../../aspose.email.clients.exchange.webservice.schema_2016/participantactivity/starttime) { get; set; } |  |
 
 ### See Also
 

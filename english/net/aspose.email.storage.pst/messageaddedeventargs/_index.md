@@ -24,8 +24,8 @@ public class MessageAddedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [EntryId](entryid) { get; } | Gets the string that represents the EntryId of the added message. |
-| [Message](message) { get; } | Gets the message that has been added. |
+| [EntryId](../../aspose.email.storage.pst/messageaddedeventargs/entryid) { get; } | Gets the string that represents the EntryId of the added message. |
+| [Message](../../aspose.email.storage.pst/messageaddedeventargs/message) { get; } | Gets the message that has been added. |
 
 ### See Also
 

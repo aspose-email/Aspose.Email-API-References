@@ -16,7 +16,7 @@ public class UpdateMeetingInstanceCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/updatemeetinginstancecompletedeventargs/result) { get; } |  |
 
 ### See Also
 

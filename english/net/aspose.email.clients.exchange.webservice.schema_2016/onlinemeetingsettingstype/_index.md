@@ -22,9 +22,9 @@ public class OnlineMeetingSettingsType
 
 | Name | Description |
 | --- | --- |
-| [AccessLevel](accesslevel) { get; set; } |  |
-| [LobbyBypass](lobbybypass) { get; set; } |  |
-| [Presenters](presenters) { get; set; } |  |
+| [AccessLevel](../../aspose.email.clients.exchange.webservice.schema_2016/onlinemeetingsettingstype/accesslevel) { get; set; } |  |
+| [LobbyBypass](../../aspose.email.clients.exchange.webservice.schema_2016/onlinemeetingsettingstype/lobbybypass) { get; set; } |  |
+| [Presenters](../../aspose.email.clients.exchange.webservice.schema_2016/onlinemeetingsettingstype/presenters) { get; set; } |  |
 
 ### See Also
 

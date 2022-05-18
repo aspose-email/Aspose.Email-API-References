@@ -22,10 +22,17 @@ public class SyncFolderItemsResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [Changes](changes) { get; set; } |  |
-| [IncludesLastItemInRange](includeslastiteminrange) { get; set; } |  |
-| [IncludesLastItemInRangeSpecified](includeslastiteminrangespecified) { get; set; } |  |
-| [SyncState](syncstate) { get; set; } |  |
+| [Changes](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemsresponsemessagetype/changes) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [IncludesLastItemInRange](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemsresponsemessagetype/includeslastiteminrange) { get; set; } |  |
+| [IncludesLastItemInRangeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemsresponsemessagetype/includeslastiteminrangespecified) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
+| [SyncState](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemsresponsemessagetype/syncstate) { get; set; } |  |
 
 ### See Also
 

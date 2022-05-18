@@ -25,15 +25,15 @@ public sealed class MapiContactElectronicAddressPropertySet
 
 | Name | Description |
 | --- | --- |
-| [BusinessFax](businessfax) { get; set; } | Refers to the group of properties that define the business fax address for a contact. |
-| [DefaultEmailAddress](defaultemailaddress) { get; set; } | Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true' |
-| [Email1](email1) { get; set; } | Refers to the group of properties that define the first e-mail address for a contact. |
-| [Email2](email2) { get; set; } | Refers to the group of properties that define the second e-mail address for a contact. |
-| [Email3](email3) { get; set; } | Refers to the group of properties that define the third e-mail address for a contact. |
-| [HomeFax](homefax) { get; set; } | Refers to the group of properties that define the home fax address for a contact. |
-| [IsEmpty](isempty) { get; } | Shows if MapiContactElectronicAddressPropertySet is empty |
-| [PrimaryFax](primaryfax) { get; set; } | Refers to the group of properties that define the primary fax address for a contact. |
-| [UseAutocomplete](useautocomplete) { get; set; } | Indicates that one electronic address is completed automatically in case if user does not set any electronic address |
+| [BusinessFax](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/businessfax) { get; set; } | Refers to the group of properties that define the business fax address for a contact. |
+| [DefaultEmailAddress](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/defaultemailaddress) { get; set; } | Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set 'true' |
+| [Email1](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/email1) { get; set; } | Refers to the group of properties that define the first e-mail address for a contact. |
+| [Email2](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/email2) { get; set; } | Refers to the group of properties that define the second e-mail address for a contact. |
+| [Email3](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/email3) { get; set; } | Refers to the group of properties that define the third e-mail address for a contact. |
+| [HomeFax](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/homefax) { get; set; } | Refers to the group of properties that define the home fax address for a contact. |
+| [IsEmpty](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/isempty) { get; } | Shows if MapiContactElectronicAddressPropertySet is empty |
+| [PrimaryFax](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/primaryfax) { get; set; } | Refers to the group of properties that define the primary fax address for a contact. |
+| [UseAutocomplete](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/useautocomplete) { get; set; } | Indicates that one electronic address is completed automatically in case if user does not set any electronic address |
 
 ### See Also
 

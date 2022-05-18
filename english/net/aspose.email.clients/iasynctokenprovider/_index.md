@@ -18,7 +18,7 @@ public interface IAsyncTokenProvider : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [GetAccessTokenAsync](getaccesstokenasync)(bool, CancellationToken) | Gets oAuth access token. |
+| [GetAccessTokenAsync](../../aspose.email.clients/iasynctokenprovider/getaccesstokenasync)(bool, CancellationToken) | Gets oAuth access token. |
 
 ### See Also
 

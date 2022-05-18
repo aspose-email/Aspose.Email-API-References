@@ -22,8 +22,8 @@ public class CreateFolderPathType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ParentFolderId](parentfolderid) { get; set; } |  |
-| [RelativeFolderPath](relativefolderpath) { get; set; } |  |
+| [ParentFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/createfolderpathtype/parentfolderid) { get; set; } |  |
+| [RelativeFolderPath](../../aspose.email.clients.exchange.webservice.schema_2016/createfolderpathtype/relativefolderpath) { get; set; } |  |
 
 ### See Also
 

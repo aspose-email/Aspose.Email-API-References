@@ -22,12 +22,12 @@ public class UploadItemType
 
 | Name | Description |
 | --- | --- |
-| [CreateAction](createaction) { get; set; } |  |
-| [Data](data) { get; set; } |  |
-| [IsAssociated](isassociated) { get; set; } |  |
-| [IsAssociatedSpecified](isassociatedspecified) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
-| [ParentFolderId](parentfolderid) { get; set; } |  |
+| [CreateAction](../../aspose.email.clients.exchange.webservice.schema_2016/uploaditemtype/createaction) { get; set; } |  |
+| [Data](../../aspose.email.clients.exchange.webservice.schema_2016/uploaditemtype/data) { get; set; } |  |
+| [IsAssociated](../../aspose.email.clients.exchange.webservice.schema_2016/uploaditemtype/isassociated) { get; set; } |  |
+| [IsAssociatedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/uploaditemtype/isassociatedspecified) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/uploaditemtype/itemid) { get; set; } |  |
+| [ParentFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/uploaditemtype/parentfolderid) { get; set; } |  |
 
 ### See Also
 

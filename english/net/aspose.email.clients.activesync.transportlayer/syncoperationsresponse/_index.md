@@ -24,9 +24,9 @@ public class SyncOperationsResponse
 
 | Name | Description |
 | --- | --- |
-| [Add](add) { get; } | List of objects that indicates that a new object has to be created in a collection. |
-| [Change](change) { get; } | List of objects that indicates that a object has to be modified in a collection. |
-| [Fetch](fetch) { get; } | List of fetched objects |
+| [Add](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/add) { get; } | List of objects that indicates that a new object has to be created in a collection. |
+| [Change](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/change) { get; } | List of objects that indicates that a object has to be modified in a collection. |
+| [Fetch](../../aspose.email.clients.activesync.transportlayer/syncoperationsresponse/fetch) { get; } | List of fetched objects |
 
 ### See Also
 

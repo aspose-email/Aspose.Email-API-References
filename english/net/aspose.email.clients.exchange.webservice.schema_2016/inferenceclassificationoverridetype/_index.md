@@ -22,10 +22,10 @@ public class InferenceClassificationOverrideType
 
 | Name | Description |
 | --- | --- |
-| [AlwaysClassifyAs](alwaysclassifyas) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [SenderDisplayName](senderdisplayname) { get; set; } |  |
-| [SenderSmtpAddress](sendersmtpaddress) { get; set; } |  |
+| [AlwaysClassifyAs](../../aspose.email.clients.exchange.webservice.schema_2016/inferenceclassificationoverridetype/alwaysclassifyas) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/inferenceclassificationoverridetype/id) { get; set; } |  |
+| [SenderDisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/inferenceclassificationoverridetype/senderdisplayname) { get; set; } |  |
+| [SenderSmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/inferenceclassificationoverridetype/sendersmtpaddress) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,9 @@ public class TaskSuggestionType : EntityType
 
 | Name | Description |
 | --- | --- |
-| [Assignees](assignees) { get; set; } |  |
-| [TaskString](taskstring) { get; set; } |  |
+| [Assignees](../../aspose.email.clients.exchange.webservice.schema_2016/tasksuggestiontype/assignees) { get; set; } |  |
+| [Position](../../aspose.email.clients.exchange.webservice.schema_2016/entitytype/position) { get; set; } |  |
+| [TaskString](../../aspose.email.clients.exchange.webservice.schema_2016/tasksuggestiontype/taskstring) { get; set; } |  |
 
 ### See Also
 

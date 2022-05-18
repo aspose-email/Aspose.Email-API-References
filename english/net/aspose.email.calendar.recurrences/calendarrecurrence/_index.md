@@ -25,30 +25,30 @@ public class CalendarRecurrence : IEquatable<CalendarRecurrence>
 
 | Name | Description |
 | --- | --- |
-| [EndDate](enddate) { get; set; } | Gets or sets the end date. |
-| [ExDates](exdates) { get; } | Gets the ex dates. |
-| [ExRules](exrules) { get; } | Gets the ex rules. |
-| [RDates](rdates) { get; } | Gets the R dates. |
-| [RRules](rrules) { get; } | Gets the R rules. |
-| [StartDate](startdate) { get; set; } | Gets or sets the start date. |
+| [EndDate](../../aspose.email.calendar.recurrences/calendarrecurrence/enddate) { get; set; } | Gets or sets the end date. |
+| [ExDates](../../aspose.email.calendar.recurrences/calendarrecurrence/exdates) { get; } | Gets the ex dates. |
+| [ExRules](../../aspose.email.calendar.recurrences/calendarrecurrence/exrules) { get; } | Gets the ex rules. |
+| [RDates](../../aspose.email.calendar.recurrences/calendarrecurrence/rdates) { get; } | Gets the R dates. |
+| [RRules](../../aspose.email.calendar.recurrences/calendarrecurrence/rrules) { get; } | Gets the R rules. |
+| [StartDate](../../aspose.email.calendar.recurrences/calendarrecurrence/startdate) { get; set; } | Gets or sets the start date. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [FromiCalendar](fromicalendar)(string) | Gets a recurrence pattern from iCalendar string. |
-| static [FromRecurrence](fromrecurrence)(string) | Gets a recurrence pattern from XML pattern string. |
-| static [FromRecurrence](fromrecurrence)(XmlElement) | Gets a recurrence pattern from XmlElement. |
-| virtual [Equals](equals)(CalendarRecurrence) | Determines whether the specified [`CalendarRecurrence`](../calendarrecurrence) is equal to this instance. |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| [GenerateOccurrences](generateoccurrences)() | Generates the occurrences. |
-| [GenerateOccurrences](generateoccurrences)(int) | Generates n next occurrences. |
-| [GenerateOccurrences](generateoccurrences)(DateTime, DateTime) | Generates the occurrences. |
-| [GenerateOccurrences](generateoccurrences)(DateTime, DateTime, int) | Generates n next occurrences. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
-| [ToiCalendar](toicalendar)() | To iCalendar string. |
-| [operator ==](op_equality) | Implements the operator ==. |
-| [operator !=](op_inequality) | Implements the operator !=. |
+| static [FromiCalendar](../../aspose.email.calendar.recurrences/calendarrecurrence/fromicalendar)(string) | Gets a recurrence pattern from iCalendar string. |
+| static [FromRecurrence](../../aspose.email.calendar.recurrences/calendarrecurrence/fromrecurrence)(string) | Gets a recurrence pattern from XML pattern string. |
+| static [FromRecurrence](../../aspose.email.calendar.recurrences/calendarrecurrence/fromrecurrence)(XmlElement) | Gets a recurrence pattern from XmlElement. |
+| virtual [Equals](../../aspose.email.calendar.recurrences/calendarrecurrence/equals)(CalendarRecurrence) | Determines whether the specified [`CalendarRecurrence`](../calendarrecurrence) is equal to this instance. |
+| override [Equals](../../aspose.email.calendar.recurrences/calendarrecurrence/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| [GenerateOccurrences](../../aspose.email.calendar.recurrences/calendarrecurrence/generateoccurrences)() | Generates the occurrences. |
+| [GenerateOccurrences](../../aspose.email.calendar.recurrences/calendarrecurrence/generateoccurrences)(int) | Generates n next occurrences. |
+| [GenerateOccurrences](../../aspose.email.calendar.recurrences/calendarrecurrence/generateoccurrences)(DateTime, DateTime) | Generates the occurrences. |
+| [GenerateOccurrences](../../aspose.email.calendar.recurrences/calendarrecurrence/generateoccurrences)(DateTime, DateTime, int) | Generates n next occurrences. |
+| override [GetHashCode](../../aspose.email.calendar.recurrences/calendarrecurrence/gethashcode)() | Returns a hash code for this instance. |
+| [ToiCalendar](../../aspose.email.calendar.recurrences/calendarrecurrence/toicalendar)() | To iCalendar string. |
+| [operator ==](../../aspose.email.calendar.recurrences/calendarrecurrence/op_equality) | Implements the operator ==. |
+| [operator !=](../../aspose.email.calendar.recurrences/calendarrecurrence/op_inequality) | Implements the operator !=. |
 
 ### See Also
 

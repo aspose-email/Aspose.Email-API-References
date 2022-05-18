@@ -22,7 +22,8 @@ public class NumberedRecurrenceRangeType : RecurrenceRangeBaseType
 
 | Name | Description |
 | --- | --- |
-| [NumberOfOccurrences](numberofoccurrences) { get; set; } |  |
+| [NumberOfOccurrences](../../aspose.email.clients.exchange.webservice.schema_2016/numberedrecurrencerangetype/numberofoccurrences) { get; set; } |  |
+| [StartDate](../../aspose.email.clients.exchange.webservice.schema_2016/recurrencerangebasetype/startdate) { get; set; } |  |
 
 ### See Also
 

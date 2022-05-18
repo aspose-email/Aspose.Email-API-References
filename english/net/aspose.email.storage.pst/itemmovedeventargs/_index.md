@@ -26,11 +26,11 @@ public class ItemMovedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [DestinationFolder](destinationfolder) { get; } | Gets the destination folder. |
-| [EntryId](entryid) { get; } | Gets the string that represents the EntryId of the moved message. |
-| [IsFolder](isfolder) { get; } | Return true, if entry refers to a Folder |
-| [IsMessage](ismessage) { get; } | Return true, if entry refers to a Message |
-| [ItemProperties](itemproperties) { get; } | Gets the item properties that has been moved. |
+| [DestinationFolder](../../aspose.email.storage.pst/itemmovedeventargs/destinationfolder) { get; } | Gets the destination folder. |
+| [EntryId](../../aspose.email.storage.pst/itemmovedeventargs/entryid) { get; } | Gets the string that represents the EntryId of the moved message. |
+| [IsFolder](../../aspose.email.storage.pst/itemmovedeventargs/isfolder) { get; } | Return true, if entry refers to a Folder |
+| [IsMessage](../../aspose.email.storage.pst/itemmovedeventargs/ismessage) { get; } | Return true, if entry refers to a Message |
+| [ItemProperties](../../aspose.email.storage.pst/itemmovedeventargs/itemproperties) { get; } | Gets the item properties that has been moved. |
 
 ### See Also
 

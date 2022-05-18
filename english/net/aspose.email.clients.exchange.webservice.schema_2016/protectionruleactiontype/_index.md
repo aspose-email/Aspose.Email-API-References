@@ -22,8 +22,8 @@ public class ProtectionRuleActionType
 
 | Name | Description |
 | --- | --- |
-| [Argument](argument) { get; set; } |  |
-| [Name](name) { get; set; } |  |
+| [Argument](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruleactiontype/argument) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruleactiontype/name) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class ExtendedAttributeType
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/extendedattributetype/name) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/extendedattributetype/value) { get; set; } |  |
 
 ### See Also
 

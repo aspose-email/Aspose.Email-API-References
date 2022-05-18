@@ -22,7 +22,7 @@ public class SyncFolderItemsDeleteType
 
 | Name | Description |
 | --- | --- |
-| [ItemId](itemid) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/syncfolderitemsdeletetype/itemid) { get; set; } |  |
 
 ### See Also
 

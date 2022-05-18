@@ -22,17 +22,17 @@ public class ChangeHighlightsType
 
 | Name | Description |
 | --- | --- |
-| [End](end) { get; set; } |  |
-| [EndSpecified](endspecified) { get; set; } |  |
-| [HasEndTimeChanged](hasendtimechanged) { get; set; } |  |
-| [HasEndTimeChangedSpecified](hasendtimechangedspecified) { get; set; } |  |
-| [HasLocationChanged](haslocationchanged) { get; set; } |  |
-| [HasLocationChangedSpecified](haslocationchangedspecified) { get; set; } |  |
-| [HasStartTimeChanged](hasstarttimechanged) { get; set; } |  |
-| [HasStartTimeChangedSpecified](hasstarttimechangedspecified) { get; set; } |  |
-| [Location](location) { get; set; } |  |
-| [Start](start) { get; set; } |  |
-| [StartSpecified](startspecified) { get; set; } |  |
+| [End](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/end) { get; set; } |  |
+| [EndSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/endspecified) { get; set; } |  |
+| [HasEndTimeChanged](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/hasendtimechanged) { get; set; } |  |
+| [HasEndTimeChangedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/hasendtimechangedspecified) { get; set; } |  |
+| [HasLocationChanged](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/haslocationchanged) { get; set; } |  |
+| [HasLocationChangedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/haslocationchangedspecified) { get; set; } |  |
+| [HasStartTimeChanged](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/hasstarttimechanged) { get; set; } |  |
+| [HasStartTimeChangedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/hasstarttimechangedspecified) { get; set; } |  |
+| [Location](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/location) { get; set; } |  |
+| [Start](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/start) { get; set; } |  |
+| [StartSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/changehighlightstype/startspecified) { get; set; } |  |
 
 ### See Also
 

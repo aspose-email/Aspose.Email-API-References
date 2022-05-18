@@ -22,18 +22,18 @@ public class DelegatePermissionsType
 
 | Name | Description |
 | --- | --- |
-| [CalendarFolderPermissionLevel](calendarfolderpermissionlevel) { get; set; } |  |
-| [CalendarFolderPermissionLevelSpecified](calendarfolderpermissionlevelspecified) { get; set; } |  |
-| [ContactsFolderPermissionLevel](contactsfolderpermissionlevel) { get; set; } |  |
-| [ContactsFolderPermissionLevelSpecified](contactsfolderpermissionlevelspecified) { get; set; } |  |
-| [InboxFolderPermissionLevel](inboxfolderpermissionlevel) { get; set; } |  |
-| [InboxFolderPermissionLevelSpecified](inboxfolderpermissionlevelspecified) { get; set; } |  |
-| [JournalFolderPermissionLevel](journalfolderpermissionlevel) { get; set; } |  |
-| [JournalFolderPermissionLevelSpecified](journalfolderpermissionlevelspecified) { get; set; } |  |
-| [NotesFolderPermissionLevel](notesfolderpermissionlevel) { get; set; } |  |
-| [NotesFolderPermissionLevelSpecified](notesfolderpermissionlevelspecified) { get; set; } |  |
-| [TasksFolderPermissionLevel](tasksfolderpermissionlevel) { get; set; } |  |
-| [TasksFolderPermissionLevelSpecified](tasksfolderpermissionlevelspecified) { get; set; } |  |
+| [CalendarFolderPermissionLevel](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/calendarfolderpermissionlevel) { get; set; } |  |
+| [CalendarFolderPermissionLevelSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/calendarfolderpermissionlevelspecified) { get; set; } |  |
+| [ContactsFolderPermissionLevel](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/contactsfolderpermissionlevel) { get; set; } |  |
+| [ContactsFolderPermissionLevelSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/contactsfolderpermissionlevelspecified) { get; set; } |  |
+| [InboxFolderPermissionLevel](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/inboxfolderpermissionlevel) { get; set; } |  |
+| [InboxFolderPermissionLevelSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/inboxfolderpermissionlevelspecified) { get; set; } |  |
+| [JournalFolderPermissionLevel](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/journalfolderpermissionlevel) { get; set; } |  |
+| [JournalFolderPermissionLevelSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/journalfolderpermissionlevelspecified) { get; set; } |  |
+| [NotesFolderPermissionLevel](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/notesfolderpermissionlevel) { get; set; } |  |
+| [NotesFolderPermissionLevelSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/notesfolderpermissionlevelspecified) { get; set; } |  |
+| [TasksFolderPermissionLevel](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/tasksfolderpermissionlevel) { get; set; } |  |
+| [TasksFolderPermissionLevelSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/delegatepermissionstype/tasksfolderpermissionlevelspecified) { get; set; } |  |
 
 ### See Also
 

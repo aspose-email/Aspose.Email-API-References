@@ -18,8 +18,8 @@ public class TraversalFailureKind
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Indicates the item type that retrieval failed during the traversal. |
-| [Type](type) { get; } | Indicates the failure type. |
+| [Item](../../aspose.email.exceptions/traversalfailurekind/item) { get; } | Indicates the item type that retrieval failed during the traversal. |
+| [Type](../../aspose.email.exceptions/traversalfailurekind/type) { get; } | Indicates the failure type. |
 
 ### See Also
 

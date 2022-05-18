@@ -22,9 +22,10 @@ public class PhoneEntityType : EntityType
 
 | Name | Description |
 | --- | --- |
-| [OriginalPhoneString](originalphonestring) { get; set; } |  |
-| [PhoneString](phonestring) { get; set; } |  |
-| [Type](type) { get; set; } |  |
+| [OriginalPhoneString](../../aspose.email.clients.exchange.webservice.schema_2016/phoneentitytype/originalphonestring) { get; set; } |  |
+| [PhoneString](../../aspose.email.clients.exchange.webservice.schema_2016/phoneentitytype/phonestring) { get; set; } |  |
+| [Position](../../aspose.email.clients.exchange.webservice.schema_2016/entitytype/position) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/phoneentitytype/type) { get; set; } |  |
 
 ### See Also
 

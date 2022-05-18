@@ -22,10 +22,10 @@ public class StreamingSubscriptionRequestType
 
 | Name | Description |
 | --- | --- |
-| [EventTypes](eventtypes) { get; set; } |  |
-| [FolderIds](folderids) { get; set; } |  |
-| [SubscribeToAllFolders](subscribetoallfolders) { get; set; } |  |
-| [SubscribeToAllFoldersSpecified](subscribetoallfoldersspecified) { get; set; } |  |
+| [EventTypes](../../aspose.email.clients.exchange.webservice.schema_2016/streamingsubscriptionrequesttype/eventtypes) { get; set; } |  |
+| [FolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/streamingsubscriptionrequesttype/folderids) { get; set; } |  |
+| [SubscribeToAllFolders](../../aspose.email.clients.exchange.webservice.schema_2016/streamingsubscriptionrequesttype/subscribetoallfolders) { get; set; } |  |
+| [SubscribeToAllFoldersSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/streamingsubscriptionrequesttype/subscribetoallfoldersspecified) { get; set; } |  |
 
 ### See Also
 

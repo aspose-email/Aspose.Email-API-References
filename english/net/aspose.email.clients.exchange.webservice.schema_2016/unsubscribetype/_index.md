@@ -22,7 +22,7 @@ public class UnsubscribeType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [SubscriptionId](subscriptionid) { get; set; } |  |
+| [SubscriptionId](../../aspose.email.clients.exchange.webservice.schema_2016/unsubscribetype/subscriptionid) { get; set; } |  |
 
 ### See Also
 

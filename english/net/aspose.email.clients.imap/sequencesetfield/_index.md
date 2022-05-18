@@ -18,16 +18,16 @@ public class SequenceSetField : QueryField
 
 | Name | Description |
 | --- | --- |
-| [Values](values) { get; } | Gets values to search |
+| [Values](../../aspose.email.clients.imap/sequencesetfield/values) { get; } | Gets values to search |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(SequenceSetBaseValue) | Adds value to search. |
-| [CreateQuery](createquery)() | Creates the search key. |
-| override [ToString](tostring)() | Returns a String which represents the object instance. |
-| [implicit operator](op_implicit) | Creates the search key. |
+| [Add](../../aspose.email.clients.imap/sequencesetfield/add)(SequenceSetBaseValue) | Adds value to search. |
+| [CreateQuery](../../aspose.email.clients.imap/sequencesetfield/createquery)() | Creates the search key. |
+| override [ToString](../../aspose.email.clients.imap/sequencesetfield/tostring)() | Returns a String which represents the object instance. |
+| [implicit operator](../../aspose.email.clients.imap/sequencesetfield/op_implicit) | Creates the search key. |
 
 ### See Also
 

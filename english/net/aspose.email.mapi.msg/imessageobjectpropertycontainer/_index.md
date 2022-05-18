@@ -18,7 +18,7 @@ public interface IMessageObjectPropertyContainer
 
 | Name | Description |
 | --- | --- |
-| [Properties](properties) { get; } | Gets the properties of the container. |
+| [Properties](../../aspose.email.mapi.msg/imessageobjectpropertycontainer/properties) { get; } | Gets the properties of the container. |
 
 ### See Also
 

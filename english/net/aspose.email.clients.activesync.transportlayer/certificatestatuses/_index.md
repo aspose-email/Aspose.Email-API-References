@@ -24,13 +24,13 @@ public class CertificateStatuses
 
 | Name | Description |
 | --- | --- |
-| [Statuses](statuses) { get; } | Indicates the result of a validation. |
+| [Statuses](../../aspose.email.clients.activesync.transportlayer/certificatestatuses/statuses) { get; } | Indicates the result of a validation. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string which concatinated statuses |
+| override [ToString](../../aspose.email.clients.activesync.transportlayer/certificatestatuses/tostring)() | Returns a string which concatinated statuses |
 
 ### See Also
 

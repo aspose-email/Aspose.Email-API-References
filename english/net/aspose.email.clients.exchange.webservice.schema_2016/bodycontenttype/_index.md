@@ -22,8 +22,8 @@ public class BodyContentType
 
 | Name | Description |
 | --- | --- |
-| [BodyType](bodytype) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [BodyType](../../aspose.email.clients.exchange.webservice.schema_2016/bodycontenttype/bodytype) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/bodycontenttype/value) { get; set; } |  |
 
 ### See Also
 

@@ -22,9 +22,9 @@ public class CustomSearchScopeType
 
 | Name | Description |
 | --- | --- |
-| [FolderScope](folderscope) { get; set; } |  |
-| [IsDeepTraversal](isdeeptraversal) { get; set; } |  |
-| [MailboxGuid](mailboxguid) { get; set; } |  |
+| [FolderScope](../../aspose.email.clients.exchange.webservice.schema_2016/customsearchscopetype/folderscope) { get; set; } |  |
+| [IsDeepTraversal](../../aspose.email.clients.exchange.webservice.schema_2016/customsearchscopetype/isdeeptraversal) { get; set; } |  |
+| [MailboxGuid](../../aspose.email.clients.exchange.webservice.schema_2016/customsearchscopetype/mailboxguid) { get; set; } |  |
 
 ### See Also
 

@@ -24,8 +24,8 @@ public class ItemOperationsEmptFldrCntntsResponce
 
 | Name | Description |
 | --- | --- |
-| [CollectionId](collectionid) { get; set; } | Specifies the folder that has to be emptied. Contains ServerId of a folder. |
-| [Status](status) { get; set; } | Contains a code and description that indicates the success or failure of the ItemOperations operation. |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemoperationsemptfldrcntntsresponce/collectionid) { get; set; } | Specifies the folder that has to be emptied. Contains ServerId of a folder. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsemptfldrcntntsresponce/status) { get; set; } | Contains a code and description that indicates the success or failure of the ItemOperations operation. |
 
 ### See Also
 

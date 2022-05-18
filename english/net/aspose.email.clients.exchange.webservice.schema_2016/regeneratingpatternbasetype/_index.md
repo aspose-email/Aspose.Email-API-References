@@ -12,6 +12,12 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/regeneratingpatte
 public abstract class RegeneratingPatternBaseType : IntervalRecurrencePatternBaseType
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Interval](../../aspose.email.clients.exchange.webservice.schema_2016/intervalrecurrencepatternbasetype/interval) { get; set; } |  |
+
 ### See Also
 
 * class [IntervalRecurrencePatternBaseType](../intervalrecurrencepatternbasetype)

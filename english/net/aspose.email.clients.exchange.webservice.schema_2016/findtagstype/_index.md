@@ -22,10 +22,10 @@ public class FindTagsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Context](context) { get; set; } |  |
-| [IndexedPageItemView](indexedpageitemview) { get; set; } |  |
-| [QueryString](querystring) { get; set; } |  |
-| [SortOrder](sortorder) { get; set; } |  |
+| [Context](../../aspose.email.clients.exchange.webservice.schema_2016/findtagstype/context) { get; set; } |  |
+| [IndexedPageItemView](../../aspose.email.clients.exchange.webservice.schema_2016/findtagstype/indexedpageitemview) { get; set; } |  |
+| [QueryString](../../aspose.email.clients.exchange.webservice.schema_2016/findtagstype/querystring) { get; set; } |  |
+| [SortOrder](../../aspose.email.clients.exchange.webservice.schema_2016/findtagstype/sortorder) { get; set; } |  |
 
 ### See Also
 

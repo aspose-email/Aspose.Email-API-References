@@ -24,9 +24,9 @@ public class ContactPhoto
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; } | Gets an image data. |
-| [Id](id) { get; } | Gets object identification information |
-| [PhotoImageFormat](photoimageformat) { get; } | Gets a photo type. |
+| [Data](../../aspose.email.personalinfo/contactphoto/data) { get; } | Gets an image data. |
+| [Id](../../aspose.email.personalinfo/contactphoto/id) { get; } | Gets object identification information |
+| [PhotoImageFormat](../../aspose.email.personalinfo/contactphoto/photoimageformat) { get; } | Gets a photo type. |
 
 ### See Also
 

@@ -24,7 +24,12 @@ public class MailServerValidatingEventArgs : DomainValidatingEventArgs
 
 | Name | Description |
 | --- | --- |
-| [MailExchangeServers](mailexchangeservers) { get; } | Gets the mail exchange server list. |
+| [Domain](../../aspose.email.tools.verifications/domainvalidatingeventargs/domain) { get; } | Gets the domain. |
+| [Mail](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/mail) { get; } | Gets the mail address is being validating. |
+| [MailAddress](../../aspose.email.tools.verifications/domainvalidatingeventargs/mailaddress) { get; } | Gets the mail address. |
+| [MailExchangeServers](../../aspose.email.tools.verifications/mailservervalidatingeventargs/mailexchangeservers) { get; } | Gets the mail exchange server list. |
+| [Result](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/result) { get; set; } | Gets or sets the validation result. |
+| [Skip](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/skip) { get; set; } | Indicates whether to ignore the check. |
 
 ### See Also
 

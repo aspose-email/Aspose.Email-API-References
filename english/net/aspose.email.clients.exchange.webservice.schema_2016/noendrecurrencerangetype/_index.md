@@ -18,6 +18,12 @@ public class NoEndRecurrenceRangeType : RecurrenceRangeBaseType
 | --- | --- |
 | [NoEndRecurrenceRangeType](noendrecurrencerangetype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [StartDate](../../aspose.email.clients.exchange.webservice.schema_2016/recurrencerangebasetype/startdate) { get; set; } |  |
+
 ### See Also
 
 * class [RecurrenceRangeBaseType](../recurrencerangebasetype)

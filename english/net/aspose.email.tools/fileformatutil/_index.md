@@ -18,8 +18,8 @@ public static class FileFormatUtil
 
 | Name | Description |
 | --- | --- |
-| static [DetectFileFormat](detectfileformat)(Stream) | Detects and returns the information about a format of a file stored in a stream. |
-| static [DetectFileFormat](detectfileformat)(string) | Detects and returns the information about a format of a file. |
+| static [DetectFileFormat](../../aspose.email.tools/fileformatutil/detectfileformat)(Stream) | Detects and returns the information about a format of a file stored in a stream. |
+| static [DetectFileFormat](../../aspose.email.tools/fileformatutil/detectfileformat)(string) | Detects and returns the information about a format of a file. |
 
 ### See Also
 

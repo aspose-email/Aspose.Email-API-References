@@ -22,7 +22,7 @@ public class DeleteFocusedOtherOverrideRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/deletefocusedotheroverriderequesttype/id) { get; set; } |  |
 
 ### See Also
 

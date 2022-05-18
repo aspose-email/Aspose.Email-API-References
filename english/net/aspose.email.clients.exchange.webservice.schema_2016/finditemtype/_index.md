@@ -22,14 +22,14 @@ public class FindItemType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
-| [Item1](item1) { get; set; } |  |
-| [ItemShape](itemshape) { get; set; } |  |
-| [ParentFolderIds](parentfolderids) { get; set; } |  |
-| [QueryString](querystring) { get; set; } |  |
-| [Restriction](restriction) { get; set; } |  |
-| [SortOrder](sortorder) { get; set; } |  |
-| [Traversal](traversal) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/finditemtype/item) { get; set; } |  |
+| [Item1](../../aspose.email.clients.exchange.webservice.schema_2016/finditemtype/item1) { get; set; } |  |
+| [ItemShape](../../aspose.email.clients.exchange.webservice.schema_2016/finditemtype/itemshape) { get; set; } |  |
+| [ParentFolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/finditemtype/parentfolderids) { get; set; } |  |
+| [QueryString](../../aspose.email.clients.exchange.webservice.schema_2016/finditemtype/querystring) { get; set; } |  |
+| [Restriction](../../aspose.email.clients.exchange.webservice.schema_2016/finditemtype/restriction) { get; set; } |  |
+| [SortOrder](../../aspose.email.clients.exchange.webservice.schema_2016/finditemtype/sortorder) { get; set; } |  |
+| [Traversal](../../aspose.email.clients.exchange.webservice.schema_2016/finditemtype/traversal) { get; set; } |  |
 
 ### See Also
 

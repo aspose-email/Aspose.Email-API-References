@@ -22,7 +22,7 @@ public class OneDriveSearchScopeType
 
 | Name | Description |
 | --- | --- |
-| [OneDriveView](onedriveview) { get; set; } |  |
+| [OneDriveView](../../aspose.email.clients.exchange.webservice.schema_2016/onedrivesearchscopetype/onedriveview) { get; set; } |  |
 
 ### See Also
 

@@ -18,9 +18,9 @@ public sealed class LinkedResourceCollection : Collection<LinkedResource>, IDisp
 
 | Name | Description |
 | --- | --- |
-| [Clear](clear)(bool) | Removes all elements from this collection. |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [RemoveAt](removeat)(int, bool) | Removes the element at the specified index from this collection. |
+| [Clear](../../aspose.email/linkedresourcecollection/clear)(bool) | Removes all elements from this collection. |
+| [Dispose](../../aspose.email/linkedresourcecollection/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [RemoveAt](../../aspose.email/linkedresourcecollection/removeat)(int, bool) | Removes the element at the specified index from this collection. |
 
 ### See Also
 

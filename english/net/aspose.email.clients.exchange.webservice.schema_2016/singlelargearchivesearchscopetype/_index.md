@@ -22,9 +22,9 @@ public class SingleLargeArchiveSearchScopeType
 
 | Name | Description |
 | --- | --- |
-| [FolderScope](folderscope) { get; set; } |  |
-| [IsDeepTraversal](isdeeptraversal) { get; set; } |  |
-| [MailboxGuid](mailboxguid) { get; set; } |  |
+| [FolderScope](../../aspose.email.clients.exchange.webservice.schema_2016/singlelargearchivesearchscopetype/folderscope) { get; set; } |  |
+| [IsDeepTraversal](../../aspose.email.clients.exchange.webservice.schema_2016/singlelargearchivesearchscopetype/isdeeptraversal) { get; set; } |  |
+| [MailboxGuid](../../aspose.email.clients.exchange.webservice.schema_2016/singlelargearchivesearchscopetype/mailboxguid) { get; set; } |  |
 
 ### See Also
 

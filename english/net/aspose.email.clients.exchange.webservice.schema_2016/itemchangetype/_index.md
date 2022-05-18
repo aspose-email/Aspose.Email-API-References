@@ -22,9 +22,9 @@ public class ItemChangeType
 
 | Name | Description |
 | --- | --- |
-| [CalendarActivityData](calendaractivitydata) { get; set; } |  |
-| [Item](item) { get; set; } |  |
-| [Updates](updates) { get; set; } |  |
+| [CalendarActivityData](../../aspose.email.clients.exchange.webservice.schema_2016/itemchangetype/calendaractivitydata) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/itemchangetype/item) { get; set; } |  |
+| [Updates](../../aspose.email.clients.exchange.webservice.schema_2016/itemchangetype/updates) { get; set; } |  |
 
 ### See Also
 

@@ -22,27 +22,27 @@ public class ConversationActionType
 
 | Name | Description |
 | --- | --- |
-| [Action](action) { get; set; } |  |
-| [Categories](categories) { get; set; } |  |
-| [ContextFolderId](contextfolderid) { get; set; } |  |
-| [ConversationId](conversationid) { get; set; } |  |
-| [ConversationLastSyncTime](conversationlastsynctime) { get; set; } |  |
-| [ConversationLastSyncTimeSpecified](conversationlastsynctimespecified) { get; set; } |  |
-| [DeleteType](deletetype) { get; set; } |  |
-| [DeleteTypeSpecified](deletetypespecified) { get; set; } |  |
-| [DestinationFolderId](destinationfolderid) { get; set; } |  |
-| [EnableAlwaysDelete](enablealwaysdelete) { get; set; } |  |
-| [EnableAlwaysDeleteSpecified](enablealwaysdeletespecified) { get; set; } |  |
-| [Flag](flag) { get; set; } |  |
-| [IsRead](isread) { get; set; } |  |
-| [IsReadSpecified](isreadspecified) { get; set; } |  |
-| [ProcessRightAway](processrightaway) { get; set; } |  |
-| [ProcessRightAwaySpecified](processrightawayspecified) { get; set; } |  |
-| [RetentionPolicyTagId](retentionpolicytagid) { get; set; } |  |
-| [RetentionPolicyType](retentionpolicytype) { get; set; } |  |
-| [RetentionPolicyTypeSpecified](retentionpolicytypespecified) { get; set; } |  |
-| [SuppressReadReceipts](suppressreadreceipts) { get; set; } |  |
-| [SuppressReadReceiptsSpecified](suppressreadreceiptsspecified) { get; set; } |  |
+| [Action](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/action) { get; set; } |  |
+| [Categories](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/categories) { get; set; } |  |
+| [ContextFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/contextfolderid) { get; set; } |  |
+| [ConversationId](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/conversationid) { get; set; } |  |
+| [ConversationLastSyncTime](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/conversationlastsynctime) { get; set; } |  |
+| [ConversationLastSyncTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/conversationlastsynctimespecified) { get; set; } |  |
+| [DeleteType](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/deletetype) { get; set; } |  |
+| [DeleteTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/deletetypespecified) { get; set; } |  |
+| [DestinationFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/destinationfolderid) { get; set; } |  |
+| [EnableAlwaysDelete](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/enablealwaysdelete) { get; set; } |  |
+| [EnableAlwaysDeleteSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/enablealwaysdeletespecified) { get; set; } |  |
+| [Flag](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/flag) { get; set; } |  |
+| [IsRead](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/isread) { get; set; } |  |
+| [IsReadSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/isreadspecified) { get; set; } |  |
+| [ProcessRightAway](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/processrightaway) { get; set; } |  |
+| [ProcessRightAwaySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/processrightawayspecified) { get; set; } |  |
+| [RetentionPolicyTagId](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/retentionpolicytagid) { get; set; } |  |
+| [RetentionPolicyType](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/retentionpolicytype) { get; set; } |  |
+| [RetentionPolicyTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/retentionpolicytypespecified) { get; set; } |  |
+| [SuppressReadReceipts](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/suppressreadreceipts) { get; set; } |  |
+| [SuppressReadReceiptsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/conversationactiontype/suppressreadreceiptsspecified) { get; set; } |  |
 
 ### See Also
 

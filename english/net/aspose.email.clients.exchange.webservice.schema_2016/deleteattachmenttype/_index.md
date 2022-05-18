@@ -22,7 +22,7 @@ public class DeleteAttachmentType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [AttachmentIds](attachmentids) { get; set; } |  |
+| [AttachmentIds](../../aspose.email.clients.exchange.webservice.schema_2016/deleteattachmenttype/attachmentids) { get; set; } |  |
 
 ### See Also
 

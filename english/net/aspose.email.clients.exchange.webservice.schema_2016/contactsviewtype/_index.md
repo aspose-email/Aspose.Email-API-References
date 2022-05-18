@@ -22,8 +22,10 @@ public class ContactsViewType : BasePagingType
 
 | Name | Description |
 | --- | --- |
-| [FinalName](finalname) { get; set; } |  |
-| [InitialName](initialname) { get; set; } |  |
+| [FinalName](../../aspose.email.clients.exchange.webservice.schema_2016/contactsviewtype/finalname) { get; set; } |  |
+| [InitialName](../../aspose.email.clients.exchange.webservice.schema_2016/contactsviewtype/initialname) { get; set; } |  |
+| [MaxEntriesReturned](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturned) { get; set; } |  |
+| [MaxEntriesReturnedSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/basepagingtype/maxentriesreturnedspecified) { get; set; } |  |
 
 ### See Also
 

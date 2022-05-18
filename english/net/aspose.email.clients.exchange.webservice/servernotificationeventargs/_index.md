@@ -24,8 +24,8 @@ public class ServerNotificationEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [EventTypes](eventtypes) { get; } | Specifies event type |
-| [Folder](folder) { get; } | Specifies the known Exchange server folder. |
+| [EventTypes](../../aspose.email.clients.exchange.webservice/servernotificationeventargs/eventtypes) { get; } | Specifies event type |
+| [Folder](../../aspose.email.clients.exchange.webservice/servernotificationeventargs/folder) { get; } | Specifies the known Exchange server folder. |
 
 ### See Also
 

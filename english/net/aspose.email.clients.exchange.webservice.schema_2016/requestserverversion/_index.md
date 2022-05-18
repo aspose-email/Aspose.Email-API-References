@@ -22,8 +22,8 @@ public class RequestServerVersion : SoapHeader
 
 | Name | Description |
 | --- | --- |
-| [AnyAttr](anyattr) { get; set; } |  |
-| [Version](version) { get; set; } |  |
+| [AnyAttr](../../aspose.email.clients.exchange.webservice.schema_2016/requestserverversion/anyattr) { get; set; } |  |
+| [Version](../../aspose.email.clients.exchange.webservice.schema_2016/requestserverversion/version) { get; set; } |  |
 
 ### See Also
 

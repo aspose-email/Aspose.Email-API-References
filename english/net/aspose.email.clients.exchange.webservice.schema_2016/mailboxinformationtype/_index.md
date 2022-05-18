@@ -22,9 +22,9 @@ public class MailboxInformationType
 
 | Name | Description |
 | --- | --- |
-| [MailboxAddress](mailboxaddress) { get; set; } |  |
-| [MailboxDisplayName](mailboxdisplayname) { get; set; } |  |
-| [MailboxGuid](mailboxguid) { get; set; } |  |
+| [MailboxAddress](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxinformationtype/mailboxaddress) { get; set; } |  |
+| [MailboxDisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxinformationtype/mailboxdisplayname) { get; set; } |  |
+| [MailboxGuid](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxinformationtype/mailboxguid) { get; set; } |  |
 
 ### See Also
 

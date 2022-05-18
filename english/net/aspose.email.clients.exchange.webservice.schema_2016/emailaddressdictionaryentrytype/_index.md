@@ -22,12 +22,12 @@ public class EmailAddressDictionaryEntryType
 
 | Name | Description |
 | --- | --- |
-| [Key](key) { get; set; } |  |
-| [MailboxType](mailboxtype) { get; set; } |  |
-| [MailboxTypeSpecified](mailboxtypespecified) { get; set; } |  |
-| [Name](name) { get; set; } |  |
-| [RoutingType](routingtype) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Key](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressdictionaryentrytype/key) { get; set; } |  |
+| [MailboxType](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressdictionaryentrytype/mailboxtype) { get; set; } |  |
+| [MailboxTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressdictionaryentrytype/mailboxtypespecified) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressdictionaryentrytype/name) { get; set; } |  |
+| [RoutingType](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressdictionaryentrytype/routingtype) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressdictionaryentrytype/value) { get; set; } |  |
 
 ### See Also
 

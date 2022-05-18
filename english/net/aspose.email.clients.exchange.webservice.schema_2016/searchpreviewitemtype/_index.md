@@ -22,34 +22,34 @@ public class SearchPreviewItemType
 
 | Name | Description |
 | --- | --- |
-| [BccRecipients](bccrecipients) { get; set; } |  |
-| [CcRecipients](ccrecipients) { get; set; } |  |
-| [CreatedTime](createdtime) { get; set; } |  |
-| [CreatedTimeSpecified](createdtimespecified) { get; set; } |  |
-| [ExtendedProperties](extendedproperties) { get; set; } |  |
-| [HasAttachment](hasattachment) { get; set; } |  |
-| [HasAttachmentSpecified](hasattachmentspecified) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [Importance](importance) { get; set; } |  |
-| [ImportanceSpecified](importancespecified) { get; set; } |  |
-| [ItemClass](itemclass) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
-| [OwaLink](owalink) { get; set; } |  |
-| [ParentId](parentid) { get; set; } |  |
-| [Preview](preview) { get; set; } |  |
-| [Read](read) { get; set; } |  |
-| [ReadSpecified](readspecified) { get; set; } |  |
-| [ReceivedTime](receivedtime) { get; set; } |  |
-| [ReceivedTimeSpecified](receivedtimespecified) { get; set; } |  |
-| [Sender](sender) { get; set; } |  |
-| [SentTime](senttime) { get; set; } |  |
-| [SentTimeSpecified](senttimespecified) { get; set; } |  |
-| [Size](size) { get; set; } |  |
-| [SizeSpecified](sizespecified) { get; set; } |  |
-| [SortValue](sortvalue) { get; set; } |  |
-| [Subject](subject) { get; set; } |  |
-| [ToRecipients](torecipients) { get; set; } |  |
-| [UniqueHash](uniquehash) { get; set; } |  |
+| [BccRecipients](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/bccrecipients) { get; set; } |  |
+| [CcRecipients](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/ccrecipients) { get; set; } |  |
+| [CreatedTime](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/createdtime) { get; set; } |  |
+| [CreatedTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/createdtimespecified) { get; set; } |  |
+| [ExtendedProperties](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/extendedproperties) { get; set; } |  |
+| [HasAttachment](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/hasattachment) { get; set; } |  |
+| [HasAttachmentSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/hasattachmentspecified) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/id) { get; set; } |  |
+| [Importance](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/importance) { get; set; } |  |
+| [ImportanceSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/importancespecified) { get; set; } |  |
+| [ItemClass](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/itemclass) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/mailbox) { get; set; } |  |
+| [OwaLink](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/owalink) { get; set; } |  |
+| [ParentId](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/parentid) { get; set; } |  |
+| [Preview](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/preview) { get; set; } |  |
+| [Read](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/read) { get; set; } |  |
+| [ReadSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/readspecified) { get; set; } |  |
+| [ReceivedTime](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/receivedtime) { get; set; } |  |
+| [ReceivedTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/receivedtimespecified) { get; set; } |  |
+| [Sender](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/sender) { get; set; } |  |
+| [SentTime](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/senttime) { get; set; } |  |
+| [SentTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/senttimespecified) { get; set; } |  |
+| [Size](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/size) { get; set; } |  |
+| [SizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/sizespecified) { get; set; } |  |
+| [SortValue](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/sortvalue) { get; set; } |  |
+| [Subject](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/subject) { get; set; } |  |
+| [ToRecipients](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/torecipients) { get; set; } |  |
+| [UniqueHash](../../aspose.email.clients.exchange.webservice.schema_2016/searchpreviewitemtype/uniquehash) { get; set; } |  |
 
 ### See Also
 

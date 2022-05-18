@@ -22,9 +22,9 @@ public class RelativeYearlyRecurrencePatternType : RecurrencePatternBaseType
 
 | Name | Description |
 | --- | --- |
-| [DayOfWeekIndex](dayofweekindex) { get; set; } |  |
-| [DaysOfWeek](daysofweek) { get; set; } |  |
-| [Month](month) { get; set; } |  |
+| [DayOfWeekIndex](../../aspose.email.clients.exchange.webservice.schema_2016/relativeyearlyrecurrencepatterntype/dayofweekindex) { get; set; } |  |
+| [DaysOfWeek](../../aspose.email.clients.exchange.webservice.schema_2016/relativeyearlyrecurrencepatterntype/daysofweek) { get; set; } |  |
+| [Month](../../aspose.email.clients.exchange.webservice.schema_2016/relativeyearlyrecurrencepatterntype/month) { get; set; } |  |
 
 ### See Also
 

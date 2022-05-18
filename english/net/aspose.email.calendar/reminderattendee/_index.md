@@ -24,7 +24,7 @@ public class ReminderAttendee
 
 | Name | Description |
 | --- | --- |
-| [Address](address) { get; set; } | Contains the email address. |
+| [Address](../../aspose.email.calendar/reminderattendee/address) { get; set; } | Contains the email address. |
 
 ### See Also
 

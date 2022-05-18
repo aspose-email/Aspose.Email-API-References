@@ -24,8 +24,8 @@ public class PersonalStorageLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [LeaveStreamOpen](leavestreamopen) { get; set; } | Leave stream open when PersonalStorage is disposed. Should always be false when [`FromFile`](../personalstorage/fromfile) method is used. |
-| [Writable](writable) { get; set; } | Gets or sets a value indicating whether the pst is writable. |
+| [LeaveStreamOpen](../../aspose.email.storage.pst/personalstorageloadoptions/leavestreamopen) { get; set; } | Leave stream open when PersonalStorage is disposed. Should always be false when [`FromFile`](../personalstorage/fromfile) method is used. |
+| [Writable](../../aspose.email.storage.pst/personalstorageloadoptions/writable) { get; set; } | Gets or sets a value indicating whether the pst is writable. |
 
 ### See Also
 

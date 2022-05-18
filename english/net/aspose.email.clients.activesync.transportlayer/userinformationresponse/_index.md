@@ -24,9 +24,9 @@ public class UserInformationResponse
 
 | Name | Description |
 | --- | --- |
-| [Accounts](accounts) { get; } | Contains list of objects with users account information. |
-| [SMTPAddresses](smtpaddresses) { get; } | Specifies one of the user's email addresses. The element is only supported when the protocol version is 12.1 or 14.0. |
-| [Status](status) { get; set; } | Indicates the result of the ActiveSync command request. |
+| [Accounts](../../aspose.email.clients.activesync.transportlayer/userinformationresponse/accounts) { get; } | Contains list of objects with users account information. |
+| [SMTPAddresses](../../aspose.email.clients.activesync.transportlayer/userinformationresponse/smtpaddresses) { get; } | Specifies one of the user's email addresses. The element is only supported when the protocol version is 12.1 or 14.0. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/userinformationresponse/status) { get; set; } | Indicates the result of the ActiveSync command request. |
 
 ### See Also
 

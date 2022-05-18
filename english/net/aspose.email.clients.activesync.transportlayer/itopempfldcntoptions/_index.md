@@ -24,7 +24,7 @@ public class ItOpEmpFldCntOptions
 
 | Name | Description |
 | --- | --- |
-| [DeleteSubFolders](deletesubfolders) { get; set; } | Indicates whether to delete the subfolders of the specified folder. If the DeleteSubFolders option is not included in the request, the subfolders of the specified CollectionId are not deleted. |
+| [DeleteSubFolders](../../aspose.email.clients.activesync.transportlayer/itopempfldcntoptions/deletesubfolders) { get; set; } | Indicates whether to delete the subfolders of the specified folder. If the DeleteSubFolders option is not included in the request, the subfolders of the specified CollectionId are not deleted. |
 
 ### See Also
 

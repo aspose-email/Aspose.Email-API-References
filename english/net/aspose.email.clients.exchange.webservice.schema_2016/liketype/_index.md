@@ -22,12 +22,12 @@ public class LikeType
 
 | Name | Description |
 | --- | --- |
-| [Application](application) { get; set; } |  |
-| [CreatedBy](createdby) { get; set; } |  |
-| [CreatedDateTime](createddatetime) { get; set; } |  |
-| [DeepLink](deeplink) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [ServerCreatedDateTime](servercreateddatetime) { get; set; } |  |
+| [Application](../../aspose.email.clients.exchange.webservice.schema_2016/liketype/application) { get; set; } |  |
+| [CreatedBy](../../aspose.email.clients.exchange.webservice.schema_2016/liketype/createdby) { get; set; } |  |
+| [CreatedDateTime](../../aspose.email.clients.exchange.webservice.schema_2016/liketype/createddatetime) { get; set; } |  |
+| [DeepLink](../../aspose.email.clients.exchange.webservice.schema_2016/liketype/deeplink) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/liketype/id) { get; set; } |  |
+| [ServerCreatedDateTime](../../aspose.email.clients.exchange.webservice.schema_2016/liketype/servercreateddatetime) { get; set; } |  |
 
 ### See Also
 

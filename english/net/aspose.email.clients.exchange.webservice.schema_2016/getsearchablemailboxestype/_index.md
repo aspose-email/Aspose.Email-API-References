@@ -22,9 +22,9 @@ public class GetSearchableMailboxesType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ExpandGroupMembership](expandgroupmembership) { get; set; } |  |
-| [ExpandGroupMembershipSpecified](expandgroupmembershipspecified) { get; set; } |  |
-| [SearchFilter](searchfilter) { get; set; } |  |
+| [ExpandGroupMembership](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchablemailboxestype/expandgroupmembership) { get; set; } |  |
+| [ExpandGroupMembershipSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchablemailboxestype/expandgroupmembershipspecified) { get; set; } |  |
+| [SearchFilter](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchablemailboxestype/searchfilter) { get; set; } |  |
 
 ### See Also
 

@@ -24,7 +24,17 @@ public sealed class TaskRegeneratingPattern : RecurrencePattern
 
 | Name | Description |
 | --- | --- |
-| [RegeneratingType](regeneratingtype) { get; set; } | Gets or sets a type of regenerating pattern. |
+| [EndDate](../../aspose.email.calendar.recurrences/recurrencepattern/enddate) { get; set; } | Gets or sets the end date. |
+| [Interval](../../aspose.email.calendar.recurrences/recurrencepattern/interval) { get; set; } | Gets or sets the number of recurrence units. |
+| [Occurs](../../aspose.email.calendar.recurrences/recurrencepattern/occurs) { get; set; } | Gets or sets the number of occurrences of the recurrence pattern. |
+| [RegeneratingType](../../aspose.email.clients.exchange.webservice/taskregeneratingpattern/regeneratingtype) { get; set; } | Gets or sets a type of regenerating pattern. |
+| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Gets or sets the week start. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email.calendar.recurrences/recurrencepattern/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

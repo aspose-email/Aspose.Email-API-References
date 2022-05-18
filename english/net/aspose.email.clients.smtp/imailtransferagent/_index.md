@@ -18,7 +18,7 @@ public interface IMailTransferAgent : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Send](send)(MailMessage) | Send an Email message. |
+| [Send](../../aspose.email.clients.smtp/imailtransferagent/send)(MailMessage) | Send an Email message. |
 
 ### See Also
 

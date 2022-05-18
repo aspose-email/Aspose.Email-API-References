@@ -24,8 +24,11 @@ public class DomainValidatingEventArgs : SyntaxValidatingEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Domain](domain) { get; } | Gets the domain. |
-| [MailAddress](mailaddress) { get; } | Gets the mail address. |
+| [Domain](../../aspose.email.tools.verifications/domainvalidatingeventargs/domain) { get; } | Gets the domain. |
+| [Mail](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/mail) { get; } | Gets the mail address is being validating. |
+| [MailAddress](../../aspose.email.tools.verifications/domainvalidatingeventargs/mailaddress) { get; } | Gets the mail address. |
+| [Result](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/result) { get; set; } | Gets or sets the validation result. |
+| [Skip](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/skip) { get; set; } | Indicates whether to ignore the check. |
 
 ### See Also
 

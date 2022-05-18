@@ -22,8 +22,8 @@ public class ConversationRequestType
 
 | Name | Description |
 | --- | --- |
-| [ConversationId](conversationid) { get; set; } |  |
-| [SyncState](syncstate) { get; set; } |  |
+| [ConversationId](../../aspose.email.clients.exchange.webservice.schema_2016/conversationrequesttype/conversationid) { get; set; } |  |
+| [SyncState](../../aspose.email.clients.exchange.webservice.schema_2016/conversationrequesttype/syncstate) { get; set; } |  |
 
 ### See Also
 

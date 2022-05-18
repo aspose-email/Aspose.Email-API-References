@@ -22,7 +22,7 @@ public class GetClientAccessTokenType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [TokenRequests](tokenrequests) { get; set; } |  |
+| [TokenRequests](../../aspose.email.clients.exchange.webservice.schema_2016/getclientaccesstokentype/tokenrequests) { get; set; } |  |
 
 ### See Also
 

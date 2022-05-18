@@ -25,14 +25,14 @@ public class ErrorDetails
 
 | Name | Description |
 | --- | --- |
-| [Domain](domain) { get; set; } | Domain, or broad category, of the error. |
-| [Reason](reason) { get; set; } | Specific reason for the error. |
+| [Domain](../../aspose.email.clients.google/errordetails/domain) { get; set; } | Domain, or broad category, of the error. |
+| [Reason](../../aspose.email.clients.google/errordetails/reason) { get; set; } | Specific reason for the error. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String which represents the object instance. |
+| override [ToString](../../aspose.email.clients.google/errordetails/tostring)() | Returns a String which represents the object instance. |
 
 ### See Also
 

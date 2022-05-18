@@ -24,10 +24,10 @@ public class OOFSettings
 
 | Name | Description |
 | --- | --- |
-| [EndTime](endtime) { get; set; } | End time during which the user is out of office. |
-| [OofMessage](oofmessage) { get; } | Specifies the OOF message for a particular audience. Exchange 2007, Exchange 2010, and Exchange 2013 require that the reply message for unknown external and known external audiences be the same. The property supports the following three audiences for an OOF message: Internal — A user who is in the same organization as the sending user. Known external — A user who is outside the sending user's organization, but is represented in the sending user's contacts. Unknown external — A user who is outside the sending user's organization and is not represented in the sending user's contacts. |
-| [OofState](oofstate) { get; set; } | Specifies the availability of the Oof property. |
-| [StartTime](starttime) { get; set; } | Start time during which the user is out of office. |
+| [EndTime](../../aspose.email.clients.activesync.transportlayer/oofsettings/endtime) { get; set; } | End time during which the user is out of office. |
+| [OofMessage](../../aspose.email.clients.activesync.transportlayer/oofsettings/oofmessage) { get; } | Specifies the OOF message for a particular audience. Exchange 2007, Exchange 2010, and Exchange 2013 require that the reply message for unknown external and known external audiences be the same. The property supports the following three audiences for an OOF message: Internal — A user who is in the same organization as the sending user. Known external — A user who is outside the sending user's organization, but is represented in the sending user's contacts. Unknown external — A user who is outside the sending user's organization and is not represented in the sending user's contacts. |
+| [OofState](../../aspose.email.clients.activesync.transportlayer/oofsettings/oofstate) { get; set; } | Specifies the availability of the Oof property. |
+| [StartTime](../../aspose.email.clients.activesync.transportlayer/oofsettings/starttime) { get; set; } | Start time during which the user is out of office. |
 
 ### See Also
 

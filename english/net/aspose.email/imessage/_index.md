@@ -18,23 +18,23 @@ public interface IMessage
 
 | Name | Description |
 | --- | --- |
-| [Attachments](attachments) { get; } | Gets message attachments |
-| [Bcc](bcc) { get; } | Gets BCC recipients |
-| [Body](body) { get; set; } | Gets or sets a message body |
-| [BodyType](bodytype) { get; } | Gets the type of the body. |
-| [CC](cc) { get; } | Gets CC recipients |
-| [Date](date) { get; } | Gets the date and time when message was delivered |
-| [From](from) { get; set; } | Gets or sets a from address |
-| [HtmlBody](htmlbody) { get; set; } | Gets or sets a html formatted message body |
-| [Subject](subject) { get; set; } | Gets or sets a message subject |
-| [To](to) { get; } | Gets recipients |
+| [Attachments](../../aspose.email/imessage/attachments) { get; } | Gets message attachments |
+| [Bcc](../../aspose.email/imessage/bcc) { get; } | Gets BCC recipients |
+| [Body](../../aspose.email/imessage/body) { get; set; } | Gets or sets a message body |
+| [BodyType](../../aspose.email/imessage/bodytype) { get; } | Gets the type of the body. |
+| [CC](../../aspose.email/imessage/cc) { get; } | Gets CC recipients |
+| [Date](../../aspose.email/imessage/date) { get; } | Gets the date and time when message was delivered |
+| [From](../../aspose.email/imessage/from) { get; set; } | Gets or sets a from address |
+| [HtmlBody](../../aspose.email/imessage/htmlbody) { get; set; } | Gets or sets a html formatted message body |
+| [Subject](../../aspose.email/imessage/subject) { get; set; } | Gets or sets a message subject |
+| [To](../../aspose.email/imessage/to) { get; } | Gets recipients |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(Stream) | Saves message to the specified stream |
-| [Save](save)(string) | Saves message to the specified file |
+| [Save](../../aspose.email/imessage/save)(Stream) | Saves message to the specified stream |
+| [Save](../../aspose.email/imessage/save)(string) | Saves message to the specified file |
 
 ### See Also
 

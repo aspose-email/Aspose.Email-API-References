@@ -22,9 +22,10 @@ public class UpdateDelegateType : BaseDelegateType
 
 | Name | Description |
 | --- | --- |
-| [DelegateUsers](delegateusers) { get; set; } |  |
-| [DeliverMeetingRequests](delivermeetingrequests) { get; set; } |  |
-| [DeliverMeetingRequestsSpecified](delivermeetingrequestsspecified) { get; set; } |  |
+| [DelegateUsers](../../aspose.email.clients.exchange.webservice.schema_2016/updatedelegatetype/delegateusers) { get; set; } |  |
+| [DeliverMeetingRequests](../../aspose.email.clients.exchange.webservice.schema_2016/updatedelegatetype/delivermeetingrequests) { get; set; } |  |
+| [DeliverMeetingRequestsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/updatedelegatetype/delivermeetingrequestsspecified) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/basedelegatetype/mailbox) { get; set; } |  |
 
 ### See Also
 

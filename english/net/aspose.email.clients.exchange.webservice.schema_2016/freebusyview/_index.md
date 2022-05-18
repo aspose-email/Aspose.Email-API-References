@@ -22,10 +22,10 @@ public class FreeBusyView
 
 | Name | Description |
 | --- | --- |
-| [CalendarEventArray](calendareventarray) { get; set; } |  |
-| [FreeBusyViewType](freebusyviewtype) { get; set; } |  |
-| [MergedFreeBusy](mergedfreebusy) { get; set; } |  |
-| [WorkingHours](workinghours) { get; set; } |  |
+| [CalendarEventArray](../../aspose.email.clients.exchange.webservice.schema_2016/freebusyview/calendareventarray) { get; set; } |  |
+| [FreeBusyViewType](../../aspose.email.clients.exchange.webservice.schema_2016/freebusyview/freebusyviewtype) { get; set; } |  |
+| [MergedFreeBusy](../../aspose.email.clients.exchange.webservice.schema_2016/freebusyview/mergedfreebusy) { get; set; } |  |
+| [WorkingHours](../../aspose.email.clients.exchange.webservice.schema_2016/freebusyview/workinghours) { get; set; } |  |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public static class MapiCalendarRecurrencePatternFactory
 
 | Name | Description |
 | --- | --- |
-| static [FromString](fromstring)(string) | Creates MapiCalendarRecurrencePattern from string pattern of recurrence rule. |
+| static [FromString](../../aspose.email.mapi/mapicalendarrecurrencepatternfactory/fromstring)(string) | Creates MapiCalendarRecurrencePattern from string pattern of recurrence rule. |
 
 ### See Also
 

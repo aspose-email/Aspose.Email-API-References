@@ -22,11 +22,11 @@ public class GetDiscoverySearchConfigurationType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ExpandGroupMembership](expandgroupmembership) { get; set; } |  |
-| [ExpandGroupMembershipSpecified](expandgroupmembershipspecified) { get; set; } |  |
-| [InPlaceHoldConfigurationOnly](inplaceholdconfigurationonly) { get; set; } |  |
-| [InPlaceHoldConfigurationOnlySpecified](inplaceholdconfigurationonlyspecified) { get; set; } |  |
-| [SearchId](searchid) { get; set; } |  |
+| [ExpandGroupMembership](../../aspose.email.clients.exchange.webservice.schema_2016/getdiscoverysearchconfigurationtype/expandgroupmembership) { get; set; } |  |
+| [ExpandGroupMembershipSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getdiscoverysearchconfigurationtype/expandgroupmembershipspecified) { get; set; } |  |
+| [InPlaceHoldConfigurationOnly](../../aspose.email.clients.exchange.webservice.schema_2016/getdiscoverysearchconfigurationtype/inplaceholdconfigurationonly) { get; set; } |  |
+| [InPlaceHoldConfigurationOnlySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getdiscoverysearchconfigurationtype/inplaceholdconfigurationonlyspecified) { get; set; } |  |
+| [SearchId](../../aspose.email.clients.exchange.webservice.schema_2016/getdiscoverysearchconfigurationtype/searchid) { get; set; } |  |
 
 ### See Also
 

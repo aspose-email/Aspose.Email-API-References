@@ -22,14 +22,14 @@ public class GetRemindersType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [BeginTime](begintime) { get; set; } |  |
-| [BeginTimeSpecified](begintimespecified) { get; set; } |  |
-| [EndTime](endtime) { get; set; } |  |
-| [EndTimeSpecified](endtimespecified) { get; set; } |  |
-| [MaxItems](maxitems) { get; set; } |  |
-| [MaxItemsSpecified](maxitemsspecified) { get; set; } |  |
-| [ReminderType](remindertype) { get; set; } |  |
-| [ReminderTypeSpecified](remindertypespecified) { get; set; } |  |
+| [BeginTime](../../aspose.email.clients.exchange.webservice.schema_2016/getreminderstype/begintime) { get; set; } |  |
+| [BeginTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getreminderstype/begintimespecified) { get; set; } |  |
+| [EndTime](../../aspose.email.clients.exchange.webservice.schema_2016/getreminderstype/endtime) { get; set; } |  |
+| [EndTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getreminderstype/endtimespecified) { get; set; } |  |
+| [MaxItems](../../aspose.email.clients.exchange.webservice.schema_2016/getreminderstype/maxitems) { get; set; } |  |
+| [MaxItemsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getreminderstype/maxitemsspecified) { get; set; } |  |
+| [ReminderType](../../aspose.email.clients.exchange.webservice.schema_2016/getreminderstype/remindertype) { get; set; } |  |
+| [ReminderTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getreminderstype/remindertypespecified) { get; set; } |  |
 
 ### See Also
 

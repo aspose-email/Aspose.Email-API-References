@@ -16,7 +16,7 @@ public class SetUserOofSettingsCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/setuseroofsettingscompletedeventargs/result) { get; } |  |
 
 ### See Also
 

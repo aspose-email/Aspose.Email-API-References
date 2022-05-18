@@ -26,14 +26,16 @@ public class StandardFormatter : Formatter
 
 | Name | Description |
 | --- | --- |
-| override [Footer](footer) { get; } | Gest the footer string. |
-| override [Header](header) { get; } | Gets the log header. |
+| override [Footer](../../aspose.email.tools.logging/standardformatter/footer) { get; } | Gest the footer string. |
+| override [Header](../../aspose.email.tools.logging/standardformatter/header) { get; } | Gets the log header. |
+| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Gets or sets the log header |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Format](format)(LogEntry) | Formats a log entry and return a string to be outputted. |
+| virtual [Format](../../aspose.email.tools.logging/formatter/format)(DateTime) | Formats a datetime and return a string to be outputted. |
+| override [Format](../../aspose.email.tools.logging/standardformatter/format)(LogEntry) | Formats a log entry and return a string to be outputted. |
 
 ### See Also
 

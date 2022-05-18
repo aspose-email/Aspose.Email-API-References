@@ -22,12 +22,12 @@ public class DiscoverySearchConfigurationType
 
 | Name | Description |
 | --- | --- |
-| [InPlaceHoldIdentity](inplaceholdidentity) { get; set; } |  |
-| [Language](language) { get; set; } |  |
-| [ManagedByOrganization](managedbyorganization) { get; set; } |  |
-| [SearchableMailboxes](searchablemailboxes) { get; set; } |  |
-| [SearchId](searchid) { get; set; } |  |
-| [SearchQuery](searchquery) { get; set; } |  |
+| [InPlaceHoldIdentity](../../aspose.email.clients.exchange.webservice.schema_2016/discoverysearchconfigurationtype/inplaceholdidentity) { get; set; } |  |
+| [Language](../../aspose.email.clients.exchange.webservice.schema_2016/discoverysearchconfigurationtype/language) { get; set; } |  |
+| [ManagedByOrganization](../../aspose.email.clients.exchange.webservice.schema_2016/discoverysearchconfigurationtype/managedbyorganization) { get; set; } |  |
+| [SearchableMailboxes](../../aspose.email.clients.exchange.webservice.schema_2016/discoverysearchconfigurationtype/searchablemailboxes) { get; set; } |  |
+| [SearchId](../../aspose.email.clients.exchange.webservice.schema_2016/discoverysearchconfigurationtype/searchid) { get; set; } |  |
+| [SearchQuery](../../aspose.email.clients.exchange.webservice.schema_2016/discoverysearchconfigurationtype/searchquery) { get; set; } |  |
 
 ### See Also
 

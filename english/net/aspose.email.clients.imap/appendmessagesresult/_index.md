@@ -24,9 +24,9 @@ public class AppendMessagesResult
 
 | Name | Description |
 | --- | --- |
-| [Failed](failed) { get; } | Gets mail messages that have been handled with errors |
-| [NotHandled](nothandled) { get; } | Gets mail messages that have not been handled |
-| [Succeeded](succeeded) { get; } | Gets mail messages that have been handled successfully |
+| [Failed](../../aspose.email.clients.imap/appendmessagesresult/failed) { get; } | Gets mail messages that have been handled with errors |
+| [NotHandled](../../aspose.email.clients.imap/appendmessagesresult/nothandled) { get; } | Gets mail messages that have not been handled |
+| [Succeeded](../../aspose.email.clients.imap/appendmessagesresult/succeeded) { get; } | Gets mail messages that have been handled successfully |
 
 ### See Also
 

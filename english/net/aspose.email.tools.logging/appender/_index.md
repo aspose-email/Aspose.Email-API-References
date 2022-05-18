@@ -18,17 +18,17 @@ public abstract class Appender : IAppender, IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Formatter](formatter) { get; set; } | Gets or sets the formatter. |
+| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Gets or sets the formatter. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| abstract [Append](append)(LogEntry) | Appends the specified log entry to the appender. |
-| virtual [AppendHeader](appendheader)() | Starts log file with specific header. |
-| virtual [Close](close)() | Closes the appender. |
-| [Dispose](dispose)() | Releases the unmanaged resources used by the Appender. |
-| virtual [Initialize](initialize)() | Initializes the appender instance. |
+| abstract [Append](../../aspose.email.tools.logging/appender/append)(LogEntry) | Appends the specified log entry to the appender. |
+| virtual [AppendHeader](../../aspose.email.tools.logging/appender/appendheader)() | Starts log file with specific header. |
+| virtual [Close](../../aspose.email.tools.logging/appender/close)() | Closes the appender. |
+| [Dispose](../../aspose.email.tools.logging/appender/dispose)() | Releases the unmanaged resources used by the Appender. |
+| virtual [Initialize](../../aspose.email.tools.logging/appender/initialize)() | Initializes the appender instance. |
 
 ### See Also
 

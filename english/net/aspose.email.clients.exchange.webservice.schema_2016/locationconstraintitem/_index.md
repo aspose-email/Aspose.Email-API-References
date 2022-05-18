@@ -22,9 +22,10 @@ public class LocationConstraintItem : MeetingTimeCandidatesConstraintItem
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } |  |
-| [ResolveAvailability](resolveavailability) { get; set; } |  |
-| [ResolveAvailabilitySpecified](resolveavailabilityspecified) { get; set; } |  |
+| [Email](../../aspose.email.clients.exchange.webservice.schema_2016/meetingtimecandidatesconstraintitem/email) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/locationconstraintitem/name) { get; set; } |  |
+| [ResolveAvailability](../../aspose.email.clients.exchange.webservice.schema_2016/locationconstraintitem/resolveavailability) { get; set; } |  |
+| [ResolveAvailabilitySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/locationconstraintitem/resolveavailabilityspecified) { get; set; } |  |
 
 ### See Also
 

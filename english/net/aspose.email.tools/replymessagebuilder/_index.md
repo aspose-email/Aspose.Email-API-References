@@ -24,14 +24,17 @@ public class ReplyMessageBuilder : ResponseMessageBuilder
 
 | Name | Description |
 | --- | --- |
-| [ReplyAll](replyall) { get; set; } | Provides automatic adding recipients in replying message. |
+| [AdditionMode](../../aspose.email.tools/responsemessagebuilder/additionmode) { get; set; } | Gets or sets the format of response message. |
+| [ReplyAll](../../aspose.email.tools/replymessagebuilder/replyall) { get; set; } | Provides automatic adding recipients in replying message. |
+| [ResponseText](../../aspose.email.tools/responsemessagebuilder/responsetext) { get; set; } | Gets or sets the body of response message. |
+| [Sender](../../aspose.email.tools/responsemessagebuilder/sender) { get; set; } | Gets or sets the addres from which the response message will be sent. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [BuildResponse](buildresponse)(MailMessage) | Builds the replying messages. |
-| override [BuildResponse](buildresponse)(MapiMessage) | Builds the replying messages. |
+| override [BuildResponse](../../aspose.email.tools/replymessagebuilder/buildresponse)(MailMessage) | Builds the replying messages. |
+| override [BuildResponse](../../aspose.email.tools/replymessagebuilder/buildresponse)(MapiMessage) | Builds the replying messages. |
 
 ### See Also
 

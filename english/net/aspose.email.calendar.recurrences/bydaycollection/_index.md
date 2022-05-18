@@ -18,10 +18,10 @@ public class ByDayCollection : Collection<ByDay>
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(ByDay) | Adds a [`ByDay`](../byday) to the collection. |
-| [Add](add)(DayOfWeek) | Creates and adds a [`ByDay`](../byday) that represents all occurrences of the day of the week to the collection. |
-| [Add](add)(int, DayOfWeek) | Creates and adds a [`ByDay`](../byday) to the collection. |
-| [Contains](contains)(DayOfWeek) | Returns a value indicating whether a specified day of week is present in the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add)(ByDay) | Adds a [`ByDay`](../byday) to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add)(DayOfWeek) | Creates and adds a [`ByDay`](../byday) that represents all occurrences of the day of the week to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add)(int, DayOfWeek) | Creates and adds a [`ByDay`](../byday) to the collection. |
+| [Contains](../../aspose.email.calendar.recurrences/bydaycollection/contains)(DayOfWeek) | Returns a value indicating whether a specified day of week is present in the collection. |
 
 ### Remarks
 

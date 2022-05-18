@@ -22,8 +22,8 @@ public class MailboxQueryType
 
 | Name | Description |
 | --- | --- |
-| [MailboxSearchScopes](mailboxsearchscopes) { get; set; } |  |
-| [Query](query) { get; set; } |  |
+| [MailboxSearchScopes](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxquerytype/mailboxsearchscopes) { get; set; } |  |
+| [Query](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxquerytype/query) { get; set; } |  |
 
 ### See Also
 

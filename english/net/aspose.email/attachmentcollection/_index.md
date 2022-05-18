@@ -18,7 +18,7 @@ public sealed class AttachmentCollection : Collection<Attachment>, IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Dispose](../../aspose.email/attachmentcollection/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 
 ### See Also
 

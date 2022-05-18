@@ -25,16 +25,16 @@ public sealed class MapiContactNamePropertySet
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } | Gets or sets the full name of the contact |
-| [DisplayNamePrefix](displaynameprefix) { get; set; } | Gets or sets the title of the contact |
-| [FileUnder](fileunder) { get; set; } | Gets or sets the name under which to file this contact when displaying a list of contacts |
-| [FileUnderID](fileunderid) { get; set; } | Gets or sets a value specifying how to generate and recompute the  property when other properties are changed |
-| [Generation](generation) { get; set; } | Gets or sets the generation suffix of the contact |
-| [GivenName](givenname) { get; set; } | Gets or sets the given name (first name) of the contact |
-| [Initials](initials) { get; set; } | Gets or sets the initials of the contact |
-| [MiddleName](middlename) { get; set; } | Gets or sets the middle name of the contact |
-| [Nickname](nickname) { get; set; } | Gets or sets the nickname of the contact |
-| [Surname](surname) { get; set; } | Gets or sets the surname (family name) of the contact |
+| [DisplayName](../../aspose.email.mapi/mapicontactnamepropertyset/displayname) { get; set; } | Gets or sets the full name of the contact |
+| [DisplayNamePrefix](../../aspose.email.mapi/mapicontactnamepropertyset/displaynameprefix) { get; set; } | Gets or sets the title of the contact |
+| [FileUnder](../../aspose.email.mapi/mapicontactnamepropertyset/fileunder) { get; set; } | Gets or sets the name under which to file this contact when displaying a list of contacts |
+| [FileUnderID](../../aspose.email.mapi/mapicontactnamepropertyset/fileunderid) { get; set; } | Gets or sets a value specifying how to generate and recompute the  property when other properties are changed |
+| [Generation](../../aspose.email.mapi/mapicontactnamepropertyset/generation) { get; set; } | Gets or sets the generation suffix of the contact |
+| [GivenName](../../aspose.email.mapi/mapicontactnamepropertyset/givenname) { get; set; } | Gets or sets the given name (first name) of the contact |
+| [Initials](../../aspose.email.mapi/mapicontactnamepropertyset/initials) { get; set; } | Gets or sets the initials of the contact |
+| [MiddleName](../../aspose.email.mapi/mapicontactnamepropertyset/middlename) { get; set; } | Gets or sets the middle name of the contact |
+| [Nickname](../../aspose.email.mapi/mapicontactnamepropertyset/nickname) { get; set; } | Gets or sets the nickname of the contact |
+| [Surname](../../aspose.email.mapi/mapicontactnamepropertyset/surname) { get; set; } | Gets or sets the surname (family name) of the contact |
 
 ### See Also
 

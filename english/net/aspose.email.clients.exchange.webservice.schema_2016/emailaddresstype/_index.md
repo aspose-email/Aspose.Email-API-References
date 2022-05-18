@@ -22,13 +22,13 @@ public class EmailAddressType : BaseEmailAddressType
 
 | Name | Description |
 | --- | --- |
-| [EmailAddress](emailaddress) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
-| [MailboxType](mailboxtype) { get; set; } |  |
-| [MailboxTypeSpecified](mailboxtypespecified) { get; set; } |  |
-| [Name](name) { get; set; } |  |
-| [OriginalDisplayName](originaldisplayname) { get; set; } |  |
-| [RoutingType](routingtype) { get; set; } |  |
+| [EmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/emailaddress) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/itemid) { get; set; } |  |
+| [MailboxType](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/mailboxtype) { get; set; } |  |
+| [MailboxTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/mailboxtypespecified) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/name) { get; set; } |  |
+| [OriginalDisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/originaldisplayname) { get; set; } |  |
+| [RoutingType](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddresstype/routingtype) { get; set; } |  |
 
 ### See Also
 

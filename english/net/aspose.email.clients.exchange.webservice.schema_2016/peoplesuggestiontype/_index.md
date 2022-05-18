@@ -22,8 +22,14 @@ public class PeopleSuggestionType : SuggestionType
 
 | Name | Description |
 | --- | --- |
-| [PersonType](persontype) { get; set; } |  |
-| [PrimarySmtpAddress](primarysmtpaddress) { get; set; } |  |
+| [DisplayText](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/displaytext) { get; set; } |  |
+| [IsDeletable](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/isdeletable) { get; set; } |  |
+| [PersonType](../../aspose.email.clients.exchange.webservice.schema_2016/peoplesuggestiontype/persontype) { get; set; } |  |
+| [PrimarySmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/peoplesuggestiontype/primarysmtpaddress) { get; set; } |  |
+| [SuggestedQuery](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/suggestedquery) { get; set; } |  |
+| [SuggestionType1](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/suggestiontype1) { get; set; } |  |
+| [TDSuggestionId](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/tdsuggestionid) { get; set; } |  |
+| [Trigger](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/trigger) { get; set; } |  |
 
 ### See Also
 

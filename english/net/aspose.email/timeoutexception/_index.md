@@ -24,6 +24,19 @@ public class TimeoutException : AsposeException
 | [TimeoutException](timeoutexception)(string, params object[]) | Initializes a new instance of the [`TimeoutException`](../timeoutexception) class. |
 | [TimeoutException](timeoutexception)(string, string, int) |  |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | Gets extra information aboout error |
+| override [Message](../../aspose.email/asposeexception/message) { get; } | Gets a message that describes the current exception. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [ToString](../../aspose.email/asposeexception/tostring)() | Returns a string that represents the current object. |
+
 ### See Also
 
 * class [AsposeException](../asposeexception)

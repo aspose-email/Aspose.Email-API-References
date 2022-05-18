@@ -22,9 +22,9 @@ public class ContactUrlDictionaryEntryType
 
 | Name | Description |
 | --- | --- |
-| [Address](address) { get; set; } |  |
-| [Name](name) { get; set; } |  |
-| [Type](type) { get; set; } |  |
+| [Address](../../aspose.email.clients.exchange.webservice.schema_2016/contacturldictionaryentrytype/address) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/contacturldictionaryentrytype/name) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/contacturldictionaryentrytype/type) { get; set; } |  |
 
 ### See Also
 

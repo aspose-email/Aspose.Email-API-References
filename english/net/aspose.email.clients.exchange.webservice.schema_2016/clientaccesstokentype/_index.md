@@ -22,10 +22,10 @@ public class ClientAccessTokenType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
-| [TokenType](tokentype) { get; set; } |  |
-| [TokenValue](tokenvalue) { get; set; } |  |
-| [TTL](ttl) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/clientaccesstokentype/id) { get; set; } |  |
+| [TokenType](../../aspose.email.clients.exchange.webservice.schema_2016/clientaccesstokentype/tokentype) { get; set; } |  |
+| [TokenValue](../../aspose.email.clients.exchange.webservice.schema_2016/clientaccesstokentype/tokenvalue) { get; set; } |  |
+| [TTL](../../aspose.email.clients.exchange.webservice.schema_2016/clientaccesstokentype/ttl) { get; set; } |  |
 
 ### See Also
 

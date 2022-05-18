@@ -16,17 +16,17 @@ public class TrackingStringDictionary
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
-| [Keys](keys) { get; } |  |
+| [Item](../../aspose.email.mime/trackingstringdictionary/item) { get; set; } |  |
+| [Keys](../../aspose.email.mime/trackingstringdictionary/keys) { get; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, string) |  |
-| [Clear](clear)() |  |
-| [ContainsKey](containskey)(string) |  |
-| [Remove](remove)(string) |  |
+| [Add](../../aspose.email.mime/trackingstringdictionary/add)(string, string) |  |
+| [Clear](../../aspose.email.mime/trackingstringdictionary/clear)() |  |
+| [ContainsKey](../../aspose.email.mime/trackingstringdictionary/containskey)(string) |  |
+| [Remove](../../aspose.email.mime/trackingstringdictionary/remove)(string) |  |
 
 ### See Also
 

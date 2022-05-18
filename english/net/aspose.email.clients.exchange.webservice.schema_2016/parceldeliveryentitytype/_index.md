@@ -22,27 +22,27 @@ public class ParcelDeliveryEntityType
 
 | Name | Description |
 | --- | --- |
-| [AddressCountry](addresscountry) { get; set; } |  |
-| [AddressLocality](addresslocality) { get; set; } |  |
-| [AddressName](addressname) { get; set; } |  |
-| [AddressRegion](addressregion) { get; set; } |  |
-| [Carrier](carrier) { get; set; } |  |
-| [ExpectedArrivalFrom](expectedarrivalfrom) { get; set; } |  |
-| [ExpectedArrivalUntil](expectedarrivaluntil) { get; set; } |  |
-| [OrderNumber](ordernumber) { get; set; } |  |
-| [OrderStatus](orderstatus) { get; set; } |  |
-| [PostalCode](postalcode) { get; set; } |  |
-| [Product](product) { get; set; } |  |
-| [ProductBrand](productbrand) { get; set; } |  |
-| [ProductColor](productcolor) { get; set; } |  |
-| [ProductDescription](productdescription) { get; set; } |  |
-| [ProductImage](productimage) { get; set; } |  |
-| [ProductSku](productsku) { get; set; } |  |
-| [ProductUrl](producturl) { get; set; } |  |
-| [Seller](seller) { get; set; } |  |
-| [StreetAddress](streetaddress) { get; set; } |  |
-| [TrackingNumber](trackingnumber) { get; set; } |  |
-| [TrackingUrl](trackingurl) { get; set; } |  |
+| [AddressCountry](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/addresscountry) { get; set; } |  |
+| [AddressLocality](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/addresslocality) { get; set; } |  |
+| [AddressName](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/addressname) { get; set; } |  |
+| [AddressRegion](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/addressregion) { get; set; } |  |
+| [Carrier](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/carrier) { get; set; } |  |
+| [ExpectedArrivalFrom](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/expectedarrivalfrom) { get; set; } |  |
+| [ExpectedArrivalUntil](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/expectedarrivaluntil) { get; set; } |  |
+| [OrderNumber](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/ordernumber) { get; set; } |  |
+| [OrderStatus](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/orderstatus) { get; set; } |  |
+| [PostalCode](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/postalcode) { get; set; } |  |
+| [Product](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/product) { get; set; } |  |
+| [ProductBrand](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/productbrand) { get; set; } |  |
+| [ProductColor](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/productcolor) { get; set; } |  |
+| [ProductDescription](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/productdescription) { get; set; } |  |
+| [ProductImage](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/productimage) { get; set; } |  |
+| [ProductSku](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/productsku) { get; set; } |  |
+| [ProductUrl](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/producturl) { get; set; } |  |
+| [Seller](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/seller) { get; set; } |  |
+| [StreetAddress](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/streetaddress) { get; set; } |  |
+| [TrackingNumber](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/trackingnumber) { get; set; } |  |
+| [TrackingUrl](../../aspose.email.clients.exchange.webservice.schema_2016/parceldeliveryentitytype/trackingurl) { get; set; } |  |
 
 ### See Also
 

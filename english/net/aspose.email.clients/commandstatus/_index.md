@@ -24,16 +24,16 @@ public class CommandStatus
 
 | Name | Description |
 | --- | --- |
-| virtual [Description](description) { get; } | Contains status description |
-| virtual [StatusCode](statuscode) { get; } | Contains status code |
+| virtual [Description](../../aspose.email.clients/commandstatus/description) { get; } | Contains status description |
+| virtual [StatusCode](../../aspose.email.clients/commandstatus/statuscode) { get; } | Contains status code |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified object is equal to the current object. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for a particular type. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [Equals](../../aspose.email.clients/commandstatus/equals)(object) | Determines whether the specified object is equal to the current object. |
+| override [GetHashCode](../../aspose.email.clients/commandstatus/gethashcode)() | Serves as a hash function for a particular type. |
+| override [ToString](../../aspose.email.clients/commandstatus/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

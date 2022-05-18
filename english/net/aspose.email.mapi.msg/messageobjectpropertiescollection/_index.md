@@ -24,7 +24,7 @@ public sealed class MessageObjectPropertiesCollection : KeyedCollection<long, Me
 
 | Name | Description |
 | --- | --- |
-| [TryGetValue](trygetvalue)(long) | Tries to get value, by specified key. |
+| [TryGetValue](../../aspose.email.mapi.msg/messageobjectpropertiescollection/trygetvalue)(long) | Tries to get value, by specified key. |
 
 ### See Also
 

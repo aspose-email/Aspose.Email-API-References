@@ -22,7 +22,7 @@ public class CreateMeetingInstanceRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [MeetingInstance](meetinginstance) { get; set; } |  |
+| [MeetingInstance](../../aspose.email.clients.exchange.webservice.schema_2016/createmeetinginstancerequesttype/meetinginstance) { get; set; } |  |
 
 ### See Also
 

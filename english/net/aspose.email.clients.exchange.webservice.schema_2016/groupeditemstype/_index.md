@@ -22,9 +22,9 @@ public class GroupedItemsType
 
 | Name | Description |
 | --- | --- |
-| [GroupIndex](groupindex) { get; set; } |  |
-| [GroupSummary](groupsummary) { get; set; } |  |
-| [Items](items) { get; set; } |  |
+| [GroupIndex](../../aspose.email.clients.exchange.webservice.schema_2016/groupeditemstype/groupindex) { get; set; } |  |
+| [GroupSummary](../../aspose.email.clients.exchange.webservice.schema_2016/groupeditemstype/groupsummary) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/groupeditemstype/items) { get; set; } |  |
 
 ### See Also
 

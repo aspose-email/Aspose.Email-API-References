@@ -22,7 +22,7 @@ public class ProtectionRuleRecipientIsType
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/protectionrulerecipientistype/value) { get; set; } |  |
 
 ### See Also
 

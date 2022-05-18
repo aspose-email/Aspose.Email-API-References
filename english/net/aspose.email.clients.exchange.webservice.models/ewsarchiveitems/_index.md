@@ -18,12 +18,12 @@ public class EwsArchiveItems
 
 | Name | Description |
 | --- | --- |
-| static [Create](create)(string) | Create [`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync) method parameter set. |
-| [AddItem](additem)(Appointment) | Add item to archive. |
-| [AddItem](additem)(ExchangeTask) | Add item to archive. |
-| [AddItem](additem)(MapiMessageItemBase) | Add item to archive. |
-| [AddItemId](additemid)(string) | Add item to archive. |
-| [SetCancellationToken](setcancellationtoken)(CancellationToken) | Sets the cancellation token |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/create)(string) | Create [`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync) method parameter set. |
+| [AddItem](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem)(Appointment) | Add item to archive. |
+| [AddItem](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem)(ExchangeTask) | Add item to archive. |
+| [AddItem](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem)(MapiMessageItemBase) | Add item to archive. |
+| [AddItemId](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additemid)(string) | Add item to archive. |
+| [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/setcancellationtoken)(CancellationToken) | Sets the cancellation token |
 
 ### See Also
 

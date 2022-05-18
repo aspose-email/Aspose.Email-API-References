@@ -22,8 +22,8 @@ public class EmailAddressAttributedValueType
 
 | Name | Description |
 | --- | --- |
-| [Attributions](attributions) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Attributions](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressattributedvaluetype/attributions) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/emailaddressattributedvaluetype/value) { get; set; } |  |
 
 ### See Also
 

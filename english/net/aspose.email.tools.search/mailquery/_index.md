@@ -25,19 +25,19 @@ public class MailQuery : IEquatable<MailQuery>, IXmlSerializable
 
 | Name | Description |
 | --- | --- |
-| [OrderByString](orderbystring) { get; } | The sort query string. |
+| [OrderByString](../../aspose.email.tools.search/mailquery/orderbystring) { get; } | The sort query string. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(MailQuery) | Indicates whether the current object is equal to another object of the same type. |
-| override [Equals](equals)(object) | Determines whether the specified Object, is equal to this instance. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
-| [GetSchema](getschema)() | This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the XmlSchemaProviderAttribute to the class. |
-| virtual [ReadXml](readxml)(XmlReader) | Generates an object from its XML representation. |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
-| virtual [WriteXml](writexml)(XmlWriter) | Converts an object into its XML representation. |
+| [Equals](../../aspose.email.tools.search/mailquery/equals)(MailQuery) | Indicates whether the current object is equal to another object of the same type. |
+| override [Equals](../../aspose.email.tools.search/mailquery/equals)(object) | Determines whether the specified Object, is equal to this instance. |
+| override [GetHashCode](../../aspose.email.tools.search/mailquery/gethashcode)() | Returns a hash code for this instance. |
+| [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the XmlSchemaProviderAttribute to the class. |
+| virtual [ReadXml](../../aspose.email.tools.search/mailquery/readxml)(XmlReader) | Generates an object from its XML representation. |
+| override [ToString](../../aspose.email.tools.search/mailquery/tostring)() | Returns a String that represents this instance. |
+| virtual [WriteXml](../../aspose.email.tools.search/mailquery/writexml)(XmlWriter) | Converts an object into its XML representation. |
 
 ### See Also
 

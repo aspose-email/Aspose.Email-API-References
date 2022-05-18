@@ -18,16 +18,16 @@ public interface IBaseGmailClient : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [AccessToken](accesstoken) { get; set; } | Gets or sets OAuth 2.0 bearer token |
-| [DefaultEmail](defaultemail) { get; } | Gets default email address |
-| [Proxy](proxy) { get; set; } | Gets or sets the proxy. |
-| [Timeout](timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
+| [AccessToken](../../aspose.email.clients.google/ibasegmailclient/accesstoken) { get; set; } | Gets or sets OAuth 2.0 bearer token |
+| [DefaultEmail](../../aspose.email.clients.google/ibasegmailclient/defaultemail) { get; } | Gets default email address |
+| [Proxy](../../aspose.email.clients.google/ibasegmailclient/proxy) { get; set; } | Gets or sets the proxy. |
+| [Timeout](../../aspose.email.clients.google/ibasegmailclient/timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [RefreshToken](refreshtoken)() | Refresh access token |
+| [RefreshToken](../../aspose.email.clients.google/ibasegmailclient/refreshtoken)() | Refresh access token |
 
 ### See Also
 

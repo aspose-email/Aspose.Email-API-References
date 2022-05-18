@@ -22,8 +22,8 @@ public class ImItemListType
 
 | Name | Description |
 | --- | --- |
-| [Groups](groups) { get; set; } |  |
-| [Personas](personas) { get; set; } |  |
+| [Groups](../../aspose.email.clients.exchange.webservice.schema_2016/imitemlisttype/groups) { get; set; } |  |
+| [Personas](../../aspose.email.clients.exchange.webservice.schema_2016/imitemlisttype/personas) { get; set; } |  |
 
 ### See Also
 

@@ -24,10 +24,10 @@ public sealed class VCardSound
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Gets or sets a sound data (`null` if valueLocation is not `inline`) |
-| [SoundType](soundtype) { get; set; } | Gets or sets a sound type |
-| [Uri](uri) { get; set; } | Gets or sets a uri of sound (`null` if valueLocation is `inline`) |
-| [ValueLocation](valuelocation) { get; set; } | Gets or sets a value location |
+| [Data](../../aspose.email.personalinfo.vcard/vcardsound/data) { get; set; } | Gets or sets a sound data (`null` if valueLocation is not `inline`) |
+| [SoundType](../../aspose.email.personalinfo.vcard/vcardsound/soundtype) { get; set; } | Gets or sets a sound type |
+| [Uri](../../aspose.email.personalinfo.vcard/vcardsound/uri) { get; set; } | Gets or sets a uri of sound (`null` if valueLocation is `inline`) |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardsound/valuelocation) { get; set; } | Gets or sets a value location |
 
 ### See Also
 

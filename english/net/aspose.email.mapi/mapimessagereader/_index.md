@@ -25,9 +25,9 @@ public sealed class MapiMessageReader : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Releases the unmanaged resources used by the MapiMessageReader. |
-| [ReadAttachments](readattachments)() | Extracts the attachment from the Outlook Message files. |
-| [ReadMessage](readmessage)() | Parse the current stream and returns the data as a MapiMessage. |
+| [Dispose](../../aspose.email.mapi/mapimessagereader/dispose)() | Releases the unmanaged resources used by the MapiMessageReader. |
+| [ReadAttachments](../../aspose.email.mapi/mapimessagereader/readattachments)() | Extracts the attachment from the Outlook Message files. |
+| [ReadMessage](../../aspose.email.mapi/mapimessagereader/readmessage)() | Parse the current stream and returns the data as a MapiMessage. |
 
 ### See Also
 

@@ -30,12 +30,12 @@ public class FreebusyQuery
 
 | Name | Description |
 | --- | --- |
-| [CalendarExpansionMax](calendarexpansionmax) { get; set; } | Maximal number of calendars for which FreeBusy information is to be provided. Optional. |
-| [GroupExpansionMax](groupexpansionmax) { get; set; } | Maximal number of calendar identifiers to be provided for a single group. Optional. An error will be returned for a group with more members than this value. |
-| [Items](items) { get; } | List of calendars and/or groups to query. Contains identifiers of a calendar or a group. |
-| [TimeMax](timemax) { get; set; } | The end of the interval for the query. |
-| [TimeMin](timemin) { get; set; } | The start of the interval for the query. |
-| [TimeZone](timezone) { get; set; } | Time zone used in the response. Optional. The default is UTC. |
+| [CalendarExpansionMax](../../aspose.email.clients.google/freebusyquery/calendarexpansionmax) { get; set; } | Maximal number of calendars for which FreeBusy information is to be provided. Optional. |
+| [GroupExpansionMax](../../aspose.email.clients.google/freebusyquery/groupexpansionmax) { get; set; } | Maximal number of calendar identifiers to be provided for a single group. Optional. An error will be returned for a group with more members than this value. |
+| [Items](../../aspose.email.clients.google/freebusyquery/items) { get; } | List of calendars and/or groups to query. Contains identifiers of a calendar or a group. |
+| [TimeMax](../../aspose.email.clients.google/freebusyquery/timemax) { get; set; } | The end of the interval for the query. |
+| [TimeMin](../../aspose.email.clients.google/freebusyquery/timemin) { get; set; } | The start of the interval for the query. |
+| [TimeZone](../../aspose.email.clients.google/freebusyquery/timezone) { get; set; } | Time zone used in the response. Optional. The default is UTC. |
 
 ### See Also
 

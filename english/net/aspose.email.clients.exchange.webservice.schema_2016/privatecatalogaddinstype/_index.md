@@ -22,9 +22,9 @@ public class PrivateCatalogAddInsType
 
 | Name | Description |
 | --- | --- |
-| [ProductId](productid) { get; set; } |  |
-| [State](state) { get; set; } |  |
-| [Version](version) { get; set; } |  |
+| [ProductId](../../aspose.email.clients.exchange.webservice.schema_2016/privatecatalogaddinstype/productid) { get; set; } |  |
+| [State](../../aspose.email.clients.exchange.webservice.schema_2016/privatecatalogaddinstype/state) { get; set; } |  |
+| [Version](../../aspose.email.clients.exchange.webservice.schema_2016/privatecatalogaddinstype/version) { get; set; } |  |
 
 ### See Also
 

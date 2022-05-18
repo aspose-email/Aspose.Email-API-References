@@ -22,8 +22,8 @@ public class ArrayOfTransitionsType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
-| [Items](items) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/arrayoftransitionstype/id) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/arrayoftransitionstype/items) { get; set; } |  |
 
 ### See Also
 

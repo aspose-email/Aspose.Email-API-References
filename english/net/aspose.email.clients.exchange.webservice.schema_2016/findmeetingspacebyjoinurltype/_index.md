@@ -22,7 +22,7 @@ public class FindMeetingSpaceByJoinUrlType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [JoinUrl](joinurl) { get; set; } |  |
+| [JoinUrl](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingspacebyjoinurltype/joinurl) { get; set; } |  |
 
 ### See Also
 

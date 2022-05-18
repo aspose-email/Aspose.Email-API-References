@@ -22,14 +22,14 @@ public class StartSearchSession : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ApplicationId](applicationid) { get; set; } |  |
-| [IdFormat](idformat) { get; set; } |  |
-| [IdFormatSpecified](idformatspecified) { get; set; } |  |
-| [Scenario](scenario) { get; set; } |  |
-| [SearchScope](searchscope) { get; set; } |  |
-| [SearchSessionId](searchsessionid) { get; set; } |  |
-| [SuggestionTypes](suggestiontypes) { get; set; } |  |
-| [WarmupOptions](warmupoptions) { get; set; } |  |
+| [ApplicationId](../../aspose.email.clients.exchange.webservice.schema_2016/startsearchsession/applicationid) { get; set; } |  |
+| [IdFormat](../../aspose.email.clients.exchange.webservice.schema_2016/startsearchsession/idformat) { get; set; } |  |
+| [IdFormatSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/startsearchsession/idformatspecified) { get; set; } |  |
+| [Scenario](../../aspose.email.clients.exchange.webservice.schema_2016/startsearchsession/scenario) { get; set; } |  |
+| [SearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/startsearchsession/searchscope) { get; set; } |  |
+| [SearchSessionId](../../aspose.email.clients.exchange.webservice.schema_2016/startsearchsession/searchsessionid) { get; set; } |  |
+| [SuggestionTypes](../../aspose.email.clients.exchange.webservice.schema_2016/startsearchsession/suggestiontypes) { get; set; } |  |
+| [WarmupOptions](../../aspose.email.clients.exchange.webservice.schema_2016/startsearchsession/warmupoptions) { get; set; } |  |
 
 ### See Also
 

@@ -25,7 +25,7 @@ public sealed class MapiContactCollection : List<MapiContact>
 
 | Name | Description |
 | --- | --- |
-| [implicit operator](op_implicit) | Converts array to collection |
+| [implicit operator](../../aspose.email.mapi/mapicontactcollection/op_implicit) | Converts array to collection |
 
 ### See Also
 

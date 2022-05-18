@@ -22,12 +22,12 @@ public class NotificationType
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; set; } |  |
-| [ItemsElementName](itemselementname) { get; set; } |  |
-| [MoreEvents](moreevents) { get; set; } |  |
-| [MoreEventsSpecified](moreeventsspecified) { get; set; } |  |
-| [PreviousWatermark](previouswatermark) { get; set; } |  |
-| [SubscriptionId](subscriptionid) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/notificationtype/items) { get; set; } |  |
+| [ItemsElementName](../../aspose.email.clients.exchange.webservice.schema_2016/notificationtype/itemselementname) { get; set; } |  |
+| [MoreEvents](../../aspose.email.clients.exchange.webservice.schema_2016/notificationtype/moreevents) { get; set; } |  |
+| [MoreEventsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/notificationtype/moreeventsspecified) { get; set; } |  |
+| [PreviousWatermark](../../aspose.email.clients.exchange.webservice.schema_2016/notificationtype/previouswatermark) { get; set; } |  |
+| [SubscriptionId](../../aspose.email.clients.exchange.webservice.schema_2016/notificationtype/subscriptionid) { get; set; } |  |
 
 ### See Also
 

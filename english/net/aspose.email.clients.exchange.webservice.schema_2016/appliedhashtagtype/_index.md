@@ -22,15 +22,15 @@ public class AppliedHashtagType
 
 | Name | Description |
 | --- | --- |
-| [Application](application) { get; set; } |  |
-| [CreatedBy](createdby) { get; set; } |  |
-| [CreatedDateTime](createddatetime) { get; set; } |  |
-| [DeepLink](deeplink) { get; set; } |  |
-| [Id](id) { get; set; } |  |
-| [IsAutoTagged](isautotagged) { get; set; } |  |
-| [IsInlined](isinlined) { get; set; } |  |
-| [ServerCreatedDateTime](servercreateddatetime) { get; set; } |  |
-| [Tag](tag) { get; set; } |  |
+| [Application](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagtype/application) { get; set; } |  |
+| [CreatedBy](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagtype/createdby) { get; set; } |  |
+| [CreatedDateTime](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagtype/createddatetime) { get; set; } |  |
+| [DeepLink](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagtype/deeplink) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagtype/id) { get; set; } |  |
+| [IsAutoTagged](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagtype/isautotagged) { get; set; } |  |
+| [IsInlined](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagtype/isinlined) { get; set; } |  |
+| [ServerCreatedDateTime](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagtype/servercreateddatetime) { get; set; } |  |
+| [Tag](../../aspose.email.clients.exchange.webservice.schema_2016/appliedhashtagtype/tag) { get; set; } |  |
 
 ### See Also
 

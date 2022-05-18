@@ -22,8 +22,8 @@ public class ResolutionType
 
 | Name | Description |
 | --- | --- |
-| [Contact](contact) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
+| [Contact](../../aspose.email.clients.exchange.webservice.schema_2016/resolutiontype/contact) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/resolutiontype/mailbox) { get; set; } |  |
 
 ### See Also
 

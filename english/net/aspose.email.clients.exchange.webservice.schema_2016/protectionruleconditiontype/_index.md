@@ -22,8 +22,8 @@ public class ProtectionRuleConditionType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
-| [ItemElementName](itemelementname) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruleconditiontype/item) { get; set; } |  |
+| [ItemElementName](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruleconditiontype/itemelementname) { get; set; } |  |
 
 ### See Also
 

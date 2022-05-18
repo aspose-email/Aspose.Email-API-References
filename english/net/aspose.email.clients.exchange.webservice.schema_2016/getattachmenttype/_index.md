@@ -22,8 +22,8 @@ public class GetAttachmentType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [AttachmentIds](attachmentids) { get; set; } |  |
-| [AttachmentShape](attachmentshape) { get; set; } |  |
+| [AttachmentIds](../../aspose.email.clients.exchange.webservice.schema_2016/getattachmenttype/attachmentids) { get; set; } |  |
+| [AttachmentShape](../../aspose.email.clients.exchange.webservice.schema_2016/getattachmenttype/attachmentshape) { get; set; } |  |
 
 ### See Also
 

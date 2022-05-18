@@ -24,7 +24,7 @@ public class SearchResponse
 
 | Name | Description |
 | --- | --- |
-| [Store](store) { get; set; } | Contains the Status, Result, Range, and Total elements for the returned mailbox entries. |
+| [Store](../../aspose.email.clients.activesync.transportlayer/searchresponse/store) { get; set; } | Contains the Status, Result, Range, and Total elements for the returned mailbox entries. |
 
 ### See Also
 

@@ -24,7 +24,7 @@ public class MessageObjectRecipientEntity : IMessageObjectPropertyContainer
 
 | Name | Description |
 | --- | --- |
-| [Properties](properties) { get; } | Gets the properties set on the recipient. |
+| [Properties](../../aspose.email.mapi.msg/messageobjectrecipiententity/properties) { get; } | Gets the properties set on the recipient. |
 
 ### See Also
 

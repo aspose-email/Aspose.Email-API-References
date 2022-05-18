@@ -22,12 +22,12 @@ public class FlightReservationEntityType
 
 | Name | Description |
 | --- | --- |
-| [BrokerName](brokername) { get; set; } |  |
-| [BrokerPhone](brokerphone) { get; set; } |  |
-| [Flights](flights) { get; set; } |  |
-| [ReservationId](reservationid) { get; set; } |  |
-| [ReservationStatus](reservationstatus) { get; set; } |  |
-| [UnderName](undername) { get; set; } |  |
+| [BrokerName](../../aspose.email.clients.exchange.webservice.schema_2016/flightreservationentitytype/brokername) { get; set; } |  |
+| [BrokerPhone](../../aspose.email.clients.exchange.webservice.schema_2016/flightreservationentitytype/brokerphone) { get; set; } |  |
+| [Flights](../../aspose.email.clients.exchange.webservice.schema_2016/flightreservationentitytype/flights) { get; set; } |  |
+| [ReservationId](../../aspose.email.clients.exchange.webservice.schema_2016/flightreservationentitytype/reservationid) { get; set; } |  |
+| [ReservationStatus](../../aspose.email.clients.exchange.webservice.schema_2016/flightreservationentitytype/reservationstatus) { get; set; } |  |
+| [UnderName](../../aspose.email.clients.exchange.webservice.schema_2016/flightreservationentitytype/undername) { get; set; } |  |
 
 ### See Also
 

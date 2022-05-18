@@ -24,14 +24,14 @@ public class SectionValue
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Section data. |
+| [Data](../../aspose.email.amp/sectionvalue/data) { get; set; } | Section data. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToAmpHtml](toamphtml)() | AmpHtml representation of section value. |
-| [ToHtml](tohtml)() | Html representation of section value. |
+| [ToAmpHtml](../../aspose.email.amp/sectionvalue/toamphtml)() | AmpHtml representation of section value. |
+| [ToHtml](../../aspose.email.amp/sectionvalue/tohtml)() | Html representation of section value. |
 
 ### See Also
 

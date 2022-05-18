@@ -24,8 +24,8 @@ public class SizeRange
 
 | Name | Description |
 | --- | --- |
-| [MaximumSize](maximumsize) { get; set; } | Gets or sets the maximum size. |
-| [MinimumSize](minimumsize) { get; set; } | Gets or sets the minimum size. |
+| [MaximumSize](../../aspose.email.clients.exchange/sizerange/maximumsize) { get; set; } | Gets or sets the maximum size. |
+| [MinimumSize](../../aspose.email.clients.exchange/sizerange/minimumsize) { get; set; } | Gets or sets the minimum size. |
 
 ### See Also
 

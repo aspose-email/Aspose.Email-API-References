@@ -22,16 +22,16 @@ public class ReminderType
 
 | Name | Description |
 | --- | --- |
-| [EndDate](enddate) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
-| [Location](location) { get; set; } |  |
-| [RecurringMasterItemId](recurringmasteritemid) { get; set; } |  |
-| [ReminderGroup](remindergroup) { get; set; } |  |
-| [ReminderGroupSpecified](remindergroupspecified) { get; set; } |  |
-| [ReminderTime](remindertime) { get; set; } |  |
-| [StartDate](startdate) { get; set; } |  |
-| [Subject](subject) { get; set; } |  |
-| [UID](uid) { get; set; } |  |
+| [EndDate](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/enddate) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/itemid) { get; set; } |  |
+| [Location](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/location) { get; set; } |  |
+| [RecurringMasterItemId](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/recurringmasteritemid) { get; set; } |  |
+| [ReminderGroup](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/remindergroup) { get; set; } |  |
+| [ReminderGroupSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/remindergroupspecified) { get; set; } |  |
+| [ReminderTime](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/remindertime) { get; set; } |  |
+| [StartDate](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/startdate) { get; set; } |  |
+| [Subject](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/subject) { get; set; } |  |
+| [UID](../../aspose.email.clients.exchange.webservice.schema_2016/remindertype/uid) { get; set; } |  |
 
 ### See Also
 

@@ -18,17 +18,17 @@ public interface IPrintSettingsProvider
 
 | Name | Description |
 | --- | --- |
-| [CultureName](culturename) { get; set; } | Gets or sets the culture name in the format languagecode2-country/regioncode2. |
-| [DpiX](dpix) { get; set; } | Gets or sets the horizontal DPI. |
-| [DpiY](dpiy) { get; set; } | Gets or sets the vertical DPI. |
-| [FormattingFlags](formattingflags) { get; set; } | Gets or sets the printer options. |
-| [MarginBottom](marginbottom) { get; set; } | Gets or sets the bottom margin. |
-| [MarginLeft](marginleft) { get; set; } | Gets or sets the left margin. |
-| [MarginRight](marginright) { get; set; } | Gets or sets the right margin. |
-| [MarginTop](margintop) { get; set; } | Gets or sets the top margin. |
-| [PageHeight](pageheight) { get; set; } | Gets or sets the height of the page. |
-| [PageUnit](pageunit) { get; set; } | Gets or sets the page unit. |
-| [PageWidth](pagewidth) { get; set; } | Gets or sets the width of the page. |
+| [CultureName](../../aspose.email.printing/iprintsettingsprovider/culturename) { get; set; } | Gets or sets the culture name in the format languagecode2-country/regioncode2. |
+| [DpiX](../../aspose.email.printing/iprintsettingsprovider/dpix) { get; set; } | Gets or sets the horizontal DPI. |
+| [DpiY](../../aspose.email.printing/iprintsettingsprovider/dpiy) { get; set; } | Gets or sets the vertical DPI. |
+| [FormattingFlags](../../aspose.email.printing/iprintsettingsprovider/formattingflags) { get; set; } | Gets or sets the printer options. |
+| [MarginBottom](../../aspose.email.printing/iprintsettingsprovider/marginbottom) { get; set; } | Gets or sets the bottom margin. |
+| [MarginLeft](../../aspose.email.printing/iprintsettingsprovider/marginleft) { get; set; } | Gets or sets the left margin. |
+| [MarginRight](../../aspose.email.printing/iprintsettingsprovider/marginright) { get; set; } | Gets or sets the right margin. |
+| [MarginTop](../../aspose.email.printing/iprintsettingsprovider/margintop) { get; set; } | Gets or sets the top margin. |
+| [PageHeight](../../aspose.email.printing/iprintsettingsprovider/pageheight) { get; set; } | Gets or sets the height of the page. |
+| [PageUnit](../../aspose.email.printing/iprintsettingsprovider/pageunit) { get; set; } | Gets or sets the page unit. |
+| [PageWidth](../../aspose.email.printing/iprintsettingsprovider/pagewidth) { get; set; } | Gets or sets the width of the page. |
 
 ### See Also
 

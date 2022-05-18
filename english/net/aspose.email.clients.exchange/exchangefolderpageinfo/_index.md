@@ -18,8 +18,13 @@ public class ExchangeFolderPageInfo : PageInfo
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; } | Gets collection of ExchangeMessageInfo objects |
-| override [NextPage](nextpage) { get; } | Information of the next page or null if current page is last |
+| [AbsoluteOffset](../../aspose.email.clients/pageinfo/absoluteoffset) { get; set; } | Gets additinal offset added to start index of a page |
+| [Items](../../aspose.email.clients.exchange/exchangefolderpageinfo/items) { get; } | Gets collection of ExchangeMessageInfo objects |
+| [ItemsPerPage](../../aspose.email.clients/pageinfo/itemsperpage) { get; set; } | A number of items in page |
+| [LastPage](../../aspose.email.clients/pageinfo/lastpage) { get; set; } | Indicates whether current page is last page in view. |
+| override [NextPage](../../aspose.email.clients.exchange/exchangefolderpageinfo/nextpage) { get; } | Information of the next page or null if current page is last |
+| [PageOffset](../../aspose.email.clients/pageinfo/pageoffset) { get; set; } | Gets offset of a page |
+| [TotalCount](../../aspose.email.clients/pageinfo/totalcount) { get; set; } | Gets total count of items in view |
 
 ### See Also
 

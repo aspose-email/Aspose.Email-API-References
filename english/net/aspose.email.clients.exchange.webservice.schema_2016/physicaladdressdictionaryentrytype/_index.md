@@ -22,12 +22,12 @@ public class PhysicalAddressDictionaryEntryType
 
 | Name | Description |
 | --- | --- |
-| [City](city) { get; set; } |  |
-| [CountryOrRegion](countryorregion) { get; set; } |  |
-| [Key](key) { get; set; } |  |
-| [PostalCode](postalcode) { get; set; } |  |
-| [State](state) { get; set; } |  |
-| [Street](street) { get; set; } |  |
+| [City](../../aspose.email.clients.exchange.webservice.schema_2016/physicaladdressdictionaryentrytype/city) { get; set; } |  |
+| [CountryOrRegion](../../aspose.email.clients.exchange.webservice.schema_2016/physicaladdressdictionaryentrytype/countryorregion) { get; set; } |  |
+| [Key](../../aspose.email.clients.exchange.webservice.schema_2016/physicaladdressdictionaryentrytype/key) { get; set; } |  |
+| [PostalCode](../../aspose.email.clients.exchange.webservice.schema_2016/physicaladdressdictionaryentrytype/postalcode) { get; set; } |  |
+| [State](../../aspose.email.clients.exchange.webservice.schema_2016/physicaladdressdictionaryentrytype/state) { get; set; } |  |
+| [Street](../../aspose.email.clients.exchange.webservice.schema_2016/physicaladdressdictionaryentrytype/street) { get; set; } |  |
 
 ### See Also
 

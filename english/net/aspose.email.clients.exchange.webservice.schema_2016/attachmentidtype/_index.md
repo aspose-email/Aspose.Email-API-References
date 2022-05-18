@@ -22,8 +22,9 @@ public class AttachmentIdType : RequestAttachmentIdType
 
 | Name | Description |
 | --- | --- |
-| [RootItemChangeKey](rootitemchangekey) { get; set; } |  |
-| [RootItemId](rootitemid) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/requestattachmentidtype/id) { get; set; } |  |
+| [RootItemChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentidtype/rootitemchangekey) { get; set; } |  |
+| [RootItemId](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentidtype/rootitemid) { get; set; } |  |
 
 ### See Also
 

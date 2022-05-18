@@ -22,16 +22,16 @@ public class EntityExtractionResultType
 
 | Name | Description |
 | --- | --- |
-| [Addresses](addresses) { get; set; } |  |
-| [Contacts](contacts) { get; set; } |  |
-| [EmailAddresses](emailaddresses) { get; set; } |  |
-| [FlightReservations](flightreservations) { get; set; } |  |
-| [MeetingSuggestions](meetingsuggestions) { get; set; } |  |
-| [ParcelDeliveries](parceldeliveries) { get; set; } |  |
-| [PhoneNumbers](phonenumbers) { get; set; } |  |
-| [SenderAddIns](senderaddins) { get; set; } |  |
-| [TaskSuggestions](tasksuggestions) { get; set; } |  |
-| [Urls](urls) { get; set; } |  |
+| [Addresses](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/addresses) { get; set; } |  |
+| [Contacts](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/contacts) { get; set; } |  |
+| [EmailAddresses](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/emailaddresses) { get; set; } |  |
+| [FlightReservations](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/flightreservations) { get; set; } |  |
+| [MeetingSuggestions](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/meetingsuggestions) { get; set; } |  |
+| [ParcelDeliveries](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/parceldeliveries) { get; set; } |  |
+| [PhoneNumbers](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/phonenumbers) { get; set; } |  |
+| [SenderAddIns](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/senderaddins) { get; set; } |  |
+| [TaskSuggestions](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/tasksuggestions) { get; set; } |  |
+| [Urls](../../aspose.email.clients.exchange.webservice.schema_2016/entityextractionresulttype/urls) { get; set; } |  |
 
 ### See Also
 

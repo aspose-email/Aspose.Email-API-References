@@ -22,7 +22,7 @@ public class UpdateFolderType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [FolderChanges](folderchanges) { get; set; } |  |
+| [FolderChanges](../../aspose.email.clients.exchange.webservice.schema_2016/updatefoldertype/folderchanges) { get; set; } |  |
 
 ### See Also
 

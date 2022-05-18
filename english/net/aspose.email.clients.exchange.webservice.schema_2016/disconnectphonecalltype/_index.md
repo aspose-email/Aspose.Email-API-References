@@ -22,7 +22,7 @@ public class DisconnectPhoneCallType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [PhoneCallId](phonecallid) { get; set; } |  |
+| [PhoneCallId](../../aspose.email.clients.exchange.webservice.schema_2016/disconnectphonecalltype/phonecallid) { get; set; } |  |
 
 ### See Also
 

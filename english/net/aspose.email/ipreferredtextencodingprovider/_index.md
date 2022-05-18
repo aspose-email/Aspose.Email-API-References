@@ -18,7 +18,7 @@ public interface IPreferredTextEncodingProvider
 
 | Name | Description |
 | --- | --- |
-| [PreferredTextEncoding](preferredtextencoding) { get; set; } | Preferred text encoding. |
+| [PreferredTextEncoding](../../aspose.email/ipreferredtextencodingprovider/preferredtextencoding) { get; set; } | Preferred text encoding. |
 
 ### See Also
 

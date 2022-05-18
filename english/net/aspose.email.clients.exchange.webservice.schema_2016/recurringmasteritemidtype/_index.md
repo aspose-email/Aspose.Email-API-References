@@ -22,8 +22,8 @@ public class RecurringMasterItemIdType : BaseItemIdType
 
 | Name | Description |
 | --- | --- |
-| [ChangeKey](changekey) { get; set; } |  |
-| [OccurrenceId](occurrenceid) { get; set; } |  |
+| [ChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/recurringmasteritemidtype/changekey) { get; set; } |  |
+| [OccurrenceId](../../aspose.email.clients.exchange.webservice.schema_2016/recurringmasteritemidtype/occurrenceid) { get; set; } |  |
 
 ### See Also
 

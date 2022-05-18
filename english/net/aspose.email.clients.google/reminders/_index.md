@@ -24,8 +24,8 @@ public class Reminders
 
 | Name | Description |
 | --- | --- |
-| [Overrides](overrides) { get; set; } | If the event doesn't use the default reminders, this lists the reminders specific to the event, or, if not set, indicates that no reminders are set for this event. |
-| [UseDefault](usedefault) { get; set; } | Whether the default reminders of the calendar apply to the event. |
+| [Overrides](../../aspose.email.clients.google/reminders/overrides) { get; set; } | If the event doesn't use the default reminders, this lists the reminders specific to the event, or, if not set, indicates that no reminders are set for this event. |
+| [UseDefault](../../aspose.email.clients.google/reminders/usedefault) { get; set; } | Whether the default reminders of the calendar apply to the event. |
 
 ### See Also
 

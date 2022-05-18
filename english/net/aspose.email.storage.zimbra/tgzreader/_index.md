@@ -24,16 +24,16 @@ public class TgzReader : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [CurrentDirectory](currentdirectory) { get; } | Gets the current directory name. |
-| [CurrentMessage](currentmessage) { get; } | Gets the current message. |
+| [CurrentDirectory](../../aspose.email.storage.zimbra/tgzreader/currentdirectory) { get; } | Gets the current directory name. |
+| [CurrentMessage](../../aspose.email.storage.zimbra/tgzreader/currentmessage) { get; } | Gets the current message. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [ExportTo](exportto)(string) | Save messages and directory structure using given path. |
-| [ReadNextMessage](readnextmessage)() | Reads the next message. |
+| [Dispose](../../aspose.email.storage.zimbra/tgzreader/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [ExportTo](../../aspose.email.storage.zimbra/tgzreader/exportto)(string) | Save messages and directory structure using given path. |
+| [ReadNextMessage](../../aspose.email.storage.zimbra/tgzreader/readnextmessage)() | Reads the next message. |
 
 ### See Also
 

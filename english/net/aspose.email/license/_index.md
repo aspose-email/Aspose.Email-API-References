@@ -24,9 +24,9 @@ public class License
 
 | Name | Description |
 | --- | --- |
-| [SetLicense](setlicense)(FileInfo) | Licenses the component. |
-| [SetLicense](setlicense)(Stream) | Licenses the component. |
-| [SetLicense](setlicense)(string) | Licenses the component. |
+| [SetLicense](../../aspose.email/license/setlicense)(FileInfo) | Licenses the component. |
+| [SetLicense](../../aspose.email/license/setlicense)(Stream) | Licenses the component. |
+| [SetLicense](../../aspose.email/license/setlicense)(string) | Licenses the component. |
 
 ### Examples
 

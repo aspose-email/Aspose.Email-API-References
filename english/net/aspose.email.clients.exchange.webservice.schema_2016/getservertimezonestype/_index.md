@@ -22,9 +22,9 @@ public class GetServerTimeZonesType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Ids](ids) { get; set; } |  |
-| [ReturnFullTimeZoneData](returnfulltimezonedata) { get; set; } |  |
-| [ReturnFullTimeZoneDataSpecified](returnfulltimezonedataspecified) { get; set; } |  |
+| [Ids](../../aspose.email.clients.exchange.webservice.schema_2016/getservertimezonestype/ids) { get; set; } |  |
+| [ReturnFullTimeZoneData](../../aspose.email.clients.exchange.webservice.schema_2016/getservertimezonestype/returnfulltimezonedata) { get; set; } |  |
+| [ReturnFullTimeZoneDataSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getservertimezonestype/returnfulltimezonedataspecified) { get; set; } |  |
 
 ### See Also
 

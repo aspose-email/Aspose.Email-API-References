@@ -24,7 +24,9 @@ public class SyncChangeResponse : SyncOperationResponse
 
 | Name | Description |
 | --- | --- |
-| [Class](class) { get; set; } | Identifies the class of the item being added to the collection. |
+| [Class](../../aspose.email.clients.activesync.transportlayer/syncchangeresponse/class) { get; set; } | Identifies the class of the item being added to the collection. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/status) { get; set; } | Indicates the result of the operation. Used in server responses only. |
 
 ### See Also
 

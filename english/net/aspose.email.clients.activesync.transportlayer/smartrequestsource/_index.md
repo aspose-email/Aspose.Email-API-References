@@ -24,10 +24,10 @@ public class SmartRequestSource
 
 | Name | Description |
 | --- | --- |
-| [FolderId](folderid) { get; set; } | Specifies the folder ID for the source message, which is returned in the FolderSync command. If the FolderId is present, the ItemId MUST also be present. The FolderId value can be up to 64 characters in length. |
-| [InstanceId](instanceid) { get; set; } | Specifies the instance of a recurrence for the source item. If the InstanceId is present, both the FolderId and ItemId SHOULD be present. |
-| [ItemId](itemid) { get; set; } | Specifies the item ID for the source message, which is returned in the Sync command. If the ItemId is present, the FolderId MUST also be present if the message being forwarded or replied to is stored in a folder other than the Inbox folder. The ItemId element value can be up to 64 characters in length. |
-| [LongId](longid) { get; set; } | Specifies the long ID for the source message, which is returned in the Search command. If the LongId is present, the FolderId, ItemId, and InstanceId are not present. The LongId value can be up to 256 characters in length. |
+| [FolderId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/folderid) { get; set; } | Specifies the folder ID for the source message, which is returned in the FolderSync command. If the FolderId is present, the ItemId MUST also be present. The FolderId value can be up to 64 characters in length. |
+| [InstanceId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/instanceid) { get; set; } | Specifies the instance of a recurrence for the source item. If the InstanceId is present, both the FolderId and ItemId SHOULD be present. |
+| [ItemId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/itemid) { get; set; } | Specifies the item ID for the source message, which is returned in the Sync command. If the ItemId is present, the FolderId MUST also be present if the message being forwarded or replied to is stored in a folder other than the Inbox folder. The ItemId element value can be up to 64 characters in length. |
+| [LongId](../../aspose.email.clients.activesync.transportlayer/smartrequestsource/longid) { get; set; } | Specifies the long ID for the source message, which is returned in the Search command. If the LongId is present, the FolderId, ItemId, and InstanceId are not present. The LongId value can be up to 256 characters in length. |
 
 ### See Also
 

@@ -22,7 +22,7 @@ public class ProtectionRuleArgumentType
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/protectionruleargumenttype/value) { get; set; } |  |
 
 ### See Also
 

@@ -22,7 +22,8 @@ public class UserConfigurationNameType : TargetFolderIdType
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/targetfolderidtype/item) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationnametype/name) { get; set; } |  |
 
 ### See Also
 

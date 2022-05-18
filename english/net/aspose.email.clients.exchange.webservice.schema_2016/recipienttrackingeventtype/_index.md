@@ -22,20 +22,20 @@ public class RecipientTrackingEventType
 
 | Name | Description |
 | --- | --- |
-| [BccRecipient](bccrecipient) { get; set; } |  |
-| [BccRecipientSpecified](bccrecipientspecified) { get; set; } |  |
-| [Date](date) { get; set; } |  |
-| [DeliveryStatus](deliverystatus) { get; set; } |  |
-| [EventData](eventdata) { get; set; } |  |
-| [EventDescription](eventdescription) { get; set; } |  |
-| [HiddenRecipient](hiddenrecipient) { get; set; } |  |
-| [HiddenRecipientSpecified](hiddenrecipientspecified) { get; set; } |  |
-| [InternalId](internalid) { get; set; } |  |
-| [Properties](properties) { get; set; } |  |
-| [Recipient](recipient) { get; set; } |  |
-| [RootAddress](rootaddress) { get; set; } |  |
-| [Server](server) { get; set; } |  |
-| [UniquePathId](uniquepathid) { get; set; } |  |
+| [BccRecipient](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/bccrecipient) { get; set; } |  |
+| [BccRecipientSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/bccrecipientspecified) { get; set; } |  |
+| [Date](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/date) { get; set; } |  |
+| [DeliveryStatus](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/deliverystatus) { get; set; } |  |
+| [EventData](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/eventdata) { get; set; } |  |
+| [EventDescription](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/eventdescription) { get; set; } |  |
+| [HiddenRecipient](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/hiddenrecipient) { get; set; } |  |
+| [HiddenRecipientSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/hiddenrecipientspecified) { get; set; } |  |
+| [InternalId](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/internalid) { get; set; } |  |
+| [Properties](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/properties) { get; set; } |  |
+| [Recipient](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/recipient) { get; set; } |  |
+| [RootAddress](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/rootaddress) { get; set; } |  |
+| [Server](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/server) { get; set; } |  |
+| [UniquePathId](../../aspose.email.clients.exchange.webservice.schema_2016/recipienttrackingeventtype/uniquepathid) { get; set; } |  |
 
 ### See Also
 

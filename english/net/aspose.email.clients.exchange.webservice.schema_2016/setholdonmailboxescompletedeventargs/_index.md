@@ -16,7 +16,7 @@ public class SetHoldOnMailboxesCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/setholdonmailboxescompletedeventargs/result) { get; } |  |
 
 ### See Also
 

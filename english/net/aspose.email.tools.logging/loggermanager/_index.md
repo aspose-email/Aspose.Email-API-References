@@ -18,14 +18,14 @@ public static class LoggerManager
 
 | Name | Description |
 | --- | --- |
-| static [AddLogger](addlogger)(string, Logger) | Adds a logger to the LoggerManager with specified name. |
-| static [ContainsLogger](containslogger)(string) | Determines whether the logger cache contains an object with the specified logger name. |
-| static [CreateLogger](createlogger)(string, Appender) | Creates a logger with specified name and appender. |
-| static [CreateLogger](createlogger)(string, params Appender[]) | Creates a logger with specified name and appender. |
-| static [CreateLogger](createlogger)(string, LogLevel, Appender) | Creates a logger with specified name and appender. |
-| static [CreateLogger](createlogger)(string, LogLevel, params Appender[]) | Creates a logger with specified name and appender. |
-| static [GetLogger](getlogger)(string) | Gets a logger by the specified name. |
-| static [RemoveLogger](removelogger)(string) | Removes a logger with the specified name. |
+| static [AddLogger](../../aspose.email.tools.logging/loggermanager/addlogger)(string, Logger) | Adds a logger to the LoggerManager with specified name. |
+| static [ContainsLogger](../../aspose.email.tools.logging/loggermanager/containslogger)(string) | Determines whether the logger cache contains an object with the specified logger name. |
+| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger)(string, Appender) | Creates a logger with specified name and appender. |
+| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger)(string, params Appender[]) | Creates a logger with specified name and appender. |
+| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger)(string, LogLevel, Appender) | Creates a logger with specified name and appender. |
+| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger)(string, LogLevel, params Appender[]) | Creates a logger with specified name and appender. |
+| static [GetLogger](../../aspose.email.tools.logging/loggermanager/getlogger)(string) | Gets a logger by the specified name. |
+| static [RemoveLogger](../../aspose.email.tools.logging/loggermanager/removelogger)(string) | Removes a logger with the specified name. |
 
 ### See Also
 

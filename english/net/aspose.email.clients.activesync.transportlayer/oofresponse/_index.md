@@ -24,8 +24,8 @@ public class OOFResponse
 
 | Name | Description |
 | --- | --- |
-| [Oof](oof) { get; set; } | OOF information settings from the server. |
-| [Status](status) { get; set; } | Indicates the result of the ActiveSync command request. |
+| [Oof](../../aspose.email.clients.activesync.transportlayer/oofresponse/oof) { get; set; } | OOF information settings from the server. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/oofresponse/status) { get; set; } | Indicates the result of the ActiveSync command request. |
 
 ### See Also
 

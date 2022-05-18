@@ -24,10 +24,10 @@ public class DeliveryServiceResponse<T>
 
 | Name | Description |
 | --- | --- |
-| [ErrorMessages](errormessages) { get; } | Error Messages |
-| [Id](id) { get; } | Message Id |
-| [Object](object) { get; } | Object |
-| [Successful](successful) { get; } | Successful |
+| [ErrorMessages](../../aspose.email.clients.deliveryservice/deliveryserviceresponse`1/errormessages) { get; } | Error Messages |
+| [Id](../../aspose.email.clients.deliveryservice/deliveryserviceresponse`1/id) { get; } | Message Id |
+| [Object](../../aspose.email.clients.deliveryservice/deliveryserviceresponse`1/object) { get; } | Object |
+| [Successful](../../aspose.email.clients.deliveryservice/deliveryserviceresponse`1/successful) { get; } | Successful |
 
 ### See Also
 

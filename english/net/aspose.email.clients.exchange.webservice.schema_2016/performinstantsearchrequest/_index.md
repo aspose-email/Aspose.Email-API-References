@@ -22,17 +22,17 @@ public class PerformInstantSearchRequest : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DistinguishedFolderScope](distinguishedfolderscope) { get; set; } |  |
-| [FolderScope](folderscope) { get; set; } |  |
-| [IsDeepTraversal](isdeeptraversal) { get; set; } |  |
-| [IsDeepTraversalSpecified](isdeeptraversalspecified) { get; set; } |  |
-| [ItemType](itemtype) { get; set; } |  |
-| [KqlQuery](kqlquery) { get; set; } |  |
-| [QueryOptions](queryoptions) { get; set; } |  |
-| [SearchRequestId](searchrequestid) { get; set; } |  |
-| [SearchSessionId](searchsessionid) { get; set; } |  |
-| [WaitOnSearchResults](waitonsearchresults) { get; set; } |  |
-| [WaitOnSearchResultsSpecified](waitonsearchresultsspecified) { get; set; } |  |
+| [DistinguishedFolderScope](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/distinguishedfolderscope) { get; set; } |  |
+| [FolderScope](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/folderscope) { get; set; } |  |
+| [IsDeepTraversal](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/isdeeptraversal) { get; set; } |  |
+| [IsDeepTraversalSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/isdeeptraversalspecified) { get; set; } |  |
+| [ItemType](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/itemtype) { get; set; } |  |
+| [KqlQuery](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/kqlquery) { get; set; } |  |
+| [QueryOptions](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/queryoptions) { get; set; } |  |
+| [SearchRequestId](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/searchrequestid) { get; set; } |  |
+| [SearchSessionId](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/searchsessionid) { get; set; } |  |
+| [WaitOnSearchResults](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/waitonsearchresults) { get; set; } |  |
+| [WaitOnSearchResultsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/performinstantsearchrequest/waitonsearchresultsspecified) { get; set; } |  |
 
 ### See Also
 

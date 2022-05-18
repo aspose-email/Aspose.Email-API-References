@@ -22,9 +22,9 @@ public class ProtectionRulesServiceConfiguration : ServiceConfiguration
 
 | Name | Description |
 | --- | --- |
-| [InternalDomains](internaldomains) { get; set; } |  |
-| [RefreshInterval](refreshinterval) { get; set; } |  |
-| [Rules](rules) { get; set; } |  |
+| [InternalDomains](../../aspose.email.clients.exchange.webservice.schema_2016/protectionrulesserviceconfiguration/internaldomains) { get; set; } |  |
+| [RefreshInterval](../../aspose.email.clients.exchange.webservice.schema_2016/protectionrulesserviceconfiguration/refreshinterval) { get; set; } |  |
+| [Rules](../../aspose.email.clients.exchange.webservice.schema_2016/protectionrulesserviceconfiguration/rules) { get; set; } |  |
 
 ### See Also
 

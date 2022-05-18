@@ -25,14 +25,14 @@ public class Colors
 
 | Name | Description |
 | --- | --- |
-| [Background](background) { get; set; } | The background color associated with this color definition. |
-| [Foreground](foreground) { get; set; } | The foreground color that can be used to write on top of a background with 'background' color. |
+| [Background](../../aspose.email.clients.google/colors/background) { get; set; } | The background color associated with this color definition. |
+| [Foreground](../../aspose.email.clients.google/colors/foreground) { get; set; } | The foreground color that can be used to write on top of a background with 'background' color. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String which represents the object instance. |
+| override [ToString](../../aspose.email.clients.google/colors/tostring)() | Returns a String which represents the object instance. |
 
 ### See Also
 

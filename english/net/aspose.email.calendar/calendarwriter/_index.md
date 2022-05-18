@@ -27,8 +27,8 @@ public class CalendarWriter : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [Write](write)(Appointment) | Writes appointment in underlying stream. |
+| [Dispose](../../aspose.email.calendar/calendarwriter/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Write](../../aspose.email.calendar/calendarwriter/write)(Appointment) | Writes appointment in underlying stream. |
 
 ### See Also
 

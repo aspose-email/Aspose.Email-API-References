@@ -18,10 +18,10 @@ public static class MailStorageConverter
 
 | Name | Description |
 | --- | --- |
-| static [MboxToPst](mboxtopst)(Stream, string) | Converts an mboxrd message store to PST. |
-| static [MboxToPst](mboxtopst)(string, string) | Converts an mboxrd message store to PST. |
-| static [MboxToPst](mboxtopst)(Stream, string, MailHandler) | Converts an mboxrd message store to PST. |
-| static [MboxToPst](mboxtopst)(string, string, MailHandler) | Converts an mboxrd message store to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst)(Stream, string) | Converts an mboxrd message store to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst)(string, string) | Converts an mboxrd message store to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst)(Stream, string, MailHandler) | Converts an mboxrd message store to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst)(string, string, MailHandler) | Converts an mboxrd message store to PST. |
 
 ## Other Members
 

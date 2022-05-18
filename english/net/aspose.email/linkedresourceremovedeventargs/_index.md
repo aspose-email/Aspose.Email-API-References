@@ -22,7 +22,7 @@ public class LinkedResourceRemovedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [ListContentId](listcontentid) { get; } |  |
+| [ListContentId](../../aspose.email/linkedresourceremovedeventargs/listcontentid) { get; } |  |
 
 ### See Also
 

@@ -24,14 +24,14 @@ public class Gadget
 
 | Name | Description |
 | --- | --- |
-| [Display](display) { get; set; } | The gadget's display mode. Optional. Possible values are: "icon" - The gadget displays next to the event's title in the calendar view. "chip" - The gadget displays when the event is clicked. |
-| [Height](height) { get; set; } | The gadget's height in pixels. |
-| [IconLink](iconlink) { get; set; } | The gadget's icon URL. |
-| [Link](link) { get; set; } | The gadget's URL. |
-| [Preferences](preferences) { get; } | The gadget's preferences |
-| [Title](title) { get; set; } | The gadget's title. |
-| [Type](type) { get; set; } | The gadget's type. |
-| [Width](width) { get; set; } | The gadget's width in pixels. |
+| [Display](../../aspose.email.clients.google/gadget/display) { get; set; } | The gadget's display mode. Optional. Possible values are: "icon" - The gadget displays next to the event's title in the calendar view. "chip" - The gadget displays when the event is clicked. |
+| [Height](../../aspose.email.clients.google/gadget/height) { get; set; } | The gadget's height in pixels. |
+| [IconLink](../../aspose.email.clients.google/gadget/iconlink) { get; set; } | The gadget's icon URL. |
+| [Link](../../aspose.email.clients.google/gadget/link) { get; set; } | The gadget's URL. |
+| [Preferences](../../aspose.email.clients.google/gadget/preferences) { get; } | The gadget's preferences |
+| [Title](../../aspose.email.clients.google/gadget/title) { get; set; } | The gadget's title. |
+| [Type](../../aspose.email.clients.google/gadget/type) { get; set; } | The gadget's type. |
+| [Width](../../aspose.email.clients.google/gadget/width) { get; set; } | The gadget's width in pixels. |
 
 ### See Also
 

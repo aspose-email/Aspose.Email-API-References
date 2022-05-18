@@ -22,11 +22,11 @@ public class UserConfigurationType
 
 | Name | Description |
 | --- | --- |
-| [BinaryData](binarydata) { get; set; } |  |
-| [Dictionary](dictionary) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
-| [UserConfigurationName](userconfigurationname) { get; set; } |  |
-| [XmlData](xmldata) { get; set; } |  |
+| [BinaryData](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationtype/binarydata) { get; set; } |  |
+| [Dictionary](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationtype/dictionary) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationtype/itemid) { get; set; } |  |
+| [UserConfigurationName](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationtype/userconfigurationname) { get; set; } |  |
+| [XmlData](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationtype/xmldata) { get; set; } |  |
 
 ### See Also
 

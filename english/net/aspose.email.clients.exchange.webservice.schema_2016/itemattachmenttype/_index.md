@@ -22,7 +22,19 @@ public class ItemAttachmentType : AttachmentType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
+| [AttachmentId](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/attachmentid) { get; set; } |  |
+| [AttachmentOriginalUrl](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/attachmentoriginalurl) { get; set; } |  |
+| [ContentId](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/contentid) { get; set; } |  |
+| [ContentLocation](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/contentlocation) { get; set; } |  |
+| [ContentType](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/contenttype) { get; set; } |  |
+| [IsInline](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/isinline) { get; set; } |  |
+| [IsInlineSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/isinlinespecified) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/itemattachmenttype/item) { get; set; } |  |
+| [LastModifiedTime](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/lastmodifiedtime) { get; set; } |  |
+| [LastModifiedTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/lastmodifiedtimespecified) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/name) { get; set; } |  |
+| [Size](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/size) { get; set; } |  |
+| [SizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/sizespecified) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class FolderIdType : BaseFolderIdType
 
 | Name | Description |
 | --- | --- |
-| [ChangeKey](changekey) { get; set; } |  |
-| [Id](id) { get; set; } |  |
+| [ChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/folderidtype/changekey) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/folderidtype/id) { get; set; } |  |
 
 ### See Also
 

@@ -18,12 +18,12 @@ public sealed class MessageTrackingReportInfo
 
 | Name | Description |
 | --- | --- |
-| [MessageTrackingReportId](messagetrackingreportid) { get; } | Gets the value specifying message by its message-id, the organization where the message was found, the server on which the message was submitted, and an internal ID that uniquely identifies the message. |
-| [PreviousHopServer](previoushopserver) { get; } | Gets the previous server name, when available, that submitted the message. |
-| [Recipients](recipients) { get; } | Gets the e-mail addresses of the recipients for the message that was found. |
-| [Sender](sender) { get; } | Gets the e-mail address of the sender for the message that was found. |
-| [Subject](subject) { get; } | Gets the subject of the message that was found. |
-| [SubmittedTime](submittedtime) { get; } | Gets the time that the message entered the server. |
+| [MessageTrackingReportId](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/messagetrackingreportid) { get; } | Gets the value specifying message by its message-id, the organization where the message was found, the server on which the message was submitted, and an internal ID that uniquely identifies the message. |
+| [PreviousHopServer](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/previoushopserver) { get; } | Gets the previous server name, when available, that submitted the message. |
+| [Recipients](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/recipients) { get; } | Gets the e-mail addresses of the recipients for the message that was found. |
+| [Sender](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/sender) { get; } | Gets the e-mail address of the sender for the message that was found. |
+| [Subject](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/subject) { get; } | Gets the subject of the message that was found. |
+| [SubmittedTime](../../aspose.email.clients.exchange.webservice/messagetrackingreportinfo/submittedtime) { get; } | Gets the time that the message entered the server. |
 
 ### See Also
 

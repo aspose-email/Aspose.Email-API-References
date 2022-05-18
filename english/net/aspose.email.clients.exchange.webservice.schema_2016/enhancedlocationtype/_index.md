@@ -22,9 +22,9 @@ public class EnhancedLocationType
 
 | Name | Description |
 | --- | --- |
-| [Annotation](annotation) { get; set; } |  |
-| [DisplayName](displayname) { get; set; } |  |
-| [PostalAddress](postaladdress) { get; set; } |  |
+| [Annotation](../../aspose.email.clients.exchange.webservice.schema_2016/enhancedlocationtype/annotation) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/enhancedlocationtype/displayname) { get; set; } |  |
+| [PostalAddress](../../aspose.email.clients.exchange.webservice.schema_2016/enhancedlocationtype/postaladdress) { get; set; } |  |
 
 ### See Also
 

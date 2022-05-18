@@ -22,8 +22,8 @@ public class AddDistributionGroupToImListType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
-| [SmtpAddress](smtpaddress) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/adddistributiongrouptoimlisttype/displayname) { get; set; } |  |
+| [SmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/adddistributiongrouptoimlisttype/smtpaddress) { get; set; } |  |
 
 ### See Also
 

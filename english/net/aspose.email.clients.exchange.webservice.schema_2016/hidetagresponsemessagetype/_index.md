@@ -22,8 +22,15 @@ public class HideTagResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [WasSuccessful](wassuccessful) { get; set; } |  |
-| [WasSuccessfulSpecified](wassuccessfulspecified) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
+| [WasSuccessful](../../aspose.email.clients.exchange.webservice.schema_2016/hidetagresponsemessagetype/wassuccessful) { get; set; } |  |
+| [WasSuccessfulSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/hidetagresponsemessagetype/wassuccessfulspecified) { get; set; } |  |
 
 ### See Also
 

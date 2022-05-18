@@ -22,8 +22,8 @@ public class DisableAppType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DisableReason](disablereason) { get; set; } |  |
-| [ID](id) { get; set; } |  |
+| [DisableReason](../../aspose.email.clients.exchange.webservice.schema_2016/disableapptype/disablereason) { get; set; } |  |
+| [ID](../../aspose.email.clients.exchange.webservice.schema_2016/disableapptype/id) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class TransitionTargetType
 
 | Name | Description |
 | --- | --- |
-| [Kind](kind) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Kind](../../aspose.email.clients.exchange.webservice.schema_2016/transitiontargettype/kind) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/transitiontargettype/value) { get; set; } |  |
 
 ### See Also
 

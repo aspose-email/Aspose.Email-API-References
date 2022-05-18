@@ -22,8 +22,8 @@ public class ImAddressDictionaryEntryType
 
 | Name | Description |
 | --- | --- |
-| [Key](key) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Key](../../aspose.email.clients.exchange.webservice.schema_2016/imaddressdictionaryentrytype/key) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/imaddressdictionaryentrytype/value) { get; set; } |  |
 
 ### See Also
 

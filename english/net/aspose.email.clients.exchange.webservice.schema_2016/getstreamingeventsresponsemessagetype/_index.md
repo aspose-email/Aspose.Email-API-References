@@ -22,10 +22,17 @@ public class GetStreamingEventsResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [ConnectionStatus](connectionstatus) { get; set; } |  |
-| [ConnectionStatusSpecified](connectionstatusspecified) { get; set; } |  |
-| [ErrorSubscriptionIds](errorsubscriptionids) { get; set; } |  |
-| [Notifications](notifications) { get; set; } |  |
+| [ConnectionStatus](../../aspose.email.clients.exchange.webservice.schema_2016/getstreamingeventsresponsemessagetype/connectionstatus) { get; set; } |  |
+| [ConnectionStatusSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getstreamingeventsresponsemessagetype/connectionstatusspecified) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [ErrorSubscriptionIds](../../aspose.email.clients.exchange.webservice.schema_2016/getstreamingeventsresponsemessagetype/errorsubscriptionids) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [Notifications](../../aspose.email.clients.exchange.webservice.schema_2016/getstreamingeventsresponsemessagetype/notifications) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
 
 ### See Also
 

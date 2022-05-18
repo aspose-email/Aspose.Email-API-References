@@ -22,8 +22,8 @@ public class MailboxStatisticsSearchResultType
 
 | Name | Description |
 | --- | --- |
-| [KeywordStatisticsSearchResult](keywordstatisticssearchresult) { get; set; } |  |
-| [UserMailbox](usermailbox) { get; set; } |  |
+| [KeywordStatisticsSearchResult](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxstatisticssearchresulttype/keywordstatisticssearchresult) { get; set; } |  |
+| [UserMailbox](../../aspose.email.clients.exchange.webservice.schema_2016/mailboxstatisticssearchresulttype/usermailbox) { get; set; } |  |
 
 ### See Also
 

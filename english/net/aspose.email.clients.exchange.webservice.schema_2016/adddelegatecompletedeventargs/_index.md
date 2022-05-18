@@ -16,7 +16,7 @@ public class AddDelegateCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/adddelegatecompletedeventargs/result) { get; } |  |
 
 ### See Also
 

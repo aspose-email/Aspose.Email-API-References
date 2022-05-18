@@ -18,8 +18,8 @@ public abstract class SyncOperationResponse
 
 | Name | Description |
 | --- | --- |
-| [ServerId](serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
-| [Status](status) { get; set; } | Indicates the result of the operation. Used in server responses only. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/status) { get; set; } | Indicates the result of the operation. Used in server responses only. |
 
 ### See Also
 

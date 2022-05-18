@@ -22,12 +22,18 @@ public class FileSuggestionType : SuggestionType
 
 | Name | Description |
 | --- | --- |
-| [ContainerTitle](containertitle) { get; set; } |  |
-| [ContainerUrl](containerurl) { get; set; } |  |
-| [FileExtension](fileextension) { get; set; } |  |
-| [FileName](filename) { get; set; } |  |
-| [FileReferenceId](filereferenceid) { get; set; } |  |
-| [FileTitle](filetitle) { get; set; } |  |
+| [ContainerTitle](../../aspose.email.clients.exchange.webservice.schema_2016/filesuggestiontype/containertitle) { get; set; } |  |
+| [ContainerUrl](../../aspose.email.clients.exchange.webservice.schema_2016/filesuggestiontype/containerurl) { get; set; } |  |
+| [DisplayText](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/displaytext) { get; set; } |  |
+| [FileExtension](../../aspose.email.clients.exchange.webservice.schema_2016/filesuggestiontype/fileextension) { get; set; } |  |
+| [FileName](../../aspose.email.clients.exchange.webservice.schema_2016/filesuggestiontype/filename) { get; set; } |  |
+| [FileReferenceId](../../aspose.email.clients.exchange.webservice.schema_2016/filesuggestiontype/filereferenceid) { get; set; } |  |
+| [FileTitle](../../aspose.email.clients.exchange.webservice.schema_2016/filesuggestiontype/filetitle) { get; set; } |  |
+| [IsDeletable](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/isdeletable) { get; set; } |  |
+| [SuggestedQuery](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/suggestedquery) { get; set; } |  |
+| [SuggestionType1](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/suggestiontype1) { get; set; } |  |
+| [TDSuggestionId](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/tdsuggestionid) { get; set; } |  |
+| [Trigger](../../aspose.email.clients.exchange.webservice.schema_2016/suggestiontype/trigger) { get; set; } |  |
 
 ### See Also
 

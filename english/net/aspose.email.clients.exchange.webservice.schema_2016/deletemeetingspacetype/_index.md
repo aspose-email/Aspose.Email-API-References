@@ -22,7 +22,7 @@ public class DeleteMeetingSpaceType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ItemId](itemid) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/deletemeetingspacetype/itemid) { get; set; } |  |
 
 ### See Also
 

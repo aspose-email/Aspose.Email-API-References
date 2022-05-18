@@ -18,8 +18,8 @@ public class StorageProcessedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [Chunk](chunk) { get; } | Gets the pst that represents the chunk. |
-| [FileName](filename) { get; } | Gets the name of the pst file, that represents the chunk. |
+| [Chunk](../../aspose.email.storage.pst/storageprocessedeventargs/chunk) { get; } | Gets the pst that represents the chunk. |
+| [FileName](../../aspose.email.storage.pst/storageprocessedeventargs/filename) { get; } | Gets the name of the pst file, that represents the chunk. |
 
 ### See Also
 

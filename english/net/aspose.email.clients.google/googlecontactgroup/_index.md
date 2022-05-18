@@ -18,16 +18,16 @@ public sealed class GoogleContactGroup
 
 | Name | Description |
 | --- | --- |
-| [Content](content) { get; } | Gets the content of the group entry |
-| [Id](id) { get; } | Gets the unique identifier for a group entry |
-| [Title](title) { get; } | Gets the human-readable title for a group entry |
-| [Updated](updated) { get; } | Gets the date indicating the most recent instant in time when an group entry was modified |
+| [Content](../../aspose.email.clients.google/googlecontactgroup/content) { get; } | Gets the content of the group entry |
+| [Id](../../aspose.email.clients.google/googlecontactgroup/id) { get; } | Gets the unique identifier for a group entry |
+| [Title](../../aspose.email.clients.google/googlecontactgroup/title) { get; } | Gets the human-readable title for a group entry |
+| [Updated](../../aspose.email.clients.google/googlecontactgroup/updated) { get; } | Gets the date indicating the most recent instant in time when an group entry was modified |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String which represents the object instance. |
+| override [ToString](../../aspose.email.clients.google/googlecontactgroup/tostring)() | Returns a String which represents the object instance. |
 
 ### See Also
 

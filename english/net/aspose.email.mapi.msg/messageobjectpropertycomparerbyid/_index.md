@@ -22,7 +22,7 @@ public class MessageObjectPropertyComparerById : IComparer<MessageObjectProperty
 
 | Name | Description |
 | --- | --- |
-| [Compare](compare)(MessageObjectProperty, MessageObjectProperty) |  |
+| [Compare](../../aspose.email.mapi.msg/messageobjectpropertycomparerbyid/compare)(MessageObjectProperty, MessageObjectProperty) |  |
 
 ### See Also
 

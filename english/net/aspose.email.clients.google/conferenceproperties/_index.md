@@ -24,7 +24,7 @@ public class ConferenceProperties
 
 | Name | Description |
 | --- | --- |
-| [AllowedConferenceSolutions](allowedconferencesolutions) { get; set; } | Gets or sets value which defines what types of conferences are allowed |
+| [AllowedConferenceSolutions](../../aspose.email.clients.google/conferenceproperties/allowedconferencesolutions) { get; set; } | Gets or sets value which defines what types of conferences are allowed |
 
 ### See Also
 

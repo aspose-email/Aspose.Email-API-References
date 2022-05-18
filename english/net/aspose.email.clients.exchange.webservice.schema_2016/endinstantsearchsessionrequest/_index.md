@@ -22,7 +22,7 @@ public class EndInstantSearchSessionRequest : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [SessionId](sessionid) { get; set; } |  |
+| [SessionId](../../aspose.email.clients.exchange.webservice.schema_2016/endinstantsearchsessionrequest/sessionid) { get; set; } |  |
 
 ### See Also
 

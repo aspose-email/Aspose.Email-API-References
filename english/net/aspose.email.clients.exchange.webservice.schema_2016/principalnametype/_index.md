@@ -22,7 +22,7 @@ public class PrincipalNameType
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/principalnametype/value) { get; set; } |  |
 
 ### See Also
 

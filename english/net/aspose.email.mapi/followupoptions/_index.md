@@ -27,16 +27,16 @@ public sealed class FollowUpOptions
 
 | Name | Description |
 | --- | --- |
-| [Categories](categories) { get; set; } | Gets or sets string that represents list of the categories, separated by semicolons (;). |
-| [CodePage](codepage) { get; set; } | Gets or sets the code page. |
-| [DueDate](duedate) { get; set; } | Gets or sets a date indicating the due date for the flagged message. |
-| [FlagRequest](flagrequest) { get; set; } | Gets or sets a string indicating the requested action for an e-mail message. |
-| [IsCompleted](iscompleted) { get; } | Gets a value indicating whether the Message object was flagged as completed. |
-| [RecipientsFlagRequest](recipientsflagrequest) { get; set; } | Gets or sets a string indicating the requested action for recipients of an e-mail message. |
-| [RecipientsReminderTime](recipientsremindertime) { get; set; } | Gets or sets a date for recipients indicating the date and time at which the reminder should occur. |
-| [ReminderTime](remindertime) { get; set; } | Gets or sets a date indicating the date and time at which the reminder should occur. |
-| [StartDate](startdate) { get; set; } | Gets or sets a date specifying the starting date and time for the flagged message. |
-| [VotingButtons](votingbuttons) { get; set; } | Gets or sets string that represents list of the voting buttons names, separated by semicolons (;). |
+| [Categories](../../aspose.email.mapi/followupoptions/categories) { get; set; } | Gets or sets string that represents list of the categories, separated by semicolons (;). |
+| [CodePage](../../aspose.email.mapi/followupoptions/codepage) { get; set; } | Gets or sets the code page. |
+| [DueDate](../../aspose.email.mapi/followupoptions/duedate) { get; set; } | Gets or sets a date indicating the due date for the flagged message. |
+| [FlagRequest](../../aspose.email.mapi/followupoptions/flagrequest) { get; set; } | Gets or sets a string indicating the requested action for an e-mail message. |
+| [IsCompleted](../../aspose.email.mapi/followupoptions/iscompleted) { get; } | Gets a value indicating whether the Message object was flagged as completed. |
+| [RecipientsFlagRequest](../../aspose.email.mapi/followupoptions/recipientsflagrequest) { get; set; } | Gets or sets a string indicating the requested action for recipients of an e-mail message. |
+| [RecipientsReminderTime](../../aspose.email.mapi/followupoptions/recipientsremindertime) { get; set; } | Gets or sets a date for recipients indicating the date and time at which the reminder should occur. |
+| [ReminderTime](../../aspose.email.mapi/followupoptions/remindertime) { get; set; } | Gets or sets a date indicating the date and time at which the reminder should occur. |
+| [StartDate](../../aspose.email.mapi/followupoptions/startdate) { get; set; } | Gets or sets a date specifying the starting date and time for the flagged message. |
+| [VotingButtons](../../aspose.email.mapi/followupoptions/votingbuttons) { get; set; } | Gets or sets string that represents list of the voting buttons names, separated by semicolons (;). |
 
 ### See Also
 

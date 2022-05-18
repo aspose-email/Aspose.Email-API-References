@@ -22,7 +22,7 @@ public class ArrayOfTimeZoneDefinitionType
 
 | Name | Description |
 | --- | --- |
-| [TimeZoneDefinition](timezonedefinition) { get; set; } |  |
+| [TimeZoneDefinition](../../aspose.email.clients.exchange.webservice.schema_2016/arrayoftimezonedefinitiontype/timezonedefinition) { get; set; } |  |
 
 ### See Also
 

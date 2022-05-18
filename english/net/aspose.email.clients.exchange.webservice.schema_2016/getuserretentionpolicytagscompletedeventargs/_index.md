@@ -16,7 +16,7 @@ public class GetUserRetentionPolicyTagsCompletedEventArgs : AsyncCompletedEventA
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getuserretentionpolicytagscompletedeventargs/result) { get; } |  |
 
 ### See Also
 

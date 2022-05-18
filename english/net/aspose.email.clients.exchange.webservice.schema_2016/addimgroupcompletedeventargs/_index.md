@@ -16,7 +16,7 @@ public class AddImGroupCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/addimgroupcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

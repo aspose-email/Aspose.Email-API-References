@@ -22,8 +22,8 @@ public class MeetingLocation
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
-| [EmailAddress](emailaddress) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/meetinglocation/displayname) { get; set; } |  |
+| [EmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/meetinglocation/emailaddress) { get; set; } |  |
 
 ### See Also
 

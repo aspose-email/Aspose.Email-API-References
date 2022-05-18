@@ -22,7 +22,7 @@ public class RemoveDistributionGroupFromImListType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [GroupId](groupid) { get; set; } |  |
+| [GroupId](../../aspose.email.clients.exchange.webservice.schema_2016/removedistributiongroupfromimlisttype/groupid) { get; set; } |  |
 
 ### See Also
 

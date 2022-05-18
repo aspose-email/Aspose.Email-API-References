@@ -22,7 +22,8 @@ public class AddressEntityType : EntityType
 
 | Name | Description |
 | --- | --- |
-| [Address](address) { get; set; } |  |
+| [Address](../../aspose.email.clients.exchange.webservice.schema_2016/addressentitytype/address) { get; set; } |  |
+| [Position](../../aspose.email.clients.exchange.webservice.schema_2016/entitytype/position) { get; set; } |  |
 
 ### See Also
 

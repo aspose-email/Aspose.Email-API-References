@@ -22,27 +22,27 @@ public class ItemResponseShapeType
 
 | Name | Description |
 | --- | --- |
-| [AddBlankTargetToLinks](addblanktargettolinks) { get; set; } |  |
-| [AddBlankTargetToLinksSpecified](addblanktargettolinksspecified) { get; set; } |  |
-| [AdditionalProperties](additionalproperties) { get; set; } |  |
-| [BaseShape](baseshape) { get; set; } |  |
-| [BlockExternalImages](blockexternalimages) { get; set; } |  |
-| [BlockExternalImagesSpecified](blockexternalimagesspecified) { get; set; } |  |
-| [BodyType](bodytype) { get; set; } |  |
-| [BodyTypeSpecified](bodytypespecified) { get; set; } |  |
-| [ConvertHtmlCodePageToUTF8](converthtmlcodepagetoutf8) { get; set; } |  |
-| [ConvertHtmlCodePageToUTF8Specified](converthtmlcodepagetoutf8specified) { get; set; } |  |
-| [FilterHtmlContent](filterhtmlcontent) { get; set; } |  |
-| [FilterHtmlContentSpecified](filterhtmlcontentspecified) { get; set; } |  |
-| [IncludeMimeContent](includemimecontent) { get; set; } |  |
-| [IncludeMimeContentSpecified](includemimecontentspecified) { get; set; } |  |
-| [InlineImageUrlTemplate](inlineimageurltemplate) { get; set; } |  |
-| [MaximumBodySize](maximumbodysize) { get; set; } |  |
-| [MaximumBodySizeSpecified](maximumbodysizespecified) { get; set; } |  |
-| [NormalizedBodyType](normalizedbodytype) { get; set; } |  |
-| [NormalizedBodyTypeSpecified](normalizedbodytypespecified) { get; set; } |  |
-| [UniqueBodyType](uniquebodytype) { get; set; } |  |
-| [UniqueBodyTypeSpecified](uniquebodytypespecified) { get; set; } |  |
+| [AddBlankTargetToLinks](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/addblanktargettolinks) { get; set; } |  |
+| [AddBlankTargetToLinksSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/addblanktargettolinksspecified) { get; set; } |  |
+| [AdditionalProperties](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/additionalproperties) { get; set; } |  |
+| [BaseShape](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/baseshape) { get; set; } |  |
+| [BlockExternalImages](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/blockexternalimages) { get; set; } |  |
+| [BlockExternalImagesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/blockexternalimagesspecified) { get; set; } |  |
+| [BodyType](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/bodytype) { get; set; } |  |
+| [BodyTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/bodytypespecified) { get; set; } |  |
+| [ConvertHtmlCodePageToUTF8](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/converthtmlcodepagetoutf8) { get; set; } |  |
+| [ConvertHtmlCodePageToUTF8Specified](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/converthtmlcodepagetoutf8specified) { get; set; } |  |
+| [FilterHtmlContent](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/filterhtmlcontent) { get; set; } |  |
+| [FilterHtmlContentSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/filterhtmlcontentspecified) { get; set; } |  |
+| [IncludeMimeContent](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/includemimecontent) { get; set; } |  |
+| [IncludeMimeContentSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/includemimecontentspecified) { get; set; } |  |
+| [InlineImageUrlTemplate](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/inlineimageurltemplate) { get; set; } |  |
+| [MaximumBodySize](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/maximumbodysize) { get; set; } |  |
+| [MaximumBodySizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/maximumbodysizespecified) { get; set; } |  |
+| [NormalizedBodyType](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/normalizedbodytype) { get; set; } |  |
+| [NormalizedBodyTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/normalizedbodytypespecified) { get; set; } |  |
+| [UniqueBodyType](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/uniquebodytype) { get; set; } |  |
+| [UniqueBodyTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/itemresponseshapetype/uniquebodytypespecified) { get; set; } |  |
 
 ### See Also
 

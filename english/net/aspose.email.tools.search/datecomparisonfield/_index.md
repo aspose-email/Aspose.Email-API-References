@@ -18,18 +18,19 @@ public sealed class DateComparisonField : ComparisonField
 
 | Name | Description |
 | --- | --- |
-| [Before](before)(DateTime) | Indicates that the date in message must be earlier than the specified date. |
-| [Before](before)(DateTime, DateComparisonType) | Indicates that the date in message must be earlier than the specified date. |
-| [BeforeOrEqual](beforeorequal)(DateTime) | Indicates that the date in message must be earlier or equel to the specified date. |
-| [BeforeOrEqual](beforeorequal)(DateTime, DateComparisonType) | Indicates that the date in message must be earlier or equel to the specified date. |
-| [Greater](greater)(DateTime) | Indicates that date in message must be later than the specified date. |
-| [Greater](greater)(DateTime, DateComparisonType) | Indicates that date in message must be later than the specified date. |
-| [NotOn](noton)(DateTime) | Indicates that the date in message must not be in the specified date. |
-| [NotOn](noton)(DateTime, DateComparisonType) | Indicates that the date in message must not be in the specified date. |
-| [On](on)(DateTime) | Indicates that the date in message must be within the specified date. |
-| [On](on)(DateTime, DateComparisonType) | Indicates that the date in message must be within the specified date. |
-| [Since](since)(DateTime) | Indicates that date in message must be within or later than the specified date. |
-| [Since](since)(DateTime, DateComparisonType) | Indicates that date in message must be within or later than the specified date. |
+| [Before](../../aspose.email.tools.search/datecomparisonfield/before)(DateTime) | Indicates that the date in message must be earlier than the specified date. |
+| [Before](../../aspose.email.tools.search/datecomparisonfield/before)(DateTime, DateComparisonType) | Indicates that the date in message must be earlier than the specified date. |
+| [BeforeOrEqual](../../aspose.email.tools.search/datecomparisonfield/beforeorequal)(DateTime) | Indicates that the date in message must be earlier or equel to the specified date. |
+| [BeforeOrEqual](../../aspose.email.tools.search/datecomparisonfield/beforeorequal)(DateTime, DateComparisonType) | Indicates that the date in message must be earlier or equel to the specified date. |
+| [Greater](../../aspose.email.tools.search/datecomparisonfield/greater)(DateTime) | Indicates that date in message must be later than the specified date. |
+| [Greater](../../aspose.email.tools.search/datecomparisonfield/greater)(DateTime, DateComparisonType) | Indicates that date in message must be later than the specified date. |
+| [NotOn](../../aspose.email.tools.search/datecomparisonfield/noton)(DateTime) | Indicates that the date in message must not be in the specified date. |
+| [NotOn](../../aspose.email.tools.search/datecomparisonfield/noton)(DateTime, DateComparisonType) | Indicates that the date in message must not be in the specified date. |
+| [On](../../aspose.email.tools.search/datecomparisonfield/on)(DateTime) | Indicates that the date in message must be within the specified date. |
+| [On](../../aspose.email.tools.search/datecomparisonfield/on)(DateTime, DateComparisonType) | Indicates that the date in message must be within the specified date. |
+| [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | Sets value which indicates if client uses ascending or descending sorting on the Field. |
+| [Since](../../aspose.email.tools.search/datecomparisonfield/since)(DateTime) | Indicates that date in message must be within or later than the specified date. |
+| [Since](../../aspose.email.tools.search/datecomparisonfield/since)(DateTime, DateComparisonType) | Indicates that date in message must be within or later than the specified date. |
 
 ### See Also
 

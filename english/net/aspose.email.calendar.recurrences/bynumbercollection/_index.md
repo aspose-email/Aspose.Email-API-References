@@ -18,8 +18,8 @@ public class ByNumberCollection : List<int>
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(int) | Adds a month, week, day, hour, minute or second to the collection. |
-| [Add](add)(int[]) | Adds an array of month, week, day, hour, minute or second to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bynumbercollection/add)(int) | Adds a month, week, day, hour, minute or second to the collection. |
+| [Add](../../aspose.email.calendar.recurrences/bynumbercollection/add)(int[]) | Adds an array of month, week, day, hour, minute or second to the collection. |
 
 ### Remarks
 

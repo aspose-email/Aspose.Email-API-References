@@ -18,9 +18,9 @@ public class ImapQuotaRoot
 
 | Name | Description |
 | --- | --- |
-| [MailboxName](mailboxname) { get; } | Gets mailbox name |
-| [QuotaRootName](quotarootname) { get; } | Gets qupta root name |
-| [Quotas](quotas) { get; } | Gets usage of resource |
+| [MailboxName](../../aspose.email.clients.imap/imapquotaroot/mailboxname) { get; } | Gets mailbox name |
+| [QuotaRootName](../../aspose.email.clients.imap/imapquotaroot/quotarootname) { get; } | Gets qupta root name |
+| [Quotas](../../aspose.email.clients.imap/imapquotaroot/quotas) { get; } | Gets usage of resource |
 
 ### See Also
 

@@ -24,12 +24,12 @@ public sealed class MapiCalendarEventRecurrence
 
 | Name | Description |
 | --- | --- |
-| [AppointmentTimeZoneDefinitionRecur](appointmenttimezonedefinitionrecur) { get; set; } | Gets or sets time zone information that describes how to convert the meeting date and time on a recurring series to and from UTC. |
-| [ClipEnd](clipend) { get; set; } | Gets or sets the date of the last instance |
-| [ClipStart](clipstart) { get; set; } | Gets or sets the date of the first instance |
-| [IsException](isexception) { get; set; } | Gets or sets a value indicating whether the object represents an exception |
-| [RecurrencePattern](recurrencepattern) { get; set; } | Gets or sets the recurrence pattern |
-| [TimeZoneStruct](timezonestruct) { get; set; } | Gets or sets the time zone information for a recurring meeting. |
+| [AppointmentTimeZoneDefinitionRecur](../../aspose.email.mapi/mapicalendareventrecurrence/appointmenttimezonedefinitionrecur) { get; set; } | Gets or sets time zone information that describes how to convert the meeting date and time on a recurring series to and from UTC. |
+| [ClipEnd](../../aspose.email.mapi/mapicalendareventrecurrence/clipend) { get; set; } | Gets or sets the date of the last instance |
+| [ClipStart](../../aspose.email.mapi/mapicalendareventrecurrence/clipstart) { get; set; } | Gets or sets the date of the first instance |
+| [IsException](../../aspose.email.mapi/mapicalendareventrecurrence/isexception) { get; set; } | Gets or sets a value indicating whether the object represents an exception |
+| [RecurrencePattern](../../aspose.email.mapi/mapicalendareventrecurrence/recurrencepattern) { get; set; } | Gets or sets the recurrence pattern |
+| [TimeZoneStruct](../../aspose.email.mapi/mapicalendareventrecurrence/timezonestruct) { get; set; } | Gets or sets the time zone information for a recurring meeting. |
 
 ### See Also
 

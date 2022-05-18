@@ -24,16 +24,16 @@ public sealed class VCardSecurity
 
 | Name | Description |
 | --- | --- |
-| [AccessClass](accessclass) { get; set; } | Gets or sets an access class |
-| [Encoding](encoding) { get; set; } | Gets or sets a ContentTransferEncoding |
-| [Key](key) { get; set; } | Gets or sets a public key(or authentication certificate) |
+| [AccessClass](../../aspose.email.personalinfo.vcard/vcardsecurity/accessclass) { get; set; } | Gets or sets an access class |
+| [Encoding](../../aspose.email.personalinfo.vcard/vcardsecurity/encoding) { get; set; } | Gets or sets a ContentTransferEncoding |
+| [Key](../../aspose.email.personalinfo.vcard/vcardsecurity/key) { get; set; } | Gets or sets a public key(or authentication certificate) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SaveToPEM](savetopem)(Stream) | Saves base64 key in PEM format to the stream. |
-| [SaveToPEM](savetopem)(string) | Saves base64 key to PEM format. |
+| [SaveToPEM](../../aspose.email.personalinfo.vcard/vcardsecurity/savetopem)(Stream) | Saves base64 key in PEM format to the stream. |
+| [SaveToPEM](../../aspose.email.personalinfo.vcard/vcardsecurity/savetopem)(string) | Saves base64 key to PEM format. |
 
 ### See Also
 

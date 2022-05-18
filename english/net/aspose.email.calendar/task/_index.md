@@ -24,30 +24,30 @@ public class Task : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Attachments](attachments) { get; set; } | Gets or sets a collection of file attached to the task. |
-| [Attendees](attendees) { get; set; } | Gets or sets the attendees. |
-| [Body](body) { get; set; } | Gets or sets a task body. |
-| [DueDate](duedate) { get; set; } | Gets or sets the date by which the user expects work on the task to be complete. |
-| [Method](method) { get; set; } | Gets or sets iTIP methods associated with an task. |
-| [Organizer](organizer) { get; set; } | Gets or sets the organizer. |
-| [PercentComplete](percentcomplete) { get; set; } | Gets or sets a pecent of task completion. |
-| [Priority](priority) { get; set; } | Gets or sets a task priority. |
-| [RelatedTo](relatedto) { get; set; } | Gets or sets a related UID |
-| [SequenceId](sequenceid) { get; set; } | Gets or sets the sequence id. |
-| [StartDate](startdate) { get; set; } | Gets or sets a start date of task. |
-| [Subject](subject) { get; set; } | Gets or sets a task subject. |
-| [UniqueId](uniqueid) { get; set; } | Gets or sets unique identifier |
+| [Attachments](../../aspose.email.calendar/task/attachments) { get; set; } | Gets or sets a collection of file attached to the task. |
+| [Attendees](../../aspose.email.calendar/task/attendees) { get; set; } | Gets or sets the attendees. |
+| [Body](../../aspose.email.calendar/task/body) { get; set; } | Gets or sets a task body. |
+| [DueDate](../../aspose.email.calendar/task/duedate) { get; set; } | Gets or sets the date by which the user expects work on the task to be complete. |
+| [Method](../../aspose.email.calendar/task/method) { get; set; } | Gets or sets iTIP methods associated with an task. |
+| [Organizer](../../aspose.email.calendar/task/organizer) { get; set; } | Gets or sets the organizer. |
+| [PercentComplete](../../aspose.email.calendar/task/percentcomplete) { get; set; } | Gets or sets a pecent of task completion. |
+| [Priority](../../aspose.email.calendar/task/priority) { get; set; } | Gets or sets a task priority. |
+| [RelatedTo](../../aspose.email.calendar/task/relatedto) { get; set; } | Gets or sets a related UID |
+| [SequenceId](../../aspose.email.calendar/task/sequenceid) { get; set; } | Gets or sets the sequence id. |
+| [StartDate](../../aspose.email.calendar/task/startdate) { get; set; } | Gets or sets a start date of task. |
+| [Subject](../../aspose.email.calendar/task/subject) { get; set; } | Gets or sets a task subject. |
+| [UniqueId](../../aspose.email.calendar/task/uniqueid) { get; set; } | Gets or sets unique identifier |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Release all resources. |
-| [Request](request)() | Requests the object. |
-| virtual [Save](save)(Stream) | Saves current object to the given stream using MSG format. |
-| virtual [Save](save)(string) | Saves current object into file using MSG format. |
-| virtual [Save](save)(Stream, TaskSaveFormat) | Saves current object to the given stream using specified format. |
-| virtual [Save](save)(string, TaskSaveFormat) | Saves current object into file using specified format. |
+| [Dispose](../../aspose.email.calendar/task/dispose)() | Release all resources. |
+| [Request](../../aspose.email.calendar/task/request)() | Requests the object. |
+| virtual [Save](../../aspose.email.calendar/task/save)(Stream) | Saves current object to the given stream using MSG format. |
+| virtual [Save](../../aspose.email.calendar/task/save)(string) | Saves current object into file using MSG format. |
+| virtual [Save](../../aspose.email.calendar/task/save)(Stream, TaskSaveFormat) | Saves current object to the given stream using specified format. |
+| virtual [Save](../../aspose.email.calendar/task/save)(string, TaskSaveFormat) | Saves current object into file using specified format. |
 
 ### See Also
 

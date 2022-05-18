@@ -22,8 +22,8 @@ public class TimeSlot
 
 | Name | Description |
 | --- | --- |
-| [DurationInMinutes](durationinminutes) { get; set; } |  |
-| [StartTime](starttime) { get; set; } |  |
+| [DurationInMinutes](../../aspose.email.clients.exchange.webservice.schema_2016/timeslot/durationinminutes) { get; set; } |  |
+| [StartTime](../../aspose.email.clients.exchange.webservice.schema_2016/timeslot/starttime) { get; set; } |  |
 
 ### See Also
 

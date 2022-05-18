@@ -18,6 +18,13 @@ public class IsEqualToType : TwoOperandExpressionType
 | --- | --- |
 | [IsEqualToType](isequaltotype)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [FieldURIOrConstant](../../aspose.email.clients.exchange.webservice.schema_2016/twooperandexpressiontype/fielduriorconstant) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/twooperandexpressiontype/item) { get; set; } |  |
+
 ### See Also
 
 * class [TwoOperandExpressionType](../twooperandexpressiontype)

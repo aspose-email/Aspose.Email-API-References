@@ -22,10 +22,10 @@ public class MemberType
 
 | Name | Description |
 | --- | --- |
-| [Key](key) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
-| [Status](status) { get; set; } |  |
-| [StatusSpecified](statusspecified) { get; set; } |  |
+| [Key](../../aspose.email.clients.exchange.webservice.schema_2016/membertype/key) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/membertype/mailbox) { get; set; } |  |
+| [Status](../../aspose.email.clients.exchange.webservice.schema_2016/membertype/status) { get; set; } |  |
+| [StatusSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/membertype/statusspecified) { get; set; } |  |
 
 ### See Also
 

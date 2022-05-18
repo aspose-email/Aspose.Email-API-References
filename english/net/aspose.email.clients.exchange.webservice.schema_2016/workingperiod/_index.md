@@ -22,9 +22,9 @@ public class WorkingPeriod
 
 | Name | Description |
 | --- | --- |
-| [DayOfWeek](dayofweek) { get; set; } |  |
-| [EndTimeInMinutes](endtimeinminutes) { get; set; } |  |
-| [StartTimeInMinutes](starttimeinminutes) { get; set; } |  |
+| [DayOfWeek](../../aspose.email.clients.exchange.webservice.schema_2016/workingperiod/dayofweek) { get; set; } |  |
+| [EndTimeInMinutes](../../aspose.email.clients.exchange.webservice.schema_2016/workingperiod/endtimeinminutes) { get; set; } |  |
+| [StartTimeInMinutes](../../aspose.email.clients.exchange.webservice.schema_2016/workingperiod/starttimeinminutes) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class ReplyBody
 
 | Name | Description |
 | --- | --- |
-| [lang](lang) { get; set; } |  |
-| [Message](message) { get; set; } |  |
+| [lang](../../aspose.email.clients.exchange.webservice.schema_2016/replybody/lang) { get; set; } |  |
+| [Message](../../aspose.email.clients.exchange.webservice.schema_2016/replybody/message) { get; set; } |  |
 
 ### See Also
 

@@ -22,9 +22,9 @@ public class GetServiceConfigurationType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ActingAs](actingas) { get; set; } |  |
-| [ConfigurationRequestDetails](configurationrequestdetails) { get; set; } |  |
-| [RequestedConfiguration](requestedconfiguration) { get; set; } |  |
+| [ActingAs](../../aspose.email.clients.exchange.webservice.schema_2016/getserviceconfigurationtype/actingas) { get; set; } |  |
+| [ConfigurationRequestDetails](../../aspose.email.clients.exchange.webservice.schema_2016/getserviceconfigurationtype/configurationrequestdetails) { get; set; } |  |
+| [RequestedConfiguration](../../aspose.email.clients.exchange.webservice.schema_2016/getserviceconfigurationtype/requestedconfiguration) { get; set; } |  |
 
 ### See Also
 

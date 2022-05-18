@@ -22,8 +22,8 @@ public class SharePointURLsServiceConfiguration : ServiceConfiguration
 
 | Name | Description |
 | --- | --- |
-| [ExternalSPMySiteHostURL](externalspmysitehosturl) { get; set; } |  |
-| [InternalSPMySiteHostURL](internalspmysitehosturl) { get; set; } |  |
+| [ExternalSPMySiteHostURL](../../aspose.email.clients.exchange.webservice.schema_2016/sharepointurlsserviceconfiguration/externalspmysitehosturl) { get; set; } |  |
+| [InternalSPMySiteHostURL](../../aspose.email.clients.exchange.webservice.schema_2016/sharepointurlsserviceconfiguration/internalspmysitehosturl) { get; set; } |  |
 
 ### See Also
 

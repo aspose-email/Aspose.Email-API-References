@@ -18,18 +18,18 @@ public abstract class ExchangeClientBase : IExchangeClientBase
 
 | Name | Description |
 | --- | --- |
-| virtual [Credentials](credentials) { get; set; } | Gets or sets the credentials |
-| [LogFileName](logfilename) { get; set; } | Gets or sets log file name |
-| virtual [MailboxUri](mailboxuri) { get; set; } | Gets or sets the mailbox uri |
-| virtual [Proxy](proxy) { get; set; } | Gets or sets the proxy. |
-| virtual [Timeout](timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
-| [UseDateInLogFileName](usedateinlogfilename) { get; set; } | Gets or sets value which indicates if date has to be used in log file name. |
+| virtual [Credentials](../../aspose.email.clients.exchange/exchangeclientbase/credentials) { get; set; } | Gets or sets the credentials |
+| [LogFileName](../../aspose.email.clients.exchange/exchangeclientbase/logfilename) { get; set; } | Gets or sets log file name |
+| virtual [MailboxUri](../../aspose.email.clients.exchange/exchangeclientbase/mailboxuri) { get; set; } | Gets or sets the mailbox uri |
+| virtual [Proxy](../../aspose.email.clients.exchange/exchangeclientbase/proxy) { get; set; } | Gets or sets the proxy. |
+| virtual [Timeout](../../aspose.email.clients.exchange/exchangeclientbase/timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
+| [UseDateInLogFileName](../../aspose.email.clients.exchange/exchangeclientbase/usedateinlogfilename) { get; set; } | Gets or sets value which indicates if date has to be used in log file name. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Dispose](../../aspose.email.clients.exchange/exchangeclientbase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 
 ### See Also
 

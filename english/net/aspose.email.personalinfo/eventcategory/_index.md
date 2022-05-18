@@ -24,22 +24,22 @@ public class EventCategory : IEquatable<EventCategory>
 
 | Name | Description |
 | --- | --- |
-| static [Anniversary](anniversary) { get; } | Anniversary |
-| static [Birthday](birthday) { get; } | Birthday |
-| static [Custom](custom) { get; } | Custom description |
-| [Description](description) { get; } | Gets description for the 'Custom' category of an event |
-| [Value](value) { get; } | Gets string representation of an event category |
+| static [Anniversary](../../aspose.email.personalinfo/eventcategory/anniversary) { get; } | Anniversary |
+| static [Birthday](../../aspose.email.personalinfo/eventcategory/birthday) { get; } | Birthday |
+| static [Custom](../../aspose.email.personalinfo/eventcategory/custom) { get; } | Custom description |
+| [Description](../../aspose.email.personalinfo/eventcategory/description) { get; } | Gets description for the 'Custom' category of an event |
+| [Value](../../aspose.email.personalinfo/eventcategory/value) { get; } | Gets string representation of an event category |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Equals](equals)(EventCategory) | Determines whether the specified object is equal to the current object. |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| override [GetHashCode](gethashcode)() | GetHashCode returns a hash function for this object. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [operator ==](op_equality) | Determines whether the specified objects are equal. |
-| [operator !=](op_inequality) | Determines whether the specified objects are not equal. |
+| virtual [Equals](../../aspose.email.personalinfo/eventcategory/equals)(EventCategory) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.email.personalinfo/eventcategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| override [GetHashCode](../../aspose.email.personalinfo/eventcategory/gethashcode)() | GetHashCode returns a hash function for this object. |
+| override [ToString](../../aspose.email.personalinfo/eventcategory/tostring)() | Returns a string that represents the current object. |
+| [operator ==](../../aspose.email.personalinfo/eventcategory/op_equality) | Determines whether the specified objects are equal. |
+| [operator !=](../../aspose.email.personalinfo/eventcategory/op_inequality) | Determines whether the specified objects are not equal. |
 
 ## Other Members
 

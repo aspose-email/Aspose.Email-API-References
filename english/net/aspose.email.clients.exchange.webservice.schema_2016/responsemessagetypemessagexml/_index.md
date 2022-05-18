@@ -22,7 +22,7 @@ public class ResponseMessageTypeMessageXml
 
 | Name | Description |
 | --- | --- |
-| [Any](any) { get; set; } |  |
+| [Any](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetypemessagexml/any) { get; set; } |  |
 
 ### See Also
 

@@ -22,8 +22,8 @@ public class FreeBusyResponseType
 
 | Name | Description |
 | --- | --- |
-| [FreeBusyView](freebusyview) { get; set; } |  |
-| [ResponseMessage](responsemessage) { get; set; } |  |
+| [FreeBusyView](../../aspose.email.clients.exchange.webservice.schema_2016/freebusyresponsetype/freebusyview) { get; set; } |  |
+| [ResponseMessage](../../aspose.email.clients.exchange.webservice.schema_2016/freebusyresponsetype/responsemessage) { get; set; } |  |
 
 ### See Also
 

@@ -24,31 +24,31 @@ public class InstantMessengerCategory : IEquatable<InstantMessengerCategory>
 
 | Name | Description |
 | --- | --- |
-| static [AIM](aim) { get; } | AIM |
-| static [Custom](custom) { get; } | Custom messenger kind |
-| static [GoogleTalk](googletalk) { get; } | Google Talk |
-| static [ICQ](icq) { get; } | ICQ |
-| static [ImAddress1](imaddress1) { get; } | ImAddress1 messenger kind |
-| static [ImAddress2](imaddress2) { get; } | ImAddress2 messenger kind |
-| static [ImAddress3](imaddress3) { get; } | ImAddress3 messenger kind |
-| static [Jabber](jabber) { get; } | Jabber |
-| static [MSN](msn) { get; } | MSN |
-| static [QQ](qq) { get; } | QQ |
-| static [Skype](skype) { get; } | Skype |
-| static [Yahoo](yahoo) { get; } | Yahoo |
-| [Description](description) { get; } | Gets description for the 'Custom' category of an instant messenger address |
-| [Value](value) { get; } | Gets category of an instant messenger address |
+| static [AIM](../../aspose.email.personalinfo/instantmessengercategory/aim) { get; } | AIM |
+| static [Custom](../../aspose.email.personalinfo/instantmessengercategory/custom) { get; } | Custom messenger kind |
+| static [GoogleTalk](../../aspose.email.personalinfo/instantmessengercategory/googletalk) { get; } | Google Talk |
+| static [ICQ](../../aspose.email.personalinfo/instantmessengercategory/icq) { get; } | ICQ |
+| static [ImAddress1](../../aspose.email.personalinfo/instantmessengercategory/imaddress1) { get; } | ImAddress1 messenger kind |
+| static [ImAddress2](../../aspose.email.personalinfo/instantmessengercategory/imaddress2) { get; } | ImAddress2 messenger kind |
+| static [ImAddress3](../../aspose.email.personalinfo/instantmessengercategory/imaddress3) { get; } | ImAddress3 messenger kind |
+| static [Jabber](../../aspose.email.personalinfo/instantmessengercategory/jabber) { get; } | Jabber |
+| static [MSN](../../aspose.email.personalinfo/instantmessengercategory/msn) { get; } | MSN |
+| static [QQ](../../aspose.email.personalinfo/instantmessengercategory/qq) { get; } | QQ |
+| static [Skype](../../aspose.email.personalinfo/instantmessengercategory/skype) { get; } | Skype |
+| static [Yahoo](../../aspose.email.personalinfo/instantmessengercategory/yahoo) { get; } | Yahoo |
+| [Description](../../aspose.email.personalinfo/instantmessengercategory/description) { get; } | Gets description for the 'Custom' category of an instant messenger address |
+| [Value](../../aspose.email.personalinfo/instantmessengercategory/value) { get; } | Gets category of an instant messenger address |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Equals](equals)(InstantMessengerCategory) | Determines whether the specified object is equal to the current object. |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| override [GetHashCode](gethashcode)() | GetHashCode returns a hash function for this object. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [operator ==](op_equality) | Determines whether the specified objects are equal. |
-| [operator !=](op_inequality) | Determines whether the specified objects are not equal. |
+| virtual [Equals](../../aspose.email.personalinfo/instantmessengercategory/equals)(InstantMessengerCategory) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.email.personalinfo/instantmessengercategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| override [GetHashCode](../../aspose.email.personalinfo/instantmessengercategory/gethashcode)() | GetHashCode returns a hash function for this object. |
+| override [ToString](../../aspose.email.personalinfo/instantmessengercategory/tostring)() | Returns a string that represents the current object. |
+| [operator ==](../../aspose.email.personalinfo/instantmessengercategory/op_equality) | Determines whether the specified objects are equal. |
+| [operator !=](../../aspose.email.personalinfo/instantmessengercategory/op_inequality) | Determines whether the specified objects are not equal. |
 
 ## Other Members
 

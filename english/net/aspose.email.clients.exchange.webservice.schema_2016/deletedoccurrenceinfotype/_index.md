@@ -22,7 +22,7 @@ public class DeletedOccurrenceInfoType
 
 | Name | Description |
 | --- | --- |
-| [Start](start) { get; set; } |  |
+| [Start](../../aspose.email.clients.exchange.webservice.schema_2016/deletedoccurrenceinfotype/start) { get; set; } |  |
 
 ### See Also
 

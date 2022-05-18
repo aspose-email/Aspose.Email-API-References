@@ -18,10 +18,11 @@ public sealed class EnumComparisonField : ComparisonField
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(Enum) | Indicates that field in message must be equal to the specified value. |
-| [In](in)(IEnumerable) | Indicates that field vlaue in message must be in list of specified values. |
-| [NotEquals](notequals)(Enum) | Indicates that field in message must not be equal to the specified value. |
-| [NotIn](notin)(IEnumerable) | Indicates that field vlaue in message must not be in list of specified values. |
+| [Equals](../../aspose.email.tools.search/enumcomparisonfield/equals)(Enum) | Indicates that field in message must be equal to the specified value. |
+| [In](../../aspose.email.tools.search/enumcomparisonfield/in)(IEnumerable) | Indicates that field vlaue in message must be in list of specified values. |
+| [NotEquals](../../aspose.email.tools.search/enumcomparisonfield/notequals)(Enum) | Indicates that field in message must not be equal to the specified value. |
+| [NotIn](../../aspose.email.tools.search/enumcomparisonfield/notin)(IEnumerable) | Indicates that field vlaue in message must not be in list of specified values. |
+| [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | Sets value which indicates if client uses ascending or descending sorting on the Field. |
 
 ### See Also
 

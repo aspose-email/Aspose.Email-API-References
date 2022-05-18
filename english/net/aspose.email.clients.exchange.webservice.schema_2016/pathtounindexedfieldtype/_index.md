@@ -22,7 +22,7 @@ public class PathToUnindexedFieldType : BasePathToElementType
 
 | Name | Description |
 | --- | --- |
-| [FieldURI](fielduri) { get; set; } |  |
+| [FieldURI](../../aspose.email.clients.exchange.webservice.schema_2016/pathtounindexedfieldtype/fielduri) { get; set; } |  |
 
 ### See Also
 

@@ -22,7 +22,7 @@ public class UninstallAppType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ID](id) { get; set; } |  |
+| [ID](../../aspose.email.clients.exchange.webservice.schema_2016/uninstallapptype/id) { get; set; } |  |
 
 ### See Also
 

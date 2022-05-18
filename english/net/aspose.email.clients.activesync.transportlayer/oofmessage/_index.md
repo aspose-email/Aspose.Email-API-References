@@ -24,12 +24,12 @@ public class OOFMessage
 
 | Name | Description |
 | --- | --- |
-| [AppliesToExternalKnown](appliestoexternalknown) { get; set; } | Indicates that the OOF message applies to known external users. |
-| [AppliesToExternalUnknown](appliestoexternalunknown) { get; set; } | Indicates that the OOF message applies to unknown external users. |
-| [AppliesToInternal](appliestointernal) { get; set; } | Indicates that the OOF message applies to internal users. |
-| [BodyType](bodytype) { get; set; } | Specifies the format of the OOF message. The following are the permitted values for the BodyType element: - Text - HTML |
-| [Enabled](enabled) { get; set; } | Specifies whether an OOF message is sent to this audience while the sending user is OOF. |
-| [ReplyMessage](replymessage) { get; set; } | Specifies the message to be shown to a particular audience when the user is OOF. |
+| [AppliesToExternalKnown](../../aspose.email.clients.activesync.transportlayer/oofmessage/appliestoexternalknown) { get; set; } | Indicates that the OOF message applies to known external users. |
+| [AppliesToExternalUnknown](../../aspose.email.clients.activesync.transportlayer/oofmessage/appliestoexternalunknown) { get; set; } | Indicates that the OOF message applies to unknown external users. |
+| [AppliesToInternal](../../aspose.email.clients.activesync.transportlayer/oofmessage/appliestointernal) { get; set; } | Indicates that the OOF message applies to internal users. |
+| [BodyType](../../aspose.email.clients.activesync.transportlayer/oofmessage/bodytype) { get; set; } | Specifies the format of the OOF message. The following are the permitted values for the BodyType element: - Text - HTML |
+| [Enabled](../../aspose.email.clients.activesync.transportlayer/oofmessage/enabled) { get; set; } | Specifies whether an OOF message is sent to this audience while the sending user is OOF. |
+| [ReplyMessage](../../aspose.email.clients.activesync.transportlayer/oofmessage/replymessage) { get; set; } | Specifies the message to be shown to a particular audience when the user is OOF. |
 
 ### See Also
 

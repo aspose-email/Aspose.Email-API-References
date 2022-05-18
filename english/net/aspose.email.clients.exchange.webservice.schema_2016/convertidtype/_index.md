@@ -22,8 +22,8 @@ public class ConvertIdType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DestinationFormat](destinationformat) { get; set; } |  |
-| [SourceIds](sourceids) { get; set; } |  |
+| [DestinationFormat](../../aspose.email.clients.exchange.webservice.schema_2016/convertidtype/destinationformat) { get; set; } |  |
+| [SourceIds](../../aspose.email.clients.exchange.webservice.schema_2016/convertidtype/sourceids) { get; set; } |  |
 
 ### See Also
 

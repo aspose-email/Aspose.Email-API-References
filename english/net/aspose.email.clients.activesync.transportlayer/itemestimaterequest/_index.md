@@ -26,11 +26,11 @@ public class ItemEstimateRequest
 
 | Name | Description |
 | --- | --- |
-| [CollectionId](collectionid) { get; set; } | Specifies the server ID of the collection from which the item estimate is being obtained. |
-| [ConversationMode](conversationmode) { get; set; } | Specifies whether to include items that are included within the conversation modality within the results of the GetItemEstimate command response. |
-| [FilterType](filtertype) { get; set; } | Specifies an optional time window for the objects |
-| [Options](options) { get; set; } | Contains array of elements that filter the results of the GetItemEstimate operation. |
-| [SyncKey](synckey) { get; set; } | Represents the current state of a collection. |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/collectionid) { get; set; } | Specifies the server ID of the collection from which the item estimate is being obtained. |
+| [ConversationMode](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/conversationmode) { get; set; } | Specifies whether to include items that are included within the conversation modality within the results of the GetItemEstimate command response. |
+| [FilterType](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/filtertype) { get; set; } | Specifies an optional time window for the objects |
+| [Options](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/options) { get; set; } | Contains array of elements that filter the results of the GetItemEstimate operation. |
+| [SyncKey](../../aspose.email.clients.activesync.transportlayer/itemestimaterequest/synckey) { get; set; } | Represents the current state of a collection. |
 
 ### See Also
 

@@ -18,22 +18,22 @@ public abstract class MboxStorageReader : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [BaseStream](basestream) { get; } | Gets the base stream. |
-| [CurrentDataSize](currentdatasize) { get; } | Gets the number of bytes that is read by ReadNextMessage method. |
+| [BaseStream](../../aspose.email.storage.mbox/mboxstoragereader/basestream) { get; } | Gets the base stream. |
+| [CurrentDataSize](../../aspose.email.storage.mbox/mboxstoragereader/currentdatasize) { get; } | Gets the number of bytes that is read by ReadNextMessage method. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateReader](createreader)(Stream, MboxLoadOptions) | Creates the instance of reader. |
-| static [CreateReader](createreader)(string, MboxLoadOptions) | Creates the instance of reader. |
-| static [CreateReader](createreader)(Stream, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
-| static [CreateReader](createreader)(string, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [EnumerateMessages](enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in storage. |
-| abstract [GetTotalItemsCount](gettotalitemscount)() | Returns the number of messages in a storage. |
-| abstract [ReadNextMessage](readnextmessage)() | Reads the next message from underlying storage stream. |
-| abstract [ReadNextMessage](readnextmessage)(out string) | Reads the next message from underlying storage stream. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader)(Stream, MboxLoadOptions) | Creates the instance of reader. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader)(string, MboxLoadOptions) | Creates the instance of reader. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader)(Stream, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader)(string, MboxLoadOptions, CancellationToken) | Creates the instance of reader. |
+| [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in storage. |
+| abstract [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxstoragereader/gettotalitemscount)() | Returns the number of messages in a storage. |
+| abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage)() | Reads the next message from underlying storage stream. |
+| abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage)(out string) | Reads the next message from underlying storage stream. |
 
 ### See Also
 

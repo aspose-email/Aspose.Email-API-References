@@ -24,9 +24,9 @@ public class ProvisionRequest
 
 | Name | Description |
 | --- | --- |
-| [DeviceInformation](deviceinformation) { get; set; } | Device information. When the protocol version is 14.1, the client MUST send the DeviceInformation element with its contents when sending an initial Provision command request to the server but not on subsequent requests. |
-| [Policies](policies) { get; } | Specifies a collection of security policies. |
-| [RemoteWipeStatus](remotewipestatus) { get; set; } | Specifies a client's confirmation of a server's remote wipe directive. The value indicates the success or failure of a remote wipe operation on the client. |
+| [DeviceInformation](../../aspose.email.clients.activesync.transportlayer/provisionrequest/deviceinformation) { get; set; } | Device information. When the protocol version is 14.1, the client MUST send the DeviceInformation element with its contents when sending an initial Provision command request to the server but not on subsequent requests. |
+| [Policies](../../aspose.email.clients.activesync.transportlayer/provisionrequest/policies) { get; } | Specifies a collection of security policies. |
+| [RemoteWipeStatus](../../aspose.email.clients.activesync.transportlayer/provisionrequest/remotewipestatus) { get; set; } | Specifies a client's confirmation of a server's remote wipe directive. The value indicates the success or failure of a remote wipe operation on the client. |
 
 ### See Also
 

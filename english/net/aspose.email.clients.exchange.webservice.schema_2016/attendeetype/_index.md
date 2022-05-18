@@ -22,15 +22,15 @@ public class AttendeeType
 
 | Name | Description |
 | --- | --- |
-| [LastResponseTime](lastresponsetime) { get; set; } |  |
-| [LastResponseTimeSpecified](lastresponsetimespecified) { get; set; } |  |
-| [Mailbox](mailbox) { get; set; } |  |
-| [ProposedEnd](proposedend) { get; set; } |  |
-| [ProposedEndSpecified](proposedendspecified) { get; set; } |  |
-| [ProposedStart](proposedstart) { get; set; } |  |
-| [ProposedStartSpecified](proposedstartspecified) { get; set; } |  |
-| [ResponseType](responsetype) { get; set; } |  |
-| [ResponseTypeSpecified](responsetypespecified) { get; set; } |  |
+| [LastResponseTime](../../aspose.email.clients.exchange.webservice.schema_2016/attendeetype/lastresponsetime) { get; set; } |  |
+| [LastResponseTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attendeetype/lastresponsetimespecified) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/attendeetype/mailbox) { get; set; } |  |
+| [ProposedEnd](../../aspose.email.clients.exchange.webservice.schema_2016/attendeetype/proposedend) { get; set; } |  |
+| [ProposedEndSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attendeetype/proposedendspecified) { get; set; } |  |
+| [ProposedStart](../../aspose.email.clients.exchange.webservice.schema_2016/attendeetype/proposedstart) { get; set; } |  |
+| [ProposedStartSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attendeetype/proposedstartspecified) { get; set; } |  |
+| [ResponseType](../../aspose.email.clients.exchange.webservice.schema_2016/attendeetype/responsetype) { get; set; } |  |
+| [ResponseTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attendeetype/responsetypespecified) { get; set; } |  |
 
 ### See Also
 

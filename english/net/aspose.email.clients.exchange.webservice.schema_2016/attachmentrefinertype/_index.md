@@ -22,8 +22,12 @@ public class AttachmentRefinerType : SearchRefinerType
 
 | Name | Description |
 | --- | --- |
-| [HasAttachment](hasattachment) { get; set; } |  |
-| [HasAttachmentSpecified](hasattachmentspecified) { get; set; } |  |
+| [HasAttachment](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentrefinertype/hasattachment) { get; set; } |  |
+| [HasAttachmentSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmentrefinertype/hasattachmentspecified) { get; set; } |  |
+| [Refiner](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/refiner) { get; set; } |  |
+| [RefinerType](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/refinertype) { get; set; } |  |
+| [ResultCount](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/resultcount) { get; set; } |  |
+| [ResultCountSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/searchrefinertype/resultcountspecified) { get; set; } |  |
 
 ### See Also
 

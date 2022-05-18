@@ -24,8 +24,8 @@ public class MailClientAgent
 
 | Name | Description |
 | --- | --- |
-| virtual [Launch](launch)(string, string, RecipientCollection) | Launches the agent. |
-| virtual [Launch](launch)(string, string, RecipientCollection, string[]) | Launches the agent. |
+| virtual [Launch](../../aspose.email.windows.forms/mailclientagent/launch)(string, string, RecipientCollection) | Launches the agent. |
+| virtual [Launch](../../aspose.email.windows.forms/mailclientagent/launch)(string, string, RecipientCollection, string[]) | Launches the agent. |
 
 ### See Also
 

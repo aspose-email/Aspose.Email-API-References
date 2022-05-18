@@ -22,7 +22,7 @@ public class PolicyNudgeRulesServiceConfiguration
 
 | Name | Description |
 | --- | --- |
-| [Any](any) { get; set; } |  |
+| [Any](../../aspose.email.clients.exchange.webservice.schema_2016/policynudgerulesserviceconfiguration/any) { get; set; } |  |
 
 ### See Also
 

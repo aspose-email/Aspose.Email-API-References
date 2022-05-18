@@ -22,8 +22,8 @@ public class ExtendedPropertyType
 
 | Name | Description |
 | --- | --- |
-| [ExtendedFieldURI](extendedfielduri) { get; set; } |  |
-| [Item](item) { get; set; } |  |
+| [ExtendedFieldURI](../../aspose.email.clients.exchange.webservice.schema_2016/extendedpropertytype/extendedfielduri) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/extendedpropertytype/item) { get; set; } |  |
 
 ### See Also
 

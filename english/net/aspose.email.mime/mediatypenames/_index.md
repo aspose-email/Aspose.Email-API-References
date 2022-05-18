@@ -18,7 +18,7 @@ public static class MediaTypeNames
 
 | Name | Description |
 | --- | --- |
-| static [ParseName](parsename)(string) | Converts file name extension to media type name |
+| static [ParseName](../../aspose.email.mime/mediatypenames/parsename)(string) | Converts file name extension to media type name |
 
 ## Other Members
 

@@ -24,11 +24,11 @@ public class ResolveRecipientsCertificates
 
 | Name | Description |
 | --- | --- |
-| [CertificateCount](certificatecount) { get; set; } | Specifies the number of valid certificates that were found for the recipient. If a Status value of 8 is returned with the Certificates, the CertificateCount specifies the number of recipient certificates that were not returned. |
-| [Certificates](certificates) { get; } | Contains the list of X509 certificates as binary large object (BLOB). This element is returned by the server only if the client specifies a value of 2 in the CertificateRetrieval in the ResolveRecipients command request. |
-| [MiniCertificate](minicertificate) { get; set; } | Contains the mini-certificate BLOB. This element is returned only if the client specifies a value of 3 in the CertificateRetrieval in the ResolveRecipients command request and the resolved recipient has a valid S/MIME certificate. |
-| [RecipientCount](recipientcount) { get; set; } | Specifies the number of members belonging to a distribution list. It can be used to determine whether all recipients belonging to a distribution list have valid certificates by comparing values of the CertificateCount and RecipientCount elements. |
-| [Status](status) { get; set; } | Indicates the result of the ActiveSync command request. |
+| [CertificateCount](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificatecount) { get; set; } | Specifies the number of valid certificates that were found for the recipient. If a Status value of 8 is returned with the Certificates, the CertificateCount specifies the number of recipient certificates that were not returned. |
+| [Certificates](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificates) { get; } | Contains the list of X509 certificates as binary large object (BLOB). This element is returned by the server only if the client specifies a value of 2 in the CertificateRetrieval in the ResolveRecipients command request. |
+| [MiniCertificate](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/minicertificate) { get; set; } | Contains the mini-certificate BLOB. This element is returned only if the client specifies a value of 3 in the CertificateRetrieval in the ResolveRecipients command request and the resolved recipient has a valid S/MIME certificate. |
+| [RecipientCount](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/recipientcount) { get; set; } | Specifies the number of members belonging to a distribution list. It can be used to determine whether all recipients belonging to a distribution list have valid certificates by comparing values of the CertificateCount and RecipientCount elements. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/status) { get; set; } | Indicates the result of the ActiveSync command request. |
 
 ### See Also
 

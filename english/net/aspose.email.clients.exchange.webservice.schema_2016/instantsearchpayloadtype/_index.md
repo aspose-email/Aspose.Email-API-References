@@ -22,12 +22,12 @@ public class InstantSearchPayloadType
 
 | Name | Description |
 | --- | --- |
-| [CalendarItems](calendaritems) { get; set; } |  |
-| [Conversations](conversations) { get; set; } |  |
-| [Items](items) { get; set; } |  |
-| [ResultType](resulttype) { get; set; } |  |
-| [SearchRequestId](searchrequestid) { get; set; } |  |
-| [SearchSessionId](searchsessionid) { get; set; } |  |
+| [CalendarItems](../../aspose.email.clients.exchange.webservice.schema_2016/instantsearchpayloadtype/calendaritems) { get; set; } |  |
+| [Conversations](../../aspose.email.clients.exchange.webservice.schema_2016/instantsearchpayloadtype/conversations) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/instantsearchpayloadtype/items) { get; set; } |  |
+| [ResultType](../../aspose.email.clients.exchange.webservice.schema_2016/instantsearchpayloadtype/resulttype) { get; set; } |  |
+| [SearchRequestId](../../aspose.email.clients.exchange.webservice.schema_2016/instantsearchpayloadtype/searchrequestid) { get; set; } |  |
+| [SearchSessionId](../../aspose.email.clients.exchange.webservice.schema_2016/instantsearchpayloadtype/searchsessionid) { get; set; } |  |
 
 ### See Also
 

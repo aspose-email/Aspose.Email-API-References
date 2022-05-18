@@ -22,17 +22,17 @@ public class ArrayOfResolutionType
 
 | Name | Description |
 | --- | --- |
-| [AbsoluteDenominator](absolutedenominator) { get; set; } |  |
-| [AbsoluteDenominatorSpecified](absolutedenominatorspecified) { get; set; } |  |
-| [IncludesLastItemInRange](includeslastiteminrange) { get; set; } |  |
-| [IncludesLastItemInRangeSpecified](includeslastiteminrangespecified) { get; set; } |  |
-| [IndexedPagingOffset](indexedpagingoffset) { get; set; } |  |
-| [IndexedPagingOffsetSpecified](indexedpagingoffsetspecified) { get; set; } |  |
-| [NumeratorOffset](numeratoroffset) { get; set; } |  |
-| [NumeratorOffsetSpecified](numeratoroffsetspecified) { get; set; } |  |
-| [Resolution](resolution) { get; set; } |  |
-| [TotalItemsInView](totalitemsinview) { get; set; } |  |
-| [TotalItemsInViewSpecified](totalitemsinviewspecified) { get; set; } |  |
+| [AbsoluteDenominator](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/absolutedenominator) { get; set; } |  |
+| [AbsoluteDenominatorSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/absolutedenominatorspecified) { get; set; } |  |
+| [IncludesLastItemInRange](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/includeslastiteminrange) { get; set; } |  |
+| [IncludesLastItemInRangeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/includeslastiteminrangespecified) { get; set; } |  |
+| [IndexedPagingOffset](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/indexedpagingoffset) { get; set; } |  |
+| [IndexedPagingOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/indexedpagingoffsetspecified) { get; set; } |  |
+| [NumeratorOffset](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/numeratoroffset) { get; set; } |  |
+| [NumeratorOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/numeratoroffsetspecified) { get; set; } |  |
+| [Resolution](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/resolution) { get; set; } |  |
+| [TotalItemsInView](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/totalitemsinview) { get; set; } |  |
+| [TotalItemsInViewSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresolutiontype/totalitemsinviewspecified) { get; set; } |  |
 
 ### See Also
 

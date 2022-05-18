@@ -22,10 +22,10 @@ public class UpdateInboxRulesRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [MailboxSmtpAddress](mailboxsmtpaddress) { get; set; } |  |
-| [Operations](operations) { get; set; } |  |
-| [RemoveOutlookRuleBlob](removeoutlookruleblob) { get; set; } |  |
-| [RemoveOutlookRuleBlobSpecified](removeoutlookruleblobspecified) { get; set; } |  |
+| [MailboxSmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/updateinboxrulesrequesttype/mailboxsmtpaddress) { get; set; } |  |
+| [Operations](../../aspose.email.clients.exchange.webservice.schema_2016/updateinboxrulesrequesttype/operations) { get; set; } |  |
+| [RemoveOutlookRuleBlob](../../aspose.email.clients.exchange.webservice.schema_2016/updateinboxrulesrequesttype/removeoutlookruleblob) { get; set; } |  |
+| [RemoveOutlookRuleBlobSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/updateinboxrulesrequesttype/removeoutlookruleblobspecified) { get; set; } |  |
 
 ### See Also
 

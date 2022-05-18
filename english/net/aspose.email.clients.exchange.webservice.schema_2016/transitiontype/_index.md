@@ -22,7 +22,7 @@ public class TransitionType
 
 | Name | Description |
 | --- | --- |
-| [To](to) { get; set; } |  |
+| [To](../../aspose.email.clients.exchange.webservice.schema_2016/transitiontype/to) { get; set; } |  |
 
 ### See Also
 

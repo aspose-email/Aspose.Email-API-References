@@ -24,15 +24,15 @@ public class ExchangeDistributionList
 
 | Name | Description |
 | --- | --- |
-| [ChangeKey](changekey) { get; set; } | Change key of list |
-| [DisplayName](displayname) { get; set; } | Display name of list |
-| [Id](id) { get; set; } | Id of list |
+| [ChangeKey](../../aspose.email.clients.exchange/exchangedistributionlist/changekey) { get; set; } | Change key of list |
+| [DisplayName](../../aspose.email.clients.exchange/exchangedistributionlist/displayname) { get; set; } | Display name of list |
+| [Id](../../aspose.email.clients.exchange/exchangedistributionlist/id) { get; set; } | Id of list |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToMailAddress](tomailaddress)() | Converts the value of the instance to MailAddress. |
+| [ToMailAddress](../../aspose.email.clients.exchange/exchangedistributionlist/tomailaddress)() | Converts the value of the instance to MailAddress. |
 
 ### See Also
 

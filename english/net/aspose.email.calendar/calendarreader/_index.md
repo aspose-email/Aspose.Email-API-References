@@ -27,13 +27,13 @@ public class CalendarReader
 
 | Name | Description |
 | --- | --- |
-| [Current](current) { get; } | Current read event. |
+| [Current](../../aspose.email.calendar/calendarreader/current) { get; } | Current read event. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [NextEvent](nextevent)() | Reads next Event from source and save it to the Current. |
+| [NextEvent](../../aspose.email.calendar/calendarreader/nextevent)() | Reads next Event from source and save it to the Current. |
 
 ### See Also
 

@@ -24,13 +24,13 @@ public class MailAddressCollection : Collection<MailAddress>
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(MailAddress) | Add a [`MailAddress`](../mailaddress) to the collection. |
-| [Add](add)(string) | Add a list of e-mail addresses to the collection. |
-| [AddRange](addrange)(IEnumerable&lt;MailAddress&gt;) | Adds addresses to collection |
-| [AddRange](addrange)(MailAddressCollection) | Adds addresses to collection |
-| [Copy](copy)() | Copies this instance. |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
-| [implicit operator](op_implicit) | Performs an implicit conversion from [`MailAddress`](../mailaddress) to [`MailAddressCollection`](../mailaddresscollection). (2 operators) |
+| [Add](../../aspose.email/mailaddresscollection/add)(MailAddress) | Add a [`MailAddress`](../mailaddress) to the collection. |
+| [Add](../../aspose.email/mailaddresscollection/add)(string) | Add a list of e-mail addresses to the collection. |
+| [AddRange](../../aspose.email/mailaddresscollection/addrange)(IEnumerable&lt;MailAddress&gt;) | Adds addresses to collection |
+| [AddRange](../../aspose.email/mailaddresscollection/addrange)(MailAddressCollection) | Adds addresses to collection |
+| [Copy](../../aspose.email/mailaddresscollection/copy)() | Copies this instance. |
+| override [ToString](../../aspose.email/mailaddresscollection/tostring)() | Returns a String that represents this instance. |
+| [implicit operator](../../aspose.email/mailaddresscollection/op_implicit) | Performs an implicit conversion from [`MailAddress`](../mailaddress) to [`MailAddressCollection`](../mailaddresscollection). (2 operators) |
 
 ### See Also
 

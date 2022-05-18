@@ -22,8 +22,8 @@ public class GetItemType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ItemIds](itemids) { get; set; } |  |
-| [ItemShape](itemshape) { get; set; } |  |
+| [ItemIds](../../aspose.email.clients.exchange.webservice.schema_2016/getitemtype/itemids) { get; set; } |  |
+| [ItemShape](../../aspose.email.clients.exchange.webservice.schema_2016/getitemtype/itemshape) { get; set; } |  |
 
 ### See Also
 

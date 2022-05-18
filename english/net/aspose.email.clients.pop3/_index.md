@@ -12,7 +12,7 @@ The **Aspose.Email.Clients.Pop3** namespace provides classes to access and manip
 
 | Class | Description |
 | --- | --- |
-| [Pop3Client](./pop3client) | Allows applications to access and manipulate messages by using the Post Office Protocol Version 3 (POP3). |
+| [Pop3Client](./pop3client) | Allows applications to access and manipulate messages by using the Post Office Protocol Version 3 (../POP3). |
 | [Pop3MailboxInfo](./pop3mailboxinfo) | Represents the status of the mailbox. |
 | [Pop3MessageInfo](./pop3messageinfo) | The Pop3MessageInfo represents the E-Mail message info fetched from the Pop3 server. |
 | [Pop3MessageInfoCollection](./pop3messageinfocollection) | Represents the information of a mail message from Pop3 server. |

@@ -20,6 +20,14 @@ public sealed class MapiContactPhoto : ContactPhoto
 | --- | --- |
 | [MapiContactPhoto](mapicontactphoto)(byte[], MapiContactPhotoImageFormat) | Initializes a new instance of the [`MapiContactPhoto`](../mapicontactphoto) class |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Data](../../aspose.email.personalinfo/contactphoto/data) { get; } | Gets an image data. |
+| [Id](../../aspose.email.personalinfo/contactphoto/id) { get; } | Gets object identification information |
+| [PhotoImageFormat](../../aspose.email.personalinfo/contactphoto/photoimageformat) { get; } | Gets a photo type. |
+
 ### See Also
 
 * class [ContactPhoto](../../aspose.email.personalinfo/contactphoto)

@@ -24,55 +24,55 @@ public sealed class FolderInfo
 
 | Name | Description |
 | --- | --- |
-| [ContainerClass](containerclass) { get; } | Gets container class of the folder object. |
-| [ContentCount](contentcount) { get; } | Gets the total number of items in the folder. |
-| [ContentUnreadCount](contentunreadcount) { get; } | Gets the number of unread items in the folder. |
-| [DisplayName](displayname) { get; } | Gets the display name of folder. |
-| [EntryId](entryid) { get; } | Gets the entry ID. |
-| [EntryIdString](entryidstring) { get; } | Gets string representation of entry ID. |
-| [HasSubFolders](hassubfolders) { get; } | Gets a value indicating whether the Folder object has any subfolders. |
-| [LastModificationTime](lastmodificationtime) { get; } | Gets the last modification time. |
-| [Properties](properties) { get; } | Gets the folder properties. |
+| [ContainerClass](../../aspose.email.storage.pst/folderinfo/containerclass) { get; } | Gets container class of the folder object. |
+| [ContentCount](../../aspose.email.storage.pst/folderinfo/contentcount) { get; } | Gets the total number of items in the folder. |
+| [ContentUnreadCount](../../aspose.email.storage.pst/folderinfo/contentunreadcount) { get; } | Gets the number of unread items in the folder. |
+| [DisplayName](../../aspose.email.storage.pst/folderinfo/displayname) { get; } | Gets the display name of folder. |
+| [EntryId](../../aspose.email.storage.pst/folderinfo/entryid) { get; } | Gets the entry ID. |
+| [EntryIdString](../../aspose.email.storage.pst/folderinfo/entryidstring) { get; } | Gets string representation of entry ID. |
+| [HasSubFolders](../../aspose.email.storage.pst/folderinfo/hassubfolders) { get; } | Gets a value indicating whether the Folder object has any subfolders. |
+| [LastModificationTime](../../aspose.email.storage.pst/folderinfo/lastmodificationtime) { get; } | Gets the last modification time. |
+| [Properties](../../aspose.email.storage.pst/folderinfo/properties) { get; } | Gets the folder properties. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddFile](addfile)(string, string) | Adds a file into pst folder. |
-| [AddMapiMessageItem](addmapimessageitem)(IMapiMessageItem) | Adds the IMapiMessageItem object into folder. |
-| [AddMessage](addmessage)(MapiMessage) | Adds a new message into folder. |
-| [AddMessages](addmessages)(IEnumerable&lt;MapiMessage&gt;) | Provides message adding in a bulk mode. |
-| [AddSubFolder](addsubfolder)(string) | Adds the new sub-folder. |
-| [AddSubFolder](addsubfolder)(string, bool) | Adds the new sub-folder. |
-| [AddSubFolder](addsubfolder)(string, string) | Adds the new subfolder. |
-| [ChangeContainerClass](changecontainerclass)(string) | Changes the container class. |
-| [ChangeDisplayName](changedisplayname)(string) | Changes the display name. |
-| [ChangeMessages](changemessages)(MapiPropertyCollection) | Changes all messages in folder. |
-| [ChangeMessages](changemessages)(IEnumerable&lt;string&gt;, MapiPropertyCollection) | Changes the messages in folder. |
-| [DeleteChildItem](deletechilditem)(byte[]) | Deletes the item (folder or message) by it's entryId. |
-| [DeleteChildItems](deletechilditems)(IEnumerable&lt;string&gt;) | Deletes the child messages. |
-| [EnumerateFolders](enumeratefolders)() | Exposes the enumerator, which supports an iteration of subfolders in folder. |
-| [EnumerateFolders](enumeratefolders)(FolderKind) | Exposes the enumerator, which supports an iteration of subfolders in folder. |
-| [EnumerateMapiMessages](enumeratemapimessages)() | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [EnumerateMessageObjects](enumeratemessageobjects)() | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [EnumerateMessages](enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in folder. |
-| [EnumerateMessagesEntryId](enumeratemessagesentryid)() | Enumerates the entryID of messages. |
-| [GetContents](getcontents)() | Get collection of messages. |
-| [GetContents](getcontents)(bool) | Get collection of messages. |
-| [GetContents](getcontents)(MailQuery) | Get collection of messages. |
-| [GetContents](getcontents)(MessageKind) | Get collection of messages. |
-| [GetContents](getcontents)(int, int) | Gets the collection of messages. |
-| [GetSubFolder](getsubfolder)(string) | Get subfolder. |
-| [GetSubFolder](getsubfolder)(string, bool) | Gets the subfolder. |
-| [GetSubFolders](getsubfolders)() | Gets collection of subfolders. |
-| [GetSubFolders](getsubfolders)(FolderKind) | Gets collection of subfolders. |
-| [GetSubFolders](getsubfolders)(MailQuery) | Gets collection of subfolders. |
-| [MergeWith](mergewith)(FolderInfo) | Merges the folder with the folder from another pst. |
-| [MergeWith](mergewith)(FolderInfo, bool) | Merges the folder with the folder from another pst. OnItemMoved event is called on both messages and directories. |
-| [MoveContents](movecontents)(FolderInfo) | Moves the contents to a new folder. |
-| [MoveSubfolders](movesubfolders)(FolderInfo) | Moves the subfolders to a new parent folder. |
-| [RetrieveFullPath](retrievefullpath)() | Retrieves the full path of folder within the PST file. |
-| [UpdateMessage](updatemessage)(string, MapiMessageItemBase) | Updates the message in folder. |
+| [AddFile](../../aspose.email.storage.pst/folderinfo/addfile)(string, string) | Adds a file into pst folder. |
+| [AddMapiMessageItem](../../aspose.email.storage.pst/folderinfo/addmapimessageitem)(IMapiMessageItem) | Adds the IMapiMessageItem object into folder. |
+| [AddMessage](../../aspose.email.storage.pst/folderinfo/addmessage)(MapiMessage) | Adds a new message into folder. |
+| [AddMessages](../../aspose.email.storage.pst/folderinfo/addmessages)(IEnumerable&lt;MapiMessage&gt;) | Provides message adding in a bulk mode. |
+| [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder)(string) | Adds the new sub-folder. |
+| [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder)(string, bool) | Adds the new sub-folder. |
+| [AddSubFolder](../../aspose.email.storage.pst/folderinfo/addsubfolder)(string, string) | Adds the new subfolder. |
+| [ChangeContainerClass](../../aspose.email.storage.pst/folderinfo/changecontainerclass)(string) | Changes the container class. |
+| [ChangeDisplayName](../../aspose.email.storage.pst/folderinfo/changedisplayname)(string) | Changes the display name. |
+| [ChangeMessages](../../aspose.email.storage.pst/folderinfo/changemessages)(MapiPropertyCollection) | Changes all messages in folder. |
+| [ChangeMessages](../../aspose.email.storage.pst/folderinfo/changemessages)(IEnumerable&lt;string&gt;, MapiPropertyCollection) | Changes the messages in folder. |
+| [DeleteChildItem](../../aspose.email.storage.pst/folderinfo/deletechilditem)(byte[]) | Deletes the item (folder or message) by it's entryId. |
+| [DeleteChildItems](../../aspose.email.storage.pst/folderinfo/deletechilditems)(IEnumerable&lt;string&gt;) | Deletes the child messages. |
+| [EnumerateFolders](../../aspose.email.storage.pst/folderinfo/enumeratefolders)() | Exposes the enumerator, which supports an iteration of subfolders in folder. |
+| [EnumerateFolders](../../aspose.email.storage.pst/folderinfo/enumeratefolders)(FolderKind) | Exposes the enumerator, which supports an iteration of subfolders in folder. |
+| [EnumerateMapiMessages](../../aspose.email.storage.pst/folderinfo/enumeratemapimessages)() | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [EnumerateMessageObjects](../../aspose.email.storage.pst/folderinfo/enumeratemessageobjects)() | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [EnumerateMessages](../../aspose.email.storage.pst/folderinfo/enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in folder. |
+| [EnumerateMessagesEntryId](../../aspose.email.storage.pst/folderinfo/enumeratemessagesentryid)() | Enumerates the entryID of messages. |
+| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents)() | Get collection of messages. |
+| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents)(bool) | Get collection of messages. |
+| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents)(MailQuery) | Get collection of messages. |
+| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents)(MessageKind) | Get collection of messages. |
+| [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents)(int, int) | Gets the collection of messages. |
+| [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder)(string) | Get subfolder. |
+| [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder)(string, bool) | Gets the subfolder. |
+| [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders)() | Gets collection of subfolders. |
+| [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders)(FolderKind) | Gets collection of subfolders. |
+| [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders)(MailQuery) | Gets collection of subfolders. |
+| [MergeWith](../../aspose.email.storage.pst/folderinfo/mergewith)(FolderInfo) | Merges the folder with the folder from another pst. |
+| [MergeWith](../../aspose.email.storage.pst/folderinfo/mergewith)(FolderInfo, bool) | Merges the folder with the folder from another pst. OnItemMoved event is called on both messages and directories. |
+| [MoveContents](../../aspose.email.storage.pst/folderinfo/movecontents)(FolderInfo) | Moves the contents to a new folder. |
+| [MoveSubfolders](../../aspose.email.storage.pst/folderinfo/movesubfolders)(FolderInfo) | Moves the subfolders to a new parent folder. |
+| [RetrieveFullPath](../../aspose.email.storage.pst/folderinfo/retrievefullpath)() | Retrieves the full path of folder within the PST file. |
+| [UpdateMessage](../../aspose.email.storage.pst/folderinfo/updatemessage)(string, MapiMessageItemBase) | Updates the message in folder. |
 
 ## Other Members
 

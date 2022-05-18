@@ -22,10 +22,10 @@ public class SearchSuggestionsType
 
 | Name | Description |
 | --- | --- |
-| [DiagnosticsData](diagnosticsdata) { get; set; } |  |
-| [Suggestions](suggestions) { get; set; } |  |
-| [TDSuggestionsBatchId](tdsuggestionsbatchid) { get; set; } |  |
-| [TDSuggestionsInstanceId](tdsuggestionsinstanceid) { get; set; } |  |
+| [DiagnosticsData](../../aspose.email.clients.exchange.webservice.schema_2016/searchsuggestionstype/diagnosticsdata) { get; set; } |  |
+| [Suggestions](../../aspose.email.clients.exchange.webservice.schema_2016/searchsuggestionstype/suggestions) { get; set; } |  |
+| [TDSuggestionsBatchId](../../aspose.email.clients.exchange.webservice.schema_2016/searchsuggestionstype/tdsuggestionsbatchid) { get; set; } |  |
+| [TDSuggestionsInstanceId](../../aspose.email.clients.exchange.webservice.schema_2016/searchsuggestionstype/tdsuggestionsinstanceid) { get; set; } |  |
 
 ### See Also
 

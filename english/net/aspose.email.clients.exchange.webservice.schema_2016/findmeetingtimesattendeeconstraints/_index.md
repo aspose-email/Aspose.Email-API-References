@@ -22,7 +22,7 @@ public class FindMeetingTimesAttendeeConstraints
 
 | Name | Description |
 | --- | --- |
-| [AttendeeEntries](attendeeentries) { get; set; } |  |
+| [AttendeeEntries](../../aspose.email.clients.exchange.webservice.schema_2016/findmeetingtimesattendeeconstraints/attendeeentries) { get; set; } |  |
 
 ### See Also
 

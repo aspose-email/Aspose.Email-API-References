@@ -24,25 +24,25 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 
 | Name | Description |
 | --- | --- |
-| static [Custom](custom) { get; } | Custom category |
-| static [Email1](email1) { get; } | Email1 category. Used by MS Exchange server. |
-| static [Email2](email2) { get; } | Email2 category. Used by MS Exchange server. |
-| static [Email3](email3) { get; } | Email3 category. Used by MS Exchange server. |
-| static [Home](home) { get; } | Home category |
-| static [Work](work) { get; } | Work category |
-| [Description](description) { get; } | Gets description for the 'Custom' category of a email address |
-| [Value](value) { get; } | Gets category of a email address |
+| static [Custom](../../aspose.email.personalinfo/emailaddresscategory/custom) { get; } | Custom category |
+| static [Email1](../../aspose.email.personalinfo/emailaddresscategory/email1) { get; } | Email1 category. Used by MS Exchange server. |
+| static [Email2](../../aspose.email.personalinfo/emailaddresscategory/email2) { get; } | Email2 category. Used by MS Exchange server. |
+| static [Email3](../../aspose.email.personalinfo/emailaddresscategory/email3) { get; } | Email3 category. Used by MS Exchange server. |
+| static [Home](../../aspose.email.personalinfo/emailaddresscategory/home) { get; } | Home category |
+| static [Work](../../aspose.email.personalinfo/emailaddresscategory/work) { get; } | Work category |
+| [Description](../../aspose.email.personalinfo/emailaddresscategory/description) { get; } | Gets description for the 'Custom' category of a email address |
+| [Value](../../aspose.email.personalinfo/emailaddresscategory/value) { get; } | Gets category of a email address |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Equals](equals)(EmailAddressCategory) | Determines whether the specified Object is equal to the current Object. |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| override [GetHashCode](gethashcode)() | GetHashCode returns a hash function for this object. |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
-| [operator ==](op_equality) | Determines whether the specified objects are equal. |
-| [operator !=](op_inequality) | Determines whether the specified objects are not equal. |
+| virtual [Equals](../../aspose.email.personalinfo/emailaddresscategory/equals)(EmailAddressCategory) | Determines whether the specified Object is equal to the current Object. |
+| override [Equals](../../aspose.email.personalinfo/emailaddresscategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| override [GetHashCode](../../aspose.email.personalinfo/emailaddresscategory/gethashcode)() | GetHashCode returns a hash function for this object. |
+| override [ToString](../../aspose.email.personalinfo/emailaddresscategory/tostring)() | Returns a string that represents the current object. |
+| [operator ==](../../aspose.email.personalinfo/emailaddresscategory/op_equality) | Determines whether the specified objects are equal. |
+| [operator !=](../../aspose.email.personalinfo/emailaddresscategory/op_inequality) | Determines whether the specified objects are not equal. |
 
 ## Other Members
 

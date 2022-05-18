@@ -22,12 +22,19 @@ public class FindConversationResponseMessageType : ResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [Conversations](conversations) { get; set; } |  |
-| [HighlightTerms](highlightterms) { get; set; } |  |
-| [IndexedOffset](indexedoffset) { get; set; } |  |
-| [IndexedOffsetSpecified](indexedoffsetspecified) { get; set; } |  |
-| [TotalConversationsInView](totalconversationsinview) { get; set; } |  |
-| [TotalConversationsInViewSpecified](totalconversationsinviewspecified) { get; set; } |  |
+| [Conversations](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationresponsemessagetype/conversations) { get; set; } |  |
+| [DescriptiveLinkKey](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkey) { get; set; } |  |
+| [DescriptiveLinkKeySpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/descriptivelinkkeyspecified) { get; set; } |  |
+| [HighlightTerms](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationresponsemessagetype/highlightterms) { get; set; } |  |
+| [IndexedOffset](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationresponsemessagetype/indexedoffset) { get; set; } |  |
+| [IndexedOffsetSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationresponsemessagetype/indexedoffsetspecified) { get; set; } |  |
+| [MessageText](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagetext) { get; set; } |  |
+| [MessageXml](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/messagexml) { get; set; } |  |
+| [ResponseClass](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responseclass) { get; set; } |  |
+| [ResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecode) { get; set; } |  |
+| [ResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/responsemessagetype/responsecodespecified) { get; set; } |  |
+| [TotalConversationsInView](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationresponsemessagetype/totalconversationsinview) { get; set; } |  |
+| [TotalConversationsInViewSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationresponsemessagetype/totalconversationsinviewspecified) { get; set; } |  |
 
 ### See Also
 

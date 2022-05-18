@@ -22,7 +22,9 @@ public class SearchResultConversationIdType : ItemIdType
 
 | Name | Description |
 | --- | --- |
-| [OutlookConversationId](outlookconversationid) { get; set; } |  |
+| [ChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/itemidtype/changekey) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/itemidtype/id) { get; set; } |  |
+| [OutlookConversationId](../../aspose.email.clients.exchange.webservice.schema_2016/searchresultconversationidtype/outlookconversationid) { get; set; } |  |
 
 ### See Also
 

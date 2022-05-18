@@ -22,8 +22,8 @@ public class RootItemIdType : BaseItemIdType
 
 | Name | Description |
 | --- | --- |
-| [RootItemChangeKey](rootitemchangekey) { get; set; } |  |
-| [RootItemId](rootitemid) { get; set; } |  |
+| [RootItemChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/rootitemidtype/rootitemchangekey) { get; set; } |  |
+| [RootItemId](../../aspose.email.clients.exchange.webservice.schema_2016/rootitemidtype/rootitemid) { get; set; } |  |
 
 ### See Also
 

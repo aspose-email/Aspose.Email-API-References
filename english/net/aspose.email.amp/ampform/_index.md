@@ -24,19 +24,22 @@ public class AmpForm : AmpComponent
 
 | Name | Description |
 | --- | --- |
-| [Action](action) { get; set; } | Specifies a server endpoint to handle the form input. The value must be an https URL (absolute or relative) and must not be a link to a CDN |
-| [ActionXhr](actionxhr) { get; set; } | Specifies a server endpoint to handle the form input and submit the form via XMLHttpRequest (XHR). |
-| [Fieldset](fieldset) { get; } | List of fields. |
-| [Method](method) { get; set; } | The method attribute tells the server about the request method. |
-| override [RequiredScript](requiredscript) { get; } | Required script that muct be added to head section. |
-| [Target](target) { get; set; } | Indicates where to display the form response after submitting the form.The value must be _blank or _top. |
+| [Action](../../aspose.email.amp/ampform/action) { get; set; } | Specifies a server endpoint to handle the form input. The value must be an https URL (absolute or relative) and must not be a link to a CDN |
+| [ActionXhr](../../aspose.email.amp/ampform/actionxhr) { get; set; } | Specifies a server endpoint to handle the form input and submit the form via XMLHttpRequest (XHR). |
+| [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP provides a set of common attributes that are extended to many AMP components. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | A fallback is a convention that allows the element to communicate to the reader that the browser does not support the element. |
+| [Fieldset](../../aspose.email.amp/ampform/fieldset) { get; } | List of fields. |
+| [Method](../../aspose.email.amp/ampform/method) { get; set; } | The method attribute tells the server about the request method. |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | The element marked with the placeholder attribute acts as a placeholder for the parent AMP element. If specified, a placeholder element must be a direct child of the AMP element. |
+| override [RequiredScript](../../aspose.email.amp/ampform/requiredscript) { get; } | Required script that muct be added to head section. |
+| [Target](../../aspose.email.amp/ampform/target) { get; set; } | Indicates where to display the form response after submitting the form.The value must be _blank or _top. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToAmpHtml](toamphtml)() | Represents amp html version of component. |
-| override [ToHtml](tohtml)() | Represents html version of component. |
+| override [ToAmpHtml](../../aspose.email.amp/ampform/toamphtml)() | Represents amp html version of component. |
+| override [ToHtml](../../aspose.email.amp/ampform/tohtml)() | Represents html version of component. |
 
 ### See Also
 

@@ -22,14 +22,15 @@ public class MeetingSuggestionType : EntityType
 
 | Name | Description |
 | --- | --- |
-| [Attendees](attendees) { get; set; } |  |
-| [EndTime](endtime) { get; set; } |  |
-| [EndTimeSpecified](endtimespecified) { get; set; } |  |
-| [Location](location) { get; set; } |  |
-| [MeetingString](meetingstring) { get; set; } |  |
-| [StartTime](starttime) { get; set; } |  |
-| [StartTimeSpecified](starttimespecified) { get; set; } |  |
-| [Subject](subject) { get; set; } |  |
+| [Attendees](../../aspose.email.clients.exchange.webservice.schema_2016/meetingsuggestiontype/attendees) { get; set; } |  |
+| [EndTime](../../aspose.email.clients.exchange.webservice.schema_2016/meetingsuggestiontype/endtime) { get; set; } |  |
+| [EndTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/meetingsuggestiontype/endtimespecified) { get; set; } |  |
+| [Location](../../aspose.email.clients.exchange.webservice.schema_2016/meetingsuggestiontype/location) { get; set; } |  |
+| [MeetingString](../../aspose.email.clients.exchange.webservice.schema_2016/meetingsuggestiontype/meetingstring) { get; set; } |  |
+| [Position](../../aspose.email.clients.exchange.webservice.schema_2016/entitytype/position) { get; set; } |  |
+| [StartTime](../../aspose.email.clients.exchange.webservice.schema_2016/meetingsuggestiontype/starttime) { get; set; } |  |
+| [StartTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/meetingsuggestiontype/starttimespecified) { get; set; } |  |
+| [Subject](../../aspose.email.clients.exchange.webservice.schema_2016/meetingsuggestiontype/subject) { get; set; } |  |
 
 ### See Also
 

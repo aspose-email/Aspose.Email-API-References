@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.activity/
 
 | Class | Description |
 | --- | --- |
-| [ActivityClient](./activityclient) | Provides access to MS Exchange Server (Office365) by using REST API. |
+| [ActivityClient](./activityclient) | Provides access to MS Exchange Server (../Office365) by using REST API. |
 | [AttachmentData](./attachmentdata) |  |
 | [Content](./content) | Object contains an aggregation of actions and events harvested from multiple servers across multiple datacenters. |
 | [ContentInfo](./contentinfo) | Object contains brief information of an aggregation of actions and events harvested from multiple servers across multiple datacenters. |
@@ -26,8 +26,8 @@ url: /net/aspose.email.clients.activity/
 | [ExtendedProperty](./extendedproperty) | Extended properties for the setting being changed. Each property will have a Name and Value. |
 | [ModifiedProperty](./modifiedproperty) | Modified property |
 | [Notification](./notification) | Object contains an aggregation of actions and events harvested from multiple servers across multiple datacenters. |
-| [O365EmailMessageActivity](./o365emailmessageactivity) | Extends the Common schema with the properties specific to Office 365 Advanced Threat Protection and Threat Intelligence data. Office 365 Advanced Threat Protection (ATP) and Threat Intelligence events are available for Office 365 customers who have an ATP, Threat Intelligence, or E5 subscription. Each event in the ATP and Threat Intelligence feed corresponds to An email message sent by or received by a user in the organization with detections are made on messages at delivery time and from Zero hour auto purge. |
-| [O365URLTimeOfClickActivity](./o365urltimeofclickactivity) | Extends the Common schema with the properties specific to Office 365 Advanced Threat Protection and Threat Intelligence data. Office 365 Advanced Threat Protection (ATP) and Threat Intelligence events are available for Office 365 customers who have an ATP, Threat Intelligence, or E5 subscription. Each event in the ATP and Threat Intelligence feed corresponds to the URLs clicked by a user in the organization that were detected as malicious at time-of-click based on Office 365 ATP Safe Links protection. |
+| [O365EmailMessageActivity](./o365emailmessageactivity) | Extends the Common schema with the properties specific to Office 365 Advanced Threat Protection and Threat Intelligence data. Office 365 Advanced Threat Protection (../ATP) and Threat Intelligence events are available for Office 365 customers who have an ATP, Threat Intelligence, or E5 subscription. Each event in the ATP and Threat Intelligence feed corresponds to An email message sent by or received by a user in the organization with detections are made on messages at delivery time and from Zero hour auto purge. |
+| [O365URLTimeOfClickActivity](./o365urltimeofclickactivity) | Extends the Common schema with the properties specific to Office 365 Advanced Threat Protection and Threat Intelligence data. Office 365 Advanced Threat Protection (../ATP) and Threat Intelligence events are available for Office 365 customers who have an ATP, Threat Intelligence, or E5 subscription. Each event in the ATP and Threat Intelligence feed corresponds to the URLs clicked by a user in the organization that were detected as malicious at time-of-click based on Office 365 ATP Safe Links protection. |
 | [ObjectName](./objectname) | Contains name for object in the data feed identified by guids. |
 | [Record](./record) | Audit log record |
 | [SharePointMetadata](./sharepointmetadata) | Describes metadata about the document in SharePoint or OneDrive for Business that contained the sensitive information. |

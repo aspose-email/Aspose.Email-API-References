@@ -22,8 +22,8 @@ public class DeleteFolderType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [DeleteType](deletetype) { get; set; } |  |
-| [FolderIds](folderids) { get; set; } |  |
+| [DeleteType](../../aspose.email.clients.exchange.webservice.schema_2016/deletefoldertype/deletetype) { get; set; } |  |
+| [FolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/deletefoldertype/folderids) { get; set; } |  |
 
 ### See Also
 

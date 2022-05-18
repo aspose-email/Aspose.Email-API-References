@@ -25,25 +25,25 @@ public sealed class MapiContactPersonalInfoPropertySet
 
 | Name | Description |
 | --- | --- |
-| [Account](account) { get; set; } | Specifies the account name of the contact |
-| [BusinessHomePage](businesshomepage) { get; set; } | Specifies the contact's business web page URL |
-| [Children](children) { get; set; } | Contains a list of names of children. |
-| [ComputerNetworkName](computernetworkname) { get; set; } | Specifies the name of the network to which the contact's computer is connected |
-| [CustomerId](customerid) { get; set; } | Specifies the contact's customer ID number |
-| [FreeBusyLocation](freebusylocation) { get; set; } | Specifies a URL path from which a client can retrieve free/busy information for the contact as an iCal file |
-| [FtpSite](ftpsite) { get; set; } | Specifies the contact's File Transfer Protocol (FTP) URL |
-| [Gender](gender) { get; set; } | Specifies the gender of the contact |
-| [GovernmentIdNumber](governmentidnumber) { get; set; } | Specifies the contact's government ID number |
-| [Hobbies](hobbies) { get; set; } | Specifies the hobbies of the contact |
-| [Html](html) { get; set; } | Specifies the contact's business web page URL |
-| [InstantMessagingAddress](instantmessagingaddress) { get; set; } | Specifies the contact's instant messaging address |
-| [Language](language) { get; set; } | Specifies the language that the contact uses |
-| [Location](location) { get; set; } | Specifies the location of the contact |
-| [Notes](notes) { get; set; } | Specifies the additional notes |
-| [OrganizationalIdNumber](organizationalidnumber) { get; set; } | Specifies an organizational ID number for the contact |
-| [PersonalHomePage](personalhomepage) { get; set; } | Specifies the contact's personal web page URL |
-| [ReferredByName](referredbyname) { get; set; } | Specifies the name of the person who referred this contact to the user |
-| [SpouseName](spousename) { get; set; } | Specifies the name of the contact's spouse/partner |
+| [Account](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/account) { get; set; } | Specifies the account name of the contact |
+| [BusinessHomePage](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/businesshomepage) { get; set; } | Specifies the contact's business web page URL |
+| [Children](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/children) { get; set; } | Contains a list of names of children. |
+| [ComputerNetworkName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/computernetworkname) { get; set; } | Specifies the name of the network to which the contact's computer is connected |
+| [CustomerId](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/customerid) { get; set; } | Specifies the contact's customer ID number |
+| [FreeBusyLocation](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/freebusylocation) { get; set; } | Specifies a URL path from which a client can retrieve free/busy information for the contact as an iCal file |
+| [FtpSite](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/ftpsite) { get; set; } | Specifies the contact's File Transfer Protocol (FTP) URL |
+| [Gender](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/gender) { get; set; } | Specifies the gender of the contact |
+| [GovernmentIdNumber](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/governmentidnumber) { get; set; } | Specifies the contact's government ID number |
+| [Hobbies](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/hobbies) { get; set; } | Specifies the hobbies of the contact |
+| [Html](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/html) { get; set; } | Specifies the contact's business web page URL |
+| [InstantMessagingAddress](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/instantmessagingaddress) { get; set; } | Specifies the contact's instant messaging address |
+| [Language](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/language) { get; set; } | Specifies the language that the contact uses |
+| [Location](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/location) { get; set; } | Specifies the location of the contact |
+| [Notes](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/notes) { get; set; } | Specifies the additional notes |
+| [OrganizationalIdNumber](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/organizationalidnumber) { get; set; } | Specifies an organizational ID number for the contact |
+| [PersonalHomePage](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/personalhomepage) { get; set; } | Specifies the contact's personal web page URL |
+| [ReferredByName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/referredbyname) { get; set; } | Specifies the name of the person who referred this contact to the user |
+| [SpouseName](../../aspose.email.mapi/mapicontactpersonalinfopropertyset/spousename) { get; set; } | Specifies the name of the contact's spouse/partner |
 
 ### See Also
 

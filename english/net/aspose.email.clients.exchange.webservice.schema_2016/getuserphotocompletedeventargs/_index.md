@@ -16,7 +16,7 @@ public class GetUserPhotoCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/getuserphotocompletedeventargs/result) { get; } |  |
 
 ### See Also
 

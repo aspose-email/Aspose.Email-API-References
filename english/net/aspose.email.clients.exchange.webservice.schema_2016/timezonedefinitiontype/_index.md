@@ -22,11 +22,11 @@ public class TimeZoneDefinitionType
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } |  |
-| [Name](name) { get; set; } |  |
-| [Periods](periods) { get; set; } |  |
-| [Transitions](transitions) { get; set; } |  |
-| [TransitionsGroups](transitionsgroups) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/timezonedefinitiontype/id) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/timezonedefinitiontype/name) { get; set; } |  |
+| [Periods](../../aspose.email.clients.exchange.webservice.schema_2016/timezonedefinitiontype/periods) { get; set; } |  |
+| [Transitions](../../aspose.email.clients.exchange.webservice.schema_2016/timezonedefinitiontype/transitions) { get; set; } |  |
+| [TransitionsGroups](../../aspose.email.clients.exchange.webservice.schema_2016/timezonedefinitiontype/transitionsgroups) { get; set; } |  |
 
 ### See Also
 

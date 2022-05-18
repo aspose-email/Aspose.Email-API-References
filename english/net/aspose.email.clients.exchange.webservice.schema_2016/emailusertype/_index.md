@@ -22,8 +22,8 @@ public class EmailUserType
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } |  |
-| [UserId](userid) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/emailusertype/name) { get; set; } |  |
+| [UserId](../../aspose.email.clients.exchange.webservice.schema_2016/emailusertype/userid) { get; set; } |  |
 
 ### See Also
 

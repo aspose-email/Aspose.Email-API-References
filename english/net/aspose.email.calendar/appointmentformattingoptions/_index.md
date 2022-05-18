@@ -24,21 +24,21 @@ public class AppointmentFormattingOptions
 
 | Name | Description |
 | --- | --- |
-| [CssStyles](cssstyles) { get; set; } | Gets or sets the additional css styles for the formatter. |
-| [DescriptionFormat](descriptionformat) { get; set; } | Gets or sets the description format. |
-| [EndDateFormat](enddateformat) { get; set; } | Gets or sets the end date format. |
-| [IsTextFormat](istextformat) { get; } | Gets a value indicating whether template has a text format. |
-| [LocationFormat](locationformat) { get; set; } | Gets or sets the where format. |
-| [OrganizerFormat](organizerformat) { get; set; } | Gets or sets the organizer format. |
-| [StartDateFormat](startdateformat) { get; set; } | Gets or sets the start date format. |
-| [TimezoneFormat](timezoneformat) { get; set; } | Gets or sets the timezone format. |
-| [TitleFormat](titleformat) { get; set; } | Gets or sets the title format. |
+| [CssStyles](../../aspose.email.calendar/appointmentformattingoptions/cssstyles) { get; set; } | Gets or sets the additional css styles for the formatter. |
+| [DescriptionFormat](../../aspose.email.calendar/appointmentformattingoptions/descriptionformat) { get; set; } | Gets or sets the description format. |
+| [EndDateFormat](../../aspose.email.calendar/appointmentformattingoptions/enddateformat) { get; set; } | Gets or sets the end date format. |
+| [IsTextFormat](../../aspose.email.calendar/appointmentformattingoptions/istextformat) { get; } | Gets a value indicating whether template has a text format. |
+| [LocationFormat](../../aspose.email.calendar/appointmentformattingoptions/locationformat) { get; set; } | Gets or sets the where format. |
+| [OrganizerFormat](../../aspose.email.calendar/appointmentformattingoptions/organizerformat) { get; set; } | Gets or sets the organizer format. |
+| [StartDateFormat](../../aspose.email.calendar/appointmentformattingoptions/startdateformat) { get; set; } | Gets or sets the start date format. |
+| [TimezoneFormat](../../aspose.email.calendar/appointmentformattingoptions/timezoneformat) { get; set; } | Gets or sets the timezone format. |
+| [TitleFormat](../../aspose.email.calendar/appointmentformattingoptions/titleformat) { get; set; } | Gets or sets the title format. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateAsHtml](createashtml)() | Specifies formatting in the html. |
+| static [CreateAsHtml](../../aspose.email.calendar/appointmentformattingoptions/createashtml)() | Specifies formatting in the html. |
 
 ### See Also
 

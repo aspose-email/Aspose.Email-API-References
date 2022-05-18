@@ -26,14 +26,14 @@ public class SyncDeleteClientOperation
 
 | Name | Description |
 | --- | --- |
-| [Class](class) { get; set; } | Identifies the class of the item being added to the collection. Used in server responses only. |
-| [ServerId](serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
+| [Class](../../aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/class) { get; set; } | Identifies the class of the item being added to the collection. Used in server responses only. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [implicit operator](op_implicit) | Converts server id to SyncDeleteClientOperation object |
+| [implicit operator](../../aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/op_implicit) | Converts server id to SyncDeleteClientOperation object |
 
 ### See Also
 

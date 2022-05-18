@@ -22,16 +22,16 @@ public class GetSearchSuggestions : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [MaxSuggestionsCountPerSuggestionType](maxsuggestionscountpersuggestiontype) { get; set; } |  |
-| [MaxSuggestionsCountPerSuggestionTypeSpecified](maxsuggestionscountpersuggestiontypespecified) { get; set; } |  |
-| [Query](query) { get; set; } |  |
-| [Scenario](scenario) { get; set; } |  |
-| [SearchScope](searchscope) { get; set; } |  |
-| [SearchSessionId](searchsessionid) { get; set; } |  |
-| [SuggestionsPrimer](suggestionsprimer) { get; set; } |  |
-| [SuggestionsPrimerSpecified](suggestionsprimerspecified) { get; set; } |  |
-| [SuggestionTypes](suggestiontypes) { get; set; } |  |
-| [SuggestionTypesSpecified](suggestiontypesspecified) { get; set; } |  |
+| [MaxSuggestionsCountPerSuggestionType](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/maxsuggestionscountpersuggestiontype) { get; set; } |  |
+| [MaxSuggestionsCountPerSuggestionTypeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/maxsuggestionscountpersuggestiontypespecified) { get; set; } |  |
+| [Query](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/query) { get; set; } |  |
+| [Scenario](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/scenario) { get; set; } |  |
+| [SearchScope](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/searchscope) { get; set; } |  |
+| [SearchSessionId](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/searchsessionid) { get; set; } |  |
+| [SuggestionsPrimer](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/suggestionsprimer) { get; set; } |  |
+| [SuggestionsPrimerSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/suggestionsprimerspecified) { get; set; } |  |
+| [SuggestionTypes](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/suggestiontypes) { get; set; } |  |
+| [SuggestionTypesSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getsearchsuggestions/suggestiontypesspecified) { get; set; } |  |
 
 ### See Also
 

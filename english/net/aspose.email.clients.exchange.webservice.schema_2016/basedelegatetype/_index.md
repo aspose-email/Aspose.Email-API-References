@@ -16,7 +16,7 @@ public abstract class BaseDelegateType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Mailbox](mailbox) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/basedelegatetype/mailbox) { get; set; } |  |
 
 ### See Also
 

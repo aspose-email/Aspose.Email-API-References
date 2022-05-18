@@ -24,9 +24,9 @@ public sealed class ExchangeUserWorkingHours
 
 | Name | Description |
 | --- | --- |
-| [DayOfWeek](dayofweek) { get; } | Gets the day of week. |
-| [EndTime](endtime) { get; } | Gets the end time of the working day. |
-| [StartTime](starttime) { get; } | Gets the start time of the working day. |
+| [DayOfWeek](../../aspose.email.clients.exchange.webservice/exchangeuserworkinghours/dayofweek) { get; } | Gets the day of week. |
+| [EndTime](../../aspose.email.clients.exchange.webservice/exchangeuserworkinghours/endtime) { get; } | Gets the end time of the working day. |
+| [StartTime](../../aspose.email.clients.exchange.webservice/exchangeuserworkinghours/starttime) { get; } | Gets the start time of the working day. |
 
 ### See Also
 

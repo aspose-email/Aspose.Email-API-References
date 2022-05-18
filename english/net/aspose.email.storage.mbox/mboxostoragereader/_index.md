@@ -21,13 +21,22 @@ public sealed class MboxoStorageReader : MboxStorageReader
 | [MboxoStorageReader](mboxostoragereader)(Stream, MboxLoadOptions) | Initializes a new instance of the [`MboxoStorageReader`](../mboxostoragereader) class. |
 | [MboxoStorageReader](mboxostoragereader)(string, MboxLoadOptions) | Initializes a new instance of the [`MboxrdStorageReader`](../mboxrdstoragereader) class. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [BaseStream](../../aspose.email.storage.mbox/mboxstoragereader/basestream) { get; } | Gets the base stream. |
+| [CurrentDataSize](../../aspose.email.storage.mbox/mboxstoragereader/currentdatasize) { get; } | Gets the number of bytes that is read by ReadNextMessage method. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetTotalItemsCount](gettotalitemscount)() | Returns the number of messages in a storage. |
-| override [ReadNextMessage](readnextmessage)() | Reads the next message from underlying storage stream. |
-| override [ReadNextMessage](readnextmessage)(out string) | Reads the next message from underlying storage stream. |
+| [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in storage. |
+| override [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxostoragereader/gettotalitemscount)() | Returns the number of messages in a storage. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage)() | Reads the next message from underlying storage stream. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage)(out string) | Reads the next message from underlying storage stream. |
 
 ### See Also
 

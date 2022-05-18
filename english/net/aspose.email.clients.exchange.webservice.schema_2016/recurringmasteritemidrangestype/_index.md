@@ -22,7 +22,9 @@ public class RecurringMasterItemIdRangesType : ItemIdType
 
 | Name | Description |
 | --- | --- |
-| [Ranges](ranges) { get; set; } |  |
+| [ChangeKey](../../aspose.email.clients.exchange.webservice.schema_2016/itemidtype/changekey) { get; set; } |  |
+| [Id](../../aspose.email.clients.exchange.webservice.schema_2016/itemidtype/id) { get; set; } |  |
+| [Ranges](../../aspose.email.clients.exchange.webservice.schema_2016/recurringmasteritemidrangestype/ranges) { get; set; } |  |
 
 ### See Also
 

@@ -22,7 +22,7 @@ public class HideTagType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Tag](tag) { get; set; } |  |
+| [Tag](../../aspose.email.clients.exchange.webservice.schema_2016/hidetagtype/tag) { get; set; } |  |
 
 ### See Also
 

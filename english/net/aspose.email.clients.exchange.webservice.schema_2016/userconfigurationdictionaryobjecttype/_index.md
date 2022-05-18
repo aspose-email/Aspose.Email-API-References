@@ -22,8 +22,8 @@ public class UserConfigurationDictionaryObjectType
 
 | Name | Description |
 | --- | --- |
-| [Type](type) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [Type](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationdictionaryobjecttype/type) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/userconfigurationdictionaryobjecttype/value) { get; set; } |  |
 
 ### See Also
 

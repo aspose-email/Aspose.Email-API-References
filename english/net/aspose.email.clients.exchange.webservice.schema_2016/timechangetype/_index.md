@@ -22,10 +22,10 @@ public class TimeChangeType
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; set; } |  |
-| [Offset](offset) { get; set; } |  |
-| [Time](time) { get; set; } |  |
-| [TimeZoneName](timezonename) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/timechangetype/item) { get; set; } |  |
+| [Offset](../../aspose.email.clients.exchange.webservice.schema_2016/timechangetype/offset) { get; set; } |  |
+| [Time](../../aspose.email.clients.exchange.webservice.schema_2016/timechangetype/time) { get; set; } |  |
+| [TimeZoneName](../../aspose.email.clients.exchange.webservice.schema_2016/timechangetype/timezonename) { get; set; } |  |
 
 ### See Also
 

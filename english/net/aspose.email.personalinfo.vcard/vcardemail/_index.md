@@ -24,8 +24,8 @@ public sealed class VCardEmail
 
 | Name | Description |
 | --- | --- |
-| [EmailAddress](emailaddress) { get; set; } | Gets or sets an email address |
-| [EmailType](emailtype) { get; set; } | Gets or sets an email address type |
+| [EmailAddress](../../aspose.email.personalinfo.vcard/vcardemail/emailaddress) { get; set; } | Gets or sets an email address |
+| [EmailType](../../aspose.email.personalinfo.vcard/vcardemail/emailtype) { get; set; } | Gets or sets an email address type |
 
 ### See Also
 

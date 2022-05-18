@@ -22,8 +22,8 @@ public class BaseMoveCopyFolderType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [FolderIds](folderids) { get; set; } |  |
-| [ToFolderId](tofolderid) { get; set; } |  |
+| [FolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/basemovecopyfoldertype/folderids) { get; set; } |  |
+| [ToFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/basemovecopyfoldertype/tofolderid) { get; set; } |  |
 
 ### See Also
 

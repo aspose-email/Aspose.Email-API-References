@@ -22,11 +22,11 @@ public class PhoneCallInformationType
 
 | Name | Description |
 | --- | --- |
-| [ConnectionFailureCause](connectionfailurecause) { get; set; } |  |
-| [PhoneCallState](phonecallstate) { get; set; } |  |
-| [SIPResponseCode](sipresponsecode) { get; set; } |  |
-| [SIPResponseCodeSpecified](sipresponsecodespecified) { get; set; } |  |
-| [SIPResponseText](sipresponsetext) { get; set; } |  |
+| [ConnectionFailureCause](../../aspose.email.clients.exchange.webservice.schema_2016/phonecallinformationtype/connectionfailurecause) { get; set; } |  |
+| [PhoneCallState](../../aspose.email.clients.exchange.webservice.schema_2016/phonecallinformationtype/phonecallstate) { get; set; } |  |
+| [SIPResponseCode](../../aspose.email.clients.exchange.webservice.schema_2016/phonecallinformationtype/sipresponsecode) { get; set; } |  |
+| [SIPResponseCodeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/phonecallinformationtype/sipresponsecodespecified) { get; set; } |  |
+| [SIPResponseText](../../aspose.email.clients.exchange.webservice.schema_2016/phonecallinformationtype/sipresponsetext) { get; set; } |  |
 
 ### See Also
 

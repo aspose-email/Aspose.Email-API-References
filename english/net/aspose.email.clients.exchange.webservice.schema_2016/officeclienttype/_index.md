@@ -22,8 +22,8 @@ public class OfficeClientType
 
 | Name | Description |
 | --- | --- |
-| [Code](code) { get; set; } |  |
-| [Version](version) { get; set; } |  |
+| [Code](../../aspose.email.clients.exchange.webservice.schema_2016/officeclienttype/code) { get; set; } |  |
+| [Version](../../aspose.email.clients.exchange.webservice.schema_2016/officeclienttype/version) { get; set; } |  |
 
 ### See Also
 

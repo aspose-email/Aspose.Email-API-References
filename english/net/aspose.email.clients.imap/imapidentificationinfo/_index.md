@@ -24,24 +24,24 @@ public class ImapIdentificationInfo
 
 | Name | Description |
 | --- | --- |
-| static [DefaultValue](defaultvalue) { get; } | Default value |
-| [Address](address) { get; set; } | Postal address of contact/vendor |
-| [Arguments](arguments) { get; set; } | Arguments supplied on the command line, if any. |
-| [Command](command) { get; set; } | Command used to start the program |
-| [Date](date) { get; set; } | Date program was released, specified as a date-time in IMAP4rev1 |
-| [Environment](environment) { get; set; } | Description of environment, i.e., UNIX environment variables or Windows registry settings |
-| [Name](name) { get; set; } | Name of the program |
-| [Os](os) { get; set; } | Name of the operating system |
-| [OsVersion](osversion) { get; set; } | Version of the operating system |
-| [SupportUrl](supporturl) { get; set; } | URL to contact for support |
-| [Vendor](vendor) { get; set; } | Vendor of the client server |
-| [Version](version) { get; set; } | Version number of the program |
+| static [DefaultValue](../../aspose.email.clients.imap/imapidentificationinfo/defaultvalue) { get; } | Default value |
+| [Address](../../aspose.email.clients.imap/imapidentificationinfo/address) { get; set; } | Postal address of contact/vendor |
+| [Arguments](../../aspose.email.clients.imap/imapidentificationinfo/arguments) { get; set; } | Arguments supplied on the command line, if any. |
+| [Command](../../aspose.email.clients.imap/imapidentificationinfo/command) { get; set; } | Command used to start the program |
+| [Date](../../aspose.email.clients.imap/imapidentificationinfo/date) { get; set; } | Date program was released, specified as a date-time in IMAP4rev1 |
+| [Environment](../../aspose.email.clients.imap/imapidentificationinfo/environment) { get; set; } | Description of environment, i.e., UNIX environment variables or Windows registry settings |
+| [Name](../../aspose.email.clients.imap/imapidentificationinfo/name) { get; set; } | Name of the program |
+| [Os](../../aspose.email.clients.imap/imapidentificationinfo/os) { get; set; } | Name of the operating system |
+| [OsVersion](../../aspose.email.clients.imap/imapidentificationinfo/osversion) { get; set; } | Version of the operating system |
+| [SupportUrl](../../aspose.email.clients.imap/imapidentificationinfo/supporturl) { get; set; } | URL to contact for support |
+| [Vendor](../../aspose.email.clients.imap/imapidentificationinfo/vendor) { get; set; } | Vendor of the client server |
+| [Version](../../aspose.email.clients.imap/imapidentificationinfo/version) { get; set; } | Version number of the program |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email.clients.imap/imapidentificationinfo/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

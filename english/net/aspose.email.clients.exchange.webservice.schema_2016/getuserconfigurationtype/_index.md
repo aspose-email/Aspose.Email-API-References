@@ -22,8 +22,8 @@ public class GetUserConfigurationType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [UserConfigurationName](userconfigurationname) { get; set; } |  |
-| [UserConfigurationProperties](userconfigurationproperties) { get; set; } |  |
+| [UserConfigurationName](../../aspose.email.clients.exchange.webservice.schema_2016/getuserconfigurationtype/userconfigurationname) { get; set; } |  |
+| [UserConfigurationProperties](../../aspose.email.clients.exchange.webservice.schema_2016/getuserconfigurationtype/userconfigurationproperties) { get; set; } |  |
 
 ### See Also
 

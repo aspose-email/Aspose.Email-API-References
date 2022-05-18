@@ -22,13 +22,13 @@ public class QueryStringType
 
 | Name | Description |
 | --- | --- |
-| [ResetCache](resetcache) { get; set; } |  |
-| [ResetCacheSpecified](resetcachespecified) { get; set; } |  |
-| [ReturnDeletedItems](returndeleteditems) { get; set; } |  |
-| [ReturnDeletedItemsSpecified](returndeleteditemsspecified) { get; set; } |  |
-| [ReturnHighlightTerms](returnhighlightterms) { get; set; } |  |
-| [ReturnHighlightTermsSpecified](returnhighlighttermsspecified) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [ResetCache](../../aspose.email.clients.exchange.webservice.schema_2016/querystringtype/resetcache) { get; set; } |  |
+| [ResetCacheSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/querystringtype/resetcachespecified) { get; set; } |  |
+| [ReturnDeletedItems](../../aspose.email.clients.exchange.webservice.schema_2016/querystringtype/returndeleteditems) { get; set; } |  |
+| [ReturnDeletedItemsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/querystringtype/returndeleteditemsspecified) { get; set; } |  |
+| [ReturnHighlightTerms](../../aspose.email.clients.exchange.webservice.schema_2016/querystringtype/returnhighlightterms) { get; set; } |  |
+| [ReturnHighlightTermsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/querystringtype/returnhighlighttermsspecified) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/querystringtype/value) { get; set; } |  |
 
 ### See Also
 

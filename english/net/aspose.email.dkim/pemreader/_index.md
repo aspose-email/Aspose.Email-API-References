@@ -18,8 +18,8 @@ public static class PemReader
 
 | Name | Description |
 | --- | --- |
-| static [GetPrivateKey](getprivatekey)(Stream) | Reads private key from stream. |
-| static [GetPrivateKey](getprivatekey)(string) | Reads private key from PEM file. |
+| static [GetPrivateKey](../../aspose.email.dkim/pemreader/getprivatekey)(Stream) | Reads private key from stream. |
+| static [GetPrivateKey](../../aspose.email.dkim/pemreader/getprivatekey)(string) | Reads private key from PEM file. |
 
 ### See Also
 

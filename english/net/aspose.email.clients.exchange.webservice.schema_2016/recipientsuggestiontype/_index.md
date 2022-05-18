@@ -22,8 +22,8 @@ public class RecipientSuggestionType
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } |  |
-| [EmailAddress](emailaddress) { get; set; } |  |
+| [DisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/recipientsuggestiontype/displayname) { get; set; } |  |
+| [EmailAddress](../../aspose.email.clients.exchange.webservice.schema_2016/recipientsuggestiontype/emailaddress) { get; set; } |  |
 
 ### See Also
 

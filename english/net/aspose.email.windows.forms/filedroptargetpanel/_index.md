@@ -24,7 +24,7 @@ public class FileDropTargetPanel : Panel, IFileDropTargetControl
 
 | Name | Description |
 | --- | --- |
-| [DropTargetManager](droptargetmanager) { get; set; } | Gets or sets the drop target manager. |
+| [DropTargetManager](../../aspose.email.windows.forms/filedroptargetpanel/droptargetmanager) { get; set; } | Gets or sets the drop target manager. |
 
 ### See Also
 

@@ -24,7 +24,11 @@ public sealed class XGMThreadSearchConditions : BaseSearchConditions
 
 | Name | Description |
 | --- | --- |
-| [ConversationId](conversationid) { get; set; } | Gets or sets conversation id that Gmail provides to associate groups of messages. |
+| [Charset](../../aspose.email.clients.imap/basesearchconditions/charset) { get; set; } | Gets or sets charset. Indicates the charset of the strings that appear in the searching criteria. |
+| [ConversationId](../../aspose.email.clients.imap/xgmthreadsearchconditions/conversationid) { get; set; } | Gets or sets conversation id that Gmail provides to associate groups of messages. |
+| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | Gets or sets the message date since which the search criteria matches. |
+| [Text](../../aspose.email.clients.imap/basesearchconditions/text) { get; set; } | Gets or sets subject text. |
+| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | Gets or sets a value indicating whether the search method returns sequence numbers or UIDs of messages. |
 
 ### See Also
 

@@ -22,23 +22,23 @@ public class ManagedFolderInformationType
 
 | Name | Description |
 | --- | --- |
-| [CanDelete](candelete) { get; set; } |  |
-| [CanDeleteSpecified](candeletespecified) { get; set; } |  |
-| [CanRenameOrMove](canrenameormove) { get; set; } |  |
-| [CanRenameOrMoveSpecified](canrenameormovespecified) { get; set; } |  |
-| [Comment](comment) { get; set; } |  |
-| [FolderSize](foldersize) { get; set; } |  |
-| [FolderSizeSpecified](foldersizespecified) { get; set; } |  |
-| [HasQuota](hasquota) { get; set; } |  |
-| [HasQuotaSpecified](hasquotaspecified) { get; set; } |  |
-| [HomePage](homepage) { get; set; } |  |
-| [IsManagedFoldersRoot](ismanagedfoldersroot) { get; set; } |  |
-| [IsManagedFoldersRootSpecified](ismanagedfoldersrootspecified) { get; set; } |  |
-| [ManagedFolderId](managedfolderid) { get; set; } |  |
-| [MustDisplayComment](mustdisplaycomment) { get; set; } |  |
-| [MustDisplayCommentSpecified](mustdisplaycommentspecified) { get; set; } |  |
-| [StorageQuota](storagequota) { get; set; } |  |
-| [StorageQuotaSpecified](storagequotaspecified) { get; set; } |  |
+| [CanDelete](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/candelete) { get; set; } |  |
+| [CanDeleteSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/candeletespecified) { get; set; } |  |
+| [CanRenameOrMove](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/canrenameormove) { get; set; } |  |
+| [CanRenameOrMoveSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/canrenameormovespecified) { get; set; } |  |
+| [Comment](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/comment) { get; set; } |  |
+| [FolderSize](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/foldersize) { get; set; } |  |
+| [FolderSizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/foldersizespecified) { get; set; } |  |
+| [HasQuota](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/hasquota) { get; set; } |  |
+| [HasQuotaSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/hasquotaspecified) { get; set; } |  |
+| [HomePage](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/homepage) { get; set; } |  |
+| [IsManagedFoldersRoot](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/ismanagedfoldersroot) { get; set; } |  |
+| [IsManagedFoldersRootSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/ismanagedfoldersrootspecified) { get; set; } |  |
+| [ManagedFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/managedfolderid) { get; set; } |  |
+| [MustDisplayComment](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/mustdisplaycomment) { get; set; } |  |
+| [MustDisplayCommentSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/mustdisplaycommentspecified) { get; set; } |  |
+| [StorageQuota](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/storagequota) { get; set; } |  |
+| [StorageQuotaSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/managedfolderinformationtype/storagequotaspecified) { get; set; } |  |
 
 ### See Also
 

@@ -24,9 +24,9 @@ public sealed class VCardAgent
 
 | Name | Description |
 | --- | --- |
-| [AgentCard](agentcard) { get; set; } | Gets or sets an agent's card (`null` if [`ValueLocation`](./valuelocation) is not `INLINE`) |
-| [Uri](uri) { get; set; } | Gets or sets a uri of agent card (`null` if [`ValueLocation`](./valuelocation) is `INLINE`) |
-| [ValueLocation](valuelocation) { get; set; } | Gets or sets a value location |
+| [AgentCard](../../aspose.email.personalinfo.vcard/vcardagent/agentcard) { get; set; } | Gets or sets an agent's card (`null` if [`ValueLocation`](./valuelocation) is not `INLINE`) |
+| [Uri](../../aspose.email.personalinfo.vcard/vcardagent/uri) { get; set; } | Gets or sets a uri of agent card (`null` if [`ValueLocation`](./valuelocation) is `INLINE`) |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardagent/valuelocation) { get; set; } | Gets or sets a value location |
 
 ### See Also
 

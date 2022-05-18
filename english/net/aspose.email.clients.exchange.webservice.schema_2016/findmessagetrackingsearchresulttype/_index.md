@@ -22,15 +22,15 @@ public class FindMessageTrackingSearchResultType
 
 | Name | Description |
 | --- | --- |
-| [FirstHopServer](firsthopserver) { get; set; } |  |
-| [MessageTrackingReportId](messagetrackingreportid) { get; set; } |  |
-| [PreviousHopServer](previoushopserver) { get; set; } |  |
-| [Properties](properties) { get; set; } |  |
-| [PurportedSender](purportedsender) { get; set; } |  |
-| [Recipients](recipients) { get; set; } |  |
-| [Sender](sender) { get; set; } |  |
-| [Subject](subject) { get; set; } |  |
-| [SubmittedTime](submittedtime) { get; set; } |  |
+| [FirstHopServer](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/firsthopserver) { get; set; } |  |
+| [MessageTrackingReportId](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/messagetrackingreportid) { get; set; } |  |
+| [PreviousHopServer](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/previoushopserver) { get; set; } |  |
+| [Properties](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/properties) { get; set; } |  |
+| [PurportedSender](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/purportedsender) { get; set; } |  |
+| [Recipients](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/recipients) { get; set; } |  |
+| [Sender](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/sender) { get; set; } |  |
+| [Subject](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/subject) { get; set; } |  |
+| [SubmittedTime](../../aspose.email.clients.exchange.webservice.schema_2016/findmessagetrackingsearchresulttype/submittedtime) { get; set; } |  |
 
 ### See Also
 

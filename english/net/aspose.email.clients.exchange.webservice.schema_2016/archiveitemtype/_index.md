@@ -22,8 +22,8 @@ public class ArchiveItemType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ArchiveSourceFolderId](archivesourcefolderid) { get; set; } |  |
-| [ItemIds](itemids) { get; set; } |  |
+| [ArchiveSourceFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/archiveitemtype/archivesourcefolderid) { get; set; } |  |
+| [ItemIds](../../aspose.email.clients.exchange.webservice.schema_2016/archiveitemtype/itemids) { get; set; } |  |
 
 ### See Also
 

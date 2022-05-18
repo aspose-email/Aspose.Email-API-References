@@ -22,8 +22,8 @@ public class AddTagType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [AppName](appname) { get; set; } |  |
-| [Tag](tag) { get; set; } |  |
+| [AppName](../../aspose.email.clients.exchange.webservice.schema_2016/addtagtype/appname) { get; set; } |  |
+| [Tag](../../aspose.email.clients.exchange.webservice.schema_2016/addtagtype/tag) { get; set; } |  |
 
 ### See Also
 

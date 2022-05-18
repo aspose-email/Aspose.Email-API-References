@@ -16,7 +16,7 @@ public class RemoveDistributionGroupFromImListCompletedEventArgs : AsyncComplete
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/removedistributiongroupfromimlistcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

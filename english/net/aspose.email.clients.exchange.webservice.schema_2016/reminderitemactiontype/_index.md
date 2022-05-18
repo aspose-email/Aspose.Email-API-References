@@ -22,9 +22,9 @@ public class ReminderItemActionType
 
 | Name | Description |
 | --- | --- |
-| [ActionType](actiontype) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
-| [NewReminderTime](newremindertime) { get; set; } |  |
+| [ActionType](../../aspose.email.clients.exchange.webservice.schema_2016/reminderitemactiontype/actiontype) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/reminderitemactiontype/itemid) { get; set; } |  |
+| [NewReminderTime](../../aspose.email.clients.exchange.webservice.schema_2016/reminderitemactiontype/newremindertime) { get; set; } |  |
 
 ### See Also
 

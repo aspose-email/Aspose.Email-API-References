@@ -22,10 +22,10 @@ public class GetUserOofSettingsResponse
 
 | Name | Description |
 | --- | --- |
-| [AllowExternalOof](allowexternaloof) { get; set; } |  |
-| [AllowExternalOofSpecified](allowexternaloofspecified) { get; set; } |  |
-| [OofSettings](oofsettings) { get; set; } |  |
-| [ResponseMessage](responsemessage) { get; set; } |  |
+| [AllowExternalOof](../../aspose.email.clients.exchange.webservice.schema_2016/getuseroofsettingsresponse/allowexternaloof) { get; set; } |  |
+| [AllowExternalOofSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/getuseroofsettingsresponse/allowexternaloofspecified) { get; set; } |  |
+| [OofSettings](../../aspose.email.clients.exchange.webservice.schema_2016/getuseroofsettingsresponse/oofsettings) { get; set; } |  |
+| [ResponseMessage](../../aspose.email.clients.exchange.webservice.schema_2016/getuseroofsettingsresponse/responsemessage) { get; set; } |  |
 
 ### See Also
 

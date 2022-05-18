@@ -31,8 +31,8 @@ public class NotesStorageFacility : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [EnumerateMessages](enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in storage. |
+| [Dispose](../../aspose.email.storage.nsf/notesstoragefacility/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [EnumerateMessages](../../aspose.email.storage.nsf/notesstoragefacility/enumeratemessages)() | Exposes the enumerator, which supports an iteration of messages in storage. |
 
 ### See Also
 

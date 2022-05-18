@@ -24,8 +24,8 @@ public class SyncAddClientOperation
 
 | Name | Description |
 | --- | --- |
-| [ApplicationData](applicationdata) { get; } | ApplicationData contains data for a particular object, such as a contact, email message, calendar appointment, or task item. |
-| [ServerId](serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. Used in server responses only. |
+| [ApplicationData](../../aspose.email.clients.activesync.transportlayer/syncaddclientoperation/applicationdata) { get; } | ApplicationData contains data for a particular object, such as a contact, email message, calendar appointment, or task item. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncaddclientoperation/serverid) { get; set; } | Represents a unique identifier that is assigned by the server to each object that can be synchronized. Used in server responses only. |
 
 ### See Also
 

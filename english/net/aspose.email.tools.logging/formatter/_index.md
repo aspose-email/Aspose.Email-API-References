@@ -18,17 +18,17 @@ public abstract class Formatter : IFormatter
 
 | Name | Description |
 | --- | --- |
-| virtual [Footer](footer) { get; } | Gets or sets the footer. |
-| virtual [Header](header) { get; } | Gets or sets the header. |
-| virtual [LogHeader](logheader) { get; } | Gets or sets the log header |
-| static [DefaultFormatter](defaultformatter) { get; set; } | Gets or sets default formatter |
+| virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | Gets or sets the footer. |
+| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | Gets or sets the header. |
+| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Gets or sets the log header |
+| static [DefaultFormatter](../../aspose.email.tools.logging/formatter/defaultformatter) { get; set; } | Gets or sets default formatter |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Format](format)(DateTime) | Formats a datetime and return a string to be outputted. |
-| virtual [Format](format)(LogEntry) | Formats a log entry and return a string to be outputted. |
+| virtual [Format](../../aspose.email.tools.logging/formatter/format)(DateTime) | Formats a datetime and return a string to be outputted. |
+| virtual [Format](../../aspose.email.tools.logging/formatter/format)(LogEntry) | Formats a log entry and return a string to be outputted. |
 
 ### See Also
 

@@ -18,13 +18,13 @@ public class EwsAppendMessage
 
 | Name | Description |
 | --- | --- |
-| static [Create](create)() | Creates [`AppendMessagesAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync) method's parameter set. |
-| [AddMessage](addmessage)(MailMessage) | Add a mail message to append. |
-| [AddMessage](addmessage)(MapiMessage) | Add a MAPI message to append. |
-| [AddMessages](addmessages)(IEnumerable&lt;MailMessage&gt;) | Add a list of the mail messages to append. |
-| [AddMessages](addmessages)(IEnumerable&lt;MapiMessage&gt;) | Add a list of the MAPI messages to append. |
-| [SetCancellationToken](setcancellationtoken)(CancellationToken) | Set the cancellation token. |
-| [SetFolder](setfolder)(string) | A folder to which messages are uploaded. |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/create)() | Creates [`AppendMessagesAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync) method's parameter set. |
+| [AddMessage](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage)(MailMessage) | Add a mail message to append. |
+| [AddMessage](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage)(MapiMessage) | Add a MAPI message to append. |
+| [AddMessages](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessages)(IEnumerable&lt;MailMessage&gt;) | Add a list of the mail messages to append. |
+| [AddMessages](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessages)(IEnumerable&lt;MapiMessage&gt;) | Add a list of the MAPI messages to append. |
+| [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/setcancellationtoken)(CancellationToken) | Set the cancellation token. |
+| [SetFolder](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/setfolder)(string) | A folder to which messages are uploaded. |
 
 ### See Also
 

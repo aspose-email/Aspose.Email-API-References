@@ -24,7 +24,7 @@ public sealed class CustomAttachmentStorage
 
 | Name | Description |
 | --- | --- |
-| [DataSet](dataset) { get; } | Gets the data set representing custom attachment storage, names of the data streams are keys for this dictionary. |
+| [DataSet](../../aspose.email.mapi.msg/customattachmentstorage/dataset) { get; } | Gets the data set representing custom attachment storage, names of the data streams are keys for this dictionary. |
 
 ### See Also
 

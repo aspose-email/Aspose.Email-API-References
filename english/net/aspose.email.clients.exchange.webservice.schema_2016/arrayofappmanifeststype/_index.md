@@ -22,7 +22,7 @@ public class ArrayOfAppManifestsType
 
 | Name | Description |
 | --- | --- |
-| [Manifest](manifest) { get; set; } |  |
+| [Manifest](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofappmanifeststype/manifest) { get; set; } |  |
 
 ### See Also
 

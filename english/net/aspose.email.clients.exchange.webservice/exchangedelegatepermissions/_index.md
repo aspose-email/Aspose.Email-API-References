@@ -24,18 +24,18 @@ public class ExchangeDelegatePermissions
 
 | Name | Description |
 | --- | --- |
-| [CalendarFolderPermissionLevel](calendarfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Calendar folder |
-| [ContactsFolderPermissionLevel](contactsfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Contacts folder |
-| [InboxFolderPermissionLevel](inboxfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Inbox folder |
-| [JournalFolderPermissionLevel](journalfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Journal folder |
-| [NotesFolderPermissionLevel](notesfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Notes folder |
-| [TasksFolderPermissionLevel](tasksfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Tasks folder |
+| [CalendarFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/calendarfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Calendar folder |
+| [ContactsFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/contactsfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Contacts folder |
+| [InboxFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/inboxfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Inbox folder |
+| [JournalFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/journalfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Journal folder |
+| [NotesFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/notesfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Notes folder |
+| [TasksFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/tasksfolderpermissionlevel) { get; set; } | Gets or sets the permissions which the delegate user has on the default Tasks folder |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetPermissionLevel](setpermissionlevel)(ExchangeDelegateFolderPermissionLevel) | Sets the permission level on all folders to the specified value |
+| [SetPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/setpermissionlevel)(ExchangeDelegateFolderPermissionLevel) | Sets the permission level on all folders to the specified value |
 
 ### See Also
 

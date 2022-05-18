@@ -22,8 +22,8 @@ public class SetUserOofSettingsRequest : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Mailbox](mailbox) { get; set; } |  |
-| [UserOofSettings](useroofsettings) { get; set; } |  |
+| [Mailbox](../../aspose.email.clients.exchange.webservice.schema_2016/setuseroofsettingsrequest/mailbox) { get; set; } |  |
+| [UserOofSettings](../../aspose.email.clients.exchange.webservice.schema_2016/setuseroofsettingsrequest/useroofsettings) { get; set; } |  |
 
 ### See Also
 

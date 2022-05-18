@@ -21,12 +21,20 @@ public sealed class SimpleFormatter : Formatter
 | [SimpleFormatter](simpleformatter)() | Creates a new SimpleFormatter instance. |
 | [SimpleFormatter](simpleformatter)(string, string) | Creates a new SimpleFormatter instance. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | Gets or sets the footer. |
+| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | Gets or sets the header. |
+| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Gets or sets the log header |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Format](format)(DateTime) | Formats a datetime and return a string to be outputted. |
-| override [Format](format)(LogEntry) | Formats a log entry and return a string to be outputted. |
+| override [Format](../../aspose.email.tools.logging/simpleformatter/format)(DateTime) | Formats a datetime and return a string to be outputted. |
+| override [Format](../../aspose.email.tools.logging/simpleformatter/format)(LogEntry) | Formats a log entry and return a string to be outputted. |
 
 ### See Also
 

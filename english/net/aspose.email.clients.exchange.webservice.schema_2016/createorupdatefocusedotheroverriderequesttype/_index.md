@@ -22,9 +22,9 @@ public class CreateOrUpdateFocusedOtherOverrideRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [AlwaysClassifyAs](alwaysclassifyas) { get; set; } |  |
-| [SenderDisplayName](senderdisplayname) { get; set; } |  |
-| [SenderSmtpAddress](sendersmtpaddress) { get; set; } |  |
+| [AlwaysClassifyAs](../../aspose.email.clients.exchange.webservice.schema_2016/createorupdatefocusedotheroverriderequesttype/alwaysclassifyas) { get; set; } |  |
+| [SenderDisplayName](../../aspose.email.clients.exchange.webservice.schema_2016/createorupdatefocusedotheroverriderequesttype/senderdisplayname) { get; set; } |  |
+| [SenderSmtpAddress](../../aspose.email.clients.exchange.webservice.schema_2016/createorupdatefocusedotheroverriderequesttype/sendersmtpaddress) { get; set; } |  |
 
 ### See Also
 

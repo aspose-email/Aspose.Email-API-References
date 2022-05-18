@@ -22,9 +22,21 @@ public class FileAttachmentType : AttachmentType
 
 | Name | Description |
 | --- | --- |
-| [Content](content) { get; set; } |  |
-| [IsContactPhoto](iscontactphoto) { get; set; } |  |
-| [IsContactPhotoSpecified](iscontactphotospecified) { get; set; } |  |
+| [AttachmentId](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/attachmentid) { get; set; } |  |
+| [AttachmentOriginalUrl](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/attachmentoriginalurl) { get; set; } |  |
+| [Content](../../aspose.email.clients.exchange.webservice.schema_2016/fileattachmenttype/content) { get; set; } |  |
+| [ContentId](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/contentid) { get; set; } |  |
+| [ContentLocation](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/contentlocation) { get; set; } |  |
+| [ContentType](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/contenttype) { get; set; } |  |
+| [IsContactPhoto](../../aspose.email.clients.exchange.webservice.schema_2016/fileattachmenttype/iscontactphoto) { get; set; } |  |
+| [IsContactPhotoSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/fileattachmenttype/iscontactphotospecified) { get; set; } |  |
+| [IsInline](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/isinline) { get; set; } |  |
+| [IsInlineSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/isinlinespecified) { get; set; } |  |
+| [LastModifiedTime](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/lastmodifiedtime) { get; set; } |  |
+| [LastModifiedTimeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/lastmodifiedtimespecified) { get; set; } |  |
+| [Name](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/name) { get; set; } |  |
+| [Size](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/size) { get; set; } |  |
+| [SizeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/attachmenttype/sizespecified) { get; set; } |  |
 
 ### See Also
 

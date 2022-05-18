@@ -26,9 +26,10 @@ public sealed class VCardSaveOptions : ContactSaveOptions
 
 | Name | Description |
 | --- | --- |
-| static [Default](default) { get; } | Gets default [`VCardSaveOptions`](../vcardsaveoptions) |
-| [UseExtensions](useextensions) { get; set; } | Gets or sets a value indicating whether the extended types can be used |
-| [Version](version) { get; set; } | Gets or sets a vCard version |
+| static [Default](../../aspose.email.personalinfo.vcard/vcardsaveoptions/default) { get; } | Gets default [`VCardSaveOptions`](../vcardsaveoptions) |
+| [SaveFormat](../../aspose.email.mapi/contactsaveoptions/saveformat) { get; } | Gets a save format |
+| [UseExtensions](../../aspose.email.personalinfo.vcard/vcardsaveoptions/useextensions) { get; set; } | Gets or sets a value indicating whether the extended types can be used |
+| [Version](../../aspose.email.personalinfo.vcard/vcardsaveoptions/version) { get; set; } | Gets or sets a vCard version |
 
 ### See Also
 

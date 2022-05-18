@@ -18,7 +18,7 @@ public sealed class AlternateViewCollection : Collection<AlternateView>, IDispos
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [Dispose](../../aspose.email/alternateviewcollection/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 
 ### See Also
 

@@ -24,7 +24,7 @@ public class AlternateViewRemovedEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [AlternateView](alternateview) { get; } | Get the AlternateView that has been removed. |
+| [AlternateView](../../aspose.email/alternateviewremovedeventargs/alternateview) { get; } | Get the AlternateView that has been removed. |
 
 ### See Also
 

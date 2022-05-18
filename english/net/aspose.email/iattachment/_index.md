@@ -18,14 +18,14 @@ public interface IAttachment
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Gets or sets an attachment name |
+| [Name](../../aspose.email/iattachment/name) { get; set; } | Gets or sets an attachment name |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(Stream) | Saves an attachment to stream |
-| [Save](save)(string) | Saves attachment to file |
+| [Save](../../aspose.email/iattachment/save)(Stream) | Saves an attachment to stream |
+| [Save](../../aspose.email/iattachment/save)(string) | Saves attachment to file |
 
 ### See Also
 

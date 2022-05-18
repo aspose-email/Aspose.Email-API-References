@@ -24,9 +24,9 @@ public class ItemOperationsMoveRequest
 
 | Name | Description |
 | --- | --- |
-| [ConversationId](conversationid) { get; set; } | Specifies the conversation to be moved. |
-| [DstFldId](dstfldid) { get; set; } | Specifies the server ID of the destination folder. |
-| [Options](options) { get; set; } | Contains the options for the ItemOperations.Move operation. |
+| [ConversationId](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoverequest/conversationid) { get; set; } | Specifies the conversation to be moved. |
+| [DstFldId](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoverequest/dstfldid) { get; set; } | Specifies the server ID of the destination folder. |
+| [Options](../../aspose.email.clients.activesync.transportlayer/itemoperationsmoverequest/options) { get; set; } | Contains the options for the ItemOperations.Move operation. |
 
 ### See Also
 

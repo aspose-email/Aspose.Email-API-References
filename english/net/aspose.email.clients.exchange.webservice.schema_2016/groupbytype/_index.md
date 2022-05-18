@@ -22,13 +22,14 @@ public class GroupByType : BaseGroupByType
 
 | Name | Description |
 | --- | --- |
-| [AggregateOn](aggregateon) { get; set; } |  |
-| [GroupsToExpand](groupstoexpand) { get; set; } |  |
-| [Item](item) { get; set; } |  |
-| [ItemsPerGroup](itemspergroup) { get; set; } |  |
-| [MaxItemsPerGroup](maxitemspergroup) { get; set; } |  |
-| [UseCollapsibleGroups](usecollapsiblegroups) { get; set; } |  |
-| [UseCollapsibleGroupsSpecified](usecollapsiblegroupsspecified) { get; set; } |  |
+| [AggregateOn](../../aspose.email.clients.exchange.webservice.schema_2016/groupbytype/aggregateon) { get; set; } |  |
+| [GroupsToExpand](../../aspose.email.clients.exchange.webservice.schema_2016/groupbytype/groupstoexpand) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/groupbytype/item) { get; set; } |  |
+| [ItemsPerGroup](../../aspose.email.clients.exchange.webservice.schema_2016/groupbytype/itemspergroup) { get; set; } |  |
+| [MaxItemsPerGroup](../../aspose.email.clients.exchange.webservice.schema_2016/groupbytype/maxitemspergroup) { get; set; } |  |
+| [Order](../../aspose.email.clients.exchange.webservice.schema_2016/basegroupbytype/order) { get; set; } |  |
+| [UseCollapsibleGroups](../../aspose.email.clients.exchange.webservice.schema_2016/groupbytype/usecollapsiblegroups) { get; set; } |  |
+| [UseCollapsibleGroupsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/groupbytype/usecollapsiblegroupsspecified) { get; set; } |  |
 
 ### See Also
 

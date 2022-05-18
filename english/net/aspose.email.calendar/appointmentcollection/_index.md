@@ -25,7 +25,7 @@ public class AppointmentCollection : List<Appointment>
 
 | Name | Description |
 | --- | --- |
-| [implicit operator](op_implicit) | Converts array of appointments to collection |
+| [implicit operator](../../aspose.email.calendar/appointmentcollection/op_implicit) | Converts array of appointments to collection |
 
 ### See Also
 

@@ -25,8 +25,8 @@ public sealed class DateRange
 
 | Name | Description |
 | --- | --- |
-| [EndTime](endtime) { get; set; } | Gets or sets the end of a time period. |
-| [StartTime](starttime) { get; set; } | Gets or sets the start of a time period. |
+| [EndTime](../../aspose.email.clients.exchange.webservice/daterange/endtime) { get; set; } | Gets or sets the end of a time period. |
+| [StartTime](../../aspose.email.clients.exchange.webservice/daterange/starttime) { get; set; } | Gets or sets the start of a time period. |
 
 ### See Also
 

@@ -26,17 +26,17 @@ public class BackupSettings
 
 | Name | Description |
 | --- | --- |
-| static [Default](default) { get; } | Gets [`BackupSettings`](../backupsettings) class with settings by default |
-| [ExecuteRecursively](executerecursively) { get; set; } | Gets or sets value which defines if backup should be executed recursively |
-| [NumberOfAttemptsToRrepeat](numberofattemptstorrepeat) { get; set; } | Gets or sets value which defines number of attempts to repeat failed operation In case of some IMAP command inside backup operation returns failed result, IMAP client tries to repeat this operation again according to defined quantity of times. For instance if FETCH operation returns error AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] FETCH Service is temporarily not available Client tries to execute it again. |
-| [RestoreConnection](restoreconnection) { get; set; } | Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option. |
-| [TimeoutBetweenAttempts](timeoutbetweenattempts) { get; set; } | Gets or sets value which defines timeout (in milliseconds) between attemptions to execute operation again This option has to be used together with NumberOfAttemptsToRrepeat option. |
+| static [Default](../../aspose.email.clients.imap/backupsettings/default) { get; } | Gets [`BackupSettings`](../backupsettings) class with settings by default |
+| [ExecuteRecursively](../../aspose.email.clients.imap/backupsettings/executerecursively) { get; set; } | Gets or sets value which defines if backup should be executed recursively |
+| [NumberOfAttemptsToRrepeat](../../aspose.email.clients.imap/backupsettings/numberofattemptstorrepeat) { get; set; } | Gets or sets value which defines number of attempts to repeat failed operation In case of some IMAP command inside backup operation returns failed result, IMAP client tries to repeat this operation again according to defined quantity of times. For instance if FETCH operation returns error AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] FETCH Service is temporarily not available Client tries to execute it again. |
+| [RestoreConnection](../../aspose.email.clients.imap/backupsettings/restoreconnection) { get; set; } | Gets or sets value which defines if connection has to be restored in case if server closes connection forcibly This option has to be used together with NumberOfAttemptsToRrepeat option. |
+| [TimeoutBetweenAttempts](../../aspose.email.clients.imap/backupsettings/timeoutbetweenattempts) { get; set; } | Gets or sets value which defines timeout (in milliseconds) between attemptions to execute operation again This option has to be used together with NumberOfAttemptsToRrepeat option. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [implicit operator](op_implicit) | Converts enumerable options to class |
+| [implicit operator](../../aspose.email.clients.imap/backupsettings/op_implicit) | Converts enumerable options to class |
 
 ### See Also
 

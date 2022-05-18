@@ -22,17 +22,17 @@ public class FindConversationType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ConversationShape](conversationshape) { get; set; } |  |
-| [Item](item) { get; set; } |  |
-| [MailboxScope](mailboxscope) { get; set; } |  |
-| [MailboxScopeSpecified](mailboxscopespecified) { get; set; } |  |
-| [ParentFolderId](parentfolderid) { get; set; } |  |
-| [QueryString](querystring) { get; set; } |  |
-| [SortOrder](sortorder) { get; set; } |  |
-| [Traversal](traversal) { get; set; } |  |
-| [TraversalSpecified](traversalspecified) { get; set; } |  |
-| [ViewFilter](viewfilter) { get; set; } |  |
-| [ViewFilterSpecified](viewfilterspecified) { get; set; } |  |
+| [ConversationShape](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/conversationshape) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/item) { get; set; } |  |
+| [MailboxScope](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/mailboxscope) { get; set; } |  |
+| [MailboxScopeSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/mailboxscopespecified) { get; set; } |  |
+| [ParentFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/parentfolderid) { get; set; } |  |
+| [QueryString](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/querystring) { get; set; } |  |
+| [SortOrder](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/sortorder) { get; set; } |  |
+| [Traversal](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/traversal) { get; set; } |  |
+| [TraversalSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/traversalspecified) { get; set; } |  |
+| [ViewFilter](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/viewfilter) { get; set; } |  |
+| [ViewFilterSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/findconversationtype/viewfilterspecified) { get; set; } |  |
 
 ### See Also
 

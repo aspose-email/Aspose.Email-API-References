@@ -24,8 +24,8 @@ public sealed class VCardGeo
 
 | Name | Description |
 | --- | --- |
-| [Latitude](latitude) { get; set; } | Gets or sets a latitude |
-| [Longitude](longitude) { get; set; } | Gets or sets a longitude |
+| [Latitude](../../aspose.email.personalinfo.vcard/vcardgeo/latitude) { get; set; } | Gets or sets a latitude |
+| [Longitude](../../aspose.email.personalinfo.vcard/vcardgeo/longitude) { get; set; } | Gets or sets a longitude |
 
 ### See Also
 

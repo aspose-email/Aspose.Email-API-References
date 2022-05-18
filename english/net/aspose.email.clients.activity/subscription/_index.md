@@ -24,9 +24,9 @@ public class Subscription
 
 | Name | Description |
 | --- | --- |
-| [ContentType](contenttype) { get; set; } | Subscription content type |
-| [Status](status) { get; set; } | Status of subscription |
-| [Webhook](webhook) { get; set; } | Associated webhooks |
+| [ContentType](../../aspose.email.clients.activity/subscription/contenttype) { get; set; } | Subscription content type |
+| [Status](../../aspose.email.clients.activity/subscription/status) { get; set; } | Status of subscription |
+| [Webhook](../../aspose.email.clients.activity/subscription/webhook) { get; set; } | Associated webhooks |
 
 ### See Also
 

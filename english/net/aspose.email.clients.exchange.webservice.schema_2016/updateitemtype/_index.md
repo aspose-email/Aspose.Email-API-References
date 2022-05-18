@@ -22,15 +22,15 @@ public class UpdateItemType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ConflictResolution](conflictresolution) { get; set; } |  |
-| [ItemChanges](itemchanges) { get; set; } |  |
-| [MessageDisposition](messagedisposition) { get; set; } |  |
-| [MessageDispositionSpecified](messagedispositionspecified) { get; set; } |  |
-| [SavedItemFolderId](saveditemfolderid) { get; set; } |  |
-| [SendMeetingInvitationsOrCancellations](sendmeetinginvitationsorcancellations) { get; set; } |  |
-| [SendMeetingInvitationsOrCancellationsSpecified](sendmeetinginvitationsorcancellationsspecified) { get; set; } |  |
-| [SuppressReadReceipts](suppressreadreceipts) { get; set; } |  |
-| [SuppressReadReceiptsSpecified](suppressreadreceiptsspecified) { get; set; } |  |
+| [ConflictResolution](../../aspose.email.clients.exchange.webservice.schema_2016/updateitemtype/conflictresolution) { get; set; } |  |
+| [ItemChanges](../../aspose.email.clients.exchange.webservice.schema_2016/updateitemtype/itemchanges) { get; set; } |  |
+| [MessageDisposition](../../aspose.email.clients.exchange.webservice.schema_2016/updateitemtype/messagedisposition) { get; set; } |  |
+| [MessageDispositionSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/updateitemtype/messagedispositionspecified) { get; set; } |  |
+| [SavedItemFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/updateitemtype/saveditemfolderid) { get; set; } |  |
+| [SendMeetingInvitationsOrCancellations](../../aspose.email.clients.exchange.webservice.schema_2016/updateitemtype/sendmeetinginvitationsorcancellations) { get; set; } |  |
+| [SendMeetingInvitationsOrCancellationsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/updateitemtype/sendmeetinginvitationsorcancellationsspecified) { get; set; } |  |
+| [SuppressReadReceipts](../../aspose.email.clients.exchange.webservice.schema_2016/updateitemtype/suppressreadreceipts) { get; set; } |  |
+| [SuppressReadReceiptsSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/updateitemtype/suppressreadreceiptsspecified) { get; set; } |  |
 
 ### See Also
 

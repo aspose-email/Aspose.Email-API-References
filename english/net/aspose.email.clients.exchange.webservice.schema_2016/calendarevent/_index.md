@@ -22,10 +22,10 @@ public class CalendarEvent
 
 | Name | Description |
 | --- | --- |
-| [BusyType](busytype) { get; set; } |  |
-| [CalendarEventDetails](calendareventdetails) { get; set; } |  |
-| [EndTime](endtime) { get; set; } |  |
-| [StartTime](starttime) { get; set; } |  |
+| [BusyType](../../aspose.email.clients.exchange.webservice.schema_2016/calendarevent/busytype) { get; set; } |  |
+| [CalendarEventDetails](../../aspose.email.clients.exchange.webservice.schema_2016/calendarevent/calendareventdetails) { get; set; } |  |
+| [EndTime](../../aspose.email.clients.exchange.webservice.schema_2016/calendarevent/endtime) { get; set; } |  |
+| [StartTime](../../aspose.email.clients.exchange.webservice.schema_2016/calendarevent/starttime) { get; set; } |  |
 
 ### See Also
 

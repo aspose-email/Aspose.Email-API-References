@@ -18,15 +18,15 @@ public abstract class MboxStorageWriter : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [BaseStream](basestream) { get; } | Gets the base stream. |
+| [BaseStream](../../aspose.email.storage.mbox/mboxstoragewriter/basestream) { get; } | Gets the base stream. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| abstract [WriteMessage](writemessage)(MailMessage) | Writes the message to underlying storage stream. |
-| abstract [WriteMessage](writemessage)(MailMessage, out string) | Writes the message to underlying storage stream. |
+| [Dispose](../../aspose.email.storage.mbox/mboxstoragewriter/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| abstract [WriteMessage](../../aspose.email.storage.mbox/mboxstoragewriter/writemessage)(MailMessage) | Writes the message to underlying storage stream. |
+| abstract [WriteMessage](../../aspose.email.storage.mbox/mboxstoragewriter/writemessage)(MailMessage, out string) | Writes the message to underlying storage stream. |
 
 ### See Also
 

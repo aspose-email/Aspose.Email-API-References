@@ -22,13 +22,13 @@ public class FlagType
 
 | Name | Description |
 | --- | --- |
-| [CompleteDate](completedate) { get; set; } |  |
-| [CompleteDateSpecified](completedatespecified) { get; set; } |  |
-| [DueDate](duedate) { get; set; } |  |
-| [DueDateSpecified](duedatespecified) { get; set; } |  |
-| [FlagStatus](flagstatus) { get; set; } |  |
-| [StartDate](startdate) { get; set; } |  |
-| [StartDateSpecified](startdatespecified) { get; set; } |  |
+| [CompleteDate](../../aspose.email.clients.exchange.webservice.schema_2016/flagtype/completedate) { get; set; } |  |
+| [CompleteDateSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/flagtype/completedatespecified) { get; set; } |  |
+| [DueDate](../../aspose.email.clients.exchange.webservice.schema_2016/flagtype/duedate) { get; set; } |  |
+| [DueDateSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/flagtype/duedatespecified) { get; set; } |  |
+| [FlagStatus](../../aspose.email.clients.exchange.webservice.schema_2016/flagtype/flagstatus) { get; set; } |  |
+| [StartDate](../../aspose.email.clients.exchange.webservice.schema_2016/flagtype/startdate) { get; set; } |  |
+| [StartDateSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/flagtype/startdatespecified) { get; set; } |  |
 
 ### See Also
 

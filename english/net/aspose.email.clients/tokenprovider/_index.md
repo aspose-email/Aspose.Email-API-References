@@ -18,23 +18,23 @@ public class TokenProvider : ITokenProvider
 
 | Name | Description |
 | --- | --- |
-| virtual [ClientId](clientid) { get; } | The client ID obtained during application registration. |
-| virtual [ClientSecret](clientsecret) { get; } | The client secret obtained during application registration. |
-| virtual [ExtraParameters](extraparameters) { get; } | Gets extra parameters for request |
-| virtual [Login](login) { get; set; } | Gets or sets login for basic authorization |
-| virtual [Password](password) { get; set; } | Gets or sets password for basic authorization |
-| virtual [RefreshToken](refreshtoken) { get; } | OAuth 2.0 refresh token |
-| virtual [RequestUrl](requesturl) { get; } | The url to obtain access token. |
-| virtual [UseBasicAuthorization](usebasicauthorization) { get; set; } | Gets or sets value which indicates whether basic authorization is used |
+| virtual [ClientId](../../aspose.email.clients/tokenprovider/clientid) { get; } | The client ID obtained during application registration. |
+| virtual [ClientSecret](../../aspose.email.clients/tokenprovider/clientsecret) { get; } | The client secret obtained during application registration. |
+| virtual [ExtraParameters](../../aspose.email.clients/tokenprovider/extraparameters) { get; } | Gets extra parameters for request |
+| virtual [Login](../../aspose.email.clients/tokenprovider/login) { get; set; } | Gets or sets login for basic authorization |
+| virtual [Password](../../aspose.email.clients/tokenprovider/password) { get; set; } | Gets or sets password for basic authorization |
+| virtual [RefreshToken](../../aspose.email.clients/tokenprovider/refreshtoken) { get; } | OAuth 2.0 refresh token |
+| virtual [RequestUrl](../../aspose.email.clients/tokenprovider/requesturl) { get; } | The url to obtain access token. |
+| virtual [UseBasicAuthorization](../../aspose.email.clients/tokenprovider/usebasicauthorization) { get; set; } | Gets or sets value which indicates whether basic authorization is used |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [GetInstance](getinstance)(string, string, string, string) | Gets an instance of the OutlookTokenProvider for defined parameters. |
-| virtual [Dispose](dispose)() | Performs releasing resources. |
-| virtual [GetAccessToken](getaccesstoken)() | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
-| virtual [GetAccessToken](getaccesstoken)(bool) | Gets oAuth access token. |
+| static [GetInstance](../../aspose.email.clients/tokenprovider/getinstance)(string, string, string, string) | Gets an instance of the OutlookTokenProvider for defined parameters. |
+| virtual [Dispose](../../aspose.email.clients/tokenprovider/dispose)() | Performs releasing resources. |
+| virtual [GetAccessToken](../../aspose.email.clients/tokenprovider/getaccesstoken)() | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
+| virtual [GetAccessToken](../../aspose.email.clients/tokenprovider/getaccesstoken)(bool) | Gets oAuth access token. |
 
 ## Other Members
 

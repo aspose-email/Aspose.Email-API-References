@@ -18,22 +18,22 @@ public abstract class GmailClient : IBaseGmailClient
 
 | Name | Description |
 | --- | --- |
-| virtual [AccessToken](accesstoken) { get; set; } | Gets or sets OAuth 2.0 access token In case if refresh token is set, access token is generated automatically. |
-| virtual [DefaultEmail](defaultemail) { get; } | Gets or sets default email address |
-| virtual [Proxy](proxy) { get; set; } | Gets or sets the proxy. |
-| virtual [Timeout](timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
-| static [DefaultTimeout](defaulttimeout) { get; set; } | Gets or sets the default timeout value for ActiveSync client instances The default value is 100,000 milliseconds (100 seconds). |
+| virtual [AccessToken](../../aspose.email.clients.google/gmailclient/accesstoken) { get; set; } | Gets or sets OAuth 2.0 access token In case if refresh token is set, access token is generated automatically. |
+| virtual [DefaultEmail](../../aspose.email.clients.google/gmailclient/defaultemail) { get; } | Gets or sets default email address |
+| virtual [Proxy](../../aspose.email.clients.google/gmailclient/proxy) { get; set; } | Gets or sets the proxy. |
+| virtual [Timeout](../../aspose.email.clients.google/gmailclient/timeout) { get; set; } | Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100,000 milliseconds (100 seconds). |
+| static [DefaultTimeout](../../aspose.email.clients.google/gmailclient/defaulttimeout) { get; set; } | Gets or sets the default timeout value for ActiveSync client instances The default value is 100,000 milliseconds (100 seconds). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Dispose](dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| virtual [RefreshToken](refreshtoken)() | Refresh access token |
-| static [GetInstance](getinstance)(string, string) | Gets instance of Gmail client |
-| static [GetInstance](getinstance)(string, IWebProxy, string) | Gets instance of Gmail client |
-| static [GetInstance](getinstance)(string, string, string, string) | Gets instance of Gmail client |
-| static [GetInstance](getinstance)(string, string, string, IWebProxy, string) | Gets instance of Gmail client |
+| virtual [Dispose](../../aspose.email.clients.google/gmailclient/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| virtual [RefreshToken](../../aspose.email.clients.google/gmailclient/refreshtoken)() | Refresh access token |
+| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance)(string, string) | Gets instance of Gmail client |
+| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance)(string, IWebProxy, string) | Gets instance of Gmail client |
+| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance)(string, string, string, string) | Gets instance of Gmail client |
+| static [GetInstance](../../aspose.email.clients.google/gmailclient/getinstance)(string, string, string, IWebProxy, string) | Gets instance of Gmail client |
 
 ### See Also
 

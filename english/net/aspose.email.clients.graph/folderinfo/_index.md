@@ -24,18 +24,19 @@ public class FolderInfo : BaseRestObject
 
 | Name | Description |
 | --- | --- |
-| virtual [ContainerClass](containerclass) { get; } | Gets container class of the folder object. |
-| virtual [ContentCount](contentcount) { get; } | Gets the total number of items in the folder. |
-| virtual [ContentUnreadCount](contentunreadcount) { get; } | Gets the number of unread items in the folder. |
-| virtual [DisplayName](displayname) { get; set; } | Gets the display name of folder. |
-| virtual [HasSubFolders](hassubfolders) { get; } | Gets a value indicating whether the Folder object has any subfolders. |
-| virtual [ItemId](itemid) { get; } | Gets string representation of entry ID. |
+| virtual [ContainerClass](../../aspose.email.clients.graph/folderinfo/containerclass) { get; } | Gets container class of the folder object. |
+| virtual [ContentCount](../../aspose.email.clients.graph/folderinfo/contentcount) { get; } | Gets the total number of items in the folder. |
+| virtual [ContentUnreadCount](../../aspose.email.clients.graph/folderinfo/contentunreadcount) { get; } | Gets the number of unread items in the folder. |
+| virtual [DisplayName](../../aspose.email.clients.graph/folderinfo/displayname) { get; set; } | Gets the display name of folder. |
+| virtual [HasSubFolders](../../aspose.email.clients.graph/folderinfo/hassubfolders) { get; } | Gets a value indicating whether the Folder object has any subfolders. |
+| virtual [ItemId](../../aspose.email.clients.graph/folderinfo/itemid) { get; } | Gets string representation of entry ID. |
+| virtual [Properties](../../aspose.email.clients.graph/baserestobject/properties) { get; } | Gets the mapi properties. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a string that represents the current object. |
+| override [ToString](../../aspose.email.clients.graph/folderinfo/tostring)() | Returns a string that represents the current object. |
 
 ### See Also
 

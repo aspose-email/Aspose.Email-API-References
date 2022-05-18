@@ -24,7 +24,7 @@ public class ReminderDuration
 
 | Name | Description |
 | --- | --- |
-| [Duration](duration) { get; } | Duration of time. |
+| [Duration](../../aspose.email.calendar/reminderduration/duration) { get; } | Duration of time. |
 
 ### See Also
 

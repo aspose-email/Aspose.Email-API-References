@@ -24,10 +24,10 @@ public sealed class ExchangeCalendarEvent
 
 | Name | Description |
 | --- | --- |
-| [Busyness](busyness) { get; } | Gets the user busyness. |
-| [Duration](duration) { get; } | Gets the event duration. |
-| [Location](location) { get; } | Gets the appointment location. |
-| [Subject](subject) { get; } | Gets the calendar event subject. |
+| [Busyness](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/busyness) { get; } | Gets the user busyness. |
+| [Duration](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/duration) { get; } | Gets the event duration. |
+| [Location](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/location) { get; } | Gets the appointment location. |
+| [Subject](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/subject) { get; } | Gets the calendar event subject. |
 
 ### See Also
 

@@ -22,11 +22,11 @@ public class FindFolderType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [FolderShape](foldershape) { get; set; } |  |
-| [Item](item) { get; set; } |  |
-| [ParentFolderIds](parentfolderids) { get; set; } |  |
-| [Restriction](restriction) { get; set; } |  |
-| [Traversal](traversal) { get; set; } |  |
+| [FolderShape](../../aspose.email.clients.exchange.webservice.schema_2016/findfoldertype/foldershape) { get; set; } |  |
+| [Item](../../aspose.email.clients.exchange.webservice.schema_2016/findfoldertype/item) { get; set; } |  |
+| [ParentFolderIds](../../aspose.email.clients.exchange.webservice.schema_2016/findfoldertype/parentfolderids) { get; set; } |  |
+| [Restriction](../../aspose.email.clients.exchange.webservice.schema_2016/findfoldertype/restriction) { get; set; } |  |
+| [Traversal](../../aspose.email.clients.exchange.webservice.schema_2016/findfoldertype/traversal) { get; set; } |  |
 
 ### See Also
 

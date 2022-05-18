@@ -22,7 +22,7 @@ public class NonEmptyArrayOfAllItemsType
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/nonemptyarrayofallitemstype/items) { get; set; } |  |
 
 ### See Also
 

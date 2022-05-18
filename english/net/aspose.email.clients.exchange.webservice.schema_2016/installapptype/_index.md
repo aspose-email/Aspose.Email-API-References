@@ -22,12 +22,12 @@ public class InstallAppType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Manifest](manifest) { get; set; } |  |
-| [ManifestUrl](manifesturl) { get; set; } |  |
-| [MarketplaceAssetId](marketplaceassetid) { get; set; } |  |
-| [MarketplaceContentMarket](marketplacecontentmarket) { get; set; } |  |
-| [SendWelcomeEmail](sendwelcomeemail) { get; set; } |  |
-| [SendWelcomeEmailSpecified](sendwelcomeemailspecified) { get; set; } |  |
+| [Manifest](../../aspose.email.clients.exchange.webservice.schema_2016/installapptype/manifest) { get; set; } |  |
+| [ManifestUrl](../../aspose.email.clients.exchange.webservice.schema_2016/installapptype/manifesturl) { get; set; } |  |
+| [MarketplaceAssetId](../../aspose.email.clients.exchange.webservice.schema_2016/installapptype/marketplaceassetid) { get; set; } |  |
+| [MarketplaceContentMarket](../../aspose.email.clients.exchange.webservice.schema_2016/installapptype/marketplacecontentmarket) { get; set; } |  |
+| [SendWelcomeEmail](../../aspose.email.clients.exchange.webservice.schema_2016/installapptype/sendwelcomeemail) { get; set; } |  |
+| [SendWelcomeEmailSpecified](../../aspose.email.clients.exchange.webservice.schema_2016/installapptype/sendwelcomeemailspecified) { get; set; } |  |
 
 ### See Also
 

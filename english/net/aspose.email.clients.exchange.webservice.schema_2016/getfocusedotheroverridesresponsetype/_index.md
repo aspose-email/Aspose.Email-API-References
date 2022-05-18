@@ -22,7 +22,8 @@ public class GetFocusedOtherOverridesResponseType : BaseResponseMessageType
 
 | Name | Description |
 | --- | --- |
-| [Overrides](overrides) { get; set; } |  |
+| [Overrides](../../aspose.email.clients.exchange.webservice.schema_2016/getfocusedotheroverridesresponsetype/overrides) { get; set; } |  |
+| [ResponseMessages](../../aspose.email.clients.exchange.webservice.schema_2016/baseresponsemessagetype/responsemessages) { get; set; } |  |
 
 ### See Also
 

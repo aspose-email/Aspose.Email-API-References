@@ -24,8 +24,8 @@ public class ResolveRecipientsAvailabilityResponse
 
 | Name | Description |
 | --- | --- |
-| [MergedFreeBusy](mergedfreebusy) { get; } | Specifies the free/busy information for the users or distribution list identified in the request. Each item in the MergedFreeBusy list indicates the free/busy status for the user or distribution list for every 30 minute interval. |
-| [Status](status) { get; set; } | Indicates the result of the ActiveSync command request. |
+| [MergedFreeBusy](../../aspose.email.clients.activesync.transportlayer/resolverecipientsavailabilityresponse/mergedfreebusy) { get; } | Specifies the free/busy information for the users or distribution list identified in the request. Each item in the MergedFreeBusy list indicates the free/busy status for the user or distribution list for every 30 minute interval. |
+| [Status](../../aspose.email.clients.activesync.transportlayer/resolverecipientsavailabilityresponse/status) { get; set; } | Indicates the result of the ActiveSync command request. |
 
 ### See Also
 

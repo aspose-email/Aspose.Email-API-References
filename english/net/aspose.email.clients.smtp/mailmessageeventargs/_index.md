@@ -24,7 +24,7 @@ public class MailMessageEventArgs : EventArgs
 
 | Name | Description |
 | --- | --- |
-| [Message](message) { get; } | Gets the sending message. |
+| [Message](../../aspose.email.clients.smtp/mailmessageeventargs/message) { get; } | Gets the sending message. |
 
 ### See Also
 

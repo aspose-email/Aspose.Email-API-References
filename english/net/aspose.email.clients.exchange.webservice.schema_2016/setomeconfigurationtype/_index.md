@@ -22,7 +22,7 @@ public class SetOMEConfigurationType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [Xml](xml) { get; set; } |  |
+| [Xml](../../aspose.email.clients.exchange.webservice.schema_2016/setomeconfigurationtype/xml) { get; set; } |  |
 
 ### See Also
 

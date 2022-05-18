@@ -24,8 +24,8 @@ public class OOFRequest
 
 | Name | Description |
 | --- | --- |
-| [Get](get) { get; set; } | Gets OOF information settings from the server. |
-| [Set](set) { get; set; } | Sets OOF information settings on the server. |
+| [Get](../../aspose.email.clients.activesync.transportlayer/oofrequest/get) { get; set; } | Gets OOF information settings from the server. |
+| [Set](../../aspose.email.clients.activesync.transportlayer/oofrequest/set) { get; set; } | Sets OOF information settings on the server. |
 
 ### See Also
 

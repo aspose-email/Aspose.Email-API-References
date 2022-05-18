@@ -24,10 +24,10 @@ public class AppointmentLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [ApplyLocalTZ](applylocaltz) { get; set; } | Convert time to local timezone |
-| [DetectEncoding](detectencoding) { get; set; } | Determines a data encoding by analyzing its byte order mark (BOM) |
-| [EventIndex](eventindex) { get; set; } | Determines VEVENT index in case multiple events in a single ics file. The starting VEVENT in case reading multiple events by CalendarReader[`CalendarReader`](../calendarreader). |
-| [IgnoreSmtpAddressCheck](ignoresmtpaddresscheck) { get; set; } | Defines whether the SMTP address validation is skipped. |
+| [ApplyLocalTZ](../../aspose.email.calendar/appointmentloadoptions/applylocaltz) { get; set; } | Convert time to local timezone |
+| [DetectEncoding](../../aspose.email.calendar/appointmentloadoptions/detectencoding) { get; set; } | Determines a data encoding by analyzing its byte order mark (BOM) |
+| [EventIndex](../../aspose.email.calendar/appointmentloadoptions/eventindex) { get; set; } | Determines VEVENT index in case multiple events in a single ics file. The starting VEVENT in case reading multiple events by CalendarReader[`CalendarReader`](../calendarreader). |
+| [IgnoreSmtpAddressCheck](../../aspose.email.calendar/appointmentloadoptions/ignoresmtpaddresscheck) { get; set; } | Defines whether the SMTP address validation is skipped. |
 
 ### See Also
 

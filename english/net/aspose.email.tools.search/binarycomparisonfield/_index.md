@@ -18,10 +18,11 @@ public sealed class BinaryComparisonField : ComparisonField
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(byte[]) | Indicates that field must be equal to the specified value. |
-| [Equals](equals)(string) | Indicates that field must be equal to the specified value. |
-| [NotEquals](notequals)(byte[]) | Indicates that field must not be equal to the specified value. |
-| [NotEquals](notequals)(string) | Indicates that field must not be equal to the specified value. |
+| [Equals](../../aspose.email.tools.search/binarycomparisonfield/equals)(byte[]) | Indicates that field must be equal to the specified value. |
+| [Equals](../../aspose.email.tools.search/binarycomparisonfield/equals)(string) | Indicates that field must be equal to the specified value. |
+| [NotEquals](../../aspose.email.tools.search/binarycomparisonfield/notequals)(byte[]) | Indicates that field must not be equal to the specified value. |
+| [NotEquals](../../aspose.email.tools.search/binarycomparisonfield/notequals)(string) | Indicates that field must not be equal to the specified value. |
+| [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | Sets value which indicates if client uses ascending or descending sorting on the Field. |
 
 ### See Also
 

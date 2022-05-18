@@ -22,7 +22,7 @@ public class PathToExceptionFieldType : BasePathToElementType
 
 | Name | Description |
 | --- | --- |
-| [FieldURI](fielduri) { get; set; } |  |
+| [FieldURI](../../aspose.email.clients.exchange.webservice.schema_2016/pathtoexceptionfieldtype/fielduri) { get; set; } |  |
 
 ### See Also
 

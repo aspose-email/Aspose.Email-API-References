@@ -22,7 +22,7 @@ public class RefreshSharingFolderType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [SharingFolderId](sharingfolderid) { get; set; } |  |
+| [SharingFolderId](../../aspose.email.clients.exchange.webservice.schema_2016/refreshsharingfoldertype/sharingfolderid) { get; set; } |  |
 
 ### See Also
 

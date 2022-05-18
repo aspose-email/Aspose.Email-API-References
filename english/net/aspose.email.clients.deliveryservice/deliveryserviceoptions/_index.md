@@ -18,7 +18,7 @@ public abstract class DeliveryServiceOptions
 
 | Name | Description |
 | --- | --- |
-| [ApiKey](apikey) { get; set; } | Private API key |
+| [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | Private API key |
 
 ### See Also
 

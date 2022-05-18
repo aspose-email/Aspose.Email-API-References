@@ -25,9 +25,9 @@ public class ReminderTrigger
 
 | Name | Description |
 | --- | --- |
-| [DateTime](datetime) { get; set; } | A trigger set to an absolute date/time. |
-| [Duration](duration) { get; set; } | Specifies a relative time for the trigger of the alarm. |
-| [Related](related) { get; set; } | Specify the relationship of the alarm trigger with respect to the start or end of the event. |
+| [DateTime](../../aspose.email.calendar/remindertrigger/datetime) { get; set; } | A trigger set to an absolute date/time. |
+| [Duration](../../aspose.email.calendar/remindertrigger/duration) { get; set; } | Specifies a relative time for the trigger of the alarm. |
+| [Related](../../aspose.email.calendar/remindertrigger/related) { get; set; } | Specify the relationship of the alarm trigger with respect to the start or end of the event. |
 
 ### See Also
 

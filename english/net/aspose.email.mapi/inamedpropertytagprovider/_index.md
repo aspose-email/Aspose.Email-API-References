@@ -18,11 +18,11 @@ public interface INamedPropertyTagProvider
 
 | Name | Description |
 | --- | --- |
-| [GenerateNamedPropertyTag](generatenamedpropertytag)(long) | Generates named property tag |
-| [GenerateNamedPropertyTag](generatenamedpropertytag)(MapiPropertyType) | Generates named property tag |
-| [GenerateNamedPropertyTag](generatenamedpropertytag)(PropertyDataType) | Generates named property tag |
-| [GetTagFromNamedProperty](gettagfromnamedproperty)(long) | Gets the tag from named property. |
-| [GetTagFromNamedProperty](gettagfromnamedproperty)(string) | Gets the tag from named property. |
+| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag)(long) | Generates named property tag |
+| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag)(MapiPropertyType) | Generates named property tag |
+| [GenerateNamedPropertyTag](../../aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag)(PropertyDataType) | Generates named property tag |
+| [GetTagFromNamedProperty](../../aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty)(long) | Gets the tag from named property. |
+| [GetTagFromNamedProperty](../../aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty)(string) | Gets the tag from named property. |
 
 ### See Also
 

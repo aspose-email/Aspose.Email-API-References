@@ -16,7 +16,7 @@ public class CopyItemCompletedEventArgs : AsyncCompletedEventArgs
 
 | Name | Description |
 | --- | --- |
-| [Result](result) { get; } |  |
+| [Result](../../aspose.email.clients.exchange.webservice.schema_2016/copyitemcompletedeventargs/result) { get; } |  |
 
 ### See Also
 

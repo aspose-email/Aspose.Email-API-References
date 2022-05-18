@@ -22,8 +22,11 @@ public class RecurringDayTransitionType : RecurringTimeTransitionType
 
 | Name | Description |
 | --- | --- |
-| [DayOfWeek](dayofweek) { get; set; } |  |
-| [Occurrence](occurrence) { get; set; } |  |
+| [DayOfWeek](../../aspose.email.clients.exchange.webservice.schema_2016/recurringdaytransitiontype/dayofweek) { get; set; } |  |
+| [Month](../../aspose.email.clients.exchange.webservice.schema_2016/recurringtimetransitiontype/month) { get; set; } |  |
+| [Occurrence](../../aspose.email.clients.exchange.webservice.schema_2016/recurringdaytransitiontype/occurrence) { get; set; } |  |
+| [TimeOffset](../../aspose.email.clients.exchange.webservice.schema_2016/recurringtimetransitiontype/timeoffset) { get; set; } |  |
+| [To](../../aspose.email.clients.exchange.webservice.schema_2016/transitiontype/to) { get; set; } |  |
 
 ### See Also
 

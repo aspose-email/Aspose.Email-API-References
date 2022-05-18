@@ -22,10 +22,10 @@ public class UpdateMeetingInstanceRequestType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [ContentActivitiesToAdd](contentactivitiestoadd) { get; set; } |  |
-| [ItemId](itemid) { get; set; } |  |
-| [MeetingInstance](meetinginstance) { get; set; } |  |
-| [ParticipantActivitiesToAdd](participantactivitiestoadd) { get; set; } |  |
+| [ContentActivitiesToAdd](../../aspose.email.clients.exchange.webservice.schema_2016/updatemeetinginstancerequesttype/contentactivitiestoadd) { get; set; } |  |
+| [ItemId](../../aspose.email.clients.exchange.webservice.schema_2016/updatemeetinginstancerequesttype/itemid) { get; set; } |  |
+| [MeetingInstance](../../aspose.email.clients.exchange.webservice.schema_2016/updatemeetinginstancerequesttype/meetinginstance) { get; set; } |  |
+| [ParticipantActivitiesToAdd](../../aspose.email.clients.exchange.webservice.schema_2016/updatemeetinginstancerequesttype/participantactivitiestoadd) { get; set; } |  |
 
 ### See Also
 

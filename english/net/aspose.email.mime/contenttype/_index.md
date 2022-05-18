@@ -25,19 +25,19 @@ public class ContentType
 
 | Name | Description |
 | --- | --- |
-| [Boundary](boundary) { get; set; } | Gets or sets the value of the boundary parameter included in the Content-Type header. |
-| [CharSet](charset) { get; set; } | Gets or sets the value of the charset parameter. |
-| [MediaType](mediatype) { get; set; } | Gets or sets the internet media type. |
-| [Name](name) { get; set; } | Gets or sets the value of the name parameter. |
-| [Parameters](parameters) { get; } | Gets the dictionary that contains the parameters. |
+| [Boundary](../../aspose.email.mime/contenttype/boundary) { get; set; } | Gets or sets the value of the boundary parameter included in the Content-Type header. |
+| [CharSet](../../aspose.email.mime/contenttype/charset) { get; set; } | Gets or sets the value of the charset parameter. |
+| [MediaType](../../aspose.email.mime/contenttype/mediatype) { get; set; } | Gets or sets the internet media type. |
+| [Name](../../aspose.email.mime/contenttype/name) { get; set; } | Gets or sets the value of the name parameter. |
+| [Parameters](../../aspose.email.mime/contenttype/parameters) { get; } | Gets the dictionary that contains the parameters. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to this instance. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [Equals](../../aspose.email.mime/contenttype/equals)(object) | Determines whether the specified Object is equal to this instance. |
+| override [GetHashCode](../../aspose.email.mime/contenttype/gethashcode)() | Returns a hash code for this instance. |
+| override [ToString](../../aspose.email.mime/contenttype/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

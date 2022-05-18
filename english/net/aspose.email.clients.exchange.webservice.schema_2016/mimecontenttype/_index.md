@@ -22,8 +22,8 @@ public class MimeContentType
 
 | Name | Description |
 | --- | --- |
-| [CharacterSet](characterset) { get; set; } |  |
-| [Value](value) { get; set; } |  |
+| [CharacterSet](../../aspose.email.clients.exchange.webservice.schema_2016/mimecontenttype/characterset) { get; set; } |  |
+| [Value](../../aspose.email.clients.exchange.webservice.schema_2016/mimecontenttype/value) { get; set; } |  |
 
 ### See Also
 

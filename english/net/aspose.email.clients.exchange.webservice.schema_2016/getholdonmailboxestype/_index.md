@@ -22,7 +22,7 @@ public class GetHoldOnMailboxesType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [HoldId](holdid) { get; set; } |  |
+| [HoldId](../../aspose.email.clients.exchange.webservice.schema_2016/getholdonmailboxestype/holdid) { get; set; } |  |
 
 ### See Also
 

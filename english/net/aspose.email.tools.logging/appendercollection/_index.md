@@ -24,8 +24,8 @@ public class AppenderCollection : Collection<IAppender>
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(IAppender) | Adds an IAppender object to the end of collection. |
-| [AddRange](addrange)(IEnumerable&lt;IAppender&gt;) | Adds an IAppenders enumeration to the end of collection. |
+| [Add](../../aspose.email.tools.logging/appendercollection/add)(IAppender) | Adds an IAppender object to the end of collection. |
+| [AddRange](../../aspose.email.tools.logging/appendercollection/addrange)(IEnumerable&lt;IAppender&gt;) | Adds an IAppenders enumeration to the end of collection. |
 
 ### See Also
 

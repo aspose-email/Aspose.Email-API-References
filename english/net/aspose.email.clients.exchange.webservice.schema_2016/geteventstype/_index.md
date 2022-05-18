@@ -22,8 +22,8 @@ public class GetEventsType : BaseRequestType
 
 | Name | Description |
 | --- | --- |
-| [SubscriptionId](subscriptionid) { get; set; } |  |
-| [Watermark](watermark) { get; set; } |  |
+| [SubscriptionId](../../aspose.email.clients.exchange.webservice.schema_2016/geteventstype/subscriptionid) { get; set; } |  |
+| [Watermark](../../aspose.email.clients.exchange.webservice.schema_2016/geteventstype/watermark) { get; set; } |  |
 
 ### See Also
 

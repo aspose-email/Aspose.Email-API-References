@@ -22,8 +22,8 @@ public class ArrayOfResponseMessagesType
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; set; } |  |
-| [ItemsElementName](itemselementname) { get; set; } |  |
+| [Items](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresponsemessagestype/items) { get; set; } |  |
+| [ItemsElementName](../../aspose.email.clients.exchange.webservice.schema_2016/arrayofresponsemessagestype/itemselementname) { get; set; } |  |
 
 ### See Also
 

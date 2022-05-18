@@ -22,9 +22,9 @@ public class KeywordStatisticsSearchResultType
 
 | Name | Description |
 | --- | --- |
-| [ItemHits](itemhits) { get; set; } |  |
-| [Keyword](keyword) { get; set; } |  |
-| [Size](size) { get; set; } |  |
+| [ItemHits](../../aspose.email.clients.exchange.webservice.schema_2016/keywordstatisticssearchresulttype/itemhits) { get; set; } |  |
+| [Keyword](../../aspose.email.clients.exchange.webservice.schema_2016/keywordstatisticssearchresulttype/keyword) { get; set; } |  |
+| [Size](../../aspose.email.clients.exchange.webservice.schema_2016/keywordstatisticssearchresulttype/size) { get; set; } |  |
 
 ### See Also
 
