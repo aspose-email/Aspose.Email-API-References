@@ -12,7 +12,7 @@ The **Aspose.Email.Calendar.Recurrences** namespace contains classes for work wi
 
 | Class | Description |
 | --- | --- |
-| [ByDay](./byday) | Represents Nth occurrence (../or all occurrences) of the specified day of the week. |
+| [ByDay](./byday) | Represents Nth occurrence (or all occurrences) of the specified day of the week. |
 | [ByDayCollection](./bydaycollection) | Represents a collection of [`ByDay`](../aspose.email.calendar.recurrences/byday) objects. |
 | [ByNumberCollection](./bynumbercollection) | Represents a set of months, weeks, days, hours, minutes or seconds in a recurrence rule. |
 | [CalendarRecurrence](./calendarrecurrence) | The main class, represents an iCalendar recurrence. |

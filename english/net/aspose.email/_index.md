@@ -67,7 +67,7 @@ The **Aspose.Email** namespace contains common classes of Aspose.Email.
 | [MhtSaveOptions](./mhtsaveoptions) | Allows to specify additional options when saving MailMessage to Mhtml format. |
 | [MhtTemplateName](./mhttemplatename) | Defines well known names of headers for Mhtml formatting. |
 | [MsgLoadOptions](./msgloadoptions) | Allows to specify additional options when loading MailMessage from Msg format. |
-| [MsgSaveOptions](./msgsaveoptions) | This class allows the user to specify additional settings when saving a MailMessage in the Msg(../ASCII) and Msg(../Unicode) format. |
+| [MsgSaveOptions](./msgsaveoptions) | This class allows the user to specify additional settings when saving a MailMessage in the Msg(ASCII) and Msg(Unicode) format. |
 | [ObjectIdentifier](./objectidentifier) | Contains object identification information |
 | [Pop3Exception](./pop3exception) | Represents the exception that is thrown when the Pop3Client is not able to complete an operation. |
 | [ProgressEventHandlerInfo](./progresseventhandlerinfo) | This class represents information about conversion progress that can be used in external applicatuion to show conversion progress to end user. |

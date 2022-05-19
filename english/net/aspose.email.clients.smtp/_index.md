@@ -15,7 +15,7 @@ The **Aspose.Email.Clients.Smtp** namespace provides classes for sending message
 | [FailedMailMessageEventArgs](./failedmailmessageeventargs) | Provides data for the MessageSending and MessageSent events. |
 | [MailMessageEventArgs](./mailmessageeventargs) | Provides data for the MessageSending and MessageSent events. |
 | [SendMessagesResult](./sendmessagesresult) | Contains result of operation with messages |
-| [SmtpClient](./smtpclient) | Allows applications to send messages by using the Simple Mail Transfer Protocol (../SMTP). |
+| [SmtpClient](./smtpclient) | Allows applications to send messages by using the Simple Mail Transfer Protocol (SMTP). |
 | [SmtpFailedRecipientException](./smtpfailedrecipientexception) | Represents the exception which arises when the specified recipient is wrong |
 | [SmtpFailedRecipientsException](./smtpfailedrecipientsexception) | Summary description for SmtpFailedRecipientsException. |
 ## Interfaces

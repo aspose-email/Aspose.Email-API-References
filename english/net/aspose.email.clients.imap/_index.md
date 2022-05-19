@@ -19,7 +19,7 @@ The **Aspose.Email.Clients.Imap** namespace provides classes to access and manip
 | [FetchTimeoutException](./fetchtimeoutexception) | Represents the exception that is thrown when a message can not be read within the specified time. |
 | [ImapAttachmentInfo](./imapattachmentinfo) | Represents an attachment information. |
 | [ImapAttachmentInfoCollection](./imapattachmentinfocollection) | Represents the collection of [`ImapAttachmentInfo`](../aspose.email.clients.imap/imapattachmentinfo) |
-| [ImapClient](./imapclient) | Allows applications to access and manipulate messages by using the Internet Message Access Protocol (../IMAP). |
+| [ImapClient](./imapclient) | Allows applications to access and manipulate messages by using the Internet Message Access Protocol (IMAP). |
 | [ImapFolderInfo](./imapfolderinfo) | Represents an IMAP folder. |
 | [ImapFolderInfoCollection](./imapfolderinfocollection) | Provides a container for a collection of ImapFolderInfo objects. |
 | [ImapIdentificationInfo](./imapidentificationinfo) | Represents class-container with identification information to exchange between mail client and server. Please, read more rfc2971 https://tools.ietf.org/html/rfc2971 |

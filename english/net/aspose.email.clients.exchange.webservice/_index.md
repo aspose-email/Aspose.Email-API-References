@@ -16,7 +16,7 @@ The **Aspose.Email.Clients.Exchange.WebService** namespace provides access to MS
 | [CallInformation](./callinformation) | Phone call information |
 | [DateRange](./daterange) | Represents the date range |
 | [DeletionOptions](./deletionoptions) | Defines parameters for item deletion |
-| [EWSClient](./ewsclient) | Provides access to MS Exchange Server by using Exchange Web Services (../EWS). |
+| [EWSClient](./ewsclient) | Provides access to MS Exchange Server by using Exchange Web Services (EWS). |
 | [ExchangeCalendarEvent](./exchangecalendarevent) | Represents the event in the user's calendar |
 | [ExchangeCalendarEventCollection](./exchangecalendareventcollection) | Represents the collection of [`ExchangeCalendarEvent`](../aspose.email.clients.exchange.webservice/exchangecalendarevent) |
 | [ExchangeConversation](./exchangeconversation) | Represents a single conversation. |
