@@ -14,7 +14,7 @@ Gets or sets the GUID for the named property.
 public Guid Guid { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GUID.
 

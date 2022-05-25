@@ -14,7 +14,7 @@ Gets messages with an specified size.
 public IntComparisonField MessageSize { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`IntComparisonField`](../../../aspose.email.tools.search/intcomparisonfield) that represents a message size.
 

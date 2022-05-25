@@ -14,7 +14,7 @@ Gets or sets the printer options.
 public MessageFormattingFlags FormattingFlags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The printer options.
 

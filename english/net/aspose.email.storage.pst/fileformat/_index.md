@@ -14,7 +14,7 @@ Specifies the file format used to store messages, calendar events, and other ite
 public enum FileFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

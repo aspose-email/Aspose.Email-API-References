@@ -14,7 +14,7 @@ Versions of the SOCKS protocol
 public enum SocksVersion : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

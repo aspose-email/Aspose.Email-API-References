@@ -14,7 +14,7 @@ Gets the query.
 public MailQuery GetQuery()
 ```
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query.
 

@@ -14,7 +14,7 @@ Audit record types
 public enum RecordType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

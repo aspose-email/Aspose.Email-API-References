@@ -19,7 +19,7 @@ public static bool operator ==(InstantMessengerAddress a, InstantMessengerAddres
 | a | InstantMessengerAddress | First object to compare |
 | b | InstantMessengerAddress | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise false.
 

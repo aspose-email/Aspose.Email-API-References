@@ -14,7 +14,7 @@ This method is reserved and should not be used. When implementing the IXmlSerial
 public XmlSchema GetSchema()
 ```
 
-## Return Value
+### Return Value
 
 An XmlSchema that describes the XML representation of the object that is produced by the XmlWriter) method and consumed by the XmlReader) method.
 

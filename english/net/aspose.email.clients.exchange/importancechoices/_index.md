@@ -14,7 +14,7 @@ Enumerates the levels of importance for an item
 public enum ImportanceChoices
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

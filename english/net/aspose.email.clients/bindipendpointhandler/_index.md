@@ -18,7 +18,7 @@ public delegate IPEndPoint BindIPEndPointHandler(IPEndPoint remoteEndPoint);
 | --- | --- | --- |
 | remoteEndPoint | IPEndPoint | Remote endpoint |
 
-## Return Value
+### Return Value
 
 IPEndPoint that represents the local endpoint.
 

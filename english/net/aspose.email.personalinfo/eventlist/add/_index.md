@@ -18,7 +18,7 @@ public void Add(CustomerEvent value)
 | --- | --- | --- |
 | value | CustomerEvent | The object to add to the list. |
 
-## Return Value
+### Return Value
 
 The position into which the new element was inserted.
 

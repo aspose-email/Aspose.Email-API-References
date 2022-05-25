@@ -22,7 +22,7 @@ public Task<MailMessageCollection> FetchMessagesAsync(IEnumerable<string> uris,
 | extendedProperties | IEnumerable`1 | An enumeration of extended properties |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) containing fetched messages
 

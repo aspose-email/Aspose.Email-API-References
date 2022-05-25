@@ -14,7 +14,7 @@ Gets the organization email address.
 public string OrganizationEmailAddress { get; }
 ```
 
-## Property Value
+### Property Value
 
 The organization email address.
 

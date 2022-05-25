@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/physicaladdressin
 public enum PhysicalAddressIndexType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

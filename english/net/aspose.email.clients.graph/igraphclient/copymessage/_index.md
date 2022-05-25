@@ -19,7 +19,7 @@ public MapiMessage CopyMessage(string newParentId, string itemId)
 | newParentId | String | New parent folder id |
 | itemId | String | Item id to be copied |
 
-## Return Value
+### Return Value
 
 Copied message
 

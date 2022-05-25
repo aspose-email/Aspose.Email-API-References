@@ -18,7 +18,7 @@ public DateRange GetWorkingHours(DateTime date)
 | --- | --- | --- |
 | date | DateTime | The date to get information for. |
 
-## Return Value
+### Return Value
 
 A start and end time of the working day for the specified date.
 

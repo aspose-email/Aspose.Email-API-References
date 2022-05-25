@@ -14,7 +14,7 @@ Gets the sending message.
 public MailMessage Message { get; }
 ```
 
-## Property Value
+### Property Value
 
 The MailMessage.
 

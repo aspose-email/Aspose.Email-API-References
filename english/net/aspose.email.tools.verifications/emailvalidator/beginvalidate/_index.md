@@ -23,7 +23,7 @@ public IAsyncResult BeginValidate(string mailAddress, ValidationPolicy policy,
 | asyncCallback | AsyncCallback | The AsyncCallback delegate |
 | stateObject | Object | An object that contains state information for this request. |
 
-## Return Value
+### Return Value
 
 An IAsyncResult that references the asynchronous connection.
 

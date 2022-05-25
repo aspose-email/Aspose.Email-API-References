@@ -18,7 +18,7 @@ public MapiAttachmentCollection ExtractAttachments(MessageInfo messageInfo)
 | --- | --- | --- |
 | messageInfo | MessageInfo | The message information. |
 
-## Return Value
+### Return Value
 
 The [`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection) that represents the collection of attachments.
 
@@ -44,7 +44,7 @@ public MapiAttachmentCollection ExtractAttachments(string entryId)
 | --- | --- | --- |
 | entryId | String | The message entryId. |
 
-## Return Value
+### Return Value
 
 The [`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection) that represents the collection of attachments.
 

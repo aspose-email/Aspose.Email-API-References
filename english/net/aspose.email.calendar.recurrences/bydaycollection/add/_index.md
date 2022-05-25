@@ -18,7 +18,7 @@ public int Add(ByDay byDay)
 | --- | --- | --- |
 | byDay | ByDay | The item to add to the collection. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 
@@ -43,7 +43,7 @@ public int Add(DayOfWeek dayOfWeek)
 | --- | --- | --- |
 | dayOfWeek | DayOfWeek | A day of the week. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 
@@ -68,7 +68,7 @@ public int Add(int nthOccurrence, DayOfWeek dayOfWeek)
 | nthOccurrence | Int32 | The nth occurrence of the day of the week. |
 | dayOfWeek | DayOfWeek | A day of the week. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 

@@ -14,7 +14,7 @@ Gets the code page.
 public virtual int CodePage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The code page.
 

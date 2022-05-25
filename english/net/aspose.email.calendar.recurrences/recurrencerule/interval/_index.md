@@ -14,7 +14,7 @@ Gets or sets the interval.
 public int Interval { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The interval.
 

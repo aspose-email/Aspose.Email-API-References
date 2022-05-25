@@ -14,7 +14,7 @@ Gets the type of the recipient or sender.
 public MapiRecipientType RecipientType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recipient type.
 

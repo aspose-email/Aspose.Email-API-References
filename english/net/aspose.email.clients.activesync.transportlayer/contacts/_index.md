@@ -14,7 +14,7 @@ Contacts namespace of the ActiveSync protocol
 public enum Contacts
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

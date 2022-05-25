@@ -20,7 +20,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -55,7 +55,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -79,7 +79,7 @@ Lists the messages. Gets an information for earch message
 public Task<Pop3MessageInfoCollection> ListMessagesAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -108,7 +108,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -137,7 +137,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -163,7 +163,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields)
 | --- | --- | --- |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -196,7 +196,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -225,7 +225,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -258,7 +258,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -291,7 +291,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -321,7 +321,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | fields | Pop3ListFields | The fields that we want get |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -357,7 +357,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -385,7 +385,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -416,7 +416,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction,
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -446,7 +446,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query, Cancel
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -474,7 +474,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | fields | Pop3ListFields | The fields that we want get |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -508,7 +508,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -535,7 +535,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -567,7 +567,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -598,7 +598,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 

@@ -14,7 +14,7 @@ Gets or sets the description of activity that is being recorded.
 public string Description { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents activity.
 

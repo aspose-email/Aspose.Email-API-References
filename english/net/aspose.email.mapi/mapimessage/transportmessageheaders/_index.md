@@ -14,7 +14,7 @@ Gets the transport-specific message envelope information.
 public string TransportMessageHeaders { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents transport message headers.
 

@@ -18,7 +18,7 @@ public SyncFolderResult SyncFolder(string folderUri)
 | --- | --- | --- |
 | folderUri | String | The folder uri |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 
@@ -44,7 +44,7 @@ public SyncFolderResult SyncFolder(string folderUri, SyncFolderType syncType)
 | folderUri | String | The folder uri |
 | syncType | SyncFolderType | Folder synchronization type |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 
@@ -70,7 +70,7 @@ public SyncFolderResult SyncFolder(SyncState syncState)
 | --- | --- | --- |
 | syncState | SyncState | The synchronization state. |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 
@@ -97,7 +97,7 @@ public SyncFolderResult SyncFolder(string folderUri, string syncState)
 | folderUri | String | The folder uri |
 | syncState | String | The optional synchronization state. Must be null for first synchronization. |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 
@@ -125,7 +125,7 @@ public SyncFolderResult SyncFolder(string folderUri, string syncState,
 | syncState | String | The optional synchronization state. Must be null for first synchronization. |
 | ignoreList | IEnumerable`1 | The optional list of item uris that should be ignored. |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 

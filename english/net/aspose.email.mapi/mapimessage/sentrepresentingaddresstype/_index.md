@@ -14,7 +14,7 @@ Gets the address type for the messaging user represented by the sender.
 public string SentRepresentingAddressType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents sent representing address type.
 

@@ -18,7 +18,7 @@ public FolderInfo CreateFolder(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder name |
 
-## Return Value
+### Return Value
 
 Returns created folder
 
@@ -44,7 +44,7 @@ public FolderInfo CreateFolder(string parentFolderId, string folderName)
 | parentFolderId | String | Parent folder id |
 | folderName | String | Folder name |
 
-## Return Value
+### Return Value
 
 Returns folder for specified id
 

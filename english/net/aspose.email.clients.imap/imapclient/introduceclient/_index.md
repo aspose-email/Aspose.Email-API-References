@@ -14,7 +14,7 @@ Introduces client information to a server.
 public ImapIdentificationInfo IntroduceClient()
 ```
 
-## Return Value
+### Return Value
 
 Returns server identification information
 
@@ -39,7 +39,7 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Returns server identification information
 
@@ -65,7 +65,7 @@ public ImapIdentificationInfo IntroduceClient(ImapIdentificationInfo clientIdent
 | --- | --- | --- |
 | clientIdentificationInfo | ImapIdentificationInfo | Client identification information |
 
-## Return Value
+### Return Value
 
 Returns server identification information
 
@@ -92,7 +92,7 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection,
 | connection | IConnection | Connection to a server |
 | clientIdentificationInfo | ImapIdentificationInfo | Client identification information |
 
-## Return Value
+### Return Value
 
 Returns server identification information
 

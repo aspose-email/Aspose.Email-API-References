@@ -14,7 +14,7 @@ Gets or sets the read receipt address.
 public MailAddressCollection ReadReceiptTo { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`MailAddressCollection`](../../mailaddresscollection) that represents
 

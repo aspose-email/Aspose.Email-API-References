@@ -14,7 +14,7 @@ Gets or sets the left margin.
 public double MarginLeft { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The left margin.
 

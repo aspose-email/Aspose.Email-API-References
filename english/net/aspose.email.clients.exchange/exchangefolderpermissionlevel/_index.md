@@ -14,7 +14,7 @@ Specifies the permission level that a user has on a folder.
 public enum ExchangeFolderPermissionLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

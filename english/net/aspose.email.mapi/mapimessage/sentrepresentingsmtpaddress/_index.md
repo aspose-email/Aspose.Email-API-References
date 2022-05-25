@@ -14,7 +14,7 @@ Gets or sets the e-mail address for the messaging user represented by the sender
 public string SentRepresentingSmtpAddress { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents sent representing email address.
 

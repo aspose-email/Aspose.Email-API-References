@@ -14,7 +14,7 @@ Gets the R rules.
 public RecurrenceRuleCollection RRules { get; }
 ```
 
-## Property Value
+### Property Value
 
 The R rules.
 

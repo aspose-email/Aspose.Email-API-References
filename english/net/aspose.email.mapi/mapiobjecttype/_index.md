@@ -14,7 +14,7 @@ Represents the mapi object type.
 public enum MapiObjectType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

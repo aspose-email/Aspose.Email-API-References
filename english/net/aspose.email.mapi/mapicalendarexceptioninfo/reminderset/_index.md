@@ -14,7 +14,7 @@ Gets or sets a value for the PidLidReminderSet property.
 public bool ReminderSet { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [reminder set]; otherwise, `false`.
 

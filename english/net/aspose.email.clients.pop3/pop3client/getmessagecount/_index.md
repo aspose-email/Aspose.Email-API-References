@@ -19,7 +19,7 @@ public int GetMessageCount(IConnection connection, bool closeTransaction)
 | connection | IConnection | Connection to a server |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 message count
 
@@ -40,7 +40,7 @@ Gets the message count
 public int GetMessageCount()
 ```
 
-## Return Value
+### Return Value
 
 message count
 
@@ -64,7 +64,7 @@ public int GetMessageCount(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 message count
 
@@ -88,7 +88,7 @@ public int GetMessageCount(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 message count
 

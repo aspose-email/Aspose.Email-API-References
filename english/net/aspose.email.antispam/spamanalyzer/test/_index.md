@@ -18,7 +18,7 @@ public double Test(MailMessage message)
 | --- | --- | --- |
 | message | MailMessage | MailMessage for test the probability of the message being spam. |
 
-## Return Value
+### Return Value
 
 A double value in 0-1 range, where 0 corresponds to "definitely non-spam" (0% spam probability) and 1 corresponds to "definitely spam" (100% spam probability).
 

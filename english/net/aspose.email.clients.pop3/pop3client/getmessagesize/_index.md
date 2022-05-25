@@ -19,7 +19,7 @@ public long GetMessageSize(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 size of the message in bytes
 
@@ -44,7 +44,7 @@ public long GetMessageSize(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 size of the message in bytes
 
@@ -69,7 +69,7 @@ public long GetMessageSize(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 size of the message in bytes
 
@@ -94,7 +94,7 @@ public long GetMessageSize(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 size of the message in bytes
 

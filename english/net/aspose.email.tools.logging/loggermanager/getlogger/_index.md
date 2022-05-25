@@ -18,7 +18,7 @@ public static Logger GetLogger(string name)
 | --- | --- | --- |
 | name | String | The logger name. |
 
-## Return Value
+### Return Value
 
 The logger.
 

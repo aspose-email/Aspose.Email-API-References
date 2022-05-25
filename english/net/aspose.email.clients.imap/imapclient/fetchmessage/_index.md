@@ -19,7 +19,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -47,7 +47,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber, bool
 | sequenceNumber | Int32 | The sequence number of message |
 | ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -73,7 +73,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -99,7 +99,7 @@ public MailMessage FetchMessage(int sequenceNumber, bool ignoreAttachment)
 | sequenceNumber | Int32 | The sequence number of message |
 | ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -125,7 +125,7 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -151,7 +151,7 @@ public MailMessage FetchMessage(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 

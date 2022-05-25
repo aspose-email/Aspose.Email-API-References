@@ -14,7 +14,7 @@ Fetches all contact groups.
 public ContactGroupCollection GetAllGroups()
 ```
 
-## Return Value
+### Return Value
 
 Contact groups collection
 

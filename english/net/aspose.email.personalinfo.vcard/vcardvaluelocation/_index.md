@@ -14,7 +14,7 @@ Enumerates the vCard property parameter ValueLocation.
 public enum VCardValueLocation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

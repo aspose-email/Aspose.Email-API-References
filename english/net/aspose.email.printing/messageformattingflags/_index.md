@@ -15,7 +15,7 @@ Represents possible options that can be set during the message formatting proces
 public enum MessageFormattingFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

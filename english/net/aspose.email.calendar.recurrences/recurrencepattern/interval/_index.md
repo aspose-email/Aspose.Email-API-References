@@ -14,7 +14,7 @@ Gets or sets the number of recurrence units.
 public int Interval { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of recurrence units.
 

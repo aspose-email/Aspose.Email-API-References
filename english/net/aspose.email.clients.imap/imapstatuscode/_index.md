@@ -15,7 +15,7 @@ Represents the status responses.
 public enum ImapStatusCode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

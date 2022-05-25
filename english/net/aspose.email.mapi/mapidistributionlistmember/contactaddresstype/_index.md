@@ -14,7 +14,7 @@ Gets or sets the type of the address, when EntryId property contains a the Entry
 public MapiDistributionListContactAddressType ContactAddressType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the address.
 

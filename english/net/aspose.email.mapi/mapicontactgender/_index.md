@@ -14,7 +14,7 @@ Gender of the contact
 public enum MapiContactGender
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

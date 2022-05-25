@@ -14,7 +14,7 @@ Gets items with an specified content class.
 public StringComparisonField ContentClass { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield) that represents a content class.
 

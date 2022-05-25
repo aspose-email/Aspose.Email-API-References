@@ -14,7 +14,7 @@ Enumerates the types of regenerating pattern.
 public enum TaskRegeneratingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets a value indicating whether the current folder has messages.
 public bool HasMessages { get; }
 ```
 
-## Return Value
+### Return Value
 
 true if the current folder has messages; otherwise, false.
 

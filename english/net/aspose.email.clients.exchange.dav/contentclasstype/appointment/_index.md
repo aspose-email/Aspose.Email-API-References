@@ -14,7 +14,7 @@ Gets the urn:content-classes:appointment content class that defines properties f
 public static ContentClassType Appointment { get; }
 ```
 
-## Property Value
+### Property Value
 
 The appointment content class.
 

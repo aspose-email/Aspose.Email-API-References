@@ -14,7 +14,7 @@ Gets or sets the directory where applications save mail messages to be processed
 public string PickupDirectoryLocation { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A String that represents the pickup directory
 

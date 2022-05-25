@@ -49,7 +49,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name,
 | name | String | The name of new folder |
 | permissions | ExchangeFolderPermissionCollection | A permission on new folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -79,7 +79,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name,
 | permissions | ExchangeFolderPermissionCollection | A permission on new folder |
 | folderClass | String | The class of new folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -106,7 +106,7 @@ public ExchangeFolderInfo CreateFolder(string name, ExchangeFolderType folderTyp
 | name | String | The name of new folder |
 | folderType | ExchangeFolderType | Type of folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -135,7 +135,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name,
 | name | String | The name of new folder |
 | folderType | ExchangeFolderType | Type of folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -161,7 +161,7 @@ public ExchangeFolderInfo CreateFolder(string name)
 | --- | --- | --- |
 | name | String | The name of new folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 

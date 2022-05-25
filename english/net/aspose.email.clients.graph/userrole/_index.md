@@ -14,7 +14,7 @@ OneNote user role
 public enum UserRole
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

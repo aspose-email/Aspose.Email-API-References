@@ -18,7 +18,7 @@ public EmailAddress this[EmailAddressCategory category] { get; set; }
 | --- | --- |
 | category | Category for email address |
 
-## Return Value
+### Return Value
 
 default email address for specified category.
 
@@ -44,7 +44,7 @@ public EmailAddress this[int index] { get; set; }
 | --- | --- |
 | index | The zero-based index of the element to get or set. |
 
-## Return Value
+### Return Value
 
 The element at the specified index.
 

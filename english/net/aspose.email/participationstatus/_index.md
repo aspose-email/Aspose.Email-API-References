@@ -14,7 +14,7 @@ Identifies the participation status for the calendar user.
 public enum ParticipationStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

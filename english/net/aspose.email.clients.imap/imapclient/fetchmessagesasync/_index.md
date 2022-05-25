@@ -18,7 +18,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumb
 | --- | --- | --- |
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -43,7 +43,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids)
 | --- | --- | --- |
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -70,7 +70,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -97,7 +97,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, IEnum
 | connection | IConnection | Connection to a server |
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -125,7 +125,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumb
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -152,7 +152,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids,
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -180,7 +180,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -209,7 +209,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

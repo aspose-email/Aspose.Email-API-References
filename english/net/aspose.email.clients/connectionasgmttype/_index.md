@@ -14,7 +14,7 @@ Defines algorithm of connection allocation in multiple threads environment
 public enum ConnectionAsgmtType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

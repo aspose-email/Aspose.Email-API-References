@@ -18,7 +18,7 @@ public static bool IsMsgFormat(string fileName)
 | --- | --- | --- |
 | fileName | String | Name of the file. |
 
-## Return Value
+### Return Value
 
 `true` if the file is represented in MSG format; otherwise, `false`.
 
@@ -42,7 +42,7 @@ public static bool IsMsgFormat(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The message stream. |
 
-## Return Value
+### Return Value
 
 `true` if the stream is represented in MSG format]; otherwise, `false`.
 

@@ -14,7 +14,7 @@ Specifies the permission level that a user has on a calendar folder.
 public enum ExchangeCalendarPermissionLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

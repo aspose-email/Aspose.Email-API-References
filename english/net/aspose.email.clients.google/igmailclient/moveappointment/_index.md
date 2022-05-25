@@ -21,7 +21,7 @@ public Appointment MoveAppointment(string sourceCalendarId, string destinationCa
 | destinationCalendarId | String | Identifier of destination calendar. |
 | appointmentId | String | Appointment identifier. |
 
-## Return Value
+### Return Value
 
 Returns moved appointment.
 
@@ -50,7 +50,7 @@ public Appointment MoveAppointment(string sourceCalendarId, string destinationCa
 | appointmentId | String | Appointment identifier. |
 | sendNotifications | Boolean | Specifies whether notification should be sent. |
 
-## Return Value
+### Return Value
 
 Returns moved appointment.
 

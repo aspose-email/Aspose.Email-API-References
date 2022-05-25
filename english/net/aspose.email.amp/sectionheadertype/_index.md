@@ -14,7 +14,7 @@ Represents the type of heading for the section.
 public enum SectionHeaderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

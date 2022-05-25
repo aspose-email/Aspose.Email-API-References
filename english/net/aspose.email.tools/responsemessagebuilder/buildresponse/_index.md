@@ -18,7 +18,7 @@ public abstract MailMessage BuildResponse(MailMessage msg)
 | --- | --- | --- |
 | msg | MailMessage | Original message [`MailMessage`](../../../aspose.email/mailmessage). |
 
-## Return Value
+### Return Value
 
 Resultant message [`MailMessage`](../../../aspose.email/mailmessage).
 
@@ -43,7 +43,7 @@ public abstract MapiMessage BuildResponse(MapiMessage msg)
 | --- | --- | --- |
 | msg | MapiMessage | Original message [`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
 
-## Return Value
+### Return Value
 
 Resultant message [`MapiMessage`](../../../aspose.email.mapi/mapimessage).
 

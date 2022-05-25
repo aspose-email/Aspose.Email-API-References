@@ -18,7 +18,7 @@ public Task<string[]> ClientCapabilitiesAsync(params string[] capabilityNames)
 | --- | --- | --- |
 | capabilityNames | String[] | Array of capabilities which are supported by client |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -44,7 +44,7 @@ public Task<string[]> ClientCapabilitiesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | capabilityNames | String[] | Array of capabilities which are supported by client |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -71,7 +71,7 @@ public Task<string[]> ClientCapabilitiesAsync(CancellationToken token,
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 | capabilityNames | String[] | Array of capabilities which are supported by client |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -98,7 +98,7 @@ public Task<string[]> ClientCapabilitiesAsync(IConnection connection, Cancellati
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 | capabilityNames | String[] | Array of capabilities which are supported by client |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

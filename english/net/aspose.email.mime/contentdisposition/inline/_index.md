@@ -14,7 +14,7 @@ Gets or sets a value that determines the disposition type.
 public bool Inline { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 true if content in the attachment is presented inline; otherwise, false.
 

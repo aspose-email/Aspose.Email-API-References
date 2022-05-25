@@ -14,7 +14,7 @@ Gets PropertyList with all properties.
 public static KnownPropertyList Values { get; }
 ```
 
-## Return Value
+### Return Value
 
 Returns instance of PropertyList.
 

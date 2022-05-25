@@ -14,7 +14,7 @@ Gets the by day.
 public ByDayCollection ByDay { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by day.
 

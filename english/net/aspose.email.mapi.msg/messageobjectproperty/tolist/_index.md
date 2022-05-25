@@ -14,7 +14,7 @@ Converts the value of the property to a list of values.
 public IList<T> ToList<T>()
 ```
 
-## Return Value
+### Return Value
 
 IList implementation, if type can't be converted to IList returns empty list implementation.
 

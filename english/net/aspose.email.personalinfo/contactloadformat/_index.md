@@ -14,7 +14,7 @@ Enumerates contact load formats
 public enum ContactLoadFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the emlx.
 public static MailMessageSaveType EmlxFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The emlx.
 

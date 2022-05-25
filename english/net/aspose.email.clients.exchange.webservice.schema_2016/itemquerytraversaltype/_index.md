@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/itemquerytraversa
 public enum ItemQueryTraversalType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

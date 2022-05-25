@@ -14,7 +14,7 @@ Gets a value indicating whether the storage is password protected.
 public bool IsPasswordProtected { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the storage is password protected; otherwise, `false`.
 

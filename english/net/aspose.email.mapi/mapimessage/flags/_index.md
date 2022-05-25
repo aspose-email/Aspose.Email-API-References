@@ -14,7 +14,7 @@ Gets the message flags.
 public MapiMessageFlags Flags { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message flags.
 

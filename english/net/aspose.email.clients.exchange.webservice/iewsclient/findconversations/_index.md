@@ -18,7 +18,7 @@ public ExchangeConversation[] FindConversations(string folderId)
 | --- | --- | --- |
 | folderId | String | An id of folder in which search |
 
-## Return Value
+### Return Value
 
 An array of found [`ExchangeConversation`](../../exchangeconversation)
 

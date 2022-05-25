@@ -20,7 +20,7 @@ public Attachment FetchAttachment(IConnection connection, int sequenceNumber, st
 | sequenceNumber | Int32 | The sequence number of a message |
 | attachmentName | String | A name of attachment |
 
-## Return Value
+### Return Value
 
 [`Attachment`](../../../aspose.email/attachment) that represents attachment
 
@@ -47,7 +47,7 @@ public Attachment FetchAttachment(int sequenceNumber, string attachmentName)
 | sequenceNumber | Int32 | The sequence number of a message |
 | attachmentName | String | A name of attachment |
 
-## Return Value
+### Return Value
 
 [`Attachment`](../../../aspose.email/attachment) that represents attachment
 

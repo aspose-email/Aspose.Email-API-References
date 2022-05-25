@@ -19,7 +19,7 @@ public static InboxRule CreateRuleMoveContaining(string[] filter, string destina
 | filter | String[] | A strings to search |
 | destinationFolderId | String | An id of folder in which messages will be moved |
 
-## Return Value
+### Return Value
 
 A created [`InboxRule`](../../inboxrule)
 

@@ -18,7 +18,7 @@ public FolderInfo UpdateFolder(FolderInfo folderInfo)
 | --- | --- | --- |
 | folderInfo | FolderInfo | Folder to update |
 
-## Return Value
+### Return Value
 
 Returns updated folder
 

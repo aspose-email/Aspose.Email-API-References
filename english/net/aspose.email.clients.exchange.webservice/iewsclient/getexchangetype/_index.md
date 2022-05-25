@@ -14,7 +14,7 @@ Gets the information about the current version of MS Exchange.
 public ExchangeVersion GetExchangeType()
 ```
 
-## Return Value
+### Return Value
 
 Returns Exchange server version
 

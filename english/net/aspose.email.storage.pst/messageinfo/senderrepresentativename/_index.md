@@ -14,7 +14,7 @@ Gets the sender representative name.
 public string SenderRepresentativeName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The sender representative name.
 

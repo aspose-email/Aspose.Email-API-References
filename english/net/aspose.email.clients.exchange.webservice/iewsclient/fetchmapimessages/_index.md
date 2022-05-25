@@ -18,7 +18,7 @@ public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris)
 | --- | --- | --- |
 | uris | IEnumerable`1 | A IEnumerable&lt;string&gt; "/&gt; containing message uris to be retrieved |
 
-## Return Value
+### Return Value
 
 An array of [`MapiMessage`](../../../aspose.email.mapi/mapimessage) containing fetched messages
 
@@ -45,7 +45,7 @@ public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris,
 | uris | IEnumerable`1 | A StringCollection containing message uris to be retrieved |
 | extendedProperties | IEnumerable`1 | An enumeration of extended properties |
 
-## Return Value
+### Return Value
 
 An array of [`MapiMessage`](../../../aspose.email.mapi/mapimessage) containing fetched messages
 

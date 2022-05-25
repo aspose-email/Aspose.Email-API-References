@@ -18,7 +18,7 @@ public bool Remove(ImapMessageInfo item)
 | --- | --- | --- |
 | item | ImapMessageInfo | The ImapMessageInfo object to be remove. |
 
-## Return Value
+### Return Value
 
 False if this collection doesn't contains specified object.True if removed successfully.
 

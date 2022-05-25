@@ -14,7 +14,7 @@ AirSync namespace of the ActiveSync protocol
 public enum AirSync
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

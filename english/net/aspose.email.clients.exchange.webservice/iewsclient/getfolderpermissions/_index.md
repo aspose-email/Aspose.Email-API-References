@@ -18,7 +18,7 @@ public ExchangePermissionCollection GetFolderPermissions(string folderUrl)
 | --- | --- | --- |
 | folderUrl | String | The folder URL. |
 
-## Return Value
+### Return Value
 
 The [`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
 

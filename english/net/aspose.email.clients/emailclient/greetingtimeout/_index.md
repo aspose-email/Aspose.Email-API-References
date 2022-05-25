@@ -14,7 +14,7 @@ Gets or sets the greeting timeout that is used when establishing a connection. P
 public int GreetingTimeout { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The greeting timeout in milliseconds
 

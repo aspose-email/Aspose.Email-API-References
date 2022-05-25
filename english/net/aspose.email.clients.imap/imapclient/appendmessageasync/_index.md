@@ -19,7 +19,7 @@ public Task<string> AppendMessageAsync(IConnection connection, MailMessage messa
 | connection | IConnection | Connection to a server |
 | message | MailMessage | Mail message to be upload |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -48,7 +48,7 @@ public Task<string> AppendMessageAsync(IConnection connection, string folderName
 | folderName | String | Folder that will receive the mail message |
 | message | MailMessage | Mail message to be upload |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -75,7 +75,7 @@ public Task<string> AppendMessageAsync(IConnection connection, string fileName)
 | connection | IConnection | Connection to a server |
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -102,7 +102,7 @@ public Task<string> AppendMessageAsync(IConnection connection, string folderName
 | folderName | String | Folder that will receive the mail message |
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -127,7 +127,7 @@ public Task<string> AppendMessageAsync(MailMessage message)
 | --- | --- | --- |
 | message | MailMessage | Mail message to be upload |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -153,7 +153,7 @@ public Task<string> AppendMessageAsync(string folderName, MailMessage message)
 | folderName | String | Folder that will receive the mail message |
 | message | MailMessage | Mail message to be upload |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -178,7 +178,7 @@ public Task<string> AppendMessageAsync(string fileName)
 | --- | --- | --- |
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -203,7 +203,7 @@ public Task<string> AppendMessageAsync(string folderName, string fileName)
 | folderName | String | Folder that will receive the mail message |
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -230,7 +230,7 @@ public Task<string> AppendMessageAsync(IConnection connection, MailMessage messa
 | message | MailMessage | Mail message to be upload |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -260,7 +260,7 @@ public Task<string> AppendMessageAsync(IConnection connection, string folderName
 | message | MailMessage | Mail message to be upload |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -289,7 +289,7 @@ public Task<string> AppendMessageAsync(IConnection connection, string fileName,
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -318,7 +318,7 @@ public Task<string> AppendMessageAsync(IConnection connection, string folderName
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -344,7 +344,7 @@ public Task<string> AppendMessageAsync(MailMessage message, CancellationToken to
 | message | MailMessage | Mail message to be upload |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -372,7 +372,7 @@ public Task<string> AppendMessageAsync(string folderName, MailMessage message,
 | message | MailMessage | Mail message to be upload |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -398,7 +398,7 @@ public Task<string> AppendMessageAsync(string fileName, CancellationToken token)
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -424,7 +424,7 @@ public Task<string> AppendMessageAsync(string folderName, string fileName, Cance
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -14,7 +14,7 @@ Gets the urn:content-classes:mailfolder content class that defines a set of prop
 public static ContentClassType MailFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The mail folder content class.
 

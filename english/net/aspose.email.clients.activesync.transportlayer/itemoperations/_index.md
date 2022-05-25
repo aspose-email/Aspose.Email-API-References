@@ -14,7 +14,7 @@ ItemOperations namespace of the ActiveSync protocol
 public enum ItemOperations
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

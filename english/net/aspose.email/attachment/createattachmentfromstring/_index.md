@@ -19,7 +19,7 @@ public static Attachment CreateAttachmentFromString(string content, string name)
 | content | String | A string that represents the content of attachment. |
 | name | String | The attachment name. |
 
-## Return Value
+### Return Value
 
 Returns created attachment
 
@@ -47,7 +47,7 @@ public static Attachment CreateAttachmentFromString(string content, string name,
 | contentEncoding | Encoding | The content encoding. |
 | mediaType | String | The media type name |
 
-## Return Value
+### Return Value
 
 Returns created attachment
 
@@ -72,7 +72,7 @@ public static Attachment CreateAttachmentFromString(string content, ContentType 
 | content | String | A string that represents the content of attachment. |
 | contentType | ContentType | The [`ContentType`](../../../aspose.email.mime/contenttype). |
 
-## Return Value
+### Return Value
 
 Returns created attachment
 

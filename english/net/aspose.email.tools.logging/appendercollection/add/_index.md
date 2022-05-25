@@ -18,7 +18,7 @@ public int Add(IAppender value)
 | --- | --- | --- |
 | value | IAppender | The IAppender to be added to the end of the collection. The value can be null. |
 
-## Return Value
+### Return Value
 
 The index at which the value has been added.
 

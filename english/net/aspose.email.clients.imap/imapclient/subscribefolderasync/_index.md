@@ -19,7 +19,7 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -44,7 +44,7 @@ public Task SubscribeFolderAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -70,7 +70,7 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName, Canc
 | folderName | String | Name of the folder |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -96,7 +96,7 @@ public Task SubscribeFolderAsync(string folderName, CancellationToken token)
 | folderName | String | Name of the folder |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

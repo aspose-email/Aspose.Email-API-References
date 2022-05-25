@@ -18,7 +18,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 | connection | IConnection | Connection to a server |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -71,7 +71,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -92,7 +92,7 @@ Gets the mailbox status info
 public Task<Pop3MailboxInfo> GetMailboxInfoAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -118,7 +118,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, Cancell
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -147,7 +147,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -174,7 +174,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction, Cancella
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -199,7 +199,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

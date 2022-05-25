@@ -14,7 +14,7 @@ Gets an enumerator that iterates through the elements of the collection.
 public IEnumerator<TResponse> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 An IEnumerator for the collection.
 

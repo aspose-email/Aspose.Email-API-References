@@ -19,7 +19,7 @@ public bool TryGetPropertyDateTime(long tag, ref DateTime value)
 | tag | Int64 | The MAPI property tag. |
 | value | DateTime& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
 
-## Return Value
+### Return Value
 
 true if s was converted successfully; otherwise, false.
 

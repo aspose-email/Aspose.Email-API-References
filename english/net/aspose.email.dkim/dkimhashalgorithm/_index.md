@@ -14,7 +14,7 @@ Represents DKIM hash algorithm.
 public enum DKIMHashAlgorithm
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

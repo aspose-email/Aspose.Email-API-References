@@ -15,7 +15,7 @@ Enumerates appointment flags.
 public enum AppointmentFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

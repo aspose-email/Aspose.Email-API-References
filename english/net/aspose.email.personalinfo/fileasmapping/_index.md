@@ -14,7 +14,7 @@ Specifies how to generate and recompute the value of the dispidFileAs property w
 public enum FileAsMapping : long
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

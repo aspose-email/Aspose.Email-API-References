@@ -21,7 +21,7 @@ public static PersonalStorage Create(string fileName, FileFormatVersion version,
 | version | FileFormatVersion | The PST file version. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the new PST.
 
@@ -60,7 +60,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 | version | FileFormatVersion | The PST file version. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the new PST.
 
@@ -100,7 +100,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 | leaveStreamOpen | Boolean | Leave stream open when PersonalStorage is disposed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the new PST.
 
@@ -137,7 +137,7 @@ public static PersonalStorage Create(string fileName, FileFormatVersion version)
 | fileName | String | The full name of the file. |
 | version | FileFormatVersion | The PST file version. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the new PST.
 
@@ -174,7 +174,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version)
 | stream | Stream | The stream in which PST is created. |
 | version | FileFormatVersion | The PST file version. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the new PST.
 
@@ -212,7 +212,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version, b
 | version | FileFormatVersion | The PST file version. |
 | leaveStreamOpen | Boolean | Leave stream open when PersonalStorage is disposed. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the new PST.
 

@@ -14,7 +14,7 @@ Enumerates AppointmentSaveFormat
 public enum AppointmentSaveFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

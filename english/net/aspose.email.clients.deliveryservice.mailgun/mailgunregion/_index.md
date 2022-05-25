@@ -14,7 +14,7 @@ Represents the Mailgun Region
 public enum MailgunRegion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

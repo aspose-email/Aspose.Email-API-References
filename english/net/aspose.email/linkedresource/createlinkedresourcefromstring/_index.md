@@ -18,7 +18,7 @@ public static LinkedResource CreateLinkedResourceFromString(string content)
 | --- | --- | --- |
 | content | String | A string that contains the resource to be included in the email attachment. |
 
-## Return Value
+### Return Value
 
 A LinkedResource object that contains the embedded resource.
 
@@ -45,7 +45,7 @@ public static LinkedResource CreateLinkedResourceFromString(string content,
 | contentEncoding | Encoding | The content encoding. |
 | mediaType | String | The MIME media type of the content. |
 
-## Return Value
+### Return Value
 
 A LinkedResource object that contains the embedded resource.
 
@@ -70,7 +70,7 @@ public static LinkedResource CreateLinkedResourceFromString(string content, Cont
 | content | String | A string that contains the resource to be included in the email attachment. |
 | contentType | ContentType | The type of the content. |
 
-## Return Value
+### Return Value
 
 A LinkedResource object that contains the embedded resource.
 

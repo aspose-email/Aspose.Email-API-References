@@ -14,7 +14,7 @@ Search folders which contains subfolders.
 public MailQuery HasSubfolders()
 ```
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query (one searching criteria).
 

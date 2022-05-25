@@ -19,7 +19,7 @@ public static bool operator !=(EmailAddress a, EmailAddress b)
 | a | EmailAddress | First object to compare |
 | b | EmailAddress | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are not equal, otherwise false.
 

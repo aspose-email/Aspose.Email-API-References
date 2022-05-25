@@ -14,7 +14,7 @@ Gets the format templates.
 public StringDictionary FormatTemplates { get; }
 ```
 
-## Property Value
+### Property Value
 
 The format templates.
 

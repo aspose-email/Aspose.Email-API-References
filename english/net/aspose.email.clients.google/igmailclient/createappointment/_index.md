@@ -19,7 +19,7 @@ public Appointment CreateAppointment(string calendarId, Appointment appointment)
 | calendarId | String | Calendar identifier. |
 | appointment | Appointment | An instance of appointment object to create. |
 
-## Return Value
+### Return Value
 
 Returns the created appointment.
 

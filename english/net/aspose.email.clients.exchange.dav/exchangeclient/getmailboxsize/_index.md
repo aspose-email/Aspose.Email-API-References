@@ -14,7 +14,7 @@ Get the size of the maibox
 public long GetMailboxSize()
 ```
 
-## Return Value
+### Return Value
 
 The size of the mailbox
 
@@ -38,7 +38,7 @@ public long GetMailboxSize(string mailbox)
 | --- | --- | --- |
 | mailbox | String | A mailbox. Note: if it is set to `null` or `empty` the default mailbox will be used |
 
-## Return Value
+### Return Value
 
 The size of the mailbox
 

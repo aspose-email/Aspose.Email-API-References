@@ -18,7 +18,7 @@ public static MapiTask FromVTodo(string filePath)
 | --- | --- | --- |
 | filePath | String | The path to the file to be loaded. |
 
-## Return Value
+### Return Value
 
 Returns a MapiTask instance which is loaded from the specified file.
 
@@ -43,7 +43,7 @@ public static MapiTask FromVTodo(string filePath, bool detectEncoding)
 | filePath | String | The path to the file to be loaded. |
 | detectEncoding | Boolean | Determines a data encoding by analyzing its byte order mark (BOM) |
 
-## Return Value
+### Return Value
 
 Returns a MapiTask instance which is loaded from the specified file.
 
@@ -67,7 +67,7 @@ public static MapiTask FromVTodo(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream to be loaded. |
 
-## Return Value
+### Return Value
 
 Returns a MapiTask instance which is loaded from the specified stream.
 
@@ -92,7 +92,7 @@ public static MapiTask FromVTodo(Stream stream, bool detectEncoding)
 | stream | Stream | The stream to be loaded. |
 | detectEncoding | Boolean | Determines a data encoding by analyzing its byte order mark (BOM) |
 
-## Return Value
+### Return Value
 
 Returns a MapiTask instance which is loaded from the specified stream.
 

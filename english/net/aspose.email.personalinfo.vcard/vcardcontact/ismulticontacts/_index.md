@@ -18,7 +18,7 @@ public static bool IsMultiContacts(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Source stream |
 
-## Return Value
+### Return Value
 
 True if multi contacts, otherwise false.
 

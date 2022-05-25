@@ -44,16 +44,16 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 | [operator ==](../../aspose.email.personalinfo/emailaddresscategory/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/emailaddresscategory/op_inequality) | Determines whether the specified objects are not equal. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [CustomValue](customvalue) | String value for 'Custom' category |
-| const [Email1Value](email1value) | String value for 'Email1' category |
-| const [Email2Value](email2value) | String value for 'Email2' category |
-| const [Email3Value](email3value) | String value for 'Email3' category |
-| const [HomeValue](homevalue) | String value for 'Home' category |
-| const [WorkValue](workvalue) | String value for 'Work' category |
+| const [CustomValue](../../aspose.email.personalinfo/emailaddresscategory/customvalue) | String value for 'Custom' category |
+| const [Email1Value](../../aspose.email.personalinfo/emailaddresscategory/email1value) | String value for 'Email1' category |
+| const [Email2Value](../../aspose.email.personalinfo/emailaddresscategory/email2value) | String value for 'Email2' category |
+| const [Email3Value](../../aspose.email.personalinfo/emailaddresscategory/email3value) | String value for 'Email3' category |
+| const [HomeValue](../../aspose.email.personalinfo/emailaddresscategory/homevalue) | String value for 'Home' category |
+| const [WorkValue](../../aspose.email.personalinfo/emailaddresscategory/workvalue) | String value for 'Work' category |
 
 ### See Also
 

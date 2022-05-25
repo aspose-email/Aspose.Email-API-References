@@ -14,7 +14,7 @@ Gets or sets the drop target manager.
 public FileDropTargetManager DropTargetManager { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The drop target manager.
 

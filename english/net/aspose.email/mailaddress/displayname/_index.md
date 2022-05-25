@@ -14,7 +14,7 @@ Gets or sets a display name.
 public string DisplayName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A String that contains the display name.
 

@@ -14,7 +14,7 @@ Gets the count of unread items.
 public int UnreadCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The unread items count.
 

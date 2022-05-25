@@ -14,7 +14,7 @@ Gets the message id of the message.
 public string InternetMessageId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents internet message id.
 

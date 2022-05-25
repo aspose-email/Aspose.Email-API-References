@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/externalaudience/
 public enum ExternalAudience
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

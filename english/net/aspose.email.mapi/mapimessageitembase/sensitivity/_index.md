@@ -14,7 +14,7 @@ Gets the Sensitivity.
 public MapiSensitivity Sensitivity { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The sensitivity.
 

@@ -18,7 +18,7 @@ public Pop3MessageInfo GetMessage(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | Unique Id of the E-Mail message. |
 
-## Return Value
+### Return Value
 
 Returns [`Pop3MessageInfo`](../../pop3messageinfo) if exists, otherwise returns null.
 
@@ -43,7 +43,7 @@ public Pop3MessageInfo GetMessage(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | Sequence number of the E-Mail message. |
 
-## Return Value
+### Return Value
 
 Returns [`Pop3MessageInfo`](../../pop3messageinfo) if exists, otherwise returns null.
 

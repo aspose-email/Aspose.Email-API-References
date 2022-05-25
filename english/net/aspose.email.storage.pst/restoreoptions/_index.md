@@ -15,7 +15,7 @@ Enumerates restore options
 public enum RestoreOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

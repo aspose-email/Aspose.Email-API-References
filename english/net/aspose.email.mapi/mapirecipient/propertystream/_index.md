@@ -14,7 +14,7 @@ Gets the property stream.
 public MapiPropertyStream PropertyStream { get; }
 ```
 
-## Property Value
+### Property Value
 
 The property stream.
 

@@ -18,7 +18,7 @@ public MailQuery NotEquals(byte[] value)
 | --- | --- | --- |
 | value | Byte[] | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -43,7 +43,7 @@ public MailQuery NotEquals(string value)
 | --- | --- | --- |
 | value | String | The base 64 string value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

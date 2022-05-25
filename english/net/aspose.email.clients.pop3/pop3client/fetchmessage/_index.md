@@ -19,7 +19,7 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -46,7 +46,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -72,7 +72,7 @@ public MailMessage FetchMessage(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -97,7 +97,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 

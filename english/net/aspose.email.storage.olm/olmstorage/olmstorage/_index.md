@@ -39,7 +39,7 @@ public OlmStorage(string fileName)
 | --- | --- | --- |
 | fileName | String | OLM file name. |
 
-## Return Value
+### Return Value
 
 Returns an OlmStorage instance which is loaded from the specified file.
 
@@ -69,7 +69,7 @@ public OlmStorage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Source stream Stream with OLM storage data. |
 
-## Return Value
+### Return Value
 
 Returns an OlmStorage instance which is loaded from the specified stream.
 

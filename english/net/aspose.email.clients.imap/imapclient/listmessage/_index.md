@@ -21,7 +21,7 @@ public ImapMessageInfo ListMessage(IConnection connection, int sequenceNumber,
 | sequenceNumber | Int32 | The sequence number of message |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Returns ImapMessageInfo objects
 
@@ -48,7 +48,7 @@ public ImapMessageInfo ListMessage(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 Returns ImapMessageInfo objects
 
@@ -75,7 +75,7 @@ public ImapMessageInfo ListMessage(int sequenceNumber, IEnumerable<string> messa
 | sequenceNumber | Int32 | The sequence number of message |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Returns ImapMessageInfo objects
 
@@ -100,7 +100,7 @@ public ImapMessageInfo ListMessage(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 Returns ImapMessageInfo objects
 
@@ -128,7 +128,7 @@ public ImapMessageInfo ListMessage(IConnection connection, string uniqueId,
 | uniqueId | String | The unique Id of the message |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Returns ImapMessageInfo objects
 
@@ -155,7 +155,7 @@ public ImapMessageInfo ListMessage(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique Id of the message |
 
-## Return Value
+### Return Value
 
 Returns ImapMessageInfo objects
 
@@ -181,7 +181,7 @@ public ImapMessageInfo ListMessage(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique Id of the message |
 
-## Return Value
+### Return Value
 
 Returns ImapMessageInfo objects
 
@@ -207,7 +207,7 @@ public ImapMessageInfo ListMessage(string uniqueId, IEnumerable<string> messageE
 | uniqueId | String | The unique Id of the message |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Returns ImapMessageInfo objects
 

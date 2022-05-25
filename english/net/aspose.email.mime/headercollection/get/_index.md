@@ -18,7 +18,7 @@ public virtual string Get(int index)
 | --- | --- | --- |
 | index | Int32 | An integer that represents the position of the element to get. |
 
-## Return Value
+### Return Value
 
 The value at the specified position in current collection.
 
@@ -42,7 +42,7 @@ public string Get(string name)
 | --- | --- | --- |
 | name | String | The haeader name. |
 
-## Return Value
+### Return Value
 
 The header value.
 

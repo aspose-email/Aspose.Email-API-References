@@ -19,7 +19,7 @@ public static bool operator !=(CalendarRecurrence left, CalendarRecurrence right
 | left | CalendarRecurrence | The left. |
 | right | CalendarRecurrence | The right. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 

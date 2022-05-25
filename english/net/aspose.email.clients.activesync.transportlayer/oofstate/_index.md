@@ -14,7 +14,7 @@ Specifies the availability of the Oof property.
 public enum OofState
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

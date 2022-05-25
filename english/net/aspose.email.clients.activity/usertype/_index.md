@@ -14,7 +14,7 @@ User types
 public enum UserType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

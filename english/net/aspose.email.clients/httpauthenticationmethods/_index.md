@@ -15,7 +15,7 @@ The authentication methods supported by the HTTP proxy
 public enum HttpAuthenticationMethods : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

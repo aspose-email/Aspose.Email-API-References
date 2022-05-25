@@ -14,7 +14,7 @@ Represents the statuses of the user's progress on the task.
 public enum MapiTaskStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

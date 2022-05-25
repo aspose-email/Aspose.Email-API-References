@@ -14,7 +14,7 @@ Gets the urn:content-classes:calendarmessage content class that defines a set of
 public static ContentClassType CalendarMessage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The calendar message content class.
 

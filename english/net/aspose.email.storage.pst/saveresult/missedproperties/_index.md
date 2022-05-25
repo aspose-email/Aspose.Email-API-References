@@ -14,7 +14,7 @@ Gets the collection of missed properties.
 public List<PropertyDescriptor> MissedProperties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The list of [`PropertyDescriptor`](../../../aspose.email.mapi/propertydescriptor).
 

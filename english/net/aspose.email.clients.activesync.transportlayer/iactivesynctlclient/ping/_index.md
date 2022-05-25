@@ -19,7 +19,7 @@ public string[] Ping(string serverId, FolderClass fClass)
 | serverId | String | The Id element is a required child element of the Folder element in Ping command requests that specifies the server ID of the folder to be monitored. |
 | fClass | FolderClass | The Class element is a required child element of the Folder element in Ping command requests that specifies the content class of the folder to be monitored. |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -46,7 +46,7 @@ public string[] Ping(int heartbeatInterval, string serverId, FolderClass fClass)
 | serverId | String | The Id element is a required child element of the Folder element in Ping command requests that specifies the server ID of the folder to be monitored. |
 | fClass | FolderClass | The Class element is a required child element of the Folder element in Ping command requests that specifies the content class of the folder to be monitored. |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -71,7 +71,7 @@ public string[] Ping(params PingParameter[] pingParameters)
 | --- | --- | --- |
 | pingParameters | PingParameter[] | Ping parameters |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -97,7 +97,7 @@ public string[] Ping(int heartbeatInterval, params PingParameter[] pingParameter
 | heartbeatInterval | Int32 | The HeartbeatInterval specifies the length of time, in seconds, that the server SHOULD wait before sending a response if no new items are added to the specified set of folders. |
 | pingParameters | PingParameter[] | Ping parameters |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -122,7 +122,7 @@ public string[] Ping(IEnumerable<PingParameter> pingParameters)
 | --- | --- | --- |
 | pingParameters | IEnumerable`1 | Ping parameters |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -148,7 +148,7 @@ public string[] Ping(int heartbeatInterval, IEnumerable<PingParameter> pingParam
 | heartbeatInterval | Int32 | The HeartbeatInterval specifies the length of time, in seconds, that the server SHOULD wait before sending a response if no new items are added to the specified set of folders. |
 | pingParameters | IEnumerable`1 | Ping parameters |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 

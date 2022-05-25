@@ -14,7 +14,7 @@ Gets the MSG.
 public static MailMessageSaveType OutlookMessageFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The MSG.
 

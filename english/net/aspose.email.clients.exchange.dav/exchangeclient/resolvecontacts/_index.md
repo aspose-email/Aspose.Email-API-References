@@ -18,7 +18,7 @@ public Contact[] ResolveContacts(string unresolvedEntry)
 | --- | --- | --- |
 | unresolvedEntry | String | A name of contact to resolve. |
 
-## Return Value
+### Return Value
 
 An array of [`Contact`](../../../aspose.email.personalinfo/contact) objects.
 

@@ -19,7 +19,7 @@ public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings)
 | pst | PersonalStorage | A personal storage containing the backuped imap folders. |
 | settings | RestoreSettings | The restore settings |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -47,7 +47,7 @@ public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings, Cancella
 | settings | RestoreSettings | The restore settings |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

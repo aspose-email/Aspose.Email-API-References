@@ -14,7 +14,7 @@ RightsManagement namespace of the ActiveSync protocol
 public enum RightsManagement
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

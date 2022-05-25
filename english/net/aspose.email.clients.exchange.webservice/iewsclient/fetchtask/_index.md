@@ -18,7 +18,7 @@ public ExchangeTask FetchTask(string taskUri)
 | --- | --- | --- |
 | taskUri | String | A task uri. |
 
-## Return Value
+### Return Value
 
 A fetched [`ExchangeTask`](../../exchangetask)
 

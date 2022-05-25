@@ -18,7 +18,7 @@ public bool Remove(string item)
 | --- | --- | --- |
 | item | String | The header name. |
 
-## Return Value
+### Return Value
 
 true if item was successfully removed from the collection.
 

@@ -14,7 +14,7 @@ Specifies the Content-Transfer-Encoding header information.
 public enum TransferEncoding
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

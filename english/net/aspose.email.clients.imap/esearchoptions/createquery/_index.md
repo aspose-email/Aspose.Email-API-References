@@ -18,7 +18,7 @@ public MailQuery CreateQuery(MailQueryBuilder owner)
 | --- | --- | --- |
 | owner | MailQueryBuilder | owner |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query.
 
@@ -40,7 +40,7 @@ Creates the search key.
 public MailQuery CreateQuery()
 ```
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query.
 

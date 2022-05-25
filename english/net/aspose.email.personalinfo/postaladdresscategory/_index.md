@@ -41,13 +41,13 @@ public class PostalAddressCategory : IEquatable<PostalAddressCategory>
 | [operator ==](../../aspose.email.personalinfo/postaladdresscategory/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/postaladdresscategory/op_inequality) | Determines whether the specified objects are not equal. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [CustomValue](customvalue) | String value for 'Custom' category |
-| const [HomeValue](homevalue) | String value for 'Home' category |
-| const [WorkValue](workvalue) | String value for 'Work' category |
+| const [CustomValue](../../aspose.email.personalinfo/postaladdresscategory/customvalue) | String value for 'Custom' category |
+| const [HomeValue](../../aspose.email.personalinfo/postaladdresscategory/homevalue) | String value for 'Home' category |
+| const [WorkValue](../../aspose.email.personalinfo/postaladdresscategory/workvalue) | String value for 'Work' category |
 
 ### See Also
 

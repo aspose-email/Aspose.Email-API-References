@@ -18,7 +18,7 @@ public MapiContact[] ListContacts(string folderUri)
 | --- | --- | --- |
 | folderUri | String | The URI of folder |
 
-## Return Value
+### Return Value
 
 An array of read [`MapiContact`](../../../aspose.email.mapi/mapicontact) that represents contact information
 

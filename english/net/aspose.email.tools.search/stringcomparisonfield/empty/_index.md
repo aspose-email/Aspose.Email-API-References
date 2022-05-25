@@ -14,7 +14,7 @@ Indicates that field in message must be empty.
 public MailQuery Empty()
 ```
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

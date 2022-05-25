@@ -14,7 +14,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 public IEnumerable<MessageObject> EnumerateMessageObjects()
 ```
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 

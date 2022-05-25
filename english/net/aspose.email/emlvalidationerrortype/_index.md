@@ -14,7 +14,7 @@ Enumerates the types of the eml validation errors.
 public enum EmlValidationErrorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public string[] AppendMessages(params MailMessage[] messages)
 | --- | --- | --- |
 | messages | MailMessage[] | A messages to upload |
 
-## Return Value
+### Return Value
 
 List of uri of created messages
 
@@ -43,7 +43,7 @@ public string[] AppendMessages(IEnumerable<MailMessage> messages)
 | --- | --- | --- |
 | messages | IEnumerable`1 | A messages to upload |
 
-## Return Value
+### Return Value
 
 List of uri of created messages
 
@@ -69,7 +69,7 @@ public string[] AppendMessages(string folderUri, params MailMessage[] messages)
 | folderUri | String | A folder URI to which message is uploaded. |
 | messages | MailMessage[] | A messages to upload |
 
-## Return Value
+### Return Value
 
 List of uri of created messages
 
@@ -95,7 +95,7 @@ public string[] AppendMessages(string folderUri, IEnumerable<MailMessage> messag
 | folderUri | String | A folder URI to which message is uploaded. |
 | messages | IEnumerable`1 | A messages to upload |
 
-## Return Value
+### Return Value
 
 List of uri of created messages
 

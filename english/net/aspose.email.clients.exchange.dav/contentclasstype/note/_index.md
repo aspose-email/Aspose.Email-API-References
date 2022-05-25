@@ -14,7 +14,7 @@ Gets the value that represents the content class urn:content-classes:note.
 public static ContentClassType Note { get; }
 ```
 
-## Property Value
+### Property Value
 
 The note content class.
 

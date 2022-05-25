@@ -15,7 +15,7 @@ The types of conference solutions that are supported for this calendar.
 public enum AllowedConferenceSolutionTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

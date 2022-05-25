@@ -14,7 +14,7 @@ Gets or sets the timeout for mail operations
 public int Timeout { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The timeout in milliseconds
 

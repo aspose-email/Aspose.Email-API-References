@@ -14,7 +14,7 @@ Defines OAuth token types
 public enum TokenType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -58,13 +58,6 @@ public abstract class EmailClient : IDisposable
 | [SetSupportedEncryptionUnsafe](../../aspose.email.clients/emailclient/setsupportedencryptionunsafe)(EncryptionProtocols) | Defines the versions of SSL/TLS encryption protocols to be used. This method is not safe and sets the encryption protocols without any compatibility checks. Use [`SupportedEncryption`](./supportedencryption) property to safely set only protocols that definitely supported by .net framework. Please note, if your current .net framework does not support this level of security, an exception will be thrown when trying to establish a connection to the server. |
 | abstract [ValidateCredentials](../../aspose.email.clients/emailclient/validatecredentials)() | Checks if the credentials are valid |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [BindIPEndPoint](bindipendpoint) | Associates a Socket with a local endpoint. |
-| event [OnConnect](onconnect) | The OnConnect event occurs when the clent establishes connection. |
-
 ### See Also
 
 * namespace [Aspose.Email.Clients](../../aspose.email.clients)

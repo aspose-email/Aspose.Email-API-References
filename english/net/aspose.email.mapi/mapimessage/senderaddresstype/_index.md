@@ -14,7 +14,7 @@ Gets the message sender's e-mail address type.
 public string SenderAddressType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents sender address type.
 

@@ -86,13 +86,6 @@ public class PersonalStorage : IDisposable
 | [TryToGetFolderById](../../aspose.email.storage.pst/personalstorage/trytogetfolderbyid)(string, out FolderInfo) | Gets the folder associated with the specified entry ID. |
 | [TryToSaveMessage](../../aspose.email.storage.pst/personalstorage/trytosavemessage)(string, Stream) | Saves the message, with specified entryID, to a stream. |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [ItemMoved](itemmoved) | Occurs when an item is moved to the another folder. |
-| event [StorageProcessed](storageprocessed) | Occurs in splitting and merging operations when a new chunk of pst is created or the next file is processed and is to be merged. |
-
 ### See Also
 
 * namespace [Aspose.Email.Storage.Pst](../../aspose.email.storage.pst)

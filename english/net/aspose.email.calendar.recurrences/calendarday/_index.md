@@ -14,7 +14,7 @@ Represents the day of the week.
 public enum CalendarDay
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

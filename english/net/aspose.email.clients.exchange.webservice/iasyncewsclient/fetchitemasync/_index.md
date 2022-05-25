@@ -22,7 +22,7 @@ public Task<MapiMessage> FetchItemAsync(string uri,
 | extendedProperties | IEnumerable`1 | Specified properties to retrieve. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`MapiMessage`](../../../aspose.email.mapi/mapimessage) object.
 

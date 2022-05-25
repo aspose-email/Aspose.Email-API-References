@@ -15,7 +15,7 @@ Defines the possible versions of encryption protocols.
 public enum EncryptionProtocols
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

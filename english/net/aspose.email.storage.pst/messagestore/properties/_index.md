@@ -14,7 +14,7 @@ Gets the MAPI properties of message store object. The message store contains the
 public MapiPropertyCollection Properties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`MapiProperty`](../../../aspose.email.mapi/mapiproperty) collection.
 

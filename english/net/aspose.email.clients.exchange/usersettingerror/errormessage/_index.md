@@ -14,7 +14,7 @@ Gets the error message.
 public string ErrorMessage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The error message.
 

@@ -18,7 +18,7 @@ public virtual Uri GetProxy(Uri destination)
 | --- | --- | --- |
 | destination | Uri | A System.Uri that specifies the requested Internet resource. |
 
-## Return Value
+### Return Value
 
 A System.Uri instance that contains the URI of the proxy used to contact destination.
 

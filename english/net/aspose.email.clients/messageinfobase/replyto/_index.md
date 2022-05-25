@@ -14,7 +14,7 @@ Gets the list of addresses that should receive replies to this message.
 public MailAddressCollection ReplyTo { get; }
 ```
 
-## Property Value
+### Property Value
 
 The list of addresses.
 

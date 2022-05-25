@@ -14,7 +14,7 @@ Gets a value indicating whether Flags property contains the Answered flag.
 public bool Answered { get; }
 ```
 
-## Property Value
+### Property Value
 
 The answered flag.
 

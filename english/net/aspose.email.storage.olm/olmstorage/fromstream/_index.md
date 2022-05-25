@@ -18,7 +18,7 @@ public static OlmStorage FromStream(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The System.IO.Stream. |
 
-## Return Value
+### Return Value
 
 An OlmStorage object that represents the current OLM storage.
 

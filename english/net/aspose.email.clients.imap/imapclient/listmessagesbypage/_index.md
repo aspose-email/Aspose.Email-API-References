@@ -19,7 +19,7 @@ public ImapPageInfo ListMessagesByPage(int itemsPerPage, PageSettings settings)
 | itemsPerPage | Int32 | A number of items in page |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 IAsyncResult that represents the status of an asynchronous operation.
 
@@ -47,7 +47,7 @@ public ImapPageInfo ListMessagesByPage(int itemsPerPage, int pageOffset, PageSet
 | pageOffset | Int32 | An offset of next page in view |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 IAsyncResult that represents the status of an asynchronous operation.
 
@@ -74,7 +74,7 @@ public ImapPageInfo ListMessagesByPage(PageInfo pageInfo, PageSettings settings)
 | pageInfo | PageInfo | The next page to retrieve. |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 IAsyncResult that represents the status of an asynchronous operation.
 
@@ -103,7 +103,7 @@ public ImapPageInfo ListMessagesByPage(MailQuery query, PageInfo pageInfo, PageS
 | pageInfo | PageInfo | The next page to retrieve. |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 IAsyncResult that represents the status of an asynchronous operation.
 

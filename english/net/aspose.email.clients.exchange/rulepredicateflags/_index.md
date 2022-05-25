@@ -15,7 +15,7 @@ Represents the RulePredicate flags
 public enum RulePredicateFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

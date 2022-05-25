@@ -14,7 +14,7 @@ Gets the collection of properties.
 public virtual MapiPropertyCollection Properties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The properties.
 

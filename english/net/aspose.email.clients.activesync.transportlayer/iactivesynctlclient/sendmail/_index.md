@@ -18,7 +18,7 @@ public string SendMail(string mimeContent)
 | --- | --- | --- |
 | mimeContent | String | Contains the MIME-encoded message. |
 
-## Return Value
+### Return Value
 
 Returns the client's unique message ID (MID).
 
@@ -43,7 +43,7 @@ public string SendMail(string mimeContent, bool saveInSentItems)
 | mimeContent | String | Contains the MIME-encoded message. |
 | saveInSentItems | Boolean | Specifies whether a copy of the message will be stored in the Sent Items folder. |
 
-## Return Value
+### Return Value
 
 Returns the client's unique message ID (MID).
 
@@ -69,7 +69,7 @@ public string SendMail(string mimeContent, bool saveInSentItems, string accountI
 | saveInSentItems | Boolean | Specifies whether a copy of the message will be stored in the Sent Items folder. |
 | accountId | String | Identifies the account from which an email is sent. |
 
-## Return Value
+### Return Value
 
 Returns the client's unique message ID (MID).
 
@@ -97,7 +97,7 @@ public string SendMail(string mimeContent, bool saveInSentItems, string accountI
 | accountId | String | Identifies the account from which an email is sent. |
 | templateId | String | Contains a string that identifies the rights policy template. |
 
-## Return Value
+### Return Value
 
 Returns the client's unique message ID (MID).
 

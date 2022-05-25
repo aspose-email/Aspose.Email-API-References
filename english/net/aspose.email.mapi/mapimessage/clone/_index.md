@@ -14,7 +14,7 @@ Creates a new object that is a copy of the current instance.
 public MapiMessage Clone()
 ```
 
-## Return Value
+### Return Value
 
 A new object that is a copy of this instance.
 

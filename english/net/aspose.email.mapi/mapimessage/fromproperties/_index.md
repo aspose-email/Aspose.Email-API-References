@@ -18,7 +18,7 @@ public static MapiMessage FromProperties(MapiPropertyCollection properties)
 | --- | --- | --- |
 | properties | MapiPropertyCollection | A collection of MapiProperty. |
 
-## Return Value
+### Return Value
 
 Returns a MapiMessage instance which is loaded from the specified properties.
 

@@ -14,7 +14,7 @@ Indicates the acceptance state of the task.
 public enum MapiTaskAcceptanceState
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ The type of Azure AD event.
 public enum ActivityAzureActiveDirectoryEventType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

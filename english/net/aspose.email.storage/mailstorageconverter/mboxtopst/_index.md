@@ -19,7 +19,7 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName)
 | mboxFileName | String | Name of the mbox file. |
 | pstFileName | String | Name of the PST file. |
 
-## Return Value
+### Return Value
 
 Personal storage object that represents the converted storage.
 
@@ -57,7 +57,7 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName,
 | pstFileName | String | Name of the PST file. |
 | mailHandler | MailHandler | The delegate called on each message |
 
-## Return Value
+### Return Value
 
 Personal storage object that represents the converted storage.
 
@@ -94,7 +94,7 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 | mboxrdDataStream | Stream | The mboxrd data stream. |
 | pstFileName | String | Name of the PST file. |
 
-## Return Value
+### Return Value
 
 Personal storage object that represents the converted storage.
 
@@ -129,7 +129,7 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 | pstFileName | String | Name of the PST file. |
 | mailHandler | MailHandler | The delegate called on each message |
 
-## Return Value
+### Return Value
 
 Personal storage object that represents the converted storage.
 

@@ -18,7 +18,7 @@ public static MapiMessage LoadFromTnef(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream representing message data in TNEF format |
 
-## Return Value
+### Return Value
 
 A read [`MapiMessage`](../../mapimessage)
 
@@ -49,7 +49,7 @@ public static MapiMessage LoadFromTnef(string fileName)
 | --- | --- | --- |
 | fileName | String | Name of file containing message data in TNEF format |
 
-## Return Value
+### Return Value
 
 A read [`MapiMessage`](../../mapimessage)
 

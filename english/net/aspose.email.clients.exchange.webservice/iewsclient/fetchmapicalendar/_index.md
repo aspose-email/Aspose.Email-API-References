@@ -18,7 +18,7 @@ public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris)
 | --- | --- | --- |
 | calendarUris | IEnumerable`1 | List of calendar uris to be fetched. |
 
-## Return Value
+### Return Value
 
 Fetch array of [`MapiCalendar`](../../../aspose.email.mapi/mapicalendar) objects.
 
@@ -45,7 +45,7 @@ public IList<MapiCalendar> FetchMapiCalendar(IEnumerable<string> calendarUris,
 | calendarUris | IEnumerable`1 | List of calendar uris to be fetched. |
 | customProperties | IEnumerable`1 | Custom mapi properties to retrieve. |
 
-## Return Value
+### Return Value
 
 Fetch array of [`MapiCalendar`](../../../aspose.email.mapi/mapicalendar) objects.
 

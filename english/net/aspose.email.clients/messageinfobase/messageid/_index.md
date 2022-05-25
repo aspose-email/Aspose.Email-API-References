@@ -14,7 +14,7 @@ Gets the message ID.
 public string MessageId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message id string.
 

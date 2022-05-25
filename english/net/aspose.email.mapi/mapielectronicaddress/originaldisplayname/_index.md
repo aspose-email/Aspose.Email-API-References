@@ -14,7 +14,7 @@ Gets or sets the SMTP e-mail address that corresponds to the e-mail address .
 public string OriginalDisplayName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The SMTP e-mail address.
 

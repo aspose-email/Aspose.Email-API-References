@@ -19,7 +19,7 @@ public static PersonalStorage FromStream(Stream stream, bool writable)
 | stream | Stream | The System.IO.Stream. |
 | writable | Boolean | if set to `true` then the the pst will support writing, otherwise it will be opened in read-only mode. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -44,7 +44,7 @@ public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptio
 | stream | Stream | The System.IO.Stream. |
 | loadOptions | PersonalStorageLoadOptions | The load options. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -69,7 +69,7 @@ public static PersonalStorage FromStream(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The System.IO.Stream. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -98,7 +98,7 @@ public static PersonalStorage FromStream(Stream stream, CancellationToken token)
 | stream | Stream | The System.IO.Stream. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -143,7 +143,7 @@ public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptio
 | loadOptions | PersonalStorageLoadOptions | The load options. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 

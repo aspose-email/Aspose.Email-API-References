@@ -18,7 +18,7 @@ public long GetMailboxSizeEx(string folderUri)
 | --- | --- | --- |
 | folderUri | String | Folder uri |
 
-## Return Value
+### Return Value
 
 size of the mailbox in bytes
 

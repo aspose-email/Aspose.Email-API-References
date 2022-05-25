@@ -14,7 +14,7 @@ The method tells the server about the request method.
 public enum FormMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

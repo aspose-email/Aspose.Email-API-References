@@ -18,7 +18,7 @@ public Task<IEnumerable<Contact>> FindPeopleAsync(EwsFindPeople parameters)
 | --- | --- | --- |
 | parameters | EwsFindPeople | The search parameters. |
 
-## Return Value
+### Return Value
 
 An array of [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 

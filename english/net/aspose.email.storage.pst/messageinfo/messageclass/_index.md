@@ -14,7 +14,7 @@ Gets the Message class.
 public string MessageClass { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message class.
 

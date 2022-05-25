@@ -15,7 +15,7 @@ Enumerates a vCard delivery address types
 public enum VCardDeliveryAddressType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

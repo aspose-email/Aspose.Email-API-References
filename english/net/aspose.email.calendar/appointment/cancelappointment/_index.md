@@ -14,7 +14,7 @@ Cancels the appointment.
 public AlternateView CancelAppointment()
 ```
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 
@@ -39,7 +39,7 @@ public AlternateView CancelAppointment(int seqId)
 | --- | --- | --- |
 | seqId | Int32 | The sequence id. |
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 

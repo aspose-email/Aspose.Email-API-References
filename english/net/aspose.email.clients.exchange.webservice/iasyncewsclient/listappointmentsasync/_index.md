@@ -22,7 +22,7 @@ public Task<Appointment[]> ListAppointmentsAsync(string folderUri, MailQuery que
 | recursive | Boolean | Indicates whether recursive listing or not. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 

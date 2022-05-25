@@ -14,7 +14,7 @@ Extracts the attachment from the Outlook Message files.
 public MapiAttachmentCollection ReadAttachments()
 ```
 
-## Return Value
+### Return Value
 
 The Attachment collection.
 

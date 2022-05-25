@@ -18,7 +18,7 @@ public MailTips[] GetMailTips(GetMailTipsOptions options)
 | --- | --- | --- |
 | options | GetMailTipsOptions | Options specifying a search criteria |
 
-## Return Value
+### Return Value
 
 An array of [`MailTips`](../../mailtips)
 

@@ -18,7 +18,7 @@ public bool Contains(string item)
 | --- | --- | --- |
 | item | String | A header to search |
 
-## Return Value
+### Return Value
 
 `True` if collection contains specified *item*; otherwise, `false`
 

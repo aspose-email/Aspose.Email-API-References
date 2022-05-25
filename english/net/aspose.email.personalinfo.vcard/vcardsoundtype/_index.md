@@ -14,7 +14,7 @@ Enumerates a cVard sound types
 public enum VCardSoundType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

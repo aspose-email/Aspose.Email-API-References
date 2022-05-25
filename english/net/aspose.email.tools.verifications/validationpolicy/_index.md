@@ -14,7 +14,7 @@ Presents the policy of validating email address.
 public enum ValidationPolicy
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

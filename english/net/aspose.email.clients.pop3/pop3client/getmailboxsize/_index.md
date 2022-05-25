@@ -18,7 +18,7 @@ public long GetMailboxSize(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 size of the mailbox in bytes
 
@@ -39,7 +39,7 @@ Gets the size of the mailbox
 public long GetMailboxSize()
 ```
 
-## Return Value
+### Return Value
 
 size of the mailbox in bytes
 

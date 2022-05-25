@@ -14,7 +14,7 @@ Gets the type of the body.
 public BodyContentType BodyType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the body.
 

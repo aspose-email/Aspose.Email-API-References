@@ -22,7 +22,7 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -51,7 +51,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -78,7 +78,7 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -104,7 +104,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool co
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -130,7 +130,7 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | sequenceNumber | Int32 | The sequence number of the message |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -157,7 +157,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 | uniqueId | String | The uid of the message |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -183,7 +183,7 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName)
 | sequenceNumber | Int32 | The sequence number of the message |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -208,7 +208,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName)
 | uniqueId | String | The uid of the message |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -237,7 +237,7 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -267,7 +267,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -296,7 +296,7 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -324,7 +324,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool co
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -352,7 +352,7 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -381,7 +381,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -408,7 +408,7 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, Canc
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -434,7 +434,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, Cancell
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

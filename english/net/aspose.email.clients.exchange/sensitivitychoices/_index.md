@@ -14,7 +14,7 @@ Enumerates the sensitivity level types that are available for an item.
 public enum SensitivityChoices
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

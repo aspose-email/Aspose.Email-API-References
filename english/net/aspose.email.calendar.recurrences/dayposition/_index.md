@@ -14,7 +14,7 @@ Day positions, typically found in a month.
 public enum DayPosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

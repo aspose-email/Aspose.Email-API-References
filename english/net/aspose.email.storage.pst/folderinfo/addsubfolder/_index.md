@@ -19,7 +19,7 @@ public FolderInfo AddSubFolder(string name, bool createHierarchy)
 | name | String | The name of sub-folder. |
 | createHierarchy | Boolean | if set to `true`, it is possible to create a folder hierarchy using string notation. Backslash ('\') is used as path separator. |
 
-## Return Value
+### Return Value
 
 The new sub-folder.
 
@@ -51,7 +51,7 @@ public FolderInfo AddSubFolder(string name)
 | --- | --- | --- |
 | name | String | The name of sub-folder. |
 
-## Return Value
+### Return Value
 
 The new sub-folder.
 
@@ -84,7 +84,7 @@ public FolderInfo AddSubFolder(string name, string containerClass)
 | name | String | The name of subfolder. |
 | containerClass | String | Container class of the sub-Folder object. |
 
-## Return Value
+### Return Value
 
 The new subfolder.
 

@@ -14,7 +14,7 @@ Tasks namespace of the ActiveSync protocol
 public enum Tasks
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

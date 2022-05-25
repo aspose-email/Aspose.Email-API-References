@@ -14,7 +14,7 @@ url: /net/aspose.email.mapi/propertydatatype/
 public enum PropertyDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

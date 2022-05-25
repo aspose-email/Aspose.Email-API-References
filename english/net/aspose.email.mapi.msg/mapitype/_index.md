@@ -14,7 +14,7 @@ Contains possible MAPI property types which can be stored with message object.
 public enum MapiType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

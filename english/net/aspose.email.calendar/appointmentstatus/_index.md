@@ -14,7 +14,7 @@ Defines the overall status or confirmation for the appointment.
 public enum AppointmentStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

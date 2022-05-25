@@ -15,7 +15,7 @@ MapiMessageFlags.
 public enum MapiMessageFlags : long
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

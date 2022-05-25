@@ -14,7 +14,7 @@ Gets the list of the members of the personal distribution list.
 public MapiDistributionListMemberCollection Members { get; }
 ```
 
-## Property Value
+### Property Value
 
 The collection of MapiDistributionListMember.
 

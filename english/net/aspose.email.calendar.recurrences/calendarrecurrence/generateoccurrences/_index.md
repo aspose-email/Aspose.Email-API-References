@@ -14,7 +14,7 @@ Generates the occurrences.
 public DateCollection GenerateOccurrences()
 ```
 
-## Return Value
+### Return Value
 
 Collection of dates[`DateCollection`](../../datecollection).
 
@@ -45,7 +45,7 @@ public DateCollection GenerateOccurrences(int nNextOccurrences)
 | --- | --- | --- |
 | nNextOccurrences | Int32 | The amount of needed occurrences. |
 
-## Return Value
+### Return Value
 
 Collection of dates[`DateCollection`](../../datecollection).
 
@@ -78,7 +78,7 @@ public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd
 | rangeStart | DateTime | The range start. |
 | rangeEnd | DateTime | The range end. |
 
-## Return Value
+### Return Value
 
 Collection of dates[`DateCollection`](../../datecollection).
 
@@ -112,7 +112,7 @@ public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd
 | rangeEnd | DateTime | The range end. |
 | nNextOccurrences | Int32 | The amount of needed occurrences. |
 
-## Return Value
+### Return Value
 
 Collection of dates[`DateCollection`](../../datecollection).
 

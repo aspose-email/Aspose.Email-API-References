@@ -14,7 +14,7 @@ Represents the assignment statuses of the task object.
 public enum MapiTaskMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

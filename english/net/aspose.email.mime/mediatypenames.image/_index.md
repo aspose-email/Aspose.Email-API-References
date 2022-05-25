@@ -14,6 +14,17 @@ Specifies the type of image data in an e-mail message attachment.
 public sealed class Image
 ```
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [Bmp](../../aspose.email.mime/image/bmp) | Specifies image/bmp media type |
+| const [Gif](../../aspose.email.mime/image/gif) | Specifies image/gif media type |
+| const [Jpeg](../../aspose.email.mime/image/jpeg) | Specifies image/jpeg media type |
+| const [Png](../../aspose.email.mime/image/png) | Specifies image/png media type |
+| const [Tiff](../../aspose.email.mime/image/tiff) | Specifies image/tiff media type |
+| const [Wmf](../../aspose.email.mime/image/wmf) | Specifies MS windows metafile image/x-wmf |
+
 ### See Also
 
 * class [MediaTypeNames](../mediatypenames)

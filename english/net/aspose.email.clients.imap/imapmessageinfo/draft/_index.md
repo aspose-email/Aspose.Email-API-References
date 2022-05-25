@@ -14,7 +14,7 @@ Gets a value indicating whether Flags property contains the Draft flag.
 public bool Draft { get; }
 ```
 
-## Property Value
+### Property Value
 
 The draft flag.
 

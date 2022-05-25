@@ -14,7 +14,7 @@ Defines the access classification for the appointment.
 public enum AppointmentClass
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

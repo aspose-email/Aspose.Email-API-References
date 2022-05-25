@@ -14,7 +14,7 @@ Gets a value indicating whether Flags property contains the Recent flag.
 public bool Recent { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recent flag.
 

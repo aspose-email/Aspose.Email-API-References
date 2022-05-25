@@ -18,7 +18,7 @@ public string UpdateNote(MapiNote note)
 | --- | --- | --- |
 | note | MapiNote | An [`MapiNote`](../../../aspose.email.mapi/mapinote) containing the note information. |
 
-## Return Value
+### Return Value
 
 Note uri.
 
@@ -44,7 +44,7 @@ public string UpdateNote(string uri, MapiNote note)
 | uri | String | Note identifier |
 | note | MapiNote | An [`MapiNote`](../../../aspose.email.mapi/mapinote) containing the note information. |
 
-## Return Value
+### Return Value
 
 Note uri.
 
@@ -72,7 +72,7 @@ public string UpdateNote(string uri, MapiNote note,
 | note | MapiNote | An [`MapiNote`](../../../aspose.email.mapi/mapinote) containing the note information. |
 | additionalProperties | IEnumerable`1 | An additional MAPI properties which can be used in MAPI object. |
 
-## Return Value
+### Return Value
 
 Note uri.
 

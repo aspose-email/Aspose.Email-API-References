@@ -14,7 +14,7 @@ List folders from the parent folder for folders that are displayed in normal mai
 public FolderInfoCollection ListFolders()
 ```
 
-## Return Value
+### Return Value
 
 Returns list of subfolders of the root folder
 
@@ -39,7 +39,7 @@ public FolderInfoCollection ListFolders(string id)
 | --- | --- | --- |
 | id | String | Parent folder id |
 
-## Return Value
+### Return Value
 
 Returns list of subfolders of the root folder
 

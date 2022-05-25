@@ -14,7 +14,7 @@ Requests the object.
 public AlternateView Request()
 ```
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 

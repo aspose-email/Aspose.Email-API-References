@@ -14,7 +14,7 @@ Updates the appointment.
 public AlternateView UpdateAppointment()
 ```
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 
@@ -39,7 +39,7 @@ public AlternateView UpdateAppointment(int seqId)
 | --- | --- | --- |
 | seqId | Int32 | The sequence id. |
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 

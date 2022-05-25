@@ -18,7 +18,7 @@ public MapiAttachment FetchAttachment(string id)
 | --- | --- | --- |
 | id | String | Attachment id |
 
-## Return Value
+### Return Value
 
 Returns attachment
 

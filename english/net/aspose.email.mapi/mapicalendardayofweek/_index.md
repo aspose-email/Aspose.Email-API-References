@@ -15,7 +15,7 @@ Enumerates the days of week of the mapi calendar recurrence pattern
 public enum MapiCalendarDayOfWeek
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

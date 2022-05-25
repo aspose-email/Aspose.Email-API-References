@@ -14,7 +14,7 @@ Gets the duration of the activity.
 public TimeSpan Duration { get; }
 ```
 
-## Property Value
+### Property Value
 
 The value that represents duration of the activity.
 

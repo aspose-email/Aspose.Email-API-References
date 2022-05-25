@@ -18,7 +18,7 @@ public static CalendarRecurrence FromiCalendar(string pattern)
 | --- | --- | --- |
 | pattern | String | StringString representation of iCalendar. |
 
-## Return Value
+### Return Value
 
 Recurrence pattern[`CalendarRecurrence`](../../calendarrecurrence).
 

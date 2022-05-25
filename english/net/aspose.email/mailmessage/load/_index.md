@@ -18,7 +18,7 @@ public static MailMessage Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Message file name. The message file must be in eml or msg format. |
 
-## Return Value
+### Return Value
 
 E-mail message
 
@@ -42,7 +42,7 @@ public static MailMessage Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Stream that represents message in eml or msg format |
 
-## Return Value
+### Return Value
 
 E-mail message
 
@@ -67,7 +67,7 @@ public static MailMessage Load(string fileName, LoadOptions options)
 | fileName | String | Source file pathString. |
 | options | LoadOptions | Additional options [`LoadOptions`](../../loadoptions). |
 
-## Return Value
+### Return Value
 
 Mail message[`MailMessage`](../../mailmessage).
 
@@ -99,7 +99,7 @@ public static MailMessage Load(Stream stream, LoadOptions options)
 | stream | Stream | Source streamStream. |
 | options | LoadOptions | Additional options [`LoadOptions`](../../loadoptions). |
 
-## Return Value
+### Return Value
 
 Mail message[`MailMessage`](../../mailmessage).
 

@@ -18,7 +18,7 @@ public Task<int> GetMessageCountAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -44,7 +44,7 @@ public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransact
 | connection | IConnection | Connection to a server |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -65,7 +65,7 @@ Gets the message count
 public Task<int> GetMessageCountAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -89,7 +89,7 @@ public Task<int> GetMessageCountAsync(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -114,7 +114,7 @@ public Task<int> GetMessageCountAsync(IConnection connection, CancellationToken 
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -142,7 +142,7 @@ public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransact
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -167,7 +167,7 @@ public Task<int> GetMessageCountAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -192,7 +192,7 @@ public Task<int> GetMessageCountAsync(bool closeTransaction, CancellationToken t
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -14,7 +14,7 @@ Gets or sets the Embedded Message Object storage if present.Can be null.
 public MessageObject EmbeddedMessage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The embedded message.
 

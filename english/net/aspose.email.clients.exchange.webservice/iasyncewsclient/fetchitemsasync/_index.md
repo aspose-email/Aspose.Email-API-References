@@ -18,7 +18,7 @@ public Task<IEnumerable<MapiMessage>> FetchItemsAsync(EwsFetchItems ewsFetchItem
 | --- | --- | --- |
 | ewsFetchItems | EwsFetchItems | Method parameters. |
 
-## Return Value
+### Return Value
 
 A list of fetched items.
 

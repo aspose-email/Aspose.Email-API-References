@@ -14,7 +14,7 @@ Gets string representation of entry ID.
 public virtual string ItemId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The entry id string.
 

@@ -15,7 +15,7 @@ Enumerates vCard email types
 public enum VCardEmailType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

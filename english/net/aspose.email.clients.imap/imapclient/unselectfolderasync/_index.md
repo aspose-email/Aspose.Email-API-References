@@ -18,7 +18,7 @@ public Task UnselectFolderAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -39,7 +39,7 @@ Permanently removes all messages marked as deleted for currently selected folder
 public Task UnselectFolderAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -64,7 +64,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge)
 | connection | IConnection | Connection to a server |
 | doNotExpunge | Boolean | Specifies whether messages marked as deleted should be removed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -89,7 +89,7 @@ public Task UnselectFolderAsync(bool doNotExpunge)
 | --- | --- | --- |
 | doNotExpunge | Boolean | Specifies whether messages marked as deleted should be removed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -114,7 +114,7 @@ public Task UnselectFolderAsync(IConnection connection, CancellationToken token)
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -139,7 +139,7 @@ public Task UnselectFolderAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -165,7 +165,7 @@ public Task UnselectFolderAsync(IConnection connection, bool doNotExpunge, Cance
 | doNotExpunge | Boolean | Specifies whether messages marked as deleted should be removed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -191,7 +191,7 @@ public Task UnselectFolderAsync(bool doNotExpunge, CancellationToken token)
 | doNotExpunge | Boolean | Specifies whether messages marked as deleted should be removed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

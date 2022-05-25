@@ -21,7 +21,7 @@ public static AutodiscoverResult Autodiscover(string autodiscoverUri, NetworkCre
 | credential | NetworkCredential | Credentials for connecting to the server. |
 | emailAddress | String | The email address is a required child element of the autodiscover request |
 
-## Return Value
+### Return Value
 
 Autodiscover result
 
@@ -46,7 +46,7 @@ public virtual AutodiscoverResult Autodiscover(string emailAddress)
 | --- | --- | --- |
 | emailAddress | String | The email address is a required child element of the autodiscover request |
 
-## Return Value
+### Return Value
 
 Autodiscover result
 

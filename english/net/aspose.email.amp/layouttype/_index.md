@@ -14,7 +14,7 @@ The layout attribute gives you easy, per-element control over how your element s
 public enum LayoutType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

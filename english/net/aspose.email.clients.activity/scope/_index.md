@@ -14,7 +14,7 @@ Audit scope
 public enum Scope
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

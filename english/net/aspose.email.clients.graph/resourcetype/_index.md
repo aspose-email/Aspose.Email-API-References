@@ -14,7 +14,7 @@ The resource in Microsoft Graph that you're referencing.
 public enum ResourceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

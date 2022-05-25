@@ -18,7 +18,7 @@ public static implicit operator MapiContactElectronicAddress(string emailAddress
 | --- | --- | --- |
 | emailAddress | String | The email address. |
 
-## Return Value
+### Return Value
 
 The result of the conversion.
 

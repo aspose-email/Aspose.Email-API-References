@@ -18,7 +18,7 @@ public IList<MailMessage> FetchMessages(IEnumerable<int> sequenceNumbers)
 | --- | --- | --- |
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 
@@ -43,7 +43,7 @@ public IList<MailMessage> FetchMessages(IEnumerable<string> uids)
 | --- | --- | --- |
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 
@@ -69,7 +69,7 @@ public IList<MailMessage> FetchMessages(IConnection connection, IEnumerable<int>
 | connection | IConnection | Connection to a server |
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 
@@ -96,7 +96,7 @@ public IList<MailMessage> FetchMessages(IConnection connection, IEnumerable<stri
 | connection | IConnection | Connection to a server |
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 

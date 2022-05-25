@@ -14,7 +14,7 @@ Gets container class of the folder object.
 public string ContainerClass { get; }
 ```
 
-## Property Value
+### Property Value
 
 The container class.
 

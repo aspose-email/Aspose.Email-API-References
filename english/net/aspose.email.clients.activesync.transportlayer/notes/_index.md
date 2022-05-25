@@ -14,7 +14,7 @@ Notes namespace of the ActiveSync protocol
 public enum Notes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

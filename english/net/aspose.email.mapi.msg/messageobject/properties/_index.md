@@ -14,7 +14,7 @@ Gets the properties of the [`MessageObject`](../../messageobject).
 public MessageObjectPropertiesCollection Properties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The properties.
 

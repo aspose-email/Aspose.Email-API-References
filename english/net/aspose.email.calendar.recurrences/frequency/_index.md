@@ -14,7 +14,7 @@ Specifies frequency of the recurrence rule.
 public enum Frequency
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

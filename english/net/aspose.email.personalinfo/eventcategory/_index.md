@@ -41,13 +41,13 @@ public class EventCategory : IEquatable<EventCategory>
 | [operator ==](../../aspose.email.personalinfo/eventcategory/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/eventcategory/op_inequality) | Determines whether the specified objects are not equal. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [AnniversaryValue](anniversaryvalue) | String value for 'Anniversary' category |
-| const [BirthdayValue](birthdayvalue) | String value for 'Birthday' category |
-| const [CustomValue](customvalue) | String value for 'Custom' category |
+| const [AnniversaryValue](../../aspose.email.personalinfo/eventcategory/anniversaryvalue) | String value for 'Anniversary' category |
+| const [BirthdayValue](../../aspose.email.personalinfo/eventcategory/birthdayvalue) | String value for 'Birthday' category |
+| const [CustomValue](../../aspose.email.personalinfo/eventcategory/customvalue) | String value for 'Custom' category |
 
 ### See Also
 

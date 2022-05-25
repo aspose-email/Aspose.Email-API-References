@@ -14,7 +14,7 @@ Gets oAuth access token. If token exists and its expiration date is not expired 
 public OAuthToken GetAccessToken()
 ```
 
-## Return Value
+### Return Value
 
 Returns oAuth access token
 
@@ -39,7 +39,7 @@ public OAuthToken GetAccessToken(bool ignoreExistingToken)
 | --- | --- | --- |
 | ignoreExistingToken | Boolean | If ignoreExistingToken is true, requests new token from a server. Otherwise behaviour is depended on whether token exists or not. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
 
-## Return Value
+### Return Value
 
 Returns oAuth access token
 

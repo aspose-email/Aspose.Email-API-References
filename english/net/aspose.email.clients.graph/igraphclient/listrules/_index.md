@@ -14,7 +14,7 @@ Get all the messageRule objects defined for the user's Inbox. Permissions One of
 public List<InboxRule> ListRules()
 ```
 
-## Return Value
+### Return Value
 
 List of inbox rules
 

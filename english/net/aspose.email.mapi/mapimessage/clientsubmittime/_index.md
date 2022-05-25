@@ -14,7 +14,7 @@ Gets or sets the date and time the message sender submitted a message.
 public DateTime ClientSubmitTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The DateTime that represents client submit time.
 

@@ -14,7 +14,7 @@ Represents the priority on the task.
 public enum MapiTaskPriority
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

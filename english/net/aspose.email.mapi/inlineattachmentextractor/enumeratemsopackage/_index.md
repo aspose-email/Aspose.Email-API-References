@@ -18,7 +18,7 @@ public static IDictionary<string, byte[]> EnumerateMsoPackage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream to parse. |
 
-## Return Value
+### Return Value
 
 Dictionary with files data.
 

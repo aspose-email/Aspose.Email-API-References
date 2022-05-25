@@ -14,7 +14,7 @@ Gets the calendar text.
 public string GetAppointmentText()
 ```
 
-## Return Value
+### Return Value
 
 String value of calendar as plain text.
 
@@ -38,7 +38,7 @@ public string GetAppointmentText(AppointmentFormattingOptions formattingOptions)
 | --- | --- | --- |
 | formattingOptions | AppointmentFormattingOptions | [`AppointmentFormattingOptions`](../../appointmentformattingoptions) that represents appointment formatting options. |
 
-## Return Value
+### Return Value
 
 The text representation of appointment.
 

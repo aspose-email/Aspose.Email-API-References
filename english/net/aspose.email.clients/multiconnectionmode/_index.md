@@ -14,7 +14,7 @@ Enumerate modes which indicates how client has to use multiple connections for h
 public enum MultiConnectionMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

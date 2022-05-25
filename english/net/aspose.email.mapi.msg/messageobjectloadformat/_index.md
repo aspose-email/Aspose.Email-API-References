@@ -14,7 +14,7 @@ Represents available formats [`MessageObject`](../messageobject) could be loaded
 public enum MessageObjectLoadFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Credential types
 public enum CredentialType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -22,7 +22,7 @@ public Task<Contact> GetContactAsync(string contactId,
 | options | ExchangeListContactsOptions | Settings for retrieving contact. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Contact information
 

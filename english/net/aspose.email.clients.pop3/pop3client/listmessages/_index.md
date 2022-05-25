@@ -18,7 +18,7 @@ public Pop3MessageInfoCollection ListMessages(IEnumerable<string> uniqueIdLst)
 | --- | --- | --- |
 | uniqueIdLst | IEnumerable`1 | UniqueId list for [`Pop3MessageInfo`](../../pop3messageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -47,7 +47,7 @@ public Pop3MessageInfoCollection ListMessages(IEnumerable<int> sequenceNumberLst
 | --- | --- | --- |
 | sequenceNumberLst | IEnumerable`1 | sequenceNumber list for [`Pop3MessageInfo`](../../pop3messageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -78,7 +78,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection,
 | connection | IConnection | Connection to a server |
 | uniqueIdLst | IEnumerable`1 | UniqueId list for [`Pop3MessageInfo`](../../pop3messageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -110,7 +110,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection,
 | connection | IConnection | Connection to a server |
 | sequenceNumberLst | IEnumerable`1 | sequenceNumber list for [`Pop3MessageInfo`](../../pop3messageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -140,7 +140,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -171,7 +171,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, bool close
 | connection | IConnection | Connection to a server |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -202,7 +202,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, MailQuery 
 | connection | IConnection | Connection to a server |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -230,7 +230,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, Pop3ListFi
 | connection | IConnection | Connection to a server |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -265,7 +265,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, Pop3ListFi
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -289,7 +289,7 @@ Lists the messages. Gets an information for earch message
 public Pop3MessageInfoCollection ListMessages()
 ```
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -318,7 +318,7 @@ public Pop3MessageInfoCollection ListMessages(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -347,7 +347,7 @@ public Pop3MessageInfoCollection ListMessages(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -373,7 +373,7 @@ public Pop3MessageInfoCollection ListMessages(Pop3ListFields fields)
 | --- | --- | --- |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -406,7 +406,7 @@ public Pop3MessageInfoCollection ListMessages(Pop3ListFields fields, bool closeT
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 

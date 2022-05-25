@@ -14,7 +14,7 @@ Gets formatting information about a Multipurpose Internet Mail Extensions (MIME)
 public string MimeTag { get; }
 ```
 
-## Property Value
+### Property Value
 
 The mime tag.
 

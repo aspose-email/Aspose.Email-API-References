@@ -18,7 +18,7 @@ public Notebook CreateNotebook(Notebook notebook)
 | --- | --- | --- |
 | notebook | Notebook | Notebook to be created |
 
-## Return Value
+### Return Value
 
 Created notebook
 

@@ -19,7 +19,7 @@ public string AppendMessage(IConnection connection, MailMessage message)
 | connection | IConnection | Connection to a server |
 | message | MailMessage | Mail message to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -47,7 +47,7 @@ public string AppendMessage(IConnection connection, string folderName, MailMessa
 | folderName | String | Folder that will receive the mail message |
 | message | MailMessage | Mail message to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -74,7 +74,7 @@ public string AppendMessage(IConnection connection, string fileName)
 | connection | IConnection | Connection to a server |
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -101,7 +101,7 @@ public string AppendMessage(IConnection connection, string folderName, string fi
 | folderName | String | Folder that will receive the mail message |
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -126,7 +126,7 @@ public string AppendMessage(MailMessage message)
 | --- | --- | --- |
 | message | MailMessage | Mail message to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -152,7 +152,7 @@ public string AppendMessage(string folderName, MailMessage message)
 | folderName | String | Folder that will receive the mail message |
 | message | MailMessage | Mail message to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -177,7 +177,7 @@ public string AppendMessage(string fileName)
 | --- | --- | --- |
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -202,7 +202,7 @@ public string AppendMessage(string folderName, string fileName)
 | folderName | String | Folder that will receive the mail message |
 | fileName | String | File name (*.eml) of the mail message that will be uploaded |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 

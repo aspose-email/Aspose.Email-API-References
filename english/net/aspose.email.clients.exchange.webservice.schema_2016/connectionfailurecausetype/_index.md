@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/connectionfailure
 public enum ConnectionFailureCauseType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

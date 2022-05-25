@@ -18,7 +18,7 @@ public virtual MailMessage Encrypt(X509Certificate2 certificate)
 | --- | --- | --- |
 | certificate | X509Certificate2 | X509 certificate to encrypt message |
 
-## Return Value
+### Return Value
 
 Encrypted email message
 
@@ -42,7 +42,7 @@ public virtual MailMessage Encrypt(X509Certificate2[] certificates)
 | --- | --- | --- |
 | certificates | X509Certificate2[] | Array with X509 certificates to encrypt message |
 
-## Return Value
+### Return Value
 
 Encrypted email message
 

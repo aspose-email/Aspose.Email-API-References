@@ -14,7 +14,7 @@ Gets the message subject.
 public string Subject { get; }
 ```
 
-## Property Value
+### Property Value
 
 The subject.
 

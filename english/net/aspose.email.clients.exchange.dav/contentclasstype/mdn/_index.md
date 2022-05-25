@@ -14,7 +14,7 @@ Gets the urn:content-classes:mdn content class that defines a set of properties 
 public static ContentClassType MDN { get; }
 ```
 
-## Property Value
+### Property Value
 
 The MDN content class.
 

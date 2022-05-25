@@ -18,7 +18,7 @@ public static EmlValidationErrorCollection ValidateMessage(string fileName)
 | --- | --- | --- |
 | fileName | String | A file name (eml). |
 
-## Return Value
+### Return Value
 
 A [`EmlValidationErrorCollection`](../../emlvalidationerrorcollection) containing the found validation error messages.
 
@@ -50,7 +50,7 @@ public static EmlValidationErrorCollection ValidateMessage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream containing the message in eml format. |
 
-## Return Value
+### Return Value
 
 A [`EmlValidationErrorCollection`](../../emlvalidationerrorcollection) containing the found validation error messages.
 

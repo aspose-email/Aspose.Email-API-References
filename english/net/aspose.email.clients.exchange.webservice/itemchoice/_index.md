@@ -14,7 +14,7 @@ Specifies property type which should be used for Exchange impersonation.
 public enum ItemChoice
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

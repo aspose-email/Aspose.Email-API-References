@@ -22,7 +22,7 @@ public static ASProtocolVersions GetOptions(string uri, NetworkCredential creden
 | supportedServerCommands | String[]& | Out parameter, returns supported protocol commands |
 | supportedServerProtocols | String[]& | Out parameter, returns supported versions of the protocol |
 
-## Return Value
+### Return Value
 
 Returns latest supported protocol version
 

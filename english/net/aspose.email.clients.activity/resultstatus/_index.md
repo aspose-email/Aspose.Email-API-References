@@ -14,7 +14,7 @@ Indicates statuses of logged operation.
 public enum ResultStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

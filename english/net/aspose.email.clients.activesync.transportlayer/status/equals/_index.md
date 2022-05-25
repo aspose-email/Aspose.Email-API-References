@@ -18,7 +18,7 @@ public virtual bool Equals(Status other)
 | --- | --- | --- |
 | other | Status | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified object is equal to the current object; otherwise, false.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified object is equal to the current object; otherwise, false.
 

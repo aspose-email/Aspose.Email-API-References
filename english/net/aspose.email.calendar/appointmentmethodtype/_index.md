@@ -14,7 +14,7 @@ Defines the iCalendar object method type associated with the calendar object.
 public enum AppointmentMethodType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

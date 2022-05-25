@@ -19,7 +19,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique Id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -70,7 +70,7 @@ public Task UndeleteMessageAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -94,7 +94,7 @@ public Task UndeleteMessageAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique Id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -121,7 +121,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 | sequenceNumber | Int32 | The sequence number of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -148,7 +148,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, long m
 | uniqueId | String | The unique Id of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -174,7 +174,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence)
 | sequenceNumber | Int32 | The sequence number of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -199,7 +199,7 @@ public Task UndeleteMessageAsync(string uniqueId, long modificationSequence)
 | uniqueId | String | The unique Id of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -226,7 +226,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -253,7 +253,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, Cancel
 | uniqueId | String | The unique Id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -279,7 +279,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, CancellationToken token)
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -304,7 +304,7 @@ public Task UndeleteMessageAsync(string uniqueId, CancellationToken token)
 | uniqueId | String | The unique Id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -332,7 +332,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -361,7 +361,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -389,7 +389,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -416,7 +416,7 @@ public Task UndeleteMessageAsync(string uniqueId, long modificationSequence,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

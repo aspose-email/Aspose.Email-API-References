@@ -14,7 +14,7 @@ FolderHierarchy namespace of the ActiveSync protocol
 public enum FolderHierarchy
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets a flags that contains metadata about the Journal object.
 public MapiJournalFlags Flags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The journal flags.
 

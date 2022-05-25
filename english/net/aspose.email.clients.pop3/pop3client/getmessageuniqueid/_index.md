@@ -19,7 +19,7 @@ public string GetMessageUniqueId(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 String that represents uid of the message
 
@@ -44,7 +44,7 @@ public string GetMessageUniqueId(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 String that represents uid of the message
 

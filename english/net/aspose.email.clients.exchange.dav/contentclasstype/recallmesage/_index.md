@@ -14,7 +14,7 @@ Gets the urn:content-classes:recallmessage content class that defines a set of p
 public static ContentClassType RecallMesage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recall mesage content class.
 

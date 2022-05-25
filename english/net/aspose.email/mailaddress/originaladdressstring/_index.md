@@ -14,7 +14,7 @@ Gets or sets the original e-mail address string.
 public string OriginalAddressString { get; }
 ```
 
-## Property Value
+### Property Value
 
 A String that contains the original e-mail address.
 

@@ -18,7 +18,7 @@ public MessageInfoCollection GetContents(bool tryToReadCorruptedContents)
 | --- | --- | --- |
 | tryToReadCorruptedContents | Boolean | If the value of this parameter is true, the method will try to read the content even if the file is corrupted. This value can be used if the GetContents() method throws an exception about the file corruption. If the value of this parameter is false, the method works in the same way as GetContents() method without parameters. |
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 
@@ -39,7 +39,7 @@ Get collection of messages.
 public MessageInfoCollection GetContents()
 ```
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 
@@ -64,7 +64,7 @@ public MessageInfoCollection GetContents(MessageKind kind)
 | --- | --- | --- |
 | kind | MessageKind | The message kind. |
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 
@@ -90,7 +90,7 @@ public MessageInfoCollection GetContents(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 
@@ -117,7 +117,7 @@ public MessageInfoCollection GetContents(int startIndex, int count)
 | startIndex | Int32 | The start message index. |
 | count | Int32 | The number of messages that will be retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 

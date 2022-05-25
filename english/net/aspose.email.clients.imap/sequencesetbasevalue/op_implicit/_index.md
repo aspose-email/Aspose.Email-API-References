@@ -18,7 +18,7 @@ public static implicit operator string(SequenceSetBaseValue value)
 | --- | --- | --- |
 | value | SequenceSetBaseValue | Value to convert |
 
-## Return Value
+### Return Value
 
 Returns string representation of converted object.
 

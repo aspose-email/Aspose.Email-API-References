@@ -14,7 +14,7 @@ ValidateCert namespace of the ActiveSync protocol
 public enum ValidateCert
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

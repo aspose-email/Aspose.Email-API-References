@@ -14,7 +14,7 @@ Gets a value indicating whether Flags property contains the Read flag.
 public bool IsRead { get; }
 ```
 
-## Property Value
+### Property Value
 
 The read flag.
 

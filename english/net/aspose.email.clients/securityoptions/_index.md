@@ -15,7 +15,7 @@ Security mode for a mail client
 public enum SecurityOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

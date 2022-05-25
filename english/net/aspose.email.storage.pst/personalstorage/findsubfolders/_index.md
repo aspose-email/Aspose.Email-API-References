@@ -18,7 +18,7 @@ public IList<string> FindSubfolders(string parentEntryId)
 | --- | --- | --- |
 | parentEntryId | String | Entry id of the parent folder. |
 
-## Return Value
+### Return Value
 
 Collection of entry Ids.
 

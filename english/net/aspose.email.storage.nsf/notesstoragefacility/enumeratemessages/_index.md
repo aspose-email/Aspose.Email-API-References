@@ -14,7 +14,7 @@ Exposes the enumerator, which supports an iteration of messages in storage.
 public IEnumerable<MailMessage> EnumerateMessages()
 ```
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in storage.
 

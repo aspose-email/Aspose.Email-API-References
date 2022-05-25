@@ -14,7 +14,7 @@ Represents the response status of the mail validating process.
 public enum ValidationResponseCode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the kind of the property if it's named.
 public NamedPropertyKind PropertyKind { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The kind of the property.
 

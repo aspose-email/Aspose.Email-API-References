@@ -14,7 +14,7 @@ Gets the The urn:content-classes:contactfolder content class that defines a set 
 public static ContentClassType ContactFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The contact folder content class.
 

@@ -15,7 +15,7 @@ Represents flags which can be set on a MAPI property.
 public enum MapiPropertyFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

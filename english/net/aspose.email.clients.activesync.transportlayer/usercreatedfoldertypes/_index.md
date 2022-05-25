@@ -14,7 +14,7 @@ Specifies the type of the folder to be created.
 public enum UserCreatedFolderTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

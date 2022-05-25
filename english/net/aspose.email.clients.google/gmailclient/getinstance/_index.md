@@ -19,7 +19,7 @@ public static IGmailClient GetInstance(string accessToken, string defaultEmail)
 | accessToken | String | OAuth 2.0 access token |
 | defaultEmail | String | Default email address |
 
-## Return Value
+### Return Value
 
 Returns instance of Gmail client
 
@@ -46,7 +46,7 @@ public static IGmailClient GetInstance(string accessToken, IWebProxy proxy, stri
 | proxy | IWebProxy | IWebProxy for Gmail client |
 | defaultEmail | String | Default email address |
 
-## Return Value
+### Return Value
 
 Returns instance of Gmail client
 
@@ -75,7 +75,7 @@ public static IGmailClient GetInstance(string clientId, string clientSecret, str
 | refreshToken | String | OAuth 2.0 refresh token |
 | defaultEmail | String | Default email address |
 
-## Return Value
+### Return Value
 
 Returns instance of Gmail client
 
@@ -105,7 +105,7 @@ public static IGmailClient GetInstance(string clientId, string clientSecret, str
 | proxy | IWebProxy | IWebProxy for Gmail client |
 | defaultEmail | String | Default email address |
 
-## Return Value
+### Return Value
 
 Returns instance of Gmail client
 

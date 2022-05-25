@@ -14,7 +14,7 @@ Audit event sources
 public enum EventSource
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

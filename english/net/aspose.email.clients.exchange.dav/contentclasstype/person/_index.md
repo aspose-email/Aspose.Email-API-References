@@ -14,7 +14,7 @@ Gets the urn:content-classes:person content class that defines a set of properti
 public static ContentClassType Person { get; }
 ```
 
-## Property Value
+### Property Value
 
 The person content class.
 

@@ -44,11 +44,11 @@ public class Calendar : BaseDataObject
 | --- | --- |
 | override [ToString](../../aspose.email.clients.google/calendar/tostring)() | Returns a string which represents the object instance. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [CalendarKind](calendarkind) | Type of the resource "calendar#calendar". |
+| const [CalendarKind](../../aspose.email.clients.google/calendar/calendarkind) | Type of the resource "calendar#calendar". |
 
 ### See Also
 

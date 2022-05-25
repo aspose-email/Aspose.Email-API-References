@@ -21,7 +21,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 | sequenceNumber | Int32 | The sequence number of message |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -48,7 +48,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -76,7 +76,7 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber,
 | sequenceNumber | Int32 | The sequence number of message |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -101,7 +101,7 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -129,7 +129,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 | uniqueId | String | The unique Id of the message |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -156,7 +156,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique Id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -182,7 +182,7 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique Id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -209,7 +209,7 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId,
 | uniqueId | String | The unique Id of the message |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -238,7 +238,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -267,7 +267,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, int sequen
 | sequenceNumber | Int32 | The sequence number of message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -296,7 +296,7 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber,
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -322,7 +322,7 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber, CancellationTo
 | sequenceNumber | Int32 | The sequence number of message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -351,7 +351,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -380,7 +380,7 @@ public Task<ImapMessageInfo> ListMessageAsync(IConnection connection, string uni
 | uniqueId | String | The unique Id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -407,7 +407,7 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId, CancellationToken
 | uniqueId | String | The unique Id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -435,7 +435,7 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId,
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

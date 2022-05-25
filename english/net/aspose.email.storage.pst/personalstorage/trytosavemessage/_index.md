@@ -19,7 +19,7 @@ public SaveResult TryToSaveMessage(string entryId, Stream stream)
 | entryId | String | The entry id. |
 | stream | Stream | The stream for writing. |
 
-## Return Value
+### Return Value
 
 The [`SaveResult`](../../saveresult) that represents the result of item saving.
 

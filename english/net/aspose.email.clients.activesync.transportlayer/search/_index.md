@@ -14,7 +14,7 @@ Search namespace of the ActiveSync protocol
 public enum Search
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

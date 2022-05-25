@@ -18,7 +18,7 @@ public virtual string Format(LogEntry entry)
 | --- | --- | --- |
 | entry | LogEntry | Log entry to format. |
 
-## Return Value
+### Return Value
 
 String representing the log entry.
 

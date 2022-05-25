@@ -18,7 +18,7 @@ public static InboxRule CreateRuleDeleteFrom(MailAddress from)
 | --- | --- | --- |
 | from | MailAddress | A [`EmailAddress`](../../../aspose.email.personalinfo/emailaddress) of sender |
 
-## Return Value
+### Return Value
 
 A created [`InboxRule`](../../inboxrule)
 

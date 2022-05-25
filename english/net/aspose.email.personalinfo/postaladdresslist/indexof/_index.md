@@ -18,7 +18,7 @@ public int IndexOf(PostalAddress value)
 | --- | --- | --- |
 | value | PostalAddress | The Object to locate in the list. |
 
-## Return Value
+### Return Value
 
 The index of *value* if found in the list; otherwise, -1.
 

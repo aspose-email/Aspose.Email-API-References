@@ -19,7 +19,7 @@ public string TryGetPropertyString(long tag, int codepage)
 | tag | Int64 | The property tag key. |
 | codepage | Int32 | The code page. |
 
-## Return Value
+### Return Value
 
 String that contains the contents of property data.
 
@@ -43,7 +43,7 @@ public string TryGetPropertyString(long tag)
 | --- | --- | --- |
 | tag | Int64 | The property tag key. |
 
-## Return Value
+### Return Value
 
 String that contains the contents of property data.
 
@@ -69,7 +69,7 @@ public bool TryGetPropertyString(long tag, ref string value, int codepage)
 | value | String& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
 | codepage | Int32 | The specified codepage used to get string value. |
 
-## Return Value
+### Return Value
 
 true if s was converted successfully; otherwise, false.
 
@@ -94,7 +94,7 @@ public bool TryGetPropertyString(long tag, ref string value)
 | tag | Int64 | The MAPI property tag. |
 | value | String& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
 
-## Return Value
+### Return Value
 
 true if s was converted successfully; otherwise, false.
 

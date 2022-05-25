@@ -24,7 +24,7 @@ public Task<ExchangeFolderInfo> CreateFolderAsync(string parentFolderUri, string
 | folderClass | String | The class of new folder |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns folder information
 

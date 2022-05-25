@@ -18,7 +18,7 @@ public MailAddressCollection ExpandDistributionList(MailAddress mailAddress)
 | --- | --- | --- |
 | mailAddress | MailAddress | A public [`MailAddress`](../../../aspose.email/mailaddress) to expand. |
 
-## Return Value
+### Return Value
 
 A [`MailAddressCollection`](../../../aspose.email/mailaddresscollection) that contains members from the specified public Distribution List.
 

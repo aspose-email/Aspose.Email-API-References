@@ -14,7 +14,7 @@ Enumerates contact save formats
 public enum ContactSaveFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

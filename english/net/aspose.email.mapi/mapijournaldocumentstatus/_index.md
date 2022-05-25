@@ -15,7 +15,7 @@ Indicates the status of document.
 public enum MapiJournalDocumentStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -19,7 +19,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credential
 | mailboxUri | String | The URI of mailbox |
 | credentials | ICredentials | Contains the credentials for authentication. |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -46,7 +46,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 | username | String | The username |
 | password | String | The password |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -75,7 +75,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 | password | String | The password |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -104,7 +104,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 | password | String | The password |
 | domain | String | The domain name |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -134,7 +134,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 | domain | String | The domain name |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -163,7 +163,7 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion, string mail
 | credentials | ICredentials | Contains the credentials for authentication. |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -196,7 +196,7 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion,
 | credentials | ICredentials | Contains the credentials for authentication. |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -224,7 +224,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credential
 | credentials | ICredentials | Contains the credentials for authentication. |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 

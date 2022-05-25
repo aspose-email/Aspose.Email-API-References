@@ -14,7 +14,7 @@ Represents options for create and delete operations
 public enum CalendarItemCreateOrDeleteOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

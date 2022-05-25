@@ -14,7 +14,7 @@ GAL namespace of the ActiveSync protocol
 public enum GAL
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

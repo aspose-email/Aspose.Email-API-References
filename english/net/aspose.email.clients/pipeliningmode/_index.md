@@ -14,7 +14,7 @@ Defines how mail client supports the pipelining
 public enum PipeliningMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

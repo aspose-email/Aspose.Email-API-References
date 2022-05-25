@@ -20,7 +20,7 @@ public Task RenameFolderAsync(IConnection connection, string folderName, string 
 | folderName | String | Folder to be renamed |
 | newFolderName | String | New folder name |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -46,7 +46,7 @@ public Task RenameFolderAsync(string folderName, string newFolderName)
 | folderName | String | Folder to be renamed |
 | newFolderName | String | New folder name |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -74,7 +74,7 @@ public Task RenameFolderAsync(IConnection connection, string folderName, string 
 | newFolderName | String | New folder name |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -101,7 +101,7 @@ public Task RenameFolderAsync(string folderName, string newFolderName, Cancellat
 | newFolderName | String | New folder name |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

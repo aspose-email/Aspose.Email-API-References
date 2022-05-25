@@ -14,7 +14,7 @@ Gets the first bytes of the binary data as boolean.
 public virtual bool GetBoolean()
 ```
 
-## Return Value
+### Return Value
 
 The boolean value.
 

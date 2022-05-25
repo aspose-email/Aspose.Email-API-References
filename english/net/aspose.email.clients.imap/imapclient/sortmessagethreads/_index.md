@@ -18,7 +18,7 @@ public List<MessageThreadResult> SortMessageThreads(SortConditions conditions)
 | --- | --- | --- |
 | conditions | SortConditions | Thread conditions. |
 
-## Return Value
+### Return Value
 
 Message threads
 
@@ -46,7 +46,7 @@ public List<MessageThreadResult> SortMessageThreads(IConnection connection,
 | connection | IConnection | Connection to a server |
 | conditions | SortConditions | Thread conditions. |
 
-## Return Value
+### Return Value
 
 Message threads
 

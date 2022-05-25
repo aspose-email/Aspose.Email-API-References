@@ -20,7 +20,7 @@ public Task<string[]> GetServerTimeZoneIdsAsync(IEnumerable<string> timeZoneIds,
 | timeZoneIds | IEnumerable`1 | Identifiers of time zones for checking existence on the server. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns an array of time zone id that are available on an Exchange server.
 

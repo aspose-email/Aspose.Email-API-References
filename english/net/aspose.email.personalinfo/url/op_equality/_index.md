@@ -19,7 +19,7 @@ public static bool operator ==(Url a, Url b)
 | a | Url | First object to compare |
 | b | Url | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise false.
 

@@ -14,7 +14,7 @@ Gets the first 2 bytes of the binary data as short.
 public virtual short GetShort()
 ```
 
-## Return Value
+### Return Value
 
 The short value.
 

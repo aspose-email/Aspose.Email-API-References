@@ -20,7 +20,7 @@ public Task<SyncFolderResult> SyncFolderAsync(SyncState syncState,
 | syncState | SyncState | The synchronization state. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 

@@ -14,7 +14,7 @@ Remove signature
 public virtual MailMessage RemoveSignature()
 ```
 
-## Return Value
+### Return Value
 
 E-mail message
 

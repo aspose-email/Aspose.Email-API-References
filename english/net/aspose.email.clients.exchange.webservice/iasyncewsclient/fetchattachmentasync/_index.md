@@ -20,7 +20,7 @@ public Task<Attachment> FetchAttachmentAsync(string attachmentUri,
 | attachmentUri | String | The attachment uri. (Attachment uri can be retrieved using ListMessages(folder, ExchangeListMessagesOptions.FetchAttachmentInformation) method) |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`Attachment`](../../../aspose.email/attachment) that represents fetched attachment
 

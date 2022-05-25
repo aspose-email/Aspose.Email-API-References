@@ -18,7 +18,7 @@ public bool IsEnabled(LogLevel level)
 | --- | --- | --- |
 | level | LogLevel | level to be checked |
 
-## Return Value
+### Return Value
 
 `true` if logging is enabled for the specified level, otherwise it returns `false`.
 

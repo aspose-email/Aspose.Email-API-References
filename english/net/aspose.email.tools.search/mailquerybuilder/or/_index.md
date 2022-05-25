@@ -19,7 +19,7 @@ public MailQuery Or(MailQuery query1, MailQuery query2)
 | query1 | MailQuery | The query1. |
 | query2 | MailQuery | The query2. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

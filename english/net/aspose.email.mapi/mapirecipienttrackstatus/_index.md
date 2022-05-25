@@ -14,7 +14,7 @@ Represents the response status returned by the attendee.
 public enum MapiRecipientTrackStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

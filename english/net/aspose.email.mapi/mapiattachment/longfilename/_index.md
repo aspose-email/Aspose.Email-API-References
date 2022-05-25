@@ -14,7 +14,7 @@ Gets an attachment's long filename and extension, excluding path.
 public string LongFileName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The long file name.
 

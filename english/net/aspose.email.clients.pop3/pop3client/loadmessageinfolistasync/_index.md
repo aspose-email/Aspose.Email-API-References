@@ -18,7 +18,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IEnumerable<int>
 | --- | --- | --- |
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | connection | IConnection | Connection to a server |
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -72,7 +72,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 | --- | --- | --- |
 | messageInfoList | IEnumerable`1 | Message info list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -100,7 +100,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | connection | IConnection | Connection to a server |
 | messageInfoList | IEnumerable`1 | Message info list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -129,7 +129,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -157,7 +157,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -185,7 +185,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 | messageInfoList | IEnumerable`1 | Message info list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -214,7 +214,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | messageInfoList | IEnumerable`1 | Message info list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

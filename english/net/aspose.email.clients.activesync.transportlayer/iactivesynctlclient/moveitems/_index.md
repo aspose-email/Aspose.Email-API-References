@@ -18,7 +18,7 @@ public MoveItemResponse[] MoveItems(IEnumerable<MoveItemData> request)
 | --- | --- | --- |
 | request | IEnumerable`1 | Enumeration of the items that has to be moved |
 
-## Return Value
+### Return Value
 
 Returns array of objects that describe the moved item.
 
@@ -44,7 +44,7 @@ public MoveItemResponse[] MoveItems(params MoveItemData[] request)
 | --- | --- | --- |
 | request | MoveItemData[] | Array of the items that has to be moved |
 
-## Return Value
+### Return Value
 
 Returns array of objects that describe the moved item.
 

@@ -14,7 +14,7 @@ Audit logon types
 public enum LogonType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

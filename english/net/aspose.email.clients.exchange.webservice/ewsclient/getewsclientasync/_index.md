@@ -22,7 +22,7 @@ public static Task<IAsyncEwsClient> GetEwsClientAsync(string mailboxUri, ICreden
 | proxy | WebProxy | Contains HTTP proxy settings |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 

@@ -18,7 +18,7 @@ public OAuthToken GetAccessToken(string service)
 | --- | --- | --- |
 | service | String | Services that this access token applies to. |
 
-## Return Value
+### Return Value
 
 Returns oAuth access token
 
@@ -44,7 +44,7 @@ public OAuthToken GetAccessToken(bool ignoreExistingToken, string service)
 | ignoreExistingToken | Boolean | If ignoreExistingToken is true, requests new token from a server. Otherwise behaviour is depended on whether token exists or not. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
 | service | String | Services that this access token applies to. |
 
-## Return Value
+### Return Value
 
 Returns oAuth access token
 

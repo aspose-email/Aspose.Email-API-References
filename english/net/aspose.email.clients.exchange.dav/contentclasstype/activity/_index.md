@@ -14,7 +14,7 @@ Gets the urn:content-classes:activity content class that defines a set of proper
 public static ContentClassType Activity { get; }
 ```
 
-## Property Value
+### Property Value
 
 The activity content class.
 

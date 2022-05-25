@@ -18,7 +18,7 @@ public static implicit operator SyncDeleteClientOperation(string serverId)
 | --- | --- | --- |
 | serverId | String | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
 
-## Return Value
+### Return Value
 
 Returns instance of the SyncDeleteClientOperation class
 

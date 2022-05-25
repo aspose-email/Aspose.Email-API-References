@@ -14,7 +14,7 @@ Gets or sets the bottom margin.
 public double MarginBottom { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bottom margin.
 

@@ -14,7 +14,7 @@ Specifies the suggested background color of the Note object
 public enum NoteColor
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

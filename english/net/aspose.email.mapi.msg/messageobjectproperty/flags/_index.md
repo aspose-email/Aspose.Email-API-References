@@ -14,7 +14,7 @@ Gets the flags set on a property.
 public MapiPropertyFlags Flags { get; }
 ```
 
-## Property Value
+### Property Value
 
 The flags.
 

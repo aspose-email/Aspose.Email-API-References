@@ -15,7 +15,7 @@ Enumerates the groups of Contact fields that will be included in resultant mhtml
 public enum ContactFieldsSet
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

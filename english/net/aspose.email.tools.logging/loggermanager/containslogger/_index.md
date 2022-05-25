@@ -18,7 +18,7 @@ public static bool ContainsLogger(string name)
 | --- | --- | --- |
 | name | String | The logger name. |
 
-## Return Value
+### Return Value
 
 true if the logger cache contains an element with the key; otherwise, false.
 

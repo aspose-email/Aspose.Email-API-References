@@ -18,7 +18,7 @@ public long GetNextAvailablePropertyId(MapiPropertyType dataType)
 | --- | --- | --- |
 | dataType | MapiPropertyType | Type of the data for the property. |
 
-## Return Value
+### Return Value
 
 An id that can be lately used to add property mapping.
 

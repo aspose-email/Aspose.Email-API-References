@@ -19,7 +19,7 @@ public Task<ImapQuota[]> GetQuotaAsync(IConnection connection, string quotaRootN
 | connection | IConnection | Connection to a server |
 | quotaRootName | String | quota root name |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task<ImapQuota[]> GetQuotaAsync(string quotaRootName)
 | --- | --- | --- |
 | quotaRootName | String | quota root name |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -73,7 +73,7 @@ public Task<ImapQuota[]> GetQuotaAsync(IConnection connection, string quotaRootN
 | quotaRootName | String | quota root name |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -100,7 +100,7 @@ public Task<ImapQuota[]> GetQuotaAsync(string quotaRootName, CancellationToken t
 | quotaRootName | String | quota root name |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

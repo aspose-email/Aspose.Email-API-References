@@ -14,7 +14,7 @@ Gets a filename extension that indicates the document type of an attachment.
 public string Extension { get; }
 ```
 
-## Property Value
+### Property Value
 
 The extension.
 

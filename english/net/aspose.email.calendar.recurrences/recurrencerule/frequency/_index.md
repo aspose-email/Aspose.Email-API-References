@@ -14,7 +14,7 @@ Gets or sets the type of the recurrence rule.
 public Frequency Frequency { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The frequency.
 

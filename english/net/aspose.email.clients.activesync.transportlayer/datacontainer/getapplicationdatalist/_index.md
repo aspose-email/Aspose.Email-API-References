@@ -18,7 +18,7 @@ public List<DataContainer> GetApplicationDataList(AirSync elementName)
 | --- | --- | --- |
 | elementName | AirSync | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -43,7 +43,7 @@ public List<DataContainer> GetApplicationDataList(AirSyncBase elementName)
 | --- | --- | --- |
 | elementName | AirSyncBase | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -68,7 +68,7 @@ public List<DataContainer> GetApplicationDataList(Email elementName)
 | --- | --- | --- |
 | elementName | Email | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -93,7 +93,7 @@ public List<DataContainer> GetApplicationDataList(Email2 elementName)
 | --- | --- | --- |
 | elementName | Email2 | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -118,7 +118,7 @@ public List<DataContainer> GetApplicationDataList(Calendar elementName)
 | --- | --- | --- |
 | elementName | Calendar | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -143,7 +143,7 @@ public List<DataContainer> GetApplicationDataList(DocumentLibrary elementName)
 | --- | --- | --- |
 | elementName | DocumentLibrary | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -168,7 +168,7 @@ public List<DataContainer> GetApplicationDataList(Contacts elementName)
 | --- | --- | --- |
 | elementName | Contacts | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -193,7 +193,7 @@ public List<DataContainer> GetApplicationDataList(Contacts2 elementName)
 | --- | --- | --- |
 | elementName | Contacts2 | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -218,7 +218,7 @@ public List<DataContainer> GetApplicationDataList(Tasks elementName)
 | --- | --- | --- |
 | elementName | Tasks | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -243,7 +243,7 @@ public List<DataContainer> GetApplicationDataList(Notes elementName)
 | --- | --- | --- |
 | elementName | Notes | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -268,7 +268,7 @@ public List<DataContainer> GetApplicationDataList(RightsManagement elementName)
 | --- | --- | --- |
 | elementName | RightsManagement | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -293,7 +293,7 @@ public List<DataContainer> GetApplicationDataList(Settings elementName)
 | --- | --- | --- |
 | elementName | Settings | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -318,7 +318,7 @@ public List<DataContainer> GetApplicationDataList(ItemOperations elementName)
 | --- | --- | --- |
 | elementName | ItemOperations | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -343,7 +343,7 @@ public List<DataContainer> GetApplicationDataList(GAL elementName)
 | --- | --- | --- |
 | elementName | GAL | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -368,7 +368,7 @@ public List<DataContainer> GetApplicationDataList(Search elementName)
 | --- | --- | --- |
 | elementName | Search | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 

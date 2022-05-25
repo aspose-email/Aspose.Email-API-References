@@ -14,7 +14,7 @@ Gets the message text.
 public string Body { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents message body.
 

@@ -18,7 +18,7 @@ public static implicit operator string(HeaderType type)
 | --- | --- | --- |
 | type | HeaderType | The 'HeaderType' object to convert. |
 
-## Return Value
+### Return Value
 
 The result of the conversion.
 

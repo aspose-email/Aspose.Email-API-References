@@ -14,7 +14,7 @@ Defines the action to be invoked when an alarm is triggered.
 public enum ReminderAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Indicates whether the meeting is being accepted, tentatively accepted, or declin
 public enum UserResponse
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

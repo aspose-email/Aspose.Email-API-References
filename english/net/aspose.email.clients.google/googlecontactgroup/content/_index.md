@@ -14,7 +14,7 @@ Gets the content of the group entry
 public string Content { get; }
 ```
 
-## Property Value
+### Property Value
 
 string that represents content
 

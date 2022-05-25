@@ -18,7 +18,7 @@ public IEnumerable<MapiMessage> FetchItems(EwsFetchItems options)
 | --- | --- | --- |
 | options | EwsFetchItems | The [`EwsFetchItems`](../../../aspose.email.clients.exchange.webservice.models/ewsfetchitems) options allowing to customize the fetch method behavior. |
 
-## Return Value
+### Return Value
 
 [`MapiMessage`](../../../aspose.email.mapi/mapimessage) object.
 

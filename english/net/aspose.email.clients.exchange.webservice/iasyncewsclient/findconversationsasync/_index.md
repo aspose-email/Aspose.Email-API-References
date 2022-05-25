@@ -20,7 +20,7 @@ public Task<ExchangeConversation[]> FindConversationsAsync(string folderId,
 | folderId | String | An id of folder in which search |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 An array of found [`ExchangeConversation`](../../exchangeconversation)
 

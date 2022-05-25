@@ -14,7 +14,7 @@ Gets the date indicating the most recent instant in time when an group entry was
 public DateTime Updated { get; }
 ```
 
-## Property Value
+### Property Value
 
 DateTime value that represents updated date
 

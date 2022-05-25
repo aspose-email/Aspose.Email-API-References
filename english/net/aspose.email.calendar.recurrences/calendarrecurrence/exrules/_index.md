@@ -14,7 +14,7 @@ Gets the ex rules.
 public RecurrenceRuleCollection ExRules { get; }
 ```
 
-## Property Value
+### Property Value
 
 The ex rules.
 

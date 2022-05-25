@@ -14,7 +14,7 @@ Lists mailboxes.
 public MapiContactCollection ListMailboxes()
 ```
 
-## Return Value
+### Return Value
 
 A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contact information.
 
@@ -39,7 +39,7 @@ public MapiContactCollection ListMailboxes(string filter)
 | --- | --- | --- |
 | filter | String | filter string |
 
-## Return Value
+### Return Value
 
 A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contact information.
 

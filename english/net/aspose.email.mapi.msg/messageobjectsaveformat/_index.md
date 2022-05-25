@@ -14,7 +14,7 @@ Represents available formats [`MessageObject`](../messageobject) could be saved 
 public enum MessageObjectSaveFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

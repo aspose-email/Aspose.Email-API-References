@@ -14,7 +14,7 @@ Gets the bytes of the binary data as Guid.
 public virtual Guid GetGuid()
 ```
 
-## Return Value
+### Return Value
 
 The Guid value.
 

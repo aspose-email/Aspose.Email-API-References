@@ -22,7 +22,7 @@ public Task<Contact[]> ResolveContactsAsync(string unresolvedEntry,
 | options | ExchangeListContactsOptions | Enumerates the list contacts options |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 Contacts that represent contact information
 

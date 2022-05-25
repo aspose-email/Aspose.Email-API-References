@@ -18,7 +18,7 @@ public OutlookCategory FetchCategory(string itemId)
 | --- | --- | --- |
 | itemId | String | Item id to be fetched |
 
-## Return Value
+### Return Value
 
 Category specified by id
 

@@ -14,7 +14,7 @@ Audit item types
 public enum ItemType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

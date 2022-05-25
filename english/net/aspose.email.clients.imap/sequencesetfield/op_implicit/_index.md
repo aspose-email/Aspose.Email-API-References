@@ -18,7 +18,7 @@ public static implicit operator MailQuery(SequenceSetField seqSetField)
 | --- | --- | --- |
 | seqSetField | SequenceSetField | SequenceSet object instance |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query.
 

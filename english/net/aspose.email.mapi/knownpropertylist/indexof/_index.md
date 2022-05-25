@@ -18,7 +18,7 @@ public int IndexOf(PropertyDescriptor item)
 | --- | --- | --- |
 | item | PropertyDescriptor | The object to locate in the System.Collections.Generic.IList. |
 
-## Return Value
+### Return Value
 
 The index of item if found in the list; otherwise, -1.
 
@@ -43,7 +43,7 @@ public int IndexOf(string name)
 | --- | --- | --- |
 | name | String | The name used to refer to the property. |
 
-## Return Value
+### Return Value
 
 The index of item if found in the list; otherwise, -1.
 

@@ -18,7 +18,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IEnumerable<int> sequenceNu
 | --- | --- | --- |
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -45,7 +45,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IConnection connection,
 | connection | IConnection | Connection to a server |
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -71,7 +71,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IEnumerable<Pop3MessageInfo
 | --- | --- | --- |
 | messageInfoList | IEnumerable`1 | Message info list |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -99,7 +99,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IConnection connection,
 | connection | IConnection | Connection to a server |
 | messageInfoList | IEnumerable`1 | Message info list |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 

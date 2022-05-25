@@ -19,7 +19,7 @@ public Task<ExchangeFolderInfoCollection> ListPublicFoldersAsync(
 | --- | --- | --- |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) that contains subfolders from the root public folder
 

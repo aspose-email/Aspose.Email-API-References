@@ -14,7 +14,7 @@ Connection failure cause
 public enum ConnectionFailureCause
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public static CalendarRecurrence FromRecurrence(string xmlString)
 | --- | --- | --- |
 | xmlString | String | XML stringString of pattern. |
 
-## Return Value
+### Return Value
 
 Recurrence pattern[`CalendarRecurrence`](../../calendarrecurrence).
 
@@ -42,7 +42,7 @@ public static CalendarRecurrence FromRecurrence(XmlElement xmlElement)
 | --- | --- | --- |
 | xmlElement | XmlElement | XmlElementXmlElement of pattern. |
 
-## Return Value
+### Return Value
 
 Recurrence pattern[`CalendarRecurrence`](../../calendarrecurrence).
 

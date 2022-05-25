@@ -15,7 +15,7 @@ Enumerates update task options.
 public enum UpdateTaskOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

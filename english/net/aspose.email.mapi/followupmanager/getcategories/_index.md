@@ -18,7 +18,7 @@ public static IList<string> GetCategories(MapiMessage message)
 | --- | --- | --- |
 | message | MapiMessage | The [`MapiMessage`](../../mapimessage) in which the categories are added. |
 
-## Return Value
+### Return Value
 
 The list of added categories.
 

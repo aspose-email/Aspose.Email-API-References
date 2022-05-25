@@ -15,7 +15,7 @@ Contains metadata about the Journal object. Must be either zero or the following
 public enum MapiJournalFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

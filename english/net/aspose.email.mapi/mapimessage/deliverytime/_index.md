@@ -14,7 +14,7 @@ Gets or sets the date and time a message was delivered.
 public DateTime DeliveryTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The DateTime that represents delivery time.
 

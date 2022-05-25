@@ -14,7 +14,7 @@ Gets the MHT.
 public static MailMessageSaveType MHtmlFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The MHT.
 

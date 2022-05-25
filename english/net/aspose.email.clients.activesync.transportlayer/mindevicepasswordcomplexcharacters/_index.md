@@ -14,7 +14,7 @@ Specifies the required level of complexity of the client password. For example: 
 public enum MinDevicePasswordComplexCharacters
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

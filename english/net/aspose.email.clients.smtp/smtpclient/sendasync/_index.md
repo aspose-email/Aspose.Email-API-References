@@ -21,7 +21,7 @@ public Task SendAsync(string from, string recipients, string subject, string bod
 | subject | String | A subject of message. |
 | body | String | A body of message. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task SendAsync(MailMessage message)
 | --- | --- | --- |
 | message | MailMessage | The MailMessage that represents an email-message. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -70,7 +70,7 @@ public Task SendAsync(params MailMessage[] messages)
 | --- | --- | --- |
 | messages | MailMessage[] | The array of MailMessage that represents an email-messages to send. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -95,7 +95,7 @@ public Task SendAsync(MailMessageCollection messages)
 | --- | --- | --- |
 | messages | MailMessageCollection | The collection of messages. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -120,7 +120,7 @@ public Task SendAsync(IEnumerable<MailMessage> messages)
 | --- | --- | --- |
 | messages | IEnumerable`1 | The IEnumerator that supports a message iteration. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -150,7 +150,7 @@ public Task SendAsync(IConnection connection, string from, string recipients, st
 | subject | String | A subject of message. |
 | body | String | A body of message. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -176,7 +176,7 @@ public Task SendAsync(IConnection connection, MailMessage message)
 | connection | IConnection | Connection to a server |
 | message | MailMessage | The MailMessage that represents an email-message. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -203,7 +203,7 @@ public Task SendAsync(IConnection connection, params MailMessage[] messages)
 | connection | IConnection | Connection to a server |
 | messages | MailMessage[] | The array of MailMessage that represents an email-messages to send. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -230,7 +230,7 @@ public Task SendAsync(IConnection connection, MailMessageCollection messages)
 | connection | IConnection | Connection to a server |
 | messages | MailMessageCollection | The collection of messages. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -257,7 +257,7 @@ public Task SendAsync(IConnection connection, IEnumerable<MailMessage> messages)
 | connection | IConnection | Connection to a server |
 | messages | IEnumerable`1 | The IEnumerator that supports a message iteration. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -288,7 +288,7 @@ public Task SendAsync(string from, string recipients, string subject, string bod
 | body | String | A body of message. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -313,7 +313,7 @@ public Task SendAsync(MailMessage message, CancellationToken token)
 | message | MailMessage | The MailMessage that represents an email-message. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -339,7 +339,7 @@ public Task SendAsync(CancellationToken token, params MailMessage[] messages)
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 | messages | MailMessage[] | The array of MailMessage that represents an email-messages to send. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -365,7 +365,7 @@ public Task SendAsync(MailMessageCollection messages, CancellationToken token)
 | messages | MailMessageCollection | The collection of messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -391,7 +391,7 @@ public Task SendAsync(IEnumerable<MailMessage> messages, CancellationToken token
 | messages | IEnumerable`1 | The IEnumerator that supports a message iteration. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -422,7 +422,7 @@ public Task SendAsync(IConnection connection, string from, string recipients, st
 | body | String | A body of message. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -449,7 +449,7 @@ public Task SendAsync(IConnection connection, MailMessage message, CancellationT
 | message | MailMessage | The MailMessage that represents an email-message. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -478,7 +478,7 @@ public Task SendAsync(IConnection connection, CancellationToken token,
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 | messages | MailMessage[] | The array of MailMessage that represents an email-messages to send. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -507,7 +507,7 @@ public Task SendAsync(IConnection connection, MailMessageCollection messages,
 | messages | MailMessageCollection | The collection of messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -536,7 +536,7 @@ public Task SendAsync(IConnection connection, IEnumerable<MailMessage> messages,
 | messages | IEnumerable`1 | The IEnumerator that supports a message iteration. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

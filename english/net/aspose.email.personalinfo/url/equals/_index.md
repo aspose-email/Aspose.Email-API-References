@@ -18,7 +18,7 @@ public bool Equals(Url obj)
 | --- | --- | --- |
 | obj | Url | The Object to compare with the current Object. |
 
-## Return Value
+### Return Value
 
 Returns a boolean indicating if the passed in object obj is Equal to this.
 
@@ -43,7 +43,7 @@ public bool Equals(Url x, Url y)
 | x | Url | The first object to compare. |
 | y | Url | The second object to compare. |
 
-## Return Value
+### Return Value
 
 true if the objects are considered equal; otherwise, false. If both objA and objB are null, the method returns true.
 

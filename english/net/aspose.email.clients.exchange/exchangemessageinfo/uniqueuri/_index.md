@@ -14,7 +14,7 @@ Gets the unique URI of message.
 public virtual string UniqueUri { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents the unique URI.
 

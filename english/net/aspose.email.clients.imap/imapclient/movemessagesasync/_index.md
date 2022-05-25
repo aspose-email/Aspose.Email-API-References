@@ -22,7 +22,7 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName,
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -50,7 +50,7 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 | endUid | String | The ending UID of a message list |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -77,7 +77,7 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName)
 | endUid | String | The ending UID of a message list |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -105,7 +105,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -132,7 +132,7 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName, boo
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -158,7 +158,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -184,7 +184,7 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName)
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -212,7 +212,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -241,7 +241,7 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -269,7 +269,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -296,7 +296,7 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -327,7 +327,7 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -357,7 +357,7 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -386,7 +386,7 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -415,7 +415,7 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -444,7 +444,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -473,7 +473,7 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -501,7 +501,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -529,7 +529,7 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -559,7 +559,7 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -589,7 +589,7 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName,
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -618,7 +618,7 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -647,7 +647,7 @@ public Task MoveMessagesAsync(string startUid, string endUid, string folderName,
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -676,7 +676,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -705,7 +705,7 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName, boo
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -733,7 +733,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -761,7 +761,7 @@ public Task MoveMessagesAsync(IEnumerable<string> uidSet, string folderName,
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -790,7 +790,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -820,7 +820,7 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -849,7 +849,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -878,7 +878,7 @@ public Task MoveMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -908,7 +908,7 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -937,7 +937,7 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -965,7 +965,7 @@ public Task MoveMessagesAsync(IConnection connection, int startSequence, int end
 | endSequence | Int32 | The ending sequence number of a message list |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -992,7 +992,7 @@ public Task MoveMessagesAsync(int startSequence, int endSequence, string folderN
 | endSequence | Int32 | The ending sequence number of a message list |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1020,7 +1020,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1047,7 +1047,7 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName, b
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1074,7 +1074,7 @@ public Task MoveMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1100,7 +1100,7 @@ public Task MoveMessagesAsync(IEnumerable<int> sequenceSet, string folderName)
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1129,7 +1129,7 @@ public Task MoveMessagesAsync(IConnection connection, string startUid, string en
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

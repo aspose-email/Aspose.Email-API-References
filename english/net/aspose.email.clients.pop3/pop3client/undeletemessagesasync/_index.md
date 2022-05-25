@@ -18,7 +18,7 @@ public Task UndeleteMessagesAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -39,7 +39,7 @@ Undeletes the messages. If any messages have been marked as deleted by the POP3 
 public Task UndeleteMessagesAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -64,7 +64,7 @@ public Task UndeleteMessagesAsync(IConnection connection, CancellationToken toke
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -89,7 +89,7 @@ public Task UndeleteMessagesAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -14,7 +14,7 @@ Gets a value indicating whether Flags property contains the Flagged flag.
 public bool Flagged { get; }
 ```
 
-## Property Value
+### Property Value
 
 The flagged flag.
 

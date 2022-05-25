@@ -20,7 +20,7 @@ public Task<string> CopyMessageAsync(IConnection connection, int sequenceNumber,
 | sequenceNumber | Int32 | The sequence number of the message |
 | folderName | String | Folder name where a message is to be copied |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -47,7 +47,7 @@ public Task<string> CopyMessageAsync(IConnection connection, string uniqueId, st
 | uniqueId | String | The uid of the message |
 | folderName | String | Folder name where a message is to be copied |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -73,7 +73,7 @@ public Task<string> CopyMessageAsync(int sequenceNumber, string folderName)
 | sequenceNumber | Int32 | The sequence number of the message |
 | folderName | String | Folder name where a message is to be copied |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -98,7 +98,7 @@ public Task<string> CopyMessageAsync(string uniqueId, string folderName)
 | uniqueId | String | The uid of the message |
 | folderName | String | Folder name where a message is to be copied |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -126,7 +126,7 @@ public Task<string> CopyMessageAsync(IConnection connection, int sequenceNumber,
 | folderName | String | Folder name where a message is to be copied |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -155,7 +155,7 @@ public Task<string> CopyMessageAsync(IConnection connection, string uniqueId, st
 | folderName | String | Folder name where a message is to be copied |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -182,7 +182,7 @@ public Task<string> CopyMessageAsync(int sequenceNumber, string folderName, Canc
 | folderName | String | Folder name where a message is to be copied |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -208,7 +208,7 @@ public Task<string> CopyMessageAsync(string uniqueId, string folderName, Cancell
 | folderName | String | Folder name where a message is to be copied |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

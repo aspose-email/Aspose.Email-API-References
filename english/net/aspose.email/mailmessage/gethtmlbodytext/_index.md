@@ -38,7 +38,7 @@ public virtual string GetHtmlBodyText(HyperlinkRenderingCallback hyperlinkRender
 | --- | --- | --- |
 | hyperlinkRenderingCallback | HyperlinkRenderingCallback | Reference to custom method for handling rendering of hyperlink. |
 
-## Return Value
+### Return Value
 
 Result string of custom handling rendering of hyperlink.
 

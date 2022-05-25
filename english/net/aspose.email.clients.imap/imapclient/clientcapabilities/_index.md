@@ -18,7 +18,7 @@ public string[] ClientCapabilities(params string[] capabilityNames)
 | --- | --- | --- |
 | capabilityNames | String[] | Array of capabilities which are supported by client |
 
-## Return Value
+### Return Value
 
 Returns array with capabilities which are supported by a server.
 
@@ -43,7 +43,7 @@ public string[] ClientCapabilities(IConnection connection, params string[] capab
 | connection | IConnection | Connection to a server |
 | capabilityNames | String[] | Array of capabilities which are supported by client |
 
-## Return Value
+### Return Value
 
 Returns array with capabilities which are supported by a server.
 

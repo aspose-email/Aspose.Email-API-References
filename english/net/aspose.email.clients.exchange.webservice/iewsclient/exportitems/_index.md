@@ -18,7 +18,7 @@ public ExchangeStreamedItem[] ExportItems(params string[] itemIds)
 | --- | --- | --- |
 | itemIds | String[] | Ids of itmes to be exported |
 
-## Return Value
+### Return Value
 
 An array of [`ExchangeStreamedItem`](../../exchangestreameditem)
 

@@ -18,7 +18,7 @@ public MailMessage FetchMessage(string messageUri)
 | --- | --- | --- |
 | messageUri | String | The message URI. |
 
-## Return Value
+### Return Value
 
 Returns a message
 
@@ -45,7 +45,7 @@ public MailMessage FetchMessage(string messageUri,
 | messageUri | String | The URI of the message |
 | extendedProperties | IEnumerable`1 | An enumeration of extended properties |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message, if custom properties have been found and set you can access them using [`Headers`](../../../aspose.email/mailmessage/headers) collection.
 

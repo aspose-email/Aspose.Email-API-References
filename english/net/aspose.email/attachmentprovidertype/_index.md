@@ -14,7 +14,7 @@ The type of web service manipulating the attachment.
 public enum AttachmentProviderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

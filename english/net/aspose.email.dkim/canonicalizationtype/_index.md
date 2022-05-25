@@ -14,7 +14,7 @@ Represents DKIM canonicalization.
 public enum CanonicalizationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

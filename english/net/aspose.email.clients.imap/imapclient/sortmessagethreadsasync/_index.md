@@ -20,7 +20,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 | connection | IConnection | Connection to a server |
 | conditions | SortConditions | Thread conditions. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -47,7 +47,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions co
 | --- | --- | --- |
 | conditions | SortConditions | Thread conditions. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -76,7 +76,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 | conditions | SortConditions | Thread conditions. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -105,7 +105,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions co
 | conditions | SortConditions | Thread conditions. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

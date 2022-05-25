@@ -20,7 +20,7 @@ public Task<ExchangeTask> FetchTaskAsync(string taskUri,
 | taskUri | String | A task uri. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 A fetched [`ExchangeTask`](../../exchangetask)
 

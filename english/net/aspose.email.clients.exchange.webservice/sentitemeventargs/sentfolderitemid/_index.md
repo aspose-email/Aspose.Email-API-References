@@ -14,7 +14,7 @@ Gets the string that represents the ItemId of the sent item.
 public string SentFolderItemId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The item id.
 

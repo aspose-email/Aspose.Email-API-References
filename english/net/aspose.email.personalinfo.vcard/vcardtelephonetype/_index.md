@@ -15,7 +15,7 @@ Enumerates a vCard telephone types
 public enum VCardTelephoneType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

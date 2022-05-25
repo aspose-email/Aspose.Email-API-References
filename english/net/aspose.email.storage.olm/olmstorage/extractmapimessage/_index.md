@@ -18,7 +18,7 @@ public MapiMessage ExtractMapiMessage(OlmMessageInfo messageInfo)
 | --- | --- | --- |
 | messageInfo | OlmMessageInfo | An OlmMessageInfo object that represents information about message. |
 
-## Return Value
+### Return Value
 
 A MapiMessage object.
 

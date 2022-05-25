@@ -14,7 +14,7 @@ Contains a values that indicates the message sensitivity.
 public enum MapiSensitivity
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

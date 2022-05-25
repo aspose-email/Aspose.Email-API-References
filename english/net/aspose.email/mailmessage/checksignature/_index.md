@@ -18,7 +18,7 @@ public static bool CheckSignature(string fileName)
 | --- | --- | --- |
 | fileName | String | A file name (eml). |
 
-## Return Value
+### Return Value
 
 `True` if signature is valid; otherwise, `false`.
 
@@ -51,7 +51,7 @@ public static bool CheckSignature(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream containing the message in eml format. |
 
-## Return Value
+### Return Value
 
 `True` if signature is valid; otherwise, `false`.
 
@@ -79,7 +79,7 @@ Checking signature exsisting MailMessage.
 public virtual X509Certificate2[] CheckSignature()
 ```
 
-## Return Value
+### Return Value
 
 X.509 signers certificates
 

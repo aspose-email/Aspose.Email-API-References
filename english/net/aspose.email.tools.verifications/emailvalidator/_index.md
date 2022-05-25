@@ -36,14 +36,6 @@ public sealed class EmailValidator
 | [Validate](../../aspose.email.tools.verifications/emailvalidator/validate)(string, out ValidationResult) | Validate email address, with the MailServer validation policy. |
 | [Validate](../../aspose.email.tools.verifications/emailvalidator/validate)(string, ValidationPolicy, out ValidationResult) | Validating the email address |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [DomainValidating](domainvalidating) | This event occurs when validating the domain of an email addresss. |
-| event [MailServerValidating](mailservervalidating) | This event occurs when validating an email addresss on its mail server. |
-| event [SyntaxValidating](syntaxvalidating) | This event occurs when validating the syntax of an email addresss. |
-
 ### See Also
 
 * namespace [Aspose.Email.Tools.Verifications](../../aspose.email.tools.verifications)

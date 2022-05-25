@@ -18,7 +18,7 @@ public Contact[] GetContacts(string folder)
 | --- | --- | --- |
 | folder | String | A folder to search contacts in |
 
-## Return Value
+### Return Value
 
 An array of read [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 
@@ -44,7 +44,7 @@ public Contact[] GetContacts(string folder, ExchangeListContactsOptions options)
 | folder | String | A folder to search contacts in |
 | options | ExchangeListContactsOptions | Enumerates the list contacts options |
 
-## Return Value
+### Return Value
 
 An array of read [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 

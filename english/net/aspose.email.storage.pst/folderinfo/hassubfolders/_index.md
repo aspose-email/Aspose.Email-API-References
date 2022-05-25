@@ -14,7 +14,7 @@ Gets a value indicating whether the Folder object has any subfolders.
 public bool HasSubFolders { get; }
 ```
 
-## Property Value
+### Property Value
 
 The has sub folders.
 

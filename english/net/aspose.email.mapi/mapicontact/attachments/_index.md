@@ -14,7 +14,7 @@ Gets the attachments in the contact.
 public MapiAttachmentCollection Attachments { get; }
 ```
 
-## Property Value
+### Property Value
 
 The attachment collection.
 

@@ -14,7 +14,7 @@ Enum defines gender of a person
 public enum Gender
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

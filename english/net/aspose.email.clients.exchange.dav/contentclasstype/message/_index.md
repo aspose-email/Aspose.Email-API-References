@@ -14,7 +14,7 @@ Gets the urn:content-classes:message content class that defines a set of propert
 public static ContentClassType Message { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message content class.
 

@@ -14,7 +14,7 @@ Gets the mailbox info.
 public ExchangeMailboxInfo MailboxInfo { get; }
 ```
 
-## Property Value
+### Property Value
 
 The mailbox info.
 

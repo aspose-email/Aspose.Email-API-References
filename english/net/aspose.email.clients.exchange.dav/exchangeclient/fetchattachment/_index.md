@@ -18,7 +18,7 @@ public Attachment FetchAttachment(string attachmentUri)
 | --- | --- | --- |
 | attachmentUri | String | The attachment uri. (Attachment uri can be retrieved using ListMessages(folder, ExchangeListMessagesOptions.FetchAttachmentInformation) method) |
 
-## Return Value
+### Return Value
 
 [`Attachment`](../../../aspose.email/attachment) that represents fetched attachment
 

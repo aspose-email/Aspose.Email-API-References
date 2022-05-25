@@ -19,7 +19,7 @@ public static bool operator !=(ImapMessageFlags a, ImapMessageFlags b)
 | a | ImapMessageFlags | First set of imap message flags. |
 | b | ImapMessageFlags | Second set of imap message flags. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 

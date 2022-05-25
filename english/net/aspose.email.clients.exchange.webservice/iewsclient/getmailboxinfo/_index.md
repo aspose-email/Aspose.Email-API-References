@@ -14,7 +14,7 @@ Gets the mailbox info.
 public ExchangeMailboxInfo GetMailboxInfo()
 ```
 
-## Return Value
+### Return Value
 
 [`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo) that represents mailbox information
 
@@ -39,7 +39,7 @@ public ExchangeMailboxInfo GetMailboxInfo(string mailbox)
 | --- | --- | --- |
 | mailbox | String | A mailbox to read from. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo) that represents mailbox information
 

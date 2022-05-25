@@ -14,7 +14,7 @@ Sway audit operation
 public enum SwayAuditOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

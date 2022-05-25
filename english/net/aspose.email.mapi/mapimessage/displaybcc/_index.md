@@ -14,7 +14,7 @@ Gets a list of the display names of any blind carbon copy (BCC) message recipien
 public string DisplayBcc { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents display bcc.
 

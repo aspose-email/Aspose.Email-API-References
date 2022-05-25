@@ -18,7 +18,7 @@ public ComparisonFieldAdapter this[PropertyDescriptor pd] { get; }
 | --- | --- |
 | pd | [`PropertyDescriptor`](../../../aspose.email.mapi/propertydescriptor) |
 
-## Return Value
+### Return Value
 
 [`ComparisonFieldAdapter`](../../comparisonfieldadapter)
 

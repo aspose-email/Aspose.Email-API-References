@@ -15,7 +15,7 @@ Represents the different kinds of pst folders.
 public enum FolderKind
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

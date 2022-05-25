@@ -21,7 +21,7 @@ public Task<ExchangeFolderPageInfo> ListSubFoldersByPageAsync(string parentFolde
 | page | PageInfo | A page info |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 A [`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo) containing the found folder if folder name is specified; otherwise, returns all subfolders
 

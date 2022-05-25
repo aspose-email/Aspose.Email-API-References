@@ -14,7 +14,7 @@ Contains infarmation that specify the location, for the operations.
 public enum StoreType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

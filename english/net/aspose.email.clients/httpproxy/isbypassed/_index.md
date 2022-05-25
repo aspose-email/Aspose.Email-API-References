@@ -18,7 +18,7 @@ public virtual bool IsBypassed(Uri host)
 | --- | --- | --- |
 | host | Uri | The System.Uri of the host to check for proxy use. |
 
-## Return Value
+### Return Value
 
 true if the proxy server should not be used for host; otherwise, false.
 

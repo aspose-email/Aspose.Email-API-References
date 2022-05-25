@@ -14,7 +14,7 @@ Gets or sets the type of the disposition.
 public string DispositionType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The String that contains the disposition type.
 

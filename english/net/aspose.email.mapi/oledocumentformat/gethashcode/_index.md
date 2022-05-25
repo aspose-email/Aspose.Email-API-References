@@ -14,7 +14,7 @@ Returns the hash code of this instance.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 The hash code for this instance.
 

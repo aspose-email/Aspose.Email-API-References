@@ -19,7 +19,7 @@ public static bool operator ==(EventCategory a, EventCategory b)
 | a | EventCategory | First object to compare |
 | b | EventCategory | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise false.
 

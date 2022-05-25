@@ -14,7 +14,7 @@ Gets or sets the RTF formatted message text.
 public string BodyRtf { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents message body rtf.
 

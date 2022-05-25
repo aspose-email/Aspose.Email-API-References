@@ -14,7 +14,7 @@ Clones this instance
 public virtual MailMessage Clone()
 ```
 
-## Return Value
+### Return Value
 
 MailMessage that is a copy of the current instance
 

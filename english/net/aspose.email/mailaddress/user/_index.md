@@ -14,7 +14,7 @@ Gets the username.
 public string User { get; }
 ```
 
-## Property Value
+### Property Value
 
 A String that contains the user name.
 

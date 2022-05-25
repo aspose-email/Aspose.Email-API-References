@@ -19,7 +19,7 @@ public ImapFolderInfo GetFolderInfo(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to retrieve information about |
 
-## Return Value
+### Return Value
 
 The specified folder information
 
@@ -45,7 +45,7 @@ public ImapFolderInfo GetFolderInfo(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to retrieve information about |
 
-## Return Value
+### Return Value
 
 The specified folder information
 

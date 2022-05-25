@@ -18,7 +18,7 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId)
 | --- | --- | --- |
 | entryId | String | The string that represents a parent folder entry ID. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 
@@ -45,7 +45,7 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId, int startIndex
 | startIndex | Int32 | The start message index. |
 | count | Int32 | The number of messages that will be retrieved. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 

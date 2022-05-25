@@ -14,7 +14,7 @@ Specifies the server type
 public enum ServerType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

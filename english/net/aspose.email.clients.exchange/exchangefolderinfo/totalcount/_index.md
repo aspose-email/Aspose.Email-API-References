@@ -14,7 +14,7 @@ Gets the total count of items.
 public int TotalCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The total count.
 

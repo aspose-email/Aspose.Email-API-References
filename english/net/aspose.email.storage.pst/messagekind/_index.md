@@ -15,7 +15,7 @@ Represents the different kinds of messages in pst.
 public enum MessageKind
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

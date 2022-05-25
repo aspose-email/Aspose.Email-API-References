@@ -15,7 +15,7 @@ Enumerates the Mht format options
 public enum MhtFormatOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

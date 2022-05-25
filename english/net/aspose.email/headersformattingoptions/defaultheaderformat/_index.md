@@ -14,7 +14,7 @@ Default header line format.
 public string DefaultHeaderFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The styles to be injected into resulting html body.
 

@@ -18,7 +18,7 @@ public Pop3MailboxInfo GetMailboxInfo(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Mailbox information
 
@@ -45,7 +45,7 @@ public Pop3MailboxInfo GetMailboxInfo(IConnection connection, bool closeTransact
 | connection | IConnection | Connection to a server |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Mailbox information
 
@@ -71,7 +71,7 @@ public Pop3MailboxInfo GetMailboxInfo(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Mailbox information
 
@@ -92,7 +92,7 @@ Gets the mailbox status info
 public Pop3MailboxInfo GetMailboxInfo()
 ```
 
-## Return Value
+### Return Value
 
 Mailbox information
 

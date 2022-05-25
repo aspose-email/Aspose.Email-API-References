@@ -14,7 +14,7 @@ Enumerates mapi calendar recurrence frequency
 public enum MapiCalendarRecurrenceFrequency
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

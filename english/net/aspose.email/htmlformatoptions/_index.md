@@ -15,7 +15,7 @@ Enumerates the Html format options.
 public enum HtmlFormatOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

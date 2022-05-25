@@ -15,7 +15,7 @@ Fields that may be retrieved from the server
 public enum Pop3ListFields
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

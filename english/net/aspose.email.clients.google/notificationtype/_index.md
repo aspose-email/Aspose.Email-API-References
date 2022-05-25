@@ -14,7 +14,7 @@ The type of notification.
 public enum NotificationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

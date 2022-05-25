@@ -14,7 +14,7 @@ The Office 365 service where the activity occurred.
 public enum Workload
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

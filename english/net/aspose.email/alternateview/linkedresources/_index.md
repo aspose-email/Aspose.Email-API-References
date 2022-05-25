@@ -14,7 +14,7 @@ Gets the set of embedded resources referred to by this alternate view.
 public LinkedResourceCollection LinkedResources { get; }
 ```
 
-## Property Value
+### Property Value
 
 The linked resources.
 

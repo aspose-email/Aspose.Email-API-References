@@ -20,7 +20,7 @@ public bool TryGetSettingValue<T>(UserSettingName setting, out T value)
 | setting | The setting. |
 | value | The setting value. |
 
-## Return Value
+### Return Value
 
 True if setting was available.
 

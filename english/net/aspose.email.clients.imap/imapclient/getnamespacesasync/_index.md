@@ -14,7 +14,7 @@ Gets namespaces that are available on a server.
 public Task<ImapNamespace[]> GetNamespacesAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -39,7 +39,7 @@ public Task<ImapNamespace[]> GetNamespacesAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -65,7 +65,7 @@ public Task<ImapNamespace[]> GetNamespacesAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -91,7 +91,7 @@ public Task<ImapNamespace[]> GetNamespacesAsync(IConnection connection, Cancella
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

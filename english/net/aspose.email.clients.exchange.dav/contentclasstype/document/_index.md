@@ -14,7 +14,7 @@ Gets the urn:content-classes:document content class that defines a set of proper
 public static ContentClassType Document { get; }
 ```
 
-## Property Value
+### Property Value
 
 The document content class.
 

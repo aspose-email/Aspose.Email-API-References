@@ -19,7 +19,7 @@ public ExchangeUserAvailability CheckUserAvailability(string user, DateRange tim
 | user | String | An user smtp address. |
 | timeWindow | DateRange | A time span for the queried user's availability. |
 
-## Return Value
+### Return Value
 
 [`ExchangeUserAvailability`](../../exchangeuseravailability) containing user availability information.
 
@@ -47,7 +47,7 @@ public ExchangeUserAvailabilityCollection CheckUserAvailability(StringCollection
 | users | StringCollection | An users smtp addresses. |
 | timeWindow | DateRange | A time span for the queried user's availability. |
 
-## Return Value
+### Return Value
 
 [`ExchangeUserAvailabilityCollection`](../../exchangeuseravailabilitycollection) containing the users availability informaiton.
 

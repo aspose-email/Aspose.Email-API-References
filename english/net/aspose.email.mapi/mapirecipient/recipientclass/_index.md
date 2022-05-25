@@ -14,7 +14,7 @@ Gets the type of recipent.
 public MapiObjectType RecipientClass { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recipient class.
 

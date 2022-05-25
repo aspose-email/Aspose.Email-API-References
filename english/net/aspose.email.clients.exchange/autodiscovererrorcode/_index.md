@@ -14,7 +14,7 @@ Defines the error codes that can be returned by the Autodiscover service.
 public enum AutodiscoverErrorCode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

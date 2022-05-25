@@ -15,7 +15,7 @@ Enumerates the actions the user can taken on the Meeting object
 public enum MapiCalendarClientIntent
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

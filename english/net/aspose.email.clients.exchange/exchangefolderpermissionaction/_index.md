@@ -14,7 +14,7 @@ Defines which items in a folder a user has permission to edit or delete.
 public enum ExchangeFolderPermissionAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

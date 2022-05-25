@@ -18,7 +18,7 @@ public string CreateAppointment(Appointment appointment)
 | --- | --- | --- |
 | appointment | Appointment | Calendar appointment. |
 
-## Return Value
+### Return Value
 
 Returns appointment UID
 
@@ -44,7 +44,7 @@ public string CreateAppointment(Appointment appointment, string folderUri)
 | appointment | Appointment | Calendar appointment. |
 | folderUri | String | An uri of appointments parent folder. |
 
-## Return Value
+### Return Value
 
 Returns appointment UID
 
@@ -72,7 +72,7 @@ public string CreateAppointment(MapiCalendar appointment, string folderUri,
 | folderUri | String | An uri of appointments parent folder. |
 | suppressInvitations | Boolean | If true, invitations won't be sent to attendees. |
 
-## Return Value
+### Return Value
 
 Returns PidLidGlobalObjectId as base64 string
 

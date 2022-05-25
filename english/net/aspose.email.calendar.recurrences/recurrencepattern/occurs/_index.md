@@ -14,7 +14,7 @@ Gets or sets the number of occurrences of the recurrence pattern.
 public int Occurs { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of occurrences.
 

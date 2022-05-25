@@ -14,7 +14,7 @@ Gets or sets the reminder delta.
 public int ReminderDelta { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The reminder delta.
 

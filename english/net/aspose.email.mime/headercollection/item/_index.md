@@ -18,7 +18,7 @@ public string this[string name] { get; set; }
 | --- | --- |
 | name | The name (key) in collection for an item. |
 
-## Return Value
+### Return Value
 
 Returns specified item
 
@@ -42,7 +42,7 @@ public string this[int index] { get; }
 | --- | --- |
 | index | The index in collection for an item. |
 
-## Return Value
+### Return Value
 
 Returns specified item
 

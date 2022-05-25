@@ -18,7 +18,7 @@ public void Add(InstantMessengerAddress value)
 | --- | --- | --- |
 | value | InstantMessengerAddress | The object to add to the list. |
 
-## Return Value
+### Return Value
 
 The position into which the new element was inserted.
 

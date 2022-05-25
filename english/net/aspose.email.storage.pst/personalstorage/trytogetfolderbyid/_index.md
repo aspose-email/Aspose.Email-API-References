@@ -19,7 +19,7 @@ public bool TryToGetFolderById(string entryIdString, out FolderInfo folder)
 | entryIdString | String | The string that represented the entry ID. |
 | folder | FolderInfo& | When this method returns true, contains the [`FolderInfo`](../../folderinfo) object associated with the specified ID. |
 
-## Return Value
+### Return Value
 
 true if the folder is successfully found; otherwise, false.
 

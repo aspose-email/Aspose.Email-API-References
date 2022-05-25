@@ -15,7 +15,7 @@ Enumerates delegation options
 public enum ExchangeDelegateOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

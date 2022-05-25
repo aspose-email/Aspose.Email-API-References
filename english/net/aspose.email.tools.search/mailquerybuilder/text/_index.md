@@ -14,7 +14,7 @@ Gets the field that allows to find the messages that contain the specified strin
 public StringComparisonField Text { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`DateComparisonField`](../../datecomparisonfield) that represents text header or body search fields.
 

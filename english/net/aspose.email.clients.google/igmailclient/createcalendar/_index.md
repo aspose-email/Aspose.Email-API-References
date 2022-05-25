@@ -18,7 +18,7 @@ public string CreateCalendar(Calendar calendar)
 | --- | --- | --- |
 | calendar | Calendar | An instance of calendar object to create. |
 
-## Return Value
+### Return Value
 
 Returns calendar identifier
 
@@ -44,7 +44,7 @@ public string CreateCalendar(Calendar calendar, bool useColorRgbFormat)
 | calendar | Calendar | An instance of calendar object to create. |
 | useColorRgbFormat | Boolean | Indicates whether color rgb format is used. |
 
-## Return Value
+### Return Value
 
 Returns calendar identifier
 

@@ -18,7 +18,7 @@ public MapiContactCollection ResolveContact(string unresolvedEntry)
 | --- | --- | --- |
 | unresolvedEntry | String | A name of contact to resolve. |
 
-## Return Value
+### Return Value
 
 A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contacts information.
 

@@ -21,7 +21,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 | folderName | String | Folder to retrieve messages. |
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -43,7 +43,7 @@ Gets the list of messages in the current folder
 public ImapMessageInfoCollection ListMessages()
 ```
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -68,7 +68,7 @@ public ImapMessageInfoCollection ListMessages(IEnumerable<string> messageExtraFi
 | --- | --- | --- |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -93,7 +93,7 @@ public ImapMessageInfoCollection ListMessages(bool retrieveRecursively)
 | --- | --- | --- |
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -118,7 +118,7 @@ public ImapMessageInfoCollection ListMessages(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to retrieve messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -144,7 +144,7 @@ public ImapMessageInfoCollection ListMessages(string folderName, bool retrieveRe
 | folderName | String | Folder to retrieve messages. |
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -172,7 +172,7 @@ public ImapMessageInfoCollection ListMessages(string folderName, bool retrieveRe
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -197,7 +197,7 @@ public ImapMessageInfoCollection ListMessages(long modificationSequence)
 | --- | --- | --- |
 | modificationSequence | Int64 | Modification sequence |
 
-## Return Value
+### Return Value
 
 Collection of [`ImapMessageInfo`](../../imapmessageinfo) representing the messages information.
 
@@ -226,7 +226,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -254,7 +254,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, MailQuery 
 | connection | IConnection | Connection to a server |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -284,7 +284,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, MailQuery 
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -311,7 +311,7 @@ public ImapMessageInfoCollection ListMessages(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -340,7 +340,7 @@ public ImapMessageInfoCollection ListMessages(string folderName, MailQuery query
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -367,7 +367,7 @@ public ImapMessageInfoCollection ListMessages(MailQuery query, int maxNumberOfMe
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -394,7 +394,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, int maxNum
 | connection | IConnection | Connection to a server |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of [`ImapMessageInfo`](../../imapmessageinfo) representing the messages information.
 
@@ -426,7 +426,7 @@ public ImapMessageInfoCollection ListMessages(int maxNumberOfMessages)
 | --- | --- | --- |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of [`ImapMessageInfo`](../../imapmessageinfo) representing the messages information.
 
@@ -460,7 +460,7 @@ public ImapMessageInfoCollection ListMessages(string folderName, ImapListFields 
 | fieldsList | ImapListFields | Fields that may be retrieved from the server. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 ImapMessageInfoCollection
 
@@ -494,7 +494,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 | fieldsList | ImapListFields | Fields that may be retrieved from the server. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 ImapMessageInfoCollection
 
@@ -526,7 +526,7 @@ public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<str
 | folderName | String | Folder to retrieve messages. |
 | uniqueIdLst | IEnumerable`1 | UniqueId list for [`ImapMessageInfo`](../../imapmessageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 ImapMessageInfoCollection
 
@@ -556,7 +556,7 @@ public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<int
 | folderName | String | Folder to retrieve messages. |
 | sequenceNumberLst | IEnumerable`1 | sequenceNumber list for [`ImapMessageInfo`](../../imapmessageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 ImapMessageInfoCollection
 
@@ -588,7 +588,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 | folderName | String | Folder to retrieve messages. |
 | uniqueIdLst | IEnumerable`1 | UniqueId list for [`ImapMessageInfo`](../../imapmessageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 ImapMessageInfoCollection
 
@@ -621,7 +621,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 | folderName | String | Folder to retrieve messages. |
 | sequenceNumberLst | IEnumerable`1 | sequenceNumber list for [`ImapMessageInfo`](../../imapmessageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 ImapMessageInfoCollection
 
@@ -656,7 +656,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -682,7 +682,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -709,7 +709,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to retrieve messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -736,7 +736,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, bool retri
 | connection | IConnection | Connection to a server |
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects
 
@@ -763,7 +763,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, long modif
 | connection | IConnection | Connection to a server |
 | modificationSequence | Int64 | Modification sequence |
 
-## Return Value
+### Return Value
 
 Collection of [`ImapMessageInfo`](../../imapmessageinfo) representing the messages information.
 

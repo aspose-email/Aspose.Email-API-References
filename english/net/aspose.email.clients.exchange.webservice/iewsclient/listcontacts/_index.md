@@ -18,7 +18,7 @@ public MapiContact[] ListContacts(string folderUri)
 | --- | --- | --- |
 | folderUri | String | The URI of folder |
 
-## Return Value
+### Return Value
 
 An array of read [`MapiContact`](../../../aspose.email.mapi/mapicontact) that represents contact information
 
@@ -44,7 +44,7 @@ public MapiContact[] ListContacts(string folderUri, IEnumerable<PropertyDescript
 | folderUri | String | A folder to search contacts in |
 | mapiProperties | IEnumerable`1 | Required additional mapi properties |
 
-## Return Value
+### Return Value
 
 An array of read [`MapiContact`](../../../aspose.email.mapi/mapicontact) that represents contact information
 

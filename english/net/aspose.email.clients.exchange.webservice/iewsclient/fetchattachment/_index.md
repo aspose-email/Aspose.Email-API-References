@@ -18,7 +18,7 @@ public Attachment FetchAttachment(string attachmentUri)
 | --- | --- | --- |
 | attachmentUri | String | The attachment uri |
 
-## Return Value
+### Return Value
 
 [`Attachment`](../../../aspose.email/attachment) that represents fetched attachment
 

@@ -14,7 +14,7 @@ Gets the Unique Id of the E-Mail message.
 public string UniqueId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The unique id.
 

@@ -19,7 +19,7 @@ public static bool operator ==(UrlCategory a, UrlCategory b)
 | a | UrlCategory | First object to compare |
 | b | UrlCategory | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise false.
 

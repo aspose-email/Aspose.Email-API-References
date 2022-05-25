@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the pst is writable.
 public bool Writable { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if writable; otherwise, `false`.
 

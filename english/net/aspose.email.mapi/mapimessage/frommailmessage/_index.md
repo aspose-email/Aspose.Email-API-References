@@ -18,7 +18,7 @@ public static MapiMessage FromMailMessage(string fileName)
 | --- | --- | --- |
 | fileName | String | The file name of MailMessage. |
 
-## Return Value
+### Return Value
 
 Returns a MapiMessage instance which is loaded from the MailMessage.
 
@@ -42,7 +42,7 @@ public static MapiMessage FromMailMessage(MailMessage message)
 | --- | --- | --- |
 | message | MailMessage | The MailMessage. |
 
-## Return Value
+### Return Value
 
 Returns a MapiMessage instance which is loaded from the MailMessage.
 
@@ -68,7 +68,7 @@ public static MapiMessage FromMailMessage(MailMessage message, MapiConversionOpt
 | message | MailMessage | The MailMessage. |
 | options | MapiConversionOptions | MapiFromMailMessageOptions [`MapiConversionOptions`](../../mapiconversionoptions) |
 
-## Return Value
+### Return Value
 
 [`MapiMessage`](../../mapimessage) that represents Outlook message.
 

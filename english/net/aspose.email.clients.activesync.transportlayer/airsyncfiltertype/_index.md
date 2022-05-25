@@ -14,7 +14,7 @@ Specifies an optional time window for the objects
 public enum AirsyncFilterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

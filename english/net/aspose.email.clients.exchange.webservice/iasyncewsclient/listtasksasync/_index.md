@@ -23,7 +23,7 @@ public Task<TaskCollection> ListTasksAsync(string folder = null, int maxNumberOf
 | recursive | Boolean | Retrieve tasks recursively |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Tasks collection
 

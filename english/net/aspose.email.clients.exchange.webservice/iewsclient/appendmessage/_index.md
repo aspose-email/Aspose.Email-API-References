@@ -18,7 +18,7 @@ public string AppendMessage(MapiMessage mapiMessage)
 | --- | --- | --- |
 | mapiMessage | MapiMessage | A message to upload |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -44,7 +44,7 @@ public string AppendMessage(MapiMessage mapiMessage, bool markAsSent)
 | mapiMessage | MapiMessage | A message to upload |
 | markAsSent | Boolean | A value indicating whether the message should be appended as a sent message or a draft. |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -71,7 +71,7 @@ public string AppendMessage(string folderUri, MapiMessage mapiMessage, bool mark
 | mapiMessage | MapiMessage | A message to upload |
 | markAsSent | Boolean | A value indicating whether the message should be appended as a sent message or a draft. |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -103,7 +103,7 @@ public string AppendMessage(MailMessage message)
 | --- | --- | --- |
 | message | MailMessage | A message to upload |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -129,7 +129,7 @@ public string AppendMessage(string folderUri, MailMessage message)
 | folderUri | String | A folder URI to which message is uploaded. |
 | message | MailMessage | A message to upload |
 
-## Return Value
+### Return Value
 
 An uri of created message
 

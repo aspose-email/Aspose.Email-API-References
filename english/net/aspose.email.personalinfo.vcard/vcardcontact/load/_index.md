@@ -19,7 +19,7 @@ public static VCardContact Load(Stream stream, CancellationToken token)
 | stream | Stream | A stream to read from |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -52,7 +52,7 @@ public static VCardContact Load(Stream stream, Encoding encoding, CancellationTo
 | encoding | Encoding | Stream data encoding |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -84,7 +84,7 @@ public static VCardContact Load(string filePath, CancellationToken token)
 | filePath | String | A file name to read from |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -116,7 +116,7 @@ public static VCardContact Load(string filePath, Encoding encoding, Cancellation
 | encoding | Encoding | Stream data encoding |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -146,7 +146,7 @@ public static VCardContact Load(string filePath)
 | --- | --- | --- |
 | filePath | String | A file name to read from |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -177,7 +177,7 @@ public static VCardContact Load(string filePath, Encoding encoding)
 | filePath | String | A file name to read from |
 | encoding | Encoding | File encoding |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -207,7 +207,7 @@ public static VCardContact Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream to read from |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -239,7 +239,7 @@ public static VCardContact Load(Stream stream, Encoding encoding)
 | stream | Stream | A stream to read from |
 | encoding | Encoding | Stream data encoding |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 

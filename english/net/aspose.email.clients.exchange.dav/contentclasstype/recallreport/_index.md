@@ -14,7 +14,7 @@ Gets the urn:content-classes:recallreport content class that defines a set of pr
 public static ContentClassType RecallReport { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recall report content class.
 

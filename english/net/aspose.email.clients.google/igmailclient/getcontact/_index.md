@@ -18,7 +18,7 @@ public Contact GetContact(string contactUri)
 | --- | --- | --- |
 | contactUri | String | String, that represents contact's uri |
 
-## Return Value
+### Return Value
 
 [`Contact`](../../../aspose.email.personalinfo/contact) object, that represents a contact of gmail
 

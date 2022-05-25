@@ -19,7 +19,7 @@ public string GetPropertyString(long tag, int codepage)
 | tag | Int64 | The MAPI property tag. |
 | codepage | Int32 | The specified codepage used to get string value. |
 
-## Return Value
+### Return Value
 
 The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 
@@ -43,7 +43,7 @@ public string GetPropertyString(long tag)
 | --- | --- | --- |
 | tag | Int64 | The MAPI property tag. |
 
-## Return Value
+### Return Value
 
 The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 

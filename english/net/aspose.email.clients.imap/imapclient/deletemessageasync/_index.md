@@ -19,7 +19,7 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | Sequence number of a message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The uid of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -70,7 +70,7 @@ public Task DeleteMessageAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | Sequence number of a message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -94,7 +94,7 @@ public Task DeleteMessageAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The uid of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -121,7 +121,7 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber,
 | sequenceNumber | Int32 | Sequence number of a message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -148,7 +148,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | uniqueId | String | The uid of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -174,7 +174,7 @@ public Task DeleteMessageAsync(int sequenceNumber, long modificationSequence)
 | sequenceNumber | Int32 | Sequence number of a message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -199,7 +199,7 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence)
 | uniqueId | String | The uid of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -224,7 +224,7 @@ public Task DeleteMessageAsync(string uniqueId, bool commitNow)
 | uniqueId | String | The uid of the message |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -250,7 +250,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool com
 | uniqueId | String | The uid of the message |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -277,7 +277,7 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool 
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -305,7 +305,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -332,7 +332,7 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber, Cance
 | sequenceNumber | Int32 | Sequence number of a message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -359,7 +359,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, Cancella
 | uniqueId | String | The uid of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -385,7 +385,7 @@ public Task DeleteMessageAsync(int sequenceNumber, CancellationToken token)
 | sequenceNumber | Int32 | Sequence number of a message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -410,7 +410,7 @@ public Task DeleteMessageAsync(string uniqueId, CancellationToken token)
 | uniqueId | String | The uid of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -438,7 +438,7 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -467,7 +467,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -495,7 +495,7 @@ public Task DeleteMessageAsync(int sequenceNumber, long modificationSequence,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -521,7 +521,7 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, Cance
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -547,7 +547,7 @@ public Task DeleteMessageAsync(string uniqueId, bool commitNow, CancellationToke
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -575,7 +575,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, bool com
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -604,7 +604,7 @@ public Task DeleteMessageAsync(string uniqueId, long modificationSequence, bool 
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -633,7 +633,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, long mod
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

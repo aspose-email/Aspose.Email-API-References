@@ -19,7 +19,7 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 | id | Int32 | Id of a property |
 | dataType | PropertyDataType | Data type of a property |
 
-## Return Value
+### Return Value
 
 [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
 
@@ -45,7 +45,7 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 | --- | --- | --- |
 | tag | Int64 | Tag of a property |
 
-## Return Value
+### Return Value
 
 [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
 
@@ -73,7 +73,7 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 | dataType | PropertyDataType | Data type of a property |
 | propertySet | Guid | PropertySet of a property |
 
-## Return Value
+### Return Value
 
 [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) object
 
@@ -102,7 +102,7 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 | dataType | PropertyDataType | Data type of a property |
 | propertySet | Guid | PropertySet of a property |
 
-## Return Value
+### Return Value
 
 [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) object
 

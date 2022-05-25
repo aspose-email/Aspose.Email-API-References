@@ -18,7 +18,7 @@ public long GenerateNamedPropertyTag(PropertyDataType dataType)
 | --- | --- | --- |
 | dataType | PropertyDataType | Named property data type |
 
-## Return Value
+### Return Value
 
 Returns tag for named property for current tag provider
 
@@ -43,7 +43,7 @@ public long GenerateNamedPropertyTag(MapiPropertyType dataType)
 | --- | --- | --- |
 | dataType | MapiPropertyType | Named property data type |
 
-## Return Value
+### Return Value
 
 Returns tag for named property for current tag provider
 
@@ -68,7 +68,7 @@ public long GenerateNamedPropertyTag(long dataType)
 | --- | --- | --- |
 | dataType | Int64 | Named property data type |
 
-## Return Value
+### Return Value
 
 Returns tag for named property for current tag provider
 

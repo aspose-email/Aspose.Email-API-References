@@ -14,7 +14,7 @@ Gets the message flags.
 public ImapMessageFlags Flags { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message flags.
 

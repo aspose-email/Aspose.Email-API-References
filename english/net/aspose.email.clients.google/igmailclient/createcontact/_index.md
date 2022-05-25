@@ -18,7 +18,7 @@ public string CreateContact(Contact contact)
 | --- | --- | --- |
 | contact | Contact | A contact to create. |
 
-## Return Value
+### Return Value
 
 Returns contact uri
 
@@ -44,7 +44,7 @@ public string CreateContact(Contact contact, string emailAddress)
 | contact | Contact | A contact to create. |
 | emailAddress | String | Email address |
 
-## Return Value
+### Return Value
 
 Returns contact uri
 

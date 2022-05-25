@@ -14,7 +14,7 @@ Specifies the content class of the folder to be monitored.
 public enum FolderClass
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

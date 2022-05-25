@@ -20,7 +20,7 @@ public ExchangeFolderInfo CreatePublicFolder(string name,
 | name | String | A name of new folder |
 | permissions | ExchangeFolderPermissionCollection | A permission on new folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -49,7 +49,7 @@ public ExchangeFolderInfo CreatePublicFolder(string parentFolderUri, string name
 | name | String | A name of new folder |
 | permissions | ExchangeFolderPermissionCollection | A permission on new folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -78,7 +78,7 @@ public ExchangeFolderInfo CreatePublicFolder(string name,
 | permissions | ExchangeFolderPermissionCollection | A permission on new folder |
 | folderType | ExchangeFolderType | Type of folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 

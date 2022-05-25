@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/memberstatustype/
 public enum MemberStatusType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

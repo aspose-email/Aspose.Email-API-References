@@ -14,7 +14,7 @@ Gets a value indicating whether Flags property contains the Deleted flag.
 public bool Deleted { get; }
 ```
 
-## Property Value
+### Property Value
 
 The deleted flag.
 

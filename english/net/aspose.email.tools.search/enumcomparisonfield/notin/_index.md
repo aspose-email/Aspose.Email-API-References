@@ -18,7 +18,7 @@ public MailQuery NotIn(IEnumerable values)
 | --- | --- | --- |
 | values | IEnumerable | Values . |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

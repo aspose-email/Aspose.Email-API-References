@@ -15,7 +15,7 @@ The authentication methods supported by the SOCKS protocol
 public enum SocksAuthenticationMethods : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

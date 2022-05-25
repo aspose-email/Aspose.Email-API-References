@@ -18,7 +18,7 @@ public ExchangeFolderInfo GetFolderInfo(string folder)
 | --- | --- | --- |
 | folder | String | A folder uri or distinguished folder name |
 
-## Return Value
+### Return Value
 
 A [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) that represents the folder information
 

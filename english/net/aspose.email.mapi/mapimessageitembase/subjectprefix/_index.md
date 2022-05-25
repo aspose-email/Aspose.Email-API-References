@@ -14,7 +14,7 @@ Gets a subject prefix that typically indicates some action on a message, such as
 public string SubjectPrefix { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents subject prefix.
 

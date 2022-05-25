@@ -14,7 +14,7 @@ Checks if the credentials are valid
 public abstract bool ValidateCredentials()
 ```
 
-## Return Value
+### Return Value
 
 True if authentication was successful, otherwise false.
 

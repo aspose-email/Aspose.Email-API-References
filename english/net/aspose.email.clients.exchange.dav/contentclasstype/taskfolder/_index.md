@@ -14,7 +14,7 @@ Gets the urn:content-classes:taskfolder content class that defines a set of prop
 public static ContentClassType TaskFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The task folder content class.
 

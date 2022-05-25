@@ -14,7 +14,7 @@ Gets the Headers of the E-Mail message.
 public HeaderCollection Headers { get; }
 ```
 
-## Property Value
+### Property Value
 
 The headers.
 

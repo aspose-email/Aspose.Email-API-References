@@ -14,7 +14,7 @@ Gets array of existed well-known folders. If well-known folder is null, it won't
 public ImapFolderInfo[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`ImapFolderInfo`](../../imapfolderinfo) objects
 

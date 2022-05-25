@@ -14,7 +14,7 @@ Gets the file format.
 public FileFormat Format { get; }
 ```
 
-## Property Value
+### Property Value
 
 [`FileFormat`](../../fileformat) that specifies file format.
 

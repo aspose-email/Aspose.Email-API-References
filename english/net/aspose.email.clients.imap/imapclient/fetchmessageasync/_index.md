@@ -19,7 +19,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -48,7 +48,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | sequenceNumber | Int32 | The sequence number of message |
 | ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -74,7 +74,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -100,7 +100,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttach
 | sequenceNumber | Int32 | The sequence number of message |
 | ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -126,7 +126,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -152,7 +152,7 @@ public Task<MailMessage> FetchMessageAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -180,7 +180,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | sequenceNumber | Int32 | The sequence number of message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -210,7 +210,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -237,7 +237,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, CancellationToken
 | sequenceNumber | Int32 | The sequence number of message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -265,7 +265,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttach
 | ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -293,7 +293,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 | uniqueId | String | The unique id of message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -320,7 +320,7 @@ public Task<MailMessage> FetchMessageAsync(string uniqueId, CancellationToken to
 | uniqueId | String | The unique id of message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

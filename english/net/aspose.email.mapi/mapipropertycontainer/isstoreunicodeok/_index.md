@@ -14,7 +14,7 @@ Determines if string properties are Unicode encoded or not.
 public bool IsStoreUnicodeOk()
 ```
 
-## Return Value
+### Return Value
 
 True, if string properties are Unicode encoded.
 

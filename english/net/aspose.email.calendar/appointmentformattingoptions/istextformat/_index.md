@@ -14,7 +14,7 @@ Gets a value indicating whether template has a text format.
 public bool IsTextFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if template has a text format; otherwise, `false`.
 

@@ -14,7 +14,7 @@ Subscription status
 public enum SubscriptionStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

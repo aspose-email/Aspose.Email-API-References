@@ -14,7 +14,7 @@ Gets the display name of folder.
 public string DisplayName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The display name.
 

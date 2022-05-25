@@ -18,7 +18,7 @@ public Contact[] GetContacts(string folderUri)
 | --- | --- | --- |
 | folderUri | String | The URI of folder |
 
-## Return Value
+### Return Value
 
 An array of read [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 

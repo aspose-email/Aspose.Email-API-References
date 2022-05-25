@@ -18,7 +18,7 @@ public DataContainer this[AirSync elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -43,7 +43,7 @@ public DataContainer this[AirSyncBase elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -68,7 +68,7 @@ public DataContainer this[Email elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -93,7 +93,7 @@ public DataContainer this[Email2 elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -118,7 +118,7 @@ public DataContainer this[Calendar elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -143,7 +143,7 @@ public DataContainer this[DocumentLibrary elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -168,7 +168,7 @@ public DataContainer this[Contacts elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -193,7 +193,7 @@ public DataContainer this[Contacts2 elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -218,7 +218,7 @@ public DataContainer this[Tasks elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -243,7 +243,7 @@ public DataContainer this[Notes elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -268,7 +268,7 @@ public DataContainer this[RightsManagement elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -293,7 +293,7 @@ public DataContainer this[Settings elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -318,7 +318,7 @@ public DataContainer this[ItemOperations elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -343,7 +343,7 @@ public DataContainer this[GAL elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 
@@ -368,7 +368,7 @@ public DataContainer this[Search elementName] { get; }
 | --- | --- |
 | elementName | Element name |
 
-## Return Value
+### Return Value
 
 Returns DataContainer for selected element
 

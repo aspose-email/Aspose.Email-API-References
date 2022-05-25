@@ -14,7 +14,7 @@ Gets or sets the brief description of activity that is being recorded.
 public string BriefDescription { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents activity.
 

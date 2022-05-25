@@ -14,7 +14,7 @@ Gets the sender of this message.
 public MailAddress Sender { get; }
 ```
 
-## Property Value
+### Property Value
 
 The sender of this message.
 

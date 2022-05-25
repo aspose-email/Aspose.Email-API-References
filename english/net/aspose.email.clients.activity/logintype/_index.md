@@ -14,7 +14,7 @@ Login types
 public enum LoginType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

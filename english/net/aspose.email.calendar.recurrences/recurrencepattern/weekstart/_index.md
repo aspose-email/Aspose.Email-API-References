@@ -14,7 +14,7 @@ Gets or sets the week start.
 public CalendarDay WeekStart { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The week start.
 

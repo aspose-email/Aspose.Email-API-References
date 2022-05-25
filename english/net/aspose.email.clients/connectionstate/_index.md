@@ -14,7 +14,7 @@ Describes the current state of the connection.
 public enum ConnectionState
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

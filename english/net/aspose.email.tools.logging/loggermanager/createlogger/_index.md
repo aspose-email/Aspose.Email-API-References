@@ -19,7 +19,7 @@ public static Logger CreateLogger(string name, Appender appender)
 | name | String | The logger name. |
 | appender | Appender | The appender. |
 
-## Return Value
+### Return Value
 
 The created logger.
 
@@ -46,7 +46,7 @@ public static Logger CreateLogger(string name, params Appender[] appenders)
 | name | String | The logger name. |
 | appenders | Appender[] | The appender. |
 
-## Return Value
+### Return Value
 
 The created logger.
 
@@ -74,7 +74,7 @@ public static Logger CreateLogger(string name, LogLevel severity, Appender appen
 | severity | LogLevel | The severity. |
 | appender | Appender | The appender. |
 
-## Return Value
+### Return Value
 
 The created logger.
 
@@ -103,7 +103,7 @@ public static Logger CreateLogger(string name, LogLevel severity, params Appende
 | severity | LogLevel | The severity. |
 | appenders | Appender[] | The appenders array. |
 
-## Return Value
+### Return Value
 
 The created logger.
 

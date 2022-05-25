@@ -18,7 +18,7 @@ public bool Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream. |
 
-## Return Value
+### Return Value
 
 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
 
@@ -42,7 +42,7 @@ public bool Load(string fileName)
 | --- | --- | --- |
 | fileName | String | The file name. |
 
-## Return Value
+### Return Value
 
 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
 

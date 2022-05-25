@@ -14,7 +14,7 @@ Gets the size of the E-Mail message.
 public long Size { get; }
 ```
 
-## Property Value
+### Property Value
 
 The size of the E-Mail message.
 

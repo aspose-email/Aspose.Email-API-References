@@ -18,7 +18,7 @@ public string UpdateTask(MapiTask task)
 | --- | --- | --- |
 | task | MapiTask | An [`MapiTask`](../../../aspose.email.mapi/mapitask) containing the task information. |
 
-## Return Value
+### Return Value
 
 Task uri.
 
@@ -44,7 +44,7 @@ public string UpdateTask(string uri, MapiTask task)
 | uri | String | Task identifier |
 | task | MapiTask | An [`ExchangeTask`](../../exchangetask) containing the task information. |
 
-## Return Value
+### Return Value
 
 Task uri.
 
@@ -72,7 +72,7 @@ public string UpdateTask(string uri, MapiTask task,
 | task | MapiTask | An [`ExchangeTask`](../../exchangetask) containing the task information. |
 | additionalProperties | IEnumerable`1 | An additional MAPI properties which can be used in MAPI object. |
 
-## Return Value
+### Return Value
 
 Task uri.
 

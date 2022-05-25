@@ -14,7 +14,7 @@ Exposes the enumerator, which supports an iteration of subfolders in folder.
 public IEnumerable<FolderInfo> EnumerateFolders()
 ```
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a subfolders in folder.
 
@@ -38,7 +38,7 @@ public IEnumerable<FolderInfo> EnumerateFolders(FolderKind kind)
 | --- | --- | --- |
 | kind | FolderKind | The [`FolderKind`](../../folderkind) that represents kind of folder. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a subfolders in folder.
 

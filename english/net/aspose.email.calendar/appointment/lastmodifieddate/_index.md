@@ -14,7 +14,7 @@ Gets or sets the date and time that calendar information was last revised.
 public DateTime LastModifiedDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The DateTime that represents modification date and time.
 

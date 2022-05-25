@@ -18,7 +18,7 @@ public FolderInfo GetFolderById(byte[] entryId)
 | --- | --- | --- |
 | entryId | Byte[] | The Entry id. |
 
-## Return Value
+### Return Value
 
 A FolderInfo object.
 
@@ -43,7 +43,7 @@ public FolderInfo GetFolderById(string entryIdString)
 | --- | --- | --- |
 | entryIdString | String | String representation of entry ID. |
 
-## Return Value
+### Return Value
 
 A FolderInfo object.
 

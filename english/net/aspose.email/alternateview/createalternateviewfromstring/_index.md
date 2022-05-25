@@ -18,7 +18,7 @@ public static AlternateView CreateAlternateViewFromString(string content)
 | --- | --- | --- |
 | content | String | The string that contains the content. |
 
-## Return Value
+### Return Value
 
 An AlternateView object that represents an alternate view.
 
@@ -45,7 +45,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Encodi
 | contentEncoding | Encoding | The content encoding. |
 | mediaType | String | Internet media type. |
 
-## Return Value
+### Return Value
 
 An AlternateView object that represents an alternate view.
 
@@ -70,7 +70,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Conten
 | content | String | The string that contains the content. |
 | contentType | ContentType | Content type. |
 
-## Return Value
+### Return Value
 
 An AlternateView object that represents an alternate view.
 
@@ -98,7 +98,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Conten
 | contentType | ContentType | Content type. |
 | transferencoding | TransferEncoding | The transfer encoding. |
 
-## Return Value
+### Return Value
 
 An AlternateView object that represents an alternate view.
 

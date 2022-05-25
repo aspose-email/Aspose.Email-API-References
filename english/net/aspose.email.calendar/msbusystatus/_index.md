@@ -14,7 +14,7 @@ Specifies the BUSY status of an appointment.
 public enum MSBusyStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

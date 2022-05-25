@@ -14,7 +14,7 @@ Type of a user role within the team.
 public enum MemberRoleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

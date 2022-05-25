@@ -23,7 +23,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -49,7 +49,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -76,7 +76,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to retrieve messages. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -104,7 +104,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -132,7 +132,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | modificationSequence | Int64 | Modification sequence |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -161,7 +161,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | folderName | String | Folder to retrieve messages. |
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -183,7 +183,7 @@ Gets the list of messages in the current folder
 public Task<ImapMessageInfoCollection> ListMessagesAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -208,7 +208,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> mes
 | --- | --- | --- |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -233,7 +233,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(bool retrieveRecursivel
 | --- | --- | --- |
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -258,7 +258,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to retrieve messages. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -285,7 +285,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 | folderName | String | Folder to retrieve messages. |
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -313,7 +313,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -338,7 +338,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequen
 | --- | --- | --- |
 | modificationSequence | Int64 | Modification sequence |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -367,7 +367,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -395,7 +395,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -425,7 +425,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -452,7 +452,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -481,7 +481,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, Mail
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -508,7 +508,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query, int ma
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -536,7 +536,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -568,7 +568,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages
 | --- | --- | --- |
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -606,7 +606,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -634,7 +634,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -663,7 +663,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | folderName | String | Folder to retrieve messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -692,7 +692,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -721,7 +721,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | modificationSequence | Int64 | Modification sequence |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -751,7 +751,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -777,7 +777,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(CancellationToken token
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -804,7 +804,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IEnumerable<string> mes
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -831,7 +831,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(bool retrieveRecursivel
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -857,7 +857,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, Canc
 | folderName | String | Folder to retrieve messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -885,7 +885,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 | retrieveRecursively | Boolean | Indicates, if messages have to be retrieved recursively. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -914,7 +914,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName,
 | messageExtraFields | IEnumerable`1 | List of extra parameters for a message wich will be requested. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -941,7 +941,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(long modificationSequen
 | modificationSequence | Int64 | Modification sequence |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -971,7 +971,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -1001,7 +1001,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -1032,7 +1032,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -1060,7 +1060,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query, Cancel
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -1090,7 +1090,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName, Mail
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -1119,7 +1119,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(MailQuery query, int ma
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo objects.
 
@@ -1148,7 +1148,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(IConnection connection,
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1182,7 +1182,7 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(int maxNumberOfMessages
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -18,7 +18,7 @@ public ItemEstimate GetItemEstimate(ItemEstimateRequest request)
 | --- | --- | --- |
 | request | ItemEstimateRequest | ItemEstimate request parameters |
 
-## Return Value
+### Return Value
 
 Estimate on the requested folder
 
@@ -44,7 +44,7 @@ public ItemEstimate[] GetItemEstimate(params ItemEstimateRequest[] request)
 | --- | --- | --- |
 | request | ItemEstimateRequest[] | Array with ItemEstimate request parameters |
 
-## Return Value
+### Return Value
 
 Contains array with estimates on the requested folders
 
@@ -70,7 +70,7 @@ public ItemEstimate[] GetItemEstimate(IEnumerable<ItemEstimateRequest> request)
 | --- | --- | --- |
 | request | IEnumerable`1 | Enumeration with ItemEstimate request parameters |
 
-## Return Value
+### Return Value
 
 Contains array with estimates on the requested folders
 

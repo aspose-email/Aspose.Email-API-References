@@ -19,7 +19,7 @@ public Subscription StartSubscription(string contentType, Webhook webhook)
 | contentType | String | Indicates the content type. |
 | webhook | Webhook | Indicates the configured webhook |
 
-## Return Value
+### Return Value
 
 Subscription in current state
 

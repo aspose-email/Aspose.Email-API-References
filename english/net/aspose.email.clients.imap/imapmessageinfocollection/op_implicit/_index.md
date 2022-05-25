@@ -18,7 +18,7 @@ public static implicit operator ImapMessageInfo[](ImapMessageInfoCollection mess
 | --- | --- | --- |
 | messageInfoCol | ImapMessageInfoCollection | Collection of ImapMessageInfo to convert |
 
-## Return Value
+### Return Value
 
 Array of ImapMessageInfo
 
@@ -43,7 +43,7 @@ public static implicit operator ImapMessageInfoCollection(ImapMessageInfo[] mess
 | --- | --- | --- |
 | messageInfoArr | ImapMessageInfo[] | Array of ImapMessageInfo to convert |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo
 
@@ -68,7 +68,7 @@ public static implicit operator List<ImapMessageInfo>(ImapMessageInfoCollection 
 | --- | --- | --- |
 | messageInfoCol | ImapMessageInfoCollection | Collection of ImapMessageInfo to convert |
 
-## Return Value
+### Return Value
 
 List of ImapMessageInfo
 
@@ -93,7 +93,7 @@ public static implicit operator ImapMessageInfoCollection(List<ImapMessageInfo> 
 | --- | --- | --- |
 | messageInfoLst | List`1 | List of ImapMessageInfo to convert |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo
 

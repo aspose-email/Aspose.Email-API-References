@@ -14,7 +14,7 @@ Lists mailboxes in the global address list.
 public Contact[] GetMailboxes()
 ```
 
-## Return Value
+### Return Value
 
 An array of [`Contact`](../../../aspose.email.personalinfo/contact) objects.
 

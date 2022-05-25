@@ -14,7 +14,7 @@ Reads the next message from underlying storage stream.
 public abstract MailMessage ReadNextMessage()
 ```
 
-## Return Value
+### Return Value
 
 A [`MailMessage`](../../../aspose.email/mailmessage) object if it can be read or **null** if no more messages are available.
 
@@ -39,7 +39,7 @@ public abstract MailMessage ReadNextMessage(out string fromMarker)
 | --- | --- | --- |
 | fromMarker | String& | Gets the From Marker while parsing the MBox Storage file. |
 
-## Return Value
+### Return Value
 
 A [`MailMessage`](../../../aspose.email/mailmessage) object if it can be read or **null** if no more messages are available.
 

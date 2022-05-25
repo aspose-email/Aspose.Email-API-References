@@ -18,7 +18,7 @@ public byte[] GetPropertyBytes(long tag)
 | --- | --- | --- |
 | tag | Int64 | The MAPI property tag. |
 
-## Return Value
+### Return Value
 
 The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 

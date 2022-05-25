@@ -14,7 +14,7 @@ Enumerates the message types.
 public enum MessageInfoType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

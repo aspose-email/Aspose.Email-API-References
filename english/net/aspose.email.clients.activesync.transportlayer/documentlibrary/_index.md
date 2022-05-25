@@ -14,7 +14,7 @@ DocumentLibrary namespace of the ActiveSync protocol
 public enum DocumentLibrary
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

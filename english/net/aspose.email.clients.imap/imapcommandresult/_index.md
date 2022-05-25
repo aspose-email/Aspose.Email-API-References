@@ -14,7 +14,7 @@ Enumerates the imap command results.
 public enum ImapCommandResult
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

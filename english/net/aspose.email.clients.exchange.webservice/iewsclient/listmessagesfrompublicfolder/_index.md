@@ -18,7 +18,7 @@ public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(string folderU
 | --- | --- | --- |
 | folderUri | String | The uri of folder |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder
 
@@ -43,7 +43,7 @@ public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(ExchangeFolder
 | --- | --- | --- |
 | folder | ExchangeFolderInfo | [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) that represents information about folder |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder
 

@@ -18,7 +18,7 @@ public byte[] GetAttachment(string attachmentName)
 | --- | --- | --- |
 | attachmentName | String | The name of the attachment to be retrieved. |
 
-## Return Value
+### Return Value
 
 Returns attachment data
 

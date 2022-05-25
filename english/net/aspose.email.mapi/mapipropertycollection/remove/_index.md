@@ -18,7 +18,7 @@ public bool Remove(long key)
 | --- | --- | --- |
 | key | Int64 | The tag of the property to remove. |
 
-## Return Value
+### Return Value
 
 true if the property is successfully removed; otherwise, false.
 
@@ -42,7 +42,7 @@ public bool Remove(PropertyDescriptor pd)
 | --- | --- | --- |
 | pd | PropertyDescriptor | Property descriptor of the property to remove. |
 
-## Return Value
+### Return Value
 
 true if the property is successfully removed; otherwise, false.
 

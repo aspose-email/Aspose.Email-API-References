@@ -23,7 +23,7 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, int 
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search criteria. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
@@ -52,7 +52,7 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, Page
 | pageInfo | PageInfo | A page info |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 

@@ -15,7 +15,7 @@ Represents a flags of message.
 public enum ExchangeMessageFlag
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

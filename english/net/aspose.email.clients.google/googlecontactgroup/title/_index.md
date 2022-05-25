@@ -14,7 +14,7 @@ Gets the human-readable title for a group entry
 public string Title { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents title for a group entry
 

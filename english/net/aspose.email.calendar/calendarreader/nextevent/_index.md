@@ -14,7 +14,7 @@ Reads next Event from source and save it to the Current.
 public bool NextEvent()
 ```
 
-## Return Value
+### Return Value
 
 True if success otherwise false.
 

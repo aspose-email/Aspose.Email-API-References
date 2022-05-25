@@ -14,7 +14,7 @@ List the private Distribution Lists.
 public ExchangeDistributionList[] ListDistributionLists()
 ```
 
-## Return Value
+### Return Value
 
 An array of [`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist) that represents Distribution List information.
 

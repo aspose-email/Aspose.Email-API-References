@@ -18,7 +18,7 @@ public MailMessage Merge(MailMessage source)
 | --- | --- | --- |
 | source | MailMessage | The source MailMessage |
 
-## Return Value
+### Return Value
 
 The MailMessage merged with template
 
@@ -43,7 +43,7 @@ public MailMessage Merge(DataRow row)
 | --- | --- | --- |
 | row | DataRow | The source DataRow. |
 
-## Return Value
+### Return Value
 
 The MailMessage merged with template.
 

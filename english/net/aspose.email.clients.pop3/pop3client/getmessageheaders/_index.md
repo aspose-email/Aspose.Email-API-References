@@ -19,7 +19,7 @@ public HeaderCollection GetMessageHeaders(IConnection connection, int sequenceNu
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 HeaderCollection that represents collection of the headers
 
@@ -45,7 +45,7 @@ public HeaderCollection GetMessageHeaders(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 HeaderCollection that represents collection of the headers
 
@@ -71,7 +71,7 @@ public HeaderCollection GetMessageHeaders(IConnection connection, string uniqueI
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 HeaderCollection that represents collection of the headers
 
@@ -97,7 +97,7 @@ public HeaderCollection GetMessageHeaders(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 HeaderCollection that represents collection of the headers
 

@@ -19,7 +19,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to be deleted |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -44,7 +44,7 @@ public Task DeleteFolderAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to be deleted |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -70,7 +70,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName, Cancell
 | folderName | String | Folder to be deleted |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -96,7 +96,7 @@ public Task DeleteFolderAsync(string folderName, CancellationToken token)
 | folderName | String | Folder to be deleted |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

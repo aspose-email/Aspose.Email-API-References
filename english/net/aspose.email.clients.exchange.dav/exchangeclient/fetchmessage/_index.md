@@ -18,7 +18,7 @@ public MailMessage FetchMessage(string messageUri)
 | --- | --- | --- |
 | messageUri | String | The message uri. |
 
-## Return Value
+### Return Value
 
 A MailMessage object contains the message.
 

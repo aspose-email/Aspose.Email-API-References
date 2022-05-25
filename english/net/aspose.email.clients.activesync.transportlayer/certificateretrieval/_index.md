@@ -14,7 +14,7 @@ Specifies whether S/MIME certificates SHOULD be returned by the server for each 
 public enum CertificateRetrieval
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

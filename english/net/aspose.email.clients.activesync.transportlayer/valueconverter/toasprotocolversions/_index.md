@@ -18,7 +18,7 @@ public static ASProtocolVersions ToASProtocolVersions(string version)
 | --- | --- | --- |
 | version | String | String representation of ActiveSync protocol version |
 
-## Return Value
+### Return Value
 
 Returns ActiveSync protocol version.
 

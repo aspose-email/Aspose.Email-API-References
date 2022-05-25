@@ -14,7 +14,7 @@ Gets or sets the size of a file attachment.
 public long Size { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A Int32 that specifies the number of bytes in the file attachment.
 

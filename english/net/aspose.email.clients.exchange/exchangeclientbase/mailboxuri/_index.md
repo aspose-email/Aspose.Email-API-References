@@ -14,7 +14,7 @@ Gets or sets the mailbox uri
 public virtual string MailboxUri { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Uri of the mailbox
 

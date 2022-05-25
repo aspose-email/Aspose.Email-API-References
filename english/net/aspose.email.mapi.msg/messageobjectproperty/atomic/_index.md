@@ -14,7 +14,7 @@ Gets a value indicating whether this [`MessageObjectProperty`](../../messageobje
 public bool Atomic { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if atomic; otherwise, `false`.
 

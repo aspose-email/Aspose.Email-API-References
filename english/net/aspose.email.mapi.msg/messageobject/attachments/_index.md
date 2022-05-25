@@ -14,7 +14,7 @@ Gets the attachments of the [`MessageObject`](../../messageobject).
 public MessageObjectAttachmentsCollection Attachments { get; }
 ```
 
-## Property Value
+### Property Value
 
 The attachments.
 

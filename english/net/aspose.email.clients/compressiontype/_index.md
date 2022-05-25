@@ -15,7 +15,7 @@ Compression types which are used by mail protocols
 public enum CompressionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

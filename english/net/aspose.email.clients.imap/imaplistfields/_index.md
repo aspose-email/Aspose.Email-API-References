@@ -14,7 +14,7 @@ Fields that may be retrieved from the server
 public enum ImapListFields
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

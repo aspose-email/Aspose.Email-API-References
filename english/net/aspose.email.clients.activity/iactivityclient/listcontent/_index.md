@@ -18,7 +18,7 @@ public ContentInfo[] ListContent(string contentType)
 | --- | --- | --- |
 | contentType | String | Indicates the content type. |
 
-## Return Value
+### Return Value
 
 List of available information about activity
 
@@ -45,7 +45,7 @@ public ContentInfo[] ListContent(string contentType, DateTime? startTime, DateTi
 | startTime | Nullable`1 | Optional datetimes (UTC) indicating the time range of content to return, based on when the content became available. The time range is inclusive with respect to startTime (startTime less or equal contentCreated), so that non-overlapping, incrementing time intervals can used to page through available content. Both (startTime and endTime) must be specified (or both omitted). Time range must be no more than 24 hours apart, with the start time no more than 7 days in the past. |
 | endTime | Nullable`1 | Optional datetimes (UTC) indicating the time range of content to return, based on when the content became available. The time range is exclusive with respect to endTime (contentCreated less endTime), so that non-overlapping, incrementing time intervals can used to page through available content. Both (startTime and endTime) must be specified (or both omitted) Time range must be no more than 24 hours apart, with the start time no more than 7 days in the past. |
 
-## Return Value
+### Return Value
 
 List of available information about activity
 

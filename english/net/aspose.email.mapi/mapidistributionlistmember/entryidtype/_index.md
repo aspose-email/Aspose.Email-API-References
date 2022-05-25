@@ -14,7 +14,7 @@ Gets or sets the type of EntryID.
 public MapiDistributionListEntryIdType EntryIdType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the entry id.
 

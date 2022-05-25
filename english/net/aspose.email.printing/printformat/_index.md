@@ -14,7 +14,7 @@ Descibes possible printing formats for [`MailPrinter`](../mailprinter).
 public enum PrintFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

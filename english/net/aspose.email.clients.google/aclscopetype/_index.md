@@ -14,7 +14,7 @@ The type of the ACL scope.
 public enum AclScopeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the root folder of PST.
 public FolderInfo RootFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 [`FolderInfo`](../../folderinfo) that represents a root folder.
 

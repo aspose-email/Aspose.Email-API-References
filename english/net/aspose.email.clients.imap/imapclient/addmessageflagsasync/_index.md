@@ -23,7 +23,7 @@ public Task AddMessageFlagsAsync(IConnection connection, string startUid, string
 | flags | ImapMessageFlags | The flags to be changed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -54,7 +54,7 @@ public Task AddMessageFlagsAsync(IConnection connection, int startSequence, int 
 | flags | ImapMessageFlags | The flags to be removed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -85,7 +85,7 @@ public Task AddMessageFlagsAsync(string startUid, string endUid, ImapMessageFlag
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -115,7 +115,7 @@ public Task AddMessageFlagsAsync(int startSequence, int endSequence, ImapMessage
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -146,7 +146,7 @@ public Task AddMessageFlagsAsync(IConnection connection, string startUid, string
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -178,7 +178,7 @@ public Task AddMessageFlagsAsync(IConnection connection, int startSequence, int 
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -207,7 +207,7 @@ public Task AddMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags fl
 | flags | ImapMessageFlags | The flags to be changed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -235,7 +235,7 @@ public Task AddMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags 
 | flags | ImapMessageFlags | The flags to be removed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -264,7 +264,7 @@ public Task AddMessageFlagsAsync(IConnection connection, IEnumerable<string> uid
 | flags | ImapMessageFlags | The flags to be changed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -294,7 +294,7 @@ public Task AddMessageFlagsAsync(IConnection connection, IEnumerable<int> sequen
 | flags | ImapMessageFlags | The flags to be removed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -324,7 +324,7 @@ public Task AddMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags fl
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -353,7 +353,7 @@ public Task AddMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags 
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -383,7 +383,7 @@ public Task AddMessageFlagsAsync(IConnection connection, IEnumerable<string> uid
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -414,7 +414,7 @@ public Task AddMessageFlagsAsync(IConnection connection, IEnumerable<int> sequen
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -443,7 +443,7 @@ public Task AddMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | flags | ImapMessageFlags | The flags to be changed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -473,7 +473,7 @@ public Task AddMessageFlagsAsync(IConnection connection,
 | flags | ImapMessageFlags | The flags to be changed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -504,7 +504,7 @@ public Task AddMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -536,7 +536,7 @@ public Task AddMessageFlagsAsync(IConnection connection,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -565,7 +565,7 @@ public Task AddMessageFlagsAsync(IConnection connection, int sequenceNumber, Ima
 | sequenceNumber | Int32 | The sequence number of the message |
 | flags | ImapMessageFlags | The flags to be added |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -593,7 +593,7 @@ public Task AddMessageFlagsAsync(IConnection connection, string uniqueId, ImapMe
 | uniqueId | String | Unique identifier of a message |
 | flags | ImapMessageFlags | The flags to be added |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -620,7 +620,7 @@ public Task AddMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags)
 | sequenceNumber | Int32 | The sequence number of the message |
 | flags | ImapMessageFlags | The flags to be added |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -646,7 +646,7 @@ public Task AddMessageFlagsAsync(string uniqueId, ImapMessageFlags flags)
 | uniqueId | String | Unique identifier of a message |
 | flags | ImapMessageFlags | The flags to be added |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -675,7 +675,7 @@ public Task AddMessageFlagsAsync(IConnection connection, int sequenceNumber,
 | flags | ImapMessageFlags | The flags to be added |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -705,7 +705,7 @@ public Task AddMessageFlagsAsync(IConnection connection, string uniqueId, ImapMe
 | flags | ImapMessageFlags | The flags to be added |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -734,7 +734,7 @@ public Task AddMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 | flags | ImapMessageFlags | The flags to be added |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -761,7 +761,7 @@ public Task AddMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, long m
 | flags | ImapMessageFlags | The flags to be added |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -788,7 +788,7 @@ public Task AddMessageFlagsAsync(string startUid, string endUid, ImapMessageFlag
 | endUid | String | The ending UID of a message list |
 | flags | ImapMessageFlags | The flags to be changed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -815,7 +815,7 @@ public Task AddMessageFlagsAsync(int startSequence, int endSequence, ImapMessage
 | endSequence | Int32 | The ending sequence number of a message list |
 | flags | ImapMessageFlags | The flags to be removed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -844,7 +844,7 @@ public Task AddMessageFlagsAsync(IConnection connection, string startUid, string
 | endUid | String | The ending UID of a message list |
 | flags | ImapMessageFlags | The flags to be changed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -874,7 +874,7 @@ public Task AddMessageFlagsAsync(IConnection connection, int startSequence, int 
 | endSequence | Int32 | The ending sequence number of a message list |
 | flags | ImapMessageFlags | The flags to be removed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -904,7 +904,7 @@ public Task AddMessageFlagsAsync(string startUid, string endUid, ImapMessageFlag
 | flags | ImapMessageFlags | The flags to be changed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -933,7 +933,7 @@ public Task AddMessageFlagsAsync(int startSequence, int endSequence, ImapMessage
 | flags | ImapMessageFlags | The flags to be removed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -963,7 +963,7 @@ public Task AddMessageFlagsAsync(IConnection connection, string startUid, string
 | flags | ImapMessageFlags | The flags to be changed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -994,7 +994,7 @@ public Task AddMessageFlagsAsync(IConnection connection, int startSequence, int 
 | flags | ImapMessageFlags | The flags to be removed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1021,7 +1021,7 @@ public Task AddMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags fl
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | flags | ImapMessageFlags | The flags to be changed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1047,7 +1047,7 @@ public Task AddMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags 
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | flags | ImapMessageFlags | The flags to be removed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1075,7 +1075,7 @@ public Task AddMessageFlagsAsync(IConnection connection, IEnumerable<string> uid
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | flags | ImapMessageFlags | The flags to be changed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1104,7 +1104,7 @@ public Task AddMessageFlagsAsync(IConnection connection, IEnumerable<int> sequen
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | flags | ImapMessageFlags | The flags to be removed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1133,7 +1133,7 @@ public Task AddMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags fl
 | flags | ImapMessageFlags | The flags to be changed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1161,7 +1161,7 @@ public Task AddMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags 
 | flags | ImapMessageFlags | The flags to be removed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1190,7 +1190,7 @@ public Task AddMessageFlagsAsync(IConnection connection, IEnumerable<string> uid
 | flags | ImapMessageFlags | The flags to be changed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1220,7 +1220,7 @@ public Task AddMessageFlagsAsync(IConnection connection, IEnumerable<int> sequen
 | flags | ImapMessageFlags | The flags to be removed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1248,7 +1248,7 @@ public Task AddMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
 | flags | ImapMessageFlags | The flags to be changed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1277,7 +1277,7 @@ public Task AddMessageFlagsAsync(IConnection connection,
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
 | flags | ImapMessageFlags | The flags to be changed |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1307,7 +1307,7 @@ public Task AddMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | flags | ImapMessageFlags | The flags to be changed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1337,7 +1337,7 @@ public Task AddMessageFlagsAsync(IConnection connection,
 | flags | ImapMessageFlags | The flags to be changed |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1368,7 +1368,7 @@ public Task AddMessageFlagsAsync(IConnection connection, int sequenceNumber,
 | flags | ImapMessageFlags | The flags to be added |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1398,7 +1398,7 @@ public Task AddMessageFlagsAsync(IConnection connection, string uniqueId, ImapMe
 | flags | ImapMessageFlags | The flags to be added |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1427,7 +1427,7 @@ public Task AddMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 | flags | ImapMessageFlags | The flags to be added |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1454,7 +1454,7 @@ public Task AddMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, Cancel
 | flags | ImapMessageFlags | The flags to be added |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1484,7 +1484,7 @@ public Task AddMessageFlagsAsync(IConnection connection, int sequenceNumber,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1515,7 +1515,7 @@ public Task AddMessageFlagsAsync(IConnection connection, string uniqueId, ImapMe
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1545,7 +1545,7 @@ public Task AddMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1574,7 +1574,7 @@ public Task AddMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1603,7 +1603,7 @@ public Task AddMessageFlagsAsync(string startUid, string endUid, ImapMessageFlag
 | flags | ImapMessageFlags | The flags to be changed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1632,7 +1632,7 @@ public Task AddMessageFlagsAsync(int startSequence, int endSequence, ImapMessage
 | flags | ImapMessageFlags | The flags to be removed |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

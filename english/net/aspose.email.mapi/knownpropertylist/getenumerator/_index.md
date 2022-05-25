@@ -14,7 +14,7 @@ Returns an enumerator that iterates through the collection.
 public IEnumerator<PropertyDescriptor> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 A System.Collections.Generic.IEnumerator that can be used to iterate through the collection.
 

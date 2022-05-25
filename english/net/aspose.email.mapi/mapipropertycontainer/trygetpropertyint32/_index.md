@@ -19,7 +19,7 @@ public bool TryGetPropertyInt32(long tag, ref int value)
 | tag | Int64 | The MAPI property tag. |
 | value | Int32& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
 
-## Return Value
+### Return Value
 
 true if s was converted successfully; otherwise, false.
 

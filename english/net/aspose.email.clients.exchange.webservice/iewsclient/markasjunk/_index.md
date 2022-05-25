@@ -19,7 +19,7 @@ public string[] MarkAsJunk(bool isJunk, params string[] messageUriEn)
 | isJunk | Boolean | Indicates, whether messages is marked as junk mail. If value of true adds message sender to the block-list. If value of false removes message sender from the block-list. |
 | messageUriEn | String[] | Array of message uri |
 
-## Return Value
+### Return Value
 
 Returns the array of message ID which are moved to the junk mail folder.
 
@@ -45,7 +45,7 @@ public string[] MarkAsJunk(bool isJunk, bool moveItem, params string[] messageUr
 | moveItem | Boolean | Indicates, whether messages is moved to the junk mail folder. |
 | messageUriEn | String[] | Array of message uri |
 
-## Return Value
+### Return Value
 
 Returns the array of message ID which are moved to the junk mail folder.
 
@@ -70,7 +70,7 @@ public string[] MarkAsJunk(bool isJunk, IEnumerable<string> messageUriEn)
 | isJunk | Boolean | Indicates, whether messages is marked as junk mail. If value of true adds message sender to the block-list. If value of false removes message sender from the block-list. |
 | messageUriEn | IEnumerable`1 | Enumeration of message uri |
 
-## Return Value
+### Return Value
 
 Returns the item ID of the message marked as junk mail.
 
@@ -96,7 +96,7 @@ public string[] MarkAsJunk(bool isJunk, bool moveItem, IEnumerable<string> messa
 | moveItem | Boolean | Indicates, whether messages is moved to the junk mail folder. |
 | messageUriEn | IEnumerable`1 | Enumeration of message uri |
 
-## Return Value
+### Return Value
 
 Returns the array of message ID which are moved to the junk mail folder.
 

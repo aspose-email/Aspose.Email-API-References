@@ -13,7 +13,7 @@ url: /net/aspose.email.clients.pop3/pop3knownauthenticationtype/
 public enum Pop3KnownAuthenticationType : long
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,6 +14,15 @@ Specifies the type of text data in an e-mail message attachment.
 public sealed class Text
 ```
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [Html](../../aspose.email.mime/text/html) | Specifies text/html media type |
+| const [Plain](../../aspose.email.mime/text/plain) | Specifies text/plain media type |
+| const [RichText](../../aspose.email.mime/text/richtext) | Specifies text/richtext media type |
+| const [Xml](../../aspose.email.mime/text/xml) | Specifies text/xml media type |
+
 ### See Also
 
 * class [MediaTypeNames](../mediatypenames)

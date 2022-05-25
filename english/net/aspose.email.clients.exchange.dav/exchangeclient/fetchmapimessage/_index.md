@@ -18,7 +18,7 @@ public MapiMessage FetchMapiMessage(string messageUri)
 | --- | --- | --- |
 | messageUri | String | The message uri. |
 
-## Return Value
+### Return Value
 
 A [`MapiMessage`](../../../aspose.email.mapi/mapimessage) object contains the message.
 

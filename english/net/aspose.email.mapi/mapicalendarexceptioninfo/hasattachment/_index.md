@@ -14,7 +14,7 @@ Gets a value of this field specifies whether the Exception Embedded Message obje
 public bool HasAttachment { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the Exception Embedded Message object has attachment; otherwise, `false`.
 

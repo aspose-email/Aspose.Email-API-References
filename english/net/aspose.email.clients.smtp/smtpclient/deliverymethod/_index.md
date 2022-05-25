@@ -14,7 +14,7 @@ Gets or sets the delivery method.
 public SmtpDeliveryMethod DeliveryMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An SmtpDeliveryMethod that indicates how messages are delivered.
 

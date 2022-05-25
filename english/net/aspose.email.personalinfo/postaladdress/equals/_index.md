@@ -32,7 +32,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to compare with the current Object. |
 
-## Return Value
+### Return Value
 
 Returns a boolean indicating if the passed in object obj is Equal to this.
 
@@ -57,7 +57,7 @@ public bool Equals(PostalAddress x, PostalAddress y)
 | x | PostalAddress | The first object to compare. |
 | y | PostalAddress | The second object to compare. |
 
-## Return Value
+### Return Value
 
 true if the objects are considered equal; otherwise, false. If both objA and objB are null, the method returns true.
 

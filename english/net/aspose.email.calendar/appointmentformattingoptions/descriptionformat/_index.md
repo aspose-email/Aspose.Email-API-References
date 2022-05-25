@@ -14,7 +14,7 @@ Gets or sets the description format.
 public string DescriptionFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The description format.
 

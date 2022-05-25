@@ -14,7 +14,7 @@ Gets or sets the user-visible name of the personal distribution list.
 public string DisplayName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The display name.
 

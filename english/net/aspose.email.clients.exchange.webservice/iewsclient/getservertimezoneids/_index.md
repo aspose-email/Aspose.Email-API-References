@@ -14,7 +14,7 @@ The GetServerTimeZoneIds returns information from time zone id that are availabl
 public string[] GetServerTimeZoneIds()
 ```
 
-## Return Value
+### Return Value
 
 Returns an array of time zone id that are available on an Exchange server.
 
@@ -38,7 +38,7 @@ public string[] GetServerTimeZoneIds(params string[] timeZoneIds)
 | --- | --- | --- |
 | timeZoneIds | String[] | Identifiers of time zones for checking existence on the server. |
 
-## Return Value
+### Return Value
 
 Returns an array of time zone id that are available on an Exchange server.
 
@@ -62,7 +62,7 @@ public string[] GetServerTimeZoneIds(IEnumerable<string> timeZoneIds)
 | --- | --- | --- |
 | timeZoneIds | IEnumerable`1 | Identifiers of time zones for checking existence on the server. |
 
-## Return Value
+### Return Value
 
 Returns an array of time zone id that are available on an Exchange server.
 

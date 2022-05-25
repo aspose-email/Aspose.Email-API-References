@@ -19,7 +19,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, int
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -71,7 +71,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, str
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -97,7 +97,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -125,7 +125,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, int
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -152,7 +152,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(int sequenceNumber, Cancell
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -180,7 +180,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, str
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -207,7 +207,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(string uniqueId, Cancellati
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

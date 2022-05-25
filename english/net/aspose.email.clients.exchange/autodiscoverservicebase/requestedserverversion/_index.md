@@ -14,7 +14,7 @@ Gets the requested server version.
 public ExchangeVersion RequestedServerVersion { get; }
 ```
 
-## Property Value
+### Property Value
 
 The requested server version.
 

@@ -14,7 +14,7 @@ Represents supported units for [`PageUnit`](../mailprinter/pageunit).
 public enum PrinterUnit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

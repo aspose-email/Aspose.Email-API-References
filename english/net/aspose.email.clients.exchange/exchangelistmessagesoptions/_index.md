@@ -15,7 +15,7 @@ Enumerates the list messages options
 public enum ExchangeListMessagesOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

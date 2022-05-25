@@ -74,13 +74,6 @@ public sealed class FolderInfo
 | [RetrieveFullPath](../../aspose.email.storage.pst/folderinfo/retrievefullpath)() | Retrieves the full path of folder within the PST file. |
 | [UpdateMessage](../../aspose.email.storage.pst/folderinfo/updatemessage)(string, MapiMessageItemBase) | Updates the message in folder. |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [ItemMoved](itemmoved) | Occurs when an item is moved to the another folder. |
-| event [MessageAdded](messageadded) | Occurs when a message is added to the current folder. |
-
 ### See Also
 
 * namespace [Aspose.Email.Storage.Pst](../../aspose.email.storage.pst)

@@ -14,7 +14,7 @@ Gets a list of the display names of the primary (To) message recipients, separat
 public string DisplayTo { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents display to.
 

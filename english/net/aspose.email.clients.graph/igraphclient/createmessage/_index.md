@@ -19,7 +19,7 @@ public MapiMessage CreateMessage(string folderId, MapiMessage message)
 | folderId | String | Parent folder id |
 | message | MapiMessage | Mapi message to be created |
 
-## Return Value
+### Return Value
 
 Created message
 

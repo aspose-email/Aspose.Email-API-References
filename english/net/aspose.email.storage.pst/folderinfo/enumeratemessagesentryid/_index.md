@@ -14,7 +14,7 @@ Enumerates the entryID of messages.
 public IEnumerable<string> EnumerateMessagesEntryId()
 ```
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through entryID of messages in folder.
 

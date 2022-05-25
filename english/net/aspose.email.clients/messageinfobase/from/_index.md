@@ -14,7 +14,7 @@ Gets the list of authors of this message.
 public MailAddress From { get; }
 ```
 
-## Property Value
+### Property Value
 
 The list of authors of this message.
 

@@ -14,7 +14,7 @@ Default page header format.
 public string DefaultPageHeaderFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The styles to be injected into resulting html body.
 

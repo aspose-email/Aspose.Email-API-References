@@ -14,7 +14,7 @@ GetItemEstimate namespace of the ActiveSync protocol
 public enum GetItemEstimate
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Enumerates MapiContact photo image format.
 public enum MapiContactPhotoImageFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

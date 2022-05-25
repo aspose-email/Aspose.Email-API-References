@@ -19,7 +19,7 @@ public MapiProperty ExtractProperty(byte[] entryId, long tag)
 | entryId | Byte[] | The entry id of item. |
 | tag | Int64 | The property tag. |
 
-## Return Value
+### Return Value
 
 The MapiProperty.
 

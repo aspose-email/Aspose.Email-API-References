@@ -14,7 +14,7 @@ Specifies whether or not this appointment is intended to be visible in availabil
 public enum AppointmentTransparency
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

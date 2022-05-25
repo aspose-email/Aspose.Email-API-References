@@ -14,7 +14,7 @@ Gets the attachment properties.
 public MessageObjectPropertiesCollection Properties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The properties collection.
 

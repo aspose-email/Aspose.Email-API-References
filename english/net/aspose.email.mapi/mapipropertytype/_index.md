@@ -14,7 +14,7 @@ Represents the data type of MapiProperty data.
 public enum MapiPropertyType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

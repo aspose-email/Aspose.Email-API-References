@@ -20,7 +20,7 @@ public string CreateDistributionList(ExchangeDistributionList distributionList,
 | distributionList | ExchangeDistributionList | A [`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist) containing information about Distribution List to create. |
 | members | MailAddressCollection | A [`MailAddressCollection`](../../../aspose.email/mailaddresscollection) containing the Distribution List mail addresses to create. |
 
-## Return Value
+### Return Value
 
 A string containing the Distribution List Id.
 

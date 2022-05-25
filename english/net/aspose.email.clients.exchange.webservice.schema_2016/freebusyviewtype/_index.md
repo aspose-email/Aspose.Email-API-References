@@ -13,7 +13,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/freebusyviewtype/
 public enum FreeBusyViewType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

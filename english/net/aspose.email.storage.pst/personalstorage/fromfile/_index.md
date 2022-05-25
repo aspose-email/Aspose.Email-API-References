@@ -18,7 +18,7 @@ public static PersonalStorage FromFile(string fileName)
 | --- | --- | --- |
 | fileName | String | Name of .pst file. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -47,7 +47,7 @@ public static PersonalStorage FromFile(string fileName, bool writable)
 | fileName | String | Name of .pst file. |
 | writable | Boolean | if set to `true` then the the pst file will support writing, otherwise it will be opened in read-only mode. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -72,7 +72,7 @@ public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptio
 | fileName | String | Name of .pst file. |
 | loadOptions | PersonalStorageLoadOptions | The load options. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -105,7 +105,7 @@ public static PersonalStorage FromFile(string fileName, CancellationToken token)
 | fileName | String | Name of .pst file. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -150,7 +150,7 @@ public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptio
 | loadOptions | PersonalStorageLoadOptions | The load options. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 

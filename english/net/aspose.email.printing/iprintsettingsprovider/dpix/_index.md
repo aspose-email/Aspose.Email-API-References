@@ -14,7 +14,7 @@ Gets or sets the horizontal DPI.
 public double DpiX { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The horizontal DPI.
 

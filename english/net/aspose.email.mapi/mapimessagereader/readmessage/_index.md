@@ -14,7 +14,7 @@ Parse the current stream and returns the data as a MapiMessage.
 public MapiMessage ReadMessage()
 ```
 
-## Return Value
+### Return Value
 
 The MapiMessage from the input stream.
 

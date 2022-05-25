@@ -14,7 +14,7 @@ The permission type data associated with a web reference attachment.
 public enum AttachmentPermissionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

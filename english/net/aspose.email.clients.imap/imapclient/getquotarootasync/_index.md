@@ -19,7 +19,7 @@ public Task<ImapQuotaRoot[]> GetQuotaRootAsync(IConnection connection, string ma
 | connection | IConnection | Connection to a server |
 | mailboxName | String | mailbox name |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task<ImapQuotaRoot[]> GetQuotaRootAsync(string mailboxName)
 | --- | --- | --- |
 | mailboxName | String | mailbox name |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -73,7 +73,7 @@ public Task<ImapQuotaRoot[]> GetQuotaRootAsync(IConnection connection, string ma
 | mailboxName | String | mailbox name |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -100,7 +100,7 @@ public Task<ImapQuotaRoot[]> GetQuotaRootAsync(string mailboxName, CancellationT
 | mailboxName | String | mailbox name |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

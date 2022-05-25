@@ -14,7 +14,7 @@ Gets a prefix of the display name.
 public string DisplayNamePrefix { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents display name prefix.
 

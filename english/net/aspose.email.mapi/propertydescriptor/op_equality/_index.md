@@ -19,7 +19,7 @@ public static bool operator ==(PropertyDescriptor pd1, PropertyDescriptor pd2)
 | pd1 | PropertyDescriptor | The object to compare with another object. |
 | pd2 | PropertyDescriptor | The object to compare with another object. |
 
-## Return Value
+### Return Value
 
 true if the specified PropertyDescriptor is equal to the another PropertyDescriptor; otherwise, false.
 

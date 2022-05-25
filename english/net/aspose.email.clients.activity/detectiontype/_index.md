@@ -14,7 +14,7 @@ The type of detection.
 public enum DetectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

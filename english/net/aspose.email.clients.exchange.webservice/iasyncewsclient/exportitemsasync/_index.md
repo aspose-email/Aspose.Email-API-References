@@ -20,7 +20,7 @@ public Task<IEnumerable<ExchangeStreamedItem>> ExportItemsAsync(IEnumerable<stri
 | itemIds | IEnumerable`1 | Ids of items to be exported |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 An array of [`ExchangeStreamedItem`](../../exchangestreameditem)
 

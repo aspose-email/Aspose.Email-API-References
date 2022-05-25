@@ -19,7 +19,7 @@ public OlmFolder GetFolder(string name, bool ignoreCase)
 | name | String | Name of folder. |
 | ignoreCase | Boolean | A value that indicates whether the name to match is case insensitive. |
 
-## Return Value
+### Return Value
 
 An OlmFolder object.
 

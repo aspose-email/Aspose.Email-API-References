@@ -14,7 +14,7 @@ Gets the error code.
 public AutodiscoverErrorCode ErrorCode { get; }
 ```
 
-## Property Value
+### Property Value
 
 The error code.
 

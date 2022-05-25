@@ -18,7 +18,7 @@ public Task StopMonitoringAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | specified folder for monitoring operation |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -38,7 +38,7 @@ Stops any monitoring of changes.
 public Task StopMonitoringAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

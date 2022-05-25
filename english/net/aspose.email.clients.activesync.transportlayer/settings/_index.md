@@ -14,7 +14,7 @@ Settings namespace of the ActiveSync protocol
 public enum Settings
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -35,7 +35,7 @@ public static Appointment Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream to load from |
 
-## Return Value
+### Return Value
 
 A read [`Appointment`](../../appointment)
 
@@ -67,7 +67,7 @@ public static Appointment Load(Stream stream, bool applyLocalTimeZone)
 | stream | Stream | A stream to load from |
 | applyLocalTimeZone | Boolean | Convert time to local timezone |
 
-## Return Value
+### Return Value
 
 A read [`Appointment`](../../appointment)
 
@@ -99,7 +99,7 @@ public static Appointment Load(Stream stream, AppointmentLoadOptions options)
 | stream | Stream | A stream to load from |
 | options | AppointmentLoadOptions | Represents appointment load options |
 
-## Return Value
+### Return Value
 
 A read [`Appointment`](../../appointment)
 
@@ -131,7 +131,7 @@ public static Appointment Load(string filePath)
 | --- | --- | --- |
 | filePath | String | A file path |
 
-## Return Value
+### Return Value
 
 A read [`Appointment`](../../appointment)
 

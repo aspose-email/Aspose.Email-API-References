@@ -20,7 +20,7 @@ public GetUserSettingsResponse GetUserSettings(string userSmtpAddress,
 | userSmtpAddress | String | The SMTP addresses of the user. |
 | userSettingNames | UserSettingName[] | The user setting names. |
 
-## Return Value
+### Return Value
 
 A UserResponse object containing the requested settings for the specified user.
 

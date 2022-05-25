@@ -14,7 +14,7 @@ Enumerates the distinguished folder types. This values also contained in PidTagC
 public enum ExchangeFolderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

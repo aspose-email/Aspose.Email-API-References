@@ -14,7 +14,7 @@ AirSyncBase namespace of the ActiveSync protocol
 public enum AirSyncBase
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

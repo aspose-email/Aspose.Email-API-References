@@ -18,7 +18,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 | connection | IConnection | Connection to a server |
 | parentFolder | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -72,7 +72,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, b
 | connection | IConnection | Connection to a server |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -94,7 +94,7 @@ Gets the list of folders in the mailbox
 public Task<ImapFolderInfoCollection> ListFoldersAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -119,7 +119,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder)
 | --- | --- | --- |
 | parentFolder | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -144,7 +144,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(bool loadFullInfo)
 | --- | --- | --- |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -170,7 +170,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 | parentFolder | String | Name of the folder |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -198,7 +198,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 | parentFolder | String | Name of the folder |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -228,7 +228,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 | options | ListFoldersOptions | Options for operation |
 | returnOptions | ListFoldersReturnOptions | Return options for operation |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -260,7 +260,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 | options | ListFoldersOptions | Options for operation |
 | returnOptions | ListFoldersReturnOptions | Return options for operation |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -290,7 +290,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -319,7 +319,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 | parentFolder | String | Name of the folder |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -348,7 +348,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, b
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -374,7 +374,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -400,7 +400,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, Canc
 | parentFolder | String | Name of the folder |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -426,7 +426,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(bool loadFullInfo, Cancel
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -454,7 +454,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -483,7 +483,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -514,7 +514,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 | returnOptions | ListFoldersReturnOptions | Return options for operation |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -548,7 +548,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 | returnOptions | ListFoldersReturnOptions | Return options for operation |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

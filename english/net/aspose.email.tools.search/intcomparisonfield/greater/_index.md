@@ -18,7 +18,7 @@ public MailQuery Greater(int value)
 | --- | --- | --- |
 | value | Int32 | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

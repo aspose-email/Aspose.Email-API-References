@@ -14,7 +14,7 @@ Gets the last modification time.
 public DateTime LastModificationTime { get; }
 ```
 
-## Property Value
+### Property Value
 
 The last modification time. If the folder doesn't have PR_LAST_MODIFICATION_TIME property, DateTime.MinValue is returned.
 

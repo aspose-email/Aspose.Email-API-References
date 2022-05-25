@@ -14,7 +14,7 @@ Decrypts this message
 public virtual MailMessage Decrypt()
 ```
 
-## Return Value
+### Return Value
 
 E-mail message
 
@@ -38,7 +38,7 @@ public virtual MailMessage Decrypt(X509Certificate2 certificate)
 | --- | --- | --- |
 | certificate | X509Certificate2 | System.Security.Cryptography.X509Certificates.X509Certificate2 |
 
-## Return Value
+### Return Value
 
 E-mail message
 

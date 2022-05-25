@@ -14,7 +14,7 @@ Represents outlook message format.
 public enum OutlookMessageFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

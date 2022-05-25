@@ -14,7 +14,7 @@ Gets or sets the title format.
 public string TitleFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The title format.
 

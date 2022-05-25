@@ -18,7 +18,7 @@ public static implicit operator AppointmentCollection(Appointment[] appointments
 | --- | --- | --- |
 | appointments | Appointment[] | Array of appointments to convert |
 
-## Return Value
+### Return Value
 
 Collection of appointments
 

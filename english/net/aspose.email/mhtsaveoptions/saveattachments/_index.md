@@ -14,7 +14,7 @@ Gets or sets a value indicating whether to save attachments.
 public bool SaveAttachments { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if attachments should be saved; otherwise, `false`.
 

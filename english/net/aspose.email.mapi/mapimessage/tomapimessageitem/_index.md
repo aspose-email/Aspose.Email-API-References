@@ -14,7 +14,7 @@ Convert MapiMessage to IMapiMessageItem object in dependence with MessageClass.
 public IMapiMessageItem ToMapiMessageItem()
 ```
 
-## Return Value
+### Return Value
 
 The IMapiMessageItem interface.
 

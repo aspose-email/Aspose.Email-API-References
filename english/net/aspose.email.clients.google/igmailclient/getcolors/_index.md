@@ -14,7 +14,7 @@ Gets color information
 public ColorsInfo GetColors()
 ```
 
-## Return Value
+### Return Value
 
 Returns color information
 

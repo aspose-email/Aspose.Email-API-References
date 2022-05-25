@@ -14,7 +14,7 @@ Gets the default options.
 public static MapiContactSaveOptions Default { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`MapiContactSaveOptions`](../../mapicontactsaveoptions) by default.
 

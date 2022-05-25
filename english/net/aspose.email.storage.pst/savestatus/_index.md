@@ -14,7 +14,7 @@ Represents the status of saving the retrieved message.
 public enum SaveStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

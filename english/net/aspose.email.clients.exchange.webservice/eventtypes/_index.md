@@ -15,7 +15,7 @@ Specifies event type
 public enum EventTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

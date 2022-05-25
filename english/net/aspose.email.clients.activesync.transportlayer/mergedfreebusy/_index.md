@@ -14,7 +14,7 @@ Specifies the free/busy information for the users or distribution list.
 public enum MergedFreeBusy
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

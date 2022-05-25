@@ -14,7 +14,7 @@ Specifies the display type for the carousel items.
 public enum CarouselType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

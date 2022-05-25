@@ -40,7 +40,7 @@ public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
 | signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
 | detached | Boolean | .If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
 
-## Return Value
+### Return Value
 
 The signed MailMessage.
 
@@ -64,7 +64,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate)
 | --- | --- | --- |
 | certificate | X509Certificate2 | X.509 certificate. |
 
-## Return Value
+### Return Value
 
 The signed MailMessage.
 
@@ -88,7 +88,7 @@ public virtual MailMessage AttachSignature(CmsSigner signer)
 | --- | --- | --- |
 | signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
 
-## Return Value
+### Return Value
 
 The signed MailMessage.
 

@@ -14,7 +14,7 @@ Gets collection of custom MapiProperties.
 public MapiPropertyCollection GetCustomProperties()
 ```
 
-## Return Value
+### Return Value
 
 Collection of custom MapiProperties[`MapiPropertyCollection`](../../mapipropertycollection).
 

@@ -19,7 +19,7 @@ public static bool operator <=(LogLevel l1, LogLevel l2)
 | l1 | LogLevel | The first level. |
 | l2 | LogLevel | The second level. |
 
-## Return Value
+### Return Value
 
 The value of `l1.Ordinal <= l2.Ordinal`
 

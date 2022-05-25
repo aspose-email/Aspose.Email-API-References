@@ -21,7 +21,7 @@ public Task<bool> FolderExistsAsync(string parentFolderUri, string folderName,
 | folderName | String | A folder name. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 `true` if the specified folder exists in the specified parent folder; otherwise, `false`.
 

@@ -13,7 +13,7 @@ url: /net/aspose.email.clients.imap/imapknownauthenticationtype/
 public enum ImapKnownAuthenticationType : long
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

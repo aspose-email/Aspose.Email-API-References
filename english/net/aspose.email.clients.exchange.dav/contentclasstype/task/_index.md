@@ -14,7 +14,7 @@ Gets the value that represents the content class urn:content-classes:task.
 public static ContentClassType Task { get; }
 ```
 
-## Property Value
+### Property Value
 
 The task content class.
 

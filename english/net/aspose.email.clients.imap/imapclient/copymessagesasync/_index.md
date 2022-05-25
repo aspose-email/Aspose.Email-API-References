@@ -21,7 +21,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -47,7 +47,7 @@ public Task CopyMessagesAsync(IEnumerable<int> sequenceSet, string folderName)
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -73,7 +73,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -99,7 +99,7 @@ public Task CopyMessagesAsync(IEnumerable<string> uidSet, string folderName)
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -126,7 +126,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -153,7 +153,7 @@ public Task CopyMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -183,7 +183,7 @@ public Task CopyMessagesAsync(IConnection connection, int startSequence, int end
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -212,7 +212,7 @@ public Task CopyMessagesAsync(int startSequence, int endSequence, string folderN
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -241,7 +241,7 @@ public Task CopyMessagesAsync(IConnection connection, string startUid, string en
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -270,7 +270,7 @@ public Task CopyMessagesAsync(string startUid, string endUid, string folderName,
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -298,7 +298,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -326,7 +326,7 @@ public Task CopyMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -354,7 +354,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -382,7 +382,7 @@ public Task CopyMessagesAsync(IEnumerable<string> uidSet, string folderName,
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -410,7 +410,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -439,7 +439,7 @@ public Task CopyMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -468,7 +468,7 @@ public Task CopyMessagesAsync(IConnection connection, int startSequence, int end
 | endSequence | Int32 | The ending sequence number of a message list |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -495,7 +495,7 @@ public Task CopyMessagesAsync(int startSequence, int endSequence, string folderN
 | endSequence | Int32 | The ending sequence number of a message list |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -523,7 +523,7 @@ public Task CopyMessagesAsync(IConnection connection, string startUid, string en
 | endUid | String | The ending UID of a message list |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -550,7 +550,7 @@ public Task CopyMessagesAsync(string startUid, string endUid, string folderName)
 | endUid | String | The ending UID of a message list |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

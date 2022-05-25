@@ -14,7 +14,7 @@ Converts the value of the property to [`Guid`](../guid).
 public Guid ToGuid()
 ```
 
-## Return Value
+### Return Value
 
 Guid object, if type can't be converted to Guid returns empty GUID.
 

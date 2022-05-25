@@ -18,7 +18,7 @@ public DataContainer Add(string applicationDataXml)
 | --- | --- | --- |
 | applicationDataXml | String | Contains data of element in xml format |
 
-## Return Value
+### Return Value
 
 Returns the DataContainer with added data.
 
@@ -42,7 +42,7 @@ public DataContainer Add(XmlNode node)
 | --- | --- | --- |
 | node | XmlNode | Contains data of element in xml format |
 
-## Return Value
+### Return Value
 
 Returns the DataContainer with added data.
 
@@ -67,7 +67,7 @@ public DataContainer Add(int element, Namespace ns)
 | element | Int32 | Name of the element |
 | ns | Namespace | NameSpace of the element |
 
-## Return Value
+### Return Value
 
 Returns empty DataContainer.
 
@@ -94,7 +94,7 @@ public DataContainer Add(int element, string value, Namespace ns)
 | value | String | Value of the element |
 | ns | Namespace | NameSpace of the element, whose data are contained in the data container. |
 
-## Return Value
+### Return Value
 
 Returns the DataContainer with added data.
 
@@ -122,7 +122,7 @@ public DataContainer Add(int element, string value, bool binaryData, Namespace n
 | binaryData | Boolean | Specifies if data is binary. |
 | ns | Namespace | NameSpace of the element, whose data are contained in the data container. |
 
-## Return Value
+### Return Value
 
 Returns the DataContainer with added data.
 

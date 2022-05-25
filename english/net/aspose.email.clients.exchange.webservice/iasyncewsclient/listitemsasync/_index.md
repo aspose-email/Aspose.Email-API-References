@@ -23,7 +23,7 @@ public Task<string[]> ListItemsAsync(string folder, string mailbox = null, MailQ
 | recursive | Boolean | Specifies whether request should be reqursive. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns list of item URIes
 

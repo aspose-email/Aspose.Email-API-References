@@ -14,7 +14,7 @@ Gets the codepage used to encode/decode string properties in case PT_STRING8 typ
 public int Codepage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The codepage.
 

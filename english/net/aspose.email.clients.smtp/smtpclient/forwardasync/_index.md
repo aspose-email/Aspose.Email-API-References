@@ -22,7 +22,7 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 | recipient | String | Recipient of the forwarded message. |
 | message | MailMessage | The message for a forwarding. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -52,7 +52,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | recipients | MailAddressCollection | Recipients of the forwarded message. |
 | message | MailMessage | The message for a forwarding. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -81,7 +81,7 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message)
 | recipient | String | Recipient of the forwarded message. |
 | message | MailMessage | The message for a forwarding. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -108,7 +108,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 | recipients | MailAddressCollection | Recipients of the forwarded message. |
 | message | MailMessage | The message for a forwarding. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -138,7 +138,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | recipients | MailAddressCollection | Recipients of the forwarded message. |
 | messageStream | Stream | The stream that represents message in eml format. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -166,7 +166,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 | recipients | MailAddressCollection | Recipients of the forwarded message. |
 | messageStream | Stream | The stream that represents message in eml format. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -196,7 +196,7 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 | message | MailMessage | The message for a forwarding. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -227,7 +227,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | message | MailMessage | The message for a forwarding. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -258,7 +258,7 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message,
 | message | MailMessage | The message for a forwarding. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -287,7 +287,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 | message | MailMessage | The message for a forwarding. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -318,7 +318,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | messageStream | Stream | The stream that represents message in eml format. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -348,7 +348,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 | messageStream | Stream | The stream that represents message in eml format. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

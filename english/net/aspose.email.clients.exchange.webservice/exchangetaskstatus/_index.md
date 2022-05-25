@@ -14,7 +14,7 @@ Enumerates the task statuses.
 public enum ExchangeTaskStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

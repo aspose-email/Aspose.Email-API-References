@@ -14,7 +14,7 @@ Gets or sets the redirection URL validation callback.
 public AutodiscoverRedirectionUrlValidationCallback RedirectionUrlValidationCallback { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The redirection URL validation callback.
 

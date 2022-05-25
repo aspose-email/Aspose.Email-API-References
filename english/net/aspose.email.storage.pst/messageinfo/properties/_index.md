@@ -14,7 +14,7 @@ Gets the MessageInfo properties.
 public MapiPropertyCollection Properties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The properties of MessageInfo.
 

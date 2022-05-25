@@ -14,7 +14,7 @@ Identifies [`MessageObjectProperty`](../messageobjectproperty) kind.
 public enum NamedPropertyKind
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

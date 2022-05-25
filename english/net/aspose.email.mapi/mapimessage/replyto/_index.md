@@ -14,7 +14,7 @@ Gets or sets the reply to names.
 public string ReplyTo { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The reply to names.
 

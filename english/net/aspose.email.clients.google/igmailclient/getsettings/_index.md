@@ -14,7 +14,7 @@ Gets settings dictionary
 public Dictionary<string, string> GetSettings()
 ```
 
-## Return Value
+### Return Value
 
 Returns settings dictionary
 

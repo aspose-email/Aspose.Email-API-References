@@ -14,7 +14,7 @@ Gets the number of unread items in the folder.
 public virtual int ContentUnreadCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The content unread count.
 

@@ -22,7 +22,7 @@ public ImapQuota[] SetQuota(IConnection connection, string quotaRootName, string
 | resourceName | String | resource name |
 | resourceLimit | Int32 | resource limit |
 
-## Return Value
+### Return Value
 
 Quota information
 
@@ -50,7 +50,7 @@ public ImapQuota[] SetQuota(string quotaRootName, string resourceName, int resou
 | resourceName | String | resource name |
 | resourceLimit | Int32 | resource limit |
 
-## Return Value
+### Return Value
 
 Quota information
 

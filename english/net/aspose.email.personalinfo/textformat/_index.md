@@ -14,7 +14,7 @@ Defines format of a text.
 public enum TextFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

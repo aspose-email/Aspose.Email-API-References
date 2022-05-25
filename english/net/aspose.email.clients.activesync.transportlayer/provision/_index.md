@@ -14,7 +14,7 @@ Provision namespace of the ActiveSync protocol
 public enum Provision
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the display name for the message.
 public string DisplayName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents display name.
 

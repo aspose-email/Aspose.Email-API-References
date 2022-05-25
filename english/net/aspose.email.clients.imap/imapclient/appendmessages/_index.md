@@ -20,7 +20,7 @@ public AppendMessagesResult AppendMessages(IConnection connection,
 | connection | IConnection | Connection to a server |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -50,7 +50,7 @@ public AppendMessagesResult AppendMessages(IConnection connection, string folder
 | folderName | String | Folder that will receive the mail message |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -77,7 +77,7 @@ public AppendMessagesResult AppendMessages(IEnumerable<MailMessage> messages)
 | --- | --- | --- |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -104,7 +104,7 @@ public AppendMessagesResult AppendMessages(string folderName, IEnumerable<MailMe
 | folderName | String | Folder that will receive the mail message |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 

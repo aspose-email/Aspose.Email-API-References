@@ -14,7 +14,7 @@ Enumerates appointments methods
 public enum AppointmentAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

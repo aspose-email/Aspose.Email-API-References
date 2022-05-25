@@ -14,7 +14,7 @@ Gets the named properties of message.
 public MapiPropertyCollection NamedProperties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The collection of named properties.
 

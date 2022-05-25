@@ -18,7 +18,7 @@ public MessageTrackingReport GetMessageTrackingReport(GetMessageTrackingReportOp
 | --- | --- | --- |
 | options | GetMessageTrackingReportOptions | Options specifying a search criteria |
 
-## Return Value
+### Return Value
 
 A found [`MessageTrackingReport`](../../messagetrackingreport) or `null` if no message tracking report was found
 

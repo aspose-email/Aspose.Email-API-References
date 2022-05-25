@@ -14,7 +14,7 @@ Specifies the type of recipient.
 public enum RecipientType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -39,11 +39,11 @@ public class AccessControlRule : BaseDataObject
 | --- | --- |
 | override [ToString](../../aspose.email.clients.google/accesscontrolrule/tostring)() | Returns a string which represents the object instance. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [AccessControlRuleKind](accesscontrolrulekind) | Type of the resource ("calendar#calendar"). |
+| const [AccessControlRuleKind](../../aspose.email.clients.google/accesscontrolrule/accesscontrolrulekind) | Type of the resource ("calendar#calendar"). |
 
 ### See Also
 

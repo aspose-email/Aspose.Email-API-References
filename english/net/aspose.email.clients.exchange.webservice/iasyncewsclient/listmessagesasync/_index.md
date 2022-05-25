@@ -27,7 +27,7 @@ public Task<ExchangeMessageInfoCollection> ListMessagesAsync(string folder, stri
 | extendedProperties | IEnumerable`1 | Extended properties of retrieved messages |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
@@ -56,7 +56,7 @@ public Task<ExchangeMessageInfoCollection> ListMessagesAsync(IEnumerable<string>
 | ids | IEnumerable`1 | Enumeration of message ids |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages with.
 

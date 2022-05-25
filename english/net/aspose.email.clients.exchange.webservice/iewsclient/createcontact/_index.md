@@ -18,7 +18,7 @@ public string CreateContact(Contact contact)
 | --- | --- | --- |
 | contact | Contact | Contact item |
 
-## Return Value
+### Return Value
 
 The contact Uri
 
@@ -44,7 +44,7 @@ public string CreateContact(string folderUri, Contact contact)
 | folderUri | String | Folder uri |
 | contact | Contact | Contact item |
 
-## Return Value
+### Return Value
 
 The contact Uri
 

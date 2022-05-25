@@ -22,7 +22,7 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 | resourceName | String | resource name |
 | resourceLimit | Int32 | resource limit |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -50,7 +50,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 | resourceName | String | resource name |
 | resourceLimit | Int32 | resource limit |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -80,7 +80,7 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 | resourceLimit | Int32 | resource limit |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -110,7 +110,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 | resourceLimit | Int32 | resource limit |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

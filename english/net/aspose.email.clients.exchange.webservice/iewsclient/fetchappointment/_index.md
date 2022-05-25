@@ -18,7 +18,7 @@ public Appointment FetchAppointment(string appointmentUri)
 | --- | --- | --- |
 | appointmentUri | String | An uri of appointment to be fetched. |
 
-## Return Value
+### Return Value
 
 A fetched [`Appointment`](../../../aspose.email.calendar/appointment).
 
@@ -50,7 +50,7 @@ public Appointment FetchAppointment(string appointmentUri, string folderUri)
 | appointmentUri | String | An uri of appointment to be fetched. |
 | folderUri | String | An uri of appointments parent folder. |
 
-## Return Value
+### Return Value
 
 A fetched [`Appointment`](../../../aspose.email.calendar/appointment).
 

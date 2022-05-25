@@ -18,7 +18,7 @@ public static MapiContact FromVCard(string filePath)
 | --- | --- | --- |
 | filePath | String | A file name to read from |
 
-## Return Value
+### Return Value
 
 A read [`MapiContact`](../../mapicontact)
 
@@ -49,7 +49,7 @@ public static MapiContact FromVCard(string filePath, Encoding encoding)
 | filePath | String | A file name to read from |
 | encoding | Encoding | File data encoding |
 
-## Return Value
+### Return Value
 
 A read [`MapiContact`](../../mapicontact)
 
@@ -79,7 +79,7 @@ public static MapiContact FromVCard(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream to read from |
 
-## Return Value
+### Return Value
 
 A read [`MapiContact`](../../mapicontact)
 
@@ -111,7 +111,7 @@ public static MapiContact FromVCard(Stream stream, Encoding encoding)
 | stream | Stream | A stream to read from |
 | encoding | Encoding | Stream data encoding |
 
-## Return Value
+### Return Value
 
 A read [`MapiContact`](../../mapicontact)
 

@@ -14,7 +14,7 @@ Authentication methods
 public enum AuthenticationMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

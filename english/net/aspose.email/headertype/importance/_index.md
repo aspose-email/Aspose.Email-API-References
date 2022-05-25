@@ -14,7 +14,7 @@ Gets the importance.
 public static HeaderType Importance { get; }
 ```
 
-## Property Value
+### Property Value
 
 The importance.
 

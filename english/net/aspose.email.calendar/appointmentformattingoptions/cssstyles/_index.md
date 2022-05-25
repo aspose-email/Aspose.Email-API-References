@@ -14,7 +14,7 @@ Gets or sets the additional css styles for the formatter.
 public string CssStyles { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The styles to be injected into resulting html body.
 

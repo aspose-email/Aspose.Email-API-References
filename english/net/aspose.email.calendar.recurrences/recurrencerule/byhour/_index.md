@@ -14,7 +14,7 @@ Gets the by hour.
 public ByNumberCollection ByHour { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by hour.
 

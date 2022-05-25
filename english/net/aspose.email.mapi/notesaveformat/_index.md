@@ -14,7 +14,7 @@ Enumerates NoteSaveFormat
 public enum NoteSaveFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public MailQuery Equals(byte[] value)
 | --- | --- | --- |
 | value | Byte[] | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -43,7 +43,7 @@ public MailQuery Equals(string value)
 | --- | --- | --- |
 | value | String | The base 64 string value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

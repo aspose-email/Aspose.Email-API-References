@@ -14,7 +14,7 @@ Gets the total number of items in the folder.
 public virtual int ContentCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The content count.
 

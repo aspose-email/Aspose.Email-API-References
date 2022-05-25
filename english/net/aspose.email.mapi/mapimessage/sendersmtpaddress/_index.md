@@ -14,7 +14,7 @@ Gets or sets the message sender's e-mail address.
 public string SenderSmtpAddress { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents sender email address.
 

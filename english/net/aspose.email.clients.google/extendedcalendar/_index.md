@@ -55,12 +55,12 @@ public class ExtendedCalendar : Calendar
 | --- | --- |
 | override [ToString](../../aspose.email.clients.google/extendedcalendar/tostring)() | Returns a string which represents the object instance. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [ExtendedCalendarKind](extendedcalendarkind) | Type of the resource "calendar#calendarListEntry". |
-| const [ListKind](listkind) | Type of the resources list "calendar#calendarList". |
+| const [ExtendedCalendarKind](../../aspose.email.clients.google/extendedcalendar/extendedcalendarkind) | Type of the resource "calendar#calendarListEntry". |
+| const [ListKind](../../aspose.email.clients.google/extendedcalendar/listkind) | Type of the resources list "calendar#calendarList". |
 
 ### See Also
 

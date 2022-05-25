@@ -18,7 +18,7 @@ public IEnumerable<MapiMessage> EnumerateMessages(OlmFolder folder)
 | --- | --- | --- |
 | folder | OlmFolder | [`OlmFolder`](../../olmfolder) that represents information about folder in OLM storage. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 

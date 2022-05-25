@@ -14,7 +14,7 @@ Specifies whether the MIME data of the email item SHOULD be truncated when it is
 public enum MIMETruncation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

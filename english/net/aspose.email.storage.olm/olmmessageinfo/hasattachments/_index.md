@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the message has attachments.
 public bool HasAttachments { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance has attachments; otherwise, `false`.
 

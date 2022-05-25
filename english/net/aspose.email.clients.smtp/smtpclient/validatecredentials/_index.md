@@ -18,7 +18,7 @@ public bool ValidateCredentials(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 True if authentication was successful, otherwise false.
 
@@ -39,7 +39,7 @@ Executes credentials validation
 public override bool ValidateCredentials()
 ```
 
-## Return Value
+### Return Value
 
 True if authentication was successful, otherwise false.
 

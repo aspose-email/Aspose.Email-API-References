@@ -14,7 +14,7 @@ Specifies the algorithm used when encrypting S/MIME messages.
 public enum EncryptionSMIMEAlgorithm
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

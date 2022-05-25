@@ -20,7 +20,7 @@ public Task<IEnumerable<ExchangeUploadItemResult>> UpdateItemsAsync(
 | items | IEnumerable`1 | The items to be updated. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 An array of [`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
 

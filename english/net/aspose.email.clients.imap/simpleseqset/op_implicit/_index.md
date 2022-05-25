@@ -18,7 +18,7 @@ public static implicit operator SimpleSeqSet(string simple)
 | --- | --- | --- |
 | simple | String | String to convert |
 
-## Return Value
+### Return Value
 
 Returns object with search value.
 
@@ -42,7 +42,7 @@ public static implicit operator string(SimpleSeqSet simple)
 | --- | --- | --- |
 | simple | SimpleSeqSet | Object to convert |
 
-## Return Value
+### Return Value
 
 Returns string representation of converted object.
 

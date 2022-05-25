@@ -14,7 +14,7 @@ Smtp status codes
 public enum SmtpStatusCode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Returns a string representation of the log level.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 Log level name.
 

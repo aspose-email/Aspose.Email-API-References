@@ -14,7 +14,7 @@ Types of add-on that generated event.
 public enum AddOnType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

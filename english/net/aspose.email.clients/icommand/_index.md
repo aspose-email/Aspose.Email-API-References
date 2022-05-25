@@ -26,12 +26,6 @@ public interface ICommand : IDisposable
 | --- | --- |
 | [Execute](../../aspose.email.clients/icommand/execute)() | Defines the method to be called when the command is invoked. |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [CanExecuteChanged](canexecutechanged) | Occurs when changes occur that affect whether or not the command should execute. |
-
 ### See Also
 
 * namespace [Aspose.Email.Clients](../../aspose.email.clients)

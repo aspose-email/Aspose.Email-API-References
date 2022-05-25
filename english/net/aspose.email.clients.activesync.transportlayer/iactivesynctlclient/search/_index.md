@@ -18,7 +18,7 @@ public SearchResponse Search(SearchRequest request)
 | --- | --- | --- |
 | request | SearchRequest | Search operation parameters |
 
-## Return Value
+### Return Value
 
 Returns Search operation result
 

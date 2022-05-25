@@ -14,7 +14,7 @@ Overridden. Returns a string representation of this instance.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string contains the mail addresse.
 

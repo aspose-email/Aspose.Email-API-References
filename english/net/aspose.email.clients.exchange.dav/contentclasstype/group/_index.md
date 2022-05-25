@@ -14,7 +14,7 @@ Gets the value that represents the content class urn:content-classes:group.
 public static ContentClassType Group { get; }
 ```
 
-## Property Value
+### Property Value
 
 The group content class.
 

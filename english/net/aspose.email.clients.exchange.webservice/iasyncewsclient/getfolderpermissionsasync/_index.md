@@ -20,7 +20,7 @@ public Task<ExchangePermissionCollection> GetFolderPermissionsAsync(string folde
 | folderUrl | String | The folder URL. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 The [`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
 

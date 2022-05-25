@@ -19,7 +19,7 @@ public static bool operator !=(AssociatedPersonCategory a, AssociatedPersonCateg
 | a | AssociatedPersonCategory | First object to compare |
 | b | AssociatedPersonCategory | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are not equal, otherwise false.
 

@@ -14,7 +14,7 @@ Gets a value indicating whether the collection contains keys.
 public bool HasKeys()
 ```
 
-## Return Value
+### Return Value
 
 Returns true if collection has an items, otherwise returns false.
 

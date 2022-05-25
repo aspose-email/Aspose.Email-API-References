@@ -19,7 +19,7 @@ public AccessControlRule CreateAccessRule(string calendarId, AccessControlRule r
 | calendarId | String | Calendar identifier. |
 | role | AccessControlRule | Access control rule |
 
-## Return Value
+### Return Value
 
 Returns created access rule
 

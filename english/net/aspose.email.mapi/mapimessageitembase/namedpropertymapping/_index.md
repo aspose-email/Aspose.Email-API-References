@@ -14,7 +14,7 @@ Gets the named property mapping.
 public MapiNamedPropertyMappingStorage NamedPropertyMapping { get; }
 ```
 
-## Property Value
+### Property Value
 
 The named property mapping.
 

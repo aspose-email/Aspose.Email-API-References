@@ -18,7 +18,7 @@ public string AddMapiMessageItem(IMapiMessageItem item)
 | --- | --- | --- |
 | item | IMapiMessageItem | The item necessary to add. |
 
-## Return Value
+### Return Value
 
 The string that represents the EntryId of the added item.
 

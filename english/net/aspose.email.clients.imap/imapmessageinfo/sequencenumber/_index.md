@@ -14,7 +14,7 @@ Gets the message sequence number.
 public int SequenceNumber { get; }
 ```
 
-## Property Value
+### Property Value
 
 The sequence number.
 

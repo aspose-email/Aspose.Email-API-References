@@ -18,7 +18,7 @@ public FreebusyResponse GetFreebusyInfo(FreebusyQuery query)
 | --- | --- | --- |
 | query | FreebusyQuery | Query to get free/busy information |
 
-## Return Value
+### Return Value
 
 Returns free/busy information.
 

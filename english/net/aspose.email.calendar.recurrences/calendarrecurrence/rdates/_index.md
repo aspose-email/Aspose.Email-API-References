@@ -14,7 +14,7 @@ Gets the R dates.
 public DateCollection RDates { get; }
 ```
 
-## Property Value
+### Property Value
 
 The R dates.
 

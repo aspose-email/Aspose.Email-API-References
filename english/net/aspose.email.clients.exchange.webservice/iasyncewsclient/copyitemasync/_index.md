@@ -21,7 +21,7 @@ public Task<string> CopyItemAsync(string itemUri, string destinationFolderUri,
 | destinationFolderUri | String | The destination folder URI |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 An uri of the copied message
 

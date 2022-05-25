@@ -19,7 +19,7 @@ public string AddFile(string fileName, string messageClass)
 | fileName | String | The name of file necessary to add. |
 | messageClass | String | The message class. |
 
-## Return Value
+### Return Value
 
 The string that represents the EntryId of the added message.
 

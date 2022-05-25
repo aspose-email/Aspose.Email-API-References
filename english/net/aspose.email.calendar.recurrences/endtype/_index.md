@@ -14,7 +14,7 @@ Specifies how the recurrence rule ends.
 public enum EndType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the by second.
 public ByNumberCollection BySecond { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by second.
 

@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/delegatefolderper
 public enum DelegateFolderPermissionLevelType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

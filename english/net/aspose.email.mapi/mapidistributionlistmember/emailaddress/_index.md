@@ -14,7 +14,7 @@ Gets or sets the recipient's e-mail address.
 public string EmailAddress { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The email address.
 

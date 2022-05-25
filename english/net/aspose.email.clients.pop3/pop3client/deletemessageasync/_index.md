@@ -19,7 +19,7 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -49,7 +49,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -78,7 +78,7 @@ public Task DeleteMessageAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -106,7 +106,7 @@ public Task DeleteMessageAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -136,7 +136,7 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber, Cance
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -167,7 +167,7 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, Cancella
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -197,7 +197,7 @@ public Task DeleteMessageAsync(int sequenceNumber, CancellationToken token)
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -226,7 +226,7 @@ public Task DeleteMessageAsync(string uniqueId, CancellationToken token)
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

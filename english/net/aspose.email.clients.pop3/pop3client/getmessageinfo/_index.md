@@ -21,7 +21,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, string uniqueId,
 | uniqueId | String | The unique id of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -49,7 +49,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -75,7 +75,7 @@ public Pop3MessageInfo GetMessageInfo(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -101,7 +101,7 @@ public Pop3MessageInfo GetMessageInfo(string uniqueId, Pop3ListFields fields)
 | uniqueId | String | The unique id of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -130,7 +130,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, int sequenceNumber
 | sequenceNumber | Int32 | The sequence number of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -158,7 +158,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, int sequenceNumber
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -184,7 +184,7 @@ public Pop3MessageInfo GetMessageInfo(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -210,7 +210,7 @@ public Pop3MessageInfo GetMessageInfo(int sequenceNumber, Pop3ListFields fields)
 | sequenceNumber | Int32 | The sequence number of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 

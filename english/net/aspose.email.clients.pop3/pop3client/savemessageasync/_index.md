@@ -19,7 +19,7 @@ public Task SaveMessageAsync(string uniqueId, string fileName)
 | uniqueId | String | The unique Id of the message |
 | fileName | String | File name for message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -44,7 +44,7 @@ public Task SaveMessageAsync(int sequenceNumber, Stream outputStream)
 | sequenceNumber | Int32 | The sequence number of the message |
 | outputStream | Stream | Stream where message will be saved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -69,7 +69,7 @@ public Task SaveMessageAsync(int sequenceNumber, string fileName)
 | sequenceNumber | Int32 | The sequence number of the message |
 | fileName | String | File name for message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -97,7 +97,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream out
 | outputStream | Stream | Stream where message will be saved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -126,7 +126,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 | fileName | String | File name for message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -155,7 +155,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 | outputStream | Stream | Stream where message will be saved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -184,7 +184,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 | fileName | String | File name for message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -211,7 +211,7 @@ public Task SaveMessageAsync(string uniqueId, Stream outputStream, CancellationT
 | outputStream | Stream | Stream where message will be saved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -237,7 +237,7 @@ public Task SaveMessageAsync(string uniqueId, string fileName, CancellationToken
 | fileName | String | File name for message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -263,7 +263,7 @@ public Task SaveMessageAsync(int sequenceNumber, Stream outputStream, Cancellati
 | outputStream | Stream | Stream where message will be saved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -289,7 +289,7 @@ public Task SaveMessageAsync(int sequenceNumber, string fileName, CancellationTo
 | fileName | String | File name for message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -315,7 +315,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream out
 | uniqueId | String | The unique Id of the message |
 | outputStream | Stream | Stream where message will be saved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -342,7 +342,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 | uniqueId | String | The unique Id of the message |
 | fileName | String | File name for message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -369,7 +369,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 | sequenceNumber | Int32 | The sequence number of the message |
 | outputStream | Stream | Stream where message will be saved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -396,7 +396,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 | sequenceNumber | Int32 | The sequence number of the message |
 | fileName | String | File name for message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -422,7 +422,7 @@ public Task SaveMessageAsync(string uniqueId, Stream outputStream)
 | uniqueId | String | The unique Id of the message |
 | outputStream | Stream | Stream where message will be saved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

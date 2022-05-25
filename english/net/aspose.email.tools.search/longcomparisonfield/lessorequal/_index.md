@@ -18,7 +18,7 @@ public MailQuery LessOrEqual(long value)
 | --- | --- | --- |
 | value | Int64 | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

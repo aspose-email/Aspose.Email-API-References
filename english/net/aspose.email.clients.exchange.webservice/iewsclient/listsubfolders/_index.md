@@ -19,7 +19,7 @@ public ExchangeFolderInfoCollection ListSubFolders(string mailbox, string parent
 | mailbox | String | The mailbox that is used to initialize the folder id class. |
 | parentFolderUri | String | A parent folder |
 
-## Return Value
+### Return Value
 
 [`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) that contains subfolders from the parent folder
 
@@ -44,7 +44,7 @@ public ExchangeFolderInfoCollection ListSubFolders(string parentFolderUri)
 | --- | --- | --- |
 | parentFolderUri | String | The uri of the parent folder |
 
-## Return Value
+### Return Value
 
 [`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) that contains subfolders from the parent folder
 
@@ -69,7 +69,7 @@ public ExchangeFolderInfoCollection ListSubFolders(ExchangeFolderInfo parentFold
 | --- | --- | --- |
 | parentFolder | ExchangeFolderInfo | The parent [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) |
 
-## Return Value
+### Return Value
 
 [`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) that contains subfolders from the parent folder
 

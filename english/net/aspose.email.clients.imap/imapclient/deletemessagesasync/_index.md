@@ -18,7 +18,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet)
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | The set of UID for messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<int> sequenc
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -73,7 +73,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -99,7 +99,7 @@ public Task DeleteMessagesAsync(IEnumerable<int> sequenceSet, long modificationS
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -124,7 +124,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, long modificationSeq
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -149,7 +149,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, bool commitNow)
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -175,7 +175,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -203,7 +203,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, long modificationSeq
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -231,7 +231,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -258,7 +258,7 @@ public Task DeleteMessagesAsync(IConnection connection, int startSequence, int e
 | startSequence | Int32 | The starting sequence number of a message list |
 | endSequence | Int32 | The ending sequence number of a message list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -285,7 +285,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | startUid | String | The starting UID of a message list |
 | endUid | String | The ending UID of a message list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -311,7 +311,7 @@ public Task DeleteMessagesAsync(int startSequence, int endSequence)
 | startSequence | Int32 | The starting sequence number of a message list |
 | endSequence | Int32 | The ending sequence number of a message list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -336,7 +336,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid)
 | startUid | String | The starting UID of a message list |
 | endUid | String | The ending UID of a message list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -364,7 +364,7 @@ public Task DeleteMessagesAsync(IConnection connection, int startSequence, int e
 | endSequence | Int32 | The ending sequence number of a message list |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -393,7 +393,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | endUid | String | The ending UID of a message list |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -420,7 +420,7 @@ public Task DeleteMessagesAsync(int startSequence, int endSequence, long modific
 | endSequence | Int32 | The ending sequence number of a message list |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -446,7 +446,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid, long modificatio
 | endUid | String | The ending UID of a message list |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -472,7 +472,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid, bool commitNow)
 | endUid | String | The ending UID of a message list |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -500,7 +500,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | endUid | String | The ending UID of a message list |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -529,7 +529,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid, long modificatio
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -558,7 +558,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -584,7 +584,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<ImapMessageI
 | connection | IConnection | Connection to a server |
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -610,7 +610,7 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet)
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -638,7 +638,7 @@ public Task DeleteMessagesAsync(IConnection connection,
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -666,7 +666,7 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -692,7 +692,7 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, boo
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -720,7 +720,7 @@ public Task DeleteMessagesAsync(IConnection connection,
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -749,7 +749,7 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -778,7 +778,7 @@ public Task DeleteMessagesAsync(IConnection connection,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -807,7 +807,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<int> sequenc
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -835,7 +835,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -861,7 +861,7 @@ public Task DeleteMessagesAsync(IEnumerable<int> sequenceSet, CancellationToken 
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -886,7 +886,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, CancellationToken to
 | uidSet | IEnumerable`1 | The set of UID for messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -914,7 +914,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<int> sequenc
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -943,7 +943,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -971,7 +971,7 @@ public Task DeleteMessagesAsync(IEnumerable<int> sequenceSet, long modificationS
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -998,7 +998,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, long modificationSeq
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1024,7 +1024,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, bool commitNow, Canc
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1052,7 +1052,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1081,7 +1081,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, long modificationSeq
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1110,7 +1110,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1139,7 +1139,7 @@ public Task DeleteMessagesAsync(IConnection connection, int startSequence, int e
 | endSequence | Int32 | The ending sequence number of a message list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1168,7 +1168,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | endUid | String | The ending UID of a message list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1195,7 +1195,7 @@ public Task DeleteMessagesAsync(int startSequence, int endSequence, Cancellation
 | endSequence | Int32 | The ending sequence number of a message list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1221,7 +1221,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid, CancellationToke
 | endUid | String | The ending UID of a message list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1250,7 +1250,7 @@ public Task DeleteMessagesAsync(IConnection connection, int startSequence, int e
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1280,7 +1280,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1309,7 +1309,7 @@ public Task DeleteMessagesAsync(int startSequence, int endSequence, long modific
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1337,7 +1337,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid, long modificatio
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1365,7 +1365,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid, bool commitNow,
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1394,7 +1394,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1424,7 +1424,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid, long modificatio
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1454,7 +1454,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1482,7 +1482,7 @@ public Task DeleteMessagesAsync(IConnection connection,
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1510,7 +1510,7 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | messageInfoSet | IEnumerable`1 | The set of ImapMessageInfo for deletion |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1539,7 +1539,7 @@ public Task DeleteMessagesAsync(IConnection connection,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1568,7 +1568,7 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1596,7 +1596,7 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, boo
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1625,7 +1625,7 @@ public Task DeleteMessagesAsync(IConnection connection,
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1655,7 +1655,7 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1686,7 +1686,7 @@ public Task DeleteMessagesAsync(IConnection connection,
 | commitNow | Boolean | Defines whether message must be commited now. Please, read more https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1713,7 +1713,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<int> sequenc
 | connection | IConnection | Connection to a server |
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1739,7 +1739,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | connection | IConnection | Connection to a server |
 | uidSet | IEnumerable`1 | The set of UID for messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -1764,7 +1764,7 @@ public Task DeleteMessagesAsync(IEnumerable<int> sequenceSet)
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | The set of sequence numbers for messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

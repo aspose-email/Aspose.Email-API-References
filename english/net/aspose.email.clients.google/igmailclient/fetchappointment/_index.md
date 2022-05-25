@@ -19,7 +19,7 @@ public Appointment FetchAppointment(string calendarId, string appointmentId)
 | calendarId | String | Calendar identifier. |
 | appointmentId | String | Appointment identifier. |
 
-## Return Value
+### Return Value
 
 Returns fetched appointment.
 

@@ -14,7 +14,7 @@ Gets or sets attachments in the recurrence exception.
 public MapiAttachmentCollection Attachments { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The attachment.
 

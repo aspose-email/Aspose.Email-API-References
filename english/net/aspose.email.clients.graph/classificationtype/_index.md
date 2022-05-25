@@ -14,7 +14,7 @@ https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0 h
 public enum ClassificationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

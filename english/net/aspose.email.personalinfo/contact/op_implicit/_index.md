@@ -18,7 +18,7 @@ public static implicit operator MapiContact(Contact contact)
 | --- | --- | --- |
 | contact | Contact | Object for conversion |
 
-## Return Value
+### Return Value
 
 [`MapiContact`](../../../aspose.email.mapi/mapicontact) object
 
@@ -43,7 +43,7 @@ public static implicit operator Contact(MapiContact contact)
 | --- | --- | --- |
 | contact | MapiContact | Object for conversion |
 
-## Return Value
+### Return Value
 
 [`Contact`](../../contact) object
 

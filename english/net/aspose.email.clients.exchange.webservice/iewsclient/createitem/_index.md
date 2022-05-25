@@ -18,7 +18,7 @@ public string CreateItem(MapiMessageItemBase item)
 | --- | --- | --- |
 | item | MapiMessageItemBase | An item to create. |
 
-## Return Value
+### Return Value
 
 The item Uri
 
@@ -44,7 +44,7 @@ public string CreateItem(string folderUri, MapiMessageItemBase item)
 | folderUri | String | A folder Uri where item should be created. |
 | item | MapiMessageItemBase | An item to create. |
 
-## Return Value
+### Return Value
 
 The item Uri
 

@@ -18,7 +18,7 @@ public List<SyncCollectionResponse> Sync(SyncRequest request)
 | --- | --- | --- |
 | request | SyncRequest | Sync request parameters |
 
-## Return Value
+### Return Value
 
 Returns list of responses for Sync operations such as Add, Fetch, Change
 

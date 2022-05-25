@@ -18,7 +18,7 @@ public delegate bool MessageAcceptanceCallback(MapiMessage mapiMessage);
 | --- | --- | --- |
 | mapiMessage | MapiMessage | [`MapiMessage`](../../aspose.email.mapi/mapimessage) to check. |
 
-## Return Value
+### Return Value
 
 If it returns true it indicates that message can be accepted for conversion, otherwise it will be skipped.
 

@@ -14,7 +14,7 @@ Specifies the maximum number of calendar days that can be synchronized.
 public enum MaxAgeFilter
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

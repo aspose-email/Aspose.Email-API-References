@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the read receipt is requested.
 public bool ReadReceiptRequested { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the read receipt is requested; otherwise, `false`.
 

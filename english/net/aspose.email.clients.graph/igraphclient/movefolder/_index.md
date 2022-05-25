@@ -19,7 +19,7 @@ public FolderInfo MoveFolder(string newParentId, string itemId)
 | newParentId | String | New parent folder id |
 | itemId | String | Item id to be moved |
 
-## Return Value
+### Return Value
 
 Moved folder
 

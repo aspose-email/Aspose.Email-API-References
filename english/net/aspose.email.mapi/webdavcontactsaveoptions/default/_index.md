@@ -14,7 +14,7 @@ Gets the default options.
 public static WebDavContactSaveOptions Default { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`WebDavContactSaveOptions`](../../webdavcontactsaveoptions) by default.
 

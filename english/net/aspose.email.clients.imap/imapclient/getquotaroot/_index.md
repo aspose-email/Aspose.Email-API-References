@@ -19,7 +19,7 @@ public ImapQuotaRoot[] GetQuotaRoot(IConnection connection, string mailboxName)
 | connection | IConnection | Connection to a server |
 | mailboxName | String | mailbox name |
 
-## Return Value
+### Return Value
 
 Quota root information for mailbox
 
@@ -45,7 +45,7 @@ public ImapQuotaRoot[] GetQuotaRoot(string mailboxName)
 | --- | --- | --- |
 | mailboxName | String | mailbox name |
 
-## Return Value
+### Return Value
 
 Quota root information for mailbox
 

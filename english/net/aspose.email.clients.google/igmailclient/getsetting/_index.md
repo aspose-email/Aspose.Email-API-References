@@ -18,7 +18,7 @@ public string GetSetting(string setting)
 | --- | --- | --- |
 | setting | String | Setting name |
 
-## Return Value
+### Return Value
 
 Returns settings value
 

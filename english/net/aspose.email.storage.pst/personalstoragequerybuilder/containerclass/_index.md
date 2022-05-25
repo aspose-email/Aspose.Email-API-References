@@ -14,7 +14,7 @@ Gets folders with an specified message class.
 public StringComparisonField ContainerClass { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield) that represents a container class.
 

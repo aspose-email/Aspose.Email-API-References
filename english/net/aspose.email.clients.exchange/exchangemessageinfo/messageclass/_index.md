@@ -14,7 +14,7 @@ Gets a string representing the class for the message. The property corresponds t
 public virtual string MessageClass { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents the message class.
 

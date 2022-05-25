@@ -15,7 +15,7 @@ Specifies what data in the MapiCalendarOverrideFlags structure has a value diffe
 public enum MapiCalendarOverrideFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

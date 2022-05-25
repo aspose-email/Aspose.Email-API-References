@@ -18,7 +18,7 @@ public InboxRule UpdateRule(InboxRule rule)
 | --- | --- | --- |
 | rule | InboxRule | Rule to update |
 
-## Return Value
+### Return Value
 
 Updated rule
 

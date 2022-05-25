@@ -21,7 +21,7 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 | defaultFolder | StandardIpmFolder | The value of [`StandardIpmFolder`](../../standardipmfolder) enumeration. |
 | createHierarchy | Boolean | if set to `true`, it is possible to create a folder hierarchy using string notation. Backslash ('\') is used as path separator. |
 
-## Return Value
+### Return Value
 
 A [`FolderInfo`](../../folderinfo) object that represents a standard IPM folder.
 
@@ -48,7 +48,7 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 | name | String | The name of folder. |
 | defaultFolder | StandardIpmFolder | The value of [`StandardIpmFolder`](../../standardipmfolder) enumeration. |
 
-## Return Value
+### Return Value
 
 A [`FolderInfo`](../../folderinfo) object that represents a standard IPM folder.
 

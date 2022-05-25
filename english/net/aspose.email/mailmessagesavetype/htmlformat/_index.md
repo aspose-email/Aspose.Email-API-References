@@ -14,7 +14,7 @@ Gets the Html.
 public static MailMessageSaveType HtmlFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The Html.
 

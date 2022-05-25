@@ -14,7 +14,7 @@ The effective access role that the authenticated user has on the calendar.
 public enum AccessRole
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

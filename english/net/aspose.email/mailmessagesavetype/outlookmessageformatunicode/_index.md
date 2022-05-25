@@ -14,7 +14,7 @@ Gets the MSG.
 public static MailMessageSaveType OutlookMessageFormatUnicode { get; }
 ```
 
-## Property Value
+### Property Value
 
 The MSG.
 

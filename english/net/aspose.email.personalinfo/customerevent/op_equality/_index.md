@@ -19,7 +19,7 @@ public static bool operator ==(CustomerEvent a, CustomerEvent b)
 | a | CustomerEvent | First object to compare |
 | b | CustomerEvent | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise false.
 

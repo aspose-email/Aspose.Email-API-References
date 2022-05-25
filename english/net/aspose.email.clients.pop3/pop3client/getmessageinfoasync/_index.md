@@ -21,7 +21,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, string 
 | uniqueId | String | The unique id of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -49,7 +49,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, string 
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -75,7 +75,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -101,7 +101,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId, Pop3ListFields
 | uniqueId | String | The unique id of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -130,7 +130,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, int seq
 | sequenceNumber | Int32 | The sequence number of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -158,7 +158,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, int seq
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -184,7 +184,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -210,7 +210,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber, Pop3ListFie
 | sequenceNumber | Int32 | The sequence number of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -240,7 +240,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, string 
 | fields | Pop3ListFields | The fields that we want get |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -270,7 +270,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, string 
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -297,7 +297,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId, CancellationTo
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -325,7 +325,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId, Pop3ListFields
 | fields | Pop3ListFields | The fields that we want get |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -355,7 +355,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, int seq
 | fields | Pop3ListFields | The fields that we want get |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -385,7 +385,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(IConnection connection, int seq
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -412,7 +412,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber, Cancellatio
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -440,7 +440,7 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber, Pop3ListFie
 | fields | Pop3ListFields | The fields that we want get |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -14,7 +14,7 @@ Specifies the sensitivity of a MailMessage.
 public enum MailSensitivity
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

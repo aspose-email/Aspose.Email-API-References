@@ -14,7 +14,7 @@ Gets the override flags.
 public MapiCalendarOverrideFlags OverrideFlags { get; }
 ```
 
-## Property Value
+### Property Value
 
 The override flags.
 

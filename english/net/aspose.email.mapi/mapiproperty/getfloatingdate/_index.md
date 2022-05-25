@@ -14,7 +14,7 @@ Gets the bytes of the binary data as DateTime.
 public virtual DateTime GetFloatingDate()
 ```
 
-## Return Value
+### Return Value
 
 The DateTime value.
 

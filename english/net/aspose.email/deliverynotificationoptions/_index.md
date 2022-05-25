@@ -15,7 +15,7 @@ Specifies delivery notifications.
 public enum DeliveryNotificationOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

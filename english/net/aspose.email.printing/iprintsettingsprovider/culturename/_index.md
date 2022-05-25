@@ -14,7 +14,7 @@ Gets or sets the culture name in the format languagecode2-country/regioncode2.
 public string CultureName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A string that represents the current culture.
 

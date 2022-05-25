@@ -14,7 +14,7 @@ Gets an attachment object typically accessed through the OLE IStorage interface.
 public MapiObjectProperty ObjectData { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object data.
 

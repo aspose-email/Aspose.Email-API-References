@@ -14,7 +14,7 @@ Gets collection of folders.
 public List<OlmFolder> GetFolders()
 ```
 
-## Return Value
+### Return Value
 
 The collection of folders that belong to the storage, i.e. the sub-folders of the current OLMStorage object.
 

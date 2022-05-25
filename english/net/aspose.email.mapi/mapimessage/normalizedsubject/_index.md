@@ -14,7 +14,7 @@ Gets normalized subject of the message.
 public string NormalizedSubject { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents normalized subject.
 

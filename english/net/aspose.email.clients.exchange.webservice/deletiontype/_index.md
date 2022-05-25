@@ -14,7 +14,7 @@ Type of deletion
 public enum DeletionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

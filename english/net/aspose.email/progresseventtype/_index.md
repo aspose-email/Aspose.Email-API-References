@@ -14,7 +14,7 @@ Type of progress event that occured.
 public enum ProgressEventType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

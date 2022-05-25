@@ -29,6 +29,12 @@ public class ColorsInfo
 | [Event](../../aspose.email.clients.google/colorsinfo/event) { get; } | Palette of event colors, mapping from the color ID to its definition. An 'event' resource may refer to one of these color IDs in its 'color' field. |
 | [Updated](../../aspose.email.clients.google/colorsinfo/updated) { get; set; } | Last modification time of the color palette. |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [KIND](../../aspose.email.clients.google/colorsinfo/kind) | Type of the resource "calendar#colors". |
+
 ### See Also
 
 * namespace [Aspose.Email.Clients.Google](../../aspose.email.clients.google)

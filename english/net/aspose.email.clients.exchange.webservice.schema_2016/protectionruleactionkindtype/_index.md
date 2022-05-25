@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/protectionruleact
 public enum ProtectionRuleActionKindType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

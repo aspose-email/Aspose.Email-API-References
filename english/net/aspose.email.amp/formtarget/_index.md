@@ -14,7 +14,7 @@ Indicates where to display the form response after submitting the form. The valu
 public enum FormTarget
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

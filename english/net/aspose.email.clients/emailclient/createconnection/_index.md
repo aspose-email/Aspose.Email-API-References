@@ -14,7 +14,7 @@ Creates new independent connection for operations not linked to threads (not def
 public virtual IConnection CreateConnection()
 ```
 
-## Return Value
+### Return Value
 
 Returns connection object
 
@@ -39,7 +39,7 @@ public virtual IConnection CreateConnection(bool createAsDefaultConnection)
 | --- | --- | --- |
 | createAsDefaultConnection | Boolean | Indicates if connection has to be created as default for current thread |
 
-## Return Value
+### Return Value
 
 Returns connection object
 

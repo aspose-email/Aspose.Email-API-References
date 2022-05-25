@@ -14,7 +14,7 @@ Gets a list of the display names of any carbon copy (CC) message recipients, sep
 public string DisplayCc { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents display cc.
 

@@ -14,7 +14,7 @@ Controls the negotiation of the encryption algorithm.
 public enum SMIMEEncryptionAlgorithmNegotiation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

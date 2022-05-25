@@ -18,7 +18,7 @@ public AutodiscoverResult Autodiscover(string emailAddress)
 | --- | --- | --- |
 | emailAddress | String | The email address is a required child element of the autodiscover request |
 
-## Return Value
+### Return Value
 
 Result of the Autodiscover operation
 

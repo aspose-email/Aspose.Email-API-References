@@ -18,7 +18,7 @@ public override bool Equals(object other)
 | --- | --- | --- |
 | obj | Object | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified System.Object is equal to the current System.Object; otherwise, false.
 
@@ -42,7 +42,7 @@ public override bool Equals(PropertyDescriptor other)
 | --- | --- | --- |
 | other | PropertyDescriptor | An object to compare with this object. |
 
-## Return Value
+### Return Value
 
 true if the current object is equal to the other parameter; otherwise, false.
 

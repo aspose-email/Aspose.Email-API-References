@@ -19,7 +19,7 @@ public Appointment UpdateAppointment(string calendarId, Appointment appointment)
 | calendarId | String | Calendar identifier. |
 | appointment | Appointment | An instance of appointment object to update. |
 
-## Return Value
+### Return Value
 
 Returns updated appointment.
 

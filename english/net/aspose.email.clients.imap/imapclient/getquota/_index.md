@@ -19,7 +19,7 @@ public ImapQuota[] GetQuota(IConnection connection, string quotaRootName)
 | connection | IConnection | Connection to a server |
 | quotaRootName | String | quota root name |
 
-## Return Value
+### Return Value
 
 Quota information
 
@@ -45,7 +45,7 @@ public ImapQuota[] GetQuota(string quotaRootName)
 | --- | --- | --- |
 | quotaRootName | String | quota root name |
 
-## Return Value
+### Return Value
 
 Quota information
 

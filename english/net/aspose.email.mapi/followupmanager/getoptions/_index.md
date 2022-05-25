@@ -18,7 +18,7 @@ public static FollowUpOptions GetOptions(MapiMessage message)
 | --- | --- | --- |
 | message | MapiMessage | The [`MapiMessage`](../../mapimessage) in which options is set. |
 
-## Return Value
+### Return Value
 
 The [`FollowUpOptions`](../../followupoptions) that represents options for using follow-up flags, reminders, category and voting buttons.
 

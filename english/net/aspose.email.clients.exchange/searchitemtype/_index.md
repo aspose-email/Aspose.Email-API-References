@@ -14,7 +14,7 @@ Provides the item type values to limit search results to only a specific type of
 public enum SearchItemType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

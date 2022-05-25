@@ -14,7 +14,7 @@ Enumerates the user free/busy statuses
 public enum ExchangeUserBusyness
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

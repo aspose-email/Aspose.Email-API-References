@@ -18,7 +18,7 @@ public MailAddressCollection FetchDistributionList(ExchangeDistributionList dist
 | --- | --- | --- |
 | distributionList | ExchangeDistributionList | A [`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist) containing information about Distribution List to fetch. |
 
-## Return Value
+### Return Value
 
 A [`MailAddressCollection`](../../../aspose.email/mailaddresscollection) that contains members from the specified private Distribution List.
 

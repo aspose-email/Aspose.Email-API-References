@@ -15,7 +15,7 @@ Enumerates the empty folder options
 public enum EmptyFolderOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

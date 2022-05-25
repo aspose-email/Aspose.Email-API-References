@@ -19,7 +19,7 @@ public AccessControlRule FetchAccessRule(string calendarId, string roleId)
 | calendarId | String | Calendar identifier. |
 | roleId | String | Role identifier. |
 
-## Return Value
+### Return Value
 
 Returns fetched access rule
 

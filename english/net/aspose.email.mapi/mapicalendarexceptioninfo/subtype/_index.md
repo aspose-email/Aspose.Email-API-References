@@ -14,7 +14,7 @@ Gets or sets the subtype.
 public int SubType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The subtype.
 

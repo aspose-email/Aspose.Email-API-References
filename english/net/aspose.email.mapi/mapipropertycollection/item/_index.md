@@ -18,7 +18,7 @@ public MapiProperty this[long tag] { get; set; }
 | --- | --- |
 | tag | The tag key whose value to get or set. |
 
-## Return Value
+### Return Value
 
 The value associated with the specified key.
 
@@ -43,7 +43,7 @@ public MapiProperty this[PropertyDescriptor pd] { get; set; }
 | --- | --- |
 | pd | The [`PropertyDescriptor`](../../propertydescriptor) key whose value to get or set. |
 
-## Return Value
+### Return Value
 
 The value associated with the specified key.
 

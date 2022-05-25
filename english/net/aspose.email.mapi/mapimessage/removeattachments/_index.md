@@ -18,7 +18,7 @@ public static MapiAttachmentCollection RemoveAttachments(string path)
 | --- | --- | --- |
 | path | String | The name of the Outlook Message file. |
 
-## Return Value
+### Return Value
 
 The attachments collection.
 

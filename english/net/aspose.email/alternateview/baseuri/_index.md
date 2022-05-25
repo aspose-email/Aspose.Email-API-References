@@ -14,7 +14,7 @@ Gets or sets the base URI.
 public Uri BaseUri { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The base URI.
 

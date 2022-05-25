@@ -14,7 +14,7 @@ Gets the destination folder.
 public FolderInfo DestinationFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The destination folder.
 

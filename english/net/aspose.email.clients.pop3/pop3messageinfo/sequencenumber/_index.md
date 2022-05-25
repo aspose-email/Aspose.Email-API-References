@@ -14,7 +14,7 @@ Gets the Sequence Number of the E-Mail message.
 public int SequenceNumber { get; }
 ```
 
-## Property Value
+### Property Value
 
 The sequence number.
 

@@ -14,7 +14,7 @@ Serves as a hash function for a particular type.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 A hash code for the current object.
 

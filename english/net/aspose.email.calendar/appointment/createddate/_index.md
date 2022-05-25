@@ -14,7 +14,7 @@ Gets or sets the date and time that calendar information was created.
 public DateTime CreatedDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The DateTime that represents creation date and time.
 

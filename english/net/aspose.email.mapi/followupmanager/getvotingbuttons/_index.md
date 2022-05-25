@@ -18,7 +18,7 @@ public static string[] GetVotingButtons(MapiMessage message)
 | --- | --- | --- |
 | message | MapiMessage | The [`MapiMessage`](../../mapimessage) in which the buttons are added. |
 
-## Return Value
+### Return Value
 
 The list of added voting buttons.
 

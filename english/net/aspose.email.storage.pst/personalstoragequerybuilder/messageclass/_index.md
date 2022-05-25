@@ -14,7 +14,7 @@ Gets messages with an specified message class.
 public StringComparisonField MessageClass { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield) that represents a message class.
 

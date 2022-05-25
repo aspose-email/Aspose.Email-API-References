@@ -14,7 +14,7 @@ Gets the properties set on the recipient.
 public MessageObjectPropertiesCollection Properties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The properties.
 

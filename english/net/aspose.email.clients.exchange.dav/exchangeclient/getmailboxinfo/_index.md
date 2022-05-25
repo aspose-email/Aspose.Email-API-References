@@ -14,7 +14,7 @@ Get the information of the mailbox
 public ExchangeMailboxInfo GetMailboxInfo()
 ```
 
-## Return Value
+### Return Value
 
 The information of the mailbox
 
@@ -39,7 +39,7 @@ public ExchangeMailboxInfo GetMailboxInfo(string mailbox)
 | --- | --- | --- |
 | mailbox | String | A mailbox to read from. Note: if mailbox is set to `null` or `empty` the default mailbox will be used |
 
-## Return Value
+### Return Value
 
 [`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo) that represents mailbox information
 

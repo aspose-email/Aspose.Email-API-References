@@ -19,7 +19,7 @@ public MailMessage CreateReadReceipt(string from, string bodyText)
 | from | String | String that represents the sender address. |
 | bodyText | String | The message body text. The default message body text will be applied if this parameter is null or empty. |
 
-## Return Value
+### Return Value
 
 A newly created [`MailMessage`](../../mailmessage) that represents the read receipt.
 

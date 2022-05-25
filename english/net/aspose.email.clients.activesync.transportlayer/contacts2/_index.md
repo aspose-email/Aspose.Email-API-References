@@ -14,7 +14,7 @@ Contacts2 namespace of the ActiveSync protocol
 public enum Contacts2
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

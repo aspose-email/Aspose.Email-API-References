@@ -14,7 +14,7 @@ Enumerates the mapi calendar recurrence pattern types
 public enum MapiCalendarRecurrencePatternType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

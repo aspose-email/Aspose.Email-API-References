@@ -19,7 +19,7 @@ public static IActiveSyncTLClient GetInstance(string uri, NetworkCredential cred
 | uri | String | server uri |
 | credentials | NetworkCredential | user credentials |
 
-## Return Value
+### Return Value
 
 Returns an instance of the ActiveSync client
 
@@ -47,7 +47,7 @@ public static IActiveSyncTLClient GetInstance(string uri, NetworkCredential cred
 | credentials | NetworkCredential | user credentials |
 | version | ASProtocolVersions | ActiveSync protocol version |
 
-## Return Value
+### Return Value
 
 Returns an instance of the ActiveSync client
 

@@ -20,7 +20,7 @@ public Task<MapiContactCollection> ResolveMapiContactsAsync(string unresolvedEnt
 | unresolvedEntry | String | A name of contact to resolve |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contacts information
 

@@ -18,7 +18,7 @@ public long GetTagFromNamedProperty(long LId)
 | --- | --- | --- |
 | LId | Int64 | The property id. |
 
-## Return Value
+### Return Value
 
 The property tag value.
 
@@ -42,7 +42,7 @@ public long GetTagFromNamedProperty(string name)
 | --- | --- | --- |
 | name | String | The property name |
 
-## Return Value
+### Return Value
 
 The property tag value.
 

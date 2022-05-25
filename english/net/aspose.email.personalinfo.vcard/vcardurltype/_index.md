@@ -14,7 +14,7 @@ Enumerates url type
 public enum VCardUrlType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

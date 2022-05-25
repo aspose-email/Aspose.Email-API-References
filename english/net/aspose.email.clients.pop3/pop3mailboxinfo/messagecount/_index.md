@@ -14,7 +14,7 @@ Gets the count of messages in the mailbox.
 public int MessageCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message count.
 

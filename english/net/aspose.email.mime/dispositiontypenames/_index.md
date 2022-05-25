@@ -14,6 +14,13 @@ Represents the disposition type names.
 public static class DispositionTypeNames
 ```
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [Attachment](../../aspose.email.mime/dispositiontypenames/attachment) | Name for attachment disposition type. |
+| const [Inline](../../aspose.email.mime/dispositiontypenames/inline) | Name for inline disposition type. |
+
 ### See Also
 
 * namespace [Aspose.Email.Mime](../../aspose.email.mime)

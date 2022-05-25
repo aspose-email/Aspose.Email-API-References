@@ -14,7 +14,7 @@ Represents IMAP namespace type More details: https://tools.ietf.org/html/rfc2342
 public enum ImapNamespaceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public OutlookCategory UpdateCategory(OutlookCategory category)
 | --- | --- | --- |
 | category | OutlookCategory | Category to update |
 
-## Return Value
+### Return Value
 
 Category by which a user can group Outlook items such as messages and events
 

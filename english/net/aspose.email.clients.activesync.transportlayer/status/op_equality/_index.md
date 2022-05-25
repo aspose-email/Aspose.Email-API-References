@@ -19,7 +19,7 @@ public static bool operator ==(Status status1, Status status2)
 | status1 | Status | First object to compare |
 | status2 | Status | Second object to compare |
 
-## Return Value
+### Return Value
 
 true if the first status is equal to the second status; otherwise, false.
 

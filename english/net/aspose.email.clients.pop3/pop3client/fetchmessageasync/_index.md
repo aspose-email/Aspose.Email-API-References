@@ -19,7 +19,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -46,7 +46,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -72,7 +72,7 @@ public Task<MailMessage> FetchMessageAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -97,7 +97,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -125,7 +125,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -154,7 +154,7 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -181,7 +181,7 @@ public Task<MailMessage> FetchMessageAsync(string uniqueId, CancellationToken to
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -207,7 +207,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, CancellationToken
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

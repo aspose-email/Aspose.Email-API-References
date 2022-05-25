@@ -14,7 +14,7 @@ Gets or sets the username.
 public virtual string Username { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The username string.
 

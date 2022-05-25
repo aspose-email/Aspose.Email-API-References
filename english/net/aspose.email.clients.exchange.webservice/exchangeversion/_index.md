@@ -14,7 +14,7 @@ Exchange server versions
 public enum ExchangeVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

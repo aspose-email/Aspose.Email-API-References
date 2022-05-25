@@ -18,7 +18,7 @@ public static implicit operator MailAddressCollection(MailAddress address)
 | --- | --- | --- |
 | address | MailAddress | The address. |
 
-## Return Value
+### Return Value
 
 The result of the conversion.
 
@@ -43,7 +43,7 @@ public static implicit operator MailAddressCollection(string addresses)
 | --- | --- | --- |
 | addresses | String | The address list. |
 
-## Return Value
+### Return Value
 
 The result of the conversion.
 

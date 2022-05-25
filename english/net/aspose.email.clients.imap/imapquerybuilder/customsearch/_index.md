@@ -18,7 +18,7 @@ public MailQuery CustomSearch(string fieldValue)
 | --- | --- | --- |
 | fieldValue | String | The field value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query (one searching criteria).
 

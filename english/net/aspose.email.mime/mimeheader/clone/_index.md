@@ -14,7 +14,7 @@ Clones this instance.
 public MimeHeader Clone()
 ```
 
-## Return Value
+### Return Value
 
 Returns new instance of the cloned [`MimeHeader`](../../mimeheader) class.
 

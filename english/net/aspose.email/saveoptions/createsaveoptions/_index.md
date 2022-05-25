@@ -18,7 +18,7 @@ public static SaveOptions CreateSaveOptions(MailMessageSaveType saveType)
 | --- | --- | --- |
 | saveType | MailMessageSaveType | The [`save type`](../mailmessagesavetype) for which to create a save options object. |
 
-## Return Value
+### Return Value
 
 An object of a class that derives from [`SaveOptions`](../../saveoptions).
 

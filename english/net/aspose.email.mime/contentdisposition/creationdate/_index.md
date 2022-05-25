@@ -14,7 +14,7 @@ Gets or sets the creation date.
 public DateTime CreationDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A DateTime value that indicates the file creation date; otherwise, MinValue if no date was specified.
 

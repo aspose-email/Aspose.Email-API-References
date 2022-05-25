@@ -14,7 +14,7 @@ Get all the categories that have been defined for the user.
 public List<OutlookCategory> ListCategories()
 ```
 
-## Return Value
+### Return Value
 
 Returns list of categories for the user
 

@@ -14,7 +14,7 @@ Gets the To: line.
 public string DisplayTo { get; }
 ```
 
-## Property Value
+### Property Value
 
 The display to.
 

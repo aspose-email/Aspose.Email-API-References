@@ -14,7 +14,7 @@ Device types used to access Sway for the triggered event.
 public enum DeviceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

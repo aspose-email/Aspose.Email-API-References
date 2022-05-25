@@ -19,7 +19,7 @@ public static bool operator ==(InstantMessengerCategory a, InstantMessengerCateg
 | a | InstantMessengerCategory | First object to compare |
 | b | InstantMessengerCategory | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise false.
 

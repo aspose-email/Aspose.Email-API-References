@@ -14,7 +14,7 @@ Represents the mail priopity
 public enum MailPriority
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public static implicit operator string(RangeSeqSet range)
 | --- | --- | --- |
 | range | RangeSeqSet | Object to convert |
 
-## Return Value
+### Return Value
 
 Returns string representation of converted object.
 

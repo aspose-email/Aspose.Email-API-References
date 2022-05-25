@@ -18,7 +18,7 @@ public MailQuery HasFlags(ExchangeMessageFlag flags)
 | --- | --- | --- |
 | flags | ExchangeMessageFlag | The flags. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query (one searching criteria).
 

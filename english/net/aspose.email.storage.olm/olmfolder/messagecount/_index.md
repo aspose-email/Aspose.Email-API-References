@@ -14,7 +14,7 @@ Gets the message count.
 public int MessageCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message count.
 

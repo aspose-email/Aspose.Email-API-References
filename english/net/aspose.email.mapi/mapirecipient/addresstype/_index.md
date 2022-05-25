@@ -14,7 +14,7 @@ Gets the type of the address of the message recipient or sender.
 public string AddressType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The address type.
 

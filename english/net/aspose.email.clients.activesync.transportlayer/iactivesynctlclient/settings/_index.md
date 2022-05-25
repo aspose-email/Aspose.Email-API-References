@@ -18,7 +18,7 @@ public SettingsResponse Settings(SettingsRequest request)
 | --- | --- | --- |
 | request | SettingsRequest | Settings operation parameters |
 
-## Return Value
+### Return Value
 
 Returns settings operation result
 

@@ -14,7 +14,7 @@ ComposeMail namespace of the ActiveSync protocol
 public enum ComposeMail
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

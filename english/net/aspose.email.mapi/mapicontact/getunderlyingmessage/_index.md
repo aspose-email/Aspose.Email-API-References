@@ -14,7 +14,7 @@ Get the MapiMessage that represent contact.
 public MapiMessage GetUnderlyingMessage()
 ```
 
-## Return Value
+### Return Value
 
 The [`MapiMessage`](../../mapimessage) object.
 

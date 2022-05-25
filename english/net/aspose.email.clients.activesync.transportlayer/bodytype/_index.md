@@ -14,7 +14,7 @@ Specifies the format type of the body content of the item.
 public enum BodyType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Creates the MapiMessage from object data.
 public MapiMessage ToMapiMessage()
 ```
 
-## Return Value
+### Return Value
 
 The resultant [`MapiMessage`](../../mapimessage).
 

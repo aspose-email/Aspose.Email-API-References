@@ -14,7 +14,7 @@ Gets the recipients of the [`MessageObject`](../../messageobject).
 public MessageObjectRecipientsCollection Recipients { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recipients.
 

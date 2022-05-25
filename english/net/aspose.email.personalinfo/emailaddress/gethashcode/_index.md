@@ -14,7 +14,7 @@ GetHashCode returns a hash function for this object.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 Returns a hash function for this object.
 
@@ -38,7 +38,7 @@ public int GetHashCode(EmailAddress obj)
 | --- | --- | --- |
 | obj | EmailAddress | The Object for which a hash code is to be returned. |
 
-## Return Value
+### Return Value
 
 Returns a hash function for specified object.
 

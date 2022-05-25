@@ -15,7 +15,7 @@ Enumerates the appointment state
 public enum MapiCalendarState
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

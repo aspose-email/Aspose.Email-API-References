@@ -14,7 +14,7 @@ The ASProtocolVersions indicates the versions of the ActiveSync protocol.
 public enum ASProtocolVersions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

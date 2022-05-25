@@ -18,7 +18,7 @@ public static string ToString(ASProtocolVersions version)
 | --- | --- | --- |
 | version | ASProtocolVersions | ActiveSync protocol version |
 
-## Return Value
+### Return Value
 
 Returns string representation of ActiveSync protocol version.
 

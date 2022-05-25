@@ -18,7 +18,7 @@ public ImapAttachmentInfoCollection ListAttachments(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The message sequence number. |
 
-## Return Value
+### Return Value
 
 [`ImapMessageInfoCollection`](../../imapmessageinfocollection) that represents collection of [`ImapAttachmentInfo`](../../imapattachmentinfo)
 

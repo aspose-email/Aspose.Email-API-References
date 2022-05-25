@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/itemschoicetype4/
 public enum ItemsChoiceType4
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

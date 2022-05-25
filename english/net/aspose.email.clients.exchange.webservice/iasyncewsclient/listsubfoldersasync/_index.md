@@ -21,7 +21,7 @@ public Task<ExchangeFolderInfoCollection> ListSubFoldersAsync(string mailbox,
 | parentFolderUri | String | A parent folder |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) that contains subfolders from the parent folder
 

@@ -18,7 +18,7 @@ public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage)
 | --- | --- | --- |
 | itemsPerPage | Int32 | A number of items in page |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -44,7 +44,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, int itemsPer
 | folderUri | String | A folder to search appointments in. |
 | itemsPerPage | Int32 | A number of items in page |
 
-## Return Value
+### Return Value
 
 Returns collection of appointments
 
@@ -70,7 +70,7 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -99,7 +99,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -126,7 +126,7 @@ public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage, int itemOffs
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -154,7 +154,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, int itemsPer
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -181,7 +181,7 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -211,7 +211,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 

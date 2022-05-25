@@ -14,7 +14,7 @@ MeetingResponse namespace of the ActiveSync protocol
 public enum MeetingResponse
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

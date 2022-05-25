@@ -18,7 +18,7 @@ public bool Contains(EmailAddress value)
 | --- | --- | --- |
 | value | EmailAddress | The object to locate in the list. |
 
-## Return Value
+### Return Value
 
 true if the object is found in the list; otherwise, false.
 

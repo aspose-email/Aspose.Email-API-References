@@ -14,7 +14,7 @@ Gets the calendar HTML.
 public string GetAppointmentHtml()
 ```
 
-## Return Value
+### Return Value
 
 String value of calendar as HTML.
 

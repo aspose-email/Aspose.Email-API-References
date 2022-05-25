@@ -45,17 +45,17 @@ public class UrlCategory : IEquatable<UrlCategory>
 | [operator ==](../../aspose.email.personalinfo/urlcategory/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/urlcategory/op_inequality) | Determines whether the specified objects are not equal. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [BlogValue](blogvalue) | String value for 'Blog' category |
-| const [CustomValue](customvalue) | String value for 'Custom' category |
-| const [FtpValue](ftpvalue) | String value for 'Ftp' category |
-| const [HomePageValue](homepagevalue) | String value for 'HomePage' category |
-| const [HomeValue](homevalue) | String value for 'Home' category |
-| const [ProfileValue](profilevalue) | String value for 'Profile' category |
-| const [WorkValue](workvalue) | String value for 'Work' category |
+| const [BlogValue](../../aspose.email.personalinfo/urlcategory/blogvalue) | String value for 'Blog' category |
+| const [CustomValue](../../aspose.email.personalinfo/urlcategory/customvalue) | String value for 'Custom' category |
+| const [FtpValue](../../aspose.email.personalinfo/urlcategory/ftpvalue) | String value for 'Ftp' category |
+| const [HomePageValue](../../aspose.email.personalinfo/urlcategory/homepagevalue) | String value for 'HomePage' category |
+| const [HomeValue](../../aspose.email.personalinfo/urlcategory/homevalue) | String value for 'Home' category |
+| const [ProfileValue](../../aspose.email.personalinfo/urlcategory/profilevalue) | String value for 'Profile' category |
+| const [WorkValue](../../aspose.email.personalinfo/urlcategory/workvalue) | String value for 'Work' category |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public MapiAttachmentCollection ListAttachments(string id)
 | --- | --- | --- |
 | id | String | Parent message id |
 
-## Return Value
+### Return Value
 
 Returns list of attachments of a message
 

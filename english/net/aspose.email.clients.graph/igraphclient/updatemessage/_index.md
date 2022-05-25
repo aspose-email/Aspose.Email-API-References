@@ -18,7 +18,7 @@ public MapiMessage UpdateMessage(MapiMessage message)
 | --- | --- | --- |
 | message | MapiMessage | Mapi message to be updated |
 
-## Return Value
+### Return Value
 
 Updated message
 
@@ -44,7 +44,7 @@ public MapiMessage UpdateMessage(MapiMessage message, UpdateSettings updateSetti
 | message | MapiMessage | Mapi message to be updated |
 | updateSettings | UpdateSettings | Update settings |
 
-## Return Value
+### Return Value
 
 Updated message
 

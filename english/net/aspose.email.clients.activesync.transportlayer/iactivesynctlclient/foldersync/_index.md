@@ -14,7 +14,7 @@ The FolderSync synchronizes the collection hierarchy but does not synchronize th
 public FolderSyncResult FolderSync()
 ```
 
-## Return Value
+### Return Value
 
 Returns changes to the folder hierarchy.
 
@@ -39,7 +39,7 @@ public FolderSyncResult FolderSync(bool resetSyncKey)
 | --- | --- | --- |
 | resetSyncKey | Boolean | Indicates if SyncKey for operations with folders has to be reseted or not. |
 
-## Return Value
+### Return Value
 
 Returns changes to the folder hierarchy.
 

@@ -14,7 +14,7 @@ Enables MIME support for email items that are sent from the server to the client
 public enum MIMESupport
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

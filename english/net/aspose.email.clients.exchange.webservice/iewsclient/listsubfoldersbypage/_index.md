@@ -19,7 +19,7 @@ public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, PageI
 | parentFolderUri | String | A parent folder URI |
 | page | PageInfo | A page info |
 
-## Return Value
+### Return Value
 
 A [`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo) containing the found folder if folder name is specified; otherwise, returns all subfolders
 
@@ -46,7 +46,7 @@ public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, int i
 | parentFolderUri | String | A parent folder URI |
 | itemsPerPage | Int32 | A number of folders in page |
 
-## Return Value
+### Return Value
 
 A [`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo) containing the found folder if folder name is specified; otherwise, returns all subfolders
 
@@ -74,7 +74,7 @@ public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, int i
 | itemsPerPage | Int32 | A number of folders in page |
 | pageOffset | Int32 | An offset of next item in view |
 
-## Return Value
+### Return Value
 
 A [`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo) containing the found folder if folder name is specified; otherwise, returns all subfolders
 

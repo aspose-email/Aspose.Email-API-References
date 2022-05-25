@@ -14,7 +14,7 @@ Enumerates vCard version
 public enum VCardVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

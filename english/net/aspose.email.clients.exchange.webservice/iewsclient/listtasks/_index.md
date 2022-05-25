@@ -22,7 +22,7 @@ public TaskCollection ListTasks(string folder, int maxNumberOfItems, MailQuery q
 | query | MailQuery | Mail query |
 | recursive | Boolean | Retrieve tasks recursivly |
 
-## Return Value
+### Return Value
 
 Tasks collection
 
@@ -44,7 +44,7 @@ Retrieves lists of exchange tasks for default folder.
 public TaskCollection ListTasks()
 ```
 
-## Return Value
+### Return Value
 
 Tasks collection
 
@@ -69,7 +69,7 @@ public TaskCollection ListTasks(string folder)
 | --- | --- | --- |
 | folder | String | Tasks folder |
 
-## Return Value
+### Return Value
 
 Tasks collection
 
@@ -95,7 +95,7 @@ public TaskCollection ListTasks(string folder, MailQuery query)
 | folder | String | Tasks folder |
 | query | MailQuery | Mail query |
 
-## Return Value
+### Return Value
 
 Tasks collection
 
@@ -122,7 +122,7 @@ public TaskCollection ListTasks(string folder, int maxNumberOfItems)
 | folder | String | Tasks folder |
 | maxNumberOfItems | Int32 | Maximum number of items |
 
-## Return Value
+### Return Value
 
 Tasks collection
 
@@ -149,7 +149,7 @@ public TaskCollection ListTasks(string folder, int maxNumberOfItems, MailQuery q
 | maxNumberOfItems | Int32 | Maximum number of items |
 | query | MailQuery | Mail query |
 
-## Return Value
+### Return Value
 
 Tasks collection
 

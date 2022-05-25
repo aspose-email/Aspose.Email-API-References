@@ -20,7 +20,7 @@ public Task<ExchangeFolderInfo> GetFolderInfoAsync(string folder,
 | folder | String | A folder uri, distinguished folder name. path/to/folder can also be used, if UseSlashAsFolderSeparator is set |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 A [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) that represents the folder information
 

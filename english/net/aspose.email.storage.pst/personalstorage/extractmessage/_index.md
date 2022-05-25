@@ -18,7 +18,7 @@ public MapiMessage ExtractMessage(MessageInfo messageInfo)
 | --- | --- | --- |
 | messageInfo | MessageInfo | A MessageInfo object that represents information about message. |
 
-## Return Value
+### Return Value
 
 A MapiMessage object.
 
@@ -44,7 +44,7 @@ public MapiMessage ExtractMessage(byte[] entryId)
 | --- | --- | --- |
 | entryId | Byte[] | EntryId of message. |
 
-## Return Value
+### Return Value
 
 A MapiMessage object.
 
@@ -69,7 +69,7 @@ public MapiMessage ExtractMessage(string entryId)
 | --- | --- | --- |
 | entryId | String | String representation of EntryId. |
 
-## Return Value
+### Return Value
 
 A MapiMessage object.
 

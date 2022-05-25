@@ -14,7 +14,7 @@ Lists mailboxes in the global address list.
 public MapiContactCollection ListMailboxes()
 ```
 
-## Return Value
+### Return Value
 
 A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contact information.
 

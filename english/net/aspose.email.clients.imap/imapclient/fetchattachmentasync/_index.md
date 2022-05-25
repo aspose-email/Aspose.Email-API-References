@@ -21,7 +21,7 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 | sequenceNumber | Int32 | The sequence number of a message |
 | attachmentName | String | A name of attachment |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -48,7 +48,7 @@ public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachme
 | sequenceNumber | Int32 | The sequence number of a message |
 | attachmentName | String | A name of attachment |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -77,7 +77,7 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 | attachmentName | String | A name of attachment |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -106,7 +106,7 @@ public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachme
 | attachmentName | String | A name of attachment |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

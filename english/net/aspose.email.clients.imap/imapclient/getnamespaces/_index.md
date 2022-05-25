@@ -14,7 +14,7 @@ Gets namespaces that are available on a server.
 public ImapNamespace[] GetNamespaces()
 ```
 
-## Return Value
+### Return Value
 
 Returns namespaces that are available on a server.
 
@@ -39,7 +39,7 @@ public ImapNamespace[] GetNamespaces(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Returns namespaces that are available on a server.
 

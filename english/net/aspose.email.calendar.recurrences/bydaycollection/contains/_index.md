@@ -18,7 +18,7 @@ public bool Contains(DayOfWeek dayOfWeek)
 | --- | --- | --- |
 | dayOfWeek | DayOfWeek | Day of weekDayOfWeek. |
 
-## Return Value
+### Return Value
 
 True if the value parameter exists within this collection, otherwise false.
 

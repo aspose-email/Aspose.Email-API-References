@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/idformattype/
 public enum IdFormatType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

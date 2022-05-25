@@ -14,7 +14,7 @@ Gets the topic of the first message in a conversation thread.
 public string ConversationTopic { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represens conversation topic.
 

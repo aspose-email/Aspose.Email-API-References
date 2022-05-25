@@ -14,7 +14,7 @@ Gets the first 8 bytes of the binary data as long.
 public virtual long GetLong()
 ```
 
-## Return Value
+### Return Value
 
 The long value.
 

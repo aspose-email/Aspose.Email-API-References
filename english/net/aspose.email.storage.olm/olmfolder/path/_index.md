@@ -14,7 +14,7 @@ Gets the path.
 public string Path { get; }
 ```
 
-## Property Value
+### Property Value
 
 The folder path.
 

@@ -14,7 +14,7 @@ Represents a standard interpersonal message (IPM) folders.
 public enum StandardIpmFolder
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

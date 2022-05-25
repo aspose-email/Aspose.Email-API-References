@@ -14,7 +14,7 @@ Gets the property tag, a combined value which contains [`Id`](../id) and [`Prope
 public long PropertyTag { get; }
 ```
 
-## Property Value
+### Property Value
 
 The property tag.
 

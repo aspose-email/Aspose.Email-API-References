@@ -21,7 +21,7 @@ public static List<VCardContact> LoadAsMultiple(string filePath, Encoding encodi
 | encoding | Encoding | Stream data encoding,if null then UTF8 will be used. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 List of contacs
 
@@ -48,7 +48,7 @@ public static List<VCardContact> LoadAsMultiple(Stream stream, Encoding encoding
 | encoding | Encoding | Stream data encoding,if null then UTF8 will be used. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 List of contacs
 
@@ -73,7 +73,7 @@ public static List<VCardContact> LoadAsMultiple(Stream stream, Encoding encoding
 | stream | Stream | Source stream |
 | encoding | Encoding | Stream data encoding,if null then UTF8 will be used. |
 
-## Return Value
+### Return Value
 
 List of contacs
 

@@ -14,7 +14,7 @@ Gets the value that represents the content class urn:content-classes:reportmessa
 public static ContentClassType ReportMessage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The report message content class.
 

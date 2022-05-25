@@ -15,7 +15,7 @@ Defines inner conversions, that are necessarily to be done when loading or savin
 public enum FileCompatibilityMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

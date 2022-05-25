@@ -14,7 +14,7 @@ Enumerates the ending type for the recurrence.
 public enum MapiCalendarRecurrenceEndType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public bool Contains(PhoneNumber value)
 | --- | --- | --- |
 | value | PhoneNumber | The object to locate in the list. |
 
-## Return Value
+### Return Value
 
 true if the object is found in the list; otherwise, false.
 

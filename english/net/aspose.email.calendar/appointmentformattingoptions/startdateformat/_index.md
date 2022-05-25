@@ -14,7 +14,7 @@ Gets or sets the start date format.
 public string StartDateFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The start date format.
 

@@ -18,7 +18,7 @@ public MailQuery Greater(DateTime value)
 | --- | --- | --- |
 | value | DateTime | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -44,7 +44,7 @@ public MailQuery Greater(DateTime value, DateComparisonType comparisonType)
 | value | DateTime | The value. |
 | comparisonType | DateComparisonType | Specifies a type of comparison |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

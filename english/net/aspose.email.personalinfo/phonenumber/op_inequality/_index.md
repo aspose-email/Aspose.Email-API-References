@@ -19,7 +19,7 @@ public static bool operator !=(PhoneNumber a, PhoneNumber b)
 | a | PhoneNumber | First object to compare |
 | b | PhoneNumber | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are not equal, otherwise false.
 

@@ -18,7 +18,7 @@ public Contact[] GetContactsFromGroup(string groupId)
 | --- | --- | --- |
 | groupId | String | string that represents group id for a contact |
 
-## Return Value
+### Return Value
 
 Contacts array
 

@@ -14,7 +14,7 @@ Gets the the urn:content-classes:dsn content class that defines a set of propert
 public static ContentClassType DSN { get; }
 ```
 
-## Property Value
+### Property Value
 
 The DSN content class.
 

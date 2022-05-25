@@ -14,7 +14,7 @@ Gets or sets the number of milliseconds to wait before the operation times out. 
 public virtual int Timeout { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Timeout in milliseconds
 

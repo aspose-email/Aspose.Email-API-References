@@ -18,7 +18,7 @@ public List<MessageThreadResult> GetMessageThreads(BaseSearchConditions conditio
 | --- | --- | --- |
 | conditions | BaseSearchConditions | Thread conditions. |
 
-## Return Value
+### Return Value
 
 Message threads
 
@@ -46,7 +46,7 @@ public List<MessageThreadResult> GetMessageThreads(IConnection connection,
 | connection | IConnection | Connection to a server |
 | conditions | BaseSearchConditions | Thread conditions. |
 
-## Return Value
+### Return Value
 
 Message threads
 

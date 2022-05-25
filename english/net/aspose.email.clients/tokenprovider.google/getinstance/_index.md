@@ -20,7 +20,7 @@ public static TokenProvider GetInstance(string clientId, string clientSecret, st
 | clientSecret | String | The client secret obtained during application registration. |
 | refreshToken | String | OAuth 2.0 refresh token |
 
-## Return Value
+### Return Value
 
 Returns an instance of the OutlookTokenProvider for defined parameters.
 

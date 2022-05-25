@@ -14,7 +14,7 @@ Gets or sets the status of document.
 public MapiJournalDocumentStatus DocumentStatus { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The document status.
 

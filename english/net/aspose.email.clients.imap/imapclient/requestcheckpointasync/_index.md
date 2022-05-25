@@ -18,7 +18,7 @@ public Task RequestCheckpointAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -39,7 +39,7 @@ Requests a checkpoint of the currently selected mailbox.
 public Task RequestCheckpointAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -64,7 +64,7 @@ public Task RequestCheckpointAsync(IConnection connection, CancellationToken tok
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -89,7 +89,7 @@ public Task RequestCheckpointAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

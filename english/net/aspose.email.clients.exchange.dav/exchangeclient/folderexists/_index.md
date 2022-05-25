@@ -19,7 +19,7 @@ public bool FolderExists(string parentFolderUri, string folderName)
 | parentFolderUri | String | An uri of parent folder. |
 | folderName | String | A folder name. |
 
-## Return Value
+### Return Value
 
 `true` if the specified folder exists in the specified parent folder; otherwise, `false`.
 
@@ -51,7 +51,7 @@ public bool FolderExists(string parentFolderUri, string folderName, out Exchange
 | folderName | String | A folder name. |
 | folder | ExchangeFolderInfo& | A [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) that represents the found folder information, if folder exists. |
 
-## Return Value
+### Return Value
 
 `true` if the specified folder exists in the specified parent folder; otherwise, `false`.
 

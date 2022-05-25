@@ -14,7 +14,7 @@ Enum specifies type of authentication
 public enum ActiveSyncAuthenticationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

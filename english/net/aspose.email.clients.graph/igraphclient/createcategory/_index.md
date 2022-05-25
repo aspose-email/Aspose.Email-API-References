@@ -19,7 +19,7 @@ public OutlookCategory CreateCategory(string displayName, CategoryPreset preset)
 | displayName | String | A unique name that identifies a category in the user's mailbox. |
 | preset | CategoryPreset | pre-set color constant that characterizes a category, and that is mapped to one of 25 predefined colors |
 
-## Return Value
+### Return Value
 
 Category by which a user can group Outlook items such as messages and events
 

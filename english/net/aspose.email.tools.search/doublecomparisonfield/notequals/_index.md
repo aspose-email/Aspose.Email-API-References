@@ -18,7 +18,7 @@ public MailQuery NotEquals(double value)
 | --- | --- | --- |
 | value | Double | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

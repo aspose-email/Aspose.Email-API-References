@@ -15,7 +15,7 @@ Enumerates backup options
 public enum BackupOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

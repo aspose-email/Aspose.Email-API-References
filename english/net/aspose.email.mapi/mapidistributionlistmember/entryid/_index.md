@@ -14,7 +14,7 @@ Gets or sets the EntryID of a member of a personal distribution list.
 public byte[] EntryId { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The entry id.
 

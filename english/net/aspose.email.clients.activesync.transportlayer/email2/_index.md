@@ -14,7 +14,7 @@ Email2 namespace of the ActiveSync protocol
 public enum Email2
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

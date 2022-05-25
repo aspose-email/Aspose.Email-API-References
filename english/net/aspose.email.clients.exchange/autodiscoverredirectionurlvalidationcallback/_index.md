@@ -18,7 +18,7 @@ public delegate bool AutodiscoverRedirectionUrlValidationCallback(string redirec
 | --- | --- | --- |
 | redirectionUrl | String | Redirection URL that Autodiscover wants to use. |
 
-## Return Value
+### Return Value
 
 Delegate returns true if Autodiscover is allowed to use this URL.
 

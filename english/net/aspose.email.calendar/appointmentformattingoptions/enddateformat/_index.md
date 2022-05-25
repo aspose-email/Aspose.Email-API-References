@@ -14,7 +14,7 @@ Gets or sets the end date format.
 public string EndDateFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The end date format.
 

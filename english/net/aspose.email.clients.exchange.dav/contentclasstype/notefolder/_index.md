@@ -14,7 +14,7 @@ Gets the urn:content-classes:notesfolder content class that defines a set of pro
 public static ContentClassType NoteFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The note folder content class.
 

@@ -18,7 +18,7 @@ public abstract bool Equals(PropertyDescriptor other)
 | --- | --- | --- |
 | other | PropertyDescriptor | An object to compare with this object. |
 
-## Return Value
+### Return Value
 
 true if the current object is equal to the other parameter; otherwise, false.
 

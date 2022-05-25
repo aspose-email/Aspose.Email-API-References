@@ -19,7 +19,7 @@ public static ImapMessageFlags BitwiseOr(ImapMessageFlags a, ImapMessageFlags b)
 | a | ImapMessageFlags | First set of imap message flags. |
 | b | ImapMessageFlags | Second set of imap message flags. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 
@@ -44,7 +44,7 @@ public static ImapMessageFlags BitwiseOr(ImapMessageFlags a, string b)
 | a | ImapMessageFlags | First set of imap message flags. |
 | b | String | Second set of imap message flags. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 
@@ -69,7 +69,7 @@ public static ImapMessageFlags BitwiseOr(string a, ImapMessageFlags b)
 | a | String | First set of imap message flags. |
 | b | ImapMessageFlags | Second set of imap message flags. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 

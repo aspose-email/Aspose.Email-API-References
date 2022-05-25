@@ -18,7 +18,7 @@ public FolderInfo GetPredefinedFolder(StandardIpmFolder defaultFolder)
 | --- | --- | --- |
 | defaultFolder | StandardIpmFolder | The value of [`StandardIpmFolder`](../../standardipmfolder) enumeration. |
 
-## Return Value
+### Return Value
 
 A [`FolderInfo`](../../folderinfo) object that represents a standard IPM folder.
 

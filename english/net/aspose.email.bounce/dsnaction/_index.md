@@ -14,7 +14,7 @@ Indicates the action performed by the Reporting-MTA as a result of its attempt t
 public enum DSNAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 public IEnumerable<OlmMessageInfo> EnumerateMessages()
 ```
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 
@@ -40,7 +40,7 @@ public IEnumerable<OlmMessageInfo> EnumerateMessages(int startIndex, int count)
 | startIndex | Int32 | The start message index. |
 | count | Int32 | The number of messages that will be retrieved. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 
@@ -76,7 +76,7 @@ public IEnumerable<OlmMessageInfo> EnumerateMessages(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 

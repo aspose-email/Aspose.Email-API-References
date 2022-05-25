@@ -19,7 +19,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to be selected |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -46,7 +46,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 | folderName | String | Folder to be selected |
 | readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -71,7 +71,7 @@ public Task SelectFolderAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to be selected |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -96,7 +96,7 @@ public Task SelectFolderAsync(string folderName, bool? readOnly)
 | folderName | String | Folder to be selected |
 | readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -122,7 +122,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, Cancell
 | folderName | String | Folder to be selected |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -151,7 +151,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 | readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -177,7 +177,7 @@ public Task SelectFolderAsync(string folderName, CancellationToken token)
 | folderName | String | Folder to be selected |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -203,7 +203,7 @@ public Task SelectFolderAsync(string folderName, bool? readOnly, CancellationTok
 | readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -22,7 +22,7 @@ public Task<IEnumerable<MapiContact>> ListContactsAsync(string folderUri,
 | mapiProperties | IEnumerable`1 | Required additional mapi properties. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 An array of read [`MapiContact`](../../../aspose.email.mapi/mapicontact) that represents contact information.
 

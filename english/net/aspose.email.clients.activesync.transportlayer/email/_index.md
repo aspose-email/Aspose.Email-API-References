@@ -14,7 +14,7 @@ Email namespace of the ActiveSync protocol
 public enum Email
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

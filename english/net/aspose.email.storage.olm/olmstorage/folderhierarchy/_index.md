@@ -14,7 +14,7 @@ Gets the folder hierarchy.
 public List<OlmFolder> FolderHierarchy { get; }
 ```
 
-## Property Value
+### Property Value
 
 The folder hierarchy.
 

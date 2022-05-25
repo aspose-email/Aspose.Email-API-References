@@ -19,7 +19,7 @@ public MessageTrackingReportInfo[] FindMessageTrackingReport(
 | --- | --- | --- |
 | options | FindMessageTrackingReportOptions | Options specifying a search criteria |
 
-## Return Value
+### Return Value
 
 An array of [`MessageTrackingReportInfo`](../../messagetrackingreportinfo) that represents message tracking report information
 

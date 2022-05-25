@@ -18,7 +18,7 @@ public InboxRule FetchRule(string itemId)
 | --- | --- | --- |
 | itemId | String | Item id |
 
-## Return Value
+### Return Value
 
 Inbox rule
 

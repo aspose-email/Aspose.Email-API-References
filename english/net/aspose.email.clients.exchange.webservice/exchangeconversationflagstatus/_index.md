@@ -14,7 +14,7 @@ Enumerates the flag status for conversation.
 public enum ExchangeConversationFlagStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ The following table provides the numeric codes that correspond to the ActiveSync
 public enum CommandCodes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

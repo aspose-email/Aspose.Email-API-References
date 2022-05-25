@@ -18,7 +18,7 @@ public bool Load(string fileName)
 | --- | --- | --- |
 | fileName | String | The name of .pst file. |
 
-## Return Value
+### Return Value
 
 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
 
@@ -48,7 +48,7 @@ public bool Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The System.IO.Stream. |
 
-## Return Value
+### Return Value
 
 'true' if the file has been loaded successfully and further traversal is possible; otherwise, false.
 

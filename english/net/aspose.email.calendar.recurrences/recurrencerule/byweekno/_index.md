@@ -14,7 +14,7 @@ Gets the by week no.
 public ByNumberCollection ByWeekNo { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by week no.
 

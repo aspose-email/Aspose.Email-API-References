@@ -14,7 +14,7 @@ Gets the string that represents the EntryId of the added message.
 public string EntryId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The entry id.
 

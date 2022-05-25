@@ -18,7 +18,7 @@ public ResolveRecipientsResponse ResolveRecipients(ResolveRecipientsRequest requ
 | --- | --- | --- |
 | request | ResolveRecipientsRequest | ResolveRecipients operation parameters |
 
-## Return Value
+### Return Value
 
 Returns ResolveRecipients operation result
 

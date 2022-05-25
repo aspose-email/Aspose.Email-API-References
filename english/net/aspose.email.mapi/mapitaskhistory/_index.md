@@ -14,7 +14,7 @@ Indicates the type of change that was last made to the Task object.
 public enum MapiTaskHistory
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

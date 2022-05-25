@@ -14,7 +14,7 @@ Gets or sets the transfer encoding.
 public TransferEncoding TransferEncoding { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The transfer encoding.
 

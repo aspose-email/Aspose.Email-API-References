@@ -14,7 +14,7 @@ Gets the unique identifier for a group entry
 public string Id { get; }
 ```
 
-## Property Value
+### Property Value
 
 string that represents an unique identifier
 

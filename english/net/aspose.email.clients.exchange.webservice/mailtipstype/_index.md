@@ -15,7 +15,7 @@ Enumerates the types of mail tips
 public enum MailTipsType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -15,7 +15,7 @@ Enumerates the individual bit flags that specify information about TimeZoneRule
 public enum MapiCalendarTimeZoneFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

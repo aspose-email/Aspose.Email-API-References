@@ -14,7 +14,7 @@ Gets the sub storages.
 public MapiPropertyCollection SubStorages { get; }
 ```
 
-## Property Value
+### Property Value
 
 The sub storages.
 

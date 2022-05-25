@@ -14,7 +14,7 @@ Gets folders that created by user, i.e. excludes all standard IPM folders.
 public BoolComparisonField OnlyFoldersCreatedByUser { get; }
 ```
 
-## Property Value
+### Property Value
 
 The[`BoolComparisonField`](../../../aspose.email.tools.search/boolcomparisonfield) that represents search field.
 

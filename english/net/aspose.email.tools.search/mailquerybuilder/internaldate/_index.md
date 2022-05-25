@@ -14,7 +14,7 @@ Gets the field that allows to find messages by internal date.
 public DateComparisonField InternalDate { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`DateComparisonField`](../../datecomparisonfield) that represents internal date search field.
 

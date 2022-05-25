@@ -14,7 +14,7 @@ Specifies the use of Bluetooth on the device.
 public enum AllowBluetooth
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

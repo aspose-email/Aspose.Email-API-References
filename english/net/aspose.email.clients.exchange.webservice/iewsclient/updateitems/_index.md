@@ -19,7 +19,7 @@ public ExchangeUploadItemResult[] UpdateItems(ExchangeStreamedItem[] items, stri
 | items | ExchangeStreamedItem[] | An items to be updated |
 | parentFolderUri | String | Specifies the folder that contains the items to update |
 
-## Return Value
+### Return Value
 
 An array of [`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
 

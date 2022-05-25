@@ -14,7 +14,7 @@ Gets the item properties that has been moved.
 public MapiPropertyCollection ItemProperties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message.
 

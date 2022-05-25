@@ -19,7 +19,7 @@ public Task CommitDeletesAsync(string startUid, string endUid)
 | startUid | String | The starting UID of a message list |
 | endUid | String | The ending UID of a message list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -44,7 +44,7 @@ public Task CommitDeletesAsync(IConnection connection, IEnumerable<string> uidSe
 | connection | IConnection | Connection to a server |
 | uidSet | IEnumerable`1 | Set of unique identifiers for messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -70,7 +70,7 @@ public Task CommitDeletesAsync(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The uid of a message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -97,7 +97,7 @@ public Task CommitDeletesAsync(IConnection connection, string startUid, string e
 | startUid | String | The starting UID of a message list |
 | endUid | String | The ending UID of a message list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -123,7 +123,7 @@ public Task CommitDeletesAsync(IConnection connection, CancellationToken token)
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -150,7 +150,7 @@ public Task CommitDeletesAsync(IConnection connection, int sleep, CancellationTo
 | sleep | Int32 | Wait time complete the operation in milliseconds |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -175,7 +175,7 @@ public Task CommitDeletesAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -200,7 +200,7 @@ public Task CommitDeletesAsync(int sleep, CancellationToken token)
 | sleep | Int32 | Wait time complete the operation in milliseconds |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -225,7 +225,7 @@ public Task CommitDeletesAsync(IEnumerable<string> uidSet, CancellationToken tok
 | uidSet | IEnumerable`1 | Set of unique identifiers for messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -250,7 +250,7 @@ public Task CommitDeletesAsync(string uniqueId, CancellationToken token)
 | uniqueId | String | The uid of a message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -276,7 +276,7 @@ public Task CommitDeletesAsync(string startUid, string endUid, CancellationToken
 | endUid | String | The ending UID of a message list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -303,7 +303,7 @@ public Task CommitDeletesAsync(IConnection connection, IEnumerable<string> uidSe
 | uidSet | IEnumerable`1 | Set of unique identifiers for messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -330,7 +330,7 @@ public Task CommitDeletesAsync(IConnection connection, string uniqueId, Cancella
 | uniqueId | String | The uid of a message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -359,7 +359,7 @@ public Task CommitDeletesAsync(IConnection connection, string startUid, string e
 | endUid | String | The ending UID of a message list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -384,7 +384,7 @@ public Task CommitDeletesAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -410,7 +410,7 @@ public Task CommitDeletesAsync(IConnection connection, int sleep)
 | connection | IConnection | Connection to a server |
 | sleep | Int32 | Wait time complete the operation in milliseconds |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -431,7 +431,7 @@ Commit the deletions
 public Task CommitDeletesAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -455,7 +455,7 @@ public Task CommitDeletesAsync(int sleep)
 | --- | --- | --- |
 | sleep | Int32 | Wait time complete the operation in milliseconds |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -479,7 +479,7 @@ public Task CommitDeletesAsync(IEnumerable<string> uidSet)
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Set of unique identifiers for messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -503,7 +503,7 @@ public Task CommitDeletesAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The uid of a message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

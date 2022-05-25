@@ -18,7 +18,7 @@ public ExtendedCalendar FetchCalendar(string calendarId)
 | --- | --- | --- |
 | calendarId | String | Calendar identifier. |
 
-## Return Value
+### Return Value
 
 Returns fetched calendar.
 

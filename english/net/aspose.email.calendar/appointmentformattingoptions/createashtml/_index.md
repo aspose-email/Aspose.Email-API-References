@@ -14,7 +14,7 @@ Specifies formatting in the html.
 public static AppointmentFormattingOptions CreateAsHtml()
 ```
 
-## Return Value
+### Return Value
 
 [`AppointmentFormattingOptions`](../../appointmentformattingoptions) that represents appointment formatting options.
 

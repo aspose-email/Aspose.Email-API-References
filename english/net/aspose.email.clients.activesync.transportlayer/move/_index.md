@@ -14,7 +14,7 @@ Move namespace of the ActiveSync protocol
 public enum Move
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

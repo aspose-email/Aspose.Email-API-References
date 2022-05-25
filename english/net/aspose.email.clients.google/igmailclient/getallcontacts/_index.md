@@ -14,7 +14,7 @@ Fetches all contacts.
 public Contact[] GetAllContacts()
 ```
 
-## Return Value
+### Return Value
 
 Contacts array
 

@@ -14,7 +14,7 @@ Retrieves unified messaging configuration
 public UnifiedMessagingConfiguration GetUMConfiguration()
 ```
 
-## Return Value
+### Return Value
 
 Returns unified messaging configuration
 

@@ -18,7 +18,7 @@ public static string ParseName(string name)
 | --- | --- | --- |
 | name | String | File name extension |
 
-## Return Value
+### Return Value
 
 Returns media type name
 

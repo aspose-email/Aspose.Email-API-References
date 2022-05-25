@@ -14,7 +14,7 @@ Gets collection of subfolders.
 public FolderInfoCollection GetSubFolders()
 ```
 
-## Return Value
+### Return Value
 
 The FolderInfo collection.
 
@@ -39,7 +39,7 @@ public FolderInfoCollection GetSubFolders(FolderKind kind)
 | --- | --- | --- |
 | kind | FolderKind | The [`FolderKind`](../../folderkind) that represents kind of folder. |
 
-## Return Value
+### Return Value
 
 The FolderInfo collection.
 
@@ -65,7 +65,7 @@ public FolderInfoCollection GetSubFolders(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 
-## Return Value
+### Return Value
 
 The FolderInfo collection.
 

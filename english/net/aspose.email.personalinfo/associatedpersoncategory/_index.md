@@ -53,25 +53,25 @@ public class AssociatedPersonCategory : IEquatable<AssociatedPersonCategory>
 | [operator ==](../../aspose.email.personalinfo/associatedpersoncategory/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/associatedpersoncategory/op_inequality) | Determines whether the specified objects are not equal. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [AssistantValue](assistantvalue) | String value for 'Assistant' category |
-| const [BrotherValue](brothervalue) | String value for 'Brother' category |
-| const [ChildValue](childvalue) | String value for 'Child' category |
-| const [CustomValue](customvalue) | String value for 'Custom' category |
-| const [DomesticPartnerValue](domesticpartnervalue) | String value for 'DomesticPartner' category |
-| const [FatherValue](fathervalue) | String value for 'Father' category |
-| const [FriendValue](friendvalue) | String value for 'Friend' category |
-| const [ManagerValue](managervalue) | String value for 'Manager' category |
-| const [MotherValue](mothervalue) | String value for 'Mother' category |
-| const [ParentValue](parentvalue) | String value for 'Parent' category |
-| const [PartnerValue](partnervalue) | String value for 'Partner' category |
-| const [ReferredByValue](referredbyvalue) | String value for 'ReferredBy' category |
-| const [RelativeValue](relativevalue) | String value for 'Relative' category |
-| const [SisterValue](sistervalue) | String value for 'Sister' category |
-| const [SpouseValue](spousevalue) | String value for 'Spouse' category |
+| const [AssistantValue](../../aspose.email.personalinfo/associatedpersoncategory/assistantvalue) | String value for 'Assistant' category |
+| const [BrotherValue](../../aspose.email.personalinfo/associatedpersoncategory/brothervalue) | String value for 'Brother' category |
+| const [ChildValue](../../aspose.email.personalinfo/associatedpersoncategory/childvalue) | String value for 'Child' category |
+| const [CustomValue](../../aspose.email.personalinfo/associatedpersoncategory/customvalue) | String value for 'Custom' category |
+| const [DomesticPartnerValue](../../aspose.email.personalinfo/associatedpersoncategory/domesticpartnervalue) | String value for 'DomesticPartner' category |
+| const [FatherValue](../../aspose.email.personalinfo/associatedpersoncategory/fathervalue) | String value for 'Father' category |
+| const [FriendValue](../../aspose.email.personalinfo/associatedpersoncategory/friendvalue) | String value for 'Friend' category |
+| const [ManagerValue](../../aspose.email.personalinfo/associatedpersoncategory/managervalue) | String value for 'Manager' category |
+| const [MotherValue](../../aspose.email.personalinfo/associatedpersoncategory/mothervalue) | String value for 'Mother' category |
+| const [ParentValue](../../aspose.email.personalinfo/associatedpersoncategory/parentvalue) | String value for 'Parent' category |
+| const [PartnerValue](../../aspose.email.personalinfo/associatedpersoncategory/partnervalue) | String value for 'Partner' category |
+| const [ReferredByValue](../../aspose.email.personalinfo/associatedpersoncategory/referredbyvalue) | String value for 'ReferredBy' category |
+| const [RelativeValue](../../aspose.email.personalinfo/associatedpersoncategory/relativevalue) | String value for 'Relative' category |
+| const [SisterValue](../../aspose.email.personalinfo/associatedpersoncategory/sistervalue) | String value for 'Sister' category |
+| const [SpouseValue](../../aspose.email.personalinfo/associatedpersoncategory/spousevalue) | String value for 'Spouse' category |
 
 ### See Also
 

@@ -14,7 +14,7 @@ Gets array of calendars.
 public ExtendedCalendar[] ListCalendars()
 ```
 
-## Return Value
+### Return Value
 
 Returns array of calendars.
 
@@ -40,7 +40,7 @@ public ExtendedCalendar[] ListCalendars(AccessRole minAccessRole, bool showHidde
 | minAccessRole | AccessRole | The effective access role that the authenticated user has on the calendar. |
 | showHidden | Boolean | Show hidden calendars |
 
-## Return Value
+### Return Value
 
 Returns array of calendars.
 

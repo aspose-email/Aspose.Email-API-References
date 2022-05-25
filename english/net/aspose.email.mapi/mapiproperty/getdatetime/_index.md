@@ -14,7 +14,7 @@ Gets the first bytes of the binary data as datetime.
 public virtual DateTime GetDateTime()
 ```
 
-## Return Value
+### Return Value
 
 The datetime value.
 

@@ -18,7 +18,7 @@ public bool ExistFolder(string folderName)
 | --- | --- | --- |
 | folderName | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Returns true if the folder is existing, otherwise returns false
 
@@ -43,7 +43,7 @@ public bool ExistFolder(string folderName, out ImapFolderInfo folderInfo)
 | folderName | String | Name of the folder |
 | folderInfo | ImapFolderInfo& | Folder information |
 
-## Return Value
+### Return Value
 
 Returns true if the folder is existing, otherwise returns false
 
@@ -69,7 +69,7 @@ public bool ExistFolder(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Returns true if the folder is existing, otherwise returns false
 
@@ -96,7 +96,7 @@ public bool ExistFolder(IConnection connection, string folderName, out ImapFolde
 | folderName | String | Name of the folder |
 | folderInfo | ImapFolderInfo& | Folder information |
 
-## Return Value
+### Return Value
 
 Returns true if the folder is existing, otherwise returns false
 

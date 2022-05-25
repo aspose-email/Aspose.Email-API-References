@@ -18,7 +18,7 @@ public bool Contains(PropertyDescriptor item)
 | --- | --- | --- |
 | item | PropertyDescriptor | The object to locate in the System.Collections.Generic.ICollection. |
 
-## Return Value
+### Return Value
 
 true if item is found in the System.Collections.Generic.ICollection; otherwise, false.
 

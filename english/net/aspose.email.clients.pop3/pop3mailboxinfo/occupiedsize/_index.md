@@ -14,7 +14,7 @@ Gets the occupied size of the mailbox.
 public long OccupiedSize { get; }
 ```
 
-## Property Value
+### Property Value
 
 The occupied size.
 

@@ -19,7 +19,7 @@ public Stream GetStream(string address, int port)
 | address | String | The domain name of the host we want to contact |
 | port | Int32 | The port number of the host we want to contact |
 
-## Return Value
+### Return Value
 
 Returns configure network stream to connect with required host through the proxy server.
 

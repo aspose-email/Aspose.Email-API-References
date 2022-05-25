@@ -18,7 +18,7 @@ public MapiMessage FetchItem(string uri)
 | --- | --- | --- |
 | uri | String | The item URI. |
 
-## Return Value
+### Return Value
 
 [`MapiMessage`](../../../aspose.email.mapi/mapimessage) object.
 
@@ -48,7 +48,7 @@ public MapiMessage FetchItem(string uri, IEnumerable<PropertyDescriptor> extende
 | uri | String | The item URI. |
 | extendedProperties | IEnumerable`1 | Specified properties to retrieve. |
 
-## Return Value
+### Return Value
 
 [`MapiMessage`](../../../aspose.email.mapi/mapimessage) object.
 

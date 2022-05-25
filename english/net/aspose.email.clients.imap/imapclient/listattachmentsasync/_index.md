@@ -19,7 +19,7 @@ public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumbe
 | --- | --- |
 | sequenceNumber | The message sequence number. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -44,7 +44,7 @@ public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumbe
 | --- | --- | --- |
 | sequenceNumber | Int32 | The message sequence number. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

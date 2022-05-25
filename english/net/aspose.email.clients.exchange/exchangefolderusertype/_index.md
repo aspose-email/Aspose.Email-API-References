@@ -14,7 +14,7 @@ Enumerates the distinguished user accounts
 public enum ExchangeFolderUserType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

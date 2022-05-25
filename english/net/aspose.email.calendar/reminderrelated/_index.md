@@ -14,7 +14,7 @@ Specify the relationship of the alarm trigger with respect to the start or end o
 public enum ReminderRelated
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

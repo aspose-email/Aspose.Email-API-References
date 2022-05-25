@@ -14,7 +14,7 @@ Gets or sets the original start date.
 public DateTime OriginalStartDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The original start date.
 

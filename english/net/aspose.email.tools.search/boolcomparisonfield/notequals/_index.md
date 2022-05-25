@@ -18,7 +18,7 @@ public MailQuery NotEquals(bool value)
 | --- | --- | --- |
 | value | Boolean | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

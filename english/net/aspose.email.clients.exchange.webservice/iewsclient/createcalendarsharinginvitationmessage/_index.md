@@ -18,7 +18,7 @@ public MapiMessage CreateCalendarSharingInvitationMessage(string recipient)
 | --- | --- | --- |
 | recipient | String | A recipient's address. |
 
-## Return Value
+### Return Value
 
 A [`MapiMessage`](../../../aspose.email.mapi/mapimessage) that represents sharing invitation message.
 

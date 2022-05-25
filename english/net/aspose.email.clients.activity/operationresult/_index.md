@@ -14,7 +14,7 @@ Types of operation result
 public enum OperationResult
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

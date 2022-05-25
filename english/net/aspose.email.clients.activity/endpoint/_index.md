@@ -14,7 +14,7 @@ Types of Sway client endpoint for the triggered event.
 public enum Endpoint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

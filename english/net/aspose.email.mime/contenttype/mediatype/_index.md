@@ -14,7 +14,7 @@ Gets or sets the internet media type.
 public string MediaType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A String that contains the media type.
 

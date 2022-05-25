@@ -21,7 +21,7 @@ public Task<string> CreateAppointmentAsync(Appointment appointment, string folde
 | folderUri | String | An uri of appointments parent folder. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns appointment UID
 

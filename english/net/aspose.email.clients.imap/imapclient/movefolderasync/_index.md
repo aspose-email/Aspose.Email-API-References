@@ -19,7 +19,7 @@ public Task MoveFolderAsync(string newParentFolder, string folderName)
 | newParentFolder | String | New location for moved folder |
 | folderName | String | Folder to move |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task MoveFolderAsync(IConnection connection, string newParentFolder, stri
 | newParentFolder | String | New location for moved folder |
 | folderName | String | Folder to move |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -72,7 +72,7 @@ public Task MoveFolderAsync(string newParentFolder, string folderName, Cancellat
 | folderName | String | Folder to move |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -100,7 +100,7 @@ public Task MoveFolderAsync(IConnection connection, string newParentFolder, stri
 | folderName | String | Folder to move |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

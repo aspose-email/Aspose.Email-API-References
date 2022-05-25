@@ -18,7 +18,7 @@ public InboxRule CreateRule(InboxRule rule)
 | --- | --- | --- |
 | rule | InboxRule | Rule to be created in inbox |
 
-## Return Value
+### Return Value
 
 Created rule
 

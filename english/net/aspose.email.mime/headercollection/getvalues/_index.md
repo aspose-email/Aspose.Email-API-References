@@ -18,7 +18,7 @@ public string[] GetValues(string name)
 | --- | --- | --- |
 | name | String | The header name. |
 
-## Return Value
+### Return Value
 
 The collection of header values.
 

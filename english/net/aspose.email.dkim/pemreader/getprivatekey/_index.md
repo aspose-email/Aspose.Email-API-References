@@ -18,7 +18,7 @@ public static RSACryptoServiceProvider GetPrivateKey(Stream pem)
 | --- | --- | --- |
 | pem | Stream | Stream to read from. |
 
-## Return Value
+### Return Value
 
 Certificate that was read.
 
@@ -42,7 +42,7 @@ public static RSACryptoServiceProvider GetPrivateKey(string path)
 | --- | --- | --- |
 | path | String | Path to file to read from. |
 
-## Return Value
+### Return Value
 
 Certificate that was read.
 

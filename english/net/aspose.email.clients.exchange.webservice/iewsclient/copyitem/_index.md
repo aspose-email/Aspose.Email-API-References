@@ -19,7 +19,7 @@ public string CopyItem(string itemUri, string destinationFolderUri)
 | itemUri | String | The item URI |
 | destinationFolderUri | String | The destination folder URI |
 
-## Return Value
+### Return Value
 
 An uri of the copied message
 

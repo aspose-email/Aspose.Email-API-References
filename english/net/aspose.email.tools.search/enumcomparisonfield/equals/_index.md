@@ -18,7 +18,7 @@ public MailQuery Equals(Enum value)
 | --- | --- | --- |
 | value | Enum | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

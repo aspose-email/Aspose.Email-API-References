@@ -14,7 +14,7 @@ Specifies a type of comparison
 public enum DateComparisonType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

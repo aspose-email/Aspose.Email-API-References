@@ -18,7 +18,7 @@ public static Status GetStatus(int statusCode)
 | --- | --- | --- |
 | statusCode | Int32 | Contains status code |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 
@@ -43,7 +43,7 @@ public static Status GetStatus(CommandCodes commandCode, string statusCode)
 | commandCode | CommandCodes | Specifies ActiveSync command code. |
 | statusCode | String | Contains status code |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 
@@ -69,7 +69,7 @@ public static Status GetStatus(CommandCodes commandCode, int statusCode)
 | commandCode | CommandCodes | Specifies ActiveSync command code. |
 | statusCode | Int32 | Contains status code |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 
@@ -96,7 +96,7 @@ public static Status GetStatus(CommandCodes commandCode, string statusCode, int 
 | statusCode | String | Contains status code |
 | subCategory | Int32 | Specifies subcategory for status |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 
@@ -123,7 +123,7 @@ public static Status GetStatus(CommandCodes commandCode, int statusCode, int sub
 | statusCode | Int32 | Contains status code |
 | subCategory | Int32 | Specifies subcategory for status |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 

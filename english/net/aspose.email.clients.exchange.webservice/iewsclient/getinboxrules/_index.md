@@ -14,7 +14,7 @@ Gets inbox rules
 public InboxRule[] GetInboxRules()
 ```
 
-## Return Value
+### Return Value
 
 An array of [`InboxRule`](../../../aspose.email.clients.exchange/inboxrule)
 
@@ -39,7 +39,7 @@ public InboxRule[] GetInboxRules(string mailbox)
 | --- | --- | --- |
 | mailbox | String | A mailbox to read inbox rule from. Note: if it is set to `null` or `empty`, the rules will be read from the default mailbox |
 
-## Return Value
+### Return Value
 
 An array of [`InboxRule`](../../../aspose.email.clients.exchange/inboxrule)
 

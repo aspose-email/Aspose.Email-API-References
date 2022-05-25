@@ -18,7 +18,7 @@ public string CreateTask(ExchangeTask task)
 | --- | --- | --- |
 | task | ExchangeTask | A task to create. |
 
-## Return Value
+### Return Value
 
 A task uri
 
@@ -50,7 +50,7 @@ public string CreateTask(string folder, ExchangeTask task)
 | folder | String | A folder where task should be created. |
 | task | ExchangeTask | A task to create. |
 
-## Return Value
+### Return Value
 
 A task uri
 

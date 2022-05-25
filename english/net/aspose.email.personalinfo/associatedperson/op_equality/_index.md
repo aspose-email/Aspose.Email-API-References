@@ -19,7 +19,7 @@ public static bool operator ==(AssociatedPerson a, AssociatedPerson b)
 | a | AssociatedPerson | First object to compare |
 | b | AssociatedPerson | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise false.
 

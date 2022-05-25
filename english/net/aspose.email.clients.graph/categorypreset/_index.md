@@ -14,7 +14,7 @@ A pre-set color enumeration that characterizes a categories, and that is mapped 
 public enum CategoryPreset
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

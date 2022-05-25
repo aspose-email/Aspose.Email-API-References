@@ -14,7 +14,7 @@ Ping namespace of the ActiveSync protocol
 public enum Ping
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

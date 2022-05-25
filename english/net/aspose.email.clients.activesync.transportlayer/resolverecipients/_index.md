@@ -14,7 +14,7 @@ ResolveRecipients namespace of the ActiveSync protocol
 public enum ResolveRecipients
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

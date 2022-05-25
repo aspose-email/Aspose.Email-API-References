@@ -19,7 +19,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -44,7 +44,7 @@ public Task<long> GetMessageSizeAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -69,7 +69,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, int sequenceNumber
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -94,7 +94,7 @@ public Task<long> GetMessageSizeAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -121,7 +121,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, string uniqueId,
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -147,7 +147,7 @@ public Task<long> GetMessageSizeAsync(string uniqueId, CancellationToken token)
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -174,7 +174,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, int sequenceNumber
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -200,7 +200,7 @@ public Task<long> GetMessageSizeAsync(int sequenceNumber, CancellationToken toke
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

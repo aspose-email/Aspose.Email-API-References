@@ -14,7 +14,7 @@ Represents enumeration of special-use mailboxes More details see in RFC6154 http
 public enum ImapSpecialFolderTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

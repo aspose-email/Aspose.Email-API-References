@@ -14,7 +14,7 @@ Specifies the algorithm used when signing S/MIME messages.
 public enum SignedSMIMEAlgorithm
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public virtual bool Equals(CalendarRecurrence other)
 | --- | --- | --- |
 | other | CalendarRecurrence | The [`CalendarRecurrence`](../../calendarrecurrence) to compare with this instance. |
 
-## Return Value
+### Return Value
 
 `true` if the specified [`CalendarRecurrence`](../../calendarrecurrence) is equal to this instance; otherwise, `false`.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to compare with the current Object. |
 
-## Return Value
+### Return Value
 
 Returns a boolean indicating if the passed in object obj is Equal to this.
 

@@ -14,7 +14,7 @@ Gets the current folder
 public ImapFolderInfo CurrentFolder { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 ImapFolderInfo that represents current folder
 

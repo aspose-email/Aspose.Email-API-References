@@ -14,7 +14,7 @@ Gets the The urn:content-classes:calendarfolder content class that defines a set
 public static ContentClassType CalendarFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The calendar folder content calss.
 

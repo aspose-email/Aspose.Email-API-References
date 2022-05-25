@@ -14,7 +14,7 @@ Contains a values that indicates the message importance.
 public enum MapiImportance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Source stream. |
 
-## Return Value
+### Return Value
 
 The result [`FileFormatInfo`](../../../aspose.email/fileformatinfo)
 
@@ -43,7 +43,7 @@ public static FileFormatInfo DetectFileFormat(string filePath)
 | --- | --- | --- |
 | filePath | String | Path to the source file. |
 
-## Return Value
+### Return Value
 
 The result [`FileFormatInfo`](../../../aspose.email/fileformatinfo)
 

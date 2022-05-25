@@ -14,7 +14,7 @@ The file malware verdict.
 public enum FileVerdict
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

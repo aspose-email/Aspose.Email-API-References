@@ -18,7 +18,7 @@ public static implicit operator int(Status status)
 | --- | --- | --- |
 | status | Status | Object to convert. |
 
-## Return Value
+### Return Value
 
 Returns status code value.
 

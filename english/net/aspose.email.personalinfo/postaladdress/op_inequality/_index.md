@@ -19,7 +19,7 @@ public static bool operator !=(PostalAddress a, PostalAddress b)
 | a | PostalAddress | First object to compare |
 | b | PostalAddress | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are not equal, otherwise false.
 

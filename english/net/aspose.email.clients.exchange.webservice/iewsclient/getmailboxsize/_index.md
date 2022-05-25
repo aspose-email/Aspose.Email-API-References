@@ -14,7 +14,7 @@ Gets the size of the mailbox. Please, note this operation is performed recursive
 public long GetMailboxSize()
 ```
 
-## Return Value
+### Return Value
 
 size of the mailbox in bytes
 

@@ -14,7 +14,7 @@ Enumerates the permissions levels which a delegate user can have on folder
 public enum ExchangeDelegateFolderPermissionLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public FolderInfo GetParentFolder(string entryIdString)
 | --- | --- | --- |
 | entryIdString | String | String representation of Entry Id of message or folder. |
 
-## Return Value
+### Return Value
 
 The parent folder[`FolderInfo`](../../folderinfo) of message.
 
@@ -43,7 +43,7 @@ public FolderInfo GetParentFolder(byte[] entryId)
 | --- | --- | --- |
 | entryId | Byte[] | Entry Id of message or folder. |
 
-## Return Value
+### Return Value
 
 The parent folder[`FolderInfo`](../../folderinfo) of message.
 

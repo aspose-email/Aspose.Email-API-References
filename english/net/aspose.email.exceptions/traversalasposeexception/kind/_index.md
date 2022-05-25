@@ -14,7 +14,7 @@ Gets or sets the kind of failure.
 public TraversalFailureKind Kind { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`TraversalFailureKind`](../../traversalfailurekind) that can occur when traversing a storage.
 

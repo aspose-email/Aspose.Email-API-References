@@ -146,13 +146,6 @@ public sealed class SmtpClient : EmailClient, IMailTransferAgent
 | [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync)(IConnection) | Executes credentials validation |
 | [ValidateCredentialsAsync](../../aspose.email.clients.smtp/smtpclient/validatecredentialsasync)(IConnection, CancellationToken) | Executes credentials validation |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [FailedSending](failedsending) | Adds or removes subscriber for notifications about failed sending operations in smtp queue |
-| event [SucceededSending](succeededsending) | Adds or removes subscriber for notifications about succeeded sending of mail messages. Please note, notifications will be invoked from other threads, so you should to implement thread safe event handler. Also note that this event is common to the mail client instance, in case if the client is running in multi-connection mode, messages from all connections will be processed through this event. So the customer has to analyze in his code message from events to understand which message relates to which operation. |
-
 ### See Also
 
 * class [EmailClient](../../aspose.email.clients/emailclient)

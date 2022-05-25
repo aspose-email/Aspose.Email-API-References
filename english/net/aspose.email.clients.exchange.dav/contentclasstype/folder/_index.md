@@ -14,7 +14,7 @@ Gets the urn:content-classes:folder content class that defines a set of properti
 public static ContentClassType Folder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The folder content class.
 

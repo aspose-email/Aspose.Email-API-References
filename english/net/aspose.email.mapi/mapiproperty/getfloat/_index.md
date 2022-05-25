@@ -14,7 +14,7 @@ Gets the bytes of the binary data as float.
 public virtual float GetFloat()
 ```
 
-## Return Value
+### Return Value
 
 The double value.
 

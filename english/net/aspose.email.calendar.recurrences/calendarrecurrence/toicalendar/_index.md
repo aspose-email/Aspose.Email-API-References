@@ -14,7 +14,7 @@ To iCalendar string.
 public string ToiCalendar()
 ```
 
-## Return Value
+### Return Value
 
 StringString representation of RecurrencePattern.
 

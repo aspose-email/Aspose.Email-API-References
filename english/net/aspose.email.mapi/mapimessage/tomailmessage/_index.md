@@ -18,7 +18,7 @@ public MailMessage ToMailMessage(MailConversionOptions options)
 | --- | --- | --- |
 | options | MailConversionOptions | Allows to specify additional options when converting from MapiMessage to MailMessage. |
 
-## Return Value
+### Return Value
 
 Returns a MailMessage instance which is loaded from this MapiMessage.
 

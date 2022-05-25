@@ -14,7 +14,7 @@ Specifies the type of the folder that was updated (renamed or moved) or added on
 public enum FolderTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

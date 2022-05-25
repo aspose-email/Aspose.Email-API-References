@@ -18,7 +18,7 @@ public int IndexOf(InstantMessengerAddress value)
 | --- | --- | --- |
 | value | InstantMessengerAddress | The Object to locate in the list. |
 
-## Return Value
+### Return Value
 
 The index of *value* if found in the list; otherwise, -1.
 

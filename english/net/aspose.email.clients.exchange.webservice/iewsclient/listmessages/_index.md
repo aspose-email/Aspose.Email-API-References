@@ -18,7 +18,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder)
 | --- | --- | --- |
 | folder | String | The folder. |
 
-## Return Value
+### Return Value
 
 A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
@@ -45,7 +45,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 | folder | String | The folder. |
 | options | ExchangeListMessagesOptions | Specifies the settings of listing |
 
-## Return Value
+### Return Value
 
 A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
@@ -72,7 +72,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | folder | String | The folder. |
 | maxNumberOfMessages | Int32 | Maximum number of messages |
 
-## Return Value
+### Return Value
 
 A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
@@ -100,7 +100,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | maxNumberOfMessages | Int32 | Maximum number of messages |
 | options | ExchangeListMessagesOptions | Specifies the settings of listing |
 
-## Return Value
+### Return Value
 
 A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
@@ -128,7 +128,7 @@ public ExchangeMessageInfoCollection ListMessages(string mailbox, string folder,
 | folder | String | A folder to search messages in |
 | recursive | Boolean | Indicates whether recursive listing or not |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder
 
@@ -155,7 +155,7 @@ public ExchangeMessageInfoCollection ListMessages(string mailbox, string folder,
 | folder | String | A folder to search messages in. |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
@@ -182,7 +182,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, bool recursive)
 | folder | String | A folder to search messages in |
 | recursive | Boolean | Indicates whether recursive listing or not |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder
 
@@ -210,7 +210,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 | options | ExchangeListMessagesOptions | Specifies the settings of listing |
 | extendedProperties | IEnumerable`1 | Extended properties of retrieved messages |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder
 
@@ -238,7 +238,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | folder | String | A folder to search messages in. |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
@@ -266,7 +266,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
@@ -296,7 +296,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
@@ -322,7 +322,7 @@ public ExchangeMessageInfoCollection ListMessages(IEnumerable<string> iDs)
 | --- | --- | --- |
 | iDs | IEnumerable`1 | Enumeration of message ids |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages with.
 
@@ -343,7 +343,7 @@ List the messages in the inbox folder.
 public ExchangeMessageInfoCollection ListMessages()
 ```
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) from inbox folder.
 
@@ -371,7 +371,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | maxNumberOfMessages | Int32 | Maximum number of messages. |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents message search criteria. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 

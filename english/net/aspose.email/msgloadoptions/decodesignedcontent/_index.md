@@ -14,7 +14,7 @@ Gets or sets a value indicating whether signed message will be decoded.
 public bool DecodeSignedContent { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if signed message will be decoded; otherwise, `false`.
 

@@ -19,7 +19,7 @@ public string[] ListItems(string mailbox, string folder)
 | mailbox | String | The mailbox that is used to initialize the folder id class. |
 | folder | String | folder to search items |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -45,7 +45,7 @@ public string[] ListItems(string mailbox, string folder, MailQuery query)
 | folder | String | folder to search items |
 | query | MailQuery | Additional conditions to select items |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -73,7 +73,7 @@ public string[] ListItems(string mailbox, string folder, MailQuery query, bool r
 | query | MailQuery | Additional conditions to select items |
 | recursive | Boolean | Specifies whether request should be reqursive. |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -98,7 +98,7 @@ public string[] ListItems(string folder)
 | --- | --- | --- |
 | folder | String | folder to search items |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -123,7 +123,7 @@ public string[] ListItems(string folder, MailQuery query)
 | folder | String | folder to search items |
 | query | MailQuery | Additional conditions to select items |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -150,7 +150,7 @@ public string[] ListItems(string folder, MailQuery query, bool recursive)
 | query | MailQuery | Additional conditions to select items |
 | recursive | Boolean | Specifies whether request should be reqursive. |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 

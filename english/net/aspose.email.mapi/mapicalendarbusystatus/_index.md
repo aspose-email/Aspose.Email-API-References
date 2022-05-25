@@ -14,7 +14,7 @@ Enumerates the mapi calendar possible busy status
 public enum MapiCalendarBusyStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

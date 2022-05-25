@@ -14,7 +14,7 @@ Represents the address type of a personal distribution list member.
 public enum MapiDistributionListContactAddressType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

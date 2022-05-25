@@ -18,7 +18,7 @@ public UserConfiguration GetUserConfiguration(UserConfigurationName userConfigur
 | --- | --- | --- |
 | userConfigurationName | UserConfigurationName | Specifies a user configuration to search |
 
-## Return Value
+### Return Value
 
 A received [`UserConfiguration`](../../userconfiguration)
 

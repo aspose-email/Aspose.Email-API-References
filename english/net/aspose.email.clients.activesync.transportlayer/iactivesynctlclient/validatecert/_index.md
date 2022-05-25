@@ -18,7 +18,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate)
 | --- | --- | --- |
 | certificate | X509Certificate | Certificate that has to be validated. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -44,7 +44,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate, bool 
 | certificate | X509Certificate | Certificate that has to be validated. |
 | checkCrl | Boolean | Specifies whether the server SHOULD ignore an unverifiable revocation status. The revocation status of a certificate cannot be verified when the certificate revocation lists (CRLs) cannot be retrieved. When the CheckCRL value is set to TRUE, the server MUST NOT ignore an unverifiable revocation status. When the CheckCRL value is set to FALSE, the server SHOULD ignore an unverifiable revocation status. The default value is FALSE. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -71,7 +71,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate,
 | certificate | X509Certificate | Certificate that has to be validated. |
 | certificateChains | IEnumerable`1 | List of certificates to be validated. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -99,7 +99,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate,
 | certificateChains | IEnumerable`1 | List of certificates that have to be validated. |
 | checkCrl | Boolean | Specifies whether the server SHOULD ignore an unverifiable revocation status. The revocation status of a certificate cannot be verified when the certificate revocation lists (CRLs) cannot be retrieved. When the CheckCRL value is set to TRUE, the server MUST NOT ignore an unverifiable revocation status. When the CheckCRL value is set to FALSE, the server SHOULD ignore an unverifiable revocation status. The default value is FALSE. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -124,7 +124,7 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 | --- | --- | --- |
 | certificates | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -151,7 +151,7 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 | certificates | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 | checkCrl | Boolean | Specifies whether the server SHOULD ignore an unverifiable revocation status. The revocation status of a certificate cannot be verified when the certificate revocation lists (CRLs) cannot be retrieved. When the CheckCRL value is set to TRUE, the server MUST NOT ignore an unverifiable revocation status. When the CheckCRL value is set to FALSE, the server SHOULD ignore an unverifiable revocation status. The default value is FALSE. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -178,7 +178,7 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 | certificates | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 | certificateChains | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -206,7 +206,7 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 | certificateChains | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 | checkCrl | Boolean | Specifies whether the server SHOULD ignore an unverifiable revocation status. The revocation status of a certificate cannot be verified when the certificate revocation lists (CRLs) cannot be retrieved. When the CheckCRL value is set to TRUE, the server MUST NOT ignore an unverifiable revocation status. When the CheckCRL value is set to FALSE, the server SHOULD ignore an unverifiable revocation status. The default value is FALSE. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 

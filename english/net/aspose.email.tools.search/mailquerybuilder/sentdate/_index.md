@@ -14,7 +14,7 @@ Gets the field that allows to find messages by sent date.
 public DateComparisonField SentDate { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`DateComparisonField`](../../datecomparisonfield) that represents sent date search field.
 

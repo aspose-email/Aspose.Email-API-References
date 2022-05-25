@@ -14,7 +14,7 @@ Gets the Importance.
 public MapiImportance Importance { get; }
 ```
 
-## Property Value
+### Property Value
 
 The importance.
 

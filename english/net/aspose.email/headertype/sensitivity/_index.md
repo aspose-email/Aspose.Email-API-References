@@ -14,7 +14,7 @@ Gets the sensitivity.
 public static HeaderType Sensitivity { get; }
 ```
 
-## Property Value
+### Property Value
 
 The sensitivity.
 

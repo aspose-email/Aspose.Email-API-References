@@ -14,7 +14,7 @@ Indicates the item type that retrieval failed during the traversal.
 public enum FailureItem
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

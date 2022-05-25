@@ -15,7 +15,7 @@ Enumerates the list contacts options
 public enum ExchangeListContactsOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

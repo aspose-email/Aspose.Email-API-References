@@ -14,7 +14,7 @@ Gets the list of sub-folders.
 public List<OlmFolder> SubFolders { get; }
 ```
 
-## Property Value
+### Property Value
 
 The list of sub-folders.
 

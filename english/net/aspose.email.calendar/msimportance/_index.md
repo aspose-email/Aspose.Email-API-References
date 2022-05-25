@@ -14,7 +14,7 @@ Specifies the importance of an appointment.
 public enum MSImportance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

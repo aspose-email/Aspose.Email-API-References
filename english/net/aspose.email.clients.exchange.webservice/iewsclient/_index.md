@@ -310,23 +310,6 @@ public interface IEWSClient : IExchangeClientBase
 | [UpdateTask](../../aspose.email.clients.exchange.webservice/iewsclient/updatetask)(string, MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) | Updates the specified task. |
 | [UpdateUserConfiguration](../../aspose.email.clients.exchange.webservice/iewsclient/updateuserconfiguration)(UserConfiguration) | Updates the specified user configuration |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [CalendarFolderServerNotifications](calendarfolderservernotifications) | Occurs when arises specified event type for Calendar folder. |
-| event [ContactsFolderServerNotifications](contactsfolderservernotifications) | Occurs when arises specified event type for Contacts folder. |
-| event [DeletedItemsFolderServerNotifications](deleteditemsfolderservernotifications) | Occurs when arises specified event type for DeletedItems folder. |
-| event [DraftsFolderServerNotifications](draftsfolderservernotifications) | Occurs when arises specified event type for Drafts folder. |
-| event [InboxFolderServerNotifications](inboxfolderservernotifications) | Occurs when arises specified event type for Inbox folder. |
-| event [ItemSent](itemsent) | Raised when an item is sent and save in Sent Items folder. |
-| event [JournalFolderServerNotifications](journalfolderservernotifications) | Occurs when arises specified event type for Journal folder. |
-| event [NotesFolderServerNotifications](notesfolderservernotifications) | Occurs when arises specified event type for Notes folder. |
-| event [OutboxFolderServerNotifications](outboxfolderservernotifications) | Occurs when arises specified event type for Outbox folder. |
-| event [RootFolderServerNotifications](rootfolderservernotifications) | Occurs when arises specified event type for Root folder. |
-| event [SentItemsFolderServerNotifications](sentitemsfolderservernotifications) | Occurs when arises specified event type for SentItems folder. |
-| event [TasksFolderServerNotifications](tasksfolderservernotifications) | Occurs when arises specified event type for Tasks folder. |
-
 ### See Also
 
 * interface [IExchangeClientBase](../../aspose.email.clients.exchange/iexchangeclientbase)

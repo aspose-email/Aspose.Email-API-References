@@ -14,7 +14,7 @@ Gets the Currency as string using the specified code page.
 public virtual decimal GetCurrency()
 ```
 
-## Return Value
+### Return Value
 
 A string contains the binary data.
 

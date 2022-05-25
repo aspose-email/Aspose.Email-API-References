@@ -18,7 +18,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -45,7 +45,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 | connection | IConnection | Connection to a server |
 | parentFolder | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -72,7 +72,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, bool loadFul
 | connection | IConnection | Connection to a server |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -94,7 +94,7 @@ Gets the list of folders in the mailbox
 public ImapFolderInfoCollection ListFolders()
 ```
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -119,7 +119,7 @@ public ImapFolderInfoCollection ListFolders(string parentFolder)
 | --- | --- | --- |
 | parentFolder | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -144,7 +144,7 @@ public ImapFolderInfoCollection ListFolders(bool loadFullInfo)
 | --- | --- | --- |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -170,7 +170,7 @@ public ImapFolderInfoCollection ListFolders(string parentFolder, bool loadFullIn
 | parentFolder | String | Name of the folder |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -198,7 +198,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 | parentFolder | String | Name of the folder |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -228,7 +228,7 @@ public ImapFolderInfoCollection ListFolders(string parentFolder, bool loadFullIn
 | options | ListFoldersOptions | Options for operation |
 | returnOptions | ListFoldersReturnOptions | Return options for operation |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -260,7 +260,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 | options | ListFoldersOptions | Options for operation |
 | returnOptions | ListFoldersReturnOptions | Return options for operation |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 

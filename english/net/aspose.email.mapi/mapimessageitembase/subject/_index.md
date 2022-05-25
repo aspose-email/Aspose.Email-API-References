@@ -14,7 +14,7 @@ Gets or sets the subject of the message.
 public string Subject { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents message subject.
 

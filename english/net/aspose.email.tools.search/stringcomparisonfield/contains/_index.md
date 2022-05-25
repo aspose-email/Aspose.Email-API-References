@@ -18,7 +18,7 @@ public MailQuery Contains(string value)
 | --- | --- | --- |
 | value | String | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -44,7 +44,7 @@ public MailQuery Contains(string value, bool ignoreCase)
 | value | String | The value. |
 | ignoreCase | Boolean | true to ignore case during the comparison; otherwise, false. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

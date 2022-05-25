@@ -18,7 +18,7 @@ public ContactPhoto GetPhoto(ContactPhoto photo)
 | --- | --- | --- |
 | photo | ContactPhoto | ContactPhoto object with identifier |
 
-## Return Value
+### Return Value
 
 Returns a contact photo
 
@@ -43,7 +43,7 @@ public ContactPhoto GetPhoto(string photoUri)
 | --- | --- | --- |
 | photoUri | String | Uri of an image. |
 
-## Return Value
+### Return Value
 
 Returns a contact photo
 

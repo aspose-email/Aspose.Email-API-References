@@ -14,7 +14,7 @@ Gets or sets the credentials
 public virtual ICredentials Credentials { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 ICredentials
 

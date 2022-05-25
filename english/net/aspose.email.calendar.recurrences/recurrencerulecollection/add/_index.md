@@ -14,7 +14,7 @@ Adds a [`RecurrenceRule`](../../recurrencerule) to the collection.
 public RecurrenceRule Add()
 ```
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 
@@ -39,7 +39,7 @@ public int Add(RecurrenceRule rule)
 | --- | --- | --- |
 | rule | RecurrenceRule | The [`RecurrenceRule`](../../recurrencerule) to add. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 

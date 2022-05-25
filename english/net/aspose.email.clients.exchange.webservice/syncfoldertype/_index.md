@@ -15,7 +15,7 @@ Folder synchronization types
 public enum SyncFolderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

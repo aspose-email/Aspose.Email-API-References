@@ -14,7 +14,7 @@ The content type of message body.
 public enum BodyContentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

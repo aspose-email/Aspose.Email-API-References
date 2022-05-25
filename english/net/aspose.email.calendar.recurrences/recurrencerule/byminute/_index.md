@@ -14,7 +14,7 @@ Gets the by minute.
 public ByNumberCollection ByMinute { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by minute.
 

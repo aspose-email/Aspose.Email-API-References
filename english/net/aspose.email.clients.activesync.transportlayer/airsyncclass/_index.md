@@ -14,7 +14,7 @@ Identifies the class of the item. The following classes are supported for mailbo
 public enum AirsyncClass
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

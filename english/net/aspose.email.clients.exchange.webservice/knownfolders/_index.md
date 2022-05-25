@@ -15,7 +15,7 @@ Specifies the known Exchange server folders.
 public enum KnownFolders
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

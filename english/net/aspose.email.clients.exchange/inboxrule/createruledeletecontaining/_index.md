@@ -18,7 +18,7 @@ public static InboxRule CreateRuleDeleteContaining(string[] filter)
 | --- | --- | --- |
 | filter | String[] | A strings to search |
 
-## Return Value
+### Return Value
 
 A created [`InboxRule`](../../inboxrule)
 

@@ -14,7 +14,7 @@ Creates a new [`LogEntry`](../../logentry) that is a copy of the current instanc
 public LogEntry Clone()
 ```
 
-## Return Value
+### Return Value
 
 A new `LogEntry` that is a copy of the current instance.
 

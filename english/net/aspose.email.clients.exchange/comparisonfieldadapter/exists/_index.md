@@ -14,7 +14,7 @@ Get a search expression that returns true if the supplied property exists.
 public MailQuery Exists(bool value)
 ```
 
-## Return Value
+### Return Value
 
 A [`MailQuery`](../../../aspose.email.tools.search/mailquery) object that represents a search expression.
 

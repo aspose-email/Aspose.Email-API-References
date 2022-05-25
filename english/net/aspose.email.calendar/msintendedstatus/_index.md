@@ -14,7 +14,7 @@ Specifies the INTENDED status of an appointment.
 public enum MSIntendedStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

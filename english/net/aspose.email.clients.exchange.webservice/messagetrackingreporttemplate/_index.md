@@ -14,7 +14,7 @@ Enumerates the types of report to display.
 public enum MessageTrackingReportTemplate
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public PropertyDescriptor FindOrGetCurrent(PropertyDescriptor item)
 | --- | --- | --- |
 | item | PropertyDescriptor | Property descriptor to search |
 
-## Return Value
+### Return Value
 
 [`PropertyDescriptor`](../../propertydescriptor) object if found in the list; otherwise [`PropertyDescriptor`](../../propertydescriptor) object from parameter.
 

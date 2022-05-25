@@ -18,7 +18,7 @@ public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris)
 | --- | --- | --- |
 | taskUris | IEnumerable`1 | List of task uris to be fetched. |
 
-## Return Value
+### Return Value
 
 Fetch array of [`MapiTask`](../../../aspose.email.mapi/mapitask) objects.
 
@@ -45,7 +45,7 @@ public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris,
 | taskUris | IEnumerable`1 | List of task uris to be fetched. |
 | customProperties | IEnumerable`1 | Custom mapi properties to retrieve. |
 
-## Return Value
+### Return Value
 
 Fetch array of [`MapiTask`](../../../aspose.email.mapi/mapitask) objects.
 

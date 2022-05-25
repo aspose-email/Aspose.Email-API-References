@@ -14,7 +14,7 @@ Checks whether this message can be treated as a bounce message.
 public virtual BounceResult CheckBounced()
 ```
 
-## Return Value
+### Return Value
 
 Result of checking[`BounceResult`](../../../aspose.email.bounce/bounceresult).
 

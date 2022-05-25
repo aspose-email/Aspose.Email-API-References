@@ -14,7 +14,7 @@ Gets the name of the setting.
 public string SettingName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The name of the setting.
 

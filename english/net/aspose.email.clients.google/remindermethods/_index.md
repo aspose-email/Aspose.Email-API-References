@@ -14,7 +14,7 @@ The method used by this reminder.
 public enum ReminderMethods
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public string AddMessage(MapiMessage message)
 | --- | --- | --- |
 | message | MapiMessage | The message necessary to add. |
 
-## Return Value
+### Return Value
 
 The string that represents the EntryId of the added message.
 

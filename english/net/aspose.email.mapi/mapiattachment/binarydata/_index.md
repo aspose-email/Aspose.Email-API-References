@@ -14,7 +14,7 @@ Gets or sets binary attachment data.
 public byte[] BinaryData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The binary data.
 

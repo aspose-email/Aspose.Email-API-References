@@ -14,7 +14,7 @@ Gets the type of the property.
 public MapiType PropertyType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the property.
 

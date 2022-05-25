@@ -13,7 +13,7 @@ url: /net/aspose.email.clients.smtp/smtpknownauthenticationtype/
 public enum SmtpKnownAuthenticationType : long
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

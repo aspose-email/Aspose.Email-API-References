@@ -14,7 +14,7 @@ Gets or sets the recipient's e-mail address type.
 public string AddressType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the address.
 

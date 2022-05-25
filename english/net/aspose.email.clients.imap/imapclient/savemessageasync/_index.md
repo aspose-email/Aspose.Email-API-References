@@ -20,7 +20,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 | sequenceNumber | Int32 | The sequence number of the message |
 | resultStream | Stream | Stream that will receive the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -47,7 +47,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream res
 | uniqueId | String | The unique Id of the message |
 | resultStream | Stream | Stream that will receive the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -74,7 +74,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 | uniqueId | String | The unique Id of the message |
 | fileName | String | The path of the local file. This cannot be a directory |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -101,7 +101,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 | sequenceNumber | Int32 | The sequence number of the message |
 | fileName | String | The path of the local file. This cannot be a directory |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -127,7 +127,7 @@ public Task SaveMessageAsync(int sequenceNumber, Stream resultStream)
 | sequenceNumber | Int32 | The sequence number of the message |
 | resultStream | Stream | Stream that will receive the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -152,7 +152,7 @@ public Task SaveMessageAsync(string uniqueId, Stream resultStream)
 | uniqueId | String | The unique Id of the message |
 | resultStream | Stream | Stream that will receive the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -177,7 +177,7 @@ public Task SaveMessageAsync(string uniqueId, string fileName)
 | uniqueId | String | The unique Id of the message |
 | fileName | String | The path of the local file. This cannot be a directory |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -202,7 +202,7 @@ public Task SaveMessageAsync(int sequenceNumber, string fileName)
 | sequenceNumber | Int32 | The sequence number of the message |
 | fileName | String | The path of the local file. This cannot be a directory |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -230,7 +230,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, Stream 
 | resultStream | Stream | Stream that will receive the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -259,7 +259,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, Stream res
 | resultStream | Stream | Stream that will receive the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -288,7 +288,7 @@ public Task SaveMessageAsync(IConnection connection, string uniqueId, string fil
 | fileName | String | The path of the local file. This cannot be a directory |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -317,7 +317,7 @@ public Task SaveMessageAsync(IConnection connection, int sequenceNumber, string 
 | fileName | String | The path of the local file. This cannot be a directory |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -344,7 +344,7 @@ public Task SaveMessageAsync(int sequenceNumber, Stream resultStream, Cancellati
 | resultStream | Stream | Stream that will receive the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -370,7 +370,7 @@ public Task SaveMessageAsync(string uniqueId, Stream resultStream, CancellationT
 | resultStream | Stream | Stream that will receive the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -396,7 +396,7 @@ public Task SaveMessageAsync(string uniqueId, string fileName, CancellationToken
 | fileName | String | The path of the local file. This cannot be a directory |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -422,7 +422,7 @@ public Task SaveMessageAsync(int sequenceNumber, string fileName, CancellationTo
 | fileName | String | The path of the local file. This cannot be a directory |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

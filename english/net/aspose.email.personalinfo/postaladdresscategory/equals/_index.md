@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to compare with the current Object. |
 
-## Return Value
+### Return Value
 
 Returns a boolean indicating if the passed in object obj is Equal to this.
 
@@ -42,7 +42,7 @@ public virtual bool Equals(PostalAddressCategory other)
 | --- | --- | --- |
 | other | PostalAddressCategory | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified object is equal to the current object; otherwise, false.
 

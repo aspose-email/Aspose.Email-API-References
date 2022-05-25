@@ -50,22 +50,22 @@ public class InstantMessengerCategory : IEquatable<InstantMessengerCategory>
 | [operator ==](../../aspose.email.personalinfo/instantmessengercategory/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/instantmessengercategory/op_inequality) | Determines whether the specified objects are not equal. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [AIMValue](aimvalue) | String value for 'AIM' category |
-| const [CustomValue](customvalue) | String value for 'Custom' category |
-| const [GoogleTalkValue](googletalkvalue) | String value for 'GoogleTalk' category |
-| const [ICQValue](icqvalue) | String value for 'MSN' category |
-| const [ImAddress1Value](imaddress1value) | String value for 'ImAddress1' category |
-| const [ImAddress2Value](imaddress2value) | String value for 'ImAddress2' category |
-| const [ImAddress3Value](imaddress3value) | String value for 'ImAddress3' category |
-| const [JabberValue](jabbervalue) | String value for 'Jabber' category |
-| const [MSNValue](msnvalue) | String value for '' category |
-| const [QQValue](qqvalue) | String value for 'QQ' category |
-| const [SkypeValue](skypevalue) | String value for 'Skype' category |
-| const [YahooValue](yahoovalue) | String value for 'Yahoo' category |
+| const [AIMValue](../../aspose.email.personalinfo/instantmessengercategory/aimvalue) | String value for 'AIM' category |
+| const [CustomValue](../../aspose.email.personalinfo/instantmessengercategory/customvalue) | String value for 'Custom' category |
+| const [GoogleTalkValue](../../aspose.email.personalinfo/instantmessengercategory/googletalkvalue) | String value for 'GoogleTalk' category |
+| const [ICQValue](../../aspose.email.personalinfo/instantmessengercategory/icqvalue) | String value for 'MSN' category |
+| const [ImAddress1Value](../../aspose.email.personalinfo/instantmessengercategory/imaddress1value) | String value for 'ImAddress1' category |
+| const [ImAddress2Value](../../aspose.email.personalinfo/instantmessengercategory/imaddress2value) | String value for 'ImAddress2' category |
+| const [ImAddress3Value](../../aspose.email.personalinfo/instantmessengercategory/imaddress3value) | String value for 'ImAddress3' category |
+| const [JabberValue](../../aspose.email.personalinfo/instantmessengercategory/jabbervalue) | String value for 'Jabber' category |
+| const [MSNValue](../../aspose.email.personalinfo/instantmessengercategory/msnvalue) | String value for '' category |
+| const [QQValue](../../aspose.email.personalinfo/instantmessengercategory/qqvalue) | String value for 'QQ' category |
+| const [SkypeValue](../../aspose.email.personalinfo/instantmessengercategory/skypevalue) | String value for 'Skype' category |
+| const [YahooValue](../../aspose.email.personalinfo/instantmessengercategory/yahoovalue) | String value for 'Yahoo' category |
 
 ### See Also
 

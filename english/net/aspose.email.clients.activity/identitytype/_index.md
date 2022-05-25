@@ -14,7 +14,7 @@ Identity types
 public enum IdentityType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

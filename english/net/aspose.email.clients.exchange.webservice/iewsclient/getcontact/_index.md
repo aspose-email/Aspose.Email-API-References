@@ -18,7 +18,7 @@ public Contact GetContact(ObjectIdentifier contactId)
 | --- | --- | --- |
 | contactId | ObjectIdentifier | Contact identifier |
 
-## Return Value
+### Return Value
 
 Contact information
 
@@ -45,7 +45,7 @@ public Contact GetContact(ObjectIdentifier contactId, ExchangeListContactsOption
 | contactId | ObjectIdentifier | Contact identifier |
 | options | ExchangeListContactsOptions | Settings for retrieving contact. |
 
-## Return Value
+### Return Value
 
 Contact information
 
@@ -72,7 +72,7 @@ public Contact GetContact(string contactId)
 | --- | --- | --- |
 | contactId | String | Contact identifier |
 
-## Return Value
+### Return Value
 
 Contact information
 
@@ -98,7 +98,7 @@ public Contact GetContact(string contactId, ExchangeListContactsOptions options)
 | contactId | String | Contact identifier |
 | options | ExchangeListContactsOptions | Settings for retrieving contact. |
 
-## Return Value
+### Return Value
 
 Contact information
 

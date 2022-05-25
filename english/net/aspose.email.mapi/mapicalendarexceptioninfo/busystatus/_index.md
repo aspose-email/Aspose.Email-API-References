@@ -14,7 +14,7 @@ Gets or sets the busy status.
 public MapiCalendarBusyStatus BusyStatus { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The busy status.
 

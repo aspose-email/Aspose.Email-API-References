@@ -31,6 +31,12 @@ public class FreebusyResponse
 | [TimeMax](../../aspose.email.clients.google/freebusyresponse/timemax) { get; set; } | The end of the interval for the query. |
 | [TimeMin](../../aspose.email.clients.google/freebusyresponse/timemin) { get; set; } | The start of the interval for the query. |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [KIND](../../aspose.email.clients.google/freebusyresponse/kind) | Type of the resource "calendar#freeBusy". |
+
 ### See Also
 
 * namespace [Aspose.Email.Clients.Google](../../aspose.email.clients.google)

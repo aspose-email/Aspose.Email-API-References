@@ -18,7 +18,7 @@ public static Contact Load(string filePath)
 | --- | --- | --- |
 | filePath | String | file path |
 
-## Return Value
+### Return Value
 
 Returns contact object
 
@@ -43,7 +43,7 @@ public static Contact Load(string filePath, ContactLoadFormat format)
 | filePath | String | file path |
 | format | ContactLoadFormat | Represents contact format |
 
-## Return Value
+### Return Value
 
 Returns contact object
 
@@ -68,7 +68,7 @@ public static Contact Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Contact stream |
 
-## Return Value
+### Return Value
 
 Returns contact object
 
@@ -93,7 +93,7 @@ public static Contact Load(Stream stream, ContactLoadFormat format)
 | stream | Stream | Contact stream |
 | format | ContactLoadFormat | Represents contact format |
 
-## Return Value
+### Return Value
 
 Returns contact object
 

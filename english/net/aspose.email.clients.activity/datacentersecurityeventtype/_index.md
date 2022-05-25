@@ -14,7 +14,7 @@ Types of dmdlet event in lock box.
 public enum DataCenterSecurityEventType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

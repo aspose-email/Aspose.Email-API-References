@@ -18,7 +18,7 @@ public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris)
 | --- | --- | --- |
 | noteUris | IEnumerable`1 | List of note uris to be fetched. |
 
-## Return Value
+### Return Value
 
 Fetch array of [`MapiNote`](../../../aspose.email.mapi/mapinote) objects.
 
@@ -45,7 +45,7 @@ public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris,
 | noteUris | IEnumerable`1 | List of note uris to be fetched. |
 | customProperties | IEnumerable`1 | Custom mapi properties to retrieve. |
 
-## Return Value
+### Return Value
 
 Fetch array of [`MapiNote`](../../../aspose.email.mapi/mapinote) objects.
 

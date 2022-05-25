@@ -18,7 +18,7 @@ public FolderInfo GetFolder(string id)
 | --- | --- | --- |
 | id | String | Folder id |
 
-## Return Value
+### Return Value
 
 Returns folder for specified id
 

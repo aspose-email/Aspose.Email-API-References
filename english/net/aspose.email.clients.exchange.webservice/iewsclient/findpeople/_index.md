@@ -19,7 +19,7 @@ public Contact[] FindPeople(string queryString, int maxNumberOfItems)
 | queryString | String | Represents contact search criteria. |
 | maxNumberOfItems | Int32 | Maximum number of items. |
 
-## Return Value
+### Return Value
 
 An array of [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 
@@ -46,7 +46,7 @@ public Contact[] FindPeople(string folderUri, MailQuery query, int maxNumberOfIt
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents contact search criteria. |
 | maxNumberOfItems | Int32 | Maximum number of items. |
 
-## Return Value
+### Return Value
 
 An array of [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 

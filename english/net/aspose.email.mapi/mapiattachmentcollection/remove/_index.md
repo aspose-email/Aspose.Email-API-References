@@ -18,7 +18,7 @@ public bool Remove(MapiAttachment item)
 | --- | --- | --- |
 | item | MapiAttachment | The object to remove from the MapiAttachmentCollection. |
 
-## Return Value
+### Return Value
 
 true if item is successfully removed; otherwise, false.
 

@@ -14,7 +14,7 @@ Enumerates vCard photo type
 public enum VCardPhotoType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

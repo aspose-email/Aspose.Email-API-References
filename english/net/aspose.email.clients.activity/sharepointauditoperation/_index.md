@@ -14,7 +14,7 @@ SharePoint audit operations
 public enum SharePointAuditOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public Task<Contact[]> GetMailboxesAsync(CancellationToken cancellationToken = d
 | --- | --- | --- |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 Contacts that represent contact information
 

@@ -14,7 +14,7 @@ Calendar namespace of the ActiveSync protocol
 public enum Calendar
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

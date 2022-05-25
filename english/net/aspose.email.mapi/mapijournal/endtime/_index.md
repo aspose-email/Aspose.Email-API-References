@@ -14,7 +14,7 @@ Gets or sets the time at which the activity ended.
 public DateTime EndTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The value that represents time at which the activity ended.
 

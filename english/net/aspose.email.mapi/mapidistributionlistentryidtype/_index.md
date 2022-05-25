@@ -14,7 +14,7 @@ Specifies the type of EntryID.
 public enum MapiDistributionListEntryIdType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

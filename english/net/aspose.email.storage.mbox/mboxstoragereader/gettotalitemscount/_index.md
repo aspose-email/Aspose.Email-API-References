@@ -14,7 +14,7 @@ Returns the number of messages in a storage.
 public abstract int GetTotalItemsCount()
 ```
 
-## Return Value
+### Return Value
 
 Returns the number of messages in a storage.
 

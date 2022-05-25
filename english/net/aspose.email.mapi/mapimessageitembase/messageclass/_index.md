@@ -14,7 +14,7 @@ Gets a case-sensitive string that identifies the sender-defined message class, s
 public string MessageClass { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents message class.
 

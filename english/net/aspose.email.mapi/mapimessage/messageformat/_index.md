@@ -14,7 +14,7 @@ Gets the outlook message format.
 public OutlookMessageFormat MessageFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The outlook message format.
 

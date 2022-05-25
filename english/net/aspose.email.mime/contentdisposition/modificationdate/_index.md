@@ -14,7 +14,7 @@ Gets or sets the modification date.
 public DateTime ModificationDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A DateTime value that indicates the file modification date; otherwise, MinValue if no date was specified.
 

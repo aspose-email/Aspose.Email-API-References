@@ -22,7 +22,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 | fileName | String | A path to the presonal storage file |
 | options | BackupSettings | A backup options |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -53,7 +53,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 | stream | Stream | A stream to write into |
 | options | BackupSettings | A backup options |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -82,7 +82,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, string fileName, Backu
 | fileName | String | A path to the presonal storage file |
 | options | BackupSettings | A backup options |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -110,7 +110,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, Stream stream, BackupS
 | stream | Stream | A stream to write into |
 | options | BackupSettings | A backup options |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -141,7 +141,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 | options | BackupSettings | A backup options |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -173,7 +173,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 | options | BackupSettings | A backup options |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -204,7 +204,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, string fileName, Backu
 | options | BackupSettings | A backup options |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -234,7 +234,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, Stream stream, BackupS
 | options | BackupSettings | A backup options |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -20,7 +20,7 @@ public static IActivityClient GetClient(IMultipleServicesTokenProvider tokenProv
 | tokenProvider | IMultipleServicesTokenProvider | Token provider allows to retrieve OAuth access token |
 | tenantId | String | A tenant is representation of an organization. It's a dedicated instance of Azure AD that an organization or app developer receives when the organization or app developer, creates a relationship with Microsoft like signing up for Azure, Microsoft Intune, or Microsoft 365. |
 
-## Return Value
+### Return Value
 
 Returns IActivityClient object
 
@@ -47,7 +47,7 @@ public static IActivityClient GetClient(ITokenProvider tokenProvider, string ten
 | tokenProvider | ITokenProvider | Token provider allows to retrieve OAuth access token |
 | tenantId | String | A tenant is representation of an organization. It's a dedicated instance of Azure AD that an organization or app developer receives when the organization or app developer, creates a relationship with Microsoft like signing up for Azure, Microsoft Intune, or Microsoft 365. |
 
-## Return Value
+### Return Value
 
 Returns IActivityClient object
 

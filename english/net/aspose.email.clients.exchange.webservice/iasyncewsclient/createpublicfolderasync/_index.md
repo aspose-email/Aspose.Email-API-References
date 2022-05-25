@@ -24,7 +24,7 @@ public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name,
 | parentFolderUri | String | The URI of parent folder |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -56,7 +56,7 @@ public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name,
 | parentFolderUri | String | The URI of parent folder |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns folder information
 

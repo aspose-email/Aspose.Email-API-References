@@ -14,7 +14,7 @@ Gets the first 4 bytes of the binary data as int32.
 public virtual int GetInt32()
 ```
 
-## Return Value
+### Return Value
 
 The int32 value.
 

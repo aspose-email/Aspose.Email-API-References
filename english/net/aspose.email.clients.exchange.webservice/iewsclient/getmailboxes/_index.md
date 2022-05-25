@@ -14,7 +14,7 @@ Lists mailboxes having smtp addresses. Note: the maximum count of returned conta
 public Contact[] GetMailboxes()
 ```
 
-## Return Value
+### Return Value
 
 Contacts that represents contact information
 

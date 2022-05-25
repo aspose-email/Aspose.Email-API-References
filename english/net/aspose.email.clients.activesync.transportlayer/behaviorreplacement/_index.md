@@ -14,7 +14,7 @@ Specifies how to resolve the conflict that occurs when an object has been change
 public enum BehaviorReplacement
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

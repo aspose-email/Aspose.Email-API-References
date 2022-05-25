@@ -14,7 +14,7 @@ Gets or sets the recurrence pattern.
 public RecurrencePattern Recurrence { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The recurrence pattern.
 

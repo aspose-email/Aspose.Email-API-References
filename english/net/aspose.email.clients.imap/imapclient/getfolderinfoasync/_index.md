@@ -21,7 +21,7 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string fo
 | folderName | String | Folder to retrieve information about |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -48,7 +48,7 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName, CancellationTo
 | folderName | String | Folder to retrieve information about |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -74,7 +74,7 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string fo
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to retrieve information about |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -100,7 +100,7 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to retrieve information about |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

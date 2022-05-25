@@ -14,7 +14,7 @@ Gets or sets the organizer format.
 public string OrganizerFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The organizer format.
 

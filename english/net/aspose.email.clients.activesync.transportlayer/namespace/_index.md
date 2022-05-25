@@ -14,7 +14,7 @@ ActiveSync Code Pages
 public enum Namespace
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

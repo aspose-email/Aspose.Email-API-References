@@ -14,7 +14,7 @@ Returns exchange server version info
 public string GetVersionInfo()
 ```
 
-## Return Value
+### Return Value
 
 Returns exchange server version info
 

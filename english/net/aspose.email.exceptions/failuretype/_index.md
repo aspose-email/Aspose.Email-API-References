@@ -14,7 +14,7 @@ Indicates the failure type.
 public enum FailureType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

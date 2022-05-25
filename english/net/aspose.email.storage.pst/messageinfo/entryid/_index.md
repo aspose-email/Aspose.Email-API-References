@@ -14,7 +14,7 @@ Gets the entry ID.
 public byte[] EntryId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The entry id.
 

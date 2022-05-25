@@ -14,7 +14,7 @@ Converts the value of the property to integer.
 public int ToInt()
 ```
 
-## Return Value
+### Return Value
 
 Integer value, if type can't be converted to integer returns 0.
 

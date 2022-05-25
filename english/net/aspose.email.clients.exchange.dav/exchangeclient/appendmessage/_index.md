@@ -19,7 +19,7 @@ public string AppendMessage(string folder, MailMessage message)
 | folder | String | A folder to which message is uploaded |
 | message | MailMessage | A message to upload |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -53,7 +53,7 @@ public string AppendMessage(string folder, MailMessage message, bool markAsSent)
 | message | MailMessage | A message to upload |
 | markAsSent | Boolean | A value indicating whether the message should be appended as a sent message or a draft. |
 
-## Return Value
+### Return Value
 
 An uri of created message
 

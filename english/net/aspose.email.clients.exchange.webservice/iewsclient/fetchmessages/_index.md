@@ -20,7 +20,7 @@ public MailMessageCollection FetchMessages(IEnumerable<string> uris,
 | uris | IEnumerable`1 | A StringCollection containing message uris to be retrieved |
 | extendedProperties | IEnumerable`1 | An enumeration of extended properties |
 
-## Return Value
+### Return Value
 
 A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) containing fetched messages
 
@@ -52,7 +52,7 @@ public MailMessageCollection FetchMessages(IEnumerable<string> uris)
 | --- | --- | --- |
 | uris | IEnumerable`1 | A StringCollection containing message uris to be retrieved |
 
-## Return Value
+### Return Value
 
 A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) containing fetched messages
 
@@ -83,7 +83,7 @@ public MailMessageCollection FetchMessages(IEnumerable<ExchangeMessageInfo> mess
 | --- | --- | --- |
 | messageInfos | IEnumerable`1 | A IEnumerable&lt;ExchangeMessageInfo&gt; "/&gt; of messages to be retrieved |
 
-## Return Value
+### Return Value
 
 A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) containing fetched messages
 
@@ -115,7 +115,7 @@ public MailMessageCollection FetchMessages(StringCollection messageUris)
 | --- | --- | --- |
 | messageUris | StringCollection | A StringCollection containing message uris to be retrieved |
 
-## Return Value
+### Return Value
 
 A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) containing fetched messages
 

@@ -14,7 +14,7 @@ Gets string representation of entry ID.
 public string EntryIdString { get; }
 ```
 
-## Property Value
+### Property Value
 
 The entry id string.
 

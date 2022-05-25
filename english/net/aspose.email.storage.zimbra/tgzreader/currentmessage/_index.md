@@ -14,7 +14,7 @@ Gets the current message.
 public MailMessage CurrentMessage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`MailMessage`](../../../aspose.email/mailmessage).
 

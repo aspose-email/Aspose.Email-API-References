@@ -14,7 +14,7 @@ Gets the display name of the ole object in an attachment.
 public string DisplayName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The display name.
 

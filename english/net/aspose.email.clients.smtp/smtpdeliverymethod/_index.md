@@ -14,7 +14,7 @@ Smtp delivery method
 public enum SmtpDeliveryMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

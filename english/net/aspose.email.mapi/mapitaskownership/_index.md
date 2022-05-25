@@ -14,7 +14,7 @@ Indicates the role of the current user relative to the Task object.
 public enum MapiTaskOwnership
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

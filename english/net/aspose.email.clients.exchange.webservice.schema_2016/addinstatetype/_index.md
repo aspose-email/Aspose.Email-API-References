@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.exchange.webservice.schema_2016/addinstatetype/
 public enum AddInStateType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

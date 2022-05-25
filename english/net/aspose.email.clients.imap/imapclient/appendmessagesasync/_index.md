@@ -22,7 +22,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -51,7 +51,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> m
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -80,7 +80,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -108,7 +108,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -138,7 +138,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 | folderName | String | Folder that will receive the mail message |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -165,7 +165,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> m
 | --- | --- | --- |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -193,7 +193,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 | folderName | String | Folder that will receive the mail message |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -222,7 +222,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection,
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

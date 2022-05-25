@@ -18,7 +18,7 @@ public bool Remove(PropertyDescriptor item)
 | --- | --- | --- |
 | item | PropertyDescriptor | The object to remove from the System.Collections.Generic.ICollection. |
 
-## Return Value
+### Return Value
 
 true if item was successfully removed from the System.Collections.Generic.ICollection; otherwise, false. This method also returns false if item is not found in the original System.Collections.Generic.ICollection.
 

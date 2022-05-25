@@ -14,7 +14,7 @@ Gets or sets the start day.
 public CalendarDay StartDay { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The start day.
 

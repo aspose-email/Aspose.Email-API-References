@@ -18,7 +18,7 @@ public PropertyDescriptor[] Find(params Guid[] propertySets)
 | --- | --- | --- |
 | propertySets | Guid[] | PropertySet to find |
 
-## Return Value
+### Return Value
 
 Array of [`PropertyDescriptor`](../../propertydescriptor) objects with required PropertySet if found in the list; otherwise empty array.
 
@@ -43,7 +43,7 @@ public PropertyDescriptor Find(string name)
 | --- | --- | --- |
 | name | String | The name used to refer to the property. |
 
-## Return Value
+### Return Value
 
 [`PropertyDescriptor`](../../propertydescriptor) object if found in the list; otherwise null.
 
@@ -69,7 +69,7 @@ public PidTagPropertyDescriptor Find(int id, PropertyDataType type)
 | id | Int32 | id to find |
 | type | PropertyDataType | Data type of a property |
 
-## Return Value
+### Return Value
 
 [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object with defined tag if found in the list; otherwise null.
 
@@ -95,7 +95,7 @@ public PidTagPropertyDescriptor[] Find(int id)
 | --- | --- | --- |
 | id | Int32 | id to find |
 
-## Return Value
+### Return Value
 
 [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) Array of objects with defined tag if found in the list; otherwise empty array.
 
@@ -120,7 +120,7 @@ public PidTagPropertyDescriptor Find(long tag)
 | --- | --- | --- |
 | tag | Int64 | Tag to find |
 
-## Return Value
+### Return Value
 
 [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object with defined tag if found in the list; otherwise null.
 
@@ -147,7 +147,7 @@ public PidNamePropertyDescriptor Find(string name, PropertyDataType type, Guid p
 | type | PropertyDataType | Data type of a property |
 | propertySet | Guid | PropertySet of a property |
 
-## Return Value
+### Return Value
 
 [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) object if found in the list; otherwise null.
 
@@ -174,7 +174,7 @@ public PidNamePropertyDescriptor Find(string name, Guid propertySet)
 | name | String | Name of a property |
 | propertySet | Guid | PropertySet of a property |
 
-## Return Value
+### Return Value
 
 [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) object if found in the list; otherwise null.
 
@@ -201,7 +201,7 @@ public PidLidPropertyDescriptor Find(long lid, PropertyDataType type, Guid prope
 | type | PropertyDataType | Data type of a property |
 | propertySet | Guid | PropertySet of a property |
 
-## Return Value
+### Return Value
 
 [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) object if found in the list; otherwise null.
 
@@ -228,7 +228,7 @@ public PidLidPropertyDescriptor Find(long lid, Guid propertySet)
 | lid | Int64 | Long id of a property |
 | propertySet | Guid | PropertySet of a property |
 
-## Return Value
+### Return Value
 
 [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) object if found in the list; otherwise null.
 

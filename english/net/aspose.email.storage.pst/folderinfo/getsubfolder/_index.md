@@ -18,7 +18,7 @@ public FolderInfo GetSubFolder(string name)
 | --- | --- | --- |
 | name | String | Name of subfolder. |
 
-## Return Value
+### Return Value
 
 A FolderInfo object.
 
@@ -43,7 +43,7 @@ public FolderInfo GetSubFolder(string name, bool ignoreCase)
 | name | String | Name of subfolder. |
 | ignoreCase | Boolean | Indicates that a search should ignore case sensitivity when matching the folder name. |
 
-## Return Value
+### Return Value
 
 A FolderInfo object.
 

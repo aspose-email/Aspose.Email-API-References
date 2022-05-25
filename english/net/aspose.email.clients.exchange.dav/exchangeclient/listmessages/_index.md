@@ -18,7 +18,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder)
 | --- | --- | --- |
 | folder | String | The folder. |
 
-## Return Value
+### Return Value
 
 A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
@@ -44,7 +44,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | folder | String | The folder. |
 | maxNumberOfMessages | Int32 | Maximum number of messages |
 
-## Return Value
+### Return Value
 
 A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
@@ -94,7 +94,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, bool recursive)
 | folder | String | The folder Uri |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
-## Return Value
+### Return Value
 
 A collection of message info
 
@@ -143,7 +143,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
-## Return Value
+### Return Value
 
 The message info collection.
 
@@ -171,7 +171,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 | folder | String | The folder url |
 | options | ExchangeListMessagesOptions | Specifies the settings of listing |
 
-## Return Value
+### Return Value
 
 A [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) collection.
 
@@ -200,7 +200,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | maxNumberOfMessages | Int32 | Maximum number of messages |
 | options | ExchangeListMessagesOptions | Specifies the settings of listing |
 
-## Return Value
+### Return Value
 
 A collection of message info
 

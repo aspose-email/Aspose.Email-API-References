@@ -14,7 +14,7 @@ Gets the by month.
 public ByNumberCollection ByMonth { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by month.
 

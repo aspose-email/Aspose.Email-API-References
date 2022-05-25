@@ -14,7 +14,7 @@ Gets the ex dates.
 public DateCollection ExDates { get; }
 ```
 
-## Property Value
+### Property Value
 
 The ex dates.
 

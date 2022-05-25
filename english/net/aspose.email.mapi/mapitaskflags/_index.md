@@ -15,7 +15,7 @@ Contains indication flags of the Task object.
 public enum MapiTaskFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

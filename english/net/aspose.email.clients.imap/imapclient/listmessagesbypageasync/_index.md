@@ -21,7 +21,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffs
 | pageOffset | Int32 | An offset of next page in view |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -50,7 +50,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo page
 | pageInfo | PageInfo | The next page to retrieve. |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -82,7 +82,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffs
 | settings | PageSettings | The settings. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -112,7 +112,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo page
 | settings | PageSettings | The settings. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

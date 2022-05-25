@@ -18,7 +18,7 @@ public int Add(int value)
 | --- | --- | --- |
 | value | Int32 | The value to add. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 

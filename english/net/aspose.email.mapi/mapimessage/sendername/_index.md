@@ -14,7 +14,7 @@ Gets or sets the message sender's display name.
 public string SenderName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The the string that represents sender name.
 

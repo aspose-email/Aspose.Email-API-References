@@ -15,7 +15,7 @@ The folder list selection options Please note, this options are supported in cas
 public enum ListFoldersOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

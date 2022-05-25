@@ -18,7 +18,7 @@ public Content[] FetchContent(string contentId)
 | --- | --- | --- |
 | contentId | String | URL to use when retrieving the content. |
 
-## Return Value
+### Return Value
 
 The returned content will be an array of one more actions or events.
 

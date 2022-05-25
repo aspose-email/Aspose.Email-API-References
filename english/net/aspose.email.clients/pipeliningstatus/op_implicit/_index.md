@@ -18,7 +18,7 @@ public static implicit operator PipeliningStatus(bool mode)
 | --- | --- | --- |
 | mode | Boolean | true if pipelining has to be used, otherwise false |
 
-## Return Value
+### Return Value
 
 Returns [`PipeliningStatus`](../../pipeliningstatus) object
 
@@ -42,7 +42,7 @@ public static implicit operator PipeliningStatus(PipeliningMode mode)
 | --- | --- | --- |
 | mode | PipeliningMode | [`PipeliningMode`](../../pipeliningmode) value for conversion |
 
-## Return Value
+### Return Value
 
 Returns [`PipeliningStatus`](../../pipeliningstatus) object
 
@@ -67,7 +67,7 @@ public static implicit operator bool(PipeliningStatus status)
 | --- | --- | --- |
 | status | PipeliningStatus | [`PipeliningStatus`](../../pipeliningstatus) object for conversion |
 
-## Return Value
+### Return Value
 
 Returns true if pipelining is used, otherwise returns false.
 

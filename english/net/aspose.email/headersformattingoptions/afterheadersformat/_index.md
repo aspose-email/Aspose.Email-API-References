@@ -14,7 +14,7 @@ After headers format.
 public string AfterHeadersFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The styles to be injected into resulting html body.
 

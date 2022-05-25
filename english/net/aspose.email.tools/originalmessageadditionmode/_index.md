@@ -14,7 +14,7 @@ Way to include the original message in response message.
 public enum OriginalMessageAdditionMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

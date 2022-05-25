@@ -14,7 +14,7 @@ Gets the base stream.
 public Stream BaseStream { get; }
 ```
 
-## Property Value
+### Property Value
 
 The base stream.
 

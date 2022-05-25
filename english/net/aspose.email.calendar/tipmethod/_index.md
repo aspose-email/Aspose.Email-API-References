@@ -14,7 +14,7 @@ Defines the iTIP (iCalendar Transport-Independent Interoperability Protocol) met
 public enum TIPMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

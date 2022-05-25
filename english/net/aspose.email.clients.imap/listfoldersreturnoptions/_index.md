@@ -15,7 +15,7 @@ Return options for ListFolders operation Please note, this options are supported
 public enum ListFoldersReturnOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

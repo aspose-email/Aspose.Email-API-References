@@ -21,7 +21,7 @@ public Task<Appointment> FetchAppointmentAsync(string appointmentUri, string fol
 | folderUri | String | An uri of appointments parent folder. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 A fetched [`Appointment`](../../../aspose.email.calendar/appointment).
 

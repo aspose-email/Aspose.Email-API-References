@@ -14,7 +14,7 @@ Sspecifies whether a user has permission to read items in a folder.
 public enum ExchangeFolderPermissionReadAccess
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

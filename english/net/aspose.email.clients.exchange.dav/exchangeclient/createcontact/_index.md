@@ -18,7 +18,7 @@ public string CreateContact(Contact contact)
 | --- | --- | --- |
 | contact | Contact | Contact item |
 
-## Return Value
+### Return Value
 
 The contact Uri
 

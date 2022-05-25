@@ -14,7 +14,7 @@ Gets the optional attendees.
 public MailAddressCollection OptionalAttendees { get; }
 ```
 
-## Property Value
+### Property Value
 
 The address collection of optional attendees.
 

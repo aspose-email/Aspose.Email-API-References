@@ -14,7 +14,7 @@ Project entity
 public enum ProjectEntity
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

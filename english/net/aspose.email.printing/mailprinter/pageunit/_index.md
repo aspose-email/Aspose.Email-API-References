@@ -14,7 +14,7 @@ Gets or sets the page unit.
 public PrinterUnit PageUnit { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The page unit.
 

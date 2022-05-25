@@ -14,7 +14,7 @@ User settings that can be requested using GetUserSettings.
 public enum UserSettingName
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

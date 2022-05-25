@@ -18,7 +18,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(CancellationToken token
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -45,7 +45,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -73,7 +73,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 | clientIdentificationInfo | ImapIdentificationInfo | Client identification information |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -101,7 +101,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 | clientIdentificationInfo | ImapIdentificationInfo | Client identification information |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -123,7 +123,7 @@ Introduces client information to a server.
 public Task<ImapIdentificationInfo> IntroduceClientAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -148,7 +148,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -175,7 +175,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 | --- | --- | --- |
 | clientIdentificationInfo | ImapIdentificationInfo | Client identification information |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -202,7 +202,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | clientIdentificationInfo | ImapIdentificationInfo | Client identification information |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

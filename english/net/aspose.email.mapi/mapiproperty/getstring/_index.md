@@ -14,7 +14,7 @@ Gets the binary data as string.
 public virtual string GetString()
 ```
 
-## Return Value
+### Return Value
 
 A string contains the binary data.
 
@@ -38,7 +38,7 @@ public virtual string GetString(int codepage)
 | --- | --- | --- |
 | codepage | Int32 | The code page. |
 
-## Return Value
+### Return Value
 
 A string contains the binary data.
 

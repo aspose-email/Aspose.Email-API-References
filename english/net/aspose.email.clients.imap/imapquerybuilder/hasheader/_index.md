@@ -19,7 +19,7 @@ public MailQuery HasHeader(string fieldName, string fieldValue)
 | fieldName | String | Name of the field. |
 | fieldValue | String | The field value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query (one searching criteria).
 

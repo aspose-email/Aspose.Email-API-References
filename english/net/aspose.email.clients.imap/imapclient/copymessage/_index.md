@@ -20,7 +20,7 @@ public string CopyMessage(IConnection connection, int sequenceNumber, string fol
 | sequenceNumber | Int32 | The sequence number of the message |
 | folderName | String | Folder name where a message is to be copied |
 
-## Return Value
+### Return Value
 
 If server supports UIDPLUS extension returns unique id of the copied message, otherwise returns null Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -47,7 +47,7 @@ public string CopyMessage(IConnection connection, string uniqueId, string folder
 | uniqueId | String | The uid of the message |
 | folderName | String | Folder name where a message is to be copied |
 
-## Return Value
+### Return Value
 
 If server supports UIDPLUS extension returns unique id of the copied message, otherwise returns null Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -73,7 +73,7 @@ public string CopyMessage(int sequenceNumber, string folderName)
 | sequenceNumber | Int32 | The sequence number of the message |
 | folderName | String | Folder name where a message is to be copied |
 
-## Return Value
+### Return Value
 
 If server supports UIDPLUS extension returns unique id of the copied message, otherwise returns null Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -98,7 +98,7 @@ public string CopyMessage(string uniqueId, string folderName)
 | uniqueId | String | The uid of the message |
 | folderName | String | Folder name where a message is to be copied |
 
-## Return Value
+### Return Value
 
 If server supports UIDPLUS extension returns unique id of the copied message, otherwise returns null Please, read more https://tools.ietf.org/html/rfc4315
 

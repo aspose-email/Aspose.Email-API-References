@@ -18,7 +18,7 @@ public static implicit operator ImapMessageFlags(string type)
 | --- | --- | --- |
 | type | String | Value of a type. |
 
-## Return Value
+### Return Value
 
 The result of the conversion.
 

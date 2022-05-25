@@ -14,7 +14,7 @@ Gets the urn:content-classes:journalfolder content class that defines a set of p
 public static ContentClassType JournalFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The journal folder content class.
 

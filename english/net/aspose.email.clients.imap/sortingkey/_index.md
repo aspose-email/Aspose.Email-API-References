@@ -15,7 +15,7 @@ Sort criterias for "SORT" command See more: https://tools.ietf.org/html/rfc5256
 public enum SortingKey
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

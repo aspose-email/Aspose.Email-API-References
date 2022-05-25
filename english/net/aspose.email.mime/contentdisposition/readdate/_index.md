@@ -14,7 +14,7 @@ Gets or sets the read date.
 public DateTime ReadDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A DateTime value that indicates the file read date; otherwise, MinValue if no date was specified.
 

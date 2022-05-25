@@ -14,7 +14,7 @@ Gets the message unique ID.
 public string UniqueId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The unique id string.
 

@@ -14,7 +14,7 @@ Gets the CC: line.
 public string DisplayCC { get; }
 ```
 
-## Property Value
+### Property Value
 
 The display cc.
 

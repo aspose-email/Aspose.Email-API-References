@@ -14,7 +14,7 @@ Provides set various modes of rendering resources in html.
 public enum ResourceRenderingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

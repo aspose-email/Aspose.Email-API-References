@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The HeaderType object to compare. |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise returns false
 

@@ -22,7 +22,7 @@ public Task<IEnumerable<ExchangeUploadItemResult>> CreateItemsAsync(
 | parentFolderUri | String | Specifies the folder in which to place the items |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 An array of [`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
 

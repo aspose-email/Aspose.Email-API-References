@@ -14,7 +14,7 @@ Gets or sets the type of the content.
 public ContentType ContentType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the content.
 

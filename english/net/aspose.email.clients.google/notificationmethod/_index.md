@@ -14,7 +14,7 @@ The method used by this notification.
 public enum NotificationMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

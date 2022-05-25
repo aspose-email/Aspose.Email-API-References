@@ -14,7 +14,7 @@ Represent the PR_RECIPIENT_TYPE property which contains the recipient type for a
 public enum MapiRecipientType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

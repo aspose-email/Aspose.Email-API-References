@@ -20,7 +20,7 @@ public Task<MapiContactCollection> ListMailboxesAsync(string filter = null,
 | filter | String | Filter string |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contact information
 

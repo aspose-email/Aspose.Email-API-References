@@ -18,7 +18,7 @@ public MapiMessage FetchMessage(string id)
 | --- | --- | --- |
 | id | String | Message id to fetch |
 
-## Return Value
+### Return Value
 
 Mapi message
 

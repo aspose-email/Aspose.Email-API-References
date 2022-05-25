@@ -14,7 +14,7 @@ Gets the bytes of the binary data as double.
 public virtual double GetDouble()
 ```
 
-## Return Value
+### Return Value
 
 The double value.
 

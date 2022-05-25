@@ -14,7 +14,7 @@ Gets the recipients of the message.
 public MapiRecipientCollection Recipients { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The collection of recipients.
 
