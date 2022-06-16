@@ -29,6 +29,12 @@ Aspose.Email 实现了许多网络协议，例如 SMTP、MIME、POP3、IMAP； �
 ![Aspose.Email for Java 产品徽标](../home_2.png)
 
 Aspose.Email for Java 是一个 Java API，它使 Java 应用程序能够在不使用 Microsoft Outlook® 的情况下读取和写入 Microsoft Outlook® 文档。 Aspose.Email for Java 提供了许多关键功能，例如管理 Microsoft Outlook® MSG 文档中的收件人、主题、正文、附件以及从 Microsoft Outlook® PST 文档中读取联系人、消息和文件夹信息。 它还可用于创建、修改和转换 EML、MSG 和 MHT 格式的电子邮件。
+
+{{% /alert %}} 
+
+这些是指向有用资源的链接：
+- [Aspose.Email for Java API 参考](/email/java/)
+
 ## Aspose.Email for C++
 
 {{% alert color="primary" %}} 
