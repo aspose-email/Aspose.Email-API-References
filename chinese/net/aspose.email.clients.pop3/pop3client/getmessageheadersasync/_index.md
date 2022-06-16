@@ -1,0 +1,221 @@
+---
+title: GetMessageHeadersAsync
+second_title: Aspose.Email for .NET API 参考
+description: 获取消息头
+type: docs
+weight: 220
+url: /zh/net/aspose.email.clients.pop3/pop3client/getmessageheadersasync/
+---
+## GetMessageHeadersAsync(IConnection, int) {#getmessageheadersasync}
+
+获取消息头
+
+```csharp
+public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, int sequenceNumber)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| sequenceNumber | Int32 | 消息的序列号 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [HeaderCollection](../../../aspose.email.mime/headercollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* 命名空间 [Aspose.Email.Clients.Pop3](../../pop3client)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## GetMessageHeadersAsync(int) {#getmessageheadersasync_4}
+
+获取消息头
+
+```csharp
+public Task<HeaderCollection> GetMessageHeadersAsync(int sequenceNumber)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| sequenceNumber | Int32 | 消息的序列号 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [HeaderCollection](../../../aspose.email.mime/headercollection)
+* class [Pop3Client](../../pop3client)
+* 命名空间 [Aspose.Email.Clients.Pop3](../../pop3client)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## GetMessageHeadersAsync(IConnection, string) {#getmessageheadersasync_2}
+
+获取消息头
+
+```csharp
+public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, string uniqueId)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| uniqueId | String | 消息的唯一 ID |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [HeaderCollection](../../../aspose.email.mime/headercollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* 命名空间 [Aspose.Email.Clients.Pop3](../../pop3client)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## GetMessageHeadersAsync(string) {#getmessageheadersasync_6}
+
+获取消息头
+
+```csharp
+public Task<HeaderCollection> GetMessageHeadersAsync(string uniqueId)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| uniqueId | String | 消息的唯一ID |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [HeaderCollection](../../../aspose.email.mime/headercollection)
+* class [Pop3Client](../../pop3client)
+* 命名空间 [Aspose.Email.Clients.Pop3](../../pop3client)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## GetMessageHeadersAsync(IConnection, int, CancellationToken) {#getmessageheadersasync_1}
+
+获取消息头
+
+```csharp
+public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, int sequenceNumber, 
+    CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| sequenceNumber | Int32 | 消息的序列号 |
+| token | CancellationToken | 传播应该取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [HeaderCollection](../../../aspose.email.mime/headercollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* 命名空间 [Aspose.Email.Clients.Pop3](../../pop3client)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## GetMessageHeadersAsync(int, CancellationToken) {#getmessageheadersasync_5}
+
+获取消息头
+
+```csharp
+public Task<HeaderCollection> GetMessageHeadersAsync(int sequenceNumber, CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| sequenceNumber | Int32 | 消息的序列号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [HeaderCollection](../../../aspose.email.mime/headercollection)
+* class [Pop3Client](../../pop3client)
+* 命名空间 [Aspose.Email.Clients.Pop3](../../pop3client)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## GetMessageHeadersAsync(IConnection, string, CancellationToken) {#getmessageheadersasync_3}
+
+获取消息头
+
+```csharp
+public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, string uniqueId, 
+    CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| uniqueId | String | 消息的唯一 ID |
+| token | CancellationToken | 传播应该取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [HeaderCollection](../../../aspose.email.mime/headercollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* 命名空间 [Aspose.Email.Clients.Pop3](../../pop3client)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## GetMessageHeadersAsync(string, CancellationToken) {#getmessageheadersasync_7}
+
+获取消息头
+
+```csharp
+public Task<HeaderCollection> GetMessageHeadersAsync(string uniqueId, CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| uniqueId | String | 消息的唯一ID |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [HeaderCollection](../../../aspose.email.mime/headercollection)
+* class [Pop3Client](../../pop3client)
+* 命名空间 [Aspose.Email.Clients.Pop3](../../pop3client)
+* 部件 [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

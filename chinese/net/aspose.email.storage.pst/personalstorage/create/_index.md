@@ -1,0 +1,237 @@
+---
+title: Create
+second_title: Aspose.Email for .NET API 参考
+description: 创建具有指定文件名的新 PST 文件
+type: docs
+weight: 20
+url: /zh/net/aspose.email.storage.pst/personalstorage/create/
+---
+## Create(string, FileFormatVersion, CancellationToken) {#create_5}
+
+创建具有指定文件名的新 PST 文件。
+
+```csharp
+public static PersonalStorage Create(string fileName, FileFormatVersion version, 
+    CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| fileName | String | 文件的全名。 |
+| version | FileFormatVersion | PST 文件版本。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+代表新 PST 的 PersonalStorage 对象。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| ArgumentNullException | 如果文件名为空或为空，则抛出 |
+
+### 评论
+
+注意，现在只支持创建 Unicode 文件版本。
+
+### 也可以看看
+
+* enum [FileFormatVersion](../../fileformatversion)
+* class [PersonalStorage](../../personalstorage)
+* 命名空间 [Aspose.Email.Storage.Pst](../../personalstorage)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Create(Stream, FileFormatVersion, CancellationToken) {#create_3}
+
+在流中创建 PST。
+
+```csharp
+public static PersonalStorage Create(Stream stream, FileFormatVersion version, 
+    CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| stream | Stream | 在其中创建 PST 的流。 |
+| version | FileFormatVersion | PST 文件版本。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+代表新 PST 的 PersonalStorage 对象。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| ArgumentNullException | 如果文件名为空或为空，则抛出 |
+
+### 评论
+
+注意，现在只支持创建 Unicode 文件版本。
+
+### 也可以看看
+
+* enum [FileFormatVersion](../../fileformatversion)
+* class [PersonalStorage](../../personalstorage)
+* 命名空间 [Aspose.Email.Storage.Pst](../../personalstorage)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Create(Stream, FileFormatVersion, bool, CancellationToken) {#create_2}
+
+在流中创建 PST。
+
+```csharp
+public static PersonalStorage Create(Stream stream, FileFormatVersion version, 
+    bool leaveStreamOpen, CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| stream | Stream | 在其中创建 PST 的流。 |
+| version | FileFormatVersion | PST 文件版本。 |
+| leaveStreamOpen | Boolean | 释放 PersonalStorage 时保持流打开。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+代表新 PST 的 PersonalStorage 对象。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| ArgumentNullException | 如果文件名为空或为空，则抛出 |
+
+### 评论
+
+注意，现在只支持创建 Unicode 文件版本。
+
+### 也可以看看
+
+* enum [FileFormatVersion](../../fileformatversion)
+* class [PersonalStorage](../../personalstorage)
+* 命名空间 [Aspose.Email.Storage.Pst](../../personalstorage)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Create(string, FileFormatVersion) {#create_4}
+
+创建具有指定文件名的新 PST 文件。
+
+```csharp
+public static PersonalStorage Create(string fileName, FileFormatVersion version)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| fileName | String | 文件的全名。 |
+| version | FileFormatVersion | PST 文件版本。 |
+
+### 返回值
+
+代表新 PST 的 PersonalStorage 对象。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| ArgumentNullException | 如果文件名为空或为空，则抛出 |
+
+### 评论
+
+注意，现在只支持创建 Unicode 文件版本。
+
+### 也可以看看
+
+* enum [FileFormatVersion](../../fileformatversion)
+* class [PersonalStorage](../../personalstorage)
+* 命名空间 [Aspose.Email.Storage.Pst](../../personalstorage)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Create(Stream, FileFormatVersion) {#create}
+
+在流中创建 PST。
+
+```csharp
+public static PersonalStorage Create(Stream stream, FileFormatVersion version)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| stream | Stream | 在其中创建 PST 的流。 |
+| version | FileFormatVersion | PST 文件版本。 |
+
+### 返回值
+
+代表新 PST 的 PersonalStorage 对象。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| ArgumentNullException | 如果流为空则抛出 |
+
+### 评论
+
+注意，现在只支持创建 Unicode 文件版本。
+
+### 也可以看看
+
+* enum [FileFormatVersion](../../fileformatversion)
+* class [PersonalStorage](../../personalstorage)
+* 命名空间 [Aspose.Email.Storage.Pst](../../personalstorage)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Create(Stream, FileFormatVersion, bool) {#create_1}
+
+在流中创建 PST。
+
+```csharp
+public static PersonalStorage Create(Stream stream, FileFormatVersion version, bool leaveStreamOpen)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| stream | Stream | 在其中创建 PST 的流。 |
+| version | FileFormatVersion | PST 文件版本。 |
+| leaveStreamOpen | Boolean | 释放 PersonalStorage 时保持流打开。 |
+
+### 返回值
+
+代表新 PST 的 PersonalStorage 对象。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| NotImplementedException | 如果创建 ANSI 文件版本则抛出 |
+| ArgumentNullException | 如果流为空则抛出 |
+
+### 评论
+
+注意，现在只支持创建 Unicode 文件版本。
+
+### 也可以看看
+
+* enum [FileFormatVersion](../../fileformatversion)
+* class [PersonalStorage](../../personalstorage)
+* 命名空间 [Aspose.Email.Storage.Pst](../../personalstorage)
+* 部件 [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

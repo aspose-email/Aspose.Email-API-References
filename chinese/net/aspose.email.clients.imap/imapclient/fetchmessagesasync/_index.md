@@ -1,0 +1,224 @@
+---
+title: FetchMessagesAsync
+second_title: Aspose.Email for .NET API 参考
+description: 异步获取消息
+type: docs
+weight: 680
+url: /zh/net/aspose.email.clients.imap/imapclient/fetchmessagesasync/
+---
+## FetchMessagesAsync(IEnumerable&lt;int&gt;) {#fetchmessagesasync_4}
+
+异步获取消息
+
+```csharp
+public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumbers)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| sequenceNumbers | IEnumerable`1 | 消息的序号 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## FetchMessagesAsync(IEnumerable&lt;string&gt;) {#fetchmessagesasync_6}
+
+异步获取消息
+
+```csharp
+public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| uids | IEnumerable`1 | 消息的序号 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## FetchMessagesAsync(IConnection, IEnumerable&lt;int&gt;) {#fetchmessagesasync}
+
+异步获取消息
+
+```csharp
+public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, 
+    IEnumerable<int> sequenceNumbers)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| sequenceNumbers | IEnumerable`1 | 消息的序列号 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## FetchMessagesAsync(IConnection, IEnumerable&lt;string&gt;) {#fetchmessagesasync_2}
+
+异步获取消息
+
+```csharp
+public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, IEnumerable<string> uids)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| uids | IEnumerable`1 | 消息的序列号 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## FetchMessagesAsync(IEnumerable&lt;int&gt;, CancellationToken) {#fetchmessagesasync_5}
+
+异步获取消息
+
+```csharp
+public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumbers, 
+    CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| sequenceNumbers | IEnumerable`1 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## FetchMessagesAsync(IEnumerable&lt;string&gt;, CancellationToken) {#fetchmessagesasync_7}
+
+异步获取消息
+
+```csharp
+public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids, 
+    CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| uids | IEnumerable`1 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## FetchMessagesAsync(IConnection, IEnumerable&lt;int&gt;, CancellationToken) {#fetchmessagesasync_1}
+
+异步获取消息
+
+```csharp
+public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, 
+    IEnumerable<int> sequenceNumbers, CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| sequenceNumbers | IEnumerable`1 | 消息的序列号 |
+| token | CancellationToken | 传播应该取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## FetchMessagesAsync(IConnection, IEnumerable&lt;string&gt;, CancellationToken) {#fetchmessagesasync_3}
+
+异步获取消息
+
+```csharp
+public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, 
+    IEnumerable<string> uids, CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| uids | IEnumerable`1 | 消息的序列号 |
+| token | CancellationToken | 传播应该取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [MailMessage](../../../aspose.email/mailmessage)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

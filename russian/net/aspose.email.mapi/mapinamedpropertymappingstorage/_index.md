@@ -1,0 +1,66 @@
+---
+title: MapiNamedPropertyMappingStorage
+second_title: Справочник по Aspose.Email для .NET API
+description: Представляет отображение именованного свойства
+type: docs
+weight: 18490
+url: /ru/net/aspose.email.mapi/mapinamedpropertymappingstorage/
+---
+## MapiNamedPropertyMappingStorage class
+
+Представляет отображение именованного свойства
+
+```csharp
+public sealed class MapiNamedPropertyMappingStorage : MapiPropertyContainer
+```
+
+## Конструкторы
+
+| Имя | Описание |
+| --- | --- |
+| [MapiNamedPropertyMappingStorage](mapinamedpropertymappingstorage)() | Инициализирует новый экземпляр класса[`MapiNamedPropertyMappingStorage`](../mapinamedpropertymappingstorage). |
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| virtual [CodePage](../../aspose.email.mapi/mapipropertycontainer/codepage) { get; } | Получает кодовую страницу. |
+| [Content](../../aspose.email.mapi/mapinamedpropertymappingstorage/content) { get; } | Получает содержимое |
+| [Name](../../aspose.email.mapi/mapinamedpropertymappingstorage/name) { get; } | Получает имя |
+| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties) { get; } | Получает коллекцию свойств. |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [AddNamedPropertyMapping](../../aspose.email.mapi/mapinamedpropertymappingstorage/addnamedpropertymapping#addnamedpropertymapping)(MapiProperty, long, Guid) | Добавляет сопоставление именованного свойства для числового именованного свойства. |
+| [AddNamedPropertyMapping](../../aspose.email.mapi/mapinamedpropertymappingstorage/addnamedpropertymapping#addnamedpropertymapping_1)(MapiProperty, string, Guid) | Добавляет отображение именованного свойства для строкового именованного свойства. |
+| [GetNextAvailablePropertyId](../../aspose.email.mapi/mapinamedpropertymappingstorage/getnextavailablepropertyid)(MapiPropertyType) | Получает идентификатор следующего доступного свойства в потоке записей на основе типа данных свойства. |
+| virtual [GetProperty](../../aspose.email.mapi/mapipropertycontainer/getproperty)(PropertyDescriptor) | Получает свойство MAPI по дескриптору свойства. |
+| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | Получает значение свойства, указанного тегом, как булев тип. |
+| [GetPropertyBytes](../../aspose.email.mapi/mapipropertycontainer/getpropertybytes)(long) | Получает строковое значение свойства, указанного тегом. |
+| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime)(long) | Получает значение свойства, указанного тегом, как тип DateTime. |
+| [GetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/getpropertyint32)(long) | Получает значение int32 свойства, указанного тегом. |
+| [GetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/getpropertylong)(long) | Получает значение свойства, указанного тегом, типа Long (int64). |
+| [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort)(long) | Получает значение свойства, указанного тегом, типа Short. |
+| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long) | Получает строковое значение свойства, указанного тегом. |
+| [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long, int) | Получает строковое значение свойства, указанного тегом. |
+| [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Определяет, закодированы ли строковые свойства в Unicode или нет. |
+| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty)(MapiProperty) | Устанавливает свойство. |
+| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty)(PropertyDescriptor, object) | Устанавливает свойство MAPI. |
+| [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata)(long) | Попытаться получить данные свойства с указанным ключом тега. |
+| [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime)(long, ref DateTime) | Получает значение указанного свойства как тип DateTime. Возвращаемое значение указывает, успешно ли выполнена операция. |
+| [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32)(long, ref int) | Получает значение указанного свойства как тип Int32. Возвращаемое значение указывает, успешно ли выполнена операция. |
+| [TryGetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/trygetpropertylong)(long, ref long) | Получает значение указанного свойства как тип Long. Возвращаемое значение указывает, успешно ли выполнена операция. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long) | Попытаться получить данные свойства в виде строки с указанным тегом. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long, int) | Попытаться получить данные свойства в виде строки с указанным тегом и кодовой страницей. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long, ref string) | Получает значение указанного свойства как тип String. Возвращаемое значение указывает, успешно ли выполнена операция. |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long, ref string, int) | Получает значение указанного свойства как тип String. Возвращаемое значение указывает, успешно ли выполнена операция. |
+
+### Смотрите также
+
+* class [MapiPropertyContainer](../mapipropertycontainer)
+* пространство имен [Aspose.Email.Mapi](../../aspose.email.mapi)
+* сборка [Aspose.Email](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
