@@ -1,0 +1,242 @@
+---
+title: Find
+second_title: Aspose.Email for .NET API 参考
+description: 根据其 PropertySet 在列表中查找属性
+type: docs
+weight: 100
+url: /zh/net/aspose.email.mapi/knownpropertylist/find/
+---
+## Find(params Guid[]) {#find_8}
+
+根据其 PropertySet 在列表中查找属性
+
+```csharp
+public PropertyDescriptor[] Find(params Guid[] propertySets)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| propertySets | Guid[] | PropertySet to查找 |
+
+### 返回值
+
+数组[`PropertyDescriptor`](../../propertydescriptor)如果在列表中找到具有所需 PropertySet 的对象；否则为空数组。
+
+### 也可以看看
+
+* class [PropertyDescriptor](../../propertydescriptor)
+* class [KnownPropertyList](../../knownpropertylist)
+* 命名空间 [Aspose.Email.Mapi](../../knownpropertylist)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Find(string) {#find_7}
+
+在列表中查找具有指定名称的属性
+
+```csharp
+public PropertyDescriptor Find(string name)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| name | String | 使用的名称指财产。 |
+
+### 返回值
+
+[`PropertyDescriptor`](../../propertydescriptor)对象（如果在列表中找到）；否则为空。
+
+### 也可以看看
+
+* class [PropertyDescriptor](../../propertydescriptor)
+* class [KnownPropertyList](../../knownpropertylist)
+* 命名空间 [Aspose.Email.Mapi](../../knownpropertylist)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Find(int, PropertyDataType) {#find_4}
+
+在列表
+
+```csharp
+public PidTagPropertyDescriptor Find(int id, PropertyDataType type)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| id | Int32 | id 查找 |
+| type | PropertyDataType | 属性的数据类型 |
+
+### 返回值
+
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)具有已定义标记的对象（如果在列表中找到）；否则为空。
+
+### 也可以看看
+
+* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
+* enum [PropertyDataType](../../propertydatatype)
+* class [KnownPropertyList](../../knownpropertylist)
+* 命名空间 [Aspose.Email.Mapi](../../knownpropertylist)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Find(int) {#find_6}
+
+在列表
+
+```csharp
+public PidTagPropertyDescriptor[] Find(int id)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| id | Int32 | id 查找 |
+
+### 返回值
+
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)对象数组如果在列表中找到，则带有定义的标签；否则为空数组。
+
+### 也可以看看
+
+* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
+* class [KnownPropertyList](../../knownpropertylist)
+* 命名空间 [Aspose.Email.Mapi](../../knownpropertylist)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Find(long) {#find_5}
+
+在列表
+
+```csharp
+public PidTagPropertyDescriptor Find(long tag)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| tag | Int64 | 标记以查找 |
+
+### 返回值
+
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)已定义的对象如果在列表中找到标记；否则为空。
+
+### 也可以看看
+
+* class [PidTagPropertyDescriptor](../../pidtagpropertydescriptor)
+* class [KnownPropertyList](../../knownpropertylist)
+* 命名空间 [Aspose.Email.Mapi](../../knownpropertylist)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Find(string, PropertyDataType, Guid) {#find_2}
+
+根据所需参数在列表中查找 [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) 属性
+
+```csharp
+public PidNamePropertyDescriptor Find(string name, PropertyDataType type, Guid propertySet)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| name | String | 属性的名称 |
+| type | PropertyDataType | 属性的数据类型 |
+| propertySet | Guid | 属性的PropertySet |
+
+### 返回值
+
+[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) 对象（如果在列表中找到）； 否则为空。
+
+### 也可以看看
+
+* class [PidNamePropertyDescriptor](../../pidnamepropertydescriptor)
+* enum [PropertyDataType](../../propertydatatype)
+* class [KnownPropertyList](../../knownpropertylist)
+* 命名空间 [Aspose.Email.Mapi](../../knownpropertylist)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Find(string, Guid) {#find_3}
+
+根据所需参数在列表中查找[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)属性 这是简化的没有数据类型比较的搜索操作。
+
+```csharp
+public PidNamePropertyDescriptor Find(string name, Guid propertySet)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| name | String | 属性名称 |
+| propertySet | Guid | 属性集属性 |
+
+### 返回值
+
+[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)对象（如果在列表中找到）；否则为空。
+
+### 也可以看看
+
+* class [PidNamePropertyDescriptor](../../pidnamepropertydescriptor)
+* class [KnownPropertyList](../../knownpropertylist)
+* 命名空间 [Aspose.Email.Mapi](../../knownpropertylist)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Find(long, PropertyDataType, Guid) {#find}
+
+根据所需参数在列表中查找[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)属性
+
+```csharp
+public PidLidPropertyDescriptor Find(long lid, PropertyDataType type, Guid propertySet)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| lid | Int64 | 属性的长 ID |
+| type | PropertyDataType | 属性的数据类型 |
+| propertySet | Guid | 属性的 PropertySet |
+
+### 返回值
+
+[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)对象 if在列表中找到；否则为空。
+
+### 也可以看看
+
+* class [PidLidPropertyDescriptor](../../pidlidpropertydescriptor)
+* enum [PropertyDataType](../../propertydatatype)
+* class [KnownPropertyList](../../knownpropertylist)
+* 命名空间 [Aspose.Email.Mapi](../../knownpropertylist)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## Find(long, Guid) {#find_1}
+
+根据所需参数在列表中查找[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)属性 这是简化的没有数据类型比较的搜索操作。
+
+```csharp
+public PidLidPropertyDescriptor Find(long lid, Guid propertySet)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| lid | Int64 | 属性的长 ID |
+| propertySet | Guid | PropertySet of属性 |
+
+### 返回值
+
+[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)对象（如果在列表中找到）；否则为空。
+
+### 也可以看看
+
+* class [PidLidPropertyDescriptor](../../pidlidpropertydescriptor)
+* class [KnownPropertyList](../../knownpropertylist)
+* 命名空间 [Aspose.Email.Mapi](../../knownpropertylist)
+* 部件 [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

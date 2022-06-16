@@ -1,0 +1,217 @@
+---
+title: IntroduceClientAsync
+second_title: Aspose.Email for .NET API 参考
+description: 将客户端信息引入服务器
+type: docs
+weight: 800
+url: /zh/net/aspose.email.clients.imap/imapclient/introduceclientasync/
+---
+## IntroduceClientAsync() {#introduceclientasync}
+
+将客户端信息引入服务器。
+
+```csharp
+public Task<ImapIdentificationInfo> IntroduceClientAsync()
+```
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## IntroduceClientAsync(IConnection) {#introduceclientasync_1}
+
+将客户端信息引入服务器。
+
+```csharp
+public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+
+### 返回值
+
+任务对象，带委托对于这个操作
+
+### 也可以看看
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## IntroduceClientAsync(ImapIdentificationInfo) {#introduceclientasync_5}
+
+将客户端信息引入服务器。
+
+```csharp
+public Task<ImapIdentificationInfo> IntroduceClientAsync(
+    ImapIdentificationInfo clientIdentificationInfo)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户端识别信息 |
+
+### 返回值
+
+任务对象，委托为这个操作
+
+### 也可以看看
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## IntroduceClientAsync(IConnection, ImapIdentificationInfo) {#introduceclientasync_2}
+
+将客户端信息引入服务器。
+
+```csharp
+public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection, 
+    ImapIdentificationInfo clientIdentificationInfo)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户端识别信息 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## IntroduceClientAsync(CancellationToken) {#introduceclientasync_7}
+
+将客户端信息引入服务器。
+
+```csharp
+public Task<ImapIdentificationInfo> IntroduceClientAsync(CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## IntroduceClientAsync(IConnection, CancellationToken) {#introduceclientasync_4}
+
+将客户端信息引入服务器。
+
+```csharp
+public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection, 
+    CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| token | CancellationToken | 传播通知应取消操作。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## IntroduceClientAsync(ImapIdentificationInfo, CancellationToken) {#introduceclientasync_6}
+
+将客户端信息引入服务器。
+
+```csharp
+public Task<ImapIdentificationInfo> IntroduceClientAsync(
+    ImapIdentificationInfo clientIdentificationInfo, CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户端标识信息 |
+| token | CancellationToken | 传播操作通知应该取消。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## IntroduceClientAsync(IConnection, ImapIdentificationInfo, CancellationToken) {#introduceclientasync_3}
+
+将客户端信息引入服务器。
+
+```csharp
+public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection, 
+    ImapIdentificationInfo clientIdentificationInfo, CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户端识别信息 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+任务对象，带有此操作的委托
+
+### 也可以看看
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
