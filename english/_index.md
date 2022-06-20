@@ -4,6 +4,7 @@ additionalTitle: Aspose API References
 type: docs
 is_root: true
 weight: 10
+description: "Develop Low Code email processing application for self-hosted or Cloud platforms. Aspose.Email allows you to process, convert and inspect Microsoft Outlook formats."
 url: /
 ---
 

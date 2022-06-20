@@ -4,6 +4,7 @@ additionalTitle: Ссылки на API Aspose
 type: docs
 is_root: true
 weight: 10
+description: "Разработайте приложение для обработки электронной почты с низким кодом для собственных или облачных платформ. Aspose.Email позволяет обрабатывать, конвертировать и проверять форматы Microsoft Outlook."
 url: /ru/
 ---
 
