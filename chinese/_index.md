@@ -4,6 +4,7 @@ additionalTitle: Aspose API 参考
 type: docs
 is_root: true
 weight: 10
+description: "为自托管或云平台开发低代码电子邮件处理应用程序。 Aspose.Email 允许您处理、转换和检查 Microsoft Outlook 格式。"
 url: /zh/
 ---
 
