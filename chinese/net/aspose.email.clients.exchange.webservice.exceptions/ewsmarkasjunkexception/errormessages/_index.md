@@ -1,14 +1,14 @@
 ---
 title: ErrorMessages
 second_title: Aspose.Email for .NET API 参考
-description: 失败操作的错误消息
+description: 操作失败的错误消息
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/errormessages/
 ---
 ## EwsMarkAsJunkException.ErrorMessages property
 
-失败操作的错误消息
+操作失败的错误消息
 
 ```csharp
 public IEnumerable<string> ErrorMessages { get; }

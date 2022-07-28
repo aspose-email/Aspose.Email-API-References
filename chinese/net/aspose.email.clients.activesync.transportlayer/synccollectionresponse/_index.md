@@ -25,9 +25,9 @@ public class SyncCollectionResponse
 | 姓名 | 描述 |
 | --- | --- |
 | [Class](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/class) { get; set; } | 标识要添加到集合中的项目的类。 仅在协议版本为 12.1 时使用。 |
-| [CollectionId](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/collectionid) { get; set; } | 指定要同步的文件夹的服务器ID。 |
-| [Commands](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/commands) { get; set; } | 包含适用于集合的操作。可用的操作包括添加、删除、更改、软删除。 |
-| [MoreAvailable](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/moreavailable) { get; set; } | 表示有比 WindowSize 元素中请求的数量更多的更改。 在 Exchange 2007 中，当遇到协议外部的元素时，服务器会发送包含 MoreAvailable 并且介于零 (0) 和 WindowSize 架构更改之间的同步响应消息。 |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/collectionid) { get; set; } | 指定要同步的文件夹的服务器 ID。 |
+| [Commands](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/commands) { get; set; } | 包含适用于集合的操作。可用的操作包括添加、删除、更改、SoftDelete. |
+| [MoreAvailable](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/moreavailable) { get; set; } | 表示更改数量多于 WindowSize 元素中请求的数量。 在 Exchange 2007 中，当遇到协议外部的元素时，服务器会发送包含 MoreAvailable 且介于零 (0) 和 WindowSize 架构更改之间的同步响应消息。 |
 | [Responses](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/responses) { get; set; } | 包含对服务器处理的 Add、Fetch、Change 等操作的响应。 |
 | [Status](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/status) { get; set; } | 指示命令操作的状态 |
 | [SyncKey](../../aspose.email.clients.activesync.transportlayer/synccollectionresponse/synckey) { get; set; } | SyncKey 值被服务器用来标记集合的同步状态。 值为 0（零）的同步键初始化服务器上的同步状态并导致集合的完全同步。 |

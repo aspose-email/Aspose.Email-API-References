@@ -1,14 +1,14 @@
 ---
 title: LocaleId
 second_title: Aspose.Email for .NET API 参考
-description: 包含登录对象 LocaleID 区域其他属性 规范名称PidTagLocaleId 替代名称PR_LOCALE_ID ptagLocaleId
+description: 包含登录对象 LocaleID 区域其他属性 规范名称PidTagLocaleId 备用名称PR_LOCALE_IDptagLocaleId
 type: docs
 weight: 12170
 url: /zh/net/aspose.email.mapi/knownpropertylist/localeid/
 ---
 ## KnownPropertyList.LocaleId field
 
-包含登录对象 LocaleID。 区域:其他属性 规范名称:PidTagLocaleId 替代名称:PR_LOCALE_ID, ptagLocaleId
+包含登录对象 LocaleID。 区域：其他属性 规范名称：PidTagLocaleId 备用名称：PR_LOCALE_ID、ptagLocaleId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LocaleId;

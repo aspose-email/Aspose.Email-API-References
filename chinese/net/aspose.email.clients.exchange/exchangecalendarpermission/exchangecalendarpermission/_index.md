@@ -1,14 +1,14 @@
 ---
 title: ExchangeCalendarPermission
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 ExchangeFolderPermissionaspose.email.clients.exchange/exchangefolderpermission 班级
+description: 初始化ExchangeFolderPermissionaspose.email.clients.exchange/exchangefolderpermission class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/exchangecalendarpermission/exchangecalendarpermission/
 ---
 ## ExchangeCalendarPermission constructor
 
-初始化一个新的实例 [`ExchangeFolderPermission`](../../exchangefolderpermission) 班级
+初始化[`ExchangeFolderPermission`](../../exchangefolderpermission) class
 
 ```csharp
 public ExchangeCalendarPermission(ExchangeFolderUserInfo userInfo)
@@ -22,7 +22,7 @@ public ExchangeCalendarPermission(ExchangeFolderUserInfo userInfo)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *userInfo* 是 `null` |
+| ArgumentNullException | *userInfo*是`无效的` |
 
 ### 也可以看看
 

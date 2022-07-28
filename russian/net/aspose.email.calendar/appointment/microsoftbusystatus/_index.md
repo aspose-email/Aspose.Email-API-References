@@ -1,14 +1,14 @@
 ---
 title: MicrosoftBusyStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает статус встречи ЗАНЯТ.
+description: Определяет статус встречи BUSY.
 type: docs
-weight: 150
+weight: 160
 url: /ru/net/aspose.email.calendar/appointment/microsoftbusystatus/
 ---
 ## Appointment.MicrosoftBusyStatus property
 
-Указывает статус встречи «ЗАНЯТ».
+Определяет статус встречи BUSY.
 
 ```csharp
 public MSBusyStatus MicrosoftBusyStatus { get; set; }

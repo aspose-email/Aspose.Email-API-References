@@ -3,7 +3,7 @@ title: Recurrence
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置重复模式
 type: docs
-weight: 200
+weight: 210
 url: /zh/net/aspose.email.calendar/appointment/recurrence/
 ---
 ## Appointment.Recurrence property

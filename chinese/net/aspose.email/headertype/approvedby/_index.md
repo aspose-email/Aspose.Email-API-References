@@ -8,7 +8,7 @@ url: /zh/net/aspose.email/headertype/approvedby/
 ---
 ## HeaderType.ApprovedBy property
 
-邮件发送到的邮件列表的版主名称；必须在发送到主持邮件列表的帖子中才能将其分发给列表成员。 示例: 批准人:someone@somedomain.com 非标准用于电子邮件。在 RFC1036 中定义。
+邮件发送到的邮件列表的版主名称；必须在发送到主持邮件列表的帖子中才能将其分发给列表成员。 示例： 批准人：someone@somedomain.com 非标准用于电子邮件。在 RFC1036 中定义。
 
 ```csharp
 public static HeaderType ApprovedBy { get; }

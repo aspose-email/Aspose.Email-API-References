@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的页数 区域普通 规范名称PidNamePageCount 替代名称urnschemas-microsoft-comofficeofficePages
+description: 指定附加到文档对象的文件的页数 区域Common 规范名称PidNamePageCount 备用名称urnschemas-microsoft-comofficeofficePages
 type: docs
 weight: 14150
 url: /zh/net/aspose.email.mapi/knownpropertylist/pagecount/
 ---
 ## KnownPropertyList.PageCount field
 
-指定附加到 Document 对象的文件的页数。 区域：普通 规范名称：PidNamePageCount 替代名称：urn:schemas-microsoft-com:office:office#Pages
+指定附加到文档对象的文件的页数。 区域：Common 规范名称：PidNamePageCount 备用名称：urn:schemas-microsoft-com:office:office#Pages
 
 ```csharp
 public static readonly PidNamePropertyDescriptor PageCount;

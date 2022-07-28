@@ -16,7 +16,7 @@ public SmtpSend AddMessage(string from, string recipients, string subject, strin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| from | String | 包含消息发送者地址的字符串。 |
+| from | String | 一个包含消息发送者地址的字符串。 |
 | recipients | String | 包含收件人地址的字符串。 |
 | subject | String | 消息的主题。 |
 | body | String | 消息体。 |

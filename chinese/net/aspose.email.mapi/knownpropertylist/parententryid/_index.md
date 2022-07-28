@@ -1,14 +1,14 @@
 ---
 title: ParentEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件或子文件夹所在文件夹的 EntryID 区域ID 属性 规范名称PidTagParentEntryId 备用名称PR_PARENT_ENTRYID ptagParentEntryId
+description: 包含消息或子文件夹所在文件夹的 EntryID 区域ID Properties 规范名称PidTagParentEntryId 备用名称PR_PARENT_ENTRYIDptagParentEntryId
 type: docs
 weight: 14190
 url: /zh/net/aspose.email.mapi/knownpropertylist/parententryid/
 ---
 ## KnownPropertyList.ParentEntryId field
 
-包含邮件或子文件夹所在文件夹的 EntryID。 区域:ID 属性 规范名称:PidTagParentEntryId 备用名称:PR_PARENT_ENTRYID, ptagParentEntryId
+包含消息或子文件夹所在文件夹的 EntryID。 区域：ID Properties 规范名称：PidTagParentEntryId 备用名称：PR_PARENT_ENTRYID、ptagParentEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ParentEntryId;

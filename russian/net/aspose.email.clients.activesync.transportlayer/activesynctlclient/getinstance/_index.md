@@ -16,8 +16,8 @@ public static IActiveSyncTLClient GetInstance(string uri, NetworkCredential cred
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uri | String | сервер uri |
-| учетныеданные | NetworkCredential | учетные данные пользователя |
+| uri | String | uri сервера |
+| credentials | NetworkCredential | учетные данные пользователя |
 
 ### Возвращаемое значение
 
@@ -43,9 +43,9 @@ public static IActiveSyncTLClient GetInstance(string uri, NetworkCredential cred
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uri | String | server uri |
-| учетныеданные | NetworkCredential | учетные данные пользователя |
-| версия | ASProtocolVersions | Версия протокола ActiveSync |
+| uri | String | uri сервера |
+| credentials | NetworkCredential | учетные данные пользователя |
+| version | ASProtocolVersions | Версия протокола ActiveSync |
 
 ### Возвращаемое значение
 

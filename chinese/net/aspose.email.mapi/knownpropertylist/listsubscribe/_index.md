@@ -1,14 +1,14 @@
 ---
 title: ListSubscribe
 second_title: Aspose.Email for .NET API 参考
-description: 包含将收件人订阅到消息关联邮件列表的 URI 区域杂项属性 规范名称PidTagListSubscribe 替代名称PR_LIST_SUBSCRIBEPR_LIST_SUBSCRIBE_APR_LIST_SUBSCRIBE_W
+description: 包含将收件人订阅到邮件的关联邮件列表的 URI 区域杂项属性 规范名称PidTagListSubscribe 替代名称PR_LIST_SUBSCRIBEPR_LIST_SUBSCRIBE_APR_LIST_SUBSCRIBE_W
 type: docs
 weight: 12130
 url: /zh/net/aspose.email.mapi/knownpropertylist/listsubscribe/
 ---
 ## KnownPropertyList.ListSubscribe field
 
-包含将收件人订阅到消息关联邮件列表的 URI。 区域:杂项属性 规范名称:PidTagListSubscribe 替代名称:PR_LIST_SUBSCRIBE、PR_LIST_SUBSCRIBE_A、PR_LIST_SUBSCRIBE_W
+包含将收件人订阅到邮件的关联邮件列表的 URI。 区域：杂项属性 规范名称：PidTagListSubscribe 替代名称：PR_LIST_SUBSCRIBE、PR_LIST_SUBSCRIBE_A、PR_LIST_SUBSCRIBE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ListSubscribe;

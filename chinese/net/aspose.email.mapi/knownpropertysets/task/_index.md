@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/task/
 ---
 ## KnownPropertySets.Task field
 
-区域名称:任务 属性集名称:PSETID_Task
+区域名称：任务 属性集名称：PSETID_Task
 
 ```csharp
 public static readonly Guid Task;

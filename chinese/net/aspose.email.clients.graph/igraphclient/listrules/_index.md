@@ -1,14 +1,14 @@
 ---
 title: ListRules
 second_title: Aspose.Email for .NET API 参考
-description: 获取为用户收件箱定义的所有 messageRule 对象 权限 调用此 API 需要以下权限之一要了解更多信息包括如何选择权限请参阅权限 委派工作或学校帐户MailboxSettings.Read 委派个人 Microsoft 帐户MailboxSettings.Read 应用程序邮箱设置.读取
+description: 获取为用户收件箱定义的所有 messageRule 对象 Permissions 调用此 API 需要以下权限之一要了解更多信息包括如何选择权限请参阅 Permissions. Delegated工作或学校帐户MailboxSettings.Read 委托个人 Microsoft 帐户MailboxSettings.Read 应用程序 MailboxSettings.Read
 type: docs
 weight: 330
 url: /zh/net/aspose.email.clients.graph/igraphclient/listrules/
 ---
 ## IGraphClient.ListRules method
 
-获取为用户收件箱定义的所有 messageRule 对象。 权限 调用此 API 需要以下权限之一。要了解更多信息，包括如何选择权限，请参阅权限。 委派（工作或学校帐户）MailboxSettings.Read 委派（个人 Microsoft 帐户）MailboxSettings.Read 应用程序邮箱设置.读取
+获取为用户收件箱定义的所有 messageRule 对象。 Permissions 调用此 API 需要以下权限之一。要了解更多信息，包括如何选择权限，请参阅 Permissions. Delegated（工作或学校帐户）MailboxSettings.Read 委托（个人 Microsoft 帐户）MailboxSettings.Read 应用程序 MailboxSettings.Read
 
 ```csharp
 public List<InboxRule> ListRules()

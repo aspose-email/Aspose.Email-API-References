@@ -1,14 +1,14 @@
 ---
 title: PstEncryption
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PST_ENCRYPTION
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_PST_ENCRYPTION
 type: docs
 weight: 15090
 url: /zh/net/aspose.email.mapi/knownpropertylist/pstencryption/
 ---
 ## KnownPropertyList.PstEncryption field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PST_ENCRYPTION
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_PST_ENCRYPTION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PstEncryption;

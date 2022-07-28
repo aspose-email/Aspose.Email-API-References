@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.calendar/appointmentformattingoptions/descriptionforma
 ---
 ## AppointmentFormattingOptions.DescriptionFormat property
 
-获取或设置描述格式。
+获取或设置描述格式
 
 ```csharp
 public string DescriptionFormat { get; set; }

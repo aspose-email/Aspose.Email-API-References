@@ -1,14 +1,14 @@
 ---
 title: OriginalMessageClass
 second_title: Aspose.Email for .NET API 参考
-description: 指定原始消息中的 PidTagMessageClass 属性MS-OXCMSG 第 2.2.1.3 节 区域安全消息传递属性 规范名称PidTagOriginalMessageClass 替代名称PR_ORIG_MESSAGE_CLASSPR_ORIG_MESSAGE_CLASS_APR_ORIG_MESSAGE_CLASS_W
+description: 指定原始消息中的 PidTagMessageClass 属性MS-OXCMSG 第 2.2.1.3 节 区域安全消息属性 规范名称PidTagOriginalMessageClass 替代名称PR_ORIG_MESSAGE_CLASSPR_ORIG_MESSAGE_CLASS_APR_ORIG_MESSAGE_CLASS_W
 type: docs
 weight: 13630
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalmessageclass/
 ---
 ## KnownPropertyList.OriginalMessageClass field
 
-指定原始消息中的 PidTagMessageClass 属性（[MS-OXCMSG] 第 2.2.1.3 节）。 区域:安全消息传递属性 规范名称:PidTagOriginalMessageClass 替代名称:PR_ORIG_MESSAGE_CLASS、PR_ORIG_MESSAGE_CLASS_A、PR_ORIG_MESSAGE_CLASS_W
+指定原始消息中的 PidTagMessageClass 属性（[MS-OXCMSG] 第 2.2.1.3 节）。 区域：安全消息属性 规范名称：PidTagOriginalMessageClass 替代名称：PR_ORIG_MESSAGE_CLASS、PR_ORIG_MESSAGE_CLASS_A、PR_ORIG_MESSAGE_CLASS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalMessageClass;

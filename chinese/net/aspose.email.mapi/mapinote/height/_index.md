@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/mapinote/height/
 ---
 ## MapiNote.Height property
 
-获取或设置可见消息窗口的高度（以像素为单位）
+获取或设置可见消息窗口的高度，以像素为单位
 
 ```csharp
 public int Height { get; set; }

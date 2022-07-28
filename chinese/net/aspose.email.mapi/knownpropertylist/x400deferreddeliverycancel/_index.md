@@ -1,14 +1,14 @@
 ---
 title: X400DeferredDeliveryCancel
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_X400_DEFERRED_DELIVERY_CANCEL
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_X400_DEFERRED_DELIVERY_CANCEL
 type: docs
 weight: 19640
 url: /zh/net/aspose.email.mapi/knownpropertylist/x400deferreddeliverycancel/
 ---
 ## KnownPropertyList.X400DeferredDeliveryCancel field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_X400_DEFERRED_DELIVERY_CANCEL
+Microsoft? Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_X400_DEFERRED_DELIVERY_CANCEL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor X400DeferredDeliveryCancel;

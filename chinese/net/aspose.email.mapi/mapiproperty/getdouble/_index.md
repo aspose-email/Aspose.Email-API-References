@@ -1,14 +1,14 @@
 ---
 title: GetDouble
 second_title: Aspose.Email for .NET API 参考
-description: 获取二进制数据的字节为 double
+description: 以双精度获取二进制数据的字节数
 type: docs
 weight: 180
 url: /zh/net/aspose.email.mapi/mapiproperty/getdouble/
 ---
 ## MapiProperty.GetDouble method
 
-获取二进制数据的字节为 double。
+以双精度获取二进制数据的字节数。
 
 ```csharp
 public virtual double GetDouble()
@@ -16,7 +16,7 @@ public virtual double GetDouble()
 
 ### 返回值
 
-双精度值。
+双重价值。
 
 ### 也可以看看
 

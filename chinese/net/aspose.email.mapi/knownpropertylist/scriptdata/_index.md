@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/scriptdata/
 ---
 ## KnownPropertyList.ScriptData field
 
-包含一系列可用于格式化地址的指令以及执行这些指令所需的数据。 区域:地址簿 规范名称:PidTagScriptData 备用名称:PR_EMS_SCRIPT_BLOB
+包含一系列可用于格式化地址的指令以及执行这些指令所需的数据。 区域：地址簿 规范名称：PidTagScriptData 备用名称：PR_EMS_SCRIPT_BLOB
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScriptData;

@@ -1,14 +1,14 @@
 ---
 title: ReminderTimeDate
 second_title: Aspose.Email for .NET API 参考
-description: 表示约会或会议提醒的时间和日期 区域提醒 规范名称PidLidReminderTimeDate 替代名称dispidReminderTimeDate
+description: 表示约会或会议提醒的时间和日期 区域Reminders 规范名称PidLidReminderTimeDate 别名dispidReminderTimeDate
 type: docs
 weight: 15750
 url: /zh/net/aspose.email.mapi/knownpropertylist/remindertimedate/
 ---
 ## KnownPropertyList.ReminderTimeDate field
 
-表示约会或会议提醒的时间和日期。 区域:提醒 规范名称:PidLidReminderTimeDate 替代名称:dispidReminderTimeDate
+表示约会或会议提醒的时间和日期。 区域：Reminders 规范名称：PidLidReminderTimeDate 别名：dispidReminderTimeDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderTimeDate;

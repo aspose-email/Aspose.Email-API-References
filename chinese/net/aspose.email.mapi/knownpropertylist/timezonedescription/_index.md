@@ -1,14 +1,14 @@
 ---
 title: TimeZoneDescription
 second_title: Aspose.Email for .NET API 参考
-description: 指定由 PidLidTimeZoneStruct 属性第 2.342 节中的数据表示的时区的人类可读描述 区域日历 规范名称PidLidTimeZoneDescription 替代名称dispidTimeZoneDesc
+description: 指定由 PidLidTimeZoneStruct 属性第 2.342 节中的数据表示的时区的人类可读描述 区域Calendar 规范名称PidLidTimeZoneDescription 替代名称dispidTimeZoneDesc
 type: docs
 weight: 18980
 url: /zh/net/aspose.email.mapi/knownpropertylist/timezonedescription/
 ---
 ## KnownPropertyList.TimeZoneDescription field
 
-指定由 PidLidTimeZoneStruct 属性（第 2.342 节）中的数据表示的时区的人类可读描述。 区域:日历 规范名称:PidLidTimeZoneDescription 替代名称:dispidTimeZoneDesc
+指定由 PidLidTimeZoneStruct 属性（第 2.342 节）中的数据表示的时区的人类可读描述。 区域：Calendar 规范名称：PidLidTimeZoneDescription 替代名称：dispidTimeZoneDesc
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TimeZoneDescription;

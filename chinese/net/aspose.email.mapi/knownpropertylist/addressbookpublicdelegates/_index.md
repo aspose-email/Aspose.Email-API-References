@@ -1,14 +1,14 @@
 ---
 title: AddressBookPublicDelegates
 second_title: Aspose.Email for .NET API 参考
-description: 包含允许代表邮箱所有者发送电子邮件的邮件用户列表 区域地址簿 规范名称PidTagAddressBookPublicDelegates 备用名称PR_EMS_AB_PUBLIC_DELEGATES PR_EMS_AB_PUBLIC_DELEGATES_A PR_EMS_AB_PUBLIC_DELEGATES_W
+description: 包含允许代表邮箱所有者发送电子邮件的邮件用户列表 区域地址簿 规范名称PidTagAddressBookPublicDelegates 备用名称PR_EMS_AB_PUBLIC_DELEGATESPR_EMS_AB_PUBLIC_DELEGATES_APR_EMS_AB_PUBLIC_DELEGATES_W
 type: docs
 weight: 910
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookpublicdelegates/
 ---
 ## KnownPropertyList.AddressBookPublicDelegates field
 
-包含允许代表邮箱所有者发送电子邮件的邮件用户列表。 区域:地址簿 规范名称:PidTagAddressBookPublicDelegates 备用名称:PR_EMS_AB_PUBLIC_DELEGATES, PR_EMS_AB_PUBLIC_DELEGATES_A, PR_EMS_AB_PUBLIC_DELEGATES_W
+包含允许代表邮箱所有者发送电子邮件的邮件用户列表。 区域：地址簿 规范名称：PidTagAddressBookPublicDelegates 备用名称：PR_EMS_AB_PUBLIC_DELEGATES、PR_EMS_AB_PUBLIC_DELEGATES_A、PR_EMS_AB_PUBLIC_DELEGATES_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookPublicDelegates;

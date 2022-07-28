@@ -1,14 +1,14 @@
 ---
 title: AmpMessage
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MailMessageaspose.email/mailmessage类的新实例
+description: 初始化MailMessageaspose.email/mailmessage class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.amp/ampmessage/ampmessage/
 ---
 ## AmpMessage constructor
 
-初始化[`MailMessage`](../../../aspose.email/mailmessage)类的新实例
+初始化[`MailMessage`](../../../aspose.email/mailmessage) class
 
 ```csharp
 public AmpMessage()

@@ -1,14 +1,14 @@
 ---
 title: CC
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает получателей копии
+description: Получает копии получателей
 type: docs
 weight: 50
 url: /ru/net/aspose.email/imessage/cc/
 ---
 ## IMessage.CC property
 
-Получает получателей копии
+Получает копии получателей
 
 ```csharp
 public ICollection<MailAddress> CC { get; }

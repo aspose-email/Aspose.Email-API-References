@@ -1,14 +1,14 @@
 ---
 title: Home
 second_title: Aspose.Email for .NET API 参考
-description: 联系人的家庭相关站点
+description: 联系人的家庭相关网站
 type: docs
 weight: 50
 url: /zh/net/aspose.email.personalinfo/urlcategory/home/
 ---
 ## UrlCategory.Home property
 
-联系人的家庭相关站点。
+联系人的家庭相关网站。
 
 ```csharp
 public static UrlCategory Home { get; }

@@ -33,7 +33,7 @@ public AccessControlRule(AclScope scope, AccessRole role)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | scope | AclScope | 规则的范围。 |
-| role | AccessRole | 分配给作用域的角色。 |
+| role | AccessRole | 分配给范围的角色。 |
 
 ### 也可以看看
 
@@ -55,9 +55,9 @@ public AccessControlRule(string id, AclScope scope, AccessRole role)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 资源标识符。 |
+| id | String | 资源的标识符。 |
 | scope | AclScope | 规则的范围。 |
-| role | AccessRole | 分配给作用域的角色。 |
+| role | AccessRole | 分配给范围的角色。 |
 
 ### 也可以看看
 
@@ -79,10 +79,10 @@ public AccessControlRule(string id, string eTag, AclScope scope, AccessRole role
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 资源标识符。 |
+| id | String | 资源的标识符。 |
 | eTag | String | 实体标签 |
 | scope | AclScope | 规则的范围。 |
-| role | AccessRole | 分配给作用域的角色。 |
+| role | AccessRole | 分配给范围的角色。 |
 
 ### 也可以看看
 

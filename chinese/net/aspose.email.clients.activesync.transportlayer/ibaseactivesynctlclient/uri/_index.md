@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Aspose.Email for .NET API 参考
-description: 获取服务器 uri
+description: 获取服务器uri
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/uri/
 ---
 ## IBaseActiveSyncTLClient.Uri property
 
-获取服务器 uri
+获取服务器uri
 
 ```csharp
 public string Uri { get; }

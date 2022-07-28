@@ -1,14 +1,14 @@
 ---
 title: Received
 second_title: Aspose.Email for .NET API 参考
-description: 消息已通过的 MTA 跟踪 定义在 RFC 822
+description: 消息已通过的 MTA 的跟踪 在 RFC 822 中定义
 type: docs
 weight: 170
 url: /zh/net/aspose.email/headertype/received/
 ---
 ## HeaderType.Received property
 
-消息已通过的 MTA 跟踪。 定义在 RFC 822
+消息已通过的 MTA 的跟踪。 在 RFC 822 中定义
 
 ```csharp
 public static HeaderType Received { get; }

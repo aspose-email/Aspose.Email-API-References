@@ -1,14 +1,14 @@
 ---
 title: FormatNotSupportedException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FormatNotSupportedExceptionaspose.email/formatnotsupportedexception类的新实例
+description: 初始化FormatNotSupportedExceptionaspose.email/formatnotsupportedexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/formatnotsupportedexception/formatnotsupportedexception/
 ---
 ## FormatNotSupportedException() {#constructor}
 
-初始化[`FormatNotSupportedException`](../../formatnotsupportedexception)类的新实例。
+初始化[`FormatNotSupportedException`](../../formatnotsupportedexception)类.
 
 ```csharp
 public FormatNotSupportedException()
@@ -24,7 +24,7 @@ public FormatNotSupportedException()
 
 ## FormatNotSupportedException(string) {#constructor_1}
 
-使用指定的错误消息初始化[`FormatNotSupportedException`](../../formatnotsupportedexception)类的新实例。
+初始化[`FormatNotSupportedException`](../../formatnotsupportedexception)具有指定错误消息的类。
 
 ```csharp
 public FormatNotSupportedException(string message)
@@ -44,7 +44,7 @@ public FormatNotSupportedException(string message)
 
 ## FormatNotSupportedException(string, Exception) {#constructor_2}
 
-使用指定的错误消息初始化[`FormatNotSupportedException`](../../formatnotsupportedexception)类的新实例。
+初始化[`FormatNotSupportedException`](../../formatnotsupportedexception)具有指定错误消息的类。
 
 ```csharp
 public FormatNotSupportedException(string message, Exception inner)

@@ -26,7 +26,7 @@ public string CreateTask(ExchangeTask task)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*是` null` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*是`无效的`. |
 
 ### 也可以看看
 
@@ -47,7 +47,7 @@ public string CreateTask(string folder, ExchangeTask task)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 应该在其中创建任务的文件夹。 |
+| folder | String | 应在其中创建任务的文件夹。 |
 | task | ExchangeTask | 要创建的任务。 |
 
 ### 返回值
@@ -58,8 +58,8 @@ public string CreateTask(string folder, ExchangeTask task)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folder*是` null` 或` 空` 。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*is` null` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folder*是`无效的`或者`空的`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*是`无效的`. |
 
 ### 也可以看看
 

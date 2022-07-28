@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: Aspose.Email for .NET API 参考
-description: 获取表示消息是否加密的值
+description: 获取一个表示消息是否加密的值
 type: docs
 weight: 180
 url: /zh/net/aspose.email/mailmessage/isencrypted/
 ---
 ## MailMessage.IsEncrypted property
 
-获取表示消息是否加密的值。
+获取一个表示消息是否加密的值。
 
 ```csharp
 public virtual bool IsEncrypted { get; }

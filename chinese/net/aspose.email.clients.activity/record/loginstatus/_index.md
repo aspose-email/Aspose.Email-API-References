@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/loginstatus/
 ---
 ## Record.LoginStatus property
 
-获取或设置登录状态 强制:是
+获取或设置登录状态 强制：是
 
 ```csharp
 public int LoginStatus { get; set; }

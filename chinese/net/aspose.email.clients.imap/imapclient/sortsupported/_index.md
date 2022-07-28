@@ -1,14 +1,14 @@
 ---
 title: SortSupported
 second_title: Aspose.Email for .NET API 参考
-description: 获取是否支持排序命令
+description: 获取是否支持排序命令的信息
 type: docs
 weight: 270
 url: /zh/net/aspose.email.clients.imap/imapclient/sortsupported/
 ---
 ## ImapClient.SortSupported property
 
-获取是否支持排序命令
+获取是否支持排序命令的信息
 
 ```csharp
 public bool SortSupported { get; set; }

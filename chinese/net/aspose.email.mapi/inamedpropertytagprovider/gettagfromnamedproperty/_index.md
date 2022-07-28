@@ -1,14 +1,14 @@
 ---
 title: GetTagFromNamedProperty
 second_title: Aspose.Email for .NET API 参考
-description: 从命名属性中获取标签
+description: 从命名属性中获取标记
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty/
 ---
 ## GetTagFromNamedProperty(long) {#gettagfromnamedproperty}
 
-从命名属性中获取标签。
+从命名属性中获取标记。
 
 ```csharp
 public long GetTagFromNamedProperty(long LId)
@@ -16,7 +16,7 @@ public long GetTagFromNamedProperty(long LId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| LId | Int64 | 属性 ID。 |
+| LId | Int64 | 属性标识。 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public long GetTagFromNamedProperty(long LId)
 
 ## GetTagFromNamedProperty(string) {#gettagfromnamedproperty_1}
 
-从命名属性中获取标签。
+从命名属性中获取标记。
 
 ```csharp
 public long GetTagFromNamedProperty(string name)
@@ -40,7 +40,7 @@ public long GetTagFromNamedProperty(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 属性名称 |
+| name | String | 物业名称 |
 
 ### 返回值
 

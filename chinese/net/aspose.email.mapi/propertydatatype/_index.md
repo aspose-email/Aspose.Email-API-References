@@ -3,12 +3,12 @@ title: PropertyDataType
 second_title: Aspose.Email for .NET API 参考
 description: MS-OXCDATA数据结构
 type: docs
-weight: 18970
+weight: 19000
 url: /zh/net/aspose.email.mapi/propertydatatype/
 ---
 ## PropertyDataType enumeration
 
-[MS-OXCDATA]:数据结构
+[MS-OXCDATA]：数据结构
 
 ```csharp
 public enum PropertyDataType
@@ -18,39 +18,39 @@ public enum PropertyDataType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Unspecified | `0` | Any:此属性类型值匹配任何类型； 服务器必须在其响应中返回实际类型。 服务器不得返回此类型以响应 NspiGetIDsFromNames 或 RopGetPropertyIdsFromNames ROP 请求（[MS-OXCROPS] 第 2.2.8.1 节）以外的客户端请求。 规范名称:PtypUnspecified；替代名称:PT_UNSPECIFIED； |
-| Null | `1` | 无:此属性是一个占位符。 规范名称:PtypNull；别名:PT_NULL； |
-| Integer16 | `2` | 2 字节；一个 16 位整数 规范名称:PtypInteger16；替代名称:PT_SHORT、PT_I2、i2、ui2； |
-| Integer32 | `3` | 4 字节；一个 32 位整数 规范名称:PtypInteger32；替代名称:PT_LONG、PT_I4、int、ui4； |
-| Floating32 | `4` | 4 字节；一个 32 位浮点数 规范名称:PtypFloating32；替代名称:PT_FLOAT、PT_R4、float、r4； |
-| Floating64 | `5` | 8 字节；一个 64 位浮点数 规范名称:PtypFloating64；替代名称:PT_DOUBLE、PT_R8、r8； |
-| Currency | `6` | 8 字节；带符号的 64 位 十进制货币值的缩放整数表示， 小数点右侧有四个位置 规范名称:PtypCurrency ;替代名称:PT_CURRENCY，fixed.14.4； |
-| FloatingTime | `7` | 8 字节；一个 64 位浮点数，其中整数部分表示自 1899 年 12 月 30 日 以来的天数，小数部分表示自午夜 以来一天的小数部分规范名称:PtypFloatingTime；别名:PT_APPTIME； 日期信息以整数增量表示，从 1899 年 12 月 30 日午夜开始，时间为零。 时间信息由从前一个午夜开始的一天的小数部分表示。 例如，1900 年 1 月 4 日上午 6:00 将由值 5.25 表示（1899 年 12 月 30 日过去一天的 5 和 1/4）。 |
-| ErrorCode | `10` | 4 字节；一个 32 位整数编码错误信息 规范名称:PtypErrorCode；别名:PT_ERROR； |
-| Boolean | `11` | 1 字节；限制为 1 或 0 规范名称:PtypBoolean；替代名称:PT_BOOLEAN。布尔; |
-| Integer64 | `20` | 8 字节；一个 64 位整数 规范名称:PtypInteger64；替代名称:PT_LONGLONG、PT_I8、i8、ui8； |
-| String | `31` | 可变大小；以 UTF-16LE 格式编码的 Unicode 字符字符串，以空字符 (0x0000) 结尾。 规范名称:PtypString；替代名称:PT_UNICODE，字符串； |
-| String8 | `30` | 可变大小；外部指定编码的多字节字符串，带有终止空字符（单个 0 字节）。 规范名称:PtypString8；别名:PT_STRING8； |
-| Time | `64` | 8 字节；一个 64 位整数，表示自 1601 年 1 月 1 日以来的 100 纳秒间隔数 规范名称:PtypTime；替代名称:PT_SYSTIME、时间、日期时间、日期时间.tz、日期时间.rfc1123、日期、时间、时间.tz； |
-| Guid | `72` | 16 字节；具有小端格式的 Data1、Data2 和 Data3 字段的 GUID 规范名称:PtypGuid；替代名称:PT_CLSID、UUID； |
-| ServerId | `251` | 可变大小；一个 16 位的 COUNT 字段，后跟一个结构 规范名称:PtypServerId；别名:PT_SVREID； |
-| Restriction | `253` | 可变大小；一个字节数组，表示一个或多个限制结构 规范名称:PtypRestriction；别名:PT_SRESTRICT； |
-| RuleAction | `254` | 可变大小；一个 16 位 COUNT 字段，后跟许多规则操作结构 规范名称:PtypRuleAction；别名:PT_ACTIONS； |
-| Binary | `258` | 可变大小；一个 COUNT 字段，后跟那么多字节。 规范名称:PtypBinary；别名:PT_BINARY； |
-| MultipleInteger16 | `4098` | 可变大小；一个 COUNT 字段，后跟那么多 PtypInteger16 值。 规范名称:PtypMultipleInteger16；别名:PT_MV_SHORT、PT_MV_I2、mv.i2； |
-| MultipleInteger32 | `4099` | 可变大小；一个 COUNT 字段，后跟那么多 PtypInteger32 值。 规范名称:PtypMultipleInteger32；别名:PT_MV_LONG、PT_MV_I4、mv.i4； |
-| MultipleFloating32 | `4100` | 可变大小；一个 COUNT 字段，后跟那么多 PtypFloating32 值。 规范名称:PtypMultipleFloating32；替代名称:PT_MV_FLOAT、PT_MV_R4、mv.float； |
-| MultipleFloating64 | `4101` | 可变大小；一个 COUNT 字段，后跟那么多 PtypFloating64 值。 规范名称:PtypMultipleFloating64；别名:PT_MV_DOUBLE、PT_MV_R8； |
-| MultipleCurrency | `4102` | 可变大小；一个 COUNT 字段，后跟那么多 PtypCurrency 值。 规范名称:PtypMultipleCurrency；替代名称:PT_MV_CURRENCY、mv.fixed.14.4； |
-| MultipleFloatingTime | `4103` | 可变大小；一个 COUNT 字段，后跟那么多 PtypFloatingTime 值。 规范名称:PtypMultipleFloatingTime；别名:PT_MV_APPTIME； |
-| MultipleBoolean | `4107` | 可变大小；一个 COUNT 字段，后跟那么多 PtypBoolean 值。 规范名称:PtypMultipleBoolean；替代名称:PT_MV_BOOLEAN； |
-| MultipleInteger64 | `4116` | 可变大小；一个 COUNT 字段，后跟那么多 PtypInteger64 值。 规范名称:PtypMultipleInteger64；别名:PT_MV_I8、PT_MV_LONGLONG； |
-| MultipleString | `4127` | 可变大小；一个 COUNT 字段，后跟那么多 PtypString 值。 规范名称:PtypMultipleString；别名:PT_MV_UNICODE； |
-| MultipleString8 | `4126` | 可变大小；一个 COUNT 字段，后跟那么多 PtypString8 值。 规范名称:PtypMultipleString8；替代名称:PT_MV_STRING8、mv.string； |
-| MultipleTime | `4160` | 可变大小；一个 COUNT 字段，后跟那么多 PtypTime 值。 规范名称:PtypMultipleTime；别名:PT_MV_SYSTIME； |
-| MultipleGuid | `4168` | 可变大小；一个 COUNT 字段，后跟那么多 PtypGuid 值。 规范名称:PtypMultipleGuid；替代名称:PT_MV_CLSID、mv.uuid； |
-| MultipleBinary | `4354` | 可变大小；一个 COUNT 字段，后跟那么多 PtypBinary 值。 规范名称:PtypMultipleBinary；替代名称:PT_MV_BINARY、mv.bin.hex； |
-| Object | `13` | 属性值是组件对象模型 (COM) 对象。 规范名称:PtypObject 或 PtypEmbeddedTable；别名:PT_OBJECT； |
+| Unspecified | `0` | any：此属性类型值匹配任何类型； 服务器必须在其响应中返回实际类型。 服务器不得返回此类型以响应 NspiGetIDsFromNames 或 RopGetPropertyIdsFromNames ROP 请求（[MS-OXCROPS] 第 2.2.8.1 节）以外的客户端请求。 规范名称：PtypUnspecified；别名：PT_UNSPECIFIED; |
+| Null | `1` | 无：此属性是占位符。 规范名称：PtypNull；别名：PT_NULL; |
+| Integer16 | `2` | 2 个字节；一个16位整数 规范名称：PtypInteger16；替代名称：PT_SHORT、PT_I2、i2、ui2； |
+| Integer32 | `3` | 4 个字节；一个32位整数 规范名称：PtypInteger32；替代名称：PT_LONG、PT_I4、int、ui4； |
+| Floating32 | `4` | 4 个字节；一个32位浮点数 规范名称：PtypFloating32；替代名称：PT_FLOAT、PT_R4、float、r4； |
+| Floating64 | `5` | 8 个字节；一个64位浮点数 规范名称：PtypFloating64；替代名称：PT_DOUBLE、PT_R8、r8； |
+| Currency | `6` | 8 个字节；一个 64 位带符号的 十进制货币值的缩放整数表示， 小数点右侧有四个位置 规范名称：PtypCurrency；替代名称：PT_CURRENCY，fixed.14.4; |
+| FloatingTime | `7` | 8 个字节；一个 64 位浮点数，其中整数部分表示自 1899 年 12 月 30 日 以来的天数，小数部分表示自午夜 以来一天的小数部分。替代名称：PT_APPTIME; 日期信息由整数增量表示，从 1899 年 12 月 30 日午夜开始，时间为零。 时间信息由从前一个午夜开始的一天的小数部分表示。 例如，1900 年 1 月 4 日上午 6:00 将由值 5.25 表示（1899 年 12 月 30 日过去一天的 5 和 1/4）。 |
+| ErrorCode | `10` | 4 个字节；一个32位整数编码错误信息 规范名称：PtypErrorCode；别名：PT_ERROR; |
+| Boolean | `11` | 1 个字节；限制为 1 或 0 规范名称：PtypBoolean；替代名称：PT_BOOLEAN。布尔; |
+| Integer64 | `20` | 8 个字节；一个64位整数 规范名称：PtypInteger64；替代名称：PT_LONGLONG、PT_I8、i8、ui8； |
+| String | `31` | 可变大小；以 UTF-16LE 格式编码的 Unicode 字符字符串，以空字符 (0x0000) 结尾。 规范名称：PtypString；替代名称：PT_UNICODE，字符串； |
+| String8 | `30` | 可变大小；外部指定编码的多字节字符串，带有终止空字符（单个 0 字节）。 规范名称：PtypString8；别名：PT_STRING8; |
+| Time | `64` | 8 个字节；一个 64 位整数，表示自 1601 年 1 月 1 日以来 100 纳秒间隔的数量 规范名称：PtypTime；替代名称：PT_SYSTIME、时间、日期时间、日期时间.tz、日期时间.rfc1123、日期、时间、时间.tz； |
+| Guid | `72` | 16 字节；具有小端格式的 Data1、Data2 和 Data3 字段的 GUID 规范名称：PtypGuid；替代名称：PT_CLSID、UUID； |
+| ServerId | `251` | 可变大小；一个 16 位的 COUNT 字段，后跟一个结构 规范名称：PtypServerId；别名：PT_SVREID; |
+| Restriction | `253` | 可变大小；表示一个或多个限制结构的字节数组 规范名称：PtypRestriction；别名：PT_SRESTRICT; |
+| RuleAction | `254` | 可变大小；一个 16 位的 COUNT 字段，后跟许多规则操作结构 规范名称：PtypRuleAction；别名：PT_ACTIONS; |
+| Binary | `258` | 可变大小；一个 COUNT 字段，后跟那么多字节。 规范名称：PtypBinary；替代名称：PT_BINARY; |
+| MultipleInteger16 | `4098` | 可变大小；一个 COUNT 字段，后跟那么多 PtypInteger16 值。 规范名称：PtypMultipleInteger16；替代名称：PT_MV_SHORT、PT_MV_I2、mv.i2； |
+| MultipleInteger32 | `4099` | 可变大小；一个 COUNT 字段，后跟那么多 PtypInteger32 值。 规范名称：PtypMultipleInteger32；替代名称：PT_MV_LONG、PT_MV_I4、mv.i4； |
+| MultipleFloating32 | `4100` | 可变大小；一个 COUNT 字段，后跟那么多 PtypFloating32 值。 规范名称：PtypMultipleFloating32；替代名称：PT_MV_FLOAT、PT_MV_R4、mv.float； |
+| MultipleFloating64 | `4101` | 可变大小；一个 COUNT 字段，后跟那么多 PtypFloating64 值。 规范名称：PtypMultipleFloating64；别名：PT_MV_DOUBLE、PT_MV_R8； |
+| MultipleCurrency | `4102` | 可变大小；一个 COUNT 字段，后跟那么多 PtypCurrency 值。 规范名称：PtypMultipleCurrency；替代名称：PT_MV_CURRENCY、mv.fixed.14.4; |
+| MultipleFloatingTime | `4103` | 可变大小；一个 COUNT 字段，后跟那么多 PtypFloatingTime 值。 规范名称：PtypMultipleFloatingTime；别名：PT_MV_APPTIME; |
+| MultipleBoolean | `4107` | 可变大小；一个 COUNT 字段，后跟那么多 PtypBoolean 值。 规范名称：PtypMultipleBoolean；替代名称：PT_MV_BOOLEAN; |
+| MultipleInteger64 | `4116` | 可变大小；一个 COUNT 字段，后跟那么多 PtypInteger64 值。 规范名称：PtypMultipleInteger64；别名：PT_MV_I8、PT_MV_LONGLONG； |
+| MultipleString | `4127` | 可变大小；一个 COUNT 字段，后跟那么多 PtypString 值。 规范名称：PtypMultipleString；别名：PT_MV_UNICODE; |
+| MultipleString8 | `4126` | 可变大小；一个 COUNT 字段，后跟那么多 PtypString8 值。 规范名称：PtypMultipleString8；别名：PT_MV_STRING8, mv.string; |
+| MultipleTime | `4160` | 可变大小；一个 COUNT 字段，后跟那么多 PtypTime 值。 规范名称：PtypMultipleTime；别名：PT_MV_SYSTIME; |
+| MultipleGuid | `4168` | 可变大小；一个 COUNT 字段，后跟那么多 PtypGuid 值。 规范名称：PtypMultipleGuid；替代名称：PT_MV_CLSID、mv.uuid； |
+| MultipleBinary | `4354` | 可变大小；一个 COUNT 字段，后跟那么多 PtypBinary 值。 规范名称：PtypMultipleBinary；替代名称：PT_MV_BINARY、mv.bin.hex； |
+| Object | `13` | 属性值是一个组件对象模型 (COM) 对象。 规范名称：PtypObject 或 PtypEmbeddedTable；别名：PT_OBJECT; |
 
 ### 也可以看看
 

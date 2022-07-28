@@ -1,14 +1,14 @@
 ---
 title: IsSilent
 second_title: Aspose.Email for .NET API 参考
-description: 指示用户是否未在会议响应对象的正文中包含任何文本 区域会议 规范名称PidLidIsSilent 别名LID_IS_SILENT
+description: 指示用户是否未在会议响应对象的正文中包含任何文本 区域Meetings 规范名称PidLidIsSilent 别名LID_IS_SILENT
 type: docs
 weight: 11860
 url: /zh/net/aspose.email.mapi/knownpropertylist/issilent/
 ---
 ## KnownPropertyList.IsSilent field
 
-指示用户是否未在会议响应对象的正文中包含任何文本。 区域:会议 规范名称:PidLidIsSilent 别名:LID_IS_SILENT
+指示用户是否未在会议响应对象的正文中包含任何文本。 区域：Meetings 规范名称：PidLidIsSilent 别名：LID_IS_SILENT
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IsSilent;

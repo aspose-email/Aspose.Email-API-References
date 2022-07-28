@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/o365urltimeofclickactivity/userip/
 ---
 ## O365URLTimeOfClickActivity.UserIp property
 
-单击 URL 的用户的 IP 地址。 IP 地址以 IPv4 或 IPv6 地址格式显示。 强制:是
+单击 URL 的用户的 IP 地址。 IP 地址以 IPv4 或 IPv6 地址格式显示。 强制：是
 
 ```csharp
 public string UserIp { get; set; }

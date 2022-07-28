@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Email for .NET API 参考
-description: 获取标题计数
+description: 获取 headers 的计数
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mime/headercollection/count/
 ---
 ## HeaderCollection.Count property
 
-获取标题计数
+获取 headers 的计数
 
 ```csharp
 public virtual int Count { get; }

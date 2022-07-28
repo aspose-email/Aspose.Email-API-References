@@ -16,7 +16,7 @@ public CalendarDay[] StartDays { get; set; }
 
 ### 适当的价值
 
-开始天数。
+开始的日子。
 
 ### 也可以看看
 

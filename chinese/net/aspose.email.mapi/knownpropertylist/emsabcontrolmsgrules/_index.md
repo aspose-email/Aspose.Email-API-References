@@ -1,14 +1,14 @@
 ---
 title: EmsAbControlMsgRules
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_CONTROL_MSG_RULES
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_CONTROL_MSG_RULES
 type: docs
 weight: 5310
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabcontrolmsgrules/
 ---
 ## KnownPropertyList.EmsAbControlMsgRules field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_CONTROL_MSG_RULES
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_CONTROL_MSG_RULES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbControlMsgRules;

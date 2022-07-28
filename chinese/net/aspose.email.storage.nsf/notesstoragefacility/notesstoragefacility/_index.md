@@ -1,14 +1,14 @@
 ---
 title: NotesStorageFacility
 second_title: Aspose.Email for .NET API 参考
-description: 初始化NotesStorageFacilityaspose.email.storage.nsf/notesstoragefacility类的新实例
+description: 初始化NotesStorageFacilityaspose.email.storage.nsf/notesstoragefacility类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.nsf/notesstoragefacility/notesstoragefacility/
 ---
 ## NotesStorageFacility(string, CancellationToken) {#constructor_7}
 
-初始化[`NotesStorageFacility`](../../notesstoragefacility)类的新实例。
+初始化[`NotesStorageFacility`](../../notesstoragefacility)类.
 
 ```csharp
 public NotesStorageFacility(string fileName, CancellationToken token)
@@ -16,14 +16,14 @@ public NotesStorageFacility(string fileName, CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | fileName - 文件名不能为空 |
+| ArgumentNullException | fileName - 文件名不能为空或为空 |
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public NotesStorageFacility(string fileName, CancellationToken token)
 
 ## NotesStorageFacility(Stream, CancellationToken) {#constructor_3}
 
-初始化[`NotesStorageFacility`](../../notesstoragefacility)类的新实例。
+初始化[`NotesStorageFacility`](../../notesstoragefacility)类.
 
 ```csharp
 public NotesStorageFacility(Stream stream, CancellationToken token)
@@ -62,7 +62,7 @@ public NotesStorageFacility(Stream stream, CancellationToken token)
 
 ## NotesStorageFacility(string, NsfLoadOptions, CancellationToken) {#constructor_6}
 
-初始化[`NotesStorageFacility`](../../notesstoragefacility)类的新实例。
+初始化[`NotesStorageFacility`](../../notesstoragefacility)类.
 
 ```csharp
 public NotesStorageFacility(string fileName, NsfLoadOptions options, CancellationToken token)
@@ -70,15 +70,15 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options, Cancellatio
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
-| options | NsfLoadOptions | 附加加载选项。 |
+| fileName | String | 文件的名称。 |
+| options | NsfLoadOptions | 附加负载选项。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | fileName - 文件名不能为空 |
+| ArgumentNullException | fileName - 文件名不能为空或为空 |
 
 ### 也可以看看
 
@@ -91,7 +91,7 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options, Cancellatio
 
 ## NotesStorageFacility(Stream, NsfLoadOptions, CancellationToken) {#constructor_2}
 
-初始化[`NotesStorageFacility`](../../notesstoragefacility)类的新实例。
+初始化[`NotesStorageFacility`](../../notesstoragefacility)类.
 
 ```csharp
 public NotesStorageFacility(Stream stream, NsfLoadOptions options, CancellationToken token)
@@ -100,7 +100,7 @@ public NotesStorageFacility(Stream stream, NsfLoadOptions options, CancellationT
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 流。 |
-| options | NsfLoadOptions | 附加加载选项。 |
+| options | NsfLoadOptions | 附加负载选项。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 例外
@@ -120,7 +120,7 @@ public NotesStorageFacility(Stream stream, NsfLoadOptions options, CancellationT
 
 ## NotesStorageFacility(string) {#constructor_4}
 
-初始化[`NotesStorageFacility`](../../notesstoragefacility)类的新实例。
+初始化[`NotesStorageFacility`](../../notesstoragefacility)类.
 
 ```csharp
 public NotesStorageFacility(string fileName)
@@ -128,13 +128,13 @@ public NotesStorageFacility(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | fileName - 文件名不能为空 |
+| ArgumentNullException | fileName - 文件名不能为空或为空 |
 
 ### 也可以看看
 
@@ -146,7 +146,7 @@ public NotesStorageFacility(string fileName)
 
 ## NotesStorageFacility(Stream) {#constructor}
 
-初始化[`NotesStorageFacility`](../../notesstoragefacility)类的新实例。
+初始化[`NotesStorageFacility`](../../notesstoragefacility)类.
 
 ```csharp
 public NotesStorageFacility(Stream stream)
@@ -172,7 +172,7 @@ public NotesStorageFacility(Stream stream)
 
 ## NotesStorageFacility(string, NsfLoadOptions) {#constructor_5}
 
-初始化[`NotesStorageFacility`](../../notesstoragefacility)类的新实例。
+初始化[`NotesStorageFacility`](../../notesstoragefacility)类.
 
 ```csharp
 public NotesStorageFacility(string fileName, NsfLoadOptions options)
@@ -180,14 +180,14 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
-| options | NsfLoadOptions | 附加加载选项。 |
+| fileName | String | 文件的名称。 |
+| options | NsfLoadOptions | 附加负载选项。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | fileName - 文件名不能为空 |
+| ArgumentNullException | fileName - 文件名不能为空或为空 |
 
 ### 也可以看看
 
@@ -200,7 +200,7 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options)
 
 ## NotesStorageFacility(Stream, NsfLoadOptions) {#constructor_1}
 
-初始化[`NotesStorageFacility`](../../notesstoragefacility)类的新实例。
+初始化[`NotesStorageFacility`](../../notesstoragefacility)类.
 
 ```csharp
 public NotesStorageFacility(Stream stream, NsfLoadOptions options)
@@ -209,7 +209,7 @@ public NotesStorageFacility(Stream stream, NsfLoadOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 流。 |
-| options | NsfLoadOptions | 附加加载选项。 |
+| options | NsfLoadOptions | 附加负载选项。 |
 
 ### 例外
 

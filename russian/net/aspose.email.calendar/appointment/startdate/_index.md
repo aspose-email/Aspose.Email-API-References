@@ -1,14 +1,14 @@
 ---
 title: StartDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает начальную дату.
+description: Получает или задает дату начала.
 type: docs
-weight: 230
+weight: 240
 url: /ru/net/aspose.email.calendar/appointment/startdate/
 ---
 ## Appointment.StartDate property
 
-Получает или задает начальную дату.
+Получает или задает дату начала.
 
 ```csharp
 public DateTime StartDate { get; set; }

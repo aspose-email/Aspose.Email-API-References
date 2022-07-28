@@ -20,9 +20,9 @@ public enum ExchangeUserBusyness
 | --- | --- | --- |
 | Busy | `0` | 指定状态为忙。 |
 | Free | `1` | 指定状态为空闲。 |
-| NoData | `2` | 指定没有该收件人的数据。 |
+| NoData | `2` | 指定该收件人没有数据。 |
 | OOF | `3` | 将状态指定为外出 (OOF)。 |
-| Tentative | `4` | 指定状态为暂定。 |
+| Tentative | `4` | 将状态指定为暂定。 |
 | WorkingElsewhere | `5` | 指定状态为在别处工作。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: OriginalSentRepresentingAddressType
 second_title: Aspose.Email for .NET API 参考
-description: 包含原始电子邮件发件人所代表的最终用户的地址类型 区域常规消息属性 规范名称PidTagOriginalSentRepresentingAddressType 替代名称PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W
+description: 包含原始电子邮件发件人所代表的最终用户的地址类型 区域常规消息属性 规范名称PidTagOriginalSentRepresentingAddressType 替代名称PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPEPR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W
 type: docs
 weight: 13720
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalsentrepresentingaddresstype/
 ---
 ## KnownPropertyList.OriginalSentRepresentingAddressType field
 
-包含原始电子邮件发件人所代表的最终用户的地址类型。 区域:常规消息属性 规范名称:PidTagOriginalSentRepresentingAddressType 替代名称:PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE, PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W
+包含原始电子邮件发件人所代表的最终用户的地址类型。 区域：常规消息属性 规范名称：PidTagOriginalSentRepresentingAddressType 替代名称：PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE、PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSentRepresentingAddressType;

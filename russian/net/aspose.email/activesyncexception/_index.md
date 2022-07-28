@@ -18,10 +18,10 @@ public class ActiveSyncException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [ActiveSyncException](activesyncexception#constructor)() | Инициализирует новый экземпляр класса[`ActiveSyncException`](../activesyncexception). |
-| [ActiveSyncException](activesyncexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`ActiveSyncException`](../activesyncexception) со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [ActiveSyncException](activesyncexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`ActiveSyncException`](../activesyncexception)с указанным сообщением об ошибке. |
-| [ActiveSyncException](activesyncexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`ActiveSyncException`](../activesyncexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
+| [ActiveSyncException](activesyncexception#constructor)() | Инициализирует новый экземпляр[`ActiveSyncException`](../activesyncexception) класс. |
+| [ActiveSyncException](activesyncexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`ActiveSyncException`](../activesyncexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [ActiveSyncException](activesyncexception#constructor_2)(string) | Инициализирует новый экземпляр[`ActiveSyncException`](../activesyncexception) класс с указанным сообщением об ошибке. |
+| [ActiveSyncException](activesyncexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`ActiveSyncException`](../activesyncexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
 
 ## Характеристики
 

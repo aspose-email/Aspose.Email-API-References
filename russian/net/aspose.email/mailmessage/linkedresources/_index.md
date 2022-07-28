@@ -1,14 +1,14 @@
 ---
 title: LinkedResources
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает коллекцию связанных ресурсов сообщения
+description: Получает коллекцию связанных ресурсов message
 type: docs
 weight: 210
 url: /ru/net/aspose.email/mailmessage/linkedresources/
 ---
 ## MailMessage.LinkedResources property
 
-Получает коллекцию связанных ресурсов сообщения
+Получает коллекцию связанных ресурсов message
 
 ```csharp
 public virtual LinkedResourceCollection LinkedResources { get; }

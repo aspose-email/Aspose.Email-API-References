@@ -3,7 +3,7 @@ title: SetTimeZone
 second_title: Справочник по Aspose.Email для .NET API
 description: Установить часовой пояс
 type: docs
-weight: 350
+weight: 360
 url: /ru/net/aspose.email.calendar/appointment/settimezone/
 ---
 ## Appointment.SetTimeZone method
@@ -16,7 +16,7 @@ public void SetTimeZone(string tzName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tzName | String | Имя часового пояса, для примера "Америка/Нью-Йорк" |
+| tzName | String | Название часового пояса для примера «Америка/Нью-Йорк». |
 
 ### Смотрите также
 

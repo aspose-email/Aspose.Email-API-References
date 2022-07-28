@@ -1,14 +1,14 @@
 ---
 title: MapiContactOtherPropertySet
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiContactOtherPropertySetaspose.email.mapi/mapicontactotherpropertyset 类的新实例
+description: 初始化一个新的实例MapiContactOtherPropertySetaspose.email.mapi/mapicontactotherpropertyset class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontactotherpropertyset/mapicontactotherpropertyset/
 ---
 ## MapiContactOtherPropertySet constructor
 
-初始化 [`MapiContactOtherPropertySet`](../../mapicontactotherpropertyset) 类的新实例
+初始化一个新的实例[`MapiContactOtherPropertySet`](../../mapicontactotherpropertyset) class
 
 ```csharp
 public MapiContactOtherPropertySet()

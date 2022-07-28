@@ -1,14 +1,14 @@
 ---
 title: BodyPreference
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию о предпочтениях связанную с типом и размером информации возвращаемой при поиске синхронизации или выборке.
+description: Содержит информацию о предпочтениях связанную с типом и размером информации возвращаемой при поиске синхронизации или извлечении.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/syncoptions/bodypreference/
 ---
 ## SyncOptions.BodyPreference property
 
-Содержит информацию о предпочтениях, связанную с типом и размером информации, возвращаемой при поиске, синхронизации или выборке.
+Содержит информацию о предпочтениях, связанную с типом и размером информации, возвращаемой при поиске, синхронизации или извлечении.
 
 ```csharp
 public List<BodyPreference> BodyPreference { get; }

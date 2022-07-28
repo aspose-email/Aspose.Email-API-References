@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/o365emailmessageactivity/attachmentda
 ---
 ## O365EmailMessageActivity.AttachmentData property
 
-有关触发事件的电子邮件中的附件的数据。 强制:否
+有关触发事件的电子邮件中的附件的数据。 强制：否
 
 ```csharp
 public AttachmentData AttachmentData { get; set; }

@@ -16,7 +16,7 @@ public void FolderUpdate(string serverId, string parentId, string displayName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| serverId | String | 指定服务器上文件夹的服务器ID |
+| serverId | String | 指定服务器上文件夹的服务器 ID |
 | parentId | String | 指定服务器上文件夹的父文件夹的服务器 ID |
 | displayName | String | 指定文件夹的用户友好名称。 |
 
@@ -38,7 +38,7 @@ public void FolderUpdate(FolderInfo folder)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 文件夹 | FolderInfo | 文件夹信息 |
+| folder | FolderInfo | 文件夹信息 |
 
 ### 也可以看看
 

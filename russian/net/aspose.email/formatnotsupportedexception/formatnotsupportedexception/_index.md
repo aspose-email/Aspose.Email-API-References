@@ -1,14 +1,14 @@
 ---
 title: FormatNotSupportedException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFormatNotSupportedExceptionaspose.email/formatnotsupportedexception.
+description: Инициализирует новый экземплярFormatNotSupportedExceptionaspose.email/formatnotsupportedexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/formatnotsupportedexception/formatnotsupportedexception/
 ---
 ## FormatNotSupportedException() {#constructor}
 
-Инициализирует новый экземпляр класса[`FormatNotSupportedException`](../../formatnotsupportedexception).
+Инициализирует новый экземпляр[`FormatNotSupportedException`](../../formatnotsupportedexception) класс.
 
 ```csharp
 public FormatNotSupportedException()
@@ -24,7 +24,7 @@ public FormatNotSupportedException()
 
 ## FormatNotSupportedException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`FormatNotSupportedException`](../../formatnotsupportedexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`FormatNotSupportedException`](../../formatnotsupportedexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public FormatNotSupportedException(string message)
@@ -44,7 +44,7 @@ public FormatNotSupportedException(string message)
 
 ## FormatNotSupportedException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`FormatNotSupportedException`](../../formatnotsupportedexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`FormatNotSupportedException`](../../formatnotsupportedexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public FormatNotSupportedException(string message, Exception inner)

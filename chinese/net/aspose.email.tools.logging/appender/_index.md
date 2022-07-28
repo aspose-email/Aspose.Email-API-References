@@ -3,7 +3,7 @@ title: Appender
 second_title: Aspose.Email for .NET API 参考
 description: 表示 Appender 的基类
 type: docs
-weight: 20380
+weight: 20430
 url: /zh/net/aspose.email.tools.logging/appender/
 ---
 ## Appender class
@@ -24,7 +24,7 @@ public abstract class Appender : IAppender, IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Append](../../aspose.email.tools.logging/appender/append)(LogEntry) | 将指定的日志条目附加到附加程序。 |
+| abstract [Append](../../aspose.email.tools.logging/appender/append)(LogEntry) | 将指定的日志条目附加到 appender。 |
 | virtual [AppendHeader](../../aspose.email.tools.logging/appender/appendheader)() | 以特定标题启动日志文件。 |
 | virtual [Close](../../aspose.email.tools.logging/appender/close)() | 关闭附加程序。 |
 | [Dispose](../../aspose.email.tools.logging/appender/dispose)() | 释放 Appender 使用的非托管资源。 |

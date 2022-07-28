@@ -18,11 +18,11 @@ public class OAuthNetworkCredential : NetworkCredential
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor_1)(ITokenProvider) | 初始化 [`OAuthNetworkCredential`](../oauthnetworkcredential) 类的新实例 |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor_2)(string) | 初始化 [`OAuthNetworkCredential`](../oauthnetworkcredential) 类的新实例 |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor)(IAsyncTokenProvider, string) | 初始化 [`OAuthNetworkCredential`](../oauthnetworkcredential) 类的新实例 |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor_3)(string, ITokenProvider) | 初始化 [`OAuthNetworkCredential`](../oauthnetworkcredential) 类的新实例 |
-| [OAuthNetworkCredential](oauthnetworkcredential#constructor_4)(string, string) | 初始化 [`OAuthNetworkCredential`](../oauthnetworkcredential) 类的新实例 |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_1)(ITokenProvider) | 初始化[`OAuthNetworkCredential`](../oauthnetworkcredential) class |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_2)(string) | 初始化[`OAuthNetworkCredential`](../oauthnetworkcredential) class |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor)(IAsyncTokenProvider, string) | 初始化[`OAuthNetworkCredential`](../oauthnetworkcredential) class |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_3)(string, ITokenProvider) | 初始化[`OAuthNetworkCredential`](../oauthnetworkcredential) class |
+| [OAuthNetworkCredential](oauthnetworkcredential#constructor_4)(string, string) | 初始化[`OAuthNetworkCredential`](../oauthnetworkcredential) class |
 
 ## 特性
 

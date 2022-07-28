@@ -1,14 +1,14 @@
 ---
 title: PrimarySendAccount
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端用来发送电子邮件的第一台服务器 区域MapiNonTransmittable 规范名称PidTagPrimarySendAccount 备用名称PR_PRIMARY_SEND_ACCT
+description: 指定客户端用于发送电子邮件的第一台服务器 区域MapiNonTransmittable 规范名称PidTagPrimarySendAccount 备用名称PR_PRIMARY_SEND_ACCT
 type: docs
 weight: 14590
 url: /zh/net/aspose.email.mapi/knownpropertylist/primarysendaccount/
 ---
 ## KnownPropertyList.PrimarySendAccount field
 
-指定客户端用来发送电子邮件的第一台服务器。 区域:MapiNonTransmittable 规范名称:PidTagPrimarySendAccount 备用名称:PR_PRIMARY_SEND_ACCT
+指定客户端用于发送电子邮件的第一台服务器。 区域：MapiNonTransmittable 规范名称：PidTagPrimarySendAccount 备用名称：PR_PRIMARY_SEND_ACCT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PrimarySendAccount;

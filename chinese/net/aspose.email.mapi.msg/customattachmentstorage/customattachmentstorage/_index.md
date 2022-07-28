@@ -1,14 +1,14 @@
 ---
 title: CustomAttachmentStorage
 second_title: Aspose.Email for .NET API 参考
-description: 初始化CustomAttachmentStorageaspose.email.mapi.msg/customattachmentstorage类的新实例
+description: 初始化CustomAttachmentStorageaspose.email.mapi.msg/customattachmentstorage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi.msg/customattachmentstorage/customattachmentstorage/
 ---
 ## CustomAttachmentStorage constructor
 
-初始化[`CustomAttachmentStorage`](../../customattachmentstorage)类的新实例。
+初始化[`CustomAttachmentStorage`](../../customattachmentstorage)类.
 
 ```csharp
 public CustomAttachmentStorage()

@@ -1,14 +1,14 @@
 ---
 title: FaxNumberOfPages
 second_title: Aspose.Email for .NET API 参考
-description: 包含传真对象中的页数 区域统一消息 规范名称PidTagFaxNumberOfPages 备用名称InternalSchemaFaxNumberOfPages
+description: 包含传真对象中的页数 区域统一消息 规范名称PidTagFaxNumberOfPages 替代名称InternalSchemaFaxNumberOfPages
 type: docs
 weight: 10250
 url: /zh/net/aspose.email.mapi/knownpropertylist/faxnumberofpages/
 ---
 ## KnownPropertyList.FaxNumberOfPages field
 
-包含传真对象中的页数。 区域:统一消息 规范名称:PidTagFaxNumberOfPages 备用名称:InternalSchemaFaxNumberOfPages
+包含传真对象中的页数。 区域：统一消息 规范名称：PidTagFaxNumberOfPages 替代名称：InternalSchemaFaxNumberOfPages
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FaxNumberOfPages;

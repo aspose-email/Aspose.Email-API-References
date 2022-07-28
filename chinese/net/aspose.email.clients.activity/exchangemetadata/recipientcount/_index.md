@@ -1,14 +1,14 @@
 ---
 title: RecipientCount
 second_title: Aspose.Email for .NET API 参考
-description: 邮件的 TOCC 和 BCC 行上所有收件人的总数 强制是
+description: 邮件的 TOCC 和 BCC 行中所有收件人的总数 必填是
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activity/exchangemetadata/recipientcount/
 ---
 ## ExchangeMetadata.RecipientCount property
 
-邮件的 TO、CC 和 BCC 行上所有收件人的总数。 强制:是
+邮件的 TO、CC 和 BCC 行中所有收件人的总数。 必填：是
 
 ```csharp
 public int RecipientCount { get; set; }

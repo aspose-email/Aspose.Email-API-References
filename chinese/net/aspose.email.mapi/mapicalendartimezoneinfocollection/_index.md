@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneInfoCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示 MapiCalendarTimeZoneInfo
+description: 表示 MapiCalendarTimeZoneInfo 的集合
 type: docs
-weight: 18120
+weight: 18150
 url: /zh/net/aspose.email.mapi/mapicalendartimezoneinfocollection/
 ---
 ## MapiCalendarTimeZoneInfoCollection class
 
-表示 MapiCalendarTimeZoneInfo
+表示 MapiCalendarTimeZoneInfo 的集合
 
 ```csharp
 public sealed class MapiCalendarTimeZoneInfoCollection : List<MapiCalendarTimeZoneInfo>

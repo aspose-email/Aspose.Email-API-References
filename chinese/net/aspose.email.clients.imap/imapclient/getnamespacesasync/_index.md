@@ -16,7 +16,7 @@ public Task<ImapNamespace[]> GetNamespacesAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public Task<ImapNamespace[]> GetNamespacesAsync(IConnection connection)
 
 ### 返回值
 
-任务对象，带委托对于这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -67,7 +67,7 @@ public Task<ImapNamespace[]> GetNamespacesAsync(CancellationToken token)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -89,11 +89,11 @@ public Task<ImapNamespace[]> GetNamespacesAsync(IConnection connection, Cancella
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

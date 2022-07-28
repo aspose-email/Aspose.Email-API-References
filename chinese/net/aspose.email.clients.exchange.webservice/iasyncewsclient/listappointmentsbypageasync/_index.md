@@ -17,15 +17,15 @@ public Task<AppointmentPageInfo> ListAppointmentsByPageAsync(string folderUri, M
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹在中搜索约会。 |
+| folderUri | String | 用于搜索约会的文件夹。 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示约会搜索条件。 |
-| itemsPerPage | Int32 | 页面中的项目数量 |
-| itemOffset | Int32 | 视图中下一个项目的偏移量 |
+| itemsPerPage | Int32 | 页面中的项目数 |
+| itemOffset | Int32 | 视图中下一项的偏移量 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
 
-返回包含约会的页面
+有约会的返回页面
 
 ### 也可以看看
 

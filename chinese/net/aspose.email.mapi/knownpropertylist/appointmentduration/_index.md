@@ -1,14 +1,14 @@
 ---
 title: AppointmentDuration
 second_title: Aspose.Email for .NET API 参考
-description: 指定事件的长度以分钟为单位 区域日历 规范名称PidLidAppointmentDuration 别名dispidApptDuration
+description: 指定事件的长度以分钟为单位 区域Calendar 规范名称PidLidAppointmentDuration 替代名称dispidApptDuration
 type: docs
 weight: 1140
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentduration/
 ---
 ## KnownPropertyList.AppointmentDuration field
 
-指定事件的长度，以分钟为单位。 区域:日历 规范名称:PidLidAppointmentDuration 别名:dispidApptDuration
+指定事件的长度，以分钟为单位。 区域：Calendar 规范名称：PidLidAppointmentDuration 替代名称：dispidApptDuration
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentDuration;

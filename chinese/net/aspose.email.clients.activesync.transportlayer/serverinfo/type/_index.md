@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Email for .NET API 参考
-description: 指定服务器类型 以下是 Type 元素的有效值 MobileSync  表示 URL客户端可以访问由 URL 元素第 2.2.3.172 节返回的内容 CertEnroll  表示客户端可以访问由 URL 元素返回的 URL以获取用于安全套接字层 SSL 协商的客户端证书
+description: 指定服务器类型 以下是 Type 元素的有效值 MobileSync  表示客户端可以访问由 URL 元素第 2.2.3.172 节返回的 URL CertEnroll  表示该 URL由 URL 元素返回客户端可以访问以获取用于安全套接字层 SSL 协商的客户端证书
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/serverinfo/type/
 ---
 ## ServerInfo.Type property
 
-指定服务器类型 以下是 Type 元素的有效值: MobileSync — 表示 URL客户端可以访问由 URL 元素（第 2.2.3.172 节）返回的内容。 CertEnroll — 表示客户端可以访问由 URL 元素返回的 URL，以获取用于安全套接字层 (SSL) 协商的客户端证书。
+指定服务器类型 以下是 Type 元素的有效值： MobileSync — 表示客户端可以访问由 URL 元素（第 2.2.3.172 节）返回的 URL。 CertEnroll — 表示该 URL由 URL 元素返回，客户端可以访问以获取用于安全套接字层 (SSL) 协商的客户端证书。
 
 ```csharp
 public ServerType Type { get; }

@@ -1,14 +1,14 @@
 ---
 title: HasDeferredActionMessages
 second_title: Aspose.Email for .NET API 参考
-description: 指示消息对象是否具有与其关联的延迟操作消息 区域规则 规范名称PidTagHasDeferredActionMessages 备用名称PR_HAS_DAMS ptagHasDAMs
+description: 指示消息对象是否具有与其关联的延迟操作消息 区域Rules 规范名称PidTagHasDeferredActionMessages 替代名称PR_HAS_DAMSptagHasDAMS
 type: docs
 weight: 10850
 url: /zh/net/aspose.email.mapi/knownpropertylist/hasdeferredactionmessages/
 ---
 ## KnownPropertyList.HasDeferredActionMessages field
 
-指示消息对象是否具有与其关联的延迟操作消息。 区域:规则 规范名称:PidTagHasDeferredActionMessages 备用名称:PR_HAS_DAMS, ptagHasDAMs
+指示消息对象是否具有与其关联的延迟操作消息。 区域：Rules 规范名称：PidTagHasDeferredActionMessages 替代名称：PR_HAS_DAMS、ptagHasDAMS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HasDeferredActionMessages;

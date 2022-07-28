@@ -3,7 +3,7 @@ title: ResponseMessageBuilder
 second_title: Aspose.Email for .NET API 参考
 description: 提供转发和回复消息的创建和格式化
 type: docs
-weight: 20590
+weight: 20640
 url: /zh/net/aspose.email.tools/responsemessagebuilder/
 ---
 ## ResponseMessageBuilder class

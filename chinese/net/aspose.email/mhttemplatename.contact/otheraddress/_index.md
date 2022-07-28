@@ -1,14 +1,14 @@
 ---
 title: OtherAddress
 second_title: Aspose.Email for .NET API 参考
-description: 其他地址标头
+description: 其他地址头
 type: docs
 weight: 250
 url: /zh/net/aspose.email/mhttemplatename.contact/otheraddress/
 ---
 ## MhtTemplateName.Contact.OtherAddress field
 
-其他地址标头。
+其他地址头。
 
 ```csharp
 public const string OtherAddress;

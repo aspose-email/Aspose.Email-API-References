@@ -1,14 +1,14 @@
 ---
 title: GetCallInfo
 second_title: Aspose.Email for .NET API 参考
-description: 通过呼叫 ID 检索电话信息
+description: 通过呼叫 id 检索电话信息
 type: docs
 weight: 890
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/getcallinfo/
 ---
 ## IEWSClient.GetCallInfo method
 
-通过呼叫 ID 检索电话信息
+通过呼叫 id 检索电话信息
 
 ```csharp
 public CallInformation GetCallInfo(string callId)
@@ -16,7 +16,7 @@ public CallInformation GetCallInfo(string callId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| callId | String | 呼叫 ID |
+| callId | String | 呼叫号码 |
 
 ### 返回值
 

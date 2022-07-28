@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Email for .NET API 参考
-description: 获取根据当前文件夹中所有对话项的大小计算得出的对话大小
+description: 获取根据当前文件夹中所有对话项的大小计算的对话大小
 type: docs
 weight: 240
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeconversation/size/
 ---
 ## ExchangeConversation.Size property
 
-获取根据当前文件夹中所有对话项的大小计算得出的对话大小。
+获取根据当前文件夹中所有对话项的大小计算的对话大小。
 
 ```csharp
 public int Size { get; }

@@ -24,7 +24,7 @@ public class SearchCondition
 
 | Имя | Описание |
 | --- | --- |
-| [Value](../../aspose.email.clients.activesync.transportlayer/searchcondition/value) { get; set; } | Строковое значение условия |
+| [Value](../../aspose.email.clients.activesync.transportlayer/searchcondition/value) { get; set; } | Строковое значение condition |
 
 ### Смотрите также
 

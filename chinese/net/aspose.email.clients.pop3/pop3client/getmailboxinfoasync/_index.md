@@ -20,7 +20,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -43,11 +43,11 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -69,11 +69,11 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| closeTransaction | Boolean | 表示当前事务是否有在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -94,7 +94,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync()
 
 ### 返回值
 
-任务对象，带有委托操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -120,7 +120,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, Cancell
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -144,12 +144,12 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -171,12 +171,12 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction, Cancella
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| closeTransaction | Boolean | 表示当前事务是否有在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -197,11 +197,11 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| token | CancellationToken | 传播操作应该的通知被取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

@@ -17,9 +17,9 @@ public AutodiscoverResult(CultureInfo culture, string displayName, string emailA
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| culture | CultureInfo | 指定客户端文化，用于本地化错误消息。 |
+| culture | CultureInfo | 指定用于本地化错误消息的客户端文化。 |
 | displayName | String | 包含用户在目录服务中的显示名称。 |
-| emailAddress | String | 包含用户的 SMTP 电子邮件地址，用于标识用户在网络中的邮箱。 |
+| emailAddress | String | 包含用户的 SMTP 电子邮件地址，用于识别用户在网络中的邮箱。 |
 | redirect | String | 指定所请求用户的 SMTP 地址。 |
 
 ### 也可以看看
@@ -41,9 +41,9 @@ public AutodiscoverResult(CultureInfo culture, string displayName, string emailA
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| culture | CultureInfo | 指定客户端文化，用于本地化错误消息。 |
+| culture | CultureInfo | 指定用于本地化错误消息的客户端文化。 |
 | displayName | String | 包含用户在目录服务中的显示名称。 |
-| emailAddress | String | 包含用户的 SMTP 电子邮件地址，用于标识用户在网络中的邮箱。 |
+| emailAddress | String | 包含用户的 SMTP 电子邮件地址，用于识别用户在网络中的邮箱。 |
 | servers | ServerInfo[] | 包含服务器设置数组 |
 
 ### 也可以看看
@@ -66,9 +66,9 @@ public AutodiscoverResult(CultureInfo culture, string displayName, string emailA
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| culture | CultureInfo | 指定客户端文化，用于本地化错误消息。 |
+| culture | CultureInfo | 指定用于本地化错误消息的客户端文化。 |
 | displayName | String | 包含用户在目录服务中的显示名称。 |
-| emailAddress | String | 包含用户的 SMTP 电子邮件地址，用于标识用户在网络中的邮箱。 |
+| emailAddress | String | 包含用户的 SMTP 电子邮件地址，用于识别用户在网络中的邮箱。 |
 | redirect | String | 指定所请求用户的 SMTP 地址。 |
 | servers | ServerInfo[] | 包含服务器设置数组 |
 

@@ -20,13 +20,13 @@ public MailTips[] GetMailTips(GetMailTipsOptions options)
 
 ### 返回值
 
-数组[`MailTips`](../../mailtips)
+一个数组[`MailTips`](../../mailtips)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 在*options*为` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时*options*是`无效的` |
 
 ### 也可以看看
 

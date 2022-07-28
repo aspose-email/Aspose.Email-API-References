@@ -18,13 +18,13 @@ public Task<Contact[]> GetContactsAsync(string folder,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | A用于搜索联系人的文件夹 |
+| folder | String | 用于搜索联系人的文件夹 |
 | options | ExchangeListContactsOptions | 枚举列表联系人选项 |
 | cancellationToken | CancellationToken | 取消令牌 |
 
 ### 返回值
 
-读取数组[`Contact`](../../../aspose.email.personalinfo/contact)表示联系信息
+读取的数组[`Contact`](../../../aspose.email.personalinfo/contact)代表联系信息
 
 ### 也可以看看
 

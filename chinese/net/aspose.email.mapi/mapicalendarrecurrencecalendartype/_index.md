@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarRecurrenceCalendarType
 second_title: Aspose.Email for .NET API 参考
-description: 枚举mapi循环的日历类型
+description: 枚举mapi的日历类型recurrence
 type: docs
-weight: 18020
+weight: 18040
 url: /zh/net/aspose.email.mapi/mapicalendarrecurrencecalendartype/
 ---
 ## MapiCalendarRecurrenceCalendarType enumeration
 
-枚举mapi循环的日历类型
+枚举mapi的日历类型recurrence
 
 ```csharp
 public enum MapiCalendarRecurrenceCalendarType
@@ -18,25 +18,25 @@ public enum MapiCalendarRecurrenceCalendarType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 日历类型的默认值为公历。 （如果 PatternType 是 HjMonth、HjMonthNth 或 HjMonthEnd，并且 CalendarType 是 Default，则此重复使用回历。） |
-| CAL_GREGORIAN | `1` | 公历（本地化） |
+| Default | `0` | 日历类型的默认值为公历。 （如果 PatternType 为 HjMonth、HjMonthNth 或 HjMonthEnd，并且 CalendarType 为 Default，则此重复使用回历。） |
+| CAL_GREGORIAN | `1` | 公历（本地化）日历 |
 | CAL_GREGORIAN_US | `2` | 公历（美国）日历 |
 | CAL_JAPAN | `3` | 日本天皇时代日历 |
 | CAL_TAIWAN | `4` | 台湾日历 |
-| CAL_KOREA | `5` | 朝鲜檀君时代日历 |
-| CAL_HIJRI | `6` | 回历（阿拉伯农历） |
+| CAL_KOREA | `5` | 韩国檀君时代日历 |
+| CAL_HIJRI | `6` | 回历（阿拉伯农历）日历 |
 | CAL_THAI | `7` | 泰历 |
 | CAL_HEBREW | `8` | 希伯来农历 |
 | CAL_GREGORIAN_ME_FRENCH | `9` | 公历中东法历 |
-| CAL_GREGORIAN_ARABIC | `10` | 阿拉伯公历 |
+| CAL_GREGORIAN_ARABIC | `10` | 格里高利阿拉伯历 |
 | CAL_GREGORIAN_XLIT_ENGLISH | `11` | 公历音译英历 |
-| CAL_GREGORIAN_XLIT_FRENCH | `12` | 公历音译法历 |
+| CAL_GREGORIAN_XLIT_FRENCH | `12` | 公历音译法文日历 |
 | CAL_LUNAR_JAPANESE | `14` | 日本农历 |
-| CAL_CHINESE_LUNAR | `15` | 农历 |
-| CAL_SAKA | `16` | 萨卡时代日历 |
-| CAL_LUNAR_ETO_CHN | `17` | 农历 ETO 农历 |
-| CAL_LUNAR_ETO_KOR | `18` | 农历 ETO 韩历 |
-| CAL_LUNAR_ROKUYOU | `19` | 六妖月历 |
+| CAL_CHINESE_LUNAR | `15` | 中国农历 |
+| CAL_SAKA | `16` | 坂时代日历 |
+| CAL_LUNAR_ETO_CHN | `17` | 农历ETO农历 |
+| CAL_LUNAR_ETO_KOR | `18` | 农历 ETO 朝鲜历 |
+| CAL_LUNAR_ROKUYOU | `19` | 农历六妖日历 |
 | CAL_LUNAR_KOREAN | `20` | 韩国农历 |
 | CAL_UMALQURA | `23` | Um Al Qura 日历 |
 

@@ -1,14 +1,14 @@
 ---
 title: IsCanceled
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее завершилась ли асинхронная операция синхронно.
+description: Получает значение указывающее была ли асинхронная операция завершена синхронно.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients/iasyncresultext/iscanceled/
 ---
 ## IAsyncResultExt.IsCanceled property
 
-Получает значение, указывающее, завершилась ли асинхронная операция синхронно.
+Получает значение, указывающее, была ли асинхронная операция завершена синхронно.
 
 ```csharp
 public bool IsCanceled { get; }

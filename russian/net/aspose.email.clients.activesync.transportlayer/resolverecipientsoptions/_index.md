@@ -1,14 +1,14 @@
 ---
 title: ResolveRecipientsOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит опции для разрешения списка получателей.
+description: Содержит параметры разрешения списка получателей.
 type: docs
 weight: 1850
 url: /ru/net/aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/
 ---
 ## ResolveRecipientsOptions class
 
-Содержит опции для разрешения списка получателей.
+Содержит параметры разрешения списка получателей.
 
 ```csharp
 public class ResolveRecipientsOptions
@@ -24,11 +24,11 @@ public class ResolveRecipientsOptions
 
 | Имя | Описание |
 | --- | --- |
-| [Availability](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/availability) { get; set; } | Указывает серверу, что данные о занятости запрашиваются клиентом, и определяет время начала и окончания получения данных о занятости. Когда доступность включена в запрос ResolveRecipients, сервер извлекает информацию о занятости для пользователей, указанных в элементах To, включенных в запрос, и возвращает информацию о занятости в MergedFreeBusy в ответе. . Если элемент Availability включен в запрос ResolveRecipients, запрос ДОЛЖЕН также включать допустимые значения StartTime и EndTime. Когда сервер анализирует запрос, сервер сначала разрешает получателей, идентифицированных элементами To, а затем определяет информацию о занятости пользователей за указанный промежуток времени, прежде чем возвращать данные о занятости в СлияниеFreeBusy. |
+| [Availability](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/availability) { get; set; } | Указывает серверу, что данные о доступности запрашиваются клиентом, и определяет время начала и окончания получения данных о доступности. информацию для пользователей, указанных в элементах To, включенных в запрос, и возвращает информацию о занятости в MergedFreeBusy в ответе. Если элемент Availability включен в запрос ResolveRecipients, запрос ДОЛЖЕН также включать допустимые значения StartTime и EndTime. Когда сервер анализирует запрос, сервер сначала разрешает получателей, идентифицированных элементами To, а затем определяет информацию о занятости пользователей за указанный промежуток времени, прежде чем возвращать данные о занятости в MergedFreeBusy. |
 | [CertificateRetrieval](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/certificateretrieval) { get; set; } | Указывает, ДОЛЖЕН ли сервер возвращать сертификаты S/MIME для каждого разрешенного получателя. |
-| [MaxAmbiguousRecipients](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/maxambiguousrecipients) { get; set; } | Ограничивает количество предложений, возвращаемых для каждого неоднозначного узла-получателя в ответе. Значение MaxAmbiguousRecipients ограничено диапазоном от 0 до 9999. Каждый неоднозначный узел-получатель получает только это количество предложений и не более. Количество получателей, возвращенное в RecipientCount, может использоваться клиентом для определения общего количества предложений, доступных для этого получателя. |
-| [MaxCertificates](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/maxcertificates) { get; set; } | Ограничивает общее количество сертификатов, возвращаемых сервером. Значение MaxCertificates ограничено диапазоном от 0 до 9999. Это ограничение гарантирует, что ни один отдельный получатель не получит неполный набор сертификатов. Если предел MaxCertificates достигнут при перечислении сертификатов для списка адресов, этот список адресов не получит никаких сертификатов, и будет возвращено значение состояния 8. |
-| [Picture](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/picture) { get; set; } | Указывает, что клиент запрашивает, чтобы фотографии контактов возвращались в ответе сервера. Изображение не поддерживается при версии протокола 12.1 или 14.0. Содержит данные, относящиеся к фотографиям контактов. |
+| [MaxAmbiguousRecipients](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/maxambiguousrecipients) { get; set; } | Ограничивает количество предложений, которые возвращаются для каждого неоднозначного узла получателя в ответе. Значение MaxAmbiguousRecipients ограничено диапазоном от 0 до 9999. Каждый неоднозначный узел-получатель получает только указанное количество предложений и не более. Количество получателей, возвращенное в RecipientCount, может использоваться клиентом для определения общего количества предложений, доступных для этого получателя. |
+| [MaxCertificates](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/maxcertificates) { get; set; } | Ограничивает общее количество сертификатов, возвращаемых сервером. Значение MaxCertificates ограничено диапазоном от 0 до 9999. Это ограничение гарантирует, что ни один отдельный получатель не получит неполный набор сертификатов. Если достигнут предел MaxCertificates при перечислении сертификатов для списка адресов, этот список адресов не получит никаких сертификатов, и будет возвращено значение состояния 8. |
+| [Picture](../../aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/picture) { get; set; } | Указывает, что клиент запрашивает, чтобы фотографии контактов были возвращены в ответе сервера. Изображение не поддерживается при версии протокола 12.1 или 14.0. Содержит данные, относящиеся к фотографиям контактов. |
 
 ### Смотрите также
 

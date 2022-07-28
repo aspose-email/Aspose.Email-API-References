@@ -1,14 +1,14 @@
 ---
 title: MessageAddedEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: 为MessageAdded./folderinfo/messageadded事件提供数据
+description: 为MessageAdded./folderinfo/messageadded事件
 type: docs
-weight: 20180
+weight: 20230
 url: /zh/net/aspose.email.storage.pst/messageaddedeventargs/
 ---
 ## MessageAddedEventArgs class
 
-为[`MessageAdded`](../folderinfo/messageadded)事件提供数据
+为[`MessageAdded`](../folderinfo/messageadded)事件
 
 ```csharp
 public class MessageAddedEventArgs : EventArgs
@@ -18,13 +18,13 @@ public class MessageAddedEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MessageAddedEventArgs](messageaddedeventargs)(string, MapiMessage) | 初始化[`MessageAddedEventArgs`](../messageaddedeventargs)类的新实例。 |
+| [MessageAddedEventArgs](messageaddedeventargs)(string, MapiMessage) | 初始化[`MessageAddedEventArgs`](../messageaddedeventargs)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EntryId](../../aspose.email.storage.pst/messageaddedeventargs/entryid) { get; } | 获取表示已添加消息的 EntryId 的字符串。 |
+| [EntryId](../../aspose.email.storage.pst/messageaddedeventargs/entryid) { get; } | 获取表示添加消息的EntryId的字符串。 |
 | [Message](../../aspose.email.storage.pst/messageaddedeventargs/message) { get; } | 获取已添加的消息。 |
 
 ### 也可以看看

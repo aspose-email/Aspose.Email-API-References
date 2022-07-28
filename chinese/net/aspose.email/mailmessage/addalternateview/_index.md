@@ -1,14 +1,14 @@
 ---
 title: AddAlternateView
 second_title: Aspose.Email for .NET API 参考
-description: 向消息添加替代视图
+description: 向 message 添加替代视图
 type: docs
 weight: 370
 url: /zh/net/aspose.email/mailmessage/addalternateview/
 ---
 ## MailMessage.AddAlternateView method
 
-向消息添加替代视图
+向 message 添加替代视图
 
 ```csharp
 public virtual void AddAlternateView(AlternateView view)
@@ -16,7 +16,7 @@ public virtual void AddAlternateView(AlternateView view)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| view | AlternateView | 用于添加的替代视图 |
+| view | AlternateView | 添加的备用视图 |
 
 ### 也可以看看
 

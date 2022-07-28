@@ -1,14 +1,14 @@
 ---
 title: ToAmpHtml
 second_title: Справочник по Aspose.Email для .NET API
-description: Представление AmpHtml значения раздела.
+description: AmpHtml представление значения раздела.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.amp/section/toamphtml/
 ---
 ## Section.ToAmpHtml method
 
-Представление AmpHtml значения раздела.
+AmpHtml представление значения раздела.
 
 ```csharp
 public string ToAmpHtml()

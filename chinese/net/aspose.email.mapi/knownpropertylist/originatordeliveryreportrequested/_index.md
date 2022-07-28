@@ -1,14 +1,14 @@
 ---
 title: OriginatorDeliveryReportRequested
 second_title: Aspose.Email for .NET API 参考
-description: 指示电子邮件发件人是否向消息传递系统请求电子邮件送达回执 区域MIME 属性 规范名称PidTagOriginatorDeliveryReportRequested 替代名称PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED
+description: 指示电子邮件发件人是否从邮件系统请求电子邮件送达回执 区域MIME 属性 规范名称PidTagOriginatorDeliveryReportRequested 替代名称PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED
 type: docs
 weight: 13850
 url: /zh/net/aspose.email.mapi/knownpropertylist/originatordeliveryreportrequested/
 ---
 ## KnownPropertyList.OriginatorDeliveryReportRequested field
 
-指示电子邮件发件人是否向消息传递系统请求电子邮件送达回执。 区域:MIME 属性 规范名称:PidTagOriginatorDeliveryReportRequested 替代名称:PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED,
+指示电子邮件发件人是否从邮件系统请求电子邮件送达回执。 区域：MIME 属性 规范名称：PidTagOriginatorDeliveryReportRequested 替代名称：PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorDeliveryReportRequested;

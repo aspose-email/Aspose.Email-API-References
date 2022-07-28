@@ -1,14 +1,14 @@
 ---
 title: CheckUserAvailability
 second_title: Aspose.Email for .NET API 参考
-description: 检查指定时间窗口内的用户可用性
+description: 在指定的时间范围内检查用户的可用性
 type: docs
 weight: 420
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/checkuseravailability/
 ---
 ## CheckUserAvailability(string, DateRange) {#checkuseravailability}
 
-检查指定时间窗口内的用户可用性。
+在指定的时间范围内检查用户的可用性。
 
 ```csharp
 public ExchangeUserAvailability CheckUserAvailability(string user, DateRange timeWindow)
@@ -17,7 +17,7 @@ public ExchangeUserAvailability CheckUserAvailability(string user, DateRange tim
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | user | String | 用户 smtp 地址。 |
-| timeWindow | DateRange | 查询用户的可用性时间跨度。 |
+| timeWindow | DateRange | 查询用户的可用性的时间跨度。 |
 
 ### 返回值
 
@@ -44,8 +44,8 @@ public ExchangeUserAvailabilityCollection CheckUserAvailability(StringCollection
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| users | StringCollection | 用户 smtp 地址。 |
-| timeWindow | DateRange | 查询用户的可用性时间跨度。 |
+| users | StringCollection | 一个用户的 smtp 地址。 |
+| timeWindow | DateRange | 查询用户的可用性的时间跨度。 |
 
 ### 返回值
 
@@ -55,7 +55,7 @@ public ExchangeUserAvailabilityCollection CheckUserAvailability(StringCollection
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *timeWindow*或*users*是` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *timeWindow*或者*users*是`无效的`. |
 
 ### 也可以看看
 

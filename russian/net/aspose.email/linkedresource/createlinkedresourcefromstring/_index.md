@@ -16,7 +16,7 @@ public static LinkedResource CreateLinkedResourceFromString(string content)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| content | String | Строка, содержащая ресурс, который должен быть включен во вложение электронной почты. |
+| content | String | Строка, содержащая ресурс, который необходимо включить во вложение электронной почты. |
 
 ### Возвращаемое значение
 
@@ -41,9 +41,9 @@ public static LinkedResource CreateLinkedResourceFromString(string content,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| content | String | Строка, содержащая ресурс, который должен быть включен во вложение электронной почты. |
-| contentEncoding | Encoding | Кодировка содержимого. |
-| mediaType | String | Тип носителя MIME для содержимого. |
+| content | String | Строка, содержащая ресурс, который необходимо включить во вложение электронной почты. |
+| contentEncoding | Encoding | Кодировка контента. |
+| mediaType | String | Медиа-тип MIME содержимого. |
 
 ### Возвращаемое значение
 
@@ -67,7 +67,7 @@ public static LinkedResource CreateLinkedResourceFromString(string content, Cont
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| content | String | Строка, содержащая ресурс, который должен быть включен во вложение электронной почты. |
+| content | String | Строка, содержащая ресурс, который необходимо включить во вложение электронной почты. |
 | contentType | ContentType | Тип содержимого. |
 
 ### Возвращаемое значение

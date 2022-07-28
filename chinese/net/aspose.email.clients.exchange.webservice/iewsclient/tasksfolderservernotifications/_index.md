@@ -1,14 +1,14 @@
 ---
 title: TasksFolderServerNotifications
 second_title: Aspose.Email for .NET API 参考
-description: 在为任务文件夹出现指定事件类型时发生
+description: 为任务文件夹出现指定事件类型时发生
 type: docs
 weight: 340
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/tasksfolderservernotifications/
 ---
 ## IEWSClient.TasksFolderServerNotifications event
 
-在为任务文件夹出现指定事件类型时发生。
+为任务文件夹出现指定事件类型时发生。
 
 ```csharp
 public event EventHandler<ServerNotificationEventArgs> TasksFolderServerNotifications;

@@ -1,14 +1,14 @@
 ---
 title: RangeSeqSet
 second_title: Aspose.Email for .NET API 参考
-description: 具有要搜索的值范围的容器
+description: 包含要搜索的值范围的容器
 type: docs
 weight: 16650
 url: /zh/net/aspose.email.clients.imap/rangeseqset/
 ---
 ## RangeSeqSet class
 
-具有要搜索的值范围的容器。
+包含要搜索的值范围的容器。
 
 ```csharp
 public class RangeSeqSet : SequenceSetBaseValue
@@ -18,11 +18,11 @@ public class RangeSeqSet : SequenceSetBaseValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RangeSeqSet](rangeseqset#constructor)() | 初始化[`RangeSeqSet`](../rangeseqset)类的新实例。 |
-| [RangeSeqSet](rangeseqset#constructor_1)(SimpleSeqSet) | 初始化[`RangeSeqSet`](../rangeseqset)类的新实例。 |
-| [RangeSeqSet](rangeseqset#constructor_3)(string) | 初始化[`RangeSeqSet`](../rangeseqset)类的新实例。 |
-| [RangeSeqSet](rangeseqset#constructor_2)(SimpleSeqSet, SimpleSeqSet) | 初始化[`RangeSeqSet`](../rangeseqset)类的新实例。 |
-| [RangeSeqSet](rangeseqset#constructor_4)(string, string) | 初始化[`RangeSeqSet`](../rangeseqset)类的新实例。 |
+| [RangeSeqSet](rangeseqset#constructor)() | 初始化[`RangeSeqSet`](../rangeseqset)类. |
+| [RangeSeqSet](rangeseqset#constructor_1)(SimpleSeqSet) | 初始化[`RangeSeqSet`](../rangeseqset)类. |
+| [RangeSeqSet](rangeseqset#constructor_3)(string) | 初始化[`RangeSeqSet`](../rangeseqset)类. |
+| [RangeSeqSet](rangeseqset#constructor_2)(SimpleSeqSet, SimpleSeqSet) | 初始化[`RangeSeqSet`](../rangeseqset)类. |
+| [RangeSeqSet](rangeseqset#constructor_4)(string, string) | 初始化[`RangeSeqSet`](../rangeseqset)类. |
 
 ## 特性
 
@@ -36,7 +36,7 @@ public class RangeSeqSet : SequenceSetBaseValue
 | 姓名 | 描述 |
 | --- | --- |
 | override [ToString](../../aspose.email.clients.imap/rangeseqset/tostring)() | 返回代表当前对象的字符串。 |
-| [implicit operator](../../aspose.email.clients.imap/rangeseqset/op_implicit) | 从[`RangeSeqSet`](../rangeseqset)到String的隐式转换操作 |
+| [implicit operator](../../aspose.email.clients.imap/rangeseqset/op_implicit) | 隐式转换操作来自[`RangeSeqSet`](../rangeseqset)至String |
 
 ### 也可以看看
 

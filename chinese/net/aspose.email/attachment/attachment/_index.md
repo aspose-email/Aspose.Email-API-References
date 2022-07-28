@@ -1,14 +1,14 @@
 ---
 title: Attachment
 second_title: Aspose.Email for .NET API 参考
-description: 初始化Attachmentaspose.email/attachment类的新实例
+description: 初始化Attachmentaspose.email/attachment类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/attachment/attachment/
 ---
 ## Attachment(string) {#constructor_3}
 
-初始化[`Attachment`](../../attachment)类的新实例。
+初始化[`Attachment`](../../attachment)类.
 
 ```csharp
 public Attachment(string fileName)
@@ -16,7 +16,7 @@ public Attachment(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public Attachment(string fileName)
 
 ## Attachment(string, string) {#constructor_5}
 
-初始化[`Attachment`](../../attachment)类的新实例。
+初始化[`Attachment`](../../attachment)类.
 
 ```csharp
 public Attachment(string fileName, string mediaType)
@@ -36,7 +36,7 @@ public Attachment(string fileName, string mediaType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 | mediaType | String | 键入媒体类型名称。 |
 
 ### 也可以看看
@@ -49,7 +49,7 @@ public Attachment(string fileName, string mediaType)
 
 ## Attachment(string, ContentType) {#constructor_4}
 
-初始化[`Attachment`](../../attachment)类的新实例。
+初始化[`Attachment`](../../attachment)类.
 
 ```csharp
 public Attachment(string fileName, ContentType contentType)
@@ -57,8 +57,8 @@ public Attachment(string fileName, ContentType contentType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
-| contentType | ContentType | [`ContentType`](../../../aspose.email.mime/contenttype)。 |
+| fileName | String | 文件的名称。 |
+| contentType | ContentType | 这[`ContentType`](../../../aspose.email.mime/contenttype). |
 
 ### 也可以看看
 
@@ -71,7 +71,7 @@ public Attachment(string fileName, ContentType contentType)
 
 ## Attachment(Stream, string) {#constructor_1}
 
-初始化[`Attachment`](../../attachment)类的新实例。
+初始化[`Attachment`](../../attachment)类.
 
 ```csharp
 public Attachment(Stream contentStream, string name)
@@ -92,7 +92,7 @@ public Attachment(Stream contentStream, string name)
 
 ## Attachment(Stream, string, string) {#constructor_2}
 
-初始化[`Attachment`](../../attachment)类的新实例。
+初始化[`Attachment`](../../attachment)类.
 
 ```csharp
 public Attachment(Stream contentStream, string name, string mediaType)
@@ -114,7 +114,7 @@ public Attachment(Stream contentStream, string name, string mediaType)
 
 ## Attachment(Stream, ContentType) {#constructor}
 
-初始化[`Attachment`](../../attachment)类的新实例。
+初始化[`Attachment`](../../attachment)类.
 
 ```csharp
 public Attachment(Stream contentStream, ContentType contentType)
@@ -123,7 +123,7 @@ public Attachment(Stream contentStream, ContentType contentType)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | contentStream | Stream | 附件的内容流。 |
-| contentType | ContentType | [`ContentType`](../../../aspose.email.mime/contenttype)。 |
+| contentType | ContentType | 这[`ContentType`](../../../aspose.email.mime/contenttype). |
 
 ### 也可以看看
 

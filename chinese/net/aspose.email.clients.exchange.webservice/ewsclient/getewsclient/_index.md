@@ -1,14 +1,14 @@
 ---
 title: GetEWSClient
 second_title: Aspose.Email for .NET API 参考
-description: 初始化EWSClientaspose.email.clients.exchange.webservice/ewsclient基础类 的新实例
+description: 初始化EWSClientaspose.email.clients.exchange.webservice/ewsclient基于类
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/ewsclient/getewsclient/
 ---
 ## GetEWSClient(string, ICredentials) {#getewsclient_2}
 
-初始化[`EWSClient`](../../ewsclient)基础类 的新实例
+初始化[`EWSClient`](../../ewsclient)基于类
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credentials)
@@ -16,12 +16,12 @@ public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credential
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailboxUri | String | 邮箱的 URI |
+| mailboxUri | String | 邮箱的URI |
 | credentials | ICredentials | 包含用于身份验证的凭据。 |
 
 ### 返回值
 
-基于[`EWSClient`](../../ewsclient)类的类实例。
+基于类的实例[`EWSClient`](../../ewsclient)班级。
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credential
 
 ## GetEWSClient(string, string, string) {#getewsclient_4}
 
-初始化[`EWSClient`](../../ewsclient)基础类 的新实例
+初始化[`EWSClient`](../../ewsclient)基于类
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, string username, string password)
@@ -48,7 +48,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ### 返回值
 
-基于EWSClient类。
+基于类的实例[`EWSClient`](../../ewsclient)班级。
 
 ### 也可以看看
 
@@ -61,7 +61,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ## GetEWSClient(string, string, string, WebProxy) {#getewsclient_5}
 
-初始化[`EWSClient`](../../ewsclient)基础类 的新实例
+初始化[`EWSClient`](../../ewsclient)基于类
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, string username, string password, 
@@ -77,7 +77,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ### 返回值
 
-基于[`EWSClient`](../../ewsclient)类的类实例。
+基于类的实例[`EWSClient`](../../ewsclient)班级。
 
 ### 也可以看看
 
@@ -90,7 +90,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ## GetEWSClient(string, string, string, string) {#getewsclient_6}
 
-初始化[`EWSClient`](../../ewsclient)基础类 的新实例
+初始化[`EWSClient`](../../ewsclient)基于类
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, string username, string password, 
@@ -106,7 +106,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ### 返回值
 
-基于[`EWSClient`](../../ewsclient)类的类实例。
+基于类的实例[`EWSClient`](../../ewsclient)班级。
 
 ### 也可以看看
 
@@ -119,7 +119,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ## GetEWSClient(string, string, string, string, WebProxy) {#getewsclient_7}
 
-初始化[`EWSClient`](../../ewsclient)基础类 的新实例
+初始化[`EWSClient`](../../ewsclient)基于类
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, string username, string password, 
@@ -136,7 +136,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ### 返回值
 
-基于[`EWSClient`](../../ewsclient)的类的实例班级。
+基于类的实例[`EWSClient`](../../ewsclient)班级。
 
 ### 也可以看看
 
@@ -149,7 +149,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 
 ## GetEWSClient(ExchangeVersion, string, ICredentials, WebProxy) {#getewsclient_1}
 
-初始化[`EWSClient`](../../ewsclient)基础类 的新实例
+初始化[`EWSClient`](../../ewsclient)基于类
 
 ```csharp
 public static IEWSClient GetEWSClient(ExchangeVersion serverVersion, string mailboxUri, 
@@ -159,13 +159,13 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion, string mail
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | serverVersion | ExchangeVersion | Exchange 服务器版本 |
-| mailboxUri | String | 邮箱 URI |
+| mailboxUri | String | 邮箱的URI |
 | credentials | ICredentials | 包含用于身份验证的凭据。 |
 | proxy | WebProxy | 包含 HTTP 代理设置 |
 
 ### 返回值
 
-基于的类的实例:T:Aspose.Email.Clients.Exchange.WebService.EWSClient类。
+基于类的实例[`EWSClient`](../../ewsclient)班级。
 
 ### 也可以看看
 
@@ -179,7 +179,7 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion, string mail
 
 ## GetEWSClient(ExchangeVersion, bool, string, string, ICredentials, WebProxy) {#getewsclient}
 
-初始化[`EWSClient`](../../ewsclient)基础类 的新实例
+初始化[`EWSClient`](../../ewsclient)基于类
 
 ```csharp
 public static IEWSClient GetEWSClient(ExchangeVersion serverVersion, 
@@ -190,15 +190,15 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | serverVersion | ExchangeVersion | Exchange 服务器版本 |
-| formbasedAuthenticationRequired | Boolean | 如果需要基于表单的身份验证，则设置为 true，否则设置为假。 |
-| formbasedAuthenticationLocation | String | 用于基于表单的身份验证的url |
+| formbasedAuthenticationRequired | Boolean | 如果需要基于表单的身份验证，则设置为 true，否则设置为 false。 |
+| formbasedAuthenticationLocation | String | 用于基于表单的身份验证的 url |
 | mailboxUri | String | 邮箱的URI |
 | credentials | ICredentials | 包含用于身份验证的凭据。 |
 | proxy | WebProxy | 包含 HTTP 代理设置 |
 
 ### 返回值
 
-基于的类的实例:T:Aspose.Email.Clients.Exchange.WebService.EWSClient类。
+基于类的实例[`EWSClient`](../../ewsclient)班级。
 
 ### 也可以看看
 
@@ -212,7 +212,7 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion,
 
 ## GetEWSClient(string, ICredentials, WebProxy) {#getewsclient_3}
 
-初始化[`EWSClient`](../../ewsclient)基础类 的新实例
+初始化[`EWSClient`](../../ewsclient)基于类
 
 ```csharp
 public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credentials, WebProxy proxy)
@@ -220,13 +220,13 @@ public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credential
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailboxUri | String | 邮箱的 URI |
+| mailboxUri | String | 邮箱的URI |
 | credentials | ICredentials | 包含用于身份验证的凭据。 |
 | proxy | WebProxy | 包含 HTTP 代理设置 |
 
 ### 返回值
 
-基于的类的实例:T:Aspose.Email.Clients.Exchange.WebService.EWSClient类。
+基于类的实例[`EWSClient`](../../ewsclient)班级。
 
 ### 也可以看看
 

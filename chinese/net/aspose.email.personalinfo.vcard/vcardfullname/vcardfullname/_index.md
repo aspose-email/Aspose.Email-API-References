@@ -1,14 +1,14 @@
 ---
 title: VCardFullName
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardFullNameaspose.email.personalinfo.vcard/vcardfullname 类的新实例
+description: 初始化VCardFullNameaspose.email.personalinfo.vcard/vcardfullname class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardfullname/vcardfullname/
 ---
 ## VCardFullName constructor
 
-初始化 [`VCardFullName`](../../vcardfullname) 类的新实例
+初始化[`VCardFullName`](../../vcardfullname) class
 
 ```csharp
 public VCardFullName()

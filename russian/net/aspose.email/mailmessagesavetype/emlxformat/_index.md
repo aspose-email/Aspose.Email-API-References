@@ -16,7 +16,7 @@ public static MailMessageSaveType EmlxFormat { get; }
 
 ### Стоимость имущества
 
-Emlx.
+Эмлекс.
 
 ### Смотрите также
 

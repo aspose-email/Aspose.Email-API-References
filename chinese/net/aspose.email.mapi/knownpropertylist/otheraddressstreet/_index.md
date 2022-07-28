@@ -1,14 +1,14 @@
 ---
 title: OtherAddressStreet
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的其他街道地址 区域地址属性 规范名称PidTagOtherAddressStreet 替代名称PR_OTHER_ADDRESS_STREET PR_OTHER_ADDRESS_STREET_A
+description: 包含邮件用户的其他街道地址 区域地址属性 规范名称PidTagOtherAddressStreet 替代名称PR_OTHER_ADDRESS_STREETPR_OTHER_ADDRESS_STREET_A
 type: docs
 weight: 14010
 url: /zh/net/aspose.email.mapi/knownpropertylist/otheraddressstreet/
 ---
 ## KnownPropertyList.OtherAddressStreet field
 
-包含邮件用户的其他街道地址。 区域:地址属性 规范名称:PidTagOtherAddressStreet 替代名称:PR_OTHER_ADDRESS_STREET, PR_OTHER_ADDRESS_STREET_A,
+包含邮件用户的其他街道地址。 区域：地址属性 规范名称：PidTagOtherAddressStreet 替代名称：PR_OTHER_ADDRESS_STREET、PR_OTHER_ADDRESS_STREET_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressStreet;

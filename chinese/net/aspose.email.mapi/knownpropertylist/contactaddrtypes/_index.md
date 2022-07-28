@@ -1,14 +1,14 @@
 ---
 title: ContactAddrtypes
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_CONTACT_ADDRTYPES
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_CONTACT_ADDRTYPES
 type: docs
 weight: 2890
 url: /zh/net/aspose.email.mapi/knownpropertylist/contactaddrtypes/
 ---
 ## KnownPropertyList.ContactAddrtypes field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_CONTACT_ADDRTYPES
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_CONTACT_ADDRTYPES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContactAddrtypes;

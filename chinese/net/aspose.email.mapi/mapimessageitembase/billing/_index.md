@@ -1,14 +1,14 @@
 ---
 title: Billing
 second_title: Aspose.Email for .NET API 参考
-description: 包含与项目相关的账单信息
+description: 包含与项目关联的帐单信息
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapimessageitembase/billing/
 ---
 ## MapiMessageItemBase.Billing property
 
-包含与项目相关的账单信息。
+包含与项目关联的帐单信息。
 
 ```csharp
 public string Billing { get; set; }

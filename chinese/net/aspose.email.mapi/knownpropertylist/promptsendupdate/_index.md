@@ -1,14 +1,14 @@
 ---
 title: PromptSendUpdate
 second_title: Aspose.Email for .NET API 参考
-description: 表示收到会议响应对象时已过期 区域会议响应 规范名称PidLidPromptSendUpdate 替代名称dispidPromptSendUpdate
+description: 表示收到会议响应对象时已过期 区域会议响应 规范名称PidLidPromptSendUpdate 备用名称dispidPromptSendUpdate
 type: docs
 weight: 14990
 url: /zh/net/aspose.email.mapi/knownpropertylist/promptsendupdate/
 ---
 ## KnownPropertyList.PromptSendUpdate field
 
-表示收到会议响应对象时已过期。 区域:会议响应 规范名称:PidLidPromptSendUpdate 替代名称:dispidPromptSendUpdate
+表示收到会议响应对象时已过期。 区域：会议响应 规范名称：PidLidPromptSendUpdate 备用名称：dispidPromptSendUpdate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PromptSendUpdate;

@@ -1,14 +1,14 @@
 ---
 title: IsSuccessful
 second_title: Aspose.Email for .NET API 参考
-description: 获取项目是否上传成功
+description: 获取项目是否上传成功的值
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeuploaditemresult/issuccessful/
 ---
 ## ExchangeUploadItemResult.IsSuccessful property
 
-获取项目是否上传成功
+获取项目是否上传成功的值
 
 ```csharp
 public bool IsSuccessful { get; }

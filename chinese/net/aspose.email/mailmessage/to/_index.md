@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置包含 消息接收者的地址集合
+description: 获取或设置包含 message 收件人的地址集合
 type: docs
 weight: 350
 url: /zh/net/aspose.email/mailmessage/to/
 ---
 ## MailMessage.To property
 
-获取或设置包含 消息接收者的地址集合
+获取或设置包含 message 收件人的地址集合
 
 ```csharp
 public virtual MailAddressCollection To { get; set; }

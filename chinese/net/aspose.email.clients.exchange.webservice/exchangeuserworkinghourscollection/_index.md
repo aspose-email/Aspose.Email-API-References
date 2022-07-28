@@ -1,14 +1,14 @@
 ---
 title: ExchangeUserWorkingHoursCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示ExchangeUserWorkingHours./exchangeuserworkinghours
+description: 代表集合ExchangeUserWorkingHours./exchangeuserworkinghours
 type: docs
 weight: 3900
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeuserworkinghourscollection/
 ---
 ## ExchangeUserWorkingHoursCollection class
 
-表示[`ExchangeUserWorkingHours`](../exchangeuserworkinghours)
+代表集合[`ExchangeUserWorkingHours`](../exchangeuserworkinghours)
 
 ```csharp
 public sealed class ExchangeUserWorkingHoursCollection : Collection<ExchangeUserWorkingHours>

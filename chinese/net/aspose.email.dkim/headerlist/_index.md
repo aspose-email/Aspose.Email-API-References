@@ -1,14 +1,14 @@
 ---
 title: HeaderList
 second_title: Aspose.Email for .NET API 参考
-description: 带有包含在 DKIM 签名中的标头名称的集合
+description: 包含在 DKIM 签名中的标头名称的集合
 type: docs
 weight: 17230
 url: /zh/net/aspose.email.dkim/headerlist/
 ---
 ## HeaderList class
 
-带有包含在 DKIM 签名中的标头名称的集合。
+包含在 DKIM 签名中的标头名称的集合。
 
 ```csharp
 public class HeaderList : Collection<string>

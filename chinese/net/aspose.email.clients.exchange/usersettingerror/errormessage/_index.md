@@ -1,14 +1,14 @@
 ---
 title: ErrorMessage
 second_title: Aspose.Email for .NET API 参考
-description: 获取错误消息
+description: 获取错误信息
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange/usersettingerror/errormessage/
 ---
 ## UserSettingError.ErrorMessage property
 
-获取错误消息。
+获取错误信息。
 
 ```csharp
 public string ErrorMessage { get; }

@@ -16,7 +16,7 @@ public void Save(string fileName, MessageObjectSaveFormat format)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 | format | MessageObjectSaveFormat | 输出数据的格式。 |
 
 ### 例外
@@ -27,7 +27,7 @@ public void Save(string fileName, MessageObjectSaveFormat format)
 
 ### 评论
 
-此外，可能会引发与String)调用。
+此外，可能会引发与String)呼叫.
 
 ### 也可以看看
 
@@ -40,7 +40,7 @@ public void Save(string fileName, MessageObjectSaveFormat format)
 
 ## Save(Stream, MessageObjectSaveFormat) {#save}
 
-将当前消息对象保存到指定流。
+将当前消息对象保存到指定的流中。
 
 ```csharp
 public void Save(Stream stream, MessageObjectSaveFormat format)
@@ -55,7 +55,7 @@ public void Save(Stream stream, MessageObjectSaveFormat format)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*stream*为空。 |
+| ArgumentNullException | 如果*stream*一片空白。 |
 | ArgumentOutOfRangeException | 如果*format*值无效。 |
 
 ### 也可以看看

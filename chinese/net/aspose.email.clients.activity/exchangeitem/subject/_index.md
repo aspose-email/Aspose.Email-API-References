@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API 参考
-description: 被访问的消息的主题行
+description: 被访问的邮件的主题行
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activity/exchangeitem/subject/
 ---
 ## ExchangeItem.Subject property
 
-被访问的消息的主题行。
+被访问的邮件的主题行。
 
 ```csharp
 public string Subject { get; set; }

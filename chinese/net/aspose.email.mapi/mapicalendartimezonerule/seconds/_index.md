@@ -1,14 +1,14 @@
 ---
 title: Seconds
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置秒
+description: 获取或设置秒数
 type: docs
 weight: 90
 url: /zh/net/aspose.email.mapi/mapicalendartimezonerule/seconds/
 ---
 ## MapiCalendarTimeZoneRule.Seconds property
 
-获取或设置秒
+获取或设置秒数
 
 ```csharp
 public ushort Seconds { get; set; }

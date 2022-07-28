@@ -20,7 +20,7 @@ public Contact[] GetContacts(string folderUri)
 
 ### 返回值
 
-读取数组[`Contact`](../../../aspose.email.personalinfo/contact)表示联系信息
+读取数组[`Contact`](../../../aspose.email.personalinfo/contact)代表联系信息
 
 ### 也可以看看
 

@@ -34,7 +34,7 @@ public ItemEstimateOptions(AirsyncClass? airClass, AirsyncFilterType? filterType
 | --- | --- | --- |
 | airClass | Nullable`1 | 标识项目的类别。 |
 | filterType | Nullable`1 | 指定对象的可选时间窗口 |
-| maxItems | Nullable`1 | 指定最大项目数包括在响应中。 |
+| maxItems | Nullable`1 | 指定要包含在响应中的最大项目数。 |
 
 ### 也可以看看
 

@@ -18,8 +18,8 @@ public class ReminderTrigger
 
 | Имя | Описание |
 | --- | --- |
-| [ReminderTrigger](remindertrigger#constructor_1)(DateTime) | Инициализировать новый экземпляр класса[`ReminderTrigger`](../remindertrigger). |
-| [ReminderTrigger](remindertrigger#constructor)(ReminderDuration, ReminderRelated) | Инициализировать новый экземпляр класса[`ReminderTrigger`](../remindertrigger). |
+| [ReminderTrigger](remindertrigger#constructor_1)(DateTime) | Инициализировать новый экземпляр[`ReminderTrigger`](../remindertrigger) класс. |
+| [ReminderTrigger](remindertrigger#constructor)(ReminderDuration, ReminderRelated) | Инициализировать новый экземпляр[`ReminderTrigger`](../remindertrigger) класс. |
 
 ## Характеристики
 

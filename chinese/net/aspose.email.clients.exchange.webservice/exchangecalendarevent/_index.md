@@ -18,15 +18,15 @@ public sealed class ExchangeCalendarEvent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeCalendarEvent](exchangecalendarevent)() | 初始化[`ExchangeCalendarEvent`](../exchangecalendarevent)类的新实例。 |
+| [ExchangeCalendarEvent](exchangecalendarevent)() | 初始化[`ExchangeCalendarEvent`](../exchangecalendarevent)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Busyness](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/busyness) { get; } | 获取用户忙碌度。 |
+| [Busyness](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/busyness) { get; } | 获取用户繁忙度。 |
 | [Duration](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/duration) { get; } | 获取事件持续时间。 |
-| [Location](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/location) { get; } | 获取约会地点。 |
+| [Location](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/location) { get; } | 获取预约地点。 |
 | [Subject](../../aspose.email.clients.exchange.webservice/exchangecalendarevent/subject) { get; } | 获取日历事件主题。 |
 
 ### 也可以看看

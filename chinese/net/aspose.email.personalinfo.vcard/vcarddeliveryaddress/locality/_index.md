@@ -1,14 +1,14 @@
 ---
 title: Locality
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置位置
+description: 获取或设置 locality
 type: docs
 weight: 50
 url: /zh/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/locality/
 ---
 ## VCardDeliveryAddress.Locality property
 
-获取或设置位置
+获取或设置 locality
 
 ```csharp
 public string Locality { get; set; }

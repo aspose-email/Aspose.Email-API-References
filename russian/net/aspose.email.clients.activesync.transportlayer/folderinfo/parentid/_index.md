@@ -1,14 +1,14 @@
 ---
 title: ParentId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает идентификатор сервера родительской папки папки на сервере
+description: Указывает идентификатор сервера родительской папки папки на server
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/folderinfo/parentid/
 ---
 ## FolderInfo.ParentId property
 
-Указывает идентификатор сервера родительской папки папки на сервере
+Указывает идентификатор сервера родительской папки папки на server
 
 ```csharp
 public string ParentId { get; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/addsequenc
 ---
 ## Pop3LoadMessageInfoList.AddSequenceNumber method
 
-添加消息序号。
+添加消息序号
 
 ```csharp
 public Pop3LoadMessageInfoList AddSequenceNumber(int sequenceNumber)

@@ -18,7 +18,7 @@ public abstract class SequenceSetBaseValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [implicit operator](../../aspose.email.clients.imap/sequencesetbasevalue/op_implicit) | 从[`SequenceSetBaseValue`](../sequencesetbasevalue)到String的隐式转换操作 |
+| [implicit operator](../../aspose.email.clients.imap/sequencesetbasevalue/op_implicit) | 隐式转换操作来自[`SequenceSetBaseValue`](../sequencesetbasevalue)至String |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ServerProcessingActions
 second_title: Aspose.Email for .NET API 参考
-description: 表示已对此会议请求对象或会议更新对象采取了哪些处理操作 区域日历 规范名称PidLidServerProcessingActions 替代名称dispidExchangeProcessingAction
+description: 指示已对此会议请求对象或会议更新对象采取了哪些处理操作 区域Calendar 规范名称PidLidServerProcessingActions 替代名称dispidExchangeProcessingAction
 type: docs
 weight: 17300
 url: /zh/net/aspose.email.mapi/knownpropertylist/serverprocessingactions/
 ---
 ## KnownPropertyList.ServerProcessingActions field
 
-表示已对此会议请求对象或会议更新对象采取了哪些处理操作。 区域:日历 规范名称:PidLidServerProcessingActions 替代名称:dispidExchangeProcessingAction
+指示已对此会议请求对象或会议更新对象采取了哪些处理操作。 区域：Calendar 规范名称：PidLidServerProcessingActions 替代名称：dispidExchangeProcessingAction
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ServerProcessingActions;

@@ -1,14 +1,14 @@
 ---
 title: Until
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置直到
+description: 获取或设置直到.
 type: docs
 weight: 160
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerule/until/
 ---
 ## RecurrenceRule.Until property
 
-获取或设置直到。
+获取或设置直到.
 
 ```csharp
 public DateTime Until { get; set; }

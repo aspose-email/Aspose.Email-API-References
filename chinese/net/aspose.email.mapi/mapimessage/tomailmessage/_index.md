@@ -20,7 +20,7 @@ public MailMessage ToMailMessage(MailConversionOptions options)
 
 ### 返回值
 
-返回从该 MapiMessage 加载的 MailMessage 实例。
+返回从此 MapiMessage 加载的 MailMessage 实例。
 
 ### 也可以看看
 

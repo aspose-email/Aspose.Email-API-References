@@ -1,14 +1,14 @@
 ---
 title: Reminders
 second_title: Aspose.Email for .NET API 参考
-description: 包含 AppointmentReminderAppointmentReminderaspose.email.calendar/appointmentreminder对象的集合
+description: 包含 AppointmentReminder 的集合AppointmentReminderaspose.email.calendar/appointmentreminder对象.
 type: docs
-weight: 210
+weight: 220
 url: /zh/net/aspose.email.calendar/appointment/reminders/
 ---
 ## Appointment.Reminders property
 
-包含 AppointmentReminder[`AppointmentReminder`](../../appointmentreminder)对象的集合。
+包含 AppointmentReminder 的集合[`AppointmentReminder`](../../appointmentreminder)对象.
 
 ```csharp
 public AppointmentReminderCollection Reminders { get; }

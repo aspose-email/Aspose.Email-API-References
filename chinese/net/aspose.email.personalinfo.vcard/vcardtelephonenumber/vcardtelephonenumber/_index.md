@@ -1,14 +1,14 @@
 ---
 title: VCardTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardTelephoneNumberaspose.email.personalinfo.vcard/vcardtelephonenumber 类的新实例
+description: 初始化VCardTelephoneNumberaspose.email.personalinfo.vcard/vcardtelephonenumber class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardtelephonenumber/vcardtelephonenumber/
 ---
 ## VCardTelephoneNumber constructor
 
-初始化 [`VCardTelephoneNumber`](../../vcardtelephonenumber) 类的新实例
+初始化[`VCardTelephoneNumber`](../../vcardtelephonenumber) class
 
 ```csharp
 public VCardTelephoneNumber()

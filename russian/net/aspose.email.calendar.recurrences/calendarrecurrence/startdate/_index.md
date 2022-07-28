@@ -1,14 +1,14 @@
 ---
 title: StartDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает начальную дату.
+description: Получает или задает дату начала.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.calendar.recurrences/calendarrecurrence/startdate/
 ---
 ## CalendarRecurrence.StartDate property
 
-Получает или задает начальную дату.
+Получает или задает дату начала.
 
 ```csharp
 public DateTime StartDate { get; set; }

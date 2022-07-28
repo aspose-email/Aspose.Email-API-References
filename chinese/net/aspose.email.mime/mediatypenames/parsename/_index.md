@@ -16,7 +16,7 @@ public static string ParseName(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 文件名扩展 |
+| name | String | 文件扩展名 |
 
 ### 返回值
 

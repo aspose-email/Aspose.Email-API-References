@@ -1,14 +1,14 @@
 ---
 title: CleanGlobalObjectId
 second_title: Aspose.Email for .NET API 参考
-description: 包含所有零对象的 PidLidGlobalObjectId 属性第 2.142 节的值 区域会议 规范名称PidLidCleanGlobalObjectId 替代名称dispidCleanGlobalObjId
+description: 包含对象的 PidLidGlobalObjectId 属性第 2.142 节的值全为零 区域Meetings 规范名称PidLidCleanGlobalObjectId 替代名称dispidCleanGlobalObjId
 type: docs
 weight: 2670
 url: /zh/net/aspose.email.mapi/knownpropertylist/cleanglobalobjectid/
 ---
 ## KnownPropertyList.CleanGlobalObjectId field
 
-包含所有零对象的 PidLidGlobalObjectId 属性（第 2.142 节）的值。 区域:会议 规范名称:PidLidCleanGlobalObjectId 替代名称:dispidCleanGlobalObjId
+包含对象的 PidLidGlobalObjectId 属性（第 2.142 节）的值全为零。 区域：Meetings 规范名称：PidLidCleanGlobalObjectId 替代名称：dispidCleanGlobalObjId
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CleanGlobalObjectId;

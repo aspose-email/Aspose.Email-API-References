@@ -3,7 +3,7 @@ title: MapiContactPhoto
 second_title: Aspose.Email for .NET API 参考
 description: 包含联系人照片的数据和类型
 type: docs
-weight: 18250
+weight: 18280
 url: /zh/net/aspose.email.mapi/mapicontactphoto/
 ---
 ## MapiContactPhoto class
@@ -18,7 +18,7 @@ public sealed class MapiContactPhoto : ContactPhoto
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactPhoto](mapicontactphoto)(byte[], MapiContactPhotoImageFormat) | 初始化 [`MapiContactPhoto`](../mapicontactphoto) 类的新实例 |
+| [MapiContactPhoto](mapicontactphoto)(byte[], MapiContactPhotoImageFormat) | 初始化[`MapiContactPhoto`](../mapicontactphoto) class |
 
 ## 特性
 

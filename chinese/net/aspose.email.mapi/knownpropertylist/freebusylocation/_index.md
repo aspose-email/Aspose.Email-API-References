@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/freebusylocation/
 ---
 ## KnownPropertyList.FreeBusyLocation field
 
-指定客户端可以从中检索联系人的忙/闲状态信息的 URL 路径。 区域:联系人属性 规范名称:PidLidFreeBusyLocation 替代名称:dispidFreeBusyLocation
+指定客户端可以从中检索联系人的忙/闲状态信息的 URL 路径。 区域：联系人属性 规范名称：PidLidFreeBusyLocation 替代名称：dispidFreeBusyLocation
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FreeBusyLocation;

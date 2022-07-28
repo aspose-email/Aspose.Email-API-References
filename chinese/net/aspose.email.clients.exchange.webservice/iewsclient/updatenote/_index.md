@@ -1,14 +1,14 @@
 ---
 title: UpdateNote
 second_title: Aspose.Email for .NET API 参考
-description: 更新指定的音符
+description: 更新指定的注释
 type: docs
 weight: 1500
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/updatenote/
 ---
 ## UpdateNote(MapiNote) {#updatenote}
 
-更新指定的音符。
+更新指定的注释。
 
 ```csharp
 public string UpdateNote(MapiNote note)
@@ -33,7 +33,7 @@ public string UpdateNote(MapiNote note)
 
 ## UpdateNote(string, MapiNote) {#updatenote_1}
 
-更新指定的音符。
+更新指定的注释。
 
 ```csharp
 public string UpdateNote(string uri, MapiNote note)
@@ -41,8 +41,8 @@ public string UpdateNote(string uri, MapiNote note)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uri | String | 注释标识符 |
-| note | MapiNote | An[`MapiNote`](../../../aspose.email.mapi/mapinote)包含笔记信息。 |
+| uri | String | 笔记标识符 |
+| note | MapiNote | 一个[`MapiNote`](../../../aspose.email.mapi/mapinote)包含注释信息。 |
 
 ### 返回值
 
@@ -59,7 +59,7 @@ public string UpdateNote(string uri, MapiNote note)
 
 ## UpdateNote(string, MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) {#updatenote_2}
 
-更新指定的音符。
+更新指定的注释。
 
 ```csharp
 public string UpdateNote(string uri, MapiNote note, 
@@ -68,8 +68,8 @@ public string UpdateNote(string uri, MapiNote note,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uri | String | 注释标识符 |
-| note | MapiNote | An[`MapiNote`](../../../aspose.email.mapi/mapinote)包含笔记信息。 |
+| uri | String | 笔记标识符 |
+| note | MapiNote | 一个[`MapiNote`](../../../aspose.email.mapi/mapinote)包含注释信息。 |
 | additionalProperties | IEnumerable`1 | 可在 MAPI 对象中使用的附加 MAPI 属性。 |
 
 ### 返回值

@@ -16,7 +16,7 @@ public Contact[] GetContactsFromGroup(string groupId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| groupId | String | 字符串，表示联系人的组 ID |
+| groupId | String | 表示联系人的组 ID 的字符串 |
 
 ### 返回值
 
@@ -26,8 +26,8 @@ public Contact[] GetContactsFromGroup(string groupId)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *groupId*is` null` 或` 空` 。 |
-| WebException | 当操作失败 |
+| ArgumentNullException | *groupId*是`无效的`或者`空的`. |
+| WebException | 当操作失败时 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SectionHeader
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 SectionHeader 的新实例
+description: 初始化 SectionHeader. 的新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.email.amp/sectionheader/sectionheader/
 ---
 ## SectionHeader constructor
 
-初始化 SectionHeader 的新实例。
+初始化 SectionHeader. 的新实例
 
 ```csharp
 public SectionHeader(SectionHeaderType type, string value)

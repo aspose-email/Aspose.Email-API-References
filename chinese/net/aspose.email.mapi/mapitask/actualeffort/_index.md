@@ -1,14 +1,14 @@
 ---
 title: ActualEffort
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 用户在某项任务上实际花费的分钟数
+description: 获取或设置 用户实际用于某项任务的分钟数
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapitask/actualeffort/
 ---
 ## MapiTask.ActualEffort property
 
-获取或设置 用户在某项任务上实际花费的分钟数。
+获取或设置 用户实际用于某项任务的分钟数。
 
 ```csharp
 public int ActualEffort { get; set; }

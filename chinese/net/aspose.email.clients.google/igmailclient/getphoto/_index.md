@@ -16,11 +16,11 @@ public ContactPhoto GetPhoto(ContactPhoto photo)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| photo | ContactPhoto | 带有标识符的ContactPhoto对象 |
+| photo | ContactPhoto | 带有标识符的 ContactPhoto 对象 |
 
 ### 返回值
 
-Returns a contact photo返回联系人照片
+返回联系人照片
 
 ### 也可以看看
 

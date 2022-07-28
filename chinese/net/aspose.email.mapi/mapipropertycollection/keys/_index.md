@@ -1,14 +1,14 @@
 ---
 title: Keys
 second_title: Aspose.Email for .NET API 参考
-description: 获取 System.Collections.Generic.ICollectionltlonggt包含集合中的键
+description: 获取包含集合中的键的 System.Collections.Generic.ICollectionltlonggt
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapipropertycollection/keys/
 ---
 ## MapiPropertyCollection.Keys property
 
-获取 System.Collections.Generic.ICollection&lt;long&gt;包含集合中的键。
+获取包含集合中的键的 System.Collections.Generic.ICollection&lt;long&gt;。
 
 ```csharp
 public ICollection<long> Keys { get; }

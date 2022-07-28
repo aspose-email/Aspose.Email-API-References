@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/attachcontentbase/
 ---
 ## KnownPropertyList.AttachContentBase field
 
-包含相对 URI 的基础。 区域:消息附件属性 规范名称:PidTagAttachContentBase 备用名称:
+包含相对 URI 的基础。 区域：消息附件属性 规范名称：PidTagAttachContentBase 备用名称：
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachContentBase;

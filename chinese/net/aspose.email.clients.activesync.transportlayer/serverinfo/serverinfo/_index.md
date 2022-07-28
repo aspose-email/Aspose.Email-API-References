@@ -17,7 +17,7 @@ public ServerInfo(ServerType type, string url, string name, string serverData)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | type | ServerType | 指定服务器类型 |
-| url | String | 指定 URL传达协议、端口、资源位置和其他信息的字符串。 |
+| url | String | 指定传达协议、端口、资源位置和其他信息的 URL 字符串。 |
 | name | String | 如果 Type 元素（第 2.2.3.170.1 节）值设置为“MobileSync”，则指定 URL。 |
 | serverData | String | ServerData 指定客户端证书的模板名称。 |
 

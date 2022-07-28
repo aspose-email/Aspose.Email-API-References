@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Email для .NET API
-description: ВозвращаетString который представляет текущийObject.
+description: ВозвращаетString который представляет текущийObject .
 type: docs
 weight: 90
 url: /ru/net/aspose.email/messageformat/tostring/
 ---
 ## MessageFormat.ToString method
 
-ВозвращаетString, который представляет текущийObject.
+ВозвращаетString который представляет текущийObject .
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-AStringкоторая представляет текущийОбъект.
+АString который представляет текущийObject .
 
 ### Смотрите также
 

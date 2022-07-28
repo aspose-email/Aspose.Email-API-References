@@ -1,14 +1,14 @@
 ---
 title: AppointmentFormattingOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAppointmentFormattingOptionsaspose.email.calendar/appointmentformattingoptions.  По умолчанию шаблон будет создан в текстовом формате.
+description: Инициализирует новый экземплярAppointmentFormattingOptionsaspose.email.calendar/appointmentformattingoptions класс. По умолчанию шаблон будет создан в текстовом формате.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/appointmentformattingoptions/appointmentformattingoptions/
 ---
 ## AppointmentFormattingOptions constructor
 
-Инициализирует новый экземпляр класса[`AppointmentFormattingOptions`](../../appointmentformattingoptions).  По умолчанию шаблон будет создан в текстовом формате.
+Инициализирует новый экземпляр[`AppointmentFormattingOptions`](../../appointmentformattingoptions) класс. По умолчанию шаблон будет создан в текстовом формате.
 
 ```csharp
 public AppointmentFormattingOptions()

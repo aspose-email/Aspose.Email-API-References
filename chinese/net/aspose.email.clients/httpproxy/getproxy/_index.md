@@ -16,11 +16,11 @@ public virtual Uri GetProxy(Uri destination)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| destination | Uri | System.Uri 指定请求的 Internet 资源。 |
+| destination | Uri | 指定请求的 Internet 资源的 System.Uri。 |
 
 ### 返回值
 
-System.Uri 实例，其中包含用于联系目标的代理的 URI。
+一个 System.Uri 实例，其中包含用于联系目标的代理的 URI。
 
 ### 也可以看看
 

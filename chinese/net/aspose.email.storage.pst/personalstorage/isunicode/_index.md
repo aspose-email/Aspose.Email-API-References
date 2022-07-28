@@ -1,14 +1,14 @@
 ---
 title: IsUnicode
 second_title: Aspose.Email for .NET API 参考
-description: 获取指示 PST 文件格式是否为 Unicode 的值 PST 文件格式有两个版本Unicode 和 ANSI
+description: 获取表示 PST 文件格式是否为 Unicode 的值 PST 文件格式有两个版本Unicode 和 ANSI
 type: docs
 weight: 70
 url: /zh/net/aspose.email.storage.pst/personalstorage/isunicode/
 ---
 ## PersonalStorage.IsUnicode property
 
-获取指示 PST 文件格式是否为 Unicode 的值。 PST 文件格式有两个版本:Unicode 和 ANSI。
+获取表示 PST 文件格式是否为 Unicode 的值。 PST 文件格式有两个版本：Unicode 和 ANSI。
 
 ```csharp
 public bool IsUnicode { get; }

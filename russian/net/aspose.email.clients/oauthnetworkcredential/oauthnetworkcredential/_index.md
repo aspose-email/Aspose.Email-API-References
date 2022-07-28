@@ -1,14 +1,14 @@
 ---
 title: OAuthNetworkCredential
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаOAuthNetworkCredentialaspose.email.clients/oauthnetworkcredential
+description: Инициализирует новый экземплярOAuthNetworkCredentialaspose.email.clients/oauthnetworkcredential класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/oauthnetworkcredential/oauthnetworkcredential/
 ---
 ## OAuthNetworkCredential(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../../oauthnetworkcredential)
+Инициализирует новый экземпляр[`OAuthNetworkCredential`](../../oauthnetworkcredential) класс
 
 ```csharp
 public OAuthNetworkCredential(string accessToken)
@@ -28,7 +28,7 @@ public OAuthNetworkCredential(string accessToken)
 
 ## OAuthNetworkCredential(ITokenProvider) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../../oauthnetworkcredential)
+Инициализирует новый экземпляр[`OAuthNetworkCredential`](../../oauthnetworkcredential) класс
 
 ```csharp
 public OAuthNetworkCredential(ITokenProvider tokenProvider)
@@ -49,7 +49,7 @@ public OAuthNetworkCredential(ITokenProvider tokenProvider)
 
 ## OAuthNetworkCredential(IAsyncTokenProvider, string) {#constructor}
 
-Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../../oauthnetworkcredential)
+Инициализирует новый экземпляр[`OAuthNetworkCredential`](../../oauthnetworkcredential) класс
 
 ```csharp
 public OAuthNetworkCredential(IAsyncTokenProvider tokenProvider, string username = null)
@@ -58,7 +58,7 @@ public OAuthNetworkCredential(IAsyncTokenProvider tokenProvider, string username
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tokenProvider | IAsyncTokenProvider | Поставщик токенов |
-| имяпользователя | String | Имя пользователя |
+| username | String | Имя пользователя |
 
 ### Смотрите также
 
@@ -71,7 +71,7 @@ public OAuthNetworkCredential(IAsyncTokenProvider tokenProvider, string username
 
 ## OAuthNetworkCredential(string, string) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../../oauthnetworkcredential)
+Инициализирует новый экземпляр[`OAuthNetworkCredential`](../../oauthnetworkcredential) класс
 
 ```csharp
 public OAuthNetworkCredential(string userName, string accessToken)
@@ -80,7 +80,7 @@ public OAuthNetworkCredential(string userName, string accessToken)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | userName | String | Имя пользователя |
-| accessToken | String | Маркер доступа |
+| accessToken | String | Токен доступа |
 
 ### Смотрите также
 
@@ -92,7 +92,7 @@ public OAuthNetworkCredential(string userName, string accessToken)
 
 ## OAuthNetworkCredential(string, ITokenProvider) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`OAuthNetworkCredential`](../../oauthnetworkcredential)
+Инициализирует новый экземпляр[`OAuthNetworkCredential`](../../oauthnetworkcredential) класс
 
 ```csharp
 public OAuthNetworkCredential(string userName, ITokenProvider tokenProvider)

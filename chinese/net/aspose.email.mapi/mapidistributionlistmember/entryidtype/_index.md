@@ -16,7 +16,7 @@ public MapiDistributionListEntryIdType EntryIdType { get; set; }
 
 ### 适当的价值
 
-条目id的类型。
+条目 ID 的类型。
 
 ### 也可以看看
 

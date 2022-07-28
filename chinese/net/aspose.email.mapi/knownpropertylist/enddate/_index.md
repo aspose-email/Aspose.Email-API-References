@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/enddate/
 ---
 ## KnownPropertyList.EndDate field
 
-包含 PidLidAppointmentEndWhole 属性的值（第 2.14 节）。 区域:MapiEnvelope 属性集 规范名称:PidTagEndDate 替代名称:PR_END_DATE，http://schemas.microsoft.com/mapi/end_date
+包含 PidLidAppointmentEndWhole 属性的值（第 2.14 节）。 区域：MapiEnvelope 属性集 规范名称：PidTagEndDate 替代名称：PR_END_DATE，http://schemas.microsoft.com/mapi/end_date
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EndDate;

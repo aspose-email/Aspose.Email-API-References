@@ -1,14 +1,14 @@
 ---
 title: EmsAbOffLineAbStyle
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_OFF_LINE_AB_STYLE
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_OFF_LINE_AB_STYLE
 type: docs
 weight: 7850
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabofflineabstyle/
 ---
 ## KnownPropertyList.EmsAbOffLineAbStyle field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_OFF_LINE_AB_STYLE
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_OFF_LINE_AB_STYLE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbOffLineAbStyle;

@@ -1,14 +1,14 @@
 ---
 title: SharingCapabilities
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Message 对象与一个特殊文件夹相关 区域共享 规范名称PidLidSharingCapabilities 替代名称dispidSharingCaps
+description: 表示消息对象与特殊文件夹相关 区域Sharing 规范名称PidLidSharingCapabilities 替代名称dispidSharingCaps
 type: docs
 weight: 17420
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingcapabilities/
 ---
 ## KnownPropertyList.SharingCapabilities field
 
-表示 Message 对象与一个特殊文件夹相关。 区域:共享 规范名称:PidLidSharingCapabilities 替代名称:dispidSharingCaps
+表示消息对象与特殊文件夹相关。 区域：Sharing 规范名称：PidLidSharingCapabilities 替代名称：dispidSharingCaps
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingCapabilities;

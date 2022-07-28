@@ -1,14 +1,14 @@
 ---
 title: NoteHeight
 second_title: Aspose.Email for .NET API 参考
-description: 以像素为单位指定可见消息窗口的高度 区域便笺 规范名称PidLidNoteHeight 替代名称dispidNoteHeight
+description: 以像素为单位指定可见消息窗口的高度 区域粘滞便笺 规范名称PidLidNoteHeight 替代名称dispidNoteHeight
 type: docs
 weight: 13130
 url: /zh/net/aspose.email.mapi/knownpropertylist/noteheight/
 ---
 ## KnownPropertyList.NoteHeight field
 
-以像素为单位指定可见消息窗口的高度。 区域:便笺 规范名称:PidLidNoteHeight 替代名称:dispidNoteHeight
+以像素为单位指定可见消息窗口的高度。 区域：粘滞便笺 规范名称：PidLidNoteHeight 替代名称：dispidNoteHeight
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoteHeight;

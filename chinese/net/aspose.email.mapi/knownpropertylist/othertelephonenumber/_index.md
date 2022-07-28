@@ -1,14 +1,14 @@
 ---
 title: OtherTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的备用电话号码 区域地址属性 规范名称PidTagOtherTelephoneNumber 别名PR_OTHER_TELEPHONE_NUMBER PR_OTHER_TELEPHONE_NUMBER_A
+description: 包含邮件用户的备用电话号码 区域地址属性 规范名称PidTagOtherTelephoneNumber 备用名称PR_OTHER_TELEPHONE_NUMBERPR_OTHER_TELEPHONE_NUMBER_A
 type: docs
 weight: 14020
 url: /zh/net/aspose.email.mapi/knownpropertylist/othertelephonenumber/
 ---
 ## KnownPropertyList.OtherTelephoneNumber field
 
-包含邮件用户的备用电话号码。 区域:地址属性 规范名称:PidTagOtherTelephoneNumber 别名:PR_OTHER_TELEPHONE_NUMBER, PR_OTHER_TELEPHONE_NUMBER_A,
+包含邮件用户的备用电话号码。 区域：地址属性 规范名称：PidTagOtherTelephoneNumber 备用名称：PR_OTHER_TELEPHONE_NUMBER、PR_OTHER_TELEPHONE_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherTelephoneNumber;

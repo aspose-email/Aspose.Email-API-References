@@ -24,10 +24,10 @@ public class ResolveRecipientsCertificates
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CertificateCount](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificatecount) { get; set; } | 指定为收件人找到的有效证书的数量。 如果与证书一起返回的状态值为 8，则 CertificateCount 指定未返回的收件人证书的数量。 |
-| [Certificates](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificates) { get; } | 包含 X509 证书列表作为二进制大对象 (BLOB)。 仅当客户端在 ResolveRecipients 命令请求的 CertificateRetrieval 中指定值为 2 时，服务器才会返回此元素。 |
+| [CertificateCount](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificatecount) { get; set; } | 指定为收件人找到的有效证书的数量。 如果随证书返回的状态值为 8，则 CertificateCount 指定未返回的收件人证书的数量。 |
+| [Certificates](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificates) { get; } | 包含作为二进制大对象 (BLOB) 的 X509 证书列表。 仅当客户端在 ResolveRecipients 命令请求的 CertificateRetrieval 中指定值 2 时，服务器才会返回此元素。 |
 | [MiniCertificate](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/minicertificate) { get; set; } | 包含迷你证书 BLOB。 仅当客户端在 ResolveRecipients 命令请求的 CertificateRetrieval 中指定值 3 并且已解析的收件人具有有效的 S/MIME 证书时，才会返回此元素。 |
-| [RecipientCount](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/recipientcount) { get; set; } | 指定属于分发列表的成员数。 它可用于通过比较 CertificateCount 和 RecipientCount 元素的值来确定属于分发列表的所有收件人是否具有有效证书。 |
+| [RecipientCount](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/recipientcount) { get; set; } | 指定属于分发列表的成员数。 可用于通过比较 CertificateCount 和 RecipientCount 元素的值来确定属于分发列表的所有收件人是否具有有效证书。 |
 | [Status](../../aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/status) { get; set; } | 表示 ActiveSync 命令请求的结果。 |
 
 ### 也可以看看

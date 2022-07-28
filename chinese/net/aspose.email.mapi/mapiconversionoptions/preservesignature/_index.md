@@ -1,14 +1,14 @@
 ---
 title: PreserveSignature
 second_title: Aspose.Email for .NET API 参考
-description: 如果要保留签名则设置为 true
+description: 设置为真如果要保留签名
 type: docs
 weight: 100
 url: /zh/net/aspose.email.mapi/mapiconversionoptions/preservesignature/
 ---
 ## MapiConversionOptions.PreserveSignature property
 
-如果要保留签名，则设置为 true。
+设置为真，如果要保留签名。
 
 ```csharp
 public bool PreserveSignature { get; set; }

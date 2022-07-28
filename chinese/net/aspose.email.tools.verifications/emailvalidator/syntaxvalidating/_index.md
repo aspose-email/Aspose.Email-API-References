@@ -1,14 +1,14 @@
 ---
 title: SyntaxValidating
 second_title: Aspose.Email for .NET API 参考
-description: 此事件在验证电子邮件地址的语法时发生
+description: 验证电子邮件地址的语法时发生此事件
 type: docs
 weight: 60
 url: /zh/net/aspose.email.tools.verifications/emailvalidator/syntaxvalidating/
 ---
 ## EmailValidator.SyntaxValidating event
 
-此事件在验证电子邮件地址的语法时发生。
+验证电子邮件地址的语法时发生此事件。
 
 ```csharp
 public event SyntaxValidatingEventHandler SyntaxValidating;

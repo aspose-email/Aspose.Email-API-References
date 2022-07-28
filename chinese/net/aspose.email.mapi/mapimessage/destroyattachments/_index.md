@@ -22,17 +22,17 @@ public static void DestroyAttachments(string path)
 
 以下示例演示了如何销毁 Outlook 邮件文件中的附件。
 
-[C#]
+[C＃]
+
+[视觉基础]
 
 ```csharp
 //从 Outlook 邮件文件中销毁附件
-iMessage.DestroyAttachment(@"c:\outlookmessage.msg");
+MapiMessage.DestroyAttachment(@"c:\outlookmessage.msg");
 ```
 
-[Visual Basic]
-
 ```csharp
-'从 Outlook 邮件文件中销毁附件
+'销毁 Outlook 邮件文件中的附件
 MapiMessage.DestroyAttachment("c:\outlookmessage.msg")
 ```
 

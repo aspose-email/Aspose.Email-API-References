@@ -1,14 +1,14 @@
 ---
 title: ListAttachments
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮件附件列表 获取消息中每个附件的信息
+description: 获取邮件附件列表 获取邮件中每个附件的信息
 type: docs
 weight: 810
 url: /zh/net/aspose.email.clients.imap/imapclient/listattachments/
 ---
 ## ImapClient.ListAttachments method
 
-获取邮件附件列表。 获取消息中每个附件的信息。
+获取邮件附件列表。 获取邮件中每个附件的信息。
 
 ```csharp
 public ImapAttachmentInfoCollection ListAttachments(int sequenceNumber)
@@ -20,7 +20,7 @@ public ImapAttachmentInfoCollection ListAttachments(int sequenceNumber)
 
 ### 返回值
 
-[`ImapMessageInfoCollection`](../../imapmessageinfocollection)表示ImapAttachmentInfo
+[`ImapMessageInfoCollection`](../../imapmessageinfocollection)代表集合[`ImapAttachmentInfo`](../../imapattachmentinfo)
 
 ### 也可以看看
 

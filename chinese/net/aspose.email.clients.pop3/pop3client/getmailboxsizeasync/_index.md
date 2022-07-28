@@ -20,7 +20,7 @@ public Task<long> GetMailboxSizeAsync(IConnection connection)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public Task<long> GetMailboxSizeAsync()
 
 ### 返回值
 
-任务对象，委托为这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public Task<long> GetMailboxSizeAsync(IConnection connection, CancellationToken 
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -87,11 +87,11 @@ public Task<long> GetMailboxSizeAsync(CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| token | CancellationToken | 传播操作通知应该取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

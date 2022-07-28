@@ -18,9 +18,9 @@ public sealed class LinkedResourceCollection : Collection<LinkedResource>, IDisp
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clear](../../aspose.email/linkedresourcecollection/clear#clear_1)(bool) | 从此集合中删除所有元素。 |
+| [Clear](../../aspose.email/linkedresourcecollection/clear#clear_1)(bool) | 删除此集合中的所有元素。 |
 | [Dispose](../../aspose.email/linkedresourcecollection/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义任务。 |
-| [RemoveAt](../../aspose.email/linkedresourcecollection/removeat#removeat_1)(int, bool) | 从此集合中移除指定索引处的元素。 |
+| [RemoveAt](../../aspose.email/linkedresourcecollection/removeat#removeat_1)(int, bool) | 从此集合中删除指定索引处的元素。 |
 
 ### 也可以看看
 

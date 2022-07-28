@@ -1,14 +1,14 @@
 ---
 title: TelexNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的电传号码此属性作为 PtypMultipleBinary 从 NSPI 服务器返回否则数据类型为 PtypString 区域MapiMailUser 规范名称PidTagTelexNumber 替代名称PR_TELEX_NUMBER PR_TELEX_NUMBER_A PR_TELEX_NUMBER_W
+description: 包含邮件用户的电传号码此属性作为 PtypMultipleBinary 从 NSPI 服务器返回否则数据类型为 PtypString 区域MapiMailUser 规范名称PidTagTelexNumber 备用名称PR_TELEX_NUMBERPR_TELEX_NUMBER_APR_TELEX_NUMBER_W
 type: docs
 weight: 18890
 url: /zh/net/aspose.email.mapi/knownpropertylist/telexnumber/
 ---
 ## KnownPropertyList.TelexNumber field
 
-包含邮件用户的电传号码。此属性作为 PtypMultipleBinary 从 NSPI 服务器返回。否则，数据类型为 PtypString。 区域:MapiMailUser 规范名称:PidTagTelexNumber 替代名称:PR_TELEX_NUMBER, PR_TELEX_NUMBER_A, PR_TELEX_NUMBER_W,
+包含邮件用户的电传号码。此属性作为 PtypMultipleBinary 从 NSPI 服务器返回。否则，数据类型为 PtypString。 区域：MapiMailUser 规范名称：PidTagTelexNumber 备用名称：PR_TELEX_NUMBER、PR_TELEX_NUMBER_A、PR_TELEX_NUMBER_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TelexNumber;

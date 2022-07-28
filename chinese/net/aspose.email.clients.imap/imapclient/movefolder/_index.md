@@ -17,7 +17,7 @@ public void MoveFolder(string newParentFolder, string folderName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newParentFolder | String | 移动文件夹的新位置 |
-| folderName | String | 文件夹到移动 |
+| folderName | String | 要移动的文件夹 |
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public void MoveFolder(IConnection connection, string newParentFolder, string fo
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| newParentFolder | String | 的新位置移动文件夹 |
+| newParentFolder | String | 移动文件夹的新位置 |
 | folderName | String | 要移动的文件夹 |
 
 ### 也可以看看

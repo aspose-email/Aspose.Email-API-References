@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/freebusyrangetimestamp/
 ---
 ## KnownPropertyList.FreeBusyRangeTimestamp field
 
-指定发布数据的时间（以 UTC 为单位）。 区域:忙/闲属性 规范名称:PidTagFreeBusyRangeTimestamp 替代名称:PR_FREEBUSY_RANGE_TIMESTAMP
+指定发布数据的时间（以 UTC 为单位）。 区域：忙/闲属性 规范名称：PidTagFreeBusyRangeTimestamp 替代名称：PR_FREEBUSY_RANGE_TIMESTAMP
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FreeBusyRangeTimestamp;

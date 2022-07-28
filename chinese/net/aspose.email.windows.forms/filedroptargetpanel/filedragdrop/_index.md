@@ -1,14 +1,14 @@
 ---
 title: FileDragDrop
 second_title: Aspose.Email for .NET API 参考
-description: 在文件拖放时发生
+description: 在文件拖放 时发生
 type: docs
 weight: 30
 url: /zh/net/aspose.email.windows.forms/filedroptargetpanel/filedragdrop/
 ---
 ## FileDropTargetPanel.FileDragDrop event
 
-在[文件拖放]时发生。
+在[文件拖放] 时发生。
 
 ```csharp
 public event FileDragEventHandler FileDragDrop;

@@ -1,14 +1,14 @@
 ---
 title: State
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 Task 对象的当前赋值 状态
+description: 获取或设置Task对象的当前赋值 状态
 type: docs
 weight: 190
 url: /zh/net/aspose.email.mapi/mapitask/state/
 ---
 ## MapiTask.State property
 
-获取或设置 Task 对象的当前赋值 状态。
+获取或设置Task对象的当前赋值 状态。
 
 ```csharp
 public MapiTaskState State { get; set; }

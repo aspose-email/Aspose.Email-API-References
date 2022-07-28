@@ -1,14 +1,14 @@
 ---
 title: Primary
 second_title: Aspose.Email for .NET API 参考
-description: 日历是否为认证用户的主日历只读 默认为假
+description: 日历是否是认证用户的主日历只读 默认为 False
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.google/extendedcalendar/primary/
 ---
 ## ExtendedCalendar.Primary property
 
-日历是否为认证用户的主日历。只读。 默认为假。
+日历是否是认证用户的主日历。只读。 默认为 False。
 
 ```csharp
 public virtual bool Primary { get; set; }

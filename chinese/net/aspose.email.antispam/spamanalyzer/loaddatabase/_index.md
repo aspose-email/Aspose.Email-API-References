@@ -48,7 +48,7 @@ public void LoadDatabase(Stream stream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*stream*为空。 |
+| ArgumentNullException | 如果*stream*一片空白。 |
 
 ### 也可以看看
 

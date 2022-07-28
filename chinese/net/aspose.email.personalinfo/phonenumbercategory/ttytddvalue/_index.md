@@ -1,14 +1,14 @@
 ---
 title: TtyTddValue
 second_title: Aspose.Email for .NET API 参考
-description: TtyTdd 类别的字符串值
+description: TtyTdd类别的字符串值
 type: docs
 weight: 400
 url: /zh/net/aspose.email.personalinfo/phonenumbercategory/ttytddvalue/
 ---
 ## PhoneNumberCategory.TtyTddValue field
 
-'TtyTdd' 类别的字符串值
+“TtyTdd”类别的字符串值
 
 ```csharp
 public const string TtyTddValue;

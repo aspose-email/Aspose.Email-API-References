@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Выполняет неявное преобразование изMailAddressaspose.email/mailaddressвMailAddressCollectionaspose.email/mailaddresscollection.
+description: Выполняет неявное преобразование изMailAddressaspose.email/mailaddress кMailAddressCollectionaspose.email/mailaddresscollection .
 type: docs
 weight: 60
 url: /ru/net/aspose.email/mailaddresscollection/op_implicit/
 ---
 ## implicit operator {#op_implicit}
 
-Выполняет неявное преобразование из[`MailAddress`](../../mailaddress)в[`MailAddressCollection`](../../mailaddresscollection).
+Выполняет неявное преобразование из[`MailAddress`](../../mailaddress) к[`MailAddressCollection`](../../mailaddresscollection) .
 
 ```csharp
 public static implicit operator MailAddressCollection(MailAddress address)
@@ -33,7 +33,7 @@ public static implicit operator MailAddressCollection(MailAddress address)
 
 ## implicit operator {#op_implicit_1}
 
-Выполняет неявное преобразование изStringв[`MailAddressCollection`](../../mailaddresscollection).
+Выполняет неявное преобразование изString к[`MailAddressCollection`](../../mailaddresscollection) .
 
 ```csharp
 public static implicit operator MailAddressCollection(string addresses)

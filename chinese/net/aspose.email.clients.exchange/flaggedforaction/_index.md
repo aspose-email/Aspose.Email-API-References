@@ -1,14 +1,14 @@
 ---
 title: FlaggedForAction
 second_title: Aspose.Email for .NET API 参考
-description: 枚举标记为动作
+description: 枚举标记为 action
 type: docs
 weight: 3460
 url: /zh/net/aspose.email.clients.exchange/flaggedforaction/
 ---
 ## FlaggedForAction enumeration
 
-枚举标记为动作
+枚举标记为 action
 
 ```csharp
 public enum FlaggedForAction
@@ -18,14 +18,14 @@ public enum FlaggedForAction
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Undefined | `-1` | 未指定动作标志 |
+| Undefined | `-1` | 未指定操作标记 |
 | Any | `0` | 消息被标记为任何操作。 |
 | Call | `1` | 请求收件人呼叫发件人。 |
 | DoNotForward | `2` | 要求收件人不要转发邮件。 |
-| FollowUp | `3` | 要求收件人跟进消息。 |
+| FollowUp | `3` | 要求收件人跟进邮件。 |
 | FYI | `4` | 收件人收到消息以获取信息。 |
 | Forward | `5` | 请求收件人转发邮件。 |
-| NoResponseNecessary | `6` | 通知收件人不需要对消息的响应。 |
+| NoResponseNecessary | `6` | 通知收件人不需要对邮件作出响应。 |
 | Read | `7` | 请求收件人阅读邮件。 |
 | Reply | `8` | 请求收件人回复邮件的发件人。 |
 | ReplyToAll | `9` | 要求收件人回复邮件发送给的每个人。 |

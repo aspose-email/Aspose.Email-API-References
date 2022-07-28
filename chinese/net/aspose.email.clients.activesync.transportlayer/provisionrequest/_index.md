@@ -24,9 +24,9 @@ public class ProvisionRequest
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeviceInformation](../../aspose.email.clients.activesync.transportlayer/provisionrequest/deviceinformation) { get; set; } | 设备信息。 当协议版本为 14.1 时，客户端必须在向服务器发送初始 Provision 命令请求时发送 DeviceInformation 元素及其内容，但不会在后续请求中发送。 |
+| [DeviceInformation](../../aspose.email.clients.activesync.transportlayer/provisionrequest/deviceinformation) { get; set; } | 设备信息。 当协议版本为 14.1 时，客户端必须在向服务器发送初始 Provision 命令请求时发送 DeviceInformation 元素及其内容，而不是在后续请求中。 |
 | [Policies](../../aspose.email.clients.activesync.transportlayer/provisionrequest/policies) { get; } | 指定安全策略的集合。 |
-| [RemoteWipeStatus](../../aspose.email.clients.activesync.transportlayer/provisionrequest/remotewipestatus) { get; set; } | 指定客户端对服务器远程擦除指令的确认。 该值表示客户端远程擦除操作的成功或失败。 |
+| [RemoteWipeStatus](../../aspose.email.clients.activesync.transportlayer/provisionrequest/remotewipestatus) { get; set; } | 指定客户端对服务器远程擦除指令的确认。 该值指示客户端上远程擦除操作的成功或失败。 |
 
 ### 也可以看看
 

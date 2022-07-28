@@ -1,14 +1,14 @@
 ---
 title: SearchKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含唯一的二进制可比键用于标识搜索对象 区域ID 属性 规范名称PidTagSearchKey 备用名称PR_SEARCH_KEY ptagSearchKey
+description: 包含一个唯一的二进制可比键用于标识搜索对象 区域ID Properties 规范名称PidTagSearchKey 备用名称PR_SEARCH_KEYptagSearchKey
 type: docs
 weight: 17030
 url: /zh/net/aspose.email.mapi/knownpropertylist/searchkey/
 ---
 ## KnownPropertyList.SearchKey field
 
-包含唯一的二进制可比键，用于标识搜索对象。 区域:ID 属性 规范名称:PidTagSearchKey 备用名称:PR_SEARCH_KEY, ptagSearchKey
+包含一个唯一的二进制可比键，用于标识搜索对象。 区域：ID Properties 规范名称：PidTagSearchKey 备用名称：PR_SEARCH_KEY、ptagSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchKey;

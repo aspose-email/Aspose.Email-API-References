@@ -1,14 +1,14 @@
 ---
 title: TransportStatus
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_TRANSPORT_STATUS
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_TRANSPORT_STATUS
 type: docs
 weight: 19130
 url: /zh/net/aspose.email.mapi/knownpropertylist/transportstatus/
 ---
 ## KnownPropertyList.TransportStatus field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_TRANSPORT_STATUS
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_TRANSPORT_STATUS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransportStatus;

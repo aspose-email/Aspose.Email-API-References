@@ -3,7 +3,7 @@ title: FileDragEventHandler
 second_title: Aspose.Email for .NET API 参考
 description: 
 type: docs
-weight: 20860
+weight: 20910
 url: /zh/net/aspose.email.windows.forms/filedrageventhandler/
 ---
 ## FileDragEventHandler delegate

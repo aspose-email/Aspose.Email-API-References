@@ -1,14 +1,14 @@
 ---
 title: Custom
 second_title: Aspose.Email for .NET API 参考
-description: 自定义类别描述为空
+description: 描述为空的自定义类别
 type: docs
 weight: 50
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/custom/
 ---
 ## AssociatedPersonCategory.Custom property
 
-自定义类别，描述为空
+描述为空的自定义类别
 
 ```csharp
 public static AssociatedPersonCategory Custom { get; }

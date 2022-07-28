@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarExceptionInfo
 second_title: Aspose.Email for .NET API 参考
-description: 异常指定对重复系列实例的更改
+description: 一个异常指定对重复系列实例的更改
 type: docs
 weight: 17980
 url: /zh/net/aspose.email.mapi/mapicalendarexceptioninfo/
 ---
 ## MapiCalendarExceptionInfo class
 
-异常指定对重复系列实例的更改。
+一个异常指定对重复系列实例的更改。
 
 ```csharp
 public sealed class MapiCalendarExceptionInfo
@@ -18,7 +18,7 @@ public sealed class MapiCalendarExceptionInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiCalendarExceptionInfo](mapicalendarexceptioninfo)() | 初始化[`MapiCalendarExceptionInfo`](../mapicalendarexceptioninfo)类的新实例。 |
+| [MapiCalendarExceptionInfo](mapicalendarexceptioninfo)() | 初始化[`MapiCalendarExceptionInfo`](../mapicalendarexceptioninfo)类. |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public sealed class MapiCalendarExceptionInfo
 | [Body](../../aspose.email.mapi/mapicalendarexceptioninfo/body) { get; set; } | 获取或设置主体。 |
 | [BusyStatus](../../aspose.email.mapi/mapicalendarexceptioninfo/busystatus) { get; set; } | 获取或设置忙碌状态。 |
 | [EndDateTime](../../aspose.email.mapi/mapicalendarexceptioninfo/enddatetime) { get; set; } | 获取或设置结束日期。 |
-| [HasAttachment](../../aspose.email.mapi/mapicalendarexceptioninfo/hasattachment) { get; } | 获取此字段的值指定 异常嵌入消息对象是否包含附件 |
+| [HasAttachment](../../aspose.email.mapi/mapicalendarexceptioninfo/hasattachment) { get; } | 获取该字段的值指定 Exception Embedded Message 对象是否包含附件 |
 | [Location](../../aspose.email.mapi/mapicalendarexceptioninfo/location) { get; set; } | 获取或设置位置。 |
 | [MeetingType](../../aspose.email.mapi/mapicalendarexceptioninfo/meetingtype) { get; set; } | 获取或设置会议类型。 |
 | [OriginalStartDate](../../aspose.email.mapi/mapicalendarexceptioninfo/originalstartdate) { get; set; } | 获取或设置原始开始日期。 |

@@ -1,14 +1,14 @@
 ---
 title: AirsyncClass
 second_title: Aspose.Email for .NET API 参考
-description: 标识项目的类别 当协议版本为 12.1 时邮箱搜索支持以下类 - 电子邮件 - 日历 - 联系人 - 任务 SMS 和 Notes 类仅在协议版本为 14.0 或 14.1 时可用
+description: 标识项目的类 当协议版本为 12.1 时邮箱搜索支持以下类 - Email - Calendar - Contacts - Tasks SMS 和 Notes 类仅在协议版本为 14.0 或 14.1 时可用
 type: docs
 weight: 980
 url: /zh/net/aspose.email.clients.activesync.transportlayer/airsyncclass/
 ---
 ## AirsyncClass enumeration
 
-标识项目的类别。 当协议版本为 12.1 时，邮箱搜索支持以下类: - 电子邮件 - 日历 - 联系人 - 任务 SMS 和 Notes 类仅在协议版本为 14.0 或 14.1 时可用。
+标识项目的类。 当协议版本为 12.1 时，邮箱搜索支持以下类： - Email - Calendar - Contacts - Tasks SMS 和 Notes 类仅在协议版本为 14.0 或 14.1 时可用。
 
 ```csharp
 public enum AirsyncClass

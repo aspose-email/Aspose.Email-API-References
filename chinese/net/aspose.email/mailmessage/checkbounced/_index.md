@@ -16,7 +16,7 @@ public virtual BounceResult CheckBounced()
 
 ### 返回值
 
-检查结果[`BounceResult`](../../../aspose.email.bounce/bounceresult)。
+检查结果[`BounceResult`](../../../aspose.email.bounce/bounceresult).
 
 ### 也可以看看
 

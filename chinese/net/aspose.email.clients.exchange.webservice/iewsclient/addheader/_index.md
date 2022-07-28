@@ -1,14 +1,14 @@
 ---
 title: AddHeader
 second_title: Aspose.Email for .NET API 参考
-description: 在 EWS 请求中将名称和值添加到 WebHeaderCollection
+description: 在 EWS 请求中向 WebHeaderCollection 添加名称和值
 type: docs
 weight: 350
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/addheader/
 ---
 ## IEWSClient.AddHeader method
 
-在 EWS 请求中将名称和值添加到 WebHeaderCollection。
+在 EWS 请求中向 WebHeaderCollection 添加名称和值。
 
 ```csharp
 public void AddHeader(string name, string value)
@@ -17,7 +17,7 @@ public void AddHeader(string name, string value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 标题名称 |
-| value | String | 标题值 |
+| value | String | 标头值 |
 
 ### 也可以看看
 

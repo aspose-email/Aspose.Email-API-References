@@ -19,16 +19,16 @@ public enum CalendarDay
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未设置任何值。 |
-| Monday | `1` | 星期一。 |
-| Tuesday | `2` | 星期二。 |
-| Wednesday | `3` | 星期三。 |
-| Thursday | `4` | 星期四。 |
-| Friday | `5` | 星期五。 |
+| Monday | `1` | 星期一. |
+| Tuesday | `2` | 星期二. |
+| Wednesday | `3` | 星期三. |
+| Thursday | `4` | 星期四. |
+| Friday | `5` | 星期五. |
 | Saturday | `6` | 星期六。 |
-| Sunday | `7` | 星期日。 |
-| Day | `8` | 代表一周中的所有天:SU,MO,TU,WE,TH,FR,SA。 |
-| WeekDay | `9` | 表示一周中的工作日:MO,TU,WE,TH,FR。 |
-| WeekendDay | `10` | 表示一周中的周末:SU,SA。 |
+| Sunday | `7` | 星期日. |
+| Day | `8` | 代表一周中的所有日子：SU,MO,TU,WE,TH,FR,SA. |
+| WeekDay | `9` | 表示一周中的工作日：MO,TU,WE,TH,FR. |
+| WeekendDay | `10` | 表示一周中的周末：SU,SA. |
 
 ### 也可以看看
 

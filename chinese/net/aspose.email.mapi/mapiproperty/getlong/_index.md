@@ -1,14 +1,14 @@
 ---
 title: GetLong
 second_title: Aspose.Email for .NET API 参考
-description: 获取二进制数据的前 8 个字节
+description: 获取二进制数据的前 8 个字节 as long.
 type: docs
 weight: 230
 url: /zh/net/aspose.email.mapi/mapiproperty/getlong/
 ---
 ## MapiProperty.GetLong method
 
-获取二进制数据的前 8 个字节。
+获取二进制数据的前 8 个字节 as long.
 
 ```csharp
 public virtual long GetLong()
@@ -16,7 +16,7 @@ public virtual long GetLong()
 
 ### 返回值
 
-长值。
+长期价值。
 
 ### 也可以看看
 

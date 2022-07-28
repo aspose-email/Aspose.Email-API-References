@@ -1,14 +1,14 @@
 ---
 title: TemplateID
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个字符串该字符串标识由父 RightsManagementLicense 元素表示的权限策略模板
+description: 包含标识由父 RightsManagementLicense 元素表示的权限策略模板的字符串
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activesync.transportlayer/smartrequest/templateid/
 ---
 ## SmartRequest.TemplateID property
 
-包含一个字符串，该字符串标识由父 RightsManagementLicense 元素表示的权限策略模板。
+包含标识由父 RightsManagementLicense 元素表示的权限策略模板的字符串。
 
 ```csharp
 public string TemplateID { get; set; }

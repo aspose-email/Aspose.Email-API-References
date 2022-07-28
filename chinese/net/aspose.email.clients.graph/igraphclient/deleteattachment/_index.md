@@ -16,7 +16,7 @@ public void DeleteAttachment(string id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 要删除的附件 id |
+| id | String | 要删除的附件 ID |
 
 ### 也可以看看
 

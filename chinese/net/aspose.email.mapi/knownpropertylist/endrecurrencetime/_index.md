@@ -1,14 +1,14 @@
 ---
 title: EndRecurrenceTime
 second_title: Aspose.Email for .NET API 参考
-description: 标识重复范围的结束时间 区域会议 规范名称PidLidEndRecurrenceTime 别名LID_END_RECUR_TIME
+description: 标识重复范围的结束时间 区域Meetings 规范名称PidLidEndRecurrenceTime 替代名称LID_END_RECUR_TIME
 type: docs
 weight: 9750
 url: /zh/net/aspose.email.mapi/knownpropertylist/endrecurrencetime/
 ---
 ## KnownPropertyList.EndRecurrenceTime field
 
-标识重复范围的结束时间。 区域:会议 规范名称:PidLidEndRecurrenceTime 别名:LID_END_RECUR_TIME
+标识重复范围的结束时间。 区域：Meetings 规范名称：PidLidEndRecurrenceTime 替代名称：LID_END_RECUR_TIME
 
 ```csharp
 public static readonly PidLidPropertyDescriptor EndRecurrenceTime;

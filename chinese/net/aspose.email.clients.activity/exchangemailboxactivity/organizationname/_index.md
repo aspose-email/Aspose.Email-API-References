@@ -1,14 +1,14 @@
 ---
 title: OrganizationName
 second_title: Aspose.Email for .NET API 参考
-description: 租户的名称
+description: 租户名称
 type: docs
 weight: 160
 url: /zh/net/aspose.email.clients.activity/exchangemailboxactivity/organizationname/
 ---
 ## ExchangeMailboxActivity.OrganizationName property
 
-租户的名称。
+租户名称。
 
 ```csharp
 public string OrganizationName { get; set; }

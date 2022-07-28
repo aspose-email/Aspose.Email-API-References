@@ -16,7 +16,7 @@ public Uri BaseUri { get; set; }
 
 ### 适当的价值
 
-基础 URI。
+基本 URI。
 
 ### 也可以看看
 

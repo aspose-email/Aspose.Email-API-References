@@ -1,14 +1,14 @@
 ---
 title: OrganizationId
 second_title: Aspose.Email for .NET API 参考
-description: 组织的 Office 365 租户的 GUID 对于您的组织此值将始终相同无论它发生在哪个 Office 365 服务中 强制是
+description: 组织的 Office 365 租户的 GUID 无论在哪个 Office 365 服务中出现此值对于您的组织始终是相同的 强制是
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activity/content/organizationid/
 ---
 ## Content.OrganizationId property
 
-组织的 Office 365 租户的 GUID。 对于您的组织，此值将始终相同，无论它发生在哪个 Office 365 服务中。 强制:是
+组织的 Office 365 租户的 GUID。 无论在哪个 Office 365 服务中出现，此值对于您的组织始终是相同的。 强制：是
 
 ```csharp
 public Guid OrganizationId { get; set; }

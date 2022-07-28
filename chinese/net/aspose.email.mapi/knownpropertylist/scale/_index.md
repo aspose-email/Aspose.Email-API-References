@@ -1,14 +1,14 @@
 ---
 title: Scale
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否要缩放或裁剪图像 区域普通 规范名称PidNameScale 替代名称urnschemas-microsoft-comofficeofficeScaleCrop
+description: 表示图像是缩放还是裁剪 区域Common 规范名称PidNameScale 替代名称urnschemas-microsoft-comofficeofficeScaleCrop
 type: docs
 weight: 16690
 url: /zh/net/aspose.email.mapi/knownpropertylist/scale/
 ---
 ## KnownPropertyList.Scale field
 
-指示是否要缩放或裁剪图像。 区域：普通 规范名称：PidNameScale 替代名称：urn:schemas-microsoft-com:office:office#ScaleCrop
+表示图像是缩放还是裁剪。 区域：Common 规范名称：PidNameScale 替代名称：urn:schemas-microsoft-com:office:office#ScaleCrop
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Scale;

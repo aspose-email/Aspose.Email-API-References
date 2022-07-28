@@ -1,14 +1,14 @@
 ---
 title: SocksProxy
 second_title: Aspose.Email for .NET API 参考
-description: 初始化SocksProxyaspose.email.clients/socksproxy类的新实例以连接到 SOCKS4 服务器而无需身份验证
+description: 初始化SocksProxyaspose.email.clients/socksproxy无需身份验证即可连接到 SOCKS4 服务器的类
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients/socksproxy/socksproxy/
 ---
 ## SocksProxy(string, int) {#constructor}
 
-初始化[`SocksProxy`](../../socksproxy)类的新实例以连接到 SOCKS4 服务器而无需身份验证。
+初始化[`SocksProxy`](../../socksproxy)无需身份验证即可连接到 SOCKS4 服务器的类。
 
 ```csharp
 public SocksProxy(string address, int port)
@@ -29,7 +29,7 @@ public SocksProxy(string address, int port)
 
 ## SocksProxy(string, int, SocksVersion) {#constructor_1}
 
-初始化[`SocksProxy`](../../socksproxy)类的新实例以连接到 SOCKS4 或 SOCKS5 服务器而无需身份验证。
+初始化[`SocksProxy`](../../socksproxy)无需身份验证即可连接到 SOCKS4 或 SOCKS5 服务器的类。
 
 ```csharp
 public SocksProxy(string address, int port, SocksVersion version)
@@ -52,7 +52,7 @@ public SocksProxy(string address, int port, SocksVersion version)
 
 ## SocksProxy(string, int, string) {#constructor_2}
 
-初始化[`SocksProxy`](../../socksproxy)类的新实例以连接到 SOCKS4 服务器而无需身份验证。
+初始化[`SocksProxy`](../../socksproxy)无需身份验证即可连接到 SOCKS4 服务器的类。
 
 ```csharp
 public SocksProxy(string address, int port, string userID)
@@ -62,7 +62,7 @@ public SocksProxy(string address, int port, string userID)
 | --- | --- | --- |
 | address | String | 代理的域名或IP地址 |
 | port | Int32 | 代理的端口号 |
-| userID | String | Socks4 标识协议 (RFC 1413) 的用户 ID |
+| userID | String | Socks4 标识协议的用户 ID (RFC 1413) |
 
 ### 也可以看看
 
@@ -74,7 +74,7 @@ public SocksProxy(string address, int port, string userID)
 
 ## SocksProxy(string, int, string, string) {#constructor_3}
 
-初始化[`SocksProxy`](../../socksproxy)类的新实例以使用定义的用户名和密码连接到 SOCKS5 服务器。
+初始化[`SocksProxy`](../../socksproxy)使用定义的用户名和密码连接到 SOCKS5 服务器的类。
 
 ```csharp
 public SocksProxy(string address, int port, string username, string password)
@@ -83,9 +83,9 @@ public SocksProxy(string address, int port, string username, string password)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | address | String | 代理的域名或IP地址 |
-| port | Int32 | 代理端口号 |
-| username | String | 认证用户名 |
-| password | String | 认证密码 |
+| port | Int32 | 代理的端口号 |
+| username | String | 用于身份验证的用户名 |
+| password | String | 验证密码 |
 
 ### 也可以看看
 

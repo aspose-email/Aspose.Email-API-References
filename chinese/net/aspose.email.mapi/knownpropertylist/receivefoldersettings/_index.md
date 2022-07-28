@@ -1,14 +1,14 @@
 ---
 title: ReceiveFolderSettings
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_RECEIVE_FOLDER_SETTINGS
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_RECEIVE_FOLDER_SETTINGS
 type: docs
 weight: 15390
 url: /zh/net/aspose.email.mapi/knownpropertylist/receivefoldersettings/
 ---
 ## KnownPropertyList.ReceiveFolderSettings field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_RECEIVE_FOLDER_SETTINGS
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_RECEIVE_FOLDER_SETTINGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceiveFolderSettings;

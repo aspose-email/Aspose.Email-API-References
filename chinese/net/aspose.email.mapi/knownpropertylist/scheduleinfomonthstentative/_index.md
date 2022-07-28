@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoMonthsTentative
 second_title: Aspose.Email for .NET API 参考
-description: 指定在忙/闲消息中出现暂定类型的忙/闲数据的月份 区域忙/闲属性 规范名称PidTagScheduleInfoMonthsTentative 替代名称PR_SCHDINFO_MONTHS_TENTATIVE
+description: 指定在忙/闲消息中出现暂定类型的忙/闲数据的月份 区域忙/闲属性 规范名称PidTagScheduleInfoMonthsTentative 备用名称PR_SCHDINFO_MONTHS_TENTATIVE
 type: docs
 weight: 16890
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfomonthstentative/
 ---
 ## KnownPropertyList.ScheduleInfoMonthsTentative field
 
-指定在忙/闲消息中出现暂定类型的忙/闲数据的月份。 区域:忙/闲属性 规范名称:PidTagScheduleInfoMonthsTentative 替代名称:PR_SCHDINFO_MONTHS_TENTATIVE
+指定在忙/闲消息中出现暂定类型的忙/闲数据的月份。 区域：忙/闲属性 规范名称：PidTagScheduleInfoMonthsTentative 备用名称：PR_SCHDINFO_MONTHS_TENTATIVE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoMonthsTentative;

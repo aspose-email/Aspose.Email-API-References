@@ -32,7 +32,7 @@ public class CommandStatus
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.email.clients/commandstatus/equals)(object) | Определяет, равен ли указанный объект текущему объекту. |
-| override [GetHashCode](../../aspose.email.clients/commandstatus/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.email.clients/commandstatus/gethashcode)() | Служит хеш-функцией для определенного типа. |
 | override [ToString](../../aspose.email.clients/commandstatus/tostring)() | Возвращает строку, представляющую текущий объект. |
 
 ### Смотрите также

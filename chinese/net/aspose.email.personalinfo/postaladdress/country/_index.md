@@ -1,14 +1,14 @@
 ---
 title: Country
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置国家
+description: 获取或设置一个国家
 type: docs
 weight: 50
 url: /zh/net/aspose.email.personalinfo/postaladdress/country/
 ---
 ## PostalAddress.Country property
 
-获取或设置国家
+获取或设置一个国家
 
 ```csharp
 public string Country { get; set; }

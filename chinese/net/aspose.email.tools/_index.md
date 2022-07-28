@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Tools 命名空间包含用于电子邮件消息处理的辅助类
+description: 的 Aspose.Email.Tools命名空间包含用于处理电子邮件的辅助类
 type: docs
 weight: 430
 url: /zh/net/aspose.email.tools/
 ---
-**Aspose.Email.Tools** 命名空间包含用于电子邮件消息处理的辅助类。
+的 **Aspose.Email.Tools**命名空间包含用于处理电子邮件的辅助类。
 
 ## 课程
 

@@ -16,7 +16,7 @@ public void CommitDeletes(int sleep)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sleep | Int32 | 超时以毫秒为单位 |
+| sleep | Int32 | 以毫秒为单位的超时 |
 
 ### 也可以看看
 

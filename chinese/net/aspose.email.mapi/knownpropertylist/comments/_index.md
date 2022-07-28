@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的注释 区域普通 规范名称PidNameComments 替代名称urnschemas-microsoft-comofficeofficeComments
+description: 指定附加到文档对象的文件的注释 区域Common 规范名称PidNameComments 备用名称urnschemas-microsoft-comofficeofficeComments
 type: docs
 weight: 2770
 url: /zh/net/aspose.email.mapi/knownpropertylist/comments/
 ---
 ## KnownPropertyList.Comments field
 
-指定附加到 Document 对象的文件的注释。 区域：普通 规范名称：PidNameComments 替代名称：urn:schemas-microsoft-com:office:office#Comments
+指定附加到文档对象的文件的注释。 区域：Common 规范名称：PidNameComments 备用名称：urn:schemas-microsoft-com:office:office#Comments
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Comments;

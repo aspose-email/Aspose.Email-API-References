@@ -1,14 +1,14 @@
 ---
 title: AutodiscoverUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает uri службы автообнаружения
+description: Получает или задает службу автообнаружения uri
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/activesynctlclient/autodiscoveruri/
 ---
 ## ActiveSyncTLClient.AutodiscoverUri property
 
-Получает или задает uri службы автообнаружения
+Получает или задает службу автообнаружения uri
 
 ```csharp
 public virtual string AutodiscoverUri { get; set; }

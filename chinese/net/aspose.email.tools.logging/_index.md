@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Tools.Logging
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Tools.Logging 命名空间包含表示日志记录功能的类
+description: 的 Aspose.Email.Tools.Logging命名空间包含表示日志记录功能的类
 type: docs
 weight: 440
 url: /zh/net/aspose.email.tools.logging/
 ---
-**Aspose.Email.Tools.Logging** 命名空间包含表示日志记录功能的类。
+的 **Aspose.Email.Tools.Logging**命名空间包含表示日志记录功能的类。
 
 ## 课程
 
@@ -15,17 +15,17 @@ url: /zh/net/aspose.email.tools.logging/
 | [Appender](./appender) | 表示 Appender 的基类。 |
 | [AppenderCollection](./appendercollection) | 表示 Appender 对象的集合。 |
 | [ConsoleAppender](./consoleappender) | 表示控制台输出的附加程序。 |
-| [DebugAppender](./debugappender) | 表示仅在调试时启用appender。 |
+| [DebugAppender](./debugappender) | 表示只有在调试时才启用一个appender。 |
 | [DebugFormatter](./debugformatter) | 表示用于格式化日志条目消息的类。 |
-| [FileAppender](./fileappender) | 表示文件追加器。 |
+| [FileAppender](./fileappender) | 表示文件附加程序。 |
 | [Formatter](./formatter) | 表示格式化日志条目消息的接口。 |
 | [LogEntry](./logentry) | 表示日志消息。包含所有日志消息所需的公共属性。 |
 | [Logger](./logger) | 提供日志记录功能。 |
 | [LoggerManager](./loggermanager) | 控制记录器创建的静态管理器。 |
 | [LoggingException](./loggingexception) | 在日志中发现错误时抛出的异常。 |
 | [LogLevel](./loglevel) | 定义可用的日志级别。 |
-| [NullAppender](./nullappender) | 表示无操作的附加程序。 |
-| [SimpleFormatter](./simpleformatter) | 表示 IFormatter 接口的默认实现。 |
+| [NullAppender](./nullappender) | 表示一个无所事事的附加程序。 |
+| [SimpleFormatter](./simpleformatter) | 代表IFormatter接口的默认实现。 |
 | [StandardFormatter](./standardformatter) | 表示用于格式化日志条目消息的类。 |
 ## 接口
 

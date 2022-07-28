@@ -1,14 +1,14 @@
 ---
 title: RecipientType
 second_title: Aspose.Email for .NET API 参考
-description: 收件人将如何接收此消息收件人抄送密送
+description: 收件人将如何接收此邮件收件人抄送密件抄送
 type: docs
 weight: 40
 url: /zh/net/aspose.email.windows.forms/recipient/recipienttype/
 ---
 ## Recipient.RecipientType property
 
-收件人将如何接收此消息（收件人、抄送、密送）。
+收件人将如何接收此邮件（收件人、抄送、密件抄送）。
 
 ```csharp
 public RecipientType RecipientType { get; set; }

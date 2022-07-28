@@ -1,14 +1,14 @@
 ---
 title: JabberValue
 second_title: Aspose.Email for .NET API 参考
-description: Jabber 类别的字符串值
+description: Jabber类别的字符串值
 type: docs
 weight: 260
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/jabbervalue/
 ---
 ## InstantMessengerCategory.JabberValue field
 
-'Jabber' 类别的字符串值
+“Jabber”类别的字符串值
 
 ```csharp
 public const string JabberValue;

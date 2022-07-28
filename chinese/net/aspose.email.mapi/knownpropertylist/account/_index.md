@@ -1,14 +1,14 @@
 ---
 title: Account
 second_title: Aspose.Email for .NET API 参考
-description: 包含地址簿对象的别名这是可以识别对象的替代名称 区域地址簿 规范名称PidTagAccount 别名PR_ACCOUNT PR_ACCOUNT_A PR_ACCOUNT_W urnschemascontactsaccount
+description: 包含通讯簿对象的别名它是可用于识别对象的替代名称 区域地址簿 规范名称PidTagAccount 备用名称PR_ACCOUNTPR_ACCOUNT_APR_ACCOUNT_Wurnschemascontactsaccount
 type: docs
 weight: 280
 url: /zh/net/aspose.email.mapi/knownpropertylist/account/
 ---
 ## KnownPropertyList.Account field
 
-包含地址簿对象的别名，这是可以识别对象的替代名称。 区域:地址簿 规范名称:PidTagAccount 别名:PR_ACCOUNT, PR_ACCOUNT_A, PR_ACCOUNT_W, urn:schemas:contacts:account
+包含通讯簿对象的别名，它是可用于识别对象的替代名称。 区域：地址簿 规范名称：PidTagAccount 备用名称：PR_ACCOUNT、PR_ACCOUNT_A、PR_ACCOUNT_W、urn:schemas:contacts:account
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Account;

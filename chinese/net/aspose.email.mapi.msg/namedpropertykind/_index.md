@@ -1,14 +1,14 @@
 ---
 title: NamedPropertyKind
 second_title: Aspose.Email for .NET API 参考
-description: 标识MessageObjectProperty./messageobjectproperty种类
+description: 标识MessageObjectProperty./messageobjectproperty种类.
 type: docs
-weight: 18890
+weight: 18920
 url: /zh/net/aspose.email.mapi.msg/namedpropertykind/
 ---
 ## NamedPropertyKind enumeration
 
-标识[`MessageObjectProperty`](../messageobjectproperty)种类。
+标识[`MessageObjectProperty`](../messageobjectproperty)种类.
 
 ```csharp
 public enum NamedPropertyKind
@@ -18,7 +18,7 @@ public enum NamedPropertyKind
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Numerical | `0` | 属性具有名称 id。 |
+| Numerical | `0` | 属性的名称为 |
 | String | `1` | 属性具有字符串名称。 |
 
 ### 也可以看看

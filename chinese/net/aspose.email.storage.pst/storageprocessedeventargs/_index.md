@@ -1,14 +1,14 @@
 ---
 title: StorageProcessedEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: 为StorageProcessed./personalstorage/storageprocessed事件提供数据
+description: 为StorageProcessed./personalstorage/storageprocessed事件
 type: docs
-weight: 20310
+weight: 20360
 url: /zh/net/aspose.email.storage.pst/storageprocessedeventargs/
 ---
 ## StorageProcessedEventArgs class
 
-为[`StorageProcessed`](../personalstorage/storageprocessed)事件提供数据
+为[`StorageProcessed`](../personalstorage/storageprocessed)事件
 
 ```csharp
 public class StorageProcessedEventArgs : EventArgs
@@ -19,7 +19,7 @@ public class StorageProcessedEventArgs : EventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [Chunk](../../aspose.email.storage.pst/storageprocessedeventargs/chunk) { get; } | 获取表示块的 pst。 |
-| [FileName](../../aspose.email.storage.pst/storageprocessedeventargs/filename) { get; } | 获取代表块的 pst 文件的名称。 |
+| [FileName](../../aspose.email.storage.pst/storageprocessedeventargs/filename) { get; } | 获取 pst 文件的名称，表示块。 |
 
 ### 也可以看看
 

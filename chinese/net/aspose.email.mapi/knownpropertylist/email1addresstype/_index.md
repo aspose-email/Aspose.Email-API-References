@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/email1addresstype/
 ---
 ## KnownPropertyList.Email1AddressType field
 
-指定电子地址的地址类型。 区域:联系人属性 规范名称:PidLidEmail1AddressType 替代名称:dispidEmail1AddrType
+指定电子地址的地址类型。 区域：联系人属性 规范名称：PidLidEmail1AddressType 替代名称：dispidEmail1AddrType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email1AddressType;

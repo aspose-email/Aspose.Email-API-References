@@ -3,7 +3,7 @@ title: VCardEmailCollection
 second_title: Aspose.Email for .NET API 参考
 description: 表示 VCardEmails 的集合
 type: docs
-weight: 19590
+weight: 19620
 url: /zh/net/aspose.email.personalinfo.vcard/vcardemailcollection/
 ---
 ## VCardEmailCollection class

@@ -1,14 +1,14 @@
 ---
 title: SenderEmailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置邮件发件人的电子邮件地址
+description: 获取或设置邮件发送者的电子邮件地址
 type: docs
 weight: 230
 url: /zh/net/aspose.email.mapi/mapimessage/senderemailaddress/
 ---
 ## MapiMessage.SenderEmailAddress property
 
-获取或设置邮件发件人的电子邮件地址。
+获取或设置邮件发送者的电子邮件地址。
 
 ```csharp
 public string SenderEmailAddress { get; set; }
@@ -26,7 +26,7 @@ public string SenderEmailAddress { get; set; }
 
 ### 评论
 
-设置值时，PR_SENDER_SEARCH_KEY 和 PR_SENDER_ENTRYID 属性的值为也更新了。设置空值或空字符串时， 属性的值设置为空。
+设置值时，PR_SENDER_SEARCH_KEY 和 PR_SENDER_ENTRYID 属性的值也会更新。设置空值或空字符串时， 属性的值设置为空。
 
 ### 也可以看看
 

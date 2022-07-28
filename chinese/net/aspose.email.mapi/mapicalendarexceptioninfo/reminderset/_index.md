@@ -16,7 +16,7 @@ public bool ReminderSet { get; set; }
 
 ### 适当的价值
 
-` true` if [提醒设置];否则，` false` 。
+`真的` if [提醒设置];否则，`错误的`.
 
 ### 也可以看看
 

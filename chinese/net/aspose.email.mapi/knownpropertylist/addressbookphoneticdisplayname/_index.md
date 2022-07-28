@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookphoneticdisplayname/
 ---
 ## KnownPropertyList.AddressBookPhoneticDisplayName field
 
-包含 PidTagDisplayName 属性的语音表示（第 2.667 节）。 区域:地址簿 规范名称:PidTagAddressBookPhoneticDisplayName 替代名称:PR_EMS_AB_PHONETIC_DISPLAY_NAME、PR_EMS_AB_PHONETIC_DISPLAY_NAME_A、PR_EMS_AB_PHONETIC_DISPLAY_NAME_W
+包含 PidTagDisplayName 属性的语音表示（第 2.667 节）。 区域：地址簿 规范名称：PidTagAddressBookPhoneticDisplayName 替代名称：PR_EMS_AB_PHONETIC_DISPLAY_NAME、PR_EMS_AB_PHONETIC_DISPLAY_NAME_A、PR_EMS_AB_PHONETIC_DISPLAY_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookPhoneticDisplayName;

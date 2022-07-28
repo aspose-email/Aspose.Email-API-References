@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Email для .NET API
-description: ДобавляетRecurrenceRuleaspose.email.calendar.recurrences/recurrenceruleв коллекцию.
+description: ДобавляетRecurrenceRuleaspose.email.calendar.recurrences/recurrencerule в коллекцию.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar.recurrences/recurrencerulecollection/add/
 ---
 ## Add() {#add}
 
-Добавляет[`RecurrenceRule`](../../recurrencerule)в коллекцию.
+Добавляет[`RecurrenceRule`](../../recurrencerule) в коллекцию.
 
 ```csharp
 public RecurrenceRule Add()
@@ -29,7 +29,7 @@ public RecurrenceRule Add()
 
 ## Add(RecurrenceRule) {#add_1}
 
-Добавляет[`RecurrenceRule`](../../recurrencerule)в коллекцию.
+Добавляет[`RecurrenceRule`](../../recurrencerule) в коллекцию.
 
 ```csharp
 public int Add(RecurrenceRule rule)
@@ -37,7 +37,7 @@ public int Add(RecurrenceRule rule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rule | RecurrenceRule | [`RecurrenceRule`](../../recurrencerule)добавить. |
+| rule | RecurrenceRule | [`RecurrenceRule`](../../recurrencerule) добавить. |
 
 ### Возвращаемое значение
 

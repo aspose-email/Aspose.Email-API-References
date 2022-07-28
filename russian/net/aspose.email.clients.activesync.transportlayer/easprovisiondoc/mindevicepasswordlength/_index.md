@@ -1,14 +1,14 @@
 ---
 title: MinDevicePasswordLength
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает минимальную длину пароля клиента. MinDevicePasswordLength может быть пустым или иметь значение не меньше 1 и не больше 16. Если свойство равно null или значение этого свойства равно 1 минимальная длина пароля устройства. Если значение DevicePasswordEnabled равно FALSE клиент ДОЛЖЕН игнорировать это свойство.
+description: Указывает минимальную длину пароля клиента. MinDevicePasswordLength может быть пустым или иметь значение не меньше 1 и не больше 16. Если свойство равно null или значение этого свойства равно 1 минимальной длины для пароль устройства. Если значение DevicePasswordEnabled равно FALSE клиент ДОЛЖЕН игнорировать это свойство .
 type: docs
 weight: 340
 url: /ru/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/mindevicepasswordlength/
 ---
 ## EASProvisionDoc.MinDevicePasswordLength property
 
-Указывает минимальную длину пароля клиента. MinDevicePasswordLength может быть пустым или иметь значение не меньше 1 и не больше 16. Если свойство равно null или значение этого свойства равно 1, минимальная длина пароля устройства. Если значение DevicePasswordEnabled равно FALSE, клиент ДОЛЖЕН игнорировать это свойство.
+Указывает минимальную длину пароля клиента. MinDevicePasswordLength может быть пустым или иметь значение не меньше 1 и не больше 16. Если свойство равно null или значение этого свойства равно 1, минимальной длины для пароль устройства. Если значение DevicePasswordEnabled равно FALSE, клиент ДОЛЖЕН игнорировать это свойство .
 
 ```csharp
 public int? MinDevicePasswordLength { get; set; }

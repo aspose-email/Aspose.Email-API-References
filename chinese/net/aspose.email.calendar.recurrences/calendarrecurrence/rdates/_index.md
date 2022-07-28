@@ -16,7 +16,7 @@ public DateCollection RDates { get; }
 
 ### 适当的价值
 
-R 日期。
+R日期。
 
 ### 也可以看看
 

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/creationtime/
 ---
 ## Record.CreationTime property
 
-获取或设置用户执行活动时采用协调世界时 (UTC) 的日期和时间。 强制:是
+获取或设置用户执行活动时采用协调世界时 (UTC) 的日期和时间。 强制：是
 
 ```csharp
 public DateTime CreationTime { get; set; }

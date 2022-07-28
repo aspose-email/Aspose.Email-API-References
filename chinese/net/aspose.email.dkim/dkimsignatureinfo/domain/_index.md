@@ -1,14 +1,14 @@
 ---
 title: Domain
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置公钥 DNS 域 d
+description: 获取或设置公钥 DNS 域 d.
 type: docs
 weight: 30
 url: /zh/net/aspose.email.dkim/dkimsignatureinfo/domain/
 ---
 ## DKIMSignatureInfo.Domain property
 
-获取或设置公钥 DNS 域 (d=)。
+获取或设置公钥 DNS 域 (d=).
 
 ```csharp
 public string Domain { get; set; }

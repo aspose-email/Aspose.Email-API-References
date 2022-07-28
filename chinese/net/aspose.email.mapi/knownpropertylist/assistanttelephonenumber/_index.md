@@ -1,14 +1,14 @@
 ---
 title: AssistantTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的行政助理的电话号码 区域地址属性 规范名称PidTagAssistantTelephoneNumber 替代名称PR_ASSISTANT_TELEPHONE_NUMBER PR_ASSISTANT_TELEPHONE_NUMBER_A
+description: 包含邮件用户管理助理的电话号码 区域地址属性 规范名称PidTagAssistantTelephoneNumber 别名PR_ASSISTANT_TELEPHONE_NUMBERPR_ASSISTANT_TELEPHONE_NUMBER_A
 type: docs
 weight: 1450
 url: /zh/net/aspose.email.mapi/knownpropertylist/assistanttelephonenumber/
 ---
 ## KnownPropertyList.AssistantTelephoneNumber field
 
-包含邮件用户的行政助理的电话号码。 区域:地址属性 规范名称:PidTagAssistantTelephoneNumber 替代名称:PR_ASSISTANT_TELEPHONE_NUMBER, PR_ASSISTANT_TELEPHONE_NUMBER_A,
+包含邮件用户管理助理的电话号码。 区域：地址属性 规范名称：PidTagAssistantTelephoneNumber 别名：PR_ASSISTANT_TELEPHONE_NUMBER、PR_ASSISTANT_TELEPHONE_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AssistantTelephoneNumber;

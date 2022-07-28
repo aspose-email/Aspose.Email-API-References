@@ -1,14 +1,14 @@
 ---
 title: AttachExtension
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个文件扩展名表示附件的文档类型 区域消息附件属性 规范名称PidTagAttachExtension 备用名称PR_ATTACH_EXTENSION PR_ATTACH_EXTENSION_A PR_ATTACH_EXTENSION_W
+description: 包含指示附件文档类型的文件扩展名 区域邮件附件属性 规范名称PidTagAttachExtension 备用名称PR_ATTACH_EXTENSIONPR_ATTACH_EXTENSION_APR_ATTACH_EXTENSION_W
 type: docs
 weight: 1580
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachextension/
 ---
 ## KnownPropertyList.AttachExtension field
 
-包含一个文件扩展名，表示附件的文档类型。 区域:消息附件属性 规范名称:PidTagAttachExtension 备用名称:PR_ATTACH_EXTENSION, PR_ATTACH_EXTENSION_A, PR_ATTACH_EXTENSION_W
+包含指示附件文档类型的文件扩展名。 区域：邮件附件属性 规范名称：PidTagAttachExtension 备用名称：PR_ATTACH_EXTENSION、PR_ATTACH_EXTENSION_A、PR_ATTACH_EXTENSION_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachExtension;

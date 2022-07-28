@@ -20,13 +20,13 @@ public static EmlValidationErrorCollection ValidateMessage(string fileName)
 
 ### 返回值
 
-A[`EmlValidationErrorCollection`](../../emlvalidationerrorcollection)包含找到的验证错误消息。
+一个[`EmlValidationErrorCollection`](../../emlvalidationerrorcollection)包含找到的验证错误消息。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *fileName*is` null` 或` 空` 。 |
+| ArgumentException | *fileName*是`无效的`或者`空的`. |
 | FileNotFoundException | 指定的*fileName*不存在。 |
 
 ### 也可以看看
@@ -52,13 +52,13 @@ public static EmlValidationErrorCollection ValidateMessage(Stream stream)
 
 ### 返回值
 
-A[`EmlValidationErrorCollection`](../../emlvalidationerrorcollection)包含找到的验证错误消息。
+一个[`EmlValidationErrorCollection`](../../emlvalidationerrorcollection)包含找到的验证错误消息。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*是` null` 。 |
+| ArgumentNullException | *stream*是`无效的`. |
 
 ### 也可以看看
 

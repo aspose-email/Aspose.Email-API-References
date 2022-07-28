@@ -1,14 +1,14 @@
 ---
 title: FInvited
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否已为此会议对象所代表的会议发送邀请 区域会议 规范名称PidLidFInvited 别名dispidFInvited
+description: 指示是否已为此会议对象所代表的会议发送邀请 区域Meetings 规范名称PidLidFInvited 替代名称dispidFInvited
 type: docs
 weight: 10330
 url: /zh/net/aspose.email.mapi/knownpropertylist/finvited/
 ---
 ## KnownPropertyList.FInvited field
 
-指示是否已为此会议对象所代表的会议发送邀请。 区域:会议 规范名称:PidLidFInvited 别名:dispidFInvited
+指示是否已为此会议对象所代表的会议发送邀请。 区域：Meetings 规范名称：PidLidFInvited 替代名称：dispidFInvited
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FInvited;

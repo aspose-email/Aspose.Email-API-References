@@ -1,14 +1,14 @@
 ---
 title: EmsAbOofReplyToOriginator
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_EMS_AB_OOF_REPLY_TO_ORIGINATOR
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_OOF_REPLY_TO_ORIGINATOR
 type: docs
 weight: 7890
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsaboofreplytooriginator/
 ---
 ## KnownPropertyList.EmsAbOofReplyToOriginator field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_EMS_AB_OOF_REPLY_TO_ORIGINATOR
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_OOF_REPLY_TO_ORIGINATOR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbOofReplyToOriginator;

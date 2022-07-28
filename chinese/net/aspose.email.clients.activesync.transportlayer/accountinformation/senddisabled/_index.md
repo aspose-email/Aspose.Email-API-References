@@ -1,14 +1,14 @@
 ---
 title: SendDisabled
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端是否可以使用给定帐户发送消息 如果客户端无法使用给定帐户发送则 SendDisabled 的值为 TRUE否则错误 协议版本为 12.1 或 14.0 时不支持 SendDisabled
+description: 指定客户端是否可以使用给定帐户发送消息 如果客户端无法使用给定帐户发送消息则 SendDisabled 的值为 TRUE否则FALSE. 当协议版本为 12.1 或 14.0. 时不支持 SendDisabled
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/accountinformation/senddisabled/
 ---
 ## AccountInformation.SendDisabled property
 
-指定客户端是否可以使用给定帐户发送消息。 如果客户端无法使用给定帐户发送，则 SendDisabled 的值为 TRUE；否则，错误。 协议版本为 12.1 或 14.0 时不支持 SendDisabled。
+指定客户端是否可以使用给定帐户发送消息。 如果客户端无法使用给定帐户发送消息，则 SendDisabled 的值为 TRUE；否则，FALSE. 当协议版本为 12.1 或 14.0. 时，不支持 SendDisabled
 
 ```csharp
 public bool? SendDisabled { get; set; }

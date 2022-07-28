@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Email for .NET API 参考
-description: 从此集合中移除指定索引处的元素
+description: 从此集合中删除指定索引处的元素
 type: docs
 weight: 30
 url: /zh/net/aspose.email/linkedresourcecollection/removeat/
 ---
 ## LinkedResourceCollection.RemoveAt method
 
-从此集合中移除指定索引处的元素。
+从此集合中删除指定索引处的元素。
 
 ```csharp
 public void RemoveAt(int index, bool removeHtmlLink)

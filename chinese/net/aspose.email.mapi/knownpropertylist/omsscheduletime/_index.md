@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/omsscheduletime/
 ---
 ## KnownPropertyList.OMSScheduleTime field
 
-包含客户端请求服务提供商发送 SMS 或 MMS 消息的时间（以 UTC 为单位）。 区域:SMS 规范名称:PidNameOMSScheduleTime 备用名称:
+包含客户端请求服务提供商发送 SMS 或 MMS 消息的时间（以 UTC 为单位）。 区域：SMS 规范名称：PidNameOMSScheduleTime 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor OMSScheduleTime;

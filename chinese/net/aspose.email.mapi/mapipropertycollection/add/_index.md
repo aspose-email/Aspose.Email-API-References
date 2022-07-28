@@ -17,7 +17,7 @@ public virtual void Add(long key, MapiProperty value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | Int64 | 属性标记。 |
-| value | MapiProperty | 属性值。 |
+| value | MapiProperty | 财产价值。 |
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public virtual void Add(MapiProperty value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | MapiProperty | 属性值。 |
+| value | MapiProperty | 财产价值。 |
 
 ### 也可以看看
 

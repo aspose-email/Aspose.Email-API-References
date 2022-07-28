@@ -1,14 +1,14 @@
 ---
 title: SearchOptions
 second_title: Aspose.Email for .NET API 参考
-description: 包含搜索选项 用户名和密码只有在收到状态值 14 后才能在请求中发送 服务器需要这些凭据才能访问请求的资源 客户端必须仅通过安全或受信任的连接发送这些并且仅响应状态值 14 支持的选项因正在搜索的商店而异. 下表列出了每个商店的有效选项 GALRange UserName Password Picture MailboxRange DeepTraversal RebuildResults BodyPreference BodyPartPreference RightsManagementSupport DocumentLibraryRange UserName Password BodyPartPreference 仅在包含 ConversationId 的搜索命令请求中有效
+description: 包含搜索选项 只有在收到状态值为 14 后才能在请求中发送用户名和密码 服务器需要这些凭据才能访问请求的资源 客户端必须仅通过安全或受信任的连接发送这些并且仅响应状态值 14 支持的选项因正在搜索的商店而异 下表列出了每个商店的有效选项 GAL范围用户名密码图片 邮箱范围DeepTraversalRebuildResultsBodyPreferenceBodyPartPreferenceRightsManagementSupport DocumentLibrary范围用户名密码 BodyPartPreference 仅在搜索中有效包含 ConversationId. 的命令请求
 type: docs
 weight: 1950
 url: /zh/net/aspose.email.clients.activesync.transportlayer/searchoptions/
 ---
 ## SearchOptions class
 
-包含搜索选项。 用户名和密码只有在收到状态值 14 后才能在请求中发送。 服务器需要这些凭据才能访问请求的资源。 客户端必须仅通过安全或受信任的连接发送这些，并且仅响应状态值 14。 支持的选项因正在搜索的商店而异. 下表列出了每个商店的有效选项。 GAL:Range, UserName, Password, Picture Mailbox:Range, DeepTraversal, RebuildResults, BodyPreference, BodyPartPreference, RightsManagementSupport DocumentLibrary:Range, UserName, Password BodyPartPreference 仅在包含 ConversationId 的搜索命令请求中有效。
+包含搜索选项。 只有在收到状态值为 14 后，才能在请求中发送用户名和密码。 服务器需要这些凭据才能访问请求的资源。 客户端必须仅通过安全或受信任的连接发送这些，并且仅响应状态值 14。 支持的选项因正在搜索的商店而异。 下表列出了每个商店的有效选项。 GAL：范围、用户名、密码、图片 邮箱：范围、DeepTraversal、RebuildResults、BodyPreference、BodyPartPreference、RightsManagementSupport DocumentLibrary：范围、用户名、密码 BodyPartPreference 仅在搜索中有效包含 ConversationId. 的命令请求
 
 ```csharp
 public class SearchOptions
@@ -25,14 +25,14 @@ public class SearchOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [BodyPartPreference](../../aspose.email.clients.activesync.transportlayer/searchoptions/bodypartpreference) { get; } | 包含与从搜索、同步或获取消息部分返回的信息的类型和大小相关的首选项信息。 |
-| [BodyPreference](../../aspose.email.clients.activesync.transportlayer/searchoptions/bodypreference) { get; } | 包含与搜索、同步或获取返回的信息的类型和大小相关的首选项信息。 |
+| [BodyPreference](../../aspose.email.clients.activesync.transportlayer/searchoptions/bodypreference) { get; } | 包含与从搜索、同步或获取返回的信息的类型和大小相关的首选项信息。 |
 | [DeepTraversal](../../aspose.email.clients.activesync.transportlayer/searchoptions/deeptraversal) { get; set; } | 表示客户端希望服务器在所有子文件夹中搜索查询中指定的文件夹。 |
-| [MIMESupport](../../aspose.email.clients.activesync.transportlayer/searchoptions/mimesupport) { get; set; } | 为从服务器发送到客户端的电子邮件项目启用 MIME 支持。 如果在搜索请求中 airsync:MIMESupport 元素设置为 'SendForSecureMIMEonly' (1) 或 'SendForAll' (2): - airsyncbase:BodyPreference 的属性，类型，应该包含在搜索请求中， 包含值 'MIME' (4) 以通知服务器设备可以读取 MIME BLOB。 - 来自服务器的响应必须包含 airsyncbase:Body，它是属性的子对象。 airsyncbase:Body 必须在 S/MIME 搜索响应中包含以下属性: - airsyncbase:Type 的值为 'MIME' (4) 以通知设备数据是 MIME BLOB。 - airsyncbase:EstimatedDataSize 指定数据的粗略总大小。 - airsyncbase:Truncated 指示 MIME BLOB 是否被截断。 - 包含完整 MIME BLOB 的 airsyncbase:Data。 |
-| [Password](../../aspose.email.clients.activesync.transportlayer/searchoptions/password) { get; set; } | 指定给定用户名的密码。 Password 值的最大长度为 100 个字符。 |
-| [Picture](../../aspose.email.clients.activesync.transportlayer/searchoptions/picture) { get; set; } | 包含与照片请求相关的数据。 协议版本为12.1或14.0时不支持图片。 |
-| [Range](../../aspose.email.clients.activesync.transportlayer/searchoptions/range) { get; set; } | 指定要返回的最大匹配条目数。 Range 元素值的格式是从零开始的索引说明符的形式，由零、连字符和另一个数值组成:“mn”。 m 表示从零开始的数组的最低索引，该数组将保存项目。 n 表示从零开始的数组的最高索引，该数组将保存项目。 例如，Range 元素值 0-9 表示 10 项，0-10 表示 11 项。 Range 元素值为 0–0 表示 1 个项目。 如果 Range 为 null，则使用每个 Store 类型的默认 Range 值。 下表标识了每种存储类型的默认范围值和返回的最大结果: 邮箱 - 默认范围值:0-99 - 返回的最大结果:100 DocumentLibrary - 默认范围值:0-999 - 返回的最大结果:1000 GAL - 默认范围值:0-99 - 最大结果Returned:100 如果请求中指定的 Range 值超出默认范围值，则返回 Status 值 12 表示已超出最大范围。 在 Search 命令响应中，Total 属性指示与 Query 值匹配的条目总数的估计值。 搜索结果存储在服务器上的搜索文件夹中。 这样，当客户端返回相同的查询但新的行范围时，将从当前存储在搜索文件夹中的结果集中提取行。 不必重建整个结果集。 |
-| [RebuildResults](../../aspose.email.clients.activesync.transportlayer/searchoptions/rebuildresults) { get; set; } | 强制服务器重建与给定查询对应的搜索文件夹 (2)。 搜索结果（即结果集）存储在服务器上的搜索文件夹中。 这样，当客户端返回相同的查询但新的行范围时，将从当前存储在搜索文件夹中的结果集中提取行。 不必重建整个结果集。 搜索文件夹保持不变，直到客户端执行以下操作之一来更新结果集: - 发送搜索请求，指定新查询。在这种情况下，搜索文件夹会自动重建。 不必包括 RebuildResults 节点。 - 发送包含 RebuildResults 节点的搜索请求。在这种情况下，服务器被迫重建搜索文件夹。 如果添加了新项，则该项不会出现在结果集中，直到结果集更新。 如果一个项目被删除，服务器会将删除的项目从结果集中过滤掉。 客户端应该使用给定的查询发送一个新的搜索请求，并每隔几天包含 RebuildResults 选项以确保该查询的准确结果。 |
-| [RightsManagementSupport](../../aspose.email.clients.activesync.transportlayer/searchoptions/rightsmanagementsupport) { get; set; } | 指定服务器如何将权限管理的电子邮件消息返回给客户端。 如果值为 TRUE，则服务器将在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩和解密。 如果值为 FALSE，服务器将不会在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩或解密。 如果请求消息中不包含 RightsManagementSupport 元素，则假定默认值为 FALSE。 |
+| [MIMESupport](../../aspose.email.clients.activesync.transportlayer/searchoptions/mimesupport) { get; set; } | 对从服务器发送到客户端的电子邮件项目启用 MIME 支持。 如果在搜索请求中将 airsync:MIMESupport 元素设置为“SendForSecureMIMEonly”(1) 或“SendForAll”(2)： - 的属性airsyncbase:BodyPreference，类型，应该包含在搜索请求中， 包含一个 'MIME' (4) 值，以通知服务器设备可以读取 MIME BLOB。 - 来自服务器的响应必须包括airsyncbase:Body，它是属性的子级。 airsyncbase:Body 必须在 S/MIME 搜索响应中包含以下属性： - airsyncbase:Type 值为 'MIME' (4) 以通知设备数据是 MIME BLOB。 - airsyncbase :EstimatedDataSize 指定数据的粗略总大小。 - airsyncbase:Truncated 指示 MIME BLOB 是否被截断。 - airsyncbase:包含完整 MIME BLOB 的数据。 |
+| [Password](../../aspose.email.clients.activesync.transportlayer/searchoptions/password) { get; set; } | 指定给定用户名的密码。 密码的最大长度为 100 个字符。 |
+| [Picture](../../aspose.email.clients.activesync.transportlayer/searchoptions/picture) { get; set; } | 包含与照片请求相关的数据。 协议版本为 12.1 或 14.0 时不支持图片。 |
+| [Range](../../aspose.email.clients.activesync.transportlayer/searchoptions/range) { get; set; } | 指定要返回的最大匹配条目数。 Range 元素值的格式采用从零开始的索引说明符的形式，由零、连字符和另一个数值组成：“mn”。 m 表示从零开始的数组的最低索引，该数组将保存项目。 n 表示从零开始的数组的最高索引，该数组将保存项目。 例如，Range 元素值 0-9 表示 10 项，0-10 表示 11 项。 Range 元素值 0–0 表示 1 个项目。 如果 Range 为空，则使用每个 Store 类型的默认 Range 值。 下表标识了每种存储类型的默认范围值和返回的最大结果： Mailbox - 默认范围值：0-99 - 返回的最大结果：100 DocumentLibrary - 默认范围值：0-999 - 返回的最大结果: 1000 GAL - 默认范围值：0-99 - 返回的最大结果：100 如果请求中指定的范围值超出默认范围值，则返回状态值 12 表示已超出最大范围。 在 Search 命令响应中，Total 属性指示与 Query 值匹配的条目总数的估计值。 搜索结果存储在服务器上的搜索文件夹中。 这样，当客户端返回相同的查询但新的行范围时，将从当前存储在搜索文件夹中的结果集中提取行。 不必重建整个结果集。 |
+| [RebuildResults](../../aspose.email.clients.activesync.transportlayer/searchoptions/rebuildresults) { get; set; } | 强制服务器重建与给定查询对应的搜索文件夹 (2)。 搜索结果（即结果集）存储在服务器上的搜索文件夹中。 这样，当客户端返回相同的查询但新的行范围时，将从当前存储在搜索文件夹中的结果集中提取行。 不必重建整个结果集。 搜索文件夹保持不变，直到客户端执行以下操作之一来更新结果集： - 发送搜索请求，指定新查询。在这种情况下，搜索文件夹会自动重建。 不必包含 RebuildResults 节点。 - 发送包含 RebuildResults 节点的搜索请求。在这种情况下，服务器被迫重建搜索文件夹。 如果添加了新项目，则该项目不会出现在结果集中，直到结果集更新。 如果一个项目被删除，服务器将从结果集中过滤删除的项目。 客户端应该使用给定的查询发送一个新的搜索请求，并每隔几天包含RebuildResults选项以确保该查询的准确结果。 |
+| [RightsManagementSupport](../../aspose.email.clients.activesync.transportlayer/searchoptions/rightsmanagementsupport) { get; set; } | 指定服务器如何将权限管理的电子邮件消息返回给客户端。 如果值为 TRUE，则服务器将在将权限管理的电子邮件消息发送给客户端之前对其进行解压缩和解密。 如果值为 FALSE，服务器将不会在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩或解密。 如果请求消息中不包含 RightsManagementSupport 元素，则假定默认值为 FALSE。 |
 | [UserName](../../aspose.email.clients.activesync.transportlayer/searchoptions/username) { get; set; } | 指定用于从文档库中搜索文档的用户帐户。 UserName 值最长可达 100 个字符。 |
 
 ### 也可以看看

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/pendingstateforsitemailboxdocum
 ---
 ## KnownPropertyList.PendingStateForSiteMailboxDocument field
 
-指定网站邮箱的 Document Libraries 文件夹中的 Document 对象的同步状态。 区域:站点邮箱 规范名称:PidLidPendingStateForSiteMailboxDocument 替代名称:dispidPendingStateforTMDocument
+指定网站邮箱的 Document Libraries 文件夹中的 Document 对象的同步状态。 区域：站点邮箱 规范名称：PidLidPendingStateForSiteMailboxDocument 替代名称：dispidPendingStateforTMDocument
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PendingStateForSiteMailboxDocument;

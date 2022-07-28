@@ -1,14 +1,14 @@
 ---
 title: Sid
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置用户安全标识符 SID 的安全描述符定义语言 SSDL 形式
+description: 获取或设置用户的安全标识符 SID 的安全描述符定义语言 SSDL 形式
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.exchange/exchangefolderuserinfo/sid/
 ---
 ## ExchangeFolderUserInfo.Sid property
 
-获取或设置用户安全标识符 (SID) 的安全描述符定义语言 (SSDL) 形式。
+获取或设置用户的安全标识符 (SID) 的安全描述符定义语言 (SSDL) 形式。
 
 ```csharp
 public string Sid { get; set; }

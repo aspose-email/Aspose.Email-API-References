@@ -30,7 +30,7 @@ public class SectionValue
 
 | Имя | Описание |
 | --- | --- |
-| [ToAmpHtml](../../aspose.email.amp/sectionvalue/toamphtml)() | Представление AmpHtml значения раздела. |
+| [ToAmpHtml](../../aspose.email.amp/sectionvalue/toamphtml)() | AmpHtml представление значения раздела. |
 | [ToHtml](../../aspose.email.amp/sectionvalue/tohtml)() | HTML-представление значения раздела. |
 
 ### Смотрите также

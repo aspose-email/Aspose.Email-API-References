@@ -35,7 +35,7 @@ public ColorsInfo(DateTime updated, Dictionary<string, Colors> calendar,
 | --- | --- | --- |
 | updated | DateTime | 调色板的最后修改时间。 |
 | calendar | Dictionary`2 | 日历颜色调色板，从颜色 ID 映射到其定义。 |
-| evnt | Dictionary`2 | 事件颜色调色板，从颜色 ID 映射到其定义。 |
+| evnt | Dictionary`2 | 事件颜色调色板，从颜色 ID 到其定义的映射。 |
 
 ### 也可以看看
 

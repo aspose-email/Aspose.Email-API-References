@@ -21,10 +21,10 @@ public class TokenProvider : ITokenProvider
 | virtual [ClientId](../../aspose.email.clients/tokenprovider/clientid) { get; } | Идентификатор клиента, полученный при регистрации приложения. |
 | virtual [ClientSecret](../../aspose.email.clients/tokenprovider/clientsecret) { get; } | Секрет клиента, полученный при регистрации приложения. |
 | virtual [ExtraParameters](../../aspose.email.clients/tokenprovider/extraparameters) { get; } | Получает дополнительные параметры для запроса |
-| virtual [Login](../../aspose.email.clients/tokenprovider/login) { get; set; } | Получает или устанавливает логин для базовой авторизации |
+| virtual [Login](../../aspose.email.clients/tokenprovider/login) { get; set; } | Получает или задает логин для базовой авторизации |
 | virtual [Password](../../aspose.email.clients/tokenprovider/password) { get; set; } | Получает или устанавливает пароль для базовой авторизации |
 | virtual [RefreshToken](../../aspose.email.clients/tokenprovider/refreshtoken) { get; } | Токен обновления OAuth 2.0 |
-| virtual [RequestUrl](../../aspose.email.clients/tokenprovider/requesturl) { get; } | URL-адрес для получения маркера доступа. |
+| virtual [RequestUrl](../../aspose.email.clients/tokenprovider/requesturl) { get; } | URL-адрес для получения токена доступа. |
 | virtual [UseBasicAuthorization](../../aspose.email.clients/tokenprovider/usebasicauthorization) { get; set; } | Получает или задает значение, указывающее, используется ли базовая авторизация |
 
 ## Методы

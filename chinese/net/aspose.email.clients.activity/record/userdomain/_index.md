@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/userdomain/
 ---
 ## Record.UserDomain property
 
-获取或设置租户身份信息 (TII)。 强制:是
+获取或设置租户身份信息 (TII)。 强制：是
 
 ```csharp
 public string UserDomain { get; set; }

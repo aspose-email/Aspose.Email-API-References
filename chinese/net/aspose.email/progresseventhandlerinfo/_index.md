@@ -3,7 +3,7 @@ title: ProgressEventHandlerInfo
 second_title: Aspose.Email for .NET API 参考
 description: 此类表示有关转换进度的信息可在外部应用程序中用于向最终用户显示转换进度
 type: docs
-weight: 19860
+weight: 19910
 url: /zh/net/aspose.email/progresseventhandlerinfo/
 ---
 ## ProgressEventHandlerInfo class
@@ -24,7 +24,7 @@ public class ProgressEventHandlerInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EventType](../../aspose.email/progresseventhandlerinfo/eventtype) { get; set; } | 发生的进度事件的类型。 |
+| [EventType](../../aspose.email/progresseventhandlerinfo/eventtype) { get; set; } | 发生的进度事件类型。 |
 | [SavedMimePartCount](../../aspose.email/progresseventhandlerinfo/savedmimepartcount) { get; set; } | 已保存的 mime 部分数量。 |
 | [TotalMimePartCount](../../aspose.email/progresseventhandlerinfo/totalmimepartcount) { get; set; } | mime 部分的总量。 |
 

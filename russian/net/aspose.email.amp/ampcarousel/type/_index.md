@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип отображения элементов карусели.
+description: Определяет тип отображения элементов карусели.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.amp/ampcarousel/type/
 ---
 ## AmpCarousel.Type property
 
-Указывает тип отображения элементов карусели.
+Определяет тип отображения элементов карусели.
 
 ```csharp
 public CarouselType Type { get; set; }

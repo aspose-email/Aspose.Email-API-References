@@ -1,14 +1,14 @@
 ---
 title: ExtractAllowed
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户是否可以从电子邮件消息中复制内容 如果电子邮件的内容可以被剪切复制或截屏则值为 TRUE否则错误
+description: 指定用户是否可以从电子邮件消息中复制内容 如果可以剪切复制电子邮件消息的内容或者可以对内容进行截屏则值为 TRUE否则该值为 TRUE否则FALSE.
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/extractallowed/
 ---
 ## RightsManagementLicense.ExtractAllowed property
 
-指定用户是否可以从电子邮件消息中复制内容。 如果电子邮件的内容可以被剪切、复制或截屏，则值为 TRUE；否则，错误。
+指定用户是否可以从电子邮件消息中复制内容。 如果可以剪切、复制电子邮件消息的内容，或者可以对内容进行截屏，则值为 TRUE；否则，该值为 TRUE。否则，FALSE.
 
 ```csharp
 public bool ExtractAllowed { get; set; }

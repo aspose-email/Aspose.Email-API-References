@@ -1,14 +1,14 @@
 ---
 title: JunkPhishingEnableLinks
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否忽略邮件上的网络钓鱼标记 区域垃圾邮件 规范名称PidTagJunkPhishingEnableLinks 替代名称PR_JUNK_PHISHING_ENABLE_LINKS
+description: 指示是否忽略邮件上的网络钓鱼标记 区域Spam 规范名称PidTagJunkPhishingEnableLinks 替代名称PR_JUNK_PHISHING_ENABLE_LINKS
 type: docs
 weight: 11900
 url: /zh/net/aspose.email.mapi/knownpropertylist/junkphishingenablelinks/
 ---
 ## KnownPropertyList.JunkPhishingEnableLinks field
 
-指示是否忽略邮件上的网络钓鱼标记。 区域:垃圾邮件 规范名称:PidTagJunkPhishingEnableLinks 替代名称:PR_JUNK_PHISHING_ENABLE_LINKS
+指示是否忽略邮件上的网络钓鱼标记。 区域：Spam 规范名称：PidTagJunkPhishingEnableLinks 替代名称：PR_JUNK_PHISHING_ENABLE_LINKS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor JunkPhishingEnableLinks;

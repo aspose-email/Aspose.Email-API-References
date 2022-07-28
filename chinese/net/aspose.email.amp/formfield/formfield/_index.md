@@ -53,7 +53,7 @@ public FormField(string label, string inputType)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | label | String | 字段标签 |
-| inputType | String | 字段输入类型 |
+| inputType | String | 输入字段类型 |
 
 ### 也可以看看
 

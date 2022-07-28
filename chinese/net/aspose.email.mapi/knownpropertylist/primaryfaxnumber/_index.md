@@ -1,14 +1,14 @@
 ---
 title: PrimaryFaxNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的主要传真机的电话号码 区域MapiMailUser 规范名称PidTagPrimaryFaxNumber 备用名称PR_PRIMARY_FAX_NUMBER PR_PRIMARY_FAX_NUMBER_A
+description: 包含邮件用户的主要传真机的电话号码 区域MapiMailUser 规范名称PidTagPrimaryFaxNumber 替代名称PR_PRIMARY_FAX_NUMBERPR_PRIMARY_FAX_NUMBER_A
 type: docs
 weight: 14580
 url: /zh/net/aspose.email.mapi/knownpropertylist/primaryfaxnumber/
 ---
 ## KnownPropertyList.PrimaryFaxNumber field
 
-包含邮件用户的主要传真机的电话号码。 区域:MapiMailUser 规范名称:PidTagPrimaryFaxNumber 备用名称:PR_PRIMARY_FAX_NUMBER, PR_PRIMARY_FAX_NUMBER_A,
+包含邮件用户的主要传真机的电话号码。 区域：MapiMailUser 规范名称：PidTagPrimaryFaxNumber 替代名称：PR_PRIMARY_FAX_NUMBER、PR_PRIMARY_FAX_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PrimaryFaxNumber;

@@ -1,14 +1,14 @@
 ---
 title: AutodiscoverServiceBase.CustomXmlSerializationDelegate
 second_title: Aspose.Email for .NET API 参考
-description: 定义一个委托用于允许应用程序在 SOAP 请求发送到 Exchange 时发出自定义 XML
+description: 定义一个委托用于在将 SOAP 请求发送到 Exchange 时允许应用程序发出自定义 XML
 type: docs
 weight: 3110
 url: /zh/net/aspose.email.clients.exchange/autodiscoverservicebase.customxmlserializationdelegate/
 ---
 ## AutodiscoverServiceBase.CustomXmlSerializationDelegate delegate
 
-定义一个委托，用于允许应用程序在 SOAP 请求发送到 Exchange 时发出自定义 XML。
+定义一个委托，用于在将 SOAP 请求发送到 Exchange 时允许应用程序发出自定义 XML。
 
 ```csharp
 public delegate void CustomXmlSerializationDelegate(XmlWriter writer);

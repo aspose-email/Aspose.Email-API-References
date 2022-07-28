@@ -18,7 +18,7 @@ public enum ActiveSyncAuthenticationType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Basic | `0` | Базовая аутентификация HTTP |
+| Basic | `0` | Базовая HTTP-аутентификация |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ResolveRecipientsResponse
 second_title: Aspose.Email for .NET API 参考
-description: 包含有关收件人是否已解析的信息 如果收件人已解析它还包含收件人类型收件人解析到的电子邮件地址以及可选的收件人的 S/MIME 证书
+description: 包含有关收件人是否已解析的信息 如果收件人已解析它还包含收件人类型收件人解析到的电子邮件地址以及收件人的 S/MIME 证书可选
 type: docs
 weight: 1870
 url: /zh/net/aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/
 ---
 ## ResolveRecipientsResponse class
 
-包含有关收件人是否已解析的信息。 如果收件人已解析，它还包含收件人类型、收件人解析到的电子邮件地址，以及可选的收件人的 S/MIME 证书。
+包含有关收件人是否已解析的信息。 如果收件人已解析，它还包含收件人类型、收件人解析到的电子邮件地址，以及收件人的 S/MIME 证书（可选）。
 
 ```csharp
 public class ResolveRecipientsResponse
@@ -24,10 +24,10 @@ public class ResolveRecipientsResponse
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RecipientCount](../../aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/recipientcount) { get; set; } | 指定在 ResolveRecipients 命令响应中返回的收件人数量。 |
-| [Recipients](../../aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/recipients) { get; } | 表示已解析的收件人。 如果请求中指定的收件人被解析为分发列表或发现不明确，则在响应中返回多个收件人。 Response中返回的状态码可以用来判断接收者是否被发现不明确。 如果发现请求中指定的收件人不明确，则该收件人将是建议的匹配项。 如果客户端请求在响应中返回证书，则返回证书。 |
+| [RecipientCount](../../aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/recipientcount) { get; set; } | 指定在 ResolveRecipients 命令响应中返回的收件人数。 |
+| [Recipients](../../aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/recipients) { get; } | 表示已解析的收件人。 如果请求中指定的收件人已解析为分发列表或发现不明确，则在响应中返回多个收件人。 响应中返回的状态代码可用于确定收件人是否被发现模棱两可。 如果发现请求中指定的收件人不明确，则收件人将是建议的匹配项。 如果客户端请求在响应中返回证书，则返回证书。 |
 | [Status](../../aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/status) { get; set; } | 表示 ActiveSync 命令请求的结果。 |
-| [To](../../aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/to) { get; set; } | 指定要解析的收件人。 其值最长可达 256 个字符。 如果 To 元素指定了一个不明确的名称并且可用性包含在请求中，则响应将不包含该用户的忙/闲数据。 只有当 To 元素包含有效的 SMTP 地址或名称，该地址或名称解析为服务器上的唯一个人时，才包含可用性。 在请求中包含超过 1000 个 To 元素的结果未定义。 服务器可以返回一个协议状态错误来响应这样的命令请求。 如果 ResolveRecipients 命令请求包含可用性，则请求中最多可以包含 100 个包含 SMTP 地址的 To 元素。 如果请求中包含的 SMTP 地址超过 100 个，则响应中返回状态值 160。 如果 ResolveRecipients 命令请求包括可用性并包括不明确用户的 To 元素，则响应不包括该用户的 MergedFreeBusy 元素。 只有在请求消息 To 元素中使用有效 SMTP 地址或唯一可识别字符串指定的用户或分发列表才会在响应中包含 MergedFreeBusy 元素。 如果 ResolveRecipients 命令请求包括可用性并且 To 元素指定了一个通讯组，则可用性数据作为单个字符串返回，该字符串合并了通讯组各个成员的数据。 如果通讯组包含超过20个成员，则在响应中返回Status元素值161，表示合并的这么大通讯组的忙闲信息没有用处。 |
+| [To](../../aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/to) { get; set; } | 指定要解析的收件人。 其值的长度最多为 256 个字符。 如果 To 元素指定一个不明确的名称并且请求中包含可用性，则响应将不包括该用户的忙/闲数据. 只有当 To 元素包含有效的 SMTP 地址或名称，该地址或名称解析为服务器上的唯一个人时，才包含可用性。 在请求中包含超过 1000 个 To 元素的结果未定义。 服务器可以返回一个协议状态错误以响应这样的命令请求。 如果 ResolveRecipients 命令请求包括可用性，则最多可以在请求中包括 100 个包含 SMTP 地址的 To 元素。 如果请求中包含超过 100 个 SMTP 地址，则在响应中返回状态值 160。 如果 ResolveRecipients 命令请求包含可用性并包含不明确用户的 To 元素，则响应不包含 MergedFreeBusy 元素那个用户。 只有在请求消息 To 元素中使用有效 SMTP 地址或唯一可识别字符串指定的用户或通讯组列表才会在响应中包含 MergedFreeBusy 元素。 如果 ResolveRecipients 命令请求包括可用性并且 To 元素指定通讯组，则可用性数据作为单个字符串返回，该字符串合并了通讯组各个成员的数据。 如果通讯组包含超过 20 个成员，则在响应中返回 Status 元素值 161，指示合并的这么大通讯组的忙闲信息没有用处。 |
 
 ### 也可以看看
 

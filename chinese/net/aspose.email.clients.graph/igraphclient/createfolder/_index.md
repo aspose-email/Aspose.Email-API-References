@@ -46,7 +46,7 @@ public FolderInfo CreateFolder(string parentFolderId, string folderName)
 
 ### 返回值
 
-返回指定 ID 的文件夹
+返回指定 id 的文件夹
 
 ### 也可以看看
 

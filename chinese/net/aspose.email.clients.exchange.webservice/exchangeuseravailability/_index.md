@@ -1,14 +1,14 @@
 ---
 title: ExchangeUserAvailability
 second_title: Aspose.Email for .NET API 参考
-description: 表示用户可用性信息
+description: 代表用户可用性信息
 type: docs
 weight: 3860
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeuseravailability/
 ---
 ## ExchangeUserAvailability class
 
-表示用户可用性信息
+代表用户可用性信息
 
 ```csharp
 public sealed class ExchangeUserAvailability
@@ -18,7 +18,7 @@ public sealed class ExchangeUserAvailability
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeUserAvailability](exchangeuseravailability)() | 初始化[`ExchangeUserAvailability`](../exchangeuseravailability)类的新实例。 |
+| [ExchangeUserAvailability](exchangeuseravailability)() | 初始化[`ExchangeUserAvailability`](../exchangeuseravailability)类. |
 
 ## 特性
 
@@ -32,7 +32,7 @@ public sealed class ExchangeUserAvailability
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetWorkingHours](../../aspose.email.clients.exchange.webservice/exchangeuseravailability/getworkinghours)(DateTime) | 获取指定日期的工作时间，同时考虑用户的时区。 |
+| [GetWorkingHours](../../aspose.email.clients.exchange.webservice/exchangeuseravailability/getworkinghours)(DateTime) | 获取指定日期的工作时间，考虑到用户的时区。 |
 
 ### 也可以看看
 

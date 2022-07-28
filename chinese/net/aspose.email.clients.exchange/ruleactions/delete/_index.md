@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.exchange/ruleactions/delete/
 ---
 ## RuleActions.Delete property
 
-获取或设置一个值，该值指示是否将邮件移动到“已删除邮件”文件夹。
+获取或设置一个值，该值指示是否将邮件移动到已删除邮件文件夹。
 
 ```csharp
 public bool Delete { get; set; }

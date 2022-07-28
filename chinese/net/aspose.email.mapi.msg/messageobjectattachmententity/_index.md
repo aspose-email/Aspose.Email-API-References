@@ -3,7 +3,7 @@ title: MessageObjectAttachmentEntity
 second_title: Aspose.Email for .NET API 参考
 description: 表示附件实体
 type: docs
-weight: 18800
+weight: 18830
 url: /zh/net/aspose.email.mapi.msg/messageobjectattachmententity/
 ---
 ## MessageObjectAttachmentEntity class
@@ -18,14 +18,14 @@ public sealed class MessageObjectAttachmentEntity : IMessageObjectPropertyContai
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MessageObjectAttachmentEntity](messageobjectattachmententity)() | 初始化[`MessageObjectAttachmentEntity`](../messageobjectattachmententity)类的新实例。 |
+| [MessageObjectAttachmentEntity](messageobjectattachmententity)() | 初始化[`MessageObjectAttachmentEntity`](../messageobjectattachmententity)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomAttachmentStorageData](../../aspose.email.mapi.msg/messageobjectattachmententity/customattachmentstoragedata) { get; set; } | 获取或设置自定义附件存储数据。可以为空。 |
-| [EmbeddedMessage](../../aspose.email.mapi.msg/messageobjectattachmententity/embeddedmessage) { get; set; } | 获取或设置嵌入式消息对象存储（如果存在）。可以为空。 |
+| [CustomAttachmentStorageData](../../aspose.email.mapi.msg/messageobjectattachmententity/customattachmentstoragedata) { get; set; } | 获取或设置自定义附件存储数据。可以为null。 |
+| [EmbeddedMessage](../../aspose.email.mapi.msg/messageobjectattachmententity/embeddedmessage) { get; set; } | 获取或设置嵌入式消息对象存储（如果存在）。可以为 null。 |
 | [Properties](../../aspose.email.mapi.msg/messageobjectattachmententity/properties) { get; } | 获取附件属性。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhysicalAddressPropertySet
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiContactPhysicalAddressPropertySetaspose.email.mapi/mapicontactphysicaladdresspropertyset 类的新实例
+description: 初始化MapiContactPhysicalAddressPropertySetaspose.email.mapi/mapicontactphysicaladdresspropertyset class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/mapicontactphysicaladdresspropertyset/
 ---
 ## MapiContactPhysicalAddressPropertySet() {#constructor}
 
-初始化 [`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset) 类的新实例
+初始化[`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset) class
 
 ```csharp
 public MapiContactPhysicalAddressPropertySet()
@@ -24,7 +24,7 @@ public MapiContactPhysicalAddressPropertySet()
 
 ## MapiContactPhysicalAddressPropertySet(MapiPropertyCollection) {#constructor_1}
 
-初始化 [`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset) 类的新实例
+初始化[`MapiContactPhysicalAddressPropertySet`](../../mapicontactphysicaladdresspropertyset) class
 
 ```csharp
 public MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties)
@@ -32,7 +32,7 @@ public MapiContactPhysicalAddressPropertySet(MapiPropertyCollection properties)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | 一个[`MapiPropertyCollection`](../../mapipropertycollection) 包含联系人物理地址属性 |
+| properties | MapiPropertyCollection | 一个[`MapiPropertyCollection`](../../mapipropertycollection)包含联系人物理地址属性 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: LogDocumentSaved
 second_title: Aspose.Email for .NET API 参考
-description: 指示文档是否在日记过程中保存 区域日记 规范名称PidLidLogDocumentSaved 替代名称dispidLogDocSaved
+description: 指示文档是否在记录期间保存 区域Journal 规范名称PidLidLogDocumentSaved 替代名称dispidLogDocSaved
 type: docs
 weight: 12240
 url: /zh/net/aspose.email.mapi/knownpropertylist/logdocumentsaved/
 ---
 ## KnownPropertyList.LogDocumentSaved field
 
-指示文档是否在日记过程中保存。 区域:日记 规范名称:PidLidLogDocumentSaved 替代名称:dispidLogDocSaved
+指示文档是否在记录期间保存。 区域：Journal 规范名称：PidLidLogDocumentSaved 替代名称：dispidLogDocSaved
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogDocumentSaved;

@@ -3,7 +3,7 @@ title: Formatter
 second_title: Aspose.Email for .NET API 参考
 description: 表示格式化日志条目消息的接口
 type: docs
-weight: 20440
+weight: 20490
 url: /zh/net/aspose.email.tools.logging/formatter/
 ---
 ## Formatter class
@@ -19,7 +19,7 @@ public abstract class Formatter : IFormatter
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | 获取或设置页脚。 |
-| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | 获取或设置标题。 |
+| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | 获取或设置标头。 |
 | virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | 获取或设置日志头 |
 | static [DefaultFormatter](../../aspose.email.tools.logging/formatter/defaultformatter) { get; set; } | 获取或设置默认格式化程序 |
 

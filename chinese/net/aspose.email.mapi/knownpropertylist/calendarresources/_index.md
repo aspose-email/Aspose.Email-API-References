@@ -1,14 +1,14 @@
 ---
 title: CalendarResources
 second_title: Aspose.Email for .NET API 参考
-description: 标识可用于约会的资源列表例如房间和视频设备 区域通用 规范名称PidNameCalendarResources 备用名称urnschemascalendarresources
+description: 标识可用于约会的资源列表例如房间和视频设备 区域Common 规范名称PidNameCalendarResources 备用名称urnschemascalendarresources
 type: docs
 weight: 2380
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarresources/
 ---
 ## KnownPropertyList.CalendarResources field
 
-标识可用于约会的资源列表，例如房间和视频设备。 区域:通用 规范名称:PidNameCalendarResources 备用名称:urn:schemas:calendar:resources
+标识可用于约会的资源列表，例如房间和视频设备。 区域：Common 规范名称：PidNameCalendarResources 备用名称：urn:schemas:calendar:resources
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarResources;

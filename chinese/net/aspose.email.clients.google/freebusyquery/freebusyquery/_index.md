@@ -34,7 +34,7 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, IEnumerable<string> ite
 | --- | --- | --- |
 | timeMin | DateTime | 查询间隔的结束。 |
 | timeMax | DateTime | 查询间隔的结束。 |
-| items | IEnumerable`1 | 要查询的日历和/或组列表。 包含日历或组的标识符。 |
+| items | IEnumerable`1 | 要查询的日历和/或组的列表。 包含日历或组的标识符。 |
 
 ### 也可以看看
 
@@ -57,7 +57,7 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, string timeZone, IEnume
 | timeMin | DateTime | 查询间隔的结束。 |
 | timeMax | DateTime | 查询间隔的结束。 |
 | timeZone | String | 响应中使用的时区。可选的。默认值为 UTC。 |
-| items | IEnumerable`1 | 要查询的日历和/或组列表。 包含日历或组的标识符。 |
+| items | IEnumerable`1 | 要查询的日历和/或组的列表。 包含日历或组的标识符。 |
 
 ### 也可以看看
 
@@ -81,9 +81,9 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, string timeZone, int? g
 | timeMin | DateTime | 查询间隔的结束。 |
 | timeMax | DateTime | 查询间隔的结束。 |
 | timeZone | String | 响应中使用的时区。可选的。默认值为 UTC。 |
-| groupExpansionMax | Nullable`1 | 为单个组提供的日历标识符的最大数量。可选的。 对于成员数超过此值的组，将返回错误。 |
-| calendarExpansionMax | Nullable`1 | 要为其提供 FreeBusy 信息的日历的最大数量。可选的。 |
-| items | IEnumerable`1 | 要查询的日历和/或组列表。 包含日历或组的标识符。 |
+| groupExpansionMax | Nullable`1 | 为单个组提供的最大日历标识符数。可选的。 成员数超过此值的组将返回错误。 |
+| calendarExpansionMax | Nullable`1 | 为其提供 FreeBusy 信息的日历的最大数量。可选的. |
+| items | IEnumerable`1 | 要查询的日历和/或组的列表。 包含日历或组的标识符。 |
 
 ### 也可以看看
 
@@ -105,7 +105,7 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, params string[] items)
 | --- | --- | --- |
 | timeMin | DateTime | 查询间隔的结束。 |
 | timeMax | DateTime | 查询间隔的结束。 |
-| items | String[] | 要查询的日历和/或组列表。 包含日历或组的标识符。 |
+| items | String[] | 要查询的日历和/或组的列表。 包含日历或组的标识符。 |
 
 ### 也可以看看
 
@@ -128,7 +128,7 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, string timeZone, params
 | timeMin | DateTime | 查询间隔的结束。 |
 | timeMax | DateTime | 查询间隔的结束。 |
 | timeZone | String | 响应中使用的时区。可选的。默认值为 UTC。 |
-| items | String[] | 要查询的日历和/或组列表。 包含日历或组的标识符。 |
+| items | String[] | 要查询的日历和/或组的列表。 包含日历或组的标识符。 |
 
 ### 也可以看看
 
@@ -152,9 +152,9 @@ public FreebusyQuery(DateTime timeMin, DateTime timeMax, string timeZone, int? g
 | timeMin | DateTime | 查询间隔的结束。 |
 | timeMax | DateTime | 查询间隔的结束。 |
 | timeZone | String | 响应中使用的时区。可选的。默认值为 UTC。 |
-| groupExpansionMax | Nullable`1 | 为单个组提供的日历标识符的最大数量。可选的。 对于成员数超过此值的组，将返回错误。 |
-| calendarExpansionMax | Nullable`1 | 要为其提供 FreeBusy 信息的日历的最大数量。可选的。 |
-| items | String[] | 要查询的日历和/或组列表。 包含日历或组的标识符。 |
+| groupExpansionMax | Nullable`1 | 为单个组提供的最大日历标识符数。可选的。 成员数超过此值的组将返回错误。 |
+| calendarExpansionMax | Nullable`1 | 为其提供 FreeBusy 信息的日历的最大数量。可选的. |
+| items | String[] | 要查询的日历和/或组的列表。 包含日历或组的标识符。 |
 
 ### 也可以看看
 

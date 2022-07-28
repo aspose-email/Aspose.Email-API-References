@@ -1,14 +1,14 @@
 ---
 title: HomeAddress
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人家庭地址的完整地址 区域联系人属性 规范名称PidLidHomeAddress 别名dispidHomeAddress
+description: 指定联系人家庭地址的完整地址 区域联系人属性 规范名称PidLidHomeAddress 替代名称dispidHomeAddress
 type: docs
 weight: 11000
 url: /zh/net/aspose.email.mapi/knownpropertylist/homeaddress/
 ---
 ## KnownPropertyList.HomeAddress field
 
-指定联系人家庭地址的完整地址。 区域:联系人属性 规范名称:PidLidHomeAddress 别名:dispidHomeAddress
+指定联系人家庭地址的完整地址。 区域：联系人属性 规范名称：PidLidHomeAddress 替代名称：dispidHomeAddress
 
 ```csharp
 public static readonly PidLidPropertyDescriptor HomeAddress;

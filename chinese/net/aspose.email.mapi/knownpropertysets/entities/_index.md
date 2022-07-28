@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/entities/
 ---
 ## KnownPropertySets.Entities field
 
-区域名称:提取的实体 属性集名称:PSETID_XmlExtractedEntities
+区域名称：提取的实体 属性集名称：PSETID_XmlExtractedEntities
 
 ```csharp
 public static readonly Guid Entities;

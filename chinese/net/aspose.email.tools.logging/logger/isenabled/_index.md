@@ -1,14 +1,14 @@
 ---
 title: IsEnabled
 second_title: Aspose.Email for .NET API 参考
-description: 确定是否为指定级别启用日志记录
+description: 确定是否为指定级别启用了日志记录
 type: docs
 weight: 60
 url: /zh/net/aspose.email.tools.logging/logger/isenabled/
 ---
 ## Logger.IsEnabled method
 
-确定是否为指定级别启用日志记录。
+确定是否为指定级别启用了日志记录。
 
 ```csharp
 public bool IsEnabled(LogLevel level)
@@ -16,11 +16,11 @@ public bool IsEnabled(LogLevel level)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| level | LogLevel | 要检查的级别 |
+| level | LogLevel | 要检查的水平 |
 
 ### 返回值
 
-&lt;see langword="如果为指定级别启用了日志记录，则为 true" /&gt;，否则返回 &lt;see langword="false" /&gt;。
+`true`如果为指定级别启用了日志记录，否则返回`false`.
 
 ### 也可以看看
 

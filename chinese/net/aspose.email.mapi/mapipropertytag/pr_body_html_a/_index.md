@@ -1,14 +1,14 @@
 ---
 title: PR_BODY_HTML_A
 second_title: Aspose.Email for .NET API 参考
-description: 包含 HTML 编码的文本主体非 UNICODE 编译
+description: 包含 HTML 编码的文本正文非 UNICODE 编译
 type: docs
 weight: 1030
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_body_html_a/
 ---
 ## MapiPropertyTag.PR_BODY_HTML_A field
 
-包含 HTML 编码的文本主体。非 UNICODE 编译。
+包含 HTML 编码的文本正文。非 UNICODE 编译。
 
 ```csharp
 public static readonly long PR_BODY_HTML_A;

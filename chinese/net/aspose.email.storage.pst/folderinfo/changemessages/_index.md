@@ -17,16 +17,16 @@ public void ChangeMessages(IEnumerable<string> entryIdCollection,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entryIdCollection | IEnumerable`1 | 入口标识符集合。 |
+| entryIdCollection | IEnumerable`1 | 条目标识符集合。 |
 | updatedProperties | MapiPropertyCollection | 更新的属性。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | ANSI文件版本编辑未实现。 |
-| InvalidOperationException | PST 以只读方式打开。 或 entryId 不正确。 |
-| ArgumentNullException | entryIdCollection;入口id的集合不能为空。 或 updatedProperties;属性集合不能为空。 |
+| NotImplementedException | 未实现 ANSI 文件版本编辑。 |
+| InvalidOperationException | PST 为只读。 或 entryId 不正确。 |
+| ArgumentNullException | entryIdCollection;入口id集合不能为空 or updatedProperties;属性集合不能为空 |
 
 ### 也可以看看
 
@@ -39,7 +39,7 @@ public void ChangeMessages(IEnumerable<string> entryIdCollection,
 
 ## ChangeMessages(MapiPropertyCollection) {#changemessages}
 
-更改文件夹中的所有消息。
+更改文件夹中的所有邮件。
 
 ```csharp
 public void ChangeMessages(MapiPropertyCollection updatedProperties)
@@ -53,9 +53,9 @@ public void ChangeMessages(MapiPropertyCollection updatedProperties)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | ANSI文件版本编辑未实现。 |
-| InvalidOperationException | PST 以只读方式打开。 或 entryId 不正确。 |
-| ArgumentNullException | entryIdCollection;入口id的集合不能为空。 或 updatedProperties;属性集合不能为空。 |
+| NotImplementedException | 未实现 ANSI 文件版本编辑。 |
+| InvalidOperationException | PST 为只读。 或 entryId 不正确。 |
+| ArgumentNullException | entryIdCollection;入口id集合不能为空 or updatedProperties;属性集合不能为空 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Pop3ListFields
 second_title: Aspose.Email for .NET API 参考
-description: 可从服务器检索的字段
+description: 可以从服务器检索的字段
 type: docs
 weight: 16900
 url: /zh/net/aspose.email.clients.pop3/pop3listfields/
 ---
 ## Pop3ListFields enumeration
 
-可从服务器检索的字段
+可以从服务器检索的字段
 
 ```csharp
 [Flags]
@@ -19,9 +19,9 @@ public enum Pop3ListFields
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| IdOnly | `0` | 包括 UniqueId（如果支持），SequenceNumber |
-| Main | `1` | 包括 SequenceNumber、UniqueId（如果支持）、大小、标题 |
-| All | `1` | 包括 SequenceNumber、UniqueId（如果支持）、大小、标题 |
+| IdOnly | `0` | 包括 UniqueId（如果支持）、SequenceNumber |
+| Main | `1` | 包括 SequenceNumber、UniqueId（如果支持）、Size、Headers |
+| All | `1` | 包括 SequenceNumber、UniqueId（如果支持）、Size、Headers |
 
 ### 也可以看看
 

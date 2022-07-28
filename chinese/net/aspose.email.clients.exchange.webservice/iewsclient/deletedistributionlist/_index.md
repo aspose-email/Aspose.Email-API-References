@@ -17,7 +17,7 @@ public void DeleteDistributionList(ExchangeDistributionList distributionList,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| distributionList | ExchangeDistributionList | A[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)包含有关分发列表的信息删除。 |
+| distributionList | ExchangeDistributionList | 一个[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)包含有关要删除的分发列表的信息。 |
 | deletePermanently | Boolean | 指示是否应永久删除指定的列表，还是应将其移至 DeletedItems 文件夹。 |
 
 ### 也可以看看

@@ -16,7 +16,7 @@ public EwsArchiveItems AddItemId(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 项目 ID。 |
+| uniqueId | String | 商品编号。 |
 
 ### 也可以看看
 

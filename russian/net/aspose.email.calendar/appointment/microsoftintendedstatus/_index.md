@@ -3,7 +3,7 @@ title: MicrosoftIntendedStatus
 second_title: Справочник по Aspose.Email для .NET API
 description: Определяет НАМЕРЕННЫЙ статус встречи.
 type: docs
-weight: 170
+weight: 180
 url: /ru/net/aspose.email.calendar/appointment/microsoftintendedstatus/
 ---
 ## Appointment.MicrosoftIntendedStatus property

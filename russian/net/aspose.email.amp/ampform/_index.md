@@ -24,22 +24,22 @@ public class AmpForm : AmpComponent
 
 | Имя | Описание |
 | --- | --- |
-| [Action](../../aspose.email.amp/ampform/action) { get; set; } | Указывает конечную точку сервера для обработки ввода формы. Значение должно быть URL-адресом https (абсолютным или относительным) и не должно быть ссылкой на CDN |
+| [Action](../../aspose.email.amp/ampform/action) { get; set; } | Указывает конечную точку сервера для обработки ввода формы. Значение должно быть URL-адресом https (абсолютным или относительным) и не должно быть ссылкой на CDN . |
 | [ActionXhr](../../aspose.email.amp/ampform/actionxhr) { get; set; } | Указывает конечную точку сервера для обработки ввода формы и отправки формы через XMLHttpRequest (XHR). |
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP предоставляет набор общих атрибутов, которые распространяются на многие компоненты AMP. |
-| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервный вариант — это соглашение, которое позволяет элементу сообщить читателю, что браузер не поддерживает этот элемент. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервное копирование — это соглашение, позволяющее элементу сообщить читателю, что браузер не поддерживает этот элемент. |
 | [Fieldset](../../aspose.email.amp/ampform/fieldset) { get; } | Список полей. |
 | [Method](../../aspose.email.amp/ampform/method) { get; set; } | Атрибут метода сообщает серверу о методе запроса. |
 | [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | Элемент, отмеченный атрибутом заполнителя, выступает в качестве заполнителя для родительского элемента AMP. Если указано, элемент-заполнитель должен быть прямым дочерним элементом элемента AMP. |
-| override [RequiredScript](../../aspose.email.amp/ampform/requiredscript) { get; } | Необходимый скрипт, который необходимо добавить в раздел head. |
+| override [RequiredScript](../../aspose.email.amp/ampform/requiredscript) { get; } | Обязательный скрипт, который необходимо добавить в раздел head. |
 | [Target](../../aspose.email.amp/ampform/target) { get; set; } | Указывает, где отображать ответ формы после отправки формы. Значение должно быть _blank или _top. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/ampform/toamphtml)() | Представляет расширенную HTML-версию компонента. |
-| override [ToHtml](../../aspose.email.amp/ampform/tohtml)() | Представляет html-версию компонента. |
+| override [ToAmpHtml](../../aspose.email.amp/ampform/toamphtml)() | Представляет HTML-версию компонента amp. |
+| override [ToHtml](../../aspose.email.amp/ampform/tohtml)() | Представляет HTML-версию компонента. |
 
 ### Смотрите также
 

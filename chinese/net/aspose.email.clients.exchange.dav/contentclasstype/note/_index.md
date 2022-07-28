@@ -1,14 +1,14 @@
 ---
 title: Note
 second_title: Aspose.Email for .NET API 参考
-description: 获取表示内容类 urncontent-classesnote 的值
+description: 获取表示内容类 urncontent-classesnote. 的值
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/note/
 ---
 ## ContentClassType.Note property
 
-获取表示内容类 urn:content-classes:note 的值。
+获取表示内容类 urn:content-classes:note. 的值
 
 ```csharp
 public static ContentClassType Note { get; }

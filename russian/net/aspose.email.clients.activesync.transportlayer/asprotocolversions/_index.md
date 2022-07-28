@@ -19,9 +19,9 @@ public enum ASProtocolVersions
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Unknown | `0` | Версия неизвестна |
-| Version_12_1 | `121` | Exchange ActiveSync (EAS) версия 12.1 |
-| Version_14 | `140` | Exchange ActiveSync (EAS) версия 14.0 |
-| Version_14_1 | `141` | Exchange ActiveSync (EAS) версия 14.1 |
+| Version_12_1 | `121` | Exchange ActiveSync (EAS) 12.1 версия |
+| Version_14 | `140` | Exchange ActiveSync (EAS) 14.0 версия |
+| Version_14_1 | `141` | Exchange ActiveSync (EAS) 14.1 версия |
 
 ### Смотрите также
 

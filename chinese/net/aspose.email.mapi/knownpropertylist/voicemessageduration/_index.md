@@ -1,14 +1,14 @@
 ---
 title: VoiceMessageDuration
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加音频消息的长度以秒为单位 区域统一消息 规范名称PidTagVoiceMessageDuration 备用名称InternalSchemaVoiceMessageDuration
+description: 指定附加音频消息的长度以秒为单位 区域统一消息 规范名称PidTagVoiceMessageDuration 替代名称InternalSchemaVoiceMessageDuration
 type: docs
 weight: 19310
 url: /zh/net/aspose.email.mapi/knownpropertylist/voicemessageduration/
 ---
 ## KnownPropertyList.VoiceMessageDuration field
 
-指定附加音频消息的长度，以秒为单位。 区域:统一消息 规范名称:PidTagVoiceMessageDuration 备用名称:InternalSchemaVoiceMessageDuration
+指定附加音频消息的长度，以秒为单位。 区域：统一消息 规范名称：PidTagVoiceMessageDuration 替代名称：InternalSchemaVoiceMessageDuration
 
 ```csharp
 public static readonly PidTagPropertyDescriptor VoiceMessageDuration;

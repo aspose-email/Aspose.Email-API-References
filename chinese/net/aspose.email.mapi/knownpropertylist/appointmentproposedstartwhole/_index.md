@@ -1,14 +1,14 @@
 ---
 title: AppointmentProposedStartWhole
 second_title: Aspose.Email for .NET API 参考
-description: 为计数器提议指定 PidLidAppointmentStartWhole 属性第 2.29 节的提议值 区域会议 规范名称PidLidAppointmentProposedStartWhole 替代名称dispidApptProposedStartWhole
+description: 为计数器提议指定 PidLidAppointmentStartWhole 属性第 2.29 节的提议值 区域Meetings 规范名称PidLidAppointmentProposedStartWhole 替代名称dispidApptProposedStartWhole
 type: docs
 weight: 1240
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentproposedstartwhole/
 ---
 ## KnownPropertyList.AppointmentProposedStartWhole field
 
-为计数器提议指定 PidLidAppointmentStartWhole 属性（第 2.29 节）的提议值。 区域:会议 规范名称:PidLidAppointmentProposedStartWhole 替代名称:dispidApptProposedStartWhole
+为计数器提议指定 PidLidAppointmentStartWhole 属性（第 2.29 节）的提议值。 区域：Meetings 规范名称：PidLidAppointmentProposedStartWhole 替代名称：dispidApptProposedStartWhole
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentProposedStartWhole;

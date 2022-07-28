@@ -1,14 +1,14 @@
 ---
 title: RequiredAttendees
 second_title: Aspose.Email for .NET API 参考
-description: 标识约会或会议所需的与会者 区域会议 规范名称PidLidRequiredAttendees 别名LID_REQUIRED_ATTENDEES
+description: 标识约会或会议所需的与会者 区域Meetings 规范名称PidLidRequiredAttendees 别名LID_REQUIRED_ATTENDEES
 type: docs
 weight: 16120
 url: /zh/net/aspose.email.mapi/knownpropertylist/requiredattendees/
 ---
 ## KnownPropertyList.RequiredAttendees field
 
-标识约会或会议所需的与会者。 区域:会议 规范名称:PidLidRequiredAttendees 别名:LID_REQUIRED_ATTENDEES
+标识约会或会议所需的与会者。 区域：Meetings 规范名称：PidLidRequiredAttendees 别名：LID_REQUIRED_ATTENDEES
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RequiredAttendees;

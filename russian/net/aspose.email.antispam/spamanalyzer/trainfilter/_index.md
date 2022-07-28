@@ -23,7 +23,7 @@ public void TrainFilter(MailMessage[] ham, MailMessage[] spam)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*ham*или*spam*равно null. |
+| ArgumentNullException | Если*ham*или же*spam* нулевой. |
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public void TrainFilter(MailMessage[] ham, MailMessage[] spam)
 
 ## TrainFilter(MailMessage, bool) {#trainfilter}
 
-Узнает из указанного сообщения как спам или не спам источник.
+Узнает из указанного сообщения, что оно пришло из источника спама или не является спамом.
 
 ```csharp
 public void TrainFilter(MailMessage message, bool isSpam)
@@ -45,13 +45,13 @@ public void TrainFilter(MailMessage message, bool isSpam)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | MailMessage | Ссылка на объект MailMessage, представляющий сообщение для обучения байесовского фильтра. |
-| isSpam | Boolean | Истинно, если сообщение является спамом; false, если это законное сообщение. |
+| isSpam | Boolean | Истинно, если сообщение является спамом; false, если это допустимое сообщение. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
+| ArgumentNullException | Если*message* нулевой. |
 
 ### Смотрите также
 
@@ -64,7 +64,7 @@ public void TrainFilter(MailMessage message, bool isSpam)
 
 ## TrainFilter(string, bool) {#trainfilter_2}
 
-Узнает из указанной строки как источник спама или не спама.
+Узнает из указанной строки источник спама или не спама.
 
 ```csharp
 public void TrainFilter(string text, bool isSpam)
@@ -79,7 +79,7 @@ public void TrainFilter(string text, bool isSpam)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*text*равно null. |
+| ArgumentNullException | Если*text* нулевой. |
 
 ### Смотрите также
 

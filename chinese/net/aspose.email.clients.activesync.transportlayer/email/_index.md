@@ -22,41 +22,41 @@ public enum Email
 | DisplayTo | `17` | 指定邮件主要收件人的姓名。 |
 | Importance | `18` | 指定消息的重要性，由发送者确定。 |
 | MessageClass | `19` | 指定此电子邮件消息的消息类别。 |
-| Subject | `20` | 指定电子邮件的主题或标志的主题，就像它出现在任务列表中一样。 |
+| Subject | `20` | 指定电子邮件消息的主题或标志的主题，因为它将出现在任务列表中。 |
 | Read | `21` | 指定消息是否已被读取。 |
 | To | `22` | 指定收件人列表 |
 | Cc | `23` | 指定次要收件人列表。 |
 | From | `24` | 指定邮件发件人的电子邮件地址。 |
 | ReplyTo | `25` | 指定默认回复的电子邮件地址。 |
-| AllDayEvent | `26` | 指定日历项是否为全天事件。 |
-| Categories | `27` | 指定用户为此消息选择的类别。 |
+| AllDayEvent | `26` | 指定日历项目是否为全天事件。 |
+| Categories | `27` | 指定此消息的用户选择类别。 |
 | Category | `28` | 指定此电子邮件项目的类别。 |
-| DtStamp | `29` | 指定创建日历项的日期和时间。 |
+| DtStamp | `29` | 指定创建日历项目的日期和时间。 |
 | EndTime | `30` | 指定会议结束的日期和时间。 |
 | InstanceType | `31` | 指定日历项目的类型。 |
 | BusyStatus | `32` | 指定会议请求的预期忙碌状态。 |
-| Location | `33` | 指定日历项的位置。 |
+| Location | `33` | 指定日历项目的位置。 |
 | MeetingRequest | `34` | 指定伴随电子邮件的会议请求。 |
 | Organizer | `35` | 指定会议组织者的电子邮件别名。 |
-| RecurrenceId | `36` | 指定循环日历项目的特定实例。 |
+| RecurrenceId | `36` | 指定周期性日历项目的特定实例。 |
 | Reminder | `37` | 指定在日历项的开始时间之前显示提醒的秒数。 |
-| ResponseRequested | `38` | 指定会议发起者是否请求响应。 |
-| Recurrences | `39` | 指定 Recurrence 元素的集合。 |
-| Recurrence | `40` | 指定 Recurrence 元素的集合，这些元素描述了此会议的重复时间和频率。 |
+| ResponseRequested | `38` | 指定会议发起人是否请求响应。 |
+| Recurrences | `39` | 指定重复元素的集合。 |
+| Recurrence | `40` | 指定描述此会议何时以及多久重复一次的 Recurrence 元素的集合。 |
 | Type | `41` | 指定重复会议的重复类型。 |
 | Until | `42` | 指定一系列重复会议的结束时间。 |
 | Occurrences | `43` | 指定在一系列重复会议结束之前发生的次数。 |
 | Interval | `44` | 指定重复会议的重复间隔。 |
 | DayOfWeek | `45` | 指定循环会议的星期几。 |
-| DayOfMonth | `46` | 指定定期会议的月份中的哪一天。 |
+| DayOfMonth | `46` | 指定定期会议的日期。 |
 | WeekOfMonth | `47` | 指定定期会议的月份中的第几周。 |
-| MonthOfYear | `48` | 指定定期会议一年中的月份。 |
+| MonthOfYear | `48` | 指定定期会议的月份。 |
 | StartTime | `49` | 指定会议开始的日期和时间。 |
 | Sensitivity | `50` | 指定会议请求的机密级别。 |
-| TimeZone | `51` | 指定创建日历项时指定的时区。 |
+| TimeZone | `51` | 指定创建日历项目时指定的时区。 |
 | GlobalObjId | `52` | 指定客户端为会议请求生成的 76 位十六进制 ID。 |
 | ThreadTopic | `53` | 指定会话阅读中使用的主题。 |
-| InternetCPID | `57` | 指定来自 MIME 消息的原始代码页 ID。 |
+| InternetCPID | `57` | 指定 MIME 消息中的原始代码页 ID。 |
 | Flag | `58` | 指定与项目关联的标志，以及项目的当前状态。 |
 | Status | `59` | 指定标志的当前状态。 |
 | ContentClass | `60` | 指定数据的内容类别。 |

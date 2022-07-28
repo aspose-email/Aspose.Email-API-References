@@ -1,14 +1,14 @@
 ---
 title: CalendarDeletionOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化CalendarDeletionOptionsaspose.email.clients.exchange.webservice/calendardeletionoptions类的新实例
+description: 初始化CalendarDeletionOptionsaspose.email.clients.exchange.webservice/calendardeletionoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/calendardeletionoptions/calendardeletionoptions/
 ---
 ## CalendarDeletionOptions() {#constructor}
 
-初始化[`CalendarDeletionOptions`](../../calendardeletionoptions)类的新实例。
+初始化[`CalendarDeletionOptions`](../../calendardeletionoptions)类.
 
 ```csharp
 public CalendarDeletionOptions()
@@ -24,7 +24,7 @@ public CalendarDeletionOptions()
 
 ## CalendarDeletionOptions(DeletionType) {#constructor_1}
 
-初始化[`CalendarDeletionOptions`](../../calendardeletionoptions)类的新实例。
+初始化[`CalendarDeletionOptions`](../../calendardeletionoptions)类.
 
 ```csharp
 public CalendarDeletionOptions(DeletionType type)
@@ -45,7 +45,7 @@ public CalendarDeletionOptions(DeletionType type)
 
 ## CalendarDeletionOptions(DeletionType, CalendarItemCreateOrDeleteOperation) {#constructor_2}
 
-初始化[`CalendarDeletionOptions`](../../calendardeletionoptions)类的新实例。
+初始化[`CalendarDeletionOptions`](../../calendardeletionoptions)类.
 
 ```csharp
 public CalendarDeletionOptions(DeletionType type, 
@@ -55,7 +55,7 @@ public CalendarDeletionOptions(DeletionType type,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | type | DeletionType | 删除类型 |
-| notyficationType | CalendarItemCreateOrDeleteOperation | 表示必须通知事件 |
+| notyficationType | CalendarItemCreateOrDeleteOperation | 指示必须如何通知事件成员 |
 
 ### 也可以看看
 

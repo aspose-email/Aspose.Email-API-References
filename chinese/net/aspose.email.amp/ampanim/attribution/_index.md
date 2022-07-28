@@ -1,14 +1,14 @@
 ---
 title: Attribution
 second_title: Aspose.Email for .NET API 参考
-description: 表示图像属性的字符串
+description: 表示图片归属地的字符串
 type: docs
 weight: 20
 url: /zh/net/aspose.email.amp/ampanim/attribution/
 ---
 ## AmpAnim.Attribution property
 
-表示图像属性的字符串。
+表示图片归属地的字符串。
 
 ```csharp
 public string Attribution { get; set; }

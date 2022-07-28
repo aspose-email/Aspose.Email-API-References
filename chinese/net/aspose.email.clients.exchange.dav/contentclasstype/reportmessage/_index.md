@@ -1,14 +1,14 @@
 ---
 title: ReportMessage
 second_title: Aspose.Email for .NET API 参考
-description: 获取表示内容类 urncontent-classesreportmessage 的值
+description: 获取表示内容类的值 urncontent-classesreportmessage.
 type: docs
 weight: 200
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/reportmessage/
 ---
 ## ContentClassType.ReportMessage property
 
-获取表示内容类 urn:content-classes:reportmessage 的值。
+获取表示内容类的值 urn:content-classes:reportmessage.
 
 ```csharp
 public static ContentClassType ReportMessage { get; }

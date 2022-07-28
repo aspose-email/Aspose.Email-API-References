@@ -3,7 +3,7 @@ title: SaveStatus
 second_title: Aspose.Email for .NET API 参考
 description: 表示保存检索到的消息的状态
 type: docs
-weight: 20290
+weight: 20340
 url: /zh/net/aspose.email.storage.pst/savestatus/
 ---
 ## SaveStatus enumeration
@@ -19,7 +19,7 @@ public enum SaveStatus
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Success | `0` | 消息保存成功。 |
-| PartiallySaved | `1` | 某些数据无法检索。 消息被部分保存。 |
+| PartiallySaved | `1` | 某些数据无法检索。 消息已部分保存。 |
 | Corrupted | `2` | 数据已损坏。消息未保存。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: AddressBookAuthorizedSenders
 second_title: Aspose.Email for .NET API 参考
-description: 指示收件人是否存在递送限制 区域地址簿 规范名称PidTagAddressBookAuthorizedSenders 别名PR_EMS_AB_AUTH_ORIG
+description: 指示收件人是否存在递送限制 区域地址簿 规范名称PidTagAddressBookAuthorizedSenders 替代名称PR_EMS_AB_AUTH_ORIG
 type: docs
 weight: 330
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookauthorizedsenders/
 ---
 ## KnownPropertyList.AddressBookAuthorizedSenders field
 
-指示收件人是否存在递送限制。 区域:地址簿 规范名称:PidTagAddressBookAuthorizedSenders 别名:PR_EMS_AB_AUTH_ORIG
+指示收件人是否存在递送限制。 区域：地址簿 规范名称：PidTagAddressBookAuthorizedSenders 替代名称：PR_EMS_AB_AUTH_ORIG
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookAuthorizedSenders;

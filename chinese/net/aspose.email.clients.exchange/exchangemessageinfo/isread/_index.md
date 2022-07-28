@@ -1,14 +1,14 @@
 ---
 title: IsRead
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息是否已读的值
+description: 获取一个值该值指示消息是否已被读取
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.exchange/exchangemessageinfo/isread/
 ---
 ## ExchangeMessageInfo.IsRead property
 
-获取消息是否已读的值
+获取一个值，该值指示消息是否已被读取
 
 ```csharp
 public virtual bool IsRead { get; }

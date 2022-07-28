@@ -16,7 +16,7 @@ public string SentRepresentingEmailAddress { get; set; }
 
 ### 适当的价值
 
-表示已发送的字符串，表示电子邮件地址。
+表示已发送的字符串，代表电子邮件地址。
 
 ### 例外
 
@@ -26,7 +26,7 @@ public string SentRepresentingEmailAddress { get; set; }
 
 ### 评论
 
-设置值时，PR_SENT_REPRESENTING_SEARCH_KEY 和 PR_SENT_REPRESENTING_ENTRYID 属性的值为也更新了。 设置空值或空字符串时，属性的值设置为空。
+设置值时，PR_SENT_REPRESENTING_SEARCH_KEY 和 PR_SENT_REPRESENTING_ENTRYID 属性的值也会更新。 设置空值或空字符串时，属性的值设置为空。
 
 ### 也可以看看
 

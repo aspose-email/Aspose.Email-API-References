@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/fax2addresstype/
 ---
 ## KnownPropertyList.Fax2AddressType field
 
-包含字符串值“FAX”。 区域:联系人属性 规范名称:PidLidFax2AddressType 备用名称:dispidFax2AddrType
+包含字符串值“FAX”。 区域：联系人属性 规范名称：PidLidFax2AddressType 备用名称：dispidFax2AddrType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Fax2AddressType;

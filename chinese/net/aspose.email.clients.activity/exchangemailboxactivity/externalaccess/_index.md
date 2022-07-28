@@ -1,14 +1,14 @@
 ---
 title: ExternalAccess
 second_title: Aspose.Email for .NET API 参考
-description: 如果登录用户的域与邮箱所有者的域不同则为 true
+description: 如果登录用户的域与邮箱所有者的域不同则为真
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activity/exchangemailboxactivity/externalaccess/
 ---
 ## ExchangeMailboxActivity.ExternalAccess property
 
-如果登录用户的域与邮箱所有者的域不同，则为 true。
+如果登录用户的域与邮箱所有者的域不同，则为真。
 
 ```csharp
 public bool ExternalAccess { get; set; }

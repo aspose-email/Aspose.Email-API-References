@@ -1,14 +1,14 @@
 ---
 title: DevicePasswordHistory
 second_title: Aspose.Email for .NET API 参考
-description: 指定存储的以前使用的密码的最小数量以防止客户端重复使用 有效值如下所示  0 - 不需要存储以前使用的密码 gt 0 - 要存储的先前使用的密码的最小数量 如果 DevicePasswordHistory 为空则客户端应将此值视为 0 如果 DevicePasswordEnabled 的值设置为 TRUE则客户端不允许用户使用存储的先验密码过期后的密码 如果 DevicePasswordEnabled 的值设置为 FALSE客户端应该忽略这个属性
+description: 指定存储的以前使用过的密码的最小数量以防止客户端重复使用 有效值如下所示  0 - 不需要存储以前使用过的密码 gt 0 - 以前使用过的密码的最小数量是stored. 如果 DevicePasswordHistory 为空则客户端应将此值视为 0 如果 DevicePasswordEnabled 的值设置为 TRUE则客户端不允许用户在密码过期后使用存储的先前密码 如果值DevicePasswordEnabled 设置为 FALSE客户端应忽略此属性
 type: docs
 weight: 250
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/devicepasswordhistory/
 ---
 ## EASProvisionDoc.DevicePasswordHistory property
 
-指定存储的以前使用的密码的最小数量，以防止客户端重复使用。 有效值如下所示: = 0 - 不需要存储以前使用的密码。 &gt; 0 - 要存储的先前使用的密码的最小数量。 如果 DevicePasswordHistory 为空，则客户端应将此值视为 0。 如果 DevicePasswordEnabled 的值设置为 TRUE，则客户端不允许用户使用存储的先验密码过期后的密码。 如果 DevicePasswordEnabled 的值设置为 FALSE，客户端应该忽略这个属性。
+指定存储的以前使用过的密码的最小数量，以防止客户端重复使用。 有效值如下所示： = 0 - 不需要存储以前使用过的密码。 &gt; 0 - 以前使用过的密码的最小数量是stored. 如果 DevicePasswordHistory 为空，则客户端应将此值视为 0。 如果 DevicePasswordEnabled 的值设置为 TRUE，则客户端不允许用户在密码过期后使用存储的先前密码。 如果值DevicePasswordEnabled 设置为 FALSE，客户端应忽略此属性。
 
 ```csharp
 public int? DevicePasswordHistory { get; set; }

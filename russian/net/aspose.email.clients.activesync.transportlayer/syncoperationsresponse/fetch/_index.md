@@ -1,14 +1,14 @@
 ---
 title: Fetch
 second_title: Справочник по Aspose.Email для .NET API
-description: Список выбранных объектов
+description: Список извлеченных объектов
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/syncoperationsresponse/fetch/
 ---
 ## SyncOperationsResponse.Fetch property
 
-Список выбранных объектов
+Список извлеченных объектов
 
 ```csharp
 public List<SyncFetchResponse> Fetch { get; }

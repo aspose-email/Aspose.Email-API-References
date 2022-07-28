@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/postrsssubscription/
 ---
 ## KnownPropertyList.PostRssSubscription field
 
-包含用户对 RSS 或 Atom 订阅的首选名称。 区域:RSS 规范名称:PidLidPostRssSubscription 替代名称:dispidPostRssSubscription
+包含用户对 RSS 或 Atom 订阅的首选名称。 区域：RSS 规范名称：PidLidPostRssSubscription 替代名称：dispidPostRssSubscription
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssSubscription;

@@ -1,14 +1,14 @@
 ---
 title: EmsAbRasPhoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_RAS_PHONE_NUMBER
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_RAS_PHONE_NUMBER
 type: docs
 weight: 8340
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabrasphonenumber/
 ---
 ## KnownPropertyList.EmsAbRasPhoneNumber field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_RAS_PHONE_NUMBER
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_RAS_PHONE_NUMBER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRasPhoneNumber;

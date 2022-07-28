@@ -1,14 +1,14 @@
 ---
 title: CcAttendeesString
 second_title: Aspose.Email for .NET API 参考
-description: 包含所有可发送与会者的列表这些与会者也是可选与会者 区域会议 规范名称PidLidCcAttendeesString 别名dispidCCAttendeesString
+description: 包含所有可发送与会者的列表这些与会者也是可选与会者 区域Meetings 规范名称PidLidCcAttendeesString 替代名称dispidCCAttendeesString
 type: docs
 weight: 2530
 url: /zh/net/aspose.email.mapi/knownpropertylist/ccattendeesstring/
 ---
 ## KnownPropertyList.CcAttendeesString field
 
-包含所有可发送与会者的列表，这些与会者也是可选与会者。 区域:会议 规范名称:PidLidCcAttendeesString 别名:dispidCCAttendeesString
+包含所有可发送与会者的列表，这些与会者也是可选与会者。 区域：Meetings 规范名称：PidLidCcAttendeesString 替代名称：dispidCCAttendeesString
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CcAttendeesString;

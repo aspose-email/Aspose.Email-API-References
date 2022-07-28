@@ -1,14 +1,14 @@
 ---
 title: Mileage
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置任务的里程
+description: 获取或设置任务的里程数
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangetask/mileage/
 ---
 ## ExchangeTask.Mileage property
 
-获取或设置任务的里程。
+获取或设置任务的里程数。
 
 ```csharp
 public string Mileage { get; set; }

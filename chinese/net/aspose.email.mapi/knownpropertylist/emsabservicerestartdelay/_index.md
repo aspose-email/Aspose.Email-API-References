@@ -1,14 +1,14 @@
 ---
 title: EmsAbServiceRestartDelay
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_SERVICE_RESTART_DELAY
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_SERVICE_RESTART_DELAY
 type: docs
 weight: 8810
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabservicerestartdelay/
 ---
 ## KnownPropertyList.EmsAbServiceRestartDelay field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_SERVICE_RESTART_DELAY
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_SERVICE_RESTART_DELAY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbServiceRestartDelay;

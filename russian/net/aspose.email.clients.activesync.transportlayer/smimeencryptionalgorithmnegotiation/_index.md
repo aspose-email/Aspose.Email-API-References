@@ -19,7 +19,7 @@ public enum SMIMEEncryptionAlgorithmNegotiation
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | DoNotNegotiate | `0` | Не вести переговоры. |
-| NegotiateStrong | `1` | Согласовать сильный алгоритм. |
+| NegotiateStrong | `1` | Согласуйте надежный алгоритм. |
 | NegotiateAny | `2` | Согласовать любой алгоритм. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: MailException
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮件处理时抛出的异常
+description: 表示处理邮件消息时抛出的异常
 type: docs
 weight: 17700
 url: /zh/net/aspose.email/mailexception/
 ---
 ## MailException class
 
-表示邮件处理时抛出的异常。
+表示处理邮件消息时抛出的异常。
 
 ```csharp
 public class MailException : Exception
@@ -18,8 +18,8 @@ public class MailException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailException](mailexception#constructor)() | 初始化[`MailException`](../mailexception)类的新实例。 |
-| [MailException](mailexception#constructor_1)(string) | 初始化[`MailException`](../mailexception)类的新实例。 |
+| [MailException](mailexception#constructor)() | 初始化[`MailException`](../mailexception)类. |
+| [MailException](mailexception#constructor_1)(string) | 初始化[`MailException`](../mailexception)类. |
 | [MailException](mailexception#constructor_2)(string, Exception) |  |
 
 ### 也可以看看

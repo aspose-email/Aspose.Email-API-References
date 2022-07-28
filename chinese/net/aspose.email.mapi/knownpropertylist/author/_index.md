@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的作者 区域普通 规范名称PidNameAuthor 备用名称urnschemas-microsoft-comofficeofficeAuthor
+description: 指定附加到文档对象的文件的作者 区域Common 规范名称PidNameAuthor 替代名称urnschemas-microsoft-comofficeofficeAuthor
 type: docs
 weight: 1860
 url: /zh/net/aspose.email.mapi/knownpropertylist/author/
 ---
 ## KnownPropertyList.Author field
 
-指定附加到 Document 对象的文件的作者。 区域：普通 规范名称：PidNameAuthor 备用名称：urn:schemas-microsoft-com:office:office#Author
+指定附加到文档对象的文件的作者。 区域：Common 规范名称：PidNameAuthor 替代名称：urn:schemas-microsoft-com:office:office#Author
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Author;

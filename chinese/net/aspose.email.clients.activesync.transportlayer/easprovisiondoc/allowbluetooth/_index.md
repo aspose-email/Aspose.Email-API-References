@@ -1,14 +1,14 @@
 ---
 title: AllowBluetooth
 second_title: Aspose.Email for .NET API 参考
-description: 指定设备上蓝牙的使用 如果客户端不支持蓝牙这个属性应该被忽略
+description: 指定在设备上使用蓝牙 如果客户端不支持蓝牙则应忽略此属性
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowbluetooth/
 ---
 ## EASProvisionDoc.AllowBluetooth property
 
-指定设备上蓝牙的使用。 如果客户端不支持蓝牙，这个属性应该被忽略。
+指定在设备上使用蓝牙。 如果客户端不支持蓝牙，则应忽略此属性。
 
 ```csharp
 public AllowBluetooth? AllowBluetooth { get; set; }

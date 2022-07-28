@@ -1,14 +1,14 @@
 ---
 title: OriginalSubject
 second_title: Aspose.Email for .NET API 参考
-description: 指定原始消息的主题 区域常规消息属性 规范名称PidTagOriginalSubject 替代名称PR_ORIGINAL_SUBJECT PR_ORIGINAL_SUBJECT_A ptagOriginalSubject
+description: 指定原始消息的主题 区域常规消息属性 规范名称PidTagOriginalSubject 替代名称PR_ORIGINAL_SUBJECTPR_ORIGINAL_SUBJECT_AptagOriginalSubject
 type: docs
 weight: 13780
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalsubject/
 ---
 ## KnownPropertyList.OriginalSubject field
 
-指定原始消息的主题。 区域:常规消息属性 规范名称:PidTagOriginalSubject 替代名称:PR_ORIGINAL_SUBJECT, PR_ORIGINAL_SUBJECT_A, ptagOriginalSubject,
+指定原始消息的主题。 区域：常规消息属性 规范名称：PidTagOriginalSubject 替代名称：PR_ORIGINAL_SUBJECT、PR_ORIGINAL_SUBJECT_A、ptagOriginalSubject、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSubject;

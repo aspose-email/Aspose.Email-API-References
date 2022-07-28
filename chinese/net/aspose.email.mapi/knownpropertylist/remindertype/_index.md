@@ -1,14 +1,14 @@
 ---
 title: ReminderType
 second_title: Aspose.Email for .NET API 参考
-description: 此属性未设置如果设置则忽略 区域提醒 规范名称PidLidReminderType 替代名称dispidReminderTypehttp//schemas.microsoft.com/mapi/remindertype
+description: 此属性未设置如果设置将被忽略 区域Reminders 规范名称PidLidReminderType 替代名称dispidReminderTypehttp//schemas.microsoft.com/mapi/remindertype
 type: docs
 weight: 15770
 url: /zh/net/aspose.email.mapi/knownpropertylist/remindertype/
 ---
 ## KnownPropertyList.ReminderType field
 
-此属性未设置，如果设置，则忽略。 区域:提醒 规范名称:PidLidReminderType 替代名称:dispidReminderType，http://schemas.microsoft.com/mapi/remindertype
+此属性未设置，如果设置，将被忽略。 区域：Reminders 规范名称：PidLidReminderType 替代名称：dispidReminderType，http://schemas.microsoft.com/mapi/remindertype
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderType;

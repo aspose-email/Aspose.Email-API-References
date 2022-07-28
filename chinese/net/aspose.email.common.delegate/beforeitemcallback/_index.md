@@ -16,7 +16,7 @@ public delegate void BeforeItemCallback(ItemCallbackArgs item);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | ItemCallbackArgs | 待处理项目 |
+| item | ItemCallbackArgs | 要处理的项目 |
 
 ### 也可以看看
 

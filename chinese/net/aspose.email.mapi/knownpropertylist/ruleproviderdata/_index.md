@@ -1,14 +1,14 @@
 ---
 title: RuleProviderData
 second_title: Aspose.Email for .NET API 参考
-description: 包含客户端设置的不透明数据仅供客户端使用 区域服务器端规则属性 规范名称PidTagRuleProviderData 备用名称PR_RULE_PROVIDER_DATA ptagRuleProviderData
+description: 包含客户端设置的不透明数据仅供客户端使用 区域服务器端规则属性 规范名称PidTagRuleProviderData 备用名称PR_RULE_PROVIDER_DATAptagRuleProviderData
 type: docs
 weight: 16610
 url: /zh/net/aspose.email.mapi/knownpropertylist/ruleproviderdata/
 ---
 ## KnownPropertyList.RuleProviderData field
 
-包含客户端设置的不透明数据，仅供客户端使用。 区域:服务器端规则属性 规范名称:PidTagRuleProviderData 备用名称:PR_RULE_PROVIDER_DATA, ptagRuleProviderData
+包含客户端设置的不透明数据，仅供客户端使用。 区域：服务器端规则属性 规范名称：PidTagRuleProviderData 备用名称：PR_RULE_PROVIDER_DATA、ptagRuleProviderData
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleProviderData;

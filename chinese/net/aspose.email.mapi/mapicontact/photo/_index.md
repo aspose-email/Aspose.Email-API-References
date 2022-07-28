@@ -1,14 +1,14 @@
 ---
 title: Photo
 second_title: Aspose.Email for .NET API 参考
-description: 包含联系人照片MapiContactPhotoaspose.email.mapi/mapicontactphoto
+description: 包含联系人照片MapiContactPhotoaspose.email.mapi/mapicontactphoto.
 type: docs
 weight: 90
 url: /zh/net/aspose.email.mapi/mapicontact/photo/
 ---
 ## MapiContact.Photo property
 
-包含联系人照片[`MapiContactPhoto`](../../mapicontactphoto)。
+包含联系人照片[`MapiContactPhoto`](../../mapicontactphoto).
 
 ```csharp
 public MapiContactPhoto Photo { get; set; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/expiryunits/
 ---
 ## KnownPropertyList.ExpiryUnits field
 
-包含 PidTagExpiryNumber 属性（第 2.679 节）的值相乘的时间单位。 区域:MapiStatus 规范名称:PidTagExpiryUnits 替代名称:PR_EXPIRY_UNITS
+包含 PidTagExpiryNumber 属性（第 2.679 节）的值相乘的时间单位。 区域：MapiStatus 规范名称：PidTagExpiryUnits 替代名称：PR_EXPIRY_UNITS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExpiryUnits;

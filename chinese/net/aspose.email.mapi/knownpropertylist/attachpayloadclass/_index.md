@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/attachpayloadclass/
 ---
 ## KnownPropertyList.AttachPayloadClass field
 
-包含可以显示消息内容的对象的类名。 区域:Outlook 应用程序 规范名称:PidTagAttachPayloadClass 备用名称:PR_ATTACH_PAYLOAD_CLASS、PR_ATTACH_PAYLOAD_CLASS_A、PR_ATTACH_PAYLOAD_CLASS_W、ptagAttachPayloadClass
+包含可以显示消息内容的对象的类名。 区域：Outlook 应用程序 规范名称：PidTagAttachPayloadClass 备用名称：PR_ATTACH_PAYLOAD_CLASS、PR_ATTACH_PAYLOAD_CLASS_A、PR_ATTACH_PAYLOAD_CLASS_W、ptagAttachPayloadClass
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachPayloadClass;

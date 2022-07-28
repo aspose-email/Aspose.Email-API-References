@@ -1,14 +1,14 @@
 ---
 title: DiagnosticsLevel
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置用于派生报告的时间和性能信息
+description: 获取或设置将用于派生报告的时间和性能信息
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/diagnosticslevel/
 ---
 ## GetMessageTrackingReportOptions.DiagnosticsLevel property
 
-获取或设置用于派生报告的时间和性能信息。
+获取或设置将用于派生报告的时间和性能信息。
 
 ```csharp
 public string DiagnosticsLevel { get; set; }

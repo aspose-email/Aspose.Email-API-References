@@ -1,14 +1,14 @@
 ---
 title: AsposeArgumentException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsposeArgumentExceptionaspose.email/asposeargumentexception.
+description: Инициализирует новый экземплярAsposeArgumentExceptionaspose.email/asposeargumentexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/asposeargumentexception/asposeargumentexception/
 ---
 ## AsposeArgumentException() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentException`](../../asposeargumentexception).
+Инициализирует новый экземпляр[`AsposeArgumentException`](../../asposeargumentexception) класс.
 
 ```csharp
 public AsposeArgumentException()
@@ -24,7 +24,7 @@ public AsposeArgumentException()
 
 ## AsposeArgumentException(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentException`](../../asposeargumentexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeArgumentException`](../../asposeargumentexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeArgumentException(string message)
@@ -44,7 +44,7 @@ public AsposeArgumentException(string message)
 
 ## AsposeArgumentException(string, string) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentException`](../../asposeargumentexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeArgumentException`](../../asposeargumentexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeArgumentException(string format, string parameter)
@@ -65,7 +65,7 @@ public AsposeArgumentException(string format, string parameter)
 
 ## AsposeArgumentException(string, params object[]) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentException`](../../asposeargumentexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeArgumentException`](../../asposeargumentexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeArgumentException(string format, params object[] parameters)
@@ -86,7 +86,7 @@ public AsposeArgumentException(string format, params object[] parameters)
 
 ## AsposeArgumentException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentException`](../../asposeargumentexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeArgumentException`](../../asposeargumentexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeArgumentException(string message, Exception innerException)
@@ -95,7 +95,7 @@ public AsposeArgumentException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 
@@ -107,7 +107,7 @@ public AsposeArgumentException(string message, Exception innerException)
 
 ## AsposeArgumentException(Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentException`](../../asposeargumentexception) со ссылкой на внутренний исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeArgumentException`](../../asposeargumentexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeArgumentException(Exception innerException)
@@ -115,7 +115,7 @@ public AsposeArgumentException(Exception innerException)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (ничего в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

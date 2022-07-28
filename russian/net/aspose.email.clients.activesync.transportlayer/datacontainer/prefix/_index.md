@@ -1,14 +1,14 @@
 ---
 title: Prefix
 second_title: Справочник по Aspose.Email для .NET API
-description: Префикс в узле xml для элемента
+description: Префикс в узле xml для element
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activesync.transportlayer/datacontainer/prefix/
 ---
 ## DataContainer.Prefix property
 
-Префикс в узле xml для элемента
+Префикс в узле xml для element
 
 ```csharp
 public string Prefix { get; }

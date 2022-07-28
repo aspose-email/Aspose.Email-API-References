@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/address/
 ---
 ## KnownPropertySets.Address field
 
-区域名称:联系人 属性集名称:PSETID_Address
+区域名称：联系人 属性集名称：PSETID_Address
 
 ```csharp
 public static readonly Guid Address;

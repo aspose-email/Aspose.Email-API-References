@@ -1,14 +1,14 @@
 ---
 title: ListUnsubscribe
 second_title: Aspose.Email for .NET API 参考
-description: List-Unsubscribe 字段描述了直接取消订阅用户从列表中删除他们的命令最好使用邮件 更多详情请查看 https//tools.ietf.org/html/rfc2369
+description: List-Unsubscribe 字段描述了直接取消订阅用户从列表中删除他们的命令最好使用邮件 有关更多详细信息请参阅 https//tools.ietf.org/html/rfc2369
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients/messageinfobase/listunsubscribe/
 ---
 ## MessageInfoBase.ListUnsubscribe property
 
-List-Unsubscribe 字段描述了直接取消订阅用户（从列表中删除他们）的命令（最好使用邮件）。 更多详情请查看 https://tools.ietf.org/html/rfc2369
+List-Unsubscribe 字段描述了直接取消订阅用户（从列表中删除他们）的命令（最好使用邮件）。 有关更多详细信息，请参阅 https://tools.ietf.org/html/rfc2369
 
 ```csharp
 public string ListUnsubscribe { get; }

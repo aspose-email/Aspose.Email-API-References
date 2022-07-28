@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置日期位置
+description: 获取或设置日位置
 type: docs
 weight: 80
 url: /zh/net/aspose.email.mapi/mapicalendartimezonerule/position/
 ---
 ## MapiCalendarTimeZoneRule.Position property
 
-获取或设置日期位置
+获取或设置日位置
 
 ```csharp
 public DayPosition Position { get; set; }

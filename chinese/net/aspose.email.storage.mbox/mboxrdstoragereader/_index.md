@@ -3,7 +3,7 @@ title: MboxrdStorageReader
 second_title: Aspose.Email for .NET API 参考
 description: 表示 mboxrd 格式的存储阅读器Thunderbird 和其他邮件客户端正在使用这种格式
 type: docs
-weight: 20010
+weight: 20060
 url: /zh/net/aspose.email.storage.mbox/mboxrdstoragereader/
 ---
 ## MboxrdStorageReader class
@@ -19,7 +19,7 @@ public sealed class MboxrdStorageReader : MboxStorageReader
 | 姓名 | 描述 |
 | --- | --- |
 | [MboxrdStorageReader](mboxrdstoragereader#constructor)(Stream, MboxLoadOptions) |  |
-| [MboxrdStorageReader](mboxrdstoragereader#constructor_2)(string, MboxLoadOptions) | 初始化[`MboxrdStorageReader`](../mboxrdstoragereader)类的新实例。 |
+| [MboxrdStorageReader](mboxrdstoragereader#constructor_2)(string, MboxLoadOptions) | 初始化[`MboxrdStorageReader`](../mboxrdstoragereader)类. |
 
 ## 特性
 
@@ -33,7 +33,7 @@ public sealed class MboxrdStorageReader : MboxStorageReader
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义任务。 |
-| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | 公开枚举器，它支持存储中的消息迭代。 |
+| [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | 公开枚举器，它支持存储中消息的迭代。 |
 | override [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxrdstoragereader/gettotalitemscount)() | 返回存储中的消息数。 |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage#readnextmessage)() | 从底层存储流中读取下一条消息。 |
 | override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage#readnextmessage_1)(out string) | 从底层存储流中读取下一条消息。 |

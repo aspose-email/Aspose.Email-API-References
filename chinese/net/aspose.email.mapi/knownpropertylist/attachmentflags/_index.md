@@ -1,14 +1,14 @@
 ---
 title: AttachmentFlags
 second_title: Aspose.Email for .NET API 参考
-description: 表示对附件对象的特殊处理 区域消息附件属性 规范名称PidTagAttachmentFlags 备用名称PR_ATTACHMENT_FLAGS ptagAttachmentFlags
+description: 表示对附件对象的特殊处理 区域消息附件属性 规范名称PidTagAttachmentFlags 备用名称PR_ATTACHMENT_FLAGSptagAttachmentFlags
 type: docs
 weight: 1640
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachmentflags/
 ---
 ## KnownPropertyList.AttachmentFlags field
 
-表示对附件对象的特殊处理。 区域:消息附件属性 规范名称:PidTagAttachmentFlags 备用名称:PR_ATTACHMENT_FLAGS, ptagAttachmentFlags
+表示对附件对象的特殊处理。 区域：消息附件属性 规范名称：PidTagAttachmentFlags 备用名称：PR_ATTACHMENT_FLAGS、ptagAttachmentFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentFlags;

@@ -1,14 +1,14 @@
 ---
 title: EndDateTime
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置搜索时间段表示在此值之前发送消息
+description: 获取或设置搜索时间段表示该消息是在这个值之前发送的
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/enddatetime/
 ---
 ## FindMessageTrackingReportOptions.EndDateTime property
 
-获取或设置搜索时间段，表示在此值之前发送消息。
+获取或设置搜索时间段，表示该消息是在这个值之前发送的。
 
 ```csharp
 public DateTime EndDateTime { get; set; }

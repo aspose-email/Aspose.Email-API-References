@@ -1,14 +1,14 @@
 ---
 title: MailgunClient
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MailgunClientaspose.email.clients.deliveryservice.mailgun/mailgunclient类 的新实例
+description: 初始化MailgunClientaspose.email.clients.deliveryservice.mailgun/mailgunclient class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/mailgunclient/
 ---
 ## MailgunClient constructor
 
-初始化[`MailgunClient`](../../mailgunclient)类 的新实例
+初始化[`MailgunClient`](../../mailgunclient) class
 
 ```csharp
 public MailgunClient(string domainName, string apiKey, 

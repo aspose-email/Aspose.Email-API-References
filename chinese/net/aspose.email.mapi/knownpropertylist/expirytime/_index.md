@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/expirytime/
 ---
 ## KnownPropertyList.ExpiryTime field
 
-包含时间，以 UTC 为单位，如果消息迟到，客户端希望在该时间之后接收到期事件。 区域:MapiEnvelope 规范名称:PidTagExpiryTime 替代名称:PR_EXPIRY_TIME, ptagExpiryTime, urn:schemas:httpmail:expiry-date,
+包含时间（以 UTC 为单位），如果消息迟到，客户端希望在该时间之后接收到期事件。 区域：MapiEnvelope 规范名称：PidTagExpiryTime 替代名称：PR_EXPIRY_TIME, ptagExpiryTime, urn:schemas:httpmail:expiry-date,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExpiryTime;

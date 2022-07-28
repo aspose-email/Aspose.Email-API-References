@@ -1,14 +1,14 @@
 ---
 title: CustomAttachmentStorageData
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置自定义附件存储数据可以为空
+description: 获取或设置自定义附件存储数据可以为null
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi.msg/messageobjectattachmententity/customattachmentstoragedata/
 ---
 ## MessageObjectAttachmentEntity.CustomAttachmentStorageData property
 
-获取或设置自定义附件存储数据。可以为空。
+获取或设置自定义附件存储数据。可以为null。
 
 ```csharp
 public CustomAttachmentStorage CustomAttachmentStorageData { get; set; }
@@ -20,7 +20,7 @@ public CustomAttachmentStorage CustomAttachmentStorageData { get; set; }
 
 ### 评论
 
-与[`EmbeddedMessage`](../embeddedmessage)互斥，或者两者都可以为空。
+与互斥[`EmbeddedMessage`](../embeddedmessage)或者两者都可以为空。
 
 ### 也可以看看
 

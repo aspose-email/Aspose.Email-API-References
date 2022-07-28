@@ -18,9 +18,9 @@ public enum IdentityType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Claim | `0` | 身份是用于授权目的的声明。 |
+| Claim | `0` | 身份是出于授权目的的声明。 |
 | Name | `1` | 审计操作参与者或目标身份显示名称。 |
-| Other | `2` | 演员的身份是其他类型，例如Office 365服务生成的GUID中的ObjectId。 |
+| Other | `2` | 演员的身份为其他类型，如Office 365服务生成的GUID中的ObjectId。 |
 | PUID | `3` | 审计操作参与者或目标护照唯一 ID (PUID)。 |
 | SPN | `4` | 如果操作由 Office 365 服务执行，则为服务主体的标识。 |
 | UPN | `5` | 用户主体名称。 |

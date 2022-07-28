@@ -16,7 +16,7 @@ public List<SaveResult> Attachments { get; }
 
 ### 适当的价值
 
-[`SaveResult`](../../saveresult)的列表。
+名单[`SaveResult`](../../saveresult).
 
 ### 也可以看看
 

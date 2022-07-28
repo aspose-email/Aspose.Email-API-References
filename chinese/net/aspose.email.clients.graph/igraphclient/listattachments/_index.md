@@ -16,11 +16,11 @@ public MapiAttachmentCollection ListAttachments(string id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 父消息 id |
+| id | String | 父消息 ID |
 
 ### 返回值
 
-返回一个附件的列表消息
+返回消息的附件列表
 
 ### 也可以看看
 

@@ -18,10 +18,10 @@ public class DailyRecurrencePattern : RecurrencePattern
 
 | Имя | Описание |
 | --- | --- |
-| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_2)(DateTime) | Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../dailyrecurrencepattern). |
-| [DailyRecurrencePattern](dailyrecurrencepattern#constructor)(int) | Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../dailyrecurrencepattern). |
-| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_3)(DateTime, int) | Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../dailyrecurrencepattern). |
-| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_1)(int, int) | Инициализирует новый экземпляр класса[`DailyRecurrencePattern`](../dailyrecurrencepattern). |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_2)(DateTime) | Инициализирует новый экземпляр[`DailyRecurrencePattern`](../dailyrecurrencepattern) класс. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor)(int) | Инициализирует новый экземпляр[`DailyRecurrencePattern`](../dailyrecurrencepattern) класс. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_3)(DateTime, int) | Инициализирует новый экземпляр[`DailyRecurrencePattern`](../dailyrecurrencepattern) класс. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_1)(int, int) | Инициализирует новый экземпляр[`DailyRecurrencePattern`](../dailyrecurrencepattern) класс. |
 
 ## Характеристики
 
@@ -30,7 +30,7 @@ public class DailyRecurrencePattern : RecurrencePattern
 | [EndDate](../../aspose.email.calendar.recurrences/recurrencepattern/enddate) { get; set; } | Получает или задает дату окончания. |
 | [Interval](../../aspose.email.calendar.recurrences/recurrencepattern/interval) { get; set; } | Получает или задает количество единиц повторения. |
 | [Occurs](../../aspose.email.calendar.recurrences/recurrencepattern/occurs) { get; set; } | Получает или задает количество вхождений шаблона повторения. |
-| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Получает или устанавливает начало недели. |
+| [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | Получает или задает начало недели. |
 
 ## Методы
 

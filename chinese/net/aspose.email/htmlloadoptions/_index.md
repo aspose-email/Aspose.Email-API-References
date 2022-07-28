@@ -18,17 +18,17 @@ public class HtmlLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HtmlLoadOptions](htmlloadoptions)() | 初始化此类的新实例，该实例可用于从 Html 格式加载 MailMessage。 |
+| [HtmlLoadOptions](htmlloadoptions)() | 初始化此类的新实例，可用于从 Html 格式加载 MailMessage。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | 表示邮件消息格式。可以是eml,msg 或mhtml 格式。 默认值为 Eml。 |
-| [PathToResources](../../aspose.email/htmlloadoptions/pathtoresources) { get; set; } | 资源文件所在目录的路径。 |
-| [PrefferedTextEncoding](../../aspose.email/loadoptions/prefferedtextencoding) { get; set; } | 获取或设置消息的首选编码。 强制设置消息主题和正文的首选编码。 默认值为空。 |
+| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | 代表邮件消息格式。可以是eml,msg或mhtml格式。 默认值为Eml。 |
+| [PathToResources](../../aspose.email/htmlloadoptions/pathtoresources) { get; set; } | 资源文件目录的路径。 |
+| [PrefferedTextEncoding](../../aspose.email/loadoptions/prefferedtextencoding) { get; set; } | 获取或设置消息的首选编码。 强制设置消息主题和正文的首选编码。 默认值为null。 |
 | [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | 获取或设置一个值，该值指示在 MailMessage 中加载时是否需要保留 嵌入消息的格式。 |
-| [ShouldAddPlainTextView](../../aspose.email/htmlloadoptions/shouldaddplaintextview) { get; set; } | 指定是否添加正文的文本表示。 默认值为假。 |
+| [ShouldAddPlainTextView](../../aspose.email/htmlloadoptions/shouldaddplaintextview) { get; set; } | 指定是否添加正文的文本表示。 默认值为 false。 |
 
 ### 也可以看看
 

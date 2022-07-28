@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API 参考
-description: 将此MapiNoteaspose.email.mapi/mapinote保存到使用指定格式的给定流中
+description: 保存这个MapiNoteaspose.email.mapi/mapinote使用指定格式到给定的流
 type: docs
 weight: 80
 url: /zh/net/aspose.email.mapi/mapinote/save/
 ---
 ## Save(Stream, NoteSaveFormat) {#save}
 
-将此[`MapiNote`](../../mapinote)保存到使用指定格式的给定流中。
+保存这个[`MapiNote`](../../mapinote)使用指定格式到给定的流。
 
 ```csharp
 public void Save(Stream stream, NoteSaveFormat saveFormat)
@@ -23,8 +23,8 @@ public void Save(Stream stream, NoteSaveFormat saveFormat)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*是` null` 。 |
-| NotSupportedException | *stream*不支持写入。 |
+| ArgumentNullException | *stream*是`无效的` . |
+| NotSupportedException | *stream*不支持书写。 |
 | NotSupportedException | 不支持指定的格式。 |
 
 ### 也可以看看
@@ -38,7 +38,7 @@ public void Save(Stream stream, NoteSaveFormat saveFormat)
 
 ## Save(string, NoteSaveFormat) {#save_1}
 
-使用指定格式将此[`MapiNote`](../../mapinote)保存到文件中。
+保存这个[`MapiNote`](../../mapinote)使用指定格式进入文件。
 
 ```csharp
 public void Save(string filePath, NoteSaveFormat saveFormat)
@@ -46,14 +46,14 @@ public void Save(string filePath, NoteSaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件名。 |
+| filePath | String | 一个文件名。 |
 | saveFormat | NoteSaveFormat | 一种保存格式。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *filePath*is` null` 或` 空` 。 |
+| ArgumentException | *filePath*是`无效的`或者`空的`. |
 | NotSupportedException | 不支持某些保存选项 |
 
 ### 也可以看看

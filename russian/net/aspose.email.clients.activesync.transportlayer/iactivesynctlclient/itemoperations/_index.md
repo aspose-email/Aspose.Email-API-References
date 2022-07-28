@@ -1,14 +1,14 @@
 ---
 title: ItemOperations
 second_title: Справочник по Aspose.Email для .NET API
-description: ItemOperations обеспечивает пакетную оперативную обработку операций Fetch EmptyFolderContents и Move.
+description: ItemOperations обеспечивает пакетную онлайн-обработку операций Fetch EmptyFolderContents и Move.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/itemoperations/
 ---
 ## IActiveSyncTLClient.ItemOperations method
 
-ItemOperations обеспечивает пакетную оперативную обработку операций Fetch, EmptyFolderContents и Move.
+ItemOperations обеспечивает пакетную онлайн-обработку операций Fetch, EmptyFolderContents и Move.
 
 ```csharp
 public ItemOperationsResponse ItemOperations(ItemOperationsRequest request)

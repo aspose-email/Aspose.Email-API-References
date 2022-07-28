@@ -1,14 +1,14 @@
 ---
 title: Classified
 second_title: Aspose.Email for .NET API 参考
-description: 表示此消息的内容是否被视为机密信息 区域常规消息属性 规范名称PidLidClassified 替代名称dispidClassified
+description: 表示此消息的内容是否被视为机密信息 区域常规消息属性 规范名称PidLidClassified 别名dispidClassified
 type: docs
 weight: 2660
 url: /zh/net/aspose.email.mapi/knownpropertylist/classified/
 ---
 ## KnownPropertyList.Classified field
 
-表示此消息的内容是否被视为机密信息。 区域:常规消息属性 规范名称:PidLidClassified 替代名称:dispidClassified
+表示此消息的内容是否被视为机密信息。 区域：常规消息属性 规范名称：PidLidClassified 别名：dispidClassified
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Classified;

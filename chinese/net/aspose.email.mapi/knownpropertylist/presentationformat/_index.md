@@ -1,14 +1,14 @@
 ---
 title: PresentationFormat
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的表示格式 区域普通 规范名称PidNamePresentationFormat 替代名称urnschemas-microsoft-comofficeofficePresentationFormat
+description: 指定附加到文档对象的文件的呈现格式 区域Common 规范名称PidNamePresentationFormat 替代名称urnschemas-microsoft-comofficeofficePresentationFormat
 type: docs
 weight: 14530
 url: /zh/net/aspose.email.mapi/knownpropertylist/presentationformat/
 ---
 ## KnownPropertyList.PresentationFormat field
 
-指定附加到 Document 对象的文件的表示格式。 区域：普通 规范名称：PidNamePresentationFormat 替代名称：urn:schemas-microsoft-com:office:office#PresentationFormat
+指定附加到文档对象的文件的呈现格式。 区域：Common 规范名称：PidNamePresentationFormat 替代名称：urn:schemas-microsoft-com:office:office#PresentationFormat
 
 ```csharp
 public static readonly PidNamePropertyDescriptor PresentationFormat;

@@ -18,7 +18,7 @@ public sealed class GetUserSettingsResponse : AutodiscoverResponse
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetUserSettingsResponse](getusersettingsresponse)() | 初始化[`GetUserSettingsResponse`](../getusersettingsresponse)类的新实例。 |
+| [GetUserSettingsResponse](getusersettingsresponse)() | 初始化[`GetUserSettingsResponse`](../getusersettingsresponse)类. |
 
 ## 特性
 

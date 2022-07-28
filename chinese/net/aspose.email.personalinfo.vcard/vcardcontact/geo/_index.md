@@ -1,14 +1,14 @@
 ---
 title: Geo
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置全球定位
+description: 获取或设置一个全球定位
 type: docs
 weight: 70
 url: /zh/net/aspose.email.personalinfo.vcard/vcardcontact/geo/
 ---
 ## VCardContact.Geo property
 
-获取或设置全球定位
+获取或设置一个全球定位
 
 ```csharp
 public VCardGeo Geo { get; set; }

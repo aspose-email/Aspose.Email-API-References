@@ -1,14 +1,14 @@
 ---
 title: FromFile
 second_title: Aspose.Email for .NET API 参考
-description: 从文件加载 OLM 存储
+description: 从文件中加载 OLM 存储
 type: docs
 weight: 20
 url: /zh/net/aspose.email.storage.olm/olmstorage/fromfile/
 ---
 ## OlmStorage.FromFile method
 
-从文件加载 OLM 存储。
+从文件中加载 OLM 存储。
 
 ```csharp
 public static OlmStorage FromFile(string fileName)

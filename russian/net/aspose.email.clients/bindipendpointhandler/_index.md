@@ -20,7 +20,7 @@ public delegate IPEndPoint BindIPEndPointHandler(IPEndPoint remoteEndPoint);
 
 ### Возвращаемое значение
 
-IPEndPoint, представляющий локальную конечную точку.
+IPEndPoint который представляет локальную конечную точку.
 
 ### Смотрите также
 

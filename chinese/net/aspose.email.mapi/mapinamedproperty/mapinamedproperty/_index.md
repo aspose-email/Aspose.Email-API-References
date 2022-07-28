@@ -1,14 +1,14 @@
 ---
 title: MapiNamedProperty
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiNamedPropertyaspose.email.mapi/mapinamedproperty类的新实例
+description: 初始化MapiNamedPropertyaspose.email.mapi/mapinamedproperty类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapinamedproperty/mapinamedproperty/
 ---
 ## MapiNamedProperty() {#constructor}
 
-初始化[`MapiNamedProperty`](../../mapinamedproperty)类的新实例。
+初始化[`MapiNamedProperty`](../../mapinamedproperty)类.
 
 ```csharp
 public MapiNamedProperty()
@@ -24,7 +24,7 @@ public MapiNamedProperty()
 
 ## MapiNamedProperty(long, string, Guid, byte[]) {#constructor_4}
 
-初始化[`MapiNamedProperty`](../../mapinamedproperty)类的新实例。
+初始化[`MapiNamedProperty`](../../mapinamedproperty)类.
 
 ```csharp
 public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyGuid, 
@@ -33,10 +33,10 @@ public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyG
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| propertyTag | Int64 | 属性标签表示一个包含属性类型和属性 ID 的 32 位值。 低 16 位表示属性类型。高 16 位表示属性 ID。 |
+| propertyTag | Int64 | 属性标记表示一个 32 位值，其中包含属性类型和属性 ID。 低 16 位表示属性类型。高 16 位表示属性 ID。 |
 | nameIdentifier | String | 用于引用命名属性的名称标识符。 |
 | propertyGuid | Guid | 属性唯一标识符。 |
-| propertyValue | Byte[] | 属性值。 |
+| propertyValue | Byte[] | 一个属性值。 |
 
 ### 也可以看看
 
@@ -48,7 +48,7 @@ public MapiNamedProperty(long propertyTag, string nameIdentifier, Guid propertyG
 
 ## MapiNamedProperty(long, long, Guid, byte[]) {#constructor_3}
 
-初始化[`MapiNamedProperty`](../../mapinamedproperty)类的新实例。
+初始化[`MapiNamedProperty`](../../mapinamedproperty)类.
 
 ```csharp
 public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGuid, 
@@ -57,10 +57,10 @@ public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGui
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| propertyTag | Int64 | 属性标签表示一个包含属性类型和属性 ID 的 32 位值。 低 16 位表示属性类型。高 16 位表示属性 ID。 |
+| propertyTag | Int64 | 属性标记表示一个 32 位值，其中包含属性类型和属性 ID。 低 16 位表示属性类型。高 16 位表示属性 ID。 |
 | nameIdentifier | Int64 | 用于引用命名属性的名称标识符。 |
 | propertyGuid | Guid | 属性唯一标识符。 |
-| propertyValue | Byte[] | 属性值。 |
+| propertyValue | Byte[] | 一个属性值。 |
 
 ### 也可以看看
 
@@ -72,7 +72,7 @@ public MapiNamedProperty(long propertyTag, long nameIdentifier, Guid propertyGui
 
 ## MapiNamedProperty(INamedPropertyTagProvider, PidLidPropertyDescriptor, object) {#constructor_1}
 
-初始化[`MapiNamedProperty`](../../mapinamedproperty)类的新实例。
+初始化[`MapiNamedProperty`](../../mapinamedproperty)类.
 
 ```csharp
 public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDescriptor pd, 
@@ -81,9 +81,9 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDe
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagProvider | INamedPropertyTagProvider | 可为命名属性提供标签的属性存储 |
+| tagProvider | INamedPropertyTagProvider | 可以为命名属性提供标签的属性存储 |
 | pd | PidLidPropertyDescriptor | 属性描述符 |
-| data | Object | 属性值。 |
+| data | Object | 一个属性值。 |
 
 ### 也可以看看
 
@@ -97,7 +97,7 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidLidPropertyDe
 
 ## MapiNamedProperty(INamedPropertyTagProvider, PidNamePropertyDescriptor, object) {#constructor_2}
 
-初始化[`MapiNamedProperty`](../../mapinamedproperty)类的新实例。
+初始化[`MapiNamedProperty`](../../mapinamedproperty)类.
 
 ```csharp
 public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidNamePropertyDescriptor pd, 
@@ -106,9 +106,9 @@ public MapiNamedProperty(INamedPropertyTagProvider tagProvider, PidNamePropertyD
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagProvider | INamedPropertyTagProvider | 可为命名属性提供标签的属性存储 |
+| tagProvider | INamedPropertyTagProvider | 可以为命名属性提供标签的属性存储 |
 | pd | PidNamePropertyDescriptor | 属性描述符 |
-| data | Object | 属性值。 |
+| data | Object | 一个属性值。 |
 
 ### 也可以看看
 

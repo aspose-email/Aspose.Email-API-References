@@ -1,14 +1,14 @@
 ---
 title: Complete
 second_title: Aspose.Email for .NET API 参考
-description:  完整标题
+description:  完整的标题
 type: docs
 weight: 50
 url: /zh/net/aspose.email/mhttemplatename.task/complete/
 ---
 ## MhtTemplateName.Task.Complete field
 
-% 完整标题。
+% 完整的标题。
 
 ```csharp
 public const string Complete;

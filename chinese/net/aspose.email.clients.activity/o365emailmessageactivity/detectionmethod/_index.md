@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/o365emailmessageactivity/detectionmet
 ---
 ## O365EmailMessageActivity.DetectionMethod property
 
-Office 365 ATP 用于检测的方法或技术。 强制:是
+Office 365 ATP 用于检测的方法或技术。 强制：是
 
 ```csharp
 public string DetectionMethod { get; set; }

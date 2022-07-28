@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/id/
 ---
 ## Record.Id property
 
-获取或设置审计记录的唯一标识符。 强制:是
+获取或设置审计记录的唯一标识符。 强制：是
 
 ```csharp
 public Guid Id { get; set; }

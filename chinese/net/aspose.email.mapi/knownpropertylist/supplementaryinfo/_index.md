@@ -1,14 +1,14 @@
 ---
 title: SupplementaryInfo
 second_title: Aspose.Email for .NET API 参考
-description: 包含有关传送状态通知的补充信息如 RFC3464 中所指定 区域电子邮件 规范名称PidTagSupplementaryInfo 别名PR_SUPPLEMENTARY_INFO ptagSupplementaryInfo
+description: 包含有关传递状态通知的补充信息如 RFC3464 中所指定 区域Email 规范名称PidTagSupplementaryInfo 替代名称PR_SUPPLEMENTARY_INFOptagSupplementaryInfo
 type: docs
 weight: 18400
 url: /zh/net/aspose.email.mapi/knownpropertylist/supplementaryinfo/
 ---
 ## KnownPropertyList.SupplementaryInfo field
 
-包含有关传送状态通知的补充信息，如 [RFC3464] 中所指定。 区域:电子邮件 规范名称:PidTagSupplementaryInfo 别名:PR_SUPPLEMENTARY_INFO, ptagSupplementaryInfo
+包含有关传递状态通知的补充信息，如 [RFC3464] 中所指定。 区域：Email 规范名称：PidTagSupplementaryInfo 替代名称：PR_SUPPLEMENTARY_INFO、ptagSupplementaryInfo
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SupplementaryInfo;

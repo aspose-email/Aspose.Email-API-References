@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API 参考
-description: 作为 Msg 保存到指定的流
+description: 作为 Msg. 保存到指定的流
 type: docs
 weight: 350
 url: /zh/net/aspose.email.mapi/mapimessage/save/
 ---
 ## Save(Stream) {#save}
 
-作为 Msg 保存到指定的流。
+作为 Msg. 保存到指定的流
 
 ```csharp
 public void Save(Stream stream)
@@ -28,7 +28,7 @@ public void Save(Stream stream)
 
 ## Save(string, SaveOptions) {#save_3}
 
-将消息保存为带有附加选项的文件。
+将消息另存为带有附加选项的文件。
 
 ```csharp
 public void Save(string fileName, SaveOptions options)
@@ -37,7 +37,7 @@ public void Save(string fileName, SaveOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 保存消息的流。 |
-| options | SaveOptions | 保存的附加选项[`SaveOptions`](../../../aspose.email/saveoptions)。 |
+| options | SaveOptions | 其他保存选项[`SaveOptions`](../../../aspose.email/saveoptions). |
 
 ### 也可以看看
 
@@ -59,7 +59,7 @@ public void Save(Stream stream, SaveOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 保存消息的流。 |
-| options | SaveOptions | 保存的附加选项[`SaveOptions`](../../../aspose.email/saveoptions)。 |
+| options | SaveOptions | 其他保存选项[`SaveOptions`](../../../aspose.email/saveoptions). |
 
 ### 也可以看看
 
@@ -80,7 +80,7 @@ public void Save(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 
 ### 也可以看看
 

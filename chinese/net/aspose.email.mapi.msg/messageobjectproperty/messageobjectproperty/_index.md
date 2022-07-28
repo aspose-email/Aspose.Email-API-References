@@ -1,14 +1,14 @@
 ---
 title: MessageObjectProperty
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MessageObjectPropertyaspose.email.mapi.msg/messageobjectproperty类的新实例
+description: 初始化MessageObjectPropertyaspose.email.mapi.msg/messageobjectproperty类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi.msg/messageobjectproperty/messageobjectproperty/
 ---
 ## MessageObjectProperty(long, MapiPropertyFlags, object) {#constructor_1}
 
-初始化[`MessageObjectProperty`](../../messageobjectproperty)类的新实例。
+初始化[`MessageObjectProperty`](../../messageobjectproperty)类.
 
 ```csharp
 public MessageObjectProperty(long propertyTag, MapiPropertyFlags flags, object value)
@@ -18,13 +18,13 @@ public MessageObjectProperty(long propertyTag, MapiPropertyFlags flags, object v
 | --- | --- | --- |
 | propertyTag | Int64 | 属性标记。 |
 | flags | MapiPropertyFlags | 要设置的标志。 |
-| value | Object | 属性的值。 |
+| value | Object | 财产的价值。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*value*为空。 |
+| ArgumentNullException | 如果*value*一片空白。 |
 | InvalidEnumArgumentException | 如果*propertyTag*包含无效的类型定义。” |
 
 ### 也可以看看
@@ -38,7 +38,7 @@ public MessageObjectProperty(long propertyTag, MapiPropertyFlags flags, object v
 
 ## MessageObjectProperty(int, MapiType, MapiPropertyFlags, object) {#constructor}
 
-初始化[`MessageObjectProperty`](../../messageobjectproperty)类的新实例。
+初始化[`MessageObjectProperty`](../../messageobjectproperty)类.
 
 ```csharp
 public MessageObjectProperty(int id, MapiType type, MapiPropertyFlags flags, object value)
@@ -46,17 +46,17 @@ public MessageObjectProperty(int id, MapiType type, MapiPropertyFlags flags, obj
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | Int32 | id。 |
+| id | Int32 | 身份证。 |
 | type | MapiType | 属性的类型。 |
 | flags | MapiPropertyFlags | 要设置的标志。 |
-| value | Object | 属性的值。 |
+| value | Object | 财产的价值。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*value*为空。 |
-| InvalidEnumArgumentException | 如果*type*无效。” |
+| ArgumentNullException | 如果*value*一片空白。 |
+| InvalidEnumArgumentException | 如果*type*是无效的。” |
 
 ### 也可以看看
 

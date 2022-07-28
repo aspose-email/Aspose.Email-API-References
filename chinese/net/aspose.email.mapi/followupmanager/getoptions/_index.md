@@ -16,17 +16,17 @@ public static FollowUpOptions GetOptions(MapiMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)在其中设置了选项。 |
+| message | MapiMessage | 的[`MapiMessage`](../../mapimessage)在其中设置了选项。 |
 
 ### 返回值
 
-[`FollowUpOptions`](../../followupoptions)表示使用 后续标志、提醒、类别和投票按钮的选项。
+的[`FollowUpOptions`](../../followupoptions)表示使用 后续标志、提醒、类别和投票按钮的选项。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 
 ### 也可以看看
 

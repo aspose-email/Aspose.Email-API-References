@@ -20,7 +20,7 @@ public enum ServerType
 | --- | --- | --- |
 | None | `0` | 未定义 |
 | MobileSync | `1` | 表示客户端可以访问由 URL 元素（第 2.2.3.172 节）返回的 URL。 |
-| CertEnroll | `2` | 表示客户端可以访问该URL元素返回的URL，以获得用于安全套接字层（SSL）协商的客户端证书。 |
+| CertEnroll | `2` | 表示客户端可以访问该 URL 元素返回的 URL，以获取用于安全套接字层 (SSL) 协商的客户端证书。 |
 
 ### 也可以看看
 

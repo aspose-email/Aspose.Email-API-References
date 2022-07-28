@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会或会议组织者的 SMTP 电子邮件别名 区域电子邮件 规范名称PidNameFrom 备用名称urnschemascalendarorganizer
+description: 指定约会或会议组织者的 SMTP 电子邮件别名 区域Email 规范名称PidNameFrom 备用名称urnschemascalendarorganizer
 type: docs
 weight: 10710
 url: /zh/net/aspose.email.mapi/knownpropertylist/from/
 ---
 ## KnownPropertyList.From field
 
-指定约会或会议组织者的 SMTP 电子邮件别名。 区域:电子邮件 规范名称:PidNameFrom 备用名称:urn:schemas:calendar:organizer
+指定约会或会议组织者的 SMTP 电子邮件别名。 区域：Email 规范名称：PidNameFrom 备用名称：urn:schemas:calendar:organizer
 
 ```csharp
 public static readonly PidNamePropertyDescriptor From;

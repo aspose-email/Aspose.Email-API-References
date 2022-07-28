@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/attachtag/
 ---
 ## KnownPropertyList.AttachTag field
 
-包含提供附件对象数据的应用程序的标识符信息。 区域:消息附件属性 规范名称:PidTagAttachTag 备用名称:PR_ATTACH_TAG
+包含提供附件对象数据的应用程序的标识符信息。 区域：消息附件属性 规范名称：PidTagAttachTag 备用名称：PR_ATTACH_TAG
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachTag;

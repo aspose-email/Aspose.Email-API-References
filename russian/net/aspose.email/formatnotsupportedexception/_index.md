@@ -1,14 +1,14 @@
 ---
 title: FormatNotSupportedException
 second_title: Справочник по Aspose.Email для .NET API
-description: Исключение возникающее при загрузке документа когда формат документа не распознается или не поддерживается компонентом .
+description: Исключение возникающее при загрузке документа  когда формат документа не распознан или не поддерживается компонентом.
 type: docs
 weight: 17480
 url: /ru/net/aspose.email/formatnotsupportedexception/
 ---
 ## FormatNotSupportedException class
 
-Исключение, возникающее при загрузке документа, когда формат документа не распознается или не поддерживается компонентом .
+Исключение, возникающее при загрузке документа, , когда формат документа не распознан или не поддерживается компонентом.
 
 ```csharp
 public class FormatNotSupportedException : AsposeException
@@ -18,9 +18,9 @@ public class FormatNotSupportedException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [FormatNotSupportedException](formatnotsupportedexception#constructor)() | Инициализирует новый экземпляр класса[`FormatNotSupportedException`](../formatnotsupportedexception). |
-| [FormatNotSupportedException](formatnotsupportedexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`FormatNotSupportedException`](../formatnotsupportedexception)с указанным сообщением об ошибке. |
-| [FormatNotSupportedException](formatnotsupportedexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`FormatNotSupportedException`](../formatnotsupportedexception)с указанным сообщением об ошибке. |
+| [FormatNotSupportedException](formatnotsupportedexception#constructor)() | Инициализирует новый экземпляр[`FormatNotSupportedException`](../formatnotsupportedexception) класс. |
+| [FormatNotSupportedException](formatnotsupportedexception#constructor_1)(string) | Инициализирует новый экземпляр[`FormatNotSupportedException`](../formatnotsupportedexception) класс с указанным сообщением об ошибке. |
+| [FormatNotSupportedException](formatnotsupportedexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`FormatNotSupportedException`](../formatnotsupportedexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

@@ -1,14 +1,14 @@
 ---
 title: Role
 second_title: Aspose.Email for .NET API 参考
-description: 分配给作用域的角色
+description: 分配给范围的角色
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.google/accesscontrolrule/role/
 ---
 ## AccessControlRule.Role property
 
-分配给作用域的角色。
+分配给范围的角色。
 
 ```csharp
 public AccessRole Role { get; set; }

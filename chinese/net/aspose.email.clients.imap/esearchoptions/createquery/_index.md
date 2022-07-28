@@ -16,7 +16,7 @@ public MailQuery CreateQuery(MailQueryBuilder owner)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| owner | MailQueryBuilder | owner |
+| owner | MailQueryBuilder | 所有者 |
 
 ### 返回值
 

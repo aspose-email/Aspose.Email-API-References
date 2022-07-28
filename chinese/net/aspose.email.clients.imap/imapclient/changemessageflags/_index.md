@@ -16,7 +16,7 @@ public void ChangeMessageFlags(string uniqueId, ImapMessageFlags flags)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 的 uid消息 |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
 
 ### 也可以看看
@@ -38,7 +38,7 @@ public void ChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
 
 ### 也可以看看
@@ -52,7 +52,7 @@ public void ChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags)
 
 ## ChangeMessageFlags(IConnection, string, ImapMessageFlags) {#changemessageflags_10}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, string uniqueId, ImapMessageFlags flags)
@@ -61,7 +61,7 @@ public void ChangeMessageFlags(IConnection connection, string uniqueId, ImapMess
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
 
 ### 也可以看看
@@ -76,7 +76,7 @@ public void ChangeMessageFlags(IConnection connection, string uniqueId, ImapMess
 
 ## ChangeMessageFlags(IConnection, int, ImapMessageFlags) {#changemessageflags}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags)
@@ -85,7 +85,7 @@ public void ChangeMessageFlags(IConnection connection, int sequenceNumber, ImapM
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
 
 ### 也可以看看
@@ -108,9 +108,9 @@ public void ChangeMessageFlags(string uniqueId, ImapMessageFlags flags, long mod
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 的 uid message |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -132,9 +132,9 @@ public void ChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -147,7 +147,7 @@ public void ChangeMessageFlags(int sequenceNumber, ImapMessageFlags flags,
 
 ## ChangeMessageFlags(IConnection, string, ImapMessageFlags, long) {#changemessageflags_11}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, string uniqueId, ImapMessageFlags flags, 
@@ -157,9 +157,9 @@ public void ChangeMessageFlags(IConnection connection, string uniqueId, ImapMess
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -173,7 +173,7 @@ public void ChangeMessageFlags(IConnection connection, string uniqueId, ImapMess
 
 ## ChangeMessageFlags(IConnection, int, ImapMessageFlags, long) {#changemessageflags_1}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, int sequenceNumber, ImapMessageFlags flags, 
@@ -183,9 +183,9 @@ public void ChangeMessageFlags(IConnection connection, int sequenceNumber, ImapM
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -207,9 +207,9 @@ public void ChangeMessageFlags(string startUid, string endUid, ImapMessageFlags 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 的起始 UID消息列表 |
+| startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| flags | ImapMessageFlags | 要成为的标志更改 |
+| flags | ImapMessageFlags | 要更改的标志 |
 
 ### 也可以看看
 
@@ -230,9 +230,9 @@ public void ChangeMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 起始序列号消息列表 |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| flags | ImapMessageFlags | 标志待删除 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| flags | ImapMessageFlags | 要删除的标志 |
 
 ### 也可以看看
 
@@ -245,7 +245,7 @@ public void ChangeMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 ## ChangeMessageFlags(IConnection, string, string, ImapMessageFlags) {#changemessageflags_12}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, string startUid, string endUid, 
@@ -271,7 +271,7 @@ public void ChangeMessageFlags(IConnection connection, string startUid, string e
 
 ## ChangeMessageFlags(IConnection, int, int, ImapMessageFlags) {#changemessageflags_2}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, int startSequence, int endSequence, 
@@ -281,8 +281,8 @@ public void ChangeMessageFlags(IConnection connection, int startSequence, int en
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startSequence | Int32 | 消息列表的起始序列号 |
-| endSequence | Int32 | 消息列表的结束序列号消息列表 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
 
 ### 也可以看看
@@ -306,10 +306,10 @@ public void ChangeMessageFlags(string startUid, string endUid, ImapMessageFlags 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 的起始 UID消息列表 |
+| startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| flags | ImapMessageFlags | 要成为的标志更改 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | 要更改的标志 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -331,10 +331,10 @@ public void ChangeMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 起始序列号消息列表 |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| flags | ImapMessageFlags | 标志待删除 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| flags | ImapMessageFlags | 要删除的标志 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -347,7 +347,7 @@ public void ChangeMessageFlags(int startSequence, int endSequence, ImapMessageFl
 
 ## ChangeMessageFlags(IConnection, string, string, ImapMessageFlags, long) {#changemessageflags_13}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, string startUid, string endUid, 
@@ -360,7 +360,7 @@ public void ChangeMessageFlags(IConnection connection, string startUid, string e
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -374,7 +374,7 @@ public void ChangeMessageFlags(IConnection connection, string startUid, string e
 
 ## ChangeMessageFlags(IConnection, int, int, ImapMessageFlags, long) {#changemessageflags_3}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, int startSequence, int endSequence, 
@@ -384,10 +384,10 @@ public void ChangeMessageFlags(IConnection connection, int startSequence, int en
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startSequence | Int32 | 消息列表的起始序列号 |
-| endSequence | Int32 | 消息列表的结束序列号消息列表 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -409,7 +409,7 @@ public void ChangeMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flag
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uidSet | IEnumerable`1 | UID 的集合对于消息 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
 
 ### 也可以看看
@@ -423,7 +423,7 @@ public void ChangeMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flag
 
 ## ChangeMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags) {#changemessageflags_20}
 
-改变消息的标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags)
@@ -431,7 +431,7 @@ public void ChangeMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags fl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | 序列的集合消息编号 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
 
 ### 也可以看看
@@ -445,7 +445,7 @@ public void ChangeMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags fl
 
 ## ChangeMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#changemessageflags_8}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, IEnumerable<string> uidSet, 
@@ -470,7 +470,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<string> uidSe
 
 ## ChangeMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#changemessageflags_6}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -504,9 +504,9 @@ public void ChangeMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flag
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uidSet | IEnumerable`1 | UID 的集合对于消息 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -519,7 +519,7 @@ public void ChangeMessageFlags(IEnumerable<string> uidSet, ImapMessageFlags flag
 
 ## ChangeMessageFlags(IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#changemessageflags_21}
 
-改变消息的标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
@@ -528,9 +528,9 @@ public void ChangeMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags fl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | 序列的集合消息编号 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -543,7 +543,7 @@ public void ChangeMessageFlags(IEnumerable<int> sequenceSet, ImapMessageFlags fl
 
 ## ChangeMessageFlags(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#changemessageflags_9}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, IEnumerable<string> uidSet, 
@@ -555,7 +555,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<string> uidSe
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -569,7 +569,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<string> uidSe
 
 ## ChangeMessageFlags(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#changemessageflags_7}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -581,7 +581,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<int> sequence
 | connection | IConnection | 连接到服务器 |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -618,7 +618,7 @@ public void ChangeMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, Imap
 
 ## ChangeMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#changemessageflags_4}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
@@ -628,7 +628,7 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<ImapMessageIn
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
 
 ### 也可以看看
@@ -655,7 +655,7 @@ public void ChangeMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, Imap
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -669,7 +669,7 @@ public void ChangeMessageFlags(IEnumerable<ImapMessageInfo> messageInfoSet, Imap
 
 ## ChangeMessageFlags(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#changemessageflags_5}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public void ChangeMessageFlags(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
@@ -679,9 +679,9 @@ public void ChangeMessageFlags(IConnection connection, IEnumerable<ImapMessageIn
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 

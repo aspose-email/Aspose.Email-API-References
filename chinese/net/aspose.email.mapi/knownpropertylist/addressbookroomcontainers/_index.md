@@ -1,14 +1,14 @@
 ---
 title: AddressBookRoomContainers
 second_title: Aspose.Email for .NET API 参考
-description: 包含代表地址簿容器的 DN 列表这些容器包含资源对象例如会议室和设备 区域地址簿 规范名称PidTagAddressBookRoomContainers 替代名称PR_EMS_AB_ROOM_CONTAINERSPR_EMS_AB_ROOM_CONTAINERS_APR_EMS_AB_ROOM_CONTAINERS_W
+description: 包含代表地址簿容器的 DN 列表这些容器包含资源对象例如会议室和设备 区域地址簿 规范名称PidTagAddressBookRoomContainers 备用名称PR_EMS_AB_ROOM_CONTAINERSPR_EMS_AB_ROOM_CONTAINERS_APR_EMS_AB_ROOM_CONTAINERS_W
 type: docs
 weight: 940
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookroomcontainers/
 ---
 ## KnownPropertyList.AddressBookRoomContainers field
 
-包含代表地址簿容器的 DN 列表，这些容器包含资源对象，例如会议室和设备。 区域:地址簿 规范名称:PidTagAddressBookRoomContainers 替代名称:PR_EMS_AB_ROOM_CONTAINERS、PR_EMS_AB_ROOM_CONTAINERS_A、PR_EMS_AB_ROOM_CONTAINERS_W
+包含代表地址簿容器的 DN 列表，这些容器包含资源对象，例如会议室和设备。 区域：地址簿 规范名称：PidTagAddressBookRoomContainers 备用名称：PR_EMS_AB_ROOM_CONTAINERS、PR_EMS_AB_ROOM_CONTAINERS_A、PR_EMS_AB_ROOM_CONTAINERS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookRoomContainers;

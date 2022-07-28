@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/receivedrepresentingname/
 ---
 ## KnownPropertyList.ReceivedRepresentingName field
 
-包含由接收邮箱所有者表示的最终用户的显示名称。 区域:地址属性 规范名称:PidTagReceivedRepresentingName 替代名称:PR_RCVD_REPRESENTING_NAME、PR_RCVD_REPRESENTING_NAME_A、ptagRcvdRepresentingName、PR_RCVD_REPRESENTING_NAME_W
+包含由接收邮箱所有者表示的最终用户的显示名称。 区域：地址属性 规范名称：PidTagReceivedRepresentingName 替代名称：PR_RCVD_REPRESENTING_NAME、PR_RCVD_REPRESENTING_NAME_A、ptagRcvdRepresentingName、PR_RCVD_REPRESENTING_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedRepresentingName;

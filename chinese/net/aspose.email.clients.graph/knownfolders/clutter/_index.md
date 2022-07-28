@@ -1,14 +1,14 @@
 ---
 title: Clutter
 second_title: Aspose.Email for .NET API 参考
-description: 使用杂乱功能时杂乱文件夹低优先级邮件被移动到
+description: 使用杂乱功能时将低优先级邮件移动到杂乱文件夹
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.graph/knownfolders/clutter/
 ---
 ## KnownFolders.Clutter field
 
-使用杂乱功能时，杂乱文件夹低优先级邮件被移动到。
+使用杂乱功能时，将低优先级邮件移动到杂乱文件夹。
 
 ```csharp
 public static readonly string Clutter;

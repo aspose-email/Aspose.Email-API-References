@@ -1,14 +1,14 @@
 ---
 title: ReceivedBySmtpAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含电子邮件消息接收者的 SMTP 电子邮件地址 区域邮件 规范名称PidTagReceivedBySmtpAddress 备用名称ptagRecipientRcvdBySmtpAddress
+description: 包含电子邮件消息接收者的 SMTP 电子邮件地址 区域Mail 规范名称PidTagReceivedBySmtpAddress 替代名称ptagRecipientRcvdBySmtpAddress
 type: docs
 weight: 15320
 url: /zh/net/aspose.email.mapi/knownpropertylist/receivedbysmtpaddress/
 ---
 ## KnownPropertyList.ReceivedBySmtpAddress field
 
-包含电子邮件消息接收者的 SMTP 电子邮件地址。 区域:邮件 规范名称:PidTagReceivedBySmtpAddress 备用名称:ptagRecipientRcvdBySmtpAddress
+包含电子邮件消息接收者的 SMTP 电子邮件地址。 区域：Mail 规范名称：PidTagReceivedBySmtpAddress 替代名称：ptagRecipientRcvdBySmtpAddress
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedBySmtpAddress;

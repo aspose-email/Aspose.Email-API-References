@@ -20,7 +20,7 @@ public MapiContact[] ListContacts(string folderUri)
 
 ### 返回值
 
-读取数组[`MapiContact`](../../../aspose.email.mapi/mapicontact)表示联系信息
+读取数组[`MapiContact`](../../../aspose.email.mapi/mapicontact)代表联系信息
 
 ### 也可以看看
 

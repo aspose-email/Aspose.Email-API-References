@@ -1,14 +1,14 @@
 ---
 title: CalendarAssistant
 second_title: Aspose.Email for .NET API 参考
-description: 区域名称日历 属性集名称PSETID_CalendarAssistant
+description: 区域名称Calendar 属性集名称PSETID_CalendarAssistant
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/knownpropertysets/calendarassistant/
 ---
 ## KnownPropertySets.CalendarAssistant field
 
-区域名称:日历 属性集名称:PSETID_CalendarAssistant
+区域名称：Calendar 属性集名称：PSETID_CalendarAssistant
 
 ```csharp
 public static readonly Guid CalendarAssistant;

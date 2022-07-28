@@ -1,14 +1,14 @@
 ---
 title: FetchMapiTasks
 second_title: Aspose.Email for .NET API 参考
-description: 获取MapiTaskaspose.email.mapi/mapitask对象的数组
+description: 获取数组MapiTaskaspose.email.mapi/mapitask对象.
 type: docs
 weight: 800
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapitasks/
 ---
 ## FetchMapiTasks(IEnumerable&lt;string&gt;) {#fetchmapitasks}
 
-获取[`MapiTask`](../../../aspose.email.mapi/mapitask)对象的数组。
+获取数组[`MapiTask`](../../../aspose.email.mapi/mapitask)对象.
 
 ```csharp
 public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris)
@@ -20,7 +20,7 @@ public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris)
 
 ### 返回值
 
-获取[`MapiTask`](../../../aspose.email.mapi/mapitask)对象的数组。
+获取数组[`MapiTask`](../../../aspose.email.mapi/mapitask)对象。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris)
 
 ## FetchMapiTasks(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapitasks_1}
 
-获取[`MapiTask`](../../../aspose.email.mapi/mapitask)对象的数组。
+获取数组[`MapiTask`](../../../aspose.email.mapi/mapitask)对象.
 
 ```csharp
 public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris, 
@@ -47,7 +47,7 @@ public IList<MapiTask> FetchMapiTasks(IEnumerable<string> taskUris,
 
 ### 返回值
 
-获取[`MapiTask`](../../../aspose.email.mapi/mapitask)对象的数组。
+获取数组[`MapiTask`](../../../aspose.email.mapi/mapitask)对象。
 
 ### 也可以看看
 

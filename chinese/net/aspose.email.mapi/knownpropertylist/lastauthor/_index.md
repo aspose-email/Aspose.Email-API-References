@@ -1,14 +1,14 @@
 ---
 title: LastAuthor
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的最新作者 区域普通 规范名称PidNameLastAuthor 备用名称urnschemas-microsoft-comofficeofficeLastAuthor
+description: 指定附加到文档对象的文件的最新作者 区域Common 规范名称PidNameLastAuthor 备用名称urnschemas-microsoft-comofficeofficeLastAuthor
 type: docs
 weight: 11970
 url: /zh/net/aspose.email.mapi/knownpropertylist/lastauthor/
 ---
 ## KnownPropertyList.LastAuthor field
 
-指定附加到 Document 对象的文件的最新作者。 区域：普通 规范名称：PidNameLastAuthor 备用名称：urn:schemas-microsoft-com:office:office#LastAuthor
+指定附加到文档对象的文件的最新作者。 区域：Common 规范名称：PidNameLastAuthor 备用名称：urn:schemas-microsoft-com:office:office#LastAuthor
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LastAuthor;

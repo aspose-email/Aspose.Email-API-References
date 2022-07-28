@@ -1,14 +1,14 @@
 ---
 title: GetSchema
 second_title: Aspose.Email for .NET API 参考
-description: 此方法保留不应使用实现 IXmlSerializable 接口时您应该从此方法返回 null在 Visual Basic 中为 Nothing如果需要指定自定义架构则应用XmlSchemaProviderAttribute到班级
+description: 此方法已保留不应使用在实现 IXmlSerializable 接口时您应该从此方法返回 null在 Visual Basic 中为 Nothing如果需要指定自定义架构则应用XmlSchemaProviderAttribute上课.
 type: docs
 weight: 50
 url: /zh/net/aspose.email.tools.search/mailquery/getschema/
 ---
 ## MailQuery.GetSchema method
 
-此方法保留，不应使用。实现 IXmlSerializable 接口时，您应该从此方法返回 null（在 Visual Basic 中为 Nothing），如果需要指定自定义架构，则应用XmlSchemaProviderAttribute到班级。
+此方法已保留，不应使用。在实现 IXmlSerializable 接口时，您应该从此方法返回 null（在 Visual Basic 中为 Nothing），如果需要指定自定义架构，则应用XmlSchemaProviderAttribute上课.
 
 ```csharp
 public XmlSchema GetSchema()
@@ -16,7 +16,7 @@ public XmlSchema GetSchema()
 
 ### 返回值
 
-一个XmlSchema描述由XmlWriter)方法生成并由XmlReader)方法。
+一个XmlSchema描述由XmlWriter)方法和消耗的XmlReader)方法.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ContentCorrelator
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_CONTENT_CORRELATOR
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_CONTENT_CORRELATOR
 type: docs
 weight: 3180
 url: /zh/net/aspose.email.mapi/knownpropertylist/contentcorrelator/
 ---
 ## KnownPropertyList.ContentCorrelator field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_CONTENT_CORRELATOR
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_CONTENT_CORRELATOR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentCorrelator;

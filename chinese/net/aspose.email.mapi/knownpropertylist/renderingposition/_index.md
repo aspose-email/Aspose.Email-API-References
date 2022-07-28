@@ -1,14 +1,14 @@
 ---
 title: RenderingPosition
 second_title: Aspose.Email for .NET API 参考
-description: 表示在呈现的字符中的偏移量用于在主消息文本中呈现附件时使用 区域MapiAttachment 规范名称PidTagRenderingPosition 替代名称PR_RENDERING_POSITION ptagRenderingPosition
+description: 表示在呈现的字符中的偏移量用于在主消息文本中呈现附件时使用 区域MapiAttachment 规范名称PidTagRenderingPosition 替代名称PR_RENDERING_POSITIONptagRenderingPosition
 type: docs
 weight: 15830
 url: /zh/net/aspose.email.mapi/knownpropertylist/renderingposition/
 ---
 ## KnownPropertyList.RenderingPosition field
 
-表示在呈现的字符中的偏移量，用于在主消息文本中呈现附件时使用。 区域:MapiAttachment 规范名称:PidTagRenderingPosition 替代名称:PR_RENDERING_POSITION, ptagRenderingPosition
+表示在呈现的字符中的偏移量，用于在主消息文本中呈现附件时使用。 区域：MapiAttachment 规范名称：PidTagRenderingPosition 替代名称：PR_RENDERING_POSITION、ptagRenderingPosition
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RenderingPosition;

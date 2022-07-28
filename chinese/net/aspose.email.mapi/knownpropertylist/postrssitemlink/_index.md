@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/postrssitemlink/
 ---
 ## KnownPropertyList.PostRssItemLink field
 
-包含来自 RSS 或 Atom 项目的链接的 URL。 区域:RSS 规范名称:PidLidPostRssItemLink 替代名称:dispidPostRssItemLink
+包含来自 RSS 或 Atom 项目的链接的 URL。 区域：RSS 规范名称：PidLidPostRssItemLink 替代名称：dispidPostRssItemLink
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssItemLink;

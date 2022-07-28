@@ -1,14 +1,14 @@
 ---
 title: DateTime
 second_title: Aspose.Email for .NET API 参考
-description: DateTime 标头
+description: 日期时间标头
 type: docs
 weight: 50
 url: /zh/net/aspose.email/mhttemplatename/datetime/
 ---
 ## MhtTemplateName.DateTime field
 
-DateTime 标头。
+日期时间标头。
 
 ```csharp
 public const string DateTime;

@@ -1,14 +1,14 @@
 ---
 title: ContactLinkedGlobalAddressListEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 指定重复联系人链接到的 GAL 联系人的 EntryID 区域联系人属性 规范名称PidLidContactLinkedGlobalAddressListEntryId 备用名称dispidContactLinkedGALEntryID
+description: 指定重复联系人链接到的 GAL 联系人的 EntryID 区域Contact Properties 规范名称PidLidContactLinkedGlobalAddressListEntryId 替代名称dispidContactLinkedGALEntryID
 type: docs
 weight: 2960
 url: /zh/net/aspose.email.mapi/knownpropertylist/contactlinkedglobaladdresslistentryid/
 ---
 ## KnownPropertyList.ContactLinkedGlobalAddressListEntryId field
 
-指定重复联系人链接到的 GAL 联系人的 EntryID。 区域:联系人属性 规范名称:PidLidContactLinkedGlobalAddressListEntryId 备用名称:dispidContactLinkedGALEntryID
+指定重复联系人链接到的 GAL 联系人的 EntryID。 区域：Contact Properties 规范名称：PidLidContactLinkedGlobalAddressListEntryId 替代名称：dispidContactLinkedGALEntryID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkedGlobalAddressListEntryId;

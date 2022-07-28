@@ -1,14 +1,14 @@
 ---
 title: IsBodyHtml
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示 消息体是否为 Html
+description: 获取或设置一个值指示 消息体是否在Html 中
 type: docs
 weight: 160
 url: /zh/net/aspose.email/mailmessage/isbodyhtml/
 ---
 ## MailMessage.IsBodyHtml property
 
-获取或设置一个值，该值指示 消息体是否为 Html
+获取或设置一个值，指示 消息体是否在Html 中
 
 ```csharp
 public virtual bool IsBodyHtml { get; set; }

@@ -16,7 +16,7 @@ public MapiMessage ExtractMessage(MessageInfo messageInfo)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfo | MessageInfo | 表示消息信息的 MessageInfo 对象。 |
+| messageInfo | MessageInfo | 一个 MessageInfo 对象， 表示有关消息的信息。 |
 
 ### 返回值
 
@@ -42,7 +42,7 @@ public MapiMessage ExtractMessage(byte[] entryId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entryId | Byte[] | 消息的EntryId。 |
+| entryId | Byte[] | 消息的 EntryId。 |
 
 ### 返回值
 
@@ -67,7 +67,7 @@ public MapiMessage ExtractMessage(string entryId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entryId | String | EntryId 的字符串表示形式。 |
+| entryId | String | EntryId. 的字符串表示 |
 
 ### 返回值
 

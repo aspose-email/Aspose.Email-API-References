@@ -1,14 +1,14 @@
 ---
 title: RowType
 second_title: Aspose.Email for .NET API 参考
-description: 标识行的类型 区域MapiNonTransmittable 规范名称PidTagRowType 替代名称PR_ROW_TYPE ptagRowType
+description: 标识行的类型 区域MapiNonTransmittable 规范名称PidTagRowType 备用名称PR_ROW_TYPEptagRowType
 type: docs
 weight: 16350
 url: /zh/net/aspose.email.mapi/knownpropertylist/rowtype/
 ---
 ## KnownPropertyList.RowType field
 
-标识行的类型。 区域:MapiNonTransmittable 规范名称:PidTagRowType 替代名称:PR_ROW_TYPE, ptagRowType
+标识行的类型。 区域：MapiNonTransmittable 规范名称：PidTagRowType 备用名称：PR_ROW_TYPE、ptagRowType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RowType;

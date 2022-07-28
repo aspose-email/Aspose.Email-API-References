@@ -16,7 +16,7 @@ public override MailMessage ReadNextMessage()
 
 ### 返回值
 
-A[`MailMessage`](../../../aspose.email/mailmessage)对象（如果可以）被读取或 **null** 如果没有更多消息可用。
+一个[`MailMessage`](../../../aspose.email/mailmessage)对象是否可以读取或 **无效的**如果没有更多消息可用。
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public override MailMessage ReadNextMessage(out string fromMarker)
 
 ### 返回值
 
-A[`MailMessage`](../../../aspose.email/mailmessage)对象（如果可以读取）或 **null** 如果没有更多消息可用。
+一个[`MailMessage`](../../../aspose.email/mailmessage)对象是否可以读取或 **无效的**如果没有更多消息可用。
 
 ### 也可以看看
 

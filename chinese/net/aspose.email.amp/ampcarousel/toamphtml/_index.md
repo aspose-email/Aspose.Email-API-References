@@ -1,14 +1,14 @@
 ---
 title: ToAmpHtml
 second_title: Aspose.Email for .NET API 参考
-description: 表示组件的 amp html 版本
+description: 代表 amp html 版本的组件
 type: docs
 weight: 50
 url: /zh/net/aspose.email.amp/ampcarousel/toamphtml/
 ---
 ## AmpCarousel.ToAmpHtml method
 
-表示组件的 amp html 版本。
+代表 amp html 版本的组件。
 
 ```csharp
 public override string ToAmpHtml()

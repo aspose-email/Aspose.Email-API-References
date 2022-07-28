@@ -40,7 +40,7 @@ public static RSACryptoServiceProvider GetPrivateKey(string path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 要读取的文件路径。 |
+| path | String | 要读取的文件的路径。 |
 
 ### 返回值
 

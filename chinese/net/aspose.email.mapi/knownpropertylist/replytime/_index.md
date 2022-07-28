@@ -1,14 +1,14 @@
 ---
 title: ReplyTime
 second_title: Aspose.Email for .NET API 参考
-description: 指定发送者指定的相关工作项到期的时间以 UTC 为单位 区域MapiEnvelope 规范名称PidTagReplyTime 备用名称PR_REPLY_TIME urnschemashttpmailreply-by
+description: 以 UTC 格式指定发件人为相关工作项指定的到期时间 区域MapiEnvelope 规范名称PidTagReplyTime 替代名称PR_REPLY_TIME urnschemashttpmailreply-by
 type: docs
 weight: 15970
 url: /zh/net/aspose.email.mapi/knownpropertylist/replytime/
 ---
 ## KnownPropertyList.ReplyTime field
 
-指定发送者指定的相关工作项到期的时间（以 UTC 为单位）。 区域:MapiEnvelope 规范名称:PidTagReplyTime 备用名称:PR_REPLY_TIME, urn:schemas:httpmail:reply-by,
+以 UTC 格式指定发件人为相关工作项指定的到期时间。 区域：MapiEnvelope 规范名称：PidTagReplyTime 替代名称：PR_REPLY_TIME, urn:schemas:httpmail:reply-by,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyTime;

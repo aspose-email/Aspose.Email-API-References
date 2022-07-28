@@ -1,14 +1,14 @@
 ---
 title: ReplyTemplateId
 second_title: Aspose.Email for .NET API 参考
-description: 包含指向回复模板的 GUID 的值 区域规则 规范名称PidTagReplyTemplateId 备用名称PR_REPLY_TEMPLATE_ID ptagReplyTemplateId
+description: 包含指向回复模板的 GUID 的值 区域Rules 规范名称PidTagReplyTemplateId 备用名称PR_REPLY_TEMPLATE_IDptagReplyTemplateId
 type: docs
 weight: 15960
 url: /zh/net/aspose.email.mapi/knownpropertylist/replytemplateid/
 ---
 ## KnownPropertyList.ReplyTemplateId field
 
-包含指向回复模板的 GUID 的值。 区域:规则 规范名称:PidTagReplyTemplateId 备用名称:PR_REPLY_TEMPLATE_ID, ptagReplyTemplateId
+包含指向回复模板的 GUID 的值。 区域：Rules 规范名称：PidTagReplyTemplateId 备用名称：PR_REPLY_TEMPLATE_ID、ptagReplyTemplateId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyTemplateId;

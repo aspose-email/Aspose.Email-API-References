@@ -1,14 +1,14 @@
 ---
 title: DestMailboxId
 second_title: Aspose.Email for .NET API 参考
-description: 仅在 CrossMailboxOperations 参数为 True 时设置指定目标邮箱 GUID
+description: 仅在 CrossMailboxOperations 参数为 True 时设置指定目标邮箱 GUID.
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/destmailboxid/
 ---
 ## ExchangeMailboxAuditGroupActivity.DestMailboxId property
 
-仅在 CrossMailboxOperations 参数为 True 时设置。指定目标邮箱 GUID。
+仅在 CrossMailboxOperations 参数为 True 时设置。指定目标邮箱 GUID.
 
 ```csharp
 public string DestMailboxId { get; set; }

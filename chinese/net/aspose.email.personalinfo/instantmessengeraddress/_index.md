@@ -3,7 +3,7 @@ title: InstantMessengerAddress
 second_title: Aspose.Email for .NET API 参考
 description: 代表即时通讯地址
 type: docs
-weight: 19400
+weight: 19430
 url: /zh/net/aspose.email.personalinfo/instantmessengeraddress/
 ---
 ## InstantMessengerAddress class
@@ -27,21 +27,21 @@ public class InstantMessengerAddress : IComparable<InstantMessengerAddress>,
 | --- | --- |
 | [Address](../../aspose.email.personalinfo/instantmessengeraddress/address) { get; set; } | 获取或设置即时通讯地址 |
 | [Category](../../aspose.email.personalinfo/instantmessengeraddress/category) { get; set; } | 获取或设置对象类别 |
-| [Prefered](../../aspose.email.personalinfo/instantmessengeraddress/prefered) { get; set; } | 获取或设置一个值，该值定义是否首选对象。 |
+| [Prefered](../../aspose.email.personalinfo/instantmessengeraddress/prefered) { get; set; } | 获取或设置一个定义对象是否是首选的值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.email.personalinfo/instantmessengeraddress/compareto)(InstantMessengerAddress) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在相同位置之前、之后还是出现在相同位置作为另一个对象。 |
+| [CompareTo](../../aspose.email.personalinfo/instantmessengeraddress/compareto)(InstantMessengerAddress) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在另一个对象之前、之后还是出现在相同位置。 |
 | [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals#equals)(InstantMessengerAddress) | 判断指定Object是否等于当前Object。 |
 | override [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals#equals_2)(object) | 判断指定Object是否等于当前Object。 |
 | [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals#equals_1)(InstantMessengerAddress, InstantMessengerAddress) | 确定指定的对象实例是否被视为相等。 |
 | override [GetHashCode](../../aspose.email.personalinfo/instantmessengeraddress/gethashcode#gethashcode)() | GetHashCode 返回此对象的哈希函数。 |
 | [GetHashCode](../../aspose.email.personalinfo/instantmessengeraddress/gethashcode#gethashcode_1)(InstantMessengerAddress) | GetHashCode 返回指定对象的哈希函数。 |
 | override [ToString](../../aspose.email.personalinfo/instantmessengeraddress/tostring)() | 返回代表当前对象的字符串。 |
-| [operator ==](../../aspose.email.personalinfo/instantmessengeraddress/op_equality) | 判断指定对象是否相等。 |
-| [operator !=](../../aspose.email.personalinfo/instantmessengeraddress/op_inequality) | 判断指定对象是否不相等。 |
+| [operator ==](../../aspose.email.personalinfo/instantmessengeraddress/op_equality) | 判断指定对象是否相等 |
+| [operator !=](../../aspose.email.personalinfo/instantmessengeraddress/op_inequality) | 判断指定的对象是否不相等。 |
 
 ### 也可以看看
 

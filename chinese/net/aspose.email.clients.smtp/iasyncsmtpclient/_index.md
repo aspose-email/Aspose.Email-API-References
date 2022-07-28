@@ -18,9 +18,9 @@ public interface IAsyncSmtpClient : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ForwardAsync](../../aspose.email.clients.smtp/iasyncsmtpclient/forwardasync)(SmtpForward) | 将指定的消息转发给收件人。 |
-| [NoopAsync](../../aspose.email.clients.smtp/iasyncsmtpclient/noopasync)(IConnection, CancellationToken) | 'No operation' 命令 |
-| [SendAsync](../../aspose.email.clients.smtp/iasyncsmtpclient/sendasync)(SmtpSend) | 发送指定消息。 |
+| [ForwardAsync](../../aspose.email.clients.smtp/iasyncsmtpclient/forwardasync)(SmtpForward) | 将指定的邮件转发给收件人。 |
+| [NoopAsync](../../aspose.email.clients.smtp/iasyncsmtpclient/noopasync)(IConnection, CancellationToken) | '无操作' 命令 |
+| [SendAsync](../../aspose.email.clients.smtp/iasyncsmtpclient/sendasync)(SmtpSend) | 发送指定的消息。 |
 | [ValidateCredentialsAsync](../../aspose.email.clients.smtp/iasyncsmtpclient/validatecredentialsasync)(IConnection, CancellationToken) | 执行凭据验证 |
 
 ### 也可以看看

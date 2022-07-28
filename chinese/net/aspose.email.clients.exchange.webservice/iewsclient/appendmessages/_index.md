@@ -16,7 +16,7 @@ public string[] AppendMessages(params MailMessage[] messages)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messages | MailMessage[] | A 信息上传 |
+| messages | MailMessage[] | 要上传的消息 |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public string[] AppendMessages(IEnumerable<MailMessage> messages)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messages | IEnumerable`1 | A 信息上传 |
+| messages | IEnumerable`1 | 要上传的消息 |
 
 ### 返回值
 
@@ -66,12 +66,12 @@ public string[] AppendMessages(string folderUri, params MailMessage[] messages)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 一个文件夹上传消息的 URI。 |
+| folderUri | String | 将消息上传到的文件夹 URI。 |
 | messages | MailMessage[] | 要上传的消息 |
 
 ### 返回值
 
-创建消息的uri列表
+已创建消息的 uri 列表
 
 ### 也可以看看
 
@@ -84,7 +84,7 @@ public string[] AppendMessages(string folderUri, params MailMessage[] messages)
 
 ## AppendMessages(string, IEnumerable&lt;MailMessage&gt;) {#appendmessages_3}
 
-上传邮件到指定文件夹
+将邮件信息上传到指定文件夹
 
 ```csharp
 public string[] AppendMessages(string folderUri, IEnumerable<MailMessage> messages)
@@ -92,12 +92,12 @@ public string[] AppendMessages(string folderUri, IEnumerable<MailMessage> messag
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 一个文件夹上传消息的 URI。 |
+| folderUri | String | 将消息上传到的文件夹 URI。 |
 | messages | IEnumerable`1 | 要上传的消息 |
 
 ### 返回值
 
-创建消息的uri列表
+已创建消息的 uri 列表
 
 ### 也可以看看
 
@@ -110,7 +110,7 @@ public string[] AppendMessages(string folderUri, IEnumerable<MailMessage> messag
 
 ## AppendMessages(string, IEnumerable&lt;MapiMessage&gt;) {#appendmessages_4}
 
-上传mapi消息到指定文件夹
+将 mapi 消息上传到指定文件夹
 
 ```csharp
 public string[] AppendMessages(string folderUri, IEnumerable<MapiMessage> messages)
@@ -118,12 +118,12 @@ public string[] AppendMessages(string folderUri, IEnumerable<MapiMessage> messag
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 一个文件夹上传消息的 URI。 |
+| folderUri | String | 将消息上传到的文件夹 URI。 |
 | messages | IEnumerable`1 | 要上传的消息 |
 
 ### 返回值
 
-创建消息的uri列表
+已创建消息的 uri 列表
 
 ### 也可以看看
 

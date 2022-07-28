@@ -1,14 +1,14 @@
 ---
 title: FileCorruptedException
 second_title: Aspose.Email for .NET API 参考
-description: 文件读取期间抛出的异常 当文件似乎已损坏且无法读取时
+description: 文件读取期间引发的异常 当文件似乎已损坏且无法读取时
 type: docs
 weight: 17450
 url: /zh/net/aspose.email/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-文件读取期间抛出的异常， 当文件似乎已损坏且无法读取时。
+文件读取期间引发的异常， 当文件似乎已损坏且无法读取时。
 
 ```csharp
 public class FileCorruptedException : AsposeException
@@ -18,9 +18,9 @@ public class FileCorruptedException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileCorruptedException](filecorruptedexception#constructor)() | 初始化[`FileCorruptedException`](../filecorruptedexception)类的新实例。 |
-| [FileCorruptedException](filecorruptedexception#constructor_1)(string) | 使用指定的错误消息初始化[`FileCorruptedException`](../filecorruptedexception)类的新实例。 |
-| [FileCorruptedException](filecorruptedexception#constructor_2)(string, Exception) | 使用指定的错误消息初始化[`FileCorruptedException`](../filecorruptedexception)类的新实例。 |
+| [FileCorruptedException](filecorruptedexception#constructor)() | 初始化[`FileCorruptedException`](../filecorruptedexception)类. |
+| [FileCorruptedException](filecorruptedexception#constructor_1)(string) | 初始化[`FileCorruptedException`](../filecorruptedexception)具有指定错误消息的类。 |
+| [FileCorruptedException](filecorruptedexception#constructor_2)(string, Exception) | 初始化[`FileCorruptedException`](../filecorruptedexception)具有指定错误消息的类。 |
 
 ## 特性
 

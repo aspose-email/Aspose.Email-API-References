@@ -1,14 +1,14 @@
 ---
 title: XGMThreadSearchConditions
 second_title: Aspose.Email for .NET API 参考
-description: 提供检索电子邮件线程的搜索条件 与 https//developers.google.com/gmail/imap/imap-extensionschecking_for_the_presence_of_extensions 中描述的 X-GM-EXT-1 IMAP 扩展兼容
+description: 提供检索电子邮件线程的搜索条件 与 X-GM-EXT-1 IMAP 扩展兼容 https//developers.google.com/gmail/imap/imap-extensionschecking_for_the_presence_of_extensions.
 type: docs
 weight: 16750
 url: /zh/net/aspose.email.clients.imap/xgmthreadsearchconditions/
 ---
 ## XGMThreadSearchConditions class
 
-提供检索电子邮件线程的搜索条件。 与 https://developers.google.com/gmail/imap/imap-extensions#checking_for_the_presence_of_extensions 中描述的 X-GM-EXT-1 IMAP 扩展兼容。
+提供检索电子邮件线程的搜索条件。 与 X-GM-EXT-1 IMAP 扩展兼容 https://developers.google.com/gmail/imap/imap-extensions#checking_for_the_presence_of_extensions.
 
 ```csharp
 public sealed class XGMThreadSearchConditions : BaseSearchConditions
@@ -24,11 +24,11 @@ public sealed class XGMThreadSearchConditions : BaseSearchConditions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Charset](../../aspose.email.clients.imap/basesearchconditions/charset) { get; set; } | 获取或设置字符集。 表示 出现在搜索条件中的字符串的字符集。 |
-| [ConversationId](../../aspose.email.clients.imap/xgmthreadsearchconditions/conversationid) { get; set; } | 获取或设置 Gmail 提供的用于关联消息组的对话 ID。 |
-| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | 获取或设置搜索条件匹配的自 以来的消息日期。 |
+| [Charset](../../aspose.email.clients.imap/basesearchconditions/charset) { get; set; } | 获取或设置字符集。 指示 出现在搜索条件中的字符串的字符集。 |
+| [ConversationId](../../aspose.email.clients.imap/xgmthreadsearchconditions/conversationid) { get; set; } | 获取或设置 Gmail 提供的用于关联邮件组的对话 ID。 |
+| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | 获取或设置搜索条件匹配的消息日期since 。 |
 | [Text](../../aspose.email.clients.imap/basesearchconditions/text) { get; set; } | 获取或设置主题文本。 |
-| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | 获取或设置一个值，该值指示 搜索方法是否返回消息的序列号或 UID。 |
+| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | 获取或设置一个值，该值指示 搜索方法是否返回消息的序列号或UID。 |
 
 ### 也可以看看
 

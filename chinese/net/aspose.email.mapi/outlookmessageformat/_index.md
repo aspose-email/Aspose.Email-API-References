@@ -1,14 +1,14 @@
 ---
 title: OutlookMessageFormat
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Outlook 消息格式
+description: 代表 Outlook 消息格式
 type: docs
-weight: 18930
+weight: 18960
 url: /zh/net/aspose.email.mapi/outlookmessageformat/
 ---
 ## OutlookMessageFormat enumeration
 
-表示 Outlook 消息格式。
+代表 Outlook 消息格式。
 
 ```csharp
 public enum OutlookMessageFormat
@@ -18,8 +18,8 @@ public enum OutlookMessageFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| ASCII | `0` | ASCII。 |
-| Unicode | `1` | Unicode。 |
+| ASCII | `0` | ASCII. |
+| Unicode | `1` | Unicode. |
 
 ### 也可以看看
 

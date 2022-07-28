@@ -1,14 +1,14 @@
 ---
 title: ComparisonFieldAdapter
 second_title: Aspose.Email for .NET API 参考
-description: 根据它们的类型实现使用ComparisonField../aspose.email.tools.search/comparisonfield的适配器
+description: 实现适配器以供使用ComparisonField../aspose.email.tools.search/comparisonfield根据他们的 type
 type: docs
 weight: 3120
 url: /zh/net/aspose.email.clients.exchange/comparisonfieldadapter/
 ---
 ## ComparisonFieldAdapter class
 
-根据它们的类型实现使用[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)的适配器
+实现适配器以供使用[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)根据他们的 type
 
 ```csharp
 public class ComparisonFieldAdapter
@@ -18,18 +18,18 @@ public class ComparisonFieldAdapter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsBinary](../../aspose.email.clients.exchange/comparisonfieldadapter/asbinary) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)为BinaryComparisonField |
-| [AsBoolean](../../aspose.email.clients.exchange/comparisonfieldadapter/asboolean) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)为BoolComparisonField |
-| [AsDateTime](../../aspose.email.clients.exchange/comparisonfieldadapter/asdatetime) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)为DateComparisonField |
-| [AsFloating](../../aspose.email.clients.exchange/comparisonfieldadapter/asfloating) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)为DoubleComparisonField |
-| [AsInteger](../../aspose.email.clients.exchange/comparisonfieldadapter/asinteger) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)为LongComparisonField |
-| [AsString](../../aspose.email.clients.exchange/comparisonfieldadapter/asstring) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)为StringComparisonField |
+| [AsBinary](../../aspose.email.clients.exchange/comparisonfieldadapter/asbinary) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)作为[`BinaryComparisonField`](../../aspose.email.tools.search/binarycomparisonfield) |
+| [AsBoolean](../../aspose.email.clients.exchange/comparisonfieldadapter/asboolean) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)作为[`BoolComparisonField`](../../aspose.email.tools.search/boolcomparisonfield) |
+| [AsDateTime](../../aspose.email.clients.exchange/comparisonfieldadapter/asdatetime) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)作为[`DateComparisonField`](../../aspose.email.tools.search/datecomparisonfield) |
+| [AsFloating](../../aspose.email.clients.exchange/comparisonfieldadapter/asfloating) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)作为[`DoubleComparisonField`](../../aspose.email.tools.search/doublecomparisonfield) |
+| [AsInteger](../../aspose.email.clients.exchange/comparisonfieldadapter/asinteger) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)作为[`LongComparisonField`](../../aspose.email.tools.search/longcomparisonfield) |
+| [AsString](../../aspose.email.clients.exchange/comparisonfieldadapter/asstring) { get; } | 返回当前[`ComparisonField`](../../aspose.email.tools.search/comparisonfield)作为[`StringComparisonField`](../../aspose.email.tools.search/stringcomparisonfield) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Exists](../../aspose.email.clients.exchange/comparisonfieldadapter/exists)(bool) | 获取搜索表达式 如果提供的属性存在则返回 true。 |
+| [Exists](../../aspose.email.clients.exchange/comparisonfieldadapter/exists)(bool) | 获取一个搜索表达式 ，如果提供的属性存在则返回 true。 |
 
 ### 也可以看看
 

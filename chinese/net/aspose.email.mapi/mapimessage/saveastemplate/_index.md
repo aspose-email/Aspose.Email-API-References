@@ -16,7 +16,7 @@ public void SaveAsTemplate(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void SaveAsTemplate(string fileName)
 
 ## SaveAsTemplate(Stream) {#saveastemplate}
 
-作为 Outlook 文件模板（OFT 格式）保存到指定的流。
+以 Outlook 文件模板（OFT 格式）保存到指定流。
 
 ```csharp
 public void SaveAsTemplate(Stream stream)

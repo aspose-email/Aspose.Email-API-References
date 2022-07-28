@@ -3,7 +3,7 @@ title: SortString
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置排序字符串
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sortstring/
 ---
 ## VCardExplanatoryInfo.SortString property

@@ -1,14 +1,14 @@
 ---
 title: Body
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает поле данных произвольной формы переменной длины связанное с элементом хранящимся на сервере.
+description: Задает поле данных произвольной формы переменной длины связанное с сохраненным элементом на сервере.
 type: docs
 weight: 1030
 url: /ru/net/aspose.email.clients.activesync.transportlayer/body/
 ---
 ## Body class
 
-Задает поле данных произвольной формы переменной длины, связанное с элементом, хранящимся на сервере.
+Задает поле данных произвольной формы переменной длины, связанное с сохраненным элементом на сервере.
 
 ```csharp
 public class Body
@@ -24,11 +24,11 @@ public class Body
 
 | Имя | Описание |
 | --- | --- |
-| [Data](../../aspose.email.clients.activesync.transportlayer/body/data) { get; set; } | Содержимое элемента Data представляет собой строку в формате, заданном свойством Type. Если значением Type является RTF, значение элемента Data кодируется с использованием кодировки base64. Если для свойства Truncated установлено значение true, данные в элементе Data усекаются. Свойство EstimatedDataSize обеспечивает приблизительную оценку фактического размера полного содержимого строки данных. |
+| [Data](../../aspose.email.clients.activesync.transportlayer/body/data) { get; set; } | Содержимое элемента Data представляет собой строку в формате, заданном свойством Type. Если значение Типа равно RTF, значение элемента данных кодируется с использованием кодировки base64. Если для свойства Truncated установлено значение true, данные в элементе данных усекаются. Свойство EstimatedDataSize обеспечивает приблизительную оценку фактического размера полного содержимого строки данных. |
 | [EstimatedDataSize](../../aspose.email.clients.activesync.transportlayer/body/estimateddatasize) { get; set; } | Задает информационную оценку размера данных, связанных с родительским элементом. Элемент EstimatedDataSize ДОЛЖЕН быть представлен всякий раз, когда для элемента Truncated установлено значение TRUE |
 | [Part](../../aspose.email.clients.activesync.transportlayer/body/part) { get; set; } | Содержит целочисленный индекс метаданных составного ответа. Это свойство ДОЛЖНО присутствовать в составных ответах. Это свойство НЕ ДОЛЖНО присутствовать в запросах или несоставных ответах. |
-| [Preview](../../aspose.email.clients.activesync.transportlayer/body/preview) { get; set; } | Содержит текстовое сообщение Unicode или предварительный просмотр части сообщения, возвращаемый клиенту. |
-| [Truncated](../../aspose.email.clients.activesync.transportlayer/body/truncated) { get; set; } | Указывает, было ли усечено тело элемента в соответствии с элементом BodyPreference, указанным клиентом. Если значение TRUE, то тело элемента было усечено. Если значение равно FALSE или свойство Truncated не задано, то тело элемента не было усечено. |
+| [Preview](../../aspose.email.clients.activesync.transportlayer/body/preview) { get; set; } | Содержит текстовое сообщение в формате Unicode или предварительный просмотр части сообщения, возвращаемый клиенту. |
+| [Truncated](../../aspose.email.clients.activesync.transportlayer/body/truncated) { get; set; } | Указывает, было ли усечено тело элемента в соответствии с элементом BodyPreference, указанным клиентом. Если значение равно TRUE, то тело элемента было усечено. Если значение FALSE или свойство Truncated не задано, то тело элемента не было усечено. |
 | [Type](../../aspose.email.clients.activesync.transportlayer/body/type) { get; set; } | Указывает тип формата основного содержимого элемента. |
 
 ### Смотрите также

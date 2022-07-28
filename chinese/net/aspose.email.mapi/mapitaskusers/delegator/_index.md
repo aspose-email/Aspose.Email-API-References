@@ -1,14 +1,14 @@
 ---
 title: Delegator
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置任务委托人
+description: 获取或设置任务委托者
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapitaskusers/delegator/
 ---
 ## MapiTaskUsers.Delegator property
 
-获取或设置任务委托人。
+获取或设置任务委托者。
 
 ```csharp
 public string Delegator { get; set; }

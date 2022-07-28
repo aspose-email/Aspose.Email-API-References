@@ -1,14 +1,14 @@
 ---
 title: Departments
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置部门
+description: 获取或设置一个部门
 type: docs
 weight: 30
 url: /zh/net/aspose.email.personalinfo.vcard/vcardorganization/departments/
 ---
 ## VCardOrganization.Departments property
 
-获取或设置部门
+获取或设置一个部门
 
 ```csharp
 public StringCollection Departments { get; set; }

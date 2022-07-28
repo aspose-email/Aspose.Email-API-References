@@ -1,14 +1,14 @@
 ---
 title: ByMinute
 second_title: Aspose.Email for .NET API 参考
-description: 获取每分钟
+description: 按分钟获取
 type: docs
 weight: 40
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerule/byminute/
 ---
 ## RecurrenceRule.ByMinute property
 
-获取每分钟。
+按分钟获取。
 
 ```csharp
 public ByNumberCollection ByMinute { get; }
@@ -16,7 +16,7 @@ public ByNumberCollection ByMinute { get; }
 
 ### 适当的价值
 
-按分钟计算。
+分分钟。
 
 ### 也可以看看
 

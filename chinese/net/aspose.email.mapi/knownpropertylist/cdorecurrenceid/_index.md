@@ -1,14 +1,14 @@
 ---
 title: CdoRecurrenceid
 second_title: Aspose.Email for .NET API 参考
-description: 标识定期约会的特定实例 区域交换 规范名称PidTagCdoRecurrenceid 备用名称PR_CDO_RECURRENCEID urnschemascalendarrecurrenceid
+description: 标识定期约会的特定实例 区域Exchange 规范名称PidTagCdoRecurrenceid 备用名称PR_CDO_RECURRENCEIDurnschemascalendarrecurrenceid
 type: docs
 weight: 2540
 url: /zh/net/aspose.email.mapi/knownpropertylist/cdorecurrenceid/
 ---
 ## KnownPropertyList.CdoRecurrenceid field
 
-标识定期约会的特定实例。 区域:交换 规范名称:PidTagCdoRecurrenceid 备用名称:PR_CDO_RECURRENCEID, urn:schemas:calendar:recurrenceid
+标识定期约会的特定实例。 区域：Exchange 规范名称：PidTagCdoRecurrenceid 备用名称：PR_CDO_RECURRENCEID，urn:schemas:calendar:recurrenceid
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CdoRecurrenceid;

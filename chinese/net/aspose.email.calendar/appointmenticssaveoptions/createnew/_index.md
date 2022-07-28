@@ -1,14 +1,14 @@
 ---
 title: CreateNew
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置指示是否需要创建新日历或在现有日历中追加事件的值 默认值为真
+description: 获取或设置值指示是否需要在现有日历中创建新日历或追加事件 默认值为 true
 type: docs
 weight: 40
 url: /zh/net/aspose.email.calendar/appointmenticssaveoptions/createnew/
 ---
 ## AppointmentIcsSaveOptions.CreateNew property
 
-获取或设置指示是否需要创建新日历或在现有日历中追加事件的值。 默认值为真。
+获取或设置值，指示是否需要在现有日历中创建新日历或追加事件。 默认值为 true。
 
 ```csharp
 public bool CreateNew { get; set; }

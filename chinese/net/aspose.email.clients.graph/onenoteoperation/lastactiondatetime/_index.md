@@ -1,14 +1,14 @@
 ---
 title: LastActionDateTime
 second_title: Aspose.Email for .NET API 参考
-description: 操作的最后一个动作的时间
+description: 操作最后一次动作的时间
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.graph/onenoteoperation/lastactiondatetime/
 ---
 ## OnenoteOperation.LastActionDateTime property
 
-操作的最后一个动作的时间。
+操作最后一次动作的时间。
 
 ```csharp
 public DateTimeOffset LastActionDateTime { get; }

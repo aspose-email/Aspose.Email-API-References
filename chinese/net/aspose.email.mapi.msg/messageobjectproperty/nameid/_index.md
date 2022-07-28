@@ -1,14 +1,14 @@
 ---
 title: NameId
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置已命名的属性的名称 ID
+description: 获取或设置属性的名称 id如果已命名
 type: docs
 weight: 80
 url: /zh/net/aspose.email.mapi.msg/messageobjectproperty/nameid/
 ---
 ## MessageObjectProperty.NameId property
 
-获取或设置已命名的属性的名称 ID。
+获取或设置属性的名称 id（如果已命名）。
 
 ```csharp
 public uint NameId { get; set; }
@@ -16,7 +16,7 @@ public uint NameId { get; set; }
 
 ### 适当的价值
 
-名称 ID。
+名称标识。
 
 ### 也可以看看
 

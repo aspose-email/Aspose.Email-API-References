@@ -3,7 +3,7 @@ title: MailboxConverter
 second_title: Aspose.Email for .NET API 参考
 description: 提供邮箱转换例程
 type: docs
-weight: 19960
+weight: 20010
 url: /zh/net/aspose.email.storage/mailboxconverter/
 ---
 ## MailboxConverter class
@@ -18,8 +18,8 @@ public static class MailboxConverter
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox)(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) | 使用给定的Aspose将[`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) 转换为 mbox 格式。电子邮件.Storage.Mbox.MboxStorageWriter。 |
-| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox_1)(PersonalStorage, string, MessageAcceptanceCallback) | 使用给定路径将[`PersonalStorage`](../../aspose.email.storage.pst/personalstorage)转换为 mbox 格式。 |
+| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox)(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) | 转换[`PersonalStorage`](../../aspose.email.storage.pst/personalstorage)使用给定的 mbox 格式[`MboxStorageWriter`](../../aspose.email.storage.mbox/mboxstoragewriter). |
+| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox_1)(PersonalStorage, string, MessageAcceptanceCallback) | 转换[`PersonalStorage`](../../aspose.email.storage.pst/personalstorage)使用给定路径转换为 mbox 格式。 |
 
 ### 也可以看看
 

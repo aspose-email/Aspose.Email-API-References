@@ -1,14 +1,14 @@
 ---
 title: UseDefaultCredentials
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个布尔值该值控制 DefaultCredentials 是否随请求一起发送 此选项仅用于 NTLM 身份验证
+description: 获取或设置一个布尔值该值控制是否将 DefaultCredentials 与请求一起发送 此选项仅用于 NTLM 身份验证
 type: docs
 weight: 220
 url: /zh/net/aspose.email.clients/emailclient/usedefaultcredentials/
 ---
 ## EmailClient.UseDefaultCredentials property
 
-获取或设置一个布尔值，该值控制 DefaultCredentials 是否随请求一起发送。 此选项仅用于 NTLM 身份验证！
+获取或设置一个布尔值，该值控制是否将 DefaultCredentials 与请求一起发送。 此选项仅用于 NTLM 身份验证！
 
 ```csharp
 public virtual bool UseDefaultCredentials { get; set; }

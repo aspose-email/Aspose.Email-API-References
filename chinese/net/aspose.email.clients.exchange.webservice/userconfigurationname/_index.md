@@ -18,7 +18,7 @@ public sealed class UserConfigurationName
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UserConfigurationName](userconfigurationname)(string, string) | 初始化[`UserConfigurationName`](../userconfigurationname)类 的新实例 |
+| [UserConfigurationName](userconfigurationname)(string, string) | 初始化[`UserConfigurationName`](../userconfigurationname) class |
 
 ## 特性
 

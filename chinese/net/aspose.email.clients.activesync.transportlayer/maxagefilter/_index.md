@@ -18,14 +18,14 @@ public enum MaxAgeFilter
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| All | `0` | 定义同步的所有天数。过滤器被禁用。 |
-| OneDay | `1` | 定义 1 天进行同步。 |
+| All | `0` | 定义同步的所有日期。过滤器被禁用。 |
+| OneDay | `1` | 为同步定义 1 天。 |
 | ThreeDays | `2` | 定义同步 3 天。 |
 | OneWeek | `3` | 定义同步 1 周。 |
 | TwoWeeks | `4` | 定义同步 2 周。 |
-| OneMonth | `5` | 定义 1 个月进行同步。 |
-| ThreeMonths | `6` | 定义 3 个月进行同步。 |
-| SixMonths | `7` | 定义 6 个月的同步时间。 |
+| OneMonth | `5` | 定义同步 1 个月。 |
+| ThreeMonths | `6` | 定义同步 3 个月。 |
+| SixMonths | `7` | 为同步定义 6 个月。 |
 
 ### 也可以看看
 

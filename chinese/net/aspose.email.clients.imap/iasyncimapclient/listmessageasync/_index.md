@@ -19,13 +19,13 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | Int32 | 连接到服务器 |
-| sequenceNumber | IEnumerable`1 | 序列号消息 |
+| sequenceNumber | IEnumerable`1 | 消息的序号 |
 | messageExtraFields | IConnection | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -50,13 +50,13 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | String | 连接到服务器 |
-| uniqueId | IEnumerable`1 | 唯一 ID消息 |
+| uniqueId | IEnumerable`1 | 消息的唯一 ID |
 | messageExtraFields | IConnection | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

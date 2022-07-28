@@ -42,7 +42,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate, bool 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | certificate | X509Certificate | 必须验证的证书。 |
-| checkCrl | Boolean | 指定服务器是否应该忽略无法验证的撤销状态。 当无法检索证书吊销列表 (CRL) 时，无法验证证书的吊销状态。 当 CheckCRL 值设置为 TRUE 时，服务器不得忽略无法验证的撤销状态。 当 CheckCRL 值设置为 FALSE 时，服务器应该忽略无法验证的撤销状态。 默认值为 FALSE。 |
+| checkCrl | Boolean | 指定服务器是否应该忽略无法验证的吊销状态。 当无法检索证书吊销列表 (CRL) 时，无法验证证书的吊销状态。 当 CheckCRL 值设置为 TRUE 时，服务器不得忽略无法验证的撤销状态。 当 CheckCRL 值设置为 FALSE 时，服务器应该忽略无法验证的撤销状态。 默认值为 FALSE。 |
 
 ### 返回值
 
@@ -97,7 +97,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate,
 | --- | --- | --- |
 | certificate | X509Certificate | 必须验证的证书。 |
 | certificateChains | IEnumerable`1 | 必须验证的证书列表。 |
-| checkCrl | Boolean | 指定服务器是否应该忽略无法验证的撤销状态。 当无法检索证书吊销列表 (CRL) 时，无法验证证书的吊销状态。 当 CheckCRL 值设置为 TRUE 时，服务器不得忽略无法验证的撤销状态。 当 CheckCRL 值设置为 FALSE 时，服务器应该忽略无法验证的撤销状态。 默认值为 FALSE。 |
+| checkCrl | Boolean | 指定服务器是否应该忽略无法验证的吊销状态。 当无法检索证书吊销列表 (CRL) 时，无法验证证书的吊销状态。 当 CheckCRL 值设置为 TRUE 时，服务器不得忽略无法验证的撤销状态。 当 CheckCRL 值设置为 FALSE 时，服务器应该忽略无法验证的撤销状态。 默认值为 FALSE。 |
 
 ### 返回值
 
@@ -122,7 +122,7 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| certificates | IEnumerable`1 | 枚举必须验证的证书。 |
+| certificates | IEnumerable`1 | 必须验证的证书的枚举。 |
 
 ### 返回值
 
@@ -148,8 +148,8 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| certificates | IEnumerable`1 | 枚举必须验证的证书。 |
-| checkCrl | Boolean | 指定服务器是否应该忽略无法验证的撤销状态。 当无法检索证书吊销列表 (CRL) 时，无法验证证书的吊销状态。 当 CheckCRL 值设置为 TRUE 时，服务器不得忽略无法验证的撤销状态。 当 CheckCRL 值设置为 FALSE 时，服务器应该忽略无法验证的撤销状态。 默认值为 FALSE。 |
+| certificates | IEnumerable`1 | 必须验证的证书的枚举。 |
+| checkCrl | Boolean | 指定服务器是否应该忽略无法验证的吊销状态。 当无法检索证书吊销列表 (CRL) 时，无法验证证书的吊销状态。 当 CheckCRL 值设置为 TRUE 时，服务器不得忽略无法验证的撤销状态。 当 CheckCRL 值设置为 FALSE 时，服务器应该忽略无法验证的撤销状态。 默认值为 FALSE。 |
 
 ### 返回值
 
@@ -175,8 +175,8 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| certificates | IEnumerable`1 | 枚举必须验证的证书。 |
-| certificateChains | IEnumerable`1 | 枚举必须验证的证书。 |
+| certificates | IEnumerable`1 | 必须验证的证书的枚举。 |
+| certificateChains | IEnumerable`1 | 必须验证的证书的枚举。 |
 
 ### 返回值
 
@@ -202,9 +202,9 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| certificates | IEnumerable`1 | 枚举必须验证的证书。 |
-| certificateChains | IEnumerable`1 | 枚举必须验证的证书。 |
-| checkCrl | Boolean | 指定服务器是否应该忽略无法验证的撤销状态。 当无法检索证书吊销列表 (CRL) 时，无法验证证书的吊销状态。 当 CheckCRL 值设置为 TRUE 时，服务器不得忽略无法验证的撤销状态。 当 CheckCRL 值设置为 FALSE 时，服务器应该忽略无法验证的撤销状态。 默认值为 FALSE。 |
+| certificates | IEnumerable`1 | 必须验证的证书的枚举。 |
+| certificateChains | IEnumerable`1 | 必须验证的证书的枚举。 |
+| checkCrl | Boolean | 指定服务器是否应该忽略无法验证的吊销状态。 当无法检索证书吊销列表 (CRL) 时，无法验证证书的吊销状态。 当 CheckCRL 值设置为 TRUE 时，服务器不得忽略无法验证的撤销状态。 当 CheckCRL 值设置为 FALSE 时，服务器应该忽略无法验证的撤销状态。 默认值为 FALSE。 |
 
 ### 返回值
 

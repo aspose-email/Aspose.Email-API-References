@@ -25,7 +25,7 @@ public class ColorsInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Calendar](../../aspose.email.clients.google/colorsinfo/calendar) { get; } | 日历颜色调色板，从颜色 ID 映射到其定义。 'calendarListEntry' 资源在其'color' 字段中引用这些颜色ID 之一。 |
+| [Calendar](../../aspose.email.clients.google/colorsinfo/calendar) { get; } | 日历颜色调色板，从颜色 ID 映射到其定义。 “calendarListEntry”资源在其“颜色”字段中引用这些颜色 ID 之一。 |
 | [Event](../../aspose.email.clients.google/colorsinfo/event) { get; } | 事件颜色调色板，从颜色 ID 映射到其定义。 “事件”资源可以在其“颜色”字段中引用这些颜色 ID 之一。 |
 | [Updated](../../aspose.email.clients.google/colorsinfo/updated) { get; set; } | 调色板的最后修改时间。 |
 

@@ -16,13 +16,13 @@ public MapiMessage ToMapiMessage()
 
 ### 返回值
 
-结果[`MapiMessage`](../../mapimessage)。
+结果[`MapiMessage`](../../mapimessage).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果当前 ObjectData 不是 Outlook 消息。 |
+| InvalidOperationException | 如果当前 ObjectData 不是 Outlook 邮件。 |
 
 ### 也可以看看
 

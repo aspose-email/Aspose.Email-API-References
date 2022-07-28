@@ -1,14 +1,14 @@
 ---
 title: ServerId
 second_title: Aspose.Email for .NET API 参考
-description: Id 元素是 Ping 命令请求中的 Folder 元素的必需子元素 指定要监视的文件夹的服务器 ID 本节中引用的元素在 Ping 命名空间 中定义除非存在命名空间前缀如第 2.2.1 节中定义另有说明
+description: Id 元素是Ping 命令请求 中Folder 元素的必需子元素指定要监视的文件夹的服务器ID 本节中引用的元素在 Ping 命名空间 中定义除非存在命名空间前缀如第 2.2.1 节中定义另有指示
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/pingparameter/serverid/
 ---
 ## PingParameter.ServerId property
 
-Id 元素是 Ping 命令请求中的 Folder 元素的必需子元素 指定要监视的文件夹的服务器 ID。 本节中引用的元素在 Ping 命名空间 中定义，除非存在命名空间前缀（如第 2.2.1 节中定义）另有说明。
+Id 元素是Ping 命令请求 中Folder 元素的必需子元素，指定要监视的文件夹的服务器ID。 本节中引用的元素在 Ping 命名空间 中定义，除非存在命名空间前缀（如第 2.2.1 节中定义）另有指示。
 
 ```csharp
 public string ServerId { get; }

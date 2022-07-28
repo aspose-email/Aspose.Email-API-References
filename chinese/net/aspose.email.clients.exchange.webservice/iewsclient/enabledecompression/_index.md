@@ -1,14 +1,14 @@
 ---
 title: EnableDecompression
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置是否开启解压的值
+description: 获取或设置一个指示是否启用解压的值
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/enabledecompression/
 ---
 ## IEWSClient.EnableDecompression property
 
-获取或设置是否开启解压的值
+获取或设置一个指示是否启用解压的值
 
 ```csharp
 public bool EnableDecompression { get; set; }

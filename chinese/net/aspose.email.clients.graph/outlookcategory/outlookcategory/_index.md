@@ -1,14 +1,14 @@
 ---
 title: OutlookCategory
 second_title: Aspose.Email for .NET API 参考
-description: 初始化OutlookCategoryaspose.email.clients.graph/outlookcategory类的新实例
+description: 初始化OutlookCategoryaspose.email.clients.graph/outlookcategory类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.graph/outlookcategory/outlookcategory/
 ---
 ## OutlookCategory() {#constructor}
 
-初始化[`OutlookCategory`](../../outlookcategory)类的新实例。
+初始化[`OutlookCategory`](../../outlookcategory)类.
 
 ```csharp
 public OutlookCategory()
@@ -24,7 +24,7 @@ public OutlookCategory()
 
 ## OutlookCategory(string, CategoryPreset) {#constructor_1}
 
-初始化[`OutlookCategory`](../../outlookcategory)类的新实例。
+初始化[`OutlookCategory`](../../outlookcategory)类.
 
 ```csharp
 public OutlookCategory(string displayName, CategoryPreset preset)
@@ -46,7 +46,7 @@ public OutlookCategory(string displayName, CategoryPreset preset)
 
 ## OutlookCategory(string, string, CategoryPreset) {#constructor_2}
 
-初始化[`OutlookCategory`](../../outlookcategory)类的新实例。
+初始化[`OutlookCategory`](../../outlookcategory)类.
 
 ```csharp
 public OutlookCategory(string itemId, string displayName, CategoryPreset preset)
@@ -54,8 +54,8 @@ public OutlookCategory(string itemId, string displayName, CategoryPreset preset)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemId | String | 项目 ID |
-| displayName | String | 标识用户邮箱中的一个类别。 |
+| itemId | String | 商品编号 |
+| displayName | String | 标识用户邮箱中类别的唯一名称。 |
 | preset | CategoryPreset | 表征类别的预设颜色常数，并映射到 25 种预定义颜色之一 |
 
 ### 也可以看看

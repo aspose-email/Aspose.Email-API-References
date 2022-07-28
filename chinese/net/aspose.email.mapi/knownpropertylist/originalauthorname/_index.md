@@ -1,14 +1,14 @@
 ---
 title: OriginalAuthorName
 second_title: Aspose.Email for .NET API 参考
-description: 包含报告消息引用的原始消息的发件人的显示名称 区域电子邮件 规范名称PidTagOriginalAuthorName 别名PR_ORIGINAL_AUTHOR_NAME_W
+description: 包含报告消息引用的原始消息的发件人的显示名称 区域Email 规范名称PidTagOriginalAuthorName 替代名称PR_ORIGINAL_AUTHOR_NAME_W
 type: docs
 weight: 13500
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalauthorname/
 ---
 ## KnownPropertyList.OriginalAuthorName field
 
-包含报告消息引用的原始消息的发件人的显示名称。 区域:电子邮件 规范名称:PidTagOriginalAuthorName 别名:PR_ORIGINAL_AUTHOR_NAME_W
+包含报告消息引用的原始消息的发件人的显示名称。 区域：Email 规范名称：PidTagOriginalAuthorName 替代名称：PR_ORIGINAL_AUTHOR_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalAuthorName;

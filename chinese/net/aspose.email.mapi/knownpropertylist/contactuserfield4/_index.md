@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/contactuserfield4/
 ---
 ## KnownPropertyList.ContactUserField4 field
 
-包含用于将自定义文本添加到联系人对象的名片表示的文本。 区域:联系人属性 规范名称:PidLidContactUserField4 替代名称:dispidContactUserField4
+包含用于将自定义文本添加到联系人对象的名片表示的文本。 区域：联系人属性 规范名称：PidLidContactUserField4 替代名称：dispidContactUserField4
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactUserField4;

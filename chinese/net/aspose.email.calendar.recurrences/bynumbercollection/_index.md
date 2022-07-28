@@ -23,9 +23,9 @@ public class ByNumberCollection : List<int>
 
 ### 评论
 
-对应循环规则的 BYDAY、BYMONTH 等各种 BYXXX 部分。
+对应于循环规则的 BYDAY、BYMONTH 等各种 BYXXX 部分。
 
-[`RecurrenceRule`](../recurrencerule)的大部分 ByXXX 属性都实现为 ByNumberCollection。
+ByXXX 的大部分属性[`RecurrenceRule`](../recurrencerule)被实现为 ByNumberCollection。
 
 ### 也可以看看
 

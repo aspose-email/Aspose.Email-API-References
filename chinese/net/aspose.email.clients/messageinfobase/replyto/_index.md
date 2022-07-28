@@ -1,14 +1,14 @@
 ---
 title: ReplyTo
 second_title: Aspose.Email for .NET API 参考
-description: 获取应接收此消息回复的地址列表
+description: 获取应接收对此消息的回复的地址列表
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients/messageinfobase/replyto/
 ---
 ## MessageInfoBase.ReplyTo property
 
-获取应接收此消息回复的地址列表。
+获取应接收对此消息的回复的地址列表。
 
 ```csharp
 public MailAddressCollection ReplyTo { get; }

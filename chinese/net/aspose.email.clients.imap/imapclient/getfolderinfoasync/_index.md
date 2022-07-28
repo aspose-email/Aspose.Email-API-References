@@ -6,6 +6,33 @@ type: docs
 weight: 700
 url: /zh/net/aspose.email.clients.imap/imapclient/getfolderinfoasync/
 ---
+## GetFolderInfoAsync(IConnection, string) {#getfolderinfoasync}
+
+返回有关指定文件夹的信息而不选择它
+
+```csharp
+public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索有关信息的文件夹 |
+
+### 返回值
+
+任务对象，具有此操作的委托
+
+### 也可以看看
+
+* class [ImapFolderInfo](../../imapfolderinfo)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## GetFolderInfoAsync(string) {#getfolderinfoasync_2}
 
 返回有关指定文件夹的信息而不选择它
@@ -16,11 +43,11 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索有关 |
+| folderName | String | 用于检索有关信息的文件夹 |
 
 ### 返回值
 
-任务对象的信息，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -42,13 +69,13 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string fo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索有关 |
-| token | CancellationToken | 的信息取消。 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索有关信息的文件夹 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -70,43 +97,16 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName, CancellationTo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索有关 |
-| token | CancellationToken | 的信息 传播应取消操作的通知。 |
+| folderName | String | 用于检索有关信息的文件夹 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
 * class [ImapFolderInfo](../../imapfolderinfo)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## GetFolderInfoAsync(IConnection, string) {#getfolderinfoasync}
-
-返回有关指定文件夹的信息而不选择它
-
-```csharp
-public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索有关 |
-
-### 返回值
-
-任务对象的信息，并带有此操作的委托
-
-### 也可以看看
-
-* class [ImapFolderInfo](../../imapfolderinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
 * 部件 [Aspose.Email](../../../)

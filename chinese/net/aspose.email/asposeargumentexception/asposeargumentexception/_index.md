@@ -1,14 +1,14 @@
 ---
 title: AsposeArgumentException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化AsposeArgumentExceptionaspose.email/asposeargumentexception类的新实例
+description: 初始化AsposeArgumentExceptionaspose.email/asposeargumentexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/asposeargumentexception/asposeargumentexception/
 ---
 ## AsposeArgumentException() {#constructor}
 
-初始化[`AsposeArgumentException`](../../asposeargumentexception)类的新实例。
+初始化[`AsposeArgumentException`](../../asposeargumentexception)类.
 
 ```csharp
 public AsposeArgumentException()
@@ -24,7 +24,7 @@ public AsposeArgumentException()
 
 ## AsposeArgumentException(string) {#constructor_2}
 
-使用指定的错误消息初始化[`AsposeArgumentException`](../../asposeargumentexception)类的新实例。
+初始化[`AsposeArgumentException`](../../asposeargumentexception)具有指定错误消息的类。
 
 ```csharp
 public AsposeArgumentException(string message)
@@ -44,7 +44,7 @@ public AsposeArgumentException(string message)
 
 ## AsposeArgumentException(string, string) {#constructor_5}
 
-使用指定的错误消息初始化[`AsposeArgumentException`](../../asposeargumentexception)类的新实例。
+初始化[`AsposeArgumentException`](../../asposeargumentexception)具有指定错误消息的类。
 
 ```csharp
 public AsposeArgumentException(string format, string parameter)
@@ -65,7 +65,7 @@ public AsposeArgumentException(string format, string parameter)
 
 ## AsposeArgumentException(string, params object[]) {#constructor_4}
 
-使用指定的错误消息初始化[`AsposeArgumentException`](../../asposeargumentexception)类的新实例。
+初始化[`AsposeArgumentException`](../../asposeargumentexception)具有指定错误消息的类。
 
 ```csharp
 public AsposeArgumentException(string format, params object[] parameters)
@@ -86,7 +86,7 @@ public AsposeArgumentException(string format, params object[] parameters)
 
 ## AsposeArgumentException(string, Exception) {#constructor_3}
 
-使用指定的错误消息初始化[`AsposeArgumentException`](../../asposeargumentexception)类 的新实例和对导致此异常的内部异常的引用。
+初始化[`AsposeArgumentException`](../../asposeargumentexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。
 
 ```csharp
 public AsposeArgumentException(string message, Exception innerException)
@@ -95,7 +95,7 @@ public AsposeArgumentException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 解释异常原因的错误消息。 |
-| innerException | Exception | 导致当前异常的异常，如果没有内部异常，则为空引用（在 Visual Basic 中为空）被指定。 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 
 ### 也可以看看
 
@@ -107,7 +107,7 @@ public AsposeArgumentException(string message, Exception innerException)
 
 ## AsposeArgumentException(Exception) {#constructor_1}
 
-使用对内部的引用初始化[`AsposeArgumentException`](../../asposeargumentexception)类 的新实例异常是导致此异常的原因。
+初始化[`AsposeArgumentException`](../../asposeargumentexception)类 引用了导致此异常的内部异常。
 
 ```csharp
 public AsposeArgumentException(Exception innerException)
@@ -115,7 +115,7 @@ public AsposeArgumentException(Exception innerException)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| innerException | Exception | 导致当前异常的异常，或空引用（Nothing in Visual Basic) 如果没有指定内部异常。 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 
 ### 也可以看看
 

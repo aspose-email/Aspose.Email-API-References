@@ -1,11 +1,89 @@
 ---
 title: DeleteMessagesAsync
 second_title: Aspose.Email for .NET API 参考
-description: 将具有指定唯一标识符的消息标记为已删除并在用户指定时提交删除 此方法仅在服务器支持 UIDPLUS 扩展时有效请阅读更多 https//tools.ietf.org/html/rfc4315
+description: 将具有指定唯一标识符的消息标记为已删除
 type: docs
 weight: 590
 url: /zh/net/aspose.email.clients.imap/imapclient/deletemessagesasync/
 ---
+## DeleteMessagesAsync(IConnection, IEnumerable&lt;string&gt;, long) {#deletemessagesasync_19}
+
+将具有指定唯一标识符的消息标记为已删除
+
+```csharp
+public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidSet, 
+    long modificationSequence)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+
+### 返回值
+
+任务对象，具有此操作的委托
+
+### 也可以看看
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## DeleteMessagesAsync(IEnumerable&lt;int&gt;, long) {#deletemessagesasync_45}
+
+将具有指定序列号的消息标记为已删除
+
+```csharp
+public Task DeleteMessagesAsync(IEnumerable<int> sequenceSet, long modificationSequence)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+
+### 返回值
+
+任务对象，具有此操作的委托
+
+### 也可以看看
+
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## DeleteMessagesAsync(IEnumerable&lt;string&gt;, long) {#deletemessagesasync_51}
+
+将具有指定唯一标识符的消息标记为已删除
+
+```csharp
+public Task DeleteMessagesAsync(IEnumerable<string> uidSet, long modificationSequence)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+
+### 返回值
+
+任务对象，具有此操作的委托
+
+### 也可以看看
+
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## DeleteMessagesAsync(IEnumerable&lt;string&gt;, bool) {#deletemessagesasync_49}
 
 将具有指定唯一标识符的消息标记为已删除，并在用户指定时提交删除。 此方法仅在服务器支持 UIDPLUS 扩展时有效。请阅读更多 https://tools.ietf.org/html/rfc4315
@@ -17,11 +95,11 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, bool commitNow)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -47,7 +125,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -70,12 +148,12 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, long modificationSeq
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -97,13 +175,13 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uidSet | IEnumerable`1 | 消息的 UID 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -124,13 +202,13 @@ public Task DeleteMessagesAsync(IConnection connection, int startSequence, int e
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | 连接服务器 |
+| connection | IConnection | 连接到服务器 |
 | startSequence | Int32 | 消息列表的起始序号 |
-| endSequence | Int32 | 结尾消息列表的序列号 |
+| endSequence | Int32 | 消息列表的结束序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -153,7 +231,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
-| endUid | String | 结束 UID消息列表 |
+| endUid | String | 消息列表的结束 UID |
 
 ### 返回值
 
@@ -178,7 +256,7 @@ public Task DeleteMessagesAsync(int startSequence, int endSequence)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息列表的开始序号 |
+| startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
 
 ### 返回值
@@ -203,12 +281,12 @@ public Task DeleteMessagesAsync(string startUid, string endUid)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 
 ### 返回值
 
-任务对象, 带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -229,14 +307,14 @@ public Task DeleteMessagesAsync(IConnection connection, int startSequence, int e
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | 连接服务器 |
+| connection | IConnection | 连接到服务器 |
 | startSequence | Int32 | 消息列表的起始序号 |
-| endSequence | Int32 | 结尾消息列表的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -260,12 +338,12 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
-| endUid | String | 结束 UID消息列表的 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| endUid | String | 消息列表的结束 UID |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -286,13 +364,13 @@ public Task DeleteMessagesAsync(int startSequence, int endSequence, long modific
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息列表的开始序号 |
+| startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -312,13 +390,13 @@ public Task DeleteMessagesAsync(string startUid, string endUid, long modificatio
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 | modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -344,7 +422,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid, bool commitNow)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -372,7 +450,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -396,12 +474,12 @@ public Task DeleteMessagesAsync(string startUid, string endUid, long modificatio
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -425,12 +503,12 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -452,11 +530,11 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<ImapMessageI
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | 要删除的 ImapMessageInfo 集 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
 
 ### 返回值
 
-任务对象，委托为这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -478,11 +556,11 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
 
 ### 返回值
 
-任务对象的 ImapMessageInfo 集，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -506,11 +584,11 @@ public Task DeleteMessagesAsync(IConnection connection,
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -533,12 +611,12 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -559,12 +637,12 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, boo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -587,12 +665,12 @@ public Task DeleteMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | 要删除的 ImapMessageInfo 集合 |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -615,13 +693,13 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -644,13 +722,13 @@ public Task DeleteMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | 待删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -675,11 +753,11 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<int> sequenc
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -703,11 +781,11 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| token | CancellationToken | 传播操作通知应该取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -729,11 +807,11 @@ public Task DeleteMessagesAsync(IEnumerable<int> sequenceSet, CancellationToken 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -758,7 +836,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, CancellationToken to
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -780,13 +858,13 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<int> sequenc
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -810,12 +888,12 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -837,13 +915,13 @@ public Task DeleteMessagesAsync(IEnumerable<int> sequenceSet, long modificationS
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -865,12 +943,12 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, long modificationSeq
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -891,12 +969,12 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, bool commitNow, Canc
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -924,7 +1002,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -947,13 +1025,13 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet, long modificationSeq
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -975,14 +1053,14 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uidSet | IEnumerable`1 | 消息的 UID 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1004,14 +1082,14 @@ public Task DeleteMessagesAsync(IConnection connection, int startSequence, int e
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | 连接服务器 |
+| connection | IConnection | 连接到服务器 |
 | startSequence | Int32 | 消息列表的起始序号 |
-| endSequence | Int32 | 结尾消息列表的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1035,12 +1113,12 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
-| endUid | String | 结束 UID消息列表 |
+| endUid | String | 消息列表的结束 UID |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1061,13 +1139,13 @@ public Task DeleteMessagesAsync(int startSequence, int endSequence, Cancellation
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息列表的开始序号 |
+| startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1087,13 +1165,13 @@ public Task DeleteMessagesAsync(string startUid, string endUid, CancellationToke
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1114,15 +1192,15 @@ public Task DeleteMessagesAsync(IConnection connection, int startSequence, int e
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | 连接服务器 |
+| connection | IConnection | 连接到服务器 |
 | startSequence | Int32 | 消息列表的起始序号 |
-| endSequence | Int32 | 结尾消息列表的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1146,13 +1224,13 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
-| endUid | String | 结束 UID消息列表的 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| endUid | String | 消息列表的结束 UID |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1174,14 +1252,14 @@ public Task DeleteMessagesAsync(int startSequence, int endSequence, long modific
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息列表的开始序号 |
+| startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1202,14 +1280,14 @@ public Task DeleteMessagesAsync(string startUid, string endUid, long modificatio
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 消息列表的起始UID |
-| endUid | String | 消息列表的结束UID |
+| startUid | String | 消息列表的起始 UID |
+| endUid | String | 消息列表的结束 UID |
 | modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1237,7 +1315,7 @@ public Task DeleteMessagesAsync(string startUid, string endUid, bool commitNow,
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1266,7 +1344,7 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1290,13 +1368,13 @@ public Task DeleteMessagesAsync(string startUid, string endUid, long modificatio
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1320,13 +1398,13 @@ public Task DeleteMessagesAsync(IConnection connection, string startUid, string 
 | connection | IConnection | 连接到服务器 |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1349,12 +1427,12 @@ public Task DeleteMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | 要删除的 ImapMessageInfo 集 |
-| token | CancellationToken | 传播操作通知应该取消。 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1377,12 +1455,12 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1406,12 +1484,12 @@ public Task DeleteMessagesAsync(IConnection connection,
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1434,13 +1512,13 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1462,13 +1540,13 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, boo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1491,13 +1569,13 @@ public Task DeleteMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | 要删除的 ImapMessageInfo 集合 |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1520,14 +1598,14 @@ public Task DeleteMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | 用于删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1551,14 +1629,14 @@ public Task DeleteMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | 待删除的 ImapMessageInfo 集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| messageInfoSet | IEnumerable`1 | 删除的 ImapMessageInfo 集合 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1585,7 +1663,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<int> sequenc
 
 ### 返回值
 
-任务对象，带委托对于这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1611,7 +1689,7 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidS
 
 ### 返回值
 
-任务对象，委托为这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1660,7 +1738,7 @@ public Task DeleteMessagesAsync(IEnumerable<string> uidSet)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1682,94 +1760,16 @@ public Task DeleteMessagesAsync(IConnection connection, IEnumerable<int> sequenc
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## DeleteMessagesAsync(IConnection, IEnumerable&lt;string&gt;, long) {#deletemessagesasync_19}
-
-将具有指定唯一标识符的消息标记为已删除
-
-```csharp
-public Task DeleteMessagesAsync(IConnection connection, IEnumerable<string> uidSet, 
-    long modificationSequence)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| connection | IConnection | 连接到服务器 |
-| uidSet | IEnumerable`1 | 消息的 UID 集 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
-
-### 返回值
-
-任务对象，以及此操作的委托
-
-### 也可以看看
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## DeleteMessagesAsync(IEnumerable&lt;int&gt;, long) {#deletemessagesasync_45}
-
-将具有指定序列号的消息标记为已删除
-
-```csharp
-public Task DeleteMessagesAsync(IEnumerable<int> sequenceSet, long modificationSequence)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
-
-### 返回值
-
-任务对象，以及此操作的委托
-
-### 也可以看看
-
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## DeleteMessagesAsync(IEnumerable&lt;string&gt;, long) {#deletemessagesasync_51}
-
-将具有指定唯一标识符的消息标记为已删除
-
-```csharp
-public Task DeleteMessagesAsync(IEnumerable<string> uidSet, long modificationSequence)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | 消息的 UID 集 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
-
-### 返回值
-
-任务对象，以及此操作的委托
-
-### 也可以看看
-
 * class [ImapClient](../../imapclient)
 * 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
 * 部件 [Aspose.Email](../../../)

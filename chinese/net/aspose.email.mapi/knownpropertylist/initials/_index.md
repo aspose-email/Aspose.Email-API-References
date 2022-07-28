@@ -1,14 +1,14 @@
 ---
 title: Initials
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户全名部分的首字母 区域地址属性 规范名称PidTagInitials 替代名称PR_INITIALS PR_INITIALS_A PR_INITIALS_W urnschemascontactsinitials
+description: 包含邮件用户全名的部分首字母 区域地址 Properties 规范名称PidTagInitials 替代名称PR_INITIALSPR_INITIALS_APR_INITIALS_Wurnschemascontactsinitials
 type: docs
 weight: 11340
 url: /zh/net/aspose.email.mapi/knownpropertylist/initials/
 ---
 ## KnownPropertyList.Initials field
 
-包含邮件用户全名部分的首字母。 区域:地址属性 规范名称:PidTagInitials 替代名称:PR_INITIALS, PR_INITIALS_A, PR_INITIALS_W, urn:schemas:contacts:initials
+包含邮件用户全名的部分首字母。 区域：地址 Properties 规范名称：PidTagInitials 替代名称：PR_INITIALS、PR_INITIALS_A、PR_INITIALS_W、urn:schemas:contacts:initials
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Initials;

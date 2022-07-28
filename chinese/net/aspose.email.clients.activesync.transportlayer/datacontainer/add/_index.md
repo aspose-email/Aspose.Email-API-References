@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API 参考
-description: 将xml格式的元素数据添加到DataContainer
+description: 将 xml 格式的元素数据添加到 DataContainer.
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.activesync.transportlayer/datacontainer/add/
 ---
 ## Add(string) {#add_3}
 
-将xml格式的元素数据添加到DataContainer。
+将 xml 格式的元素数据添加到 DataContainer.
 
 ```csharp
 public DataContainer Add(string applicationDataXml)
@@ -16,7 +16,7 @@ public DataContainer Add(string applicationDataXml)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| applicationDataXml | String | 包含 xml 格式的元素数据 |
+| applicationDataXml | String | 包含xml格式的元素数据 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public DataContainer Add(string applicationDataXml)
 
 ## Add(XmlNode) {#add_4}
 
-将xml格式的元素数据添加到DataContainer。
+将 xml 格式的元素数据添加到 DataContainer.
 
 ```csharp
 public DataContainer Add(XmlNode node)
@@ -40,7 +40,7 @@ public DataContainer Add(XmlNode node)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | XmlNode | 包含 xml 格式的元素数据 |
+| node | XmlNode | 包含xml格式的元素数据 |
 
 ### 返回值
 
@@ -56,7 +56,7 @@ public DataContainer Add(XmlNode node)
 
 ## Add(int, Namespace) {#add}
 
-为元素添加空 DataContainer。
+为元素添加空 DataContainer.
 
 ```csharp
 public DataContainer Add(int element, Namespace ns)
@@ -64,12 +64,12 @@ public DataContainer Add(int element, Namespace ns)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | Int32 | 元素的名称 |
-| ns | Namespace | 的命名空间元素 |
+| element | Int32 | 元素名称 |
+| ns | Namespace | 元素的命名空间 |
 
 ### 返回值
 
-返回空 DataContainer。
+返回空的 DataContainer。
 
 ### 也可以看看
 
@@ -82,7 +82,7 @@ public DataContainer Add(int element, Namespace ns)
 
 ## Add(int, string, Namespace) {#add_1}
 
-将元素的数据添加到 DataContainer。
+将元素的数据添加到 DataContainer.
 
 ```csharp
 public DataContainer Add(int element, string value, Namespace ns)
@@ -92,7 +92,7 @@ public DataContainer Add(int element, string value, Namespace ns)
 | --- | --- | --- |
 | element | Int32 | 元素的名称，其数据包含在数据容器中。 |
 | value | String | 元素的值 |
-| ns | Namespace | 元素的命名空间，其数据包含在数据容器。 |
+| ns | Namespace | 元素的 NameSpace，其数据包含在数据容器中。 |
 
 ### 返回值
 
@@ -109,7 +109,7 @@ public DataContainer Add(int element, string value, Namespace ns)
 
 ## Add(int, string, bool, Namespace) {#add_2}
 
-将元素的数据添加到 DataContainer。
+将元素的数据添加到 DataContainer.
 
 ```csharp
 public DataContainer Add(int element, string value, bool binaryData, Namespace ns)
@@ -120,7 +120,7 @@ public DataContainer Add(int element, string value, bool binaryData, Namespace n
 | element | Int32 | 元素的名称，其数据包含在数据容器中。 |
 | value | String | 元素的值 |
 | binaryData | Boolean | 指定数据是否为二进制。 |
-| ns | Namespace | 元素的命名空间，其数据包含在数据容器中。 |
+| ns | Namespace | 元素的 NameSpace，其数据包含在数据容器中。 |
 
 ### 返回值
 

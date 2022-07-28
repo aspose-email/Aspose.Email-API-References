@@ -1,14 +1,14 @@
 ---
 title: DstMsgId
 second_title: Aspose.Email for .NET API 参考
-description: 指定项目移动到目标文件夹后的新服务器 ID DstMsgId 元素值最长可达 64 个字符
+description: 指定项目移动到目标文件夹后的新服务器 ID DstMsgId 元素值的长度最多为 64 个字符
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/moveitemresponse/dstmsgid/
 ---
 ## MoveItemResponse.DstMsgId property
 
-指定项目移动到目标文件夹后的新服务器 ID。 DstMsgId 元素值最长可达 64 个字符。
+指定项目移动到目标文件夹后的新服务器 ID。 DstMsgId 元素值的长度最多为 64 个字符。
 
 ```csharp
 public string DstMsgId { get; set; }

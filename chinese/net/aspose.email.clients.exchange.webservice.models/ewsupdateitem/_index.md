@@ -1,14 +1,14 @@
 ---
 title: EwsUpdateItem
 second_title: Aspose.Email for .NET API 参考
-description: 表示UpdateItemAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync方法参数
+description: 代表UpdateItemAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync方法参数.
 type: docs
 weight: 4080
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsupdateitem/
 ---
 ## EwsUpdateItem class
 
-表示[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法参数。
+代表[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法参数.
 
 ```csharp
 public class EwsUpdateItem
@@ -18,10 +18,10 @@ public class EwsUpdateItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_1)(MapiContact) | 初始化[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法的参数设置为 MapiContact item。 |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create)(MapiCalendar, string) | 初始化[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法的参数设置为 MapiCalendar item。 |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_2)(MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) | 初始化[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法的参数设置为 MapiNote item。 |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_3)(MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) | 初始化[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)方法的参数设置为 MapiTask item。 |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_1)(MapiContact) | 初始化[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)使用 MapiContact item. 设置方法的参数 |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create)(MapiCalendar, string) | 初始化[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)使用 MapiCalendar item. 设置方法的参数 |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_2)(MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) | 初始化[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)使用 MapiNote item. 设置方法的参数 |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_3)(MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) | 初始化[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)使用 MapiTask item. 设置方法的参数 |
 | [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/setcancellationtoken)(CancellationToken) | 设置取消令牌。 |
 
 ### 也可以看看

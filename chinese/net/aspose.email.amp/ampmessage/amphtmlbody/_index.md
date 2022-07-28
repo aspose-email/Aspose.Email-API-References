@@ -1,14 +1,14 @@
 ---
 title: AmpHtmlBody
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息正文的 AmpHtml 表示
+description: 获取消息正文的 AmpHtml 表示形式
 type: docs
 weight: 20
 url: /zh/net/aspose.email.amp/ampmessage/amphtmlbody/
 ---
 ## AmpMessage.AmpHtmlBody property
 
-获取消息正文的 AmpHtml 表示。
+获取消息正文的 AmpHtml 表示形式。
 
 ```csharp
 public virtual string AmpHtmlBody { get; set; }

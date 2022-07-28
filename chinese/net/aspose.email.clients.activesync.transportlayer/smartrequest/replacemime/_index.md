@@ -1,14 +1,14 @@
 ---
 title: ReplaceMime
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端是否发送整个消息 当 ReplaceMime 为 TRUE 时服务器必须不包括被转发的原始消息的正文或附件 当 ReplaceMime 为 FALSE 时客户端必须将原始消息的正文作为附件附加到传出消息 客户端可以使用此属性来指示消息是否被内联编辑或者消息是否在源消息前附加了回复/转发文本 如果 ReplaceMime 为 TRUE则消息已被编辑
+description: 指定客户端是否发送整个消息 当 ReplaceMime 为 TRUE 时服务器不得包含被转发的原始消息的正文或附件 当 ReplaceMime 为 FALSE 时客户端必须将原始消息的正文作为附件附加到传出消息 客户端可以使用此属性来指示消息是否被内联编辑或者消息是否在源消息前附加了回复/转发文本 如果 ReplaceMime 为 TRUE则消息已被编辑
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/smartrequest/replacemime/
 ---
 ## SmartRequest.ReplaceMime property
 
-指定客户端是否发送整个消息。 当 ReplaceMime 为 TRUE 时，服务器必须不包括被转发的原始消息的正文或附件。 当 ReplaceMime 为 FALSE 时，客户端必须将原始消息的正文作为附件附加到传出消息。 客户端可以使用此属性来指示消息是否被内联编辑，或者消息是否在源消息前附加了回复/转发文本。 如果 ReplaceMime 为 TRUE，则消息已被编辑。
+指定客户端是否发送整个消息。 当 ReplaceMime 为 TRUE 时，服务器不得包含被转发的原始消息的正文或附件。 当 ReplaceMime 为 FALSE 时，客户端必须将原始消息的正文作为附件附加到传出消息。 客户端可以使用此属性来指示消息是否被内联编辑，或者消息是否在源消息前附加了回复/转发文本。 如果 ReplaceMime 为 TRUE，则消息已被编辑。
 
 ```csharp
 public bool ReplaceMime { get; set; }

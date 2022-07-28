@@ -16,14 +16,14 @@ public void CloseAccess(string delegateSmtpAddress, string mailbox)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| delegateSmtpAddress | String | 委托用户的主 smtp 地址。 |
-| mailbox | String | 邮箱。 |
+| delegateSmtpAddress | String | 委托用户的主要 smtp 地址。 |
+| mailbox | String | 一个邮箱。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *delegateSmtpAddress*或*mailbox*是` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *delegateSmtpAddress*或者*mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 
@@ -43,15 +43,15 @@ public void CloseAccess(ExchangeFolderUserInfo userInfo, string mailbox)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| userInfo | ExchangeFolderUserInfo | 用户信息。 |
-| mailbox | String | 邮箱。 |
+| userInfo | ExchangeFolderUserInfo | 一个用户信息。 |
+| mailbox | String | 一个邮箱。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *userInfo*is` null` 。 |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` 或` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *userInfo*是`无效的`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 
@@ -73,14 +73,14 @@ public void CloseAccess(ExchangeDelegateUser delegateUser, string mailbox)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | delegateUser | ExchangeDelegateUser | 委托用户。 |
-| mailbox | String | 邮箱。 |
+| mailbox | String | 一个邮箱。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser*is` null` 。 |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` 或` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser*是`无效的`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 
@@ -101,15 +101,15 @@ public void CloseAccess(ExchangeDelegateUserCollection delegateUsers, string mai
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| delegateUsers | ExchangeDelegateUserCollection | 委托用户。 |
-| mailbox | String | 邮箱。 |
+| delegateUsers | ExchangeDelegateUserCollection | 一个委托用户。 |
+| mailbox | String | 一个邮箱。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers*is` null` 。 |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` 或` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers*是`无效的`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

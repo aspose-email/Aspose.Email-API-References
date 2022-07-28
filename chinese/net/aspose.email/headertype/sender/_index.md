@@ -1,14 +1,14 @@
 ---
 title: Sender
 second_title: Aspose.Email for .NET API 参考
-description: 将消息提交到网络的个人或代理如果 From标头字段未显示应该是认证的根据RFC 822但是什么样的认证还不清楚
+description: 向网络提交消息的人或代理如果不是由 From 标头字段显示的应该是认证的根据RFC 822但是什么样的认证还不清楚
 type: docs
 weight: 220
 url: /zh/net/aspose.email/headertype/sender/
 ---
 ## HeaderType.Sender property
 
-将消息提交到网络的个人或代理，如果 From:标头字段未显示。应该是认证的，根据RFC 822，但是什么样的认证还不清楚。
+向网络提交消息的人或代理，如果不是由 From: 标头字段显示的。应该是认证的，根据RFC 822，但是什么样的认证还不清楚。
 
 ```csharp
 public static HeaderType Sender { get; }

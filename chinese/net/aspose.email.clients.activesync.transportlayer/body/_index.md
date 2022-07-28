@@ -24,11 +24,11 @@ public class Body
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Data](../../aspose.email.clients.activesync.transportlayer/body/data) { get; set; } | Data 元素的内容是一个字符串，其格式由 Type 属性指定。 如果 Type 的值为 RTF，则 Data 元素的值使用 base64 编码进行编码。 如果Truncated 属性设置为true，则Data 元素中的数据将被截断。 EstimatedDataSize 属性提供对数据字符串完整内容的实际大小的粗略估计。 |
-| [EstimatedDataSize](../../aspose.email.clients.activesync.transportlayer/body/estimateddatasize) { get; set; } | 指定与父元素关联的数据大小的信息估计。 每当截断元素设置为 TRUE 时，都应该显示 EstimatedDataSize 元素 |
+| [Data](../../aspose.email.clients.activesync.transportlayer/body/data) { get; set; } | Data 元素的内容是一个字符串，其格式由 Type 属性指定。 如果 Type 的值为 RTF，则使用 base64 编码对 Data 元素的值进行编码。 如果 Truncated 属性设置为 true，则截断 Data 元素中的数据。 EstimatedDataSize 属性提供对数据字符串完整内容的实际大小的粗略估计。 |
+| [EstimatedDataSize](../../aspose.email.clients.activesync.transportlayer/body/estimateddatasize) { get; set; } | 指定与父元素关联的数据大小的信息估计值。 应在将截断元素设置为 TRUE 时显示 EstimatedDataSize 元素 |
 | [Part](../../aspose.email.clients.activesync.transportlayer/body/part) { get; set; } | 包含多部分响应元数据的整数索引。 此属性必须出现在多部分响应中。 此属性不得出现在请求或非多部分响应中。 |
 | [Preview](../../aspose.email.clients.activesync.transportlayer/body/preview) { get; set; } | 包含返回给客户端的 Unicode 纯文本消息或消息部分预览。 |
-| [Truncated](../../aspose.email.clients.activesync.transportlayer/body/truncated) { get; set; } | 指定项目的正文是否已根据客户端指示的 BodyPreference 元素截断。 如果值为 TRUE，则项目的主体已被截断。如果值为 FALSE，或未设置截断属性，则项目的正文尚未被截断。 |
+| [Truncated](../../aspose.email.clients.activesync.transportlayer/body/truncated) { get; set; } | 指定项目的主体是否已根据客户端指示的 BodyPreference 元素被截断。 如果值为 TRUE，则项目的主体已被截断。如果值为 FALSE，或未设置截断属性，则项目的正文尚未被截断。 |
 | [Type](../../aspose.email.clients.activesync.transportlayer/body/type) { get; set; } | 指定项目正文内容的格式类型。 |
 
 ### 也可以看看

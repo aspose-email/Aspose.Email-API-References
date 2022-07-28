@@ -18,7 +18,7 @@ public enum FileFormatType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Unknown | `0` | 未知文件格式。 |
+| Unknown | `0` | 未知的文件格式。 |
 | Msg | `1` | Outlook MSG 文件格式。 |
 | Eml | `2` | MIME 标准中的文件。 |
 | Mht | `3` | 文件是单文件网页，也称为 Web 存档文件。 |

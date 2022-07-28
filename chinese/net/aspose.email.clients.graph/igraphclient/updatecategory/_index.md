@@ -16,11 +16,11 @@ public OutlookCategory UpdateCategory(OutlookCategory category)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| category | OutlookCategory | 类别更新 |
+| category | OutlookCategory | 要更新的类别 |
 
 ### 返回值
 
-用户可以根据该类别对 Outlook 项目（例如消息和事件）进行分组
+用户可以根据其对 Outlook 项目（例如邮件和事件）进行分组的类别
 
 ### 也可以看看
 

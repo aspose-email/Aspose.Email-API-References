@@ -1,14 +1,14 @@
 ---
 title: ReminderAttendeeCollection
 second_title: Aspose.Email for .NET API 参考
-description: 包含 ReminderAttendeeReminderAttendee./reminderattendee对象的集合
+description: 包含 ReminderAttendee 的集合ReminderAttendee./reminderattendee对象.
 type: docs
 weight: 850
 url: /zh/net/aspose.email.calendar/reminderattendeecollection/
 ---
 ## ReminderAttendeeCollection class
 
-包含 ReminderAttendee[`ReminderAttendee`](../reminderattendee)对象的集合。
+包含 ReminderAttendee 的集合[`ReminderAttendee`](../reminderattendee)对象.
 
 ```csharp
 public class ReminderAttendeeCollection : List<ReminderAttendee>

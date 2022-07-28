@@ -1,14 +1,14 @@
 ---
 title: Used
 second_title: Aspose.Email for .NET API 参考
-description: 获取资源使用情况
+description: 获取资源的使用情况
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.imap/imapquota/used/
 ---
 ## ImapQuota.Used property
 
-获取资源使用情况
+获取资源的使用情况
 
 ```csharp
 public int Used { get; }

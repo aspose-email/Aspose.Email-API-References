@@ -1,14 +1,14 @@
 ---
 title: ConversationId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает диалог который необходимо найти. Значение представляет собой GUID. ConversationId не поддерживается если используется версия протокола 12.1. Если ConversationId включен в качестве дочернего элемента любого элемента кроме элемента And сервер отвечает значением состояния 8 SearchTooComplex.
+description: Определяет цепочку для поиска. Значением является GUID. ConversationId не поддерживается при версии протокола 12.1. Если ConversationId включен в качестве дочернего элемента любого элемента кроме элемента And сервер отвечает значением состояния 8 SearchTooComplex.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/querytype/conversationid/
 ---
 ## QueryType.ConversationId property
 
-Указывает диалог, который необходимо найти. Значение представляет собой GUID. ConversationId не поддерживается, если используется версия протокола 12.1. Если ConversationId включен в качестве дочернего элемента любого элемента, кроме элемента And, сервер отвечает значением состояния 8 (SearchTooComplex).
+Определяет цепочку для поиска. Значением является GUID. ConversationId не поддерживается при версии протокола 12.1. Если ConversationId включен в качестве дочернего элемента любого элемента, кроме элемента And, сервер отвечает значением состояния 8 (SearchTooComplex).
 
 ```csharp
 public string ConversationId { get; set; }

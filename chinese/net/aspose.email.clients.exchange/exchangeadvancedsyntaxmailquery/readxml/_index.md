@@ -1,14 +1,14 @@
 ---
 title: ReadXml
 second_title: Aspose.Email for .NET API 参考
-description: 从其 XML 表示生成一个对象 ExchangeAdvancedMailQuery 类未实现
+description: 从其 XML 表示生成一个对象 没有为 ExchangeAdvancedMailQuery 类实现
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/readxml/
 ---
 ## ExchangeAdvancedSyntaxMailQuery.ReadXml method
 
-从其 XML 表示生成一个对象。 ExchangeAdvancedMailQuery 类未实现。
+从其 XML 表示生成一个对象。 没有为 ExchangeAdvancedMailQuery 类实现。
 
 ```csharp
 public override void ReadXml(XmlReader reader)
@@ -16,13 +16,13 @@ public override void ReadXml(XmlReader reader)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| reader | XmlReader | XmlReader对象被反序列化的流。 |
+| reader | XmlReader | 这XmlReader反序列化对象的流。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 在调用此方法时引发。 ExchangeAdvancedMailQuery 类未实现此方法。 |
+| NotImplementedException | 调用此方法时抛出。 ExchangeAdvancedMailQuery 类未实现此方法。 |
 
 ### 也可以看看
 

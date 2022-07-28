@@ -20,7 +20,7 @@ public AutodiscoverResult(CultureInfo culture, string displayName, string emailA
 | culture | CultureInfo | Указывает язык и региональные параметры клиента, которые используются для локализации сообщений об ошибках. |
 | displayName | String | Содержит отображаемое имя пользователя в службе каталогов. |
 | emailAddress | String | Содержит SMTP-адрес электронной почты пользователя и используется для идентификации почтового ящика пользователя в сети. |
-| redirect | String | Задает SMTP-адрес запрошенного пользователя. |
+| redirect | String | Указывает SMTP-адрес запрошенного пользователя. |
 
 ### Смотрите также
 
@@ -69,7 +69,7 @@ public AutodiscoverResult(CultureInfo culture, string displayName, string emailA
 | culture | CultureInfo | Указывает язык и региональные параметры клиента, которые используются для локализации сообщений об ошибках. |
 | displayName | String | Содержит отображаемое имя пользователя в службе каталогов. |
 | emailAddress | String | Содержит SMTP-адрес электронной почты пользователя и используется для идентификации почтового ящика пользователя в сети. |
-| redirect | String | Задает SMTP-адрес запрошенного пользователя. |
+| redirect | String | Указывает SMTP-адрес запрошенного пользователя. |
 | servers | ServerInfo[] | Содержит массив настроек сервера |
 
 ### Смотрите также

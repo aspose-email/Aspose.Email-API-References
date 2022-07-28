@@ -1,14 +1,14 @@
 ---
 title: DataContainer
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит элементы данных из классов содержимого.
+description: Содержит элементы данных из классов контента.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/datacontainer/
 ---
 ## ItemOperationsFetchProperties.DataContainer property
 
-Содержит элементы данных из классов содержимого.
+Содержит элементы данных из классов контента.
 
 ```csharp
 public DataContainer DataContainer { get; }

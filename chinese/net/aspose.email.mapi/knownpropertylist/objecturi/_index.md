@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/objecturi/
 ---
 ## KnownPropertyList.ObjectUri field
 
-包含对象 uri。 此属性不通过传输协议传输。 区域:用户定义的 Aspose 指定属性 替代名称:ObjectUri
+包含对象 uri。 此属性不通过传输协议传输。 区域：用户定义的 Aspose 指定属性 替代名称：ObjectUri
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ObjectUri;

@@ -1,14 +1,14 @@
 ---
 title: MessageRecipientMe
 second_title: Aspose.Email for .NET API 参考
-description: 表示接收邮箱所有者是此电子邮件的主要收件人或抄送 Cc 收件人 区域常规消息属性 规范名称PidTagMessageRecipientMe 备用名称PR_MESSAGE_RECIP_ME ptagMessageRecipMe
+description: 表示接收邮箱所有者是此电子邮件的主要收件人或抄送 Cc 收件人 区域常规消息属性 规范名称PidTagMessageRecipientMe 备用名称PR_MESSAGE_RECIP_MEptagMessageRecipMe
 type: docs
 weight: 12570
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagerecipientme/
 ---
 ## KnownPropertyList.MessageRecipientMe field
 
-表示接收邮箱所有者是此电子邮件的主要收件人或抄送 (Cc) 收件人。 区域:常规消息属性 规范名称:PidTagMessageRecipientMe 备用名称:PR_MESSAGE_RECIP_ME, ptagMessageRecipMe
+表示接收邮箱所有者是此电子邮件的主要收件人或抄送 (Cc) 收件人。 区域：常规消息属性 规范名称：PidTagMessageRecipientMe 备用名称：PR_MESSAGE_RECIP_ME、ptagMessageRecipMe
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageRecipientMe;

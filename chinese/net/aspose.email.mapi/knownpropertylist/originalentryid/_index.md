@@ -1,14 +1,14 @@
 ---
 title: OriginalEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含对象的原始EntryID 区域常规消息属性 规范名称PidTagOriginalEntryId 替代名称PR_ORIGINAL_ENTRYID ptagOriginalEntryId
+description: 包含对象的原始条目 ID 区域常规消息属性 规范名称PidTagOriginalEntryId 替代名称PR_ORIGINAL_ENTRYIDptagOriginalEntryId
 type: docs
 weight: 13580
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalentryid/
 ---
 ## KnownPropertyList.OriginalEntryId field
 
-包含对象的原始EntryID。 区域:常规消息属性 规范名称:PidTagOriginalEntryId 替代名称:PR_ORIGINAL_ENTRYID, ptagOriginalEntryId
+包含对象的原始条目 ID。 区域：常规消息属性 规范名称：PidTagOriginalEntryId 替代名称：PR_ORIGINAL_ENTRYID、ptagOriginalEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalEntryId;

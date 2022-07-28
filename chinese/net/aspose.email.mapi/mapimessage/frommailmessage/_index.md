@@ -1,14 +1,14 @@
 ---
 title: FromMailMessage
 second_title: Aspose.Email for .NET API 参考
-description: 从 MailMessage 创建 MapiMessage 的实例
+description: 从 MailMessage 创建 MapiMessage 实例
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapimessage/frommailmessage/
 ---
 ## FromMailMessage(string) {#frommailmessage_2}
 
-从 MailMessage 创建 MapiMessage 的实例。
+从 MailMessage 创建 MapiMessage 实例。
 
 ```csharp
 public static MapiMessage FromMailMessage(string fileName)
@@ -32,7 +32,7 @@ public static MapiMessage FromMailMessage(string fileName)
 
 ## FromMailMessage(MailMessage) {#frommailmessage}
 
-从 MailMessage 创建 MapiMessage 的实例。
+从 MailMessage 创建 MapiMessage 实例。
 
 ```csharp
 public static MapiMessage FromMailMessage(MailMessage message)
@@ -40,7 +40,7 @@ public static MapiMessage FromMailMessage(MailMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | MailMessage。 |
+| message | MailMessage | 邮件消息。 |
 
 ### 返回值
 
@@ -57,7 +57,7 @@ public static MapiMessage FromMailMessage(MailMessage message)
 
 ## FromMailMessage(MailMessage, MapiConversionOptions) {#frommailmessage_1}
 
-从 MailMessage 创建 MapiMessage 的实例。
+从 MailMessage 创建 MapiMessage 实例。
 
 ```csharp
 public static MapiMessage FromMailMessage(MailMessage message, MapiConversionOptions options)
@@ -65,12 +65,12 @@ public static MapiMessage FromMailMessage(MailMessage message, MapiConversionOpt
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | MailMessage。 |
+| message | MailMessage | 邮件消息。 |
 | options | MapiConversionOptions | MapiFromMailMessageOptions[`MapiConversionOptions`](../../mapiconversionoptions) |
 
 ### 返回值
 
-[`MapiMessage`](../../mapimessage)代表 Outlook 消息。
+[`MapiMessage`](../../mapimessage)代表 Outlook 邮件。
 
 ### 也可以看看
 

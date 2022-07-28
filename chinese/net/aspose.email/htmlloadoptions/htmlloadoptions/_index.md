@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化此类的新实例该实例可用于从 Html 格式加载 MailMessage
+description: 初始化此类的新实例可用于从 Html 格式加载 MailMessage
 type: docs
 weight: 10
 url: /zh/net/aspose.email/htmlloadoptions/htmlloadoptions/
 ---
 ## HtmlLoadOptions constructor
 
-初始化此类的新实例，该实例可用于从 Html 格式加载 MailMessage。
+初始化此类的新实例，可用于从 Html 格式加载 MailMessage。
 
 ```csharp
 public HtmlLoadOptions()

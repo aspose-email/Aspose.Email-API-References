@@ -23,7 +23,7 @@ public MboxrdStorageReader(Stream stream, MboxLoadOptions options)
 
 ## MboxrdStorageReader(string, MboxLoadOptions) {#constructor_2}
 
-初始化[`MboxrdStorageReader`](../../mboxrdstoragereader)类的新实例。
+初始化[`MboxrdStorageReader`](../../mboxrdstoragereader)类.
 
 ```csharp
 public MboxrdStorageReader(string fileName, MboxLoadOptions options)
@@ -31,8 +31,8 @@ public MboxrdStorageReader(string fileName, MboxLoadOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
-| options | MboxLoadOptions | 加载 Mbox 存储时的附加选项[`MboxLoadOptions`](../../mboxloadoptions)。 |
+| fileName | String | 文件的名称。 |
+| options | MboxLoadOptions | 加载 Mbox 存储时的附加选项[`MboxLoadOptions`](../../mboxloadoptions). |
 
 ### 例外
 

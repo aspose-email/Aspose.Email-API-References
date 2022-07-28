@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: Aspose.Email for .NET API 参考
-description: 获取DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions对象的实例默认设置使用
+description: 获取实例DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions默认情况下使用设置的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice/deletionoptions/default/
 ---
 ## DeletionOptions.Default property
 
-获取[`DeletionOptions`](../../deletionoptions)对象的实例，默认设置使用
+获取实例[`DeletionOptions`](../../deletionoptions)默认情况下使用设置的对象
 
 ```csharp
 public static DeletionOptions Default { get; }

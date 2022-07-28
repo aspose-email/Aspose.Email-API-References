@@ -1,14 +1,14 @@
 ---
 title: MessageFlags
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息对象的状态 区域常规消息属性 规范名称PidTagMessageFlags 替代名称PR_MESSAGE_FLAGS ptagMessageFlags
+description: 指定消息对象的状态 区域常规消息属性 规范名称PidTagMessageFlags 备用名称PR_MESSAGE_FLAGSptagMessageFlags
 type: docs
 weight: 12530
 url: /zh/net/aspose.email.mapi/knownpropertylist/messageflags/
 ---
 ## KnownPropertyList.MessageFlags field
 
-指定消息对象的状态。 区域:常规消息属性 规范名称:PidTagMessageFlags 替代名称:PR_MESSAGE_FLAGS, ptagMessageFlags
+指定消息对象的状态。 区域：常规消息属性 规范名称：PidTagMessageFlags 备用名称：PR_MESSAGE_FLAGS、ptagMessageFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageFlags;

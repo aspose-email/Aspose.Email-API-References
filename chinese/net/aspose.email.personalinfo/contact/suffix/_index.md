@@ -1,14 +1,14 @@
 ---
 title: Suffix
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置全名的后缀如 Jr.juniorSr.senior 等
+description: 获取或设置全名的后缀如Jr.juniorSr.senior等
 type: docs
 weight: 380
 url: /zh/net/aspose.email.personalinfo/contact/suffix/
 ---
 ## Contact.Suffix property
 
-获取或设置全名的后缀，如 Jr.(junior)、Sr.(senior) 等。
+获取或设置全名的后缀，如Jr.(junior)、Sr.(senior)等。
 
 ```csharp
 public string Suffix { get; set; }

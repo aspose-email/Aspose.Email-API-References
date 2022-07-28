@@ -1,14 +1,14 @@
 ---
 title: WeddingAnniversary
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户结婚纪念日的日期 区域MapiMailUser 规范名称PidTagWeddingAnniversary 别名PR_WEDDING_ANNIVERSARY urnschemascontactsweddinganniversary
+description: 包含邮件用户的结婚纪念日日期 区域MapiMailUser 规范名称PidTagWeddingAnniversary 别名PR_WEDDING_ANNIVERSARYurnschemascontactsweddinganniversary
 type: docs
 weight: 19330
 url: /zh/net/aspose.email.mapi/knownpropertylist/weddinganniversary/
 ---
 ## KnownPropertyList.WeddingAnniversary field
 
-包含邮件用户结婚纪念日的日期。 区域:MapiMailUser 规范名称:PidTagWeddingAnniversary 别名:PR_WEDDING_ANNIVERSARY, urn:schemas:contacts:weddinganniversary
+包含邮件用户的结婚纪念日日期。 区域：MapiMailUser 规范名称：PidTagWeddingAnniversary 别名：PR_WEDDING_ANNIVERSARY，urn:schemas:contacts:weddinganniversary
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WeddingAnniversary;

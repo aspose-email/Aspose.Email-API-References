@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/contacts/
 ---
 ## KnownPropertyList.Contacts field
 
-包含在 PidLidContactLinkEntry 属性（第 2.70 节）的值中引用的每个通讯簿条目 ID 的 PidTagDisplayName 属性（第 2.667 节）。 区域:常规消息属性 规范名称:PidLidContacts 替代名称:dispidContacts
+包含在 PidLidContactLinkEntry 属性（第 2.70 节）的值中引用的每个通讯簿条目 ID 的 PidTagDisplayName 属性（第 2.667 节）。 区域：常规消息属性 规范名称：PidLidContacts 替代名称：dispidContacts
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Contacts;

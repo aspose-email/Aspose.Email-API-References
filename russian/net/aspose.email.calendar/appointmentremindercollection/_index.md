@@ -1,14 +1,14 @@
 ---
 title: AppointmentReminderCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит коллекцию объектов AppointmentReminderAppointmentReminder./appointmentreminder.
+description: Содержит коллекцию напоминаний о назначенииAppointmentReminder./appointmentreminder объекты.
 type: docs
 weight: 540
 url: /ru/net/aspose.email.calendar/appointmentremindercollection/
 ---
 ## AppointmentReminderCollection class
 
-Содержит коллекцию объектов AppointmentReminder[`AppointmentReminder`](../appointmentreminder).
+Содержит коллекцию напоминаний о назначении[`AppointmentReminder`](../appointmentreminder) объекты.
 
 ```csharp
 public class AppointmentReminderCollection : List<AppointmentReminder>

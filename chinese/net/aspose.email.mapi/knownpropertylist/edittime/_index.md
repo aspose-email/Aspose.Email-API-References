@@ -1,14 +1,14 @@
 ---
 title: EditTime
 second_title: Aspose.Email for .NET API 参考
-description: 指定上次编辑文件的时间 区域普通 规范名称PidNameEditTime 替代名称urnschemas-microsoft-comofficeofficeTotalTime
+description: 指定上次编辑文件的时间 区域Common 规范名称PidNameEditTime 备用名称urnschemas-microsoft-comofficeofficeTotalTime
 type: docs
 weight: 4280
 url: /zh/net/aspose.email.mapi/knownpropertylist/edittime/
 ---
 ## KnownPropertyList.EditTime field
 
-指定上次编辑文件的时间。 区域：普通 规范名称：PidNameEditTime 替代名称：urn:schemas-microsoft-com:office:office#TotalTime
+指定上次编辑文件的时间。 区域：Common 规范名称：PidNameEditTime 备用名称：urn:schemas-microsoft-com:office:office#TotalTime
 
 ```csharp
 public static readonly PidNamePropertyDescriptor EditTime;

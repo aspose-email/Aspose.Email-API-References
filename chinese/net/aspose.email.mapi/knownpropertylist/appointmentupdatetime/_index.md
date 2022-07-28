@@ -1,14 +1,14 @@
 ---
 title: AppointmentUpdateTime
 second_title: Aspose.Email for .NET API 参考
-description: 指示上次更新约会的时间 区域会议 规范名称PidLidAppointmentUpdateTime 别名dispidApptUpdateTime
+description: 表示上次更新约会的时间 区域Meetings 规范名称PidLidAppointmentUpdateTime 替代名称dispidApptUpdateTime
 type: docs
 weight: 1390
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentupdatetime/
 ---
 ## KnownPropertyList.AppointmentUpdateTime field
 
-指示上次更新约会的时间。 区域:会议 规范名称:PidLidAppointmentUpdateTime 别名:dispidApptUpdateTime
+表示上次更新约会的时间。 区域：Meetings 规范名称：PidLidAppointmentUpdateTime 替代名称：dispidApptUpdateTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentUpdateTime;

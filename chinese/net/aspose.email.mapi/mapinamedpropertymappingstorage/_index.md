@@ -3,7 +3,7 @@ title: MapiNamedPropertyMappingStorage
 second_title: Aspose.Email for .NET API 参考
 description: 表示命名属性映射
 type: docs
-weight: 18490
+weight: 18520
 url: /zh/net/aspose.email.mapi/mapinamedpropertymappingstorage/
 ---
 ## MapiNamedPropertyMappingStorage class
@@ -18,7 +18,7 @@ public sealed class MapiNamedPropertyMappingStorage : MapiPropertyContainer
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiNamedPropertyMappingStorage](mapinamedpropertymappingstorage)() | 初始化[`MapiNamedPropertyMappingStorage`](../mapinamedpropertymappingstorage)类的新实例。 |
+| [MapiNamedPropertyMappingStorage](mapinamedpropertymappingstorage)() | 初始化[`MapiNamedPropertyMappingStorage`](../mapinamedpropertymappingstorage)类. |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public sealed class MapiNamedPropertyMappingStorage : MapiPropertyContainer
 | virtual [CodePage](../../aspose.email.mapi/mapipropertycontainer/codepage) { get; } | 获取代码页。 |
 | [Content](../../aspose.email.mapi/mapinamedpropertymappingstorage/content) { get; } | 获取内容 |
 | [Name](../../aspose.email.mapi/mapinamedpropertymappingstorage/name) { get; } | 获取名称 |
-| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties) { get; } | 获取属性集合。 |
+| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties) { get; } | 获取属性的集合。 |
 
 ## 方法
 
@@ -37,11 +37,11 @@ public sealed class MapiNamedPropertyMappingStorage : MapiPropertyContainer
 | [AddNamedPropertyMapping](../../aspose.email.mapi/mapinamedpropertymappingstorage/addnamedpropertymapping#addnamedpropertymapping_1)(MapiProperty, string, Guid) | 为字符串命名属性添加命名属性映射。 |
 | [GetNextAvailablePropertyId](../../aspose.email.mapi/mapinamedpropertymappingstorage/getnextavailablepropertyid)(MapiPropertyType) | 根据属性数据类型获取条目流中的下一个可用属性 ID。 |
 | virtual [GetProperty](../../aspose.email.mapi/mapipropertycontainer/getproperty)(PropertyDescriptor) | 通过属性描述符获取 MAPI 属性。 |
-| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | 获取 tag 指定的属性值作为布尔类型。 |
+| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | 获取tag指定的属性值为布尔类型。 |
 | [GetPropertyBytes](../../aspose.email.mapi/mapipropertycontainer/getpropertybytes)(long) | 获取tag指定的属性的字符串值。 |
-| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime)(long) | 获取 tag 指定为 DateTime 类型的属性值。 |
-| [GetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/getpropertyint32)(long) | 获取 tag 指定的属性的 int32 值。 |
-| [GetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/getpropertylong)(long) | 获取 tag 指定的属性值，为 Long (int64) 类型。 |
+| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime)(long) | 获取 tag 指定的属性值为 DateTime 类型。 |
+| [GetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/getpropertyint32)(long) | 获取tag指定的属性的int32值。 |
+| [GetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/getpropertylong)(long) | 获取tag指定的属性值为Long(int64)类型。 |
 | [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort)(long) | 获取 tag 指定的属性值为 Short 类型。 |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long) | 获取tag指定的属性的字符串值。 |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long, int) | 获取tag指定的属性的字符串值。 |
@@ -51,11 +51,11 @@ public sealed class MapiNamedPropertyMappingStorage : MapiPropertyContainer
 | [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata)(long) | 尝试获取指定标签键的属性数据。 |
 | [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime)(long, ref DateTime) | 获取指定属性的值作为 DateTime 类型。 返回值表示操作是否成功。 |
 | [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32)(long, ref int) | 获取指定属性的值作为 Int32 类型。 返回值表示操作是否成功。 |
-| [TryGetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/trygetpropertylong)(long, ref long) | 获取指定属性的值为 Long 类型。 返回值表示操作是否成功。 |
+| [TryGetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/trygetpropertylong)(long, ref long) | 获取指定属性的值作为 Long 类型。 返回值表示操作是否成功。 |
 | [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long) | 尝试获取属性数据作为带有指定标签的字符串。 |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long, int) | 尝试获取属性数据作为具有指定标记和代码页的字符串。 |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long, ref string) | 获取字符串类型的指定属性的值。 返回值表示操作是否成功。 |
-| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long, ref string, int) | 获取字符串类型的指定属性的值。 返回值表示操作是否成功。 |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long, int) | 尝试将属性数据作为具有指定标签和代码页的字符串获取。 |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long, ref string) | 以字符串类型获取指定属性的值。 返回值表示操作是否成功。 |
+| [TryGetPropertyString](../../aspose.email.mapi/mapipropertycontainer/trygetpropertystring)(long, ref string, int) | 以字符串类型获取指定属性的值。 返回值表示操作是否成功。 |
 
 ### 也可以看看
 

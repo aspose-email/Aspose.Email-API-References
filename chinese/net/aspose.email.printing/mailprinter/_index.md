@@ -3,7 +3,7 @@ title: MailPrinter
 second_title: Aspose.Email for .NET API 参考
 description: 表示用于邮件消息的打印机
 type: docs
-weight: 19820
+weight: 19870
 url: /zh/net/aspose.email.printing/mailprinter/
 ---
 ## MailPrinter class
@@ -18,14 +18,14 @@ public sealed class MailPrinter : IPrintSettingsProvider
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailPrinter](mailprinter#constructor)() | 初始化[`MailPrinter`](../mailprinter)类的新实例，页面大小为 A4 纸张设置，边距为 0.5 英寸为各方。 |
-| [MailPrinter](mailprinter#constructor_1)(IPrintSettingsProvider) | 使用给定的设置提供程序初始化[`MailPrinter`](../mailprinter)类的新实例。 |
+| [MailPrinter](mailprinter#constructor)() | 初始化[`MailPrinter`](../mailprinter)具有 A4 纸张设置的页面大小和 0.5 英寸边距的类。 |
+| [MailPrinter](mailprinter#constructor_1)(IPrintSettingsProvider) | 初始化[`MailPrinter`](../mailprinter)使用给定设置提供程序的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CultureName](../../aspose.email.printing/mailprinter/culturename) { get; set; } | 获取或设置格式为 languagecode2-country/regioncode2 的文化名称。 |
+| [CultureName](../../aspose.email.printing/mailprinter/culturename) { get; set; } | 获取或设置格式为 languagecode2-country/regioncode2. 的文化名称 |
 | [DpiX](../../aspose.email.printing/mailprinter/dpix) { get; set; } | 获取或设置水平 DPI。 |
 | [DpiY](../../aspose.email.printing/mailprinter/dpiy) { get; set; } | 获取或设置垂直 DPI。 |
 | [FormattingFlags](../../aspose.email.printing/mailprinter/formattingflags) { get; set; } | 获取或设置打印机选项。 |
@@ -35,7 +35,7 @@ public sealed class MailPrinter : IPrintSettingsProvider
 | [MarginTop](../../aspose.email.printing/mailprinter/margintop) { get; set; } | 获取或设置上边距。 |
 | [PageHeight](../../aspose.email.printing/mailprinter/pageheight) { get; set; } | 获取或设置页面高度。 |
 | [PageUnit](../../aspose.email.printing/mailprinter/pageunit) { get; set; } | 获取或设置页面单位。 |
-| [PageWidth](../../aspose.email.printing/mailprinter/pagewidth) { get; set; } | 获取或设置页面宽度。 |
+| [PageWidth](../../aspose.email.printing/mailprinter/pagewidth) { get; set; } | 获取或设置页面的宽度。 |
 
 ## 方法
 

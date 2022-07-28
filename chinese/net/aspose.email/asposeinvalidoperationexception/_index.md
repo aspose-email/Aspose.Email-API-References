@@ -1,14 +1,14 @@
 ---
 title: AsposeInvalidOperationException
 second_title: Aspose.Email for .NET API 参考
-description: 表示对象处于使调用方法非法的状态的异常类
+description: 表示对象的异常类处于使调用方法非法的状态
 type: docs
 weight: 330
 url: /zh/net/aspose.email/asposeinvalidoperationexception/
 ---
 ## AsposeInvalidOperationException class
 
-表示对象处于使调用方法非法的状态的异常类。
+表示对象的异常类处于使调用方法非法的状态。
 
 ```csharp
 public class AsposeInvalidOperationException : AsposeException
@@ -18,10 +18,10 @@ public class AsposeInvalidOperationException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor)() | 初始化[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)类的新实例。 |
-| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_1)(string) | 使用指定的错误消息初始化[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)类的新实例。 |
-| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_2)(string, Exception) | 使用指定的错误消息初始化[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)类的新实例。 |
-| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_3)(string, params object[]) | 使用指定的错误消息初始化[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)类的新实例。 |
+| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor)() | 初始化[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)类. |
+| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_1)(string) | 初始化[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)具有指定错误消息的类。 |
+| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_2)(string, Exception) | 初始化[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)具有指定错误消息的类。 |
+| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_3)(string, params object[]) | 初始化[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)具有指定错误消息的类。 |
 | [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_4)(string, string) |  |
 
 ## 特性

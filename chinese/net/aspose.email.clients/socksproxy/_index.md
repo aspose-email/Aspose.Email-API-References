@@ -1,14 +1,14 @@
 ---
 title: SocksProxy
 second_title: Aspose.Email for .NET API 参考
-description: SOCKS 代理客户端 支持的协议版本是 SOCKS4 和 SOCKS5
+description: SOCKS 代理客户端 支持的协议版本为 SOCKS4 和 SOCKS5
 type: docs
 weight: 17100
 url: /zh/net/aspose.email.clients/socksproxy/
 ---
 ## SocksProxy class
 
-SOCKS 代理客户端。 支持的协议版本是 SOCKS4 和 SOCKS5。
+SOCKS 代理客户端。 支持的协议版本为 SOCKS4 和 SOCKS5。
 
 ```csharp
 public class SocksProxy : Proxy
@@ -18,10 +18,10 @@ public class SocksProxy : Proxy
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SocksProxy](socksproxy#constructor)(string, int) | 初始化[`SocksProxy`](../socksproxy)类的新实例以连接到 SOCKS4 服务器而无需身份验证。 |
-| [SocksProxy](socksproxy#constructor_1)(string, int, SocksVersion) | 初始化[`SocksProxy`](../socksproxy)类的新实例以连接到 SOCKS4 或 SOCKS5 服务器而无需身份验证。 |
-| [SocksProxy](socksproxy#constructor_2)(string, int, string) | 初始化[`SocksProxy`](../socksproxy)类的新实例以连接到 SOCKS4 服务器而无需身份验证。 |
-| [SocksProxy](socksproxy#constructor_3)(string, int, string, string) | 初始化[`SocksProxy`](../socksproxy)类的新实例以使用定义的用户名和密码连接到 SOCKS5 服务器。 |
+| [SocksProxy](socksproxy#constructor)(string, int) | 初始化[`SocksProxy`](../socksproxy)无需身份验证即可连接到 SOCKS4 服务器的类。 |
+| [SocksProxy](socksproxy#constructor_1)(string, int, SocksVersion) | 初始化[`SocksProxy`](../socksproxy)无需身份验证即可连接到 SOCKS4 或 SOCKS5 服务器的类。 |
+| [SocksProxy](socksproxy#constructor_2)(string, int, string) | 初始化[`SocksProxy`](../socksproxy)无需身份验证即可连接到 SOCKS4 服务器的类。 |
+| [SocksProxy](socksproxy#constructor_3)(string, int, string, string) | 初始化[`SocksProxy`](../socksproxy)使用定义的用户名和密码连接到 SOCKS5 服务器的类。 |
 
 ## 特性
 
@@ -31,7 +31,7 @@ public class SocksProxy : Proxy
 | [Password](../../aspose.email.clients/proxy/password) { get; set; } | 代理认证密码 |
 | [Port](../../aspose.email.clients/proxy/port) { get; set; } | 代理服务器的端口号 |
 | [SupportedAuthenticationMethods](../../aspose.email.clients/socksproxy/supportedauthenticationmethods) { get; set; } | 支持的连接到 SOCKS 服务器的身份验证方法 |
-| [Username](../../aspose.email.clients/proxy/username) { get; set; } | 代理认证用户名 |
+| [Username](../../aspose.email.clients/proxy/username) { get; set; } | 代理身份验证的用户名 |
 | [Version](../../aspose.email.clients/socksproxy/version) { get; set; } | 所需的 SOCKS 服务器版本。 |
 
 ## 方法
@@ -39,7 +39,7 @@ public class SocksProxy : Proxy
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Dispose](../../aspose.email.clients/proxy/dispose)() | 释放此实例并请求关闭底层 TCP 连接。 |
-| [GetStream](../../aspose.email.clients/proxy/getstream)(string, int) | 返回配置的网络流，通过代理服务器将数据传输到所需的主机。 |
+| [GetStream](../../aspose.email.clients/proxy/getstream)(string, int) | 返回配置的网络流以通过代理服务器将数据传输到所需的主机。 |
 | override [SetUpStream](../../aspose.email.clients/socksproxy/setupstream)(Stream, string, int) | 配置代理服务器以将数据传输到目标主机。 |
 
 ### 也可以看看

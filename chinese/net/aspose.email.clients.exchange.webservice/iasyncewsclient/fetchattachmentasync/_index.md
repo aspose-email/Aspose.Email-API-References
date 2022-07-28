@@ -17,7 +17,7 @@ public Task<Attachment> FetchAttachmentAsync(string attachmentUri,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| attachmentUri | String | 附件 uri。 （附件 uri 可以使用 ListMessages(folder, ExchangeListMessagesOptions.FetchAttachmentInformation) 方法检索） |
+| attachmentUri | String | 附件uri. （可以使用ListMessages（文件夹，ExchangeListMessagesOptions.FetchAttachmentInformation）方法检索附件uri） |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
@@ -28,7 +28,7 @@ public Task<Attachment> FetchAttachmentAsync(string attachmentUri,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *attachmentUri*为空或空 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *attachmentUri*为空或为空 |
 
 ### 也可以看看
 

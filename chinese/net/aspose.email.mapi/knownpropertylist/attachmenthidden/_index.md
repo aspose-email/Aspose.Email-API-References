@@ -1,14 +1,14 @@
 ---
 title: AttachmentHidden
 second_title: Aspose.Email for .NET API 参考
-description: 指示附件对象是否对最终用户隐藏 区域消息附件属性 规范名称PidTagAttachmentHidden 备用名称PR_ATTACHMENT_HIDDEN
+description: 指示附件对象是否对最终用户隐藏 区域消息附件属性 规范名称PidTagAttachmentHidden 替代名称PR_ATTACHMENT_HIDDEN
 type: docs
 weight: 1650
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachmenthidden/
 ---
 ## KnownPropertyList.AttachmentHidden field
 
-指示附件对象是否对最终用户隐藏。 区域:消息附件属性 规范名称:PidTagAttachmentHidden 备用名称:PR_ATTACHMENT_HIDDEN
+指示附件对象是否对最终用户隐藏。 区域：消息附件属性 规范名称：PidTagAttachmentHidden 替代名称：PR_ATTACHMENT_HIDDEN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentHidden;

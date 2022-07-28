@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/autoprocessstate/
 ---
 ## KnownPropertyList.AutoProcessState field
 
-指定用于自动处理电子邮件的选项。 区域:常规消息属性 规范名称:PidLidAutoProcessState 替代名称:dispidSniffState
+指定用于自动处理电子邮件的选项。 区域：常规消息属性 规范名称：PidLidAutoProcessState 替代名称：dispidSniffState
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AutoProcessState;

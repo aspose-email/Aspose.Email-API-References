@@ -16,7 +16,7 @@ public Task SaveMessageAsync(Pop3SaveMessage parameters)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parameters | Pop3SaveMessage | 参数放。 |
+| parameters | Pop3SaveMessage | 参数集。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AlternateView
 second_title: Aspose.Email for .NET API 参考
-description: 初始化AlternateViewaspose.email/alternateview类的新实例
+description: 初始化AlternateViewaspose.email/alternateview类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/alternateview/alternateview/
 ---
 ## AlternateView(string) {#constructor_3}
 
-初始化[`AlternateView`](../../alternateview)类的新实例。
+初始化[`AlternateView`](../../alternateview)类.
 
 ```csharp
 public AlternateView(string fileName)
@@ -16,7 +16,7 @@ public AlternateView(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public AlternateView(string fileName)
 
 ## AlternateView(string, string) {#constructor_5}
 
-初始化[`AlternateView`](../../alternateview)类的新实例。
+初始化[`AlternateView`](../../alternateview)类.
 
 ```csharp
 public AlternateView(string fileName, string mediaType)
@@ -36,8 +36,8 @@ public AlternateView(string fileName, string mediaType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
-| mediaType | String | Internet 媒体类型。 |
+| fileName | String | 文件的名称。 |
+| mediaType | String | 互联网媒体类型。 |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public AlternateView(string fileName, string mediaType)
 
 ## AlternateView(string, ContentType) {#constructor_4}
 
-初始化[`AlternateView`](../../alternateview)类的新实例。
+初始化[`AlternateView`](../../alternateview)类.
 
 ```csharp
 public AlternateView(string fileName, ContentType contentType)
@@ -57,7 +57,7 @@ public AlternateView(string fileName, ContentType contentType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 | contentType | ContentType | 内容类型。 |
 
 ### 也可以看看
@@ -71,7 +71,7 @@ public AlternateView(string fileName, ContentType contentType)
 
 ## AlternateView(Stream) {#constructor}
 
-初始化[`AlternateView`](../../alternateview)类的新实例。
+初始化[`AlternateView`](../../alternateview)类.
 
 ```csharp
 public AlternateView(Stream contentStream)
@@ -91,7 +91,7 @@ public AlternateView(Stream contentStream)
 
 ## AlternateView(Stream, string) {#constructor_2}
 
-初始化[`AlternateView`](../../alternateview)类的新实例。
+初始化[`AlternateView`](../../alternateview)类.
 
 ```csharp
 public AlternateView(Stream contentStream, string mediaType)
@@ -100,7 +100,7 @@ public AlternateView(Stream contentStream, string mediaType)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | contentStream | Stream | 内容流。 |
-| mediaType | String | Internet 媒体类型。 |
+| mediaType | String | 互联网媒体类型。 |
 
 ### 也可以看看
 
@@ -112,7 +112,7 @@ public AlternateView(Stream contentStream, string mediaType)
 
 ## AlternateView(Stream, ContentType) {#constructor_1}
 
-初始化[`AlternateView`](../../alternateview)类的新实例。
+初始化[`AlternateView`](../../alternateview)类.
 
 ```csharp
 public AlternateView(Stream contentStream, ContentType contentType)

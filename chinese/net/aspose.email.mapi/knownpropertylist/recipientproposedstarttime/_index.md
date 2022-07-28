@@ -1,14 +1,14 @@
 ---
 title: RecipientProposedStartTime
 second_title: Aspose.Email for .NET API 参考
-description: 表示参加者在反提案中请求的会议开始时间 区域TransportRecipient 规范名称PidTagRecipientProposedStartTime 替代名称PR_RECIPIENT_PROPOSEDSTARTTIME ptagRecipientProposedStartTime
+description: 表示与会者在反提案中请求的会议开始时间 区域TransportRecipient 规范名称PidTagRecipientProposedStartTime 别名PR_RECIPIENT_PROPOSEDSTARTTIMEptagRecipientProposedStartTime
 type: docs
 weight: 15510
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipientproposedstarttime/
 ---
 ## KnownPropertyList.RecipientProposedStartTime field
 
-表示参加者在反提案中请求的会议开始时间。 区域:TransportRecipient 规范名称:PidTagRecipientProposedStartTime 替代名称:PR_RECIPIENT_PROPOSEDSTARTTIME, ptagRecipientProposedStartTime
+表示与会者在反提案中请求的会议开始时间。 区域：TransportRecipient 规范名称：PidTagRecipientProposedStartTime 别名：PR_RECIPIENT_PROPOSEDSTARTTIME、ptagRecipientProposedStartTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientProposedStartTime;

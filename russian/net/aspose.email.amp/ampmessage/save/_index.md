@@ -16,8 +16,8 @@ public override void Save(Stream stream, SaveOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, в который помещается сообщение сохранено |
-| options | SaveOptions | Дополнительные параметры сохранения[`SaveOptions`](../../../aspose.email/saveoptions). |
+| stream | Stream | Поток, в который сохраняется сообщение |
+| options | SaveOptions | Дополнительные возможности для сохранения[`SaveOptions`](../../../aspose.email/saveoptions). |
 
 ### Смотрите также
 

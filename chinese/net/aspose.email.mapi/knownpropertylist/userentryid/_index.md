@@ -1,14 +1,14 @@
 ---
 title: UserEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 登录到公用文件夹的用户的通讯簿EntryID 区域ExchangeMessageStore 规范名称PidTagUserEntryId 备用名称PR_USER_ENTRYID ptagUserEntryId
+description: 登录到公用文件夹的用户的通讯簿条目 ID 区域ExchangeMessageStore 规范名称PidTagUserEntryId 别名PR_USER_ENTRYIDptagUserEntryId
 type: docs
 weight: 19170
 url: /zh/net/aspose.email.mapi/knownpropertylist/userentryid/
 ---
 ## KnownPropertyList.UserEntryId field
 
-登录到公用文件夹的用户的通讯簿EntryID。 区域:ExchangeMessageStore 规范名称:PidTagUserEntryId 备用名称:PR_USER_ENTRYID, ptagUserEntryId
+登录到公用文件夹的用户的通讯簿条目 ID。 区域：ExchangeMessageStore 规范名称：PidTagUserEntryId 别名：PR_USER_ENTRYID、ptagUserEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor UserEntryId;

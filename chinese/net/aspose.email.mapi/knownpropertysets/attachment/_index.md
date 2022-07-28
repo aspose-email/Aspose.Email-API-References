@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/attachment/
 ---
 ## KnownPropertySets.Attachment field
 
-区域名称:消息附件 属性集名称:PSETID_Attachment
+区域名称：消息附件 属性集名称：PSETID_Attachment
 
 ```csharp
 public static readonly Guid Attachment;

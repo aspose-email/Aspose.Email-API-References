@@ -16,17 +16,17 @@ public UserConfiguration GetUserConfiguration(UserConfigurationName userConfigur
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| userConfigurationName | UserConfigurationName | 指定用户配置搜索 |
+| userConfigurationName | UserConfigurationName | 指定要搜索的用户配置 |
 
 ### 返回值
 
-收到[`UserConfiguration`](../../userconfiguration)
+A收到[`UserConfiguration`](../../userconfiguration)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 在*userConfigurationName*为` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时*userConfigurationName*是`无效的` |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ExchangeDelegateUser
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ExchangeDelegateUseraspose.email.clients.exchange.webservice/exchangedelegateuser类 的新实例
+description: 初始化ExchangeDelegateUseraspose.email.clients.exchange.webservice/exchangedelegateuser class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangedelegateuser/exchangedelegateuser/
 ---
 ## ExchangeDelegateUser() {#constructor}
 
-初始化[`ExchangeDelegateUser`](../../exchangedelegateuser)类 的新实例
+初始化[`ExchangeDelegateUser`](../../exchangedelegateuser) class
 
 ```csharp
 public ExchangeDelegateUser()
@@ -24,7 +24,7 @@ public ExchangeDelegateUser()
 
 ## ExchangeDelegateUser(string, ExchangeDelegateFolderPermissionLevel) {#constructor_1}
 
-为指定用户初始化[`ExchangeDelegateUser`](../../exchangedelegateuser)类的新实例并设置指定所有文件夹的权限级别
+初始化[`ExchangeDelegateUser`](../../exchangedelegateuser)指定用户的类并为所有文件夹设置指定的权限级别
 
 ```csharp
 public ExchangeDelegateUser(string primarySmtpAddress, 

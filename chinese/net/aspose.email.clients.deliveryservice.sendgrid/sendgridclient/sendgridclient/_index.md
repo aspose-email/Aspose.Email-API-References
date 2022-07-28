@@ -1,14 +1,14 @@
 ---
 title: SendGridClient
 second_title: Aspose.Email for .NET API 参考
-description: 初始化SendGridClientaspose.email.clients.deliveryservice.sendgrid/sendgridclient类 的新实例
+description: 初始化SendGridClientaspose.email.clients.deliveryservice.sendgrid/sendgridclient class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/sendgridclient/
 ---
 ## SendGridClient constructor
 
-初始化[`SendGridClient`](../../sendgridclient)类 的新实例
+初始化[`SendGridClient`](../../sendgridclient) class
 
 ```csharp
 public SendGridClient(string apiKey, bool sandBoxMode = false)

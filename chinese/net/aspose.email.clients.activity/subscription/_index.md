@@ -1,14 +1,14 @@
 ---
 title: Subscription
 second_title: Aspose.Email for .NET API 参考
-description: 对象包含有关订阅的信息以及相关联的 webhook
+description: 对象包含有关订阅的信息以及关联的 webhook
 type: docs
 weight: 2780
 url: /zh/net/aspose.email.clients.activity/subscription/
 ---
 ## Subscription class
 
-对象包含有关订阅的信息以及相关联的 webhook。
+对象包含有关订阅的信息以及关联的 webhook。
 
 ```csharp
 public class Subscription

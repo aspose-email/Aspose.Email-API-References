@@ -1,14 +1,14 @@
 ---
 title: TaskRegeneratingPattern
 second_title: Aspose.Email for .NET API 参考
-description: 初始化TaskRegeneratingPatternaspose.email.clients.exchange.webservice/taskregeneratingpattern类的新实例
+description: 初始化TaskRegeneratingPatternaspose.email.clients.exchange.webservice/taskregeneratingpattern类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/taskregeneratingpattern/taskregeneratingpattern/
 ---
 ## TaskRegeneratingPattern constructor
 
-初始化[`TaskRegeneratingPattern`](../../taskregeneratingpattern)类的新实例。
+初始化[`TaskRegeneratingPattern`](../../taskregeneratingpattern)类.
 
 ```csharp
 public TaskRegeneratingPattern(TaskRegeneratingType type, int interval)
@@ -17,7 +17,7 @@ public TaskRegeneratingPattern(TaskRegeneratingType type, int interval)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | type | TaskRegeneratingType | 指定重新生成模式的类型。 |
-| interval | Int32 | 指定当前任务完成后的天数、周数、月数或年数将到期。 |
+| interval | Int32 | 指定当前任务完成后的天数、周数、月数或年数，下一次事件将到期。 |
 
 ### 也可以看看
 

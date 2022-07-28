@@ -1,14 +1,14 @@
 ---
 title: StandardFormatter
 second_title: Aspose.Email for .NET API 参考
-description: 初始化StandardFormatteraspose.email.tools.logging/standardformatter类的新实例
+description: 初始化StandardFormatteraspose.email.tools.logging/standardformatter类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.tools.logging/standardformatter/standardformatter/
 ---
 ## StandardFormatter() {#constructor}
 
-初始化[`StandardFormatter`](../../standardformatter)类的新实例。
+初始化[`StandardFormatter`](../../standardformatter)类.
 
 ```csharp
 public StandardFormatter()
@@ -24,7 +24,7 @@ public StandardFormatter()
 
 ## StandardFormatter(StringBuilder) {#constructor_2}
 
-初始化[`StandardFormatter`](../../standardformatter)类的新实例。
+初始化[`StandardFormatter`](../../standardformatter)类.
 
 ```csharp
 public StandardFormatter(StringBuilder headerText)
@@ -44,7 +44,7 @@ public StandardFormatter(StringBuilder headerText)
 
 ## StandardFormatter(string) {#constructor_1}
 
-初始化[`StandardFormatter`](../../standardformatter)类的新实例。
+初始化[`StandardFormatter`](../../standardformatter)类.
 
 ```csharp
 public StandardFormatter(string headerText)

@@ -19,7 +19,7 @@ public interface IAsyncResultExt : IAsyncResult
 | Имя | Описание |
 | --- | --- |
 | [ErrorInfo](../../aspose.email.clients/iasyncresultext/errorinfo) { get; } | Получает значение, представляющее ошибку операции. |
-| [IsCanceled](../../aspose.email.clients/iasyncresultext/iscanceled) { get; } | Получает значение, указывающее, завершилась ли асинхронная операция синхронно. |
+| [IsCanceled](../../aspose.email.clients/iasyncresultext/iscanceled) { get; } | Получает значение, указывающее, была ли асинхронная операция завершена синхронно. |
 
 ### Смотрите также
 

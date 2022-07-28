@@ -1,14 +1,14 @@
 ---
 title: ContainerContents
 second_title: Aspose.Email for .NET API 参考
-description: 始终为空 NSPI 服务器为分发列表定义此值而其他对象不存在此值 区域容器属性 规范名称PidTagContainerContents 替代名称PR_CONTAINER_CONTENTS ptagContainerContents
+description: 始终为空 NSPI 服务器为分发列表定义此值而其他对象不存在此值 区域容器属性 规范名称PidTagContainerContents 替代名称PR_CONTAINER_CONTENTSptagContainerContents
 type: docs
 weight: 3110
 url: /zh/net/aspose.email.mapi/knownpropertylist/containercontents/
 ---
 ## KnownPropertyList.ContainerContents field
 
-始终为空。 NSPI 服务器为分发列表定义此值，而其他对象不存在此值。 区域:容器属性 规范名称:PidTagContainerContents 替代名称:PR_CONTAINER_CONTENTS, ptagContainerContents
+始终为空。 NSPI 服务器为分发列表定义此值，而其他对象不存在此值。 区域：容器属性 规范名称：PidTagContainerContents 替代名称：PR_CONTAINER_CONTENTS、ptagContainerContents
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContainerContents;

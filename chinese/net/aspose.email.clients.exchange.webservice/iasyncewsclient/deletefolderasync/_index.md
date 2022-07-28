@@ -18,14 +18,14 @@ public Task DeleteFolderAsync(string folderUri, bool deletePermanently = false,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderUri | String | 文件夹 URI |
-| deletePermanently | Boolean | 指示该文件夹是应该永久删除还是应该移动到 DeletedItems 文件夹 |
+| deletePermanently | Boolean | 指示该文件夹是应该永久删除还是应该移入 DeletedItems 文件夹 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` 或空 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*是`无效的`或为空 |
 
 ### 也可以看看
 

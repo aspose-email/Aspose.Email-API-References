@@ -1,14 +1,14 @@
 ---
 title: ExchangeJunkEmailMoveStamp
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮件不被垃圾邮件过滤器处理 区域安全消息属性 规范名称PidNameExchangeJunkEmailMoveStamp 备用名称http//schemas.microsoft.com/exchange/junkemailmovestamp
+description: 表示邮件不会被垃圾邮件过滤器处理 区域安全邮件属性 规范名称PidNameExchangeJunkEmailMoveStamp 替代名称http//schemas.microsoft.com/exchange/junkemailmovestamp
 type: docs
 weight: 9830
 url: /zh/net/aspose.email.mapi/knownpropertylist/exchangejunkemailmovestamp/
 ---
 ## KnownPropertyList.ExchangeJunkEmailMoveStamp field
 
-表示邮件不被垃圾邮件过滤器处理。 区域:安全消息属性 规范名称:PidNameExchangeJunkEmailMoveStamp 备用名称:http://schemas.microsoft.com/exchange/junkemailmovestamp
+表示邮件不会被垃圾邮件过滤器处理。 区域：安全邮件属性 规范名称：PidNameExchangeJunkEmailMoveStamp 替代名称：http://schemas.microsoft.com/exchange/junkemailmovestamp
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangeJunkEmailMoveStamp;

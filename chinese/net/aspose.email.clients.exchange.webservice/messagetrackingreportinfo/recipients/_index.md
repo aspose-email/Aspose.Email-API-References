@@ -1,14 +1,14 @@
 ---
 title: Recipients
 second_title: Aspose.Email for .NET API 参考
-description: 获取已找到邮件的收件人的电子邮件地址
+description: 获取找到的邮件的收件人的电子邮件地址
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange.webservice/messagetrackingreportinfo/recipients/
 ---
 ## MessageTrackingReportInfo.Recipients property
 
-获取已找到邮件的收件人的电子邮件地址。
+获取找到的邮件的收件人的电子邮件地址。
 
 ```csharp
 public MailAddressCollection Recipients { get; }

@@ -1,14 +1,14 @@
 ---
 title: Picture
 second_title: Aspose.Email for .NET API 参考
-description: 包含与照片请求相关的数据 协议版本为12.1或14.0时不支持图片
+description: 包含与照片请求相关的数据 协议版本为 12.1 或 14.0 时不支持图片
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activesync.transportlayer/searchoptions/picture/
 ---
 ## SearchOptions.Picture property
 
-包含与照片请求相关的数据。 协议版本为12.1或14.0时不支持图片。
+包含与照片请求相关的数据。 协议版本为 12.1 或 14.0 时不支持图片。
 
 ```csharp
 public PictureRequest Picture { get; set; }

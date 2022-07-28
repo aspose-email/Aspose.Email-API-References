@@ -18,7 +18,7 @@ public abstract class SyncOperationResponse
 
 | Имя | Описание |
 | --- | --- |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/serverid) { get; set; } | Представляет уникальный идентификатор, который присваивается сервером каждому синхронизируемому объекту. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/serverid) { get; set; } | Представляет уникальный идентификатор, назначаемый сервером каждому объекту, который может быть синхронизирован. |
 | [Status](../../aspose.email.clients.activesync.transportlayer/syncoperationresponse/status) { get; set; } | Указывает результат операции. Используется только в ответах сервера. |
 
 ### Смотрите также

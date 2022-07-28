@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/op_equality/
 ---
 ## AssociatedPersonCategory Equality operator
 
-判断指定对象是否相等。
+判断指定对象是否相等
 
 ```csharp
 public static bool operator ==(AssociatedPersonCategory a, AssociatedPersonCategory b)
@@ -17,7 +17,7 @@ public static bool operator ==(AssociatedPersonCategory a, AssociatedPersonCateg
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | a | AssociatedPersonCategory | 第一个要比较的对象 |
-| b | AssociatedPersonCategory | 第二个要比较的对象比较 |
+| b | AssociatedPersonCategory | 第二个要比较的对象 |
 
 ### 返回值
 

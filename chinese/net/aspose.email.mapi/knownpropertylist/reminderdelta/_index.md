@@ -1,14 +1,14 @@
 ---
 title: ReminderDelta
 second_title: Aspose.Email for .NET API 参考
-description: 指定提醒第一次过期的时间和日历对象的开始时间之间的时间间隔以分钟为单位 区域提醒 规范名称PidLidReminderDelta 替代名称dispidReminderDeltahttp//schemas.microsoft.com/mapi/reminderdelta
+description: 指定提醒第一次过期的时间与日历对象的开始时间之间的时间间隔以分钟为单位 区域Reminders 规范名称PidLidReminderDelta 替代名称dispidReminderDeltahttp//schemas.microsoft.com/mapi/reminderdelta
 type: docs
 weight: 15670
 url: /zh/net/aspose.email.mapi/knownpropertylist/reminderdelta/
 ---
 ## KnownPropertyList.ReminderDelta field
 
-指定提醒第一次过期的时间和日历对象的开始时间之间的时间间隔，以分钟为单位。 区域:提醒 规范名称:PidLidReminderDelta 替代名称:dispidReminderDelta，http://schemas.microsoft.com/mapi/reminderdelta
+指定提醒第一次过期的时间与日历对象的开始时间之间的时间间隔（以分钟为单位）。 区域：Reminders 规范名称：PidLidReminderDelta 替代名称：dispidReminderDelta，http://schemas.microsoft.com/mapi/reminderdelta
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderDelta;

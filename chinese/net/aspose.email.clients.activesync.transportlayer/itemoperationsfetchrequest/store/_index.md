@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchr
 ---
 ## ItemOperationsFetchRequest.Store property
 
-指定应用父操作的商店的名称。 以下值对 Store 元素有效: - 文档库（Microsoft SharePoint Server 和 UNC 链接） - 邮箱（项目和附件）
+指定应用父操作的商店的名称。 以下值对 Store 元素有效： - 文档库（Microsoft SharePoint Server 和 UNC 链接） - 邮箱（项目和附件）
 
 ```csharp
 public StoreType Store { get; set; }

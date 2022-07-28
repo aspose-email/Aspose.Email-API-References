@@ -1,14 +1,14 @@
 ---
 title: Mileage
 second_title: Aspose.Email for .NET API 参考
-description: 里程标头
+description: 里程表头
 type: docs
 weight: 70
 url: /zh/net/aspose.email/mhttemplatename.task/mileage/
 ---
 ## MhtTemplateName.Task.Mileage field
 
-里程标头。
+里程表头。
 
 ```csharp
 public const string Mileage;

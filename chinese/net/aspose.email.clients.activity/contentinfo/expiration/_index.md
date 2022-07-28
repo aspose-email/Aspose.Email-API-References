@@ -1,14 +1,14 @@
 ---
 title: Expiration
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置日期时间在此之后内容将不再可用于检索
+description: 获取或设置内容将不再可用于检索的日期时间
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activity/contentinfo/expiration/
 ---
 ## ContentInfo.Expiration property
 
-获取或设置日期时间，在此之后内容将不再可用于检索。
+获取或设置内容将不再可用于检索的日期时间。
 
 ```csharp
 public DateTime Expiration { get; set; }

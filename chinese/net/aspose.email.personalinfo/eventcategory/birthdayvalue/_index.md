@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/eventcategory/birthdayvalue/
 ---
 ## EventCategory.BirthdayValue field
 
-'生日'类别的字符串值
+“生日”类别的字符串值
 
 ```csharp
 public const string BirthdayValue;

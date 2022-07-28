@@ -18,12 +18,12 @@ public enum UserType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 未指定用户类型 只有 Exchange 操作包含用户类型。 SharePoint 操作不指定用户类型。 |
+| NotDefined | `-1` | 未指定用户类型 只有 Exchange 操作包含用户类型。 SharePoint 操作未指定用户类型。 |
 | Regular | `0` | 普通用户。 |
 | Reserved | `1` | 保留用户。 |
 | Admin | `2` | 管理员。 |
 | DcAdmin | `3` | Microsoft 数据中心操作员。 |
-| System | `4` | 系统帐户。 |
+| System | `4` | 一个系统帐户。 |
 | Application | `5` | 一个应用程序。 |
 | ServicePrincipal | `6` | 服务主体。 |
 

@@ -1,14 +1,14 @@
 ---
 title: AttachDataObject
 second_title: Aspose.Email for .NET API 参考
-description: 包含应用程序特定格式的附件对象的二进制表示 区域消息附件属性 规范名称PidTagAttachDataObject 替代名称PR_ATTACH_DATA_OBJ ptagAttachDataObj
+description: 包含应用程序特定格式的附件对象的二进制表示 区域消息附件属性 规范名称PidTagAttachDataObject 备用名称PR_ATTACH_DATA_OBJptagAttachDataObj
 type: docs
 weight: 1560
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachdataobject/
 ---
 ## KnownPropertyList.AttachDataObject field
 
-包含应用程序特定格式的附件对象的二进制表示。 区域:消息附件属性 规范名称:PidTagAttachDataObject 替代名称:PR_ATTACH_DATA_OBJ, ptagAttachDataObj
+包含应用程序特定格式的附件对象的二进制表示。 区域：消息附件属性 规范名称：PidTagAttachDataObject 备用名称：PR_ATTACH_DATA_OBJ、ptagAttachDataObj
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachDataObject;

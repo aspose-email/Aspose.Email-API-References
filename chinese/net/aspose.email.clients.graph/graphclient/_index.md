@@ -21,9 +21,9 @@ public abstract class GraphClient : IDisposable
 | virtual [MultipleServicesTokenProvider](../../aspose.email.clients.graph/graphclient/multipleservicestokenprovider) { get; set; } | 获取或设置允许检索 OAuth 访问令牌的对象。 |
 | virtual [Proxy](../../aspose.email.clients.graph/graphclient/proxy) { get; set; } | 获取或设置数据以代理访问 Exchange 服务器。 |
 | virtual [Resource](../../aspose.email.clients.graph/graphclient/resource) { get; set; } | 获取或设置资源类型。 |
-| virtual [ResourceId](../../aspose.email.clients.graph/graphclient/resourceid) { get; set; } | 获取或设置资源ID。 例如对于用户，它可能是用户主体名称 (UPN) 或用户 ID |
+| virtual [ResourceId](../../aspose.email.clients.graph/graphclient/resourceid) { get; set; } | 获取或设置资源 id。 例如对于用户，它可能是用户主体名称 (UPN) 或用户 id |
 | virtual [TenantId](../../aspose.email.clients.graph/graphclient/tenantid) { get; set; } | 获取或设置租户标识符 |
-| virtual [Timeout](../../aspose.email.clients.graph/graphclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为 100,000 毫秒（100 秒）。 |
+| virtual [Timeout](../../aspose.email.clients.graph/graphclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为100,000毫秒（100秒）。 |
 | virtual [TokenProvider](../../aspose.email.clients.graph/graphclient/tokenprovider) { get; set; } | 获取或设置允许检索 OAuth 访问令牌的对象。 |
 
 ## 方法
@@ -31,8 +31,8 @@ public abstract class GraphClient : IDisposable
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Dispose](../../aspose.email.clients.graph/graphclient/dispose)() | 执行与释放、释放或重置非托管资源相关的应用程序定义任务。 |
-| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | 初始化[`GraphClient`](../graphclient)基于类 的新实例 |
-| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient_1)(ITokenProvider, string) | 初始化[`GraphClient`](../graphclient)基于类 的新实例 |
+| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | 初始化[`GraphClient`](../graphclient)基于类 |
+| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient_1)(ITokenProvider, string) | 初始化[`GraphClient`](../graphclient)基于类 |
 
 ### 也可以看看
 

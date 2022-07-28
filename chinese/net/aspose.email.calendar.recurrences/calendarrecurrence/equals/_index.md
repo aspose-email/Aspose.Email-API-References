@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API 参考
-description: 确定指定的CalendarRecurrence是否等于此实例
+description: 判断是否指定CalendarRecurrenceaspose.email.calendar.recurrences/calendarrecurrence等于这个实例
 type: docs
 weight: 100
 url: /zh/net/aspose.email.calendar.recurrences/calendarrecurrence/equals/
 ---
 ## Equals(CalendarRecurrence) {#equals}
 
-确定指定的CalendarRecurrence是否等于此实例。
+判断是否指定[`CalendarRecurrence`](../../calendarrecurrence)等于这个实例。
 
 ```csharp
 public virtual bool Equals(CalendarRecurrence other)
@@ -16,11 +16,11 @@ public virtual bool Equals(CalendarRecurrence other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | CalendarRecurrence | [`CalendarRecurrence`](../../calendarrecurrence)与此实例进行比较. |
+| other | CalendarRecurrence | 这[`CalendarRecurrence`](../../calendarrecurrence)与此实例进行比较。 |
 
 ### 返回值
 
-` true` 如果指定[`CalendarRecurrence`](../../calendarrecurrence)等于这个实例；否则，` false` 。
+`真的`如果指定[`CalendarRecurrence`](../../calendarrecurrence)等于这个实例；否则，`错误的`.
 
 ### 也可以看看
 
@@ -40,7 +40,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与当前对象比较的对象。 |
+| obj | Object | 与当前对象比较的对象。 |
 
 ### 返回值
 

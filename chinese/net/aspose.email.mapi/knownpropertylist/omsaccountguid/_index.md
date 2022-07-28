@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/omsaccountguid/
 ---
 ## KnownPropertyList.OMSAccountGuid field
 
-包含用于传递消息的 SMS 帐户的 GUID。 区域:SMS 规范名称:PidNameOMSAccountGuid 备用名称:
+包含用于传递消息的 SMS 帐户的 GUID。 区域：SMS 规范名称：PidNameOMSAccountGuid 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor OMSAccountGuid;

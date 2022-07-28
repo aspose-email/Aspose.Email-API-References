@@ -1,14 +1,14 @@
 ---
 title: Fax1AddressType
 second_title: Aspose.Email for .NET API 参考
-description: 包含字符串值FAX 区域联系人属性 规范名称PidLidFax1AddressType 替代名称dispidFax1AddrType
+description: 包含字符串值传真 区域联系人属性 规范名称PidLidFax1AddressType 备用名称dispidFax1AddrType
 type: docs
 weight: 10130
 url: /zh/net/aspose.email.mapi/knownpropertylist/fax1addresstype/
 ---
 ## KnownPropertyList.Fax1AddressType field
 
-包含字符串值“FAX”。 区域:联系人属性 规范名称:PidLidFax1AddressType 替代名称:dispidFax1AddrType
+包含字符串值“传真”。 区域：联系人属性 规范名称：PidLidFax1AddressType 备用名称：dispidFax1AddrType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Fax1AddressType;

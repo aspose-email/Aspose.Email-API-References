@@ -1,14 +1,14 @@
 ---
 title: SortLocaleId
 second_title: Aspose.Email for .NET API 参考
-description: 包含区域设置标识符 区域ExchangeAdministrative 规范名称PidTagSortLocaleId 备用名称PR_SORT_LOCALE_ID ptagSortLocaleId
+description: 包含区域设置标识符 区域ExchangeAdministrative 规范名称PidTagSortLocaleId 备用名称PR_SORT_LOCALE_IDptagSortLocaleId
 type: docs
 weight: 18090
 url: /zh/net/aspose.email.mapi/knownpropertylist/sortlocaleid/
 ---
 ## KnownPropertyList.SortLocaleId field
 
-包含区域设置标识符。 区域:ExchangeAdministrative 规范名称:PidTagSortLocaleId 备用名称:PR_SORT_LOCALE_ID, ptagSortLocaleId
+包含区域设置标识符。 区域：ExchangeAdministrative 规范名称：PidTagSortLocaleId 备用名称：PR_SORT_LOCALE_ID、ptagSortLocaleId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SortLocaleId;

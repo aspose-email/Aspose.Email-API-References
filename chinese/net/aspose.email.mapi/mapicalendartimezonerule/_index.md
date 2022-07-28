@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneRule
 second_title: Aspose.Email for .NET API 参考
 description: 表示指示何时开始使用标准/夏令时的时区规则
 type: docs
-weight: 18130
+weight: 18160
 url: /zh/net/aspose.email.mapi/mapicalendartimezonerule/
 ---
 ## MapiCalendarTimeZoneRule class
@@ -18,7 +18,7 @@ public sealed class MapiCalendarTimeZoneRule
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiCalendarTimeZoneRule](mapicalendartimezonerule)() | 初始化[`MapiCalendarTimeZoneRule`](../mapicalendartimezonerule)类的新实例。 |
+| [MapiCalendarTimeZoneRule](mapicalendartimezonerule)() | 初始化[`MapiCalendarTimeZoneRule`](../mapicalendartimezonerule)类. |
 
 ## 特性
 
@@ -30,8 +30,8 @@ public sealed class MapiCalendarTimeZoneRule
 | [Milliseconds](../../aspose.email.mapi/mapicalendartimezonerule/milliseconds) { get; set; } | 获取或设置毫秒 |
 | [Minute](../../aspose.email.mapi/mapicalendartimezonerule/minute) { get; set; } | 获取或设置分钟 |
 | [Month](../../aspose.email.mapi/mapicalendartimezonerule/month) { get; set; } | 获取或设置月份 |
-| [Position](../../aspose.email.mapi/mapicalendartimezonerule/position) { get; set; } | 获取或设置日期位置 |
-| [Seconds](../../aspose.email.mapi/mapicalendartimezonerule/seconds) { get; set; } | 获取或设置秒 |
+| [Position](../../aspose.email.mapi/mapicalendartimezonerule/position) { get; set; } | 获取或设置日位置 |
+| [Seconds](../../aspose.email.mapi/mapicalendartimezonerule/seconds) { get; set; } | 获取或设置秒数 |
 | [Year](../../aspose.email.mapi/mapicalendartimezonerule/year) { get; set; } | 获取或设置年份 |
 
 ### 也可以看看

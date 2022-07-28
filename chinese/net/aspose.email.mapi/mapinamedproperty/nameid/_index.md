@@ -1,14 +1,14 @@
 ---
 title: NameId
 second_title: Aspose.Email for .NET API 参考
-description: 获取命名属性 ID
+description: 获得命名属性 ID
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapinamedproperty/nameid/
 ---
 ## MapiNamedProperty.NameId property
 
-获取命名属性 ID
+获得命名属性 ID
 
 ```csharp
 public string NameId { get; }

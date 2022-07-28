@@ -1,14 +1,14 @@
 ---
 title: MIMEVersion
 second_title: Aspose.Email for .NET API 参考
-description: 此消息根据 MIME 标准格式化的指示符以及使用哪个 MIME 版本的指示符 在 RFC 2045 中定义
+description: 该消息根据 MIME 标准格式化的指示符以及使用哪个版本的 MIME 的指示符 在 RFC 2045 中定义
 type: docs
 weight: 150
 url: /zh/net/aspose.email/headertype/mimeversion/
 ---
 ## HeaderType.MIMEVersion property
 
-此消息根据 MIME 标准格式化的指示符，以及使用哪个 MIME 版本的指示符。 在 RFC 2045 中定义
+该消息根据 MIME 标准格式化的指示符，以及使用哪个版本的 MIME 的指示符。 在 RFC 2045 中定义
 
 ```csharp
 public static HeaderType MIMEVersion { get; }

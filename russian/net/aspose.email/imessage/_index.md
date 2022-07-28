@@ -19,14 +19,14 @@ public interface IMessage
 | Имя | Описание |
 | --- | --- |
 | [Attachments](../../aspose.email/imessage/attachments) { get; } | Получает вложения сообщения |
-| [Bcc](../../aspose.email/imessage/bcc) { get; } | Получает получателей скрытой копии |
+| [Bcc](../../aspose.email/imessage/bcc) { get; } | Получает получателей BCC |
 | [Body](../../aspose.email/imessage/body) { get; set; } | Получает или устанавливает тело сообщения |
 | [BodyType](../../aspose.email/imessage/bodytype) { get; } | Получает тип тела. |
-| [CC](../../aspose.email/imessage/cc) { get; } | Получает получателей копии |
+| [CC](../../aspose.email/imessage/cc) { get; } | Получает копии получателей |
 | [Date](../../aspose.email/imessage/date) { get; } | Получает дату и время доставки сообщения |
-| [From](../../aspose.email/imessage/from) { get; set; } | Получает или устанавливает адрес из |
-| [HtmlBody](../../aspose.email/imessage/htmlbody) { get; set; } | Получает или задает тело сообщения в формате html |
-| [Subject](../../aspose.email/imessage/subject) { get; set; } | Получает или устанавливает тему сообщения |
+| [From](../../aspose.email/imessage/from) { get; set; } | Получает или задает от address |
+| [HtmlBody](../../aspose.email/imessage/htmlbody) { get; set; } | Получает или задает сообщение в формате html body |
+| [Subject](../../aspose.email/imessage/subject) { get; set; } | Получает или задает тему сообщения |
 | [To](../../aspose.email/imessage/to) { get; } | Получает получателей |
 
 ## Методы

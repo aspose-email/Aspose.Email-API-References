@@ -1,14 +1,14 @@
 ---
 title: ResourceHtmlRendering
 second_title: Aspose.Email for .NET API 参考
-description: 提供html渲染资源的自定义
+description: 提供 html 中渲染资源的自定义
 type: docs
 weight: 60
 url: /zh/net/aspose.email/htmlsaveoptions/resourcehtmlrendering/
 ---
 ## HtmlSaveOptions.ResourceHtmlRendering event
 
-提供html渲染资源的自定义。
+提供 html 中渲染资源的自定义。
 
 ```csharp
 public event EventHandler<ResourceHtmlRenderingEventArgs> ResourceHtmlRendering;

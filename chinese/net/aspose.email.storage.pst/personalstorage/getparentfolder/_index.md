@@ -20,7 +20,7 @@ public FolderInfo GetParentFolder(string entryIdString)
 
 ### 返回值
 
-消息的父文件夹[`FolderInfo`](../../folderinfo)。
+父文件夹[`FolderInfo`](../../folderinfo)的消息。
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public FolderInfo GetParentFolder(byte[] entryId)
 
 ### 返回值
 
-消息的父文件夹[`FolderInfo`](../../folderinfo)。
+父文件夹[`FolderInfo`](../../folderinfo)的消息。
 
 ### 也可以看看
 

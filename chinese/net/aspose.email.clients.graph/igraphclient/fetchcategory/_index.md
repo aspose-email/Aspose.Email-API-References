@@ -16,11 +16,11 @@ public OutlookCategory FetchCategory(string itemId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemId | String | 要获取的项目 id |
+| itemId | String | 要获取的项目 ID |
 
 ### 返回值
 
-由 id 指定的类别
+id指定的类别
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public class AmpCarousel : AmpComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AmpCarousel](ampcarousel)(int, int) | 创建表单 AmpCarousel 的实例。 |
+| [AmpCarousel](ampcarousel)(int, int) | 创建表单 AmpCarousel. 的实例 |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public class AmpCarousel : AmpComponent
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP 提供了一组通用属性，这些属性扩展到许多 AMP 组件。 |
 | [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | 后备是一种约定，它允许元素向读者传达浏览器不支持该元素。 |
 | [Images](../../aspose.email.amp/ampcarousel/images) { get; } | 用于显示的图像集。 |
-| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标记有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
 | override [RequiredScript](../../aspose.email.amp/ampcarousel/requiredscript) { get; } | 必须添加到头部的脚本。 |
 | [Type](../../aspose.email.amp/ampcarousel/type) { get; set; } | 指定轮播项目的显示类型。 |
 
@@ -35,7 +35,7 @@ public class AmpCarousel : AmpComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/ampcarousel/toamphtml)() | 表示组件的 amp html 版本。 |
+| override [ToAmpHtml](../../aspose.email.amp/ampcarousel/toamphtml)() | 代表 amp html 版本的组件。 |
 | override [ToHtml](../../aspose.email.amp/ampcarousel/tohtml)() | 表示组件的 html 版本。 |
 
 ### 也可以看看

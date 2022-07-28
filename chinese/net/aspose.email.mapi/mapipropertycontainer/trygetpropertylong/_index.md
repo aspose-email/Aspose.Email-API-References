@@ -1,14 +1,14 @@
 ---
 title: TryGetPropertyLong
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定属性的值为 Long 类型 返回值表示操作是否成功
+description: 获取指定属性的值作为 Long 类型 返回值表示操作是否成功
 type: docs
 weight: 160
 url: /zh/net/aspose.email.mapi/mapipropertycontainer/trygetpropertylong/
 ---
 ## MapiPropertyContainer.TryGetPropertyLong method
 
-获取指定属性的值为 Long 类型。 返回值表示操作是否成功。
+获取指定属性的值作为 Long 类型。 返回值表示操作是否成功。
 
 ```csharp
 public bool TryGetPropertyLong(long tag, ref long value)
@@ -17,7 +17,7 @@ public bool TryGetPropertyLong(long tag, ref long value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tag | Int64 | MAPI 属性标记。 |
-| value | Int64& | 当此方法返回时，包含指定属性的值，如果该属性存在，则为 。此参数未初始化传递。 |
+| value | Int64& | 当此方法返回时，包含指定属性的值， 如果该属性存在。此参数未初始化传递。 |
 
 ### 返回值
 

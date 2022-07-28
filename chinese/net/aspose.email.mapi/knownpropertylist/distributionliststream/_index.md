@@ -1,14 +1,14 @@
 ---
 title: DistributionListStream
 second_title: Aspose.Email for .NET API 参考
-description: 指定与个人分发列表的成员对应的EntryID 和一次性EntryID 的列表 区域联系人属性 规范名称PidLidDistributionListStream 替代名称dispidDLStream
+description: 指定对应于个人分发列表成员的EntryID 和一次性EntryID 的列表 区域联系人 Properties 规范名称PidLidDistributionListStream 替代名称dispidDLStream
 type: docs
 weight: 4230
 url: /zh/net/aspose.email.mapi/knownpropertylist/distributionliststream/
 ---
 ## KnownPropertyList.DistributionListStream field
 
-指定与个人分发列表的成员对应的EntryID 和一次性EntryID 的列表。 区域:联系人属性 规范名称:PidLidDistributionListStream 替代名称:dispidDLStream
+指定对应于个人分发列表成员的EntryID 和一次性EntryID 的列表。 区域：联系人 Properties 规范名称：PidLidDistributionListStream 替代名称：dispidDLStream
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DistributionListStream;

@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: Справочник по Aspose.Email для .NET API
-description: Удаляет этот экземпляр и запрашивает закрытие базового TCP-соединения.
+description: Удаляет этот экземпляр и запрашивает закрытие базового соединения TCP.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients/proxy/dispose/
 ---
 ## Proxy.Dispose method
 
-Удаляет этот экземпляр и запрашивает закрытие базового TCP-соединения.
+Удаляет этот экземпляр и запрашивает закрытие базового соединения TCP.
 
 ```csharp
 public virtual void Dispose()

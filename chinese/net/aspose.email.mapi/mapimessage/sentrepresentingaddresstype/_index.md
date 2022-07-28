@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingAddressType
 second_title: Aspose.Email for .NET API 参考
-description: 获取发件人代表的消息传递用户的地址类型
+description: 获取发件人所代表的消息传递用户的地址类型
 type: docs
 weight: 260
 url: /zh/net/aspose.email.mapi/mapimessage/sentrepresentingaddresstype/
 ---
 ## MapiMessage.SentRepresentingAddressType property
 
-获取发件人代表的消息传递用户的地址类型。
+获取发件人所代表的消息传递用户的地址类型。
 
 ```csharp
 public string SentRepresentingAddressType { get; }
@@ -16,7 +16,7 @@ public string SentRepresentingAddressType { get; }
 
 ### 适当的价值
 
-表示发送的字符串，表示地址类型。
+代表发送的字符串，代表地址类型。
 
 ### 也可以看看
 

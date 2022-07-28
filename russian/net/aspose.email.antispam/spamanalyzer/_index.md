@@ -18,9 +18,9 @@ public class SpamAnalyzer
 
 | Имя | Описание |
 | --- | --- |
-| [SpamAnalyzer](spamanalyzer#constructor)() | Инициализировать новый экземпляр класса[`SpamAnalyzer`](../spamanalyzer). |
-| [SpamAnalyzer](spamanalyzer#constructor_1)(Stream) | Инициализировать новый экземпляр класса[`SpamAnalyzer`](../spamanalyzer). |
-| [SpamAnalyzer](spamanalyzer#constructor_2)(string) | Инициализировать новый экземпляр класса[`SpamAnalyzer`](../spamanalyzer). |
+| [SpamAnalyzer](spamanalyzer#constructor)() | Инициализировать новый экземпляр[`SpamAnalyzer`](../spamanalyzer) класс. |
+| [SpamAnalyzer](spamanalyzer#constructor_1)(Stream) | Инициализировать новый экземпляр[`SpamAnalyzer`](../spamanalyzer) класс. |
+| [SpamAnalyzer](spamanalyzer#constructor_2)(string) | Инициализировать новый экземпляр[`SpamAnalyzer`](../spamanalyzer) класс. |
 
 ## Методы
 
@@ -32,9 +32,9 @@ public class SpamAnalyzer
 | [SaveDatabase](../../aspose.email.antispam/spamanalyzer/savedatabase#savedatabase)(Stream) | Сохраняет байесовскую базу данных в поток. |
 | [SaveDatabase](../../aspose.email.antispam/spamanalyzer/savedatabase#savedatabase_1)(string) | Сохраняет байесовскую базу данных в файл. |
 | [Test](../../aspose.email.antispam/spamanalyzer/test)(MailMessage) | Анализирует сообщение и возвращает вероятность того, что сообщение является спамом. |
-| [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter#trainfilter)(MailMessage, bool) | Узнает из указанного сообщения как спам или не спам источник. |
+| [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter#trainfilter)(MailMessage, bool) | Узнает из указанного сообщения, что оно пришло из источника спама или не является спамом. |
 | [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter#trainfilter_1)(MailMessage[], MailMessage[]) | Узнает из указанных сообщений как из источника спама или не спама. |
-| [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter#trainfilter_2)(string, bool) | Узнает из указанной строки как источник спама или не спама. |
+| [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter#trainfilter_2)(string, bool) | Узнает из указанной строки источник спама или не спама. |
 
 ### Смотрите также
 

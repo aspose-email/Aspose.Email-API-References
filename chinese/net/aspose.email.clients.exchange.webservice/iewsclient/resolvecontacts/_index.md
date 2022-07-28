@@ -1,14 +1,14 @@
 ---
 title: ResolveContacts
 second_title: Aspose.Email for .NET API 参考
-description: 解决不明确的邮箱显示名称 注意返回联系人的最大数量为 100这是使用交换命令的限制
+description: 解决不明确的邮箱显示名称 注意返回的联系人的最大计数为 100这是使用交换命令的限制
 type: docs
 weight: 1370
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/resolvecontacts/
 ---
 ## ResolveContacts(string) {#resolvecontacts}
 
-解决不明确的邮箱显示名称。 注意:返回联系人的最大数量为 100。这是使用交换命令的限制。
+解决不明确的邮箱显示名称。 注意：返回的联系人的最大计数为 100。这是使用交换命令的限制。
 
 ```csharp
 public Contact[] ResolveContacts(string unresolvedEntry)
@@ -20,7 +20,7 @@ public Contact[] ResolveContacts(string unresolvedEntry)
 
 ### 返回值
 
-[`Contact`](../../../aspose.email.personalinfo/contact)对象的数组。
+一个数组[`Contact`](../../../aspose.email.personalinfo/contact)对象。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public Contact[] ResolveContacts(string unresolvedEntry)
 
 ## ResolveContacts(string, ExchangeListContactsOptions) {#resolvecontacts_1}
 
-解决不明确的电子邮件地址和显示名称 注意:返回的联系人的最大计数为 100。这是使用 EWS 操作的限制.
+解决不明确的电子邮件地址和显示名称 注意：返回的联系人的最大计数为 100。这是使用 EWS 操作的限制。
 
 ```csharp
 public Contact[] ResolveContacts(string unresolvedEntry, ExchangeListContactsOptions options)
@@ -41,18 +41,18 @@ public Contact[] ResolveContacts(string unresolvedEntry, ExchangeListContactsOpt
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| unresolvedEntry | String | 要解析的联系人姓名 |
+| unresolvedEntry | String | 要解决的联系人姓名 |
 | options | ExchangeListContactsOptions | 枚举列表联系人选项 |
 
 ### 返回值
 
-Contacts 代表联系人信息
+代表联系人信息的联系人
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *unresolvedEntry*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *unresolvedEntry*是`无效的`或者`空的` |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MergeWith
 second_title: Aspose.Email for .NET API 参考
-description: 将 pst 存储与一个或多个其他 pst 文件合并 因此组合文件是源
+description: 将 pst 存储与一个或多个其他 pst 文件合并 因此合并的文件是源
 type: docs
 weight: 260
 url: /zh/net/aspose.email.storage.pst/personalstorage/mergewith/
 ---
 ## MergeWith(string[]) {#mergewith_1}
 
-将 pst 存储与一个或多个其他 pst 文件合并。 因此，组合文件是源。
+将 pst 存储与一个或多个其他 pst 文件合并。 因此，合并的文件是源。
 
 ```csharp
 public void MergeWith(string[] sourceFileNames)
@@ -22,8 +22,8 @@ public void MergeWith(string[] sourceFileNames)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | "当文件名集合为空时抛出。" |
-| ArgumentException | "当集合中的文件名为空或为空时抛出。" |
+| ArgumentNullException | “当文件名集合为空时抛出。” |
+| ArgumentException | “当集合中的文件名为空或为空时抛出。” |
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public void MergeWith(string[] sourceFileNames)
 
 ## MergeWith(Stream[]) {#mergewith}
 
-将 pst 存储与一个或多个其他 pst 流合并。 因此，组合流是源。
+将 pst 存储与一个或多个其他 pst 流合并。 因此，合并的流是源。
 
 ```csharp
 public void MergeWith(Stream[] sourceStreams)
@@ -49,8 +49,8 @@ public void MergeWith(Stream[] sourceStreams)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | "当流集合为空时抛出。" |
-| ArgumentException | "当集合中的流为空时抛出。" |
+| ArgumentNullException | “当流集合为空时抛出。” |
+| ArgumentException | “当集合中的流为空时抛出。” |
 
 ### 也可以看看
 

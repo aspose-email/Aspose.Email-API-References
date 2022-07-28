@@ -1,14 +1,14 @@
 ---
 title: DocumentParts
 second_title: Aspose.Email for .NET API 参考
-description: 指定文档每个部分的标题 区域普通 规范名称PidNameDocumentParts 替代名称urnschemas-microsoft-comofficeofficePartTitles
+description: 指定文档每个部分的标题 区域Common 规范名称PidNameDocumentParts 备用名称urnschemas-microsoft-comofficeofficePartTitles
 type: docs
 weight: 4270
 url: /zh/net/aspose.email.mapi/knownpropertylist/documentparts/
 ---
 ## KnownPropertyList.DocumentParts field
 
-指定文档每个部分的标题。 区域：普通 规范名称：PidNameDocumentParts 替代名称：urn:schemas-microsoft-com:office:office#PartTitles
+指定文档每个部分的标题。 区域：Common 规范名称：PidNameDocumentParts 备用名称：urn:schemas-microsoft-com:office:office#PartTitles
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DocumentParts;

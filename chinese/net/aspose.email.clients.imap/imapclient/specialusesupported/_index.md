@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/specialusesupported/
 ---
 ## ImapClient.SpecialUseSupported property
 
-获取是否支持特殊用途邮箱的信息 查看更多:https://tools.ietf.org/html/rfc6154
+获取是否支持特殊用途邮箱的信息 查看更多：https://tools.ietf.org/html/rfc6154
 
 ```csharp
 public bool SpecialUseSupported { get; set; }

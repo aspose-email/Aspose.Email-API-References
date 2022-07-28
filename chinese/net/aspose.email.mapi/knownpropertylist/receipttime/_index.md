@@ -1,14 +1,14 @@
 ---
 title: ReceiptTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含消息处置通知的发送时间如 RFC3798 中所指定 区域电子邮件 规范名称PidTagReceiptTime 别名PR_RECEIPT_TIME ptagReceiptTime
+description: 包含消息处置通知的发送时间如 RFC3798 中所指定 区域Email 规范名称PidTagReceiptTime 替代名称PR_RECEIPT_TIMEptagReceiptTime
 type: docs
 weight: 15260
 url: /zh/net/aspose.email.mapi/knownpropertylist/receipttime/
 ---
 ## KnownPropertyList.ReceiptTime field
 
-包含消息处置通知的发送时间，如 [RFC3798] 中所指定。 区域:电子邮件 规范名称:PidTagReceiptTime 别名:PR_RECEIPT_TIME, ptagReceiptTime
+包含消息处置通知的发送时间，如 [RFC3798] 中所指定。 区域：Email 规范名称：PidTagReceiptTime 替代名称：PR_RECEIPT_TIME、ptagReceiptTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceiptTime;

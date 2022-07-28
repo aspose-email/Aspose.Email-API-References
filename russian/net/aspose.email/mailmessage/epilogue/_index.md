@@ -1,14 +1,14 @@
 ---
 title: Epilogue
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает текст эпилога. Находится за последней границей.
+description: Получает или задает текст эпилога. Он располагается после последней границы.
 type: docs
 weight: 120
 url: /ru/net/aspose.email/mailmessage/epilogue/
 ---
 ## MailMessage.Epilogue property
 
-Получает или задает текст эпилога. Находится за последней границей.
+Получает или задает текст эпилога. Он располагается после последней границы.
 
 ```csharp
 public string Epilogue { get; set; }

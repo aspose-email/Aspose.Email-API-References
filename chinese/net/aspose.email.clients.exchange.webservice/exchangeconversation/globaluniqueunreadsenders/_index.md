@@ -1,14 +1,14 @@
 ---
 title: GlobalUniqueUnreadSenders
 second_title: Aspose.Email for .NET API 参考
-description: 获取所有已发送邮件的人员的列表这些邮件在此对话中的所有文件夹中当前未读
+description: 获取所有已发送邮件的人的列表这些人在邮箱中的所有文件夹中的此对话中当前未读
 type: docs
 weight: 160
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeconversation/globaluniqueunreadsenders/
 ---
 ## ExchangeConversation.GlobalUniqueUnreadSenders property
 
-获取所有已发送邮件的人员的列表，这些邮件在此对话中的所有文件夹中当前未读。
+获取所有已发送邮件的人的列表，这些人在邮箱中的所有文件夹中的此对话中当前未读。
 
 ```csharp
 public StringCollection GlobalUniqueUnreadSenders { get; }

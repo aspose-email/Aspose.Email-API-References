@@ -18,7 +18,7 @@ public interface ICommand : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [CanExecute](../../aspose.email.clients/icommand/canexecute) { get; } | Определяет оператор, который определяет, может ли команда выполняться в ее текущем состоянии. |
+| [CanExecute](../../aspose.email.clients/icommand/canexecute) { get; } | Определяет оператор, который определяет, может ли команда выполняться в текущем состоянии. |
 
 ## Методы
 

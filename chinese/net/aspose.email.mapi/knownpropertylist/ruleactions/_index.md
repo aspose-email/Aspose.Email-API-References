@@ -1,14 +1,14 @@
 ---
 title: RuleActions
 second_title: Aspose.Email for .NET API 参考
-description: 包含与规则关联的操作集 区域服务器端规则属性 规范名称PidTagRuleActions 备用名称PR_RULE_ACTIONS ptagRuleActions
+description: 包含与规则关联的操作集 区域服务器端规则 Properties 规范名称PidTagRuleActions 备用名称PR_RULE_ACTIONSptagRuleActions
 type: docs
 weight: 16440
 url: /zh/net/aspose.email.mapi/knownpropertylist/ruleactions/
 ---
 ## KnownPropertyList.RuleActions field
 
-包含与规则关联的操作集。 区域:服务器端规则属性 规范名称:PidTagRuleActions 备用名称:PR_RULE_ACTIONS, ptagRuleActions
+包含与规则关联的操作集。 区域：服务器端规则 Properties 规范名称：PidTagRuleActions 备用名称：PR_RULE_ACTIONS、ptagRuleActions
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleActions;

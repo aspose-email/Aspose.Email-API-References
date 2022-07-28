@@ -1,14 +1,14 @@
 ---
 title: AddressBookOwnerBackLink
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户拥有的分发列表的列表 区域地址簿 规范名称PidTagAddressBookOwnerBackLink 备用名称PR_EMS_AB_OWNER_BL_O
+description: 包含邮件用户拥有的分发列表列表 区域地址簿 规范名称PidTagAddressBookOwnerBackLink 备用名称PR_EMS_AB_OWNER_BL_O
 type: docs
 weight: 810
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookownerbacklink/
 ---
 ## KnownPropertyList.AddressBookOwnerBackLink field
 
-包含邮件用户拥有的分发列表的列表。 区域:地址簿 规范名称:PidTagAddressBookOwnerBackLink 备用名称:PR_EMS_AB_OWNER_BL_O
+包含邮件用户拥有的分发列表列表。 区域：地址簿 规范名称：PidTagAddressBookOwnerBackLink 备用名称：PR_EMS_AB_OWNER_BL_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookOwnerBackLink;

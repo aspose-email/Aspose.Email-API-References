@@ -16,7 +16,7 @@ public void UpdateCalendar(Calendar calendar)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| calendar | Calendar | 要更新的日历对象实例. |
+| calendar | Calendar | 要更新的日历对象的实例。 |
 
 ### 也可以看看
 
@@ -37,8 +37,8 @@ public void UpdateCalendar(Calendar calendar, bool useColorRgbFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| calendar | Calendar | 要更新的日历对象实例. |
-| useColorRgbFormat | Boolean | 表示是否使用彩色 rgb 格式。 |
+| calendar | Calendar | 要更新的日历对象的实例。 |
+| useColorRgbFormat | Boolean | 指示是否使用彩色 rgb 格式。 |
 
 ### 也可以看看
 

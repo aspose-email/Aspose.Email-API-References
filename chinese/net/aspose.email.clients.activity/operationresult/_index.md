@@ -18,7 +18,7 @@ public enum OperationResult
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Succeeded | `0` | 事件成功。 |
+| Succeeded | `0` | 活动成功。 |
 | Failed | `1` | 事件失败。 |
 
 ### 也可以看看

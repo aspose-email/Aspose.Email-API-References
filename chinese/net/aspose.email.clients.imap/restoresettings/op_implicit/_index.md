@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 将可枚举选项转换为类
+description: 将可枚举选项转换为 class
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.imap/restoresettings/op_implicit/
 ---
 ## RestoreSettings Implicit operator
 
-将可枚举选项转换为类
+将可枚举选项转换为 class
 
 ```csharp
 public static implicit operator RestoreSettings(RestoreOptions options)
@@ -16,7 +16,7 @@ public static implicit operator RestoreSettings(RestoreOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| options | RestoreOptions | 要转换的选项 |
+| options | RestoreOptions | 转换选项 |
 
 ### 也可以看看
 

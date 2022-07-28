@@ -1,14 +1,14 @@
 ---
 title: Formatter
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 IFormatter
+description: 获取或设置 IFormatter.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.tools.logging/iappender/formatter/
 ---
 ## IAppender.Formatter property
 
-获取或设置 IFormatter。
+获取或设置 IFormatter.
 
 ```csharp
 public IFormatter Formatter { get; set; }

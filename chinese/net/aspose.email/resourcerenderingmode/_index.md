@@ -1,14 +1,14 @@
 ---
 title: ResourceRenderingMode
 second_title: Aspose.Email for .NET API 参考
-description: 提供设置各种html渲染资源模式
+description: 提供在html中设置渲染资源的各种模式
 type: docs
-weight: 19900
+weight: 19950
 url: /zh/net/aspose.email/resourcerenderingmode/
 ---
 ## ResourceRenderingMode enumeration
 
-提供设置各种html渲染资源模式。
+提供在html中设置渲染资源的各种模式。
 
 ```csharp
 public enum ResourceRenderingMode
@@ -20,8 +20,8 @@ public enum ResourceRenderingMode
 | --- | --- | --- |
 | None | `0` | 不在 html 中呈现资源。 |
 | EmbedIntoHtml | `1` | 在 html 中嵌入资源作为 base64 字符串。 |
-| SaveToFile | `2` | 将资源保存到文件并插入带有该文件路径的 html src 标签。 |
-| SubstituteFromFile | `3` | 使用自定义文件作为图标并插入带有此文件路径的 html src 标签。 |
+| SaveToFile | `2` | 将资源保存到文件并插入带有此文件路径的 html src 标记。 |
+| SubstituteFromFile | `3` | 使用自定义文件作为图标，并在 html src 标记中插入该文件的路径。 |
 
 ### 也可以看看
 

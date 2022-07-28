@@ -1,14 +1,14 @@
 ---
 title: UnapprovedInROMApplicationList
 second_title: Aspose.Email for .NET API 参考
-description: 指定未被批准执行的 in-ROM 应用程序列表 只有预装在 ROM 中的应用程序才受此属性中的条目影响 此属性不适用于安装在内存中的应用程序
+description: 指定未批准执行的 in-ROM 应用程序列表 只有预装在 ROM 中的应用程序才会受此属性中的条目影响 此属性不适用于安装在内存中的应用程序
 type: docs
 weight: 430
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/unapprovedinromapplicationlist/
 ---
 ## EASProvisionDoc.UnapprovedInROMApplicationList property
 
-指定未被批准执行的 in-ROM 应用程序列表。 只有预装在 ROM 中的应用程序才受此属性中的条目影响。 此属性不适用于安装在内存中的应用程序。
+指定未批准执行的 in-ROM 应用程序列表。 只有预装在 ROM 中的应用程序才会受此属性中的条目影响。 此属性不适用于安装在内存中的应用程序。
 
 ```csharp
 public List<string> UnapprovedInROMApplicationList { get; }

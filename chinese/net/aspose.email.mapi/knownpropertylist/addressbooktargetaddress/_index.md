@@ -1,14 +1,14 @@
 ---
 title: AddressBookTargetAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含通讯簿对象的外部系统电子邮件地址 区域地址簿 规范名称PidTagAddressBookTargetAddress 替代名称PR_EMS_AB_TARGET_ADDRESS PR_EMS_AB_TARGET_ADDRESS_A PR_EMS_AB_TARGET_ADDRESS_W
+description: 包含地址簿对象的外部系统电子邮件地址 区域地址簿 规范名称PidTagAddressBookTargetAddress 替代名称PR_EMS_AB_TARGET_ADDRESSPR_EMS_AB_TARGET_ADDRESS_APR_EMS_AB_TARGET_ADDRESS_W
 type: docs
 weight: 980
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbooktargetaddress/
 ---
 ## KnownPropertyList.AddressBookTargetAddress field
 
-包含通讯簿对象的外部系统电子邮件地址。 区域:地址簿 规范名称:PidTagAddressBookTargetAddress 替代名称:PR_EMS_AB_TARGET_ADDRESS, PR_EMS_AB_TARGET_ADDRESS_A, PR_EMS_AB_TARGET_ADDRESS_W
+包含地址簿对象的外部系统电子邮件地址。 区域：地址簿 规范名称：PidTagAddressBookTargetAddress 替代名称：PR_EMS_AB_TARGET_ADDRESS、PR_EMS_AB_TARGET_ADDRESS_A、PR_EMS_AB_TARGET_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookTargetAddress;

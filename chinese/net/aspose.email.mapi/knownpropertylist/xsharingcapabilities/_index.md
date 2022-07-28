@@ -1,14 +1,14 @@
 ---
 title: XSharingCapabilities
 second_title: Aspose.Email for .NET API 参考
-description: 包含 PidLidSharingCapabilities 属性值的字符串表示形式第 2.237 节 区域共享 规范名称PidNameXSharingCapabilities 别名
+description: 包含 PidLidSharingCapabilities 属性值的字符串表示形式第 2.237 节 区域Sharing 规范名称PidNameXSharingCapabilities 替代名称
 type: docs
 weight: 19720
 url: /zh/net/aspose.email.mapi/knownpropertylist/xsharingcapabilities/
 ---
 ## KnownPropertyList.XSharingCapabilities field
 
-包含 PidLidSharingCapabilities 属性值的字符串表示形式（第 2.237 节）。 区域:共享 规范名称:PidNameXSharingCapabilities 别名:
+包含 PidLidSharingCapabilities 属性值的字符串表示形式（第 2.237 节）。 区域：Sharing 规范名称：PidNameXSharingCapabilities 替代名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingCapabilities;

@@ -1,14 +1,14 @@
 ---
 title: NotOn
 second_title: Aspose.Email for .NET API 参考
-description: 表示message中的日期不能在指定的日期
+description: 表示消息中的日期不能在指定的日期内
 type: docs
 weight: 40
 url: /zh/net/aspose.email.tools.search/datecomparisonfield/noton/
 ---
 ## NotOn(DateTime) {#noton}
 
-表示message中的日期不能在指定的日期。
+表示消息中的日期不能在指定的日期内。
 
 ```csharp
 public MailQuery NotOn(DateTime value)
@@ -16,7 +16,7 @@ public MailQuery NotOn(DateTime value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | DateTime | 值。 |
+| value | DateTime | 价值。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public MailQuery NotOn(DateTime value)
 
 ## NotOn(DateTime, DateComparisonType) {#noton_1}
 
-表示message中的日期不能在指定的日期。
+表示消息中的日期不能在指定的日期内。
 
 ```csharp
 public MailQuery NotOn(DateTime value, DateComparisonType comparisonType)
@@ -41,12 +41,12 @@ public MailQuery NotOn(DateTime value, DateComparisonType comparisonType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | DateTime | 值。 |
+| value | DateTime | 价值。 |
 | comparisonType | DateComparisonType | 指定比较类型 |
 
 ### 返回值
 
-MailQuery表示搜索查询（一种搜索标准）。
+[`MailQuery`](../../mailquery)表示搜索查询（一种搜索标准）。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ExchangeDelegateUser
 second_title: Aspose.Email for .NET API 参考
-description: 表示被授予访问主邮箱
+description: 表示被授予访问主体邮箱的用户
 type: docs
 weight: 3790
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangedelegateuser/
 ---
 ## ExchangeDelegateUser class
 
-表示被授予访问主邮箱
+表示被授予访问主体邮箱的用户
 
 ```csharp
 public sealed class ExchangeDelegateUser
@@ -18,8 +18,8 @@ public sealed class ExchangeDelegateUser
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeDelegateUser](exchangedelegateuser#constructor)() | 初始化[`ExchangeDelegateUser`](../exchangedelegateuser)类 的新实例 |
-| [ExchangeDelegateUser](exchangedelegateuser#constructor_1)(string, ExchangeDelegateFolderPermissionLevel) | 为指定用户初始化[`ExchangeDelegateUser`](../exchangedelegateuser)类的新实例并设置指定所有文件夹的权限级别 |
+| [ExchangeDelegateUser](exchangedelegateuser#constructor)() | 初始化[`ExchangeDelegateUser`](../exchangedelegateuser) class |
+| [ExchangeDelegateUser](exchangedelegateuser#constructor_1)(string, ExchangeDelegateFolderPermissionLevel) | 初始化[`ExchangeDelegateUser`](../exchangedelegateuser)指定用户的类并为所有文件夹设置指定的权限级别 |
 
 ## 特性
 

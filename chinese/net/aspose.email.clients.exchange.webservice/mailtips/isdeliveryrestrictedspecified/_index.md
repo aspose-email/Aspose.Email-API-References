@@ -1,14 +1,14 @@
 ---
 title: IsDeliveryRestrictedSpecified
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示是否指定DeliveryRestrictedaspose.email.clients.exchange.webservice/mailtips/deliveryrestricted
+description: 获取一个值指示是否DeliveryRestrictedaspose.email.clients.exchange.webservice/mailtips/deliveryrestricted被指定
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange.webservice/mailtips/isdeliveryrestrictedspecified/
 ---
 ## MailTips.IsDeliveryRestrictedSpecified property
 
-获取一个值，该值指示是否指定[`DeliveryRestricted`](../deliveryrestricted)
+获取一个值，指示是否[`DeliveryRestricted`](../deliveryrestricted)被指定
 
 ```csharp
 public bool IsDeliveryRestrictedSpecified { get; }

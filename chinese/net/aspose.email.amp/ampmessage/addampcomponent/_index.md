@@ -16,7 +16,7 @@ public void AddAmpComponent(AmpComponent component)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 组件 | AmpComponent |  |
+| component | AmpComponent |  |
 
 ### 也可以看看
 

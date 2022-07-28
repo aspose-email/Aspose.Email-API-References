@@ -1,14 +1,14 @@
 ---
 title: EmsAbAddressEntryDisplayTableMsdos
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE_MSDOS
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE_MSDOS
 type: docs
 weight: 4520
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabaddressentrydisplaytablemsdos/
 ---
 ## KnownPropertyList.EmsAbAddressEntryDisplayTableMsdos field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE_MSDOS
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_ADDRESS_ENTRY_DISPLAY_TABLE_MSDOS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAddressEntryDisplayTableMsdos;

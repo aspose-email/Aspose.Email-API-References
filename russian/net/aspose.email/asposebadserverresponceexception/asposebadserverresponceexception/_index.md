@@ -1,14 +1,14 @@
 ---
 title: AsposeBadServerResponceException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsposeBadServerResponceExceptionaspose.email/asposebadserverresponceexceptionс указанным сообщением об ошибке.
+description: Инициализирует новый экземплярAsposeBadServerResponceExceptionaspose.email/asposebadserverresponceexception класс с указанным сообщением об ошибке.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/asposebadserverresponceexception/asposebadserverresponceexception/
 ---
 ## AsposeBadServerResponceException(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsposeBadServerResponceException`](../../asposebadserverresponceexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeBadServerResponceException`](../../asposebadserverresponceexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeBadServerResponceException(string message)
@@ -28,7 +28,7 @@ public AsposeBadServerResponceException(string message)
 
 ## AsposeBadServerResponceException() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsposeBadServerResponceException`](../../asposebadserverresponceexception).
+Инициализирует новый экземпляр[`AsposeBadServerResponceException`](../../asposebadserverresponceexception) класс.
 
 ```csharp
 public AsposeBadServerResponceException()
@@ -44,7 +44,7 @@ public AsposeBadServerResponceException()
 
 ## AsposeBadServerResponceException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AsposeBadServerResponceException`](../../asposebadserverresponceexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeBadServerResponceException`](../../asposebadserverresponceexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeBadServerResponceException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public AsposeBadServerResponceException(string message, Exception innerException
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 
@@ -65,7 +65,7 @@ public AsposeBadServerResponceException(string message, Exception innerException
 
 ## AsposeBadServerResponceException(Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AsposeBadServerResponceException`](../../asposebadserverresponceexception) со ссылкой на внутренний исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeBadServerResponceException`](../../asposebadserverresponceexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeBadServerResponceException(Exception innerException)
@@ -73,7 +73,7 @@ public AsposeBadServerResponceException(Exception innerException)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (ничего в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

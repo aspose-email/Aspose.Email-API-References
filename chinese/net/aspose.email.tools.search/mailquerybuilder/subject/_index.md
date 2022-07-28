@@ -16,7 +16,7 @@ public StringComparisonField Subject { get; }
 
 ### 适当的价值
 
-[`DateComparisonField`](../../datecomparisonfield)表示主题搜索字段。
+这[`DateComparisonField`](../../datecomparisonfield)表示主题搜索字段。
 
 ### 也可以看看
 

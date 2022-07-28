@@ -1,14 +1,14 @@
 ---
 title: ConnectionsQuantity
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает количество соединений в режиме множественных соединений
+description: Получает или устанавливает количество подключений в режиме множественных подключений
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients/emailclient/connectionsquantity/
 ---
 ## EmailClient.ConnectionsQuantity property
 
-Получает или задает количество соединений в режиме множественных соединений
+Получает или устанавливает количество подключений в режиме множественных подключений
 
 ```csharp
 public virtual int ConnectionsQuantity { get; set; }

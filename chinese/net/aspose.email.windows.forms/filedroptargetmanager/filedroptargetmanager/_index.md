@@ -1,14 +1,14 @@
 ---
 title: FileDropTargetManager
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FileDropTargetManageraspose.email.windows.forms/filedroptargetmanager类的新实例
+description: 初始化FileDropTargetManageraspose.email.windows.forms/filedroptargetmanager类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.windows.forms/filedroptargetmanager/filedroptargetmanager/
 ---
 ## FileDropTargetManager constructor
 
-初始化[`FileDropTargetManager`](../../filedroptargetmanager)类的新实例。
+初始化[`FileDropTargetManager`](../../filedroptargetmanager)类.
 
 ```csharp
 public FileDropTargetManager(Control owner)
@@ -16,7 +16,7 @@ public FileDropTargetManager(Control owner)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| owner | Control | 所有者。 |
+| owner | Control | 主人。 |
 
 ### 也可以看看
 

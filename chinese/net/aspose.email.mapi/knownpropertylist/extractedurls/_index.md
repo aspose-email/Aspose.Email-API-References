@@ -1,14 +1,14 @@
 ---
 title: ExtractedUrls
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个带有单个 UrlSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedUrls 替代名称dispidXmlExtractedUrls
+description: 包含具有单个 UrlSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedUrls 替代名称dispidXmlExtractedUrls
 type: docs
 weight: 10100
 url: /zh/net/aspose.email.mapi/knownpropertylist/extractedurls/
 ---
 ## KnownPropertyList.ExtractedUrls field
 
-包含一个带有单个 UrlSet 元素的 XML 文档。 区域:提取的实体 规范名称:PidNameExtractedUrls 替代名称:dispidXmlExtractedUrls
+包含具有单个 UrlSet 元素的 XML 文档。 区域：提取的实体 规范名称：PidNameExtractedUrls 替代名称：dispidXmlExtractedUrls
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedUrls;

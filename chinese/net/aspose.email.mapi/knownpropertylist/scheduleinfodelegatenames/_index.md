@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoDelegateNames
 second_title: Aspose.Email for .NET API 参考
-description: 指定代表的名称 区域忙/闲属性 规范名称PidTagScheduleInfoDelegateNames 备用名称PR_SCHDINFO_DELEGATE_NAMES
+description: 指定代表的名称 区域空闲/忙碌属性 规范名称PidTagScheduleInfoDelegateNames 备用名称PR_SCHDINFO_DELEGATE_NAMES
 type: docs
 weight: 16740
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfodelegatenames/
 ---
 ## KnownPropertyList.ScheduleInfoDelegateNames field
 
-指定代表的名称。 区域:忙/闲属性 规范名称:PidTagScheduleInfoDelegateNames 备用名称:PR_SCHDINFO_DELEGATE_NAMES
+指定代表的名称。 区域：空闲/忙碌属性 规范名称：PidTagScheduleInfoDelegateNames 备用名称：PR_SCHDINFO_DELEGATE_NAMES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDelegateNames;

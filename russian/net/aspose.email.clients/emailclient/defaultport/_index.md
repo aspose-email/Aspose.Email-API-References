@@ -1,14 +1,14 @@
 ---
 title: DefaultPort
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает порт по умолчанию для клиента
+description: Получает порт по умолчанию для client
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients/emailclient/defaultport/
 ---
 ## EmailClient.DefaultPort property
 
-Получает порт по умолчанию для клиента
+Получает порт по умолчанию для client
 
 ```csharp
 public virtual int DefaultPort { get; }

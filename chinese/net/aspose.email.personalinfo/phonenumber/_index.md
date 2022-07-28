@@ -3,7 +3,7 @@ title: PhoneNumber
 second_title: Aspose.Email for .NET API 参考
 description: 代表电话号码
 type: docs
-weight: 19430
+weight: 19460
 url: /zh/net/aspose.email.personalinfo/phonenumber/
 ---
 ## PhoneNumber class
@@ -32,15 +32,15 @@ public class PhoneNumber : IComparable<PhoneNumber>, IEquatable<PhoneNumber>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.email.personalinfo/phonenumber/compareto)(PhoneNumber) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在相同位置之前、之后还是出现在相同位置作为另一个对象。 |
+| [CompareTo](../../aspose.email.personalinfo/phonenumber/compareto)(PhoneNumber) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在另一个对象之前、之后还是出现在相同位置。 |
 | override [Equals](../../aspose.email.personalinfo/phonenumber/equals#equals_2)(object) | 判断指定Object是否等于当前Object。 |
 | [Equals](../../aspose.email.personalinfo/phonenumber/equals#equals)(PhoneNumber) | 判断指定Object是否等于当前Object。 |
 | [Equals](../../aspose.email.personalinfo/phonenumber/equals#equals_1)(PhoneNumber, PhoneNumber) | 确定指定的对象实例是否被视为相等。 |
 | override [GetHashCode](../../aspose.email.personalinfo/phonenumber/gethashcode#gethashcode)() | GetHashCode 返回此对象的哈希函数。 |
 | virtual [GetHashCode](../../aspose.email.personalinfo/phonenumber/gethashcode#gethashcode_1)(PhoneNumber) | GetHashCode 返回指定对象的哈希函数。 |
 | override [ToString](../../aspose.email.personalinfo/phonenumber/tostring)() | 返回代表当前对象的字符串。 |
-| [operator ==](../../aspose.email.personalinfo/phonenumber/op_equality) | 判断指定对象是否相等。 |
-| [operator !=](../../aspose.email.personalinfo/phonenumber/op_inequality) | 判断指定对象是否不相等。 |
+| [operator ==](../../aspose.email.personalinfo/phonenumber/op_equality) | 判断指定对象是否相等 |
+| [operator !=](../../aspose.email.personalinfo/phonenumber/op_inequality) | 判断指定的对象是否不相等。 |
 
 ### 也可以看看
 

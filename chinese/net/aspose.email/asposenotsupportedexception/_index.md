@@ -1,14 +1,14 @@
 ---
 title: AsposeNotSupportedException
 second_title: Aspose.Email for .NET API 参考
-description: 当调用的方法或参数不受支持时抛出的异常 或尝试读取查找或写入时到不支持调用功能的流
+description: 不支持调用的方法或参数时引发的异常 或尝试读取查找或写入不支持调用的功能的流时引发的异常
 type: docs
 weight: 340
 url: /zh/net/aspose.email/asposenotsupportedexception/
 ---
 ## AsposeNotSupportedException class
 
-当调用的方法或参数不受支持时抛出的异常 或尝试读取、查找或写入时到不支持调用功能的流。
+不支持调用的方法或参数时引发的异常， 或尝试读取、查找或写入不支持调用的功能的流时引发的异常。
 
 ```csharp
 public class AsposeNotSupportedException : AsposeException
@@ -18,11 +18,11 @@ public class AsposeNotSupportedException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsposeNotSupportedException](asposenotsupportedexception#constructor)() | 初始化[`AsposeNotSupportedException`](../asposenotsupportedexception)类的新实例。 |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor)() | 初始化[`AsposeNotSupportedException`](../asposenotsupportedexception)类. |
 | [AsposeNotSupportedException](asposenotsupportedexception#constructor_1)(Exception) |  |
-| [AsposeNotSupportedException](asposenotsupportedexception#constructor_2)(string) | 使用指定的错误消息初始化[`AsposeNotSupportedException`](../asposenotsupportedexception)类的新实例。 |
-| [AsposeNotSupportedException](asposenotsupportedexception#constructor_3)(string, Exception) | 使用指定的错误消息初始化[`AsposeNotSupportedException`](../asposenotsupportedexception)类 的新实例和对导致此异常的内部异常的引用。 |
-| [AsposeNotSupportedException](asposenotsupportedexception#constructor_4)(string, params object[]) | 使用指定的错误消息初始化[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)类的新实例。 |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_2)(string) | 初始化[`AsposeNotSupportedException`](../asposenotsupportedexception)具有指定错误消息的类。 |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_3)(string, Exception) | 初始化[`AsposeNotSupportedException`](../asposenotsupportedexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。 |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_4)(string, params object[]) | 初始化[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)具有指定错误消息的类。 |
 | [AsposeNotSupportedException](asposenotsupportedexception#constructor_5)(string, string) |  |
 
 ## 特性

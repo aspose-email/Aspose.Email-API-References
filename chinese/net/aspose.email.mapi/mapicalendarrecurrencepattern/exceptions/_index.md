@@ -1,14 +1,14 @@
 ---
 title: Exceptions
 second_title: Aspose.Email for .NET API 参考
-description: 异常指定对重复系列实例的更改
+description: 一个异常指定对重复系列实例的更改
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapicalendarrecurrencepattern/exceptions/
 ---
 ## MapiCalendarRecurrencePattern.Exceptions property
 
-异常指定对重复系列实例的更改。
+一个异常指定对重复系列实例的更改。
 
 ```csharp
 public IList<MapiCalendarExceptionInfo> Exceptions { get; }

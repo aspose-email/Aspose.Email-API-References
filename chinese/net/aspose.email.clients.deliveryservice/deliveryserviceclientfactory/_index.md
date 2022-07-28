@@ -1,14 +1,14 @@
 ---
 title: DeliveryServiceClientFactory
 second_title: Aspose.Email for .NET API 参考
-description: 表示创建 DeliveryServiceClient
+description: 代表创建 DeliveryServiceClient
 type: docs
 weight: 2930
 url: /zh/net/aspose.email.clients.deliveryservice/deliveryserviceclientfactory/
 ---
 ## DeliveryServiceClientFactory class
 
-表示创建 DeliveryServiceClient
+代表创建 DeliveryServiceClient
 
 ```csharp
 public class DeliveryServiceClientFactory

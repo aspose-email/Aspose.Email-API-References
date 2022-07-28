@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Email for .NET API 参考
-description: 删除 MapiAttachmentCollection 指定索引处的元素
+description: 移除 MapiAttachmentCollection 指定索引处的元素
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapiattachmentcollection/removeat/
 ---
 ## MapiAttachmentCollection.RemoveAt method
 
-删除 MapiAttachmentCollection 指定索引处的元素。
+移除 MapiAttachmentCollection 指定索引处的元素。
 
 ```csharp
 public void RemoveAt(int index)

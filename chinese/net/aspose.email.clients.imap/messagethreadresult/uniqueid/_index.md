@@ -1,14 +1,14 @@
 ---
 title: UniqueId
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息唯一 ID
+description: 获取消息的唯一 ID
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.imap/messagethreadresult/uniqueid/
 ---
 ## MessageThreadResult.UniqueId property
 
-获取消息唯一 ID。
+获取消息的唯一 ID。
 
 ```csharp
 public string UniqueId { get; }

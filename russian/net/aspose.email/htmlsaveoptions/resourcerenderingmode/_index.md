@@ -1,14 +1,14 @@
 ---
 title: ResourceRenderingMode
 second_title: Справочник по Aspose.Email для .NET API
-description: Обеспечивает установку различных режимов рендеринга ресурсов в html. Значение по умолчанию EmbedIntoHtml.
+description: Обеспечивает установку различных режимов отображения ресурсов в html. Значение по умолчанию EmbedIntoHtml.
 type: docs
 weight: 40
 url: /ru/net/aspose.email/htmlsaveoptions/resourcerenderingmode/
 ---
 ## HtmlSaveOptions.ResourceRenderingMode property
 
-Обеспечивает установку различных режимов рендеринга ресурсов в html. Значение по умолчанию EmbedIntoHtml.
+Обеспечивает установку различных режимов отображения ресурсов в html. Значение по умолчанию EmbedIntoHtml.
 
 ```csharp
 public ResourceRenderingMode ResourceRenderingMode { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: XMailer
 second_title: Справочник по Aspose.Email для .NET API
-description: Информация о клиентском ПО оригинатора. Пример X-MailerAspose.Email
+description: Информация о клиентском ПО оригинатора. Пример X-Mailer Aspose.Email
 type: docs
 weight: 270
 url: /ru/net/aspose.email/headertype/xmailer/
 ---
 ## HeaderType.XMailer property
 
-Информация о клиентском ПО оригинатора. Пример: X-Mailer:Aspose.Email
+Информация о клиентском ПО оригинатора. Пример: X-Mailer: Aspose.Email
 
 ```csharp
 public static HeaderType XMailer { get; }

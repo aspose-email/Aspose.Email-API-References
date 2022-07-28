@@ -1,14 +1,14 @@
 ---
 title: NonDeliveryReportDiagCode
 second_title: Aspose.Email for .NET API 参考
-description: 包含 RFC3464 中指定的传递状态通知的诊断代码 区域电子邮件 规范名称PidTagNonDeliveryReportDiagCode 别名PR_NDR_DIAG_CODE ptagNonDeliveryDiagCode
+description: 包含 RFC3464 中指定的传递状态通知的诊断代码 区域Email 规范名称PidTagNonDeliveryReportDiagCode 替代名称PR_NDR_DIAG_CODEptagNonDeliveryDiagCode
 type: docs
 weight: 12950
 url: /zh/net/aspose.email.mapi/knownpropertylist/nondeliveryreportdiagcode/
 ---
 ## KnownPropertyList.NonDeliveryReportDiagCode field
 
-包含 [RFC3464] 中指定的传递状态通知的诊断代码。 区域:电子邮件 规范名称:PidTagNonDeliveryReportDiagCode 别名:PR_NDR_DIAG_CODE, ptagNonDeliveryDiagCode
+包含 [RFC3464] 中指定的传递状态通知的诊断代码。 区域：Email 规范名称：PidTagNonDeliveryReportDiagCode 替代名称：PR_NDR_DIAG_CODE、ptagNonDeliveryDiagCode
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonDeliveryReportDiagCode;

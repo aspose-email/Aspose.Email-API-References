@@ -3,7 +3,7 @@ title: VCardIdentificationInfo
 second_title: Aspose.Email for .NET API 参考
 description: 表示vCard标识信息
 type: docs
-weight: 19640
+weight: 19670
 url: /zh/net/aspose.email.personalinfo.vcard/vcardidentificationinfo/
 ---
 ## VCardIdentificationInfo class
@@ -18,7 +18,7 @@ public sealed class VCardIdentificationInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardIdentificationInfo](vcardidentificationinfo)() | 初始化 [`VCardIdentificationInfo`](../vcardidentificationinfo) 类的新实例 |
+| [VCardIdentificationInfo](vcardidentificationinfo)() | 初始化[`VCardIdentificationInfo`](../vcardidentificationinfo) class |
 
 ## 特性
 

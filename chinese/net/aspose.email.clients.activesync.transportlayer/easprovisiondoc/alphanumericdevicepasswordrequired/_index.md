@@ -1,14 +1,14 @@
 ---
 title: AlphanumericDevicePasswordRequired
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端是否需要字母数字密码 如果 AlphanumericDevicePasswordRequired 为空客户端应该将此值视为 FALSE 如果 DevicePasswordEnabled 的值为 FALSE客户端应该忽略这个属性
+description: 指定客户端是否需要字母数字密码 如果 AlphanumericDevicePasswordRequired 为空客户端应将此值视为 FALSE 如果 DevicePasswordEnabled 的值为 FALSE则客户端应忽略此属性
 type: docs
 weight: 200
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/alphanumericdevicepasswordrequired/
 ---
 ## EASProvisionDoc.AlphanumericDevicePasswordRequired property
 
-指定客户端是否需要字母数字密码。 如果 AlphanumericDevicePasswordRequired 为空，客户端应该将此值视为 FALSE。 如果 DevicePasswordEnabled 的值为 FALSE，客户端应该忽略这个属性。
+指定客户端是否需要字母数字密码。 如果 AlphanumericDevicePasswordRequired 为空，客户端应将此值视为 FALSE。 如果 DevicePasswordEnabled 的值为 FALSE，则客户端应忽略此属性。
 
 ```csharp
 public bool? AlphanumericDevicePasswordRequired { get; set; }

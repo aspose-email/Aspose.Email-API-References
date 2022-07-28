@@ -17,7 +17,7 @@ public MailMessage CreateReadReceipt(string from, string bodyText)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | from | String | 表示发件人地址的字符串。 |
-| bodyText | String | 消息正文。 如果此参数为 null 或为空，将应用默认消息正文文本。 |
+| bodyText | String | 消息正文文本。 如果此参数为 null 或为空，将应用默认的消息正文文本。 |
 
 ### 返回值
 

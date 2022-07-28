@@ -20,9 +20,9 @@ public abstract class ActivityClient : IActivityClient
 | --- | --- |
 | virtual [MultipleServicesTokenProvider](../../aspose.email.clients.activity/activityclient/multipleservicestokenprovider) { get; set; } | 获取或设置允许检索 OAuth 访问令牌的对象。 |
 | virtual [Proxy](../../aspose.email.clients.activity/activityclient/proxy) { get; set; } | 获取或设置数据以代理访问 Exchange 服务器。 |
-| virtual [ResourceId](../../aspose.email.clients.activity/activityclient/resourceid) { get; set; } | 获取或设置资源ID。 例如对于用户，它可能是用户主体名称 (UPN) 或用户 ID |
+| virtual [ResourceId](../../aspose.email.clients.activity/activityclient/resourceid) { get; set; } | 获取或设置资源 id。 例如对于用户，它可能是用户主体名称 (UPN) 或用户 id |
 | virtual [TenantId](../../aspose.email.clients.activity/activityclient/tenantid) { get; set; } | 获取或设置租户标识符 |
-| virtual [Timeout](../../aspose.email.clients.activity/activityclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为 100,000 毫秒（100 秒）。 |
+| virtual [Timeout](../../aspose.email.clients.activity/activityclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为100,000毫秒（100秒）。 |
 | virtual [TokenProvider](../../aspose.email.clients.activity/activityclient/tokenprovider) { get; set; } | 获取或设置允许检索 OAuth 访问令牌的对象。 |
 
 ## 方法
@@ -37,8 +37,8 @@ public abstract class ActivityClient : IActivityClient
 | [ListSubscriptions](../../aspose.email.clients.activity/activityclient/listsubscriptions)() |  |
 | [StartSubscription](../../aspose.email.clients.activity/activityclient/startsubscription)(string, Webhook) |  |
 | [StopSubscription](../../aspose.email.clients.activity/activityclient/stopsubscription)(string) |  |
-| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | 初始化[`ActivityClient`](../activityclient)基础类 的新实例 |
-| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient_1)(ITokenProvider, string) | 初始化[`ActivityClient`](../activityclient)基础类 的新实例 |
+| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | 初始化[`ActivityClient`](../activityclient)基于类 |
+| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient_1)(ITokenProvider, string) | 初始化[`ActivityClient`](../activityclient)基于类 |
 
 ### 也可以看看
 

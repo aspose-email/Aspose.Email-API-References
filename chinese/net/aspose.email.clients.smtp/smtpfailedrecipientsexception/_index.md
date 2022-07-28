@@ -1,14 +1,14 @@
 ---
 title: SmtpFailedRecipientsException
 second_title: Aspose.Email for .NET API 参考
-description: SmtpFailedRecipientsException 的摘要描述
+description: SmtpFailedRecipientsException. 的摘要描述
 type: docs
 weight: 17060
 url: /zh/net/aspose.email.clients.smtp/smtpfailedrecipientsexception/
 ---
 ## SmtpFailedRecipientsException class
 
-SmtpFailedRecipientsException 的摘要描述。
+SmtpFailedRecipientsException. 的摘要描述
 
 ```csharp
 public class SmtpFailedRecipientsException : SmtpFailedRecipientException
@@ -18,10 +18,10 @@ public class SmtpFailedRecipientsException : SmtpFailedRecipientException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor)() | 初始化 [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) 类的新实例 |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_1)(string) | 初始化 [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) 类的新实例 |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_3)(string, Exception) | 初始化 [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) 类的新实例 |
-| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_2)(string, SmtpFailedRecipientException[]) | 初始化 [`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) 类的新实例 |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor)() | 初始化[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_1)(string) | 初始化[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_3)(string, Exception) | 初始化[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
+| [SmtpFailedRecipientsException](smtpfailedrecipientsexception#constructor_2)(string, SmtpFailedRecipientException[]) | 初始化[`SmtpFailedRecipientsException`](../smtpfailedrecipientsexception) class |
 
 ## 特性
 

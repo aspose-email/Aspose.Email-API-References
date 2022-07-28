@@ -1,14 +1,14 @@
 ---
 title: WlinkGroupClsid
 second_title: Aspose.Email for .NET API 参考
-description: 指定与快捷方式关联的组标头的 PidTagWlinkGroupHeaderID 属性第 2.1060 节的值 区域配置 规范名称PidTagWlinkGroupClsid 备用名称PR_WLINK_GROUP_CLSID
+description: 指定与快捷方式关联的组标头的 PidTagWlinkGroupHeaderID 属性第 2.1060 节的值 区域Configuration 规范名称PidTagWlinkGroupClsid 备用名称PR_WLINK_GROUP_CLSID
 type: docs
 weight: 19440
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkgroupclsid/
 ---
 ## KnownPropertyList.WlinkGroupClsid field
 
-指定与快捷方式关联的组标头的 PidTagWlinkGroupHeaderID 属性（第 2.1060 节）的值。 区域:配置 规范名称:PidTagWlinkGroupClsid 备用名称:PR_WLINK_GROUP_CLSID
+指定与快捷方式关联的组标头的 PidTagWlinkGroupHeaderID 属性（第 2.1060 节）的值。 区域：Configuration 规范名称：PidTagWlinkGroupClsid 备用名称：PR_WLINK_GROUP_CLSID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkGroupClsid;

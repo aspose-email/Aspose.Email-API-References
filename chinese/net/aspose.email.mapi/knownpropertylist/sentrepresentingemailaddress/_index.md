@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingEmailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含由发送邮箱所有者代表的最终用户的电子邮件地址 区域地址属性 规范名称PidTagSentRepresentingEmailAddress 备用名称PR_SENT_REPRESENTING_EMAIL_ADDRESSPR_SENT_REPRESENTING_EMAIL_ADDRESS_APR_SENT_REPRESENTING_EMAIL_ADDRESS_W
+description: 包含由发送邮箱所有者代表的最终用户的电子邮件地址 区域地址属性 规范名称PidTagSentRepresentingEmailAddress 替代名称PR_SENT_REPRESENTING_EMAIL_ADDRESSPR_SENT_REPRESENTING_EMAIL_ADDRESS_APR_SENT_REPRESENTING_EMAIL_ADDRESS_W
 type: docs
 weight: 17230
 url: /zh/net/aspose.email.mapi/knownpropertylist/sentrepresentingemailaddress/
 ---
 ## KnownPropertyList.SentRepresentingEmailAddress field
 
-包含由发送邮箱所有者代表的最终用户的电子邮件地址。 区域:地址属性 规范名称:PidTagSentRepresentingEmailAddress 备用名称:PR_SENT_REPRESENTING_EMAIL_ADDRESS、PR_SENT_REPRESENTING_EMAIL_ADDRESS_A、PR_SENT_REPRESENTING_EMAIL_ADDRESS_W
+包含由发送邮箱所有者代表的最终用户的电子邮件地址。 区域：地址属性 规范名称：PidTagSentRepresentingEmailAddress 替代名称：PR_SENT_REPRESENTING_EMAIL_ADDRESS、PR_SENT_REPRESENTING_EMAIL_ADDRESS_A、PR_SENT_REPRESENTING_EMAIL_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingEmailAddress;

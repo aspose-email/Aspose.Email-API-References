@@ -1,14 +1,14 @@
 ---
 title: HasSubFolders
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示 Folder 对象是否有任何子文件夹
+description: 获取一个值该值指示文件夹对象是否有任何子文件夹
 type: docs
 weight: 80
 url: /zh/net/aspose.email.storage.pst/folderinfo/hassubfolders/
 ---
 ## FolderInfo.HasSubFolders property
 
-获取一个值，该值指示 Folder 对象是否有任何子文件夹。
+获取一个值，该值指示文件夹对象是否有任何子文件夹。
 
 ```csharp
 public bool HasSubFolders { get; }

@@ -1,14 +1,14 @@
 ---
 title: FullName
 second_title: Aspose.Email for .NET API 参考
-description: 全名标题
+description: 全名标头
 type: docs
 weight: 160
 url: /zh/net/aspose.email/mhttemplatename.contact/fullname/
 ---
 ## MhtTemplateName.Contact.FullName field
 
-全名标题。
+全名标头。
 
 ```csharp
 public const string FullName;

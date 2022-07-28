@@ -1,14 +1,14 @@
 ---
 title: Import
 second_title: Справочник по Aspose.Email для .NET API
-description: Импорт сообщения из потока
+description: Импортирует сообщение из потока
 type: docs
 weight: 520
 url: /ru/net/aspose.email/mailmessage/import/
 ---
 ## MailMessage.Import method
 
-Импорт сообщения из потока
+Импортирует сообщение из потока
 
 ```csharp
 public virtual void Import(Stream stream)

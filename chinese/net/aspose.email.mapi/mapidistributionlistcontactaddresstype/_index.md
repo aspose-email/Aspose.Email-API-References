@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionListContactAddressType
 second_title: Aspose.Email for .NET API 参考
-description: 表示 个人分发列表成员的地址类型
+description: 代表 个人通讯组成员的地址类型
 type: docs
-weight: 18340
+weight: 18370
 url: /zh/net/aspose.email.mapi/mapidistributionlistcontactaddresstype/
 ---
 ## MapiDistributionListContactAddressType enumeration
 
-表示 个人分发列表成员的地址类型。
+代表 个人通讯组成员的地址类型。
 
 ```csharp
 public enum MapiDistributionListContactAddressType

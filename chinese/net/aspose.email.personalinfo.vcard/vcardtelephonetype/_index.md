@@ -3,7 +3,7 @@ title: VCardTelephoneType
 second_title: Aspose.Email for .NET API 参考
 description: 枚举 vCard 电话类型
 type: docs
-weight: 19740
+weight: 19790
 url: /zh/net/aspose.email.personalinfo.vcard/vcardtelephonetype/
 ---
 ## VCardTelephoneType enumeration
@@ -20,18 +20,18 @@ public enum VCardTelephoneType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未设置任何值。 |
-| VOICE | `1` | 语音号码 |
+| VOICE | `1` | 一个语音号码 |
 | PREF | `2` | 首选号码 |
-| WORK | `4` | 工作编号 |
-| HOME | `8` | 家庭号码 |
+| WORK | `4` | 作品编号 |
+| HOME | `8` | 一个家庭号码 |
 | FAX | `10` | 传真号码 |
 | CELL | `20` | 手机号码 |
 | PAGER | `40` | 寻呼机号码 |
 | BBS | `80` | 公告板服务号 |
-| MODEM | `100` | 调制解调器号码 |
-| CAR | `200` | 车载电话号码 |
-| ISDN | `400` | ISDN 号码 |
-| VIDEO | `800` | 视频电话号码 |
+| MODEM | `100` | 调制解调器编号 |
+| CAR | `200` | 一个车载电话号码 |
+| ISDN | `400` | 一个 ISDN 号码 |
+| VIDEO | `800` | 可视电话号码 |
 | PCS | `1000` | 个人通讯服务电话号码 |
 | MSG | `2000` | 号码上的消息服务 |
 

@@ -3,7 +3,7 @@ title: VCardUrl
 second_title: Aspose.Email for .NET API 参考
 description: 表示 vCard URL 属性
 type: docs
-weight: 19750
+weight: 19800
 url: /zh/net/aspose.email.personalinfo.vcard/vcardurl/
 ---
 ## VCardUrl class
@@ -18,14 +18,14 @@ public sealed class VCardUrl
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardUrl](vcardurl)() | 初始化 [`VCardUrl`](../vcardurl) 类的新实例 |
+| [VCardUrl](vcardurl)() | 初始化[`VCardUrl`](../vcardurl) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Url](../../aspose.email.personalinfo.vcard/vcardurl/url) { get; set; } | 获取或设置一个 url |
-| [UrlType](../../aspose.email.personalinfo.vcard/vcardurl/urltype) { get; set; } | 获取或设置 url 类型 |
+| [UrlType](../../aspose.email.personalinfo.vcard/vcardurl/urltype) { get; set; } | 获取或设置一个url类型 |
 
 ### 也可以看看
 

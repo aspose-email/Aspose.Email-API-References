@@ -1,14 +1,14 @@
 ---
 title: ArchiveDate
 second_title: Aspose.Email for .NET API 参考
-description: 指定日期以 UTC 表示在该日期之后服务器将消息对象存档 区域存档 规范名称PidTagArchiveDate 备用名称PR_ARCHIVE_DATE ptagArchiveDate
+description: 指定日期以 UTC 为单位在该日期之后服务器将消息对象存档 区域Archive 规范名称PidTagArchiveDate 替代名称PR_ARCHIVE_DATEptagArchiveDate
 type: docs
 weight: 1400
 url: /zh/net/aspose.email.mapi/knownpropertylist/archivedate/
 ---
 ## KnownPropertyList.ArchiveDate field
 
-指定日期（以 UTC 表示），在该日期之后，服务器将消息对象存档。 区域:存档 规范名称:PidTagArchiveDate 备用名称:PR_ARCHIVE_DATE, ptagArchiveDate
+指定日期（以 UTC 为单位），在该日期之后，服务器将消息对象存档。 区域：Archive 规范名称：PidTagArchiveDate 替代名称：PR_ARCHIVE_DATE、ptagArchiveDate
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ArchiveDate;

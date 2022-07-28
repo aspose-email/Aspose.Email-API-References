@@ -1,14 +1,14 @@
 ---
 title: IsSigned
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示消息是否已签名
+description: 获取一个值指示消息是否已签名
 type: docs
 weight: 200
 url: /zh/net/aspose.email/mailmessage/issigned/
 ---
 ## MailMessage.IsSigned property
 
-获取一个值，该值指示消息是否已签名。
+获取一个值，指示消息是否已签名。
 
 ```csharp
 public virtual bool IsSigned { get; }

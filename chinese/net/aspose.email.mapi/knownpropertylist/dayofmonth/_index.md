@@ -1,14 +1,14 @@
 ---
 title: DayOfMonth
 second_title: Aspose.Email for .NET API 参考
-description: 标识约会或会议的日期 区域日历 规范名称PidLidDayOfMonth 别名
+description: 标识约会或会议的日期 区域Calendar 规范名称PidLidDayOfMonth 别名
 type: docs
 weight: 3700
 url: /zh/net/aspose.email.mapi/knownpropertylist/dayofmonth/
 ---
 ## KnownPropertyList.DayOfMonth field
 
-标识约会或会议的日期。 区域:日历 规范名称:PidLidDayOfMonth 别名:
+标识约会或会议的日期。 区域：Calendar 规范名称：PidLidDayOfMonth 别名：
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DayOfMonth;

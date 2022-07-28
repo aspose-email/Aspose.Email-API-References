@@ -1,14 +1,14 @@
 ---
 title: EmailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含 Message 对象的电子邮件地址 区域MapiCommon 规范名称PidTagEmailAddress 备用名称PR_EMAIL_ADDRESS PR_EMAIL_ADDRESS_A PR_EMAIL_ADDRESS_W
+description: 包含消息对象的电子邮件地址 区域MapiCommon 规范名称PidTagEmailAddress 备用名称PR_EMAIL_ADDRESSPR_EMAIL_ADDRESS_APR_EMAIL_ADDRESS_W
 type: docs
 weight: 4470
 url: /zh/net/aspose.email.mapi/knownpropertylist/emailaddress/
 ---
 ## KnownPropertyList.EmailAddress field
 
-包含 Message 对象的电子邮件地址。 区域:MapiCommon 规范名称:PidTagEmailAddress 备用名称:PR_EMAIL_ADDRESS, PR_EMAIL_ADDRESS_A, PR_EMAIL_ADDRESS_W
+包含消息对象的电子邮件地址。 区域：MapiCommon 规范名称：PidTagEmailAddress 备用名称：PR_EMAIL_ADDRESS、PR_EMAIL_ADDRESS_A、PR_EMAIL_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmailAddress;

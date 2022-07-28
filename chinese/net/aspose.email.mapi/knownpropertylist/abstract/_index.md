@@ -1,14 +1,14 @@
 ---
 title: Abstract
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_ABSTRACT
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_ABSTRACT
 type: docs
 weight: 230
 url: /zh/net/aspose.email.mapi/knownpropertylist/abstract/
 ---
 ## KnownPropertyList.Abstract field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_ABSTRACT
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_ABSTRACT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Abstract;

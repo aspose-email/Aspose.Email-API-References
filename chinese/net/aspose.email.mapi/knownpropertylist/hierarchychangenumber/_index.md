@@ -1,14 +1,14 @@
 ---
 title: HierarchyChangeNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含每次将子文件夹添加到此文件夹或从中删除时单调增加的数字 区域ExchangeFolder 规范名称PidTagHierarchyChangeNumber 备用名称PR_HIERARCHY_CHANGE_NUM
+description: 包含一个数字每次将子文件夹添加到此文件夹或从中删除时该数字都会单调增加 区域ExchangeFolder 规范名称PidTagHierarchyChangeNumber 备用名称PR_HIERARCHY_CHANGE_NUM
 type: docs
 weight: 10930
 url: /zh/net/aspose.email.mapi/knownpropertylist/hierarchychangenumber/
 ---
 ## KnownPropertyList.HierarchyChangeNumber field
 
-包含每次将子文件夹添加到此文件夹或从中删除时单调增加的数字。 区域:ExchangeFolder 规范名称:PidTagHierarchyChangeNumber 备用名称:PR_HIERARCHY_CHANGE_NUM
+包含一个数字，每次将子文件夹添加到此文件夹或从中删除时，该数字都会单调增加。 区域：ExchangeFolder 规范名称：PidTagHierarchyChangeNumber 备用名称：PR_HIERARCHY_CHANGE_NUM
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HierarchyChangeNumber;

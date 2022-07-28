@@ -17,15 +17,15 @@ public Task SetReadFlagAsync(string messageUri, bool isRead = true,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageUri | String | 消息 uri。 |
-| isRead | Boolean | 指示是否已读取消息的值 |
+| messageUri | String | 一条消息 uri。 |
+| isRead | Boolean | 指示是否已阅读消息的值 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*is` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

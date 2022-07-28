@@ -1,14 +1,14 @@
 ---
 title: ImapListFields
 second_title: Aspose.Email for .NET API 参考
-description: 可从服务器检索的字段
+description: 可以从服务器检索的字段
 type: docs
 weight: 16340
 url: /zh/net/aspose.email.clients.imap/imaplistfields/
 ---
 ## ImapListFields enumeration
 
-可从服务器检索的字段
+可以从服务器检索的字段
 
 ```csharp
 public enum ImapListFields
@@ -18,8 +18,8 @@ public enum ImapListFields
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| IdOnly | `0` | 包括 UniqueId, SequenceNumber |
-| Main | `1` | 包括 SequenceNumber, UniqueId, Size, Flags, InternalDate, Envelop, MESSAGE-ID, List-Unsubscribe |
+| IdOnly | `0` | 包括 UniqueId、SequenceNumber |
+| Main | `1` | 包括 SequenceNumber、UniqueId、Size、Flags、InternalDate、Envelop、MESSAGE-ID、List-Unsubscribe |
 
 ### 也可以看看
 

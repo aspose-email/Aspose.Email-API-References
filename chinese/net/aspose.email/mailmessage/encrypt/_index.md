@@ -20,7 +20,7 @@ public virtual MailMessage Encrypt(X509Certificate2 certificate)
 
 ### 返回值
 
-加密电子邮件
+加密的电子邮件
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public virtual MailMessage Encrypt(X509Certificate2[] certificates)
 
 ### 返回值
 
-加密电子邮件
+加密的电子邮件
 
 ### 也可以看看
 

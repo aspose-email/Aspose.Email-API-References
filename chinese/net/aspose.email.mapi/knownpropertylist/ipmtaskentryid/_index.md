@@ -1,14 +1,14 @@
 ---
 title: IpmTaskEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含 Tasks 文件夹的 EntryID 区域文件夹属性 规范名称PidTagIpmTaskEntryId 备用名称PR_IPM_TASK_ENTRYID
+description: 包含任务文件夹的 EntryID 区域文件夹属性 规范名称PidTagIpmTaskEntryId 备用名称PR_IPM_TASK_ENTRYID
 type: docs
 weight: 11770
 url: /zh/net/aspose.email.mapi/knownpropertylist/ipmtaskentryid/
 ---
 ## KnownPropertyList.IpmTaskEntryId field
 
-包含 Tasks 文件夹的 EntryID。 区域:文件夹属性 规范名称:PidTagIpmTaskEntryId 备用名称:PR_IPM_TASK_ENTRYID
+包含任务文件夹的 EntryID。 区域：文件夹属性 规范名称：PidTagIpmTaskEntryId 备用名称：PR_IPM_TASK_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmTaskEntryId;

@@ -1,14 +1,14 @@
 ---
 title: Initials
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置首字母
+description: 获取或设置一个缩写
 type: docs
 weight: 210
 url: /zh/net/aspose.email.personalinfo/contact/initials/
 ---
 ## Contact.Initials property
 
-获取或设置首字母
+获取或设置一个缩写
 
 ```csharp
 public string Initials { get; set; }

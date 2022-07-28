@@ -16,12 +16,12 @@ public ImapFolderInfo GetFolderInfo(IConnection connection, string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 获取有关文件夹的信息 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索有关信息的文件夹 |
 
 ### 返回值
 
-指定的文件夹信息
+指定文件夹信息
 
 ### 也可以看看
 
@@ -43,11 +43,11 @@ public ImapFolderInfo GetFolderInfo(string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索有关 |
+| folderName | String | 用于检索有关信息的文件夹 |
 
 ### 返回值
 
-的信息 指定的文件夹信息
+指定文件夹信息
 
 ### 也可以看看
 

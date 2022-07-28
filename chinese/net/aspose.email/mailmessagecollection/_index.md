@@ -1,14 +1,14 @@
 ---
 title: MailMessageCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示MailMessage./mailmessage 对象的集合
+description: 代表一个集合邮件消息./mailmessage对象.
 type: docs
 weight: 17720
 url: /zh/net/aspose.email/mailmessagecollection/
 ---
 ## MailMessageCollection class
 
-表示[`MailMessage`](../mailmessage) 对象的集合。
+代表一个集合[`邮件消息`](../mailmessage)对象.
 
 ```csharp
 public class MailMessageCollection : Collection<MailMessage>
@@ -18,11 +18,11 @@ public class MailMessageCollection : Collection<MailMessage>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailMessageCollection](mailmessagecollection)() | 初始化类[`MailMessageCollection`](../mailmessagecollection) 的新实例。 |
+| [MailMessageCollection](mailmessagecollection)() | 初始化类的新实例[`邮件消息集合`](../mailmessagecollection). |
 
 ### 评论
 
-提供一个简单的集合对象，可以表示一组MailMessage 对象。 [`MailMessageCollection`](../mailmessagecollection) 类提供了一个简单的集合对象，可用于存储一组[`MailMessage`](../mailmessage) 对象。
+提供一个简单的集合对象，可以表示一组[`邮件消息`](../mailmessage)objects. 的[`邮件消息集合`](../mailmessagecollection)类提供了一个简单的集合对象，可以用来存储一组[`邮件消息`](../mailmessage)对象.
 
 ### 也可以看看
 

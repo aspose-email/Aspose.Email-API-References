@@ -1,14 +1,14 @@
 ---
 title: MhtFormatOptions
 second_title: Aspose.Email for .NET API 参考
-description: 定义以 MHTML 格式保存时的附加选项 默认值为 MhtFormatOptions.WriteHeader x7C MhtFormatOptions.WriteOutlineAttachments
+description: 以 MHTML 格式保存时定义附加选项 默认值为 MhtFormatOptions.WriteHeader x7C MhtFormatOptions.WriteOutlineAttachments.
 type: docs
 weight: 30
 url: /zh/net/aspose.email/mhtsaveoptions/mhtformatoptions/
 ---
 ## MhtSaveOptions.MhtFormatOptions property
 
-定义以 MHTML 格式保存时的附加选项。 默认值为 MhtFormatOptions.WriteHeader &#x7C; MhtFormatOptions.WriteOutlineAttachments。
+以 MHTML 格式保存时定义附加选项。 默认值为 MhtFormatOptions.WriteHeader &#x7C; MhtFormatOptions.WriteOutlineAttachments.
 
 ```csharp
 public MhtFormatOptions MhtFormatOptions { get; set; }

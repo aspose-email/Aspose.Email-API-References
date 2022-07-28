@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API 参考
-description: 获取电子邮件消息的收件人
+description: 获取电子邮件的接收者
 type: docs
 weight: 140
 url: /zh/net/aspose.email.clients/messageinfobase/to/
 ---
 ## MessageInfoBase.To property
 
-获取电子邮件消息的收件人。
+获取电子邮件的接收者。
 
 ```csharp
 public virtual MailAddressCollection To { get; }

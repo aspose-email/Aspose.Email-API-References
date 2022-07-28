@@ -20,18 +20,18 @@ public class MessageInfo : MessageInfoBase
 | --- | --- |
 | virtual [Bcc](../../aspose.email.clients/messageinfobase/bcc) { get; } | 获取电子邮件的密件抄送。 |
 | virtual [CC](../../aspose.email.clients/messageinfobase/cc) { get; } | 获取电子邮件的抄送。 |
-| virtual [Date](../../aspose.email.clients/messageinfobase/date) { get; } | 始发日期指定了消息的创建者指出 消息已完成并准备好进入邮件传递的日期和时间系统。 例如，这可能是用户在应用程序中按下“发送”或“提交”按钮的时间。 在任何情况下，它都不是专门用于传达消息实际传输的时间， 而是人类或其他消息创建者放置的时间将消息转换为最终形式 准备好传输。 （例如，未连接到网络的便携式计算机用户可能会排队等待传递消息。 发起日期旨在包含用户发送的日期和时间将消息排队， 不是用户连接网络发送消息的时间。） |
+| virtual [Date](../../aspose.email.clients/messageinfobase/date) { get; } | 始发日期指定邮件创建者指示 邮件已完成并准备好进入邮件传递系统的日期和时间。 例如，这可能是用户在应用程序中按下“发送”或“提交”按钮的时间。 在任何情况下，它都不是专门用于传达消息实际传输的时间， 但而是消息的人或其他创建者将消息放入最终形式的时间， 准备好传输。 （例如，未连接到网络的便携式计算机用户可能会排队等待传递的消息。 发起日期旨在包含用户排队消息的日期和时间， 不是用户连接到网络发送消息的时间。） |
 | [From](../../aspose.email.clients/messageinfobase/from) { get; } | 获取此消息的作者列表。 |
-| [Headers](../../aspose.email.clients/messageinfobase/headers) { get; } | 获取电子邮件的标头。 |
+| [Headers](../../aspose.email.clients/messageinfobase/headers) { get; } | 获取电子邮件的标题。 |
 | virtual [ItemId](../../aspose.email.clients.graph/messageinfo/itemid) { get; } | 获取消息 URI。 |
-| [ListUnsubscribe](../../aspose.email.clients/messageinfobase/listunsubscribe) { get; } | List-Unsubscribe 字段描述了直接取消订阅用户（从列表中删除他们）的命令（最好使用邮件）。 更多详情请查看 https://tools.ietf.org/html/rfc2369 |
+| [ListUnsubscribe](../../aspose.email.clients/messageinfobase/listunsubscribe) { get; } | List-Unsubscribe 字段描述了直接取消订阅用户（从列表中删除他们）的命令（最好使用邮件）。 有关更多详细信息，请参阅 https://tools.ietf.org/html/rfc2369 |
 | [MessageId](../../aspose.email.clients/messageinfobase/messageid) { get; } | 获取消息 ID。 |
 | virtual [Properties](../../aspose.email.clients/messageinfobase/properties) { get; } | 获取 mapi 属性。 |
-| [ReplyTo](../../aspose.email.clients/messageinfobase/replyto) { get; } | 获取应接收此消息回复的地址列表。 |
-| [Sender](../../aspose.email.clients/messageinfobase/sender) { get; } | 获取此消息的发送者。 |
+| [ReplyTo](../../aspose.email.clients/messageinfobase/replyto) { get; } | 获取应接收对此消息的回复的地址列表。 |
+| [Sender](../../aspose.email.clients/messageinfobase/sender) { get; } | 获取此消息的发件人。 |
 | [Size](../../aspose.email.clients/messageinfobase/size) { get; } | 获取电子邮件的大小。 |
 | [Subject](../../aspose.email.clients/messageinfobase/subject) { get; } | 获取电子邮件的主题。 |
-| virtual [To](../../aspose.email.clients/messageinfobase/to) { get; } | 获取电子邮件消息的收件人。 |
+| virtual [To](../../aspose.email.clients/messageinfobase/to) { get; } | 获取电子邮件的接收者。 |
 
 ## 方法
 

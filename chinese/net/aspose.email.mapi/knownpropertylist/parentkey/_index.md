@@ -1,14 +1,14 @@
 ---
 title: ParentKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于关联原始消息和有关原始消息的报告的搜索关键字 区域MapiEnvelope 规范名称PidTagParentKey 替代名称PR_PARENT_KEY ptagParentKey
+description: 包含用于关联原始消息和有关原始消息的报告的搜索关键字 区域MapiEnvelope 规范名称PidTagParentKey 替代名称PR_PARENT_KEYptagParentKey
 type: docs
 weight: 14210
 url: /zh/net/aspose.email.mapi/knownpropertylist/parentkey/
 ---
 ## KnownPropertyList.ParentKey field
 
-包含用于关联原始消息和有关原始消息的报告的搜索关键字。 区域:MapiEnvelope 规范名称:PidTagParentKey 替代名称:PR_PARENT_KEY, ptagParentKey
+包含用于关联原始消息和有关原始消息的报告的搜索关键字。 区域：MapiEnvelope 规范名称：PidTagParentKey 替代名称：PR_PARENT_KEY、ptagParentKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ParentKey;

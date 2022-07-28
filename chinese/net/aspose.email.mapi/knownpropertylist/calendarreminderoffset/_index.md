@@ -1,14 +1,14 @@
 ---
 title: CalendarReminderOffset
 second_title: Aspose.Email for .NET API 参考
-description: 标识约会开始之前要显示提醒的秒数 区域通用 规范名称PidNameCalendarReminderOffset 备用名称urnschemascalendarreminderoffset
+description: 标识约会开始前要显示提醒的秒数 区域Common 规范名称PidNameCalendarReminderOffset 替代名称urnschemascalendarreminderoffset
 type: docs
 weight: 2370
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarreminderoffset/
 ---
 ## KnownPropertyList.CalendarReminderOffset field
 
-标识约会开始之前要显示提醒的秒数。 区域:通用 规范名称:PidNameCalendarReminderOffset 备用名称:urn:schemas:calendar:reminderoffset
+标识约会开始前要显示提醒的秒数。 区域：Common 规范名称：PidNameCalendarReminderOffset 替代名称：urn:schemas:calendar:reminderoffset
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarReminderOffset;

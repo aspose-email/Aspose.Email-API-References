@@ -1,14 +1,14 @@
 ---
 title: GetGuid
 second_title: Aspose.Email for .NET API 参考
-description: 获取二进制数据的字节作为 Guid
+description: 获取二进制数据的字节为 Guid.
 type: docs
 weight: 210
 url: /zh/net/aspose.email.mapi/mapiproperty/getguid/
 ---
 ## MapiProperty.GetGuid method
 
-获取二进制数据的字节作为 Guid。
+获取二进制数据的字节为 Guid.
 
 ```csharp
 public virtual Guid GetGuid()
@@ -16,7 +16,7 @@ public virtual Guid GetGuid()
 
 ### 返回值
 
-Guid 值。
+指导值。
 
 ### 也可以看看
 

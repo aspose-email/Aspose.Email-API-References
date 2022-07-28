@@ -1,14 +1,14 @@
 ---
 title: IFileDropTargetControl
 second_title: Aspose.Email for .NET API 参考
-description: 定义可以作为拖放目标的控件的接口
+description: 为可以作为拖放目标的控件定义接口
 type: docs
-weight: 20890
+weight: 20940
 url: /zh/net/aspose.email.windows.forms/ifiledroptargetcontrol/
 ---
 ## IFileDropTargetControl interface
 
-定义可以作为拖放目标的控件的接口。
+为可以作为拖放目标的控件定义接口。
 
 ```csharp
 public interface IFileDropTargetControl

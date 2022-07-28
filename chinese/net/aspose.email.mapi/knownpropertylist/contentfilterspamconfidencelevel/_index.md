@@ -1,14 +1,14 @@
 ---
 title: ContentFilterSpamConfidenceLevel
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮件是垃圾邮件的置信度 区域安全消息传递属性 规范名称PidTagContentFilterSpamConfidenceLevel 备用名称PR_CONTENT_FILTER_SCL ptagContentFilterSCL
+description: 表示邮件是垃圾邮件的置信度 区域安全消息传递属性 规范名称PidTagContentFilterSpamConfidenceLevel 替代名称PR_CONTENT_FILTER_SCLptagContentFilterSCL
 type: docs
 weight: 3200
 url: /zh/net/aspose.email.mapi/knownpropertylist/contentfilterspamconfidencelevel/
 ---
 ## KnownPropertyList.ContentFilterSpamConfidenceLevel field
 
-表示邮件是垃圾邮件的置信度。 区域:安全消息传递属性 规范名称:PidTagContentFilterSpamConfidenceLevel 备用名称:PR_CONTENT_FILTER_SCL, ptagContentFilterSCL
+表示邮件是垃圾邮件的置信度。 区域：安全消息传递属性 规范名称：PidTagContentFilterSpamConfidenceLevel 替代名称：PR_CONTENT_FILTER_SCL、ptagContentFilterSCL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentFilterSpamConfidenceLevel;

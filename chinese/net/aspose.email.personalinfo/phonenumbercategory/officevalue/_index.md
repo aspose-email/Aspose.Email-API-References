@@ -1,14 +1,14 @@
 ---
 title: OfficeValue
 second_title: Aspose.Email for .NET API 参考
-description: Office 类别的字符串值
+description: 办公室类别的字符串值
 type: docs
 weight: 350
 url: /zh/net/aspose.email.personalinfo/phonenumbercategory/officevalue/
 ---
 ## PhoneNumberCategory.OfficeValue field
 
-'Office' 类别的字符串值
+“办公室”类别的字符串值
 
 ```csharp
 public const string OfficeValue;

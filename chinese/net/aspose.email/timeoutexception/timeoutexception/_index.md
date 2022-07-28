@@ -1,14 +1,14 @@
 ---
 title: TimeoutException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化TimeoutExceptionaspose.email/timeoutexception类的新实例
+description: 初始化TimeoutExceptionaspose.email/timeoutexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/timeoutexception/timeoutexception/
 ---
 ## TimeoutException(string) {#constructor_1}
 
-初始化[`TimeoutException`](../../timeoutexception)类的新实例。
+初始化[`TimeoutException`](../../timeoutexception)类.
 
 ```csharp
 public TimeoutException(string message)
@@ -28,7 +28,7 @@ public TimeoutException(string message)
 
 ## TimeoutException(string, params object[]) {#constructor_3}
 
-初始化[`TimeoutException`](../../timeoutexception)类的新实例。
+初始化[`TimeoutException`](../../timeoutexception)类.
 
 ```csharp
 public TimeoutException(string format, params object[] parameters)
@@ -77,7 +77,7 @@ public TimeoutException(string format, string command, int timeout)
 
 ## TimeoutException() {#constructor}
 
-初始化[`TimeoutException`](../../timeoutexception)类的新实例。
+初始化[`TimeoutException`](../../timeoutexception)类.
 
 ```csharp
 public TimeoutException()

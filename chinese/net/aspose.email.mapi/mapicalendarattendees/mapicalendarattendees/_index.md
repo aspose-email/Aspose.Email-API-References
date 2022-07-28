@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarAttendees
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiCalendarAttendeesaspose.email.mapi/mapicalendarattendees 类的新实例
+description: 初始化MapiCalendarAttendeesaspose.email.mapi/mapicalendarattendees class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicalendarattendees/mapicalendarattendees/
 ---
 ## MapiCalendarAttendees constructor
 
-初始化 [`MapiCalendarAttendees`](../../mapicalendarattendees) 类的新实例
+初始化[`MapiCalendarAttendees`](../../mapicalendarattendees) class
 
 ```csharp
 public MapiCalendarAttendees()

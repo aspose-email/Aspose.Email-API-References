@@ -1,14 +1,14 @@
 ---
 title: Mime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит сообщение в кодировке MIME. Содержимое Mime передается как непрозрачный BLOB внутри тегов WBXML как указано в WBXML1.2. Если сообщение содержит приглашение на собрание элемент Mime содержит сведения о собрании в формате iCalendar MS-OXCICAL или в формате Transport Neutral Encapsulation Format TNEF MS-OXTNEF. Как указано в разделе 3.4 RFC2447 приглашения на собрания iCalendar имеют тип содержимого текст/календарь с параметром метода установленным на ЗАПРОС.
+description: Содержит сообщение в кодировке MIME. Содержимое Mime передается как непрозрачный BLOB внутри тегов WBXML как указано в WBXML1.2. Если сообщение содержит приглашение на собрание элемент Mime содержит сведения о собрании в Формат iCalendar MS-OXCICAL или формат Transport Neutral Encapsulation Format TNEF MS-OXTNEF. Как указано в разделе 3.4 RFC2447 приглашения на собрания iCalendar имеют тип содержимого текст/календарь с параметром метода установленным на REQUEST.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/smartrequest/mime/
 ---
 ## SmartRequest.Mime property
 
-Содержит сообщение в кодировке MIME. Содержимое Mime передается как непрозрачный BLOB внутри тегов WBXML, как указано в [WBXML1.2]. Если сообщение содержит приглашение на собрание, элемент Mime содержит сведения о собрании в формате iCalendar [MS-OXCICAL] или в формате Transport Neutral Encapsulation Format (TNEF) [MS-OXTNEF]. Как указано в разделе 3.4 [RFC2447], приглашения на собрания iCalendar имеют тип содержимого "текст/календарь" с параметром метода, установленным на "ЗАПРОС".
+Содержит сообщение в кодировке MIME. Содержимое Mime передается как непрозрачный BLOB внутри тегов WBXML, как указано в [WBXML1.2]. Если сообщение содержит приглашение на собрание, элемент Mime содержит сведения о собрании в Формат iCalendar [MS-OXCICAL] или формат Transport Neutral Encapsulation Format (TNEF) [MS-OXTNEF]. Как указано в разделе 3.4 [RFC2447], приглашения на собрания iCalendar имеют тип содержимого «текст/календарь» с параметром метода, установленным на «REQUEST».
 
 ```csharp
 public string Mime { get; set; }

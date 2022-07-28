@@ -16,7 +16,7 @@ public virtual string GetString()
 
 ### 返回值
 
-字符串包含二进制数据。
+一个字符串包含二进制数据。
 
 ### 也可以看看
 
@@ -40,7 +40,7 @@ public virtual string GetString(int codepage)
 
 ### 返回值
 
-字符串包含二进制数据。
+一个字符串包含二进制数据。
 
 ### 也可以看看
 

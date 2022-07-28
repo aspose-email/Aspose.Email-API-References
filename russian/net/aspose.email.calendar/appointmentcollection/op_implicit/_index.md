@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует массив встреч в коллекцию
+description: Преобразует массив встреч в collection
 type: docs
 weight: 20
 url: /ru/net/aspose.email.calendar/appointmentcollection/op_implicit/
 ---
 ## AppointmentCollection Implicit operator
 
-Преобразует массив встреч в коллекцию
+Преобразует массив встреч в collection
 
 ```csharp
 public static implicit operator AppointmentCollection(Appointment[] appointments)
@@ -16,7 +16,7 @@ public static implicit operator AppointmentCollection(Appointment[] appointments
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| appointments | Appointment[] | Массив встреч в convert |
+| appointments | Appointment[] | Массив встреч для преобразования |
 
 ### Возвращаемое значение
 

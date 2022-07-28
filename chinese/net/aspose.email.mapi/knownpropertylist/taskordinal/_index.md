@@ -1,14 +1,14 @@
 ---
 title: TaskOrdinal
 second_title: Aspose.Email for .NET API 参考
-description: 为任务对象的自定义排序提供帮助 区域任务 规范名称PidLidTaskOrdinal 替代名称dispidTaskOrdinal
+description: 为任务对象的自定义排序提供帮助 区域Tasks 规范名称PidLidTaskOrdinal 替代名称dispidTaskOrdinal
 type: docs
 weight: 18750
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskordinal/
 ---
 ## KnownPropertyList.TaskOrdinal field
 
-为任务对象的自定义排序提供帮助。 区域:任务 规范名称:PidLidTaskOrdinal 替代名称:dispidTaskOrdinal
+为任务对象的自定义排序提供帮助。 区域：Tasks 规范名称：PidLidTaskOrdinal 替代名称：dispidTaskOrdinal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskOrdinal;

@@ -3,7 +3,7 @@ title: MessageObjectRecipientEntity
 second_title: Aspose.Email for .NET API 参考
 description: 表示消息对象中的收件人条目
 type: docs
-weight: 18860
+weight: 18890
 url: /zh/net/aspose.email.mapi.msg/messageobjectrecipiententity/
 ---
 ## MessageObjectRecipientEntity class
@@ -18,7 +18,7 @@ public class MessageObjectRecipientEntity : IMessageObjectPropertyContainer
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MessageObjectRecipientEntity](messageobjectrecipiententity)() | 初始化[`MessageObjectRecipientEntity`](../messageobjectrecipiententity)类的新实例。 |
+| [MessageObjectRecipientEntity](messageobjectrecipiententity)() | 初始化[`MessageObjectRecipientEntity`](../messageobjectrecipiententity)类. |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API 参考
-description: 将 ActiveSync 协议版本从枚举转换为字符串表示
+description: 将 ActiveSync 协议版本从枚举转换为字符串表示形式
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/valueconverter/tostring/
 ---
 ## ValueConverter.ToString method
 
-将 ActiveSync 协议版本从枚举转换为字符串表示。
+将 ActiveSync 协议版本从枚举转换为字符串表示形式。
 
 ```csharp
 public static string ToString(ASProtocolVersions version)
@@ -20,7 +20,7 @@ public static string ToString(ASProtocolVersions version)
 
 ### 返回值
 
-返回 ActiveSync 协议的字符串表示版本。
+返回 ActiveSync 协议版本的字符串表示形式。
 
 ### 也可以看看
 

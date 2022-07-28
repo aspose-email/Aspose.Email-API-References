@@ -1,14 +1,14 @@
 ---
 title: ContactLinkLinkRejectHistory
 second_title: Aspose.Email for .NET API 参考
-description: 包含先前因与重复联系人链接而被拒绝的 GAL 联系人列表 区域联系人属性 规范名称PidLidContactLinkLinkRejectHistory 替代名称dispidContactLinkLinkRejectHistory
+description: 包含以前因与重复联系人链接而被拒绝的 GAL 联系人列表 区域联系人属性 规范名称PidLidContactLinkLinkRejectHistory 替代名称dispidContactLinkLinkRejectHistory
 type: docs
 weight: 3000
 url: /zh/net/aspose.email.mapi/knownpropertylist/contactlinklinkrejecthistory/
 ---
 ## KnownPropertyList.ContactLinkLinkRejectHistory field
 
-包含先前因与重复联系人链接而被拒绝的 GAL 联系人列表。 区域:联系人属性 规范名称:PidLidContactLinkLinkRejectHistory 替代名称:dispidContactLinkLinkRejectHistory
+包含以前因与重复联系人链接而被拒绝的 GAL 联系人列表。 区域：联系人属性 规范名称：PidLidContactLinkLinkRejectHistory 替代名称：dispidContactLinkLinkRejectHistory
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkLinkRejectHistory;

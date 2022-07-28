@@ -1,14 +1,14 @@
 ---
 title: ExtendedPropertiesComparisonField
 second_title: Aspose.Email for .NET API 参考
-description: 定义具有属性描述符对和比较字段的字典以按扩展属性搜索
+description: 使用属性描述符和比较字段定义字典以通过扩展属性进行搜索
 type: docs
 weight: 3450
 url: /zh/net/aspose.email.clients.exchange/extendedpropertiescomparisonfield/
 ---
 ## ExtendedPropertiesComparisonField class
 
-定义具有属性描述符对和比较字段的字典以按扩展属性搜索
+使用属性描述符和比较字段定义字典以通过扩展属性进行搜索
 
 ```csharp
 public class ExtendedPropertiesComparisonField : ComparisonField
@@ -18,7 +18,7 @@ public class ExtendedPropertiesComparisonField : ComparisonField
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.email.clients.exchange/extendedpropertiescomparisonfield/item) { get; } | 为PropertyDescriptor获取[`ComparisonFieldAdapter`](../comparisonfieldadapter) |
+| [Item](../../aspose.email.clients.exchange/extendedpropertiescomparisonfield/item) { get; } | 获取[`ComparisonFieldAdapter`](../comparisonfieldadapter)为了[`PropertyDescriptor`](../../aspose.email.mapi/propertydescriptor) |
 
 ## 方法
 

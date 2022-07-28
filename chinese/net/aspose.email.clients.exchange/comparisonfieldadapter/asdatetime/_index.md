@@ -1,14 +1,14 @@
 ---
 title: AsDateTime
 second_title: Aspose.Email for .NET API 参考
-description: 返回当前ComparisonFieldaspose.email.tools.search/comparisonfield为DateComparisonField
+description: 返回当前ComparisonFieldaspose.email.tools.search/comparisonfield作为DateComparisonFieldaspose.email.tools.search/datecomparisonfield
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange/comparisonfieldadapter/asdatetime/
 ---
 ## ComparisonFieldAdapter.AsDateTime property
 
-返回当前[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield)为DateComparisonField
+返回当前[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield)作为[`DateComparisonField`](../../../aspose.email.tools.search/datecomparisonfield)
 
 ```csharp
 public DateComparisonField AsDateTime { get; }

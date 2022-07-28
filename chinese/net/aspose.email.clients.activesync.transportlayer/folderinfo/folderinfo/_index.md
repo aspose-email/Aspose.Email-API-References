@@ -16,7 +16,7 @@ public FolderInfo(string serverId, string parentId, string displayName, FolderTy
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| serverId | String | 指定服务器上文件夹的服务器ID |
+| serverId | String | 指定服务器上文件夹的服务器 ID |
 | parentId | String | 指定服务器上文件夹的父文件夹的服务器 ID |
 | displayName | String | 指定文件夹的用户友好名称。 |
 | type | FolderTypes | 指定文件夹的类型。 |

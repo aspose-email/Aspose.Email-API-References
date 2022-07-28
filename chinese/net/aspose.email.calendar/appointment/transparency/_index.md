@@ -3,7 +3,7 @@ title: Transparency
 second_title: Aspose.Email for .NET API 参考
 description: 指定此约会是否打算在可用性搜索中可见
 type: docs
-weight: 270
+weight: 280
 url: /zh/net/aspose.email.calendar/appointment/transparency/
 ---
 ## Appointment.Transparency property

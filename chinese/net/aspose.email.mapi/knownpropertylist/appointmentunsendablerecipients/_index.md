@@ -1,14 +1,14 @@
 ---
 title: AppointmentUnsendableRecipients
 second_title: Aspose.Email for .NET API 参考
-description: 包含无法发送的与会者列表 区域会议 规范名称PidLidAppointmentUnsendableRecipients 别名dispidApptUnsendableRecips
+description: 包含无法发送的与会者列表 区域Meetings 规范名称PidLidAppointmentUnsendableRecipients 别名dispidApptUnsendableRecips
 type: docs
 weight: 1380
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentunsendablerecipients/
 ---
 ## KnownPropertyList.AppointmentUnsendableRecipients field
 
-包含无法发送的与会者列表。 区域:会议 规范名称:PidLidAppointmentUnsendableRecipients 别名:dispidApptUnsendableRecips
+包含无法发送的与会者列表。 区域：Meetings 规范名称：PidLidAppointmentUnsendableRecipients 别名：dispidApptUnsendableRecips
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentUnsendableRecipients;

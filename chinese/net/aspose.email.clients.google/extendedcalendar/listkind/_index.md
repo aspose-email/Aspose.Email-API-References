@@ -1,14 +1,14 @@
 ---
 title: ListKind
 second_title: Aspose.Email for .NET API 参考
-description: 资源列表类型calendarcalendarList
+description: 资源列表类型calendarcalendarList.
 type: docs
 weight: 140
 url: /zh/net/aspose.email.clients.google/extendedcalendar/listkind/
 ---
 ## ExtendedCalendar.ListKind field
 
-资源列表类型“calendar#calendarList”。
+资源列表类型“calendar#calendarList”.
 
 ```csharp
 public const string ListKind;

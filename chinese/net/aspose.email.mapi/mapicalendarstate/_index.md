@@ -3,7 +3,7 @@ title: MapiCalendarState
 second_title: Aspose.Email for .NET API 参考
 description: 枚举约会状态
 type: docs
-weight: 18080
+weight: 18110
 url: /zh/net/aspose.email.mapi/mapicalendarstate/
 ---
 ## MapiCalendarState enumeration

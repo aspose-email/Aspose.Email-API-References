@@ -1,14 +1,14 @@
 ---
 title: CurrentConnection
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает текущее соединение в соответствии с параметром ConnectionAsgmtMode
+description: Получает текущее соединение в соответствии с ConnectionAsgmtMode option
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients/emailclient/currentconnection/
 ---
 ## EmailClient.CurrentConnection property
 
-Получает текущее соединение в соответствии с параметром ConnectionAsgmtMode
+Получает текущее соединение в соответствии с ConnectionAsgmtMode option
 
 ```csharp
 public virtual IConnection CurrentConnection { get; }

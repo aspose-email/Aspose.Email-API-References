@@ -1,14 +1,14 @@
 ---
 title: OrganizerAlias
 second_title: Aspose.Email for .NET API 参考
-description: 指定组织者的电子邮件地址 区域会议 规范名称PidLidOrganizerAlias 替代名称dispidOrgAlias
+description: 指定组织者的电子邮件地址 区域Conferencing 规范名称PidLidOrganizerAlias 替代名称dispidOrgAlias
 type: docs
 weight: 13460
 url: /zh/net/aspose.email.mapi/knownpropertylist/organizeralias/
 ---
 ## KnownPropertyList.OrganizerAlias field
 
-指定组织者的电子邮件地址。 区域:会议 规范名称:PidLidOrganizerAlias 替代名称:dispidOrgAlias
+指定组织者的电子邮件地址。 区域：Conferencing 规范名称：PidLidOrganizerAlias 替代名称：dispidOrgAlias
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OrganizerAlias;

@@ -1,14 +1,14 @@
 ---
 title: RestoreConnection
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置值该值定义在服务器强制关闭连接时是否必须恢复连接 此选项必须与 NumberOfAttemptsToRrepeat 一起使用选项
+description: 获取或设置定义在服务器强制关闭连接时是否必须恢复连接的值 此选项必须与 NumberOfAttemptsToRrepeat 选项一起使用
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.imap/restoresettings/restoreconnection/
 ---
 ## RestoreSettings.RestoreConnection property
 
-获取或设置值，该值定义在服务器强制关闭连接时是否必须恢复连接 此选项必须与 NumberOfAttemptsToRrepeat 一起使用选项。
+获取或设置定义在服务器强制关闭连接时是否必须恢复连接的值 此选项必须与 NumberOfAttemptsToRrepeat 选项一起使用。
 
 ```csharp
 public bool RestoreConnection { get; set; }

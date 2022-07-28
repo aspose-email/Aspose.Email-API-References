@@ -20,13 +20,13 @@ public MessageTrackingReport GetMessageTrackingReport(GetMessageTrackingReportOp
 
 ### 返回值
 
-A 找到[`MessageTrackingReport`](../../messagetrackingreport)或` null` 如果没有找到邮件跟踪报告
+找到一个[`MessageTrackingReport`](../../messagetrackingreport)或者`无效的`如果没有找到邮件跟踪报告
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 在*options*为`时抛出 null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时*options*是`无效的` |
 
 ### 也可以看看
 

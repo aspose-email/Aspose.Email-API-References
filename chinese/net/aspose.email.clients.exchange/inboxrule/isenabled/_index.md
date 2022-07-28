@@ -1,14 +1,14 @@
 ---
 title: IsEnabled
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个指示是否启用规则的值
+description: 获取或设置一个值指示是否启用规则
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.exchange/inboxrule/isenabled/
 ---
 ## InboxRule.IsEnabled property
 
-获取或设置一个指示是否启用规则的值。
+获取或设置一个值，指示是否启用规则。
 
 ```csharp
 public bool IsEnabled { get; set; }

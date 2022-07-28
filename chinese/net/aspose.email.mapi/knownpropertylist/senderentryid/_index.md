@@ -1,14 +1,14 @@
 ---
 title: SenderEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 标识包含发送邮箱所有者的通讯簿EntryID 的通讯簿EntryID 区域地址属性 规范名称PidTagSenderEntryId 备用名称PR_SENDER_ENTRYID ptagSenderEntryId
+description: 标识包含发送邮箱所有者的通讯簿EntryID 的通讯簿EntryID 区域地址 Properties 规范名称PidTagSenderEntryId 备用名称PR_SENDER_ENTRYIDptagSenderEntryId
 type: docs
 weight: 17110
 url: /zh/net/aspose.email.mapi/knownpropertylist/senderentryid/
 ---
 ## KnownPropertyList.SenderEntryId field
 
-标识包含发送邮箱所有者的通讯簿EntryID 的通讯簿EntryID。 区域:地址属性 规范名称:PidTagSenderEntryId 备用名称:PR_SENDER_ENTRYID, ptagSenderEntryId
+标识包含发送邮箱所有者的通讯簿EntryID 的通讯簿EntryID。 区域：地址 Properties 规范名称：PidTagSenderEntryId 备用名称：PR_SENDER_ENTRYID、ptagSenderEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderEntryId;

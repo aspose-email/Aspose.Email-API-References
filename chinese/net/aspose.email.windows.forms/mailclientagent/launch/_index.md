@@ -18,7 +18,7 @@ public virtual void Launch(string subject, string body, RecipientCollection reci
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | subject | String | 邮件主题。 |
-| body | String | 消息体。 |
+| body | String | 消息正文。 |
 | recipients | RecipientCollection | 邮件收件人。 |
 | attachments | String[] | 邮件附件。 |
 
@@ -42,7 +42,7 @@ public virtual void Launch(string subject, string body, RecipientCollection reci
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | subject | String | 邮件主题。 |
-| body | String | 消息体。 |
+| body | String | 消息正文。 |
 | recipients | RecipientCollection | 邮件收件人。 |
 
 ### 也可以看看

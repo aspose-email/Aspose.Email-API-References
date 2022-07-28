@@ -1,14 +1,14 @@
 ---
 title: OOFResponse
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает класс для получения и установки информации об отсутствии на работе OOF.
+description: Задает класс для получения и установки информации об отсутствии на работе OOF.
 type: docs
 weight: 1640
 url: /ru/net/aspose.email.clients.activesync.transportlayer/oofresponse/
 ---
 ## OOFResponse class
 
-Указывает класс для получения и установки информации об отсутствии на работе (OOF).
+Задает класс для получения и установки информации об отсутствии на работе (OOF).
 
 ```csharp
 public class OOFResponse

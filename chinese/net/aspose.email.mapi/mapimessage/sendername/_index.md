@@ -16,11 +16,11 @@ public string SenderName { get; set; }
 
 ### 适当的价值
 
-代表发送者姓名的字符串。
+代表发件人姓名的字符串。
 
 ### 评论
 
-设置空值或空字符串时, 的值属性获取等于 SenderEmailAddress 的值。
+设置空值或空字符串时， 属性的值获取等于 SenderEmailAddress 的值。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GetObjectData
 second_title: Aspose.Email for .NET API 参考
-description: 使用序列化目标对象所需的数据填充SerializationInfo
+description: 填充一个SerializationInfo带有序列化目标对象所需的数据
 type: docs
 weight: 510
 url: /zh/net/aspose.email/mailmessage/getobjectdata/
 ---
 ## MailMessage.GetObjectData method
 
-使用序列化目标对象所需的数据填充SerializationInfo。
+填充一个SerializationInfo带有序列化目标对象所需的数据。
 
 ```csharp
 public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
@@ -16,8 +16,8 @@ public virtual void GetObjectData(SerializationInfo info, StreamingContext conte
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| info | SerializationInfo | SerializationInfo填充数据。 |
-| context | StreamingContext | 此序列化的目的地（参见StreamingContext）。 |
+| info | SerializationInfo | 这SerializationInfo填充数据。 |
+| context | StreamingContext | 目的地（见StreamingContext用于此序列化。 |
 
 ### 例外
 

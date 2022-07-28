@@ -1,14 +1,14 @@
 ---
 title: ConversationIndex
 second_title: Aspose.Email for .NET API 参考
-description: 表示此消息在对话线程中的相对位置 区域常规消息属性 规范名称PidTagConversationIndex 替代名称PR_CONVERSATION_INDEX ptagConversationIndex
+description: 表示此消息在对话线程中的相对位置 区域常规消息属性 规范名称PidTagConversationIndex 替代名称PR_CONVERSATION_INDEXptagConversationIndex
 type: docs
 weight: 3400
 url: /zh/net/aspose.email.mapi/knownpropertylist/conversationindex/
 ---
 ## KnownPropertyList.ConversationIndex field
 
-表示此消息在对话线程中的相对位置。 区域:常规消息属性 规范名称:PidTagConversationIndex 替代名称:PR_CONVERSATION_INDEX, ptagConversationIndex
+表示此消息在对话线程中的相对位置。 区域：常规消息属性 规范名称：PidTagConversationIndex 替代名称：PR_CONVERSATION_INDEX、ptagConversationIndex
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConversationIndex;

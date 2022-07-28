@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-返回代表当前对象的字符串。
+返回表示当前对象的字符串。
 
 ### 也可以看看
 

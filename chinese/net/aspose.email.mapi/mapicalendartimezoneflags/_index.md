@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneFlags
 second_title: Aspose.Email for .NET API 参考
-description: 枚举指定 TimeZoneRule 相关信息的各个位标志
+description: 枚举指定有关 TimeZoneRule 信息的各个位标志
 type: docs
-weight: 18100
+weight: 18130
 url: /zh/net/aspose.email.mapi/mapicalendartimezoneflags/
 ---
 ## MapiCalendarTimeZoneFlags enumeration
 
-枚举指定 TimeZoneRule 相关信息的各个位标志
+枚举指定有关 TimeZoneRule 信息的各个位标志
 
 ```csharp
 [Flags]
@@ -19,8 +19,8 @@ public enum MapiCalendarTimeZoneFlags
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| TZRULE_FLAG_RECUR_CURRENT_TZREG | `1` | 表示此规则与循环系列相关联。 |
-| TZRULE_FLAG_EFFECTIVE_TZREG | `2` | 该标志表示该规则为有效规则。 |
+| TZRULE_FLAG_RECUR_CURRENT_TZREG | `1` | 表示此规则与重复系列相关联。 |
+| TZRULE_FLAG_EFFECTIVE_TZREG | `2` | 这个标志表明这个规则是有效的规则。 |
 
 ### 也可以看看
 

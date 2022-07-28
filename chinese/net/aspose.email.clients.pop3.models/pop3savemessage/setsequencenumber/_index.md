@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.pop3.models/pop3savemessage/setsequencenumber/
 ---
 ## Pop3SaveMessage.SetSequenceNumber method
 
-设置消息序号。
+设置消息序号
 
 ```csharp
 public Pop3SaveMessage SetSequenceNumber(int sequenceNumber)

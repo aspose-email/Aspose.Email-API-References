@@ -1,14 +1,14 @@
 ---
 title: UseDefaultCredentials
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示当前登录到 Windows 的用户的凭据是否应用于 Exchange Web 服务的身份验证将 UseDefaultCredentials 设置为 true 会自动将 Credentials 属性设置为 null
+description: 获取或设置一个值该值指示当前登录到 Windows 的用户的凭据是否应该用于 对 Exchange Web 服务进行身份验证将 UseDefaultCredentials 设置为 true 会自动将 Credentials 属性设置为 null.
 type: docs
 weight: 170
 url: /zh/net/aspose.email.clients.exchange/autodiscoverservicebase/usedefaultcredentials/
 ---
 ## AutodiscoverServiceBase.UseDefaultCredentials property
 
-获取或设置一个值，该值指示当前登录到 Windows 的用户的凭据是否应用于 Exchange Web 服务的身份验证。将 UseDefaultCredentials 设置为 true 会自动将 Credentials 属性设置为 null。
+获取或设置一个值，该值指示当前登录到 Windows 的用户的凭据是否应该用于 对 Exchange Web 服务进行身份验证。将 UseDefaultCredentials 设置为 true 会自动将 Credentials 属性设置为 null.
 
 ```csharp
 public bool UseDefaultCredentials { get; set; }

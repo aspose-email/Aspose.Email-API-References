@@ -1,14 +1,14 @@
 ---
 title: ExchangePatternStart
 second_title: Aspose.Email for .NET API 参考
-description: 标识重复约会实例开始的绝对最短时间 区域普通 规范名称PidNameExchangePatternStart 备用名称http//schemas.microsoft.com/exchange/patternstart
+description: 标识重复约会实例开始的绝对最短时间 区域Common 规范名称PidNameExchangePatternStart 备用名称http//schemas.microsoft.com/exchange/patternstart
 type: docs
 weight: 9880
 url: /zh/net/aspose.email.mapi/knownpropertylist/exchangepatternstart/
 ---
 ## KnownPropertyList.ExchangePatternStart field
 
-标识重复约会实例开始的绝对最短时间。 区域：普通 规范名称：PidNameExchangePatternStart 备用名称：http://schemas.microsoft.com/exchange/patternstart
+标识重复约会实例开始的绝对最短时间。 区域：Common 规范名称：PidNameExchangePatternStart 备用名称：http://schemas.microsoft.com/exchange/patternstart
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangePatternStart;

@@ -3,7 +3,7 @@ title: PropertyDescriptor
 second_title: Aspose.Email for .NET API 参考
 description: 类包含属性描述信息
 type: docs
-weight: 18980
+weight: 19010
 url: /zh/net/aspose.email.mapi/propertydescriptor/
 ---
 ## PropertyDescriptor class
@@ -18,7 +18,7 @@ public abstract class PropertyDescriptor : IEquatable<PropertyDescriptor>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CanonicalName](../../aspose.email.mapi/propertydescriptor/canonicalname) { get; } | 用于在文档中引用属性的名称。 规范名称的前缀向实现者标识属性的基本特征。 规范命名结构使用三个类别，由规范属性名称的以下前缀表示: * PidLid 前缀:由无符号 32 位数量和属性集。 * PidName 前缀:由字符串名称和属性集标识的属性。 * PidTag 前缀:由无符号 16 位数量标识的属性。 |
+| [CanonicalName](../../aspose.email.mapi/propertydescriptor/canonicalname) { get; } | 用于在文档中引用属性的名称。 规范名称的前缀向实现者标识属性的基本特征。 规范命名结构使用三个类别，由规范属性名称的以下前缀表示： * PidLid 前缀：由无符号 32 位数量和属性集标识的属性。 * PidName 前缀：由字符串名称和属性集标识的属性。 * PidTag 前缀：由无符号 16 位数量标识的属性。 |
 | [DataType](../../aspose.email.mapi/propertydescriptor/datatype) { get; } | 属性值类型，如 [MS-OXCDATA] 中所述，指定属性允许的值类型。 |
 | [MultipleValuesDataType](../../aspose.email.mapi/propertydescriptor/multiplevaluesdatatype) { get; } | 指示数据类型是否包含多个值 |
 | [Name](../../aspose.email.mapi/propertydescriptor/name) { get; } | 获取标识属性的字符串。 |
@@ -28,14 +28,14 @@ public abstract class PropertyDescriptor : IEquatable<PropertyDescriptor>
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_4)(MapiProperty) | 从 MAPI 属性中检索 [`PropertyDescriptor`](../propertydescriptor) 对象 |
-| static [Parse](../../aspose.email.mapi/propertydescriptor/parse)(string) | 初始化 [`PropertyDescriptor`](../propertydescriptor) 类的新实例 |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_4)(MapiProperty) | 检索[`PropertyDescriptor`](../propertydescriptor)来自 MAPI property 的对象 |
+| static [Parse](../../aspose.email.mapi/propertydescriptor/parse)(string) | 初始化[`PropertyDescriptor`](../propertydescriptor) class |
 | abstract [Equals](../../aspose.email.mapi/propertydescriptor/equals#equals)(PropertyDescriptor) | 表示当前对象是否等于另一个同类型的对象。 |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_3)(long) | 检索[`PidTagPropertyDescriptor`](../pidtagpropertydescriptor)对象 |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_2)(int, PropertyDataType) | 检索[`PidTagPropertyDescriptor`](../pidtagpropertydescriptor)对象 |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance)(long, PropertyDataType, Guid) | 检索[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor)对象 |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_1)(string, PropertyDataType, Guid) | 检索[`PidNamePropertyDescriptor`](../pidnamepropertydescriptor)对象 |
-| [operator ==](../../aspose.email.mapi/propertydescriptor/op_equality) | 判断指定对象是否相等。 |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_3)(long) | 检索[`PidTagPropertyDescriptor`](../pidtagpropertydescriptor)object |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_2)(int, PropertyDataType) | 检索[`PidTagPropertyDescriptor`](../pidtagpropertydescriptor)object |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance)(long, PropertyDataType, Guid) | 检索[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor)object |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_1)(string, PropertyDataType, Guid) | 检索[`PidNamePropertyDescriptor`](../pidnamepropertydescriptor)object |
+| [operator ==](../../aspose.email.mapi/propertydescriptor/op_equality) | 判断指定的对象是否相等。 |
 | [operator !=](../../aspose.email.mapi/propertydescriptor/op_inequality) | 判断指定的对象是否不相等。 |
 
 ### 也可以看看

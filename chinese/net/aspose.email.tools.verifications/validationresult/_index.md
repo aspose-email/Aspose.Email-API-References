@@ -3,7 +3,7 @@ title: ValidationResult
 second_title: Aspose.Email for .NET API 参考
 description: 显示电子邮件验证过程的结果
 type: docs
-weight: 20820
+weight: 20870
 url: /zh/net/aspose.email.tools.verifications/validationresult/
 ---
 ## ValidationResult class
@@ -19,8 +19,8 @@ public class ValidationResult
 | 姓名 | 描述 |
 | --- | --- |
 | [ValidationResult](validationresult#constructor)() | 创建 ValidationResult 类的实例 |
-| [ValidationResult](validationresult#constructor_1)(ValidationResponseCode) | 创建 ValidationResult 类的实例，指定 ValidationResponseCode |
-| [ValidationResult](validationresult#constructor_2)(ValidationResponseCode, Exception) | 创建 ValidationResult 类的实例，指定 ValidationResponseCode ，最后一个例外。 |
+| [ValidationResult](validationresult#constructor_1)(ValidationResponseCode) | 创建 ValidationResult 类的实例，使用指定的验证响应代码 |
+| [ValidationResult](validationresult#constructor_2)(ValidationResponseCode, Exception) | 创建 ValidationResult 类的实例，使用指定的验证响应代码 ，最后一个例外。 |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public class ValidationResult
 | --- | --- |
 | [LastException](../../aspose.email.tools.verifications/validationresult/lastexception) { get; set; } | 验证过程中遇到的最后一个错误。 |
 | [Message](../../aspose.email.tools.verifications/validationresult/message) { get; } | 获取有关结果的详细消息。 |
-| [ReturnCode](../../aspose.email.tools.verifications/validationresult/returncode) { get; set; } | 获取或获取验证过程的响应代码。 |
+| [ReturnCode](../../aspose.email.tools.verifications/validationresult/returncode) { get; set; } | 获取或获取验证过程的响应码。 |
 
 ### 也可以看看
 

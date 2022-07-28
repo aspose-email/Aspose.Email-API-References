@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/workload/
 ---
 ## Record.Workload property
 
-获取或设置发生活动的 Office 365 服务。 强制:否
+获取或设置发生活动的 Office 365 服务。 强制：否
 
 ```csharp
 public Workload Workload { get; set; }

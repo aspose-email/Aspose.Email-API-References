@@ -1,14 +1,14 @@
 ---
 title: SourceId
 second_title: Aspose.Email for .NET API 参考
-description: 从其单击 URL 的 Office 365 服务的标识符例如对于邮件这是 Exchange Online 网络消息 ID 强制是
+description: 从中单击 URL 的 Office 365 服务的标识符例如对于邮件这是 Exchange Online 网络消息 ID 强制是
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activity/o365urltimeofclickactivity/sourceid/
 ---
 ## O365URLTimeOfClickActivity.SourceId property
 
-从其单击 URL 的 Office 365 服务的标识符（例如，对于邮件，这是 Exchange Online 网络消息 ID）。 强制:是
+从中单击 URL 的 Office 365 服务的标识符（例如，对于邮件，这是 Exchange Online 网络消息 ID）。 强制：是
 
 ```csharp
 public string SourceId { get; set; }

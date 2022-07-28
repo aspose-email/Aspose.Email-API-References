@@ -1,14 +1,14 @@
 ---
 title: FindOrGetCurrent
 second_title: Aspose.Email for .NET API 参考
-description: 在列表中查找具有规范名称
+description: 在列表中查找具有规范名称的属性
 type: docs
 weight: 110
 url: /zh/net/aspose.email.mapi/knownpropertylist/findorgetcurrent/
 ---
 ## KnownPropertyList.FindOrGetCurrent method
 
-在列表中查找具有规范名称
+在列表中查找具有规范名称的属性
 
 ```csharp
 public PropertyDescriptor FindOrGetCurrent(PropertyDescriptor item)
@@ -16,11 +16,11 @@ public PropertyDescriptor FindOrGetCurrent(PropertyDescriptor item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | PropertyDescriptor | 属性描述符搜索 |
+| item | PropertyDescriptor | 要搜索的属性描述符 |
 
 ### 返回值
 
-[`PropertyDescriptor`](../../propertydescriptor)对象（如果在列表中找到）；否则[`PropertyDescriptor`](../../propertydescriptor)来自参数的对象。
+[`PropertyDescriptor`](../../propertydescriptor)如果在列表中找到对象；否则[`PropertyDescriptor`](../../propertydescriptor)来自参数的对象。
 
 ### 也可以看看
 

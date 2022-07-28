@@ -1,14 +1,14 @@
 ---
 title: SizeRange
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 SizeRangeaspose.email.clients.exchange/sizerange 班级
+description: 初始化SizeRangeaspose.email.clients.exchange/sizerange class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/sizerange/sizerange/
 ---
 ## SizeRange constructor
 
-初始化一个新的实例 [`SizeRange`](../../sizerange) 班级
+初始化[`SizeRange`](../../sizerange) class
 
 ```csharp
 public SizeRange()

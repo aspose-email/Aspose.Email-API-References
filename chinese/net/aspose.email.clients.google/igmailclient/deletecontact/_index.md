@@ -1,14 +1,14 @@
 ---
 title: DeleteContact
 second_title: Aspose.Email for .NET API 参考
-description: 删除指定联系人
+description: 删除指定的联系人
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.google/igmailclient/deletecontact/
 ---
 ## IGmailClient.DeleteContact method
 
-删除指定联系人
+删除指定的联系人
 
 ```csharp
 public void DeleteContact(string contactUri)
@@ -16,7 +16,7 @@ public void DeleteContact(string contactUri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contactUri | String | 联系人uri |
+| contactUri | String | 联系 uri |
 
 ### 也可以看看
 

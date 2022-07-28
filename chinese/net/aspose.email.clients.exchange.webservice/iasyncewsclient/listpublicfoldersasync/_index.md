@@ -21,7 +21,7 @@ public Task<ExchangeFolderInfoCollection> ListPublicFoldersAsync(
 
 ### 返回值
 
-[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)包含来自根公用文件夹
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)包含来自根公用文件夹的子文件夹
 
 ### 也可以看看
 

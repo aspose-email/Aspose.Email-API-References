@@ -1,14 +1,14 @@
 ---
 title: VCardUrlCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示 VCardUrls
+description: 表示 VCardUrls 的集合
 type: docs
-weight: 19760
+weight: 19810
 url: /zh/net/aspose.email.personalinfo.vcard/vcardurlcollection/
 ---
 ## VCardUrlCollection class
 
-表示 VCardUrls
+表示 VCardUrls 的集合
 
 ```csharp
 public sealed class VCardUrlCollection : List<VCardUrl>

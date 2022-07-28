@@ -16,12 +16,12 @@ public MapiMessage CopyMessage(string newParentId, string itemId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newParentId | String | 新父文件夹 ID |
-| itemId | String | 项目 ID被复制 |
+| newParentId | String | 新的父文件夹 ID |
+| itemId | String | 要复制的项目 ID |
 
 ### 返回值
 
-复制消息
+复制的消息
 
 ### 也可以看看
 

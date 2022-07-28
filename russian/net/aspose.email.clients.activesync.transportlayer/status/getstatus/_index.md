@@ -20,7 +20,7 @@ public static Status GetStatus(int statusCode)
 
 ### Возвращаемое значение
 
-Возвращает статус, заданный кодом.
+Возвращает статус, указанный кодом.
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public static Status GetStatus(CommandCodes commandCode, string statusCode)
 
 ### Возвращаемое значение
 
-Возвращает статус, заданный кодом.
+Возвращает статус, указанный кодом.
 
 ### Смотрите также
 
@@ -71,7 +71,7 @@ public static Status GetStatus(CommandCodes commandCode, int statusCode)
 
 ### Возвращаемое значение
 
-Возвращает статус, заданный кодом.
+Возвращает статус, указанный кодом.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Answered
 second_title: Aspose.Email for .NET API 参考
-description: 消息已得到答复
+description: 消息已回复
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/imapmessageflags/answered/
 ---
 ## ImapMessageFlags.Answered property
 
-消息已得到答复。
+消息已回复。
 
 ```csharp
 public static ImapMessageFlags Answered { get; }

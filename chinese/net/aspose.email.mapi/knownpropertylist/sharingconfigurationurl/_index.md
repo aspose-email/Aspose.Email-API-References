@@ -1,14 +1,14 @@
 ---
 title: SharingConfigurationUrl
 second_title: Aspose.Email for .NET API 参考
-description: 包含零长度字符串 区域共享 规范名称PidLidSharingConfigurationUrl 备用名称dispidSharingConfigUrl
+description: 包含一个长度为零的字符串 区域Sharing 规范名称PidLidSharingConfigurationUrl 替代名称dispidSharingConfigUrl
 type: docs
 weight: 17430
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingconfigurationurl/
 ---
 ## KnownPropertyList.SharingConfigurationUrl field
 
-包含零长度字符串。 区域:共享 规范名称:PidLidSharingConfigurationUrl 备用名称:dispidSharingConfigUrl
+包含一个长度为零的字符串。 区域：Sharing 规范名称：PidLidSharingConfigurationUrl 替代名称：dispidSharingConfigUrl
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingConfigurationUrl;

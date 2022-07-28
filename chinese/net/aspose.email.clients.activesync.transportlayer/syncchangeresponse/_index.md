@@ -1,14 +1,14 @@
 ---
 title: SyncChangeResponse
 second_title: Aspose.Email for .NET API 参考
-description: 用于指示对象已被修改
+description: 表示对象已被修改
 type: docs
 weight: 2170
 url: /zh/net/aspose.email.clients.activesync.transportlayer/syncchangeresponse/
 ---
 ## SyncChangeResponse class
 
-用于指示对象已被修改。
+表示对象已被修改。
 
 ```csharp
 public class SyncChangeResponse : SyncOperationResponse

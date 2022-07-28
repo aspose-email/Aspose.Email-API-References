@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/exchangeidautomatically/
 ---
 ## ImapClient.ExchangeIdAutomatically property
 
-获取或设置值，该值指示客户端是否应自动将有关自身的信息引入服务器。 查看更多:https://tools.ietf.org/html/rfc2971
+获取或设置值，该值指示客户端是否应自动将有关自身的信息引入服务器。 查看更多：https://tools.ietf.org/html/rfc2971
 
 ```csharp
 public bool ExchangeIdAutomatically { get; set; }

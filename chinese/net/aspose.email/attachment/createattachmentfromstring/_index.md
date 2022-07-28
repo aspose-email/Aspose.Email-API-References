@@ -70,7 +70,7 @@ public static Attachment CreateAttachmentFromString(string content, ContentType 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | content | String | 表示附件内容的字符串。 |
-| contentType | ContentType | [`ContentType`](../../../aspose.email.mime/contenttype)。 |
+| contentType | ContentType | 这[`ContentType`](../../../aspose.email.mime/contenttype). |
 
 ### 返回值
 

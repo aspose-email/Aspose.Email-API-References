@@ -18,10 +18,10 @@ public class ImapException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImapException](imapexception#constructor)() | 初始化[`ImapException`](../imapexception)类的新实例。 |
-| [ImapException](imapexception#constructor_1)(string) | 初始化[`ImapException`](../imapexception)类的新实例。 |
-| [ImapException](imapexception#constructor_2)(string, Exception) | 初始化[`ImapException`](../imapexception)类的新实例。 |
-| [ImapException](imapexception#constructor_3)(string, params object[]) | 使用指定的错误消息初始化[`ImapException`](../imapexception)类的新实例。 |
+| [ImapException](imapexception#constructor)() | 初始化[`ImapException`](../imapexception)类. |
+| [ImapException](imapexception#constructor_1)(string) | 初始化[`ImapException`](../imapexception)类. |
+| [ImapException](imapexception#constructor_2)(string, Exception) | 初始化[`ImapException`](../imapexception)类. |
+| [ImapException](imapexception#constructor_3)(string, params object[]) | 初始化[`ImapException`](../imapexception)具有指定错误消息的类。 |
 
 ## 特性
 

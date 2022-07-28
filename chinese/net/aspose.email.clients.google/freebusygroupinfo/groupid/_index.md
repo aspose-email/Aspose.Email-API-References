@@ -1,14 +1,14 @@
 ---
 title: GroupId
 second_title: Aspose.Email for .NET API 参考
-description: 组 ID
+description: 组 id
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.google/freebusygroupinfo/groupid/
 ---
 ## FreebusyGroupInfo.GroupId property
 
-组 ID
+组 id
 
 ```csharp
 public string GroupId { get; set; }

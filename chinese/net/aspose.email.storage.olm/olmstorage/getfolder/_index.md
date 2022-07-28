@@ -16,8 +16,8 @@ public OlmFolder GetFolder(string name, bool ignoreCase)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 文件夹名称。 |
-| ignoreCase | Boolean | 指示要匹配的名称是否不区分大小写的值。 |
+| name | String | 文件夹的名称。 |
+| ignoreCase | Boolean | 一个值，指示要匹配的名称是否不区分大小写。 |
 
 ### 返回值
 

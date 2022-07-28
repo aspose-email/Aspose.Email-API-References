@@ -1,14 +1,14 @@
 ---
 title: SharingResponseTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含共享请求的接收者发送共享响应的时间 区域共享 规范名称PidLidSharingResponseTime 替代名称dispidSharingResponseTime
+description: 包含共享请求的接收者发送共享响应的时间 区域Sharing 规范名称PidLidSharingResponseTime 替代名称dispidSharingResponseTime
 type: docs
 weight: 17900
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingresponsetime/
 ---
 ## KnownPropertyList.SharingResponseTime field
 
-包含共享请求的接收者发送共享响应的时间。 区域:共享 规范名称:PidLidSharingResponseTime 替代名称:dispidSharingResponseTime
+包含共享请求的接收者发送共享响应的时间。 区域：Sharing 规范名称：PidLidSharingResponseTime 替代名称：dispidSharingResponseTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingResponseTime;

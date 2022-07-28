@@ -1,14 +1,14 @@
 ---
 title: Before
 second_title: Aspose.Email for .NET API 参考
-description: 表示message中的日期必须早于指定的日期
+description: 表示消息中的日期必须早于指定的日期
 type: docs
 weight: 10
 url: /zh/net/aspose.email.tools.search/datecomparisonfield/before/
 ---
 ## Before(DateTime) {#before}
 
-表示message中的日期必须早于指定的日期。
+表示消息中的日期必须早于指定的日期。
 
 ```csharp
 public MailQuery Before(DateTime value)
@@ -16,7 +16,7 @@ public MailQuery Before(DateTime value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | DateTime | 值。 |
+| value | DateTime | 价值。 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ public MailQuery Before(DateTime value)
 
 ## Before(DateTime, DateComparisonType) {#before_1}
 
-表示message中的日期必须早于指定的日期。
+表示消息中的日期必须早于指定的日期。
 
 ```csharp
 public MailQuery Before(DateTime value, DateComparisonType comparisonType)
@@ -41,12 +41,12 @@ public MailQuery Before(DateTime value, DateComparisonType comparisonType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | DateTime | 值。 |
+| value | DateTime | 价值。 |
 | comparisonType | DateComparisonType | 指定比较类型 |
 
 ### 返回值
 
-MailQuery表示搜索查询（一种搜索标准）。
+[`MailQuery`](../../mailquery)表示搜索查询（一种搜索标准）。
 
 ### 也可以看看
 

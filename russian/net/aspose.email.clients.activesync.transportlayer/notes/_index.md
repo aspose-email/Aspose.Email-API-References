@@ -1,14 +1,14 @@
 ---
 title: Notes
 second_title: Справочник по Aspose.Email для .NET API
-description: Notes пространство имен протокола ActiveSync
+description: Пространство имен Notes протокола ActiveSync
 type: docs
 weight: 1600
 url: /ru/net/aspose.email.clients.activesync.transportlayer/notes/
 ---
 ## Notes enumeration
 
-Notes пространство имен протокола ActiveSync
+Пространство имен Notes протокола ActiveSync
 
 ```csharp
 public enum Notes
@@ -20,9 +20,9 @@ public enum Notes
 | --- | --- | --- |
 | Subject | `5` | Тема примечания. |
 | MessageClass | `6` | Форма сообщения. |
-| LastModifiedDate | `7` | День и время последнего изменения заметки пользователем. |
+| LastModifiedDate | `7` | День и время последнего изменения примечания пользователем. |
 | Categories | `8` | Набор меток, присвоенных заметке. |
-| Category | `9` | К заметке применена одна из назначенных пользователем меток. |
+| Category | `9` | Одна из назначенных пользователем меток, примененных к заметке. |
 
 ### Смотрите также
 

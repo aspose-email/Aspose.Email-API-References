@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API 参考
-description: 判断指定对象是否相等
+description: 判断指定的对象是否相等
 type: docs
 weight: 70
 url: /zh/net/aspose.email.mapi/pidtagpropertydescriptor/op_equality/
 ---
 ## PidTagPropertyDescriptor Equality operator
 
-判断指定对象是否相等。
+判断指定的对象是否相等。
 
 ```csharp
 public static bool operator ==(PidTagPropertyDescriptor pd1, PropertyDescriptor pd2)
@@ -17,7 +17,7 @@ public static bool operator ==(PidTagPropertyDescriptor pd1, PropertyDescriptor 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pd1 | PidTagPropertyDescriptor | 要与另一个对象进行比较的对象。 |
-| pd2 | PropertyDescriptor | 与另一个对象比较的对象。 |
+| pd2 | PropertyDescriptor | 要与另一个对象进行比较的对象。 |
 
 ### 返回值
 

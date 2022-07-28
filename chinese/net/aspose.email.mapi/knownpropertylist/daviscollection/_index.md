@@ -1,14 +1,14 @@
 ---
 title: DavIsCollection
 second_title: Aspose.Email for .NET API 参考
-description: 指示日历对象是否为集合 区域通用 规范名称PidNameDavIsCollection 替代名称DAViscollection
+description: 指示日历对象是否为集合 区域Common 规范名称PidNameDavIsCollection 备用名称DAViscollection
 type: docs
 weight: 3650
 url: /zh/net/aspose.email.mapi/knownpropertylist/daviscollection/
 ---
 ## KnownPropertyList.DavIsCollection field
 
-指示日历对象是否为集合。 区域:通用 规范名称:PidNameDavIsCollection 替代名称:DAV:iscollection
+指示日历对象是否为集合。 区域：Common 规范名称：PidNameDavIsCollection 备用名称：DAV:iscollection
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DavIsCollection;

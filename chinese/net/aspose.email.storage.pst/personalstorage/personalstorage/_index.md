@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage
 second_title: Aspose.Email for .NET API 参考
-description: 初始化PersonalStorageaspose.email.storage.pst/personalstorage类的新实例 允许设置回调方法来处理 PST 遍历期间发生的异常
+description: 初始化一个新的实例PersonalStorageaspose.email.storage.pst/personalstorageclass. 允许设置回调方法来处理 PST 遍历期间发生的异常
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.pst/personalstorage/personalstorage/
 ---
 ## PersonalStorage constructor
 
-初始化[`PersonalStorage`](../../personalstorage)类的新实例。 允许设置回调方法来处理 PST 遍历期间发生的异常。
+初始化一个新的实例[`PersonalStorage`](../../personalstorage)class. 允许设置回调方法来处理 PST 遍历期间发生的异常。
 
 ```csharp
 public PersonalStorage(TraversalExceptionsCallback callback)

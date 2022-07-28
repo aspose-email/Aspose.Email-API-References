@@ -18,10 +18,10 @@ public class CallInformation
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CallState](../../aspose.email.clients.exchange.webservice/callinformation/callstate) { get; } | 电话状态。 |
+| [CallState](../../aspose.email.clients.exchange.webservice/callinformation/callstate) { get; } | 电话通话状态。 |
 | [FailureCause](../../aspose.email.clients.exchange.webservice/callinformation/failurecause) { get; } | 连接失败原因 |
 | [SIPResponse](../../aspose.email.clients.exchange.webservice/callinformation/sipresponse) { get; } | SIP 响应 |
-| [SIPResponseCode](../../aspose.email.clients.exchange.webservice/callinformation/sipresponsecode) { get; } | SIP 响应代码 此列表详细说明了 IETF RFC 中定义并在 2013 年 4 月 18 日在 IANA 注册的所有 SIP 响应代码。 它还包括在过时的 SIP RFC（特别是 RFC 2543）中定义的 SIP 响应代码， 因此未在 IANA 注册；这些都被明确指出。 1xx - 临时响应 2xx - 成功响应 3xx - 重定向响应 4xx - 客户端失败响应 5xx - 服务器故障响应 6xx - 全局故障响应 |
+| [SIPResponseCode](../../aspose.email.clients.exchange.webservice/callinformation/sipresponsecode) { get; } | SIP 响应代码 此列表详细说明了在 IETF RFC 中定义并在 2013 年 4 月 18 日在 IANA 注册的所有 SIP 响应代码。 它还包括在过时的 SIP RFC（特别是 RFC 2543）中定义的 SIP 响应代码， 因此未在 IANA 注册； 1xx - 临时响应 2xx - 成功响应 3xx - 重定向响应 4xx - 客户端故障响应 5xx - 服务器故障响应 6xx - 全局故障响应 |
 
 ### 也可以看看
 

@@ -1,29 +1,29 @@
 ---
 title: Aspose.Email.Calendar.Recurrences
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.Calendar.Recurrences содержит классы для работы с шаблонами повторения календаря.
+description: Aspose.Email.Calendar.Recurrences namespace содержит классы для работы с шаблонами повторения календаря.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.calendar.recurrences/
 ---
-Пространство имен **Aspose.Email.Calendar.Recurrences** содержит классы для работы с шаблонами повторения календаря.
+**Aspose.Email.Calendar.Recurrences** namespace содержит классы для работы с шаблонами повторения календаря.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
 | [ByDay](./byday) | Представляет N-е вхождение (или все вхождения) указанного дня недели. |
-| [ByDayCollection](./bydaycollection) | Представляет набор объектов[`ByDay`](../aspose.email.calendar.recurrences/byday). |
+| [ByDayCollection](./bydaycollection) | Представляет набор[`ByDay`](../aspose.email.calendar.recurrences/byday) объекты. |
 | [ByNumberCollection](./bynumbercollection) | Представляет набор месяцев, недель, дней, часов, минут или секунд в правиле повторения. |
-| [CalendarRecurrence](./calendarrecurrence) | Основной класс представляет повторение iCalendar. |
+| [CalendarRecurrence](./calendarrecurrence) | Основной класс представляет повтор iCalendar. |
 | [DailyRecurrencePattern](./dailyrecurrencepattern) | Представляет шаблон повторения ежедневного типа. |
-| [DateCollection](./datecollection) | Представляет набор значенийDateTime. |
-| [MonthlyRecurrencePattern](./monthlyrecurrencepattern) | Представляет шаблон повторения ежемесячного типа. |
+| [DateCollection](./datecollection) | Представляет наборDateTime значения. |
+| [MonthlyRecurrencePattern](./monthlyrecurrencepattern) | Представляет шаблон повторения ежемесячного типа повторения. |
 | [RecurrencePattern](./recurrencepattern) | Представляет шаблон повторения. |
 | [RecurrenceRule](./recurrencerule) | Представляет одно правило повторения или исключения в шаблоне повторения. |
-| [RecurrenceRuleCollection](./recurrencerulecollection) | Представляет набор объектов[`RecurrenceRule`](../aspose.email.calendar.recurrences/recurrencerule). |
+| [RecurrenceRuleCollection](./recurrencerulecollection) | Представляет набор[`RecurrenceRule`](../aspose.email.calendar.recurrences/recurrencerule) объекты. |
 | [WeeklyRecurrencePattern](./weeklyrecurrencepattern) | Представляет шаблон еженедельного повторения. |
-| [YearlyRecurrencePattern](./yearlyrecurrencepattern) | Представляет шаблон повторения годового типа. |
+| [YearlyRecurrencePattern](./yearlyrecurrencepattern) | Представляет шаблон повторения типа годового повторения. |
 ## перечисление
 
 | перечисление | Описание |

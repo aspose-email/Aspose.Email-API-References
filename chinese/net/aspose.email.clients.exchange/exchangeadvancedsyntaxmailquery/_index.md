@@ -1,14 +1,14 @@
 ---
 title: ExchangeAdvancedSyntaxMailQuery
 second_title: Aspose.Email for .NET API 参考
-description: 表示搜索条件用于匹配邮箱中的多个邮件属性 实现 EWS 使用的高级查询语法 AQS 搜索 AQS 描述于 https//docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-作为交换
+description: 表示用于匹配邮箱中多个邮件属性的搜索条件 实现 EWS 使用的高级查询语法 AQS 搜索 AQS 在 https//docs.microsoft.com/exchange/ 中描述客户端开发者/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange.
 type: docs
 weight: 3160
 url: /zh/net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/
 ---
 ## ExchangeAdvancedSyntaxMailQuery class
 
-表示搜索条件，用于匹配邮箱中的多个邮件属性。 实现 EWS 使用的高级查询语法 (AQS) 搜索。 AQS 描述于 https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-作为交换。
+表示用于匹配邮箱中多个邮件属性的搜索条件。 实现 EWS 使用的高级查询语法 (AQS) 搜索。 AQS 在 https://docs.microsoft.com/exchange/ 中描述客户端开发者/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange.
 
 ```csharp
 public class ExchangeAdvancedSyntaxMailQuery : MailQuery
@@ -18,7 +18,7 @@ public class ExchangeAdvancedSyntaxMailQuery : MailQuery
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeAdvancedSyntaxMailQuery](exchangeadvancedsyntaxmailquery)(string) | 初始化[`ExchangeAdvancedSyntaxMailQuery`](../exchangeadvancedsyntaxmailquery)类的新实例。 |
+| [ExchangeAdvancedSyntaxMailQuery](exchangeadvancedsyntaxmailquery)(string) | 初始化[`ExchangeAdvancedSyntaxMailQuery`](../exchangeadvancedsyntaxmailquery)类. |
 
 ## 特性
 
@@ -31,12 +31,12 @@ public class ExchangeAdvancedSyntaxMailQuery : MailQuery
 | 姓名 | 描述 |
 | --- | --- |
 | [Equals](../../aspose.email.tools.search/mailquery/equals)(MailQuery) | 表示当前对象是否等于另一个同类型的对象。 |
-| override [Equals](../../aspose.email.tools.search/mailquery/equals)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.email.tools.search/mailquery/equals)(object) | 判断是否指定Object 等于这个实例。 |
 | override [GetHashCode](../../aspose.email.tools.search/mailquery/gethashcode)() | 返回此实例的哈希码。 |
-| [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | 此方法保留，不应使用。实现 IXmlSerializable 接口时，您应该从此方法返回 null（在 Visual Basic 中为 Nothing），如果需要指定自定义架构，则应用XmlSchemaProviderAttribute到班级。 |
-| override [ReadXml](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/readxml)(XmlReader) | 从其 XML 表示生成一个对象。 ExchangeAdvancedMailQuery 类未实现。 |
-| override [ToString](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/tostring)() | 返回代表此实例的String。 |
-| override [WriteXml](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/writexml)(XmlWriter) | 将对象转换为其 XML 表示。 ExchangeAdvancedMailQuery 类未实现。 |
+| [GetSchema](../../aspose.email.tools.search/mailquery/getschema)() | 此方法已保留，不应使用。在实现 IXmlSerializable 接口时，您应该从此方法返回 null（在 Visual Basic 中为 Nothing），如果需要指定自定义架构，则应用XmlSchemaProviderAttribute上课. |
+| override [ReadXml](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/readxml)(XmlReader) | 从其 XML 表示生成一个对象。 没有为 ExchangeAdvancedMailQuery 类实现。 |
+| override [ToString](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/tostring)() | 返回一个String代表这个实例。 |
+| override [WriteXml](../../aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/writexml)(XmlWriter) | 将对象转换为其 XML 表示形式。 未针对 ExchangeAdvancedMailQuery 类实现。 |
 
 ### 也可以看看
 

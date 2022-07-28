@@ -1,14 +1,14 @@
 ---
 title: CertificateStatuses
 second_title: Aspose.Email for .NET API 参考
-description: 表示证书是否成功验证
+description: 表示证书是否已成功验证
 type: docs
 weight: 1090
 url: /zh/net/aspose.email.clients.activesync.transportlayer/certificatestatuses/
 ---
 ## CertificateStatuses class
 
-表示证书是否成功验证。
+表示证书是否已成功验证。
 
 ```csharp
 public class CertificateStatuses
@@ -24,7 +24,7 @@ public class CertificateStatuses
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Statuses](../../aspose.email.clients.activesync.transportlayer/certificatestatuses/statuses) { get; } | 表示验证结果。 |
+| [Statuses](../../aspose.email.clients.activesync.transportlayer/certificatestatuses/statuses) { get; } | 表示验证的结果。 |
 
 ## 方法
 

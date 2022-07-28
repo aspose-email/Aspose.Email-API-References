@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/content/objectid/
 ---
 ## Content.ObjectId property
 
-对于 SharePoint 和 OneDrive for Business 活动，用户访问的文件或文件夹的完整路径名。 对于 Exchange 管理员审核日志记录，由 cmdlet 修改的对象的名称。 强制:否
+对于 SharePoint 和 OneDrive for Business 活动，用户访问的文件或文件夹的完整路径名。 对于 Exchange 管理员审核日志记录，由 cmdlet 修改的对象的名称。 强制：否
 
 ```csharp
 public string ObjectId { get; set; }

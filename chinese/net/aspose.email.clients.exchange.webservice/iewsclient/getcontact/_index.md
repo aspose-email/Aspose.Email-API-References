@@ -1,14 +1,14 @@
 ---
 title: GetContact
 second_title: Aspose.Email for .NET API 参考
-description: 根据指定标识符检索联系人信息
+description: 根据指定的标识符检索联系信息
 type: docs
 weight: 900
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/getcontact/
 ---
 ## GetContact(ObjectIdentifier) {#getcontact}
 
-根据指定标识符检索联系人信息。
+根据指定的标识符检索联系信息。
 
 ```csharp
 public Contact GetContact(ObjectIdentifier contactId)
@@ -34,7 +34,7 @@ public Contact GetContact(ObjectIdentifier contactId)
 
 ## GetContact(ObjectIdentifier, ExchangeListContactsOptions) {#getcontact_1}
 
-根据指定标识符检索联系人信息。
+根据指定的标识符检索联系信息。
 
 ```csharp
 public Contact GetContact(ObjectIdentifier contactId, ExchangeListContactsOptions options)
@@ -47,7 +47,7 @@ public Contact GetContact(ObjectIdentifier contactId, ExchangeListContactsOption
 
 ### 返回值
 
-联系方式
+联系信息
 
 ### 也可以看看
 
@@ -62,7 +62,7 @@ public Contact GetContact(ObjectIdentifier contactId, ExchangeListContactsOption
 
 ## GetContact(string) {#getcontact_2}
 
-根据指定标识符检索联系人信息。
+根据指定的标识符检索联系信息。
 
 ```csharp
 public Contact GetContact(string contactId)
@@ -87,7 +87,7 @@ public Contact GetContact(string contactId)
 
 ## GetContact(string, ExchangeListContactsOptions) {#getcontact_3}
 
-根据指定标识符检索联系人信息。
+根据指定的标识符检索联系信息。
 
 ```csharp
 public Contact GetContact(string contactId, ExchangeListContactsOptions options)
@@ -100,7 +100,7 @@ public Contact GetContact(string contactId, ExchangeListContactsOptions options)
 
 ### 返回值
 
-联系方式
+联系信息
 
 ### 也可以看看
 

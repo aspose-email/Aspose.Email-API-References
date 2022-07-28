@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/attachmentdata/fileverdict/
 ---
 ## AttachmentData.FileVerdict property
 
-文件恶意软件判决。 强制:是
+文件恶意软件判决。 强制：是
 
 ```csharp
 public FileVerdict FileVerdict { get; set; }

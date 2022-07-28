@@ -1,14 +1,14 @@
 ---
 title: ByDay
 second_title: Aspose.Email for .NET API 参考
-description: 获取白天
+description: 获取日期
 type: docs
 weight: 20
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerule/byday/
 ---
 ## RecurrenceRule.ByDay property
 
-获取白天。
+获取日期。
 
 ```csharp
 public ByDayCollection ByDay { get; }

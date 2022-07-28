@@ -1,14 +1,14 @@
 ---
 title: ListMessages
 second_title: Aspose.Email for .NET API 参考
-description: 列出消息 获取每条消息的信息
+description: 列出消息 获取搜索消息的信息
 type: docs
 weight: 870
 url: /zh/net/aspose.email.clients.imap/imapclient/listmessages/
 ---
 ## ListMessages(string, ImapListFields, int) {#listmessages_21}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(string folderName, ImapListFields fieldsList, 
@@ -17,7 +17,7 @@ public ImapMessageInfoCollection ListMessages(string folderName, ImapListFields 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 检索消息的文件夹。 |
+| folderName | String | 用于检索消息的文件夹。 |
 | fieldsList | ImapListFields | 可以从服务器检索的字段。 |
 | maxNumberOfMessages | Int32 | 最大消息数。 |
 
@@ -27,7 +27,7 @@ ImapMessageInfoCollection
 
 ### 评论
 
-注意标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(IConnection, string, ImapListFields, int) {#listmessages_8}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, string folderName, 
@@ -61,7 +61,7 @@ ImapMessageInfoCollection
 
 ### 评论
 
-注意标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -76,7 +76,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(string, IEnumerable&lt;string&gt;) {#listmessages_26}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<string> uniqueIdLst)
@@ -84,8 +84,8 @@ public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<str
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 检索消息的文件夹。 |
-| uniqueIdLst | IEnumerable`1 | UniqueId 列表用于[`ImapMessageInfo`](../../imapmessageinfo)从服务器检索。 |
+| folderName | String | 用于检索消息的文件夹。 |
+| uniqueIdLst | IEnumerable`1 | UniqueId 列表[`ImapMessageInfo`](../../imapmessageinfo)从服务器检索。 |
 
 ### 返回值
 
@@ -93,7 +93,7 @@ ImapMessageInfoCollection
 
 ### 评论
 
-注意标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -106,7 +106,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(string, IEnumerable&lt;int&gt;) {#listmessages_25}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<int> sequenceNumberLst)
@@ -114,8 +114,8 @@ public ImapMessageInfoCollection ListMessages(string folderName, IEnumerable<int
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 检索消息的文件夹。 |
-| sequenceNumberLst | IEnumerable`1 | sequenceNumber 列表用于[`ImapMessageInfo`](../../imapmessageinfo)从服务器检索。 |
+| folderName | String | 用于检索消息的文件夹。 |
+| sequenceNumberLst | IEnumerable`1 | 序列号列表[`ImapMessageInfo`](../../imapmessageinfo)从服务器检索。 |
 
 ### 返回值
 
@@ -123,7 +123,7 @@ ImapMessageInfoCollection
 
 ### 评论
 
-注意标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -136,7 +136,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(IConnection, string, IEnumerable&lt;string&gt;) {#listmessages_13}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, string folderName, 
@@ -147,7 +147,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | folderName | String | 用于检索消息的文件夹。 |
-| uniqueIdLst | IEnumerable`1 | UniqueId 列表用于[`ImapMessageInfo`](../../imapmessageinfo)从服务器检索。 |
+| uniqueIdLst | IEnumerable`1 | UniqueId 列表[`ImapMessageInfo`](../../imapmessageinfo)从服务器检索。 |
 
 ### 返回值
 
@@ -155,7 +155,7 @@ ImapMessageInfoCollection
 
 ### 评论
 
-注意标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -169,7 +169,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(IConnection, string, IEnumerable&lt;int&gt;) {#listmessages_12}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, string folderName, 
@@ -180,7 +180,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | folderName | String | 用于检索消息的文件夹。 |
-| sequenceNumberLst | IEnumerable`1 | sequenceNumber 列表用于[`ImapMessageInfo`](../../imapmessageinfo)从服务器检索。 |
+| sequenceNumberLst | IEnumerable`1 | 序列号列表[`ImapMessageInfo`](../../imapmessageinfo)从服务器检索。 |
 
 ### 返回值
 
@@ -188,7 +188,7 @@ ImapMessageInfoCollection
 
 ### 评论
 
-注意标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -202,7 +202,7 @@ ImapMessageInfoCollection
 
 ## ListMessages(IConnection, string, long, bool, IEnumerable&lt;string&gt;) {#listmessages_11}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, string folderName, 
@@ -211,15 +211,15 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索消息。 |
-| modificationSequence | Int64 | 修改序列 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索消息的文件夹。 |
+| modificationSequence | Int64 | 修改顺序 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -233,7 +233,7 @@ ImapMessageInfo 对象集合
 
 ## ListMessages(IConnection) {#listmessages_1}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection)
@@ -241,11 +241,11 @@ public ImapMessageInfoCollection ListMessages(IConnection connection)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -259,7 +259,7 @@ ImapMessageInfo 对象集合
 
 ## ListMessages(IConnection, string) {#listmessages_7}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, string folderName)
@@ -267,12 +267,12 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索消息。 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索消息的文件夹。 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -286,7 +286,7 @@ ImapMessageInfo 对象集合
 
 ## ListMessages(IConnection, bool) {#listmessages_4}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, bool retrieveRecursively)
@@ -294,12 +294,12 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, bool retri
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
+| connection | IConnection | 连接到服务器 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -321,12 +321,12 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, long modif
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| modificationSequence | Int64 | 修改序列 |
+| connection | IConnection | 连接到服务器 |
+| modificationSequence | Int64 | 修改顺序 |
 
 ### 返回值
 
-ImapMessageInfo表示消息信息。
+收集[`ImapMessageInfo`](../../imapmessageinfo)表示消息信息。
 
 ### 也可以看看
 
@@ -340,7 +340,7 @@ ImapMessageInfo表示消息信息。
 
 ## ListMessages(IConnection, string, bool) {#listmessages_10}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IConnection connection, string folderName, 
@@ -349,13 +349,13 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, string fol
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | IConnection | Connection到服务器 |
-| folderName | String | 文件夹以检索消息。 |
+| connection | IConnection | 连接到服务器 |
+| folderName | String | 用于检索消息的文件夹。 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -369,7 +369,7 @@ ImapMessageInfo 对象集合
 
 ## ListMessages() {#listmessages}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public ImapMessageInfoCollection ListMessages()
@@ -377,7 +377,7 @@ public ImapMessageInfoCollection ListMessages()
 
 ### 返回值
 
-ImapMessageInfo 集合对象
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -390,7 +390,7 @@ ImapMessageInfo 集合对象
 
 ## ListMessages(IEnumerable&lt;string&gt;) {#listmessages_19}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(IEnumerable<string> messageExtraFields)
@@ -398,11 +398,11 @@ public ImapMessageInfoCollection ListMessages(IEnumerable<string> messageExtraFi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageExtraFields | IEnumerable`1 | List将请求消息的额外参数。 |
+| messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -415,7 +415,7 @@ ImapMessageInfo 对象集合
 
 ## ListMessages(bool) {#listmessages_16}
 
-获取当前文件夹中的消息列表
+获取当前文件夹中的邮件列表
 
 ```csharp
 public ImapMessageInfoCollection ListMessages(bool retrieveRecursively)
@@ -423,11 +423,11 @@ public ImapMessageInfoCollection ListMessages(bool retrieveRecursively)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| retrieveRecursively | Boolean | 表示，如果必须递归检索消息。 |
+| retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -448,11 +448,11 @@ public ImapMessageInfoCollection ListMessages(string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索消息。 |
+| folderName | String | 用于检索消息的文件夹。 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -473,12 +473,12 @@ public ImapMessageInfoCollection ListMessages(string folderName, bool retrieveRe
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索消息。 |
+| folderName | String | 用于检索消息的文件夹。 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -500,13 +500,13 @@ public ImapMessageInfoCollection ListMessages(string folderName, bool retrieveRe
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹检索消息。 |
+| folderName | String | 用于检索消息的文件夹。 |
 | retrieveRecursively | Boolean | 指示是否必须递归检索消息。 |
 | messageExtraFields | IEnumerable`1 | 将请求消息的额外参数列表。 |
 
 ### 返回值
 
-ImapMessageInfo 对象集合
+ImapMessageInfo 对象的集合
 
 ### 也可以看看
 
@@ -527,11 +527,11 @@ public ImapMessageInfoCollection ListMessages(long modificationSequence)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| modificationSequence | Int64 | 修改序列 |
+| modificationSequence | Int64 | 修改顺序 |
 
 ### 返回值
 
-[`ImapMessageInfo`](../../imapmessageinfo)的集合，表示消息信息。
+收集[`ImapMessageInfo`](../../imapmessageinfo)表示消息信息。
 
 ### 也可以看看
 
@@ -584,7 +584,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, MailQuery 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 
 ### 返回值
 
@@ -613,7 +613,7 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, MailQuery 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 | maxNumberOfMessages | Int32 | 最大消息数。 |
 
 ### 返回值
@@ -669,7 +669,7 @@ public ImapMessageInfoCollection ListMessages(string folderName, MailQuery query
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderName | String | 消息位置 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)代表搜索查询。 |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索查询。 |
 | maxNumberOfMessages | Int32 | 最大消息数。 |
 
 ### 返回值
@@ -724,17 +724,17 @@ public ImapMessageInfoCollection ListMessages(IConnection connection, int maxNum
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| maxNumberOfMessages | Int32 | 最大数量消息。 |
+| maxNumberOfMessages | Int32 | 最大消息数。 |
 
 ### 返回值
 
-[`ImapMessageInfo`](../../imapmessageinfo)的集合，表示消息信息。
+收集[`ImapMessageInfo`](../../imapmessageinfo)表示消息信息。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*为负数。 |
+| ArgumentOutOfRangeException | *maxNumberOfMessages*是负数。 |
 
 ### 也可以看看
 
@@ -760,13 +760,13 @@ public ImapMessageInfoCollection ListMessages(int maxNumberOfMessages)
 
 ### 返回值
 
-[`ImapMessageInfo`](../../imapmessageinfo)的集合，表示消息信息。
+收集[`ImapMessageInfo`](../../imapmessageinfo)表示消息信息。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *maxNumberOfMessages*为负数。 |
+| ArgumentOutOfRangeException | *maxNumberOfMessages*是负数。 |
 
 ### 也可以看看
 

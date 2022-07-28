@@ -1,14 +1,14 @@
 ---
 title: EmsAbHttpPubPf
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_EMS_AB_HTTP_PUB_PF
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_HTTP_PUB_PF
 type: docs
 weight: 6700
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabhttppubpf/
 ---
 ## KnownPropertyList.EmsAbHttpPubPf field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_EMS_AB_HTTP_PUB_PF
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_HTTP_PUB_PF
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHttpPubPf;

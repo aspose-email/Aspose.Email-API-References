@@ -19,16 +19,16 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder = nul
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | String | Name文件夹的 |
-| loadFullInfo | Boolean | 如果 true 表示应该从服务器完全检索文件夹信息， 否则仅检索文件夹名称。 |
+| parentFolder | String | 文件夹名称 |
+| loadFullInfo | Boolean | 如果为 true，则表示应从服务器完全检索文件夹信息， 否则仅检索文件夹名称。 |
 | options | ListFoldersOptions | 操作选项 |
-| returnOptions | ListFoldersReturnOptions | 返回操作选项 |
+| returnOptions | ListFoldersReturnOptions | 操作返回选项 |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

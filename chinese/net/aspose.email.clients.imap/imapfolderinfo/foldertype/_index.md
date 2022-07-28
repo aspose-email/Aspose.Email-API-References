@@ -1,14 +1,14 @@
 ---
 title: FolderType
 second_title: Aspose.Email for .NET API 参考
-description: 如果用作特殊文件夹则获取有关文件夹用途的信息 只有在服务器支持 IMAP LIST 时才可以访问此选项特殊用途邮箱 rfc6154 查看更多信息http//tools.ietf.org/html/rfc6154
+description: 获取有关文件夹用途的信息以防它被用作特殊文件夹 仅当服务器支持 IMAP LIST特殊用途邮箱 rfc6154 查看更多信息时才能访问此选项http//tools.ietf.org /html/rfc6154
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/imapfolderinfo/foldertype/
 ---
 ## ImapFolderInfo.FolderType property
 
-如果用作特殊文件夹，则获取有关文件夹用途的信息。 只有在服务器支持 IMAP LIST 时才可以访问此选项:特殊用途邮箱 (rfc6154) 查看更多信息:http://tools.ietf.org/html/rfc6154
+获取有关文件夹用途的信息，以防它被用作特殊文件夹。 仅当服务器支持 IMAP LIST：特殊用途邮箱 (rfc6154) 查看更多信息时，才能访问此选项：http://tools.ietf.org /html/rfc6154
 
 ```csharp
 public ImapSpecialFolderTypes FolderType { get; }

@@ -1,14 +1,14 @@
 ---
 title: ListMessagesFromPublicFolder
 second_title: Aspose.Email for .NET API 参考
-description: 从公用文件夹获取消息集合
+description: 从公共文件夹中获取消息集合
 type: docs
 weight: 1160
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/listmessagesfrompublicfolder/
 ---
 ## ListMessagesFromPublicFolder(string) {#listmessagesfrompublicfolder_1}
 
-从公用文件夹获取消息集合
+从公共文件夹中获取消息集合
 
 ```csharp
 public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(string folderUri)
@@ -16,11 +16,11 @@ public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(string folderU
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 的 uri文件夹 |
+| folderUri | String | 文件夹的uri |
 
 ### 返回值
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(string folderU
 
 ## ListMessagesFromPublicFolder(ExchangeFolderInfo) {#listmessagesfrompublicfolder}
 
-从公用文件夹获取消息集合
+从公共文件夹中获取消息集合
 
 ```csharp
 public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(ExchangeFolderInfo folder)
@@ -41,11 +41,11 @@ public ExchangeMessageInfoCollection ListMessagesFromPublicFolder(ExchangeFolder
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | ExchangeFolderInfo | [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo)表示有关文件夹 |
+| folder | ExchangeFolderInfo | [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo)表示有关文件夹的信息 |
 
 ### 返回值
 
-ExchangeMessageInfoCollection包含来自指定文件夹
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)包含来自指定文件夹的邮件
 
 ### 也可以看看
 

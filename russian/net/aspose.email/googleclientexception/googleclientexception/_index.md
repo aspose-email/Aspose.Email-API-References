@@ -1,14 +1,14 @@
 ---
 title: GoogleClientException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаGoogleClientExceptionaspose.email/googleclientexceptionс указанным сообщением об ошибке.
+description: Инициализирует новый экземплярGoogleClientExceptionaspose.email/googleclientexception класс с указанным сообщением об ошибке.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/googleclientexception/googleclientexception/
 ---
 ## GoogleClientException(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`GoogleClientException`](../../googleclientexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`GoogleClientException`](../../googleclientexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public GoogleClientException(string message)
@@ -28,7 +28,7 @@ public GoogleClientException(string message)
 
 ## GoogleClientException() {#constructor}
 
-Инициализирует новый экземпляр класса[`GoogleClientException`](../../googleclientexception).
+Инициализирует новый экземпляр[`GoogleClientException`](../../googleclientexception) класс.
 
 ```csharp
 public GoogleClientException()
@@ -44,7 +44,7 @@ public GoogleClientException()
 
 ## GoogleClientException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`GoogleClientException`](../../googleclientexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`GoogleClientException`](../../googleclientexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public GoogleClientException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public GoogleClientException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 
@@ -65,7 +65,7 @@ public GoogleClientException(string message, Exception innerException)
 
 ## GoogleClientException(Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GoogleClientException`](../../googleclientexception) со ссылкой на внутренний исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`GoogleClientException`](../../googleclientexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public GoogleClientException(Exception innerException)
@@ -73,7 +73,7 @@ public GoogleClientException(Exception innerException)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (ничего в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ArchiveTag
 second_title: Aspose.Email for .NET API 参考
-description: 指定存档标记的 GUID 区域存档 规范名称PidTagArchiveTag 备用名称PR_ARCHIVE_TAG ptagArchiveTag
+description: 指定存档标记的 GUID 区域Archive 规范名称PidTagArchiveTag 替代名称PR_ARCHIVE_TAGptagArchiveTag
 type: docs
 weight: 1420
 url: /zh/net/aspose.email.mapi/knownpropertylist/archivetag/
 ---
 ## KnownPropertyList.ArchiveTag field
 
-指定存档标记的 GUID。 区域:存档 规范名称:PidTagArchiveTag 备用名称:PR_ARCHIVE_TAG, ptagArchiveTag
+指定存档标记的 GUID。 区域：Archive 规范名称：PidTagArchiveTag 替代名称：PR_ARCHIVE_TAG、ptagArchiveTag
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ArchiveTag;

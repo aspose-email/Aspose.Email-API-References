@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/recordtype/
 ---
 ## Record.RecordType property
 
-获取或设置记录指示的操作类型。 强制:是
+获取或设置记录指示的操作类型。 强制：是
 
 ```csharp
 public RecordType RecordType { get; set; }

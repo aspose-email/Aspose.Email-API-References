@@ -18,12 +18,12 @@ public class AsposeArgumentNullException : AsposeArgumentException
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor)() | Инициализирует новый экземпляр класса[`AsposeArgumentNullException`](../asposeargumentnullexception). |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`AsposeArgumentNullException`](../asposeargumentnullexception) со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`AsposeArgumentNullException`](../asposeargumentnullexception)с указанным сообщением об ошибке. |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`AsposeException`](../asposeexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)с указанным сообщением об ошибке. |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_5)(string, string) | Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)с указанным сообщением об ошибке. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor)() | Инициализирует новый экземпляр[`AsposeArgumentNullException`](../asposeargumentnullexception) класс. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`AsposeArgumentNullException`](../asposeargumentnullexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_2)(string) | Инициализирует новый экземпляр[`AsposeArgumentNullException`](../asposeargumentnullexception) класс с указанным сообщением об ошибке. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`AsposeException`](../asposeexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_5)(string, string) | Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

@@ -1,14 +1,14 @@
 ---
 title: MessageEditorFormat
 second_title: Aspose.Email for .NET API 参考
-description: 指定电子邮件编辑器可用于编辑消息正文的格式 区域杂项属性 规范名称PidTagMessageEditorFormat 替代名称PR_MSG_EDITOR_FORMAT ptagMsgEditorFormat
+description: 指定电子邮件编辑器可用于编辑邮件正文的格式 区域其他属性 规范名称PidTagMessageEditorFormat 替代名称PR_MSG_EDITOR_FORMATptagMsgEditorFormat
 type: docs
 weight: 12520
 url: /zh/net/aspose.email.mapi/knownpropertylist/messageeditorformat/
 ---
 ## KnownPropertyList.MessageEditorFormat field
 
-指定电子邮件编辑器可用于编辑消息正文的格式。 区域:杂项属性 规范名称:PidTagMessageEditorFormat 替代名称:PR_MSG_EDITOR_FORMAT, ptagMsgEditorFormat
+指定电子邮件编辑器可用于编辑邮件正文的格式。 区域：其他属性 规范名称：PidTagMessageEditorFormat 替代名称：PR_MSG_EDITOR_FORMAT、ptagMsgEditorFormat
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageEditorFormat;

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapfolderinfo/highestmodsequence/
 ---
 ## ImapFolderInfo.HighestModSequence property
 
-获取邮箱中所有邮件的值。 查看更多:https://tools.ietf.org/html/rfc7162
+获取邮箱中所有邮件的值。 查看更多：https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public long HighestModSequence { get; }

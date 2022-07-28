@@ -1,14 +1,14 @@
 ---
 title: InReplyTo
 second_title: Aspose.Email for .NET API 参考
-description: 引用此消息作为回复的消息
+description: 对该消息作为回复的消息的引用
 type: docs
 weight: 130
 url: /zh/net/aspose.email/headertype/inreplyto/
 ---
 ## HeaderType.InReplyTo property
 
-引用此消息作为回复的消息。
+对该消息作为回复的消息的引用。
 
 ```csharp
 public static HeaderType InReplyTo { get; }

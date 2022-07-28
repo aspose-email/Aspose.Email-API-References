@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteType
 second_title: Aspose.Email for .NET API 参考
-description: 包含与 PidLidSharingLocalType 属性相同的值第 2.259 节 区域共享 规范名称PidLidSharingRemoteType 备用名称dispidSharingRemoteType
+description: 包含与 PidLidSharingLocalType 属性第 2.259 节相同的值 区域Sharing 规范名称PidLidSharingRemoteType 替代名称dispidSharingRemoteType
 type: docs
 weight: 17860
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingremotetype/
 ---
 ## KnownPropertyList.SharingRemoteType field
 
-包含与 PidLidSharingLocalType 属性相同的值（第 2.259 节）。 区域:共享 规范名称:PidLidSharingRemoteType 备用名称:dispidSharingRemoteType
+包含与 PidLidSharingLocalType 属性（第 2.259 节）相同的值。 区域：Sharing 规范名称：PidLidSharingRemoteType 替代名称：dispidSharingRemoteType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteType;

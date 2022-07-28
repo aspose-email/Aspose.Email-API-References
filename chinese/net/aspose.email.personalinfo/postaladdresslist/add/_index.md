@@ -16,7 +16,7 @@ public void Add(PostalAddress value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | PostalAddress | 要添加到列表中的对象。 |
+| value | PostalAddress | 要添加到列表的对象。 |
 
 ### 返回值
 

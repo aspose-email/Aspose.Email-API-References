@@ -1,14 +1,14 @@
 ---
 title: JournalUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取日志 uri
+description: 获取日志 uri.
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/journaluri/
 ---
 ## ExchangeMailboxInfo.JournalUri property
 
-获取日志 uri。
+获取日志 uri.
 
 ```csharp
 public abstract string JournalUri { get; set; }

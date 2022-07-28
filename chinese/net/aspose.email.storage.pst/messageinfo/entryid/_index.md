@@ -16,7 +16,7 @@ public byte[] EntryId { get; }
 
 ### 适当的价值
 
-条目 ID。
+条目id.
 
 ### 也可以看看
 

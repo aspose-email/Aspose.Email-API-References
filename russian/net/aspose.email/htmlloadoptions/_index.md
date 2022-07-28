@@ -24,10 +24,10 @@ public class HtmlLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | Представляет формат почтового сообщения. Может быть в формате eml, msg или mhtml. Значение по умолчанию — Eml. |
+| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | Представляет формат почтового сообщения. Может быть в формате eml, msg или mhtml. Значение по умолчанию: Eml. |
 | [PathToResources](../../aspose.email/htmlloadoptions/pathtoresources) { get; set; } | Путь к каталогу с файлами ресурсов. |
 | [PrefferedTextEncoding](../../aspose.email/loadoptions/prefferedtextencoding) { get; set; } | Получает или устанавливает предпочтительную кодировку для сообщения. Принудительно устанавливает предпочтительную кодировку для темы и тела сообщения. Значение по умолчанию равно null. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять формат встроенного сообщения при загрузке в MailMessage. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, необходимо ли сохранять формат встроенного сообщения при загрузке в MailMessage. |
 | [ShouldAddPlainTextView](../../aspose.email/htmlloadoptions/shouldaddplaintextview) { get; set; } | Указывает, добавлять ли текстовое представление тела или нет. Значение по умолчанию — false. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: SenderRepresentativeName
 second_title: Aspose.Email for .NET API 参考
-description: 获取发件人代表名称
+description: 获取发件人代表姓名
 type: docs
 weight: 90
 url: /zh/net/aspose.email.storage.pst/messageinfo/senderrepresentativename/
 ---
 ## MessageInfo.SenderRepresentativeName property
 
-获取发件人代表名称。
+获取发件人代表姓名。
 
 ```csharp
 public string SenderRepresentativeName { get; }
@@ -16,7 +16,7 @@ public string SenderRepresentativeName { get; }
 
 ### 适当的价值
 
-发件人代表名称。
+发件人代表姓名。
 
 ### 也可以看看
 

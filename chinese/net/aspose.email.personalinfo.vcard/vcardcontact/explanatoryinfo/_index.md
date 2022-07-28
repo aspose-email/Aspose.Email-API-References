@@ -1,14 +1,14 @@
 ---
 title: ExplanatoryInfo
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 vCard 说明信息
+description: 获取或设置vCard说明信息
 type: docs
 weight: 50
 url: /zh/net/aspose.email.personalinfo.vcard/vcardcontact/explanatoryinfo/
 ---
 ## VCardContact.ExplanatoryInfo property
 
-获取或设置 vCard 说明信息
+获取或设置vCard说明信息
 
 ```csharp
 public VCardExplanatoryInfo ExplanatoryInfo { get; set; }

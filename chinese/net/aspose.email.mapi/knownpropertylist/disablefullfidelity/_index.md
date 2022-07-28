@@ -1,14 +1,14 @@
 ---
 title: DisableFullFidelity
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_DISABLE_FULL_FIDELITY
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_DISABLE_FULL_FIDELITY
 type: docs
 weight: 4050
 url: /zh/net/aspose.email.mapi/knownpropertylist/disablefullfidelity/
 ---
 ## KnownPropertyList.DisableFullFidelity field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_DISABLE_FULL_FIDELITY
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_DISABLE_FULL_FIDELITY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisableFullFidelity;

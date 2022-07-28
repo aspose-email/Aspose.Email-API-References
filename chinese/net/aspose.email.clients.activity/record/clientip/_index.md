@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/clientip/
 ---
 ## Record.ClientIP property
 
-获取或设置记录活动时使用的设备的 IP 地址。 IP 地址以 IPv4 或 IPv6 地址格式显示。 强制:是
+获取或设置记录活动时使用的设备的 IP 地址。 IP 地址以 IPv4 或 IPv6 地址格式显示。 强制：是
 
 ```csharp
 public string ClientIP { get; set; }

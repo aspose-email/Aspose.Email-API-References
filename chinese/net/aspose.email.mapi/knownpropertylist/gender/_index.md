@@ -1,14 +1,14 @@
 ---
 title: Gender
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个代表邮件用户性别的值 区域MapiMailUser 规范名称PidTagGender 替代名称PR_GENDER urnschemascontactsgender
+description: 包含一个表示邮件用户性别的值 区域MapiMailUser 规范名称PidTagGender 替代名称PR_GENDERurnschemascontactsgender
 type: docs
 weight: 10760
 url: /zh/net/aspose.email.mapi/knownpropertylist/gender/
 ---
 ## KnownPropertyList.Gender field
 
-包含一个代表邮件用户性别的值。 区域:MapiMailUser 规范名称:PidTagGender 替代名称:PR_GENDER, urn:schemas:contacts:gender
+包含一个表示邮件用户性别的值。 区域：MapiMailUser 规范名称：PidTagGender 替代名称：PR_GENDER，urn:schemas:contacts:gender
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Gender;

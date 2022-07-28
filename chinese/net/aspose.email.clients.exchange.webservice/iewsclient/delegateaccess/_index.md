@@ -17,7 +17,7 @@ public void DelegateAccess(string delegateSmtpAddress,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| delegateSmtpAddress | String | 用户的主 smtp 地址。 |
+| delegateSmtpAddress | String | 用户的主要 smtp 地址。 |
 | permissionLevel | ExchangeDelegateFolderPermissionLevel | 授予用户对所有文件夹的权限级别。 |
 | mailbox | String | 授予访问权限的邮箱。 |
 
@@ -25,7 +25,7 @@ public void DelegateAccess(string delegateSmtpAddress,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *delegateSmtpAddress*或*mailbox*是` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *delegateSmtpAddress*或者*mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 
@@ -46,15 +46,15 @@ public void DelegateAccess(ExchangeDelegateUser delegateUser, string mailbox)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| delegateUser | ExchangeDelegateUser | A[`ExchangeDelegateUser`](../../exchangedelegateuser)包含用户信息和委托设置。 |
+| delegateUser | ExchangeDelegateUser | 一个[`ExchangeDelegateUser`](../../exchangedelegateuser)包含用户信息和委托设置。 |
 | mailbox | String | 授予访问权限的邮箱。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser*为空。 |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` 或` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser*一片空白。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 
@@ -75,15 +75,15 @@ public void DelegateAccess(ExchangeDelegateUserCollection delegateUsers, string 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| delegateUsers | ExchangeDelegateUserCollection | A[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection)包含用户信息和授权设置。 |
+| delegateUsers | ExchangeDelegateUserCollection | 一个[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection)包含用户信息和委托设置。 |
 | mailbox | String | 授予访问权限的邮箱。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers*is` null` 。 |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` 或` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers*是`无效的`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

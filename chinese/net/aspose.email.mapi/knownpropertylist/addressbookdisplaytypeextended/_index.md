@@ -1,14 +1,14 @@
 ---
 title: AddressBookDisplayTypeExtended
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个值该值指示如何在表中显示地址簿对象或作为消息的收件人 区域地址簿 规范名称PidTagAddressBookDisplayTypeExtended 备用名称PR_EMS_AB_DISPLAY_TYPE_EX
+description: 包含一个值该值指示如何在表格中显示地址簿对象或作为消息的收件人 区域地址簿 规范名称PidTagAddressBookDisplayTypeExtended 备用名称PR_EMS_AB_DISPLAY_TYPE_EX
 type: docs
 weight: 380
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookdisplaytypeextended/
 ---
 ## KnownPropertyList.AddressBookDisplayTypeExtended field
 
-包含一个值，该值指示如何在表中显示地址簿对象或作为消息的收件人。 区域:地址簿 规范名称:PidTagAddressBookDisplayTypeExtended 备用名称:PR_EMS_AB_DISPLAY_TYPE_EX
+包含一个值，该值指示如何在表格中显示地址簿对象或作为消息的收件人。 区域：地址簿 规范名称：PidTagAddressBookDisplayTypeExtended 备用名称：PR_EMS_AB_DISPLAY_TYPE_EX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDisplayTypeExtended;

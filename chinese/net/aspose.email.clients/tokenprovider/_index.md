@@ -19,19 +19,19 @@ public class TokenProvider : ITokenProvider
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [ClientId](../../aspose.email.clients/tokenprovider/clientid) { get; } | 应用注册时获取的客户端ID。 |
-| virtual [ClientSecret](../../aspose.email.clients/tokenprovider/clientsecret) { get; } | 应用注册时获取的客户端秘钥。 |
+| virtual [ClientSecret](../../aspose.email.clients/tokenprovider/clientsecret) { get; } | 应用注册时获取的客户端秘钥 |
 | virtual [ExtraParameters](../../aspose.email.clients/tokenprovider/extraparameters) { get; } | 获取请求的额外参数 |
-| virtual [Login](../../aspose.email.clients/tokenprovider/login) { get; set; } | 获取或设置基本授权登录 |
+| virtual [Login](../../aspose.email.clients/tokenprovider/login) { get; set; } | 获取或设置基本授权的登录 |
 | virtual [Password](../../aspose.email.clients/tokenprovider/password) { get; set; } | 获取或设置基本授权密码 |
 | virtual [RefreshToken](../../aspose.email.clients/tokenprovider/refreshtoken) { get; } | OAuth 2.0 刷新令牌 |
-| virtual [RequestUrl](../../aspose.email.clients/tokenprovider/requesturl) { get; } | 获取访问令牌的 url。 |
+| virtual [RequestUrl](../../aspose.email.clients/tokenprovider/requesturl) { get; } | 获取访问令牌的url。 |
 | virtual [UseBasicAuthorization](../../aspose.email.clients/tokenprovider/usebasicauthorization) { get; set; } | 获取或设置指示是否使用基本授权的值 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [GetInstance](../../aspose.email.clients/tokenprovider/getinstance)(string, string, string, string) | 获取已定义参数的 OutlookTokenProvider 实例。 |
+| static [GetInstance](../../aspose.email.clients/tokenprovider/getinstance)(string, string, string, string) | 为定义的参数获取 OutlookTokenProvider 的实例。 |
 | virtual [Dispose](../../aspose.email.clients/tokenprovider/dispose)() | 执行释放资源。 |
 | virtual [GetAccessToken](../../aspose.email.clients/tokenprovider/getaccesstoken#getaccesstoken)() | 获取 oAuth 访问令牌。 如果令牌存在且其过期日期未过期，则返回当前令牌，否则从服务器请求新令牌。 |
 | virtual [GetAccessToken](../../aspose.email.clients/tokenprovider/getaccesstoken#getaccesstoken_1)(bool) | 获取 oAuth 访问令牌。 |

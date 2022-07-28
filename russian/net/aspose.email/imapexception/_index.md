@@ -18,10 +18,10 @@ public class ImapException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [ImapException](imapexception#constructor)() | Инициализирует новый экземпляр класса[`ImapException`](../imapexception). |
-| [ImapException](imapexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`ImapException`](../imapexception). |
-| [ImapException](imapexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`ImapException`](../imapexception). |
-| [ImapException](imapexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр класса[`ImapException`](../imapexception)с указанным сообщением об ошибке. |
+| [ImapException](imapexception#constructor)() | Инициализирует новый экземпляр[`ImapException`](../imapexception) класс. |
+| [ImapException](imapexception#constructor_1)(string) | Инициализирует новый экземпляр[`ImapException`](../imapexception) класс. |
+| [ImapException](imapexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`ImapException`](../imapexception) класс. |
+| [ImapException](imapexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр[`ImapException`](../imapexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

@@ -1,14 +1,14 @@
 ---
 title: OfficeLocation
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的办公地点 区域地址属性 规范名称PidTagOfficeLocation 替代名称PR_OFFICE_LOCATION PR_OFFICE_LOCATION_A PR_OFFICE_LOCATION_W
+description: 包含邮件用户的办公室位置 区域地址属性 规范名称PidTagOfficeLocation 替代名称PR_OFFICE_LOCATIONPR_OFFICE_LOCATION_APR_OFFICE_LOCATION_W
 type: docs
 weight: 13220
 url: /zh/net/aspose.email.mapi/knownpropertylist/officelocation/
 ---
 ## KnownPropertyList.OfficeLocation field
 
-包含邮件用户的办公地点。 区域:地址属性 规范名称:PidTagOfficeLocation 替代名称:PR_OFFICE_LOCATION, PR_OFFICE_LOCATION_A, PR_OFFICE_LOCATION_W,
+包含邮件用户的办公室位置。 区域：地址属性 规范名称：PidTagOfficeLocation 替代名称：PR_OFFICE_LOCATION、PR_OFFICE_LOCATION_A、PR_OFFICE_LOCATION_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfficeLocation;

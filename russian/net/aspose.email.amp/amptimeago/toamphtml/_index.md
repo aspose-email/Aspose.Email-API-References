@@ -1,14 +1,14 @@
 ---
 title: ToAmpHtml
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет расширенную HTML-версию компонента.
+description: Представляет HTML-версию компонента amp.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.amp/amptimeago/toamphtml/
 ---
 ## AmpTimeago.ToAmpHtml method
 
-Представляет расширенную HTML-версию компонента.
+Представляет HTML-версию компонента amp.
 
 ```csharp
 public override string ToAmpHtml()

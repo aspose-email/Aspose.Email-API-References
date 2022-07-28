@@ -18,7 +18,7 @@ public class ExchangeDelegatePermissions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeDelegatePermissions](exchangedelegatepermissions)() | 初始化[`ExchangeDelegatePermissions`](../exchangedelegatepermissions)类 的新实例 |
+| [ExchangeDelegatePermissions](exchangedelegatepermissions)() | 初始化[`ExchangeDelegatePermissions`](../exchangedelegatepermissions) class |
 
 ## 特性
 

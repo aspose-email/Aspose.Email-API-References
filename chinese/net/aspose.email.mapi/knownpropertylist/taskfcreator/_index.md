@@ -1,14 +1,14 @@
 ---
 title: TaskFCreator
 second_title: Aspose.Email for .NET API 参考
-description: 表示Task对象最初是由当前用户或用户代理的操作创建的而不是由任务请求的处理创建的 区域任务 规范名称PidLidTaskFCreator 替代名称dispidTaskFCreator
+description: 表示 Task 对象最初是由当前用户或用户代理的操作创建的而不是由任务请求的处理创建的 区域Tasks 规范名称PidLidTaskFCreator 替代名称dispidTaskFCreator
 type: docs
 weight: 18640
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskfcreator/
 ---
 ## KnownPropertyList.TaskFCreator field
 
-表示Task对象最初是由当前用户或用户代理的操作创建的，而不是由任务请求的处理创建的。 区域:任务 规范名称:PidLidTaskFCreator 替代名称:dispidTaskFCreator
+表示 Task 对象最初是由当前用户或用户代理的操作创建的，而不是由任务请求的处理创建的。 区域：Tasks 规范名称：PidLidTaskFCreator 替代名称：dispidTaskFCreator
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskFCreator;

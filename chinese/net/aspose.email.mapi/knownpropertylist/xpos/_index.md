@@ -1,14 +1,14 @@
 ---
 title: Xpos
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_XPOS
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_XPOS
 type: docs
 weight: 19680
 url: /zh/net/aspose.email.mapi/knownpropertylist/xpos/
 ---
 ## KnownPropertyList.Xpos field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_XPOS
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_XPOS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Xpos;

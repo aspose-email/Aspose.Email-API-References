@@ -1,14 +1,14 @@
 ---
 title: MailPriority
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет приоритет почты
+description: Представляет почтовый приоритет
 type: docs
 weight: 17740
 url: /ru/net/aspose.email/mailpriority/
 ---
 ## MailPriority enumeration
 
-Представляет приоритет почты
+Представляет почтовый приоритет
 
 ```csharp
 public enum MailPriority

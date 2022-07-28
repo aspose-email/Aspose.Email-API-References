@@ -29,11 +29,11 @@ public class ESearchOptions : QueryField
 | [CreateQuery](../../aspose.email.clients.imap/esearchoptions/createquery#createquery)() | 创建搜索关键字。 |
 | [CreateQuery](../../aspose.email.clients.imap/esearchoptions/createquery#createquery_1)(MailQueryBuilder) | 创建搜索关键字。 |
 | override [Equals](../../aspose.email.clients.imap/esearchoptions/equals)(object) |  |
-| override [ToString](../../aspose.email.clients.imap/esearchoptions/tostring)() | 对象的字符串表示 |
-| [operator +](../../aspose.email.clients.imap/esearchoptions/op_addition) | 加运算定义 |
-| [operator ==](../../aspose.email.clients.imap/esearchoptions/op_equality) | Equel 操作定义 |
+| override [ToString](../../aspose.email.clients.imap/esearchoptions/tostring)() | 对象的字符串表示形式 |
+| [operator +](../../aspose.email.clients.imap/esearchoptions/op_addition) | 加号操作已定义 |
+| [operator ==](../../aspose.email.clients.imap/esearchoptions/op_equality) | Equel 操作已定义 |
 | [operator !=](../../aspose.email.clients.imap/esearchoptions/op_inequality) | 未定义 equel 操作 |
-| [operator -](../../aspose.email.clients.imap/esearchoptions/op_subtraction) | 减法定义 |
+| [operator -](../../aspose.email.clients.imap/esearchoptions/op_subtraction) | 定义减法运算 |
 
 ### 也可以看看
 

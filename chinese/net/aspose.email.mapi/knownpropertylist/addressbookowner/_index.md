@@ -1,14 +1,14 @@
 ---
 title: AddressBookOwner
 second_title: Aspose.Email for .NET API 参考
-description: 包含引用分发列表所有者的一行 区域地址簿 规范名称PidTagAddressBookOwner 别名PR_EMS_AB_OWNER_O
+description: 包含引用分发列表所有者的一行 区域地址簿 规范名称PidTagAddressBookOwner 替代名称PR_EMS_AB_OWNER_O
 type: docs
 weight: 800
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookowner/
 ---
 ## KnownPropertyList.AddressBookOwner field
 
-包含引用分发列表所有者的一行。 区域:地址簿 规范名称:PidTagAddressBookOwner 别名:PR_EMS_AB_OWNER_O
+包含引用分发列表所有者的一行。 区域：地址簿 规范名称：PidTagAddressBookOwner 替代名称：PR_EMS_AB_OWNER_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookOwner;

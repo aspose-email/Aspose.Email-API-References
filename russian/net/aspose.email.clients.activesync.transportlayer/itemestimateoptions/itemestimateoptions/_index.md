@@ -32,9 +32,9 @@ public ItemEstimateOptions(AirsyncClass? airClass, AirsyncFilterType? filterType
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| airClass | Nullable`1 | Идентифицирует класс предмета. |
+| airClass | Nullable`1 | Определяет класс предмета. |
 | filterType | Nullable`1 | Задает дополнительное временное окно для объектов |
-| maxItems | Nullable`1 | Задает максимальное количество элементов включить в ответ. |
+| maxItems | Nullable`1 | Задает максимальное количество элементов, которые необходимо включить в ответ. |
 
 ### Смотрите также
 

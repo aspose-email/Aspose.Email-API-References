@@ -1,14 +1,14 @@
 ---
 title: FExceptionalAttendees
 second_title: Aspose.Email for .NET API 参考
-description: 表示该对象是具有一个或多个例外的定期日历对象结构如 MS-OXCDATA 2.8.3 节所述 区域会议 规范名称PidLidFExceptionalAttendees 别名dispidFExceptionalAttendees
+description: 表示该对象是一个具有一个或多个例外的循环日历对象结构如 MS-OXCDATA 2.8.3 节所述 区域Meetings 规范名称PidLidFExceptionalAttendees 替代名称dispidFExceptionalAttendees
 type: docs
 weight: 10260
 url: /zh/net/aspose.email.mapi/knownpropertylist/fexceptionalattendees/
 ---
 ## KnownPropertyList.FExceptionalAttendees field
 
-表示该对象是具有一个或多个例外的定期日历对象，结构，如 [MS-OXCDATA] 2.8.3 节所述。 区域:会议 规范名称:PidLidFExceptionalAttendees 别名:dispidFExceptionalAttendees
+表示该对象是一个具有一个或多个例外的循环日历对象，结构，如 [MS-OXCDATA] 2.8.3 节所述。 区域：Meetings 规范名称：PidLidFExceptionalAttendees 替代名称：dispidFExceptionalAttendees
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FExceptionalAttendees;

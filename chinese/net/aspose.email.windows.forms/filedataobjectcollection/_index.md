@@ -3,7 +3,7 @@ title: FileDataObjectCollection
 second_title: Aspose.Email for .NET API 参考
 description: 表示 FileDataObject 的集合
 type: docs
-weight: 20840
+weight: 20890
 url: /zh/net/aspose.email.windows.forms/filedataobjectcollection/
 ---
 ## FileDataObjectCollection class
@@ -18,7 +18,7 @@ public sealed class FileDataObjectCollection : Collection<FileDataObject>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileDataObjectCollection](filedataobjectcollection)() | 初始化[`FileDataObjectCollection`](../filedataobjectcollection)类的新实例。 |
+| [FileDataObjectCollection](filedataobjectcollection)() | 初始化[`FileDataObjectCollection`](../filedataobjectcollection)类. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Action
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置约会操作
+description: 获取或设置约会 Action
 type: docs
 weight: 30
 url: /zh/net/aspose.email.calendar/appointmenticssaveoptions/action/
 ---
 ## AppointmentIcsSaveOptions.Action property
 
-获取或设置约会操作
+获取或设置约会 Action
 
 ```csharp
 public AppointmentAction Action { get; set; }
@@ -18,7 +18,7 @@ public AppointmentAction Action { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *value*未在[`AppointmentAction`](../../appointmentaction) |
+| ArgumentException | *value*没有定义在[`AppointmentAction`](../../appointmentaction) |
 
 ### 也可以看看
 

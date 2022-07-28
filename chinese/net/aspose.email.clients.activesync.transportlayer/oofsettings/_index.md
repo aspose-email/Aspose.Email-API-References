@@ -1,14 +1,14 @@
 ---
 title: OOFSettings
 second_title: Aspose.Email for .NET API 参考
-description: OOF 信息设置
+description: OOF信息设置
 type: docs
 weight: 1650
 url: /zh/net/aspose.email.clients.activesync.transportlayer/oofsettings/
 ---
 ## OOFSettings class
 
-OOF 信息设置。
+OOF信息设置。
 
 ```csharp
 public class OOFSettings
@@ -25,7 +25,7 @@ public class OOFSettings
 | 姓名 | 描述 |
 | --- | --- |
 | [EndTime](../../aspose.email.clients.activesync.transportlayer/oofsettings/endtime) { get; set; } | 用户离开办公室的结束时间。 |
-| [OofMessage](../../aspose.email.clients.activesync.transportlayer/oofsettings/oofmessage) { get; } | 为特定受众指定 OOF 消息。 Exchange 2007、Exchange 2010 和 Exchange 2013 要求未知外部受众和已知外部受众的回复消息相同。 该属性支持 OOF 消息的以下三种受众: Internal — 与发送用户在同一组织中的用户。 Known external — 位于发送用户组织之外但在发送用户的联系人中表示的用户。 Unknown external — 位于发送用户组织之外且不在发送用户联系人中的用户。 |
+| [OofMessage](../../aspose.email.clients.activesync.transportlayer/oofsettings/oofmessage) { get; } | 为特定受众指定 OOF 消息。 Exchange 2007、Exchange 2010 和 Exchange 2013 要求未知外部受众和已知外部受众的回复消息相同。 该属性支持 OOF 消息的以下三种受众： 内部 - 与发送用户在同一组织中的用户。 已知外部 - 在发送用户的组织之外但在发送用户的联系人中表示的用户。 未知外部 - 在发送用户的组织之外的用户组织并且不在发送用户的联系人中表示。 |
 | [OofState](../../aspose.email.clients.activesync.transportlayer/oofsettings/oofstate) { get; set; } | 指定 Oof 属性的可用性。 |
 | [StartTime](../../aspose.email.clients.activesync.transportlayer/oofsettings/starttime) { get; set; } | 用户不在办公室的开始时间。 |
 

@@ -1,14 +1,14 @@
 ---
 title: RecipientFlags
 second_title: Aspose.Email for .NET API 参考
-description: 指定描述接收者状态的位域 区域TransportRecipient 规范名称PidTagRecipientFlags 备用名称PR_RECIPIENT_FLAGS
+description: 指定描述收件人状态的位字段 区域TransportRecipient 规范名称PidTagRecipientFlags 替代名称PR_RECIPIENT_FLAGS
 type: docs
 weight: 15430
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipientflags/
 ---
 ## KnownPropertyList.RecipientFlags field
 
-指定描述接收者状态的位域。 区域:TransportRecipient 规范名称:PidTagRecipientFlags 备用名称:PR_RECIPIENT_FLAGS
+指定描述收件人状态的位字段。 区域：TransportRecipient 规范名称：PidTagRecipientFlags 替代名称：PR_RECIPIENT_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientFlags;

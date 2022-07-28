@@ -1,14 +1,14 @@
 ---
 title: FileUnderID
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指定当其他属性时如何生成和重新计算属性已更改
+description: 获取或设置一个值指定如何生成和重新计算更改其他属性时的属性
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapicontactnamepropertyset/fileunderid/
 ---
 ## MapiContactNamePropertySet.FileUnderID property
 
-获取或设置一个值，该值指定当其他属性时如何生成和重新计算属性已更改
+获取或设置一个值，指定如何生成和重新计算更改其他属性时的属性
 
 ```csharp
 public uint FileUnderID { get; set; }

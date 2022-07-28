@@ -1,14 +1,14 @@
 ---
 title: TemplateDescription
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит описание шаблона политики прав представленного родительским элементом RightsManagementLicense. Этот элемент используется только в информационных целях. Максимальная длина элемента TemplateDescription составляет 10240 символов.
+description: Содержит описание шаблона политики прав представленного родительским элементом RightsManagementLicense. Этот элемент используется только в целях представления информации. Максимальная длина элемента TemplateDescription составляет 10240 символов.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/templatedescription/
 ---
 ## RightsManagementLicense.TemplateDescription property
 
-Содержит описание шаблона политики прав, представленного родительским элементом RightsManagementLicense. Этот элемент используется только в информационных целях. Максимальная длина элемента TemplateDescription составляет 10240 символов.
+Содержит описание шаблона политики прав, представленного родительским элементом RightsManagementLicense. Этот элемент используется только в целях представления информации. Максимальная длина элемента TemplateDescription составляет 10240 символов.
 
 ```csharp
 public string TemplateDescription { get; set; }

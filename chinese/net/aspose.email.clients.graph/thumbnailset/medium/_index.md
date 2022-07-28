@@ -1,14 +1,14 @@
 ---
 title: Medium
 second_title: Aspose.Email for .NET API 参考
-description: 176x176 缩放缩略图
+description: 176x176 缩放的缩略图
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.graph/thumbnailset/medium/
 ---
 ## ThumbnailSet.Medium property
 
-176x176 缩放缩略图。
+176x176 缩放的缩略图。
 
 ```csharp
 public Thumbnail Medium { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IPrintSettingsProvider
 second_title: Aspose.Email for .NET API 参考
-description: 表示可用于MailPrinter./mailprinter初始化的打印机设置源
+description: 表示打印机设置的来源可用于MailPrinter./mailprinter初始化.
 type: docs
-weight: 19810
+weight: 19860
 url: /zh/net/aspose.email.printing/iprintsettingsprovider/
 ---
 ## IPrintSettingsProvider interface
 
-表示可用于[`MailPrinter`](../mailprinter)初始化的打印机设置源。
+表示打印机设置的来源，可用于[`MailPrinter`](../mailprinter)初始化.
 
 ```csharp
 public interface IPrintSettingsProvider
@@ -18,7 +18,7 @@ public interface IPrintSettingsProvider
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CultureName](../../aspose.email.printing/iprintsettingsprovider/culturename) { get; set; } | 获取或设置格式为 languagecode2-country/regioncode2 的文化名称。 |
+| [CultureName](../../aspose.email.printing/iprintsettingsprovider/culturename) { get; set; } | 获取或设置格式为 languagecode2-country/regioncode2. 的文化名称 |
 | [DpiX](../../aspose.email.printing/iprintsettingsprovider/dpix) { get; set; } | 获取或设置水平 DPI。 |
 | [DpiY](../../aspose.email.printing/iprintsettingsprovider/dpiy) { get; set; } | 获取或设置垂直 DPI。 |
 | [FormattingFlags](../../aspose.email.printing/iprintsettingsprovider/formattingflags) { get; set; } | 获取或设置打印机选项。 |
@@ -28,7 +28,7 @@ public interface IPrintSettingsProvider
 | [MarginTop](../../aspose.email.printing/iprintsettingsprovider/margintop) { get; set; } | 获取或设置上边距。 |
 | [PageHeight](../../aspose.email.printing/iprintsettingsprovider/pageheight) { get; set; } | 获取或设置页面高度。 |
 | [PageUnit](../../aspose.email.printing/iprintsettingsprovider/pageunit) { get; set; } | 获取或设置页面单位。 |
-| [PageWidth](../../aspose.email.printing/iprintsettingsprovider/pagewidth) { get; set; } | 获取或设置页面宽度。 |
+| [PageWidth](../../aspose.email.printing/iprintsettingsprovider/pagewidth) { get; set; } | 获取或设置页面的宽度。 |
 
 ### 也可以看看
 

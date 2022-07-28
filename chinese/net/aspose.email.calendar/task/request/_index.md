@@ -16,7 +16,7 @@ public AlternateView Request()
 
 ### 返回值
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件的格式。
+备用视图[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件的格式。
 
 ### 也可以看看
 

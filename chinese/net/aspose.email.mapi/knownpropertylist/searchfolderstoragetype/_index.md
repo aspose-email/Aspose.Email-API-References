@@ -1,14 +1,14 @@
 ---
 title: SearchFolderStorageType
 second_title: Aspose.Email for .NET API 参考
-description: 包含指定出现在 PidTagSearchFolderDefinition第 2.979 节属性中的二进制大对象 BLOB 数据的标志 区域搜索 规范名称PidTagSearchFolderStorageType 替代名称PR_WB_SF_STORAGE_TYPE
+description: 包含指定出现在 PidTagSearchFolderDefinition第 2.979 节属性中的二进制大对象 BLOB 数据的标志 区域Search 规范名称PidTagSearchFolderStorageType 备用名称PR_WB_SF_STORAGE_TYPE
 type: docs
 weight: 17000
 url: /zh/net/aspose.email.mapi/knownpropertylist/searchfolderstoragetype/
 ---
 ## KnownPropertyList.SearchFolderStorageType field
 
-包含指定出现在 PidTagSearchFolderDefinition（第 2.979 节）属性中的二进制大对象 (BLOB) 数据的标志。 区域:搜索 规范名称:PidTagSearchFolderStorageType 替代名称:PR_WB_SF_STORAGE_TYPE
+包含指定出现在 PidTagSearchFolderDefinition（第 2.979 节）属性中的二进制大对象 (BLOB) 数据的标志。 区域：Search 规范名称：PidTagSearchFolderStorageType 备用名称：PR_WB_SF_STORAGE_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderStorageType;

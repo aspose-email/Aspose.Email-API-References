@@ -1,14 +1,14 @@
 ---
 title: ContentClassType
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ContentClassTypeaspose.email.clients.exchange.dav/contentclasstype类的新实例
+description: 初始化ContentClassTypeaspose.email.clients.exchange.dav/contentclasstype类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/contentclasstype/
 ---
 ## ContentClassType constructor
 
-初始化[`ContentClassType`](../../contentclasstype)类的新实例。
+初始化[`ContentClassType`](../../contentclasstype)类.
 
 ```csharp
 public ContentClassType(string value)

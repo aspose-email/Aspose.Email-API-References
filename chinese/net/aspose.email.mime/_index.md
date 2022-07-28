@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Mime
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Mime 命名空间提供了扩展电子邮件格式的类
+description: 的 Aspose.Email.Mime命名空间提供扩展电子邮件格式的类
 type: docs
 weight: 330
 url: /zh/net/aspose.email.mime/
 ---
-**Aspose.Email.Mime** 命名空间提供了扩展电子邮件格式的类。
+的 **Aspose.Email.Mime**命名空间提供扩展电子邮件格式的类。
 
 ## 课程
 
@@ -15,7 +15,7 @@ url: /zh/net/aspose.email.mime/
 | [ContentDisposition](./contentdisposition) | 表示 Content-Disposition 标头。 |
 | [ContentType](./contenttype) | 表示 Content-Type 标头。 |
 | [DispositionTypeNames](./dispositiontypenames) | 表示处置类型名称。 |
-| [HeaderCollection](./headercollection) | 定义头域集合 |
+| [HeaderCollection](./headercollection) | 定义头域的集合 |
 | [MediaTypeNames](./mediatypenames) | 指定电子邮件消息的媒体类型名称。 |
 | [MimeException](./mimeexception) | 提供有关 MIME 错误的信息 |
 | [MimeHeader](./mimeheader) | 表示 RFC 2822 中定义的 mime 标头。 |

@@ -1,14 +1,14 @@
 ---
 title: LogDocumentPrinted
 second_title: Aspose.Email for .NET API 参考
-description: 指示文档是否在日志记录期间打印 区域期刊 规范名称PidLidLogDocumentPrinted 替代名称dispidLogDocPrinted
+description: 指示文档是否在日记期间打印 区域Journal 规范名称PidLidLogDocumentPrinted 替代名称dispidLogDocPrinted
 type: docs
 weight: 12220
 url: /zh/net/aspose.email.mapi/knownpropertylist/logdocumentprinted/
 ---
 ## KnownPropertyList.LogDocumentPrinted field
 
-指示文档是否在日志记录期间打印。 区域:期刊 规范名称:PidLidLogDocumentPrinted 替代名称:dispidLogDocPrinted
+指示文档是否在日记期间打印。 区域：Journal 规范名称：PidLidLogDocumentPrinted 替代名称：dispidLogDocPrinted
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogDocumentPrinted;

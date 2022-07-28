@@ -1,14 +1,14 @@
 ---
 title: SenderName
 second_title: Aspose.Email for .NET API 参考
-description: 包含发送邮箱所有者的显示名称 区域地址属性 规范名称PidTagSenderName 备用名称PR_SENDER_NAME PR_SENDER_NAME_A ptagSenderName
+description: 包含发送邮箱所有者的显示名称 区域地址属性 规范名称PidTagSenderName 备用名称PR_SENDER_NAMEPR_SENDER_NAME_AptagSenderName
 type: docs
 weight: 17130
 url: /zh/net/aspose.email.mapi/knownpropertylist/sendername/
 ---
 ## KnownPropertyList.SenderName field
 
-包含发送邮箱所有者的显示名称。 区域:地址属性 规范名称:PidTagSenderName 备用名称:PR_SENDER_NAME, PR_SENDER_NAME_A, ptagSenderName,
+包含发送邮箱所有者的显示名称。 区域：地址属性 规范名称：PidTagSenderName 备用名称：PR_SENDER_NAME、PR_SENDER_NAME_A、ptagSenderName、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderName;

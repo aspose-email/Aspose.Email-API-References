@@ -1,14 +1,14 @@
 ---
 title: WorkAddressState
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人工作地址的州或省部分 区域联系人属性 规范名称PidLidWorkAddressState 替代名称dispidWorkAddressState
+description: 指定联系人工作地址的州或省部分 区域联系人属性 规范名称PidLidWorkAddressState 备用名称dispidWorkAddressState
 type: docs
 weight: 19610
 url: /zh/net/aspose.email.mapi/knownpropertylist/workaddressstate/
 ---
 ## KnownPropertyList.WorkAddressState field
 
-指定联系人工作地址的州或省部分。 区域:联系人属性 规范名称:PidLidWorkAddressState 替代名称:dispidWorkAddressState
+指定联系人工作地址的州或省部分。 区域：联系人属性 规范名称：PidLidWorkAddressState 备用名称：dispidWorkAddressState
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressState;

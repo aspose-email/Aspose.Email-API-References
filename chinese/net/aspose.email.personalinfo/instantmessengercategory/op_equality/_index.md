@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/instantmessengercategory/op_equality/
 ---
 ## InstantMessengerCategory Equality operator
 
-判断指定对象是否相等。
+判断指定对象是否相等
 
 ```csharp
 public static bool operator ==(InstantMessengerCategory a, InstantMessengerCategory b)
@@ -17,7 +17,7 @@ public static bool operator ==(InstantMessengerCategory a, InstantMessengerCateg
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | a | InstantMessengerCategory | 第一个要比较的对象 |
-| b | InstantMessengerCategory | 第二个要比较的对象比较 |
+| b | InstantMessengerCategory | 第二个要比较的对象 |
 
 ### 返回值
 

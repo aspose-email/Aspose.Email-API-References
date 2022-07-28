@@ -16,7 +16,7 @@ public StringComparisonField MessageId { get; }
 
 ### 适当的价值
 
-[`DateComparisonField`](../../../aspose.email.tools.search/datecomparisonfield)表示 MessageId 搜索字段。
+这[`DateComparisonField`](../../../aspose.email.tools.search/datecomparisonfield)表示 MessageId 搜索字段。
 
 ### 也可以看看
 

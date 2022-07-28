@@ -24,32 +24,32 @@ public static MapiAttachmentCollection RemoveAttachments(string path)
 
 ### 例子
 
-以下示例演示如何销毁 Outlook 邮件文件中的附件。
+以下示例演示了如何销毁 Outlook 邮件文件中的附件。
 
-[C#]
+[C＃]
+
+[视觉基础]
 
 ```csharp
 //从 Outlook 邮件文件中删除附件
-iAttachmentCollection attachments = MapiMessage.RemoveAttachments(@"c:\outlookmessage.msg");
+MapiAttachmentCollection attachments = MapiMessage.RemoveAttachments(@"c:\outlookmessage.msg");
 
 //附件
-each(MapiAttachment att in attachments)
-
-Console.WriteLine("Attachment Name:"+att.FileName);
-att.Save(att.FileName);
-
+foreach(MapiAttachment att in attachments)
+{
+   Console.WriteLine("Attachment Name:"+att.FileName);
+   att.Save(att.FileName);
+}
 ```
-
-[Visual Basic]
 
 ```csharp
 '从 Outlook 邮件文件中删除附件
 MapiAttachmentCollection attachments = MapiMessage.RemoveAttachments("c:\outlookmessage.msg");
 
-'Attachments
-For Each att As MapiAttachment In msg.Attachments
-Console.WriteLine("Attachment Name:" + att .FileName)
-att.Save(att.FileName)
+'附件 
+For Each att As MapiAttachment In msg.Attachments 
+     Console.WriteLine("Attachment Name:" + att.FileName) 
+     att.Save(att.FileName) 
 Next
 ```
 

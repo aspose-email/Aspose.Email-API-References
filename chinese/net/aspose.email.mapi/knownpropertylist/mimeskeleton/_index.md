@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/mimeskeleton/
 ---
 ## KnownPropertyList.MimeSkeleton field
 
-包含顶级 MIME 邮件标头、所有 MIME 邮件正文部分标头、附件。 区域:MIME 属性 规范名称:PidTagMimeSkeleton 替代名称:ptagMimeSkeleton
+包含顶级 MIME 邮件标头、所有 MIME 邮件正文部分标头、附件。 区域：MIME 属性 规范名称：PidTagMimeSkeleton 替代名称：ptagMimeSkeleton
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MimeSkeleton;

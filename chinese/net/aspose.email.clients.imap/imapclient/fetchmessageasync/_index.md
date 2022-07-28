@@ -17,11 +17,11 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -45,12 +45,12 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| ignoreAttachment | Boolean | 定义是否不应加载附件。 如果设置为` true` ，则仅获取邮件标题、邮件正文和附件信息。 附件内容未加载 |
+| sequenceNumber | Int32 | 消息的序号 |
+| ignoreAttachment | Boolean | 定义是否不应加载附件的值。 如果设置为`真的`，则只获取邮件标题、邮件正文和附件信息。 未加载附件内容 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -76,7 +76,7 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -98,11 +98,11 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttach
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sequenceNumber | Int32 | 消息的序号 |
-| ignoreAttachment | Boolean | 定义是否不应加载附件的值。 如果设置为` true` ，则仅获取邮件标题、邮件正文和附件信息。 附件内容未加载 |
+| ignoreAttachment | Boolean | 定义是否不应加载附件的值。 如果设置为`真的`，则只获取邮件标题、邮件正文和附件信息。 未加载附件内容 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -124,11 +124,11 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一 ID |
+| uniqueId | String | 消息的唯一id |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -150,11 +150,11 @@ public Task<MailMessage> FetchMessageAsync(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的唯一ID |
+| uniqueId | String | 消息的唯一id |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -177,12 +177,12 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -206,13 +206,13 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, int sequenceN
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| ignoreAttachment | Boolean | 定义是否不应加载附件。 如果设置为` true` ，则仅获取邮件标题、邮件正文和附件信息。 附件内容未加载 |
+| sequenceNumber | Int32 | 消息的序号 |
+| ignoreAttachment | Boolean | 定义是否不应加载附件的值。 如果设置为`真的`，则只获取邮件标题、邮件正文和附件信息。 未加载附件内容 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -235,11 +235,11 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, CancellationToken
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sequenceNumber | Int32 | 消息的序号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -262,12 +262,12 @@ public Task<MailMessage> FetchMessageAsync(int sequenceNumber, bool ignoreAttach
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sequenceNumber | Int32 | 消息的序号 |
-| ignoreAttachment | Boolean | 定义是否不应加载附件的值。 如果设置为` true` ，则仅获取邮件标题、邮件正文和附件信息。 附件内容未加载 |
+| ignoreAttachment | Boolean | 定义是否不应加载附件的值。 如果设置为`真的`，则只获取邮件标题、邮件正文和附件信息。 未加载附件内容 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -290,12 +290,12 @@ public Task<MailMessage> FetchMessageAsync(IConnection connection, string unique
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一 ID |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | String | 消息的唯一id |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -317,12 +317,12 @@ public Task<MailMessage> FetchMessageAsync(string uniqueId, CancellationToken to
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的唯一ID |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | String | 消息的唯一id |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

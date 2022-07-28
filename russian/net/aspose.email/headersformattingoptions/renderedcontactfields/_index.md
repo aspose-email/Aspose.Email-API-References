@@ -1,14 +1,14 @@
 ---
 title: RenderedContactFields
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет группы контактных полей которые будут включены в вывод mhtml. Значение по умолчанию  ContactFieldsSet.AllExisting.
+description: Определяет группы полей контактов которые будут включены в вывод mhtml. Значение по умолчанию  ContactFieldsSet.AllExisting.
 type: docs
 weight: 80
 url: /ru/net/aspose.email/headersformattingoptions/renderedcontactfields/
 ---
 ## HeadersFormattingOptions.RenderedContactFields property
 
-Определяет группы контактных полей, которые будут включены в вывод mhtml. Значение по умолчанию — ContactFieldsSet.AllExisting.
+Определяет группы полей контактов, которые будут включены в вывод mhtml. Значение по умолчанию — ContactFieldsSet.AllExisting.
 
 ```csharp
 public ContactFieldsSet RenderedContactFields { get; set; }

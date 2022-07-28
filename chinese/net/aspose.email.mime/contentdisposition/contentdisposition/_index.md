@@ -1,14 +1,14 @@
 ---
 title: ContentDisposition
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ContentDispositionaspose.email.mime/contentdisposition类的新实例
+description: 初始化ContentDispositionaspose.email.mime/contentdisposition类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mime/contentdisposition/contentdisposition/
 ---
 ## ContentDisposition() {#constructor}
 
-初始化[`ContentDisposition`](../../contentdisposition)类的新实例。
+初始化[`ContentDisposition`](../../contentdisposition)类.
 
 ```csharp
 public ContentDisposition()
@@ -24,7 +24,7 @@ public ContentDisposition()
 
 ## ContentDisposition(string) {#constructor_1}
 
-初始化[`ContentDisposition`](../../contentdisposition)类的新实例。
+初始化[`ContentDisposition`](../../contentdisposition)类.
 
 ```csharp
 public ContentDisposition(string disposition)

@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Email for .NET API 参考
-description: 返回对象的哈希码
+description: 返回 object 的哈希码
 type: docs
 weight: 490
 url: /zh/net/aspose.email/mailmessage/gethashcode/
 ---
 ## MailMessage.GetHashCode method
 
-返回对象的哈希码
+返回 object 的哈希码
 
 ```csharp
 public override int GetHashCode()

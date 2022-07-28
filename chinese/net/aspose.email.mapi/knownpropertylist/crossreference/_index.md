@@ -1,14 +1,14 @@
 ---
 title: CrossReference
 second_title: Aspose.Email for .NET API 参考
-description: 包含主机的名称省略域和由冒号分隔的新闻组名称和消息编号对的空格分隔列表 区域电子邮件 规范名称PidNameCrossReference 备用名称urnschemasmailheaderxref
+description: 包含主机的名称省略域和以空格分隔的以冒号分隔的新闻组名称和消息编号对的列表 区域Email 规范名称PidNameCrossReference 备用名称urnschemasmailheaderxref
 type: docs
 weight: 3580
 url: /zh/net/aspose.email.mapi/knownpropertylist/crossreference/
 ---
 ## KnownPropertyList.CrossReference field
 
-包含主机的名称（省略域）和由冒号分隔的新闻组名称和消息编号对的空格分隔列表。 区域:电子邮件 规范名称:PidNameCrossReference 备用名称:urn:schemas:mailheader:xref
+包含主机的名称（省略域）和以空格分隔的以冒号分隔的新闻组名称和消息编号对的列表。 区域：Email 规范名称：PidNameCrossReference 备用名称：urn:schemas:mailheader:xref
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CrossReference;

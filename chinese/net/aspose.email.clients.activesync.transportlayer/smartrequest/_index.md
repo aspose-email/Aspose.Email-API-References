@@ -24,13 +24,13 @@ public class SmartRequest
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AccountId](../../aspose.email.clients.activesync.transportlayer/smartrequest/accountid) { get; set; } | 标识发送电子邮件的帐户。 如果 AccountId 为空，则服务器使用设置命令响应中返回的 settings:PrimarySmtpAddress 标识的帐户发送电子邮件。 如果 AccountId 包含在请求中，则该值必须等于设置命令响应中包含的 settings:AccountId 元素值之一。 服务器必须验证提供的 AccountId 元素值对于发送电子邮件是否有效。 如果 AccountId 元素值无效，则返回状态值 166。 如果帐户不支持发送电子邮件，则返回状态元素值 167。 注意服务器使用 AccountId 指定的帐户发送电子邮件，而不是 From 指定的帐户。 协议版本为 12.1 或 14.0 时不支持 AccountId 元素。 如果 AccountId 元素包含在 SendMail 命令请求、SmartForward 命令请求或 SmartReply 命令请求中，则 Exchange 2007 将返回状态值 103。 |
-| [ClientId](../../aspose.email.clients.activesync.transportlayer/smartrequest/clientid) { get; set; } | 指定客户端的唯一消息 ID (MID)。 ClientId 值最长可达 40 个字符，并且对于每条消息必须是唯一的， 因为服务器将使用 ClientId 值来识别重复消息。 ClientId 值可以是一个简单的计数器，为每条新消息递增。 |
-| [Mime](../../aspose.email.clients.activesync.transportlayer/smartrequest/mime) { get; set; } | 包含 MIME 编码的消息。 Mime 内容作为 WBXML 标签内的不透明 BLOB 传输，如 [WBXML1.2] 中所指定。 如果消息包含会议请求，则 Mime 元素包含 iCalendar 格式 [MS-OXCICAL] 或传输中性封装格式 (TNEF) 格式 [MS-OXTNEF] 的会议详细信息。 如 [RFC2447] 第 3.4 节所述，iCalendar 会议请求的内容类型为“text/calendar”，方法参数设置为“REQUEST”。 |
-| [ReplaceMime](../../aspose.email.clients.activesync.transportlayer/smartrequest/replacemime) { get; set; } | 指定客户端是否发送整个消息。 当 ReplaceMime 为 TRUE 时，服务器必须不包括被转发的原始消息的正文或附件。 当 ReplaceMime 为 FALSE 时，客户端必须将原始消息的正文作为附件附加到传出消息。 客户端可以使用此属性来指示消息是否被内联编辑，或者消息是否在源消息前附加了回复/转发文本。 如果 ReplaceMime 为 TRUE，则消息已被编辑。 |
+| [AccountId](../../aspose.email.clients.activesync.transportlayer/smartrequest/accountid) { get; set; } | 标识发送电子邮件的帐户。 如果 AccountId 为 null，则服务器使用设置标识的帐户发送电子邮件：设置命令响应中返回的 PrimarySmtpAddress。 如果请求中包含 AccountId，则值必须等于设置命令响应中包含的设置之一：AccountId 元素值。 服务器必须验证提供的 AccountId 元素值对于发送电子邮件是否有效。 如果 AccountId 元素值无效，则返回状态值 166。 如果账户不支持发送邮件，则返回Status元素值167。 注意服务器使用AccountId指定的账户发送邮件，而不是From指定的账户。 不支持AccountId元素时协议版本为 12.1 或 14.0。 如果 AccountId 元素包含在 SendMail 命令请求、SmartForward 命令请求或 SmartReply 命令请求中，Exchange 2007 将返回状态值 103。 |
+| [ClientId](../../aspose.email.clients.activesync.transportlayer/smartrequest/clientid) { get; set; } | 指定客户端的唯一消息 ID (MID)。 ClientId 值最长可达 40 个字符，并且对于每条消息必须是唯一的， 因为服务器将使用 ClientId 值来识别重复的消息。 ClientId 值可以是一个简单的计数器，为每条新消息递增。 |
+| [Mime](../../aspose.email.clients.activesync.transportlayer/smartrequest/mime) { get; set; } | 包含 MIME 编码的消息。 Mime 内容在 WBXML 标记中作为不透明 BLOB 传输，如 [WBXML1.2] 中所指定。 如果消息包含会议请求，则 Mime 元素包含会议的详细信息iCalendar 格式 [MS-OXCICAL] 或传输中性封装格式 (TNEF) 格式 [MS-OXTNEF]。 如 [RFC2447] 第 3.4 节所述，iCalendar 会议请求的内容类型为“文本/日历”，方法参数设置为“请求”。 |
+| [ReplaceMime](../../aspose.email.clients.activesync.transportlayer/smartrequest/replacemime) { get; set; } | 指定客户端是否发送整个消息。 当 ReplaceMime 为 TRUE 时，服务器不得包含被转发的原始消息的正文或附件。 当 ReplaceMime 为 FALSE 时，客户端必须将原始消息的正文作为附件附加到传出消息。 客户端可以使用此属性来指示消息是否被内联编辑，或者消息是否在源消息前附加了回复/转发文本。 如果 ReplaceMime 为 TRUE，则消息已被编辑。 |
 | [SaveInSentItems](../../aspose.email.clients.activesync.transportlayer/smartrequest/saveinsentitems) { get; set; } | 指定是否将邮件的副本存储在“已发送邮件”文件夹中。 |
 | [Source](../../aspose.email.clients.activesync.transportlayer/smartrequest/source) { get; set; } | 包含有关源消息的信息。 |
-| [TemplateID](../../aspose.email.clients.activesync.transportlayer/smartrequest/templateid) { get; set; } | 包含一个字符串，该字符串标识由父 RightsManagementLicense 元素表示的权限策略模板。 |
+| [TemplateID](../../aspose.email.clients.activesync.transportlayer/smartrequest/templateid) { get; set; } | 包含标识由父 RightsManagementLicense 元素表示的权限策略模板的字符串。 |
 
 ### 也可以看看
 

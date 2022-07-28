@@ -16,11 +16,11 @@ public override MapiProperty GetProperty(PropertyDescriptor pd)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pd | PropertyDescriptor | 已查看属性的属性描述符 |
+| pd | PropertyDescriptor | 查看属性的属性描述符 |
 
 ### 返回值
 
-Mapi 属性（如果有）找到，否则为空。
+如果找到 Mapi 属性，否则为 null。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoDisallowOverlappingAppts
 second_title: Aspose.Email for .NET API 参考
-description: 指示客户端或服务器在自动响应会议请求时是否要拒绝与先前安排的事件重叠的会议请求对象 区域忙/闲属性 规范名称PidTagScheduleInfoDisallowOverlappingAppts 备用名称PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS
+description: 指示客户端或服务器在自动响应会议请求时是否要拒绝与先前安排的事件重叠的会议请求对象 区域空闲/忙碌属性 规范名称PidTagScheduleInfoDisallowOverlappingAppts 备用名称PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS
 type: docs
 weight: 16780
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfodisallowoverlappingappts/
 ---
 ## KnownPropertyList.ScheduleInfoDisallowOverlappingAppts field
 
-指示客户端或服务器在自动响应会议请求时是否要拒绝与先前安排的事件重叠的会议请求对象。 区域:忙/闲属性 规范名称:PidTagScheduleInfoDisallowOverlappingAppts 备用名称:PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS
+指示客户端或服务器在自动响应会议请求时是否要拒绝与先前安排的事件重叠的会议请求对象。 区域：空闲/忙碌属性 规范名称：PidTagScheduleInfoDisallowOverlappingAppts 备用名称：PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDisallowOverlappingAppts;

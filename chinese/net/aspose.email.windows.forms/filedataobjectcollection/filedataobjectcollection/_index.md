@@ -1,14 +1,14 @@
 ---
 title: FileDataObjectCollection
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FileDataObjectCollectionaspose.email.windows.forms/filedataobjectcollection类的新实例
+description: 初始化FileDataObjectCollectionaspose.email.windows.forms/filedataobjectcollection类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.windows.forms/filedataobjectcollection/filedataobjectcollection/
 ---
 ## FileDataObjectCollection constructor
 
-初始化[`FileDataObjectCollection`](../../filedataobjectcollection)类的新实例。
+初始化[`FileDataObjectCollection`](../../filedataobjectcollection)类.
 
 ```csharp
 public FileDataObjectCollection()

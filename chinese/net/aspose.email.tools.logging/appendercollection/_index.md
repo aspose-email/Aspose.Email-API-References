@@ -3,7 +3,7 @@ title: AppenderCollection
 second_title: Aspose.Email for .NET API 参考
 description: 表示 Appender 对象的集合
 type: docs
-weight: 20390
+weight: 20440
 url: /zh/net/aspose.email.tools.logging/appendercollection/
 ---
 ## AppenderCollection class

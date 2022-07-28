@@ -1,14 +1,14 @@
 ---
 title: NetworkException
 second_title: Справочник по Aspose.Email для .NET API
-description: Вызывается при сбое сетевого подключения.
+description: Выдается при сбое сетевого подключения.
 type: docs
 weight: 16790
 url: /ru/net/aspose.email.clients/networkexception/
 ---
 ## NetworkException class
 
-Вызывается при сбое сетевого подключения.
+Выдается при сбое сетевого подключения.
 
 ```csharp
 public class NetworkException : Exception
@@ -18,9 +18,9 @@ public class NetworkException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [NetworkException](networkexception#constructor)() | Инициализирует новый экземпляр класса[`NetworkException`](../networkexception). |
-| [NetworkException](networkexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`NetworkException`](../networkexception). |
-| [NetworkException](networkexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`NetworkException`](../networkexception). |
+| [NetworkException](networkexception#constructor)() | Инициализирует новый экземпляр[`NetworkException`](../networkexception) класс. |
+| [NetworkException](networkexception#constructor_1)(string) | Инициализирует новый экземпляр[`NetworkException`](../networkexception) класс. |
+| [NetworkException](networkexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`NetworkException`](../networkexception) класс. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RecallMesage
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classesrecallmessage 内容类 定义了召回消息的一组属性
+description: 获取 urncontent-classesrecallmessage 内容类 它定义了召回消息的一组属性
 type: docs
 weight: 180
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/recallmesage/
 ---
 ## ContentClassType.RecallMesage property
 
-获取 urn:content-classes:recallmessage 内容类 定义了召回消息的一组属性。
+获取 urn:content-classes:recallmessage 内容类 ，它定义了召回消息的一组属性。
 
 ```csharp
 public static ContentClassType RecallMesage { get; }

@@ -1,14 +1,14 @@
 ---
 title: Email2OriginalEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 指定与此电子地址对应的对象的 EntryID 区域联系人属性 规范名称PidLidEmail2OriginalEntryId 备用名称dispidEmail2OriginalEntryID
+description: 指定与此电子地址对应的对象的 EntryID 区域联系人 Properties 规范名称PidLidEmail2OriginalEntryId 替代名称dispidEmail2OriginalEntryID
 type: docs
 weight: 4410
 url: /zh/net/aspose.email.mapi/knownpropertylist/email2originalentryid/
 ---
 ## KnownPropertyList.Email2OriginalEntryId field
 
-指定与此电子地址对应的对象的 EntryID。 区域:联系人属性 规范名称:PidLidEmail2OriginalEntryId 备用名称:dispidEmail2OriginalEntryID
+指定与此电子地址对应的对象的 EntryID。 区域：联系人 Properties 规范名称：PidLidEmail2OriginalEntryId 替代名称：dispidEmail2OriginalEntryID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email2OriginalEntryId;

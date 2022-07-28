@@ -1,14 +1,14 @@
 ---
 title: TruncationSize
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает размер используемый сервером для усечения возвращаемых данных. Максимальное значение TruncationSize  4 294 967 295. Если элемент TruncationSize не определен для запроса используется все содержимое.
+description: Задает размер используемый сервером для усечения возвращаемых данных. Максимальное значение TruncationSize  4 294 967 295. Если элемент TruncationSize не определен все содержимое используется для запроса.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/bodypreference/truncationsize/
 ---
 ## BodyPreference.TruncationSize property
 
-Задает размер, используемый сервером для усечения возвращаемых данных. Максимальное значение TruncationSize — 4 294 967 295. Если элемент TruncationSize не определен, для запроса используется все содержимое.
+Задает размер, используемый сервером для усечения возвращаемых данных. Максимальное значение TruncationSize — 4 294 967 295. Если элемент TruncationSize не определен, все содержимое используется для запроса.
 
 ```csharp
 public int? TruncationSize { get; set; }

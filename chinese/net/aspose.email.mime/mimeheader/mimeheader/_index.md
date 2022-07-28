@@ -1,14 +1,14 @@
 ---
 title: MimeHeader
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MimeHeaderaspose.email.mime/mimeheader类的新实例
+description: 初始化MimeHeaderaspose.email.mime/mimeheader类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mime/mimeheader/mimeheader/
 ---
 ## MimeHeader constructor
 
-初始化[`MimeHeader`](../../mimeheader)类的新实例。
+初始化[`MimeHeader`](../../mimeheader)类.
 
 ```csharp
 public MimeHeader(string name, string value)

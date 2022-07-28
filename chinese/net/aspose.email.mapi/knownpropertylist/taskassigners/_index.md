@@ -1,14 +1,14 @@
 ---
 title: TaskAssigners
 second_title: Aspose.Email for .NET API 参考
-description: 包含一堆条目每个条目代表一个任务分配者 区域任务 规范名称PidLidTaskAssigners 替代名称dispidTaskMyDelegators
+description: 包含一堆条目每个条目代表一个任务分配者 区域Tasks 规范名称PidLidTaskAssigners 备用名称dispidTaskMyDelegators
 type: docs
 weight: 18570
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskassigners/
 ---
 ## KnownPropertyList.TaskAssigners field
 
-包含一堆条目，每个条目代表一个任务分配者。 区域:任务 规范名称:PidLidTaskAssigners 替代名称:dispidTaskMyDelegators
+包含一堆条目，每个条目代表一个任务分配者。 区域：Tasks 规范名称：PidLidTaskAssigners 备用名称：dispidTaskMyDelegators
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskAssigners;

@@ -1,14 +1,14 @@
 ---
 title: ToMapiMessageItem
 second_title: Aspose.Email for .NET API 参考
-description: 将 MapiMessage 转换为 IMapiMessageItem 对象 依赖于 MessageClass
+description: 将 MapiMessage 转换为 IMapiMessageItem object 依赖于 MessageClass.
 type: docs
 weight: 400
 url: /zh/net/aspose.email.mapi/mapimessage/tomapimessageitem/
 ---
 ## MapiMessage.ToMapiMessageItem method
 
-将 MapiMessage 转换为 IMapiMessageItem 对象 依赖于 MessageClass。
+将 MapiMessage 转换为 IMapiMessageItem object 依赖于 MessageClass.
 
 ```csharp
 public IMapiMessageItem ToMapiMessageItem()
@@ -22,11 +22,11 @@ IMapiMessageItem 接口。
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotSupportedException | 当 MessageClass 不属于 IPM 时抛出。注意，IPM。 StickyNote, IPM.Contact, IPM.Activity, IPM.Appointment, IPM.Schedule.meeting, IPM.Task。 |
+| NotSupportedException | 当 MessageClass 不属于 IPM.Note、IPM.StickyNote、 IPM.Contact、IPM.Activity、IPM.Appointment、IPM.Schedule.meeting、IPM.Task. 时抛出 |
 
 ### 评论
 
-注意，现在支持以下消息类: IPM .Note、IPM.StickyNote、IPM.Contact、IPM.Activity、 IPM.Appointment、IPM.Schedule.meeting、IPM.Task。 如果 MapiMessage 有另一个类，与这些类不同， 则抛出 NotSupportedException。 如果 MessageClass 是 IPM.Note，则返回 MapiMessage 副本。
+请注意，现在支持以下消息类别： IPM.Note、IPM.StickyNote、IPM.Contact、IPM.Activity、 IPM.Appointment、IPM.Schedule.meeting、IPM.Task。 如果 MapiMessage 有另一个类，与这些类不同， 则抛出 NotSupportedException。 如果 MessageClass 是 IPM。注意，则返回 MapiMessage 副本。
 
 ### 也可以看看
 

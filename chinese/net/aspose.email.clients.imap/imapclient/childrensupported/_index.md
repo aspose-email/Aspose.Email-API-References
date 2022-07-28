@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/childrensupported/
 ---
 ## ImapClient.ChildrenSupported property
 
-获取是否支持 CHILDREN 扩展的信息 查看更多:https://tools.ietf.org/html/rfc3348
+获取是否支持 CHILDREN 扩展的信息 查看更多：https://tools.ietf.org/html/rfc3348
 
 ```csharp
 public bool ChildrenSupported { get; set; }

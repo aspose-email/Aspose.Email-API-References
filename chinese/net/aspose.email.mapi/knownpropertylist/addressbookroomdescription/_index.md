@@ -1,14 +1,14 @@
 ---
 title: AddressBookRoomDescription
 second_title: Aspose.Email for .NET API 参考
-description: 包含资源对象的描述 区域地址簿 规范名称PidTagAddressBookRoomDescription 别名PR_EMS_AB_ROOM_DESCRIPTION PR_EMS_AB_ROOM_DESCRIPTION_A PR_EMS_AB_ROOM_DESCRIPTION_W
+description: 包含资源对象的描述 区域地址簿 规范名称PidTagAddressBookRoomDescription 替代名称PR_EMS_AB_ROOM_DESCRIPTIONPR_EMS_AB_ROOM_DESCRIPTION_APR_EMS_AB_ROOM_DESCRIPTION_W
 type: docs
 weight: 950
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookroomdescription/
 ---
 ## KnownPropertyList.AddressBookRoomDescription field
 
-包含资源对象的描述。 区域:地址簿 规范名称:PidTagAddressBookRoomDescription 别名:PR_EMS_AB_ROOM_DESCRIPTION, PR_EMS_AB_ROOM_DESCRIPTION_A, PR_EMS_AB_ROOM_DESCRIPTION_W
+包含资源对象的描述。 区域：地址簿 规范名称：PidTagAddressBookRoomDescription 替代名称：PR_EMS_AB_ROOM_DESCRIPTION、PR_EMS_AB_ROOM_DESCRIPTION_A、PR_EMS_AB_ROOM_DESCRIPTION_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookRoomDescription;

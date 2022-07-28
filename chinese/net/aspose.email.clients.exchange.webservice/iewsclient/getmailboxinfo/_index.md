@@ -16,7 +16,7 @@ public ExchangeMailboxInfo GetMailboxInfo()
 
 ### 返回值
 
-[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo)表示邮箱信息
+[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo)代表邮箱信息
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public ExchangeMailboxInfo GetMailboxInfo(string mailbox)
 
 ### 返回值
 
-[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo)表示邮箱信息
+[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo)代表邮箱信息
 
 ### 也可以看看
 

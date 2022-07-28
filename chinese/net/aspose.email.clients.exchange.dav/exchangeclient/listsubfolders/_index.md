@@ -1,14 +1,14 @@
 ---
 title: ListSubFolders
 second_title: Aspose.Email for .NET API 参考
-description: 从父级
+description: 从 parent 获取子公用文件夹的集合
 type: docs
 weight: 310
 url: /zh/net/aspose.email.clients.exchange.dav/exchangeclient/listsubfolders/
 ---
 ## ListSubFolders(ExchangeFolderInfo) {#listsubfolders}
 
-从父级
+从 parent 获取子公用文件夹的集合
 
 ```csharp
 public ExchangeFolderInfoCollection ListSubFolders(ExchangeFolderInfo parentFolder)
@@ -16,11 +16,11 @@ public ExchangeFolderInfoCollection ListSubFolders(ExchangeFolderInfo parentFold
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentFolder | ExchangeFolderInfo | 父级获取子公用文件夹的集合[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) |
+| parentFolder | ExchangeFolderInfo | 父母[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) |
 
 ### 返回值
 
-Exchange。ExchangeFolderInfoCollection包含来自父文件夹
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)包含来自父文件夹的子文件夹
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ Exchange。ExchangeFolderInfoCollection包含来自父文件夹
 
 ## ListSubFolders(string) {#listsubfolders_1}
 
-从父级获取子文件夹的集合
+从 parent 获取子文件夹的集合
 
 ```csharp
 public ExchangeFolderInfoCollection ListSubFolders(string parentFolderUri)
@@ -46,13 +46,13 @@ public ExchangeFolderInfoCollection ListSubFolders(string parentFolderUri)
 
 ### 返回值
 
-[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) 包含来自父文件夹的子文件夹 文件夹
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)包含来自父文件夹的子文件夹
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri* 是 `null` 或 `empty` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*是`无效的`或者`空的` |
 
 ### 也可以看看
 

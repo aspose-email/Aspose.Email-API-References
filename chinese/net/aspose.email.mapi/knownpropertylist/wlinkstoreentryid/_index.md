@@ -1,14 +1,14 @@
 ---
 title: WlinkStoreEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 指定快捷方式指向的文件夹的 PidTagStoreEntryId 属性第 2.1018 节的值 区域配置 规范名称PidTagWlinkStoreEntryId 替代名称PR_WLINK_STORE_ENTRYID
+description: 指定快捷方式指向的文件夹的 PidTagStoreEntryId 属性第 2.1018 节的值 区域Configuration 规范名称PidTagWlinkStoreEntryId 备用名称PR_WLINK_STORE_ENTRYID
 type: docs
 weight: 19520
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkstoreentryid/
 ---
 ## KnownPropertyList.WlinkStoreEntryId field
 
-指定快捷方式指向的文件夹的 PidTagStoreEntryId 属性（第 2.1018 节）的值。 区域:配置 规范名称:PidTagWlinkStoreEntryId 替代名称:PR_WLINK_STORE_ENTRYID
+指定快捷方式指向的文件夹的 PidTagStoreEntryId 属性（第 2.1018 节）的值。 区域：Configuration 规范名称：PidTagWlinkStoreEntryId 备用名称：PR_WLINK_STORE_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkStoreEntryId;

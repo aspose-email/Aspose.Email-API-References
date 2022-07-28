@@ -3,7 +3,7 @@ title: VCardEmailType
 second_title: Aspose.Email for .NET API 参考
 description: 枚举 vCard 电子邮件类型
 type: docs
-weight: 19600
+weight: 19630
 url: /zh/net/aspose.email.personalinfo.vcard/vcardemailtype/
 ---
 ## VCardEmailType enumeration
@@ -25,15 +25,15 @@ public enum VCardEmailType
 | AOL | `4` | 美国在线 |
 | ATTMAIL | `8` | AT&amp;T 邮件 |
 | CIS | `10` | CompuServe 信息服务 |
-| EWORLD | `20` | eWorld 类型 |
+| EWORLD | `20` | 一种 eWorld 类型 |
 | IBMMAIL | `40` | IBM 邮件 |
 | MCIMAIL | `80` | MCI 邮件 |
 | POWERSHARE | `100` | PowerShare |
 | PRODIGY | `200` | 神童信息服务 |
 | TLX | `400` | 电传号码 |
 | X400 | `800` | X.400 服务 |
-| IM | `1000` | 即时通讯地址 |
-| APPLELINK | `2000` | AppleLink |
+| IM | `1000` | 一个即时通讯地址 |
+| APPLELINK | `2000` | 一个 AppleLink |
 
 ### 也可以看看
 

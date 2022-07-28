@@ -1,14 +1,14 @@
 ---
 title: GetEwsClientAsync
 second_title: Aspose.Email for .NET API 参考
-description: 初始化EWSClientaspose.email.clients.exchange.webservice/ewsclient基础类 的新实例
+description: 初始化EWSClientaspose.email.clients.exchange.webservice/ewsclient基于类
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice/ewsclient/getewsclientasync/
 ---
 ## EWSClient.GetEwsClientAsync method
 
-初始化[`EWSClient`](../../ewsclient)基础类 的新实例
+初始化[`EWSClient`](../../ewsclient)基于类
 
 ```csharp
 public static Task<IAsyncEwsClient> GetEwsClientAsync(string mailboxUri, ICredentials credentials, 
@@ -17,14 +17,14 @@ public static Task<IAsyncEwsClient> GetEwsClientAsync(string mailboxUri, ICreden
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailboxUri | String | 邮箱的 URI |
+| mailboxUri | String | 邮箱的URI |
 | credentials | ICredentials | 包含用于身份验证的凭据。 |
 | proxy | WebProxy | 包含 HTTP 代理设置 |
 | cancellationToken | CancellationToken | 取消令牌 |
 
 ### 返回值
 
-基于[`EWSClient`](../../ewsclient)类的类实例。
+基于类的实例[`EWSClient`](../../ewsclient)班级。
 
 ### 也可以看看
 

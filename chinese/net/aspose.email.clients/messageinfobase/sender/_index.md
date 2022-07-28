@@ -1,14 +1,14 @@
 ---
 title: Sender
 second_title: Aspose.Email for .NET API 参考
-description: 获取此消息的发送者
+description: 获取此消息的发件人
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients/messageinfobase/sender/
 ---
 ## MessageInfoBase.Sender property
 
-获取此消息的发送者。
+获取此消息的发件人。
 
 ```csharp
 public MailAddress Sender { get; }
@@ -16,7 +16,7 @@ public MailAddress Sender { get; }
 
 ### 适当的价值
 
-此消息的发送者。
+这条消息的发送者。
 
 ### 也可以看看
 

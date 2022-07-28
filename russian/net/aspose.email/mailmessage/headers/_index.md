@@ -1,14 +1,14 @@
 ---
 title: Headers
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает коллекцию заголовков сообщения
+description: Получает коллекцию заголовков message
 type: docs
 weight: 140
 url: /ru/net/aspose.email/mailmessage/headers/
 ---
 ## MailMessage.Headers property
 
-Получает коллекцию заголовков сообщения
+Получает коллекцию заголовков message
 
 ```csharp
 public virtual HeaderCollection Headers { get; }

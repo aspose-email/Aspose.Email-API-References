@@ -1,14 +1,14 @@
 ---
 title: ApiKey
 second_title: Aspose.Email for .NET API 参考
-description: API 私钥
+description: 私有 API 密钥
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey/
 ---
 ## DeliveryServiceOptions.ApiKey property
 
-API 私钥
+私有 API 密钥
 
 ```csharp
 public string ApiKey { get; set; }

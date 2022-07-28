@@ -1,14 +1,14 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API 参考
-description: 标识获取的文件夹
+description: 标识已提取的文件夹
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/collectionid/
 ---
 ## ItemOperationsFetchRequest.CollectionId property
 
-标识获取的文件夹。
+标识已提取的文件夹。
 
 ```csharp
 public string CollectionId { get; set; }

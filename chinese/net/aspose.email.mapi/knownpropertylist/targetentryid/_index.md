@@ -1,14 +1,14 @@
 ---
 title: TargetEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含提交优化的消息对象的消息 IDMS-OXOMSG 第 3.2.4.4 节 区域ID 属性 规范名称PidTagTargetEntryId 替代名称PR_TARGET_ENTRYID ptagTargetEntryId
+description: 包含提交优化的消息对象的消息 IDMS-OXOMSG 第 3.2.4.4 节 区域ID 属性 规范名称PidTagTargetEntryId 备用名称PR_TARGET_ENTRYIDptagTargetEntryId
 type: docs
 weight: 18520
 url: /zh/net/aspose.email.mapi/knownpropertylist/targetentryid/
 ---
 ## KnownPropertyList.TargetEntryId field
 
-包含提交优化的消息对象的消息 ID（[MS-OXOMSG] 第 3.2.4.4 节）。 区域:ID 属性 规范名称:PidTagTargetEntryId 替代名称:PR_TARGET_ENTRYID, ptagTargetEntryId
+包含提交优化的消息对象的消息 ID（[MS-OXOMSG] 第 3.2.4.4 节）。 区域：ID 属性 规范名称：PidTagTargetEntryId 备用名称：PR_TARGET_ENTRYID、ptagTargetEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TargetEntryId;

@@ -22,7 +22,7 @@ public void MergeWith(FolderInfo sourceFolder)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 当源文件夹位于同一 pst 时抛出。 |
+| InvalidOperationException | 当源文件夹位于同一 pst 时引发。 |
 
 ### 也可以看看
 
@@ -43,13 +43,13 @@ public void MergeWith(FolderInfo sourceFolder, bool recursiveHandler)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceFolder | FolderInfo | 源文件夹。 |
-| recursiveHandler | Boolean | 如果为真，将对所有消息调用 OnItemMoved，包括子目录中的消息，否则仅对当前目录中的消息调用 OnItemMoved。 |
+| recursiveHandler | Boolean | 如果为 true，将对所有消息调用 OnItemMoved，包括子目录中的消息，否则仅对当前目录中的消息调用 OnItemMoved。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 当源文件夹位于同一 pst 时抛出。 |
+| InvalidOperationException | 当源文件夹位于同一 pst 时引发。 |
 
 ### 也可以看看
 

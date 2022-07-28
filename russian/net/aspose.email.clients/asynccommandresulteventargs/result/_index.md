@@ -1,14 +1,14 @@
 ---
 title: Result
 second_title: Справочник по Aspose.Email для .NET API
-description: Рабочее состояние
+description: Состояние операции
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients/asynccommandresulteventargs/result/
 ---
 ## AsyncCommandResultEventArgs.Result property
 
-Рабочее состояние
+Состояние операции
 
 ```csharp
 public AsyncCommandResults Result { get; }

@@ -1,14 +1,14 @@
 ---
 title: ContactUserField2
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于将自定义文本添加到联系人对象的名片表示的文本 区域联系人属性 规范名称PidLidContactUserField2 备用名称dispidContactUserField2
+description: 包含用于将自定义文本添加到联系人对象的名片表示的文本 区域联系人属性 规范名称PidLidContactUserField2 替代名称dispidContactUserField2
 type: docs
 weight: 3060
 url: /zh/net/aspose.email.mapi/knownpropertylist/contactuserfield2/
 ---
 ## KnownPropertyList.ContactUserField2 field
 
-包含用于将自定义文本添加到联系人对象的名片表示的文本。 区域:联系人属性 规范名称:PidLidContactUserField2 备用名称:dispidContactUserField2
+包含用于将自定义文本添加到联系人对象的名片表示的文本。 区域：联系人属性 规范名称：PidLidContactUserField2 替代名称：dispidContactUserField2
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactUserField2;

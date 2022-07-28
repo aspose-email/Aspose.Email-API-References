@@ -1,14 +1,14 @@
 ---
 title: PropertyTag
 second_title: Aspose.Email for .NET API 参考
-description: 获取属性标签一个包含Idaspose.email.mapi.msg/messageobjectproperty/id和的组合值PropertyTypeaspose.email.mapi.msg/messageobjectproperty/propertytype
+description: 获取属性标签一个组合值包含Idaspose.email.mapi.msg/messageobjectproperty/id和PropertyTypeaspose.email.mapi.msg/messageobjectproperty/propertytype
 type: docs
 weight: 100
 url: /zh/net/aspose.email.mapi.msg/messageobjectproperty/propertytag/
 ---
 ## MessageObjectProperty.PropertyTag property
 
-获取属性标签，一个包含[`Id`](../id)和的组合值[`PropertyType`](../propertytype)
+获取属性标签，一个组合值，包含[`Id`](../id)和[`PropertyType`](../propertytype)
 
 ```csharp
 public long PropertyTag { get; }
@@ -16,7 +16,7 @@ public long PropertyTag { get; }
 
 ### 适当的价值
 
-属性标签。
+属性标记。
 
 ### 也可以看看
 

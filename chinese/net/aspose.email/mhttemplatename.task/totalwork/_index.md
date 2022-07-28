@@ -1,14 +1,14 @@
 ---
 title: TotalWork
 second_title: Aspose.Email for .NET API 参考
-description: Total Work 标头
+description: 总工作头
 type: docs
 weight: 130
 url: /zh/net/aspose.email/mhttemplatename.task/totalwork/
 ---
 ## MhtTemplateName.Task.TotalWork field
 
-Total Work 标头。
+总工作头。
 
 ```csharp
 public const string TotalWork;

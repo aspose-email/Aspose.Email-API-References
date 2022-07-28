@@ -1,14 +1,14 @@
 ---
 title: IdentitySet
 second_title: Aspose.Email for .NET API 参考
-description: https//docs.microsoft.com/en-us/graph/api/resources/identitysetviewgraph-rest-1.0 IdentitySet 资源是身份资源的键控集合 用于表示与项目的各种事件相关联的一组身份例如创建者或最后修改者
+description: https//docs.microsoft.com/en-us/graph/api/resources/identitysetviewgraph-rest-1.0 IdentitySet 资源是身份资源的键控集合 用于表示与某个项目的各种事件相关联的一组身份例如创建者或最后修改者
 type: docs
 weight: 15970
 url: /zh/net/aspose.email.clients.graph/identityset/
 ---
 ## IdentitySet class
 
-https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 IdentitySet 资源是身份资源的键控集合。 用于表示与项目的各种事件相关联的一组身份，例如创建者或最后修改者。
+https://docs.microsoft.com/en-us/graph/api/resources/identityset?view=graph-rest-1.0 IdentitySet 资源是身份资源的键控集合。 用于表示与某个项目的各种事件相关联的一组身份，例如创建者或最后修改者。
 
 ```csharp
 public class IdentitySet

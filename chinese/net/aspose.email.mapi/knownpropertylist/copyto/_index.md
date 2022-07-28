@@ -16,7 +16,7 @@ public void CopyTo(PropertyDescriptor[] array, int arrayIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| array | PropertyDescriptor[] | 作为从 复制的元素的目标的一维 System.Array System.Collections.Generic.ICollection。 System.Array 必须具有从零开始的索引。 |
+| array | PropertyDescriptor[] | 一维 System.Array，它是从 System.Collections.Generic.ICollection 复制的元素的目标。 System.Array 必须具有从零开始的索引。 |
 | arrayIndex | Int32 | 数组中开始复制的从零开始的索引。 |
 
 ### 也可以看看

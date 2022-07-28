@@ -1,14 +1,14 @@
 ---
 title: FetchAttachment
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定附件
+description: 获取指定的附件
 type: docs
 weight: 630
 url: /zh/net/aspose.email.clients.imap/imapclient/fetchattachment/
 ---
 ## FetchAttachment(IConnection, int, string) {#fetchattachment}
 
-获取指定附件
+获取指定的附件
 
 ```csharp
 public Attachment FetchAttachment(IConnection connection, int sequenceNumber, string attachmentName)
@@ -17,12 +17,12 @@ public Attachment FetchAttachment(IConnection connection, int sequenceNumber, st
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | attachmentName | String | 附件名称 |
 
 ### 返回值
 
-[`Attachment`](../../../aspose.email/attachment)表示附件
+[`Attachment`](../../../aspose.email/attachment)代表着执着
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public Attachment FetchAttachment(IConnection connection, int sequenceNumber, st
 
 ## FetchAttachment(int, string) {#fetchattachment_1}
 
-获取指定附件
+获取指定的附件
 
 ```csharp
 public Attachment FetchAttachment(int sequenceNumber, string attachmentName)
@@ -44,12 +44,12 @@ public Attachment FetchAttachment(int sequenceNumber, string attachmentName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | attachmentName | String | 附件名称 |
 
 ### 返回值
 
-[`Attachment`](../../../aspose.email/attachment)表示附件
+[`Attachment`](../../../aspose.email/attachment)代表着执着
 
 ### 也可以看看
 

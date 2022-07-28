@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Email for .NET API 参考
-description: 日志条目消息的附加描述
+description: 日志条目消息的附加说明
 type: docs
 weight: 160
 url: /zh/net/aspose.email.tools.logging/logentry/title/
 ---
 ## LogEntry.Title property
 
-日志条目消息的附加描述。
+日志条目消息的附加说明。
 
 ```csharp
 public string Title { get; set; }

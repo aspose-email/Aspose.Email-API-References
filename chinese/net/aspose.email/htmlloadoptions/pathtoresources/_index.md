@@ -1,14 +1,14 @@
 ---
 title: PathToResources
 second_title: Aspose.Email for .NET API 参考
-description: 资源文件所在目录的路径
+description: 资源文件目录的路径
 type: docs
 weight: 20
 url: /zh/net/aspose.email/htmlloadoptions/pathtoresources/
 ---
 ## HtmlLoadOptions.PathToResources property
 
-资源文件所在目录的路径。
+资源文件目录的路径。
 
 ```csharp
 public string PathToResources { get; set; }

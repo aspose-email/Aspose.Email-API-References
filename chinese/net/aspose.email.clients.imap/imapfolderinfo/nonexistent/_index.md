@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapfolderinfo/nonexistent/
 ---
 ## ImapFolderInfo.NonExistent property
 
-获取指示文件夹名称是否引用现有文件夹的值。 查看更多:http://tools.ietf.org/html/rfc5258
+获取指示文件夹名称是否引用现有文件夹的值。 查看更多：http://tools.ietf.org/html/rfc5258
 
 ```csharp
 public bool NonExistent { get; }

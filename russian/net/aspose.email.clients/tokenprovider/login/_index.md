@@ -1,14 +1,14 @@
 ---
 title: Login
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает логин для базовой авторизации
+description: Получает или задает логин для базовой авторизации
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients/tokenprovider/login/
 ---
 ## TokenProvider.Login property
 
-Получает или устанавливает логин для базовой авторизации
+Получает или задает логин для базовой авторизации
 
 ```csharp
 public virtual string Login { get; set; }

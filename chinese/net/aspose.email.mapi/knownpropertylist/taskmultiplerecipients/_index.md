@@ -1,14 +1,14 @@
 ---
 title: TaskMultipleRecipients
 second_title: Aspose.Email for .NET API 参考
-description: 提供有关任务对象接收者的优化提示 区域任务 规范名称PidLidTaskMultipleRecipients 替代名称dispidTaskMultRecips
+description: 提供有关任务对象接收者的优化提示 区域Tasks 规范名称PidLidTaskMultipleRecipients 替代名称dispidTaskMultRecips
 type: docs
 weight: 18730
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskmultiplerecipients/
 ---
 ## KnownPropertyList.TaskMultipleRecipients field
 
-提供有关任务对象接收者的优化提示。 区域:任务 规范名称:PidLidTaskMultipleRecipients 替代名称:dispidTaskMultRecips
+提供有关任务对象接收者的优化提示。 区域：Tasks 规范名称：PidLidTaskMultipleRecipients 替代名称：dispidTaskMultRecips
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskMultipleRecipients;

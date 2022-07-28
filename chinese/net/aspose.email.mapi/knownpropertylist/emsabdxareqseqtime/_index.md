@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaReqSeqTime
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_DXA_REQ_SEQ_TIME
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_DXA_REQ_SEQ_TIME
 type: docs
 weight: 5950
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabdxareqseqtime/
 ---
 ## KnownPropertyList.EmsAbDxaReqSeqTime field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_DXA_REQ_SEQ_TIME
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_DXA_REQ_SEQ_TIME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaReqSeqTime;

@@ -1,14 +1,14 @@
 ---
 title: AutoCommit
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否在更改文件夹时或关闭连接之前自动执行提交操作 
+description: 指示是否在更改文件夹或关闭连接之前自动执行提交操作 
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.imap/imapclient/autocommit/
 ---
 ## ImapClient.AutoCommit property
 
-指示是否在更改文件夹时或关闭连接之前自动执行提交操作 。
+指示是否在更改文件夹或关闭连接之前自动执行提交操作 。
 
 ```csharp
 public bool AutoCommit { get; set; }

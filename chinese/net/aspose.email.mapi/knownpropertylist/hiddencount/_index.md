@@ -1,14 +1,14 @@
 ---
 title: HiddenCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的隐藏值 区域普通 规范名称PidNameHiddenCount 替代名称urnschemas-microsoft-comofficeofficeHiddenSlides
+description: 指定附加到文档对象的文件的隐藏值 区域Common 规范名称PidNameHiddenCount 备用名称urnschemas-microsoft-comofficeofficeHiddenSlides
 type: docs
 weight: 10920
 url: /zh/net/aspose.email.mapi/knownpropertylist/hiddencount/
 ---
 ## KnownPropertyList.HiddenCount field
 
-指定附加到 Document 对象的文件的隐藏值。 区域：普通 规范名称：PidNameHiddenCount 替代名称：urn:schemas-microsoft-com:office:office#HiddenSlides
+指定附加到文档对象的文件的隐藏值。 区域：Common 规范名称：PidNameHiddenCount 备用名称：urn:schemas-microsoft-com:office:office#HiddenSlides
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HiddenCount;

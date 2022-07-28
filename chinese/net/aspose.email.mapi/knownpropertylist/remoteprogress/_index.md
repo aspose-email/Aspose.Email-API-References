@@ -1,14 +1,14 @@
 ---
 title: RemoteProgress
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_REMOTE_PROGRESS
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_REMOTE_PROGRESS
 type: docs
 weight: 15790
 url: /zh/net/aspose.email.mapi/knownpropertylist/remoteprogress/
 ---
 ## KnownPropertyList.RemoteProgress field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_REMOTE_PROGRESS
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_REMOTE_PROGRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RemoteProgress;

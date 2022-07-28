@@ -1,14 +1,14 @@
 ---
 title: AsyncCommandResultEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: 初始化AsyncCommandResultEventArgsaspose.email.clients/asynccommandresulteventargs类的新实例
+description: 初始化AsyncCommandResultEventArgsaspose.email.clients/asynccommandresulteventargs类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients/asynccommandresulteventargs/asynccommandresulteventargs/
 ---
 ## AsyncCommandResultEventArgs() {#constructor}
 
-初始化[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs)类的新实例。
+初始化[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs)类.
 
 ```csharp
 public AsyncCommandResultEventArgs()
@@ -24,7 +24,7 @@ public AsyncCommandResultEventArgs()
 
 ## AsyncCommandResultEventArgs(AsyncCommandResults) {#constructor_1}
 
-初始化[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs)类的新实例。
+初始化[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs)类.
 
 ```csharp
 public AsyncCommandResultEventArgs(AsyncCommandResults result)
@@ -45,7 +45,7 @@ public AsyncCommandResultEventArgs(AsyncCommandResults result)
 
 ## AsyncCommandResultEventArgs(AsyncCommandResults, Exception) {#constructor_2}
 
-初始化[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs)类的新实例。
+初始化[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs)类.
 
 ```csharp
 public AsyncCommandResultEventArgs(AsyncCommandResults result, Exception error)

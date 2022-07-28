@@ -3,7 +3,7 @@ title: MicrosoftImportance
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает важность встречи.
 type: docs
-weight: 160
+weight: 170
 url: /ru/net/aspose.email.calendar/appointment/microsoftimportance/
 ---
 ## Appointment.MicrosoftImportance property

@@ -1,14 +1,14 @@
 ---
 title: UserAgent
 second_title: Aspose.Email for .NET API 参考
-description: User-Agent request-header 字段包含有关发起请求的用户代理的信息 这是出于统计目的跟踪协议违规和用户代理的自动识别 以便定制响应以避免特定的用户代理限制 用户代理应该在请求中包含这个字段 该字段可以包含多个产品标记第 3.8 节和注释 标识代理和构成用户代理重要部分的任何子产品 按照惯例产品标记是按照它们在识别应用程序时的重要性顺序列出的 示例 User-AgentCERN-LineMode/2.15 libwww/2.17b3
+description: User-Agent request-header 字段包含有关发起请求的用户代理的信息 这是出于统计目的跟踪协议违规和自动识别用户代理 以便定制响应以避免特定用户代理限制 用户代理应该在请求中包含这个字段 该字段可以包含多个产品标记第 3.8 节和注释 标识代理和构成用户代理重要部分的任何子产品 按照惯例产品令牌按其识别应用程序的重要性顺序列出 示例 用户代理CERN-LineMode/2.15 libwww/2.17b3
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/useragent/
 ---
 ## IBaseActiveSyncTLClient.UserAgent property
 
-User-Agent request-header 字段包含有关发起请求的用户代理的信息。 这是出于统计目的、跟踪协议违规和用户代理的自动识别 以便定制响应以避免特定的用户代理限制。 用户代理应该在请求中包含这个字段。 该字段可以包含多个产品标记（第 3.8 节）和注释 标识代理和构成用户代理重要部分的任何子产品。 按照惯例，产品标记是按照它们在识别应用程序时的重要性顺序列出的。 示例: User-Agent:CERN-LineMode/2.15 libwww/2.17b3
+User-Agent request-header 字段包含有关发起请求的用户代理的信息。 这是出于统计目的、跟踪协议违规和自动识别用户代理 以便定制响应以避免特定用户代理限制。 用户代理应该在请求中包含这个字段。 该字段可以包含多个产品标记（第 3.8 节）和注释 标识代理和构成用户代理重要部分的任何子产品。 按照惯例，产品令牌按其识别应用程序的重要性顺序列出。 示例： 用户代理：CERN-LineMode/2.15 libwww/2.17b3
 
 ```csharp
 public string UserAgent { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AddressBookHierarchicalShowInDepartments
 second_title: Aspose.Email for .NET API 参考
-description: 列出邮件用户所属的所有部门对象 区域地址簿 规范名称PidTagAddressBookHierarchicalShowInDepartments 替代名称PR_EMS_AB_HAB_SHOW_IN_DEPARTMENTS
+description: 列出邮件用户所属的所有部门对象 区域地址簿 规范名称PidTagAddressBookHierarchicalShowInDepartments 备用名称PR_EMS_AB_HAB_SHOW_IN_DEPARTMENTS
 type: docs
 weight: 660
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalshowindepartments/
 ---
 ## KnownPropertyList.AddressBookHierarchicalShowInDepartments field
 
-列出邮件用户所属的所有部门对象。 区域:地址簿 规范名称:PidTagAddressBookHierarchicalShowInDepartments 替代名称:PR_EMS_AB_HAB_SHOW_IN_DEPARTMENTS
+列出邮件用户所属的所有部门对象。 区域：地址簿 规范名称：PidTagAddressBookHierarchicalShowInDepartments 备用名称：PR_EMS_AB_HAB_SHOW_IN_DEPARTMENTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHierarchicalShowInDepartments;

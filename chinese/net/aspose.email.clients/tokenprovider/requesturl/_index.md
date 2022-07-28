@@ -1,14 +1,14 @@
 ---
 title: RequestUrl
 second_title: Aspose.Email for .NET API 参考
-description: 获取访问令牌的 url
+description: 获取访问令牌的url
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients/tokenprovider/requesturl/
 ---
 ## TokenProvider.RequestUrl property
 
-获取访问令牌的 url。
+获取访问令牌的url。
 
 ```csharp
 public virtual string RequestUrl { get; }

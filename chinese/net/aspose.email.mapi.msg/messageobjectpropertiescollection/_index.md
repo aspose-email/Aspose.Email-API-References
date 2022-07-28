@@ -1,14 +1,14 @@
 ---
 title: MessageObjectPropertiesCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示MessageObjectProperty./messageobjectproperty对象的键控集合
+description: 表示一个键控集合MessageObjectProperty./messageobjectproperty对象.
 type: docs
-weight: 18830
+weight: 18860
 url: /zh/net/aspose.email.mapi.msg/messageobjectpropertiescollection/
 ---
 ## MessageObjectPropertiesCollection class
 
-表示[`MessageObjectProperty`](../messageobjectproperty)对象的键控集合。
+表示一个键控集合[`MessageObjectProperty`](../messageobjectproperty)对象.
 
 ```csharp
 public sealed class MessageObjectPropertiesCollection : KeyedCollection<long, MessageObjectProperty>

@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает адрес отправителя
+description: Получает или задает адрес from
 type: docs
 weight: 130
 url: /ru/net/aspose.email/mailmessage/from/
 ---
 ## MailMessage.From property
 
-Получает или устанавливает адрес отправителя
+Получает или задает адрес from
 
 ```csharp
 public virtual MailAddress From { get; set; }

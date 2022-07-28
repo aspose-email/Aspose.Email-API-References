@@ -26,7 +26,7 @@ public class SyncChangeClientOperation
 | 姓名 | 描述 |
 | --- | --- |
 | [ApplicationData](../../aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/applicationdata) { get; } | ApplicationData 包含特定对象的数据，例如联系人、电子邮件、日历约会或任务项。 |
-| [Class](../../aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/class) { get; set; } | 标识要添加到集合中的项目的类。 仅用于服务器响应。 |
+| [Class](../../aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/class) { get; set; } | 标识要添加到集合中的项目的类。 仅在服务器响应中使用。 |
 | [ServerId](../../aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/serverid) { get; set; } | 表示服务器分配给每个可以同步的对象的唯一标识符。 |
 
 ### 也可以看看

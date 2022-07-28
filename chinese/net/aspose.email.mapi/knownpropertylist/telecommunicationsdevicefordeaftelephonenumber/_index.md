@@ -1,14 +1,14 @@
 ---
 title: TelecommunicationsDeviceForDeafTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的聋人电信设备 TTY/TDD 电话号码 区域MapiMailUser 规范名称PidTagTelecommunicationsDeviceForDeafTelephoneNumber 备用名称PR_TTYTDD_PHONE_NUMBER PR_TTYTDD_PHONE_NUMBER_A
+description: 包含邮件用户的聋人电信设备 TTY/TDD 电话号码 区域MapiMailUser 规范名称PidTagTelecommunicationsDeviceForDeafTelephoneNumber 备用名称PR_TTYTDD_PHONE_NUMBERPR_TTYTDD_PHONE_NUMBER_A
 type: docs
 weight: 18880
 url: /zh/net/aspose.email.mapi/knownpropertylist/telecommunicationsdevicefordeaftelephonenumber/
 ---
 ## KnownPropertyList.TelecommunicationsDeviceForDeafTelephoneNumber field
 
-包含邮件用户的聋人电信设备 (TTY/TDD) 电话号码。 区域:MapiMailUser 规范名称:PidTagTelecommunicationsDeviceForDeafTelephoneNumber 备用名称:PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A,
+包含邮件用户的聋人电信设备 (TTY/TDD) 电话号码。 区域：MapiMailUser 规范名称：PidTagTelecommunicationsDeviceForDeafTelephoneNumber 备用名称：PR_TTYTDD_PHONE_NUMBER、PR_TTYTDD_PHONE_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TelecommunicationsDeviceForDeafTelephoneNumber;

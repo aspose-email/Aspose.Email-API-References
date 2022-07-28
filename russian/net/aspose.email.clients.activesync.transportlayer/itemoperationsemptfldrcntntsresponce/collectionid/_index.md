@@ -1,14 +1,14 @@
 ---
 title: CollectionId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает папку которую нужно очистить. Содержит идентификатор сервера папки.
+description: Указывает папку которую необходимо очистить. Содержит ServerId папки.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsemptfldrcntntsresponce/collectionid/
 ---
 ## ItemOperationsEmptFldrCntntsResponce.CollectionId property
 
-Указывает папку, которую нужно очистить. Содержит идентификатор сервера папки.
+Указывает папку, которую необходимо очистить. Содержит ServerId папки.
 
 ```csharp
 public string CollectionId { get; set; }

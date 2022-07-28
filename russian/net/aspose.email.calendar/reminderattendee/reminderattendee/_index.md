@@ -1,14 +1,14 @@
 ---
 title: ReminderAttendee
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализировать новый экземпляр классаReminderAttendeeaspose.email.calendar/reminderattendee.
+description: Инициализировать новый экземплярReminderAttendeeaspose.email.calendar/reminderattendee класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/reminderattendee/reminderattendee/
 ---
 ## ReminderAttendee constructor
 
-Инициализировать новый экземпляр класса[`ReminderAttendee`](../../reminderattendee).
+Инициализировать новый экземпляр[`ReminderAttendee`](../../reminderattendee) класс.
 
 ```csharp
 public ReminderAttendee(string address)
@@ -16,7 +16,7 @@ public ReminderAttendee(string address)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| адрес | String | Адрес электронной почты. |
+| address | String | Адрес электронной почты. |
 
 ### Смотрите также
 

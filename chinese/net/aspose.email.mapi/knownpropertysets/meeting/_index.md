@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/meeting/
 ---
 ## KnownPropertySets.Meeting field
 
-区域名称:日历 属性集名称:PSETID_Meeting
+区域名称：日历 属性集名称：PSETID_Meeting
 
 ```csharp
 public static readonly Guid Meeting;

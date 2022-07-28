@@ -1,14 +1,14 @@
 ---
 title: GetQuotaRoot
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱的配额根信息
+description: 获取邮箱 的配额根信息
 type: docs
 weight: 770
 url: /zh/net/aspose.email.clients.imap/imapclient/getquotaroot/
 ---
 ## GetQuotaRoot(IConnection, string) {#getquotaroot}
 
-获取邮箱的配额根信息
+获取邮箱 的配额根信息
 
 ```csharp
 public ImapQuotaRoot[] GetQuotaRoot(IConnection connection, string mailboxName)
@@ -35,7 +35,7 @@ public ImapQuotaRoot[] GetQuotaRoot(IConnection connection, string mailboxName)
 
 ## GetQuotaRoot(string) {#getquotaroot_1}
 
-获取邮箱的配额根信息
+获取邮箱 的配额根信息
 
 ```csharp
 public ImapQuotaRoot[] GetQuotaRoot(string mailboxName)

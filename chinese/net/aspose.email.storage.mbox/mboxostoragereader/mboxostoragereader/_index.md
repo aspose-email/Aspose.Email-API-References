@@ -1,14 +1,14 @@
 ---
 title: MboxoStorageReader
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MboxoStorageReaderaspose.email.storage.mbox/mboxostoragereader类的新实例
+description: 初始化MboxoStorageReaderaspose.email.storage.mbox/mboxostoragereader班级
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.mbox/mboxostoragereader/mboxostoragereader/
 ---
 ## MboxoStorageReader(Stream, MboxLoadOptions) {#constructor}
 
-初始化[`MboxoStorageReader`](../../mboxostoragereader)类的新实例。
+初始化[`MboxoStorageReader`](../../mboxostoragereader)班级。
 
 ```csharp
 public MboxoStorageReader(Stream stream, MboxLoadOptions options)
@@ -23,7 +23,7 @@ public MboxoStorageReader(Stream stream, MboxLoadOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果给定流为空。 |
+| ArgumentNullException | 如果给定的流为空。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public MboxoStorageReader(Stream stream, MboxLoadOptions options)
 
 ## MboxoStorageReader(string, MboxLoadOptions) {#constructor_2}
 
-初始化[`MboxrdStorageReader`](../../mboxrdstoragereader)类的新实例。
+初始化[`MboxrdStorageReader`](../../mboxrdstoragereader)类.
 
 ```csharp
 public MboxoStorageReader(string fileName, MboxLoadOptions options)
@@ -44,8 +44,8 @@ public MboxoStorageReader(string fileName, MboxLoadOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
-| options | MboxLoadOptions | 加载 Mbox 存储时的附加选项[`MboxLoadOptions`](../../mboxloadoptions)。 |
+| fileName | String | 文件的名称。 |
+| options | MboxLoadOptions | 加载 Mbox 存储时的附加选项[`MboxLoadOptions`](../../mboxloadoptions). |
 
 ### 例外
 

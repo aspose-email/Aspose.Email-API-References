@@ -1,14 +1,14 @@
 ---
 title: DraftMessages
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱通常用于保存草稿消息即正在编写但尚未发送的消息 请注意如果服务器不支持 rfc6154 或未创建文件夹此值可能为空
+description: 获取邮箱通常用于保存草稿消息即正在撰写但尚未发送的消息 请注意如果服务器不支持 rfc6154 或尚未创建文件夹此值可能为空
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.imap/imapmailboxinfo/draftmessages/
 ---
 ## ImapMailboxInfo.DraftMessages property
 
-获取邮箱通常用于保存草稿消息，即正在编写但尚未发送的消息。 请注意，如果服务器不支持 rfc6154 或未创建文件夹，此值可能为空。
+获取邮箱通常用于保存草稿消息，即正在撰写但尚未发送的消息。 请注意，如果服务器不支持 rfc6154 或尚未创建文件夹，此值可能为空。
 
 ```csharp
 public ImapFolderInfo DraftMessages { get; }

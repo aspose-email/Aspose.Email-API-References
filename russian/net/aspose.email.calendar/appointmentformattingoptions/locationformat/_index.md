@@ -16,7 +16,7 @@ public string LocationFormat { get; set; }
 
 ### Стоимость имущества
 
-Формат where.
+Формат где.
 
 ### Смотрите также
 

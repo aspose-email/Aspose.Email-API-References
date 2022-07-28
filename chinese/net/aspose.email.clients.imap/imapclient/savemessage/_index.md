@@ -17,7 +17,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, Stream resul
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | resultStream | Stream | 将接收消息的流 |
 
 ### 也可以看看
@@ -31,7 +31,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, Stream resul
 
 ## SaveMessage(IConnection, string, Stream) {#savemessage_2}
 
-下载具有指定序列号的消息 并将其数据写入提供的流
+下载具有指定序列号 的消息并将其数据写入提供的流
 
 ```csharp
 public void SaveMessage(IConnection connection, string uniqueId, Stream resultStream)
@@ -54,7 +54,7 @@ public void SaveMessage(IConnection connection, string uniqueId, Stream resultSt
 
 ## SaveMessage(IConnection, string, string) {#savemessage_3}
 
-下载指定序列号的消息 并将其数据写入本地文件
+下载指定序号 的消息，并将其数据写入本地文件
 
 ```csharp
 public void SaveMessage(IConnection connection, string uniqueId, string fileName)
@@ -77,7 +77,7 @@ public void SaveMessage(IConnection connection, string uniqueId, string fileName
 
 ## SaveMessage(IConnection, int, string) {#savemessage_1}
 
-下载具有指定序列号的消息并将其数据写入本地文件
+下载指定序号的消息并将其数据写入本地文件
 
 ```csharp
 public void SaveMessage(IConnection connection, int sequenceNumber, string fileName)
@@ -86,7 +86,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, string fileN
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | fileName | String | 本地文件的路径。这不能是目录 |
 
 ### 也可以看看
@@ -108,7 +108,7 @@ public void SaveMessage(int sequenceNumber, Stream resultStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | resultStream | Stream | 将接收消息的流 |
 
 ### 也可以看看
@@ -121,7 +121,7 @@ public void SaveMessage(int sequenceNumber, Stream resultStream)
 
 ## SaveMessage(string, Stream) {#savemessage_6}
 
-下载具有指定序列号的消息 并将其数据写入提供的流
+下载具有指定序列号 的消息并将其数据写入提供的流
 
 ```csharp
 public void SaveMessage(string uniqueId, Stream resultStream)
@@ -142,7 +142,7 @@ public void SaveMessage(string uniqueId, Stream resultStream)
 
 ## SaveMessage(string, string) {#savemessage_7}
 
-下载指定序列号的消息 并将其数据写入本地文件
+下载指定序号 的消息，并将其数据写入本地文件
 
 ```csharp
 public void SaveMessage(string uniqueId, string fileName)
@@ -163,7 +163,7 @@ public void SaveMessage(string uniqueId, string fileName)
 
 ## SaveMessage(int, string) {#savemessage_5}
 
-下载具有指定序列号的消息并将其数据写入本地文件
+下载指定序号的消息并将其数据写入本地文件
 
 ```csharp
 public void SaveMessage(int sequenceNumber, string fileName)
@@ -171,7 +171,7 @@ public void SaveMessage(int sequenceNumber, string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | fileName | String | 本地文件的路径。这不能是目录 |
 
 ### 也可以看看

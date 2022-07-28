@@ -1,14 +1,14 @@
 ---
 title: CalendarMessage
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classescalendarmessage 内容类 定义消息项的一组属性 包含会议请求
+description: 获取 urncontent-classescalendarmessage 内容类 它为包含会议请求的消息项 定义一组属性
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/calendarmessage/
 ---
 ## ContentClassType.CalendarMessage property
 
-获取 urn:content-classes:calendarmessage 内容类 定义消息项的一组属性 包含会议请求。
+获取 urn:content-classes:calendarmessage 内容类 ，它为包含会议请求的消息项 定义一组属性。
 
 ```csharp
 public static ContentClassType CalendarMessage { get; }

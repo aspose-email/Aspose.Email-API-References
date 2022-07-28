@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Aspose.Email for .NET API 参考
-description: 将当前集合 的所有元素复制到从指定目标索引开始的指定字符串数组
+description: 将当前集合 的所有元素复制到从指定目标索引开始的指定字符串数组中
 type: docs
 weight: 110
 url: /zh/net/aspose.email.mime/headercollection/copyto/
 ---
 ## HeaderCollection.CopyTo method
 
-将当前集合 的所有元素复制到从指定目标索引开始的指定字符串数组。
+将当前集合 的所有元素复制到从指定目标索引开始的指定字符串数组中。
 
 ```csharp
 public void CopyTo(string[] array, int arrayIndex)

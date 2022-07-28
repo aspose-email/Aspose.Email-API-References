@@ -1,14 +1,14 @@
 ---
 title: ByDayCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示ByDay./byday对象的集合
+description: 代表一个集合ByDay./byday对象.
 type: docs
 weight: 650
 url: /zh/net/aspose.email.calendar.recurrences/bydaycollection/
 ---
 ## ByDayCollection class
 
-表示[`ByDay`](../byday)对象的集合。
+代表一个集合[`ByDay`](../byday)对象.
 
 ```csharp
 public class ByDayCollection : Collection<ByDay>
@@ -18,14 +18,14 @@ public class ByDayCollection : Collection<ByDay>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add)(ByDay) | 将[`ByDay`](../byday)添加到集合中。 |
-| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_2)(DayOfWeek) | 创建一个[`ByDay`](../byday)并将其添加到收藏。 |
-| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_1)(int, DayOfWeek) | 创建一个[`ByDay`](../byday)并将其添加到集合中。 |
-| [Contains](../../aspose.email.calendar.recurrences/bydaycollection/contains#contains_1)(DayOfWeek) | 返回一个值，该值指示指定的星期几是否存在于集合中。 |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add)(ByDay) | 添加一个[`ByDay`](../byday)收藏. |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_2)(DayOfWeek) | 创建并添加一个[`ByDay`](../byday)表示集合中一周中的所有日期。 |
+| [Add](../../aspose.email.calendar.recurrences/bydaycollection/add#add_1)(int, DayOfWeek) | 创建并添加一个[`ByDay`](../byday)收藏. |
+| [Contains](../../aspose.email.calendar.recurrences/bydaycollection/contains#contains_1)(DayOfWeek) | 返回一个值，该值指示集合中是否存在指定的星期几。 |
 
 ### 评论
 
-对应于循环规则的 BYDAY 部分。
+对应于重复规则的 BYDAY 部分。
 
 BYDAY 规则为每月或每年重复规则指定一周中的几天列表。
 

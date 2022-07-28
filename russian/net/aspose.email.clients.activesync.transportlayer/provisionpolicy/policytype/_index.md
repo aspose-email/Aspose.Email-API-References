@@ -1,14 +1,14 @@
 ---
 title: PolicyType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает формат в котором параметры политики должны предоставляться клиентскому устройству.
+description: Указывает формат в котором параметры политики должны быть предоставлены клиентскому устройству.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/provisionpolicy/policytype/
 ---
 ## ProvisionPolicy.PolicyType property
 
-Указывает формат, в котором параметры политики должны предоставляться клиентскому устройству.
+Указывает формат, в котором параметры политики должны быть предоставлены клиентскому устройству.
 
 ```csharp
 public string PolicyType { get; set; }

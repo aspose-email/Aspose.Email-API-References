@@ -1,14 +1,14 @@
 ---
 title: ExtendedRuleMessageActions
 second_title: Aspose.Email for .NET API 参考
-description: 包含有关规则中使用的命名属性的操作信息 区域规则 规范名称PidTagExtendedRuleMessageActions 备用名称PR_EXTENDED_RULE_MSG_ACTIONS
+description: 包含有关规则中使用的命名属性的操作信息 区域Rules 规范名称PidTagExtendedRuleMessageActions 备用名称PR_EXTENDED_RULE_MSG_ACTIONS
 type: docs
 weight: 10010
 url: /zh/net/aspose.email.mapi/knownpropertylist/extendedrulemessageactions/
 ---
 ## KnownPropertyList.ExtendedRuleMessageActions field
 
-包含有关规则中使用的命名属性的操作信息。 区域:规则 规范名称:PidTagExtendedRuleMessageActions 备用名称:PR_EXTENDED_RULE_MSG_ACTIONS
+包含有关规则中使用的命名属性的操作信息。 区域：Rules 规范名称：PidTagExtendedRuleMessageActions 备用名称：PR_EXTENDED_RULE_MSG_ACTIONS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExtendedRuleMessageActions;

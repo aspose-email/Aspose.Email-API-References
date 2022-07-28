@@ -18,10 +18,10 @@ public enum ReminderAction
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Audio | `0` | 音频动作。 |
+| Audio | `0` | 音频动作. |
 | Display | `1` | 显示动作。 |
 | Email | `2` | 电子邮件操作。 |
-| Procedure | `3` | 过程动作。 |
+| Procedure | `3` | 程序操作. |
 | None | `4` | 无操作。 |
 
 ### 也可以看看

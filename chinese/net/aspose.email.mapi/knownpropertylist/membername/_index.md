@@ -1,14 +1,14 @@
 ---
 title: MemberName
 second_title: Aspose.Email for .NET API 参考
-description: 包含用户可读的名称 区域访问控制属性 规范名称PidTagMemberName 备用名称PR_MEMBER_NAME PR_MEMBER_NAME_A ptagMemberName PR_MEMBER_NAME_W
+description: 包含用户可读的名称 区域访问控制属性 规范名称PidTagMemberName 备用名称PR_MEMBER_NAMEPR_MEMBER_NAME_AptagMemberNamePR_MEMBER_NAME_W
 type: docs
 weight: 12430
 url: /zh/net/aspose.email.mapi/knownpropertylist/membername/
 ---
 ## KnownPropertyList.MemberName field
 
-包含用户可读的名称。 区域:访问控制属性 规范名称:PidTagMemberName 备用名称:PR_MEMBER_NAME, PR_MEMBER_NAME_A, ptagMemberName, PR_MEMBER_NAME_W
+包含用户可读的名称。 区域：访问控制属性 规范名称：PidTagMemberName 备用名称：PR_MEMBER_NAME、PR_MEMBER_NAME_A、ptagMemberName、PR_MEMBER_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MemberName;

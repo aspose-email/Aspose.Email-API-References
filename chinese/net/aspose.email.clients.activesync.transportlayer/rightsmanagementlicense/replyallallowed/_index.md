@@ -1,14 +1,14 @@
 ---
 title: ReplyAllAllowed
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户是否可以回复原始电子邮件的所有收件人 1 如果用户可以回复电子邮件消息的所有收件人则值为 TRUE否则错误
+description: 指定用户是否可以回复原始电子邮件消息的所有收件人 1 如果用户可以回复电子邮件消息的所有收件人则值为 TRUE否则该值为 TRUE否则FALSE.
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/replyallallowed/
 ---
 ## RightsManagementLicense.ReplyAllAllowed property
 
-指定用户是否可以回复原始电子邮件的所有收件人 (1)。 如果用户可以回复电子邮件消息的所有收件人，则值为 TRUE；否则，错误。
+指定用户是否可以回复原始电子邮件消息的所有收件人 (1)。 如果用户可以回复电子邮件消息的所有收件人，则值为 TRUE；否则，该值为 TRUE。否则，FALSE.
 
 ```csharp
 public bool ReplyAllAllowed { get; set; }

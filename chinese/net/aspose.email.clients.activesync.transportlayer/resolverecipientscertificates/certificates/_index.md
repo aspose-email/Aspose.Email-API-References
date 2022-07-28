@@ -1,14 +1,14 @@
 ---
 title: Certificates
 second_title: Aspose.Email for .NET API 参考
-description: 包含 X509 证书列表作为二进制大对象 BLOB 仅当客户端在 ResolveRecipients 命令请求的 CertificateRetrieval 中指定值为 2 时服务器才会返回此元素
+description: 包含作为二进制大对象 BLOB 的 X509 证书列表 仅当客户端在 ResolveRecipients 命令请求的 CertificateRetrieval 中指定值 2 时服务器才会返回此元素
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificates/
 ---
 ## ResolveRecipientsCertificates.Certificates property
 
-包含 X509 证书列表作为二进制大对象 (BLOB)。 仅当客户端在 ResolveRecipients 命令请求的 CertificateRetrieval 中指定值为 2 时，服务器才会返回此元素。
+包含作为二进制大对象 (BLOB) 的 X509 证书列表。 仅当客户端在 ResolveRecipients 命令请求的 CertificateRetrieval 中指定值 2 时，服务器才会返回此元素。
 
 ```csharp
 public List<byte[]> Certificates { get; }

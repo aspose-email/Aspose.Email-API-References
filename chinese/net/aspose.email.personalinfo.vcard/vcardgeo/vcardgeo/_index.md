@@ -1,14 +1,14 @@
 ---
 title: VCardGeo
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 VCardGeoaspose.email.personalinfo.vcard/vcardgeo 类的新实例
+description: 初始化VCardGeoaspose.email.personalinfo.vcard/vcardgeo class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo.vcard/vcardgeo/vcardgeo/
 ---
 ## VCardGeo constructor
 
-初始化 [`VCardGeo`](../../vcardgeo) 类的新实例
+初始化[`VCardGeo`](../../vcardgeo) class
 
 ```csharp
 public VCardGeo()

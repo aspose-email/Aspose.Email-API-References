@@ -3,7 +3,7 @@ title: MailQueryBuilder
 second_title: Aspose.Email for .NET API 参考
 description: 表示搜索表达式的构建器
 type: docs
-weight: 20700
+weight: 20750
 url: /zh/net/aspose.email.tools.search/mailquerybuilder/
 ---
 ## MailQueryBuilder class
@@ -18,8 +18,8 @@ public class MailQueryBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailQueryBuilder](mailquerybuilder#constructor)() | 初始化[`MailQueryBuilder`](../mailquerybuilder)类的新实例。 |
-| [MailQueryBuilder](mailquerybuilder#constructor_1)(Encoding) | 初始化[`MailQueryBuilder`](../mailquerybuilder)类的新实例。 |
+| [MailQueryBuilder](mailquerybuilder#constructor)() | 初始化[`MailQueryBuilder`](../mailquerybuilder)类. |
+| [MailQueryBuilder](mailquerybuilder#constructor_1)(Encoding) | 初始化[`MailQueryBuilder`](../mailquerybuilder)类. |
 
 ## 特性
 
@@ -27,13 +27,13 @@ public class MailQueryBuilder
 | --- | --- |
 | [Bcc](../../aspose.email.tools.search/mailquerybuilder/bcc) { get; } | 获取允许在信封结构的密件抄送字段中查找包含指定字符串的消息的字段。 |
 | [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | 获取允许在消息正文中查找包含指定字符串的消息的字段。 |
-| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的抄送字段中查找包含指定字符串的消息的字段。 |
-| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询生成器的默认编码（字符集） |
+| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的 CC 字段中查找包含指定字符串的消息的字段。 |
+| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询 builder 的默认编码（字符集） |
 | [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | 获取允许在信封结构的 FROM 字段中查找包含指定字符串的消息的字段。 |
 | [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | 获取允许按内部日期查找消息的字段。 |
 | [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | 获取允许按发送日期查找消息的字段。 |
 | [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | 获取允许在信封结构的 SUBJECT 字段中查找包含指定字符串的消息的字段。 |
-| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件头（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
+| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件的标题（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | 获取允许在信封结构的 TO 字段中查找包含指定字符串的消息的字段。 |
 
 ## 方法
@@ -41,11 +41,11 @@ public class MailQueryBuilder
 | 姓名 | 描述 |
 | --- | --- |
 | [GetQuery](../../aspose.email.tools.search/mailquerybuilder/getquery)() | 获取查询。 |
-| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | 搜索匹配任一搜索关键字的消息。提供两个表达式 (OR) 之间的析取。 |
+| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | 搜索与任一搜索键匹配的消息。提供两个表达式之间的析取 (OR). |
 
 ### 评论
 
-注意:默认情况下，结果是所有匹配的消息的交集（AND函数）那些钥匙。 要通过 OR 函数连接键，请使用此类的 Or() 方法
+注意：默认情况下，结果是与这些键匹配的所有消息的交集（AND 函数）。 要通过 OR 函数连接键，请使用此类的 Or() 方法
 
 ### 也可以看看
 

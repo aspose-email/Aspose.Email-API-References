@@ -16,11 +16,11 @@ public MapiMessage CreateCalendarSharingInvitationMessage(string recipient)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| recipient | String | 收件人地址。 |
+| recipient | String | 收件人的地址。 |
 
 ### 返回值
 
-A[`MapiMessage`](../../../aspose.email.mapi/mapimessage)表示分享邀请消息。
+一个[`MapiMessage`](../../../aspose.email.mapi/mapimessage)表示共享邀请消息。
 
 ### 也可以看看
 

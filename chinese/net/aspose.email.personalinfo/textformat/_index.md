@@ -1,14 +1,14 @@
 ---
 title: TextFormat
 second_title: Aspose.Email for .NET API 参考
-description: 定义文本格式
+description: 定义文本的格式
 type: docs
-weight: 19490
+weight: 19520
 url: /zh/net/aspose.email.personalinfo/textformat/
 ---
 ## TextFormat enumeration
 
-定义文本格式。
+定义文本的格式。
 
 ```csharp
 public enum TextFormat

@@ -18,13 +18,13 @@ public enum LayoutType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Nodisplay | `1` | 工作方式类似于 display:none 样式。 |
+| Nodisplay | `1` | 的工作方式类似于 display: none style. |
 | Fixed | `2` |  |
-| Responsive | `3` | 按照纵横比自动填充容器 |
+| Responsive | `3` | 自动填充容器到纵横比 |
 | FixedHeight | `4` | 保持指定高度不变 |
 | Fill | `5` |  |
-| Container | `6` | 让其子级定义其大小，就像普通的 div |
-| Flex | `7` | 类似于 display:flex 样式 |
+| Container | `6` | 让它的孩子定义它的大小，就像一个普通的 div |
+| Flex | `7` | 像 display:flex style 一样工作 |
 | Intrinsic | `8` | 响应直到它达到它的高度和宽度 |
 
 ### 也可以看看

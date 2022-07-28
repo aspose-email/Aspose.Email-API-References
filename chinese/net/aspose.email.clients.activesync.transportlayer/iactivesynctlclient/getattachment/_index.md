@@ -1,14 +1,14 @@
 ---
 title: GetAttachment
 second_title: Aspose.Email for .NET API 参考
-description: GetAttachment 从服务器检索电子邮件附件 协议版本为 14.0 或 14.1 时不支持 GetAttachment 改用 ItemOperations 命令的 Fetch 元素
+description: GetAttachment 从服务器检索电子邮件附件 当协议版本为 14.0 或 14.1 时不支持 GetAttachment 改用 ItemOperations 命令的 Fetch 元素
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/getattachment/
 ---
 ## IActiveSyncTLClient.GetAttachment method
 
-GetAttachment 从服务器检索电子邮件附件。 协议版本为 14.0 或 14.1 时不支持 GetAttachment。 改用 ItemOperations 命令的 Fetch 元素。
+GetAttachment 从服务器检索电子邮件附件。 当协议版本为 14.0 或 14.1 时，不支持 GetAttachment。 改用 ItemOperations 命令的 Fetch 元素。
 
 ```csharp
 public byte[] GetAttachment(string attachmentName)

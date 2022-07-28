@@ -20,7 +20,7 @@ public List<SyncCollectionResponse> Sync(SyncRequest request)
 
 ### 返回值
 
-返回同步的响应列表添加、获取、更改等操作
+返回同步操作的响应列表，例如添加、获取、更改
 
 ### 也可以看看
 

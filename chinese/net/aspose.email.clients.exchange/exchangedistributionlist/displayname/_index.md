@@ -1,14 +1,14 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 列表显示名称
+description: 列表的显示名称
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange/exchangedistributionlist/displayname/
 ---
 ## ExchangeDistributionList.DisplayName property
 
-列表显示名称
+列表的显示名称
 
 ```csharp
 public string DisplayName { get; set; }

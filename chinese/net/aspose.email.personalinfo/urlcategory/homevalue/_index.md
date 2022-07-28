@@ -1,14 +1,14 @@
 ---
 title: HomeValue
 second_title: Aspose.Email for .NET API 参考
-description: Home 类别的字符串值
+description: 家类别的字符串值
 type: docs
 weight: 180
 url: /zh/net/aspose.email.personalinfo/urlcategory/homevalue/
 ---
 ## UrlCategory.HomeValue field
 
-'Home' 类别的字符串值
+“家”类别的字符串值
 
 ```csharp
 public const string HomeValue;

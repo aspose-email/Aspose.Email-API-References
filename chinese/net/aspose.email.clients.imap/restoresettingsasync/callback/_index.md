@@ -1,14 +1,14 @@
 ---
 title: Callback
 second_title: Aspose.Email for .NET API 参考
-description: 引用在相应异步操作完成时要调用的方法
+description: 引用当相应的异步操作完成时要调用的方法
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.imap/restoresettingsasync/callback/
 ---
 ## RestoreSettingsAsync.Callback property
 
-引用在相应异步操作完成时要调用的方法。
+引用当相应的异步操作完成时要调用的方法。
 
 ```csharp
 public AsyncCallback Callback { get; set; }

@@ -27,11 +27,11 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*mboxFileName*为空。 |
+| ArgumentNullException | 如果*mboxFileName*一片空白。 |
 
 ### 评论
 
-此外，可以抛出与FileStream相同的一组异常使用打开/读取、创建/写入模式进行创建。
+此外，可以抛出与 for 相同的一组异常FileStream使用打开/读取、创建/写入模式创建。
 
 ### 也可以看看
 
@@ -55,7 +55,7 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName,
 | --- | --- | --- |
 | mboxFileName | String | mbox 文件的名称。 |
 | pstFileName | String | PST 文件的名称。 |
-| mailHandler | MailHandler | 委托在每条消息上调用 |
+| mailHandler | MailHandler | 代表调用每条消息 |
 
 ### 返回值
 
@@ -65,11 +65,11 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*mboxFileName*为空。 |
+| ArgumentNullException | 如果*mboxFileName*一片空白。 |
 
 ### 评论
 
-此外，可以抛出与FileStream相同的一组异常使用打开/读取、创建/写入模式进行创建。
+此外，可以抛出与 for 相同的一组异常FileStream使用打开/读取、创建/写入模式创建。
 
 ### 也可以看看
 
@@ -102,7 +102,7 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*mboxrdDataStream*为空。 |
+| ArgumentNullException | 如果*mboxrdDataStream*一片空白。 |
 | ArgumentNullException | 如果*pstFileName*为空或为空。 |
 
 ### 也可以看看
@@ -127,7 +127,7 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 | --- | --- | --- |
 | mboxrdDataStream | Stream | mboxrd 数据流。 |
 | pstFileName | String | PST 文件的名称。 |
-| mailHandler | MailHandler | 委托在每条消息上调用 |
+| mailHandler | MailHandler | 代表调用每条消息 |
 
 ### 返回值
 
@@ -137,7 +137,7 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*mboxrdDataStream*为空。 |
+| ArgumentNullException | 如果*mboxrdDataStream*一片空白。 |
 | ArgumentNullException | 如果*pstFileName*为空或为空。 |
 
 ### 也可以看看

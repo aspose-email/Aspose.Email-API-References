@@ -1,14 +1,14 @@
 ---
 title: IMessage
 second_title: Aspose.Email for .NET API 参考
-description: 表示通用消息接口
+description: 表示一个通用的消息接口
 type: docs
 weight: 17590
 url: /zh/net/aspose.email/imessage/
 ---
 ## IMessage interface
 
-表示通用消息接口
+表示一个通用的消息接口
 
 ```csharp
 public interface IMessage
@@ -21,11 +21,11 @@ public interface IMessage
 | [Attachments](../../aspose.email/imessage/attachments) { get; } | 获取邮件附件 |
 | [Bcc](../../aspose.email/imessage/bcc) { get; } | 获取密件抄送收件人 |
 | [Body](../../aspose.email/imessage/body) { get; set; } | 获取或设置消息体 |
-| [BodyType](../../aspose.email/imessage/bodytype) { get; } | 获取正文的类型。 |
+| [BodyType](../../aspose.email/imessage/bodytype) { get; } | 获取 body 的类型。 |
 | [CC](../../aspose.email/imessage/cc) { get; } | 获取抄送收件人 |
 | [Date](../../aspose.email/imessage/date) { get; } | 获取消息传递的日期和时间 |
-| [From](../../aspose.email/imessage/from) { get; set; } | 获取或设置来自地址 |
-| [HtmlBody](../../aspose.email/imessage/htmlbody) { get; set; } | 获取或设置 html 格式的消息正文 |
+| [From](../../aspose.email/imessage/from) { get; set; } | 获取或设置一个来自地址 |
+| [HtmlBody](../../aspose.email/imessage/htmlbody) { get; set; } | 获取或设置一个html格式的消息体 |
 | [Subject](../../aspose.email/imessage/subject) { get; set; } | 获取或设置消息主题 |
 | [To](../../aspose.email/imessage/to) { get; } | 获取收件人 |
 
@@ -33,7 +33,7 @@ public interface IMessage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Save](../../aspose.email/imessage/save#save)(Stream) | 将消息保存到指定流 |
+| [Save](../../aspose.email/imessage/save#save)(Stream) | 将消息保存到指定的流 |
 | [Save](../../aspose.email/imessage/save#save_1)(string) | 将消息保存到指定文件 |
 
 ### 也可以看看

@@ -17,7 +17,7 @@ public bool TryToGetFolderById(string entryIdString, out FolderInfo folder)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | entryIdString | String | 表示条目 ID 的字符串。 |
-| folder | FolderInfo& | 当此方法返回 true 时，包含与指定关联的[`FolderInfo`](../../folderinfo)对象ID。 |
+| folder | FolderInfo& | 当此方法返回 true 时，包含[`FolderInfo`](../../folderinfo)与指定 ID 关联的对象。 |
 
 ### 返回值
 

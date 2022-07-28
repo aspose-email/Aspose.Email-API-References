@@ -1,14 +1,14 @@
 ---
 title: ClientInfoString
 second_title: Aspose.Email for .NET API 参考
-description: 有关用于执行操作的电子邮件客户端的信息例如浏览器版本Outlook 版本和移动设备信息
+description: 用于执行操作的电子邮件客户端的信息例如浏览器版本Outlook 版本和移动设备信息
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activity/exchangemailboxactivity/clientinfostring/
 ---
 ## ExchangeMailboxActivity.ClientInfoString property
 
-有关用于执行操作的电子邮件客户端的信息，例如浏览器版本、Outlook 版本和移动设备信息。
+用于执行操作的电子邮件客户端的信息，例如浏览器版本、Outlook 版本和移动设备信息。
 
 ```csharp
 public string ClientInfoString { get; set; }

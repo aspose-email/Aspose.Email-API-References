@@ -63,7 +63,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, Stream outpu
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | outputStream | Stream | 将保存消息的流 |
 
 ### 也可以看看
@@ -86,7 +86,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, string fileN
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | fileName | String | 消息的文件名 |
 
 ### 也可以看看
@@ -108,7 +108,7 @@ public void SaveMessage(string uniqueId, Stream outputStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 唯一消息 ID |
+| uniqueId | String | 消息的唯一 ID |
 | outputStream | Stream | 将保存消息的流 |
 
 ### 也可以看看
@@ -129,8 +129,8 @@ public void SaveMessage(string uniqueId, string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 唯一消息 ID |
-| fileName | String | 消息文件名 |
+| uniqueId | String | 消息的唯一 ID |
+| fileName | String | 消息的文件名 |
 
 ### 也可以看看
 
@@ -150,7 +150,7 @@ public void SaveMessage(int sequenceNumber, Stream outputStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 序列消息编号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | outputStream | Stream | 将保存消息的流 |
 
 ### 也可以看看
@@ -171,8 +171,8 @@ public void SaveMessage(int sequenceNumber, string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 序列消息编号 |
-| fileName | String | 消息文件名 |
+| sequenceNumber | Int32 | 消息的序号 |
+| fileName | String | 消息的文件名 |
 
 ### 也可以看看
 

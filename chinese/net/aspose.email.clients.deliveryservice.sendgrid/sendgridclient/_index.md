@@ -18,7 +18,7 @@ public class SendGridClient : IDeliveryServiceClient
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SendGridClient](sendgridclient)(string, bool) | 初始化[`SendGridClient`](../sendgridclient)类 的新实例 |
+| [SendGridClient](sendgridclient)(string, bool) | 初始化[`SendGridClient`](../sendgridclient) class |
 
 ## 方法
 

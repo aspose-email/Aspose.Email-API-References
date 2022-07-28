@@ -1,14 +1,14 @@
 ---
 title: MiddleName
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок Middle Name.
+description: Заголовок отчества.
 type: docs
 weight: 230
 url: /ru/net/aspose.email/mhttemplatename.contact/middlename/
 ---
 ## MhtTemplateName.Contact.MiddleName field
 
-Заголовок Middle Name.
+Заголовок отчества.
 
 ```csharp
 public const string MiddleName;

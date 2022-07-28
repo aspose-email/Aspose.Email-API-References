@@ -1,14 +1,14 @@
 ---
 title: ListUnsubscribe
 second_title: Справочник по Aspose.Email для .NET API
-description: Поле List-Unsubscribe описывает команду желательно с использованием почты для прямой отписки пользователя удаление его из списка. Подробнее см. https//tools.ietf.org/html/rfc2369
+description: Поле List-Unsubscribe описывает команду желательно с использованием почты для прямой отмены подписки пользователя удаление его из списка. Подробнее см. https//tools.ietf.org/html/rfc2369
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients/messageinfobase/listunsubscribe/
 ---
 ## MessageInfoBase.ListUnsubscribe property
 
-Поле List-Unsubscribe описывает команду (желательно с использованием почты) для прямой отписки пользователя (удаление его из списка). Подробнее см. https://tools.ietf.org/html/rfc2369
+Поле List-Unsubscribe описывает команду (желательно с использованием почты) для прямой отмены подписки пользователя (удаление его из списка). Подробнее см. https://tools.ietf.org/html/rfc2369
 
 ```csharp
 public string ListUnsubscribe { get; }

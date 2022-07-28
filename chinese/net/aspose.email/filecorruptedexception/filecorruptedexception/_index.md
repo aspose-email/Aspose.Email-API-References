@@ -1,14 +1,14 @@
 ---
 title: FileCorruptedException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FileCorruptedExceptionaspose.email/filecorruptedexception类的新实例
+description: 初始化FileCorruptedExceptionaspose.email/filecorruptedexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/filecorruptedexception/filecorruptedexception/
 ---
 ## FileCorruptedException() {#constructor}
 
-初始化[`FileCorruptedException`](../../filecorruptedexception)类的新实例。
+初始化[`FileCorruptedException`](../../filecorruptedexception)类.
 
 ```csharp
 public FileCorruptedException()
@@ -24,7 +24,7 @@ public FileCorruptedException()
 
 ## FileCorruptedException(string) {#constructor_1}
 
-使用指定的错误消息初始化[`FileCorruptedException`](../../filecorruptedexception)类的新实例。
+初始化[`FileCorruptedException`](../../filecorruptedexception)具有指定错误消息的类。
 
 ```csharp
 public FileCorruptedException(string message)
@@ -44,7 +44,7 @@ public FileCorruptedException(string message)
 
 ## FileCorruptedException(string, Exception) {#constructor_2}
 
-使用指定的错误消息初始化[`FileCorruptedException`](../../filecorruptedexception)类的新实例。
+初始化[`FileCorruptedException`](../../filecorruptedexception)具有指定错误消息的类。
 
 ```csharp
 public FileCorruptedException(string message, Exception inner)

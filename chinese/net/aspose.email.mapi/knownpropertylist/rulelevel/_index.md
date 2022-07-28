@@ -1,14 +1,14 @@
 ---
 title: RuleLevel
 second_title: Aspose.Email for .NET API 参考
-description: 包含 0x00000000不使用此属性 区域服务器端规则属性 规范名称PidTagRuleLevel 备用名称PR_RULE_LEVEL ptagRuleLevel
+description: 包含 0x00000000未使用此属性 区域服务器端规则 Properties 规范名称PidTagRuleLevel 备用名称PR_RULE_LEVELptagRuleLevel
 type: docs
 weight: 16510
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulelevel/
 ---
 ## KnownPropertyList.RuleLevel field
 
-包含 0x00000000。不使用此属性。 区域:服务器端规则属性 规范名称:PidTagRuleLevel 备用名称:PR_RULE_LEVEL, ptagRuleLevel
+包含 0x00000000。未使用此属性。 区域：服务器端规则 Properties 规范名称：PidTagRuleLevel 备用名称：PR_RULE_LEVEL、ptagRuleLevel
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleLevel;

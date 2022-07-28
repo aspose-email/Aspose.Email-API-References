@@ -1,14 +1,14 @@
 ---
 title: Html
 second_title: Aspose.Email for .NET API 参考
-description: 指定文本/html媒体类型
+description: 指定文本/html 媒体类型
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mime/mediatypenames.text/html/
 ---
 ## MediaTypeNames.Text.Html field
 
-指定文本/html媒体类型
+指定文本/html 媒体类型
 
 ```csharp
 public const string Html;

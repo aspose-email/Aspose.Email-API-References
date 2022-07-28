@@ -1,14 +1,14 @@
 ---
 title: EventCategory
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 CustomEventCategoryaspose.email.personalinfo/eventcategory的新实例
+description: 初始化自定义的新实例EventCategoryaspose.email.personalinfo/eventcategory.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo/eventcategory/eventcategory/
 ---
 ## EventCategory constructor
 
-初始化 'Custom'[`EventCategory`](../../eventcategory)的新实例。
+初始化“自定义”的新实例[`EventCategory`](../../eventcategory).
 
 ```csharp
 public EventCategory(string description)
@@ -16,7 +16,7 @@ public EventCategory(string description)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| description | String | 事件“自定义”类别的描述 |
+| description | String | 事件的“自定义”类别的描述 |
 
 ### 也可以看看
 

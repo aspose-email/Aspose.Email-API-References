@@ -1,14 +1,14 @@
 ---
 title: DomesticPartnerValue
 second_title: Aspose.Email for .NET API 参考
-description: DomesticPartner 类别的字符串值
+description: DomesticPartner类别的字符串值
 type: docs
 weight: 260
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/domesticpartnervalue/
 ---
 ## AssociatedPersonCategory.DomesticPartnerValue field
 
-'DomesticPartner' 类别的字符串值
+“DomesticPartner”类别的字符串值
 
 ```csharp
 public const string DomesticPartnerValue;

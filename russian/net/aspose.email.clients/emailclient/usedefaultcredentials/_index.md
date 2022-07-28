@@ -1,14 +1,14 @@
 ---
 title: UseDefaultCredentials
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает логическое значение которое определяет отправляются ли DefaultCredentials с запросами. Эта опция используется ТОЛЬКО с аутентификацией NTLM
+description: Получает или задает логическое значение которое определяет отправляются ли DefaultCredentials с запросами. Этот параметр используется ТОЛЬКО с проверкой подлинности NTLM
 type: docs
 weight: 220
 url: /ru/net/aspose.email.clients/emailclient/usedefaultcredentials/
 ---
 ## EmailClient.UseDefaultCredentials property
 
-Получает или задает логическое значение, которое определяет, отправляются ли DefaultCredentials с запросами. Эта опция используется ТОЛЬКО с аутентификацией NTLM!
+Получает или задает логическое значение, которое определяет, отправляются ли DefaultCredentials с запросами. Этот параметр используется ТОЛЬКО с проверкой подлинности NTLM!
 
 ```csharp
 public virtual bool UseDefaultCredentials { get; set; }

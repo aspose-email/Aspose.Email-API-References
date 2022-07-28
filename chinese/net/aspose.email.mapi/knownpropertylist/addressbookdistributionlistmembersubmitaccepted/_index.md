@@ -1,14 +1,14 @@
 ---
 title: AddressBookDistributionListMemberSubmitAccepted
 second_title: Aspose.Email for .NET API 参考
-description: 表示收件人存在递送限制 区域地址簿 规范名称PidTagAddressBookDistributionListMemberSubmitAccepted 备用名称PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O
+description: 表示收件人存在递送限制 区域地址簿 规范名称PidTagAddressBookDistributionListMemberSubmitAccepted 替代名称PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O
 type: docs
 weight: 410
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistmembersubmitaccepted/
 ---
 ## KnownPropertyList.AddressBookDistributionListMemberSubmitAccepted field
 
-表示收件人存在递送限制。 区域:地址簿 规范名称:PidTagAddressBookDistributionListMemberSubmitAccepted 备用名称:PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O
+表示收件人存在递送限制。 区域：地址簿 规范名称：PidTagAddressBookDistributionListMemberSubmitAccepted 替代名称：PR_EMS_AB_DL_MEM_SUBMIT_PERMS_BL_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDistributionListMemberSubmitAccepted;

@@ -1,14 +1,14 @@
 ---
 title: AddressBookIsMaster
 second_title: Aspose.Email for .NET API 参考
-description: 如果可以在该容器中创建通讯簿对象则包含布尔值 TRUE否则为 FALSE 区域地址簿 规范名称PidTagAddressBookIsMaster 替代名称PR_EMS_AB_IS_MASTER
+description: 如果可以在该容器中创建通讯簿对象则包含布尔值 TRUE否则为 FALSE 区域地址簿 规范名称PidTagAddressBookIsMaster 备用名称PR_EMS_AB_IS_MASTER
 type: docs
 weight: 680
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookismaster/
 ---
 ## KnownPropertyList.AddressBookIsMaster field
 
-如果可以在该容器中创建通讯簿对象，则包含布尔值 TRUE，否则为 FALSE。 区域:地址簿 规范名称:PidTagAddressBookIsMaster 替代名称:PR_EMS_AB_IS_MASTER
+如果可以在该容器中创建通讯簿对象，则包含布尔值 TRUE，否则为 FALSE。 区域：地址簿 规范名称：PidTagAddressBookIsMaster 备用名称：PR_EMS_AB_IS_MASTER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookIsMaster;

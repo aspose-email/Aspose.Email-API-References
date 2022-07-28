@@ -16,7 +16,7 @@ public static OlmStorage FromStream(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | System.IO.Stream。 |
+| stream | Stream | System.IO.Stream. |
 
 ### 返回值
 

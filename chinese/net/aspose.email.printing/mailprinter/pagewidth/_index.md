@@ -1,14 +1,14 @@
 ---
 title: PageWidth
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置页面宽度
+description: 获取或设置页面的宽度
 type: docs
 weight: 120
 url: /zh/net/aspose.email.printing/mailprinter/pagewidth/
 ---
 ## MailPrinter.PageWidth property
 
-获取或设置页面宽度。
+获取或设置页面的宽度。
 
 ```csharp
 public double PageWidth { get; set; }
@@ -16,7 +16,7 @@ public double PageWidth { get; set; }
 
 ### 适当的价值
 
-页面宽度。
+页面的宽度。
 
 ### 例外
 

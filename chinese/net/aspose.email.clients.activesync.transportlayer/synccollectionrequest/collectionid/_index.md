@@ -1,14 +1,14 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API 参考
-description: 指定要同步的文件夹的服务器ID
+description: 指定要同步的文件夹的服务器 ID
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/collectionid/
 ---
 ## SyncCollectionRequest.CollectionId property
 
-指定要同步的文件夹的服务器ID。
+指定要同步的文件夹的服务器 ID。
 
 ```csharp
 public string CollectionId { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FileCorruptedException
 second_title: Справочник по Aspose.Email для .NET API
-description: Исключение возникающее при чтении файла когда файл оказывается поврежденным и невозможным для чтения.
+description: Исключение возникающее при чтении файла  когда файл кажется поврежденным и его невозможно прочитать.
 type: docs
 weight: 17450
 url: /ru/net/aspose.email/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-Исключение, возникающее при чтении файла, когда файл оказывается поврежденным и невозможным для чтения.
+Исключение, возникающее при чтении файла, , когда файл кажется поврежденным и его невозможно прочитать.
 
 ```csharp
 public class FileCorruptedException : AsposeException
@@ -18,9 +18,9 @@ public class FileCorruptedException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [FileCorruptedException](filecorruptedexception#constructor)() | Инициализирует новый экземпляр класса[`FileCorruptedException`](../filecorruptedexception). |
-| [FileCorruptedException](filecorruptedexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`FileCorruptedException`](../filecorruptedexception)с указанным сообщением об ошибке. |
-| [FileCorruptedException](filecorruptedexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`FileCorruptedException`](../filecorruptedexception)с указанным сообщением об ошибке. |
+| [FileCorruptedException](filecorruptedexception#constructor)() | Инициализирует новый экземпляр[`FileCorruptedException`](../filecorruptedexception) класс. |
+| [FileCorruptedException](filecorruptedexception#constructor_1)(string) | Инициализирует новый экземпляр[`FileCorruptedException`](../filecorruptedexception) класс с указанным сообщением об ошибке. |
+| [FileCorruptedException](filecorruptedexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`FileCorruptedException`](../filecorruptedexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

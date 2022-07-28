@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/common/
 ---
 ## KnownPropertySets.Common field
 
-区域名称:Common 属性集名称:PSETID_Common
+区域名称：Common 属性集名称：PSETID_Common
 
 ```csharp
 public static readonly Guid Common;

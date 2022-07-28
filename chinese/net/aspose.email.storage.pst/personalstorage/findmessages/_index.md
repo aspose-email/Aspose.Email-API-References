@@ -20,7 +20,7 @@ public IList<string> FindMessages(string parentEntryId)
 
 ### 返回值
 
-条目 ID 集合。
+条目 ID 的集合。
 
 ### 也可以看看
 

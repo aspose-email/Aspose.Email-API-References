@@ -3,7 +3,7 @@ title: TemplateRoutine
 second_title: Aspose.Email for .NET API 参考
 description: 表示模板文件中使用的例程
 type: docs
-weight: 20560
+weight: 20610
 url: /zh/net/aspose.email.tools.merging/templateroutine/
 ---
 ## TemplateRoutine delegate
@@ -20,7 +20,7 @@ public delegate object TemplateRoutine(object[] args);
 
 ### 返回值
 
-运算结果
+运行结果
 
 ### 也可以看看
 

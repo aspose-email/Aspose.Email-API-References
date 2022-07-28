@@ -1,14 +1,14 @@
 ---
 title: ProfileOptionsData
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROFILE_OPTIONS_DATA
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_PROFILE_OPTIONS_DATA
 type: docs
 weight: 14860
 url: /zh/net/aspose.email.mapi/knownpropertylist/profileoptionsdata/
 ---
 ## KnownPropertyList.ProfileOptionsData field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROFILE_OPTIONS_DATA
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_PROFILE_OPTIONS_DATA
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileOptionsData;

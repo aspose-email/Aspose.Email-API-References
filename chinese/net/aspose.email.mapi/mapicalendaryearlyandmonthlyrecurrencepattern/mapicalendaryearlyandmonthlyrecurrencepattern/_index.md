@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarYearlyAndMonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiCalendarYearlyAndMonthlyRecurrencePatternaspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern 类的新实例
+description: 初始化MapiCalendarYearlyAndMonthlyRecurrencePatternaspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/mapicalendaryearlyandmonthlyrecurrencepattern/
 ---
 ## MapiCalendarYearlyAndMonthlyRecurrencePattern constructor
 
-初始化 [`MapiCalendarYearlyAndMonthlyRecurrencePattern`](../../mapicalendaryearlyandmonthlyrecurrencepattern) 类的新实例
+初始化[`MapiCalendarYearlyAndMonthlyRecurrencePattern`](../../mapicalendaryearlyandmonthlyrecurrencepattern) class
 
 ```csharp
 public MapiCalendarYearlyAndMonthlyRecurrencePattern()

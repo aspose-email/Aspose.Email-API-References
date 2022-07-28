@@ -1,14 +1,14 @@
 ---
 title: CC
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置地址集合 包含抄送收件人
+description: 获取或设置包含抄送收件人的地址集合
 type: docs
 weight: 90
 url: /zh/net/aspose.email/mailmessage/cc/
 ---
 ## MailMessage.CC property
 
-获取或设置地址集合 包含抄送收件人
+获取或设置包含抄送收件人的地址集合
 
 ```csharp
 public virtual MailAddressCollection CC { get; set; }

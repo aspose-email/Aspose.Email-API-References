@@ -3,7 +3,7 @@ title: StartTimeZone
 second_title: Справочник по Aspose.Email для .NET API
 description: Начальный часовой пояс
 type: docs
-weight: 240
+weight: 250
 url: /ru/net/aspose.email.calendar/appointment/starttimezone/
 ---
 ## Appointment.StartTimeZone property

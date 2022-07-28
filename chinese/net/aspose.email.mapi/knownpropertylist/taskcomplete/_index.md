@@ -1,14 +1,14 @@
 ---
 title: TaskComplete
 second_title: Aspose.Email for .NET API 参考
-description: 表示任务完成 区域任务 规范名称PidLidTaskComplete 替代名称dispidTaskComplete
+description: 表示任务已完成 区域Tasks 规范名称PidLidTaskComplete 替代名称dispidTaskComplete
 type: docs
 weight: 18580
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskcomplete/
 ---
 ## KnownPropertyList.TaskComplete field
 
-表示任务完成。 区域:任务 规范名称:PidLidTaskComplete 替代名称:dispidTaskComplete
+表示任务已完成。 区域：Tasks 规范名称：PidLidTaskComplete 替代名称：dispidTaskComplete
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskComplete;

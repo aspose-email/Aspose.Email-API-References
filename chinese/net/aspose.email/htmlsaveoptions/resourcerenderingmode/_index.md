@@ -1,14 +1,14 @@
 ---
 title: ResourceRenderingMode
 second_title: Aspose.Email for .NET API 参考
-description: 提供设置各种html渲染资源模式 默认值 EmbedIntoHtml
+description: 提供设置html中渲染资源的各种模式 默认值EmbedIntoHtml.
 type: docs
 weight: 40
 url: /zh/net/aspose.email/htmlsaveoptions/resourcerenderingmode/
 ---
 ## HtmlSaveOptions.ResourceRenderingMode property
 
-提供设置各种html渲染资源模式。 默认值 EmbedIntoHtml。
+提供设置html中渲染资源的各种模式。 默认值EmbedIntoHtml.
 
 ```csharp
 public ResourceRenderingMode ResourceRenderingMode { get; set; }

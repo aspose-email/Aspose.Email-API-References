@@ -16,18 +16,18 @@ public static MapiMessage LoadFromTnef(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 表示 TNEF 格式的消息数据的流 |
+| stream | Stream | 以 TNEF 格式表示消息数据的流 |
 
 ### 返回值
 
-读取[`MapiMessage`](../../mapimessage)
+一读[`MapiMessage`](../../mapimessage)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*不支持读取 |
+| ArgumentNullException | *stream*是`无效的` |
+| NotSupportedException | *stream*不支持阅读 |
 
 ### 也可以看看
 
@@ -51,13 +51,13 @@ public static MapiMessage LoadFromTnef(string fileName)
 
 ### 返回值
 
-读取[`MapiMessage`](../../mapimessage)
+一读[`MapiMessage`](../../mapimessage)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *fileName*is` null` 或` 空` |
+| ArgumentException | *fileName*是`无效的`或者`空的` |
 
 ### 也可以看看
 

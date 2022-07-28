@@ -1,14 +1,14 @@
 ---
 title: IsPasswordValid
 second_title: Aspose.Email for .NET API 参考
-description: 确定指定的字符串是否是有效的存储密码
+description: 确定指定的字符串是否是存储的有效密码
 type: docs
 weight: 60
 url: /zh/net/aspose.email.storage.pst/messagestore/ispasswordvalid/
 ---
 ## MessageStore.IsPasswordValid method
 
-确定指定的字符串是否是有效的存储密码。
+确定指定的字符串是否是存储的有效密码。
 
 ```csharp
 public bool IsPasswordValid(string password)

@@ -1,14 +1,14 @@
 ---
 title: MaxItems
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает максимальное количество элементов которые необходимо включить в ответ.
+description: Указывает максимальное количество элементов для включения в ответ.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemestimateoptions/maxitems/
 ---
 ## ItemEstimateOptions.MaxItems property
 
-Задает максимальное количество элементов, которые необходимо включить в ответ.
+Указывает максимальное количество элементов для включения в ответ.
 
 ```csharp
 public int? MaxItems { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: BusinessCardDisplayDefinition
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于将联系人显示为名片的用户自定义详细信息 区域联系人属性 规范名称PidLidBusinessCardDisplayDefinition 替代名称dispidBCDisplayDefinition
+description: 包含用于将联系人显示为名片的用户自定义详细信息 区域联系人属性 规范名称PidLidBusinessCardDisplayDefinition 备用名称dispidBCDisplayDefinition
 type: docs
 weight: 2110
 url: /zh/net/aspose.email.mapi/knownpropertylist/businesscarddisplaydefinition/
 ---
 ## KnownPropertyList.BusinessCardDisplayDefinition field
 
-包含用于将联系人显示为名片的用户自定义详细信息。 区域:联系人属性 规范名称:PidLidBusinessCardDisplayDefinition 替代名称:dispidBCDisplayDefinition
+包含用于将联系人显示为名片的用户自定义详细信息。 区域：联系人属性 规范名称：PidLidBusinessCardDisplayDefinition 备用名称：dispidBCDisplayDefinition
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BusinessCardDisplayDefinition;

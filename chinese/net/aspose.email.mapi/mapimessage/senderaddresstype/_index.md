@@ -1,14 +1,14 @@
 ---
 title: SenderAddressType
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮件发件人的电子邮件地址类型
+description: 获取消息发送者的电子邮件地址类型
 type: docs
 weight: 220
 url: /zh/net/aspose.email.mapi/mapimessage/senderaddresstype/
 ---
 ## MapiMessage.SenderAddressType property
 
-获取邮件发件人的电子邮件地址类型。
+获取消息发送者的电子邮件地址类型。
 
 ```csharp
 public string SenderAddressType { get; }
@@ -16,7 +16,7 @@ public string SenderAddressType { get; }
 
 ### 适当的价值
 
-表示发件人地址类型的字符串。
+代表发送者地址类型的字符串。
 
 ### 也可以看看
 

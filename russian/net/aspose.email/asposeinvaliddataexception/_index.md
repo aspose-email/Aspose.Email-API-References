@@ -1,14 +1,14 @@
 ---
 title: AsposeInvalidDataException
 second_title: Справочник по Aspose.Email для .NET API
-description: Исключение возникающее когда один из аргументов предоставленных методу недействителен.
+description: Исключение которое возникает когда один из аргументов предоставленных методу недействителен.
 type: docs
 weight: 310
 url: /ru/net/aspose.email/asposeinvaliddataexception/
 ---
 ## AsposeInvalidDataException class
 
-Исключение, возникающее, когда один из аргументов, предоставленных методу, недействителен.
+Исключение, которое возникает, когда один из аргументов, предоставленных методу, недействителен.
 
 ```csharp
 public class AsposeInvalidDataException : AsposeException
@@ -18,11 +18,11 @@ public class AsposeInvalidDataException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeInvalidDataException](asposeinvaliddataexception#constructor)() | Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../asposeinvaliddataexception). |
-| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../asposeinvaliddataexception) со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../asposeinvaliddataexception)с указанным сообщением об ошибке. |
-| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../asposeinvaliddataexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр класса[`AsposeInvalidDataException`](../asposeinvaliddataexception)с указанным сообщением об ошибке. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor)() | Инициализирует новый экземпляр[`AsposeInvalidDataException`](../asposeinvaliddataexception) класс. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`AsposeInvalidDataException`](../asposeinvaliddataexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_2)(string) | Инициализирует новый экземпляр[`AsposeInvalidDataException`](../asposeinvaliddataexception) класс с указанным сообщением об ошибке. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`AsposeInvalidDataException`](../asposeinvaliddataexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр[`AsposeInvalidDataException`](../asposeinvaliddataexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

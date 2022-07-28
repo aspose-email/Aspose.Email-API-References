@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.amp/ampattributes/media/
 ---
 ## AmpAttributes.Media property
 
-media 的值是一个媒体查询。如果查询不匹配，则不会渲染元素，并且不会获取其资源以及可能的子资源。如果浏览器窗口改变大小或方向，则重新评估媒体查询，并根据新结果隐藏和显示元素。
+media 的值是一个媒体查询。如果查询不匹配，则不会渲染元素，并且不会获取其资源以及可能的子资源。如果浏览器窗口改变大小或方向，则重新评估媒体查询并根据新结果隐藏和显示元素。
 
 ```csharp
 public string Media { get; set; }

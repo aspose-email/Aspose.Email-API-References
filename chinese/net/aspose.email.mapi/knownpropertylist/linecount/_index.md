@@ -1,14 +1,14 @@
 ---
 title: LineCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件中的行数 区域普通 规范名称PidNameLineCount 备用名称urnschemas-microsoft-comofficeofficeLines
+description: 指定附加到文档对象的文件中的行数 区域Common 规范名称PidNameLineCount 替代名称urnschemas-microsoft-comofficeofficeLines
 type: docs
 weight: 12090
 url: /zh/net/aspose.email.mapi/knownpropertylist/linecount/
 ---
 ## KnownPropertyList.LineCount field
 
-指定附加到 Document 对象的文件中的行数。 区域：普通 规范名称：PidNameLineCount 备用名称：urn:schemas-microsoft-com:office:office#Lines
+指定附加到文档对象的文件中的行数。 区域：Common 规范名称：PidNameLineCount 替代名称：urn:schemas-microsoft-com:office:office#Lines
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LineCount;

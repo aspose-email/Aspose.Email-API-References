@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapfolderinfo/subscribed/
 ---
 ## ImapFolderInfo.Subscribed property
 
-获取指示已订阅文件夹名称的值。 查看更多:http://tools.ietf.org/html/rfc5258
+获取指示已订阅文件夹名称的值。 查看更多：http://tools.ietf.org/html/rfc5258
 
 ```csharp
 public bool Subscribed { get; }

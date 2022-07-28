@@ -1,14 +1,14 @@
 ---
 title: CC
 second_title: Aspose.Email for .NET API 参考
-description: 邮件抄送行上的电子邮件地址集合 强制是
+description: 邮件抄送行中的电子邮件地址集合 强制是
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activity/exchangemetadata/cc/
 ---
 ## ExchangeMetadata.CC property
 
-邮件抄送行上的电子邮件地址集合。 强制:是
+邮件抄送行中的电子邮件地址集合。 强制：是
 
 ```csharp
 public string[] CC { get; set; }

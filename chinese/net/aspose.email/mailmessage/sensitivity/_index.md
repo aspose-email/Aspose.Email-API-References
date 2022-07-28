@@ -1,14 +1,14 @@
 ---
 title: Sensitivity
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置消息的敏感度
+description: 获取或设置message 的敏感度
 type: docs
 weight: 310
 url: /zh/net/aspose.email/mailmessage/sensitivity/
 ---
 ## MailMessage.Sensitivity property
 
-获取或设置消息的敏感度
+获取或设置message 的敏感度
 
 ```csharp
 public virtual MailSensitivity Sensitivity { get; set; }

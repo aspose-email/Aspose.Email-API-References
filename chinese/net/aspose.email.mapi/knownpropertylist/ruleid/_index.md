@@ -1,14 +1,14 @@
 ---
 title: RuleId
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息服务器在首次创建规则时为每个规则生成的唯一标识符 区域服务器端规则属性 规范名称PidTagRuleId 备用名称PR_RULE_ID ptagRuleId
+description: 指定消息服务器在首次创建规则时为每个规则生成的唯一标识符 区域服务器端规则属性 规范名称PidTagRuleId 备用名称PR_RULE_IDptagRuleId
 type: docs
 weight: 16490
 url: /zh/net/aspose.email.mapi/knownpropertylist/ruleid/
 ---
 ## KnownPropertyList.RuleId field
 
-指定消息服务器在首次创建规则时为每个规则生成的唯一标识符。 区域:服务器端规则属性 规范名称:PidTagRuleId 备用名称:PR_RULE_ID, ptagRuleId
+指定消息服务器在首次创建规则时为每个规则生成的唯一标识符。 区域：服务器端规则属性 规范名称：PidTagRuleId 备用名称：PR_RULE_ID、ptagRuleId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleId;

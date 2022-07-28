@@ -18,7 +18,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction = false,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | Boolean | 连接到服务器 |
-| closeTransaction | IConnection | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | IConnection | 指示在检索列表之前是否必须关闭当前事务。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值

@@ -19,8 +19,8 @@ public class ImapMonitoringErrorEventArgs : EventArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [Error](../../aspose.email.clients.imap/imapmonitoringerroreventargs/error) { get; } | IMAP 监控错误。 |
-| [FolderName](../../aspose.email.clients.imap/imapmonitoringerroreventargs/foldername) { get; } | 监控操作的指定文件夹。 |
-| [MonitoringState](../../aspose.email.clients.imap/imapmonitoringerroreventargs/monitoringstate) { get; } | 保持文件夹监视状态。此对象可用于从 发生错误时停止的位置恢复文件夹监视。 使用[`ResumeMonitoring`](../imapclient/resumemonitoring)方法。 |
+| [FolderName](../../aspose.email.clients.imap/imapmonitoringerroreventargs/foldername) { get; } | 监视操作的指定文件夹。 |
+| [MonitoringState](../../aspose.email.clients.imap/imapmonitoringerroreventargs/monitoringstate) { get; } | 保持文件夹监视状态。此对象可用于从 发生错误时停止的位置恢复文件夹监视。 使用[`ResumeMonitoring`](../imapclient/resumemonitoring)方法. |
 
 ### 也可以看看
 

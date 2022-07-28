@@ -1,14 +1,14 @@
 ---
 title: EmsAbGatewayRoutingTree
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_GATEWAY_ROUTING_TREE
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_GATEWAY_ROUTING_TREE
 type: docs
 weight: 6390
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabgatewayroutingtree/
 ---
 ## KnownPropertyList.EmsAbGatewayRoutingTree field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_GATEWAY_ROUTING_TREE
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_GATEWAY_ROUTING_TREE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbGatewayRoutingTree;

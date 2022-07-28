@@ -1,14 +1,14 @@
 ---
 title: UserDisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает отображаемое имя пользователя связанного с данной учетной записью. Значение UserDisplayName может иметь длину до 512 символов. UserDisplayName не поддерживается если используется версия протокола 12.1 или 14.0.
+description: Указывает отображаемое имя пользователя связанного с данной учетной записью. Значение UserDisplayName может иметь длину до 512 символов. UserDisplayName не поддерживается при версии протокола 12.1 или 14.0.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activesync.transportlayer/accountinformation/userdisplayname/
 ---
 ## AccountInformation.UserDisplayName property
 
-Задает отображаемое имя пользователя, связанного с данной учетной записью. Значение UserDisplayName может иметь длину до 512 символов. UserDisplayName не поддерживается, если используется версия протокола 12.1 или 14.0.
+Указывает отображаемое имя пользователя, связанного с данной учетной записью. Значение UserDisplayName может иметь длину до 512 символов. UserDisplayName не поддерживается при версии протокола 12.1 или 14.0.
 
 ```csharp
 public string UserDisplayName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CollaborateDoc
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户加入会议时要启动的文档 区域会议 规范名称PidLidCollaborateDoc 替代名称dispidCollaborateDoc
+description: 指定用户加入会议时要启动的文档 区域Conferencing 规范名称PidLidCollaborateDoc 备用名称dispidCollaborateDoc
 type: docs
 weight: 2740
 url: /zh/net/aspose.email.mapi/knownpropertylist/collaboratedoc/
 ---
 ## KnownPropertyList.CollaborateDoc field
 
-指定用户加入会议时要启动的文档。 区域:会议 规范名称:PidLidCollaborateDoc 替代名称:dispidCollaborateDoc
+指定用户加入会议时要启动的文档。 区域：Conferencing 规范名称：PidLidCollaborateDoc 备用名称：dispidCollaborateDoc
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CollaborateDoc;

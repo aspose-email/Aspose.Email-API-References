@@ -1,14 +1,14 @@
 ---
 title: ParentFolder
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息的父文件夹
+description: 获取 message 的父文件夹
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.imap/imapmessageinfo/parentfolder/
 ---
 ## ImapMessageInfo.ParentFolder property
 
-获取消息的父文件夹
+获取 message 的父文件夹
 
 ```csharp
 public string ParentFolder { get; }

@@ -1,14 +1,14 @@
 ---
 title: MapiContactPhoto
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiContactPhotoaspose.email.mapi/mapicontactphoto 类的新实例
+description: 初始化MapiContactPhotoaspose.email.mapi/mapicontactphoto class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontactphoto/mapicontactphoto/
 ---
 ## MapiContactPhoto constructor
 
-初始化 [`MapiContactPhoto`](../../mapicontactphoto) 类的新实例
+初始化[`MapiContactPhoto`](../../mapicontactphoto) class
 
 ```csharp
 public MapiContactPhoto(byte[] data, MapiContactPhotoImageFormat photoImageFormat)
@@ -17,7 +17,7 @@ public MapiContactPhoto(byte[] data, MapiContactPhotoImageFormat photoImageForma
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | data | Byte[] | 照片的图像数据。 |
-| photoImageFormat | MapiContactPhotoImageFormat | 照片的图像格式[`MapiContactPhotoImageFormat`](../../mapicontactphotoimageformat) . |
+| photoImageFormat | MapiContactPhotoImageFormat | 照片的图像格式[`MapiContactPhotoImageFormat`](../../mapicontactphotoimageformat). |
 
 ### 也可以看看
 

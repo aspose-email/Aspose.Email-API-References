@@ -1,14 +1,14 @@
 ---
 title: AccountId
 second_title: Aspose.Email for .NET API 参考
-description: 标识一个帐户 PrimarySmtpAddress 元素标识的主帐户没有 AccountId 值 协议版本为 12.1 或 14.0 时不支持 AccountId
+description: 标识一个账户 由 PrimarySmtpAddress 元素标识的主账户没有 AccountId 值 当协议版本为 12.1 或 14.0 时不支持 AccountId
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/accountinformation/accountid/
 ---
 ## AccountInformation.AccountId property
 
-标识一个帐户。 PrimarySmtpAddress 元素标识的主帐户没有 AccountId 值。 协议版本为 12.1 或 14.0 时不支持 AccountId。
+标识一个账户。 由 PrimarySmtpAddress 元素标识的主账户没有 AccountId 值。 当协议版本为 12.1 或 14.0 时，不支持 AccountId。
 
 ```csharp
 public string AccountId { get; set; }

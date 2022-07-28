@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API 参考
-description: 对象的字符串表示
+description: 对象的字符串表示形式
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.imap/esearchoptions/tostring/
 ---
 ## ESearchOptions.ToString method
 
-对象的字符串表示
+对象的字符串表示形式
 
 ```csharp
 public override string ToString()

@@ -25,9 +25,9 @@ public class ExchangeItem
 | 姓名 | 描述 |
 | --- | --- |
 | [Attachments](../../aspose.email.clients.activity/exchangeitem/attachments) { get; set; } | 附在邮件中的所有项目的名称和文件大小的列表。 |
-| [Id](../../aspose.email.clients.activity/exchangeitem/id) { get; set; } | 商店 ID。 |
+| [Id](../../aspose.email.clients.activity/exchangeitem/id) { get; set; } | 商店 ID. |
 | [ParentFolder](../../aspose.email.clients.activity/exchangeitem/parentfolder) { get; set; } | 项目所在文件夹的名称。 |
-| [Subject](../../aspose.email.clients.activity/exchangeitem/subject) { get; set; } | 被访问的消息的主题行。 |
+| [Subject](../../aspose.email.clients.activity/exchangeitem/subject) { get; set; } | 被访问的邮件的主题行。 |
 
 ### 也可以看看
 

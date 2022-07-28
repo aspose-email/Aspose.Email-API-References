@@ -1,14 +1,14 @@
 ---
 title: LastPrinted
 second_title: Aspose.Email for .NET API 参考
-description: 以 UTC 格式指定文件最后打印的时间 区域普通 规范名称PidNameLastPrinted 替代名称urnschemas-microsoft-comofficeofficeLastPrinted
+description: 指定上次打印文件的时间以 UTC 为单位 区域Common 规范名称PidNameLastPrinted 替代名称urnschemas-microsoft-comofficeofficeLastPrinted
 type: docs
 weight: 12040
 url: /zh/net/aspose.email.mapi/knownpropertylist/lastprinted/
 ---
 ## KnownPropertyList.LastPrinted field
 
-以 UTC 格式指定文件最后打印的时间。 区域：普通 规范名称：PidNameLastPrinted 替代名称：urn:schemas-microsoft-com:office:office#LastPrinted
+指定上次打印文件的时间（以 UTC 为单位）。 区域：Common 规范名称：PidNameLastPrinted 替代名称：urn:schemas-microsoft-com:office:office#LastPrinted
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LastPrinted;

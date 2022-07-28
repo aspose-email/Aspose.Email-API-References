@@ -1,14 +1,14 @@
 ---
 title: Bcc
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает коллекцию адресов  содержащую получателей скрытой копии сообщения
+description: Получает или задает коллекцию адресов  содержащую получателей скрытой копии сообщения message .
 type: docs
 weight: 50
 url: /ru/net/aspose.email/mailmessage/bcc/
 ---
 ## MailMessage.Bcc property
 
-Получает или задает коллекцию адресов , содержащую получателей скрытой копии сообщения
+Получает или задает коллекцию адресов , содержащую получателей скрытой копии сообщения message .
 
 ```csharp
 public virtual MailAddressCollection Bcc { get; set; }

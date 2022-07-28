@@ -3,7 +3,7 @@ title: PhoneNumberCategory
 second_title: Aspose.Email for .NET API 参考
 description: 代表电话号码的类别
 type: docs
-weight: 19440
+weight: 19470
 url: /zh/net/aspose.email.personalinfo/phonenumbercategory/
 ---
 ## PhoneNumberCategory class
@@ -18,7 +18,7 @@ public class PhoneNumberCategory : IEquatable<PhoneNumberCategory>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PhoneNumberCategory](phonenumbercategory)(string) | 使用“自定义”类别初始化[`PhoneNumberCategory`](../phonenumbercategory)类的新实例。 |
+| [PhoneNumberCategory](phonenumbercategory)(string) | 初始化[`PhoneNumberCategory`](../phonenumbercategory)具有“自定义”类别的类。 |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public class PhoneNumberCategory : IEquatable<PhoneNumberCategory>
 | static [Callback](../../aspose.email.personalinfo/phonenumbercategory/callback) { get; } | 回拨电话号码 |
 | static [Car](../../aspose.email.personalinfo/phonenumbercategory/car) { get; } | 车载电话号码 |
 | static [Company](../../aspose.email.personalinfo/phonenumbercategory/company) { get; } | 公司电话号码 |
-| static [Custom](../../aspose.email.personalinfo/phonenumbercategory/custom) { get; } | 自定义电话类别 |
+| static [Custom](../../aspose.email.personalinfo/phonenumbercategory/custom) { get; } | 自定义手机类别 |
 | static [Fax](../../aspose.email.personalinfo/phonenumbercategory/fax) { get; } | 传真号码 |
 | static [Home](../../aspose.email.personalinfo/phonenumbercategory/home) { get; } | 家庭电话号码 |
 | static [HomeFax](../../aspose.email.personalinfo/phonenumbercategory/homefax) { get; } | 家庭传真号码 |
@@ -50,32 +50,32 @@ public class PhoneNumberCategory : IEquatable<PhoneNumberCategory>
 | 姓名 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.email.personalinfo/phonenumbercategory/equals#equals_1)(object) | 判断指定Object是否等于当前Object。 |
-| virtual [Equals](../../aspose.email.personalinfo/phonenumbercategory/equals#equals)(PhoneNumberCategory) | 判断指定对象是否等于当前对象。 |
+| virtual [Equals](../../aspose.email.personalinfo/phonenumbercategory/equals#equals)(PhoneNumberCategory) | 判断指定对象是否等于当前对象 |
 | override [GetHashCode](../../aspose.email.personalinfo/phonenumbercategory/gethashcode)() | GetHashCode 返回此对象的哈希函数。 |
 | override [ToString](../../aspose.email.personalinfo/phonenumbercategory/tostring)() | 返回代表当前对象的字符串。 |
-| [operator ==](../../aspose.email.personalinfo/phonenumbercategory/op_equality) | 判断指定对象是否相等。 |
-| [operator !=](../../aspose.email.personalinfo/phonenumbercategory/op_inequality) | 判断指定对象是否不相等。 |
+| [operator ==](../../aspose.email.personalinfo/phonenumbercategory/op_equality) | 判断指定对象是否相等 |
+| [operator !=](../../aspose.email.personalinfo/phonenumbercategory/op_inequality) | 判断指定的对象是否不相等。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [AssistantValue](../../aspose.email.personalinfo/phonenumbercategory/assistantvalue) | 'Assistant' 类别的字符串值 |
+| const [AssistantValue](../../aspose.email.personalinfo/phonenumbercategory/assistantvalue) | “助理”类别的字符串值 |
 | const [CallbackValue](../../aspose.email.personalinfo/phonenumbercategory/callbackvalue) | “回调”类别的字符串值 |
 | const [CarValue](../../aspose.email.personalinfo/phonenumbercategory/carvalue) | “汽车”类别的字符串值 |
 | const [CompanyValue](../../aspose.email.personalinfo/phonenumbercategory/companyvalue) | “公司”类别的字符串值 |
 | const [CustomValue](../../aspose.email.personalinfo/phonenumbercategory/customvalue) | “自定义”类别的字符串值 |
 | const [FaxValue](../../aspose.email.personalinfo/phonenumbercategory/faxvalue) | “传真”类别的字符串值 |
 | const [HomeFaxValue](../../aspose.email.personalinfo/phonenumbercategory/homefaxvalue) | “传真”类别的字符串值 |
-| const [HomeValue](../../aspose.email.personalinfo/phonenumbercategory/homevalue) | 'Home' 类别的字符串值 |
-| const [IsdnValue](../../aspose.email.personalinfo/phonenumbercategory/isdnvalue) | 'Isdn' 类别的字符串值 |
-| const [MobileValue](../../aspose.email.personalinfo/phonenumbercategory/mobilevalue) | 'Mobile' 类别的字符串值 |
-| const [OfficeValue](../../aspose.email.personalinfo/phonenumbercategory/officevalue) | 'Office' 类别的字符串值 |
+| const [HomeValue](../../aspose.email.personalinfo/phonenumbercategory/homevalue) | “家”类别的字符串值 |
+| const [IsdnValue](../../aspose.email.personalinfo/phonenumbercategory/isdnvalue) | “Isdn”类别的字符串值 |
+| const [MobileValue](../../aspose.email.personalinfo/phonenumbercategory/mobilevalue) | “移动”类别的字符串值 |
+| const [OfficeValue](../../aspose.email.personalinfo/phonenumbercategory/officevalue) | “办公室”类别的字符串值 |
 | const [PagerValue](../../aspose.email.personalinfo/phonenumbercategory/pagervalue) | “寻呼机”类别的字符串值 |
-| const [PrimaryValue](../../aspose.email.personalinfo/phonenumbercategory/primaryvalue) | 'Primary' 类别的字符串值 |
+| const [PrimaryValue](../../aspose.email.personalinfo/phonenumbercategory/primaryvalue) | “主要”类别的字符串值 |
 | const [RadioValue](../../aspose.email.personalinfo/phonenumbercategory/radiovalue) | 'Radio' 类别的字符串值 |
 | const [TelexValue](../../aspose.email.personalinfo/phonenumbercategory/telexvalue) | “电传”类别的字符串值 |
-| const [TtyTddValue](../../aspose.email.personalinfo/phonenumbercategory/ttytddvalue) | 'TtyTdd' 类别的字符串值 |
+| const [TtyTddValue](../../aspose.email.personalinfo/phonenumbercategory/ttytddvalue) | “TtyTdd”类别的字符串值 |
 | const [WorkFaxValue](../../aspose.email.personalinfo/phonenumbercategory/workfaxvalue) | “传真”类别的字符串值 |
 | const [WorkValue](../../aspose.email.personalinfo/phonenumbercategory/workvalue) | “工作”类别的字符串值 |
 

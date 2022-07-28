@@ -1,14 +1,14 @@
 ---
 title: AppointmentMsgSaveOptions
 second_title: Aspose.Email for .NET API 参考
-description: 表示 iCalendar 保存选项
+description: 代表 iCalendar 保存选项
 type: docs
 weight: 520
 url: /zh/net/aspose.email.calendar/appointmentmsgsaveoptions/
 ---
 ## AppointmentMsgSaveOptions class
 
-表示 iCalendar 保存选项
+代表 iCalendar 保存选项
 
 ```csharp
 public sealed class AppointmentMsgSaveOptions : AppointmentSaveOptions
@@ -18,7 +18,7 @@ public sealed class AppointmentMsgSaveOptions : AppointmentSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AppointmentMsgSaveOptions](appointmentmsgsaveoptions)() | 初始化一个新的实例 [`MsgSaveOptions`](../../aspose.email/msgsaveoptions) 班级 |
+| [AppointmentMsgSaveOptions](appointmentmsgsaveoptions)() | 初始化[`MsgSaveOptions`](../../aspose.email/msgsaveoptions) class |
 
 ## 特性
 

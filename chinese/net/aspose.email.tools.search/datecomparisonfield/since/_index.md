@@ -16,7 +16,7 @@ public MailQuery Since(DateTime value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | DateTime | 值。 |
+| value | DateTime | 价值。 |
 
 ### 返回值
 
@@ -41,12 +41,12 @@ public MailQuery Since(DateTime value, DateComparisonType comparisonType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | DateTime | 值。 |
+| value | DateTime | 价值。 |
 | comparisonType | DateComparisonType | 指定比较类型 |
 
 ### 返回值
 
-MailQuery表示搜索查询（一种搜索标准）。
+[`MailQuery`](../../mailquery)表示搜索查询（一种搜索标准）。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ContentOwner
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户在转发回复或全部回复电子邮件时是否可以修改原始电子邮件的内容 如果用户可以修改电子邮件则值为 TRUE否则错误 FALSE 值要求客户端必须从 SmartForward 或 SmartReply 请求中排除原始的权限管理电子邮件消息 因此如果 EditAllowed 元素设置为 FALSE则不允许内联回复 当 EditAllowed 设置为 FALSE 并且 SmartForward 或 SmartReply 请求中不存在 ReplaceMime 时服务器会将原始权限管理的电子邮件作为附件添加到新消息中 相反如果存在 ReplaceMime则服务器不会将原始的权限管理电子邮件作为附件附加
+description: 指定当用户转发回复或全部回复邮件时原始邮件的内容是否可以被用户修改 如果邮件可以被用户修改则值为TRUE否则FALSE. FALSE 值要求客户端必须从 SmartForward 或 SmartReply 请求中排除原始的权限管理电子邮件消息 因此如果 EditAllowed 元素设置为 FALSE则不允许内联回复 当 EditAllowed 设置为 FALSE 并且 SmartForward 或 SmartReply 请求中不存在 ReplaceMime 时服务器会将原始权限管理的电子邮件作为附件添加到新邮件中 相反如果存在 ReplaceMime则服务器不会将原始的权限管理电子邮件作为附件附加
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/contentowner/
 ---
 ## RightsManagementLicense.ContentOwner property
 
-指定用户在转发、回复或全部回复电子邮件时是否可以修改原始电子邮件的内容。 如果用户可以修改电子邮件，则值为 TRUE；否则，错误。 FALSE 值要求客户端必须从 SmartForward 或 SmartReply 请求中排除原始的权限管理电子邮件消息。 因此，如果 EditAllowed 元素设置为 FALSE，则不允许内联回复。 当 EditAllowed 设置为 FALSE 并且 SmartForward 或 SmartReply 请求中不存在 ReplaceMime 时，服务器会将原始权限管理的电子邮件作为附件添加到新消息中。 相反，如果存在 ReplaceMime，则服务器不会将原始的权限管理电子邮件作为附件附加。
+指定当用户转发、回复或全部回复邮件时，原始邮件的内容是否可以被用户修改。 如果邮件可以被用户修改，则值为TRUE；否则，FALSE. FALSE 值要求客户端必须从 SmartForward 或 SmartReply 请求中排除原始的权限管理电子邮件消息。 因此，如果 EditAllowed 元素设置为 FALSE，则不允许内联回复。 当 EditAllowed 设置为 FALSE 并且 SmartForward 或 SmartReply 请求中不存在 ReplaceMime 时，服务器会将原始权限管理的电子邮件作为附件添加到新邮件中。 相反，如果存在 ReplaceMime，则服务器不会将原始的权限管理电子邮件作为附件附加。
 
 ```csharp
 public bool ContentOwner { get; set; }

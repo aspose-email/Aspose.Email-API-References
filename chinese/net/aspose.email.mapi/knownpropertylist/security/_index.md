@@ -1,14 +1,14 @@
 ---
 title: Security
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的安全级别 区域普通 规范名称PidNameSecurity 备用名称urnschemas-microsoft-comofficeofficeSecurity
+description: 指定附加到文档对象的文件的安全级别 区域Common 规范名称PidNameSecurity 备用名称urnschemas-microsoft-comofficeofficeSecurity
 type: docs
 weight: 17060
 url: /zh/net/aspose.email.mapi/knownpropertylist/security/
 ---
 ## KnownPropertyList.Security field
 
-指定附加到 Document 对象的文件的安全级别。 区域：普通 规范名称：PidNameSecurity 备用名称：urn:schemas-microsoft-com:office:office#Security
+指定附加到文档对象的文件的安全级别。 区域：Common 规范名称：PidNameSecurity 备用名称：urn:schemas-microsoft-com:office:office#Security
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Security;

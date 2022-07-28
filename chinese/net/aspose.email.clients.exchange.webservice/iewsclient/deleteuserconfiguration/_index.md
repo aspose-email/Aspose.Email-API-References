@@ -22,7 +22,7 @@ public void DeleteUserConfiguration(UserConfigurationName userConfigurationName)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时 *userConfigurationName* 是 `null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时*userConfigurationName*是`无效的` |
 
 ### 也可以看看
 

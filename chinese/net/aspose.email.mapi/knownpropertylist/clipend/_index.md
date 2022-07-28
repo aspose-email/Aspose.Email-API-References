@@ -1,14 +1,14 @@
 ---
 title: ClipEnd
 second_title: Aspose.Email for .NET API 参考
-description: 以 UTC 格式指定事件的结束日期和时间 区域日历 规范名称PidLidClipEnd 替代名称dispidClipEnd
+description: 以 UTC 格式指定事件的结束日期和时间 区域Calendar 规范名称PidLidClipEnd 替代名称dispidClipEnd
 type: docs
 weight: 2710
 url: /zh/net/aspose.email.mapi/knownpropertylist/clipend/
 ---
 ## KnownPropertyList.ClipEnd field
 
-以 UTC 格式指定事件的结束日期和时间。 区域:日历 规范名称:PidLidClipEnd 替代名称:dispidClipEnd
+以 UTC 格式指定事件的结束日期和时间。 区域：Calendar 规范名称：PidLidClipEnd 替代名称：dispidClipEnd
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClipEnd;

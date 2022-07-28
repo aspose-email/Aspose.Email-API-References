@@ -43,7 +43,7 @@ public Pop3MailboxInfo GetMailboxInfo(IConnection connection, bool closeTransact
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 
 ### 返回值
 
@@ -69,7 +69,7 @@ public Pop3MailboxInfo GetMailboxInfo(bool closeTransaction)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| closeTransaction | Boolean | 表示当前事务是否有在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 
 ### 返回值
 

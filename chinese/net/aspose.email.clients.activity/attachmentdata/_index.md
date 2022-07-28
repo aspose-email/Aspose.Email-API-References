@@ -22,11 +22,11 @@ public class AttachmentData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileName](../../aspose.email.clients.activity/attachmentdata/filename) { get; set; } | 附件的文件名。 强制:是 |
-| [FileType](../../aspose.email.clients.activity/attachmentdata/filetype) { get; set; } | 附件的文件类型。 强制:是 |
-| [FileVerdict](../../aspose.email.clients.activity/attachmentdata/fileverdict) { get; set; } | 文件恶意软件判决。 强制:是 |
-| [MalwareFamily](../../aspose.email.clients.activity/attachmentdata/malwarefamily) { get; set; } | 文件恶意软件家族。 强制:否 |
-| [SHA256](../../aspose.email.clients.activity/attachmentdata/sha256) { get; set; } | 文件 SHA256 哈希。 强制:是 |
+| [FileName](../../aspose.email.clients.activity/attachmentdata/filename) { get; set; } | 附件的文件名。 必填：是 |
+| [FileType](../../aspose.email.clients.activity/attachmentdata/filetype) { get; set; } | 附件的文件类型。 必填：是 |
+| [FileVerdict](../../aspose.email.clients.activity/attachmentdata/fileverdict) { get; set; } | 文件恶意软件判决。 强制：是 |
+| [MalwareFamily](../../aspose.email.clients.activity/attachmentdata/malwarefamily) { get; set; } | 文件恶意软件家族。 强制：否 |
+| [SHA256](../../aspose.email.clients.activity/attachmentdata/sha256) { get; set; } | 文件 SHA256 哈希。 强制：是 |
 
 ### 也可以看看
 

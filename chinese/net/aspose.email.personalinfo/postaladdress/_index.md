@@ -3,7 +3,7 @@ title: PostalAddress
 second_title: Aspose.Email for .NET API 参考
 description: 表示邮政地址
 type: docs
-weight: 19460
+weight: 19490
 url: /zh/net/aspose.email.personalinfo/postaladdress/
 ---
 ## PostalAddress class
@@ -26,29 +26,29 @@ public class PostalAddress : IComparable<PostalAddress>, IEquatable<PostalAddres
 | --- | --- |
 | [Address](../../aspose.email.personalinfo/postaladdress/address) { get; set; } | 获取或设置地址 |
 | [Category](../../aspose.email.personalinfo/postaladdress/category) { get; set; } | 获取或设置对象类别 |
-| [City](../../aspose.email.personalinfo/postaladdress/city) { get; set; } | 获取或设置城市 |
-| [Country](../../aspose.email.personalinfo/postaladdress/country) { get; set; } | 获取或设置国家 |
+| [City](../../aspose.email.personalinfo/postaladdress/city) { get; set; } | 获取或设置一个城市 |
+| [Country](../../aspose.email.personalinfo/postaladdress/country) { get; set; } | 获取或设置一个国家 |
 | [CountryCode](../../aspose.email.personalinfo/postaladdress/countrycode) { get; set; } | 获取或设置国家代码 |
 | [IsMailingAddress](../../aspose.email.personalinfo/postaladdress/ismailingaddress) { get; set; } | 获取或设置一个值，该值定义地址是否可用于邮寄。 |
 | [PostalCode](../../aspose.email.personalinfo/postaladdress/postalcode) { get; set; } | 获取或设置邮政编码 |
 | [PostOfficeBox](../../aspose.email.personalinfo/postaladdress/postofficebox) { get; set; } | 获取或设置邮政信箱 |
 | [Prefered](../../aspose.email.personalinfo/postaladdress/prefered) { get; set; } | 获取或设置一个值，该值定义是否首选邮政地址。 |
-| [StateOrProvince](../../aspose.email.personalinfo/postaladdress/stateorprovince) { get; set; } | 获取或设置区域 |
-| [Street](../../aspose.email.personalinfo/postaladdress/street) { get; set; } | 获取或设置街道 |
+| [StateOrProvince](../../aspose.email.personalinfo/postaladdress/stateorprovince) { get; set; } | 获取或设置一个区域 |
+| [Street](../../aspose.email.personalinfo/postaladdress/street) { get; set; } | 获取或设置一条街道 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [CompareTo](../../aspose.email.personalinfo/postaladdress/compareto)(PostalAddress) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在相同位置之前、之后还是出现在相同位置作为另一个对象。 |
+| virtual [CompareTo](../../aspose.email.personalinfo/postaladdress/compareto)(PostalAddress) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在另一个对象之前、之后还是出现在相同位置。 |
 | override [Equals](../../aspose.email.personalinfo/postaladdress/equals#equals_2)(object) | 判断指定Object是否等于当前Object。 |
 | [Equals](../../aspose.email.personalinfo/postaladdress/equals#equals)(PostalAddress) |  |
 | [Equals](../../aspose.email.personalinfo/postaladdress/equals#equals_1)(PostalAddress, PostalAddress) | 确定指定的对象实例是否被视为相等。 |
 | override [GetHashCode](../../aspose.email.personalinfo/postaladdress/gethashcode#gethashcode)() | GetHashCode 返回此对象的哈希函数。 |
 | virtual [GetHashCode](../../aspose.email.personalinfo/postaladdress/gethashcode#gethashcode_1)(PostalAddress) | GetHashCode 返回指定对象的哈希函数。 |
 | override [ToString](../../aspose.email.personalinfo/postaladdress/tostring)() | 返回代表当前对象的字符串。 |
-| [operator ==](../../aspose.email.personalinfo/postaladdress/op_equality) | 判断指定对象是否相等。 |
-| [operator !=](../../aspose.email.personalinfo/postaladdress/op_inequality) | 判断指定对象是否不相等。 |
+| [operator ==](../../aspose.email.personalinfo/postaladdress/op_equality) | 判断指定对象是否相等 |
+| [operator !=](../../aspose.email.personalinfo/postaladdress/op_inequality) | 判断指定的对象是否不相等。 |
 
 ### 也可以看看
 

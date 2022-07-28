@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/audionotes/
 ---
 ## KnownPropertyList.AudioNotes field
 
-包含语音消息在发送到用户邮箱后的文本注释。 区域:统一消息 规范名称:PidNameAudioNotes 替代名称:UMAudioNotes
+包含语音消息在发送到用户邮箱后的文本注释。 区域：统一消息 规范名称：PidNameAudioNotes 替代名称：UMAudioNotes
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AudioNotes;

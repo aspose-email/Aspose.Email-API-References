@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 将服务器 id 转换为 SyncDeleteClientOperation 对象
+description: 将服务器 ID 转换为 SyncDeleteClientOperation 对象
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/op_implicit/
 ---
 ## SyncDeleteClientOperation Implicit operator
 
-将服务器 id 转换为 SyncDeleteClientOperation 对象
+将服务器 ID 转换为 SyncDeleteClientOperation 对象
 
 ```csharp
 public static implicit operator SyncDeleteClientOperation(string serverId)
@@ -16,7 +16,7 @@ public static implicit operator SyncDeleteClientOperation(string serverId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| serverId | String | 表示唯一标识符由服务器分配给每个可以同步的对象。 |
+| serverId | String | 表示服务器分配给每个可以同步的对象的唯一标识符。 |
 
 ### 返回值
 

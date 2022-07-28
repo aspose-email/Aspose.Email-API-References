@@ -3,7 +3,7 @@ title: MediaTypeNames
 second_title: Aspose.Email for .NET API 参考
 description: 指定电子邮件消息的媒体类型名称
 type: docs
-weight: 19140
+weight: 19170
 url: /zh/net/aspose.email.mime/mediatypenames/
 ---
 ## MediaTypeNames class
@@ -25,7 +25,7 @@ public static class MediaTypeNames
 | 姓名 | 描述 |
 | --- | --- |
 | class [Application](mediatypenames.application) | 指定电子邮件附件中的应用程序数据类型。 |
-| class [Image](mediatypenames.image) | 指定电子邮件附件中的图像数据类型。 |
+| class [Image](mediatypenames.image) | 指定电子邮件附件中图像数据的类型。 |
 | class [Text](mediatypenames.text) | 指定电子邮件附件中文本数据的类型。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: TruncationSize
 second_title: Aspose.Email for .NET API 参考
-description: 指定服务器用来截断返回数据的大小 TruncationSize 的最大值为 4294967295 如果未定义 TruncationSize 元素则将整个内容用于请求
+description: 指定服务器用于截断返回数据的大小 TruncationSize 的最大值为 4294967295 如果没有定义 TruncationSize 元素则整个内容都用于请求
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/bodypreference/truncationsize/
 ---
 ## BodyPreference.TruncationSize property
 
-指定服务器用来截断返回数据的大小。 TruncationSize 的最大值为 4,294,967,295。 如果未定义 TruncationSize 元素，则将整个内容用于请求。
+指定服务器用于截断返回数据的大小。 TruncationSize 的最大值为 4,294,967,295。 如果没有定义 TruncationSize 元素，则整个内容都用于请求。
 
 ```csharp
 public int? TruncationSize { get; set; }

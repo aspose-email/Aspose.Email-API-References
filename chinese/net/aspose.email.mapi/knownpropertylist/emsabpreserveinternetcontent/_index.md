@@ -1,14 +1,14 @@
 ---
 title: EmsAbPreserveInternetContent
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_PRESERVE_INTERNET_CONTENT
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_PRESERVE_INTERNET_CONTENT
 type: docs
 weight: 8160
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabpreserveinternetcontent/
 ---
 ## KnownPropertyList.EmsAbPreserveInternetContent field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_PRESERVE_INTERNET_CONTENT
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_PRESERVE_INTERNET_CONTENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbPreserveInternetContent;

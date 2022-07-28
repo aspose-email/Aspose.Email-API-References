@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息的附件集合
+description: 获取message 的附件集合
 type: docs
 weight: 40
 url: /zh/net/aspose.email/mailmessage/attachments/
 ---
 ## MailMessage.Attachments property
 
-获取消息的附件集合
+获取message 的附件集合
 
 ```csharp
 public virtual AttachmentCollection Attachments { get; }

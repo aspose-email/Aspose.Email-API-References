@@ -18,7 +18,7 @@ public class GraphQueryBuilder : MailQueryBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GraphQueryBuilder](graphquerybuilder)() | 初始化[`GraphQueryBuilder`](../graphquerybuilder)类的新实例。 |
+| [GraphQueryBuilder](graphquerybuilder)() | 初始化[`GraphQueryBuilder`](../graphquerybuilder)类. |
 
 ## 特性
 
@@ -26,14 +26,14 @@ public class GraphQueryBuilder : MailQueryBuilder
 | --- | --- |
 | [Bcc](../../aspose.email.tools.search/mailquerybuilder/bcc) { get; } | 获取允许在信封结构的密件抄送字段中查找包含指定字符串的消息的字段。 |
 | [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | 获取允许在消息正文中查找包含指定字符串的消息的字段。 |
-| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的抄送字段中查找包含指定字符串的消息的字段。 |
-| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询生成器的默认编码（字符集） |
+| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | 获取允许在信封结构的 CC 字段中查找包含指定字符串的消息的字段。 |
+| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | 获取查询 builder 的默认编码（字符集） |
 | [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | 获取允许在信封结构的 FROM 字段中查找包含指定字符串的消息的字段。 |
 | [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | 获取允许按内部日期查找消息的字段。 |
 | [IsRead](../../aspose.email.clients.graph/graphquerybuilder/isread) { get; } | 获取允许查找未读项目的字段。 |
 | [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | 获取允许按发送日期查找消息的字段。 |
 | [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | 获取允许在信封结构的 SUBJECT 字段中查找包含指定字符串的消息的字段。 |
-| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件头（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
+| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | 获取允许在邮件的标题（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。 |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | 获取允许在信封结构的 TO 字段中查找包含指定字符串的消息的字段。 |
 
 ## 方法
@@ -41,7 +41,7 @@ public class GraphQueryBuilder : MailQueryBuilder
 | 姓名 | 描述 |
 | --- | --- |
 | [GetQuery](../../aspose.email.tools.search/mailquerybuilder/getquery)() | 获取查询。 |
-| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | 搜索匹配任一搜索关键字的消息。提供两个表达式 (OR) 之间的析取。 |
+| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | 搜索与任一搜索键匹配的消息。提供两个表达式之间的析取 (OR). |
 
 ### 也可以看看
 

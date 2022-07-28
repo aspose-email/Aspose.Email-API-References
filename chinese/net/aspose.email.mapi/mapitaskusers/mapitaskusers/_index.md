@@ -1,14 +1,14 @@
 ---
 title: MapiTaskUsers
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiTaskUsersaspose.email.mapi/mapitaskusers类的新实例
+description: 初始化MapiTaskUsersaspose.email.mapi/mapitaskusers类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapitaskusers/mapitaskusers/
 ---
 ## MapiTaskUsers constructor
 
-初始化[`MapiTaskUsers`](../../mapitaskusers)类的新实例。
+初始化[`MapiTaskUsers`](../../mapitaskusers)类.
 
 ```csharp
 public MapiTaskUsers()

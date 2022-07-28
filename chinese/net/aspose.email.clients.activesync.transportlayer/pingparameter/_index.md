@@ -24,8 +24,8 @@ public class PingParameter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Class](../../aspose.email.clients.activesync.transportlayer/pingparameter/class) { get; } | Class 元素是 Ping 命令请求中 Folder 元素的必需子元素 指定要监视的文件夹的内容类。 有效的 Class 元素值为:电子邮件、日历、联系人、任务、便笺 |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/pingparameter/serverid) { get; } | Id 元素是 Ping 命令请求中的 Folder 元素的必需子元素 指定要监视的文件夹的服务器 ID。 本节中引用的元素在 Ping 命名空间 中定义，除非存在命名空间前缀（如第 2.2.1 节中定义）另有说明。 |
+| [Class](../../aspose.email.clients.activesync.transportlayer/pingparameter/class) { get; } | Class 元素是 Ping 命令请求中 Folder 元素的必需子元素 ，它指定要监视的文件夹的内容类。 有效的 Class 元素值为：电子邮件、日历、联系人、任务、便笺 |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/pingparameter/serverid) { get; } | Id 元素是Ping 命令请求 中Folder 元素的必需子元素，指定要监视的文件夹的服务器ID。 本节中引用的元素在 Ping 命名空间 中定义，除非存在命名空间前缀（如第 2.2.1 节中定义）另有指示。 |
 
 ### 也可以看看
 

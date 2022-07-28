@@ -17,7 +17,7 @@ public Task RequestCheckpointAsync(IConnection connection = null, CancellationTo
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 也可以看看
 

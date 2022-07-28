@@ -1,14 +1,14 @@
 ---
 title: ReferredByName
 second_title: Aspose.Email for .NET API 参考
-description: 指定将该联系人推荐给用户的人的姓名
+description: 指定将此联系人推荐给用户 的人的姓名
 type: docs
 weight: 190
 url: /zh/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/referredbyname/
 ---
 ## MapiContactPersonalInfoPropertySet.ReferredByName property
 
-指定将该联系人推荐给用户的人的姓名
+指定将此联系人推荐给用户 的人的姓名
 
 ```csharp
 public string ReferredByName { get; set; }

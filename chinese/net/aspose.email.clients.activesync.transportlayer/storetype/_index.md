@@ -18,7 +18,7 @@ public enum StoreType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Mailbox | `0` | 客户端在要搜索商店时指定“邮箱”。 |
+| Mailbox | `0` | 客户端在打算搜索商店时指定“邮箱”。 |
 | DocumentLibrary | `1` | 客户端在打算搜索 Windows SharePoint Services 或 UNC 库时指定“DocumentLibrary”。 |
 | GAL | `2` | 客户端在打算搜索全局地址列表时指定“GAL”。 |
 

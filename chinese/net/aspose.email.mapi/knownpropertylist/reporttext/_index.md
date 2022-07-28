@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/reporttext/
 ---
 ## KnownPropertyList.ReportText field
 
-包含报告消息的可选文本。 区域:MapiMessage 规范名称:PidTagReportText 替代名称:PR_REPORT_TEXT、PR_REPORT_TEXT_A、ptagReportText、PR_REPORT_TEXT_W
+包含报告消息的可选文本。 区域：MapiMessage 规范名称：PidTagReportText 替代名称：PR_REPORT_TEXT、PR_REPORT_TEXT_A、ptagReportText、PR_REPORT_TEXT_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportText;

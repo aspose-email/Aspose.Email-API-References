@@ -1,14 +1,14 @@
 ---
 title: ExpiryNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个整数值它与 PidTagExpiryUnits 属性第 2.681 节一起用于定义到期发送时间 区域MapiStatus 规范名称PidTagExpiryNumber 备用名称PR_EXPIRY_NUMBER
+description: 包含一个整数值它与 PidTagExpiryUnits 属性第 2.681 节一起用于定义到期发送时间 区域MapiStatus 规范名称PidTagExpiryNumber 替代名称PR_EXPIRY_NUMBER
 type: docs
 weight: 9940
 url: /zh/net/aspose.email.mapi/knownpropertylist/expirynumber/
 ---
 ## KnownPropertyList.ExpiryNumber field
 
-包含一个整数值，它与 PidTagExpiryUnits 属性（第 2.681 节）一起用于定义到期发送时间。 区域:MapiStatus 规范名称:PidTagExpiryNumber 备用名称:PR_EXPIRY_NUMBER
+包含一个整数值，它与 PidTagExpiryUnits 属性（第 2.681 节）一起用于定义到期发送时间。 区域：MapiStatus 规范名称：PidTagExpiryNumber 替代名称：PR_EXPIRY_NUMBER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExpiryNumber;

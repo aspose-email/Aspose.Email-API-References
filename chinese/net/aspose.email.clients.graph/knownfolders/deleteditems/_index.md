@@ -1,14 +1,14 @@
 ---
 title: DeletedItems
 second_title: Aspose.Email for .NET API 参考
-description: 文件夹项目在被删除时被移动到
+description: 文件夹项目在被删除时移动到它们
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.graph/knownfolders/deleteditems/
 ---
 ## KnownFolders.DeletedItems field
 
-文件夹项目在被删除时被移动到。
+文件夹项目在被删除时移动到它们。
 
 ```csharp
 public static readonly string DeletedItems;

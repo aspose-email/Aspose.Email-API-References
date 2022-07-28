@@ -1,14 +1,14 @@
 ---
 title: ResourceId
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置资源ID 例如对于用户它可能是用户主体名称 UPN 或用户 ID
+description: 获取或设置资源 id 例如对于用户它可能是用户主体名称 UPN 或用户 id
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activity/activityclient/resourceid/
 ---
 ## ActivityClient.ResourceId property
 
-获取或设置资源ID。 例如对于用户，它可能是用户主体名称 (UPN) 或用户 ID
+获取或设置资源 id。 例如对于用户，它可能是用户主体名称 (UPN) 或用户 id
 
 ```csharp
 public virtual string ResourceId { get; set; }

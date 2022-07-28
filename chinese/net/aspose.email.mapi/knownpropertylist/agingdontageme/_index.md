@@ -1,14 +1,14 @@
 ---
 title: AgingDontAgeMe
 second_title: Aspose.Email for .NET API 参考
-description: 指定是否自动归档消息 区域通用 规范名称PidLidAgingDontAgeMe 别名dispidAgingDontAgeMe
+description: 指定是否自动归档消息 区域Common 规范名称PidLidAgingDontAgeMe 替代名称dispidAgingDontAgeMe
 type: docs
 weight: 1030
 url: /zh/net/aspose.email.mapi/knownpropertylist/agingdontageme/
 ---
 ## KnownPropertyList.AgingDontAgeMe field
 
-指定是否自动归档消息。 区域:通用 规范名称:PidLidAgingDontAgeMe 别名:dispidAgingDontAgeMe
+指定是否自动归档消息。 区域：Common 规范名称：PidLidAgingDontAgeMe 替代名称：dispidAgingDontAgeMe
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AgingDontAgeMe;

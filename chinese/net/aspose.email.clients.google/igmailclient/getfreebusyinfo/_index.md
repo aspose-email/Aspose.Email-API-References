@@ -1,14 +1,14 @@
 ---
 title: GetFreebusyInfo
 second_title: Aspose.Email for .NET API 参考
-description: 获取空闲/忙碌信息
+description: 获取忙/闲信息
 type: docs
 weight: 200
 url: /zh/net/aspose.email.clients.google/igmailclient/getfreebusyinfo/
 ---
 ## IGmailClient.GetFreebusyInfo method
 
-获取空闲/忙碌信息
+获取忙/闲信息
 
 ```csharp
 public FreebusyResponse GetFreebusyInfo(FreebusyQuery query)
@@ -16,7 +16,7 @@ public FreebusyResponse GetFreebusyInfo(FreebusyQuery query)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| query | FreebusyQuery | 查询获取空闲/忙碌信息 |
+| query | FreebusyQuery | 查询以获取忙/闲信息 |
 
 ### 返回值
 

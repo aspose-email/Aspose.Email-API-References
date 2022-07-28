@@ -1,14 +1,14 @@
 ---
 title: ExchangeException
 second_title: Справочник по Aspose.Email для .NET API
-description: Генерируется при сбое связи MS Exchange.
+description: Выдается при сбое связи MS Exchange.
 type: docs
 weight: 17430
 url: /ru/net/aspose.email/exchangeexception/
 ---
 ## ExchangeException class
 
-Генерируется при сбое связи MS Exchange.
+Выдается при сбое связи MS Exchange.
 
 ```csharp
 public class ExchangeException : AsposeException
@@ -18,10 +18,10 @@ public class ExchangeException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeException](exchangeexception#constructor)() | Инициализирует новый экземпляр класса[`ExchangeException`](../exchangeexception). |
-| [ExchangeException](exchangeexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`ExchangeException`](../exchangeexception). |
-| [ExchangeException](exchangeexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`ExchangeException`](../exchangeexception). |
-| [ExchangeException](exchangeexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр класса[`ExchangeException`](../exchangeexception)с указанным сообщением об ошибке. |
+| [ExchangeException](exchangeexception#constructor)() | Инициализирует новый экземпляр[`ExchangeException`](../exchangeexception) класс. |
+| [ExchangeException](exchangeexception#constructor_1)(string) | Инициализирует новый экземпляр[`ExchangeException`](../exchangeexception) класс. |
+| [ExchangeException](exchangeexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`ExchangeException`](../exchangeexception) класс. |
+| [ExchangeException](exchangeexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр[`ExchangeException`](../exchangeexception) класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

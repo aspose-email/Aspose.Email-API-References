@@ -16,7 +16,7 @@ public MailQuery Equals(Enum value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Enum | 值。 |
+| value | Enum | 价值。 |
 
 ### 返回值
 

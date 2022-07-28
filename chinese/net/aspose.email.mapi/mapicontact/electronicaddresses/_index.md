@@ -1,14 +1,14 @@
 ---
 title: ElectronicAddresses
 second_title: Aspose.Email for .NET API 参考
-description: 为最多三个不同的 电子邮件地址 和三个不同的传真地址指定属性
+description: 为最多三个不同的 电子邮件地址 和三个不同的传真地址 指定属性
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapicontact/electronicaddresses/
 ---
 ## MapiContact.ElectronicAddresses property
 
-为最多三个不同的 电子邮件地址 和三个不同的传真地址指定属性
+为最多三个不同的 电子邮件地址 和三个不同的传真地址 指定属性
 
 ```csharp
 public MapiContactElectronicAddressPropertySet ElectronicAddresses { get; set; }

@@ -20,17 +20,17 @@ public enum Calendar
 | --- | --- | --- |
 | TimeZone | `5` | 日历项的时区。 |
 | AllDayEvent | `6` | 指定日历项或异常项表示的事件是否运行一整天。 |
-| Attendees | `7` | 日历项目的参与者集合。 |
+| Attendees | `7` | 日历项目的参加者集合。 |
 | Attendee | `8` | 受邀参加活动的与会者。 |
 | Email | `9` | 与会者的电子邮件地址。 |
-| Name | `10` | 与会者的姓名。 |
-| BusyStatus | `13` | 指定收件人在指定时间是否忙。 |
+| Name | `10` | 参加者姓名。 |
+| BusyStatus | `13` | 指定收件人是否在指定时间忙。 |
 | Categories | `14` | 日历项或异常项的类别集合。 |
-| Category | `15` | 分配给日历项目或异常项目的类别。 |
+| Category | `15` | 分配给日历项目或例外项目的类别。 |
 | DtStamp | `17` | 创建或修改日历项的日期和时间，或创建异常项的日期和时间。 |
 | EndTime | `18` | 日历项或异常项的结束时间。 |
-| Exception | `19` | 日历项目重复模式的例外。 |
-| Exceptions | `20` | 日历项重复模式的异常集合。 |
+| Exception | `19` | 日历项目的重复模式的例外。 |
+| Exceptions | `20` | 日历项目重复模式的异常集合。 |
 | Deleted | `21` | 指定异常是否已被删除。 |
 | ExceptionStartTime | `22` | 原始循环会议的开始时间。 |
 | Location | `23` | 日历项或异常项指定的事件发生的地方。 |
@@ -41,14 +41,14 @@ public enum Calendar
 | Type | `28` | 重复的类型。 |
 | Until | `29` | 重复的结束日期和时间。 |
 | Occurrences | `30` | 重复次数。 |
-| Interval | `31` | 重复间隔。 |
+| Interval | `31` | 重复的间隔。 |
 | DayOfWeek | `32` | 一周中的重复日期。 |
 | DayOfMonth | `33` | 重复月份的日期。 |
-| WeekOfMonth | `34` | 每月的周数。 |
+| WeekOfMonth | `34` | 每月的第几周重复。 |
 | MonthOfYear | `35` | 一年中重复的月份。 |
-| Reminder | `36` | 日历项目开始时间之前的分钟数，以显示提醒通知。 |
+| Reminder | `36` | 日历项目开始时间前的分钟数显示提醒通知。 |
 | Sensitivity | `37` | 此日历项目或例外项目的推荐隐私政策。 |
-| Subject | `38` | 日历项目或异常项目的主题。 |
+| Subject | `38` | 日历项目或例外项目的主题。 |
 | StartTime | `39` | 日历项或异常项的开始时间。 |
 | UID | `40` | 创建日历项时客户端生成的唯一的 300 位十六进制 ID。 |
 | AttendeeStatus | `41` | 参加者的接受状态。 |
@@ -59,9 +59,9 @@ public enum Calendar
 | ResponseType | `54` | 用户对会议请求的响应类型。 |
 | CalendarType | `55` | 循环使用的日历系统。 |
 | IsLeapMonth | `56` | 指定是否在栓塞（闰）月重复约会。 |
-| FirstDayOfWeek | `57` | 指定将哪一天视为重复日历周的第一天。 |
+| FirstDayOfWeek | `57` | 指定将哪一天视为重复周期的日历周的第一天。 |
 | OnlineMeetingConfLink | `58` | 用于在线会议的全局可路由用户代理 URI (GRUU) ([MS-SIPRE])。 |
-| OnlineMeetingExternalLink | `59` | 在线会议的统一资源定位符 (URL)。 |
+| OnlineMeetingExternalLink | `59` | 用于在线会议的统一资源定位器 (URL)。 |
 
 ### 也可以看看
 

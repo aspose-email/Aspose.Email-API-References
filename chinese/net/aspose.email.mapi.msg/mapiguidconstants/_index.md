@@ -3,7 +3,7 @@ title: MapiGuidConstants
 second_title: Aspose.Email for .NET API 参考
 description: 包含多个由 MSG 格式规范定义的 guid 常量
 type: docs
-weight: 18760
+weight: 18790
 url: /zh/net/aspose.email.mapi.msg/mapiguidconstants/
 ---
 ## MapiGuidConstants class

@@ -16,7 +16,7 @@ public static CalendarRecurrence FromiCalendar(string pattern)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pattern | String | StringStringпредставление iCalendar. |
+| pattern | String | НитьString представление iCalendar. |
 
 ### Возвращаемое значение
 

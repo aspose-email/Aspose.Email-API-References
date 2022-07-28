@@ -1,14 +1,14 @@
 ---
 title: PickupDirectoryLocation
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置应用程序保存要由本地 SMTP 服务器处理的邮件消息的目录 请注意只允许使用绝对路径
+description: 获取或设置应用程序保存待本地 SMTP 服务器处理的邮件消息的目录 请注意只允许使用绝对路径
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.smtp/smtpclient/pickupdirectorylocation/
 ---
 ## SmtpClient.PickupDirectoryLocation property
 
-获取或设置应用程序保存要由本地 SMTP 服务器处理的邮件消息的目录。 请注意:只允许使用绝对路径。
+获取或设置应用程序保存待本地 SMTP 服务器处理的邮件消息的目录。 请注意：只允许使用绝对路径。
 
 ```csharp
 public string PickupDirectoryLocation { get; set; }
@@ -16,7 +16,7 @@ public string PickupDirectoryLocation { get; set; }
 
 ### 适当的价值
 
-代表拾取目录的字符串
+表示拾取目录的字符串
 
 ### 也可以看看
 

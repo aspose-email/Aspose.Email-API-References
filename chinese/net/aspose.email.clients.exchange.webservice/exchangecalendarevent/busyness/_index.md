@@ -1,14 +1,14 @@
 ---
 title: Busyness
 second_title: Aspose.Email for .NET API 参考
-description: 获取用户忙碌度
+description: 获取用户繁忙度
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangecalendarevent/busyness/
 ---
 ## ExchangeCalendarEvent.Busyness property
 
-获取用户忙碌度。
+获取用户繁忙度。
 
 ```csharp
 public ExchangeUserBusyness Busyness { get; }

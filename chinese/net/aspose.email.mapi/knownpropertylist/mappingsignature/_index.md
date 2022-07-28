@@ -1,14 +1,14 @@
 ---
 title: MappingSignature
 second_title: Aspose.Email for .NET API 参考
-description: 一个 16 字节的常量存在于所有通讯簿对象上但不存在于脱机通讯簿中的对象上 区域杂项属性 规范名称PidTagMappingSignature 替代名称PR_MAPPING_SIGNATURE ptagMappingSignature
+description: 一个 16 字节的常量存在于所有通讯簿对象上但不存在于脱机通讯簿中的对象上 区域其他属性 规范名称PidTagMappingSignature 替代名称PR_MAPPING_SIGNATUREptagMappingSignature
 type: docs
 weight: 12370
 url: /zh/net/aspose.email.mapi/knownpropertylist/mappingsignature/
 ---
 ## KnownPropertyList.MappingSignature field
 
-一个 16 字节的常量，存在于所有通讯簿对象上，但不存在于脱机通讯簿中的对象上。 区域:杂项属性 规范名称:PidTagMappingSignature 替代名称:PR_MAPPING_SIGNATURE, ptagMappingSignature
+一个 16 字节的常量，存在于所有通讯簿对象上，但不存在于脱机通讯簿中的对象上。 区域：其他属性 规范名称：PidTagMappingSignature 替代名称：PR_MAPPING_SIGNATURE、ptagMappingSignature
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MappingSignature;

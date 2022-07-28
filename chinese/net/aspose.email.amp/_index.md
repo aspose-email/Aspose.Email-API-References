@@ -12,27 +12,27 @@ url: /zh/net/aspose.email.amp/
 
 | 班级 | 描述 |
 | --- | --- |
-| [AmpAccordion](./ampaccordion) | 便于显示/隐藏不同部分的 UI 元素。 |
+| [AmpAccordion](./ampaccordion) | 有助于显示/隐藏不同部分的 UI 元素。 |
 | [AmpAnim](./ampanim) | 运行时管理的动画图像，通常是 GIF。 |
-| [AmpAttributes](./ampattributes) | 表示放大器组件使用的属性。 |
+| [AmpAttributes](./ampattributes) | 表示 amp-components 使用的属性。 |
 | [AmpCarousel](./ampcarousel) | 组件允许沿水平轴显示多个相似的内容。 |
 | [AmpComponent](./ampcomponent) | 表示放大器组件的基类。 |
 | [AmpFitText](./ampfittext) | 扩大或缩小其字体大小以适应给定空间内的内容。 |
-| [AmpForm](./ampform) | amp-form 扩展允许您创建表单以提交 AMP 文档中的输入字段。 |
+| [AmpForm](./ampform) | amp-form 扩展允许您创建表单以在 AMP 文档中提交输入字段。 |
 | [AmpImage](./ampimage) |  |
 | [AmpMessage](./ampmessage) | 允许发件人在电子邮件中包含 AMP 组件的消息。 |
 | [AmpTimeago](./amptimeago) | 通过将日期格式化为“X 时间前”来提供模糊时间戳 |
 | [FormField](./formfield) | 描述表单的一个字段。 |
 | [Section](./section) | AmpAccordion 的元素。 |
-| [SectionHeader](./sectionheader) | 表示该部分的标题 |
-| [SectionValue](./sectionvalue) | 表示节的内容。 |
+| [SectionHeader](./sectionheader) | 代表 section 的标题 |
+| [SectionValue](./sectionvalue) | 代表部分的内容。 |
 ## 枚举
 
 | 枚举 | 描述 |
 | --- | --- |
 | [CarouselType](./carouseltype) | 指定轮播项目的显示类型。 |
-| [FormMethod](./formmethod) | 该方法告诉服务器请求方法。 |
-| [FormTarget](./formtarget) | 表示提交表单后在哪里显示表单响应。该值必须是 _blank 或 _top。 |
+| [FormMethod](./formmethod) | 方法告诉服务器请求方法。 |
+| [FormTarget](./formtarget) | 表示提交表单后显示表单响应的位置。该值必须是 _blank 或 _top. |
 | [LayoutType](./layouttype) | layout 属性使您可以轻松地按元素控制元素在屏幕上的呈现方式。 |
 | [SectionHeaderType](./sectionheadertype) | 表示节的标题类型。 |
 

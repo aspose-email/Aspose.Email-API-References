@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/email3displayname/
 ---
 ## KnownPropertyList.Email3DisplayName field
 
-指定电子邮件地址的用户可读显示名称。 区域:联系人属性 规范名称:PidLidEmail3DisplayName 备用名称:dispidEmail3DisplayName
+指定电子邮件地址的用户可读显示名称。 区域：联系人属性 规范名称：PidLidEmail3DisplayName 备用名称：dispidEmail3DisplayName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email3DisplayName;

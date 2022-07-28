@@ -1,14 +1,14 @@
 ---
 title: DefaultEmailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 电子地址的默认值 如果 UseAutocomplete 属性设置为true则在用户未设置任何电子地址时使用
+description: 电子地址的默认值 如果 UseAutocomplete 属性设置为真则在用户未设置任何电子地址时使用
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/defaultemailaddress/
 ---
 ## MapiContactElectronicAddressPropertySet.DefaultEmailAddress property
 
-电子地址的默认值 如果 UseAutocomplete 属性设置为“true”，则在用户未设置任何电子地址时使用
+电子地址的默认值 如果 UseAutocomplete 属性设置为“真”，则在用户未设置任何电子地址时使用
 
 ```csharp
 public MapiContactElectronicAddress DefaultEmailAddress { get; set; }

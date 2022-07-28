@@ -1,14 +1,14 @@
 ---
 title: GetServerTimeZoneIdsAsync
 second_title: Aspose.Email for .NET API 参考
-description: GetServerTimeZoneIds 返回来自 Exchange 服务器上可用的时区 ID 的信息
+description: GetServerTimeZoneIds 从 Exchange 服务器上可用的时区 ID 返回信息
 type: docs
 weight: 380
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/getservertimezoneidsasync/
 ---
 ## IAsyncEwsClient.GetServerTimeZoneIdsAsync method
 
-GetServerTimeZoneIds 返回来自 Exchange 服务器上可用的时区 ID 的信息。
+GetServerTimeZoneIds 从 Exchange 服务器上可用的时区 ID 返回信息。
 
 ```csharp
 public Task<string[]> GetServerTimeZoneIdsAsync(IEnumerable<string> timeZoneIds, 

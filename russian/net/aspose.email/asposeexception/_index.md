@@ -18,11 +18,11 @@ public class AsposeException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeException](asposeexception#constructor)() | Инициализирует новый экземпляр класса[`AsposeException`](../asposeexception). |
+| [AsposeException](asposeexception#constructor)() | Инициализирует новый экземпляр[`AsposeException`](../asposeexception) класс. |
 | [AsposeException](asposeexception#constructor_1)(Exception) |  |
-| [AsposeException](asposeexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`AsposeException`](../asposeexception)с указанным сообщением об ошибке. |
-| [AsposeException](asposeexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`AsposeException`](../asposeexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [AsposeException](asposeexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр класса[`AsposeException`](../asposeexception)с указанным сообщением об ошибке. |
+| [AsposeException](asposeexception#constructor_2)(string) | Инициализирует новый экземпляр[`AsposeException`](../asposeexception) класс с указанным сообщением об ошибке. |
+| [AsposeException](asposeexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`AsposeException`](../asposeexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeException](asposeexception#constructor_4)(string, params object[]) | Инициализирует новый экземпляр[`AsposeException`](../asposeexception) класс с указанным сообщением об ошибке. |
 | [AsposeException](asposeexception#constructor_5)(string, string) |  |
 
 ## Характеристики

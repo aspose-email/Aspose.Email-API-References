@@ -1,14 +1,14 @@
 ---
 title: SharingInitiatorSmtp
 second_title: Aspose.Email for .NET API 参考
-description: 包含来自由 PidLidSharingInitiatorEntryId 属性第 2.248 节标识的通讯簿对象中的 PidTagSmtpAddress 属性第 2.1010 节的值 区域共享 规范名称PidLidSharingInitiatorSmtp 替代名称dispidSharingInitiatorSmtp
+description: 包含来自由 PidLidSharingInitiatorEntryId 属性第 2.248 节标识的通讯簿对象中的 PidTagSmtpAddress 属性第 2.1010 节的值 区域Sharing 规范名称PidLidSharingInitiatorSmtp 替代名称dispidSharingInitiatorSmtp
 type: docs
 weight: 17550
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharinginitiatorsmtp/
 ---
 ## KnownPropertyList.SharingInitiatorSmtp field
 
-包含来自由 PidLidSharingInitiatorEntryId 属性（第 2.248 节）标识的通讯簿对象中的 PidTagSmtpAddress 属性（第 2.1010 节）的值。 区域:共享 规范名称:PidLidSharingInitiatorSmtp 替代名称:dispidSharingInitiatorSmtp
+包含来自由 PidLidSharingInitiatorEntryId 属性（第 2.248 节）标识的通讯簿对象中的 PidTagSmtpAddress 属性（第 2.1010 节）的值。 区域：Sharing 规范名称：PidLidSharingInitiatorSmtp 替代名称：dispidSharingInitiatorSmtp
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingInitiatorSmtp;

@@ -1,14 +1,14 @@
 ---
 title: Associated
 second_title: Aspose.Email for .NET API 参考
-description: 指定正在同步的消息是否为 FAI 消息 区域同步 规范名称PidTagAssociated 替代名称ptagAssociated
+description: 指定正在同步的消息是否为 FAI 消息 区域Sync 规范名称PidTagAssociated 备用名称ptagAssociated
 type: docs
 weight: 1470
 url: /zh/net/aspose.email.mapi/knownpropertylist/associated/
 ---
 ## KnownPropertyList.Associated field
 
-指定正在同步的消息是否为 FAI 消息。 区域:同步 规范名称:PidTagAssociated 替代名称:ptagAssociated
+指定正在同步的消息是否为 FAI 消息。 区域：Sync 规范名称：PidTagAssociated 备用名称：ptagAssociated
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Associated;

@@ -18,12 +18,12 @@ public class MailAddress : IMailAddress
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailAddress](mailaddress#constructor)(string) | 初始化[`MailAddress`](../mailaddress)类的新实例。 |
-| [MailAddress](mailaddress#constructor_1)(string, bool) | 初始化[`MailAddress`](../mailaddress)类的新实例。 |
-| [MailAddress](mailaddress#constructor_2)(string, string) | 初始化[`MailAddress`](../mailaddress)类的新实例。 |
-| [MailAddress](mailaddress#constructor_3)(string, string, bool) | 初始化[`MailAddress`](../mailaddress)类的新实例。 |
-| [MailAddress](mailaddress#constructor_4)(string, string, Encoding) | 初始化[`MailAddress`](../mailaddress)类的新实例。 |
-| [MailAddress](mailaddress#constructor_5)(string, string, Encoding, bool) | 初始化[`MailAddress`](../mailaddress)类的新实例。 |
+| [MailAddress](mailaddress#constructor)(string) | 初始化[`MailAddress`](../mailaddress)类. |
+| [MailAddress](mailaddress#constructor_1)(string, bool) | 初始化[`MailAddress`](../mailaddress)类. |
+| [MailAddress](mailaddress#constructor_2)(string, string) | 初始化[`MailAddress`](../mailaddress)类. |
+| [MailAddress](mailaddress#constructor_3)(string, string, bool) | 初始化[`MailAddress`](../mailaddress)类. |
+| [MailAddress](mailaddress#constructor_4)(string, string, Encoding) | 初始化[`MailAddress`](../mailaddress)类. |
+| [MailAddress](mailaddress#constructor_5)(string, string, Encoding, bool) | 初始化[`MailAddress`](../mailaddress)类. |
 
 ## 特性
 
@@ -43,10 +43,10 @@ public class MailAddress : IMailAddress
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.email/mailaddress/equals)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.email/mailaddress/equals)(object) | 判断是否指定Object等于这个实例。 |
 | override [GetHashCode](../../aspose.email/mailaddress/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.email/mailaddress/tostring)() | 返回代表此实例的String。 |
-| [implicit operator](../../aspose.email/mailaddress/op_implicit#op_implicit_1) | 执行从String到[`MailAddress`](../mailaddress)的隐式转换。 (2 operators) |
+| override [ToString](../../aspose.email/mailaddress/tostring)() | 返回一个String代表这个实例。 |
+| [implicit operator](../../aspose.email/mailaddress/op_implicit#op_implicit_1) | 从String至[`MailAddress`](../mailaddress). (2 operators) |
 
 ### 也可以看看
 

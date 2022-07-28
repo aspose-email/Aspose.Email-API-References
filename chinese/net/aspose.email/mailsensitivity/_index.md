@@ -21,7 +21,7 @@ public enum MailSensitivity
 | None | `0` | 未设置灵敏度。 |
 | Normal | `1` | 正常灵敏度。 |
 | Personal | `2` | 将敏感度设置为个人。 |
-| Private | `3` | 将敏感度设置为私有。 |
+| Private | `3` | 将敏感度设置为 Private. |
 | CompanyConfidential | `4` | 将敏感度设置为 CompanyConfidential。 |
 
 ### 也可以看看

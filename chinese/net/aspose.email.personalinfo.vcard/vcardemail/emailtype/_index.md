@@ -18,7 +18,7 @@ public VCardEmailType EmailType { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *value*未在[`VCardEmailType`](../../vcardemailtype) |
+| ArgumentException | *value*中没有定义[`VCardEmailType`](../../vcardemailtype) |
 
 ### 也可以看看
 

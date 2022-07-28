@@ -1,14 +1,14 @@
 ---
 title: NonSendToTrackStatus
 second_title: Aspose.Email for .NET API 参考
-description: 包含响应表中的值 区域常规消息属性 规范名称PidLidNonSendToTrackStatus 备用名称dispidNonSendToTrackStatus
+description: 包含响应表中的值 区域常规消息属性 规范名称PidLidNonSendToTrackStatus 替代名称dispidNonSendToTrackStatus
 type: docs
 weight: 13060
 url: /zh/net/aspose.email.mapi/knownpropertylist/nonsendtotrackstatus/
 ---
 ## KnownPropertyList.NonSendToTrackStatus field
 
-包含响应表中的值。 区域:常规消息属性 规范名称:PidLidNonSendToTrackStatus 备用名称:dispidNonSendToTrackStatus
+包含响应表中的值。 区域：常规消息属性 规范名称：PidLidNonSendToTrackStatus 替代名称：dispidNonSendToTrackStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NonSendToTrackStatus;

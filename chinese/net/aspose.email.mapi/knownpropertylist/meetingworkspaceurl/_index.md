@@ -1,14 +1,14 @@
 ---
 title: MeetingWorkspaceUrl
 second_title: Aspose.Email for .NET API 参考
-description: 指定与日历对象关联的会议工作区的 URL 区域会议 规范名称PidLidMeetingWorkspaceUrl 别名dispidMWSURL
+description: 指定与日历对象关联的会议工作区的 URL 区域Meetings 规范名称PidLidMeetingWorkspaceUrl 替代名称dispidMWSURL
 type: docs
 weight: 12410
 url: /zh/net/aspose.email.mapi/knownpropertylist/meetingworkspaceurl/
 ---
 ## KnownPropertyList.MeetingWorkspaceUrl field
 
-指定与日历对象关联的会议工作区的 URL。 区域:会议 规范名称:PidLidMeetingWorkspaceUrl 别名:dispidMWSURL
+指定与日历对象关联的会议工作区的 URL。 区域：Meetings 规范名称：PidLidMeetingWorkspaceUrl 替代名称：dispidMWSURL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MeetingWorkspaceUrl;

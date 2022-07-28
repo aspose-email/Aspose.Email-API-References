@@ -1,14 +1,14 @@
 ---
 title: Contacts2
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Contacts2 протокола ActiveSync
+description: Пространство имен Contact2 протокола ActiveSync
 type: docs
 weight: 1140
 url: /ru/net/aspose.email.clients.activesync.transportlayer/contacts2/
 ---
 ## Contacts2 enumeration
 
-Пространство имен Contacts2 протокола ActiveSync
+Пространство имен Contact2 протокола ActiveSync
 
 ```csharp
 public enum Contacts2
@@ -19,10 +19,10 @@ public enum Contacts2
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | CustomerId | `5` | Идентификатор клиента (ID) для контакта. |
-| GovernmentId | `6` | Присвоенный правительством идентификатор (ID) контакта. |
+| GovernmentId | `6` | Назначенный правительством идентификатор (ID) контакта. |
 | IMAddress | `7` | Адрес для обмена мгновенными сообщениями для контакта. |
 | IMAddress2 | `8` | Альтернативный адрес для обмена мгновенными сообщениями для контакта. |
-| IMAddress3 | `9` | Третичный адрес для обмена мгновенными сообщениями для контакта. |
+| IMAddress3 | `9` | Третичный адрес обмена мгновенными сообщениями для контакта. |
 | ManagerName | `10` | Отличительное имя (DN) менеджера контакта. |
 | CompanyMainPhone | `11` | Основной номер телефона компании контакта. |
 | AccountName | `12` | Имя учетной записи и/или номер контакта. |

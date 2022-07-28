@@ -18,12 +18,12 @@ public Task<ExchangeFolderPageInfo> ListSubFoldersByPageAsync(string parentFolde
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | parentFolderUri | String | 父文件夹 URI |
-| page | PageInfo | 页面信息 |
+| page | PageInfo | 一页信息 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
 
-A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)包含找到的文件夹，如果文件夹名称已指明；否则， 返回所有子文件夹
+一个[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)如果指定了文件夹名称，则包含找到的文件夹；否则， 返回所有子文件夹
 
 ### 也可以看看
 

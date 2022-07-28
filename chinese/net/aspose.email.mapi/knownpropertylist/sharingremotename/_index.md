@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteName
 second_title: Aspose.Email for .NET API 参考
-description: 包含正在共享的文件夹上的 PidTagDisplayName 属性第 2.667 节的值 区域共享 规范名称PidLidSharingRemoteName 备用名称dispidSharingRemoteName
+description: 包含正在共享的文件夹上的 PidTagDisplayName 属性第 2.667 节的值 区域Sharing 规范名称PidLidSharingRemoteName 替代名称dispidSharingRemoteName
 type: docs
 weight: 17820
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingremotename/
 ---
 ## KnownPropertyList.SharingRemoteName field
 
-包含正在共享的文件夹上的 PidTagDisplayName 属性（第 2.667 节）的值。 区域:共享 规范名称:PidLidSharingRemoteName 备用名称:dispidSharingRemoteName
+包含正在共享的文件夹上的 PidTagDisplayName 属性（第 2.667 节）的值。 区域：Sharing 规范名称：PidLidSharingRemoteName 替代名称：dispidSharingRemoteName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteName;

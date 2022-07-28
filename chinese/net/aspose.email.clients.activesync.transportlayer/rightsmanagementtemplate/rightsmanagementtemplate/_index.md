@@ -34,7 +34,7 @@ public RightsManagementTemplate(string templateID, string templateName, string t
 | --- | --- | --- |
 | templateID | String | 模板标识符 |
 | templateName | String | 模板名称 |
-| templateDescription | String | 模板描述 |
+| templateDescription | String | 模板说明 |
 
 ### 也可以看看
 

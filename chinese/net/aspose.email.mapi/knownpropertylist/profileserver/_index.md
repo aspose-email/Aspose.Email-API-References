@@ -1,14 +1,14 @@
 ---
 title: ProfileServer
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROFILE_SERVER
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_PROFILE_SERVER
 type: docs
 weight: 14880
 url: /zh/net/aspose.email.mapi/knownpropertylist/profileserver/
 ---
 ## KnownPropertyList.ProfileServer field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROFILE_SERVER
+Microsoft? Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_PROFILE_SERVER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileServer;

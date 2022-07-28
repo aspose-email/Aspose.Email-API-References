@@ -1,14 +1,14 @@
 ---
 title: UrlType
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 url 类型
+description: 获取或设置一个url类型
 type: docs
 weight: 30
 url: /zh/net/aspose.email.personalinfo.vcard/vcardurl/urltype/
 ---
 ## VCardUrl.UrlType property
 
-获取或设置 url 类型
+获取或设置一个url类型
 
 ```csharp
 public VCardUrlType UrlType { get; set; }

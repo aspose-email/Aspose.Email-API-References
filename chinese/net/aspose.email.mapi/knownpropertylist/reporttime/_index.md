@@ -1,14 +1,14 @@
 ---
 title: ReportTime
 second_title: Aspose.Email for .NET API 参考
-description: 表示最后一次更新由 PidTagJunkIncludeContacts 属性第 2.749 节控制的联系人列表 区域MapiEnvelope 属性集 规范名称PidTagReportTime 替代名称PR_REPORT_TIME ptagReportTime
+description: 表示最后一次更新由 PidTagJunkIncludeContacts 属性第 2.749 节控制的联系人列表 区域MapiEnvelope 属性集 规范名称PidTagReportTime 替代名称PR_REPORT_TIMEptagReportTime
 type: docs
 weight: 16100
 url: /zh/net/aspose.email.mapi/knownpropertylist/reporttime/
 ---
 ## KnownPropertyList.ReportTime field
 
-表示最后一次更新由 PidTagJunkIncludeContacts 属性（第 2.749 节）控制的联系人列表。 区域:MapiEnvelope 属性集 规范名称:PidTagReportTime 替代名称:PR_REPORT_TIME, ptagReportTime,
+表示最后一次更新由 PidTagJunkIncludeContacts 属性（第 2.749 节）控制的联系人列表。 区域：MapiEnvelope 属性集 规范名称：PidTagReportTime 替代名称：PR_REPORT_TIME、ptagReportTime、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportTime;

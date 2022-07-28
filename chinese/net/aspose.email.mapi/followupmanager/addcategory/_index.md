@@ -1,14 +1,14 @@
 ---
 title: AddCategory
 second_title: Aspose.Email for .NET API 参考
-description: 添加消息的类别
+description: 为消息添加类别
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/followupmanager/addcategory/
 ---
 ## FollowUpManager.AddCategory method
 
-添加消息的类别。
+为消息添加类别。
 
 ```csharp
 public static void AddCategory(MapiMessage message, string categoryName)
@@ -16,14 +16,14 @@ public static void AddCategory(MapiMessage message, string categoryName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)将在其中添加类别. |
-| categoryName | String | 类别名称。 |
+| message | MapiMessage | 这[`MapiMessage`](../../mapimessage)其中将添加一个类别。 |
+| categoryName | String | 分类名称。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 | ArgumentException | 如果*categoryName*为空或为空。 |
 
 ### 也可以看看

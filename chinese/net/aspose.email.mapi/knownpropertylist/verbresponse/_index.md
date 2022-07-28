@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/verbresponse/
 ---
 ## KnownPropertyList.VerbResponse field
 
-指定受访者选择的投票选项。 区域:常规消息属性 规范名称:PidLidVerbResponse 替代名称:dispidVerbResponse
+指定受访者选择的投票选项。 区域：常规消息属性 规范名称：PidLidVerbResponse 替代名称：dispidVerbResponse
 
 ```csharp
 public static readonly PidLidPropertyDescriptor VerbResponse;

@@ -1,14 +1,14 @@
 ---
 title: MessageInfoCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示MessageInfo的集合
+description: 表示 MessageInfo 的集合
 type: docs
-weight: 20210
+weight: 20260
 url: /zh/net/aspose.email.storage.pst/messageinfocollection/
 ---
 ## MessageInfoCollection class
 
-表示MessageInfo的集合。
+表示 MessageInfo 的集合。
 
 ```csharp
 public sealed class MessageInfoCollection : List<MessageInfo>

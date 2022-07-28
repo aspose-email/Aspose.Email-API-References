@@ -1,14 +1,14 @@
 ---
 title: FormTarget
 second_title: Aspose.Email for .NET API 参考
-description: 表示提交表单后在哪里显示表单响应该值必须是 _blank 或 _top
+description: 表示提交表单后显示表单响应的位置该值必须是 _blank 或 _top.
 type: docs
 weight: 190
 url: /zh/net/aspose.email.amp/formtarget/
 ---
 ## FormTarget enumeration
 
-表示提交表单后在哪里显示表单响应。该值必须是 _blank 或 _top。
+表示提交表单后显示表单响应的位置。该值必须是 _blank 或 _top.
 
 ```csharp
 public enum FormTarget

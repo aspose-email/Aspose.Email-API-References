@@ -17,7 +17,7 @@ public Task<DeliveryServiceResponse<MailMessage>> SendAsync(MailMessage message,
 
 | 范围 | 描述 |
 | --- | --- |
-| message | 代表电子邮件的 MailMessage-信息。 |
+| message | 表示电子邮件消息的 MailMessage。 |
 | token |  |
 
 ### 也可以看看

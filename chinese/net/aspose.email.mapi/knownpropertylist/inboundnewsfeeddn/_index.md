@@ -1,14 +1,14 @@
 ---
 title: InboundNewsfeedDn
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_INBOUND_NEWSFEED_DN
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_INBOUND_NEWSFEED_DN
 type: docs
 weight: 11290
 url: /zh/net/aspose.email.mapi/knownpropertylist/inboundnewsfeeddn/
 ---
 ## KnownPropertyList.InboundNewsfeedDn field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_INBOUND_NEWSFEED_DN
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_INBOUND_NEWSFEED_DN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InboundNewsfeedDn;

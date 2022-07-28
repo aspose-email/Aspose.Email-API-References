@@ -1,14 +1,14 @@
 ---
 title: ReplyRequested
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否请求对 Message 对象进行回复 区域MapiRecipient 规范名称PidTagReplyRequested 备用名称PR_REPLY_REQUESTED ptagReplyRequested
+description: 指示是否请求回复消息对象 区域MapiRecipient 规范名称PidTagReplyRequested 替代名称PR_REPLY_REQUESTEDptagReplyRequested
 type: docs
 weight: 15950
 url: /zh/net/aspose.email.mapi/knownpropertylist/replyrequested/
 ---
 ## KnownPropertyList.ReplyRequested field
 
-指示是否请求对 Message 对象进行回复。 区域:MapiRecipient 规范名称:PidTagReplyRequested 备用名称:PR_REPLY_REQUESTED, ptagReplyRequested
+指示是否请求回复消息对象。 区域：MapiRecipient 规范名称：PidTagReplyRequested 替代名称：PR_REPLY_REQUESTED、ptagReplyRequested
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyRequested;

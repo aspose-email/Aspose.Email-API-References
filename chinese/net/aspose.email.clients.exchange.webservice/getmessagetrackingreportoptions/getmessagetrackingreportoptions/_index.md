@@ -1,14 +1,14 @@
 ---
 title: GetMessageTrackingReportOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化GetMessageTrackingReportOptionsaspose.email.clients.exchange.webservice/getmessagetrackingreportoptions类 的新实例
+description: 初始化GetMessageTrackingReportOptionsaspose.email.clients.exchange.webservice/getmessagetrackingreportoptions class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/getmessagetrackingreportoptions/
 ---
 ## GetMessageTrackingReportOptions constructor
 
-初始化[`GetMessageTrackingReportOptions`](../../getmessagetrackingreportoptions)类 的新实例
+初始化[`GetMessageTrackingReportOptions`](../../getmessagetrackingreportoptions) class
 
 ```csharp
 public GetMessageTrackingReportOptions(string scope, string messageTrackingReportId)
@@ -17,14 +17,14 @@ public GetMessageTrackingReportOptions(string scope, string messageTrackingRepor
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | scope | String | 指定执行搜索的位置 |
-| messageTrackingReportId | String | 指定从FindMessageTrackingReport 操作 |
+| messageTrackingReportId | String | 指定从 FindMessageTrackingReport 操作获得的标识字符串 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *scope*is` null` 或` 空` |
-| ArgumentException | *messageTrackingReportId*:是` null` 或` 空` |
+| ArgumentException | *scope*是`无效的`或者`空的` |
+| ArgumentException | *messageTrackingReportId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

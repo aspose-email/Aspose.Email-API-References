@@ -18,7 +18,7 @@ public class ReminderAttendee
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ReminderAttendee](reminderattendee)(string) | 初始化[`ReminderAttendee`](../reminderattendee)类的新实例。 |
+| [ReminderAttendee](reminderattendee)(string) | 初始化一个新的实例[`ReminderAttendee`](../reminderattendee)类. |
 
 ## 特性
 

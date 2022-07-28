@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/classificationdescription/
 ---
 ## KnownPropertyList.ClassificationDescription field
 
-包含 PidLidClassification 属性中包含的每个分类类别的人类可读摘要（第 2.53 节）。 区域:常规消息属性 规范名称:PidLidClassificationDescription 替代名称:dispidClassDesc
+包含 PidLidClassification 属性中包含的每个分类类别的人类可读摘要（第 2.53 节）。 区域：常规消息属性 规范名称：PidLidClassificationDescription 替代名称：dispidClassDesc
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClassificationDescription;

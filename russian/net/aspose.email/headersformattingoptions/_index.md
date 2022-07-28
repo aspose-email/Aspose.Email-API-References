@@ -26,13 +26,13 @@ public abstract class HeadersFormattingOptions : SaveOptions
 | --- | --- |
 | [AfterHeadersFormat](../../aspose.email/headersformattingoptions/afterheadersformat) { get; set; } | После формата заголовков. |
 | [BeforeHeadersFormat](../../aspose.email/headersformattingoptions/beforeheadersformat) { get; set; } | Перед форматом заголовков. |
-| [CssStyles](../../aspose.email/headersformattingoptions/cssstyles) { get; set; } | Получает или задает дополнительные стили css для средства форматирования. |
+| [CssStyles](../../aspose.email/headersformattingoptions/cssstyles) { get; set; } | Получает или задает дополнительные стили CSS для средства форматирования. |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | Представляет метод, который обычно предоставляется вызывающей стороной и обрабатывает события выполнения. |
 | [DefaultHeaderFormat](../../aspose.email/headersformattingoptions/defaultheaderformat) { get; set; } | Формат строки заголовка по умолчанию. |
 | [DefaultPageHeaderFormat](../../aspose.email/headersformattingoptions/defaultpageheaderformat) { get; set; } | Формат заголовка страницы по умолчанию. |
 | [FormatTemplates](../../aspose.email/headersformattingoptions/formattemplates) { get; } | Получает шаблоны формата. |
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | Представляет тип сохранения почтового сообщения. Он может быть в формате eml, msg (ASCII или Unicode), mhtml или html. Значение по умолчанию — Eml. |
-| [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields) { get; set; } | Определяет группы контактных полей, которые будут включены в вывод mhtml. Значение по умолчанию — ContactFieldsSet.AllExisting. |
+| [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields) { get; set; } | Определяет группы полей контактов, которые будут включены в вывод mhtml. Значение по умолчанию — ContactFieldsSet.AllExisting. |
 | [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders) { get; } | Получает список заголовков для рендеринга. |
 
 ### Смотрите также

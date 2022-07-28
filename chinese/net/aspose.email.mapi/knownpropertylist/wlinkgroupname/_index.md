@@ -1,14 +1,14 @@
 ---
 title: WlinkGroupName
 second_title: Aspose.Email for .NET API 参考
-description: 指定与快捷方式关联的组标头的 PidTagNormalizedSubject第 2.803 节的值 区域配置 规范名称PidTagWlinkGroupName 备用名称PR_WLINK_GROUP_NAME
+description: 指定与快捷方式关联的组头的 PidTagNormalizedSubject第 2.803 节的值 区域Configuration 规范名称PidTagWlinkGroupName 备用名称PR_WLINK_GROUP_NAME
 type: docs
 weight: 19460
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkgroupname/
 ---
 ## KnownPropertyList.WlinkGroupName field
 
-指定与快捷方式关联的组标头的 PidTagNormalizedSubject（第 2.803 节）的值。 区域:配置 规范名称:PidTagWlinkGroupName 备用名称:PR_WLINK_GROUP_NAME
+指定与快捷方式关联的组头的 PidTagNormalizedSubject（第 2.803 节）的值。 区域：Configuration 规范名称：PidTagWlinkGroupName 备用名称：PR_WLINK_GROUP_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkGroupName;

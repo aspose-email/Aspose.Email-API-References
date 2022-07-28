@@ -19,9 +19,9 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | String | 连接到服务器 |
-| uniqueId | Pop3ListFields | 消息的唯一ID |
-| fields | IConnection | 我们要获取的字段 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | Pop3ListFields | 消息的唯一标识 |
+| fields | IConnection | 我们想要得到的字段 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
@@ -51,9 +51,9 @@ public Task<Pop3MessageInfo> GetMessageInfoAsync(int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | Int32 | 连接到服务器 |
-| sequenceNumber | Pop3ListFields | 消息的序列号 |
-| fields | IConnection | 我们要获取的字段 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Pop3ListFields | 消息的序号 |
+| fields | IConnection | 我们想要得到的字段 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 

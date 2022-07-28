@@ -1,14 +1,14 @@
 ---
 title: OutlookCategory
 second_title: Aspose.Email for .NET API 参考
-description: 表示用户可以根据该类别对 Outlook 项目例如邮件和事件进行分组 用户在主列表中定义类别并且可以将这些用户定义的类别中的一个或多个应用于项目 https//docs.microsoft.com/en-us/graph/api/resources/outlookcategoryviewgraph-rest-1.0
+description: 表示一个类别用户可以根据该类别对 Outlook 项目如邮件和事件进行分组 用户在主列表中定义类别并且可以将这些用户定义的类别中的一个或多个应用于项目 https//docs.microsoft.com/en-us/graph/api/resources/outlookcategoryview graph-rest-1.0
 type: docs
 weight: 16050
 url: /zh/net/aspose.email.clients.graph/outlookcategory/
 ---
 ## OutlookCategory class
 
-表示用户可以根据该类别对 Outlook 项目（例如邮件和事件）进行分组。 用户在主列表中定义类别，并且可以将这些用户定义的类别中的一个或多个应用于项目。 https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view=graph-rest-1.0
+表示一个类别，用户可以根据该类别对 Outlook 项目（如邮件和事件）进行分组。 用户在主列表中定义类别，并且可以将这些用户定义的类别中的一个或多个应用于项目。 https://docs.microsoft.com/en-us/graph/api/resources/outlookcategory?view =graph-rest-1.0
 
 ```csharp
 public class OutlookCategory
@@ -18,18 +18,18 @@ public class OutlookCategory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OutlookCategory](outlookcategory#constructor)() | 初始化[`OutlookCategory`](../outlookcategory)类的新实例。 |
-| [OutlookCategory](outlookcategory#constructor_1)(string, CategoryPreset) | 初始化[`OutlookCategory`](../outlookcategory)类的新实例。 |
-| [OutlookCategory](outlookcategory#constructor_2)(string, string, CategoryPreset) | 初始化[`OutlookCategory`](../outlookcategory)类的新实例。 |
+| [OutlookCategory](outlookcategory#constructor)() | 初始化[`OutlookCategory`](../outlookcategory)类. |
+| [OutlookCategory](outlookcategory#constructor_1)(string, CategoryPreset) | 初始化[`OutlookCategory`](../outlookcategory)类. |
+| [OutlookCategory](outlookcategory#constructor_2)(string, string, CategoryPreset) | 初始化[`OutlookCategory`](../outlookcategory)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Color](../../aspose.email.clients.graph/outlookcategory/color) { get; set; } | 表征类别的预设颜色常数的字符串表示，并映射到 25 种预定义颜色之一。 颜色的可能值是预设常量，例如 None、preset0 和 preset1。 每个预设常数进一步映射到一种颜色；实际颜色取决于显示类别的 Outlook 客户端。 |
+| [Color](../../aspose.email.clients.graph/outlookcategory/color) { get; set; } | 表示类别的预设颜色常量的字符串表示形式，并映射到 25 种预定义颜色之一。 颜色的可能值是预设常量，例如 None、preset0 和 preset1。 每个预设的常数进一步映射到一种颜色；实际颜色取决于显示类别的 Outlook 客户端。 |
 | [DisplayName](../../aspose.email.clients.graph/outlookcategory/displayname) { get; set; } | 标识用户邮箱中类别的唯一名称。 类别创建后，名称不能更改。 |
 | [Id](../../aspose.email.clients.graph/outlookcategory/id) { get; set; } | 类别标识符 |
-| [Preset](../../aspose.email.clients.graph/outlookcategory/preset) { get; set; } | 表征类别的预设颜色常数，映射到 25 种预定义颜色之一。 每个预设常数进一步映射到一种颜色；实际颜色取决于显示类别的 Outlook 客户端。 |
+| [Preset](../../aspose.email.clients.graph/outlookcategory/preset) { get; set; } | 一个预设颜色常数，用于表征一个类别，并映射到 25 种预定义颜色之一。 每个预设的常数进一步映射到一种颜色；实际颜色取决于显示类别的 Outlook 客户端。 |
 
 ## 方法
 

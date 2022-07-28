@@ -32,7 +32,7 @@ public void MarkAllItemsAsUnread(params string[] folderIds)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderIds | String[] | 待处理的文件夹 uri 列表。 |
+| folderIds | String[] | 用于处理的文件夹 uri 列表。 |
 
 ### 也可以看看
 
@@ -52,7 +52,7 @@ public void MarkAllItemsAsUnread(IEnumerable<string> folderIds)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderIds | IEnumerable`1 | 待处理的文件夹 uri 列表。 |
+| folderIds | IEnumerable`1 | 用于处理的文件夹 uri 列表。 |
 
 ### 也可以看看
 

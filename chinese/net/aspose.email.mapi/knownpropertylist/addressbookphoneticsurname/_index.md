@@ -1,14 +1,14 @@
 ---
 title: AddressBookPhoneticSurname
 second_title: Aspose.Email for .NET API 参考
-description: 包含 PidTagSurname 属性的语音表示第 2.1026 节 区域地址簿 规范名称PidTagAddressBookPhoneticSurname 别名PR_EMS_AB_PHONETIC_SURNAME PR_EMS_AB_PHONETIC_SURNAME_A PR_EMS_AB_PHONETIC_SURNAME_W
+description: 包含 PidTagSurname 属性的语音表示第 2.1026 节 区域地址簿 规范名称PidTagAddressBookPhoneticSurname 备用名称PR_EMS_AB_PHONETIC_SURNAMEPR_EMS_AB_PHONETIC_SURNAME_APR_EMS_AB_PHONETIC_SURNAME_W
 type: docs
 weight: 870
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookphoneticsurname/
 ---
 ## KnownPropertyList.AddressBookPhoneticSurname field
 
-包含 PidTagSurname 属性的语音表示（第 2.1026 节）。 区域:地址簿 规范名称:PidTagAddressBookPhoneticSurname 别名:PR_EMS_AB_PHONETIC_SURNAME, PR_EMS_AB_PHONETIC_SURNAME_A, PR_EMS_AB_PHONETIC_SURNAME_W
+包含 PidTagSurname 属性的语音表示（第 2.1026 节）。 区域：地址簿 规范名称：PidTagAddressBookPhoneticSurname 备用名称：PR_EMS_AB_PHONETIC_SURNAME、PR_EMS_AB_PHONETIC_SURNAME_A、PR_EMS_AB_PHONETIC_SURNAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookPhoneticSurname;

@@ -1,14 +1,14 @@
 ---
 title: ContainerClass
 second_title: Aspose.Email for .NET API 参考
-description: 获取具有指定消息类别的文件夹
+description: 获取具有指定邮件类别的文件夹
 type: docs
 weight: 20
 url: /zh/net/aspose.email.storage.pst/personalstoragequerybuilder/containerclass/
 ---
 ## PersonalStorageQueryBuilder.ContainerClass property
 
-获取具有指定消息类别的文件夹。
+获取具有指定邮件类别的文件夹。
 
 ```csharp
 public StringComparisonField ContainerClass { get; }
@@ -16,7 +16,7 @@ public StringComparisonField ContainerClass { get; }
 
 ### 适当的价值
 
-[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield)表示一个容器类。
+的[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield)代表一个容器类。
 
 ### 也可以看看
 

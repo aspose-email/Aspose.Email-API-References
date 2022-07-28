@@ -1,14 +1,14 @@
 ---
 title: IsRead
 second_title: Aspose.Email for .NET API 参考
-description: 消息已被读取
+description: 消息已读
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.imap/imapmessageflags/isread/
 ---
 ## ImapMessageFlags.IsRead property
 
-消息已被读取。
+消息已读。
 
 ```csharp
 public static ImapMessageFlags IsRead { get; }

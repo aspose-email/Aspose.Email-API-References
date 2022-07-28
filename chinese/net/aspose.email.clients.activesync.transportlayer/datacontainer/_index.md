@@ -29,22 +29,22 @@ public class DataContainer : IEnumerable
 | --- | --- |
 | [BinaryData](../../aspose.email.clients.activesync.transportlayer/datacontainer/binarydata) { get; set; } | 指定数据是否为二进制。 |
 | [ElementName](../../aspose.email.clients.activesync.transportlayer/datacontainer/elementname) { get; } | 元素的名称，其数据包含在数据容器中。 |
-| [Item](../../aspose.email.clients.activesync.transportlayer/datacontainer/item) { get; } | 获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。 (15 indexers) |
+| [Item](../../aspose.email.clients.activesync.transportlayer/datacontainer/item) { get; } | 获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。 (15 indexers) |
 | [Namespace](../../aspose.email.clients.activesync.transportlayer/datacontainer/namespace) { get; } | 元素的命名空间，其数据包含在数据容器中。 |
 | [Parent](../../aspose.email.clients.activesync.transportlayer/datacontainer/parent) { get; } | 父数据容器 |
-| [Prefix](../../aspose.email.clients.activesync.transportlayer/datacontainer/prefix) { get; } | xml 节点中元素 |
-| [SubItems](../../aspose.email.clients.activesync.transportlayer/datacontainer/subitems) { get; } | 将 ApplicationData 的子元素复制到新列表。 |
+| [Prefix](../../aspose.email.clients.activesync.transportlayer/datacontainer/prefix) { get; } | xml 节点中元素的前缀 |
+| [SubItems](../../aspose.email.clients.activesync.transportlayer/datacontainer/subitems) { get; } | 将 ApplicationData 的子元素复制到新的列表中。 |
 | [Value](../../aspose.email.clients.activesync.transportlayer/datacontainer/value) { get; set; } | 元素的值 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_3)(string) | 将xml格式的元素数据添加到DataContainer。 |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_4)(XmlNode) | 将xml格式的元素数据添加到DataContainer。 |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add)(int, Namespace) | 为元素添加空 DataContainer。 |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_1)(int, string, Namespace) | 将元素的数据添加到 DataContainer。 |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_2)(int, string, bool, Namespace) | 将元素的数据添加到 DataContainer。 |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_3)(string) | 将 xml 格式的元素数据添加到 DataContainer. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_4)(XmlNode) | 将 xml 格式的元素数据添加到 DataContainer. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add)(int, Namespace) | 为元素添加空 DataContainer. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_1)(int, string, Namespace) | 将元素的数据添加到 DataContainer. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_2)(int, string, bool, Namespace) | 将元素的数据添加到 DataContainer. |
 | [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist)(AirSync) | 获取选定元素的 DataContainers 列表 |
 | [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_1)(AirSyncBase) | 获取选定元素的 DataContainers 列表 |
 | [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_2)(Calendar) | 获取选定元素的 DataContainers 列表 |

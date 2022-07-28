@@ -3,7 +3,7 @@ title: MapiDistributionListEntryIdType
 second_title: Aspose.Email for .NET API 参考
 description: 指定 EntryID 的类型
 type: docs
-weight: 18350
+weight: 18380
 url: /zh/net/aspose.email.mapi/mapidistributionlistentryidtype/
 ---
 ## MapiDistributionListEntryIdType enumeration
@@ -18,9 +18,9 @@ public enum MapiDistributionListEntryIdType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| OneOff | `0` | 指定一次性的 EntryID。 EntryID 必须是一次性的 EntryID 结构。 |
+| OneOff | `0` | 指定一次性EntryID。 EntryID 必须是一次性EntryID 结构。 |
 | Contact | `3` | Contact 对象的 EntryID。 EntryID 必须是 Message EntryID 结构。 |
-| DistributionList | `4` | 个人分发列表对象的 EntryID。 EntryID 必须是 Message EntryID 结构。 |
+| DistributionList | `4` | 个人分发列表对象的 EntryID。 EntryID 必须是消息 EntryID 结构。 |
 | GalMailUser | `5` | GAL 中邮件用户的 EntryID。 EntryID 必须是通讯簿 EntryID 结构。 |
 | GalDistributionList | `6` | GAL 中分发列表的 EntryID。 EntryID 必须是通讯簿 EntryID 结构。 |
 

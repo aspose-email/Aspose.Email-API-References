@@ -28,7 +28,7 @@ public class AutodiscoverResult
 | --- | --- |
 | [Culture](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/culture) { get; } | 指定客户端文化，用于本地化错误消息。 |
 | [DisplayName](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/displayname) { get; } | 包含用户在目录服务中的显示名称。 |
-| [EMailAddress](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/emailaddress) { get; } | 包含用户的 SMTP 电子邮件地址，用于标识用户在网络中的邮箱。 |
+| [EMailAddress](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/emailaddress) { get; } | 包含用户的 SMTP 电子邮件地址，用于识别用户在网络中的邮箱。 |
 | [Redirect](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/redirect) { get; } | 指定所请求用户的 SMTP 地址。 |
 | [Servers](../../aspose.email.clients.activesync.transportlayer/autodiscoverresult/servers) { get; } | 包含服务器设置数组 |
 

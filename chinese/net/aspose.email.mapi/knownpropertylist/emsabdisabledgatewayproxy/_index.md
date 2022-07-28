@@ -1,14 +1,14 @@
 ---
 title: EmsAbDisabledGatewayProxy
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_DISABLED_GATEWAY_PROXY
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_DISABLED_GATEWAY_PROXY
 type: docs
 weight: 5470
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabdisabledgatewayproxy/
 ---
 ## KnownPropertyList.EmsAbDisabledGatewayProxy field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_DISABLED_GATEWAY_PROXY
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_DISABLED_GATEWAY_PROXY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDisabledGatewayProxy;

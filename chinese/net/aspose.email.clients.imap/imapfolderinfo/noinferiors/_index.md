@@ -1,14 +1,14 @@
 ---
 title: NoInferiors
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示此文件夹是否可以具有子级别 如果是 True 那么现在不存在子关卡以后也不能创建子关卡
+description: 获取一个值该值指示此文件夹是否可以具有子级别 如果是真的 那么现在不存在子关卡以后也不能创建任何子关卡
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.imap/imapfolderinfo/noinferiors/
 ---
 ## ImapFolderInfo.NoInferiors property
 
-获取一个值，该值指示此文件夹是否可以具有子级别。 如果是` True` ，那么现在不存在子关卡，以后也不能创建子关卡
+获取一个值，该值指示此文件夹是否可以具有子级别。 如果是`真的` 那么现在不存在子关卡，以后也不能创建任何子关卡
 
 ```csharp
 public bool NoInferiors { get; }

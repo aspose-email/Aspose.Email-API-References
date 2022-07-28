@@ -1,14 +1,14 @@
 ---
 title: ConversationId
 second_title: Aspose.Email for .NET API 参考
-description: 指定要搜索的对话该值是一个 GUID 协议版本为 12.1 时不支持 ConversationId 如果 ConversationId 作为除 And 元素之外的任何元素的子元素包含在内则服务器以 Status 值 8 SearchTooComplex 进行响应
+description: 指定要搜索的对话该值为 GUID 当协议版本为 12.1. 时不支持 ConversationId
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/querytype/conversationid/
 ---
 ## QueryType.ConversationId property
 
-指定要搜索的对话。该值是一个 GUID。 协议版本为 12.1 时不支持 ConversationId。 如果 ConversationId 作为除 And 元素之外的任何元素的子元素包含在内，则服务器以 Status 值 8 (SearchTooComplex) 进行响应。
+指定要搜索的对话。该值为 GUID。 当协议版本为 12.1. 时，不支持 ConversationId
 
 ```csharp
 public string ConversationId { get; set; }

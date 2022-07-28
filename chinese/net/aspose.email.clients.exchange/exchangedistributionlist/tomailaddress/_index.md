@@ -1,14 +1,14 @@
 ---
 title: ToMailAddress
 second_title: Aspose.Email for .NET API 参考
-description: 将实例的值转换为 MailAddress
+description: 将实例的值转换为 MailAddress.
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange/exchangedistributionlist/tomailaddress/
 ---
 ## ExchangeDistributionList.ToMailAddress method
 
-将实例的值转换为 MailAddress。
+将实例的值转换为 MailAddress.
 
 ```csharp
 public MailAddress ToMailAddress()

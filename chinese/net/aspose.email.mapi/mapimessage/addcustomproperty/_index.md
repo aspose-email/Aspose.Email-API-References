@@ -16,16 +16,16 @@ public void AddCustomProperty(MapiProperty property, string stringNameId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| property | MapiProperty | 属性[`MapiProperty`](../../mapiproperty)。 |
-| stringNameId | String | 属性名称String。 |
+| property | MapiProperty | 该物业[`MapiProperty`](../../mapiproperty). |
+| stringNameId | String | 物业名称String. |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*property*为空。 |
+| ArgumentNullException | 如果*property*一片空白。 |
 | ArgumentException | 如果属性数据为空。 |
-| NotSupportedException | 如果数据类型尚不支持。 |
+| NotSupportedException | 如果尚不支持数据类型。 |
 
 ### 也可以看看
 
@@ -48,14 +48,14 @@ public void AddCustomProperty(MapiPropertyType type, byte[] data, string stringN
 | --- | --- | --- |
 | type | MapiPropertyType | MapiProperty 类型[`MapiPropertyType`](../../mapipropertytype) |
 | data | Byte[] | MapiProperty 数据。Byte |
-| stringNameId | String | 属性名称String。 |
+| stringNameId | String | 物业名称String. |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentException | 如果属性数据为空。 |
-| NotSupportedException | 如果数据类型尚不支持。 |
+| NotSupportedException | 如果尚不支持数据类型。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Keys
 second_title: Aspose.Email for .NET API 参考
-description: 获取ReadOnlyCollection包含集合中的所有标题键
+description: 得到一个ReadOnlyCollection包含 collections 中的所有标题键
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mime/headercollection/keys/
 ---
 ## HeaderCollection.Keys property
 
-获取ReadOnlyCollection包含集合中的所有标题键
+得到一个ReadOnlyCollection包含 collections 中的所有标题键
 
 ```csharp
 public virtual ReadOnlyCollection<string> Keys { get; }

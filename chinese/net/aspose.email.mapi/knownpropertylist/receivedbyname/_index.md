@@ -1,14 +1,14 @@
 ---
 title: ReceivedByName
 second_title: Aspose.Email for .NET API 参考
-description: 包含电子邮件消息接收者的显示名称 区域地址属性 规范名称PidTagReceivedByName 替代名称PR_RECEIVED_BY_NAME PR_RECEIVED_BY_NAME_A PR_RECEIVED_BY_NAME_W
+description: 包含电子邮件消息接收者的显示名称 区域地址属性 规范名称PidTagReceivedByName 备用名称PR_RECEIVED_BY_NAMEPR_RECEIVED_BY_NAME_APR_RECEIVED_BY_NAME_W
 type: docs
 weight: 15300
 url: /zh/net/aspose.email.mapi/knownpropertylist/receivedbyname/
 ---
 ## KnownPropertyList.ReceivedByName field
 
-包含电子邮件消息接收者的显示名称。 区域:地址属性 规范名称:PidTagReceivedByName 替代名称:PR_RECEIVED_BY_NAME, PR_RECEIVED_BY_NAME_A, PR_RECEIVED_BY_NAME_W
+包含电子邮件消息接收者的显示名称。 区域：地址属性 规范名称：PidTagReceivedByName 备用名称：PR_RECEIVED_BY_NAME、PR_RECEIVED_BY_NAME_A、PR_RECEIVED_BY_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedByName;

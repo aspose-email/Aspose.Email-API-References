@@ -1,14 +1,14 @@
 ---
 title: AppointmentMsgSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMsgSaveOptionsaspose.email/msgsaveoptions
+description: Инициализирует новый экземплярMsgSaveOptionsaspose.email/msgsaveoptions класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/appointmentmsgsaveoptions/appointmentmsgsaveoptions/
 ---
 ## AppointmentMsgSaveOptions constructor
 
-Инициализирует новый экземпляр класса[`MsgSaveOptions`](../../../aspose.email/msgsaveoptions)
+Инициализирует новый экземпляр[`MsgSaveOptions`](../../../aspose.email/msgsaveoptions) класс
 
 ```csharp
 public AppointmentMsgSaveOptions()

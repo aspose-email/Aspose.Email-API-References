@@ -27,9 +27,9 @@ public string AddMapiMessageItem(IMapiMessageItem item)
 | 例外 | （健康）状况 |
 | --- | --- |
 | NotImplementedException | 抛出，如果 PST 文件版本是 ANSI。 |
-| ArgumentNullException | 抛出，如果要添加的项目为空。 |
-| InvalidOperationException | 抛出，如果 PST 以只读方式打开。 |
-| NotSupportedException | 当 MessageClass 不属于 IPM.Note, IPM.StickyNote, IPM.Contact、IPM.Activity、IPM.Appointment、IPM.Schedule.meeting、IPM.Task。 |
+| ArgumentNullException | 如果要添加的项目为空，则抛出。 |
+| InvalidOperationException | 抛出，如果 PST 是只读的。 |
+| NotSupportedException | 当 MessageClass 不属于 IPM.Note、IPM.StickyNote、 IPM.Contact、IPM.Activity、IPM.Appointment、IPM.Schedule.meeting、IPM.Task. 时抛出 |
 | InvalidOperationException | 当 MessageClass 与文件夹的 ContainerClass 不对应时抛出。 |
 
 ### 也可以看看

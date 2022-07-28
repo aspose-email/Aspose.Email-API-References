@@ -33,7 +33,7 @@ public RightsManagementTemplate(string templateID, string templateName, string t
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | templateID | String | Идентификатор шаблона |
-| templateName | String | Имя шаблона |
+| templateName | String | Имя Шаблона |
 | templateDescription | String | Описание шаблона |
 
 ### Смотрите также

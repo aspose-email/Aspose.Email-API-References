@@ -1,14 +1,14 @@
 ---
 title: AppointmentColor
 second_title: Aspose.Email for .NET API 参考
-description: 指定显示日历对象时使用的颜色 区域日历 规范名称PidLidAppointmentColor 替代名称dispidApptColor
+description: 指定显示日历对象时使用的颜色 区域Calendar 规范名称PidLidAppointmentColor 替代名称dispidApptColor
 type: docs
 weight: 1120
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentcolor/
 ---
 ## KnownPropertyList.AppointmentColor field
 
-指定显示日历对象时使用的颜色。 区域:日历 规范名称:PidLidAppointmentColor 替代名称:dispidApptColor
+指定显示日历对象时使用的颜色。 区域：Calendar 规范名称：PidLidAppointmentColor 替代名称：dispidApptColor
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentColor;

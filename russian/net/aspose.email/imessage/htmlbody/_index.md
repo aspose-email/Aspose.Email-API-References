@@ -1,14 +1,14 @@
 ---
 title: HtmlBody
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тело сообщения в формате html
+description: Получает или задает сообщение в формате html body
 type: docs
 weight: 80
 url: /ru/net/aspose.email/imessage/htmlbody/
 ---
 ## IMessage.HtmlBody property
 
-Получает или задает тело сообщения в формате html
+Получает или задает сообщение в формате html body
 
 ```csharp
 public string HtmlBody { get; set; }

@@ -3,7 +3,7 @@ title: PersonalStorage
 second_title: Aspose.Email for .NET API 参考
 description: 表示个人存储表 .pst 文件
 type: docs
-weight: 20240
+weight: 20290
 url: /zh/net/aspose.email.storage.pst/personalstorage/
 ---
 ## PersonalStorage class
@@ -18,15 +18,15 @@ public class PersonalStorage : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PersonalStorage](personalstorage)(TraversalExceptionsCallback) | 初始化[`PersonalStorage`](../personalstorage)类的新实例。 允许设置回调方法来处理 PST 遍历期间发生的异常。 |
+| [PersonalStorage](personalstorage)(TraversalExceptionsCallback) | 初始化一个新的实例[`PersonalStorage`](../personalstorage)class. 允许设置回调方法来处理 PST 遍历期间发生的异常。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CanWrite](../../aspose.email.storage.pst/personalstorage/canwrite) { get; } | 获取一个值，该值指示 当前 pst 是否支持写入。 |
+| [CanWrite](../../aspose.email.storage.pst/personalstorage/canwrite) { get; } | 获取一个值，表示 当前的pst是否支持写入。 |
 | [Format](../../aspose.email.storage.pst/personalstorage/format) { get; } | 获取文件格式。 |
-| [IsUnicode](../../aspose.email.storage.pst/personalstorage/isunicode) { get; } | 获取指示 PST 文件格式是否为 Unicode 的值。 PST 文件格式有两个版本:Unicode 和 ANSI。 |
+| [IsUnicode](../../aspose.email.storage.pst/personalstorage/isunicode) { get; } | 获取表示 PST 文件格式是否为 Unicode 的值。 PST 文件格式有两个版本：Unicode 和 ANSI。 |
 | [RootFolder](../../aspose.email.storage.pst/personalstorage/rootfolder) { get; } | 获取 PST 的根文件夹。 |
 | [Store](../../aspose.email.storage.pst/personalstorage/store) { get; } | 获取 PST 消息存储。 |
 
@@ -35,23 +35,23 @@ public class PersonalStorage : IDisposable
 | 姓名 | 描述 |
 | --- | --- |
 | static [Create](../../aspose.email.storage.pst/personalstorage/create#create)(Stream, FileFormatVersion) | 在流中创建 PST。 |
-| static [Create](../../aspose.email.storage.pst/personalstorage/create#create_4)(string, FileFormatVersion) | 创建具有指定文件名的新 PST 文件。 |
+| static [Create](../../aspose.email.storage.pst/personalstorage/create#create_4)(string, FileFormatVersion) | 使用指定的文件名创建新的 PST 文件。 |
 | static [Create](../../aspose.email.storage.pst/personalstorage/create#create_1)(Stream, FileFormatVersion, bool) | 在流中创建 PST。 |
 | static [Create](../../aspose.email.storage.pst/personalstorage/create#create_3)(Stream, FileFormatVersion, CancellationToken) | 在流中创建 PST。 |
-| static [Create](../../aspose.email.storage.pst/personalstorage/create#create_5)(string, FileFormatVersion, CancellationToken) | 创建具有指定文件名的新 PST 文件。 |
+| static [Create](../../aspose.email.storage.pst/personalstorage/create#create_5)(string, FileFormatVersion, CancellationToken) | 使用指定的文件名创建新的 PST 文件。 |
 | static [Create](../../aspose.email.storage.pst/personalstorage/create#create_2)(Stream, FileFormatVersion, bool, CancellationToken) | 在流中创建 PST。 |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile)(string) | 从文件加载 PST。 |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_3)(string, bool) | 从文件加载 PST。 |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_5)(string, CancellationToken) | 从文件加载 PST。 |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_1)(string, PersonalStorageLoadOptions) | 从文件加载 PST。 |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile)(string) | 从文件中加载 PST。 |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_3)(string, bool) | 从文件中加载 PST。 |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_5)(string, CancellationToken) | 从文件中加载 PST。 |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_1)(string, PersonalStorageLoadOptions) | 从文件中加载 PST。 |
 | static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_4)(string, bool, CancellationToken) |  |
-| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_2)(string, PersonalStorageLoadOptions, CancellationToken) | 从文件加载 PST。 |
+| static [FromFile](../../aspose.email.storage.pst/personalstorage/fromfile#fromfile_2)(string, PersonalStorageLoadOptions, CancellationToken) | 从文件中加载 PST。 |
 | static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream)(Stream) | 从流中加载 PST。 |
 | static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_3)(Stream, bool) | 从流中加载 PST。 |
-| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_5)(Stream, CancellationToken) | 从文件加载 PST。 |
+| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_5)(Stream, CancellationToken) | 从文件中加载 PST。 |
 | static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_1)(Stream, PersonalStorageLoadOptions) | 从流中加载 PST。 |
 | static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_4)(Stream, bool, CancellationToken) |  |
-| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_2)(Stream, PersonalStorageLoadOptions, CancellationToken) | 从文件加载 PST。 |
+| static [FromStream](../../aspose.email.storage.pst/personalstorage/fromstream#fromstream_2)(Stream, PersonalStorageLoadOptions, CancellationToken) | 从文件中加载 PST。 |
 | [ChangeMessage](../../aspose.email.storage.pst/personalstorage/changemessage)(string, MapiPropertyCollection) | 更改消息属性。 |
 | [ConvertTo](../../aspose.email.storage.pst/personalstorage/convertto)(FileFormat) | 将当前对象转换为指定格式。 |
 | [CreatePredefinedFolder](../../aspose.email.storage.pst/personalstorage/createpredefinedfolder#createpredefinedfolder)(string, StandardIpmFolder) | 创建标准人际消息 (IPM) 文件夹。 |
@@ -71,14 +71,14 @@ public class PersonalStorage : IDisposable
 | [GetFolderById](../../aspose.email.storage.pst/personalstorage/getfolderbyid#getfolderbyid_1)(string) | 从 PST 获取个人文件夹。 |
 | [GetParentFolder](../../aspose.email.storage.pst/personalstorage/getparentfolder#getparentfolder)(byte[]) | 获取消息的父文件夹。 |
 | [GetParentFolder](../../aspose.email.storage.pst/personalstorage/getparentfolder#getparentfolder_1)(string) | 获取消息的父文件夹。 |
-| [GetPredefinedFolder](../../aspose.email.storage.pst/personalstorage/getpredefinedfolder)(StandardIpmFolder) | 从 PST 获取标准人际消息 (IPM) 文件夹。 Outlook 可以创建多个默认文件夹， 例如发件箱、已删除邮件、已发送邮件等 |
+| [GetPredefinedFolder](../../aspose.email.storage.pst/personalstorage/getpredefinedfolder)(StandardIpmFolder) | 从 PST 获取标准的人际消息 (IPM) 文件夹。 Outlook 可以创建许多默认文件夹， 例如发件箱、已删除邮件、已发送邮件等。 |
 | [Load](../../aspose.email.storage.pst/personalstorage/load#load)(Stream) | 从流中加载 PST。 当使用构造函数创建 PersonalStorage 对象时使用此方法。 |
 | [Load](../../aspose.email.storage.pst/personalstorage/load#load_1)(string) | 从文件加载 PST。 当使用构造函数创建 PersonalStorage 对象时使用此方法。 |
-| [MergeWith](../../aspose.email.storage.pst/personalstorage/mergewith#mergewith)(Stream[]) | 将 pst 存储与一个或多个其他 pst 流合并。 因此，组合流是源。 |
-| [MergeWith](../../aspose.email.storage.pst/personalstorage/mergewith#mergewith_1)(string[]) | 将 pst 存储与一个或多个其他 pst 文件合并。 因此，组合文件是源。 |
+| [MergeWith](../../aspose.email.storage.pst/personalstorage/mergewith#mergewith)(Stream[]) | 将 pst 存储与一个或多个其他 pst 流合并。 因此，合并的流是源。 |
+| [MergeWith](../../aspose.email.storage.pst/personalstorage/mergewith#mergewith_1)(string[]) | 将 pst 存储与一个或多个其他 pst 文件合并。 因此，合并的文件是源。 |
 | [MoveItem](../../aspose.email.storage.pst/personalstorage/moveitem#moveitem)(FolderInfo, FolderInfo) | 将指定文件夹移动到当前 pst 中的新父文件夹。 |
 | [MoveItem](../../aspose.email.storage.pst/personalstorage/moveitem#moveitem_1)(MessageInfo, FolderInfo) | 将指定消息移动到当前 pst 中的新文件夹。 |
-| [SaveAs](../../aspose.email.storage.pst/personalstorage/saveas#saveas)(Stream, FileFormat) | 将当前对象保存为流中的指定文件格式。 |
+| [SaveAs](../../aspose.email.storage.pst/personalstorage/saveas#saveas)(Stream, FileFormat) | 将当前对象保存为流中指定的文件格式。 |
 | [SaveAs](../../aspose.email.storage.pst/personalstorage/saveas#saveas_1)(string, FileFormat) | 将当前对象保存为不同文件中的指定文件格式。 |
 | [SaveMessageToStream](../../aspose.email.storage.pst/personalstorage/savemessagetostream)(string, Stream) | 将带有指定 entryID 的消息保存到流中。 |
 | [SplitInto](../../aspose.email.storage.pst/personalstorage/splitinto#splitinto_1)(IList&lt;MailQuery&gt;, string) | 根据标准拆分 pst 存储。 |

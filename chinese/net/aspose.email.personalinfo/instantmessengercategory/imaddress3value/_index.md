@@ -1,14 +1,14 @@
 ---
 title: ImAddress3Value
 second_title: Aspose.Email for .NET API 参考
-description: ImAddress3 类别的字符串值
+description: ImAddress3类别的字符串值
 type: docs
 weight: 250
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/imaddress3value/
 ---
 ## InstantMessengerCategory.ImAddress3Value field
 
-'ImAddress3' 类别的字符串值
+“ImAddress3”类别的字符串值
 
 ```csharp
 public const string ImAddress3Value;

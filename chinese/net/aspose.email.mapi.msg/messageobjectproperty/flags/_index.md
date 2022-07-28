@@ -1,14 +1,14 @@
 ---
 title: Flags
 second_title: Aspose.Email for .NET API 参考
-description: 获取属性上设置的标志
+description: 获取在属性上设置的标志
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi.msg/messageobjectproperty/flags/
 ---
 ## MessageObjectProperty.Flags property
 
-获取属性上设置的标志。
+获取在属性上设置的标志。
 
 ```csharp
 public MapiPropertyFlags Flags { get; }
@@ -16,7 +16,7 @@ public MapiPropertyFlags Flags { get; }
 
 ### 适当的价值
 
-标志。
+旗帜。
 
 ### 也可以看看
 

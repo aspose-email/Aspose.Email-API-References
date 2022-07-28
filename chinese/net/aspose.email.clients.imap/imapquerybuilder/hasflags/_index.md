@@ -16,7 +16,7 @@ public MailQuery HasFlags(ImapMessageFlags flags)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| flags | ImapMessageFlags | 标志。 |
+| flags | ImapMessageFlags | 旗帜. |
 
 ### 返回值
 

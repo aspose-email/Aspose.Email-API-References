@@ -20,7 +20,7 @@ public bool Remove(PropertyDescriptor item)
 
 ### 返回值
 
-如果项目已成功从 System.Collections.Generic.ICollection 中删除，则为 true； 否则为假。如果在 原始 System.Collections.Generic.ICollection 中找不到项目，此方法也会返回 false。
+如果项目已成功从 System.Collections.Generic.ICollection 中删除，则为 true； 否则为 false。如果在 原始 System.Collections.Generic.ICollection. 中找不到项目，此方法也会返回 false
 
 ### 也可以看看
 

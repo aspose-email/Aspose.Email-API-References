@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients/tokenprovider/clientsecret/
 ---
 ## TokenProvider.ClientSecret property
 
-应用注册时获取的客户端秘钥。
+应用注册时获取的客户端秘钥
 
 ```csharp
 public virtual string ClientSecret { get; }

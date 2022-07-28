@@ -3,7 +3,7 @@ title: RecipientType
 second_title: Aspose.Email for .NET API 参考
 description: 指定收件人的类型
 type: docs
-weight: 20930
+weight: 20980
 url: /zh/net/aspose.email.windows.forms/recipienttype/
 ---
 ## RecipientType enumeration
@@ -18,7 +18,7 @@ public enum RecipientType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 未设置值 |
+| None | `0` | 没有设置任何值 |
 | To | `1` | 主要收件人。 |
 | CC | `2` | 抄送收件人。 |
 | BCC | `3` | 密件抄送收件人。 |

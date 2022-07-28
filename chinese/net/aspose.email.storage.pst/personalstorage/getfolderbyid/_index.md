@@ -16,7 +16,7 @@ public FolderInfo GetFolderById(byte[] entryId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entryId | Byte[] | 条目 ID。 |
+| entryId | Byte[] | 条目 id. |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public FolderInfo GetFolderById(string entryIdString)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entryIdString | String | 条目 ID 的字符串表示。 |
+| entryIdString | String | 条目 ID 的字符串表示形式。 |
 
 ### 返回值
 

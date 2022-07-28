@@ -1,14 +1,14 @@
 ---
 title: Priority
 second_title: Aspose.Email for .NET API 参考
-description: 表示客户端请求消息系统发送消息的优先级 区域电子邮件 规范名称PidTagPriority 备用名称PR_PRIORITY ptagPriority urnschemashttpmailpriority
+description: 表示客户端请求消息系统发送消息的优先级 区域Email 规范名称PidTagPriority 备用名称PR_PRIORITYptagPriorityurnschemashttpmailpriority
 type: docs
 weight: 14610
 url: /zh/net/aspose.email.mapi/knownpropertylist/priority/
 ---
 ## KnownPropertyList.Priority field
 
-表示客户端请求消息系统发送消息的优先级。 区域:电子邮件 规范名称:PidTagPriority 备用名称:PR_PRIORITY, ptagPriority, urn:schemas:httpmail:priority,
+表示客户端请求消息系统发送消息的优先级。 区域：Email 规范名称：PidTagPriority 备用名称：PR_PRIORITY、ptagPriority、urn:schemas:httpmail:priority,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Priority;

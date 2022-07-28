@@ -17,7 +17,7 @@ public void ArchiveItem(string sourceFolderUri, MapiMessageItemBase item)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceFolderUri | String |  |
-| item | MapiMessageItemBase | 将被归档的项目 |
+| item | MapiMessageItemBase | 将归档的项目 |
 
 ### 也可以看看
 
@@ -39,7 +39,7 @@ public void ArchiveItem(string sourceFolderUri, Appointment appointment)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceFolderUri | String |  |
-| appointment | Appointment | 将被归档的项目 |
+| appointment | Appointment | 将归档的项目 |
 
 ### 也可以看看
 
@@ -61,7 +61,7 @@ public void ArchiveItem(string sourceFolderUri, ExchangeTask task)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceFolderUri | String |  |
-| task | ExchangeTask | 将被归档的项目 |
+| task | ExchangeTask | 将归档的项目 |
 
 ### 也可以看看
 
@@ -83,7 +83,7 @@ public void ArchiveItem(string sourceFolderUri, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceFolderUri | String |  |
-| uniqueId | String | 项目 ID |
+| uniqueId | String | 商品编号 |
 
 ### 也可以看看
 

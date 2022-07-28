@@ -1,14 +1,14 @@
 ---
 title: CustomerId
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置客户 ID
+description: 获取或设置客户 id
 type: docs
 weight: 80
 url: /zh/net/aspose.email.personalinfo/contact/customerid/
 ---
 ## Contact.CustomerId property
 
-获取或设置客户 ID
+获取或设置客户 id
 
 ```csharp
 public string CustomerId { get; set; }

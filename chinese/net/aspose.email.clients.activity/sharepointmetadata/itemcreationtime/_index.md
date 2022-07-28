@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/sharepointmetadata/itemcreationtime/
 ---
 ## SharePointMetadata.itemCreationTime property
 
-记录事件时的 UTC 日期时间戳。 强制:是
+记录事件时的 UTC 日期时间戳。 强制：是
 
 ```csharp
 public DateTime itemCreationTime { get; set; }

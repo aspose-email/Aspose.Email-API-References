@@ -1,14 +1,14 @@
 ---
 title: GetAppointmentHtml
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает HTML-код календаря.
+description: Получает календарь HTML.
 type: docs
-weight: 300
+weight: 310
 url: /ru/net/aspose.email.calendar/appointment/getappointmenthtml/
 ---
 ## Appointment.GetAppointmentHtml method
 
-Получает HTML-код календаря.
+Получает календарь HTML.
 
 ```csharp
 public string GetAppointmentHtml()

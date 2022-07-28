@@ -1,14 +1,14 @@
 ---
 title: MapiElectronicAddress
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MapiElectronicAddressaspose.email.mapi/mapielectronicaddress类的新实例
+description: 初始化MapiElectronicAddressaspose.email.mapi/mapielectronicaddress类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapielectronicaddress/mapielectronicaddress/
 ---
 ## MapiElectronicAddress() {#constructor}
 
-初始化[`MapiElectronicAddress`](../../mapielectronicaddress)类的新实例。
+初始化[`MapiElectronicAddress`](../../mapielectronicaddress)类.
 
 ```csharp
 public MapiElectronicAddress()
@@ -24,7 +24,7 @@ public MapiElectronicAddress()
 
 ## MapiElectronicAddress(string, string, string) {#constructor_3}
 
-初始化[`MapiElectronicAddress`](../../mapielectronicaddress)类的新实例。
+初始化[`MapiElectronicAddress`](../../mapielectronicaddress)类.
 
 ```csharp
 public MapiElectronicAddress(string displayName, string addressType, string emailAddress)
@@ -33,7 +33,7 @@ public MapiElectronicAddress(string displayName, string addressType, string emai
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | displayName | String | 显示名称。 |
-| addressType | String | 地址类型。 |
+| addressType | String | 地址的类型。 |
 | emailAddress | String | 电子邮件地址。 |
 
 ### 也可以看看
@@ -46,7 +46,7 @@ public MapiElectronicAddress(string displayName, string addressType, string emai
 
 ## MapiElectronicAddress(string) {#constructor_1}
 
-初始化[`MapiElectronicAddress`](../../mapielectronicaddress)类的新实例。
+初始化[`MapiElectronicAddress`](../../mapielectronicaddress)类.
 
 ```csharp
 public MapiElectronicAddress(string emailAddress)
@@ -66,7 +66,7 @@ public MapiElectronicAddress(string emailAddress)
 
 ## MapiElectronicAddress(string, string) {#constructor_2}
 
-初始化[`MapiElectronicAddress`](../../mapielectronicaddress)类的新实例。
+初始化[`MapiElectronicAddress`](../../mapielectronicaddress)类.
 
 ```csharp
 public MapiElectronicAddress(string faxNumber, string emailAddress)

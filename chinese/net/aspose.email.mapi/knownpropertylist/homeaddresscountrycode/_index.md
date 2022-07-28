@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/homeaddresscountrycode/
 ---
 ## KnownPropertyList.HomeAddressCountryCode field
 
-指定联系人家庭地址的国家代码部分。 区域:联系人属性 规范名称:PidLidHomeAddressCountryCode 替代名称:dispidHomeAddressCountryCode
+指定联系人家庭地址的国家代码部分。 区域：联系人属性 规范名称：PidLidHomeAddressCountryCode 替代名称：dispidHomeAddressCountryCode
 
 ```csharp
 public static readonly PidLidPropertyDescriptor HomeAddressCountryCode;

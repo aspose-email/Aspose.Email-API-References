@@ -1,14 +1,14 @@
 ---
 title: WriteXml
 second_title: Aspose.Email for .NET API 参考
-description: 将对象转换为其 XML 表示
+description: 将对象转换为其 XML 表示形式
 type: docs
 weight: 80
 url: /zh/net/aspose.email.tools.search/mailquery/writexml/
 ---
 ## MailQuery.WriteXml method
 
-将对象转换为其 XML 表示。
+将对象转换为其 XML 表示形式。
 
 ```csharp
 public virtual void WriteXml(XmlWriter writer)
@@ -16,7 +16,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| writer | XmlWriter | XmlWriter对象序列化到的流。 |
+| writer | XmlWriter | 这XmlWriter对象序列化到的流。 |
 
 ### 也可以看看
 

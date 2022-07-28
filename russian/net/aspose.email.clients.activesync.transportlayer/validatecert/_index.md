@@ -1,14 +1,14 @@
 ---
 title: ValidateCert
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен ValidateCert протокола ActiveSync
+description: пространство имен ValidateCert протокола ActiveSync
 type: docs
 weight: 2330
 url: /ru/net/aspose.email.clients.activesync.transportlayer/validatecert/
 ---
 ## ValidateCert enumeration
 
-Пространство имен ValidateCert протокола ActiveSync
+пространство имен ValidateCert протокола ActiveSync
 
 ```csharp
 public enum ValidateCert

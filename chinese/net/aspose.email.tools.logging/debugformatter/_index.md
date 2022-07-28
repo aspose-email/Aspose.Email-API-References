@@ -3,7 +3,7 @@ title: DebugFormatter
 second_title: Aspose.Email for .NET API 参考
 description: 表示用于格式化日志条目消息的类
 type: docs
-weight: 20420
+weight: 20470
 url: /zh/net/aspose.email.tools.logging/debugformatter/
 ---
 ## DebugFormatter class
@@ -25,7 +25,7 @@ public class DebugFormatter : Formatter
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | 获取或设置页脚。 |
-| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | 获取或设置标题。 |
+| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | 获取或设置标头。 |
 | virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | 获取或设置日志头 |
 
 ## 方法

@@ -1,14 +1,14 @@
 ---
 title: TokenType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает тип токена OAuth
+description: Получает токен OAuth type
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients/oauthtoken/tokentype/
 ---
 ## OAuthToken.TokenType property
 
-Получает тип токена OAuth
+Получает токен OAuth type
 
 ```csharp
 public TokenType TokenType { get; }

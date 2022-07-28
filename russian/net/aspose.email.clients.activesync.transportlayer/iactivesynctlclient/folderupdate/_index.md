@@ -18,7 +18,7 @@ public void FolderUpdate(string serverId, string parentId, string displayName)
 | --- | --- | --- |
 | serverId | String | Указывает идентификатор сервера папки на сервере |
 | parentId | String | Указывает идентификатор сервера родительской папки папки на сервере |
-| displayName | String | Указывает удобное для пользователя имя папки. |
+| displayName | String | Задает удобное для пользователя имя папки. |
 
 ### Смотрите также
 

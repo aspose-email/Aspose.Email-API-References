@@ -1,14 +1,14 @@
 ---
 title: BounceResult
 second_title: Aspose.Email for .NET API 参考
-description: 将邮件检查结果表示为退回邮件
+description: 将邮件检查的结果表示为退回邮件
 type: docs
 weight: 400
 url: /zh/net/aspose.email.bounce/bounceresult/
 ---
 ## BounceResult class
 
-将邮件检查结果表示为退回邮件。
+将邮件检查的结果表示为退回邮件。
 
 ```csharp
 public class BounceResult
@@ -29,7 +29,7 @@ public class BounceResult
 | [OriginalMessage](../../aspose.email.bounce/bounceresult/originalmessage) { get; } | 包含原始消息。 |
 | [Reason](../../aspose.email.bounce/bounceresult/reason) { get; } | 对于“失败”或“延迟”收件人，包含邮件传输发出的实际诊断代码。 |
 | [Recipient](../../aspose.email.bounce/bounceresult/recipient) { get; } | 表示发送失败报告的邮件的发件人指定的原始收件人地址。 |
-| [Status](../../aspose.email.bounce/bounceresult/status) { get; } | 包含一个与传输无关的状态代码，它指示消息向该收件人的传递状态。 |
+| [Status](../../aspose.email.bounce/bounceresult/status) { get; } | 包含一个独立于传输的状态代码，它指示邮件向该收件人的传递状态。 |
 
 ### 也可以看看
 

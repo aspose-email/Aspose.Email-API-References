@@ -1,14 +1,14 @@
 ---
 title: ImapNamespace
 second_title: Aspose.Email for .NET API 参考
-description: 表示 IMAP 命名空间 更多细节https//tools.ietf.org/html/rfc2342
+description: 代表 IMAP 命名空间 更多细节https//tools.ietf.org/html/rfc2342
 type: docs
 weight: 16430
 url: /zh/net/aspose.email.clients.imap/imapnamespace/
 ---
 ## ImapNamespace class
 
-表示 IMAP 命名空间 更多细节:https://tools.ietf.org/html/rfc2342
+代表 IMAP 命名空间 更多细节：https://tools.ietf.org/html/rfc2342
 
 ```csharp
 public class ImapNamespace

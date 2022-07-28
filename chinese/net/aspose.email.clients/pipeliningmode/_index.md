@@ -1,14 +1,14 @@
 ---
 title: PipeliningMode
 second_title: Aspose.Email for .NET API 参考
-description: 定义邮件客户端如何支持管道
+description: 定义邮件客户端如何支持流水线
 type: docs
 weight: 16830
 url: /zh/net/aspose.email.clients/pipeliningmode/
 ---
 ## PipeliningMode enumeration
 
-定义邮件客户端如何支持管道
+定义邮件客户端如何支持流水线
 
 ```csharp
 public enum PipeliningMode
@@ -20,7 +20,7 @@ public enum PipeliningMode
 | --- | --- | --- |
 | Auto | `0` | 如果服务器声明支持流水线，客户端启用流水线模式 |
 | Enabled | `1` | 流水线模式已启用。 |
-| Disabled | `2` | 流水线模式被禁用。 |
+| Disabled | `2` | 流水线模式已禁用。 |
 
 ### 也可以看看
 

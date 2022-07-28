@@ -1,14 +1,14 @@
 ---
 title: OofMessage
 second_title: Aspose.Email for .NET API 参考
-description: 为特定受众指定 OOF 消息 Exchange 2007Exchange 2010 和 Exchange 2013 要求未知外部受众和已知外部受众的回复消息相同 该属性支持 OOF 消息的以下三种受众 Internal  与发送用户在同一组织中的用户 Known external  位于发送用户组织之外但在发送用户的联系人中表示的用户 Unknown external  位于发送用户组织之外且不在发送用户联系人中的用户
+description: 为特定受众指定 OOF 消息 Exchange 2007Exchange 2010 和 Exchange 2013 要求未知外部受众和已知外部受众的回复消息相同 该属性支持 OOF 消息的以下三种受众 内部 - 与发送用户在同一组织中的用户 已知外部 - 在发送用户的组织之外但在发送用户的联系人中表示的用户 未知外部 - 在发送用户的组织之外的用户组织并且不在发送用户的联系人中表示
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/oofsettings/oofmessage/
 ---
 ## OOFSettings.OofMessage property
 
-为特定受众指定 OOF 消息。 Exchange 2007、Exchange 2010 和 Exchange 2013 要求未知外部受众和已知外部受众的回复消息相同。 该属性支持 OOF 消息的以下三种受众: Internal — 与发送用户在同一组织中的用户。 Known external — 位于发送用户组织之外但在发送用户的联系人中表示的用户。 Unknown external — 位于发送用户组织之外且不在发送用户联系人中的用户。
+为特定受众指定 OOF 消息。 Exchange 2007、Exchange 2010 和 Exchange 2013 要求未知外部受众和已知外部受众的回复消息相同。 该属性支持 OOF 消息的以下三种受众： 内部 - 与发送用户在同一组织中的用户。 已知外部 - 在发送用户的组织之外但在发送用户的联系人中表示的用户。 未知外部 - 在发送用户的组织之外的用户组织并且不在发送用户的联系人中表示。
 
 ```csharp
 public List<OOFMessage> OofMessage { get; }

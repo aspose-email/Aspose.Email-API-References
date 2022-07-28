@@ -1,14 +1,14 @@
 ---
 title: ReminderSet
 second_title: Aspose.Email for .NET API 参考
-description: 指定是否在对象上设置提醒 区域提醒 规范名称PidLidReminderSet 替代名称dispidReminderSet
+description: 指定是否在对象上设置提醒 区域Reminders 规范名称PidLidReminderSet 替代名称dispidReminderSet
 type: docs
 weight: 15710
 url: /zh/net/aspose.email.mapi/knownpropertylist/reminderset/
 ---
 ## KnownPropertyList.ReminderSet field
 
-指定是否在对象上设置提醒。 区域:提醒 规范名称:PidLidReminderSet 替代名称:dispidReminderSet
+指定是否在对象上设置提醒。 区域：Reminders 规范名称：PidLidReminderSet 替代名称：dispidReminderSet
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderSet;

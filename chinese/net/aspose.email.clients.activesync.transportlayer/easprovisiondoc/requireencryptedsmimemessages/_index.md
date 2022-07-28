@@ -1,14 +1,14 @@
 ---
 title: RequireEncryptedSMIMEMessages
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端是否发送加密电子邮件
+description: 指定客户端是否发送加密的电子邮件
 type: docs
 weight: 370
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requireencryptedsmimemessages/
 ---
 ## EASProvisionDoc.RequireEncryptedSMIMEMessages property
 
-指定客户端是否发送加密电子邮件。
+指定客户端是否发送加密的电子邮件。
 
 ```csharp
 public bool? RequireEncryptedSMIMEMessages { get; set; }

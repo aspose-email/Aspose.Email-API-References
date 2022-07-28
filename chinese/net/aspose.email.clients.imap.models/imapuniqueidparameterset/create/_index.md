@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建ImapUniqueIdParameterSetaspose.email.clients.imap.models/imapuniqueidparameterset实例
+description: 创建ImapUniqueIdParameterSetaspose.email.clients.imap.models/imapuniqueidparameterset实例.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap.models/imapuniqueidparameterset/create/
 ---
 ## ImapUniqueIdParameterSet.Create method
 
-创建[`ImapUniqueIdParameterSet`](../../imapuniqueidparameterset)实例。
+创建[`ImapUniqueIdParameterSet`](../../imapuniqueidparameterset)实例.
 
 ```csharp
 public static ImapUniqueIdParameterSet Create()

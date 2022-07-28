@@ -1,14 +1,14 @@
 ---
 title: op_Explicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует строковое представление шаблона повторения в формате ICalendar в объект
+description: Преобразует строковое представление шаблона повторения в формате ICalendar в object
 type: docs
 weight: 60
 url: /ru/net/aspose.email.calendar.recurrences/recurrencepattern/op_explicit/
 ---
 ## RecurrencePattern Explicit operator
 
-Преобразует строковое представление шаблона повторения в формате ICalendar в объект
+Преобразует строковое представление шаблона повторения в формате ICalendar в object
 
 ```csharp
 public static explicit operator RecurrencePattern(string value)

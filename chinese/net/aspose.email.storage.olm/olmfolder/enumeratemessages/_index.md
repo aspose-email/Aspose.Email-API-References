@@ -42,14 +42,14 @@ public IEnumerable<OlmMessageInfo> EnumerateMessages(int startIndex, int count)
 
 ### 返回值
 
-IEnumerable, 表示遍历的枚举器文件夹中的消息。
+IEnumerable, 表示遍历文件夹中消息的枚举器。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 抛出，如果 startIndex 小于 0。 |
-| ArgumentOutOfRangeException | 抛出，如果 startIndex 大于或等于该文件夹包含的总邮件数。 |
+| ArgumentOutOfRangeException | 如果 startIndex 小于 0，则抛出。 |
+| ArgumentOutOfRangeException | 如果 startIndex 大于或等于该文件夹包含的总消息数，则抛出。 |
 
 ### 评论
 

@@ -3,7 +3,7 @@ title: Flags
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или устанавливает флаги встречи.
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.email.calendar/appointment/flags/
 ---
 ## Appointment.Flags property

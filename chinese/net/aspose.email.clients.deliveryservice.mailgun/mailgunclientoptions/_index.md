@@ -1,14 +1,14 @@
 ---
 title: MailgunClientOptions
 second_title: Aspose.Email for .NET API 参考
-description: 用于设置 MailgunClient 参数的选项
+description: 设置 MailgunClient 参数的选项
 type: docs
 weight: 2980
 url: /zh/net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/
 ---
 ## MailgunClientOptions class
 
-用于设置 MailgunClient 参数的选项。
+设置 MailgunClient 参数的选项。
 
 ```csharp
 public class MailgunClientOptions : DeliveryServiceOptions
@@ -24,8 +24,8 @@ public class MailgunClientOptions : DeliveryServiceOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | API 私钥 |
-| [Domain](../../aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/domain) { get; set; } | 域名。 |
+| [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | 私有 API 密钥 |
+| [Domain](../../aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/domain) { get; set; } | 域名. |
 | [Region](../../aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/region) { get; set; } | 美国或欧盟地区。 |
 
 ### 也可以看看

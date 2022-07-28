@@ -1,14 +1,14 @@
 ---
 title: Appenders
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置附加列表
+description: 获取或设置 appender 列表
 type: docs
 weight: 20
 url: /zh/net/aspose.email.tools.logging/logger/appenders/
 ---
 ## Logger.Appenders property
 
-获取或设置附加列表。
+获取或设置 appender 列表。
 
 ```csharp
 public AppenderCollection Appenders { get; set; }

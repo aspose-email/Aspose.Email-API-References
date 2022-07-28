@@ -1,14 +1,14 @@
 ---
 title: AsposeArgumentOutOfRangeException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsposeArgumentOutOfRangeExceptionaspose.email/asposeargumentoutofrangeexception.
+description: Инициализирует новый экземплярAsposeArgumentOutOfRangeExceptionaspose.email/asposeargumentoutofrangeexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/asposeargumentoutofrangeexception/asposeargumentoutofrangeexception/
 ---
 ## AsposeArgumentOutOfRangeException() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception).
+Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) класс.
 
 ```csharp
 public AsposeArgumentOutOfRangeException()
@@ -24,7 +24,7 @@ public AsposeArgumentOutOfRangeException()
 
 ## AsposeArgumentOutOfRangeException(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeArgumentOutOfRangeException(string message)
@@ -44,7 +44,7 @@ public AsposeArgumentOutOfRangeException(string message)
 
 ## AsposeArgumentOutOfRangeException(string, params object[]) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeArgumentOutOfRangeException(string format, params object[] parameters)
@@ -79,7 +79,7 @@ public AsposeArgumentOutOfRangeException(string format, int parameter)
 
 ## AsposeArgumentOutOfRangeException(string, Exception) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeArgumentOutOfRangeException(string message, Exception innerException)
@@ -88,7 +88,7 @@ public AsposeArgumentOutOfRangeException(string message, Exception innerExceptio
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 
@@ -106,7 +106,7 @@ public AsposeArgumentOutOfRangeException(string message, string paramName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String |  |
+| message | String |  |
 | paramName | String |  |
 
 ### Смотрите также
@@ -119,7 +119,7 @@ public AsposeArgumentOutOfRangeException(string message, string paramName)
 
 ## AsposeArgumentOutOfRangeException(Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) со ссылкой на внутренний исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeArgumentOutOfRangeException(Exception innerException)
@@ -127,7 +127,7 @@ public AsposeArgumentOutOfRangeException(Exception innerException)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (ничего в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

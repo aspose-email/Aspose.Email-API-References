@@ -1,14 +1,14 @@
 ---
 title: VCardPhoto
 second_title: Aspose.Email for .NET API 参考
-description: 表示 vCard 照片属性
+description: 代表 vCard 照片属性
 type: docs
-weight: 19660
+weight: 19710
 url: /zh/net/aspose.email.personalinfo.vcard/vcardphoto/
 ---
 ## VCardPhoto class
 
-表示 vCard 照片属性
+代表 vCard 照片属性
 
 ```csharp
 public sealed class VCardPhoto
@@ -18,16 +18,16 @@ public sealed class VCardPhoto
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardPhoto](vcardphoto)() | 初始化 [`VCardPhoto`](../vcardphoto) 类的新实例 |
+| [VCardPhoto](vcardphoto)() | 初始化[`VCardPhoto`](../vcardphoto) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Data](../../aspose.email.personalinfo.vcard/vcardphoto/data) { get; set; } | 获取或设置图像数据（` null` ifvalueLocationis not` inline` ) |
+| [Data](../../aspose.email.personalinfo.vcard/vcardphoto/data) { get; set; } | 获取或设置图像数据（`无效的`如果valueLocation不是`排队`) |
 | [PhotoType](../../aspose.email.personalinfo.vcard/vcardphoto/phototype) { get; set; } | 获取或设置照片类型 |
-| [Uri](../../aspose.email.personalinfo.vcard/vcardphoto/uri) { get; set; } | 获取或设置照片的 uri (` null` ifvalueLocationis` inline` ) |
-| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardphoto/valuelocation) { get; set; } | 获取或设置值位置 |
+| [Uri](../../aspose.email.personalinfo.vcard/vcardphoto/uri) { get; set; } | 获取或设置照片的 uri (`无效的`如果valueLocation是`排队`) |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardphoto/valuelocation) { get; set; } | 获取或设置一个值 location |
 
 ### 也可以看看
 

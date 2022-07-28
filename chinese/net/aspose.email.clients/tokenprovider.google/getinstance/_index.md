@@ -17,7 +17,7 @@ public static TokenProvider GetInstance(string clientId, string clientSecret, st
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | clientId | String | 应用注册时从微软账号开发者中心获取的客户端ID。 |
-| clientSecret | String | 应用注册时获取的客户端密钥。 |
+| clientSecret | String | 应用注册时获取的客户端密码。 |
 | refreshToken | String | OAuth 2.0 刷新令牌 |
 
 ### 返回值

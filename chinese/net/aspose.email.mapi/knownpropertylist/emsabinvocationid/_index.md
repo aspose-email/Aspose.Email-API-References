@@ -1,14 +1,14 @@
 ---
 title: EmsAbInvocationId
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_INVOCATION_ID
+description: Microsoft. Exchange 定义 Microsoft Exchange Server 和 Microsoft Exchange 客户端使用的此属性 规范名称 替代名称PR_EMS_AB_INVOCATION_ID
 type: docs
 weight: 6900
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabinvocationid/
 ---
 ## KnownPropertyList.EmsAbInvocationId field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_INVOCATION_ID
+Microsoft. Exchange 定义 Microsoft Exchange Server 和 Microsoft Exchange 客户端使用的此属性。 规范名称： 替代名称：PR_EMS_AB_INVOCATION_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbInvocationId;

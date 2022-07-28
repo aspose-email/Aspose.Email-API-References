@@ -1,14 +1,14 @@
 ---
 title: ProfileSecureMailbox
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROFILE_SECURE_MAILBOX
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_PROFILE_SECURE_MAILBOX
 type: docs
 weight: 14870
 url: /zh/net/aspose.email.mapi/knownpropertylist/profilesecuremailbox/
 ---
 ## KnownPropertyList.ProfileSecureMailbox field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROFILE_SECURE_MAILBOX
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_PROFILE_SECURE_MAILBOX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileSecureMailbox;

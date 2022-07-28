@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Aspose.Email for .NET API 参考
-description: 获取人的自定义类别的描述
+description: 获取人员的自定义类别的描述
 type: docs
 weight: 170
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/description/
 ---
 ## AssociatedPersonCategory.Description property
 
-获取人的“自定义”类别的描述
+获取人员的“自定义”类别的描述
 
 ```csharp
 public string Description { get; }

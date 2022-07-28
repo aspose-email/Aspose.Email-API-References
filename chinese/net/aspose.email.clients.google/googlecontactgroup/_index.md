@@ -20,14 +20,14 @@ public sealed class GoogleContactGroup
 | --- | --- |
 | [Content](../../aspose.email.clients.google/googlecontactgroup/content) { get; } | 获取组条目的内容 |
 | [Id](../../aspose.email.clients.google/googlecontactgroup/id) { get; } | 获取组条目的唯一标识符 |
-| [Title](../../aspose.email.clients.google/googlecontactgroup/title) { get; } | 为组条目获取人类可读的标题 |
-| [Updated](../../aspose.email.clients.google/googlecontactgroup/updated) { get; } | 获取指示最近时间的最近时刻 修改组条目时 |
+| [Title](../../aspose.email.clients.google/googlecontactgroup/title) { get; } | 获取组条目 的可读标题 |
+| [Updated](../../aspose.email.clients.google/googlecontactgroup/updated) { get; } | 获取表示最近时间 的最近时刻的日期 修改组条目时 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.email.clients.google/googlecontactgroup/tostring)() | 返回代表对象实例的字符串。 |
+| override [ToString](../../aspose.email.clients.google/googlecontactgroup/tostring)() | 返回一个表示对象实例的字符串。 |
 
 ### 也可以看看
 

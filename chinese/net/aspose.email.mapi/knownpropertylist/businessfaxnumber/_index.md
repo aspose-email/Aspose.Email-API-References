@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/businessfaxnumber/
 ---
 ## KnownPropertyList.BusinessFaxNumber field
 
-包含邮件用户的商务传真机的电话号码。 区域:联系人属性 规范名称:PidTagBusinessFaxNumber 别名:PR_BUSINESS_FAX_NUMBER、PR_BUSINESS_FAX_NUMBER_A、
+包含邮件用户的商务传真机的电话号码。 区域：联系人属性 规范名称：PidTagBusinessFaxNumber 别名：PR_BUSINESS_FAX_NUMBER、PR_BUSINESS_FAX_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BusinessFaxNumber;

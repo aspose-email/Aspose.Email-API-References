@@ -1,14 +1,14 @@
 ---
 title: RecordType
 second_title: Aspose.Email for .NET API 参考
-description: 审计记录类型
+description: 审核记录类型
 type: docs
 weight: 2730
 url: /zh/net/aspose.email.clients.activity/recordtype/
 ---
 ## RecordType enumeration
 
-审计记录类型
+审核记录类型
 
 ```csharp
 public enum RecordType
@@ -19,7 +19,7 @@ public enum RecordType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | ExchangeAdmin | `1` | Exchange 管理员审核日志中的事件。 |
-| ExchangeItem | `2` | Exchange 邮箱审核日志中针对单个项目执行的操作（例如创建或接收电子邮件）的事件。 |
+| ExchangeItem | `2` | 来自 Exchange 邮箱审核日志的事件，用于对单个项目执行的操作，例如创建或接收电子邮件。 |
 | ExchangeItemGroup | `3` | 来自 Exchange 邮箱审核日志的事件，用于可对多个项目执行的操作，例如移动或删除一封或多封电子邮件。 |
 | SharePoint | `4` | SharePoint 事件。 |
 | SharePointFileOperation | `6` | SharePoint 文件操作事件。 |
@@ -28,7 +28,7 @@ public enum RecordType
 | DataCenterSecurityCmdlet | `10` | 数据中心安全 cmdlet 事件。 |
 | ComplianceDLPSharePoint | `11` | SharePoint 和 OneDrive for Business 中的数据丢失保护 (DLP) 事件。 |
 | Sway | `12` | 来自 Sway 服务和客户端的事件。 |
-| ComplianceDLPExchange | `13` | Exchange 中的数据丢失保护 (DLP) 事件，当通过统一 DLP 策略进行配置时。不支持基于 Exchange 传输规则的 DLP 事件。 |
+| ComplianceDLPExchange | `13` | 当通过统一 DLP 策略配置时，Exchange 中的数据丢失保护 (DLP) 事件。不支持基于 Exchange 传输规则的 DLP 事件。 |
 | SharePointSharingOperation | `14` | SharePoint 共享事件。 |
 | AzureActiveDirectoryStsLogon | `15` | Azure Active Directory 中的安全令牌服务 (STS) 登录事件。 |
 | SecurityComplianceCenterEOPCmdlet | `18` |  |
@@ -43,7 +43,7 @@ public enum RecordType
 | ThreatIntelligence | `28` | 来自 Exchange Online Protection 和 Office 365 高级威胁防护的网络钓鱼和恶意软件事件。 |
 | MicrosoftFlow | `30` | Microsoft Flow 事件。 |
 | MicrosoftStream | `32` | Microsoft Stream 事件。 |
-| Project | `35` | Microsoft Project 事件。 |
+| Project | `35` | 微软项目事件。 |
 | SharepointListOperation | `36` | Sharepoint 列表事件。 |
 | SecurityComplianceAlerts | `40` | 安全和合规警报信号。 |
 | ThreatIntelligenceUrl | `41` | 安全链接来自 Office 365 高级威胁防护的阻止时间和阻止覆盖事件。 |

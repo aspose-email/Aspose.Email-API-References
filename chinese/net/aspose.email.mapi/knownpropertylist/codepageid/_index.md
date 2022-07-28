@@ -1,14 +1,14 @@
 ---
 title: CodePageId
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于 Unicode 到双字节字符集 DBCS 字符串转换的客户端代码页标识符 区域Exchange 配置文件配置 规范名称PidTagCodePageId 备用名称PR_CODE_PAGE_ID ptagCodePageId
+description: 包含用于 Unicode 到双字节字符集 DBCS 字符串转换的客户端代码页的标识符 区域Exchange 配置文件配置 规范名称PidTagCodePageId 备用名称PR_CODE_PAGE_IDptagCodePageId
 type: docs
 weight: 2730
 url: /zh/net/aspose.email.mapi/knownpropertylist/codepageid/
 ---
 ## KnownPropertyList.CodePageId field
 
-包含用于 Unicode 到双字节字符集 (DBCS) 字符串转换的客户端代码页标识符。 区域:Exchange 配置文件配置 规范名称:PidTagCodePageId 备用名称:PR_CODE_PAGE_ID, ptagCodePageId
+包含用于 Unicode 到双字节字符集 (DBCS) 字符串转换的客户端代码页的标识符。 区域：Exchange 配置文件配置 规范名称：PidTagCodePageId 备用名称：PR_CODE_PAGE_ID、ptagCodePageId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CodePageId;

@@ -16,7 +16,7 @@ public ExchangeDistributionList[] ListDistributionLists()
 
 ### 返回值
 
-[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)数组，表示分发列表信息.
+一个数组[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)表示分发列表信息。
 
 ### 也可以看看
 

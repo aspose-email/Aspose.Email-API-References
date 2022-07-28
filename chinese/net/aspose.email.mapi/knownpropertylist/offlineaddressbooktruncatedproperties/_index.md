@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/offlineaddressbooktruncatedprop
 ---
 ## KnownPropertyList.OfflineAddressBookTruncatedProperties field
 
-包含已被服务器截断或限制的属性标记列表。 区域:脱机通讯簿属性 规范名称:PidTagOfflineAddressBookTruncatedProperties 备用名称:PR_OAB_TRUNCATED_PROPS
+包含已被服务器截断或限制的属性标记列表。 区域：脱机通讯簿属性 规范名称：PidTagOfflineAddressBookTruncatedProperties 备用名称：PR_OAB_TRUNCATED_PROPS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineAddressBookTruncatedProperties;

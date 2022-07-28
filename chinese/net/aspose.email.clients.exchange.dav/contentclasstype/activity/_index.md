@@ -1,14 +1,14 @@
 ---
 title: Activity
 second_title: Aspose.Email for .NET API 参考
-description: 获取定义 日志项目的一组属性的 urncontent-classesactivity 内容类 这映射到 IPM.Activity
+description: 获取 urncontent-classesactivity 内容类该类定义了 日志项目的一组属性 这映射到 IPM.Activity.
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/activity/
 ---
 ## ContentClassType.Activity property
 
-获取定义 日志项目的一组属性的 urn:content-classes:activity 内容类。 这映射到 IPM.Activity。
+获取 urn:content-classes:activity 内容类，该类定义了 日志项目的一组属性。 这映射到 IPM.Activity.
 
 ```csharp
 public static ContentClassType Activity { get; }
@@ -16,7 +16,7 @@ public static ContentClassType Activity { get; }
 
 ### 适当的价值
 
-活动内容类。
+活动内容类
 
 ### 也可以看看
 

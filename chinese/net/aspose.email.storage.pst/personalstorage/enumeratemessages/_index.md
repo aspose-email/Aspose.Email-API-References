@@ -20,7 +20,7 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId)
 
 ### 返回值
 
-IEnumerable, 表示遍历的枚举器文件夹中的消息。
+IEnumerable, 表示遍历文件夹中消息的枚举器。
 
 ### 也可以看看
 
@@ -47,7 +47,7 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId, int startIndex
 
 ### 返回值
 
-IEnumerable, 表示遍历的枚举器文件夹中的消息。
+IEnumerable, 表示遍历文件夹中消息的枚举器。
 
 ### 也可以看看
 

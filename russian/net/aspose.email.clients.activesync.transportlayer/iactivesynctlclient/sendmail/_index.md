@@ -41,7 +41,7 @@ public string SendMail(string mimeContent, bool saveInSentItems)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mimeContent | String | Содержит сообщение в кодировке MIME. |
-| saveInSentItems | Boolean | Указывает, будет ли копия сообщения сохраняться в папке "Отправленные". |
+| saveInSentItems | Boolean | Указывает, будет ли копия сообщения храниться в папке «Отправленные». |
 
 ### Возвращаемое значение
 
@@ -66,7 +66,7 @@ public string SendMail(string mimeContent, bool saveInSentItems, string accountI
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mimeContent | String | Содержит сообщение в кодировке MIME. |
-| saveInSentItems | Boolean | Указывает, будет ли копия сообщения сохраняться в папке "Отправленные". |
+| saveInSentItems | Boolean | Указывает, будет ли копия сообщения храниться в папке «Отправленные». |
 | accountId | String | Идентифицирует учетную запись, с которой отправляется электронное письмо. |
 
 ### Возвращаемое значение
@@ -93,7 +93,7 @@ public string SendMail(string mimeContent, bool saveInSentItems, string accountI
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mimeContent | String | Содержит сообщение в кодировке MIME. |
-| saveInSentItems | Boolean | Указывает, будет ли копия сообщения сохраняться в папке "Отправленные". |
+| saveInSentItems | Boolean | Указывает, будет ли копия сообщения храниться в папке «Отправленные». |
 | accountId | String | Идентифицирует учетную запись, с которой отправляется электронное письмо. |
 | templateId | String | Содержит строку, идентифицирующую шаблон политики прав. |
 

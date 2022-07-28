@@ -1,14 +1,14 @@
 ---
 title: BodyHtml
 second_title: Aspose.Email for .NET API 参考
-description: 获取转换为 HTML 的消息的BodyRtfaspose.email.mapi/mapimessageitembase/bodyrtf如果存在否则为空字符串.
+description: 获取BodyRtfaspose.email.mapi/mapimessageitembase/bodyrtf将消息转换为 HTML如果存在否则为空字符串
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapimessageitembase/bodyhtml/
 ---
 ## MapiMessageItemBase.BodyHtml property
 
-获取转换为 HTML 的消息的[`BodyRtf`](../bodyrtf)，如果存在，否则为空字符串.
+获取[`BodyRtf`](../bodyrtf)将消息转换为 HTML（如果存在），否则为空字符串。
 
 ```csharp
 public string BodyHtml { get; }

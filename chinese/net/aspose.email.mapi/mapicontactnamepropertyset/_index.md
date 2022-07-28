@@ -3,7 +3,7 @@ title: MapiContactNamePropertySet
 second_title: Aspose.Email for .NET API 参考
 description: 属性用于指定联系人所代表的人的姓名
 type: docs
-weight: 18220
+weight: 18250
 url: /zh/net/aspose.email.mapi/mapicontactnamepropertyset/
 ---
 ## MapiContactNamePropertySet class
@@ -18,8 +18,8 @@ public sealed class MapiContactNamePropertySet
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactNamePropertySet](mapicontactnamepropertyset#constructor)() | 初始化 [`MapiContactNamePropertySet`](../mapicontactnamepropertyset) 类的新实例 |
-| [MapiContactNamePropertySet](mapicontactnamepropertyset#constructor_1)(string, string, string) | 初始化[`MapiContactNamePropertySet`](../mapicontactnamepropertyset)类的新实例。 |
+| [MapiContactNamePropertySet](mapicontactnamepropertyset#constructor)() | 初始化一个新的实例[`MapiContactNamePropertySet`](../mapicontactnamepropertyset) class |
+| [MapiContactNamePropertySet](mapicontactnamepropertyset#constructor_1)(string, string, string) | 初始化一个新的实例[`MapiContactNamePropertySet`](../mapicontactnamepropertyset)类. |
 
 ## 特性
 
@@ -27,13 +27,13 @@ public sealed class MapiContactNamePropertySet
 | --- | --- |
 | [DisplayName](../../aspose.email.mapi/mapicontactnamepropertyset/displayname) { get; set; } | 获取或设置联系人的全名 |
 | [DisplayNamePrefix](../../aspose.email.mapi/mapicontactnamepropertyset/displaynameprefix) { get; set; } | 获取或设置联系人的标题 |
-| [FileUnder](../../aspose.email.mapi/mapicontactnamepropertyset/fileunder) { get; set; } | 获取或设置 用于归档此联系人的名称 当显示联系人列表时 |
-| [FileUnderID](../../aspose.email.mapi/mapicontactnamepropertyset/fileunderid) { get; set; } | 获取或设置一个值，该值指定当其他属性时如何生成和重新计算属性已更改 |
+| [FileUnder](../../aspose.email.mapi/mapicontactnamepropertyset/fileunder) { get; set; } | 获取或设置 在显示联系人列表时归档此联系人 的名称 |
+| [FileUnderID](../../aspose.email.mapi/mapicontactnamepropertyset/fileunderid) { get; set; } | 获取或设置一个值，指定如何生成和重新计算更改其他属性时的属性 |
 | [Generation](../../aspose.email.mapi/mapicontactnamepropertyset/generation) { get; set; } | 获取或设置联系人的生成后缀 |
 | [GivenName](../../aspose.email.mapi/mapicontactnamepropertyset/givenname) { get; set; } | 获取或设置联系人的给定名称（名字） |
 | [Initials](../../aspose.email.mapi/mapicontactnamepropertyset/initials) { get; set; } | 获取或设置联系人的首字母 |
 | [MiddleName](../../aspose.email.mapi/mapicontactnamepropertyset/middlename) { get; set; } | 获取或设置联系人的中间名 |
-| [Nickname](../../aspose.email.mapi/mapicontactnamepropertyset/nickname) { get; set; } | 获取或设置联系人昵称 |
+| [Nickname](../../aspose.email.mapi/mapicontactnamepropertyset/nickname) { get; set; } | 获取或设置联系人的昵称 |
 | [Surname](../../aspose.email.mapi/mapicontactnamepropertyset/surname) { get; set; } | 获取或设置联系人的姓（姓氏） |
 
 ### 也可以看看

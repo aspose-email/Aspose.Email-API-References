@@ -18,16 +18,16 @@ public class AppointmentFormattingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AppointmentFormattingOptions](appointmentformattingoptions)() | 初始化[`AppointmentFormattingOptions`](../appointmentformattingoptions)类的新实例。  默认情况下，模板将以纯文本格式创建。 |
+| [AppointmentFormattingOptions](appointmentformattingoptions)() | 初始化[`AppointmentFormattingOptions`](../appointmentformattingoptions)类. 默认情况下，模板将以纯文本格式创建。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [CssStyles](../../aspose.email.calendar/appointmentformattingoptions/cssstyles) { get; set; } | 获取或设置格式化程序的附加 css 样式。 |
-| [DescriptionFormat](../../aspose.email.calendar/appointmentformattingoptions/descriptionformat) { get; set; } | 获取或设置描述格式。 |
+| [DescriptionFormat](../../aspose.email.calendar/appointmentformattingoptions/descriptionformat) { get; set; } | 获取或设置描述格式 |
 | [EndDateFormat](../../aspose.email.calendar/appointmentformattingoptions/enddateformat) { get; set; } | 获取或设置结束日期格式。 |
-| [IsTextFormat](../../aspose.email.calendar/appointmentformattingoptions/istextformat) { get; } | 获取一个值，该值指示模板是否具有文本格式。 |
+| [IsTextFormat](../../aspose.email.calendar/appointmentformattingoptions/istextformat) { get; } | 获取模板是否为文本格式的值。 |
 | [LocationFormat](../../aspose.email.calendar/appointmentformattingoptions/locationformat) { get; set; } | 获取或设置 where 格式。 |
 | [OrganizerFormat](../../aspose.email.calendar/appointmentformattingoptions/organizerformat) { get; set; } | 获取或设置管理器格式。 |
 | [StartDateFormat](../../aspose.email.calendar/appointmentformattingoptions/startdateformat) { get; set; } | 获取或设置开始日期格式。 |

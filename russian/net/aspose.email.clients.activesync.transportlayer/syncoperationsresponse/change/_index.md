@@ -1,14 +1,14 @@
 ---
 title: Change
 second_title: Справочник по Aspose.Email для .NET API
-description: Список объектов указывающий что объект в коллекции должен быть изменен.
+description: Список объектов указывающий что объект должен быть изменен в коллекции.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/syncoperationsresponse/change/
 ---
 ## SyncOperationsResponse.Change property
 
-Список объектов, указывающий, что объект в коллекции должен быть изменен.
+Список объектов, указывающий, что объект должен быть изменен в коллекции.
 
 ```csharp
 public List<SyncChangeResponse> Change { get; }

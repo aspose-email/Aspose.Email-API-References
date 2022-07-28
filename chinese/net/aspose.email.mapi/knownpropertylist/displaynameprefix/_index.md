@@ -1,14 +1,14 @@
 ---
 title: DisplayNamePrefix
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的尊称 区域MapiMailUser 规范名称PidTagDisplayNamePrefix 替代名称PR_DISPLAY_NAME_PREFIX PR_DISPLAY_NAME_PREFIX_A
+description: 包含邮件用户的尊称 区域MapiMailUser 规范名称PidTagDisplayNamePrefix 别名PR_DISPLAY_NAME_PREFIXPR_DISPLAY_NAME_PREFIX_A
 type: docs
 weight: 4150
 url: /zh/net/aspose.email.mapi/knownpropertylist/displaynameprefix/
 ---
 ## KnownPropertyList.DisplayNamePrefix field
 
-包含邮件用户的尊称。 区域:MapiMailUser 规范名称:PidTagDisplayNamePrefix 替代名称:PR_DISPLAY_NAME_PREFIX, PR_DISPLAY_NAME_PREFIX_A,
+包含邮件用户的尊称。 区域：MapiMailUser 规范名称：PidTagDisplayNamePrefix 别名：PR_DISPLAY_NAME_PREFIX、PR_DISPLAY_NAME_PREFIX_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayNamePrefix;

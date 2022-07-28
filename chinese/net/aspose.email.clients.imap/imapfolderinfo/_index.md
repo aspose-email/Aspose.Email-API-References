@@ -1,14 +1,14 @@
 ---
 title: ImapFolderInfo
 second_title: Aspose.Email for .NET API 参考
-description: 表示一个 IMAP 文件夹
+description: 表示 IMAP 文件夹
 type: docs
 weight: 16300
 url: /zh/net/aspose.email.clients.imap/imapfolderinfo/
 ---
 ## ImapFolderInfo class
 
-表示一个 IMAP 文件夹。
+表示 IMAP 文件夹。
 
 ```csharp
 public sealed class ImapFolderInfo
@@ -18,21 +18,21 @@ public sealed class ImapFolderInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FolderType](../../aspose.email.clients.imap/imapfolderinfo/foldertype) { get; } | 如果用作特殊文件夹，则获取有关文件夹用途的信息。 只有在服务器支持 IMAP LIST 时才可以访问此选项:特殊用途邮箱 (rfc6154) 查看更多信息:http://tools.ietf.org/html/rfc6154 |
-| [HasChildren](../../aspose.email.clients.imap/imapfolderinfo/haschildren) { get; } | 获取指示文件夹是否包含子文件夹的值。 只有在服务器支持 IMAP4 LIST 命令扩展 (rfc5258) 的情况下才能访问此选项:查看更多:http://tools.ietf.org/html/rfc5258 如果值为` true` ，则表示该文件夹有当前认证用户可访问的子子文件夹，否则为 false。 |
-| [HighestModSequence](../../aspose.email.clients.imap/imapfolderinfo/highestmodsequence) { get; } | 获取邮箱中所有邮件的值。 查看更多:https://tools.ietf.org/html/rfc7162 |
-| [Marked](../../aspose.email.clients.imap/imapfolderinfo/marked) { get; } | 获取一个值，表示是否标记为这个文件夹。 |
+| [FolderType](../../aspose.email.clients.imap/imapfolderinfo/foldertype) { get; } | 获取有关文件夹用途的信息，以防它被用作特殊文件夹。 仅当服务器支持 IMAP LIST：特殊用途邮箱 (rfc6154) 查看更多信息时，才能访问此选项：http://tools.ietf.org /html/rfc6154 |
+| [HasChildren](../../aspose.email.clients.imap/imapfolderinfo/haschildren) { get; } | 获取指示文件夹是否包含子文件夹的值。 仅当服务器支持 IMAP4 LIST 命令扩展 (rfc5258) 查看更多信息：http://tools.ietf.org/html/rfc5258 如果值为`真的` 表示该文件夹有当前认证用户可以访问的子子文件夹，否则为false. |
+| [HighestModSequence](../../aspose.email.clients.imap/imapfolderinfo/highestmodsequence) { get; } | 获取邮箱中所有邮件的值。 查看更多：https://tools.ietf.org/html/rfc7162 |
+| [Marked](../../aspose.email.clients.imap/imapfolderinfo/marked) { get; } | 获取一个值，表示是否标记了这个文件夹。 |
 | [Name](../../aspose.email.clients.imap/imapfolderinfo/name) { get; } | 获取文件夹的名称。 |
 | [NewMessageCount](../../aspose.email.clients.imap/imapfolderinfo/newmessagecount) { get; } | 获取新消息的数量。 |
-| [NoInferiors](../../aspose.email.clients.imap/imapfolderinfo/noinferiors) { get; } | 获取一个值，该值指示此文件夹是否可以具有子级别。 如果是` True` ，那么现在不存在子关卡，以后也不能创建子关卡 |
-| [NoModSeq](../../aspose.email.clients.imap/imapfolderinfo/nomodseq) { get; } | 获取表明邮箱是否支持 mod-sequences 的值。 此属性仅在服务器支持 CONDSTORE 扩展时有效。 请阅读更多 https://tools.ietf.org/html/rfc4551#section-3.1.2 |
-| [NonExistent](../../aspose.email.clients.imap/imapfolderinfo/nonexistent) { get; } | 获取指示文件夹名称是否引用现有文件夹的值。 查看更多:http://tools.ietf.org/html/rfc5258 |
+| [NoInferiors](../../aspose.email.clients.imap/imapfolderinfo/noinferiors) { get; } | 获取一个值，该值指示此文件夹是否可以具有子级别。 如果是`真的` 那么现在不存在子关卡，以后也不能创建任何子关卡 |
+| [NoModSeq](../../aspose.email.clients.imap/imapfolderinfo/nomodseq) { get; } | 获取指示邮箱是否支持 mod-sequences 的值。 此属性仅在服务器支持 CONDSTORE 扩展时有效。 请阅读更多 https://tools.ietf.org/html/rfc4551#section-3.1.2 |
+| [NonExistent](../../aspose.email.clients.imap/imapfolderinfo/nonexistent) { get; } | 获取指示文件夹名称是否引用现有文件夹的值。 查看更多：http://tools.ietf.org/html/rfc5258 |
 | [ReadOnly](../../aspose.email.clients.imap/imapfolderinfo/readonly) { get; } | 获取指示文件夹是否为只读的值。 |
 | [RecentMessageCount](../../aspose.email.clients.imap/imapfolderinfo/recentmessagecount) { get; } | 获取最近到达的消息数。 |
-| [Remote](../../aspose.email.clients.imap/imapfolderinfo/remote) { get; } | 获取表示文件夹是远程邮箱的值。 只有在服务器支持 IMAP4 LIST 命令扩展 (rfc5258) 的情况下才能访问此选项:查看更多:http://tools.ietf.org/html/rfc5258 |
+| [Remote](../../aspose.email.clients.imap/imapfolderinfo/remote) { get; } | 获取指示文件夹是远程邮箱的值。 仅当服务器支持 IMAP4 LIST 命令扩展 (rfc5258) 查看更多信息：http://tools.ietf.org/html/rfc5258 时才可访问此选项 |
 | [Selectable](../../aspose.email.clients.imap/imapfolderinfo/selectable) { get; } | 获取一个值，该值指示是否可以选择此文件夹。 |
-| [Subscribed](../../aspose.email.clients.imap/imapfolderinfo/subscribed) { get; } | 获取指示已订阅文件夹名称的值。 查看更多:http://tools.ietf.org/html/rfc5258 |
-| [TotalMessageCount](../../aspose.email.clients.imap/imapfolderinfo/totalmessagecount) { get; } | 获取文件夹中的消息数。 |
+| [Subscribed](../../aspose.email.clients.imap/imapfolderinfo/subscribed) { get; } | 获取指示已订阅文件夹名称的值。 查看更多：http://tools.ietf.org/html/rfc5258 |
+| [TotalMessageCount](../../aspose.email.clients.imap/imapfolderinfo/totalmessagecount) { get; } | 获取文件夹中的邮件数。 |
 | [UIDNext](../../aspose.email.clients.imap/imapfolderinfo/uidnext) { get; } | 获取邮箱的有效ID。 |
 | [UidNotSticky](../../aspose.email.clients.imap/imapfolderinfo/uidnotsticky) { get; } | 获取指示邮件存储是否不支持持久 UID 的值 此属性仅在服务器支持 UIDPLUS 扩展时有效。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | [ValidityId](../../aspose.email.clients.imap/imapfolderinfo/validityid) { get; } | 获取邮箱的有效ID。 |

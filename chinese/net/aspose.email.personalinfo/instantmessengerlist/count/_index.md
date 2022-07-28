@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Email for .NET API 参考
-description: 获取ICollection中包含的元素数
+description: 获取包含在ICollection.
 type: docs
 weight: 30
 url: /zh/net/aspose.email.personalinfo/instantmessengerlist/count/
 ---
 ## InstantMessengerList.Count property
 
-获取ICollection中包含的元素数。
+获取包含在ICollection.
 
 ```csharp
 public int Count { get; }
@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### 返回值
 
-ICollection中包含的元素数量.
+包含的元素个数ICollection.
 
 ### 也可以看看
 

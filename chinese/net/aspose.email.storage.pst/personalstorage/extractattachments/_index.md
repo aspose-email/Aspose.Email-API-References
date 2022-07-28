@@ -20,7 +20,7 @@ public MapiAttachmentCollection ExtractAttachments(MessageInfo messageInfo)
 
 ### 返回值
 
-[`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection)表示附件的集合。
+这[`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection)表示附件的集合。
 
 ### 也可以看看
 
@@ -46,7 +46,7 @@ public MapiAttachmentCollection ExtractAttachments(string entryId)
 
 ### 返回值
 
-[`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection)表示附件的集合。
+这[`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection)表示附件的集合。
 
 ### 也可以看看
 

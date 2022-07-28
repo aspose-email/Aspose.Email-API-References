@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/spokenname/
 ---
 ## KnownPropertyList.SpokenName field
 
-包含邮件用户姓名发音的录音。 区域:地址簿 规范名称:PidTagSpokenName 替代名称:PR_EMS_AB_UM_SPOKEN_NAME
+包含邮件用户姓名发音的录音。 区域：地址簿 规范名称：PidTagSpokenName 替代名称：PR_EMS_AB_UM_SPOKEN_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SpokenName;

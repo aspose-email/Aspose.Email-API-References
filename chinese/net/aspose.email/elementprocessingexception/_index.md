@@ -18,7 +18,7 @@ public class ElementProcessingException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ElementProcessingException](elementprocessingexception)(int, Exception) | 使用指定的元素索引初始化[`ElementProcessingException`](../elementprocessingexception)类的新实例。 |
+| [ElementProcessingException](elementprocessingexception)(int, Exception) | 初始化[`ElementProcessingException`](../elementprocessingexception)具有指定元素索引的类。 |
 
 ## 特性
 

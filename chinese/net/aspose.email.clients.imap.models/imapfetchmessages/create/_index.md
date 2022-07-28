@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建新的ImapFetchMessagesaspose.email.clients.imap.models/imapfetchmessages实例
+description: 新建ImapFetchMessagesaspose.email.clients.imap.models/imapfetchmessages实例.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap.models/imapfetchmessages/create/
 ---
 ## ImapFetchMessages.Create method
 
-创建新的[`ImapFetchMessages`](../../imapfetchmessages)实例。
+新建[`ImapFetchMessages`](../../imapfetchmessages)实例.
 
 ```csharp
 public static ImapFetchMessages Create()

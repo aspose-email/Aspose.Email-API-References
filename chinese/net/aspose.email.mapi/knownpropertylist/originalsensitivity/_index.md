@@ -1,14 +1,14 @@
 ---
 title: OriginalSensitivity
 second_title: Aspose.Email for .NET API 参考
-description: 包含原始电子邮件的敏感度值 区域常规消息属性 规范名称PidTagOriginalSensitivity 替代名称PR_ORIGINAL_SENSITIVITY ptagOriginalSensitivity
+description: 包含原始电子邮件的敏感度值 区域常规邮件属性 规范名称PidTagOriginalSensitivity 替代名称PR_ORIGINAL_SENSITIVITYptagOriginalSensitivity
 type: docs
 weight: 13710
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalsensitivity/
 ---
 ## KnownPropertyList.OriginalSensitivity field
 
-包含原始电子邮件的敏感度值。 区域:常规消息属性 规范名称:PidTagOriginalSensitivity 替代名称:PR_ORIGINAL_SENSITIVITY, ptagOriginalSensitivity
+包含原始电子邮件的敏感度值。 区域：常规邮件属性 规范名称：PidTagOriginalSensitivity 替代名称：PR_ORIGINAL_SENSITIVITY、ptagOriginalSensitivity
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSensitivity;

@@ -1,14 +1,14 @@
 ---
 title: CreateCalendar
 second_title: Aspose.Email for .NET API 参考
-description: 创建日历
+description: 创建一个日历
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.google/igmailclient/createcalendar/
 ---
 ## CreateCalendar(Calendar) {#createcalendar}
 
-创建日历。
+创建一个日历。
 
 ```csharp
 public string CreateCalendar(Calendar calendar)
@@ -33,7 +33,7 @@ public string CreateCalendar(Calendar calendar)
 
 ## CreateCalendar(Calendar, bool) {#createcalendar_1}
 
-创建日历。
+创建一个日历。
 
 ```csharp
 public string CreateCalendar(Calendar calendar, bool useColorRgbFormat)
@@ -42,7 +42,7 @@ public string CreateCalendar(Calendar calendar, bool useColorRgbFormat)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | calendar | Calendar | 要创建的日历对象的实例。 |
-| useColorRgbFormat | Boolean | 表示是否使用彩色 rgb 格式。 |
+| useColorRgbFormat | Boolean | 指示是否使用彩色 rgb 格式。 |
 
 ### 返回值
 

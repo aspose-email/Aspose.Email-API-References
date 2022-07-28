@@ -1,14 +1,14 @@
 ---
 title: TotalCount
 second_title: Aspose.Email for .NET API 参考
-description: 获取项目总数
+description: 获取项目的总数
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.exchange/exchangefolderinfo/totalcount/
 ---
 ## ExchangeFolderInfo.TotalCount property
 
-获取项目总数。
+获取项目的总数。
 
 ```csharp
 public int TotalCount { get; }

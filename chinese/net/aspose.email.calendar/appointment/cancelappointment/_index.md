@@ -3,7 +3,7 @@ title: CancelAppointment
 second_title: Aspose.Email for .NET API 参考
 description: 取消约会
 type: docs
-weight: 290
+weight: 300
 url: /zh/net/aspose.email.calendar/appointment/cancelappointment/
 ---
 ## CancelAppointment() {#cancelappointment}
@@ -16,7 +16,7 @@ public AlternateView CancelAppointment()
 
 ### 返回值
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件的格式。
+备用视图[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件的格式。
 
 ### 也可以看看
 
@@ -37,11 +37,11 @@ public AlternateView CancelAppointment(int seqId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| seqId | Int32 | 序列 ID。 |
+| seqId | Int32 | 序列号。 |
 
 ### 返回值
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件消息的格式。
+备用视图[`AlternateView`](../../../aspose.email/alternateview)表示查看电子邮件的格式。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmsAbDomainDefAltRecip
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_DOMAIN_DEF_ALT_RECIP
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange 客户端使用的此属性 规范名称 备用名称PR_EMS_AB_DOMAIN_DEF_ALT_RECIP
 type: docs
 weight: 5540
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabdomaindefaltrecip/
 ---
 ## KnownPropertyList.EmsAbDomainDefAltRecip field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_DOMAIN_DEF_ALT_RECIP
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange 客户端使用的此属性。 规范名称： 备用名称：PR_EMS_AB_DOMAIN_DEF_ALT_RECIP
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDomainDefAltRecip;

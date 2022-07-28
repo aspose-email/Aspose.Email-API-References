@@ -1,14 +1,14 @@
 ---
 title: PostalAddress
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的邮政地址 区域MapiMailUser 规范名称PidTagPostalAddress 替代名称PR_POSTAL_ADDRESS PR_POSTAL_ADDRESS_A PR_POSTAL_ADDRESS_W
+description: 包含邮件用户的邮寄地址 区域MapiMailUser 规范名称PidTagPostalAddress 替代名称PR_POSTAL_ADDRESSPR_POSTAL_ADDRESS_APR_POSTAL_ADDRESS_W
 type: docs
 weight: 14350
 url: /zh/net/aspose.email.mapi/knownpropertylist/postaladdress/
 ---
 ## KnownPropertyList.PostalAddress field
 
-包含邮件用户的邮政地址。 区域:MapiMailUser 规范名称:PidTagPostalAddress 替代名称:PR_POSTAL_ADDRESS, PR_POSTAL_ADDRESS_A, PR_POSTAL_ADDRESS_W,
+包含邮件用户的邮寄地址。 区域：MapiMailUser 规范名称：PidTagPostalAddress 替代名称：PR_POSTAL_ADDRESS、PR_POSTAL_ADDRESS_A、PR_POSTAL_ADDRESS_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PostalAddress;

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookx509certificate/
 ---
 ## KnownPropertyList.AddressBookX509Certificate field
 
-包含邮件用户的 ASN_1 DER 编码 X.509 证书。 区域:地址簿 规范名称:PidTagAddressBookX509Certificate 备用名称:PR_EMS_AB_X509_CERT
+包含邮件用户的 ASN_1 DER 编码 X.509 证书。 区域：地址簿 规范名称：PidTagAddressBookX509Certificate 备用名称：PR_EMS_AB_X509_CERT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookX509Certificate;

@@ -1,14 +1,14 @@
 ---
 title: UniqueRecipients
 second_title: Aspose.Email for .NET API 参考
-description: 获取在此对话中收到当前文件夹中消息的所有人员的列表
+description: 获取当前文件夹中消息的所有在此对话中收到消息的人的列表
 type: docs
 weight: 250
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeconversation/uniquerecipients/
 ---
 ## ExchangeConversation.UniqueRecipients property
 
-获取在此对话中收到当前文件夹中消息的所有人员的列表。
+获取当前文件夹中消息的所有在此对话中收到消息的人的列表。
 
 ```csharp
 public StringCollection UniqueRecipients { get; }

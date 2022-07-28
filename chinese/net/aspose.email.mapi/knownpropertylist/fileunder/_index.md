@@ -1,14 +1,14 @@
 ---
 title: FileUnder
 second_title: Aspose.Email for .NET API 参考
-description: 指定在显示联系人列表时归档联系人的名称 区域联系人属性 规范名称PidLidFileUnder 替代名称dispidFileUnder
+description: 指定在显示联系人列表时归档联系人的名称 区域联系人属性 规范名称PidLidFileUnder 备用名称dispidFileUnder
 type: docs
 weight: 10280
 url: /zh/net/aspose.email.mapi/knownpropertylist/fileunder/
 ---
 ## KnownPropertyList.FileUnder field
 
-指定在显示联系人列表时归档联系人的名称。 区域:联系人属性 规范名称:PidLidFileUnder 替代名称:dispidFileUnder
+指定在显示联系人列表时归档联系人的名称。 区域：联系人属性 规范名称：PidLidFileUnder 备用名称：dispidFileUnder
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FileUnder;

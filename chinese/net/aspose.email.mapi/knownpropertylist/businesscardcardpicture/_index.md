@@ -1,14 +1,14 @@
 ---
 title: BusinessCardCardPicture
 second_title: Aspose.Email for .NET API 参考
-description: 包含要在名片上使用的图像 区域联系人属性 规范名称PidLidBusinessCardCardCardPicture 别名dispidBCCardPicture
+description: 包含要在名片上使用的图像 区域联系人属性 规范名称PidLidBusinessCardCardPicture 替代名称dispidBCCardPicture
 type: docs
 weight: 2100
 url: /zh/net/aspose.email.mapi/knownpropertylist/businesscardcardpicture/
 ---
 ## KnownPropertyList.BusinessCardCardPicture field
 
-包含要在名片上使用的图像。 区域:联系人属性 规范名称:PidLidBusinessCardCardCardPicture 别名:dispidBCCardPicture
+包含要在名片上使用的图像。 区域：联系人属性 规范名称：PidLidBusinessCardCardPicture 替代名称：dispidBCCardPicture
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BusinessCardCardPicture;

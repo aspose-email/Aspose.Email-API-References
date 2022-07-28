@@ -1,14 +1,14 @@
 ---
 title: AttachAdditionalInformation
 second_title: Aspose.Email for .NET API 参考
-description: 包含附件编码信息 区域消息附件属性 规范名称PidTagAttachAdditionalInformation 备用名称PR_ATTACH_ADDITIONAL_INFO
+description: 包含附件编码信息 区域邮件附件属性 规范名称PidTagAttachAdditionalInformation 备用名称PR_ATTACH_ADDITIONAL_INFO
 type: docs
 weight: 1510
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachadditionalinformation/
 ---
 ## KnownPropertyList.AttachAdditionalInformation field
 
-包含附件编码信息。 区域:消息附件属性 规范名称:PidTagAttachAdditionalInformation 备用名称:PR_ATTACH_ADDITIONAL_INFO
+包含附件编码信息。 区域：邮件附件属性 规范名称：PidTagAttachAdditionalInformation 备用名称：PR_ATTACH_ADDITIONAL_INFO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachAdditionalInformation;

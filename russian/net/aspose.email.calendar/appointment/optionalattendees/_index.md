@@ -3,7 +3,7 @@ title: OptionalAttendees
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает необязательных участников.
 type: docs
-weight: 180
+weight: 190
 url: /ru/net/aspose.email.calendar/appointment/optionalattendees/
 ---
 ## Appointment.OptionalAttendees property
@@ -16,7 +16,7 @@ public MailAddressCollection OptionalAttendees { get; }
 
 ### Стоимость имущества
 
-Коллекция адресов необязательных участников.
+Коллекция адресов дополнительных участников.
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public Appointment MoveAppointment(string sourceCalendarId, string destinationCa
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceCalendarId | String | 源日历的标识符。 |
-| destinationCalendarId | String | 目标日历的标识符。 |
+| destinationCalendarId | String | 目的地日历的标识符。 |
 | appointmentId | String | 约会标识符。 |
 
 ### 返回值
@@ -46,7 +46,7 @@ public Appointment MoveAppointment(string sourceCalendarId, string destinationCa
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceCalendarId | String | 源日历的标识符。 |
-| destinationCalendarId | String | 目标日历的标识符。 |
+| destinationCalendarId | String | 目的地日历的标识符。 |
 | appointmentId | String | 约会标识符。 |
 | sendNotifications | Boolean | 指定是否应发送通知。 |
 

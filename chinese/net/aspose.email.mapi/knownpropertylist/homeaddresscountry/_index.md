@@ -1,14 +1,14 @@
 ---
 title: HomeAddressCountry
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户所在国家/地区的名称 区域MapiMailUser 规范名称PidTagHomeAddressCountry 备用名称PR_HOME_ADDRESS_COUNTRY PR_HOME_ADDRESS_COUNTRY_A
+description: 包含邮件用户所在国家/地区的名称 区域MapiMailUser 规范名称PidTagHomeAddressCountry 备用名称PR_HOME_ADDRESS_COUNTRYPR_HOME_ADDRESS_COUNTRY_A
 type: docs
 weight: 11020
 url: /zh/net/aspose.email.mapi/knownpropertylist/homeaddresscountry/
 ---
 ## KnownPropertyList.HomeAddressCountry field
 
-包含邮件用户所在国家/地区的名称。 区域:MapiMailUser 规范名称:PidTagHomeAddressCountry 备用名称:PR_HOME_ADDRESS_COUNTRY, PR_HOME_ADDRESS_COUNTRY_A,
+包含邮件用户所在国家/地区的名称。 区域：MapiMailUser 规范名称：PidTagHomeAddressCountry 备用名称：PR_HOME_ADDRESS_COUNTRY、PR_HOME_ADDRESS_COUNTRY_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressCountry;

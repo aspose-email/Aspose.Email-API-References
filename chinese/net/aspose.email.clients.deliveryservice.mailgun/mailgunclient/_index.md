@@ -18,7 +18,7 @@ public class MailgunClient : IDeliveryServiceClient
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailgunClient](mailgunclient)(string, string, MailgunRegion) | 初始化[`MailgunClient`](../mailgunclient)类 的新实例 |
+| [MailgunClient](mailgunclient)(string, string, MailgunRegion) | 初始化[`MailgunClient`](../mailgunclient) class |
 
 ## 方法
 

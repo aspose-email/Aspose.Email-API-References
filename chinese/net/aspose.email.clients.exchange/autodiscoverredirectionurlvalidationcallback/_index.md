@@ -1,14 +1,14 @@
 ---
 title: AutodiscoverRedirectionUrlValidationCallback
 second_title: Aspose.Email for .NET API 参考
-description: 定义 AutodiscoverService 用来询问是否可以使用 redirectionUrl 的委托
+description: 定义 AutodiscoverService 使用的委托来询问是否可以使用 redirectionUrl
 type: docs
 weight: 3060
 url: /zh/net/aspose.email.clients.exchange/autodiscoverredirectionurlvalidationcallback/
 ---
 ## AutodiscoverRedirectionUrlValidationCallback delegate
 
-定义 AutodiscoverService 用来询问是否可以使用 redirectionUrl 的委托。
+定义 AutodiscoverService 使用的委托来询问是否可以使用 redirectionUrl。
 
 ```csharp
 public delegate bool AutodiscoverRedirectionUrlValidationCallback(string redirectionUrl);

@@ -17,11 +17,11 @@ public HeaderCollection GetMessageHeaders(IConnection connection, int sequenceNu
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-HeaderCollection 表示标头集合
+HeaderCollection 表示标题的集合
 
 ### 也可以看看
 
@@ -43,11 +43,11 @@ public HeaderCollection GetMessageHeaders(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-HeaderCollection 表示标题集合
+HeaderCollection 表示标题的集合
 
 ### 也可以看看
 
@@ -69,11 +69,11 @@ public HeaderCollection GetMessageHeaders(IConnection connection, string uniqueI
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一 id |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
-HeaderCollection 表示标头集合
+HeaderCollection 表示标题的集合
 
 ### 也可以看看
 
@@ -95,11 +95,11 @@ public HeaderCollection GetMessageHeaders(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的唯一id |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
-HeaderCollection 表示标题集合
+HeaderCollection 表示标题的集合
 
 ### 也可以看看
 

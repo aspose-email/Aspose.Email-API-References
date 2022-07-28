@@ -1,14 +1,14 @@
 ---
 title: ValidateMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Проверить сообщение eml на соответствие спецификации mime.
+description: Проверка сообщения eml на соответствие спецификации mime.
 type: docs
 weight: 590
 url: /ru/net/aspose.email/mailmessage/validatemessage/
 ---
 ## ValidateMessage(string) {#validatemessage_1}
 
-Проверить сообщение eml на соответствие спецификации mime.
+Проверка сообщения eml на соответствие спецификации mime.
 
 ```csharp
 public static EmlValidationErrorCollection ValidateMessage(string fileName)
@@ -20,14 +20,14 @@ public static EmlValidationErrorCollection ValidateMessage(string fileName)
 
 ### Возвращаемое значение
 
-A[`EmlValidationErrorCollection`](../../emlvalidationerrorcollection)содержащий найденные сообщения об ошибках проверки.
+А[`EmlValidationErrorCollection`](../../emlvalidationerrorcollection) содержащие найденные сообщения об ошибках проверки.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *fileName*is` null` или` пусто` . |
-| FileNotFoundException | Указанный*fileName*не существует. |
+| ArgumentException | *fileName* является`нулевой`или же`пустой`. |
+| FileNotFoundException | Указанный*fileName* не существует. |
 
 ### Смотрите также
 
@@ -40,7 +40,7 @@ A[`EmlValidationErrorCollection`](../../emlvalidationerrorcollection)содер�
 
 ## ValidateMessage(Stream) {#validatemessage}
 
-Проверить сообщение eml на соответствие спецификации mime.
+Проверка сообщения eml на соответствие спецификации mime.
 
 ```csharp
 public static EmlValidationErrorCollection ValidateMessage(Stream stream)
@@ -52,13 +52,13 @@ public static EmlValidationErrorCollection ValidateMessage(Stream stream)
 
 ### Возвращаемое значение
 
-A[`EmlValidationErrorCollection`](../../emlvalidationerrorcollection)содержащий найденные сообщения об ошибках проверки.
+А[`EmlValidationErrorCollection`](../../emlvalidationerrorcollection) содержащие найденные сообщения об ошибках проверки.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` . |
+| ArgumentNullException | *stream* является`нулевой`. |
 
 ### Смотрите также
 

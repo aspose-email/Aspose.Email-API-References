@@ -1,14 +1,14 @@
 ---
 title: ICalendarEndTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含约会或会议结束的日期和时间UTC 格式 区域日历 规范名称PidTagICalendarEndTime 替代名称urnschemascalendardtend
+description: 包含约会或会议结束时的 UTC 日期和时间 区域Calendar 规范名称PidTagICalendarEndTime 替代名称urnschemascalendardtend
 type: docs
 weight: 11150
 url: /zh/net/aspose.email.mapi/knownpropertylist/icalendarendtime/
 ---
 ## KnownPropertyList.ICalendarEndTime field
 
-包含约会或会议结束的日期和时间（UTC 格式）。 区域:日历 规范名称:PidTagICalendarEndTime 替代名称:urn:schemas:calendar:dtend
+包含约会或会议结束时的 UTC 日期和时间。 区域：Calendar 规范名称：PidTagICalendarEndTime 替代名称：urn:schemas:calendar:dtend
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ICalendarEndTime;

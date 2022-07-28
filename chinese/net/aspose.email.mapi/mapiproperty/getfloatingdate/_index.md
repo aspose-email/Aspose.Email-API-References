@@ -1,14 +1,14 @@
 ---
 title: GetFloatingDate
 second_title: Aspose.Email for .NET API 参考
-description: 获取二进制数据的字节为 DateTime
+description: 获取二进制数据的字节为 DateTime.
 type: docs
 weight: 200
 url: /zh/net/aspose.email.mapi/mapiproperty/getfloatingdate/
 ---
 ## MapiProperty.GetFloatingDate method
 
-获取二进制数据的字节为 DateTime。
+获取二进制数据的字节为 DateTime.
 
 ```csharp
 public virtual DateTime GetFloatingDate()

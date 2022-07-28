@@ -1,14 +1,14 @@
 ---
 title: ModifyRecipientsAllowed
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户转发或回复电子邮件时是否可以修改收件人列表 如果用户可以修改收件人 1 列表则值为 TRUE否则错误
+description: 指定用户是否可以在用户转发或回复电子邮件消息时修改收件人列表 如果用户可以修改收件人 1 列表则值为 TRUE否则FALSE.
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/modifyrecipientsallowed/
 ---
 ## RightsManagementLicense.ModifyRecipientsAllowed property
 
-指定用户转发或回复电子邮件时是否可以修改收件人列表。 如果用户可以修改收件人 (1) 列表，则值为 TRUE；否则，错误。
+指定用户是否可以在用户转发或回复电子邮件消息时修改收件人列表。 如果用户可以修改收件人 (1) 列表，则值为 TRUE；否则，FALSE.
 
 ```csharp
 public bool ModifyRecipientsAllowed { get; set; }

@@ -3,7 +3,7 @@ title: CancelAppointment
 second_title: Справочник по Aspose.Email для .NET API
 description: Отменяет встречу.
 type: docs
-weight: 290
+weight: 300
 url: /ru/net/aspose.email.calendar/appointment/cancelappointment/
 ---
 ## CancelAppointment() {#cancelappointment}
@@ -16,7 +16,7 @@ public AlternateView CancelAppointment()
 
 ### Возвращаемое значение
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview), который представляет формат для просмотра сообщения электронной почты.
+Альтернативный вид[`AlternateView`](../../../aspose.email/alternateview) который представляет формат для просмотра сообщения электронной почты.
 
 ### Смотрите также
 
@@ -41,7 +41,7 @@ public AlternateView CancelAppointment(int seqId)
 
 ### Возвращаемое значение
 
-AlternateView[`AlternateView`](../../../aspose.email/alternateview), который представляет формат для просмотра сообщения электронной почты.
+Альтернативный вид[`AlternateView`](../../../aspose.email/alternateview) который представляет формат для просмотра сообщения электронной почты.
 
 ### Смотрите также
 

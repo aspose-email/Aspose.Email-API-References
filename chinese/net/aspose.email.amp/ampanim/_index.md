@@ -18,18 +18,18 @@ public class AmpAnim : AmpImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AmpAnim](ampanim)(int, int) | 创建 AmpAnim 实例。 |
+| [AmpAnim](ampanim)(int, int) | 创建 AmpAnim 的实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alt](../../aspose.email.amp/ampimage/alt) { get; set; } | 替代文本字符串，类似于 img 上的 alt 属性。 |
+| [Alt](../../aspose.email.amp/ampimage/alt) { get; set; } | 一串替代文本，类似于 img 上的 alt 属性。 |
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP 提供了一组通用属性，这些属性扩展到许多 AMP 组件。 |
-| [Attribution](../../aspose.email.amp/ampanim/attribution) { get; set; } | 表示图像属性的字符串。 |
+| [Attribution](../../aspose.email.amp/ampanim/attribution) { get; set; } | 表示图片归属地的字符串。 |
 | [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | 后备是一种约定，它允许元素向读者传达浏览器不支持该元素。 |
-| [IsValid](../../aspose.email.amp/ampimage/isvalid) { get; } | 表示此图像是否对AmpImage有效。 |
-| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
+| [IsValid](../../aspose.email.amp/ampimage/isvalid) { get; } | 表示此图像是否为 AmpImage 有效。 |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标记有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
 | override [RequiredScript](../../aspose.email.amp/ampanim/requiredscript) { get; } | 必须添加到头部的脚本。 |
 | [Src](../../aspose.email.amp/ampimage/src) { get; set; } | 类似于 img 标签上的 src 属性。该值必须是指向可公开缓存的图像文件的 URL |
 
@@ -37,7 +37,7 @@ public class AmpAnim : AmpImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/ampanim/toamphtml)() | 表示组件的 amp html 版本。 |
+| override [ToAmpHtml](../../aspose.email.amp/ampanim/toamphtml)() | 代表 amp html 版本的组件。 |
 | override [ToHtml](../../aspose.email.amp/ampimage/tohtml)() | 表示组件的 html 版本。 |
 
 ### 也可以看看

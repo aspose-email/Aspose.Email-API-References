@@ -20,7 +20,7 @@ public MapiContactCollection ResolveContact(string unresolvedEntry)
 
 ### 返回值
 
-A[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)表示联系人信息。
+一个[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)表示联系人信息。
 
 ### 也可以看看
 

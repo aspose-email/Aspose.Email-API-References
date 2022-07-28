@@ -1,14 +1,14 @@
 ---
 title: Hobbies
 second_title: Aspose.Email for .NET API 参考
-description: 爱好标题
+description: 爱好标题.
 type: docs
 weight: 180
 url: /zh/net/aspose.email/mhttemplatename.contact/hobbies/
 ---
 ## MhtTemplateName.Contact.Hobbies field
 
-爱好标题。
+爱好标题.
 
 ```csharp
 public const string Hobbies;

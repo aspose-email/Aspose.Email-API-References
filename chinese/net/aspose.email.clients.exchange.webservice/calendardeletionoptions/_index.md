@@ -1,14 +1,14 @@
 ---
 title: CalendarDeletionOptions
 second_title: Aspose.Email for .NET API 参考
-description: 定义项目删除参数
+description: 定义项目删除的参数
 type: docs
 weight: 3610
 url: /zh/net/aspose.email.clients.exchange.webservice/calendardeletionoptions/
 ---
 ## CalendarDeletionOptions class
 
-定义项目删除参数
+定义项目删除的参数
 
 ```csharp
 public class CalendarDeletionOptions : DeletionOptions
@@ -18,17 +18,17 @@ public class CalendarDeletionOptions : DeletionOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CalendarDeletionOptions](calendardeletionoptions#constructor)() | 初始化[`CalendarDeletionOptions`](../calendardeletionoptions)类的新实例。 |
-| [CalendarDeletionOptions](calendardeletionoptions#constructor_1)(DeletionType) | 初始化[`CalendarDeletionOptions`](../calendardeletionoptions)类的新实例。 |
-| [CalendarDeletionOptions](calendardeletionoptions#constructor_2)(DeletionType, CalendarItemCreateOrDeleteOperation) | 初始化[`CalendarDeletionOptions`](../calendardeletionoptions)类的新实例。 |
+| [CalendarDeletionOptions](calendardeletionoptions#constructor)() | 初始化[`CalendarDeletionOptions`](../calendardeletionoptions)类. |
+| [CalendarDeletionOptions](calendardeletionoptions#constructor_1)(DeletionType) | 初始化[`CalendarDeletionOptions`](../calendardeletionoptions)类. |
+| [CalendarDeletionOptions](calendardeletionoptions#constructor_2)(DeletionType, CalendarItemCreateOrDeleteOperation) | 初始化[`CalendarDeletionOptions`](../calendardeletionoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Default](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/default) { get; } | 获取[`DeletionOptions`](../deletionoptions)对象的实例，默认设置使用 |
-| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/deletepermanently) { get; } | 获取[`DeletionOptions`](../deletionoptions)对象的实例，并设置永久删除 |
-| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/movetodeleteditems) { get; } | 获取[`DeletionOptions`](../deletionoptions)对象的实例，其中包含用于移动到已删除项目的设置 |
+| static [Default](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/default) { get; } | 获取实例[`DeletionOptions`](../deletionoptions)默认情况下使用设置的对象 |
+| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/deletepermanently) { get; } | 获取实例[`DeletionOptions`](../deletionoptions)具有永久删除设置的对象 |
+| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/movetodeleteditems) { get; } | 获取实例[`DeletionOptions`](../deletionoptions)具有移动到已删除项目的设置的对象 |
 | [NotyficationType](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/notyficationtype) { get; set; } | 获取或设置指示如何通知事件成员的值 |
 | [Type](../../aspose.email.clients.exchange.webservice/deletionoptions/type) { get; set; } | 删除类型 |
 

@@ -1,14 +1,14 @@
 ---
 title: BilateralInfo
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_BILATERAL_INFO
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_BILATERAL_INFO
 type: docs
 weight: 1970
 url: /zh/net/aspose.email.mapi/knownpropertylist/bilateralinfo/
 ---
 ## KnownPropertyList.BilateralInfo field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_BILATERAL_INFO
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_BILATERAL_INFO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BilateralInfo;

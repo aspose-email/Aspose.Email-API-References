@@ -1,14 +1,14 @@
 ---
 title: ServerData
 second_title: Aspose.Email for .NET API 参考
-description: ServerData 指定客户端证书的模板名称可选的
+description: ServerData 指定客户端证书的模板名称可选的.
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/serverinfo/serverdata/
 ---
 ## ServerInfo.ServerData property
 
-ServerData 指定客户端证书的模板名称。可选的。
+ServerData 指定客户端证书的模板名称。可选的.
 
 ```csharp
 public string ServerData { get; }

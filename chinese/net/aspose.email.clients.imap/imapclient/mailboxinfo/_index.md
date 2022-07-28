@@ -1,14 +1,14 @@
 ---
 title: MailboxInfo
 second_title: Aspose.Email for .NET API 参考
-description: 获取一组专用邮箱 查看更多http//tools.ietf.org/html/rfc6154 和 https// tools.ietf.org/html/rfc8457
+description: 获取一组专用邮箱 查看更多http//tools.ietf.org/html/rfc6154 和 https//tools.ietf.org/html/rfc8457
 type: docs
 weight: 180
 url: /zh/net/aspose.email.clients.imap/imapclient/mailboxinfo/
 ---
 ## ImapClient.MailboxInfo property
 
-获取一组专用邮箱 查看更多:http://tools.ietf.org/html/rfc6154 和 https:// tools.ietf.org/html/rfc8457
+获取一组专用邮箱 查看更多：http://tools.ietf.org/html/rfc6154 和 https://tools.ietf.org/html/rfc8457
 
 ```csharp
 public ImapMailboxInfo MailboxInfo { get; }

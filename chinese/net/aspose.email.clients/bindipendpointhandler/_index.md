@@ -1,14 +1,14 @@
 ---
 title: BindIPEndPointHandler
 second_title: Aspose.Email for .NET API 参考
-description: 如果您需要使用特定的本地端点请使用 BindIPEndPointHandler
+description: 如果需要使用特定的本地端点请使用 BindIPEndPointHandler
 type: docs
 weight: 2880
 url: /zh/net/aspose.email.clients/bindipendpointhandler/
 ---
 ## BindIPEndPointHandler delegate
 
-如果您需要使用特定的本地端点，请使用 BindIPEndPointHandler。
+如果需要使用特定的本地端点，请使用 BindIPEndPointHandler。
 
 ```csharp
 public delegate IPEndPoint BindIPEndPointHandler(IPEndPoint remoteEndPoint);

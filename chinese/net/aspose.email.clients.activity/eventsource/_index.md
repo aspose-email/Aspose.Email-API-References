@@ -1,14 +1,14 @@
 ---
 title: EventSource
 second_title: Aspose.Email for .NET API 参考
-description: 审计事件源
+description: 审核事件源
 type: docs
 weight: 2470
 url: /zh/net/aspose.email.clients.activity/eventsource/
 ---
 ## EventSource enumeration
 
-审计事件源
+审核事件源
 
 ```csharp
 public enum EventSource
@@ -19,7 +19,7 @@ public enum EventSource
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | SharePoint | `0` | 事件源是 SharePoint。 |
-| ObjectModel | `1` | 事件源是 ObjectModel。 |
+| ObjectModel | `1` | 事件源是 ObjectModel. |
 
 ### 也可以看看
 

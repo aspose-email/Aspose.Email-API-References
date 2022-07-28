@@ -16,7 +16,7 @@ public ByNumberCollection ByWeekNo { get; }
 
 ### 适当的价值
 
-按周编号。
+按周没有。
 
 ### 也可以看看
 

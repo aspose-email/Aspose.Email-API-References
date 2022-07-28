@@ -19,7 +19,7 @@ public enum ContactFieldsSet
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示生成的 mhtml 文件中不会包含任何字段。 html 正文中只会显示联系人的注释。 |
+| None | `0` | 表示生成的 mhtml 文件中不会包含任何字段。 html body. 中只会显示联系人的注释 |
 | NameInfo | `1` | 表示 NameInfo 字段将包含在生成的 mhtml 文件中。 |
 | PersonalInfo | `2` | 表示 PersonalInfo 字段将包含在生成的 mhtml 文件中。 |
 | ProfessionalInfo | `4` | 表示 ProfessionalInfo 字段将包含在生成的 mhtml 文件中。 |

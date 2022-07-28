@@ -1,14 +1,14 @@
 ---
 title: Day
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置重复周期所在月份的日期
+description: 获取或设置重复周期所在的月份中的哪一天
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/day/
 ---
 ## MapiCalendarYearlyAndMonthlyRecurrencePattern.Day property
 
-获取或设置重复周期所在月份的日期。
+获取或设置重复周期所在的月份中的哪一天。
 
 ```csharp
 public uint Day { get; set; }

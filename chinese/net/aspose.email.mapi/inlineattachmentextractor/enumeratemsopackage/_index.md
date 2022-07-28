@@ -26,8 +26,8 @@ public static IDictionary<string, byte[]> EnumerateMsoPackage(Stream stream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*stream*为空。 |
-| InvalidDataException | 如果给定*stream*数据格式不正确。 |
+| ArgumentNullException | 如果*stream*一片空白。 |
+| InvalidDataException | 如果给出*stream*有格式不正确的数据。 |
 
 ### 评论
 

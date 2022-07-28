@@ -3,7 +3,7 @@ title: ContactPhoto
 second_title: Aspose.Email for .NET API 参考
 description: 代表联系人照片
 type: docs
-weight: 19310
+weight: 19340
 url: /zh/net/aspose.email.personalinfo/contactphoto/
 ---
 ## ContactPhoto class
@@ -18,7 +18,7 @@ public class ContactPhoto
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ContactPhoto](contactphoto)(byte[], MapiContactPhotoImageFormat) | 初始化 [`ContactPhoto`](../contactphoto) 类的新实例 |
+| [ContactPhoto](contactphoto)(byte[], MapiContactPhotoImageFormat) | 初始化[`ContactPhoto`](../contactphoto) class |
 
 ## 特性
 

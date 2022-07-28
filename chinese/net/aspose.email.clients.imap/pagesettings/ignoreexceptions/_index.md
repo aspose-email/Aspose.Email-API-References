@@ -1,14 +1,14 @@
 ---
 title: IgnoreExceptions
 second_title: Aspose.Email for .NET API 参考
-description: 如果该属性设置为true则在消息处理过程中发生的异常将被捕获并放置在ImapPageInfo.Items.Exceptions中
+description: 如果该属性设置为true则在消息处理过程中发生的异常将被捕获并放置在ImapPageInfo.Items.Exceptions. 中
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.imap/pagesettings/ignoreexceptions/
 ---
 ## PageSettings.IgnoreExceptions property
 
-如果该属性设置为true，则在消息处理过程中发生的异常将被捕获并放置在ImapPageInfo.Items.Exceptions中。
+如果该属性设置为true，则在消息处理过程中发生的异常将被捕获并放置在ImapPageInfo.Items.Exceptions. 中
 
 ```csharp
 public bool IgnoreExceptions { get; set; }

@@ -8,7 +8,7 @@ url: /ru/net/aspose.email/headertype/returnpath/
 ---
 ## HeaderType.ReturnPath property
 
-Используется для передачи информации из атрибута конверта MAIL FROM при окончательной доставке, когда сообщение покидает среду SMTP, в которой используется "MAIL FROM". ///
+Используется для передачи информации из атрибута конверта MAIL FROM при окончательной доставке, когда сообщение покидает среду SMTP, в которой используется «MAIL FROM». ///
 
 ```csharp
 public static HeaderType ReturnPath { get; }

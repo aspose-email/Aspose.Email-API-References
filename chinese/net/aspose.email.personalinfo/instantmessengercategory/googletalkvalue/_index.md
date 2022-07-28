@@ -1,14 +1,14 @@
 ---
 title: GoogleTalkValue
 second_title: Aspose.Email for .NET API 参考
-description: GoogleTalk 类别的字符串值
+description: GoogleTalk类别的字符串值
 type: docs
 weight: 210
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/googletalkvalue/
 ---
 ## InstantMessengerCategory.GoogleTalkValue field
 
-'GoogleTalk' 类别的字符串值
+“GoogleTalk”类别的字符串值
 
 ```csharp
 public const string GoogleTalkValue;

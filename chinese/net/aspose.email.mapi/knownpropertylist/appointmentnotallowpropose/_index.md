@@ -1,14 +1,14 @@
 ---
 title: AppointmentNotAllowPropose
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否不允许与会者提出新的会议日期和/或时间 区域会议 规范名称PidLidAppointmentNotAllowPropose 替代名称dispidApptNotAllowPropose
+description: 指示是否不允许与会者提出新的会议日期和/或时间 区域Meetings 规范名称PidLidAppointmentNotAllowPropose 替代名称dispidApptNotAllowPropose
 type: docs
 weight: 1200
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentnotallowpropose/
 ---
 ## KnownPropertyList.AppointmentNotAllowPropose field
 
-指示是否不允许与会者提出新的会议日期和/或时间。 区域:会议 规范名称:PidLidAppointmentNotAllowPropose 替代名称:dispidApptNotAllowPropose
+指示是否不允许与会者提出新的会议日期和/或时间。 区域：Meetings 规范名称：PidLidAppointmentNotAllowPropose 替代名称：dispidApptNotAllowPropose
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentNotAllowPropose;

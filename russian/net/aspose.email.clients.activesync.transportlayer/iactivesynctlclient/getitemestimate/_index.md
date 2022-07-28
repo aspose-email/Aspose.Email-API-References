@@ -46,7 +46,7 @@ public ItemEstimate[] GetItemEstimate(params ItemEstimateRequest[] request)
 
 ### Возвращаемое значение
 
-Содержит массив с оценками на запрошенные папки
+Содержит массив с оценками по запрошенным папкам
 
 ### Смотрите также
 
@@ -72,7 +72,7 @@ public ItemEstimate[] GetItemEstimate(IEnumerable<ItemEstimateRequest> request)
 
 ### Возвращаемое значение
 
-Содержит массив с оценками на запрошенные папки
+Содержит массив с оценками по запрошенным папкам
 
 ### Смотрите также
 

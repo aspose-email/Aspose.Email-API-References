@@ -1,14 +1,14 @@
 ---
 title: AgentCard
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置代理卡 null ifValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocation不是 INLINE 
+description: 获取或设置代理卡无效的如果ValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocation不是排队
 type: docs
 weight: 20
 url: /zh/net/aspose.email.personalinfo.vcard/vcardagent/agentcard/
 ---
 ## VCardAgent.AgentCard property
 
-获取或设置代理卡（` null` if[`ValueLocation`](../valuelocation)不是` INLINE` )
+获取或设置代理卡（`无效的`如果[`ValueLocation`](../valuelocation)不是`排队`)
 
 ```csharp
 public VCardContact AgentCard { get; set; }

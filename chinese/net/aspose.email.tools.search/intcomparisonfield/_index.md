@@ -3,7 +3,7 @@ title: IntComparisonField
 second_title: Aspose.Email for .NET API 参考
 description: 表示整数搜索字段
 type: docs
-weight: 20670
+weight: 20720
 url: /zh/net/aspose.email.tools.search/intcomparisonfield/
 ---
 ## IntComparisonField class
@@ -23,7 +23,7 @@ public sealed class IntComparisonField : ComparisonField
 | [GreaterOrEqual](../../aspose.email.tools.search/intcomparisonfield/greaterorequal)(int) | 表示该字段必须大于或等于指定值。 |
 | [Less](../../aspose.email.tools.search/intcomparisonfield/less)(int) | 表示该字段必须小于指定值。 |
 | [LessOrEqual](../../aspose.email.tools.search/intcomparisonfield/lessorequal)(int) | 表示该字段必须小于或等于指定值。 |
-| [NotEquals](../../aspose.email.tools.search/intcomparisonfield/notequals)(int) | 表示该字段不能是 等于指定值。 |
+| [NotEquals](../../aspose.email.tools.search/intcomparisonfield/notequals)(int) | 表示该字段不能 等于指定值。 |
 | [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | 设置指示客户端是在字段上使用升序还是降序排序的值。 |
 
 ### 也可以看看

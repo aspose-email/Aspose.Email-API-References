@@ -1,14 +1,14 @@
 ---
 title: Eml
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает на сообщение в формате Eml .
+description: Указывает на сообщение в Эмл формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/messageformat/eml/
 ---
 ## MessageFormat.Eml property
 
-Указывает на сообщение в формате **Eml** .
+Указывает на сообщение в **Эмл** формат.
 
 ```csharp
 public static MessageFormat Eml { get; }

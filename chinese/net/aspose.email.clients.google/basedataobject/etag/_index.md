@@ -1,14 +1,14 @@
 ---
 title: ETag
 second_title: Aspose.Email for .NET API 参考
-description: ETag 或实体标签是 HTTP 为 Web 缓存验证提供的多种机制之一它允许客户端发出条件请求 这允许缓存更有效并节省带宽因为如果内容没有更改Web 服务器不需要发送完整的响应 ETags 也可用于乐观并发控制以帮助防止资源的同时更新相互覆盖
+description: ETag 或实体标记是 HTTP 为 Web 缓存验证提供的几种机制之一它允许客户端发出条件请求 这允许缓存更有效并节省带宽因为如果内容没有更改Web 服务器不需要发送完整的响应 ETag 也可用于乐观并发控制以帮助防止资源的同时更新相互覆盖
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.google/basedataobject/etag/
 ---
 ## BaseDataObject.ETag property
 
-ETag 或实体标签是 HTTP 为 Web 缓存验证提供的多种机制之一，它允许客户端发出条件请求。 这允许缓存更有效，并节省带宽，因为如果内容没有更改，Web 服务器不需要发送完整的响应。 ETags 也可用于乐观并发控制，以帮助防止资源的同时更新相互覆盖。
+ETag 或实体标记是 HTTP 为 Web 缓存验证提供的几种机制之一，它允许客户端发出条件请求。 这允许缓存更有效，并节省带宽，因为如果内容没有更改，Web 服务器不需要发送完整的响应。 ETag 也可用于乐观并发控制，以帮助防止资源的同时更新相互覆盖。
 
 ```csharp
 public virtual string ETag { get; set; }

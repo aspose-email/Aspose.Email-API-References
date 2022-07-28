@@ -1,14 +1,14 @@
 ---
 title: ExchangeStreamedItem
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ExchangeStreamedItemaspose.email.clients.exchange.webservice/exchangestreameditem类 的新实例
+description: 初始化ExchangeStreamedItemaspose.email.clients.exchange.webservice/exchangestreameditem class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangestreameditem/exchangestreameditem/
 ---
 ## ExchangeStreamedItem constructor
 
-初始化[`ExchangeStreamedItem`](../../exchangestreameditem)类 的新实例
+初始化[`ExchangeStreamedItem`](../../exchangestreameditem) class
 
 ```csharp
 public ExchangeStreamedItem()

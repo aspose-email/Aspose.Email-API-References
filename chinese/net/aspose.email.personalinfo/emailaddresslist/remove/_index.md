@@ -16,7 +16,7 @@ public bool Remove(EmailAddress value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | EmailAddress | Object要从列表中删除。 |
+| value | EmailAddress | 这Object从列表中删除。 |
 
 ### 也可以看看
 

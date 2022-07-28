@@ -1,14 +1,14 @@
 ---
 title: SelectFolder
 second_title: Aspose.Email for .NET API 参考
-description: 选择指定文件夹
+description: 选择指定的文件夹
 type: docs
 weight: 1110
 url: /zh/net/aspose.email.clients.imap/imapclient/selectfolder/
 ---
 ## SelectFolder(IConnection, string) {#selectfolder}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public void SelectFolder(IConnection connection, string folderName)
@@ -30,7 +30,7 @@ public void SelectFolder(IConnection connection, string folderName)
 
 ## SelectFolder(IConnection, string, bool?) {#selectfolder_1}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public void SelectFolder(IConnection connection, string folderName, bool? readOnly)
@@ -40,7 +40,7 @@ public void SelectFolder(IConnection connection, string folderName, bool? readOn
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | folderName | String | 要选择的文件夹 |
-| readOnly | Nullable`1 | 指定文件夹是否要选择为只读 |
+| readOnly | Nullable`1 | 指定文件夹是否被选为只读 |
 
 ### 也可以看看
 
@@ -53,7 +53,7 @@ public void SelectFolder(IConnection connection, string folderName, bool? readOn
 
 ## SelectFolder(string) {#selectfolder_2}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public void SelectFolder(string folderName)
@@ -73,7 +73,7 @@ public void SelectFolder(string folderName)
 
 ## SelectFolder(string, bool?) {#selectfolder_3}
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public void SelectFolder(string folderName, bool? readOnly)

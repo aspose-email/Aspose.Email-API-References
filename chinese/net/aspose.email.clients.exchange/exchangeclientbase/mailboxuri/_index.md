@@ -1,14 +1,14 @@
 ---
 title: MailboxUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置邮箱的uri
+description: 获取或设置邮箱uri
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange/exchangeclientbase/mailboxuri/
 ---
 ## ExchangeClientBase.MailboxUri property
 
-获取或设置邮箱的uri
+获取或设置邮箱uri
 
 ```csharp
 public virtual string MailboxUri { get; set; }

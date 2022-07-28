@@ -1,14 +1,14 @@
 ---
 title: MapiImportance
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个 表示消息重要性的值
+description: 包含一个值 表示消息的重要性
 type: docs
-weight: 20160
+weight: 20210
 url: /zh/net/aspose.email.storage.pst/mapiimportance/
 ---
 ## MapiImportance enumeration
 
-包含一个 表示消息重要性的值。
+包含一个值， 表示消息的重要性。
 
 ```csharp
 public enum MapiImportance

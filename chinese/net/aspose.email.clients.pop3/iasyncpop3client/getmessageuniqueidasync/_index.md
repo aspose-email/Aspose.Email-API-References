@@ -1,14 +1,14 @@
 ---
 title: GetMessageUniqueIdAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息唯一 ID
+description: 获取消息唯一id
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.pop3/iasyncpop3client/getmessageuniqueidasync/
 ---
 ## IAsyncPop3Client.GetMessageUniqueIdAsync method
 
-获取消息唯一 ID
+获取消息唯一id
 
 ```csharp
 public Task<string> GetMessageUniqueIdAsync(int sequenceNumber, IConnection connection = null, 
@@ -18,8 +18,8 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber, IConnection conn
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | Int32 | 连接到服务器 |
-| sequenceNumber | IConnection | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | IConnection | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 

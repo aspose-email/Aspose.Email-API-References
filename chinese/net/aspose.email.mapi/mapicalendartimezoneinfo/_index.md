@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneInfo
 second_title: Aspose.Email for .NET API 参考
 description: 代表mapi日历时区规则
 type: docs
-weight: 18110
+weight: 18140
 url: /zh/net/aspose.email.mapi/mapicalendartimezoneinfo/
 ---
 ## MapiCalendarTimeZoneInfo class
@@ -18,19 +18,19 @@ public sealed class MapiCalendarTimeZoneInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiCalendarTimeZoneInfo](mapicalendartimezoneinfo)() | 初始化[`MapiCalendarTimeZoneInfo`](../mapicalendartimezoneinfo)类的新实例。 |
+| [MapiCalendarTimeZoneInfo](mapicalendartimezoneinfo)() | 初始化[`MapiCalendarTimeZoneInfo`](../mapicalendartimezoneinfo)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Bias](../../aspose.email.mapi/mapicalendartimezoneinfo/bias) { get; set; } | 获取或设置时区与 UTC 的分钟偏移量。 |
-| [DaylightBias](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightbias) { get; set; } | 获取或设置夏令时从 lBias 的偏移量（以分钟为单位）。 |
+| [DaylightBias](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightbias) { get; set; } | 获取或设置夏令时从 lBias 的分钟偏移量。 |
 | [DaylightDate](../../aspose.email.mapi/mapicalendartimezoneinfo/daylightdate) { get; set; } | 获取或设置指示何时开始使用 DaylightBias 的日期和本地时间。 |
-| [StandardBias](../../aspose.email.mapi/mapicalendartimezoneinfo/standardbias) { get; set; } | 获取或设置在标准时间内与 lBias 的偏移量（以分钟为单位）。 |
+| [StandardBias](../../aspose.email.mapi/mapicalendartimezoneinfo/standardbias) { get; set; } | 获取或设置标准时间内从 lBias 开始的偏移量。 |
 | [StandardDate](../../aspose.email.mapi/mapicalendartimezoneinfo/standarddate) { get; set; } | 获取或设置指示何时开始使用 StandardBias 的日期和本地时间。 |
-| [TimeZoneFlags](../../aspose.email.mapi/mapicalendartimezoneinfo/timezoneflags) { get; set; } | 获取或设置指定有关此 TimeZoneRule 的信息的各个位标志 |
-| [Year](../../aspose.email.mapi/mapicalendartimezoneinfo/year) { get; set; } | 获取或设置此规则计划生效的年份。 |
+| [TimeZoneFlags](../../aspose.email.mapi/mapicalendartimezoneinfo/timezoneflags) { get; set; } | 获取或设置指定有关此 TimeZoneRule 信息的各个位标志 |
+| [Year](../../aspose.email.mapi/mapicalendartimezoneinfo/year) { get; set; } | 获取或设置该规则计划生效的年份。 |
 
 ### 也可以看看
 

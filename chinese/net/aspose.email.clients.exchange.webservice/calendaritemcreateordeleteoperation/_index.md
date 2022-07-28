@@ -19,7 +19,7 @@ public enum CalendarItemCreateOrDeleteOperation
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotSpecified | `0` | 未指定 |
-| SendToNone | `1` | 不发送邮件 |
+| SendToNone | `1` | 不要发送邮件 |
 | SendOnlyToAll | `2` | 向参与者发送电子邮件。 |
 | SendToAllAndSaveCopy | `3` | 向参与者发送电子邮件并保存副本。 |
 

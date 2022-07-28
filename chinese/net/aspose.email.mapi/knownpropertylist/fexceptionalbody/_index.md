@@ -1,14 +1,14 @@
 ---
 title: FExceptionalBody
 second_title: Aspose.Email for .NET API 参考
-description: 表示异常嵌入消息对象的正文与定期日历对象不同 区域会议 规范名称PidLidFExceptionalBody 别名dispidFExceptionalBody
+description: 表示异常嵌入消息对象的正文与定期日历对象不同 区域Meetings 规范名称PidLidFExceptionalBody 别名dispidFExceptionalBody
 type: docs
 weight: 10270
 url: /zh/net/aspose.email.mapi/knownpropertylist/fexceptionalbody/
 ---
 ## KnownPropertyList.FExceptionalBody field
 
-表示异常嵌入消息对象的正文与定期日历对象不同。 区域:会议 规范名称:PidLidFExceptionalBody 别名:dispidFExceptionalBody
+表示异常嵌入消息对象的正文与定期日历对象不同。 区域：Meetings 规范名称：PidLidFExceptionalBody 别名：dispidFExceptionalBody
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FExceptionalBody;

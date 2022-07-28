@@ -45,7 +45,7 @@ public void UnselectFolder()
 
 ## UnselectFolder(IConnection, bool) {#unselectfolder_2}
 
-取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则删除所有标记为已删除的消息，否则取消删除。 请注意，此操作仅适用于服务器支持 RFC3691 查看更多 https://tools.ietf.org/html/rfc3691
+取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则所有标记为已删除的邮件都将被删除，否则删除已取消。 请注意，此操作仅在服务器支持 RFC3691 的情况下才有效_查看更多 https://tools。 ietf.org/html/rfc3691
 
 ```csharp
 public void UnselectFolder(IConnection connection, bool doNotExpunge)
@@ -67,7 +67,7 @@ public void UnselectFolder(IConnection connection, bool doNotExpunge)
 
 ## UnselectFolder(bool) {#unselectfolder_3}
 
-取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则删除所有标记为已删除的消息，否则取消删除。 请注意，此操作仅适用于服务器支持 RFC3691 查看更多 https://tools.ietf.org/html/rfc3691
+取消选择当前选择的文件夹。 如果 doNotExpunge 属性为 true，则所有标记为已删除的邮件都将被删除，否则删除已取消。 请注意，此操作仅在服务器支持 RFC3691 的情况下才有效_查看更多 https://tools。 ietf.org/html/rfc3691
 
 ```csharp
 public void UnselectFolder(bool doNotExpunge)

@@ -1,14 +1,14 @@
 ---
 title: MessageFormat
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮件消息格式可以是emlmsg 或mhtml 格式 默认值为 Eml
+description: 代表邮件消息格式可以是emlmsg或mhtml格式 默认值为Eml
 type: docs
 weight: 10
 url: /zh/net/aspose.email/loadoptions/messageformat/
 ---
 ## LoadOptions.MessageFormat property
 
-表示邮件消息格式。可以是eml,msg 或mhtml 格式。 默认值为 Eml。
+代表邮件消息格式。可以是eml,msg或mhtml格式。 默认值为Eml。
 
 ```csharp
 public MessageFormat MessageFormat { get; }

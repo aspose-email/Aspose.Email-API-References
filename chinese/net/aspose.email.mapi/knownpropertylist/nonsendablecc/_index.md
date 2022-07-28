@@ -1,14 +1,14 @@
 ---
 title: NonSendableCc
 second_title: Aspose.Email for .NET API 参考
-description: 包含所有不可发送与会者的列表这些与会者也是可选与会者 区域会议 规范名称PidLidNonSendableCc 别名dispidNonSendableCC
+description: 包含所有不可发送的与会者的列表这些与会者也是可选的与会者 区域Meetings 规范名称PidLidNonSendableCc 替代名称dispidNonSendableCC
 type: docs
 weight: 13020
 url: /zh/net/aspose.email.mapi/knownpropertylist/nonsendablecc/
 ---
 ## KnownPropertyList.NonSendableCc field
 
-包含所有不可发送与会者的列表，这些与会者也是可选与会者。 区域:会议 规范名称:PidLidNonSendableCc 别名:dispidNonSendableCC
+包含所有不可发送的与会者的列表，这些与会者也是可选的与会者。 区域：Meetings 规范名称：PidLidNonSendableCc 替代名称：dispidNonSendableCC
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NonSendableCc;

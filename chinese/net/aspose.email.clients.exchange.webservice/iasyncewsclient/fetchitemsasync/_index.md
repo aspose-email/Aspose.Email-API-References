@@ -1,14 +1,14 @@
 ---
 title: FetchItemsAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定项目
+description: 获取指定的项目
 type: docs
 weight: 260
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync/
 ---
 ## IAsyncEwsClient.FetchItemsAsync method
 
-获取指定项目。
+获取指定的项目。
 
 ```csharp
 public Task<IEnumerable<MapiMessage>> FetchItemsAsync(EwsFetchItems ewsFetchItems)

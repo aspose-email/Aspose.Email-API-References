@@ -3,7 +3,7 @@ title: IFormatter
 second_title: Aspose.Email for .NET API 参考
 description: 表示格式化日志条目消息的接口
 type: docs
-weight: 20460
+weight: 20510
 url: /zh/net/aspose.email.tools.logging/iformatter/
 ---
 ## IFormatter interface
@@ -19,8 +19,8 @@ public interface IFormatter
 | 姓名 | 描述 |
 | --- | --- |
 | [Footer](../../aspose.email.tools.logging/iformatter/footer) { get; } | 获取页脚字符串。 |
-| [Header](../../aspose.email.tools.logging/iformatter/header) { get; } | 获取标题字符串。 |
-| [LogHeader](../../aspose.email.tools.logging/iformatter/logheader) { get; } | 表示开始日志头 |
+| [Header](../../aspose.email.tools.logging/iformatter/header) { get; } | 获取标头字符串。 |
+| [LogHeader](../../aspose.email.tools.logging/iformatter/logheader) { get; } | 代表启动日志头 |
 
 ## 方法
 

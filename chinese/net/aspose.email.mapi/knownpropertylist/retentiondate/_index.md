@@ -1,14 +1,14 @@
 ---
 title: RetentionDate
 second_title: Aspose.Email for .NET API 参考
-description: 指定日期以 UTC 表示在该日期之后消息对象被服务器过期 区域存档 规范名称PidTagRetentionDate 替代名称PR_RETENTION_DATE ptagRetentionDate
+description: 指定日期以 UTC 为单位在此之后消息对象被服务器过期 区域Archive 规范名称PidTagRetentionDate 替代名称PR_RETENTION_DATEptagRetentionDate
 type: docs
 weight: 16240
 url: /zh/net/aspose.email.mapi/knownpropertylist/retentiondate/
 ---
 ## KnownPropertyList.RetentionDate field
 
-指定日期（以 UTC 表示），在该日期之后消息对象被服务器过期。 区域:存档 规范名称:PidTagRetentionDate 替代名称:PR_RETENTION_DATE, ptagRetentionDate
+指定日期（以 UTC 为单位），在此之后消息对象被服务器过期。 区域：Archive 规范名称：PidTagRetentionDate 替代名称：PR_RETENTION_DATE、ptagRetentionDate
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RetentionDate;

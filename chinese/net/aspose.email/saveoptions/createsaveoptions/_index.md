@@ -16,11 +16,11 @@ public static SaveOptions CreateSaveOptions(MailMessageSaveType saveType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveType | MailMessageSaveType | [`保存类型`](../mailmessagesavetype) 为其创建保存选项对象。 |
+| saveType | MailMessageSaveType | 这[`保存类型`](../mailmessagesavetype)为其创建保存选项对象。 |
 
 ### 返回值
 
-派生自[`SaveOptions`](../../saveoptions)的类的对象。
+派生自的类的对象[`SaveOptions`](../../saveoptions).
 
 ### 也可以看看
 

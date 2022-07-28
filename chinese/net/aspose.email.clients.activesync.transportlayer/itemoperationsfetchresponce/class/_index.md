@@ -1,14 +1,14 @@
 ---
 title: Class
 second_title: Aspose.Email for .NET API 参考
-description: 标识项目的类别 有效的 Class 元素值为 - 电子邮件 - 联系人 - 日历 - 任务
+description: 标识项目的类 有效的类元素值为 - Email - Contacts - Calendar - Tasks
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/class/
 ---
 ## ItemOperationsFetchResponce.Class property
 
-标识项目的类别。 有效的 Class 元素值为: - 电子邮件 - 联系人 - 日历 - 任务
+标识项目的类。 有效的类元素值为： - Email - Contacts - Calendar - Tasks
 
 ```csharp
 public AirsyncClass? Class { get; set; }

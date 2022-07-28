@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示 消息是否为只读
+description: 获取一个值表示 消息是否为只读
 type: docs
 weight: 190
 url: /zh/net/aspose.email/mailmessage/isreadonly/
 ---
 ## MailMessage.IsReadOnly property
 
-获取一个值，该值指示 消息是否为只读
+获取一个值，表示 消息是否为只读
 
 ```csharp
 public virtual bool IsReadOnly { get; }

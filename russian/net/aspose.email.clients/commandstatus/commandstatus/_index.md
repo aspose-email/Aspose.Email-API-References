@@ -17,7 +17,7 @@ public CommandStatus(int statusCode, string description)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | statusCode | Int32 | Содержит код состояния |
-| description | String | Содержит описание состояния |
+| description | String | Содержит описание статуса |
 
 ### Смотрите также
 

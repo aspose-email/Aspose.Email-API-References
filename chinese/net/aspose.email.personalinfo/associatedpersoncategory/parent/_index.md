@@ -1,14 +1,14 @@
 ---
 title: Parent
 second_title: Aspose.Email for .NET API 参考
-description: 父
+description: 父级
 type: docs
 weight: 110
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/parent/
 ---
 ## AssociatedPersonCategory.Parent property
 
-父
+父级
 
 ```csharp
 public static AssociatedPersonCategory Parent { get; }

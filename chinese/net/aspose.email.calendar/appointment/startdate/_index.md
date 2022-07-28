@@ -3,7 +3,7 @@ title: StartDate
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置开始日期
 type: docs
-weight: 230
+weight: 240
 url: /zh/net/aspose.email.calendar/appointment/startdate/
 ---
 ## Appointment.StartDate property

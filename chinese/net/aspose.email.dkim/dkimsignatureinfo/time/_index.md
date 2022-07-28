@@ -1,14 +1,14 @@
 ---
 title: Time
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置签名时间戳 - 创建此签名的时间 t默认 null 是未知的创建时间
+description: 获取或设置签名时间戳 - 创建此签名的时间 t默认null是一个未知的创建时间
 type: docs
 weight: 80
 url: /zh/net/aspose.email.dkim/dkimsignatureinfo/time/
 ---
 ## DKIMSignatureInfo.Time property
 
-获取或设置签名时间戳 - 创建此签名的时间 (t=)。默认 (null) 是未知的创建时间。
+获取或设置签名时间戳 - 创建此签名的时间 (t=)。默认（null）是一个未知的创建时间。
 
 ```csharp
 public DateTime? Time { get; set; }

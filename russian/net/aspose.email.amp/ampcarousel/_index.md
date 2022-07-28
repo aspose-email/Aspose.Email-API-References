@@ -1,14 +1,14 @@
 ---
 title: AmpCarousel
 second_title: Справочник по Aspose.Email для .NET API
-description: Компонент позволяет отображать несколько одинаковых фрагментов контента по горизонтальной оси.
+description: Компонент позволяет отображать несколько одинаковых фрагментов контента вдоль горизонтальной оси.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.amp/ampcarousel/
 ---
 ## AmpCarousel class
 
-Компонент позволяет отображать несколько одинаковых фрагментов контента по горизонтальной оси.
+Компонент позволяет отображать несколько одинаковых фрагментов контента вдоль горизонтальной оси.
 
 ```csharp
 public class AmpCarousel : AmpComponent
@@ -25,18 +25,18 @@ public class AmpCarousel : AmpComponent
 | Имя | Описание |
 | --- | --- |
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP предоставляет набор общих атрибутов, которые распространяются на многие компоненты AMP. |
-| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервный вариант — это соглашение, которое позволяет элементу сообщить читателю, что браузер не поддерживает этот элемент. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервное копирование — это соглашение, позволяющее элементу сообщить читателю, что браузер не поддерживает этот элемент. |
 | [Images](../../aspose.email.amp/ampcarousel/images) { get; } | Набор изображений для отображения. |
 | [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | Элемент, отмеченный атрибутом заполнителя, выступает в качестве заполнителя для родительского элемента AMP. Если указано, элемент-заполнитель должен быть прямым дочерним элементом элемента AMP. |
-| override [RequiredScript](../../aspose.email.amp/ampcarousel/requiredscript) { get; } | Необходимый скрипт, который необходимо добавить в раздел head. |
-| [Type](../../aspose.email.amp/ampcarousel/type) { get; set; } | Указывает тип отображения элементов карусели. |
+| override [RequiredScript](../../aspose.email.amp/ampcarousel/requiredscript) { get; } | Обязательный скрипт, который необходимо добавить в раздел head. |
+| [Type](../../aspose.email.amp/ampcarousel/type) { get; set; } | Определяет тип отображения элементов карусели. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/ampcarousel/toamphtml)() | Представляет расширенную HTML-версию компонента. |
-| override [ToHtml](../../aspose.email.amp/ampcarousel/tohtml)() | Представляет html-версию компонента. |
+| override [ToAmpHtml](../../aspose.email.amp/ampcarousel/toamphtml)() | Представляет HTML-версию компонента amp. |
+| override [ToHtml](../../aspose.email.amp/ampcarousel/tohtml)() | Представляет HTML-версию компонента. |
 
 ### Смотрите также
 

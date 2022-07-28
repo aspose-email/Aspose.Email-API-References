@@ -1,14 +1,14 @@
 ---
 title: Hobbies
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок Хобби.
+description: Заголовок хобби.
 type: docs
 weight: 180
 url: /ru/net/aspose.email/mhttemplatename.contact/hobbies/
 ---
 ## MhtTemplateName.Contact.Hobbies field
 
-Заголовок "Хобби".
+Заголовок хобби.
 
 ```csharp
 public const string Hobbies;

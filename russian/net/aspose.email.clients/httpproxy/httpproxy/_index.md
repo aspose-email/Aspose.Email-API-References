@@ -1,14 +1,14 @@
 ---
 title: HttpProxy
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаHttpProxyaspose.email.clients/httpproxyдля подключения к прокси-серверу без аутентификации.
+description: Инициализирует новый экземплярHttpProxyaspose.email.clients/httpproxy класс для подключения к прокси-серверу без аутентификации.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/httpproxy/httpproxy/
 ---
 ## HttpProxy(string, int) {#constructor}
 
-Инициализирует новый экземпляр класса[`HttpProxy`](../../httpproxy)для подключения к прокси-серверу без аутентификации.
+Инициализирует новый экземпляр[`HttpProxy`](../../httpproxy) класс для подключения к прокси-серверу без аутентификации.
 
 ```csharp
 public HttpProxy(string address, int port)
@@ -29,7 +29,7 @@ public HttpProxy(string address, int port)
 
 ## HttpProxy(string, int, string, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`HttpProxy`](../../httpproxy)для подключения к прокси-серверу с определенным именем пользователя и паролем.
+Инициализирует новый экземпляр[`HttpProxy`](../../httpproxy) класс для подключения к прокси-серверу с определенным именем пользователя и паролем.
 
 ```csharp
 public HttpProxy(string address, int port, string username, string password)
@@ -39,8 +39,8 @@ public HttpProxy(string address, int port, string username, string password)
 | --- | --- | --- |
 | address | String | Доменное имя или IP-адрес прокси |
 | port | Int32 | Номер порта прокси |
-| имяпользователя | String | Имя пользователя для аутентификации |
-| пароль | String | Пароль для аутентификации |
+| username | String | Имя пользователя для аутентификации |
+| password | String | Пароль для аутентификации |
 
 ### Смотрите также
 

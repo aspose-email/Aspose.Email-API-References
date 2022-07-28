@@ -1,14 +1,14 @@
 ---
 title: RevisionNumber
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的修订号 区域普通 规范名称PidNameRevisionNumber 替代名称urnschemas-microsoft-comofficeofficeRevision
+description: 指定附加到文档对象的文件的修订号 区域Common 规范名称PidNameRevisionNumber 替代名称urnschemas-microsoft-comofficeofficeRevision
 type: docs
 weight: 16280
 url: /zh/net/aspose.email.mapi/knownpropertylist/revisionnumber/
 ---
 ## KnownPropertyList.RevisionNumber field
 
-指定附加到 Document 对象的文件的修订号。 区域：普通 规范名称：PidNameRevisionNumber 替代名称：urn:schemas-microsoft-com:office:office#Revision
+指定附加到文档对象的文件的修订号。 区域：Common 规范名称：PidNameRevisionNumber 替代名称：urn:schemas-microsoft-com:office:office#Revision
 
 ```csharp
 public static readonly PidNamePropertyDescriptor RevisionNumber;

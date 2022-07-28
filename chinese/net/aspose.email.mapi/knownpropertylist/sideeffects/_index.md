@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/sideeffects/
 ---
 ## KnownPropertyList.SideEffects field
 
-指定客户端如何处理与用户的某些用户界面操作相关的消息对象，例如删除消息。 区域:运行时配置 规范名称:PidLidSideEffects 替代名称:dispidSideEffects
+指定客户端如何处理与用户的某些用户界面操作相关的消息对象，例如删除消息。 区域：运行时配置 规范名称：PidLidSideEffects 替代名称：dispidSideEffects
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SideEffects;

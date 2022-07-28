@@ -1,14 +1,14 @@
 ---
 title: DueDate
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置指示标记消息的截止日期的日期
+description: 获取或设置指示标记消息的到期日期的日期
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/followupoptions/duedate/
 ---
 ## FollowUpOptions.DueDate property
 
-获取或设置指示标记消息的截止日期的日期。
+获取或设置指示标记消息的到期日期的日期。
 
 ```csharp
 public DateTime DueDate { get; set; }

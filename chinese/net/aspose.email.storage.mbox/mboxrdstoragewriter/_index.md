@@ -3,7 +3,7 @@ title: MboxrdStorageWriter
 second_title: Aspose.Email for .NET API 参考
 description: 表示 mboxrd 格式的存储写入器Thunderbird 和其他邮件客户端正在使用这种格式
 type: docs
-weight: 20020
+weight: 20070
 url: /zh/net/aspose.email.storage.mbox/mboxrdstoragewriter/
 ---
 ## MboxrdStorageWriter class
@@ -18,8 +18,8 @@ public sealed class MboxrdStorageWriter : MboxStorageWriter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MboxrdStorageWriter](mboxrdstoragewriter#constructor)(Stream, bool) | 初始化[`MboxrdStorageWriter`](../mboxrdstoragewriter)类的新实例。 |
-| [MboxrdStorageWriter](mboxrdstoragewriter#constructor_1)(string, bool) | 初始化[`MboxrdStorageWriter`](../mboxrdstoragewriter)类的新实例。 |
+| [MboxrdStorageWriter](mboxrdstoragewriter#constructor)(Stream, bool) | 初始化[`MboxrdStorageWriter`](../mboxrdstoragewriter)班级。 |
+| [MboxrdStorageWriter](mboxrdstoragewriter#constructor_1)(string, bool) | 初始化[`MboxrdStorageWriter`](../mboxrdstoragewriter)类. |
 
 ## 特性
 

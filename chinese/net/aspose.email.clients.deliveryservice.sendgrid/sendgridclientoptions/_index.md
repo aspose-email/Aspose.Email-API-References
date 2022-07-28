@@ -1,14 +1,14 @@
 ---
 title: SendGridClientOptions
 second_title: Aspose.Email for .NET API 参考
-description: 用于设置 SendGridClient 参数的选项
+description: 设置 SendGridClient 参数的选项
 type: docs
 weight: 3010
 url: /zh/net/aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/
 ---
 ## SendGridClientOptions class
 
-用于设置 SendGridClient 参数的选项。
+设置 SendGridClient 参数的选项。
 
 ```csharp
 public class SendGridClientOptions : DeliveryServiceOptions
@@ -24,7 +24,7 @@ public class SendGridClientOptions : DeliveryServiceOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | API 私钥 |
+| [ApiKey](../../aspose.email.clients.deliveryservice/deliveryserviceoptions/apikey) { get; set; } | 私有 API 密钥 |
 | [SandBoxMode](../../aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/sandboxmode) { get; set; } | 设置沙盒模式设置。 |
 
 ### 也可以看看

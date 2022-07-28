@@ -1,14 +1,14 @@
 ---
 title: DeletionOptions
 second_title: Aspose.Email for .NET API 参考
-description: 定义项目删除参数
+description: 定义项目删除的参数
 type: docs
 weight: 3660
 url: /zh/net/aspose.email.clients.exchange.webservice/deletionoptions/
 ---
 ## DeletionOptions class
 
-定义项目删除参数
+定义项目删除的参数
 
 ```csharp
 public class DeletionOptions
@@ -18,16 +18,16 @@ public class DeletionOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeletionOptions](deletionoptions#constructor)() | 初始化[`DeletionOptions`](../deletionoptions)类的新实例。 |
-| [DeletionOptions](deletionoptions#constructor_1)(DeletionType) | 初始化[`DeletionOptions`](../deletionoptions)类的新实例。 |
+| [DeletionOptions](deletionoptions#constructor)() | 初始化[`DeletionOptions`](../deletionoptions)类. |
+| [DeletionOptions](deletionoptions#constructor_1)(DeletionType) | 初始化[`DeletionOptions`](../deletionoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Default](../../aspose.email.clients.exchange.webservice/deletionoptions/default) { get; } | 获取[`DeletionOptions`](../deletionoptions)对象的实例，默认设置使用 |
-| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/deletionoptions/deletepermanently) { get; } | 获取[`DeletionOptions`](../deletionoptions)对象的实例，并设置永久删除 |
-| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/deletionoptions/movetodeleteditems) { get; } | 获取[`DeletionOptions`](../deletionoptions)对象的实例，其中包含用于移动到已删除项目的设置 |
+| static [Default](../../aspose.email.clients.exchange.webservice/deletionoptions/default) { get; } | 获取实例[`DeletionOptions`](../deletionoptions)默认情况下使用设置的对象 |
+| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/deletionoptions/deletepermanently) { get; } | 获取实例[`DeletionOptions`](../deletionoptions)具有永久删除设置的对象 |
+| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/deletionoptions/movetodeleteditems) { get; } | 获取实例[`DeletionOptions`](../deletionoptions)具有移动到已删除项目的设置的对象 |
 | [Type](../../aspose.email.clients.exchange.webservice/deletionoptions/type) { get; set; } | 删除类型 |
 
 ### 也可以看看

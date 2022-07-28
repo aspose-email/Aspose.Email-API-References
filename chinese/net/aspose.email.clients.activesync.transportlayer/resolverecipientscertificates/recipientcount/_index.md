@@ -1,14 +1,14 @@
 ---
 title: RecipientCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定属于分发列表的成员数 它可用于通过比较 CertificateCount 和 RecipientCount 元素的值来确定属于分发列表的所有收件人是否具有有效证书
+description: 指定属于分发列表的成员数 可用于通过比较 CertificateCount 和 RecipientCount 元素的值来确定属于分发列表的所有收件人是否具有有效证书
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/recipientcount/
 ---
 ## ResolveRecipientsCertificates.RecipientCount property
 
-指定属于分发列表的成员数。 它可用于通过比较 CertificateCount 和 RecipientCount 元素的值来确定属于分发列表的所有收件人是否具有有效证书。
+指定属于分发列表的成员数。 可用于通过比较 CertificateCount 和 RecipientCount 元素的值来确定属于分发列表的所有收件人是否具有有效证书。
 
 ```csharp
 public int RecipientCount { get; set; }

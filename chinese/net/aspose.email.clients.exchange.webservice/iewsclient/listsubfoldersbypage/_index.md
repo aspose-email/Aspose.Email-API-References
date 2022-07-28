@@ -17,11 +17,11 @@ public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, PageI
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | parentFolderUri | String | 父文件夹 URI |
-| page | PageInfo | 页面信息 |
+| page | PageInfo | 一页信息 |
 
 ### 返回值
 
-A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)如果指定了文件夹名称，则包含找到的文件夹；否则，返回所有子文件夹
+一个[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)如果指定了文件夹名称，则包含找到的文件夹；否则，返回所有子文件夹
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolde
 
 ## ListSubFoldersByPage(string, int) {#listsubfoldersbypage_1}
 
-使用分页搜索给定父文件夹中的指定文件夹 方法支持分页。 在分页周期中第一次调用。
+使用 paging 方法在给定父文件夹中搜索指定文件夹，支持分页。 在分页周期中第一次调用。
 
 ```csharp
 public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, int itemsPerPage)
@@ -44,11 +44,11 @@ public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, int i
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | parentFolderUri | String | 父文件夹 URI |
-| itemsPerPage | Int32 | 一些页面 |
+| itemsPerPage | Int32 | 页面中有多个文件夹 |
 
 ### 返回值
 
-A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)中的文件夹，如果指定了文件夹名称，则包含找到的文件夹；否则，返回所有子文件夹
+一个[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)如果指定了文件夹名称，则包含找到的文件夹；否则，返回所有子文件夹
 
 ### 也可以看看
 
@@ -71,12 +71,12 @@ public ExchangeFolderPageInfo ListSubFoldersByPage(string parentFolderUri, int i
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | parentFolderUri | String | 父文件夹 URI |
-| itemsPerPage | Int32 | 一些页面中的文件夹 |
+| itemsPerPage | Int32 | 页面中有多个文件夹 |
 | pageOffset | Int32 | 视图中下一项的偏移量 |
 
 ### 返回值
 
-A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)如果指定了文件夹名称，则包含找到的文件夹；否则，返回所有子文件夹
+一个[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)如果指定了文件夹名称，则包含找到的文件夹；否则，返回所有子文件夹
 
 ### 也可以看看
 

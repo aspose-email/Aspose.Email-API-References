@@ -1,14 +1,14 @@
 ---
 title: MsgLoadOptions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化此类的新实例该实例可用于从 Msg 格式加载 MailMessage
+description: 初始化此类的一个新实例该实例可用于从 Msg 格式加载 MailMessage
 type: docs
 weight: 10
 url: /zh/net/aspose.email/msgloadoptions/msgloadoptions/
 ---
 ## MsgLoadOptions constructor
 
-初始化此类的新实例，该实例可用于从 Msg 格式加载 MailMessage。
+初始化此类的一个新实例，该实例可用于从 Msg 格式加载 MailMessage。
 
 ```csharp
 public MsgLoadOptions()

@@ -1,14 +1,14 @@
 ---
 title: EmlxFormat
 second_title: Aspose.Email for .NET API 参考
-description: 获取 emlx
+description: 获取 emlx.
 type: docs
 weight: 20
 url: /zh/net/aspose.email/mailmessagesavetype/emlxformat/
 ---
 ## MailMessageSaveType.EmlxFormat property
 
-获取 emlx。
+获取 emlx.
 
 ```csharp
 public static MailMessageSaveType EmlxFormat { get; }

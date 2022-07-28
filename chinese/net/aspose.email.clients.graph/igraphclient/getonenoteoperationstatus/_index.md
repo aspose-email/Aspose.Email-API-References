@@ -1,14 +1,14 @@
 ---
 title: GetOneNoteOperationStatus
 second_title: Aspose.Email for .NET API 参考
-description: 获取长时间运行的 OneNote 操作的状态 这适用于在响应中返回 Operation-Location 标头的操作例如 CopyNotebookCopyToNotebookCopyToSectionGroup 和 CopyToSection 您可以轮询 Operation-Location 端点直到状态属性返回完成或失败 如果状态为已完成则 resourceLocation 属性包含资源端点 URI 如果状态为失败则错误和api.diagnostics 属性提供错误信息
+description: 获取长时间运行的 OneNote 操作的状态 这适用于在响应中返回 Operation-Location 标头的操作例如 CopyNotebookCopyToNotebookCopyToSectionGroup 和 CopyToSection 您可以轮询 Operation-Location 端点直到status 属性返回已完成或失败 如果状态已完成resourceLocation 属性包含资源端点 URI 如果状态为失败则 error 和 api.diagnostics 属性提供错误信息
 type: docs
 weight: 260
 url: /zh/net/aspose.email.clients.graph/igraphclient/getonenoteoperationstatus/
 ---
 ## IGraphClient.GetOneNoteOperationStatus method
 
-获取长时间运行的 OneNote 操作的状态。 这适用于在响应中返回 Operation-Location 标头的操作，例如 CopyNotebook、CopyToNotebook、CopyToSectionGroup 和 CopyToSection。 您可以轮询 Operation-Location 端点，直到状态属性返回完成或失败。 如果状态为已完成，则 resourceLocation 属性包含资源端点 URI。 如果状态为失败，则错误和@api.diagnostics 属性提供错误信息。
+获取长时间运行的 OneNote 操作的状态。 这适用于在响应中返回 Operation-Location 标头的操作，例如 CopyNotebook、CopyToNotebook、CopyToSectionGroup 和 CopyToSection。 您可以轮询 Operation-Location 端点，直到status 属性返回已完成或失败。 如果状态已完成，resourceLocation 属性包含资源端点 URI。 如果状态为失败，则 error 和 @api.diagnostics 属性提供错误信息。
 
 ```csharp
 public OnenoteOperation GetOneNoteOperationStatus(string operationId)
@@ -16,7 +16,7 @@ public OnenoteOperation GetOneNoteOperationStatus(string operationId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| operationId | String | 操作id |
+| operationId | String | 操作编号 |
 
 ### 也可以看看
 

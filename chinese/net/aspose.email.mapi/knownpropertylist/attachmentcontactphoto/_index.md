@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/attachmentcontactphoto/
 ---
 ## KnownPropertyList.AttachmentContactPhoto field
 
-表示联系人照片附件附加到联系人对象。 区域:消息附件属性 规范名称:PidTagAttachmentContactPhoto 替代名称:PR_ATTACHMENT_CONTACTPHOTO
+表示联系人照片附件附加到联系人对象。 区域：消息附件属性 规范名称：PidTagAttachmentContactPhoto 替代名称：PR_ATTACHMENT_CONTACTPHOTO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentContactPhoto;

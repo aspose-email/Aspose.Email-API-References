@@ -1,14 +1,14 @@
 ---
 title: TotalWork
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок Total Work.
+description: Заголовок Общая работа.
 type: docs
 weight: 130
 url: /ru/net/aspose.email/mhttemplatename.task/totalwork/
 ---
 ## MhtTemplateName.Task.TotalWork field
 
-Заголовок Total Work.
+Заголовок "Общая работа".
 
 ```csharp
 public const string TotalWork;

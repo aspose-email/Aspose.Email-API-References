@@ -1,14 +1,14 @@
 ---
 title: TimeZoneOffset
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置协调世界时 UTC 消息日期的偏移量 此属性定义本地时间和 UTC 之间的时区差异 
+description: 获取或设置消息日期的协调世界时 UTC 偏移量 此属性定义本地时间和 UTC 之间的时区差 
 type: docs
 weight: 340
 url: /zh/net/aspose.email/mailmessage/timezoneoffset/
 ---
 ## MailMessage.TimeZoneOffset property
 
-获取或设置协调世界时 (UTC) 消息日期的偏移量。 此属性定义本地时间和 UTC 之间的时区差异 。
+获取或设置消息日期的协调世界时 (UTC) 偏移量。 此属性定义本地时间和 UTC 之间的时区差 。
 
 ```csharp
 public TimeSpan TimeZoneOffset { get; set; }

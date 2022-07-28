@@ -1,14 +1,14 @@
 ---
 title: StoreSupportMask
 second_title: Aspose.Email for .NET API 参考
-description: 指示 .msg 文件中的字符串属性是否是 Unicode 编码的 区域其他属性 规范名称PidTagStoreSupportMask 替代名称PR_STORE_SUPPORT_MASK ptagStoreSupportMask
+description: 指示 .msg 文件中的字符串属性是否为 Unicode 编码 区域Miscellaneous Properties 规范名称PidTagStoreSupportMask 替代名称PR_STORE_SUPPORT_MASKptagStoreSupportMask
 type: docs
 weight: 18310
 url: /zh/net/aspose.email.mapi/knownpropertylist/storesupportmask/
 ---
 ## KnownPropertyList.StoreSupportMask field
 
-指示 .msg 文件中的字符串属性是否是 Unicode 编码的。 区域:其他属性 规范名称:PidTagStoreSupportMask 替代名称:PR_STORE_SUPPORT_MASK, ptagStoreSupportMask
+指示 .msg 文件中的字符串属性是否为 Unicode 编码。 区域：Miscellaneous Properties 规范名称：PidTagStoreSupportMask 替代名称：PR_STORE_SUPPORT_MASK、ptagStoreSupportMask
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StoreSupportMask;

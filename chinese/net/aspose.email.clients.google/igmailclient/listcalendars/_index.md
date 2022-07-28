@@ -37,8 +37,8 @@ public ExtendedCalendar[] ListCalendars(AccessRole minAccessRole, bool showHidde
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| minAccessRole | AccessRole | 认证用户在日历上的有效访问角色。 |
-| showHidden | Boolean | 显示隐藏日历 |
+| minAccessRole | AccessRole | 经过身份验证的用户在日历上的有效访问角色。 |
+| showHidden | Boolean | 显示隐藏的日历 |
 
 ### 返回值
 

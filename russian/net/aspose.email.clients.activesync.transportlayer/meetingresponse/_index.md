@@ -1,14 +1,14 @@
 ---
 title: MeetingResponse
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен MeetingResponse протокола ActiveSync
+description: пространство имен MeetingResponse протокола ActiveSync
 type: docs
 weight: 1510
 url: /ru/net/aspose.email.clients.activesync.transportlayer/meetingresponse/
 ---
 ## MeetingResponse enumeration
 
-Пространство имен MeetingResponse протокола ActiveSync
+пространство имен MeetingResponse протокола ActiveSync
 
 ```csharp
 public enum MeetingResponse
@@ -22,10 +22,10 @@ public enum MeetingResponse
 | CollectionId | `6` | Указывает папку, содержащую приглашение на собрание. |
 | MeetingResponse | `7` | Идентифицирует тело HTTP POST как содержащее команду MeetingResponse (раздел 2.2.2.9). |
 | RequestId | `8` | Указывает идентификатор сервера элемента сообщения запроса на собрание. |
-| Request | `9` | Указывает приглашение на собрание, на которое выполняется ответ, ответ на это приглашение и папку на сервере, в которой находится приглашение на собрание. |
+| Request | `9` | Указывает приглашение на собрание, на которое отправляется ответ, ответ на это приглашение на собрание и папку на сервере, в которой находится приглашение на собрание. |
 | Result | `10` | Служит контейнером для элементов, отправляемых клиенту в ответе. |
 | Status | `11` | Содержит ответы операции. |
-| UserResponse | `12` | Указывает, принимается ли собрание, предварительно принимается или отклоняется. |
+| UserResponse | `12` | Указывает, принимается ли совещание, предварительно принимается или отклоняется. |
 | InstanceId | `14` | Указывает экземпляр повторяющегося собрания, который необходимо изменить. |
 
 ### Смотрите также

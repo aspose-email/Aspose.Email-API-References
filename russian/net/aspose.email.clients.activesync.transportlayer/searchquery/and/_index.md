@@ -1,14 +1,14 @@
 ---
 title: And
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает ключевые слова используемые для сопоставления записей в искомом хранилище.
+description: Указывает ключевые слова используемые для сопоставления записей в искомом магазине.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/searchquery/and/
 ---
 ## SearchQuery.And property
 
-Указывает ключевые слова, используемые для сопоставления записей в искомом хранилище.
+Указывает ключевые слова, используемые для сопоставления записей в искомом магазине.
 
 ```csharp
 public QueryType And { get; set; }

@@ -18,7 +18,7 @@ public class AppointmentReminder
 
 | Имя | Описание |
 | --- | --- |
-| [AppointmentReminder](appointmentreminder)() | Инициализировать новый экземпляр класса[`AppointmentReminder`](../appointmentreminder). |
+| [AppointmentReminder](appointmentreminder)() | Инициализировать новый экземпляр[`AppointmentReminder`](../appointmentreminder) класс. |
 
 ## Характеристики
 
@@ -26,10 +26,10 @@ public class AppointmentReminder
 | --- | --- |
 | static [Default15MinReminder](../../aspose.email.calendar/appointmentreminder/default15minreminder) { get; } | Получает 15-минутное напоминание по умолчанию. |
 | [Action](../../aspose.email.calendar/appointmentreminder/action) { get; set; } | Определяет действие, которое должно выполняться при срабатывании тревоги. |
-| [Attachments](../../aspose.email.calendar/appointmentreminder/attachments) { get; } | Содержит коллекцию объектов ReminderAttachment[`ReminderAttachment`](../reminderattachment). |
-| [Attendees](../../aspose.email.calendar/appointmentreminder/attendees) { get; } | Содержит коллекцию объектов ReminderAttendee[`ReminderAttendee`](../reminderattendee). |
-| [Description](../../aspose.email.calendar/appointmentreminder/description) { get; set; } | Предоставляет более полное описание тревоги. |
-| [Duration](../../aspose.email.calendar/appointmentreminder/duration) { get; set; } | Задает период задержки, после которого повторится тревога. |
+| [Attachments](../../aspose.email.calendar/appointmentreminder/attachments) { get; } | Содержит коллекцию ReminderAttachment[`ReminderAttachment`](../reminderattachment) объекты. |
+| [Attendees](../../aspose.email.calendar/appointmentreminder/attendees) { get; } | Содержит коллекцию ReminderAttendee[`ReminderAttendee`](../reminderattendee) объекты. |
+| [Description](../../aspose.email.calendar/appointmentreminder/description) { get; set; } | Предоставляет более полное описание сигнала тревоги. |
+| [Duration](../../aspose.email.calendar/appointmentreminder/duration) { get; set; } | Определяет период задержки, после которого повторится тревога. |
 | [Repeat](../../aspose.email.calendar/appointmentreminder/repeat) { get; set; } | Определяет, сколько раз должен повторяться сигнал тревоги после начального срабатывания. |
 | [Summary](../../aspose.email.calendar/appointmentreminder/summary) { get; set; } | Определяет краткую сводку или тему для тревоги. |
 | [Trigger](../../aspose.email.calendar/appointmentreminder/trigger) { get; set; } | Указывает, когда сработает тревога. |

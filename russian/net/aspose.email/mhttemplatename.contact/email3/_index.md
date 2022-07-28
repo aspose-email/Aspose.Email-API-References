@@ -1,14 +1,14 @@
 ---
 title: Email3
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок Email3.
+description: Заголовок электронного письма3.
 type: docs
 weight: 120
 url: /ru/net/aspose.email/mhttemplatename.contact/email3/
 ---
 ## MhtTemplateName.Contact.Email3 field
 
-Заголовок Email3.
+Заголовок электронного письма3.
 
 ```csharp
 public const string Email3;

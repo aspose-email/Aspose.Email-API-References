@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/messagethreadresult/
 ---
 ## MessageThreadResult class
 
-包含 SORT ot THREAD 方法的结果 查看更多:https://tools.ietf.org/html/rfc5256
+包含 SORT ot THREAD 方法的结果 查看更多：https://tools.ietf.org/html/rfc5256
 
 ```csharp
 public sealed class MessageThreadResult
@@ -18,7 +18,7 @@ public sealed class MessageThreadResult
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MessageThreadResult](messagethreadresult)() | 初始化[`MessageThreadResult`](../messagethreadresult)类的新实例。 |
+| [MessageThreadResult](messagethreadresult)() | 初始化[`MessageThreadResult`](../messagethreadresult)类. |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public sealed class MessageThreadResult
 | [ChildMessages](../../aspose.email.clients.imap/messagethreadresult/childmessages) { get; } | 子消息。 |
 | [ConversationId](../../aspose.email.clients.imap/messagethreadresult/conversationid) { get; set; } | 消息线程标识符。 |
 | [SequenceNumber](../../aspose.email.clients.imap/messagethreadresult/sequencenumber) { get; } | 获取消息序列号。 |
-| [UniqueId](../../aspose.email.clients.imap/messagethreadresult/uniqueid) { get; } | 获取消息唯一 ID。 |
+| [UniqueId](../../aspose.email.clients.imap/messagethreadresult/uniqueid) { get; } | 获取消息的唯一 ID。 |
 | [UseUId](../../aspose.email.clients.imap/messagethreadresult/useuid) { get; } | 获取值，该值指示是否必须使用 UID 类型的方法。 |
 
 ## 方法

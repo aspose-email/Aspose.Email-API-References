@@ -1,14 +1,14 @@
 ---
 title: MapiJournalFlags
 second_title: Aspose.Email for .NET API 参考
-description: 包含有关 Journal 对象的元数据 必须为零或以下值
+description: 包含有关日记对象的元数据 必须为零或以下值
 type: docs
-weight: 18410
+weight: 18440
 url: /zh/net/aspose.email.mapi/mapijournalflags/
 ---
 ## MapiJournalFlags enumeration
 
-包含有关 Journal 对象的元数据。 必须为零或以下值。
+包含有关日记对象的元数据。 必须为零或以下值。
 
 ```csharp
 [Flags]
@@ -19,8 +19,8 @@ public enum MapiJournalFlags
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | Journal 对象没有 与日记相关的附件。 |
-| HasAttachment | `40000000` | Journal 对象有一个与日志相关的附件。 |
+| None | `0` | 日志对象没有 与日志相关的附件。 |
+| HasAttachment | `40000000` | 日志对象有一个与日志相关的附件。 |
 
 ### 也可以看看
 

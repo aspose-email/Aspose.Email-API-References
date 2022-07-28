@@ -1,14 +1,14 @@
 ---
 title: ListItems
 second_title: Aspose.Email for .NET API 参考
-description: 检索指定文件夹中的项目uri列表
+description: 检索指定文件夹中的项目 uris 列表
 type: docs
 weight: 1120
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/listitems/
 ---
 ## ListItems(string, string) {#listitems_3}
 
-检索指定文件夹中的项目uri列表
+检索指定文件夹中的项目 uris 列表
 
 ```csharp
 public string[] ListItems(string mailbox, string folder)
@@ -16,12 +16,12 @@ public string[] ListItems(string mailbox, string folder)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailbox | String | 邮箱用于初始化文件夹 id 类。 |
-| folder | String | 搜索项目的文件夹 |
+| mailbox | String | 用于初始化文件夹 id 类的邮箱。 |
+| folder | String | 用于搜索项目的文件夹 |
 
 ### 返回值
 
-返回项目列表
+返回项目uris列表
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public string[] ListItems(string mailbox, string folder)
 
 ## ListItems(string, string, MailQuery) {#listitems_4}
 
-检索指定文件夹中的项目uri列表
+检索指定文件夹中的项目 uris 列表
 
 ```csharp
 public string[] ListItems(string mailbox, string folder, MailQuery query)
@@ -41,13 +41,13 @@ public string[] ListItems(string mailbox, string folder, MailQuery query)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailbox | String | 邮箱用于初始化文件夹 id 类。 |
-| folder | String | 搜索项目的文件夹 |
+| mailbox | String | 用于初始化文件夹 id 类的邮箱。 |
+| folder | String | 用于搜索项目的文件夹 |
 | query | MailQuery | 选择项目的附加条件 |
 
 ### 返回值
 
-返回项目列表
+返回项目uris列表
 
 ### 也可以看看
 
@@ -60,7 +60,7 @@ public string[] ListItems(string mailbox, string folder, MailQuery query)
 
 ## ListItems(string, string, MailQuery, bool) {#listitems_5}
 
-检索指定文件夹中的项目uri列表
+检索指定文件夹中的项目 uris 列表
 
 ```csharp
 public string[] ListItems(string mailbox, string folder, MailQuery query, bool recursive)
@@ -68,14 +68,14 @@ public string[] ListItems(string mailbox, string folder, MailQuery query, bool r
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailbox | String | 邮箱用于初始化文件夹 id 类。 |
-| folder | String | 搜索项目的文件夹 |
+| mailbox | String | 用于初始化文件夹 id 类的邮箱。 |
+| folder | String | 用于搜索项目的文件夹 |
 | query | MailQuery | 选择项目的附加条件 |
-| recursive | Boolean | 指定请求是否应该是递归的。 |
+| recursive | Boolean | 指定请求是否应该是 reqursive。 |
 
 ### 返回值
 
-返回项目列表
+返回项目uris列表
 
 ### 也可以看看
 
@@ -88,7 +88,7 @@ public string[] ListItems(string mailbox, string folder, MailQuery query, bool r
 
 ## ListItems(string) {#listitems}
 
-检索指定文件夹中的项目uri列表
+检索指定文件夹中的项目 uris 列表
 
 ```csharp
 public string[] ListItems(string folder)
@@ -96,11 +96,11 @@ public string[] ListItems(string folder)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 文件夹到搜索项目 |
+| folder | String | 用于搜索项目的文件夹 |
 
 ### 返回值
 
-返回项目列表
+返回项目uris列表
 
 ### 也可以看看
 
@@ -112,7 +112,7 @@ public string[] ListItems(string folder)
 
 ## ListItems(string, MailQuery) {#listitems_1}
 
-检索指定文件夹中的项目uri列表
+检索指定文件夹中的项目 uris 列表
 
 ```csharp
 public string[] ListItems(string folder, MailQuery query)
@@ -120,12 +120,12 @@ public string[] ListItems(string folder, MailQuery query)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 文件夹到搜索项目 |
+| folder | String | 用于搜索项目的文件夹 |
 | query | MailQuery | 选择项目的附加条件 |
 
 ### 返回值
 
-返回项目列表
+返回项目uris列表
 
 ### 也可以看看
 
@@ -138,7 +138,7 @@ public string[] ListItems(string folder, MailQuery query)
 
 ## ListItems(string, MailQuery, bool) {#listitems_2}
 
-检索指定文件夹中的项目uri列表
+检索指定文件夹中的项目 uris 列表
 
 ```csharp
 public string[] ListItems(string folder, MailQuery query, bool recursive)
@@ -146,13 +146,13 @@ public string[] ListItems(string folder, MailQuery query, bool recursive)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 文件夹到搜索项目 |
+| folder | String | 用于搜索项目的文件夹 |
 | query | MailQuery | 选择项目的附加条件 |
-| recursive | Boolean | 指定请求是否应为 reqursive。 |
+| recursive | Boolean | 指定请求是否应该是 reqursive。 |
 
 ### 返回值
 
-返回项目列表
+返回项目uris列表
 
 ### 也可以看看
 

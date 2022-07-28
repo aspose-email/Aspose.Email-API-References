@@ -3,7 +3,7 @@ title: MicrosoftImportance
 second_title: Aspose.Email for .NET API 参考
 description: 指定约会的重要性
 type: docs
-weight: 160
+weight: 170
 url: /zh/net/aspose.email.calendar/appointment/microsoftimportance/
 ---
 ## Appointment.MicrosoftImportance property

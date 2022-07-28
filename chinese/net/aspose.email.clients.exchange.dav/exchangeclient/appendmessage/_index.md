@@ -16,7 +16,7 @@ public string AppendMessage(string folder, MailMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 一个文件夹消息上传到哪个 |
+| folder | String | 上传邮件的文件夹 |
 | message | MailMessage | 要上传的消息 |
 
 ### 返回值
@@ -28,7 +28,7 @@ public string AppendMessage(string folder, MailMessage message)
 | 例外 | （健康）状况 |
 | --- | --- |
 | [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 未指定文件夹 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *message*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *message*是`无效的` |
 
 ### 也可以看看
 
@@ -49,20 +49,20 @@ public string AppendMessage(string folder, MailMessage message, bool markAsSent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 一个uri消息上传到的文件夹的目录 |
+| folder | String | 将消息上传到的文件夹的 uri |
 | message | MailMessage | 要上传的消息 |
-| markAsSent | Boolean | 一个值表示消息应附加为已发送消息还是草稿。 |
+| markAsSent | Boolean | 一个值，指示应将消息附加为已发送消息还是草稿。 |
 
 ### 返回值
 
-创建的 uri消息
+创建消息的 uri
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | 未指定文件夹 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *message*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *message*是`无效的` |
 
 ### 也可以看看
 

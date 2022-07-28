@@ -1,14 +1,14 @@
 ---
 title: PageHeaderFormat
 second_title: Aspose.Email for .NET API 参考
-description: PageHeaderFormat 用于 HeadersFormattingOptions 的实例如果 DefaultPageHeaderFormat 未设置
+description: 如果 DefaultPageHeaderFormat 未设置则为 HeadersFormattingOptions 实例的 PageHeaderFormat
 type: docs
 weight: 40
 url: /zh/net/aspose.email/globalformattingoptions/pageheaderformat/
 ---
 ## GlobalFormattingOptions.PageHeaderFormat property
 
-PageHeaderFormat 用于 HeadersFormattingOptions 的实例，如果 DefaultPageHeaderFormat 未设置。
+如果 DefaultPageHeaderFormat 未设置，则为 HeadersFormattingOptions 实例的 PageHeaderFormat。
 
 ```csharp
 public static string PageHeaderFormat { get; set; }

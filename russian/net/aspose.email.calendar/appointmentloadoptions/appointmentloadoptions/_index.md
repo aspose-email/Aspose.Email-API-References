@@ -1,14 +1,14 @@
 ---
 title: AppointmentLoadOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAppointmentLoadOptionsaspose.email.calendar/appointmentloadoptions
+description: Инициализирует новый экземплярAppointmentLoadOptionsaspose.email.calendar/appointmentloadoptions класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/appointmentloadoptions/appointmentloadoptions/
 ---
 ## AppointmentLoadOptions constructor
 
-Инициализирует новый экземпляр класса[`AppointmentLoadOptions`](../../appointmentloadoptions)
+Инициализирует новый экземпляр[`AppointmentLoadOptions`](../../appointmentloadoptions) класс
 
 ```csharp
 public AppointmentLoadOptions()

@@ -1,14 +1,14 @@
 ---
 title: LessThan
 second_title: Aspose.Email for .NET API 参考
-description: 指定在搜索期间针对小于条件进行比较的属性和值
+description: 指定在搜索期间比较小于条件的属性和值
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activesync.transportlayer/querytype/lessthan/
 ---
 ## QueryType.LessThan property
 
-指定在搜索期间针对“小于”条件进行比较的属性和值。
+指定在搜索期间比较“小于”条件的属性和值。
 
 ```csharp
 public SearchCondition LessThan { get; set; }

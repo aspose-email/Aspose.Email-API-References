@@ -63,7 +63,7 @@ public DataContainer(string elementName, Namespace nameSpace, DataContainer pare
 | --- | --- | --- |
 | elementName | String | Имя элемента, данные которого содержатся в контейнере данных. |
 | nameSpace | Namespace | NameSpace элемента, данные которого содержатся в контейнере данных. |
-| parent | DataContainer | Parent DataContainer |
+| parent | DataContainer | Родительский контейнер данных |
 | value | String | Значение элемента |
 
 ### Смотрите также
@@ -88,7 +88,7 @@ public DataContainer(string elementName, Namespace nameSpace, DataContainer pare
 | --- | --- | --- |
 | elementName | String | Имя элемента, данные которого содержатся в контейнере данных. |
 | nameSpace | Namespace | NameSpace элемента, данные которого содержатся в контейнере данных. |
-| parent | DataContainer | Parent DataContainer |
+| parent | DataContainer | Родительский контейнер данных |
 | value | String | Значение элемента |
 | binaryData | Boolean | Указывает, являются ли данные двоичными. |
 

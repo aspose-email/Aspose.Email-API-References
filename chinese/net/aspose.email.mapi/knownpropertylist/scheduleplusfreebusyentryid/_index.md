@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleplusfreebusyentryid/
 ---
 ## KnownPropertyList.SchedulePlusFreeBusyEntryId field
 
-包含公用文件夹消息存储的非 IPM 子树下名为“SCHEDULE+ FREE BUSY”的文件夹的 EntryID。 区域:ExchangeMessageStore 规范名称:PidTagSchedulePlusFreeBusyEntryId 替代名称:PR_SPLUS_FREE_BUSY_ENTRYID
+包含公用文件夹消息存储的非 IPM 子树下名为“SCHEDULE+ FREE BUSY”的文件夹的 EntryID。 区域：ExchangeMessageStore 规范名称：PidTagSchedulePlusFreeBusyEntryId 替代名称：PR_SPLUS_FREE_BUSY_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SchedulePlusFreeBusyEntryId;

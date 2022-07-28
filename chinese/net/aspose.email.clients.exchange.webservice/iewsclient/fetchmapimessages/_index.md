@@ -16,11 +16,11 @@ public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AIEnumerable&lt;string&gt; "/&gt; 包含要检索的消息 uri |
+| uris | IEnumerable`1 | 一个IEnumerable&lt;字符串&gt;"/&gt; 包含要检索的消息 uri |
 
 ### 返回值
 
-Mapi的数组。MapiMessage包含获取的消息
+一个数组[`MapiMessage`](../../../aspose.email.mapi/mapimessage)包含获取的消息
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ Mapi的数组。MapiMessage包含获取的消息
 
 ## FetchMapiMessages(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapimessages_1}
 
-获取指定消息
+获取指定的消息
 
 ```csharp
 public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris, 
@@ -42,7 +42,7 @@ public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AStringCollection包含要检索的消息 uri |
+| uris | IEnumerable`1 | 一个StringCollection包含要检索的消息 uri |
 | extendedProperties | IEnumerable`1 | 扩展属性的枚举 |
 
 ### 返回值

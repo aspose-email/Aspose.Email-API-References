@@ -1,14 +1,14 @@
 ---
 title: PhishingStamp
 second_title: Aspose.Email for .NET API 参考
-description: 指示邮件是否可能是钓鱼邮件 区域安全消息属性 规范名称PidNamePhishingStamp 备用名称
+description: 指示邮件是否可能是网络钓鱼 区域安全消息传递属性 规范名称PidNamePhishingStamp 替代名称
 type: docs
 weight: 14260
 url: /zh/net/aspose.email.mapi/knownpropertylist/phishingstamp/
 ---
 ## KnownPropertyList.PhishingStamp field
 
-指示邮件是否可能是钓鱼邮件。 区域:安全消息属性 规范名称:PidNamePhishingStamp 备用名称:
+指示邮件是否可能是网络钓鱼。 区域：安全消息传递属性 规范名称：PidNamePhishingStamp 替代名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor PhishingStamp;

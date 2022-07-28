@@ -1,14 +1,14 @@
 ---
 title: ItemClasses
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置必须在传入消息上标记的项目类以便应用条件或异常
+description: 获取或设置必须在传入消息上标记的项目类以便条件或异常适用
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.exchange/rulepredicates/itemclasses/
 ---
 ## RulePredicates.ItemClasses property
 
-获取或设置必须在传入消息上标记的项目类，以便应用条件或异常。
+获取或设置必须在传入消息上标记的项目类，以便条件或异常适用。
 
 ```csharp
 public StringCollection ItemClasses { get; set; }

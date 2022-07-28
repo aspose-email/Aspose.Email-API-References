@@ -1,14 +1,14 @@
 ---
 title: AddErrorMessage
 second_title: Aspose.Email for .NET API 参考
-description: 将错误或警告消息添加到消息字符串构建器的开头 经销商用来记录问题
+description: 在消息字符串生成器的开头添加错误或警告消息 供分发者用于记录问题
 type: docs
 weight: 170
 url: /zh/net/aspose.email.tools.logging/logentry/adderrormessage/
 ---
 ## LogEntry.AddErrorMessage method
 
-将错误或警告消息添加到消息字符串构建器的开头。 经销商用来记录问题。
+在消息字符串生成器的开头添加错误或警告消息。 供分发者用于记录问题。
 
 ```csharp
 public virtual void AddErrorMessage(string message)

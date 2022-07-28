@@ -18,12 +18,12 @@ public class SmtpFailedRecipientException : SmtpException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor)() | 初始化 [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) 类的新实例 |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_3)(string) | 初始化 [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) 类的新实例 |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_1)(SmtpStatusCode, string) | 初始化 [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) 类的新实例 |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_4)(string, Exception) | 初始化 [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) 类的新实例 |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_2)(SmtpStatusCode, string, string) | 初始化 [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) 类的新实例 |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_5)(string, string, Exception) | 初始化 [`SmtpFailedRecipientException`](../smtpfailedrecipientexception) 类的新实例 |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor)() | 初始化[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_3)(string) | 初始化[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_1)(SmtpStatusCode, string) | 初始化[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_4)(string, Exception) | 初始化[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_2)(SmtpStatusCode, string, string) | 初始化[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_5)(string, string, Exception) | 初始化[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) class |
 
 ## 特性
 

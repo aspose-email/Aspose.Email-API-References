@@ -20,9 +20,9 @@ public abstract class ExchangeClientBase : IExchangeClientBase
 | --- | --- |
 | virtual [Credentials](../../aspose.email.clients.exchange/exchangeclientbase/credentials) { get; set; } | 获取或设置凭证 |
 | [LogFileName](../../aspose.email.clients.exchange/exchangeclientbase/logfilename) { get; set; } | 获取或设置日志文件名 |
-| virtual [MailboxUri](../../aspose.email.clients.exchange/exchangeclientbase/mailboxuri) { get; set; } | 获取或设置邮箱的uri |
+| virtual [MailboxUri](../../aspose.email.clients.exchange/exchangeclientbase/mailboxuri) { get; set; } | 获取或设置邮箱uri |
 | virtual [Proxy](../../aspose.email.clients.exchange/exchangeclientbase/proxy) { get; set; } | 获取或设置代理。 |
-| virtual [Timeout](../../aspose.email.clients.exchange/exchangeclientbase/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为 100,000 毫秒（100 秒）。 |
+| virtual [Timeout](../../aspose.email.clients.exchange/exchangeclientbase/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为100,000毫秒（100秒）。 |
 | [UseDateInLogFileName](../../aspose.email.clients.exchange/exchangeclientbase/usedateinlogfilename) { get; set; } | 获取或设置指示是否必须在日志文件名中使用日期的值。 |
 
 ## 方法

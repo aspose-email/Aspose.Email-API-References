@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建新的ImapMoveMessagesaspose.email.clients.imap.models/imapmovemessages实例
+description: 新建ImapMoveMessagesaspose.email.clients.imap.models/imapmovemessages实例.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap.models/imapmovemessages/create/
 ---
 ## ImapMoveMessages.Create method
 
-创建新的[`ImapMoveMessages`](../../imapmovemessages)实例。
+新建[`ImapMoveMessages`](../../imapmovemessages)实例.
 
 ```csharp
 public static ImapMoveMessages Create()

@@ -3,7 +3,7 @@ title: DateComparisonField
 second_title: Aspose.Email for .NET API 参考
 description: 表示日期搜索字段
 type: docs
-weight: 20630
+weight: 20680
 url: /zh/net/aspose.email.tools.search/datecomparisonfield/
 ---
 ## DateComparisonField class
@@ -18,16 +18,16 @@ public sealed class DateComparisonField : ComparisonField
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Before](../../aspose.email.tools.search/datecomparisonfield/before#before)(DateTime) | 表示message中的日期必须早于指定的日期。 |
-| [Before](../../aspose.email.tools.search/datecomparisonfield/before#before_1)(DateTime, DateComparisonType) | 表示message中的日期必须早于指定的日期。 |
+| [Before](../../aspose.email.tools.search/datecomparisonfield/before#before)(DateTime) | 表示消息中的日期必须早于指定的日期。 |
+| [Before](../../aspose.email.tools.search/datecomparisonfield/before#before_1)(DateTime, DateComparisonType) | 表示消息中的日期必须早于指定的日期。 |
 | [BeforeOrEqual](../../aspose.email.tools.search/datecomparisonfield/beforeorequal#beforeorequal)(DateTime) | 表示消息中的日期必须早于或晚于指定日期。 |
 | [BeforeOrEqual](../../aspose.email.tools.search/datecomparisonfield/beforeorequal#beforeorequal_1)(DateTime, DateComparisonType) | 表示消息中的日期必须早于或晚于指定日期。 |
 | [Greater](../../aspose.email.tools.search/datecomparisonfield/greater#greater)(DateTime) | 表示消息中的日期必须晚于指定的日期。 |
 | [Greater](../../aspose.email.tools.search/datecomparisonfield/greater#greater_1)(DateTime, DateComparisonType) | 表示消息中的日期必须晚于指定的日期。 |
-| [NotOn](../../aspose.email.tools.search/datecomparisonfield/noton#noton)(DateTime) | 表示message中的日期不能在指定的日期。 |
-| [NotOn](../../aspose.email.tools.search/datecomparisonfield/noton#noton_1)(DateTime, DateComparisonType) | 表示message中的日期不能在指定的日期。 |
-| [On](../../aspose.email.tools.search/datecomparisonfield/on#on)(DateTime) | 表示message中的日期必须在指定的日期之内。 |
-| [On](../../aspose.email.tools.search/datecomparisonfield/on#on_1)(DateTime, DateComparisonType) | 表示message中的日期必须在指定的日期之内。 |
+| [NotOn](../../aspose.email.tools.search/datecomparisonfield/noton#noton)(DateTime) | 表示消息中的日期不能在指定的日期内。 |
+| [NotOn](../../aspose.email.tools.search/datecomparisonfield/noton#noton_1)(DateTime, DateComparisonType) | 表示消息中的日期不能在指定的日期内。 |
+| [On](../../aspose.email.tools.search/datecomparisonfield/on#on)(DateTime) | 表示消息中的日期必须在指定日期之内。 |
+| [On](../../aspose.email.tools.search/datecomparisonfield/on#on_1)(DateTime, DateComparisonType) | 表示消息中的日期必须在指定日期之内。 |
 | [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | 设置指示客户端是在字段上使用升序还是降序排序的值。 |
 | [Since](../../aspose.email.tools.search/datecomparisonfield/since#since)(DateTime) | 表示消息中的日期必须在指定日期之内或之后。 |
 | [Since](../../aspose.email.tools.search/datecomparisonfield/since#since_1)(DateTime, DateComparisonType) | 表示消息中的日期必须在指定日期之内或之后。 |

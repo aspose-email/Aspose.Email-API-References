@@ -3,7 +3,7 @@ title: MicrosoftIntendedStatus
 second_title: Aspose.Email for .NET API 参考
 description: 指定约会的 INTENDED 状态
 type: docs
-weight: 170
+weight: 180
 url: /zh/net/aspose.email.calendar/appointment/microsoftintendedstatus/
 ---
 ## Appointment.MicrosoftIntendedStatus property

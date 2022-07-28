@@ -1,14 +1,14 @@
 ---
 title: AppointmentStartWhole
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会的开始日期和时间 区域日历 规范名称PidLidAppointmentStartWhole 替代名称dispidApptStartWhole
+description: 指定约会的开始日期和时间 区域Calendar 规范名称PidLidAppointmentStartWhole 替代名称dispidApptStartWhole
 type: docs
 weight: 1320
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentstartwhole/
 ---
 ## KnownPropertyList.AppointmentStartWhole field
 
-指定约会的开始日期和时间。 区域:日历 规范名称:PidLidAppointmentStartWhole 替代名称:dispidApptStartWhole
+指定约会的开始日期和时间。 区域：Calendar 规范名称：PidLidAppointmentStartWhole 替代名称：dispidApptStartWhole
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentStartWhole;

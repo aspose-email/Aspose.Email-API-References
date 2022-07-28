@@ -19,16 +19,16 @@ public abstract class AmpComponent
 | Имя | Описание |
 | --- | --- |
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP предоставляет набор общих атрибутов, которые распространяются на многие компоненты AMP. |
-| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервный вариант — это соглашение, которое позволяет элементу сообщить читателю, что браузер не поддерживает этот элемент. |
+| [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | Резервное копирование — это соглашение, позволяющее элементу сообщить читателю, что браузер не поддерживает этот элемент. |
 | [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | Элемент, отмеченный атрибутом заполнителя, выступает в качестве заполнителя для родительского элемента AMP. Если указано, элемент-заполнитель должен быть прямым дочерним элементом элемента AMP. |
-| abstract [RequiredScript](../../aspose.email.amp/ampcomponent/requiredscript) { get; } | Необходимый скрипт, который необходимо добавить в раздел head. |
+| abstract [RequiredScript](../../aspose.email.amp/ampcomponent/requiredscript) { get; } | Обязательный скрипт, который необходимо добавить в раздел head. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| abstract [ToAmpHtml](../../aspose.email.amp/ampcomponent/toamphtml)() | Представляет расширенную HTML-версию компонента. |
-| abstract [ToHtml](../../aspose.email.amp/ampcomponent/tohtml)() | Представляет html-версию компонента. |
+| abstract [ToAmpHtml](../../aspose.email.amp/ampcomponent/toamphtml)() | Представляет HTML-версию компонента amp. |
+| abstract [ToHtml](../../aspose.email.amp/ampcomponent/tohtml)() | Представляет HTML-версию компонента. |
 
 ### Смотрите также
 

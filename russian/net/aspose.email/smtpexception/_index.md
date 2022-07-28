@@ -1,14 +1,14 @@
 ---
 title: SmtpException
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет исключение которое возникает когда SmtpClient не может завершить операцию.
+description: Представляет исключение которое выдается когда SmtpClient не может завершить операцию.
 type: docs
-weight: 19930
+weight: 19980
 url: /ru/net/aspose.email/smtpexception/
 ---
 ## SmtpException class
 
-Представляет исключение, которое возникает, когда SmtpClient не может завершить операцию.
+Представляет исключение, которое выдается, когда SmtpClient не может завершить операцию.
 
 ```csharp
 public class SmtpException : AsposeException
@@ -18,14 +18,14 @@ public class SmtpException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [SmtpException](smtpexception#constructor)() | Инициализирует новый экземпляр класса[`SmtpException`](../smtpexception) |
-| [SmtpException](smtpexception#constructor_1)(SmtpStatusCode) | Инициализирует новый экземпляр класса[`SmtpException`](../smtpexception) |
-| [SmtpException](smtpexception#constructor_3)(string) | Инициализирует новый экземпляр класса[`SmtpException`](../smtpexception) |
-| [SmtpException](smtpexception#constructor_2)(SmtpStatusCode, string) | Инициализирует новый экземпляр класса[`SmtpException`](../smtpexception) |
-| [SmtpException](smtpexception#constructor_6)(string, Exception) | Инициализирует новый экземпляр класса[`SmtpException`](../smtpexception) |
+| [SmtpException](smtpexception#constructor)() | Инициализирует новый экземпляр[`SmtpException`](../smtpexception) класс |
+| [SmtpException](smtpexception#constructor_1)(SmtpStatusCode) | Инициализирует новый экземпляр[`SmtpException`](../smtpexception) класс |
+| [SmtpException](smtpexception#constructor_3)(string) | Инициализирует новый экземпляр[`SmtpException`](../smtpexception) класс |
+| [SmtpException](smtpexception#constructor_2)(SmtpStatusCode, string) | Инициализирует новый экземпляр[`SmtpException`](../smtpexception) класс |
+| [SmtpException](smtpexception#constructor_6)(string, Exception) | Инициализирует новый экземпляр[`SmtpException`](../smtpexception) класс |
 | [SmtpException](smtpexception#constructor_5)(string, MailMessage) |  |
-| [SmtpException](smtpexception#constructor_4)(string, SendMessagesResult) | Инициализирует новый экземпляр класса[`SmtpException`](../smtpexception) |
-| [SmtpException](smtpexception#constructor_7)(string, Exception, MailMessage) | Инициализирует новый экземпляр класса[`SmtpException`](../smtpexception) |
+| [SmtpException](smtpexception#constructor_4)(string, SendMessagesResult) | Инициализирует новый экземпляр[`SmtpException`](../smtpexception) класс |
+| [SmtpException](smtpexception#constructor_7)(string, Exception, MailMessage) | Инициализирует новый экземпляр[`SmtpException`](../smtpexception) класс |
 
 ## Характеристики
 

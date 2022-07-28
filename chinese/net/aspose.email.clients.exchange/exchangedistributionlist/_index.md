@@ -24,15 +24,15 @@ public class ExchangeDistributionList
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ChangeKey](../../aspose.email.clients.exchange/exchangedistributionlist/changekey) { get; set; } | 更改列表键 |
-| [DisplayName](../../aspose.email.clients.exchange/exchangedistributionlist/displayname) { get; set; } | 列表显示名称 |
+| [ChangeKey](../../aspose.email.clients.exchange/exchangedistributionlist/changekey) { get; set; } | 更改列表的键 |
+| [DisplayName](../../aspose.email.clients.exchange/exchangedistributionlist/displayname) { get; set; } | 列表的显示名称 |
 | [Id](../../aspose.email.clients.exchange/exchangedistributionlist/id) { get; set; } | 列表 ID |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ToMailAddress](../../aspose.email.clients.exchange/exchangedistributionlist/tomailaddress)() | 将实例的值转换为 MailAddress。 |
+| [ToMailAddress](../../aspose.email.clients.exchange/exchangedistributionlist/tomailaddress)() | 将实例的值转换为 MailAddress. |
 
 ### 也可以看看
 

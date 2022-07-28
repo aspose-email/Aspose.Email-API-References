@@ -1,14 +1,14 @@
 ---
 title: DetectEncoding
 second_title: Aspose.Email for .NET API 参考
-description: 通过分析其字节顺序标记BOM确定数据编码
+description: 通过分析其字节顺序标记 BOM 确定数据编码
 type: docs
 weight: 30
 url: /zh/net/aspose.email.calendar/appointmentloadoptions/detectencoding/
 ---
 ## AppointmentLoadOptions.DetectEncoding property
 
-通过分析其字节顺序标记（BOM）确定数据编码
+通过分析其字节顺序标记 (BOM) 确定数据编码
 
 ```csharp
 public bool DetectEncoding { get; set; }

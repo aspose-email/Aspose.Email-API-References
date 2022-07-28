@@ -16,7 +16,7 @@ public MapiMessage CreateMessage(string folderId, MapiMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderId | String | 父文件夹 id |
+| folderId | String | 父文件夹 ID |
 | message | MapiMessage | 要创建的 Mapi 消息 |
 
 ### 返回值

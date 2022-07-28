@@ -1,14 +1,14 @@
 ---
 title: RemoteMessageTransferAgent
 second_title: Aspose.Email for .NET API 参考
-description: 包含 RFC3464 中指定的传递状态通知的 Remote-MTA 字段的值 区域电子邮件 规范名称PidTagRemoteMessageTransferAgent 备用名称PR_DSN_REMOTE_MTA ptagDsnRemoteMta
+description: 包含 RFC3464 中指定的传递状态通知的 Remote-MTA 字段的值 区域Email 规范名称PidTagRemoteMessageTransferAgent 备用名称PR_DSN_REMOTE_MTAptagDsnRemoteMta
 type: docs
 weight: 15780
 url: /zh/net/aspose.email.mapi/knownpropertylist/remotemessagetransferagent/
 ---
 ## KnownPropertyList.RemoteMessageTransferAgent field
 
-包含 [RFC3464] 中指定的传递状态通知的 Remote-MTA 字段的值。 区域:电子邮件 规范名称:PidTagRemoteMessageTransferAgent 备用名称:PR_DSN_REMOTE_MTA, ptagDsnRemoteMta
+包含 [RFC3464] 中指定的传递状态通知的 Remote-MTA 字段的值。 区域：Email 规范名称：PidTagRemoteMessageTransferAgent 备用名称：PR_DSN_REMOTE_MTA、ptagDsnRemoteMta
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RemoteMessageTransferAgent;

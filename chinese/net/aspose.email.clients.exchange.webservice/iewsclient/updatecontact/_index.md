@@ -16,7 +16,7 @@ public void UpdateContact(MapiContact contact)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contact | MapiContact | 联系人项目 |
+| contact | MapiContact | 联系项目 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void UpdateContact(Contact contact)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contact | Contact | 联系人项目 |
+| contact | Contact | 联系项目 |
 
 ### 也可以看看
 

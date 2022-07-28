@@ -18,8 +18,8 @@ public enum EncryptionSMIMEAlgorithm
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| TripleDES | `0` | 三重DES算法 |
-| DES | `1` | DES 算法 |
+| TripleDES | `0` | 三重 DES 算法 |
+| DES | `1` | DES算法 |
 | RC2128bit | `2` | RC2 128 位算法 |
 | RC264bit | `3` | RC2 64 位算法 |
 | RC240bit | `4` | RC2 40 位算法 |

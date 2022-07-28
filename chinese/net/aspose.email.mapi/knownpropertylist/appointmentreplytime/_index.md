@@ -1,14 +1,14 @@
 ---
 title: AppointmentReplyTime
 second_title: Aspose.Email for .NET API 参考
-description: 指定与会者响应收到的会议请求或会议更新对象的日期和时间 区域会议 规范名称PidLidAppointmentReplyTime 别名dispidApptReplyTime
+description: 指定与会者响应收到的会议请求或会议更新对象的日期和时间 区域Meetings 规范名称PidLidAppointmentReplyTime 替代名称dispidApptReplyTime
 type: docs
 weight: 1270
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentreplytime/
 ---
 ## KnownPropertyList.AppointmentReplyTime field
 
-指定与会者响应收到的会议请求或会议更新对象的日期和时间。 区域:会议 规范名称:PidLidAppointmentReplyTime 别名:dispidApptReplyTime
+指定与会者响应收到的会议请求或会议更新对象的日期和时间。 区域：Meetings 规范名称：PidLidAppointmentReplyTime 替代名称：dispidApptReplyTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentReplyTime;

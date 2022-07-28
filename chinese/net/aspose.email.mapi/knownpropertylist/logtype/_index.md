@@ -1,14 +1,14 @@
 ---
 title: LogType
 second_title: Aspose.Email for .NET API 参考
-description: 简要描述正在记录的日志活动 区域日志 规范名称PidLidLogType 替代名称dispidLogType
+description: 简要描述正在记录的日志活动 区域Journal 规范名称PidLidLogType 替代名称dispidLogType
 type: docs
 weight: 12290
 url: /zh/net/aspose.email.mapi/knownpropertylist/logtype/
 ---
 ## KnownPropertyList.LogType field
 
-简要描述正在记录的日志活动。 区域:日志 规范名称:PidLidLogType 替代名称:dispidLogType
+简要描述正在记录的日志活动。 区域：Journal 规范名称：PidLidLogType 替代名称：dispidLogType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogType;

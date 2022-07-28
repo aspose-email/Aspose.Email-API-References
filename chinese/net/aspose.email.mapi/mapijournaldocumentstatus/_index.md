@@ -3,7 +3,7 @@ title: MapiJournalDocumentStatus
 second_title: Aspose.Email for .NET API 参考
 description: 表示文档的状态
 type: docs
-weight: 18400
+weight: 18430
 url: /zh/net/aspose.email.mapi/mapijournaldocumentstatus/
 ---
 ## MapiJournalDocumentStatus enumeration
@@ -20,10 +20,10 @@ public enum MapiJournalDocumentStatus
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 文档没有任何状态。 |
-| Printed | `1` | 指示文档 是否在日志记录期间打印。 |
+| Printed | `1` | 指示文档 是否在日记帐期间打印。 |
 | Saved | `2` | 指示文档 是否在日志记录期间保存。 |
-| Routed | `4` | 指示文档是否在日记过程中发送 给路由收件人。 |
-| Posted | `8` | 指示文档是通过电子邮件发送还是在日记过程中将 发布到服务器文件夹。 |
+| Routed | `4` | 指示文档是否在日志记录期间发送 到路由收件人。 |
+| Posted | `8` | 指示文档是通过电子邮件发送还是在日志记录期间发布 到服务器文件夹。 |
 
 ### 也可以看看
 

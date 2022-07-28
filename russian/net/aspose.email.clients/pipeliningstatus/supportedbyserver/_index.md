@@ -1,14 +1,14 @@
 ---
 title: SupportedByServer
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее поддерживается ли сервером режим конвейерной обработки.
+description: Получает значение указывающее поддерживается ли сервером конвейерный режим.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients/pipeliningstatus/supportedbyserver/
 ---
 ## PipeliningStatus.SupportedByServer property
 
-Получает значение, указывающее, поддерживается ли сервером режим конвейерной обработки.
+Получает значение, указывающее, поддерживается ли сервером конвейерный режим.
 
 ```csharp
 public bool SupportedByServer { get; }

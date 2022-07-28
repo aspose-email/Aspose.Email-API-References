@@ -1,14 +1,14 @@
 ---
 title: MessageID
 second_title: Справочник по Aspose.Email для .NET API
-description: Уникальный идентификатор этого сообщения. Определено в RFC 8224.6.1 RFC 10362.1.5.
+description: Уникальный идентификатор этого сообщения. Определено в RFC 822 4.6.1 RFC 1036 2.1.5.
 type: docs
 weight: 140
 url: /ru/net/aspose.email/headertype/messageid/
 ---
 ## HeaderType.MessageID property
 
-Уникальный идентификатор этого сообщения. Определено в RFC 822:4.6.1, RFC 1036:2.1.5.
+Уникальный идентификатор этого сообщения. Определено в RFC 822: 4.6.1, RFC 1036: 2.1.5.
 
 ```csharp
 public static HeaderType MessageID { get; }

@@ -17,7 +17,7 @@ public OlmFolder GetSubFolder(string subfolderName, bool ignoreCase)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | subfolderName | String | 子文件夹的名称。 |
-| ignoreCase | Boolean | 指示要匹配的名称是否不区分大小写的值。 |
+| ignoreCase | Boolean | 一个值，指示要匹配的名称是否不区分大小写。 |
 
 ### 返回值
 

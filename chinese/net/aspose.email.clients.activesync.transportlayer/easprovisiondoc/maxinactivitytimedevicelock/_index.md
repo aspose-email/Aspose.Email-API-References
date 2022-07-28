@@ -1,14 +1,14 @@
 ---
 title: MaxInactivityTimeDeviceLock
 second_title: Aspose.Email for .NET API 参考
-description: 指定设备锁定自身之前不活动的最大秒数 如果这个值大于等于9999客户端将其解释为无限制 如果 MaxInactivityTimeDeviceLock 为空则客户端将此解释为意味着安全策略没有设置时间设备锁定
+description: 指定设备锁定自身之前不活动的最大秒数 如果此值大于或等于 9999则客户端将其解释为无限制 如果 MaxInactivityTimeDeviceLock 为空客户端将其解释为安全策略没有设置时间设备锁
 type: docs
 weight: 320
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/maxinactivitytimedevicelock/
 ---
 ## EASProvisionDoc.MaxInactivityTimeDeviceLock property
 
-指定设备锁定自身之前不活动的最大秒数。 如果这个值大于等于9999，客户端将其解释为无限制。 如果 MaxInactivityTimeDeviceLock 为空，则客户端将此解释为意味着安全策略没有设置时间设备锁定。
+指定设备锁定自身之前不活动的最大秒数。 如果此值大于或等于 9999，则客户端将其解释为无限制。 如果 MaxInactivityTimeDeviceLock 为空，客户端将其解释为安全策略没有设置时间设备锁。
 
 ```csharp
 public int? MaxInactivityTimeDeviceLock { get; set; }

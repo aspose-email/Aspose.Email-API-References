@@ -16,7 +16,7 @@ public MailQuery Equals(int value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Int32 | 值。 |
+| value | Int32 | 价值。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: QueryType
 second_title: Aspose.Email for .NET API 参考
-description: 指定用于匹配正在搜索的商店中的条目的关键字 Query 的值用作前缀字符串匹配模式并返回匹配字符串开头的条目 例如搜索John将匹配John Frum或Barry Johnson但不会匹配James Littlejohn GAL 中使用 ANR 索引的所有非空文本属性都与 Query 元素值进行比较 搜索比较是通过使用不区分大小写的匹配来执行的 对于 Windows SharePoint Services 文档库搜索此协议支持以下形式的查询 LinkId  value其中 value 指定项目或文件夹的 URLLinkId 表示该值将与链接 ID 属性进行比较 对于邮箱搜索查询语法如下 - 可以通过以下方式指定文件夹 指定ID 指定文件夹和子文件夹 所有电子邮件文件夹包括草稿收件箱和子文件夹发件箱和已发送邮件 - 基本关键字查询可以由以下内容组成 基本运算符And第 2.2.3.10 节 使用 GreaterThan第 2.2.3.78 节和 LessThan 元素第 2.2.3.87 节指定的 dateTime 过滤器 包含关键字 的 FreeText 元素第 2.2.3.73 节针对所有索引属性执行基本关键字查询
+description: 指定用于匹配正在搜索的商店中的条目的关键字 查询的值用作前缀字符串匹配模式并返回匹配字符串开头的条目 例如搜索John将匹配John Frum或Barry Johnson但不会匹配James Littlejohn GAL 中使用 ANR 索引的所有非空文本属性都与 Query 元素进行比较价值 使用不区分大小写的匹配来执行搜索比较 对于 Windows SharePoint Services 文档库搜索此协议支持以下形式的查询 LinkId  value其中 value 指定项目或文件夹的 URLLinkId 表示该值将与链接 ID 属性进行比较 对于邮箱搜索查询语法如下 - 可以通过以下方式指定文件夹 指定 ID 指定文件夹和子文件夹 所有电子邮件文件夹包括草稿收件箱和子文件夹发件箱和已发送邮件 - 基本关键字查询可由以下内容组成 基本运算符And第 2.2.3.10 节 使用 GreaterThan第 2.2.3.78 节和 LessThan 指定的日期时间过滤器包含关键字的元素第 2.2.3.87 节 自由文本元素第 2.2.3.73 节 对所有索引属性执行基本关键字查询
 type: docs
 weight: 1780
 url: /zh/net/aspose.email.clients.activesync.transportlayer/querytype/
 ---
 ## QueryType class
 
-指定用于匹配正在搜索的商店中的条目的关键字。 Query 的值用作前缀字符串匹配模式，并返回匹配字符串开头的条目。 例如，搜索“John”将匹配“John Frum”或“Barry Johnson”，但不会匹配“James Littlejohn”。 GAL 中使用 ANR 索引的所有非空文本属性都与 Query 元素值进行比较。 搜索比较是通过使用不区分大小写的匹配来执行的。 对于 Windows SharePoint Services 文档库搜索，此协议支持以下形式的查询: LinkId == value，其中 value 指定项目或文件夹的 URL，LinkId 表示该值将与链接 ID 属性进行比较。 对于邮箱搜索，查询语法如下: - 可以通过以下方式指定文件夹: 指定ID 指定文件夹和子文件夹 所有电子邮件文件夹，包括草稿、收件箱和子文件夹、发件箱和已发送邮件 - 基本关键字查询可以由以下内容组成: 基本运算符:And（第 2.2.3.10 节） 使用 GreaterThan（第 2.2.3.78 节）和 LessThan 元素（第 2.2.3.87 节）指定的 dateTime 过滤器 包含关键字 的 FreeText 元素（第 2.2.3.73 节）:针对所有索引属性执行基本关键字查询。
+指定用于匹配正在搜索的商店中的条目的关键字。 查询的值用作前缀字符串匹配模式，并返回匹配字符串开头的条目。 例如，搜索“John”将匹配“John Frum”或“Barry Johnson”，但不会匹配“James Littlejohn”。 GAL 中使用 ANR 索引的所有非空文本属性都与 Query 元素进行比较价值。 使用不区分大小写的匹配来执行搜索比较。 对于 Windows SharePoint Services 文档库搜索，此协议支持以下形式的查询： LinkId == value，其中 value 指定项目或文件夹的 URL，LinkId 表示该值将与链接 ID 属性进行比较。 对于邮箱搜索，查询语法如下： - 可以通过以下方式指定文件夹： 指定 ID 指定文件夹和子文件夹 所有电子邮件文件夹，包括草稿，收件箱和子文件夹、发件箱和已发送邮件 - 基本关键字查询可由以下内容组成： 基本运算符：And（第 2.2.3.10 节） 使用 GreaterThan（第 2.2.3.78 节）和 LessThan 指定的日期时间过滤器包含关键字的元素（第 2.2.3.87 节） 自由文本元素（第 2.2.3.73 节） 对所有索引属性执行基本关键字查询。
 
 ```csharp
 public class QueryType
@@ -24,12 +24,12 @@ public class QueryType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Class](../../aspose.email.clients.activesync.transportlayer/querytype/class) { get; } | 标识项目的类别。 有效的 airsync:Class 元素值为: - 任务 - 电子邮件 - 日历 - 联系人 - 备注 - SMS 当协议版本为 12.1 时，邮箱搜索支持以下类:电子邮件、日历、联系人、任务。 SMS 和 Notes 类仅在协议版本为 14.0 或 14.1 时可用。 Search 请求可以在请求中包含一个或多个 Class 元素，以限制 Search 响应中包含的数据类型。 如果 Search 请求中没有包含一个或多个 Class 元素，则服务器将返回所有支持的类。 如果 Class 作为 And 元素以外的任何元素的子元素包含，则服务器以 Status 值 8 (SearchTooComplex) 进行响应。 |
-| [CollectionId](../../aspose.email.clients.activesync.transportlayer/querytype/collectionid) { get; } | 指定要搜索的文件夹。 如果存在 DeepTraversal，它适用于每个 CollectionId 下的所有文件夹。 如果 CollectionId 作为除 And 之外的任何元素的子元素包含在内，则服务器以 Status 值 8 (SearchTooComplex) 进行响应。 |
-| [ConversationId](../../aspose.email.clients.activesync.transportlayer/querytype/conversationid) { get; set; } | 指定要搜索的对话。该值是一个 GUID。 协议版本为 12.1 时不支持 ConversationId。 如果 ConversationId 作为除 And 元素之外的任何元素的子元素包含在内，则服务器以 Status 值 8 (SearchTooComplex) 进行响应。 |
-| [FreeText](../../aspose.email.clients.activesync.transportlayer/querytype/freetext) { get; set; } | 指定要搜索的字符串值。 如果 FreeText 属性设置为 And 属性以外，则服务器响应状态值 8 (SearchTooComplex)。 |
-| [GreaterThan](../../aspose.email.clients.activesync.transportlayer/querytype/greaterthan) { get; set; } | 指定在搜索期间针对“大于”条件进行比较的属性和值。 |
-| [LessThan](../../aspose.email.clients.activesync.transportlayer/querytype/lessthan) { get; set; } | 指定在搜索期间针对“小于”条件进行比较的属性和值。 |
+| [Class](../../aspose.email.clients.activesync.transportlayer/querytype/class) { get; } | 标识项目的类。 有效的 airsync:Class 元素值为： - Tasks - Email - Calendar - Contacts - Notes - SMS 当协议版本为 12.1 时，邮箱搜索支持以下类：电子邮件、日历、联系人，任务。 SMS 和 Notes 类仅在协议版本为 14.0 或 14.1 时可用。 搜索请求可以在请求中包含一个或多个 Class 元素，以限制搜索响应中包含的数据类型。 如果搜索请求中不包含一个或多个 Class 元素，服务器将返回所有支持的类。 如果 Class 作为 And 元素以外的任何元素的子元素包含，则服务器以 Status 值 8 进行响应（搜索太复杂）. |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/querytype/collectionid) { get; } | 指定要在其中搜索的文件夹。 如果存在 DeepTraversal，它适用于每个 CollectionId 下的所有文件夹。 如果 CollectionId 作为除 And 之外的任何元素的子元素包含在内，则服务器以状态值 8 (SearchTooComplex) 进行响应。 |
+| [ConversationId](../../aspose.email.clients.activesync.transportlayer/querytype/conversationid) { get; set; } | 指定要搜索的对话。该值为 GUID。 当协议版本为 12.1. 时，不支持 ConversationId |
+| [FreeText](../../aspose.email.clients.activesync.transportlayer/querytype/freetext) { get; set; } | 指定要搜索的字符串值。 如果设置的 FreeText 属性不是 And 属性，则服务器响应状态值 8 (SearchTooComplex)。 |
+| [GreaterThan](../../aspose.email.clients.activesync.transportlayer/querytype/greaterthan) { get; set; } | 指定在搜索期间比较“大于”条件的属性和值。 |
+| [LessThan](../../aspose.email.clients.activesync.transportlayer/querytype/lessthan) { get; set; } | 指定在搜索期间比较“小于”条件的属性和值。 |
 
 ### 也可以看看
 

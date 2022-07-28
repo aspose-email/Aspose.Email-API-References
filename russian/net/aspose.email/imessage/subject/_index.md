@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает тему сообщения
+description: Получает или задает тему сообщения
 type: docs
 weight: 90
 url: /ru/net/aspose.email/imessage/subject/
 ---
 ## IMessage.Subject property
 
-Получает или устанавливает тему сообщения
+Получает или задает тему сообщения
 
 ```csharp
 public string Subject { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ForwardNotificationRecipients
 second_title: Aspose.Email for .NET API 参考
-description: 包含 RecipientRow 结构的列表如 MS-OXCDATA 第 2.8.3 节所述指示会议转发的收件人 区域会议 规范名称PidLidForwardNotificationRecipients 别名dispidForwardNotificationRecipients
+description: 包含 RecipientRow 结构的列表如 MS-OXCDATA 第 2.8.3 节中所述指示会议转发的收件人 区域Meetings 规范名称PidLidForwardNotificationRecipients 别名dispidForwardNotificationRecipients
 type: docs
 weight: 10610
 url: /zh/net/aspose.email.mapi/knownpropertylist/forwardnotificationrecipients/
 ---
 ## KnownPropertyList.ForwardNotificationRecipients field
 
-包含 RecipientRow 结构的列表，如 [MS-OXCDATA] 第 2.8.3 节所述，指示会议转发的收件人。 区域:会议 规范名称:PidLidForwardNotificationRecipients 别名:dispidForwardNotificationRecipients
+包含 RecipientRow 结构的列表，如 [MS-OXCDATA] 第 2.8.3 节中所述，指示会议转发的收件人。 区域：Meetings 规范名称：PidLidForwardNotificationRecipients 别名：dispidForwardNotificationRecipients
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ForwardNotificationRecipients;

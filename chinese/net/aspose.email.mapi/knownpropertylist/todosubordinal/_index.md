@@ -1,14 +1,14 @@
 ---
 title: ToDoSubOrdinal
 second_title: Aspose.Email for .NET API 参考
-description: 包含数字 0 到 9当 PidLidToDoOrdinalDate 属性第 2.344 节用于执行某种对象时这些数字用于打破平局 区域任务 规范名称PidLidToDoSubOrdinal 替代名称dispidToDoSubOrdinal
+description: 包含数字 0 到 9当 PidLidToDoOrdinalDate 属性第 2.344 节用于执行某种对象时这些数字用于打破平局 区域Tasks 规范名称PidLidToDoSubOrdinal 替代名称dispidToDoSubOrdinal
 type: docs
 weight: 19050
 url: /zh/net/aspose.email.mapi/knownpropertylist/todosubordinal/
 ---
 ## KnownPropertyList.ToDoSubOrdinal field
 
-包含数字 0 到 9，当 PidLidToDoOrdinalDate 属性（第 2.344 节）用于执行某种对象时，这些数字用于打破平局。 区域:任务 规范名称:PidLidToDoSubOrdinal 替代名称:dispidToDoSubOrdinal
+包含数字 0 到 9，当 PidLidToDoOrdinalDate 属性（第 2.344 节）用于执行某种对象时，这些数字用于打破平局。 区域：Tasks 规范名称：PidLidToDoSubOrdinal 替代名称：dispidToDoSubOrdinal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ToDoSubOrdinal;

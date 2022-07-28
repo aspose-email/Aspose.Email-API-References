@@ -1,14 +1,14 @@
 ---
 title: DeleteFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 删除指定文件夹此方法代表 IMAP DELETE 命令
+description: 删除指定的文件夹此方法代表 IMAP DELETE 命令
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.imap/iasyncimapclient/deletefolderasync/
 ---
 ## IAsyncImapClient.DeleteFolderAsync method
 
-删除指定文件夹。此方法代表 IMAP DELETE 命令。
+删除指定的文件夹。此方法代表 IMAP DELETE 命令。
 
 ```csharp
 public Task DeleteFolderAsync(string folderName, IConnection connection = null, 

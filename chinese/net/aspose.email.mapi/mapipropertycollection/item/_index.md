@@ -16,7 +16,7 @@ public MapiProperty this[long tag] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| tag | 要获取或设置其值的标签键。 |
+| tag | 要获取或设置其值的标记键。 |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public MapiProperty this[PropertyDescriptor pd] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| pd | [`PropertyDescriptor`](../../propertydescriptor)要获取或设置其值的键. |
+| pd | 这[`PropertyDescriptor`](../../propertydescriptor)要获取或设置其值的键。 |
 
 ### 返回值
 

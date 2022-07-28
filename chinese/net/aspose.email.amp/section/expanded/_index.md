@@ -1,14 +1,14 @@
 ---
 title: Expanded
 second_title: Aspose.Email for .NET API 参考
-description: 在页面加载时将部分显示为展开
+description: 将部分显示为在页面加载时展开
 type: docs
 weight: 20
 url: /zh/net/aspose.email.amp/section/expanded/
 ---
 ## Section.Expanded property
 
-在页面加载时将部分显示为展开。
+将部分显示为在页面加载时展开。
 
 ```csharp
 public bool Expanded { get; set; }

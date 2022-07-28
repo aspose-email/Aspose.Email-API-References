@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookmessageid/
 ---
 ## KnownPropertyList.AddressBookMessageId field
 
-包含本地站点的脱机通讯簿公用文件夹中第一条消息的短期消息 ID (MID)（[MS-OXCDATA] 部分 2.2.1.2）。 区域:ProviderDefinedNonTransmittable 规范名称:PidTagAddressBookMessageId 备用名称:ptagAddrbookMID
+包含本地站点的脱机通讯簿公用文件夹中第一条消息的短期消息 ID (MID)（[MS-OXCDATA] 部分 2.2.1.2）。 区域：ProviderDefinedNonTransmittable 规范名称：PidTagAddressBookMessageId 备用名称：ptagAddrbookMID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookMessageId;

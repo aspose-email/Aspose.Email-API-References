@@ -1,14 +1,14 @@
 ---
 title: MissedProperties
 second_title: Aspose.Email for .NET API 参考
-description: 获取缺失属性的集合
+description: 获取遗漏属性的集合
 type: docs
 weight: 20
 url: /zh/net/aspose.email.storage.pst/saveresult/missedproperties/
 ---
 ## SaveResult.MissedProperties property
 
-获取缺失属性的集合。
+获取遗漏属性的集合。
 
 ```csharp
 public List<PropertyDescriptor> MissedProperties { get; }
@@ -16,7 +16,7 @@ public List<PropertyDescriptor> MissedProperties { get; }
 
 ### 适当的价值
 
-[`PropertyDescriptor`](../../../aspose.email.mapi/propertydescriptor)的列表。
+名单[`PropertyDescriptor`](../../../aspose.email.mapi/propertydescriptor).
 
 ### 也可以看看
 

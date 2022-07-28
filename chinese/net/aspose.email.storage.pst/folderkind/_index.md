@@ -3,7 +3,7 @@ title: FolderKind
 second_title: Aspose.Email for .NET API 参考
 description: 代表不同种类的 pst 文件夹
 type: docs
-weight: 20130
+weight: 20180
 url: /zh/net/aspose.email.storage.pst/folderkind/
 ---
 ## FolderKind enumeration
@@ -19,7 +19,7 @@ public enum FolderKind
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Normal | `1` | 代表普通的pst文件夹。 |
+| Normal | `1` | 代表正常的 pst 文件夹。 |
 | Search | `2` | 表示搜索文件夹。它是一个虚拟文件夹 ，提供与 特定搜索条件匹配的所有电子邮件项目的视图。 |
 
 ### 也可以看看

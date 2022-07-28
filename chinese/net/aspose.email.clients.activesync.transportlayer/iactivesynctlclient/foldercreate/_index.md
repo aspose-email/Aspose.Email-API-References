@@ -16,8 +16,8 @@ public FolderInfo FolderCreate(string parentId, string displayName, UserCreatedF
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentId | String | 指定服务器上文件夹的父文件夹的服务器ID |
-| displayName | String | 指定显示给用户的文件夹的名称。 |
+| parentId | String | 指定服务器上文件夹的父文件夹的服务器 ID |
+| displayName | String | 指定向用户显示的文件夹的名称。 |
 | type | UserCreatedFolderTypes | 指定要创建的文件夹的类型。 |
 
 ### 返回值

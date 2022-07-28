@@ -1,14 +1,14 @@
 ---
 title: MDN
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classesmdn 内容类 定义项目 的一组属性是邮件传递通知 MDN 消息
+description: 获取 urncontent-classesmdn 内容类 它为作为邮件传递通知 MDN 消息的项目 定义一组属性
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/mdn/
 ---
 ## ContentClassType.MDN property
 
-获取 urn:content-classes:mdn 内容类 定义项目 的一组属性是邮件传递通知 (MDN) 消息。
+获取 urn:content-classes:mdn 内容类 ，它为作为邮件传递通知 (MDN) 消息的项目 定义一组属性。
 
 ```csharp
 public static ContentClassType MDN { get; }

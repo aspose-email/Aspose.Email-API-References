@@ -1,14 +1,14 @@
 ---
 title: RtfSyncBodyCount
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_RTF_SYNC_BODY_COUNT
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_RTF_SYNC_BODY_COUNT
 type: docs
 weight: 16380
 url: /zh/net/aspose.email.mapi/knownpropertylist/rtfsyncbodycount/
 ---
 ## KnownPropertyList.RtfSyncBodyCount field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_RTF_SYNC_BODY_COUNT
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_RTF_SYNC_BODY_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RtfSyncBodyCount;

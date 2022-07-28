@@ -1,14 +1,14 @@
 ---
 title: AppointmentLoadOptions
 second_title: Aspose.Email for .NET API 参考
-description: 表示约会加载选项
+description: 代表约会加载选项
 type: docs
 weight: 500
 url: /zh/net/aspose.email.calendar/appointmentloadoptions/
 ---
 ## AppointmentLoadOptions class
 
-表示约会加载选项
+代表约会加载选项
 
 ```csharp
 public class AppointmentLoadOptions
@@ -18,15 +18,15 @@ public class AppointmentLoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AppointmentLoadOptions](appointmentloadoptions)() | 初始化一个新的实例 [`AppointmentLoadOptions`](../appointmentloadoptions) 班级 |
+| [AppointmentLoadOptions](appointmentloadoptions)() | 初始化[`AppointmentLoadOptions`](../appointmentloadoptions) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [ApplyLocalTZ](../../aspose.email.calendar/appointmentloadoptions/applylocaltz) { get; set; } | 将时间转换为本地时区 |
-| [DetectEncoding](../../aspose.email.calendar/appointmentloadoptions/detectencoding) { get; set; } | 通过分析其字节顺序标记（BOM）确定数据编码 |
-| [EventIndex](../../aspose.email.calendar/appointmentloadoptions/eventindex) { get; set; } | 在单个 ics 文件中有多个事件的情况下确定 VEVENT 索引。 在 CalendarReader[`CalendarReader`](../calendarreader)读取多个事件时的起始 VEVENT。 |
+| [DetectEncoding](../../aspose.email.calendar/appointmentloadoptions/detectencoding) { get; set; } | 通过分析其字节顺序标记 (BOM) 确定数据编码 |
+| [EventIndex](../../aspose.email.calendar/appointmentloadoptions/eventindex) { get; set; } | 在单个 ics 文件中有多个事件的情况下确定 VEVENT 索引。 在 CalendarReader 读取多个事件的情况下的起始 VEVENT[`CalendarReader`](../calendarreader). |
 | [IgnoreSmtpAddressCheck](../../aspose.email.calendar/appointmentloadoptions/ignoresmtpaddresscheck) { get; set; } | 定义是否跳过 SMTP 地址验证。 |
 
 ### 也可以看看

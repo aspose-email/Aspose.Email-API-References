@@ -1,14 +1,14 @@
 ---
 title: RuleState
 second_title: Aspose.Email for .NET API 参考
-description: 包含指定规则状态的标志 区域服务器端规则属性 规范名称PidTagRuleState 备用名称PR_RULE_STATE ptagRuleState
+description: 包含指定规则状态的标志 区域服务器端规则属性 规范名称PidTagRuleState 备用名称PR_RULE_STATEptagRuleState
 type: docs
 weight: 16650
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulestate/
 ---
 ## KnownPropertyList.RuleState field
 
-包含指定规则状态的标志。 区域:服务器端规则属性 规范名称:PidTagRuleState 备用名称:PR_RULE_STATE, ptagRuleState
+包含指定规则状态的标志。 区域：服务器端规则属性 规范名称：PidTagRuleState 备用名称：PR_RULE_STATE、ptagRuleState
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleState;

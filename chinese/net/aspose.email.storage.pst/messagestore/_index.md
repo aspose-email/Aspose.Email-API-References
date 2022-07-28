@@ -3,7 +3,7 @@ title: MessageStore
 second_title: Aspose.Email for .NET API 参考
 description: 消息存储是 PST 的根 大致相当于邮箱的顶部
 type: docs
-weight: 20230
+weight: 20280
 url: /zh/net/aspose.email.storage.pst/messagestore/
 ---
 ## MessageStore class
@@ -28,7 +28,7 @@ public class MessageStore
 | --- | --- |
 | [ChangeDisplayName](../../aspose.email.storage.pst/messagestore/changedisplayname)(string) | 更改 pst 显示名称。 |
 | [ChangePassword](../../aspose.email.storage.pst/messagestore/changepassword)(string) | 设置密码。 |
-| [IsPasswordValid](../../aspose.email.storage.pst/messagestore/ispasswordvalid)(string) | 确定指定的字符串是否是有效的存储密码。 |
+| [IsPasswordValid](../../aspose.email.storage.pst/messagestore/ispasswordvalid)(string) | 确定指定的字符串是否是存储的有效密码。 |
 | [SetProperty](../../aspose.email.storage.pst/messagestore/setproperty)(MapiProperty) | 设置属性。 |
 
 ### 也可以看看

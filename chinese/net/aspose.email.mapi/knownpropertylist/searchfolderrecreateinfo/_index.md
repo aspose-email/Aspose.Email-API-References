@@ -1,14 +1,14 @@
 ---
 title: SearchFolderRecreateInfo
 second_title: Aspose.Email for .NET API 参考
-description: 此属性不可用 区域搜索 规范名称PidTagSearchFolderRecreateInfo 替代名称PR_WB_SF_RECREATE_INFO
+description: 不得使用此属性 区域Search 规范名称PidTagSearchFolderRecreateInfo 替代名称PR_WB_SF_RECREATE_INFO
 type: docs
 weight: 16990
 url: /zh/net/aspose.email.mapi/knownpropertylist/searchfolderrecreateinfo/
 ---
 ## KnownPropertyList.SearchFolderRecreateInfo field
 
-此属性不可用。 区域:搜索 规范名称:PidTagSearchFolderRecreateInfo 替代名称:PR_WB_SF_RECREATE_INFO
+不得使用此属性。 区域：Search 规范名称：PidTagSearchFolderRecreateInfo 替代名称：PR_WB_SF_RECREATE_INFO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderRecreateInfo;

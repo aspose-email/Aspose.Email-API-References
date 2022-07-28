@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaAdminForward
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_DXA_ADMIN_FORWARD
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_DXA_ADMIN_FORWARD
 type: docs
 weight: 5600
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabdxaadminforward/
 ---
 ## KnownPropertyList.EmsAbDxaAdminForward field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_DXA_ADMIN_FORWARD
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_DXA_ADMIN_FORWARD
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaAdminForward;

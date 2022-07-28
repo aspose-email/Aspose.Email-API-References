@@ -1,14 +1,14 @@
 ---
 title: NameEncoding
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置附件名称的编码
+description: 获取或设置附件名称 的编码
 type: docs
 weight: 70
 url: /zh/net/aspose.email/attachment/nameencoding/
 ---
 ## Attachment.NameEncoding property
 
-获取或设置附件名称的编码
+获取或设置附件名称 的编码
 
 ```csharp
 public Encoding NameEncoding { get; set; }

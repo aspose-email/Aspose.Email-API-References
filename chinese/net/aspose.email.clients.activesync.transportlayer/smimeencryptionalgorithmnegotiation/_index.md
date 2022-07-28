@@ -18,8 +18,8 @@ public enum SMIMEEncryptionAlgorithmNegotiation
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| DoNotNegotiate | `0` | 不要协商。 |
-| NegotiateStrong | `1` | 协商一个强算法。 |
+| DoNotNegotiate | `0` | 不要谈判。 |
+| NegotiateStrong | `1` | 协商一个强大的算法。 |
 | NegotiateAny | `2` | 协商任何算法。 |
 
 ### 也可以看看

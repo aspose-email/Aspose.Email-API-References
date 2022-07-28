@@ -1,14 +1,14 @@
 ---
 title: DavId
 second_title: Aspose.Email for .NET API 参考
-description: 指定日历项目的唯一 ID 区域通用 规范名称PidNameDavId 备用名称DAVid
+description: 指定日历项目的唯一 ID 区域Common 规范名称PidNameDavId 备用名称DAVid
 type: docs
 weight: 3640
 url: /zh/net/aspose.email.mapi/knownpropertylist/david/
 ---
 ## KnownPropertyList.DavId field
 
-指定日历项目的唯一 ID。 区域:通用 规范名称:PidNameDavId 备用名称:DAV:id
+指定日历项目的唯一 ID。 区域：Common 规范名称：PidNameDavId 备用名称：DAV:id
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DavId;

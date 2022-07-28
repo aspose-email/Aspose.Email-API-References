@@ -1,14 +1,14 @@
 ---
 title: ComputerNetworkName
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人计算机连接的网络名称
+description: 指定联系人的计算机连接到的网络 的名称
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/computernetworkname/
 ---
 ## MapiContactPersonalInfoPropertySet.ComputerNetworkName property
 
-指定联系人计算机连接的网络名称
+指定联系人的计算机连接到的网络 的名称
 
 ```csharp
 public string ComputerNetworkName { get; set; }

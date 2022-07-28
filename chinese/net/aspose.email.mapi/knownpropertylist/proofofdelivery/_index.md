@@ -1,14 +1,14 @@
 ---
 title: ProofOfDelivery
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROOF_OF_DELIVERY
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_PROOF_OF_DELIVERY
 type: docs
 weight: 15000
 url: /zh/net/aspose.email.mapi/knownpropertylist/proofofdelivery/
 ---
 ## KnownPropertyList.ProofOfDelivery field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROOF_OF_DELIVERY
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_PROOF_OF_DELIVERY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProofOfDelivery;

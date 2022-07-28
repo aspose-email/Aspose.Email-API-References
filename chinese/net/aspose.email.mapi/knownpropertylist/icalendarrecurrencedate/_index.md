@@ -1,14 +1,14 @@
 ---
 title: ICalendarRecurrenceDate
 second_title: Aspose.Email for .NET API 参考
-description: 标识重复约会实例的数组 区域通用 规范名称PidNameICalendarRecurrenceDate 备用名称urnschemascalendarrdate
+description: 标识重复约会实例的数组 区域Common 规范名称PidNameICalendarRecurrenceDate 备用名称urnschemascalendarrdate
 type: docs
 weight: 11160
 url: /zh/net/aspose.email.mapi/knownpropertylist/icalendarrecurrencedate/
 ---
 ## KnownPropertyList.ICalendarRecurrenceDate field
 
-标识重复约会实例的数组。 区域:通用 规范名称:PidNameICalendarRecurrenceDate 备用名称:urn:schemas:calendar:rdate
+标识重复约会实例的数组。 区域：Common 规范名称：PidNameICalendarRecurrenceDate 备用名称：urn:schemas:calendar:rdate
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ICalendarRecurrenceDate;

@@ -1,14 +1,14 @@
 ---
 title: AlternateViewRemovedEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: 为AlternateViewRemoved事件提供数据
+description: 为AlternateViewRemoved事件.
 type: docs
 weight: 50
 url: /zh/net/aspose.email/alternateviewremovedeventargs/
 ---
 ## AlternateViewRemovedEventArgs class
 
-为AlternateViewRemoved事件提供数据。
+为AlternateViewRemoved事件.
 
 ```csharp
 public class AlternateViewRemovedEventArgs : EventArgs
@@ -18,7 +18,7 @@ public class AlternateViewRemovedEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AlternateViewRemovedEventArgs](alternateviewremovedeventargs)(AlternateView) | 初始化[`AlternateViewRemovedEventArgs`](../alternateviewremovedeventargs)类的新实例。 |
+| [AlternateViewRemovedEventArgs](alternateviewremovedeventargs)(AlternateView) | 初始化[`AlternateViewRemovedEventArgs`](../alternateviewremovedeventargs)类. |
 
 ## 特性
 

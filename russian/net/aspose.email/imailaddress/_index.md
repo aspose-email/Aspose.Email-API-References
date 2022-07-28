@@ -1,14 +1,14 @@
 ---
 title: IMailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет интерфейс общего почтового адреса
+description: Представляет общий почтовый адрес interface
 type: docs
 weight: 17580
 url: /ru/net/aspose.email/imailaddress/
 ---
 ## IMailAddress interface
 
-Представляет интерфейс общего почтового адреса
+Представляет общий почтовый адрес interface
 
 ```csharp
 public interface IMailAddress

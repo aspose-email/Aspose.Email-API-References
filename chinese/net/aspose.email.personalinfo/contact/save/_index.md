@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API 参考
-description: 将此MapiContactaspose.email.mapi/mapicontact保存到具有 vCard 格式的给定流中 支持的 vCard 版本为 2.1
+description: 保存这个MapiContactaspose.email.mapi/mapicontact进入具有 vCard 格式的给定流 支持的 vCard 版本是 2.1
 type: docs
 weight: 410
 url: /zh/net/aspose.email.personalinfo/contact/save/
 ---
 ## Save(Stream) {#save}
 
-将此[`MapiContact`](../../../aspose.email.mapi/mapicontact)保存到具有 vCard 格式的给定流中。 支持的 vCard 版本为 2.1
+保存这个[`MapiContact`](../../../aspose.email.mapi/mapicontact)进入具有 vCard 格式的给定流。 支持的 vCard 版本是 2.1
 
 ```csharp
 public void Save(Stream stream)
@@ -16,14 +16,14 @@ public void Save(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要保存到 |
+| stream | Stream | 要保存到的流 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*不支持写入 |
+| ArgumentNullException | *stream*是`无效的` |
+| NotSupportedException | *stream*不支持写 |
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public void Save(Stream stream)
 
 ## Save(string) {#save_3}
 
-使用默认选项将此[`MapiContact`](../../../aspose.email.mapi/mapicontact)保存到 vCard 文件。 支持的 vCard 版本为 2.1
+保存这个[`MapiContact`](../../../aspose.email.mapi/mapicontact)到带有默认选项的 vCard 文件。 支持的 vCard 版本是 2.1
 
 ```csharp
 public void Save(string filePath)
@@ -49,7 +49,7 @@ public void Save(string filePath)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *filePath*is` null` 或` 空` |
+| ArgumentException | *filePath*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -61,7 +61,7 @@ public void Save(string filePath)
 
 ## Save(string, ContactSaveOptions) {#save_5}
 
-使用指定的保存选项将此[`MapiContact`](../../../aspose.email.mapi/mapicontact)保存到文件中。 支持的保存选项是[`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions)
+保存这个[`MapiContact`](../../../aspose.email.mapi/mapicontact)使用指定的保存选项进入文件。 支持的保存选项是[`VCardSaveOptions`](../../../aspose.email.personalinfo.vcard/vcardsaveoptions)
 
 ```csharp
 public void Save(string filePath, ContactSaveOptions saveOptions)
@@ -69,15 +69,15 @@ public void Save(string filePath, ContactSaveOptions saveOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | A vCard 文件名 |
+| filePath | String | vCard 文件名 |
 | saveOptions | ContactSaveOptions | 保存选项 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *filePath*是` null` 或` 空` |
-| ArgumentNullException | *saveOptions*is` null` |
+| ArgumentException | *filePath*是`无效的`或者`空的` |
+| ArgumentNullException | *saveOptions*是`无效的` |
 | NotSupportedException | 不支持某些保存选项 |
 
 ### 也可以看看
@@ -91,7 +91,7 @@ public void Save(string filePath, ContactSaveOptions saveOptions)
 
 ## Save(string, ContactSaveFormat) {#save_4}
 
-将此[`MapiContact`](../../../aspose.email.mapi/mapicontact)保存到使用默认选项的格式的指定文件中。 支持的保存格式是 vCard。
+保存这个[`MapiContact`](../../../aspose.email.mapi/mapicontact)以使用默认选项的格式保存到指定文件。 支持的保存格式为 vCard。
 
 ```csharp
 public void Save(string filePath, ContactSaveFormat saveFormat)
@@ -100,7 +100,7 @@ public void Save(string filePath, ContactSaveFormat saveFormat)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | vCard 文件名 |
-| saveFormat | ContactSaveFormat | 保存格式 |
+| saveFormat | ContactSaveFormat | 一种保存格式 |
 
 ### 也可以看看
 
@@ -113,7 +113,7 @@ public void Save(string filePath, ContactSaveFormat saveFormat)
 
 ## Save(Stream, ContactSaveFormat) {#save_1}
 
-将此[`Contact`](../../contact)以使用默认选项的格式保存到给定的流中。
+保存这个[`Contact`](../../contact)使用默认选项的格式到给定的流。
 
 ```csharp
 public void Save(Stream stream, ContactSaveFormat saveFormat)
@@ -122,7 +122,7 @@ public void Save(Stream stream, ContactSaveFormat saveFormat)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 要保存到的流 |
-| saveFormat | ContactSaveFormat | 保存格式 |
+| saveFormat | ContactSaveFormat | 一种保存格式 |
 
 ### 也可以看看
 
@@ -135,7 +135,7 @@ public void Save(Stream stream, ContactSaveFormat saveFormat)
 
 ## Save(Stream, ContactSaveOptions) {#save_2}
 
-使用指定的保存选项将此[`Contact`](../../contact)保存到给定的流。
+保存这个[`Contact`](../../contact)使用指定的保存选项到给定的流。
 
 ```csharp
 public void Save(Stream stream, ContactSaveOptions saveOptions)

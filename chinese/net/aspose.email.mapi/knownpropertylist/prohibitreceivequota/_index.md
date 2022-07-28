@@ -1,14 +1,14 @@
 ---
 title: ProhibitReceiveQuota
 second_title: Aspose.Email for .NET API 参考
-description: 允许用户在其邮箱中累积的最大大小以千字节为单位然后不会再向其邮箱发送电子邮件 区域Exchange 管理 规范名称PidTagProhibitReceiveQuota 替代名称PR_PROHIBIT_RECEIVE_QUOTA ptagProhibitReceiveQuota
+description: 允许用户在其邮箱中累积的最大大小以千字节为单位然后不再有电子邮件发送到他们的邮箱 区域Exchange Administrative 规范名称PidTagProhibitReceiveQuota 备用名称PR_PROHIBIT_RECEIVE_QUOTAptagProhibitReceiveQuota
 type: docs
 weight: 14970
 url: /zh/net/aspose.email.mapi/knownpropertylist/prohibitreceivequota/
 ---
 ## KnownPropertyList.ProhibitReceiveQuota field
 
-允许用户在其邮箱中累积的最大大小（以千字节为单位），然后不会再向其邮箱发送电子邮件。 区域:Exchange 管理 规范名称:PidTagProhibitReceiveQuota 替代名称:PR_PROHIBIT_RECEIVE_QUOTA, ptagProhibitReceiveQuota
+允许用户在其邮箱中累积的最大大小（以千字节为单位），然后不再有电子邮件发送到他们的邮箱。 区域：Exchange Administrative 规范名称：PidTagProhibitReceiveQuota 备用名称：PR_PROHIBIT_RECEIVE_QUOTA、ptagProhibitReceiveQuota
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProhibitReceiveQuota;

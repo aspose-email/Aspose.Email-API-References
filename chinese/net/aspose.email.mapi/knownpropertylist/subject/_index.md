@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的主题 区域普通 规范名称PidNameSubject 备用名称urnschemas-microsoft-comofficeofficeSubject
+description: 指定附加到文档对象的文件的主题 区域Common 规范名称PidNameSubject 备用名称urnschemas-microsoft-comofficeofficeSubject
 type: docs
 weight: 18340
 url: /zh/net/aspose.email.mapi/knownpropertylist/subject/
 ---
 ## KnownPropertyList.Subject field
 
-指定附加到 Document 对象的文件的主题。 区域：普通 规范名称：PidNameSubject 备用名称：urn:schemas-microsoft-com:office:office#Subject
+指定附加到文档对象的文件的主题。 区域：Common 规范名称：PidNameSubject 备用名称：urn:schemas-microsoft-com:office:office#Subject
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Subject;

@@ -1,14 +1,14 @@
 ---
 title: EndDate
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 定义项目重复模式的结束日期
+description: 获取或设置定义项目重复模式的结束日期
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapicalendarrecurrencepattern/enddate/
 ---
 ## MapiCalendarRecurrencePattern.EndDate property
 
-获取或设置 定义项目重复模式的结束日期。
+获取或设置定义项目重复模式的结束日期。
 
 ```csharp
 public DateTime EndDate { get; set; }

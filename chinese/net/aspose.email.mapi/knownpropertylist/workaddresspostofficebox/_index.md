@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/workaddresspostofficebox/
 ---
 ## KnownPropertyList.WorkAddressPostOfficeBox field
 
-指定联系人工作地址的邮政信箱部分。 区域:联系人属性 规范名称:PidLidWorkAddressPostOfficeBox 替代名称:dispidWorkAddressPostOfficeBox
+指定联系人工作地址的邮政信箱部分。 区域：联系人属性 规范名称：PidLidWorkAddressPostOfficeBox 替代名称：dispidWorkAddressPostOfficeBox
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressPostOfficeBox;

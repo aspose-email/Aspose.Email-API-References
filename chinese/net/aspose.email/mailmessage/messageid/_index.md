@@ -1,14 +1,14 @@
 ---
 title: MessageId
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置消息ID
+description: 获取或设置消息id
 type: docs
 weight: 220
 url: /zh/net/aspose.email/mailmessage/messageid/
 ---
 ## MailMessage.MessageId property
 
-获取或设置消息ID
+获取或设置消息id
 
 ```csharp
 public virtual string MessageId { get; set; }

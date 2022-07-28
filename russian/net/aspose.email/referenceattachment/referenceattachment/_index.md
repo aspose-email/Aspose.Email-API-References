@@ -1,14 +1,14 @@
 ---
 title: ReferenceAttachment
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземплярReferenceAttachmentaspose.email/referenceattachment.
+description: Инициализирует новый экземплярReferenceAttachmentaspose.email/referenceattachment .
 type: docs
 weight: 10
 url: /ru/net/aspose.email/referenceattachment/referenceattachment/
 ---
 ## ReferenceAttachment() {#constructor}
 
-Инициализирует новый экземпляр[`ReferenceAttachment`](../../referenceattachment).
+Инициализирует новый экземпляр[`ReferenceAttachment`](../../referenceattachment) .
 
 ```csharp
 public ReferenceAttachment()
@@ -24,7 +24,7 @@ public ReferenceAttachment()
 
 ## ReferenceAttachment(Uri) {#constructor_2}
 
-Инициализирует новый экземпляр[`ReferenceAttachment`](../../referenceattachment).
+Инициализирует новый экземпляр[`ReferenceAttachment`](../../referenceattachment) .
 
 ```csharp
 public ReferenceAttachment(Uri uri)
@@ -44,7 +44,7 @@ public ReferenceAttachment(Uri uri)
 
 ## ReferenceAttachment(string) {#constructor_1}
 
-Инициализирует новый экземпляр[`ReferenceAttachment`](../../referenceattachment).
+Инициализирует новый экземпляр[`ReferenceAttachment`](../../referenceattachment) .
 
 ```csharp
 public ReferenceAttachment(string uri)
@@ -52,7 +52,7 @@ public ReferenceAttachment(string uri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uri | String | строка URL |
+| uri | String | URL-адрес строки |
 
 ### Смотрите также
 

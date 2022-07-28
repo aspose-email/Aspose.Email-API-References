@@ -18,8 +18,8 @@ public class UnifiedMessagingConfiguration
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PlayOnPhoneDialString](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphonedialstring) { get; } | Play On Phone 拨号字符串 |
-| [PlayOnPhoneEnabled](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphoneenabled) { get; } | 表示是否启用手机播放 |
+| [PlayOnPhoneDialString](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphonedialstring) { get; } | 在电话上播放拨号字符串 |
+| [PlayOnPhoneEnabled](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphoneenabled) { get; } | 表示是否启用在手机上播放 |
 | [UMEnabled](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/umenabled) { get; } | UMEnabled 确定邮箱是否启用统一消息。 |
 
 ## 方法

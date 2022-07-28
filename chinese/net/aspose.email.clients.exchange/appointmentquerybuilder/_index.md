@@ -18,7 +18,7 @@ public sealed class AppointmentQueryBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [End](../../aspose.email.clients.exchange/appointmentquerybuilder/end) { get; } | 获取允许查找具有指定 End 字段的项目的字段。 |
+| [End](../../aspose.email.clients.exchange/appointmentquerybuilder/end) { get; } | 获取允许查找具有指定结束字段的项目的字段。 |
 | [EndTimeZoneId](../../aspose.email.clients.exchange/appointmentquerybuilder/endtimezoneid) { get; } | 获取允许查找具有指定 EndTimeZoneId 的项目的字段。 |
 | [IsAllDayEvent](../../aspose.email.clients.exchange/appointmentquerybuilder/isalldayevent) { get; } | 获取允许查找 AllDayEvent 项目的字段。 |
 | [IsCancelled](../../aspose.email.clients.exchange/appointmentquerybuilder/iscancelled) { get; } | 获取允许查找已取消项目的字段。 |

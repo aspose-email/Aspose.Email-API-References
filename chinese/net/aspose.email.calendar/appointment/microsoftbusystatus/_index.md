@@ -3,7 +3,7 @@ title: MicrosoftBusyStatus
 second_title: Aspose.Email for .NET API 参考
 description: 指定约会的忙碌状态
 type: docs
-weight: 150
+weight: 160
 url: /zh/net/aspose.email.calendar/appointment/microsoftbusystatus/
 ---
 ## Appointment.MicrosoftBusyStatus property

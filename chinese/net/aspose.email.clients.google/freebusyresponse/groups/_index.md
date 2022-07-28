@@ -1,14 +1,14 @@
 ---
 title: Groups
 second_title: Aspose.Email for .NET API 参考
-description: 扩展组
+description: 组的扩展
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.google/freebusyresponse/groups/
 ---
 ## FreebusyResponse.Groups property
 
-扩展组。
+组的扩展。
 
 ```csharp
 public Dictionary<string, FreebusyGroupInfo> Groups { get; }

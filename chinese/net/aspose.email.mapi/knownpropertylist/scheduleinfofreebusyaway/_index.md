@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoFreeBusyAway
 second_title: Aspose.Email for .NET API 参考
-description: 指定空闲/忙碌状态设置为 OOF 值的时间 区域忙/闲属性 规范名称PidTagScheduleInfoFreeBusyAway 替代名称PR_SCHDINFO_FREEBUSY_OOF
+description: 指定空闲/忙碌状态设置为 OOF 的时间 区域空闲/忙碌属性 规范名称PidTagScheduleInfoFreeBusyAway 替代名称PR_SCHDINFO_FREEBUSY_OOF
 type: docs
 weight: 16820
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusyaway/
 ---
 ## KnownPropertyList.ScheduleInfoFreeBusyAway field
 
-指定空闲/忙碌状态设置为 OOF 值的时间。 区域:忙/闲属性 规范名称:PidTagScheduleInfoFreeBusyAway 替代名称:PR_SCHDINFO_FREEBUSY_OOF
+指定空闲/忙碌状态设置为 OOF 的时间。 区域：空闲/忙碌属性 规范名称：PidTagScheduleInfoFreeBusyAway 替代名称：PR_SCHDINFO_FREEBUSY_OOF
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoFreeBusyAway;

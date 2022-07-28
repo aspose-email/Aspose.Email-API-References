@@ -1,14 +1,14 @@
 ---
 title: AIMValue
 second_title: Aspose.Email for .NET API 参考
-description: AIM 类别的字符串值
+description: AIM类别的字符串值
 type: docs
 weight: 190
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/aimvalue/
 ---
 ## InstantMessengerCategory.AIMValue field
 
-'AIM' 类别的字符串值
+“AIM”类别的字符串值
 
 ```csharp
 public const string AIMValue;

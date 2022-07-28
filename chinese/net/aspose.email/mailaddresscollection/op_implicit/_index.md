@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 执行从MailAddressaspose.email/mailaddress到MailAddressCollectionaspose.email/mailaddresscollection 的隐式转换.
+description: 从MailAddressaspose.email/mailaddress至MailAddressCollectionaspose.email/mailaddresscollection.
 type: docs
 weight: 60
 url: /zh/net/aspose.email/mailaddresscollection/op_implicit/
 ---
 ## implicit operator {#op_implicit}
 
-执行从[`MailAddress`](../../mailaddress)到[`MailAddressCollection`](../../mailaddresscollection) 的隐式转换.
+从[`MailAddress`](../../mailaddress)至[`MailAddressCollection`](../../mailaddresscollection).
 
 ```csharp
 public static implicit operator MailAddressCollection(MailAddress address)
@@ -33,7 +33,7 @@ public static implicit operator MailAddressCollection(MailAddress address)
 
 ## implicit operator {#op_implicit_1}
 
-执行从String到[`MailAddressCollection`](../../mailaddresscollection)的隐式转换。
+从String至[`MailAddressCollection`](../../mailaddresscollection).
 
 ```csharp
 public static implicit operator MailAddressCollection(string addresses)

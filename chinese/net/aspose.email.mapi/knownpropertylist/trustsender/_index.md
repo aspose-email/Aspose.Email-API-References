@@ -1,14 +1,14 @@
 ---
 title: TrustSender
 second_title: Aspose.Email for .NET API 参考
-description: 指定关联的消息是否通过受信任的传输通道传递 区域MapiNonTransmittable 规范名称PidTagTrustSender 备用名称PR_TRUST_SENDER ptagTrustSender
+description: 指定关联的消息是否通过受信任的传输通道传递 区域MapiNonTransmittable 规范名称PidTagTrustSender 替代名称PR_TRUST_SENDERptagTrustSender
 type: docs
 weight: 19140
 url: /zh/net/aspose.email.mapi/knownpropertylist/trustsender/
 ---
 ## KnownPropertyList.TrustSender field
 
-指定关联的消息是否通过受信任的传输通道传递。 区域:MapiNonTransmittable 规范名称:PidTagTrustSender 备用名称:PR_TRUST_SENDER, ptagTrustSender
+指定关联的消息是否通过受信任的传输通道传递。 区域：MapiNonTransmittable 规范名称：PidTagTrustSender 替代名称：PR_TRUST_SENDER、ptagTrustSender
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TrustSender;

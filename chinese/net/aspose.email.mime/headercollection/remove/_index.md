@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Email for .NET API 参考
-description: 通过给定的标头名称从集合中删除标头
+description: 按给定的标头名称从集合中删除标头
 type: docs
 weight: 190
 url: /zh/net/aspose.email.mime/headercollection/remove/
 ---
 ## HeaderCollection.Remove method
 
-通过给定的标头名称从集合中删除标头。
+按给定的标头名称从集合中删除标头。
 
 ```csharp
 public bool Remove(string item)
@@ -16,7 +16,7 @@ public bool Remove(string item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | String | 标头名称。 |
+| item | String | 标题名称。 |
 
 ### 返回值
 

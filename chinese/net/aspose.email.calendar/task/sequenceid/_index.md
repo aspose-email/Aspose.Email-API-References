@@ -16,7 +16,7 @@ public int SequenceId { get; set; }
 
 ### 适当的价值
 
-序列 ID。
+序列号。
 
 ### 也可以看看
 

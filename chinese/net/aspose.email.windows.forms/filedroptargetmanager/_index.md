@@ -3,7 +3,7 @@ title: FileDropTargetManager
 second_title: Aspose.Email for .NET API 参考
 description: 表示文件放置目标的管理器类
 type: docs
-weight: 20870
+weight: 20920
 url: /zh/net/aspose.email.windows.forms/filedroptargetmanager/
 ---
 ## FileDropTargetManager class
@@ -18,7 +18,7 @@ public sealed class FileDropTargetManager : IDropTarget
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileDropTargetManager](filedroptargetmanager)(Control) | 初始化[`FileDropTargetManager`](../filedroptargetmanager)类的新实例。 |
+| [FileDropTargetManager](filedroptargetmanager)(Control) | 初始化[`FileDropTargetManager`](../filedroptargetmanager)类. |
 
 ## 特性
 

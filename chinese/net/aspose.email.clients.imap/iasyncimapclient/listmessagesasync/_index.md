@@ -1,14 +1,14 @@
 ---
 title: ListMessagesAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定文件夹中的消息列表
+description: 获取指定文件夹中的邮件列表
 type: docs
 weight: 240
 url: /zh/net/aspose.email.clients.imap/iasyncimapclient/listmessagesasync/
 ---
 ## ListMessagesAsync(string, long, bool, IEnumerable&lt;string&gt;, IConnection, CancellationToken) {#listmessagesasync_1}
 
-获取指定文件夹中的消息列表
+获取指定文件夹中的邮件列表
 
 ```csharp
 public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName = null, 
@@ -19,16 +19,16 @@ public Task<ImapMessageInfoCollection> ListMessagesAsync(string folderName = nul
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| connection | String | Connection到服务器 |
-| folderName | Int64 | 文件夹以检索消息。 |
-| modificationSequence | Boolean | 修改序列 |
+| connection | String | 连接到服务器 |
+| folderName | Int64 | 用于检索消息的文件夹。 |
+| modificationSequence | Boolean | 修改顺序 |
 | retrieveRecursively | IEnumerable`1 | 指示是否必须递归检索消息。 |
 | messageExtraFields | IConnection | 将请求消息的额外参数列表。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

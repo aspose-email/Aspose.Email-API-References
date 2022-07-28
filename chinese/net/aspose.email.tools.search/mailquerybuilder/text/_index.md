@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Aspose.Email for .NET API 参考
-description: 获取允许在邮件头主题发件人收件人抄送和正文中查找包含指定字符串的邮件的字段
+description: 获取允许在邮件的标题主题发件人收件人抄送和正文中查找包含指定字符串的邮件的字段
 type: docs
 weight: 100
 url: /zh/net/aspose.email.tools.search/mailquerybuilder/text/
 ---
 ## MailQueryBuilder.Text property
 
-获取允许在邮件头（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。
+获取允许在邮件的标题（主题、发件人、收件人、抄送）和正文中查找包含指定字符串的邮件的字段。
 
 ```csharp
 public StringComparisonField Text { get; }
@@ -16,7 +16,7 @@ public StringComparisonField Text { get; }
 
 ### 适当的价值
 
-[`DateComparisonField`](../../datecomparisonfield)表示文本标题或正文搜索字段。
+这[`DateComparisonField`](../../datecomparisonfield)表示文本标题或正文搜索字段。
 
 ### 也可以看看
 

@@ -39,7 +39,7 @@ public void RenameFolder(string folderName, string newFolderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹为重命名 |
+| folderName | String | 要重命名的文件夹 |
 | newFolderName | String | 新文件夹名称 |
 
 ### 也可以看看

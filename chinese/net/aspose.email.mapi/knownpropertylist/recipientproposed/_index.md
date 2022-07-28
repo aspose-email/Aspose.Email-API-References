@@ -1,14 +1,14 @@
 ---
 title: RecipientProposed
 second_title: Aspose.Email for .NET API 参考
-description: 表示与会者提出了新的日期和/或时间 区域TransportRecipient 规范名称PidTagRecipientProposed 替代名称PR_RECIPIENT_PROPOSED ptagRecipientProposed
+description: 表示与会者提出了新的日期和/或时间 区域TransportRecipient 规范名称PidTagRecipientProposed 替代名称PR_RECIPIENT_PROPOSEDptagRecipientProposed
 type: docs
 weight: 15490
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipientproposed/
 ---
 ## KnownPropertyList.RecipientProposed field
 
-表示与会者提出了新的日期和/或时间。 区域:TransportRecipient 规范名称:PidTagRecipientProposed 替代名称:PR_RECIPIENT_PROPOSED, ptagRecipientProposed
+表示与会者提出了新的日期和/或时间。 区域：TransportRecipient 规范名称：PidTagRecipientProposed 替代名称：PR_RECIPIENT_PROPOSED、ptagRecipientProposed
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientProposed;

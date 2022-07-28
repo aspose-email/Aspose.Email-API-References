@@ -1,14 +1,14 @@
 ---
 title: GetHtmlBodyText
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает HTML-текст сообщения в виде простого текста. Этот метод анализирует свойство HtmlBody и возвращает текстовое содержимое без учета разметки html.
+description: Получает HTML-текст сообщения в виде простого текста. Этот метод анализирует свойство HtmlBody и возвращает содержимое в виде обычного текста игнорируя разметку html.
 type: docs
 weight: 500
 url: /ru/net/aspose.email/mailmessage/gethtmlbodytext/
 ---
 ## GetHtmlBodyText(bool) {#gethtmlbodytext_1}
 
-Получает HTML-текст сообщения в виде простого текста. Этот метод анализирует свойство HtmlBody и возвращает текстовое содержимое без учета разметки html.
+Получает HTML-текст сообщения в виде простого текста. Этот метод анализирует свойство HtmlBody и возвращает содержимое в виде обычного текста, игнорируя разметку html.
 
 ```csharp
 public virtual string GetHtmlBodyText(bool showUrl)
@@ -28,7 +28,7 @@ public virtual string GetHtmlBodyText(bool showUrl)
 
 ## GetHtmlBodyText(HyperlinkRenderingCallback) {#gethtmlbodytext}
 
-Получает htmlbody сообщения в виде простого текста.
+Получает htmlbody сообщения в виде обычного текста.
 
 ```csharp
 public virtual string GetHtmlBodyText(HyperlinkRenderingCallback hyperlinkRenderingCallback)
@@ -36,11 +36,11 @@ public virtual string GetHtmlBodyText(HyperlinkRenderingCallback hyperlinkRender
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hyperlinkRenderingCallback | HyperlinkRenderingCallback | Ссылка на пользовательский метод для обработки рендеринга гиперссылки. |
+| hyperlinkRenderingCallback | HyperlinkRenderingCallback | Ссылка на пользовательский метод обработки гиперссылки. |
 
 ### Возвращаемое значение
 
-Строка результата пользовательской обработки рендеринга гиперссылки.
+Строка результата пользовательской обработки гиперссылки.
 
 ### Смотрите также
 

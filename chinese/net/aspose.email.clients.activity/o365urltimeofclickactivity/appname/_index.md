@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/o365urltimeofclickactivity/appname/
 ---
 ## O365URLTimeOfClickActivity.AppName property
 
-单击 URL 的 Office 365 服务（例如邮件）。 强制:是
+单击 URL 的 Office 365 服务（例如邮件）。 强制：是
 
 ```csharp
 public string AppName { get; set; }

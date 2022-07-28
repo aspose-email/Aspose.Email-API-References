@@ -1,14 +1,14 @@
 ---
 title: ReplyAllowed
 second_title: Aspose.Email for .NET API 参考
-description: 指定是否允许用户回复电子邮件 如果用户可以回复电子邮件消息则值为 TRUE否则错误
+description: 指定是否允许用户回复电子邮件消息 如果用户可以回复电子邮件消息则值为 TRUE否则该值为 TRUE否则FALSE.
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/replyallowed/
 ---
 ## RightsManagementLicense.ReplyAllowed property
 
-指定是否允许用户回复电子邮件。 如果用户可以回复电子邮件消息，则值为 TRUE；否则，错误。
+指定是否允许用户回复电子邮件消息。 如果用户可以回复电子邮件消息，则值为 TRUE；否则，该值为 TRUE。否则，FALSE.
 
 ```csharp
 public bool ReplyAllowed { get; set; }

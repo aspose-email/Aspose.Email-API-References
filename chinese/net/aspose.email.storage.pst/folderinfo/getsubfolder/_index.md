@@ -41,7 +41,7 @@ public FolderInfo GetSubFolder(string name, bool ignoreCase)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 子文件夹的名称。 |
-| ignoreCase | Boolean | 表示搜索在匹配文件夹名称时应忽略大小写。 |
+| ignoreCase | Boolean | 指示在匹配文件夹名称时搜索应忽略大小写。 |
 
 ### 返回值
 

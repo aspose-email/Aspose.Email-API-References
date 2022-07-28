@@ -1,14 +1,14 @@
 ---
 title: Action
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает назначение Action
+description: Получает или устанавливает встречу Action
 type: docs
 weight: 30
 url: /ru/net/aspose.email.calendar/appointmenticssaveoptions/action/
 ---
 ## AppointmentIcsSaveOptions.Action property
 
-Получает или устанавливает назначение Action
+Получает или устанавливает встречу Action
 
 ```csharp
 public AppointmentAction Action { get; set; }
@@ -18,7 +18,7 @@ public AppointmentAction Action { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *value*не определено в[`AppointmentAction`](../../appointmentaction) |
+| ArgumentException | *value* не определяется в[`AppointmentAction`](../../appointmentaction) |
 
 ### Смотрите также
 

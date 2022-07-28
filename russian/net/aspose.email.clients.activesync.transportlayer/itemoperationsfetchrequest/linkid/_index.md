@@ -1,14 +1,14 @@
 ---
 title: LinkId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает универсальный идентификатор ресурса URI который назначается сервером определенным ресурсам таким как Windows SharePoint Services или документы UNC. LinkId может использоваться для обозначения местоположения элемента.
+description: Указывает универсальный идентификатор ресурса URI который назначается сервером определенным ресурсам таким как Windows SharePoint Services или документы UNC. LinkId может использоваться для ссылки на расположение элемента.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/linkid/
 ---
 ## ItemOperationsFetchRequest.LinkId property
 
-Указывает универсальный идентификатор ресурса (URI), который назначается сервером определенным ресурсам, таким как Windows SharePoint Services или документы UNC. LinkId может использоваться для обозначения местоположения элемента.
+Указывает универсальный идентификатор ресурса (URI), который назначается сервером определенным ресурсам, таким как Windows SharePoint Services или документы UNC. LinkId может использоваться для ссылки на расположение элемента.
 
 ```csharp
 public string LinkId { get; set; }

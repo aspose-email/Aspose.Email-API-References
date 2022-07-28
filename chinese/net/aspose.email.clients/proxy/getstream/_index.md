@@ -1,14 +1,14 @@
 ---
 title: GetStream
 second_title: Aspose.Email for .NET API 参考
-description: 返回配置的网络流通过代理服务器将数据传输到所需的主机
+description: 返回配置的网络流以通过代理服务器将数据传输到所需的主机
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients/proxy/getstream/
 ---
 ## Proxy.GetStream method
 
-返回配置的网络流，通过代理服务器将数据传输到所需的主机。
+返回配置的网络流以通过代理服务器将数据传输到所需的主机。
 
 ```csharp
 public Stream GetStream(string address, int port)

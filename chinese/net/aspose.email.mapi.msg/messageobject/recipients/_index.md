@@ -1,14 +1,14 @@
 ---
 title: Recipients
 second_title: Aspose.Email for .NET API 参考
-description: 获取MessageObjectaspose.email.mapi.msg/messageobject的收件人
+description: 获取收件人MessageObjectaspose.email.mapi.msg/messageobject.
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi.msg/messageobject/recipients/
 ---
 ## MessageObject.Recipients property
 
-获取[`MessageObject`](../../messageobject)的收件人。
+获取收件人[`MessageObject`](../../messageobject).
 
 ```csharp
 public MessageObjectRecipientsCollection Recipients { get; }

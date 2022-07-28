@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API 参考
-description: 返回代表此实例的String
+description: 返回一个String代表这个实例
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/tostring/
 ---
 ## ExchangeAdvancedSyntaxMailQuery.ToString method
 
-返回代表此实例的String。
+返回一个String代表这个实例。
 
 ```csharp
 public override string ToString()

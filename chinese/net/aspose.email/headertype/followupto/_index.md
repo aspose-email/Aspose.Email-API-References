@@ -1,14 +1,14 @@
 ---
 title: FollowupTo
 second_title: Aspose.Email for .NET API 参考
-description: 在 Usenet 新闻中使用表示未来对一篇文章的讨论后续应该转到与回复文章不同的一组新闻组 最常见的用法是将一篇文章发布到多个新闻组而进一步的讨论只在其中一个新闻组中进行 在 RFC 10362.2.3 中定义未标准化用于电子邮件
+description: 在 Usenet 新闻中使用表示未来对一篇文章的讨论跟进应该转到与回复文章不同的一组新闻组 最常见的用法是将一篇文章发布到多个新闻组而进一步的讨论只在其中一个新闻组中进行 在 RFC 1036 2.2.3 中定义未标准化用于电子邮件
 type: docs
 weight: 100
 url: /zh/net/aspose.email/headertype/followupto/
 ---
 ## HeaderType.FollowupTo property
 
-在 Usenet 新闻中使用，表示未来对一篇文章的讨论（=后续）应该转到与回复文章不同的一组新闻组。 最常见的用法是将一篇文章发布到多个新闻组，而进一步的讨论只在其中一个新闻组中进行。 在 RFC 1036:2.2.3 中定义，未标准化用于电子邮件。
+在 Usenet 新闻中使用，表示未来对一篇文章的讨论（=跟进）应该转到与回复文章不同的一组新闻组。 最常见的用法是将一篇文章发布到多个新闻组，而进一步的讨论只在其中一个新闻组中进行。 在 RFC 1036: 2.2.3 中定义，未标准化用于电子邮件。
 
 ```csharp
 public static HeaderType FollowupTo { get; }

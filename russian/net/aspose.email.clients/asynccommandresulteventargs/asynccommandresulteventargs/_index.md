@@ -1,14 +1,14 @@
 ---
 title: AsyncCommandResultEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsyncCommandResultEventArgsaspose.email.clients/asynccommandresulteventargs.
+description: Инициализирует новый экземплярAsyncCommandResultEventArgsaspose.email.clients/asynccommandresulteventargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/asynccommandresulteventargs/asynccommandresulteventargs/
 ---
 ## AsyncCommandResultEventArgs() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs).
+Инициализирует новый экземпляр[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs) класс.
 
 ```csharp
 public AsyncCommandResultEventArgs()
@@ -24,7 +24,7 @@ public AsyncCommandResultEventArgs()
 
 ## AsyncCommandResultEventArgs(AsyncCommandResults) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs).
+Инициализирует новый экземпляр[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs) класс.
 
 ```csharp
 public AsyncCommandResultEventArgs(AsyncCommandResults result)
@@ -45,7 +45,7 @@ public AsyncCommandResultEventArgs(AsyncCommandResults result)
 
 ## AsyncCommandResultEventArgs(AsyncCommandResults, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs).
+Инициализирует новый экземпляр[`AsyncCommandResultEventArgs`](../../asynccommandresulteventargs) класс.
 
 ```csharp
 public AsyncCommandResultEventArgs(AsyncCommandResults result, Exception error)
@@ -53,7 +53,7 @@ public AsyncCommandResultEventArgs(AsyncCommandResults result, Exception error)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| result | AsyncCommandResults | Содержит состояние операции |
+| result | AsyncCommandResults | Содержит рабочее состояние |
 | error | Exception | Содержит ошибку операции |
 
 ### Смотрите также

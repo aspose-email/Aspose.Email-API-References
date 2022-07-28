@@ -1,14 +1,14 @@
 ---
 title: FormField
 second_title: Справочник по Aspose.Email для .NET API
-description: Описать одно поле формы.
+description: Опишите одно поле формы.
 type: docs
 weight: 170
 url: /ru/net/aspose.email.amp/formfield/
 ---
 ## FormField class
 
-Описать одно поле формы.
+Опишите одно поле формы.
 
 ```csharp
 public class FormField
@@ -28,7 +28,7 @@ public class FormField
 | --- | --- |
 | [Id](../../aspose.email.amp/formfield/id) { get; set; } | Получить или установить идентификатор поля. |
 | [InputType](../../aspose.email.amp/formfield/inputtype) { get; set; } | Получить или установить тип ввода поля. |
-| [IsRequired](../../aspose.email.amp/formfield/isrequired) { get; set; } | Получить или установить значение, которое определяет поле как требуется. |
+| [IsRequired](../../aspose.email.amp/formfield/isrequired) { get; set; } | Получить или установить значение, определяющее поле как необходимое. |
 | [Label](../../aspose.email.amp/formfield/label) { get; set; } | Получить или установить метку поля. |
 | [Name](../../aspose.email.amp/formfield/name) { get; set; } | Получить или установить имя поля. |
 | [Placeholder](../../aspose.email.amp/formfield/placeholder) { get; set; } | Получить или установить заполнитель поля. |
@@ -39,7 +39,7 @@ public class FormField
 | Имя | Описание |
 | --- | --- |
 | virtual [ToAmpHtml](../../aspose.email.amp/formfield/toamphtml)() | Представляет расширенную HTML-версию поля. |
-| virtual [ToHtml](../../aspose.email.amp/formfield/tohtml)() | Представляет html-версию поля. |
+| virtual [ToHtml](../../aspose.email.amp/formfield/tohtml)() | Представляет HTML-версию поля. |
 
 ### Смотрите также
 

@@ -20,7 +20,7 @@ public static string ToString(ASProtocolVersions version)
 
 ### Возвращаемое значение
 
-Возвращает строковое представление протокола ActiveSync версия.
+Возвращает строковое представление версии протокола ActiveSync.
 
 ### Смотрите также
 

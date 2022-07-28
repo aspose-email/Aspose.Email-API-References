@@ -1,14 +1,14 @@
 ---
 title: ClassificationOverride
 second_title: Aspose.Email for .NET API 参考
-description: 初始化类ClassificationOverrideaspose.email.clients.graph/classificationoverride的静态成员
+description: 初始化类的静态成员ClassificationOverrideaspose.email.clients.graph/classificationoverride.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.graph/classificationoverride/classificationoverride/
 ---
 ## ClassificationOverride() {#constructor}
 
-初始化类[`ClassificationOverride`](../../classificationoverride)的静态成员。
+初始化类的静态成员[`ClassificationOverride`](../../classificationoverride).
 
 ```csharp
 public ClassificationOverride()
@@ -24,7 +24,7 @@ public ClassificationOverride()
 
 ## ClassificationOverride(MailAddress, ClassificationType) {#constructor_1}
 
-初始化类[`ClassificationOverride`](../../classificationoverride)的静态成员。
+初始化类的静态成员[`ClassificationOverride`](../../classificationoverride).
 
 ```csharp
 public ClassificationOverride(MailAddress sender, ClassificationType classifyAs)
@@ -33,7 +33,7 @@ public ClassificationOverride(MailAddress sender, ClassificationType classifyAs)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sender | MailAddress | 为其创建覆盖的发件人的电子邮件地址信息。 |
-| classifyAs | ClassificationType | 指定来自特定发件人的传入消息应始终分类为的值。 |
+| classifyAs | ClassificationType | 指定如何将来自特定发件人的传入消息始终分类为的值。 |
 
 ### 也可以看看
 
@@ -47,7 +47,7 @@ public ClassificationOverride(MailAddress sender, ClassificationType classifyAs)
 
 ## ClassificationOverride(string, MailAddress, ClassificationType) {#constructor_2}
 
-初始化类[`ClassificationOverride`](../../classificationoverride)的静态成员。
+初始化类的静态成员[`ClassificationOverride`](../../classificationoverride).
 
 ```csharp
 public ClassificationOverride(string id, MailAddress sender, ClassificationType classifyAs)
@@ -57,7 +57,7 @@ public ClassificationOverride(string id, MailAddress sender, ClassificationType 
 | --- | --- | --- |
 | id | String | 覆盖的唯一标识符。 |
 | sender | MailAddress | 为其创建覆盖的发件人的电子邮件地址信息。 |
-| classifyAs | ClassificationType | 指定来自特定发件人的传入消息应始终分类为的值。 |
+| classifyAs | ClassificationType | 指定如何将来自特定发件人的传入消息始终分类为的值。 |
 
 ### 也可以看看
 

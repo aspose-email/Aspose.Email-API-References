@@ -1,14 +1,14 @@
 ---
 title: AppointmentReminder
 second_title: Aspose.Email for .NET API 参考
-description: 初始化AppointmentReminderaspose.email.calendar/appointmentreminder类的新实例
+description: 初始化一个新的实例AppointmentReminderaspose.email.calendar/appointmentreminder类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar/appointmentreminder/appointmentreminder/
 ---
 ## AppointmentReminder constructor
 
-初始化[`AppointmentReminder`](../../appointmentreminder)类的新实例。
+初始化一个新的实例[`AppointmentReminder`](../../appointmentreminder)类.
 
 ```csharp
 public AppointmentReminder()

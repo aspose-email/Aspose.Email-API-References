@@ -1,14 +1,14 @@
 ---
 title: ExistFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 检查此文件夹是否存在
+description: 检查这个文件夹是否存在
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.imap/iasyncimapclient/existfolderasync/
 ---
 ## IAsyncImapClient.ExistFolderAsync method
 
-检查此文件夹是否存在
+检查这个文件夹是否存在
 
 ```csharp
 public Task<bool> ExistFolderAsync(string folderName, IConnection connection = null, 

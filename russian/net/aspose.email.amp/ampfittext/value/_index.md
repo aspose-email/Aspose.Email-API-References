@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Email для .NET API
-description: Text Значение компонента.
+description: Текстовое значение компонента.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.amp/ampfittext/value/
 ---
 ## AmpFitText.Value property
 
-Text Значение компонента.
+Текстовое значение компонента.
 
 ```csharp
 public string Value { get; set; }

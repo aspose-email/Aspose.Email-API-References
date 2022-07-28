@@ -1,14 +1,14 @@
 ---
 title: ExtractedContacts
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个带有单个 ContactSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedContacts 备用名称dispidXmlExtractedContacts
+description: 包含具有单个 ContactSet 元素的 XML 文档 区域提取的实体 规范名称PidNameExtractedContacts 备用名称dispidXmlExtractedContacts
 type: docs
 weight: 10050
 url: /zh/net/aspose.email.mapi/knownpropertylist/extractedcontacts/
 ---
 ## KnownPropertyList.ExtractedContacts field
 
-包含一个带有单个 ContactSet 元素的 XML 文档。 区域:提取的实体 规范名称:PidNameExtractedContacts 备用名称:dispidXmlExtractedContacts
+包含具有单个 ContactSet 元素的 XML 文档。 区域：提取的实体 规范名称：PidNameExtractedContacts 备用名称：dispidXmlExtractedContacts
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedContacts;

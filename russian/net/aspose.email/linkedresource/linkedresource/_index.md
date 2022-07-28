@@ -1,14 +1,14 @@
 ---
 title: LinkedResource
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаLinkedResourceaspose.email/linkedresource.
+description: Инициализирует новый экземплярLinkedResourceaspose.email/linkedresource класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/linkedresource/linkedresource/
 ---
 ## LinkedResource(string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`LinkedResource`](../../linkedresource).
+Инициализирует новый экземпляр[`LinkedResource`](../../linkedresource) класс.
 
 ```csharp
 public LinkedResource(string fileName)
@@ -28,7 +28,7 @@ public LinkedResource(string fileName)
 
 ## LinkedResource(string, string) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`LinkedResource`](../../linkedresource).
+Инициализирует новый экземпляр[`LinkedResource`](../../linkedresource) класс.
 
 ```csharp
 public LinkedResource(string fileName, string mediaType)
@@ -37,7 +37,7 @@ public LinkedResource(string fileName, string mediaType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла, содержащего содержимое для этого ресурса. |
-| mediaType | String | Тип интернет-носителя. |
+| mediaType | String | Тип интернет-СМИ. |
 
 ### Смотрите также
 
@@ -49,7 +49,7 @@ public LinkedResource(string fileName, string mediaType)
 
 ## LinkedResource(string, ContentType) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`LinkedResource`](../../linkedresource).
+Инициализирует новый экземпляр[`LinkedResource`](../../linkedresource) класс.
 
 ```csharp
 public LinkedResource(string fileName, ContentType contentType)
@@ -58,7 +58,7 @@ public LinkedResource(string fileName, ContentType contentType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла, содержащего содержимое для этого ресурса. |
-| contentType | ContentType | Тип содержимого. |
+| contentType | ContentType | Тип контента. |
 
 ### Смотрите также
 
@@ -71,7 +71,7 @@ public LinkedResource(string fileName, ContentType contentType)
 
 ## LinkedResource(Stream) {#constructor}
 
-Инициализирует новый экземпляр класса[`LinkedResource`](../../linkedresource).
+Инициализирует новый экземпляр[`LinkedResource`](../../linkedresource) класс.
 
 ```csharp
 public LinkedResource(Stream contentStream)
@@ -91,7 +91,7 @@ public LinkedResource(Stream contentStream)
 
 ## LinkedResource(Stream, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`LinkedResource`](../../linkedresource).
+Инициализирует новый экземпляр[`LinkedResource`](../../linkedresource) класс.
 
 ```csharp
 public LinkedResource(Stream contentStream, string mediaType)
@@ -100,7 +100,7 @@ public LinkedResource(Stream contentStream, string mediaType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | contentStream | Stream | Поток, содержащий содержимое для этого ресурса. |
-| mediaType | String | Тип интернет-носителя. |
+| mediaType | String | Тип интернет-СМИ. |
 
 ### Смотрите также
 
@@ -112,7 +112,7 @@ public LinkedResource(Stream contentStream, string mediaType)
 
 ## LinkedResource(Stream, ContentType) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`LinkedResource`](../../linkedresource).
+Инициализирует новый экземпляр[`LinkedResource`](../../linkedresource) класс.
 
 ```csharp
 public LinkedResource(Stream contentStream, ContentType contentType)
@@ -121,7 +121,7 @@ public LinkedResource(Stream contentStream, ContentType contentType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | contentStream | Stream | Поток, содержащий содержимое для этого ресурса. |
-| contentType | ContentType | Тип содержимого. |
+| contentType | ContentType | Тип контента. |
 
 ### Смотрите также
 

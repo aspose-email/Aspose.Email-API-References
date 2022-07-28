@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Email for .NET API 参考
-description: 表征类别的预设颜色常数的字符串表示并映射到 25 种预定义颜色之一 颜色的可能值是预设常量例如 Nonepreset0 和 preset1 每个预设常数进一步映射到一种颜色实际颜色取决于显示类别的 Outlook 客户端
+description: 表示类别的预设颜色常量的字符串表示形式并映射到 25 种预定义颜色之一 颜色的可能值是预设常量例如 Nonepreset0 和 preset1 每个预设的常数进一步映射到一种颜色实际颜色取决于显示类别的 Outlook 客户端
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.graph/outlookcategory/color/
 ---
 ## OutlookCategory.Color property
 
-表征类别的预设颜色常数的字符串表示，并映射到 25 种预定义颜色之一。 颜色的可能值是预设常量，例如 None、preset0 和 preset1。 每个预设常数进一步映射到一种颜色；实际颜色取决于显示类别的 Outlook 客户端。
+表示类别的预设颜色常量的字符串表示形式，并映射到 25 种预定义颜色之一。 颜色的可能值是预设常量，例如 None、preset0 和 preset1。 每个预设的常数进一步映射到一种颜色；实际颜色取决于显示类别的 Outlook 客户端。
 
 ```csharp
 public string Color { get; set; }

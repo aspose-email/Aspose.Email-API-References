@@ -1,14 +1,14 @@
 ---
 title: Gender
 second_title: Aspose.Email for .NET API 参考
-description: 性别标题
+description: 性别标题.
 type: docs
 weight: 170
 url: /zh/net/aspose.email/mhttemplatename.contact/gender/
 ---
 ## MhtTemplateName.Contact.Gender field
 
-性别标题。
+性别标题.
 
 ```csharp
 public const string Gender;

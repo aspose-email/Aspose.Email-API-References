@@ -24,11 +24,11 @@ public enum MailTipsType
 | MailboxFullStatus | `4` | 表示邮箱已满的状态。 |
 | CustomMailTip | `8` | 表示自定义邮件提示。 |
 | ExternalMemberCount | `10` | 表示外部成员的计数。 |
-| TotalMemberCount | `20` | 表示所有成员的计数。 |
+| TotalMemberCount | `20` | 代表所有成员的计数。 |
 | MaxMessageSize | `40` | 表示收件人可以接受的最大邮件大小。 |
 | DeliveryRestriction | `80` | 指示传递限制是否会阻止发件人的邮件到达收件人。 |
-| ModerationStatus | `100` | 表示发件人的消息是否将由版主审核。 |
-| InvalidRecipient | `200` | 表示接收者是否无效。 |
+| ModerationStatus | `100` | 表示发件人的邮件是否将由版主审核。 |
+| InvalidRecipient | `200` | 表示收件人是否无效。 |
 | Scope | `400` |  |
 
 ### 也可以看看

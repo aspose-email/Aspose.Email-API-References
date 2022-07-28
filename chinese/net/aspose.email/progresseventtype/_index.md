@@ -1,14 +1,14 @@
 ---
 title: ProgressEventType
 second_title: Aspose.Email for .NET API 参考
-description: 发生的进度事件的类型
+description: 发生的进度事件类型
 type: docs
-weight: 19870
+weight: 19920
 url: /zh/net/aspose.email/progresseventtype/
 ---
 ## ProgressEventType enumeration
 
-发生的进度事件的类型。
+发生的进度事件类型。
 
 ```csharp
 public enum ProgressEventType
@@ -18,8 +18,8 @@ public enum ProgressEventType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| MimeStructureCreated | `0` | 表示发生的事件通知mime结构被创建。 |
-| MimePartSaved | `1` | 表示发生的事件通知已完成一个 mime 部分的保存。 |
+| MimeStructureCreated | `0` | 表示发生的事件通知 mime 结构已创建。 |
+| MimePartSaved | `1` | 发生事件的意思是通知一个 mime 部分的保存完成。 |
 | SavedToStream | `2` | 表示发生的事件通知所有 mime 部分都保存到流中。 |
 
 ### 也可以看看

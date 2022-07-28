@@ -30,12 +30,12 @@ public class FreebusyQuery
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CalendarExpansionMax](../../aspose.email.clients.google/freebusyquery/calendarexpansionmax) { get; set; } | 为其提供 FreeBusy 信息的日历的最大数量。可选的。 |
-| [GroupExpansionMax](../../aspose.email.clients.google/freebusyquery/groupexpansionmax) { get; set; } | 为单个组提供的日历标识符的最大数量。可选的。 对于成员数超过此值的组，将返回错误。 |
-| [Items](../../aspose.email.clients.google/freebusyquery/items) { get; } | 要查询的日历和/或组列表。 包含日历或组的标识符。 |
+| [CalendarExpansionMax](../../aspose.email.clients.google/freebusyquery/calendarexpansionmax) { get; set; } | 为其提供 FreeBusy 信息的日历的最大数量。可选的. |
+| [GroupExpansionMax](../../aspose.email.clients.google/freebusyquery/groupexpansionmax) { get; set; } | 为单个组提供的最大日历标识符数。可选的。 成员数超过此值的组将返回错误。 |
+| [Items](../../aspose.email.clients.google/freebusyquery/items) { get; } | 要查询的日历和/或组的列表。 包含日历或组的标识符。 |
 | [TimeMax](../../aspose.email.clients.google/freebusyquery/timemax) { get; set; } | 查询间隔的结束。 |
 | [TimeMin](../../aspose.email.clients.google/freebusyquery/timemin) { get; set; } | 查询间隔的开始。 |
-| [TimeZone](../../aspose.email.clients.google/freebusyquery/timezone) { get; set; } | 响应中使用的时区。可选的。默认值为 UTC。 |
+| [TimeZone](../../aspose.email.clients.google/freebusyquery/timezone) { get; set; } | 响应中使用的时区。可选的。默认为 UTC. |
 
 ### 也可以看看
 

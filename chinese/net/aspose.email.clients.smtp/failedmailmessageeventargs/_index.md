@@ -18,7 +18,7 @@ public class FailedMailMessageEventArgs : MailMessageEventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FailedMailMessageEventArgs](failedmailmessageeventargs)(MailMessage, Exception) | 初始化[`FailedMailMessageEventArgs`](../failedmailmessageeventargs)类的新实例。 |
+| [FailedMailMessageEventArgs](failedmailmessageeventargs)(MailMessage, Exception) | 初始化[`FailedMailMessageEventArgs`](../failedmailmessageeventargs)类. |
 
 ## 特性
 

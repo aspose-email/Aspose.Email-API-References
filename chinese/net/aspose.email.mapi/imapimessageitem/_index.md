@@ -1,14 +1,14 @@
 ---
 title: IMapiMessageItem
 second_title: Aspose.Email for .NET API 参考
-description: Outlook 中所有消息项 的基本接口
+description: Outlook 中所有邮件项 的基本接口
 type: docs
 weight: 17820
 url: /zh/net/aspose.email.mapi/imapimessageitem/
 ---
 ## IMapiMessageItem interface
 
-Outlook 中所有消息项 的基本接口
+Outlook 中所有邮件项 的基本接口
 
 ```csharp
 public interface IMapiMessageItem

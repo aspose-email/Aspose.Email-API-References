@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager
 second_title: Aspose.Email for .NET API 参考
-description: 提供设置和处理后续 Outlook 标志和类别的能力 支持在 MapiMessage./mapimessage中添加和删除标志的功能并将其标记为已完成
+description: 提供设置和处理后续 Outlook 标志和类别的能力 支持在 中添加和删除标志的功能MapiMessage./mapimessage并将其也标记为已完成
 type: docs
 weight: 17800
 url: /zh/net/aspose.email.mapi/followupmanager/
 ---
 ## FollowUpManager class
 
-提供设置和处理后续 Outlook 标志和类别的能力。 支持在 [`MapiMessage`](../mapimessage)中添加和删除标志的功能，并将其标记为已完成。
+提供设置和处理后续 Outlook 标志和类别的能力。 支持在 中添加和删除标志的功能[`MapiMessage`](../mapimessage)，并将其也标记为已完成。
 
 ```csharp
 public static class FollowUpManager
@@ -18,7 +18,7 @@ public static class FollowUpManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [AddCategory](../../aspose.email.mapi/followupmanager/addcategory)(MapiMessage, string) | 添加消息的类别。 |
+| static [AddCategory](../../aspose.email.mapi/followupmanager/addcategory)(MapiMessage, string) | 为消息添加类别。 |
 | static [AddVotingButton](../../aspose.email.mapi/followupmanager/addvotingbutton)(MapiMessage, string) | 添加投票按钮。 |
 | static [ClearCategories](../../aspose.email.mapi/followupmanager/clearcategories)(MapiMessage) | 清除类别。 |
 | static [ClearFlag](../../aspose.email.mapi/followupmanager/clearflag)(MapiMessage) | 清除后续标志和提醒。 |

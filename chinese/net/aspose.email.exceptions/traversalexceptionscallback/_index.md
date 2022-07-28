@@ -16,7 +16,7 @@ public delegate void TraversalExceptionsCallback(TraversalAsposeException except
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 异常 | TraversalAsposeException |  |
+| exception | TraversalAsposeException |  |
 | itemId | String |  |
 
 ### 也可以看看

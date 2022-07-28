@@ -1,14 +1,14 @@
 ---
 title: ContainerFlags
 second_title: Aspose.Email for .NET API 参考
-description: 包含描述地址簿容器功能的标志位掩码 区域地址簿 规范名称PidTagContainerFlags 替代名称PR_CONTAINER_FLAGS
+description: 包含描述地址簿容器功能的标志位掩码 区域地址簿 规范名称PidTagContainerFlags 备用名称PR_CONTAINER_FLAGS
 type: docs
 weight: 3120
 url: /zh/net/aspose.email.mapi/knownpropertylist/containerflags/
 ---
 ## KnownPropertyList.ContainerFlags field
 
-包含描述地址簿容器功能的标志位掩码。 区域:地址簿 规范名称:PidTagContainerFlags 替代名称:PR_CONTAINER_FLAGS
+包含描述地址簿容器功能的标志位掩码。 区域：地址簿 规范名称：PidTagContainerFlags 备用名称：PR_CONTAINER_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContainerFlags;

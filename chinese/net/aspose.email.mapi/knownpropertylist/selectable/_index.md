@@ -1,14 +1,14 @@
 ---
 title: Selectable
 second_title: Aspose.Email for .NET API 参考
-description: 此属性未设置如果设置则忽略 区域AB 容器 规范名称PidTagSelectable 备用名称PR_SELECTABLE
+description: 此属性未设置如果设置将被忽略 区域AB Container 规范名称PidTagSelectable 备用名称PR_SELECTABLE
 type: docs
 weight: 17080
 url: /zh/net/aspose.email.mapi/knownpropertylist/selectable/
 ---
 ## KnownPropertyList.Selectable field
 
-此属性未设置，如果设置，则忽略。 区域:AB 容器 规范名称:PidTagSelectable 备用名称:PR_SELECTABLE
+此属性未设置，如果设置，将被忽略。 区域：AB Container 规范名称：PidTagSelectable 备用名称：PR_SELECTABLE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Selectable;

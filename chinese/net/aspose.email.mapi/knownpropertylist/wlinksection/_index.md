@@ -1,14 +1,14 @@
 ---
 title: WlinkSection
 second_title: Aspose.Email for .NET API 参考
-description: 指定快捷方式应分组的部分 区域配置 规范名称PidTagWlinkSection 替代名称PR_WLINK_SECTION
+description: 指定快捷方式应分组的部分 区域Configuration 规范名称PidTagWlinkSection 备用名称PR_WLINK_SECTION
 type: docs
 weight: 19510
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinksection/
 ---
 ## KnownPropertyList.WlinkSection field
 
-指定快捷方式应分组的部分。 区域:配置 规范名称:PidTagWlinkSection 替代名称:PR_WLINK_SECTION
+指定快捷方式应分组的部分。 区域：Configuration 规范名称：PidTagWlinkSection 备用名称：PR_WLINK_SECTION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkSection;

@@ -1,14 +1,14 @@
 ---
 title: Preset
 second_title: Aspose.Email for .NET API 参考
-description: 表征类别的预设颜色常数映射到 25 种预定义颜色之一 每个预设常数进一步映射到一种颜色实际颜色取决于显示类别的 Outlook 客户端
+description: 一个预设颜色常数用于表征一个类别并映射到 25 种预定义颜色之一 每个预设的常数进一步映射到一种颜色实际颜色取决于显示类别的 Outlook 客户端
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.graph/outlookcategory/preset/
 ---
 ## OutlookCategory.Preset property
 
-表征类别的预设颜色常数，映射到 25 种预定义颜色之一。 每个预设常数进一步映射到一种颜色；实际颜色取决于显示类别的 Outlook 客户端。
+一个预设颜色常数，用于表征一个类别，并映射到 25 种预定义颜色之一。 每个预设的常数进一步映射到一种颜色；实际颜色取决于显示类别的 Outlook 客户端。
 
 ```csharp
 public CategoryPreset Preset { get; set; }

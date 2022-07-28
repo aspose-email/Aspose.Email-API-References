@@ -1,14 +1,14 @@
 ---
 title: ClassificationOverride
 second_title: Aspose.Email for .NET API 参考
-description: 表示用户对如何将来自特定发件人的传入消息始终分类为的覆盖
+description: 表示用户对来自特定发件人的传入消息应始终分类为的方式的覆盖
 type: docs
 weight: 15880
 url: /zh/net/aspose.email.clients.graph/classificationoverride/
 ---
 ## ClassificationOverride class
 
-表示用户对如何将来自特定发件人的传入消息始终分类为的覆盖。
+表示用户对来自特定发件人的传入消息应始终分类为的方式的覆盖。
 
 ```csharp
 public class ClassificationOverride
@@ -18,9 +18,9 @@ public class ClassificationOverride
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClassificationOverride](classificationoverride#constructor)() | 初始化类[`ClassificationOverride`](../classificationoverride)的静态成员。 |
-| [ClassificationOverride](classificationoverride#constructor_1)(MailAddress, ClassificationType) | 初始化类[`ClassificationOverride`](../classificationoverride)的静态成员。 |
-| [ClassificationOverride](classificationoverride#constructor_2)(string, MailAddress, ClassificationType) | 初始化类[`ClassificationOverride`](../classificationoverride)的静态成员。 |
+| [ClassificationOverride](classificationoverride#constructor)() | 初始化类的静态成员[`ClassificationOverride`](../classificationoverride). |
+| [ClassificationOverride](classificationoverride#constructor_1)(MailAddress, ClassificationType) | 初始化类的静态成员[`ClassificationOverride`](../classificationoverride). |
+| [ClassificationOverride](classificationoverride#constructor_2)(string, MailAddress, ClassificationType) | 初始化类的静态成员[`ClassificationOverride`](../classificationoverride). |
 
 ## 特性
 

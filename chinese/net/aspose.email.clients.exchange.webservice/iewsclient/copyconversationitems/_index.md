@@ -16,15 +16,15 @@ public void CopyConversationItems(string conversationId, string destinationFolde
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| conversationId | String | Id要复制的对话 |
-| destinationFolderId | String | 复制项目的文件夹 ID |
+| conversationId | String | 要复制的对话 ID |
+| destinationFolderId | String | 将项目复制到的文件夹的 ID |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是` null` 或` 空` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是`无效的`或者`空的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void CopyConversationItems(string conversationId, string destinationFolde
 
 ## CopyConversationItems(string, string, string) {#copyconversationitems_1}
 
-将位于指定文件夹中的会话项复制到指定目标文件夹
+将位于指定文件夹中的对话项复制到指定的目标文件夹
 
 ```csharp
 public void CopyConversationItems(string conversationId, string contextFolderId, 
@@ -46,15 +46,15 @@ public void CopyConversationItems(string conversationId, string contextFolderId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | conversationId | String | 要复制的对话 ID |
-| contextFolderId | String | 对话项目所在文件夹的 ID。注意:如果设置为 null（或为空），将复制所有对话项目 |
-| destinationFolderId | String | 复制项目所在文件夹的 ID |
+| contextFolderId | String | 对话项目所在的文件夹的 ID。注意：如果设置为 null（或为空），则所有对话项都将被复制 |
+| destinationFolderId | String | 将项目复制到的文件夹的 ID |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是` null` 或` 空` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是`无效的`或者`空的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

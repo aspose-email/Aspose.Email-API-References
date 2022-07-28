@@ -1,14 +1,14 @@
 ---
 title: AsposeArgumentNullException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsposeArgumentNullExceptionaspose.email/asposeargumentnullexception.
+description: Инициализирует новый экземплярAsposeArgumentNullExceptionaspose.email/asposeargumentnullexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/asposeargumentnullexception/asposeargumentnullexception/
 ---
 ## AsposeArgumentNullException() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentNullException`](../../asposeargumentnullexception).
+Инициализирует новый экземпляр[`AsposeArgumentNullException`](../../asposeargumentnullexception) класс.
 
 ```csharp
 public AsposeArgumentNullException()
@@ -24,7 +24,7 @@ public AsposeArgumentNullException()
 
 ## AsposeArgumentNullException(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentNullException`](../../asposeargumentnullexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeArgumentNullException`](../../asposeargumentnullexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeArgumentNullException(string message)
@@ -44,7 +44,7 @@ public AsposeArgumentNullException(string message)
 
 ## AsposeArgumentNullException(string, string) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeArgumentNullException(string format, string parameters)
@@ -65,7 +65,7 @@ public AsposeArgumentNullException(string format, string parameters)
 
 ## AsposeArgumentNullException(string, params object[]) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeArgumentNullException(string format, params object[] parameters)
@@ -86,7 +86,7 @@ public AsposeArgumentNullException(string format, params object[] parameters)
 
 ## AsposeArgumentNullException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AsposeException`](../../asposeexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeException`](../../asposeexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeArgumentNullException(string message, Exception innerException)
@@ -95,7 +95,7 @@ public AsposeArgumentNullException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 
@@ -107,7 +107,7 @@ public AsposeArgumentNullException(string message, Exception innerException)
 
 ## AsposeArgumentNullException(Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentNullException`](../../asposeargumentnullexception) со ссылкой на внутренний исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeArgumentNullException`](../../asposeargumentnullexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeArgumentNullException(Exception innerException)
@@ -115,7 +115,7 @@ public AsposeArgumentNullException(Exception innerException)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (ничего в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

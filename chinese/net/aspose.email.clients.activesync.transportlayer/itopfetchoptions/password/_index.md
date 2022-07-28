@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: Aspose.Email for .NET API 参考
-description: 指定给定用户名的密码 服务器接受长度不超过 256 个字符的密码值
+description: 指定给定 UserName 的密码 服务器接受最长 256 个字符的密码值
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itopfetchoptions/password/
 ---
 ## ItOpFetchOptions.Password property
 
-指定给定用户名的密码。 服务器接受长度不超过 256 个字符的密码值。
+指定给定 UserName 的密码。 服务器接受最长 256 个字符的密码值。
 
 ```csharp
 public string Password { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsModeratedSpecified
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值指示是否指定IsModeratedaspose.email.clients.exchange.webservice/mailtips/ismoderated
+description: 获取一个值该值指示是否IsModeratedaspose.email.clients.exchange.webservice/mailtips/ismoderated被指定
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.exchange.webservice/mailtips/ismoderatedspecified/
 ---
 ## MailTips.IsModeratedSpecified property
 
-获取一个值，指示是否指定[`IsModerated`](../ismoderated)
+获取一个值，该值指示是否[`IsModerated`](../ismoderated)被指定
 
 ```csharp
 public bool IsModeratedSpecified { get; }

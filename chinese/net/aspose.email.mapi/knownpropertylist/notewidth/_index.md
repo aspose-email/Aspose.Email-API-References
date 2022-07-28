@@ -1,14 +1,14 @@
 ---
 title: NoteWidth
 second_title: Aspose.Email for .NET API 参考
-description: 以像素为单位指定可见消息窗口的宽度 区域便笺 规范名称PidLidNoteWidth 替代名称dispidNoteWidth
+description: 以像素为单位指定可见消息窗口的宽度 区域粘滞便笺 规范名称PidLidNoteWidth 替代名称dispidNoteWidth
 type: docs
 weight: 13140
 url: /zh/net/aspose.email.mapi/knownpropertylist/notewidth/
 ---
 ## KnownPropertyList.NoteWidth field
 
-以像素为单位指定可见消息窗口的宽度。 区域:便笺 规范名称:PidLidNoteWidth 替代名称:dispidNoteWidth
+以像素为单位指定可见消息窗口的宽度。 区域：粘滞便笺 规范名称：PidLidNoteWidth 替代名称：dispidNoteWidth
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoteWidth;

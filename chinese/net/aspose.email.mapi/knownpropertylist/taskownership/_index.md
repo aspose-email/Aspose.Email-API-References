@@ -1,14 +1,14 @@
 ---
 title: TaskOwnership
 second_title: Aspose.Email for .NET API 参考
-description: 表示当前用户相对于Task对象的角色 区域任务 规范名称PidLidTaskOwnership 替代名称dispidTaskOwnership
+description: 表示当前用户相对于任务对象的角色 区域Tasks 规范名称PidLidTaskOwnership 备用名称dispidTaskOwnership
 type: docs
 weight: 18770
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskownership/
 ---
 ## KnownPropertyList.TaskOwnership field
 
-表示当前用户相对于Task对象的角色。 区域:任务 规范名称:PidLidTaskOwnership 替代名称:dispidTaskOwnership
+表示当前用户相对于任务对象的角色。 区域：Tasks 规范名称：PidLidTaskOwnership 备用名称：dispidTaskOwnership
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskOwnership;

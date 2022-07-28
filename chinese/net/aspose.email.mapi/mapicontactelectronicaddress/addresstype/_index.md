@@ -1,14 +1,14 @@
 ---
 title: AddressType
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置电子地址的地址类型
+description: 获取或设置电子地址 的地址类型
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapicontactelectronicaddress/addresstype/
 ---
 ## MapiContactElectronicAddress.AddressType property
 
-获取或设置电子地址的地址类型
+获取或设置电子地址 的地址类型
 
 ```csharp
 public string AddressType { get; set; }

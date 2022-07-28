@@ -1,14 +1,14 @@
 ---
 title: FetchMapiNotes
 second_title: Aspose.Email for .NET API 参考
-description: 获取MapiNoteaspose.email.mapi/mapinote对象的数组
+description: 获取数组MapiNoteaspose.email.mapi/mapinote对象.
 type: docs
 weight: 790
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapinotes/
 ---
 ## FetchMapiNotes(IEnumerable&lt;string&gt;) {#fetchmapinotes}
 
-获取[`MapiNote`](../../../aspose.email.mapi/mapinote)对象的数组。
+获取数组[`MapiNote`](../../../aspose.email.mapi/mapinote)对象.
 
 ```csharp
 public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris)
@@ -16,11 +16,11 @@ public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| noteUris | IEnumerable`1 | 要获取的音符 uri 列表。 |
+| noteUris | IEnumerable`1 | 要获取的便笺 uri 列表。 |
 
 ### 返回值
 
-获取[`MapiNote`](../../../aspose.email.mapi/mapinote)对象的数组。
+获取数组[`MapiNote`](../../../aspose.email.mapi/mapinote)对象。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris)
 
 ## FetchMapiNotes(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapinotes_1}
 
-获取[`MapiNote`](../../../aspose.email.mapi/mapinote)对象的数组。
+获取数组[`MapiNote`](../../../aspose.email.mapi/mapinote)对象.
 
 ```csharp
 public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris, 
@@ -42,12 +42,12 @@ public IList<MapiNote> FetchMapiNotes(IEnumerable<string> noteUris,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| noteUris | IEnumerable`1 | 要获取的音符 uri 列表。 |
+| noteUris | IEnumerable`1 | 要获取的便笺 uri 列表。 |
 | customProperties | IEnumerable`1 | 要检索的自定义 mapi 属性。 |
 
 ### 返回值
 
-获取[`MapiNote`](../../../aspose.email.mapi/mapinote)对象的数组。
+获取数组[`MapiNote`](../../../aspose.email.mapi/mapinote)对象。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ForwardInstance
 second_title: Aspose.Email for .NET API 参考
-description: 指示会议请求对象是否代表组织者发送的重复邀请的例外 区域会议 规范名称PidLidForwardInstance 替代名称dispidFwrdInstance
+description: 指示会议请求对象是否代表组织者发送的定期邀请的例外 区域Meetings 规范名称PidLidForwardInstance 替代名称dispidFwrdInstance
 type: docs
 weight: 10600
 url: /zh/net/aspose.email.mapi/knownpropertylist/forwardinstance/
 ---
 ## KnownPropertyList.ForwardInstance field
 
-指示会议请求对象是否代表组织者发送的重复邀请的例外。 区域:会议 规范名称:PidLidForwardInstance 替代名称:dispidFwrdInstance
+指示会议请求对象是否代表组织者发送的定期邀请的例外。 区域：Meetings 规范名称：PidLidForwardInstance 替代名称：dispidFwrdInstance
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ForwardInstance;

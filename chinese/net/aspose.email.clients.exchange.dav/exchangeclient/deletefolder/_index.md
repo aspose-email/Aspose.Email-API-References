@@ -22,7 +22,7 @@ public void DeleteFolder(string folderUri)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*是` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*是`无效的`或者`空的` |
 
 ### 也可以看看
 

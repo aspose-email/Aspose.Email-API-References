@@ -1,14 +1,14 @@
 ---
 title: EmailDisplayAs
 second_title: Справочник по Aspose.Email для .NET API
-description: Email Display As header.
+description: Электронная почта Отображается как заголовок.
 type: docs
 weight: 140
 url: /ru/net/aspose.email/mhttemplatename.contact/emaildisplayas/
 ---
 ## MhtTemplateName.Contact.EmailDisplayAs field
 
-Email Display As header.
+Электронная почта Отображается как заголовок.
 
 ```csharp
 public const string EmailDisplayAs;

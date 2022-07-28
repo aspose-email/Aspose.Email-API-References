@@ -1,14 +1,14 @@
 ---
 title: op_Subtraction
 second_title: Aspose.Email for .NET API 参考
-description: 减法定义
+description: 定义减法运算
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.imap/esearchoptions/op_subtraction/
 ---
 ## ESearchOptions Subtraction operator
 
-减法定义
+定义减法运算
 
 ```csharp
 public static ESearchOptions operator -(ESearchOptions val1, ESearchOptions val2)

@@ -16,8 +16,8 @@ public MapiAttachment CreateAttachment(string parentId, MapiAttachment attachmen
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentId | String | 项目 ID |
-| attachment | MapiAttachment | 附件创建 |
+| parentId | String | 商品编号 |
+| attachment | MapiAttachment | 创建附件 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: PreserveRtfContent
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置是否需要在MailMessage中保留rtf body的值
+description: 获取或设置一个值该值指示是否需要在MailMessage中保留rtf正文
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mailconversionoptions/preservertfcontent/
 ---
 ## MailConversionOptions.PreserveRtfContent property
 
-获取或设置是否需要在MailMessage中保留rtf body的值。
+获取或设置一个值，该值指示是否需要在MailMessage中保留rtf正文。
 
 ```csharp
 public bool PreserveRtfContent { get; set; }

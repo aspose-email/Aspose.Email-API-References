@@ -17,8 +17,8 @@ public void DeleteFromDistributionList(ExchangeDistributionList distributionList
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| distributionList | ExchangeDistributionList | A[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)包含有关分发列表的信息更新。 |
-| members | MailAddressCollection | A[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)包含要删除的邮件地址。 MailAddress 必须包含 id。 |
+| distributionList | ExchangeDistributionList | 一个[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)包含有关要更新的分发列表的信息。 |
+| members | MailAddressCollection | 一个[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)包含要删除的邮件地址。 MailAddress 必须包含 id。 |
 
 ### 也可以看看
 

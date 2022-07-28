@@ -24,14 +24,14 @@ public class ExchangeMetadata
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BCC](../../aspose.email.clients.activity/exchangemetadata/bcc) { get; set; } | 邮件密件抄送行上的电子邮件地址集合。 强制:否 |
-| [CC](../../aspose.email.clients.activity/exchangemetadata/cc) { get; set; } | 邮件抄送行上的电子邮件地址集合。 强制:是 |
-| [From](../../aspose.email.clients.activity/exchangemetadata/from) { get; set; } | 发送电子邮件的用户。 强制:是 |
-| [MessageID](../../aspose.email.clients.activity/exchangemetadata/messageid) { get; set; } | 触发事件的电子邮件的消息 ID。 强制:是 |
-| [RecipientCount](../../aspose.email.clients.activity/exchangemetadata/recipientcount) { get; set; } | 邮件的 TO、CC 和 BCC 行上所有收件人的总数。 强制:是 |
-| [Sent](../../aspose.email.clients.activity/exchangemetadata/sent) { get; set; } | 发送电子邮件的 UTC 时间。 强制:是 |
-| [Subject](../../aspose.email.clients.activity/exchangemetadata/subject) { get; set; } | 电子邮件的主题。 强制:否 |
-| [To](../../aspose.email.clients.activity/exchangemetadata/to) { get; set; } | 邮件“收件人”行上的电子邮件地址集合。 强制:否 |
+| [BCC](../../aspose.email.clients.activity/exchangemetadata/bcc) { get; set; } | 邮件密件抄送行中的电子邮件地址集合。 强制：否 |
+| [CC](../../aspose.email.clients.activity/exchangemetadata/cc) { get; set; } | 邮件抄送行中的电子邮件地址集合。 强制：是 |
+| [From](../../aspose.email.clients.activity/exchangemetadata/from) { get; set; } | 发送电子邮件的用户。 必填：是 |
+| [MessageID](../../aspose.email.clients.activity/exchangemetadata/messageid) { get; set; } | 触发事件的电子邮件的消息 ID。 必填：是 |
+| [RecipientCount](../../aspose.email.clients.activity/exchangemetadata/recipientcount) { get; set; } | 邮件的 TO、CC 和 BCC 行中所有收件人的总数。 必填：是 |
+| [Sent](../../aspose.email.clients.activity/exchangemetadata/sent) { get; set; } | 发送电子邮件的 UTC 时间。 必填：是 |
+| [Subject](../../aspose.email.clients.activity/exchangemetadata/subject) { get; set; } | 电子邮件的主题。 必填：否 |
+| [To](../../aspose.email.clients.activity/exchangemetadata/to) { get; set; } | 邮件“收件人”行中的电子邮件地址集合。 必填项：否 |
 
 ### 也可以看看
 

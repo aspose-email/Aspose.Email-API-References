@@ -16,7 +16,7 @@ public string ToiCalendar()
 
 ### Возвращаемое значение
 
-StringStringпредставление RecurrencePattern.
+НитьString представление RecurrencePattern.
 
 ### Смотрите также
 

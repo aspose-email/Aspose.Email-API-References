@@ -3,7 +3,7 @@ title: SyntaxValidatingEventArgs
 second_title: Aspose.Email for .NET API 参考
 description: 为 SyntaxValidating 事件提供数据
 type: docs
-weight: 20780
+weight: 20830
 url: /zh/net/aspose.email.tools.verifications/syntaxvalidatingeventargs/
 ---
 ## SyntaxValidatingEventArgs class

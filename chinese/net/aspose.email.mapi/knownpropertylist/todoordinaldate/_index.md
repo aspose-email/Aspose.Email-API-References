@@ -1,14 +1,14 @@
 ---
 title: ToDoOrdinalDate
 second_title: Aspose.Email for .NET API 参考
-description: 包含当前时间以 UTC 为单位用于确定合并的待办事项列表中对象的排序顺序 区域任务 规范名称PidLidToDoOrdinalDate 替代名称dispidToDoOrdinalDate
+description: 包含当前时间以 UTC 为单位用于确定合并的待办事项列表中对象的排序顺序 区域Tasks 规范名称PidLidToDoOrdinalDate 替代名称dispidToDoOrdinalDate
 type: docs
 weight: 19040
 url: /zh/net/aspose.email.mapi/knownpropertylist/todoordinaldate/
 ---
 ## KnownPropertyList.ToDoOrdinalDate field
 
-包含当前时间，以 UTC 为单位，用于确定合并的待办事项列表中对象的排序顺序。 区域:任务 规范名称:PidLidToDoOrdinalDate 替代名称:dispidToDoOrdinalDate
+包含当前时间（以 UTC 为单位），用于确定合并的待办事项列表中对象的排序顺序。 区域：Tasks 规范名称：PidLidToDoOrdinalDate 替代名称：dispidToDoOrdinalDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ToDoOrdinalDate;

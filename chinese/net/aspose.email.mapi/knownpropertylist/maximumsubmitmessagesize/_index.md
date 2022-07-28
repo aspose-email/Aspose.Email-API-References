@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/maximumsubmitmessagesize/
 ---
 ## KnownPropertyList.MaximumSubmitMessageSize field
 
-允许用户提交以传输给另一个用户的消息的最大大小，以千字节为单位。 区域:消息存储属性 规范名称:PidTagMaximumSubmitMessageSize 备用名称:PR_MAX_SUBMIT_MESSAGE_SIZE
+允许用户提交以传输给另一个用户的消息的最大大小，以千字节为单位。 区域：消息存储属性 规范名称：PidTagMaximumSubmitMessageSize 备用名称：PR_MAX_SUBMIT_MESSAGE_SIZE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MaximumSubmitMessageSize;

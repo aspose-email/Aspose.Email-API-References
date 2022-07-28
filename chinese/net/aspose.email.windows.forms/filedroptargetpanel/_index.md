@@ -3,7 +3,7 @@ title: FileDropTargetPanel
 second_title: Aspose.Email for .NET API 参考
 description: 表示文件放置目标
 type: docs
-weight: 20880
+weight: 20930
 url: /zh/net/aspose.email.windows.forms/filedroptargetpanel/
 ---
 ## FileDropTargetPanel class
@@ -18,7 +18,7 @@ public class FileDropTargetPanel : Panel, IFileDropTargetControl
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileDropTargetPanel](filedroptargetpanel)() | 初始化[`FileDropTargetPanel`](../filedroptargetpanel)类的新实例。 |
+| [FileDropTargetPanel](filedroptargetpanel)() | 初始化[`FileDropTargetPanel`](../filedroptargetpanel)类. |
 
 ## 特性
 

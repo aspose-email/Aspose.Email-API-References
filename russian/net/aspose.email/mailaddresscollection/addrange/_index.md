@@ -16,7 +16,7 @@ public void AddRange(MailAddressCollection addresses)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| addresses | MailAddressCollection | Коллекция почтовых адресов |
+| addresses | MailAddressCollection | Сбор почтовых адресов |
 
 ### Смотрите также
 

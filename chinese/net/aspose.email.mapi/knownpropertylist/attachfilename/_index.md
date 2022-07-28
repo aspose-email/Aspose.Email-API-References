@@ -1,14 +1,14 @@
 ---
 title: AttachFilename
 second_title: Aspose.Email for .NET API 参考
-description: 包含 PidTagAttachLongFilename 属性的 8.3 名称第 2.586 节 区域消息附件属性 规范名称PidTagAttachFilename 备用名称PR_ATTACH_FILENAME PR_ATTACH_FILENAME_A ptagAttachFilename PR_ATTACH_FILENAME_W
+description: 包含 PidTagAttachLongFilename 属性的 8.3 名称第 2.586 节 区域消息附件属性 规范名称PidTagAttachFilename 备用名称PR_ATTACH_FILENAMEPR_ATTACH_FILENAME_AptagAttachFilenamePR_ATTACH_FILENAME_W
 type: docs
 weight: 1590
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachfilename/
 ---
 ## KnownPropertyList.AttachFilename field
 
-包含 PidTagAttachLongFilename 属性的 8.3 名称（第 2.586 节）。 区域:消息附件属性 规范名称:PidTagAttachFilename 备用名称:PR_ATTACH_FILENAME, PR_ATTACH_FILENAME_A, ptagAttachFilename, PR_ATTACH_FILENAME_W
+包含 PidTagAttachLongFilename 属性的 8.3 名称（第 2.586 节）。 区域：消息附件属性 规范名称：PidTagAttachFilename 备用名称：PR_ATTACH_FILENAME、PR_ATTACH_FILENAME_A、ptagAttachFilename、PR_ATTACH_FILENAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachFilename;

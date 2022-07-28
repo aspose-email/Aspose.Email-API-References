@@ -1,14 +1,14 @@
 ---
 title: BodyPart
 second_title: Aspose.Email for .NET API 参考
-description: 指定响应中电子邮件消息部分的详细信息 当在请求中指定 BodyPartPreference 时BodyPart 元素必须包含在命令响应中
+description: 指定有关回复中电子邮件消息部分的详细信息 当在请求中指定 BodyPartPreference 时必须在命令响应中包含 BodyPart 元素
 type: docs
 weight: 1040
 url: /zh/net/aspose.email.clients.activesync.transportlayer/bodypart/
 ---
 ## BodyPart class
 
-指定响应中电子邮件消息部分的详细信息。 当在请求中指定 BodyPartPreference 时，BodyPart 元素必须包含在命令响应中。
+指定有关回复中电子邮件消息部分的详细信息。 当在请求中指定 BodyPartPreference 时，必须在命令响应中包含 BodyPart 元素。
 
 ```csharp
 public class BodyPart
@@ -24,11 +24,11 @@ public class BodyPart
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Data](../../aspose.email.clients.activesync.transportlayer/bodypart/data) { get; set; } | Data 元素的内容是一个字符串，其格式由 Type 属性指定。 如果 Type 的值为 RTF，则 Data 元素的值使用 base64 编码进行编码。 如果Truncated 属性设置为true，则Data 元素中的数据将被截断。 EstimatedDataSize 属性提供对数据字符串完整内容的实际大小的粗略估计。 |
-| [EstimatedDataSize](../../aspose.email.clients.activesync.transportlayer/bodypart/estimateddatasize) { get; set; } | 指定与父元素关联的数据大小的信息估计。 每当截断元素设置为 TRUE 时，都应该显示 EstimatedDataSize 元素 |
+| [Data](../../aspose.email.clients.activesync.transportlayer/bodypart/data) { get; set; } | Data 元素的内容是一个字符串，其格式由 Type 属性指定。 如果 Type 的值为 RTF，则使用 base64 编码对 Data 元素的值进行编码。 如果 Truncated 属性设置为 true，则截断 Data 元素中的数据。 EstimatedDataSize 属性提供对数据字符串完整内容的实际大小的粗略估计。 |
+| [EstimatedDataSize](../../aspose.email.clients.activesync.transportlayer/bodypart/estimateddatasize) { get; set; } | 指定与父元素关联的数据大小的信息估计值。 应在将截断元素设置为 TRUE 时显示 EstimatedDataSize 元素 |
 | [Preview](../../aspose.email.clients.activesync.transportlayer/bodypart/preview) { get; set; } | 包含返回给客户端的 Unicode 纯文本消息或消息部分预览。 |
 | [Status](../../aspose.email.clients.activesync.transportlayer/bodypart/status) { get; set; } | 包含指示操作成功或失败的代码和描述 |
-| [Truncated](../../aspose.email.clients.activesync.transportlayer/bodypart/truncated) { get; set; } | 指定项目的正文是否已根据客户端指示的 BodyPreference 元素截断。 如果值为 TRUE，则项目的主体已被截断。如果值为 FALSE，或未设置截断属性，则项目的正文尚未被截断。 |
+| [Truncated](../../aspose.email.clients.activesync.transportlayer/bodypart/truncated) { get; set; } | 指定项目的主体是否已根据客户端指示的 BodyPreference 元素被截断。 如果值为 TRUE，则项目的主体已被截断。如果值为 FALSE，或未设置截断属性，则项目的正文尚未被截断。 |
 | [Type](../../aspose.email.clients.activesync.transportlayer/bodypart/type) { get; set; } | 指定项目正文内容的格式类型。 |
 
 ### 也可以看看

@@ -20,7 +20,7 @@ public MessageObjectProperty TryGetValue(long propertyTag)
 
 ### 返回值
 
-[`MessageObjectProperty`](../../messageobjectproperty)对象如果操作成功，否则为空。
+[`MessageObjectProperty`](../../messageobjectproperty)如果操作成功则为对象，否则为空。
 
 ### 也可以看看
 

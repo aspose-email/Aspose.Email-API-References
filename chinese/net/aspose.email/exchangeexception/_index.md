@@ -1,14 +1,14 @@
 ---
 title: ExchangeException
 second_title: Aspose.Email for .NET API 参考
-description: 如果 MS Exchange 通信失败则抛出此异常
+description: 如果 MS Exchange 通信失败则抛出
 type: docs
 weight: 17430
 url: /zh/net/aspose.email/exchangeexception/
 ---
 ## ExchangeException class
 
-如果 MS Exchange 通信失败，则抛出此异常。
+如果 MS Exchange 通信失败则抛出。
 
 ```csharp
 public class ExchangeException : AsposeException
@@ -18,10 +18,10 @@ public class ExchangeException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeException](exchangeexception#constructor)() | 初始化[`ExchangeException`](../exchangeexception)类的新实例。 |
-| [ExchangeException](exchangeexception#constructor_1)(string) | 初始化[`ExchangeException`](../exchangeexception)类的新实例。 |
-| [ExchangeException](exchangeexception#constructor_2)(string, Exception) | 初始化[`ExchangeException`](../exchangeexception)类的新实例。 |
-| [ExchangeException](exchangeexception#constructor_3)(string, params object[]) | 使用指定的错误消息初始化[`ExchangeException`](../exchangeexception)类的新实例。 |
+| [ExchangeException](exchangeexception#constructor)() | 初始化[`ExchangeException`](../exchangeexception)类. |
+| [ExchangeException](exchangeexception#constructor_1)(string) | 初始化[`ExchangeException`](../exchangeexception)类. |
+| [ExchangeException](exchangeexception#constructor_2)(string, Exception) | 初始化[`ExchangeException`](../exchangeexception)类. |
+| [ExchangeException](exchangeexception#constructor_3)(string, params object[]) | 初始化[`ExchangeException`](../exchangeexception)具有指定错误消息的类。 |
 
 ## 特性
 

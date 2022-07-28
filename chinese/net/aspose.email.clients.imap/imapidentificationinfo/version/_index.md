@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Aspose.Email for .NET API 参考
-description: 程序版本号
+description: 程序的版本号
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.imap/imapidentificationinfo/version/
 ---
 ## ImapIdentificationInfo.Version property
 
-程序版本号
+程序的版本号
 
 ```csharp
 public string Version { get; set; }

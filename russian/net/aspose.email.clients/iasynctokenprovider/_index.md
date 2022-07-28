@@ -1,14 +1,14 @@
 ---
 title: IAsyncTokenProvider
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет интерфейс позволяющий асинхронно получать токен доступа.
+description: Определяет интерфейс позволяющий асинхронно извлекать токен доступа.
 type: docs
 weight: 16140
 url: /ru/net/aspose.email.clients/iasynctokenprovider/
 ---
 ## IAsyncTokenProvider interface
 
-Определяет интерфейс, позволяющий асинхронно получать токен доступа.
+Определяет интерфейс, позволяющий асинхронно извлекать токен доступа.
 
 ```csharp
 public interface IAsyncTokenProvider : IDisposable

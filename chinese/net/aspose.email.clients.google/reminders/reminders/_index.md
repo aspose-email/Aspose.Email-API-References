@@ -1,14 +1,14 @@
 ---
 title: Reminders
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 Reminders 类的新实例
+description: 初始化提醒类的新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.google/reminders/reminders/
 ---
 ## Reminders constructor
 
-初始化 Reminders 类的新实例。
+初始化提醒类的新实例。
 
 ```csharp
 public Reminders()

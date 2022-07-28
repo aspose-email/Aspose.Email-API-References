@@ -1,14 +1,14 @@
 ---
 title: PageHeader
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок PageHeader.
+description: Заголовок заголовка страницы.
 type: docs
 weight: 120
 url: /ru/net/aspose.email/mhttemplatename/pageheader/
 ---
 ## MhtTemplateName.PageHeader field
 
-Заголовок PageHeader.
+Заголовок заголовка страницы.
 
 ```csharp
 public const string PageHeader;

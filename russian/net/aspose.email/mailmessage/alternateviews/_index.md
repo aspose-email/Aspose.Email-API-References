@@ -1,14 +1,14 @@
 ---
 title: AlternateViews
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает коллекцию альтернативных представлений сообщения
+description: Получает коллекцию альтернативных представлений message
 type: docs
 weight: 30
 url: /ru/net/aspose.email/mailmessage/alternateviews/
 ---
 ## MailMessage.AlternateViews property
 
-Получает коллекцию альтернативных представлений сообщения
+Получает коллекцию альтернативных представлений message
 
 ```csharp
 public virtual AlternateViewCollection AlternateViews { get; }

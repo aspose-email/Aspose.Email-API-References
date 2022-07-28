@@ -1,14 +1,14 @@
 ---
 title: AppointmentSaveOptions
 second_title: Aspose.Email for .NET API 参考
-description: 表示基本预约保存选项
+description: 代表基本预约保存选项
 type: docs
 weight: 560
 url: /zh/net/aspose.email.calendar/appointmentsaveoptions/
 ---
 ## AppointmentSaveOptions class
 
-表示基本预约保存选项
+代表基本预约保存选项
 
 ```csharp
 public abstract class AppointmentSaveOptions

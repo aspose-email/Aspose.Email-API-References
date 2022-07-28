@@ -1,14 +1,14 @@
 ---
 title: ChildValue
 second_title: Aspose.Email for .NET API 参考
-description: Child 类别的字符串值
+description: 儿童类别的字符串值
 type: docs
 weight: 240
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/childvalue/
 ---
 ## AssociatedPersonCategory.ChildValue field
 
-'Child' 类别的字符串值
+“儿童”类别的字符串值
 
 ```csharp
 public const string ChildValue;

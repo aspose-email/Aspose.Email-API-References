@@ -1,14 +1,14 @@
 ---
 title: ICQValue
 second_title: Aspose.Email for .NET API 参考
-description: MSN 类别的字符串值
+description: MSN类别的字符串值
 type: docs
 weight: 220
 url: /zh/net/aspose.email.personalinfo/instantmessengercategory/icqvalue/
 ---
 ## InstantMessengerCategory.ICQValue field
 
-'MSN' 类别的字符串值
+“MSN”类别的字符串值
 
 ```csharp
 public const string ICQValue;

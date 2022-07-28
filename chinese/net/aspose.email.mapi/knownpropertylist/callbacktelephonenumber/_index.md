@@ -1,14 +1,14 @@
 ---
 title: CallbackTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含联系邮件用户的电话号码 区域联系人属性 规范名称PidTagCallbackTelephoneNumber 备用名称PR_CALLBACK_TELEPHONE_NUMBER PR_CALLBACK_TELEPHONE_NUMBER_A
+description: 包含联系邮件用户的电话号码 区域联系人属性 规范名称PidTagCallbackTelephoneNumber 备用名称PR_CALLBACK_TELEPHONE_NUMBERPR_CALLBACK_TELEPHONE_NUMBER_A
 type: docs
 weight: 2470
 url: /zh/net/aspose.email.mapi/knownpropertylist/callbacktelephonenumber/
 ---
 ## KnownPropertyList.CallbackTelephoneNumber field
 
-包含联系邮件用户的电话号码。 区域:联系人属性 规范名称:PidTagCallbackTelephoneNumber 备用名称:PR_CALLBACK_TELEPHONE_NUMBER, PR_CALLBACK_TELEPHONE_NUMBER_A,
+包含联系邮件用户的电话号码。 区域：联系人属性 规范名称：PidTagCallbackTelephoneNumber 备用名称：PR_CALLBACK_TELEPHONE_NUMBER、PR_CALLBACK_TELEPHONE_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CallbackTelephoneNumber;

@@ -1,14 +1,14 @@
 ---
 title: SourceKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个包含此文件夹或邮件的内部全局标识符 GID 的值 区域同步 规范名称PidTagSourceKey 备用名称PR_SOURCE_KEY
+description: 包含一个包含此文件夹或邮件的内部全局标识符 GID 的值 区域Sync 规范名称PidTagSourceKey 备用名称PR_SOURCE_KEY
 type: docs
 weight: 18100
 url: /zh/net/aspose.email.mapi/knownpropertylist/sourcekey/
 ---
 ## KnownPropertyList.SourceKey field
 
-包含一个包含此文件夹或邮件的内部全局标识符 (GID) 的值。 区域:同步 规范名称:PidTagSourceKey 备用名称:PR_SOURCE_KEY
+包含一个包含此文件夹或邮件的内部全局标识符 (GID) 的值。 区域：Sync 规范名称：PidTagSourceKey 备用名称：PR_SOURCE_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SourceKey;

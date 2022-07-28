@@ -25,8 +25,8 @@ public class ServerInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [Name](../../aspose.email.clients.activesync.transportlayer/serverinfo/name) { get; } | 如果 Type 元素（第 2.2.3.170.1 节）值设置为“MobileSync”，则指定 URL。 如果 Type 元素值为“MobileSync”，则 Name 元素指定传送协议的 URL。 如果 Type 元素值为“CertEnroll”，则 Name 元素值为 NULL。 |
-| [ServerData](../../aspose.email.clients.activesync.transportlayer/serverinfo/serverdata) { get; } | ServerData 指定客户端证书的模板名称。可选的。 |
-| [Type](../../aspose.email.clients.activesync.transportlayer/serverinfo/type) { get; } | 指定服务器类型 以下是 Type 元素的有效值: MobileSync — 表示 URL客户端可以访问由 URL 元素（第 2.2.3.172 节）返回的内容。 CertEnroll — 表示客户端可以访问由 URL 元素返回的 URL，以获取用于安全套接字层 (SSL) 协商的客户端证书。 |
+| [ServerData](../../aspose.email.clients.activesync.transportlayer/serverinfo/serverdata) { get; } | ServerData 指定客户端证书的模板名称。可选的. |
+| [Type](../../aspose.email.clients.activesync.transportlayer/serverinfo/type) { get; } | 指定服务器类型 以下是 Type 元素的有效值： MobileSync — 表示客户端可以访问由 URL 元素（第 2.2.3.172 节）返回的 URL。 CertEnroll — 表示该 URL由 URL 元素返回，客户端可以访问以获取用于安全套接字层 (SSL) 协商的客户端证书。 |
 | [Url](../../aspose.email.clients.activesync.transportlayer/serverinfo/url) { get; } | 指定传达协议、端口、资源位置和其他信息的 URL 字符串。 |
 
 ## 方法

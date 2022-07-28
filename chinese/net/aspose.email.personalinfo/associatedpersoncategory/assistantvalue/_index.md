@@ -1,14 +1,14 @@
 ---
 title: AssistantValue
 second_title: Aspose.Email for .NET API 参考
-description: Assistant 类别的字符串值
+description: 助理类别的字符串值
 type: docs
 weight: 220
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/assistantvalue/
 ---
 ## AssociatedPersonCategory.AssistantValue field
 
-'Assistant' 类别的字符串值
+“助理”类别的字符串值
 
 ```csharp
 public const string AssistantValue;

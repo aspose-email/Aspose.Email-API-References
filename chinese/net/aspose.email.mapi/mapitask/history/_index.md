@@ -1,14 +1,14 @@
 ---
 title: History
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置上次对 Task 对象进行的更改 的类型
+description: 获取或设置上次对 Task 对象进行的更改类型 
 type: docs
 weight: 100
 url: /zh/net/aspose.email.mapi/mapitask/history/
 ---
 ## MapiTask.History property
 
-获取或设置上次对 Task 对象进行的更改 的类型。
+获取或设置上次对 Task 对象进行的更改类型 。
 
 ```csharp
 public MapiTaskHistory History { get; set; }

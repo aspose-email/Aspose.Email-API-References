@@ -1,14 +1,14 @@
 ---
 title: TransmittableDisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 包含随消息传输的通讯簿对象的显示名称 区域地址属性 规范名称PidTagTransmittableDisplayName 替代名称PR_TRANSMITABLE_DISPLAY_NAME PR_TRANSMITABLE_DISPLAY_NAME_A ptagTransmitableDisplayName PR_TRANSMITABLE_DISPLAY_NAME_W
+description: 包含与消息一起传输的通讯簿对象的显示名称 区域地址属性 规范名称PidTagTransmittableDisplayName 替代名称PR_TRANSMITABLE_DISPLAY_NAMEPR_TRANSMITABLE_DISPLAY_NAME_AptagTransmitableDisplayNamePR_TRANSMITABLE_DISPLAY_NAME_W
 type: docs
 weight: 19090
 url: /zh/net/aspose.email.mapi/knownpropertylist/transmittabledisplayname/
 ---
 ## KnownPropertyList.TransmittableDisplayName field
 
-包含随消息传输的通讯簿对象的显示名称。 区域:地址属性 规范名称:PidTagTransmittableDisplayName 替代名称:PR_TRANSMITABLE_DISPLAY_NAME, PR_TRANSMITABLE_DISPLAY_NAME_A, ptagTransmitableDisplayName, PR_TRANSMITABLE_DISPLAY_NAME_W
+包含与消息一起传输的通讯簿对象的显示名称。 区域：地址属性 规范名称：PidTagTransmittableDisplayName 替代名称：PR_TRANSMITABLE_DISPLAY_NAME、PR_TRANSMITABLE_DISPLAY_NAME_A、ptagTransmitableDisplayName、PR_TRANSMITABLE_DISPLAY_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransmittableDisplayName;

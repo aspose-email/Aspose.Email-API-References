@@ -1,14 +1,14 @@
 ---
 title: ReadReceiptName
 second_title: Aspose.Email for .NET API 参考
-description: 包含已读回执指向的最终用户的显示名称 区域传输信封 规范名称PidTagReadReceiptName 备用名称ptagReadReceiptDisplayName ReadReceiptDisplayName
+description: 包含已读回执指向的最终用户的显示名称 区域传输信封 规范名称PidTagReadReceiptName 替代名称ptagReadReceiptDisplayNameReadReceiptDisplayName
 type: docs
 weight: 15220
 url: /zh/net/aspose.email.mapi/knownpropertylist/readreceiptname/
 ---
 ## KnownPropertyList.ReadReceiptName field
 
-包含已读回执指向的最终用户的显示名称。 区域:传输信封 规范名称:PidTagReadReceiptName 备用名称:ptagReadReceiptDisplayName, ReadReceiptDisplayName
+包含已读回执指向的最终用户的显示名称。 区域：传输信封 规范名称：PidTagReadReceiptName 替代名称：ptagReadReceiptDisplayName、ReadReceiptDisplayName
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReadReceiptName;

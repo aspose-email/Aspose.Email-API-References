@@ -1,14 +1,14 @@
 ---
 title: MailStorageConverter
 second_title: Aspose.Email for .NET API 参考
-description: 邮件存储转换器提供存储转换操作的服务
+description: 邮件存储转换器为存储转换操作提供服务
 type: docs
-weight: 19940
+weight: 19990
 url: /zh/net/aspose.email.storage/mailstorageconverter/
 ---
 ## MailStorageConverter class
 
-邮件存储转换器提供存储转换操作的服务。
+邮件存储转换器为存储转换操作提供服务。
 
 ```csharp
 public static class MailStorageConverter

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookparententryid/
 ---
 ## KnownPropertyList.AddressBookParentEntryId field
 
-包含地址簿容器层次结构中父容器的 EntryID。 区域:地址簿 规范名称:PidTagAddressBookParentEntryId 备用名称:PR_EMS_AB_PARENT_ENTRYID
+包含地址簿容器层次结构中父容器的 EntryID。 区域：地址簿 规范名称：PidTagAddressBookParentEntryId 备用名称：PR_EMS_AB_PARENT_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookParentEntryId;

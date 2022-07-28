@@ -18,8 +18,8 @@ public Task<HeaderCollection> GetMessageHeadersAsync(int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | Int32 | 连接到服务器 |
-| sequenceNumber | IConnection | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | IConnection | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
@@ -47,8 +47,8 @@ public Task<HeaderCollection> GetMessageHeadersAsync(string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | String | 连接到服务器 |
-| uniqueId | IConnection | 消息的唯一 ID |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | IConnection | 消息的唯一标识 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: CalendarBusystatus
 second_title: Aspose.Email for .NET API 参考
-description: 指定参加者在其日历上的约会时是否忙 区域通用 规范名称PidNameCalendarBusystatus 备用名称urnschemascalendarbusystatus
+description: 指定参加者在其日历上的约会时是否忙 区域Common 规范名称PidNameCalendarBusystatus 备用名称urnschemascalendarbusystatus
 type: docs
 weight: 2190
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarbusystatus/
 ---
 ## KnownPropertyList.CalendarBusystatus field
 
-指定参加者在其日历上的约会时是否忙。 区域:通用 规范名称:PidNameCalendarBusystatus 备用名称:urn:schemas:calendar:busystatus
+指定参加者在其日历上的约会时是否忙。 区域：Common 规范名称：PidNameCalendarBusystatus 备用名称：urn:schemas:calendar:busystatus
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarBusystatus;

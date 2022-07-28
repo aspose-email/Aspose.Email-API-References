@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZone
 second_title: Aspose.Email for .NET API 参考
-description: 表示mapi日历时区信息
+description: 代表mapi日历时区信息
 type: docs
-weight: 18090
+weight: 18120
 url: /zh/net/aspose.email.mapi/mapicalendartimezone/
 ---
 ## MapiCalendarTimeZone class
 
-表示mapi日历时区信息
+代表mapi日历时区信息
 
 ```csharp
 public sealed class MapiCalendarTimeZone
@@ -18,8 +18,8 @@ public sealed class MapiCalendarTimeZone
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiCalendarTimeZone](mapicalendartimezone#constructor)() | 初始化[`MapiCalendarTimeZone`](../mapicalendartimezone)类的新实例。 |
-| [MapiCalendarTimeZone](mapicalendartimezone#constructor_1)(TimeZoneInfo) | 从标准时区创建[`MapiCalendarTimeZone`](../mapicalendartimezone)类的新实例。 |
+| [MapiCalendarTimeZone](mapicalendartimezone#constructor)() | 初始化[`MapiCalendarTimeZone`](../mapicalendartimezone)类. |
+| [MapiCalendarTimeZone](mapicalendartimezone#constructor_1)(TimeZoneInfo) | 创建一个新的实例[`MapiCalendarTimeZone`](../mapicalendartimezone)来自标准时区的类。 |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: RuleMessageState
 second_title: Aspose.Email for .NET API 参考
-description: 包含指定规则状态的标志设置在 FAI 消息上 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageState 备用名称PR_RULE_MSG_STATE ptagRuleMsgState
+description: 包含指定规则状态的标志在 FAI 消息上设置 区域ExchangeNonTransmittableReserved 规范名称PidTagRuleMessageState 备用名称PR_RULE_MSG_STATEptagRuleMsgState
 type: docs
 weight: 16570
 url: /zh/net/aspose.email.mapi/knownpropertylist/rulemessagestate/
 ---
 ## KnownPropertyList.RuleMessageState field
 
-包含指定规则状态的标志。设置在 FAI 消息上。 区域:ExchangeNonTransmittableReserved 规范名称:PidTagRuleMessageState 备用名称:PR_RULE_MSG_STATE, ptagRuleMsgState
+包含指定规则状态的标志。在 FAI 消息上设置。 区域：ExchangeNonTransmittableReserved 规范名称：PidTagRuleMessageState 备用名称：PR_RULE_MSG_STATE、ptagRuleMsgState
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageState;

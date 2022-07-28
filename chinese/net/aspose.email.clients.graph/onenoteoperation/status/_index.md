@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.graph/onenoteoperation/status/
 ---
 ## OnenoteOperation.Status property
 
-操作的当前状态:未启动、运行、完成、失败
+操作的当前状态：未启动、运行、完成、失败
 
 ```csharp
 public string Status { get; }

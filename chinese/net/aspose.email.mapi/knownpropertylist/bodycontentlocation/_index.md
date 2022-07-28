@@ -1,14 +1,14 @@
 ---
 title: BodyContentLocation
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个全局唯一的统一资源标识符 URI用作当前消息正文的标签 区域MIME 属性 规范名称PidTagBodyContentLocation 替代名称PR_BODY_CONTENT_LOCATION PR_BODY_CONTENT_LOCATION_A PR_BODY_CONTENT_LOCATION_W
+description: 包含一个全局唯一的统一资源标识符 URI用作当前消息正文的标签 区域MIME 属性 规范名称PidTagBodyContentLocation 替代名称PR_BODY_CONTENT_LOCATIONPR_BODY_CONTENT_LOCATION_APR_BODY_CONTENT_LOCATION_W
 type: docs
 weight: 2050
 url: /zh/net/aspose.email.mapi/knownpropertylist/bodycontentlocation/
 ---
 ## KnownPropertyList.BodyContentLocation field
 
-包含一个全局唯一的统一资源标识符 (URI)，用作当前消息正文的标签。 区域:MIME 属性 规范名称:PidTagBodyContentLocation 替代名称:PR_BODY_CONTENT_LOCATION, PR_BODY_CONTENT_LOCATION_A, PR_BODY_CONTENT_LOCATION_W
+包含一个全局唯一的统一资源标识符 (URI)，用作当前消息正文的标签。 区域：MIME 属性 规范名称：PidTagBodyContentLocation 替代名称：PR_BODY_CONTENT_LOCATION、PR_BODY_CONTENT_LOCATION_A、PR_BODY_CONTENT_LOCATION_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BodyContentLocation;

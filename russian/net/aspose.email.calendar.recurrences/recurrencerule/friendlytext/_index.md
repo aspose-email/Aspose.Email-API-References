@@ -1,14 +1,14 @@
 ---
 title: FriendlyText
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает удобный для пользователя текст правила.
+description: Получает удобный текст правила.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.calendar.recurrences/recurrencerule/friendlytext/
 ---
 ## RecurrenceRule.FriendlyText property
 
-Получает удобный для пользователя текст правила.
+Получает удобный текст правила.
 
 ```csharp
 public string FriendlyText { get; }

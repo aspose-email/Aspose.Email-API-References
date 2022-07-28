@@ -1,14 +1,14 @@
 ---
 title: ListMessagesAsync
 second_title: Aspose.Email for .NET API 参考
-description: 列出消息 获取每条消息的信息
+description: 列出消息 获取搜索消息的信息
 type: docs
 weight: 300
 url: /zh/net/aspose.email.clients.pop3/pop3client/listmessagesasync/
 ---
 ## ListMessagesAsync(IConnection) {#listmessagesasync_1}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
@@ -24,7 +24,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
 
 ## ListMessagesAsync(IConnection, bool) {#listmessagesasync_8}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -52,11 +52,11 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -79,7 +79,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)对象。 |
+| query | MailQuery | 这[`MailQuery`](../../../aspose.email.tools.search/mailquery)目的。 |
 
 ### 返回值
 
@@ -108,15 +108,15 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| fields | Pop3ListFields | 我们要获取 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
 
 ### 返回值
 
-任务对象，委托为这个操作
+任务对象，具有此操作的委托
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -141,13 +141,13 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| fields | Pop3ListFields | 我们要获取 |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)对象。 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
+| query | MailQuery | 这[`MailQuery`](../../../aspose.email.tools.search/mailquery)目的。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -163,7 +163,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync() {#listmessagesasync}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync()
@@ -171,11 +171,11 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -188,7 +188,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync()
 
 ## ListMessagesAsync(bool) {#listmessagesasync_17}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction)
@@ -196,15 +196,15 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -225,7 +225,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)对象。 |
+| query | MailQuery | 这[`MailQuery`](../../../aspose.email.tools.search/mailquery)目的。 |
 
 ### 返回值
 
@@ -251,7 +251,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fields | Pop3ListFields | 我们想要获取的字段 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
 
 ### 返回值
 
@@ -259,7 +259,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields)
 
 ### 评论
 
-注意消息标记为已删除的未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -282,13 +282,13 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fields | Pop3ListFields | 我们要获取的字段 |
-| closeTransaction | Boolean | 表示如果必须关闭当前事务，则在检索列表之前。 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)对象。 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
+| query | MailQuery | 这[`MailQuery`](../../../aspose.email.tools.search/mailquery)目的。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -303,7 +303,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 
 ## ListMessagesAsync(IConnection, CancellationToken) {#listmessagesasync_10}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -321,7 +321,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -335,7 +335,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(IConnection, bool, CancellationToken) {#listmessagesasync_9}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, 
@@ -350,11 +350,11 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -378,7 +378,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)对象。 |
+| query | MailQuery | 这[`MailQuery`](../../../aspose.email.tools.search/mailquery)目的。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
@@ -408,8 +408,8 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| fields | Pop3ListFields | 我们想要得到 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
@@ -417,7 +417,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -442,14 +442,14 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| fields | Pop3ListFields | 我们要获取 |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)对象。 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
+| query | MailQuery | 这[`MailQuery`](../../../aspose.email.tools.search/mailquery)目的。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -465,7 +465,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 
 ## ListMessagesAsync(CancellationToken) {#listmessagesasync_19}
 
-列出消息。 获取每个搜索消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token)
@@ -473,7 +473,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
@@ -481,7 +481,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -494,7 +494,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token
 
 ## ListMessagesAsync(bool, CancellationToken) {#listmessagesasync_18}
 
-列出消息。 获取每条消息的信息
+列出消息。 获取搜索消息的信息
 
 ```csharp
 public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction, 
@@ -503,16 +503,16 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| closeTransaction | Boolean | 指示当前事务是否必须在检索列表之前关闭。 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -533,7 +533,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query, Cancel
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)对象。 |
+| query | MailQuery | 这[`MailQuery`](../../../aspose.email.tools.search/mailquery)目的。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
@@ -561,8 +561,8 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fields | Pop3ListFields | 我们想要获取的字段 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
@@ -570,7 +570,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 
 ### 评论
 
-请注意，标记为已删除的消息未列出
+请注意，标记为已删除的邮件未列出
 
 ### 也可以看看
 
@@ -593,14 +593,14 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fields | Pop3ListFields | 我们要获取的字段 |
-| closeTransaction | Boolean | 表示如果必须关闭当前事务，则在检索列表之前。 |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)对象。 |
+| fields | Pop3ListFields | 我们想要得到的字段 |
+| closeTransaction | Boolean | 指示在检索列表之前是否必须关闭当前事务。 |
+| query | MailQuery | 这[`MailQuery`](../../../aspose.email.tools.search/mailquery)目的。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 执行从HeaderTypeaspose.email/headertype到String的隐式转换
+description: 从HeaderTypeaspose.email/headertype至String.
 type: docs
 weight: 310
 url: /zh/net/aspose.email/headertype/op_implicit/
 ---
 ## HeaderType Implicit operator
 
-执行从[`HeaderType`](../../headertype)到String的隐式转换。
+从[`HeaderType`](../../headertype)至String.
 
 ```csharp
 public static implicit operator string(HeaderType type)

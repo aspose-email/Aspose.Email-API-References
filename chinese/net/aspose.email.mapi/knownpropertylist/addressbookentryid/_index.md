@@ -1,14 +1,14 @@
 ---
 title: AddressBookEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含引用公用文件夹的目录对象的名称服务条目ID 区域地址簿 规范名称PidTagAddressBookEntryId 备用名称PR_ADDRESS_BOOK_ENTRYID ptagAddressBookEntryId
+description: 包含引用公用文件夹的目录对象的名称服务条目 ID 区域地址簿 规范名称PidTagAddressBookEntryId 替代名称PR_ADDRESS_BOOK_ENTRYIDptagAddressBookEntryId
 type: docs
 weight: 440
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookentryid/
 ---
 ## KnownPropertyList.AddressBookEntryId field
 
-包含引用公用文件夹的目录对象的名称服务条目ID。 区域:地址簿 规范名称:PidTagAddressBookEntryId 备用名称:PR_ADDRESS_BOOK_ENTRYID, ptagAddressBookEntryId
+包含引用公用文件夹的目录对象的名称服务条目 ID。 区域：地址簿 规范名称：PidTagAddressBookEntryId 替代名称：PR_ADDRESS_BOOK_ENTRYID、ptagAddressBookEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookEntryId;

@@ -17,12 +17,12 @@ public Task<string> CopyMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要复制消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public Task<string> CopyMessageAsync(IConnection connection, string uniqueId, st
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -70,12 +70,12 @@ public Task<string> CopyMessageAsync(int sequenceNumber, string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要复制消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -100,7 +100,7 @@ public Task<string> CopyMessageAsync(string uniqueId, string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -122,13 +122,13 @@ public Task<string> CopyMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要复制消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -153,11 +153,11 @@ public Task<string> CopyMessageAsync(IConnection connection, string uniqueId, st
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的uid |
 | folderName | String | 要复制消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -178,13 +178,13 @@ public Task<string> CopyMessageAsync(int sequenceNumber, string folderName, Canc
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要复制消息的文件夹名称 |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -206,11 +206,11 @@ public Task<string> CopyMessageAsync(string uniqueId, string folderName, Cancell
 | --- | --- | --- |
 | uniqueId | String | 消息的uid |
 | folderName | String | 要复制消息的文件夹名称 |
-| token | CancellationToken | 传播应取消操作的通知. |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

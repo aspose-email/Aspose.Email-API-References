@@ -1,14 +1,14 @@
 ---
 title: SearchFolderId
 second_title: Aspose.Email for .NET API 参考
-description: 包含标识搜索文件夹的 GUID 区域搜索 规范名称PidTagSearchFolderId 替代名称PR_WB_SF_ID
+description: 包含标识搜索文件夹的 GUID 区域Search 规范名称PidTagSearchFolderId 替代名称PR_WB_SF_ID
 type: docs
 weight: 16970
 url: /zh/net/aspose.email.mapi/knownpropertylist/searchfolderid/
 ---
 ## KnownPropertyList.SearchFolderId field
 
-包含标识搜索文件夹的 GUID。 区域:搜索 规范名称:PidTagSearchFolderId 替代名称:PR_WB_SF_ID
+包含标识搜索文件夹的 GUID。 区域：Search 规范名称：PidTagSearchFolderId 替代名称：PR_WB_SF_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderId;

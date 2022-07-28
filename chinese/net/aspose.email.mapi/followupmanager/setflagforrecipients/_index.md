@@ -16,14 +16,14 @@ public static void SetFlagForRecipients(MapiMessage message, string flagRequest)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)将在其中设置标志. |
-| flagRequest | String | 指示电子邮件收件人请求的 操作动作的字符串。 |
+| message | MapiMessage | 这[`MapiMessage`](../../mapimessage)其中将设置一个标志。 |
+| flagRequest | String | 一个字符串，指示电子邮件收件人请求的 操作操作。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 | ArgumentException | 如果*flagRequest*为空或为空。 |
 | InvalidOperationException | 如果消息未设置为草稿模式。 |
 
@@ -47,15 +47,15 @@ public static void SetFlagForRecipients(MapiMessage message, string flagRequest,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)将在其中设置标志. |
-| flagRequest | String | 指示电子邮件收件人请求的 操作动作的字符串。 |
+| message | MapiMessage | 这[`MapiMessage`](../../mapimessage)其中将设置一个标志。 |
+| flagRequest | String | 一个字符串，指示电子邮件收件人请求的 操作操作。 |
 | reminderTime | DateTime | 指示应发生提醒的日期和时间 的日期。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 | ArgumentException | 如果*flagRequest*为空或为空。 |
 | InvalidOperationException | 如果消息未设置为草稿模式。 |
 

@@ -1,14 +1,14 @@
 ---
 title: Availability
 second_title: Aspose.Email for .NET API 参考
-description: 向服务器指示客户端正在请求空闲/忙碌数据并标识要检索的空闲/忙碌数据的开始时间和结束时间 当 ResolveRecipients 请求中包含可用性时服务器检索请求中包含的 To 元素中标识的用户的忙/闲信息并在响应中的 MergedFreeBusy 中返回忙/闲信息. 如果可用性元素包含在 ResolveRecipients 请求中则请求还必须包含有效的 StartTime 值和 EndTime 值 服务器解析请求时首先解析To元素标识的接收者然后判断指定时间段内的用户忙/闲信息然后返回合并空闲忙碌
+description: 向服务器指示客户端正在请求空闲/忙碌数据并标识要检索的空闲/忙碌数据的开始时间和结束时间 当可用性包含在 ResolveRecipients 请求中时服务器会检索空闲/忙碌数据请求中包含的 To 元素中标识的用户的信息并在响应中的 MergedFreeBusy 中返回忙/闲信息 如果可用性元素包含在 ResolveRecipients 请求中则请求还必须包含有效的 StartTime 值和 EndTime 值 服务器解析请求时首先解析To元素标识的接收者然后判断指定时间段内的用户忙/闲信息然后在MergedFreeBusy中返回忙/闲数据
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/availability/
 ---
 ## ResolveRecipientsOptions.Availability property
 
-向服务器指示客户端正在请求空闲/忙碌数据，并标识要检索的空闲/忙碌数据的开始时间和结束时间。 当 ResolveRecipients 请求中包含可用性时，服务器检索请求中包含的 To 元素中标识的用户的忙/闲信息，并在响应中的 MergedFreeBusy 中返回忙/闲信息. 如果可用性元素包含在 ResolveRecipients 请求中，则请求还必须包含有效的 StartTime 值和 EndTime 值。 服务器解析请求时，首先解析To元素标识的接收者，然后判断指定时间段内的用户忙/闲信息，然后返回合并空闲忙碌。
+向服务器指示客户端正在请求空闲/忙碌数据，并标识要检索的空闲/忙碌数据的开始时间和结束时间。 当可用性包含在 ResolveRecipients 请求中时，服务器会检索空闲/忙碌数据请求中包含的 To 元素中标识的用户的信息，并在响应中的 MergedFreeBusy 中返回忙/闲信息。 如果可用性元素包含在 ResolveRecipients 请求中，则请求还必须包含有效的 StartTime 值和 EndTime 值。 服务器解析请求时，首先解析To元素标识的接收者，然后判断指定时间段内的用户忙/闲信息，然后在MergedFreeBusy中返回忙/闲数据。
 
 ```csharp
 public ResolveRecipientsAvailabilityRequest Availability { get; set; }

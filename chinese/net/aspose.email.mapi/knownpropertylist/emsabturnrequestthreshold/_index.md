@@ -1,14 +1,14 @@
 ---
 title: EmsAbTurnRequestThreshold
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_TURN_REQUEST_THRESHOLD
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_TURN_REQUEST_THRESHOLD
 type: docs
 weight: 9260
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabturnrequestthreshold/
 ---
 ## KnownPropertyList.EmsAbTurnRequestThreshold field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_TURN_REQUEST_THRESHOLD
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_TURN_REQUEST_THRESHOLD
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbTurnRequestThreshold;

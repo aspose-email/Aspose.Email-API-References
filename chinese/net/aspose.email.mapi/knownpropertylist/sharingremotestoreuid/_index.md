@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteStoreUid
 second_title: Aspose.Email for .NET API 参考
-description: 包含共享文件夹上 PidTagStoreEntryId 属性第 2.1018 节值的十六进制字符串表示 区域共享 规范名称PidLidSharingRemoteStoreUid 替代名称dispidSharingRemoteStoreUid
+description: 包含共享文件夹上 PidTagStoreEntryId 属性第 2.1018 节值的十六进制字符串表示形式 区域Sharing 规范名称PidLidSharingRemoteStoreUid 替代名称dispidSharingRemoteStoreUid
 type: docs
 weight: 17850
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingremotestoreuid/
 ---
 ## KnownPropertyList.SharingRemoteStoreUid field
 
-包含共享文件夹上 PidTagStoreEntryId 属性（第 2.1018 节）值的十六进制字符串表示。 区域:共享 规范名称:PidLidSharingRemoteStoreUid 替代名称:dispidSharingRemoteStoreUid
+包含共享文件夹上 PidTagStoreEntryId 属性（第 2.1018 节）值的十六进制字符串表示形式。 区域：Sharing 规范名称：PidLidSharingRemoteStoreUid 替代名称：dispidSharingRemoteStoreUid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteStoreUid;

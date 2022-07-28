@@ -1,14 +1,14 @@
 ---
 title: InstanceKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含 NSPI 服务器上的对象 区域表属性 规范名称PidTagInstanceKey 备用名称PR_INSTANCE_KEY ptagInstanceKey
+description: 包含 NSPI 服务器上的对象 区域表 Properties 规范名称PidTagInstanceKey 替代名称PR_INSTANCE_KEYptagInstanceKey
 type: docs
 weight: 11360
 url: /zh/net/aspose.email.mapi/knownpropertylist/instancekey/
 ---
 ## KnownPropertyList.InstanceKey field
 
-包含 NSPI 服务器上的对象。 区域:表属性 规范名称:PidTagInstanceKey 备用名称:PR_INSTANCE_KEY, ptagInstanceKey
+包含 NSPI 服务器上的对象。 区域：表 Properties 规范名称：PidTagInstanceKey 替代名称：PR_INSTANCE_KEY、ptagInstanceKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InstanceKey;

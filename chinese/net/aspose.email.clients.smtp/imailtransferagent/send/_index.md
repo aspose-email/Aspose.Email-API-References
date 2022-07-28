@@ -16,7 +16,7 @@ public void Send(MailMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | 电子邮件消息。 |
+| message | MailMessage | 电子邮件。 |
 
 ### 也可以看看
 

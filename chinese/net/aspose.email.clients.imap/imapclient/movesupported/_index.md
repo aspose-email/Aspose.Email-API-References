@@ -1,14 +1,14 @@
 ---
 title: MoveSupported
 second_title: Aspose.Email for .NET API 参考
-description: 获取是否支持 MOVE 扩展的信息 查看更多https//tools.ietf.org/html/rfc6851
+description: 获取是否支持MOVE扩展的信息 查看更多https//tools.ietf.org/html/rfc6851
 type: docs
 weight: 190
 url: /zh/net/aspose.email.clients.imap/imapclient/movesupported/
 ---
 ## ImapClient.MoveSupported property
 
-获取是否支持 MOVE 扩展的信息 查看更多:https://tools.ietf.org/html/rfc6851
+获取是否支持MOVE扩展的信息 查看更多：https://tools.ietf.org/html/rfc6851
 
 ```csharp
 public bool MoveSupported { get; set; }

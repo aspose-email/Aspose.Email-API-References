@@ -1,14 +1,14 @@
 ---
 title: FreeText
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает строковое значение для поиска. Если для свойства FreeText установлено значение отличное от свойства And сервер отвечает значением состояния равным 8 SearchTooComplex.
+description: Указывает строковое значение для поиска. Если для свойства FreeText задано значение отличное от свойства And сервер отвечает значением состояния 8 SearchTooComplex.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activesync.transportlayer/querytype/freetext/
 ---
 ## QueryType.FreeText property
 
-Задает строковое значение для поиска. Если для свойства FreeText установлено значение, отличное от свойства And, сервер отвечает значением состояния, равным 8 (SearchTooComplex).
+Указывает строковое значение для поиска. Если для свойства FreeText задано значение, отличное от свойства And, сервер отвечает значением состояния 8 (SearchTooComplex).
 
 ```csharp
 public string FreeText { get; set; }

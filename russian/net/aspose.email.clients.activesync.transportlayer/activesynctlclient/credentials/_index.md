@@ -1,14 +1,14 @@
 ---
 title: Credentials
 second_title: Справочник по Aspose.Email для .NET API
-description: Учетные данные пользователя для сервера Exchange
+description: Учетные данные пользователя для Exchange server
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activesync.transportlayer/activesynctlclient/credentials/
 ---
 ## ActiveSyncTLClient.Credentials property
 
-Учетные данные пользователя для сервера Exchange
+Учетные данные пользователя для Exchange server
 
 ```csharp
 public virtual NetworkCredential Credentials { get; }

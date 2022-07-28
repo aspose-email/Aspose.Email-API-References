@@ -1,14 +1,14 @@
 ---
 title: MailAddressCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示MailAddress./mailaddress对象的集合
+description: 代表一个集合MailAddress./mailaddress对象.
 type: docs
 weight: 17690
 url: /zh/net/aspose.email/mailaddresscollection/
 ---
 ## MailAddressCollection class
 
-表示[`MailAddress`](../mailaddress)对象的集合。
+代表一个集合[`MailAddress`](../mailaddress)对象.
 
 ```csharp
 public class MailAddressCollection : Collection<MailAddress>
@@ -24,13 +24,13 @@ public class MailAddressCollection : Collection<MailAddress>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.email/mailaddresscollection/add#add)(MailAddress) | 将[`MailAddress`](../mailaddress)添加到集合中。 |
+| [Add](../../aspose.email/mailaddresscollection/add#add)(MailAddress) | 添加一个[`MailAddress`](../mailaddress)收藏. |
 | [Add](../../aspose.email/mailaddresscollection/add#add_2)(string) | 将电子邮件地址列表添加到集合中。 |
 | [AddRange](../../aspose.email/mailaddresscollection/addrange#addrange_1)(IEnumerable&lt;MailAddress&gt;) | 将地址添加到集合 |
 | [AddRange](../../aspose.email/mailaddresscollection/addrange#addrange)(MailAddressCollection) | 将地址添加到集合 |
 | [Copy](../../aspose.email/mailaddresscollection/copy)() | 复制此实例。 |
-| override [ToString](../../aspose.email/mailaddresscollection/tostring)() | 返回代表此实例的String。 |
-| [implicit operator](../../aspose.email/mailaddresscollection/op_implicit#op_implicit) | 执行从[`MailAddress`](../mailaddress)到[`MailAddressCollection`](../mailaddresscollection) 的隐式转换. (2 operators) |
+| override [ToString](../../aspose.email/mailaddresscollection/tostring)() | 返回一个String代表这个实例。 |
+| [implicit operator](../../aspose.email/mailaddresscollection/op_implicit#op_implicit) | 从[`MailAddress`](../mailaddress)至[`MailAddressCollection`](../mailaddresscollection). (2 operators) |
 
 ### 也可以看看
 

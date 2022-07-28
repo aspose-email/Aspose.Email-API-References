@@ -1,14 +1,14 @@
 ---
 title: HtmlFormat
 second_title: Aspose.Email for .NET API 参考
-description: 获取 Html
+description: 获取 Html.
 type: docs
 weight: 30
 url: /zh/net/aspose.email/mailmessagesavetype/htmlformat/
 ---
 ## MailMessageSaveType.HtmlFormat property
 
-获取 Html。
+获取 Html.
 
 ```csharp
 public static MailMessageSaveType HtmlFormat { get; }
@@ -16,7 +16,7 @@ public static MailMessageSaveType HtmlFormat { get; }
 
 ### 适当的价值
 
-Html。
+的HTML。
 
 ### 也可以看看
 

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.graph/notebook/lastmodifieddatetime/
 ---
 ## Notebook.LastModifiedDateTime property
 
-上次修改笔记本的日期和时间。 时间戳表示使用 ISO 8601 格式的日期和时间信息，并且始终采用 UTC 时间。 例如，2014 年 1 月 1 日午夜 UTC 将如下所示:'2014-01-01T00:00:00Z'。 只读。
+上次修改笔记本的日期和时间。 时间戳表示使用 ISO 8601 格式的日期和时间信息，并且始终采用 UTC 时间。 例如，2014 年 1 月 1 日午夜 UTC 将如下所示：'2014-01-01T00:00:00Z'。 只读。
 
 ```csharp
 public DateTimeOffset LastModifiedDateTime { get; }

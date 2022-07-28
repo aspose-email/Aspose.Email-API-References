@@ -1,14 +1,14 @@
 ---
 title: TagExceptionReplaceTime
 second_title: Aspose.Email for .NET API 参考
-description: 以 UTC 表示原始日期和时间如果不是异常重复模式中的实例将在该日期和时间发生 区域MessageClassDefinedNonTransmittable 规范名称PidTagExceptionReplaceTime 替代名称PR_EXCEPTION_REPLACETIME
+description: 以 UTC 表示的原始日期和时间如果不是异常重复模式中的实例将在该日期和时间发生 区域MessageClassDefinedNonTransmittable 规范名称PidTagExceptionReplaceTime 替代名称PR_EXCEPTION_REPLACETIME
 type: docs
 weight: 18470
 url: /zh/net/aspose.email.mapi/knownpropertylist/tagexceptionreplacetime/
 ---
 ## KnownPropertyList.TagExceptionReplaceTime field
 
-以 UTC 表示原始日期和时间，如果不是异常，重复模式中的实例将在该日期和时间发生。 区域:MessageClassDefinedNonTransmittable 规范名称:PidTagExceptionReplaceTime 替代名称:PR_EXCEPTION_REPLACETIME
+以 UTC 表示的原始日期和时间，如果不是异常，重复模式中的实例将在该日期和时间发生。 区域：MessageClassDefinedNonTransmittable 规范名称：PidTagExceptionReplaceTime 替代名称：PR_EXCEPTION_REPLACETIME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TagExceptionReplaceTime;

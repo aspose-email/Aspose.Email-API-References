@@ -1,14 +1,14 @@
 ---
 title: GetApplicationDataList
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает список контейнеров данных для выбранного элемента
+description: Получает список контейнеров данных для выбранного element
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist/
 ---
 ## GetApplicationDataList(AirSync) {#getapplicationdatalist}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(AirSync elementName)
@@ -33,7 +33,7 @@ public List<DataContainer> GetApplicationDataList(AirSync elementName)
 
 ## GetApplicationDataList(AirSyncBase) {#getapplicationdatalist_1}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(AirSyncBase elementName)
@@ -58,7 +58,7 @@ public List<DataContainer> GetApplicationDataList(AirSyncBase elementName)
 
 ## GetApplicationDataList(Email) {#getapplicationdatalist_6}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(Email elementName)
@@ -83,7 +83,7 @@ public List<DataContainer> GetApplicationDataList(Email elementName)
 
 ## GetApplicationDataList(Email2) {#getapplicationdatalist_7}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(Email2 elementName)
@@ -108,7 +108,7 @@ public List<DataContainer> GetApplicationDataList(Email2 elementName)
 
 ## GetApplicationDataList(Calendar) {#getapplicationdatalist_2}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(Calendar elementName)
@@ -133,7 +133,7 @@ public List<DataContainer> GetApplicationDataList(Calendar elementName)
 
 ## GetApplicationDataList(DocumentLibrary) {#getapplicationdatalist_5}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(DocumentLibrary elementName)
@@ -158,7 +158,7 @@ public List<DataContainer> GetApplicationDataList(DocumentLibrary elementName)
 
 ## GetApplicationDataList(Contacts) {#getapplicationdatalist_3}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(Contacts elementName)
@@ -183,7 +183,7 @@ public List<DataContainer> GetApplicationDataList(Contacts elementName)
 
 ## GetApplicationDataList(Contacts2) {#getapplicationdatalist_4}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(Contacts2 elementName)
@@ -208,7 +208,7 @@ public List<DataContainer> GetApplicationDataList(Contacts2 elementName)
 
 ## GetApplicationDataList(Tasks) {#getapplicationdatalist_14}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(Tasks elementName)
@@ -233,7 +233,7 @@ public List<DataContainer> GetApplicationDataList(Tasks elementName)
 
 ## GetApplicationDataList(Notes) {#getapplicationdatalist_10}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(Notes elementName)
@@ -258,7 +258,7 @@ public List<DataContainer> GetApplicationDataList(Notes elementName)
 
 ## GetApplicationDataList(RightsManagement) {#getapplicationdatalist_11}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(RightsManagement elementName)
@@ -283,7 +283,7 @@ public List<DataContainer> GetApplicationDataList(RightsManagement elementName)
 
 ## GetApplicationDataList(Settings) {#getapplicationdatalist_13}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(Settings elementName)
@@ -308,7 +308,7 @@ public List<DataContainer> GetApplicationDataList(Settings elementName)
 
 ## GetApplicationDataList(ItemOperations) {#getapplicationdatalist_9}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(ItemOperations elementName)
@@ -333,7 +333,7 @@ public List<DataContainer> GetApplicationDataList(ItemOperations elementName)
 
 ## GetApplicationDataList(GAL) {#getapplicationdatalist_8}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(GAL elementName)
@@ -358,7 +358,7 @@ public List<DataContainer> GetApplicationDataList(GAL elementName)
 
 ## GetApplicationDataList(Search) {#getapplicationdatalist_12}
 
-Получает список контейнеров данных для выбранного элемента
+Получает список контейнеров данных для выбранного element
 
 ```csharp
 public List<DataContainer> GetApplicationDataList(Search elementName)

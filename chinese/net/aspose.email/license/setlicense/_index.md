@@ -16,29 +16,29 @@ public void SetLicense(string licenseName)
 
 ### 评论
 
-尝试在以下位置查找许可证:
+尝试在以下位置查找许可证：
 
 1. 显式路径。
 
-2. 组件的文件夹。
+2. 组件装配的文件夹。
 
 3. 客户端调用程序集的文件夹。
 
-4. 入口程序集所在文件夹。
+4.入口组件的文件夹。
 
 5. 客户端调用程序集中的嵌入资源。
 
-**注意:** 在 .NET Compact Framework 上，尝试仅在这些位置查找许可证
+**笔记：**在 .NET Compact Framework 上，尝试仅在以下位置查找许可证：
 
 1. 显式路径。
 
 2. 客户端调用程序集中的嵌入资源。
 
-2. 组件jar文件所在文件夹。
+2.组件jar文件所在的文件夹。
 
 ### 例子
 
-在本例中，将尝试查找一个名为 MyLicense.lic 的许可证文件，位于包含  组件的文件夹中，在包含调用程序集的文件夹中， 在条目程序集的文件夹中，然后在调用程序集的嵌入资源中。
+在此示例中，将尝试在包含 的文件夹中查找名为 MyLicense.lic 的许可证文件 组件，在包含调用程序集的文件夹中， 在入口程序集的文件夹中，然后在调用程序集的嵌入资源中。
 
 ```csharp
 [C#]
@@ -53,14 +53,14 @@ Dim license As License = New License
 license.SetLicense("MyLicense.lic")
 ```
 
-组件jar文件:
+组件 jar 文件：
 
 ```csharp
 License license = new License();
 license.setLicense("MyLicense.lic");
 ```
 
-可以是完整或短文件名 或嵌入的名称资源 。 使用空字符串切换到评估模式。
+可以是完整或短文件名或嵌入资源的名称. 使用空字符串切换到评估模式。
 
 ### 也可以看看
 
@@ -84,7 +84,7 @@ public void SetLicense(Stream stream)
 
 ### 评论
 
-使用此方法从流中加载许可证。
+使用此方法从流加载许可证。
 
 ### 例子
 
@@ -122,17 +122,17 @@ public void SetLicense(FileInfo licenseFile)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| licenseFile | FileInfo | 许可证文件FileInfo。 |
+| licenseFile | FileInfo | 许可证文件FileInfo. |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *licenseFile*为空。 |
-| FileNotFoundException | 找不到文件。 |
-| UnauthorizedAccessException | 文件是只读的或者是目录。 |
+| ArgumentNullException | *licenseFile*一片空白。 |
+| FileNotFoundException | 未找到该文件。 |
+| UnauthorizedAccessException | 该文件是只读的或者是一个目录。 |
 | DirectoryNotFoundException | 指定的路径无效，例如位于未映射的驱动器上。 |
-| IOException | 文件已经打开。 |
+| IOException | 该文件已打开。 |
 
 ### 也可以看看
 

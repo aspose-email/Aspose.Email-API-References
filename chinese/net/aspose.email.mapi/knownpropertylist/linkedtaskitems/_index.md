@@ -1,14 +1,14 @@
 ---
 title: LinkedTaskItems
 second_title: Aspose.Email for .NET API 参考
-description: 指示用户是否未在会议响应对象的正文中包含任何文本 区域任务 规范名称PidLidLinkedTaskItems 替代名称dispidLinkedTaskItems
+description: 指示用户是否未在会议响应对象的正文中包含任何文本 区域Tasks 规范名称PidLidLinkedTaskItems 替代名称dispidLinkedTaskItems
 type: docs
 weight: 12100
 url: /zh/net/aspose.email.mapi/knownpropertylist/linkedtaskitems/
 ---
 ## KnownPropertyList.LinkedTaskItems field
 
-指示用户是否未在会议响应对象的正文中包含任何文本。 区域:任务 规范名称:PidLidLinkedTaskItems 替代名称:dispidLinkedTaskItems
+指示用户是否未在会议响应对象的正文中包含任何文本。 区域：Tasks 规范名称：PidLidLinkedTaskItems 替代名称：dispidLinkedTaskItems
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LinkedTaskItems;

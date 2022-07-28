@@ -3,7 +3,7 @@ title: GetAppointmentText
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает текст календаря.
 type: docs
-weight: 310
+weight: 320
 url: /ru/net/aspose.email.calendar/appointment/getappointmenttext/
 ---
 ## GetAppointmentText() {#getappointmenttext}
@@ -36,7 +36,7 @@ public string GetAppointmentText(AppointmentFormattingOptions formattingOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formattingOptions | AppointmentFormattingOptions | [`AppointmentFormattingOptions`](../../appointmentformattingoptions)который представляет параметры форматирования встречи. |
+| formattingOptions | AppointmentFormattingOptions | [`AppointmentFormattingOptions`](../../appointmentformattingoptions) который представляет параметры форматирования встречи. |
 
 ### Возвращаемое значение
 
@@ -46,7 +46,7 @@ public string GetAppointmentText(AppointmentFormattingOptions formattingOptions)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выдает, когда*formattingOptions*is` null` . |
+| ArgumentNullException | бросает, когда*formattingOptions* является`нулевой`. |
 
 ### Смотрите также
 

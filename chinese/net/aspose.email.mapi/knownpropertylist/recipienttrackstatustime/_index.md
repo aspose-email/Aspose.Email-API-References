@@ -1,14 +1,14 @@
 ---
 title: RecipientTrackStatusTime
 second_title: Aspose.Email for .NET API 参考
-description: 表示与会者响应的日期和时间 区域TransportRecipient 规范名称PidTagRecipientTrackStatusTime 备用名称PR_RECIPIENT_TRACKSTATUS_TIME ptagRecipientTrackStatusTime
+description: 表示与会者响应的日期和时间 区域TransportRecipient 规范名称PidTagRecipientTrackStatusTime 别名PR_RECIPIENT_TRACKSTATUS_TIMEptagRecipientTrackStatusTime
 type: docs
 weight: 15550
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipienttrackstatustime/
 ---
 ## KnownPropertyList.RecipientTrackStatusTime field
 
-表示与会者响应的日期和时间。 区域:TransportRecipient 规范名称:PidTagRecipientTrackStatusTime 备用名称:PR_RECIPIENT_TRACKSTATUS_TIME, ptagRecipientTrackStatusTime
+表示与会者响应的日期和时间。 区域：TransportRecipient 规范名称：PidTagRecipientTrackStatusTime 别名：PR_RECIPIENT_TRACKSTATUS_TIME、ptagRecipientTrackStatusTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientTrackStatusTime;

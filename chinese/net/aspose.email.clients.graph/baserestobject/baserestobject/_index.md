@@ -1,14 +1,14 @@
 ---
 title: BaseRestObject
 second_title: Aspose.Email for .NET API 参考
-description: 初始化FolderInfoaspose.email.clients.graph/folderinfo类的新实例
+description: 初始化FolderInfoaspose.email.clients.graph/folderinfo类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.graph/baserestobject/baserestobject/
 ---
 ## BaseRestObject constructor
 
-初始化[`FolderInfo`](../../folderinfo)类的新实例。
+初始化[`FolderInfo`](../../folderinfo)类.
 
 ```csharp
 public BaseRestObject(MapiPropertyCollection properties, PropertyDescriptor[] explicitProperties)
@@ -17,7 +17,7 @@ public BaseRestObject(MapiPropertyCollection properties, PropertyDescriptor[] ex
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | properties | MapiPropertyCollection | 此文件夹的 MapiProperties |
-| explicitProperties | PropertyDescriptor[] | 包含作为显式对象属性传输的 MAPI 属性 |
+| explicitProperties | PropertyDescriptor[] | 包含作为显式对象属性传输的 MAPI 属性的枚举 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AlternateView
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAlternateViewaspose.email/alternateview.
+description: Инициализирует новый экземплярAlternateViewaspose.email/alternateview класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/alternateview/alternateview/
 ---
 ## AlternateView(string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AlternateView`](../../alternateview).
+Инициализирует новый экземпляр[`AlternateView`](../../alternateview) класс.
 
 ```csharp
 public AlternateView(string fileName)
@@ -28,7 +28,7 @@ public AlternateView(string fileName)
 
 ## AlternateView(string, string) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`AlternateView`](../../alternateview).
+Инициализирует новый экземпляр[`AlternateView`](../../alternateview) класс.
 
 ```csharp
 public AlternateView(string fileName, string mediaType)
@@ -37,7 +37,7 @@ public AlternateView(string fileName, string mediaType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| mediaType | String | Тип интернет-носителя. |
+| mediaType | String | Тип интернет-СМИ. |
 
 ### Смотрите также
 
@@ -49,7 +49,7 @@ public AlternateView(string fileName, string mediaType)
 
 ## AlternateView(string, ContentType) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`AlternateView`](../../alternateview).
+Инициализирует новый экземпляр[`AlternateView`](../../alternateview) класс.
 
 ```csharp
 public AlternateView(string fileName, ContentType contentType)
@@ -71,7 +71,7 @@ public AlternateView(string fileName, ContentType contentType)
 
 ## AlternateView(Stream) {#constructor}
 
-Инициализирует новый экземпляр класса[`AlternateView`](../../alternateview).
+Инициализирует новый экземпляр[`AlternateView`](../../alternateview) класс.
 
 ```csharp
 public AlternateView(Stream contentStream)
@@ -91,7 +91,7 @@ public AlternateView(Stream contentStream)
 
 ## AlternateView(Stream, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AlternateView`](../../alternateview).
+Инициализирует новый экземпляр[`AlternateView`](../../alternateview) класс.
 
 ```csharp
 public AlternateView(Stream contentStream, string mediaType)
@@ -100,7 +100,7 @@ public AlternateView(Stream contentStream, string mediaType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | contentStream | Stream | Поток контента. |
-| mediaType | String | Тип интернет-носителя. |
+| mediaType | String | Тип интернет-СМИ. |
 
 ### Смотрите также
 
@@ -112,7 +112,7 @@ public AlternateView(Stream contentStream, string mediaType)
 
 ## AlternateView(Stream, ContentType) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AlternateView`](../../alternateview).
+Инициализирует новый экземпляр[`AlternateView`](../../alternateview) класс.
 
 ```csharp
 public AlternateView(Stream contentStream, ContentType contentType)

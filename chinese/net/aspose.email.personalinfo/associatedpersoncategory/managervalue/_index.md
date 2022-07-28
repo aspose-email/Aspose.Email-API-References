@@ -1,14 +1,14 @@
 ---
 title: ManagerValue
 second_title: Aspose.Email for .NET API 参考
-description: Manager 类别的字符串值
+description: 经理类别的字符串值
 type: docs
 weight: 290
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/managervalue/
 ---
 ## AssociatedPersonCategory.ManagerValue field
 
-'Manager' 类别的字符串值
+“经理”类别的字符串值
 
 ```csharp
 public const string ManagerValue;

@@ -1,14 +1,14 @@
 ---
 title: HasAttachments
 second_title: Aspose.Email for .NET API 参考
-description: 指示 Message 对象是否包含至少一个附件 区域消息附件属性 属性集 规范名称PidTagHasAttachments 替代名称PR_HASATTACH ptagHasAttach urnschemashttpmailhasattachment
+description: 指示消息对象是否包含至少一个附件 区域消息附件属性属性 set 规范名称PidTagHasAttachments 备用名称PR_HASATTACHptagHasAttachurnschemashttpmailhasattachment
 type: docs
 weight: 10840
 url: /zh/net/aspose.email.mapi/knownpropertylist/hasattachments/
 ---
 ## KnownPropertyList.HasAttachments field
 
-指示 Message 对象是否包含至少一个附件。 区域:消息附件属性 属性集 规范名称:PidTagHasAttachments 替代名称:PR_HASATTACH, ptagHasAttach, urn:schemas:httpmail:hasattachment
+指示消息对象是否包含至少一个附件。 区域：消息附件属性属性 set 规范名称：PidTagHasAttachments 备用名称：PR_HASATTACH、ptagHasAttach、urn:schemas:httpmail:hasattachment
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HasAttachments;

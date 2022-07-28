@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/startdate/
 ---
 ## KnownPropertyList.StartDate field
 
-包含 PidLidAppointmentStartWhole 属性的值（第 2.29 节）。 区域:MapiEnvelope 规范名称:PidTagStartDate 替代名称:PR_START_DATE，http://schemas.microsoft.com/mapi/start_date
+包含 PidLidAppointmentStartWhole 属性的值（第 2.29 节）。 区域：MapiEnvelope 规范名称：PidTagStartDate 替代名称：PR_START_DATE，http://schemas.microsoft.com/mapi/start_date
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StartDate;

@@ -1,14 +1,14 @@
 ---
 title: Proxy
 second_title: Aspose.Email for .NET API 参考
-description: 基础代理客户端
+description: 基本代理客户端
 type: docs
 weight: 16940
 url: /zh/net/aspose.email.clients/proxy/
 ---
 ## Proxy class
 
-基础代理客户端。
+基本代理客户端。
 
 ```csharp
 public abstract class Proxy : IDisposable
@@ -21,14 +21,14 @@ public abstract class Proxy : IDisposable
 | [Address](../../aspose.email.clients/proxy/address) { get; set; } | 代理服务器的域名或IP地址 |
 | [Password](../../aspose.email.clients/proxy/password) { get; set; } | 代理认证密码 |
 | [Port](../../aspose.email.clients/proxy/port) { get; set; } | 代理服务器的端口号 |
-| [Username](../../aspose.email.clients/proxy/username) { get; set; } | 代理认证用户名 |
+| [Username](../../aspose.email.clients/proxy/username) { get; set; } | 代理身份验证的用户名 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Dispose](../../aspose.email.clients/proxy/dispose)() | 释放此实例并请求关闭底层 TCP 连接。 |
-| [GetStream](../../aspose.email.clients/proxy/getstream)(string, int) | 返回配置的网络流，通过代理服务器将数据传输到所需的主机。 |
+| [GetStream](../../aspose.email.clients/proxy/getstream)(string, int) | 返回配置的网络流以通过代理服务器将数据传输到所需的主机。 |
 | abstract [SetUpStream](../../aspose.email.clients/proxy/setupstream)(Stream, string, int) | 配置代理服务器以将数据传输到目标主机。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: IncompleteCopy
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_INCOMPLETE_COPY
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_INCOMPLETE_COPY
 type: docs
 weight: 11300
 url: /zh/net/aspose.email.mapi/knownpropertylist/incompletecopy/
 ---
 ## KnownPropertyList.IncompleteCopy field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_INCOMPLETE_COPY
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_INCOMPLETE_COPY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IncompleteCopy;

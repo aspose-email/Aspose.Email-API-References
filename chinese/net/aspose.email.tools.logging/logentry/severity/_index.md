@@ -1,14 +1,14 @@
 ---
 title: Severity
 second_title: Aspose.Email for .NET API 参考
-description: 日志条目严重性作为Severityaspose.email.tools.logging/logentry/severity枚举 未指定信息警告或错误
+description: 日志条目严重性作为Severityaspose.email.tools.logging/logentry/severity枚举 未指定信息警告或错误.
 type: docs
 weight: 130
 url: /zh/net/aspose.email.tools.logging/logentry/severity/
 ---
 ## LogEntry.Severity property
 
-日志条目严重性作为`Severity`枚举。 （未指定、信息、警告或错误）。
+日志条目严重性作为`Severity`枚举。 （未指定、信息、警告或错误）.
 
 ```csharp
 public LogLevel Severity { get; set; }

@@ -46,7 +46,7 @@ public ItemEstimate[] GetItemEstimate(params ItemEstimateRequest[] request)
 
 ### 返回值
 
-包含带有估计的数组在请求的文件夹
+包含对请求的文件夹进行估计的数组
 
 ### 也可以看看
 
@@ -68,11 +68,11 @@ public ItemEstimate[] GetItemEstimate(IEnumerable<ItemEstimateRequest> request)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| request | IEnumerable`1 | 带有 ItemEstimate 请求参数的枚举 |
+| request | IEnumerable`1 | 使用 ItemEstimate 请求参数进行枚举 |
 
 ### 返回值
 
-包含带有估计的数组在请求的文件夹
+包含对请求的文件夹进行估计的数组
 
 ### 也可以看看
 

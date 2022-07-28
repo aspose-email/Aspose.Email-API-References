@@ -25,14 +25,14 @@ public class SyncOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [BodyPartPreference](../../aspose.email.clients.activesync.transportlayer/syncoptions/bodypartpreference) { get; } | 包含与从搜索、同步或获取消息部分返回的信息的类型和大小相关的首选项信息。 |
-| [BodyPreference](../../aspose.email.clients.activesync.transportlayer/syncoptions/bodypreference) { get; } | 包含与搜索、同步或获取返回的信息的类型和大小相关的首选项信息。 |
+| [BodyPreference](../../aspose.email.clients.activesync.transportlayer/syncoptions/bodypreference) { get; } | 包含与从搜索、同步或获取返回的信息的类型和大小相关的首选项信息。 |
 | [Class](../../aspose.email.clients.activesync.transportlayer/syncoptions/class) { get; set; } | 指定要添加到集合中的项目的类。 |
-| [Conflict](../../aspose.email.clients.activesync.transportlayer/syncoptions/conflict) { get; set; } | 指定如何解决在客户端和服务器上都更改对象时发生的冲突。 该值指定在发生冲突时保留哪个对象（客户端对象或服务器对象）。 如果没有定义值，当发生冲突时，服务器对象将替换客户端对象。 |
+| [Conflict](../../aspose.email.clients.activesync.transportlayer/syncoptions/conflict) { get; set; } | 指定如何解决在客户端和服务器上都更改对象时发生的冲突。 该值指定在发生冲突时保留哪个对象（客户端对象或服务器对象）。 如果未定义值，则在发生冲突时服务器对象将替换客户端对象。 |
 | [FilterType](../../aspose.email.clients.activesync.transportlayer/syncoptions/filtertype) { get; set; } | 指定从服务器发送到客户端的对象的可选时间窗口。 |
-| [MaxItems](../../aspose.email.clients.activesync.transportlayer/syncoptions/maxitems) { get; set; } | 指定从收件人信息缓存中保持同步的收件人（即最常用的前 N 个收件人）的最大数量。 只有当 CollectionId 元素（第 2.2.3.30.5 节）的值映射到接收者信息缓存时，该元素才必须包含在请求中。 MaxItems 元素的值没有指定对收件人信息缓存进行的添加和删除的最大估计， 它只指定要保持同步的收件人数量。 每个收件人的完全替换将是商店中 MaxItems 或项目数量的两倍，因为每个收件人更新都需要删除和添加。 |
+| [MaxItems](../../aspose.email.clients.activesync.transportlayer/syncoptions/maxitems) { get; set; } | 指定要在收件人信息缓存中保持同步的最大收件人数（即最常用的前 N 个收件人）。 只有当 CollectionId 元素（第 2.2.3.30.5 节）的值映射到收件人信息缓存时，该元素才必须包含在请求中。 MaxItems 元素的值不指定对收件人信息缓存进行的添加和删除的最大估计值， 它仅指定要保持同步的收件人数量。 每个收件人的完全替换将是商店中 MaxItems 或项目数量的两倍，因为每个收件人更新都需要删除和添加。 |
 | [MIMESupport](../../aspose.email.clients.activesync.transportlayer/syncoptions/mimesupport) { get; set; } | 为从服务器发送到客户端的电子邮件项目启用 MIME 支持。 |
 | [MIMETruncation](../../aspose.email.clients.activesync.transportlayer/syncoptions/mimetruncation) { get; set; } | 指定电子邮件项的 MIME 数据在从服务器发送到客户端时是否应该被截断。 |
-| [RightsManagementSupport](../../aspose.email.clients.activesync.transportlayer/syncoptions/rightsmanagementsupport) { get; set; } | 指定服务器如何将权限管理的电子邮件消息返回给客户端。 如果此元素的值为 TRUE，则服务器将在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩和解密，如第 3.2.4.3 节中所述。 如果值为 FALSE (0)，服务器将不会在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩或解密。 如果未定义 RightsManagementSupport 元素，则假定默认值为 FALSE。 |
+| [RightsManagementSupport](../../aspose.email.clients.activesync.transportlayer/syncoptions/rightsmanagementsupport) { get; set; } | 指定服务器如何将权限管理的电子邮件消息返回给客户端。 如果此元素的值为 TRUE，则服务器将在将权限管理的电子邮件消息发送给客户端之前对其进行解压缩和解密，如第 3.2.4.3 节中所述. 如果值为 FALSE (0)，则服务器在将权限管理的电子邮件发送到客户端之前不会对其进行解压缩或解密。 如果未定义 RightsManagementSupport 元素，则假定默认值为 FALSE。 |
 
 ### 也可以看看
 

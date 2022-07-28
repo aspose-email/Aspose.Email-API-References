@@ -1,14 +1,14 @@
 ---
 title: ResponseRequested
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否请求响应消息对象 区域MapiEnvelope 属性集 规范名称PidTagResponseRequested 备用名称PR_RESPONSE_REQUESTED urnschemascalendarresponserequested
+description: 表示是否请求消息对象响应 区域MapiEnvelope 属性集 规范名称PidTagResponseRequested 替代名称PR_RESPONSE_REQUESTEDurnschemascalendarresponserequested
 type: docs
 weight: 16190
 url: /zh/net/aspose.email.mapi/knownpropertylist/responserequested/
 ---
 ## KnownPropertyList.ResponseRequested field
 
-指示是否请求响应消息对象。 区域:MapiEnvelope 属性集 规范名称:PidTagResponseRequested 备用名称:PR_RESPONSE_REQUESTED, urn:schemas:calendar:responserequested,
+表示是否请求消息对象响应。 区域：MapiEnvelope 属性集 规范名称：PidTagResponseRequested 替代名称：PR_RESPONSE_REQUESTED，urn:schemas:calendar:responserequested,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ResponseRequested;

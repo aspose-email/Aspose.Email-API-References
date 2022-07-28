@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookhierarchicaldepartme
 ---
 ## KnownPropertyList.AddressBookHierarchicalDepartmentMembers field
 
-包含属于该部门的所有邮件用户。 区域:地址簿 规范名称:PidTagAddressBookHierarchicalDepartmentMembers 备用名称:PR_EMS_AB_HAB_DEPARTMENT_MEMBERS
+包含属于该部门的所有邮件用户。 区域：地址簿 规范名称：PidTagAddressBookHierarchicalDepartmentMembers 备用名称：PR_EMS_AB_HAB_DEPARTMENT_MEMBERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHierarchicalDepartmentMembers;

@@ -1,14 +1,14 @@
 ---
 title: Business2TelephoneNumbers
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户营业地点的辅助电话号码 区域联系人属性 规范名称PidTagBusiness2TelephoneNumbers 别名PR_BUSINESS2_TELEPHONE_NUMBER_A_MV
+description: 包含邮件用户营业地点的辅助电话号码 区域联系人属性 规范名称PidTagBusiness2TelephoneNumbers 备用名称PR_BUSINESS2_TELEPHONE_NUMBER_A_MV
 type: docs
 weight: 2090
 url: /zh/net/aspose.email.mapi/knownpropertylist/business2telephonenumbers/
 ---
 ## KnownPropertyList.Business2TelephoneNumbers field
 
-包含邮件用户营业地点的辅助电话号码。 区域:联系人属性 规范名称:PidTagBusiness2TelephoneNumbers 别名:PR_BUSINESS2_TELEPHONE_NUMBER_A_MV
+包含邮件用户营业地点的辅助电话号码。 区域：联系人属性 规范名称：PidTagBusiness2TelephoneNumbers 备用名称：PR_BUSINESS2_TELEPHONE_NUMBER_A_MV
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Business2TelephoneNumbers;

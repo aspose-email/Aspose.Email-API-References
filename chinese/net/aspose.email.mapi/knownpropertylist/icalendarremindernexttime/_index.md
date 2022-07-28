@@ -1,14 +1,14 @@
 ---
 title: ICalendarReminderNextTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含用于激活下一个提醒的日期和时间UTC 区域日历 规范名称PidTagICalendarReminderNextTime 替代名称urnschemascalendarremindernexttime
+description: 包含激活下一个提醒的日期和时间以 UTC 表示 区域Calendar 规范名称PidTagICalendarReminderNextTime 替代名称urnschemascalendarremindernexttime
 type: docs
 weight: 11180
 url: /zh/net/aspose.email.mapi/knownpropertylist/icalendarremindernexttime/
 ---
 ## KnownPropertyList.ICalendarReminderNextTime field
 
-包含用于激活下一个提醒的日期和时间（UTC）。 区域:日历 规范名称:PidTagICalendarReminderNextTime 替代名称:urn:schemas:calendar:remindernexttime
+包含激活下一个提醒的日期和时间（以 UTC 表示）。 区域：Calendar 规范名称：PidTagICalendarReminderNextTime 替代名称：urn:schemas:calendar:remindernexttime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ICalendarReminderNextTime;

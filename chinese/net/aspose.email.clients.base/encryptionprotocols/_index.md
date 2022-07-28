@@ -20,8 +20,8 @@ public enum EncryptionProtocols
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotSpecified | `0` | 未指定 请注意，此值类似于 SslProtocols.None |
-| Ssl2 | `C` | Ssl 2 |
-| Ssl3 | `30` | Ssl 3 |
+| Ssl2 | `C` | SSL 2 |
+| Ssl3 | `30` | SSL 3 |
 | Tls | `C0` | TLS 1.0 |
 | Tls11 | `300` | TLS 1.1 |
 | Tls12 | `C00` | TLS 1.2 |

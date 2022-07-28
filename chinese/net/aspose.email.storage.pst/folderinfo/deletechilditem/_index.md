@@ -16,15 +16,15 @@ public void DeleteChildItem(byte[] entryId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entryId | Byte[] | 条目 ID。 |
+| entryId | Byte[] | 入口标识。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentNullException | 抛出，如果 entryId 为空。 |
-| InvalidOperationException | 抛出，如果项目不属于文件夹 或无法删除项目 或 entryID 的值不正确。 |
-| InvalidOperationException | 抛出，如果 PST 以只读方式打开。 |
+| InvalidOperationException | 抛出，如果项目不属于文件夹 或项目无法删除 或 entryID 的值不正确。 |
+| InvalidOperationException | 抛出，如果 PST 是只读的。 |
 
 ### 评论
 

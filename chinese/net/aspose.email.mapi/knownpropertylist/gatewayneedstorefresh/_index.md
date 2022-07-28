@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/gatewayneedstorefresh/
 ---
 ## KnownPropertyList.GatewayNeedsToRefresh field
 
-此属性已弃用，不应使用。 区域:MessageClassDefinedTransmittable 规范名称:PidTagGatewayNeedsToRefresh 替代名称:PR_GATEWAY_NEEDS_TO_REFRESH
+此属性已弃用，不应使用。 区域：MessageClassDefinedTransmittable 规范名称：PidTagGatewayNeedsToRefresh 替代名称：PR_GATEWAY_NEEDS_TO_REFRESH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GatewayNeedsToRefresh;

@@ -1,14 +1,14 @@
 ---
 title: SectionHeader
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет заголовок раздела
+description: Представляет заголовок для section
 type: docs
 weight: 220
 url: /ru/net/aspose.email.amp/sectionheader/
 ---
 ## SectionHeader class
 
-Представляет заголовок раздела
+Представляет заголовок для section
 
 ```csharp
 public class SectionHeader

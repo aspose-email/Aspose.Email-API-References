@@ -1,14 +1,14 @@
 ---
 title: Radio
 second_title: Aspose.Email for .NET API 参考
-description: 默认无线电电话号码
+description: 默认无线电话号码
 type: docs
 weight: 170
 url: /zh/net/aspose.email.personalinfo/phonenumberlist/radio/
 ---
 ## PhoneNumberList.Radio property
 
-默认无线电电话号码
+默认无线电话号码
 
 ```csharp
 public string Radio { get; set; }

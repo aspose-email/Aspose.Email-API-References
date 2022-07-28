@@ -1,14 +1,14 @@
 ---
 title: Important
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱用于保存已标记为重要的邮件 请注意如果服务器不支持 rfc8457 或未创建文件夹此值可能为空
+description: 获取邮箱用于存放已标记为重要的邮件 请注意如果服务器不支持 rfc8457 或尚未创建文件夹此值可能为空
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.imap/imapmailboxinfo/important/
 ---
 ## ImapMailboxInfo.Important property
 
-获取邮箱用于保存已标记为重要的邮件。 请注意，如果服务器不支持 rfc8457 或未创建文件夹，此值可能为空。
+获取邮箱用于存放已标记为重要的邮件。 请注意，如果服务器不支持 rfc8457 或尚未创建文件夹，此值可能为空。
 
 ```csharp
 public ImapFolderInfo Important { get; }

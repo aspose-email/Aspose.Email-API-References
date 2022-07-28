@@ -16,7 +16,7 @@ public MailQuery Equals(bool value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Boolean | 值。 |
+| value | Boolean | 价值。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: GenerateNamedPropertyTag
 second_title: Aspose.Email for .NET API 参考
-description: 生成命名属性标记
+description: 生成命名属性标签
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag/
 ---
 ## GenerateNamedPropertyTag(PropertyDataType) {#generatenamedpropertytag_1}
 
-生成命名属性标记
+生成命名属性标签
 
 ```csharp
 public long GenerateNamedPropertyTag(PropertyDataType dataType)
@@ -20,7 +20,7 @@ public long GenerateNamedPropertyTag(PropertyDataType dataType)
 
 ### 返回值
 
-返回当前标签提供者的命名属性标签
+返回当前标签提供者的命名属性的标签
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public long GenerateNamedPropertyTag(PropertyDataType dataType)
 
 ## GenerateNamedPropertyTag(MapiPropertyType) {#generatenamedpropertytag}
 
-生成命名属性标记
+生成命名属性标签
 
 ```csharp
 public long GenerateNamedPropertyTag(MapiPropertyType dataType)
@@ -45,7 +45,7 @@ public long GenerateNamedPropertyTag(MapiPropertyType dataType)
 
 ### 返回值
 
-返回当前标签提供者的命名属性标签
+返回当前标签提供者的命名属性的标签
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public long GenerateNamedPropertyTag(MapiPropertyType dataType)
 
 ## GenerateNamedPropertyTag(long) {#generatenamedpropertytag_2}
 
-生成命名属性标记
+生成命名属性标签
 
 ```csharp
 public long GenerateNamedPropertyTag(long dataType)
@@ -70,7 +70,7 @@ public long GenerateNamedPropertyTag(long dataType)
 
 ### 返回值
 
-返回当前标签提供者的命名属性标签
+返回当前标签提供者的命名属性的标签
 
 ### 也可以看看
 

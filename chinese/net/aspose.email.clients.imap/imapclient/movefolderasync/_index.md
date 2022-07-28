@@ -17,11 +17,11 @@ public Task MoveFolderAsync(string newParentFolder, string folderName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newParentFolder | String | 移动文件夹的新位置 |
-| folderName | String | 文件夹到移动 |
+| folderName | String | 要移动的文件夹 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -42,12 +42,12 @@ public Task MoveFolderAsync(IConnection connection, string newParentFolder, stri
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| newParentFolder | String | 的新位置移动文件夹 |
+| newParentFolder | String | 移动文件夹的新位置 |
 | folderName | String | 要移动的文件夹 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -69,12 +69,12 @@ public Task MoveFolderAsync(string newParentFolder, string folderName, Cancellat
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | newParentFolder | String | 移动文件夹的新位置 |
-| folderName | String | 文件夹到move |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| folderName | String | 要移动的文件夹 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -96,13 +96,13 @@ public Task MoveFolderAsync(IConnection connection, string newParentFolder, stri
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| newParentFolder | String | 的新位置移动文件夹 |
-| folderName | String | 移动文件夹 |
+| newParentFolder | String | 移动文件夹的新位置 |
+| folderName | String | 要移动的文件夹 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

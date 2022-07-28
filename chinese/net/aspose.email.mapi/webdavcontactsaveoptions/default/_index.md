@@ -16,7 +16,7 @@ public static WebDavContactSaveOptions Default { get; }
 
 ### 适当的价值
 
-[`WebDavContactSaveOptions`](../../webdavcontactsaveoptions)默认情况下。
+这[`WebDavContactSaveOptions`](../../webdavcontactsaveoptions)默认。
 
 ### 也可以看看
 

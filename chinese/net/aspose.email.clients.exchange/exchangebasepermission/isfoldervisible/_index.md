@@ -1,14 +1,14 @@
 ---
 title: IsFolderVisible
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置指示用户是否可以查看文件夹的值
+description: 获取或设置一个值该值指示用户是否可以查看文件夹
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.exchange/exchangebasepermission/isfoldervisible/
 ---
 ## ExchangeBasePermission.IsFolderVisible property
 
-获取或设置指示用户是否可以查看文件夹的值。
+获取或设置一个值，该值指示用户是否可以查看文件夹。
 
 ```csharp
 public bool IsFolderVisible { get; set; }

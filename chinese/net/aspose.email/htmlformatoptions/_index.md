@@ -22,12 +22,12 @@ public enum HtmlFormatOptions
 | None | `0` | 未指定具体设置。 |
 | WriteHeader | `1` | 表示应该写入头信息。 |
 | WriteCompleteEmailAddress | `2` | 表示应在所有电子邮件标头中写入完整的电子邮件地址。 |
-| WriteCompleteToEmailAddress | `4` | 表示完整的电子邮件地址应写在“收件人”标题中。 |
+| WriteCompleteToEmailAddress | `4` | 表示完整的电子邮件地址应写在“收件人”标头中。 |
 | WriteCompleteFromEmailAddress | `8` | 表示完整的电子邮件地址应写在“发件人”标头中。 |
-| WriteCompleteCcEmailAddress | `10` | 表示完整的电子邮件地址应写在“抄送”标题中。 |
+| WriteCompleteCcEmailAddress | `10` | 表示完整的电子邮件地址应写在“抄送”标头中。 |
 | WriteCompleteBccEmailAddress | `20` | 表示完整的电子邮件地址应写在“密件抄送”标头中。 |
-| DisplayAsOutlook | `40` | 表示 From 标头将与 Outlook 中一样显示。 |
-| RenderCalendarEvent | `80` | 表示日历事件中的文本应写入输出 mhtml。 |
+| DisplayAsOutlook | `40` | 表示 From 标头将在 Outlook 中显示。 |
+| RenderCalendarEvent | `80` | 表示日历事件中的文本应写入输出 mhtml. |
 | RenderVCardInfo | `100` | 表示来自 VCard AlternativeView 的文本应写入输出 mhtml。 |
 
 ### 也可以看看

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/notex/
 ---
 ## KnownPropertyList.NoteX field
 
-指定从屏幕左边缘到用户界面显示 Note 对象的距离（以像素为单位）。 区域:便笺 规范名称:PidLidNoteX 替代名称:dispidNoteX
+指定从屏幕左边缘到用户界面显示 Note 对象的距离（以像素为单位）。 区域：便笺 规范名称：PidLidNoteX 替代名称：dispidNoteX
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoteX;

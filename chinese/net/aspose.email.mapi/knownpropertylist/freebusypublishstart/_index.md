@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/freebusypublishstart/
 ---
 ## KnownPropertyList.FreeBusyPublishStart field
 
-指定发布范围的开始时间（UTC 时间）。 区域:忙/闲属性 规范名称:PidTagFreeBusyPublishStart 替代名称:PR_FREEBUSY_PUBLISH_START
+指定发布范围的开始时间（UTC 时间）。 区域：忙/闲属性 规范名称：PidTagFreeBusyPublishStart 替代名称：PR_FREEBUSY_PUBLISH_START
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FreeBusyPublishStart;

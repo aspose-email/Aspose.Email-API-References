@@ -1,14 +1,14 @@
 ---
 title: AutomaticSpeechRecognitionData
 second_title: Aspose.Email for .NET API 参考
-description: 包含未受保护的语音消息 区域统一消息 规范名称PidNameAutomaticSpeechRecognitionData 备用名称
+description: 包含未受保护的语音消息 区域统一消息 规范名称PidNameAutomaticSpeechRecognitionData 别名
 type: docs
 weight: 1930
 url: /zh/net/aspose.email.mapi/knownpropertylist/automaticspeechrecognitiondata/
 ---
 ## KnownPropertyList.AutomaticSpeechRecognitionData field
 
-包含未受保护的语音消息。 区域:统一消息 规范名称:PidNameAutomaticSpeechRecognitionData 备用名称:
+包含未受保护的语音消息。 区域：统一消息 规范名称：PidNameAutomaticSpeechRecognitionData 别名：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AutomaticSpeechRecognitionData;

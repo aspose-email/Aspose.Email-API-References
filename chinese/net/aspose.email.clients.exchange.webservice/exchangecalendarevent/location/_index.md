@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Aspose.Email for .NET API 参考
-description: 获取约会地点
+description: 获取预约地点
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangecalendarevent/location/
 ---
 ## ExchangeCalendarEvent.Location property
 
-获取约会地点。
+获取预约地点。
 
 ```csharp
 public string Location { get; }

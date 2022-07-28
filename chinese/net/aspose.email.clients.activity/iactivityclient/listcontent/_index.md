@@ -1,14 +1,14 @@
 ---
 title: ListContent
 second_title: Aspose.Email for .NET API 参考
-description: 此操作列出当前可用于检索的指定内容类型的内容 内容是从跨多个数据中心的多个服务器收集的操作和事件的聚合 内容将按照聚合可用的顺序列出 但不保证聚合中的事件和操作是连续的 默认情况下省略 startTime 和 endTime 时返回过去 24 小时内可用的内容
+description: 此操作列出当前可用于检索的指定内容类型的内容 内容是从跨多个数据中心的多个服务器收集的操作和事件的聚合 内容将按照聚合可用的顺序列出 但不保证聚合中的事件和操作是连续的 默认情况下省略startTime和endTime时返回最近24小时内可用的内容
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activity/iactivityclient/listcontent/
 ---
 ## ListContent(string) {#listcontent}
 
-此操作列出当前可用于检索的指定内容类型的内容。 内容是从跨多个数据中心的多个服务器收集的操作和事件的聚合。 内容将按照聚合可用的顺序列出， 但不保证聚合中的事件和操作是连续的。 默认情况下，省略 startTime 和 endTime 时，返回过去 24 小时内可用的内容。
+此操作列出当前可用于检索的指定内容类型的内容。 内容是从跨多个数据中心的多个服务器收集的操作和事件的聚合。 内容将按照聚合可用的顺序列出， 但不保证聚合中的事件和操作是连续的。 默认情况下，省略startTime和endTime时，返回最近24小时内可用的内容。
 
 ```csharp
 public ContentInfo[] ListContent(string contentType)
@@ -42,8 +42,8 @@ public ContentInfo[] ListContent(string contentType, DateTime? startTime, DateTi
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | contentType | String | 表示内容类型。 |
-| startTime | Nullable`1 | 可选的日期时间 (UTC)，指示要返回的内容的时间范围，基于内容可用的时间。 时间范围包含关于 startTime（startTime 小于或等于 contentCreated）， 以便可以使用不重叠的递增时间间隔来翻阅可用内容。 两者（startTime 和 endTime）都必须指定（或两者都省略）。 时间范围不得超过 24 小时，开始时间不得超过过去 7 天。 |
-| endTime | Nullable`1 | 可选日期时间 (UTC)，指示要返回的内容的时间范围，基于何时内容变得可用。 时间范围相对于 endTime（contentCreated 减去 endTime）是独占的， 以便可以使用不重叠的递增时间间隔来翻阅可用内容。 必须同时指定（startTime 和 endTime）（或两者都省略） 时间范围不得超过 24 小时，开始时间不得超过 7 天过去的。 |
+| startTime | Nullable`1 | 可选的日期时间 (UTC)，指示要返回的内容的时间范围，基于内容可用的时间。 时间范围包含关于 startTime（startTime 小于或等于 contentCreated）， 以便可以使用非重叠、递增的时间间隔来翻页可用内容。 必须指定（startTime 和 endTime）两者（或两者都省略). 时间范围不得超过 24 小时，开始时间不得超过过去 7 天。 |
+| endTime | Nullable`1 | 可选的日期时间 (UTC)，指示要返回的内容的时间范围，基于内容可用的时间。 时间范围与 endTime 是互斥的（contentCreated 小于 endTime）， 以便可以使用不重叠的递增时间间隔来翻阅可用内容。 必须指定（startTime 和 endTime）两者（或两者都省略） 时间范围不得超过 24 小时，开始时间不得超过过去 7 天。 |
 
 ### 返回值
 

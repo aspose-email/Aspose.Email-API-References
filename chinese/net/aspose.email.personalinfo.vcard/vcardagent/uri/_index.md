@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置代理卡的 uri  null ifValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocationis INLINE 
+description: 获取或设置代理卡的uri无效的如果ValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocation是排队
 type: docs
 weight: 30
 url: /zh/net/aspose.email.personalinfo.vcard/vcardagent/uri/
 ---
 ## VCardAgent.Uri property
 
-获取或设置代理卡的 uri (` null` if[`ValueLocation`](../valuelocation)is` INLINE` )
+获取或设置代理卡的uri(`无效的`如果[`ValueLocation`](../valuelocation)是`排队`)
 
 ```csharp
 public string Uri { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CreationDate
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置笔记的创建日期
+description: 获取或设置note 的创建日期
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapinote/creationdate/
 ---
 ## MapiNote.CreationDate property
 
-获取或设置笔记的创建日期
+获取或设置note 的创建日期
 
 ```csharp
 public DateTime CreationDate { get; set; }

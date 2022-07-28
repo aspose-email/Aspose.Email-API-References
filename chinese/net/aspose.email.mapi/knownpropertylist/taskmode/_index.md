@@ -1,14 +1,14 @@
 ---
 title: TaskMode
 second_title: Aspose.Email for .NET API 参考
-description: 指定嵌入任务对象的分配状态 区域任务 规范名称PidLidTaskMode 替代名称dispidTaskMode
+description: 指定嵌入任务对象的分配状态 区域Tasks 规范名称PidLidTaskMode 备用名称dispidTaskMode
 type: docs
 weight: 18720
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskmode/
 ---
 ## KnownPropertyList.TaskMode field
 
-指定嵌入任务对象的分配状态。 区域:任务 规范名称:PidLidTaskMode 替代名称:dispidTaskMode
+指定嵌入任务对象的分配状态。 区域：Tasks 规范名称：PidLidTaskMode 备用名称：dispidTaskMode
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskMode;

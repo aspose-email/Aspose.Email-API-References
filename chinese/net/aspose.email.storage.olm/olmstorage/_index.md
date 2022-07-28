@@ -1,14 +1,14 @@
 ---
 title: OlmStorage
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Outlook for Mac 存储 .OLM 文件
+description: 代表 Outlook for Mac 存储 .OLM 文件
 type: docs
-weight: 20070
+weight: 20120
 url: /zh/net/aspose.email.storage.olm/olmstorage/
 ---
 ## OlmStorage class
 
-表示 Outlook for Mac 存储 (.OLM) 文件。
+代表 Outlook for Mac 存储 (.OLM) 文件。
 
 ```csharp
 public class OlmStorage : IDisposable
@@ -18,9 +18,9 @@ public class OlmStorage : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OlmStorage](olmstorage#constructor_1)(Stream) | 初始化[`OlmStorage`](../olmstorage)类的新实例。 |
-| [OlmStorage](olmstorage#constructor_2)(string) | 初始化[`OlmStorage`](../olmstorage)类的新实例。 |
-| [OlmStorage](olmstorage#constructor)(TraversalExceptionsCallback) | 初始化[`OlmStorage`](../olmstorage)类的新实例。 允许设置回调方法来处理 OLM 存储遍历期间发生的异常。 |
+| [OlmStorage](olmstorage#constructor_1)(Stream) | 初始化[`OlmStorage`](../olmstorage)类. |
+| [OlmStorage](olmstorage#constructor_2)(string) | 初始化[`OlmStorage`](../olmstorage)类. |
+| [OlmStorage](olmstorage#constructor)(TraversalExceptionsCallback) | 初始化一个新的实例[`OlmStorage`](../olmstorage)class. 允许设置回调方法来处理 OLM 存储遍历期间发生的异常。 |
 
 ## 特性
 
@@ -32,15 +32,15 @@ public class OlmStorage : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromFile](../../aspose.email.storage.olm/olmstorage/fromfile)(string) | 从文件加载 OLM 存储。 |
+| static [FromFile](../../aspose.email.storage.olm/olmstorage/fromfile)(string) | 从文件中加载 OLM 存储。 |
 | static [FromStream](../../aspose.email.storage.olm/olmstorage/fromstream)(Stream) | 从流中加载 OLM。 |
 | [Dispose](../../aspose.email.storage.olm/olmstorage/dispose)() | 执行与释放、 释放或重置非托管资源相关的应用程序定义任务。 |
 | [EnumerateMessages](../../aspose.email.storage.olm/olmstorage/enumeratemessages)(OlmFolder) | 公开枚举器，它支持文件夹中消息的迭代。 |
 | [ExtractMapiMessage](../../aspose.email.storage.olm/olmstorage/extractmapimessage)(OlmMessageInfo) | 从 OLM 存储中获取消息。 |
 | [GetFolder](../../aspose.email.storage.olm/olmstorage/getfolder)(string, bool) | 按名称获取文件夹。 |
 | [GetFolders](../../aspose.email.storage.olm/olmstorage/getfolders)() | 获取文件夹集合。 |
-| [Load](../../aspose.email.storage.olm/olmstorage/load#load)(Stream) | 从流中加载 OLM 存储。 此方法在使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用。 |
-| [Load](../../aspose.email.storage.olm/olmstorage/load#load_1)(string) | 从文件加载 OLM 存储。 此方法在使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用。 |
+| [Load](../../aspose.email.storage.olm/olmstorage/load#load)(Stream) | 从流中加载 OLM 存储。 当使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用此方法。 |
+| [Load](../../aspose.email.storage.olm/olmstorage/load#load_1)(string) | 从文件加载 OLM 存储。 当使用带有 TraversalExceptionsCallback 参数的构造函数创建 OlmStorage 对象时使用此方法。 |
 
 ### 也可以看看
 

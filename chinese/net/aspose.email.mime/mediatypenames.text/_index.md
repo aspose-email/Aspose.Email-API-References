@@ -3,7 +3,7 @@ title: MediaTypeNames.Text
 second_title: Aspose.Email for .NET API 参考
 description: 指定电子邮件附件中文本数据的类型
 type: docs
-weight: 19170
+weight: 19200
 url: /zh/net/aspose.email.mime/mediatypenames.text/
 ---
 ## MediaTypeNames.Text class
@@ -18,10 +18,10 @@ public sealed class Text
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [Html](../../aspose.email.mime/text/html) | 指定文本/html媒体类型 |
+| const [Html](../../aspose.email.mime/text/html) | 指定文本/html 媒体类型 |
 | const [Plain](../../aspose.email.mime/text/plain) | 指定文本/纯媒体类型 |
 | const [RichText](../../aspose.email.mime/text/richtext) | 指定文本/富文本媒体类型 |
-| const [Xml](../../aspose.email.mime/text/xml) | 指定文本/xml媒体类型 |
+| const [Xml](../../aspose.email.mime/text/xml) | 指定文本/xml 媒体类型 |
 
 ### 也可以看看
 

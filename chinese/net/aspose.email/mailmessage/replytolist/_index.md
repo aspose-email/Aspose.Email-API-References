@@ -1,14 +1,14 @@
 ---
 title: ReplyToList
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置地址列表 回复邮件消息
+description: 获取或设置要回复邮件消息的地址列表
 type: docs
 weight: 280
 url: /zh/net/aspose.email/mailmessage/replytolist/
 ---
 ## MailMessage.ReplyToList property
 
-获取或设置地址列表 回复邮件消息
+获取或设置要回复邮件消息的地址列表
 
 ```csharp
 public virtual MailAddressCollection ReplyToList { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ExchangeReminderInterval
 second_title: Aspose.Email for .NET API 参考
-description: 标识提醒之间的时间以秒为单位 区域普通 规范名称PidNameExchangeReminderInterval 备用名称http//schemas.microsoft.com/exchange/reminderinterval
+description: 标识提醒之间的时间以秒为单位 区域Common 规范名称PidNameExchangeReminderInterval 替代名称http//schemas.microsoft.com/exchange/reminderinterval
 type: docs
 weight: 9890
 url: /zh/net/aspose.email.mapi/knownpropertylist/exchangereminderinterval/
 ---
 ## KnownPropertyList.ExchangeReminderInterval field
 
-标识提醒之间的时间（以秒为单位）。 区域：普通 规范名称：PidNameExchangeReminderInterval 备用名称：http://schemas.microsoft.com/exchange/reminderinterval
+标识提醒之间的时间（以秒为单位）。 区域：Common 规范名称：PidNameExchangeReminderInterval 替代名称：http://schemas.microsoft.com/exchange/reminderinterval
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangeReminderInterval;

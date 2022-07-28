@@ -1,14 +1,14 @@
 ---
 title: AsposeInvalidOperationException
 second_title: Справочник по Aspose.Email для .NET API
-description: Класс исключения для обозначения объекта находился в состоянии которое делало вызов метода незаконным.
+description: Класс исключения для обозначения того что объект находится в состоянии делающем вызов метода незаконным.
 type: docs
 weight: 330
 url: /ru/net/aspose.email/asposeinvalidoperationexception/
 ---
 ## AsposeInvalidOperationException class
 
-Класс исключения для обозначения объекта находился в состоянии, которое делало вызов метода незаконным.
+Класс исключения для обозначения того, что объект находится в состоянии, делающем вызов метода незаконным.
 
 ```csharp
 public class AsposeInvalidOperationException : AsposeException
@@ -18,10 +18,10 @@ public class AsposeInvalidOperationException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor)() | Инициализирует новый экземпляр класса[`AsposeInvalidOperationException`](../asposeinvalidoperationexception). |
-| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)с указанным сообщением об ошибке. |
-| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)с указанным сообщением об ошибке. |
-| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр класса[`AsposeInvalidOperationException`](../asposeinvalidoperationexception)с указанным сообщением об ошибке. |
+| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor)() | Инициализирует новый экземпляр[`AsposeInvalidOperationException`](../asposeinvalidoperationexception) класс. |
+| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_1)(string) | Инициализирует новый экземпляр[`AsposeInvalidOperationException`](../asposeinvalidoperationexception) класс с указанным сообщением об ошибке. |
+| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`AsposeInvalidOperationException`](../asposeinvalidoperationexception) класс с указанным сообщением об ошибке. |
+| [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр[`AsposeInvalidOperationException`](../asposeinvalidoperationexception) класс с указанным сообщением об ошибке. |
 | [AsposeInvalidOperationException](asposeinvalidoperationexception#constructor_4)(string, string) |  |
 
 ## Характеристики

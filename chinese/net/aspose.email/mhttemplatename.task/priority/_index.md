@@ -1,14 +1,14 @@
 ---
 title: Priority
 second_title: Aspose.Email for .NET API 参考
-description: 优先级标头
+description: 优先标头.
 type: docs
 weight: 90
 url: /zh/net/aspose.email/mhttemplatename.task/priority/
 ---
 ## MhtTemplateName.Task.Priority field
 
-优先级标头。
+优先标头.
 
 ```csharp
 public const string Priority;

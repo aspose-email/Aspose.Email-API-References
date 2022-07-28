@@ -1,14 +1,14 @@
 ---
 title: MessageAdded
 second_title: Aspose.Email for .NET API 参考
-description: 在将消息添加到当前文件夹时发生
+description: 在将邮件添加到当前文件夹时发生
 type: docs
 weight: 120
 url: /zh/net/aspose.email.storage.pst/folderinfo/messageadded/
 ---
 ## FolderInfo.MessageAdded event
 
-在将消息添加到当前文件夹时发生。
+在将邮件添加到当前文件夹时发生。
 
 ```csharp
 public event MessageAddedEventHandler MessageAdded;

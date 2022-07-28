@@ -21,7 +21,7 @@ public string MoveItem(string itemUri, string destinationFolderUri)
 
 ### 返回值
 
-移动消息的 uri
+已移动消息的 uri
 
 ### 也可以看看
 

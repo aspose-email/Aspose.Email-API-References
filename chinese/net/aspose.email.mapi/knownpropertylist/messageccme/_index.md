@@ -1,14 +1,14 @@
 ---
 title: MessageCcMe
 second_title: Aspose.Email for .NET API 参考
-description: 区域常规消息属性 规范名称PidTagMessageCcMe 备用名称PR_MESSAGE_CC_ME ptagMessageCcMe
+description: 区域常规消息属性 规范名称PidTagMessageCcMe 备用名称PR_MESSAGE_CC_MEptagMessageCcMe
 type: docs
 weight: 12460
 url: /zh/net/aspose.email.mapi/knownpropertylist/messageccme/
 ---
 ## KnownPropertyList.MessageCcMe field
 
-区域:常规消息属性 规范名称:PidTagMessageCcMe 备用名称:PR_MESSAGE_CC_ME， ptagMessageCcMe
+区域：常规消息属性 规范名称：PidTagMessageCcMe 备用名称：PR_MESSAGE_CC_ME、ptagMessageCcMe
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageCcMe;

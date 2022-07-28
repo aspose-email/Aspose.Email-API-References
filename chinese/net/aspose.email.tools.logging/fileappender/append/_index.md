@@ -1,14 +1,14 @@
 ---
 title: Append
 second_title: Aspose.Email for .NET API 参考
-description: 将日志条目信息附加到附加程序
+description: 将日志条目信息附加到 appender
 type: docs
 weight: 50
 url: /zh/net/aspose.email.tools.logging/fileappender/append/
 ---
 ## Append(LogEntry) {#append}
 
-将日志条目信息附加到附加程序。
+将日志条目信息附加到 appender。
 
 ```csharp
 public override void Append(LogEntry logEntry)
@@ -29,7 +29,7 @@ public override void Append(LogEntry logEntry)
 
 ## Append(LogEntry[]) {#append_1}
 
-将一组日志条目附加到附加程序。
+将一组日志条目附加到 appender。
 
 ```csharp
 public void Append(LogEntry[] logEntries)
@@ -37,7 +37,7 @@ public void Append(LogEntry[] logEntries)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| logEntries | LogEntry[] | 一组要记录的日志条目。 |
+| logEntries | LogEntry[] | 要记录的一组日志条目。 |
 
 ### 也可以看看
 

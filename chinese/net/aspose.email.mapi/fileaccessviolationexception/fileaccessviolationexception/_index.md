@@ -32,7 +32,7 @@ public FileAccessViolationException(string message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 错误消息。 |
+| message | String | 错误信息。 |
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public FileAccessViolationException(string message)
 
 ## FileAccessViolationException(string, Exception) {#constructor_2}
 
-使用 指定错误消息和对内部 异常的引用初始化 Exception 类的新实例是此异常的原因。
+使用 指定的错误消息和对导致此异常的inner 异常的引用来初始化Exception 类的新实例。
 
 ```csharp
 public FileAccessViolationException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public FileAccessViolationException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 解释异常原因的错误消息。 |
-| innerException | Exception | 导致当前异常的异常。 如果 innerException 参数不是 NULL 引用 （在 Visual Basic 中为无），则在处理内部的 catch 块中引发当前异常 例外。 |
+| innerException | Exception | 导致当前异常的异常。 如果 innerException 参数不是 NULL 引用 （在 Visual Basic 中为无），则在处理内部异常的 catch 块中引发当前异常 。 |
 
 ### 也可以看看
 

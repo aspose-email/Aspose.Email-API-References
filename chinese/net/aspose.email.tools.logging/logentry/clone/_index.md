@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Aspose.Email for .NET API 参考
-description: 创建一个新的LogEntryaspose.email.tools.logging/logentry是当前实例的副本
+description: 创建一个新的LogEntryaspose.email.tools.logging/logentry那是当前实例的副本
 type: docs
 weight: 180
 url: /zh/net/aspose.email.tools.logging/logentry/clone/
 ---
 ## LogEntry.Clone method
 
-创建一个新的[`LogEntry`](../../logentry)是当前实例的副本。
+创建一个新的[`LogEntry`](../../logentry)那是当前实例的副本。
 
 ```csharp
 public LogEntry Clone()
@@ -16,7 +16,7 @@ public LogEntry Clone()
 
 ### 返回值
 
-一个新的` LogEntry` 是当前实例的副本.
+一个新的`日志条目`那是当前实例的副本。
 
 ### 也可以看看
 

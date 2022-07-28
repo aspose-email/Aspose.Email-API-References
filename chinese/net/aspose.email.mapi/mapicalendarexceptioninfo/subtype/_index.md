@@ -16,7 +16,7 @@ public int SubType { get; set; }
 
 ### 适当的价值
 
-子类型。
+亚型。
 
 ### 也可以看看
 

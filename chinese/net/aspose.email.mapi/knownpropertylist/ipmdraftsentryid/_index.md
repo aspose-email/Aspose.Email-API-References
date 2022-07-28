@@ -1,14 +1,14 @@
 ---
 title: IpmDraftsEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含草稿文件夹的 EntryID 区域文件夹属性 规范名称PidTagIpmDraftsEntryId 替代名称PR_IPM_DRAFTS_ENTRYID
+description: 包含草稿文件夹的条目 ID 区域文件夹属性 规范名称PidTagIpmDraftsEntryId 替代名称PR_IPM_DRAFTS_ENTRYID
 type: docs
 weight: 11640
 url: /zh/net/aspose.email.mapi/knownpropertylist/ipmdraftsentryid/
 ---
 ## KnownPropertyList.IpmDraftsEntryId field
 
-包含草稿文件夹的 EntryID。 区域:文件夹属性 规范名称:PidTagIpmDraftsEntryId 替代名称:PR_IPM_DRAFTS_ENTRYID
+包含草稿文件夹的条目 ID。 区域：文件夹属性 规范名称：PidTagIpmDraftsEntryId 替代名称：PR_IPM_DRAFTS_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmDraftsEntryId;

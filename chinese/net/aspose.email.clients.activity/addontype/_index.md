@@ -18,9 +18,9 @@ public enum AddOnType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Bot | `1` | Microsoft Teams 机器人。 |
-| Connector | `2` | Microsoft Teams 连接器。 |
-| Tab | `3` | Microsoft Teams 选项卡。 |
+| Bot | `1` | Microsoft 团队机器人。 |
+| Connector | `2` | Microsoft 团队连接器。 |
+| Tab | `3` | Microsoft 团队选项卡。 |
 
 ### 也可以看看
 

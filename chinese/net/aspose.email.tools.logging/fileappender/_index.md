@@ -1,14 +1,14 @@
 ---
 title: FileAppender
 second_title: Aspose.Email for .NET API 参考
-description: 表示文件追加器
+description: 表示文件附加程序
 type: docs
-weight: 20430
+weight: 20480
 url: /zh/net/aspose.email.tools.logging/fileappender/
 ---
 ## FileAppender class
 
-表示文件追加器。
+表示文件附加程序。
 
 ```csharp
 public sealed class FileAppender : Appender
@@ -37,8 +37,8 @@ public sealed class FileAppender : Appender
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Append](../../aspose.email.tools.logging/fileappender/append#append)(LogEntry) | 将日志条目信息附加到附加程序。 |
-| [Append](../../aspose.email.tools.logging/fileappender/append#append_1)(LogEntry[]) | 将一组日志条目附加到附加程序。 |
+| override [Append](../../aspose.email.tools.logging/fileappender/append#append)(LogEntry) | 将日志条目信息附加到 appender。 |
+| [Append](../../aspose.email.tools.logging/fileappender/append#append_1)(LogEntry[]) | 将一组日志条目附加到 appender。 |
 | override [AppendHeader](../../aspose.email.tools.logging/fileappender/appendheader)() | 以特定标题启动日志文件。 |
 | override [Close](../../aspose.email.tools.logging/fileappender/close)() | 关闭附加程序。 |
 | [Dispose](../../aspose.email.tools.logging/appender/dispose)() | 释放 Appender 使用的非托管资源。 |

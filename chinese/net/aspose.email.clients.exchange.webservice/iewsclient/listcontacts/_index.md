@@ -20,7 +20,7 @@ public MapiContact[] ListContacts(string folderUri)
 
 ### 返回值
 
-读取数组[`MapiContact`](../../../aspose.email.mapi/mapicontact)表示联系信息
+读取数组[`MapiContact`](../../../aspose.email.mapi/mapicontact)代表联系信息
 
 ### 也可以看看
 
@@ -41,12 +41,12 @@ public MapiContact[] ListContacts(string folderUri, IEnumerable<PropertyDescript
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | A用于在 |
-| mapiProperties | IEnumerable`1 | 中搜索联系人的文件夹 |
+| folderUri | String | 用于搜索联系人的文件夹 |
+| mapiProperties | IEnumerable`1 | 所需的其他 mapi 属性 |
 
 ### 返回值
 
-读取数组[`MapiContact`](../../../aspose.email.mapi/mapicontact)表示联系信息
+读取数组[`MapiContact`](../../../aspose.email.mapi/mapicontact)代表联系信息
 
 ### 也可以看看
 

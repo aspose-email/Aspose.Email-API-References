@@ -1,14 +1,14 @@
 ---
 title: Prefered
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值定义是否首选对象
+description: 获取或设置一个定义对象是否是首选的值
 type: docs
 weight: 40
 url: /zh/net/aspose.email.personalinfo/associatedperson/prefered/
 ---
 ## AssociatedPerson.Prefered property
 
-获取或设置一个值，该值定义是否首选对象。
+获取或设置一个定义对象是否是首选的值。
 
 ```csharp
 public bool Prefered { get; set; }

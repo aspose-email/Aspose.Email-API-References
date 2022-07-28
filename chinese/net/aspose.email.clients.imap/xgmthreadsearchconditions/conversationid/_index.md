@@ -1,14 +1,14 @@
 ---
 title: ConversationId
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 Gmail 提供的用于关联消息组的对话 ID
+description: 获取或设置 Gmail 提供的用于关联邮件组的对话 ID
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.imap/xgmthreadsearchconditions/conversationid/
 ---
 ## XGMThreadSearchConditions.ConversationId property
 
-获取或设置 Gmail 提供的用于关联消息组的对话 ID。
+获取或设置 Gmail 提供的用于关联邮件组的对话 ID。
 
 ```csharp
 public string ConversationId { get; set; }

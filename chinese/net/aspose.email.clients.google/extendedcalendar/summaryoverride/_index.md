@@ -1,14 +1,14 @@
 ---
 title: SummaryOverride
 second_title: Aspose.Email for .NET API 参考
-description: 经过身份验证的用户为此日历设置的摘要
+description: 已验证用户为此日历设置的摘要
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.google/extendedcalendar/summaryoverride/
 ---
 ## ExtendedCalendar.SummaryOverride property
 
-经过身份验证的用户为此日历设置的摘要。
+已验证用户为此日历设置的摘要。
 
 ```csharp
 public virtual string SummaryOverride { get; set; }

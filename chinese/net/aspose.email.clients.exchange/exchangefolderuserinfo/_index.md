@@ -18,7 +18,7 @@ public sealed class ExchangeFolderUserInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeFolderUserInfo](exchangefolderuserinfo)() | 初始化一个新的实例 [`ExchangeFolderUserInfo`](../exchangefolderuserinfo) 班级 |
+| [ExchangeFolderUserInfo](exchangefolderuserinfo)() | 初始化[`ExchangeFolderUserInfo`](../exchangefolderuserinfo) class |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public sealed class ExchangeFolderUserInfo
 | static [DefaultUser](../../aspose.email.clients.exchange/exchangefolderuserinfo/defaultuser) { get; } | 获取默认用户帐户 |
 | [DisplayName](../../aspose.email.clients.exchange/exchangefolderuserinfo/displayname) { get; set; } | 获取或设置显示的用户名。 |
 | [PrimarySmtpAddress](../../aspose.email.clients.exchange/exchangefolderuserinfo/primarysmtpaddress) { get; set; } | 获取或设置帐户的主 SMTP 地址。 |
-| [Sid](../../aspose.email.clients.exchange/exchangefolderuserinfo/sid) { get; set; } | 获取或设置用户安全标识符 (SID) 的安全描述符定义语言 (SSDL) 形式。 |
+| [Sid](../../aspose.email.clients.exchange/exchangefolderuserinfo/sid) { get; set; } | 获取或设置用户的安全标识符 (SID) 的安全描述符定义语言 (SSDL) 形式。 |
 | [UserAccountType](../../aspose.email.clients.exchange/exchangefolderuserinfo/useraccounttype) { get; set; } | 获取或设置一个值，该值标识用于委托访问的匿名和默认用户帐户。 |
 
 ### 也可以看看

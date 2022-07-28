@@ -1,14 +1,14 @@
 ---
 title: AssociatedPersonCategory
 second_title: Aspose.Email for .NET API 参考
-description: 使用自定义类别初始化AssociatedPersonCategoryaspose.email.personalinfo/associatedpersoncategory类的新实例
+description: 初始化AssociatedPersonCategoryaspose.email.personalinfo/associatedpersoncategory具有自定义类别的类
 type: docs
 weight: 10
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/associatedpersoncategory/
 ---
 ## AssociatedPersonCategory constructor
 
-使用“自定义”类别初始化[`AssociatedPersonCategory`](../../associatedpersoncategory)类的新实例。
+初始化[`AssociatedPersonCategory`](../../associatedpersoncategory)具有“自定义”类别的类。
 
 ```csharp
 public AssociatedPersonCategory(string description)
@@ -16,7 +16,7 @@ public AssociatedPersonCategory(string description)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| description | String | 个人“自定义”类别的描述 |
+| description | String | 一个人的“自定义”类别的描述 |
 
 ### 也可以看看
 

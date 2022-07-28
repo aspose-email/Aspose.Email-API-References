@@ -19,7 +19,7 @@ public enum AppointmentSaveFormat
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Ics | `0` | ICalendar 格式 |
-| Msg | `1` | 味精格式。 |
+| Msg | `1` | 味精格式. |
 
 ### 也可以看看
 

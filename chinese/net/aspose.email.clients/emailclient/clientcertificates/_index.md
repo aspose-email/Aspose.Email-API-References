@@ -1,14 +1,14 @@
 ---
 title: ClientCertificates
 second_title: Aspose.Email for .NET API 参考
-description: 包含客户端证书集合
+description: 包含客户端证书的集合
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients/emailclient/clientcertificates/
 ---
 ## EmailClient.ClientCertificates property
 
-包含客户端证书集合
+包含客户端证书的集合
 
 ```csharp
 public virtual X509CertificateCollection ClientCertificates { get; }

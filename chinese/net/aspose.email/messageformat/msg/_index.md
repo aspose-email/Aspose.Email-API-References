@@ -1,14 +1,14 @@
 ---
 title: Msg
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Msg 格式的消息由 Microsoft Outlook 使用
+description: 表示消息在 消息格式由 Microsoft Outlook. 使用
 type: docs
 weight: 50
 url: /zh/net/aspose.email/messageformat/msg/
 ---
 ## MessageFormat.Msg property
 
-表示 **Msg** 格式的消息，由 Microsoft Outlook 使用。
+表示消息在 **消息**格式，由 Microsoft Outlook. 使用
 
 ```csharp
 public static MessageFormat Msg { get; }

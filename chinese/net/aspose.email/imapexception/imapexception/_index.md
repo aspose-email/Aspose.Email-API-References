@@ -1,14 +1,14 @@
 ---
 title: ImapException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ImapExceptionaspose.email/imapexception类的新实例
+description: 初始化ImapExceptionaspose.email/imapexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/imapexception/imapexception/
 ---
 ## ImapException() {#constructor}
 
-初始化[`ImapException`](../../imapexception)类的新实例。
+初始化[`ImapException`](../../imapexception)类.
 
 ```csharp
 public ImapException()
@@ -24,7 +24,7 @@ public ImapException()
 
 ## ImapException(string) {#constructor_1}
 
-初始化[`ImapException`](../../imapexception)类的新实例。
+初始化[`ImapException`](../../imapexception)类.
 
 ```csharp
 public ImapException(string message)
@@ -32,7 +32,7 @@ public ImapException(string message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 描述发生错误的字符串。 |
+| message | String | 描述发生的错误的字符串。 |
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public ImapException(string message)
 
 ## ImapException(string, params object[]) {#constructor_3}
 
-使用指定的错误消息初始化[`ImapException`](../../imapexception)类的新实例。
+初始化[`ImapException`](../../imapexception)具有指定错误消息的类。
 
 ```csharp
 public ImapException(string format, params object[] parameters)
@@ -65,7 +65,7 @@ public ImapException(string format, params object[] parameters)
 
 ## ImapException(string, Exception) {#constructor_2}
 
-初始化[`ImapException`](../../imapexception)类的新实例。
+初始化[`ImapException`](../../imapexception)类.
 
 ```csharp
 public ImapException(string message, Exception innerException)
@@ -73,7 +73,7 @@ public ImapException(string message, Exception innerException)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 描述发生错误的字符串。 |
+| message | String | 描述发生的错误的字符串。 |
 | innerException | Exception | 导致当前异常的异常。 |
 
 ### 也可以看看

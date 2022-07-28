@@ -1,14 +1,14 @@
 ---
 title: RecipientReassignmentProhibited
 second_title: Aspose.Email for .NET API 参考
-description: 指定在转发电子邮件时是否禁止为电子邮件添加其他或不同的收件人 区域MapiEnvelope 规范名称PidTagRecipientReassignmentProhibited 别名PR_RECIPIENT_REASSIGNMENT_PROHIBITED ptagRecipientReassignmentProhibited
+description: 指定在转发电子邮件时是否禁止为电子邮件添加其他收件人或不同收件人 区域MapiEnvelope 规范名称PidTagRecipientReassignmentProhibited 替代名称PR_RECIPIENT_REASSIGNMENT_PROHIBITEDptagRecipientReassignmentProhibited
 type: docs
 weight: 15520
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipientreassignmentprohibited/
 ---
 ## KnownPropertyList.RecipientReassignmentProhibited field
 
-指定在转发电子邮件时是否禁止为电子邮件添加其他或不同的收件人。 区域:MapiEnvelope 规范名称:PidTagRecipientReassignmentProhibited 别名:PR_RECIPIENT_REASSIGNMENT_PROHIBITED, ptagRecipientReassignmentProhibited
+指定在转发电子邮件时是否禁止为电子邮件添加其他收件人或不同收件人。 区域：MapiEnvelope 规范名称：PidTagRecipientReassignmentProhibited 替代名称：PR_RECIPIENT_REASSIGNMENT_PROHIBITED、ptagRecipientReassignmentProhibited
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientReassignmentProhibited;

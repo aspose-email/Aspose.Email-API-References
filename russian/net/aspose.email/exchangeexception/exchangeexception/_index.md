@@ -1,14 +1,14 @@
 ---
 title: ExchangeException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeExceptionaspose.email/exchangeexception.
+description: Инициализирует новый экземплярExchangeExceptionaspose.email/exchangeexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/exchangeexception/exchangeexception/
 ---
 ## ExchangeException() {#constructor}
 
-Инициализирует новый экземпляр класса[`ExchangeException`](../../exchangeexception).
+Инициализирует новый экземпляр[`ExchangeException`](../../exchangeexception) класс.
 
 ```csharp
 public ExchangeException()
@@ -24,7 +24,7 @@ public ExchangeException()
 
 ## ExchangeException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ExchangeException`](../../exchangeexception).
+Инициализирует новый экземпляр[`ExchangeException`](../../exchangeexception) класс.
 
 ```csharp
 public ExchangeException(string message)
@@ -44,7 +44,7 @@ public ExchangeException(string message)
 
 ## ExchangeException(string, params object[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`ExchangeException`](../../exchangeexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`ExchangeException`](../../exchangeexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public ExchangeException(string format, params object[] parameters)
@@ -65,7 +65,7 @@ public ExchangeException(string format, params object[] parameters)
 
 ## ExchangeException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`ExchangeException`](../../exchangeexception).
+Инициализирует новый экземпляр[`ExchangeException`](../../exchangeexception) класс.
 
 ```csharp
 public ExchangeException(string message, Exception innerException)

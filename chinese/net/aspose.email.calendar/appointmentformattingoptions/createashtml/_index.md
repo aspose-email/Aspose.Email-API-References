@@ -16,7 +16,7 @@ public static AppointmentFormattingOptions CreateAsHtml()
 
 ### 返回值
 
-[`AppointmentFormattingOptions`](../../appointmentformattingoptions)表示约会格式选项。
+[`AppointmentFormattingOptions`](../../appointmentformattingoptions)代表约会格式选项。
 
 ### 也可以看看
 

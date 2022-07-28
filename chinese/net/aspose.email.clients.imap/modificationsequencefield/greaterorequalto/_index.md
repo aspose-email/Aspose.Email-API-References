@@ -16,7 +16,7 @@ public void GreaterOrEqualTo(long modificationSequence)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| modificationSequence | Int64 | 要搜索的值 |
+| modificationSequence | Int64 | 搜索价值 |
 
 ### 也可以看看
 

@@ -1,32 +1,32 @@
 ---
 title: Aspose.Email.Calendar
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.Calendar содержит классы для работы с календарем.
+description: Aspose.Email.Календарь namespace содержит классы для работы с календарем.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.calendar/
 ---
-Пространство имен **Aspose.Email.Calendar** содержит классы для работы с календарем.
+**Aspose.Email.Календарь** namespace содержит классы для работы с календарем.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
 | [Appointment](./appointment) | Представляет календарь электронной почте. |
-| [AppointmentCollection](./appointmentcollection) | Представляет набор объектов Appointment. |
+| [AppointmentCollection](./appointmentcollection) | Представляет коллекцию объектов Appointment. |
 | [AppointmentFormattingOptions](./appointmentformattingoptions) | Представляет параметры форматирования встречи. |
 | [AppointmentIcsSaveOptions](./appointmenticssaveoptions) | Представляет параметры сохранения iCalendar |
 | [AppointmentLoadOptions](./appointmentloadoptions) | Представляет параметры загрузки встречи |
 | [AppointmentMsgSaveOptions](./appointmentmsgsaveoptions) | Представляет параметры сохранения iCalendar |
 | [AppointmentReminder](./appointmentreminder) | Предоставляет группу свойств компонентов, определяющих аварийный сигнал. |
-| [AppointmentReminderCollection](./appointmentremindercollection) | Содержит коллекцию объектов AppointmentReminder[`AppointmentReminder`](../aspose.email.calendar/appointmentreminder). |
+| [AppointmentReminderCollection](./appointmentremindercollection) | Содержит коллекцию напоминаний о назначении[`AppointmentReminder`](../aspose.email.calendar/appointmentreminder) объекты. |
 | [AppointmentSaveOptions](./appointmentsaveoptions) | Представляет параметры сохранения базовой встречи |
-| [CalendarReader](./calendarreader) | Позволяет считывать календарь с несколькими событиями в объект Встреча из файла или потока. |
+| [CalendarReader](./calendarreader) | Позволяет читать календарь с несколькими событиями в объект «Назначение» из файла или потока. |
 | [CalendarWriter](./calendarwriter) | Позволяет записывать набор событий в один файл ics или поток. |
 | [ReminderAttachment](./reminderattachment) | Предоставляет возможность связать объект документа с сигналом тревоги. |
-| [ReminderAttachmentCollection](./reminderattachmentcollection) | Содержит коллекцию объектов ReminderAttachment[`ReminderAttachment`](../aspose.email.calendar/reminderattachment). |
-| [ReminderAttendee](./reminderattendee) | Определяет "Посетителя" в тревоге. |
-| [ReminderAttendeeCollection](./reminderattendeecollection) | Содержит коллекцию объектов ReminderAttendee[`ReminderAttendee`](../aspose.email.calendar/reminderattendee). |
+| [ReminderAttachmentCollection](./reminderattachmentcollection) | Содержит коллекцию ReminderAttachment[`ReminderAttachment`](../aspose.email.calendar/reminderattachment) объекты. |
+| [ReminderAttendee](./reminderattendee) | Определяет «Посетителя» в тревоге. |
+| [ReminderAttendeeCollection](./reminderattendeecollection) | Содержит коллекцию ReminderAttendee[`ReminderAttendee`](../aspose.email.calendar/reminderattendee) объекты. |
 | [ReminderDuration](./reminderduration) | Используется для идентификации свойств, содержащих продолжительность времени. |
 | [ReminderTrigger](./remindertrigger) | Указывает, когда сработает тревога. |
 | [Task](./task) | Представляет информацию о задаче обмена. |
@@ -42,7 +42,7 @@ url: /ru/net/aspose.email.calendar/
 | [AppointmentSaveFormat](./appointmentsaveformat) | Перечисляет AppointmentSaveFormat |
 | [AppointmentStatus](./appointmentstatus) | Определяет общий статус или подтверждение встречи. |
 | [AppointmentTransparency](./appointmenttransparency) | Указывает, должна ли эта встреча отображаться при поиске доступности. |
-| [MSBusyStatus](./msbusystatus) | Указывает статус встречи «ЗАНЯТ». |
+| [MSBusyStatus](./msbusystatus) | Определяет статус встречи BUSY. |
 | [MSImportance](./msimportance) | Указывает важность встречи. |
 | [MSIntendedStatus](./msintendedstatus) | Определяет НАМЕРЕННЫЙ статус встречи. |
 | [ReminderAction](./reminderaction) | Определяет действие, которое должно выполняться при срабатывании тревоги. |

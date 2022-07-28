@@ -17,7 +17,7 @@ public string CopyMessage(IConnection connection, int sequenceNumber, string fol
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要复制消息的文件夹名称 |
 
 ### 返回值
@@ -49,7 +49,7 @@ public string CopyMessage(IConnection connection, string uniqueId, string folder
 
 ### 返回值
 
-如果服务器支持 UIDPLUS 扩展，则返回复制消息的唯一 ID，否则返回 null 请阅读更多 https:// /tools.ietf.org/html/rfc4315
+如果服务器支持 UIDPLUS 扩展，则返回复制消息的唯一 ID，否则返回 null 请阅读更多 https://tools.ietf.org/html/rfc4315
 
 ### 也可以看看
 
@@ -70,12 +70,12 @@ public string CopyMessage(int sequenceNumber, string folderName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | folderName | String | 要复制消息的文件夹名称 |
 
 ### 返回值
 
-If服务器支持 UIDPLUS 扩展返回复制消息的唯一 ID，否则返回 null 请阅读更多 https://tools.ietf.org/html/rfc4315
+如果服务器支持 UIDPLUS 扩展，则返回复制消息的唯一 ID，否则返回 null 请阅读更多 https://tools.ietf.org/html/rfc4315
 
 ### 也可以看看
 
@@ -100,7 +100,7 @@ public string CopyMessage(string uniqueId, string folderName)
 
 ### 返回值
 
-如果服务器支持 UIDPLUS 扩展返回复制消息的唯一 id，否则返回 null 请阅读更多 https://tools.ietf.org/html/rfc4315
+如果服务器支持 UIDPLUS 扩展，则返回复制消息的唯一 ID，否则返回 null 请阅读更多 https://tools.ietf.org/html/rfc4315
 
 ### 也可以看看
 

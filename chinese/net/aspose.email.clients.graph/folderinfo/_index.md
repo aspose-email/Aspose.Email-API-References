@@ -1,14 +1,14 @@
 ---
 title: FolderInfo
 second_title: Aspose.Email for .NET API 参考
-description: 表示个人文件夹的信息
+description: 代表个人文件夹的信息
 type: docs
 weight: 15900
 url: /zh/net/aspose.email.clients.graph/folderinfo/
 ---
 ## FolderInfo class
 
-表示个人文件夹的信息。
+代表个人文件夹的信息。
 
 ```csharp
 public class FolderInfo : BaseRestObject
@@ -18,7 +18,7 @@ public class FolderInfo : BaseRestObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FolderInfo](folderinfo)(MapiPropertyCollection) | 初始化[`FolderInfo`](../folderinfo)类的新实例。 |
+| [FolderInfo](folderinfo)(MapiPropertyCollection) | 初始化[`FolderInfo`](../folderinfo)类. |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public class FolderInfo : BaseRestObject
 | virtual [ContentCount](../../aspose.email.clients.graph/folderinfo/contentcount) { get; } | 获取文件夹中的项目总数。 |
 | virtual [ContentUnreadCount](../../aspose.email.clients.graph/folderinfo/contentunreadcount) { get; } | 获取文件夹中未读项目的数量。 |
 | virtual [DisplayName](../../aspose.email.clients.graph/folderinfo/displayname) { get; set; } | 获取文件夹的显示名称。 |
-| virtual [HasSubFolders](../../aspose.email.clients.graph/folderinfo/hassubfolders) { get; } | 获取一个值，该值指示 Folder 对象是否有任何子文件夹。 |
+| virtual [HasSubFolders](../../aspose.email.clients.graph/folderinfo/hassubfolders) { get; } | 获取一个值，该值指示文件夹对象是否有任何子文件夹。 |
 | virtual [ItemId](../../aspose.email.clients.graph/folderinfo/itemid) { get; } | 获取条目 ID 的字符串表示形式。 |
 | virtual [Properties](../../aspose.email.clients.graph/baserestobject/properties) { get; } | 获取 mapi 属性。 |
 

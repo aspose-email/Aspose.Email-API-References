@@ -1,14 +1,14 @@
 ---
 title: EmsAbTransferTimeoutNormal
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL
 type: docs
 weight: 9170
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabtransfertimeoutnormal/
 ---
 ## KnownPropertyList.EmsAbTransferTimeoutNormal field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbTransferTimeoutNormal;

@@ -17,7 +17,7 @@ public bool TryGetPropertyDateTime(long tag, ref DateTime value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tag | Int64 | MAPI 属性标记。 |
-| value | DateTime& | 当此方法返回时，如果属性存在，则包含指定属性的 值。 此参数未初始化传递。 |
+| value | DateTime& | 当此方法返回时，包含指定属性的 值（如果该属性存在）。 此参数未初始化传递。 |
 
 ### 返回值
 

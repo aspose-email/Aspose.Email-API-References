@@ -16,7 +16,7 @@ public void Add(InstantMessengerAddress value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | InstantMessengerAddress | 要添加到列表中的对象。 |
+| value | InstantMessengerAddress | 要添加到列表的对象。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: SetSupportedEncryptionUnsafe
 second_title: Aspose.Email for .NET API 参考
-description: 定义要使用的 SSL/TLS 加密协议的版本 此方法不安全并且在设置加密协议时没有任何兼容性检查 使用SupportedEncryptionaspose.email.clients/emailclient/supportedencryption属性来安全地设置仅由 .net 框架明确支持的协议 请注意如果您当前的 .net 框架不支持此级别的安全性则 在尝试建立与服务器的连接时会抛出异常
+description: 定义要使用的 SSL/TLS 加密协议的版本 此方法不安全设置加密协议时不进行任何兼容性检查 使用SupportedEncryptionaspose.email.clients/emailclient/supportedencryption属性以安全地设置仅由 .net 框架明确支持的协议 请注意如果您当前的 .net 框架不支持此级别的安全性 在尝试建立与服务器的连接时将引发异常
 type: docs
 weight: 330
 url: /zh/net/aspose.email.clients/emailclient/setsupportedencryptionunsafe/
 ---
 ## EmailClient.SetSupportedEncryptionUnsafe method
 
-定义要使用的 SSL/TLS 加密协议的版本。 此方法不安全，并且在设置加密协议时没有任何兼容性检查。 使用[`SupportedEncryption`](../supportedencryption)属性来安全地设置仅由 .net 框架明确支持的协议。 请注意，如果您当前的 .net 框架不支持此级别的安全性，则 在尝试建立与服务器的连接时会抛出异常。
+定义要使用的 SSL/TLS 加密协议的版本。 此方法不安全，设置加密协议时不进行任何兼容性检查。 使用[`SupportedEncryption`](../supportedencryption)属性以安全地设置仅由 .net 框架明确支持的协议。 请注意，如果您当前的 .net 框架不支持此级别的安全性， 在尝试建立与服务器的连接时将引发异常。
 
 ```csharp
 public void SetSupportedEncryptionUnsafe(EncryptionProtocols value)

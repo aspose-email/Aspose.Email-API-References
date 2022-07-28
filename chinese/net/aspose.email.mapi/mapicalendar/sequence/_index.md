@@ -1,14 +1,14 @@
 ---
 title: Sequence
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置序列号
+description: 获取或设置序号
 type: docs
 weight: 170
 url: /zh/net/aspose.email.mapi/mapicalendar/sequence/
 ---
 ## MapiCalendar.Sequence property
 
-获取或设置序列号
+获取或设置序号
 
 ```csharp
 public int Sequence { get; set; }

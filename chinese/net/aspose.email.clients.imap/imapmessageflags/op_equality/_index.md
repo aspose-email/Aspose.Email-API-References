@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API 参考
-description: 实现运算符 
+description: 实现运算符 .
 type: docs
 weight: 190
 url: /zh/net/aspose.email.clients.imap/imapmessageflags/op_equality/
 ---
 ## ImapMessageFlags Equality operator
 
-实现运算符 ==。
+实现运算符 ==.
 
 ```csharp
 public static bool operator ==(ImapMessageFlags a, ImapMessageFlags b)

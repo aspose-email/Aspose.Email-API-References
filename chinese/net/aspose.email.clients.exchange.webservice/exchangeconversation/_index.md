@@ -24,27 +24,27 @@ public sealed class ExchangeConversation
 | [FlagStatus](../../aspose.email.clients.exchange.webservice/exchangeconversation/flagstatus) { get; } | 获取当前文件夹中对话项目的聚合标志状态。 |
 | [GlobalCategories](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalcategories) { get; } | 获取 mamailboxilbox 中所有对话项目的类别列表。 |
 | [GlobalFlagStatus](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalflagstatus) { get; } | 获取邮箱中所有对话项目的聚合标志状态。 |
-| [GlobalHasAttachments](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalhasattachments) { get; } | 获取一个值，该值指示邮箱中的至少一个对话项目是否具有附件。 |
+| [GlobalHasAttachments](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalhasattachments) { get; } | 获取一个值，该值指示邮箱中的至少一个对话项目是否有附件。 |
 | [GlobalImportance](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalimportance) { get; } | 获取邮箱中所有对话项目的聚合重要性。 |
 | [GlobalItemClasses](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalitemclasses) { get; } | 获取表示邮箱中对话项目的所有项目类别的项目类别列表。 |
 | [GlobalItemIds](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalitemids) { get; } | 获取邮箱中所有对话项目的项目标识符集合。 |
-| [GlobalLastDeliveryTime](../../aspose.email.clients.exchange.webservice/exchangeconversation/globallastdeliverytime) { get; } | 获取此对话中最后收到的邮件在邮箱中所有文件夹中的传递时间。 |
+| [GlobalLastDeliveryTime](../../aspose.email.clients.exchange.webservice/exchangeconversation/globallastdeliverytime) { get; } | 获取在此对话中最后收到的邮件在邮箱中所有文件夹中的传递时间。 |
 | [GlobalMessageCount](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalmessagecount) { get; } | 获取邮箱中的对话项目总数。 |
 | [GlobalSize](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalsize) { get; } | 获取根据邮箱中所有对话项目的大小计算的对话大小。 |
-| [GlobalUniqueRecipients](../../aspose.email.clients.exchange.webservice/exchangeconversation/globaluniquerecipients) { get; } | 获取邮箱中所有文件夹中在此对话中收到邮件的所有人员的列表。 |
-| [GlobalUniqueSenders](../../aspose.email.clients.exchange.webservice/exchangeconversation/globaluniquesenders) { get; } | 获取邮箱中所有对话项目的发件人列表。 |
-| [GlobalUniqueUnreadSenders](../../aspose.email.clients.exchange.webservice/exchangeconversation/globaluniqueunreadsenders) { get; } | 获取所有已发送邮件的人员的列表，这些邮件在此对话中的所有文件夹中当前未读。 |
+| [GlobalUniqueRecipients](../../aspose.email.clients.exchange.webservice/exchangeconversation/globaluniquerecipients) { get; } | 获取邮箱中所有文件夹中在此对话中收到邮件的所有人的列表。 |
+| [GlobalUniqueSenders](../../aspose.email.clients.exchange.webservice/exchangeconversation/globaluniquesenders) { get; } | 获取邮箱中所有会话项目的发件人列表。 |
+| [GlobalUniqueUnreadSenders](../../aspose.email.clients.exchange.webservice/exchangeconversation/globaluniqueunreadsenders) { get; } | 获取所有已发送邮件的人的列表，这些人在邮箱中的所有文件夹中的此对话中当前未读。 |
 | [GlobalUnreadCount](../../aspose.email.clients.exchange.webservice/exchangeconversation/globalunreadcount) { get; } | 获取邮箱中所有未读对话项目的计数。 |
 | [HasAttachments](../../aspose.email.clients.exchange.webservice/exchangeconversation/hasattachments) { get; } | 获取一个值，该值指示当前文件夹中的至少一个对话项是否有附件。 |
 | [Importance](../../aspose.email.clients.exchange.webservice/exchangeconversation/importance) { get; } | 获取当前文件夹中所有对话项的聚合重要性。 |
-| [ItemClasses](../../aspose.email.clients.exchange.webservice/exchangeconversation/itemclasses) { get; } | 获取项目类别列表，表示当前文件夹中对话项目的所有项目类别 |
+| [ItemClasses](../../aspose.email.clients.exchange.webservice/exchangeconversation/itemclasses) { get; } | 获取表示当前文件夹中会话项目的所有项目类别的项目类别列表 |
 | [ItemIds](../../aspose.email.clients.exchange.webservice/exchangeconversation/itemids) { get; } | 获取当前文件夹中所有对话项目的项目标识符集合。 |
 | [LastDeliveryTime](../../aspose.email.clients.exchange.webservice/exchangeconversation/lastdeliverytime) { get; } | 获取当前文件夹中此对话中最后收到的消息的传递时间。 |
 | [MessageCount](../../aspose.email.clients.exchange.webservice/exchangeconversation/messagecount) { get; } | 获取当前文件夹中的对话项目总数。 |
-| [Size](../../aspose.email.clients.exchange.webservice/exchangeconversation/size) { get; } | 获取根据当前文件夹中所有对话项的大小计算得出的对话大小。 |
-| [UniqueRecipients](../../aspose.email.clients.exchange.webservice/exchangeconversation/uniquerecipients) { get; } | 获取在此对话中收到当前文件夹中消息的所有人员的列表。 |
+| [Size](../../aspose.email.clients.exchange.webservice/exchangeconversation/size) { get; } | 获取根据当前文件夹中所有对话项的大小计算的对话大小。 |
+| [UniqueRecipients](../../aspose.email.clients.exchange.webservice/exchangeconversation/uniquerecipients) { get; } | 获取当前文件夹中消息的所有在此对话中收到消息的人的列表。 |
 | [UniqueSenders](../../aspose.email.clients.exchange.webservice/exchangeconversation/uniquesenders) { get; } | 获取当前文件夹中所有对话项的发件人列表。 |
-| [UniqueUnreadSenders](../../aspose.email.clients.exchange.webservice/exchangeconversation/uniqueunreadsenders) { get; } | 获取当前文件夹中此对话中当前未读的所有已发送消息的人的列表。 |
+| [UniqueUnreadSenders](../../aspose.email.clients.exchange.webservice/exchangeconversation/uniqueunreadsenders) { get; } | 获取当前文件夹中此对话中所有已发送消息的人的列表。 |
 | [UnreadCount](../../aspose.email.clients.exchange.webservice/exchangeconversation/unreadcount) { get; } | 获取当前文件夹中所有未读对话项目的计数。 |
 
 ### 也可以看看

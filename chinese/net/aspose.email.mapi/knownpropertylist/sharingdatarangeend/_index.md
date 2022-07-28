@@ -1,14 +1,14 @@
 ---
 title: SharingDataRangeEnd
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingDataRangeEnd 替代名称dispidSharingDataRangeEnd
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingDataRangeEnd 替代名称dispidSharingDataRangeEnd
 type: docs
 weight: 17440
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingdatarangeend/
 ---
 ## KnownPropertyList.SharingDataRangeEnd field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingDataRangeEnd 替代名称:dispidSharingDataRangeEnd
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingDataRangeEnd 替代名称：dispidSharingDataRangeEnd
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingDataRangeEnd;

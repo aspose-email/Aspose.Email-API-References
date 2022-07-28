@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示该集合是否为只读
+description: 获取一个表示集合是否为只读的值
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapipropertycollection/isreadonly/
 ---
 ## MapiPropertyCollection.IsReadOnly property
 
-获取一个值，该值指示该集合是否为只读。
+获取一个表示集合是否为只读的值。
 
 ```csharp
 public bool IsReadOnly { get; }

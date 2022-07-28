@@ -1,14 +1,14 @@
 ---
 title: MIMETruncation
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает ДОЛЖНЫ ли быть усечены MIME-данные элемента электронной почты при его отправке с сервера клиенту.
+description: Указывает ДОЛЖНЫ ли усекаться данные MIME элемента электронной почты при его отправке с сервера клиенту.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.activesync.transportlayer/syncoptions/mimetruncation/
 ---
 ## SyncOptions.MIMETruncation property
 
-Указывает, ДОЛЖНЫ ли быть усечены MIME-данные элемента электронной почты при его отправке с сервера клиенту.
+Указывает, ДОЛЖНЫ ли усекаться данные MIME элемента электронной почты при его отправке с сервера клиенту.
 
 ```csharp
 public MIMETruncation? MIMETruncation { get; set; }

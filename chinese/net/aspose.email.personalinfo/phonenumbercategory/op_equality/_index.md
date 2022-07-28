@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/phonenumbercategory/op_equality/
 ---
 ## PhoneNumberCategory Equality operator
 
-判断指定对象是否相等。
+判断指定对象是否相等
 
 ```csharp
 public static bool operator ==(PhoneNumberCategory a, PhoneNumberCategory b)
@@ -17,7 +17,7 @@ public static bool operator ==(PhoneNumberCategory a, PhoneNumberCategory b)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | a | PhoneNumberCategory | 第一个要比较的对象 |
-| b | PhoneNumberCategory | 第二个要比较的对象比较 |
+| b | PhoneNumberCategory | 第二个要比较的对象 |
 
 ### 返回值
 

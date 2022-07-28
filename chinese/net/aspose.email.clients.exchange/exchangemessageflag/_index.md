@@ -19,9 +19,9 @@ public enum ExchangeMessageFlag
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| IsRead | `1` | 指示是否已读取 消息。 |
-| HasAttachment | `2` | 表示 邮件是否有附件。 |
-| IsSubmitted | `4` | 表示消息 是否已提交到发件箱。 |
+| IsRead | `1` | 表示 消息是否已被读取。 |
+| HasAttachment | `2` | 指示邮件是否 有附件。 |
+| IsSubmitted | `4` | 表示邮件 是否已提交到发件箱。 |
 
 ### 也可以看看
 

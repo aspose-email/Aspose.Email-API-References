@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/postrssitemguid/
 ---
 ## KnownPropertyList.PostRssItemGuid field
 
-包含 RSS 对象的唯一标识符。 区域:RSS 规范名称:PidLidPostRssItemGuid 替代名称:dispidPostRssItemGuid
+包含 RSS 对象的唯一标识符。 区域：RSS 规范名称：PidLidPostRssItemGuid 替代名称：dispidPostRssItemGuid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssItemGuid;

@@ -16,7 +16,7 @@ public FolderSyncResult(FolderInfo[] added, FolderInfo[] updated, FolderInfo[] d
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| added | FolderInfo[] | 包含已添加文件夹的数组。 |
+| added | FolderInfo[] | 包含添加的文件夹数组。 |
 | updated | FolderInfo[] | 包含修改文件夹的数组。 |
 | deleted | FolderInfo[] | 包含已删除文件夹的数组。 |
 

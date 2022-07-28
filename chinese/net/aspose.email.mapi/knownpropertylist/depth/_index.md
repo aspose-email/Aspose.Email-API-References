@@ -1,14 +1,14 @@
 ---
 title: Depth
 second_title: Aspose.Email for .NET API 参考
-description: 指定包含给定行的嵌套类别的数量 区域MapiCommon 规范名称PidTagDepth 替代名称PR_DEPTH ptagDepth
+description: 指定包含给定行的嵌套类别的数量 区域MapiCommon 规范名称PidTagDepth 替代名称PR_DEPTHptagDepth
 type: docs
 weight: 4010
 url: /zh/net/aspose.email.mapi/knownpropertylist/depth/
 ---
 ## KnownPropertyList.Depth field
 
-指定包含给定行的嵌套类别的数量。 区域:MapiCommon 规范名称:PidTagDepth 替代名称:PR_DEPTH, ptagDepth
+指定包含给定行的嵌套类别的数量。 区域：MapiCommon 规范名称：PidTagDepth 替代名称：PR_DEPTH、ptagDepth
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Depth;

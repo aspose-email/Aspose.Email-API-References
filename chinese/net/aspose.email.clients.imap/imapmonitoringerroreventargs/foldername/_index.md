@@ -1,14 +1,14 @@
 ---
 title: FolderName
 second_title: Aspose.Email for .NET API 参考
-description: 监控操作的指定文件夹
+description: 监视操作的指定文件夹
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.imap/imapmonitoringerroreventargs/foldername/
 ---
 ## ImapMonitoringErrorEventArgs.FolderName property
 
-监控操作的指定文件夹。
+监视操作的指定文件夹。
 
 ```csharp
 public string FolderName { get; }

@@ -1,14 +1,14 @@
 ---
 title: TaskEstimatedEffort
 second_title: Aspose.Email for .NET API 参考
-description: 表示用户期望完成一项任务的分钟数 区域任务 规范名称PidLidTaskEstimatedEffort 替代名称dispidTaskEstimatedEffort
+description: 表示用户期望在任务上工作的分钟数 区域Tasks 规范名称PidLidTaskEstimatedEffort 替代名称dispidTaskEstimatedEffort
 type: docs
 weight: 18630
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskestimatedeffort/
 ---
 ## KnownPropertyList.TaskEstimatedEffort field
 
-表示用户期望完成一项任务的分钟数。 区域:任务 规范名称:PidLidTaskEstimatedEffort 替代名称:dispidTaskEstimatedEffort
+表示用户期望在任务上工作的分钟数。 区域：Tasks 规范名称：PidLidTaskEstimatedEffort 替代名称：dispidTaskEstimatedEffort
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskEstimatedEffort;

@@ -21,7 +21,7 @@ public enum CompressionType
 | --- | --- | --- |
 | NotDefined | `FFFFFFFFFFFFFFFF` | 未定义 |
 | None | `0` | 未定义压缩 |
-| Deflate | `1` | 使用 Deflate 算法 |
+| Deflate | `1` | 使用放气算法 |
 
 ### 也可以看看
 

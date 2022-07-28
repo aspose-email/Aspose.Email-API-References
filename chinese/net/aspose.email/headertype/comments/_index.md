@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Aspose.Email for .NET API 参考
-description: 这是 RFC2822 中定义的自由格式头字段 标头用于将说明性文本放入电子邮件的标头部分 该字段可能包含任意文本 示例 评论经过身份验证的发件人是某人somedonmain.com
+description: 这是 RFC2822 中定义的自由格式头字段 标头用于将说明性文本放入电子邮件的标头部分 该字段可能包含任意文本 示例 评论经过身份验证的发件人是someonesomedonmain.com
 type: docs
 weight: 50
 url: /zh/net/aspose.email/headertype/comments/
 ---
 ## HeaderType.Comments property
 
-这是 RFC2822 中定义的自由格式头字段。 标头用于将说明性文本放入电子邮件的标头部分。 该字段可能包含任意文本。 示例: 评论:经过身份验证的发件人是某人@somedonmain.com。
+这是 RFC2822 中定义的自由格式头字段。 标头用于将说明性文本放入电子邮件的标头部分。 该字段可能包含任意文本。 示例： 评论：经过身份验证的发件人是someone@somedonmain.com。
 
 ```csharp
 public static HeaderType Comments { get; }

@@ -1,14 +1,14 @@
 ---
 title: Availability
 second_title: Aspose.Email for .NET API 参考
-description: 标识在由 StartTime 和 EndTime 标识的时间的请求中标识的用户或分发列表的状态和忙/闲数据 当 ResolveRecipients 请求中包含可用性时服务器检索请求中包含的 To 元素中标识的用户的忙/闲信息并在响应中的 MergedFreeBusy 中返回忙/闲信息.
+description: 标识请求中标识的用户或分发列表在 StartTime 和 EndTime 标识的时间的状态和忙/闲数据 当可用性包含在 ResolveRecipients 请求中时服务器检索标识的用户的忙/闲信息在请求中包含的 To 元素中并在响应中的 MergedFreeBusy 中返回忙/闲信息
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/recipient/availability/
 ---
 ## Recipient.Availability property
 
-标识在由 StartTime 和 EndTime 标识的时间的请求中标识的用户或分发列表的状态和忙/闲数据。 当 ResolveRecipients 请求中包含可用性时，服务器检索请求中包含的 To 元素中标识的用户的忙/闲信息，并在响应中的 MergedFreeBusy 中返回忙/闲信息.
+标识请求中标识的用户或分发列表在 StartTime 和 EndTime 标识的时间的状态和忙/闲数据。 当可用性包含在 ResolveRecipients 请求中时，服务器检索标识的用户的忙/闲信息在请求中包含的 To 元素中，并在响应中的 MergedFreeBusy 中返回忙/闲信息。
 
 ```csharp
 public ResolveRecipientsAvailabilityResponse Availability { get; set; }

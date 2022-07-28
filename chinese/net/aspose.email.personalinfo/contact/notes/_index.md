@@ -1,14 +1,14 @@
 ---
 title: Notes
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置音符
+description: 获取或设置注释
 type: docs
 weight: 280
 url: /zh/net/aspose.email.personalinfo/contact/notes/
 ---
 ## Contact.Notes property
 
-获取或设置音符
+获取或设置注释
 
 ```csharp
 public string Notes { get; set; }

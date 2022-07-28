@@ -1,14 +1,14 @@
 ---
 title: ReturnClientRequestId
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个标志指示客户端是否要求服务器端返回请求id
+description: 获取或设置一个标志表示客户端是否要求服务端返回请求id
 type: docs
 weight: 160
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/returnclientrequestid/
 ---
 ## IEWSClient.ReturnClientRequestId property
 
-获取或设置一个标志，指示客户端是否要求服务器端返回请求id。
+获取或设置一个标志，表示客户端是否要求服务端返回请求id。
 
 ```csharp
 public bool ReturnClientRequestId { get; set; }

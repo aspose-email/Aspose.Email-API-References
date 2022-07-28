@@ -1,14 +1,14 @@
 ---
 title: ReportSearchKey
 second_title: Aspose.Email for .NET API 参考
-description: 包含代表生成报告消息的实体通常是服务器代理的地址簿搜索关键字 区域MapiEnvelope 规范名称PidTagReportSearchKey 替代名称PR_REPORT_SEARCH_KEY ptagReportSearchKey
+description: 包含代表生成报告消息的实体通常是服务器代理的地址簿搜索键 区域MapiEnvelope 规范名称PidTagReportSearchKey 替代名称PR_REPORT_SEARCH_KEYptagReportSearchKey
 type: docs
 weight: 16070
 url: /zh/net/aspose.email.mapi/knownpropertylist/reportsearchkey/
 ---
 ## KnownPropertyList.ReportSearchKey field
 
-包含代表生成报告消息的实体（通常是服务器代理）的地址簿搜索关键字。 区域:MapiEnvelope 规范名称:PidTagReportSearchKey 替代名称:PR_REPORT_SEARCH_KEY, ptagReportSearchKey
+包含代表生成报告消息的实体（通常是服务器代理）的地址簿搜索键。 区域：MapiEnvelope 规范名称：PidTagReportSearchKey 替代名称：PR_REPORT_SEARCH_KEY、ptagReportSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportSearchKey;

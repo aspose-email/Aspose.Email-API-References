@@ -3,7 +3,7 @@ title: GetAppointmentText
 second_title: Aspose.Email for .NET API 参考
 description: 获取日历文本
 type: docs
-weight: 310
+weight: 320
 url: /zh/net/aspose.email.calendar/appointment/getappointmenttext/
 ---
 ## GetAppointmentText() {#getappointmenttext}
@@ -16,7 +16,7 @@ public string GetAppointmentText()
 
 ### 返回值
 
-纯文本形式的日历字符串值。
+日历的字符串值作为纯文本。
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public string GetAppointmentText(AppointmentFormattingOptions formattingOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| formattingOptions | AppointmentFormattingOptions | [`AppointmentFormattingOptions`](../../appointmentformattingoptions)表示约会格式选项。 |
+| formattingOptions | AppointmentFormattingOptions | [`AppointmentFormattingOptions`](../../appointmentformattingoptions)代表约会格式选项。 |
 
 ### 返回值
 
@@ -46,7 +46,7 @@ public string GetAppointmentText(AppointmentFormattingOptions formattingOptions)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 在*formattingOptions*为` null`时抛出 。 |
+| ArgumentNullException | 抛出时*formattingOptions*是`无效的`. |
 
 ### 也可以看看
 

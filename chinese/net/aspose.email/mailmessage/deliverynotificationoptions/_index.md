@@ -1,14 +1,14 @@
 ---
 title: DeliveryNotificationOptions
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置发送通知
+description: 获取或设置送达通知
 type: docs
 weight: 110
 url: /zh/net/aspose.email/mailmessage/deliverynotificationoptions/
 ---
 ## MailMessage.DeliveryNotificationOptions property
 
-获取或设置发送通知
+获取或设置送达通知
 
 ```csharp
 public virtual DeliveryNotificationOptions DeliveryNotificationOptions { get; set; }

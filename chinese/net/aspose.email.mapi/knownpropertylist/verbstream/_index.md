@@ -1,14 +1,14 @@
 ---
 title: VerbStream
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户可以对消息做出哪些投票响应 区域运行时配置 规范名称PidLidVerbStream 替代名称dispidVerbStream
+description: 指定用户可以对消息做出哪些投票响应 区域运行时配置 规范名称PidLidVerbStream 备用名称dispidVerbStream
 type: docs
 weight: 19240
 url: /zh/net/aspose.email.mapi/knownpropertylist/verbstream/
 ---
 ## KnownPropertyList.VerbStream field
 
-指定用户可以对消息做出哪些投票响应。 区域:运行时配置 规范名称:PidLidVerbStream 替代名称:dispidVerbStream
+指定用户可以对消息做出哪些投票响应。 区域：运行时配置 规范名称：PidLidVerbStream 备用名称：dispidVerbStream
 
 ```csharp
 public static readonly PidLidPropertyDescriptor VerbStream;

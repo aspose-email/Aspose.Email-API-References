@@ -28,15 +28,15 @@ public class AmpFitText : AmpComponent
 | [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | 后备是一种约定，它允许元素向读者传达浏览器不支持该元素。 |
 | [MaxFontSize](../../aspose.email.amp/ampfittext/maxfontsize) { get; set; } | 将最大字体大小指定为 amp-fit-text 可以使用的整数。 |
 | [MinFontSize](../../aspose.email.amp/ampfittext/minfontsize) { get; set; } | 将最小字体大小指定为 amp-fit-text 可以使用的整数。 |
-| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标记有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
 | override [RequiredScript](../../aspose.email.amp/ampfittext/requiredscript) { get; } | 必须添加到头部的脚本。 |
-| [Value](../../aspose.email.amp/ampfittext/value) { get; set; } | Text 组件的值。 |
+| [Value](../../aspose.email.amp/ampfittext/value) { get; set; } | 组件的文本值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/ampfittext/toamphtml)() | 表示组件的 amp html 版本。 |
+| override [ToAmpHtml](../../aspose.email.amp/ampfittext/toamphtml)() | 代表 amp html 版本的组件。 |
 | override [ToHtml](../../aspose.email.amp/ampfittext/tohtml)() | 表示组件的 html 版本。 |
 
 ### 也可以看看

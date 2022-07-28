@@ -1,14 +1,14 @@
 ---
 title: Updated
 second_title: Aspose.Email for .NET API 参考
-description: 获取指示最近时间的最近时刻 修改组条目时
+description: 获取表示最近时间 的最近时刻的日期 修改组条目时
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.google/googlecontactgroup/updated/
 ---
 ## GoogleContactGroup.Updated property
 
-获取指示最近时间的最近时刻 修改组条目时
+获取表示最近时间 的最近时刻的日期 修改组条目时
 
 ```csharp
 public DateTime Updated { get; }
@@ -16,7 +16,7 @@ public DateTime Updated { get; }
 
 ### 适当的价值
 
-表示更新日期的日期时间值
+代表更新日期的 DateTime 值
 
 ### 也可以看看
 

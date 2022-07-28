@@ -16,7 +16,7 @@ public void SetRead(string itemId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemId | String | 要标记为已读的项目 ID |
+| itemId | String | 标记为已读的项目 ID |
 
 ### 也可以看看
 

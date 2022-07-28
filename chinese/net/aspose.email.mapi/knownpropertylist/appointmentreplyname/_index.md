@@ -1,14 +1,14 @@
 ---
 title: AppointmentReplyName
 second_title: Aspose.Email for .NET API 参考
-description: 指定最后回复会议请求或会议更新的用户 区域会议 规范名称PidLidAppointmentReplyName 替代名称dispidApptReplyNamehttp//schemas.microsoft.com/mapi/apptreplyname
+description: 指定上次回复会议请求或会议更新的用户 区域Meetings 规范名称PidLidAppointmentReplyName 备用名称dispidApptReplyNamehttp//schemas.microsoft.com/mapi/apptreplyname
 type: docs
 weight: 1260
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentreplyname/
 ---
 ## KnownPropertyList.AppointmentReplyName field
 
-指定最后回复会议请求或会议更新的用户。 区域:会议 规范名称:PidLidAppointmentReplyName 替代名称:dispidApptReplyName，http://schemas.microsoft.com/mapi/apptreplyname
+指定上次回复会议请求或会议更新的用户。 区域：Meetings 规范名称：PidLidAppointmentReplyName 备用名称：dispidApptReplyName，http://schemas.microsoft.com/mapi/apptreplyname
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentReplyName;

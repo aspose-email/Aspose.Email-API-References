@@ -1,14 +1,14 @@
 ---
 title: Statuses
 second_title: Aspose.Email for .NET API 参考
-description: 表示验证结果
+description: 表示验证的结果
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/certificatestatuses/statuses/
 ---
 ## CertificateStatuses.Statuses property
 
-表示验证结果。
+表示验证的结果。
 
 ```csharp
 public List<Status> Statuses { get; }

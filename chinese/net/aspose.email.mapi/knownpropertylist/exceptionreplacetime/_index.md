@@ -1,14 +1,14 @@
 ---
 title: ExceptionReplaceTime
 second_title: Aspose.Email for .NET API 参考
-description: 以 UTC 格式在重复模式中指定日期和时间异常将被替换 区域日历 规范名称PidLidExceptionReplaceTime 替代名称dispidExceptionReplaceTime
+description: 指定日期和时间以 UTC 为单位在重复模式中将被异常替换 区域Calendar 规范名称PidLidExceptionReplaceTime 替代名称dispidExceptionReplaceTime
 type: docs
 weight: 9790
 url: /zh/net/aspose.email.mapi/knownpropertylist/exceptionreplacetime/
 ---
 ## KnownPropertyList.ExceptionReplaceTime field
 
-以 UTC 格式在重复模式中指定日期和时间，异常将被替换。 区域:日历 规范名称:PidLidExceptionReplaceTime 替代名称:dispidExceptionReplaceTime
+指定日期和时间（以 UTC 为单位）在重复模式中将被异常替换。 区域：Calendar 规范名称：PidLidExceptionReplaceTime 替代名称：dispidExceptionReplaceTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ExceptionReplaceTime;

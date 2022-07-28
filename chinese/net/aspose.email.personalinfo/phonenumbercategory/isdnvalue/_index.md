@@ -1,14 +1,14 @@
 ---
 title: IsdnValue
 second_title: Aspose.Email for .NET API 参考
-description: Isdn 类别的字符串值
+description: Isdn类别的字符串值
 type: docs
 weight: 330
 url: /zh/net/aspose.email.personalinfo/phonenumbercategory/isdnvalue/
 ---
 ## PhoneNumberCategory.IsdnValue field
 
-'Isdn' 类别的字符串值
+“Isdn”类别的字符串值
 
 ```csharp
 public const string IsdnValue;

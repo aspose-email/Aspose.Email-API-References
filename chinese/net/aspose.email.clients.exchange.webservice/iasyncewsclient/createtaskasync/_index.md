@@ -18,14 +18,14 @@ public Task<string> CreateTaskAsync(ExchangeTask task, string folder = null,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | task | ExchangeTask | 要创建的任务。 |
-| folder | String | 应该在其中创建任务的文件夹。文件夹[`TasksUri`](../../../aspose.email.clients.exchange/exchangemailboxinfo/tasksuri)默认使用 。 |
+| folder | String | 应在其中创建任务的文件夹。文件夹[`TasksUri`](../../../aspose.email.clients.exchange/exchangemailboxinfo/tasksuri)is 默认使用。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*is` null` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*是`无效的`. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Credentials
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置用于通过 Exchange Web 服务进行身份验证的凭据设置 Credentials 属性 会自动将 UseDefaultCredentials 设置为 false
+description: 获取或设置用于通过 Exchange Web 服务进行身份验证的凭据设置 Credentials property 会自动将 UseDefaultCredentials 设置为 false
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange/autodiscoverservicebase/credentials/
 ---
 ## AutodiscoverServiceBase.Credentials property
 
-获取或设置用于通过 Exchange Web 服务进行身份验证的凭据。设置 Credentials 属性 会自动将 UseDefaultCredentials 设置为 false。
+获取或设置用于通过 Exchange Web 服务进行身份验证的凭据。设置 Credentials property 会自动将 UseDefaultCredentials 设置为 false。
 
 ```csharp
 public ICredentials Credentials { get; set; }

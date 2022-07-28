@@ -1,14 +1,14 @@
 ---
 title: Logo
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置标志
+description: 获取或设置一个 logo
 type: docs
 weight: 40
 url: /zh/net/aspose.email.personalinfo.vcard/vcardorganization/logo/
 ---
 ## VCardOrganization.Logo property
 
-获取或设置标志
+获取或设置一个 logo
 
 ```csharp
 public VCardPhoto Logo { get; set; }

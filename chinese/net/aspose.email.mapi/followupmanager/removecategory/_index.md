@@ -17,13 +17,13 @@ public static void RemoveCategory(MapiMessage message, string categoryName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | MapiMessage | 消息。 |
-| categoryName | String | 类别名称。 |
+| categoryName | String | 类别的名称。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 | ArgumentException | 如果*categoryName*为空或为空。 |
 
 ### 也可以看看

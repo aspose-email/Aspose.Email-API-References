@@ -1,14 +1,14 @@
 ---
 title: DueDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок Срок выполнения.
+description: Заголовок срока выполнения.
 type: docs
 weight: 60
 url: /ru/net/aspose.email/mhttemplatename.task/duedate/
 ---
 ## MhtTemplateName.Task.DueDate field
 
-Заголовок Срок выполнения.
+Заголовок срока выполнения.
 
 ```csharp
 public const string DueDate;

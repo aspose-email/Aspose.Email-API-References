@@ -1,14 +1,14 @@
 ---
 title: SrcMsgId
 second_title: Aspose.Email for .NET API 参考
-description: 指定要移动的项目的服务器 ID SrcMsgId 元素值最长可达 64 个字符
+description: 指定要移动的项目的服务器 ID SrcMsgId 元素值的长度最多为 64 个字符
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/moveitemresponse/srcmsgid/
 ---
 ## MoveItemResponse.SrcMsgId property
 
-指定要移动的项目的服务器 ID。 SrcMsgId 元素值最长可达 64 个字符。
+指定要移动的项目的服务器 ID。 SrcMsgId 元素值的长度最多为 64 个字符。
 
 ```csharp
 public string SrcMsgId { get; set; }

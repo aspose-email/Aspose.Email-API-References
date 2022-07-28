@@ -1,14 +1,14 @@
 ---
 title: ReturnQueueEvents
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示运行任务的人是否具有特权角色
+description: 获取或设置一个值该值指示运行任务的人是否处于特权角色
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/returnqueueevents/
 ---
 ## GetMessageTrackingReportOptions.ReturnQueueEvents property
 
-获取或设置一个值，该值指示运行任务的人是否具有特权角色。
+获取或设置一个值，该值指示运行任务的人是否处于特权角色。
 
 ```csharp
 public bool ReturnQueueEvents { get; set; }

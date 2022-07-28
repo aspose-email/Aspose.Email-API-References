@@ -1,14 +1,14 @@
 ---
 title: Home
 second_title: Aspose.Email for .NET API 参考
-description: 主页类别
+description: 首页分类
 type: docs
 weight: 60
 url: /zh/net/aspose.email.personalinfo/emailaddresscategory/home/
 ---
 ## EmailAddressCategory.Home property
 
-主页类别
+首页分类
 
 ```csharp
 public static EmailAddressCategory Home { get; }

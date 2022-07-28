@@ -17,7 +17,7 @@ public void WriteIf(bool condition, string message)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | condition | Boolean | 要测试的条件。 |
-| message | String | 要写入的消息。 |
+| message | String | 要写的消息。 |
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public void WriteIf(bool condition, object message)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | condition | Boolean | 要测试的条件。 |
-| message | Object | 要写入的消息。 |
+| message | Object | 要写的消息。 |
 
 ### 也可以看看
 
@@ -59,8 +59,8 @@ public void WriteIf(bool condition, object message, Exception exception)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | condition | Boolean | 要测试的条件。 |
-| message | Object | 要写入的消息。 |
-| exception | Exception | 要写入的异常。 |
+| message | Object | 要写的消息。 |
+| exception | Exception | 写的例外。 |
 
 ### 也可以看看
 

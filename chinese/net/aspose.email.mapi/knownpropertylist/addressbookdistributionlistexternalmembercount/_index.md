@@ -1,14 +1,14 @@
 ---
 title: AddressBookDistributionListExternalMemberCount
 second_title: Aspose.Email for .NET API 参考
-description: 包含分发列表中外部收件人的数量 区域地址簿 规范名称PidTagAddressBookDistributionListExternalMemberCount 备用名称PR_EMS_AB_DL_EXTERNAL_MEMBER_COUNT
+description: 包含分发列表中外部收件人的数量 区域地址簿 规范名称PidTagAddressBookDistributionListExternalMemberCount 替代名称PR_EMS_AB_DL_EXTERNAL_MEMBER_COUNT
 type: docs
 weight: 390
 url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistexternalmembercount/
 ---
 ## KnownPropertyList.AddressBookDistributionListExternalMemberCount field
 
-包含分发列表中外部收件人的数量。 区域:地址簿 规范名称:PidTagAddressBookDistributionListExternalMemberCount 备用名称:PR_EMS_AB_DL_EXTERNAL_MEMBER_COUNT
+包含分发列表中外部收件人的数量。 区域：地址簿 规范名称：PidTagAddressBookDistributionListExternalMemberCount 替代名称：PR_EMS_AB_DL_EXTERNAL_MEMBER_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDistributionListExternalMemberCount;

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/email2emailaddress/
 ---
 ## KnownPropertyList.Email2EmailAddress field
 
-指定联系人的电子邮件地址。 区域:联系人属性 规范名称:PidLidEmail2EmailAddress 备用名称:dispidEmail2EmailAddress
+指定联系人的电子邮件地址。 区域：联系人属性 规范名称：PidLidEmail2EmailAddress 备用名称：dispidEmail2EmailAddress
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email2EmailAddress;

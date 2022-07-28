@@ -3,7 +3,7 @@ title: MapiCalendarRecurrenceEndType
 second_title: Aspose.Email for .NET API 参考
 description: 枚举重复的结束类型
 type: docs
-weight: 18030
+weight: 18050
 url: /zh/net/aspose.email.mapi/mapicalendarrecurrenceendtype/
 ---
 ## MapiCalendarRecurrenceEndType enumeration
@@ -18,9 +18,9 @@ public enum MapiCalendarRecurrenceEndType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 未设置值 |
+| None | `0` | 没有设置任何值 |
 | EndAfterDate | `8225` | 在日期之后结束。 |
-| EndAfterNOccurrences | `8226` | N 次后结束。 |
+| EndAfterNOccurrences | `8226` | 在出现 N 次后结束。 |
 | NeverEnd | `8227` | 永无止境。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置要搜索的值
+description: 获取或设置值到 search
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.imap/simpleseqset/value/
 ---
 ## SimpleSeqSet.Value property
 
-获取或设置要搜索的值
+获取或设置值到 search
 
 ```csharp
 public string Value { get; set; }

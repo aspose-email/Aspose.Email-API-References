@@ -40,7 +40,7 @@ public static MailMessage Load(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 在 eml 中表示消息的流或消息格式 |
+| stream | Stream | 以 eml 或 msg 格式表示消息的流 |
 
 ### 返回值
 
@@ -64,18 +64,18 @@ public static MailMessage Load(string fileName, LoadOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 源文件路径String。 |
-| options | LoadOptions | 附加选项[`LoadOptions`](../../loadoptions)。 |
+| fileName | String | 源文件路径String. |
+| options | LoadOptions | 附加选项[`LoadOptions`](../../loadoptions). |
 
 ### 返回值
 
-邮件消息[`MailMessage`](../../mailmessage)。
+邮件信息[`MailMessage`](../../mailmessage).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*fileName*为空。 |
+| ArgumentNullException | 如果*fileName*一片空白。 |
 
 ### 也可以看看
 
@@ -96,18 +96,18 @@ public static MailMessage Load(Stream stream, LoadOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 源流Stream。 |
-| options | LoadOptions | 附加选项[`LoadOptions`](../../loadoptions)。 |
+| stream | Stream | 源流Stream. |
+| options | LoadOptions | 附加选项[`LoadOptions`](../../loadoptions). |
 
 ### 返回值
 
-邮件消息[`MailMessage`](../../mailmessage)。
+邮件信息[`MailMessage`](../../mailmessage).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*stream*为空。 |
+| ArgumentNullException | 如果*stream*一片空白。 |
 
 ### 也可以看看
 

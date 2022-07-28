@@ -1,14 +1,14 @@
 ---
 title: FetchNotebook
 second_title: Aspose.Email for .NET API 参考
-description: 检索笔记本对象的属性和关系 权限 调用此 API 需要以下权限之一 Delegated工作或学校帐户 Notes.CreateNotes.ReadNotes.ReadWriteNotes.Read.AllNotes.ReadWrite.All Delegated个人 Microsoft 帐户 Notes.CreateNotes.ReadNotes.ReadWrite 应用程序 Notes.Read.AllNotes.ReadWrite.All
+description: 检索笔记本对象的属性和关系 Permissions 调用此 API 需要以下权限之一 委托工作或学校帐户Notes.CreateNotes.ReadNotes.ReadWriteNotes.Read.All  Notes.ReadWrite.All Delegated 个人 Microsoft 帐户 Notes.Create Notes.Read Notes.ReadWrite 应用程序 Notes.Read.All Notes.ReadWrite.All
 type: docs
 weight: 230
 url: /zh/net/aspose.email.clients.graph/igraphclient/fetchnotebook/
 ---
 ## IGraphClient.FetchNotebook method
 
-检索笔记本对象的属性和关系。 权限 调用此 API 需要以下权限之一。 Delegated（工作或学校帐户） Notes.Create、Notes.Read、Notes.ReadWrite、Notes.Read.All、Notes.ReadWrite.All Delegated（个人 Microsoft 帐户） Notes.Create、Notes.Read、Notes.ReadWrite 应用程序 Notes.Read.All、Notes.ReadWrite.All
+检索笔记本对象的属性和关系。 Permissions 调用此 API 需要以下权限之一。 委托（工作或学校帐户）Notes.Create、Notes.Read、Notes.ReadWrite、Notes.Read.All , Notes.ReadWrite.All Delegated (个人 Microsoft 帐户) Notes.Create, Notes.Read, Notes.ReadWrite 应用程序 Notes.Read.All, Notes.ReadWrite.All
 
 ```csharp
 public Notebook FetchNotebook(string itemId)
@@ -16,7 +16,7 @@ public Notebook FetchNotebook(string itemId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| itemId | String | 项目 ID |
+| itemId | String | 商品编号 |
 
 ### 返回值
 

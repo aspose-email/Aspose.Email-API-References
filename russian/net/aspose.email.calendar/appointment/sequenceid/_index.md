@@ -3,7 +3,7 @@ title: SequenceId
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает идентификатор последовательности.
 type: docs
-weight: 220
+weight: 230
 url: /ru/net/aspose.email.calendar/appointment/sequenceid/
 ---
 ## Appointment.SequenceId property

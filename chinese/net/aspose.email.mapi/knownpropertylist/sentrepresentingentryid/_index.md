@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含由发送邮箱所有者表示的最终用户的标识符 区域地址属性 规范名称PidTagSentRepresentingEntryId 替代名称PR_SENT_REPRESENTING_ENTRYID ptagSentRepresentingEntryId
+description: 包含由发送邮箱所有者表示的最终用户的标识符 区域地址 Properties 规范名称PidTagSentRepresentingEntryId 替代名称PR_SENT_REPRESENTING_ENTRYIDptagSentRepresentingEntryId
 type: docs
 weight: 17240
 url: /zh/net/aspose.email.mapi/knownpropertylist/sentrepresentingentryid/
 ---
 ## KnownPropertyList.SentRepresentingEntryId field
 
-包含由发送邮箱所有者表示的最终用户的标识符。 区域:地址属性 规范名称:PidTagSentRepresentingEntryId 替代名称:PR_SENT_REPRESENTING_ENTRYID, ptagSentRepresentingEntryId
+包含由发送邮箱所有者表示的最终用户的标识符。 区域：地址 Properties 规范名称：PidTagSentRepresentingEntryId 替代名称：PR_SENT_REPRESENTING_ENTRYID、ptagSentRepresentingEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingEntryId;

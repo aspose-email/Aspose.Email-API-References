@@ -1,14 +1,14 @@
 ---
 title: LastModificationTime
 second_title: Aspose.Email for .NET API 参考
-description: 包含对对象的最后修改的时间以 UTC 表示 区域消息时间属性 规范名称PidTagLastModificationTime 替代名称PR_LAST_MODIFICATION_TIME ptagLastModificationTime
+description: 包含对对象的最后修改时间以 UTC 为单位 区域消息时间 Properties 规范名称PidTagLastModificationTime 替代名称PR_LAST_MODIFICATION_TIMEptagLastModificationTime
 type: docs
 weight: 12010
 url: /zh/net/aspose.email.mapi/knownpropertylist/lastmodificationtime/
 ---
 ## KnownPropertyList.LastModificationTime field
 
-包含对对象的最后修改的时间，以 UTC 表示。 区域:消息时间属性 规范名称:PidTagLastModificationTime 替代名称:PR_LAST_MODIFICATION_TIME, ptagLastModificationTime,
+包含对对象的最后修改时间（以 UTC 为单位）。 区域：消息时间 Properties 规范名称：PidTagLastModificationTime 替代名称：PR_LAST_MODIFICATION_TIME、ptagLastModificationTime、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastModificationTime;

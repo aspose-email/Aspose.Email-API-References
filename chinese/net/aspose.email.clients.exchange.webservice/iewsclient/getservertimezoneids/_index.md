@@ -1,14 +1,14 @@
 ---
 title: GetServerTimeZoneIds
 second_title: Aspose.Email for .NET API 参考
-description: GetServerTimeZoneIds 返回来自 Exchange 服务器上可用的时区 ID 的信息
+description: GetServerTimeZoneIds 从 Exchange 服务器上可用的时区 ID 返回信息
 type: docs
 weight: 1020
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/getservertimezoneids/
 ---
 ## GetServerTimeZoneIds() {#getservertimezoneids}
 
-GetServerTimeZoneIds 返回来自 Exchange 服务器上可用的时区 ID 的信息。
+GetServerTimeZoneIds 从 Exchange 服务器上可用的时区 ID 返回信息。
 
 ```csharp
 public string[] GetServerTimeZoneIds()
@@ -28,7 +28,7 @@ public string[] GetServerTimeZoneIds()
 
 ## GetServerTimeZoneIds(params string[]) {#getservertimezoneids_2}
 
-GetServerTimeZoneIds 返回来自 Exchange 服务器上可用的时区 ID 的信息。
+GetServerTimeZoneIds 从 Exchange 服务器上可用的时区 ID 返回信息。
 
 ```csharp
 public string[] GetServerTimeZoneIds(params string[] timeZoneIds)
@@ -52,7 +52,7 @@ public string[] GetServerTimeZoneIds(params string[] timeZoneIds)
 
 ## GetServerTimeZoneIds(IEnumerable&lt;string&gt;) {#getservertimezoneids_1}
 
-GetServerTimeZoneIds 返回来自 Exchange 服务器上可用的时区 ID 的信息。
+GetServerTimeZoneIds 从 Exchange 服务器上可用的时区 ID 返回信息。
 
 ```csharp
 public string[] GetServerTimeZoneIds(IEnumerable<string> timeZoneIds)

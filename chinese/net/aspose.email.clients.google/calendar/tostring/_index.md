@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-返回代表对象实例的字符串。
+返回一个表示对象实例的字符串。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует статус в значение int
+description: Преобразует статус в int value
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activesync.transportlayer/status/op_implicit/
 ---
 ## Status Implicit operator
 
-Преобразует статус в значение int
+Преобразует статус в int value
 
 ```csharp
 public static implicit operator int(Status status)
@@ -16,7 +16,7 @@ public static implicit operator int(Status status)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| status | Status | Преобразуемый объект. |
+| status | Status | Объект для преобразования. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: GivenName
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的名字 区域MapiMailUser 规范名称PidTagGivenName 别名PR_GIVEN_NAME PR_GIVEN_NAME_A PR_GIVEN_NAME_W
+description: 包含邮件用户的名字 区域MapiMailUser 规范名称PidTagGivenName 备用名称PR_GIVEN_NAMEPR_GIVEN_NAME_APR_GIVEN_NAME_W
 type: docs
 weight: 10780
 url: /zh/net/aspose.email.mapi/knownpropertylist/givenname/
 ---
 ## KnownPropertyList.GivenName field
 
-包含邮件用户的名字。 区域:MapiMailUser 规范名称:PidTagGivenName 别名:PR_GIVEN_NAME, PR_GIVEN_NAME_A, PR_GIVEN_NAME_W,
+包含邮件用户的名字。 区域：MapiMailUser 规范名称：PidTagGivenName 备用名称：PR_GIVEN_NAME、PR_GIVEN_NAME_A、PR_GIVEN_NAME_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GivenName;

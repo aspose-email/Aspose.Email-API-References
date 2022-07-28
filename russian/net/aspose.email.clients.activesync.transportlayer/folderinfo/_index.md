@@ -24,9 +24,9 @@ public class FolderInfo
 
 | Имя | Описание |
 | --- | --- |
-| [DisplayName](../../aspose.email.clients.activesync.transportlayer/folderinfo/displayname) { get; } | Задает удобное для пользователя имя папки. |
-| [ParentId](../../aspose.email.clients.activesync.transportlayer/folderinfo/parentid) { get; } | Указывает идентификатор сервера родительской папки папки на сервере |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/folderinfo/serverid) { get; } | Указывает идентификатор сервера папки на сервере |
+| [DisplayName](../../aspose.email.clients.activesync.transportlayer/folderinfo/displayname) { get; } | Указывает понятное имя папки. |
+| [ParentId](../../aspose.email.clients.activesync.transportlayer/folderinfo/parentid) { get; } | Указывает идентификатор сервера родительской папки папки на server |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/folderinfo/serverid) { get; } | Указывает идентификатор сервера папки на server |
 | [Type](../../aspose.email.clients.activesync.transportlayer/folderinfo/type) { get; } | Указывает тип папки. |
 
 ## Методы

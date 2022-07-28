@@ -26,18 +26,18 @@ public class AmpTimeago : AmpComponent
 | 姓名 | 描述 |
 | --- | --- |
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP 提供了一组通用属性，这些属性扩展到许多 AMP 组件。 |
-| [Cutoff](../../aspose.email.amp/amptimeago/cutoff) { get; set; } | 如果时间距离早于截止（秒），则显示原始日期。 |
+| [Cutoff](../../aspose.email.amp/amptimeago/cutoff) { get; set; } | 如果时间距离早于截止时间（秒），则显示原始日期。 |
 | [DateTime](../../aspose.email.amp/amptimeago/datetime) { get; set; } | 日期时间。 |
 | [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | 后备是一种约定，它允许元素向读者传达浏览器不支持该元素。 |
 | [Locale](../../aspose.email.amp/amptimeago/locale) { get; set; } | 默认本地设置为en；但是，您可以指定其他语言环境。 查看支持的语言环境的完整列表 https://amp.dev/documentation/components/amp-timeago/?format=email |
-| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标记有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
 | override [RequiredScript](../../aspose.email.amp/amptimeago/requiredscript) { get; } | 必须添加到头部的脚本。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/amptimeago/toamphtml)() | 表示组件的 amp html 版本。 |
+| override [ToAmpHtml](../../aspose.email.amp/amptimeago/toamphtml)() | 代表 amp html 版本的组件。 |
 | override [ToHtml](../../aspose.email.amp/amptimeago/tohtml)() | 表示组件的 html 版本。 |
 
 ### 也可以看看

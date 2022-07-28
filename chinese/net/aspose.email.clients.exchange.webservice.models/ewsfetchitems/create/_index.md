@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建FetchItemsAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync方法的参数集
+description: 创建FetchItemsAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync方法的参数集.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/create/
 ---
 ## EwsFetchItems.Create method
 
-创建[`FetchItemsAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync)方法的参数集。
+创建[`FetchItemsAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync)方法的参数集.
 
 ```csharp
 public static EwsFetchItems Create()

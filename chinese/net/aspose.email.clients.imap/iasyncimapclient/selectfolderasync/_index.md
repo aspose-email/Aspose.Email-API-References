@@ -1,14 +1,14 @@
 ---
 title: SelectFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 选择指定文件夹
+description: 选择指定的文件夹
 type: docs
 weight: 340
 url: /zh/net/aspose.email.clients.imap/iasyncimapclient/selectfolderasync/
 ---
 ## IAsyncImapClient.SelectFolderAsync method
 
-选择指定文件夹
+选择指定的文件夹
 
 ```csharp
 public Task SelectFolderAsync(string folderName, bool? readOnly = false, 
@@ -19,12 +19,12 @@ public Task SelectFolderAsync(string folderName, bool? readOnly = false,
 | --- | --- | --- |
 | connection | String | 连接到服务器 |
 | folderName | Nullable`1 | 要选择的文件夹 |
-| readOnly | IConnection | 指定文件夹是否要选择为只读 |
+| readOnly | IConnection | 指定文件夹是否被选为只读 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

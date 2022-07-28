@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalrootdepa
 ---
 ## KnownPropertyList.AddressBookHierarchicalRootDepartment field
 
-包含组织的部门层次结构中根部门对象或根部门组的可分辨名称 (DN)。 区域:地址簿 规范名称:PidTagAddressBookHierarchicalRootDepartment 备用名称:PR_EMS_AB_HAB_ROOT_DEPARTMENT
+包含组织的部门层次结构中根部门对象或根部门组的可分辨名称 (DN)。 区域：地址簿 规范名称：PidTagAddressBookHierarchicalRootDepartment 备用名称：PR_EMS_AB_HAB_ROOT_DEPARTMENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHierarchicalRootDepartment;

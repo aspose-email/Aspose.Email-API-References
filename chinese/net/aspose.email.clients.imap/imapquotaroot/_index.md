@@ -20,7 +20,7 @@ public class ImapQuotaRoot
 | --- | --- |
 | [MailboxName](../../aspose.email.clients.imap/imapquotaroot/mailboxname) { get; } | 获取邮箱名称 |
 | [QuotaRootName](../../aspose.email.clients.imap/imapquotaroot/quotarootname) { get; } | 获取 qupta 根名称 |
-| [Quotas](../../aspose.email.clients.imap/imapquotaroot/quotas) { get; } | 获取资源使用情况 |
+| [Quotas](../../aspose.email.clients.imap/imapquotaroot/quotas) { get; } | 获取资源的使用情况 |
 
 ### 也可以看看
 

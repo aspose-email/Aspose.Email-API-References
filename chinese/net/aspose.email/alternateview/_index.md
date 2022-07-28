@@ -18,19 +18,19 @@ public class AlternateView : AttachmentBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AlternateView](alternateview#constructor)(Stream) | 初始化[`AlternateView`](../alternateview)类的新实例。 |
-| [AlternateView](alternateview#constructor_3)(string) | 初始化[`AlternateView`](../alternateview)类的新实例。 |
-| [AlternateView](alternateview#constructor_1)(Stream, ContentType) | 初始化[`AlternateView`](../alternateview)类的新实例。 |
-| [AlternateView](alternateview#constructor_2)(Stream, string) | 初始化[`AlternateView`](../alternateview)类的新实例。 |
-| [AlternateView](alternateview#constructor_4)(string, ContentType) | 初始化[`AlternateView`](../alternateview)类的新实例。 |
-| [AlternateView](alternateview#constructor_5)(string, string) | 初始化[`AlternateView`](../alternateview)类的新实例。 |
+| [AlternateView](alternateview#constructor)(Stream) | 初始化[`AlternateView`](../alternateview)类. |
+| [AlternateView](alternateview#constructor_3)(string) | 初始化[`AlternateView`](../alternateview)类. |
+| [AlternateView](alternateview#constructor_1)(Stream, ContentType) | 初始化[`AlternateView`](../alternateview)类. |
+| [AlternateView](alternateview#constructor_2)(Stream, string) | 初始化[`AlternateView`](../alternateview)类. |
+| [AlternateView](alternateview#constructor_4)(string, ContentType) | 初始化[`AlternateView`](../alternateview)类. |
+| [AlternateView](alternateview#constructor_5)(string, string) | 初始化[`AlternateView`](../alternateview)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [BaseUri](../../aspose.email/alternateview/baseuri) { get; set; } | 获取或设置基本 URI。 |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容ID。 |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | 获取或设置内容id。 |
 | [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | 获取或设置内容流。 |
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | 获取或设置内容的类型。 |
 | virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | 获取附件的标题集合。 |
@@ -41,10 +41,10 @@ public class AlternateView : AttachmentBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring)(string) | 创建使用 字符串中指定内容的 AlternateView。 |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring_1)(string, ContentType) | 创建使用 字符串中指定内容的 AlternateView。 |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring_2)(string, ContentType, TransferEncoding) | 创建使用 字符串中指定内容的 AlternateView。 |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring_3)(string, Encoding, string) | 创建使用 字符串中指定内容的 AlternateView。 |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring)(string) | 创建使用 字符串中指定的内容的AlternateView。 |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring_1)(string, ContentType) | 创建使用 字符串中指定的内容的AlternateView。 |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring_2)(string, ContentType, TransferEncoding) | 创建使用 字符串中指定的内容的AlternateView。 |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring_3)(string, Encoding, string) | 创建使用 字符串中指定的内容的AlternateView。 |
 | [Dispose](../../aspose.email/attachmentbase/dispose)() | 执行与释放、 释放或重置非托管资源相关的应用程序定义任务。 |
 | virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | 保存指定的流。 |
 | virtual [Save](../../aspose.email/attachmentbase/save)(string) | 保存指定的文件名。 |

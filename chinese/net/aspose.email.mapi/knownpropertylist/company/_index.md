@@ -1,14 +1,14 @@
 ---
 title: Company
 second_title: Aspose.Email for .NET API 参考
-description: 指定为其创建文件的公司 区域普通 规范名称PidNameCompany 替代名称urnschemas-microsoft-comofficeofficeCompany
+description: 指定为其创建文件的公司 区域Common 规范名称PidNameCompany 替代名称urnschemas-microsoft-comofficeofficeCompany
 type: docs
 weight: 2820
 url: /zh/net/aspose.email.mapi/knownpropertylist/company/
 ---
 ## KnownPropertyList.Company field
 
-指定为其创建文件的公司。 区域：普通 规范名称：PidNameCompany 替代名称：urn:schemas-microsoft-com:office:office#Company
+指定为其创建文件的公司。 区域：Common 规范名称：PidNameCompany 替代名称：urn:schemas-microsoft-com:office:office#Company
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Company;

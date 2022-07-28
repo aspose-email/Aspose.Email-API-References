@@ -1,14 +1,14 @@
 ---
 title: MessageInfo
 second_title: Aspose.Email for .NET API 参考
-description: 表示关于 PST 中消息的 信息
+description: 表示关于 PST 中消息的信息 
 type: docs
-weight: 20200
+weight: 20250
 url: /zh/net/aspose.email.storage.pst/messageinfo/
 ---
 ## MessageInfo class
 
-表示关于 PST 中消息的 信息。
+表示关于 PST 中消息的信息 。
 
 ```csharp
 public sealed class MessageInfo
@@ -18,22 +18,22 @@ public sealed class MessageInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MessageInfo](messageinfo)() | 初始化[`MessageInfo`](../messageinfo)类的新实例。 |
+| [MessageInfo](messageinfo)() | 初始化[`MessageInfo`](../messageinfo)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DisplayCC](../../aspose.email.storage.pst/messageinfo/displaycc) { get; } | 获取 CC:行。 |
-| [DisplayTo](../../aspose.email.storage.pst/messageinfo/displayto) { get; } | 获取 To:行。 |
+| [DisplayCC](../../aspose.email.storage.pst/messageinfo/displaycc) { get; } | 获取 CC：行。 |
+| [DisplayTo](../../aspose.email.storage.pst/messageinfo/displayto) { get; } | 获取收件人：行。 |
 | [EntryId](../../aspose.email.storage.pst/messageinfo/entryid) { get; } | 获取条目 ID。 |
 | [EntryIdString](../../aspose.email.storage.pst/messageinfo/entryidstring) { get; } | 获取条目 ID 的字符串表示形式。 |
 | [Importance](../../aspose.email.storage.pst/messageinfo/importance) { get; } | 获取重要性。 |
 | [MessageClass](../../aspose.email.storage.pst/messageinfo/messageclass) { get; } | 获取消息类。 |
 | [Properties](../../aspose.email.storage.pst/messageinfo/properties) { get; } | 获取 MessageInfo 属性。 |
-| [SenderRepresentativeName](../../aspose.email.storage.pst/messageinfo/senderrepresentativename) { get; } | 获取发件人代表名称。 |
+| [SenderRepresentativeName](../../aspose.email.storage.pst/messageinfo/senderrepresentativename) { get; } | 获取发件人代表姓名。 |
 | [Sensitivity](../../aspose.email.storage.pst/messageinfo/sensitivity) { get; } | 获取灵敏度。 |
-| [Subject](../../aspose.email.storage.pst/messageinfo/subject) { get; } | 获取消息主题。 |
+| [Subject](../../aspose.email.storage.pst/messageinfo/subject) { get; } | 获取邮件主题。 |
 
 ### 也可以看看
 

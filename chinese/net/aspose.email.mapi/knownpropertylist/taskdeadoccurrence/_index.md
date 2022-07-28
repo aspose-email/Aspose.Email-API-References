@@ -1,14 +1,14 @@
 ---
 title: TaskDeadOccurrence
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否仍有新的事件要生成 区域任务 规范名称PidLidTaskDeadOccurrence 替代名称dispidTaskDeadOccur
+description: 表示是否仍有新的事件要生成 区域Tasks 规范名称PidLidTaskDeadOccurrence 替代名称dispidTaskDeadOccur
 type: docs
 weight: 18610
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskdeadoccurrence/
 ---
 ## KnownPropertyList.TaskDeadOccurrence field
 
-指示是否仍有新的事件要生成。 区域:任务 规范名称:PidLidTaskDeadOccurrence 替代名称:dispidTaskDeadOccur
+表示是否仍有新的事件要生成。 区域：Tasks 规范名称：PidLidTaskDeadOccurrence 替代名称：dispidTaskDeadOccur
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskDeadOccurrence;

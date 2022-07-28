@@ -1,14 +1,44 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API 参考
-description: 使用默认保存选项以 iCalendar 格式将约会保存到文件
+description: 使用指定的保存选项将约会保存到流
 type: docs
-weight: 340
+weight: 350
 url: /zh/net/aspose.email.calendar/appointment/save/
 ---
+## Save(Stream, AppointmentSaveOptions) {#save_2}
+
+使用指定的保存选项将约会保存到流
+
+```csharp
+public void Save(Stream stream, AppointmentSaveOptions saveOptions)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| stream | Stream | 要保存到的流 |
+| saveOptions | AppointmentSaveOptions | 保存选项 |
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentNullException | *saveOptions*或者*stream*是`无效的` |
+| NotSupportedException | 不支持指定的保存选项 |
+| NotSupportedException | 流不支持写入 |
+
+### 也可以看看
+
+* class [AppointmentSaveOptions](../../appointmentsaveoptions)
+* class [Appointment](../../appointment)
+* 命名空间 [Aspose.Email.Calendar](../../appointment)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## Save(string) {#save_3}
 
-使用默认保存选项以 iCalendar 格式将约会保存到文件
+使用默认保存选项将约会保存到 iCalendar 格式的文件
 
 ```csharp
 public void Save(string filePath)
@@ -16,13 +46,13 @@ public void Save(string filePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件路径 |
+| filePath | String | 一个文件路径 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *filePath*is` null` 或` 空` |
+| ArgumentOutOfRangeException | *filePath*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -42,14 +72,14 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件路径 |
-| saveFormat | AppointmentSaveFormat | 保存格式 |
+| filePath | String | 一个文件路径 |
+| saveFormat | AppointmentSaveFormat | 一种保存格式 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *filePath*是` null` 或` 空` |
+| ArgumentOutOfRangeException | *filePath*是`无效的`或者`空的` |
 | NotSupportedException | 不支持指定的保存选项 |
 
 ### 也可以看看
@@ -71,15 +101,15 @@ public void Save(string filePath, AppointmentSaveOptions saveOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | A文件路径 |
+| filePath | String | 一个文件路径 |
 | saveOptions | AppointmentSaveOptions | 保存选项 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *filePath*是` null` 或` 空` |
-| ArgumentNullException | *saveOptions*is` null` |
+| ArgumentOutOfRangeException | *filePath*是`无效的`或者`空的` |
+| ArgumentNullException | *saveOptions*是`无效的` |
 | NotSupportedException | 不支持指定的保存选项 |
 
 ### 也可以看看
@@ -93,7 +123,7 @@ public void Save(string filePath, AppointmentSaveOptions saveOptions)
 
 ## Save(Stream) {#save}
 
-使用默认保存选项以 iCalendar 格式将约会保存到文件
+使用默认保存选项将约会保存到 iCalendar 格式的文件
 
 ```csharp
 public void Save(Stream stream)
@@ -101,13 +131,13 @@ public void Save(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要保存到 |
+| stream | Stream | 要保存到的流 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*is` null 的流` |
+| ArgumentNullException | *stream*是`无效的` |
 | NotSupportedException | 流不支持写入 |
 
 ### 也可以看看
@@ -120,7 +150,7 @@ public void Save(Stream stream)
 
 ## Save(Stream, AppointmentSaveFormat) {#save_1}
 
-使用默认保存选项以指定格式将约会保存到流
+使用默认保存选项以指定格式将约会保存到流中
 
 ```csharp
 public void Save(Stream stream, AppointmentSaveFormat saveFormat)
@@ -128,50 +158,20 @@ public void Save(Stream stream, AppointmentSaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 保存到 |
-| saveFormat | AppointmentSaveFormat | 保存格式 |
+| stream | Stream | 要保存到的流 |
+| saveFormat | AppointmentSaveFormat | 一种保存格式 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
+| ArgumentNullException | *stream*是`无效的` |
 | NotSupportedException | 不支持指定的保存选项 |
 | NotSupportedException | 流不支持写入 |
 
 ### 也可以看看
 
 * enum [AppointmentSaveFormat](../../appointmentsaveformat)
-* class [Appointment](../../appointment)
-* 命名空间 [Aspose.Email.Calendar](../../appointment)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## Save(Stream, AppointmentSaveOptions) {#save_2}
-
-使用指定的保存选项将约会保存到流
-
-```csharp
-public void Save(Stream stream, AppointmentSaveOptions saveOptions)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| stream | Stream | A流保存到 |
-| saveOptions | AppointmentSaveOptions | 保存选项 |
-
-### 例外
-
-| 例外 | （健康）状况 |
-| --- | --- |
-| ArgumentNullException | *saveOptions*或*stream*是` null` |
-| NotSupportedException | 不支持指定的保存选项 |
-| NotSupportedException | 流不支持写入 |
-
-### 也可以看看
-
-* class [AppointmentSaveOptions](../../appointmentsaveoptions)
 * class [Appointment](../../appointment)
 * 命名空间 [Aspose.Email.Calendar](../../appointment)
 * 部件 [Aspose.Email](../../../)

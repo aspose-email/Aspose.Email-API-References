@@ -1,14 +1,14 @@
 ---
 title: DeletePermanently
 second_title: Aspose.Email for .NET API 参考
-description: 获取DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions对象的实例并设置永久删除
+description: 获取实例DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions具有永久删除设置的对象
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange.webservice/deletionoptions/deletepermanently/
 ---
 ## DeletionOptions.DeletePermanently property
 
-获取[`DeletionOptions`](../../deletionoptions)对象的实例，并设置永久删除
+获取实例[`DeletionOptions`](../../deletionoptions)具有永久删除设置的对象
 
 ```csharp
 public static DeletionOptions DeletePermanently { get; }

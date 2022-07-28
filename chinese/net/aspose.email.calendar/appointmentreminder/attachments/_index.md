@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API 参考
-description: 包含 ReminderAttachmentReminderAttachmentaspose.email.calendar/reminderattachment对象的集合
+description: 包含 ReminderAttachment 的集合ReminderAttachmentaspose.email.calendar/reminderattachment对象.
 type: docs
 weight: 40
 url: /zh/net/aspose.email.calendar/appointmentreminder/attachments/
 ---
 ## AppointmentReminder.Attachments property
 
-包含 ReminderAttachment[`ReminderAttachment`](../../reminderattachment)对象的集合。
+包含 ReminderAttachment 的集合[`ReminderAttachment`](../../reminderattachment)对象.
 
 ```csharp
 public ReminderAttachmentCollection Attachments { get; }

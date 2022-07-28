@@ -1,14 +1,14 @@
 ---
 title: ResolveMethod
 second_title: Aspose.Email for .NET API 参考
-description: 指定如何解决与消息的任何冲突 区域MapiStatus 规范名称PidTagResolveMethod 替代名称PR_RESOLVE_METHOD ptagResolveMethod
+description: 指定如何解决与消息的任何冲突 区域MapiStatus 规范名称PidTagResolveMethod 替代名称PR_RESOLVE_METHODptagResolveMethod
 type: docs
 weight: 16130
 url: /zh/net/aspose.email.mapi/knownpropertylist/resolvemethod/
 ---
 ## KnownPropertyList.ResolveMethod field
 
-指定如何解决与消息的任何冲突。 区域:MapiStatus 规范名称:PidTagResolveMethod 替代名称:PR_RESOLVE_METHOD, ptagResolveMethod
+指定如何解决与消息的任何冲突。 区域：MapiStatus 规范名称：PidTagResolveMethod 替代名称：PR_RESOLVE_METHOD、ptagResolveMethod
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ResolveMethod;

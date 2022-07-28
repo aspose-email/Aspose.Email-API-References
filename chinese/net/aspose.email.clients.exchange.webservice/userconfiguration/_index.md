@@ -18,7 +18,7 @@ public sealed class UserConfiguration
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UserConfiguration](userconfiguration)(UserConfigurationName) | 初始化[`UserConfiguration`](../userconfiguration)类 的新实例 |
+| [UserConfiguration](userconfiguration)(UserConfigurationName) | 初始化[`UserConfiguration`](../userconfiguration) class |
 
 ## 特性
 
@@ -26,7 +26,7 @@ public sealed class UserConfiguration
 | --- | --- |
 | [BinaryData](../../aspose.email.clients.exchange.webservice/userconfiguration/binarydata) { get; set; } | 获取或设置二进制数据属性内容。 |
 | [Dictionary](../../aspose.email.clients.exchange.webservice/userconfiguration/dictionary) { get; } | 获取或设置一组字典属性条目。 |
-| [Id](../../aspose.email.clients.exchange.webservice/userconfiguration/id) { get; set; } | 获取或设置用户配置对象项标识符。 |
+| [Id](../../aspose.email.clients.exchange.webservice/userconfiguration/id) { get; set; } | 获取或设置用户配置对象项标识。 |
 | [UserConfigurationName](../../aspose.email.clients.exchange.webservice/userconfiguration/userconfigurationname) { get; set; } | 获取或设置用户配置对象名称。 |
 | [XmlData](../../aspose.email.clients.exchange.webservice/userconfiguration/xmldata) { get; set; } | 获取或设置 XML 数据属性内容。 |
 

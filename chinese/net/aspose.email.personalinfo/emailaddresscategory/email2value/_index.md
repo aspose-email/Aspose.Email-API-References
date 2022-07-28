@@ -1,14 +1,14 @@
 ---
 title: Email2Value
 second_title: Aspose.Email for .NET API 参考
-description: Email2 类别的字符串值
+description: Email2类别的字符串值
 type: docs
 weight: 150
 url: /zh/net/aspose.email.personalinfo/emailaddresscategory/email2value/
 ---
 ## EmailAddressCategory.Email2Value field
 
-'Email2' 类别的字符串值
+“Email2”类别的字符串值
 
 ```csharp
 public const string Email2Value;

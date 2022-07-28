@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.Email for .NET API 参考
-description: 实现运算符 
+description: 实现运算符 .
 type: docs
 weight: 210
 url: /zh/net/aspose.email.clients.imap/imapmessageflags/op_inequality/
 ---
 ## ImapMessageFlags Inequality operator
 
-实现运算符 !=。
+实现运算符 !=.
 
 ```csharp
 public static bool operator !=(ImapMessageFlags a, ImapMessageFlags b)

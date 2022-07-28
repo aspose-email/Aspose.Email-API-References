@@ -1,14 +1,14 @@
 ---
 title: BySetPos
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает по заданному поз.
+description: Получает по заданной позиции
 type: docs
 weight: 80
 url: /ru/net/aspose.email.calendar.recurrences/recurrencerule/bysetpos/
 ---
 ## RecurrenceRule.BySetPos property
 
-Получает по заданному поз.
+Получает по заданной позиции
 
 ```csharp
 public ByNumberCollection BySetPos { get; }
@@ -16,7 +16,7 @@ public ByNumberCollection BySetPos { get; }
 
 ### Стоимость имущества
 
-По заданному поз.
+По набору поз.
 
 ### Смотрите также
 

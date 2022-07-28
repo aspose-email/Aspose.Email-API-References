@@ -3,7 +3,7 @@ title: AssociatedPerson
 second_title: Aspose.Email for .NET API 参考
 description: 描述与人相关的组织
 type: docs
-weight: 19260
+weight: 19290
 url: /zh/net/aspose.email.personalinfo/associatedperson/
 ---
 ## AssociatedPerson class
@@ -26,21 +26,21 @@ public class AssociatedPerson : IComparable<AssociatedPerson>, IEquatable<Associ
 | --- | --- |
 | [Category](../../aspose.email.personalinfo/associatedperson/category) { get; set; } | 获取或设置对象类别 |
 | [Name](../../aspose.email.personalinfo/associatedperson/name) { get; set; } | 获取或设置人名 |
-| [Prefered](../../aspose.email.personalinfo/associatedperson/prefered) { get; set; } | 获取或设置一个值，该值定义是否首选对象。 |
+| [Prefered](../../aspose.email.personalinfo/associatedperson/prefered) { get; set; } | 获取或设置一个定义对象是否是首选的值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [CompareTo](../../aspose.email.personalinfo/associatedperson/compareto)(AssociatedPerson) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在相同位置之前、之后还是出现在相同位置作为另一个对象。 |
+| virtual [CompareTo](../../aspose.email.personalinfo/associatedperson/compareto)(AssociatedPerson) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在另一个对象之前、之后还是出现在相同位置。 |
 | [Equals](../../aspose.email.personalinfo/associatedperson/equals#equals)(AssociatedPerson) | 判断指定Object是否等于当前Object。 |
 | override [Equals](../../aspose.email.personalinfo/associatedperson/equals#equals_2)(object) | 判断指定Object是否等于当前Object。 |
 | [Equals](../../aspose.email.personalinfo/associatedperson/equals#equals_1)(AssociatedPerson, AssociatedPerson) | 确定指定的对象实例是否被视为相等。 |
 | override [GetHashCode](../../aspose.email.personalinfo/associatedperson/gethashcode#gethashcode)() | GetHashCode 返回此对象的哈希函数。 |
 | virtual [GetHashCode](../../aspose.email.personalinfo/associatedperson/gethashcode#gethashcode_1)(AssociatedPerson) | GetHashCode 返回指定对象的哈希函数。 |
 | override [ToString](../../aspose.email.personalinfo/associatedperson/tostring)() | 返回代表当前对象的字符串。 |
-| [operator ==](../../aspose.email.personalinfo/associatedperson/op_equality) | 判断指定对象是否相等。 |
-| [operator !=](../../aspose.email.personalinfo/associatedperson/op_inequality) | 判断指定对象是否不相等。 |
+| [operator ==](../../aspose.email.personalinfo/associatedperson/op_equality) | 判断指定对象是否相等 |
+| [operator !=](../../aspose.email.personalinfo/associatedperson/op_inequality) | 判断指定的对象是否不相等。 |
 
 ### 也可以看看
 

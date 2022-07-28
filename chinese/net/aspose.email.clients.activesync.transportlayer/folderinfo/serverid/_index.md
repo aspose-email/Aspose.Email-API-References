@@ -1,14 +1,14 @@
 ---
 title: ServerId
 second_title: Aspose.Email for .NET API 参考
-description: 指定服务器上文件夹的服务器ID
+description: 指定服务器上文件夹的服务器 ID
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/folderinfo/serverid/
 ---
 ## FolderInfo.ServerId property
 
-指定服务器上文件夹的服务器ID
+指定服务器上文件夹的服务器 ID
 
 ```csharp
 public string ServerId { get; }

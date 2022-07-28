@@ -17,8 +17,8 @@ public string CreateDistributionList(ExchangeDistributionList distributionList,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| distributionList | ExchangeDistributionList | A[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)包含有关分发列表的信息去创造。 |
-| members | MailAddressCollection | A[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)包含要创建的分发列表邮件地址。 |
+| distributionList | ExchangeDistributionList | 一个[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)包含有关要创建的分发列表的信息。 |
+| members | MailAddressCollection | 一个[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)包含要创建的分发列表邮件地址。 |
 
 ### 返回值
 

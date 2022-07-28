@@ -18,9 +18,9 @@ public class FetchTimeoutException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FetchTimeoutException](fetchtimeoutexception#constructor)() | 初始化[`FetchTimeoutException`](../fetchtimeoutexception)类的新实例。 |
-| [FetchTimeoutException](fetchtimeoutexception#constructor_1)(string) | 使用指定的错误消息初始化[`FetchTimeoutException`](../fetchtimeoutexception)类的新实例。 |
-| [FetchTimeoutException](fetchtimeoutexception#constructor_2)(string, Exception) | 使用指定的错误消息初始化[`FetchTimeoutException`](../fetchtimeoutexception)类的新实例。 |
+| [FetchTimeoutException](fetchtimeoutexception#constructor)() | 初始化[`FetchTimeoutException`](../fetchtimeoutexception)类. |
+| [FetchTimeoutException](fetchtimeoutexception#constructor_1)(string) | 初始化[`FetchTimeoutException`](../fetchtimeoutexception)具有指定错误消息的类。 |
+| [FetchTimeoutException](fetchtimeoutexception#constructor_2)(string, Exception) | 初始化[`FetchTimeoutException`](../fetchtimeoutexception)具有指定错误消息的类。 |
 
 ## 特性
 

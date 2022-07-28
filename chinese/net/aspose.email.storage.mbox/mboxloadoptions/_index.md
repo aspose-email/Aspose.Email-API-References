@@ -3,7 +3,7 @@ title: MboxLoadOptions
 second_title: Aspose.Email for .NET API 参考
 description: 指定加载 Mbox 存储时的附加选项
 type: docs
-weight: 19970
+weight: 20020
 url: /zh/net/aspose.email.storage.mbox/mboxloadoptions/
 ---
 ## MboxLoadOptions class
@@ -24,8 +24,8 @@ public class MboxLoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LeaveOpen](../../aspose.email.storage.mbox/mboxloadoptions/leaveopen) { get; set; } | 获取或设置一个值，该值指示在处理后是否保持底层流打开。 默认值为假。 |
-| [PreferredTextEncoding](../../aspose.email.storage.mbox/mboxloadoptions/preferredtextencoding) { get; set; } | 获取或设置消息的首选编码。 默认值为空。 |
+| [LeaveOpen](../../aspose.email.storage.mbox/mboxloadoptions/leaveopen) { get; set; } | 获取或设置一个值，该值指示是否在处理后保持底层流打开。 默认值为 false。 |
+| [PreferredTextEncoding](../../aspose.email.storage.mbox/mboxloadoptions/preferredtextencoding) { get; set; } | 获取或设置消息的首选编码。 默认值为 null。 |
 
 ### 也可以看看
 

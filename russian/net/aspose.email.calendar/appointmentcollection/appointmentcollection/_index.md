@@ -32,7 +32,7 @@ public AppointmentCollection(IEnumerable<Appointment> appointments)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| appointments | IEnumerable`1 | начальное значение |
+| appointments | IEnumerable`1 | Начальное значение |
 
 ### Смотрите также
 

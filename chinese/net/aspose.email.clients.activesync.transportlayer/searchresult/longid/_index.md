@@ -1,14 +1,14 @@
 ---
 title: LongId
 second_title: Aspose.Email for .NET API 参考
-description: 指定服务器分配给返回的每个结果集的唯一标识符 LongId的值可以作为ItemOperations命令请求SmartReply命令请求SmartForward命令请求或MeetingResponse命令请求中指定的长ID来引用结果集 客户端必须将 LongId 的值存储为最多 256 个字符的不透明字符串
+description: 指定服务器为返回的每个结果集分配的唯一标识符 LongId 的值可以用作 ItemOperations 命令请求SmartReply 命令请求SmartForward 命令请求或MeetingResponse 命令请求引用结果集 客户端必须将 LongId 的值存储为最多 256 个字符的不透明字符串
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/searchresult/longid/
 ---
 ## SearchResult.LongId property
 
-指定服务器分配给返回的每个结果集的唯一标识符。 LongId的值可以作为ItemOperations命令请求、SmartReply命令请求、SmartForward命令请求或MeetingResponse命令请求中指定的长ID来引用结果集。 客户端必须将 LongId 的值存储为最多 256 个字符的不透明字符串。
+指定服务器为返回的每个结果集分配的唯一标识符。 LongId 的值可以用作 ItemOperations 命令请求、SmartReply 命令请求、SmartForward 命令请求或MeetingResponse 命令请求引用结果集。 客户端必须将 LongId 的值存储为最多 256 个字符的不透明字符串。
 
 ```csharp
 public string LongId { get; set; }

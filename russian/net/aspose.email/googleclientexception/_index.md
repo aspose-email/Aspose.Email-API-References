@@ -18,10 +18,10 @@ public class GoogleClientException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [GoogleClientException](googleclientexception#constructor)() | Инициализирует новый экземпляр класса[`GoogleClientException`](../googleclientexception). |
-| [GoogleClientException](googleclientexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`GoogleClientException`](../googleclientexception) со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [GoogleClientException](googleclientexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`GoogleClientException`](../googleclientexception)с указанным сообщением об ошибке. |
-| [GoogleClientException](googleclientexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`GoogleClientException`](../googleclientexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
+| [GoogleClientException](googleclientexception#constructor)() | Инициализирует новый экземпляр[`GoogleClientException`](../googleclientexception) класс. |
+| [GoogleClientException](googleclientexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`GoogleClientException`](../googleclientexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [GoogleClientException](googleclientexception#constructor_2)(string) | Инициализирует новый экземпляр[`GoogleClientException`](../googleclientexception) класс с указанным сообщением об ошибке. |
+| [GoogleClientException](googleclientexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`GoogleClientException`](../googleclientexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
 
 ## Характеристики
 

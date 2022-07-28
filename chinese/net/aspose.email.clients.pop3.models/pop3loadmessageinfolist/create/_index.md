@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建Pop3LoadMessageInfoListaspose.email.clients.pop3.models/pop3loadmessageinfolist
+description: 创建Pop3LoadMessageInfoListaspose.email.clients.pop3.models/pop3loadmessageinfolist.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/create/
 ---
 ## Pop3LoadMessageInfoList.Create method
 
-创建[`Pop3LoadMessageInfoList`](../../pop3loadmessageinfolist)。
+创建[`Pop3LoadMessageInfoList`](../../pop3loadmessageinfolist).
 
 ```csharp
 public static Pop3LoadMessageInfoList Create()

@@ -17,7 +17,7 @@ public bool TryGetValue(long key, out MapiProperty value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | Int64 | 属性标记。 |
-| 值 | MapiProperty& |  |
+| value | MapiProperty& |  |
 
 ### 也可以看看
 

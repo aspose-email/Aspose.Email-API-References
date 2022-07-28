@@ -1,14 +1,14 @@
 ---
 title: AlternateViewRemovedEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAlternateViewRemovedEventArgsaspose.email/alternateviewremovedeventargs.
+description: Инициализирует новый экземплярAlternateViewRemovedEventArgsaspose.email/alternateviewremovedeventargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/alternateviewremovedeventargs/alternateviewremovedeventargs/
 ---
 ## AlternateViewRemovedEventArgs constructor
 
-Инициализирует новый экземпляр класса[`AlternateViewRemovedEventArgs`](../../alternateviewremovedeventargs).
+Инициализирует новый экземпляр[`AlternateViewRemovedEventArgs`](../../alternateviewremovedeventargs) класс.
 
 ```csharp
 public AlternateViewRemovedEventArgs(AlternateView av)

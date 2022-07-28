@@ -16,11 +16,11 @@ public MapiMessage FetchMessage(string id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 要获取的消息 id |
+| id | String | 要获取的消息 ID |
 
 ### 返回值
 
-Mapi 消息
+马比消息
 
 ### 也可以看看
 

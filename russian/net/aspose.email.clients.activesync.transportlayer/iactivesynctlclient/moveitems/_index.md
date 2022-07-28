@@ -16,7 +16,7 @@ public MoveItemResponse[] MoveItems(IEnumerable<MoveItemData> request)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| request | IEnumerable`1 | Перечень элементов, которые необходимо переместить |
+| request | IEnumerable`1 | Перечисление предметов, которые необходимо переместить |
 
 ### Возвращаемое значение
 

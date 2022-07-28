@@ -6,6 +6,33 @@ type: docs
 weight: 1240
 url: /zh/net/aspose.email.clients.imap/imapclient/undeletemessageasync/
 ---
+## UndeleteMessageAsync(string, long, CancellationToken) {#undeletemessageasync_14}
+
+将具有指定序列号的消息标记为未删除。
+
+```csharp
+public Task UndeleteMessageAsync(string uniqueId, long modificationSequence, 
+    CancellationToken token)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| uniqueId | String | 消息的唯一 ID |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| token | CancellationToken | 传播应取消操作的通知。 |
+
+### 返回值
+
+任务对象，具有此操作的委托
+
+### 也可以看看
+
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## UndeleteMessageAsync(IConnection, int) {#undeletemessageasync}
 
 将具有指定序列号的消息标记为未删除
@@ -17,11 +44,11 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带委托对于这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -43,11 +70,11 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息 |
+| uniqueId | String | 消息的唯一 ID |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -68,11 +95,11 @@ public Task UndeleteMessageAsync(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -96,7 +123,7 @@ public Task UndeleteMessageAsync(string uniqueId)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -118,12 +145,12 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -145,12 +172,12 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, long m
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息的 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uniqueId | String | 消息的唯一 ID |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -171,12 +198,12 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -197,11 +224,11 @@ public Task UndeleteMessageAsync(string uniqueId, long modificationSequence)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的唯一 ID |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -223,12 +250,12 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -250,12 +277,12 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, Cancel
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | String | 消息的唯一 ID |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -276,12 +303,12 @@ public Task UndeleteMessageAsync(int sequenceNumber, CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -302,11 +329,11 @@ public Task UndeleteMessageAsync(string uniqueId, CancellationToken token)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的唯一 ID |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -328,13 +355,13 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -357,13 +384,13 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 唯一 ID消息的 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uniqueId | String | 消息的唯一 ID |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -385,40 +412,13 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
-
-### 也可以看看
-
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## UndeleteMessageAsync(string, long, CancellationToken) {#undeletemessageasync_14}
-
-将具有指定序列号的消息标记为未删除。
-
-```csharp
-public Task UndeleteMessageAsync(string uniqueId, long modificationSequence, 
-    CancellationToken token)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| uniqueId | String | 消息的唯一 ID |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
-| token | CancellationToken | 传播应取消操作的通知。 |
-
-### 返回值
-
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

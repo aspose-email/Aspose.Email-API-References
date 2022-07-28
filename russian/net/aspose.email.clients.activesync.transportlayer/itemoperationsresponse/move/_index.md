@@ -1,14 +1,14 @@
 ---
 title: Move
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует тело ответа как содержащее операцию перемещающую данный диалог. Элемент Move не поддерживается при версии протокола 12.1.
+description: Идентифицирует тело ответа как содержащее операцию которая перемещает данный диалог. Элемент Move не поддерживается если версия протокола 12.1.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itemoperationsresponse/move/
 ---
 ## ItemOperationsResponse.Move property
 
-Идентифицирует тело ответа как содержащее операцию, перемещающую данный диалог. Элемент Move не поддерживается при версии протокола 12.1.
+Идентифицирует тело ответа как содержащее операцию, которая перемещает данный диалог. Элемент Move не поддерживается, если версия протокола 12.1.
 
 ```csharp
 public List<ItemOperationsMoveResponce> Move { get; }

@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: 为ItemMoved./folderinfo/itemmoved事件提供数据
+description: 为ItemMoved./folderinfo/itemmoved事件
 type: docs
-weight: 20140
+weight: 20190
 url: /zh/net/aspose.email.storage.pst/itemmovedeventargs/
 ---
 ## ItemMovedEventArgs class
 
-为[`ItemMoved`](../folderinfo/itemmoved)事件提供数据
+为[`ItemMoved`](../folderinfo/itemmoved)事件
 
 ```csharp
 public class ItemMovedEventArgs : EventArgs
@@ -18,18 +18,18 @@ public class ItemMovedEventArgs : EventArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ItemMovedEventArgs](itemmovedeventargs#constructor)(FolderInfo) | 初始化[`ItemMovedEventArgs`](../itemmovedeventargs)类的新实例。 |
-| [ItemMovedEventArgs](itemmovedeventargs#constructor_1)(MessageInfo) | 初始化[`ItemMovedEventArgs`](../itemmovedeventargs)类的新实例。 |
-| [ItemMovedEventArgs](itemmovedeventargs#constructor_2)(string, MapiPropertyCollection) | 初始化[`ItemMovedEventArgs`](../itemmovedeventargs)类的新实例。 |
+| [ItemMovedEventArgs](itemmovedeventargs#constructor)(FolderInfo) | 初始化[`ItemMovedEventArgs`](../itemmovedeventargs)类. |
+| [ItemMovedEventArgs](itemmovedeventargs#constructor_1)(MessageInfo) | 初始化[`ItemMovedEventArgs`](../itemmovedeventargs)类. |
+| [ItemMovedEventArgs](itemmovedeventargs#constructor_2)(string, MapiPropertyCollection) | 初始化[`ItemMovedEventArgs`](../itemmovedeventargs)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [DestinationFolder](../../aspose.email.storage.pst/itemmovedeventargs/destinationfolder) { get; } | 获取目标文件夹。 |
-| [EntryId](../../aspose.email.storage.pst/itemmovedeventargs/entryid) { get; } | 获取表示移动消息的 EntryId 的字符串。 |
-| [IsFolder](../../aspose.email.storage.pst/itemmovedeventargs/isfolder) { get; } | 如果条目指向文件夹 |
-| [IsMessage](../../aspose.email.storage.pst/itemmovedeventargs/ismessage) { get; } | 返回真，如果条目指的是消息 |
+| [EntryId](../../aspose.email.storage.pst/itemmovedeventargs/entryid) { get; } | 获取表示已移动消息的 EntryId 的字符串。 |
+| [IsFolder](../../aspose.email.storage.pst/itemmovedeventargs/isfolder) { get; } | 返回真，如果条目指向一个文件夹 |
+| [IsMessage](../../aspose.email.storage.pst/itemmovedeventargs/ismessage) { get; } | 返回真，如果条目引用消息 |
 | [ItemProperties](../../aspose.email.storage.pst/itemmovedeventargs/itemproperties) { get; } | 获取已移动的项目属性。 |
 
 ### 也可以看看

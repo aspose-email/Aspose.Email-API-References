@@ -3,7 +3,7 @@ title: Summary
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置摘要
 type: docs
-weight: 260
+weight: 270
 url: /zh/net/aspose.email.calendar/appointment/summary/
 ---
 ## Appointment.Summary property

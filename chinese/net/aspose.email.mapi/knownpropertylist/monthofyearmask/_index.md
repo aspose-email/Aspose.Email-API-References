@@ -1,14 +1,14 @@
 ---
 title: MonthOfYearMask
 second_title: Aspose.Email for .NET API 参考
-description: 表示约会或会议发生的一年中的计算月份 区域会议 规范名称PidLidMonthOfYearMask 别名LID_MOY_MASK
+description: 表示约会或会议发生的一年中的计算月份 区域Meetings 规范名称PidLidMonthOfYearMask 替代名称LID_MOY_MASK
 type: docs
 weight: 12760
 url: /zh/net/aspose.email.mapi/knownpropertylist/monthofyearmask/
 ---
 ## KnownPropertyList.MonthOfYearMask field
 
-表示约会或会议发生的一年中的计算月份。 区域:会议 规范名称:PidLidMonthOfYearMask 别名:LID_MOY_MASK
+表示约会或会议发生的一年中的计算月份。 区域：Meetings 规范名称：PidLidMonthOfYearMask 替代名称：LID_MOY_MASK
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MonthOfYearMask;

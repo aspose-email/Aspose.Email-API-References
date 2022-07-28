@@ -6,6 +6,70 @@ type: docs
 weight: 560
 url: /zh/net/aspose.email.clients.imap/imapclient/deletemessage/
 ---
+## DeleteMessage(IConnection, int) {#deletemessage}
+
+将具有指定序列号的消息标记为已删除
+
+```csharp
+public void DeleteMessage(IConnection connection, int sequenceNumber)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| sequenceNumber | Int32 | 消息的序号 |
+
+### 也可以看看
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## DeleteMessage(IConnection, string) {#deletemessage_2}
+
+将具有指定序列号的消息标记为已删除
+
+```csharp
+public void DeleteMessage(IConnection connection, string uniqueId)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| connection | IConnection | 连接到服务器 |
+| uniqueId | String | 消息的uid |
+
+### 也可以看看
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## DeleteMessage(int) {#deletemessage_6}
+
+将具有指定序列号的消息标记为已删除
+
+```csharp
+public void DeleteMessage(int sequenceNumber)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| sequenceNumber | Int32 | 消息的序号 |
+
+### 也可以看看
+
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## DeleteMessage(string) {#deletemessage_8}
 
 将具有指定序列号的消息标记为已删除
@@ -37,8 +101,8 @@ public void DeleteMessage(IConnection connection, int sequenceNumber, long modif
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -61,7 +125,7 @@ public void DeleteMessage(IConnection connection, string uniqueId, long modifica
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -82,8 +146,8 @@ public void DeleteMessage(int sequenceNumber, long modificationSequence)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | 消息的序号 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -104,7 +168,7 @@ public void DeleteMessage(string uniqueId, long modificationSequence)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | uniqueId | String | 消息的uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 也可以看看
 
@@ -124,8 +188,8 @@ public void DeleteMessage(string uniqueId, bool commitNow)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的 uid |
-| commitNow | Boolean | 定义是否现在必须提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
+| uniqueId | String | 消息的uid |
+| commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
 
@@ -168,8 +232,8 @@ public void DeleteMessage(string uniqueId, long modificationSequence, bool commi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的 uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| uniqueId | String | 消息的uid |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
@@ -193,76 +257,12 @@ public void DeleteMessage(IConnection connection, string uniqueId, long modifica
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | uniqueId | String | 消息的uid |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | 定义是否必须立即提交消息。请阅读更多 https://tools.ietf.org/html/rfc4315 |
 
 ### 也可以看看
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## DeleteMessage(IConnection, int) {#deletemessage}
-
-将具有指定序列号的消息标记为已删除
-
-```csharp
-public void DeleteMessage(IConnection connection, int sequenceNumber)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-
-### 也可以看看
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## DeleteMessage(IConnection, string) {#deletemessage_2}
-
-将具有指定序列号的消息标记为已删除
-
-```csharp
-public void DeleteMessage(IConnection connection, string uniqueId)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
-
-### 也可以看看
-
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## DeleteMessage(int) {#deletemessage_6}
-
-将具有指定序列号的消息标记为已删除
-
-```csharp
-public void DeleteMessage(int sequenceNumber)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-
-### 也可以看看
-
 * class [ImapClient](../../imapclient)
 * 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
 * 部件 [Aspose.Email](../../../)

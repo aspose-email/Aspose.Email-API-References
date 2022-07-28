@@ -1,14 +1,14 @@
 ---
 title: BusyStatus
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置忙状态
+description: 获取或设置忙碌状态
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapicalendar/busystatus/
 ---
 ## MapiCalendar.BusyStatus property
 
-获取或设置忙状态
+获取或设置忙碌状态
 
 ```csharp
 public MapiCalendarBusyStatus BusyStatus { get; set; }

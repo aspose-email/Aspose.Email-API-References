@@ -23,7 +23,7 @@ public void CreateFolder(string parentFolderUri, string name)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或*name*是` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或者*name*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: WlinkFlags
 second_title: Aspose.Email for .NET API 参考
-description: 指定与快捷方式关联的条件 区域配置 规范名称PidTagWlinkFlags 替代名称PR_WLINK_FLAGS
+description: 指定与快捷方式关联的条件 区域Configuration 规范名称PidTagWlinkFlags 替代名称PR_WLINK_FLAGS
 type: docs
 weight: 19420
 url: /zh/net/aspose.email.mapi/knownpropertylist/wlinkflags/
 ---
 ## KnownPropertyList.WlinkFlags field
 
-指定与快捷方式关联的条件。 区域:配置 规范名称:PidTagWlinkFlags 替代名称:PR_WLINK_FLAGS
+指定与快捷方式关联的条件。 区域：Configuration 规范名称：PidTagWlinkFlags 替代名称：PR_WLINK_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkFlags;

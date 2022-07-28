@@ -16,8 +16,8 @@ public override void Save(Stream stream, SaveOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 流到哪个消息保存 |
-| options | SaveOptions | 保存[`SaveOptions`](../../../aspose.email/saveoptions)的附加选项。 |
+| stream | Stream | 保存消息的流 |
+| options | SaveOptions | 其他保存选项[`SaveOptions`](../../../aspose.email/saveoptions). |
 
 ### 也可以看看
 

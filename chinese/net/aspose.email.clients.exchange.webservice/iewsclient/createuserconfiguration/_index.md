@@ -16,13 +16,13 @@ public void CreateUserConfiguration(UserConfiguration userConfiguration)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| userConfiguration | UserConfiguration | [`UserConfiguration`](../../userconfiguration)要创建 |
+| userConfiguration | UserConfiguration | [`UserConfiguration`](../../userconfiguration)被创建 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 在*时抛出:userConfiguration*是` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | 抛出时*userConfiguration*是`无效的` |
 
 ### 也可以看看
 

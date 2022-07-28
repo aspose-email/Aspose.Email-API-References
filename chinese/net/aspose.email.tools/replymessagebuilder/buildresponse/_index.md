@@ -16,11 +16,11 @@ public override MailMessage BuildResponse(MailMessage msg)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| msg | MailMessage | 原始消息[`MailMessage`](../../../aspose.email/mailmessage)。 |
+| msg | MailMessage | 原始信息[`MailMessage`](../../../aspose.email/mailmessage). |
 
 ### 返回值
 
-结果消息[`MailMessage`](../../../aspose.email/mailmessage)。
+结果消息[`MailMessage`](../../../aspose.email/mailmessage).
 
 ### 也可以看看
 
@@ -41,11 +41,11 @@ public override MapiMessage BuildResponse(MapiMessage msg)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| msg | MapiMessage | 原始消息[`MapiMessage`](../../../aspose.email.mapi/mapimessage)。 |
+| msg | MapiMessage | 原始信息[`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
 
 ### 返回值
 
-结果消息[`MapiMessage`](../../../aspose.email.mapi/mapimessage)。
+结果消息[`MapiMessage`](../../../aspose.email.mapi/mapimessage).
 
 ### 也可以看看
 

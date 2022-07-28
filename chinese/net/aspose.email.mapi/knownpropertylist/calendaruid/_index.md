@@ -1,14 +1,14 @@
 ---
 title: CalendarUid
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会或会议的唯一标识符 区域通用 规范名称PidNameCalendarUid 备用名称urnschemascalendaruid
+description: 指定约会或会议的唯一标识符 区域Common 规范名称PidNameCalendarUid 备用名称urnschemascalendaruid
 type: docs
 weight: 2450
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendaruid/
 ---
 ## KnownPropertyList.CalendarUid field
 
-指定约会或会议的唯一标识符。 区域:通用 规范名称:PidNameCalendarUid 备用名称:urn:schemas:calendar:uid
+指定约会或会议的唯一标识符。 区域：Common 规范名称：PidNameCalendarUid 备用名称：urn:schemas:calendar:uid
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarUid;

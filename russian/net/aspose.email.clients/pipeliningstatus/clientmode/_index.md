@@ -1,14 +1,14 @@
 ---
 title: ClientMode
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение определяющее как почтовый клиент поддерживает конвейерную обработку
+description: Получает или задает значение определяющее как почтовый клиент поддерживает конвейеризацию
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/pipeliningstatus/clientmode/
 ---
 ## PipeliningStatus.ClientMode property
 
-Получает или задает значение, определяющее, как почтовый клиент поддерживает конвейерную обработку
+Получает или задает значение, определяющее, как почтовый клиент поддерживает конвейеризацию
 
 ```csharp
 public PipeliningMode ClientMode { get; set; }

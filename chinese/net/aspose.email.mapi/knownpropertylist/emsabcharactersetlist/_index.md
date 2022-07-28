@@ -1,14 +1,14 @@
 ---
 title: EmsAbCharacterSetList
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_CHARACTER_SET_LIST
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_CHARACTER_SET_LIST
 type: docs
 weight: 5150
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabcharactersetlist/
 ---
 ## KnownPropertyList.EmsAbCharacterSetList field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_CHARACTER_SET_LIST
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_CHARACTER_SET_LIST
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbCharacterSetList;

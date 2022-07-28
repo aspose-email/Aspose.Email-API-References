@@ -1,14 +1,14 @@
 ---
 title: Recipient
 second_title: Aspose.Email for .NET API 参考
-description: 创建具有指定地址的新收件人
+description: 使用指定地址创建新收件人
 type: docs
 weight: 10
 url: /zh/net/aspose.email.windows.forms/recipient/recipient/
 ---
 ## Recipient(string) {#constructor}
 
-创建具有指定地址的新收件人。
+使用指定地址创建新收件人。
 
 ```csharp
 public Recipient(string address)
@@ -24,7 +24,7 @@ public Recipient(string address)
 
 ## Recipient(string, string) {#constructor_2}
 
-创建具有指定地址和显示名称的新收件人。
+使用指定的地址和显示名称创建一个新的收件人。
 
 ```csharp
 public Recipient(string address, string displayName)
@@ -40,7 +40,7 @@ public Recipient(string address, string displayName)
 
 ## Recipient(string, RecipientType) {#constructor_1}
 
-创建具有指定地址和收件人类型的新收件人。
+创建一个具有指定地址和收件人类型的新收件人。
 
 ```csharp
 public Recipient(string address, RecipientType recipientType)
@@ -57,7 +57,7 @@ public Recipient(string address, RecipientType recipientType)
 
 ## Recipient(string, string, RecipientType) {#constructor_3}
 
-创建具有指定地址、显示名称和收件人类型的新收件人。
+使用指定的地址、显示名称和收件人类型创建新收件人。
 
 ```csharp
 public Recipient(string address, string displayName, RecipientType recipientType)

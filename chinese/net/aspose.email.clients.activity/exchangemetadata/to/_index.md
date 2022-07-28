@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API 参考
-description: 邮件收件人行上的电子邮件地址集合 强制否
+description: 邮件收件人行中的电子邮件地址集合 必填项否
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.activity/exchangemetadata/to/
 ---
 ## ExchangeMetadata.To property
 
-邮件“收件人”行上的电子邮件地址集合。 强制:否
+邮件“收件人”行中的电子邮件地址集合。 必填项：否
 
 ```csharp
 public string[] To { get; set; }

@@ -3,7 +3,7 @@ title: MapiCalendarRecurrencePatternFactory
 second_title: Aspose.Email for .NET API 参考
 description: 代表 MapiCalendarRecurrencePattern 的工厂
 type: docs
-weight: 18060
+weight: 18080
 url: /zh/net/aspose.email.mapi/mapicalendarrecurrencepatternfactory/
 ---
 ## MapiCalendarRecurrencePatternFactory class

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/xvoicemessagesendername/
 ---
 ## KnownPropertyList.XVoiceMessageSenderName field
 
-包含留下附加语音消息的呼叫者的姓名，由语音网络的呼叫者 ID 系统提供。 区域:统一消息 规范名称:PidNameXVoiceMessageSenderName 备用名称:
+包含留下附加语音消息的呼叫者的姓名，由语音网络的呼叫者 ID 系统提供。 区域：统一消息 规范名称：PidNameXVoiceMessageSenderName 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XVoiceMessageSenderName;

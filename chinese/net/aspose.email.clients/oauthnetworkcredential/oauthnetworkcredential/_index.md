@@ -1,14 +1,14 @@
 ---
 title: OAuthNetworkCredential
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 OAuthNetworkCredentialaspose.email.clients/oauthnetworkcredential 类的新实例
+description: 初始化OAuthNetworkCredentialaspose.email.clients/oauthnetworkcredential class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients/oauthnetworkcredential/oauthnetworkcredential/
 ---
 ## OAuthNetworkCredential(string) {#constructor_2}
 
-初始化 [`OAuthNetworkCredential`](../../oauthnetworkcredential) 类的新实例
+初始化[`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 
 ```csharp
 public OAuthNetworkCredential(string accessToken)
@@ -28,7 +28,7 @@ public OAuthNetworkCredential(string accessToken)
 
 ## OAuthNetworkCredential(ITokenProvider) {#constructor_1}
 
-初始化 [`OAuthNetworkCredential`](../../oauthnetworkcredential) 类的新实例
+初始化[`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 
 ```csharp
 public OAuthNetworkCredential(ITokenProvider tokenProvider)
@@ -49,7 +49,7 @@ public OAuthNetworkCredential(ITokenProvider tokenProvider)
 
 ## OAuthNetworkCredential(IAsyncTokenProvider, string) {#constructor}
 
-初始化 [`OAuthNetworkCredential`](../../oauthnetworkcredential) 类的新实例
+初始化[`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 
 ```csharp
 public OAuthNetworkCredential(IAsyncTokenProvider tokenProvider, string username = null)
@@ -71,7 +71,7 @@ public OAuthNetworkCredential(IAsyncTokenProvider tokenProvider, string username
 
 ## OAuthNetworkCredential(string, string) {#constructor_4}
 
-初始化 [`OAuthNetworkCredential`](../../oauthnetworkcredential) 类的新实例
+初始化[`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 
 ```csharp
 public OAuthNetworkCredential(string userName, string accessToken)
@@ -92,7 +92,7 @@ public OAuthNetworkCredential(string userName, string accessToken)
 
 ## OAuthNetworkCredential(string, ITokenProvider) {#constructor_3}
 
-初始化 [`OAuthNetworkCredential`](../../oauthnetworkcredential) 类的新实例
+初始化[`OAuthNetworkCredential`](../../oauthnetworkcredential) class
 
 ```csharp
 public OAuthNetworkCredential(string userName, ITokenProvider tokenProvider)

@@ -1,14 +1,14 @@
 ---
 title: ContentClass
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个字符串用于标识 Message 对象的内容类型 区域电子邮件 规范名称PidNameContentClass 备用名称DAVcontentclass urnschemasmailheadercontent-class
+description: 包含标识消息对象内容类型的字符串 区域Email 规范名称PidNameContentClass 备用名称DAVcontentclass urnschemasmailheadercontent-class
 type: docs
 weight: 3160
 url: /zh/net/aspose.email.mapi/knownpropertylist/contentclass/
 ---
 ## KnownPropertyList.ContentClass field
 
-包含一个字符串，用于标识 Message 对象的内容类型。 区域：电子邮件 规范名称：PidNameContentClass 备用名称：DAV:contentclass, urn:schemas:mailheader:content-class
+包含标识消息对象内容类型的字符串。 区域：Email 规范名称：PidNameContentClass 备用名称：DAV:contentclass, urn:schemas:mailheader:content-class
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ContentClass;

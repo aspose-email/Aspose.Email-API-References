@@ -1,14 +1,14 @@
 ---
 title: TestLineSpeed
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_TEST_LINE_SPEED
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_TEST_LINE_SPEED
 type: docs
 weight: 18930
 url: /zh/net/aspose.email.mapi/knownpropertylist/testlinespeed/
 ---
 ## KnownPropertyList.TestLineSpeed field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_TEST_LINE_SPEED
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_TEST_LINE_SPEED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TestLineSpeed;

@@ -1,14 +1,14 @@
 ---
 title: StateOrProvince
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户所在州或省的名称 区域MapiMailUser 规范名称PidTagStateOrProvince 替代名称PR_STATE_OR_PROVINCE PR_STATE_OR_PROVINCE_A PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A
+description: 包含邮件用户所在州或省的名称 区域MapiMailUser 规范名称PidTagStateOrProvince 替代名称PR_STATE_OR_PROVINCEPR_STATE_OR_PROVINCE_APR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A
 type: docs
 weight: 18190
 url: /zh/net/aspose.email.mapi/knownpropertylist/stateorprovince/
 ---
 ## KnownPropertyList.StateOrProvince field
 
-包含邮件用户所在州或省的名称。 区域:MapiMailUser 规范名称:PidTagStateOrProvince 替代名称:PR_STATE_OR_PROVINCE, PR_STATE_OR_PROVINCE_A, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A,
+包含邮件用户所在州或省的名称。 区域：MapiMailUser 规范名称：PidTagStateOrProvince 替代名称：PR_STATE_OR_PROVINCE、PR_STATE_OR_PROVINCE_A、PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StateOrProvince;

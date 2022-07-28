@@ -3,7 +3,7 @@ title: MessageAcceptanceCallback
 second_title: Aspose.Email for .NET API 参考
 description: 转换过程中调用的回调函数
 type: docs
-weight: 19010
+weight: 19040
 url: /zh/net/aspose.email/messageacceptancecallback/
 ---
 ## MessageAcceptanceCallback delegate
@@ -16,11 +16,11 @@ public delegate bool MessageAcceptanceCallback(MapiMessage mapiMessage);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mapiMessage | MapiMessage | [`MapiMessage`](../../aspose.email.mapi/mapimessage)进行检查。 |
+| mapiMessage | MapiMessage | [`MapiMessage`](../../aspose.email.mapi/mapimessage)去检查。 |
 
 ### 返回值
 
-如果返回true，则表示可以接受消息进行转换，否则将被跳过。
+如果它返回true，则表明可以接受消息进行转换，否则将被跳过。
 
 ### 也可以看看
 

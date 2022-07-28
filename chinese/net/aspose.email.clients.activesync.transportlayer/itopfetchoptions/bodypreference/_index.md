@@ -1,14 +1,14 @@
 ---
 title: BodyPreference
 second_title: Aspose.Email for .NET API 参考
-description: 包含与搜索同步或获取返回的信息的类型和大小相关的首选项信息
+description: 包含与从搜索同步或获取返回的信息的类型和大小相关的首选项信息
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itopfetchoptions/bodypreference/
 ---
 ## ItOpFetchOptions.BodyPreference property
 
-包含与搜索、同步或获取返回的信息的类型和大小相关的首选项信息。
+包含与从搜索、同步或获取返回的信息的类型和大小相关的首选项信息。
 
 ```csharp
 public List<BodyPreference> BodyPreference { get; set; }

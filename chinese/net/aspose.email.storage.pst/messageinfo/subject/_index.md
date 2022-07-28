@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息主题
+description: 获取邮件主题
 type: docs
 weight: 110
 url: /zh/net/aspose.email.storage.pst/messageinfo/subject/
 ---
 ## MessageInfo.Subject property
 
-获取消息主题。
+获取邮件主题。
 
 ```csharp
 public string Subject { get; }

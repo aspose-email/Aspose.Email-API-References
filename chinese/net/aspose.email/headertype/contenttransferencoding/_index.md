@@ -1,14 +1,14 @@
 ---
 title: ContentTransferEncoding
 second_title: Aspose.Email for .NET API 参考
-description: MIME 相关标头的第三个指示 MIME 消息正文中使用的编码方法 它与电子邮件的传递没有直接关系但它会影响符合 MIME 的邮件程序如何解释邮件内容 在 RFC2045 中定义 内容传输编码8bit 内容传输编码7BIT 内容传输编码7bit 内容传输编码base64 内容传输编码引用打印
+description: 第三个与 MIME 相关的标头指示 MIME 消息正文中使用的编码方法 它与电子邮件的传递没有直接关系但它会影响符合 MIME 的邮件程序如何解释邮件的内容 在 RFC2045 中定义 内容传输编码8bit 内容传输编码7BIT 内容传输编码7bit 内容传输编码base64 内容传输编码quoted-printable
 type: docs
 weight: 60
 url: /zh/net/aspose.email/headertype/contenttransferencoding/
 ---
 ## HeaderType.ContentTransferEncoding property
 
-MIME 相关标头的第三个。指示 MIME 消息正文中使用的编码方法。 它与电子邮件的传递没有直接关系，但它会影响符合 MIME 的邮件程序如何解释邮件内容。 在 RFC2045 中定义。 内容传输编码:8bit 内容传输编码:7BIT 内容传输编码:7bit 内容传输编码:base64 内容传输编码:引用打印
+第三个与 MIME 相关的标头。指示 MIME 消息正文中使用的编码方法。 它与电子邮件的传递没有直接关系，但它会影响符合 MIME 的邮件程序如何解释邮件的内容。 在 RFC2045 中定义。 内容传输编码：8bit 内容传输编码：7BIT 内容传输编码：7bit 内容传输编码：base64 内容传输编码：quoted-printable
 
 ```csharp
 public static HeaderType ContentTransferEncoding { get; }

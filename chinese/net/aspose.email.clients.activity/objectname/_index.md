@@ -1,14 +1,14 @@
 ---
 title: ObjectName
 second_title: Aspose.Email for .NET API 参考
-description: 包含由 guid 标识的数据馈送中的对象名称
+description: 包含由 guids 标识的数据馈送中的对象名称
 type: docs
 weight: 2680
 url: /zh/net/aspose.email.clients.activity/objectname/
 ---
 ## ObjectName class
 
-包含由 guid 标识的数据馈送中的对象名称。
+包含由 guids 标识的数据馈送中的对象名称。
 
 ```csharp
 public class ObjectName
@@ -18,7 +18,7 @@ public class ObjectName
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ObjectName](objectname)() | 初始化[`ObjectName`](../objectname)类的新实例。 |
+| [ObjectName](objectname)() | 初始化[`ObjectName`](../objectname)类. |
 
 ## 特性
 

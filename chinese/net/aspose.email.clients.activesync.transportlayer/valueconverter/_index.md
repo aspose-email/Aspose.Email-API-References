@@ -19,7 +19,7 @@ public static class ValueConverter
 | 姓名 | 描述 |
 | --- | --- |
 | static [ToASProtocolVersions](../../aspose.email.clients.activesync.transportlayer/valueconverter/toasprotocolversions)(string) | 将 ActiveSync 协议版本从字符串表示形式转换为枚举。 |
-| static [ToString](../../aspose.email.clients.activesync.transportlayer/valueconverter/tostring)(ASProtocolVersions) | 将 ActiveSync 协议版本从枚举转换为字符串表示。 |
+| static [ToString](../../aspose.email.clients.activesync.transportlayer/valueconverter/tostring)(ASProtocolVersions) | 将 ActiveSync 协议版本从枚举转换为字符串表示形式。 |
 
 ### 也可以看看
 

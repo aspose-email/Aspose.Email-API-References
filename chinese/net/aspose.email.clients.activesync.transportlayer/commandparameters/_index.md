@@ -1,14 +1,14 @@
 ---
 title: CommandParameters
 second_title: Aspose.Email for .NET API 参考
-description: 命令参数
+description: 命令参数.
 type: docs
 weight: 1110
 url: /zh/net/aspose.email.clients.activesync.transportlayer/commandparameters/
 ---
 ## CommandParameters enumeration
 
-命令参数。
+命令参数.
 
 ```csharp
 public enum CommandParameters
@@ -18,13 +18,13 @@ public enum CommandParameters
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| AttachmentName | `0` | 一个字符串，指定要检索的附件文件的名称。 使用者:GetAttachment |
-| CollectionId | `1` | 一个字符串，它指定包含要转发或回复的 Message 对象的文件夹的服务器 ID。 使用者:SmartForward, SmartReply |
-| ItemId | `3` | 一个字符串，指定要转发或回复的消息对象的服务器 ID。 使用者:SmartForward, SmartReply |
-| LongId | `4` | 引用搜索命令响应中返回的结果集的字符串。 使用者:SmartForward, SmartReply |
-| Occurrence | `6` | 指定重复会议中特定事件的 ID 的字符串。 使用者:SmartForward, SmartReply |
-| Options | `7` | 指定命令选项的单字节位掩码。有关此位掩码的有效标志，请参见下表。 使用者:SmartReply、SmartForward、SendMail、ItemOperations |
-| User | `8` | 以可记录在 Web 服务器日志中的格式指定用户 ID 的字符串。 使用者:任何命令 |
+| AttachmentName | `0` | 一个字符串，指定要检索的附件文件的名称。 使用者：GetAttachment |
+| CollectionId | `1` | 一个字符串，它指定包含要转发或回复的消息对象的文件夹的服务器 ID。 使用者：SmartForward、SmartReply |
+| ItemId | `3` | 一个字符串，指定要转发或回复的消息对象的服务器 ID。 使用者：SmartForward、SmartReply |
+| LongId | `4` | 引用搜索命令响应中返回的结果集的字符串。 使用者：SmartForward、SmartReply |
+| Occurrence | `6` | 指定重复会议中特定事件的 ID 的字符串。 使用者：SmartForward、SmartReply |
+| Options | `7` | 指定命令选项的单字节位掩码。有关此位掩码的有效标志，请参见下表。 使用者：SmartReply、SmartForward、SendMail、ItemOperations |
+| User | `8` | 以可记录在 Web 服务器日志中的格式指定用户 ID 的字符串。 使用者：任何命令 |
 
 ### 也可以看看
 

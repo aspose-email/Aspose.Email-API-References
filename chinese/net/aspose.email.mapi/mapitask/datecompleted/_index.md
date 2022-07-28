@@ -18,7 +18,7 @@ public DateTime DateCompleted { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 当开始日期小于完成日期时出现。 |
+| ArgumentException | 当开始日期小于完成日期时触发。 |
 
 ### 也可以看看
 

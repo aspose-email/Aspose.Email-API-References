@@ -16,11 +16,11 @@ public static CalendarRecurrence FromiCalendar(string pattern)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern | String | StringStringiCalendar 的表示。 |
+| pattern | String | 细绳StringiCalendar 的代表。 |
 
 ### 返回值
 
-重复模式[`CalendarRecurrence`](../../calendarrecurrence)。
+重复模式[`CalendarRecurrence`](../../calendarrecurrence).
 
 ### 也可以看看
 

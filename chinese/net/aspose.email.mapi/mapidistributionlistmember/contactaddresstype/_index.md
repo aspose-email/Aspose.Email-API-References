@@ -1,14 +1,14 @@
 ---
 title: ContactAddressType
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置地址的类型 当 EntryId 属性包含联系人对象的 EntryID 时
+description: 获取或设置地址的类型 当EntryId属性包含一个Contact对象的EntryID时
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/mapidistributionlistmember/contactaddresstype/
 ---
 ## MapiDistributionListMember.ContactAddressType property
 
-获取或设置地址的类型， 当 EntryId 属性包含联系人对象的 EntryID 时。
+获取或设置地址的类型， 当EntryId属性包含一个Contact对象的EntryID时
 
 ```csharp
 public MapiDistributionListContactAddressType ContactAddressType { get; set; }

@@ -16,7 +16,7 @@ public virtual void AddAttachment(Attachment attachment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| attachment | Attachment | Вложение для добавления |
+| attachment | Attachment | Приложение для добавления |
 
 ### Смотрите также
 

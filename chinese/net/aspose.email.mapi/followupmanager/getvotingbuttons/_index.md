@@ -16,7 +16,7 @@ public static string[] GetVotingButtons(MapiMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)在其中添加了按钮。 |
+| message | MapiMessage | 这[`MapiMessage`](../../mapimessage)在其中添加了按钮。 |
 
 ### 返回值
 
@@ -26,7 +26,7 @@ public static string[] GetVotingButtons(MapiMessage message)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果*message*为空。 |
+| ArgumentNullException | 如果*message*一片空白。 |
 
 ### 也可以看看
 

@@ -17,10 +17,10 @@ public Task<string[]> ListItemsAsync(string folder, string mailbox = null, MailQ
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | String | 文件夹到搜索项目 |
+| folder | String | 用于搜索项目的文件夹 |
 | mailbox | String | 用于初始化文件夹 id 类的邮箱。 |
 | query | MailQuery | 选择项目的附加条件 |
-| recursive | Boolean | 指定请求是否应该是reqursive的。 |
+| recursive | Boolean | 指定请求是否应该是 reqursive。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值

@@ -1,14 +1,14 @@
 ---
 title: Pop3Exception
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPop3Exceptionaspose.email/pop3exception.
+description: Инициализирует новый экземплярPop3Exceptionaspose.email/pop3exception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/pop3exception/pop3exception/
 ---
 ## Pop3Exception() {#constructor}
 
-Инициализирует новый экземпляр класса[`Pop3Exception`](../../pop3exception).
+Инициализирует новый экземпляр[`Pop3Exception`](../../pop3exception) класс.
 
 ```csharp
 public Pop3Exception()
@@ -24,7 +24,7 @@ public Pop3Exception()
 
 ## Pop3Exception(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Pop3Exception`](../../pop3exception).
+Инициализирует новый экземпляр[`Pop3Exception`](../../pop3exception) класс.
 
 ```csharp
 public Pop3Exception(string message)
@@ -44,7 +44,7 @@ public Pop3Exception(string message)
 
 ## Pop3Exception(string, params object[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`Pop3Exception`](../../pop3exception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`Pop3Exception`](../../pop3exception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public Pop3Exception(string format, params object[] parameters)
@@ -65,7 +65,7 @@ public Pop3Exception(string format, params object[] parameters)
 
 ## Pop3Exception(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Pop3Exception`](../../pop3exception).
+Инициализирует новый экземпляр[`Pop3Exception`](../../pop3exception) класс.
 
 ```csharp
 public Pop3Exception(string message, Exception innerException)

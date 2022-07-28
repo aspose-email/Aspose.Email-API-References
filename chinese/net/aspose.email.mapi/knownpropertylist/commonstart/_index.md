@@ -1,14 +1,14 @@
 ---
 title: CommonStart
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Message 对象的开始时间 区域常规消息属性 规范名称PidLidCommonStart 替代名称dispidCommonStart
+description: 指示消息对象的开始时间 区域常规消息属性 规范名称PidLidCommonStart 替代名称dispidCommonStart
 type: docs
 weight: 2790
 url: /zh/net/aspose.email.mapi/knownpropertylist/commonstart/
 ---
 ## KnownPropertyList.CommonStart field
 
-表示 Message 对象的开始时间。 区域:常规消息属性 规范名称:PidLidCommonStart 替代名称:dispidCommonStart
+指示消息对象的开始时间。 区域：常规消息属性 规范名称：PidLidCommonStart 替代名称：dispidCommonStart
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CommonStart;

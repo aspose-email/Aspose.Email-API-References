@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-包含邮件地址的字符串。
+一个字符串包含邮件地址。
 
 ### 也可以看看
 

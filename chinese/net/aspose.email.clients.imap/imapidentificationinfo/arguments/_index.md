@@ -1,14 +1,14 @@
 ---
 title: Arguments
 second_title: Aspose.Email for .NET API 参考
-description: 命令行上提供的参数如果有
+description: 命令行上提供的参数如果有的话
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.imap/imapidentificationinfo/arguments/
 ---
 ## ImapIdentificationInfo.Arguments property
 
-命令行上提供的参数（如果有）。
+命令行上提供的参数，如果有的话。
 
 ```csharp
 public string Arguments { get; set; }

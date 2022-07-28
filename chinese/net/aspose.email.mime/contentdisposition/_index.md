@@ -3,7 +3,7 @@ title: ContentDisposition
 second_title: Aspose.Email for .NET API 参考
 description: 表示 Content-Disposition 标头
 type: docs
-weight: 19100
+weight: 19130
 url: /zh/net/aspose.email.mime/contentdisposition/
 ---
 ## ContentDisposition class
@@ -18,8 +18,8 @@ public class ContentDisposition
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ContentDisposition](contentdisposition#constructor)() | 初始化[`ContentDisposition`](../contentdisposition)类的新实例。 |
-| [ContentDisposition](contentdisposition#constructor_1)(string) | 初始化[`ContentDisposition`](../contentdisposition)类的新实例。 |
+| [ContentDisposition](contentdisposition#constructor)() | 初始化[`ContentDisposition`](../contentdisposition)类. |
+| [ContentDisposition](contentdisposition#constructor_1)(string) | 初始化[`ContentDisposition`](../contentdisposition)类. |
 
 ## 特性
 
@@ -38,9 +38,9 @@ public class ContentDisposition
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.email.mime/contentdisposition/equals)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.email.mime/contentdisposition/equals)(object) | 判断是否指定Object等于这个实例。 |
 | override [GetHashCode](../../aspose.email.mime/contentdisposition/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.email.mime/contentdisposition/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.email.mime/contentdisposition/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

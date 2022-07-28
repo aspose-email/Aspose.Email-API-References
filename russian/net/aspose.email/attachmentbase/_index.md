@@ -18,8 +18,8 @@ public abstract class AttachmentBase : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Получает или задает идентификатор содержимого. |
-| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Получает или задает поток содержимого. |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Получает или задает идентификатор контента. |
+| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Получает или задает поток контента. |
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | Получает или задает тип содержимого. |
 | virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | Получает коллекцию заголовков вложения. |
 | [TransferEncoding](../../aspose.email/attachmentbase/transferencoding) { get; set; } | Получает или задает кодировку передачи. |
@@ -28,7 +28,7 @@ public abstract class AttachmentBase : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email/attachmentbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email/attachmentbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, выпуском или сбросом неуправляемых ресурсов. |
 | virtual [Save](../../aspose.email/attachmentbase/save#save)(Stream) | Сохраняет указанный поток. |
 | virtual [Save](../../aspose.email/attachmentbase/save#save_1)(string) | Сохраняет указанное имя файла. |
 

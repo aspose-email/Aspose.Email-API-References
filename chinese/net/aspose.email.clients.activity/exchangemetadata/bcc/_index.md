@@ -1,14 +1,14 @@
 ---
 title: BCC
 second_title: Aspose.Email for .NET API 参考
-description: 邮件密件抄送行上的电子邮件地址集合 强制否
+description: 邮件密件抄送行中的电子邮件地址集合 强制否
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activity/exchangemetadata/bcc/
 ---
 ## ExchangeMetadata.BCC property
 
-邮件密件抄送行上的电子邮件地址集合。 强制:否
+邮件密件抄送行中的电子邮件地址集合。 强制：否
 
 ```csharp
 public string[] BCC { get; set; }

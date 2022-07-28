@@ -16,7 +16,7 @@ public virtual string Format(LogEntry entry)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| entry | LogEntry | 记录条目以格式化。 |
+| entry | LogEntry | 要格式化的日志条目。 |
 
 ### 返回值
 

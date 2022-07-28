@@ -16,7 +16,7 @@ public virtual MailMessage Decrypt()
 
 ### 返回值
 
-电子邮件消息
+电子邮件信息
 
 ### 也可以看看
 
@@ -36,11 +36,11 @@ public virtual MailMessage Decrypt(X509Certificate2 certificate)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| certificate | X509Certificate2 | System.Security.Cryptography.X509Certificates .X509Certificate2 |
+| certificate | X509Certificate2 | System.Security.Cryptography.X509Certificates.X509Certificate2 |
 
 ### 返回值
 
-电子邮件
+电子邮件信息
 
 ### 也可以看看
 

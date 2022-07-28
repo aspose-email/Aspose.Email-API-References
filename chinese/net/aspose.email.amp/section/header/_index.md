@@ -1,14 +1,14 @@
 ---
 title: Header
 second_title: Aspose.Email for .NET API 参考
-description: 表示节的标题
+description: 表示该部分的标题
 type: docs
 weight: 30
 url: /zh/net/aspose.email.amp/section/header/
 ---
 ## Section.Header property
 
-表示节的标题。
+表示该部分的标题。
 
 ```csharp
 public SectionHeader Header { get; set; }

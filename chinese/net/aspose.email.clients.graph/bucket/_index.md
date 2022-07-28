@@ -1,14 +1,14 @@
 ---
 title: Bucket
 second_title: Aspose.Email for .NET API 参考
-description: https//docs.microsoft.com/en-us/graph/api/resources/plannerbucketviewgraph-rest-1.0 plannerBucket 资源代表 Office 365 中计划中任务的存储桶或自定义列 它包含在 plannerPlan 中并且可以具有 plannerTasks 的集合
+description: https//docs.microsoft.com/en-us/graph/api/resources/plannerbucketviewgraph-rest-1.0 plannerBucket 资源表示计划中的任务的存储桶或自定义列 Office 365 它包含在 plannerPlan 中可以有 plannerTasks 的集合
 type: docs
 weight: 15860
 url: /zh/net/aspose.email.clients.graph/bucket/
 ---
 ## Bucket class
 
-https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 plannerBucket 资源代表 Office 365 中计划中任务的存储桶（或“自定义列”）。 它包含在 plannerPlan 中，并且可以具有 plannerTasks 的集合。
+https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 plannerBucket 资源表示计划中的任务的存储桶（或“自定义列”） Office 365。 它包含在 plannerPlan 中，可以有 plannerTasks 的集合。
 
 ```csharp
 public class Bucket
@@ -24,10 +24,10 @@ public class Bucket
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Id](../../aspose.email.clients.graph/bucket/id) { get; set; } | 桶的ID。只读。 |
+| [Id](../../aspose.email.clients.graph/bucket/id) { get; set; } | 存储桶的 ID。只读。 |
 | [Name](../../aspose.email.clients.graph/bucket/name) { get; set; } | 存储桶的名称。 |
-| [OrderHint](../../aspose.email.clients.graph/bucket/orderhint) { get; set; } | 用于在列表视图中订购此类项目的提示。格式定义如此处所述。 |
-| [PlanId](../../aspose.email.clients.graph/bucket/planid) { get; set; } | 桶所属的Plan ID。 |
+| [OrderHint](../../aspose.email.clients.graph/bucket/orderhint) { get; set; } | 用于在列表视图中订购此类项目的提示。格式定义如下所述。 |
+| [PlanId](../../aspose.email.clients.graph/bucket/planid) { get; set; } | bucket所属的Plan ID。 |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public void WriteFormat(string format, params object[] arguments)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 格式 | String |  |
+| format | String |  |
 | arguments | Object[] |  |
 
 ### 也可以看看

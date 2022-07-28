@@ -1,14 +1,14 @@
 ---
 title: Cutoff
 second_title: Aspose.Email for .NET API 参考
-description: 如果时间距离早于截止秒则显示原始日期
+description: 如果时间距离早于截止时间秒则显示原始日期
 type: docs
 weight: 20
 url: /zh/net/aspose.email.amp/amptimeago/cutoff/
 ---
 ## AmpTimeago.Cutoff property
 
-如果时间距离早于截止（秒），则显示原始日期。
+如果时间距离早于截止时间（秒），则显示原始日期。
 
 ```csharp
 public int Cutoff { get; set; }

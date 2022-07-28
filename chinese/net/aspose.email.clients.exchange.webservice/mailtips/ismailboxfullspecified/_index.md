@@ -1,14 +1,14 @@
 ---
 title: IsMailboxFullSpecified
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示是否指定MailboxFullaspose.email.clients.exchange.webservice/mailtips/mailboxfull
+description: 获取一个值该值指示是否MailboxFullaspose.email.clients.exchange.webservice/mailtips/mailboxfull被指定
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.exchange.webservice/mailtips/ismailboxfullspecified/
 ---
 ## MailTips.IsMailboxFullSpecified property
 
-获取一个值，该值指示是否指定[`MailboxFull`](../mailboxfull)
+获取一个值，该值指示是否[`MailboxFull`](../mailboxfull)被指定
 
 ```csharp
 public bool IsMailboxFullSpecified { get; }

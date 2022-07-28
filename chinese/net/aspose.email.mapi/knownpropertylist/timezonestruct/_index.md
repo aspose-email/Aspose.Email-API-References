@@ -1,14 +1,14 @@
 ---
 title: TimeZoneStruct
 second_title: Aspose.Email for .NET API 参考
-description: 指定定期会议的时区信息 区域日历 规范名称PidLidTimeZoneStruct 替代名称dispidTimeZoneStruct
+description: 指定定期会议的时区信息 区域Calendar 规范名称PidLidTimeZoneStruct 替代名称dispidTimeZoneStruct
 type: docs
 weight: 18990
 url: /zh/net/aspose.email.mapi/knownpropertylist/timezonestruct/
 ---
 ## KnownPropertyList.TimeZoneStruct field
 
-指定定期会议的时区信息。 区域:日历 规范名称:PidLidTimeZoneStruct 替代名称:dispidTimeZoneStruct
+指定定期会议的时区信息。 区域：Calendar 规范名称：PidLidTimeZoneStruct 替代名称：dispidTimeZoneStruct
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TimeZoneStruct;

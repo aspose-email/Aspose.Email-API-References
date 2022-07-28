@@ -1,14 +1,14 @@
 ---
 title: SendInternetEncoding
 second_title: Aspose.Email for .NET API 参考
-description: 包含发送到此通讯簿对象表示的启用电子邮件的实体的电子邮件的消息编码首选项的位掩码 区域地址属性 规范名称PidTagSendInternetEncoding 替代名称PR_SEND_INTERNET_ENCODING ptagSendInternetEncoding
+description: 包含发送到此通讯簿对象表示的启用电子邮件的实体的电子邮件的消息编码首选项的位掩码 区域地址属性 规范名称PidTagSendInternetEncoding 备用名称PR_SEND_INTERNET_ENCODINGptagSendInternetEncoding
 type: docs
 weight: 17170
 url: /zh/net/aspose.email.mapi/knownpropertylist/sendinternetencoding/
 ---
 ## KnownPropertyList.SendInternetEncoding field
 
-包含发送到此通讯簿对象表示的启用电子邮件的实体的电子邮件的消息编码首选项的位掩码。 区域:地址属性 规范名称:PidTagSendInternetEncoding 替代名称:PR_SEND_INTERNET_ENCODING, ptagSendInternetEncoding
+包含发送到此通讯簿对象表示的启用电子邮件的实体的电子邮件的消息编码首选项的位掩码。 区域：地址属性 规范名称：PidTagSendInternetEncoding 备用名称：PR_SEND_INTERNET_ENCODING、ptagSendInternetEncoding
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SendInternetEncoding;

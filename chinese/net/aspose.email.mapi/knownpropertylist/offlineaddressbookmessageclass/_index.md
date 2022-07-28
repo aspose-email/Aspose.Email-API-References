@@ -1,14 +1,14 @@
 ---
 title: OfflineAddressBookMessageClass
 second_title: Aspose.Email for .NET API 参考
-description: 包含完整 OAB 消息的消息类 区域脱机通讯簿属性 规范名称PidTagOfflineAddressBookMessageClass 备用名称PR_OAB_MESSAGE_CLASS
+description: 包含完整 OAB 消息的消息类 区域脱机通讯簿属性 规范名称PidTagOfflineAddressBookMessageClass 替代名称PR_OAB_MESSAGE_CLASS
 type: docs
 weight: 13260
 url: /zh/net/aspose.email.mapi/knownpropertylist/offlineaddressbookmessageclass/
 ---
 ## KnownPropertyList.OfflineAddressBookMessageClass field
 
-包含完整 OAB 消息的消息类。 区域:脱机通讯簿属性 规范名称:PidTagOfflineAddressBookMessageClass 备用名称:PR_OAB_MESSAGE_CLASS
+包含完整 OAB 消息的消息类。 区域：脱机通讯簿属性 规范名称：PidTagOfflineAddressBookMessageClass 替代名称：PR_OAB_MESSAGE_CLASS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineAddressBookMessageClass;

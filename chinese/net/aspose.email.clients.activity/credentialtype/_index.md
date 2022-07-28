@@ -19,15 +19,15 @@ public enum CredentialType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Other | `-1` | 其他认证。 |
-| Password | `0` | 用户凭证是用户名和密码。 |
+| Password | `0` | 用户凭据是用户名和密码。 |
 | MobilePhone | `1` | 用户凭证是手机。 |
 | SecretQuestion | `2` | 用户凭证是秘密问题。 |
-| SecurePin | `3` | 用户凭证是安全 PIN。 |
-| SecurePinReset | `4` | 用户凭据是安全 PIN 重置。 |
+| SecurePin | `3` | 用户凭据是安全 PIN。 |
+| SecurePinReset | `4` | 用户凭据是安全的 PIN 重置。 |
 | EasyID | `11` | 用户凭证是 EasyID。 |
-| PasswordIndexCredentialType | `14` | 用户凭证是 PasswordIndexCredentialType。 |
+| PasswordIndexCredentialType | `14` | 用户凭据是 PasswordIndexCredentialType. |
 | Device | `16` | 用户凭证是一个设备。 |
-| ForeignRealmIndex | `17` | 用户凭证是 ForeignRealmIndex。 |
+| ForeignRealmIndex | `17` | 用户凭证是 ForeignRealmIndex. |
 
 ### 也可以看看
 

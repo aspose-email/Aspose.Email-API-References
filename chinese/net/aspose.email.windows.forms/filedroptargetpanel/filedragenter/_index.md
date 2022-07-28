@@ -1,14 +1,14 @@
 ---
 title: FileDragEnter
 second_title: Aspose.Email for .NET API 参考
-description: 文件拖入时发生
+description: 在文件拖动进入时发生
 type: docs
 weight: 40
 url: /zh/net/aspose.email.windows.forms/filedroptargetpanel/filedragenter/
 ---
 ## FileDropTargetPanel.FileDragEnter event
 
-[文件拖入]时发生。
+在[文件拖动进入]时发生。
 
 ```csharp
 public event FileDragEventHandler FileDragEnter;

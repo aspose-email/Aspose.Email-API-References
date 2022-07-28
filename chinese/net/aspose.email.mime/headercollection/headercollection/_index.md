@@ -1,14 +1,14 @@
 ---
 title: HeaderCollection
 second_title: Aspose.Email for .NET API 参考
-description: 初始化HeaderCollectionaspose.email.mime/headercollection类的新实例
+description: 初始化HeaderCollectionaspose.email.mime/headercollection类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mime/headercollection/headercollection/
 ---
 ## HeaderCollection(HeaderCollection) {#constructor_1}
 
-初始化[`HeaderCollection`](../../headercollection)类的新实例。
+初始化[`HeaderCollection`](../../headercollection)类.
 
 ```csharp
 public HeaderCollection(HeaderCollection col)
@@ -28,7 +28,7 @@ public HeaderCollection(HeaderCollection col)
 
 ## HeaderCollection() {#constructor}
 
-初始化[`HeaderCollection`](../../headercollection)类的新实例。
+初始化[`HeaderCollection`](../../headercollection)类.
 
 ```csharp
 public HeaderCollection()

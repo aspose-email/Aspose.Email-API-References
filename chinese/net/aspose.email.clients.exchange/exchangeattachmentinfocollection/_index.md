@@ -1,14 +1,14 @@
 ---
 title: ExchangeAttachmentInfoCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示ExchangeAttachmentInfo./exchangeattachmentinfo
+description: 代表集合ExchangeAttachmentInfo./exchangeattachmentinfo
 type: docs
 weight: 3190
 url: /zh/net/aspose.email.clients.exchange/exchangeattachmentinfocollection/
 ---
 ## ExchangeAttachmentInfoCollection class
 
-表示[`ExchangeAttachmentInfo`](../exchangeattachmentinfo)
+代表集合[`ExchangeAttachmentInfo`](../exchangeattachmentinfo)
 
 ```csharp
 public sealed class ExchangeAttachmentInfoCollection : Collection<ExchangeAttachmentInfo>

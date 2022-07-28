@@ -1,14 +1,14 @@
 ---
 title: ReminderTrigger
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализировать новый экземпляр классаReminderTriggeraspose.email.calendar/remindertrigger.
+description: Инициализировать новый экземплярReminderTriggeraspose.email.calendar/remindertrigger класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/remindertrigger/remindertrigger/
 ---
 ## ReminderTrigger(DateTime) {#constructor_1}
 
-Инициализировать новый экземпляр класса[`ReminderTrigger`](../../remindertrigger).
+Инициализировать новый экземпляр[`ReminderTrigger`](../../remindertrigger) класс.
 
 ```csharp
 public ReminderTrigger(DateTime dateTime)
@@ -28,7 +28,7 @@ public ReminderTrigger(DateTime dateTime)
 
 ## ReminderTrigger(ReminderDuration, ReminderRelated) {#constructor}
 
-Инициализировать новый экземпляр класса[`ReminderTrigger`](../../remindertrigger).
+Инициализировать новый экземпляр[`ReminderTrigger`](../../remindertrigger) класс.
 
 ```csharp
 public ReminderTrigger(ReminderDuration duration, ReminderRelated related)
@@ -36,8 +36,8 @@ public ReminderTrigger(ReminderDuration duration, ReminderRelated related)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| duration | ReminderDuration | Для указания относительного времени срабатывания тревоги. |
-| related | ReminderRelated | Для указания отношения срабатывания тревоги относительно начала или окончания события. |
+| duration | ReminderDuration | Указать относительное время срабатывания будильника. |
+| related | ReminderRelated | Чтобы указать отношение триггера тревоги по отношению к началу или концу события. |
 
 ### Смотрите также
 

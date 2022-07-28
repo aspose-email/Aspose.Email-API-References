@@ -1,14 +1,14 @@
 ---
 title: TimeOfClick
 second_title: Aspose.Email for .NET API 参考
-description: 用户单击 URL 时采用协调世界时 UTC 的日期和时间 强制是
+description: 用户单击 URL 时采用协调世界时 UTC 的日期和时间 必填是
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activity/o365urltimeofclickactivity/timeofclick/
 ---
 ## O365URLTimeOfClickActivity.TimeOfClick property
 
-用户单击 URL 时采用协调世界时 (UTC) 的日期和时间。 强制:是
+用户单击 URL 时采用协调世界时 (UTC) 的日期和时间。 必填：是
 
 ```csharp
 public DateTime? TimeOfClick { get; set; }

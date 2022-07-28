@@ -1,14 +1,14 @@
 ---
 title: Provision
 second_title: Aspose.Email for .NET API 参考
-description: Provision 命令允许客户端设备向服务器请求管理员设置的安全策略设置 例如最小个人识别号  PIN 密码长度要求
+description: Provision 命令使客户端设备能够从服务器请求管理员设置的安全策略设置 例如最小个人识别码 PIN 密码长度要求
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/provision/
 ---
 ## IActiveSyncTLClient.Provision method
 
-Provision 命令允许客户端设备向服务器请求管理员设置的安全策略设置， 例如最小个人识别号 ( PIN) 密码长度要求。
+Provision 命令使客户端设备能够从服务器请求管理员设置的安全策略设置， 例如最小个人识别码 (PIN) 密码长度要求。
 
 ```csharp
 public ProvisionResponse Provision(ProvisionRequest request)
@@ -16,7 +16,7 @@ public ProvisionResponse Provision(ProvisionRequest request)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| request | ProvisionRequest | Provision 操作参数 |
+| request | ProvisionRequest | 提供操作参数 |
 
 ### 返回值
 

@@ -3,7 +3,7 @@ title: Uid
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置唯一标识符
 type: docs
-weight: 80
+weight: 90
 url: /zh/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/uid/
 ---
 ## VCardExplanatoryInfo.Uid property

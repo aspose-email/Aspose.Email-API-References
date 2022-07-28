@@ -1,14 +1,14 @@
 ---
 title: BodyCanonicalization
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置主体规范化 c
+description: 获取或设置主体规范化 c.
 type: docs
 weight: 20
 url: /zh/net/aspose.email.dkim/dkimsignatureinfo/bodycanonicalization/
 ---
 ## DKIMSignatureInfo.BodyCanonicalization property
 
-获取或设置主体规范化 (c=)。
+获取或设置主体规范化 (c=).
 
 ```csharp
 public CanonicalizationType BodyCanonicalization { get; set; }

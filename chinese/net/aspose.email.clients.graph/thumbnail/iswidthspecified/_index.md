@@ -1,14 +1,14 @@
 ---
 title: IsWidthSpecified
 second_title: Aspose.Email for .NET API 参考
-description: 表示是否指定了 Width 属性
+description: 指示是否指定了 Width 属性
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.graph/thumbnail/iswidthspecified/
 ---
 ## Thumbnail.IsWidthSpecified property
 
-表示是否指定了 Width 属性。
+指示是否指定了 Width 属性。
 
 ```csharp
 public bool IsWidthSpecified { get; set; }

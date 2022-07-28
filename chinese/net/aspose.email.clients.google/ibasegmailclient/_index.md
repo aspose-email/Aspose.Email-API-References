@@ -21,7 +21,7 @@ public interface IBaseGmailClient : IDisposable
 | [AccessToken](../../aspose.email.clients.google/ibasegmailclient/accesstoken) { get; set; } | 获取或设置 OAuth 2.0 不记名令牌 |
 | [DefaultEmail](../../aspose.email.clients.google/ibasegmailclient/defaultemail) { get; } | 获取默认电子邮件地址 |
 | [Proxy](../../aspose.email.clients.google/ibasegmailclient/proxy) { get; set; } | 获取或设置代理。 |
-| [Timeout](../../aspose.email.clients.google/ibasegmailclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为 100,000 毫秒（100 秒）。 |
+| [Timeout](../../aspose.email.clients.google/ibasegmailclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为100,000毫秒（100秒）。 |
 
 ## 方法
 

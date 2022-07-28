@@ -1,14 +1,14 @@
 ---
 title: MapiRecipientType
 second_title: Aspose.Email for .NET API 参考
-description: 表示包含消息收件人的收件人类型的 PR_RECIPIENT_TYPE 属性
+description: 表示 PR_RECIPIENT_TYPE 属性其中包含消息收件人的收件人类型
 type: docs
-weight: 18630
+weight: 18660
 url: /zh/net/aspose.email.mapi/mapirecipienttype/
 ---
 ## MapiRecipientType enumeration
 
-表示包含消息收件人的收件人类型的 PR_RECIPIENT_TYPE 属性。
+表示 PR_RECIPIENT_TYPE 属性，其中包含消息收件人的收件人类型。
 
 ```csharp
 public enum MapiRecipientType
@@ -18,10 +18,10 @@ public enum MapiRecipientType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| MAPI_BCC | `3` | 收件人是密件抄送 (BCC) 收件人。主要收件人和抄送收件人不知道密件抄送收件人的存在。 |
+| MAPI_BCC | `3` | 收件人是密件抄送 (BCC) 收件人。主要和抄送收件人不知道密件抄送收件人的存在。 |
 | MAPI_CC | `2` | 收件人是抄送 (CC) 收件人，即除了主要收件人之外还接收邮件的收件人。 |
-| MAPI_P1 | `268435456` | 收件人在上一次尝试中没有成功接收到消息。这是对较早传输的重新发送。 |
-| MAPI_SUBMITTED | `-2147483648` | 收件人已经收到消息，不需要再次接收。这是对较早传输的重新发送。此标志与 MAPI_TO、MAPI_CC 和 MAPI_BCC 值一起设置。 |
+| MAPI_P1 | `268435456` | 收件人在上次尝试时未成功接收邮件。这是较早传输的重发。 |
+| MAPI_SUBMITTED | `-2147483648` | 收件人已经收到邮件，不需要再收到。这是对较早传输的重新发送。此标志与 MAPI_TO、MAPI_CC 和 MAPI_BCC 值一起设置。 |
 | MAPI_TO | `1` | 收件人是主要（收件人）收件人。客户需要处理主要收件人；所有其他类型都是可选的。 |
 | Unknown | `-1` | 未知。 |
 

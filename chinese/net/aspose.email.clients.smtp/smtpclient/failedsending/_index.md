@@ -1,14 +1,14 @@
 ---
 title: FailedSending
 second_title: Aspose.Email for .NET API 参考
-description: 添加或删除订阅者以获取有关 smtp 队列中发送操作失败的通知
+description: 在 smtp queue 中添加或删除有关发送操作失败的通知的订阅者
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.smtp/smtpclient/failedsending/
 ---
 ## SmtpClient.FailedSending event
 
-添加或删除订阅者以获取有关 smtp 队列中发送操作失败的通知
+在 smtp queue 中添加或删除有关发送操作失败的通知的订阅者
 
 ```csharp
 public event EventHandler<FailedMailMessageEventArgs> FailedSending;

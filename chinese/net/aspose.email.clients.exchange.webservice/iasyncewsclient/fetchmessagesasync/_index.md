@@ -18,19 +18,19 @@ public Task<MailMessageCollection> FetchMessagesAsync(IEnumerable<string> uris,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AIEnumerable包含消息 uris检索到 |
+| uris | IEnumerable`1 | 一个IEnumerable包含要检索的消息 uri |
 | extendedProperties | IEnumerable`1 | 扩展属性的枚举 |
-| cancellationToken | CancellationToken | 取消标记。 |
+| cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 返回值
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
+一个[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)包含获取的消息
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris*是`无效的` |
 
 ### 也可以看看
 

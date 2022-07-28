@@ -1,14 +1,14 @@
 ---
 title: RtfSyncBodyCrc
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_RTF_SYNC_BODY_CRC
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_RTF_SYNC_BODY_CRC
 type: docs
 weight: 16390
 url: /zh/net/aspose.email.mapi/knownpropertylist/rtfsyncbodycrc/
 ---
 ## KnownPropertyList.RtfSyncBodyCrc field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_RTF_SYNC_BODY_CRC
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_RTF_SYNC_BODY_CRC
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RtfSyncBodyCrc;

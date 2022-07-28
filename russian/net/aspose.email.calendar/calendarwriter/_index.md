@@ -18,7 +18,7 @@ public class CalendarWriter : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [CalendarWriter](calendarwriter#constructor)(Stream) | Инициализирует новый экземпляр CalendarReader с исходным потоком и параметрами AppointmentIcsSaveOptions по умолчанию. |
+| [CalendarWriter](calendarwriter#constructor)(Stream) | Инициализирует новый экземпляр CalendarReader с исходным потоком и AppointmentIcsSaveOptions по умолчанию. |
 | [CalendarWriter](calendarwriter#constructor_2)(string) | Инициализирует новый экземпляр CalendarReader с исходным файлом и параметрами AppointmentIcsSaveOptions по умолчанию. |
 | [CalendarWriter](calendarwriter#constructor_1)(Stream, AppointmentIcsSaveOptions) | Инициализирует новый экземпляр CalendarReader с исходным файлом и дополнительными параметрами AppointmentIcsSaveOptions. |
 | [CalendarWriter](calendarwriter#constructor_3)(string, AppointmentIcsSaveOptions) | Инициализирует новый экземпляр CalendarReader с исходным файлом и дополнительными параметрами AppointmentIcsSaveOptions. |
@@ -27,7 +27,7 @@ public class CalendarWriter : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.calendar/calendarwriter/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email.calendar/calendarwriter/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, выпуском или сбросом неуправляемых ресурсов. |
 | [Write](../../aspose.email.calendar/calendarwriter/write)(Appointment) | Записывает встречу в основной поток. |
 
 ### Смотрите также

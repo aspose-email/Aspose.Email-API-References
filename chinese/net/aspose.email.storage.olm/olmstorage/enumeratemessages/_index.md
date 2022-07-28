@@ -16,11 +16,11 @@ public IEnumerable<MapiMessage> EnumerateMessages(OlmFolder folder)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folder | OlmFolder | [`OlmFolder`](../../olmfolder)表示有关文件夹的信息OLM 存储。 |
+| folder | OlmFolder | [`OlmFolder`](../../olmfolder)表示有关 OLM 存储中文件夹的信息。 |
 
 ### 返回值
 
-IEnumerable, 表示遍历的枚举器文件夹中的消息。
+IEnumerable, 表示遍历文件夹中消息的枚举器。
 
 ### 例外
 

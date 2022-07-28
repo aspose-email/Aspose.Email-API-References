@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: Aspose.Email for .NET API 参考
-description: 初始化此类的新实例
+description: 初始化这个类的一个新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.email/license/license/
 ---
 ## License constructor
 
-初始化此类的新实例。
+初始化这个类的一个新实例。
 
 ```csharp
 public License()
@@ -16,7 +16,7 @@ public License()
 
 ### 例子
 
-在本例中，将尝试查找名为 MyLicense.lic 的许可证文件 在包含 的文件夹中 组件，在包含调用程序集的文件夹中, 在入口程序集的文件夹中，然后在调用程序集的嵌入资源中。
+在此示例中，将尝试在包含 的文件夹中查找名为 MyLicense.lic 的许可证文件 组件，在包含调用程序集的文件夹中， 在入口程序集的文件夹中，然后在调用程序集的嵌入资源中。
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-组件jar文件:
+组件 jar 文件：
 
 ```csharp
 License license = new License();

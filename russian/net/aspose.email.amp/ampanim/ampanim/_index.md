@@ -16,8 +16,8 @@ public AmpAnim(int width, int height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| width | Int32 | ширина AmpAnim |
-| height | Int32 | высота AmpAnim |
+| width | Int32 | ширина ампанима |
+| height | Int32 | высота АмпАнима |
 
 ### Смотрите также
 

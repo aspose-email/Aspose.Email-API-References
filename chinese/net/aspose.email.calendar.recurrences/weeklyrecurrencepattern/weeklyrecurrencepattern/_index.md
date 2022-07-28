@@ -1,14 +1,14 @@
 ---
 title: WeeklyRecurrencePattern
 second_title: Aspose.Email for .NET API 参考
-description: 初始化WeeklyRecurrencePatternaspose.email.calendar.recurrences/weeklyrecurrencepattern类的新实例
+description: 初始化WeeklyRecurrencePatternaspose.email.calendar.recurrences/weeklyrecurrencepattern类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar.recurrences/weeklyrecurrencepattern/weeklyrecurrencepattern/
 ---
 ## WeeklyRecurrencePattern(DateTime) {#constructor_2}
 
-初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类的新实例。
+初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类.
 
 ```csharp
 public WeeklyRecurrencePattern(DateTime endDate)
@@ -28,7 +28,7 @@ public WeeklyRecurrencePattern(DateTime endDate)
 
 ## WeeklyRecurrencePattern(int) {#constructor}
 
-初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类的新实例。
+初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类.
 
 ```csharp
 public WeeklyRecurrencePattern(int occurs)
@@ -48,7 +48,7 @@ public WeeklyRecurrencePattern(int occurs)
 
 ## WeeklyRecurrencePattern(DateTime, int) {#constructor_3}
 
-初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类的新实例。
+初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类.
 
 ```csharp
 public WeeklyRecurrencePattern(DateTime endDate, int interval)
@@ -69,7 +69,7 @@ public WeeklyRecurrencePattern(DateTime endDate, int interval)
 
 ## WeeklyRecurrencePattern(int, int) {#constructor_1}
 
-初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类的新实例。
+初始化[`WeeklyRecurrencePattern`](../../weeklyrecurrencepattern)类.
 
 ```csharp
 public WeeklyRecurrencePattern(int occurs, int interval)

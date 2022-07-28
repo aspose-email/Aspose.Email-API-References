@@ -1,14 +1,14 @@
 ---
 title: DeleteFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 删除指定文件夹此方法表示 IMAP DELETE 命令
+description: 删除指定的文件夹这个方法代表IMAP DELETE command
 type: docs
 weight: 550
 url: /zh/net/aspose.email.clients.imap/imapclient/deletefolderasync/
 ---
 ## DeleteFolderAsync(IConnection, string) {#deletefolderasync}
 
-删除指定文件夹。此方法表示 IMAP DELETE 命令
+删除指定的文件夹。这个方法代表IMAP DELETE command
 
 ```csharp
 public Task DeleteFolderAsync(IConnection connection, string folderName)
@@ -21,7 +21,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName)
 
 ## DeleteFolderAsync(string) {#deletefolderasync_2}
 
-删除指定文件夹。此方法表示 IMAP DELETE 命令
+删除指定的文件夹。这个方法代表IMAP DELETE command
 
 ```csharp
 public Task DeleteFolderAsync(string folderName)
@@ -58,7 +58,7 @@ public Task DeleteFolderAsync(string folderName)
 
 ## DeleteFolderAsync(IConnection, string, CancellationToken) {#deletefolderasync_1}
 
-删除指定文件夹。此方法表示 IMAP DELETE 命令
+删除指定的文件夹。这个方法代表IMAP DELETE command
 
 ```csharp
 public Task DeleteFolderAsync(IConnection connection, string folderName, CancellationToken token)
@@ -72,7 +72,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName, Cancell
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -85,7 +85,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName, Cancell
 
 ## DeleteFolderAsync(string, CancellationToken) {#deletefolderasync_3}
 
-删除指定文件夹。此方法表示 IMAP DELETE 命令
+删除指定的文件夹。这个方法代表IMAP DELETE command
 
 ```csharp
 public Task DeleteFolderAsync(string folderName, CancellationToken token)
@@ -98,7 +98,7 @@ public Task DeleteFolderAsync(string folderName, CancellationToken token)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

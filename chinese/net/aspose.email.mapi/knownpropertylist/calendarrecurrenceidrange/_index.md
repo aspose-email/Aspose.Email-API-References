@@ -1,14 +1,14 @@
 ---
 title: CalendarRecurrenceIdRange
 second_title: Aspose.Email for .NET API 参考
-description: 指定定期约会的哪些实例被引用 区域通用 规范名称PidNameCalendarRecurrenceIdRange 替代名称urnschemascalendarrecurrenceidrange
+description: 指定定期约会的哪些实例被引用 区域Common 规范名称PidNameCalendarRecurrenceIdRange 备用名称urnschemascalendarrecurrenceidrange
 type: docs
 weight: 2360
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarrecurrenceidrange/
 ---
 ## KnownPropertyList.CalendarRecurrenceIdRange field
 
-指定定期约会的哪些实例被引用。 区域:通用 规范名称:PidNameCalendarRecurrenceIdRange 替代名称:urn:schemas:calendar:recurrenceidrange
+指定定期约会的哪些实例被引用。 区域：Common 规范名称：PidNameCalendarRecurrenceIdRange 备用名称：urn:schemas:calendar:recurrenceidrange
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarRecurrenceIdRange;

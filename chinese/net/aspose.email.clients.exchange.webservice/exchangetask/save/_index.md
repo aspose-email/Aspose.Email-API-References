@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API 参考
-description: 使用指定格式将当前对象保存到给定流
+description: 使用指定格式将当前对象保存到给定流中
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangetask/save/
 ---
 ## Save(Stream, TaskSaveFormat) {#save_1}
 
-使用指定格式将当前对象保存到给定流。
+使用指定格式将当前对象保存到给定流中。
 
 ```csharp
 public override void Save(Stream stream, TaskSaveFormat saveFormat)
@@ -38,7 +38,7 @@ public override void Save(string filePath, TaskSaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 文件名。 |
+| filePath | String | 一个文件名。 |
 | saveFormat | TaskSaveFormat | 一种保存格式。 |
 
 ### 也可以看看

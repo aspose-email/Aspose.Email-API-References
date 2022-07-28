@@ -3,7 +3,7 @@ title: VCardDeliveryAddressCollection
 second_title: Aspose.Email for .NET API 参考
 description: 表示 VCardDeliveryAddresses 的集合
 type: docs
-weight: 19560
+weight: 19590
 url: /zh/net/aspose.email.personalinfo.vcard/vcarddeliveryaddresscollection/
 ---
 ## VCardDeliveryAddressCollection class

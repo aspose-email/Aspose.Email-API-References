@@ -1,14 +1,14 @@
 ---
 title: MailMessageCollection
 second_title: Aspose.Email for .NET API 参考
-description: 初始化类MailMessageCollectionaspose.email/mailmessagecollection 的新实例
+description: 初始化类的新实例邮件消息集合aspose.email/mailmessagecollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/mailmessagecollection/mailmessagecollection/
 ---
 ## MailMessageCollection constructor
 
-初始化类[`MailMessageCollection`](../../mailmessagecollection) 的新实例。
+初始化类的新实例[`邮件消息集合`](../../mailmessagecollection).
 
 ```csharp
 public MailMessageCollection()

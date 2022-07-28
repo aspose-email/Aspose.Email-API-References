@@ -3,7 +3,7 @@ title: ContentType
 second_title: Aspose.Email for .NET API 参考
 description: 表示 Content-Type 标头
 type: docs
-weight: 19110
+weight: 19140
 url: /zh/net/aspose.email.mime/contenttype/
 ---
 ## ContentType class
@@ -18,8 +18,8 @@ public class ContentType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ContentType](contenttype#constructor)() | 初始化[`ContentType`](../contenttype)类的新实例。 |
-| [ContentType](contenttype#constructor_1)(string) | 初始化[`ContentType`](../contenttype)类的新实例。 |
+| [ContentType](contenttype#constructor)() | 初始化[`ContentType`](../contenttype)类. |
+| [ContentType](contenttype#constructor_1)(string) | 初始化[`ContentType`](../contenttype)类. |
 
 ## 特性
 
@@ -35,9 +35,9 @@ public class ContentType
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.email.mime/contenttype/equals)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.email.mime/contenttype/equals)(object) | 判断是否指定Object等于这个实例。 |
 | override [GetHashCode](../../aspose.email.mime/contenttype/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.email.mime/contenttype/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.email.mime/contenttype/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

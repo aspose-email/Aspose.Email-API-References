@@ -16,7 +16,7 @@ public MapiPropertyCollection Properties { get; }
 
 ### 适当的价值
 
-[`MapiProperty`](../../../aspose.email.mapi/mapiproperty)集合。
+这[`MapiProperty`](../../../aspose.email.mapi/mapiproperty)收藏。
 
 ### 也可以看看
 

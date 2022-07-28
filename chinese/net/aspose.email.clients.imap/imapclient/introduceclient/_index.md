@@ -6,6 +6,27 @@ type: docs
 weight: 790
 url: /zh/net/aspose.email.clients.imap/imapclient/introduceclient/
 ---
+## IntroduceClient() {#introduceclient}
+
+将客户端信息引入服务器。
+
+```csharp
+public ImapIdentificationInfo IntroduceClient()
+```
+
+### 返回值
+
+返回服务器标识信息
+
+### 也可以看看
+
+* class [ImapIdentificationInfo](../../imapidentificationinfo)
+* class [ImapClient](../../imapclient)
+* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
+* 部件 [Aspose.Email](../../../)
+
+---
+
 ## IntroduceClient(IConnection) {#introduceclient_1}
 
 将客户端信息引入服务器。
@@ -42,7 +63,7 @@ public ImapIdentificationInfo IntroduceClient(ImapIdentificationInfo clientIdent
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| clientIdentificationInfo | ImapIdentificationInfo | 客户端标识信息 |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户身份信息 |
 
 ### 返回值
 
@@ -69,7 +90,7 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| clientIdentificationInfo | ImapIdentificationInfo | 客户端识别信息 |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户身份信息 |
 
 ### 返回值
 
@@ -79,27 +100,6 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection,
 
 * class [ImapIdentificationInfo](../../imapidentificationinfo)
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
-* 部件 [Aspose.Email](../../../)
-
----
-
-## IntroduceClient() {#introduceclient}
-
-将客户端信息引入服务器。
-
-```csharp
-public ImapIdentificationInfo IntroduceClient()
-```
-
-### 返回值
-
-返回服务器标识信息
-
-### 也可以看看
-
-* class [ImapIdentificationInfo](../../imapidentificationinfo)
 * class [ImapClient](../../imapclient)
 * 命名空间 [Aspose.Email.Clients.Imap](../../imapclient)
 * 部件 [Aspose.Email](../../../)

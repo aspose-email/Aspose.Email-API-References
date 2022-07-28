@@ -1,14 +1,14 @@
 ---
 title: InternetAccountName
 second_title: Aspose.Email for .NET API 参考
-description: 指定用于发送电子邮件的用户可见电子邮件帐户名称 区域常规消息属性 规范名称PidLidInternetAccountName 备用名称dispidInetAcctName
+description: 指定用于发送电子邮件的用户可见电子邮件帐户名称 区域常规邮件属性 规范名称PidLidInternetAccountName 备用名称dispidInetAcctName
 type: docs
 weight: 11410
 url: /zh/net/aspose.email.mapi/knownpropertylist/internetaccountname/
 ---
 ## KnownPropertyList.InternetAccountName field
 
-指定用于发送电子邮件的用户可见电子邮件帐户名称。 区域:常规消息属性 规范名称:PidLidInternetAccountName 备用名称:dispidInetAcctName
+指定用于发送电子邮件的用户可见电子邮件帐户名称。 区域：常规邮件属性 规范名称：PidLidInternetAccountName 备用名称：dispidInetAcctName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InternetAccountName;

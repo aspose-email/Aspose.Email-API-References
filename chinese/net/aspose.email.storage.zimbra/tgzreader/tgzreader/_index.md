@@ -1,14 +1,14 @@
 ---
 title: TgzReader
 second_title: Aspose.Email for .NET API 参考
-description: 初始化TgzReaderaspose.email.storage.zimbra/tgzreader类的新实例
+description: 初始化TgzReaderaspose.email.storage.zimbra/tgzreader类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.zimbra/tgzreader/tgzreader/
 ---
 ## TgzReader constructor
 
-初始化[`TgzReader`](../../tgzreader)类的新实例。
+初始化[`TgzReader`](../../tgzreader)类.
 
 ```csharp
 public TgzReader(string fileName)
@@ -22,7 +22,7 @@ public TgzReader(string fileName)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果文件名为空或空则抛出 |
+| ArgumentNullException | 如果文件名为空或为空，则抛出 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: JunkeMailsUri
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置垃圾邮件 uri
+description: 获取或设置垃圾邮件 uri.
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.exchange/exchangemailboxinfo/junkemailsuri/
 ---
 ## ExchangeMailboxInfo.JunkeMailsUri property
 
-获取或设置垃圾邮件 uri。
+获取或设置垃圾邮件 uri.
 
 ```csharp
 public abstract string JunkeMailsUri { get; set; }

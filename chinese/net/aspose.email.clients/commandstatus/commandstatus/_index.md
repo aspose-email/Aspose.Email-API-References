@@ -16,7 +16,7 @@ public CommandStatus(int statusCode, string description)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| statusCode | Int32 | 包含状态代码 |
+| statusCode | Int32 | 包含状态码 |
 | description | String | 包含状态描述 |
 
 ### 也可以看看

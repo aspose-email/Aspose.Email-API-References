@@ -18,8 +18,8 @@ public class SyncState
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SyncState](syncstate#constructor)() | 初始化[`SyncState`](../syncstate)类 的新实例 |
-| [SyncState](syncstate#constructor_1)(string) | 初始化[`SyncState`](../syncstate)类 的新实例 |
+| [SyncState](syncstate#constructor)() | 初始化[`SyncState`](../syncstate) class |
+| [SyncState](syncstate#constructor_1)(string) | 初始化[`SyncState`](../syncstate) class |
 
 ## 特性
 

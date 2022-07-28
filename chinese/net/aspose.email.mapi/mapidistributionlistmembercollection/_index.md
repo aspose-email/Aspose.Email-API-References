@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionListMemberCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示MapiDistributionListMember./mapidistributionlistmember对象的集合
+description: 代表一个集合MapiDistributionListMember./mapidistributionlistmember对象.
 type: docs
-weight: 18370
+weight: 18400
 url: /zh/net/aspose.email.mapi/mapidistributionlistmembercollection/
 ---
 ## MapiDistributionListMemberCollection class
 
-表示[`MapiDistributionListMember`](../mapidistributionlistmember)对象的集合。
+代表一个集合[`MapiDistributionListMember`](../mapidistributionlistmember)对象.
 
 ```csharp
 public sealed class MapiDistributionListMemberCollection : List<MapiDistributionListMember>

@@ -1,14 +1,14 @@
 ---
 title: TaskLastDelegate
 second_title: Aspose.Email for .NET API 参考
-description: 包含最近分配任务的用户或最近分配任务的用户的名称 区域任务 规范名称PidLidTaskLastDelegate 替代名称dispidTaskLastDelegate
+description: 包含最近分配任务的用户或最近分配任务的用户的名称 区域Tasks 规范名称PidLidTaskLastDelegate 备用名称dispidTaskLastDelegate
 type: docs
 weight: 18690
 url: /zh/net/aspose.email.mapi/knownpropertylist/tasklastdelegate/
 ---
 ## KnownPropertyList.TaskLastDelegate field
 
-包含最近分配任务的用户或最近分配任务的用户的名称。 区域:任务 规范名称:PidLidTaskLastDelegate 替代名称:dispidTaskLastDelegate
+包含最近分配任务的用户或最近分配任务的用户的名称。 区域：Tasks 规范名称：PidLidTaskLastDelegate 备用名称：dispidTaskLastDelegate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskLastDelegate;

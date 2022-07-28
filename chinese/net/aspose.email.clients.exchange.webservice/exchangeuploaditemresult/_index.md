@@ -19,8 +19,8 @@ public sealed class ExchangeUploadItemResult
 | 姓名 | 描述 |
 | --- | --- |
 | [ErrorMessage](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/errormessage) { get; } | 获取错误信息（如果上传项目失败） |
-| [IsSuccessful](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/issuccessful) { get; } | 获取项目是否上传成功 |
-| [ItemId](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/itemid) { get; } | 获取项目 ID |
+| [IsSuccessful](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/issuccessful) { get; } | 获取项目是否上传成功的值 |
+| [ItemId](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/itemid) { get; } | 获取项目 id |
 
 ### 也可以看看
 

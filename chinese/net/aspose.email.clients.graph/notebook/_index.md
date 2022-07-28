@@ -25,22 +25,22 @@ public class Notebook
 | 姓名 | 描述 |
 | --- | --- |
 | [CreatedBy](../../aspose.email.clients.graph/notebook/createdby) { get; } | 创建项目的用户、设备和应用程序的身份。 只读。 |
-| [CreatedDateTime](../../aspose.email.clients.graph/notebook/createddatetime) { get; } | 笔记本创建的日期和时间。 时间戳表示使用 ISO 8601 格式的日期和时间信息，并且始终采用 UTC 时间。 例如，2014 年 1 月 1 日午夜 UTC 将如下所示:'2014-01-01T00:00:00Z'。 只读。 |
+| [CreatedDateTime](../../aspose.email.clients.graph/notebook/createddatetime) { get; } | 笔记本创建的日期和时间。 时间戳表示使用 ISO 8601 格式的日期和时间信息，并且始终采用 UTC 时间。 例如，2014 年 1 月 1 日午夜 UTC 将如下所示：'2014-01 -01T00:00:00Z'。 只读。 |
 | [DisplayName](../../aspose.email.clients.graph/notebook/displayname) { get; set; } | 笔记本的名称。 |
 | [Id](../../aspose.email.clients.graph/notebook/id) { get; } | 笔记本的唯一标识符。 只读。 |
-| [IsCreatedDateTimeSpecified](../../aspose.email.clients.graph/notebook/iscreateddatetimespecified) { get; set; } | 表示是否指定了 CreatedDateTime 属性。 |
-| [IsDefault](../../aspose.email.clients.graph/notebook/isdefault) { get; } | 表示这是否是用户的默认笔记本。 只读。 |
-| [IsDefaultSpecified](../../aspose.email.clients.graph/notebook/isdefaultspecified) { get; set; } | 表示是否指定了 IsDefault 属性。 |
+| [IsCreatedDateTimeSpecified](../../aspose.email.clients.graph/notebook/iscreateddatetimespecified) { get; set; } | 指示是否指定了 CreatedDateTime 属性。 |
+| [IsDefault](../../aspose.email.clients.graph/notebook/isdefault) { get; } | 指示这是否是用户的默认笔记本。 只读。 |
+| [IsDefaultSpecified](../../aspose.email.clients.graph/notebook/isdefaultspecified) { get; set; } | 指示是否指定了 IsDefault 属性。 |
 | [IsLastModifiedDateTimeSpecified](../../aspose.email.clients.graph/notebook/islastmodifieddatetimespecified) { get; set; } | 指示是否指定了 LastModifiedDateTime 属性。 |
-| [IsShared](../../aspose.email.clients.graph/notebook/isshared) { get; } | 表示笔记本是否共享。 如果为真，则笔记本的内容可以被所有者以外的人看到。 只读。 |
-| [IsSharedSpecified](../../aspose.email.clients.graph/notebook/issharedspecified) { get; set; } | 表示是否指定了 IsShared 属性。 |
+| [IsShared](../../aspose.email.clients.graph/notebook/isshared) { get; } | 表示笔记本是否共享。 如果为true，则笔记本的内容可以被所有者以外的人看到。 只读。 |
+| [IsSharedSpecified](../../aspose.email.clients.graph/notebook/issharedspecified) { get; set; } | 指示是否指定了 IsShared 属性。 |
 | [LastModifiedBy](../../aspose.email.clients.graph/notebook/lastmodifiedby) { get; } | 创建项目的用户、设备和应用程序的身份。 只读。 |
-| [LastModifiedDateTime](../../aspose.email.clients.graph/notebook/lastmodifieddatetime) { get; } | 上次修改笔记本的日期和时间。 时间戳表示使用 ISO 8601 格式的日期和时间信息，并且始终采用 UTC 时间。 例如，2014 年 1 月 1 日午夜 UTC 将如下所示:'2014-01-01T00:00:00Z'。 只读。 |
-| [Links](../../aspose.email.clients.graph/notebook/links) { get; set; } | 打开笔记本的链接。 oneNoteClientURL 链接在 OneNote 本机客户端中打开笔记本（如果已安装）。 oneNoteWebURL 链接在 OneNote 网页版中打开笔记本。 |
+| [LastModifiedDateTime](../../aspose.email.clients.graph/notebook/lastmodifieddatetime) { get; } | 上次修改笔记本的日期和时间。 时间戳表示使用 ISO 8601 格式的日期和时间信息，并且始终采用 UTC 时间。 例如，2014 年 1 月 1 日午夜 UTC 将如下所示：'2014-01-01T00:00:00Z'。 只读。 |
+| [Links](../../aspose.email.clients.graph/notebook/links) { get; set; } | 打开笔记本的链接。 oneNoteClientURL 链接在 OneNote 本机客户端（如果已安装）中打开笔记本。 oneNoteWebURL 链接在 OneNote 网页版中打开笔记本。 |
 | [SectionGroupsUrl](../../aspose.email.clients.graph/notebook/sectiongroupsurl) { get; } | sectionGroups 导航属性的 URL，它返回笔记本中的所有部分组。 只读。 |
 | [SectionsUrl](../../aspose.email.clients.graph/notebook/sectionsurl) { get; } | 部分导航属性的 URL，它返回笔记本中的所有部分。 只读。 |
-| [Self](../../aspose.email.clients.graph/notebook/self) { get; } | 端点，您可以在其中获取有关笔记本的详细信息。 只读。 |
-| [UserRole](../../aspose.email.clients.graph/notebook/userrole) { get; } | 可能的值为:所有者、贡献者、读者、无。 Owner 代表对笔记本的所有者级别的访问权限。 Contributor 表示对笔记本的读/写访问权限。 Reader 代表对笔记本的只读访问。 只读。 |
+| [Self](../../aspose.email.clients.graph/notebook/self) { get; } | 您可以在其中获取有关笔记本的详细信息的端点。 只读。 |
+| [UserRole](../../aspose.email.clients.graph/notebook/userrole) { get; } | 可能的值有：Owner、Contributor、Reader、None。 Owner 代表对 notebook 的所有者级访问权限。 Contributor 代表对 notebook 的读/写访问权限。 Reader 代表对 notebook 的只读访问权限。 Read-only . |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: OtherAddressCountryCode
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人其他地址的国家代码部分 区域联系人属性 规范名称PidLidOtherAddressCountryCode 替代名称dispidOtherAddressCountryCode
+description: 指定联系人其他地址的国家/地区代码部分 区域联系人属性 规范名称PidLidOtherAddressCountryCode 替代名称dispidOtherAddressCountryCode
 type: docs
 weight: 13970
 url: /zh/net/aspose.email.mapi/knownpropertylist/otheraddresscountrycode/
 ---
 ## KnownPropertyList.OtherAddressCountryCode field
 
-指定联系人其他地址的国家代码部分。 区域:联系人属性 规范名称:PidLidOtherAddressCountryCode 替代名称:dispidOtherAddressCountryCode
+指定联系人其他地址的国家/地区代码部分。 区域：联系人属性 规范名称：PidLidOtherAddressCountryCode 替代名称：dispidOtherAddressCountryCode
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OtherAddressCountryCode;

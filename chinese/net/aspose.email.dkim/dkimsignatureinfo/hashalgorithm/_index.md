@@ -1,14 +1,14 @@
 ---
 title: HashAlgorithm
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置哈希算法 a
+description: 获取或设置哈希算法 a.
 type: docs
 weight: 40
 url: /zh/net/aspose.email.dkim/dkimsignatureinfo/hashalgorithm/
 ---
 ## DKIMSignatureInfo.HashAlgorithm property
 
-获取或设置哈希算法 (a=)。
+获取或设置哈希算法 (a=).
 
 ```csharp
 public DKIMHashAlgorithm HashAlgorithm { get; set; }

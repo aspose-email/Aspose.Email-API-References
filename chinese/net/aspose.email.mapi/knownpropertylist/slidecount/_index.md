@@ -1,14 +1,14 @@
 ---
 title: SlideCount
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件中的幻灯片数 区域普通 规范名称PidNameSlideCount 替代名称urnschemas-microsoft-comofficeofficeSlides
+description: 指定附加到文档对象的文件中的幻灯片数 区域Common 规范名称PidNameSlideCount 替代名称urnschemas-microsoft-comofficeofficeSlides
 type: docs
 weight: 18060
 url: /zh/net/aspose.email.mapi/knownpropertylist/slidecount/
 ---
 ## KnownPropertyList.SlideCount field
 
-指定附加到 Document 对象的文件中的幻灯片数。 区域：普通 规范名称：PidNameSlideCount 替代名称：urn:schemas-microsoft-com:office:office#Slides
+指定附加到文档对象的文件中的幻灯片数。 区域：Common 规范名称：PidNameSlideCount 替代名称：urn:schemas-microsoft-com:office:office#Slides
 
 ```csharp
 public static readonly PidNamePropertyDescriptor SlideCount;

@@ -18,7 +18,7 @@ public enum OofState
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Disabled | `0` | Oof 属性被禁用。 |
+| Disabled | `0` | Oof 属性已禁用。 |
 | Global | `1` | Oof 属性是全局的。 |
 | TimeBased | `2` | Oof 属性是基于时间的。 |
 

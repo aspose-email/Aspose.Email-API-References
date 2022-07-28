@@ -1,14 +1,14 @@
 ---
 title: AmpAttributes
 second_title: Aspose.Email for .NET API 参考
-description: 表示放大器组件使用的属性
+description: 表示 amp-components 使用的属性
 type: docs
 weight: 80
 url: /zh/net/aspose.email.amp/ampattributes/
 ---
 ## AmpAttributes class
 
-表示放大器组件使用的属性。
+表示 amp-components 使用的属性。
 
 ```csharp
 public class AmpAttributes
@@ -26,13 +26,13 @@ public class AmpAttributes
 | --- | --- |
 | [Height](../../aspose.email.amp/ampattributes/height) { get; set; } | 元素高度。 |
 | [Heigths](../../aspose.email.amp/ampattributes/heigths) { get; set; } | 该属性的值是基于媒体表达式的尺寸表达式。 |
-| [IsFallback](../../aspose.email.amp/ampattributes/isfallback) { get; set; } | 定义当前元素是后备元素。 |
+| [IsFallback](../../aspose.email.amp/ampattributes/isfallback) { get; set; } | 定义当前元素为后备元素。 |
 | [IsNoloading](../../aspose.email.amp/ampattributes/isnoloading) { get; set; } | noloading 属性指示是否应关闭此元素的“加载指示器”。 |
 | [IsPlaceHolder](../../aspose.email.amp/ampattributes/isplaceholder) { get; set; } | placeholder 属性表示使用此属性标记的元素充当父 AMP 元素的占位符。 |
 | [Layout](../../aspose.email.amp/ampattributes/layout) { get; set; } | AMP 提供了一组布局，用于指定 AMP 组件在文档布局中的行为方式。 |
-| [Media](../../aspose.email.amp/ampattributes/media) { get; set; } | media 的值是一个媒体查询。如果查询不匹配，则不会渲染元素，并且不会获取其资源以及可能的子资源。如果浏览器窗口改变大小或方向，则重新评估媒体查询，并根据新结果隐藏和显示元素。 |
+| [Media](../../aspose.email.amp/ampattributes/media) { get; set; } | media 的值是一个媒体查询。如果查询不匹配，则不会渲染元素，并且不会获取其资源以及可能的子资源。如果浏览器窗口改变大小或方向，则重新评估媒体查询并根据新结果隐藏和显示元素。 |
 | [On](../../aspose.email.amp/ampattributes/on) { get; set; } | on 属性用于在元素上安装事件处理程序。 |
-| [Sizes](../../aspose.email.amp/ampattributes/sizes) { get; set; } | AMP 大小属性的值是一个大小表达式，它根据当前窗口大小选择与媒体查询对应的定义大小。 |
+| [Sizes](../../aspose.email.amp/ampattributes/sizes) { get; set; } | AMP 大小属性的值是一个大小表达式，根据当前窗口大小选择与媒体查询对应的定义大小。 |
 | [Width](../../aspose.email.amp/ampattributes/width) { get; set; } | 元素的宽度。 |
 
 ## 方法

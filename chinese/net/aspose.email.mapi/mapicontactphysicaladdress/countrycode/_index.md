@@ -1,14 +1,14 @@
 ---
 title: CountryCode
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人地址的国家代码部分
+description: 指定联系人地址的国家/地区代码部分
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapicontactphysicaladdress/countrycode/
 ---
 ## MapiContactPhysicalAddress.CountryCode property
 
-指定联系人地址的国家代码部分
+指定联系人地址的国家/地区代码部分
 
 ```csharp
 public string CountryCode { get; set; }

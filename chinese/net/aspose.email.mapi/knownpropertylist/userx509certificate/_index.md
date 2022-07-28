@@ -1,14 +1,14 @@
 ---
 title: UserX509Certificate
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的证书列表 区域MapiMailUser 规范名称PidTagUserX509Certificate 别名PR_USER_X509_CERTIFICATE
+description: 包含邮件用户的证书列表 区域MapiMailUser 规范名称PidTagUserX509Certificate 替代名称PR_USER_X509_CERTIFICATE
 type: docs
 weight: 19190
 url: /zh/net/aspose.email.mapi/knownpropertylist/userx509certificate/
 ---
 ## KnownPropertyList.UserX509Certificate field
 
-包含邮件用户的证书列表。 区域:MapiMailUser 规范名称:PidTagUserX509Certificate 别名:PR_USER_X509_CERTIFICATE
+包含邮件用户的证书列表。 区域：MapiMailUser 规范名称：PidTagUserX509Certificate 替代名称：PR_USER_X509_CERTIFICATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor UserX509Certificate;

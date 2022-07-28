@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/mothervalue/
 ---
 ## AssociatedPersonCategory.MotherValue field
 
-'母亲'类别的字符串值
+“母亲”类别的字符串值
 
 ```csharp
 public const string MotherValue;

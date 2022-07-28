@@ -1,14 +1,14 @@
 ---
 title: JunkThreshold
 second_title: Aspose.Email for .NET API 参考
-description: 指示将传入电子邮件发送到垃圾邮件文件夹的积极程度 区域垃圾邮件 规范名称PidTagJunkThreshold 替代名称PR_JUNK_THRESHOLD
+description: 指示将传入电子邮件发送到垃圾邮件文件夹的积极程度 区域Spam 规范名称PidTagJunkThreshold 备用名称PR_JUNK_THRESHOLD
 type: docs
 weight: 11910
 url: /zh/net/aspose.email.mapi/knownpropertylist/junkthreshold/
 ---
 ## KnownPropertyList.JunkThreshold field
 
-指示将传入电子邮件发送到垃圾邮件文件夹的积极程度。 区域:垃圾邮件 规范名称:PidTagJunkThreshold 替代名称:PR_JUNK_THRESHOLD
+指示将传入电子邮件发送到垃圾邮件文件夹的积极程度。 区域：Spam 规范名称：PidTagJunkThreshold 备用名称：PR_JUNK_THRESHOLD
 
 ```csharp
 public static readonly PidTagPropertyDescriptor JunkThreshold;

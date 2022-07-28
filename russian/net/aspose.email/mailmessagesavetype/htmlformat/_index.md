@@ -1,14 +1,14 @@
 ---
 title: HtmlFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает Html.
+description: Получает HTML.
 type: docs
 weight: 30
 url: /ru/net/aspose.email/mailmessagesavetype/htmlformat/
 ---
 ## MailMessageSaveType.HtmlFormat property
 
-Получает Html.
+Получает HTML.
 
 ```csharp
 public static MailMessageSaveType HtmlFormat { get; }
@@ -16,7 +16,7 @@ public static MailMessageSaveType HtmlFormat { get; }
 
 ### Стоимость имущества
 
-Html.
+HTML.
 
 ### Смотрите также
 

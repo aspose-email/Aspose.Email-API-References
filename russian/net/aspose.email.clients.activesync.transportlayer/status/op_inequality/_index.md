@@ -17,7 +17,7 @@ public static bool operator !=(Status status1, Status status2)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | status1 | Status | Первый объект для сравнения |
-| status2 | Status | Второй объект для сравнения сравните |
+| status2 | Status | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

@@ -18,24 +18,24 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 
 | Имя | Описание |
 | --- | --- |
-| [Attachment](attachment#constructor_3)(string) | Инициализирует новый экземпляр класса[`Attachment`](../attachment). |
-| [Attachment](attachment#constructor)(Stream, ContentType) | Инициализирует новый экземпляр класса[`Attachment`](../attachment). |
-| [Attachment](attachment#constructor_1)(Stream, string) | Инициализирует новый экземпляр класса[`Attachment`](../attachment). |
-| [Attachment](attachment#constructor_4)(string, ContentType) | Инициализирует новый экземпляр класса[`Attachment`](../attachment). |
-| [Attachment](attachment#constructor_5)(string, string) | Инициализирует новый экземпляр класса[`Attachment`](../attachment). |
-| [Attachment](attachment#constructor_2)(Stream, string, string) | Инициализирует новый экземпляр класса[`Attachment`](../attachment). |
+| [Attachment](attachment#constructor_3)(string) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
+| [Attachment](attachment#constructor)(Stream, ContentType) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
+| [Attachment](attachment#constructor_1)(Stream, string) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
+| [Attachment](attachment#constructor_4)(string, ContentType) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
+| [Attachment](attachment#constructor_5)(string, string) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
+| [Attachment](attachment#constructor_2)(Stream, string, string) | Инициализирует новый экземпляр[`Attachment`](../attachment) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [ContentDisposition](../../aspose.email/attachment/contentdisposition) { get; } | Получает заголовок Content-Disposition |
-| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Получает или задает идентификатор содержимого. |
-| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Получает или задает поток содержимого. |
+| [ContentId](../../aspose.email/attachmentbase/contentid) { get; set; } | Получает или задает идентификатор контента. |
+| [ContentStream](../../aspose.email/attachmentbase/contentstream) { get; set; } | Получает или задает поток контента. |
 | [ContentType](../../aspose.email/attachmentbase/contenttype) { get; set; } | Получает или задает тип содержимого. |
 | virtual [Headers](../../aspose.email/attachmentbase/headers) { get; } | Получает коллекцию заголовков вложения. |
 | [IsEmbeddedMessage](../../aspose.email/attachment/isembeddedmessage) { get; } | Получает значение, указывающее, является ли вложение встроенным сообщением. |
-| [IsUri](../../aspose.email/attachment/isuri) { get; } | Получает значение, указывающее, является ли вложение URI-вложением. |
+| [IsUri](../../aspose.email/attachment/isuri) { get; } | Получает значение, указывающее, является ли вложение URI-attachment. |
 | [Name](../../aspose.email/attachment/name) { get; set; } | Получает или задает имя вложения |
 | [NameEncoding](../../aspose.email/attachment/nameencoding) { get; set; } | Получает или задает кодировку имени вложения |
 | [PreferredTextEncoding](../../aspose.email/attachment/preferredtextencoding) { get; set; } | Получает или задает предпочтительную кодировку текста |
@@ -48,7 +48,7 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 | static [CreateAttachmentFromString](../../aspose.email/attachment/createattachmentfromstring#createattachmentfromstring)(string, ContentType) | Создает вложение из строки. |
 | static [CreateAttachmentFromString](../../aspose.email/attachment/createattachmentfromstring#createattachmentfromstring_1)(string, string) | Создает вложение из строки. |
 | static [CreateAttachmentFromString](../../aspose.email/attachment/createattachmentfromstring#createattachmentfromstring_2)(string, string, Encoding, string) | Создает вложение из строки. |
-| [Dispose](../../aspose.email/attachmentbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email/attachmentbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, выпуском или сбросом неуправляемых ресурсов. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Сохраняет указанный поток. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(string) | Сохраняет указанное имя файла. |
 

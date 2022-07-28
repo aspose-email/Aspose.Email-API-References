@@ -20,7 +20,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumb
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -68,11 +68,11 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumbers | IEnumerable`1 | 消息的序列号 |
+| sequenceNumbers | IEnumerable`1 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -95,11 +95,11 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, IEnum
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uids | IEnumerable`1 | 消息的序列号 |
+| uids | IEnumerable`1 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -127,7 +127,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumb
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -154,7 +154,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids,
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -177,12 +177,12 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumbers | IEnumerable`1 | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumbers | IEnumerable`1 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -206,12 +206,12 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uids | IEnumerable`1 | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uids | IEnumerable`1 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

@@ -21,13 +21,13 @@ public bool FolderExists(string parentFolderUri, string folderName)
 
 ### 返回值
 
-` true` 如果指定的文件夹存在于指定的父文件夹中；否则，` false` 。
+`真的`如果指定的文件夹存在于指定的父文件夹中；否则，`错误的`.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或*folderName*是` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或者*folderName*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -49,17 +49,17 @@ public bool FolderExists(string parentFolderUri, string folderName, out Exchange
 | --- | --- | --- |
 | parentFolderUri | String | 父文件夹的 uri。 |
 | folderName | String | 文件夹名称。 |
-| folder | ExchangeFolderInfo& | A[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo)表示找到的文件夹信息（如果文件夹存在）。 |
+| folder | ExchangeFolderInfo& | 一个[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo)表示找到的文件夹信息，如果文件夹存在。 |
 
 ### 返回值
 
-` true` 如果指定的文件夹存在于指定的父文件夹中；否则，` false` 。
+`真的`如果指定的文件夹存在于指定的父文件夹中；否则，`错误的`.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或*folderName*是` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或者*folderName*是`无效的`或者`空的` |
 
 ### 也可以看看
 

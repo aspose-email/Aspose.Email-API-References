@@ -1,14 +1,14 @@
 ---
 title: Exists
 second_title: Aspose.Email for .NET API 参考
-description: 获取搜索表达式 如果提供的属性存在则返回 true
+description: 获取一个搜索表达式 如果提供的属性存在则返回 true
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.exchange/comparisonfieldadapter/exists/
 ---
 ## ComparisonFieldAdapter.Exists method
 
-获取搜索表达式 如果提供的属性存在则返回 true。
+获取一个搜索表达式 ，如果提供的属性存在则返回 true。
 
 ```csharp
 public MailQuery Exists(bool value)
@@ -16,7 +16,7 @@ public MailQuery Exists(bool value)
 
 ### 返回值
 
-A[`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索表达式的对象。
+一个[`MailQuery`](../../../aspose.email.tools.search/mailquery)表示搜索表达式的对象。
 
 ### 也可以看看
 

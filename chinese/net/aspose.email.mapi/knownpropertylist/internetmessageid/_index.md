@@ -1,14 +1,14 @@
 ---
 title: InternetMessageId
 second_title: Aspose.Email for .NET API 参考
-description: 对应于 message-id 字段 区域MIME 属性 规范名称PidTagInternetMessageId 替代名称PR_INTERNET_MESSAGE_IDPR_INTERNET_MESSAGE_ID_APR_INTERNET_MESSAGE_ID_W
+description: 对应于消息 ID 字段 区域MIME 属性 规范名称PidTagInternetMessageId 备用名称PR_INTERNET_MESSAGE_IDPR_INTERNET_MESSAGE_ID_APR_INTERNET_MESSAGE_ID_W
 type: docs
 weight: 11520
 url: /zh/net/aspose.email.mapi/knownpropertylist/internetmessageid/
 ---
 ## KnownPropertyList.InternetMessageId field
 
-对应于 message-id 字段。 区域:MIME 属性 规范名称:PidTagInternetMessageId 替代名称:PR_INTERNET_MESSAGE_ID、PR_INTERNET_MESSAGE_ID_A、PR_INTERNET_MESSAGE_ID_W
+对应于消息 ID 字段。 区域：MIME 属性 规范名称：PidTagInternetMessageId 备用名称：PR_INTERNET_MESSAGE_ID、PR_INTERNET_MESSAGE_ID_A、PR_INTERNET_MESSAGE_ID_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetMessageId;

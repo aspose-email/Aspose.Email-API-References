@@ -1,14 +1,14 @@
 ---
 title: MediaTypeNames.Image
 second_title: Aspose.Email for .NET API 参考
-description: 指定电子邮件附件中的图像数据类型
+description: 指定电子邮件附件中图像数据的类型
 type: docs
-weight: 19160
+weight: 19190
 url: /zh/net/aspose.email.mime/mediatypenames.image/
 ---
 ## MediaTypeNames.Image class
 
-指定电子邮件附件中的图像数据类型。
+指定电子邮件附件中图像数据的类型。
 
 ```csharp
 public sealed class Image
@@ -21,9 +21,9 @@ public sealed class Image
 | const [Bmp](../../aspose.email.mime/image/bmp) | 指定图像/bmp 媒体类型 |
 | const [Gif](../../aspose.email.mime/image/gif) | 指定图像/gif 媒体类型 |
 | const [Jpeg](../../aspose.email.mime/image/jpeg) | 指定图像/jpeg 媒体类型 |
-| const [Png](../../aspose.email.mime/image/png) | 指定图像/png媒体类型 |
+| const [Png](../../aspose.email.mime/image/png) | 指定图像/png 媒体类型 |
 | const [Tiff](../../aspose.email.mime/image/tiff) | 指定图像/tiff 媒体类型 |
-| const [Wmf](../../aspose.email.mime/image/wmf) | 指定 MS windows 图元文件图像/x-wmf |
+| const [Wmf](../../aspose.email.mime/image/wmf) | 指定 MS windows 图元文件 image/x-wmf |
 
 ### 也可以看看
 

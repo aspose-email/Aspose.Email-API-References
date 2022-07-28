@@ -3,7 +3,7 @@ title: VCardSaveOptions
 second_title: Aspose.Email for .NET API 参考
 description: 表示 vCard 保存选项
 type: docs
-weight: 19680
+weight: 19730
 url: /zh/net/aspose.email.personalinfo.vcard/vcardsaveoptions/
 ---
 ## VCardSaveOptions class
@@ -18,9 +18,9 @@ public sealed class VCardSaveOptions : ContactSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardSaveOptions](vcardsaveoptions#constructor)() | 初始化 [`VCardSaveOptions`](../vcardsaveoptions) 类的新实例 |
-| [VCardSaveOptions](vcardsaveoptions#constructor_1)(VCardVersion) | 初始化 [`VCardSaveOptions`](../vcardsaveoptions) 类的新实例 |
-| [VCardSaveOptions](vcardsaveoptions#constructor_2)(VCardVersion, bool) | 初始化 [`VCardSaveOptions`](../vcardsaveoptions) 类的新实例 |
+| [VCardSaveOptions](vcardsaveoptions#constructor)() | 初始化[`VCardSaveOptions`](../vcardsaveoptions) class |
+| [VCardSaveOptions](vcardsaveoptions#constructor_1)(VCardVersion) | 初始化[`VCardSaveOptions`](../vcardsaveoptions) class |
+| [VCardSaveOptions](vcardsaveoptions#constructor_2)(VCardVersion, bool) | 初始化[`VCardSaveOptions`](../vcardsaveoptions) class |
 
 ## 特性
 

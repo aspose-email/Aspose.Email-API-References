@@ -1,14 +1,14 @@
 ---
 title: OneNoteWebUrl
 second_title: Aspose.Email for .NET API 参考
-description: 在 Web 上的只读 OneNote 中打开笔记本
+description: 以只读方式打开笔记本 OneNote 网页版
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.graph/notebooklinks/onenoteweburl/
 ---
 ## NotebookLinks.OneNoteWebUrl property
 
-在 Web 上的只读 OneNote 中打开笔记本。
+以只读方式打开笔记本 OneNote 网页版。
 
 ```csharp
 public string OneNoteWebUrl { get; set; }

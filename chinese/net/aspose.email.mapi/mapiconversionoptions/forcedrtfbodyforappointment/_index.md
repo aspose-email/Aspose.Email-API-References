@@ -1,14 +1,14 @@
 ---
 title: ForcedRtfBodyForAppointment
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值指示是否需要使用强制 RTF 正文进行约会 默认值为真
+description: 获取或设置一个值该值指示是否需要使用强制 RTF 正文进行约会 默认值为 true
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mapi/mapiconversionoptions/forcedrtfbodyforappointment/
 ---
 ## MapiConversionOptions.ForcedRtfBodyForAppointment property
 
-获取或设置一个值，该值指示是否需要使用强制 RTF 正文进行约会。 默认值为真。
+获取或设置一个值，该值指示是否需要使用强制 RTF 正文进行约会。 默认值为 true。
 
 ```csharp
 public bool ForcedRtfBodyForAppointment { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Aspose.Email for .NET API 参考
-description: 初始化ContentTypeaspose.email.mime/contenttype类的新实例
+description: 初始化ContentTypeaspose.email.mime/contenttype类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mime/contenttype/contenttype/
 ---
 ## ContentType() {#constructor}
 
-初始化[`ContentType`](../../contenttype)类的新实例。
+初始化[`ContentType`](../../contenttype)类.
 
 ```csharp
 public ContentType()
@@ -24,7 +24,7 @@ public ContentType()
 
 ## ContentType(string) {#constructor_1}
 
-初始化[`ContentType`](../../contenttype)类的新实例。
+初始化[`ContentType`](../../contenttype)类.
 
 ```csharp
 public ContentType(string contentType)
@@ -32,7 +32,7 @@ public ContentType(string contentType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contentType | String | 内容类型。 |
+| contentType | String | 内容的类型。 |
 
 ### 也可以看看
 

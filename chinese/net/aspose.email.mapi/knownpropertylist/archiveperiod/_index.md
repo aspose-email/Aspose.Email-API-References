@@ -1,14 +1,14 @@
 ---
 title: ArchivePeriod
 second_title: Aspose.Email for .NET API 参考
-description: 指定消息对象可以保持未归档的天数 区域存档 规范名称PidTagArchivePeriod 替代名称PR_ARCHIVE_PERIOD ptagArchivePeriod
+description: 指定消息对象可以保持未归档的天数 区域Archive 规范名称PidTagArchivePeriod 替代名称PR_ARCHIVE_PERIODptagArchivePeriod
 type: docs
 weight: 1410
 url: /zh/net/aspose.email.mapi/knownpropertylist/archiveperiod/
 ---
 ## KnownPropertyList.ArchivePeriod field
 
-指定消息对象可以保持未归档的天数。 区域:存档 规范名称:PidTagArchivePeriod 替代名称:PR_ARCHIVE_PERIOD, ptagArchivePeriod
+指定消息对象可以保持未归档的天数。 区域：Archive 规范名称：PidTagArchivePeriod 替代名称：PR_ARCHIVE_PERIOD、ptagArchivePeriod
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ArchivePeriod;

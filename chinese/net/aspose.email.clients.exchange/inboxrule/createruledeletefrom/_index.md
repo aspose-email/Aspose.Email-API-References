@@ -1,14 +1,14 @@
 ---
 title: CreateRuleDeleteFrom
 second_title: Aspose.Email for .NET API 参考
-description: 创建从指定发件人处删除邮件的收件箱规则
+description: 创建从指定发件人中删除邮件的收件箱规则
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange/inboxrule/createruledeletefrom/
 ---
 ## InboxRule.CreateRuleDeleteFrom method
 
-创建从指定发件人处删除邮件的收件箱规则
+创建从指定发件人中删除邮件的收件箱规则
 
 ```csharp
 public static InboxRule CreateRuleDeleteFrom(MailAddress from)
@@ -16,17 +16,17 @@ public static InboxRule CreateRuleDeleteFrom(MailAddress from)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| from | MailAddress | A[`EmailAddress`](../../../aspose.email.personalinfo/emailaddress)of sender |
+| from | MailAddress | 一个[`EmailAddress`](../../../aspose.email.personalinfo/emailaddress)发件人 |
 
 ### 返回值
 
-已创建InboxRule
+一个创建的[`InboxRule`](../../inboxrule)
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *from*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *from*是`无效的` |
 
 ### 也可以看看
 

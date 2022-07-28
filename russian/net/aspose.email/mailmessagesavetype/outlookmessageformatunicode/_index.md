@@ -16,7 +16,7 @@ public static MailMessageSaveType OutlookMessageFormatUnicode { get; }
 
 ### Стоимость имущества
 
-MSG.
+МСГ.
 
 ### Смотрите также
 

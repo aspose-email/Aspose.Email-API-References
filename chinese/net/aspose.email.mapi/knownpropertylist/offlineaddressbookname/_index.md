@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/offlineaddressbookname/
 ---
 ## KnownPropertyList.OfflineAddressBookName field
 
-包含地址列表的显示名称。 区域:脱机通讯簿属性 规范名称:PidTagOfflineAddressBookName 备用名称:PR_OAB_NAME、PR_OAB_NAME_W
+包含地址列表的显示名称。 区域：脱机通讯簿属性 规范名称：PidTagOfflineAddressBookName 备用名称：PR_OAB_NAME、PR_OAB_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineAddressBookName;

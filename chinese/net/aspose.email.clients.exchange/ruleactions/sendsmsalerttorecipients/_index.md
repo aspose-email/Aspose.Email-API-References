@@ -1,14 +1,14 @@
 ---
 title: SendSMSAlertToRecipients
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置要向其发送短消息服务 SMS 警报的手机号码
+description: 获取或设置要向其发送短信服务 SMS 警报的手机号码
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.exchange/ruleactions/sendsmsalerttorecipients/
 ---
 ## RuleActions.SendSMSAlertToRecipients property
 
-获取或设置要向其发送短消息服务 (SMS) 警报的手机号码。
+获取或设置要向其发送短信服务 (SMS) 警报的手机号码。
 
 ```csharp
 public MailAddressCollection SendSMSAlertToRecipients { get; set; }

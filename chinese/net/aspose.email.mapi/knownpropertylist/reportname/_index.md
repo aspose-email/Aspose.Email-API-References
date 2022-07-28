@@ -1,14 +1,14 @@
 ---
 title: ReportName
 second_title: Aspose.Email for .NET API 参考
-description: 包含生成报告消息的实体通常是服务器代理的显示名称 区域MapiEnvelope 规范名称PidTagReportName 替代名称PR_REPORT_NAME PR_REPORT_NAME_A PR_REPORT_NAME_W
+description: 包含生成报告消息的实体通常是服务器代理的显示名称 区域MapiEnvelope 规范名称PidTagReportName 替代名称PR_REPORT_NAMEPR_REPORT_NAME_APR_REPORT_NAME_W
 type: docs
 weight: 16060
 url: /zh/net/aspose.email.mapi/knownpropertylist/reportname/
 ---
 ## KnownPropertyList.ReportName field
 
-包含生成报告消息的实体（通常是服务器代理）的显示名称。 区域:MapiEnvelope 规范名称:PidTagReportName 替代名称:PR_REPORT_NAME, PR_REPORT_NAME_A, PR_REPORT_NAME_W
+包含生成报告消息的实体（通常是服务器代理）的显示名称。 区域：MapiEnvelope 规范名称：PidTagReportName 替代名称：PR_REPORT_NAME、PR_REPORT_NAME_A、PR_REPORT_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportName;

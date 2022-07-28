@@ -1,14 +1,14 @@
 ---
 title: EmsAbObjViewContainers
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_EMS_AB_OBJ_VIEW_CONTAINERS
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_OBJ_VIEW_CONTAINERS
 type: docs
 weight: 7780
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabobjviewcontainers/
 ---
 ## KnownPropertyList.EmsAbObjViewContainers field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_EMS_AB_OBJ_VIEW_CONTAINERS
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_OBJ_VIEW_CONTAINERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbObjViewContainers;

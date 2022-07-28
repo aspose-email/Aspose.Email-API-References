@@ -1,14 +1,14 @@
 ---
 title: Recurrence
 second_title: Справочник по Aspose.Email для .NET API
-description: Повторяющийся заголовок.
+description: Заголовок повторения.
 type: docs
 weight: 130
 url: /ru/net/aspose.email/mhttemplatename/recurrence/
 ---
 ## MhtTemplateName.Recurrence field
 
-Повторяющийся заголовок.
+Заголовок повторения.
 
 ```csharp
 public const string Recurrence;

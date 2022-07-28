@@ -1,14 +1,14 @@
 ---
 title: AllowInternetSharing
 second_title: Aspose.Email for .NET API 参考
-description: 指定设备是否允许使用 Internet 共享 如果客户端不支持与其他设备共享其互联网连接则应忽略此属性
+description: 指定设备是否允许使用 Internet 共享 如果客户端不支持与其他设备共享其 Internet 连接则应忽略此属性
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowinternetsharing/
 ---
 ## EASProvisionDoc.AllowInternetSharing property
 
-指定设备是否允许使用 Internet 共享。 如果客户端不支持与其他设备共享其互联网连接，则应忽略此属性。
+指定设备是否允许使用 Internet 共享。 如果客户端不支持与其他设备共享其 Internet 连接，则应忽略此属性。
 
 ```csharp
 public bool? AllowInternetSharing { get; set; }

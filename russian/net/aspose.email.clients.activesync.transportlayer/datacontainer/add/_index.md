@@ -65,7 +65,7 @@ public DataContainer Add(int element, Namespace ns)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | element | Int32 | Имя элемента |
-| ns | Namespace | NameSpace элемента element |
+| ns | Namespace | NameSpace элемента |
 
 ### Возвращаемое значение
 
@@ -92,7 +92,7 @@ public DataContainer Add(int element, string value, Namespace ns)
 | --- | --- | --- |
 | element | Int32 | Имя элемента, данные которого содержатся в контейнере данных. |
 | value | String | Значение элемента |
-| ns | Namespace | NameSpace элемента, данные которого содержатся в контейнер данных. |
+| ns | Namespace | NameSpace элемента, данные которого содержатся в контейнере данных. |
 
 ### Возвращаемое значение
 

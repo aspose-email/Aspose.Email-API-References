@@ -1,14 +1,14 @@
 ---
 title: ICalendarDayOfWeekMask
 second_title: Aspose.Email for .NET API 参考
-description: 标识约会或会议的星期几 区域日历 规范名称PidLidICalendarDayOfWeekMask 备用名称http//schemas.microsoft.com/mapi/dayofweekmask
+description: 标识约会或会议的星期几 区域Calendar 规范名称PidLidICalendarDayOfWeekMask 替代名称http//schemas.microsoft.com/mapi/dayofweekmask
 type: docs
 weight: 11140
 url: /zh/net/aspose.email.mapi/knownpropertylist/icalendardayofweekmask/
 ---
 ## KnownPropertyList.ICalendarDayOfWeekMask field
 
-标识约会或会议的星期几。 区域：日历 规范名称：PidLidICalendarDayOfWeekMask 备用名称：http://schemas.microsoft.com/mapi/dayofweekmask
+标识约会或会议的星期几。 区域：Calendar 规范名称：PidLidICalendarDayOfWeekMask 替代名称：http://schemas.microsoft.com/mapi/dayofweekmask
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ICalendarDayOfWeekMask;

@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置图像数据 null ifvalueLocationis not inline 
+description: 获取或设置图像数据无效的如果valueLocation不是排队
 type: docs
 weight: 20
 url: /zh/net/aspose.email.personalinfo.vcard/vcardphoto/data/
 ---
 ## VCardPhoto.Data property
 
-获取或设置图像数据（` null` ifvalueLocationis not` inline` )
+获取或设置图像数据（`无效的`如果valueLocation不是`排队`)
 
 ```csharp
 public byte[] Data { get; set; }

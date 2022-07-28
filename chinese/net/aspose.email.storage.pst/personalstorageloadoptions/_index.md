@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: Aspose.Email for .NET API 参考
 description: 指定加载 PST 存储时的附加选项
 type: docs
-weight: 20250
+weight: 20300
 url: /zh/net/aspose.email.storage.pst/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions class
@@ -24,8 +24,8 @@ public class PersonalStorageLoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LeaveStreamOpen](../../aspose.email.storage.pst/personalstorageloadoptions/leavestreamopen) { get; set; } | 释放 PersonalStorage 时保持流打开。当使用[`FromFile`](../personalstorage/fromfile)方法时，应该始终为 false。 |
-| [Writable](../../aspose.email.storage.pst/personalstorageloadoptions/writable) { get; set; } | 获取或设置一个指示 pst 是否可写的值。 |
+| [LeaveStreamOpen](../../aspose.email.storage.pst/personalstorageloadoptions/leavestreamopen) { get; set; } | 释放 PersonalStorage 时让流保持打开状态。应该总是假的[`FromFile`](../personalstorage/fromfile)使用方法。 |
+| [Writable](../../aspose.email.storage.pst/personalstorageloadoptions/writable) { get; set; } | 获取或设置一个指示pst是否可写的值。 |
 
 ### 也可以看看
 

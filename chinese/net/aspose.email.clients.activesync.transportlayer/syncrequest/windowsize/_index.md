@@ -1,14 +1,14 @@
 ---
 title: WindowSize
 second_title: Aspose.Email for .NET API 参考
-description: 指定集合或请求中应包含在同步响应中的更改项目的最大数量 WindowSize 的最大值是 512但是如果 WindowSize 设置为 512则服务器可以发送包含少于 512 个更新的同步响应消息 如果服务器没有在单个消息中发送所有更新则 Sync 响应消息包含 MoreAvailable这表明服务器上还有其他更新要下载到客户端 WindowSize 仅出现在从客户端发送到服务器的请求中 如果省略 WindowSize则服务器的行为就像提交了值为 100 的 WindowSize 元素一样 服务器将值 0零和高于 512 的值解释为 512
+description: 指定集合或请求中应包含在同步响应中的更改项目的最大数量 WindowSize 的最大值为 512但是如果 WindowSize 设置为 512则服务器可以发送同步响应消息包含少于 512 个更新 如果服务器没有在单个消息中发送所有更新则同步响应消息包含 MoreAvailable这表明服务器上有其他更新要下载到客户端 WindowSize 仅出现在发送的请求中从客户端到服务器 如果省略 WindowSize则服务器的行为就像提交了值为 100 的 WindowSize 元素一样 服务器将值 0零和高于 512 的值解释为 512.
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.activesync.transportlayer/syncrequest/windowsize/
 ---
 ## SyncRequest.WindowSize property
 
-指定集合或请求中应包含在同步响应中的更改项目的最大数量。 WindowSize 的最大值是 512。但是，如果 WindowSize 设置为 512，则服务器可以发送包含少于 512 个更新的同步响应消息。 如果服务器没有在单个消息中发送所有更新，则 Sync 响应消息包含 MoreAvailable，这表明服务器上还有其他更新要下载到客户端。 WindowSize 仅出现在从客户端发送到服务器的请求中。 如果省略 WindowSize，则服务器的行为就像提交了值为 100 的 WindowSize 元素一样。 服务器将值 0（零）和高于 512 的值解释为 512。
+指定集合或请求中应包含在同步响应中的更改项目的最大数量。 WindowSize 的最大值为 512。但是，如果 WindowSize 设置为 512，则服务器可以发送同步响应消息包含少于 512 个更新。 如果服务器没有在单个消息中发送所有更新，则同步响应消息包含 MoreAvailable，这表明服务器上有其他更新要下载到客户端。 WindowSize 仅出现在发送的请求中从客户端到服务器。 如果省略 WindowSize，则服务器的行为就像提交了值为 100 的 WindowSize 元素一样。 服务器将值 0（零）和高于 512 的值解释为 512.
 
 ```csharp
 public int? WindowSize { get; set; }

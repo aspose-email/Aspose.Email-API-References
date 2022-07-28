@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API 参考
-description: Data 元素的内容是一个字符串其格式由 Type 属性指定 如果 Type 的值为 RTF则 Data 元素的值使用 base64 编码进行编码 如果Truncated 属性设置为true则Data 元素中的数据将被截断 EstimatedDataSize 属性提供对数据字符串完整内容的实际大小的粗略估计
+description: Data 元素的内容是一个字符串其格式由 Type 属性指定 如果 Type 的值为 RTF则使用 base64 编码对 Data 元素的值进行编码 如果 Truncated 属性设置为 true则截断 Data 元素中的数据 EstimatedDataSize 属性提供对数据字符串完整内容的实际大小的粗略估计
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/body/data/
 ---
 ## Body.Data property
 
-Data 元素的内容是一个字符串，其格式由 Type 属性指定。 如果 Type 的值为 RTF，则 Data 元素的值使用 base64 编码进行编码。 如果Truncated 属性设置为true，则Data 元素中的数据将被截断。 EstimatedDataSize 属性提供对数据字符串完整内容的实际大小的粗略估计。
+Data 元素的内容是一个字符串，其格式由 Type 属性指定。 如果 Type 的值为 RTF，则使用 base64 编码对 Data 元素的值进行编码。 如果 Truncated 属性设置为 true，则截断 Data 元素中的数据。 EstimatedDataSize 属性提供对数据字符串完整内容的实际大小的粗略估计。
 
 ```csharp
 public string Data { get; set; }

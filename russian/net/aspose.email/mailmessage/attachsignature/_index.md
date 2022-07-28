@@ -1,14 +1,14 @@
 ---
 title: AttachSignature
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает подписанное сообщение. Создает доступную только для чтения копию указанного MailMessage и добавляет к ней цифровую подпись.
+description: Создает подписанное сообщение. Создает доступную только для чтения копию указанного сообщения MailMessage и добавляет к нему цифровую подпись.
 type: docs
 weight: 390
 url: /ru/net/aspose.email/mailmessage/attachsignature/
 ---
 ## AttachSignature(X509Certificate2, bool) {#attachsignature_3}
 
-Создает подписанное сообщение. Создает доступную только для чтения копию указанного MailMessage и добавляет к ней цифровую подпись.
+Создает подписанное сообщение. Создает доступную только для чтения копию указанного сообщения MailMessage и добавляет к нему цифровую подпись.
 
 ```csharp
 public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool detached)
@@ -16,8 +16,8 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool de
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сертификат | X509Certificate2 | Сертификат X.509. |
-| detached | Boolean | .Если значение detached равно true, подпись отсоединяется. Если значение detached равно false (по умолчанию), подпись не отделяется. |
+| certificate | X509Certificate2 | сертификат Х.509. |
+| detached | Boolean | .Если detached имеет значение true, подпись отсоединяется. Если detached имеет значение false (по умолчанию), подпись не отсоединяется. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool de
 
 ## AttachSignature(CmsSigner, bool) {#attachsignature_1}
 
-Создает подписанное сообщение. Создает доступную только для чтения копию указанного MailMessage и добавляет к ней цифровую подпись.
+Создает подписанное сообщение. Создает доступную только для чтения копию указанного сообщения MailMessage и добавляет к нему цифровую подпись.
 
 ```csharp
 public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
@@ -37,8 +37,8 @@ public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
-| detached | Boolean | .Если значение detached равно true, подпись отсоединяется. Если значение detached равно false (по умолчанию), подпись не отделяется. |
+| signer | CmsSigner | Система.Безопасность.Криптография.Pkcs.CmsSigner. |
+| detached | Boolean | .Если detached имеет значение true, подпись отсоединяется. Если detached имеет значение false (по умолчанию), подпись не отсоединяется. |
 
 ### Возвращаемое значение
 
@@ -54,7 +54,7 @@ public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
 
 ## AttachSignature(X509Certificate2) {#attachsignature_2}
 
-Создает подписанное сообщение. Создает доступную только для чтения копию указанного MailMessage и добавляет к ней цифровую подпись.
+Создает подписанное сообщение. Создает доступную только для чтения копию указанного сообщения MailMessage и добавляет к нему цифровую подпись.
 
 ```csharp
 public virtual MailMessage AttachSignature(X509Certificate2 certificate)
@@ -62,7 +62,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сертификат | X509Certificate2 | Сертификат X.509. |
+| certificate | X509Certificate2 | сертификат Х.509. |
 
 ### Возвращаемое значение
 
@@ -78,7 +78,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate)
 
 ## AttachSignature(CmsSigner) {#attachsignature}
 
-Создает подписанное сообщение. Создает доступную только для чтения копию указанного MailMessage и добавляет к ней цифровую подпись.
+Создает подписанное сообщение. Создает доступную только для чтения копию указанного сообщения MailMessage и добавляет к нему цифровую подпись.
 
 ```csharp
 public virtual MailMessage AttachSignature(CmsSigner signer)
@@ -86,7 +86,7 @@ public virtual MailMessage AttachSignature(CmsSigner signer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
+| signer | CmsSigner | Система.Безопасность.Криптография.Pkcs.CmsSigner. |
 
 ### Возвращаемое значение
 

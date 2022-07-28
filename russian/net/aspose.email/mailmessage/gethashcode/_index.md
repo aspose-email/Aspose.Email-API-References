@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает хеш-код для объекта
+description: Возвращает хэш-код для object
 type: docs
 weight: 490
 url: /ru/net/aspose.email/mailmessage/gethashcode/
 ---
 ## MailMessage.GetHashCode method
 
-Возвращает хеш-код для объекта
+Возвращает хэш-код для object
 
 ```csharp
 public override int GetHashCode()

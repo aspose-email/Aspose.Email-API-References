@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoDelegatorWantsInfo
 second_title: Aspose.Email for .NET API 参考
-description: 指示委托人是否希望接收信息更新 区域忙/闲属性 规范名称PidTagScheduleInfoDelegatorWantsInfo 别名PR_SCHDINFO_BOSS_WANTS_INFO
+description: 指示委托人是否希望接收信息更新 区域空闲/忙碌属性 规范名称PidTagScheduleInfoDelegatorWantsInfo 替代名称PR_SCHDINFO_BOSS_WANTS_INFO
 type: docs
 weight: 16770
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfodelegatorwantsinfo/
 ---
 ## KnownPropertyList.ScheduleInfoDelegatorWantsInfo field
 
-指示委托人是否希望接收信息更新。 区域:忙/闲属性 规范名称:PidTagScheduleInfoDelegatorWantsInfo 别名:PR_SCHDINFO_BOSS_WANTS_INFO
+指示委托人是否希望接收信息更新。 区域：空闲/忙碌属性 规范名称：PidTagScheduleInfoDelegatorWantsInfo 替代名称：PR_SCHDINFO_BOSS_WANTS_INFO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDelegatorWantsInfo;

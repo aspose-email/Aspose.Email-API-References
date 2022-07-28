@@ -16,7 +16,7 @@ public static AppointmentFormattingOptions CreateAsHtml()
 
 ### Возвращаемое значение
 
-[`AppointmentFormattingOptions`](../../appointmentformattingoptions)который представляет параметры форматирования встречи.
+[`AppointmentFormattingOptions`](../../appointmentformattingoptions) который представляет параметры форматирования встречи.
 
 ### Смотрите также
 

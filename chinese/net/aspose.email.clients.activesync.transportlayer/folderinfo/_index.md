@@ -26,7 +26,7 @@ public class FolderInfo
 | --- | --- |
 | [DisplayName](../../aspose.email.clients.activesync.transportlayer/folderinfo/displayname) { get; } | 指定文件夹的用户友好名称。 |
 | [ParentId](../../aspose.email.clients.activesync.transportlayer/folderinfo/parentid) { get; } | 指定服务器上文件夹的父文件夹的服务器ID |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/folderinfo/serverid) { get; } | 指定服务器上文件夹的服务器ID |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/folderinfo/serverid) { get; } | 指定服务器上文件夹的服务器 ID |
 | [Type](../../aspose.email.clients.activesync.transportlayer/folderinfo/type) { get; } | 指定文件夹的类型。 |
 
 ## 方法

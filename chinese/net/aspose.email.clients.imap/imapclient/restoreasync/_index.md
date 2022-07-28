@@ -21,7 +21,7 @@ public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings, Cancella
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

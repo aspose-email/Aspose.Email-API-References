@@ -1,14 +1,14 @@
 ---
 title: ProfileType
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROFILE_TYPE
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_PROFILE_TYPE
 type: docs
 weight: 14910
 url: /zh/net/aspose.email.mapi/knownpropertylist/profiletype/
 ---
 ## KnownPropertyList.ProfileType field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROFILE_TYPE
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_PROFILE_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileType;

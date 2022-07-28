@@ -3,7 +3,7 @@ title: StandardIpmFolder
 second_title: Aspose.Email for .NET API 参考
 description: 表示标准的人际消息 IPM 文件夹
 type: docs
-weight: 20300
+weight: 20350
 url: /zh/net/aspose.email.storage.pst/standardipmfolder/
 ---
 ## StandardIpmFolder enumeration
@@ -19,9 +19,9 @@ public enum StandardIpmFolder
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Inbox | `0` | 收件箱文件夹。 |
-| DeletedItems | `1` | 已删除邮件文件夹。 客户端应用程序将已删除消息 移动到已删除邮件文件夹。 |
-| Outbox | `2` | 发件箱文件夹。 出站邮件是 通常在发件箱文件夹中创建。 |
-| SentItems | `3` | 已发送邮件文件夹。 发送后，消息 通常放置在“已发送邮件”文件夹中。 |
+| DeletedItems | `1` | 已删除邮件文件夹。 客户端应用程序将已删除邮件 移动到已删除邮件文件夹。 |
+| Outbox | `2` | 发件箱文件夹。 出站邮件 通常在发件箱文件夹中创建。 |
+| SentItems | `3` | 已发送邮件文件夹。 发送后，邮件 通常放在已发送邮件文件夹中。 |
 | Appointments | `4` | Outlook 日历文件夹。 |
 | Contacts | `5` | Outlook 联系人文件夹。 |
 | Drafts | `6` | Outlook 草稿文件夹。 |
@@ -30,7 +30,7 @@ public enum StandardIpmFolder
 | Tasks | `9` | Outlook 任务文件夹。 |
 | SyncIssues | `10` | 同步问题文件夹 |
 | JunkEmail | `11` | 垃圾邮件文件夹 |
-| Unspecified | `12` | 未指定值。 |
+| Unspecified | `12` | 未指定的值。 |
 
 ### 也可以看看
 

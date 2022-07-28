@@ -1,14 +1,14 @@
 ---
 title: SocksProxy
 second_title: Справочник по Aspose.Email для .NET API
-description: SOCKS-прокси-клиент. Поддерживаемые версии протоколаSOCKS4 и SOCKS5.
+description: Прокси-клиент SOCKS. Поддерживаемые версии протокола SOCKS4 и SOCKS5.
 type: docs
 weight: 17100
 url: /ru/net/aspose.email.clients/socksproxy/
 ---
 ## SocksProxy class
 
-SOCKS-прокси-клиент. Поддерживаемые версии протокола:SOCKS4 и SOCKS5.
+Прокси-клиент SOCKS. Поддерживаемые версии протокола: SOCKS4 и SOCKS5.
 
 ```csharp
 public class SocksProxy : Proxy
@@ -18,27 +18,27 @@ public class SocksProxy : Proxy
 
 | Имя | Описание |
 | --- | --- |
-| [SocksProxy](socksproxy#constructor)(string, int) | Инициализирует новый экземпляр класса[`SocksProxy`](../socksproxy)для подключения к серверу SOCKS4 без аутентификации. |
-| [SocksProxy](socksproxy#constructor_1)(string, int, SocksVersion) | Инициализирует новый экземпляр класса[`SocksProxy`](../socksproxy)для подключения к серверу SOCKS4 или SOCKS5 без аутентификации. |
-| [SocksProxy](socksproxy#constructor_2)(string, int, string) | Инициализирует новый экземпляр класса[`SocksProxy`](../socksproxy)для подключения к серверу SOCKS4 без аутентификации. |
-| [SocksProxy](socksproxy#constructor_3)(string, int, string, string) | Инициализирует новый экземпляр класса[`SocksProxy`](../socksproxy)для подключения к серверу SOCKS5 с определенным именем пользователя и паролем. |
+| [SocksProxy](socksproxy#constructor)(string, int) | Инициализирует новый экземпляр[`SocksProxy`](../socksproxy) класс для подключения к серверу SOCKS4 без аутентификации. |
+| [SocksProxy](socksproxy#constructor_1)(string, int, SocksVersion) | Инициализирует новый экземпляр[`SocksProxy`](../socksproxy) класс для подключения к серверу SOCKS4 или SOCKS5 без аутентификации. |
+| [SocksProxy](socksproxy#constructor_2)(string, int, string) | Инициализирует новый экземпляр[`SocksProxy`](../socksproxy) класс для подключения к серверу SOCKS4 без аутентификации. |
+| [SocksProxy](socksproxy#constructor_3)(string, int, string, string) | Инициализирует новый экземпляр[`SocksProxy`](../socksproxy) класс для подключения к серверу SOCKS5 с определенным именем пользователя и паролем. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Address](../../aspose.email.clients/proxy/address) { get; set; } | Имя домена или IP-адрес прокси-сервера |
+| [Address](../../aspose.email.clients/proxy/address) { get; set; } | Доменное имя или IP-адрес прокси-сервера |
 | [Password](../../aspose.email.clients/proxy/password) { get; set; } | Пароль для аутентификации прокси |
 | [Port](../../aspose.email.clients/proxy/port) { get; set; } | Номер порта прокси-сервера |
 | [SupportedAuthenticationMethods](../../aspose.email.clients/socksproxy/supportedauthenticationmethods) { get; set; } | Поддерживаемые методы аутентификации для подключения к серверу SOCKS |
-| [Username](../../aspose.email.clients/proxy/username) { get; set; } | Имя пользователя для аутентификации прокси |
+| [Username](../../aspose.email.clients/proxy/username) { get; set; } | Имя пользователя для прокси-аутентификации |
 | [Version](../../aspose.email.clients/socksproxy/version) { get; set; } | Требуемая версия сервера SOCKS. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Dispose](../../aspose.email.clients/proxy/dispose)() | Удаляет этот экземпляр и запрашивает закрытие базового TCP-соединения. |
+| virtual [Dispose](../../aspose.email.clients/proxy/dispose)() | Удаляет этот экземпляр и запрашивает закрытие базового соединения TCP. |
 | [GetStream](../../aspose.email.clients/proxy/getstream)(string, int) | Возвращает настроенный сетевой поток для передачи данных на требуемый узел через прокси-сервер. |
 | override [SetUpStream](../../aspose.email.clients/socksproxy/setupstream)(Stream, string, int) | Настраивает прокси-сервер для передачи данных на целевой хост. |
 

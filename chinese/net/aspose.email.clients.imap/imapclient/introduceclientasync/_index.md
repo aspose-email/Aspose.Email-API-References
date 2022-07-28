@@ -16,7 +16,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync()
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection)
 
 ### 返回值
 
-任务对象，带委托对于这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -64,11 +64,11 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| clientIdentificationInfo | ImapIdentificationInfo | 客户端识别信息 |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户身份信息 |
 
 ### 返回值
 
-任务对象，委托为这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -91,11 +91,11 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| clientIdentificationInfo | ImapIdentificationInfo | 客户端识别信息 |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户身份信息 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -121,7 +121,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(CancellationToken token
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -144,11 +144,11 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| token | CancellationToken | 传播通知应取消操作。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -171,12 +171,12 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| clientIdentificationInfo | ImapIdentificationInfo | 客户端标识信息 |
-| token | CancellationToken | 传播操作通知应该取消。 |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户身份信息 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -199,12 +199,12 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| clientIdentificationInfo | ImapIdentificationInfo | 客户端识别信息 |
+| clientIdentificationInfo | ImapIdentificationInfo | 客户身份信息 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

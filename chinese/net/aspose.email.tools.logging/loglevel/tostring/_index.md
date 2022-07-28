@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API 参考
-description: 返回日志级别的字符串表示
+description: 返回日志级别的字符串表示形式
 type: docs
 weight: 80
 url: /zh/net/aspose.email.tools.logging/loglevel/tostring/
 ---
 ## LogLevel.ToString method
 
-返回日志级别的字符串表示。
+返回日志级别的字符串表示形式。
 
 ```csharp
 public override string ToString()

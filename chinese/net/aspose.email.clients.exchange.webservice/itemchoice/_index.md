@@ -20,7 +20,7 @@ public enum ItemChoice
 | --- | --- | --- |
 | PrimarySmtpAddress | `0` | 指定帐户的主要简单邮件传输协议 (SMTP) 地址应用于 Exchange 模拟。 |
 | PrincipalName | `1` | 指定帐户的用户主体名称 (UPN) 应用于 Exchange 模拟。 |
-| SID | `2` | 指定帐户的安全标识符 (SID) 的安全描述符定义语言 (SDDL) 形式应用于 Exchange 模拟。 |
+| SID | `2` | 指定应将帐户的安全标识符 (SID) 的安全描述符定义语言 (SDDL) 形式用于 Exchange 模拟。 |
 | SmtpAddress | `3` | 指定帐户的简单邮件传输协议 (SMTP) 地址应用于 Exchange 模拟。 |
 
 ### 也可以看看

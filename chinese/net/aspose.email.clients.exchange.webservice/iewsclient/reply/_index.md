@@ -16,8 +16,8 @@ public void Reply(MailMessage message, ExchangeMessageInfo referencedMessage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | [`MailMessage`](../../../aspose.email/mailmessage)表示预先编写的回复消息。 |
-| referencedMessage | ExchangeMessageInfo | [`ExchangeMessageInfo`](../../../aspose.email.clients.exchange/exchangemessageinfo)表示原始消息。 |
+| message | MailMessage | 这[`MailMessage`](../../../aspose.email/mailmessage)表示预先编写的回复消息。 |
+| referencedMessage | ExchangeMessageInfo | 这[`ExchangeMessageInfo`](../../../aspose.email.clients.exchange/exchangemessageinfo)代表原始消息。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: OriginalSentRepresentingSearchKey
 second_title: Aspose.Email for .NET API 参考
-description: 标识包含原始消息发送者所代表的最终用户的 SearchKey 的地址簿搜索键 区域常规消息属性 规范名称PidTagOriginalSentRepresentingSearchKey 替代名称PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY ptagOriginalSentRepresentingSearchKey
+description: 标识一个地址簿搜索键其中包含由原始消息发送者表示的最终用户的 SearchKey 区域常规消息属性 规范名称PidTagOriginalSentRepresentingSearchKey 替代名称PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEYptagOriginalSentRepresentingSearchKey
 type: docs
 weight: 13760
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalsentrepresentingsearchkey/
 ---
 ## KnownPropertyList.OriginalSentRepresentingSearchKey field
 
-标识包含原始消息发送者所代表的最终用户的 SearchKey 的地址簿搜索键。 区域:常规消息属性 规范名称:PidTagOriginalSentRepresentingSearchKey 替代名称:PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY, ptagOriginalSentRepresentingSearchKey
+标识一个地址簿搜索键，其中包含由原始消息发送者表示的最终用户的 SearchKey。 区域：常规消息属性 规范名称：PidTagOriginalSentRepresentingSearchKey 替代名称：PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY、ptagOriginalSentRepresentingSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSentRepresentingSearchKey;

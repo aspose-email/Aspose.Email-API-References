@@ -1,14 +1,14 @@
 ---
 title: GetUserSettingsResponseCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示对 GetUserSettings
+description: 表示对 GetUserSettings 的响应集合
 type: docs
 weight: 3480
 url: /zh/net/aspose.email.clients.exchange/getusersettingsresponsecollection/
 ---
 ## GetUserSettingsResponseCollection class
 
-表示对 GetUserSettings
+表示对 GetUserSettings 的响应集合
 
 ```csharp
 public sealed class GetUserSettingsResponseCollection : 

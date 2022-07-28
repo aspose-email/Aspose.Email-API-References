@@ -3,7 +3,7 @@ title: BackupOptions
 second_title: Aspose.Email for .NET API 参考
 description: 枚举备份选项
 type: docs
-weight: 20080
+weight: 20130
 url: /zh/net/aspose.email.storage.pst/backupoptions/
 ---
 ## BackupOptions enumeration
@@ -19,7 +19,7 @@ public enum BackupOptions
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示没有指定具体选项 |
+| None | `0` | 表示未指定特定选项 |
 | Recursive | `1` | 表示嵌套文件夹也应该备份 |
 
 ### 也可以看看

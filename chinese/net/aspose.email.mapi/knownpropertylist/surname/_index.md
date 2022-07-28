@@ -1,14 +1,14 @@
 ---
 title: Surname
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的姓氏 区域MapiMailUser 规范名称PidTagSurname 备用名称PR_SURNAMEPR_SURNAME_APR_SURNAME_Wurnschemascontactssn
+description: 包含邮件用户的姓氏 区域MapiMailUser 规范名称PidTagSurname 替代名称PR_SURNAMEPR_SURNAME_APR_SURNAME_Wurnschemascontactssn
 type: docs
 weight: 18410
 url: /zh/net/aspose.email.mapi/knownpropertylist/surname/
 ---
 ## KnownPropertyList.Surname field
 
-包含邮件用户的姓氏。 区域：MapiMailUser 规范名称：PidTagSurname 备用名称：PR_SURNAME、PR_SURNAME_A、PR_SURNAME_W、urn:schemas:contacts:sn
+包含邮件用户的姓氏。 区域：MapiMailUser 规范名称：PidTagSurname 替代名称：PR_SURNAME、PR_SURNAME_A、PR_SURNAME_W、urn:schemas:contacts:sn
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Surname;

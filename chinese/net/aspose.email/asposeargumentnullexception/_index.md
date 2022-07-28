@@ -18,12 +18,12 @@ public class AsposeArgumentNullException : AsposeArgumentException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor)() | 初始化[`AsposeArgumentNullException`](../asposeargumentnullexception)类的新实例。 |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_1)(Exception) | 使用对内部的引用初始化[`AsposeArgumentNullException`](../asposeargumentnullexception)类 的新实例异常是导致此异常的原因。 |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_2)(string) | 使用指定的错误消息初始化[`AsposeArgumentNullException`](../asposeargumentnullexception)类的新实例。 |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_3)(string, Exception) | 使用指定的错误消息初始化[`AsposeException`](../asposeexception)类 的新实例和对导致此异常的内部异常的引用。 |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_4)(string, params object[]) | 使用指定的错误消息初始化[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)类的新实例。 |
-| [AsposeArgumentNullException](asposeargumentnullexception#constructor_5)(string, string) | 使用指定的错误消息初始化[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)类的新实例。 |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor)() | 初始化[`AsposeArgumentNullException`](../asposeargumentnullexception)类. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_1)(Exception) | 初始化[`AsposeArgumentNullException`](../asposeargumentnullexception)类 引用了导致此异常的内部异常。 |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_2)(string) | 初始化[`AsposeArgumentNullException`](../asposeargumentnullexception)具有指定错误消息的类。 |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_3)(string, Exception) | 初始化[`AsposeException`](../asposeexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。 |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_4)(string, params object[]) | 初始化[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)具有指定错误消息的类。 |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_5)(string, string) | 初始化[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)具有指定错误消息的类。 |
 
 ## 特性
 

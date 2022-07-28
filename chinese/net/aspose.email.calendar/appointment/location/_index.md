@@ -3,7 +3,7 @@ title: Location
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置位置
 type: docs
-weight: 130
+weight: 140
 url: /zh/net/aspose.email.calendar/appointment/location/
 ---
 ## Appointment.Location property

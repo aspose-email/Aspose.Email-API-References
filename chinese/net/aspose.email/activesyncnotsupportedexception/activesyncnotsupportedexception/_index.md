@@ -1,14 +1,14 @@
 ---
 title: ActiveSyncNotSupportedException
 second_title: Aspose.Email for .NET API 参考
-description: 使用指定的错误消息初始化ActiveSyncNotSupportedExceptionaspose.email/activesyncnotsupportedexception类的新实例
+description: 初始化ActiveSyncNotSupportedExceptionaspose.email/activesyncnotsupportedexception具有指定错误消息的类
 type: docs
 weight: 10
 url: /zh/net/aspose.email/activesyncnotsupportedexception/activesyncnotsupportedexception/
 ---
 ## ActiveSyncNotSupportedException(string) {#constructor_2}
 
-使用指定的错误消息初始化[`ActiveSyncNotSupportedException`](../../activesyncnotsupportedexception)类的新实例。
+初始化[`ActiveSyncNotSupportedException`](../../activesyncnotsupportedexception)具有指定错误消息的类。
 
 ```csharp
 public ActiveSyncNotSupportedException(string message)
@@ -28,7 +28,7 @@ public ActiveSyncNotSupportedException(string message)
 
 ## ActiveSyncNotSupportedException() {#constructor}
 
-初始化[`ActiveSyncNotSupportedException`](../../activesyncnotsupportedexception)类的新实例。
+初始化[`ActiveSyncNotSupportedException`](../../activesyncnotsupportedexception)类.
 
 ```csharp
 public ActiveSyncNotSupportedException()
@@ -44,7 +44,7 @@ public ActiveSyncNotSupportedException()
 
 ## ActiveSyncNotSupportedException(string, Exception) {#constructor_3}
 
-使用指定的错误消息初始化[`ActiveSyncNotSupportedException`](../../activesyncnotsupportedexception)类 的新实例和对导致此异常的内部异常的引用。
+初始化[`ActiveSyncNotSupportedException`](../../activesyncnotsupportedexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。
 
 ```csharp
 public ActiveSyncNotSupportedException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public ActiveSyncNotSupportedException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 解释异常原因的错误消息。 |
-| innerException | Exception | 导致当前异常的异常，如果没有内部异常，则为空引用（在 Visual Basic 中为空）被指定。 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 
 ### 也可以看看
 
@@ -65,7 +65,7 @@ public ActiveSyncNotSupportedException(string message, Exception innerException)
 
 ## ActiveSyncNotSupportedException(Exception) {#constructor_1}
 
-使用对内部的引用初始化[`ActiveSyncNotSupportedException`](../../activesyncnotsupportedexception)类 的新实例异常是导致此异常的原因。
+初始化[`ActiveSyncNotSupportedException`](../../activesyncnotsupportedexception)类 引用了导致此异常的内部异常。
 
 ```csharp
 public ActiveSyncNotSupportedException(Exception innerException)
@@ -73,7 +73,7 @@ public ActiveSyncNotSupportedException(Exception innerException)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| innerException | Exception | 导致当前异常的异常，或空引用（Nothing in Visual Basic) 如果没有指定内部异常。 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 
 ### 也可以看看
 

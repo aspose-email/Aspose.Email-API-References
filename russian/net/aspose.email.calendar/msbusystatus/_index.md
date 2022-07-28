@@ -1,14 +1,14 @@
 ---
 title: MSBusyStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает статус встречи ЗАНЯТ.
+description: Определяет статус встречи BUSY.
 type: docs
 weight: 610
 url: /ru/net/aspose.email.calendar/msbusystatus/
 ---
 ## MSBusyStatus enumeration
 
-Указывает статус встречи «ЗАНЯТ».
+Определяет статус встречи BUSY.
 
 ```csharp
 public enum MSBusyStatus
@@ -20,10 +20,10 @@ public enum MSBusyStatus
 | --- | --- | --- |
 | NotDefined | `-1` | Значение не определено |
 | Free | `0` | Бесплатно |
-| Tentative | `1` | Предварительно |
+| Tentative | `1` | Под вопросом |
 | Busy | `2` | Занят |
-| Oof | `3` | Вне офиса |
-| WorkingElsewhere | `4` | Работа вне офиса |
+| Oof | `3` | Нет на месте |
+| WorkingElsewhere | `4` | Работа вдали от офиса |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API 参考
-description: 执行从Int64到ImapMessageFlags的隐式转换
+description: 从Int64至ImapMessageFlagsaspose.email.clients.imap/imapmessageflags.
 type: docs
 weight: 200
 url: /zh/net/aspose.email.clients.imap/imapmessageflags/op_implicit/
 ---
 ## ImapMessageFlags Implicit operator
 
-执行从Int64到ImapMessageFlags的隐式转换。
+从Int64至[`ImapMessageFlags`](../../imapmessageflags).
 
 ```csharp
 public static implicit operator ImapMessageFlags(string type)
@@ -16,7 +16,7 @@ public static implicit operator ImapMessageFlags(string type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | String | 类型的值。 |
+| type | String | 一种类型的值。 |
 
 ### 返回值
 

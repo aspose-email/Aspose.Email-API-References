@@ -1,14 +1,14 @@
 ---
 title: OriginalMessageId
 second_title: Aspose.Email for .NET API 参考
-description: 包含回复或重新发送消息中包含的原始消息的消息 ID 区域邮件 规范名称PidTagOriginalMessageId 替代名称ptagOriginalInternetMessageID OriginalMessageId
+description: 包含回复或重新发送的消息中包含的原始消息的消息 ID 区域Mail 规范名称PidTagOriginalMessageId 替代名称ptagOriginalInternetMessageIDOriginalMessageId
 type: docs
 weight: 13640
 url: /zh/net/aspose.email.mapi/knownpropertylist/originalmessageid/
 ---
 ## KnownPropertyList.OriginalMessageId field
 
-包含回复或重新发送消息中包含的原始消息的消息 ID。 区域:邮件 规范名称:PidTagOriginalMessageId 替代名称:ptagOriginalInternetMessageID, OriginalMessageId
+包含回复或重新发送的消息中包含的原始消息的消息 ID。 区域：Mail 规范名称：PidTagOriginalMessageId 替代名称：ptagOriginalInternetMessageID、OriginalMessageId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalMessageId;

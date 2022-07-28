@@ -20,8 +20,8 @@ public enum AsyncCommandResults
 | --- | --- | --- |
 | Undefined | `0` | 未定义的结果。 |
 | Successfully | `1` | 成功结果。 |
-| Failed | `2` | 失败结果。 |
-| Cancelled | `3` | 命令被取消。 |
+| Failed | `2` | 失败的结果。 |
+| Cancelled | `3` | 命令已取消。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: OwnerName
 second_title: Aspose.Email for .NET API 参考
-description: 表示邮箱所有者的姓名 区域会议 规范名称PidLidOwnerName 别名dispidOwnerName
+description: 表示邮箱所有者的姓名 区域Meetings 规范名称PidLidOwnerName 别名dispidOwnerName
 type: docs
 weight: 14110
 url: /zh/net/aspose.email.mapi/knownpropertylist/ownername/
 ---
 ## KnownPropertyList.OwnerName field
 
-表示邮箱所有者的姓名。 区域:会议 规范名称:PidLidOwnerName 别名:dispidOwnerName
+表示邮箱所有者的姓名。 区域：Meetings 规范名称：PidLidOwnerName 别名：dispidOwnerName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OwnerName;

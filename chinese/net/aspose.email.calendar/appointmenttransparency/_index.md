@@ -19,7 +19,7 @@ public enum AppointmentTransparency
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 值未定义 |
-| Transparent | `0` | 预约透明 |
+| Transparent | `0` | 约会是透明的 |
 | Opaque | `2` | 约会不透明 |
 
 ### 也可以看看

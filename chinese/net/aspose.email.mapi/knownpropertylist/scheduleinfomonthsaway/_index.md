@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoMonthsAway
 second_title: Aspose.Email for .NET API 参考
-description: 指定 OOF 类型的忙/闲数据出现在忙/闲消息中的月份 区域忙/闲属性 规范名称PidTagScheduleInfoMonthsAway 备用名称PR_SCHDINFO_MONTHS_OOF
+description: 指定 OOF 类型的忙/闲数据出现在忙/闲消息中的月份 区域忙/闲属性 规范名称PidTagScheduleInfoMonthsAway 替代名称PR_SCHDINFO_MONTHS_OOF
 type: docs
 weight: 16860
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfomonthsaway/
 ---
 ## KnownPropertyList.ScheduleInfoMonthsAway field
 
-指定 OOF 类型的忙/闲数据出现在忙/闲消息中的月份。 区域:忙/闲属性 规范名称:PidTagScheduleInfoMonthsAway 备用名称:PR_SCHDINFO_MONTHS_OOF
+指定 OOF 类型的忙/闲数据出现在忙/闲消息中的月份。 区域：忙/闲属性 规范名称：PidTagScheduleInfoMonthsAway 替代名称：PR_SCHDINFO_MONTHS_OOF
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoMonthsAway;

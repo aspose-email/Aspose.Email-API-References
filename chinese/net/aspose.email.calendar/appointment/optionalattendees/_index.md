@@ -3,7 +3,7 @@ title: OptionalAttendees
 second_title: Aspose.Email for .NET API 参考
 description: 获取可选的与会者
 type: docs
-weight: 180
+weight: 190
 url: /zh/net/aspose.email.calendar/appointment/optionalattendees/
 ---
 ## Appointment.OptionalAttendees property
@@ -16,7 +16,7 @@ public MailAddressCollection OptionalAttendees { get; }
 
 ### 适当的价值
 
-可选与会者的地址集合。
+可选参会者地址集合
 
 ### 也可以看看
 

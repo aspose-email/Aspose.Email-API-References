@@ -20,7 +20,7 @@ public PropertyDescriptor this[int index] { get; set; }
 
 ### 返回值
 
-属性已设置且 System.Collections.Generic.IList 为只读。
+该属性已设置并且 System.Collections.Generic.IList 是只读的。
 
 ### 也可以看看
 

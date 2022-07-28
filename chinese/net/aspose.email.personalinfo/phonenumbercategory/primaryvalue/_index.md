@@ -1,14 +1,14 @@
 ---
 title: PrimaryValue
 second_title: Aspose.Email for .NET API 参考
-description: Primary 类别的字符串值
+description: 主要类别的字符串值
 type: docs
 weight: 370
 url: /zh/net/aspose.email.personalinfo/phonenumbercategory/primaryvalue/
 ---
 ## PhoneNumberCategory.PrimaryValue field
 
-'Primary' 类别的字符串值
+“主要”类别的字符串值
 
 ```csharp
 public const string PrimaryValue;

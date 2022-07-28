@@ -1,14 +1,14 @@
 ---
 title: CultureName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置格式为 languagecode2-country/regioncode2 的文化名称
+description: 获取或设置格式为 languagecode2-country/regioncode2. 的文化名称
 type: docs
 weight: 10
 url: /zh/net/aspose.email.printing/iprintsettingsprovider/culturename/
 ---
 ## IPrintSettingsProvider.CultureName property
 
-获取或设置格式为 languagecode2-country/regioncode2 的文化名称。
+获取或设置格式为 languagecode2-country/regioncode2. 的文化名称
 
 ```csharp
 public string CultureName { get; set; }
@@ -16,11 +16,11 @@ public string CultureName { get; set; }
 
 ### 适当的价值
 
-代表当前文化的字符串。
+表示当前区域性的字符串。
 
 ### 评论
 
-languagecode2 是从 ISO 639-1 派生的小写两字母代码。 country/regioncode2 源自 ISO 3166 并且通常由两个大写字母组成。
+languagecode2 是源自 ISO 639-1 的小写两字母代码。 country/regioncode2 源自 ISO 3166 ，通常由两个大写字母组成。
 
 ### 也可以看看
 

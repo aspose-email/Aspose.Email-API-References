@@ -1,14 +1,14 @@
 ---
 title: DeleteFolder
 second_title: Aspose.Email for .NET API 参考
-description: 删除指定文件夹此方法表示 IMAP DELETE 命令
+description: 删除指定的文件夹这个方法代表IMAP DELETE command
 type: docs
 weight: 540
 url: /zh/net/aspose.email.clients.imap/imapclient/deletefolder/
 ---
 ## DeleteFolder(IConnection, string) {#deletefolder}
 
-删除指定文件夹。此方法表示 IMAP DELETE 命令
+删除指定的文件夹。这个方法代表IMAP DELETE command
 
 ```csharp
 public void DeleteFolder(IConnection connection, string folderName)
@@ -30,7 +30,7 @@ public void DeleteFolder(IConnection connection, string folderName)
 
 ## DeleteFolder(string) {#deletefolder_1}
 
-删除指定文件夹。此方法表示 IMAP DELETE 命令
+删除指定的文件夹。这个方法代表IMAP DELETE command
 
 ```csharp
 public void DeleteFolder(string folderName)

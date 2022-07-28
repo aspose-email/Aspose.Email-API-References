@@ -24,7 +24,7 @@ public class ItOpMoveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [MoveAlways](../../aspose.email.clients.activesync.transportlayer/itopmoveoptions/movealways) { get; set; } | Указывает, следует ли всегда перемещать указанную беседу, включая все будущие сообщения электронной почты в беседе, в папку, указанную DstFldId. MoveAlways ДОЛЖЕН быть установлен в запросе ItemOperations при выполнении операции перемещения в диалоге. Значение элемента Status, равное 155, возвращается, если элемент MoveAlways не установлен в запросе ItemOperations для операции перемещения. |
+| [MoveAlways](../../aspose.email.clients.activesync.transportlayer/itopmoveoptions/movealways) { get; set; } | Указывает, следует ли всегда перемещать указанную беседу, включая все будущие сообщения электронной почты в беседе, в папку, указанную DstFldId. Параметр MoveAlways ДОЛЖЕН быть установлен в запросе ItemOperations при выполнении операции перемещения в беседе. Значение элемента Status, равное 155, возвращается, если элемент MoveAlways не установлен в запросе ItemOperations для операции перемещения. |
 
 ### Смотрите также
 

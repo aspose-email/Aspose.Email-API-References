@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Aspose.Email for .NET API 参考
 description: 提供检测文件类型的实用方法
 type: docs
-weight: 20360
+weight: 20410
 url: /zh/net/aspose.email.tools/fileformatutil/
 ---
 ## FileFormatUtil class
@@ -18,7 +18,7 @@ public static class FileFormatUtil
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [DetectFileFormat](../../aspose.email.tools/fileformatutil/detectfileformat#detectfileformat)(Stream) | 检测并返回流中存储的文件格式信息。 |
+| static [DetectFileFormat](../../aspose.email.tools/fileformatutil/detectfileformat#detectfileformat)(Stream) | 检测并返回有关存储在流中的文件的格式信息。 |
 | static [DetectFileFormat](../../aspose.email.tools/fileformatutil/detectfileformat#detectfileformat_1)(string) | 检测并返回有关文件格式的信息。 |
 
 ### 也可以看看

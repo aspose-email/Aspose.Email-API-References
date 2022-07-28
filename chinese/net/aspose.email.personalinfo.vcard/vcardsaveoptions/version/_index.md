@@ -18,7 +18,7 @@ public VCardVersion Version { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | [`VCardVersion`](../../vcardversion) |
+| ArgumentException | 值未定义在[`VCardVersion`](../../vcardversion) |
 
 ### 也可以看看
 

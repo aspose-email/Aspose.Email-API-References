@@ -1,14 +1,14 @@
 ---
 title: Noop
 second_title: Aspose.Email for .NET API 参考
-description: 无操作命令
+description: 无操作 命令
 type: docs
 weight: 310
 url: /zh/net/aspose.email.clients/emailclient/noop/
 ---
 ## Noop() {#noop}
 
-'无操作'命令
+'无操作' 命令
 
 ```csharp
 public abstract void Noop()
@@ -24,7 +24,7 @@ public abstract void Noop()
 
 ## Noop(IConnection) {#noop_1}
 
-'No operation' 命令
+'无操作' 命令
 
 ```csharp
 public abstract void Noop(IConnection connection)

@@ -1,14 +1,14 @@
 ---
 title: DistributionListMembers
 second_title: Aspose.Email for .NET API 参考
-description: 指定与个人分发列表的成员对应的对象的 EntryID 列表 区域联系人属性 规范名称PidLidDistributionListMembers 替代名称dispidDLMembers
+description: 指定与个人分发列表成员对应的对象的 EntryID 列表 区域联系人属性 规范名称PidLidDistributionListMembers 替代名称dispidDLMembers
 type: docs
 weight: 4200
 url: /zh/net/aspose.email.mapi/knownpropertylist/distributionlistmembers/
 ---
 ## KnownPropertyList.DistributionListMembers field
 
-指定与个人分发列表的成员对应的对象的 EntryID 列表。 区域:联系人属性 规范名称:PidLidDistributionListMembers 替代名称:dispidDLMembers
+指定与个人分发列表成员对应的对象的 EntryID 列表。 区域：联系人属性 规范名称：PidLidDistributionListMembers 替代名称：dispidDLMembers
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DistributionListMembers;

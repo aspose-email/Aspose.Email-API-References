@@ -1,14 +1,14 @@
 ---
 title: CreateAsync
 second_title: Aspose.Email for .NET API 参考
-description: 创建 Pop3Clientaspose.email.clients.pop3/pop3client 类的新实例
+description: 创建一个新的实例Pop3Clientaspose.email.clients.pop3/pop3client class
 type: docs
 weight: 410
 url: /zh/net/aspose.email.clients.pop3/pop3client/createasync/
 ---
 ## Pop3Client.CreateAsync method
 
-创建 [`Pop3Client`](../../pop3client) 类的新实例
+创建一个新的实例[`Pop3Client`](../../pop3client) class
 
 ```csharp
 public static Task<IAsyncPop3Client> CreateAsync(string host, string username, 

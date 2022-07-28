@@ -1,14 +1,14 @@
 ---
 title: Timeout
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置操作超时前等待的毫秒数 默认值为 100000 毫秒100 秒
+description: 获取或设置操作超时前等待的毫秒数 默认值为100000毫秒100秒
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange/iexchangeclientbase/timeout/
 ---
 ## IExchangeClientBase.Timeout property
 
-获取或设置操作超时前等待的毫秒数。 默认值为 100,000 毫秒（100 秒）。
+获取或设置操作超时前等待的毫秒数。 默认值为100,000毫秒（100秒）。
 
 ```csharp
 public int Timeout { get; set; }

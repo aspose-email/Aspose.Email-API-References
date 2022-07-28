@@ -1,14 +1,14 @@
 ---
 title: ClientMode
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个值该值定义邮件客户端如何支持流水线处理
+description: 获取或设置一个定义邮件客户端如何支持流水线的值
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients/pipeliningstatus/clientmode/
 ---
 ## PipeliningStatus.ClientMode property
 
-获取或设置一个值，该值定义邮件客户端如何支持流水线处理
+获取或设置一个定义邮件客户端如何支持流水线的值
 
 ```csharp
 public PipeliningMode ClientMode { get; set; }

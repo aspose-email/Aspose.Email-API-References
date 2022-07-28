@@ -1,14 +1,14 @@
 ---
 title: SearchFolderExpiration
 second_title: Aspose.Email for .NET API 参考
-description: 包含搜索文件夹容器过时且必须更新或重新创建的时间以 UTC 表示 区域搜索 规范名称PidTagSearchFolderExpiration 替代名称PR_WB_SF_EXPIRATION
+description: 包含搜索文件夹容器过时并且必须更新或重新创建的时间以 UTC 为单位 区域Search 规范名称PidTagSearchFolderExpiration 替代名称PR_WB_SF_EXPIRATION
 type: docs
 weight: 16960
 url: /zh/net/aspose.email.mapi/knownpropertylist/searchfolderexpiration/
 ---
 ## KnownPropertyList.SearchFolderExpiration field
 
-包含搜索文件夹容器过时且必须更新或重新创建的时间（以 UTC 表示）。 区域:搜索 规范名称:PidTagSearchFolderExpiration 替代名称:PR_WB_SF_EXPIRATION
+包含搜索文件夹容器过时并且必须更新或重新创建的时间（以 UTC 为单位）。 区域：Search 规范名称：PidTagSearchFolderExpiration 替代名称：PR_WB_SF_EXPIRATION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderExpiration;

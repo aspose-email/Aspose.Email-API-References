@@ -1,14 +1,14 @@
 ---
 title: XPosition
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置用户界面显示的距离屏幕左边缘 的距离以像素为单位注释对象
+description: 获取或设置距离以像素为单位 距离屏幕左边缘 用户界面显示注释对象
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mapi/mapinote/xposition/
 ---
 ## MapiNote.XPosition property
 
-获取或设置用户界面显示的距离屏幕左边缘 的距离，以像素为单位注释对象
+获取或设置距离，以像素为单位， 距离屏幕左边缘 用户界面显示注释对象
 
 ```csharp
 public int XPosition { get; set; }

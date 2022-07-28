@@ -1,14 +1,14 @@
 ---
 title: SharingLocalName
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingLocalName 备用名称dispidSharingLocalName
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingLocalName 替代名称dispidSharingLocalName
 type: docs
 weight: 17610
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharinglocalname/
 ---
 ## KnownPropertyList.SharingLocalName field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingLocalName 备用名称:dispidSharingLocalName
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingLocalName 替代名称：dispidSharingLocalName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingLocalName;

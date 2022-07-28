@@ -18,7 +18,7 @@ public sealed class GetMailTipsOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetMailTipsOptions](getmailtipsoptions)(MailAddress, MailAddressCollection, MailTipsType) | 初始化[`GetMailTipsOptions`](../getmailtipsoptions)类 的新实例 |
+| [GetMailTipsOptions](getmailtipsoptions)(MailAddress, MailAddressCollection, MailTipsType) | 初始化[`GetMailTipsOptions`](../getmailtipsoptions) class |
 
 ## 特性
 

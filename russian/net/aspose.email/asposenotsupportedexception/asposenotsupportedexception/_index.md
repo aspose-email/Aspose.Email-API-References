@@ -1,14 +1,14 @@
 ---
 title: AsposeNotSupportedException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаAsposeNotSupportedExceptionaspose.email/asposenotsupportedexception.
+description: Инициализирует новый экземплярAsposeNotSupportedExceptionaspose.email/asposenotsupportedexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/asposenotsupportedexception/asposenotsupportedexception/
 ---
 ## AsposeNotSupportedException() {#constructor}
 
-Инициализирует новый экземпляр класса[`AsposeNotSupportedException`](../../asposenotsupportedexception).
+Инициализирует новый экземпляр[`AsposeNotSupportedException`](../../asposenotsupportedexception) класс.
 
 ```csharp
 public AsposeNotSupportedException()
@@ -24,7 +24,7 @@ public AsposeNotSupportedException()
 
 ## AsposeNotSupportedException(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AsposeNotSupportedException`](../../asposenotsupportedexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeNotSupportedException`](../../asposenotsupportedexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeNotSupportedException(string message)
@@ -58,7 +58,7 @@ public AsposeNotSupportedException(string format, string parameter)
 
 ## AsposeNotSupportedException(string, params object[]) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public AsposeNotSupportedException(string format, params object[] parameters)
@@ -79,7 +79,7 @@ public AsposeNotSupportedException(string format, params object[] parameters)
 
 ## AsposeNotSupportedException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`AsposeNotSupportedException`](../../asposenotsupportedexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`AsposeNotSupportedException`](../../asposenotsupportedexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public AsposeNotSupportedException(string message, Exception innerException)
@@ -88,7 +88,7 @@ public AsposeNotSupportedException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

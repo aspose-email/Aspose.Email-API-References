@@ -37,7 +37,7 @@ public void DeleteFolder(string folderUri, bool deletePermanently)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderUri | String | 文件夹 Uri |
-| deletePermanently | Boolean | 指示该文件夹是应该永久删除还是应该移动到 DeletedItems 文件夹 |
+| deletePermanently | Boolean | 指示该文件夹是应永久删除还是应移至 DeletedItems 文件夹 |
 
 ### 也可以看看
 

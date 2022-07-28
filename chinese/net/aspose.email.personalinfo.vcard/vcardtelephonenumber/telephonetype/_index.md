@@ -18,7 +18,7 @@ public VCardTelephoneType TelephoneType { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *value*未在[`VCardTelephoneType`](../../vcardtelephonetype) |
+| ArgumentException | *value*中没有定义[`VCardTelephoneType`](../../vcardtelephonetype) |
 
 ### 也可以看看
 

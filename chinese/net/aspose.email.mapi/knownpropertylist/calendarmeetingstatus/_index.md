@@ -1,14 +1,14 @@
 ---
 title: CalendarMeetingStatus
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会或会议的状态 区域通用 规范名称PidNameCalendarMeetingStatus 备用名称urnschemascalendarmeetingstatus
+description: 指定约会或会议的状态 区域Common 规范名称PidNameCalendarMeetingStatus 备用名称urnschemascalendarmeetingstatus
 type: docs
 weight: 2330
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarmeetingstatus/
 ---
 ## KnownPropertyList.CalendarMeetingStatus field
 
-指定约会或会议的状态。 区域:通用 规范名称:PidNameCalendarMeetingStatus 备用名称:urn:schemas:calendar:meetingstatus
+指定约会或会议的状态。 区域：Common 规范名称：PidNameCalendarMeetingStatus 备用名称：urn:schemas:calendar:meetingstatus
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarMeetingStatus;

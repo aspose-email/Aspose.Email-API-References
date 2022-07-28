@@ -1,14 +1,14 @@
 ---
 title: StorageProcessedEventHandler
 second_title: Aspose.Email for .NET API 参考
-description: 表示将处理StorageProcessed./personalstorage/storageprocessed事件的方法
+description: 表示将处理StorageProcessed./personalstorage/storageprocessed事件.
 type: docs
-weight: 20320
+weight: 20370
 url: /zh/net/aspose.email.storage.pst/storageprocessedeventhandler/
 ---
 ## StorageProcessedEventHandler delegate
 
-表示将处理[`StorageProcessed`](../personalstorage/storageprocessed)事件的方法。
+表示将处理[`StorageProcessed`](../personalstorage/storageprocessed)事件.
 
 ```csharp
 public delegate void StorageProcessedEventHandler(object sender, StorageProcessedEventArgs e);

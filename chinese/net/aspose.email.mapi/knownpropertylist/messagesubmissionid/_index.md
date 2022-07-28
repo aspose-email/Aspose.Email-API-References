@@ -1,14 +1,14 @@
 ---
 title: MessageSubmissionId
 second_title: Aspose.Email for .NET API 参考
-description: 包含由消息传输代理分配的消息标识符 区域电子邮件 规范名称PidTagMessageSubmissionId 备用名称PR_MESSAGE_SUBMISSION_ID ptagMessageSubmissionId
+description: 包含由消息传输代理分配的消息标识符 区域Email 规范名称PidTagMessageSubmissionId 替代名称PR_MESSAGE_SUBMISSION_IDptagMessageSubmissionId
 type: docs
 weight: 12640
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagesubmissionid/
 ---
 ## KnownPropertyList.MessageSubmissionId field
 
-包含由消息传输代理分配的消息标识符。 区域:电子邮件 规范名称:PidTagMessageSubmissionId 备用名称:PR_MESSAGE_SUBMISSION_ID, ptagMessageSubmissionId
+包含由消息传输代理分配的消息标识符。 区域：Email 规范名称：PidTagMessageSubmissionId 替代名称：PR_MESSAGE_SUBMISSION_ID、ptagMessageSubmissionId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageSubmissionId;

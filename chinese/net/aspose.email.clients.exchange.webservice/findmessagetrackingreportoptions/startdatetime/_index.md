@@ -1,14 +1,14 @@
 ---
 title: StartDateTime
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置搜索时间段表示在该值之后发送消息
+description: 获取或设置搜索时间段表示消息是在这个值之后发送的
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/startdatetime/
 ---
 ## FindMessageTrackingReportOptions.StartDateTime property
 
-获取或设置搜索时间段，表示在该值之后发送消息。
+获取或设置搜索时间段，表示消息是在这个值之后发送的。
 
 ```csharp
 public DateTime StartDateTime { get; set; }

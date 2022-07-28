@@ -1,14 +1,14 @@
 ---
 title: EWSId
 second_title: Aspose.Email for .NET API 参考
-description: 交换网络服务 ID
+description: 交换网络服务 id
 type: docs
 weight: 20
 url: /zh/net/aspose.email/objectidentifier/ewsid/
 ---
 ## ObjectIdentifier.EWSId property
 
-交换网络服务 ID
+交换网络服务 id
 
 ```csharp
 public string EWSId { get; }

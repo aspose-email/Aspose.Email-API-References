@@ -1,14 +1,14 @@
 ---
 title: DeleteSubFolders
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает следует ли удалять подпапки указанной папки. Если параметр DeleteSubFolders не включен в запрос вложенные папки указанного CollectionId не удаляются.
+description: Указывает следует ли удалять вложенные папки указанной папки. Если параметр DeleteSubFolders не включен в запрос вложенные папки указанного CollectionId не удаляются.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/itopempfldcntoptions/deletesubfolders/
 ---
 ## ItOpEmpFldCntOptions.DeleteSubFolders property
 
-Указывает, следует ли удалять подпапки указанной папки. Если параметр DeleteSubFolders не включен в запрос, вложенные папки указанного CollectionId не удаляются.
+Указывает, следует ли удалять вложенные папки указанной папки. Если параметр DeleteSubFolders не включен в запрос, вложенные папки указанного CollectionId не удаляются.
 
 ```csharp
 public bool? DeleteSubFolders { get; set; }

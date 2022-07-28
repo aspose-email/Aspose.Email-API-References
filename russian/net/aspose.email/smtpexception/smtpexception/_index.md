@@ -1,14 +1,14 @@
 ---
 title: SmtpException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаSmtpExceptionaspose.email/smtpexception
+description: Инициализирует новый экземплярSmtpExceptionaspose.email/smtpexception класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email/smtpexception/smtpexception/
 ---
 ## SmtpException(SmtpStatusCode) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SmtpException`](../../smtpexception)
+Инициализирует новый экземпляр[`SmtpException`](../../smtpexception) класс
 
 ```csharp
 public SmtpException(SmtpStatusCode statusCode)
@@ -16,7 +16,7 @@ public SmtpException(SmtpStatusCode statusCode)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| statusCode | SmtpStatusCode | Код статуса smtp |
+| statusCode | SmtpStatusCode | Код состояния смтп |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public SmtpException(SmtpStatusCode statusCode)
 
 ## SmtpException(SmtpStatusCode, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`SmtpException`](../../smtpexception)
+Инициализирует новый экземпляр[`SmtpException`](../../smtpexception) класс
 
 ```csharp
 public SmtpException(SmtpStatusCode statusCode, string message)
@@ -37,7 +37,7 @@ public SmtpException(SmtpStatusCode statusCode, string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| statusCode | SmtpStatusCode | Код состояния Smtp |
+| statusCode | SmtpStatusCode | Код состояния смтп |
 | message | String | Сообщение об ошибке |
 
 ### Смотрите также
@@ -51,7 +51,7 @@ public SmtpException(SmtpStatusCode statusCode, string message)
 
 ## SmtpException() {#constructor}
 
-Инициализирует новый экземпляр класса[`SmtpException`](../../smtpexception)
+Инициализирует новый экземпляр[`SmtpException`](../../smtpexception) класс
 
 ```csharp
 public SmtpException()
@@ -67,7 +67,7 @@ public SmtpException()
 
 ## SmtpException(string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`SmtpException`](../../smtpexception)
+Инициализирует новый экземпляр[`SmtpException`](../../smtpexception) класс
 
 ```csharp
 public SmtpException(string message)
@@ -75,7 +75,7 @@ public SmtpException(string message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String | Сообщение об ошибке |
+| message | String | Сообщение об ошибке |
 
 ### Смотрите также
 
@@ -87,7 +87,7 @@ public SmtpException(string message)
 
 ## SmtpException(string, SendMessagesResult) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`SmtpException`](../../smtpexception)
+Инициализирует новый экземпляр[`SmtpException`](../../smtpexception) класс
 
 ```csharp
 public SmtpException(string message, SendMessagesResult result)
@@ -109,7 +109,7 @@ public SmtpException(string message, SendMessagesResult result)
 
 ## SmtpException(string, Exception) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`SmtpException`](../../smtpexception)
+Инициализирует новый экземпляр[`SmtpException`](../../smtpexception) класс
 
 ```csharp
 public SmtpException(string message, Exception innerException)
@@ -118,7 +118,7 @@ public SmtpException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или нулевая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 
@@ -130,7 +130,7 @@ public SmtpException(string message, Exception innerException)
 
 ## SmtpException(string, Exception, MailMessage) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`SmtpException`](../../smtpexception)
+Инициализирует новый экземпляр[`SmtpException`](../../smtpexception) класс
 
 ```csharp
 public SmtpException(string message, Exception innerException, MailMessage mailMessage)
@@ -139,7 +139,7 @@ public SmtpException(string message, Exception innerException, MailMessage mailM
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или нулевая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 | mailMessage | MailMessage |  |
 
 ### Смотрите также

@@ -3,7 +3,7 @@ title: Status
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или задает общий статус или подтверждение для объекта.
 type: docs
-weight: 250
+weight: 260
 url: /ru/net/aspose.email.calendar/appointment/status/
 ---
 ## Appointment.Status property

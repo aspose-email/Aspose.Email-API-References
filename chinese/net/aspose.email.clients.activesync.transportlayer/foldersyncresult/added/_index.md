@@ -1,14 +1,14 @@
 ---
 title: Added
 second_title: Aspose.Email for .NET API 参考
-description: 包含已添加文件夹的数组
+description: 包含添加的文件夹数组
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activesync.transportlayer/foldersyncresult/added/
 ---
 ## FolderSyncResult.Added property
 
-包含已添加文件夹的数组。
+包含添加的文件夹数组。
 
 ```csharp
 public FolderInfo[] Added { get; }

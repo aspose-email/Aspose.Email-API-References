@@ -24,7 +24,7 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -52,7 +52,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -78,11 +78,11 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 | quotaRootName | String | 配额根名称 |
 | resourceName | String | 资源名称 |
 | resourceLimit | Int32 | 资源限制 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -112,7 +112,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

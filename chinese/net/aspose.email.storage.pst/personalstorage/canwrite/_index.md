@@ -1,14 +1,14 @@
 ---
 title: CanWrite
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示 当前 pst 是否支持写入
+description: 获取一个值表示 当前的pst是否支持写入
 type: docs
 weight: 50
 url: /zh/net/aspose.email.storage.pst/personalstorage/canwrite/
 ---
 ## PersonalStorage.CanWrite property
 
-获取一个值，该值指示 当前 pst 是否支持写入。
+获取一个值，表示 当前的pst是否支持写入。
 
 ```csharp
 public bool CanWrite { get; }

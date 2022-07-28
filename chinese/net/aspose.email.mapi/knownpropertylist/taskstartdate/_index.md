@@ -1,14 +1,14 @@
 ---
 title: TaskStartDate
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户希望开始工作的日期 区域任务 规范名称PidLidTaskStartDate 替代名称dispidTaskStartDate
+description: 指定用户希望开始执行任务的日期 区域Tasks 规范名称PidLidTaskStartDate 替代名称dispidTaskStartDate
 type: docs
 weight: 18810
 url: /zh/net/aspose.email.mapi/knownpropertylist/taskstartdate/
 ---
 ## KnownPropertyList.TaskStartDate field
 
-指定用户希望开始工作的日期。 区域:任务 规范名称:PidLidTaskStartDate 替代名称:dispidTaskStartDate
+指定用户希望开始执行任务的日期。 区域：Tasks 规范名称：PidLidTaskStartDate 替代名称：dispidTaskStartDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskStartDate;

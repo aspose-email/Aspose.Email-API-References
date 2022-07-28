@@ -16,7 +16,7 @@ public void SetProperty(MapiProperty property)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| property | MapiProperty | 属性。 |
+| property | MapiProperty | 该物业。 |
 
 ### 也可以看看
 

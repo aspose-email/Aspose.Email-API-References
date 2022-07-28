@@ -37,7 +37,7 @@ public BaseDataObject(string kind, string id)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | kind | String | 资源类型 |
-| id | String | 资源标识符资源。 |
+| id | String | 资源的标识符。 |
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public BaseDataObject(string kind, string id, string eTag)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | kind | String | 资源类型 |
-| id | String | 资源标识符资源。 |
+| id | String | 资源的标识符。 |
 | eTag | String | 实体标签 |
 
 ### 也可以看看

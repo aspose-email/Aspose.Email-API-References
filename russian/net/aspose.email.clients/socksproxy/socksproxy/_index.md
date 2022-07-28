@@ -1,14 +1,14 @@
 ---
 title: SocksProxy
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаSocksProxyaspose.email.clients/socksproxyдля подключения к серверу SOCKS4 без аутентификации.
+description: Инициализирует новый экземплярSocksProxyaspose.email.clients/socksproxy класс для подключения к серверу SOCKS4 без аутентификации.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/socksproxy/socksproxy/
 ---
 ## SocksProxy(string, int) {#constructor}
 
-Инициализирует новый экземпляр класса[`SocksProxy`](../../socksproxy)для подключения к серверу SOCKS4 без аутентификации.
+Инициализирует новый экземпляр[`SocksProxy`](../../socksproxy) класс для подключения к серверу SOCKS4 без аутентификации.
 
 ```csharp
 public SocksProxy(string address, int port)
@@ -29,7 +29,7 @@ public SocksProxy(string address, int port)
 
 ## SocksProxy(string, int, SocksVersion) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SocksProxy`](../../socksproxy)для подключения к серверу SOCKS4 или SOCKS5 без аутентификации.
+Инициализирует новый экземпляр[`SocksProxy`](../../socksproxy) класс для подключения к серверу SOCKS4 или SOCKS5 без аутентификации.
 
 ```csharp
 public SocksProxy(string address, int port, SocksVersion version)
@@ -39,7 +39,7 @@ public SocksProxy(string address, int port, SocksVersion version)
 | --- | --- | --- |
 | address | String | Доменное имя или IP-адрес прокси |
 | port | Int32 | Номер порта прокси |
-| version | SocksVersion | Требуемая версия SOCKS сервера. |
+| version | SocksVersion | Требуемая версия сервера SOCKS. |
 
 ### Смотрите также
 
@@ -52,7 +52,7 @@ public SocksProxy(string address, int port, SocksVersion version)
 
 ## SocksProxy(string, int, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`SocksProxy`](../../socksproxy)для подключения к серверу SOCKS4 без аутентификации.
+Инициализирует новый экземпляр[`SocksProxy`](../../socksproxy) класс для подключения к серверу SOCKS4 без аутентификации.
 
 ```csharp
 public SocksProxy(string address, int port, string userID)
@@ -62,7 +62,7 @@ public SocksProxy(string address, int port, string userID)
 | --- | --- | --- |
 | address | String | Доменное имя или IP-адрес прокси |
 | port | Int32 | Номер порта прокси |
-| userID | String | UserID для Socks4 Identification Protocol (RFC 1413) |
+| userID | String | UserID для протокола идентификации Socks4 (RFC 1413) |
 
 ### Смотрите также
 
@@ -74,7 +74,7 @@ public SocksProxy(string address, int port, string userID)
 
 ## SocksProxy(string, int, string, string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`SocksProxy`](../../socksproxy)для подключения к серверу SOCKS5 с определенным именем пользователя и паролем.
+Инициализирует новый экземпляр[`SocksProxy`](../../socksproxy) класс для подключения к серверу SOCKS5 с определенным именем пользователя и паролем.
 
 ```csharp
 public SocksProxy(string address, int port, string username, string password)
@@ -84,8 +84,8 @@ public SocksProxy(string address, int port, string username, string password)
 | --- | --- | --- |
 | address | String | Доменное имя или IP-адрес прокси |
 | port | Int32 | Номер порта прокси |
-| имяпользователя | String | Имя пользователя для аутентификации |
-| пароль | String | Пароль для аутентификации |
+| username | String | Имя пользователя для аутентификации |
+| password | String | Пароль для аутентификации |
 
 ### Смотрите также
 

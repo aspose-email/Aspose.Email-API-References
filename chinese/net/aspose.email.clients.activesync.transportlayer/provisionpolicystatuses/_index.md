@@ -1,14 +1,14 @@
 ---
 title: ProvisionPolicyStatuses
 second_title: Aspose.Email for .NET API 参考
-description: 该值表示客户端应用从服务器检索到的策略设置成功或失败
+description: 该值指示客户端应用从服务器检索到的策略设置是成功还是失败
 type: docs
 weight: 1740
 url: /zh/net/aspose.email.clients.activesync.transportlayer/provisionpolicystatuses/
 ---
 ## ProvisionPolicyStatuses enumeration
 
-该值表示客户端应用从服务器检索到的策略设置成功或失败。
+该值指示客户端应用从服务器检索到的策略设置是成功还是失败。
 
 ```csharp
 public enum ProvisionPolicyStatuses
@@ -18,7 +18,7 @@ public enum ProvisionPolicyStatuses
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Success | `1` | 客户端操作成功。 |
+| Success | `1` | 客户端操作成功 |
 | PartialSuccess | `2` | 部分成功（至少启用了 PIN）。 |
 | NotApply | `3` | 客户端根本没有应用策略。 |
 | ProvisionedByThirdParty | `4` | 客户端声称已由第三方提供。 |

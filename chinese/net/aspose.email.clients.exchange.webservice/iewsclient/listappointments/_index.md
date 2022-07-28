@@ -37,7 +37,7 @@ public Appointment[] ListAppointments(string folderUri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹在中搜索约会。 |
+| folderUri | String | 用于搜索约会的文件夹。 |
 
 ### 返回值
 
@@ -62,7 +62,7 @@ public Appointment[] ListAppointments(string folderUri, bool recursive)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹在中搜索约会。 |
+| folderUri | String | 用于搜索约会的文件夹。 |
 | recursive | Boolean | 指示是否递归列表。 |
 
 ### 返回值
@@ -88,7 +88,7 @@ public Appointment[] ListAppointments(bool recursive)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| recursive | Boolean | 指示是否递归列表与否。 |
+| recursive | Boolean | 指示是否递归列表。 |
 
 ### 返回值
 
@@ -139,7 +139,7 @@ public Appointment[] ListAppointments(string folderUri, MailQuery query)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹在中搜索约会。 |
+| folderUri | String | 用于搜索约会的文件夹。 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示约会搜索条件。 |
 
 ### 返回值
@@ -167,7 +167,7 @@ public Appointment[] ListAppointments(MailQuery query, bool recursive)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示约会搜索条件。 |
-| recursive | Boolean | 表示是否递归列出。 |
+| recursive | Boolean | 指示是否递归列表。 |
 
 ### 返回值
 
@@ -193,9 +193,9 @@ public Appointment[] ListAppointments(string folderUri, MailQuery query, bool re
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹在中搜索约会。 |
+| folderUri | String | 用于搜索约会的文件夹。 |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)表示约会搜索条件。 |
-| recursive | Boolean | 表示是否递归列出。 |
+| recursive | Boolean | 指示是否递归列表。 |
 
 ### 返回值
 

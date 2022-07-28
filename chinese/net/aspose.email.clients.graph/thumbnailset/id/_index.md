@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API 参考
-description: 项目中的 id只读
+description: 项目内的id只读
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.graph/thumbnailset/id/
 ---
 ## ThumbnailSet.Id property
 
-项目中的 id。只读。
+项目内的id。只读。
 
 ```csharp
 public string Id { get; set; }

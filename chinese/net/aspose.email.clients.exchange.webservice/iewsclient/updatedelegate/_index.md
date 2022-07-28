@@ -17,14 +17,14 @@ public void UpdateDelegate(ExchangeDelegateUser delegateUser, string mailbox)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | delegateUser | ExchangeDelegateUser | 委托用户的新设置。 |
-| mailbox | String | 授权用户访问的邮箱。 |
+| mailbox | String | 授权委托用户访问的邮箱。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser*is` null` 。 |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` 或` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser*是`无效的`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*是`无效的`或者`空的`. |
 
 ### 也可以看看
 

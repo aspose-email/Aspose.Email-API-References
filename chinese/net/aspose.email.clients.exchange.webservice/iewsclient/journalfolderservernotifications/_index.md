@@ -1,14 +1,14 @@
 ---
 title: JournalFolderServerNotifications
 second_title: Aspose.Email for .NET API 参考
-description: 当出现日志文件夹的指定事件类型时发生
+description: 出现日志文件夹的指定事件类型时发生
 type: docs
 weight: 290
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/journalfolderservernotifications/
 ---
 ## IEWSClient.JournalFolderServerNotifications event
 
-当出现日志文件夹的指定事件类型时发生。
+出现日志文件夹的指定事件类型时发生。
 
 ```csharp
 public event EventHandler<ServerNotificationEventArgs> JournalFolderServerNotifications;

@@ -1,14 +1,14 @@
 ---
 title: ClipStart
 second_title: Aspose.Email for .NET API 参考
-description: 以 UTC 指定事件的开始日期和时间 区域日历 规范名称PidLidClipStart 替代名称dispidClipStart
+description: 以 UTC 格式指定事件的开始日期和时间 区域Calendar 规范名称PidLidClipStart 替代名称dispidClipStart
 type: docs
 weight: 2720
 url: /zh/net/aspose.email.mapi/knownpropertylist/clipstart/
 ---
 ## KnownPropertyList.ClipStart field
 
-以 UTC 指定事件的开始日期和时间。 区域:日历 规范名称:PidLidClipStart 替代名称:dispidClipStart
+以 UTC 格式指定事件的开始日期和时间。 区域：Calendar 规范名称：PidLidClipStart 替代名称：dispidClipStart
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClipStart;

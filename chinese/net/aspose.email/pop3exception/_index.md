@@ -1,14 +1,14 @@
 ---
 title: Pop3Exception
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Pop3Client 无法完成操作时引发的异常
+description: 表示当 Pop3Client 无法完成操作时引发的异常
 type: docs
-weight: 19800
+weight: 19850
 url: /zh/net/aspose.email/pop3exception/
 ---
 ## Pop3Exception class
 
-表示 Pop3Client 无法完成操作时引发的异常。
+表示当 Pop3Client 无法完成操作时引发的异常。
 
 ```csharp
 public class Pop3Exception : AsposeException
@@ -18,10 +18,10 @@ public class Pop3Exception : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Pop3Exception](pop3exception#constructor)() | 初始化[`Pop3Exception`](../pop3exception)类的新实例。 |
-| [Pop3Exception](pop3exception#constructor_1)(string) | 初始化[`Pop3Exception`](../pop3exception)类的新实例。 |
-| [Pop3Exception](pop3exception#constructor_2)(string, Exception) | 初始化[`Pop3Exception`](../pop3exception)类的新实例。 |
-| [Pop3Exception](pop3exception#constructor_3)(string, params object[]) | 使用指定的错误消息初始化[`Pop3Exception`](../pop3exception)类的新实例。 |
+| [Pop3Exception](pop3exception#constructor)() | 初始化[`Pop3Exception`](../pop3exception)类. |
+| [Pop3Exception](pop3exception#constructor_1)(string) | 初始化[`Pop3Exception`](../pop3exception)类. |
+| [Pop3Exception](pop3exception#constructor_2)(string, Exception) | 初始化[`Pop3Exception`](../pop3exception)类. |
+| [Pop3Exception](pop3exception#constructor_3)(string, params object[]) | 初始化[`Pop3Exception`](../pop3exception)具有指定错误消息的类。 |
 
 ## 特性
 

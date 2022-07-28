@@ -24,7 +24,7 @@ public class MeetingResponseResult
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CalendarId](../../aspose.email.clients.activesync.transportlayer/meetingresponseresult/calendarid) { get; set; } | 指定日历项的服务器 ID。 CalendarId 元素值最长可达 64 个字符。 CalendarId 元素包含在会议响应命令响应中，如果会议请求未被拒绝，该命令响应将发送给客户端。 如果会议被接受或暂时接受，服务器将新项目添加到日历并在响应的 CalendarId 元素中返回其服务器 ID。 如果客户端创建了一个暂定会议日历项目，客户端会使用新的服务器 ID 更新该项目。 客户端也将忙碌状态从暂定变为忙碌。 当会议被接受时，服务器还会创建一个具有相同服务器 ID 的新日历项。 这意味着下次同步日历时将解决冲突。 如果会议被拒绝，则响应不包含 CalendarId 元素。 |
+| [CalendarId](../../aspose.email.clients.activesync.transportlayer/meetingresponseresult/calendarid) { get; set; } | 指定日历项目的服务器 ID。 CalendarId 元素值的长度最多为 64 个字符。 CalendarId 元素包含在会议响应命令响应中，如果会议请求未被拒绝，该命令响应将发送给客户端。 如果会议被接受或暂时接受，服务器将新项目添加到日历并在响应的 CalendarId 元素中返回其服务器 ID。 如果客户端创建了一个暂定会议日历项目，客户端将使用新的服务器 ID 更新该项目。 客户端也将忙碌状态从暂定变为忙碌。 接受会议后，服务器还会创建一个具有相同服务器 ID 的新日历项。 这意味着下次同步日历时将解决冲突。 如果会议被拒绝，则响应不包含 CalendarId 元素。 |
 | [RequestId](../../aspose.email.clients.activesync.transportlayer/meetingresponseresult/requestid) { get; set; } | 指定会议请求消息项的服务器 ID。 |
 | [Status](../../aspose.email.clients.activesync.transportlayer/meetingresponseresult/status) { get; set; } | 表示操作成功或失败。 |
 

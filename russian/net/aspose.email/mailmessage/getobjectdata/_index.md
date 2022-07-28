@@ -1,14 +1,14 @@
 ---
 title: GetObjectData
 second_title: Справочник по Aspose.Email для .NET API
-description: ЗаполняетSerializationInfoданными необходимыми для сериализации целевого объекта.
+description: ЗаполняетSerializationInfo с данными необходимыми для сериализации целевого объекта.
 type: docs
 weight: 510
 url: /ru/net/aspose.email/mailmessage/getobjectdata/
 ---
 ## MailMessage.GetObjectData method
 
-ЗаполняетSerializationInfoданными, необходимыми для сериализации целевого объекта.
+ЗаполняетSerializationInfo с данными, необходимыми для сериализации целевого объекта.
 
 ```csharp
 public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
@@ -16,14 +16,14 @@ public virtual void GetObjectData(SerializationInfo info, StreamingContext conte
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| info | SerializationInfo | SerializationInfoдля заполнения данными. |
-| context | StreamingContext | Назначение (см.StreamingContext) для этой сериализации. |
+| info | SerializationInfo | SerializationInfo для заполнения данными. |
+| context | StreamingContext | Пункт назначения (см.StreamingContext) для этой сериализации. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| SecurityException | Вызывающий объект не имеет необходимого разрешения. |
+| SecurityException | У вызывающего абонента нет необходимого разрешения. |
 
 ### Смотрите также
 

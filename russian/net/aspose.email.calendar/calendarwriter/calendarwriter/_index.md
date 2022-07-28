@@ -28,7 +28,7 @@ public CalendarWriter(string path)
 
 ## CalendarWriter(Stream) {#constructor}
 
-Инициализирует новый экземпляр CalendarReader с исходным потоком и параметрами AppointmentIcsSaveOptions по умолчанию.
+Инициализирует новый экземпляр CalendarReader с исходным потоком и AppointmentIcsSaveOptions по умолчанию.
 
 ```csharp
 public CalendarWriter(Stream stream)

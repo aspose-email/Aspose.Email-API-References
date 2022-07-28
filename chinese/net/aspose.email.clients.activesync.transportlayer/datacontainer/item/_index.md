@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API 参考
-description: 获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个则 AsposeException 上升
+description: 获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个AsposeException 上升
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/datacontainer/item/
 ---
 ## DataContainer indexer (1 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[AirSync elementName] { get; }
@@ -33,7 +33,7 @@ public DataContainer this[AirSync elementName] { get; }
 
 ## DataContainer indexer (2 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[AirSyncBase elementName] { get; }
@@ -58,7 +58,7 @@ public DataContainer this[AirSyncBase elementName] { get; }
 
 ## DataContainer indexer (3 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[Email elementName] { get; }
@@ -83,7 +83,7 @@ public DataContainer this[Email elementName] { get; }
 
 ## DataContainer indexer (4 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[Email2 elementName] { get; }
@@ -108,7 +108,7 @@ public DataContainer this[Email2 elementName] { get; }
 
 ## DataContainer indexer (5 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[Calendar elementName] { get; }
@@ -133,7 +133,7 @@ public DataContainer this[Calendar elementName] { get; }
 
 ## DataContainer indexer (6 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[DocumentLibrary elementName] { get; }
@@ -158,7 +158,7 @@ public DataContainer this[DocumentLibrary elementName] { get; }
 
 ## DataContainer indexer (7 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[Contacts elementName] { get; }
@@ -183,7 +183,7 @@ public DataContainer this[Contacts elementName] { get; }
 
 ## DataContainer indexer (8 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[Contacts2 elementName] { get; }
@@ -208,7 +208,7 @@ public DataContainer this[Contacts2 elementName] { get; }
 
 ## DataContainer indexer (9 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[Tasks elementName] { get; }
@@ -233,7 +233,7 @@ public DataContainer this[Tasks elementName] { get; }
 
 ## DataContainer indexer (10 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[Notes elementName] { get; }
@@ -258,7 +258,7 @@ public DataContainer this[Notes elementName] { get; }
 
 ## DataContainer indexer (11 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[RightsManagement elementName] { get; }
@@ -283,7 +283,7 @@ public DataContainer this[RightsManagement elementName] { get; }
 
 ## DataContainer indexer (12 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[Settings elementName] { get; }
@@ -308,7 +308,7 @@ public DataContainer this[Settings elementName] { get; }
 
 ## DataContainer indexer (13 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[ItemOperations elementName] { get; }
@@ -333,7 +333,7 @@ public DataContainer this[ItemOperations elementName] { get; }
 
 ## DataContainer indexer (14 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[GAL elementName] { get; }
@@ -358,7 +358,7 @@ public DataContainer this[GAL elementName] { get; }
 
 ## DataContainer indexer (15 of 15)
 
-获取所选元素的 DataContainer 如果 DataContainers 的数量多于一个，则 AsposeException 上升。
+获取选定元素的 DataContainer 如果 DataContainers 的数量超过一个，AsposeException 上升。
 
 ```csharp
 public DataContainer this[Search elementName] { get; }

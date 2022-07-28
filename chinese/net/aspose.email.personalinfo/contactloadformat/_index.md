@@ -3,7 +3,7 @@ title: ContactLoadFormat
 second_title: Aspose.Email for .NET API 参考
 description: 枚举接触负载格式
 type: docs
-weight: 19300
+weight: 19330
 url: /zh/net/aspose.email.personalinfo/contactloadformat/
 ---
 ## ContactLoadFormat enumeration
@@ -20,7 +20,7 @@ public enum ContactLoadFormat
 | --- | --- | --- |
 | VCard | `0` | vCard 格式（默认）。 |
 | WebDav | `1` | WebDav 格式。 |
-| Msg | `2` | 味精格式。 |
+| Msg | `2` | 味精格式. |
 
 ### 也可以看看
 

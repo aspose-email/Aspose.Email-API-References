@@ -1,14 +1,14 @@
 ---
 title: RetentionFlags
 second_title: Aspose.Email for .NET API 参考
-description: 包含指定项目的保留标记或存档标记的状态或性质的标志 区域存档 规范名称PidTagRetentionFlags 替代名称PR_RETENTION_FLAGS ptagRetentionFlags
+description: 包含指定项目的保留标记或存档标记的状态或性质的标志 区域Archive 规范名称PidTagRetentionFlags 替代名称PR_RETENTION_FLAGSptagRetentionFlags
 type: docs
 weight: 16250
 url: /zh/net/aspose.email.mapi/knownpropertylist/retentionflags/
 ---
 ## KnownPropertyList.RetentionFlags field
 
-包含指定项目的保留标记或存档标记的状态或性质的标志。 区域:存档 规范名称:PidTagRetentionFlags 替代名称:PR_RETENTION_FLAGS, ptagRetentionFlags
+包含指定项目的保留标记或存档标记的状态或性质的标志。 区域：Archive 规范名称：PidTagRetentionFlags 替代名称：PR_RETENTION_FLAGS、ptagRetentionFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RetentionFlags;

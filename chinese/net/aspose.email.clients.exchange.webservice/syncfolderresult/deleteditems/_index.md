@@ -1,14 +1,14 @@
 ---
 title: DeletedItems
 second_title: Aspose.Email for .NET API 参考
-description: 已删除项目的数组
+description: 已删除的项目数组
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.exchange.webservice/syncfolderresult/deleteditems/
 ---
 ## SyncFolderResult.DeletedItems property
 
-已删除项目的数组。
+已删除的项目数组。
 
 ```csharp
 public string[] DeletedItems { get; }

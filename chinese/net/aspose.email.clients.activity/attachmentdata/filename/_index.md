@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: Aspose.Email for .NET API 参考
-description: 附件的文件名 强制是
+description: 附件的文件名 必填是
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.activity/attachmentdata/filename/
 ---
 ## AttachmentData.FileName property
 
-附件的文件名。 强制:是
+附件的文件名。 必填：是
 
 ```csharp
 public string FileName { get; set; }

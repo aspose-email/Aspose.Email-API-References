@@ -1,14 +1,14 @@
 ---
 title: RecomposeTnefContent
 second_title: Справочник по Aspose.Email для .NET API
-description: Составляет содержимое в формате TNEF. Обратите внимание что вложение tnef составляется если сообщение изначально содержало TNEF и было загружено без флага FileCompatibilityMode.PreserveTnefAttachments То есть этот метод не создать сообщение tnef из обычного.
+description: Составляет содержимое TNEF. Обратите внимание что вложение tnef составляется если сообщение изначально содержало TNEF и было загружено без флага FileCompatibilityMode.PreserveTnefAttachments То есть этот метод не создает сообщение tnef из обычного.
 type: docs
 weight: 530
 url: /ru/net/aspose.email/mailmessage/recomposetnefcontent/
 ---
 ## MailMessage.RecomposeTnefContent method
 
-Составляет содержимое в формате TNEF. Обратите внимание, что вложение tnef составляется, если сообщение изначально содержало TNEF и было загружено без флага FileCompatibilityMode.PreserveTnefAttachments, То есть этот метод не создать сообщение tnef из обычного.
+Составляет содержимое TNEF. Обратите внимание, что вложение tnef составляется, если сообщение изначально содержало TNEF и было загружено без флага FileCompatibilityMode.PreserveTnefAttachments, То есть этот метод не создает сообщение tnef из обычного.
 
 ```csharp
 public void RecomposeTnefContent()

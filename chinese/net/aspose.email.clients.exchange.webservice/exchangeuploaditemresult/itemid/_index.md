@@ -1,14 +1,14 @@
 ---
 title: ItemId
 second_title: Aspose.Email for .NET API 参考
-description: 获取项目 ID
+description: 获取项目 id
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeuploaditemresult/itemid/
 ---
 ## ExchangeUploadItemResult.ItemId property
 
-获取项目 ID
+获取项目 id
 
 ```csharp
 public string ItemId { get; }

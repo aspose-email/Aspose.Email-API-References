@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertysets/appointment/
 ---
 ## KnownPropertySets.Appointment field
 
-区域名称:日历 属性集名称:PSETID_Appointment
+区域名称：日历 属性集名称：PSETID_Appointment
 
 ```csharp
 public static readonly Guid Appointment;

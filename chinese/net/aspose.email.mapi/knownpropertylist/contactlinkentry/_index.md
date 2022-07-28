@@ -1,14 +1,14 @@
 ---
 title: ContactLinkEntry
 second_title: Aspose.Email for .NET API 参考
-description: 包含 PidLidContacts 属性的元素第 2.77 节 区域联系人属性 规范名称PidLidContactLinkEntry 替代名称dispidContactLinkEntry
+description: 包含 PidLidContacts 属性的元素第 2.77 节 区域Contact Properties 规范名称PidLidContactLinkEntry 替代名称dispidContactLinkEntry
 type: docs
 weight: 2970
 url: /zh/net/aspose.email.mapi/knownpropertylist/contactlinkentry/
 ---
 ## KnownPropertyList.ContactLinkEntry field
 
-包含 PidLidContacts 属性的元素（第 2.77 节）。 区域:联系人属性 规范名称:PidLidContactLinkEntry 替代名称:dispidContactLinkEntry
+包含 PidLidContacts 属性的元素（第 2.77 节）。 区域：Contact Properties 规范名称：PidLidContactLinkEntry 替代名称：dispidContactLinkEntry
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkEntry;

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API 参考
-description: 确定指定的 System.Object 是否等于当前的 System.Object
+description: 判断指定的 System.Object 是否等于当前的 System.Object.
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/pidnamepropertydescriptor/equals/
 ---
 ## Equals(object) {#equals_1}
 
-确定指定的 System.Object 是否等于当前的 System.Object。
+判断指定的 System.Object 是否等于当前的 System.Object.
 
 ```csharp
 public override bool Equals(object other)
@@ -16,7 +16,7 @@ public override bool Equals(object other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 与当前对象比较的对象。 |
+| obj | Object | 要与当前对象进行比较的对象。 |
 
 ### 返回值
 
@@ -44,7 +44,7 @@ public override bool Equals(PropertyDescriptor other)
 
 ### 返回值
 
-如果当前对象等于另一个参数则为真；否则为假。
+如果当前对象等于另一个参数，则为 true；否则为假。
 
 ### 也可以看看
 

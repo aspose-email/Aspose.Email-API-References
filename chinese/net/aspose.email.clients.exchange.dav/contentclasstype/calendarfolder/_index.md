@@ -1,14 +1,14 @@
 ---
 title: CalendarFolder
 second_title: Aspose.Email for .NET API 参考
-description: 获取 urncontent-classescalendarfolder 内容类 定义文件夹的一组属性 主要包含约会项目
+description: 获取 urncontent-classescalendarfolder 内容类 它为主要包含约会项目的文件夹 定义一组属性
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.exchange.dav/contentclasstype/calendarfolder/
 ---
 ## ContentClassType.CalendarFolder property
 
-获取 urn:content-classes:calendarfolder 内容类 定义文件夹的一组属性 主要包含约会项目。
+获取 urn:content-classes:calendarfolder 内容类 ，它为主要包含约会项目的文件夹 定义一组属性。
 
 ```csharp
 public static ContentClassType CalendarFolder { get; }
@@ -16,7 +16,7 @@ public static ContentClassType CalendarFolder { get; }
 
 ### 适当的价值
 
-日历文件夹内容calss。
+日历文件夹内容 cals。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: LogHeader
 second_title: Aspose.Email for .NET API 参考
-description: 表示开始日志头
+description: 代表启动日志头
 type: docs
 weight: 30
 url: /zh/net/aspose.email.tools.logging/iformatter/logheader/
 ---
 ## IFormatter.LogHeader property
 
-表示开始日志头
+代表启动日志头
 
 ```csharp
 public string LogHeader { get; }

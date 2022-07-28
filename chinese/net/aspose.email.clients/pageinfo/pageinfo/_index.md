@@ -1,14 +1,14 @@
 ---
 title: PageInfo
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 PageInfoaspose.email.clients/pageinfo 类的新实例
+description: 初始化PageInfoaspose.email.clients/pageinfo class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients/pageinfo/pageinfo/
 ---
 ## PageInfo(int) {#constructor}
 
-初始化 [`PageInfo`](../../pageinfo) 类的新实例
+初始化[`PageInfo`](../../pageinfo) class
 
 ```csharp
 public PageInfo(int itemsPerPage)
@@ -28,7 +28,7 @@ public PageInfo(int itemsPerPage)
 
 ## PageInfo(int, int) {#constructor_1}
 
-初始化 [`PageInfo`](../../pageinfo) 类的新实例
+初始化[`PageInfo`](../../pageinfo) class
 
 ```csharp
 public PageInfo(int itemsPerPage, int offset)
@@ -49,7 +49,7 @@ public PageInfo(int itemsPerPage, int offset)
 
 ## PageInfo(int, int, int, bool) {#constructor_2}
 
-初始化 [`PageInfo`](../../pageinfo) 类的新实例
+初始化[`PageInfo`](../../pageinfo) class
 
 ```csharp
 public PageInfo(int totalCount, int itemsPerPage, int offset, bool lastPage)
@@ -59,7 +59,7 @@ public PageInfo(int totalCount, int itemsPerPage, int offset, bool lastPage)
 | --- | --- | --- |
 | totalCount | Int32 | 视图中的项目总数 |
 | itemsPerPage | Int32 | 页面中的项目数 |
-| offset | Int32 | 偏移量 页面的视图 |
+| offset | Int32 | 页面视图中的偏移量 |
 | lastPage | Boolean | 指示当前页面是否是视图中的最后一页 |
 
 ### 也可以看看
@@ -72,7 +72,7 @@ public PageInfo(int totalCount, int itemsPerPage, int offset, bool lastPage)
 
 ## PageInfo(int, int, int, int, bool) {#constructor_3}
 
-初始化 [`PageInfo`](../../pageinfo) 类的新实例
+初始化[`PageInfo`](../../pageinfo) class
 
 ```csharp
 public PageInfo(int totalCount, int itemsPerPage, int offset, int absoluteOffset, bool lastPage)
@@ -84,7 +84,7 @@ public PageInfo(int totalCount, int itemsPerPage, int offset, int absoluteOffset
 | offset | Int32 | 页面视图中的偏移量 |
 | absoluteOffset | Int32 | 添加到页面起始索引的附加偏移量 |
 | lastPage | Int32 | 指示当前页面是否是视图中的最后一页 |
-|  itemsPerPage | Boolean | 页面中的项目数 |
+| itemsPerPage | Boolean | 页面中的项目数 |
 
 ### 也可以看看
 

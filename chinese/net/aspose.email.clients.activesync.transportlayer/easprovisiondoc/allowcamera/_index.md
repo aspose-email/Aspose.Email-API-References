@@ -1,14 +1,14 @@
 ---
 title: AllowCamera
 second_title: Aspose.Email for .NET API 参考
-description: 指定设备是否允许使用内置摄像头 如果客户端没有相机并且没有相机可以连接到设备则应该忽略此属性
+description: 指定设备是否允许使用内置摄像头 如果客户端没有摄像头且设备不能附加摄像头则应忽略此属性
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowcamera/
 ---
 ## EASProvisionDoc.AllowCamera property
 
-指定设备是否允许使用内置摄像头。 如果客户端没有相机并且没有相机可以连接到设备，则应该忽略此属性。
+指定设备是否允许使用内置摄像头。 如果客户端没有摄像头且设备不能附加摄像头，则应忽略此属性。
 
 ```csharp
 public bool? AllowCamera { get; set; }

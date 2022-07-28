@@ -1,14 +1,14 @@
 ---
 title: CertificateStatuses
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает успешно ли прошел проверку сертификат.
+description: Указывает успешно ли подтвержден сертификат.
 type: docs
 weight: 1090
 url: /ru/net/aspose.email.clients.activesync.transportlayer/certificatestatuses/
 ---
 ## CertificateStatuses class
 
-Указывает, успешно ли прошел проверку сертификат.
+Указывает, успешно ли подтвержден сертификат.
 
 ```csharp
 public class CertificateStatuses

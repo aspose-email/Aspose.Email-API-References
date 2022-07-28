@@ -26,7 +26,7 @@ public class SyncChangeServerOperation
 | Имя | Описание |
 | --- | --- |
 | [ApplicationData](../../aspose.email.clients.activesync.transportlayer/syncchangeserveroperation/applicationdata) { get; } | ApplicationData содержит данные для определенного объекта, такого как контакт, сообщение электронной почты, встреча в календаре или элемент задачи. |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncchangeserveroperation/serverid) { get; set; } | Представляет уникальный идентификатор, который присваивается сервером каждому синхронизируемому объекту. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/syncchangeserveroperation/serverid) { get; set; } | Представляет уникальный идентификатор, назначаемый сервером каждому объекту, который может быть синхронизирован. |
 
 ### Смотрите также
 

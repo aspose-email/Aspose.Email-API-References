@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/postrssitemhash/
 ---
 ## KnownPropertyList.PostRssItemHash field
 
-包含使用依赖于实现的算法计算的提要 XML 的哈希值。 区域:RSS 规范名称:PidLidPostRssItemHash 替代名称:dispidPostRssItemHash
+包含使用依赖于实现的算法计算的提要 XML 的哈希值。 区域：RSS 规范名称：PidLidPostRssItemHash 替代名称：dispidPostRssItemHash
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssItemHash;

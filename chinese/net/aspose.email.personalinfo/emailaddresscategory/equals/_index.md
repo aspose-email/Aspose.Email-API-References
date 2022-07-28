@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与当前对象比较的对象。 |
+| obj | Object | 与当前对象比较的对象。 |
 
 ### 返回值
 
@@ -40,7 +40,7 @@ public virtual bool Equals(EmailAddressCategory other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | EmailAddressCategory | 要与当前对象比较的对象。 |
+| other | EmailAddressCategory | 与当前对象比较的对象。 |
 
 ### 返回值
 

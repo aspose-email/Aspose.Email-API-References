@@ -1,14 +1,14 @@
 ---
 title: Mime
 second_title: Aspose.Email for .NET API 参考
-description: 包含 MIME 编码的消息 Mime 内容作为 WBXML 标签内的不透明 BLOB 传输如 WBXML1.2 中所指定 如果消息包含会议请求则 Mime 元素包含 iCalendar 格式 MS-OXCICAL 或传输中性封装格式 TNEF 格式 MS-OXTNEF 的会议详细信息 如 RFC2447 第 3.4 节所述iCalendar 会议请求的内容类型为text/calendar方法参数设置为REQUEST
+description: 包含 MIME 编码的消息 Mime 内容在 WBXML 标记中作为不透明 BLOB 传输如 WBXML1.2 中所指定 如果消息包含会议请求则 Mime 元素包含会议的详细信息iCalendar 格式 MS-OXCICAL 或传输中性封装格式 TNEF 格式 MS-OXTNEF 如 RFC2447 第 3.4 节所述iCalendar 会议请求的内容类型为文本/日历方法参数设置为请求
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/smartrequest/mime/
 ---
 ## SmartRequest.Mime property
 
-包含 MIME 编码的消息。 Mime 内容作为 WBXML 标签内的不透明 BLOB 传输，如 [WBXML1.2] 中所指定。 如果消息包含会议请求，则 Mime 元素包含 iCalendar 格式 [MS-OXCICAL] 或传输中性封装格式 (TNEF) 格式 [MS-OXTNEF] 的会议详细信息。 如 [RFC2447] 第 3.4 节所述，iCalendar 会议请求的内容类型为“text/calendar”，方法参数设置为“REQUEST”。
+包含 MIME 编码的消息。 Mime 内容在 WBXML 标记中作为不透明 BLOB 传输，如 [WBXML1.2] 中所指定。 如果消息包含会议请求，则 Mime 元素包含会议的详细信息iCalendar 格式 [MS-OXCICAL] 或传输中性封装格式 (TNEF) 格式 [MS-OXTNEF]。 如 [RFC2447] 第 3.4 节所述，iCalendar 会议请求的内容类型为“文本/日历”，方法参数设置为“请求”。
 
 ```csharp
 public string Mime { get; set; }

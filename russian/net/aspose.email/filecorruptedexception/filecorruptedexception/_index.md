@@ -1,14 +1,14 @@
 ---
 title: FileCorruptedException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFileCorruptedExceptionaspose.email/filecorruptedexception.
+description: Инициализирует новый экземплярFileCorruptedExceptionaspose.email/filecorruptedexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/filecorruptedexception/filecorruptedexception/
 ---
 ## FileCorruptedException() {#constructor}
 
-Инициализирует новый экземпляр класса[`FileCorruptedException`](../../filecorruptedexception).
+Инициализирует новый экземпляр[`FileCorruptedException`](../../filecorruptedexception) класс.
 
 ```csharp
 public FileCorruptedException()
@@ -24,7 +24,7 @@ public FileCorruptedException()
 
 ## FileCorruptedException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`FileCorruptedException`](../../filecorruptedexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`FileCorruptedException`](../../filecorruptedexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public FileCorruptedException(string message)
@@ -44,7 +44,7 @@ public FileCorruptedException(string message)
 
 ## FileCorruptedException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`FileCorruptedException`](../../filecorruptedexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`FileCorruptedException`](../../filecorruptedexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public FileCorruptedException(string message, Exception inner)

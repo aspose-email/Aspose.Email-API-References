@@ -1,14 +1,14 @@
 ---
 title: PR_7BIT_DISPLAY_NAME_W
 second_title: Aspose.Email for .NET API 参考
-description: PR_7BIT_DISPLAY_NAME 的 Unicode 对等体
+description: PR_7BIT_DISPLAY_NAME. 的 Unicode 对等体
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_7bit_display_name_w/
 ---
 ## MapiPropertyTag.PR_7BIT_DISPLAY_NAME_W field
 
-PR_7BIT_DISPLAY_NAME 的 Unicode 对等体。
+PR_7BIT_DISPLAY_NAME. 的 Unicode 对等体
 
 ```csharp
 public static readonly long PR_7BIT_DISPLAY_NAME_W;

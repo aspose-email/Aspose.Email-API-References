@@ -1,14 +1,14 @@
 ---
 title: Responsibility
 second_title: Aspose.Email for .NET API 参考
-description: 指定另一个邮件代理是否已确保邮件将被传递 区域MapiNonTransmittable 规范名称PidTagResponsibility 替代名称PR_RESPONSIBILITY ptagResponsibility
+description: 指定另一个邮件代理是否已确保邮件将被传递 区域MapiNonTransmittable 规范名称PidTagResponsibility 替代名称PR_RESPONSIBILITYptagResponsibility
 type: docs
 weight: 16210
 url: /zh/net/aspose.email.mapi/knownpropertylist/responsibility/
 ---
 ## KnownPropertyList.Responsibility field
 
-指定另一个邮件代理是否已确保邮件将被传递。 区域:MapiNonTransmittable 规范名称:PidTagResponsibility 替代名称:PR_RESPONSIBILITY, ptagResponsibility
+指定另一个邮件代理是否已确保邮件将被传递。 区域：MapiNonTransmittable 规范名称：PidTagResponsibility 替代名称：PR_RESPONSIBILITY、ptagResponsibility
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Responsibility;

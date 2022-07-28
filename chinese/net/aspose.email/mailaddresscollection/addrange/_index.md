@@ -16,7 +16,7 @@ public void AddRange(MailAddressCollection addresses)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| addresses | MailAddressCollection | 邮件地址集合 |
+| addresses | MailAddressCollection | 邮件地址的收集 |
 
 ### 也可以看看
 

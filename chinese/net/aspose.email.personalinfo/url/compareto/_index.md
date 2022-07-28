@@ -1,14 +1,14 @@
 ---
 title: CompareTo
 second_title: Aspose.Email for .NET API 参考
-description: 将当前实例与另一个相同类型的对象进行比较并返回一个整数指示当前实例在排序顺序中是在相同位置之前之后还是出现在相同位置作为另一个对象
+description: 将当前实例与另一个相同类型的对象进行比较并返回一个整数指示当前实例在排序顺序中是在另一个对象之前之后还是出现在相同位置
 type: docs
 weight: 50
 url: /zh/net/aspose.email.personalinfo/url/compareto/
 ---
 ## Url.CompareTo method
 
-将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在相同位置之前、之后还是出现在相同位置作为另一个对象。
+将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在另一个对象之前、之后还是出现在相同位置。
 
 ```csharp
 public virtual int CompareTo(Url pn)
@@ -20,7 +20,7 @@ public virtual int CompareTo(Url pn)
 
 ### 返回值
 
-此方法返回: 如果小于值，则返回小于 0 的值 0 如果这等于值 一个值大于 0 如果这大于值
+此方法返回： 小于 0 的值，如果这小于 value 0，如果这等于 value 一个大于 0 的值，如果这大于 value
 
 ### 也可以看看
 

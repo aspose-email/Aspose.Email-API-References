@@ -1,14 +1,14 @@
 ---
 title: Manager
 second_title: Aspose.Email for .NET API 参考
-description: 指定附加到 Document 对象的文件的管理器 区域普通 规范名称PidNameManager 备用名称urnschemas-microsoft-comofficeofficeManager
+description: 指定附加到文档对象的文件的管理器 区域Common 规范名称PidNameManager 备用名称urnschemas-microsoft-comofficeofficeManager
 type: docs
 weight: 12350
 url: /zh/net/aspose.email.mapi/knownpropertylist/manager/
 ---
 ## KnownPropertyList.Manager field
 
-指定附加到 Document 对象的文件的管理器。 区域：普通 规范名称：PidNameManager 备用名称：urn:schemas-microsoft-com:office:office#Manager
+指定附加到文档对象的文件的管理器。 区域：Common 规范名称：PidNameManager 备用名称：urn:schemas-microsoft-com:office:office#Manager
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Manager;

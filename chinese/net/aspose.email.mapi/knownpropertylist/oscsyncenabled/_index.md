@@ -1,14 +1,14 @@
 ---
 title: OscSyncEnabled
 second_title: Aspose.Email for .NET API 参考
-description: 指定与外部源的联系人同步是否由服务器处理 区域联系人属性 规范名称PidTagOscSyncEnabled 替代名称PR_OSC_SYNC_ENABLEDONSERVER
+description: 指定是否由服务器处理与外部源的联系人同步 区域联系人属性 规范名称PidTagOscSyncEnabled 备用名称PR_OSC_SYNC_ENABLEDONSERVER
 type: docs
 weight: 13920
 url: /zh/net/aspose.email.mapi/knownpropertylist/oscsyncenabled/
 ---
 ## KnownPropertyList.OscSyncEnabled field
 
-指定与外部源的联系人同步是否由服务器处理。 区域:联系人属性 规范名称:PidTagOscSyncEnabled 替代名称:PR_OSC_SYNC_ENABLEDONSERVER
+指定是否由服务器处理与外部源的联系人同步。 区域：联系人属性 规范名称：PidTagOscSyncEnabled 备用名称：PR_OSC_SYNC_ENABLEDONSERVER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OscSyncEnabled;

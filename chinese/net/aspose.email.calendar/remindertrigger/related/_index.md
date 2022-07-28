@@ -1,14 +1,14 @@
 ---
 title: Related
 second_title: Aspose.Email for .NET API 参考
-description: 指定警报触发器与事件开始或结束的关系
+description: 指定警报触发相对于事件开始或结束的关系
 type: docs
 weight: 40
 url: /zh/net/aspose.email.calendar/remindertrigger/related/
 ---
 ## ReminderTrigger.Related property
 
-指定警报触发器与事件开始或结束的关系。
+指定警报触发相对于事件开始或结束的关系。
 
 ```csharp
 public ReminderRelated Related { get; set; }

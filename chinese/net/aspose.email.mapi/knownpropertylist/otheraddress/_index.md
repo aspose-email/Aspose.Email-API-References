@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/otheraddress/
 ---
 ## KnownPropertyList.OtherAddress field
 
-指定联系人其他地址的完整地址。 区域:联系人属性 规范名称:PidLidOtherAddress 替代名称:dispidOtherAddress
+指定联系人其他地址的完整地址。 区域：联系人属性 规范名称：PidLidOtherAddress 替代名称：dispidOtherAddress
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OtherAddress;

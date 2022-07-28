@@ -1,14 +1,14 @@
 ---
 title: AppointmentSequenceTime
 second_title: Aspose.Email for .NET API 参考
-description: 表示上次修改 PidLidAppointmentSequence 属性第 2.25 节的日期和时间 区域会议 规范名称PidLidAppointmentSequenceTime 替代名称dispidApptSeqTime
+description: 表示上次修改 PidLidAppointmentSequence 属性第 2.25 节的日期和时间 区域Meetings 规范名称PidLidAppointmentSequenceTime 替代名称dispidApptSeqTime
 type: docs
 weight: 1290
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentsequencetime/
 ---
 ## KnownPropertyList.AppointmentSequenceTime field
 
-表示上次修改 PidLidAppointmentSequence 属性（第 2.25 节）的日期和时间。 区域:会议 规范名称:PidLidAppointmentSequenceTime 替代名称:dispidApptSeqTime
+表示上次修改 PidLidAppointmentSequence 属性（第 2.25 节）的日期和时间。 区域：Meetings 规范名称：PidLidAppointmentSequenceTime 替代名称：dispidApptSeqTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentSequenceTime;

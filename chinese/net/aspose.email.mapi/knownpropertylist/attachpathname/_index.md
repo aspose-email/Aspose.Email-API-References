@@ -1,14 +1,14 @@
 ---
 title: AttachPathname
 second_title: Aspose.Email for .NET API 参考
-description: 包含 PidTagAttachLongPathname 属性的 8.3 名称第 2.587 节 区域消息附件属性 规范名称PidTagAttachPathname 备用名称PR_ATTACH_PATHNAME PR_ATTACH_PATHNAME_A ptagAttachPathname PR_ATTACH_PATHNAME_W
+description: 包含 PidTagAttachLongPathname 属性的 8.3 名称第 2.587 节 区域消息附件属性 规范名称PidTagAttachPathname 备用名称PR_ATTACH_PATHNAMEPR_ATTACH_PATHNAME_AptagAttachPathnamePR_ATTACH_PATHNAME_W
 type: docs
 weight: 1750
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachpathname/
 ---
 ## KnownPropertyList.AttachPathname field
 
-包含 PidTagAttachLongPathname 属性的 8.3 名称（第 2.587 节）。 区域:消息附件属性 规范名称:PidTagAttachPathname 备用名称:PR_ATTACH_PATHNAME, PR_ATTACH_PATHNAME_A, ptagAttachPathname, PR_ATTACH_PATHNAME_W
+包含 PidTagAttachLongPathname 属性的 8.3 名称（第 2.587 节）。 区域：消息附件属性 规范名称：PidTagAttachPathname 备用名称：PR_ATTACH_PATHNAME、PR_ATTACH_PATHNAME_A、ptagAttachPathname、PR_ATTACH_PATHNAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachPathname;

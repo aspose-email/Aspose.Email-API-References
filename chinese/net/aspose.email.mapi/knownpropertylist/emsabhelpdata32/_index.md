@@ -1,14 +1,14 @@
 ---
 title: EmsAbHelpData32
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_HELP_DATA32
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_HELP_DATA32
 type: docs
 weight: 6540
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabhelpdata32/
 ---
 ## KnownPropertyList.EmsAbHelpData32 field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_HELP_DATA32
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_HELP_DATA32
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHelpData32;

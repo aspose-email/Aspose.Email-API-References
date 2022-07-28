@@ -16,7 +16,7 @@ public void Insert(int index, ImapMessageInfo item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 指定对象将被插入的索引。 |
+| index | Int32 | 将插入指定对象的索引。 |
 | item | ImapMessageInfo | 要插入的 ImapMessagInfo 对象。 |
 
 ### 也可以看看

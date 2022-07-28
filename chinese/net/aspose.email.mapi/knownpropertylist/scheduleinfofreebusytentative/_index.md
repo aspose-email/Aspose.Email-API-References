@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoFreeBusyTentative
 second_title: Aspose.Email for .NET API 参考
-description: 指定空闲/忙碌状态设置为暂定值的时间块 区域忙/闲属性 规范名称PidTagScheduleInfoFreeBusyTentative 替代名称PR_SCHDINFO_FREEBUSY_TENTATIVE
+description: 指定空闲/忙碌状态设置为暂定值的时间块 区域空闲/忙碌属性 规范名称PidTagScheduleInfoFreeBusyTentative 替代名称PR_SCHDINFO_FREEBUSY_TENTATIVE
 type: docs
 weight: 16850
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusytentative/
 ---
 ## KnownPropertyList.ScheduleInfoFreeBusyTentative field
 
-指定空闲/忙碌状态设置为暂定值的时间块。 区域:忙/闲属性 规范名称:PidTagScheduleInfoFreeBusyTentative 替代名称:PR_SCHDINFO_FREEBUSY_TENTATIVE
+指定空闲/忙碌状态设置为暂定值的时间块。 区域：空闲/忙碌属性 规范名称：PidTagScheduleInfoFreeBusyTentative 替代名称：PR_SCHDINFO_FREEBUSY_TENTATIVE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoFreeBusyTentative;

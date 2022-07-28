@@ -1,14 +1,14 @@
 ---
 title: ExchangeTask
 second_title: Aspose.Email for .NET API 参考
-description: 表示交换任务信息
+description: 代表交换任务信息
 type: docs
 weight: 3830
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangetask/
 ---
 ## ExchangeTask class
 
-表示交换任务信息。
+代表交换任务信息。
 
 ```csharp
 public sealed class ExchangeTask : Task
@@ -18,7 +18,7 @@ public sealed class ExchangeTask : Task
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ExchangeTask](exchangetask)() | 初始化[`ExchangeTask`](../exchangetask)类的新实例。 |
+| [ExchangeTask](exchangetask)() | 初始化[`ExchangeTask`](../exchangetask)类. |
 
 ## 特性
 
@@ -34,7 +34,7 @@ public sealed class ExchangeTask : Task
 | [DueDate](../../aspose.email.calendar/task/duedate) { get; set; } | 获取或设置用户期望完成任务的日期。 |
 | [IsBodyHtml](../../aspose.email.clients.exchange.webservice/exchangetask/isbodyhtml) { get; set; } | 获取或设置一个值，指示任务正文是否为 html 格式。 |
 | [Method](../../aspose.email.calendar/task/method) { get; set; } | 获取或设置与任务关联的 iTIP 方法。 |
-| [Mileage](../../aspose.email.clients.exchange.webservice/exchangetask/mileage) { get; set; } | 获取或设置任务的里程。 |
+| [Mileage](../../aspose.email.clients.exchange.webservice/exchangetask/mileage) { get; set; } | 获取或设置任务的里程数。 |
 | [Organizer](../../aspose.email.calendar/task/organizer) { get; set; } | 获取或设置组织者。 |
 | [PercentComplete](../../aspose.email.calendar/task/percentcomplete) { get; set; } | 获取或设置任务完成百分比。 |
 | [Priority](../../aspose.email.calendar/task/priority) { get; set; } | 获取或设置任务优先级。 |
@@ -45,7 +45,7 @@ public sealed class ExchangeTask : Task
 | [StartDate](../../aspose.email.calendar/task/startdate) { get; set; } | 获取或设置任务的开始日期。 |
 | [Status](../../aspose.email.clients.exchange.webservice/exchangetask/status) { get; set; } | 获取或设置任务状态。 |
 | [Subject](../../aspose.email.calendar/task/subject) { get; set; } | 获取或设置任务主题。 |
-| [TotalWork](../../aspose.email.clients.exchange.webservice/exchangetask/totalwork) { get; set; } | 获取或设置用户期望完成一项任务的总工作量。 |
+| [TotalWork](../../aspose.email.clients.exchange.webservice/exchangetask/totalwork) { get; set; } | 获取或设置用户期望完成任务的总工作量。 |
 | [UniqueId](../../aspose.email.calendar/task/uniqueid) { get; set; } | 获取或设置唯一标识符 |
 | [UniqueUri](../../aspose.email.clients.exchange.webservice/exchangetask/uniqueuri) { get; set; } | 获取或设置任务的唯一 uri。 |
 
@@ -57,7 +57,7 @@ public sealed class ExchangeTask : Task
 | [Request](../../aspose.email.calendar/task/request)() | 请求对象。 |
 | virtual [Save](../../aspose.email.calendar/task/save)(Stream) | 使用 MSG 格式将当前对象保存到给定的流中。 |
 | virtual [Save](../../aspose.email.calendar/task/save)(string) | 使用 MSG 格式将当前对象保存到文件中。 |
-| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save#save_1)(Stream, TaskSaveFormat) | 使用指定格式将当前对象保存到给定流。 |
+| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save#save_1)(Stream, TaskSaveFormat) | 使用指定格式将当前对象保存到给定流中。 |
 | override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save#save_3)(string, TaskSaveFormat) | 使用指定格式将当前对象保存到文件中。 |
 
 ### 也可以看看

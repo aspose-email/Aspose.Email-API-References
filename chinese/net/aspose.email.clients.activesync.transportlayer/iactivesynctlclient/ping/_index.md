@@ -16,12 +16,12 @@ public string[] Ping(string serverId, FolderClass fClass)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| serverId | String | Id 元素是 Ping 命令请求中 Folder 元素的必需子元素，它指定要监控的文件夹的服务器ID。 |
-| fClass | FolderClass | Class 元素是 Ping 命令请求中 Folder 元素的必需子元素，它指定要监视的文件夹的内容类。 |
+| serverId | String | Id 元素是 Ping 命令请求中 Folder 元素的必需子元素，用于指定要监视的文件夹的服务器 ID。 |
+| fClass | FolderClass | Class 元素是 Ping 命令请求中 Folder 元素的必需子元素，用于指定要监视的文件夹的内容类。 |
 
 ### 返回值
 
-发现更改的文件夹数组
+已发现更改的文件夹数组
 
 ### 也可以看看
 
@@ -42,13 +42,13 @@ public string[] Ping(int heartbeatInterval, string serverId, FolderClass fClass)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| heartbeatInterval | Int32 | HeartbeatInterval 指定服务器在发送前应该等待的时间长度，以秒为单位如果没有新项目添加到指定的文件夹集，则响应。 |
-| serverId | String | Id 元素是 Ping 命令请求中 Folder 元素的必需子元素，它指定要监控的文件夹的服务器ID。 |
-| fClass | FolderClass | Class 元素是 Ping 命令请求中 Folder 元素的必需子元素，它指定要监视的文件夹的内容类。 |
+| heartbeatInterval | Int32 | HeartbeatInterval 指定时间长度，以秒为单位，如果没有新项目添加到指定的文件夹集，服务器应该在发送响应之前等待的时间长度。 |
+| serverId | String | Id 元素是 Ping 命令请求中 Folder 元素的必需子元素，用于指定要监视的文件夹的服务器 ID。 |
+| fClass | FolderClass | Class 元素是 Ping 命令请求中 Folder 元素的必需子元素，用于指定要监视的文件夹的内容类。 |
 
 ### 返回值
 
-发现更改的文件夹数组
+已发现更改的文件夹数组
 
 ### 也可以看看
 
@@ -73,7 +73,7 @@ public string[] Ping(params PingParameter[] pingParameters)
 
 ### 返回值
 
-已更改的文件夹数组发现
+已发现更改的文件夹数组
 
 ### 也可以看看
 
@@ -94,12 +94,12 @@ public string[] Ping(int heartbeatInterval, params PingParameter[] pingParameter
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| heartbeatInterval | Int32 | HeartbeatInterval 指定服务器在发送前应该等待的时间长度，以秒为单位如果没有新项目添加到指定的文件夹集，则响应。 |
+| heartbeatInterval | Int32 | HeartbeatInterval 指定时间长度，以秒为单位，如果没有新项目添加到指定的文件夹集，服务器应该在发送响应之前等待的时间长度。 |
 | pingParameters | PingParameter[] | Ping 参数 |
 
 ### 返回值
 
-已更改的文件夹数组发现
+已发现更改的文件夹数组
 
 ### 也可以看看
 
@@ -124,7 +124,7 @@ public string[] Ping(IEnumerable<PingParameter> pingParameters)
 
 ### 返回值
 
-已更改的文件夹数组发现
+已发现更改的文件夹数组
 
 ### 也可以看看
 
@@ -145,12 +145,12 @@ public string[] Ping(int heartbeatInterval, IEnumerable<PingParameter> pingParam
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| heartbeatInterval | Int32 | HeartbeatInterval 指定服务器在发送前应该等待的时间长度，以秒为单位如果没有新项目添加到指定的文件夹集，则响应。 |
+| heartbeatInterval | Int32 | HeartbeatInterval 指定时间长度，以秒为单位，如果没有新项目添加到指定的文件夹集，服务器应该在发送响应之前等待的时间长度。 |
 | pingParameters | IEnumerable`1 | Ping 参数 |
 
 ### 返回值
 
-已更改的文件夹数组发现
+已发现更改的文件夹数组
 
 ### 也可以看看
 

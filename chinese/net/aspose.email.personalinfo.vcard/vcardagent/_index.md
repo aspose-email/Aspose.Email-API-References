@@ -3,7 +3,7 @@ title: VCardAgent
 second_title: Aspose.Email for .NET API 参考
 description: 表示 vCard 代理属性
 type: docs
-weight: 19530
+weight: 19560
 url: /zh/net/aspose.email.personalinfo.vcard/vcardagent/
 ---
 ## VCardAgent class
@@ -18,15 +18,15 @@ public sealed class VCardAgent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardAgent](vcardagent)() | 初始化 [`VCardAgent`](../vcardagent) 类的新实例 |
+| [VCardAgent](vcardagent)() | 初始化[`VCardAgent`](../vcardagent) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AgentCard](../../aspose.email.personalinfo.vcard/vcardagent/agentcard) { get; set; } | 获取或设置代理卡（` null` if[`ValueLocation`](./valuelocation)不是` INLINE` ) |
-| [Uri](../../aspose.email.personalinfo.vcard/vcardagent/uri) { get; set; } | 获取或设置代理卡的 uri (` null` if[`ValueLocation`](./valuelocation)is` INLINE` ) |
-| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardagent/valuelocation) { get; set; } | 获取或设置值位置 |
+| [AgentCard](../../aspose.email.personalinfo.vcard/vcardagent/agentcard) { get; set; } | 获取或设置代理卡（`无效的`如果[`ValueLocation`](./valuelocation)不是`排队`) |
+| [Uri](../../aspose.email.personalinfo.vcard/vcardagent/uri) { get; set; } | 获取或设置代理卡的uri(`无效的`如果[`ValueLocation`](./valuelocation)是`排队`) |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardagent/valuelocation) { get; set; } | 获取或设置一个值 location |
 
 ### 也可以看看
 

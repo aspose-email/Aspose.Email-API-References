@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/annotatesupported/
 ---
 ## ImapClient.AnnotateSupported property
 
-获取是否支持 ANNOTATE 扩展的信息 查看更多:https://tools.ietf.org/html/rfc5257
+获取是否支持 ANNOTATE 扩展的信息 查看更多：https://tools.ietf.org/html/rfc5257
 
 ```csharp
 public bool AnnotateSupported { get; set; }

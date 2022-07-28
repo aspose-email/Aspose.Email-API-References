@@ -1,14 +1,14 @@
 ---
 title: MessageObjectSaveFormat
 second_title: Aspose.Email for .NET API 参考
-description: 表示可用格式MessageObject./messageobject可以保存到
+description: 表示可用格式MessageObject./messageobject可以保存到.
 type: docs
-weight: 18880
+weight: 18910
 url: /zh/net/aspose.email.mapi.msg/messageobjectsaveformat/
 ---
 ## MessageObjectSaveFormat enumeration
 
-表示可用格式[`MessageObject`](../messageobject)可以保存到。
+表示可用格式[`MessageObject`](../messageobject)可以保存到.
 
 ```csharp
 public enum MessageObjectSaveFormat
@@ -18,7 +18,7 @@ public enum MessageObjectSaveFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Msg | `0` | 味精格式。 |
+| Msg | `0` | 味精格式. |
 
 ### 也可以看看
 

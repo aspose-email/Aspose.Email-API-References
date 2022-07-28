@@ -1,14 +1,14 @@
 ---
 title: BrotherValue
 second_title: Aspose.Email for .NET API 参考
-description: Brother 类别的字符串值
+description: 兄弟类别的字符串值
 type: docs
 weight: 230
 url: /zh/net/aspose.email.personalinfo/associatedpersoncategory/brothervalue/
 ---
 ## AssociatedPersonCategory.BrotherValue field
 
-'Brother' 类别的字符串值
+“兄弟”类别的字符串值
 
 ```csharp
 public const string BrotherValue;

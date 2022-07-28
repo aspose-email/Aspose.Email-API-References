@@ -1,73 +1,73 @@
 ---
 title: Aspose.Email.Clients.Imap
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Clients.Imap 命名空间提供类来访问 并使用 Internet 消息访问协议 IMAP 处理消息
+description: 的 Aspose.Email.Clients.Imap命名空间提供类来访问 并使用 Internet 消息访问协议 IMAP 操作消息
 type: docs
 weight: 220
 url: /zh/net/aspose.email.clients.imap/
 ---
-**Aspose.Email.Clients.Imap** 命名空间提供类来访问 并使用 Internet 消息访问协议 (IMAP) 处理消息。
+的 **Aspose.Email.Clients.Imap**命名空间提供类来访问 并使用 Internet 消息访问协议 (IMAP) 操作消息。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [AppendMessagesResult](./appendmessagesresult) | 包含带有消息的操作结果 |
+| [AppendMessagesResult](./appendmessagesresult) | 包含消息操作的结果 |
 | [BackupSettings](./backupsettings) | 类包含备份操作的选项 |
 | [BaseSearchConditions](./basesearchconditions) | 为搜索条件提供基类。 |
 | [ESearchOptions](./esearchoptions) | ESEARCH 结果选项 此方法仅在服务器支持 ESEARCH 扩展时有效。 请阅读更多 https://tools.ietf.org/html/rfc4315 |
 | [FetchTimeoutException](./fetchtimeoutexception) | 表示在指定时间内无法读取消息时抛出的异常。 |
 | [ImapAttachmentInfo](./imapattachmentinfo) | 表示附件信息。 |
-| [ImapAttachmentInfoCollection](./imapattachmentinfocollection) | 表示[`ImapAttachmentInfo`](../aspose.email.clients.imap/imapattachmentinfo) |
+| [ImapAttachmentInfoCollection](./imapattachmentinfocollection) | 代表集合[`ImapAttachmentInfo`](../aspose.email.clients.imap/imapattachmentinfo) |
 | [ImapClient](./imapclient) | 允许应用程序使用 Internet 消息访问协议 (IMAP) 访问和操作 消息。 |
-| [ImapFolderInfo](./imapfolderinfo) | 表示一个 IMAP 文件夹。 |
+| [ImapFolderInfo](./imapfolderinfo) | 表示 IMAP 文件夹。 |
 | [ImapFolderInfoCollection](./imapfolderinfocollection) | 为 ImapFolderInfo 对象的集合提供容器。 |
-| [ImapIdentificationInfo](./imapidentificationinfo) | 表示带有标识信息的类容器，用于在邮件客户端和服务器之间进行交换。 请阅读更多 rfc2971 https://tools.ietf.org/html/rfc2971 |
+| [ImapIdentificationInfo](./imapidentificationinfo) | 表示带有标识信息的类容器，用于在邮件客户端和服务器之间交换。 请阅读更多 rfc2971 https://tools.ietf.org/html/rfc2971 |
 | [ImapMailboxInfo](./imapmailboxinfo) | 包含一组专用邮箱 |
 | [ImapMessageFlags](./imapmessageflags) | 表示与消息关联的标志。 |
 | [ImapMessageInfo](./imapmessageinfo) | 表示一个 Imap 消息对象。 |
-| [ImapMessageInfoCollection](./imapmessageinfocollection) | 为[`ImapMessageInfo`](../aspose.email.clients.imap/imapmessageinfo)objects 的集合提供容器 |
+| [ImapMessageInfoCollection](./imapmessageinfocollection) | 为集合提供一个容器[`ImapMessageInfo`](../aspose.email.clients.imap/imapmessageinfo)对象 |
 | [ImapMonitoringErrorEventArgs](./imapmonitoringerroreventargs) | 类包含监控错误事件数据。 |
 | [ImapMonitoringErrorEventHandler](./imapmonitoringerroreventhandler) | 表示将处理 imap 监控错误事件的方法 |
 | [ImapMonitoringEventArgs](./imapmonitoringeventargs) | 类包含监控事件数据。 |
 | [ImapMonitoringEventHandler](./imapmonitoringeventhandler) | 表示将处理 imap 监控事件的方法 |
-| [ImapNamespace](./imapnamespace) | 表示 IMAP 命名空间 更多细节:https://tools.ietf.org/html/rfc2342 |
+| [ImapNamespace](./imapnamespace) | 代表 IMAP 命名空间 更多细节：https://tools.ietf.org/html/rfc2342 |
 | [ImapPageInfo](./imappageinfo) | 包含有关使用分页方法时检索到的页面的信息。 |
 | [ImapQueryBuilder](./imapquerybuilder) | 表示 IMAP 协议使用的搜索表达式 的构建器。 |
 | [ImapQuota](./imapquota) | 包含有关邮箱资源配额的信息。 |
 | [ImapQuotaRoot](./imapquotaroot) | 包含有关邮箱资源配额根的信息。 |
-| [MessageThreadResult](./messagethreadresult) | 包含 SORT ot THREAD 方法的结果 查看更多:https://tools.ietf.org/html/rfc5256 |
+| [MessageThreadResult](./messagethreadresult) | 包含 SORT ot THREAD 方法的结果 查看更多：https://tools.ietf.org/html/rfc5256 |
 | [ModificationSequenceField](./modificationsequencefield) | 为要搜索的选定字段定义一组值。 |
 | [PageSettings](./pagesettings) | ImapClient.ListMessagesByPage 方法的设置 |
 | [PageSettingsAsync](./pagesettingsasync) | ImapClient.BeginListMessagesByPage 异步方法的设置。 |
-| [RangeSeqSet](./rangeseqset) | 具有要搜索的值范围的容器。 |
+| [RangeSeqSet](./rangeseqset) | 包含要搜索的值范围的容器。 |
 | [ReadLinesTimeoutException](./readlinestimeoutexception) | 表示在指定时间内无法读取服务器响应时抛出的异常。 |
 | [RestoreSettings](./restoresettings) | ImapClient.Restore 方法的设置 |
 | [RestoreSettingsAsync](./restoresettingsasync) | ImapClient.Restore 异步方法的设置。 |
 | [SequenceSetBaseValue](./sequencesetbasevalue) | 用于搜索值的不同容器的基类。 |
 | [SequenceSetField](./sequencesetfield) | 为要搜索的选定字段定义一组值。 |
 | [SimpleSeqSet](./simpleseqset) | 用于搜索值的简单容器。 |
-| [SortConditions](./sortconditions) | 提供 SORT 扩展的搜索条件。 与在 https://tools.ietf.org/html/rfc5256 |
-| [ThreadSearchConditions](./threadsearchconditions) | 提供检索电子邮件线程的搜索条件。 与 https://tools.ietf.org/html/rfc5256 |
-| [XGMThreadSearchConditions](./xgmthreadsearchconditions) | 提供检索电子邮件线程的搜索条件。 与 https://developers.google.com/gmail/imap/imap-extensions#checking_for_the_presence_of_extensions 中描述的 X-GM-EXT-1 IMAP 扩展兼容。 |
+| [SortConditions](./sortconditions) | 提供 SORT 扩展的搜索条件。 与在 https://tools.ietf.org/html/rfc5256 中描述的 SORT IMAP 扩展兼容 |
+| [ThreadSearchConditions](./threadsearchconditions) | 提供检索电子邮件线程的搜索条件。 与 https://tools.ietf.org/html/rfc5256 中描述的 THREAD IMAP 扩展兼容 |
+| [XGMThreadSearchConditions](./xgmthreadsearchconditions) | 提供检索电子邮件线程的搜索条件。 与 X-GM-EXT-1 IMAP 扩展兼容 https://developers.google.com/gmail/imap/imap-extensions#checking_for_the_presence_of_extensions. |
 ## 接口
 
 | 界面 | 描述 |
 | --- | --- |
 | [IAsyncImapClient](./iasyncimapclient) | 允许应用程序使用 Internet 消息访问协议 (IMAP) 访问和操作 消息。 |
-| [IImapMonitoringState](./iimapmonitoringstate) | 保持文件夹监视状态。这可用于从发生错误时停止的位置 恢复文件夹监视。使用[`ResumeMonitoring`](../aspose.email.clients.imap/imapclient/resumemonitoring)方法。 |
+| [IImapMonitoringState](./iimapmonitoringstate) | 保持文件夹监视状态。这可用于从发生错误时停止的 place 恢复文件夹监视。利用[`ResumeMonitoring`](../aspose.email.clients.imap/imapclient/resumemonitoring)方法. |
 ## 枚举
 
 | 枚举 | 描述 |
 | --- | --- |
 | [ImapCommandResult](./imapcommandresult) | 枚举 imap 命令结果。 |
 | [ImapKnownAuthenticationType](./imapknownauthenticationtype) |  |
-| [ImapListFields](./imaplistfields) | 可从服务器检索的字段 |
-| [ImapNamespaceType](./imapnamespacetype) | 表示 IMAP 命名空间类型 更多详情:https://tools.ietf.org/html/rfc2342 |
-| [ImapSpecialFolderTypes](./imapspecialfoldertypes) | 表示特殊用途邮箱的枚举 更多细节参见 RFC6154 http://tools.ietf.org /html/rfc6154 |
+| [ImapListFields](./imaplistfields) | 可以从服务器检索的字段 |
+| [ImapNamespaceType](./imapnamespacetype) | 代表 IMAP 命名空间类型 更多细节：https://tools.ietf.org/html/rfc2342 |
+| [ImapSpecialFolderTypes](./imapspecialfoldertypes) | 表示特殊用途邮箱的枚举 更多细节参见RFC6154 http://tools.ietf.org/html/rfc6154 |
 | [ImapStatusCode](./imapstatuscode) | 表示状态响应。 |
-| [ListFoldersOptions](./listfoldersoptions) | 文件夹列表选择选项 请注意，如果服务器支持 RFC 5258 "IMAP LIST Command Extensions" 则支持此选项 在 https://tools.ietf.org/html/rfc5258 |
-| [ListFoldersReturnOptions](./listfoldersreturnoptions) | ListFolders 操作的返回选项 请注意，如果服务器支持 RFC 5258 "IMAP LIST Command Extensions" 则支持此选项 在 https://tools.ietf.org/html/rfc5258 |
-| [SortingKey](./sortingkey) | “SORT”命令的排序标准 查看更多:https://tools.ietf.org/html/rfc5256 |
+| [ListFoldersOptions](./listfoldersoptions) | 文件夹列表选择选项 请注意，如果服务器支持 RFC 5258 “IMAP LIST 命令扩展”，则支持此选项 请参阅 https://tools.ietf.org/html/rfc5258 中的更多详细信息 |
+| [ListFoldersReturnOptions](./listfoldersreturnoptions) | ListFolders 操作的返回选项 请注意，如果服务器支持 RFC 5258“IMAP LIST 命令扩展”，则支持此选项 请参阅 https://tools.ietf.org/html/rfc5258 中的更多详细信息 |
+| [SortingKey](./sortingkey) | “SORT”命令的排序标准 查看更多：https://tools.ietf.org/html/rfc5256 |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

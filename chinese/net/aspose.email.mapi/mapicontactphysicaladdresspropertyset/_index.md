@@ -3,12 +3,12 @@ title: MapiContactPhysicalAddressPropertySet
 second_title: Aspose.Email for .NET API 参考
 description: 指定三个物理地址 家庭地址工作地址和其他地址 其中一个地址可以标记为邮寄地址
 type: docs
-weight: 18280
+weight: 18310
 url: /zh/net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/
 ---
 ## MapiContactPhysicalAddressPropertySet class
 
-指定三个物理地址: 家庭地址、工作地址和其他地址。 其中一个地址可以标记为邮寄地址
+指定三个物理地址： 家庭地址、工作地址和其他地址。 其中一个地址可以标记为邮寄地址
 
 ```csharp
 public sealed class MapiContactPhysicalAddressPropertySet
@@ -18,8 +18,8 @@ public sealed class MapiContactPhysicalAddressPropertySet
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor)() | 初始化 [`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) 类的新实例 |
-| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor_1)(MapiPropertyCollection) | 初始化 [`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) 类的新实例 |
+| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor)() | 初始化[`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) class |
+| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor_1)(MapiPropertyCollection) | 初始化[`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) class |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public sealed class MapiContactPhysicalAddressPropertySet
 | --- | --- |
 | [HomeAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/homeaddress) { get; set; } | 指定联系人家的地址 |
 | [OtherAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/otheraddress) { get; set; } | 指定其他联系人的地址 |
-| [WorkAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/workaddress) { get; set; } | 指定联系人工作地址 |
+| [WorkAddress](../../aspose.email.mapi/mapicontactphysicaladdresspropertyset/workaddress) { get; set; } | 指定联系人工作的地址 |
 
 ### 也可以看看
 

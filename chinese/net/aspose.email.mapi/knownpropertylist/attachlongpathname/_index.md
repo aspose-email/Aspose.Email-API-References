@@ -1,14 +1,14 @@
 ---
 title: AttachLongPathname
 second_title: Aspose.Email for .NET API 参考
-description: 包含带扩展名的完全限定路径和文件名 区域消息附件属性 规范名称PidTagAttachLongPathname 备用名称PR_ATTACH_LONG_PATHNAME PR_ATTACH_LONG_PATHNAME_A ptagAttachLongPathname PR_ATTACH_LONG_PATHNAME_W
+description: 包含带扩展名的完全限定路径和文件名 区域邮件附件属性 规范名称PidTagAttachLongPathname 备用名称PR_ATTACH_LONG_PATHNAMEPR_ATTACH_LONG_PATHNAME_AptagAttachLongPathnamePR_ATTACH_LONG_PATHNAME_W
 type: docs
 weight: 1620
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachlongpathname/
 ---
 ## KnownPropertyList.AttachLongPathname field
 
-包含带扩展名的完全限定路径和文件名。 区域:消息附件属性 规范名称:PidTagAttachLongPathname 备用名称:PR_ATTACH_LONG_PATHNAME, PR_ATTACH_LONG_PATHNAME_A, ptagAttachLongPathname, PR_ATTACH_LONG_PATHNAME_W
+包含带扩展名的完全限定路径和文件名。 区域：邮件附件属性 规范名称：PidTagAttachLongPathname 备用名称：PR_ATTACH_LONG_PATHNAME、PR_ATTACH_LONG_PATHNAME_A、ptagAttachLongPathname、PR_ATTACH_LONG_PATHNAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachLongPathname;

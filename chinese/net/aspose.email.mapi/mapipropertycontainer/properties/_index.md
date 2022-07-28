@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Aspose.Email for .NET API 参考
-description: 获取属性集合
+description: 获取属性的集合
 type: docs
 weight: 20
 url: /zh/net/aspose.email.mapi/mapipropertycontainer/properties/
 ---
 ## MapiPropertyContainer.Properties property
 
-获取属性集合。
+获取属性的集合。
 
 ```csharp
 public virtual MapiPropertyCollection Properties { get; }
@@ -16,7 +16,7 @@ public virtual MapiPropertyCollection Properties { get; }
 
 ### 适当的价值
 
-属性。
+属性.
 
 ### 也可以看看
 

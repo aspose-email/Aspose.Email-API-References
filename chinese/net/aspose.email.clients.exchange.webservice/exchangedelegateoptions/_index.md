@@ -19,9 +19,9 @@ public enum ExchangeDelegateOptions
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 表示没有指定附加选项 |
-| ReceiveCopiesOfMeetingMessages | `1` | 表示代理接收发送给委托人的会议相关消息的副本。 |
-| ViewPrivateItems | `2` | 表示委托人可以查看委托人日历上的私有日历项。 |
+| None | `0` | 表示未指定其他选项 |
+| ReceiveCopiesOfMeetingMessages | `1` | 表示代理接收到发送给委托人的会议相关邮件的副本。 |
+| ViewPrivateItems | `2` | 表示委托人可以查看委托人日历上的私人日历项目。 |
 
 ### 也可以看看
 

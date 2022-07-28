@@ -1,14 +1,14 @@
 ---
 title: FileCompatibilityMode
 second_title: Aspose.Email for .NET API 参考
-description: 定义内部转换 在加载 或保存消息时必须完成 默认情况下 CR 不被 CRLF 替换 不保存 Tnef-attachment
+description: 定义加载 或保存消息时必须完成的内部转换  默认情况下 CR 不被 CRLF 替换 不保存 Tnef-attachment
 type: docs
 weight: 17440
 url: /zh/net/aspose.email/filecompatibilitymode/
 ---
 ## FileCompatibilityMode enumeration
 
-定义内部转换， 在加载 或保存消息时必须完成。 默认情况下 CR 不被 CRLF 替换， 不保存 Tnef-attachment。
+定义加载 或保存消息时必须完成的内部转换 。 默认情况下 CR 不被 CRLF 替换， 不保存 Tnef-attachment。
 
 ```csharp
 [Flags]
@@ -20,7 +20,7 @@ public enum FileCompatibilityMode
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未设置任何值。 |
-| AllowCROnly | `1` | 显示用 CRLF 强制替换行分隔符 的必要性。 |
+| AllowCROnly | `1` | 表明用 CRLF 强制替换行分隔符 的必要性。 |
 | PreserveTnefAttachments | `2` | 控制 TNEF 附件加载/保存行为 |
 
 ### 也可以看看

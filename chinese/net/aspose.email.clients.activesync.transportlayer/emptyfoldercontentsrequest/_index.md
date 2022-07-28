@@ -1,14 +1,14 @@
 ---
 title: EmptyFolderContentsRequest
 second_title: Aspose.Email for .NET API 参考
-description: 包含有关删除文件夹内容的请求 EmptyFolderContents 支持 Options 元素的单个子元素 DeleteSubFolders它决定是否删除文件夹中包含的子文件夹 如果请求中不包含 DeleteSubFolders 选项则不会删除指定 CollectionId 的子文件夹
+description: 包含有关删除文件夹内容的请求 EmptyFolderContents 支持 Options 元素的单个子元素 DeleteSubFolders它决定是否删除文件夹中包含的子文件夹 如果请求中不包含 DeleteSubFolders 选项则不删除指定 CollectionId 的子文件夹
 type: docs
 weight: 1220
 url: /zh/net/aspose.email.clients.activesync.transportlayer/emptyfoldercontentsrequest/
 ---
 ## EmptyFolderContentsRequest class
 
-包含有关删除文件夹内容的请求。 EmptyFolderContents 支持 Options 元素的单个子元素 DeleteSubFolders，它决定是否删除文件夹中包含的子文件夹。 如果请求中不包含 DeleteSubFolders 选项，则不会删除指定 CollectionId 的子文件夹。
+包含有关删除文件夹内容的请求。 EmptyFolderContents 支持 Options 元素的单个子元素 DeleteSubFolders，它决定是否删除文件夹中包含的子文件夹。 如果请求中不包含 DeleteSubFolders 选项，则不删除指定 CollectionId 的子文件夹。
 
 ```csharp
 public class EmptyFolderContentsRequest

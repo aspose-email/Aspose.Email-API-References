@@ -1,14 +1,14 @@
 ---
 title: ExchangeClient
 second_title: Aspose.Email for .NET API 参考
-description: 初始化类的新实例ExchageClientaspose.email.clients.exchange.dav/exchangeclient
+description: 初始化类的新实例交易所客户端aspose.email.clients.exchange.dav/exchangeclient
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.dav/exchangeclient/exchangeclient/
 ---
 ## ExchangeClient(string, string, string) {#constructor_1}
 
-初始化类的新实例[`ExchageClient`](../../exchangeclient)
+初始化类的新实例[`交易所客户端`](../../exchangeclient)
 
 ```csharp
 public ExchangeClient(string mailboxUri, string username, string password)
@@ -17,7 +17,7 @@ public ExchangeClient(string mailboxUri, string username, string password)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailboxUri | String | 邮箱地址 |
-| username | String | 邮箱用户名 |
+| username | String | 邮箱的用户名 |
 | password | String | 邮箱密码 |
 
 ### 也可以看看
@@ -30,7 +30,7 @@ public ExchangeClient(string mailboxUri, string username, string password)
 
 ## ExchangeClient(string, string, string, string) {#constructor_2}
 
-初始化类的新实例[`ExchageClient`](../../exchangeclient)
+初始化类的新实例[`交易所客户端`](../../exchangeclient)
 
 ```csharp
 public ExchangeClient(string mailboxUri, string username, string password, string domain)
@@ -39,9 +39,9 @@ public ExchangeClient(string mailboxUri, string username, string password, strin
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailboxUri | String | 邮箱地址 |
-| username | String | 邮箱用户名 |
+| username | String | 邮箱的用户名 |
 | password | String | 邮箱密码 |
-| domain | String | 用户域 |
+| domain | String | 用户的域 |
 
 ### 也可以看看
 
@@ -53,7 +53,7 @@ public ExchangeClient(string mailboxUri, string username, string password, strin
 
 ## ExchangeClient(string, ICredentials) {#constructor}
 
-初始化类的新实例[`ExchageClient`](../../exchangeclient)
+初始化类的新实例[`交易所客户端`](../../exchangeclient)
 
 ```csharp
 public ExchangeClient(string mailboxUri, ICredentials credentials)

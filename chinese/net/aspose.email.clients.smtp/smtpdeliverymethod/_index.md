@@ -1,14 +1,14 @@
 ---
 title: SmtpDeliveryMethod
 second_title: Aspose.Email for .NET API 参考
-description: Smtp 发送方式
+description: smtp投递方式
 type: docs
 weight: 17040
 url: /zh/net/aspose.email.clients.smtp/smtpdeliverymethod/
 ---
 ## SmtpDeliveryMethod enumeration
 
-Smtp 发送方式
+smtp投递方式
 
 ```csharp
 public enum SmtpDeliveryMethod

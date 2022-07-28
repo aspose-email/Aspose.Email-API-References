@@ -1,14 +1,14 @@
 ---
 title: GetMessage
 second_title: Aspose.Email for .NET API 参考
-description: 获取电子邮件消息的Pop3MessageInfoaspose.email.clients.pop3/pop3messageinfo
+description: 获取Pop3MessageInfoaspose.email.clients.pop3/pop3messageinfo电子邮件消息
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.pop3/pop3messageinfocollection/getmessage/
 ---
 ## GetMessage(string) {#getmessage_1}
 
-获取电子邮件消息的[`Pop3MessageInfo`](../../pop3messageinfo)。
+获取[`Pop3MessageInfo`](../../pop3messageinfo)电子邮件消息。
 
 ```csharp
 public Pop3MessageInfo GetMessage(string uniqueId)
@@ -16,11 +16,11 @@ public Pop3MessageInfo GetMessage(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 电子邮件消息的唯一 ID。 |
+| uniqueId | String | 电子邮件的唯一 ID。 |
 
 ### 返回值
 
-返回[`Pop3MessageInfo`](../../pop3messageinfo)如果存在，否则返回 null。
+退货[`Pop3MessageInfo`](../../pop3messageinfo)如果存在，否则返回null。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public Pop3MessageInfo GetMessage(string uniqueId)
 
 ## GetMessage(int) {#getmessage}
 
-获取电子邮件消息的[`Pop3MessageInfo`](../../pop3messageinfo)。
+获取[`Pop3MessageInfo`](../../pop3messageinfo)电子邮件消息。
 
 ```csharp
 public Pop3MessageInfo GetMessage(int sequenceNumber)
@@ -41,11 +41,11 @@ public Pop3MessageInfo GetMessage(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 电子邮件消息的序列号。 |
+| sequenceNumber | Int32 | 电子邮件的序列号。 |
 
 ### 返回值
 
-返回[`Pop3MessageInfo`](../../pop3messageinfo)如果存在，否则返回 null。
+退货[`Pop3MessageInfo`](../../pop3messageinfo)如果存在，否则返回null。
 
 ### 也可以看看
 

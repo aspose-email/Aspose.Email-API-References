@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定头是否包含在集合中的值
+description: 获取一个值该值指示指定的标头是否包含在集合中
 type: docs
 weight: 100
 url: /zh/net/aspose.email.mime/headercollection/contains/
 ---
 ## HeaderCollection.Contains method
 
-获取指定头是否包含在集合中的值
+获取一个值，该值指示指定的标头是否包含在集合中
 
 ```csharp
 public bool Contains(string item)
@@ -20,7 +20,7 @@ public bool Contains(string item)
 
 ### 返回值
 
-` True` 如果集合包含指定*item*;否则，` false`
+`真的`如果集合包含指定*item*;否则，`错误的`
 
 ### 也可以看看
 

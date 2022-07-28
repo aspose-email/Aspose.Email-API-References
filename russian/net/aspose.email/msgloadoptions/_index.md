@@ -3,7 +3,7 @@ title: MsgLoadOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Позволяет указать дополнительные параметры при загрузке MailMessage из формата Msg.
 type: docs
-weight: 19220
+weight: 19250
 url: /ru/net/aspose.email/msgloadoptions/
 ---
 ## MsgLoadOptions class
@@ -26,9 +26,9 @@ public class MsgLoadOptions : LoadOptions
 | --- | --- |
 | [DecodeSignedContent](../../aspose.email/msgloadoptions/decodesignedcontent) { get; set; } | Получает или задает значение, указывающее, будет ли декодировано подписанное сообщение. |
 | [KeepOriginalEmailAddresses](../../aspose.email/msgloadoptions/keeporiginalemailaddresses) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять исходный адрес электронной почты. |
-| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | Представляет формат почтового сообщения. Может быть в формате eml, msg или mhtml. Значение по умолчанию — Eml. |
+| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | Представляет формат почтового сообщения. Может быть в формате eml, msg или mhtml. Значение по умолчанию: Eml. |
 | [PrefferedTextEncoding](../../aspose.email/loadoptions/prefferedtextencoding) { get; set; } | Получает или устанавливает предпочтительную кодировку для сообщения. Принудительно устанавливает предпочтительную кодировку для темы и тела сообщения. Значение по умолчанию равно null. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять формат встроенного сообщения при загрузке в MailMessage. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, необходимо ли сохранять формат встроенного сообщения при загрузке в MailMessage. |
 | [PreserveRtfContent](../../aspose.email/msgloadoptions/preservertfcontent) { get; set; } | Получает или задает значение, указывающее, нужно ли сохранять тело rtf в MailMessage. |
 | [PreserveTnefAttachments](../../aspose.email/msgloadoptions/preservetnefattachments) { get; set; } | Управляет загрузкой вложения TNEF. |
 

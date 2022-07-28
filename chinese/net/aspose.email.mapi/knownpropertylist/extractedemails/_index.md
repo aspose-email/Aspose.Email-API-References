@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/extractedemails/
 ---
 ## KnownPropertyList.ExtractedEmails field
 
-包含一个带有单个 EmailSet 元素的 XML 文档。 区域:提取的实体 规范名称:PidNameExtractedEmails 备用名称:dispidXmlExtractedEmails
+包含一个带有单个 EmailSet 元素的 XML 文档。 区域：提取的实体 规范名称：PidNameExtractedEmails 备用名称：dispidXmlExtractedEmails
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedEmails;

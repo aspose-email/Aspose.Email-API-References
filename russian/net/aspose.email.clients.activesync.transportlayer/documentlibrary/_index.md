@@ -1,14 +1,14 @@
 ---
 title: DocumentLibrary
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен DocumentLibrary протокола ActiveSync
+description: пространство имен DocumentLibrary протокола ActiveSync
 type: docs
 weight: 1180
 url: /ru/net/aspose.email.clients.activesync.transportlayer/documentlibrary/
 ---
 ## DocumentLibrary enumeration
 
-Пространство имен DocumentLibrary протокола ActiveSync
+пространство имен DocumentLibrary протокола ActiveSync
 
 ```csharp
 public enum DocumentLibrary
@@ -23,9 +23,9 @@ public enum DocumentLibrary
 | IsFolder | `7` | Указывает, является ли элемент папкой или документом. |
 | CreationDate | `8` | Дата и время первого создания документа. |
 | LastModifiedDate | `9` | Дата и время последнего изменения документа или его свойств. |
-| IsHidden | `10` | Указывает, является ли этот объект скрытым. |
-| ContentLength | `11` | Приблизительный размер документа в байтах. |
-| ContentType | `12` | Тип многоцелевых расширений почты Интернета (MIME) содержимого в двоичном кодировании или содержимого, закодированного с помощью кодировки base64. |
+| IsHidden | `10` | Указывает, является ли это скрытым объектом. |
+| ContentLength | `11` | Предполагаемый размер документа в байтах. |
+| ContentType | `12` | Тип многоцелевых расширений почты Интернета (MIME) содержимого в двоичной кодировке или содержимого, закодированного с помощью кодировки base64. |
 
 ### Смотрите также
 

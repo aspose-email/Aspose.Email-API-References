@@ -1,14 +1,14 @@
 ---
 title: Gender
 second_title: Aspose.Email for .NET API 参考
-description: 枚举定义一个人的性别
+description: 枚举定义了一个人的性别
 type: docs
-weight: 19390
+weight: 19420
 url: /zh/net/aspose.email.personalinfo/gender/
 ---
 ## Gender enumeration
 
-枚举定义一个人的性别
+枚举定义了一个人的性别
 
 ```csharp
 public enum Gender

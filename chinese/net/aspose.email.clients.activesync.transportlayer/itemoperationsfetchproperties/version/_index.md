@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Aspose.Email for .NET API 参考
-description: 指定最后修改文档项的时间 Version 元素仅在使用 ItemOperations 命令访问 Windows SharePoint Services 或 UNC 资源时出现
+description: 指定最后修改文档项的时间 仅当使用 ItemOperations 命令访问 Windows SharePoint Services 或 UNC 资源时Version 元素才存在
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/version/
 ---
 ## ItemOperationsFetchProperties.Version property
 
-指定最后修改文档项的时间。 Version 元素仅在使用 ItemOperations 命令访问 Windows SharePoint Services 或 UNC 资源时出现。
+指定最后修改文档项的时间。 仅当使用 ItemOperations 命令访问 Windows SharePoint Services 或 UNC 资源时，Version 元素才存在。
 
 ```csharp
 public DateTime? Version { get; set; }

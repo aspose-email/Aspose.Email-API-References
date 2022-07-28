@@ -1,14 +1,14 @@
 ---
 title: Parameters
 second_title: Aspose.Email for .NET API 参考
-description: 与 Operations 属性中标识的 cmdlet 一起使用的所有参数的名称和值
+description: 与操作属性中标识的 cmdlet 一起使用的所有参数的名称和值
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activity/exchangeadminactivity/parameters/
 ---
 ## ExchangeAdminActivity.Parameters property
 
-与 Operations 属性中标识的 cmdlet 一起使用的所有参数的名称和值。
+与操作属性中标识的 cmdlet 一起使用的所有参数的名称和值。
 
 ```csharp
 public NameValuePair[] Parameters { get; set; }

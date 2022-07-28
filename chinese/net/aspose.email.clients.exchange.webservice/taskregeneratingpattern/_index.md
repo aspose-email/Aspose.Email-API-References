@@ -1,14 +1,14 @@
 ---
 title: TaskRegeneratingPattern
 second_title: Aspose.Email for .NET API 参考
-description: 表示重新生成的重复模式指定当前任务完成后的天数周数月数或年数 下一次发生将是到期的
+description: 表示重新生成的重复模式该模式指定在当前任务完成后的天数周数月数或年数 下一次将到期
 type: docs
 weight: 15520
 url: /zh/net/aspose.email.clients.exchange.webservice/taskregeneratingpattern/
 ---
 ## TaskRegeneratingPattern class
 
-表示重新生成的重复模式，指定当前任务完成后的天数、周数、月数或年数 下一次发生将是到期的。
+表示重新生成的重复模式，该模式指定在当前任务完成后的天数、周数、月数或年数 下一次将到期。
 
 ```csharp
 public sealed class TaskRegeneratingPattern : RecurrencePattern
@@ -18,7 +18,7 @@ public sealed class TaskRegeneratingPattern : RecurrencePattern
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TaskRegeneratingPattern](taskregeneratingpattern)(TaskRegeneratingType, int) | 初始化[`TaskRegeneratingPattern`](../taskregeneratingpattern)类的新实例。 |
+| [TaskRegeneratingPattern](taskregeneratingpattern)(TaskRegeneratingType, int) | 初始化[`TaskRegeneratingPattern`](../taskregeneratingpattern)类. |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public sealed class TaskRegeneratingPattern : RecurrencePattern
 | [EndDate](../../aspose.email.calendar.recurrences/recurrencepattern/enddate) { get; set; } | 获取或设置结束日期。 |
 | [Interval](../../aspose.email.calendar.recurrences/recurrencepattern/interval) { get; set; } | 获取或设置重复单元数。 |
 | [Occurs](../../aspose.email.calendar.recurrences/recurrencepattern/occurs) { get; set; } | 获取或设置重复模式的出现次数。 |
-| [RegeneratingType](../../aspose.email.clients.exchange.webservice/taskregeneratingpattern/regeneratingtype) { get; set; } | 获取或设置重新生成模式的类型。 |
+| [RegeneratingType](../../aspose.email.clients.exchange.webservice/taskregeneratingpattern/regeneratingtype) { get; set; } | 获取或设置一种再生模式。 |
 | [WeekStart](../../aspose.email.calendar.recurrences/recurrencepattern/weekstart) { get; set; } | 获取或设置周开始。 |
 
 ## 方法

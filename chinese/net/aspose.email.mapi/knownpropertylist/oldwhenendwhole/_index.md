@@ -1,14 +1,14 @@
 ---
 title: OldWhenEndWhole
 second_title: Aspose.Email for .NET API 参考
-description: 表示会议更新前 PidLidAppointmentEndWhole 属性第 2.14 节的原始值 区域会议 规范名称PidLidOldWhenEndWhole 替代名称dispidOldWhenEndWhole
+description: 表示 PidLidAppointmentEndWhole 属性第 2.14 节在会议更新之前的原始值 区域Meetings 规范名称PidLidOldWhenEndWhole 替代名称dispidOldWhenEndWhole
 type: docs
 weight: 13350
 url: /zh/net/aspose.email.mapi/knownpropertylist/oldwhenendwhole/
 ---
 ## KnownPropertyList.OldWhenEndWhole field
 
-表示会议更新前 PidLidAppointmentEndWhole 属性（第 2.14 节）的原始值。 区域:会议 规范名称:PidLidOldWhenEndWhole 替代名称:dispidOldWhenEndWhole
+表示 PidLidAppointmentEndWhole 属性（第 2.14 节）在会议更新之前的原始值。 区域：Meetings 规范名称：PidLidOldWhenEndWhole 替代名称：dispidOldWhenEndWhole
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OldWhenEndWhole;

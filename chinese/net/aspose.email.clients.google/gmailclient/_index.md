@@ -21,7 +21,7 @@ public abstract class GmailClient : IBaseGmailClient
 | virtual [AccessToken](../../aspose.email.clients.google/gmailclient/accesstoken) { get; set; } | 获取或设置 OAuth 2.0 访问令牌 如果设置了刷新令牌，则自动生成访问令牌。 |
 | virtual [DefaultEmail](../../aspose.email.clients.google/gmailclient/defaultemail) { get; } | 获取或设置默认电子邮件地址 |
 | virtual [Proxy](../../aspose.email.clients.google/gmailclient/proxy) { get; set; } | 获取或设置代理。 |
-| virtual [Timeout](../../aspose.email.clients.google/gmailclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为 100,000 毫秒（100 秒）。 |
+| virtual [Timeout](../../aspose.email.clients.google/gmailclient/timeout) { get; set; } | 获取或设置操作超时前等待的毫秒数。 默认值为100,000毫秒（100秒）。 |
 | static [DefaultTimeout](../../aspose.email.clients.google/gmailclient/defaulttimeout) { get; set; } | 获取或设置 ActiveSync 客户端实例的默认超时值 默认值为 100,000 毫秒（100 秒）。 |
 
 ## 方法

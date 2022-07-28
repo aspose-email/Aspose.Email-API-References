@@ -16,7 +16,7 @@ public bool Remove(PhoneNumber value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | PhoneNumber | Object要从列表中删除。 |
+| value | PhoneNumber | 这Object从列表中删除。 |
 
 ### 也可以看看
 

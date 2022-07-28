@@ -1,14 +1,14 @@
 ---
 title: OldWhenStartWhole
 second_title: Aspose.Email for .NET API 参考
-description: 表示会议更新前 PidLidAppointmentStartWhole 属性第 2.29 节的原始值 区域会议 规范名称PidLidOldWhenStartWhole 替代名称dispidOldWhenStartWhole
+description: 表示 PidLidAppointmentStartWhole 属性第 2.29 节在会议更新之前的原始值 区域Meetings 规范名称PidLidOldWhenStartWhole 替代名称dispidOldWhenStartWhole
 type: docs
 weight: 13360
 url: /zh/net/aspose.email.mapi/knownpropertylist/oldwhenstartwhole/
 ---
 ## KnownPropertyList.OldWhenStartWhole field
 
-表示会议更新前 PidLidAppointmentStartWhole 属性（第 2.29 节）的原始值。 区域:会议 规范名称:PidLidOldWhenStartWhole 替代名称:dispidOldWhenStartWhole
+表示 PidLidAppointmentStartWhole 属性（第 2.29 节）在会议更新之前的原始值。 区域：Meetings 规范名称：PidLidOldWhenStartWhole 替代名称：dispidOldWhenStartWhole
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OldWhenStartWhole;

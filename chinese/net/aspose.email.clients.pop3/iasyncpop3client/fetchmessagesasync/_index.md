@@ -18,8 +18,8 @@ public Task<IEnumerable<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequen
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IEnumerable`1 | 连接到服务器 |
-| sequenceNumbers | IConnection | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumbers | IConnection | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
@@ -47,8 +47,8 @@ public Task<IEnumerable<MailMessage>> FetchMessagesAsync(IEnumerable<string> uId
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IEnumerable`1 | 连接到服务器 |
-| uIds | IConnection | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uIds | IConnection | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 

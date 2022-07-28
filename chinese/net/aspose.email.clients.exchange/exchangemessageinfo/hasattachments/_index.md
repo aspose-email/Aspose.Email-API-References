@@ -1,14 +1,14 @@
 ---
 title: HasAttachments
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示消息是否包含至少一个附件
+description: 获取一个值该值指示邮件是否包含至少一个附件
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange/exchangemessageinfo/hasattachments/
 ---
 ## ExchangeMessageInfo.HasAttachments property
 
-获取一个值，该值指示消息是否包含至少一个附件。
+获取一个值，该值指示邮件是否包含至少一个附件。
 
 ```csharp
 public virtual bool HasAttachments { get; }

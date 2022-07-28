@@ -1,14 +1,14 @@
 ---
 title: Named
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示此MessageObjectPropertyaspose.email.mapi.msg/messageobjectproperty是否为命名属性
+description: 获取一个值该值指示这是否MessageObjectPropertyaspose.email.mapi.msg/messageobjectproperty是一个命名属性
 type: docs
 weight: 70
 url: /zh/net/aspose.email.mapi.msg/messageobjectproperty/named/
 ---
 ## MessageObjectProperty.Named property
 
-获取一个值，该值指示此[`MessageObjectProperty`](../../messageobjectproperty)是否为命名属性。
+获取一个值，该值指示这是否[`MessageObjectProperty`](../../messageobjectproperty)是一个命名属性。
 
 ```csharp
 public bool Named { get; }
@@ -16,11 +16,11 @@ public bool Named { get; }
 
 ### 适当的价值
 
-` true` 如果命名；否则，` false` 。
+`真的`如果命名；否则，`错误的`.
 
 ### 评论
 
-命名属性由其 ID 确定，此类 ID 的范围为 [0x8000,0xfffe]。
+命名属性由其 ID 确定，此类 ID 的范围是 [0x8000,0xfffe]。
 
 ### 也可以看看
 

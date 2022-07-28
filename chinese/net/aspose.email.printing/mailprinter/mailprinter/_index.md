@@ -1,14 +1,14 @@
 ---
 title: MailPrinter
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MailPrinteraspose.email.printing/mailprinter类的新实例页面大小为 A4 纸张设置边距为 0.5 英寸为各方
+description: 初始化MailPrinteraspose.email.printing/mailprinter具有 A4 纸张设置的页面大小和 0.5 英寸边距的类
 type: docs
 weight: 10
 url: /zh/net/aspose.email.printing/mailprinter/mailprinter/
 ---
 ## MailPrinter() {#constructor}
 
-初始化[`MailPrinter`](../../mailprinter)类的新实例，页面大小为 A4 纸张设置，边距为 0.5 英寸为各方。
+初始化[`MailPrinter`](../../mailprinter)具有 A4 纸张设置的页面大小和 0.5 英寸边距的类。
 
 ```csharp
 public MailPrinter()
@@ -24,7 +24,7 @@ public MailPrinter()
 
 ## MailPrinter(IPrintSettingsProvider) {#constructor_1}
 
-使用给定的设置提供程序初始化[`MailPrinter`](../../mailprinter)类的新实例。
+初始化[`MailPrinter`](../../mailprinter)使用给定设置提供程序的类。
 
 ```csharp
 public MailPrinter(IPrintSettingsProvider printSettingsProvider)

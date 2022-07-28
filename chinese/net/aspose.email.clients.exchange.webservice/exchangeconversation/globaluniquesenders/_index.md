@@ -1,14 +1,14 @@
 ---
 title: GlobalUniqueSenders
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱中所有对话项目的发件人列表
+description: 获取邮箱中所有会话项目的发件人列表
 type: docs
 weight: 150
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeconversation/globaluniquesenders/
 ---
 ## ExchangeConversation.GlobalUniqueSenders property
 
-获取邮箱中所有对话项目的发件人列表。
+获取邮箱中所有会话项目的发件人列表。
 
 ```csharp
 public StringCollection GlobalUniqueSenders { get; }

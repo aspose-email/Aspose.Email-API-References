@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API 参考
-description: 返回代表对象实例的字符串
+description: 返回一个表示对象实例的字符串
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.exchange/exchangefolderinfo/tostring/
 ---
 ## ExchangeFolderInfo.ToString method
 
-返回代表对象实例的字符串。
+返回一个表示对象实例的字符串。
 
 ```csharp
 public override string ToString()

@@ -16,7 +16,7 @@ public MapiCalendarState MeetingType { get; set; }
 
 ### 适当的价值
 
-会议类型。
+会议的类型。
 
 ### 也可以看看
 

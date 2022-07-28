@@ -1,14 +1,14 @@
 ---
 title: ImapException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаImapExceptionaspose.email/imapexception.
+description: Инициализирует новый экземплярImapExceptionaspose.email/imapexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/imapexception/imapexception/
 ---
 ## ImapException() {#constructor}
 
-Инициализирует новый экземпляр класса[`ImapException`](../../imapexception).
+Инициализирует новый экземпляр[`ImapException`](../../imapexception) класс.
 
 ```csharp
 public ImapException()
@@ -24,7 +24,7 @@ public ImapException()
 
 ## ImapException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ImapException`](../../imapexception).
+Инициализирует новый экземпляр[`ImapException`](../../imapexception) класс.
 
 ```csharp
 public ImapException(string message)
@@ -44,7 +44,7 @@ public ImapException(string message)
 
 ## ImapException(string, params object[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`ImapException`](../../imapexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`ImapException`](../../imapexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public ImapException(string format, params object[] parameters)
@@ -65,7 +65,7 @@ public ImapException(string format, params object[] parameters)
 
 ## ImapException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`ImapException`](../../imapexception).
+Инициализирует новый экземпляр[`ImapException`](../../imapexception) класс.
 
 ```csharp
 public ImapException(string message, Exception innerException)
@@ -74,7 +74,7 @@ public ImapException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Строка, описывающая возникшую ошибку. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения. |
+| innerException | Exception | Исключение, которое является причиной текущего исключения. |
 
 ### Смотрите также
 

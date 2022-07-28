@@ -1,14 +1,14 @@
 ---
 title: CallId
 second_title: Aspose.Email for .NET API 参考
-description: 包含与电话相关的唯一标识符 区域统一消息 规范名称PidTagCallId 备用名称InternalSchemaCallID
+description: 包含与电话呼叫关联的唯一标识符 区域统一消息 规范名称PidTagCallId 备用名称InternalSchemaCallID
 type: docs
 weight: 2480
 url: /zh/net/aspose.email.mapi/knownpropertylist/callid/
 ---
 ## KnownPropertyList.CallId field
 
-包含与电话相关的唯一标识符。 区域:统一消息 规范名称:PidTagCallId 备用名称:InternalSchemaCallID
+包含与电话呼叫关联的唯一标识符。 区域：统一消息 规范名称：PidTagCallId 备用名称：InternalSchemaCallID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CallId;

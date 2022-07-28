@@ -32,7 +32,7 @@ public class Section
 
 | Имя | Описание |
 | --- | --- |
-| [ToAmpHtml](../../aspose.email.amp/section/toamphtml)() | Представление AmpHtml значения раздела. |
+| [ToAmpHtml](../../aspose.email.amp/section/toamphtml)() | AmpHtml представление значения раздела. |
 | [ToHtml](../../aspose.email.amp/section/tohtml)() | HTML-представление раздела. |
 
 ### Смотрите также

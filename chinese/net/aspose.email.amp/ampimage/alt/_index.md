@@ -1,14 +1,14 @@
 ---
 title: Alt
 second_title: Aspose.Email for .NET API 参考
-description: 替代文本字符串类似于 img 上的 alt 属性
+description: 一串替代文本类似于 img 上的 alt 属性
 type: docs
 weight: 20
 url: /zh/net/aspose.email.amp/ampimage/alt/
 ---
 ## AmpImage.Alt property
 
-替代文本字符串，类似于 img 上的 alt 属性。
+一串替代文本，类似于 img 上的 alt 属性。
 
 ```csharp
 public string Alt { get; set; }

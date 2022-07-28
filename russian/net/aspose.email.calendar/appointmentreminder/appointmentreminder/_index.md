@@ -1,14 +1,14 @@
 ---
 title: AppointmentReminder
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализировать новый экземпляр классаAppointmentReminderaspose.email.calendar/appointmentreminder.
+description: Инициализировать новый экземплярAppointmentReminderaspose.email.calendar/appointmentreminder класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar/appointmentreminder/appointmentreminder/
 ---
 ## AppointmentReminder constructor
 
-Инициализировать новый экземпляр класса[`AppointmentReminder`](../../appointmentreminder).
+Инициализировать новый экземпляр[`AppointmentReminder`](../../appointmentreminder) класс.
 
 ```csharp
 public AppointmentReminder()

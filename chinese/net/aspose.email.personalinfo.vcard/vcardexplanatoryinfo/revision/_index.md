@@ -3,7 +3,7 @@ title: Revision
 second_title: Aspose.Email for .NET API 参考
 description: 获取或设置修订时间
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/revision/
 ---
 ## VCardExplanatoryInfo.Revision property

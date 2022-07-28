@@ -1,14 +1,14 @@
 ---
 title: MoreAvailable
 second_title: Aspose.Email for .NET API 参考
-description: 表示有比 WindowSize 元素中请求的数量更多的更改 在 Exchange 2007 中当遇到协议外部的元素时服务器会发送包含 MoreAvailable 并且介于零 0 和 WindowSize 架构更改之间的同步响应消息
+description: 表示更改数量多于 WindowSize 元素中请求的数量 在 Exchange 2007 中当遇到协议外部的元素时服务器会发送包含 MoreAvailable 且介于零 0 和 WindowSize 架构更改之间的同步响应消息
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/moreavailable/
 ---
 ## SyncCollectionResponse.MoreAvailable property
 
-表示有比 WindowSize 元素中请求的数量更多的更改。 在 Exchange 2007 中，当遇到协议外部的元素时，服务器会发送包含 MoreAvailable 并且介于零 (0) 和 WindowSize 架构更改之间的同步响应消息。
+表示更改数量多于 WindowSize 元素中请求的数量。 在 Exchange 2007 中，当遇到协议外部的元素时，服务器会发送包含 MoreAvailable 且介于零 (0) 和 WindowSize 架构更改之间的同步响应消息。
 
 ```csharp
 public bool MoreAvailable { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API 参考
-description: 按名称从集合中获取值
+description: 按名称从集合中获取一个值
 type: docs
 weight: 50
 url: /zh/net/aspose.email.mime/headercollection/item/
 ---
 ## HeaderCollection indexer (1 of 2)
 
-按名称从集合中获取值。
+按名称从集合中获取一个值。
 
 ```csharp
 public string this[string name] { get; set; }
@@ -40,7 +40,7 @@ public string this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 集合中项目的索引。 |
+| index | 项目集合中的索引。 |
 
 ### 返回值
 

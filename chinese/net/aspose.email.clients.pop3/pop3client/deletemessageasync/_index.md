@@ -1,14 +1,14 @@
 ---
 title: DeleteMessageAsync
 second_title: Aspose.Email for .NET API 参考
-description: 删除邮件
+description: 删除消息
 type: docs
 weight: 80
 url: /zh/net/aspose.email.clients.pop3/pop3client/deletemessageasync/
 ---
 ## DeleteMessageAsync(IConnection, int) {#deletemessageasync}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(IConnection connection, int sequenceNumber)
@@ -17,11 +17,11 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
@@ -38,7 +38,7 @@ POP3 服务器将邮件标记为已删除。 直到 POP3 会话进入 UPDATE 状
 
 ## DeleteMessageAsync(IConnection, string) {#deletemessageasync_2}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(IConnection connection, string uniqueId)
@@ -47,11 +47,11 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一 ID |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
@@ -68,7 +68,7 @@ POP3 服务器将邮件标记为已删除。 直到 POP3 会话进入 UPDATE 状
 
 ## DeleteMessageAsync(int) {#deletemessageasync_4}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(int sequenceNumber)
@@ -76,11 +76,11 @@ public Task DeleteMessageAsync(int sequenceNumber)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
@@ -96,7 +96,7 @@ POP3 服务器将邮件标记为已删除。 直到 POP3 会话进入 UPDATE 状
 
 ## DeleteMessageAsync(string) {#deletemessageasync_6}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(string uniqueId)
@@ -104,11 +104,11 @@ public Task DeleteMessageAsync(string uniqueId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的唯一 ID |
+| uniqueId | String | 消息的唯一标识 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
@@ -124,7 +124,7 @@ POP3 服务器将邮件标记为已删除。 直到 POP3 会话进入 UPDATE 状
 
 ## DeleteMessageAsync(IConnection, int, CancellationToken) {#deletemessageasync_1}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(IConnection connection, int sequenceNumber, CancellationToken token)
@@ -133,12 +133,12 @@ public Task DeleteMessageAsync(IConnection connection, int sequenceNumber, Cance
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
@@ -155,7 +155,7 @@ POP3 服务器将邮件标记为已删除。 直到 POP3 会话进入 UPDATE 状
 
 ## DeleteMessageAsync(IConnection, string, CancellationToken) {#deletemessageasync_3}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(IConnection connection, string uniqueId, CancellationToken token)
@@ -164,12 +164,12 @@ public Task DeleteMessageAsync(IConnection connection, string uniqueId, Cancella
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的唯一 ID |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | String | 消息的唯一标识 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
@@ -186,7 +186,7 @@ POP3 服务器将邮件标记为已删除。 直到 POP3 会话进入 UPDATE 状
 
 ## DeleteMessageAsync(int, CancellationToken) {#deletemessageasync_5}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(int sequenceNumber, CancellationToken token)
@@ -194,12 +194,12 @@ public Task DeleteMessageAsync(int sequenceNumber, CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| sequenceNumber | Int32 | 消息的序号 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 
@@ -215,7 +215,7 @@ POP3 服务器将邮件标记为已删除。 直到 POP3 会话进入 UPDATE 状
 
 ## DeleteMessageAsync(string, CancellationToken) {#deletemessageasync_7}
 
-删除邮件
+删除消息
 
 ```csharp
 public Task DeleteMessageAsync(string uniqueId, CancellationToken token)
@@ -223,12 +223,12 @@ public Task DeleteMessageAsync(string uniqueId, CancellationToken token)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 消息的唯一 ID |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| uniqueId | String | 消息的唯一标识 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 评论
 

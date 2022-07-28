@@ -1,14 +1,14 @@
 ---
 title: JunkAddRecipientsToSafeSendersList
 second_title: Aspose.Email for .NET API 参考
-description: 指示是否将电子邮件收件人添加到安全发件人列表中 区域垃圾邮件 规范名称PidTagJunkAddRecipientsToSafeSendersList 备用名称PR_JUNK_ADD_RECIPS_TO_SSL
+description: 指示是否将电子邮件收件人添加到安全发件人列表中 区域Spam 规范名称PidTagJunkAddRecipientsToSafeSendersList 备用名称PR_JUNK_ADD_RECIPS_TO_SSL
 type: docs
 weight: 11870
 url: /zh/net/aspose.email.mapi/knownpropertylist/junkaddrecipientstosafesenderslist/
 ---
 ## KnownPropertyList.JunkAddRecipientsToSafeSendersList field
 
-指示是否将电子邮件收件人添加到安全发件人列表中。 区域:垃圾邮件 规范名称:PidTagJunkAddRecipientsToSafeSendersList 备用名称:PR_JUNK_ADD_RECIPS_TO_SSL
+指示是否将电子邮件收件人添加到安全发件人列表中。 区域：Spam 规范名称：PidTagJunkAddRecipientsToSafeSendersList 备用名称：PR_JUNK_ADD_RECIPS_TO_SSL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor JunkAddRecipientsToSafeSendersList;

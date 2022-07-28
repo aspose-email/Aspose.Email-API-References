@@ -1,14 +1,14 @@
 ---
 title: Tag
 second_title: Aspose.Email for .NET API 参考
-description: 属性标记是一个 32 位数字在位 16 到 31 中包含唯一属性标识符在位 0 到 15 中包含属性类型
+description: 属性标签是一个 32 位数字在位 16 到 31 中包含唯一属性标识符在位 0 到 15 中包含属性类型
 type: docs
 weight: 30
 url: /zh/net/aspose.email.mapi/pidtagpropertydescriptor/tag/
 ---
 ## PidTagPropertyDescriptor.Tag property
 
-属性标记是一个 32 位数字，在位 16 到 31 中包含唯一属性标识符，在位 0 到 15 中包含属性类型。
+属性标签是一个 32 位数字，在位 16 到 31 中包含唯一属性标识符，在位 0 到 15 中包含属性类型。
 
 ```csharp
 public long Tag { get; }

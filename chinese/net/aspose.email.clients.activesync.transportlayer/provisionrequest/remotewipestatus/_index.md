@@ -1,14 +1,14 @@
 ---
 title: RemoteWipeStatus
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端对服务器远程擦除指令的确认 该值表示客户端远程擦除操作的成功或失败
+description: 指定客户端对服务器远程擦除指令的确认 该值指示客户端上远程擦除操作的成功或失败
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/provisionrequest/remotewipestatus/
 ---
 ## ProvisionRequest.RemoteWipeStatus property
 
-指定客户端对服务器远程擦除指令的确认。 该值表示客户端远程擦除操作的成功或失败。
+指定客户端对服务器远程擦除指令的确认。 该值指示客户端上远程擦除操作的成功或失败。
 
 ```csharp
 public Status RemoteWipeStatus { get; set; }

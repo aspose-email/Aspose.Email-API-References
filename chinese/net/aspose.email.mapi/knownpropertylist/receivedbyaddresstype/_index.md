@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/receivedbyaddresstype/
 ---
 ## KnownPropertyList.ReceivedByAddressType field
 
-包含电子邮件消息接收者的电子邮件地址类型。 区域:MapiEnvelope 规范名称:PidTagReceivedByAddressType 替代名称:PR_RECEIVED_BY_ADDRTYPE、PR_RECEIVED_BY_ADDRTYPE_A、ptagReceivedByAddrType、PR_RECEIVED_BY_ADDRTYPE_W
+包含电子邮件消息接收者的电子邮件地址类型。 区域：MapiEnvelope 规范名称：PidTagReceivedByAddressType 替代名称：PR_RECEIVED_BY_ADDRTYPE、PR_RECEIVED_BY_ADDRTYPE_A、ptagReceivedByAddrType、PR_RECEIVED_BY_ADDRTYPE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedByAddressType;

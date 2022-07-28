@@ -1,14 +1,14 @@
 ---
 title: GetMailboxSizeEx
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮箱的大小 请注意此操作是对所有子文件夹递归执行的需要一些时间
+description: 获取邮箱的大小 请注意此操作对所有子文件夹递归执行需要一些时间
 type: docs
 weight: 990
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/getmailboxsizeex/
 ---
 ## IEWSClient.GetMailboxSizeEx method
 
-获取邮箱的大小 请注意，此操作是对所有子文件夹递归执行的，需要一些时间
+获取邮箱的大小 请注意，此操作对所有子文件夹递归执行，需要一些时间
 
 ```csharp
 public long GetMailboxSizeEx(string folderUri)
@@ -16,7 +16,7 @@ public long GetMailboxSizeEx(string folderUri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUri | String | 文件夹uri |
+| folderUri | String | 文件夹 uri |
 
 ### 返回值
 

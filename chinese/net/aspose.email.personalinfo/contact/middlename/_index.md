@@ -1,14 +1,14 @@
 ---
 title: MiddleName
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置作为人全名一部分的中间名 在一些国家人们有一个额外的中间名字
+description: 获取或设置一个中间名它是一个人全名的一部分 在某些国家人们有一个额外的中间名
 type: docs
 weight: 260
 url: /zh/net/aspose.email.personalinfo/contact/middlename/
 ---
 ## Contact.MiddleName property
 
-获取或设置作为人全名一部分的中间名。 在一些国家，人们有一个额外的（中间）名字。
+获取或设置一个中间名，它是一个人全名的一部分。 在某些国家，人们有一个额外的（中间名）。
 
 ```csharp
 public string MiddleName { get; set; }

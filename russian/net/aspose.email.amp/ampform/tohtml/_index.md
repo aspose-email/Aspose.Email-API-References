@@ -1,14 +1,14 @@
 ---
 title: ToHtml
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет html-версию компонента.
+description: Представляет HTML-версию компонента.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.amp/ampform/tohtml/
 ---
 ## AmpForm.ToHtml method
 
-Представляет html-версию компонента.
+Представляет HTML-версию компонента.
 
 ```csharp
 public override string ToHtml()

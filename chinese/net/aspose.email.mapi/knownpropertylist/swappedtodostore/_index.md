@@ -1,14 +1,14 @@
 ---
 title: SwappedToDoStore
 second_title: Aspose.Email for .NET API 参考
-description: 当设置了 PidTagSwappedToDoData 属性第 2.1027 节的值时包含消息的 PidTagStoreEntryId 属性第 2.1018 节的值 区域MapiNonTransmittable 规范名称PidTagSwappedToDoStore 替代名称PR_SWAPPED_TODO_STORE ptagSwappedTodoStore
+description: 包含设置 PidTagSwappedToDoData 属性第 2.1027 节的值时消息的 PidTagStoreEntryId 属性第 2.1018 节的值 区域MapiNonTransmittable 规范名称PidTagSwappedToDoStore 替代名称PR_SWAPPED_TODO_STOREptagSwappedTodoStore
 type: docs
 weight: 18440
 url: /zh/net/aspose.email.mapi/knownpropertylist/swappedtodostore/
 ---
 ## KnownPropertyList.SwappedToDoStore field
 
-当设置了 PidTagSwappedToDoData 属性（第 2.1027 节）的值时，包含消息的 PidTagStoreEntryId 属性（第 2.1018 节）的值。 区域:MapiNonTransmittable 规范名称:PidTagSwappedToDoStore 替代名称:PR_SWAPPED_TODO_STORE, ptagSwappedTodoStore
+包含设置 PidTagSwappedToDoData 属性（第 2.1027 节）的值时消息的 PidTagStoreEntryId 属性（第 2.1018 节）的值。 区域：MapiNonTransmittable 规范名称：PidTagSwappedToDoStore 替代名称：PR_SWAPPED_TODO_STORE、ptagSwappedTodoStore
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SwappedToDoStore;

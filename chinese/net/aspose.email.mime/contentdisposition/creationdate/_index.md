@@ -16,7 +16,7 @@ public DateTime CreationDate { get; set; }
 
 ### 适当的价值
 
-DateTime 值，表示文件创建日期； 否则，如果没有指定日期，则为 MinValue。
+指示文件创建日期的 DateTime 值； 否则，如果没有指定日期，则为 MinValue。
 
 ### 也可以看看
 

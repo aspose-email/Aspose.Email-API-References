@@ -18,10 +18,10 @@ public static class GlobalFormattingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [AfterHeadersFormat](../../aspose.email/globalformattingoptions/afterheadersformat) { get; set; } | AfterHeadersFormat 用于 HeadersFormattingOptions 的实例，如果 AfterHeadersFormat 未设置。 |
-| static [BeforeHeadersFormat](../../aspose.email/globalformattingoptions/beforeheadersformat) { get; set; } | BeforeHeadersFormat 用于 HeadersFormattingOptions 实例（如果未设置 BeforeHeadersFormat）。 |
-| static [HeaderFormat](../../aspose.email/globalformattingoptions/headerformat) { get; set; } | HeaderFormat 用于 HeadersFormattingOptions 实例，如果 DefaultHeaderFormat 未设置。 |
-| static [PageHeaderFormat](../../aspose.email/globalformattingoptions/pageheaderformat) { get; set; } | PageHeaderFormat 用于 HeadersFormattingOptions 的实例，如果 DefaultPageHeaderFormat 未设置。 |
+| static [AfterHeadersFormat](../../aspose.email/globalformattingoptions/afterheadersformat) { get; set; } | 如果未设置 AfterHeadersFormat，则为 HeadersFormattingOptions 实例的 AfterHeadersFormat。 |
+| static [BeforeHeadersFormat](../../aspose.email/globalformattingoptions/beforeheadersformat) { get; set; } | 如果未设置 BeforeHeadersFormat，则为 HeadersFormattingOptions 实例的 BeforeHeadersFormat。 |
+| static [HeaderFormat](../../aspose.email/globalformattingoptions/headerformat) { get; set; } | 如果未设置 DefaultHeaderFormat，则为 HeadersFormattingOptions 实例的 HeaderFormat。 |
+| static [PageHeaderFormat](../../aspose.email/globalformattingoptions/pageheaderformat) { get; set; } | 如果 DefaultPageHeaderFormat 未设置，则为 HeadersFormattingOptions 实例的 PageHeaderFormat。 |
 
 ### 也可以看看
 

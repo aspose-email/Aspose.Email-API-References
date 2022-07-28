@@ -1,14 +1,14 @@
 ---
 title: Sizes
 second_title: Aspose.Email for .NET API 参考
-description: AMP 大小属性的值是一个大小表达式它根据当前窗口大小选择与媒体查询对应的定义大小
+description: AMP 大小属性的值是一个大小表达式根据当前窗口大小选择与媒体查询对应的定义大小
 type: docs
 weight: 100
 url: /zh/net/aspose.email.amp/ampattributes/sizes/
 ---
 ## AmpAttributes.Sizes property
 
-AMP 大小属性的值是一个大小表达式，它根据当前窗口大小选择与媒体查询对应的定义大小。
+AMP 大小属性的值是一个大小表达式，根据当前窗口大小选择与媒体查询对应的定义大小。
 
 ```csharp
 public string Sizes { get; set; }

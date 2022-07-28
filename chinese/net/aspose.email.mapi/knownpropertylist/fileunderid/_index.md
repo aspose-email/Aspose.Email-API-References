@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/fileunderid/
 ---
 ## KnownPropertyList.FileUnderId field
 
-指定在其他联系人姓名属性更改时如何生成和重新计算 PidLidFileUnder 属性（第 2.132 节）的值。 区域:联系人属性 规范名称:PidLidFileUnderId 替代名称:dispidFileUnderId
+指定在其他联系人姓名属性更改时如何生成和重新计算 PidLidFileUnder 属性（第 2.132 节）的值。 区域：联系人属性 规范名称：PidLidFileUnderId 替代名称：dispidFileUnderId
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FileUnderId;

@@ -3,7 +3,7 @@ title: NsfLoadOptions
 second_title: Aspose.Email for .NET API 参考
 description: 指定加载 NSF 存储时的附加选项
 type: docs
-weight: 20040
+weight: 20090
 url: /zh/net/aspose.email.storage.nsf/nsfloadoptions/
 ---
 ## NsfLoadOptions class

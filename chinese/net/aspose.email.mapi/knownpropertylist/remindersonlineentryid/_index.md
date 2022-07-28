@@ -1,14 +1,14 @@
 ---
 title: RemindersOnlineEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含 Reminders 文件夹的 EntryID 区域MapiContainer 规范名称PidTagRemindersOnlineEntryId 备用名称PR_REM_ONLINE_ENTRYID ptagRemOnlineEntryId
+description: 包含提醒文件夹的 EntryID 区域MapiContainer 规范名称PidTagRemindersOnlineEntryId 备用名称PR_REM_ONLINE_ENTRYIDptagRemOnlineEntryId
 type: docs
 weight: 15730
 url: /zh/net/aspose.email.mapi/knownpropertylist/remindersonlineentryid/
 ---
 ## KnownPropertyList.RemindersOnlineEntryId field
 
-包含 Reminders 文件夹的 EntryID。 区域:MapiContainer 规范名称:PidTagRemindersOnlineEntryId 备用名称:PR_REM_ONLINE_ENTRYID, ptagRemOnlineEntryId
+包含提醒文件夹的 EntryID。 区域：MapiContainer 规范名称：PidTagRemindersOnlineEntryId 备用名称：PR_REM_ONLINE_ENTRYID、ptagRemOnlineEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RemindersOnlineEntryId;

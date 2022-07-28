@@ -26,8 +26,8 @@ public class MoveItemData
 | 姓名 | 描述 |
 | --- | --- |
 | [DstFldId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/dstfldid) { get; set; } | 指定目标文件夹（即项目移动到的文件夹）的服务器 ID。 DstFldId 属性值最长可达 64 个字符。 |
-| [SrcFldId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/srcfldid) { get; set; } | 指定源文件夹（即包含要移动的项目的文件夹）的服务器 ID。 SrcFldId 元素值最长可达 64 个字符。 |
-| [SrcMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/srcmsgid) { get; set; } | 指定被移动项目的服务器 ID。 SrcMsgId 元素值最长可达 64 个字符。 |
+| [SrcFldId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/srcfldid) { get; set; } | 指定源文件夹（即包含要移动的项目的文件夹）的服务器 ID。 SrcFldId 元素值的长度最多为 64 个字符。 |
+| [SrcMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/srcmsgid) { get; set; } | 指定已移动项目的服务器 ID。 SrcMsgId 元素值最长可达 64 个字符。 |
 
 ### 也可以看看
 

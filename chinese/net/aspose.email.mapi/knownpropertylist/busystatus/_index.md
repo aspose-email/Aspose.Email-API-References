@@ -1,14 +1,14 @@
 ---
 title: BusyStatus
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户对对象描述的事件的可用性 区域日历 规范名称PidLidBusyStatus 替代名称dispidBusyStatus
+description: 指定用户对对象描述的事件的可用性 区域Calendar 规范名称PidLidBusyStatus 替代名称dispidBusyStatus
 type: docs
 weight: 2150
 url: /zh/net/aspose.email.mapi/knownpropertylist/busystatus/
 ---
 ## KnownPropertyList.BusyStatus field
 
-指定用户对对象描述的事件的可用性。 区域:日历 规范名称:PidLidBusyStatus 替代名称:dispidBusyStatus
+指定用户对对象描述的事件的可用性。 区域：Calendar 规范名称：PidLidBusyStatus 替代名称：dispidBusyStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BusyStatus;

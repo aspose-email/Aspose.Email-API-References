@@ -1,14 +1,14 @@
 ---
 title: GAL
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен GAL протокола ActiveSync
+description: пространство имен GAL протокола ActiveSync
 type: docs
 weight: 1290
 url: /ru/net/aspose.email.clients.activesync.transportlayer/gal/
 ---
 ## GAL enumeration
 
-Пространство имен GAL протокола ActiveSync
+пространство имен GAL протокола ActiveSync
 
 ```csharp
 public enum GAL

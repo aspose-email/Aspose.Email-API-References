@@ -1,14 +1,14 @@
 ---
 title: Eml
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Eml 格式的消息
+description: 表示消息在 埃米尔格式.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/messageformat/eml/
 ---
 ## MessageFormat.Eml property
 
-表示 **Eml** 格式的消息。
+表示消息在 **埃米尔**格式.
 
 ```csharp
 public static MessageFormat Eml { get; }

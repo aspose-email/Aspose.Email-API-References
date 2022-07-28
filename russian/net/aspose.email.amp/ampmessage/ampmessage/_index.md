@@ -1,14 +1,14 @@
 ---
 title: AmpMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMailMessageaspose.email/mailmessage
+description: Инициализирует новый экземплярMailMessageaspose.email/mailmessage класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.amp/ampmessage/ampmessage/
 ---
 ## AmpMessage constructor
 
-Инициализирует новый экземпляр класса[`MailMessage`](../../../aspose.email/mailmessage)
+Инициализирует новый экземпляр[`MailMessage`](../../../aspose.email/mailmessage) класс
 
 ```csharp
 public AmpMessage()

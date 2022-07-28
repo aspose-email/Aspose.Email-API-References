@@ -1,14 +1,14 @@
 ---
 title: EmsAbMonitorServers
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_MONITOR_SERVERS
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_MONITOR_SERVERS
 type: docs
 weight: 7560
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabmonitorservers/
 ---
 ## KnownPropertyList.EmsAbMonitorServers field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_MONITOR_SERVERS
+Microsoft? Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_MONITOR_SERVERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMonitorServers;

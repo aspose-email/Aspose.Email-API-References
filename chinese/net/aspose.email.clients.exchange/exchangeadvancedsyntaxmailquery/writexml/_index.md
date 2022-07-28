@@ -1,14 +1,14 @@
 ---
 title: WriteXml
 second_title: Aspose.Email for .NET API 参考
-description: 将对象转换为其 XML 表示 ExchangeAdvancedMailQuery 类未实现
+description: 将对象转换为其 XML 表示形式 未针对 ExchangeAdvancedMailQuery 类实现
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/writexml/
 ---
 ## ExchangeAdvancedSyntaxMailQuery.WriteXml method
 
-将对象转换为其 XML 表示。 ExchangeAdvancedMailQuery 类未实现。
+将对象转换为其 XML 表示形式。 未针对 ExchangeAdvancedMailQuery 类实现。
 
 ```csharp
 public override void WriteXml(XmlWriter writer)
@@ -16,7 +16,7 @@ public override void WriteXml(XmlWriter writer)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| writer | XmlWriter | XmlWriter对象序列化到的流。 |
+| writer | XmlWriter | 这XmlWriter对象序列化到的流。 |
 
 ### 例外
 

@@ -3,7 +3,7 @@ title: IsMultiContacts
 second_title: Aspose.Email for .NET API 参考
 description: 检查源流是否包含多个联系人
 type: docs
-weight: 150
+weight: 160
 url: /zh/net/aspose.email.personalinfo.vcard/vcardcontact/ismulticontacts/
 ---
 ## VCardContact.IsMultiContacts method
@@ -20,7 +20,7 @@ public static bool IsMultiContacts(Stream stream)
 
 ### 返回值
 
-如果多联系人为真，否则为假.
+如果有多个联系人，则为真，否则为假。
 
 ### 也可以看看
 

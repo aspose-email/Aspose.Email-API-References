@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/iscontactlinked/
 ---
 ## KnownPropertyList.IsContactLinked field
 
-指定联系人是否链接到其他联系人。 区域:联系人属性 规范名称:PidLidIsContactLinked 替代名称:dispidIsContactLinked
+指定联系人是否链接到其他联系人。 区域：联系人属性 规范名称：PidLidIsContactLinked 替代名称：dispidIsContactLinked
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IsContactLinked;

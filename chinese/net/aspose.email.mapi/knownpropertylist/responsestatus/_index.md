@@ -1,14 +1,14 @@
 ---
 title: ResponseStatus
 second_title: Aspose.Email for .NET API 参考
-description: 指定与会者的响应状态 区域会议 规范名称PidLidResponseStatus 别名dispidResponseStatus
+description: 指定与会者的响应状态 区域Meetings 规范名称PidLidResponseStatus 替代名称dispidResponseStatus
 type: docs
 weight: 16200
 url: /zh/net/aspose.email.mapi/knownpropertylist/responsestatus/
 ---
 ## KnownPropertyList.ResponseStatus field
 
-指定与会者的响应状态。 区域:会议 规范名称:PidLidResponseStatus 别名:dispidResponseStatus
+指定与会者的响应状态。 区域：Meetings 规范名称：PidLidResponseStatus 替代名称：dispidResponseStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ResponseStatus;

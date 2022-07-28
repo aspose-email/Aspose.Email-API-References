@@ -1,14 +1,14 @@
 ---
 title: PR_RECIPIENT_TRACKSTATUS_TIME_DELIVERY
 second_title: Aspose.Email for .NET API 参考
-description: 表示传递消息的日期和时间该值以 UTC 指定
+description: 指示传递消息的日期和时间该值以 UTC. 指定
 type: docs
 weight: 17920
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_recipient_trackstatus_time_delivery/
 ---
 ## MapiPropertyTag.PR_RECIPIENT_TRACKSTATUS_TIME_DELIVERY field
 
-表示传递消息的日期和时间。该值以 UTC 指定。
+指示传递消息的日期和时间。该值以 UTC. 指定
 
 ```csharp
 public static readonly long PR_RECIPIENT_TRACKSTATUS_TIME_DELIVERY;

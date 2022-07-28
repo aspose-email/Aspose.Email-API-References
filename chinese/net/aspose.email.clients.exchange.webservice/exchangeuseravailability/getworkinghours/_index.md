@@ -1,14 +1,14 @@
 ---
 title: GetWorkingHours
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定日期的工作时间同时考虑用户的时区
+description: 获取指定日期的工作时间考虑到用户的时区
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangeuseravailability/getworkinghours/
 ---
 ## ExchangeUserAvailability.GetWorkingHours method
 
-获取指定日期的工作时间，同时考虑用户的时区。
+获取指定日期的工作时间，考虑到用户的时区。
 
 ```csharp
 public DateRange GetWorkingHours(DateTime date)

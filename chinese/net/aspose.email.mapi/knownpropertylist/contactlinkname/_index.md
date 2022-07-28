@@ -1,14 +1,14 @@
 ---
 title: ContactLinkName
 second_title: Aspose.Email for .NET API 参考
-description: 区域联系人属性 规范名称PidLidContactLinkName 备用名称dispidContactLinkName
+description: 区域联系人属性 规范名称PidLidContactLinkName 替代名称dispidContactLinkName
 type: docs
 weight: 3010
 url: /zh/net/aspose.email.mapi/knownpropertylist/contactlinkname/
 ---
 ## KnownPropertyList.ContactLinkName field
 
-区域:联系人属性 规范名称:PidLidContactLinkName 备用名称:dispidContactLinkName
+区域：联系人属性 规范名称：PidLidContactLinkName 替代名称：dispidContactLinkName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkName;

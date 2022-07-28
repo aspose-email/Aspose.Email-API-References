@@ -1,14 +1,14 @@
 ---
 title: LinkedResourceCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор объектов LinkedResource
+description: Представляет коллекцию объектов LinkedResource
 type: docs
 weight: 17650
 url: /ru/net/aspose.email/linkedresourcecollection/
 ---
 ## LinkedResourceCollection class
 
-Представляет набор объектов LinkedResource
+Представляет коллекцию объектов LinkedResource
 
 ```csharp
 public sealed class LinkedResourceCollection : Collection<LinkedResource>, IDisposable
@@ -19,7 +19,7 @@ public sealed class LinkedResourceCollection : Collection<LinkedResource>, IDisp
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.email/linkedresourcecollection/clear#clear_1)(bool) | Удаляет все элементы из этой коллекции. |
-| [Dispose](../../aspose.email/linkedresourcecollection/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email/linkedresourcecollection/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [RemoveAt](../../aspose.email/linkedresourcecollection/removeat#removeat_1)(int, bool) | Удаляет элемент с указанным индексом из этой коллекции. |
 
 ### Смотрите также

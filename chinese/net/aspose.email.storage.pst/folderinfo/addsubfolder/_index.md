@@ -17,7 +17,7 @@ public FolderInfo AddSubFolder(string name, bool createHierarchy)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 子文件夹的名称。 |
-| createHierarchy | Boolean | 如果设置为` true` ，则可以使用字符串表示法创建文件夹层次结构. 反斜杠 ('\') 用作路径分隔符。 |
+| createHierarchy | Boolean | 如果设置为`真的`，可以使用字符串表示法创建文件夹层次结构。 反斜杠 ('\') 用作路径分隔符。 |
 
 ### 返回值
 
@@ -28,8 +28,8 @@ public FolderInfo AddSubFolder(string name, bool createHierarchy)
 | 例外 | （健康）状况 |
 | --- | --- |
 | NotImplementedException | 抛出，如果 PST 文件版本是 ANSI。 |
-| ArgumentNullException | 抛出，如果子文件夹名称为 null 或空。 |
-| InvalidOperationException | 抛出，如果 PST 以只读方式打开。 |
+| ArgumentNullException | 如果子文件夹名称为 null 或为空，则抛出。 |
+| InvalidOperationException | 抛出，如果 PST 是只读的。 |
 
 ### 也可以看看
 
@@ -60,8 +60,8 @@ public FolderInfo AddSubFolder(string name)
 | 例外 | （健康）状况 |
 | --- | --- |
 | NotImplementedException | 抛出，如果 PST 文件版本是 ANSI。 |
-| ArgumentNullException | 抛出，如果子文件夹名称为 null 或空。 |
-| InvalidOperationException | 抛出，如果 PST 以只读方式打开。 |
+| ArgumentNullException | 如果子文件夹名称为 null 或为空，则抛出。 |
+| InvalidOperationException | 抛出，如果 PST 是只读的。 |
 
 ### 也可以看看
 
@@ -93,8 +93,8 @@ public FolderInfo AddSubFolder(string name, string containerClass)
 | 例外 | （健康）状况 |
 | --- | --- |
 | NotImplementedException | 抛出，如果 PST 文件版本是 ANSI。 |
-| ArgumentNullException | 抛出，如果子文件夹名称为 null 或空。 |
-| InvalidOperationException | 抛出，如果 PST 以只读方式打开。 |
+| ArgumentNullException | 如果子文件夹名称为 null 或为空，则抛出。 |
+| InvalidOperationException | 抛出，如果 PST 是只读的。 |
 
 ### 也可以看看
 

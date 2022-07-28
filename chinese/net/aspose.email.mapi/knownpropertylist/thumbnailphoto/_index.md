@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/thumbnailphoto/
 ---
 ## KnownPropertyList.ThumbnailPhoto field
 
-包含邮件用户的 .jpg 格式照片。 区域:地址簿 规范名称:PidTagThumbnailPhoto 别名:PR_EMS_AB_THUMBNAIL_PHOTO
+包含邮件用户的 .jpg 格式照片。 区域：地址簿 规范名称：PidTagThumbnailPhoto 别名：PR_EMS_AB_THUMBNAIL_PHOTO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ThumbnailPhoto;

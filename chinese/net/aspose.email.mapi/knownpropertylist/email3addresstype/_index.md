@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/email3addresstype/
 ---
 ## KnownPropertyList.Email3AddressType field
 
-指定电子地址的地址类型。 区域:联系人属性 规范名称:PidLidEmail3AddressType 替代名称:dispidEmail3AddrType
+指定电子地址的地址类型。 区域：联系人属性 规范名称：PidLidEmail3AddressType 替代名称：dispidEmail3AddrType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email3AddressType;

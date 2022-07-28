@@ -18,10 +18,10 @@ public enum NotificationType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| EventCreation | `0` | 日历上有新事件时发送的通知。 |
-| EventChange | `1` | 事件更改时发送的通知。 |
-| EventCancellation | `2` | 取消事件时发送的通知。 |
-| EventResponse | `3` | 事件更改时发送的通知。 |
+| EventCreation | `0` | 在日历上添加新事件时发送通知。 |
+| EventChange | `1` | 更改事件时发送通知。 |
+| EventCancellation | `2` | 取消事件时发送通知。 |
+| EventResponse | `3` | 更改事件时发送通知。 |
 | Agenda | `4` | 当天事件的议程（早上发送）。 |
 
 ### 也可以看看

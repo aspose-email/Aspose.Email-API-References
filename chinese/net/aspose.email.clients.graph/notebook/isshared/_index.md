@@ -1,14 +1,14 @@
 ---
 title: IsShared
 second_title: Aspose.Email for .NET API 参考
-description: 表示笔记本是否共享 如果为真则笔记本的内容可以被所有者以外的人看到 只读
+description: 表示笔记本是否共享 如果为true则笔记本的内容可以被所有者以外的人看到 只读
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.graph/notebook/isshared/
 ---
 ## Notebook.IsShared property
 
-表示笔记本是否共享。 如果为真，则笔记本的内容可以被所有者以外的人看到。 只读。
+表示笔记本是否共享。 如果为true，则笔记本的内容可以被所有者以外的人看到。 只读。
 
 ```csharp
 public bool? IsShared { get; }

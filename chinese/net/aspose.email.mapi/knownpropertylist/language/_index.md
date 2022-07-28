@@ -1,14 +1,14 @@
 ---
 title: Language
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个值该值指示消息传递用户编写消息所使用的语言 区域地址属性 规范名称PidTagLanguage 替代名称PR_LANGUAGE PR_LANGUAGE_A PR_LANGUAGE_W
+description: 包含一个值该值指示消息传递用户编写消息所使用的语言 区域地址属性 规范名称PidTagLanguage 替代名称PR_LANGUAGEPR_LANGUAGE_APR_LANGUAGE_W
 type: docs
 weight: 11940
 url: /zh/net/aspose.email.mapi/knownpropertylist/language/
 ---
 ## KnownPropertyList.Language field
 
-包含一个值，该值指示消息传递用户编写消息所使用的语言。 区域:地址属性 规范名称:PidTagLanguage 替代名称:PR_LANGUAGE, PR_LANGUAGE_A, PR_LANGUAGE_W,
+包含一个值，该值指示消息传递用户编写消息所使用的语言。 区域：地址属性 规范名称：PidTagLanguage 替代名称：PR_LANGUAGE、PR_LANGUAGE_A、PR_LANGUAGE_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Language;

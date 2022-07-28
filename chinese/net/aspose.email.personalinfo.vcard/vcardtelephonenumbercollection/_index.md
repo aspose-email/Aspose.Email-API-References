@@ -3,7 +3,7 @@ title: VCardTelephoneNumberCollection
 second_title: Aspose.Email for .NET API 参考
 description: 表示 VCardTelephoneNumbers 的集合
 type: docs
-weight: 19730
+weight: 19780
 url: /zh/net/aspose.email.personalinfo.vcard/vcardtelephonenumbercollection/
 ---
 ## VCardTelephoneNumberCollection class

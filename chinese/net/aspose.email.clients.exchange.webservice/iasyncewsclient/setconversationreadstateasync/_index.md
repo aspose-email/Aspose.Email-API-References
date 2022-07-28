@@ -1,14 +1,14 @@
 ---
 title: SetConversationReadStateAsync
 second_title: Aspose.Email for .NET API 参考
-description: 将位于指定文件夹中的对话项目的读取状态设置为指定值
+description: 将位于指定文件夹中的对话项的读取状态设置为指定值
 type: docs
 weight: 620
 url: /zh/net/aspose.email.clients.exchange.webservice/iasyncewsclient/setconversationreadstateasync/
 ---
 ## IAsyncEwsClient.SetConversationReadStateAsync method
 
-将位于指定文件夹中的对话项目的读取状态设置为指定值
+将位于指定文件夹中的对话项的读取状态设置为指定值
 
 ```csharp
 public Task SetConversationReadStateAsync(string conversationId, bool isRead = true, 
@@ -18,15 +18,15 @@ public Task SetConversationReadStateAsync(string conversationId, bool isRead = t
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | conversationId | String | 要更改的对话 ID |
-| isRead | Boolean | 启用设置对话中项目的读取状态的标志。 |
-| contextFolderId | String | 对话项目所在文件夹的 ID。注意:如果设置为 null（或 空），所有对话项目将被复制 |
+| isRead | Boolean | 允许设置对话中项目的读取状态的标志。 |
+| contextFolderId | String | 对话项目所在文件夹的 ID。注意：如果设置为null(or 为空)，所有的对话项目都会被复制 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*是`无效的`或者`空的` |
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public sealed class RuleActions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RuleActions](ruleactions)() | 初始化一个新的实例 [`RuleActions`](../ruleactions) 班级 |
+| [RuleActions](ruleactions)() | 初始化[`RuleActions`](../ruleactions) class |
 
 ## 特性
 
@@ -26,16 +26,16 @@ public sealed class RuleActions
 | --- | --- |
 | [AssignCategories](../../aspose.email.clients.exchange/ruleactions/assigncategories) { get; set; } | 获取或设置标记在电子邮件消息上的类别。 |
 | [CopyToFolder](../../aspose.email.clients.exchange/ruleactions/copytofolder) { get; set; } | 获取或设置电子邮件项目将被复制到的文件夹。 |
-| [Delete](../../aspose.email.clients.exchange/ruleactions/delete) { get; set; } | 获取或设置一个值，该值指示是否将邮件移动到“已删除邮件”文件夹。 |
+| [Delete](../../aspose.email.clients.exchange/ruleactions/delete) { get; set; } | 获取或设置一个值，该值指示是否将邮件移动到已删除邮件文件夹。 |
 | [ForwardAsAttachmentToRecipients](../../aspose.email.clients.exchange/ruleactions/forwardasattachmenttorecipients) { get; set; } | 获取或设置邮件作为附件转发到的电子邮件地址。 |
 | [ForwardToRecipients](../../aspose.email.clients.exchange/ruleactions/forwardtorecipients) { get; set; } | 获取或设置邮件要转发到的电子邮件地址。 |
 | [MarkAsRead](../../aspose.email.clients.exchange/ruleactions/markasread) { get; set; } | 获取或设置一个值，该值指示是否将消息标记为已读。 |
 | [MarkImportance](../../aspose.email.clients.exchange/ruleactions/markimportance) { get; set; } | 获取或设置要在消息上标记的重要性。 |
 | [MoveToFolder](../../aspose.email.clients.exchange/ruleactions/movetofolder) { get; set; } | 获取或设置电子邮件项目将被移动到的文件夹的 ID。 |
-| [PermanentDelete](../../aspose.email.clients.exchange/ruleactions/permanentdelete) { get; set; } | 获取或设置一个值，该值指示是否要永久删除邮件而不将其保存到“已删除邮件”文件夹。 |
+| [PermanentDelete](../../aspose.email.clients.exchange/ruleactions/permanentdelete) { get; set; } | 获取或设置一个值，该值指示是否要永久删除邮件而不将其保存到已删除邮件文件夹中。 |
 | [RedirectToRecipients](../../aspose.email.clients.exchange/ruleactions/redirecttorecipients) { get; set; } | 获取或设置邮件要重定向到的电子邮件地址。 |
-| [SendSMSAlertToRecipients](../../aspose.email.clients.exchange/ruleactions/sendsmsalerttorecipients) { get; set; } | 获取或设置要向其发送短消息服务 (SMS) 警报的手机号码。 |
-| [ServerReplyWithMessage](../../aspose.email.clients.exchange/ruleactions/serverreplywithmessage) { get; set; } | 获取或设置要作为对传入消息的回复而发送的模板消息的 ID。 |
+| [SendSMSAlertToRecipients](../../aspose.email.clients.exchange/ruleactions/sendsmsalerttorecipients) { get; set; } | 获取或设置要向其发送短信服务 (SMS) 警报的手机号码。 |
+| [ServerReplyWithMessage](../../aspose.email.clients.exchange/ruleactions/serverreplywithmessage) { get; set; } | 获取或设置要作为对传入消息的回复发送的模板消息的 ID。 |
 | [StopProcessingRules](../../aspose.email.clients.exchange/ruleactions/stopprocessingrules) { get; set; } | 获取或设置一个值，指示是否要评估后续规则。 |
 
 ### 也可以看看

@@ -16,7 +16,7 @@ public void Set(string name, string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 标头名称。 |
+| name | String | 标题名称。 |
 | value | String | 标头值。 |
 
 ### 也可以看看

@@ -20,7 +20,7 @@ public static string GetPropertyName(long tag)
 
 ### 返回值
 
-AString表示属性名称。
+一个String表示属性名称。
 
 ### 也可以看看
 

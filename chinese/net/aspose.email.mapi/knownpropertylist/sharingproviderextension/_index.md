@@ -1,14 +1,14 @@
 ---
 title: SharingProviderExtension
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingProviderExtension 替代名称dispidSharingProviderExtension
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingProviderExtension 替代名称dispidSharingProviderExtension
 type: docs
 weight: 17700
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingproviderextension/
 ---
 ## KnownPropertyList.SharingProviderExtension field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingProviderExtension 替代名称:dispidSharingProviderExtension
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingProviderExtension 替代名称：dispidSharingProviderExtension
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingProviderExtension;

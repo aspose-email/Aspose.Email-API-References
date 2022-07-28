@@ -16,7 +16,7 @@ public static MapiContactSaveOptions Default { get; }
 
 ### 适当的价值
 
-[`MapiContactSaveOptions`](../../mapicontactsaveoptions)默认情况下。
+这[`MapiContactSaveOptions`](../../mapicontactsaveoptions)默认。
 
 ### 也可以看看
 

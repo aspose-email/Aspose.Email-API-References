@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API 参考
-description: 附件头
+description: 附件标题
 type: docs
 weight: 10
 url: /zh/net/aspose.email/mhttemplatename/attachments/
 ---
 ## MhtTemplateName.Attachments field
 
-附件头。
+附件标题。
 
 ```csharp
 public const string Attachments;

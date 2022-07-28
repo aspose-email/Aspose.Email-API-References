@@ -1,14 +1,14 @@
 ---
 title: PR_IPM_JOURNAL_ENTRYID
 second_title: Aspose.Email for .NET API 参考
-description: 包含 Outlook Journal 文件夹的 EntryID
+description: 包含 Outlook 日记文件夹的 EntryID
 type: docs
 weight: 13150
 url: /zh/net/aspose.email.mapi/mapipropertytag/pr_ipm_journal_entryid/
 ---
 ## MapiPropertyTag.PR_IPM_JOURNAL_ENTRYID field
 
-包含 Outlook Journal 文件夹的 EntryID。
+包含 Outlook 日记文件夹的 EntryID。
 
 ```csharp
 public static readonly long PR_IPM_JOURNAL_ENTRYID;

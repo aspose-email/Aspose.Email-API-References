@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/mapitaskusers/assigner/
 ---
 ## MapiTaskUsers.Assigner property
 
-指定属性组 定义创建任务的用户的显示名称和电子邮件地址。
+指定属性组， 定义创建任务的用户的显示名称和电子邮件地址。
 
 ```csharp
 public MapiElectronicAddress Assigner { get; set; }

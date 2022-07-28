@@ -16,7 +16,7 @@ public MapiRecipientCollection Recipients { get; set; }
 
 ### 适当的价值
 
-收件人集合。
+收件人的集合。
 
 ### 也可以看看
 

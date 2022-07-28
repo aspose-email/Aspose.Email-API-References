@@ -1,14 +1,14 @@
 ---
 title: CreateOrUpdateOverride
 second_title: Aspose.Email for .NET API 参考
-description: 为由 SMTP 地址标识的发件人创建覆盖 来自该 SMTP 地址的未来邮件将始终按照覆盖中指定的方式分类 注意 - 如果已存在具有相同 SMTP 地址的覆盖则使用提供的值更新该覆盖的分类和名称字段 - 邮箱支持的最大覆盖数为 1000基于唯一的发件人 SMTP 地址 权限 Delegated工作或学校帐户 Mail.ReadWrite Delegated个人 Microsoft 帐户 Mail.ReadWrite Application Mail.ReadWrite
+description: 为由 SMTP 地址标识的发件人创建覆盖 来自该 SMTP 地址的未来邮件将始终按照覆盖中指定的方式进行分类 注意 - 如果已存在具有相同 SMTP 地址的覆盖则使用提供的值更新该覆盖的分类和名称字段 - 邮箱支持的最大覆盖数为 1000取决于唯一的发件人 SMTP 地址 权限 委托工作或学校帐户 Mail.ReadWrite 委托个人 Microsoft 帐户 Mail.ReadWrite 应用程序邮件.ReadWrite
 type: docs
 weight: 160
 url: /zh/net/aspose.email.clients.graph/igraphclient/createorupdateoverride/
 ---
 ## CreateOrUpdateOverride(MailAddress, ClassificationType) {#createorupdateoverride_1}
 
-为由 SMTP 地址标识的发件人创建覆盖。 来自该 SMTP 地址的未来邮件将始终按照覆盖中指定的方式分类。 注意 - 如果已存在具有相同 SMTP 地址的覆盖，则使用提供的值更新该覆盖的分类和名称字段。 - 邮箱支持的最大覆盖数为 1000，基于唯一的发件人 SMTP 地址。 权限: Delegated（工作或学校帐户） Mail.ReadWrite Delegated（个人 Microsoft 帐户） Mail.ReadWrite Application Mail.ReadWrite
+为由 SMTP 地址标识的发件人创建覆盖。 来自该 SMTP 地址的未来邮件将始终按照覆盖中指定的方式进行分类。 注意： - 如果已存在具有相同 SMTP 地址的覆盖，则使用提供的值更新该覆盖的分类和名称字段。 - 邮箱支持的最大覆盖数为 1000，取决于唯一的发件人 SMTP 地址。 权限： 委托（工作或学校帐户） Mail.ReadWrite 委托（个人 Microsoft 帐户） Mail.ReadWrite 应用程序邮件.ReadWrite
 
 ```csharp
 public ClassificationOverride CreateOrUpdateOverride(MailAddress sender, 
@@ -18,7 +18,7 @@ public ClassificationOverride CreateOrUpdateOverride(MailAddress sender,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sender | MailAddress | 为其创建覆盖的发件人的电子邮件地址信息。 |
-| classifyAs | ClassificationType | 指定来自特定发件人的传入消息应始终分类为的值。 |
+| classifyAs | ClassificationType | 指定如何将来自特定发件人的传入消息始终分类为的值。 |
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public ClassificationOverride CreateOrUpdateOverride(MailAddress sender,
 
 ## CreateOrUpdateOverride(ClassificationOverride) {#createorupdateoverride}
 
-为由 SMTP 地址标识的发件人创建覆盖。 来自该 SMTP 地址的未来邮件将始终按照覆盖中指定的方式分类。 注意 - 如果已存在具有相同 SMTP 地址的覆盖，则使用提供的值更新该覆盖的分类和名称字段。 - 邮箱支持的最大覆盖数为 1000，基于唯一的发件人 SMTP 地址。 权限: Delegated（工作或学校帐户） Mail.ReadWrite Delegated（个人 Microsoft 帐户） Mail.ReadWrite Application Mail.ReadWrite
+为由 SMTP 地址标识的发件人创建覆盖。 来自该 SMTP 地址的未来邮件将始终按照覆盖中指定的方式进行分类。 注意： - 如果已存在具有相同 SMTP 地址的覆盖，则使用提供的值更新该覆盖的分类和名称字段。 - 邮箱支持的最大覆盖数为 1000，取决于唯一的发件人 SMTP 地址。 权限： 委托（工作或学校帐户） Mail.ReadWrite 委托（个人 Microsoft 帐户） Mail.ReadWrite 应用程序邮件.ReadWrite
 
 ```csharp
 public ClassificationOverride CreateOrUpdateOverride(ClassificationOverride classificationOverride)

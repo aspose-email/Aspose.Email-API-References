@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个指示规则是否为只读的值
+description: 获取或设置规则是否为只读的值
 type: docs
 weight: 130
 url: /zh/net/aspose.email.clients.exchange/inboxrule/isreadonly/
 ---
 ## InboxRule.IsReadOnly property
 
-获取或设置一个指示规则是否为只读的值。
+获取或设置规则是否为只读的值。
 
 ```csharp
 public bool? IsReadOnly { get; set; }

@@ -16,7 +16,7 @@ public void ConvertTo(FileFormat format)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| format | FileFormat | 要将当前对象转换为的文件格式。 |
+| format | FileFormat | 要将当前对象转换为的 FileFormat。 |
 
 ### 也可以看看
 

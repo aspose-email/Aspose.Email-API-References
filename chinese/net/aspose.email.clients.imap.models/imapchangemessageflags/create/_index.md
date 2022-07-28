@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建ImapChangeMessageFlagsaspose.email.clients.imap.models/imapchangemessageflags实例
+description: 创建ImapChangeMessageFlagsaspose.email.clients.imap.models/imapchangemessageflags实例.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap.models/imapchangemessageflags/create/
 ---
 ## ImapChangeMessageFlags.Create method
 
-创建[`ImapChangeMessageFlags`](../../imapchangemessageflags)实例。
+创建[`ImapChangeMessageFlags`](../../imapchangemessageflags)实例.
 
 ```csharp
 public static ImapChangeMessageFlags Create()

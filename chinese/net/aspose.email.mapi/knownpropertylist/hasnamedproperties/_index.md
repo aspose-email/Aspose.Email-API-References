@@ -1,14 +1,14 @@
 ---
 title: HasNamedProperties
 second_title: Aspose.Email for .NET API 参考
-description: 指示 Message 对象是否具有命名属性 区域ExchangeMessageReadOnly 规范名称PidTagHasNamedProperties 备用名称PR_HAS_NAMED_PROPERTIES ptagHasNamedProperties
+description: 指示消息对象是否具有命名属性 区域ExchangeMessageReadOnly 规范名称PidTagHasNamedProperties 替代名称PR_HAS_NAMED_PROPERTIESptagHasNamedProperties
 type: docs
 weight: 10870
 url: /zh/net/aspose.email.mapi/knownpropertylist/hasnamedproperties/
 ---
 ## KnownPropertyList.HasNamedProperties field
 
-指示 Message 对象是否具有命名属性。 区域:ExchangeMessageReadOnly 规范名称:PidTagHasNamedProperties 备用名称:PR_HAS_NAMED_PROPERTIES, ptagHasNamedProperties
+指示消息对象是否具有命名属性。 区域：ExchangeMessageReadOnly 规范名称：PidTagHasNamedProperties 替代名称：PR_HAS_NAMED_PROPERTIES、ptagHasNamedProperties
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HasNamedProperties;

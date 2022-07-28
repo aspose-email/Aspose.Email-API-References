@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Aspose.Email for .NET API 参考
 description: 指定文件格式 用于存储消息 日历事件和其他项目
 type: docs
-weight: 20090
+weight: 20140
 url: /zh/net/aspose.email.storage.pst/fileformat/
 ---
 ## FileFormat enumeration
@@ -18,8 +18,8 @@ public enum FileFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Pst | `0` | 个人存储表（.pst 文件格式）。 |
-| Ost | `1` | 离线存储表（.ost 文件格式）。 |
+| Pst | `0` | 个人存储表（.pst文件格式）。 |
+| Ost | `1` | 离线存储表（.ost文件格式）. |
 
 ### 也可以看看
 

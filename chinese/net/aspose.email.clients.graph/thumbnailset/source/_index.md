@@ -1,14 +1,14 @@
 ---
 title: Source
 second_title: Aspose.Email for .NET API 参考
-description: 自定义缩略图或用于生成其他缩略图的原始图像
+description: 自定义缩略图图像或用于生成其他缩略图的原始图像
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients.graph/thumbnailset/source/
 ---
 ## ThumbnailSet.Source property
 
-自定义缩略图或用于生成其他缩略图的原始图像。
+自定义缩略图图像或用于生成其他缩略图的原始图像。
 
 ```csharp
 public Thumbnail Source { get; set; }

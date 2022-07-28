@@ -1,14 +1,14 @@
 ---
 title: AddAttachment
 second_title: Aspose.Email for .NET API 参考
-description: 添加邮件附件
+description: 给消息添加附件
 type: docs
 weight: 380
 url: /zh/net/aspose.email/mailmessage/addattachment/
 ---
 ## MailMessage.AddAttachment method
 
-添加邮件附件
+给消息添加附件
 
 ```csharp
 public virtual void AddAttachment(Attachment attachment)

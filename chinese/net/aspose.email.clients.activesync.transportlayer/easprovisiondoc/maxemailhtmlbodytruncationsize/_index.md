@@ -1,14 +1,14 @@
 ---
 title: MaxEmailHTMLBodyTruncationSize
 second_title: Aspose.Email for .NET API 参考
-description: 指定 HTML 格式电子邮件的截断大小 有效值如下所列 -1 无截断 0 仅截断标题 gt0 将电子邮件正文截断为指定大小
+description: 指定 HTML 格式电子邮件的截断大小 下面列出了有效值 -1 不截断 0 仅截断标题 gt0 将电子邮件正文截断为指定大小
 type: docs
 weight: 310
 url: /zh/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/maxemailhtmlbodytruncationsize/
 ---
 ## EASProvisionDoc.MaxEmailHTMLBodyTruncationSize property
 
-指定 HTML 格式电子邮件的截断大小。 有效值如下所列: -1 无截断。 =0 仅截断标题。 &gt;0 将电子邮件正文截断为指定大小。
+指定 HTML 格式电子邮件的截断大小。 下面列出了有效值： -1 不截断。 =0 仅截断标题。 &gt;0 将电子邮件正文截断为指定大小。
 
 ```csharp
 public int? MaxEmailHTMLBodyTruncationSize { get; set; }

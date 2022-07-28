@@ -41,7 +41,7 @@ public static Contact Load(string filePath, ContactLoadFormat format)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 文件路径 |
-| format | ContactLoadFormat | 表示联系人格式 |
+| format | ContactLoadFormat | 代表联系方式 |
 
 ### 返回值
 
@@ -66,7 +66,7 @@ public static Contact Load(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 联系人流 |
+| stream | Stream | 联系流 |
 
 ### 返回值
 
@@ -90,8 +90,8 @@ public static Contact Load(Stream stream, ContactLoadFormat format)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 联系人流 |
-| format | ContactLoadFormat | 表示联系人格式 |
+| stream | Stream | 联系流 |
+| format | ContactLoadFormat | 代表联系方式 |
 
 ### 返回值
 

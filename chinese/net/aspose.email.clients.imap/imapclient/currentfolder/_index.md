@@ -16,7 +16,7 @@ public ImapFolderInfo CurrentFolder { get; set; }
 
 ### 适当的价值
 
-ImapFolderInfo 表示当前文件夹
+表示当前文件夹的 ImapFolderInfo
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public static implicit operator AppointmentCollection(Appointment[] appointments
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| appointments | Appointment[] | 约会数组到转换 |
+| appointments | Appointment[] | 要转换的约会数组 |
 
 ### 返回值
 

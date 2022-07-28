@@ -1,14 +1,14 @@
 ---
 title: PrintAllowed
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户是否可以打印电子邮件 此元素不表示客户端支持打印电子邮件消息它仅指定如果客户端支持打印是否可以打印电子邮件 如果用户可以打印电子邮件则值为 TRUE否则错误
+description: 指定用户是否可以打印电子邮件 此元素不表示客户端支持打印电子邮件消息如果客户端支持打印它只指定是否可以打印电子邮件 如果电子邮件可以被用户打印则值为 TRUE否则FALSE.
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/printallowed/
 ---
 ## RightsManagementLicense.PrintAllowed property
 
-指定用户是否可以打印电子邮件。 此元素不表示客户端支持打印电子邮件消息；它仅指定如果客户端支持打印，是否可以打印电子邮件。 如果用户可以打印电子邮件，则值为 TRUE；否则，错误。
+指定用户是否可以打印电子邮件。 此元素不表示客户端支持打印电子邮件消息；如果客户端支持打印，它只指定是否可以打印电子邮件。 如果电子邮件可以被用户打印，则值为 TRUE；否则，FALSE.
 
 ```csharp
 public bool PrintAllowed { get; set; }

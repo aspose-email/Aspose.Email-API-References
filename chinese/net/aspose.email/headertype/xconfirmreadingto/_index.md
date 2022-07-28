@@ -1,14 +1,14 @@
 ---
 title: XConfirmReadingTo
 second_title: Aspose.Email for .NET API 参考
-description: 此标头在收到或阅读消息时请求自动确认通知它通常被忽略大概是某些软件对其起作用
+description: 当收到或阅读消息时此标头请求自动确认通知它通常被忽略大概是某些软件对其起作用
 type: docs
 weight: 260
 url: /zh/net/aspose.email/headertype/xconfirmreadingto/
 ---
 ## HeaderType.XConfirmReadingTo property
 
-此标头在收到或阅读消息时请求自动确认通知。它通常被忽略；大概是某些软件对其起作用。
+当收到或阅读消息时，此标头请求自动确认通知。它通常被忽略；大概是某些软件对其起作用。
 
 ```csharp
 public static HeaderType XConfirmReadingTo { get; }

@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: Aspose.Email for .NET API 参考
-description: 日历的主颜色格式为0088aa 此属性取代了基于索引的 colorId 属性
+description: 格式为0088aa的日历的主要颜色 此属性取代基于索引的 colorId 属性
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.google/extendedcalendar/backgroundcolor/
 ---
 ## ExtendedCalendar.BackgroundColor property
 
-日历的主颜色，格式为“#0088aa”。 此属性取代了基于索引的 colorId 属性。
+格式为“#0088aa”的日历的主要颜色。 此属性取代基于索引的 colorId 属性。
 
 ```csharp
 public virtual string BackgroundColor { get; set; }

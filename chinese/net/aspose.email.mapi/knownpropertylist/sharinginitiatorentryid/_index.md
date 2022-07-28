@@ -1,14 +1,14 @@
 ---
 title: SharingInitiatorEntryId
 second_title: Aspose.Email for .NET API 参考
-description: 包含当前登录用户的通讯簿对象的 PidTagEntryId 属性第 2.674 节的值 区域共享 规范名称PidLidSharingInitiatorEntryId 替代名称dispidSharingInitiatorEid
+description: 包含当前登录用户的通讯簿对象的 PidTagEntryId 属性第 2.674 节的值 区域Sharing 规范名称PidLidSharingInitiatorEntryId 替代名称dispidSharingInitiatorEid
 type: docs
 weight: 17530
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharinginitiatorentryid/
 ---
 ## KnownPropertyList.SharingInitiatorEntryId field
 
-包含当前登录用户的通讯簿对象的 PidTagEntryId 属性（第 2.674 节）的值。 区域:共享 规范名称:PidLidSharingInitiatorEntryId 替代名称:dispidSharingInitiatorEid
+包含当前登录用户的通讯簿对象的 PidTagEntryId 属性（第 2.674 节）的值。 区域：Sharing 规范名称：PidLidSharingInitiatorEntryId 替代名称：dispidSharingInitiatorEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingInitiatorEntryId;

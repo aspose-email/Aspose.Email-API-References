@@ -1,14 +1,14 @@
 ---
 title: InboxRule
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 InboxRuleaspose.email.clients.exchange/inboxrule 班级
+description: 初始化InboxRuleaspose.email.clients.exchange/inboxrule class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/inboxrule/inboxrule/
 ---
 ## InboxRule constructor
 
-初始化一个新的实例 [`InboxRule`](../../inboxrule) 班级
+初始化[`InboxRule`](../../inboxrule) class
 
 ```csharp
 public InboxRule()

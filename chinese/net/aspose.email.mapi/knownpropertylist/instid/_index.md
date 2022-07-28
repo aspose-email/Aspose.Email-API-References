@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/instid/
 ---
 ## KnownPropertyList.InstID field
 
-包含表中行的所有实例的标识符。 区域:ProviderDefinedNonTransmittable 规范名称:PidTagInstID 替代名称:ptagInstID
+包含表中行的所有实例的标识符。 区域：ProviderDefinedNonTransmittable 规范名称：PidTagInstID 替代名称：ptagInstID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InstID;

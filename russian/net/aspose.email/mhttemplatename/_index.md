@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет общеизвестные имена заголовков для форматирования Mhtml.
+description: Определяет известные имена заголовков для форматирования Mhtml.
 type: docs
-weight: 19060
+weight: 19090
 url: /ru/net/aspose.email/mhttemplatename/
 ---
 ## MhtTemplateName class
 
-Определяет общеизвестные имена заголовков для форматирования Mhtml.
+Определяет известные имена заголовков для форматирования Mhtml.
 
 ```csharp
 public static class MhtTemplateName
@@ -21,7 +21,7 @@ public static class MhtTemplateName
 | const [Attachments](../../aspose.email/mhttemplatename/attachments) | Заголовок вложений. |
 | const [Bcc](../../aspose.email/mhttemplatename/bcc) | Заголовок скрытой копии. |
 | const [Categories](../../aspose.email/mhttemplatename/categories) | Заголовок категорий. |
-| const [Cc](../../aspose.email/mhttemplatename/cc) | Заголовок Cc. |
+| const [Cc](../../aspose.email/mhttemplatename/cc) | Копия заголовка. |
 | const [DateTime](../../aspose.email/mhttemplatename/datetime) | Заголовок DateTime. |
 | const [End](../../aspose.email/mhttemplatename/end) | Конечный заголовок. |
 | const [From](../../aspose.email/mhttemplatename/from) | Из заголовка. |
@@ -29,8 +29,8 @@ public static class MhtTemplateName
 | const [Location](../../aspose.email/mhttemplatename/location) | Заголовок местоположения. |
 | const [OptionalAttendees](../../aspose.email/mhttemplatename/optionalattendees) | Заголовок OptionalAttendees. |
 | const [Organizer](../../aspose.email/mhttemplatename/organizer) | Заголовок органайзера. |
-| const [PageHeader](../../aspose.email/mhttemplatename/pageheader) | Заголовок PageHeader. |
-| const [Recurrence](../../aspose.email/mhttemplatename/recurrence) | Повторяющийся заголовок. |
+| const [PageHeader](../../aspose.email/mhttemplatename/pageheader) | Заголовок заголовка страницы. |
+| const [Recurrence](../../aspose.email/mhttemplatename/recurrence) | Заголовок повторения. |
 | const [RecurrencePattern](../../aspose.email/mhttemplatename/recurrencepattern) | Заголовок RecurrencePattern. |
 | const [RequiredAttendees](../../aspose.email/mhttemplatename/requiredattendees) | Заголовок RequiredAttendees. |
 | const [Sent](../../aspose.email/mhttemplatename/sent) | Заголовок отправлен. |

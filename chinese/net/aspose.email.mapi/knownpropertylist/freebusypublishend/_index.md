@@ -1,14 +1,14 @@
 ---
 title: FreeBusyPublishEnd
 second_title: Aspose.Email for .NET API 参考
-description: 指定发布范围的结束时间UTC 时间 区域忙/闲属性 规范名称PidTagFreeBusyPublishEnd 替代名称PR_FREEBUSY_PUBLISH_END
+description: 指定发布范围的结束时间以 UTC 为单位 区域忙/闲属性 规范名称PidTagFreeBusyPublishEnd 替代名称PR_FREEBUSY_PUBLISH_END
 type: docs
 weight: 10680
 url: /zh/net/aspose.email.mapi/knownpropertylist/freebusypublishend/
 ---
 ## KnownPropertyList.FreeBusyPublishEnd field
 
-指定发布范围的结束时间（UTC 时间）。 区域:忙/闲属性 规范名称:PidTagFreeBusyPublishEnd 替代名称:PR_FREEBUSY_PUBLISH_END
+指定发布范围的结束时间（以 UTC 为单位）。 区域：忙/闲属性 规范名称：PidTagFreeBusyPublishEnd 替代名称：PR_FREEBUSY_PUBLISH_END
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FreeBusyPublishEnd;

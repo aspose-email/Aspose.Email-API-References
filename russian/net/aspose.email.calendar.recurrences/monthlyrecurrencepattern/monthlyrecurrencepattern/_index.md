@@ -1,14 +1,14 @@
 ---
 title: MonthlyRecurrencePattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMonthlyRecurrencePatternaspose.email.calendar.recurrences/monthlyrecurrencepattern.
+description: Инициализирует новый экземплярMonthlyRecurrencePatternaspose.email.calendar.recurrences/monthlyrecurrencepattern класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.calendar.recurrences/monthlyrecurrencepattern/monthlyrecurrencepattern/
 ---
 ## MonthlyRecurrencePattern() {#constructor}
 
-Инициализирует новый экземпляр класса[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern).
+Инициализирует новый экземпляр[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern) класс.
 
 ```csharp
 public MonthlyRecurrencePattern()
@@ -24,7 +24,7 @@ public MonthlyRecurrencePattern()
 
 ## MonthlyRecurrencePattern(int, int) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern).
+Инициализирует новый экземпляр[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern) класс.
 
 ```csharp
 public MonthlyRecurrencePattern(int startOffset, int interval)
@@ -45,7 +45,7 @@ public MonthlyRecurrencePattern(int startOffset, int interval)
 
 ## MonthlyRecurrencePattern(DayPosition, CalendarDay, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern).
+Инициализирует новый экземпляр[`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern) класс.
 
 ```csharp
 public MonthlyRecurrencePattern(DayPosition startPosition, CalendarDay startDay, int interval)
@@ -53,8 +53,8 @@ public MonthlyRecurrencePattern(DayPosition startPosition, CalendarDay startDay,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startPosition | DayPosition | Начальная позиция. |
-| startDay | CalendarDay | Начальный день. |
+| startPosition | DayPosition | Начальное положение. |
+| startDay | CalendarDay | Стартовый день. |
 | interval | Int32 | Количество единиц повторения. |
 
 ### Смотрите также

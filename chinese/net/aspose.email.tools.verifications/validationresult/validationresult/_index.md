@@ -24,7 +24,7 @@ public ValidationResult()
 
 ## ValidationResult(ValidationResponseCode) {#constructor_1}
 
-创建 ValidationResult 类的实例，指定 ValidationResponseCode
+创建 ValidationResult 类的实例，使用指定的验证响应代码
 
 ```csharp
 public ValidationResult(ValidationResponseCode responseCode)
@@ -45,7 +45,7 @@ public ValidationResult(ValidationResponseCode responseCode)
 
 ## ValidationResult(ValidationResponseCode, Exception) {#constructor_2}
 
-创建 ValidationResult 类的实例，指定 ValidationResponseCode ，最后一个例外。
+创建 ValidationResult 类的实例，使用指定的验证响应代码 ，最后一个例外。
 
 ```csharp
 public ValidationResult(ValidationResponseCode responseCode, Exception lastException)

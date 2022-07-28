@@ -1,14 +1,14 @@
 ---
 title: ActualWork
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовок Actual Work.
+description: Заголовок фактической работы.
 type: docs
 weight: 10
 url: /ru/net/aspose.email/mhttemplatename.task/actualwork/
 ---
 ## MhtTemplateName.Task.ActualWork field
 
-Заголовок Actual Work.
+Заголовок фактической работы.
 
 ```csharp
 public const string ActualWork;

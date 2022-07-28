@@ -1,14 +1,14 @@
 ---
 title: FilterType
 second_title: Aspose.Email for .NET API 参考
-description: 指定对象的可选时间窗口
+description: 指定对象 的可选时间窗口
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemestimateoptions/filtertype/
 ---
 ## ItemEstimateOptions.FilterType property
 
-指定对象的可选时间窗口
+指定对象 的可选时间窗口
 
 ```csharp
 public AirsyncFilterType? FilterType { get; set; }

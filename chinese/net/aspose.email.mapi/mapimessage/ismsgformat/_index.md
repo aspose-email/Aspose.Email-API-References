@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/mapimessage/ismsgformat/
 ---
 ## IsMsgFormat(string) {#ismsgformat_1}
 
-判断指定文件是否为MSG格式。
+判断指定文件是否为MSG格式
 
 ```csharp
 public static bool IsMsgFormat(string fileName)
@@ -16,11 +16,11 @@ public static bool IsMsgFormat(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
+| fileName | String | 文件的名称。 |
 
 ### 返回值
 
-` true` 如果文件以 MSG 格式表示；否则，` false` 。
+`真的`如果文件以 MSG 格式表示；否则，`错误的`.
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public static bool IsMsgFormat(string fileName)
 
 ## IsMsgFormat(Stream) {#ismsgformat}
 
-判断指定流是否有MSG格式。
+判断指定流是否有MSG格式
 
 ```csharp
 public static bool IsMsgFormat(Stream stream)
@@ -44,7 +44,7 @@ public static bool IsMsgFormat(Stream stream)
 
 ### 返回值
 
-` true` 如果流以 MSG 格式表示];否则，` false` 。
+`真的`如果流以 MSG 格式表示];否则，`错误的`.
 
 ### 也可以看看
 

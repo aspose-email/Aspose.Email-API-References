@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/workaddressstreet/
 ---
 ## KnownPropertyList.WorkAddressStreet field
 
-指定联系人工作地址的街道部分。 区域:联系人属性 规范名称:PidLidWorkAddressStreet 替代名称:dispidWorkAddressStreet
+指定联系人工作地址的街道部分。 区域：联系人属性 规范名称：PidLidWorkAddressStreet 替代名称：dispidWorkAddressStreet
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddressStreet;

@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 ContentTransferEncoding
+description: 获取或设置一个 ContentTransferEncoding
 type: docs
 weight: 30
 url: /zh/net/aspose.email.personalinfo.vcard/vcardsecurity/encoding/
 ---
 ## VCardSecurity.Encoding property
 
-获取或设置 ContentTransferEncoding
+获取或设置一个 ContentTransferEncoding
 
 ```csharp
 public TransferEncoding Encoding { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: LastPage
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает является ли текущая страница последней просматриваемой.
+description: Указывает является ли текущая страница последней просматриваемой страницей.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients/pageinfo/lastpage/
 ---
 ## PageInfo.LastPage property
 
-Указывает, является ли текущая страница последней просматриваемой.
+Указывает, является ли текущая страница последней просматриваемой страницей.
 
 ```csharp
 public bool LastPage { get; set; }

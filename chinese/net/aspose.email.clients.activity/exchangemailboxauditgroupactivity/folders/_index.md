@@ -1,14 +1,14 @@
 ---
 title: Folders
 second_title: Aspose.Email for .NET API 参考
-description: 操作中涉及的源文件夹的信息例如如果文件夹被选中然后被删除
+description: 操作中涉及的源文件夹的信息例如如果选择文件夹然后删除
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/folders/
 ---
 ## ExchangeMailboxAuditGroupActivity.Folders property
 
-操作中涉及的源文件夹的信息；例如，如果文件夹被选中然后被删除。
+操作中涉及的源文件夹的信息；例如，如果选择文件夹然后删除。
 
 ```csharp
 public ExchangeFolder[] Folders { get; set; }

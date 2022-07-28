@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/parentsourcekey/
 ---
 ## KnownPropertyList.ParentSourceKey field
 
-在包含父文件夹的 PidTagSourceKey 属性（第 2.1012 节）的文件夹上包含一个值。 区域:ExchangeNonTransmittableReserved 规范名称:PidTagParentSourceKey 备用名称:PR_PARENT_SOURCE_KEY
+在包含父文件夹的 PidTagSourceKey 属性（第 2.1012 节）的文件夹上包含一个值。 区域：ExchangeNonTransmittableReserved 规范名称：PidTagParentSourceKey 备用名称：PR_PARENT_SOURCE_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ParentSourceKey;

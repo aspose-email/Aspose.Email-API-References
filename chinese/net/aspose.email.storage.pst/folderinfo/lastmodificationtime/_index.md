@@ -16,7 +16,7 @@ public DateTime LastModificationTime { get; }
 
 ### 适当的价值
 
-最后修改时间。 如果文件夹没有 PR_LAST_MODIFICATION_TIME 属性，则返回 DateTime.MinValue。
+上次修改时间。 如果文件夹没有 PR_LAST_MODIFICATION_TIME 属性，则返回 DateTime.MinValue。
 
 ### 也可以看看
 

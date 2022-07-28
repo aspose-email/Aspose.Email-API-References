@@ -3,7 +3,7 @@ title: MailClientAgent
 second_title: Aspose.Email for .NET API 参考
 description: 表示电子邮件客户端代理
 type: docs
-weight: 20900
+weight: 20950
 url: /zh/net/aspose.email.windows.forms/mailclientagent/
 ---
 ## MailClientAgent class
@@ -18,7 +18,7 @@ public class MailClientAgent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MailClientAgent](mailclientagent)() | 初始化[`MailClientAgent`](../mailclientagent)类的新实例。 |
+| [MailClientAgent](mailclientagent)() | 初始化[`MailClientAgent`](../mailclientagent)类. |
 
 ## 方法
 

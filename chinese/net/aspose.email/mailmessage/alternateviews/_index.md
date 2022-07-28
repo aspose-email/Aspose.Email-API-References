@@ -1,14 +1,14 @@
 ---
 title: AlternateViews
 second_title: Aspose.Email for .NET API 参考
-description: 获取消息的备用视图集合
+description: 获取 message 的备用视图的集合
 type: docs
 weight: 30
 url: /zh/net/aspose.email/mailmessage/alternateviews/
 ---
 ## MailMessage.AlternateViews property
 
-获取消息的备用视图集合
+获取 message 的备用视图的集合
 
 ```csharp
 public virtual AlternateViewCollection AlternateViews { get; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/condstoresupported/
 ---
 ## ImapClient.CondstoreSupported property
 
-获取是否支持 CONDSTORE 扩展的信息 查看更多:https://tools.ietf.org/html/rfc7162
+获取是否支持 CONDSTORE 扩展的信息 查看更多：https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public bool CondstoreSupported { get; set; }

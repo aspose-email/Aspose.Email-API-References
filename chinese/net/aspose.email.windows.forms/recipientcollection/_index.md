@@ -3,7 +3,7 @@ title: RecipientCollection
 second_title: Aspose.Email for .NET API 参考
 description: 表示邮件消息的收件人集合
 type: docs
-weight: 20920
+weight: 20970
 url: /zh/net/aspose.email.windows.forms/recipientcollection/
 ---
 ## RecipientCollection class
@@ -32,7 +32,7 @@ public class RecipientCollection : Collection<Recipient>
 | --- | --- |
 | [Add](../../aspose.email.windows.forms/recipientcollection/add#add_1)(string) | 将具有指定地址的新收件人添加到此集合中。 |
 | [Add](../../aspose.email.windows.forms/recipientcollection/add#add_2)(string, RecipientType) | 将具有指定地址和收件人类型的新收件人添加到此集合中。 |
-| [Add](../../aspose.email.windows.forms/recipientcollection/add#add_3)(string, string) | 将具有指定地址和显示名称的新收件人添加到此集合。 |
+| [Add](../../aspose.email.windows.forms/recipientcollection/add#add_3)(string, string) | 将具有指定地址和显示名称的新收件人添加到此集合中。 |
 | [Add](../../aspose.email.windows.forms/recipientcollection/add#add_4)(string, string, RecipientType) | 将具有指定地址、显示名称和收件人类型的新收件人添加到此集合中。 |
 
 ### 也可以看看

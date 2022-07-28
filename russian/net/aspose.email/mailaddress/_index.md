@@ -18,12 +18,12 @@ public class MailAddress : IMailAddress
 
 | Имя | Описание |
 | --- | --- |
-| [MailAddress](mailaddress#constructor)(string) | Инициализирует новый экземпляр класса[`MailAddress`](../mailaddress). |
-| [MailAddress](mailaddress#constructor_1)(string, bool) | Инициализирует новый экземпляр класса[`MailAddress`](../mailaddress). |
-| [MailAddress](mailaddress#constructor_2)(string, string) | Инициализирует новый экземпляр класса[`MailAddress`](../mailaddress). |
-| [MailAddress](mailaddress#constructor_3)(string, string, bool) | Инициализирует новый экземпляр класса[`MailAddress`](../mailaddress). |
-| [MailAddress](mailaddress#constructor_4)(string, string, Encoding) | Инициализирует новый экземпляр класса[`MailAddress`](../mailaddress). |
-| [MailAddress](mailaddress#constructor_5)(string, string, Encoding, bool) | Инициализирует новый экземпляр класса[`MailAddress`](../mailaddress). |
+| [MailAddress](mailaddress#constructor)(string) | Инициализирует новый экземпляр[`MailAddress`](../mailaddress) класс. |
+| [MailAddress](mailaddress#constructor_1)(string, bool) | Инициализирует новый экземпляр[`MailAddress`](../mailaddress) класс. |
+| [MailAddress](mailaddress#constructor_2)(string, string) | Инициализирует новый экземпляр[`MailAddress`](../mailaddress) класс. |
+| [MailAddress](mailaddress#constructor_3)(string, string, bool) | Инициализирует новый экземпляр[`MailAddress`](../mailaddress) класс. |
+| [MailAddress](mailaddress#constructor_4)(string, string, Encoding) | Инициализирует новый экземпляр[`MailAddress`](../mailaddress) класс. |
+| [MailAddress](mailaddress#constructor_5)(string, string, Encoding, bool) | Инициализирует новый экземпляр[`MailAddress`](../mailaddress) класс. |
 
 ## Характеристики
 
@@ -33,7 +33,7 @@ public class MailAddress : IMailAddress
 | [Count](../../aspose.email/mailaddress/count) { get; } | Содержит количество почтовых адресов. |
 | [DisplayName](../../aspose.email/mailaddress/displayname) { get; set; } | Получает или задает отображаемое имя. |
 | [Host](../../aspose.email/mailaddress/host) { get; } | Получает часть адреса, относящуюся к хосту. |
-| [Id](../../aspose.email/mailaddress/id) { get; } | Получает идентификационную информацию об объекте |
+| [Id](../../aspose.email/mailaddress/id) { get; } | Получает информацию об идентификации объекта |
 | [Item](../../aspose.email/mailaddress/item) { get; } | Получает элемент по указанному индексу. |
 | [OriginalAddressString](../../aspose.email/mailaddress/originaladdressstring) { get; } | Получает или задает исходную строку адреса электронной почты. |
 | [ParticipationStatus](../../aspose.email/mailaddress/participationstatus) { get; set; } | Получает или задает статус участия для пользователя календаря. |
@@ -43,10 +43,10 @@ public class MailAddress : IMailAddress
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.email/mailaddress/equals)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.email/mailaddress/equals)(object) | Определяет, является ли указанныйObject равен этому экземпляру. |
 | override [GetHashCode](../../aspose.email/mailaddress/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.email/mailaddress/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
-| [implicit operator](../../aspose.email/mailaddress/op_implicit#op_implicit_1) | Выполняет неявное преобразование изStringв[`MailAddress`](../mailaddress). (2 operators) |
+| override [ToString](../../aspose.email/mailaddress/tostring)() | ВозвращаетString который представляет этот экземпляр. |
+| [implicit operator](../../aspose.email/mailaddress/op_implicit#op_implicit_1) | Выполняет неявное преобразование изString к[`MailAddress`](../mailaddress) . (2 operators) |
 
 ### Смотрите также
 

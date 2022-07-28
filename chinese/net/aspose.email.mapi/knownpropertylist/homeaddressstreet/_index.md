@@ -1,14 +1,14 @@
 ---
 title: HomeAddressStreet
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的家庭街道地址 区域MapiMailUser 规范名称PidTagHomeAddressStreet 备用名称PR_HOME_ADDRESS_STREET PR_HOME_ADDRESS_STREET_A
+description: 包含邮件用户的家庭街道地址 区域MapiMailUser 规范名称PidTagHomeAddressStreet 替代名称PR_HOME_ADDRESS_STREETPR_HOME_ADDRESS_STREET_A
 type: docs
 weight: 11070
 url: /zh/net/aspose.email.mapi/knownpropertylist/homeaddressstreet/
 ---
 ## KnownPropertyList.HomeAddressStreet field
 
-包含邮件用户的家庭街道地址。 区域:MapiMailUser 规范名称:PidTagHomeAddressStreet 备用名称:PR_HOME_ADDRESS_STREET, PR_HOME_ADDRESS_STREET_A,
+包含邮件用户的家庭街道地址。 区域：MapiMailUser 规范名称：PidTagHomeAddressStreet 替代名称：PR_HOME_ADDRESS_STREET、PR_HOME_ADDRESS_STREET_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressStreet;

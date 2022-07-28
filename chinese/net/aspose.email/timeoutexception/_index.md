@@ -3,7 +3,7 @@ title: TimeoutException
 second_title: Aspose.Email for .NET API 参考
 description: 表示操作时间到期时抛出的异常
 type: docs
-weight: 20340
+weight: 20390
 url: /zh/net/aspose.email/timeoutexception/
 ---
 ## TimeoutException class
@@ -18,10 +18,10 @@ public class TimeoutException : AsposeException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TimeoutException](timeoutexception#constructor)() | 初始化[`TimeoutException`](../timeoutexception)类的新实例。 |
-| [TimeoutException](timeoutexception#constructor_1)(string) | 初始化[`TimeoutException`](../timeoutexception)类的新实例。 |
+| [TimeoutException](timeoutexception#constructor)() | 初始化[`TimeoutException`](../timeoutexception)类. |
+| [TimeoutException](timeoutexception#constructor_1)(string) | 初始化[`TimeoutException`](../timeoutexception)类. |
 | [TimeoutException](timeoutexception#constructor_2)(string, int) |  |
-| [TimeoutException](timeoutexception#constructor_3)(string, params object[]) | 初始化[`TimeoutException`](../timeoutexception)类的新实例。 |
+| [TimeoutException](timeoutexception#constructor_3)(string, params object[]) | 初始化[`TimeoutException`](../timeoutexception)类. |
 | [TimeoutException](timeoutexception#constructor_4)(string, string, int) |  |
 
 ## 特性

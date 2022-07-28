@@ -24,12 +24,12 @@ public class ItemOperationsFetchResponce
 
 | Имя | Описание |
 | --- | --- |
-| [Class](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/class) { get; set; } | Идентифицирует класс предмета. Допустимые значения элемента Class: - Электронная почта - Контакты - Календарь - Задачи |
-| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/collectionid) { get; set; } | Указывает папку, которую необходимо извлечь. Содержит идентификатор сервера папки. |
+| [Class](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/class) { get; set; } | Идентифицирует класс элемента. Допустимые значения элемента класса: - Email - Contacts - Calendar - Tasks |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/collectionid) { get; set; } | Указывает папку, которую необходимо загрузить. Содержит ServerId папки. |
 | [LinkId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/linkid) { get; set; } | Указывает универсальный идентификатор ресурса (URI), который назначается сервером определенным ресурсам, таким как Windows SharePoint Services или документы UNC. Может использоваться элементом Fetch для ссылки на расположение элемента. |
 | [LongId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/longid) { get; set; } | Указывает уникальный идентификатор, назначаемый сервером каждому результату, возвращаемому предыдущим ответом поиска. Значение элемента LongId может иметь длину до 256 символов. |
 | [Properties](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/properties) { get; set; } | Содержит свойства, возвращаемые для элементов в ответе. |
-| [ServerId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/serverid) { get; set; } | Указывает уникальный идентификатор, который назначается сервером каждому объекту, который может быть синхронизирован или к которому может быть применена операция элемента. |
+| [ServerId](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/serverid) { get; set; } | Указывает уникальный идентификатор, назначаемый сервером каждому объекту, который может быть синхронизирован или к которому может быть применена операция элемента. |
 | [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/status) { get; set; } | Содержит код и описание, указывающее на успех или неудачу операции ItemOperations |
 
 ### Смотрите также

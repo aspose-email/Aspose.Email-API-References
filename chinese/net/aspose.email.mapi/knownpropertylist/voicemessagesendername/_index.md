@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/voicemessagesendername/
 ---
 ## KnownPropertyList.VoiceMessageSenderName field
 
-指定留下附加语音消息的呼叫者的姓名，由语音网络的呼叫者 ID 系统提供。 区域:统一消息 规范名称:PidTagVoiceMessageSenderName 备用名称:InternalSchemaVoiceMessageSenderName
+指定留下附加语音消息的呼叫者的姓名，由语音网络的呼叫者 ID 系统提供。 区域：统一消息 规范名称：PidTagVoiceMessageSenderName 备用名称：InternalSchemaVoiceMessageSenderName
 
 ```csharp
 public static readonly PidTagPropertyDescriptor VoiceMessageSenderName;

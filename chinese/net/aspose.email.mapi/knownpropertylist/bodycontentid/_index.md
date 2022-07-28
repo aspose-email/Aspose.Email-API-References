@@ -1,14 +1,14 @@
 ---
 title: BodyContentId
 second_title: Aspose.Email for .NET API 参考
-description: 包含对应于当前消息正文的 GUID 区域交换 规范名称PidTagBodyContentId 替代名称PR_BODY_CONTENT_ID PR_BODY_CONTENT_ID_A PR_BODY_CONTENT_ID_W
+description: 包含对应于当前邮件正文的 GUID 区域Exchange 规范名称PidTagBodyContentId 备用名称PR_BODY_CONTENT_IDPR_BODY_CONTENT_ID_APR_BODY_CONTENT_ID_W
 type: docs
 weight: 2040
 url: /zh/net/aspose.email.mapi/knownpropertylist/bodycontentid/
 ---
 ## KnownPropertyList.BodyContentId field
 
-包含对应于当前消息正文的 GUID。 区域:交换 规范名称:PidTagBodyContentId 替代名称:PR_BODY_CONTENT_ID, PR_BODY_CONTENT_ID_A, PR_BODY_CONTENT_ID_W
+包含对应于当前邮件正文的 GUID。 区域：Exchange 规范名称：PidTagBodyContentId 备用名称：PR_BODY_CONTENT_ID、PR_BODY_CONTENT_ID_A、PR_BODY_CONTENT_ID_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BodyContentId;

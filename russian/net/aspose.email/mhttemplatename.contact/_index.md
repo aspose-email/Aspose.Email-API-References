@@ -1,14 +1,14 @@
 ---
 title: MhtTemplateName.Contact
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет общеизвестные имена заголовков Contact для форматирования Mhtml.
+description: Определяет общеизвестные названия заголовков Contact для форматирования Mhtml.
 type: docs
-weight: 19070
+weight: 19100
 url: /ru/net/aspose.email/mhttemplatename.contact/
 ---
 ## MhtTemplateName.Contact class
 
-Определяет общеизвестные имена заголовков Contact для форматирования Mhtml.
+Определяет общеизвестные названия заголовков Contact для форматирования Mhtml.
 
 ```csharp
 public static class Contact
@@ -26,26 +26,26 @@ public static class Contact
 | const [BusinessHomePage](../../aspose.email/contact/businesshomepage) | Заголовок BusinessHomePage. |
 | const [Company](../../aspose.email/contact/company) | Заголовок компании. |
 | const [Department](../../aspose.email/contact/department) | Заголовок отдела. |
-| const [Email](../../aspose.email/contact/email) | Заголовок электронной почты. |
-| const [Email2](../../aspose.email/contact/email2) | Заголовок Email2. |
+| const [Email](../../aspose.email/contact/email) | Заголовок письма. |
+| const [Email2](../../aspose.email/contact/email2) | Заголовок электронного письма2. |
 | const [Email2DisplayAs](../../aspose.email/contact/email2displayas) | Email2 Отобразить как заголовок. |
-| const [Email3](../../aspose.email/contact/email3) | Заголовок Email3. |
-| const [Email3DisplayAs](../../aspose.email/contact/email3displayas) | Email3 Показать как заголовок. |
-| const [EmailDisplayAs](../../aspose.email/contact/emaildisplayas) | Email Display As header. |
-| const [FirstName](../../aspose.email/contact/firstname) | Заголовок First Name. |
-| const [FullName](../../aspose.email/contact/fullname) | Заголовок Full Name. |
+| const [Email3](../../aspose.email/contact/email3) | Заголовок электронного письма3. |
+| const [Email3DisplayAs](../../aspose.email/contact/email3displayas) | Email3 Отобразить как заголовок. |
+| const [EmailDisplayAs](../../aspose.email/contact/emaildisplayas) | Электронная почта Отображается как заголовок. |
+| const [FirstName](../../aspose.email/contact/firstname) | Заголовок имени. |
+| const [FullName](../../aspose.email/contact/fullname) | Заголовок полного имени. |
 | const [Gender](../../aspose.email/contact/gender) | Гендерный заголовок. |
-| const [Hobbies](../../aspose.email/contact/hobbies) | Заголовок "Хобби". |
+| const [Hobbies](../../aspose.email/contact/hobbies) | Заголовок хобби. |
 | const [Home](../../aspose.email/contact/home) | Заголовок домашнего телефона. |
 | const [HomeAddress](../../aspose.email/contact/homeaddress) | Заголовок домашнего адреса. |
-| const [JobTitle](../../aspose.email/contact/jobtitle) | Заголовок Должность. |
-| const [LastName](../../aspose.email/contact/lastname) | Заголовок Last Name. |
-| const [MiddleName](../../aspose.email/contact/middlename) | Заголовок Middle Name. |
+| const [JobTitle](../../aspose.email/contact/jobtitle) | Заголовок должности. |
+| const [LastName](../../aspose.email/contact/lastname) | Заголовок Фамилия. |
+| const [MiddleName](../../aspose.email/contact/middlename) | Заголовок отчества. |
 | const [Mobile](../../aspose.email/contact/mobile) | Заголовок мобильного телефона. |
 | const [OtherAddress](../../aspose.email/contact/otheraddress) | Другой заголовок адреса. |
 | const [PersonalHomePage](../../aspose.email/contact/personalhomepage) | Заголовок PersonalHomePage. |
 | const [Profession](../../aspose.email/contact/profession) | Заголовок профессии. |
-| const [SpousePartner](../../aspose.email/contact/spousepartner) | Заголовок супруг/партнер. |
+| const [SpousePartner](../../aspose.email/contact/spousepartner) | Заголовок супруга/партнера. |
 | const [UserField1](../../aspose.email/contact/userfield1) | Заголовок UserField1. |
 | const [UserField2](../../aspose.email/contact/userfield2) | Заголовок UserField2. |
 | const [UserField3](../../aspose.email/contact/userfield3) | Заголовок UserField3. |

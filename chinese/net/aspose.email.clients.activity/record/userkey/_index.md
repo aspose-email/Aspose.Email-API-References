@@ -1,14 +1,14 @@
 ---
 title: UserKey
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置在 UserId 属性中标识的用户的替代 ID 例如此属性填充了用户在 SharePointOneDrive for Business 和 Exchange 中执行的事件的护照唯一 ID PUID 此属性还可以为其他服务中发生的事件和系统帐户执行的事件指定与 UserID 属性相同的值 强制是
+description: 获取或设置在 UserId 属性中标识的用户的备用 ID 例如此属性由用户在 SharePointOneDrive for Business 和 Exchange 中执行的事件的护照唯一 ID PUID 填充 此属性还可以为其他服务中发生的事件和系统帐户执行的事件指定与 UserID 属性相同的值 强制是
 type: docs
 weight: 160
 url: /zh/net/aspose.email.clients.activity/record/userkey/
 ---
 ## Record.UserKey property
 
-获取或设置在 UserId 属性中标识的用户的替代 ID。 例如，此属性填充了用户在 SharePoint、OneDrive for Business 和 Exchange 中执行的事件的护照唯一 ID (PUID)。 此属性还可以为其他服务中发生的事件和系统帐户执行的事件指定与 UserID 属性相同的值。 强制:是
+获取或设置在 UserId 属性中标识的用户的备用 ID。 例如，此属性由用户在 SharePoint、OneDrive for Business 和 Exchange 中执行的事件的护照唯一 ID (PUID) 填充。 此属性还可以为其他服务中发生的事件和系统帐户执行的事件指定与 UserID 属性相同的值。 强制：是
 
 ```csharp
 public string UserKey { get; set; }

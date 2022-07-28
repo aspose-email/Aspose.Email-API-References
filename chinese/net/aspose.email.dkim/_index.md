@@ -1,19 +1,19 @@
 ---
 title: Aspose.Email.DKIM
 second_title: Aspose.Email for .NET API 参考
-description: Aspose.Email.Mail.DKIM 命名空间提供使用 DKIM 签名的类
+description: 的 Aspose.Email.Mail.DKIM命名空间提供使用 DKIM 签名的类
 type: docs
 weight: 290
 url: /zh/net/aspose.email.dkim/
 ---
-**Aspose.Email.Mail.DKIM** 命名空间提供使用 DKIM 签名的类。
+的 **Aspose.Email.Mail.DKIM**命名空间提供使用 DKIM 签名的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [DKIMSignatureInfo](./dkimsignatureinfo) | 表示 DKIM 签名信息。 |
-| [HeaderList](./headerlist) | 带有包含在 DKIM 签名中的标头名称的集合。 |
+| [DKIMSignatureInfo](./dkimsignatureinfo) | 代表 DKIM 签名信息。 |
+| [HeaderList](./headerlist) | 包含在 DKIM 签名中的标头名称的集合。 |
 | [PemReader](./pemreader) | PEM 格式阅读器。 |
 ## 枚举
 

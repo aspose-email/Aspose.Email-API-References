@@ -1,14 +1,14 @@
 ---
 title: PostOfficeBox
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户邮箱的编号或标识符 区域MapiMailUser 规范名称PidTagPostOfficeBox 别名PR_POST_OFFICE_BOX PR_POST_OFFICE_BOX_A PR_POST_OFFICE_BOX_W PR_BUSINESS_ADDRESS_POST_OFFICE_BOX PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_A
+description: 包含邮件用户的邮政信箱的编号或标识符 区域MapiMailUser 规范名称PidTagPostOfficeBox 替代名称PR_POST_OFFICE_BOXPR_POST_OFFICE_BOX_APR_POST_OFFICE_BOX_APR_POST_OFFICE_BOX_WPR_BUSINESS_ADDRESS_POST_OFFICE_BOXPR_BUSINESS_ADDRESS_POST_000OFFICE_BOXA
 type: docs
 weight: 14400
 url: /zh/net/aspose.email.mapi/knownpropertylist/postofficebox/
 ---
 ## KnownPropertyList.PostOfficeBox field
 
-包含邮件用户邮箱的编号或标识符。 区域:MapiMailUser 规范名称:PidTagPostOfficeBox 别名:PR_POST_OFFICE_BOX, PR_POST_OFFICE_BOX_A, PR_POST_OFFICE_BOX_W, PR_BUSINESS_ADDRESS_POST_OFFICE_BOX, PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_A,
+包含邮件用户的邮政信箱的编号或标识符。 区域：MapiMailUser 规范名称：PidTagPostOfficeBox 替代名称：PR_POST_OFFICE_BOX、PR_POST_OFFICE_BOX_A、PR_POST_OFFICE_BOX_A、PR_POST_OFFICE_BOX_W、PR_BUSINESS_ADDRESS_POST_OFFICE_BOX、PR_BUSINESS_ADDRESS_POST_000OFFICE_BOXA
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PostOfficeBox;

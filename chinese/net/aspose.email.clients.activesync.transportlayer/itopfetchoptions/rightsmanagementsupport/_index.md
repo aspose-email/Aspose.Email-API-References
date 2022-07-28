@@ -1,14 +1,14 @@
 ---
 title: RightsManagementSupport
 second_title: Aspose.Email for .NET API 参考
-description: 指定服务器如何将权限管理的电子邮件消息返回给客户端 如果此元素的值为 TRUE则服务器将在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩和解密如第 3.2.4.3 节中所述 如果值为 FALSE 0服务器将不会在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩或解密 如果未定义 RightsManagementSupport 元素则假定默认值为 FALSE
+description: 指定服务器如何将权限管理的电子邮件消息返回给客户端 如果此元素的值为 TRUE则服务器将在将权限管理的电子邮件消息发送给客户端之前对其进行解压缩和解密如第 3.2.4.3 节中所述. 如果值为 FALSE 0则服务器在将权限管理的电子邮件发送到客户端之前不会对其进行解压缩或解密 如果未定义 RightsManagementSupport 元素则假定默认值为 FALSE
 type: docs
 weight: 70
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itopfetchoptions/rightsmanagementsupport/
 ---
 ## ItOpFetchOptions.RightsManagementSupport property
 
-指定服务器如何将权限管理的电子邮件消息返回给客户端。 如果此元素的值为 TRUE，则服务器将在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩和解密，如第 3.2.4.3 节中所述。 如果值为 FALSE (0)，服务器将不会在将权限管理的电子邮件消息发送到客户端之前对其进行解压缩或解密。 如果未定义 RightsManagementSupport 元素，则假定默认值为 FALSE。
+指定服务器如何将权限管理的电子邮件消息返回给客户端。 如果此元素的值为 TRUE，则服务器将在将权限管理的电子邮件消息发送给客户端之前对其进行解压缩和解密，如第 3.2.4.3 节中所述. 如果值为 FALSE (0)，则服务器在将权限管理的电子邮件发送到客户端之前不会对其进行解压缩或解密。 如果未定义 RightsManagementSupport 元素，则假定默认值为 FALSE。
 
 ```csharp
 public bool? RightsManagementSupport { get; set; }

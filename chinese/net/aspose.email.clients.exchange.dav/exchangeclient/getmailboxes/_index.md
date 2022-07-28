@@ -16,7 +16,7 @@ public Contact[] GetMailboxes()
 
 ### 返回值
 
-[`Contact`](../../../aspose.email.personalinfo/contact)对象的数组。
+一个数组[`Contact`](../../../aspose.email.personalinfo/contact)对象。
 
 ### 也可以看看
 

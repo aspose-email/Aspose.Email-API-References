@@ -1,14 +1,14 @@
 ---
 title: ServerInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Настройки сервера в операции автообнаружения
+description: Параметры сервера в операции автообнаружения
 type: docs
 weight: 2030
 url: /ru/net/aspose.email.clients.activesync.transportlayer/serverinfo/
 ---
 ## ServerInfo class
 
-Настройки сервера в операции автообнаружения
+Параметры сервера в операции автообнаружения
 
 ```csharp
 public class ServerInfo
@@ -24,9 +24,9 @@ public class ServerInfo
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.email.clients.activesync.transportlayer/serverinfo/name) { get; } | Указывает URL-адрес, если для элемента Type (раздел 2.2.3.170.1) установлено значение «MobileSync». Если значение элемента Type равно "MobileSync", то элемент Name указывает URL-адрес, который передает протокол. Если значение элемента Type равно "CertEnroll", то значение элемента Name равно NULL. |
-| [ServerData](../../aspose.email.clients.activesync.transportlayer/serverinfo/serverdata) { get; } | ServerData указывает имя шаблона для клиентского сертификата. По желанию. |
-| [Type](../../aspose.email.clients.activesync.transportlayer/serverinfo/type) { get; } | Указывает тип сервера Ниже приведены допустимые значения для элемента Type: MobileSync — указывает, что URL которые возвращаются элементом URL (раздел 2.2.3.172), могут быть доступны клиентам. CertEnroll — указывает, что URL-адрес, возвращаемый элементом URL, может быть доступен клиентам для получения клиентского сертификата для согласования Secure Sockets Layer (SSL). |
+| [Name](../../aspose.email.clients.activesync.transportlayer/serverinfo/name) { get; } | Указывает URL-адрес, если значение элемента Type (раздел 2.2.3.170.1) установлено на «MobileSync». Если значение элемента Type равно «MobileSync», то элемент Name указывает URL-адрес, который передает протокол. Если значение элемента Type равно "CertEnroll", то значение элемента Name равно NULL. |
+| [ServerData](../../aspose.email.clients.activesync.transportlayer/serverinfo/serverdata) { get; } | ServerData указывает имя шаблона для клиентского сертификата. Дополнительно. |
+| [Type](../../aspose.email.clients.activesync.transportlayer/serverinfo/type) { get; } | Задает тип сервера Ниже приведены допустимые значения для элемента Type: MobileSync — указывает, что URL-адрес, возвращаемый элементом URL (раздел 2.2.3.172), может быть доступен клиентам. CertEnroll — указывает, что URL-адрес, возвращается элементом URL, к которому клиенты могут получить доступ для получения клиентского сертификата для согласования Secure Sockets Layer (SSL). |
 | [Url](../../aspose.email.clients.activesync.transportlayer/serverinfo/url) { get; } | Указывает строку URL, которая передает протокол, порт, местоположение ресурса и другую информацию. |
 
 ## Методы

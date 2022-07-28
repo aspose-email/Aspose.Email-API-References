@@ -1,14 +1,14 @@
 ---
 title: Birthday
 second_title: Aspose.Email for .NET API 参考
-description: 生日标题
+description: 生日标题.
 type: docs
 weight: 20
 url: /zh/net/aspose.email/mhttemplatename.contact/birthday/
 ---
 ## MhtTemplateName.Contact.Birthday field
 
-生日标题。
+生日标题.
 
 ```csharp
 public const string Birthday;

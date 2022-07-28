@@ -1,14 +1,14 @@
 ---
 title: EmsAbBusinessCategory
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_EMS_AB_BUSINESS_CATEGORY
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_BUSINESS_CATEGORY
 type: docs
 weight: 4900
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabbusinesscategory/
 ---
 ## KnownPropertyList.EmsAbBusinessCategory field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_EMS_AB_BUSINESS_CATEGORY
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_BUSINESS_CATEGORY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbBusinessCategory;

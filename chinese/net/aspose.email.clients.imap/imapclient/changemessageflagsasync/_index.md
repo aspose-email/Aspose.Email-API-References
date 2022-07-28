@@ -1,14 +1,14 @@
 ---
 title: ChangeMessageFlagsAsync
 second_title: Aspose.Email for .NET API 参考
-description: 改变消息的标志
+description: 更改消息的标志
 type: docs
 weight: 430
 url: /zh/net/aspose.email.clients.imap/imapclient/changemessageflagsasync/
 ---
 ## ChangeMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#changemessageflagsasync_41}
 
-改变消息的标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
@@ -17,13 +17,13 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | 序列的集合消息编号 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#changemessageflagsasync_17}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
@@ -48,11 +48,11 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#changemessageflagsasync_13}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -78,11 +78,11 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 | connection | IConnection | 连接到服务器 |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -110,7 +110,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -124,7 +124,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#changemessageflagsasync_8}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, 
@@ -134,12 +134,12 @@ public Task ChangeMessageFlagsAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -165,11 +165,11 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -183,7 +183,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#changemessageflagsasync_9}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, 
@@ -193,13 +193,13 @@ public Task ChangeMessageFlagsAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -223,13 +223,13 @@ public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 的 uid消息 |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -251,13 +251,13 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| token | CancellationToken | 传播应该取消操作的通知. |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -270,7 +270,7 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 ## ChangeMessageFlagsAsync(IConnection, string, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_23}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, 
@@ -280,13 +280,13 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -300,7 +300,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId,
 
 ## ChangeMessageFlagsAsync(IConnection, int, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_3}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber, 
@@ -310,13 +310,13 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -339,14 +339,14 @@ public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 的 uid message |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -368,14 +368,14 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -388,7 +388,7 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 ## ChangeMessageFlagsAsync(IConnection, string, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_22}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, 
@@ -398,14 +398,14 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -419,7 +419,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId,
 
 ## ChangeMessageFlagsAsync(IConnection, int, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_2}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber, 
@@ -429,14 +429,14 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -459,14 +459,14 @@ public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 的起始 UID消息列表 |
+| startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| flags | ImapMessageFlags | 要成为的标志已更改 |
+| flags | ImapMessageFlags | 要更改的标志 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -488,14 +488,14 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 起始序列号消息列表 |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| flags | ImapMessageFlags | 标志要删除 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| flags | ImapMessageFlags | 要删除的标志 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -508,7 +508,7 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## ChangeMessageFlagsAsync(IConnection, string, string, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_27}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
@@ -521,11 +521,11 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
 | flags | ImapMessageFlags | 要更改的标志 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -539,7 +539,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## ChangeMessageFlagsAsync(IConnection, int, int, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_7}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
@@ -549,14 +549,14 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, i
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startSequence | Int32 | 消息列表的起始序列号 |
-| endSequence | Int32 | 消息列表的结束序列号消息列表 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| token | CancellationToken | 传播应该取消操作的通知. |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -579,15 +579,15 @@ public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 的起始 UID消息列表 |
+| startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| flags | ImapMessageFlags | 要成为的标志更改 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | 要更改的标志 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -609,15 +609,15 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 起始序列号消息列表 |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| flags | ImapMessageFlags | 标志待删除 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| flags | ImapMessageFlags | 要删除的标志 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -630,7 +630,7 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## ChangeMessageFlagsAsync(IConnection, string, string, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_26}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
@@ -643,12 +643,12 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -662,7 +662,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## ChangeMessageFlagsAsync(IConnection, int, int, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_6}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
@@ -672,15 +672,15 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, i
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startSequence | Int32 | 消息列表的起始序列号 |
-| endSequence | Int32 | 消息列表的结束序列号消息列表 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -703,13 +703,13 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uidSet | IEnumerable`1 | UID 的集合对于消息 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| token | CancellationToken | 传播应该取消操作的通知. |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -722,7 +722,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 ## ChangeMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_43}
 
-改变消息的标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
@@ -731,13 +731,13 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | 序列的集合消息编号 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -750,7 +750,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_19}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
@@ -762,11 +762,11 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -780,7 +780,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_15}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -792,11 +792,11 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 | connection | IConnection | 连接到服务器 |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -819,14 +819,14 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uidSet | IEnumerable`1 | UID 的集合对于消息 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -839,7 +839,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 ## ChangeMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_42}
 
-改变消息的标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags, 
@@ -848,14 +848,14 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | 序列的集合消息编号 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -868,7 +868,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_18}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
@@ -880,12 +880,12 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -899,7 +899,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_14}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -911,12 +911,12 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 | connection | IConnection | 连接到服务器 |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -941,11 +941,11 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -959,7 +959,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) {#changemessageflagsasync_11}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, 
@@ -969,13 +969,13 @@ public Task ChangeMessageFlagsAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1001,12 +1001,12 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1020,7 +1020,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) {#changemessageflagsasync_10}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, 
@@ -1031,14 +1031,14 @@ public Task ChangeMessageFlagsAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1061,12 +1061,12 @@ public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 的 uid消息 |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1087,12 +1087,12 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1105,7 +1105,7 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags)
 
 ## ChangeMessageFlagsAsync(IConnection, string, ImapMessageFlags) {#changemessageflagsasync_20}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, ImapMessageFlags flags)
@@ -1114,12 +1114,12 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, Ima
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1133,7 +1133,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, Ima
 
 ## ChangeMessageFlagsAsync(IConnection, int, ImapMessageFlags) {#changemessageflagsasync}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber, 
@@ -1143,12 +1143,12 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1171,13 +1171,13 @@ public Task ChangeMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uniqueId | String | 的 uid message |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1199,13 +1199,13 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 的序列号消息 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1218,7 +1218,7 @@ public Task ChangeMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 ## ChangeMessageFlagsAsync(IConnection, string, ImapMessageFlags, long) {#changemessageflagsasync_21}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId, 
@@ -1228,13 +1228,13 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| uniqueId | String | 消息的 uid |
+| uniqueId | String | 消息的uid |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1248,7 +1248,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string uniqueId,
 
 ## ChangeMessageFlagsAsync(IConnection, int, ImapMessageFlags, long) {#changemessageflagsasync_1}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber, 
@@ -1258,13 +1258,13 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int sequenceNumber,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1286,9 +1286,9 @@ public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 的起始 UID消息列表 |
+| startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| flags | ImapMessageFlags | 要成为的标志已更改 |
+| flags | ImapMessageFlags | 要更改的标志 |
 
 ### 返回值
 
@@ -1313,13 +1313,13 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 起始序列号消息列表 |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| flags | ImapMessageFlags | 标志要删除 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| flags | ImapMessageFlags | 要删除的标志 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1332,7 +1332,7 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## ChangeMessageFlagsAsync(IConnection, string, string, ImapMessageFlags) {#changemessageflagsasync_24}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
@@ -1348,7 +1348,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1362,7 +1362,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## ChangeMessageFlagsAsync(IConnection, int, int, ImapMessageFlags) {#changemessageflagsasync_4}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
@@ -1372,8 +1372,8 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, i
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startSequence | Int32 | 消息列表的起始序列号 |
-| endSequence | Int32 | 消息列表的结束序列号消息列表 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
 
 ### 返回值
@@ -1401,14 +1401,14 @@ public Task ChangeMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startUid | String | 的起始 UID消息列表 |
+| startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| flags | ImapMessageFlags | 要成为的标志更改 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | 要更改的标志 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1430,14 +1430,14 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 起始序列号消息列表 |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| flags | ImapMessageFlags | 标志待删除 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| flags | ImapMessageFlags | 要删除的标志 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1450,7 +1450,7 @@ public Task ChangeMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## ChangeMessageFlagsAsync(IConnection, string, string, ImapMessageFlags, long) {#changemessageflagsasync_25}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
@@ -1463,11 +1463,11 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1481,7 +1481,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## ChangeMessageFlagsAsync(IConnection, int, int, ImapMessageFlags, long) {#changemessageflagsasync_5}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
@@ -1491,14 +1491,14 @@ public Task ChangeMessageFlagsAsync(IConnection connection, int startSequence, i
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| startSequence | Int32 | 消息列表的起始序列号 |
-| endSequence | Int32 | 消息列表的结束序列号消息列表 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
 | flags | ImapMessageFlags | 要删除的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1520,7 +1520,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uidSet | IEnumerable`1 | UID 的集合对于消息 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
 
 ### 返回值
@@ -1538,7 +1538,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 ## ChangeMessageFlagsAsync(IEnumerable&lt;int&gt;, ImapMessageFlags) {#changemessageflagsasync_40}
 
-改变消息的标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFlags flags)
@@ -1546,12 +1546,12 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | 序列的集合消息编号 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | flags | ImapMessageFlags | 要删除的标志 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1564,7 +1564,7 @@ public Task ChangeMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#changemessageflagsasync_16}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
@@ -1579,7 +1579,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1593,7 +1593,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## ChangeMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#changemessageflagsasync_12}
 
-更改消息标志
+更改消息的标志
 
 ```csharp
 public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -1608,7 +1608,7 @@ public Task ChangeMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -1631,13 +1631,13 @@ public Task ChangeMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| uidSet | IEnumerable`1 | UID 的集合对于消息 |
+| uidSet | IEnumerable`1 | 消息的 UID 集 |
 | flags | ImapMessageFlags | 要更改的标志 |
-| modificationSequence | Int64 | 修改序列。请阅读更多 https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | 修改顺序。请阅读更多 https://tools.ietf.org/html/rfc7162 |
 
 ### 返回值
 
-任务对象，以及此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

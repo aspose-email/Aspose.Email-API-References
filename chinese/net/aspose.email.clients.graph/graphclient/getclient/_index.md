@@ -1,14 +1,14 @@
 ---
 title: GetClient
 second_title: Aspose.Email for .NET API 参考
-description: 初始化GraphClientaspose.email.clients.graph/graphclient基于类 的新实例
+description: 初始化GraphClientaspose.email.clients.graph/graphclient基于类
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.graph/graphclient/getclient/
 ---
 ## GetClient(IMultipleServicesTokenProvider, string) {#getclient}
 
-初始化[`GraphClient`](../../graphclient)基于类 的新实例
+初始化[`GraphClient`](../../graphclient)基于类
 
 ```csharp
 public static IGraphClient GetClient(IMultipleServicesTokenProvider tokenProvider, string tenantId)
@@ -17,7 +17,7 @@ public static IGraphClient GetClient(IMultipleServicesTokenProvider tokenProvide
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tokenProvider | IMultipleServicesTokenProvider | 令牌提供程序允许检索 OAuth 访问令牌 |
-| tenantId | String | 租户是组织的代表。 它是组织或应用程序开发人员在组织或应用程序开发人员 与 Microsoft 建立关系（例如注册 Azure、Microsoft Intune 或Microsoft 365. |
+| tenantId | String | 租户是组织的代表。 它是组织或应用程序开发人员收到的 Azure AD 专用实例，当组织或应用程序开发人员 与 Microsoft 建立关系（例如注册 Azure、Microsoft Intune 或 Microsoft 365）时。 |
 
 ### 返回值
 
@@ -35,7 +35,7 @@ public static IGraphClient GetClient(IMultipleServicesTokenProvider tokenProvide
 
 ## GetClient(ITokenProvider, string) {#getclient_1}
 
-初始化[`GraphClient`](../../graphclient)基于类 的新实例
+初始化[`GraphClient`](../../graphclient)基于类
 
 ```csharp
 public static IGraphClient GetClient(ITokenProvider tokenProvider, string tenantId)
@@ -44,7 +44,7 @@ public static IGraphClient GetClient(ITokenProvider tokenProvider, string tenant
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tokenProvider | ITokenProvider | 令牌提供程序允许检索 OAuth 访问令牌 |
-| tenantId | String | 租户是组织的代表。 它是组织或应用程序开发人员在组织或应用程序开发人员 与 Microsoft 建立关系（例如注册 Azure、Microsoft Intune 或Microsoft 365. |
+| tenantId | String | 租户是组织的代表。 它是组织或应用程序开发人员收到的 Azure AD 专用实例，当组织或应用程序开发人员 与 Microsoft 建立关系（例如注册 Azure、Microsoft Intune 或 Microsoft 365）时。 |
 
 ### 返回值
 

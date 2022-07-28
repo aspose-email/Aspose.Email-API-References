@@ -20,13 +20,13 @@ public bool Load(string fileName)
 
 ### 返回值
 
-'true ' 如果文件已成功加载并且可以进一步遍历；否则为假。
+如果文件已成功加载并且可以进一步遍历，则为 true'；否则为假。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 文件名 - 文件名不能为空 |
+| ArgumentNullException | fileName - 文件名不能为空或为空 |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public bool Load(Stream stream)
 
 ### 返回值
 
-'true' 如果文件已成功加载并且可以进一步遍历；否则为假。
+如果文件已成功加载并且可以进一步遍历，则为 true'；否则为假。
 
 ### 也可以看看
 

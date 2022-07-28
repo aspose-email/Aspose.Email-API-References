@@ -16,13 +16,13 @@ public DateTime EndTime { get; set; }
 
 ### 适当的价值
 
-表示 活动结束时间的值。
+表示活动结束时间 的值。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 当开始时间小于结束时间时出现。 |
+| ArgumentException | 当开始时间小于结束时间时触发。 |
 
 ### 也可以看看
 

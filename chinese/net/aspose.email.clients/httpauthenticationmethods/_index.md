@@ -19,7 +19,7 @@ public enum HttpAuthenticationMethods : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NoAuthentication | `1` | 无认证 |
+| NoAuthentication | `1` | 没有认证 |
 | Basic | `2` | 基本访问认证。 |
 
 ### 也可以看看

@@ -19,11 +19,11 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | folderName | String | 将接收邮件的文件夹 |
-| messages | IEnumerable`1 | 电子邮件消息的枚举上传 |
+| messages | IEnumerable`1 | 枚举要上传的电子邮件 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 
 ## AppendMessagesAsync(IEnumerable&lt;MailMessage&gt;) {#appendmessagesasync_4}
 
-将邮件信息上传到当前文件夹 如果当前文件夹尚未指定，则使用默认文件夹。
+将邮件信息上传到当前文件夹 如果未指定当前文件夹，则使用默认文件夹。
 
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> messages)
@@ -46,11 +46,11 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> m
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messages | IEnumerable`1 | 要上传的电子邮件消息的枚举 |
+| messages | IEnumerable`1 | 枚举要上传的电子邮件 |
 
 ### 返回值
 
-任务对象, 带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -73,12 +73,12 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹将收到邮件消息 |
-| messages | IEnumerable`1 | 要上传的电子邮件消息的枚举 |
+| folderName | String | 将接收邮件的文件夹 |
+| messages | IEnumerable`1 | 枚举要上传的电子邮件 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -92,7 +92,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 
 ## AppendMessagesAsync(IConnection, IEnumerable&lt;MailMessage&gt;, CancellationToken) {#appendmessagesasync_1}
 
-将邮件信息上传到当前文件夹 如果当前文件夹尚未指定，则使用默认文件夹。
+将邮件信息上传到当前文件夹 如果未指定当前文件夹，则使用默认文件夹。
 
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, 
@@ -102,12 +102,12 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messages | IEnumerable`1 | 电子邮件枚举要上传的消息 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| messages | IEnumerable`1 | 枚举要上传的电子邮件 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -133,12 +133,12 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
 | folderName | String | 将接收邮件的文件夹 |
-| messages | IEnumerable`1 | 电子邮件消息的枚举上传 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| messages | IEnumerable`1 | 枚举要上传的电子邮件 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -153,7 +153,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, st
 
 ## AppendMessagesAsync(IEnumerable&lt;MailMessage&gt;, CancellationToken) {#appendmessagesasync_5}
 
-将邮件信息上传到当前文件夹 如果当前文件夹尚未指定，则使用默认文件夹。
+将邮件信息上传到当前文件夹 如果未指定当前文件夹，则使用默认文件夹。
 
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> messages, 
@@ -162,12 +162,12 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> m
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messages | IEnumerable`1 | 要上传的电子邮件消息的枚举 |
+| messages | IEnumerable`1 | 枚举要上传的电子邮件 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -190,13 +190,13 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderName | String | 文件夹将收到邮件 |
-| messages | IEnumerable`1 | 要上传的电子邮件消息的枚举 |
-| token | CancellationToken | 传播通知该操作应该被取消。 |
+| folderName | String | 将接收邮件的文件夹 |
+| messages | IEnumerable`1 | 枚举要上传的电子邮件 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -210,7 +210,7 @@ public Task<AppendMessagesResult> AppendMessagesAsync(string folderName,
 
 ## AppendMessagesAsync(IConnection, IEnumerable&lt;MailMessage&gt;) {#appendmessagesasync}
 
-将邮件信息上传到当前文件夹 如果当前文件夹尚未指定，则使用默认文件夹。
+将邮件信息上传到当前文件夹 如果未指定当前文件夹，则使用默认文件夹。
 
 ```csharp
 public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection, 
@@ -220,11 +220,11 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IConnection connection,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messages | IEnumerable`1 | 电子邮件枚举要上传的消息 |
+| messages | IEnumerable`1 | 枚举要上传的电子邮件 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public double PageHeight { get; set; }
 
 ### 适当的价值
 
-页面高度。
+页面的高度。
 
 ### 例外
 

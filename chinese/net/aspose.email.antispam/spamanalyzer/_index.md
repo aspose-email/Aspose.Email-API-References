@@ -18,9 +18,9 @@ public class SpamAnalyzer
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpamAnalyzer](spamanalyzer#constructor)() | 初始化[`SpamAnalyzer`](../spamanalyzer)类的新实例。 |
-| [SpamAnalyzer](spamanalyzer#constructor_1)(Stream) | 初始化[`SpamAnalyzer`](../spamanalyzer)类的新实例。 |
-| [SpamAnalyzer](spamanalyzer#constructor_2)(string) | 初始化[`SpamAnalyzer`](../spamanalyzer)类的新实例。 |
+| [SpamAnalyzer](spamanalyzer#constructor)() | 初始化一个新的实例[`SpamAnalyzer`](../spamanalyzer)类. |
+| [SpamAnalyzer](spamanalyzer#constructor_1)(Stream) | 初始化一个新的实例[`SpamAnalyzer`](../spamanalyzer)类. |
+| [SpamAnalyzer](spamanalyzer#constructor_2)(string) | 初始化一个新的实例[`SpamAnalyzer`](../spamanalyzer)类. |
 
 ## 方法
 
@@ -29,12 +29,12 @@ public class SpamAnalyzer
 | [LoadDatabase](../../aspose.email.antispam/spamanalyzer/loaddatabase#loaddatabase)(Stream) | 从流中加载贝叶斯数据库。 |
 | [LoadDatabase](../../aspose.email.antispam/spamanalyzer/loaddatabase#loaddatabase_1)(string) | 从文件加载贝叶斯数据库。 |
 | [Reset](../../aspose.email.antispam/spamanalyzer/reset)() | 清除所有统计信息（贝叶斯数据库）。 |
-| [SaveDatabase](../../aspose.email.antispam/spamanalyzer/savedatabase#savedatabase)(Stream) | 将贝叶斯数据库保存为流式传输。 |
+| [SaveDatabase](../../aspose.email.antispam/spamanalyzer/savedatabase#savedatabase)(Stream) | 将贝叶斯数据库保存到流中。 |
 | [SaveDatabase](../../aspose.email.antispam/spamanalyzer/savedatabase#savedatabase_1)(string) | 将贝叶斯数据库保存到文件中。 |
 | [Test](../../aspose.email.antispam/spamanalyzer/test)(MailMessage) | 分析邮件并返回邮件为垃圾邮件的概率。 |
 | [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter#trainfilter)(MailMessage, bool) | 从指定的邮件中学习来自垃圾邮件或非垃圾邮件来源。 |
 | [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter#trainfilter_1)(MailMessage[], MailMessage[]) | 从指定的邮件中学习来自垃圾邮件或非垃圾邮件来源。 |
-| [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter#trainfilter_2)(string, bool) | 从指定的字符串中学习来自垃圾邮件或非垃圾邮件源。 |
+| [TrainFilter](../../aspose.email.antispam/spamanalyzer/trainfilter#trainfilter_2)(string, bool) | 从指定的字符串中学习来自垃圾邮件或非垃圾邮件来源。 |
 
 ### 也可以看看
 

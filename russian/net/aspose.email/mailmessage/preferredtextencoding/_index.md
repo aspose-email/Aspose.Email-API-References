@@ -1,14 +1,14 @@
 ---
 title: PreferredTextEncoding
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает предпочтительную кодировку для всех свойств текста
+description: Получает или задает предпочтительную кодировку для всех текстовых свойств
 type: docs
 weight: 250
 url: /ru/net/aspose.email/mailmessage/preferredtextencoding/
 ---
 ## MailMessage.PreferredTextEncoding property
 
-Получает или устанавливает предпочтительную кодировку для всех свойств текста
+Получает или задает предпочтительную кодировку для всех текстовых свойств
 
 ```csharp
 public Encoding PreferredTextEncoding { get; set; }

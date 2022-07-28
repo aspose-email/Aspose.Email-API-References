@@ -1,14 +1,14 @@
 ---
 title: OrganizationalIdNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户组织中使用的邮件用户的标识符 区域地址属性 规范名称PidTagOrganizationalIdNumber 替代名称PR_ORGANIZATIONAL_ID_NUMBER PR_ORGANIZATIONAL_ID_NUMBER_A
+description: 包含在邮件用户的组织中使用的邮件用户的标识符 区域地址属性 规范名称PidTagOrganizationalIdNumber 替代名称PR_ORGANIZATIONAL_ID_NUMBERPR_ORGANIZATIONAL_ID_NUMBER_A
 type: docs
 weight: 13450
 url: /zh/net/aspose.email.mapi/knownpropertylist/organizationalidnumber/
 ---
 ## KnownPropertyList.OrganizationalIdNumber field
 
-包含邮件用户组织中使用的邮件用户的标识符。 区域:地址属性 规范名称:PidTagOrganizationalIdNumber 替代名称:PR_ORGANIZATIONAL_ID_NUMBER, PR_ORGANIZATIONAL_ID_NUMBER_A,
+包含在邮件用户的组织中使用的邮件用户的标识符。 区域：地址属性 规范名称：PidTagOrganizationalIdNumber 替代名称：PR_ORGANIZATIONAL_ID_NUMBER、PR_ORGANIZATIONAL_ID_NUMBER_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OrganizationalIdNumber;

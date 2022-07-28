@@ -1,14 +1,14 @@
 ---
 title: FromFile
 second_title: Aspose.Email for .NET API 参考
-description: 从文件加载 PST
+description: 从文件中加载 PST
 type: docs
 weight: 30
 url: /zh/net/aspose.email.storage.pst/personalstorage/fromfile/
 ---
 ## FromFile(string) {#fromfile}
 
-从文件加载 PST。
+从文件中加载 PST。
 
 ```csharp
 public static PersonalStorage FromFile(string fileName)
@@ -36,7 +36,7 @@ public static PersonalStorage FromFile(string fileName)
 
 ## FromFile(string, bool) {#fromfile_3}
 
-从文件加载 PST。
+从文件中加载 PST。
 
 ```csharp
 public static PersonalStorage FromFile(string fileName, bool writable)
@@ -45,7 +45,7 @@ public static PersonalStorage FromFile(string fileName, bool writable)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | .pst 文件的名称。 |
-| writable | Boolean | 如果设置为` true` 那么 pst 文件将支持写入， 否则将以只读模式打开。 |
+| writable | Boolean | 如果设置为`真的`那么 pst 文件将支持写入， 否则将以只读模式打开。 |
 
 ### 返回值
 
@@ -61,7 +61,7 @@ public static PersonalStorage FromFile(string fileName, bool writable)
 
 ## FromFile(string, PersonalStorageLoadOptions) {#fromfile_1}
 
-从文件加载 PST。
+从文件中加载 PST。
 
 ```csharp
 public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptions loadOptions)
@@ -70,7 +70,7 @@ public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptio
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | .pst 文件的名称。 |
-| loadOptions | PersonalStorageLoadOptions | 加载选项。 |
+| loadOptions | PersonalStorageLoadOptions | 负载选项。 |
 
 ### 返回值
 
@@ -80,7 +80,7 @@ public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptio
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | fileName - 文件名不能为空或空 |
+| ArgumentNullException | fileName - 文件名不能为空或为空 |
 | ArgumentException | PersonalStorageLoadOptions.LeaveStreamOpen 不能为真。 |
 
 ### 也可以看看
@@ -94,7 +94,7 @@ public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptio
 
 ## FromFile(string, CancellationToken) {#fromfile_5}
 
-从文件加载 PST。
+从文件中加载 PST。
 
 ```csharp
 public static PersonalStorage FromFile(string fileName, CancellationToken token)
@@ -137,7 +137,7 @@ public static PersonalStorage FromFile(string fileName, bool writable, Cancellat
 
 ## FromFile(string, PersonalStorageLoadOptions, CancellationToken) {#fromfile_2}
 
-从文件加载 PST。
+从文件中加载 PST。
 
 ```csharp
 public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptions loadOptions, 
@@ -147,7 +147,7 @@ public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptio
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | .pst 文件的名称。 |
-| loadOptions | PersonalStorageLoadOptions | 加载选项。 |
+| loadOptions | PersonalStorageLoadOptions | 负载选项。 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值

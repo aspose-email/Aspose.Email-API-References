@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/content/recordtype/
 ---
 ## Content.RecordType property
 
-记录指示的操作类型。 强制:是
+记录指示的操作类型。 强制：是
 
 ```csharp
 public RecordType RecordType { get; set; }

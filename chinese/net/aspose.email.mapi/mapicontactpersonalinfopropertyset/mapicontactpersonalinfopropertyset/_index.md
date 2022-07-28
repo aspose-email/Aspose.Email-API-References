@@ -1,14 +1,14 @@
 ---
 title: MapiContactPersonalInfoPropertySet
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiContactPersonalInfoPropertySetaspose.email.mapi/mapicontactpersonalinfopropertyset 类的新实例
+description: 初始化MapiContactPersonalInfoPropertySetaspose.email.mapi/mapicontactpersonalinfopropertyset class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/mapicontactpersonalinfopropertyset/
 ---
 ## MapiContactPersonalInfoPropertySet() {#constructor}
 
-初始化 [`MapiContactPersonalInfoPropertySet`](../../mapicontactpersonalinfopropertyset) 类的新实例
+初始化[`MapiContactPersonalInfoPropertySet`](../../mapicontactpersonalinfopropertyset) class
 
 ```csharp
 public MapiContactPersonalInfoPropertySet()
@@ -24,7 +24,7 @@ public MapiContactPersonalInfoPropertySet()
 
 ## MapiContactPersonalInfoPropertySet(MapiPropertyCollection) {#constructor_1}
 
-初始化 [`MapiContactPersonalInfoPropertySet`](../../mapicontactpersonalinfopropertyset) 类的新实例
+初始化[`MapiContactPersonalInfoPropertySet`](../../mapicontactpersonalinfopropertyset) class
 
 ```csharp
 public MapiContactPersonalInfoPropertySet(MapiPropertyCollection properties)
@@ -32,7 +32,7 @@ public MapiContactPersonalInfoPropertySet(MapiPropertyCollection properties)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | 一个包含联系人个人属性的[`MapiPropertyCollection`](../../mapipropertycollection) |
+| properties | MapiPropertyCollection | 一个[`MapiPropertyCollection`](../../mapipropertycollection)包含联系人个人属性 |
 
 ### 也可以看看
 

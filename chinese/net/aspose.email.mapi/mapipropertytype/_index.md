@@ -3,7 +3,7 @@ title: MapiPropertyType
 second_title: Aspose.Email for .NET API 参考
 description: 表示 MapiProperty 数据的数据类型
 type: docs
-weight: 18580
+weight: 18610
 url: /zh/net/aspose.email.mapi/mapipropertytype/
 ---
 ## MapiPropertyType enumeration
@@ -19,35 +19,35 @@ public enum MapiPropertyType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未设置任何值。 |
-| PT_SHORT | `2` | 有符号 16 位整数。此属性类型与 PT_SHORT 和 OLE 类型 VT_I2 相同。 |
-| PT_LONG | `3` | 有符号或无符号 32 位整数。此属性类型与 PT_I4 和 OLE 类型 VT_I4 相同。 |
-| PT_ERROR | `10` | SCODE 值； 32 位无符号整数。此属性类型与 OLE 类型 VT_ERROR 相同。 |
-| PT_BOOLEAN | `11` | 16 位布尔值，其中零等于 FALSE，非零等于 TRUE。此属性类型与 OLE 类型 VT_BOOL 相同。 |
+| PT_SHORT | `2` | 有符号 16 位整数。此属性类型与 PT_SHORT 和 OLE 类型 VT_I2. 相同 |
+| PT_LONG | `3` | 有符号或无符号 32 位整数。此属性类型与 PT_I4 和 OLE 类型 VT_I4. 相同 |
+| PT_ERROR | `10` | SCODE 值； 32 位无符号整数。此属性类型与 OLE 类型 VT_ERROR. 相同 |
+| PT_BOOLEAN | `11` | 16 位布尔值，其中零等于 FALSE，非零等于 TRUE。此属性类型与 OLE 类型 VT_BOOL. 相同 |
 | PT_OBJECT | `13` | 指向实现 IUnknown 接口的对象的指针。此属性类型类似于 VT_UNKNOWN 等几种 OLE 类型。 |
-| PT_LONGLONG | `20` | 有符号或无符号 64 位整数。此属性类型与 PT_I8 和 OLE 类型 VT_I8 相同。 |
-| PT_STRING8 | `30` | 以 Null 结尾的 8 位字符串。此属性类型与 OLE 类型 VT_LPSTR 相同。 |
+| PT_LONGLONG | `20` | 有符号或无符号 64 位整数。此属性类型与 PT_I8 和 OLE 类型 VT_I8. 相同 |
+| PT_STRING8 | `30` | 以 Null 结尾的 8 位字符串。此属性类型与 OLE 类型 VT_LPSTR. 相同 |
 | PT_UNICODE | `31` | PT_UNICODE |
-| PT_SYSTIME | `64` | FILETIME 结构形式的 64 位整数数据和时间值。此属性类型与 OLE 类型 VT_FILETIME 相同。 |
-| PT_CLSID | `72` | CLSID 结构值。此属性类型与 OLE 类型 VT_CLSID 相同。 |
+| PT_SYSTIME | `64` | FILETIME 结构形式的 64 位整数数据和时间值。此属性类型与 OLE 类型 VT_FILETIME. 相同 |
+| PT_CLSID | `72` | CLSID 结构值。此属性类型与 OLE 类型 VT_CLSID. 相同 |
 | PT_SRESTRICTION | `253` | PT_SRESTRICTION |
 | PT_ACTIONS | `254` | PT_ACTIONS |
 | PT_BINARY | `258` | SBinary 结构值，一个计数字节数组。 |
 | PT_MV_xxx | `4096` | PT_MV_xxx |
-| PT_MV_STRING8 | `4126` | 一个计数字段，后跟那么多 PT_STRING8 值。 |
+| PT_MV_STRING8 | `4126` | 一个计数字段，后面跟着那么多 PT_STRING8 值。 |
 | PT_MV_UNICODE | `4127` | 一个计数字段，后跟那么多 PT_UNICODE 值。 |
 | PT_MV_BINARY | `4354` | 一个计数字段，后跟那么多 PT_BINARY 值。 |
-| PT_DOUBLE | `5` | 一个 64 位浮点数。 |
-| PT_FLOAT | `4` | 一个 32 位浮点数。 |
+| PT_DOUBLE | `5` | 64 位浮点数。 |
+| PT_FLOAT | `4` | 32 位浮点数。 |
 | PT_MV_FLOAT | `4100` | 一个计数字段，后跟那么多 PT_FLOAT 值。 |
-| PT_MV_DOUBLE | `4101` | 一个计数字段，后跟那么多 PT_DOUBLE 值。 |
-| PT_MV_CURRENCY | `4102` | 一个计数字段，后面跟着那么多 PT_CURRENCY 值。 |
+| PT_MV_DOUBLE | `4101` | 一个计数字段，后面跟着那么多 PT_DOUBLE 值。 |
+| PT_MV_CURRENCY | `4102` | 一个计数字段，后跟那么多 PT_CURRENCY 值。 |
 | PT_MV_APPTIME | `4103` | 一个计数字段，后跟那么多 PtypFloatingTime 值。 |
 | PT_MV_LONGLONG | `4116` | 一个计数字段，后跟那么多 PT_LONGLONG 值。 |
 | PT_MV_CLSID | `4168` | 一个计数字段，后跟那么多 PT_CLSID 值。 |
 | PT_MV_SHORT | `4098` | 一个计数字段，后跟那么多 PT_SHORT 值。 |
 | PT_MV_SYSTIME | `4160` | 一个计数字段，后跟那么多 PT_SYSTIME 值。 |
 | PT_MV_BOOLEAN | `4107` | 一个计数字段，后跟那么多 PT_BOOLEAN 值。 |
-| PT_SVREID | `251` | 可变大小，16 位（2 字节）计数，后跟结构。 |
+| PT_SVREID | `251` | 可变大小，一个 16 位（2 字节）计数，后跟一个结构。 |
 | PT_UNSPECIFIED | `0` | 表示属性类型未知。 |
 | PT_NULL | `1` | 表示没有属性值。 |
 | PT_MV_LONG | `4099` | 一个计数字段，后跟那么多 PT_LONG 值。 |

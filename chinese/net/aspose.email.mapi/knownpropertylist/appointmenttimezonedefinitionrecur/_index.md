@@ -1,14 +1,14 @@
 ---
 title: AppointmentTimeZoneDefinitionRecur
 second_title: Aspose.Email for .NET API 参考
-description: 指定时区信息该信息描述如何将循环系列中的会议日期和时间与 UTC 相互转换 区域日历 规范名称PidLidAppointmentTimeZoneDefinitionRecur 替代名称dispidApptTZDefRecur
+description: 指定时区信息该信息描述如何将循环系列中的会议日期和时间转换为 UTC 和从 UTC 转换 区域Calendar 规范名称PidLidAppointmentTimeZoneDefinitionRecur 替代名称dispidApptTZDefRecur
 type: docs
 weight: 1360
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmenttimezonedefinitionrecur/
 ---
 ## KnownPropertyList.AppointmentTimeZoneDefinitionRecur field
 
-指定时区信息，该信息描述如何将循环系列中的会议日期和时间与 UTC 相互转换。 区域:日历 规范名称:PidLidAppointmentTimeZoneDefinitionRecur 替代名称:dispidApptTZDefRecur
+指定时区信息，该信息描述如何将循环系列中的会议日期和时间转换为 UTC 和从 UTC 转换。 区域：Calendar 规范名称：PidLidAppointmentTimeZoneDefinitionRecur 替代名称：dispidApptTZDefRecur
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentTimeZoneDefinitionRecur;

@@ -1,14 +1,14 @@
 ---
 title: FetchAttachmentAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取指定附件
+description: 获取指定的附件
 type: docs
 weight: 640
 url: /zh/net/aspose.email.clients.imap/imapclient/fetchattachmentasync/
 ---
 ## FetchAttachmentAsync(IConnection, int, string) {#fetchattachmentasync}
 
-获取指定附件
+获取指定的附件
 
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenceNumber, 
@@ -18,12 +18,12 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | attachmentName | String | 附件名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 
 ## FetchAttachmentAsync(int, string) {#fetchattachmentasync_2}
 
-获取指定附件
+获取指定的附件
 
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachmentName)
@@ -45,12 +45,12 @@ public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachme
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | attachmentName | String | 附件名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -63,7 +63,7 @@ public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachme
 
 ## FetchAttachmentAsync(IConnection, int, string, CancellationToken) {#fetchattachmentasync_1}
 
-获取指定附件
+获取指定的附件
 
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenceNumber, 
@@ -73,13 +73,13 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | attachmentName | String | 附件名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -93,7 +93,7 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 
 ## FetchAttachmentAsync(int, string, CancellationToken) {#fetchattachmentasync_3}
 
-获取指定附件
+获取指定的附件
 
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachmentName, 
@@ -102,13 +102,13 @@ public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachme
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sequenceNumber | Int32 | 消息的序列号 |
+| sequenceNumber | Int32 | 消息的序号 |
 | attachmentName | String | 附件名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

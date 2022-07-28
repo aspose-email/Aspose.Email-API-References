@@ -1,14 +1,14 @@
 ---
 title: CalendarLocationUrl
 second_title: Aspose.Email for .NET API 参考
-description: 以 HTML 格式指定带有位置信息的 URL 区域通用 规范名称PidNameCalendarLocationUrl 备用名称urnschemascalendarlocationurl
+description: 指定带有 HTML 格式位置信息的 URL 区域Common 规范名称PidNameCalendarLocationUrl 备用名称urnschemascalendarlocationurl
 type: docs
 weight: 2320
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarlocationurl/
 ---
 ## KnownPropertyList.CalendarLocationUrl field
 
-以 HTML 格式指定带有位置信息的 URL。 区域:通用 规范名称:PidNameCalendarLocationUrl 备用名称:urn:schemas:calendar:locationurl
+指定带有 HTML 格式位置信息的 URL。 区域：Common 规范名称：PidNameCalendarLocationUrl 备用名称：urn:schemas:calendar:locationurl
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarLocationUrl;

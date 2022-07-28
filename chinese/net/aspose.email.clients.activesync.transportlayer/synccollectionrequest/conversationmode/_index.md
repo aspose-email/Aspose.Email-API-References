@@ -1,14 +1,14 @@
 ---
 title: ConversationMode
 second_title: Aspose.Email for .NET API 参考
-description: 指定是否在同步响应的结果中包含对话模式中包含的项目 将 ConversationMode 元素值设置为 TRUE 会导致检索与指定日期过滤器内收到的对话匹配的所有电子邮件 但是虽然不会检索基于时间的过滤器之外的电子邮件正文但 如果请求预览则将检索文本预览设置 ConversationMode 元素值同步请求中的 FALSE 会导致同步符合 FilterType 元素第 2.2.3.64 节值标准的项目 将 ConversationMode 元素值设置为 TRUE 会扩展结果集使其还包含与FilterType 结果集 ConversationMode 元素值对 CollectionId 元素指定的集合之外的项目没有影响第 2.2.3.30.5 节 结果集始终限于指定集合中的项目 ConversationMode 元素值仅限制或扩展由 FilterType 元素值确定的结果
+description: 指定是否在同步响应的结果中包含对话模式中包含的项目 将 ConversationMode 元素值设置为 TRUE 会导致检索与指定日期过滤器内收到的对话匹配的所有电子邮件 但是虽然不会检索基于时间的过滤器之外的电子邮件正文 如果请求预览将检索文本预览在同步请求中将 ConversationMode 元素值设置为 FALSE 会导致同步符合 FilterType 元素第 2.2.3.64 节值标准的项目 将 ConversationMode 元素值设置为 TRUE 会扩展结果集使其还包含与 FilterType 结果集中具有相同 email2ConversationIdMS-ASEMAIL 第 2.2.2.14 节值的任何项目 ConversationMode 元素值对 CollectionId 元素指定的集合之外的项目没有影响第 2.2.3.30.5 节 结果集始终限于指定集合中的项目 ConversationMode 元素值仅限制或扩展由 FilterType 元素值确定的结果
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/conversationmode/
 ---
 ## SyncCollectionRequest.ConversationMode property
 
-指定是否在同步响应的结果中包含对话模式中包含的项目。 将 ConversationMode 元素值设置为 TRUE 会导致检索与指定日期过滤器内收到的对话匹配的所有电子邮件。 但是，虽然不会检索基于时间的过滤器之外的电子邮件正文，但 如果请求预览，则将检索文本预览。设置 ConversationMode 元素值同步请求中的 FALSE 会导致同步符合 FilterType 元素（第 2.2.3.64 节）值标准的项目。 将 ConversationMode 元素值设置为 TRUE 会扩展结果集，使其还包含与FilterType 结果集。 ConversationMode 元素值对 CollectionId 元素指定的集合之外的项目没有影响（第 2.2.3.30.5 节）； 结果集始终限于指定集合中的项目。 ConversationMode 元素值仅限制或扩展由 FilterType 元素值确定的结果。
+指定是否在同步响应的结果中包含对话模式中包含的项目。 将 ConversationMode 元素值设置为 TRUE 会导致检索与指定日期过滤器内收到的对话匹配的所有电子邮件。 但是，虽然不会检索基于时间的过滤器之外的电子邮件正文， 如果请求预览，将检索文本预览。在同步请求中将 ConversationMode 元素值设置为 FALSE 会导致同步符合 FilterType 元素（第 2.2.3.64 节）值标准的项目。 将 ConversationMode 元素值设置为 TRUE 会扩展结果集，使其还包含与 FilterType 结果集中具有相同 email2:ConversationId（[MS-ASEMAIL] 第 2.2.2.14 节）值的任何项目。 ConversationMode 元素值对 CollectionId 元素指定的集合之外的项目没有影响（第 2.2.3.30.5 节）； 结果集始终限于指定集合中的项目。 ConversationMode 元素值仅限制或扩展由 FilterType 元素值确定的结果。
 
 ```csharp
 public bool? ConversationMode { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ImapMethodParametersGeneralT
 second_title: Aspose.Email for .NET API 参考
-description: IAsyncImapClient../aspose.email.clients.imap/iasyncimapclient方法通用参数
+description: IAsyncImapClient../aspose.email.clients.imap/iasyncimapclient方法通用参数.
 type: docs
 weight: 16590
 url: /zh/net/aspose.email.clients.imap.models/imapmethodparametersgeneral-1/
 ---
 ## ImapMethodParametersGeneral&lt;T&gt; class
 
-[`IAsyncImapClient`](../../aspose.email.clients.imap/iasyncimapclient)方法通用参数。
+[`IAsyncImapClient`](../../aspose.email.clients.imap/iasyncimapclient)方法通用参数.
 
 ```csharp
 public abstract class ImapMethodParametersGeneral<T>

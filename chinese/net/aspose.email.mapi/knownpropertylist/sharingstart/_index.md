@@ -1,14 +1,14 @@
 ---
 title: SharingStart
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingStart 替代名称dispidSharingStart
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingStart 替代名称dispidSharingStart
 type: docs
 weight: 17930
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingstart/
 ---
 ## KnownPropertyList.SharingStart field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingStart 替代名称:dispidSharingStart
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingStart 替代名称：dispidSharingStart
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingStart;

@@ -1,14 +1,14 @@
 ---
 title: ServerInfo
 second_title: Aspose.Email for .NET API 参考
-description: 获取与处理最后一个请求的服务器相关的信息 如果未处理任何请求则为 null
+description: 获取与处理最后一个请求的服务器相关的信息 如果没有处理请求则为空
 type: docs
 weight: 140
 url: /zh/net/aspose.email.clients.exchange/autodiscoverservicebase/serverinfo/
 ---
 ## AutodiscoverServiceBase.ServerInfo property
 
-获取与处理最后一个请求的服务器相关的信息。 如果未处理任何请求，则为 null。
+获取与处理最后一个请求的服务器相关的信息。 如果没有处理请求，则为空。
 
 ```csharp
 public ServerVersionInfo ServerInfo { get; }

@@ -1,14 +1,14 @@
 ---
 title: RecomposeTnefContent
 second_title: Aspose.Email for .NET API 参考
-description: 组成 TNEF 内容 注意如果消息最初包含 TNEF 并且在没有 FileCompatibilityMode.PreserveTnefAttachments 标志的情况下加载则该 tnef 附件是组成的 即此方法不从常规消息中创建 tnef 消息
+description: 组成 TNEF 内容 请注意如果邮件最初包含 TNEF 并且在没有 FileCompatibilityMode.PreserveTnefAttachments 标志的情况下加载则组成 tnef 附件 也就是说此方法不会从常规邮件中创建 tnef 邮件
 type: docs
 weight: 530
 url: /zh/net/aspose.email/mailmessage/recomposetnefcontent/
 ---
 ## MailMessage.RecomposeTnefContent method
 
-组成 TNEF 内容。 注意，如果消息最初包含 TNEF 并且在没有 FileCompatibilityMode.PreserveTnefAttachments 标志的情况下加载，则该 tnef 附件是组成的， 即此方法不从常规消息中创建 tnef 消息。
+组成 TNEF 内容。 请注意，如果邮件最初包含 TNEF 并且在没有 FileCompatibilityMode.PreserveTnefAttachments 标志的情况下加载，则组成 tnef 附件， 也就是说，此方法不会从常规邮件中创建 tnef 邮件。
 
 ```csharp
 public void RecomposeTnefContent()

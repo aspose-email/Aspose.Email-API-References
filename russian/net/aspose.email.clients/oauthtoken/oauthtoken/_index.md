@@ -1,14 +1,14 @@
 ---
 title: OAuthToken
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаOAuthTokenaspose.email.clients/oauthtoken
+description: Инициализирует новый экземплярOAuthTokenaspose.email.clients/oauthtoken класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/oauthtoken/oauthtoken/
 ---
 ## OAuthToken(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`OAuthToken`](../../oauthtoken)
+Инициализирует новый экземпляр[`OAuthToken`](../../oauthtoken) класс
 
 ```csharp
 public OAuthToken(string token)
@@ -16,7 +16,7 @@ public OAuthToken(string token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| токен | String | Обновить значение токена |
+| token | String | Обновить значение токена |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public OAuthToken(string token)
 
 ## OAuthToken(string, DateTime) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`OAuthToken`](../../oauthtoken)
+Инициализирует новый экземпляр[`OAuthToken`](../../oauthtoken) класс
 
 ```csharp
 public OAuthToken(string token, DateTime expirationDate)
@@ -37,7 +37,7 @@ public OAuthToken(string token, DateTime expirationDate)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | token | String | Значение токена доступа |
-| expirationDate | DateTime | Дата истечения срока действия токена. |
+| expirationDate | DateTime | Срок действия токена. |
 
 ### Смотрите также
 
@@ -49,7 +49,7 @@ public OAuthToken(string token, DateTime expirationDate)
 
 ## OAuthToken(string, TokenType, DateTime) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`OAuthToken`](../../oauthtoken)
+Инициализирует новый экземпляр[`OAuthToken`](../../oauthtoken) класс
 
 ```csharp
 public OAuthToken(string token, TokenType tokenType, DateTime expirationDate)
@@ -59,7 +59,7 @@ public OAuthToken(string token, TokenType tokenType, DateTime expirationDate)
 | --- | --- | --- |
 | token | String | Значение токена |
 | tokenType | TokenType | Тип токена OAuth |
-| expireDate | DateTime | Дата истечения срока действия токена. |
+| expirationDate | DateTime | Срок действия токена. |
 
 ### Смотрите также
 

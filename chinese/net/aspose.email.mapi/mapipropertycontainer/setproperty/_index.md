@@ -1,40 +1,11 @@
 ---
 title: SetProperty
 second_title: Aspose.Email for .NET API 参考
-description: 设置属性
+description: 设置 MAPI 属性
 type: docs
 weight: 120
 url: /zh/net/aspose.email.mapi/mapipropertycontainer/setproperty/
 ---
-## SetProperty(MapiProperty) {#setproperty}
-
-设置属性。
-
-```csharp
-public virtual void SetProperty(MapiProperty value)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| value | MapiProperty | 属性。 |
-
-### 例外
-
-| 例外 | （健康）状况 |
-| --- | --- |
-| ArgumentNullException | 如果*value*为空。 |
-| ArgumentException | 如果属性数据为空。 |
-| InvalidOperationException | 如果不支持数据类型。 |
-
-### 也可以看看
-
-* class [MapiProperty](../../mapiproperty)
-* class [MapiPropertyContainer](../../mapipropertycontainer)
-* 命名空间 [Aspose.Email.Mapi](../../mapipropertycontainer)
-* 部件 [Aspose.Email](../../../)
-
----
-
 ## SetProperty(PropertyDescriptor, object) {#setproperty_1}
 
 设置 MAPI 属性。
@@ -51,6 +22,35 @@ public virtual void SetProperty(PropertyDescriptor pd, object value)
 ### 也可以看看
 
 * class [PropertyDescriptor](../../propertydescriptor)
+* class [MapiPropertyContainer](../../mapipropertycontainer)
+* 命名空间 [Aspose.Email.Mapi](../../mapipropertycontainer)
+* 部件 [Aspose.Email](../../../)
+
+---
+
+## SetProperty(MapiProperty) {#setproperty}
+
+设置属性。
+
+```csharp
+public virtual void SetProperty(MapiProperty value)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| value | MapiProperty | 该物业。 |
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| ArgumentNullException | 如果*value*一片空白。 |
+| ArgumentException | 如果属性数据为空。 |
+| InvalidOperationException | 如果不支持数据类型。 |
+
+### 也可以看看
+
+* class [MapiProperty](../../mapiproperty)
 * class [MapiPropertyContainer](../../mapipropertycontainer)
 * 命名空间 [Aspose.Email.Mapi](../../mapipropertycontainer)
 * 部件 [Aspose.Email](../../../)

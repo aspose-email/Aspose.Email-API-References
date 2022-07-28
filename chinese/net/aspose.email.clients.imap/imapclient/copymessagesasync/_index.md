@@ -24,7 +24,7 @@ public Task CopyMessagesAsync(IConnection connection, int startSequence, int end
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -45,13 +45,13 @@ public Task CopyMessagesAsync(int startSequence, int endSequence, string folderN
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息列表的起始序列号 |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| folderName | String | 消息所在的文件夹名称要移动 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -79,7 +79,7 @@ public Task CopyMessagesAsync(IConnection connection, string startUid, string en
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -102,11 +102,11 @@ public Task CopyMessagesAsync(string startUid, string endUid, string folderName)
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| folderName | String | 消息所在的文件夹名称移动 |
+| folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -128,12 +128,12 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -159,7 +159,7 @@ public Task CopyMessagesAsync(IEnumerable<int> sequenceSet, string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -185,7 +185,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -211,7 +211,7 @@ public Task CopyMessagesAsync(IEnumerable<string> uidSet, string folderName)
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -233,12 +233,12 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -252,7 +252,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 
 ## CopyMessagesAsync(IEnumerable&lt;ImapMessageInfo&gt;, string) {#copymessagesasync_12}
 
-复制邮件
+复制消息
 
 ```csharp
 public Task CopyMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, string folderName)
@@ -260,12 +260,12 @@ public Task CopyMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 
 ### 返回值
 
-任务对象，委托为 这个操作
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -291,11 +291,11 @@ public Task CopyMessagesAsync(IConnection connection, int startSequence, int end
 | startSequence | Int32 | 消息列表的起始序号 |
 | endSequence | Int32 | 消息列表的结束序号 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -317,14 +317,14 @@ public Task CopyMessagesAsync(int startSequence, int endSequence, string folderN
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startSequence | Int32 | 消息列表的起始序列号 |
-| endSequence | Int32 | 消息列表的结束序列号 |
-| folderName | String | 消息所在的文件夹名称要移动 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| startSequence | Int32 | 消息列表的起始序号 |
+| endSequence | Int32 | 消息列表的结束序号 |
+| folderName | String | 要移动消息的文件夹名称 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -353,7 +353,7 @@ public Task CopyMessagesAsync(IConnection connection, string startUid, string en
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -377,12 +377,12 @@ public Task CopyMessagesAsync(string startUid, string endUid, string folderName,
 | --- | --- | --- |
 | startUid | String | 消息列表的起始 UID |
 | endUid | String | 消息列表的结束 UID |
-| folderName | String | 消息所在的文件夹名称移动 |
+| folderName | String | 要移动消息的文件夹名称 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -404,13 +404,13 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| sequenceSet | IEnumerable`1 | 消息的序列号集合 |
+| sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -434,11 +434,11 @@ public Task CopyMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | 消息的序列号集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播操作应该是的通知取消。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -462,11 +462,11 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | connection | IConnection | 连接到服务器 |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -490,11 +490,11 @@ public Task CopyMessagesAsync(IEnumerable<string> uidSet, string folderName,
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | 消息的 UID 集 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播应该取消操作的通知. |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -516,13 +516,13 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | connection | IConnection | 连接到服务器 |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
 | token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -536,7 +536,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 
 ## CopyMessagesAsync(IEnumerable&lt;ImapMessageInfo&gt;, string, CancellationToken) {#copymessagesasync_13}
 
-复制邮件
+复制消息
 
 ```csharp
 public Task CopyMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, string folderName, 
@@ -545,13 +545,13 @@ public Task CopyMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| messageInfoSet | IEnumerable`1 | ImapMessageInfo 集合 |
+| messageInfoSet | IEnumerable`1 | ImapMessageInfo 的集合 |
 | folderName | String | 要移动消息的文件夹名称 |
-| token | CancellationToken | 传播 应取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

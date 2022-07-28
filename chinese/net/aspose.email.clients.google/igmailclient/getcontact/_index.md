@@ -16,17 +16,17 @@ public Contact GetContact(string contactUri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contactUri | String | 字符串，表示联系人的uri |
+| contactUri | String | 字符串，代表联系人的 uri |
 
 ### 返回值
 
-[`Contact`](../../../aspose.email.personalinfo/contact) 对象，表示gmail的联系人
+[`Contact`](../../../aspose.email.personalinfo/contact)对象，代表 gmail 的联系人
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| WebException | 操作失败时 |
+| WebException | 当操作失败时 |
 
 ### 也可以看看
 
@@ -39,7 +39,7 @@ public Contact GetContact(string contactUri)
 
 ## GetContact(Contact) {#getcontact}
 
-联系人刷新PersonalInfo。Contact对象，表示 gmail 操作失败时的联系人
+联系刷新[`Contact`](../../../aspose.email.personalinfo/contact)对象，代表 gmail 的联系人当操作失败时
 
 ```csharp
 public Contact GetContact(Contact contact)

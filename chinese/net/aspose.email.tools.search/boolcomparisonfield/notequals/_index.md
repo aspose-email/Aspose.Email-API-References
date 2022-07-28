@@ -1,14 +1,14 @@
 ---
 title: NotEquals
 second_title: Aspose.Email for .NET API 参考
-description: 表示该字段不能是 等于指定值
+description: 表示该字段不能 等于指定值
 type: docs
 weight: 20
 url: /zh/net/aspose.email.tools.search/boolcomparisonfield/notequals/
 ---
 ## BoolComparisonField.NotEquals method
 
-表示该字段不能是 等于指定值。
+表示该字段不能 等于指定值。
 
 ```csharp
 public MailQuery NotEquals(bool value)
@@ -16,7 +16,7 @@ public MailQuery NotEquals(bool value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Boolean | 值。 |
+| value | Boolean | 价值。 |
 
 ### 返回值
 

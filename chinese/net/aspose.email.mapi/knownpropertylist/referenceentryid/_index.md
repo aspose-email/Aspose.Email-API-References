@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/referenceentryid/
 ---
 ## KnownPropertyList.ReferenceEntryId field
 
-指定联系人对象的 EntryID 的值，除非联系人对象是早期原件的副本。 区域:联系人属性 规范名称:PidLidReferenceEntryId 替代名称:dispidReferenceEID
+指定联系人对象的 EntryID 的值，除非联系人对象是早期原件的副本。 区域：联系人属性 规范名称：PidLidReferenceEntryId 替代名称：dispidReferenceEID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReferenceEntryId;

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API 参考
-description: 将RecurrenceRuleaspose.email.calendar.recurrences/recurrencerule添加到集合中
+description: 添加一个RecurrenceRuleaspose.email.calendar.recurrences/recurrencerule收藏.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.calendar.recurrences/recurrencerulecollection/add/
 ---
 ## Add() {#add}
 
-将[`RecurrenceRule`](../../recurrencerule)添加到集合中。
+添加一个[`RecurrenceRule`](../../recurrencerule)收藏.
 
 ```csharp
 public RecurrenceRule Add()
@@ -29,7 +29,7 @@ public RecurrenceRule Add()
 
 ## Add(RecurrenceRule) {#add_1}
 
-将[`RecurrenceRule`](../../recurrencerule)添加到集合中。
+添加一个[`RecurrenceRule`](../../recurrencerule)收藏.
 
 ```csharp
 public int Add(RecurrenceRule rule)
@@ -37,7 +37,7 @@ public int Add(RecurrenceRule rule)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rule | RecurrenceRule | [`RecurrenceRule`](../../recurrencerule)添加。 |
+| rule | RecurrenceRule | 这[`RecurrenceRule`](../../recurrencerule)添加。 |
 
 ### 返回值
 

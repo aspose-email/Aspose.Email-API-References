@@ -16,7 +16,7 @@ public static explicit operator PidTagPropertyDescriptor(long tag)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tag | Int64 | 标记值标签属性 |
+| tag | Int64 | 标签属性的标签值 |
 
 ### 也可以看看
 

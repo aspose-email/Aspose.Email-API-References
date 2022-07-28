@@ -16,7 +16,7 @@ public void Add(CustomerEvent value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | CustomerEvent | 要添加到列表中的对象。 |
+| value | CustomerEvent | 要添加到列表的对象。 |
 
 ### 返回值
 

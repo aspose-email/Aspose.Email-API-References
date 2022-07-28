@@ -1,14 +1,14 @@
 ---
 title: FileUnder
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置 用于归档此联系人的名称 当显示联系人列表时
+description: 获取或设置 在显示联系人列表时归档此联系人 的名称
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapicontactnamepropertyset/fileunder/
 ---
 ## MapiContactNamePropertySet.FileUnder property
 
-获取或设置 用于归档此联系人的名称 当显示联系人列表时
+获取或设置 在显示联系人列表时归档此联系人 的名称
 
 ```csharp
 public string FileUnder { get; set; }

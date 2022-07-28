@@ -1,14 +1,14 @@
 ---
 title: EmlValidationErrorCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示EmlValidationError./emlvalidationerror
+description: 代表集合EmlValidationError./emlvalidationerror
 type: docs
 weight: 17300
 url: /zh/net/aspose.email/emlvalidationerrorcollection/
 ---
 ## EmlValidationErrorCollection class
 
-表示[`EmlValidationError`](../emlvalidationerror)
+代表集合[`EmlValidationError`](../emlvalidationerror)
 
 ```csharp
 public sealed class EmlValidationErrorCollection : List<EmlValidationError>

@@ -1,14 +1,14 @@
 ---
 title: Repeat
 second_title: Aspose.Email for .NET API 参考
-description: 定义在初始触发后应重复警报的次数
+description: 定义应在初始触发后重复警报的次数
 type: docs
 weight: 80
 url: /zh/net/aspose.email.calendar/appointmentreminder/repeat/
 ---
 ## AppointmentReminder.Repeat property
 
-定义在初始触发后应重复警报的次数。
+定义应在初始触发后重复警报的次数。
 
 ```csharp
 public int Repeat { get; set; }

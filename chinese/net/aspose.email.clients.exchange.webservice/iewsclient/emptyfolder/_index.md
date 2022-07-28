@@ -1,14 +1,14 @@
 ---
 title: EmptyFolder
 second_title: Aspose.Email for .NET API 参考
-description: 清空指定文件夹子文件夹不会被删除删除的项目将被移动到 DeletedItems 文件夹
+description: 清空指定文件夹子文件夹不会被删除已删除的项目将被移动到 DeletedItems 文件夹
 type: docs
 weight: 680
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/emptyfolder/
 ---
 ## EmptyFolder(string) {#emptyfolder}
 
-清空指定文件夹。子文件夹不会被删除；删除的项目将被移动到 DeletedItems 文件夹
+清空指定文件夹。子文件夹不会被删除；已删除的项目将被移动到 DeletedItems 文件夹
 
 ```csharp
 public void EmptyFolder(string folderUri)
@@ -23,7 +23,7 @@ public void EmptyFolder(string folderUri)
 | 例外 | （健康）状况 |
 | --- | --- |
 | [ExchangeException](../../../aspose.email/exchangeexception) | EmptyFolder 操作失败 |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*是`无效的`或者`空的` |
 
 ### 也可以看看
 
@@ -51,7 +51,7 @@ public void EmptyFolder(string folderUri, EmptyFolderOptions options)
 | 例外 | （健康）状况 |
 | --- | --- |
 | [ExchangeException](../../../aspose.email/exchangeexception) | EmptyFolder 操作失败 |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*是`无效的`或者`空的` |
 
 ### 也可以看看
 

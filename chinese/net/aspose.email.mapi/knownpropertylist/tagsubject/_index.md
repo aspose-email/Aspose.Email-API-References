@@ -1,14 +1,14 @@
 ---
 title: TagSubject
 second_title: Aspose.Email for .NET API 参考
-description: 包含电子邮件的主题 区域常规消息属性 规范名称PidTagSubject 替代名称PR_SUBJECT PR_SUBJECT_A ptagSubject PR_SUBJECT_W
+description: 包含电子邮件的主题 区域常规邮件属性 规范名称PidTagSubject 替代名称PR_SUBJECTPR_SUBJECT_AptagSubjectPR_SUBJECT_W
 type: docs
 weight: 18500
 url: /zh/net/aspose.email.mapi/knownpropertylist/tagsubject/
 ---
 ## KnownPropertyList.TagSubject field
 
-包含电子邮件的主题。 区域:常规消息属性 规范名称:PidTagSubject 替代名称:PR_SUBJECT, PR_SUBJECT_A, ptagSubject, PR_SUBJECT_W,
+包含电子邮件的主题。 区域：常规邮件属性 规范名称：PidTagSubject 替代名称：PR_SUBJECT、PR_SUBJECT_A、ptagSubject、PR_SUBJECT_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TagSubject;

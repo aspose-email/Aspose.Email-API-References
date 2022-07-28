@@ -1,14 +1,14 @@
 ---
 title: OwnerCriticalChange
 second_title: Aspose.Email for .NET API 参考
-description: 指定组织者发送会议请求对象的日期和时间 区域会议 规范名称PidLidOwnerCriticalChange 别名LID_OWNER_CRITICAL_CHANGE
+description: 指定组织者发送会议请求对象的日期和时间 区域Meetings 规范名称PidLidOwnerCriticalChange 替代名称LID_OWNER_CRITICAL_CHANGE
 type: docs
 weight: 14100
 url: /zh/net/aspose.email.mapi/knownpropertylist/ownercriticalchange/
 ---
 ## KnownPropertyList.OwnerCriticalChange field
 
-指定组织者发送会议请求对象的日期和时间。 区域:会议 规范名称:PidLidOwnerCriticalChange 别名:LID_OWNER_CRITICAL_CHANGE
+指定组织者发送会议请求对象的日期和时间。 区域：Meetings 规范名称：PidLidOwnerCriticalChange 替代名称：LID_OWNER_CRITICAL_CHANGE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OwnerCriticalChange;

@@ -1,14 +1,14 @@
 ---
 title: IsNoloading
 second_title: Справочник по Aspose.Email для .NET API
-description: Атрибут noloading указывает следует ли отключать индикатор загрузки для этого элемента.
+description: Атрибут noloading указывает следует ли отключить индикатор загрузки для этого элемента.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.amp/ampattributes/isnoloading/
 ---
 ## AmpAttributes.IsNoloading property
 
-Атрибут noloading указывает, следует ли отключать "индикатор загрузки" для этого элемента.
+Атрибут noloading указывает, следует ли отключить «индикатор загрузки» для этого элемента.
 
 ```csharp
 public bool IsNoloading { get; set; }

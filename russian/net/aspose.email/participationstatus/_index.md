@@ -3,7 +3,7 @@ title: ParticipationStatus
 second_title: Справочник по Aspose.Email для .NET API
 description: Идентифицирует статус участия для пользователя календаря.
 type: docs
-weight: 19250
+weight: 19280
 url: /ru/net/aspose.email/participationstatus/
 ---
 ## ParticipationStatus enumeration

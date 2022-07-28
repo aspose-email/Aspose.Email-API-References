@@ -1,14 +1,14 @@
 ---
 title: Class
 second_title: Aspose.Email for .NET API 参考
-description: 标识要添加到集合中的项目的类 仅用于服务器响应
+description: 标识要添加到集合中的项目的类 仅在服务器响应中使用
 type: docs
 weight: 30
 url: /zh/net/aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/class/
 ---
 ## SyncChangeClientOperation.Class property
 
-标识要添加到集合中的项目的类。 仅用于服务器响应。
+标识要添加到集合中的项目的类。 仅在服务器响应中使用。
 
 ```csharp
 public AirsyncClass Class { get; set; }

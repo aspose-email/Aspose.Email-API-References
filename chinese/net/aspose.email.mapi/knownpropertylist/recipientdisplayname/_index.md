@@ -1,14 +1,14 @@
 ---
 title: RecipientDisplayName
 second_title: Aspose.Email for .NET API 参考
-description: 指定收件人的显示名称 区域TransportRecipient 规范名称PidTagRecipientDisplayName 备用名称PR_RECIPIENT_DISPLAY_NAME PR_RECIPIENT_DISPLAY_NAME_W
+description: 指定收件人的显示名称 区域TransportRecipient 规范名称PidTagRecipientDisplayName 备用名称PR_RECIPIENT_DISPLAY_NAMEPR_RECIPIENT_DISPLAY_NAME_W
 type: docs
 weight: 15410
 url: /zh/net/aspose.email.mapi/knownpropertylist/recipientdisplayname/
 ---
 ## KnownPropertyList.RecipientDisplayName field
 
-指定收件人的显示名称。 区域:TransportRecipient 规范名称:PidTagRecipientDisplayName 备用名称:PR_RECIPIENT_DISPLAY_NAME, PR_RECIPIENT_DISPLAY_NAME_W
+指定收件人的显示名称。 区域：TransportRecipient 规范名称：PidTagRecipientDisplayName 备用名称：PR_RECIPIENT_DISPLAY_NAME、PR_RECIPIENT_DISPLAY_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientDisplayName;

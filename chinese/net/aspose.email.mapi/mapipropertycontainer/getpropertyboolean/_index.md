@@ -1,14 +1,14 @@
 ---
 title: GetPropertyBoolean
 second_title: Aspose.Email for .NET API 参考
-description: 获取 tag 指定的属性值作为布尔类型
+description: 获取tag指定的属性值为布尔类型
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapipropertycontainer/getpropertyboolean/
 ---
 ## MapiPropertyContainer.GetPropertyBoolean method
 
-获取 tag 指定的属性值作为布尔类型。
+获取tag指定的属性值为布尔类型。
 
 ```csharp
 public bool? GetPropertyBoolean(long tag)
@@ -20,7 +20,7 @@ public bool? GetPropertyBoolean(long tag)
 
 ### 返回值
 
-属性的值。如果属性不存在，返回NULL；否则，返回值。
+财产的价值。如果属性不存在，返回NULL；否则，返回值。
 
 ### 也可以看看
 

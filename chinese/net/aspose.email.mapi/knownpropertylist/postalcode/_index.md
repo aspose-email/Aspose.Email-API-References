@@ -1,14 +1,14 @@
 ---
 title: PostalCode
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户邮政地址的邮政编码 区域MapiMailUser 规范名称PidTagPostalCode 别名PR_POSTAL_CODE PR_POSTAL_CODE_A PR_POSTAL_CODE_W PR_BUSINESS_ADDRESS_POSTAL_CODE PR_BUSINESS_ADDRESS_POSTAL_CODE_A
+description: 包含邮件用户邮政地址的邮政编码 区域MapiMailUser 规范名称PidTagPostalCode 别名PR_POSTAL_CODEPR_POSTAL_CODE_APR_POSTAL_CODE_WPR_BUSINESS_ADDRESS_POSTAL_CODEPR_BUSINESS_ADDRESS_POSTAL_CODE_A
 type: docs
 weight: 14370
 url: /zh/net/aspose.email.mapi/knownpropertylist/postalcode/
 ---
 ## KnownPropertyList.PostalCode field
 
-包含邮件用户邮政地址的邮政编码。 区域:MapiMailUser 规范名称:PidTagPostalCode 别名:PR_POSTAL_CODE, PR_POSTAL_CODE_A, PR_POSTAL_CODE_W, PR_BUSINESS_ADDRESS_POSTAL_CODE, PR_BUSINESS_ADDRESS_POSTAL_CODE_A,
+包含邮件用户邮政地址的邮政编码。 区域：MapiMailUser 规范名称：PidTagPostalCode 别名：PR_POSTAL_CODE、PR_POSTAL_CODE_A、PR_POSTAL_CODE_W、PR_BUSINESS_ADDRESS_POSTAL_CODE、PR_BUSINESS_ADDRESS_POSTAL_CODE_A、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PostalCode;

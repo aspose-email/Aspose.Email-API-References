@@ -1,14 +1,14 @@
 ---
 title: AddressType
 second_title: Aspose.Email for .NET API 参考
-description: 包含 Message 对象的电子邮件地址类型 区域地址属性 规范名称PidTagAddressType 备用名称PR_ADDRTYPE PR_ADDRTYPE_A ptagAddrType PR_ADDRTYPE_W
+description: 包含消息对象的电子邮件地址类型 区域地址属性 规范名称PidTagAddressType 备用名称PR_ADDRTYPEPR_ADDRTYPE_AptagAddrTypePR_ADDRTYPE_W
 type: docs
 weight: 1020
 url: /zh/net/aspose.email.mapi/knownpropertylist/addresstype/
 ---
 ## KnownPropertyList.AddressType field
 
-包含 Message 对象的电子邮件地址类型。 区域:地址属性 规范名称:PidTagAddressType 备用名称:PR_ADDRTYPE, PR_ADDRTYPE_A, ptagAddrType, PR_ADDRTYPE_W
+包含消息对象的电子邮件地址类型。 区域：地址属性 规范名称：PidTagAddressType 备用名称：PR_ADDRTYPE、PR_ADDRTYPE_A、ptagAddrType、PR_ADDRTYPE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressType;

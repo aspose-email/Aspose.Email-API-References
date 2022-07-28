@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Email для .NET API
-description: Строковое значение условия
+description: Строковое значение condition
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/searchcondition/value/
 ---
 ## SearchCondition.Value property
 
-Строковое значение условия
+Строковое значение condition
 
 ```csharp
 public string Value { get; set; }

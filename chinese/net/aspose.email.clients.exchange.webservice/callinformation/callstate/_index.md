@@ -1,14 +1,14 @@
 ---
 title: CallState
 second_title: Aspose.Email for .NET API 参考
-description: 电话状态
+description: 电话通话状态
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange.webservice/callinformation/callstate/
 ---
 ## CallInformation.CallState property
 
-电话状态。
+电话通话状态。
 
 ```csharp
 public PhoneCallState CallState { get; }

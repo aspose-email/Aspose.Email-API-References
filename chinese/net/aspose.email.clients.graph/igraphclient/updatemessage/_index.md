@@ -16,7 +16,7 @@ public MapiMessage UpdateMessage(MapiMessage message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | Mapi 要更新的消息 |
+| message | MapiMessage | Mapi 消息待更新 |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public MapiMessage UpdateMessage(MapiMessage message, UpdateSettings updateSetti
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | Mapi 要更新的消息 |
+| message | MapiMessage | Mapi 消息待更新 |
 | updateSettings | UpdateSettings | 更新设置 |
 
 ### 返回值

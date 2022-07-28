@@ -1,14 +1,14 @@
 ---
 title: MailException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MailExceptionaspose.email/mailexception类的新实例
+description: 初始化MailExceptionaspose.email/mailexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/mailexception/mailexception/
 ---
 ## MailException() {#constructor}
 
-初始化[`MailException`](../../mailexception)类的新实例。
+初始化[`MailException`](../../mailexception)类.
 
 ```csharp
 public MailException()
@@ -24,7 +24,7 @@ public MailException()
 
 ## MailException(string) {#constructor_1}
 
-初始化[`MailException`](../../mailexception)类的新实例。
+初始化[`MailException`](../../mailexception)类.
 
 ```csharp
 public MailException(string message)

@@ -1,14 +1,14 @@
 ---
 title: SocksAuthenticationMethods
 second_title: Aspose.Email for .NET API 参考
-description: SOCKS 协议支持的认证方式
+description: SOCKS协议支持的认证方式
 type: docs
 weight: 17090
 url: /zh/net/aspose.email.clients/socksauthenticationmethods/
 ---
 ## SocksAuthenticationMethods enumeration
 
-SOCKS 协议支持的认证方式
+SOCKS协议支持的认证方式
 
 ```csharp
 [Flags]
@@ -19,8 +19,8 @@ public enum SocksAuthenticationMethods : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NoAuthentication | `1` | 无认证 |
-| PlainText | `2` | 使用用户名和密码对用户进行身份验证。 仅 SOCKS5 服务器 |
+| NoAuthentication | `1` | 没有认证 |
+| PlainText | `2` | 使用用户名和密码对用户进行身份验证。 仅限 SOCKS5 服务器 |
 
 ### 也可以看看
 

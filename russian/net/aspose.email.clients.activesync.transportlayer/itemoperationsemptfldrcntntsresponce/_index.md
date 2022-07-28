@@ -24,7 +24,7 @@ public class ItemOperationsEmptFldrCntntsResponce
 
 | Имя | Описание |
 | --- | --- |
-| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemoperationsemptfldrcntntsresponce/collectionid) { get; set; } | Указывает папку, которую нужно очистить. Содержит идентификатор сервера папки. |
+| [CollectionId](../../aspose.email.clients.activesync.transportlayer/itemoperationsemptfldrcntntsresponce/collectionid) { get; set; } | Указывает папку, которую необходимо очистить. Содержит ServerId папки. |
 | [Status](../../aspose.email.clients.activesync.transportlayer/itemoperationsemptfldrcntntsresponce/status) { get; set; } | Содержит код и описание, указывающее на успех или неудачу операции ItemOperations. |
 
 ### Смотрите также

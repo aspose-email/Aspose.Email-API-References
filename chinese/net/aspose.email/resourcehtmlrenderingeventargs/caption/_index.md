@@ -1,14 +1,14 @@
 ---
 title: Caption
 second_title: Aspose.Email for .NET API 参考
-description: Caprion 用于资源
+description: 资源的 Caprion
 type: docs
 weight: 20
 url: /zh/net/aspose.email/resourcehtmlrenderingeventargs/caption/
 ---
 ## ResourceHtmlRenderingEventArgs.Caption property
 
-Caprion 用于资源。
+资源的 Caprion。
 
 ```csharp
 public string Caption { get; set; }

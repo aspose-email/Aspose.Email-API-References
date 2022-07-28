@@ -1,14 +1,14 @@
 ---
 title: Attendees
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит коллекцию объектов ReminderAttendeeReminderAttendeeaspose.email.calendar/reminderattendee.
+description: Содержит коллекцию ReminderAttendeeReminderAttendeeaspose.email.calendar/reminderattendee объекты.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.calendar/appointmentreminder/attendees/
 ---
 ## AppointmentReminder.Attendees property
 
-Содержит коллекцию объектов ReminderAttendee[`ReminderAttendee`](../../reminderattendee).
+Содержит коллекцию ReminderAttendee[`ReminderAttendee`](../../reminderattendee) объекты.
 
 ```csharp
 public ReminderAttendeeCollection Attendees { get; }

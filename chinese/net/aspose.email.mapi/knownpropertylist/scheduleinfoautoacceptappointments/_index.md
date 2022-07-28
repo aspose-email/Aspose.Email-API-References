@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoAutoAcceptAppointments
 second_title: Aspose.Email for .NET API 参考
-description: 指示客户端或服务器是否自动响应与会者或资源的所有会议请求 区域忙/闲属性 规范名称PidTagScheduleInfoAutoAcceptAppointments 替代名称PR_SCHDINFO_AUTO_ACCEPT_APPTS
+description: 指示客户端或服务器是否要自动响应与会者或资源的所有会议请求 区域忙/闲属性 规范名称PidTagScheduleInfoAutoAcceptAppointments 备用名称PR_SCHDINFO_AUTO_ACCEPT_APPTS
 type: docs
 weight: 16720
 url: /zh/net/aspose.email.mapi/knownpropertylist/scheduleinfoautoacceptappointments/
 ---
 ## KnownPropertyList.ScheduleInfoAutoAcceptAppointments field
 
-指示客户端或服务器是否自动响应与会者或资源的所有会议请求。 区域:忙/闲属性 规范名称:PidTagScheduleInfoAutoAcceptAppointments 替代名称:PR_SCHDINFO_AUTO_ACCEPT_APPTS
+指示客户端或服务器是否要自动响应与会者或资源的所有会议请求。 区域：忙/闲属性 规范名称：PidTagScheduleInfoAutoAcceptAppointments 备用名称：PR_SCHDINFO_AUTO_ACCEPT_APPTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoAutoAcceptAppointments;

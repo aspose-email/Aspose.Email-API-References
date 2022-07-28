@@ -1,14 +1,14 @@
 ---
 title: PredecessorChangeList
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个值该值包含 PredecessorChangeList 结构的序列化表示 区域同步 规范名称PidTagPredecessorChangeList 替代名称PR_PREDECESSOR_CHANGE_LIST
+description: 包含一个值该值包含 PredecessorChangeList 结构的序列化表示 区域Sync 规范名称PidTagPredecessorChangeList 备用名称PR_PREDECESSOR_CHANGE_LIST
 type: docs
 weight: 14510
 url: /zh/net/aspose.email.mapi/knownpropertylist/predecessorchangelist/
 ---
 ## KnownPropertyList.PredecessorChangeList field
 
-包含一个值，该值包含 PredecessorChangeList 结构的序列化表示。 区域:同步 规范名称:PidTagPredecessorChangeList 替代名称:PR_PREDECESSOR_CHANGE_LIST
+包含一个值，该值包含 PredecessorChangeList 结构的序列化表示。 区域：Sync 规范名称：PidTagPredecessorChangeList 备用名称：PR_PREDECESSOR_CHANGE_LIST
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PredecessorChangeList;

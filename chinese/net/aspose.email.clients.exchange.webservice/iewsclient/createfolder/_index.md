@@ -23,7 +23,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或*name*是` null` 或` 空` 。 |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*或者*name*是`无效的`或者`空的`. |
 
 ### 也可以看看
 
@@ -77,7 +77,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name,
 | parentFolderUri | String | 父文件夹的 URI |
 | name | String | 新文件夹的名称 |
 | permissions | ExchangeFolderPermissionCollection | 新文件夹的权限 |
-| folderClass | String | 新文件夹的类 |
+| folderClass | String | 新建文件夹的类 |
 
 ### 返回值
 
@@ -104,7 +104,7 @@ public ExchangeFolderInfo CreateFolder(string name, ExchangeFolderType folderTyp
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 新文件夹的名称 |
-| folderType | ExchangeFolderType | 类型文件夹 |
+| folderType | ExchangeFolderType | 文件夹类型 |
 
 ### 返回值
 
@@ -132,7 +132,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | parentFolderUri | String | 父文件夹的 URI |
-| name | String | 新文件夹名称 |
+| name | String | 新文件夹的名称 |
 | folderType | ExchangeFolderType | 文件夹类型 |
 
 ### 返回值

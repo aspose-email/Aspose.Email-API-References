@@ -1,14 +1,14 @@
 ---
 title: AttachmentMacInfo
 second_title: Aspose.Email for .NET API 参考
-description: 包含与 Mac 附件关联的标头和资源分支数据 区域消息附件属性 规范名称PidNameAttachmentMacInfo 备用名称
+description: 包含与 Mac 附件关联的标头和资源派生数据 区域消息附件属性 规范名称PidNameAttachmentMacInfo 备用名称
 type: docs
 weight: 1680
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachmentmacinfo/
 ---
 ## KnownPropertyList.AttachmentMacInfo field
 
-包含与 Mac 附件关联的标头和资源分支数据。 区域:消息附件属性 规范名称:PidNameAttachmentMacInfo 备用名称:
+包含与 Mac 附件关联的标头和资源派生数据。 区域：消息附件属性 规范名称：PidNameAttachmentMacInfo 备用名称：
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AttachmentMacInfo;

@@ -1,14 +1,14 @@
 ---
 title: UseTnef
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置一个布尔值用于控制消息是否以 TNEF 格式发送 注意现在消息在加载时以 TNEF 格式发送消息包含 tnef
+description: 获取或设置一个布尔值该值控制消息是否以 TNEF 格式发送 注意现在消息在加载时以 TNEF 格式发送消息包含 tnef
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.smtp/smtpclient/usetnef/
 ---
 ## SmtpClient.UseTnef property
 
-获取或设置一个布尔值，用于控制消息是否以 TNEF 格式发送。 注意，现在消息在加载时以 TNEF 格式发送，消息包含 tnef。
+获取或设置一个布尔值，该值控制消息是否以 TNEF 格式发送。 注意，现在消息在加载时以 TNEF 格式发送，消息包含 tnef。
 
 ```csharp
 public bool UseTnef { get; set; }

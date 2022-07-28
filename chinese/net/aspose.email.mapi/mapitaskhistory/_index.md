@@ -1,14 +1,14 @@
 ---
 title: MapiTaskHistory
 second_title: Aspose.Email for .NET API 参考
-description: 表示最后对 Task 对象进行的更改类型
+description: 指示上次对任务对象进行的更改类型
 type: docs
-weight: 18670
+weight: 18700
 url: /zh/net/aspose.email.mapi/mapitaskhistory/
 ---
 ## MapiTaskHistory enumeration
 
-表示最后对 Task 对象进行的更改类型。
+指示上次对任务对象进行的更改类型。
 
 ```csharp
 public enum MapiTaskHistory
@@ -21,7 +21,7 @@ public enum MapiTaskHistory
 | DueDateChanged | `4` | PidLidTaskDueDate 属性已更改。 |
 | AnotherPropertyChanged | `3` | 另一个属性已更改。 |
 | Accepted | `1` | 任务受让人接受了这个任务对象。 |
-| Rejected | `2` | 任务受让人拒绝了此任务对象。 |
+| Rejected | `2` | 任务受理人拒绝了此任务对象。 |
 | Assigned | `5` | 任务对象已分配给任务受让人。 |
 | NoChanges | `0` | 未进行任何更改。 |
 

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/currentversion/
 ---
 ## KnownPropertyList.CurrentVersion field
 
-指定发送消息的客户端应用程序的内部版本号。 区域:常规消息属性 规范名称:PidLidCurrentVersion 替代名称:dispidCurrentVersion
+指定发送消息的客户端应用程序的内部版本号。 区域：常规消息属性 规范名称：PidLidCurrentVersion 替代名称：dispidCurrentVersion
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CurrentVersion;

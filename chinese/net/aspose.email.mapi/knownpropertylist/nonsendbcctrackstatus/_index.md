@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/nonsendbcctrackstatus/
 ---
 ## KnownPropertyList.NonSendBccTrackStatus field
 
-包含响应表中的值。 区域:常规消息属性 规范名称:PidLidNonSendBccTrackStatus 替代名称:dispidNonSendBccTrackStatus
+包含响应表中的值。 区域：常规消息属性 规范名称：PidLidNonSendBccTrackStatus 替代名称：dispidNonSendBccTrackStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NonSendBccTrackStatus;

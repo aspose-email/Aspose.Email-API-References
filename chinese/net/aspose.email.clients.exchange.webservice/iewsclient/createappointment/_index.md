@@ -20,7 +20,7 @@ public string CreateAppointment(Appointment appointment)
 
 ### 返回值
 
-返回约会 UID
+返回预约 UID
 
 ### 也可以看看
 
@@ -46,7 +46,7 @@ public string CreateAppointment(Appointment appointment, string folderUri)
 
 ### 返回值
 
-返回约会 UID
+返回预约 UID
 
 ### 也可以看看
 
@@ -74,7 +74,7 @@ public string CreateAppointment(MapiCalendar appointment, string folderUri,
 
 ### 返回值
 
-以 base64 字符串形式返回 PidLidGlobalObjectId
+将 PidLidGlobalObjectId 作为 base64 字符串返回
 
 ### 也可以看看
 

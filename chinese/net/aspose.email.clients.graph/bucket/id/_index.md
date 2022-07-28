@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API 参考
-description: 桶的ID只读
+description: 存储桶的 ID只读
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.graph/bucket/id/
 ---
 ## Bucket.Id property
 
-桶的ID。只读。
+存储桶的 ID。只读。
 
 ```csharp
 public string Id { get; set; }

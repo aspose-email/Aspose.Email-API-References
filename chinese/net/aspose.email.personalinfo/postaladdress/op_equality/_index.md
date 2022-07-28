@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.personalinfo/postaladdress/op_equality/
 ---
 ## PostalAddress Equality operator
 
-判断指定对象是否相等。
+判断指定对象是否相等
 
 ```csharp
 public static bool operator ==(PostalAddress a, PostalAddress b)
@@ -17,7 +17,7 @@ public static bool operator ==(PostalAddress a, PostalAddress b)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | a | PostalAddress | 第一个要比较的对象 |
-| b | PostalAddress | 第二个要比较的对象比较 |
+| b | PostalAddress | 第二个要比较的对象 |
 
 ### 返回值
 

@@ -16,7 +16,7 @@ public OutlookMessageFormat MessageFormat { get; }
 
 ### 适当的价值
 
-Outlook 消息格式。
+outlook消息格式
 
 ### 也可以看看
 

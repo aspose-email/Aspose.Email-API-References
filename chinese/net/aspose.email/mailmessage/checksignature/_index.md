@@ -20,16 +20,16 @@ public static bool CheckSignature(string fileName)
 
 ### 返回值
 
-` True` 如果签名有效；否则，` false` 。
+`真的`如果签名有效；否则，`错误的`.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | *fileName*is` null` 或` 空` 。 |
+| ArgumentException | *fileName*是`无效的`或者`空的`. |
 | FileNotFoundException | 指定的*fileName*不存在。 |
-| NotSupportedException | 签名类型不受支持。 |
-| InvalidOperationException | 邮件未签名或未指定签名类型。 |
+| NotSupportedException | 不支持签名类型。 |
+| InvalidOperationException | 邮件消息未签名或未指定签名类型。 |
 
 ### 也可以看看
 
@@ -53,15 +53,15 @@ public static bool CheckSignature(Stream stream)
 
 ### 返回值
 
-` True` 如果签名有效；否则，` false` 。
+`真的`如果签名有效；否则，`错误的`.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *stream*是` null` 。 |
-| NotSupportedException | 签名类型不受支持。 |
-| InvalidOperationException | 邮件未签名或未指定签名类型。 |
+| ArgumentNullException | *stream*是`无效的`. |
+| NotSupportedException | 不支持签名类型。 |
+| InvalidOperationException | 邮件消息未签名或未指定签名类型。 |
 
 ### 也可以看看
 
@@ -73,7 +73,7 @@ public static bool CheckSignature(Stream stream)
 
 ## CheckSignature()
 
-检查签名存在的 MailMessage。
+检查现有 MailMessage 的签名。
 
 ```csharp
 public virtual X509Certificate2[] CheckSignature()

@@ -1,14 +1,14 @@
 ---
 title: MessageAttachments
 second_title: Aspose.Email for .NET API 参考
-description: 标识当前邮件的所有附件 区域消息附件属性 规范名称PidTagMessageAttachments 替代名称PR_MESSAGE_ATTACHMENTS ptagMessageAttachments
+description: 标识当前邮件的所有附件 区域邮件附件属性 规范名称PidTagMessageAttachments 备用名称PR_MESSAGE_ATTACHMENTSptagMessageAttachments
 type: docs
 weight: 12450
 url: /zh/net/aspose.email.mapi/knownpropertylist/messageattachments/
 ---
 ## KnownPropertyList.MessageAttachments field
 
-标识当前邮件的所有附件。 区域:消息附件属性 规范名称:PidTagMessageAttachments 替代名称:PR_MESSAGE_ATTACHMENTS, ptagMessageAttachments
+标识当前邮件的所有附件。 区域：邮件附件属性 规范名称：PidTagMessageAttachments 备用名称：PR_MESSAGE_ATTACHMENTS、ptagMessageAttachments
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageAttachments;

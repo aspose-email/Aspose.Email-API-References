@@ -18,7 +18,7 @@ public Task SendAsync(MailMessage message, FollowUpOptions messageOptions = null
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | MailMessage | 消息。 |
-| messageOptions | FollowUpOptions | [`FollowUpOptions`](../../../aspose.email.mapi/followupoptions)表示使用的附加选项 后续标志和投票按钮。 |
+| messageOptions | FollowUpOptions | 的[`FollowUpOptions`](../../../aspose.email.mapi/followupoptions)表示使用 后续标志和投票按钮的附加选项。 |
 | cancellationToken | CancellationToken | 取消令牌。 |
 
 ### 也可以看看

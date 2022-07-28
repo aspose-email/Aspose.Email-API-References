@@ -1,14 +1,14 @@
 ---
 title: TeamTask
 second_title: Aspose.Email for .NET API 参考
-description: 该属性由客户端设置但被服务器忽略 区域任务 规范名称PidLidTeamTask 替代名称dispidTeamTask
+description: 此属性由客户端设置但被服务器忽略 区域Tasks 规范名称PidLidTeamTask 备用名称dispidTeamTask
 type: docs
 weight: 18870
 url: /zh/net/aspose.email.mapi/knownpropertylist/teamtask/
 ---
 ## KnownPropertyList.TeamTask field
 
-该属性由客户端设置，但被服务器忽略。 区域:任务 规范名称:PidLidTeamTask 替代名称:dispidTeamTask
+此属性由客户端设置，但被服务器忽略。 区域：Tasks 规范名称：PidLidTeamTask 备用名称：dispidTeamTask
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TeamTask;

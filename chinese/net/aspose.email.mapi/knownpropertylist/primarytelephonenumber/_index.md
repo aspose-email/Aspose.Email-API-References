@@ -1,14 +1,14 @@
 ---
 title: PrimaryTelephoneNumber
 second_title: Aspose.Email for .NET API 参考
-description: 包含邮件用户的主要电话号码 区域MapiMailUser 规范名称PidTagPrimaryTelephoneNumber 备用名称PR_PRIMARY_TELEPHONE_NUMBER PR_PRIMARY_TELEPHONE_NUMBER_A PR_PRIMARY_TELEPHONE_NUMBER_W
+description: 包含邮件用户的主要电话号码 区域MapiMailUser 规范名称PidTagPrimaryTelephoneNumber 备用名称PR_PRIMARY_TELEPHONE_NUMBERPR_PRIMARY_TELEPHONE_NUMBER_APR_PRIMARY_TELEPHONE_NUMBER_W
 type: docs
 weight: 14600
 url: /zh/net/aspose.email.mapi/knownpropertylist/primarytelephonenumber/
 ---
 ## KnownPropertyList.PrimaryTelephoneNumber field
 
-包含邮件用户的主要电话号码。 区域:MapiMailUser 规范名称:PidTagPrimaryTelephoneNumber 备用名称:PR_PRIMARY_TELEPHONE_NUMBER, PR_PRIMARY_TELEPHONE_NUMBER_A, PR_PRIMARY_TELEPHONE_NUMBER_W
+包含邮件用户的主要电话号码。 区域：MapiMailUser 规范名称：PidTagPrimaryTelephoneNumber 备用名称：PR_PRIMARY_TELEPHONE_NUMBER、PR_PRIMARY_TELEPHONE_NUMBER_A、PR_PRIMARY_TELEPHONE_NUMBER_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PrimaryTelephoneNumber;

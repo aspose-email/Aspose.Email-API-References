@@ -1,14 +1,14 @@
 ---
 title: HeaderFormat
 second_title: Aspose.Email for .NET API 参考
-description: HeaderFormat 用于 HeadersFormattingOptions 实例如果 DefaultHeaderFormat 未设置
+description: 如果未设置 DefaultHeaderFormat则为 HeadersFormattingOptions 实例的 HeaderFormat
 type: docs
 weight: 30
 url: /zh/net/aspose.email/globalformattingoptions/headerformat/
 ---
 ## GlobalFormattingOptions.HeaderFormat property
 
-HeaderFormat 用于 HeadersFormattingOptions 实例，如果 DefaultHeaderFormat 未设置。
+如果未设置 DefaultHeaderFormat，则为 HeadersFormattingOptions 实例的 HeaderFormat。
 
 ```csharp
 public static string HeaderFormat { get; set; }

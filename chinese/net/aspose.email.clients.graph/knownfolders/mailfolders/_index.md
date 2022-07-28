@@ -1,14 +1,14 @@
 ---
 title: MailFolders
 second_title: Aspose.Email for .NET API 参考
-description: 邮件文件夹根目录
+description: 邮件文件夹 root
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.graph/knownfolders/mailfolders/
 ---
 ## KnownFolders.MailFolders field
 
-邮件文件夹根目录
+邮件文件夹 root
 
 ```csharp
 public static readonly string MailFolders;

@@ -16,7 +16,7 @@ public void OrderBy(bool ascending)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ascending | Boolean | 如果要使用升序排序，则设置为 true，否则设置为 false。 |
+| ascending | Boolean | 如果要使用升序排序，请设置为 true，否则设置为 false。 |
 
 ### 也可以看看
 

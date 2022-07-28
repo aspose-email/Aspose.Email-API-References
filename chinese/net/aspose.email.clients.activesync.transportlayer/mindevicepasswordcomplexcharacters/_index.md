@@ -1,14 +1,14 @@
 ---
 title: MinDevicePasswordComplexCharacters
 second_title: Aspose.Email for .NET API 参考
-description: 指定客户端密码所需的复杂程度 例如 如果 MinDevicePasswordComplexCharacters 的值为 2则包含大写和小写字母字符的密码就足够了 就像带有小写字母字符和数字的密码
+description: 指定客户端密码所需的复杂程度 例如 如果 MinDevicePasswordComplexCharacters 的值为 2则包含大写和小写字母字符的密码就足够了 与包含小写字母字符的密码一样和数字
 type: docs
 weight: 1550
 url: /zh/net/aspose.email.clients.activesync.transportlayer/mindevicepasswordcomplexcharacters/
 ---
 ## MinDevicePasswordComplexCharacters enumeration
 
-指定客户端密码所需的复杂程度。 例如: 如果 MinDevicePasswordComplexCharacters 的值为 2，则包含大写和小写字母字符的密码就足够了， 就像带有小写字母字符和数字的密码。
+指定客户端密码所需的复杂程度。 例如： 如果 MinDevicePasswordComplexCharacters 的值为 2，则包含大写和小写字母字符的密码就足够了， 与包含小写字母字符的密码一样和数字。
 
 ```csharp
 public enum MinDevicePasswordComplexCharacters

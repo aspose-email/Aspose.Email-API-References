@@ -1,14 +1,14 @@
 ---
 title: Region
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置区域
+description: 获取或设置一个区域
 type: docs
 weight: 80
 url: /zh/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/region/
 ---
 ## VCardDeliveryAddress.Region property
 
-获取或设置区域
+获取或设置一个区域
 
 ```csharp
 public string Region { get; set; }

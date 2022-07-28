@@ -17,7 +17,7 @@ public DeliveryServiceResponse<MailMessage> Send(MailMessage message, List<strin
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | 代表电子邮件的 MailMessage-信息。 |
+| message | MailMessage | 表示电子邮件消息的 MailMessage。 |
 | tags | List`1 |  |
 | token | Nullable`1 |  |
 

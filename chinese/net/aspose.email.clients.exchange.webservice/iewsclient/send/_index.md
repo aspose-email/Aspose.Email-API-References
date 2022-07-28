@@ -1,14 +1,14 @@
 ---
 title: Send
 second_title: Aspose.Email for .NET API 参考
-description: 发送指定消息
+description: 发送指定的消息
 type: docs
 weight: 1400
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/send/
 ---
 ## Send(MailMessage) {#send}
 
-发送指定消息。
+发送指定的消息。
 
 ```csharp
 public void Send(MailMessage message)
@@ -29,7 +29,7 @@ public void Send(MailMessage message)
 
 ## Send(string, string, string, string) {#send_2}
 
-发送指定消息
+发送指定的消息
 
 ```csharp
 public void Send(string from, string to, string subject, string body)
@@ -37,10 +37,10 @@ public void Send(string from, string to, string subject, string body)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| from | String | 发件人地址 |
-| to | String | 到地址 |
-| subject | String | 消息主题 |
-| body | String | 消息体 |
+| from | String | 从地址 |
+| to | String | 讲话 |
+| subject | String | 留言主题 |
+| body | String | 邮件正文 |
 
 ### 也可以看看
 
@@ -60,8 +60,8 @@ public void Send(MailMessage message, FollowUpOptions messageOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | [`MailMessage`](../../../aspose.email/mailmessage)要发送。 |
-| messageOptions | FollowUpOptions | [`FollowUpOptions`](../../../aspose.email.mapi/followupoptions)表示使用 follow 的附加选项向上标志和投票按钮。 |
+| message | MailMessage | 这[`MailMessage`](../../../aspose.email/mailmessage)被发送。 |
+| messageOptions | FollowUpOptions | 这[`FollowUpOptions`](../../../aspose.email.mapi/followupoptions)表示使用 后续标志和投票按钮的附加选项。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: UpdateOverride
 second_title: Aspose.Email for .NET API 参考
-description: 按指定更改覆盖的分类作为字段 您不能使用此方法更改 ClassificationOverride 实例中的任何其他字段 如果发件人存在覆盖并且发件人更改了他/她的显示名称您可以使用 CreateOrUpdateOverride 强制更新现有覆盖中的名称字段 如果发件人存在覆盖并且发件人更改了他/她的 SMTP 地址 删除现有覆盖并使用新的 SMTP 地址创建一个新覆盖是更新此发件人覆盖的唯一方法 权限 调用此 API 需要以下权限之一要了解更多信息包括如何选择权限请参阅权限 委托工作或学校帐户Mail.ReadWrite 委托个人 Microsoft 帐户Mail.ReadWrite 应用程序 Mail.ReadWrite
+description: 按指定更改覆盖的分类字段 您不能使用此方法更改 ClassificationOverride 实例中的任何其他字段 如果发件人存在覆盖并且发件人更改了他/她的显示名称您可以使用 CreateOrUpdateOverride 来更改强制更新现有覆盖中的名称字段 如果发件人存在覆盖并且发件人更改了他/她的 SMTP 地址 删除现有覆盖并使用新的 SMTP 地址创建一个新覆盖是唯一的方法更新此发件人的覆盖 权限 调用此 API 需要以下权限之一要了解更多信息包括如何选择权限请参阅权限 委托工作或学校帐户Mail.ReadWrite 委托个人 Microsoft 帐户 Mail.ReadWrite 应用程序 Mail.ReadWrite
 type: docs
 weight: 410
 url: /zh/net/aspose.email.clients.graph/igraphclient/updateoverride/
 ---
 ## IGraphClient.UpdateOverride method
 
-按指定更改覆盖的分类作为字段。 您不能使用此方法更改 ClassificationOverride 实例中的任何其他字段。 如果发件人存在覆盖并且发件人更改了他/她的显示名称，您可以使用 CreateOrUpdateOverride 强制更新现有覆盖中的名称字段。 如果发件人存在覆盖并且发件人更改了他/她的 SMTP 地址， 删除现有覆盖并使用新的 SMTP 地址创建一个新覆盖是“更新”此发件人覆盖的唯一方法。 权限： 调用此 API 需要以下权限之一。要了解更多信息，包括如何选择权限，请参阅权限。 委托（工作或学校帐户）Mail.ReadWrite 委托（个人 Microsoft 帐户）Mail.ReadWrite 应用程序 Mail.ReadWrite
+按指定更改覆盖的分类字段。 您不能使用此方法更改 ClassificationOverride 实例中的任何其他字段。 如果发件人存在覆盖并且发件人更改了他/她的显示名称，您可以使用 CreateOrUpdateOverride 来更改强制更新现有覆盖中的名称字段。 如果发件人存在覆盖并且发件人更改了他/她的 SMTP 地址， 删除现有覆盖并使用新的 SMTP 地址创建一个新覆盖是唯一的方法“更新”此发件人的覆盖。 权限： 调用此 API 需要以下权限之一。要了解更多信息，包括如何选择权限，请参阅权限。 委托（工作或学校帐户）Mail.ReadWrite 委托（个人 Microsoft 帐户） Mail.ReadWrite 应用程序 Mail.ReadWrite
 
 ```csharp
 public ClassificationOverride UpdateOverride(ClassificationOverride classificationOverride)

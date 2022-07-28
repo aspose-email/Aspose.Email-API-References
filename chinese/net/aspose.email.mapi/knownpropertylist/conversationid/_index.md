@@ -1,14 +1,14 @@
 ---
 title: ConversationId
 second_title: Aspose.Email for .NET API 参考
-description: 包含从其他对话相关属性派生的计算值 区域对话 规范名称PidTagConversationId 备用名称PR_CONVERSATION_ID
+description: 包含从其他对话相关属性派生的计算值 区域Conversations 规范名称PidTagConversationId 替代名称PR_CONVERSATION_ID
 type: docs
 weight: 3390
 url: /zh/net/aspose.email.mapi/knownpropertylist/conversationid/
 ---
 ## KnownPropertyList.ConversationId field
 
-包含从其他对话相关属性派生的计算值。 区域:对话 规范名称:PidTagConversationId 备用名称:PR_CONVERSATION_ID
+包含从其他对话相关属性派生的计算值。 区域：Conversations 规范名称：PidTagConversationId 替代名称：PR_CONVERSATION_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConversationId;

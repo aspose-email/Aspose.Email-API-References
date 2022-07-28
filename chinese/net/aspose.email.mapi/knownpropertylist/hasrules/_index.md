@@ -1,14 +1,14 @@
 ---
 title: HasRules
 second_title: Aspose.Email for .NET API 参考
-description: 表示Folder对象是否有规则 区域ExchangeFolder 规范名称PidTagHasRules 替代名称PR_HAS_RULES ptagHasRules
+description: 指示文件夹对象是否有规则 区域ExchangeFolder 规范名称PidTagHasRules 备用名称PR_HAS_RULESptagHasRules
 type: docs
 weight: 10890
 url: /zh/net/aspose.email.mapi/knownpropertylist/hasrules/
 ---
 ## KnownPropertyList.HasRules field
 
-表示Folder对象是否有规则。 区域:ExchangeFolder 规范名称:PidTagHasRules 替代名称:PR_HAS_RULES, ptagHasRules
+指示文件夹对象是否有规则。 区域：ExchangeFolder 规范名称：PidTagHasRules 备用名称：PR_HAS_RULES、ptagHasRules
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HasRules;

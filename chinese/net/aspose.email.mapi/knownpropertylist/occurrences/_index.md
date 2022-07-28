@@ -1,14 +1,14 @@
 ---
 title: Occurrences
 second_title: Aspose.Email for .NET API 参考
-description: 表示重复约会或会议中出现的次数 区域日历 规范名称PidLidOccurrences 别名
+description: 表示定期约会或会议中出现的次数 区域Calendar 规范名称PidLidOccurrences 备用名称
 type: docs
 weight: 13210
 url: /zh/net/aspose.email.mapi/knownpropertylist/occurrences/
 ---
 ## KnownPropertyList.Occurrences field
 
-表示重复约会或会议中出现的次数。 区域:日历 规范名称:PidLidOccurrences 别名:
+表示定期约会或会议中出现的次数。 区域：Calendar 规范名称：PidLidOccurrences 备用名称：
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Occurrences;

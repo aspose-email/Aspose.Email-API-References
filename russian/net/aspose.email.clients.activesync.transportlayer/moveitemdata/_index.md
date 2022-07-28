@@ -1,14 +1,14 @@
 ---
 title: MoveItemData
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию о перемещении предметов
+description: Содержит информацию о перемещении элементов
 type: docs
 weight: 1570
 url: /ru/net/aspose.email.clients.activesync.transportlayer/moveitemdata/
 ---
 ## MoveItemData class
 
-Содержит информацию о перемещении предметов
+Содержит информацию о перемещении элементов
 
 ```csharp
 public class MoveItemData
@@ -26,7 +26,7 @@ public class MoveItemData
 | Имя | Описание |
 | --- | --- |
 | [DstFldId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/dstfldid) { get; set; } | Указывает идентификатор сервера папки назначения (то есть папки, в которую перемещаются элементы). Значение свойства DstFldId может иметь длину до 64 символов. |
-| [SrcFldId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/srcfldid) { get; set; } | Указывает идентификатор сервера исходной папки (то есть папки, содержащей элементы, которые необходимо переместить). Значение элемента SrcFldId может иметь длину до 64 символов. |
+| [SrcFldId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/srcfldid) { get; set; } | Указывает идентификатор сервера исходной папки (то есть папки, содержащей элементы, которые нужно переместить). Значение элемента SrcFldId может иметь длину до 64 символов. |
 | [SrcMsgId](../../aspose.email.clients.activesync.transportlayer/moveitemdata/srcmsgid) { get; set; } | Указывает идентификатор сервера перемещенного элемента. Значение элемента SrcMsgId может иметь длину до 64 символов. |
 
 ### Смотрите также

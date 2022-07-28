@@ -1,14 +1,14 @@
 ---
 title: OutOfOfficeState
 second_title: Aspose.Email for .NET API 参考
-description: 表示用户是否为OOF 区域消息存储属性 规范名称PidTagOutOfOfficeState 替代名称PR_OOF_STATE ptagOOFState
+description: 指示用户是否为 OOF 区域消息存储属性 规范名称PidTagOutOfOfficeState 替代名称PR_OOF_STATEptagOOFState
 type: docs
 weight: 14040
 url: /zh/net/aspose.email.mapi/knownpropertylist/outofofficestate/
 ---
 ## KnownPropertyList.OutOfOfficeState field
 
-表示用户是否为OOF。 区域:消息存储属性 规范名称:PidTagOutOfOfficeState 替代名称:PR_OOF_STATE, ptagOOFState
+指示用户是否为 OOF。 区域：消息存储属性 规范名称：PidTagOutOfOfficeState 替代名称：PR_OOF_STATE、ptagOOFState
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OutOfOfficeState;

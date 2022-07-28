@@ -1,14 +1,14 @@
 ---
 title: CreateMapiPropertyFromLong
 second_title: Aspose.Email for .NET API 参考
-description: 从 long 创建 mapi 属性
+description: 从 long. 创建 mapi 属性
 type: docs
 weight: 40
 url: /zh/net/aspose.email.mapi/mapiproperty/createmapipropertyfromlong/
 ---
 ## CreateMapiPropertyFromLong(long, long) {#createmapipropertyfromlong}
 
-从 long 创建 mapi 属性。
+从 long. 创建 mapi 属性
 
 ```csharp
 public static MapiProperty CreateMapiPropertyFromLong(long tag, long data)
@@ -29,7 +29,7 @@ public static MapiProperty CreateMapiPropertyFromLong(long tag, long data)
 
 ## CreateMapiPropertyFromLong(long, long, long) {#createmapipropertyfromlong_1}
 
-从 long 创建 mapi 属性。
+从 long. 创建 mapi 属性
 
 ```csharp
 public static MapiProperty CreateMapiPropertyFromLong(long tag, long data, long delimiter)

@@ -18,7 +18,7 @@ public class AppointmentReminder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AppointmentReminder](appointmentreminder)() | 初始化[`AppointmentReminder`](../appointmentreminder)类的新实例。 |
+| [AppointmentReminder](appointmentreminder)() | 初始化一个新的实例[`AppointmentReminder`](../appointmentreminder)类. |
 
 ## 特性
 
@@ -26,11 +26,11 @@ public class AppointmentReminder
 | --- | --- |
 | static [Default15MinReminder](../../aspose.email.calendar/appointmentreminder/default15minreminder) { get; } | 获取默认的 15 分钟提醒。 |
 | [Action](../../aspose.email.calendar/appointmentreminder/action) { get; set; } | 定义触发警报时要调用的操作。 |
-| [Attachments](../../aspose.email.calendar/appointmentreminder/attachments) { get; } | 包含 ReminderAttachment[`ReminderAttachment`](../reminderattachment)对象的集合。 |
-| [Attendees](../../aspose.email.calendar/appointmentreminder/attendees) { get; } | 包含 ReminderAttendee[`ReminderAttendee`](../reminderattendee)对象的集合。 |
+| [Attachments](../../aspose.email.calendar/appointmentreminder/attachments) { get; } | 包含 ReminderAttachment 的集合[`ReminderAttachment`](../reminderattachment)对象. |
+| [Attendees](../../aspose.email.calendar/appointmentreminder/attendees) { get; } | 包含 ReminderAttendee 的集合[`ReminderAttendee`](../reminderattendee)对象. |
 | [Description](../../aspose.email.calendar/appointmentreminder/description) { get; set; } | 提供更完整的警报描述。 |
 | [Duration](../../aspose.email.calendar/appointmentreminder/duration) { get; set; } | 指定延迟时间，之后警报将重复。 |
-| [Repeat](../../aspose.email.calendar/appointmentreminder/repeat) { get; set; } | 定义在初始触发后应重复警报的次数。 |
+| [Repeat](../../aspose.email.calendar/appointmentreminder/repeat) { get; set; } | 定义应在初始触发后重复警报的次数。 |
 | [Summary](../../aspose.email.calendar/appointmentreminder/summary) { get; set; } | 定义警报的简短摘要或主题。 |
 | [Trigger](../../aspose.email.calendar/appointmentreminder/trigger) { get; set; } | 指定何时触发警报。 |
 

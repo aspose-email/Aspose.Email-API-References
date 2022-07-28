@@ -18,7 +18,7 @@ public FolderInfo(string serverId, string parentId, string displayName, FolderTy
 | --- | --- | --- |
 | serverId | String | Указывает идентификатор сервера папки на сервере |
 | parentId | String | Указывает идентификатор сервера родительской папки папки на сервере |
-| displayName | String | Указывает удобное для пользователя имя папки. |
+| displayName | String | Задает удобное для пользователя имя папки. |
 | type | FolderTypes | Указывает тип папки. |
 
 ### Смотрите также

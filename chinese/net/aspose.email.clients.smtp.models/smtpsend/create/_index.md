@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API 参考
-description: 创建SmtpSendaspose.email.clients.smtp.models/smtpsend
+description: 创建SmtpSendaspose.email.clients.smtp.models/smtpsend.
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.smtp.models/smtpsend/create/
 ---
 ## SmtpSend.Create method
 
-创建[`SmtpSend`](../../smtpsend)。
+创建[`SmtpSend`](../../smtpsend).
 
 ```csharp
 public static SmtpSend Create()

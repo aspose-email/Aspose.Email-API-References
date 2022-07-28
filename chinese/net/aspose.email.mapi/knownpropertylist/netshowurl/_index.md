@@ -1,14 +1,14 @@
 ---
 title: NetShowUrl
 second_title: Aspose.Email for .NET API 参考
-description: 指定用户加入会议时要启动的 URL 区域会议 规范名称PidLidNetShowUrl 替代名称dispidNetShowURL
+description: 指定用户加入会议时要启动的 URL 区域Conferencing 规范名称PidLidNetShowUrl 别名dispidNetShowURL
 type: docs
 weight: 12830
 url: /zh/net/aspose.email.mapi/knownpropertylist/netshowurl/
 ---
 ## KnownPropertyList.NetShowUrl field
 
-指定用户加入会议时要启动的 URL。 区域:会议 规范名称:PidLidNetShowUrl 替代名称:dispidNetShowURL
+指定用户加入会议时要启动的 URL。 区域：Conferencing 规范名称：PidLidNetShowUrl 别名：dispidNetShowURL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NetShowUrl;

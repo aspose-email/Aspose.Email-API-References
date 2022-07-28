@@ -1,14 +1,14 @@
 ---
 title: IsCompleted
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示 Message 对象是否被标记为已完成
+description: 获取一个值该值指示消息对象是否被标记为已完成
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mapi/followupoptions/iscompleted/
 ---
 ## FollowUpOptions.IsCompleted property
 
-获取一个值，该值指示 Message 对象是否被标记为已完成。
+获取一个值，该值指示消息对象是否被标记为已完成。
 
 ```csharp
 public bool IsCompleted { get; }

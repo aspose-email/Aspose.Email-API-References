@@ -1,14 +1,14 @@
 ---
 title: RuleTriggerHistory
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 替代名称PR_RULE_TRIGGER_HISTORY
+description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_RULE_TRIGGER_HISTORY
 type: docs
 weight: 16660
 url: /zh/net/aspose.email.mapi/knownpropertylist/ruletriggerhistory/
 ---
 ## KnownPropertyList.RuleTriggerHistory field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 替代名称:PR_RULE_TRIGGER_HISTORY
+Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_RULE_TRIGGER_HISTORY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleTriggerHistory;

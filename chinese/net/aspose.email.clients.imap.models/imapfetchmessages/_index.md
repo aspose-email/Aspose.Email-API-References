@@ -1,14 +1,14 @@
 ---
 title: ImapFetchMessages
 second_title: Aspose.Email for .NET API 参考
-description: FetchMessagesAsync../aspose.email.clients.imap/iasyncimapclient/fetchmessagesasync方法参数集
+description: FetchMessagesAsync../aspose.email.clients.imap/iasyncimapclient/fetchmessagesasync方法参数集.
 type: docs
 weight: 16570
 url: /zh/net/aspose.email.clients.imap.models/imapfetchmessages/
 ---
 ## ImapFetchMessages class
 
-[`FetchMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/fetchmessagesasync)方法参数集。
+[`FetchMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/fetchmessagesasync)方法参数集.
 
 ```csharp
 public class ImapFetchMessages : ImapMethodParametersGeneral<ImapFetchMessages>
@@ -18,10 +18,10 @@ public class ImapFetchMessages : ImapMethodParametersGeneral<ImapFetchMessages>
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapfetchmessages/create)() | 创建新的[`ImapFetchMessages`](../imapfetchmessages)实例。 |
+| static [Create](../../aspose.email.clients.imap.models/imapfetchmessages/create)() | 新建[`ImapFetchMessages`](../imapfetchmessages)实例. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
-| [SetMessage](../../aspose.email.clients.imap.models/imapfetchmessages/setmessage#setmessage)(int) | 设置消息序号。 |
+| [SetMessage](../../aspose.email.clients.imap.models/imapfetchmessages/setmessage#setmessage)(int) | 设置消息序号 |
 | [SetMessage](../../aspose.email.clients.imap.models/imapfetchmessages/setmessage#setmessage_1)(string) | 设置消息唯一标识符。 |
 | [SetMessages](../../aspose.email.clients.imap.models/imapfetchmessages/setmessages#setmessages)(IEnumerable&lt;ImapMessageInfo&gt;) | 设置消息唯一标识符。 |
 | [SetMessages](../../aspose.email.clients.imap.models/imapfetchmessages/setmessages#setmessages_1)(IEnumerable&lt;int&gt;) | 设置消息序号。 |

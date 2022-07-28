@@ -1,14 +1,14 @@
 ---
 title: EmsAbVoiceMailGreetings
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_VOICE_MAIL_GREETINGS
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 备用名称PR_EMS_AB_VOICE_MAIL_GREETINGS
 type: docs
 weight: 9480
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsabvoicemailgreetings/
 ---
 ## KnownPropertyList.EmsAbVoiceMailGreetings field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_VOICE_MAIL_GREETINGS
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 备用名称：PR_EMS_AB_VOICE_MAIL_GREETINGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbVoiceMailGreetings;

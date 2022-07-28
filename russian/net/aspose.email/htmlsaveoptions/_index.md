@@ -27,16 +27,16 @@ public class HtmlSaveOptions : HeadersFormattingOptions
 | [AfterHeadersFormat](../../aspose.email/headersformattingoptions/afterheadersformat) { get; set; } | После формата заголовков. |
 | [BeforeHeadersFormat](../../aspose.email/headersformattingoptions/beforeheadersformat) { get; set; } | Перед форматом заголовков. |
 | [CheckBodyContentEncoding](../../aspose.email/htmlsaveoptions/checkbodycontentencoding) { get; set; } | Определяет, нужно ли проверять кодировку содержимого тела сообщения при сохранении. |
-| [CssStyles](../../aspose.email/headersformattingoptions/cssstyles) { get; set; } | Получает или задает дополнительные стили css для средства форматирования. |
+| [CssStyles](../../aspose.email/headersformattingoptions/cssstyles) { get; set; } | Получает или задает дополнительные стили CSS для средства форматирования. |
 | [CustomProgressHandler](../../aspose.email/saveoptions/customprogresshandler) { get; set; } | Представляет метод, который обычно предоставляется вызывающей стороной и обрабатывает события выполнения. |
 | [DefaultHeaderFormat](../../aspose.email/headersformattingoptions/defaultheaderformat) { get; set; } | Формат строки заголовка по умолчанию. |
 | [DefaultPageHeaderFormat](../../aspose.email/headersformattingoptions/defaultpageheaderformat) { get; set; } | Формат заголовка страницы по умолчанию. |
 | [FormatTemplates](../../aspose.email/headersformattingoptions/formattemplates) { get; } | Получает шаблоны формата. |
 | [HtmlFormatOptions](../../aspose.email/htmlsaveoptions/htmlformatoptions) { get; set; } | Получает или задает дополнительные параметры при сохранении в формате HTML. Значение по умолчанию — HtmlFormatOptions.None. |
 | [MailMessageSaveType](../../aspose.email/saveoptions/mailmessagesavetype) { get; set; } | Представляет тип сохранения почтового сообщения. Он может быть в формате eml, msg (ASCII или Unicode), mhtml или html. Значение по умолчанию — Eml. |
-| [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields) { get; set; } | Определяет группы контактных полей, которые будут включены в вывод mhtml. Значение по умолчанию — ContactFieldsSet.AllExisting. |
+| [RenderedContactFields](../../aspose.email/headersformattingoptions/renderedcontactfields) { get; set; } | Определяет группы полей контактов, которые будут включены в вывод mhtml. Значение по умолчанию — ContactFieldsSet.AllExisting. |
 | [RenderingHeaders](../../aspose.email/headersformattingoptions/renderingheaders) { get; } | Получает список заголовков для рендеринга. |
-| [ResourceRenderingMode](../../aspose.email/htmlsaveoptions/resourcerenderingmode) { get; set; } | Обеспечивает установку различных режимов рендеринга ресурсов в html. Значение по умолчанию EmbedIntoHtml. |
+| [ResourceRenderingMode](../../aspose.email/htmlsaveoptions/resourcerenderingmode) { get; set; } | Обеспечивает установку различных режимов отображения ресурсов в html. Значение по умолчанию EmbedIntoHtml. |
 | [SaveResourceHandler](../../aspose.email/htmlsaveoptions/saveresourcehandler) { get; set; } | Этот обработчик вызывается для сохранения всех вложений сообщений, если EmbedResources имеет значение false. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: RecurrenceRuleCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор объектовRecurrenceRule./recurrencerule.
+description: Представляет наборRecurrenceRule./recurrencerule объекты.
 type: docs
 weight: 780
 url: /ru/net/aspose.email.calendar.recurrences/recurrencerulecollection/
 ---
 ## RecurrenceRuleCollection class
 
-Представляет набор объектов[`RecurrenceRule`](../recurrencerule).
+Представляет набор[`RecurrenceRule`](../recurrencerule) объекты.
 
 ```csharp
 public class RecurrenceRuleCollection : Collection<RecurrenceRule>
@@ -18,8 +18,8 @@ public class RecurrenceRuleCollection : Collection<RecurrenceRule>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add)() | Добавляет[`RecurrenceRule`](../recurrencerule)в коллекцию. |
-| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add_1)(RecurrenceRule) | Добавляет[`RecurrenceRule`](../recurrencerule)в коллекцию. |
+| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add)() | Добавляет[`RecurrenceRule`](../recurrencerule) в коллекцию. |
+| [Add](../../aspose.email.calendar.recurrences/recurrencerulecollection/add#add_1)(RecurrenceRule) | Добавляет[`RecurrenceRule`](../recurrencerule) в коллекцию. |
 
 ### Примечания
 

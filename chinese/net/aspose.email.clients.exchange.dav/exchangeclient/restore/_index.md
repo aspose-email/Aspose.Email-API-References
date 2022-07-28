@@ -51,8 +51,8 @@ public void Restore(Stream stream, RestoreOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotSupportedException | *stream*不支持读取。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream*is` null` 。 |
+| NotSupportedException | 这*stream*不支持阅读。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream*是`无效的`. |
 
 ### 也可以看看
 
@@ -80,7 +80,7 @@ public void Restore(PersonalStorage pst, RestoreOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*is` null` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*是`无效的`. |
 
 ### 也可以看看
 
@@ -94,7 +94,7 @@ public void Restore(PersonalStorage pst, RestoreOptions options)
 
 ## Restore(string, ExchangeFolderInfoCollection, RestoreOptions) {#restore_4}
 
-从指定的个人存储文件中恢复指定的交换文件夹。
+从指定的个人存储文件恢复指定的交换文件夹。
 
 ```csharp
 public void Restore(string fileName, ExchangeFolderInfoCollection folders, RestoreOptions options)
@@ -111,7 +111,7 @@ public void Restore(string fileName, ExchangeFolderInfoCollection folders, Resto
 | 例外 | （健康）状况 |
 | --- | --- |
 | [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *fileName*未指定。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*is` null` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*是`无效的`. |
 
 ### 也可以看看
 
@@ -141,8 +141,8 @@ public void Restore(Stream stream, ExchangeFolderInfoCollection folders, Restore
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotSupportedException | *stream*不支持读取。 |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream*或*folders*是` 空` 。 |
+| NotSupportedException | 这*stream*不支持阅读。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream*或者*folders*是`无效的`. |
 
 ### 也可以看看
 
@@ -173,7 +173,7 @@ public void Restore(PersonalStorage pst, ExchangeFolderInfoCollection folders,
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*或*folders*是` 空` 。 |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*或者*folders*是`无效的`. |
 
 ### 也可以看看
 

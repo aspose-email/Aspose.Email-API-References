@@ -1,14 +1,14 @@
 ---
 title: Charset
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置字符集 表示 出现在搜索条件中的字符串的字符集
+description: 获取或设置字符集 指示 出现在搜索条件中的字符串的字符集
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.imap/basesearchconditions/charset/
 ---
 ## BaseSearchConditions.Charset property
 
-获取或设置字符集。 表示 出现在搜索条件中的字符串的字符集。
+获取或设置字符集。 指示 出现在搜索条件中的字符串的字符集。
 
 ```csharp
 public string Charset { get; set; }

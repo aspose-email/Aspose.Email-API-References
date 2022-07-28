@@ -1,14 +1,14 @@
 ---
 title: ToAmpHtml
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет версию атрибутов amp html.
+description: Представляет версию атрибутов в формате amp html.
 type: docs
 weight: 120
 url: /ru/net/aspose.email.amp/ampattributes/toamphtml/
 ---
 ## AmpAttributes.ToAmpHtml method
 
-Представляет версию атрибутов amp html.
+Представляет версию атрибутов в формате amp html.
 
 ```csharp
 public virtual string ToAmpHtml()

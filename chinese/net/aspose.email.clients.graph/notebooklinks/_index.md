@@ -24,8 +24,8 @@ public class NotebookLinks
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OneNoteClientUrl](../../aspose.email.clients.graph/notebooklinks/onenoteclienturl) { get; set; } | 以只读方式打开笔记本 OneNote 只读本机客户端（如果已安装）。 |
-| [OneNoteWebUrl](../../aspose.email.clients.graph/notebooklinks/onenoteweburl) { get; set; } | 在 Web 上的只读 OneNote 中打开笔记本。 |
+| [OneNoteClientUrl](../../aspose.email.clients.graph/notebooklinks/onenoteclienturl) { get; set; } | 如果已安装 OneNote 只读本机客户端，则以只读方式打开笔记本。 |
+| [OneNoteWebUrl](../../aspose.email.clients.graph/notebooklinks/onenoteweburl) { get; set; } | 以只读方式打开笔记本 OneNote 网页版。 |
 
 ### 也可以看看
 

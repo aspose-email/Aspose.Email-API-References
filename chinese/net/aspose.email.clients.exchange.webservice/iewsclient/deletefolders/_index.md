@@ -16,13 +16,13 @@ public void DeleteFolders(ExchangeFolderInfoCollection folders)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | A[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)包含有关要删除的文件夹的信息 |
+| folders | ExchangeFolderInfoCollection | 一个[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)包含有关要删除的文件夹的信息 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*是` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*是`无效的` |
 
 ### 也可以看看
 
@@ -43,13 +43,13 @@ public void DeleteFolders(StringCollection folderUris)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folderUris | StringCollection | 文件夹uris |
+| folderUris | StringCollection | 文件夹 uri |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris*是`无效的` |
 
 ### 也可以看看
 
@@ -69,14 +69,14 @@ public void DeleteFolders(ExchangeFolderInfoCollection folders, bool deletePerma
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | A[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)包含有关要删除的文件夹的信息 |
-| deletePermanently | Boolean | 指示该文件夹是应该被永久删除还是应该被移动进入 DeletedItems 文件夹 |
+| folders | ExchangeFolderInfoCollection | 一个[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)包含有关要删除的文件夹的信息 |
+| deletePermanently | Boolean | 指示该文件夹是应永久删除还是应移至 DeletedItems 文件夹 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*是`无效的` |
 
 ### 也可以看看
 
@@ -98,13 +98,13 @@ public void DeleteFolders(StringCollection folderUris, bool deletePermanently)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | folderUris | StringCollection | 文件夹 Uri |
-| deletePermanently | Boolean | 指示该文件夹是应该永久删除还是应该移动到 DeletedItems 文件夹 |
+| deletePermanently | Boolean | 指示该文件夹是应永久删除还是应移至 DeletedItems 文件夹 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folderUris*是`无效的` |
 
 ### 也可以看看
 

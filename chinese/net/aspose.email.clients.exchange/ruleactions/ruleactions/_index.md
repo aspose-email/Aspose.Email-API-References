@@ -1,14 +1,14 @@
 ---
 title: RuleActions
 second_title: Aspose.Email for .NET API 参考
-description: 初始化一个新的实例 RuleActionsaspose.email.clients.exchange/ruleactions 班级
+description: 初始化RuleActionsaspose.email.clients.exchange/ruleactions class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.clients.exchange/ruleactions/ruleactions/
 ---
 ## RuleActions constructor
 
-初始化一个新的实例 [`RuleActions`](../../ruleactions) 班级
+初始化[`RuleActions`](../../ruleactions) class
 
 ```csharp
 public RuleActions()

@@ -21,7 +21,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 | quotaRootName | String | 配额根名称 |
 | resourceName | Int32 | 资源名称 |
 | resourceLimit | IConnection | 资源限制 |
-| token | CancellationToken | 传播应该取消操作的通知。 |
+| token | CancellationToken | 传播应取消操作的通知。 |
 
 ### 返回值
 

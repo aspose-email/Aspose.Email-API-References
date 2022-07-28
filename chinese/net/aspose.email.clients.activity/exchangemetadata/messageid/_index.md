@@ -1,14 +1,14 @@
 ---
 title: MessageID
 second_title: Aspose.Email for .NET API 参考
-description: 触发事件的电子邮件的消息 ID 强制是
+description: 触发事件的电子邮件的消息 ID 必填是
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activity/exchangemetadata/messageid/
 ---
 ## ExchangeMetadata.MessageID property
 
-触发事件的电子邮件的消息 ID。 强制:是
+触发事件的电子邮件的消息 ID。 必填：是
 
 ```csharp
 public string MessageID { get; set; }

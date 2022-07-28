@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.activity/record/usertype/
 ---
 ## Record.UserType property
 
-获取或设置执行操作的用户类型。 强制:是
+获取或设置执行操作的用户类型。 强制：是
 
 ```csharp
 public UserType UserType { get; set; }

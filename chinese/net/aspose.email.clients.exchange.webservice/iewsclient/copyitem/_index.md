@@ -27,8 +27,8 @@ public string CopyItem(string itemUri, string destinationFolderUri)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemUri*是` null` 或` 空` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderUri*is` null` 或` 空` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemUri*是`无效的`或者`空的` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderUri*是`无效的`或者`空的` |
 
 ### 也可以看看
 

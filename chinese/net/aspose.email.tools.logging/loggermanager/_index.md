@@ -3,7 +3,7 @@ title: LoggerManager
 second_title: Aspose.Email for .NET API 参考
 description: 控制记录器创建的静态管理器
 type: docs
-weight: 20500
+weight: 20550
 url: /zh/net/aspose.email.tools.logging/loggermanager/
 ---
 ## LoggerManager class
@@ -20,10 +20,10 @@ public static class LoggerManager
 | --- | --- |
 | static [AddLogger](../../aspose.email.tools.logging/loggermanager/addlogger)(string, Logger) | 将一个记录器添加到具有指定名称的 LoggerManager。 |
 | static [ContainsLogger](../../aspose.email.tools.logging/loggermanager/containslogger)(string) | 确定记录器缓存是否包含具有指定记录器名称的对象。 |
-| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger)(string, Appender) | 创建具有指定名称和附加程序的记录器。 |
-| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger_1)(string, params Appender[]) | 创建具有指定名称和附加程序的记录器。 |
-| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger_2)(string, LogLevel, Appender) | 创建具有指定名称和附加程序的记录器。 |
-| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger_3)(string, LogLevel, params Appender[]) | 创建具有指定名称和附加程序的记录器。 |
+| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger)(string, Appender) | 创建一个具有指定名称和附加程序的记录器。 |
+| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger_1)(string, params Appender[]) | 创建一个具有指定名称和附加程序的记录器。 |
+| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger_2)(string, LogLevel, Appender) | 创建一个具有指定名称和附加程序的记录器。 |
+| static [CreateLogger](../../aspose.email.tools.logging/loggermanager/createlogger#createlogger_3)(string, LogLevel, params Appender[]) | 创建一个具有指定名称和附加程序的记录器。 |
 | static [GetLogger](../../aspose.email.tools.logging/loggermanager/getlogger)(string) | 获取指定名称的记录器。 |
 | static [RemoveLogger](../../aspose.email.tools.logging/loggermanager/removelogger)(string) | 删除具有指定名称的记录器。 |
 

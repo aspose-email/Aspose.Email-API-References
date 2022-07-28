@@ -1,14 +1,14 @@
 ---
 title: AutoLog
 second_title: Aspose.Email for .NET API 参考
-description: 向应用程序指定是否为与此联系人对象关联的每个操作创建日志对象 区域联系人属性 规范名称PidLidAutoLog 替代名称dispidAutoLog
+description: 向应用程序指定是否为与此联系人对象关联的每个操作创建一个日志对象 区域联系人属性 规范名称PidLidAutoLog 替代名称dispidAutoLog
 type: docs
 weight: 1920
 url: /zh/net/aspose.email.mapi/knownpropertylist/autolog/
 ---
 ## KnownPropertyList.AutoLog field
 
-向应用程序指定是否为与此联系人对象关联的每个操作创建日志对象。 区域:联系人属性 规范名称:PidLidAutoLog 替代名称:dispidAutoLog
+向应用程序指定是否为与此联系人对象关联的每个操作创建一个日志对象。 区域：联系人属性 规范名称：PidLidAutoLog 替代名称：dispidAutoLog
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AutoLog;

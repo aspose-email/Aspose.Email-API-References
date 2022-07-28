@@ -1,14 +1,14 @@
 ---
 title: Tnef
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Tnef 格式的消息
+description: 表示消息在 Tnef格式.
 type: docs
 weight: 60
 url: /zh/net/aspose.email/messageformat/tnef/
 ---
 ## MessageFormat.Tnef property
 
-表示 **Tnef** 格式的消息。
+表示消息在 **Tnef**格式.
 
 ```csharp
 public static MessageFormat Tnef { get; }

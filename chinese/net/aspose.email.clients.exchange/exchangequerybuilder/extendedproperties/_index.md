@@ -1,14 +1,14 @@
 ---
 title: ExtendedProperties
 second_title: Aspose.Email for .NET API 参考
-description: 获取带有属性描述符对和比较字段的字典以通过扩展属性进行搜索
+description: 获取带有属性描述符对和比较字段的字典以按扩展属性进行搜索
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.exchange/exchangequerybuilder/extendedproperties/
 ---
 ## ExchangeQueryBuilder.ExtendedProperties property
 
-获取带有属性描述符对和比较字段的字典，以通过扩展属性进行搜索。
+获取带有属性描述符对和比较字段的字典，以按扩展属性进行搜索。
 
 ```csharp
 public ExtendedPropertiesComparisonField ExtendedProperties { get; }

@@ -1,14 +1,14 @@
 ---
 title: WithinDateRange
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置为了应用条件或异常而必须接收传入消息的日期范围
+description: 获取或设置必须接收传入消息才能应用条件或异常的日期范围
 type: docs
 weight: 180
 url: /zh/net/aspose.email.clients.exchange/rulepredicates/withindaterange/
 ---
 ## RulePredicates.WithinDateRange property
 
-获取或设置为了应用条件或异常而必须接收传入消息的日期范围。
+获取或设置必须接收传入消息才能应用条件或异常的日期范围。
 
 ```csharp
 public DateRange WithinDateRange { get; set; }

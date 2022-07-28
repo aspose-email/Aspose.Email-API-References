@@ -16,11 +16,11 @@ public MailAddressCollection FetchDistributionList(ExchangeDistributionList dist
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| distributionList | ExchangeDistributionList | A[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)包含有关分发列表的信息获取。 |
+| distributionList | ExchangeDistributionList | 一个[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)包含有关要获取的分发列表的信息。 |
 
 ### 返回值
 
-A[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)包含来自指定私有分发列表的成员。
+一个[`MailAddressCollection`](../../../aspose.email/mailaddresscollection)包含来自指定私有分发列表的成员。
 
 ### 也可以看看
 

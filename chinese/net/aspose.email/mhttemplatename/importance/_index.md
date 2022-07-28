@@ -1,14 +1,14 @@
 ---
 title: Importance
 second_title: Aspose.Email for .NET API 参考
-description: 重要性标头
+description: 重要性标头.
 type: docs
 weight: 80
 url: /zh/net/aspose.email/mhttemplatename/importance/
 ---
 ## MhtTemplateName.Importance field
 
-重要性标头。
+重要性标头.
 
 ```csharp
 public const string Importance;

@@ -1,14 +1,14 @@
 ---
 title: IsMessage
 second_title: Aspose.Email for .NET API 参考
-description: 返回真如果条目指的是消息
+description: 返回真如果条目引用消息
 type: docs
 weight: 50
 url: /zh/net/aspose.email.storage.pst/itemmovedeventargs/ismessage/
 ---
 ## ItemMovedEventArgs.IsMessage property
 
-返回真，如果条目指的是消息
+返回真，如果条目引用消息
 
 ```csharp
 public bool IsMessage { get; }

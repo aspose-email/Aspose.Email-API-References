@@ -1,14 +1,14 @@
 ---
 title: AttachMimeTag
 second_title: Aspose.Email for .NET API 参考
-description: 包含内容类型 MIME 标头 区域消息附件属性 规范名称PidTagAttachMimeTag 替代名称PR_ATTACH_MIME_TAG PR_ATTACH_MIME_TAG_A PR_ATTACH_MIME_TAG_W
+description: 包含内容类型 MIME 标头 区域邮件附件属性 规范名称PidTagAttachMimeTag 备用名称PR_ATTACH_MIME_TAGPR_ATTACH_MIME_TAG_APR_ATTACH_MIME_TAG_W
 type: docs
 weight: 1710
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachmimetag/
 ---
 ## KnownPropertyList.AttachMimeTag field
 
-包含内容类型 MIME 标头。 区域:消息附件属性 规范名称:PidTagAttachMimeTag 替代名称:PR_ATTACH_MIME_TAG, PR_ATTACH_MIME_TAG_A, PR_ATTACH_MIME_TAG_W
+包含内容类型 MIME 标头。 区域：邮件附件属性 规范名称：PidTagAttachMimeTag 备用名称：PR_ATTACH_MIME_TAG、PR_ATTACH_MIME_TAG_A、PR_ATTACH_MIME_TAG_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachMimeTag;

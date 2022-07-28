@@ -1,14 +1,14 @@
 ---
 title: Domain
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置此服务绑定的域设置此属性时域 名称用于自动确定自动发现服务 URL
+description: 获取或设置此服务绑定的域设置此属性时domain 名称用于自动确定自动发现服务 URL
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.exchange/autodiscoverservice/domain/
 ---
 ## AutodiscoverService.Domain property
 
-获取或设置此服务绑定的域。设置此属性时，域 名称用于自动确定自动发现服务 URL。
+获取或设置此服务绑定的域。设置此属性时，domain 名称用于自动确定自动发现服务 URL。
 
 ```csharp
 public string Domain { get; set; }

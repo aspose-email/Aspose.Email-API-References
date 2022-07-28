@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Email for .NET API 参考
-description: 表示 Outlook 消息格式
+description: 代表 Outlook 消息格式
 type: docs
 weight: 60
 url: /zh/net/aspose.email.mapi/mapiconversionoptions/format/
 ---
 ## MapiConversionOptions.Format property
 
-表示 Outlook 消息格式。
+代表 Outlook 消息格式。
 
 ```csharp
 public OutlookMessageFormat Format { get; set; }

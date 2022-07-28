@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/classificationguid/
 ---
 ## KnownPropertyList.ClassificationGuid field
 
-包含标识消息对象使用的电子邮件分类类别列表的 GUID。 区域:常规消息属性 规范名称:PidLidClassificationGuid 替代名称:dispidClassGuid
+包含标识消息对象使用的电子邮件分类类别列表的 GUID。 区域：常规消息属性 规范名称：PidLidClassificationGuid 替代名称：dispidClassGuid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClassificationGuid;

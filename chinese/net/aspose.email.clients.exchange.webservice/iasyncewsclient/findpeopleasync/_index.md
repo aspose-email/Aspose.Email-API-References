@@ -20,7 +20,7 @@ public Task<IEnumerable<Contact>> FindPeopleAsync(EwsFindPeople parameters)
 
 ### 返回值
 
-[`Contact`](../../../aspose.email.personalinfo/contact)表示联系信息的数组
+一个数组[`Contact`](../../../aspose.email.personalinfo/contact)代表联系信息
 
 ### 也可以看看
 

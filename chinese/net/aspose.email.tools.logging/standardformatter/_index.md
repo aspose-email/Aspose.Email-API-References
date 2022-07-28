@@ -3,7 +3,7 @@ title: StandardFormatter
 second_title: Aspose.Email for .NET API 参考
 description: 表示用于格式化日志条目消息的类
 type: docs
-weight: 20540
+weight: 20590
 url: /zh/net/aspose.email.tools.logging/standardformatter/
 ---
 ## StandardFormatter class
@@ -18,9 +18,9 @@ public class StandardFormatter : Formatter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StandardFormatter](standardformatter#constructor)() | 初始化[`StandardFormatter`](../standardformatter)类的新实例。 |
-| [StandardFormatter](standardformatter#constructor_1)(string) | 初始化[`StandardFormatter`](../standardformatter)类的新实例。 |
-| [StandardFormatter](standardformatter#constructor_2)(StringBuilder) | 初始化[`StandardFormatter`](../standardformatter)类的新实例。 |
+| [StandardFormatter](standardformatter#constructor)() | 初始化[`StandardFormatter`](../standardformatter)类. |
+| [StandardFormatter](standardformatter#constructor_1)(string) | 初始化[`StandardFormatter`](../standardformatter)类. |
+| [StandardFormatter](standardformatter#constructor_2)(StringBuilder) | 初始化[`StandardFormatter`](../standardformatter)类. |
 
 ## 特性
 

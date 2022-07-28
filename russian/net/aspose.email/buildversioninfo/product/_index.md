@@ -1,14 +1,14 @@
 ---
 title: Product
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает имя продукта.
+description: Получает название продукта.
 type: docs
 weight: 30
 url: /ru/net/aspose.email/buildversioninfo/product/
 ---
 ## BuildVersionInfo.Product field
 
-Получает имя продукта.
+Получает название продукта.
 
 ```csharp
 public static readonly string Product;

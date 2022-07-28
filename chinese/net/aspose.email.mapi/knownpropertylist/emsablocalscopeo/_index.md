@@ -1,14 +1,14 @@
 ---
 title: EmsAbLocalScopeO
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_EMS_AB_LOCAL_SCOPE_O
+description: Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_EMS_AB_LOCAL_SCOPE_O
 type: docs
 weight: 7090
 url: /zh/net/aspose.email.mapi/knownpropertylist/emsablocalscopeo/
 ---
 ## KnownPropertyList.EmsAbLocalScopeO field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_EMS_AB_LOCAL_SCOPE_O
+Microsoft. Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_EMS_AB_LOCAL_SCOPE_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbLocalScopeO;

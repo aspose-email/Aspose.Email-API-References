@@ -18,7 +18,7 @@ public class ReminderDuration
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ReminderDuration](reminderduration)(TimeSpan) | 初始化[`ReminderDuration`](../reminderduration)类的新实例。 |
+| [ReminderDuration](reminderduration)(TimeSpan) | 初始化一个新的实例[`ReminderDuration`](../reminderduration)类. |
 
 ## 特性
 

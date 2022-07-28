@@ -1,14 +1,14 @@
 ---
 title: AsposeArgumentOutOfRangeException
 second_title: Справочник по Aspose.Email для .NET API
-description: Исключение возникающее когда один из аргументов предоставленных методу выходит за допустимые пределы.
+description: Исключение которое возникает когда один из аргументов предоставленных методу выходит за допустимые пределы.
 type: docs
 weight: 280
 url: /ru/net/aspose.email/asposeargumentoutofrangeexception/
 ---
 ## AsposeArgumentOutOfRangeException class
 
-Исключение, возникающее, когда один из аргументов, предоставленных методу, выходит за допустимые пределы.
+Исключение, которое возникает, когда один из аргументов, предоставленных методу, выходит за допустимые пределы.
 
 ```csharp
 public class AsposeArgumentOutOfRangeException : AsposeException
@@ -18,12 +18,12 @@ public class AsposeArgumentOutOfRangeException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor)() | Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception). |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_1)(Exception) | Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) со ссылкой на внутренний исключение, которое является причиной этого исключения. |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_2)(string) | Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)с указанным сообщением об ошибке. |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_4)(string, Exception) | Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor)() | Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) класс. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_1)(Exception) | Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) класс со ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_2)(string) | Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_4)(string, Exception) | Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
 | [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_3)(string, int) |  |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_5)(string, params object[]) | Инициализирует новый экземпляр класса[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception)с указанным сообщением об ошибке. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_5)(string, params object[]) | Инициализирует новый экземпляр[`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) класс с указанным сообщением об ошибке. |
 | [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_6)(string, string) |  |
 
 ## Характеристики

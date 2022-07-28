@@ -1,14 +1,14 @@
 ---
 title: IpmPublicFoldersEntryid
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_IPM_PUBLIC_FOLDERS_ENTRYID
+description: Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_IPM_PUBLIC_FOLDERS_ENTRYID
 type: docs
 weight: 11710
 url: /zh/net/aspose.email.mapi/knownpropertylist/ipmpublicfoldersentryid/
 ---
 ## KnownPropertyList.IpmPublicFoldersEntryid field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_IPM_PUBLIC_FOLDERS_ENTRYID
+Microsoft Exchange 定义了由 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_IPM_PUBLIC_FOLDERS_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmPublicFoldersEntryid;

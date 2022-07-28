@@ -1,14 +1,14 @@
 ---
 title: MboxrdStorageWriter
 second_title: Aspose.Email for .NET API 参考
-description: 初始化MboxrdStorageWriteraspose.email.storage.mbox/mboxrdstoragewriter类的新实例
+description: 初始化MboxrdStorageWriteraspose.email.storage.mbox/mboxrdstoragewriter班级
 type: docs
 weight: 10
 url: /zh/net/aspose.email.storage.mbox/mboxrdstoragewriter/mboxrdstoragewriter/
 ---
 ## MboxrdStorageWriter(Stream, bool) {#constructor}
 
-初始化[`MboxrdStorageWriter`](../../mboxrdstoragewriter)类的新实例。
+初始化[`MboxrdStorageWriter`](../../mboxrdstoragewriter)班级。
 
 ```csharp
 public MboxrdStorageWriter(Stream stream, bool leaveOpen)
@@ -17,13 +17,13 @@ public MboxrdStorageWriter(Stream stream, bool leaveOpen)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 流。 |
-| leaveOpen | Boolean | 如果设置为` true` 在处理后保持底层流打开。 |
+| leaveOpen | Boolean | 如果设置为`真的`处置后保持底层流打开。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果给定流为空。 |
+| ArgumentNullException | 如果给定的流为空。 |
 
 ### 也可以看看
 
@@ -35,7 +35,7 @@ public MboxrdStorageWriter(Stream stream, bool leaveOpen)
 
 ## MboxrdStorageWriter(string, bool) {#constructor_1}
 
-初始化[`MboxrdStorageWriter`](../../mboxrdstoragewriter)类的新实例。
+初始化[`MboxrdStorageWriter`](../../mboxrdstoragewriter)类.
 
 ```csharp
 public MboxrdStorageWriter(string fileName, bool leaveOpen)
@@ -43,8 +43,8 @@ public MboxrdStorageWriter(string fileName, bool leaveOpen)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文件名。 |
-| leaveOpen | Boolean | 如果设置为` true` 在处理后保持底层流打开。 |
+| fileName | String | 文件的名称。 |
+| leaveOpen | Boolean | 如果设置为`真的`处置后使基础流保持打开状态。 |
 
 ### 例外
 

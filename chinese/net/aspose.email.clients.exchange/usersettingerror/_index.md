@@ -19,7 +19,7 @@ public sealed class UserSettingError
 | 姓名 | 描述 |
 | --- | --- |
 | [ErrorCode](../../aspose.email.clients.exchange/usersettingerror/errorcode) { get; } | 获取错误代码。 |
-| [ErrorMessage](../../aspose.email.clients.exchange/usersettingerror/errormessage) { get; } | 获取错误消息。 |
+| [ErrorMessage](../../aspose.email.clients.exchange/usersettingerror/errormessage) { get; } | 获取错误信息。 |
 | [SettingName](../../aspose.email.clients.exchange/usersettingerror/settingname) { get; } | 获取设置的名称。 |
 
 ### 也可以看看

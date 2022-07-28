@@ -1,14 +1,14 @@
 ---
 title: CreateFolderAsync
 second_title: Aspose.Email for .NET API 参考
-description: 创建具有指定名称的文件夹
+description: 创建一个具有指定名称的文件夹
 type: docs
 weight: 100
 url: /zh/net/aspose.email.clients.imap/iasyncimapclient/createfolderasync/
 ---
 ## IAsyncImapClient.CreateFolderAsync method
 
-创建具有指定名称的文件夹。
+创建一个具有指定名称的文件夹。
 
 ```csharp
 public Task CreateFolderAsync(string folderName, IConnection connection = null, 

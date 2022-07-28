@@ -1,14 +1,14 @@
 ---
 title: CalendarGeoLongitude
 second_title: Aspose.Email for .NET API 参考
-description: 指定约会地点的地理经度 区域通用 规范名称PidNameCalendarGeoLongitude 替代名称urnschemascalendargeolongitude
+description: 指定约会地点的地理经度 区域Common 规范名称PidNameCalendarGeoLongitude 备用名称urnschemascalendargeolongitude
 type: docs
 weight: 2280
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendargeolongitude/
 ---
 ## KnownPropertyList.CalendarGeoLongitude field
 
-指定约会地点的地理经度。 区域:通用 规范名称:PidNameCalendarGeoLongitude 替代名称:urn:schemas:calendar:geolongitude
+指定约会地点的地理经度。 区域：Common 规范名称：PidNameCalendarGeoLongitude 备用名称：urn:schemas:calendar:geolongitude
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarGeoLongitude;

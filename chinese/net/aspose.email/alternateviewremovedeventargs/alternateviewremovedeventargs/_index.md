@@ -1,14 +1,14 @@
 ---
 title: AlternateViewRemovedEventArgs
 second_title: Aspose.Email for .NET API 参考
-description: 初始化AlternateViewRemovedEventArgsaspose.email/alternateviewremovedeventargs类的新实例
+description: 初始化AlternateViewRemovedEventArgsaspose.email/alternateviewremovedeventargs类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/alternateviewremovedeventargs/alternateviewremovedeventargs/
 ---
 ## AlternateViewRemovedEventArgs constructor
 
-初始化[`AlternateViewRemovedEventArgs`](../../alternateviewremovedeventargs)类的新实例。
+初始化[`AlternateViewRemovedEventArgs`](../../alternateviewremovedeventargs)类.
 
 ```csharp
 public AlternateViewRemovedEventArgs(AlternateView av)

@@ -1,14 +1,14 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API 参考
-description: 表示 MoveItems 命令请求成功或失败
+description: 表示MoveItems命令请求成功或失败
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients.activesync.transportlayer/moveitemresponse/status/
 ---
 ## MoveItemResponse.Status property
 
-表示 MoveItems 命令请求成功或失败。
+表示MoveItems命令请求成功或失败。
 
 ```csharp
 public Status Status { get; set; }

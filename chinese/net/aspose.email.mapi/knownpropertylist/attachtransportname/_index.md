@@ -1,14 +1,14 @@
 ---
 title: AttachTransportName
 second_title: Aspose.Email for .NET API 参考
-description: 包含附件文件的名称经过修改后可以与 TNEF 消息相关联 区域消息附件属性 规范名称PidTagAttachTransportName 备用名称PR_ATTACH_TRANSPORT_NAME PR_ATTACH_TRANSPORT_NAME_A PR_ATTACH_TRANSPORT_NAME_W
+description: 包含附件文件的名称经过修改后可以与 TNEF 消息相关联 区域邮件附件属性 规范名称PidTagAttachTransportName 备用名称PR_ATTACH_TRANSPORT_NAMEPR_ATTACH_TRANSPORT_NAME_APR_ATTACH_TRANSPORT_NAME_W
 type: docs
 weight: 1810
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachtransportname/
 ---
 ## KnownPropertyList.AttachTransportName field
 
-包含附件文件的名称，经过修改后可以与 TNEF 消息相关联。 区域:消息附件属性 规范名称:PidTagAttachTransportName 备用名称:PR_ATTACH_TRANSPORT_NAME, PR_ATTACH_TRANSPORT_NAME_A, PR_ATTACH_TRANSPORT_NAME_W
+包含附件文件的名称，经过修改后可以与 TNEF 消息相关联。 区域：邮件附件属性 规范名称：PidTagAttachTransportName 备用名称：PR_ATTACH_TRANSPORT_NAME、PR_ATTACH_TRANSPORT_NAME_A、PR_ATTACH_TRANSPORT_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachTransportName;

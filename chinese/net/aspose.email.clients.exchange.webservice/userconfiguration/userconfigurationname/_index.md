@@ -18,7 +18,7 @@ public UserConfigurationName UserConfigurationName { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *value*is` null` |
+| ArgumentNullException | *value*是`无效的` |
 
 ### 也可以看看
 

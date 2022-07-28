@@ -1,14 +1,14 @@
 ---
 title: IsTextFormat
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示模板是否具有文本格式
+description: 获取模板是否为文本格式的值
 type: docs
 weight: 60
 url: /zh/net/aspose.email.calendar/appointmentformattingoptions/istextformat/
 ---
 ## AppointmentFormattingOptions.IsTextFormat property
 
-获取一个值，该值指示模板是否具有文本格式。
+获取模板是否为文本格式的值。
 
 ```csharp
 public bool IsTextFormat { get; }
@@ -16,7 +16,7 @@ public bool IsTextFormat { get; }
 
 ### 适当的价值
 
-` true` 如果模板具有文本格式；否则，` false` 。
+`真的`如果模板具有文本格式；否则，`错误的`.
 
 ### 也可以看看
 

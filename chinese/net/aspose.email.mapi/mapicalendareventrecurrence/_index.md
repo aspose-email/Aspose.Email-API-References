@@ -18,17 +18,17 @@ public sealed class MapiCalendarEventRecurrence
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MapiCalendarEventRecurrence](mapicalendareventrecurrence)() | 初始化 [`MapiCalendarEventRecurrence`](../mapicalendareventrecurrence) 类的新实例 |
+| [MapiCalendarEventRecurrence](mapicalendareventrecurrence)() | 初始化[`MapiCalendarEventRecurrence`](../mapicalendareventrecurrence) class |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AppointmentTimeZoneDefinitionRecur](../../aspose.email.mapi/mapicalendareventrecurrence/appointmenttimezonedefinitionrecur) { get; set; } | 获取或设置时区信息，该信息描述如何将重复系列的会议日期和时间与 UTC 相互转换。 |
+| [AppointmentTimeZoneDefinitionRecur](../../aspose.email.mapi/mapicalendareventrecurrence/appointmenttimezonedefinitionrecur) { get; set; } | 获取或设置时区信息，该信息描述了如何将循环系列中的会议日期和时间转换为 UTC。 |
 | [ClipEnd](../../aspose.email.mapi/mapicalendareventrecurrence/clipend) { get; set; } | 获取或设置最后一个实例的日期 |
 | [ClipStart](../../aspose.email.mapi/mapicalendareventrecurrence/clipstart) { get; set; } | 获取或设置第一个实例的日期 |
-| [IsException](../../aspose.email.mapi/mapicalendareventrecurrence/isexception) { get; set; } | 获取或设置一个值，指示对象是否表示异常 |
-| [RecurrencePattern](../../aspose.email.mapi/mapicalendareventrecurrence/recurrencepattern) { get; set; } | 获取或设置重复模式 |
+| [IsException](../../aspose.email.mapi/mapicalendareventrecurrence/isexception) { get; set; } | 获取或设置一个表示对象是否代表异常的值 |
+| [RecurrencePattern](../../aspose.email.mapi/mapicalendareventrecurrence/recurrencepattern) { get; set; } | 获取或设置循环模式 |
 | [TimeZoneStruct](../../aspose.email.mapi/mapicalendareventrecurrence/timezonestruct) { get; set; } | 获取或设置定期会议的时区信息。 |
 
 ### 也可以看看

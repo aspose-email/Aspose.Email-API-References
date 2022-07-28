@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/defaultpostmessageclass/
 ---
 ## KnownPropertyList.DefaultPostMessageClass field
 
-包含对象的消息类。 区域:MapiContainer 规范名称:PidTagDefaultPostMessageClass 替代名称:PR_DEF_POST_MSGCLASS
+包含对象的消息类。 区域：MapiContainer 规范名称：PidTagDefaultPostMessageClass 替代名称：PR_DEF_POST_MSGCLASS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DefaultPostMessageClass;

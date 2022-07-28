@@ -1,14 +1,14 @@
 ---
 title: Address
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя домена или IP-адрес прокси-сервера
+description: Доменное имя или IP-адрес прокси-сервера
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients/proxy/address/
 ---
 ## Proxy.Address property
 
-Имя домена или IP-адрес прокси-сервера
+Доменное имя или IP-адрес прокси-сервера
 
 ```csharp
 public string Address { get; set; }

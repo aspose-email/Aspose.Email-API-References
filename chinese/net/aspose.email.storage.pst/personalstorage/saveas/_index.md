@@ -17,7 +17,7 @@ public void SaveAs(string fileName, FileFormat format)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | String | 要保存的文件的名称。 |
-| format | FileFormat | [`FileFormat`](../../fileformat)用于保存文件。 |
+| format | FileFormat | 这[`FileFormat`](../../fileformat)保存文件时使用。 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public void SaveAs(string fileName, FileFormat format)
 
 ## SaveAs(Stream, FileFormat) {#saveas}
 
-将当前对象保存为流中的指定文件格式。
+将当前对象保存为流中指定的文件格式。
 
 ```csharp
 public void SaveAs(Stream stream, FileFormat format)
@@ -39,7 +39,7 @@ public void SaveAs(Stream stream, FileFormat format)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 要保存的流。 |
-| format | FileFormat | [`FileFormat`](../../fileformat)将被使用。 |
+| format | FileFormat | 这[`FileFormat`](../../fileformat)是要使用的。 |
 
 ### 也可以看看
 

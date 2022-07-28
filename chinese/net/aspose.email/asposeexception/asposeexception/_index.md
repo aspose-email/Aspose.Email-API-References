@@ -1,14 +1,14 @@
 ---
 title: AsposeException
 second_title: Aspose.Email for .NET API 参考
-description: 初始化AsposeExceptionaspose.email/asposeexception类的新实例
+description: 初始化AsposeExceptionaspose.email/asposeexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.email/asposeexception/asposeexception/
 ---
 ## AsposeException() {#constructor}
 
-初始化[`AsposeException`](../../asposeexception)类的新实例。
+初始化[`AsposeException`](../../asposeexception)类.
 
 ```csharp
 public AsposeException()
@@ -24,7 +24,7 @@ public AsposeException()
 
 ## AsposeException(string) {#constructor_2}
 
-使用指定的错误消息初始化[`AsposeException`](../../asposeexception)类的新实例。
+初始化[`AsposeException`](../../asposeexception)具有指定错误消息的类。
 
 ```csharp
 public AsposeException(string message)
@@ -44,7 +44,7 @@ public AsposeException(string message)
 
 ## AsposeException(string, params object[]) {#constructor_4}
 
-使用指定的错误消息初始化[`AsposeException`](../../asposeexception)类的新实例。
+初始化[`AsposeException`](../../asposeexception)具有指定错误消息的类。
 
 ```csharp
 public AsposeException(string format, params object[] parameters)
@@ -79,7 +79,7 @@ public AsposeException(string format, string parameter)
 
 ## AsposeException(string, Exception) {#constructor_3}
 
-使用指定的错误消息初始化[`AsposeException`](../../asposeexception)类 的新实例和对导致此异常的内部异常的引用。
+初始化[`AsposeException`](../../asposeexception)类 带有指定的错误消息和对导致此异常的内部异常的引用。
 
 ```csharp
 public AsposeException(string message, Exception innerException)
@@ -88,7 +88,7 @@ public AsposeException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 解释异常原因的错误消息。 |
-| innerException | Exception | 导致当前异常的异常，如果没有内部异常，则为空引用（在 Visual Basic 中为空）被指定。 |
+| innerException | Exception | 作为当前异常原因的异常，如果没有指定内部异常，则为空引用（在 Visual Basic 中为 Nothing）。 |
 
 ### 也可以看看
 

@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.mapi/knownpropertylist/attachencoding/
 ---
 ## KnownPropertyList.AttachEncoding field
 
-包含有关附件对象的编码信息。 区域:消息附件属性 规范名称:PidTagAttachEncoding 备用名称:PR_ATTACH_ENCODING
+包含有关附件对象的编码信息。 区域：消息附件属性 规范名称：PidTagAttachEncoding 备用名称：PR_ATTACH_ENCODING
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachEncoding;

@@ -1,14 +1,14 @@
 ---
 title: ListAttachmentsAsync
 second_title: Aspose.Email for .NET API 参考
-description: 获取邮件附件列表 获取消息中每个附件的信息
+description: 获取邮件附件列表 获取邮件中每个附件的信息
 type: docs
 weight: 820
 url: /zh/net/aspose.email.clients.imap/imapclient/listattachmentsasync/
 ---
 ## ListAttachmentsAsync(int, CancellationToken) {#listattachmentsasync_1}
 
-获取邮件附件列表。 获取消息中每个附件的信息。
+获取邮件附件列表。 获取邮件中每个附件的信息。
 
 ```csharp
 public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumber, 
@@ -21,7 +21,7 @@ public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumbe
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumbe
 
 ## ListAttachmentsAsync(int) {#listattachmentsasync}
 
-获取邮件附件列表。 获取消息中每个附件的信息。
+获取邮件附件列表。 获取邮件中每个附件的信息。
 
 ```csharp
 public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumber)
@@ -46,7 +46,7 @@ public Task<ImapAttachmentInfoCollection> ListAttachmentsAsync(int sequenceNumbe
 
 ### 返回值
 
-任务对象，带有此操作的委托
+任务对象，具有此操作的委托
 
 ### 也可以看看
 

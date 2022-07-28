@@ -3,7 +3,7 @@ title: MsgLoadOptions
 second_title: Aspose.Email for .NET API 参考
 description: 允许在从 Msg 格式加载 MailMessage 时指定其他选项
 type: docs
-weight: 19220
+weight: 19250
 url: /zh/net/aspose.email/msgloadoptions/
 ---
 ## MsgLoadOptions class
@@ -18,18 +18,18 @@ public class MsgLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MsgLoadOptions](msgloadoptions)() | 初始化此类的新实例，该实例可用于从 Msg 格式加载 MailMessage。 |
+| [MsgLoadOptions](msgloadoptions)() | 初始化此类的一个新实例，该实例可用于从 Msg 格式加载 MailMessage。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DecodeSignedContent](../../aspose.email/msgloadoptions/decodesignedcontent) { get; set; } | 获取或设置一个值，该值指示是否将解码签名消息。 |
+| [DecodeSignedContent](../../aspose.email/msgloadoptions/decodesignedcontent) { get; set; } | 获取或设置一个值，该值指示是否对签名消息进行解码。 |
 | [KeepOriginalEmailAddresses](../../aspose.email/msgloadoptions/keeporiginalemailaddresses) { get; set; } | 获取或设置是否需要保留原始电子邮件地址的值。 |
-| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | 表示邮件消息格式。可以是eml,msg 或mhtml 格式。 默认值为 Eml。 |
-| [PrefferedTextEncoding](../../aspose.email/loadoptions/prefferedtextencoding) { get; set; } | 获取或设置消息的首选编码。 强制设置消息主题和正文的首选编码。 默认值为空。 |
+| [MessageFormat](../../aspose.email/loadoptions/messageformat) { get; } | 代表邮件消息格式。可以是eml,msg或mhtml格式。 默认值为Eml。 |
+| [PrefferedTextEncoding](../../aspose.email/loadoptions/prefferedtextencoding) { get; set; } | 获取或设置消息的首选编码。 强制设置消息主题和正文的首选编码。 默认值为null。 |
 | [PreserveEmbeddedMessageFormat](../../aspose.email/loadoptions/preserveembeddedmessageformat) { get; set; } | 获取或设置一个值，该值指示在 MailMessage 中加载时是否需要保留 嵌入消息的格式。 |
-| [PreserveRtfContent](../../aspose.email/msgloadoptions/preservertfcontent) { get; set; } | 获取或设置是否需要在MailMessage中保留rtf body的值。 |
+| [PreserveRtfContent](../../aspose.email/msgloadoptions/preservertfcontent) { get; set; } | 获取或设置一个值，该值指示是否需要在MailMessage中保留rtf正文。 |
 | [PreserveTnefAttachments](../../aspose.email/msgloadoptions/preservetnefattachments) { get; set; } | 控制加载 TNEF 附件行为。 |
 
 ### 也可以看看

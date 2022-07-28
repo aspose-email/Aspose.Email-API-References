@@ -1,14 +1,14 @@
 ---
 title: GetUMConfiguration
 second_title: Aspose.Email for .NET API 参考
-description: 获取统一消息配置
+description: 检索统一消息配置
 type: docs
 weight: 1030
 url: /zh/net/aspose.email.clients.exchange.webservice/iewsclient/getumconfiguration/
 ---
 ## IEWSClient.GetUMConfiguration method
 
-获取统一消息配置
+检索统一消息配置
 
 ```csharp
 public UnifiedMessagingConfiguration GetUMConfiguration()

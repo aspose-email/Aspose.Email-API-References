@@ -1,14 +1,14 @@
 ---
 title: AddAlternateView
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавить альтернативный вид к сообщению
+description: Добавить альтернативный вид к message
 type: docs
 weight: 370
 url: /ru/net/aspose.email/mailmessage/addalternateview/
 ---
 ## MailMessage.AddAlternateView method
 
-Добавить альтернативный вид к сообщению
+Добавить альтернативный вид к message
 
 ```csharp
 public virtual void AddAlternateView(AlternateView view)

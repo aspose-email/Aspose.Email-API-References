@@ -16,7 +16,7 @@ public AmpFitText(string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | String |  |
+| value | String |  |
 
 ### Смотрите также
 

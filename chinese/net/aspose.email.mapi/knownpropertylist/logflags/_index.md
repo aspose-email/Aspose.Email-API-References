@@ -1,14 +1,14 @@
 ---
 title: LogFlags
 second_title: Aspose.Email for .NET API 参考
-description: 包含有关 Journal 对象的元数据 区域日志 规范名称PidLidLogFlags 替代名称dispidLogFlags
+description: 包含有关 Journal 对象的元数据 区域Journal 规范名称PidLidLogFlags 替代名称dispidLogFlags
 type: docs
 weight: 12270
 url: /zh/net/aspose.email.mapi/knownpropertylist/logflags/
 ---
 ## KnownPropertyList.LogFlags field
 
-包含有关 Journal 对象的元数据。 区域:日志 规范名称:PidLidLogFlags 替代名称:dispidLogFlags
+包含有关 Journal 对象的元数据。 区域：Journal 规范名称：PidLidLogFlags 替代名称：dispidLogFlags
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogFlags;

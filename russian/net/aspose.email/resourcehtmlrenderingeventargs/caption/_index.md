@@ -1,14 +1,14 @@
 ---
 title: Caption
 second_title: Справочник по Aspose.Email для .NET API
-description: Caprion за ресурс.
+description: Caprion для ресурса.
 type: docs
 weight: 20
 url: /ru/net/aspose.email/resourcehtmlrenderingeventargs/caption/
 ---
 ## ResourceHtmlRenderingEventArgs.Caption property
 
-Caprion за ресурс.
+Caprion для ресурса.
 
 ```csharp
 public string Caption { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Options
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит опции для разрешения списка получателей.
+description: Содержит параметры разрешения списка получателей.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activesync.transportlayer/resolverecipientsrequest/options/
 ---
 ## ResolveRecipientsRequest.Options property
 
-Содержит опции для разрешения списка получателей.
+Содержит параметры разрешения списка получателей.
 
 ```csharp
 public ResolveRecipientsOptions Options { get; set; }

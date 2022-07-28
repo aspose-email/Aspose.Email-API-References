@@ -1,14 +1,14 @@
 ---
 title: Recent
 second_title: Aspose.Email for .NET API 参考
-description: 获取一个值该值指示 Flags 属性是否包含最近标志
+description: 获取一个值该值指示 Flags 属性是否包含Recent 标志
 type: docs
 weight: 120
 url: /zh/net/aspose.email.clients.imap/imapmessageinfo/recent/
 ---
 ## ImapMessageInfo.Recent property
 
-获取一个值，该值指示 Flags 属性是否包含最近标志。
+获取一个值，该值指示 Flags 属性是否包含Recent 标志。
 
 ```csharp
 public bool Recent { get; }

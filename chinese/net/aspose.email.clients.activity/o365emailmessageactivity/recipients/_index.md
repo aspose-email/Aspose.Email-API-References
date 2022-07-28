@@ -1,14 +1,14 @@
 ---
 title: Recipients
 second_title: Aspose.Email for .NET API 参考
-description: 电子邮件消息的收件人数组 强制是
+description: 电子邮件的收件人数组 强制是
 type: docs
 weight: 90
 url: /zh/net/aspose.email.clients.activity/o365emailmessageactivity/recipients/
 ---
 ## O365EmailMessageActivity.Recipients property
 
-电子邮件消息的收件人数组。 强制:是
+电子邮件的收件人数组。 强制：是
 
 ```csharp
 public string[] Recipients { get; set; }

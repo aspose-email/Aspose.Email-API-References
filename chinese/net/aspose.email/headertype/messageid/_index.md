@@ -1,14 +1,14 @@
 ---
 title: MessageID
 second_title: Aspose.Email for .NET API 参考
-description: 此消息的唯一 ID 在 RFC 8224.6.1 RFC 10362.1.5 中定义
+description: 此消息的唯一 ID 在 RFC 822 4.6.1 RFC 1036 2.1.5 中定义
 type: docs
 weight: 140
 url: /zh/net/aspose.email/headertype/messageid/
 ---
 ## HeaderType.MessageID property
 
-此消息的唯一 ID。 在 RFC 822:4.6.1 ,RFC 1036:2.1.5 中定义。
+此消息的唯一 ID。 在 RFC 822: 4.6.1 ,RFC 1036: 2.1.5 中定义。
 
 ```csharp
 public static HeaderType MessageID { get; }

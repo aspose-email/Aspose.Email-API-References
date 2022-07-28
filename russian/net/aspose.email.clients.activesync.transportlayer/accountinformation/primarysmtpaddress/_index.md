@@ -1,14 +1,14 @@
 ---
 title: PrimarySmtpAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает основной SMTP-адрес для данной учетной записи. Значение PrimarySmtpAddress также может быть возвращено как значение SMTPAddress. PrimarySmtpAddress не поддерживается если используется версия протокола 12.1 или 14.0.
+description: Указывает основной SMTP-адрес для данной учетной записи. Значение PrimarySmtpAddress также может быть возвращено как значение для SMTPAddress. PrimarySmtpAddress не поддерживается если используется версия протокола 12.1 или 14.0.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activesync.transportlayer/accountinformation/primarysmtpaddress/
 ---
 ## AccountInformation.PrimarySmtpAddress property
 
-Указывает основной SMTP-адрес для данной учетной записи. Значение PrimarySmtpAddress также может быть возвращено как значение SMTPAddress. PrimarySmtpAddress не поддерживается, если используется версия протокола 12.1 или 14.0.
+Указывает основной SMTP-адрес для данной учетной записи. Значение PrimarySmtpAddress также может быть возвращено как значение для SMTPAddress. PrimarySmtpAddress не поддерживается, если используется версия протокола 12.1 или 14.0.
 
 ```csharp
 public string PrimarySmtpAddress { get; set; }

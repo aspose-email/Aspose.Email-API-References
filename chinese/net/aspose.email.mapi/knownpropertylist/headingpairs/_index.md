@@ -1,14 +1,14 @@
 ---
 title: HeadingPairs
 second_title: Aspose.Email for .NET API 参考
-description: 指定文档中缩进的标题组 区域普通 规范名称PidNameHeadingPairs 替代名称urnschemas-microsoft-comofficeofficeHeadingPairs
+description: 指定文档中缩进的标题组 区域Common 规范名称PidNameHeadingPairs 备用名称urnschemas-microsoft-comofficeofficeHeadingPairs
 type: docs
 weight: 10910
 url: /zh/net/aspose.email.mapi/knownpropertylist/headingpairs/
 ---
 ## KnownPropertyList.HeadingPairs field
 
-指定文档中缩进的标题组。 区域：普通 规范名称：PidNameHeadingPairs 替代名称：urn:schemas-microsoft-com:office:office#HeadingPairs
+指定文档中缩进的标题组。 区域：Common 规范名称：PidNameHeadingPairs 备用名称：urn:schemas-microsoft-com:office:office#HeadingPairs
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HeadingPairs;

@@ -16,7 +16,7 @@ public void Print(MapiMessage message, string outputFile, PrintFormat printingFo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | 要打印的 MSG 文件。 |
+| message | MapiMessage | 要打印的味精文件。 |
 | outputFile | String | 输出文件。 |
 | printingFormat | PrintFormat | 打印格式。 |
 
@@ -24,7 +24,7 @@ public void Print(MapiMessage message, string outputFile, PrintFormat printingFo
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 如果*printingFormat*不受支持。 |
+| ArgumentOutOfRangeException | 如果*printingFormat*不支持。 |
 | ArgumentNullException | 如果参数之一为空。 |
 | InvalidOperationException | 如果无法处理对象。 |
 
@@ -48,7 +48,7 @@ public void Print(MapiMessage message, Stream outputStream, PrintFormat printing
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MapiMessage | 要打印的 MSG 文件。 |
+| message | MapiMessage | 要打印的味精文件。 |
 | outputStream | Stream | 输出流。 |
 | printingFormat | PrintFormat | 打印格式。 |
 
@@ -56,7 +56,7 @@ public void Print(MapiMessage message, Stream outputStream, PrintFormat printing
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 如果*printingFormat*不受支持。 |
+| ArgumentOutOfRangeException | 如果*printingFormat*不支持。 |
 | ArgumentNullException | 如果参数之一为空。 |
 | InvalidOperationException | 如果无法处理对象。 |
 
@@ -80,7 +80,7 @@ public void Print(MailMessage message, string outputFile, PrintFormat printingFo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | 要打印的 MSG 文件。 |
+| message | MailMessage | 要打印的味精文件。 |
 | outputFile | String | 输出文件。 |
 | printingFormat | PrintFormat | 打印格式。 |
 
@@ -88,7 +88,7 @@ public void Print(MailMessage message, string outputFile, PrintFormat printingFo
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 如果*printingFormat*不受支持。 |
+| ArgumentOutOfRangeException | 如果*printingFormat*不支持。 |
 | ArgumentNullException | 如果参数之一为空。 |
 | InvalidOperationException | 如果无法处理对象。 |
 
@@ -112,7 +112,7 @@ public void Print(MailMessage message, Stream outputStream, PrintFormat printing
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | MailMessage | 要打印的 MSG 文件。 |
+| message | MailMessage | 要打印的味精文件。 |
 | outputStream | Stream | 输出流。 |
 | printingFormat | PrintFormat | 打印格式。 |
 
@@ -120,7 +120,7 @@ public void Print(MailMessage message, Stream outputStream, PrintFormat printing
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 如果*printingFormat*不受支持。 |
+| ArgumentOutOfRangeException | 如果*printingFormat*不支持。 |
 | ArgumentNullException | 如果参数之一为空。 |
 | InvalidOperationException | 如果无法处理对象。 |
 

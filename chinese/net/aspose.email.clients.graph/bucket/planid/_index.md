@@ -1,14 +1,14 @@
 ---
 title: PlanId
 second_title: Aspose.Email for .NET API 参考
-description: 桶所属的Plan ID
+description: bucket所属的Plan ID
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.graph/bucket/planid/
 ---
 ## Bucket.PlanId property
 
-桶所属的Plan ID。
+bucket所属的Plan ID。
 
 ```csharp
 public string PlanId { get; set; }

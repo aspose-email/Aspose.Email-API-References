@@ -1,14 +1,14 @@
 ---
 title: MapiContactEventPropertySet
 second_title: Aspose.Email for .NET API 参考
-description: 初始化 MapiContactEventPropertySetaspose.email.mapi/mapicontacteventpropertyset 类的新实例
+description: 初始化MapiContactEventPropertySetaspose.email.mapi/mapicontacteventpropertyset class
 type: docs
 weight: 10
 url: /zh/net/aspose.email.mapi/mapicontacteventpropertyset/mapicontacteventpropertyset/
 ---
 ## MapiContactEventPropertySet() {#constructor}
 
-初始化 [`MapiContactEventPropertySet`](../../mapicontacteventpropertyset) 类的新实例
+初始化[`MapiContactEventPropertySet`](../../mapicontacteventpropertyset) class
 
 ```csharp
 public MapiContactEventPropertySet()
@@ -24,7 +24,7 @@ public MapiContactEventPropertySet()
 
 ## MapiContactEventPropertySet(MapiPropertyCollection) {#constructor_1}
 
-初始化 [`MapiContactEventPropertySet`](../../mapicontacteventpropertyset) 类的新实例
+初始化[`MapiContactEventPropertySet`](../../mapicontacteventpropertyset) class
 
 ```csharp
 public MapiContactEventPropertySet(MapiPropertyCollection properties)
@@ -32,7 +32,7 @@ public MapiContactEventPropertySet(MapiPropertyCollection properties)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | 一个包含联系人事件属性的[`MapiPropertyCollection`](../../mapipropertycollection) |
+| properties | MapiPropertyCollection | 一个[`MapiPropertyCollection`](../../mapipropertycollection)包含联系事件属性 |
 
 ### 也可以看看
 

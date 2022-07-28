@@ -1,14 +1,14 @@
 ---
 title: SpamOriginalFolder
 second_title: Aspose.Email for .NET API 参考
-description: 指定邮件在被过滤到垃圾邮件文件夹之前所在的文件夹 区域垃圾邮件 规范名称PidLidSpamOriginalFolder 备用名称dispidSpamOriginalFolder
+description: 指定邮件在被过滤到垃圾邮件文件夹之前所在的文件夹 区域Spam 规范名称PidLidSpamOriginalFolder 替代名称dispidSpamOriginalFolder
 type: docs
 weight: 18110
 url: /zh/net/aspose.email.mapi/knownpropertylist/spamoriginalfolder/
 ---
 ## KnownPropertyList.SpamOriginalFolder field
 
-指定邮件在被过滤到垃圾邮件文件夹之前所在的文件夹。 区域:垃圾邮件 规范名称:PidLidSpamOriginalFolder 备用名称:dispidSpamOriginalFolder
+指定邮件在被过滤到垃圾邮件文件夹之前所在的文件夹。 区域：Spam 规范名称：PidLidSpamOriginalFolder 替代名称：dispidSpamOriginalFolder
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SpamOriginalFolder;

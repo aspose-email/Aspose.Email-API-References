@@ -1,14 +1,14 @@
 ---
 title: LastPage
 second_title: Aspose.Email for .NET API 参考
-description: 指示当前页面是否是最后一页
+description: 指示当前页面是否是视图中的最后一页
 type: docs
 weight: 40
 url: /zh/net/aspose.email.clients/pageinfo/lastpage/
 ---
 ## PageInfo.LastPage property
 
-指示当前页面是否是最后一页。
+指示当前页面是否是视图中的最后一页。
 
 ```csharp
 public bool LastPage { get; set; }

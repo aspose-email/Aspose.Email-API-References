@@ -1,14 +1,14 @@
 ---
 title: LongId
 second_title: Aspose.Email for .NET API 参考
-description: 指定由服务器分配给先前搜索响应返回的每个结果的唯一标识符 LongId 值最长可达 256 个字符
+description: 指定服务器为先前搜索响应返回的每个结果分配的唯一标识符 LongId 值的长度最多为 256 个字符
 type: docs
 weight: 50
 url: /zh/net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/longid/
 ---
 ## ItemOperationsFetchRequest.LongId property
 
-指定由服务器分配给先前搜索响应返回的每个结果的唯一标识符。 LongId 值最长可达 256 个字符。
+指定服务器为先前搜索响应返回的每个结果分配的唯一标识符。 LongId 值的长度最多为 256 个字符。
 
 ```csharp
 public string LongId { get; set; }

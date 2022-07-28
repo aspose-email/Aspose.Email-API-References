@@ -16,7 +16,7 @@ public byte[] GetAttachment(string attachmentName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| attachmentName | String | Имя извлеченного вложения. |
+| attachmentName | String | Имя вложения, которое необходимо получить. |
 
 ### Возвращаемое значение
 

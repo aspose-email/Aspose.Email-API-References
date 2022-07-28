@@ -1,14 +1,14 @@
 ---
 title: AllowSimpleDevicePassword
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает разрешает ли клиент простые пароли. Простой пароль состоит только из повторяющихся 2222 или последовательных abcd символов. Если AllowSimpleDevicePassword имеет значение null клиент ДОЛЖЕН рассматривать это значение как TRUE. Если значение DevicePasswordEnabled установлено в FALSE клиент ДОЛЖЕН игнорировать это свойство.
+description: Указывает разрешает ли клиент простые пароли. Простой пароль состоит только из повторяющихся 2222 или последовательных abcd символов. Если AllowSimpleDevicePassword имеет значение null клиент ДОЛЖЕН рассматривать это значение как TRUE. Если значение DevicePasswordEnabled установлено в FALSE  клиент ДОЛЖЕН игнорировать это свойство.
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowsimpledevicepassword/
 ---
 ## EASProvisionDoc.AllowSimpleDevicePassword property
 
-Указывает, разрешает ли клиент простые пароли. Простой пароль состоит только из повторяющихся ("2222") или последовательных ("abcd") символов. Если AllowSimpleDevicePassword имеет значение null, клиент ДОЛЖЕН рассматривать это значение как TRUE. Если значение DevicePasswordEnabled установлено в FALSE, клиент ДОЛЖЕН игнорировать это свойство.
+Указывает, разрешает ли клиент простые пароли. Простой пароль состоит только из повторяющихся ("2222") или последовательных ("abcd") символов. Если AllowSimpleDevicePassword имеет значение null, клиент ДОЛЖЕН рассматривать это значение как TRUE. Если значение DevicePasswordEnabled установлено в FALSE , клиент ДОЛЖЕН игнорировать это свойство.
 
 ```csharp
 public bool? AllowSimpleDevicePassword { get; set; }

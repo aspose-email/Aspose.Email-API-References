@@ -1,14 +1,14 @@
 ---
 title: OfflineAddressBookContainerGuid
 second_title: Aspose.Email for .NET API 参考
-description: 表示地址列表容器对象的字符串格式的 GUID 区域脱机通讯簿属性 规范名称PidTagOfflineAddressBookContainerGuid 备用名称PR_OAB_CONTAINER_GUID PR_OAB_CONTAINER_GUID_W
+description: 表示地址列表容器对象的字符串格式 GUID 区域脱机通讯簿属性 规范名称PidTagOfflineAddressBookContainerGuid 替代名称PR_OAB_CONTAINER_GUIDPR_OAB_CONTAINER_GUID_W
 type: docs
 weight: 13240
 url: /zh/net/aspose.email.mapi/knownpropertylist/offlineaddressbookcontainerguid/
 ---
 ## KnownPropertyList.OfflineAddressBookContainerGuid field
 
-表示地址列表容器对象的字符串格式的 GUID。 区域:脱机通讯簿属性 规范名称:PidTagOfflineAddressBookContainerGuid 备用名称:PR_OAB_CONTAINER_GUID, PR_OAB_CONTAINER_GUID_W
+表示地址列表容器对象的字符串格式 GUID。 区域：脱机通讯簿属性 规范名称：PidTagOfflineAddressBookContainerGuid 替代名称：PR_OAB_CONTAINER_GUID、PR_OAB_CONTAINER_GUID_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineAddressBookContainerGuid;

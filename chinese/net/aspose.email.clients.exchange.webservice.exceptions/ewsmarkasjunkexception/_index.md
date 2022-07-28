@@ -19,8 +19,8 @@ public sealed class EwsMarkAsJunkException : ExchangeException
 | 姓名 | 描述 |
 | --- | --- |
 | [ErrorDetails](../../aspose.email/asposeexception/errordetails) { get; } | 获取有关错误的额外信息 |
-| [ErrorMessages](../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/errormessages) { get; } | 失败操作的错误消息 |
-| [FailedMessageIds](../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/failedmessageids) { get; } | 尚未移动到垃圾邮件文件夹的消息 ID 数组。 |
+| [ErrorMessages](../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/errormessages) { get; } | 操作失败的错误消息 |
+| [FailedMessageIds](../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/failedmessageids) { get; } | 尚未移动到垃圾邮件文件夹的邮件 ID 数组。 |
 | override [Message](../../aspose.email/asposeexception/message) { get; } | 获取描述当前异常的消息。 |
 | [MovedMessageIds](../../aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/movedmessageids) { get; } | 移动到垃圾邮件文件夹的消息 ID 数组。 |
 

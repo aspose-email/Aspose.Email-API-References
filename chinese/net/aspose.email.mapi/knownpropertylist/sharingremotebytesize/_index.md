@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteByteSize
 second_title: Aspose.Email for .NET API 参考
-description: 包含一个无论客户端生成什么值都被服务器忽略的值 区域共享 规范名称PidLidSharingRemoteByteSize 替代名称dispidSharingRemoteByteSize
+description: 包含一个无论客户端生成什么值服务器都会忽略的值 区域Sharing 规范名称PidLidSharingRemoteByteSize 替代名称dispidSharingRemoteByteSize
 type: docs
 weight: 17770
 url: /zh/net/aspose.email.mapi/knownpropertylist/sharingremotebytesize/
 ---
 ## KnownPropertyList.SharingRemoteByteSize field
 
-包含一个无论客户端生成什么值都被服务器忽略的值。 区域:共享 规范名称:PidLidSharingRemoteByteSize 替代名称:dispidSharingRemoteByteSize
+包含一个无论客户端生成什么值，服务器都会忽略的值。 区域：Sharing 规范名称：PidLidSharingRemoteByteSize 替代名称：dispidSharingRemoteByteSize
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteByteSize;

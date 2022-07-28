@@ -25,7 +25,7 @@ public class ByNumberCollection : List<int>
 
 Соответствует различным частям BYXXX, таким как BYDAY, BYMONTH правила повторения.
 
-Большинство свойств ByXXX для[`RecurrenceRule`](../recurrencerule)реализованы как ByNumberCollection.
+Большинство свойств ByXXX[`RecurrenceRule`](../recurrencerule) реализованы как ByNumberCollection.
 
 ### Смотрите также
 

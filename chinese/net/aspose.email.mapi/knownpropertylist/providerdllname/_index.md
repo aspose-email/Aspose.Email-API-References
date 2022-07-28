@@ -1,14 +1,14 @@
 ---
 title: ProviderDllName
 second_title: Aspose.Email for .NET API 参考
-description: Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性 规范名称 备用名称PR_PROVIDER_DLL_NAME
+description: Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性 规范名称 替代名称PR_PROVIDER_DLL_NAME
 type: docs
 weight: 15050
 url: /zh/net/aspose.email.mapi/knownpropertylist/providerdllname/
 ---
 ## KnownPropertyList.ProviderDllName field
 
-Microsoft Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的这个属性。 规范名称: 备用名称:PR_PROVIDER_DLL_NAME
+Microsoft. Exchange 定义了 Microsoft Exchange Server 和 Microsoft Exchange Client 使用的此属性。 规范名称： 替代名称：PR_PROVIDER_DLL_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProviderDllName;

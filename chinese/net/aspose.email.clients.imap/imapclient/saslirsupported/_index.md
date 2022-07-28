@@ -8,7 +8,7 @@ url: /zh/net/aspose.email.clients.imap/imapclient/saslirsupported/
 ---
 ## ImapClient.SaslIrSupported property
 
-获取是否支持 SASL 初始客户端响应扩展的信息 查看更多:https://tools.ietf.org/html/rfc4959
+获取是否支持 SASL 初始客户端响应扩展的信息 查看更多：https://tools.ietf.org/html/rfc4959
 
 ```csharp
 public bool SaslIrSupported { get; set; }

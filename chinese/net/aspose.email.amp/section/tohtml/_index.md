@@ -1,14 +1,14 @@
 ---
 title: ToHtml
 second_title: Aspose.Email for .NET API 参考
-description: 节的 HTML 表示
+description: 部分的 Html 表示
 type: docs
 weight: 60
 url: /zh/net/aspose.email.amp/section/tohtml/
 ---
 ## Section.ToHtml method
 
-节的 HTML 表示。
+部分的 Html 表示。
 
 ```csharp
 public string ToHtml()

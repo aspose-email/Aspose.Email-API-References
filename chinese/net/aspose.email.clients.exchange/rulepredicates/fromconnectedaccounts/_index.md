@@ -1,14 +1,14 @@
 ---
 title: FromConnectedAccounts
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置电子邮件帐户名称必须从这些电子邮件帐户名称中聚合传入消息以便应用条件或例外
+description: 获取或设置电子邮件帐户名称必须从这些电子邮件帐户名称中聚合传入消息以便应用条件或异常
 type: docs
 weight: 110
 url: /zh/net/aspose.email.clients.exchange/rulepredicates/fromconnectedaccounts/
 ---
 ## RulePredicates.FromConnectedAccounts property
 
-获取或设置电子邮件帐户名称，必须从这些电子邮件帐户名称中聚合传入消息，以便应用条件或例外。
+获取或设置电子邮件帐户名称，必须从这些电子邮件帐户名称中聚合传入消息，以便应用条件或异常。
 
 ```csharp
 public StringCollection FromConnectedAccounts { get; set; }

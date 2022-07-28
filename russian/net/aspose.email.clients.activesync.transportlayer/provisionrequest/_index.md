@@ -1,14 +1,14 @@
 ---
 title: ProvisionRequest
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию запроса для команды предоставления
+description: Содержит информацию о запросе для обеспечения command
 type: docs
 weight: 1760
 url: /ru/net/aspose.email.clients.activesync.transportlayer/provisionrequest/
 ---
 ## ProvisionRequest class
 
-Содержит информацию запроса для команды предоставления
+Содержит информацию о запросе для обеспечения command
 
 ```csharp
 public class ProvisionRequest
@@ -24,7 +24,7 @@ public class ProvisionRequest
 
 | Имя | Описание |
 | --- | --- |
-| [DeviceInformation](../../aspose.email.clients.activesync.transportlayer/provisionrequest/deviceinformation) { get; set; } | Информация об устройстве. Когда версия протокола 14.1, клиент ДОЛЖЕН отправить элемент DeviceInformation с его содержимым при отправке начального запроса команды Provision на сервер, но не при последующих запросах. |
+| [DeviceInformation](../../aspose.email.clients.activesync.transportlayer/provisionrequest/deviceinformation) { get; set; } | Информация об устройстве. Если используется версия протокола 14.1, клиент ДОЛЖЕН отправить элемент DeviceInformation с его содержимым при отправке начального запроса команды Provision на сервер, но не при последующих запросах. |
 | [Policies](../../aspose.email.clients.activesync.transportlayer/provisionrequest/policies) { get; } | Задает набор политик безопасности. |
 | [RemoteWipeStatus](../../aspose.email.clients.activesync.transportlayer/provisionrequest/remotewipestatus) { get; set; } | Указывает подтверждение клиентом директивы удаленной очистки сервера. Значение указывает на успех или неудачу операции удаленной очистки на клиенте. |
 

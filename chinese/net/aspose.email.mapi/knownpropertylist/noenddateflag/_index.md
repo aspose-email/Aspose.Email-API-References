@@ -1,14 +1,14 @@
 ---
 title: NoEndDateFlag
 second_title: Aspose.Email for .NET API 参考
-description: 指示重复模式是否有结束日期 区域日历 规范名称PidLidNoEndDateFlag 备用名称http//schemas.microsoft.com/mapi/fnoenddate
+description: 指示重复模式是否有结束日期 区域Calendar 规范名称PidLidNoEndDateFlag 备用名称http//schemas.microsoft.com/mapi/fnoenddate
 type: docs
 weight: 12940
 url: /zh/net/aspose.email.mapi/knownpropertylist/noenddateflag/
 ---
 ## KnownPropertyList.NoEndDateFlag field
 
-指示重复模式是否有结束日期。 区域：日历 规范名称：PidLidNoEndDateFlag 备用名称：http://schemas.microsoft.com/mapi/fnoenddate
+指示重复模式是否有结束日期。 区域：Calendar 规范名称：PidLidNoEndDateFlag 备用名称：http://schemas.microsoft.com/mapi/fnoenddate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoEndDateFlag;

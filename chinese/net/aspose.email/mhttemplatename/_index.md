@@ -3,7 +3,7 @@ title: MhtTemplateName
 second_title: Aspose.Email for .NET API 参考
 description: 为 Mhtml 格式定义众所周知的标题名称
 type: docs
-weight: 19060
+weight: 19090
 url: /zh/net/aspose.email/mhttemplatename/
 ---
 ## MhtTemplateName class
@@ -18,27 +18,27 @@ public static class MhtTemplateName
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [Attachments](../../aspose.email/mhttemplatename/attachments) | 附件头。 |
+| const [Attachments](../../aspose.email/mhttemplatename/attachments) | 附件标题。 |
 | const [Bcc](../../aspose.email/mhttemplatename/bcc) | 密件抄送标头。 |
-| const [Categories](../../aspose.email/mhttemplatename/categories) | 类别标题。 |
+| const [Categories](../../aspose.email/mhttemplatename/categories) | 类别标题. |
 | const [Cc](../../aspose.email/mhttemplatename/cc) | 抄送标头。 |
-| const [DateTime](../../aspose.email/mhttemplatename/datetime) | DateTime 标头。 |
-| const [End](../../aspose.email/mhttemplatename/end) | 结束头。 |
-| const [From](../../aspose.email/mhttemplatename/from) | 来自标题。 |
-| const [Importance](../../aspose.email/mhttemplatename/importance) | 重要性标头。 |
-| const [Location](../../aspose.email/mhttemplatename/location) | 位置标头。 |
-| const [OptionalAttendees](../../aspose.email/mhttemplatename/optionalattendees) | OptionalAttendees 标头。 |
-| const [Organizer](../../aspose.email/mhttemplatename/organizer) | 组织者标题。 |
+| const [DateTime](../../aspose.email/mhttemplatename/datetime) | 日期时间标头。 |
+| const [End](../../aspose.email/mhttemplatename/end) | 结束标题。 |
+| const [From](../../aspose.email/mhttemplatename/from) | 来自标头。 |
+| const [Importance](../../aspose.email/mhttemplatename/importance) | 重要性标头. |
+| const [Location](../../aspose.email/mhttemplatename/location) | 位置标头. |
+| const [OptionalAttendees](../../aspose.email/mhttemplatename/optionalattendees) | 可选与会者标头。 |
+| const [Organizer](../../aspose.email/mhttemplatename/organizer) | 管理器标题。 |
 | const [PageHeader](../../aspose.email/mhttemplatename/pageheader) | PageHeader 标头。 |
 | const [Recurrence](../../aspose.email/mhttemplatename/recurrence) | 重复标头。 |
 | const [RecurrencePattern](../../aspose.email/mhttemplatename/recurrencepattern) | RecurrencePattern 标头。 |
-| const [RequiredAttendees](../../aspose.email/mhttemplatename/requiredattendees) | RequiredAttendees 标头。 |
+| const [RequiredAttendees](../../aspose.email/mhttemplatename/requiredattendees) | 必需的与会者标头。 |
 | const [Sent](../../aspose.email/mhttemplatename/sent) | 已发送标头。 |
 | const [ShowTimeAs](../../aspose.email/mhttemplatename/showtimeas) | ShowTimeAs 标头。 |
 | const [Start](../../aspose.email/mhttemplatename/start) | 开始标题。 |
 | const [Subject](../../aspose.email/mhttemplatename/subject) | 主题标头。 |
 | const [TabField](../../aspose.email/mhttemplatename/tabfield) | 此名称用于多行标题中的缩进。 |
-| const [To](../../aspose.email/mhttemplatename/to) | 来自标题。 |
+| const [To](../../aspose.email/mhttemplatename/to) | 来自标头。 |
 
 ### 也可以看看
 

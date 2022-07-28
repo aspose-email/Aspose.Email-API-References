@@ -1,14 +1,14 @@
 ---
 title: OneNoteClientUrl
 second_title: Aspose.Email for .NET API 参考
-description: 以只读方式打开笔记本 OneNote 只读本机客户端如果已安装
+description: 如果已安装 OneNote 只读本机客户端则以只读方式打开笔记本
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.graph/notebooklinks/onenoteclienturl/
 ---
 ## NotebookLinks.OneNoteClientUrl property
 
-以只读方式打开笔记本 OneNote 只读本机客户端（如果已安装）。
+如果已安装 OneNote 只读本机客户端，则以只读方式打开笔记本。
 
 ```csharp
 public string OneNoteClientUrl { get; set; }

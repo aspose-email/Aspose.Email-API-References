@@ -1,14 +1,14 @@
 ---
 title: Since
 second_title: Aspose.Email for .NET API 参考
-description: 获取或设置搜索条件匹配的自 以来的消息日期
+description: 获取或设置搜索条件匹配的消息日期since 
 type: docs
 weight: 20
 url: /zh/net/aspose.email.clients.imap/basesearchconditions/since/
 ---
 ## BaseSearchConditions.Since property
 
-获取或设置搜索条件匹配的自 以来的消息日期。
+获取或设置搜索条件匹配的消息日期since 。
 
 ```csharp
 public DateTime? Since { get; set; }

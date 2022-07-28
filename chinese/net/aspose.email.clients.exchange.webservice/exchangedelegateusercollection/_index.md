@@ -1,14 +1,14 @@
 ---
 title: ExchangeDelegateUserCollection
 second_title: Aspose.Email for .NET API 参考
-description: 表示ExchangeDelegateUser./exchangedelegateuser
+description: 代表集合ExchangeDelegateUser./exchangedelegateuser
 type: docs
 weight: 3800
 url: /zh/net/aspose.email.clients.exchange.webservice/exchangedelegateusercollection/
 ---
 ## ExchangeDelegateUserCollection class
 
-表示[`ExchangeDelegateUser`](../exchangedelegateuser)
+代表集合[`ExchangeDelegateUser`](../exchangedelegateuser)
 
 ```csharp
 public sealed class ExchangeDelegateUserCollection : Collection<ExchangeDelegateUser>

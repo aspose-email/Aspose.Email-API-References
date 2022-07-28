@@ -1,14 +1,14 @@
 ---
 title: AppointmentLastSequence
 second_title: Aspose.Email for .NET API 参考
-description: 向组织者指示发送给任何与会者的最后一个序列号 区域会议 规范名称PidLidAppointmentLastSequence 替代名称dispidApptLastSequence
+description: 向组织者指示发送给任何与会者的最后一个序列号 区域Meetings 规范名称PidLidAppointmentLastSequence 替代名称dispidApptLastSequence
 type: docs
 weight: 1180
 url: /zh/net/aspose.email.mapi/knownpropertylist/appointmentlastsequence/
 ---
 ## KnownPropertyList.AppointmentLastSequence field
 
-向组织者指示发送给任何与会者的最后一个序列号。 区域:会议 规范名称:PidLidAppointmentLastSequence 替代名称:dispidApptLastSequence
+向组织者指示发送给任何与会者的最后一个序列号。 区域：Meetings 规范名称：PidLidAppointmentLastSequence 替代名称：dispidApptLastSequence
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentLastSequence;

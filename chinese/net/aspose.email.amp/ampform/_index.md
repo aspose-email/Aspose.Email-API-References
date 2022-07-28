@@ -1,14 +1,14 @@
 ---
 title: AmpForm
 second_title: Aspose.Email for .NET API 参考
-description: amp-form 扩展允许您创建表单以提交 AMP 文档中的输入字段
+description: amp-form 扩展允许您创建表单以在 AMP 文档中提交输入字段
 type: docs
 weight: 120
 url: /zh/net/aspose.email.amp/ampform/
 ---
 ## AmpForm class
 
-amp-form 扩展允许您创建表单以提交 AMP 文档中的输入字段。
+amp-form 扩展允许您创建表单以在 AMP 文档中提交输入字段。
 
 ```csharp
 public class AmpForm : AmpComponent
@@ -24,13 +24,13 @@ public class AmpForm : AmpComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Action](../../aspose.email.amp/ampform/action) { get; set; } | 指定一个服务器端点来处理表单输入。该值必须是 https URL（绝对或相对），并且不能是指向 CDN |
+| [Action](../../aspose.email.amp/ampform/action) { get; set; } | 指定一个服务器端点来处理表单输入。该值必须是 https URL（绝对或相对），并且不能是指向 CDN 的链接 |
 | [ActionXhr](../../aspose.email.amp/ampform/actionxhr) { get; set; } | 指定一个服务器端点来处理表单输入并通过 XMLHttpRequest (XHR) 提交表单。 |
 | [Attributes](../../aspose.email.amp/ampcomponent/attributes) { get; } | AMP 提供了一组通用属性，这些属性扩展到许多 AMP 组件。 |
 | [Fallback](../../aspose.email.amp/ampcomponent/fallback) { get; set; } | 后备是一种约定，它允许元素向读者传达浏览器不支持该元素。 |
 | [Fieldset](../../aspose.email.amp/ampform/fieldset) { get; } | 字段列表。 |
-| [Method](../../aspose.email.amp/ampform/method) { get; set; } | method 属性告诉服务器请求方法。 |
-| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
+| [Method](../../aspose.email.amp/ampform/method) { get; set; } | 方法属性告诉服务器请求方法。 |
+| [Placeholder](../../aspose.email.amp/ampcomponent/placeholder) { get; set; } | 标记有 placeholder 属性的元素充当父 AMP 元素的占位符。如果指定，占位符元素必须是 AMP 元素的直接子元素。 |
 | override [RequiredScript](../../aspose.email.amp/ampform/requiredscript) { get; } | 必须添加到头部的脚本。 |
 | [Target](../../aspose.email.amp/ampform/target) { get; set; } | 表示提交表单后在哪里显示表单响应。值必须是_blank或_top。 |
 
@@ -38,7 +38,7 @@ public class AmpForm : AmpComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToAmpHtml](../../aspose.email.amp/ampform/toamphtml)() | 表示组件的 amp html 版本。 |
+| override [ToAmpHtml](../../aspose.email.amp/ampform/toamphtml)() | 代表 amp html 版本的组件。 |
 | override [ToHtml](../../aspose.email.amp/ampform/tohtml)() | 表示组件的 html 版本。 |
 
 ### 也可以看看

@@ -16,7 +16,7 @@ public BoolComparisonField OnlyFoldersCreatedByUser { get; }
 
 ### 适当的价值
 
-[`BoolComparisonField`](../../../aspose.email.tools.search/boolcomparisonfield)表示搜索字段。
+这[`BoolComparisonField`](../../../aspose.email.tools.search/boolcomparisonfield)表示搜索字段。
 
 ### 也可以看看
 

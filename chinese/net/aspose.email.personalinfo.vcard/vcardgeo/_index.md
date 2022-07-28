@@ -3,7 +3,7 @@ title: VCardGeo
 second_title: Aspose.Email for .NET API 参考
 description: 代表vCard联系人的全球定位
 type: docs
-weight: 19630
+weight: 19660
 url: /zh/net/aspose.email.personalinfo.vcard/vcardgeo/
 ---
 ## VCardGeo class
@@ -18,7 +18,7 @@ public sealed class VCardGeo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VCardGeo](vcardgeo)() | 初始化 [`VCardGeo`](../vcardgeo) 类的新实例 |
+| [VCardGeo](vcardgeo)() | 初始化[`VCardGeo`](../vcardgeo) class |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: AttachmentLinkId
 second_title: Aspose.Email for .NET API 参考
-description: 包含附件链接到的消息对象的类型 区域消息附件属性 规范名称PidTagAttachmentLinkId 替代名称PR_ATTACHMENT_LINKID ptagAttachmentLinkId
+description: 包含附件链接到的消息对象的类型 区域消息附件属性 规范名称PidTagAttachmentLinkId 替代名称PR_ATTACHMENT_LINKIDptagAttachmentLinkId
 type: docs
 weight: 1660
 url: /zh/net/aspose.email.mapi/knownpropertylist/attachmentlinkid/
 ---
 ## KnownPropertyList.AttachmentLinkId field
 
-包含附件链接到的消息对象的类型。 区域:消息附件属性 规范名称:PidTagAttachmentLinkId 替代名称:PR_ATTACHMENT_LINKID, ptagAttachmentLinkId
+包含附件链接到的消息对象的类型。 区域：消息附件属性 规范名称：PidTagAttachmentLinkId 替代名称：PR_ATTACHMENT_LINKID、ptagAttachmentLinkId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentLinkId;

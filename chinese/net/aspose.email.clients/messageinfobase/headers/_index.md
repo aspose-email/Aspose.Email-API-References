@@ -1,14 +1,14 @@
 ---
 title: Headers
 second_title: Aspose.Email for .NET API 参考
-description: 获取电子邮件的标头
+description: 获取电子邮件的标题
 type: docs
 weight: 60
 url: /zh/net/aspose.email.clients/messageinfobase/headers/
 ---
 ## MessageInfoBase.Headers property
 
-获取电子邮件的标头。
+获取电子邮件的标题。
 
 ```csharp
 public HeaderCollection Headers { get; }

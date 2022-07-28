@@ -1,14 +1,14 @@
 ---
 title: CalendarContact
 second_title: Aspose.Email for .NET API 参考
-description: 标识作为会议参加者的联系人的姓名 区域通用 规范名称PidNameCalendarContact 备用名称urnschemascalendarcontact
+description: 标识作为会议参加者的联系人的姓名 区域Common 规范名称PidNameCalendarContact 备用名称urnschemascalendarcontact
 type: docs
 weight: 2200
 url: /zh/net/aspose.email.mapi/knownpropertylist/calendarcontact/
 ---
 ## KnownPropertyList.CalendarContact field
 
-标识作为会议参加者的联系人的姓名。 区域:通用 规范名称:PidNameCalendarContact 备用名称:urn:schemas:calendar:contact
+标识作为会议参加者的联系人的姓名。 区域：Common 规范名称：PidNameCalendarContact 备用名称：urn:schemas:calendar:contact
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarContact;

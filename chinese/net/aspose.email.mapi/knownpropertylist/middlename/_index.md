@@ -1,14 +1,14 @@
 ---
 title: MiddleName
 second_title: Aspose.Email for .NET API 参考
-description: 指定联系人的中间名 区域地址属性 规范名称PidTagMiddleName 备用名称PR_MIDDLE_NAME PR_MIDDLE_NAME_A PR_MIDDLE_NAME_W
+description: 指定联系人的中间名 区域地址属性 规范名称PidTagMiddleName 备用名称PR_MIDDLE_NAMEPR_MIDDLE_NAME_APR_MIDDLE_NAME_W
 type: docs
 weight: 12680
 url: /zh/net/aspose.email.mapi/knownpropertylist/middlename/
 ---
 ## KnownPropertyList.MiddleName field
 
-指定联系人的中间名。 区域:地址属性 规范名称:PidTagMiddleName 备用名称:PR_MIDDLE_NAME, PR_MIDDLE_NAME_A, PR_MIDDLE_NAME_W,
+指定联系人的中间名。 区域：地址属性 规范名称：PidTagMiddleName 备用名称：PR_MIDDLE_NAME、PR_MIDDLE_NAME_A、PR_MIDDLE_NAME_W、
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MiddleName;

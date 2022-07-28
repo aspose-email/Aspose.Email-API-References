@@ -1,14 +1,14 @@
 ---
 title: MessageStatus
 second_title: Aspose.Email for .NET API 参考
-description: 指定内容表中消息的状态 区域常规消息属性 规范名称PidTagMessageStatus 替代名称PR_MSG_STATUS ptagMsgStatus
+description: 指定内容表中消息的状态 区域常规消息属性 规范名称PidTagMessageStatus 替代名称PR_MSG_STATUSptagMsgStatus
 type: docs
 weight: 12630
 url: /zh/net/aspose.email.mapi/knownpropertylist/messagestatus/
 ---
 ## KnownPropertyList.MessageStatus field
 
-指定内容表中消息的状态。 区域:常规消息属性 规范名称:PidTagMessageStatus 替代名称:PR_MSG_STATUS, ptagMsgStatus
+指定内容表中消息的状态。 区域：常规消息属性 规范名称：PidTagMessageStatus 替代名称：PR_MSG_STATUS、ptagMsgStatus
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageStatus;

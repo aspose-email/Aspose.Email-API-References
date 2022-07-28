@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Email for .NET API 参考
-description: 从此集合中删除所有元素
+description: 删除此集合中的所有元素
 type: docs
 weight: 10
 url: /zh/net/aspose.email/linkedresourcecollection/clear/
 ---
 ## LinkedResourceCollection.Clear method
 
-从此集合中删除所有元素。
+删除此集合中的所有元素。
 
 ```csharp
 public void Clear(bool removeHtmlLinks)

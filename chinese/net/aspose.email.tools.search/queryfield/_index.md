@@ -3,7 +3,7 @@ title: QueryField
 second_title: Aspose.Email for .NET API 参考
 description: 查询字段的基类
 type: docs
-weight: 20710
+weight: 20760
 url: /zh/net/aspose.email.tools.search/queryfield/
 ---
 ## QueryField class
