@@ -1,0 +1,30 @@
+---
+title: ConnectionAsgmtType
+second_title: Référence de l'API Aspose.Email pour .NET
+description: Définit lalgorithme dallocation de connexion dans plusieurs threads environment
+type: docs
+weight: 2910
+url: /fr/net/aspose.email.clients/connectionasgmttype/
+---
+## ConnectionAsgmtType enumeration
+
+Définit l'algorithme d'allocation de connexion dans plusieurs threads environment
+
+```csharp
+public enum ConnectionAsgmtType
+```
+
+### Valeurs
+
+| Nom | Évaluer | La description |
+| --- | --- | --- |
+| UseMainOrDefault | `0` | Ce mode est utilisé par défaut dans les clients de messagerie. Le client de messagerie utilise la connexion principale pour toutes les opérations à partir de plusieurs threads si la connexion par défaut n'a pas été créée ou si la connexion n'a pas été explicitement transmise comme paramètre de méthode. La connexion principale est une connexion qui est créée en même temps que le client de messagerie. L'utilisateur peut créer des connexions par défaut pour les threads avec la méthode CreateConnection. Si la connexion par défaut pour le fil est créée, elle est utilisée implicitement pour toutes les méthodes du client de messagerie qui sont invoquées dans ce fil. Si la connexion par défaut pour le fil n'est pas créée, la connexion principale est utilisée pour toutes les méthodes du client de messagerie qui sont invoquées dans ce fil. thread. L'utilisateur peut également créer des connexions indépendantes non liées à des threads (pas des connexions par défaut) avec la méthode CreateConnection. Si l'utilisateur souhaite utiliser d'autres connexions (non principales et non par défaut), il doit passer explicitement cette connexion en tant que paramètre d'une méthode qu'il souhaite utiliser. L'utilisateur peut en outre créer n'importe quel nombre de connexions. La connexion par défaut ne peut être qu'une par thread. Veuillez noter que les connexions par défaut fonctionnent correctement si l'utilisateur utilise des objets Thread pour la programmation multitâche. Si l'utilisateur utilise ConnectionPool ou utilise des objets Task pour la programmation multitâche, ce mode peut entraîner un mauvais comportement d'un programme car le thread peut être réutilisé dans ce cas. Pour éviter ce problème, l'utilisateur doit supprimer manuellement la connexion par défaut (s'il l'utilise) à la fin du code qui s'exécute dans le thread. |
+| UseMain | `1` | Le client de messagerie utilise la connexion principale pour toutes les opérations à partir de plusieurs threads. La connexion principale est une connexion qui est créée en même temps que le client de messagerie. L'utilisateur ne peut pas créer de connexions par défaut. L'utilisateur peut créer des connexions indépendantes non liées à des threads (pas des connexions par défaut) avec la méthode CreateConnection. Si l'utilisateur souhaite utiliser d'autres connexions (non principales et non par défaut), il doit passer explicitement cette connexion en tant que paramètre d'une méthode qu'il souhaite utiliser. L'utilisateur peut en outre créer n'importe quel nombre de connexions. |
+| UseDefault | `2` | Le client de messagerie utilise implicitement uniquement les connexions par défaut pour toutes les opérations à partir de plusieurs threads. La connexion principale n'est pas utilisée dans ce mode. Si la connexion par défaut n'a pas été créée pour un thread (première invocation de la méthode du client de messagerie), le client de messagerie crée implicitement une connexion par défaut pour le thread avant l'exécution de la première opération. L'utilisateur ne peut pas créez des connexions par défaut pour les threads avec la méthode CreateConnection car elles sont créées automatiquement. Lorsque la connexion par défaut pour le thread est créée, elle est utilisée implicitement pour toutes les méthodes du client de messagerie qui sont invoquées dans ce thread.read. L'utilisateur peut également créer des connexions indépendantes non liées à des threads (pas des connexions par défaut) avec la méthode CreateConnection. Si l'utilisateur souhaite utiliser d'autres connexions (non principales et non par défaut), il doit passer explicitement cette connexion en tant que paramètre d'une méthode qu'il souhaite utiliser. L'utilisateur peut en outre créer n'importe quel nombre de connexions. La connexion par défaut ne peut être qu'une par thread. Veuillez noter que les connexions par défaut fonctionnent correctement si l'utilisateur utilise des objets Thread pour la programmation multitâche. Si l'utilisateur utilise ConnectionPool ou utilise des objets Task pour la programmation multitâche, ce mode peut entraîner un mauvais comportement d'un programme car le thread peut être réutilisé dans ce cas. Pour éviter ce problème, l'utilisateur doit supprimer manuellement la connexion par défaut à la fin du code. qui s'exécute dans le thread. |
+
+### Voir également
+
+* espace de noms [Aspose.Email.Clients](../../aspose.email.clients)
+* Assemblée [Aspose.Email](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
