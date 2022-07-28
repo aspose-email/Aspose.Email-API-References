@@ -1,0 +1,74 @@
+---
+title: Aspose.Email.Clients.Activity
+second_title: Aspose.Email بريد إلكتروني لمرجع .NET API
+description: 
+type: docs
+weight: 90
+url: /ar/net/aspose.email.clients.activity/
+---
+
+
+## الطبقات
+
+| فصل | وصف |
+| --- | --- |
+| [ActivityClient](./activityclient) | يوفر الوصول إلى MS Exchange Server (Office365) باستخدام REST API. |
+| [AttachmentData](./attachmentdata) |  |
+| [Content](./content) | يحتوي الكائن على تجميع للإجراءات والأحداث التي تم حصادها من خوادم متعددة عبر مراكز بيانات متعددة. |
+| [ContentInfo](./contentinfo) | يحتوي الكائن على معلومات مختصرة حول تجميع الإجراءات والأحداث التي تم حصادها من خوادم متعددة عبر مراكز بيانات متعددة. |
+| [ExchangeAdminActivity](./exchangeadminactivity) | لتوسيع المخطط الشائع بالخصائص المحددة لجميع بيانات تدقيق مسؤول Exchange. |
+| [ExchangeFolder](./exchangefolder) | Exchange folder |
+| [ExchangeItem](./exchangeitem) | Exchange item |
+| [ExchangeMailboxActivity](./exchangemailboxactivity) | لتوسيع المخطط الشائع بالخصائص الخاصة بكافة بيانات تدقيق علبة بريد Exchange. |
+| [ExchangeMailboxAuditActivity](./exchangemailboxauditactivity) |  |
+| [ExchangeMailboxAuditGroupActivity](./exchangemailboxauditgroupactivity) |  |
+| [ExchangeMetadata](./exchangemetadata) | تبادل البيانات الوصفية في أحداث DLP |
+| [ExtendedProperty](./extendedproperty) | الخصائص الموسعة للإعداد الجاري تغييره. سيكون لكل خاصية اسم وقيمة . |
+| [ModifiedProperty](./modifiedproperty) | خاصية معدلة |
+| [Notification](./notification) | يحتوي الكائن على تجميع للإجراءات والأحداث التي تم حصادها من خوادم متعددة عبر مراكز بيانات متعددة. |
+| [O365EmailMessageActivity](./o365emailmessageactivity) | لتوسيع المخطط العام بالخصائص الخاصة ببيانات الحماية المتقدمة من التهديدات والحماية من التهديدات لـ Office 365. تتوفر أحداث الحماية المتقدمة من التهديدات (ATP) و Office 365 لعملاء Office 365 الذين لديهم اشتراك ATP أو ذكاء التهديدات أو E5 . يتوافق كل حدث في موجز ATP واستخبارات التهديدات مع يتم إرسال رسالة بريد إلكتروني أو استلامها بواسطة مستخدم في المؤسسة مع اكتشافات على الرسائل في وقت التسليم ومن المسح التلقائي لساعة الصفر . |
+| [O365URLTimeOfClickActivity](./o365urltimeofclickactivity) | لتوسيع المخطط العام بالخصائص الخاصة ببيانات الحماية المتقدمة من التهديدات والحماية من التهديدات لـ Office 365. تتوفر أحداث الحماية المتقدمة من التهديدات (ATP) و Office 365 لعملاء Office 365 الذين لديهم اشتراك ATP أو ذكاء التهديدات أو E5 . يتوافق كل حدث في موجز ATP واستخبارات التهديدات مع عناوين URL التي نقر عليها مستخدم في المؤسسة والتي تم اكتشافها على أنها ضارة في وقت النقر استنادًا إلى حماية الروابط الآمنة لـ Office 365 ATP . |
+| [ObjectName](./objectname) | يحتوي على اسم للكائن في موجز البيانات المحدد بواسطة الأدلة . |
+| [Record](./record) | سجل سجل التدقيق |
+| [SharePointMetadata](./sharepointmetadata) | يصف بيانات التعريف حول المستند في SharePoint أو OneDrive for Business التي تحتوي على المعلومات الحساسة. |
+| [Subscription](./subscription) | يحتوي الكائن على معلومات حول الاشتراك مع خطاف الويب المرتبط به. |
+| [Webhook](./webhook) | الكائن يحتوي على معلومات حول webhook |
+## واجهات
+
+| واجهه المستخدم | وصف |
+| --- | --- |
+| [IActivityClient](./iactivityclient) | يمثل واجهة عميل Exchange REST. |
+## تعداد
+
+| تعداد | وصف |
+| --- | --- |
+| [ActivityAzureActiveDirectoryEventType](./activityazureactivedirectoryeventtype) | نوع حدث Azure AD . |
+| [AddOnType](./addontype) | أنواع الوظائف الإضافية التي أنشأت الحدث . |
+| [AuthenticationMethod](./authenticationmethod) | طرق المصادقة |
+| [CredentialType](./credentialtype) | أنواع بيانات الاعتماد |
+| [DataCenterSecurityEventType](./datacentersecurityeventtype) | أنواع حدث dmdlet في صندوق القفل. |
+| [DetectionType](./detectiontype) | نوع الاكتشاف . |
+| [DeviceType](./devicetype) | أنواع الأجهزة المستخدمة للوصول إلى Sway للحدث المشغل. |
+| [Endpoint](./endpoint) | أنواع نقطة نهاية عميل Sway للحدث الذي تم تشغيله. |
+| [EventSource](./eventsource) | تدقيق مصادر الأحداث |
+| [FileVerdict](./fileverdict) | ملف البرمجيات الخبيثة الحكم. |
+| [IdentityType](./identitytype) | أنواع الهوية |
+| [ItemType](./itemtype) | أنواع بند التدقيق |
+| [LoginType](./logintype) | أنواع تسجيل الدخول |
+| [LogonType](./logontype) | أنواع تسجيل دخول التدقيق |
+| [MemberRoleType](./memberroletype) | نوع دور المستخدم داخل الفريق. |
+| [NotificationStatus](./notificationstatus) |  |
+| [OperationResult](./operationresult) | أنواع نتائج العملية |
+| [ProjectAction](./projectaction) | إجراء المشروع |
+| [ProjectEntity](./projectentity) | كيان المشروع |
+| [RecordType](./recordtype) | أنواع سجلات التدقيق |
+| [ResultStatus](./resultstatus) | يشير إلى حالات العملية المسجلة. |
+| [Scope](./scope) | نطاق التدقيق |
+| [SharePointAuditOperation](./sharepointauditoperation) | عمليات تدقيق SharePoint |
+| [SubscriptionStatus](./subscriptionstatus) | حالة الاشتراك |
+| [SwayAuditOperation](./swayauditoperation) | عملية تدقيق Sway |
+| [UserType](./usertype) | أنواع المستخدمين |
+| [WebhookStatus](./webhookstatus) | حالة الرد التلقائي على الويب |
+| [Workload](./workload) | خدمة Office 365 حيث حدث النشاط. |
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

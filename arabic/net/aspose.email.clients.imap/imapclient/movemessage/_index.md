@@ -1,0 +1,189 @@
+---
+title: MoveMessage
+second_title: Aspose.Email بريد إلكتروني لمرجع .NET API
+description: نقل الرسالة
+type: docs
+weight: 930
+url: /ar/net/aspose.email.clients.imap/imapclient/movemessage/
+---
+## MoveMessage(IConnection, int, string, bool) {#movemessage_1}
+
+نقل الرسالة
+
+```csharp
+public string MoveMessage(IConnection connection, int sequenceNumber, string folderName, 
+    bool commitDeletions)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| sequenceNumber | Int32 | الرقم التسلسلي للرسالة |
+| folderName | String | اسم المجلد حيث سيتم نقل الرسالة |
+| commitDeletions | Boolean | يحدد ما إذا كان يجب تنفيذ عمليات الحذف أم لا. |
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## MoveMessage(IConnection, string, string, bool) {#movemessage_3}
+
+لنقل الرسالة
+
+```csharp
+public string MoveMessage(IConnection connection, string uniqueId, string folderName, 
+    bool commitDeletions)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| uniqueId | String | معرّف الرسالة |
+| folderName | String | اسم المجلد حيث سيتم نقل الرسالة |
+| commitDeletions | Boolean | يحدد ما إذا كان يجب تنفيذ عمليات الحذف أم لا. |
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## MoveMessage(int, string, bool) {#movemessage_5}
+
+لنقل الرسالة
+
+```csharp
+public string MoveMessage(int sequenceNumber, string folderName, bool commitDeletions)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| sequenceNumber | Int32 | الرقم التسلسلي للرسالة |
+| folderName | String | اسم المجلد حيث سيتم نقل الرسالة |
+| commitDeletions | Boolean | يحدد ما إذا كان يجب تنفيذ عمليات الحذف أم لا. |
+
+### أنظر أيضا
+
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## MoveMessage(string, string, bool) {#movemessage_7}
+
+لنقل الرسالة
+
+```csharp
+public string MoveMessage(string uniqueId, string folderName, bool commitDeletions)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| uniqueId | String | معرّف الرسالة |
+| folderName | String | اسم المجلد حيث سيتم نقل الرسالة |
+| commitDeletions | Boolean | يحدد ما إذا كان يجب تنفيذ عمليات الحذف أم لا. |
+
+### أنظر أيضا
+
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## MoveMessage(IConnection, int, string) {#movemessage}
+
+نقل الرسالة
+
+```csharp
+public string MoveMessage(IConnection connection, int sequenceNumber, string folderName)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| sequenceNumber | Int32 | الرقم التسلسلي للرسالة |
+| folderName | String | اسم المجلد حيث سيتم نقل الرسالة |
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## MoveMessage(IConnection, string, string) {#movemessage_2}
+
+لنقل الرسالة
+
+```csharp
+public string MoveMessage(IConnection connection, string uniqueId, string folderName)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| uniqueId | String | معرّف الرسالة |
+| folderName | String | اسم المجلد حيث سيتم نقل الرسالة |
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## MoveMessage(int, string) {#movemessage_4}
+
+لنقل الرسالة
+
+```csharp
+public string MoveMessage(int sequenceNumber, string folderName)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| sequenceNumber | Int32 | الرقم التسلسلي للرسالة |
+| folderName | String | اسم المجلد حيث سيتم نقل الرسالة |
+
+### أنظر أيضا
+
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## MoveMessage(string, string) {#movemessage_6}
+
+لنقل الرسالة
+
+```csharp
+public string MoveMessage(string uniqueId, string folderName)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| uniqueId | String | معرّف الرسالة |
+| folderName | String | اسم المجلد حيث سيتم نقل الرسالة |
+
+### أنظر أيضا
+
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

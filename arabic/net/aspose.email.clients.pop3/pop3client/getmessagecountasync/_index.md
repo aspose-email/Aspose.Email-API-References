@@ -1,0 +1,205 @@
+---
+title: GetMessageCountAsync
+second_title: Aspose.Email بريد إلكتروني لمرجع .NET API
+description: يحصل على عدد الرسائل
+type: docs
+weight: 200
+url: /ar/net/aspose.email.clients.pop3/pop3client/getmessagecountasync/
+---
+## GetMessageCountAsync(IConnection) {#getmessagecountasync_1}
+
+يحصل على عدد الرسائل
+
+```csharp
+public Task<int> GetMessageCountAsync(IConnection connection)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+
+### قيمة الإرجاع
+
+كائن المهمة ، مع المفوض لهذه العملية
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* مساحة الاسم [Aspose.Email.Clients.Pop3](../../pop3client)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## GetMessageCountAsync(IConnection, bool) {#getmessagecountasync_2}
+
+يحصل على عدد الرسائل
+
+```csharp
+public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransaction)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| closeTransaction | Boolean | يشير إلى ما إذا كان يجب إغلاق المعاملة الحالية ، قبل استرداد القائمة. |
+
+### قيمة الإرجاع
+
+كائن المهمة ، مع المفوض لهذه العملية
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* مساحة الاسم [Aspose.Email.Clients.Pop3](../../pop3client)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## GetMessageCountAsync() {#getmessagecountasync}
+
+يحصل على عدد الرسائل
+
+```csharp
+public Task<int> GetMessageCountAsync()
+```
+
+### قيمة الإرجاع
+
+كائن المهمة ، مع المفوض لهذه العملية
+
+### أنظر أيضا
+
+* class [Pop3Client](../../pop3client)
+* مساحة الاسم [Aspose.Email.Clients.Pop3](../../pop3client)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## GetMessageCountAsync(bool) {#getmessagecountasync_5}
+
+يحصل على عدد الرسائل
+
+```csharp
+public Task<int> GetMessageCountAsync(bool closeTransaction)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| closeTransaction | Boolean | يشير إلى ما إذا كان يجب إغلاق المعاملة الحالية ، قبل استرداد القائمة. |
+
+### قيمة الإرجاع
+
+كائن المهمة ، مع المفوض لهذه العملية
+
+### أنظر أيضا
+
+* class [Pop3Client](../../pop3client)
+* مساحة الاسم [Aspose.Email.Clients.Pop3](../../pop3client)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## GetMessageCountAsync(IConnection, CancellationToken) {#getmessagecountasync_4}
+
+يحصل على عدد الرسائل
+
+```csharp
+public Task<int> GetMessageCountAsync(IConnection connection, CancellationToken token)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| token | CancellationToken | ينشر إشعارًا بإلغاء العمليات. |
+
+### قيمة الإرجاع
+
+كائن المهمة ، مع المفوض لهذه العملية
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* مساحة الاسم [Aspose.Email.Clients.Pop3](../../pop3client)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## GetMessageCountAsync(IConnection, bool, CancellationToken) {#getmessagecountasync_3}
+
+يحصل على عدد الرسائل
+
+```csharp
+public Task<int> GetMessageCountAsync(IConnection connection, bool closeTransaction, 
+    CancellationToken token)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| closeTransaction | Boolean | يشير إلى ما إذا كان يجب إغلاق المعاملة الحالية ، قبل استرداد القائمة. |
+| token | CancellationToken | ينشر إشعارًا بإلغاء العمليات. |
+
+### قيمة الإرجاع
+
+كائن المهمة ، مع المفوض لهذه العملية
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* مساحة الاسم [Aspose.Email.Clients.Pop3](../../pop3client)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## GetMessageCountAsync(CancellationToken) {#getmessagecountasync_7}
+
+يحصل على عدد الرسائل
+
+```csharp
+public Task<int> GetMessageCountAsync(CancellationToken token)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| token | CancellationToken | ينشر إشعارًا بإلغاء العمليات. |
+
+### قيمة الإرجاع
+
+كائن المهمة ، مع المفوض لهذه العملية
+
+### أنظر أيضا
+
+* class [Pop3Client](../../pop3client)
+* مساحة الاسم [Aspose.Email.Clients.Pop3](../../pop3client)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## GetMessageCountAsync(bool, CancellationToken) {#getmessagecountasync_6}
+
+يحصل على عدد الرسائل
+
+```csharp
+public Task<int> GetMessageCountAsync(bool closeTransaction, CancellationToken token)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| closeTransaction | Boolean | يشير إلى ما إذا كان يجب إغلاق المعاملة الحالية ، قبل استرداد القائمة. |
+| token | CancellationToken | ينشر إشعارًا بإلغاء العمليات. |
+
+### قيمة الإرجاع
+
+كائن المهمة ، مع المفوض لهذه العملية
+
+### أنظر أيضا
+
+* class [Pop3Client](../../pop3client)
+* مساحة الاسم [Aspose.Email.Clients.Pop3](../../pop3client)
+* المجسم [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

@@ -1,0 +1,179 @@
+---
+title: UndeleteMessage
+second_title: Aspose.Email بريد إلكتروني لمرجع .NET API
+description: وضع علامة على رسالة برقم التسلسل المحدد على أنها لم يتم حذفها
+type: docs
+weight: 1230
+url: /ar/net/aspose.email.clients.imap/imapclient/undeletemessage/
+---
+## UndeleteMessage(IConnection, int) {#undeletemessage}
+
+وضع علامة على رسالة برقم التسلسل المحدد على أنها لم يتم حذفها
+
+```csharp
+public void UndeleteMessage(IConnection connection, int sequenceNumber)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| sequenceNumber | Int32 | الرقم التسلسلي للرسالة |
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessage(IConnection, string) {#undeletemessage_2}
+
+وضع علامة على رسالة برقم التسلسل المحدد على أنها لم يتم حذفها.
+
+```csharp
+public void UndeleteMessage(IConnection connection, string uniqueId)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| uniqueId | String | المعرف الفريد للرسالة |
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessage(int) {#undeletemessage_4}
+
+وضع علامة على رسالة برقم التسلسل المحدد على أنها لم يتم حذفها
+
+```csharp
+public void UndeleteMessage(int sequenceNumber)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| sequenceNumber | Int32 | الرقم التسلسلي للرسالة |
+
+### أنظر أيضا
+
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessage(string) {#undeletemessage_6}
+
+وضع علامة على رسالة برقم التسلسل المحدد على أنها لم يتم حذفها.
+
+```csharp
+public void UndeleteMessage(string uniqueId)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| uniqueId | String | المعرف الفريد للرسالة |
+
+### أنظر أيضا
+
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessage(IConnection, int, long) {#undeletemessage_1}
+
+وضع علامة على رسالة برقم التسلسل المحدد على أنها لم يتم حذفها
+
+```csharp
+public void UndeleteMessage(IConnection connection, int sequenceNumber, long modificationSequence)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| sequenceNumber | Int32 | الرقم التسلسلي للرسالة |
+| modificationSequence | Int64 | تسلسل التعديل. من فضلك ، اقرأ المزيد https://tools.ietf.org/html/rfc7162 |
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessage(IConnection, string, long) {#undeletemessage_3}
+
+وضع علامة على رسالة برقم التسلسل المحدد على أنها لم يتم حذفها.
+
+```csharp
+public void UndeleteMessage(IConnection connection, string uniqueId, long modificationSequence)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| connection | IConnection | الاتصال بالخادم |
+| uniqueId | String | المعرف الفريد للرسالة |
+| modificationSequence | Int64 | تسلسل التعديل. من فضلك ، اقرأ المزيد https://tools.ietf.org/html/rfc7162 |
+
+### أنظر أيضا
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessage(int, long) {#undeletemessage_5}
+
+وضع علامة على رسالة برقم التسلسل المحدد على أنها لم يتم حذفها
+
+```csharp
+public void UndeleteMessage(int sequenceNumber, long modificationSequence)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| sequenceNumber | Int32 | الرقم التسلسلي للرسالة |
+| modificationSequence | Int64 | تسلسل التعديل. من فضلك ، اقرأ المزيد https://tools.ietf.org/html/rfc7162 |
+
+### أنظر أيضا
+
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+---
+
+## UndeleteMessage(string, long) {#undeletemessage_7}
+
+وضع علامة على رسالة برقم التسلسل المحدد على أنها لم يتم حذفها.
+
+```csharp
+public void UndeleteMessage(string uniqueId, long modificationSequence)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| uniqueId | String | المعرف الفريد للرسالة |
+| modificationSequence | Int64 | تسلسل التعديل. من فضلك ، اقرأ المزيد https://tools.ietf.org/html/rfc7162 |
+
+### أنظر أيضا
+
+* class [ImapClient](../../imapclient)
+* مساحة الاسم [Aspose.Email.Clients.Imap](../../imapclient)
+* المجسم [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
