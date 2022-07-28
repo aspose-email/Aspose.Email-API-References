@@ -1,0 +1,183 @@
+---
+title: SaveMessage
+second_title: Aspose.Email für .NET-API-Referenz
+description: Ruft die Nachricht ab und speichert sie als Stream
+type: docs
+weight: 350
+url: /de/net/aspose.email.clients.pop3/pop3client/savemessage/
+---
+## SaveMessage(IConnection, string, Stream) {#savemessage_2}
+
+Ruft die Nachricht ab und speichert sie als Stream
+
+```csharp
+public void SaveMessage(IConnection connection, string uniqueId, Stream outputStream)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| connection | IConnection | Verbindung zu einem Server |
+| uniqueId | String | Die eindeutige ID der Nachricht |
+| outputStream | Stream | Stream, wo die Nachricht gespeichert wird |
+
+### Siehe auch
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namensraum [Aspose.Email.Clients.Pop3](../../pop3client)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## SaveMessage(IConnection, string, string) {#savemessage_3}
+
+Ruft die Nachricht ab und speichert sie in einer Datei
+
+```csharp
+public void SaveMessage(IConnection connection, string uniqueId, string fileName)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| connection | IConnection | Verbindung zu einem Server |
+| uniqueId | String | Die eindeutige ID der Nachricht |
+| fileName | String | Dateiname für Nachricht |
+
+### Siehe auch
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namensraum [Aspose.Email.Clients.Pop3](../../pop3client)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## SaveMessage(IConnection, int, Stream) {#savemessage}
+
+Ruft die Nachricht ab und speichert sie als Stream
+
+```csharp
+public void SaveMessage(IConnection connection, int sequenceNumber, Stream outputStream)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| connection | IConnection | Verbindung zu einem Server |
+| sequenceNumber | Int32 | Die Sequenznummer der Nachricht |
+| outputStream | Stream | Stream, wo die Nachricht gespeichert wird |
+
+### Siehe auch
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namensraum [Aspose.Email.Clients.Pop3](../../pop3client)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## SaveMessage(IConnection, int, string) {#savemessage_1}
+
+Ruft die Nachricht ab und speichert sie in einer Datei
+
+```csharp
+public void SaveMessage(IConnection connection, int sequenceNumber, string fileName)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| connection | IConnection | Verbindung zu einem Server |
+| sequenceNumber | Int32 | Die Sequenznummer der Nachricht |
+| fileName | String | Dateiname für Nachricht |
+
+### Siehe auch
+
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namensraum [Aspose.Email.Clients.Pop3](../../pop3client)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## SaveMessage(string, Stream) {#savemessage_6}
+
+Ruft die Nachricht ab und speichert sie als Stream
+
+```csharp
+public void SaveMessage(string uniqueId, Stream outputStream)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| uniqueId | String | Die eindeutige ID der Nachricht |
+| outputStream | Stream | Stream, wo die Nachricht gespeichert wird |
+
+### Siehe auch
+
+* class [Pop3Client](../../pop3client)
+* namensraum [Aspose.Email.Clients.Pop3](../../pop3client)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## SaveMessage(string, string) {#savemessage_7}
+
+Ruft die Nachricht ab und speichert sie in einer Datei
+
+```csharp
+public void SaveMessage(string uniqueId, string fileName)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| uniqueId | String | Die eindeutige ID der Nachricht |
+| fileName | String | Dateiname für Nachricht |
+
+### Siehe auch
+
+* class [Pop3Client](../../pop3client)
+* namensraum [Aspose.Email.Clients.Pop3](../../pop3client)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## SaveMessage(int, Stream) {#savemessage_4}
+
+Ruft die Nachricht ab und speichert sie als Stream
+
+```csharp
+public void SaveMessage(int sequenceNumber, Stream outputStream)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| sequenceNumber | Int32 | Die Sequenznummer der Nachricht |
+| outputStream | Stream | Stream, wo die Nachricht gespeichert wird |
+
+### Siehe auch
+
+* class [Pop3Client](../../pop3client)
+* namensraum [Aspose.Email.Clients.Pop3](../../pop3client)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## SaveMessage(int, string) {#savemessage_5}
+
+Ruft die Nachricht ab und speichert sie in einer Datei
+
+```csharp
+public void SaveMessage(int sequenceNumber, string fileName)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| sequenceNumber | Int32 | Die Sequenznummer der Nachricht |
+| fileName | String | Dateiname für Nachricht |
+
+### Siehe auch
+
+* class [Pop3Client](../../pop3client)
+* namensraum [Aspose.Email.Clients.Pop3](../../pop3client)
+* Montage [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

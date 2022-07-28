@@ -1,0 +1,178 @@
+---
+title: Save
+second_title: Aspose.Email für .NET-API-Referenz
+description: Speichert das Kalenderobjekt in der Datei mit dem angegebenen Format unter Verwendung der Standardspeicheroptionen
+type: docs
+weight: 220
+url: /de/net/aspose.email.mapi/mapicalendar/save/
+---
+## Save(string, MapiCalendarSaveOptions) {#save_5}
+
+Speichert das Kalenderobjekt in der Datei mit dem angegebenen Format unter Verwendung der Standardspeicheroptionen
+
+```csharp
+public void Save(string filePath, MapiCalendarSaveOptions saveOptions)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| filePath | String | Ein Dateipfad |
+| saveOptions | MapiCalendarSaveOptions | Eine Speicheroption |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentException | *filePath* ist`Null`oder`leer` |
+| NotSupportedException | Die angegebenen Speicheroptionen werden nicht unterstützt |
+
+### Siehe auch
+
+* class [MapiCalendarSaveOptions](../../mapicalendarsaveoptions)
+* class [MapiCalendar](../../mapicalendar)
+* namensraum [Aspose.Email.Mapi](../../mapicalendar)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## Save(Stream, MapiCalendarSaveOptions) {#save_2}
+
+Speichert den Kalender mit den angegebenen Speicheroptionen im Stream
+
+```csharp
+public void Save(Stream stream, MapiCalendarSaveOptions saveOptions)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| stream | Stream | Ein Stream zum Speichern |
+| saveOptions | MapiCalendarSaveOptions | Eine Speicheroption |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentNullException | *saveOptions*oder*stream* ist`Null` |
+| NotSupportedException | Die angegebenen Speicheroptionen werden nicht unterstützt |
+| NotSupportedException | stream unterstützt das Schreiben nicht |
+
+### Siehe auch
+
+* class [MapiCalendarSaveOptions](../../mapicalendarsaveoptions)
+* class [MapiCalendar](../../mapicalendar)
+* namensraum [Aspose.Email.Mapi](../../mapicalendar)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## Save(string) {#save_3}
+
+Speichert das Kalenderobjekt in der Datei im iCalendar-Format unter Verwendung der Standardspeicheroptionen
+
+```csharp
+public void Save(string filePath)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| filePath | String | Ein Dateipfad |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentException | *filePath* ist`Null`oder`leer` |
+
+### Siehe auch
+
+* class [MapiCalendar](../../mapicalendar)
+* namensraum [Aspose.Email.Mapi](../../mapicalendar)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## Save(string, AppointmentSaveFormat) {#save_4}
+
+Speichert das Kalenderobjekt in der Datei mit dem angegebenen Format unter Verwendung der Standardspeicheroptionen
+
+```csharp
+public void Save(string filePath, AppointmentSaveFormat saveFormat)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| filePath | String | Ein Dateipfad |
+| saveFormat | AppointmentSaveFormat | Ein sicheres Format |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentException | *filePath* ist`Null`oder`leer` |
+| NotSupportedException | Die angegebene*saveFormat* wird nicht unterstützt |
+
+### Siehe auch
+
+* enum [AppointmentSaveFormat](../../../aspose.email.calendar/appointmentsaveformat)
+* class [MapiCalendar](../../mapicalendar)
+* namensraum [Aspose.Email.Mapi](../../mapicalendar)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## Save(Stream) {#save}
+
+Speichert das Kalenderobjekt in der Datei im iCalendar-Format unter Verwendung der Standardspeicheroptionen
+
+```csharp
+public void Save(Stream stream)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| stream | Stream | Ein Stream zum Speichern |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentNullException | *stream* ist`Null` |
+| NotSupportedException | stream unterstützt das Schreiben nicht |
+
+### Siehe auch
+
+* class [MapiCalendar](../../mapicalendar)
+* namensraum [Aspose.Email.Mapi](../../mapicalendar)
+* Montage [Aspose.Email](../../../)
+
+---
+
+## Save(Stream, AppointmentSaveFormat) {#save_1}
+
+Speichert das Kalenderobjekt im Stream mit dem angegebenen Format unter Verwendung der Standardspeicheroptionen
+
+```csharp
+public void Save(Stream stream, AppointmentSaveFormat saveFormat)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| stream | Stream | Ein Stream zum Speichern |
+| saveFormat | AppointmentSaveFormat | Ein sicheres Format |
+
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentNullException | *stream* ist`Null` |
+| NotSupportedException | Die angegebene*saveFormat* wird nicht unterstützt |
+| NotSupportedException | stream unterstützt das Schreiben nicht |
+
+### Siehe auch
+
+* enum [AppointmentSaveFormat](../../../aspose.email.calendar/appointmentsaveformat)
+* class [MapiCalendar](../../mapicalendar)
+* namensraum [Aspose.Email.Mapi](../../mapicalendar)
+* Montage [Aspose.Email](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->

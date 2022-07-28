@@ -1,0 +1,71 @@
+---
+title: MapiNamedProperty
+second_title: Aspose.Email für .NET-API-Referenz
+description: Repräsentiert den Datentyp der benannten Eigenschaft.
+type: docs
+weight: 18510
+url: /de/net/aspose.email.mapi/mapinamedproperty/
+---
+## MapiNamedProperty class
+
+Repräsentiert den Datentyp der benannten Eigenschaft.
+
+```csharp
+public sealed class MapiNamedProperty : MapiProperty
+```
+
+## Konstrukteure
+
+| Name | Beschreibung |
+| --- | --- |
+| [MapiNamedProperty](mapinamedproperty#constructor)() | Initialisiert eine neue Instanz von[`MapiNamedProperty`](../mapinamedproperty) Klasse. |
+| [MapiNamedProperty](mapinamedproperty#constructor_1)(INamedPropertyTagProvider, PidLidPropertyDescriptor, object) | Initialisiert eine neue Instanz von[`MapiNamedProperty`](../mapinamedproperty) Klasse. |
+| [MapiNamedProperty](mapinamedproperty#constructor_2)(INamedPropertyTagProvider, PidNamePropertyDescriptor, object) | Initialisiert eine neue Instanz von[`MapiNamedProperty`](../mapinamedproperty) Klasse. |
+| [MapiNamedProperty](mapinamedproperty#constructor_3)(long, long, Guid, byte[]) | Initialisiert eine neue Instanz von[`MapiNamedProperty`](../mapinamedproperty) Klasse. |
+| [MapiNamedProperty](mapinamedproperty#constructor_4)(long, string, Guid, byte[]) | Initialisiert eine neue Instanz von[`MapiNamedProperty`](../mapinamedproperty) Klasse. |
+
+## Eigenschaften
+
+| Name | Beschreibung |
+| --- | --- |
+| virtual [Data](../../aspose.email.mapi/mapiproperty/data) { get; } | Ruft die Binärdaten ab. |
+| virtual [DataType](../../aspose.email.mapi/mapiproperty/datatype) { get; } | Ruft den Datentyp ab. |
+| [Descriptor](../../aspose.email.mapi/mapiproperty/descriptor) { get; } | Ruft den Deskriptor der MAPI-Eigenschaft ab |
+| [Guid](../../aspose.email.mapi/mapinamedproperty/guid) { get; } | erhält die benannte Eigenschaft GUID |
+| virtual [Identifier](../../aspose.email.mapi/mapiproperty/identifier) { get; } | Ruft den Bezeichner ab. |
+| [IsNamed](../../aspose.email.mapi/mapiproperty/isnamed) { get; } | Gibt an, ob die Eigenschaft eine benannte Eigenschaft ist. |
+| virtual [IsSigned](../../aspose.email.mapi/mapiproperty/issigned) { get; set; } | Gibt an, ob die Binärdaten signiert sind. |
+| [Kind](../../aspose.email.mapi/mapinamedproperty/kind) { get; } | erhält die benannte Eigenschaft kind |
+| [MVEntries](../../aspose.email.mapi/mapiproperty/mventries) { get; } | Ruft die MV-Eintragsliste ab. |
+| virtual [Name](../../aspose.email.mapi/mapiproperty/name) { get; } | Ruft den Namen ab. |
+| [NameId](../../aspose.email.mapi/mapinamedproperty/nameid) { get; } | erhält die benannte Eigenschaft ID |
+| [Oom](../../aspose.email.mapi/mapinamedproperty/oom) { get; } | erhält OOM-Wert |
+| virtual [PropertyTagName](../../aspose.email.mapi/mapiproperty/propertytagname) { get; } | Ruft den PropertyName ab. |
+| virtual [Tag](../../aspose.email.mapi/mapiproperty/tag) { get; } | Ruft das Tag ab. |
+
+## Methoden
+
+| Name | Beschreibung |
+| --- | --- |
+| virtual [GetBoolean](../../aspose.email.mapi/mapiproperty/getboolean)() | Ruft die ersten Bytes der Binärdaten als booleschen Wert ab. |
+| virtual [GetCurrency](../../aspose.email.mapi/mapiproperty/getcurrency)() | Ruft die Währung als Zeichenfolge unter Verwendung der angegebenen Codepage ab. |
+| virtual [GetDateTime](../../aspose.email.mapi/mapiproperty/getdatetime)() | Ruft die ersten Bytes der Binärdaten als datetime ab. |
+| virtual [GetDouble](../../aspose.email.mapi/mapiproperty/getdouble)() | Ruft die Bytes der Binärdaten als Double ab. |
+| virtual [GetFloat](../../aspose.email.mapi/mapiproperty/getfloat)() | Ruft die Bytes der Binärdaten als Float ab. |
+| virtual [GetFloatingDate](../../aspose.email.mapi/mapiproperty/getfloatingdate)() | Ruft die Bytes der Binärdaten als DateTime ab. |
+| virtual [GetGuid](../../aspose.email.mapi/mapiproperty/getguid)() | Ruft die Bytes der Binärdaten als Guid ab. |
+| virtual [GetInt32](../../aspose.email.mapi/mapiproperty/getint32)() | Ruft die ersten 4 Bytes der Binärdaten als int32 ab. |
+| virtual [GetLong](../../aspose.email.mapi/mapiproperty/getlong)() | Holt die ersten 8 Bytes der Binärdaten so lang. |
+| virtual [GetShort](../../aspose.email.mapi/mapiproperty/getshort)() | Ruft die ersten 2 Bytes der Binärdaten als kurz ab. |
+| virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)() | Ruft die Binärdaten als String ab. |
+| virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)(int) | Ruft die Binärdaten als Zeichenfolge unter Verwendung der angegebenen Codepage ab. |
+| [GetValue](../../aspose.email.mapi/mapiproperty/getvalue)() | Ruft Wert als Objekt ab |
+| override [ToString](../../aspose.email.mapi/mapiproperty/tostring)() | Gibt a zurückString das repräsentiert den StromObject . |
+
+### Siehe auch
+
+* class [MapiProperty](../mapiproperty)
+* namensraum [Aspose.Email.Mapi](../../aspose.email.mapi)
+* Montage [Aspose.Email](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
