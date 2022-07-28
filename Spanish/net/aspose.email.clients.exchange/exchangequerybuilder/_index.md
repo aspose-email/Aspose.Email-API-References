@@ -1,0 +1,60 @@
+---
+title: ExchangeQueryBuilder
+second_title: Referencia de la API de Aspose.Email para .NET
+description: Representa el generador de expresión de búsqueda basado en los filtros de búsqueda que utiliza el protocolo de Exchange.
+type: docs
+weight: 3440
+url: /es/net/aspose.email.clients.exchange/exchangequerybuilder/
+---
+## ExchangeQueryBuilder class
+
+Representa el generador de expresión de búsqueda basado en los filtros de búsqueda que utiliza el protocolo de Exchange.
+
+```csharp
+public sealed class ExchangeQueryBuilder : MailQueryBuilder
+```
+
+## Constructores
+
+| Nombre | Descripción |
+| --- | --- |
+| [ExchangeQueryBuilder](exchangequerybuilder)() | Inicializa una nueva instancia del[`ExchangeQueryBuilder`](../exchangequerybuilder) clase. |
+
+## Propiedades
+
+| Nombre | Descripción |
+| --- | --- |
+| [Appointment](../../aspose.email.clients.exchange/exchangequerybuilder/appointment) { get; } | Obtiene objeto con propiedades de cita para crear query |
+| [Bcc](../../aspose.email.tools.search/mailquerybuilder/bcc) { get; } | Obtiene el campo que permite buscar mensajes que contengan la cadena especificada en el campo BCC de la estructura del sobre. |
+| [Body](../../aspose.email.tools.search/mailquerybuilder/body) { get; } | Obtiene el campo que permite buscar mensajes que contengan la cadena especificada en el cuerpo del mensaje. |
+| [Cc](../../aspose.email.tools.search/mailquerybuilder/cc) { get; } | Obtiene el campo que permite buscar mensajes que contengan la cadena especificada en el campo CC de la estructura del sobre. |
+| [Contact](../../aspose.email.clients.exchange/exchangequerybuilder/contact) { get; } | Obtiene objeto con propiedades de contacto para crear query |
+| [ContentClass](../../aspose.email.clients.exchange/exchangequerybuilder/contentclass) { get; } | Obtiene elementos con una clase de contenido especificada. |
+| [DefaultEncoding](../../aspose.email.tools.search/mailquerybuilder/defaultencoding) { get; } | Obtiene la codificación predeterminada (juego de caracteres) para el generador de consultas |
+| [ExtendedProperties](../../aspose.email.clients.exchange/exchangequerybuilder/extendedproperties) { get; } | Obtiene un diccionario con pares de descriptores de propiedades y un campo de comparación para buscar por propiedades extendidas. |
+| [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | Obtiene el campo que permite buscar mensajes que contengan la cadena especificada en el campo FROM de la estructura del sobre. |
+| [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | Obtiene el campo que permite buscar mensajes por fecha interna. |
+| [ItemSize](../../aspose.email.clients.exchange/exchangequerybuilder/itemsize) { get; } | Obtiene el campo que permite buscar elementos con un tamaño especificado. |
+| [MessageId](../../aspose.email.clients.exchange/exchangequerybuilder/messageid) { get; } | Obtiene el campo que permite encontrar mensajes que contienen la cadena especificada en el campo MessageId de la estructura del sobre. |
+| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Obtiene el campo que permite buscar mensajes por fecha de envío. |
+| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Obtiene el campo que permite buscar mensajes que contengan la cadena especificada en el campo SUBJECT de la estructura del sobre. |
+| [TaskStatus](../../aspose.email.clients.exchange/exchangequerybuilder/taskstatus) { get; } | Obtiene el campo que permite encontrar tareas que contienen el estado especificado. Compatibilidad del servidor: Exchange 2010 y superior |
+| [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | Obtiene el campo que permite encontrar los mensajes que contienen la cadena especificada en los encabezados (asunto, de, para, cc) y cuerpo del mensaje. |
+| [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | Obtiene el campo que permite encontrar mensajes que contienen la cadena especificada en el campo TO de la estructura del sobre. |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| [GetQuery](../../aspose.email.tools.search/mailquerybuilder/getquery)() | Obtiene la consulta. |
+| [HasFlags](../../aspose.email.clients.exchange/exchangequerybuilder/hasflags)(ExchangeMessageFlag) | Buscar mensajes con las banderas especificadas. |
+| [HasNoFlags](../../aspose.email.clients.exchange/exchangequerybuilder/hasnoflags)(ExchangeMessageFlag) | Buscar mensajes con banderas no especificadas. |
+| [Or](../../aspose.email.tools.search/mailquerybuilder/or)(MailQuery, MailQuery) | Buscar mensajes que coincidan con cualquiera de las claves de búsqueda. Proporciona disyunción entre dos expresiones (OR). |
+
+### Ver también
+
+* class [MailQueryBuilder](../../aspose.email.tools.search/mailquerybuilder)
+* espacio de nombres [Aspose.Email.Clients.Exchange](../../aspose.email.clients.exchange)
+* asamblea [Aspose.Email](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
