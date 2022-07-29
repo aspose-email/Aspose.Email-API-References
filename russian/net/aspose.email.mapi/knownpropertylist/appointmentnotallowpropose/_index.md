@@ -1,14 +1,14 @@
 ---
 title: AppointmentNotAllowPropose
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает разрешено ли участникам предлагать новую дату и/или время собрания. ОбластьВстречи Каноническое имяPidLidAppointmentNotAllowPropose Альтернативные именаdispidApptNotAllowPropose
+description: Указывает разрешено ли участникам предлагать новую дату и/или время собрания. Область Meetings Каноническое имя PidLidAppointmentNotAllowPropose Альтернативные имена dispidApptNotAllowPropose
 type: docs
 weight: 1200
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentnotallowpropose/
 ---
 ## KnownPropertyList.AppointmentNotAllowPropose field
 
-Указывает, разрешено ли участникам предлагать новую дату и/или время собрания. Область:Встречи Каноническое имя:PidLidAppointmentNotAllowPropose Альтернативные имена:dispidApptNotAllowPropose
+Указывает, разрешено ли участникам предлагать новую дату и/или время собрания. Область: Meetings Каноническое имя: PidLidAppointmentNotAllowPropose Альтернативные имена: dispidApptNotAllowPropose
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentNotAllowPropose;

@@ -1,14 +1,14 @@
 ---
 title: CalendarUid
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает уникальный идентификатор встречи или собрания. ОбластьОбщие Каноническое имяPidNameCalendarUid Альтернативные именаurnschemascalendaruid
+description: Указывает уникальный идентификатор встречи или встречи. Область Common Каноническое имя PidNameCalendarUid Альтернативные имена urnschemascalendaruid
 type: docs
 weight: 2450
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendaruid/
 ---
 ## KnownPropertyList.CalendarUid field
 
-Указывает уникальный идентификатор встречи или собрания. Область:Общие Каноническое имя:PidNameCalendarUid Альтернативные имена:urn:schemas:calendar:uid
+Указывает уникальный идентификатор встречи или встречи. Область: Common Каноническое имя: PidNameCalendarUid Альтернативные имена: urn:schemas:calendar:uid
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarUid;

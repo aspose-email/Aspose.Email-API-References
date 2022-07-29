@@ -1,14 +1,14 @@
 ---
 title: CopyMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Скопировать сообщение
+description: Скопируйте сообщениеeg
 type: docs
 weight: 510
 url: /ru/net/aspose.email.clients.imap/imapclient/copymessagesasync/
 ---
 ## CopyMessagesAsync(IConnection, int, int, string) {#copymessagesasync}
 
-Скопировать сообщение
+Скопируйте сообщениеeg
 
 ```csharp
 public Task CopyMessagesAsync(IConnection connection, int startSequence, int endSequence, 
@@ -20,7 +20,7 @@ public Task CopyMessagesAsync(IConnection connection, int startSequence, int end
 | connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -47,7 +47,7 @@ public Task CopyMessagesAsync(int startSequence, int endSequence, string folderN
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение для перемещения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -75,7 +75,7 @@ public Task CopyMessagesAsync(IConnection connection, string startUid, string en
 | connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -102,7 +102,7 @@ public Task CopyMessagesAsync(string startUid, string endUid, string folderName)
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которой должно быть сообщение перемещен |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -118,7 +118,7 @@ public Task CopyMessagesAsync(string startUid, string endUid, string folderName)
 
 ## CopyMessagesAsync(IConnection, IEnumerable&lt;int&gt;, string) {#copymessagesasync_4}
 
-Скопировать сообщение
+Скопируйте сообщениеeg
 
 ```csharp
 public Task CopyMessagesAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -129,7 +129,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -155,7 +155,7 @@ public Task CopyMessagesAsync(IEnumerable<int> sequenceSet, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -181,7 +181,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -207,7 +207,7 @@ public Task CopyMessagesAsync(IEnumerable<string> uidSet, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -234,7 +234,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -261,7 +261,7 @@ public Task CopyMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -278,7 +278,7 @@ public Task CopyMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 
 ## CopyMessagesAsync(IConnection, int, int, string, CancellationToken) {#copymessagesasync_1}
 
-Скопировать сообщение
+Скопируйте сообщениеeg
 
 ```csharp
 public Task CopyMessagesAsync(IConnection connection, int startSequence, int endSequence, 
@@ -290,8 +290,8 @@ public Task CopyMessagesAsync(IConnection connection, int startSequence, int end
 | connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -319,7 +319,7 @@ public Task CopyMessagesAsync(int startSequence, int endSequence, string folderN
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение для перемещения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -348,7 +348,7 @@ public Task CopyMessagesAsync(IConnection connection, string startUid, string en
 | connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -377,7 +377,7 @@ public Task CopyMessagesAsync(string startUid, string endUid, string folderName,
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которой должно быть сообщение перемещено |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -394,7 +394,7 @@ public Task CopyMessagesAsync(string startUid, string endUid, string folderName,
 
 ## CopyMessagesAsync(IConnection, IEnumerable&lt;int&gt;, string, CancellationToken) {#copymessagesasync_5}
 
-Скопировать сообщение
+Скопируйте сообщениеeg
 
 ```csharp
 public Task CopyMessagesAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -405,7 +405,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<int> sequenceS
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -433,8 +433,8 @@ public Task CopyMessagesAsync(IEnumerable<int> sequenceSet, string folderName,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -461,7 +461,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<string> uidSet
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -489,8 +489,8 @@ public Task CopyMessagesAsync(IEnumerable<string> uidSet, string folderName,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -517,7 +517,7 @@ public Task CopyMessagesAsync(IConnection connection, IEnumerable<ImapMessageInf
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -546,7 +546,7 @@ public Task CopyMessagesAsync(IEnumerable<ImapMessageInfo> messageInfoSet, strin
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

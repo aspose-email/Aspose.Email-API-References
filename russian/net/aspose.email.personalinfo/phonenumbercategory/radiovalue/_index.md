@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/phonenumbercategory/radiovalue/
 ---
 ## PhoneNumberCategory.RadioValue field
 
-Строковое значение для категории «Радио»
+Строковое значение для категории "Радио"
 
 ```csharp
 public const string RadioValue;

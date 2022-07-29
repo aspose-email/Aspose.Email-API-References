@@ -1,14 +1,14 @@
 ---
 title: EmsAbOutboundNewsfeed
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_OUTBOUND_NEWSFEED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_OUTBOUND_NEWSFEED
 type: docs
 weight: 7980
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsaboutboundnewsfeed/
 ---
 ## KnownPropertyList.EmsAbOutboundNewsfeed field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_OUTBOUND_NEWSFEED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_OUTBOUND_NEWSFEED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbOutboundNewsfeed;

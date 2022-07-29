@@ -1,14 +1,14 @@
 ---
 title: EnumerateMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет перечислитель который поддерживает итерацию сообщений в папке.
+description: Предоставляет перечислитель поддерживающий итерацию сообщений в папке.
 type: docs
 weight: 260
 url: /ru/net/aspose.email.storage.pst/folderinfo/enumeratemessages/
 ---
 ## FolderInfo.EnumerateMessages method
 
-Предоставляет перечислитель, который поддерживает итерацию сообщений в папке.
+Предоставляет перечислитель, поддерживающий итерацию сообщений в папке.
 
 ```csharp
 public IEnumerable<MessageInfo> EnumerateMessages()
@@ -16,7 +16,7 @@ public IEnumerable<MessageInfo> EnumerateMessages()
 
 ### Возвращаемое значение
 
-IEnumerable, который представляет перечислитель, который перебирает сообщения в папке.
+IEnumerable, , представляющий перечислитель, перебирающий сообщения в папке.
 
 ### Смотрите также
 

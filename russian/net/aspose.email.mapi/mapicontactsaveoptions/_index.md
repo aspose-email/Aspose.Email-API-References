@@ -3,7 +3,7 @@ title: MapiContactSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает параметры сохранения контактов.
 type: docs
-weight: 18300
+weight: 18330
 url: /ru/net/aspose.email.mapi/mapicontactsaveoptions/
 ---
 ## MapiContactSaveOptions class
@@ -18,7 +18,7 @@ public sealed class MapiContactSaveOptions : ContactSaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactSaveOptions](mapicontactsaveoptions)() | Инициализирует новый экземпляр класса[`MapiContactSaveOptions`](../mapicontactsaveoptions). |
+| [MapiContactSaveOptions](mapicontactsaveoptions)() | Инициализирует новый экземпляр[`MapiContactSaveOptions`](../mapicontactsaveoptions) класс. |
 
 ## Характеристики
 

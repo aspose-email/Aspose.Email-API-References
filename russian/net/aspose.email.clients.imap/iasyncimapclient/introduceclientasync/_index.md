@@ -1,14 +1,14 @@
 ---
 title: IntroduceClientAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Вводит информацию о клиенте на сервер.
+description: Представляет информацию о клиенте серверу.
 type: docs
 weight: 210
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/introduceclientasync/
 ---
 ## IAsyncImapClient.IntroduceClientAsync method
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public Task<ImapIdentificationInfo> IntroduceClientAsync(
@@ -18,7 +18,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | ImapIdentificationInfo | Соединение с сервером |
+| connection | ImapIdentificationInfo | Подключение к серверу |
 | clientIdentificationInfo | IConnection | Идентификационная информация клиента |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

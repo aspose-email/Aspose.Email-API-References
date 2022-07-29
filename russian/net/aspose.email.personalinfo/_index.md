@@ -1,19 +1,19 @@
 ---
 title: Aspose.Email.PersonalInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.PersonalInfo содержит классы представляющие контактную информацию.
+description: Aspose.Email.PersonalInfo namespace содержит классы представляющие контактную информацию.
 type: docs
 weight: 340
 url: /ru/net/aspose.email.personalinfo/
 ---
-Пространство имен **Aspose.Email.PersonalInfo** содержит классы, представляющие контактную информацию.
+**Aspose.Email.PersonalInfo** namespace содержит классы, представляющие контактную информацию.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
 | [AssociatedPerson](./associatedperson) | Описывает организацию, связанную с человеком. |
-| [AssociatedPersonCategory](./associatedpersoncategory) | Представляет категорию лиц |
+| [AssociatedPersonCategory](./associatedpersoncategory) | Представляет категорию для person |
 | [AssociatedPersonsList](./associatedpersonslist) | Список связанных лиц для контакта |
 | [Contact](./contact) | Представляет контактную информацию. |
 | [ContactPhoto](./contactphoto) | Представляет фото контакта. |
@@ -27,20 +27,20 @@ url: /ru/net/aspose.email.personalinfo/
 | [InstantMessengerCategory](./instantmessengercategory) | Представляет категорию для адреса мессенджера |
 | [InstantMessengerList](./instantmessengerlist) | Список адресов мессенджеров для контакта. |
 | [PhoneNumber](./phonenumber) | Представляет номер телефона. |
-| [PhoneNumberCategory](./phonenumbercategory) | Представляет категорию для телефонного номера |
-| [PhoneNumberList](./phonenumberlist) | Список телефонных номеров для контакта. |
+| [PhoneNumberCategory](./phonenumbercategory) | Представляет категорию для номера телефона |
+| [PhoneNumberList](./phonenumberlist) | Список номеров телефонов для контакта. |
 | [PostalAddress](./postaladdress) | Представляет почтовый адрес. |
 | [PostalAddressCategory](./postaladdresscategory) | Представляет категорию для почтового адреса |
 | [PostalAddressList](./postaladdresslist) | Список почтовых адресов для контакта. |
 | [Url](./url) | Objects представляет URL-адрес и его категорию. |
 | [UrlCategory](./urlcategory) | Представляет категорию для URL |
-| [UrlList](./urllist) | Список адресов для контакта |
+| [UrlList](./urllist) | Список URL для контакта |
 ## перечисление
 
 | перечисление | Описание |
 | --- | --- |
 | [ContactLoadFormat](./contactloadformat) | Перечисляет форматы загрузки контактов |
-| [FileAsMapping](./fileasmapping) | Указывает, как генерировать и повторно вычислять значение свойства dispidFileAs при изменении других свойств имени контакта. Совпадает с MS-OXPROPS версии 16.2 от 31.07.2014 |
+| [FileAsMapping](./fileasmapping) | Указывает, как создавать и повторно вычислять значение свойства dispidFileAs при изменении других свойств имени контакта. Совпадает с версией MS-OXPROPS 16.2 от 31.07.2014 |
 | [Gender](./gender) | Enum определяет пол человека |
 | [TextFormat](./textformat) | Определяет формат текста. |
 

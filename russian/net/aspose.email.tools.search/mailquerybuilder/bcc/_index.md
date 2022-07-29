@@ -16,7 +16,7 @@ public StringComparisonField Bcc { get; }
 
 ### Стоимость имущества
 
-[`DateComparisonField`](../../datecomparisonfield)представляет поле поиска BCC.
+[`DateComparisonField`](../../datecomparisonfield)который представляет поле поиска BCC.
 
 ### Смотрите также
 

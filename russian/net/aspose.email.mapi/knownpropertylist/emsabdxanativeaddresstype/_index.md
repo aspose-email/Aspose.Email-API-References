@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaNativeAddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE
 type: docs
 weight: 5790
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxanativeaddresstype/
 ---
 ## KnownPropertyList.EmsAbDxaNativeAddressType field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_NATIVE_ADDRESS_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaNativeAddressType;

@@ -1,14 +1,14 @@
 ---
 title: InternetLines
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INTERNET_LINES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INTERNET_LINES
 type: docs
 weight: 11500
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetlines/
 ---
 ## KnownPropertyList.InternetLines field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INTERNET_LINES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INTERNET_LINES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetLines;

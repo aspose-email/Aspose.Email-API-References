@@ -1,14 +1,14 @@
 ---
 title: EmsAbMdbUnreadLimit
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MDB_UNREAD_LIMIT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MDB_UNREAD_LIMIT
 type: docs
 weight: 7210
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmdbunreadlimit/
 ---
 ## KnownPropertyList.EmsAbMdbUnreadLimit field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MDB_UNREAD_LIMIT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MDB_UNREAD_LIMIT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMdbUnreadLimit;

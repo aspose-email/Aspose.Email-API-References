@@ -17,12 +17,12 @@ public Task<ExchangePermissionCollection> GetFolderPermissionsAsync(string folde
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUrl | String | URL папки. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| folderUrl | String | URL-адрес папки. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-Коллекция[`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
+[`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
 
 ### Смотрите также
 

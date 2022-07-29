@@ -1,14 +1,14 @@
 ---
 title: Parse
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземплярPropertyDescriptoraspose.email.mapi/propertydescriptorclass
+description: Инициализирует новый экземплярPropertyDescriptoraspose.email.mapi/propertydescriptor класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/propertydescriptor/parse/
 ---
 ## PropertyDescriptor.Parse method
 
-Инициализирует новый экземпляр[`PropertyDescriptor`](../../propertydescriptor)class
+Инициализирует новый экземпляр[`PropertyDescriptor`](../../propertydescriptor) класс
 
 ```csharp
 public static PropertyDescriptor Parse(string data)

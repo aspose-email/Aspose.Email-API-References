@@ -1,14 +1,14 @@
 ---
 title: CalendarVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует версию спецификации iCalendar как указано в разделе 2.1.3.1.1.3 MS-OXCICAL которая требуется для правильной интерпретации объекта iCalendar. ОбластьОбщие Каноническое имяPidNameCalendarVersion Альтернативные именаurnschemascalendarversion
+description: Идентифицирует версию спецификации iCalendar как указано в разделе 2.1.3.1.1.3 MS-OXCICAL которая требуется для правильной интерпретации объекта iCalendar. Область Common Каноническое имя PidNameCalendarVersion Альтернативные имена urnschemascalendarversion
 type: docs
 weight: 2460
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarversion/
 ---
 ## KnownPropertyList.CalendarVersion field
 
-Идентифицирует версию спецификации iCalendar, как указано в разделе 2.1.3.1.1.3 [MS-OXCICAL], которая требуется для правильной интерпретации объекта iCalendar. Область:Общие Каноническое имя:PidNameCalendarVersion Альтернативные имена:urn:schemas:calendar:version
+Идентифицирует версию спецификации iCalendar, как указано в разделе 2.1.3.1.1.3 [MS-OXCICAL], которая требуется для правильной интерпретации объекта iCalendar. Область: Common Каноническое имя: PidNameCalendarVersion Альтернативные имена: urn:schemas:calendar:version
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarVersion;

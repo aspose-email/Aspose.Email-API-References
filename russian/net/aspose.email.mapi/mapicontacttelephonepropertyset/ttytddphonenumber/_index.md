@@ -1,14 +1,14 @@
 ---
 title: TtyTddPhoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает номер телефона для текстового телефона контакта TTY или телекоммуникационного устройства для глухих  ТДД
+description: Получает или задает номер телефона для текстового телефона контакта TTY или телекоммуникационного устройства для глухих TDD
 type: docs
 weight: 190
 url: /ru/net/aspose.email.mapi/mapicontacttelephonepropertyset/ttytddphonenumber/
 ---
 ## MapiContactTelephonePropertySet.TtyTddPhoneNumber property
 
-Получает или устанавливает номер телефона для текстового телефона контакта (TTY) или телекоммуникационного устройства для глухих ( ТДД)
+Получает или задает номер телефона для текстового телефона контакта (TTY) или телекоммуникационного устройства для глухих (TDD)
 
 ```csharp
 public string TtyTddPhoneNumber { get; set; }

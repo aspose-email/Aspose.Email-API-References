@@ -1,14 +1,14 @@
 ---
 title: NamespaceSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение NAMESPACE Подробнееhttps//tools.ietf.org/html/rfc2342
+description: Получает информацию о том поддерживается ли расширение NAMESPACE Подробнее https//tools.ietf.org/html/rfc2342
 type: docs
 weight: 200
 url: /ru/net/aspose.email.clients.imap/imapclient/namespacesupported/
 ---
 ## ImapClient.NamespaceSupported property
 
-Получает информацию о том, поддерживается ли расширение NAMESPACE Подробнее:https://tools.ietf.org/html/rfc2342
+Получает информацию о том, поддерживается ли расширение NAMESPACE Подробнее: https://tools.ietf.org/html/rfc2342
 
 ```csharp
 public bool NamespaceSupported { get; set; }

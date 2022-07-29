@@ -1,14 +1,14 @@
 ---
 title: GlobalCategories
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает список категорий для всех элементов беседы в почтовом ящике.
+description: Получает список категорий для всех элементов беседы в mamailboxilbox.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeconversation/globalcategories/
 ---
 ## ExchangeConversation.GlobalCategories property
 
-Получает список категорий для всех элементов беседы в почтовом ящике.
+Получает список категорий для всех элементов беседы в mamailboxilbox.
 
 ```csharp
 public StringCollection GlobalCategories { get; }

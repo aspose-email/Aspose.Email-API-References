@@ -1,14 +1,14 @@
 ---
 title: MessageObjectProperty
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMessageObjectPropertyaspose.email.mapi.msg/messageobjectproperty.
+description: Инициализирует новый экземплярMessageObjectPropertyaspose.email.mapi.msg/messageobjectproperty класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi.msg/messageobjectproperty/messageobjectproperty/
 ---
 ## MessageObjectProperty(long, MapiPropertyFlags, object) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MessageObjectProperty`](../../messageobjectproperty).
+Инициализирует новый экземпляр[`MessageObjectProperty`](../../messageobjectproperty) класс.
 
 ```csharp
 public MessageObjectProperty(long propertyTag, MapiPropertyFlags flags, object value)
@@ -17,15 +17,15 @@ public MessageObjectProperty(long propertyTag, MapiPropertyFlags flags, object v
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | propertyTag | Int64 | Тег свойства. |
-| flags | MapiPropertyFlags | Устанавливаемые флаги. |
-| value | Object | Значение свойства. |
+| flags | MapiPropertyFlags | Флаги, которые нужно установить. |
+| value | Object | Стоимость имущества. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*value*равно null. |
-| InvalidEnumArgumentException | Если*propertyTag*содержит недопустимое определение типа." |
+| ArgumentNullException | Если*value* нулевой. |
+| InvalidEnumArgumentException | Если*propertyTag* содержит недопустимое определение типа." |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public MessageObjectProperty(long propertyTag, MapiPropertyFlags flags, object v
 
 ## MessageObjectProperty(int, MapiType, MapiPropertyFlags, object) {#constructor}
 
-Инициализирует новый экземпляр класса[`MessageObjectProperty`](../../messageobjectproperty).
+Инициализирует новый экземпляр[`MessageObjectProperty`](../../messageobjectproperty) класс.
 
 ```csharp
 public MessageObjectProperty(int id, MapiType type, MapiPropertyFlags flags, object value)
@@ -48,15 +48,15 @@ public MessageObjectProperty(int id, MapiType type, MapiPropertyFlags flags, obj
 | --- | --- | --- |
 | id | Int32 | Идентификатор. |
 | type | MapiType | Тип свойства. |
-| flags | MapiPropertyFlags | Устанавливаемые флаги. |
-| value | Object | Значение свойства. |
+| flags | MapiPropertyFlags | Флаги, которые нужно установить. |
+| value | Object | Стоимость имущества. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*value*равно null. |
-| InvalidEnumArgumentException | Если*type*недействителен." |
+| ArgumentNullException | Если*value* нулевой. |
+| InvalidEnumArgumentException | Если*type* является недействительным." |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Where
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidLidLocation раздел 2.159 из связанного объекта Meeting. ОбластьВстречи Каноническое имяPidLidWhere Альтернативные именаLID_WHERE
+description: Содержит значение свойства PidLidLocation раздел 2.159 из связанного объекта Meeting. Область Meetings Каноническое имя PidLidWhere Альтернативные имена LID_WHERE
 type: docs
 weight: 19360
 url: /ru/net/aspose.email.mapi/knownpropertylist/where/
 ---
 ## KnownPropertyList.Where field
 
-Содержит значение свойства PidLidLocation (раздел 2.159) из связанного объекта Meeting. Область:Встречи Каноническое имя:PidLidWhere Альтернативные имена:LID_WHERE
+Содержит значение свойства PidLidLocation (раздел 2.159) из связанного объекта Meeting. Область: Meetings Каноническое имя: PidLidWhere Альтернативные имена: LID_WHERE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Where;

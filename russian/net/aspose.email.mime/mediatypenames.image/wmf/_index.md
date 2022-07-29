@@ -1,14 +1,14 @@
 ---
 title: Wmf
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает метафайл MS Windows image/x-wmf
+description: Указывает образ метафайла MS Windows/x-wmf
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mime/mediatypenames.image/wmf/
 ---
 ## MediaTypeNames.Image.Wmf field
 
-Указывает метафайл MS Windows image/x-wmf
+Указывает образ метафайла MS Windows/x-wmf
 
 ```csharp
 public const string Wmf;

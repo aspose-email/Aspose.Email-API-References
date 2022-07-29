@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/postaladdresscategory/workvalue/
 ---
 ## PostalAddressCategory.WorkValue field
 
-Строковое значение для категории «Работа»
+Строковое значение для категории "Работа"
 
 ```csharp
 public const string WorkValue;

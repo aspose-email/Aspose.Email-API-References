@@ -1,14 +1,14 @@
 ---
 title: StorageLimitInformation
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_STORAGE_LIMIT_INFORMATION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_STORAGE_LIMIT_INFORMATION
 type: docs
 weight: 18230
 url: /ru/net/aspose.email.mapi/knownpropertylist/storagelimitinformation/
 ---
 ## KnownPropertyList.StorageLimitInformation field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_STORAGE_LIMIT_INFORMATION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_STORAGE_LIMIT_INFORMATION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StorageLimitInformation;

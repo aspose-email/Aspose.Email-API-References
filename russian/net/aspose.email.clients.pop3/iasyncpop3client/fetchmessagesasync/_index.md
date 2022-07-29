@@ -1,14 +1,14 @@
 ---
 title: FetchMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Асинхронно получает сообщения
+description: Получает сообщения асинхронно
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.pop3/iasyncpop3client/fetchmessagesasync/
 ---
 ## FetchMessagesAsync(IEnumerable&lt;int&gt;, IConnection, CancellationToken) {#fetchmessagesasync}
 
-Асинхронно получает сообщения
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IEnumerable<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumbers, 
@@ -17,7 +17,7 @@ public Task<IEnumerable<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequen
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IEnumerable`1 | Соединение с сервером |
+| connection | IEnumerable`1 | Подключение к серверу |
 | sequenceNumbers | IConnection | Порядковые номера сообщений |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -37,7 +37,7 @@ public Task<IEnumerable<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequen
 
 ## FetchMessagesAsync(IEnumerable&lt;string&gt;, IConnection, CancellationToken) {#fetchmessagesasync_1}
 
-Асинхронно получает сообщения
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IEnumerable<MailMessage>> FetchMessagesAsync(IEnumerable<string> uIds, 
@@ -46,7 +46,7 @@ public Task<IEnumerable<MailMessage>> FetchMessagesAsync(IEnumerable<string> uId
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IEnumerable`1 | Соединение с сервером |
+| connection | IEnumerable`1 | Подключение к серверу |
 | uIds | IConnection | Порядковые номера сообщений |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

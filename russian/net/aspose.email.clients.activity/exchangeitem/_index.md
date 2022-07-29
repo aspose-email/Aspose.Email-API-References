@@ -27,7 +27,7 @@ public class ExchangeItem
 | [Attachments](../../aspose.email.clients.activity/exchangeitem/attachments) { get; set; } | Список имен и размеров файлов всех элементов, прикрепленных к сообщению. |
 | [Id](../../aspose.email.clients.activity/exchangeitem/id) { get; set; } | Идентификатор магазина. |
 | [ParentFolder](../../aspose.email.clients.activity/exchangeitem/parentfolder) { get; set; } | Имя папки, в которой находится элемент. |
-| [Subject](../../aspose.email.clients.activity/exchangeitem/subject) { get; set; } | Строка темы сообщения, к которому был осуществлен доступ. |
+| [Subject](../../aspose.email.clients.activity/exchangeitem/subject) { get; set; } | Строка темы сообщения, к которому был получен доступ. |
 
 ### Смотрите также
 

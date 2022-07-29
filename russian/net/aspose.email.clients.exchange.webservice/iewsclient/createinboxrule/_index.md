@@ -16,13 +16,13 @@ public void CreateInboxRule(InboxRule rule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rule | InboxRule | Правило для папки "Входящие" для создания |
+| rule | InboxRule | Правило для папки "Входящие", которое нужно создать |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*rule*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*rule* является`нулевой` |
 
 ### Смотрите также
 
@@ -43,14 +43,14 @@ public void CreateInboxRule(InboxRule rule, string mailbox)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rule | InboxRule | Правило для папки "Входящие" для создания |
-| mailbox | String | Почтовый ящик, для которого создается правило. Примечание:если установлено значение` null` или` empty` , правило будет создано в почтовый ящик по умолчанию |
+| rule | InboxRule | Правило для папки "Входящие", которое нужно создать |
+| mailbox | String | Почтовый ящик, для которого создается правило. Примечание: если установлено значение`нулевой`или же`пустой`, правило будет создано в почтовом ящике по умолчанию |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*rule*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*rule* является`нулевой` |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OriginalDeliveryTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время доставки исходного сообщения в формате UTC. ОбластьОбщие свойства сообщения Каноническое имяPidTagOriginalDeliveryTime Альтернативные именаPR_ORIGINAL_DELIVERY_TIME ptagOriginalDeliveryTime
+description: Содержит время доставки исходного сообщения в формате UTC. Область Общие свойства сообщения Каноническое имя PidTagOriginalDeliveryTime Альтернативные имена PR_ORIGINAL_DELIVERY_TIME ptagOriginalDeliveryTime
 type: docs
 weight: 13520
 url: /ru/net/aspose.email.mapi/knownpropertylist/originaldeliverytime/
 ---
 ## KnownPropertyList.OriginalDeliveryTime field
 
-Содержит время доставки исходного сообщения в формате UTC. Область:Общие свойства сообщения Каноническое имя:PidTagOriginalDeliveryTime Альтернативные имена:PR_ORIGINAL_DELIVERY_TIME, ptagOriginalDeliveryTime
+Содержит время доставки исходного сообщения в формате UTC. Область: Общие свойства сообщения Каноническое имя: PidTagOriginalDeliveryTime Альтернативные имена: PR_ORIGINAL_DELIVERY_TIME, ptagOriginalDeliveryTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalDeliveryTime;

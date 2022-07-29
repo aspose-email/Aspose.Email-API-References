@@ -3,7 +3,7 @@ title: VCardValueLocation
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет параметр свойства vCard ValueLocation.
 type: docs
-weight: 19780
+weight: 19830
 url: /ru/net/aspose.email.personalinfo.vcard/vcardvaluelocation/
 ---
 ## VCardValueLocation enumeration
@@ -20,7 +20,7 @@ public enum VCardValueLocation
 | --- | --- | --- |
 | INLINE | `0` | Местоположение встроенного значения (по умолчанию). |
 | URL | `1` | Местоположение значения URL. |
-| CID | `2` | Местоположение значения идентификатора контента. |
+| CID | `2` | Расположение значения идентификатора контента. |
 | URI | `3` | Местоположение значения Uri. |
 
 ### Смотрите также

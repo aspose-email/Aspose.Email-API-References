@@ -1,14 +1,14 @@
 ---
 title: DeletedMsgCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DELETED_MSG_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DELETED_MSG_COUNT
 type: docs
 weight: 3920
 url: /ru/net/aspose.email.mapi/knownpropertylist/deletedmsgcount/
 ---
 ## KnownPropertyList.DeletedMsgCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DELETED_MSG_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DELETED_MSG_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeletedMsgCount;

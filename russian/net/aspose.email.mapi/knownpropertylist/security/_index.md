@@ -1,14 +1,14 @@
 ---
 title: Security
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает уровень безопасности файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameSecurity Альтернативные именаurnschemas-microsoft-comofficeofficeSecurity
+description: Указывает уровень безопасности файла вложенного в объект Document. Область Common Каноническое имя PidNameSecurity Альтернативные имена urnschemas-microsoft-comofficeofficeSecurity
 type: docs
 weight: 17060
 url: /ru/net/aspose.email.mapi/knownpropertylist/security/
 ---
 ## KnownPropertyList.Security field
 
-Указывает уровень безопасности файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameSecurity Альтернативные имена:urn:schemas-microsoft-com:office:office#Security
+Указывает уровень безопасности файла, вложенного в объект Document. Область: Common Каноническое имя: PidNameSecurity Альтернативные имена: urn:schemas-microsoft-com:office:office#Security
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Security;

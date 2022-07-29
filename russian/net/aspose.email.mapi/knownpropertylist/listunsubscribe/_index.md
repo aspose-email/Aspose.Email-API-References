@@ -1,14 +1,14 @@
 ---
 title: ListUnsubscribe
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит URI который отписывает получателя от списка рассылки связанного с сообщением. ОбластьПрочие свойства Каноническое имяPidTagListUnsubscribe Альтернативные именаPR_LIST_UNSUBSCRIBE PR_LIST_UNSUBSCRIBE_A PR_LIST_UNSUBSCRIBE_W
+description: Содержит URI который отписывает получателя от списка рассылки связанного с сообщением. Область Прочие свойства Каноническое имя PidTagListUnsubscribe Альтернативные имена PR_LIST_UNSUBSCRIBE PR_LIST_UNSUBSCRIBE_A PR_LIST_UNSUBSCRIBE_W
 type: docs
 weight: 12140
 url: /ru/net/aspose.email.mapi/knownpropertylist/listunsubscribe/
 ---
 ## KnownPropertyList.ListUnsubscribe field
 
-Содержит URI, который отписывает получателя от списка рассылки, связанного с сообщением. Область:Прочие свойства Каноническое имя:PidTagListUnsubscribe Альтернативные имена:PR_LIST_UNSUBSCRIBE, PR_LIST_UNSUBSCRIBE_A, PR_LIST_UNSUBSCRIBE_W
+Содержит URI, который отписывает получателя от списка рассылки, связанного с сообщением. Область: Прочие свойства Каноническое имя: PidTagListUnsubscribe Альтернативные имена: PR_LIST_UNSUBSCRIBE, PR_LIST_UNSUBSCRIBE_A, PR_LIST_UNSUBSCRIBE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ListUnsubscribe;

@@ -1,14 +1,14 @@
 ---
 title: SortMessageThreadsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Сортировка веток сообщений.
+description: Сортировать цепочки сообщений.
 type: docs
 weight: 1160
 url: /ru/net/aspose.email.clients.imap/imapclient/sortmessagethreadsasync/
 ---
 ## SortMessageThreadsAsync(IConnection, SortConditions) {#sortmessagethreadsasync}
 
-Сортировка веток сообщений.
+Сортировать цепочки сообщений.
 
 ```csharp
 public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection connection, 
@@ -17,7 +17,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | conditions | SortConditions | Условия потока. |
 
 ### Возвращаемое значение
@@ -37,7 +37,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 
 ## SortMessageThreadsAsync(SortConditions) {#sortmessagethreadsasync_2}
 
-Сортировка веток сообщений.
+Сортировать цепочки сообщений.
 
 ```csharp
 public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions conditions)
@@ -63,7 +63,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions co
 
 ## SortMessageThreadsAsync(IConnection, SortConditions, CancellationToken) {#sortmessagethreadsasync_1}
 
-Сортировка веток сообщений.
+Сортировать цепочки сообщений.
 
 ```csharp
 public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection connection, 
@@ -72,7 +72,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | conditions | SortConditions | Условия потока. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -93,7 +93,7 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(IConnection conne
 
 ## SortMessageThreadsAsync(SortConditions, CancellationToken) {#sortmessagethreadsasync_3}
 
-Сортировка веток сообщений.
+Сортировать цепочки сообщений.
 
 ```csharp
 public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions conditions, 

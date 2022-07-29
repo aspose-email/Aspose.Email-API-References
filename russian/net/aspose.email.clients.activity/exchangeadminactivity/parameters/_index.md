@@ -1,14 +1,14 @@
 ---
 title: Parameters
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя и значение всех параметров которые использовались с командлетом указанным в свойстве Operations.
+description: Имя и значение для всех параметров которые использовались с командлетом указанным в свойстве Operations.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activity/exchangeadminactivity/parameters/
 ---
 ## ExchangeAdminActivity.Parameters property
 
-Имя и значение всех параметров, которые использовались с командлетом, указанным в свойстве Operations.
+Имя и значение для всех параметров, которые использовались с командлетом, указанным в свойстве Operations.
 
 ```csharp
 public NameValuePair[] Parameters { get; set; }

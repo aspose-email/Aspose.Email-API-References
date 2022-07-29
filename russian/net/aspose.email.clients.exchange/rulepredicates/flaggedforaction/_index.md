@@ -1,14 +1,14 @@
 ---
 title: FlaggedForAction
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает флаг для значения действия которое появляется во входящих сообщениях чтобы применить условие или исключение.
+description: Получает или задает флаг для значения действия которое появляется во входящих сообщениях для применения условия или исключения.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.exchange/rulepredicates/flaggedforaction/
 ---
 ## RulePredicates.FlaggedForAction property
 
-Получает или устанавливает флаг для значения действия, которое появляется во входящих сообщениях, чтобы применить условие или исключение.
+Получает или задает флаг для значения действия, которое появляется во входящих сообщениях для применения условия или исключения.
 
 ```csharp
 public FlaggedForAction FlaggedForAction { get; set; }

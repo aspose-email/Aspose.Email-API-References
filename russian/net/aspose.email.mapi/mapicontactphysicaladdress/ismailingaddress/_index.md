@@ -1,14 +1,14 @@
 ---
 title: IsMailingAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение указывающее является ли этот адрес почтовым адресом
+description: Получает или задает значение указывающее является ли этот адрес почтовым адресом address
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/mapicontactphysicaladdress/ismailingaddress/
 ---
 ## MapiContactPhysicalAddress.IsMailingAddress property
 
-Получает или задает значение, указывающее, является ли этот адрес почтовым адресом
+Получает или задает значение, указывающее, является ли этот адрес почтовым адресом address
 
 ```csharp
 public bool IsMailingAddress { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TimeOfClick
 second_title: Справочник по Aspose.Email для .NET API
-description: Дата и время в формате всемирного координированного времени UTC когда пользователь щелкнул URL-адрес. ОбязательноДа
+description: Дата и время по всемирному координированному времени UTC когда пользователь щелкнул URL. Обязательно Yes
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activity/o365urltimeofclickactivity/timeofclick/
 ---
 ## O365URLTimeOfClickActivity.TimeOfClick property
 
-Дата и время в формате всемирного координированного времени (UTC), когда пользователь щелкнул URL-адрес. Обязательно:Да
+Дата и время по всемирному координированному времени (UTC), когда пользователь щелкнул URL. Обязательно: Yes
 
 ```csharp
 public DateTime? TimeOfClick { get; set; }

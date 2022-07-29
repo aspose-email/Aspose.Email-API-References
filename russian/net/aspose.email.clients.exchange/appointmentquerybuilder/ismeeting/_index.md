@@ -1,14 +1,14 @@
 ---
 title: IsMeeting
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает поле позволяющее найти элементы собрания.
+description: Получает поле позволяющее находить элементы собрания.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.exchange/appointmentquerybuilder/ismeeting/
 ---
 ## AppointmentQueryBuilder.IsMeeting property
 
-Получает поле, позволяющее найти элементы собрания.
+Получает поле, позволяющее находить элементы собрания.
 
 ```csharp
 public BoolComparisonField IsMeeting { get; }

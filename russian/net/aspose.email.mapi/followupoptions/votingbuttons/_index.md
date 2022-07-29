@@ -1,14 +1,14 @@
 ---
 title: VotingButtons
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает строку представляющую список названий кнопок голосования разделенных точкой с запятой .
+description: Получает или задает строку представляющую список имен кнопок голосования разделенных точкой с запятой .
 type: docs
 weight: 110
 url: /ru/net/aspose.email.mapi/followupoptions/votingbuttons/
 ---
 ## FollowUpOptions.VotingButtons property
 
-Получает или задает строку, представляющую список названий кнопок голосования, разделенных точкой с запятой (;).
+Получает или задает строку, представляющую список имен кнопок голосования, разделенных точкой с запятой (;).
 
 ```csharp
 public string VotingButtons { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Справочник по Aspose.Email для .NET API
-description: Тема сообщения электронной почты. ОбязательноНет
+description: Тема сообщения электронной почты. Обязательно No
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.activity/exchangemetadata/subject/
 ---
 ## ExchangeMetadata.Subject property
 
-Тема сообщения электронной почты. Обязательно:Нет
+Тема сообщения электронной почты. Обязательно: No
 
 ```csharp
 public string Subject { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DefaultFormatter
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает средство форматирования по умолчанию
+description: Получает или задает средство форматирования по умолчанию
 type: docs
 weight: 50
 url: /ru/net/aspose.email.tools.logging/formatter/defaultformatter/
 ---
 ## Formatter.DefaultFormatter property
 
-Получает или устанавливает средство форматирования по умолчанию
+Получает или задает средство форматирования по умолчанию
 
 ```csharp
 public static IFormatter DefaultFormatter { get; set; }

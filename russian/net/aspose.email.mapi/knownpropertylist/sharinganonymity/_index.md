@@ -1,14 +1,14 @@
 ---
 title: SharingAnonymity
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingAnonymity Альтернативные именаdispidSharingAnonymity
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingAnonymity Альтернативные имена dispidSharingAnonymity
 type: docs
 weight: 17390
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharinganonymity/
 ---
 ## KnownPropertyList.SharingAnonymity field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingAnonymity Альтернативные имена:dispidSharingAnonymity
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingAnonymity Альтернативные имена: dispidSharingAnonymity
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingAnonymity;

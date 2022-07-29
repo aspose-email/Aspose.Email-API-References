@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Exchange
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.Clients.Exchange предоставляет классы для доступа к Microsoft Exchange Server.
+description: Aspose.Email.Clients.Exchange namespace предоставляет классы для доступа к серверу Microsoft Exchange Server.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.exchange/
 ---
-Пространство имен **Aspose.Email.Clients.Exchange** предоставляет классы для доступа к Microsoft Exchange Server.
+**Aspose.Email.Clients.Exchange** namespace предоставляет классы для доступа к серверу Microsoft Exchange Server.
 
 ## Классы
 
@@ -19,24 +19,24 @@ url: /ru/net/aspose.email.clients.exchange/
 | [AutodiscoverResponseCollection&lt;TResponse&gt;](./autodiscoverresponsecollection-1) | Представляет набор ответов на вызов службы автообнаружения. |
 | [AutodiscoverService](./autodiscoverservice) | Представляет привязку к службе автообнаружения Exchange. |
 | [AutodiscoverServiceBase](./autodiscoverservicebase) | Представляет абстрактную привязку к службе автообнаружения. |
-| [ComparisonFieldAdapter](./comparisonfieldadapter) | Реализует адаптер для использования[`ComparisonField`](../aspose.email.tools.search/comparisonfield)по их типу |
-| [ContactQueryBuilder](./contactquerybuilder) | Представляет построитель поискового выражения, используемого протоколом Exchange. |
-| [ExchangeAdvancedSyntaxMailQuery](./exchangeadvancedsyntaxmailquery) | Представляет критерии поиска, которые используются для сопоставления нескольких свойств сообщения в почтовом ящике. Реализует поиск с расширенным синтаксисом запросов (AQS), который используется EWS. AQS описан на https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews- в обмен. |
-| [ExchangeAdvancedSyntaxQueryBuilder](./exchangeadvancedsyntaxquerybuilder) | Представляет построитель выражения поиска на основе расширенного синтаксиса запросов (AQS), используемого протоколом Exchange. AQS является альтернативой поисковым фильтрам для выражения критериев поиска. |
+| [ComparisonFieldAdapter](./comparisonfieldadapter) | Реализует адаптер для использования[`ComparisonField`](../aspose.email.tools.search/comparisonfield) по их типу |
+| [ContactQueryBuilder](./contactquerybuilder) | Представляет построитель выражения поиска, используемого протоколом Exchange. |
+| [ExchangeAdvancedSyntaxMailQuery](./exchangeadvancedsyntaxmailquery) | Представляет критерии поиска, которые используются для сопоставления нескольких свойств сообщений в почтовом ящике. Реализует поиск с расширенным синтаксисом запросов (AQS), который используется EWS. AQS, описанный на https://docs.microsoft.com/exchange/ клиент-разработчик/обмен-веб-сервисы/как-выполнять-поиск-aqs-путем-использования-ews-в-обмене. |
+| [ExchangeAdvancedSyntaxQueryBuilder](./exchangeadvancedsyntaxquerybuilder) | Представляет построитель поискового выражения на основе расширенного синтаксиса запросов (AQS), используемого протоколом Exchange. AQS — это альтернатива поисковым фильтрам для выражения критериев поиска. |
 | [ExchangeAttachmentInfo](./exchangeattachmentinfo) | Представляет информацию о вложении, передаваемую по протоколам обмена |
 | [ExchangeAttachmentInfoCollection](./exchangeattachmentinfocollection) | Представляет коллекцию[`ExchangeAttachmentInfo`](../aspose.email.clients.exchange/exchangeattachmentinfo) |
 | [ExchangeBasePermission](./exchangebasepermission) | Предоставляет абстрактный базовый класс для разрешений на доступ к папкам на сервере Exchange. |
 | [ExchangeCalendarPermission](./exchangecalendarpermission) | Представляет разрешение на папку календаря. |
 | [ExchangeClientBase](./exchangeclientbase) | Предоставляет абстрактный базовый класс для доступа к MS Exchange Server. |
-| [ExchangeDistributionList](./exchangedistributionlist) | Представляет свойства списка рассылки |
+| [ExchangeDistributionList](./exchangedistributionlist) | Представляет список рассылки properties |
 | [ExchangeFolderInfo](./exchangefolderinfo) | Предоставляет информацию о папке MS Exchange. |
 | [ExchangeFolderInfoCollection](./exchangefolderinfocollection) | Представляет коллекцию объектов ExchangeMessageInfo. |
 | [ExchangeFolderPageInfo](./exchangefolderpageinfo) | Содержит информацию о полученной странице при использовании методов пейджинга. |
 | [ExchangeFolderPermission](./exchangefolderpermission) | Представляет разрешение на папку. |
 | [ExchangeFolderPermissionCollection](./exchangefolderpermissioncollection) | Представляет коллекцию[`ExchangeFolderPermission`](../aspose.email.clients.exchange/exchangefolderpermission) |
 | [ExchangeFolderUserInfo](./exchangefolderuserinfo) | Представляет пользователя с правами доступа к папке |
-| [ExchangeMailboxInfo](./exchangemailboxinfo) | Представляет информацию о почтовом ящике сервера обмена. |
-| [ExchangeMessageInfo](./exchangemessageinfo) | ExchangeMessageInfo представляет информацию о сообщении электронной почты, полученную из хранилища Exchange. |
+| [ExchangeMailboxInfo](./exchangemailboxinfo) | Представляет информацию о почтовом ящике сервера Exchange. |
+| [ExchangeMessageInfo](./exchangemessageinfo) | ExchangeMessageInfo представляет информацию сообщения электронной почты, полученную из хранилища Exchange. |
 | [ExchangeMessageInfoCollection](./exchangemessageinfocollection) | Представляет коллекцию объектов ExchangeMessageInfo. |
 | [ExchangeMessagePageInfo](./exchangemessagepageinfo) | Содержит информацию о полученной странице при использовании методов пейджинга. |
 | [ExchangePermissionCollection](./exchangepermissioncollection) | Представляет коллекцию[`ExchangeBasePermission`](../aspose.email.clients.exchange/exchangebasepermission) |
@@ -46,8 +46,8 @@ url: /ru/net/aspose.email.clients.exchange/
 | [GetUserSettingsResponseCollection](./getusersettingsresponsecollection) | Представляет набор ответов на GetUserSettings |
 | [InboxRule](./inboxrule) | Представляет правило папки "Входящие" |
 | [RuleActions](./ruleactions) | Представляет набор действий, доступных для правила. |
-| [RulePredicates](./rulepredicates) | Представляет предикат правила |
-| [SizeRange](./sizerange) | Представляет диапазон размеров |
+| [RulePredicates](./rulepredicates) | Представляет правило predicate |
+| [SizeRange](./sizerange) | Представляет размер range |
 | [UserSettingError](./usersettingerror) | Представляет ошибку запроса GetUserSettings. |
 ## Интерфейсы
 
@@ -65,14 +65,14 @@ url: /ru/net/aspose.email.clients.exchange/
 | [ExchangeFolderPermissionLevel](./exchangefolderpermissionlevel) | Указывает уровень разрешений, который пользователь имеет для папки. |
 | [ExchangeFolderPermissionReadAccess](./exchangefolderpermissionreadaccess) | SУказывает, есть ли у пользователя разрешение на чтение элементов в папке. |
 | [ExchangeFolderType](./exchangefoldertype) | Перечисляет различающиеся типы папок. Эти значения также содержатся в свойстве PidTagContainerClass. |
-| [ExchangeFolderUserType](./exchangefolderusertype) | Перечисляет различающиеся учетные записи пользователей |
-| [ExchangeListMessagesOptions](./exchangelistmessagesoptions) | Перечисляет параметры списка сообщений |
+| [ExchangeFolderUserType](./exchangefolderusertype) | Перечисляет выделенные учетные записи пользователей |
+| [ExchangeListMessagesOptions](./exchangelistmessagesoptions) | Перечисляет список сообщений options |
 | [ExchangeMessageFlag](./exchangemessageflag) | Представляет флаги сообщения. |
-| [FlaggedForAction](./flaggedforaction) | Перечисляет помеченные для действия |
-| [ImportanceChoices](./importancechoices) | Перечисляет уровни важности элемента |
+| [FlaggedForAction](./flaggedforaction) | Перечисления, отмеченные для action |
+| [ImportanceChoices](./importancechoices) | Перечисляет уровни важности для элемента |
 | [MessageInfoType](./messageinfotype) | Перечисляет типы сообщений. |
-| [RulePredicateFlags](./rulepredicateflags) | Представляет флаги RulePredicate |
-| [SearchItemType](./searchitemtype) | Предоставляет значения типа элемента для ограничения результатов поиска только элементом определенного типа. |
+| [RulePredicateFlags](./rulepredicateflags) | Представляет RulePredicate flags |
+| [SearchItemType](./searchitemtype) | Предоставляет значения типа элемента, чтобы ограничить результаты поиска только определенным типом элемента. |
 | [SensitivityChoices](./sensitivitychoices) | Перечисляет типы уровней конфиденциальности, доступные для элемента. |
 | [UserSettingName](./usersettingname) | Пользовательские настройки, которые можно запросить с помощью GetUserSettings. |
 

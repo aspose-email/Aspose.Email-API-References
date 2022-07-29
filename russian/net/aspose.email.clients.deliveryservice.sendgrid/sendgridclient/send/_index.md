@@ -1,14 +1,14 @@
 ---
 title: Send
 second_title: Справочник по Aspose.Email для .NET API
-description: Синхронно отправляет электронную почту
+description: Отправляет электронную почту синхронно
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/send/
 ---
 ## SendGridClient.Send method
 
-Синхронно отправляет электронную почту
+Отправляет электронную почту синхронно
 
 ```csharp
 public DeliveryServiceResponse<MailMessage> Send(MailMessage message, List<string> tags = null, 
@@ -17,8 +17,8 @@ public DeliveryServiceResponse<MailMessage> Send(MailMessage message, List<strin
 
 | Параметр | Описание |
 | --- | --- |
-| message | MailMessage, представляющий электронную почту. сообщение. |
-| токен |  |
+| message | Объект MailMessage, представляющий сообщение электронной почты. |
+| token |  |
 
 ### Смотрите также
 

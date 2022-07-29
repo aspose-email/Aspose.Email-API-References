@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/fathervalue/
 ---
 ## AssociatedPersonCategory.FatherValue field
 
-Строковое значение для категории "Отец"
+Строковое значение для категории «Отец»
 
 ```csharp
 public const string FatherValue;

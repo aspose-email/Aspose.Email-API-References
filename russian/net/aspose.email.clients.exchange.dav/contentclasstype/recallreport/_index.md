@@ -1,14 +1,14 @@
 ---
 title: RecallReport
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс содержимого urncontent-classesrecallreport  который определяет набор свойств для элемента представляющего собой отчет об отзыве.
+description: Получает класс содержимого urncontent-classesrecallreport  который определяет набор свойств для элемента являющегося отчетным сообщением об отзыве.
 type: docs
 weight: 190
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/recallreport/
 ---
 ## ContentClassType.RecallReport property
 
-Получает класс содержимого urn:content-classes:recallreport , который определяет набор свойств для элемента, представляющего собой отчет об отзыве.
+Получает класс содержимого urn:content-classes:recallreport , который определяет набор свойств для элемента, являющегося отчетным сообщением об отзыве.
 
 ```csharp
 public static ContentClassType RecallReport { get; }

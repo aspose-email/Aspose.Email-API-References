@@ -1,14 +1,14 @@
 ---
 title: ObjectDisposedException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаObjectDisposedException.
+description: Инициализирует новый экземплярObjectDisposedException класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.exceptions/objectdisposedexception/objectdisposedexception/
 ---
 ## ObjectDisposedException() {#constructor}
 
-Инициализирует новый экземпляр классаObjectDisposedException.
+Инициализирует новый экземплярObjectDisposedException класс.
 
 ```csharp
 public ObjectDisposedException()
@@ -24,7 +24,7 @@ public ObjectDisposedException()
 
 ## ObjectDisposedException(string) {#constructor_1}
 
-Инициализирует новый экземпляр классаObjectDisposedExceptionс указанным сообщением об ошибке.
+Инициализирует новый экземплярObjectDisposedException класс с указанным сообщением об ошибке.
 
 ```csharp
 public ObjectDisposedException(string message)
@@ -44,7 +44,7 @@ public ObjectDisposedException(string message)
 
 ## ObjectDisposedException(string, params object[]) {#constructor_3}
 
-Инициализирует новый экземпляр классаObjectDisposedExceptionс указанным сообщением об ошибке.
+Инициализирует новый экземплярObjectDisposedException класс с указанным сообщением об ошибке.
 
 ```csharp
 public ObjectDisposedException(string format, params object[] parameters)
@@ -65,7 +65,7 @@ public ObjectDisposedException(string format, params object[] parameters)
 
 ## ObjectDisposedException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр классаObjectDisposedException с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземплярObjectDisposedException класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public ObjectDisposedException(string message, Exception innerException)
@@ -74,7 +74,7 @@ public ObjectDisposedException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если нет внутреннего исключения указано. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения, или пустая ссылка (Nothing в Visual Basic), если внутреннее исключение не указано. |
 
 ### Смотрите также
 

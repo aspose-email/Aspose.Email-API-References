@@ -1,14 +1,14 @@
 ---
 title: AppointmentDuration
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает продолжительность события в минутах. ОбластьКалендарь Каноническое имяPidLidAppointmentDuration Альтернативные именаdispidApptDuration
+description: Указывает продолжительность события в минутах. Область Calendar Каноническое имя PidLidAppointmentDuration Альтернативные имена dispidApptDuration
 type: docs
 weight: 1140
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentduration/
 ---
 ## KnownPropertyList.AppointmentDuration field
 
-Указывает продолжительность события в минутах. Область:Календарь Каноническое имя:PidLidAppointmentDuration Альтернативные имена:dispidApptDuration
+Указывает продолжительность события в минутах. Область: Calendar Каноническое имя: PidLidAppointmentDuration Альтернативные имена: dispidApptDuration
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentDuration;

@@ -1,14 +1,14 @@
 ---
 title: ExportTo
 second_title: Справочник по Aspose.Email для .NET API
-description: Сохранить сообщения и структуру каталогов по указанному пути.
+description: Сохранить сообщения и структуру каталогов используя заданный путь.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.storage.zimbra/tgzreader/exportto/
 ---
 ## TgzReader.ExportTo method
 
-Сохранить сообщения и структуру каталогов по указанному пути.
+Сохранить сообщения и структуру каталогов, используя заданный путь.
 
 ```csharp
 public void ExportTo(string path)
@@ -16,13 +16,13 @@ public void ExportTo(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Основной путь к каталогу для сохранения структуры хранилища. |
+| path | String | Путь к основному каталогу для сохранения структуры хранилища. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выдает, если имя файла равно null или пусто |
+| ArgumentNullException | бросает, если имя файла равно null или пусто |
 
 ### Смотрите также
 

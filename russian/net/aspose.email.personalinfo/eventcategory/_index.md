@@ -3,7 +3,7 @@ title: EventCategory
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет категорию для события
 type: docs
-weight: 19360
+weight: 19390
 url: /ru/net/aspose.email.personalinfo/eventcategory/
 ---
 ## EventCategory class
@@ -18,7 +18,7 @@ public class EventCategory : IEquatable<EventCategory>
 
 | Имя | Описание |
 | --- | --- |
-| [EventCategory](eventcategory)(string) | Инициализирует новый экземпляр Custom[`EventCategory`](../eventcategory). |
+| [EventCategory](eventcategory)(string) | Инициализирует новый экземпляр Custom[`EventCategory`](../eventcategory) . |
 
 ## Характеристики
 
@@ -27,8 +27,8 @@ public class EventCategory : IEquatable<EventCategory>
 | static [Anniversary](../../aspose.email.personalinfo/eventcategory/anniversary) { get; } | Годовщина |
 | static [Birthday](../../aspose.email.personalinfo/eventcategory/birthday) { get; } | День рождения |
 | static [Custom](../../aspose.email.personalinfo/eventcategory/custom) { get; } | Пользовательское описание |
-| [Description](../../aspose.email.personalinfo/eventcategory/description) { get; } | Получает описание для категории "Пользовательский" события |
-| [Value](../../aspose.email.personalinfo/eventcategory/value) { get; } | Получает строковое представление категории события |
+| [Description](../../aspose.email.personalinfo/eventcategory/description) { get; } | Получает описание для категории «Пользовательская» события |
+| [Value](../../aspose.email.personalinfo/eventcategory/value) { get; } | Получает строковое представление категории событий |
 
 ## Методы
 
@@ -45,9 +45,9 @@ public class EventCategory : IEquatable<EventCategory>
 
 | Имя | Описание |
 | --- | --- |
-| const [AnniversaryValue](../../aspose.email.personalinfo/eventcategory/anniversaryvalue) | Строковое значение для категории "Юбилей" |
-| const [BirthdayValue](../../aspose.email.personalinfo/eventcategory/birthdayvalue) | Строковое значение для категории "День рождения" |
-| const [CustomValue](../../aspose.email.personalinfo/eventcategory/customvalue) | Строковое значение для категории "Пользовательский" |
+| const [AnniversaryValue](../../aspose.email.personalinfo/eventcategory/anniversaryvalue) | Строковое значение для категории «Годовщина» |
+| const [BirthdayValue](../../aspose.email.personalinfo/eventcategory/birthdayvalue) | Строковое значение для категории «День рождения» |
+| const [CustomValue](../../aspose.email.personalinfo/eventcategory/customvalue) | Строковое значение для категории «Пользовательская» |
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public sealed class ExchangeCalendarPermission : ExchangeBasePermission
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeCalendarPermission](exchangecalendarpermission)(ExchangeFolderUserInfo) | Инициализирует новый экземпляр[`ExchangeFolderPermission`](../exchangefolderpermission)class |
+| [ExchangeCalendarPermission](exchangecalendarpermission)(ExchangeFolderUserInfo) | Инициализирует новый экземпляр[`ExchangeFolderPermission`](../exchangefolderpermission) класс |
 
 ## Характеристики
 
@@ -33,7 +33,7 @@ public sealed class ExchangeCalendarPermission : ExchangeBasePermission
 | [IsFolderVisible](../../aspose.email.clients.exchange/exchangebasepermission/isfoldervisible) { get; set; } | Получает или задает значение, указывающее, может ли пользователь просматривать папку. |
 | [PermissionLevel](../../aspose.email.clients.exchange/exchangecalendarpermission/permissionlevel) { get; set; } | Получает или задает комбинацию разрешений, которые пользователь имеет для папки. |
 | [ReadItems](../../aspose.email.clients.exchange/exchangecalendarpermission/readitems) { get; set; } | Получает или задает значение, указывающее, есть ли у пользователя разрешение на чтение элементов в папке. |
-| [UserInfo](../../aspose.email.clients.exchange/exchangebasepermission/userinfo) { get; set; } | Получает или задает пользователя или пользователя-делегата, имеющего права доступа к папке |
+| [UserInfo](../../aspose.email.clients.exchange/exchangebasepermission/userinfo) { get; set; } | Получает или задает пользователя или делегированного пользователя, у которого есть права доступа к папке |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: TraversalFailureKind
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет тип сбоя который может возникнуть при обходе хранилища.
+description: Представляет вид сбоя который может возникнуть при обходе хранилища.
 type: docs
 weight: 17420
 url: /ru/net/aspose.email.exceptions/traversalfailurekind/
 ---
 ## TraversalFailureKind class
 
-Представляет тип сбоя, который может возникнуть при обходе хранилища.
+Представляет вид сбоя, который может возникнуть при обходе хранилища.
 
 ```csharp
 public class TraversalFailureKind

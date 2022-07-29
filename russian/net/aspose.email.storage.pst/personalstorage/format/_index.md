@@ -16,7 +16,7 @@ public FileFormat Format { get; }
 
 ### Стоимость имущества
 
-[`FileFormat`](../../fileformat)определяет формат файла.
+[`FileFormat`](../../fileformat) который указывает формат файла.
 
 ### Примечания
 

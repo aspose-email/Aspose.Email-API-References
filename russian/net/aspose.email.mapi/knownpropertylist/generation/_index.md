@@ -1,14 +1,14 @@
 ---
 title: Generation
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит аббревиатуру поколения которая следует за полным именем пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagGeneration Альтернативные именаPR_GENERATION PR_GENERATION_A PR_GENERATION_W
+description: Содержит аббревиатуру поколения которая следует за полным именем пользователя почты. Область MapiMailUser Каноническое имя PidTagGeneration Альтернативные имена PR_GENERATION PR_GENERATION_A PR_GENERATION_W
 type: docs
 weight: 10770
 url: /ru/net/aspose.email.mapi/knownpropertylist/generation/
 ---
 ## KnownPropertyList.Generation field
 
-Содержит аббревиатуру поколения, которая следует за полным именем пользователя почты. Область:MapiMailUser Каноническое имя:PidTagGeneration Альтернативные имена:PR_GENERATION, PR_GENERATION_A, PR_GENERATION_W,
+Содержит аббревиатуру поколения, которая следует за полным именем пользователя почты. Область: MapiMailUser Каноническое имя: PidTagGeneration Альтернативные имена: PR_GENERATION, PR_GENERATION_A, PR_GENERATION_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Generation;

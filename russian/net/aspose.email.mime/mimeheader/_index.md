@@ -3,7 +3,7 @@ title: MimeHeader
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет заголовок mime определенный в RFC 2822.
 type: docs
-weight: 19190
+weight: 19220
 url: /ru/net/aspose.email.mime/mimeheader/
 ---
 ## MimeHeader class
@@ -18,7 +18,7 @@ public class MimeHeader
 
 | Имя | Описание |
 | --- | --- |
-| [MimeHeader](mimeheader)(string, string) | Инициализирует новый экземпляр класса[`MimeHeader`](../mimeheader). |
+| [MimeHeader](mimeheader)(string, string) | Инициализирует новый экземпляр[`MimeHeader`](../mimeheader) класс. |
 
 ## Характеристики
 
@@ -32,7 +32,7 @@ public class MimeHeader
 | Имя | Описание |
 | --- | --- |
 | [Clone](../../aspose.email.mime/mimeheader/clone)() | Клонирует этот экземпляр. |
-| override [ToString](../../aspose.email.mime/mimeheader/tostring)() | ВозвращаетString, который представляет текущийObject. |
+| override [ToString](../../aspose.email.mime/mimeheader/tostring)() | ВозвращаетString который представляет текущийObject . |
 
 ### Смотрите также
 

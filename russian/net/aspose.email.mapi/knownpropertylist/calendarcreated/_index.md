@@ -1,14 +1,14 @@
 ---
 title: CalendarCreated
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет дату и время в формате UTC когда организатор создал встречу или собрание. ОбластьОбщие Каноническое имяPidNameCalendarCreated Альтернативные именаurnschemascalendarcreated
+description: Определяет дату и время в формате UTC когда организатор создал встречу или собрание. Область Common Каноническое имя PidNameCalendarCreated Альтернативные имена urnschemascalendarcreated
 type: docs
 weight: 2220
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarcreated/
 ---
 ## KnownPropertyList.CalendarCreated field
 
-Определяет дату и время в формате UTC, когда организатор создал встречу или собрание. Область:Общие Каноническое имя:PidNameCalendarCreated Альтернативные имена:urn:schemas:calendar:created
+Определяет дату и время в формате UTC, когда организатор создал встречу или собрание. Область: Common Каноническое имя: PidNameCalendarCreated Альтернативные имена: urn:schemas:calendar:created
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarCreated;

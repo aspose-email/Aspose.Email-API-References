@@ -1,14 +1,14 @@
 ---
 title: Email2
 second_title: Справочник по Aspose.Email для .NET API
-description: Категория Email2. Используется сервером MS Exchange.
+description: Категория электронной почты2. Используется сервером MS Exchange.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.personalinfo/emailaddresscategory/email2/
 ---
 ## EmailAddressCategory.Email2 property
 
-Категория Email2. Используется сервером MS Exchange.
+Категория электронной почты2. Используется сервером MS Exchange.
 
 ```csharp
 public static EmailAddressCategory Email2 { get; }

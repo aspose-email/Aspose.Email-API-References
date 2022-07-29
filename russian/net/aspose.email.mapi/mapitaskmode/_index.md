@@ -1,14 +1,14 @@
 ---
 title: MapiTaskMode
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет назначение статусов объекта задачи.
+description: Представляет статусы назначения объекта задачи.
 type: docs
-weight: 18680
+weight: 18710
 url: /ru/net/aspose.email.mapi/mapitaskmode/
 ---
 ## MapiTaskMode enumeration
 
-Представляет назначение статусов объекта задачи.
+Представляет статусы назначения объекта задачи.
 
 ```csharp
 public enum MapiTaskMode
@@ -21,9 +21,9 @@ public enum MapiTaskMode
 | NotAssigned | `0` | Объект Задача не назначен. |
 | RequestEmbedded | `1` | Объект Task встроен в запрос задачи. |
 | Accepted | `2` | Объект задачи принят исполнителем задачи. |
-| Rejected | `3` | Объект Task был отклонен исполнителем задачи. |
-| UpdateEmbedded | `4` | Объект Task внедряется в обновление задачи. |
-| Assigned | `5` | Объект Задача был назначен исполнителю задачи (самоделегирование). |
+| Rejected | `3` | Объект задачи был отклонен исполнителем задачи. |
+| UpdateEmbedded | `4` | Объект Task встроен в обновление задачи. |
+| Assigned | `5` | Объект Task был назначен назначающему задачу (самостоятельное делегирование). |
 
 ### Смотрите также
 

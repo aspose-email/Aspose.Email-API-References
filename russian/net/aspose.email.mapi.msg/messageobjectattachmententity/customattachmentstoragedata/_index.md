@@ -1,14 +1,14 @@
 ---
 title: CustomAttachmentStorageData
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает данные хранилища пользовательских вложений. Может быть нулевым.
+description: Получает или задает данные хранилища настраиваемых вложений. Может принимать значение null.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi.msg/messageobjectattachmententity/customattachmentstoragedata/
 ---
 ## MessageObjectAttachmentEntity.CustomAttachmentStorageData property
 
-Получает или задает данные хранилища пользовательских вложений. Может быть нулевым.
+Получает или задает данные хранилища настраиваемых вложений. Может принимать значение null.
 
 ```csharp
 public CustomAttachmentStorage CustomAttachmentStorageData { get; set; }
@@ -20,7 +20,7 @@ public CustomAttachmentStorage CustomAttachmentStorageData { get; set; }
 
 ### Примечания
 
-Взаимоисключающее с[`EmbeddedMessage`](../embeddedmessage)или оба могут быть нулевыми.
+Взаимоисключающие с[`EmbeddedMessage`](../embeddedmessage) или оба могут быть нулевыми.
 
 ### Смотрите также
 

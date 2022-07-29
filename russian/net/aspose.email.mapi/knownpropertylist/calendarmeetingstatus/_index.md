@@ -1,14 +1,14 @@
 ---
 title: CalendarMeetingStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает статус встречи или встречи. ОбластьОбщие Каноническое имяPidNameCalendarMeetingStatus Альтернативные именаurnschemascalendarmeetingstatus
+description: Указывает статус встречи или собрания. Область Common Каноническое имя PidNameCalendarMeetingStatus Альтернативные имена urnschemascalendarmeetingstatus
 type: docs
 weight: 2330
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarmeetingstatus/
 ---
 ## KnownPropertyList.CalendarMeetingStatus field
 
-Указывает статус встречи или встречи. Область:Общие Каноническое имя:PidNameCalendarMeetingStatus Альтернативные имена:urn:schemas:calendar:meetingstatus
+Указывает статус встречи или собрания. Область: Common Каноническое имя: PidNameCalendarMeetingStatus Альтернативные имена: urn:schemas:calendar:meetingstatus
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarMeetingStatus;

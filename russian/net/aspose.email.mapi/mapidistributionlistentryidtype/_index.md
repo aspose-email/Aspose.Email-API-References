@@ -3,7 +3,7 @@ title: MapiDistributionListEntryIdType
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает тип EntryID.
 type: docs
-weight: 18350
+weight: 18380
 url: /ru/net/aspose.email.mapi/mapidistributionlistentryidtype/
 ---
 ## MapiDistributionListEntryIdType enumeration
@@ -22,7 +22,7 @@ public enum MapiDistributionListEntryIdType
 | Contact | `3` | EntryID объекта Contact. EntryID должен быть структурой Message EntryID. |
 | DistributionList | `4` | EntryID объекта личного списка рассылки. EntryID должен быть структурой Message EntryID. |
 | GalMailUser | `5` | EntryID пользователя почты в глобальном списке адресов. EntryID должен быть структурой EntryID адресной книги. |
-| GalDistributionList | `6` | EntryID списка рассылки в глобальном списке адресов. EntryID должен быть структурой EntryID адресной книги. |
+| GalDistributionList | `6` | EntryID списка рассылки в GAL. EntryID должен быть структурой EntryID адресной книги. |
 
 ### Смотрите также
 

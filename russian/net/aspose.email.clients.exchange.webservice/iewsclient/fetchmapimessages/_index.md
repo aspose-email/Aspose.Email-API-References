@@ -1,14 +1,14 @@
 ---
 title: FetchMapiMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает указанные сообщения
+description: Получает указанные сообщения
 type: docs
 weight: 780
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapimessages/
 ---
 ## FetchMapiMessages(IEnumerable&lt;string&gt;) {#fetchmapimessages}
 
-Выбирает указанные сообщения
+Получает указанные сообщения
 
 ```csharp
 public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris)
@@ -16,11 +16,11 @@ public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AIEnumerable&lt;string&gt; "/&gt;, содержащий URI сообщения для извлечения |
+| uris | IEnumerable`1 | АIEnumerable&lt;строка&gt; "/&gt; содержащий URI сообщения, которое нужно получить |
 
 ### Возвращаемое значение
 
-Массив[`MapiMessage`](../../../aspose.email.mapi/mapimessage)содержащий извлеченные сообщения
+Массив[`MapiMessage`](../../../aspose.email.mapi/mapimessage)содержащие извлеченные сообщения
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris)
 
 ## FetchMapiMessages(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapimessages_1}
 
-Выбирает указанные сообщения
+Получает указанные сообщения
 
 ```csharp
 public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris, 
@@ -42,12 +42,12 @@ public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AStringCollectionсодержит URI сообщения, которое необходимо получить |
-| extendedProperties | IEnumerable`1 | Перечисление расширенных свойств |
+| uris | IEnumerable`1 | АStringCollection содержащий URI сообщения, которое нужно получить |
+| extendedProperties | IEnumerable`1 | Перечень расширенных свойств |
 
 ### Возвращаемое значение
 
-Массив[`MapiMessage`](../../../aspose.email.mapi/mapimessage)содержащий извлеченные сообщения
+Массив[`MapiMessage`](../../../aspose.email.mapi/mapimessage)содержащие извлеченные сообщения
 
 ### Смотрите также
 

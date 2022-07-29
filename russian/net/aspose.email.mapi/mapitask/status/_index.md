@@ -1,14 +1,14 @@
 ---
 title: Status
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает статус выполнения пользователем задачи.
+description: Получает или задает состояние выполнения пользователем задачи.
 type: docs
 weight: 200
 url: /ru/net/aspose.email.mapi/mapitask/status/
 ---
 ## MapiTask.Status property
 
-Получает или задает статус выполнения пользователем задачи.
+Получает или задает состояние выполнения пользователем задачи.
 
 ```csharp
 public MapiTaskStatus Status { get; set; }

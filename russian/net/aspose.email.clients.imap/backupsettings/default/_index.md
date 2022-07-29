@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: Справочник по Aspose.Email для .NET API
-description: ПолучаетBackupSettingsaspose.email.clients.imap/backupsettingsкласс с настройками по умолчанию
+description: получаетBackupSettingsaspose.email.clients.imap/backupsettings класс с настройками по умолчанию
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/backupsettings/default/
 ---
 ## BackupSettings.Default property
 
-Получает[`BackupSettings`](../../backupsettings)класс с настройками по умолчанию
+получает[`BackupSettings`](../../backupsettings) класс с настройками по умолчанию
 
 ```csharp
 public static BackupSettings Default { get; }

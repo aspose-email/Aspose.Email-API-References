@@ -1,14 +1,14 @@
 ---
 title: Birthday
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату дня рождения почтового пользователя в полночь. ОбластьСвойства контакта Каноническое имяPidTagBirthday Альтернативные именаPR_BIRTHDAY urnschemascontactsbday
+description: Содержит дату дня рождения почтового пользователя в полночь. Область Свойства контакта Каноническое имя PidTagBirthday Альтернативные имена PR_BIRTHDAY urnschemascontactsbday
 type: docs
 weight: 1990
 url: /ru/net/aspose.email.mapi/knownpropertylist/birthday/
 ---
 ## KnownPropertyList.Birthday field
 
-Содержит дату дня рождения почтового пользователя в полночь. Область:Свойства контакта Каноническое имя:PidTagBirthday Альтернативные имена:PR_BIRTHDAY, urn:schemas:contacts:bday
+Содержит дату дня рождения почтового пользователя в полночь. Область: Свойства контакта Каноническое имя: PidTagBirthday Альтернативные имена: PR_BIRTHDAY, urn:schemas:contacts:bday
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Birthday;

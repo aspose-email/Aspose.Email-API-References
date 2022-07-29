@@ -1,14 +1,14 @@
 ---
 title: ExchangeStreamedItem
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет элемент полученный в ответе ExportItems
+description: Представляет элемент полученный в ExportItems response
 type: docs
 weight: 3820
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangestreameditem/
 ---
 ## ExchangeStreamedItem class
 
-Представляет элемент, полученный в ответе ExportItems
+Представляет элемент, полученный в ExportItems response
 
 ```csharp
 public sealed class ExchangeStreamedItem
@@ -18,15 +18,15 @@ public sealed class ExchangeStreamedItem
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeStreamedItem](exchangestreameditem)() | Инициализирует новый экземпляр класса[`ExchangeStreamedItem`](../exchangestreameditem) |
+| [ExchangeStreamedItem](exchangestreameditem)() | Инициализирует новый экземпляр[`ExchangeStreamedItem`](../exchangestreameditem) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Data](../../aspose.email.clients.exchange.webservice/exchangestreameditem/data) { get; set; } | Получает или устанавливает данные элемента |
+| [Data](../../aspose.email.clients.exchange.webservice/exchangestreameditem/data) { get; set; } | Получает или задает элемент data |
 | [DataEncoding](../../aspose.email.clients.exchange.webservice/exchangestreameditem/dataencoding) { get; set; } | Получает или задает кодировку данных. |
-| [ItemId](../../aspose.email.clients.exchange.webservice/exchangestreameditem/itemid) { get; set; } | Получает или устанавливает идентификатор элемента |
+| [ItemId](../../aspose.email.clients.exchange.webservice/exchangestreameditem/itemid) { get; set; } | Получает или задает идентификатор элемента |
 
 ### Смотрите также
 

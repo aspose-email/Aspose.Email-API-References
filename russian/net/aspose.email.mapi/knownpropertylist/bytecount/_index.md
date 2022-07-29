@@ -1,14 +1,14 @@
 ---
 title: ByteCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает размер в байтах файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameByteCount Альтернативные именаurnschemas-microsoft-comofficeofficeBytes
+description: Указывает размер в байтах файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameByteCount Альтернативные имена urnschemas-microsoft-comofficeofficeBytes
 type: docs
 weight: 2160
 url: /ru/net/aspose.email.mapi/knownpropertylist/bytecount/
 ---
 ## KnownPropertyList.ByteCount field
 
-Задает размер в байтах файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameByteCount Альтернативные имена:urn:schemas-microsoft-com:office:office#Bytes
+Указывает размер в байтах файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameByteCount Альтернативные имена: urn:schemas-microsoft-com:office:office#Bytes
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ByteCount;

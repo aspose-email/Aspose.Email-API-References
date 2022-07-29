@@ -1,14 +1,14 @@
 ---
 title: FileVerdict
 second_title: Справочник по Aspose.Email для .NET API
-description: Вердикт файловой вредоносной программе. ОбязательноДа
+description: Вердикт о вредоносном ПО для файла. Обязательно Да
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/attachmentdata/fileverdict/
 ---
 ## AttachmentData.FileVerdict property
 
-Вердикт файловой вредоносной программе. Обязательно:Да
+Вердикт о вредоносном ПО для файла. Обязательно: Да
 
 ```csharp
 public FileVerdict FileVerdict { get; set; }

@@ -16,11 +16,11 @@ public PropertyDescriptor FindOrGetCurrent(PropertyDescriptor item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | PropertyDescriptor | Дескриптор свойства для search |
+| item | PropertyDescriptor | Дескриптор свойства для поиска |
 
 ### Возвращаемое значение
 
-[`PropertyDescriptor`](../../propertydescriptor)объект, если он найден в списке; иначе[`PropertyDescriptor`](../../propertydescriptor)объект из параметра.
+[`PropertyDescriptor`](../../propertydescriptor) объект, если он найден в списке; в противном случае[`PropertyDescriptor`](../../propertydescriptor) объект из параметра.
 
 ### Смотрите также
 

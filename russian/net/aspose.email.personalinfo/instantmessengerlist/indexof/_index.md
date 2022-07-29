@@ -16,11 +16,11 @@ public int IndexOf(InstantMessengerAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | InstantMessengerAddress | ОбъектObjectдля поиска в списке. |
+| value | InstantMessengerAddress | Object найти в списке. |
 
 ### Возвращаемое значение
 
-Индекс*value*, если он найден в списке; иначе -1.
+Индекс*value* если найдено в списке; иначе -1.
 
 ### Смотрите также
 

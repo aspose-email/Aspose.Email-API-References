@@ -1,14 +1,14 @@
 ---
 title: OriginalMessageClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Назначает свойство PidTagMessageClass раздел 2.2.1.3 MS-OXCMSG исходного сообщения. ОбластьСвойства безопасного обмена сообщениями Каноническое имяPidTagOriginalMessageClass Альтернативные именаPR_ORIG_MESSAGE_CLASS PR_ORIG_MESSAGE_CLASS_A PR_ORIG_MESSAGE_CLASS_W
+description: Назначает свойство PidTagMessageClass MS-OXCMSG раздел 2.2.1.3 исходного сообщения. Область свойства безопасного обмена сообщениями Каноническое имя PidTagOriginalMessageClass Альтернативные имена PR_ORIG_MESSAGE_CLASS PR_ORIG_MESSAGE_CLASS_A PR_ORIG_MESSAGE_CLASS_W
 type: docs
 weight: 13630
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalmessageclass/
 ---
 ## KnownPropertyList.OriginalMessageClass field
 
-Назначает свойство PidTagMessageClass (раздел 2.2.1.3 [MS-OXCMSG]) исходного сообщения. Область:Свойства безопасного обмена сообщениями Каноническое имя:PidTagOriginalMessageClass Альтернативные имена:PR_ORIG_MESSAGE_CLASS, PR_ORIG_MESSAGE_CLASS_A, PR_ORIG_MESSAGE_CLASS_W
+Назначает свойство PidTagMessageClass ([MS-OXCMSG], раздел 2.2.1.3) исходного сообщения. Область: свойства безопасного обмена сообщениями Каноническое имя: PidTagOriginalMessageClass Альтернативные имена: PR_ORIG_MESSAGE_CLASS, PR_ORIG_MESSAGE_CLASS_A, PR_ORIG_MESSAGE_CLASS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalMessageClass;

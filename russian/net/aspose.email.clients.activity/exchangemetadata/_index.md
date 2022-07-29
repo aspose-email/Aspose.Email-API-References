@@ -24,14 +24,14 @@ public class ExchangeMetadata
 
 | Имя | Описание |
 | --- | --- |
-| [BCC](../../aspose.email.clients.activity/exchangemetadata/bcc) { get; set; } | Набор адресов электронной почты, которые были в строке скрытой копии сообщения. Обязательно:Нет |
-| [CC](../../aspose.email.clients.activity/exchangemetadata/cc) { get; set; } | Набор адресов электронной почты, которые были в строке CC сообщения. Обязательно:Да |
-| [From](../../aspose.email.clients.activity/exchangemetadata/from) { get; set; } | Пользователь, отправивший письмо. Обязательно:Да |
-| [MessageID](../../aspose.email.clients.activity/exchangemetadata/messageid) { get; set; } | Идентификатор сообщения электронной почты, вызвавшего событие. Обязательно:Да |
-| [RecipientCount](../../aspose.email.clients.activity/exchangemetadata/recipientcount) { get; set; } | Общее количество всех получателей в строках TO, CC и BCC сообщения. Обязательно:Да |
-| [Sent](../../aspose.email.clients.activity/exchangemetadata/sent) { get; set; } | Время в формате UTC, когда электронное письмо было отправлено. Обязательно:Да |
-| [Subject](../../aspose.email.clients.activity/exchangemetadata/subject) { get; set; } | Тема сообщения электронной почты. Обязательно:Нет |
-| [To](../../aspose.email.clients.activity/exchangemetadata/to) { get; set; } | Коллекция адресов электронной почты, которые были в строке "Кому" сообщения. Обязательно:Нет |
+| [BCC](../../aspose.email.clients.activity/exchangemetadata/bcc) { get; set; } | Набор адресов электронной почты, которые были в строке BCC сообщения. Обязательно: No |
+| [CC](../../aspose.email.clients.activity/exchangemetadata/cc) { get; set; } | Набор адресов электронной почты, которые были в строке копии сообщения. Обязательно: Yes |
+| [From](../../aspose.email.clients.activity/exchangemetadata/from) { get; set; } | Пользователь, отправивший электронное письмо. Обязательно: Да |
+| [MessageID](../../aspose.email.clients.activity/exchangemetadata/messageid) { get; set; } | Идентификатор сообщения электронной почты, вызвавшего событие. Обязательно: Yes |
+| [RecipientCount](../../aspose.email.clients.activity/exchangemetadata/recipientcount) { get; set; } | Общее количество всех получателей в строках TO, CC и BCC сообщения. Обязательно: Yes |
+| [Sent](../../aspose.email.clients.activity/exchangemetadata/sent) { get; set; } | Время в формате UTC, когда было отправлено электронное письмо. Обязательно: Yes |
+| [Subject](../../aspose.email.clients.activity/exchangemetadata/subject) { get; set; } | Тема сообщения электронной почты. Обязательно: No |
+| [To](../../aspose.email.clients.activity/exchangemetadata/to) { get; set; } | Набор адресов электронной почты, которые были в строке «Кому» сообщения. Обязательно: No |
 
 ### Смотрите также
 

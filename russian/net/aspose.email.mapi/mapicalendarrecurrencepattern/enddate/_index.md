@@ -1,14 +1,14 @@
 ---
 title: EndDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает Определяет конечную дату шаблона повторения элемента.
+description: Получает или устанавливает дату окончания шаблона повторения элемента.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapicalendarrecurrencepattern/enddate/
 ---
 ## MapiCalendarRecurrencePattern.EndDate property
 
-Получает или задает Определяет конечную дату шаблона повторения элемента.
+Получает или устанавливает дату окончания шаблона повторения элемента.
 
 ```csharp
 public DateTime EndDate { get; set; }

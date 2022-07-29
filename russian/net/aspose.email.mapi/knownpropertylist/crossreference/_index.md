@@ -1,14 +1,14 @@
 ---
 title: CrossReference
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя хоста с опущенными доменами и разделенный пробелами список пар имен групп новостей и номеров сообщений разделенных двоеточиями. ОбластьЭлектронная почта Каноническое имяPidNameCrossReference Альтернативные именаurnschemasmailheaderxref
+description: Содержит имя хоста с опущенными доменами и разделенный пробелами список пар имен групп новостей и номеров сообщений разделенных двоеточиями. Область Email Каноническое имя PidNameCrossReference Альтернативные имена urnschemasmailheaderxref
 type: docs
 weight: 3580
 url: /ru/net/aspose.email.mapi/knownpropertylist/crossreference/
 ---
 ## KnownPropertyList.CrossReference field
 
-Содержит имя хоста (с опущенными доменами) и разделенный пробелами список пар имен групп новостей и номеров сообщений, разделенных двоеточиями. Область:Электронная почта Каноническое имя:PidNameCrossReference Альтернативные имена:urn:schemas:mailheader:xref
+Содержит имя хоста (с опущенными доменами) и разделенный пробелами список пар имен групп новостей и номеров сообщений, разделенных двоеточиями. Область: Email Каноническое имя: PidNameCrossReference Альтернативные имена: urn:schemas:mailheader:xref
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CrossReference;

@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/inboxfolderserv
 ---
 ## IEWSClient.InboxFolderServerNotifications event
 
-Происходит при возникновении указанного типа события для папки "Входящие".
+Происходит при возникновении указанного типа события для папки «Входящие».
 
 ```csharp
 public event EventHandler<ServerNotificationEventArgs> InboxFolderServerNotifications;

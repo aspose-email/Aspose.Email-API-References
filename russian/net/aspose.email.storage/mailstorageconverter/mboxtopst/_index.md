@@ -21,17 +21,17 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName)
 
 ### Возвращаемое значение
 
-Личный объект хранилища, представляющий преобразованное хранилище.
+Объект личного хранилища, представляющий преобразованное хранилище.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*mboxFileName*равно null. |
+| ArgumentNullException | Если*mboxFileName* нулевой. |
 
 ### Примечания
 
-Кроме того, может быть выброшен тот же набор исключений, что и дляFileStreamсоздание с использованием режимов открытия/чтения, создания/записи.
+Кроме того, может быть выдан тот же набор исключений, что и дляFileStream создание с использованием режима открытия/чтения, создания/записи.
 
 ### Смотрите также
 
@@ -55,7 +55,7 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName,
 | --- | --- | --- |
 | mboxFileName | String | Имя файла mbox. |
 | pstFileName | String | Имя файла PST. |
-| mailHandler | MailHandler | Делегат, вызываемый для каждого сообщения |
+| mailHandler | MailHandler | Делегат вызывал каждое сообщение |
 
 ### Возвращаемое значение
 
@@ -65,11 +65,11 @@ public static PersonalStorage MboxToPst(string mboxFileName, string pstFileName,
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*mboxFileName*равно null. |
+| ArgumentNullException | Если*mboxFileName* нулевой. |
 
 ### Примечания
 
-Кроме того, может быть выброшен тот же набор исключений, что и дляFileStreamсоздание с использованием режимов открытия/чтения, создания/записи.
+Кроме того, может быть выдан тот же набор исключений, что и дляFileStream создание с использованием режима открытия/чтения, создания/записи.
 
 ### Смотрите также
 
@@ -96,14 +96,14 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 
 ### Возвращаемое значение
 
-Личный объект хранилища, представляющий преобразованное хранилище.
+Объект личного хранилища, представляющий преобразованное хранилище.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*mboxrdDataStream*имеет значение null. |
-| ArgumentNullException | Если*pstFileName*равно null или пусто. |
+| ArgumentNullException | Если*mboxrdDataStream* нулевой. |
+| ArgumentNullException | Если*pstFileName* является нулевым или пустым. |
 
 ### Смотрите также
 
@@ -127,7 +127,7 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 | --- | --- | --- |
 | mboxrdDataStream | Stream | Поток данных mboxrd. |
 | pstFileName | String | Имя файла PST. |
-| mailHandler | MailHandler | Делегат, вызываемый для каждого сообщения |
+| mailHandler | MailHandler | Делегат вызывал каждое сообщение |
 
 ### Возвращаемое значение
 
@@ -137,8 +137,8 @@ public static PersonalStorage MboxToPst(Stream mboxrdDataStream, string pstFileN
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*mboxrdDataStream*имеет значение null. |
-| ArgumentNullException | Если*pstFileName*равно null или пусто. |
+| ArgumentNullException | Если*mboxrdDataStream* нулевой. |
+| ArgumentNullException | Если*pstFileName* является нулевым или пустым. |
 
 ### Смотрите также
 

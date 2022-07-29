@@ -1,14 +1,14 @@
 ---
 title: DataCenterSecurityEventType
 second_title: Справочник по Aspose.Email для .NET API
-description: Типы событий dmdlet в ящике блокировки.
+description: Типы событий dmdlet в сейфе.
 type: docs
 weight: 2430
 url: /ru/net/aspose.email.clients.activity/datacentersecurityeventtype/
 ---
 ## DataCenterSecurityEventType enumeration
 
-Типы событий dmdlet в ящике блокировки.
+Типы событий dmdlet в сейфе.
 
 ```csharp
 public enum DataCenterSecurityEventType

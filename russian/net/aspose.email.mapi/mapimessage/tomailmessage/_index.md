@@ -20,7 +20,7 @@ public MailMessage ToMailMessage(MailConversionOptions options)
 
 ### Возвращаемое значение
 
-Возвращает экземпляр MailMessage, загруженный из этого MapiMessage.
+Возвращает экземпляр MailMessage, который загружается из этого MapiMessage.
 
 ### Смотрите также
 

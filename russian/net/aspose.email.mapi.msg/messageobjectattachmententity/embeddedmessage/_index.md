@@ -1,14 +1,14 @@
 ---
 title: EmbeddedMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает хранилище встроенных объектов сообщений если оно присутствует. Может быть нулевым.
+description: Получает или задает хранилище встроенных объектов сообщений если оно присутствует. Может принимать значение null.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi.msg/messageobjectattachmententity/embeddedmessage/
 ---
 ## MessageObjectAttachmentEntity.EmbeddedMessage property
 
-Получает или задает хранилище встроенных объектов сообщений, если оно присутствует. Может быть нулевым.
+Получает или задает хранилище встроенных объектов сообщений, если оно присутствует. Может принимать значение null.
 
 ```csharp
 public MessageObject EmbeddedMessage { get; set; }
@@ -16,11 +16,11 @@ public MessageObject EmbeddedMessage { get; set; }
 
 ### Стоимость имущества
 
-Встроенное сообщение.
+Вложенное сообщение.
 
 ### Примечания
 
-Взаимоисключающее с[`CustomAttachmentStorageData`](../customattachmentstoragedata)или оба могут быть нулевыми.
+Взаимоисключающие с[`CustomAttachmentStorageData`](../customattachmentstoragedata) или оба могут быть нулевыми.
 
 ### Смотрите также
 

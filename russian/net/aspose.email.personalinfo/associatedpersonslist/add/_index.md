@@ -16,7 +16,7 @@ public void Add(AssociatedPerson value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | AssociatedPerson | ОбъектObjectдля добавления в список. |
+| value | AssociatedPerson | Object добавить в список. |
 
 ### Возвращаемое значение
 

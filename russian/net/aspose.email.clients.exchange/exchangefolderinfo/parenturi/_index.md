@@ -1,14 +1,14 @@
 ---
 title: ParentUri
 second_title: Справочник по Aspose.Email для .NET API
-description: uri родительской папки
+description: Родительская папка uri
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.exchange/exchangefolderinfo/parenturi/
 ---
 ## ExchangeFolderInfo.ParentUri property
 
-uri родительской папки
+Родительская папка uri
 
 ```csharp
 public string ParentUri { get; }

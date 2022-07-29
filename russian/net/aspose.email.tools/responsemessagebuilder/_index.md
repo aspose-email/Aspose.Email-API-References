@@ -3,7 +3,7 @@ title: ResponseMessageBuilder
 second_title: Справочник по Aspose.Email для .NET API
 description: Обеспечивает создание и форматирование пересылаемых и ответных сообщений.
 type: docs
-weight: 20590
+weight: 20640
 url: /ru/net/aspose.email.tools/responsemessagebuilder/
 ---
 ## ResponseMessageBuilder class
@@ -26,8 +26,8 @@ public abstract class ResponseMessageBuilder
 
 | Имя | Описание |
 | --- | --- |
-| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse#buildresponse)(MailMessage) | Создает сообщения пересылки и ответа. |
-| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse#buildresponse_1)(MapiMessage) | Создает сообщения пересылки и ответа. |
+| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse#buildresponse)(MailMessage) | Создает сообщения для пересылки и ответа. |
+| abstract [BuildResponse](../../aspose.email.tools/responsemessagebuilder/buildresponse#buildresponse_1)(MapiMessage) | Создает сообщения для пересылки и ответа. |
 
 ### Смотрите также
 

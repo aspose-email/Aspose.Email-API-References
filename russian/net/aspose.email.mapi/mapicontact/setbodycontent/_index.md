@@ -1,14 +1,14 @@
 ---
 title: SetBodyContent
 second_title: Справочник по Aspose.Email для .NET API
-description: Устанавливает содержимое тела.
+description: Задает содержимое тела.
 type: docs
 weight: 150
 url: /ru/net/aspose.email.mapi/mapicontact/setbodycontent/
 ---
 ## MapiContact.SetBodyContent method
 
-Устанавливает содержимое тела.
+Задает содержимое тела.
 
 ```csharp
 public override void SetBodyContent(string content, BodyContentType contentType)
@@ -16,18 +16,18 @@ public override void SetBodyContent(string content, BodyContentType contentType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| content | String | Содержимое. |
-| contentType | BodyContentType | Тип содержимого. |
+| content | String | Контент. |
+| contentType | BodyContentType | Тип контента. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | генерирует исключение, если указанная строка содержимого пуста или пуста. |
+| ArgumentNullException | бросает, если указанная строка содержимого является нулевой или пустой. |
 
 ### Примечания
 
-Предусмотрено для установки содержимого основного сообщения в форматах RTF, HTML или Plain Text . При установке значения также обновляются значения свойств PR_RTF_COMPRESSED, PR_RTF_DECOMPRESSES, PR_BODY . Обратите внимание, что после установки значения в формате HTML свойство BodyRtf возвращает значение, закодированное в RTF.
+Предусмотрен для установки содержимого основного сообщения в форматах RTF, HTML или Plain Text. При установке значения также обновляются значения свойств PR_RTF_COMPRESSED, PR_RTF_DECOMPRESSES, PR_BODY . Обратите внимание: после установки значения в формате HTML свойство BodyRtf возвращает значение, закодированное в RTF.
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: VCardFullName
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет полное имя контакта vCard свойство N
 type: docs
-weight: 19620
+weight: 19650
 url: /ru/net/aspose.email.personalinfo.vcard/vcardfullname/
 ---
 ## VCardFullName class
@@ -18,7 +18,7 @@ public sealed class VCardFullName
 
 | Имя | Описание |
 | --- | --- |
-| [VCardFullName](vcardfullname)() | Инициализирует новый экземпляр класса[`VCardFullName`](../vcardfullname)class |
+| [VCardFullName](vcardfullname)() | Инициализирует новый экземпляр[`VCardFullName`](../vcardfullname) класс |
 
 ## Характеристики
 
@@ -27,7 +27,7 @@ public sealed class VCardFullName
 | [FamilyName](../../aspose.email.personalinfo.vcard/vcardfullname/familyname) { get; set; } | Получает или задает имя семейства |
 | [GivenName](../../aspose.email.personalinfo.vcard/vcardfullname/givenname) { get; set; } | Получает или устанавливает заданное имя |
 | [HonorificPostfixes](../../aspose.email.personalinfo.vcard/vcardfullname/honorificpostfixes) { get; set; } | Получает или устанавливает почетный постфикс |
-| [HonorificPrefixes](../../aspose.email.personalinfo.vcard/vcardfullname/honorificprefixes) { get; set; } | Получает или устанавливает почетные префиксы |
+| [HonorificPrefixes](../../aspose.email.personalinfo.vcard/vcardfullname/honorificprefixes) { get; set; } | Получает или задает почетные префиксы |
 | [MiddleName](../../aspose.email.personalinfo.vcard/vcardfullname/middlename) { get; set; } | Получает или задает отчество |
 
 ### Смотрите также

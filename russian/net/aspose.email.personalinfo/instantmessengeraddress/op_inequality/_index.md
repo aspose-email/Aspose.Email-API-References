@@ -17,7 +17,7 @@ public static bool operator !=(InstantMessengerAddress a, InstantMessengerAddres
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | InstantMessengerAddress | Первый объект для сравнения |
-| b | InstantMessengerAddress | Второй объект для сравнения compare |
+| b | InstantMessengerAddress | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

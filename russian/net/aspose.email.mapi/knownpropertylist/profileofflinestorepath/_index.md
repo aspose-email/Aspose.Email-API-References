@@ -1,14 +1,14 @@
 ---
 title: ProfileOfflineStorePath
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_OFFLINE_STORE_PATH
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_OFFLINE_STORE_PATH
 type: docs
 weight: 14840
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileofflinestorepath/
 ---
 ## KnownPropertyList.ProfileOfflineStorePath field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_OFFLINE_STORE_PATH
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_OFFLINE_STORE_PATH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileOfflineStorePath;

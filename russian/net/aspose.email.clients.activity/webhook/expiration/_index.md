@@ -1,14 +1,14 @@
 ---
 title: Expiration
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает срок действия
+description: Получает или задает дату истечения срока действия
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/webhook/expiration/
 ---
 ## Webhook.Expiration property
 
-Получает или устанавливает срок действия
+Получает или задает дату истечения срока действия
 
 ```csharp
 public DateTime? Expiration { get; set; }

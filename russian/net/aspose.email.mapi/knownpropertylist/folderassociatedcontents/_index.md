@@ -1,14 +1,14 @@
 ---
 title: FolderAssociatedContents
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует все сообщения FAI в текущей папке. ОбластьMapiContainer Каноническое имяPidTagFolderAssociatedContents Альтернативные именаPR_FOLDER_ASSOCIATED_CONTENTS
+description: Идентифицирует все сообщения FAI в текущей папке. Область MapiContainer Каноническое имя PidTagFolderAssociatedContents Альтернативные имена PR_FOLDER_ASSOCIATED_CONTENTS
 type: docs
 weight: 10390
 url: /ru/net/aspose.email.mapi/knownpropertylist/folderassociatedcontents/
 ---
 ## KnownPropertyList.FolderAssociatedContents field
 
-Идентифицирует все сообщения FAI в текущей папке. Область:MapiContainer Каноническое имя:PidTagFolderAssociatedContents Альтернативные имена:PR_FOLDER_ASSOCIATED_CONTENTS
+Идентифицирует все сообщения FAI в текущей папке. Область: MapiContainer Каноническое имя: PidTagFolderAssociatedContents Альтернативные имена: PR_FOLDER_ASSOCIATED_CONTENTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderAssociatedContents;

@@ -1,14 +1,14 @@
 ---
 title: SwappedToDoStore
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagStoreEntryId раздел 2.1018 сообщения когда установлено значение свойства PidTagSwappedToDoData раздел 2.1027. ОбластьMapiNonTransmittable Каноническое имяPidTagSwappedToDoStore Альтернативные именаPR_SWAPPED_TODO_STORE ptagSwappedTodoStore
+description: Содержит значение свойства PidTagStoreEntryId раздел 2.1018 сообщения когда установлено значение свойства PidTagSwappedToDoData раздел 2.1027. Область MapiNonTransmittable Каноническое имя PidTagSwappedToDoStore Альтернативные имена PR_SWAPPED_TODO_STORE ptagSwappedTodoStore
 type: docs
 weight: 18440
 url: /ru/net/aspose.email.mapi/knownpropertylist/swappedtodostore/
 ---
 ## KnownPropertyList.SwappedToDoStore field
 
-Содержит значение свойства PidTagStoreEntryId (раздел 2.1018) сообщения, когда установлено значение свойства PidTagSwappedToDoData (раздел 2.1027). Область:MapiNonTransmittable Каноническое имя:PidTagSwappedToDoStore Альтернативные имена:PR_SWAPPED_TODO_STORE, ptagSwappedTodoStore
+Содержит значение свойства PidTagStoreEntryId (раздел 2.1018) сообщения, когда установлено значение свойства PidTagSwappedToDoData (раздел 2.1027). Область: MapiNonTransmittable Каноническое имя: PidTagSwappedToDoStore Альтернативные имена: PR_SWAPPED_TODO_STORE, ptagSwappedTodoStore
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SwappedToDoStore;

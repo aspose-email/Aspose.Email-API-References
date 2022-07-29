@@ -1,14 +1,14 @@
 ---
 title: AttachmentHidden
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает скрыт ли объект вложения от конечного пользователя. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachmentHidden Альтернативные именаPR_ATTACHMENT_HIDDEN
+description: Указывает скрыт ли объект вложения от конечного пользователя. Область Свойства вложения сообщения Каноническое имя PidTagAttachmentHidden Альтернативные имена PR_ATTACHMENT_HIDDEN
 type: docs
 weight: 1650
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachmenthidden/
 ---
 ## KnownPropertyList.AttachmentHidden field
 
-Указывает, скрыт ли объект вложения от конечного пользователя. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachmentHidden Альтернативные имена:PR_ATTACHMENT_HIDDEN
+Указывает, скрыт ли объект вложения от конечного пользователя. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachmentHidden Альтернативные имена: PR_ATTACHMENT_HIDDEN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentHidden;

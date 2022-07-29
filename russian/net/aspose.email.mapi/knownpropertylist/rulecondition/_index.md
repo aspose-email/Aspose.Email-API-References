@@ -1,14 +1,14 @@
 ---
 title: RuleCondition
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет условия при которых должно выполняться действие правила. ОбластьСвойства серверных правил Каноническое имяPidTagRuleCondition Альтернативные именаPR_RULE_CONDITION ptagRuleCondition
+description: Определяет условия при которых должно выполняться действие правила. Область Свойства правил на стороне сервера Каноническое имя PidTagRuleCondition Альтернативные имена PR_RULE_CONDITION ptagRuleCondition
 type: docs
 weight: 16460
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulecondition/
 ---
 ## KnownPropertyList.RuleCondition field
 
-Определяет условия, при которых должно выполняться действие правила. Область:Свойства серверных правил Каноническое имя:PidTagRuleCondition Альтернативные имена:PR_RULE_CONDITION, ptagRuleCondition
+Определяет условия, при которых должно выполняться действие правила. Область: Свойства правил на стороне сервера Каноническое имя: PidTagRuleCondition Альтернативные имена: PR_RULE_CONDITION, ptagRuleCondition
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleCondition;

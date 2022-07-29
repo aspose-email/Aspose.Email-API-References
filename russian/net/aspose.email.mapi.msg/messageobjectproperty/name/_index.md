@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает имя свойства если оно именовано.
+description: Получает или задает имя свойства если оно задано.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi.msg/messageobjectproperty/name/
 ---
 ## MessageObjectProperty.Name property
 
-Получает или задает имя свойства, если оно именовано.
+Получает или задает имя свойства, если оно задано.
 
 ```csharp
 public string Name { get; set; }
@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### Стоимость имущества
 
-Имя.
+Название.
 
 ### Смотрите также
 

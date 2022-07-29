@@ -1,14 +1,14 @@
 ---
 title: TaskFFixOffline
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает точность свойства PidLidTaskOwner раздел 2.328. ОбластьЗадачи Каноническое имяPidLidTaskFFixOffline Альтернативные именаdispidTaskFFixOffline
+description: Указывает точность свойства PidLidTaskOwner раздел 2.328. Область Tasks Каноническое имя PidLidTaskFFixOffline Альтернативные имена dispidTaskFFixOffline
 type: docs
 weight: 18650
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskffixoffline/
 ---
 ## KnownPropertyList.TaskFFixOffline field
 
-Указывает точность свойства PidLidTaskOwner (раздел 2.328). Область:Задачи Каноническое имя:PidLidTaskFFixOffline Альтернативные имена:dispidTaskFFixOffline
+Указывает точность свойства PidLidTaskOwner (раздел 2.328). Область: Tasks Каноническое имя: PidLidTaskFFixOffline Альтернативные имена: dispidTaskFFixOffline
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskFFixOffline;

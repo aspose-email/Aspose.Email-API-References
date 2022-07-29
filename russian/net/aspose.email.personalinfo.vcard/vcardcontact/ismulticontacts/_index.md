@@ -3,7 +3,7 @@ title: IsMultiContacts
 second_title: Справочник по Aspose.Email для .NET API
 description: Проверяет содержит ли исходный поток несколько контактов.
 type: docs
-weight: 150
+weight: 160
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/ismulticontacts/
 ---
 ## VCardContact.IsMultiContacts method
@@ -20,7 +20,7 @@ public static bool IsMultiContacts(Stream stream)
 
 ### Возвращаемое значение
 
-True, если несколько контактов, иначе false .
+True, если несколько контактов, иначе false.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: AttributeHidden
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает статус скрытия или отображения папки. ОбластьСвойства контроля доступа Каноническое имяPidTagAttributeHidden Альтернативные именаPR_ATTR_HIDDEN ptagAttrHidden DAVishidden
+description: Указывает статус скрытия или отображения папки. Область Свойства управления доступом Каноническое имя PidTagAttributeHidden Альтернативные имена PR_ATTR_HIDDEN ptagAttrHidden DAVishidden
 type: docs
 weight: 1830
 url: /ru/net/aspose.email.mapi/knownpropertylist/attributehidden/
 ---
 ## KnownPropertyList.AttributeHidden field
 
-Указывает статус скрытия или отображения папки. Область:Свойства контроля доступа Каноническое имя:PidTagAttributeHidden Альтернативные имена:PR_ATTR_HIDDEN, ptagAttrHidden, DAV:ishidden
+Указывает статус скрытия или отображения папки. Область: Свойства управления доступом Каноническое имя: PidTagAttributeHidden Альтернативные имена: PR_ATTR_HIDDEN, ptagAttrHidden, DAV:ishidden
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttributeHidden;

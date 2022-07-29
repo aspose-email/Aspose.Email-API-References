@@ -1,14 +1,14 @@
 ---
 title: Headers
 second_title: Справочник по Aspose.Email для .NET API
-description: Заголовки включенные в сигнатуру h.
+description: Заголовки включенные в подпись h.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.dkim/dkimsignatureinfo/headers/
 ---
 ## DKIMSignatureInfo.Headers property
 
-Заголовки, включенные в сигнатуру (h=).
+Заголовки, включенные в подпись (h=).
 
 ```csharp
 public HeaderList Headers { get; }

@@ -16,9 +16,9 @@ public void RenameFolder(IConnection connection, string folderName, string newFo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к a server |
-| folderName | String | Папка для переименования |
-| newFolderName | String | Имя новой папки |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, которую нужно переименовать |
+| newFolderName | String | Новое имя папки |
 
 ### Смотрите также
 
@@ -39,8 +39,8 @@ public void RenameFolder(string folderName, string newFolderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка в быть переименована |
-| newFolderName | String | Имя новой папки |
+| folderName | String | Папка, которую нужно переименовать |
+| newFolderName | String | Новое имя папки |
 
 ### Смотрите также
 

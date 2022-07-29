@@ -1,14 +1,14 @@
 ---
 title: ExchDataExpectedContentClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает массив имен который указывает ожидаемые классы содержимого элементов в папке. ОбластьОбщие Каноническое имяPidNameExchDataExpectedContentClass Альтернативные именаurnschemas-microsoft-comexch-dataexpected-content-class
+description: Задает массив имен указывающих ожидаемые классы содержимого элементов в папке. Область Common Каноническое имя PidNameExchDataExpectedContentClass Альтернативные имена urnschemas-microsoft-comexch-dataexpected-content-class
 type: docs
 weight: 9910
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchdataexpectedcontentclass/
 ---
 ## KnownPropertyList.ExchDataExpectedContentClass field
 
-Задает массив имен, который указывает ожидаемые классы содержимого элементов в папке. Область:Общие Каноническое имя:PidNameExchDataExpectedContentClass Альтернативные имена:urn:schemas-microsoft-com:exch-data:expected-content-class
+Задает массив имен, указывающих ожидаемые классы содержимого элементов в папке. Область: Common Каноническое имя: PidNameExchDataExpectedContentClass Альтернативные имена: urn:schemas-microsoft-com:exch-data:expected-content-class
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchDataExpectedContentClass;

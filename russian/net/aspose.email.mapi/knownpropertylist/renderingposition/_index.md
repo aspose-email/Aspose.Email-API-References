@@ -1,14 +1,14 @@
 ---
 title: RenderingPosition
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет смещение в отображаемых символах используемое при отображении вложения в основном тексте сообщения. ОбластьMapiAttachment Каноническое имяPidTagRenderingPosition Альтернативные именаPR_RENDERING_POSITION ptagRenderingPosition
+description: Представляет смещение в отображаемых символах используемое при отображении вложения в основном тексте сообщения. Область MapiAttachment Каноническое имя PidTagRenderingPosition Альтернативные имена PR_RENDERING_POSITION ptagRenderingPosition
 type: docs
 weight: 15830
 url: /ru/net/aspose.email.mapi/knownpropertylist/renderingposition/
 ---
 ## KnownPropertyList.RenderingPosition field
 
-Представляет смещение в отображаемых символах, используемое при отображении вложения в основном тексте сообщения. Область:MapiAttachment Каноническое имя:PidTagRenderingPosition Альтернативные имена:PR_RENDERING_POSITION, ptagRenderingPosition
+Представляет смещение в отображаемых символах, используемое при отображении вложения в основном тексте сообщения. Область: MapiAttachment Каноническое имя: PidTagRenderingPosition Альтернативные имена: PR_RENDERING_POSITION, ptagRenderingPosition
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RenderingPosition;

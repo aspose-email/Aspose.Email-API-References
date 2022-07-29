@@ -1,14 +1,14 @@
 ---
 title: Workload
 second_title: Справочник по Aspose.Email для .NET API
-description: Служба Office 365 в которой произошло действие в строке рабочей нагрузки. Возможные значения этого свойства Exchange SharePoint OneDrive AzureActiveDirectory SecurityComplianceCenter Sway ThreatIntelligence ОбязательноНет
+description: Служба Office 365 в которой произошло действие в строке рабочей нагрузки. Возможные значения этого свойства Exchange SharePoint OneDrive AzureActiveDirectory SecurityComplianceCenter Sway ThreatIntelligence Обязательно No
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.activity/content/workload/
 ---
 ## Content.Workload property
 
-Служба Office 365, в которой произошло действие в строке рабочей нагрузки. Возможные значения этого свойства: Exchange SharePoint OneDrive AzureActiveDirectory SecurityComplianceCenter Sway ThreatIntelligence Обязательно:Нет
+Служба Office 365, в которой произошло действие в строке рабочей нагрузки. Возможные значения этого свойства: Exchange SharePoint OneDrive AzureActiveDirectory SecurityComplianceCenter Sway ThreatIntelligence Обязательно: No
 
 ```csharp
 public Workload Workload { get; set; }

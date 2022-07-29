@@ -1,14 +1,14 @@
 ---
 title: Appointment
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает объект со свойствами встречи для создания запроса
+description: Получает объект со свойствами встречи для создания query
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange/exchangequerybuilder/appointment/
 ---
 ## ExchangeQueryBuilder.Appointment property
 
-Получает объект со свойствами встречи для создания запроса
+Получает объект со свойствами встречи для создания query
 
 ```csharp
 public AppointmentQueryBuilder Appointment { get; }

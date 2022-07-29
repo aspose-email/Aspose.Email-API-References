@@ -1,14 +1,14 @@
 ---
 title: SecurityDescriptorAsXml
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит атрибуты безопасности в XML. ОбластьСвойства контроля доступа Каноническое имяPidTagSecurityDescriptorAsXml Альтернативные именаPR_NT_SECURITY_DESCRIPTOR_AS_XML PR_NT_SECURITY_DESCRIPTOR_AS_XML_A PR_NT_SECURITY_DESCRIPTOR_AS_XML_W
+description: Содержит атрибуты безопасности в формате XML. Область Свойства контроля доступа Каноническое имя PidTagSecurityDescriptorAsXml Альтернативные имена PR_NT_SECURITY_DESCRIPTOR_AS_XML PR_NT_SECURITY_DESCRIPTOR_AS_XML_A PR_NT_SECURITY_DESCRIPTOR_AS_XML_0W_x_XML_0W
 type: docs
 weight: 17070
 url: /ru/net/aspose.email.mapi/knownpropertylist/securitydescriptorasxml/
 ---
 ## KnownPropertyList.SecurityDescriptorAsXml field
 
-Содержит атрибуты безопасности в XML. Область:Свойства контроля доступа Каноническое имя:PidTagSecurityDescriptorAsXml Альтернативные имена:PR_NT_SECURITY_DESCRIPTOR_AS_XML, PR_NT_SECURITY_DESCRIPTOR_AS_XML_A, PR_NT_SECURITY_DESCRIPTOR_AS_XML_W,
+Содержит атрибуты безопасности в формате XML. Область: Свойства контроля доступа Каноническое имя: PidTagSecurityDescriptorAsXml Альтернативные имена: PR_NT_SECURITY_DESCRIPTOR_AS_XML, PR_NT_SECURITY_DESCRIPTOR_AS_XML_A, PR_NT_SECURITY_DESCRIPTOR_AS_XML_0W,_x_XML_0W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SecurityDescriptorAsXml;

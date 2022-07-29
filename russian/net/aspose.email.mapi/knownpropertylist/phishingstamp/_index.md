@@ -1,14 +1,14 @@
 ---
 title: PhishingStamp
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает может ли сообщение быть фишинговым. ОбластьСвойства безопасного обмена сообщениями Каноническое имяPidNamePhishingStamp Альтернативные имена
+description: Указывает может ли сообщение быть фишинговым. Область Свойства безопасного обмена сообщениями Каноническое имя PidNamePhishingStamp Альтернативные имена
 type: docs
 weight: 14260
 url: /ru/net/aspose.email.mapi/knownpropertylist/phishingstamp/
 ---
 ## KnownPropertyList.PhishingStamp field
 
-Указывает, может ли сообщение быть фишинговым. Область:Свойства безопасного обмена сообщениями Каноническое имя:PidNamePhishingStamp Альтернативные имена:
+Указывает, может ли сообщение быть фишинговым. Область: Свойства безопасного обмена сообщениями Каноническое имя: PidNamePhishingStamp Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor PhishingStamp;

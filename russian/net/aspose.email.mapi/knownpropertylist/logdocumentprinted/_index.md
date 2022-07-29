@@ -1,14 +1,14 @@
 ---
 title: LogDocumentPrinted
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает печатался ли документ во время ведения журнала. ОбластьЖурнал Каноническое имяPidLidLogDocumentPrinted Альтернативные именаdispidLogDocPrinted
+description: Указывает был ли документ распечатан во время ведения журнала. Область Journal Каноническое имя PidLidLogDocumentPrinted Альтернативные имена dispidLogDocPrinted
 type: docs
 weight: 12220
 url: /ru/net/aspose.email.mapi/knownpropertylist/logdocumentprinted/
 ---
 ## KnownPropertyList.LogDocumentPrinted field
 
-Указывает, печатался ли документ во время ведения журнала. Область:Журнал Каноническое имя:PidLidLogDocumentPrinted Альтернативные имена:dispidLogDocPrinted
+Указывает, был ли документ распечатан во время ведения журнала. Область: Journal Каноническое имя: PidLidLogDocumentPrinted Альтернативные имена: dispidLogDocPrinted
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogDocumentPrinted;

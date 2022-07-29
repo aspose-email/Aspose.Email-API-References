@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarTimeZoneRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiCalendarTimeZoneRuleaspose.email.mapi/mapicalendartimezonerule.
+description: Инициализирует новый экземплярMapiCalendarTimeZoneRuleaspose.email.mapi/mapicalendartimezonerule класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicalendartimezonerule/mapicalendartimezonerule/
 ---
 ## MapiCalendarTimeZoneRule constructor
 
-Инициализирует новый экземпляр класса[`MapiCalendarTimeZoneRule`](../../mapicalendartimezonerule).
+Инициализирует новый экземпляр[`MapiCalendarTimeZoneRule`](../../mapicalendartimezonerule) класс.
 
 ```csharp
 public MapiCalendarTimeZoneRule()

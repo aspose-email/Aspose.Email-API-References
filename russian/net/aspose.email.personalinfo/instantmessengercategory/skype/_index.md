@@ -1,14 +1,14 @@
 ---
 title: Skype
 second_title: Справочник по Aspose.Email для .NET API
-description: Skype
+description: Скайп
 type: docs
 weight: 120
 url: /ru/net/aspose.email.personalinfo/instantmessengercategory/skype/
 ---
 ## InstantMessengerCategory.Skype property
 
-Skype
+Скайп
 
 ```csharp
 public static InstantMessengerCategory Skype { get; }

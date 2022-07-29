@@ -1,14 +1,14 @@
 ---
 title: LineCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество строк в файле прикрепленном к объекту Document. ОбластьОбщие Каноническое имяPidNameLineCount Альтернативные именаurnschemas-microsoft-comofficeofficeLines
+description: Указывает количество строк в файле прикрепленном к объекту Document. Область Common Каноническое имя PidNameLineCount Альтернативные имена urnschemas-microsoft-comofficeofficeLines
 type: docs
 weight: 12090
 url: /ru/net/aspose.email.mapi/knownpropertylist/linecount/
 ---
 ## KnownPropertyList.LineCount field
 
-Указывает количество строк в файле, прикрепленном к объекту Document. Область:Общие Каноническое имя:PidNameLineCount Альтернативные имена:urn:schemas-microsoft-com:office:office#Lines
+Указывает количество строк в файле, прикрепленном к объекту Document. Область: Common Каноническое имя: PidNameLineCount Альтернативные имена: urn:schemas-microsoft-com:office:office#Lines
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LineCount;

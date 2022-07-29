@@ -1,14 +1,14 @@
 ---
 title: OtherAddressPostOfficeBox
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер или идентификатор другого почтового ящика почтового пользователя. ОбластьСвойства адреса Каноническое имяPidTagOtherAddressPostOfficeBox Альтернативные именаPR_OTHER_ADDRESS_POST_OFFICE_BOX PR_OTHER_ADDRESS_POST_OFFICE_BOX_A PR_OTHER_ADDRESS_POST_OFFICE_BOX_W
+description: Содержит номер или идентификатор другого почтового ящика почтового пользователя. Область Свойства адреса Каноническое имя PidTagOtherAddressPostOfficeBox Альтернативные имена PR_OTHER_ADDRESS_POST_OFFICE_BOX PR_OTHER_ADDRESS_POST_OFFICE_BOX_A PR_OTHER_ADDRESSBOxPOST_0WICE_OFFICE_d
 type: docs
 weight: 13990
 url: /ru/net/aspose.email.mapi/knownpropertylist/otheraddresspostofficebox/
 ---
 ## KnownPropertyList.OtherAddressPostOfficeBox field
 
-Содержит номер или идентификатор другого почтового ящика почтового пользователя. Область:Свойства адреса Каноническое имя:PidTagOtherAddressPostOfficeBox Альтернативные имена:PR_OTHER_ADDRESS_POST_OFFICE_BOX, PR_OTHER_ADDRESS_POST_OFFICE_BOX_A, PR_OTHER_ADDRESS_POST_OFFICE_BOX_W,
+Содержит номер или идентификатор другого почтового ящика почтового пользователя. Область: Свойства адреса Каноническое имя: PidTagOtherAddressPostOfficeBox Альтернативные имена: PR_OTHER_ADDRESS_POST_OFFICE_BOX, PR_OTHER_ADDRESS_POST_OFFICE_BOX_A, PR_OTHER_ADDRESSBOxPOST_0WICE_OFFICE,_d
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressPostOfficeBox;

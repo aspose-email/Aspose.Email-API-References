@@ -1,14 +1,14 @@
 ---
 title: Delimiter
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает разделитель иерархии папок.
+description: Получает или задает разделитель иерархии папок.
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.imap/imapclient/delimiter/
 ---
 ## ImapClient.Delimiter property
 
-Получает или устанавливает разделитель иерархии папок.
+Получает или задает разделитель иерархии папок.
 
 ```csharp
 public string Delimiter { get; set; }

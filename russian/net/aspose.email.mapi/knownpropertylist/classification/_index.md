@@ -1,14 +1,14 @@
 ---
 title: Classification
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список категорий классификации которым присвоен соответствующий объект Message. ОбластьОбщие свойства сообщения Каноническое имяPidLidClassification Альтернативные именаdispidClassification
+description: Содержит список категорий классификации которым был назначен связанный объект Message. Область Общие свойства сообщения Каноническое имя PidLidClassification Альтернативные имена dispidClassification
 type: docs
 weight: 2620
 url: /ru/net/aspose.email.mapi/knownpropertylist/classification/
 ---
 ## KnownPropertyList.Classification field
 
-Содержит список категорий классификации, которым присвоен соответствующий объект Message. Область:Общие свойства сообщения Каноническое имя:PidLidClassification Альтернативные имена:dispidClassification
+Содержит список категорий классификации, которым был назначен связанный объект Message. Область: Общие свойства сообщения Каноническое имя: PidLidClassification Альтернативные имена: dispidClassification
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Classification;

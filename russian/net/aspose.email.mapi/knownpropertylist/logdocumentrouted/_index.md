@@ -1,14 +1,14 @@
 ---
 title: LogDocumentRouted
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает был ли документ отправлен получателю маршрутизации во время ведения журнала. ОбластьЖурнал Каноническое имяPidLidLogDocumentRouted Альтернативные именаdispidLogDocRouted
+description: Указывает был ли документ отправлен получателю маршрутизации во время ведения журнала. Область Journal Каноническое имя PidLidLogDocumentRouted Альтернативные имена dispidLogDocRouted
 type: docs
 weight: 12230
 url: /ru/net/aspose.email.mapi/knownpropertylist/logdocumentrouted/
 ---
 ## KnownPropertyList.LogDocumentRouted field
 
-Указывает, был ли документ отправлен получателю маршрутизации во время ведения журнала. Область:Журнал Каноническое имя:PidLidLogDocumentRouted Альтернативные имена:dispidLogDocRouted
+Указывает, был ли документ отправлен получателю маршрутизации во время ведения журнала. Область: Journal Каноническое имя: PidLidLogDocumentRouted Альтернативные имена: dispidLogDocRouted
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogDocumentRouted;

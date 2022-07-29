@@ -1,14 +1,14 @@
 ---
 title: FetchDistributionList
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает членов частного списка рассылки.
+description: Извлекает членов частного списка рассылки.
 type: docs
 weight: 740
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/fetchdistributionlist/
 ---
 ## IEWSClient.FetchDistributionList method
 
-Выбирает членов частного списка рассылки.
+Извлекает членов частного списка рассылки.
 
 ```csharp
 public MailAddressCollection FetchDistributionList(ExchangeDistributionList distributionList)
@@ -16,11 +16,11 @@ public MailAddressCollection FetchDistributionList(ExchangeDistributionList dist
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| distributionList | ExchangeDistributionList | A[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist)содержащий информацию о списке рассылки принести. |
+| distributionList | ExchangeDistributionList | А[`ExchangeDistributionList`](../../../aspose.email.clients.exchange/exchangedistributionlist) содержащий информацию о списке рассылки для извлечения. |
 
 ### Возвращаемое значение
 
-Коллекция[`MailAddressCollection`](../../../aspose.email/mailaddresscollection), содержащая элементы из указанного частного списка рассылки.
+А[`MailAddressCollection`](../../../aspose.email/mailaddresscollection) который содержит членов из указанного частного списка рассылки.
 
 ### Смотрите также
 

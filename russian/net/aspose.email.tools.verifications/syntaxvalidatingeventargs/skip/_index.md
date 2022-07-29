@@ -1,14 +1,14 @@
 ---
 title: Skip
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает игнорировать ли проверку.
+description: Указывает следует ли игнорировать проверку.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.tools.verifications/syntaxvalidatingeventargs/skip/
 ---
 ## SyntaxValidatingEventArgs.Skip property
 
-Указывает, игнорировать ли проверку.
+Указывает, следует ли игнорировать проверку.
 
 ```csharp
 public bool Skip { get; set; }

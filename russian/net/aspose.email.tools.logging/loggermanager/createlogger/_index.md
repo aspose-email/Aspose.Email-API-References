@@ -101,7 +101,7 @@ public static Logger CreateLogger(string name, LogLevel severity, params Appende
 | --- | --- | --- |
 | name | String | Имя регистратора. |
 | severity | LogLevel | Серьезность. |
-| appenders | Appender[] | Массив appenders. |
+| appenders | Appender[] | Массив приложений. |
 
 ### Возвращаемое значение
 

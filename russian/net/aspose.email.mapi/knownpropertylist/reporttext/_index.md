@@ -1,14 +1,14 @@
 ---
 title: ReportText
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит необязательный текст для отчетного сообщения. ОбластьMapiMessage Каноническое имяPidTagReportText Альтернативные именаPR_REPORT_TEXT PR_REPORT_TEXT_A ptagReportText PR_REPORT_TEXT_W
+description: Содержит необязательный текст для отчетного сообщения. Область MapiMessage Каноническое имя PidTagReportText Альтернативные имена PR_REPORT_TEXT PR_REPORT_TEXT_A ptagReportText PR_REPORT_TEXT_W
 type: docs
 weight: 16090
 url: /ru/net/aspose.email.mapi/knownpropertylist/reporttext/
 ---
 ## KnownPropertyList.ReportText field
 
-Содержит необязательный текст для отчетного сообщения. Область:MapiMessage Каноническое имя:PidTagReportText Альтернативные имена:PR_REPORT_TEXT, PR_REPORT_TEXT_A, ptagReportText, PR_REPORT_TEXT_W
+Содержит необязательный текст для отчетного сообщения. Область: MapiMessage Каноническое имя: PidTagReportText Альтернативные имена: PR_REPORT_TEXT, PR_REPORT_TEXT_A, ptagReportText, PR_REPORT_TEXT_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportText;

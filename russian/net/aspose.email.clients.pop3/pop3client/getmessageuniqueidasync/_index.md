@@ -16,7 +16,7 @@ public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequence
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
@@ -42,7 +42,7 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщения. сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 
@@ -67,7 +67,7 @@ public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequence
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -94,7 +94,7 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber, CancellationToke
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщения. message |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

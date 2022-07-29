@@ -1,14 +1,14 @@
 ---
 title: XSharingLocalType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит то же значение что и свойство PidLidSharingLocalType раздел 2.259. ОбластьСовместное использование Каноническое имяPidNameXSharingLocalType Альтернативные имена
+description: Содержит то же значение что и свойство PidLidSharingLocalType раздел 2.259. Область Sharing Каноническое имя PidNameXSharingLocalType Альтернативные имена
 type: docs
 weight: 19770
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharinglocaltype/
 ---
 ## KnownPropertyList.XSharingLocalType field
 
-Содержит то же значение, что и свойство PidLidSharingLocalType (раздел 2.259). Область:Совместное использование Каноническое имя:PidNameXSharingLocalType Альтернативные имена:
+Содержит то же значение, что и свойство PidLidSharingLocalType (раздел 2.259). Область: Sharing Каноническое имя: PidNameXSharingLocalType Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingLocalType;

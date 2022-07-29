@@ -1,14 +1,14 @@
 ---
 title: FilePathUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: URL документа ОбязательноДа
+description: URL-адрес документа Обязательно Да
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/filepathurl/
 ---
 ## SharePointMetadata.FilePathUrl property
 
-URL документа Обязательно:Да
+URL-адрес документа Обязательно: Да
 
 ```csharp
 public string FilePathUrl { get; set; }

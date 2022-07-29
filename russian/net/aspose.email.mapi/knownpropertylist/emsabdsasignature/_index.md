@@ -1,14 +1,14 @@
 ---
 title: EmsAbDsaSignature
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DSA_SIGNATURE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DSA_SIGNATURE
 type: docs
 weight: 5580
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdsasignature/
 ---
 ## KnownPropertyList.EmsAbDsaSignature field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DSA_SIGNATURE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DSA_SIGNATURE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDsaSignature;

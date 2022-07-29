@@ -1,14 +1,14 @@
 ---
 title: EmsAbLocalScope
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_LOCAL_SCOPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_LOCAL_SCOPE
 type: docs
 weight: 7080
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsablocalscope/
 ---
 ## KnownPropertyList.EmsAbLocalScope field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_LOCAL_SCOPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_LOCAL_SCOPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbLocalScope;

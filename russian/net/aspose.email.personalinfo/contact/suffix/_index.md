@@ -1,14 +1,14 @@
 ---
 title: Suffix
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает суффикс полного имени такой как Jr.младший Sr.старший и т.д.
+description: Получает или задает суффикс полного имени например Jr.младший Sr.старший и т. д.
 type: docs
 weight: 380
 url: /ru/net/aspose.email.personalinfo/contact/suffix/
 ---
 ## Contact.Suffix property
 
-Получает или задает суффикс полного имени, такой как Jr.(младший), Sr.(старший) и т.д.
+Получает или задает суффикс полного имени, например Jr.(младший), Sr.(старший) и т. д.
 
 ```csharp
 public string Suffix { get; set; }

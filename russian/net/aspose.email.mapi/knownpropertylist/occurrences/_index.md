@@ -1,14 +1,14 @@
 ---
 title: Occurrences
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество вхождений в повторяющейся встрече или собрании. ОбластьКалендарь Каноническое имяPidLidOccurrences Альтернативные имена
+description: Указывает количество вхождений в повторяющейся встрече или собрании. Область Calendar Каноническое имя PidLidOccurrences Альтернативные имена
 type: docs
 weight: 13210
 url: /ru/net/aspose.email.mapi/knownpropertylist/occurrences/
 ---
 ## KnownPropertyList.Occurrences field
 
-Указывает количество вхождений в повторяющейся встрече или собрании. Область:Календарь Каноническое имя:PidLidOccurrences Альтернативные имена:
+Указывает количество вхождений в повторяющейся встрече или собрании. Область: Calendar Каноническое имя: PidLidOccurrences Альтернативные имена:
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Occurrences;

@@ -1,14 +1,14 @@
 ---
 title: Html
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес деловой веб-страницы контакта
+description: Указывает корпоративную веб-страницу контакта URL
 type: docs
 weight: 120
 url: /ru/net/aspose.email.mapi/mapicontactpersonalinfopropertyset/html/
 ---
 ## MapiContactPersonalInfoPropertySet.Html property
 
-Указывает URL-адрес деловой веб-страницы контакта
+Указывает корпоративную веб-страницу контакта URL
 
 ```csharp
 public string Html { get; set; }

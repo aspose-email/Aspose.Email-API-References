@@ -1,14 +1,14 @@
 ---
 title: Recipients
 second_title: Справочник по Aspose.Email для .NET API
-description: Массив получателей сообщения электронной почты. ОбязательноДа
+description: Массив получателей сообщения электронной почты. Обязательно Yes
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.activity/o365emailmessageactivity/recipients/
 ---
 ## O365EmailMessageActivity.Recipients property
 
-Массив получателей сообщения электронной почты. Обязательно:Да
+Массив получателей сообщения электронной почты. Обязательно: Yes
 
 ```csharp
 public string[] Recipients { get; set; }

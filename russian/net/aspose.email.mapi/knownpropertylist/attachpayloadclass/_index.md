@@ -1,14 +1,14 @@
 ---
 title: AttachPayloadClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя класса объекта который может отображать содержимое сообщения. ОбластьПриложение Outlook Каноническое имяPidTagAttachPayloadClass Альтернативные именаPR_ATTACH_PAYLOAD_CLASS PR_ATTACH_PAYLOAD_CLASS_A PR_ATTACH_PAYLOAD_CLASS_W ptagAttachPayloadClass
+description: Содержит имя класса объекта который может отображать содержимое сообщения. Область Приложение Outlook Каноническое имя PidTagAttachPayloadClass Альтернативные имена PR_ATTACH_PAYLOAD_CLASS PR_ATTACH_PAYLOAD_CLASS_A PR_ATTACH_PAYLOAD_CLASS_W ptagAttach0D0Class_W
 type: docs
 weight: 1760
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachpayloadclass/
 ---
 ## KnownPropertyList.AttachPayloadClass field
 
-Содержит имя класса объекта, который может отображать содержимое сообщения. Область:Приложение Outlook Каноническое имя:PidTagAttachPayloadClass Альтернативные имена:PR_ATTACH_PAYLOAD_CLASS, PR_ATTACH_PAYLOAD_CLASS_A, PR_ATTACH_PAYLOAD_CLASS_W, ptagAttachPayloadClass
+Содержит имя класса объекта, который может отображать содержимое сообщения. Область: Приложение Outlook Каноническое имя: PidTagAttachPayloadClass Альтернативные имена: PR_ATTACH_PAYLOAD_CLASS, PR_ATTACH_PAYLOAD_CLASS_A, PR_ATTACH_PAYLOAD_CLASS_W, ptagAttach0D0Class_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachPayloadClass;

@@ -1,14 +1,14 @@
 ---
 title: MonthOfYearMask
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает расчетный месяц года в котором происходит встреча или встреча. ОбластьВстречи Каноническое имяPidLidMonthOfYearMask Альтернативные именаLID_MOY_MASK
+description: Указывает расчетный месяц года в котором происходит встреча или собрание. Область Meetings Каноническое имя PidLidMonthOfYearMask Альтернативные имена LID_MOY_MASK
 type: docs
 weight: 12760
 url: /ru/net/aspose.email.mapi/knownpropertylist/monthofyearmask/
 ---
 ## KnownPropertyList.MonthOfYearMask field
 
-Указывает расчетный месяц года, в котором происходит встреча или встреча. Область:Встречи Каноническое имя:PidLidMonthOfYearMask Альтернативные имена:LID_MOY_MASK
+Указывает расчетный месяц года, в котором происходит встреча или собрание. Область: Meetings Каноническое имя: PidLidMonthOfYearMask Альтернативные имена: LID_MOY_MASK
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MonthOfYearMask;

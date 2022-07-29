@@ -1,14 +1,14 @@
 ---
 title: InTransit
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IN_TRANSIT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IN_TRANSIT
 type: docs
 weight: 11600
 url: /ru/net/aspose.email.mapi/knownpropertylist/intransit/
 ---
 ## KnownPropertyList.InTransit field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IN_TRANSIT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IN_TRANSIT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InTransit;

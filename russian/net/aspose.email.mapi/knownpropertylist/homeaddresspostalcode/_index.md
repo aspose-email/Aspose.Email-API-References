@@ -1,14 +1,14 @@
 ---
 title: HomeAddressPostalCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит почтовый индекс домашнего почтового адреса пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagHomeAddressPostalCode Альтернативные именаPR_ДОМАШНИЙ_АДРЕС_ПОЧТОВЫЙ_КОД PR_ДОМАШНИЙ_АДРЕС_ПОЧТОВЫЙ_КОД_A
+description: Содержит почтовый индекс домашнего почтового адреса пользователя почты. Область MapiMailUser Каноническое имя PidTagHomeAddressPostalCode Альтернативные имена PR_HOME_ADDRESS_POSTAL_CODE PR_HOME_ADDRESS_POSTAL_CODE_A
 type: docs
 weight: 11040
 url: /ru/net/aspose.email.mapi/knownpropertylist/homeaddresspostalcode/
 ---
 ## KnownPropertyList.HomeAddressPostalCode field
 
-Содержит почтовый индекс домашнего почтового адреса пользователя почты. Область:MapiMailUser Каноническое имя:PidTagHomeAddressPostalCode Альтернативные имена:PR_ДОМАШНИЙ_АДРЕС_ПОЧТОВЫЙ_КОД, PR_ДОМАШНИЙ_АДРЕС_ПОЧТОВЫЙ_КОД_A,
+Содержит почтовый индекс домашнего почтового адреса пользователя почты. Область: MapiMailUser Каноническое имя: PidTagHomeAddressPostalCode Альтернативные имена: PR_HOME_ADDRESS_POSTAL_CODE, PR_HOME_ADDRESS_POSTAL_CODE_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressPostalCode;

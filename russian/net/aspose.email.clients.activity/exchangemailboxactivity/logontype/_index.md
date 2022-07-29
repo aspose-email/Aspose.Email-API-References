@@ -1,14 +1,14 @@
 ---
 title: LogonType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип пользователя который получил доступ к почтовому ящику и выполнил операцию которая была зарегистрирована.
+description: Указывает тип пользователя который получил доступ к почтовому ящику и выполнил зарегистрированную операцию.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.activity/exchangemailboxactivity/logontype/
 ---
 ## ExchangeMailboxActivity.LogonType property
 
-Указывает тип пользователя, который получил доступ к почтовому ящику и выполнил операцию, которая была зарегистрирована.
+Указывает тип пользователя, который получил доступ к почтовому ящику и выполнил зарегистрированную операцию.
 
 ```csharp
 public LogonType LogonType { get; set; }

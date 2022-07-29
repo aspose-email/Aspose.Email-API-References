@@ -3,7 +3,7 @@ title: LogLevel
 second_title: Справочник по Aspose.Email для .NET API
 description: Определяет доступные уровни журнала.
 type: docs
-weight: 20480
+weight: 20530
 url: /ru/net/aspose.email.tools.logging/loglevel/
 ---
 ## LogLevel class
@@ -18,12 +18,12 @@ public class LogLevel
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.email.tools.logging/loglevel/compareto)(object) | Сравнивает уровень с другим[`LogLevel`](../loglevel)объектом. |
+| [CompareTo](../../aspose.email.tools.logging/loglevel/compareto)(object) | Сравнивает уровень с другим[`LogLevel`](../loglevel) объект. |
 | override [ToString](../../aspose.email.tools.logging/loglevel/tostring)() | Возвращает строковое представление уровня журнала. |
-| [operator &gt;](../../aspose.email.tools.logging/loglevel/op_greaterthan) | Сравнивает два объекта[`LogLevel`](../loglevel) и возвращает значение, указывающее, является ли первое больше второго. |
-| [operator &gt;=](../../aspose.email.tools.logging/loglevel/op_greaterthanorequal) | Сравнивает два объекта[`LogLevel`](../loglevel) и возвращает значение, указывающее, является ли первое больше или равно второму. |
-| [operator &lt;](../../aspose.email.tools.logging/loglevel/op_lessthan) | Сравнивает два объекта[`LogLevel`](../loglevel) и возвращает значение, указывающее, является ли первое меньше второго. |
-| [operator &lt;=](../../aspose.email.tools.logging/loglevel/op_lessthanorequal) | Сравнивает два объекта[`LogLevel`](../loglevel) и возвращает значение, указывающее, является ли первое меньше или равно второму. |
+| [operator &gt;](../../aspose.email.tools.logging/loglevel/op_greaterthan) | Сравнивает два[`LogLevel`](../loglevel) объекты и возвращает значение, указывающее, больше ли первое, чем второе. |
+| [operator &gt;=](../../aspose.email.tools.logging/loglevel/op_greaterthanorequal) | Сравнивает два[`LogLevel`](../loglevel) объекты и возвращает значение, указывающее, является ли первое значение больше или равно второму. |
+| [operator &lt;](../../aspose.email.tools.logging/loglevel/op_lessthan) | Сравнивает два[`LogLevel`](../loglevel) объекты и возвращает значение, указывающее, меньше ли первое, чем второе. |
+| [operator &lt;=](../../aspose.email.tools.logging/loglevel/op_lessthanorequal) | Сравнивает два[`LogLevel`](../loglevel) объекты и возвращает значение, указывающее, является ли первый меньшим или равным второму. |
 
 ## Поля
 

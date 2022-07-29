@@ -1,14 +1,14 @@
 ---
 title: OriginalAuthorEmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ORIGINAL_AUTHOR_EMAIL_ADDRESS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS
 type: docs
 weight: 13480
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalauthoremailaddress/
 ---
 ## KnownPropertyList.OriginalAuthorEmailAddress field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalAuthorEmailAddress;

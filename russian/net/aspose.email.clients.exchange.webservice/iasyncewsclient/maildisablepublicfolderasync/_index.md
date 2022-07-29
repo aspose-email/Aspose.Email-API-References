@@ -1,14 +1,14 @@
 ---
 title: MailDisablePublicFolderAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Отключить почту для общей папки
+description: Почта - отключить общую папку
 type: docs
 weight: 520
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/maildisablepublicfolderasync/
 ---
 ## IAsyncEwsClient.MailDisablePublicFolderAsync method
 
-Отключить почту для общей папки
+Почта - отключить общую папку
 
 ```csharp
 public Task MailDisablePublicFolderAsync(string folderUri, 
@@ -18,13 +18,13 @@ public Task MailDisablePublicFolderAsync(string folderUri,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folderUri | String | URI папки |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

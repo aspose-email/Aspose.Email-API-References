@@ -18,23 +18,23 @@ public sealed class MapiCalendarDailyRecurrencePattern : MapiCalendarRecurrenceP
 
 | Имя | Описание |
 | --- | --- |
-| [MapiCalendarDailyRecurrencePattern](mapicalendardailyrecurrencepattern)() | Инициализирует новый экземпляр[`MapiCalendarDailyRecurrencePattern`](../mapicalendardailyrecurrencepattern)class |
+| [MapiCalendarDailyRecurrencePattern](mapicalendardailyrecurrencepattern)() | Инициализирует новый экземпляр[`MapiCalendarDailyRecurrencePattern`](../mapicalendardailyrecurrencepattern) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [CalendarType](../../aspose.email.mapi/mapicalendarrecurrencepattern/calendartype) { get; set; } | Получает или задает тип используемого календаря |
-| [DayOfWeek](../../aspose.email.mapi/mapicalendardailyrecurrencepattern/dayofweek) { get; set; } | Получает или устанавливает дни недели, в которые происходит событие |
-| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates) { get; } | Массив дат, каждая из которых является исходной датой экземпляра удаленного экземпляра или измененного экземпляра для этого повторения. |
-| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate) { get; set; } | Получает или задает Определяет конечную дату шаблона повторения элемента. |
-| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype) { get; set; } | Получает или задает тип окончания повторения. |
+| [DayOfWeek](../../aspose.email.mapi/mapicalendardailyrecurrencepattern/dayofweek) { get; set; } | Получает или задает дни недели, в которые происходит событие |
+| [DeletedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates) { get; } | Массив дат, каждая из которых является датой исходного экземпляра либо удаленного экземпляра, либо измененного экземпляра для этого повторения. |
+| [EndDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/enddate) { get; set; } | Получает или устанавливает дату окончания шаблона повторения элемента. |
+| [EndType](../../aspose.email.mapi/mapicalendarrecurrencepattern/endtype) { get; set; } | Получает или задает тип окончания для повторения. |
 | [Exceptions](../../aspose.email.mapi/mapicalendarrecurrencepattern/exceptions) { get; } | Исключение указывает на изменения экземпляра повторяющейся серии. |
 | virtual [Frequency](../../aspose.email.mapi/mapicalendarrecurrencepattern/frequency) { get; } | Получает или задает частоту повторяющихся серий. |
 | [ModifiedInstanceDates](../../aspose.email.mapi/mapicalendarrecurrencepattern/modifiedinstancedates) { get; } | Массив дат, каждая из которых является датой модифицированного экземпляра. |
 | [OccurrenceCount](../../aspose.email.mapi/mapicalendarrecurrencepattern/occurrencecount) { get; set; } | Получает или задает количество вхождений в повторении. |
 | [PatternType](../../aspose.email.mapi/mapicalendarrecurrencepattern/patterntype) { get; set; } | Получает или задает тип шаблона повторения |
-| override [Period](../../aspose.email.mapi/mapicalendardailyrecurrencepattern/period) { get; set; } | Получает или задает интервал (в днях), через который повторяется шаблон встречи |
+| override [Period](../../aspose.email.mapi/mapicalendardailyrecurrencepattern/period) { get; set; } | Получает или задает интервал (в днях), через который повторяется шаблон собрания |
 | [SlidingFlag](../../aspose.email.mapi/mapicalendarrecurrencepattern/slidingflag) { get; set; } | Определяет, является ли шаблон скользящим или нет. |
 | [StartDate](../../aspose.email.mapi/mapicalendarrecurrencepattern/startdate) { get; set; } | Получает или задает начальную дату шаблона повторения элемента. |
 | [WeekStartDay](../../aspose.email.mapi/mapicalendarrecurrencepattern/weekstartday) { get; set; } | Получает или задает первый день календарной недели. |

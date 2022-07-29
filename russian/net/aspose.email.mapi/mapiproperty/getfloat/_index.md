@@ -1,14 +1,14 @@
 ---
 title: GetFloat
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает байты двоичных данных как число с плавающей запятой.
+description: Получает байты двоичных данных в виде числа с плавающей запятой.
 type: docs
 weight: 190
 url: /ru/net/aspose.email.mapi/mapiproperty/getfloat/
 ---
 ## MapiProperty.GetFloat method
 
-Получает байты двоичных данных как число с плавающей запятой.
+Получает байты двоичных данных в виде числа с плавающей запятой.
 
 ```csharp
 public virtual float GetFloat()

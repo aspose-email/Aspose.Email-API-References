@@ -18,13 +18,13 @@ public class FailedMailMessageEventArgs : MailMessageEventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [FailedMailMessageEventArgs](failedmailmessageeventargs)(MailMessage, Exception) | Инициализирует новый экземпляр класса[`FailedMailMessageEventArgs`](../failedmailmessageeventargs). |
+| [FailedMailMessageEventArgs](failedmailmessageeventargs)(MailMessage, Exception) | Инициализирует новый экземпляр[`FailedMailMessageEventArgs`](../failedmailmessageeventargs) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Message](../../aspose.email.clients.smtp/mailmessageeventargs/message) { get; } | Получает отправляемое сообщение. |
+| [Message](../../aspose.email.clients.smtp/mailmessageeventargs/message) { get; } | Получает сообщение об отправке. |
 | [OperationError](../../aspose.email.clients.smtp/failedmailmessageeventargs/operationerror) { get; } | Ошибка операции |
 
 ### Смотрите также

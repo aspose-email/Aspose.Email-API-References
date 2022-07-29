@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingSmtpAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит SMTP-адрес электронной почты конечного пользователя который представлен владельцем отправляющего почтового ящика. ОбластьПочта Каноническое имяPidTagSentRepresentingSmtpAddress Альтернативные именаptagRecipientSentRepresentingSMTPAddress SentRepresentingSMTPAddressXSO PR_SENT_REPRESENTING_SMTP_ADDRESS
+description: Содержит адрес электронной почты SMTP конечного пользователя который представлен владельцем отправляющего почтового ящика. Область Mail Каноническое имя PidTagSentRepresentingSmtpAddress Альтернативные имена ptagRecipientSentRepresentingSMTPAddress SentRepresentingSMTPAddressXSO PR_SENT_REPRESENTING_SMTP_ADDRESS
 type: docs
 weight: 17280
 url: /ru/net/aspose.email.mapi/knownpropertylist/sentrepresentingsmtpaddress/
 ---
 ## KnownPropertyList.SentRepresentingSmtpAddress field
 
-Содержит SMTP-адрес электронной почты конечного пользователя, который представлен владельцем отправляющего почтового ящика. Область:Почта Каноническое имя:PidTagSentRepresentingSmtpAddress Альтернативные имена:ptagRecipientSentRepresentingSMTPAddress, SentRepresentingSMTPAddressXSO, PR_SENT_REPRESENTING_SMTP_ADDRESS
+Содержит адрес электронной почты SMTP конечного пользователя, который представлен владельцем отправляющего почтового ящика. Область: Mail Каноническое имя: PidTagSentRepresentingSmtpAddress Альтернативные имена: ptagRecipientSentRepresentingSMTPAddress, SentRepresentingSMTPAddressXSO, PR_SENT_REPRESENTING_SMTP_ADDRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingSmtpAddress;

@@ -1,14 +1,14 @@
 ---
 title: IMessageObjectPropertyContainer
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет интерфейс для контейнера который содержит записиMessageObjectProperty./messageobjectproperty.
+description: Определяет интерфейс для контейнера который содержитMessageObjectProperty./messageobjectproperty записи.
 type: docs
-weight: 18750
+weight: 18780
 url: /ru/net/aspose.email.mapi.msg/imessageobjectpropertycontainer/
 ---
 ## IMessageObjectPropertyContainer interface
 
-Определяет интерфейс для контейнера, который содержит записи[`MessageObjectProperty`](../messageobjectproperty).
+Определяет интерфейс для контейнера, который содержит[`MessageObjectProperty`](../messageobjectproperty) записи.
 
 ```csharp
 public interface IMessageObjectPropertyContainer

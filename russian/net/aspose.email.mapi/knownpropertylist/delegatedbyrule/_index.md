@@ -1,14 +1,14 @@
 ---
 title: DelegatedByRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает было ли сообщение переадресовано из-за срабатывания делегированного правила переадресации. ОбластьMapiStatus Каноническое имяPidTagDelegatedByRule Альтернативные именаPR_DELEGATED_BY_RULE
+description: Указывает было ли сообщение переадресовано из-за срабатывания правила пересылки делегата. Область MapiStatus Каноническое имя PidTagDelegatedByRule Альтернативные имена PR_DELEGATED_BY_RULE
 type: docs
 weight: 3820
 url: /ru/net/aspose.email.mapi/knownpropertylist/delegatedbyrule/
 ---
 ## KnownPropertyList.DelegatedByRule field
 
-Указывает, было ли сообщение переадресовано из-за срабатывания делегированного правила переадресации. Область:MapiStatus Каноническое имя:PidTagDelegatedByRule Альтернативные имена:PR_DELEGATED_BY_RULE
+Указывает, было ли сообщение переадресовано из-за срабатывания правила пересылки делегата. Область: MapiStatus Каноническое имя: PidTagDelegatedByRule Альтернативные имена: PR_DELEGATED_BY_RULE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DelegatedByRule;

@@ -17,7 +17,7 @@ public Task DeleteItemsAsync(IEnumerable<string> itemUris, DeletionOptions optio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemUris | IEnumerable`1 | Элементы uris |
+| itemUris | IEnumerable`1 | Пункты Uris |
 | options | DeletionOptions | Определяет параметры удаления элементов |
 | cancellationToken | CancellationToken | Токен отмены. |
 

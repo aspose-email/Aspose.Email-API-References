@@ -1,14 +1,14 @@
 ---
 title: AutoForwarded
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что объект сообщения был автоматически сгенерирован или автоматически перенаправлен. ОбластьОбщие свойства отчета Каноническое имяPidTagAutoForwarded Альтернативные именаPR_AUTO_FORWARDED ptagAutoForwarded
+description: Указывает что объект сообщения был автоматически сгенерирован или автоматически перенаправлен. Область Общие свойства отчета Каноническое имя PidTagAutoForwarded Альтернативные имена PR_AUTO_FORWARDED ptagAutoForwarded
 type: docs
 weight: 1910
 url: /ru/net/aspose.email.mapi/knownpropertylist/autoforwarded/
 ---
 ## KnownPropertyList.AutoForwarded field
 
-Указывает, что объект сообщения был автоматически сгенерирован или автоматически перенаправлен. Область:Общие свойства отчета Каноническое имя:PidTagAutoForwarded Альтернативные имена:PR_AUTO_FORWARDED, ptagAutoForwarded
+Указывает, что объект сообщения был автоматически сгенерирован или автоматически перенаправлен. Область: Общие свойства отчета Каноническое имя: PidTagAutoForwarded Альтернативные имена: PR_AUTO_FORWARDED, ptagAutoForwarded
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AutoForwarded;

@@ -1,14 +1,14 @@
 ---
 title: SharingResponseTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время когда получатель запроса на совместное использование отправил ответ на совместное использование. ОбластьСовместное использование Каноническое имяPidLidSharingResponseTime Альтернативные именаdispidSharingResponseTime
+description: Содержит время когда получатель запроса на совместное использование отправил ответ на совместное использование. Область Sharing Каноническое имя PidLidSharingResponseTime Альтернативные имена dispidSharingResponseTime
 type: docs
 weight: 17900
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingresponsetime/
 ---
 ## KnownPropertyList.SharingResponseTime field
 
-Содержит время, когда получатель запроса на совместное использование отправил ответ на совместное использование. Область:Совместное использование Каноническое имя:PidLidSharingResponseTime Альтернативные имена:dispidSharingResponseTime
+Содержит время, когда получатель запроса на совместное использование отправил ответ на совместное использование. Область: Sharing Каноническое имя: PidLidSharingResponseTime Альтернативные имена: dispidSharingResponseTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingResponseTime;

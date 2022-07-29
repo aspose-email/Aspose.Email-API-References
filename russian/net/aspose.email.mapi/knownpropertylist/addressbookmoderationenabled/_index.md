@@ -1,14 +1,14 @@
 ---
 title: AddressBookModerationEnabled
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает включена ли модерация для почтового пользователя или списка рассылки. ОбластьАдресная книга Каноническое имяPidTagAddressBookModerationEnabled Альтернативные именаPR_EMS_AB_ENABLE_MODERATION
+description: Указывает включена ли модерация для почтового пользователя или списка рассылки. Область Адресная книга Каноническое имя PidTagAddressBookModerationEnabled Альтернативные имена PR_EMS_AB_ENABLE_MODERATION
 type: docs
 weight: 750
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookmoderationenabled/
 ---
 ## KnownPropertyList.AddressBookModerationEnabled field
 
-Указывает, включена ли модерация для почтового пользователя или списка рассылки. Область:Адресная книга Каноническое имя:PidTagAddressBookModerationEnabled Альтернативные имена:PR_EMS_AB_ENABLE_MODERATION
+Указывает, включена ли модерация для почтового пользователя или списка рассылки. Область: Адресная книга Каноническое имя: PidTagAddressBookModerationEnabled Альтернативные имена: PR_EMS_AB_ENABLE_MODERATION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookModerationEnabled;

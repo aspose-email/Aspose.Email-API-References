@@ -17,15 +17,15 @@ public Task<string> CreateTaskAsync(ExchangeTask task, string folder = null,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | ExchangeTask | Задача для создания. |
-| folder | String | Папка, в которой должна быть создана задача. Папка[`TasksUri`](../../../aspose.email.clients.exchange/exchangemailboxinfo/tasksuri)is используется по умолчанию. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| task | ExchangeTask | Задача создать. |
+| folder | String | Папка, в которой нужно создать задачу. Папка[`TasksUri`](../../../aspose.email.clients.exchange/exchangemailboxinfo/tasksuri) is используется по умолчанию. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*is` null` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task* является`нулевой`. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ReceivedByEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID адресной книги почтового ящика получающего объект электронной почты. ОбластьСвойства адреса Каноническое имяPidTagReceivedByEntryId Альтернативные именаPR_RECEIVED_BY_ENTRYID
+description: Содержит EntryID адресной книги почтового ящика получающего объект электронной почты. Область Address Properties Каноническое имя PidTagReceivedByEntryId Альтернативные имена PR_RECEIVED_BY_ENTRYID
 type: docs
 weight: 15290
 url: /ru/net/aspose.email.mapi/knownpropertylist/receivedbyentryid/
 ---
 ## KnownPropertyList.ReceivedByEntryId field
 
-Содержит EntryID адресной книги почтового ящика, получающего объект электронной почты. Область:Свойства адреса Каноническое имя:PidTagReceivedByEntryId Альтернативные имена:PR_RECEIVED_BY_ENTRYID
+Содержит EntryID адресной книги почтового ящика, получающего объект электронной почты. Область: Address Properties Каноническое имя: PidTagReceivedByEntryId Альтернативные имена: PR_RECEIVED_BY_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedByEntryId;

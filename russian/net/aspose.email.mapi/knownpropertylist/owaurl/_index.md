@@ -1,14 +1,14 @@
 ---
 title: OwaUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_OWA_URL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_OWA_URL
 type: docs
 weight: 14070
 url: /ru/net/aspose.email.mapi/knownpropertylist/owaurl/
 ---
 ## KnownPropertyList.OwaUrl field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_OWA_URL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_OWA_URL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OwaUrl;

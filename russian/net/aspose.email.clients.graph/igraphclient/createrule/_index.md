@@ -1,14 +1,14 @@
 ---
 title: CreateRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Создайте правило сообщения указав набор условий и действий. Outlook выполняет эти действия если входящее сообщение в папке Входящие пользователя соответствует заданным условиям. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше в том числе о том как выбрать разрешения см. Разрешения. Делегированный рабочая или учебная учетная запись MailboxSettings.ReadWrite Делегированный личная учетная запись Microsoft MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
+description: Создайте правило для сообщений указав набор условий и действий. Outlook выполняет эти действия если входящее сообщение в папке Входящие пользователя соответствует указанным условиям. Разрешения Для вызова этого API требуется одно из следующих разрешений. узнать больше в том числе о том как выбрать разрешения см. в разделе Permissions. Delegated рабочая или учебная учетная запись MailboxSettings.ReadWrite Delegated личная учетная запись Microsoft MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
 type: docs
 weight: 170
 url: /ru/net/aspose.email.clients.graph/igraphclient/createrule/
 ---
 ## IGraphClient.CreateRule method
 
-Создайте правило сообщения, указав набор условий и действий. Outlook выполняет эти действия, если входящее сообщение в папке "Входящие" пользователя соответствует заданным условиям. Разрешения: Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше, в том числе о том, как выбрать разрешения, см. Разрешения. Делегированный (рабочая или учебная учетная запись) MailboxSettings.ReadWrite Делегированный (личная учетная запись Microsoft) MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
+Создайте правило для сообщений, указав набор условий и действий. Outlook выполняет эти действия, если входящее сообщение в папке "Входящие" пользователя соответствует указанным условиям. Разрешения: Для вызова этого API требуется одно из следующих разрешений. узнать больше, в том числе о том, как выбрать разрешения, см. в разделе Permissions. Delegated (рабочая или учебная учетная запись) MailboxSettings.ReadWrite Delegated (личная учетная запись Microsoft) MailboxSettings.ReadWrite Application MailboxSettings.ReadWrite
 
 ```csharp
 public InboxRule CreateRule(InboxRule rule)
@@ -16,7 +16,7 @@ public InboxRule CreateRule(InboxRule rule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rule | InboxRule | Правило для создания во входящих |
+| rule | InboxRule | Правило для создания в папке "Входящие" |
 
 ### Возвращаемое значение
 

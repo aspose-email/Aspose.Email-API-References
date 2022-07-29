@@ -1,14 +1,14 @@
 ---
 title: Email1OriginalDisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает адрес электронной почты SMTP соответствующий адресу электронной почты для объекта Contact. ОбластьСвойства контакта Каноническое имяPidLidEmail1OriginalDisplayName Альтернативные именаdispidEmail1OriginalDisplayName Email1OriginalDisplayName EXSCHEMA_MAPI_EMAIL1ORIGINALDISPLAYNAME
+description: Указывает адрес электронной почты SMTP соответствующий адресу электронной почты для объекта Контакт. Область Свойства контакта Каноническое имя PidLidEmail1OriginalDisplayName Альтернативные имена dispidEmail1OriginalDisplayName Email1OriginalDisplayName EXSCHEMA_MAPI_EMAIL1ORIGINALDISPLAYNAME
 type: docs
 weight: 4350
 url: /ru/net/aspose.email.mapi/knownpropertylist/email1originaldisplayname/
 ---
 ## KnownPropertyList.Email1OriginalDisplayName field
 
-Указывает адрес электронной почты SMTP, соответствующий адресу электронной почты для объекта Contact. Область:Свойства контакта Каноническое имя:PidLidEmail1OriginalDisplayName Альтернативные имена:dispidEmail1OriginalDisplayName, Email1OriginalDisplayName, EXSCHEMA_MAPI_EMAIL1ORIGINALDISPLAYNAME
+Указывает адрес электронной почты SMTP, соответствующий адресу электронной почты для объекта «Контакт». Область: Свойства контакта Каноническое имя: PidLidEmail1OriginalDisplayName Альтернативные имена: dispidEmail1OriginalDisplayName, Email1OriginalDisplayName, EXSCHEMA_MAPI_EMAIL1ORIGINALDISPLAYNAME
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email1OriginalDisplayName;

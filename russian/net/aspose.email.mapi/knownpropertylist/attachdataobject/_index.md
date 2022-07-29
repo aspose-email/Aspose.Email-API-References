@@ -1,14 +1,14 @@
 ---
 title: AttachDataObject
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит двоичное представление объекта вложения в формате специфичном для приложения. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachDataObject Альтернативные именаPR_ATTACH_DATA_OBJ ptagAttachDataObj
+description: Содержит двоичное представление объекта вложения в формате специфичном для приложения. Область Свойства вложения сообщения Каноническое имя PidTagAttachDataObject Альтернативные имена PR_ATTACH_DATA_OBJ ptagAttachDataObj
 type: docs
 weight: 1560
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachdataobject/
 ---
 ## KnownPropertyList.AttachDataObject field
 
-Содержит двоичное представление объекта вложения в формате, специфичном для приложения. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachDataObject Альтернативные имена:PR_ATTACH_DATA_OBJ, ptagAttachDataObj
+Содержит двоичное представление объекта вложения в формате, специфичном для приложения. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachDataObject Альтернативные имена: PR_ATTACH_DATA_OBJ, ptagAttachDataObj
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachDataObject;

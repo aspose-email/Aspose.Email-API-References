@@ -1,14 +1,14 @@
 ---
 title: OutOfOfficeMailTip
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет почтовую подсказку OOF
+description: Представляет почтовый наконечник OOF
 type: docs
 weight: 4090
 url: /ru/net/aspose.email.clients.exchange.webservice/outofofficemailtip/
 ---
 ## OutOfOfficeMailTip class
 
-Представляет почтовую подсказку OOF
+Представляет почтовый наконечник OOF
 
 ```csharp
 public sealed class OutOfOfficeMailTip

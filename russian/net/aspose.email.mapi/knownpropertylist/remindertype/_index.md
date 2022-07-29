@@ -1,14 +1,14 @@
 ---
 title: ReminderType
 second_title: Справочник по Aspose.Email для .NET API
-description: Это свойство не установлено а если установлено то игнорируется. ОбластьНапоминания Каноническое имяPidLidReminderType Альтернативные именаdispidReminderType http//schemas.microsoft.com/mapi/remindertype
+description: Это свойство не задано и если задано игнорируется. Область Reminders Каноническое имя PidLidReminderType Альтернативные имена dispidReminderType http//schemas.microsoft.com/mapi/remindertype
 type: docs
 weight: 15770
 url: /ru/net/aspose.email.mapi/knownpropertylist/remindertype/
 ---
 ## KnownPropertyList.ReminderType field
 
-Это свойство не установлено, а если установлено, то игнорируется. Область:Напоминания Каноническое имя:PidLidReminderType Альтернативные имена:dispidReminderType, http://schemas.microsoft.com/mapi/remindertype
+Это свойство не задано и, если задано, игнорируется. Область: Reminders Каноническое имя: PidLidReminderType Альтернативные имена: dispidReminderType, http://schemas.microsoft.com/mapi/remindertype
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderType;

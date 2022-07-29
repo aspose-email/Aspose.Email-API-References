@@ -17,7 +17,7 @@ public IAsyncResult BeginValidate(string mailAddress, ValidationPolicy policy,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mailAddress | String | Адрес электронной почты для проверки. |
+| mailAddress | String | Адрес электронной почты, который необходимо подтвердить. |
 | policy | ValidationPolicy | Политика процесса проверки. |
 | result | ValidationResult& | Результат процесса проверки. |
 | asyncCallback | AsyncCallback | Делегат AsyncCallback |

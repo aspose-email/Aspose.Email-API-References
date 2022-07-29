@@ -1,14 +1,14 @@
 ---
 title: AddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит тип адреса электронной почты объекта Message. ОбластьСвойства адреса Каноническое имяPidTagAddressType Альтернативные именаPR_ADDRTYPE PR_ADDRTYPE_A ptagAddrType PR_ADDRTYPE_W
+description: Содержит тип адреса электронной почты объекта Message. Область Свойства адреса Каноническое имя PidTagAddressType Альтернативные имена PR_ADDRTYPE PR_ADDRTYPE_A ptagAddrType PR_ADDRTYPE_W
 type: docs
 weight: 1020
 url: /ru/net/aspose.email.mapi/knownpropertylist/addresstype/
 ---
 ## KnownPropertyList.AddressType field
 
-Содержит тип адреса электронной почты объекта Message. Область:Свойства адреса Каноническое имя:PidTagAddressType Альтернативные имена:PR_ADDRTYPE, PR_ADDRTYPE_A, ptagAddrType, PR_ADDRTYPE_W
+Содержит тип адреса электронной почты объекта Message. Область: Свойства адреса Каноническое имя: PidTagAddressType Альтернативные имена: PR_ADDRTYPE, PR_ADDRTYPE_A, ptagAddrType, PR_ADDRTYPE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressType;

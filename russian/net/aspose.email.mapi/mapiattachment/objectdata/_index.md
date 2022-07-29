@@ -1,14 +1,14 @@
 ---
 title: ObjectData
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает объект вложения доступ к которому обычно осуществляется через интерфейс OLE IStorage.
+description: Получает объект вложения обычно доступный через интерфейс OLE IStorage.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mapi/mapiattachment/objectdata/
 ---
 ## MapiAttachment.ObjectData property
 
-Получает объект вложения, доступ к которому обычно осуществляется через интерфейс OLE IStorage.
+Получает объект вложения, обычно доступный через интерфейс OLE IStorage.
 
 ```csharp
 public MapiObjectProperty ObjectData { get; }

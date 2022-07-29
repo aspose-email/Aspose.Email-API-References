@@ -1,14 +1,14 @@
 ---
 title: ReminderOverride
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает должен ли клиент учитывать текущие значения свойства раздел 2.219 или использовать значения по умолчанию для этих свойств. ОбластьНапоминания Каноническое имяPidLidReminderOverride Альтернативные именаdispidReminderOverride
+description: Указывает должен ли клиент соблюдать текущие значения свойства раздел 2.219 или использовать значения по умолчанию для этих свойств. Область Reminders Каноническое имя PidLidReminderOverride Альтернативные имена dispidReminderOverride
 type: docs
 weight: 15690
 url: /ru/net/aspose.email.mapi/knownpropertylist/reminderoverride/
 ---
 ## KnownPropertyList.ReminderOverride field
 
-Указывает, должен ли клиент учитывать текущие значения свойства (раздел 2.219) или использовать значения по умолчанию для этих свойств. Область:Напоминания Каноническое имя:PidLidReminderOverride Альтернативные имена:dispidReminderOverride
+Указывает, должен ли клиент соблюдать текущие значения свойства (раздел 2.219) или использовать значения по умолчанию для этих свойств. Область: Reminders Каноническое имя: PidLidReminderOverride Альтернативные имена: dispidReminderOverride
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderOverride;

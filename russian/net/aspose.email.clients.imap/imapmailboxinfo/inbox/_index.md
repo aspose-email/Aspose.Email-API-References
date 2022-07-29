@@ -1,14 +1,14 @@
 ---
 title: Inbox
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает почтовый ящик используемый для хранения входящих сообщений.
+description: Почтовый ящик Gets используется для хранения входящих сообщений.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.imap/imapmailboxinfo/inbox/
 ---
 ## ImapMailboxInfo.Inbox property
 
-Получает почтовый ящик, используемый для хранения входящих сообщений.
+Почтовый ящик Gets используется для хранения входящих сообщений.
 
 ```csharp
 public ImapFolderInfo Inbox { get; }

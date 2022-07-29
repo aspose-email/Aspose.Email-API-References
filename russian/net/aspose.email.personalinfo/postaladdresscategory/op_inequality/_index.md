@@ -17,7 +17,7 @@ public static bool operator !=(PostalAddressCategory a, PostalAddressCategory b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | PostalAddressCategory | Первый объект для сравнения |
-| b | PostalAddressCategory | Второй объект для сравнения compare |
+| b | PostalAddressCategory | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

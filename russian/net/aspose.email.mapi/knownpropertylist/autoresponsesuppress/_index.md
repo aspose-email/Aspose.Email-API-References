@@ -1,14 +1,14 @@
 ---
 title: AutoResponseSuppress
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает должно ли клиентское или серверное приложение отказаться от отправки автоматических ответов в ответ на это сообщение. ОбластьЭлектронная почта Каноническое имяPidTagAutoResponseSuppress Альтернативные именаPR_AUTO_RESPONSE_SUPPRESS ptagAutoResponseSuppress
+description: Указывает должно ли клиентское или серверное приложение отказаться от отправки автоматических ответов в ответ на это сообщение. Область Email Каноническое имя PidTagAutoResponseSuppress Альтернативные имена PR_AUTO_RESPONSE_SUPPRESS ptagAutoResponseSuppress
 type: docs
 weight: 1950
 url: /ru/net/aspose.email.mapi/knownpropertylist/autoresponsesuppress/
 ---
 ## KnownPropertyList.AutoResponseSuppress field
 
-Указывает, должно ли клиентское или серверное приложение отказаться от отправки автоматических ответов в ответ на это сообщение. Область:Электронная почта Каноническое имя:PidTagAutoResponseSuppress Альтернативные имена:PR_AUTO_RESPONSE_SUPPRESS, ptagAutoResponseSuppress
+Указывает, должно ли клиентское или серверное приложение отказаться от отправки автоматических ответов в ответ на это сообщение. Область: Email Каноническое имя: PidTagAutoResponseSuppress Альтернативные имена: PR_AUTO_RESPONSE_SUPPRESS, ptagAutoResponseSuppress
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AutoResponseSuppress;

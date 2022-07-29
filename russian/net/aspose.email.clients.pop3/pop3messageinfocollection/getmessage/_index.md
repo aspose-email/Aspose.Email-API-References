@@ -1,14 +1,14 @@
 ---
 title: GetMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: ПолучаетPop3MessageInfoaspose.email.clients.pop3/pop3messageinfoсообщения электронной почты.
+description: ПолучаетPop3MessageInfoaspose.email.clients.pop3/pop3messageinfo сообщения электронной почты.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.pop3/pop3messageinfocollection/getmessage/
 ---
 ## GetMessage(string) {#getmessage_1}
 
-Получает[`Pop3MessageInfo`](../../pop3messageinfo)сообщения электронной почты.
+Получает[`Pop3MessageInfo`](../../pop3messageinfo) сообщения электронной почты.
 
 ```csharp
 public Pop3MessageInfo GetMessage(string uniqueId)
@@ -20,7 +20,7 @@ public Pop3MessageInfo GetMessage(string uniqueId)
 
 ### Возвращаемое значение
 
-Возвращает[`Pop3MessageInfo`](../../pop3messageinfo)если существует, в противном случае возвращает null.
+Возвращает[`Pop3MessageInfo`](../../pop3messageinfo) если существует, в противном случае возвращает null.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public Pop3MessageInfo GetMessage(string uniqueId)
 
 ## GetMessage(int) {#getmessage}
 
-Получает[`Pop3MessageInfo`](../../pop3messageinfo)сообщения электронной почты.
+Получает[`Pop3MessageInfo`](../../pop3messageinfo) сообщения электронной почты.
 
 ```csharp
 public Pop3MessageInfo GetMessage(int sequenceNumber)
@@ -45,7 +45,7 @@ public Pop3MessageInfo GetMessage(int sequenceNumber)
 
 ### Возвращаемое значение
 
-Возвращает[`Pop3MessageInfo`](../../pop3messageinfo)если существует, в противном случае возвращает null.
+Возвращает[`Pop3MessageInfo`](../../pop3messageinfo) если существует, в противном случае возвращает null.
 
 ### Смотрите также
 

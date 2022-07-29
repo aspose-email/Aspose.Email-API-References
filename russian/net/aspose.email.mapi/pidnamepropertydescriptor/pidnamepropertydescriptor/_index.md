@@ -1,14 +1,14 @@
 ---
 title: PidNamePropertyDescriptor
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPidNamePropertyDescriptoraspose.email.mapi/pidnamepropertydescriptor Свойства определенные имя строки вместе с набором свойств.
+description: Инициализирует новый экземплярPidNamePropertyDescriptoraspose.email.mapi/pidnamepropertydescriptor class Свойства определяемые строковым именем вместе с набором свойств.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/pidnamepropertydescriptor/pidnamepropertydescriptor/
 ---
 ## PidNamePropertyDescriptor(string, PropertyDataType, Guid) {#constructor}
 
-Инициализирует новый экземпляр класса[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) Свойства, определенные имя строки вместе с набором свойств.
+Инициализирует новый экземпляр[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) class Свойства, определяемые строковым именем вместе с набором свойств.
 
 ```csharp
 public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid propertySet)
@@ -17,7 +17,7 @@ public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid proper
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Строка, которая вместе с набором свойств идентифицирует именованное свойство. |
-| type | PropertyDataType | Указывает тип допустимых значений свойства. |
+| type | PropertyDataType | Указывает тип значений, разрешенных для свойства. |
 | propertySet | Guid | GUID, идентифицирующий группу свойств с аналогичной целью. |
 
 ### Смотрите также
@@ -31,7 +31,7 @@ public PidNamePropertyDescriptor(string name, PropertyDataType type, Guid proper
 
 ## PidNamePropertyDescriptor(string, string, PropertyDataType, Guid) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) Свойства, определенные имя строки вместе с набором свойств.
+Инициализирует новый экземпляр[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) class Свойства, определяемые строковым именем вместе с набором свойств.
 
 ```csharp
 public PidNamePropertyDescriptor(string canonicalName, string name, PropertyDataType type, 
@@ -42,7 +42,7 @@ public PidNamePropertyDescriptor(string canonicalName, string name, PropertyData
 | --- | --- | --- |
 | canonicalName | String | Имя, используемое для ссылки на свойство в документации. |
 | name | String | Строка, которая вместе с набором свойств идентифицирует именованное свойство. |
-| type | PropertyDataType | Указывает тип допустимых значений свойства. |
+| type | PropertyDataType | Указывает тип значений, разрешенных для свойства. |
 | propertySet | Guid | GUID, идентифицирующий группу свойств с аналогичной целью. |
 
 ### Смотрите также

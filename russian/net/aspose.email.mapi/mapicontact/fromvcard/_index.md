@@ -1,14 +1,14 @@
 ---
 title: FromVCard
 second_title: Справочник по Aspose.Email для .NET API
-description: ЧитаетMapiContactaspose.email.mapi/mapicontactиз указанного файла vCard Поддерживаемые версии vCard2.1 и 3.0
+description: ЧитаетMapiContactaspose.email.mapi/mapicontact из указанного файла vCard Поддерживаемые версии vCard 2.1 и 3.0
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/mapicontact/fromvcard/
 ---
 ## FromVCard(string) {#fromvcard_2}
 
-Читает[`MapiContact`](../../mapicontact)из указанного файла vCard Поддерживаемые версии vCard:2.1 и 3.0
+Читает[`MapiContact`](../../mapicontact) из указанного файла vCard Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static MapiContact FromVCard(string filePath)
@@ -16,17 +16,17 @@ public static MapiContact FromVCard(string filePath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Имя файла для чтения из |
+| filePath | String | Имя файла для чтения |
 
 ### Возвращаемое значение
 
-Чтение[`MapiContact`](../../mapicontact)
+чтение[`MapiContact`](../../mapicontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пустой` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public static MapiContact FromVCard(string filePath)
 
 ## FromVCard(string, Encoding) {#fromvcard_3}
 
-Читает[`MapiContact`](../../mapicontact)из указанного файла vCard Поддерживаемые версии vCard:2.1 и 3.0
+Читает[`MapiContact`](../../mapicontact) из указанного файла vCard Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static MapiContact FromVCard(string filePath, Encoding encoding)
@@ -46,18 +46,18 @@ public static MapiContact FromVCard(string filePath, Encoding encoding)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Имя файла для чтения из |
-| encoding | Encoding | Кодировка данных файла |
+| filePath | String | Имя файла для чтения |
+| encoding | Encoding | Кодировка файловых данных |
 
 ### Возвращаемое значение
 
-A read[`MapiContact`](../../mapicontact)
+чтение[`MapiContact`](../../mapicontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` or` empty` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -69,7 +69,7 @@ A read[`MapiContact`](../../mapicontact)
 
 ## FromVCard(Stream) {#fromvcard}
 
-Читает[`MapiContact`](../../mapicontact)из указанного потока, содержащего vCard. Поддерживаемые версии vCard:2.1 и 3.0
+Читает[`MapiContact`](../../mapicontact) из указанного потока, содержащего vCard. Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static MapiContact FromVCard(Stream stream)
@@ -77,18 +77,18 @@ public static MapiContact FromVCard(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для чтения из |
+| stream | Stream | Поток для чтения |
 
 ### Возвращаемое значение
 
-Прочитано[`MapiContact`](../../mapicontact)
+чтение[`MapiContact`](../../mapicontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 
@@ -100,7 +100,7 @@ public static MapiContact FromVCard(Stream stream)
 
 ## FromVCard(Stream, Encoding) {#fromvcard_1}
 
-Читает[`MapiContact`](../../mapicontact)из указанного потока, содержащего vCard. Поддерживаемые версии vCard:2.1 и 3.0
+Читает[`MapiContact`](../../mapicontact) из указанного потока, содержащего vCard. Поддерживаемые версии vCard: 2.1 и 3.0
 
 ```csharp
 public static MapiContact FromVCard(Stream stream, Encoding encoding)
@@ -108,19 +108,19 @@ public static MapiContact FromVCard(Stream stream, Encoding encoding)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для чтения из |
-| encoding | Encoding | Кодирование потоковых данных |
+| stream | Stream | Поток для чтения |
+| encoding | Encoding | Потоковое кодирование данных |
 
 ### Возвращаемое значение
 
-A read[`MapiContact`](../../mapicontact)
+чтение[`MapiContact`](../../mapicontact)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | *stream*не поддерживает чтение |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | *stream* не поддерживает чтение |
 
 ### Смотрите также
 

@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/phonenumbercategory/ttytddvalue/
 ---
 ## PhoneNumberCategory.TtyTddValue field
 
-Строковое значение для категории 'TtyTdd'
+Строковое значение для категории «TtyTdd»
 
 ```csharp
 public const string TtyTddValue;

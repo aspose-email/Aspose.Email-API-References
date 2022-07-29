@@ -1,14 +1,14 @@
 ---
 title: CalendarInstanceType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип встречи. ОбластьОбщие Каноническое имяPidNameCalendarInstanceType Альтернативные именаurnschemascalendarinstancetype
+description: Указывает тип встречи. Область Common Каноническое имя PidNameCalendarInstanceType Альтернативные имена urnschemascalendarinstancetype
 type: docs
 weight: 2290
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarinstancetype/
 ---
 ## KnownPropertyList.CalendarInstanceType field
 
-Указывает тип встречи. Область:Общие Каноническое имя:PidNameCalendarInstanceType Альтернативные имена:urn:schemas:calendar:instancetype
+Указывает тип встречи. Область: Common Каноническое имя: PidNameCalendarInstanceType Альтернативные имена: urn:schemas:calendar:instancetype
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarInstanceType;

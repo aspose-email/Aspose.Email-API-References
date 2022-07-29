@@ -1,14 +1,14 @@
 ---
 title: CopyMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Скопируйте сообщение в другую папку.
+description: Скопируйте сообщение в другую почтовую папку.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.graph/igraphclient/copymessage/
 ---
 ## IGraphClient.CopyMessage method
 
-Скопируйте сообщение в другую папку.
+Скопируйте сообщение в другую почтовую папку.
 
 ```csharp
 public MapiMessage CopyMessage(string newParentId, string itemId)
@@ -17,7 +17,7 @@ public MapiMessage CopyMessage(string newParentId, string itemId)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newParentId | String | Идентификатор новой родительской папки |
-| itemId | String | Идентификатор элемента для быть скопировано |
+| itemId | String | Идентификатор элемента, который необходимо скопировать |
 
 ### Возвращаемое значение
 

@@ -16,7 +16,7 @@ public void Validate(string mailAddress, ValidationPolicy policy, out Validation
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mailAddress | String | Адрес электронной почты для проверки . |
+| mailAddress | String | Адрес электронной почты, который необходимо подтвердить. |
 | policy | ValidationPolicy | Политика процесса проверки. |
 | result | ValidationResult& | Результат процесса проверки. |
 

@@ -1,14 +1,14 @@
 ---
 title: FailedSending
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавляет или удаляет подписчика на уведомления о неудачных операциях отправки в smtp очереди
+description: Добавляет или удаляет подписчика на уведомления о неудачных операциях отправки в smtp queue
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.smtp/smtpclient/failedsending/
 ---
 ## SmtpClient.FailedSending event
 
-Добавляет или удаляет подписчика на уведомления о неудачных операциях отправки в smtp очереди
+Добавляет или удаляет подписчика на уведомления о неудачных операциях отправки в smtp queue
 
 ```csharp
 public event EventHandler<FailedMailMessageEventArgs> FailedSending;

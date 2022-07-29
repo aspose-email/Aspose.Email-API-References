@@ -1,14 +1,14 @@
 ---
 title: InternetAccountStamp
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает идентификатор учетной записи электронной почты через которую отправляется сообщение электронной почты. ОбластьОбщие свойства сообщения Каноническое имяPidLidInternetAccountStamp Альтернативные именаdispidInetAcctStamp
+description: Указывает идентификатор учетной записи электронной почты через которую отправляется сообщение электронной почты. Область Общие свойства сообщения Каноническое имя PidLidInternetAccountStamp Альтернативные имена dispidInetAcctStamp
 type: docs
 weight: 11420
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetaccountstamp/
 ---
 ## KnownPropertyList.InternetAccountStamp field
 
-Указывает идентификатор учетной записи электронной почты, через которую отправляется сообщение электронной почты. Область:Общие свойства сообщения Каноническое имя:PidLidInternetAccountStamp Альтернативные имена:dispidInetAcctStamp
+Указывает идентификатор учетной записи электронной почты, через которую отправляется сообщение электронной почты. Область: Общие свойства сообщения Каноническое имя: PidLidInternetAccountStamp Альтернативные имена: dispidInetAcctStamp
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InternetAccountStamp;

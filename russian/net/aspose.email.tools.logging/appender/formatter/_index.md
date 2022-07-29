@@ -1,14 +1,14 @@
 ---
 title: Formatter
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает средство форматирования.
+description: Получает или задает модуль форматирования.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.tools.logging/appender/formatter/
 ---
 ## Appender.Formatter property
 
-Получает или задает средство форматирования.
+Получает или задает модуль форматирования.
 
 ```csharp
 public IFormatter Formatter { get; set; }

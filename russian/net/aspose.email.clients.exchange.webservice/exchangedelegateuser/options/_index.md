@@ -1,14 +1,14 @@
 ---
 title: Options
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает дополнительные параметры
+description: Получает или задает дополнительные параметры
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangedelegateuser/options/
 ---
 ## ExchangeDelegateUser.Options property
 
-Получает или устанавливает дополнительные параметры
+Получает или задает дополнительные параметры
 
 ```csharp
 public ExchangeDelegateOptions Options { get; set; }

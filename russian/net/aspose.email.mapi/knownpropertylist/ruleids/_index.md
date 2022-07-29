@@ -1,14 +1,14 @@
 ---
 title: RuleIds
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит буфер полученный конкатенацией свойства PidTagRuleId свойство раздела раздел 2.625. ОбластьСвойства серверных правил Каноническое имяPidTagRuleIds Альтернативные именаPR_RULE_IDS ptagRuleIds
+description: Содержит буфер полученный объединением свойства PidTagRuleId свойство раздела раздел 2.625. Область свойства правил на стороне сервера Каноническое имя PidTagRuleIds Альтернативные имена PR_RULE_IDS ptagRuleIds
 type: docs
 weight: 16500
 url: /ru/net/aspose.email.mapi/knownpropertylist/ruleids/
 ---
 ## KnownPropertyList.RuleIds field
 
-Содержит буфер, полученный конкатенацией свойства PidTagRuleId (свойство раздела (раздел 2.625). Область:Свойства серверных правил Каноническое имя:PidTagRuleIds Альтернативные имена:PR_RULE_IDS, ptagRuleIds
+Содержит буфер, полученный объединением свойства PidTagRuleId (свойство раздела (раздел 2.625). Область: свойства правил на стороне сервера Каноническое имя: PidTagRuleIds Альтернативные имена: PR_RULE_IDS, ptagRuleIds
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleIds;

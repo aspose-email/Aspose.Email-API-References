@@ -43,7 +43,7 @@ public Pop3MailboxInfo GetMailboxInfo(IConnection connection, bool closeTransact
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -61,7 +61,7 @@ public Pop3MailboxInfo GetMailboxInfo(IConnection connection, bool closeTransact
 
 ## GetMailboxInfo(bool) {#getmailboxinfo_3}
 
-Получает информацию о статусе почтового ящика
+Получает информацию о состоянии почтового ящика
 
 ```csharp
 public Pop3MailboxInfo GetMailboxInfo(bool closeTransaction)
@@ -69,7 +69,7 @@ public Pop3MailboxInfo GetMailboxInfo(bool closeTransaction)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| closeTransaction | Boolean | Указывает, была ли текущая транзакция быть закрытым до того, как список будет получен. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 

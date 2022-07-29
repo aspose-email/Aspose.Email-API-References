@@ -1,14 +1,14 @@
 ---
 title: SearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный двоично-сопоставимый ключ который идентифицирует объект для поиска. ОбластьСвойства ID Каноническое имяPidTagSearchKey Альтернативные именаPR_SEARCH_KEY ptagSearchKey
+description: Содержит уникальный двоично-сопоставимый ключ который идентифицирует объект для поиска. Область ID Properties Каноническое имя PidTagSearchKey Альтернативные имена PR_SEARCH_KEY ptagSearchKey
 type: docs
 weight: 17030
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchkey/
 ---
 ## KnownPropertyList.SearchKey field
 
-Содержит уникальный двоично-сопоставимый ключ, который идентифицирует объект для поиска. Область:Свойства ID Каноническое имя:PidTagSearchKey Альтернативные имена:PR_SEARCH_KEY, ptagSearchKey
+Содержит уникальный двоично-сопоставимый ключ, который идентифицирует объект для поиска. Область: ID Properties Каноническое имя: PidTagSearchKey Альтернативные имена: PR_SEARCH_KEY, ptagSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchKey;

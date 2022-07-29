@@ -1,14 +1,14 @@
 ---
 title: Small
 second_title: Справочник по Aspose.Email для .NET API
-description: Обрезанная миниатюра 48x48.
+description: Обрезанный эскиз 48x48.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.graph/thumbnailset/small/
 ---
 ## ThumbnailSet.Small property
 
-Обрезанная миниатюра 48x48.
+Обрезанный эскиз 48x48.
 
 ```csharp
 public Thumbnail Small { get; set; }

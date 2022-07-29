@@ -3,7 +3,7 @@ title: MapiDistributionListContactAddressType
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет тип адреса члена личного списка рассылки.
 type: docs
-weight: 18340
+weight: 18370
 url: /ru/net/aspose.email.mapi/mapidistributionlistcontactaddresstype/
 ---
 ## MapiDistributionListContactAddressType enumeration
@@ -18,8 +18,8 @@ public enum MapiDistributionListContactAddressType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| BusinessFax | `0` | Электронный адрес Business Fax. |
-| HomeFax | `1` | Домашний электронный адрес факса. |
+| BusinessFax | `0` | Электронный адрес делового факса. |
+| HomeFax | `1` | Электронный адрес домашнего факса. |
 | PrimaryFax | `2` | Электронный адрес основного факса. |
 | Email1 | `4` | Адрес электронной почты1. |
 | Email2 | `5` | Адрес электронной почты2. |

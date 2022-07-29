@@ -1,14 +1,14 @@
 ---
 title: EmsAbAssocProtocolCfgNntpO
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_O
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_O
 type: docs
 weight: 4710
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabassocprotocolcfgnntpo/
 ---
 ## KnownPropertyList.EmsAbAssocProtocolCfgNntpO field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_O
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ASSOC_PROTOCOL_CFG_NNTP_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAssocProtocolCfgNntpO;

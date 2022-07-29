@@ -1,14 +1,14 @@
 ---
 title: SortSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживаются ли команды сортировки
+description: Получает информацию о том поддерживается ли команда сортировки
 type: docs
 weight: 270
 url: /ru/net/aspose.email.clients.imap/imapclient/sortsupported/
 ---
 ## ImapClient.SortSupported property
 
-Получает информацию о том, поддерживаются ли команды сортировки
+Получает информацию о том, поддерживается ли команда сортировки
 
 ```csharp
 public bool SortSupported { get; set; }

@@ -16,7 +16,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
@@ -42,7 +42,7 @@ public Task<long> GetMessageSizeAsync(string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
 
@@ -66,7 +66,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, int sequenceNumber
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
@@ -92,7 +92,7 @@ public Task<long> GetMessageSizeAsync(int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 
@@ -117,7 +117,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, string uniqueId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -144,7 +144,7 @@ public Task<long> GetMessageSizeAsync(string uniqueId, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -170,7 +170,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, int sequenceNumber
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -197,7 +197,7 @@ public Task<long> GetMessageSizeAsync(int sequenceNumber, CancellationToken toke
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

@@ -1,14 +1,14 @@
 ---
 title: SentRepresentingFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: ОбластьПрочие свойства Каноническое имяPidTagSentRepresentingFlags Альтернативные именаptagSentRepresentingFlags
+description: Область Прочие свойства Каноническое имя PidTagSentRepresentingFlags Альтернативные имена ptagSentRepresentingFlags
 type: docs
 weight: 17250
 url: /ru/net/aspose.email.mapi/knownpropertylist/sentrepresentingflags/
 ---
 ## KnownPropertyList.SentRepresentingFlags field
 
-Область:Прочие свойства Каноническое имя:PidTagSentRepresentingFlags Альтернативные имена:ptagSentRepresentingFlags
+Область: Прочие свойства Каноническое имя: PidTagSentRepresentingFlags Альтернативные имена: ptagSentRepresentingFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentRepresentingFlags;

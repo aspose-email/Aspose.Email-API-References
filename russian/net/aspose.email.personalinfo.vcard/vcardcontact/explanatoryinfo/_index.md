@@ -1,14 +1,14 @@
 ---
 title: ExplanatoryInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает пояснительную информацию vCard
+description: Получает или задает поясняющую информацию vCard
 type: docs
 weight: 50
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/explanatoryinfo/
 ---
 ## VCardContact.ExplanatoryInfo property
 
-Получает или задает пояснительную информацию vCard
+Получает или задает поясняющую информацию vCard
 
 ```csharp
 public VCardExplanatoryInfo ExplanatoryInfo { get; set; }

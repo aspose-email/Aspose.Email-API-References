@@ -1,14 +1,14 @@
 ---
 title: OfficeLocation
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит местоположение офиса пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagOfficeLocation Альтернативные именаPR_OFFICE_LOCATION PR_OFFICE_LOCATION_A PR_OFFICE_LOCATION_W
+description: Содержит местоположение офиса пользователя почты. Область Address Properties Каноническое имя PidTagOfficeLocation Альтернативные имена PR_OFFICE_LOCATION PR_OFFICE_LOCATION_A PR_OFFICE_LOCATION_W
 type: docs
 weight: 13220
 url: /ru/net/aspose.email.mapi/knownpropertylist/officelocation/
 ---
 ## KnownPropertyList.OfficeLocation field
 
-Содержит местоположение офиса пользователя почты. Область:Свойства адреса Каноническое имя:PidTagOfficeLocation Альтернативные имена:PR_OFFICE_LOCATION, PR_OFFICE_LOCATION_A, PR_OFFICE_LOCATION_W,
+Содержит местоположение офиса пользователя почты. Область: Address Properties Каноническое имя: PidTagOfficeLocation Альтернативные имена: PR_OFFICE_LOCATION, PR_OFFICE_LOCATION_A, PR_OFFICE_LOCATION_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfficeLocation;

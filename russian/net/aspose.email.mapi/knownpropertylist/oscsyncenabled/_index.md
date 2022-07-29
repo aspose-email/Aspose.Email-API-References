@@ -1,14 +1,14 @@
 ---
 title: OscSyncEnabled
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает обрабатывается ли сервером синхронизация контактов с внешним источником. ОбластьСвойства контакта Каноническое имяPidTagOscSyncEnabled Альтернативные именаPR_OSC_SYNC_ENABLEDONSERVER
+description: Указывает обрабатывается ли сервером синхронизация контактов с внешним источником. Область Свойства контакта Каноническое имя PidTagOscSyncEnabled Альтернативные имена PR_OSC_SYNC_ENABLEDONSERVER
 type: docs
 weight: 13920
 url: /ru/net/aspose.email.mapi/knownpropertylist/oscsyncenabled/
 ---
 ## KnownPropertyList.OscSyncEnabled field
 
-Указывает, обрабатывается ли сервером синхронизация контактов с внешним источником. Область:Свойства контакта Каноническое имя:PidTagOscSyncEnabled Альтернативные имена:PR_OSC_SYNC_ENABLEDONSERVER
+Указывает, обрабатывается ли сервером синхронизация контактов с внешним источником. Область: Свойства контакта Каноническое имя: PidTagOscSyncEnabled Альтернативные имена: PR_OSC_SYNC_ENABLEDONSERVER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OscSyncEnabled;

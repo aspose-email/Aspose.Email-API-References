@@ -1,14 +1,14 @@
 ---
 title: AIMValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Строковое значение для категории AIM
+description: Строковое значение для категории ЦЕЛЬ
 type: docs
 weight: 190
 url: /ru/net/aspose.email.personalinfo/instantmessengercategory/aimvalue/
 ---
 ## InstantMessengerCategory.AIMValue field
 
-Строковое значение для категории 'AIM'
+Строковое значение для категории «ЦЕЛЬ»
 
 ```csharp
 public const string AIMValue;

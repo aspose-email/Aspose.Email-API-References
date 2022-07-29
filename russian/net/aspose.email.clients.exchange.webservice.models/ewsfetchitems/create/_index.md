@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: СоздаетEwsFetchItemsнабор параметров метода.
+description: СоздаетFetchItemsAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync набор параметров метода.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/create/
 ---
 ## EwsFetchItems.Create method
 
-СоздаетEwsFetchItemsнабор параметров метода.
+Создает[`FetchItemsAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync) набор параметров метода.
 
 ```csharp
 public static EwsFetchItems Create()

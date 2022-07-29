@@ -1,14 +1,14 @@
 ---
 title: ContactVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTACT_VERSION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTACT_VERSION
 type: docs
 weight: 3090
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactversion/
 ---
 ## KnownPropertyList.ContactVersion field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTACT_VERSION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTACT_VERSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContactVersion;

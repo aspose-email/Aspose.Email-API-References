@@ -1,14 +1,14 @@
 ---
 title: BodyCanonicalization
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает канонизацию тела c.
+description: Получает или задает канонизацию тела c.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.dkim/dkimsignatureinfo/bodycanonicalization/
 ---
 ## DKIMSignatureInfo.BodyCanonicalization property
 
-Получает или устанавливает канонизацию тела (c=).
+Получает или задает канонизацию тела (c=).
 
 ```csharp
 public CanonicalizationType BodyCanonicalization { get; set; }

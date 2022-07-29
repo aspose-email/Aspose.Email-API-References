@@ -1,14 +1,14 @@
 ---
 title: ImapMessageInfoCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет контейнер для коллекции объектовImapMessageInfo./imapmessageinfo
+description: Предоставляет контейнер для коллекцииImapMessageInfo./imapmessageinfo объекты
 type: docs
 weight: 16380
 url: /ru/net/aspose.email.clients.imap/imapmessageinfocollection/
 ---
 ## ImapMessageInfoCollection class
 
-Предоставляет контейнер для коллекции объектов[`ImapMessageInfo`](../imapmessageinfo)
+Предоставляет контейнер для коллекции[`ImapMessageInfo`](../imapmessageinfo) объекты
 
 ```csharp
 public sealed class ImapMessageInfoCollection : Collection<ImapMessageInfo>
@@ -37,7 +37,7 @@ public sealed class ImapMessageInfoCollection : Collection<ImapMessageInfo>
 | [Insert](../../aspose.email.clients.imap/imapmessageinfocollection/insert#insert)(int, ImapMessageInfo) | Вставить указанный объект ImapMessagInfo по указанному индексу. |
 | [Remove](../../aspose.email.clients.imap/imapmessageinfocollection/remove#remove)(ImapMessageInfo) | Удалить указанный объект ImapMessageInfo из этой коллекции. |
 | [RemoveAt](../../aspose.email.clients.imap/imapmessageinfocollection/removeat#removeat)(int) | Удалить ImapMessageInfo в указанном индексе из этой коллекции. |
-| [implicit operator](../../aspose.email.clients.imap/imapmessageinfocollection/op_implicit#op_implicit_2) | Преобразует коллекцию ImapMessageInfo в массив (4 operators) |
+| [implicit operator](../../aspose.email.clients.imap/imapmessageinfocollection/op_implicit#op_implicit_2) | Преобразует коллекцию ImapMessageInfo в array (4 operators) |
 
 ### Смотрите также
 

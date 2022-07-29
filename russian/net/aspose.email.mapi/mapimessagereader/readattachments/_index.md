@@ -16,7 +16,7 @@ public MapiAttachmentCollection ReadAttachments()
 
 ### Возвращаемое значение
 
-Коллекция вложений.
+Сборник вложений.
 
 ### Смотрите также
 

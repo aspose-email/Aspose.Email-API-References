@@ -42,7 +42,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumberList | IEnumerable`1 | Список порядковых номеров сообщений |
 
 ### Возвращаемое значение
@@ -69,7 +69,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IEnumerable<Pop3MessageInfo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageInfoList | IEnumerable`1 | Информационный список сообщений |
+| messageInfoList | IEnumerable`1 | Список информации о сообщениях |
 
 ### Возвращаемое значение
 
@@ -96,7 +96,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoList | IEnumerable`1 | Список информации о сообщениях |
 
 ### Возвращаемое значение

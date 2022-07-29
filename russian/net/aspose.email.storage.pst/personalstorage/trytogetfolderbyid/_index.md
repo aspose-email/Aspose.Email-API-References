@@ -17,7 +17,7 @@ public bool TryToGetFolderById(string entryIdString, out FolderInfo folder)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | entryIdString | String | Строка, представляющая идентификатор записи. |
-| folder | FolderInfo& | Когда этот метод возвращает значение true, содержит объект[`FolderInfo`](../../folderinfo), связанный с указанным Я БЫ. |
+| folder | FolderInfo& | Когда этот метод возвращает значение true, содержит[`FolderInfo`](../../folderinfo) объект, связанный с указанным идентификатором. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: AttachmentMacInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит заголовки и данные ветки ресурсов связанные с вложением Mac. ОбластьСвойства вложения сообщения Каноническое имяPidNameAttachmentMacInfo Альтернативные имена
+description: Содержит заголовки и данные ветки ресурсов связанные с вложением Mac. Область Свойства вложения сообщения Каноническое имя PidNameAttachmentMacInfo Альтернативные имена
 type: docs
 weight: 1680
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachmentmacinfo/
 ---
 ## KnownPropertyList.AttachmentMacInfo field
 
-Содержит заголовки и данные ветки ресурсов, связанные с вложением Mac. Область:Свойства вложения сообщения Каноническое имя:PidNameAttachmentMacInfo Альтернативные имена:
+Содержит заголовки и данные ветки ресурсов, связанные с вложением Mac. Область: Свойства вложения сообщения Каноническое имя: PidNameAttachmentMacInfo Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AttachmentMacInfo;

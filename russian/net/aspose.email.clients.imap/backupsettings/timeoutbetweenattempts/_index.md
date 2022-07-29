@@ -1,14 +1,14 @@
 ---
 title: TimeoutBetweenAttempts
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает или задает значение определяющее время ожидания в миллисекундах между попытками повторного выполнения операции Эта опция должна использоваться вместе с опцией NumberOfAttemptsToRrepeat.
+description: Получает или задает значение определяющее тайм-аут в миллисекундах между попытками выполнить операцию снова Этот параметр должен использоваться вместе с параметром NumberOfAttemptsToRrepeat.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.imap/backupsettings/timeoutbetweenattempts/
 ---
 ## BackupSettings.TimeoutBetweenAttempts property
 
-Возвращает или задает значение, определяющее время ожидания (в миллисекундах) между попытками повторного выполнения операции Эта опция должна использоваться вместе с опцией NumberOfAttemptsToRrepeat.
+Получает или задает значение, определяющее тайм-аут (в миллисекундах) между попытками выполнить операцию снова Этот параметр должен использоваться вместе с параметром NumberOfAttemptsToRrepeat.
 
 ```csharp
 public int TimeoutBetweenAttempts { get; set; }

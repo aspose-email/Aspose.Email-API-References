@@ -23,7 +23,7 @@ public void CreateFolder(string parentFolderUri, string name)
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*или*name*is` null` или` пустой` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *parentFolderUri*или же*name* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

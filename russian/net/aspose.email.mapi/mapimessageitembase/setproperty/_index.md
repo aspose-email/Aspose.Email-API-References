@@ -1,14 +1,14 @@
 ---
 title: SetProperty
 second_title: Справочник по Aspose.Email для .NET API
-description: Устанавливает свойство MAPI.
+description: Задает свойство MAPI.
 type: docs
 weight: 260
 url: /ru/net/aspose.email.mapi/mapimessageitembase/setproperty/
 ---
 ## MapiMessageItemBase.SetProperty method
 
-Устанавливает свойство MAPI.
+Задает свойство MAPI.
 
 ```csharp
 public override void SetProperty(PropertyDescriptor pd, object value)
@@ -17,7 +17,7 @@ public override void SetProperty(PropertyDescriptor pd, object value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pd | PropertyDescriptor | Дескриптор свойства. |
-| value | Object | Данные свойства. |
+| value | Object | Данные о собственности. |
 
 ### Смотрите также
 

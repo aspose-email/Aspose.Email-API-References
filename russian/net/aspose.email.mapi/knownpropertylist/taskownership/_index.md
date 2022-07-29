@@ -1,14 +1,14 @@
 ---
 title: TaskOwnership
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает роль текущего пользователя по отношению к объекту Task. ОбластьЗадачи Каноническое имяPidLidTaskOwnership Альтернативные именаdispidTaskOwnership
+description: Указывает роль текущего пользователя по отношению к объекту Task. Область Tasks Каноническое имя PidLidTaskOwnership Альтернативные имена dispidTaskOwnership
 type: docs
 weight: 18770
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskownership/
 ---
 ## KnownPropertyList.TaskOwnership field
 
-Указывает роль текущего пользователя по отношению к объекту Task. Область:Задачи Каноническое имя:PidLidTaskOwnership Альтернативные имена:dispidTaskOwnership
+Указывает роль текущего пользователя по отношению к объекту Task. Область: Tasks Каноническое имя: PidLidTaskOwnership Альтернативные имена: dispidTaskOwnership
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskOwnership;

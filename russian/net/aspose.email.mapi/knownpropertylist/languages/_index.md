@@ -1,14 +1,14 @@
 ---
 title: Languages
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_LANGUAGES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_LANGUAGES
 type: docs
 weight: 11950
 url: /ru/net/aspose.email.mapi/knownpropertylist/languages/
 ---
 ## KnownPropertyList.Languages field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_LANGUAGES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_LANGUAGES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Languages;

@@ -6,9 +6,61 @@ type: docs
 weight: 940
 url: /ru/net/aspose.email.clients.imap/imapclient/movemessageasync/
 ---
-## MoveMessageAsync(IConnection, int, string) {#movemessageasync}
+## MoveMessageAsync(int, string, bool) {#movemessageasync_9}
 
 Перемещает сообщение
+
+```csharp
+public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool commitDeletions)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
+
+### Возвращаемое значение
+
+Объект задачи с делегатом для этой операции
+
+### Смотрите также
+
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
+## MoveMessageAsync(string, string, bool) {#movemessageasync_13}
+
+Перемещает сообщение
+
+```csharp
+public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool commitDeletions)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| uniqueId | String | UID сообщения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
+
+### Возвращаемое значение
+
+Объект задачи с делегатом для этой операции
+
+### Смотрите также
+
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
+## MoveMessageAsync(IConnection, int, string) {#movemessageasync}
+
+Перемещает сообщениеeg
 
 ```csharp
 public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber, string folderName)
@@ -16,9 +68,9 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -43,9 +95,9 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -71,7 +123,7 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -95,8 +147,8 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | uid сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| uniqueId | String | UID сообщения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Возвращаемое значение
 
@@ -112,7 +164,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName)
 
 ## MoveMessageAsync(IConnection, int, string, bool, CancellationToken) {#movemessageasync_2}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber, string folderName, 
@@ -121,9 +173,9 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -151,9 +203,9 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -182,8 +234,8 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -209,9 +261,9 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool co
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | uid сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление. |
+| uniqueId | String | UID сообщения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -228,7 +280,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool co
 
 ## MoveMessageAsync(IConnection, int, string, CancellationToken) {#movemessageasync_3}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber, string folderName, 
@@ -237,9 +289,9 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -266,9 +318,9 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -295,8 +347,8 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, Canc
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -320,9 +372,9 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, Cancell
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | uid сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| uniqueId | String | UID сообщения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -338,7 +390,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, Cancell
 
 ## MoveMessageAsync(IConnection, int, string, bool) {#movemessageasync_1}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber, string folderName, 
@@ -347,9 +399,9 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
@@ -376,9 +428,9 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Возвращаемое значение
@@ -388,58 +440,6 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 ### Смотрите также
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## MoveMessageAsync(int, string, bool) {#movemessageasync_9}
-
-Перемещает сообщение
-
-```csharp
-public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool commitDeletions)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
-
-### Возвращаемое значение
-
-Объект задачи с делегатом для этой операции
-
-### Смотрите также
-
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## MoveMessageAsync(string, string, bool) {#movemessageasync_13}
-
-Перемещает сообщение
-
-```csharp
-public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool commitDeletions)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| uniqueId | String | uid сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление. |
-
-### Возвращаемое значение
-
-Объект задачи с делегатом для этой операции
-
-### Смотрите также
-
 * class [ImapClient](../../imapclient)
 * пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
 * сборка [Aspose.Email](../../../)

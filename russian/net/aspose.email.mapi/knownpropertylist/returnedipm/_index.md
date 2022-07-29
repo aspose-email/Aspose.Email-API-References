@@ -1,14 +1,14 @@
 ---
 title: ReturnedIpm
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RETURNED_IPM
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RETURNED_IPM
 type: docs
 weight: 16270
 url: /ru/net/aspose.email.mapi/knownpropertylist/returnedipm/
 ---
 ## KnownPropertyList.ReturnedIpm field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RETURNED_IPM
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RETURNED_IPM
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReturnedIpm;

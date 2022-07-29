@@ -1,14 +1,14 @@
 ---
 title: TemplateEngine
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаTemplateEngineaspose.email.tools.merging/templateengine.
+description: Инициализирует новый экземплярTemplateEngineaspose.email.tools.merging/templateengine класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.tools.merging/templateengine/templateengine/
 ---
 ## TemplateEngine(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TemplateEngine`](../../templateengine).
+Инициализирует новый экземпляр[`TemplateEngine`](../../templateengine) класс.
 
 ```csharp
 public TemplateEngine(string fileName)
@@ -28,7 +28,7 @@ public TemplateEngine(string fileName)
 
 ## TemplateEngine(MailMessage) {#constructor}
 
-Инициализирует новый экземпляр класса[`TemplateEngine`](../../templateengine).
+Инициализирует новый экземпляр[`TemplateEngine`](../../templateengine) класс.
 
 ```csharp
 public TemplateEngine(MailMessage templateMessage)

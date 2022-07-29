@@ -1,14 +1,14 @@
 ---
 title: InternetControl
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INTERNET_CONTROL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INTERNET_CONTROL
 type: docs
 weight: 11470
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetcontrol/
 ---
 ## KnownPropertyList.InternetControl field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INTERNET_CONTROL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INTERNET_CONTROL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetControl;

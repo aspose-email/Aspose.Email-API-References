@@ -1,14 +1,14 @@
 ---
 title: RecipientEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует объект адресной книги указывающий получателя. ОбластьСвойства идентификатора Каноническое имяPidTagRecipientEntryId Альтернативные именаPR_RECIPIENT_ENTRYID ptagRecipientEntryId
+description: Идентифицирует объект адресной книги в котором указан получатель. Область ID Properties Каноническое имя PidTagRecipientEntryId Альтернативные имена PR_RECIPIENT_ENTRYID ptagRecipientEntryId
 type: docs
 weight: 15420
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipiententryid/
 ---
 ## KnownPropertyList.RecipientEntryId field
 
-Идентифицирует объект адресной книги, указывающий получателя. Область:Свойства идентификатора Каноническое имя:PidTagRecipientEntryId Альтернативные имена:PR_RECIPIENT_ENTRYID, ptagRecipientEntryId
+Идентифицирует объект адресной книги, в котором указан получатель. Область: ID Properties Каноническое имя: PidTagRecipientEntryId Альтернативные имена: PR_RECIPIENT_ENTRYID, ptagRecipientEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientEntryId;

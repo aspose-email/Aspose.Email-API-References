@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *value*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *value* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

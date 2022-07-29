@@ -27,8 +27,8 @@ URI скопированного сообщения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemUri*is` null` or` empty` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderUri*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemUri* является`нулевой`или же`пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

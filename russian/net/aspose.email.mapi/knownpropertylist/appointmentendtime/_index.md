@@ -1,14 +1,14 @@
 ---
 title: AppointmentEndTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время окончания встречи. ОбластьКалендарь Каноническое имяPidLidAppointmentEndTime Альтернативные именаdispidApptEndTime
+description: Указывает время окончания встречи. Область Calendar Каноническое имя PidLidAppointmentEndTime Альтернативные имена dispidApptEndTime
 type: docs
 weight: 1160
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentendtime/
 ---
 ## KnownPropertyList.AppointmentEndTime field
 
-Указывает время окончания встречи. Область:Календарь Каноническое имя:PidLidAppointmentEndTime Альтернативные имена:dispidApptEndTime
+Указывает время окончания встречи. Область: Calendar Каноническое имя: PidLidAppointmentEndTime Альтернативные имена: dispidApptEndTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentEndTime;

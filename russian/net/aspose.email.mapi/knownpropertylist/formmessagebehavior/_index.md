@@ -1,14 +1,14 @@
 ---
 title: FormMessageBehavior
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FORM_MESSAGE_BEHAVIOR
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FORM_MESSAGE_BEHAVIOR
 type: docs
 weight: 10580
 url: /ru/net/aspose.email.mapi/knownpropertylist/formmessagebehavior/
 ---
 ## KnownPropertyList.FormMessageBehavior field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FORM_MESSAGE_BEHAVIOR
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FORM_MESSAGE_BEHAVIOR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FormMessageBehavior;

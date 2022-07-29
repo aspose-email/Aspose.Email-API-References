@@ -1,14 +1,14 @@
 ---
 title: QQ
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор QQ по умолчанию
+description: QQ по умолчанию id
 type: docs
 weight: 100
 url: /ru/net/aspose.email.personalinfo/instantmessengerlist/qq/
 ---
 ## InstantMessengerList.QQ property
 
-Идентификатор QQ по умолчанию
+QQ по умолчанию id
 
 ```csharp
 public string QQ { get; set; }

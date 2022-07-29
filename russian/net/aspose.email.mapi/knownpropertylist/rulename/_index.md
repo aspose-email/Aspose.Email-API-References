@@ -1,14 +1,14 @@
 ---
 title: RuleName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя правила. ОбластьСвойства серверных правил Каноническое имяPidTagRuleName Альтернативные именаPR_RULE_NAME PR_RULE_NAME_A ptagRuleName PR_RULE_NAME_W
+description: Указывает имя правила. Область Свойства правил на стороне сервера Каноническое имя PidTagRuleName Альтернативные имена PR_RULE_NAME PR_RULE_NAME_A ptagRuleName PR_RULE_NAME_W
 type: docs
 weight: 16590
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulename/
 ---
 ## KnownPropertyList.RuleName field
 
-Указывает имя правила. Область:Свойства серверных правил Каноническое имя:PidTagRuleName Альтернативные имена:PR_RULE_NAME, PR_RULE_NAME_A, ptagRuleName, PR_RULE_NAME_W
+Указывает имя правила. Область: Свойства правил на стороне сервера Каноническое имя: PidTagRuleName Альтернативные имена: PR_RULE_NAME, PR_RULE_NAME_A, ptagRuleName, PR_RULE_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleName;

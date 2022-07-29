@@ -1,14 +1,14 @@
 ---
 title: MessageAddedEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет данные дляMessageAdded./folderinfo/messageaddedevent
+description: Предоставляет данные дляMessageAdded./folderinfo/messageadded событие
 type: docs
-weight: 20180
+weight: 20230
 url: /ru/net/aspose.email.storage.pst/messageaddedeventargs/
 ---
 ## MessageAddedEventArgs class
 
-Предоставляет данные для[`MessageAdded`](../folderinfo/messageadded)event
+Предоставляет данные для[`MessageAdded`](../folderinfo/messageadded) событие
 
 ```csharp
 public class MessageAddedEventArgs : EventArgs
@@ -18,7 +18,7 @@ public class MessageAddedEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [MessageAddedEventArgs](messageaddedeventargs)(string, MapiMessage) | Инициализирует новый экземпляр класса[`MessageAddedEventArgs`](../messageaddedeventargs). |
+| [MessageAddedEventArgs](messageaddedeventargs)(string, MapiMessage) | Инициализирует новый экземпляр[`MessageAddedEventArgs`](../messageaddedeventargs) класс. |
 
 ## Характеристики
 

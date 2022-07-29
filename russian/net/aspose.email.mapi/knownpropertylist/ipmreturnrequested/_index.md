@@ -1,14 +1,14 @@
 ---
 title: IpmReturnRequested
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IPM_RETURN_REQUESTED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IPM_RETURN_REQUESTED
 type: docs
 weight: 11720
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmreturnrequested/
 ---
 ## KnownPropertyList.IpmReturnRequested field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IPM_RETURN_REQUESTED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IPM_RETURN_REQUESTED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmReturnRequested;

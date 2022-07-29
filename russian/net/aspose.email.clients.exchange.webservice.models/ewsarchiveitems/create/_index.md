@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: СоздатьEwsArchiveItemsнабор параметров метода.
+description: СоздатьArchiveItemsAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync набор параметров метода.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/create/
 ---
 ## EwsArchiveItems.Create method
 
-СоздатьEwsArchiveItemsнабор параметров метода.
+Создать[`ArchiveItemsAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync) набор параметров метода.
 
 ```csharp
 public static EwsArchiveItems Create(string sourceFolderUri)

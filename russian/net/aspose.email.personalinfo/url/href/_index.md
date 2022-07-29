@@ -1,14 +1,14 @@
 ---
 title: Href
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает URL-адрес
+description: Получает или задает URL
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo/url/href/
 ---
 ## Url.Href property
 
-Получает или задает URL-адрес
+Получает или задает URL
 
 ```csharp
 public string Href { get; set; }

@@ -3,7 +3,7 @@ title: MboxLoadOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает дополнительные параметры при загрузке хранилища Mbox.
 type: docs
-weight: 19970
+weight: 20020
 url: /ru/net/aspose.email.storage.mbox/mboxloadoptions/
 ---
 ## MboxLoadOptions class

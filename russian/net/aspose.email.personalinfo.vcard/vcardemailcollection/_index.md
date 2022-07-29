@@ -1,14 +1,14 @@
 ---
 title: VCardEmailCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет коллекцию VCardEmail
+description: Представляет коллекцию VCardEmails
 type: docs
-weight: 19590
+weight: 19620
 url: /ru/net/aspose.email.personalinfo.vcard/vcardemailcollection/
 ---
 ## VCardEmailCollection class
 
-Представляет коллекцию VCardEmail
+Представляет коллекцию VCardEmails
 
 ```csharp
 public sealed class VCardEmailCollection : List<VCardEmail>

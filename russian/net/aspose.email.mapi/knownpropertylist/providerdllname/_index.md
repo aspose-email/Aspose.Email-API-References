@@ -1,14 +1,14 @@
 ---
 title: ProviderDllName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROVIDER_DLL_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROVIDER_DLL_NAME
 type: docs
 weight: 15050
 url: /ru/net/aspose.email.mapi/knownpropertylist/providerdllname/
 ---
 ## KnownPropertyList.ProviderDllName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROVIDER_DLL_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROVIDER_DLL_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProviderDllName;

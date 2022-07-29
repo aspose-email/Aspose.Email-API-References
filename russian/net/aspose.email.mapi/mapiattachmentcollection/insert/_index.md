@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по Aspose.Email для .NET API
-description: Вставляет элемент вCollectionпо указанному индексу.
+description: Вставляет элемент вCollection по указанному индексу.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapiattachmentcollection/insert/
 ---
 ## Insert(int, MapiAttachment) {#insert}
 
-Вставляет элемент вCollectionпо указанному индексу.
+Вставляет элемент вCollection по указанному индексу.
 
 ```csharp
 public void Insert(int index, MapiAttachment item)
@@ -16,14 +16,14 @@ public void Insert(int index, MapiAttachment item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен*item*. |
-| item | MapiAttachment | Вставляемый объект. Значение может быть нулевым для ссылочных типов. |
+| index | Int32 | Отсчитываемый от нуля индекс, при котором*item* следует вставить. |
+| item | MapiAttachment | Объект для вставки. Значение может быть нулевым для ссылочных типов. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*меньше нуля. |
+| ArgumentOutOfRangeException | *index* меньше нуля. |
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public void Insert(int index, MapiAttachment item)
 
 ## Insert(int, string, MapiMessage) {#insert_2}
 
-Вставляет сообщение как вложение в коллекцию[`MapiAttachmentCollection`](../../mapiattachmentcollection)по указанному индексу.
+Вставляет сообщение как вложение в[`MapiAttachmentCollection`](../../mapiattachmentcollection) по указанному индексу.
 
 ```csharp
 public void Insert(int index, string name, MapiMessage msg)
@@ -44,15 +44,15 @@ public void Insert(int index, string name, MapiMessage msg)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому следует вставить. |
 | name | String | Имя вложения. |
-| msg | MapiMessage | Объект[`MapiMessage`](../../mapimessage), представляющий прикрепленное сообщение. |
+| msg | MapiMessage | [`MapiMessage`](../../mapimessage)который представляет прикрепленное сообщение. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выбрасывает, если сообщение пустое. |
+| ArgumentNullException | бросает, если сообщение равно null. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmsAbSubRefs
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SUB_REFS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SUB_REFS
 type: docs
 weight: 8980
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsubrefs/
 ---
 ## KnownPropertyList.EmsAbSubRefs field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SUB_REFS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SUB_REFS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSubRefs;

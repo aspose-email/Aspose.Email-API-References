@@ -1,14 +1,14 @@
 ---
 title: ServerSupportedCompression
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том какие типы сжатия поддерживаются сервером. Подробнееhttps//tools.ietf.org/html/rfc4978
+description: Получает информацию о том какие типы сжатия поддерживаются сервером. Подробнее https//tools.ietf.org/html/rfc4978
 type: docs
 weight: 260
 url: /ru/net/aspose.email.clients.imap/imapclient/serversupportedcompression/
 ---
 ## ImapClient.ServerSupportedCompression property
 
-Получает информацию о том, какие типы сжатия поддерживаются сервером. Подробнее:https://tools.ietf.org/html/rfc4978
+Получает информацию о том, какие типы сжатия поддерживаются сервером. Подробнее: https://tools.ietf.org/html/rfc4978
 
 ```csharp
 public CompressionType ServerSupportedCompression { get; }

@@ -39,7 +39,7 @@ public void Send(MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MailMessage | MailMessage, представляющий сообщение электронной почты. |
+| message | MailMessage | Объект MailMessage, представляющий сообщение электронной почты. |
 
 ### Смотрите также
 
@@ -73,7 +73,7 @@ public void Send(params MailMessage[] messages)
 
 ## Send(MailMessageCollection) {#send_6}
 
-Отправить указанный набор сообщений.
+Отправить указанную коллекцию сообщений.
 
 ```csharp
 public void Send(MailMessageCollection messages)
@@ -81,7 +81,7 @@ public void Send(MailMessageCollection messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | MailMessageCollection | Коллекция сообщений. |
+| messages | MailMessageCollection | Сбор сообщений. |
 
 ### Смотрите также
 
@@ -102,7 +102,7 @@ public void Send(IEnumerable<MailMessage> messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | IEnumerable`1 | IEnumerator, поддерживающий итерацию сообщений. |
+| messages | IEnumerable`1 | IEnumerator, поддерживающий итерацию сообщения. |
 
 ### Смотрите также
 
@@ -124,8 +124,8 @@ public void Send(IConnection connection, string from, string recipients, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| from | String | Строка, которая содержит адрес отправителя сообщения. |
+| connection | IConnection | Подключение к серверу |
+| from | String | Строка, содержащая адрес отправителя сообщения. |
 | recipients | String | Строка, содержащая адреса получателей. |
 | subject | String | Тема сообщения. |
 | body | String | Тело сообщения. |
@@ -149,8 +149,8 @@ public void Send(IConnection connection, MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| message | MailMessage | Сообщение, которое представляет собой сообщение электронной почты. |
+| connection | IConnection | Подключение к серверу |
+| message | MailMessage | Объект MailMessage, представляющий сообщение электронной почты. |
 
 ### Смотрите также
 
@@ -172,7 +172,7 @@ public void Send(IConnection connection, params MailMessage[] messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messages | MailMessage[] | Массив MailMessage, который представляет сообщения электронной почты для отправки. |
 
 ### Смотрите также
@@ -187,7 +187,7 @@ public void Send(IConnection connection, params MailMessage[] messages)
 
 ## Send(IConnection, MailMessageCollection) {#send_1}
 
-Отправить указанный набор сообщений.
+Отправить указанную коллекцию сообщений.
 
 ```csharp
 public void Send(IConnection connection, MailMessageCollection messages)
@@ -195,8 +195,8 @@ public void Send(IConnection connection, MailMessageCollection messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messages | MailMessageCollection | Коллекция Сообщения. |
+| connection | IConnection | Подключение к серверу |
+| messages | MailMessageCollection | Сбор сообщений. |
 
 ### Смотрите также
 
@@ -218,8 +218,8 @@ public void Send(IConnection connection, IEnumerable<MailMessage> messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messages | IEnumerable`1 | IEnumerator, который поддерживает итерацию сообщения. |
+| connection | IConnection | Подключение к серверу |
+| messages | IEnumerable`1 | IEnumerator, поддерживающий итерацию сообщения. |
 
 ### Смотрите также
 

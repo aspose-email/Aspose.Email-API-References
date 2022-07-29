@@ -1,14 +1,14 @@
 ---
 title: ContactsUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает uri контрактов.
+description: Получает контракты uri.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/contactsuri/
 ---
 ## ExchangeMailboxInfo.ContactsUri property
 
-Получает uri контрактов.
+Получает контракты uri.
 
 ```csharp
 public abstract string ContactsUri { get; set; }

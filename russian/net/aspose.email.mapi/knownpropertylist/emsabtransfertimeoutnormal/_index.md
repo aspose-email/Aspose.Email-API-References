@@ -1,14 +1,14 @@
 ---
 title: EmsAbTransferTimeoutNormal
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_TRANSFER_TIMEOUT_NORMAL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL
 type: docs
 weight: 9170
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabtransfertimeoutnormal/
 ---
 ## KnownPropertyList.EmsAbTransferTimeoutNormal field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_TRANSFER_TIMEOUT_NORMAL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbTransferTimeoutNormal;

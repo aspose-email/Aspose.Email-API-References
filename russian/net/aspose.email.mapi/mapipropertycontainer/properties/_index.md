@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает коллекцию свойств.
+description: Получает набор свойств.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/mapipropertycontainer/properties/
 ---
 ## MapiPropertyContainer.Properties property
 
-Получает коллекцию свойств.
+Получает набор свойств.
 
 ```csharp
 public virtual MapiPropertyCollection Properties { get; }

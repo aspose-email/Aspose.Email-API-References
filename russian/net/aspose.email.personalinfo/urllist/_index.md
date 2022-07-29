@@ -1,14 +1,14 @@
 ---
 title: UrlList
 second_title: Справочник по Aspose.Email для .NET API
-description: Список адресов для контакта
+description: Список URL для контакта
 type: docs
-weight: 19520
+weight: 19550
 url: /ru/net/aspose.email.personalinfo/urllist/
 ---
 ## UrlList class
 
-Список адресов для контакта
+Список URL для контакта
 
 ```csharp
 public class UrlList : IList<Url>
@@ -26,7 +26,7 @@ public class UrlList : IList<Url>
 | --- | --- |
 | [Blog](../../aspose.email.personalinfo/urllist/blog) { get; set; } | Страница блога по умолчанию |
 | [BusinessHomePage](../../aspose.email.personalinfo/urllist/businesshomepage) { get; set; } | Рабочая страница по умолчанию |
-| [Count](../../aspose.email.personalinfo/urllist/count) { get; } | Получает количество элементов, содержащихся в коллекцииICollection. |
+| [Count](../../aspose.email.personalinfo/urllist/count) { get; } | Получает количество элементов, содержащихся вICollection . |
 | [Ftp](../../aspose.email.personalinfo/urllist/ftp) { get; set; } | FTP-страница по умолчанию |
 | [HomePage](../../aspose.email.personalinfo/urllist/homepage) { get; set; } | Домашняя страница по умолчанию |
 | [IsReadOnly](../../aspose.email.personalinfo/urllist/isreadonly) { get; } |  |

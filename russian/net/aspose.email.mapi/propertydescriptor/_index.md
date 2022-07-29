@@ -1,14 +1,14 @@
 ---
 title: PropertyDescriptor
 second_title: Справочник по Aspose.Email для .NET API
-description: Класс содержит информацию описания свойства.
+description: Класс содержит информацию об описании свойства.
 type: docs
-weight: 18980
+weight: 19010
 url: /ru/net/aspose.email.mapi/propertydescriptor/
 ---
 ## PropertyDescriptor class
 
-Класс содержит информацию описания свойства.
+Класс содержит информацию об описании свойства.
 
 ```csharp
 public abstract class PropertyDescriptor : IEquatable<PropertyDescriptor>
@@ -18,23 +18,23 @@ public abstract class PropertyDescriptor : IEquatable<PropertyDescriptor>
 
 | Имя | Описание |
 | --- | --- |
-| [CanonicalName](../../aspose.email.mapi/propertydescriptor/canonicalname) { get; } | Имя, используемое для ссылки на свойство в документации. Префикс канонического имени идентифицирует основные характеристики свойства для разработчика. Каноническая структура именования использует три категории, которые обозначаются следующими префиксами к имени канонического свойства: * Префикс PidLid:свойства, определяемые 32-битной величиной без знака вместе с набор свойств. * Префикс PidName:свойства, определяемые строковым именем вместе с набором свойств. * Префикс PidTag:Свойства, определяемые 16-битной величиной без знака. |
-| [DataType](../../aspose.email.mapi/propertydescriptor/datatype) { get; } | Тип значения свойства, как описано в [MS-OXCDATA], который указывает тип значений, разрешенных для свойства. |
+| [CanonicalName](../../aspose.email.mapi/propertydescriptor/canonicalname) { get; } | Имя, используемое для ссылки на свойство в документации. Префикс канонического имени идентифицирует основные характеристики свойства для разработчика. Каноническая структура именования использует три категории, которые обозначаются следующими префиксами к имени канонического свойства: * Префикс PidLid: свойства, определяемые беззнаковым 32-битным числом вместе с набором свойств. * Префикс PidName: Свойства, определяемые строковым именем вместе с набором свойств. * Префикс PidTag: Свойства, определяемые 16-битной величиной без знака. |
+| [DataType](../../aspose.email.mapi/propertydescriptor/datatype) { get; } | Тип значения свойства, как описано в [MS-OXCDATA], указывающий тип значений, разрешенных для свойства. |
 | [MultipleValuesDataType](../../aspose.email.mapi/propertydescriptor/multiplevaluesdatatype) { get; } | Указывает, содержит ли тип данных несколько значений |
-| [Name](../../aspose.email.mapi/propertydescriptor/name) { get; } | Получает строку, которая идентифицирует свойство. |
+| [Name](../../aspose.email.mapi/propertydescriptor/name) { get; } | Получает строку, идентифицирующую свойство. |
 | static [Use8BitStringAsUnicode](../../aspose.email.mapi/propertydescriptor/use8bitstringasunicode) { get; set; } | Указывает, следует ли интерпретировать PropertyDataType.String8 как PropertyDataType.String |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_4)(MapiProperty) | Извлекает[`PropertyDescriptor`](../propertydescriptor)объект из свойства MAPI |
-| static [Parse](../../aspose.email.mapi/propertydescriptor/parse)(string) | Инициализирует новый экземпляр[`PropertyDescriptor`](../propertydescriptor)class |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_4)(MapiProperty) | извлекает[`PropertyDescriptor`](../propertydescriptor) объект из MAPI property |
+| static [Parse](../../aspose.email.mapi/propertydescriptor/parse)(string) | Инициализирует новый экземпляр[`PropertyDescriptor`](../propertydescriptor) класс |
 | abstract [Equals](../../aspose.email.mapi/propertydescriptor/equals#equals)(PropertyDescriptor) | Указывает, равен ли текущий объект другому объекту того же типа. |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_3)(long) | Получает[`PidTagPropertyDescriptor`](../pidtagpropertydescriptor)object |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_2)(int, PropertyDataType) | Получает[`PidTagPropertyDescriptor`](../pidtagpropertydescriptor)object |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance)(long, PropertyDataType, Guid) | Получает[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor)объект |
-| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_1)(string, PropertyDataType, Guid) | Получает[`PidNamePropertyDescriptor`](../pidnamepropertydescriptor)объект |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_3)(long) | извлекает[`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) объект |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_2)(int, PropertyDataType) | извлекает[`PidTagPropertyDescriptor`](../pidtagpropertydescriptor) объект |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance)(long, PropertyDataType, Guid) | извлекает[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) объект |
+| static [GetInstance](../../aspose.email.mapi/propertydescriptor/getinstance#getinstance_1)(string, PropertyDataType, Guid) | извлекает[`PidNamePropertyDescriptor`](../pidnamepropertydescriptor) объект |
 | [operator ==](../../aspose.email.mapi/propertydescriptor/op_equality) | Определяет, равны ли указанные объекты друг другу. |
 | [operator !=](../../aspose.email.mapi/propertydescriptor/op_inequality) | Определяет, не равны ли указанные объекты друг другу. |
 

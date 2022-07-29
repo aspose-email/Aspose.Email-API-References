@@ -1,14 +1,14 @@
 ---
 title: EmsAbX25CallUserDataIncoming
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_X25_CALL_USER_DATA_INCOMING
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_X25_CALL_USER_DATA_INCOMING
 type: docs
 weight: 9580
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabx25calluserdataincoming/
 ---
 ## KnownPropertyList.EmsAbX25CallUserDataIncoming field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_X25_CALL_USER_DATA_INCOMING
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_X25_CALL_USER_DATA_INCOMING
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbX25CallUserDataIncoming;

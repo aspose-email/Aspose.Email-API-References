@@ -1,14 +1,14 @@
 ---
 title: SyncState
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаSyncStateaspose.email.clients.exchange.webservice/syncstate
+description: Инициализирует новый экземплярSyncStateaspose.email.clients.exchange.webservice/syncstate класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/syncstate/syncstate/
 ---
 ## SyncState() {#constructor}
 
-Инициализирует новый экземпляр класса[`SyncState`](../../syncstate)
+Инициализирует новый экземпляр[`SyncState`](../../syncstate) класс
 
 ```csharp
 public SyncState()
@@ -24,7 +24,7 @@ public SyncState()
 
 ## SyncState(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SyncState`](../../syncstate)
+Инициализирует новый экземпляр[`SyncState`](../../syncstate) класс
 
 ```csharp
 public SyncState(string folderUri)

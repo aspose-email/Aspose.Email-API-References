@@ -1,14 +1,14 @@
 ---
 title: EnumerateMapiMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет перечислитель который поддерживает итерацию сообщений в папке.
+description: Предоставляет перечислитель поддерживающий итерацию сообщений в папке.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.storage.olm/olmfolder/enumeratemapimessages/
 ---
 ## OlmFolder.EnumerateMapiMessages method
 
-Предоставляет перечислитель, который поддерживает итерацию сообщений в папке.
+Предоставляет перечислитель, поддерживающий итерацию сообщений в папке.
 
 ```csharp
 public IEnumerable<MapiMessage> EnumerateMapiMessages()
@@ -16,7 +16,7 @@ public IEnumerable<MapiMessage> EnumerateMapiMessages()
 
 ### Возвращаемое значение
 
-IEnumerable, который представляет перечислитель, который перебирает сообщения в папке.
+IEnumerable, , представляющий перечислитель, перебирающий сообщения в папке.
 
 ### Смотрите также
 

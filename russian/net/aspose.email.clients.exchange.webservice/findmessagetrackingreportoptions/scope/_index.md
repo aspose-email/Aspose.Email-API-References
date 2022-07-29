@@ -18,7 +18,7 @@ public string Scope { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *value*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *value* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

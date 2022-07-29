@@ -1,14 +1,14 @@
 ---
 title: ReceivedBySmtpAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит адрес электронной почты SMTP получателя сообщения электронной почты. ОбластьПочта Каноническое имяPidTagReceivedBySmtpAddress Альтернативные именаptagRecipientRcvdBySmtpAddress
+description: Содержит SMTP-адрес электронной почты получателя сообщения электронной почты. Область Mail Каноническое имя PidTagReceivedBySmtpAddress Альтернативные имена ptagRecipientRcvdBySmtpAddress
 type: docs
 weight: 15320
 url: /ru/net/aspose.email.mapi/knownpropertylist/receivedbysmtpaddress/
 ---
 ## KnownPropertyList.ReceivedBySmtpAddress field
 
-Содержит адрес электронной почты SMTP получателя сообщения электронной почты. Область:Почта Каноническое имя:PidTagReceivedBySmtpAddress Альтернативные имена:ptagRecipientRcvdBySmtpAddress
+Содержит SMTP-адрес электронной почты получателя сообщения электронной почты. Область: Mail Каноническое имя: PidTagReceivedBySmtpAddress Альтернативные имена: ptagRecipientRcvdBySmtpAddress
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedBySmtpAddress;

@@ -1,14 +1,14 @@
 ---
 title: MessageObjectAttachmentEntity
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMessageObjectAttachmentEntityaspose.email.mapi.msg/messageobjectattachmententity.
+description: Инициализирует новый экземплярMessageObjectAttachmentEntityaspose.email.mapi.msg/messageobjectattachmententity класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi.msg/messageobjectattachmententity/messageobjectattachmententity/
 ---
 ## MessageObjectAttachmentEntity constructor
 
-Инициализирует новый экземпляр класса[`MessageObjectAttachmentEntity`](../../messageobjectattachmententity).
+Инициализирует новый экземпляр[`MessageObjectAttachmentEntity`](../../messageobjectattachmententity) класс.
 
 ```csharp
 public MessageObjectAttachmentEntity()

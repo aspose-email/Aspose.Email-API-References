@@ -1,14 +1,14 @@
 ---
 title: HomeAddressCountry
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название страны/региона пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagHomeAddressCountry Альтернативные именаPR_HOME_ADDRESS_COUNTRY PR_HOME_ADDRESS_COUNTRY_A
+description: Содержит название страны/региона пользователя почты. Область MapiMailUser Каноническое имя PidTagHomeAddressCountry Альтернативные имена PR_HOME_ADDRESS_COUNTRY PR_HOME_ADDRESS_COUNTRY_A
 type: docs
 weight: 11020
 url: /ru/net/aspose.email.mapi/knownpropertylist/homeaddresscountry/
 ---
 ## KnownPropertyList.HomeAddressCountry field
 
-Содержит название страны/региона пользователя почты. Область:MapiMailUser Каноническое имя:PidTagHomeAddressCountry Альтернативные имена:PR_HOME_ADDRESS_COUNTRY, PR_HOME_ADDRESS_COUNTRY_A,
+Содержит название страны/региона пользователя почты. Область: MapiMailUser Каноническое имя: PidTagHomeAddressCountry Альтернативные имена: PR_HOME_ADDRESS_COUNTRY, PR_HOME_ADDRESS_COUNTRY_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeAddressCountry;

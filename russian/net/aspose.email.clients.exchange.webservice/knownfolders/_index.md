@@ -21,15 +21,15 @@ public enum KnownFolders
 | --- | --- | --- |
 | NotDefined | `0` | Не указано |
 | Root | `1` | Корневая папка. |
-| Calendar | `2` | Папка Календарь. |
+| Calendar | `2` | Папка календаря. |
 | Contacts | `3` | Папка Контакты. |
 | DeletedItems | `4` | Папка DeletedItems. |
 | Drafts | `5` | Папка Черновики. |
 | Inbox | `6` | Папка "Входящие". |
 | Journal | `7` | Папка журнала. |
-| Notes | `8` | Папка Notes. |
+| Notes | `8` | Папка «Заметки». |
 | Outbox | `9` | Папка Исходящие. |
-| SentItems | `A` | Папка SentItems. |
+| SentItems | `A` | Папка "Отправленные". |
 | Tasks | `B` | Папка Задачи. |
 
 ### Смотрите также

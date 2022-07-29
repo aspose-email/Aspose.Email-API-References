@@ -1,14 +1,14 @@
 ---
 title: Events
 second_title: Справочник по Aspose.Email для .NET API
-description: Указать события связанные с контактом
+description: Укажите события связанные с контактом
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/mapicontact/events/
 ---
 ## MapiContact.Events property
 
-Указать события, связанные с контактом
+Укажите события, связанные с контактом
 
 ```csharp
 public MapiContactEventPropertySet Events { get; set; }

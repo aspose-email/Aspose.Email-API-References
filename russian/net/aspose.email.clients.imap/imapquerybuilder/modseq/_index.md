@@ -1,14 +1,14 @@
 ---
 title: ModSeq
 second_title: Справочник по Aspose.Email для .NET API
-description: Последовательность модификаций
+description: Последовательность модификации
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.imap/imapquerybuilder/modseq/
 ---
 ## ImapQueryBuilder.ModSeq property
 
-Последовательность модификаций
+Последовательность модификации
 
 ```csharp
 public ModificationSequenceField ModSeq { get; }

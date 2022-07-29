@@ -1,14 +1,14 @@
 ---
 title: AttachmentFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает на специальную обработку объекта вложения. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachmentFlags Альтернативные именаPR_ATTACHMENT_FLAGS ptagAttachmentFlags
+description: Указывает на специальную обработку объекта вложения. Область Свойства вложения сообщения Каноническое имя PidTagAttachmentFlags Альтернативные имена PR_ATTACHMENT_FLAGS ptagAttachmentFlags
 type: docs
 weight: 1640
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachmentflags/
 ---
 ## KnownPropertyList.AttachmentFlags field
 
-Указывает на специальную обработку объекта вложения. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachmentFlags Альтернативные имена:PR_ATTACHMENT_FLAGS, ptagAttachmentFlags
+Указывает на специальную обработку объекта вложения. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachmentFlags Альтернативные имена: PR_ATTACHMENT_FLAGS, ptagAttachmentFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentFlags;

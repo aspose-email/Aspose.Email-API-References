@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/spousevalue/
 ---
 ## AssociatedPersonCategory.SpouseValue field
 
-Строковое значение для категории "Супруга"
+Строковое значение для категории «Супруга»
 
 ```csharp
 public const string SpouseValue;

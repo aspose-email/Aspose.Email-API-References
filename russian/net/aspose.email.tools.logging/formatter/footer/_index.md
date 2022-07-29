@@ -1,14 +1,14 @@
 ---
 title: Footer
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает нижний колонтитул.
+description: Получает или задает нижний колонтитул.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.tools.logging/formatter/footer/
 ---
 ## Formatter.Footer property
 
-Получает или устанавливает нижний колонтитул.
+Получает или задает нижний колонтитул.
 
 ```csharp
 public virtual string Footer { get; }

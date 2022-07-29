@@ -1,14 +1,14 @@
 ---
 title: DavUid
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает уникальный идентификатор элемента. ОбластьОбщие Каноническое имяPidNameDavUid Альтернативные именаDAVuid
+description: Указывает уникальный идентификатор элемента. Область Common Каноническое имя PidNameDavUid Альтернативные имена DAVuid
 type: docs
 weight: 3680
 url: /ru/net/aspose.email.mapi/knownpropertylist/davuid/
 ---
 ## KnownPropertyList.DavUid field
 
-Указывает уникальный идентификатор элемента. Область:Общие Каноническое имя:PidNameDavUid Альтернативные имена:DAV:uid
+Указывает уникальный идентификатор элемента. Область: Common Каноническое имя: PidNameDavUid Альтернативные имена: DAV:uid
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DavUid;

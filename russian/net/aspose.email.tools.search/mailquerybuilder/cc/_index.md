@@ -16,7 +16,7 @@ public StringComparisonField Cc { get; }
 
 ### Стоимость имущества
 
-[`DateComparisonField`](../../datecomparisonfield), представляющее поле поиска копий.
+[`DateComparisonField`](../../datecomparisonfield) который представляет поле поиска cc.
 
 ### Смотрите также
 

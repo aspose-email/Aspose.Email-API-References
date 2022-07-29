@@ -1,14 +1,14 @@
 ---
 title: NotebookLinks
 second_title: Справочник по Aspose.Email для .NET API
-description: https//docs.microsoft.com/en-us/graph/api/resources/notebooklinksviewgraph-rest-1.0 ссылки для открытия блокнота OneNote.
+description: https//docs.microsoft.com/en-us/graph/api/resources/notebooklinksviewgraph-rest-1.0 Ссылки для открытия блокнота OneNote.
 type: docs
 weight: 16030
 url: /ru/net/aspose.email.clients.graph/notebooklinks/
 ---
 ## NotebookLinks class
 
-https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 ссылки для открытия блокнота OneNote.
+https://docs.microsoft.com/en-us/graph/api/resources/notebooklinks?view=graph-rest-1.0 Ссылки для открытия блокнота OneNote.
 
 ```csharp
 public class NotebookLinks

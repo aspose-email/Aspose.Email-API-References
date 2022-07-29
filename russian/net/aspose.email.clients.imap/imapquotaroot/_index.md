@@ -19,7 +19,7 @@ public class ImapQuotaRoot
 | Имя | Описание |
 | --- | --- |
 | [MailboxName](../../aspose.email.clients.imap/imapquotaroot/mailboxname) { get; } | Получает имя почтового ящика |
-| [QuotaRootName](../../aspose.email.clients.imap/imapquotaroot/quotarootname) { get; } | Получает имя корня qupta |
+| [QuotaRootName](../../aspose.email.clients.imap/imapquotaroot/quotarootname) { get; } | Получает имя корня квапты |
 | [Quotas](../../aspose.email.clients.imap/imapquotaroot/quotas) { get; } | Получает использование ресурса |
 
 ### Смотрите также

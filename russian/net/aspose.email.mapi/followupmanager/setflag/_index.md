@@ -16,15 +16,15 @@ public static void SetFlag(MapiMessage message, string flagRequest)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)в котором будет установлен флаг . |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором будет установлен флаг. |
 | flagRequest | String | Строка, указывающая запрошенное действие для сообщения электронной почты. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Если*flagRequest*имеет значение null или пусто. |
-| ArgumentNullException | Если*message*равно null. |
+| ArgumentException | Если*flagRequest* является нулевым или пустым. |
+| ArgumentNullException | Если*message* нулевой. |
 
 ### Смотрите также
 
@@ -46,17 +46,17 @@ public static void SetFlag(MapiMessage message, string flagRequest, DateTime sta
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)в котором будет установлен флаг . |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором будет установлен флаг. |
 | flagRequest | String | Строка, указывающая запрошенное действие для сообщения электронной почты. |
 | startDate | DateTime | Дата начала. |
-| dueDate | DateTime | Срок выполнения. |
+| dueDate | DateTime | Срок исполнения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Если*flagRequest*имеет значение null или пусто. |
-| ArgumentNullException | Если*message*равно null. |
+| ArgumentException | Если*flagRequest* является нулевым или пустым. |
+| ArgumentNullException | Если*message* нулевой. |
 
 ### Смотрите также
 

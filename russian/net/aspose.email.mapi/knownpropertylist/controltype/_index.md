@@ -1,14 +1,14 @@
 ---
 title: ControlType
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTROL_TYPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTROL_TYPE
 type: docs
 weight: 3330
 url: /ru/net/aspose.email.mapi/knownpropertylist/controltype/
 ---
 ## KnownPropertyList.ControlType field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTROL_TYPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTROL_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ControlType;

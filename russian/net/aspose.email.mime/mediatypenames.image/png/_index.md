@@ -1,14 +1,14 @@
 ---
 title: Png
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип носителя изображения/png
+description: Определяет тип носителя изображения/png
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mime/mediatypenames.image/png/
 ---
 ## MediaTypeNames.Image.Png field
 
-Указывает тип носителя изображения/png
+Определяет тип носителя изображения/png
 
 ```csharp
 public const string Png;

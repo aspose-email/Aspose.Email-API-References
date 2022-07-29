@@ -1,14 +1,14 @@
 ---
 title: ClientActions
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет действия которые клиент должен выполнить с сообщением. ОбластьСвойства правил на стороне сервера Каноническое имяPidTagClientActions Альтернативные именаPR_CLIENT_ACTIONS ptagClientActions
+description: Определяет действия которые клиент должен выполнить над сообщением. Область Свойства правил на стороне сервера Каноническое имя PidTagClientActions Альтернативные имена PR_CLIENT_ACTIONS ptagClientActions
 type: docs
 weight: 2680
 url: /ru/net/aspose.email.mapi/knownpropertylist/clientactions/
 ---
 ## KnownPropertyList.ClientActions field
 
-Определяет действия, которые клиент должен выполнить с сообщением. Область:Свойства правил на стороне сервера Каноническое имя:PidTagClientActions Альтернативные имена:PR_CLIENT_ACTIONS, ptagClientActions
+Определяет действия, которые клиент должен выполнить над сообщением. Область: Свойства правил на стороне сервера Каноническое имя: PidTagClientActions Альтернативные имена: PR_CLIENT_ACTIONS, ptagClientActions
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ClientActions;

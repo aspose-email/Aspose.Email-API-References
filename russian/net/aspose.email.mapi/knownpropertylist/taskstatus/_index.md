@@ -1,14 +1,14 @@
 ---
 title: TaskStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает статус задачи. ОбластьЗадачи Каноническое имяPidLidTaskStatus Альтернативные именаdispidTaskStatus
+description: Указывает статус задачи. Область Tasks Каноническое имя PidLidTaskStatus Альтернативные имена dispidTaskStatus
 type: docs
 weight: 18830
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskstatus/
 ---
 ## KnownPropertyList.TaskStatus field
 
-Указывает статус задачи. Область:Задачи Каноническое имя:PidLidTaskStatus Альтернативные имена:dispidTaskStatus
+Указывает статус задачи. Область: Tasks Каноническое имя: PidLidTaskStatus Альтернативные имена: dispidTaskStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskStatus;

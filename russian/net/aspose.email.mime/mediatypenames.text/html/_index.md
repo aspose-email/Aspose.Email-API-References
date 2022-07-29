@@ -1,14 +1,14 @@
 ---
 title: Html
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет тип носителя text/html
+description: Определяет текстовый/html тип мультимедиа
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mime/mediatypenames.text/html/
 ---
 ## MediaTypeNames.Text.Html field
 
-Определяет тип носителя text/html
+Определяет текстовый/html тип мультимедиа
 
 ```csharp
 public const string Html;

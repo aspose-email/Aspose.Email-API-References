@@ -1,14 +1,14 @@
 ---
 title: Selectable
 second_title: Справочник по Aspose.Email для .NET API
-description: Это свойство не установлено а если установлено то игнорируется. ОбластьКонтейнер AB Каноническое имяPidTagSelectable Альтернативные именаPR_SELECTABLE
+description: Это свойство не установлено и если установлено игнорируется. Область AB Container Каноническое имя PidTagSelectable Альтернативные имена PR_SELECTABLE
 type: docs
 weight: 17080
 url: /ru/net/aspose.email.mapi/knownpropertylist/selectable/
 ---
 ## KnownPropertyList.Selectable field
 
-Это свойство не установлено, а если установлено, то игнорируется. Область:Контейнер AB Каноническое имя:PidTagSelectable Альтернативные имена:PR_SELECTABLE
+Это свойство не установлено и, если установлено, игнорируется. Область: AB Container Каноническое имя: PidTagSelectable Альтернативные имена: PR_SELECTABLE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Selectable;

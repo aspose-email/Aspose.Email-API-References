@@ -1,14 +1,14 @@
 ---
 title: ViewDescriptorBinary
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит определения представлений. ОбластьMessageClassDefinedTransmittable Каноническое имяPidTagViewDescriptorBinary Альтернативные именаPR_VD_BINARY
+description: Содержит определения представлений. Область MessageClassDefinedTransmittable Каноническое имя PidTagViewDescriptorBinary Альтернативные имена PR_VD_BINARY
 type: docs
 weight: 19250
 url: /ru/net/aspose.email.mapi/knownpropertylist/viewdescriptorbinary/
 ---
 ## KnownPropertyList.ViewDescriptorBinary field
 
-Содержит определения представлений. Область:MessageClassDefinedTransmittable Каноническое имя:PidTagViewDescriptorBinary Альтернативные имена:PR_VD_BINARY
+Содержит определения представлений. Область: MessageClassDefinedTransmittable Каноническое имя: PidTagViewDescriptorBinary Альтернативные имена: PR_VD_BINARY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ViewDescriptorBinary;

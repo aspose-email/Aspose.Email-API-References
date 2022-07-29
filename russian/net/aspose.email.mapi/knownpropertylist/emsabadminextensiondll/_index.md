@@ -1,14 +1,14 @@
 ---
 title: EmsAbAdminExtensionDll
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ADMIN_EXTENSION_DLL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ADMIN_EXTENSION_DLL
 type: docs
 weight: 4580
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabadminextensiondll/
 ---
 ## KnownPropertyList.EmsAbAdminExtensionDll field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ADMIN_EXTENSION_DLL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ADMIN_EXTENSION_DLL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAdminExtensionDll;

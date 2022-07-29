@@ -1,14 +1,14 @@
 ---
 title: Status
 second_title: Справочник по Aspose.Email для .NET API
-description: Текущий статус операциине начато выполняется завершено не удалось
+description: Текущий статус операции не начато выполняется завершено не удалось
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.graph/onenoteoperation/status/
 ---
 ## OnenoteOperation.Status property
 
-Текущий статус операции:не начато, выполняется, завершено, не удалось
+Текущий статус операции: не начато, выполняется, завершено, не удалось
 
 ```csharp
 public string Status { get; }

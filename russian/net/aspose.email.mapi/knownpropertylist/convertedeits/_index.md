@@ -1,14 +1,14 @@
 ---
 title: ConvertedEits
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONVERTED_EITS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONVERTED_EITS
 type: docs
 weight: 3480
 url: /ru/net/aspose.email.mapi/knownpropertylist/convertedeits/
 ---
 ## KnownPropertyList.ConvertedEits field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONVERTED_EITS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONVERTED_EITS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConvertedEits;

@@ -3,7 +3,7 @@ title: MapiContactPhoto
 second_title: Справочник по Aspose.Email для .NET API
 description: Содержит данные и фото типа контакта.
 type: docs
-weight: 18250
+weight: 18280
 url: /ru/net/aspose.email.mapi/mapicontactphoto/
 ---
 ## MapiContactPhoto class
@@ -18,14 +18,14 @@ public sealed class MapiContactPhoto : ContactPhoto
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactPhoto](mapicontactphoto)(byte[], MapiContactPhotoImageFormat) | Инициализирует новый экземпляр[`MapiContactPhoto`](../mapicontactphoto)class |
+| [MapiContactPhoto](mapicontactphoto)(byte[], MapiContactPhotoImageFormat) | Инициализирует новый экземпляр[`MapiContactPhoto`](../mapicontactphoto) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Data](../../aspose.email.personalinfo/contactphoto/data) { get; } | Получает данные изображения. |
-| [Id](../../aspose.email.personalinfo/contactphoto/id) { get; } | Получает идентификационную информацию об объекте |
+| [Id](../../aspose.email.personalinfo/contactphoto/id) { get; } | Получает информацию об идентификации объекта |
 | [PhotoImageFormat](../../aspose.email.personalinfo/contactphoto/photoimageformat) { get; } | Получает тип фотографии. |
 
 ### Смотрите также

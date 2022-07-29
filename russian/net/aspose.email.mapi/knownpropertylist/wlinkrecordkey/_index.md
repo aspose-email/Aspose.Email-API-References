@@ -1,14 +1,14 @@
 ---
 title: WlinkRecordKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает значение свойства PidTagRecordKey раздел 2.901 папки на которую указывает ярлык. ОбластьКонфигурация Каноническое имяPidTagWlinkRecordKey Альтернативные именаPR_WLINK_RECKEY
+description: Указывает значение свойства PidTagRecordKey раздел 2.901 папки на которую указывает ярлык. Область Configuration Каноническое имя PidTagWlinkRecordKey Альтернативные имена PR_WLINK_RECKEY
 type: docs
 weight: 19480
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkrecordkey/
 ---
 ## KnownPropertyList.WlinkRecordKey field
 
-Указывает значение свойства PidTagRecordKey (раздел 2.901) папки, на которую указывает ярлык. Область:Конфигурация Каноническое имя:PidTagWlinkRecordKey Альтернативные имена:PR_WLINK_RECKEY
+Указывает значение свойства PidTagRecordKey (раздел 2.901) папки, на которую указывает ярлык. Область: Configuration Каноническое имя: PidTagWlinkRecordKey Альтернативные имена: PR_WLINK_RECKEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkRecordKey;

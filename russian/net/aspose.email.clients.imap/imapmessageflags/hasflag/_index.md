@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.imap/imapmessageflags/hasflag/
 ---
 ## ImapMessageFlags.HasFlag method
 
-Возвращает true, если "кто" содержит "флаг"
+Возвращает true, если «кто» содержит «флаг»
 
 ```csharp
 public bool HasFlag(ImapMessageFlags what)

@@ -1,14 +1,14 @@
 ---
 title: Home2TelephoneNumbers
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дополнительные телефонные номера в доме пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagHome2TelephoneNumbers Альтернативные именаPR_HOME2_TELEPHONE_NUMBER_A_MV
+description: Содержит дополнительные телефонные номера в доме пользователя почты. Область MapiMailUser Каноническое имя PidTagHome2TelephoneNumbers Альтернативные имена PR_HOME2_TELEPHONE_NUMBER_A_MV
 type: docs
 weight: 10990
 url: /ru/net/aspose.email.mapi/knownpropertylist/home2telephonenumbers/
 ---
 ## KnownPropertyList.Home2TelephoneNumbers field
 
-Содержит дополнительные телефонные номера в доме пользователя почты. Область:MapiMailUser Каноническое имя:PidTagHome2TelephoneNumbers Альтернативные имена:PR_HOME2_TELEPHONE_NUMBER_A_MV
+Содержит дополнительные телефонные номера в доме пользователя почты. Область: MapiMailUser Каноническое имя: PidTagHome2TelephoneNumbers Альтернативные имена: PR_HOME2_TELEPHONE_NUMBER_A_MV
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Home2TelephoneNumbers;

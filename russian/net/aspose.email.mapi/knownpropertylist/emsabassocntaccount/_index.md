@@ -1,14 +1,14 @@
 ---
 title: EmsAbAssocNtAccount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ASSOC_NT_ACCOUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ASSOC_NT_ACCOUNT
 type: docs
 weight: 4690
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabassocntaccount/
 ---
 ## KnownPropertyList.EmsAbAssocNtAccount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ASSOC_NT_ACCOUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ASSOC_NT_ACCOUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAssocNtAccount;

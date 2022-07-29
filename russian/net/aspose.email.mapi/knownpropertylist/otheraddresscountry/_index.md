@@ -1,14 +1,14 @@
 ---
 title: OtherAddressCountry
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название другой страны/региона почтового пользователя. ОбластьСвойства адреса Каноническое имяPidTagOtherAddressCountry Альтернативные именаPR_OTHER_ADDRESS_COUNTRY PR_OTHER_ADDRESS_COUNTRY_A
+description: Содержит название другой страны/региона почтового пользователя. Область Address Properties Каноническое имя PidTagOtherAddressCountry Альтернативные имена PR_OTHER_ADDRESS_COUNTRY PR_OTHER_ADDRESS_COUNTRY_A
 type: docs
 weight: 13960
 url: /ru/net/aspose.email.mapi/knownpropertylist/otheraddresscountry/
 ---
 ## KnownPropertyList.OtherAddressCountry field
 
-Содержит название другой страны/региона почтового пользователя. Область:Свойства адреса Каноническое имя:PidTagOtherAddressCountry Альтернативные имена:PR_OTHER_ADDRESS_COUNTRY, PR_OTHER_ADDRESS_COUNTRY_A,
+Содержит название другой страны/региона почтового пользователя. Область: Address Properties Каноническое имя: PidTagOtherAddressCountry Альтернативные имена: PR_OTHER_ADDRESS_COUNTRY, PR_OTHER_ADDRESS_COUNTRY_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressCountry;

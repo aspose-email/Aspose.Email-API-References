@@ -1,14 +1,14 @@
 ---
 title: MessageClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс сообщения
+description: Получает сообщение class
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/imapimessageitem/messageclass/
 ---
 ## IMapiMessageItem.MessageClass property
 
-Получает класс сообщения
+Получает сообщение class
 
 ```csharp
 public string MessageClass { get; }

@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/postaladdresscategory/description/
 ---
 ## PostalAddressCategory.Description property
 
-Получает описание для категории "Пользовательский" почтового адреса
+Получает описание для категории «Пользовательский» почтового адреса
 
 ```csharp
 public string Description { get; }

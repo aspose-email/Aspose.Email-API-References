@@ -1,14 +1,14 @@
 ---
 title: EmsAbX121Address
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_X121_ADDRESS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_X121_ADDRESS
 type: docs
 weight: 9570
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabx121address/
 ---
 ## KnownPropertyList.EmsAbX121Address field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_X121_ADDRESS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_X121_ADDRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbX121Address;

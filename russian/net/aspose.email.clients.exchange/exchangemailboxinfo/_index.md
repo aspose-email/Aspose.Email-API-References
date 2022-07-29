@@ -1,14 +1,14 @@
 ---
 title: ExchangeMailboxInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет информацию о почтовом ящике сервера обмена.
+description: Представляет информацию о почтовом ящике сервера Exchange.
 type: docs
 weight: 3380
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/
 ---
 ## ExchangeMailboxInfo class
 
-Представляет информацию о почтовом ящике сервера обмена.
+Представляет информацию о почтовом ящике сервера Exchange.
 
 ```csharp
 public abstract class ExchangeMailboxInfo
@@ -18,20 +18,20 @@ public abstract class ExchangeMailboxInfo
 
 | Имя | Описание |
 | --- | --- |
-| abstract [CalendarUri](../../aspose.email.clients.exchange/exchangemailboxinfo/calendaruri) { get; set; } | Получает URI календаря. |
-| abstract [ContactsUri](../../aspose.email.clients.exchange/exchangemailboxinfo/contactsuri) { get; set; } | Получает uri контрактов. |
-| abstract [DeletedItemsUri](../../aspose.email.clients.exchange/exchangemailboxinfo/deleteditemsuri) { get; set; } | Получает uri удаленных элементов. |
-| abstract [DraftsUri](../../aspose.email.clients.exchange/exchangemailboxinfo/draftsuri) { get; set; } | Получает URI черновика. |
-| abstract [InboxUri](../../aspose.email.clients.exchange/exchangemailboxinfo/inboxuri) { get; set; } | Получает uri почтового ящика. |
-| abstract [JournalUri](../../aspose.email.clients.exchange/exchangemailboxinfo/journaluri) { get; set; } | Получает uri журнала. |
+| abstract [CalendarUri](../../aspose.email.clients.exchange/exchangemailboxinfo/calendaruri) { get; set; } | Получает uri календаря. |
+| abstract [ContactsUri](../../aspose.email.clients.exchange/exchangemailboxinfo/contactsuri) { get; set; } | Получает контракты uri. |
+| abstract [DeletedItemsUri](../../aspose.email.clients.exchange/exchangemailboxinfo/deleteditemsuri) { get; set; } | Получает удаленные элементы uri. |
+| abstract [DraftsUri](../../aspose.email.clients.exchange/exchangemailboxinfo/draftsuri) { get; set; } | Получает черновики uri. |
+| abstract [InboxUri](../../aspose.email.clients.exchange/exchangemailboxinfo/inboxuri) { get; set; } | Получает uri папки "Входящие". |
+| abstract [JournalUri](../../aspose.email.clients.exchange/exchangemailboxinfo/journaluri) { get; set; } | Получает журнал uri. |
 | abstract [JunkeMailsUri](../../aspose.email.clients.exchange/exchangemailboxinfo/junkemailsuri) { get; set; } | Получает или задает uri нежелательной почты. |
 | virtual [MailboxUri](../../aspose.email.clients.exchange/exchangemailboxinfo/mailboxuri) { get; set; } | Получает uri почтового ящика. |
-| abstract [NotesUri](../../aspose.email.clients.exchange/exchangemailboxinfo/notesuri) { get; set; } | Получает uri заметок. |
+| abstract [NotesUri](../../aspose.email.clients.exchange/exchangemailboxinfo/notesuri) { get; set; } | Получает заметки uri. |
 | abstract [OutboxUri](../../aspose.email.clients.exchange/exchangemailboxinfo/outboxuri) { get; set; } | Получает исходящий uri. |
 | abstract [RootUri](../../aspose.email.clients.exchange/exchangemailboxinfo/rooturi) { get; set; } | Получает корневой uri. |
-| abstract [SentItemsUri](../../aspose.email.clients.exchange/exchangemailboxinfo/sentitemsuri) { get; set; } | Получает uri отправленных элементов. |
+| abstract [SentItemsUri](../../aspose.email.clients.exchange/exchangemailboxinfo/sentitemsuri) { get; set; } | Получает отправленные элементы uri. |
 | abstract [SubmissionUri](../../aspose.email.clients.exchange/exchangemailboxinfo/submissionuri) { get; set; } | Получает uri отправки. |
-| abstract [TasksUri](../../aspose.email.clients.exchange/exchangemailboxinfo/tasksuri) { get; set; } | Получает uri задач. |
+| abstract [TasksUri](../../aspose.email.clients.exchange/exchangemailboxinfo/tasksuri) { get; set; } | Получает задачи uri. |
 
 ### Смотрите также
 

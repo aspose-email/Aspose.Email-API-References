@@ -16,15 +16,15 @@ public void MoveConversationItems(string conversationId, string destinationFolde
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| conversationId | String | Id разговора для удаления |
+| conversationId | String | ID разговора, который нужно удалить |
 | destinationFolderId | String | Идентификатор папки, в которую перемещаются элементы |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` or` empty` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* является`нулевой`или же`пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public void MoveConversationItems(string conversationId, string destinationFolde
 
 ## MoveConversationItems(string, string, string) {#moveconversationitems_1}
 
-Перемещает элементы беседы, находящиеся в указанной папке, в указанную целевую папку
+Перемещает элементы беседы, расположенные в указанной папке, в указанную целевую папку
 
 ```csharp
 public void MoveConversationItems(string conversationId, string contextFolderId, 
@@ -45,16 +45,16 @@ public void MoveConversationItems(string conversationId, string contextFolderId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| conversationId | String | Идентификатор беседы для перемещения |
-| contextFolderId | String | Идентификатор папки, из которой перемещаются элементы беседы. Примечание. Если установлено значение null (или пусто), все элементы беседы будут перемещены |
+| conversationId | String | Идентификатор разговора для перемещения |
+| contextFolderId | String | Идентификатор папки, из которой перемещаются элементы беседы. Примечание. Если для него установлено значение null (или пусто), все элементы беседы будут перемещены. |
 | destinationFolderId | String | Идентификатор папки, в которую перемещаются элементы |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` или` empty` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* является`нулевой`или же`пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

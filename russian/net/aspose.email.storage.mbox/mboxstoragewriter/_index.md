@@ -1,14 +1,14 @@
 ---
 title: MboxStorageWriter
 second_title: Справочник по Aspose.Email для .NET API
-description: Базовый класс для любой записи хранилища почты на базе mbox.
+description: Базовый класс для любого модуля записи почтового хранилища на базе mbox.
 type: docs
-weight: 19990
+weight: 20040
 url: /ru/net/aspose.email.storage.mbox/mboxstoragewriter/
 ---
 ## MboxStorageWriter class
 
-Базовый класс для любой записи хранилища почты на базе mbox.
+Базовый класс для любого модуля записи почтового хранилища на базе mbox.
 
 ```csharp
 public abstract class MboxStorageWriter : IDisposable
@@ -24,7 +24,7 @@ public abstract class MboxStorageWriter : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.storage.mbox/mboxstoragewriter/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email.storage.mbox/mboxstoragewriter/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | abstract [WriteMessage](../../aspose.email.storage.mbox/mboxstoragewriter/writemessage#writemessage)(MailMessage) | Записывает сообщение в базовый поток хранения. |
 | abstract [WriteMessage](../../aspose.email.storage.mbox/mboxstoragewriter/writemessage#writemessage_1)(MailMessage, out string) | Записывает сообщение в базовый поток хранения. |
 

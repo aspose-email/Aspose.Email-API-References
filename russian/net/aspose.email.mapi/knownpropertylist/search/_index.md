@@ -1,14 +1,14 @@
 ---
 title: Search
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SEARCH
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SEARCH
 type: docs
 weight: 16930
 url: /ru/net/aspose.email.mapi/knownpropertylist/search/
 ---
 ## KnownPropertyList.Search field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SEARCH
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SEARCH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Search;

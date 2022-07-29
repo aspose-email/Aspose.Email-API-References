@@ -1,14 +1,14 @@
 ---
 title: EmsAbUsnLastObjRem
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_USN_LAST_OBJ_REM
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_USN_LAST_OBJ_REM
 type: docs
 weight: 9390
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabusnlastobjrem/
 ---
 ## KnownPropertyList.EmsAbUsnLastObjRem field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_USN_LAST_OBJ_REM
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_USN_LAST_OBJ_REM
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbUsnLastObjRem;

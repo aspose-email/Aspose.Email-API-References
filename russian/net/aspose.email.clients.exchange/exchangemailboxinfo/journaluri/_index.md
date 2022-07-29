@@ -1,14 +1,14 @@
 ---
 title: JournalUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает uri журнала.
+description: Получает журнал uri.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/journaluri/
 ---
 ## ExchangeMailboxInfo.JournalUri property
 
-Получает uri журнала.
+Получает журнал uri.
 
 ```csharp
 public abstract string JournalUri { get; set; }

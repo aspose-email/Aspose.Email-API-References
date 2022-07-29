@@ -1,14 +1,14 @@
 ---
 title: DistributionListStream
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает список EntryID и одноразовых EntryID соответствующих членам личного списка рассылки. ОбластьСвойства контакта Каноническое имяPidLidDistributionListStream Альтернативные именаdispidDLStream
+description: Задает список EntryID и одноразовых EntryID соответствующих членам личного списка рассылки. Область Свойства контакта Каноническое имя PidLidDistributionListStream Альтернативные имена dispidDLStream
 type: docs
 weight: 4230
 url: /ru/net/aspose.email.mapi/knownpropertylist/distributionliststream/
 ---
 ## KnownPropertyList.DistributionListStream field
 
-Задает список EntryID и одноразовых EntryID, соответствующих членам личного списка рассылки. Область:Свойства контакта Каноническое имя:PidLidDistributionListStream Альтернативные имена:dispidDLStream
+Задает список EntryID и одноразовых EntryID, соответствующих членам личного списка рассылки. Область: Свойства контакта Каноническое имя: PidLidDistributionListStream Альтернативные имена: dispidDLStream
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DistributionListStream;

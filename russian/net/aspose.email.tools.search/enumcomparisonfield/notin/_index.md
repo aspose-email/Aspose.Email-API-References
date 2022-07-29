@@ -1,14 +1,14 @@
 ---
 title: NotIn
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что поле vlaue в сообщении не должно быть в списке указанных значений.
+description: Указывает что значение поля в сообщении не должно быть в списке указанных значений.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.tools.search/enumcomparisonfield/notin/
 ---
 ## EnumComparisonField.NotIn method
 
-Указывает, что поле vlaue в сообщении не должно быть в списке указанных значений.
+Указывает, что значение поля в сообщении не должно быть в списке указанных значений.
 
 ```csharp
 public MailQuery NotIn(IEnumerable values)
@@ -16,11 +16,11 @@ public MailQuery NotIn(IEnumerable values)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значения | IEnumerable | Значения . |
+| values | IEnumerable | Ценности . |
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../mailquery), представляющий поисковый запрос (один критерий поиска).
+[`MailQuery`](../../mailquery) который представляет поисковый запрос (один критерий поиска).
 
 ### Смотрите также
 

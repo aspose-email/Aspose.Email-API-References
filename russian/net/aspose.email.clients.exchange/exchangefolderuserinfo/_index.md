@@ -18,7 +18,7 @@ public sealed class ExchangeFolderUserInfo
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeFolderUserInfo](exchangefolderuserinfo)() | Инициализирует новый экземпляр класса[`ExchangeFolderUserInfo`](../exchangefolderuserinfo) |
+| [ExchangeFolderUserInfo](exchangefolderuserinfo)() | Инициализирует новый экземпляр[`ExchangeFolderUserInfo`](../exchangefolderuserinfo) класс |
 
 ## Характеристики
 
@@ -28,8 +28,8 @@ public sealed class ExchangeFolderUserInfo
 | static [DefaultUser](../../aspose.email.clients.exchange/exchangefolderuserinfo/defaultuser) { get; } | Получает учетную запись пользователя по умолчанию |
 | [DisplayName](../../aspose.email.clients.exchange/exchangefolderuserinfo/displayname) { get; set; } | Получает или задает отображаемое имя пользователя. |
 | [PrimarySmtpAddress](../../aspose.email.clients.exchange/exchangefolderuserinfo/primarysmtpaddress) { get; set; } | Получает или задает основной SMTP-адрес учетной записи. |
-| [Sid](../../aspose.email.clients.exchange/exchangefolderuserinfo/sid) { get; set; } | Получает или задает форму языка определения дескриптора безопасности (SSDL) идентификатора безопасности (SID) для пользователя. |
-| [UserAccountType](../../aspose.email.clients.exchange/exchangefolderuserinfo/useraccounttype) { get; set; } | Получает или задает значение, определяющее учетные записи анонимного пользователя и пользователя по умолчанию для делегированного доступа. |
+| [Sid](../../aspose.email.clients.exchange/exchangefolderuserinfo/sid) { get; set; } | Получает или задает форму языка определения дескрипторов безопасности (SSDL) идентификатора безопасности (SID) для пользователя. |
+| [UserAccountType](../../aspose.email.clients.exchange/exchangefolderuserinfo/useraccounttype) { get; set; } | Получает или задает значение, идентифицирующее учетные записи анонимных пользователей и пользователей по умолчанию для делегированного доступа. |
 
 ### Смотрите также
 

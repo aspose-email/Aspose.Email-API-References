@@ -1,14 +1,14 @@
 ---
 title: FetchAttachment
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает указанное вложение
+description: Извлекает указанное вложение
 type: docs
 weight: 630
 url: /ru/net/aspose.email.clients.imap/imapclient/fetchattachment/
 ---
 ## FetchAttachment(IConnection, int, string) {#fetchattachment}
 
-Выбирает указанное вложение
+Извлекает указанное вложение
 
 ```csharp
 public Attachment FetchAttachment(IConnection connection, int sequenceNumber, string attachmentName)
@@ -16,13 +16,13 @@ public Attachment FetchAttachment(IConnection connection, int sequenceNumber, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | attachmentName | String | Имя вложения |
 
 ### Возвращаемое значение
 
-[`Attachment`](../../../aspose.email/attachment)который представляет вложение
+[`Attachment`](../../../aspose.email/attachment) что представляет привязанность
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public Attachment FetchAttachment(IConnection connection, int sequenceNumber, st
 
 ## FetchAttachment(int, string) {#fetchattachment_1}
 
-Выбирает указанное вложение
+Извлекает указанное вложение
 
 ```csharp
 public Attachment FetchAttachment(int sequenceNumber, string attachmentName)
@@ -49,7 +49,7 @@ public Attachment FetchAttachment(int sequenceNumber, string attachmentName)
 
 ### Возвращаемое значение
 
-[`Attachment`](../../../aspose.email/attachment)который представляет вложение
+[`Attachment`](../../../aspose.email/attachment) что представляет привязанность
 
 ### Смотрите также
 

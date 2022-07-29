@@ -1,14 +1,14 @@
 ---
 title: ListFolders
 second_title: Справочник по Aspose.Email для .NET API
-description: Список папок из родительской папки для папок отображаемых в обычных почтовых клиентах таких как входящие.
+description: Список папок из родительской папки для папок отображаемых в обычных почтовых клиентах таких как почтовый ящик.
 type: docs
 weight: 290
 url: /ru/net/aspose.email.clients.graph/igraphclient/listfolders/
 ---
 ## ListFolders() {#listfolders}
 
-Список папок из родительской папки для папок, отображаемых в обычных почтовых клиентах, таких как входящие.
+Список папок из родительской папки для папок, отображаемых в обычных почтовых клиентах, таких как почтовый ящик.
 
 ```csharp
 public FolderInfoCollection ListFolders()
@@ -29,7 +29,7 @@ public FolderInfoCollection ListFolders()
 
 ## ListFolders(string) {#listfolders_1}
 
-Список папок из родительской папки для папок, отображаемых в обычных почтовых клиентах, таких как входящие.
+Список папок из родительской папки для папок, отображаемых в обычных почтовых клиентах, таких как почтовый ящик.
 
 ```csharp
 public FolderInfoCollection ListFolders(string id)
@@ -41,7 +41,7 @@ public FolderInfoCollection ListFolders(string id)
 
 ### Возвращаемое значение
 
-Возвращает список подпапок корневая папка
+Возвращает список подпапок корневой папки
 
 ### Смотрите также
 

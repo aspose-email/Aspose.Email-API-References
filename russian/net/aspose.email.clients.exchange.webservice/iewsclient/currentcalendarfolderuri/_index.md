@@ -1,14 +1,14 @@
 ---
 title: CurrentCalendarFolderUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает uri текущей папки календаря
+description: Получает или задает текущую папку календаря uri
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/currentcalendarfolderuri/
 ---
 ## IEWSClient.CurrentCalendarFolderUri property
 
-Получает или устанавливает uri текущей папки календаря
+Получает или задает текущую папку календаря uri
 
 ```csharp
 public string CurrentCalendarFolderUri { get; set; }

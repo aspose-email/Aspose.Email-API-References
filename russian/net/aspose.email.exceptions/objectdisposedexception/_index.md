@@ -18,10 +18,10 @@ public class ObjectDisposedException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [ObjectDisposedException](objectdisposedexception#constructor)() | Инициализирует новый экземпляр классаObjectDisposedException. |
-| [ObjectDisposedException](objectdisposedexception#constructor_1)(string) | Инициализирует новый экземпляр классаObjectDisposedExceptionс указанным сообщением об ошибке. |
-| [ObjectDisposedException](objectdisposedexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр классаObjectDisposedException с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
-| [ObjectDisposedException](objectdisposedexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр классаObjectDisposedExceptionс указанным сообщением об ошибке. |
+| [ObjectDisposedException](objectdisposedexception#constructor)() | Инициализирует новый экземплярObjectDisposedException класс. |
+| [ObjectDisposedException](objectdisposedexception#constructor_1)(string) | Инициализирует новый экземплярObjectDisposedException класс с указанным сообщением об ошибке. |
+| [ObjectDisposedException](objectdisposedexception#constructor_2)(string, Exception) | Инициализирует новый экземплярObjectDisposedException класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [ObjectDisposedException](objectdisposedexception#constructor_3)(string, params object[]) | Инициализирует новый экземплярObjectDisposedException класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

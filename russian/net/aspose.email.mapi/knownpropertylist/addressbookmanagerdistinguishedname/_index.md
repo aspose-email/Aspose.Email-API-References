@@ -1,14 +1,14 @@
 ---
 title: AddressBookManagerDistinguishedName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит DN менеджера пользователя почты. ОбластьАдресная книга Каноническое имяPidTagAddressBookManagerDistinguishedName Альтернативные именаPR_EMS_AB_MANAGER_T
+description: Содержит DN менеджера пользователя почты. Область Адресная книга Каноническое имя PidTagAddressBookManagerDistinguishedName Альтернативные имена PR_EMS_AB_MANAGER_T
 type: docs
 weight: 720
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookmanagerdistinguishedname/
 ---
 ## KnownPropertyList.AddressBookManagerDistinguishedName field
 
-Содержит DN менеджера пользователя почты. Область:Адресная книга Каноническое имя:PidTagAddressBookManagerDistinguishedName Альтернативные имена:PR_EMS_AB_MANAGER_T
+Содержит DN менеджера пользователя почты. Область: Адресная книга Каноническое имя: PidTagAddressBookManagerDistinguishedName Альтернативные имена: PR_EMS_AB_MANAGER_T
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookManagerDistinguishedName;

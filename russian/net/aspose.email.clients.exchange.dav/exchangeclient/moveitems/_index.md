@@ -16,8 +16,8 @@ public void MoveItems(string destinationFolderUri, params string[] itemsUriArray
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationFolderUri | String | Новое место назначения для элементов. |
-| itemsUriArray | String[] | Элементы массива uri |
+| destinationFolderUri | String | Новое место назначения для предметов. |
+| itemsUriArray | String[] | Массив URI элементов |
 
 ### Смотрите также
 
@@ -37,9 +37,9 @@ public void MoveItems(string destinationFolderUri, bool overwrite, params string
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destinationFolderUri | String | Новое место назначения для элементов. |
+| destinationFolderUri | String | Новое место назначения для предметов. |
 | overwrite | Boolean | Указывает, должен ли сервер перезаписывать существующее сообщение при обработке операции MOVE. |
-| itemsUriArray | String[] | Элементы массива uri |
+| itemsUriArray | String[] | Массив URI элементов |
 
 ### Смотрите также
 

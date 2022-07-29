@@ -1,14 +1,14 @@
 ---
 title: RuleMessageUserFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит непрозрачное свойство которое клиент устанавливает для исключительного использования клиентом. Установите на сообщение FAI. ОбластьExchangeNonTransmittableReserved Каноническое имяPidTagRuleMessageUserFlags Альтернативные именаPR_RULE_MSG_USER_FLAGS ptagRuleMsgUserFlags
+description: Содержит непрозрачное свойство которое клиент устанавливает для исключительного использования клиентом. Установите на сообщение FAI. Область ExchangeNonTransmittableReserved Каноническое имя PidTagRuleMessageUserFlags Альтернативные имена PR_RULE_MSG_USER_FLAGS ptagRuleMsgUserFlags
 type: docs
 weight: 16580
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulemessageuserflags/
 ---
 ## KnownPropertyList.RuleMessageUserFlags field
 
-Содержит непрозрачное свойство, которое клиент устанавливает для исключительного использования клиентом. Установите на сообщение FAI. Область:ExchangeNonTransmittableReserved Каноническое имя:PidTagRuleMessageUserFlags Альтернативные имена:PR_RULE_MSG_USER_FLAGS, ptagRuleMsgUserFlags
+Содержит непрозрачное свойство, которое клиент устанавливает для исключительного использования клиентом. Установите на сообщение FAI. Область: ExchangeNonTransmittableReserved Каноническое имя: PidTagRuleMessageUserFlags Альтернативные имена: PR_RULE_MSG_USER_FLAGS, ptagRuleMsgUserFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageUserFlags;

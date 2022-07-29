@@ -1,14 +1,14 @@
 ---
 title: NoteCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество примечаний в файле прикрепленном к объекту Document. ОбластьОбщие Каноническое имяPidNameNoteCount Альтернативные именаurnschemas-microsoft-comofficeofficeNotes
+description: Указывает количество примечаний в файле прикрепленном к объекту Document. Область Common Каноническое имя PidNameNoteCount Альтернативные имена urnschemas-microsoft-comofficeofficeNotes
 type: docs
 weight: 13120
 url: /ru/net/aspose.email.mapi/knownpropertylist/notecount/
 ---
 ## KnownPropertyList.NoteCount field
 
-Указывает количество примечаний в файле, прикрепленном к объекту Document. Область:Общие Каноническое имя:PidNameNoteCount Альтернативные имена:urn:schemas-microsoft-com:office:office#Notes
+Указывает количество примечаний в файле, прикрепленном к объекту Document. Область: Common Каноническое имя: PidNameNoteCount Альтернативные имена: urn:schemas-microsoft-com:office:office#Notes
 
 ```csharp
 public static readonly PidNamePropertyDescriptor NoteCount;

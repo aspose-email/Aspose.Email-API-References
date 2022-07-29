@@ -1,14 +1,14 @@
 ---
 title: LastModifierEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает ID записи в адресной книге последнего пользователя изменившего содержимое сообщения. ОбластьСвойства истории Каноническое имяPidTagLastModifierEntryId Альтернативные именаPR_LAST_MODIFIER_ENTRYID ptagLastModifierEntryId
+description: Задает ID записи в адресной книге последнего пользователя изменившего содержимое сообщения. Область Свойства истории Каноническое имя PidTagLastModifierEntryId Альтернативные имена PR_LAST_MODIFIER_ENTRYID ptagLastModifierEntryId
 type: docs
 weight: 12020
 url: /ru/net/aspose.email.mapi/knownpropertylist/lastmodifierentryid/
 ---
 ## KnownPropertyList.LastModifierEntryId field
 
-Задает ID записи в адресной книге последнего пользователя, изменившего содержимое сообщения. Область:Свойства истории Каноническое имя:PidTagLastModifierEntryId Альтернативные имена:PR_LAST_MODIFIER_ENTRYID, ptagLastModifierEntryId
+Задает ID записи в адресной книге последнего пользователя, изменившего содержимое сообщения. Область: Свойства истории Каноническое имя: PidTagLastModifierEntryId Альтернативные имена: PR_LAST_MODIFIER_ENTRYID, ptagLastModifierEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastModifierEntryId;

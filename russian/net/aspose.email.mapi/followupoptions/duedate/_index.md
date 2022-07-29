@@ -1,14 +1,14 @@
 ---
 title: DueDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает дату указывающую срок выполнения помеченного сообщения.
+description: Получает или задает дату указывающую дату выполнения для помеченного сообщения.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/followupoptions/duedate/
 ---
 ## FollowUpOptions.DueDate property
 
-Получает или задает дату, указывающую срок выполнения помеченного сообщения.
+Получает или задает дату, указывающую дату выполнения для помеченного сообщения.
 
 ```csharp
 public DateTime DueDate { get; set; }

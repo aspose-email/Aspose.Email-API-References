@@ -1,14 +1,14 @@
 ---
 title: op_GreaterThanOrEqual
 second_title: Справочник по Aspose.Email для .NET API
-description: Сравнивает два объектаLogLevelaspose.email.tools.logging/loglevel и возвращает значение указывающее является ли первое больше или равно второму.
+description: Сравнивает дваLogLevelaspose.email.tools.logging/loglevel объекты и возвращает значение указывающее является ли первое значение больше или равно второму.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.tools.logging/loglevel/op_greaterthanorequal/
 ---
 ## LogLevel GreaterThanOrEqual operator
 
-Сравнивает два объекта[`LogLevel`](../../loglevel) и возвращает значение, указывающее, является ли первое больше или равно второму.
+Сравнивает два[`LogLevel`](../../loglevel) объекты и возвращает значение, указывающее, является ли первое значение больше или равно второму.
 
 ```csharp
 public static bool operator >=(LogLevel l1, LogLevel l2)
@@ -21,7 +21,7 @@ public static bool operator >=(LogLevel l1, LogLevel l2)
 
 ### Возвращаемое значение
 
-Значение` l1.Ordinal >= l2.Ordinal`
+Значение`l1.Порядковый номер >= l2.Порядковый номер`
 
 ### Смотрите также
 

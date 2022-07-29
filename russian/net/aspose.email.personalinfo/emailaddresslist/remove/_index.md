@@ -16,7 +16,7 @@ public bool Remove(EmailAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | EmailAddress | ОбъектObjectдля удаления из списка. |
+| value | EmailAddress | Object удалить из списка. |
 
 ### Смотрите также
 

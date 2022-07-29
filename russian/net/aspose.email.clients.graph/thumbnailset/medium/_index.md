@@ -1,14 +1,14 @@
 ---
 title: Medium
 second_title: Справочник по Aspose.Email для .NET API
-description: Миниатюра в масштабе 176x176.
+description: Миниатюра 176x176 в масштабе.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.graph/thumbnailset/medium/
 ---
 ## ThumbnailSet.Medium property
 
-Миниатюра в масштабе 176x176.
+Миниатюра 176x176 в масштабе.
 
 ```csharp
 public Thumbnail Medium { get; set; }

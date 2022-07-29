@@ -1,14 +1,14 @@
 ---
 title: CreationTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Дата и время в формате всемирного координированного времени UTC когда пользователь выполнил действие. ОбязательноДа
+description: Дата и время по всемирному координированному времени UTC когда пользователь выполнил действие. Обязательно Yes
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/content/creationtime/
 ---
 ## Content.CreationTime property
 
-Дата и время в формате всемирного координированного времени (UTC), когда пользователь выполнил действие. Обязательно:Да
+Дата и время по всемирному координированному времени (UTC), когда пользователь выполнил действие. Обязательно: Yes
 
 ```csharp
 public DateTime CreationTime { get; set; }

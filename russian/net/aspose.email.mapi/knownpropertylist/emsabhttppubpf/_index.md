@@ -1,14 +1,14 @@
 ---
 title: EmsAbHttpPubPf
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_HTTP_PUB_PF
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_HTTP_PUB_PF
 type: docs
 weight: 6700
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabhttppubpf/
 ---
 ## KnownPropertyList.EmsAbHttpPubPf field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_HTTP_PUB_PF
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_HTTP_PUB_PF
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHttpPubPf;

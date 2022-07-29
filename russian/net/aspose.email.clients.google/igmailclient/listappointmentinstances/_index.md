@@ -21,7 +21,7 @@ public Appointment[] ListAppointmentInstances(string calendarId, string appointm
 
 ### Возвращаемое значение
 
-Возвращает список экземпляров встреч для календаря.
+Возвращает список экземпляров встречи для календаря.
 
 ### Смотрите также
 

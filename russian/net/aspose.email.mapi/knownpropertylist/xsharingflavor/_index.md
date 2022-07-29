@@ -1,14 +1,14 @@
 ---
 title: XSharingFlavor
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит шестнадцатеричное строковое представление значения свойства PidLidSharingFlavor раздел 2.245. ОбластьСовместное использование Каноническое имяPidNameXSharingFlavor Альтернативные имена
+description: Содержит шестнадцатеричное строковое представление значения свойства PidLidSharingFlavor раздел 2.245. Область Sharing Каноническое имя PidNameXSharingFlavor Альтернативные имена
 type: docs
 weight: 19750
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingflavor/
 ---
 ## KnownPropertyList.XSharingFlavor field
 
-Содержит шестнадцатеричное строковое представление значения свойства PidLidSharingFlavor (раздел 2.245). Область:Совместное использование Каноническое имя:PidNameXSharingFlavor Альтернативные имена:
+Содержит шестнадцатеричное строковое представление значения свойства PidLidSharingFlavor (раздел 2.245). Область: Sharing Каноническое имя: PidNameXSharingFlavor Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingFlavor;

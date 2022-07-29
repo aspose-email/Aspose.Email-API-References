@@ -1,14 +1,14 @@
 ---
 title: ImapCopyMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: TheCopyMessagesAsync../aspose.email.clients.imap/iasyncimapclient/copymessagesasyncнабор параметров метода.
+description: CopyMessagesAsync../aspose.email.clients.imap/iasyncimapclient/copymessagesasync набор параметров метода.
 type: docs
 weight: 16550
 url: /ru/net/aspose.email.clients.imap.models/imapcopymessages/
 ---
 ## ImapCopyMessages class
 
-The[`CopyMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/copymessagesasync)набор параметров метода.
+[`CopyMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/copymessagesasync) набор параметров метода.
 
 ```csharp
 public class ImapCopyMessages : ImapMessageSet<ImapCopyMessages>
@@ -18,7 +18,7 @@ public class ImapCopyMessages : ImapMessageSet<ImapCopyMessages>
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapcopymessages/create)() | Создает экземпляр класса[`ImapCopyMessages`](../imapcopymessages). |
+| static [Create](../../aspose.email.clients.imap.models/imapcopymessages/create)() | Создает экземпляр[`ImapCopyMessages`](../imapcopymessages) класс. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
 | [SetFolder](../../aspose.email.clients.imap.models/imapcopymessages/setfolder)(string) | Имя папки, в которую должно быть скопировано сообщение. |

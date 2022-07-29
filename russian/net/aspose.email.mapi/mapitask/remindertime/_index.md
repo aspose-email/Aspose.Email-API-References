@@ -1,14 +1,14 @@
 ---
 title: ReminderTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает время начального сигнала для напоминания
+description: Получает или задает начальное время сигнала для напоминания
 type: docs
 weight: 170
 url: /ru/net/aspose.email.mapi/mapitask/remindertime/
 ---
 ## MapiTask.ReminderTime property
 
-Получает или устанавливает время начального сигнала для напоминания
+Получает или задает начальное время сигнала для напоминания
 
 ```csharp
 public DateTime ReminderTime { get; set; }

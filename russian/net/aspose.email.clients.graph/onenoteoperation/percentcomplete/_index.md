@@ -1,14 +1,14 @@
 ---
 title: PercentComplete
 second_title: Справочник по Aspose.Email для .NET API
-description: Процент завершения операции если операция все еще находится в состоянии выполнения
+description: Процент завершения операции если операция все еще выполняется status
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.graph/onenoteoperation/percentcomplete/
 ---
 ## OnenoteOperation.PercentComplete property
 
-Процент завершения операции, если операция все еще находится в состоянии выполнения
+Процент завершения операции, если операция все еще выполняется status
 
 ```csharp
 public string PercentComplete { get; }

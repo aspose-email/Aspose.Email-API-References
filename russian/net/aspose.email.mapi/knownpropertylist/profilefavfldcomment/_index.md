@@ -1,14 +1,14 @@
 ---
 title: ProfileFavfldComment
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_FAVFLD_COMMENT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_FAVFLD_COMMENT
 type: docs
 weight: 14720
 url: /ru/net/aspose.email.mapi/knownpropertylist/profilefavfldcomment/
 ---
 ## KnownPropertyList.ProfileFavfldComment field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_FAVFLD_COMMENT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_FAVFLD_COMMENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileFavfldComment;

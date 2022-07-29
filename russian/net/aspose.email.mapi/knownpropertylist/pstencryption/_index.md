@@ -1,14 +1,14 @@
 ---
 title: PstEncryption
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PST_ENCRYPTION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PST_ENCRYPTION
 type: docs
 weight: 15090
 url: /ru/net/aspose.email.mapi/knownpropertylist/pstencryption/
 ---
 ## KnownPropertyList.PstEncryption field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PST_ENCRYPTION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PST_ENCRYPTION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PstEncryption;

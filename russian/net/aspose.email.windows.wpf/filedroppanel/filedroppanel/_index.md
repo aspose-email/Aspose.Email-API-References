@@ -1,14 +1,14 @@
 ---
 title: FileDropPanel
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFileDropPanelaspose.email.windows.wpf/filedroppanel.
+description: Инициализирует новый экземплярFileDropPanelaspose.email.windows.wpf/filedroppanel класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.windows.wpf/filedroppanel/filedroppanel/
 ---
 ## FileDropPanel constructor
 
-Инициализирует новый экземпляр класса[`FileDropPanel`](../../filedroppanel).
+Инициализирует новый экземпляр[`FileDropPanel`](../../filedroppanel) класс.
 
 ```csharp
 public FileDropPanel()

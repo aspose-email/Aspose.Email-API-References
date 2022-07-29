@@ -1,14 +1,14 @@
 ---
 title: MailgunClient
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMailgunClientaspose.email.clients.deliveryservice.mailgun/mailgunclient
+description: Инициализирует новый экземплярMailgunClientaspose.email.clients.deliveryservice.mailgun/mailgunclient класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/mailgunclient/
 ---
 ## MailgunClient constructor
 
-Инициализирует новый экземпляр класса[`MailgunClient`](../../mailgunclient)
+Инициализирует новый экземпляр[`MailgunClient`](../../mailgunclient) класс
 
 ```csharp
 public MailgunClient(string domainName, string apiKey, 

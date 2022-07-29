@@ -1,14 +1,14 @@
 ---
 title: History
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип изменения  последнего внесенного в объект Task.
+description: Получает или задает тип изменения  которое в последний раз было внесено в объект Task.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mapi/mapitask/history/
 ---
 ## MapiTask.History property
 
-Получает или задает тип изменения , последнего внесенного в объект Task.
+Получает или задает тип изменения , которое в последний раз было внесено в объект Task.
 
 ```csharp
 public MapiTaskHistory History { get; set; }

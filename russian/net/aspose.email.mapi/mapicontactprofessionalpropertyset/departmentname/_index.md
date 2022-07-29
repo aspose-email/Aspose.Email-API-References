@@ -1,14 +1,14 @@
 ---
 title: DepartmentName
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает имя отдела которому принадлежит контакт
+description: Получает или задает имя отдела  которому принадлежит контакт
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapicontactprofessionalpropertyset/departmentname/
 ---
 ## MapiContactProfessionalPropertySet.DepartmentName property
 
-Получает или задает имя отдела которому принадлежит контакт
+Получает или задает имя отдела , которому принадлежит контакт
 
 ```csharp
 public string DepartmentName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SetCancellationToken
 second_title: Справочник по Aspose.Email для .NET API
-description: Установите токен отмены.
+description: Установить токен отмены.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/setcancellationtoken/
 ---
 ## EwsFetchItems.SetCancellationToken method
 
-Установите токен отмены.
+Установить токен отмены.
 
 ```csharp
 public EwsFetchItems SetCancellationToken(CancellationToken cancellationToken)

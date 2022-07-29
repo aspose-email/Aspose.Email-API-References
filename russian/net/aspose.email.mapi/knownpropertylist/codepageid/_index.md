@@ -1,14 +1,14 @@
 ---
 title: CodePageId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор клиентской кодовой страницы используемой для преобразования строки Unicode в двухбайтовую кодировку DBCS. ОбластьКонфигурация профиля Exchange Каноническое имяPidTagCodePageId Альтернативные именаPR_CODE_PAGE_ID ptagCodePageId
+description: Содержит идентификатор клиентской кодовой страницы используемой для преобразования строки Unicode в двухбайтовую кодировку DBCS. Область Конфигурация профиля Exchange Каноническое имя PidTagCodePageId Альтернативные имена PR_CODE_PAGE_ID ptagCodePageId
 type: docs
 weight: 2730
 url: /ru/net/aspose.email.mapi/knownpropertylist/codepageid/
 ---
 ## KnownPropertyList.CodePageId field
 
-Содержит идентификатор клиентской кодовой страницы, используемой для преобразования строки Unicode в двухбайтовую кодировку (DBCS). Область:Конфигурация профиля Exchange Каноническое имя:PidTagCodePageId Альтернативные имена:PR_CODE_PAGE_ID, ptagCodePageId
+Содержит идентификатор клиентской кодовой страницы, используемой для преобразования строки Unicode в двухбайтовую кодировку (DBCS). Область: Конфигурация профиля Exchange Каноническое имя: PidTagCodePageId Альтернативные имена: PR_CODE_PAGE_ID, ptagCodePageId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CodePageId;

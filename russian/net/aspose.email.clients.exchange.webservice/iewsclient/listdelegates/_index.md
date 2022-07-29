@@ -20,13 +20,13 @@ public ExchangeDelegateUserCollection ListDelegates(string mailbox)
 
 ### Возвращаемое значение
 
-A[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection)представляет делегированных пользователей.
+А[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection) представляющих делегированных пользователей.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

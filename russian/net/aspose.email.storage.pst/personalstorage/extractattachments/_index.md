@@ -20,7 +20,7 @@ public MapiAttachmentCollection ExtractAttachments(MessageInfo messageInfo)
 
 ### Возвращаемое значение
 
-Коллекция[`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection), представляющая коллекцию вложений.
+[`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection) который представляет собой набор вложений.
 
 ### Смотрите также
 
@@ -46,7 +46,7 @@ public MapiAttachmentCollection ExtractAttachments(string entryId)
 
 ### Возвращаемое значение
 
-Коллекция[`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection), представляющая коллекцию вложений.
+[`MapiAttachmentCollection`](../../../aspose.email.mapi/mapiattachmentcollection) который представляет собой набор вложений.
 
 ### Смотрите также
 

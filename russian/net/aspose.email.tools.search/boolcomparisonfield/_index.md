@@ -3,7 +3,7 @@ title: BoolComparisonField
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет логическое поле поиска.
 type: docs
-weight: 20610
+weight: 20660
 url: /ru/net/aspose.email.tools.search/boolcomparisonfield/
 ---
 ## BoolComparisonField class
@@ -18,7 +18,7 @@ public sealed class BoolComparisonField : ComparisonField
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.email.tools.search/boolcomparisonfield/equals#equals)(bool) | Указывает, что поле должно быть равно указанному значению. |
+| [Equals](../../aspose.email.tools.search/boolcomparisonfield/equals#equals)(bool) | Указывает, что поле должно быть равным указанному значению. |
 | [NotEquals](../../aspose.email.tools.search/boolcomparisonfield/notequals)(bool) | Указывает, что поле не должно быть равным указанному значению. |
 | [OrderBy](../../aspose.email.tools.search/comparisonfield/orderby)(bool) | Устанавливает значение, указывающее, использует ли клиент сортировку по возрастанию или по убыванию в поле. |
 

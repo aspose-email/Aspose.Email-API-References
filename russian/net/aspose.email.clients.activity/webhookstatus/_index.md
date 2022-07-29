@@ -1,14 +1,14 @@
 ---
 title: WebhookStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Статус вебхука
+description: Статус веб-перехватчика
 type: docs
 weight: 2830
 url: /ru/net/aspose.email.clients.activity/webhookstatus/
 ---
 ## WebhookStatus enumeration
 
-Статус вебхука
+Статус веб-перехватчика
 
 ```csharp
 public enum WebhookStatus
@@ -19,8 +19,8 @@ public enum WebhookStatus
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Не определено |
-| Disabled | `1` | Вебхук отключен |
-| Enabled | `2` | Webhook включен |
+| Disabled | `1` | Веб-перехватчик отключен |
+| Enabled | `2` | Веб-перехватчик включен |
 | Expired | `3` | Срок действия веб-перехватчика истек |
 
 ### Смотрите также

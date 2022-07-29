@@ -1,14 +1,14 @@
 ---
 title: RuleSequence
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение используемое для определения порядка в котором оцениваются и выполняются правила. ОбластьСвойства серверных правил Каноническое имяPidTagRuleSequence Альтернативные именаPR_RULE_SEQUENCE ptagRuleSequence
+description: Содержит значение используемое для определения порядка в котором оцениваются и выполняются правила. Область Свойства правил на стороне сервера Каноническое имя PidTagRuleSequence Альтернативные имена PR_RULE_SEQUENCE ptagRuleSequence
 type: docs
 weight: 16630
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulesequence/
 ---
 ## KnownPropertyList.RuleSequence field
 
-Содержит значение, используемое для определения порядка, в котором оцениваются и выполняются правила. Область:Свойства серверных правил Каноническое имя:PidTagRuleSequence Альтернативные имена:PR_RULE_SEQUENCE, ptagRuleSequence
+Содержит значение, используемое для определения порядка, в котором оцениваются и выполняются правила. Область: Свойства правил на стороне сервера Каноническое имя: PidTagRuleSequence Альтернативные имена: PR_RULE_SEQUENCE, ptagRuleSequence
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleSequence;

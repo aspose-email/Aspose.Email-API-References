@@ -1,14 +1,14 @@
 ---
 title: PostFolderEntries
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_POST_FOLDER_ENTRIES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_POST_FOLDER_ENTRIES
 type: docs
 weight: 14380
 url: /ru/net/aspose.email.mapi/knownpropertylist/postfolderentries/
 ---
 ## KnownPropertyList.PostFolderEntries field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_POST_FOLDER_ENTRIES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_POST_FOLDER_ENTRIES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PostFolderEntries;

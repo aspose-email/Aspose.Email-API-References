@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteStoreUid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит шестнадцатеричное строковое представление значения свойства PidTagStoreEntryId раздел 2.1018 в общей папке. ОбластьОбщий доступ Каноническое имяPidLidSharingRemoteStoreUid Альтернативные именаdispidSharingRemoteStoreUid
+description: Содержит шестнадцатеричное строковое представление значения свойства PidTagStoreEntryId раздел 2.1018 в общей папке. Область Sharing Каноническое имя PidLidSharingRemoteStoreUid Альтернативные имена dispidSharingRemoteStoreUid
 type: docs
 weight: 17850
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingremotestoreuid/
 ---
 ## KnownPropertyList.SharingRemoteStoreUid field
 
-Содержит шестнадцатеричное строковое представление значения свойства PidTagStoreEntryId (раздел 2.1018) в общей папке. Область:Общий доступ Каноническое имя:PidLidSharingRemoteStoreUid Альтернативные имена:dispidSharingRemoteStoreUid
+Содержит шестнадцатеричное строковое представление значения свойства PidTagStoreEntryId (раздел 2.1018) в общей папке. Область: Sharing Каноническое имя: PidLidSharingRemoteStoreUid Альтернативные имена: dispidSharingRemoteStoreUid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteStoreUid;

@@ -1,14 +1,14 @@
 ---
 title: SentmailEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SENTMAIL_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SENTMAIL_ENTRYID
 type: docs
 weight: 17200
 url: /ru/net/aspose.email.mapi/knownpropertylist/sentmailentryid/
 ---
 ## KnownPropertyList.SentmailEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SENTMAIL_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SENTMAIL_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SentmailEntryid;

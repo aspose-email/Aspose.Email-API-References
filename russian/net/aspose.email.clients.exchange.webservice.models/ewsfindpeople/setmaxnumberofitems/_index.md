@@ -1,14 +1,14 @@
 ---
 title: SetMaxNumberOfItems
 second_title: Справочник по Aspose.Email для .NET API
-description: Устанавливает максимальное количество предметов для поиска.
+description: Устанавливает максимальное количество элементов для поиска.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/setmaxnumberofitems/
 ---
 ## EwsFindPeople.SetMaxNumberOfItems method
 
-Устанавливает максимальное количество предметов для поиска.
+Устанавливает максимальное количество элементов для поиска.
 
 ```csharp
 public EwsFindPeople SetMaxNumberOfItems(int maxNumberOfItems)
@@ -16,7 +16,7 @@ public EwsFindPeople SetMaxNumberOfItems(int maxNumberOfItems)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| maxNumberOfItems | Int32 | Максимальное количество элементов. |
+| maxNumberOfItems | Int32 | Максимальное количество предметов. |
 
 ### Смотрите также
 

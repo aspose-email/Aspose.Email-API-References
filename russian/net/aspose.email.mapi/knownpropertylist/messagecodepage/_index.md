@@ -1,14 +1,14 @@
 ---
 title: MessageCodepage
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает кодовую страницу используемую для кодирования строковых свойств отличных от Unicode в этом объекте Message. ОбластьОбщие Каноническое имяPidTagMessageCodepage Альтернативные именаPR_MESSAGE_CODEPAGE
+description: Указывает кодовую страницу используемую для кодирования строковых свойств отличных от Unicode в этом объекте Message. Область Common Каноническое имя PidTagMessageCodepage Альтернативные имена PR_MESSAGE_CODEPAGE
 type: docs
 weight: 12480
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagecodepage/
 ---
 ## KnownPropertyList.MessageCodepage field
 
-Указывает кодовую страницу, используемую для кодирования строковых свойств, отличных от Unicode, в этом объекте Message. Область:Общие Каноническое имя:PidTagMessageCodepage Альтернативные имена:PR_MESSAGE_CODEPAGE
+Указывает кодовую страницу, используемую для кодирования строковых свойств, отличных от Unicode, в этом объекте Message. Область: Common Каноническое имя: PidTagMessageCodepage Альтернативные имена: PR_MESSAGE_CODEPAGE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageCodepage;

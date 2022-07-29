@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Справочник по Aspose.Email для .NET API
-description: Коллекция адресов электронной почты которые были в строке Кому сообщения. ОбязательноНет
+description: Набор адресов электронной почты которые были в строке Кому сообщения. Обязательно No
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.activity/exchangemetadata/to/
 ---
 ## ExchangeMetadata.To property
 
-Коллекция адресов электронной почты, которые были в строке "Кому" сообщения. Обязательно:Нет
+Набор адресов электронной почты, которые были в строке «Кому» сообщения. Обязательно: No
 
 ```csharp
 public string[] To { get; set; }

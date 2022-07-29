@@ -1,14 +1,14 @@
 ---
 title: SupportUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: URL для связи со службой поддержки
+description: URL-адрес для связи со службой поддержки
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.imap/imapidentificationinfo/supporturl/
 ---
 ## ImapIdentificationInfo.SupportUrl property
 
-URL для связи со службой поддержки
+URL-адрес для связи со службой поддержки
 
 ```csharp
 public string SupportUrl { get; set; }

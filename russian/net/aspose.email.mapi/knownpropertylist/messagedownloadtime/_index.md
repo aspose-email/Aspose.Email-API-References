@@ -1,14 +1,14 @@
 ---
 title: MessageDownloadTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_MESSAGE_DOWNLOAD_TIME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_MESSAGE_DOWNLOAD_TIME
 type: docs
 weight: 12510
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagedownloadtime/
 ---
 ## KnownPropertyList.MessageDownloadTime field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_MESSAGE_DOWNLOAD_TIME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_MESSAGE_DOWNLOAD_TIME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageDownloadTime;

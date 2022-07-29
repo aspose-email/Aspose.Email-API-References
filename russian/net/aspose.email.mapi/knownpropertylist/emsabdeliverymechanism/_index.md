@@ -1,14 +1,14 @@
 ---
 title: EmsAbDeliveryMechanism
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DELIVERY_MECHANISM
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DELIVERY_MECHANISM
 type: docs
 weight: 5400
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdeliverymechanism/
 ---
 ## KnownPropertyList.EmsAbDeliveryMechanism field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DELIVERY_MECHANISM
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DELIVERY_MECHANISM
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDeliveryMechanism;

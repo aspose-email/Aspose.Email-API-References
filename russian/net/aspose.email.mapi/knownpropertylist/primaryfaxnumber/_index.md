@@ -1,14 +1,14 @@
 ---
 title: PrimaryFaxNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер телефона основного факсимильного аппарата почтового пользователя. ОбластьMapiMailUser Каноническое имяPidTagPrimaryFaxNumber Альтернативные именаPR_PRIMARY_FAX_NUMBER PR_PRIMARY_FAX_NUMBER_A
+description: Содержит номер телефона основного факсимильного аппарата почтового пользователя. Область MapiMailUser Каноническое имя PidTagPrimaryFaxNumber Альтернативные имена PR_PRIMARY_FAX_NUMBER PR_PRIMARY_FAX_NUMBER_A
 type: docs
 weight: 14580
 url: /ru/net/aspose.email.mapi/knownpropertylist/primaryfaxnumber/
 ---
 ## KnownPropertyList.PrimaryFaxNumber field
 
-Содержит номер телефона основного факсимильного аппарата почтового пользователя. Область:MapiMailUser Каноническое имя:PidTagPrimaryFaxNumber Альтернативные имена:PR_PRIMARY_FAX_NUMBER, PR_PRIMARY_FAX_NUMBER_A,
+Содержит номер телефона основного факсимильного аппарата почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagPrimaryFaxNumber Альтернативные имена: PR_PRIMARY_FAX_NUMBER, PR_PRIMARY_FAX_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PrimaryFaxNumber;

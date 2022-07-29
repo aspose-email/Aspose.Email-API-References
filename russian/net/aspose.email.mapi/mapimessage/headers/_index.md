@@ -1,14 +1,14 @@
 ---
 title: Headers
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает заголовки транспортных сообщений
+description: Получает заголовки транспортного сообщения
 type: docs
 weight: 160
 url: /ru/net/aspose.email.mapi/mapimessage/headers/
 ---
 ## MapiMessage.Headers property
 
-Получает заголовки транспортных сообщений
+Получает заголовки транспортного сообщения
 
 ```csharp
 public HeaderCollection Headers { get; set; }

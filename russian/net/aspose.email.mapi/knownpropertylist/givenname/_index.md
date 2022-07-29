@@ -1,14 +1,14 @@
 ---
 title: GivenName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagGivenName Альтернативные именаPR_GIVEN_NAME PR_GIVEN_NAME_A PR_GIVEN_NAME_W
+description: Содержит имя пользователя почты. Область MapiMailUser Каноническое имя PidTagGivenName Альтернативные имена PR_GIVEN_NAME PR_GIVEN_NAME_A PR_GIVEN_NAME_W
 type: docs
 weight: 10780
 url: /ru/net/aspose.email.mapi/knownpropertylist/givenname/
 ---
 ## KnownPropertyList.GivenName field
 
-Содержит имя пользователя почты. Область:MapiMailUser Каноническое имя:PidTagGivenName Альтернативные имена:PR_GIVEN_NAME, PR_GIVEN_NAME_A, PR_GIVEN_NAME_W,
+Содержит имя пользователя почты. Область: MapiMailUser Каноническое имя: PidTagGivenName Альтернативные имена: PR_GIVEN_NAME, PR_GIVEN_NAME_A, PR_GIVEN_NAME_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GivenName;

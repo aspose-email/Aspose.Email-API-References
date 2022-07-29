@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает комментарии к файлу присоединенному к объекту Document. ОбластьОбщие Каноническое имяPidNameComments Альтернативные именаurnschemas-microsoft-comofficeofficeComments
+description: Указывает комментарии файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameComments Альтернативные имена urnschemas-microsoft-comofficeofficeComments
 type: docs
 weight: 2770
 url: /ru/net/aspose.email.mapi/knownpropertylist/comments/
 ---
 ## KnownPropertyList.Comments field
 
-Задает комментарии к файлу, присоединенному к объекту Document. Область:Общие Каноническое имя:PidNameComments Альтернативные имена:urn:schemas-microsoft-com:office:office#Comments
+Указывает комментарии файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameComments Альтернативные имена: urn:schemas-microsoft-com:office:office#Comments
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Comments;

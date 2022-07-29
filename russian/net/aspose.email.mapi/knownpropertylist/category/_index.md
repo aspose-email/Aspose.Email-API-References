@@ -1,14 +1,14 @@
 ---
 title: Category
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает категорию файла прикрепленного к объекту документа. ОбластьОбщие Каноническое имяPidNameCategory Альтернативные именаurnschemas-microsoft-comofficeofficeCategory
+description: Указывает категорию файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameCategory Альтернативные имена urnschemas-microsoft-comofficeofficeCategory
 type: docs
 weight: 2520
 url: /ru/net/aspose.email.mapi/knownpropertylist/category/
 ---
 ## KnownPropertyList.Category field
 
-Указывает категорию файла, прикрепленного к объекту документа. Область:Общие Каноническое имя:PidNameCategory Альтернативные имена:urn:schemas-microsoft-com:office:office#Category
+Указывает категорию файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameCategory Альтернативные имена: urn:schemas-microsoft-com:office:office#Category
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Category;

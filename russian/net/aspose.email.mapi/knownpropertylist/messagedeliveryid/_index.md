@@ -1,14 +1,14 @@
 ---
 title: MessageDeliveryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_MESSAGE_DELIVERY_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_MESSAGE_DELIVERY_ID
 type: docs
 weight: 12490
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagedeliveryid/
 ---
 ## KnownPropertyList.MessageDeliveryId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_MESSAGE_DELIVERY_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_MESSAGE_DELIVERY_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageDeliveryId;

@@ -1,14 +1,14 @@
 ---
 title: MoveSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о поддержке расширения MOVE Подробнееhttps//tools.ietf.org/html/rfc6851
+description: Получает информацию о том поддерживается ли расширение MOVE Подробнее https//tools.ietf.org/html/rfc6851
 type: docs
 weight: 190
 url: /ru/net/aspose.email.clients.imap/imapclient/movesupported/
 ---
 ## ImapClient.MoveSupported property
 
-Получает информацию о поддержке расширения MOVE Подробнее:https://tools.ietf.org/html/rfc6851
+Получает информацию о том, поддерживается ли расширение MOVE Подробнее: https://tools.ietf.org/html/rfc6851
 
 ```csharp
 public bool MoveSupported { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagDisplayName раздел 2.667 в общей папке. ОбластьОбщий доступ Каноническое имяPidLidSharingRemoteName Альтернативные именаdispidSharingRemoteName
+description: Содержит значение свойства PidTagDisplayName раздел 2.667 в общей папке. Область Sharing Каноническое имя PidLidSharingRemoteName Альтернативные имена dispidSharingRemoteName
 type: docs
 weight: 17820
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingremotename/
 ---
 ## KnownPropertyList.SharingRemoteName field
 
-Содержит значение свойства PidTagDisplayName (раздел 2.667) в общей папке. Область:Общий доступ Каноническое имя:PidLidSharingRemoteName Альтернативные имена:dispidSharingRemoteName
+Содержит значение свойства PidTagDisplayName (раздел 2.667) в общей папке. Область: Sharing Каноническое имя: PidLidSharingRemoteName Альтернативные имена: dispidSharingRemoteName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteName;

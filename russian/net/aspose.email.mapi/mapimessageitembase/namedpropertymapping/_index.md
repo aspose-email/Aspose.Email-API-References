@@ -16,7 +16,7 @@ public MapiNamedPropertyMappingStorage NamedPropertyMapping { get; }
 
 ### Стоимость имущества
 
-Сопоставление именованного свойства.
+Отображение именованного свойства.
 
 ### Смотрите также
 

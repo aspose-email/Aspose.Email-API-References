@@ -1,14 +1,14 @@
 ---
 title: AsString
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает текущийComparisonFieldaspose.email.tools.search/comparisonfieldкакStringComparisonFieldaspose.email.tools.search/stringcomparisonfield
+description: Возвращает текущийComparisonFieldaspose.email.tools.search/comparisonfield в качествеStringComparisonFieldaspose.email.tools.search/stringcomparisonfield
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange/comparisonfieldadapter/asstring/
 ---
 ## ComparisonFieldAdapter.AsString property
 
-Возвращает текущий[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield)как[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield)
+Возвращает текущий[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield) в качестве[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield)
 
 ```csharp
 public StringComparisonField AsString { get; }

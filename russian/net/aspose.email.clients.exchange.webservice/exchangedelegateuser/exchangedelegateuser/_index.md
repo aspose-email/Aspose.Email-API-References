@@ -1,14 +1,14 @@
 ---
 title: ExchangeDelegateUser
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeDelegateUseraspose.email.clients.exchange.webservice/exchangedelegateuser
+description: Инициализирует новый экземплярExchangeDelegateUseraspose.email.clients.exchange.webservice/exchangedelegateuser класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangedelegateuser/exchangedelegateuser/
 ---
 ## ExchangeDelegateUser() {#constructor}
 
-Инициализирует новый экземпляр класса[`ExchangeDelegateUser`](../../exchangedelegateuser)
+Инициализирует новый экземпляр[`ExchangeDelegateUser`](../../exchangedelegateuser) класс
 
 ```csharp
 public ExchangeDelegateUser()
@@ -24,7 +24,7 @@ public ExchangeDelegateUser()
 
 ## ExchangeDelegateUser(string, ExchangeDelegateFolderPermissionLevel) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ExchangeDelegateUser`](../../exchangedelegateuser)для указанного пользователя и устанавливает указанный уровень разрешений для всех папок
+Инициализирует новый экземпляр[`ExchangeDelegateUser`](../../exchangedelegateuser) класс для указанного пользователя и устанавливает указанный уровень разрешений для всех папок
 
 ```csharp
 public ExchangeDelegateUser(string primarySmtpAddress, 
@@ -34,7 +34,7 @@ public ExchangeDelegateUser(string primarySmtpAddress,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | primarySmtpAddress | String | Основной smtp-адрес пользователя |
-| permissionLevel | ExchangeDelegateFolderPermissionLevel | Уровень разрешений, предоставляемый пользователю для всех папок |
+| permissionLevel | ExchangeDelegateFolderPermissionLevel | Уровень разрешений, предоставляемый пользователю для всех папок. |
 
 ### Смотрите также
 

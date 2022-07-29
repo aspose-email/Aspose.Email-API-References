@@ -1,14 +1,14 @@
 ---
 title: ReportDestinationEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REPORT_DESTINATION_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REPORT_DESTINATION_ENTRYID
 type: docs
 weight: 15980
 url: /ru/net/aspose.email.mapi/knownpropertylist/reportdestinationentryid/
 ---
 ## KnownPropertyList.ReportDestinationEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REPORT_DESTINATION_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REPORT_DESTINATION_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportDestinationEntryid;

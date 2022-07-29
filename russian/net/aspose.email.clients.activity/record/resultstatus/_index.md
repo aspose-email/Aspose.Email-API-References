@@ -1,14 +1,14 @@
 ---
 title: ResultStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение указывающее было ли действие указанное в свойстве Operation успешным или нет. ОбязательноНет
+description: Получает или задает значение указывающее было ли действие указанное в свойстве Operation успешным или нет. Обязательно No
 type: docs
 weight: 130
 url: /ru/net/aspose.email.clients.activity/record/resultstatus/
 ---
 ## Record.ResultStatus property
 
-Получает или задает значение, указывающее, было ли действие (указанное в свойстве Operation) успешным или нет. Обязательно:Нет
+Получает или задает значение, указывающее, было ли действие (указанное в свойстве Operation) успешным или нет. Обязательно: No
 
 ```csharp
 public ResultStatus ResultStatus { get; set; }

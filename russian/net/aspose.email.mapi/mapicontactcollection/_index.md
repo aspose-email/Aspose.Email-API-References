@@ -3,7 +3,7 @@ title: MapiContactCollection
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет коллекциюMapiContact./mapicontact
 type: docs
-weight: 18170
+weight: 18200
 url: /ru/net/aspose.email.mapi/mapicontactcollection/
 ---
 ## MapiContactCollection class
@@ -18,14 +18,14 @@ public sealed class MapiContactCollection : List<MapiContact>
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactCollection](mapicontactcollection#constructor)() | Инициализирует новый экземпляр класса[`MapiContactCollection`](../mapicontactcollection). |
-| [MapiContactCollection](mapicontactcollection#constructor_1)(IEnumerable&lt;MapiContact&gt;) | Инициализирует новый экземпляр класса[`MapiContactCollection`](../mapicontactcollection). |
+| [MapiContactCollection](mapicontactcollection#constructor)() | Инициализирует новый экземпляр[`MapiContactCollection`](../mapicontactcollection) класс. |
+| [MapiContactCollection](mapicontactcollection#constructor_1)(IEnumerable&lt;MapiContact&gt;) | Инициализирует новый экземпляр[`MapiContactCollection`](../mapicontactcollection) класс. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [implicit operator](../../aspose.email.mapi/mapicontactcollection/op_implicit) | Преобразует массив в коллекцию |
+| [implicit operator](../../aspose.email.mapi/mapicontactcollection/op_implicit) | Преобразует массив в collection |
 
 ### Смотрите также
 

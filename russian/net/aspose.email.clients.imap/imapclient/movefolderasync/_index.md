@@ -17,7 +17,7 @@ public Task MoveFolderAsync(string newParentFolder, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newParentFolder | String | Новое место для перемещенной папки |
-| folderName | String | Папка для move |
+| folderName | String | Папка для перемещения |
 
 ### Возвращаемое значение
 
@@ -41,8 +41,8 @@ public Task MoveFolderAsync(IConnection connection, string newParentFolder, stri
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| newParentFolder | String | Новое место для перемещенная папка |
+| connection | IConnection | Подключение к серверу |
+| newParentFolder | String | Новое место для перемещенной папки |
 | folderName | String | Папка для перемещения |
 
 ### Возвращаемое значение
@@ -69,7 +69,7 @@ public Task MoveFolderAsync(string newParentFolder, string folderName, Cancellat
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newParentFolder | String | Новое место для перемещенной папки |
-| folderName | String | Папка для move |
+| folderName | String | Папка для перемещения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -95,8 +95,8 @@ public Task MoveFolderAsync(IConnection connection, string newParentFolder, stri
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| newParentFolder | String | Новое место для перемещаемая папка |
+| connection | IConnection | Подключение к серверу |
+| newParentFolder | String | Новое место для перемещенной папки |
 | folderName | String | Папка для перемещения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

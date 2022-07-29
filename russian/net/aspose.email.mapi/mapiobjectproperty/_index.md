@@ -3,7 +3,7 @@ title: MapiObjectProperty
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет настраиваемый объект включенный в документы сообщений Outlook.
 type: docs
-weight: 18510
+weight: 18540
 url: /ru/net/aspose.email.mapi/mapiobjectproperty/
 ---
 ## MapiObjectProperty class
@@ -29,8 +29,8 @@ public class MapiObjectProperty : MapiProperty
 | [MVEntries](../../aspose.email.mapi/mapiproperty/mventries) { get; } | Получает список записей MV. |
 | virtual [Name](../../aspose.email.mapi/mapiproperty/name) { get; } | Получает имя. |
 | [OleDocumentFormat](../../aspose.email.mapi/mapiobjectproperty/oledocumentformat) { get; } | Получает тип формата Ole. |
-| [Properties](../../aspose.email.mapi/mapiobjectproperty/properties) { get; } | Получает набор свойств MAPI. |
-| virtual [PropertyTagName](../../aspose.email.mapi/mapiproperty/propertytagname) { get; } | Получает PropertyName. |
+| [Properties](../../aspose.email.mapi/mapiobjectproperty/properties) { get; } | Получает коллекцию свойств MAPI. |
+| virtual [PropertyTagName](../../aspose.email.mapi/mapiproperty/propertytagname) { get; } | Получает имя свойства. |
 | virtual [Tag](../../aspose.email.mapi/mapiproperty/tag) { get; } | Получает тег. |
 
 ## Методы
@@ -38,20 +38,20 @@ public class MapiObjectProperty : MapiProperty
 | Имя | Описание |
 | --- | --- |
 | virtual [GetBoolean](../../aspose.email.mapi/mapiproperty/getboolean)() | Получает первые байты двоичных данных как логическое значение. |
-| virtual [GetCurrency](../../aspose.email.mapi/mapiproperty/getcurrency)() | Получает валюту в виде строки, используя указанную кодовую страницу. |
+| virtual [GetCurrency](../../aspose.email.mapi/mapiproperty/getcurrency)() | Получает валюту в виде строки с использованием указанной кодовой страницы. |
 | virtual [GetDateTime](../../aspose.email.mapi/mapiproperty/getdatetime)() | Получает первые байты двоичных данных в виде даты и времени. |
-| virtual [GetDouble](../../aspose.email.mapi/mapiproperty/getdouble)() | Получает байты двоичных данных как двойные. |
-| virtual [GetFloat](../../aspose.email.mapi/mapiproperty/getfloat)() | Получает байты двоичных данных как число с плавающей запятой. |
-| virtual [GetFloatingDate](../../aspose.email.mapi/mapiproperty/getfloatingdate)() | Получает байты двоичных данных в формате DateTime. |
+| virtual [GetDouble](../../aspose.email.mapi/mapiproperty/getdouble)() | Получает байты двоичных данных как double. |
+| virtual [GetFloat](../../aspose.email.mapi/mapiproperty/getfloat)() | Получает байты двоичных данных в виде числа с плавающей запятой. |
+| virtual [GetFloatingDate](../../aspose.email.mapi/mapiproperty/getfloatingdate)() | Получает байты двоичных данных как DateTime. |
 | virtual [GetGuid](../../aspose.email.mapi/mapiproperty/getguid)() | Получает байты двоичных данных в виде Guid. |
 | virtual [GetInt32](../../aspose.email.mapi/mapiproperty/getint32)() | Получает первые 4 байта двоичных данных как int32. |
-| virtual [GetLong](../../aspose.email.mapi/mapiproperty/getlong)() | Получает первые 8 байтов двоичных данных заданной длины. |
+| virtual [GetLong](../../aspose.email.mapi/mapiproperty/getlong)() | Получает первые 8 байтов двоичных данных такой длины. |
 | virtual [GetShort](../../aspose.email.mapi/mapiproperty/getshort)() | Получает первые 2 байта двоичных данных как короткие. |
 | virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)() | Получает двоичные данные в виде строки. |
 | virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)(int) | Получает двоичные данные в виде строки с использованием указанной кодовой страницы. |
-| [GetValue](../../aspose.email.mapi/mapiproperty/getvalue)() | Получает значение как объект |
+| [GetValue](../../aspose.email.mapi/mapiproperty/getvalue)() | Получает значение как object |
 | [ToMapiMessage](../../aspose.email.mapi/mapiobjectproperty/tomapimessage)() | Создает MapiMessage из данных объекта. |
-| override [ToString](../../aspose.email.mapi/mapiproperty/tostring)() | ВозвращаетString, который представляет текущийObject. |
+| override [ToString](../../aspose.email.mapi/mapiproperty/tostring)() | ВозвращаетString который представляет текущийObject . |
 
 ### Смотрите также
 

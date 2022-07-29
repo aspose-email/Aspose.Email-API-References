@@ -1,14 +1,14 @@
 ---
 title: HeaderCanonicalization
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает канонизацию заголовка c.
+description: Получает или задает канонизацию заголовка c.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.dkim/dkimsignatureinfo/headercanonicalization/
 ---
 ## DKIMSignatureInfo.HeaderCanonicalization property
 
-Получает или устанавливает канонизацию заголовка (c=).
+Получает или задает канонизацию заголовка (c=).
 
 ```csharp
 public CanonicalizationType HeaderCanonicalization { get; set; }

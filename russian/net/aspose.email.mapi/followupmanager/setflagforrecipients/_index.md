@@ -16,15 +16,15 @@ public static void SetFlagForRecipients(MapiMessage message, string flagRequest)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)в котором будет установлен флаг . |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором будет установлен флаг. |
 | flagRequest | String | Строка, указывающая запрошенное действие для получателей сообщения электронной почты. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
-| ArgumentException | Если*flagRequest*имеет значение null или пусто. |
+| ArgumentNullException | Если*message* нулевой. |
+| ArgumentException | Если*flagRequest* является нулевым или пустым. |
 | InvalidOperationException | Если сообщение не установлено в режиме черновика. |
 
 ### Смотрите также
@@ -47,16 +47,16 @@ public static void SetFlagForRecipients(MapiMessage message, string flagRequest,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)в котором будет установлен флаг . |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором будет установлен флаг. |
 | flagRequest | String | Строка, указывающая запрошенное действие для получателей сообщения электронной почты. |
-| reminderTime | DateTime | Дата, указывающая дату и время когда должно произойти напоминание. |
+| reminderTime | DateTime | Дата, указывающая дату и время , когда должно появиться напоминание. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
-| ArgumentException | Если*flagRequest*имеет значение null или пусто. |
+| ArgumentNullException | Если*message* нулевой. |
+| ArgumentException | Если*flagRequest* является нулевым или пустым. |
 | InvalidOperationException | Если сообщение не установлено в режиме черновика. |
 
 ### Смотрите также

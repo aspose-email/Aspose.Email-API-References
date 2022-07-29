@@ -1,14 +1,14 @@
 ---
 title: NullAppender
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет ничего не делающий присоединитель.
+description: Представляет приложение-дополнитель.
 type: docs
-weight: 20520
+weight: 20570
 url: /ru/net/aspose.email.tools.logging/nullappender/
 ---
 ## NullAppender class
 
-Представляет ничего не делающий присоединитель.
+Представляет приложение-дополнитель.
 
 ```csharp
 public sealed class NullAppender : Appender
@@ -24,7 +24,7 @@ public sealed class NullAppender : Appender
 
 | Имя | Описание |
 | --- | --- |
-| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Получает или задает средство форматирования. |
+| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Получает или задает модуль форматирования. |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: SIPResponse
 second_title: Справочник по Aspose.Email для .NET API
-description: Ответ SIP
+description: SIP-ответ
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange.webservice/callinformation/sipresponse/
 ---
 ## CallInformation.SIPResponse property
 
-Ответ SIP
+SIP-ответ
 
 ```csharp
 public string SIPResponse { get; }

@@ -1,14 +1,14 @@
 ---
 title: CreationTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время в формате UTC когда был создан объект. ОбластьСвойства времени сообщения Каноническое имяPidTagCreationTime Альтернативные именаPR_CREATION_TIME ptagCreationTime DAVcreationdate
+description: Содержит время создания объекта в формате UTC. Область Свойства времени сообщения Каноническое имя PidTagCreationTime Альтернативные имена PR_CREATION_TIME ptagCreationTime DAVcreationdate
 type: docs
 weight: 3540
 url: /ru/net/aspose.email.mapi/knownpropertylist/creationtime/
 ---
 ## KnownPropertyList.CreationTime field
 
-Содержит время в формате UTC, когда был создан объект. Область:Свойства времени сообщения Каноническое имя:PidTagCreationTime Альтернативные имена:PR_CREATION_TIME, ptagCreationTime, DAV:creationdate
+Содержит время создания объекта в формате UTC. Область: Свойства времени сообщения Каноническое имя: PidTagCreationTime Альтернативные имена: PR_CREATION_TIME, ptagCreationTime, DAV:creationdate
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CreationTime;

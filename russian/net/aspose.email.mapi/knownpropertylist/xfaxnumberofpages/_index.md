@@ -1,14 +1,14 @@
 ---
 title: XFaxNumberOfPages
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает сколько отдельных страниц содержится во вложении представляющем факсимильное сообщение. ОбластьЕдиная система обмена сообщениями Каноническое имяPidNameXFaxNumberOfPages Альтернативные имена
+description: Указывает сколько отдельных страниц содержится во вложении представляющем факсимильное сообщение. Область Единая система обмена сообщениями Каноническое имя PidNameXFaxNumberOfPages Альтернативные имена
 type: docs
 weight: 19670
 url: /ru/net/aspose.email.mapi/knownpropertylist/xfaxnumberofpages/
 ---
 ## KnownPropertyList.XFaxNumberOfPages field
 
-Указывает, сколько отдельных страниц содержится во вложении, представляющем факсимильное сообщение. Область:Единая система обмена сообщениями Каноническое имя:PidNameXFaxNumberOfPages Альтернативные имена:
+Указывает, сколько отдельных страниц содержится во вложении, представляющем факсимильное сообщение. Область: Единая система обмена сообщениями Каноническое имя: PidNameXFaxNumberOfPages Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XFaxNumberOfPages;

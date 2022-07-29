@@ -16,12 +16,12 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)который представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет собой сообщение электронной почты
 
 ### Смотрите также
 
@@ -43,12 +43,12 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)который представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет собой сообщение электронной почты
 
 ### Смотрите также
 
@@ -74,7 +74,7 @@ public MailMessage FetchMessage(string uniqueId)
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)который представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет собой сообщение электронной почты
 
 ### Смотрите также
 
@@ -99,7 +99,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)который представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет собой сообщение электронной почты
 
 ### Смотрите также
 

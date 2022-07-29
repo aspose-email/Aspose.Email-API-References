@@ -1,14 +1,14 @@
 ---
 title: DesignInProgress
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DESIGN_IN_PROGRESS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DESIGN_IN_PROGRESS
 type: docs
 weight: 4020
 url: /ru/net/aspose.email.mapi/knownpropertylist/designinprogress/
 ---
 ## KnownPropertyList.DesignInProgress field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DESIGN_IN_PROGRESS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DESIGN_IN_PROGRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DesignInProgress;

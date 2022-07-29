@@ -1,14 +1,14 @@
 ---
 title: ContactLinkGlobalAddressListLinkId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает GUID контакта GAL с которым связан повторяющийся контакт. ОбластьСвойства контакта Каноническое имяPidLidContactLinkGlobalAddressListLinkId Альтернативные именаdispidContactLinkGALLinkID
+description: Указывает GUID контакта GAL с которым связан повторяющийся контакт. Область Свойства контакта Каноническое имя PidLidContactLinkGlobalAddressListLinkId Альтернативные имена dispidContactLinkGALLLinkID
 type: docs
 weight: 2980
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactlinkglobaladdresslistlinkid/
 ---
 ## KnownPropertyList.ContactLinkGlobalAddressListLinkId field
 
-Указывает GUID контакта GAL, с которым связан повторяющийся контакт. Область:Свойства контакта Каноническое имя:PidLidContactLinkGlobalAddressListLinkId Альтернативные имена:dispidContactLinkGALLinkID
+Указывает GUID контакта GAL, с которым связан повторяющийся контакт. Область: Свойства контакта Каноническое имя: PidLidContactLinkGlobalAddressListLinkId Альтернативные имена: dispidContactLinkGALLLinkID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkGlobalAddressListLinkId;

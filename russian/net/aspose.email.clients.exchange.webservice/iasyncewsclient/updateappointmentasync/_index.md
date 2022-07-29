@@ -17,9 +17,9 @@ public Task UpdateAppointmentAsync(Appointment appointment, string folderUri,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | Appointment | Календарная встреча. |
+| appointment | Appointment | Календарное назначение. |
 | folderUri | String | URI родительской папки встреч. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Смотрите также
 

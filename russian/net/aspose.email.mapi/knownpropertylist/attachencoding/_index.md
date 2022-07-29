@@ -1,14 +1,14 @@
 ---
 title: AttachEncoding
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию о кодировании объекта вложения. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachEncoding Альтернативные именаPR_ATTACH_ENCODING
+description: Содержит информацию о кодировании объекта вложения. Область Свойства вложения сообщения Каноническое имя PidTagAttachEncoding Альтернативные имена PR_ATTACH_ENCODING
 type: docs
 weight: 1570
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachencoding/
 ---
 ## KnownPropertyList.AttachEncoding field
 
-Содержит информацию о кодировании объекта вложения. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachEncoding Альтернативные имена:PR_ATTACH_ENCODING
+Содержит информацию о кодировании объекта вложения. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachEncoding Альтернативные имена: PR_ATTACH_ENCODING
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachEncoding;

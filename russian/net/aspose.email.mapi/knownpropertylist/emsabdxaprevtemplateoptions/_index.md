@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaPrevTemplateOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_PREV_TEMPLATE_OPTIONS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_PREV_TEMPLATE_OPTIONS
 type: docs
 weight: 5880
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxaprevtemplateoptions/
 ---
 ## KnownPropertyList.EmsAbDxaPrevTemplateOptions field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_PREV_TEMPLATE_OPTIONS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_PREV_TEMPLATE_OPTIONS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaPrevTemplateOptions;

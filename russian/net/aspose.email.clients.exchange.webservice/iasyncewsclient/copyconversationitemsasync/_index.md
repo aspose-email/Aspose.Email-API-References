@@ -17,17 +17,17 @@ public Task CopyConversationItemsAsync(string conversationId, string destination
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| conversationId | String | Идентификатор беседы для копирования |
+| conversationId | String | ID разговора, который нужно скопировать |
 | destinationFolderId | String | Идентификатор папки, в которую копируются элементы |
-| contextFolderId | String | Идентификатор папки, в которой находятся элементы беседы. Примечание. Если установлено значение null (или empty), все элементы беседы будут скопированы |
+| contextFolderId | String | Идентификатор папки, в которой находятся элементы беседы. Примечание. Если установлено значение null (или пусто), все элементы беседы будут скопированы |
 | cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId*is` null` или` пусто` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *conversationId* является`нулевой`или же`пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *destinationFolderId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

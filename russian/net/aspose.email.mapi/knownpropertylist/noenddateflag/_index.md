@@ -1,14 +1,14 @@
 ---
 title: NoEndDateFlag
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имеет ли шаблон повторения конечную дату. ОбластьКалендарь Каноническое имяPidLidNoEndDateFlag Альтернативные именаhttp//schemas.microsoft.com/mapi/fnoenddate
+description: Указывает имеет ли шаблон повторения дату окончания. Область Calendar Каноническое имя PidLidNoEndDateFlag Альтернативные имена http//schemas.microsoft.com/mapi/fnoenddate
 type: docs
 weight: 12940
 url: /ru/net/aspose.email.mapi/knownpropertylist/noenddateflag/
 ---
 ## KnownPropertyList.NoEndDateFlag field
 
-Указывает, имеет ли шаблон повторения конечную дату. Область:Календарь Каноническое имя:PidLidNoEndDateFlag Альтернативные имена:http://schemas.microsoft.com/mapi/fnoenddate
+Указывает, имеет ли шаблон повторения дату окончания. Область: Calendar Каноническое имя: PidLidNoEndDateFlag Альтернативные имена: http://schemas.microsoft.com/mapi/fnoenddate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoEndDateFlag;

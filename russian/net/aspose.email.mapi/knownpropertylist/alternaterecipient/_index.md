@@ -1,14 +1,14 @@
 ---
 title: AlternateRecipient
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ALTERNATE_RECIPIENT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ALTERNATE_RECIPIENT
 type: docs
 weight: 1060
 url: /ru/net/aspose.email.mapi/knownpropertylist/alternaterecipient/
 ---
 ## KnownPropertyList.AlternateRecipient field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ALTERNATE_RECIPIENT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ALTERNATE_RECIPIENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AlternateRecipient;

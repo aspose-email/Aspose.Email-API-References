@@ -1,14 +1,14 @@
 ---
 title: EndType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип окончания повторения.
+description: Получает или задает тип окончания для повторения.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapicalendarrecurrencepattern/endtype/
 ---
 ## MapiCalendarRecurrencePattern.EndType property
 
-Получает или задает тип окончания повторения.
+Получает или задает тип окончания для повторения.
 
 ```csharp
 public MapiCalendarRecurrenceEndType EndType { get; set; }

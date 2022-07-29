@@ -1,14 +1,14 @@
 ---
 title: Profession
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название направления деятельности почтового пользователя. ОбластьMapiMailUser Каноническое имяPidTagProfession Альтернативные именаPR_PROFESSION PR_PROFESSION_A PR_PROFESSION_W
+description: Содержит название сферы деятельности почтового пользователя. Область MapiMailUser Каноническое имя PidTagProfession Альтернативные имена PR_PROFESSION PR_PROFESSION_A PR_PROFESSION_W
 type: docs
 weight: 14640
 url: /ru/net/aspose.email.mapi/knownpropertylist/profession/
 ---
 ## KnownPropertyList.Profession field
 
-Содержит название направления деятельности почтового пользователя. Область:MapiMailUser Каноническое имя:PidTagProfession Альтернативные имена:PR_PROFESSION, PR_PROFESSION_A, PR_PROFESSION_W,
+Содержит название сферы деятельности почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagProfession Альтернативные имена: PR_PROFESSION, PR_PROFESSION_A, PR_PROFESSION_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Profession;

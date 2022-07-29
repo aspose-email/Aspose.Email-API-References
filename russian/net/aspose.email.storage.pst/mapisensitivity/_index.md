@@ -1,14 +1,14 @@
 ---
 title: MapiSensitivity
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значения которые указывают на конфиденциальность сообщения.
+description: Содержит значения которые указывают на чувствительность сообщения.
 type: docs
-weight: 20170
+weight: 20220
 url: /ru/net/aspose.email.storage.pst/mapisensitivity/
 ---
 ## MapiSensitivity enumeration
 
-Содержит значения, которые указывают на конфиденциальность сообщения.
+Содержит значения, которые указывают на чувствительность сообщения.
 
 ```csharp
 public enum MapiSensitivity
@@ -21,7 +21,7 @@ public enum MapiSensitivity
 | None | `0` | Сообщение не имеет особой чувствительности. |
 | Personal | `1` | Сообщение личное. |
 | Private | `2` | Сообщение является личным. |
-| CompanyConfidential | `3` | Сообщение является конфиденциальным для компании. |
+| CompanyConfidential | `3` | Сообщение обозначено как конфиденциальное для компании. |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: MessageInfo
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет информацию о сообщении в PST.
 type: docs
-weight: 20200
+weight: 20250
 url: /ru/net/aspose.email.storage.pst/messageinfo/
 ---
 ## MessageInfo class
@@ -18,18 +18,18 @@ public sealed class MessageInfo
 
 | Имя | Описание |
 | --- | --- |
-| [MessageInfo](messageinfo)() | Инициализирует новый экземпляр класса[`MessageInfo`](../messageinfo). |
+| [MessageInfo](messageinfo)() | Инициализирует новый экземпляр[`MessageInfo`](../messageinfo) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DisplayCC](../../aspose.email.storage.pst/messageinfo/displaycc) { get; } | Получает строку CC:. |
+| [DisplayCC](../../aspose.email.storage.pst/messageinfo/displaycc) { get; } | Получает CC: line. |
 | [DisplayTo](../../aspose.email.storage.pst/messageinfo/displayto) { get; } | Получает строку Кому:. |
 | [EntryId](../../aspose.email.storage.pst/messageinfo/entryid) { get; } | Получает идентификатор записи. |
 | [EntryIdString](../../aspose.email.storage.pst/messageinfo/entryidstring) { get; } | Получает строковое представление идентификатора записи. |
-| [Importance](../../aspose.email.storage.pst/messageinfo/importance) { get; } | Получает важность. |
-| [MessageClass](../../aspose.email.storage.pst/messageinfo/messageclass) { get; } | Получает класс Message. |
+| [Importance](../../aspose.email.storage.pst/messageinfo/importance) { get; } | получает важность. |
+| [MessageClass](../../aspose.email.storage.pst/messageinfo/messageclass) { get; } | Получает класс сообщения. |
 | [Properties](../../aspose.email.storage.pst/messageinfo/properties) { get; } | Получает свойства MessageInfo. |
 | [SenderRepresentativeName](../../aspose.email.storage.pst/messageinfo/senderrepresentativename) { get; } | Получает имя представителя отправителя. |
 | [Sensitivity](../../aspose.email.storage.pst/messageinfo/sensitivity) { get; } | Получает чувствительность. |

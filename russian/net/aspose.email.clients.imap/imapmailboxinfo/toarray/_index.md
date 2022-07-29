@@ -16,7 +16,7 @@ public ImapFolderInfo[] ToArray()
 
 ### Возвращаемое значение
 
-Массив[`ImapFolderInfo`](../../imapfolderinfo)объектов
+Массив[`ImapFolderInfo`](../../imapfolderinfo) объекты
 
 ### Смотрите также
 

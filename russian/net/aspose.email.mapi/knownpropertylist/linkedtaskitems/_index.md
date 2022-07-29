@@ -1,14 +1,14 @@
 ---
 title: LinkedTaskItems
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает не включил ли пользователь какой-либо текст в тело объекта ответа на собрание. ОбластьЗадачи Каноническое имяPidLidLinkedTaskItems Альтернативные именаdispidLinkedTaskItems
+description: Указывает не включил ли пользователь какой-либо текст в тело объекта ответа на собрание. Область Tasks Каноническое имя PidLidLinkedTaskItems Альтернативные имена dispidLinkedTaskItems
 type: docs
 weight: 12100
 url: /ru/net/aspose.email.mapi/knownpropertylist/linkedtaskitems/
 ---
 ## KnownPropertyList.LinkedTaskItems field
 
-Указывает, не включил ли пользователь какой-либо текст в тело объекта ответа на собрание. Область:Задачи Каноническое имя:PidLidLinkedTaskItems Альтернативные имена:dispidLinkedTaskItems
+Указывает, не включил ли пользователь какой-либо текст в тело объекта ответа на собрание. Область: Tasks Каноническое имя: PidLidLinkedTaskItems Альтернативные имена: dispidLinkedTaskItems
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LinkedTaskItems;

@@ -1,14 +1,14 @@
 ---
 title: CreateUserConfiguration
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает указанную пользовательскую конфигурацию
+description: Создает указанную конфигурацию пользователя
 type: docs
 weight: 560
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/createuserconfiguration/
 ---
 ## IEWSClient.CreateUserConfiguration method
 
-Создает указанную пользовательскую конфигурацию
+Создает указанную конфигурацию пользователя
 
 ```csharp
 public void CreateUserConfiguration(UserConfiguration userConfiguration)
@@ -16,13 +16,13 @@ public void CreateUserConfiguration(UserConfiguration userConfiguration)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| userConfiguration | UserConfiguration | [`UserConfiguration`](../../userconfiguration)будет создан |
+| userConfiguration | UserConfiguration | [`UserConfiguration`](../../userconfiguration) быть созданным |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*userConfiguration*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*userConfiguration* является`нулевой` |
 
 ### Смотрите также
 

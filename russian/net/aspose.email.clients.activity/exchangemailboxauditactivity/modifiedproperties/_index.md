@@ -1,14 +1,14 @@
 ---
 title: ModifiedProperties
 second_title: Справочник по Aspose.Email для .NET API
-description: TBD
+description: подлежит уточнению
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/exchangemailboxauditactivity/modifiedproperties/
 ---
 ## ExchangeMailboxAuditActivity.ModifiedProperties property
 
-TBD
+подлежит уточнению
 
 ```csharp
 public ModifiedProperty[] ModifiedProperties { get; set; }

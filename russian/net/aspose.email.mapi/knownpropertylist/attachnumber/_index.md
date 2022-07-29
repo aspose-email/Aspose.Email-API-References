@@ -1,14 +1,14 @@
 ---
 title: AttachNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует объект Приложение в его объекте Сообщение. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachNumber Альтернативные именаPR_ATTACH_NUM ptagAttachNum
+description: Идентифицирует объект вложения в его объекте сообщения. Область свойства вложения сообщения Каноническое имя PidTagAttachNumber Альтернативные имена PR_ATTACH_NUM ptagAttachNum
 type: docs
 weight: 1720
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachnumber/
 ---
 ## KnownPropertyList.AttachNumber field
 
-Идентифицирует объект "Приложение" в его объекте "Сообщение". Область:Свойства вложения сообщения Каноническое имя:PidTagAttachNumber Альтернативные имена:PR_ATTACH_NUM, ptagAttachNum
+Идентифицирует объект вложения в его объекте сообщения. Область: свойства вложения сообщения Каноническое имя: PidTagAttachNumber Альтернативные имена: PR_ATTACH_NUM, ptagAttachNum
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachNumber;

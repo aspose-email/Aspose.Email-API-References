@@ -1,14 +1,14 @@
 ---
 title: Fax2OriginalDisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит то же значение что и свойство PidTagNormalizedSubject раздел 2.803. ОбластьСвойства контакта Каноническое имяPidLidFax2OriginalDisplayName Альтернативные именаdispidFax2OriginalDisplayName
+description: Содержит то же значение что и свойство PidTagNormalizedSubject раздел 2.803. Область Свойства контакта Каноническое имя PidLidFax2OriginalDisplayName Альтернативные имена dispidFax2OriginalDisplayName
 type: docs
 weight: 10190
 url: /ru/net/aspose.email.mapi/knownpropertylist/fax2originaldisplayname/
 ---
 ## KnownPropertyList.Fax2OriginalDisplayName field
 
-Содержит то же значение, что и свойство PidTagNormalizedSubject (раздел 2.803). Область:Свойства контакта Каноническое имя:PidLidFax2OriginalDisplayName Альтернативные имена:dispidFax2OriginalDisplayName
+Содержит то же значение, что и свойство PidTagNormalizedSubject (раздел 2.803). Область: Свойства контакта Каноническое имя: PidLidFax2OriginalDisplayName Альтернативные имена: dispidFax2OriginalDisplayName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Fax2OriginalDisplayName;

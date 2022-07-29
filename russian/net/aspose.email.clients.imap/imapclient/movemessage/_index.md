@@ -1,14 +1,14 @@
 ---
 title: MoveMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Перемещает сообщение
+description: Перемещает сообщениеeg
 type: docs
 weight: 930
 url: /ru/net/aspose.email.clients.imap/imapclient/movemessage/
 ---
 ## MoveMessage(IConnection, int, string, bool) {#movemessage_1}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public string MoveMessage(IConnection connection, int sequenceNumber, string folderName, 
@@ -17,9 +17,9 @@ public string MoveMessage(IConnection connection, int sequenceNumber, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
@@ -42,9 +42,9 @@ public string MoveMessage(IConnection connection, string uniqueId, string folder
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 | commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
@@ -67,8 +67,8 @@ public string MoveMessage(int sequenceNumber, string folderName, bool commitDele
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
 
@@ -88,9 +88,9 @@ public string MoveMessage(string uniqueId, string folderName, bool commitDeletio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | uid сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление. |
+| uniqueId | String | UID сообщения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
 
@@ -102,7 +102,7 @@ public string MoveMessage(string uniqueId, string folderName, bool commitDeletio
 
 ## MoveMessage(IConnection, int, string) {#movemessage}
 
-Перемещает сообщение
+Перемещает сообщениеeg
 
 ```csharp
 public string MoveMessage(IConnection connection, int sequenceNumber, string folderName)
@@ -110,9 +110,9 @@ public string MoveMessage(IConnection connection, int sequenceNumber, string fol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -133,9 +133,9 @@ public string MoveMessage(IConnection connection, string uniqueId, string folder
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -157,7 +157,7 @@ public string MoveMessage(int sequenceNumber, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -177,8 +177,8 @@ public string MoveMessage(string uniqueId, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | uid сообщения |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| uniqueId | String | UID сообщения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 

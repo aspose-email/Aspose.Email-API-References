@@ -1,14 +1,14 @@
 ---
 title: Icon
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ICON
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ICON
 type: docs
 weight: 11200
 url: /ru/net/aspose.email.mapi/knownpropertylist/icon/
 ---
 ## KnownPropertyList.Icon field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ICON
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ICON
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Icon;

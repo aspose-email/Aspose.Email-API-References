@@ -1,14 +1,14 @@
 ---
 title: ContactLinkSearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список SearchKeys для объекта Contact связанного с объектом Message. ОбластьСвойства контакта Каноническое имяPidLidContactLinkSearchKey Альтернативные именаdispidContactLinkSearchKey
+description: Содержит список SearchKeys для объекта Contact связанного с объектом Message. Область Свойства контакта Каноническое имя PidLidContactLinkSearchKey Альтернативные имена dispidContactLinkSearchKey
 type: docs
 weight: 3020
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactlinksearchkey/
 ---
 ## KnownPropertyList.ContactLinkSearchKey field
 
-Содержит список SearchKeys для объекта Contact, связанного с объектом Message. Область:Свойства контакта Каноническое имя:PidLidContactLinkSearchKey Альтернативные имена:dispidContactLinkSearchKey
+Содержит список SearchKeys для объекта Contact, связанного с объектом Message. Область: Свойства контакта Каноническое имя: PidLidContactLinkSearchKey Альтернативные имена: dispidContactLinkSearchKey
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkSearchKey;

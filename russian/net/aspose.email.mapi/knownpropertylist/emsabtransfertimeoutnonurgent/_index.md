@@ -1,14 +1,14 @@
 ---
 title: EmsAbTransferTimeoutNonUrgent
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_TRANSFER_TIMEOUT_NON_URGENT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_TRANSFER_TIMEOUT_NON_URGENT
 type: docs
 weight: 9160
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabtransfertimeoutnonurgent/
 ---
 ## KnownPropertyList.EmsAbTransferTimeoutNonUrgent field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_TRANSFER_TIMEOUT_NON_URGENT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_TRANSFER_TIMEOUT_NON_URGENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbTransferTimeoutNonUrgent;

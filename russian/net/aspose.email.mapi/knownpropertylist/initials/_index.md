@@ -1,14 +1,14 @@
 ---
 title: Initials
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит инициалы частей полного имени почтового пользователя. ОбластьСвойства адреса Каноническое имяPidTagInitials Альтернативные именаPR_INITIALS PR_INITIALS_A PR_INITIALS_W urnschemascontactsinitials
+description: Содержит инициалы частей полного имени почтового пользователя. Область Address Properties Каноническое имя PidTagInitials Альтернативные имена PR_INITIALS PR_INITIALS_A PR_INITIALS_W urnschemascontactsinitials
 type: docs
 weight: 11340
 url: /ru/net/aspose.email.mapi/knownpropertylist/initials/
 ---
 ## KnownPropertyList.Initials field
 
-Содержит инициалы частей полного имени почтового пользователя. Область:Свойства адреса Каноническое имя:PidTagInitials Альтернативные имена:PR_INITIALS, PR_INITIALS_A, PR_INITIALS_W, urn:schemas:contacts:initials
+Содержит инициалы частей полного имени почтового пользователя. Область: Address Properties Каноническое имя: PidTagInitials Альтернативные имена: PR_INITIALS, PR_INITIALS_A, PR_INITIALS_W, urn:schemas:contacts:initials
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Initials;

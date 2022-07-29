@@ -1,14 +1,14 @@
 ---
 title: CountryCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает код страны
+description: Получает или задает код страны
 type: docs
 weight: 60
 url: /ru/net/aspose.email.personalinfo/postaladdress/countrycode/
 ---
 ## PostalAddress.CountryCode property
 
-Получает или устанавливает код страны
+Получает или задает код страны
 
 ```csharp
 public string CountryCode { get; set; }

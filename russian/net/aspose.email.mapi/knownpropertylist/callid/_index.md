@@ -1,14 +1,14 @@
 ---
 title: CallId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный идентификатор связанный с телефонным звонком. ОбластьЕдиная система обмена сообщениями Каноническое имяPidTagCallId Альтернативные именаInternalSchemaCallID
+description: Содержит уникальный идентификатор связанный с телефонным вызовом. Область Единая система обмена сообщениями Каноническое имя PidTagCallId Альтернативные имена InternalSchemaCallID
 type: docs
 weight: 2480
 url: /ru/net/aspose.email.mapi/knownpropertylist/callid/
 ---
 ## KnownPropertyList.CallId field
 
-Содержит уникальный идентификатор, связанный с телефонным звонком. Область:Единая система обмена сообщениями Каноническое имя:PidTagCallId Альтернативные имена:InternalSchemaCallID
+Содержит уникальный идентификатор, связанный с телефонным вызовом. Область: Единая система обмена сообщениями Каноническое имя: PidTagCallId Альтернативные имена: InternalSchemaCallID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CallId;

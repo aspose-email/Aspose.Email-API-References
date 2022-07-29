@@ -1,14 +1,14 @@
 ---
 title: UserIp
 second_title: Справочник по Aspose.Email для .NET API
-description: IP-адрес пользователя который щелкнул URL-адрес. IP-адрес отображается в формате адреса IPv4 или IPv6. ОбязательноДа
+description: IP-адрес пользователя который щелкнул URL-адрес. IP-адрес отображается в формате адреса IPv4 или IPv6. Обязательно Yes
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.activity/o365urltimeofclickactivity/userip/
 ---
 ## O365URLTimeOfClickActivity.UserIp property
 
-IP-адрес пользователя, который щелкнул URL-адрес. IP-адрес отображается в формате адреса IPv4 или IPv6. Обязательно:Да
+IP-адрес пользователя, который щелкнул URL-адрес. IP-адрес отображается в формате адреса IPv4 или IPv6. Обязательно: Yes
 
 ```csharp
 public string UserIp { get; set; }

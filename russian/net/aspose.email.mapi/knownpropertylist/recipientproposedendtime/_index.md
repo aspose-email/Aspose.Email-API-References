@@ -1,14 +1,14 @@
 ---
 title: RecipientProposedEndTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время окончания собрания запрошенное участником во встречном предложении. ОбластьTransportRecipient Каноническое имяPidTagRecipientProposedEndTime Альтернативные именаPR_RECIPIENT_PROPOSEDENDTIME ptagRecipientProposedEndTime
+description: Указывает время окончания собрания запрошенное участником во встречном предложении. Область TransportRecipient Каноническое имя PidTagRecipientProposedEndTime Альтернативные имена PR_RECIPIENT_PROPOSEDENDTIME ptagRecipientProposedEndTime
 type: docs
 weight: 15500
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipientproposedendtime/
 ---
 ## KnownPropertyList.RecipientProposedEndTime field
 
-Указывает время окончания собрания, запрошенное участником во встречном предложении. Область:TransportRecipient Каноническое имя:PidTagRecipientProposedEndTime Альтернативные имена:PR_RECIPIENT_PROPOSEDENDTIME, ptagRecipientProposedEndTime
+Указывает время окончания собрания, запрошенное участником во встречном предложении. Область: TransportRecipient Каноническое имя: PidTagRecipientProposedEndTime Альтернативные имена: PR_RECIPIENT_PROPOSEDENDTIME, ptagRecipientProposedEndTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientProposedEndTime;

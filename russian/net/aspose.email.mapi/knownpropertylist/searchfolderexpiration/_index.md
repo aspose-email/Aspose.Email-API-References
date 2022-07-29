@@ -1,14 +1,14 @@
 ---
 title: SearchFolderExpiration
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время в формате UTC когда контейнер папки поиска устаревает и его необходимо обновить или создать заново. ОбластьПоиск Каноническое имяPidTagSearchFolderExpiration Альтернативные именаPR_WB_SF_EXPIRATION
+description: Содержит время в формате UTC когда контейнер папки поиска устаревает и его необходимо обновить или создать заново. Область Search Каноническое имя PidTagSearchFolderExpiration Альтернативные имена PR_WB_SF_EXPIRATION
 type: docs
 weight: 16960
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchfolderexpiration/
 ---
 ## KnownPropertyList.SearchFolderExpiration field
 
-Содержит время в формате UTC, когда контейнер папки поиска устаревает и его необходимо обновить или создать заново. Область:Поиск Каноническое имя:PidTagSearchFolderExpiration Альтернативные имена:PR_WB_SF_EXPIRATION
+Содержит время в формате UTC, когда контейнер папки поиска устаревает и его необходимо обновить или создать заново. Область: Search Каноническое имя: PidTagSearchFolderExpiration Альтернативные имена: PR_WB_SF_EXPIRATION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderExpiration;

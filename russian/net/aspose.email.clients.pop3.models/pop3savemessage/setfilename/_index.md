@@ -1,14 +1,14 @@
 ---
 title: SetFileName
 second_title: Справочник по Aspose.Email для .NET API
-description: Установите имя выходного файла.
+description: Установить имя выходного файла.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.pop3.models/pop3savemessage/setfilename/
 ---
 ## Pop3SaveMessage.SetFileName method
 
-Установите имя выходного файла.
+Установить имя выходного файла.
 
 ```csharp
 public Pop3SaveMessage SetFileName(string fileName)

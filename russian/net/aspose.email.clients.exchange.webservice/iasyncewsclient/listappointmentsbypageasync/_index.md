@@ -17,11 +17,11 @@ public Task<AppointmentPageInfo> ListAppointmentsByPageAsync(string folderUri, M
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка для поиска встреч в. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)который представляет критерии поиска встреч. |
+| folderUri | String | Папка для поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 | itemsPerPage | Int32 | Количество элементов на странице |
 | itemOffset | Int32 | Смещение следующего элемента в поле зрения |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

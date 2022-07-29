@@ -87,7 +87,7 @@ public Task<bool> ValidateCredentialsAsync(CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 

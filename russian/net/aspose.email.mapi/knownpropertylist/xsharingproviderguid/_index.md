@@ -1,14 +1,14 @@
 ---
 title: XSharingProviderGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит шестнадцатеричное строковое представление значения свойства PidLidSharingProviderGuid раздел 2.266. ОбластьСовместное использование Каноническое имяPidNameXSharingProviderGuid Альтернативные имена
+description: Содержит шестнадцатеричное строковое представление значения свойства PidLidSharingProviderGuid раздел 2.266. Область Sharing Каноническое имя PidNameXSharingProviderGuid Альтернативные имена
 type: docs
 weight: 19780
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingproviderguid/
 ---
 ## KnownPropertyList.XSharingProviderGuid field
 
-Содержит шестнадцатеричное строковое представление значения свойства PidLidSharingProviderGuid (раздел 2.266). Область:Совместное использование Каноническое имя:PidNameXSharingProviderGuid Альтернативные имена:
+Содержит шестнадцатеричное строковое представление значения свойства PidLidSharingProviderGuid (раздел 2.266). Область: Sharing Каноническое имя: PidNameXSharingProviderGuid Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingProviderGuid;

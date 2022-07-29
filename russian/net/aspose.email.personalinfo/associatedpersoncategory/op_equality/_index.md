@@ -17,7 +17,7 @@ public static bool operator ==(AssociatedPersonCategory a, AssociatedPersonCateg
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | AssociatedPersonCategory | Первый объект для сравнения |
-| b | AssociatedPersonCategory | Второй объект для сравнения compare |
+| b | AssociatedPersonCategory | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

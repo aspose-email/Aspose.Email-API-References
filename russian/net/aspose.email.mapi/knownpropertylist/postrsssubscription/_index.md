@@ -1,14 +1,14 @@
 ---
 title: PostRssSubscription
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит предпочтительное имя пользователя для подписки RSS или Atom. ОбластьRSS Каноническое имяPidLidPostRssSubscription Альтернативные именаdispidPostRssSubscription
+description: Содержит предпочтительное имя пользователя для подписки RSS или Atom. Область RSS Каноническое имя PidLidPostRssSubscription Альтернативные имена dispidPostRssSubscription
 type: docs
 weight: 14500
 url: /ru/net/aspose.email.mapi/knownpropertylist/postrsssubscription/
 ---
 ## KnownPropertyList.PostRssSubscription field
 
-Содержит предпочтительное имя пользователя для подписки RSS или Atom. Область:RSS Каноническое имя:PidLidPostRssSubscription Альтернативные имена:dispidPostRssSubscription
+Содержит предпочтительное имя пользователя для подписки RSS или Atom. Область: RSS Каноническое имя: PidLidPostRssSubscription Альтернативные имена: dispidPostRssSubscription
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssSubscription;

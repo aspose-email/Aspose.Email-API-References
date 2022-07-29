@@ -1,14 +1,14 @@
 ---
 title: DelegateMail
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает ответил ли делегат на приглашение на собрание. ОбластьВстречи Каноническое имяPidLidDelegateMail Альтернативные именаLID_DELEGATE_MAIL
+description: Указывает ответил ли делегат на приглашение на собрание. Область Meetings Каноническое имя PidLidDelegateMail Альтернативные имена LID_DELEGATE_MAIL
 type: docs
 weight: 3840
 url: /ru/net/aspose.email.mapi/knownpropertylist/delegatemail/
 ---
 ## KnownPropertyList.DelegateMail field
 
-Указывает, ответил ли делегат на приглашение на собрание. Область:Встречи Каноническое имя:PidLidDelegateMail Альтернативные имена:LID_DELEGATE_MAIL
+Указывает, ответил ли делегат на приглашение на собрание. Область: Meetings Каноническое имя: PidLidDelegateMail Альтернативные имена: LID_DELEGATE_MAIL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DelegateMail;

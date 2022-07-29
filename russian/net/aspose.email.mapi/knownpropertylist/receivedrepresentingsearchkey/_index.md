@@ -1,14 +1,14 @@
 ---
 title: ReceivedRepresentingSearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует ключ поиска в адресной книге который содержит двоично-сопоставимый ключ конечного пользователя представленного принимающим владельцем почтового ящика. ОбластьСвойства адреса Каноническое имяPidTagReceivedRepresentingSearchKey Альтернативные именаPR_RCVD_REPRESENTING_SEARCH_KEY ptagRcvdRepresentingSearchKey
+description: Идентифицирует ключ поиска в адресной книге который содержит двоично-сопоставимый ключ конечного пользователя представленного владельцем принимающего почтового ящика. Область Свойства адреса Каноническое имя PidTagReceivedRepresentingSearchKey Альтернативные имена PR_RCVD_REPRESENTING_SEARCH_KEY ptagRcvdRepresentingSearchKey
 type: docs
 weight: 15370
 url: /ru/net/aspose.email.mapi/knownpropertylist/receivedrepresentingsearchkey/
 ---
 ## KnownPropertyList.ReceivedRepresentingSearchKey field
 
-Идентифицирует ключ поиска в адресной книге, который содержит двоично-сопоставимый ключ конечного пользователя, представленного принимающим владельцем почтового ящика. Область:Свойства адреса Каноническое имя:PidTagReceivedRepresentingSearchKey Альтернативные имена:PR_RCVD_REPRESENTING_SEARCH_KEY, ptagRcvdRepresentingSearchKey
+Идентифицирует ключ поиска в адресной книге, который содержит двоично-сопоставимый ключ конечного пользователя, представленного владельцем принимающего почтового ящика. Область: Свойства адреса Каноническое имя: PidTagReceivedRepresentingSearchKey Альтернативные имена: PR_RCVD_REPRESENTING_SEARCH_KEY, ptagRcvdRepresentingSearchKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedRepresentingSearchKey;

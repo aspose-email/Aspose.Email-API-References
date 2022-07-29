@@ -19,12 +19,12 @@ public Task<MapiMessage> FetchItemAsync(string uri,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uri | String | URI элемента. |
-| extendedProperties | IEnumerable`1 | Указанные свойства для извлечения. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| extendedProperties | IEnumerable`1 | Заданные свойства для извлечения. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-[`MapiMessage`](../../../aspose.email.mapi/mapimessage)объект.
+[`MapiMessage`](../../../aspose.email.mapi/mapimessage) объект.
 
 ### Исключения
 

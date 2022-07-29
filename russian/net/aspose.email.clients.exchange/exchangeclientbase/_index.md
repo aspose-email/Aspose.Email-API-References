@@ -20,7 +20,7 @@ public abstract class ExchangeClientBase : IExchangeClientBase
 | --- | --- |
 | virtual [Credentials](../../aspose.email.clients.exchange/exchangeclientbase/credentials) { get; set; } | Получает или устанавливает учетные данные |
 | [LogFileName](../../aspose.email.clients.exchange/exchangeclientbase/logfilename) { get; set; } | Получает или задает имя файла журнала |
-| virtual [MailboxUri](../../aspose.email.clients.exchange/exchangeclientbase/mailboxuri) { get; set; } | Получает или устанавливает uri почтового ящика |
+| virtual [MailboxUri](../../aspose.email.clients.exchange/exchangeclientbase/mailboxuri) { get; set; } | Получает или задает почтовый ящик uri |
 | virtual [Proxy](../../aspose.email.clients.exchange/exchangeclientbase/proxy) { get; set; } | Получает или задает прокси. |
 | virtual [Timeout](../../aspose.email.clients.exchange/exchangeclientbase/timeout) { get; set; } | Получает или задает количество миллисекунд ожидания до истечения времени ожидания операции. Значение по умолчанию — 100 000 миллисекунд (100 секунд). |
 | [UseDateInLogFileName](../../aspose.email.clients.exchange/exchangeclientbase/usedateinlogfilename) { get; set; } | Получает или задает значение, указывающее, следует ли использовать дату в имени файла журнала. |
@@ -29,7 +29,7 @@ public abstract class ExchangeClientBase : IExchangeClientBase
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.clients.exchange/exchangeclientbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email.clients.exchange/exchangeclientbase/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 
 ### Смотрите также
 

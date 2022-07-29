@@ -1,14 +1,14 @@
 ---
 title: FollowUpOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFollowUpOptionsaspose.email.mapi/followupoptions.
+description: Инициализирует новый экземплярFollowUpOptionsaspose.email.mapi/followupoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/followupoptions/followupoptions/
 ---
 ## FollowUpOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`FollowUpOptions`](../../followupoptions).
+Инициализирует новый экземпляр[`FollowUpOptions`](../../followupoptions) класс.
 
 ```csharp
 public FollowUpOptions()
@@ -24,7 +24,7 @@ public FollowUpOptions()
 
 ## FollowUpOptions(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`FollowUpOptions`](../../followupoptions).
+Инициализирует новый экземпляр[`FollowUpOptions`](../../followupoptions) класс.
 
 ```csharp
 public FollowUpOptions(string flagRequest)
@@ -44,7 +44,7 @@ public FollowUpOptions(string flagRequest)
 
 ## FollowUpOptions(string, DateTime, DateTime) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`FollowUpOptions`](../../followupoptions).
+Инициализирует новый экземпляр[`FollowUpOptions`](../../followupoptions) класс.
 
 ```csharp
 public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
@@ -54,7 +54,7 @@ public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
 | --- | --- | --- |
 | flagRequest | String | Запрос флага. |
 | startDate | DateTime | Дата начала. |
-| dueDate | DateTime | Дата выполнения. |
+| dueDate | DateTime | Срок исполнения. |
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
 
 ## FollowUpOptions(string, DateTime, DateTime, DateTime) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`FollowUpOptions`](../../followupoptions).
+Инициализирует новый экземпляр[`FollowUpOptions`](../../followupoptions) класс.
 
 ```csharp
 public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate, 
@@ -77,7 +77,7 @@ public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate,
 | --- | --- | --- |
 | flagRequest | String | Запрос флага. |
 | startDate | DateTime | Дата начала. |
-| dueDate | DateTime | Срок выполнения. |
+| dueDate | DateTime | Срок исполнения. |
 | reminderTime | DateTime | Время напоминания. |
 
 ### Смотрите также

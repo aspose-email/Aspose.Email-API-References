@@ -1,14 +1,14 @@
 ---
 title: FetchMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает сообщение.
+description: Извлекает сообщение.
 type: docs
 weight: 810
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/fetchmessage/
 ---
 ## FetchMessage(string) {#fetchmessage}
 
-Получает сообщение.
+Извлекает сообщение.
 
 ```csharp
 public MailMessage FetchMessage(string messageUri)
@@ -33,7 +33,7 @@ public MailMessage FetchMessage(string messageUri)
 
 ## FetchMessage(string, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmessage_1}
 
-Получает сообщение с сервера
+Получает сообщение с server
 
 ```csharp
 public MailMessage FetchMessage(string messageUri, 
@@ -43,17 +43,17 @@ public MailMessage FetchMessage(string messageUri,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageUri | String | URI сообщения |
-| extendedProperties | IEnumerable`1 | Перечисление расширенных свойств |
+| extendedProperties | IEnumerable`1 | Перечень расширенных свойств |
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)который представляет сообщение электронной почты, если пользовательские свойства были найдены и установлены, вы можете получить к ним доступ, используя[`Headers`](../../../aspose.email/mailmessage/headers)collection.
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет сообщение электронной почты, если пользовательские свойства были найдены и установлены, вы можете получить к ним доступ, используя[`Headers`](../../../aspose.email/mailmessage/headers) коллекция.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri* является`нулевой`или же`пустой` |
 | [ExchangeException](../../../aspose.email/exchangeexception) | Сообщение не может быть получено |
 
 ### Смотрите также

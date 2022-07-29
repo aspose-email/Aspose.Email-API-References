@@ -18,7 +18,7 @@ public sealed class ExchangeCalendarEvent
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeCalendarEvent](exchangecalendarevent)() | Инициализирует новый экземпляр класса[`ExchangeCalendarEvent`](../exchangecalendarevent). |
+| [ExchangeCalendarEvent](exchangecalendarevent)() | Инициализирует новый экземпляр[`ExchangeCalendarEvent`](../exchangecalendarevent) класс. |
 
 ## Характеристики
 

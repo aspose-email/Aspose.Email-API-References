@@ -1,14 +1,14 @@
 ---
 title: NotesStorageFacility
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаNotesStorageFacilityaspose.email.storage.nsf/notesstoragefacility.
+description: Инициализирует новый экземплярNotesStorageFacilityaspose.email.storage.nsf/notesstoragefacility класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.nsf/notesstoragefacility/notesstoragefacility/
 ---
 ## NotesStorageFacility(string, CancellationToken) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`NotesStorageFacility`](../../notesstoragefacility).
+Инициализирует новый экземпляр[`NotesStorageFacility`](../../notesstoragefacility) класс.
 
 ```csharp
 public NotesStorageFacility(string fileName, CancellationToken token)
@@ -23,7 +23,7 @@ public NotesStorageFacility(string fileName, CancellationToken token)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | имя_файла — имя файла не может быть нулевым или пустым |
+| ArgumentNullException | fileName — имя файла не может быть нулевым или пустым |
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ public NotesStorageFacility(string fileName, CancellationToken token)
 
 ## NotesStorageFacility(Stream, CancellationToken) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`NotesStorageFacility`](../../notesstoragefacility).
+Инициализирует новый экземпляр[`NotesStorageFacility`](../../notesstoragefacility) класс.
 
 ```csharp
 public NotesStorageFacility(Stream stream, CancellationToken token)
@@ -62,7 +62,7 @@ public NotesStorageFacility(Stream stream, CancellationToken token)
 
 ## NotesStorageFacility(string, NsfLoadOptions, CancellationToken) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`NotesStorageFacility`](../../notesstoragefacility).
+Инициализирует новый экземпляр[`NotesStorageFacility`](../../notesstoragefacility) класс.
 
 ```csharp
 public NotesStorageFacility(string fileName, NsfLoadOptions options, CancellationToken token)
@@ -71,14 +71,14 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options, Cancellatio
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| options | NsfLoadOptions | Дополнительные параметры загрузки. |
+| options | NsfLoadOptions | Дополнительные варианты загрузки. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | имя_файла — имя файла не может быть нулевым или пустым |
+| ArgumentNullException | fileName — имя файла не может быть нулевым или пустым |
 
 ### Смотрите также
 
@@ -91,7 +91,7 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options, Cancellatio
 
 ## NotesStorageFacility(Stream, NsfLoadOptions, CancellationToken) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`NotesStorageFacility`](../../notesstoragefacility).
+Инициализирует новый экземпляр[`NotesStorageFacility`](../../notesstoragefacility) класс.
 
 ```csharp
 public NotesStorageFacility(Stream stream, NsfLoadOptions options, CancellationToken token)
@@ -100,7 +100,7 @@ public NotesStorageFacility(Stream stream, NsfLoadOptions options, CancellationT
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| options | NsfLoadOptions | Дополнительные параметры загрузки. |
+| options | NsfLoadOptions | Дополнительные варианты загрузки. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Исключения
@@ -120,7 +120,7 @@ public NotesStorageFacility(Stream stream, NsfLoadOptions options, CancellationT
 
 ## NotesStorageFacility(string) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`NotesStorageFacility`](../../notesstoragefacility).
+Инициализирует новый экземпляр[`NotesStorageFacility`](../../notesstoragefacility) класс.
 
 ```csharp
 public NotesStorageFacility(string fileName)
@@ -134,7 +134,7 @@ public NotesStorageFacility(string fileName)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | имя_файла — имя файла не может быть нулевым или пустым |
+| ArgumentNullException | fileName — имя файла не может быть нулевым или пустым |
 
 ### Смотрите также
 
@@ -146,7 +146,7 @@ public NotesStorageFacility(string fileName)
 
 ## NotesStorageFacility(Stream) {#constructor}
 
-Инициализирует новый экземпляр класса[`NotesStorageFacility`](../../notesstoragefacility).
+Инициализирует новый экземпляр[`NotesStorageFacility`](../../notesstoragefacility) класс.
 
 ```csharp
 public NotesStorageFacility(Stream stream)
@@ -172,7 +172,7 @@ public NotesStorageFacility(Stream stream)
 
 ## NotesStorageFacility(string, NsfLoadOptions) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`NotesStorageFacility`](../../notesstoragefacility).
+Инициализирует новый экземпляр[`NotesStorageFacility`](../../notesstoragefacility) класс.
 
 ```csharp
 public NotesStorageFacility(string fileName, NsfLoadOptions options)
@@ -181,13 +181,13 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| options | NsfLoadOptions | Дополнительные параметры загрузки. |
+| options | NsfLoadOptions | Дополнительные варианты загрузки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | имя_файла — имя файла не может быть нулевым или пустым |
+| ArgumentNullException | fileName — имя файла не может быть нулевым или пустым |
 
 ### Смотрите также
 
@@ -200,7 +200,7 @@ public NotesStorageFacility(string fileName, NsfLoadOptions options)
 
 ## NotesStorageFacility(Stream, NsfLoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`NotesStorageFacility`](../../notesstoragefacility).
+Инициализирует новый экземпляр[`NotesStorageFacility`](../../notesstoragefacility) класс.
 
 ```csharp
 public NotesStorageFacility(Stream stream, NsfLoadOptions options)
@@ -209,7 +209,7 @@ public NotesStorageFacility(Stream stream, NsfLoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| options | NsfLoadOptions | Дополнительные параметры загрузки. |
+| options | NsfLoadOptions | Дополнительные варианты загрузки. |
 
 ### Исключения
 

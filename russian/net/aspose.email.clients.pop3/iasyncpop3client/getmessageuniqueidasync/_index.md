@@ -17,7 +17,7 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber, IConnection conn
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Int32 | Соединение с сервером |
+| connection | Int32 | Подключение к серверу |
 | sequenceNumber | IConnection | Порядковый номер сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

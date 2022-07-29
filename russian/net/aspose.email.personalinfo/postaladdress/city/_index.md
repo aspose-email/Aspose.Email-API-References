@@ -1,14 +1,14 @@
 ---
 title: City
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает город
+description: Получает или задает город
 type: docs
 weight: 40
 url: /ru/net/aspose.email.personalinfo/postaladdress/city/
 ---
 ## PostalAddress.City property
 
-Получает или устанавливает город
+Получает или задает город
 
 ```csharp
 public string City { get; set; }

@@ -16,7 +16,7 @@ public bool Remove(AssociatedPerson value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | AssociatedPerson | ОбъектObjectдля удаления из списка. |
+| value | AssociatedPerson | Object удалить из списка. |
 
 ### Смотрите также
 

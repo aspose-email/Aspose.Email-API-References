@@ -1,14 +1,14 @@
 ---
 title: Header
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает заголовок.
+description: Получает или устанавливает заголовок.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.tools.logging/formatter/header/
 ---
 ## Formatter.Header property
 
-Получает или задает заголовок.
+Получает или устанавливает заголовок.
 
 ```csharp
 public virtual string Header { get; }

@@ -1,14 +1,14 @@
 ---
 title: MonthInterval
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает месячный интервал встречи или собрания. ОбластьВстречи Каноническое имяPidLidMonthInterval Альтернативные именаLID_MONTH_INTERVAL
+description: Указывает месячный интервал встречи или встречи. Область Meetings Каноническое имя PidLidMonthInterval Альтернативные имена LID_MONTH_INTERVAL
 type: docs
 weight: 12740
 url: /ru/net/aspose.email.mapi/knownpropertylist/monthinterval/
 ---
 ## KnownPropertyList.MonthInterval field
 
-Указывает месячный интервал встречи или собрания. Область:Встречи Каноническое имя:PidLidMonthInterval Альтернативные имена:LID_MONTH_INTERVAL
+Указывает месячный интервал встречи или встречи. Область: Meetings Каноническое имя: PidLidMonthInterval Альтернативные имена: LID_MONTH_INTERVAL
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MonthInterval;

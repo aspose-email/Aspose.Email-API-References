@@ -1,14 +1,14 @@
 ---
 title: MessageObjectRecipientEntity
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMessageObjectRecipientEntityaspose.email.mapi.msg/messageobjectrecipiententity.
+description: Инициализирует новый экземплярMessageObjectRecipientEntityaspose.email.mapi.msg/messageobjectrecipiententity класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi.msg/messageobjectrecipiententity/messageobjectrecipiententity/
 ---
 ## MessageObjectRecipientEntity constructor
 
-Инициализирует новый экземпляр класса[`MessageObjectRecipientEntity`](../../messageobjectrecipiententity).
+Инициализирует новый экземпляр[`MessageObjectRecipientEntity`](../../messageobjectrecipiententity) класс.
 
 ```csharp
 public MessageObjectRecipientEntity()

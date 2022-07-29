@@ -1,14 +1,14 @@
 ---
 title: YomiFirstName
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет фонетическое произношение имени контакта. ОбластьСвойства контакта Каноническое имяPidLidYomiFirstName Альтернативные именаdispidYomiFirstName
+description: Задает фонетическое произношение имени контакта. Область Свойства контакта Каноническое имя PidLidYomiFirstName Альтернативные имена dispidYomiFirstName
 type: docs
 weight: 19910
 url: /ru/net/aspose.email.mapi/knownpropertylist/yomifirstname/
 ---
 ## KnownPropertyList.YomiFirstName field
 
-Определяет фонетическое произношение имени контакта. Область:Свойства контакта Каноническое имя:PidLidYomiFirstName Альтернативные имена:dispidYomiFirstName
+Задает фонетическое произношение имени контакта. Область: Свойства контакта Каноническое имя: PidLidYomiFirstName Альтернативные имена: dispidYomiFirstName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor YomiFirstName;

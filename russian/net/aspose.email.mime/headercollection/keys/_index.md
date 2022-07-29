@@ -1,14 +1,14 @@
 ---
 title: Keys
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает объектReadOnlyCollection содержащий все ключи заголовков в коллекциях
+description: ПолучаетReadOnlyCollection содержащий все ключи заголовков в collections
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mime/headercollection/keys/
 ---
 ## HeaderCollection.Keys property
 
-Получает объектReadOnlyCollection, содержащий все ключи заголовков в коллекциях
+ПолучаетReadOnlyCollection содержащий все ключи заголовков в collections
 
 ```csharp
 public virtual ReadOnlyCollection<string> Keys { get; }

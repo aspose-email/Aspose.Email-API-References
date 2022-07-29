@@ -1,14 +1,14 @@
 ---
 title: Kind
 second_title: Справочник по Aspose.Email для .NET API
-description: получает именованный вид свойства
+description: получает именованное свойство kind
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapinamedproperty/kind/
 ---
 ## MapiNamedProperty.Kind property
 
-получает именованный вид свойства
+получает именованное свойство kind
 
 ```csharp
 public int Kind { get; }

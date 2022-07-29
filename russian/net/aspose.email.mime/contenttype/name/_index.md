@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение параметра name.
+description: Получает или задает значение параметра имени.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mime/contenttype/name/
 ---
 ## ContentType.Name property
 
-Получает или задает значение параметра name.
+Получает или задает значение параметра имени.
 
 ```csharp
 public string Name { get; set; }

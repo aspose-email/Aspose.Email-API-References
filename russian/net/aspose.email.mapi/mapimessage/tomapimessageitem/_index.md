@@ -1,14 +1,14 @@
 ---
 title: ToMapiMessageItem
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразование MapiMessage в объект IMapiMessageItem в зависимости от MessageClass.
+description: Преобразование MapiMessage в IMapiMessageItem object в зависимости от MessageClass.
 type: docs
 weight: 400
 url: /ru/net/aspose.email.mapi/mapimessage/tomapimessageitem/
 ---
 ## MapiMessage.ToMapiMessageItem method
 
-Преобразование MapiMessage в объект IMapiMessageItem в зависимости от MessageClass.
+Преобразование MapiMessage в IMapiMessageItem object в зависимости от MessageClass.
 
 ```csharp
 public IMapiMessageItem ToMapiMessageItem()
@@ -22,11 +22,11 @@ public IMapiMessageItem ToMapiMessageItem()
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Вызывается, когда MessageClass не принадлежит IPM. Примечание, IPM. StickyNote, IPM.Контакт, IPM.Деятельность, IPM.Назначение, IPM.Расписание.встреча, IPM.Задача. |
+| NotSupportedException | Возникает, когда MessageClass не принадлежит IPM.Note, IPM.StickyNote, IPM.Contact, IPM.Activity, IPM.Appointment, IPM.Schedule.meeting, IPM.Task. |
 
 ### Примечания
 
-Обратите внимание, что на данный момент поддерживаются следующие классы сообщений: IPM .Примечание, IPM.StickyNote, IPM.Контакт, IPM.Деятельность, IPM.Назначение, IPM.Расписание.встречи, IPM.Задача. Если MapiMessage имеет другой класс, отличный от этих, то выбрасывается NotSupportedException. Если MessageClass равен IPM.Note, то возвращается копия MapiMessage.
+Обратите внимание, что на данный момент поддерживаются следующие классы сообщений: IPM.Note, IPM.StickyNote, IPM.Contact, IPM.Activity, IPM.Appointment, IPM.Schedule.meeting, IPM.Task. Если MapiMessage имеет другой класс, отличный от этих, то выбрасывается NotSupportedException. Если MessageClass - IPM.Note, то возвращается копия MapiMessage.
 
 ### Смотрите также
 

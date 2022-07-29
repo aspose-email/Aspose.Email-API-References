@@ -1,14 +1,14 @@
 ---
 title: MapiContactOtherPropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземплярMapiContactOtherPropertySetaspose.email.mapi/mapicontactotherpropertysetclass
+description: Инициализирует новый экземплярMapiContactOtherPropertySetaspose.email.mapi/mapicontactotherpropertyset класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactotherpropertyset/mapicontactotherpropertyset/
 ---
 ## MapiContactOtherPropertySet constructor
 
-Инициализирует новый экземпляр[`MapiContactOtherPropertySet`](../../mapicontactotherpropertyset)class
+Инициализирует новый экземпляр[`MapiContactOtherPropertySet`](../../mapicontactotherpropertyset) класс
 
 ```csharp
 public MapiContactOtherPropertySet()

@@ -1,14 +1,14 @@
 ---
 title: GetMessageCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает количество сообщений
+description: Получает количество сообщений count
 type: docs
 weight: 190
 url: /ru/net/aspose.email.clients.pop3/pop3client/getmessagecount/
 ---
 ## GetMessageCount(IConnection) {#getmessagecount_1}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public int GetMessageCount(IConnection connection)
@@ -16,7 +16,7 @@ public int GetMessageCount(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ public int GetMessageCount(IConnection connection)
 
 ## GetMessageCount(IConnection, bool) {#getmessagecount_2}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public int GetMessageCount(IConnection connection, bool closeTransaction)
@@ -41,8 +41,8 @@ public int GetMessageCount(IConnection connection, bool closeTransaction)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| connection | IConnection | Подключение к серверу |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -59,7 +59,7 @@ public int GetMessageCount(IConnection connection, bool closeTransaction)
 
 ## GetMessageCount() {#getmessagecount}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public int GetMessageCount()
@@ -79,7 +79,7 @@ public int GetMessageCount()
 
 ## GetMessageCount(bool) {#getmessagecount_3}
 
-Получает количество сообщений
+Получает количество сообщений count
 
 ```csharp
 public int GetMessageCount(bool closeTransaction)
@@ -87,7 +87,7 @@ public int GetMessageCount(bool closeTransaction)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрытым до того, как список будет получен. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: SiteCollectionUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя сайта SharePoint. ОбязательноДа
+description: Имя сайта SharePoint. Обязательно Да
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/sitecollectionurl/
 ---
 ## SharePointMetadata.SiteCollectionUrl property
 
-Имя сайта SharePoint. Обязательно:Да
+Имя сайта SharePoint. Обязательно: Да
 
 ```csharp
 public string SiteCollectionUrl { get; set; }

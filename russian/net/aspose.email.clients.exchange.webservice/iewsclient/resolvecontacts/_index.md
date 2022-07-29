@@ -1,14 +1,14 @@
 ---
 title: ResolveContacts
 second_title: Справочник по Aspose.Email для .NET API
-description: Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечаниемаксимальное количество возвращенных контактов равно 100. Это ограничение используемой команды обмена.
+description: Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечание максимальное количество возвращаемых контактов равно 100. Это ограничение используемой команды обмена.
 type: docs
 weight: 1370
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/resolvecontacts/
 ---
 ## ResolveContacts(string) {#resolvecontacts}
 
-Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечание:максимальное количество возвращенных контактов равно 100. Это ограничение используемой команды обмена.
+Разрешает неоднозначные отображаемые имена почтовых ящиков. Примечание: максимальное количество возвращаемых контактов равно 100. Это ограничение используемой команды обмена.
 
 ```csharp
 public Contact[] ResolveContacts(string unresolvedEntry)
@@ -20,7 +20,7 @@ public Contact[] ResolveContacts(string unresolvedEntry)
 
 ### Возвращаемое значение
 
-Массив объектов[`Contact`](../../../aspose.email.personalinfo/contact).
+Массив[`Contact`](../../../aspose.email.personalinfo/contact) объекты.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public Contact[] ResolveContacts(string unresolvedEntry)
 
 ## ResolveContacts(string, ExchangeListContactsOptions) {#resolvecontacts_1}
 
-Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов — 100. Это ограничение используемой операции EWS. .
+Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов — 100. Это ограничение используемой операции EWS.
 
 ```csharp
 public Contact[] ResolveContacts(string unresolvedEntry, ExchangeListContactsOptions options)
@@ -46,13 +46,13 @@ public Contact[] ResolveContacts(string unresolvedEntry, ExchangeListContactsOpt
 
 ### Возвращаемое значение
 
-Контакты, представляющие контакты информация
+Контакты, представляющие контактную информацию
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *unresolvedEntry*is` null` или` empty` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *unresolvedEntry* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ESearchOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Параметры результата ESEARCH Этот метод работает только если сервер поддерживает расширение ESEARCH. Подробнее https//tools.ietf.org/html/rfc4315
+description: Параметры результата ESEARCH Этот метод работает только если сервер поддерживает расширение ESEARCH. Пожалуйста читайте больше https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 16220
 url: /ru/net/aspose.email.clients.imap/esearchoptions/
 ---
 ## ESearchOptions class
 
-Параметры результата ESEARCH Этот метод работает, только если сервер поддерживает расширение ESEARCH. Подробнее https://tools.ietf.org/html/rfc4315
+Параметры результата ESEARCH Этот метод работает, только если сервер поддерживает расширение ESEARCH. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public class ESearchOptions : QueryField
@@ -31,9 +31,9 @@ public class ESearchOptions : QueryField
 | override [Equals](../../aspose.email.clients.imap/esearchoptions/equals)(object) |  |
 | override [ToString](../../aspose.email.clients.imap/esearchoptions/tostring)() | Строковое представление объекта |
 | [operator +](../../aspose.email.clients.imap/esearchoptions/op_addition) | Плюс операция определена |
-| [operator ==](../../aspose.email.clients.imap/esearchoptions/op_equality) | Операция Equel определена |
-| [operator !=](../../aspose.email.clients.imap/esearchoptions/op_inequality) | Определена операция Not equel |
-| [operator -](../../aspose.email.clients.imap/esearchoptions/op_subtraction) | Определена минусовая операция |
+| [operator ==](../../aspose.email.clients.imap/esearchoptions/op_equality) | Определена операция Equel |
+| [operator !=](../../aspose.email.clients.imap/esearchoptions/op_inequality) | Определена неравномерная операция |
+| [operator -](../../aspose.email.clients.imap/esearchoptions/op_subtraction) | Отрицательная операция определена |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Locality
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название местонахождения почтового пользователя например города. AreaAddress Properties Каноническое имяPidTagLocality Альтернативные именаPR_LOCALITY PR_LOCALITY_A PR_LOCALITY_W PR_BUSINESS_ADDRESS_LOCALITY PR_BUSINESS_ADDRESS_LOCALITY_A
+description: Содержит название местоположения почтового пользователя например города. Область Свойства адреса Каноническое имя PidTagLocality Альтернативные имена PR_LOCALITY PR_LOCALITY_A PR_LOCALITY_W PR_BUSINESS_ADDRESS_LOCALITY PR_BUSINESS_ADDRESS_0_LOCITY_LOCALITY
 type: docs
 weight: 12180
 url: /ru/net/aspose.email.mapi/knownpropertylist/locality/
 ---
 ## KnownPropertyList.Locality field
 
-Содержит название местонахождения почтового пользователя, например города. Area:Address Properties Каноническое имя:PidTagLocality Альтернативные имена:PR_LOCALITY, PR_LOCALITY_A, PR_LOCALITY_W, PR_BUSINESS_ADDRESS_LOCALITY, PR_BUSINESS_ADDRESS_LOCALITY_A,
+Содержит название местоположения почтового пользователя, например города. Область: Свойства адреса Каноническое имя: PidTagLocality Альтернативные имена: PR_LOCALITY, PR_LOCALITY_A, PR_LOCALITY_W, PR_BUSINESS_ADDRESS_LOCALITY, PR_BUSINESS_ADDRESS_0,_LOCITY_LOCALITY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Locality;

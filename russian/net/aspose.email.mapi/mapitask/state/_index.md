@@ -1,14 +1,14 @@
 ---
 title: State
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает текущее назначение состояние объекта Task.
+description: Получает или задает текущее состояние назначения объекта Task.
 type: docs
 weight: 190
 url: /ru/net/aspose.email.mapi/mapitask/state/
 ---
 ## MapiTask.State property
 
-Получает или устанавливает текущее назначение состояние объекта Task.
+Получает или задает текущее состояние назначения объекта Task.
 
 ```csharp
 public MapiTaskState State { get; set; }

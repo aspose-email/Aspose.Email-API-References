@@ -16,12 +16,12 @@ public ImapFolderInfo GetFolderInfo(IConnection connection, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения информации о |
 
 ### Возвращаемое значение
 
-Указанная информация о папке
+Информация об указанной папке
 
 ### Смотрите также
 
@@ -43,7 +43,7 @@ public ImapFolderInfo GetFolderInfo(string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка получить информацию о |
+| folderName | String | Папка для получения информации о |
 
 ### Возвращаемое значение
 

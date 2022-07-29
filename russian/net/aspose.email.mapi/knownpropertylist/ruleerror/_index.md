@@ -1,14 +1,14 @@
 ---
 title: RuleError
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит код ошибки указывающий на причину ошибки возникшей при выполнении правила. ОбластьExchangeMessageReadOnly Каноническое имяPidTagRuleError Альтернативные именаPR_RULE_ERROR ptagRuleError
+description: Содержит код ошибки указывающий причину ошибки возникшей при выполнении правила. Область ExchangeMessageReadOnly Каноническое имя PidTagRuleError Альтернативные имена PR_RULE_ERROR ptagRuleError
 type: docs
 weight: 16470
 url: /ru/net/aspose.email.mapi/knownpropertylist/ruleerror/
 ---
 ## KnownPropertyList.RuleError field
 
-Содержит код ошибки, указывающий на причину ошибки, возникшей при выполнении правила. Область:ExchangeMessageReadOnly Каноническое имя:PidTagRuleError Альтернативные имена:PR_RULE_ERROR, ptagRuleError
+Содержит код ошибки, указывающий причину ошибки, возникшей при выполнении правила. Область: ExchangeMessageReadOnly Каноническое имя: PidTagRuleError Альтернативные имена: PR_RULE_ERROR, ptagRuleError
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleError;

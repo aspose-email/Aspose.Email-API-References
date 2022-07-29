@@ -3,7 +3,7 @@ title: ValidationPolicy
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет политику проверки адреса электронной почты.
 type: docs
-weight: 20800
+weight: 20850
 url: /ru/net/aspose.email.tools.verifications/validationpolicy/
 ---
 ## ValidationPolicy enumeration
@@ -19,7 +19,7 @@ public enum ValidationPolicy
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | SyntaxOnly | `0` | Проверка синтаксиса адреса электронной почты. |
-| SyntaxAndDomain | `1` | Сначала проверяется синтаксис адреса электронной почты, а затем проверяется домен электронной почты. |
+| SyntaxAndDomain | `1` | Сначала проверьте синтаксис адреса электронной почты, а затем проверьте домен электронной почты. |
 
 ### Смотрите также
 

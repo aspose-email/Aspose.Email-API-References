@@ -1,14 +1,14 @@
 ---
 title: MailEnablePublicFolderAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Включить почту для общей папки
+description: Включить почту для общедоступной папки
 type: docs
 weight: 530
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/mailenablepublicfolderasync/
 ---
 ## IAsyncEwsClient.MailEnablePublicFolderAsync method
 
-Включить почту для общей папки
+Включить почту для общедоступной папки
 
 ```csharp
 public Task MailEnablePublicFolderAsync(string folderUri, 
@@ -18,13 +18,13 @@ public Task MailEnablePublicFolderAsync(string folderUri,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folderUri | String | URI папки |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: MapiNamedPropertyMappingStorage
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiNamedPropertyMappingStorageaspose.email.mapi/mapinamedpropertymappingstorage.
+description: Инициализирует новый экземплярMapiNamedPropertyMappingStorageaspose.email.mapi/mapinamedpropertymappingstorage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapinamedpropertymappingstorage/mapinamedpropertymappingstorage/
 ---
 ## MapiNamedPropertyMappingStorage constructor
 
-Инициализирует новый экземпляр класса[`MapiNamedPropertyMappingStorage`](../../mapinamedpropertymappingstorage).
+Инициализирует новый экземпляр[`MapiNamedPropertyMappingStorage`](../../mapinamedpropertymappingstorage) класс.
 
 ```csharp
 public MapiNamedPropertyMappingStorage()

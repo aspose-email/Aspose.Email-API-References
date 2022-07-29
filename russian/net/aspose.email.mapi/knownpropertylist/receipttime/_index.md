@@ -1,14 +1,14 @@
 ---
 title: ReceiptTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время отправки уведомления о размещении сообщения как указано в RFC3798. ОбластьЭлектронная почта Каноническое имяPidTagReceiptTime Альтернативные именаPR_RECEIPT_TIME ptagReceiptTime
+description: Содержит время отправки уведомления о размещении сообщения как указано в RFC3798. Область Email Каноническое имя PidTagReceiptTime Альтернативные имена PR_RECEIPT_TIME ptagReceiptTime
 type: docs
 weight: 15260
 url: /ru/net/aspose.email.mapi/knownpropertylist/receipttime/
 ---
 ## KnownPropertyList.ReceiptTime field
 
-Содержит время отправки уведомления о размещении сообщения, как указано в [RFC3798]. Область:Электронная почта Каноническое имя:PidTagReceiptTime Альтернативные имена:PR_RECEIPT_TIME, ptagReceiptTime
+Содержит время отправки уведомления о размещении сообщения, как указано в [RFC3798]. Область: Email Каноническое имя: PidTagReceiptTime Альтернативные имена: PR_RECEIPT_TIME, ptagReceiptTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceiptTime;

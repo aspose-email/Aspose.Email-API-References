@@ -1,14 +1,14 @@
 ---
 title: ContentDisposition
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаContentDispositionaspose.email.mime/contentdisposition.
+description: Инициализирует новый экземплярContentDispositionaspose.email.mime/contentdisposition класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mime/contentdisposition/contentdisposition/
 ---
 ## ContentDisposition() {#constructor}
 
-Инициализирует новый экземпляр класса[`ContentDisposition`](../../contentdisposition).
+Инициализирует новый экземпляр[`ContentDisposition`](../../contentdisposition) класс.
 
 ```csharp
 public ContentDisposition()
@@ -24,7 +24,7 @@ public ContentDisposition()
 
 ## ContentDisposition(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ContentDisposition`](../../contentdisposition).
+Инициализирует новый экземпляр[`ContentDisposition`](../../contentdisposition) класс.
 
 ```csharp
 public ContentDisposition(string disposition)

@@ -1,14 +1,14 @@
 ---
 title: ConversationActionMoveFolderEid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID для папки назначения. ОбластьДействия диалога Каноническое имяPidLidConversationActionMoveFolderEid Альтернативные именаdispidConvActionMoveFolderEid
+description: Содержит EntryID для папки назначения. Область Conversation Actions Каноническое имя PidLidConversationActionMoveFolderEid Альтернативные имена dispidConvActionMoveFolderEid
 type: docs
 weight: 3360
 url: /ru/net/aspose.email.mapi/knownpropertylist/conversationactionmovefoldereid/
 ---
 ## KnownPropertyList.ConversationActionMoveFolderEid field
 
-Содержит EntryID для папки назначения. Область:Действия диалога Каноническое имя:PidLidConversationActionMoveFolderEid Альтернативные имена:dispidConvActionMoveFolderEid
+Содержит EntryID для папки назначения. Область: Conversation Actions Каноническое имя: PidLidConversationActionMoveFolderEid Альтернативные имена: dispidConvActionMoveFolderEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConversationActionMoveFolderEid;

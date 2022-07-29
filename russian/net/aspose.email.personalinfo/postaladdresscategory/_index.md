@@ -3,7 +3,7 @@ title: PostalAddressCategory
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет категорию для почтового адреса
 type: docs
-weight: 19470
+weight: 19500
 url: /ru/net/aspose.email.personalinfo/postaladdresscategory/
 ---
 ## PostalAddressCategory class
@@ -18,7 +18,7 @@ public class PostalAddressCategory : IEquatable<PostalAddressCategory>
 
 | Имя | Описание |
 | --- | --- |
-| [PostalAddressCategory](postaladdresscategory)(string) | Инициализирует новый экземпляр класса[`PostalAddressCategory`](../postaladdresscategory)с категорией Custom. |
+| [PostalAddressCategory](postaladdresscategory)(string) | Инициализирует новый экземпляр[`PostalAddressCategory`](../postaladdresscategory) класс с категорией «Пользовательский». |
 
 ## Характеристики
 
@@ -27,7 +27,7 @@ public class PostalAddressCategory : IEquatable<PostalAddressCategory>
 | static [Custom](../../aspose.email.personalinfo/postaladdresscategory/custom) { get; } | Определяет тип адреса как адрес другого типа. |
 | static [Home](../../aspose.email.personalinfo/postaladdresscategory/home) { get; } | Определяет тип адреса как домашний адрес. |
 | static [Work](../../aspose.email.personalinfo/postaladdresscategory/work) { get; } | Определяет тип адреса как рабочий адрес. |
-| [Description](../../aspose.email.personalinfo/postaladdresscategory/description) { get; } | Получает описание для категории "Пользовательский" почтового адреса |
+| [Description](../../aspose.email.personalinfo/postaladdresscategory/description) { get; } | Получает описание для категории «Пользовательский» почтового адреса |
 | [Value](../../aspose.email.personalinfo/postaladdresscategory/value) { get; } | Получает категорию почтового адреса |
 
 ## Методы
@@ -46,8 +46,8 @@ public class PostalAddressCategory : IEquatable<PostalAddressCategory>
 | Имя | Описание |
 | --- | --- |
 | const [CustomValue](../../aspose.email.personalinfo/postaladdresscategory/customvalue) | Строковое значение для категории "Пользовательский" |
-| const [HomeValue](../../aspose.email.personalinfo/postaladdresscategory/homevalue) | Строковое значение для категории «Дом» |
-| const [WorkValue](../../aspose.email.personalinfo/postaladdresscategory/workvalue) | Строковое значение для категории «Работа» |
+| const [HomeValue](../../aspose.email.personalinfo/postaladdresscategory/homevalue) | Строковое значение для категории "Главная" |
+| const [WorkValue](../../aspose.email.personalinfo/postaladdresscategory/workvalue) | Строковое значение для категории "Работа" |
 
 ### Смотрите также
 

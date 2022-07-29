@@ -18,7 +18,7 @@ public class FolderInfo : BaseRestObject
 
 | Имя | Описание |
 | --- | --- |
-| [FolderInfo](folderinfo)(MapiPropertyCollection) | Инициализирует новый экземпляр класса[`FolderInfo`](../folderinfo). |
+| [FolderInfo](folderinfo)(MapiPropertyCollection) | Инициализирует новый экземпляр[`FolderInfo`](../folderinfo) класс. |
 
 ## Характеристики
 

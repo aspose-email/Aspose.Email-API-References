@@ -1,14 +1,14 @@
 ---
 title: Html
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес деловой веб-страницы контакта. ОбластьСвойства контакта Каноническое имяPidLidHtml Альтернативные именаdispidHTML
+description: Указывает URL-адрес корпоративной веб-страницы контакта. Область Свойства контакта Каноническое имя PidLidHtml Альтернативные имена dispidHTML
 type: docs
 weight: 11100
 url: /ru/net/aspose.email.mapi/knownpropertylist/html/
 ---
 ## KnownPropertyList.Html field
 
-Указывает URL-адрес деловой веб-страницы контакта. Область:Свойства контакта Каноническое имя:PidLidHtml Альтернативные имена:dispidHTML
+Указывает URL-адрес корпоративной веб-страницы контакта. Область: Свойства контакта Каноническое имя: PidLidHtml Альтернативные имена: dispidHTML
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Html;

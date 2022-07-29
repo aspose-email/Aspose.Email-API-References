@@ -1,14 +1,14 @@
 ---
 title: XSenderTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер телефона вызывающего абонента связанный с сообщением голосовой почты. ОбластьЕдиная система обмена сообщениями Каноническое имяPidNameXSenderTelephoneNumber Альтернативные имена
+description: Содержит номер телефона вызывающего абонента связанного с сообщением голосовой почты. Область Единая система обмена сообщениями Каноническое имя PidNameXSenderTelephoneNumber Альтернативные имена
 type: docs
 weight: 19700
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsendertelephonenumber/
 ---
 ## KnownPropertyList.XSenderTelephoneNumber field
 
-Содержит номер телефона вызывающего абонента, связанный с сообщением голосовой почты. Область:Единая система обмена сообщениями Каноническое имя:PidNameXSenderTelephoneNumber Альтернативные имена:
+Содержит номер телефона вызывающего абонента, связанного с сообщением голосовой почты. Область: Единая система обмена сообщениями Каноническое имя: PidNameXSenderTelephoneNumber Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSenderTelephoneNumber;

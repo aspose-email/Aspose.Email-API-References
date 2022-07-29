@@ -3,7 +3,7 @@ title: EmailAddressList
 second_title: Справочник по Aspose.Email для .NET API
 description: Список адресов электронной почты для контакта
 type: docs
-weight: 19350
+weight: 19380
 url: /ru/net/aspose.email.personalinfo/emailaddresslist/
 ---
 ## EmailAddressList class
@@ -24,14 +24,14 @@ public class EmailAddressList : IList<EmailAddress>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.email.personalinfo/emailaddresslist/count) { get; } | Получает количество элементов, содержащихся в коллекцииICollection. |
-| [Email1](../../aspose.email.personalinfo/emailaddresslist/email1) { get; set; } | Адрес электронной почты по умолчанию. |
+| [Count](../../aspose.email.personalinfo/emailaddresslist/count) { get; } | Получает количество элементов, содержащихся вICollection . |
+| [Email1](../../aspose.email.personalinfo/emailaddresslist/email1) { get; set; } | Адрес электронной почты1 по умолчанию. |
 | [Email2](../../aspose.email.personalinfo/emailaddresslist/email2) { get; set; } | Адрес электронной почты2 по умолчанию. |
 | [Email3](../../aspose.email.personalinfo/emailaddresslist/email3) { get; set; } | Адрес электронной почты3 по умолчанию. |
 | [Home](../../aspose.email.personalinfo/emailaddresslist/home) { get; set; } | Домашний адрес электронной почты по умолчанию. |
 | [IsReadOnly](../../aspose.email.personalinfo/emailaddresslist/isreadonly) { get; } | Получает значение, указывающее, доступен ли список только для чтения. |
 | [Item](../../aspose.email.personalinfo/emailaddresslist/item) { get; set; } | Адрес электронной почты по умолчанию для указанной категории. (2 indexers) |
-| [SyncRoot](../../aspose.email.personalinfo/emailaddresslist/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа кICollection. |
+| [SyncRoot](../../aspose.email.personalinfo/emailaddresslist/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа кICollection . |
 | [Work](../../aspose.email.personalinfo/emailaddresslist/work) { get; set; } | Рабочий адрес электронной почты по умолчанию. |
 
 ## Методы

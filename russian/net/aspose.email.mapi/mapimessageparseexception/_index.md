@@ -1,14 +1,14 @@
 ---
 title: MapiMessageParseException
 second_title: Справочник по Aspose.Email для .NET API
-description: Это исключение выдается при возникновении ошибок при синтаксическом анализе MapiMessage.
+description: Это исключение возникает при возникновении ошибок при синтаксическом анализе MapiMessage.
 type: docs
-weight: 18450
+weight: 18480
 url: /ru/net/aspose.email.mapi/mapimessageparseexception/
 ---
 ## MapiMessageParseException class
 
-Это исключение выдается при возникновении ошибок при синтаксическом анализе MapiMessage.
+Это исключение возникает при возникновении ошибок при синтаксическом анализе MapiMessage.
 
 ```csharp
 public class MapiMessageParseException : Exception

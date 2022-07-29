@@ -1,14 +1,14 @@
 ---
 title: SaveMessageToStream
 second_title: Справочник по Aspose.Email для .NET API
-description: Сохраняет сообщение с указанным идентификатором записи в поток.
+description: Сохраняет сообщение с указанным идентификатором записи в потоке.
 type: docs
 weight: 290
 url: /ru/net/aspose.email.storage.pst/personalstorage/savemessagetostream/
 ---
 ## PersonalStorage.SaveMessageToStream method
 
-Сохраняет сообщение с указанным идентификатором записи в поток.
+Сохраняет сообщение с указанным идентификатором записи в потоке.
 
 ```csharp
 public void SaveMessageToStream(string entryId, Stream stream)

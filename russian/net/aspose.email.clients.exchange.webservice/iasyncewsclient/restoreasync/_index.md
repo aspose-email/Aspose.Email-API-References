@@ -19,13 +19,13 @@ public Task RestoreAsync(PersonalStorage pst, RestoreSettings settings,
 | --- | --- | --- |
 | pst | PersonalStorage | Личное хранилище, содержащее резервные копии папок обмена. |
 | settings | RestoreSettings | Настройки восстановления. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*is` null` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst* является`нулевой`. |
 
 ### Смотрите также
 

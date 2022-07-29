@@ -3,7 +3,7 @@ title: IntComparisonField
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет целочисленное поле поиска.
 type: docs
-weight: 20670
+weight: 20720
 url: /ru/net/aspose.email.tools.search/intcomparisonfield/
 ---
 ## IntComparisonField class
@@ -18,7 +18,7 @@ public sealed class IntComparisonField : ComparisonField
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.email.tools.search/intcomparisonfield/equals#equals)(int) | Указывает, что поле должно быть равно указанному значению. |
+| [Equals](../../aspose.email.tools.search/intcomparisonfield/equals#equals)(int) | Указывает, что поле должно быть равным указанному значению. |
 | [Greater](../../aspose.email.tools.search/intcomparisonfield/greater)(int) | Указывает, что поле должно быть больше указанного значения. |
 | [GreaterOrEqual](../../aspose.email.tools.search/intcomparisonfield/greaterorequal)(int) | Указывает, что поле должно быть больше или равно указанному значению. |
 | [Less](../../aspose.email.tools.search/intcomparisonfield/less)(int) | Указывает, что поле должно быть меньше указанного значения. |

@@ -17,7 +17,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffs
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemsPerPage | Int32 | Количество элементов в page |
+| itemsPerPage | Int32 | Количество элементов на странице |
 | pageOffset | Int32 | Смещение следующей страницы в поле зрения |
 | settings | PageSettings | Настройки. |
 
@@ -46,7 +46,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo page
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | pageInfo | PageInfo | Следующая страница для извлечения. |
 | settings | PageSettings | Настройки. |
 
@@ -77,7 +77,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffs
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemsPerPage | Int32 | Количество элементов в page |
+| itemsPerPage | Int32 | Количество элементов на странице |
 | pageOffset | Int32 | Смещение следующей страницы в поле зрения |
 | settings | PageSettings | Настройки. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -107,7 +107,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo page
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 | pageInfo | PageInfo | Следующая страница для извлечения. |
 | settings | PageSettings | Настройки. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |

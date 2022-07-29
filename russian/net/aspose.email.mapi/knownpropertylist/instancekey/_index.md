@@ -1,14 +1,14 @@
 ---
 title: InstanceKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит объект на сервере NSPI. ОбластьСвойства таблицы Каноническое имяPidTagInstanceKey Альтернативные именаPR_INSTANCE_KEY ptagInstanceKey
+description: Содержит объект на сервере NSPI. Область Свойства таблицы Каноническое имя PidTagInstanceKey Альтернативные имена PR_INSTANCE_KEY ptagInstanceKey
 type: docs
 weight: 11360
 url: /ru/net/aspose.email.mapi/knownpropertylist/instancekey/
 ---
 ## KnownPropertyList.InstanceKey field
 
-Содержит объект на сервере NSPI. Область:Свойства таблицы Каноническое имя:PidTagInstanceKey Альтернативные имена:PR_INSTANCE_KEY, ptagInstanceKey
+Содержит объект на сервере NSPI. Область: Свойства таблицы Каноническое имя: PidTagInstanceKey Альтернативные имена: PR_INSTANCE_KEY, ptagInstanceKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InstanceKey;

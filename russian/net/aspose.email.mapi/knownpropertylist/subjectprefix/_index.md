@@ -1,14 +1,14 @@
 ---
 title: SubjectPrefix
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит префикс темы сообщения. ОбластьОбщие свойства сообщения Каноническое имяPidTagSubjectPrefix Альтернативные именаPR_SUBJECT_PREFIX PR_SUBJECT_PREFIX_A ptagSubjectPrefix PR_SUBJECT_PREFIX_W
+description: Содержит префикс темы сообщения. Область Общие свойства сообщения Каноническое имя PidTagSubjectPrefix Альтернативные имена PR_SUBJECT_PREFIX PR_SUBJECT_PREFIX_A ptagSubjectPrefix PR_SUBJECT_PREFIX_W
 type: docs
 weight: 18360
 url: /ru/net/aspose.email.mapi/knownpropertylist/subjectprefix/
 ---
 ## KnownPropertyList.SubjectPrefix field
 
-Содержит префикс темы сообщения. Область:Общие свойства сообщения Каноническое имя:PidTagSubjectPrefix Альтернативные имена:PR_SUBJECT_PREFIX, PR_SUBJECT_PREFIX_A, ptagSubjectPrefix, PR_SUBJECT_PREFIX_W
+Содержит префикс темы сообщения. Область: Общие свойства сообщения Каноническое имя: PidTagSubjectPrefix Альтернативные имена: PR_SUBJECT_PREFIX, PR_SUBJECT_PREFIX_A, ptagSubjectPrefix, PR_SUBJECT_PREFIX_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SubjectPrefix;

@@ -18,25 +18,25 @@ public class BackupSettings
 
 | Имя | Описание |
 | --- | --- |
-| [BackupSettings](backupsettings#constructor)() | Инициализирует новый экземпляр класса[`BackupSettings`](../backupsettings) |
-| [BackupSettings](backupsettings#constructor_1)(BackupOptions) | Инициализирует новый экземпляр класса[`BackupSettings`](../backupsettings) |
-| [BackupSettings](backupsettings#constructor_2)(bool, bool, int, int) | Инициализирует новый экземпляр класса[`BackupSettings`](../backupsettings) |
+| [BackupSettings](backupsettings#constructor)() | Инициализирует новый экземпляр[`BackupSettings`](../backupsettings) класс |
+| [BackupSettings](backupsettings#constructor_1)(BackupOptions) | Инициализирует новый экземпляр[`BackupSettings`](../backupsettings) класс |
+| [BackupSettings](backupsettings#constructor_2)(bool, bool, int, int) | Инициализирует новый экземпляр[`BackupSettings`](../backupsettings) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [Default](../../aspose.email.clients.imap/backupsettings/default) { get; } | Получает[`BackupSettings`](../backupsettings)класс с настройками по умолчанию |
+| static [Default](../../aspose.email.clients.imap/backupsettings/default) { get; } | получает[`BackupSettings`](../backupsettings) класс с настройками по умолчанию |
 | [ExecuteRecursively](../../aspose.email.clients.imap/backupsettings/executerecursively) { get; set; } | Получает или задает значение, которое определяет, должно ли резервное копирование выполняться рекурсивно |
-| [NumberOfAttemptsToRrepeat](../../aspose.email.clients.imap/backupsettings/numberofattemptstorrepeat) { get; set; } | Получает или задает значение, которое определяет количество попыток повторить неудачную операцию В случае, если какая-то команда IMAP внутри операции резервного копирования возвращает неудачный результат, клиент IMAP пытается повторить эту операцию снова в соответствии с заданным количеством раз. Например, если операция FETCH возвращает ошибку AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] FETCH Служба временно недоступна Клиент пытается выполнить его снова. |
-| [RestoreConnection](../../aspose.email.clients.imap/backupsettings/restoreconnection) { get; set; } | Получает или задает значение, определяющее, нужно ли восстанавливать соединение в случае, если сервер принудительно закрывает соединение Эта опция должна использоваться вместе с NumberOfAttemptsToRrepeat вариант. |
-| [TimeoutBetweenAttempts](../../aspose.email.clients.imap/backupsettings/timeoutbetweenattempts) { get; set; } | Возвращает или задает значение, определяющее время ожидания (в миллисекундах) между попытками повторного выполнения операции Эта опция должна использоваться вместе с опцией NumberOfAttemptsToRrepeat. |
+| [NumberOfAttemptsToRrepeat](../../aspose.email.clients.imap/backupsettings/numberofattemptstorrepeat) { get; set; } | Получает или задает значение, которое определяет количество попыток повторить неудачную операцию В случае, если какая-то команда IMAP внутри операции резервного копирования возвращает неудачный результат, клиент IMAP пытается повторить эту операцию снова в соответствии с заданным количеством раз. Например, если операция FETCH возвращает error AE_1_1_0243 FETCH 219 (BODY) AE_1_1_0243 NO[UNAVAILABLE] Служба FETCH временно недоступна Клиент пытается выполнить ее снова. |
+| [RestoreConnection](../../aspose.email.clients.imap/backupsettings/restoreconnection) { get; set; } | Получает или задает значение, определяющее, нужно ли восстанавливать соединение в случае, если сервер принудительно закрывает соединение. Эта опция должна использоваться вместе с опцией NumberOfAttemptsToRrepeat. |
+| [TimeoutBetweenAttempts](../../aspose.email.clients.imap/backupsettings/timeoutbetweenattempts) { get; set; } | Получает или задает значение, определяющее тайм-аут (в миллисекундах) между попытками выполнить операцию снова Этот параметр должен использоваться вместе с параметром NumberOfAttemptsToRrepeat. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [implicit operator](../../aspose.email.clients.imap/backupsettings/op_implicit) | Преобразует перечисляемые параметры в класс |
+| [implicit operator](../../aspose.email.clients.imap/backupsettings/op_implicit) | Преобразует перечисляемые параметры в class |
 
 ### Смотрите также
 

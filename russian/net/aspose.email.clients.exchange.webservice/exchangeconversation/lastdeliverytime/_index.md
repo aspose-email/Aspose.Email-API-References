@@ -1,14 +1,14 @@
 ---
 title: LastDeliveryTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает время доставки сообщения полученного в последний раз в этой беседе в текущей папке.
+description: Получает время доставки сообщения которое было получено последним в этом диалоге в текущей папке.
 type: docs
 weight: 220
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeconversation/lastdeliverytime/
 ---
 ## ExchangeConversation.LastDeliveryTime property
 
-Получает время доставки сообщения, полученного в последний раз в этой беседе в текущей папке.
+Получает время доставки сообщения, которое было получено последним в этом диалоге в текущей папке.
 
 ```csharp
 public DateTime LastDeliveryTime { get; }

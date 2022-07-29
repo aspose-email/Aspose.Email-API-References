@@ -16,7 +16,7 @@ public bool Remove(PostalAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | PostalAddress | ОбъектObjectдля удаления из списка. |
+| value | PostalAddress | Object удалить из списка. |
 
 ### Смотрите также
 

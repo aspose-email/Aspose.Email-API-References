@@ -16,9 +16,9 @@ public void Forward(IConnection connection, string sender, string recipient, Mai
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sender | String | Отправитель переадресованного сообщения. |
-| recipient | String | Получатель перенаправленного сообщения. |
+| connection | IConnection | Подключение к серверу |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipient | String | Получатель пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 
 ### Смотрите также
@@ -42,9 +42,9 @@ public void Forward(IConnection connection, string sender, MailAddressCollection
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sender | String | Отправитель переадресованного сообщения. |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| connection | IConnection | Подключение к серверу |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 
 ### Смотрите также
@@ -68,8 +68,8 @@ public void Forward(string sender, string recipient, MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sender | String | Отправитель пересылаемого сообщения . |
-| recipient | String | Получатель перенаправленного сообщения. |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipient | String | Получатель пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 
 ### Смотрите также
@@ -91,8 +91,8 @@ public void Forward(string sender, MailAddressCollection recipients, MailMessage
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sender | String | Отправитель пересылаемого сообщения . |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | message | MailMessage | Сообщение для переадресации. |
 
 ### Смотрите также
@@ -116,9 +116,9 @@ public void Forward(IConnection connection, string sender, MailAddressCollection
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| sender | String | Отправитель переадресованного сообщения. |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| connection | IConnection | Подключение к серверу |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | messageStream | Stream | Поток, представляющий сообщение в формате eml. |
 
 ### Смотрите также
@@ -141,8 +141,8 @@ public void Forward(string sender, MailAddressCollection recipients, Stream mess
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sender | String | Отправитель пересылаемого сообщения . |
-| recipients | MailAddressCollection | Получатели переадресованного сообщения. |
+| sender | String | Отправитель пересылаемого сообщения. |
+| recipients | MailAddressCollection | Получатели пересылаемого сообщения. |
 | messageStream | Stream | Поток, представляющий сообщение в формате eml. |
 
 ### Смотрите также

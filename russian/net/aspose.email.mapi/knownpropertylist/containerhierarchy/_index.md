@@ -1,14 +1,14 @@
 ---
 title: ContainerHierarchy
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует все подпапки текущей папки. ОбластьСвойства контейнера Каноническое имяPidTagContainerHierarchy Альтернативные именаPR_CONTAINER_HIERARCHY ptagContainerHierarchy
+description: Идентифицирует все подпапки текущей папки. Область Свойства контейнера Каноническое имя PidTagContainerHierarchy Альтернативные имена PR_CONTAINER_HIERARCHY ptagContainerHierarchy
 type: docs
 weight: 3130
 url: /ru/net/aspose.email.mapi/knownpropertylist/containerhierarchy/
 ---
 ## KnownPropertyList.ContainerHierarchy field
 
-Идентифицирует все подпапки текущей папки. Область:Свойства контейнера Каноническое имя:PidTagContainerHierarchy Альтернативные имена:PR_CONTAINER_HIERARCHY, ptagContainerHierarchy
+Идентифицирует все подпапки текущей папки. Область: Свойства контейнера Каноническое имя: PidTagContainerHierarchy Альтернативные имена: PR_CONTAINER_HIERARCHY, ptagContainerHierarchy
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContainerHierarchy;

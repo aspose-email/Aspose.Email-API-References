@@ -1,14 +1,14 @@
 ---
 title: CC
 second_title: Справочник по Aspose.Email для .NET API
-description: Набор адресов электронной почты которые были в строке CC сообщения. ОбязательноДа
+description: Набор адресов электронной почты которые были в строке копии сообщения. Обязательно Yes
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/exchangemetadata/cc/
 ---
 ## ExchangeMetadata.CC property
 
-Набор адресов электронной почты, которые были в строке CC сообщения. Обязательно:Да
+Набор адресов электронной почты, которые были в строке копии сообщения. Обязательно: Yes
 
 ```csharp
 public string[] CC { get; set; }

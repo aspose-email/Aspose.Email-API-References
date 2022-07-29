@@ -1,14 +1,14 @@
 ---
 title: Email2EmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает адрес электронной почты контакта. ОбластьСвойства контакта Каноническое имяPidLidEmail2EmailAddress Альтернативные именаdispidEmail2EmailAddress
+description: Указывает адрес электронной почты контакта. Область Свойства контакта Каноническое имя PidLidEmail2EmailAddress Альтернативные имена dispidEmail2EmailAddress
 type: docs
 weight: 4390
 url: /ru/net/aspose.email.mapi/knownpropertylist/email2emailaddress/
 ---
 ## KnownPropertyList.Email2EmailAddress field
 
-Указывает адрес электронной почты контакта. Область:Свойства контакта Каноническое имя:PidLidEmail2EmailAddress Альтернативные имена:dispidEmail2EmailAddress
+Указывает адрес электронной почты контакта. Область: Свойства контакта Каноническое имя: PidLidEmail2EmailAddress Альтернативные имена: dispidEmail2EmailAddress
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email2EmailAddress;

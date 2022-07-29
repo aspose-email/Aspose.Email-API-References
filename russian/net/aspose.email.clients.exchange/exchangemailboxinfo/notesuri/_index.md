@@ -1,14 +1,14 @@
 ---
 title: NotesUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает uri заметок.
+description: Получает заметки uri.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/notesuri/
 ---
 ## ExchangeMailboxInfo.NotesUri property
 
-Получает uri заметок.
+Получает заметки uri.
 
 ```csharp
 public abstract string NotesUri { get; set; }

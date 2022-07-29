@@ -1,14 +1,14 @@
 ---
 title: UnreadContentsCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Поиск папок с указанным количеством непрочитанного содержимого.
+description: Поиск в папках с указанным количеством непрочитанного содержимого.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.storage.pst/personalstoragequerybuilder/unreadcontentscount/
 ---
 ## PersonalStorageQueryBuilder.UnreadContentsCount property
 
-Поиск папок с указанным количеством непрочитанного содержимого.
+Поиск в папках с указанным количеством непрочитанного содержимого.
 
 ```csharp
 public IntComparisonField UnreadContentsCount { get; }

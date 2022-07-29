@@ -16,7 +16,7 @@ public string AddMessage(MapiMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | Сообщение, которое необходимо добавить. |
+| message | MapiMessage | Сообщение необходимо добавить. |
 
 ### Возвращаемое значение
 
@@ -26,9 +26,9 @@ public string AddMessage(MapiMessage message)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если версия файла PST — ANSI. |
+| NotImplementedException | выдает, если версия PST-файла — ANSI. |
 | ArgumentNullException | выдает, если добавляемое сообщение равно null. |
-| InvalidOperationException | выдает, если PST открыт только для чтения. |
+| InvalidOperationException | бросает, если PST открыт только для чтения. |
 
 ### Смотрите также
 

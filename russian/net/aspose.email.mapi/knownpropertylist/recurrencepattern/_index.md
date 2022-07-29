@@ -1,14 +1,14 @@
 ---
 title: RecurrencePattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает описание шаблона повторения объекта Calendar. ОбластьКалендарь Каноническое имяPidLidRecurrencePattern Альтернативные именаdispidRecurPattern
+description: Задает описание шаблона повторения объекта Calendar. Область Calendar Каноническое имя PidLidRecurrencePattern Альтернативные имена dispidRecurPattern
 type: docs
 weight: 15590
 url: /ru/net/aspose.email.mapi/knownpropertylist/recurrencepattern/
 ---
 ## KnownPropertyList.RecurrencePattern field
 
-Задает описание шаблона повторения объекта Calendar. Область:Календарь Каноническое имя:PidLidRecurrencePattern Альтернативные имена:dispidRecurPattern
+Задает описание шаблона повторения объекта Calendar. Область: Calendar Каноническое имя: PidLidRecurrencePattern Альтернативные имена: dispidRecurPattern
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RecurrencePattern;

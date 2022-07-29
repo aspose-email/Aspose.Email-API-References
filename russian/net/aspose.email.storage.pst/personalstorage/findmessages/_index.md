@@ -1,14 +1,14 @@
 ---
 title: FindMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Находит идентификаторы сообщений для текущей папки. Это может быть полезно в случае чтения поврежденного PST когда методы GetContents и EnumerateMessages могут генерировать исключение.
+description: Находит идентификаторы сообщений для текущей папки. Может быть полезно в случае чтения поврежденного файла pst когда методы GetContents и EnumerateMessages могли вызвать исключение.
 type: docs
 weight: 200
 url: /ru/net/aspose.email.storage.pst/personalstorage/findmessages/
 ---
 ## PersonalStorage.FindMessages method
 
-Находит идентификаторы сообщений для текущей папки. Это может быть полезно в случае чтения поврежденного PST, когда методы GetContents и EnumerateMessages могут генерировать исключение.
+Находит идентификаторы сообщений для текущей папки. Может быть полезно в случае чтения поврежденного файла pst, когда методы GetContents и EnumerateMessages могли вызвать исключение.
 
 ```csharp
 public IList<string> FindMessages(string parentEntryId)
@@ -20,7 +20,7 @@ public IList<string> FindMessages(string parentEntryId)
 
 ### Возвращаемое значение
 
-Коллекция идентификаторов записей.
+Сбор идентификаторов записей.
 
 ### Смотрите также
 

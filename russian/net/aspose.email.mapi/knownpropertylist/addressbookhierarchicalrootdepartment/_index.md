@@ -1,14 +1,14 @@
 ---
 title: AddressBookHierarchicalRootDepartment
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит различающееся имя DN либо объекта корневого отдела либо группы корневых отделов в иерархии отделов организации. ОбластьАдресная книга Каноническое имяPidTagAddressBookHierarchicalRootDepartment Альтернативные именаPR_EMS_AB_HAB_ROOT_DEPARTMENT
+description: Содержит различающееся имя DN либо объекта корневого отдела либо группы корневых отделов в иерархии отделов организации. Область Адресная книга Каноническое имя PidTagAddressBookHierarchicalRootDepartment Альтернативные имена PR_EMS_AB_HAB_ROOT_DEPARTMENT
 type: docs
 weight: 650
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalrootdepartment/
 ---
 ## KnownPropertyList.AddressBookHierarchicalRootDepartment field
 
-Содержит различающееся имя (DN) либо объекта корневого отдела, либо группы корневых отделов в иерархии отделов организации. Область:Адресная книга Каноническое имя:PidTagAddressBookHierarchicalRootDepartment Альтернативные имена:PR_EMS_AB_HAB_ROOT_DEPARTMENT
+Содержит различающееся имя (DN) либо объекта корневого отдела, либо группы корневых отделов в иерархии отделов организации. Область: Адресная книга Каноническое имя: PidTagAddressBookHierarchicalRootDepartment Альтернативные имена: PR_EMS_AB_HAB_ROOT_DEPARTMENT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHierarchicalRootDepartment;

@@ -1,14 +1,14 @@
 ---
 title: ContainerClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит строковое значение описывающее тип объекта сообщения содержащегося в папке. ОбластьСвойства контейнера Каноническое имяPidTagContainerClass Альтернативные именаPR_CONTAINER_CLASS PR_CONTAINER_CLASS_A ptagContainerClass PR_CONTAINER_CLASS_W
+description: Содержит строковое значение описывающее тип объекта сообщения содержащегося в папке. Область Свойства контейнера Каноническое имя PidTagContainerClass Альтернативные имена PR_CONTAINER_CLASS PR_CONTAINER_CLASS_A ptagContainerClass PR_CONTAINER_CLASS_W
 type: docs
 weight: 3100
 url: /ru/net/aspose.email.mapi/knownpropertylist/containerclass/
 ---
 ## KnownPropertyList.ContainerClass field
 
-Содержит строковое значение, описывающее тип объекта сообщения, содержащегося в папке. Область:Свойства контейнера Каноническое имя:PidTagContainerClass Альтернативные имена:PR_CONTAINER_CLASS, PR_CONTAINER_CLASS_A, ptagContainerClass, PR_CONTAINER_CLASS_W,
+Содержит строковое значение, описывающее тип объекта сообщения, содержащегося в папке. Область: Свойства контейнера Каноническое имя: PidTagContainerClass Альтернативные имена: PR_CONTAINER_CLASS, PR_CONTAINER_CLASS_A, ptagContainerClass, PR_CONTAINER_CLASS_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContainerClass;

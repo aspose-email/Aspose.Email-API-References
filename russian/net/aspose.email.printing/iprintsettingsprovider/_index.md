@@ -1,14 +1,14 @@
 ---
 title: IPrintSettingsProvider
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет собой источник настроек принтера которые можно использовать дляMailPrinter./mailprinterинициализации.
+description: Представляет собой источник настроек принтера которые можно использовать дляMailPrinter./mailprinter инициализация.
 type: docs
-weight: 19810
+weight: 19860
 url: /ru/net/aspose.email.printing/iprintsettingsprovider/
 ---
 ## IPrintSettingsProvider interface
 
-Представляет собой источник настроек принтера, которые можно использовать для[`MailPrinter`](../mailprinter)инициализации.
+Представляет собой источник настроек принтера, которые можно использовать для[`MailPrinter`](../mailprinter) инициализация.
 
 ```csharp
 public interface IPrintSettingsProvider
@@ -19,7 +19,7 @@ public interface IPrintSettingsProvider
 | Имя | Описание |
 | --- | --- |
 | [CultureName](../../aspose.email.printing/iprintsettingsprovider/culturename) { get; set; } | Получает или задает имя языка и региональных параметров в формате код_языка2-страна/код_региона2. |
-| [DpiX](../../aspose.email.printing/iprintsettingsprovider/dpix) { get; set; } | Получает или задает горизонтальное значение DPI. |
+| [DpiX](../../aspose.email.printing/iprintsettingsprovider/dpix) { get; set; } | Получает или задает горизонтальный DPI. |
 | [DpiY](../../aspose.email.printing/iprintsettingsprovider/dpiy) { get; set; } | Получает или задает вертикальный DPI. |
 | [FormattingFlags](../../aspose.email.printing/iprintsettingsprovider/formattingflags) { get; set; } | Получает или задает параметры принтера. |
 | [MarginBottom](../../aspose.email.printing/iprintsettingsprovider/marginbottom) { get; set; } | Получает или задает нижнее поле. |
@@ -27,7 +27,7 @@ public interface IPrintSettingsProvider
 | [MarginRight](../../aspose.email.printing/iprintsettingsprovider/marginright) { get; set; } | Получает или задает правое поле. |
 | [MarginTop](../../aspose.email.printing/iprintsettingsprovider/margintop) { get; set; } | Получает или задает верхнее поле. |
 | [PageHeight](../../aspose.email.printing/iprintsettingsprovider/pageheight) { get; set; } | Получает или задает высоту страницы. |
-| [PageUnit](../../aspose.email.printing/iprintsettingsprovider/pageunit) { get; set; } | Получает или задает единицу страницы. |
+| [PageUnit](../../aspose.email.printing/iprintsettingsprovider/pageunit) { get; set; } | Получает или задает единицу измерения страницы. |
 | [PageWidth](../../aspose.email.printing/iprintsettingsprovider/pagewidth) { get; set; } | Получает или задает ширину страницы. |
 
 ### Смотрите также

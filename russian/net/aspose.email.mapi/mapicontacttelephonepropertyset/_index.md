@@ -1,14 +1,14 @@
 ---
 title: MapiContactTelephonePropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Укажите дополнительные номера телефонов для контакта
+description: Укажите дополнительные телефонные номера для контакта
 type: docs
-weight: 18310
+weight: 18340
 url: /ru/net/aspose.email.mapi/mapicontacttelephonepropertyset/
 ---
 ## MapiContactTelephonePropertySet class
 
-Укажите дополнительные номера телефонов для контакта
+Укажите дополнительные телефонные номера для контакта
 
 ```csharp
 public sealed class MapiContactTelephonePropertySet
@@ -18,33 +18,33 @@ public sealed class MapiContactTelephonePropertySet
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor)() | Инициализирует новый экземпляр класса[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset)class |
-| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр класса[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset)class |
-| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_2)(string) | Инициализирует новый экземпляр класса[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset). |
+| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor)() | Инициализирует новый экземпляр[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) класс |
+| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) класс |
+| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_2)(string) | Инициализирует новый экземпляр[`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AssistantTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/assistanttelephonenumber) { get; set; } | Получает или устанавливает номер телефона помощника контакта |
-| [Business2TelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/business2telephonenumber) { get; set; } | Получает или устанавливает второй рабочий телефонный номер |
+| [Business2TelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/business2telephonenumber) { get; set; } | Получает или устанавливает второй рабочий номер телефона |
 | [BusinessTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/businesstelephonenumber) { get; set; } | Получает или устанавливает рабочий номер телефона |
 | [CallbackTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/callbacktelephonenumber) { get; set; } | Получает или устанавливает номер телефона обратного вызова |
 | [CarTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/cartelephonenumber) { get; set; } | Получает или устанавливает номер телефона автомобиля |
 | [CompanyMainTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/companymaintelephonenumber) { get; set; } | Получает или устанавливает номер телефона компании |
-| [DefaultTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/defaulttelephonenumber) { get; set; } | Значение электронного адреса по умолчанию Используется, когда пользователь не задает никакого электронного адреса, если свойство UseAutocomplete установлено как «истина» |
+| [DefaultTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/defaulttelephonenumber) { get; set; } | Значение электронного адреса по умолчанию Используется, когда пользователь не задает электронный адрес, если для свойства UseAutocomplete установлено значение «true» |
 | [Home2TelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/home2telephonenumber) { get; set; } | Получает или устанавливает второй номер домашнего телефона |
 | [HomeTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/hometelephonenumber) { get; set; } | Получает или устанавливает номер домашнего телефона |
-| [IsdnNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/isdnnumber) { get; set; } | Получает или устанавливает интегрированные услуги номер цифровой сети (ISDN) |
-| [IsEmpty](../../aspose.email.mapi/mapicontacttelephonepropertyset/isempty) { get; } | Показывает, если MapiContactTelephonePropertySet пуст |
+| [IsdnNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/isdnnumber) { get; set; } | Получает или задает интегрированные услуги номер цифровой сети (ISDN) |
+| [IsEmpty](../../aspose.email.mapi/mapicontacttelephonepropertyset/isempty) { get; } | Показывает, пуст ли MapiContactTelephonePropertySet |
 | [MobileTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/mobiletelephonenumber) { get; set; } | Получает или устанавливает номер мобильного телефона |
 | [OtherTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/othertelephonenumber) { get; set; } | Получает или устанавливает альтернативный номер телефона |
 | [PagerTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/pagertelephonenumber) { get; set; } | Получает или устанавливает номер телефона пейджера |
 | [PrimaryTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/primarytelephonenumber) { get; set; } | Получает или устанавливает основной номер телефона |
 | [RadioTelephoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/radiotelephonenumber) { get; set; } | Получает или устанавливает номер радиотелефона |
 | [TelexNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/telexnumber) { get; set; } | Получает или устанавливает номер телекса |
-| [TtyTddPhoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/ttytddphonenumber) { get; set; } | Получает или устанавливает номер телефона для текстового телефона контакта (TTY) или телекоммуникационного устройства для глухих ( ТДД) |
-| [UseAutocomplete](../../aspose.email.mapi/mapicontacttelephonepropertyset/useautocomplete) { get; set; } | Указывает, что один электронный адрес заполняется автоматически в случае, если пользователь не задает электронный адрес |
+| [TtyTddPhoneNumber](../../aspose.email.mapi/mapicontacttelephonepropertyset/ttytddphonenumber) { get; set; } | Получает или задает номер телефона для текстового телефона контакта (TTY) или телекоммуникационного устройства для глухих (TDD) |
+| [UseAutocomplete](../../aspose.email.mapi/mapicontacttelephonepropertyset/useautocomplete) { get; set; } | Указывает, что один электронный адрес заполняется автоматически в случае, если пользователь не задает какой-либо электронный адрес |
 
 ### Смотрите также
 

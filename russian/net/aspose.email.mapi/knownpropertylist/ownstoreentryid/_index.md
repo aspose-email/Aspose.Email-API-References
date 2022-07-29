@@ -1,14 +1,14 @@
 ---
 title: OwnStoreEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_OWN_STORE_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_OWN_STORE_ENTRYID
 type: docs
 weight: 14120
 url: /ru/net/aspose.email.mapi/knownpropertylist/ownstoreentryid/
 ---
 ## KnownPropertyList.OwnStoreEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_OWN_STORE_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_OWN_STORE_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OwnStoreEntryid;

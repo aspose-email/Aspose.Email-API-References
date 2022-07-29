@@ -1,14 +1,14 @@
 ---
 title: Period
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает интервал в днях через который повторяется шаблон встречи
+description: Получает или задает интервал в днях через который повторяется шаблон собрания
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapicalendardailyrecurrencepattern/period/
 ---
 ## MapiCalendarDailyRecurrencePattern.Period property
 
-Получает или задает интервал (в днях), через который повторяется шаблон встречи
+Получает или задает интервал (в днях), через который повторяется шаблон собрания
 
 ```csharp
 public override uint Period { get; set; }

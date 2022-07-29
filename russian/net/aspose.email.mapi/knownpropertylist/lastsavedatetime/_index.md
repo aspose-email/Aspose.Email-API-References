@@ -1,14 +1,14 @@
 ---
 title: LastSaveDateTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время в формате UTC когда файл был сохранен в последний раз. ОбластьОбщие Каноническое имяPidNameLastSaveDateTime Альтернативные именаurnschemas-microsoft-comofficeofficeLastSaved
+description: Указывает время в формате UTC когда файл был в последний раз сохранен.
 type: docs
 weight: 12050
 url: /ru/net/aspose.email.mapi/knownpropertylist/lastsavedatetime/
 ---
 ## KnownPropertyList.LastSaveDateTime field
 
-Указывает время в формате UTC, когда файл был сохранен в последний раз. Область:Общие Каноническое имя:PidNameLastSaveDateTime Альтернативные имена:urn:schemas-microsoft-com:office:office#LastSaved
+Указывает время в формате UTC, когда файл был в последний раз сохранен.
 
 ```csharp
 public static readonly PidNamePropertyDescriptor LastSaveDateTime;

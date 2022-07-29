@@ -1,14 +1,14 @@
 ---
 title: DeleteFolderAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Удаляет указанную папку. Этот метод представляет собой команду IMAP DELETE
+description: Удаляет указанную папку. Этот метод представляет IMAP DELETE command
 type: docs
 weight: 550
 url: /ru/net/aspose.email.clients.imap/imapclient/deletefolderasync/
 ---
 ## DeleteFolderAsync(IConnection, string) {#deletefolderasync}
 
-Удаляет указанную папку. Этот метод представляет собой команду IMAP DELETE
+Удаляет указанную папку. Этот метод представляет IMAP DELETE command
 
 ```csharp
 public Task DeleteFolderAsync(IConnection connection, string folderName)
@@ -34,7 +34,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName)
 
 ## DeleteFolderAsync(string) {#deletefolderasync_2}
 
-Удаляет указанную папку. Этот метод представляет команду IMAP DELETE
+Удаляет указанную папку. Этот метод представляет IMAP DELETE command
 
 ```csharp
 public Task DeleteFolderAsync(string folderName)
@@ -58,7 +58,7 @@ public Task DeleteFolderAsync(string folderName)
 
 ## DeleteFolderAsync(IConnection, string, CancellationToken) {#deletefolderasync_1}
 
-Удаляет указанную папку. Этот метод представляет собой команду IMAP DELETE
+Удаляет указанную папку. Этот метод представляет IMAP DELETE command
 
 ```csharp
 public Task DeleteFolderAsync(IConnection connection, string folderName, CancellationToken token)
@@ -85,7 +85,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName, Cancell
 
 ## DeleteFolderAsync(string, CancellationToken) {#deletefolderasync_3}
 
-Удаляет указанную папку. Этот метод представляет команду IMAP DELETE
+Удаляет указанную папку. Этот метод представляет IMAP DELETE command
 
 ```csharp
 public Task DeleteFolderAsync(string folderName, CancellationToken token)

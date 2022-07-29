@@ -1,14 +1,14 @@
 ---
 title: ComputerNetworkName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя компьютерной сети почтового пользователя. ОбластьСвойства контакта Каноническое имяPidTagComputerNetworkName Альтернативные именаPR_COMPUTER_NETWORK_NAME PR_COMPUTER_NETWORK_NAME_A
+description: Содержит имя компьютерной сети почтового пользователя. Область Свойства контакта Каноническое имя PidTagComputerNetworkName Альтернативные имена PR_COMPUTER_NETWORK_NAME PR_COMPUTER_NETWORK_NAME_A
 type: docs
 weight: 2850
 url: /ru/net/aspose.email.mapi/knownpropertylist/computernetworkname/
 ---
 ## KnownPropertyList.ComputerNetworkName field
 
-Содержит имя компьютерной сети почтового пользователя. Область:Свойства контакта Каноническое имя:PidTagComputerNetworkName Альтернативные имена:PR_COMPUTER_NETWORK_NAME, PR_COMPUTER_NETWORK_NAME_A,
+Содержит имя компьютерной сети почтового пользователя. Область: Свойства контакта Каноническое имя: PidTagComputerNetworkName Альтернативные имена: PR_COMPUTER_NETWORK_NAME, PR_COMPUTER_NETWORK_NAME_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ComputerNetworkName;

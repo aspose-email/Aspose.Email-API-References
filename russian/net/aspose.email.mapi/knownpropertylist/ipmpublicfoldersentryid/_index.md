@@ -1,14 +1,14 @@
 ---
 title: IpmPublicFoldersEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IPM_PUBLIC_FOLDERS_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IPM_PUBLIC_FOLDERS_ENTRYID
 type: docs
 weight: 11710
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmpublicfoldersentryid/
 ---
 ## KnownPropertyList.IpmPublicFoldersEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IPM_PUBLIC_FOLDERS_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IPM_PUBLIC_FOLDERS_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmPublicFoldersEntryid;

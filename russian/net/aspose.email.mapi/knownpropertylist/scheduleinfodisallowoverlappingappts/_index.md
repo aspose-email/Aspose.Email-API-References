@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoDisallowOverlappingAppts
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает должен ли клиент или сервер при автоматическом ответе на приглашения на собрание отклонять объекты запроса на собрание которые пересекаются с ранее запланированными событиями. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoDisallowOverlappingAppts Альтернативные именаPR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS
+description: Указывает должен ли клиент или сервер при автоматическом ответе на приглашения на собрание отклонять объекты запроса на собрание которые пересекаются с ранее запланированными событиями. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoDisallowOverlappingAppts Альтернативные имена PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS
 type: docs
 weight: 16780
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfodisallowoverlappingappts/
 ---
 ## KnownPropertyList.ScheduleInfoDisallowOverlappingAppts field
 
-Указывает, должен ли клиент или сервер при автоматическом ответе на приглашения на собрание отклонять объекты запроса на собрание, которые пересекаются с ранее запланированными событиями. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoDisallowOverlappingAppts Альтернативные имена:PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS
+Указывает, должен ли клиент или сервер при автоматическом ответе на приглашения на собрание отклонять объекты запроса на собрание, которые пересекаются с ранее запланированными событиями. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoDisallowOverlappingAppts Альтернативные имена: PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDisallowOverlappingAppts;

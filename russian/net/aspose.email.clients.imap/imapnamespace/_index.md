@@ -1,14 +1,14 @@
 ---
 title: ImapNamespace
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет пространство имен IMAP Подробнееhttps//tools.ietf.org/html/rfc2342
+description: Представляет пространство имен IMAP Дополнительные сведения https//tools.ietf.org/html/rfc2342
 type: docs
 weight: 16430
 url: /ru/net/aspose.email.clients.imap/imapnamespace/
 ---
 ## ImapNamespace class
 
-Представляет пространство имен IMAP Подробнее:https://tools.ietf.org/html/rfc2342
+Представляет пространство имен IMAP Дополнительные сведения: https://tools.ietf.org/html/rfc2342
 
 ```csharp
 public class ImapNamespace

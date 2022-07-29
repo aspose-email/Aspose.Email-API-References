@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Справочник по Aspose.Email для .NET API
 description: Предоставляет служебные методы для определения типа файла.
 type: docs
-weight: 20360
+weight: 20410
 url: /ru/net/aspose.email.tools/fileformatutil/
 ---
 ## FileFormatUtil class

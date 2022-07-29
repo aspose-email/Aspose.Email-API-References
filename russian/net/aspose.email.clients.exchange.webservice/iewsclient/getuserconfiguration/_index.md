@@ -16,17 +16,17 @@ public UserConfiguration GetUserConfiguration(UserConfigurationName userConfigur
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| userConfigurationName | UserConfigurationName | Задает конфигурацию пользователя для поиск |
+| userConfigurationName | UserConfigurationName | Указывает конфигурацию пользователя для поиска |
 
 ### Возвращаемое значение
 
-Получено[`UserConfiguration`](../../userconfiguration)
+получил[`UserConfiguration`](../../userconfiguration)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*userConfigurationName*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*userConfigurationName* является`нулевой` |
 
 ### Смотрите также
 

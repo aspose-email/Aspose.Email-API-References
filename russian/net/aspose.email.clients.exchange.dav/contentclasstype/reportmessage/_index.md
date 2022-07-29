@@ -1,14 +1,14 @@
 ---
 title: ReportMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение представляющее класс содержимого urncontent-classesreportmessage.
+description: Получает значение представляющее класс контента urncontent-classesreportmessage.
 type: docs
 weight: 200
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/reportmessage/
 ---
 ## ContentClassType.ReportMessage property
 
-Получает значение, представляющее класс содержимого urn:content-classes:reportmessage.
+Получает значение, представляющее класс контента urn:content-classes:reportmessage.
 
 ```csharp
 public static ContentClassType ReportMessage { get; }

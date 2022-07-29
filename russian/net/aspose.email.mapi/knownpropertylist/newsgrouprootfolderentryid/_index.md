@@ -1,14 +1,14 @@
 ---
 title: NewsgroupRootFolderEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_NEWSGROUP_ROOT_FOLDER_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_NEWSGROUP_ROOT_FOLDER_ENTRYID
 type: docs
 weight: 12870
 url: /ru/net/aspose.email.mapi/knownpropertylist/newsgrouprootfolderentryid/
 ---
 ## KnownPropertyList.NewsgroupRootFolderEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_NEWSGROUP_ROOT_FOLDER_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_NEWSGROUP_ROOT_FOLDER_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NewsgroupRootFolderEntryid;

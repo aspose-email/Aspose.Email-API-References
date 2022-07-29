@@ -1,14 +1,14 @@
 ---
 title: Assistant
 second_title: Справочник по Aspose.Email для .NET API
-description: Телефон помощника
+description: Номер телефона помощника
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/assistant/
 ---
 ## PhoneNumberCategory.Assistant property
 
-Телефон помощника
+Номер телефона помощника
 
 ```csharp
 public static PhoneNumberCategory Assistant { get; }

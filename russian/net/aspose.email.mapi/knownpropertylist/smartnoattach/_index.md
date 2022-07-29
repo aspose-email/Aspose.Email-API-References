@@ -1,14 +1,14 @@
 ---
 title: SmartNoAttach
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает не имеет ли объект сообщения видимых для конечного пользователя вложений. ОбластьКонфигурация времени выполнения Каноническое имяPidLidSmartNoAttach Альтернативные именаdispidSmartNoAttach
+description: Указывает не имеет ли объект сообщения видимых для конечного пользователя вложений. Область Конфигурация во время выполнения Каноническое имя PidLidSmartNoAttach Альтернативные имена dispidSmartNoAttach
 type: docs
 weight: 18070
 url: /ru/net/aspose.email.mapi/knownpropertylist/smartnoattach/
 ---
 ## KnownPropertyList.SmartNoAttach field
 
-Указывает, не имеет ли объект сообщения видимых для конечного пользователя вложений. Область:Конфигурация времени выполнения Каноническое имя:PidLidSmartNoAttach Альтернативные имена:dispidSmartNoAttach
+Указывает, не имеет ли объект сообщения видимых для конечного пользователя вложений. Область: Конфигурация во время выполнения Каноническое имя: PidLidSmartNoAttach Альтернативные имена: dispidSmartNoAttach
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SmartNoAttach;

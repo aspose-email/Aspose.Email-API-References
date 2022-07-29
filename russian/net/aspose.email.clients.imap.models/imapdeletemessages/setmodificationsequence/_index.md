@@ -1,14 +1,14 @@
 ---
 title: SetModificationSequence
 second_title: Справочник по Aspose.Email для .NET API
-description: Последовательность модификации. Пожалуйста читайте больше https//tools.ietf.org/html/rfc7162
+description: Последовательность модификации. Пожалуйста прочитайте больше https//tools.ietf.org/html/rfc7162
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap.models/imapdeletemessages/setmodificationsequence/
 ---
 ## ImapDeleteMessages.SetModificationSequence method
 
-Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162
+Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public ImapDeleteMessages SetModificationSequence(long modificationSequence)

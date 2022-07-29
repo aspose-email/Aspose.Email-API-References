@@ -1,14 +1,14 @@
 ---
 title: Messaging
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиОбмен сообщениями Имя набора свойствPSETID_Messaging
+description: Имя области Обмен сообщениями Имя набора свойств PSETID_Обмен сообщениями
 type: docs
 weight: 120
 url: /ru/net/aspose.email.mapi/knownpropertysets/messaging/
 ---
 ## KnownPropertySets.Messaging field
 
-Имя области:Обмен сообщениями Имя набора свойств:PSETID_Messaging
+Имя области: Обмен сообщениями Имя набора свойств: PSETID_Обмен сообщениями
 
 ```csharp
 public static readonly Guid Messaging;

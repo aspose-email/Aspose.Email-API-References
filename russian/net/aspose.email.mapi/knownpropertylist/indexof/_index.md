@@ -16,7 +16,7 @@ public int IndexOf(PropertyDescriptor item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | PropertyDescriptor | Объект, который необходимо найти в System.Collections.Generic.IList. |
+| item | PropertyDescriptor | Объект, который нужно найти в System.Collections.Generic.IList. |
 
 ### Возвращаемое значение
 

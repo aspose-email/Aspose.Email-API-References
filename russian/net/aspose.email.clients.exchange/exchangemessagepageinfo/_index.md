@@ -21,10 +21,10 @@ public class ExchangeMessagePageInfo : PageInfo
 | [AbsoluteOffset](../../aspose.email.clients/pageinfo/absoluteoffset) { get; set; } | Получает дополнительное смещение, добавляемое к начальному индексу страницы |
 | [Items](../../aspose.email.clients.exchange/exchangemessagepageinfo/items) { get; } | Получает коллекцию объектов ExchangeMessageInfo |
 | [ItemsPerPage](../../aspose.email.clients/pageinfo/itemsperpage) { get; set; } | Количество элементов на странице |
-| [LastPage](../../aspose.email.clients/pageinfo/lastpage) { get; set; } | Указывает, является ли текущая страница последней просматриваемой. |
+| [LastPage](../../aspose.email.clients/pageinfo/lastpage) { get; set; } | Указывает, является ли текущая страница последней просматриваемой страницей. |
 | override [NextPage](../../aspose.email.clients.exchange/exchangemessagepageinfo/nextpage) { get; } | Информация о следующей странице или null, если текущая страница последняя |
 | [PageOffset](../../aspose.email.clients/pageinfo/pageoffset) { get; set; } | Получает смещение страницы |
-| [TotalCount](../../aspose.email.clients/pageinfo/totalcount) { get; set; } | Получает общее количество элементов в поле зрения |
+| [TotalCount](../../aspose.email.clients/pageinfo/totalcount) { get; set; } | Получает общее количество элементов в view |
 
 ### Смотрите также
 

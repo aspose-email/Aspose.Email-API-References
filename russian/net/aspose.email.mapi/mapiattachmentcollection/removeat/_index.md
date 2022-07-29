@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Справочник по Aspose.Email для .NET API
-description: Удаляет элемент по указанному индексу из коллекции MapiAttachmentCollection.
+description: Удаляет элемент по указанному индексу MapiAttachmentCollection.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/mapiattachmentcollection/removeat/
 ---
 ## MapiAttachmentCollection.RemoveAt method
 
-Удаляет элемент по указанному индексу из коллекции MapiAttachmentCollection.
+Удаляет элемент по указанному индексу MapiAttachmentCollection.
 
 ```csharp
 public void RemoveAt(int index)

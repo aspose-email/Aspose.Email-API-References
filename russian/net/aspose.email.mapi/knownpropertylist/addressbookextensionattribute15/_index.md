@@ -1,14 +1,14 @@
 ---
 title: AddressBookExtensionAttribute15
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит пользовательские значения определенные и заполненные организацией которая изменила шаблоны отображения. ОбластьАдресная книга Каноническое имяPidTagAddressBookExtensionAttribute15 Альтернативные именаPR_EMS_AB_EXTENSION_ATTRIBUTE_15 PR_EMS_AB_EXTENSION_ATTRIBUTE_15_A PR_EMS_AB_EXTENSION_ATTRIBUTE_15_W
+description: Содержит пользовательские значения определенные и заполненные организацией которая изменила шаблоны отображения. Область Адресная книга Каноническое имя PidTagAddressBookExtensionAttribute15 Альтернативные имена PR_EMS_AB_EXTENSION_ATTRIBUTE_15 PR_EMS_AB_EXTENSION_ATTRIBUTE_15_A PR_EMS_AB_EXTENSION_ATTRIBUTE_15_W
 type: docs
 weight: 510
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookextensionattribute15/
 ---
 ## KnownPropertyList.AddressBookExtensionAttribute15 field
 
-Содержит пользовательские значения, определенные и заполненные организацией, которая изменила шаблоны отображения. Область:Адресная книга Каноническое имя:PidTagAddressBookExtensionAttribute15 Альтернативные имена:PR_EMS_AB_EXTENSION_ATTRIBUTE_15, PR_EMS_AB_EXTENSION_ATTRIBUTE_15_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_15_W
+Содержит пользовательские значения, определенные и заполненные организацией, которая изменила шаблоны отображения. Область: Адресная книга Каноническое имя: PidTagAddressBookExtensionAttribute15 Альтернативные имена: PR_EMS_AB_EXTENSION_ATTRIBUTE_15, PR_EMS_AB_EXTENSION_ATTRIBUTE_15_A, PR_EMS_AB_EXTENSION_ATTRIBUTE_15_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookExtensionAttribute15;

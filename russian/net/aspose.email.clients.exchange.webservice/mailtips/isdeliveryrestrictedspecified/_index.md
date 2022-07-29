@@ -1,14 +1,14 @@
 ---
 title: IsDeliveryRestrictedSpecified
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее указан лиDeliveryRestrictedaspose.email.clients.exchange.webservice/mailtips/deliveryrestricted
+description: Получает значение указывающееDeliveryRestrictedaspose.email.clients.exchange.webservice/mailtips/deliveryrestricted указан
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.exchange.webservice/mailtips/isdeliveryrestrictedspecified/
 ---
 ## MailTips.IsDeliveryRestrictedSpecified property
 
-Получает значение, указывающее, указан ли[`DeliveryRestricted`](../deliveryrestricted)
+Получает значение, указывающее,[`DeliveryRestricted`](../deliveryrestricted) указан
 
 ```csharp
 public bool IsDeliveryRestrictedSpecified { get; }

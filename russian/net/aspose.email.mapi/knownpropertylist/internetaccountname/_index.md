@@ -1,14 +1,14 @@
 ---
 title: InternetAccountName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает видимое пользователю имя учетной записи электронной почты через которую отправляется сообщение электронной почты. ОбластьОбщие свойства сообщения Каноническое имяPidLidInternetAccountName Альтернативные именаdispidInetAcctName
+description: Указывает видимое пользователю имя учетной записи электронной почты через которую отправляется сообщение электронной почты. Область Общие свойства сообщения Каноническое имя PidLidInternetAccountName Альтернативные имена dispidInetAcctName
 type: docs
 weight: 11410
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetaccountname/
 ---
 ## KnownPropertyList.InternetAccountName field
 
-Указывает видимое пользователю имя учетной записи электронной почты, через которую отправляется сообщение электронной почты. Область:Общие свойства сообщения Каноническое имя:PidLidInternetAccountName Альтернативные имена:dispidInetAcctName
+Указывает видимое пользователю имя учетной записи электронной почты, через которую отправляется сообщение электронной почты. Область: Общие свойства сообщения Каноническое имя: PidLidInternetAccountName Альтернативные имена: dispidInetAcctName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor InternetAccountName;

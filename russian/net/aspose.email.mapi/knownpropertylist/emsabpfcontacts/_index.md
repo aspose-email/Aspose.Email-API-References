@@ -1,14 +1,14 @@
 ---
 title: EmsAbPfContacts
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_PF_CONTACTS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_PF_CONTACTS
 type: docs
 weight: 8090
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabpfcontacts/
 ---
 ## KnownPropertyList.EmsAbPfContacts field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_PF_CONTACTS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_PF_CONTACTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbPfContacts;

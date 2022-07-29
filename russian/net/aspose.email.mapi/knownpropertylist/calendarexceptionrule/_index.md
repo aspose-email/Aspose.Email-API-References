@@ -1,14 +1,14 @@
 ---
 title: CalendarExceptionRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает правило исключения для повторяющейся встречи. ОбластьОбщие Каноническое имяPidNameCalendarExceptionRule Альтернативные именаurnschemascalendarexrule
+description: Указывает правило-исключение для повторяющейся встречи. Область Common Каноническое имя PidNameCalendarExceptionRule Альтернативные имена urnschemascalendarexrule
 type: docs
 weight: 2260
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarexceptionrule/
 ---
 ## KnownPropertyList.CalendarExceptionRule field
 
-Указывает правило исключения для повторяющейся встречи. Область:Общие Каноническое имя:PidNameCalendarExceptionRule Альтернативные имена:urn:schemas:calendar:exrule
+Указывает правило-исключение для повторяющейся встречи. Область: Common Каноническое имя: PidNameCalendarExceptionRule Альтернативные имена: urn:schemas:calendar:exrule
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarExceptionRule;

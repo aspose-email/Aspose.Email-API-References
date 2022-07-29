@@ -1,14 +1,14 @@
 ---
 title: EndDateTimeZone
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает информацию о часовом поясе указывающую часовой пояс свойства EndDate
+description: Получает или задает информацию о часовом поясе указывающую часовой пояс EndDate property
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/mapicalendar/enddatetimezone/
 ---
 ## MapiCalendar.EndDateTimeZone property
 
-Получает или задает информацию о часовом поясе, указывающую часовой пояс свойства EndDate
+Получает или задает информацию о часовом поясе, указывающую часовой пояс EndDate property
 
 ```csharp
 public MapiCalendarTimeZone EndDateTimeZone { get; set; }

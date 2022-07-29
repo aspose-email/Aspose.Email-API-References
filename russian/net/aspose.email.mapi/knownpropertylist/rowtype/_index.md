@@ -1,14 +1,14 @@
 ---
 title: RowType
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует тип строки. ОбластьMapiNonTransmittable Каноническое имяPidTagRowType Альтернативные именаPR_ROW_TYPE ptagRowType
+description: Идентифицирует тип строки. Область MapiNonTransmittable Каноническое имя PidTagRowType Альтернативные имена PR_ROW_TYPE ptagRowType
 type: docs
 weight: 16350
 url: /ru/net/aspose.email.mapi/knownpropertylist/rowtype/
 ---
 ## KnownPropertyList.RowType field
 
-Идентифицирует тип строки. Область:MapiNonTransmittable Каноническое имя:PidTagRowType Альтернативные имена:PR_ROW_TYPE, ptagRowType
+Идентифицирует тип строки. Область: MapiNonTransmittable Каноническое имя: PidTagRowType Альтернативные имена: PR_ROW_TYPE, ptagRowType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RowType;

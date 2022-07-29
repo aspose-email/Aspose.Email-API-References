@@ -1,14 +1,14 @@
 ---
 title: Exists
 second_title: Справочник по Aspose.Email для .NET API
-description: Получите выражение для поиска  которое возвращает true если предоставленное свойство существует.
+description: Получить выражение поиска  которое возвращает true если предоставленное свойство существует.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.exchange/comparisonfieldadapter/exists/
 ---
 ## ComparisonFieldAdapter.Exists method
 
-Получите выражение для поиска , которое возвращает true, если предоставленное свойство существует.
+Получить выражение поиска , которое возвращает true, если предоставленное свойство существует.
 
 ```csharp
 public MailQuery Exists(bool value)
@@ -16,7 +16,7 @@ public MailQuery Exists(bool value)
 
 ### Возвращаемое значение
 
-A[`MailQuery`](../../../aspose.email.tools.search/mailquery)объект, представляющий выражение поиска.
+А[`MailQuery`](../../../aspose.email.tools.search/mailquery) объект, представляющий выражение поиска.
 
 ### Смотрите также
 

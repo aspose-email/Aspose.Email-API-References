@@ -1,14 +1,14 @@
 ---
 title: OwnerCriticalChange
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время когда организатор отправил объект запроса на собрание. ОбластьВстречи Каноническое имяPidLidOwnerCriticalChange Альтернативные именаLID_OWNER_CRITICAL_CHANGE
+description: Указывает дату и время когда организатор отправил объект запроса на собрание. Область Meetings Каноническое имя PidLidOwnerCriticalChange Альтернативные имена LID_OWNER_CRITICAL_CHANGE
 type: docs
 weight: 14100
 url: /ru/net/aspose.email.mapi/knownpropertylist/ownercriticalchange/
 ---
 ## KnownPropertyList.OwnerCriticalChange field
 
-Указывает дату и время, когда организатор отправил объект запроса на собрание. Область:Встречи Каноническое имя:PidLidOwnerCriticalChange Альтернативные имена:LID_OWNER_CRITICAL_CHANGE
+Указывает дату и время, когда организатор отправил объект запроса на собрание. Область: Meetings Каноническое имя: PidLidOwnerCriticalChange Альтернативные имена: LID_OWNER_CRITICAL_CHANGE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OwnerCriticalChange;

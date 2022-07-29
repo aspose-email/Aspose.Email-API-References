@@ -1,14 +1,14 @@
 ---
 title: EwsFindPeople
 second_title: Справочник по Aspose.Email для .NET API
-description: ПредставляетFindPeopleAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasyncпараметры.
+description: ПредставляетFindPeopleAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync параметры.
 type: docs
 weight: 4070
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/
 ---
 ## EwsFindPeople class
 
-Представляет[`FindPeopleAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync)параметры.
+Представляет[`FindPeopleAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync) параметры.
 
 ```csharp
 public class EwsFindPeople
@@ -18,11 +18,11 @@ public class EwsFindPeople
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsfindpeople/create)() | Создает файл[`FindPeopleAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync)набор параметров. |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsfindpeople/create)() | Создает[`FindPeopleAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync) набор параметров. |
 | [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsfindpeople/setcancellationtoken)(CancellationToken) | Устанавливает токен отмены. |
 | [SetMailQuery](../../aspose.email.clients.exchange.webservice.models/ewsfindpeople/setmailquery)(MailQuery, string) | Задает почтовый запрос и URI папки для поиска контактов в личном почтовом ящике указанного пользователя. |
-| [SetMaxNumberOfItems](../../aspose.email.clients.exchange.webservice.models/ewsfindpeople/setmaxnumberofitems)(int) | Устанавливает максимальное количество предметов для поиска. |
-| [SetQueryString](../../aspose.email.clients.exchange.webservice.models/ewsfindpeople/setquerystring)(string) | Задает строку запроса для поиска контактов в глобальном списке адресов (GAL). |
+| [SetMaxNumberOfItems](../../aspose.email.clients.exchange.webservice.models/ewsfindpeople/setmaxnumberofitems)(int) | Устанавливает максимальное количество элементов для поиска. |
+| [SetQueryString](../../aspose.email.clients.exchange.webservice.models/ewsfindpeople/setquerystring)(string) | Устанавливает строку запроса для поиска контактов в глобальном списке адресов (GAL). |
 
 ### Смотрите также
 

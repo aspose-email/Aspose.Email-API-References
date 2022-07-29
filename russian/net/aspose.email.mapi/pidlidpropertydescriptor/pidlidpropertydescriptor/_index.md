@@ -1,14 +1,14 @@
 ---
 title: PidLidPropertyDescriptor
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPidLidPropertyDescriptoraspose.email.mapi/pidlidpropertydescriptor Свойства определенные беззнаковое 32-битное количество вместе с набором свойств.
+description: Инициализирует новый экземплярPidLidPropertyDescriptoraspose.email.mapi/pidlidpropertydescriptor class Свойства определяемые 32-битной величиной без знака вместе с набором свойств.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/pidlidpropertydescriptor/pidlidpropertydescriptor/
 ---
 ## PidLidPropertyDescriptor(long, PropertyDataType, Guid) {#constructor}
 
-Инициализирует новый экземпляр класса[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) Свойства, определенные беззнаковое 32-битное количество вместе с набором свойств.
+Инициализирует новый экземпляр[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) class Свойства, определяемые 32-битной величиной без знака вместе с набором свойств.
 
 ```csharp
 public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propertySet)
@@ -16,8 +16,8 @@ public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propert
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| longId | Int64 | длинный идентификатор (LID):32-разрядная величина без знака, которая в сочетании с GUID определяет именованное свойство. |
-| type | PropertyDataType | Указывает тип допустимых значений свойства. |
+| longId | Int64 | длинный идентификатор (LID): 32-разрядная величина без знака, которая в сочетании с GUID определяет именованное свойство. |
+| type | PropertyDataType | Указывает тип значений, разрешенных для свойства. |
 | propertySet | Guid | GUID, идентифицирующий группу свойств с аналогичной целью. |
 
 ### Смотрите также
@@ -31,7 +31,7 @@ public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propert
 
 ## PidLidPropertyDescriptor(string, long, PropertyDataType, Guid) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) Свойства, определенные беззнаковое 32-битное количество вместе с набором свойств.
+Инициализирует новый экземпляр[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) class Свойства, определяемые 32-битной величиной без знака вместе с набором свойств.
 
 ```csharp
 public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataType type, 
@@ -41,8 +41,8 @@ public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataT
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | canonicalName | String | Имя, используемое для ссылки на свойство в документации. |
-| longId | Int64 | длинный идентификатор (LID):32-разрядная величина без знака, которая в сочетании с GUID определяет именованное свойство. |
-| type | PropertyDataType | Указывает тип допустимых значений свойства. |
+| longId | Int64 | длинный идентификатор (LID): 32-разрядная величина без знака, которая в сочетании с GUID определяет именованное свойство. |
+| type | PropertyDataType | Указывает тип значений, разрешенных для свойства. |
 | propertySet | Guid | GUID, идентифицирующий группу свойств с аналогичной целью. |
 
 ### Смотрите также
@@ -56,7 +56,7 @@ public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataT
 
 ## PidLidPropertyDescriptor(string, string, long, PropertyDataType, Guid) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) Свойства, определенные беззнаковое 32-битное количество вместе с набором свойств.
+Инициализирует новый экземпляр[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) class Свойства, определяемые 32-битной величиной без знака вместе с набором свойств.
 
 ```csharp
 public PidLidPropertyDescriptor(string canonicalName, string name, long longId, 
@@ -67,8 +67,8 @@ public PidLidPropertyDescriptor(string canonicalName, string name, long longId,
 | --- | --- | --- |
 | canonicalName | String | Имя, используемое для ссылки на свойство в документации. |
 | name | String | Имя MAPI, используемое для ссылки на свойство в документации. |
-| longId | Int64 | длинный идентификатор (LID):32-разрядная величина без знака, которая в сочетании с GUID определяет именованное свойство. |
-| type | PropertyDataType | Указывает тип допустимых значений свойства. |
+| longId | Int64 | длинный идентификатор (LID): 32-разрядная величина без знака, которая в сочетании с GUID определяет именованное свойство. |
+| type | PropertyDataType | Указывает тип значений, разрешенных для свойства. |
 | propertySet | Guid | GUID, идентифицирующий группу свойств с аналогичной целью. |
 
 ### Смотрите также

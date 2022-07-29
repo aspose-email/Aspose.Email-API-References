@@ -1,14 +1,14 @@
 ---
 title: InternetFollowupTo
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INTERNET_FOLLOWUP_TO
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INTERNET_FOLLOWUP_TO
 type: docs
 weight: 11490
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetfollowupto/
 ---
 ## KnownPropertyList.InternetFollowupTo field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INTERNET_FOLLOWUP_TO
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INTERNET_FOLLOWUP_TO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetFollowupTo;

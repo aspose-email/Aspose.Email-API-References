@@ -1,14 +1,14 @@
 ---
 title: MessageToMe
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что владелец почтового ящика-получателя является одним из основных получателей этого сообщения электронной почты. ОбластьОбщие свойства сообщения Каноническое имяPidTagMessageToMe Альтернативные именаPR_MESSAGE_TO_ME ptagMessageToMe
+description: Указывает что владелец почтового ящика-получателя является одним из основных получателей этого сообщения электронной почты. Область Общие свойства сообщения Каноническое имя PidTagMessageToMe Альтернативные имена PR_MESSAGE_TO_ME ptagMessageToMe
 type: docs
 weight: 12660
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagetome/
 ---
 ## KnownPropertyList.MessageToMe field
 
-Указывает, что владелец почтового ящика-получателя является одним из основных получателей этого сообщения электронной почты. Область:Общие свойства сообщения Каноническое имя:PidTagMessageToMe Альтернативные имена:PR_MESSAGE_TO_ME, ptagMessageToMe
+Указывает, что владелец почтового ящика-получателя является одним из основных получателей этого сообщения электронной почты. Область: Общие свойства сообщения Каноническое имя: PidTagMessageToMe Альтернативные имена: PR_MESSAGE_TO_ME, ptagMessageToMe
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageToMe;

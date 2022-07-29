@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что поле должно быть равно указанному значению.
+description: Указывает что поле должно быть равным указанному значению.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.tools.search/longcomparisonfield/equals/
 ---
 ## LongComparisonField.Equals method
 
-Указывает, что поле должно быть равно указанному значению.
+Указывает, что поле должно быть равным указанному значению.
 
 ```csharp
 public MailQuery Equals(long value)
@@ -20,7 +20,7 @@ public MailQuery Equals(long value)
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../mailquery), представляющий поисковый запрос (один критерий поиска).
+[`MailQuery`](../../mailquery) который представляет поисковый запрос (один критерий поиска).
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: MessageRecipients
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует всех получателей текущего сообщения. ОбластьСвойства адреса Каноническое имяPidTagMessageRecipients Альтернативные именаPR_MESSAGE_RECIPIENTS ptagMessageRecipients
+description: Идентифицирует всех получателей текущего сообщения. Область Свойства адреса Каноническое имя PidTagMessageRecipients Альтернативные имена PR_MESSAGE_RECIPIENTS ptagMessageRecipients
 type: docs
 weight: 12580
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagerecipients/
 ---
 ## KnownPropertyList.MessageRecipients field
 
-Идентифицирует всех получателей текущего сообщения. Область:Свойства адреса Каноническое имя:PidTagMessageRecipients Альтернативные имена:PR_MESSAGE_RECIPIENTS, ptagMessageRecipients
+Идентифицирует всех получателей текущего сообщения. Область: Свойства адреса Каноническое имя: PidTagMessageRecipients Альтернативные имена: PR_MESSAGE_RECIPIENTS, ptagMessageRecipients
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageRecipients;

@@ -1,14 +1,14 @@
 ---
 title: AttachFilename
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя 8.3 свойства PidTagAttachLongFilename раздел 2.586. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachFilename Альтернативные именаPR_ATTACH_FILENAME PR_ATTACH_FILENAME_A ptagAttachFilename PR_ATTACH_FILENAME_W
+description: Содержит имя 8.3 свойства PidTagAttachLongFilename раздел 2.586. Область Свойства вложения сообщения Каноническое имя PidTagAttachFilename Альтернативные имена PR_ATTACH_FILENAME PR_ATTACH_FILENAME_A ptagAttachFilename PR_ATTACH_FILENAMExLE_0W_FILEname PR_ATTACH_FILEname PR_ATTACH_FILENAME
 type: docs
 weight: 1590
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachfilename/
 ---
 ## KnownPropertyList.AttachFilename field
 
-Содержит имя 8.3 свойства PidTagAttachLongFilename (раздел 2.586). Область:Свойства вложения сообщения Каноническое имя:PidTagAttachFilename Альтернативные имена:PR_ATTACH_FILENAME, PR_ATTACH_FILENAME_A, ptagAttachFilename, PR_ATTACH_FILENAME_W
+Содержит имя 8.3 свойства PidTagAttachLongFilename (раздел 2.586). Область: Свойства вложения сообщения Каноническое имя: PidTagAttachFilename Альтернативные имена: PR_ATTACH_FILENAME, PR_ATTACH_FILENAME_A, ptagAttachFilename, PR_ATTACH_FILENAMExLE_0W_FILEname, PR_ATTACH_FILEname, PR_ATTACH_FILENAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachFilename;

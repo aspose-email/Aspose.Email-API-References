@@ -19,7 +19,7 @@ public static class ExceptionManager
 | Имя | Описание |
 | --- | --- |
 | static [IgnoreAll](../../aspose.email.exceptions/exceptionmanager/ignoreall) { get; set; } | Игнорировать все исключения. |
-| static [IgnoreExceptionsHandler](../../aspose.email.exceptions/exceptionmanager/ignoreexceptionshandler) { get; set; } | Обеспечивает возможность обработки исключений. |
+| static [IgnoreExceptionsHandler](../../aspose.email.exceptions/exceptionmanager/ignoreexceptionshandler) { get; set; } | Предоставляет возможность обработки исключений. |
 | static [IgnoreExceptionsLogHandler](../../aspose.email.exceptions/exceptionmanager/ignoreexceptionsloghandler) { get; set; } | Обеспечивает возможность обработки журнала игнорируемых исключений. |
 | static [IgnoreList](../../aspose.email.exceptions/exceptionmanager/ignorelist) { get; } | Список исключений, которые следует игнорировать. |
 

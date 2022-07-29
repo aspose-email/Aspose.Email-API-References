@@ -1,14 +1,14 @@
 ---
 title: HomeFaxNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер телефона домашнего факсимильного аппарата пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagHomeFaxNumber Альтернативные именаPR_HOME_FAX_NUMBER PR_HOME_FAX_NUMBER_A
+description: Содержит номер телефона домашнего факсимильного аппарата пользователя почты. Область MapiMailUser Каноническое имя PidTagHomeFaxNumber Альтернативные имена PR_HOME_FAX_NUMBER PR_HOME_FAX_NUMBER_A
 type: docs
 weight: 11080
 url: /ru/net/aspose.email.mapi/knownpropertylist/homefaxnumber/
 ---
 ## KnownPropertyList.HomeFaxNumber field
 
-Содержит номер телефона домашнего факсимильного аппарата пользователя почты. Область:MapiMailUser Каноническое имя:PidTagHomeFaxNumber Альтернативные имена:PR_HOME_FAX_NUMBER, PR_HOME_FAX_NUMBER_A,
+Содержит номер телефона домашнего факсимильного аппарата пользователя почты. Область: MapiMailUser Каноническое имя: PidTagHomeFaxNumber Альтернативные имена: PR_HOME_FAX_NUMBER, PR_HOME_FAX_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeFaxNumber;

@@ -1,14 +1,14 @@
 ---
 title: MailDisablePublicFolder
 second_title: Справочник по Aspose.Email для .NET API
-description: Отключить почту для общей папки
+description: Почта - отключить общую папку
 type: docs
 weight: 1220
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/maildisablepublicfolder/
 ---
 ## IEWSClient.MailDisablePublicFolder method
 
-Отключить почту для общей папки
+Почта - отключить общую папку
 
 ```csharp
 public void MailDisablePublicFolder(string folderUri)
@@ -22,7 +22,7 @@ public void MailDisablePublicFolder(string folderUri)
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

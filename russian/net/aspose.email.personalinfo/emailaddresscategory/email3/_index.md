@@ -1,14 +1,14 @@
 ---
 title: Email3
 second_title: Справочник по Aspose.Email для .NET API
-description: Категория Email3. Используется сервером MS Exchange.
+description: Категория электронной почты3. Используется сервером MS Exchange.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.personalinfo/emailaddresscategory/email3/
 ---
 ## EmailAddressCategory.Email3 property
 
-Категория Email3. Используется сервером MS Exchange.
+Категория электронной почты3. Используется сервером MS Exchange.
 
 ```csharp
 public static EmailAddressCategory Email3 { get; }

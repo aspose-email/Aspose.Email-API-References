@@ -17,9 +17,9 @@ public Task StartMonitoringAsync(ImapMonitoringEventHandler callback,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| callback | ImapMonitoringEventHandler | Функция обратного вызова для мониторинга работы. |
-| errorCallback | ImapMonitoringErrorEventHandler | Функция обратного вызова для мониторинга обработки ошибок. Мониторинг указанной папки останавливается при вызове этого обратного вызова. Обратный вызов также предоставляет держатель состояния, чтобы можно было возобновить мониторинг папки с помощью[`ResumeMonitoringAsync`](../../imapclient/resumemonitoringasync)метод. |
-| имя_папки | String | Папка для мониторинга работы. |
+| callback | ImapMonitoringEventHandler | Функция обратного вызова для контроля работы. |
+| errorCallback | ImapMonitoringErrorEventHandler | Функция обратного вызова для мониторинга обработки ошибок. Мониторинг указанной папки останавливается при вызове этого обратного вызова. Обратный вызов также предоставляет держатель состояния, чтобы можно было возобновить мониторинг папки с помощью[`ResumeMonitoringAsync`](../../imapclient/resumemonitoringasync) метод. |
+| folderName | String | Папка для мониторинга работы. |
 
 ### Смотрите также
 

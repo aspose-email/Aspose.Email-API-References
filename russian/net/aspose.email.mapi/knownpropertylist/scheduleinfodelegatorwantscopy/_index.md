@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoDelegatorWantsCopy
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает хочет ли делегатор получать копии объектов связанных с собранием которые отправляются делегату. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoDelegatorWantsCopy Альтернативные именаPR_SCHDINFO_BOSS_WANTS_COPY
+description: Указывает хочет ли делегатор получать копии объектов связанных с собранием которые отправляются делегату. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoDelegatorWantsCopy Альтернативные имена PR_SCHDINFO_BOSS_WANTS_COPY
 type: docs
 weight: 16760
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfodelegatorwantscopy/
 ---
 ## KnownPropertyList.ScheduleInfoDelegatorWantsCopy field
 
-Указывает, хочет ли делегатор получать копии объектов, связанных с собранием, которые отправляются делегату. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoDelegatorWantsCopy Альтернативные имена:PR_SCHDINFO_BOSS_WANTS_COPY
+Указывает, хочет ли делегатор получать копии объектов, связанных с собранием, которые отправляются делегату. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoDelegatorWantsCopy Альтернативные имена: PR_SCHDINFO_BOSS_WANTS_COPY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDelegatorWantsCopy;

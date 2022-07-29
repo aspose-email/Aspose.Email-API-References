@@ -1,14 +1,14 @@
 ---
 title: AttendeeCriticalChange
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время отправки объекта связанного с собранием. ОбластьВстречи Каноническое имяPidLidAttendeeCriticalChange Альтернативные именаLID_ATTENDEE_CRITICAL_CHANGE
+description: Указывает дату и время отправки объекта связанного с собранием. Область Meetings Каноническое имя PidLidAttendeeCriticalChange Альтернативные имена LID_ATTENDEE_CRITICAL_CHANGE
 type: docs
 weight: 1820
 url: /ru/net/aspose.email.mapi/knownpropertylist/attendeecriticalchange/
 ---
 ## KnownPropertyList.AttendeeCriticalChange field
 
-Указывает дату и время отправки объекта, связанного с собранием. Область:Встречи Каноническое имя:PidLidAttendeeCriticalChange Альтернативные имена:LID_ATTENDEE_CRITICAL_CHANGE
+Указывает дату и время отправки объекта, связанного с собранием. Область: Meetings Каноническое имя: PidLidAttendeeCriticalChange Альтернативные имена: LID_ATTENDEE_CRITICAL_CHANGE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AttendeeCriticalChange;

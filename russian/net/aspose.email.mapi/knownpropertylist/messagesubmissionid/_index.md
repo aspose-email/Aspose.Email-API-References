@@ -1,14 +1,14 @@
 ---
 title: MessageSubmissionId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор сообщения присвоенный агентом передачи сообщений. ОбластьЭлектронная почта Каноническое имяPidTagMessageSubmissionId Альтернативные именаPR_MESSAGE_SUBMISSION_ID ptagMessageSubmissionId
+description: Содержит идентификатор сообщения назначенный агентом передачи сообщений. Область Email Каноническое имя PidTagMessageSubmissionId Альтернативные имена PR_MESSAGE_SUBMISSION_ID ptagMessageSubmissionId
 type: docs
 weight: 12640
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagesubmissionid/
 ---
 ## KnownPropertyList.MessageSubmissionId field
 
-Содержит идентификатор сообщения, присвоенный агентом передачи сообщений. Область:Электронная почта Каноническое имя:PidTagMessageSubmissionId Альтернативные имена:PR_MESSAGE_SUBMISSION_ID, ptagMessageSubmissionId
+Содержит идентификатор сообщения, назначенный агентом передачи сообщений. Область: Email Каноническое имя: PidTagMessageSubmissionId Альтернативные имена: PR_MESSAGE_SUBMISSION_ID, ptagMessageSubmissionId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageSubmissionId;

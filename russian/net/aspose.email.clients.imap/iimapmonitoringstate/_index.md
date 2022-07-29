@@ -1,14 +1,14 @@
 ---
 title: IImapMonitoringState
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит состояние мониторинга папки. Это можно использовать для возобновления мониторинга папок с места  где оно было остановлено при возникновении ошибки. ИспользуйтеResumeMonitoring./imapclient/resumemonitoringметод.
+description: Содержит состояние мониторинга папки. Это можно использовать для возобновления наблюдения за папкой с места  где оно было остановлено при возникновении ошибки. ИспользоватьResumeMonitoring./imapclient/resumemonitoring метод.
 type: docs
 weight: 16250
 url: /ru/net/aspose.email.clients.imap/iimapmonitoringstate/
 ---
 ## IImapMonitoringState interface
 
-Содержит состояние мониторинга папки. Это можно использовать для возобновления мониторинга папок с места , где оно было остановлено при возникновении ошибки. Используйте[`ResumeMonitoring`](../imapclient/resumemonitoring)метод.
+Содержит состояние мониторинга папки. Это можно использовать для возобновления наблюдения за папкой с места , где оно было остановлено при возникновении ошибки. Использовать[`ResumeMonitoring`](../imapclient/resumemonitoring) метод.
 
 ```csharp
 public interface IImapMonitoringState
@@ -18,7 +18,7 @@ public interface IImapMonitoringState
 
 | Имя | Описание |
 | --- | --- |
-| [FolderName](../../aspose.email.clients.imap/iimapmonitoringstate/foldername) { get; } | Папка, для которой сохраняется состояние мониторинга. |
+| [FolderName](../../aspose.email.clients.imap/iimapmonitoringstate/foldername) { get; } | Папка, для которой хранится состояние мониторинга. |
 
 ### Смотрите также
 

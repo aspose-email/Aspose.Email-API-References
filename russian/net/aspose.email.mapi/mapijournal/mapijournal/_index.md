@@ -1,14 +1,14 @@
 ---
 title: MapiJournal
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiJournalaspose.email.mapi/mapijournal.
+description: Инициализирует новый экземплярMapiJournalaspose.email.mapi/mapijournal класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapijournal/mapijournal/
 ---
 ## MapiJournal() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiJournal`](../../mapijournal).
+Инициализирует новый экземпляр[`MapiJournal`](../../mapijournal) класс.
 
 ```csharp
 public MapiJournal()
@@ -24,7 +24,7 @@ public MapiJournal()
 
 ## MapiJournal(string, string, string, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiJournal`](../../mapijournal).
+Инициализирует новый экземпляр[`MapiJournal`](../../mapijournal) класс.
 
 ```csharp
 public MapiJournal(string subject, string body, string description, string briefDescription)

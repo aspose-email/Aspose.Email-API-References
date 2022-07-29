@@ -16,7 +16,7 @@ public Task UnsubscribeFolderAsync(IConnection connection, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Имя папки |
 
 ### Возвращаемое значение

@@ -1,14 +1,14 @@
 ---
 title: ResponseRequested
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрашивается ли ответ на объект сообщения. ОбластьНабор свойств MapiEnvelope Каноническое имяPidTagResponseRequested Альтернативные именаPR_RESPONSE_REQUESTED urnschemascalendarresponserequested
+description: Указывает запрошен ли ответ на объект сообщения. Область свойство MapiEnvelope set Каноническое имя PidTagResponseRequested Альтернативные имена PR_RESPONSE_REQUESTED urnschemascalendarresponserequested
 type: docs
 weight: 16190
 url: /ru/net/aspose.email.mapi/knownpropertylist/responserequested/
 ---
 ## KnownPropertyList.ResponseRequested field
 
-Указывает, запрашивается ли ответ на объект сообщения. Область:Набор свойств MapiEnvelope Каноническое имя:PidTagResponseRequested Альтернативные имена:PR_RESPONSE_REQUESTED, urn:schemas:calendar:responserequested,
+Указывает, запрошен ли ответ на объект сообщения. Область: свойство MapiEnvelope set Каноническое имя: PidTagResponseRequested Альтернативные имена: PR_RESPONSE_REQUESTED, urn:schemas:calendar:responserequested,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ResponseRequested;

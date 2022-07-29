@@ -24,7 +24,7 @@ public class Gadget
 
 | Имя | Описание |
 | --- | --- |
-| [Display](../../aspose.email.clients.google/gadget/display) { get; set; } | Режим отображения гаджета. По желанию. Возможные значения: "icon" — гаджет отображается рядом с названием события в представлении календаря. "чип" - Гаджет отображается при нажатии на событие. |
+| [Display](../../aspose.email.clients.google/gadget/display) { get; set; } | Режим отображения гаджета. По желанию. Возможные значения: "icon" — гаджет отображается рядом с названием события в представлении календаря. "chip" — гаджет отображается при нажатии на событие. |
 | [Height](../../aspose.email.clients.google/gadget/height) { get; set; } | Высота гаджета в пикселях. |
 | [IconLink](../../aspose.email.clients.google/gadget/iconlink) { get; set; } | URL значка гаджета. |
 | [Link](../../aspose.email.clients.google/gadget/link) { get; set; } | URL гаджета. |

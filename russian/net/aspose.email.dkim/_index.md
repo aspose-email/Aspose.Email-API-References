@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.DKIM
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.Mail.DKIM предоставляет классы для работы с DKIM-подписью.
+description: Aspose.Email.Mail.DKIM namespace предоставляет классы для работы с DKIM-подписью.
 type: docs
 weight: 290
 url: /ru/net/aspose.email.dkim/
 ---
-Пространство имен **Aspose.Email.Mail.DKIM** предоставляет классы для работы с DKIM-подписью.
+**Aspose.Email.Mail.DKIM** namespace предоставляет классы для работы с DKIM-подписью.
 
 ## Классы
 

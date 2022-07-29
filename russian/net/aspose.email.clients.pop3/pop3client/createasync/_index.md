@@ -1,14 +1,14 @@
 ---
 title: CreateAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает новый экземпляр классаPop3Clientaspose.email.clients.pop3/pop3client
+description: Создает новый экземплярPop3Clientaspose.email.clients.pop3/pop3client класс
 type: docs
 weight: 410
 url: /ru/net/aspose.email.clients.pop3/pop3client/createasync/
 ---
 ## Pop3Client.CreateAsync method
 
-Создает новый экземпляр класса[`Pop3Client`](../../pop3client)
+Создает новый экземпляр[`Pop3Client`](../../pop3client) класс
 
 ```csharp
 public static Task<IAsyncPop3Client> CreateAsync(string host, string username, 

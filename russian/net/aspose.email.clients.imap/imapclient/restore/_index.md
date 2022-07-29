@@ -17,7 +17,7 @@ public void Restore(PersonalStorage pst, RestoreSettings settings)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pst | PersonalStorage | Личное хранилище, содержащее резервные копии папок imap. |
-| settings | RestoreSettings | Восстановление настроек |
+| settings | RestoreSettings | Настройки восстановления |
 
 ### Смотрите также
 

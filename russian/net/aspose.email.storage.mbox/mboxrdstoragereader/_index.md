@@ -3,7 +3,7 @@ title: MboxrdStorageReader
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет собой считыватель хранилища формата mboxrd этот формат используется Thunderbird и другими почтовыми клиентами.
 type: docs
-weight: 20010
+weight: 20060
 url: /ru/net/aspose.email.storage.mbox/mboxrdstoragereader/
 ---
 ## MboxrdStorageReader class
@@ -19,7 +19,7 @@ public sealed class MboxrdStorageReader : MboxStorageReader
 | Имя | Описание |
 | --- | --- |
 | [MboxrdStorageReader](mboxrdstoragereader#constructor)(Stream, MboxLoadOptions) |  |
-| [MboxrdStorageReader](mboxrdstoragereader#constructor_2)(string, MboxLoadOptions) | Инициализирует новый экземпляр класса[`MboxrdStorageReader`](../mboxrdstoragereader). |
+| [MboxrdStorageReader](mboxrdstoragereader#constructor_2)(string, MboxLoadOptions) | Инициализирует новый экземпляр[`MboxrdStorageReader`](../mboxrdstoragereader) класс. |
 
 ## Характеристики
 
@@ -32,11 +32,11 @@ public sealed class MboxrdStorageReader : MboxStorageReader
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | Предоставляет перечислитель, который поддерживает итерацию сообщений в хранилище. |
 | override [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxrdstoragereader/gettotalitemscount)() | Возвращает количество сообщений в хранилище. |
-| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage#readnextmessage)() | Читает следующее сообщение из базового потока хранения. |
-| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage#readnextmessage_1)(out string) | Читает следующее сообщение из базового потока хранения. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage#readnextmessage)() | Читает следующее сообщение из основного потока хранения. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxrdstoragereader/readnextmessage#readnextmessage_1)(out string) | Читает следующее сообщение из основного потока хранения. |
 
 ### Смотрите также
 

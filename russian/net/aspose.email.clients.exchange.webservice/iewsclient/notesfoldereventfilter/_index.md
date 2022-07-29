@@ -1,14 +1,14 @@
 ---
 title: NotesFolderEventFilter
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет типы событий для папки Notes
+description: Указывает типы событий для папки Notes
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/notesfoldereventfilter/
 ---
 ## IEWSClient.NotesFolderEventFilter property
 
-Определяет типы событий для папки Notes
+Указывает типы событий для папки Notes
 
 ```csharp
 public EventTypes NotesFolderEventFilter { get; set; }

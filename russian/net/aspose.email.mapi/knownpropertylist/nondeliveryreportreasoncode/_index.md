@@ -1,14 +1,14 @@
 ---
 title: NonDeliveryReportReasonCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит целочисленное значение указывающее причину сбоя доставки. ОбластьEmail Каноническое имяPidTagNonDeliveryReportReasonCode Альтернативные именаPR_NDR_REASON_CODE ptagNDRReasonCode
+description: Содержит целочисленное значение указывающее причину сбоя доставки. Область Email Каноническое имя PidTagNonDeliveryReportReasonCode Альтернативные имена PR_NDR_REASON_CODE ptagNDRReasonCode
 type: docs
 weight: 12960
 url: /ru/net/aspose.email.mapi/knownpropertylist/nondeliveryreportreasoncode/
 ---
 ## KnownPropertyList.NonDeliveryReportReasonCode field
 
-Содержит целочисленное значение, указывающее причину сбоя доставки. Область:Email Каноническое имя:PidTagNonDeliveryReportReasonCode Альтернативные имена:PR_NDR_REASON_CODE, ptagNDRReasonCode
+Содержит целочисленное значение, указывающее причину сбоя доставки. Область: Email Каноническое имя: PidTagNonDeliveryReportReasonCode Альтернативные имена: PR_NDR_REASON_CODE, ptagNDRReasonCode
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonDeliveryReportReasonCode;

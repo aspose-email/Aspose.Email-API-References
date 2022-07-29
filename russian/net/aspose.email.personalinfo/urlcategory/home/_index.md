@@ -1,14 +1,14 @@
 ---
 title: Home
 second_title: Справочник по Aspose.Email для .NET API
-description: Домашний сайт Контакта.
+description: Домашний сайт контакта.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.personalinfo/urlcategory/home/
 ---
 ## UrlCategory.Home property
 
-Домашний сайт Контакта.
+Домашний сайт контакта.
 
 ```csharp
 public static UrlCategory Home { get; }

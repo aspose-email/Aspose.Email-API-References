@@ -20,13 +20,13 @@ public ExchangeFolderInfo GetFolderInfo(string folderUri)
 
 ### Возвращаемое значение
 
-A[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo), который представляет информацию о папке.
+А[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) который представляет информацию о папке.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* является`нулевой`или же`пустой`. |
 | [ExchangeException](../../../aspose.email/exchangeexception) | Сервер ответил сообщением об ошибке. |
 
 ### Смотрите также

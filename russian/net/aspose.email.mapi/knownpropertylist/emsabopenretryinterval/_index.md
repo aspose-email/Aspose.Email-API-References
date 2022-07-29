@@ -1,14 +1,14 @@
 ---
 title: EmsAbOpenRetryInterval
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_OPEN_RETRY_INTERVAL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_OPEN_RETRY_INTERVAL
 type: docs
 weight: 7900
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabopenretryinterval/
 ---
 ## KnownPropertyList.EmsAbOpenRetryInterval field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_OPEN_RETRY_INTERVAL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_OPEN_RETRY_INTERVAL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbOpenRetryInterval;

@@ -1,14 +1,14 @@
 ---
 title: MessageDeliveryTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время в формате UTC когда сервер получил сообщение. ОбластьСвойства времени сообщения Каноническое имяPidTagMessageDeliveryTime Альтернативные именаPR_MESSAGE_DELIVERY_TIME urnschemashttpmaildatereceived
+description: Указывает время в формате UTC когда сервер получил сообщение. Область Message Time Properties Каноническое имя PidTagMessageDeliveryTime Альтернативные имена PR_MESSAGE_DELIVERY_TIME urnschemashttpmaildatereceived
 type: docs
 weight: 12500
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagedeliverytime/
 ---
 ## KnownPropertyList.MessageDeliveryTime field
 
-Указывает время (в формате UTC), когда сервер получил сообщение. Область:Свойства времени сообщения Каноническое имя:PidTagMessageDeliveryTime Альтернативные имена:PR_MESSAGE_DELIVERY_TIME, urn:schemas:httpmail:datereceived
+Указывает время (в формате UTC), когда сервер получил сообщение. Область: Message Time Properties Каноническое имя: PidTagMessageDeliveryTime Альтернативные имена: PR_MESSAGE_DELIVERY_TIME, urn:schemas:httpmail:datereceived
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageDeliveryTime;

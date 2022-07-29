@@ -1,14 +1,14 @@
 ---
 title: ConferencingType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип собрания. ОбластьКонференц-связь Каноническое имяPidLidConferencingType Альтернативные именаdispidConfType
+description: Указывает тип собрания. Область Conferencing Каноническое имя PidLidConferencingType Альтернативные имена dispidConfType
 type: docs
 weight: 2870
 url: /ru/net/aspose.email.mapi/knownpropertylist/conferencingtype/
 ---
 ## KnownPropertyList.ConferencingType field
 
-Указывает тип собрания. Область:Конференц-связь Каноническое имя:PidLidConferencingType Альтернативные имена:dispidConfType
+Указывает тип собрания. Область: Conferencing Каноническое имя: PidLidConferencingType Альтернативные имена: dispidConfType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConferencingType;

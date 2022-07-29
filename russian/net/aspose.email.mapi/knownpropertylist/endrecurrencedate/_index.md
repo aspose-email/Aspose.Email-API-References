@@ -1,14 +1,14 @@
 ---
 title: EndRecurrenceDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату окончания диапазона повторения. ОбластьВстречи Каноническое имяPidLidEndRecurrenceDate Альтернативные именаLID_END_RECUR_DATE
+description: Определяет дату окончания диапазона повторения. Область Meetings Каноническое имя PidLidEndRecurrenceDate Альтернативные имена LID_END_RECUR_DATE
 type: docs
 weight: 9740
 url: /ru/net/aspose.email.mapi/knownpropertylist/endrecurrencedate/
 ---
 ## KnownPropertyList.EndRecurrenceDate field
 
-Указывает дату окончания диапазона повторения. Область:Встречи Каноническое имя:PidLidEndRecurrenceDate Альтернативные имена:LID_END_RECUR_DATE
+Определяет дату окончания диапазона повторения. Область: Meetings Каноническое имя: PidLidEndRecurrenceDate Альтернативные имена: LID_END_RECUR_DATE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor EndRecurrenceDate;

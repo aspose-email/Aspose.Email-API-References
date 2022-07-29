@@ -1,14 +1,14 @@
 ---
 title: NonReceiptReason
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_NON_RECEIPT_REASON
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_NON_RECEIPT_REASON
 type: docs
 weight: 13000
 url: /ru/net/aspose.email.mapi/knownpropertylist/nonreceiptreason/
 ---
 ## KnownPropertyList.NonReceiptReason field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_NON_RECEIPT_REASON
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_NON_RECEIPT_REASON
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonReceiptReason;

@@ -1,14 +1,14 @@
 ---
 title: MessageThreadResult
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит результат для методов SORT или THREAD Подробнееhttps//tools.ietf.org/html/rfc5256
+description: Содержит результат для методов SORT и THREAD Подробнее https//tools.ietf.org/html/rfc5256
 type: docs
 weight: 16530
 url: /ru/net/aspose.email.clients.imap/messagethreadresult/
 ---
 ## MessageThreadResult class
 
-Содержит результат для методов SORT или THREAD Подробнее:https://tools.ietf.org/html/rfc5256
+Содержит результат для методов SORT и THREAD Подробнее: https://tools.ietf.org/html/rfc5256
 
 ```csharp
 public sealed class MessageThreadResult
@@ -18,17 +18,17 @@ public sealed class MessageThreadResult
 
 | Имя | Описание |
 | --- | --- |
-| [MessageThreadResult](messagethreadresult)() | Инициализирует новый экземпляр класса[`MessageThreadResult`](../messagethreadresult). |
+| [MessageThreadResult](messagethreadresult)() | Инициализирует новый экземпляр[`MessageThreadResult`](../messagethreadresult) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [ChildMessages](../../aspose.email.clients.imap/messagethreadresult/childmessages) { get; } | Дочерние сообщения. |
-| [ConversationId](../../aspose.email.clients.imap/messagethreadresult/conversationid) { get; set; } | Идентификатор потока сообщений. |
+| [ConversationId](../../aspose.email.clients.imap/messagethreadresult/conversationid) { get; set; } | Идентификатор цепочки сообщений. |
 | [SequenceNumber](../../aspose.email.clients.imap/messagethreadresult/sequencenumber) { get; } | Получает порядковый номер сообщения. |
 | [UniqueId](../../aspose.email.clients.imap/messagethreadresult/uniqueid) { get; } | Получает уникальный идентификатор сообщения. |
-| [UseUId](../../aspose.email.clients.imap/messagethreadresult/useuid) { get; } | Получает значение, указывающее, следует ли использовать тип метода UID. |
+| [UseUId](../../aspose.email.clients.imap/messagethreadresult/useuid) { get; } | Получает значение, указывающее, должен ли использоваться метод типа UID. |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: AsBoolean
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает текущийComparisonFieldaspose.email.tools.search/comparisonfieldкакBoolComparisonFieldaspose.email.tools.search/boolcomparisonfield
+description: Возвращает текущийComparisonFieldaspose.email.tools.search/comparisonfield в качествеBoolComparisonFieldaspose.email.tools.search/boolcomparisonfield
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange/comparisonfieldadapter/asboolean/
 ---
 ## ComparisonFieldAdapter.AsBoolean property
 
-Возвращает текущий[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield)как[`BoolComparisonField`](../../../aspose.email.tools.search/boolcomparisonfield)
+Возвращает текущий[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield) в качестве[`BoolComparisonField`](../../../aspose.email.tools.search/boolcomparisonfield)
 
 ```csharp
 public BoolComparisonField AsBoolean { get; }

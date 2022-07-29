@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет конструктор поискового выражения  который используется pst.
+description: Представляет построитель поискового выражения  который используется pst.
 type: docs
-weight: 20260
+weight: 20310
 url: /ru/net/aspose.email.storage.pst/personalstoragequerybuilder/
 ---
 ## PersonalStorageQueryBuilder class
 
-Представляет конструктор поискового выражения , который используется pst.
+Представляет построитель поискового выражения , который используется pst.
 
 ```csharp
 public sealed class PersonalStorageQueryBuilder : MailQueryBuilder
@@ -18,7 +18,7 @@ public sealed class PersonalStorageQueryBuilder : MailQueryBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [PersonalStorageQueryBuilder](personalstoragequerybuilder)() | Инициализирует новый экземпляр класса[`PersonalStorageQueryBuilder`](../personalstoragequerybuilder). |
+| [PersonalStorageQueryBuilder](personalstoragequerybuilder)() | Инициализирует новый экземпляр[`PersonalStorageQueryBuilder`](../personalstoragequerybuilder) класс. |
 
 ## Характеристики
 
@@ -38,11 +38,11 @@ public sealed class PersonalStorageQueryBuilder : MailQueryBuilder
 | [MessageId](../../aspose.email.storage.pst/personalstoragequerybuilder/messageid) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле MessageId структуры конверта. |
 | [MessageSize](../../aspose.email.storage.pst/personalstoragequerybuilder/messagesize) { get; } | Поиск сообщений указанного размера. |
 | [OnlyFoldersCreatedByUser](../../aspose.email.storage.pst/personalstoragequerybuilder/onlyfolderscreatedbyuser) { get; } | Получает папки, созданные пользователем, т.е. исключает все стандартные папки IPM. |
-| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее найти сообщения по дате отправки. |
-| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее находить сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
+| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее находить сообщения по дате отправки. |
+| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
 | [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в заголовках (тема, от, кому, копия) и теле сообщения. |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле TO структуры конверта. |
-| [UnreadContentsCount](../../aspose.email.storage.pst/personalstoragequerybuilder/unreadcontentscount) { get; } | Поиск папок с указанным количеством непрочитанного содержимого. |
+| [UnreadContentsCount](../../aspose.email.storage.pst/personalstoragequerybuilder/unreadcontentscount) { get; } | Поиск в папках с указанным количеством непрочитанного содержимого. |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: UnregisterRoutine
 second_title: Справочник по Aspose.Email для .NET API
-description: Отмените регистрацию подпрограммы шаблона в механизме шаблонов по имени.
+description: Отменить регистрацию процедуры шаблона в механизме шаблонов по имени.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.tools.merging/templateengine/unregisterroutine/
 ---
 ## TemplateEngine.UnregisterRoutine method
 
-Отмените регистрацию подпрограммы шаблона в механизме шаблонов по имени.
+Отменить регистрацию процедуры шаблона в механизме шаблонов по имени.
 
 ```csharp
 public void UnregisterRoutine(string name)
@@ -16,7 +16,7 @@ public void UnregisterRoutine(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя, которое используется для отмены регистрации процедуры шаблона. |
+| name | String | Имя, которое используется для отмены регистрации подпрограммы шаблона. |
 
 ### Смотрите также
 

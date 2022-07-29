@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет содержит ли System.Collections.Generic.ICollection определенное значение.
+description: Определяет содержит ли коллекция System.Collections.Generic.ICollection определенное значение.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi/knownpropertylist/contains/
 ---
 ## KnownPropertyList.Contains method
 
-Определяет, содержит ли System.Collections.Generic.ICollection определенное значение.
+Определяет, содержит ли коллекция System.Collections.Generic.ICollection определенное значение.
 
 ```csharp
 public bool Contains(PropertyDescriptor item)
@@ -20,7 +20,7 @@ public bool Contains(PropertyDescriptor item)
 
 ### Возвращаемое значение
 
-true, если элемент найден в System.Collections.Generic.ICollection; в противном случае ложно.
+Значение true, если элемент находится в System.Collections.Generic.ICollection; в противном случае ложно.
 
 ### Смотрите также
 

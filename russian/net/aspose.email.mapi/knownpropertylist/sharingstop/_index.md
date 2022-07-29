@@ -1,14 +1,14 @@
 ---
 title: SharingStop
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingStop Альтернативные именаdispidSharingStop
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingStop Альтернативные имена dispidSharingStop
 type: docs
 weight: 17950
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingstop/
 ---
 ## KnownPropertyList.SharingStop field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingStop Альтернативные имена:dispidSharingStop
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingStop Альтернативные имена: dispidSharingStop
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingStop;

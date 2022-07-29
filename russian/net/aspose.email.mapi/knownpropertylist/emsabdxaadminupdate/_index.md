@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaAdminUpdate
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_ADMIN_UPDATE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_ADMIN_UPDATE
 type: docs
 weight: 5610
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxaadminupdate/
 ---
 ## KnownPropertyList.EmsAbDxaAdminUpdate field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_ADMIN_UPDATE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_ADMIN_UPDATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaAdminUpdate;

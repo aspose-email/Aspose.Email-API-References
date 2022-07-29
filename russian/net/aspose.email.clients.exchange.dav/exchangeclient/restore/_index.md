@@ -23,7 +23,7 @@ public void Restore(string fileName, RestoreOptions options)
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *fileName*не указано. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *fileName* не указано. |
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public void Restore(string fileName, RestoreOptions options)
 
 ## Restore(Stream, RestoreOptions) {#restore_3}
 
-Восстанавливает папки обмена из заданного личного хранилища.
+Восстанавливает папки обмена из указанного личного хранилища.
 
 ```csharp
 public void Restore(Stream stream, RestoreOptions options)
@@ -51,8 +51,8 @@ public void Restore(Stream stream, RestoreOptions options)
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Потокне поддерживает чтение. |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream*is` null` . |
+| NotSupportedException | *stream* не поддерживает чтение. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream* является`нулевой`. |
 
 ### Смотрите также
 
@@ -65,7 +65,7 @@ public void Restore(Stream stream, RestoreOptions options)
 
 ## Restore(PersonalStorage, RestoreOptions) {#restore_1}
 
-Восстанавливает папки обмена из заданного личного хранилища.
+Восстанавливает папки обмена из указанного личного хранилища.
 
 ```csharp
 public void Restore(PersonalStorage pst, RestoreOptions options)
@@ -80,7 +80,7 @@ public void Restore(PersonalStorage pst, RestoreOptions options)
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*is` null` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst* является`нулевой`. |
 
 ### Смотрите также
 
@@ -110,8 +110,8 @@ public void Restore(string fileName, ExchangeFolderInfoCollection folders, Resto
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *fileName*не указано. |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*is` null` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *fileName* не указано. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders* является`нулевой`. |
 
 ### Смотрите также
 
@@ -141,8 +141,8 @@ public void Restore(Stream stream, ExchangeFolderInfoCollection folders, Restore
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Потокне поддерживает чтение. |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream*или*folders*is` null` . |
+| NotSupportedException | *stream* не поддерживает чтение. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *stream*или же*folders* является`нулевой`. |
 
 ### Смотрите также
 
@@ -173,7 +173,7 @@ public void Restore(PersonalStorage pst, ExchangeFolderInfoCollection folders,
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*или*folders*is` null` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *pst*или же*folders* является`нулевой`. |
 
 ### Смотрите также
 

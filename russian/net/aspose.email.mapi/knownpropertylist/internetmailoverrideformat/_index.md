@@ -1,14 +1,14 @@
 ---
 title: InternetMailOverrideFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает метод кодирования и включение HTML для вложений. ОбластьСвойства MIME Каноническое имяPidTagInternetMailOverrideFormat Альтернативные именаPR_INETMAIL_OVERRIDE_FORMAT ptagInetMailOverrideFormat
+description: Указывает метод кодирования и включение HTML для вложений. Область свойства MIME Каноническое имя PidTagInternetMailOverrideFormat Альтернативные имена PR_INETMAIL_OVERRIDE_FORMAT ptagInetMailOverrideFormat
 type: docs
 weight: 11510
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetmailoverrideformat/
 ---
 ## KnownPropertyList.InternetMailOverrideFormat field
 
-Указывает метод кодирования и включение HTML для вложений. Область:Свойства MIME Каноническое имя:PidTagInternetMailOverrideFormat Альтернативные имена:PR_INETMAIL_OVERRIDE_FORMAT, ptagInetMailOverrideFormat
+Указывает метод кодирования и включение HTML для вложений. Область: свойства MIME Каноническое имя: PidTagInternetMailOverrideFormat Альтернативные имена: PR_INETMAIL_OVERRIDE_FORMAT, ptagInetMailOverrideFormat
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetMailOverrideFormat;

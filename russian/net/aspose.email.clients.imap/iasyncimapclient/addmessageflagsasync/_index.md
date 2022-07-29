@@ -1,14 +1,14 @@
 ---
 title: AddMessageFlagsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавляет к сообщению флаги
+description: Добавляет флаги к сообщению
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/addmessageflagsasync/
 ---
 ## IAsyncImapClient.AddMessageFlagsAsync method
 
-Добавляет к сообщению флаги
+Добавляет флаги к сообщению
 
 ```csharp
 public Task AddMessageFlagsAsync(ImapChangeMessageFlags parameters)

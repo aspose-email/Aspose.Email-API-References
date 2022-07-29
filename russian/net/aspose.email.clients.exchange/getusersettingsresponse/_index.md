@@ -18,7 +18,7 @@ public sealed class GetUserSettingsResponse : AutodiscoverResponse
 
 | Имя | Описание |
 | --- | --- |
-| [GetUserSettingsResponse](getusersettingsresponse)() | Инициализирует новый экземпляр класса[`GetUserSettingsResponse`](../getusersettingsresponse). |
+| [GetUserSettingsResponse](getusersettingsresponse)() | Инициализирует новый экземпляр[`GetUserSettingsResponse`](../getusersettingsresponse) класс. |
 
 ## Характеристики
 

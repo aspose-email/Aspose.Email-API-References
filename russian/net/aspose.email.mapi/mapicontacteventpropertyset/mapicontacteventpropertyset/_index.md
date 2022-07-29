@@ -1,14 +1,14 @@
 ---
 title: MapiContactEventPropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiContactEventPropertySetaspose.email.mapi/mapicontacteventpropertyset
+description: Инициализирует новый экземплярMapiContactEventPropertySetaspose.email.mapi/mapicontacteventpropertyset класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontacteventpropertyset/mapicontacteventpropertyset/
 ---
 ## MapiContactEventPropertySet() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiContactEventPropertySet`](../../mapicontacteventpropertyset)
+Инициализирует новый экземпляр[`MapiContactEventPropertySet`](../../mapicontacteventpropertyset) класс
 
 ```csharp
 public MapiContactEventPropertySet()
@@ -24,7 +24,7 @@ public MapiContactEventPropertySet()
 
 ## MapiContactEventPropertySet(MapiPropertyCollection) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiContactEventPropertySet`](../../mapicontacteventpropertyset)
+Инициализирует новый экземпляр[`MapiContactEventPropertySet`](../../mapicontacteventpropertyset) класс
 
 ```csharp
 public MapiContactEventPropertySet(MapiPropertyCollection properties)
@@ -32,7 +32,7 @@ public MapiContactEventPropertySet(MapiPropertyCollection properties)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A[`MapiPropertyCollection`](../../mapipropertycollection)содержит свойства событий контактов |
+| properties | MapiPropertyCollection | А[`MapiPropertyCollection`](../../mapipropertycollection) содержащие свойства контактных событий |
 
 ### Смотрите также
 

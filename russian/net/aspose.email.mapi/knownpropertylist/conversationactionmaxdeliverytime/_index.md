@@ -1,14 +1,14 @@
 ---
 title: ConversationActionMaxDeliveryTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит максимальное значение свойства PidTagMessageDeliveryTime раздел действие диалога на клиенте. ОбластьДействия диалога Канонический имяPidLidConversationActionMaxDeliveryTime Альтернативные именаdispidConvActionMaxDeliveryTime
+description: Содержит максимальное значение свойства PidTagMessageDeliveryTime раздел действия диалога на клиенте.
 type: docs
 weight: 3350
 url: /ru/net/aspose.email.mapi/knownpropertylist/conversationactionmaxdeliverytime/
 ---
 ## KnownPropertyList.ConversationActionMaxDeliveryTime field
 
-Содержит максимальное значение свойства PidTagMessageDeliveryTime (раздел действие диалога на клиенте. Область:Действия диалога Канонический имя:PidLidConversationActionMaxDeliveryTime Альтернативные имена:dispidConvActionMaxDeliveryTime
+Содержит максимальное значение свойства PidTagMessageDeliveryTime (раздел действия диалога на клиенте).
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ConversationActionMaxDeliveryTime;

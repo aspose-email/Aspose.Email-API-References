@@ -1,14 +1,14 @@
 ---
 title: NextSendAcct
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает сервер который клиент в настоящее время пытается использовать для отправки электронной почты. ОбластьПриложение Outlook Каноническое имяPidTagNextSendAcct Альтернативные именаPR_NEXT_SEND_ACCT
+description: Указывает сервер который клиент в настоящее время пытается использовать для отправки электронной почты. Область Приложение Outlook Каноническое имя PidTagNextSendAcct Альтернативные имена PR_NEXT_SEND_ACCT
 type: docs
 weight: 12890
 url: /ru/net/aspose.email.mapi/knownpropertylist/nextsendacct/
 ---
 ## KnownPropertyList.NextSendAcct field
 
-Указывает сервер, который клиент в настоящее время пытается использовать для отправки электронной почты. Область:Приложение Outlook Каноническое имя:PidTagNextSendAcct Альтернативные имена:PR_NEXT_SEND_ACCT
+Указывает сервер, который клиент в настоящее время пытается использовать для отправки электронной почты. Область: Приложение Outlook Каноническое имя: PidTagNextSendAcct Альтернативные имена: PR_NEXT_SEND_ACCT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NextSendAcct;

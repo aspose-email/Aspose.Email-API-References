@@ -1,14 +1,14 @@
 ---
 title: ParentSourceKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение папки содержащей свойство PidTagSourceKey раздел 2.1012 родительской папки. ОбластьExchangeNonTransmittableReserved Каноническое имяPidTagParentSourceKey Альтернативные именаPR_PARENT_SOURCE_KEY
+description: Содержит значение папки содержащей свойство PidTagSourceKey раздел 2.1012 родительской папки. Область ExchangeNonTransmittableReserved Каноническое имя PidTagParentSourceKey Альтернативные имена PR_PARENT_SOURCE_KEY
 type: docs
 weight: 14220
 url: /ru/net/aspose.email.mapi/knownpropertylist/parentsourcekey/
 ---
 ## KnownPropertyList.ParentSourceKey field
 
-Содержит значение папки, содержащей свойство PidTagSourceKey (раздел 2.1012) родительской папки. Область:ExchangeNonTransmittableReserved Каноническое имя:PidTagParentSourceKey Альтернативные имена:PR_PARENT_SOURCE_KEY
+Содержит значение папки, содержащей свойство PidTagSourceKey (раздел 2.1012) родительской папки. Область: ExchangeNonTransmittableReserved Каноническое имя: PidTagParentSourceKey Альтернативные имена: PR_PARENT_SOURCE_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ParentSourceKey;

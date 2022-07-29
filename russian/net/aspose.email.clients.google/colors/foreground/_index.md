@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.google/colors/foreground/
 ---
 ## Colors.Foreground property
 
-Цвет переднего плана, который можно использовать для письма поверх фона с фоновым цветом.
+Цвет переднего плана, который можно использовать для письма поверх фона с «фоновым» цветом.
 
 ```csharp
 public string Foreground { get; set; }

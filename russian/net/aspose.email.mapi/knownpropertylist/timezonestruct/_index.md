@@ -1,14 +1,14 @@
 ---
 title: TimeZoneStruct
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает информацию о часовом поясе для повторяющегося собрания. ОбластьКалендарь Каноническое имяPidLidTimeZoneStruct Альтернативные именаdispidTimeZoneStruct
+description: Указывает информацию о часовом поясе для повторяющегося собрания. Область Calendar Каноническое имя PidLidTimeZoneStruct Альтернативные имена dispidTimeZoneStruct
 type: docs
 weight: 18990
 url: /ru/net/aspose.email.mapi/knownpropertylist/timezonestruct/
 ---
 ## KnownPropertyList.TimeZoneStruct field
 
-Указывает информацию о часовом поясе для повторяющегося собрания. Область:Календарь Каноническое имя:PidLidTimeZoneStruct Альтернативные имена:dispidTimeZoneStruct
+Указывает информацию о часовом поясе для повторяющегося собрания. Область: Calendar Каноническое имя: PidLidTimeZoneStruct Альтернативные имена: dispidTimeZoneStruct
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TimeZoneStruct;

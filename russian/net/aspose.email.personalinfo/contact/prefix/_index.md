@@ -1,14 +1,14 @@
 ---
 title: Prefix
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает префикс полного имени например Mr.господин Dr.доктор и т.д.
+description: Получает или задает префикс полного имени например Mr.господин Dr.доктор и т. д.
 type: docs
 weight: 360
 url: /ru/net/aspose.email.personalinfo/contact/prefix/
 ---
 ## Contact.Prefix property
 
-Получает или задает префикс полного имени, например Mr.(господин), Dr.(доктор) и т.д.
+Получает или задает префикс полного имени, например Mr.(господин), Dr.(доктор) и т. д.
 
 ```csharp
 public string Prefix { get; set; }

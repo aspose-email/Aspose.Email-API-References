@@ -1,14 +1,14 @@
 ---
 title: Message
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает отправляемое сообщение.
+description: Получает сообщение об отправке.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.smtp/mailmessageeventargs/message/
 ---
 ## MailMessageEventArgs.Message property
 
-Получает отправляемое сообщение.
+Получает сообщение об отправке.
 
 ```csharp
 public MailMessage Message { get; }

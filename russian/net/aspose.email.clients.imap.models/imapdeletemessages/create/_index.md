@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: СоздатьImapDeleteMessagesaspose.email.clients.imap.models/imapdeletemessagesinstance.
+description: СоздатьImapDeleteMessagesaspose.email.clients.imap.models/imapdeletemessages экземпляр.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap.models/imapdeletemessages/create/
 ---
 ## ImapDeleteMessages.Create method
 
-Создать[`ImapDeleteMessages`](../../imapdeletemessages)instance.
+Создать[`ImapDeleteMessages`](../../imapdeletemessages) экземпляр.
 
 ```csharp
 public static ImapDeleteMessages Create()

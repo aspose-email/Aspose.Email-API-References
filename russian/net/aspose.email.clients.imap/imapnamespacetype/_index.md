@@ -1,14 +1,14 @@
 ---
 title: ImapNamespaceType
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет тип пространства имен IMAP Подробнееhttps//tools.ietf.org/html/rfc2342
+description: Представляет тип пространства имен IMAP Дополнительные сведения https//tools.ietf.org/html/rfc2342
 type: docs
 weight: 16440
 url: /ru/net/aspose.email.clients.imap/imapnamespacetype/
 ---
 ## ImapNamespaceType enumeration
 
-Представляет тип пространства имен IMAP Подробнее:https://tools.ietf.org/html/rfc2342
+Представляет тип пространства имен IMAP Дополнительные сведения: https://tools.ietf.org/html/rfc2342
 
 ```csharp
 public enum ImapNamespaceType

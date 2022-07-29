@@ -17,7 +17,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Соединение с сервером |
+| connection | String | Подключение к серверу |
 | quotaRootName | String | имя корня квоты |
 | resourceName | Int32 | имя ресурса |
 | resourceLimit | IConnection | лимит ресурсов |
@@ -25,7 +25,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 
 ### Возвращаемое значение
 
-Информация о квотах
+Информация о квоте
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SourceId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор службы Office 365 из которой был выбран URL-адрес например для почты это идентификатор сетевого сообщения Exchange Online. ОбязательноДа
+description: Идентификатор службы Office 365 из которой был выбран URL-адрес например для почты это идентификатор сетевого сообщения Exchange Online. Обязательно Yes
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activity/o365urltimeofclickactivity/sourceid/
 ---
 ## O365URLTimeOfClickActivity.SourceId property
 
-Идентификатор службы Office 365, из которой был выбран URL-адрес (например, для почты это идентификатор сетевого сообщения Exchange Online). Обязательно:Да
+Идентификатор службы Office 365, из которой был выбран URL-адрес (например, для почты, это идентификатор сетевого сообщения Exchange Online). Обязательно: Yes
 
 ```csharp
 public string SourceId { get; set; }

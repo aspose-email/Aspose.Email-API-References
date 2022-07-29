@@ -1,14 +1,14 @@
 ---
 title: InternetApproved
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INTERNET_APPROVED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INTERNET_APPROVED
 type: docs
 weight: 11430
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetapproved/
 ---
 ## KnownPropertyList.InternetApproved field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INTERNET_APPROVED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INTERNET_APPROVED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetApproved;

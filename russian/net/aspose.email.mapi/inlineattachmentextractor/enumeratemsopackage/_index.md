@@ -1,14 +1,14 @@
 ---
 title: EnumerateMsoPackage
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет пакет MSO и возвращает словарь содержащий данные файлов. Ключ является идентификатором файла а значение содержит фактические данные. Файлы обычно упоминаются в теле сообщения с использованием предоставленных идентификаторов.
+description: Перечисляет пакет MSO и возвращает словарь содержащий данные о файлах. Ключ представляет собой идентификатор файла а значение содержит фактические данные. Файлы обычно упоминаются в теле сообщения с использованием предоставленных идентификаторов.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/inlineattachmentextractor/enumeratemsopackage/
 ---
 ## InlineAttachmentExtractor.EnumerateMsoPackage method
 
-Перечисляет пакет MSO и возвращает словарь, содержащий данные файлов. Ключ является идентификатором файла, а значение содержит фактические данные. Файлы обычно упоминаются в теле сообщения с использованием предоставленных идентификаторов.
+Перечисляет пакет MSO и возвращает словарь, содержащий данные о файлах. Ключ представляет собой идентификатор файла, а значение содержит фактические данные. Файлы обычно упоминаются в теле сообщения с использованием предоставленных идентификаторов.
 
 ```csharp
 public static IDictionary<string, byte[]> EnumerateMsoPackage(Stream stream)
@@ -16,7 +16,7 @@ public static IDictionary<string, byte[]> EnumerateMsoPackage(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для анализа. |
+| stream | Stream | Поток для разбора. |
 
 ### Возвращаемое значение
 
@@ -26,8 +26,8 @@ public static IDictionary<string, byte[]> EnumerateMsoPackage(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*stream*равно null. |
-| InvalidDataException | Если указано*stream*содержит данные в неправильном формате. |
+| ArgumentNullException | Если*stream* нулевой. |
+| InvalidDataException | Если дано*stream* имеет данные в неправильном формате. |
 
 ### Примечания
 

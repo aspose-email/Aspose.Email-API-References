@@ -16,7 +16,7 @@ public void DeleteContact(Contact contact)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контакт | Contact | Контакт |
+| contact | Contact | Контакт |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void DeleteContact(MapiContact contact)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контакт | MapiContact | Контакт |
+| contact | MapiContact | Контакт |
 
 ### Смотрите также
 

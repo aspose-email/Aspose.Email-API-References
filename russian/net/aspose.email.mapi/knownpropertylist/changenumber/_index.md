@@ -1,14 +1,14 @@
 ---
 title: ChangeNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит структуру идентифицирующую последнее изменение сообщения или папки которые в данный момент синхронизируются. ОбластьСинхронизация Каноническое имяPidTagChangeNumber Альтернативные именаptagCn
+description: Содержит структуру идентифицирующую последнее изменение сообщения или папки которая в данный момент синхронизируется. Область Sync Каноническое имя PidTagChangeNumber Альтернативные имена ptagCn
 type: docs
 weight: 2590
 url: /ru/net/aspose.email.mapi/knownpropertylist/changenumber/
 ---
 ## KnownPropertyList.ChangeNumber field
 
-Содержит структуру, идентифицирующую последнее изменение сообщения или папки, которые в данный момент синхронизируются. Область:Синхронизация Каноническое имя:PidTagChangeNumber Альтернативные имена:ptagCn
+Содержит структуру, идентифицирующую последнее изменение сообщения или папки, которая в данный момент синхронизируется. Область: Sync Каноническое имя: PidTagChangeNumber Альтернативные имена: ptagCn
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ChangeNumber;

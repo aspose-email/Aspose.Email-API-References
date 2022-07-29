@@ -1,14 +1,14 @@
 ---
 title: GetContactsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Список контактов находящихся в указанной папке на сервере
+description: Список контактов расположенных в указанной папке на server
 type: docs
 weight: 330
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/getcontactsasync/
 ---
 ## IAsyncEwsClient.GetContactsAsync method
 
-Список контактов, находящихся в указанной папке на сервере
+Список контактов, расположенных в указанной папке на server
 
 ```csharp
 public Task<Contact[]> GetContactsAsync(string folder, 
@@ -18,13 +18,13 @@ public Task<Contact[]> GetContactsAsync(string folder,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | A папка для поиска контактов в |
+| folder | String | Папка для поиска контактов |
 | options | ExchangeListContactsOptions | Перечисляет параметры списка контактов |
-| cancellationToken | CancellationToken | Маркер отмены |
+| cancellationToken | CancellationToken | Токен отмены |
 
 ### Возвращаемое значение
 
-Массив read[`Contact`](../../../aspose.email.personalinfo/contact)который представляет контактную информацию
+Массив прочитанных[`Contact`](../../../aspose.email.personalinfo/contact) который представляет контактную информацию
 
 ### Смотрите также
 

@@ -24,7 +24,7 @@ public ValidationResult()
 
 ## ValidationResult(ValidationResponseCode) {#constructor_1}
 
-Создать экземпляр класса ValidationResult с указанным ValidationResponseCode
+Создать экземпляр класса ValidationResult с указаннымВалидатионреспонсекоде
 
 ```csharp
 public ValidationResult(ValidationResponseCode responseCode)
@@ -45,7 +45,7 @@ public ValidationResult(ValidationResponseCode responseCode)
 
 ## ValidationResult(ValidationResponseCode, Exception) {#constructor_2}
 
-Создать экземпляр класса ValidationResult с указанным ValidationResponseCodeИ последнее исключение.
+Создать экземпляр класса ValidationResult с указаннымВалидатионреспонсекоде , и последнее исключение.
 
 ```csharp
 public ValidationResult(ValidationResponseCode responseCode, Exception lastException)
@@ -54,7 +54,7 @@ public ValidationResult(ValidationResponseCode responseCode, Exception lastExcep
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | responseCode | ValidationResponseCode | Код ответа процесса проверки. |
-| lastException | Exception | Последнее исключение, обнаруженное в процессе проверки. |
+| lastException | Exception | Последнее исключение встретилось в процессе проверки. |
 
 ### Смотрите также
 

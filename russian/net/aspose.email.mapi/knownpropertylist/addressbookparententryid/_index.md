@@ -1,14 +1,14 @@
 ---
 title: AddressBookParentEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID родительского контейнера в иерархии контейнеров адресной книги. ОбластьАдресная книга Каноническое имяPidTagAddressBookParentEntryId Альтернативные именаPR_EMS_AB_PARENT_ENTRYID
+description: Содержит EntryID родительского контейнера в иерархии контейнеров адресной книги. Область Address Book Каноническое имя PidTagAddressBookParentEntryId Альтернативные имена PR_EMS_AB_PARENT_ENTRYID
 type: docs
 weight: 820
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookparententryid/
 ---
 ## KnownPropertyList.AddressBookParentEntryId field
 
-Содержит EntryID родительского контейнера в иерархии контейнеров адресной книги. Область:Адресная книга Каноническое имя:PidTagAddressBookParentEntryId Альтернативные имена:PR_EMS_AB_PARENT_ENTRYID
+Содержит EntryID родительского контейнера в иерархии контейнеров адресной книги. Область: Address Book Каноническое имя: PidTagAddressBookParentEntryId Альтернативные имена: PR_EMS_AB_PARENT_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookParentEntryId;

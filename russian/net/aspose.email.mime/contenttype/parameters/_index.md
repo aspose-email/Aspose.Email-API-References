@@ -16,7 +16,7 @@ public TrackingStringDictionary Parameters { get; }
 
 ### Стоимость имущества
 
-Словарь строк, содержащий пары имя-значение.
+StringDictionary, содержащий пары имя-значение.
 
 ### Смотрите также
 

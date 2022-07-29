@@ -1,14 +1,14 @@
 ---
 title: OriginatingServer
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя сервера с которого выполнялся командлет.
+description: Имя сервера с которого был выполнен командлет.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activity/exchangeadminactivity/originatingserver/
 ---
 ## ExchangeAdminActivity.OriginatingServer property
 
-Имя сервера, с которого выполнялся командлет.
+Имя сервера, с которого был выполнен командлет.
 
 ```csharp
 public string OriginatingServer { get; set; }

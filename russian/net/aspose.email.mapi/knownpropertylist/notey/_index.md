@@ -1,14 +1,14 @@
 ---
 title: NoteY
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает расстояние в пикселях от верхнего края экрана на котором пользовательский интерфейс отображает объект Note. ОбластьSticky Notes Каноническое имяPidLidNoteY Альтернативные именаdispidNoteY
+description: Определяет расстояние в пикселях от верхнего края экрана на котором пользовательский интерфейс отображает объект Note. Область Sticky Notes Каноническое имя PidLidNoteY Альтернативные имена dispidNoteY
 type: docs
 weight: 13160
 url: /ru/net/aspose.email.mapi/knownpropertylist/notey/
 ---
 ## KnownPropertyList.NoteY field
 
-Указывает расстояние в пикселях от верхнего края экрана, на котором пользовательский интерфейс отображает объект Note. Область:Sticky Notes Каноническое имя:PidLidNoteY Альтернативные имена:dispidNoteY
+Определяет расстояние в пикселях от верхнего края экрана, на котором пользовательский интерфейс отображает объект Note. Область: Sticky Notes Каноническое имя: PidLidNoteY Альтернативные имена: dispidNoteY
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoteY;

@@ -1,14 +1,14 @@
 ---
 title: ClientCapabilitiesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Уведомляет сервер о том какие расширения поддерживает клиент. Обратите внимание эта операция работает только в том случае если сервер поддерживает RFC5161 Подробнее https//tools.ietf.org/html/rfc5161
+description: Уведомляет сервер какие расширения поддерживаются клиентом. Обратите внимание эта операция работает только в том случае если сервер поддерживает RFC5161 Подробнее https//tools.ietf.org/html/rfc5161
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/clientcapabilitiesasync/
 ---
 ## IAsyncImapClient.ClientCapabilitiesAsync method
 
-Уведомляет сервер о том, какие расширения поддерживает клиент. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
+Уведомляет сервер, какие расширения поддерживаются клиентом. Обратите внимание, эта операция работает только в том случае, если сервер поддерживает RFC5161 Подробнее https://tools.ietf.org/html/rfc5161
 
 ```csharp
 public Task<IEnumerable<string>> ClientCapabilitiesAsync(IEnumerable<string> capabilityNames, 
@@ -17,7 +17,7 @@ public Task<IEnumerable<string>> ClientCapabilitiesAsync(IEnumerable<string> cap
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IEnumerable`1 | Соединение с сервером |
+| connection | IEnumerable`1 | Подключение к серверу |
 | token | IConnection | Распространяет уведомление о том, что операции должны быть отменены. |
 | capabilityNames | CancellationToken | Массив возможностей, поддерживаемых клиентом |
 

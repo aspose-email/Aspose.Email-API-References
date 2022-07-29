@@ -16,8 +16,8 @@ public Task CreateFolderAsync(IConnection connection, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к server |
-| folderName | String | Создаваемая папка |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, которую нужно создать |
 
 ### Возвращаемое значение
 
@@ -42,7 +42,7 @@ public Task CreateFolderAsync(string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая будет создан |
+| folderName | String | Папка, которую нужно создать |
 
 ### Возвращаемое значение
 
@@ -66,8 +66,8 @@ public Task CreateFolderAsync(IConnection connection, string folderName, Cancell
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к server |
-| folderName | String | Создаваемая папка |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка, которую нужно создать |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -93,7 +93,7 @@ public Task CreateFolderAsync(string folderName, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка, которая будет created |
+| folderName | String | Папка, которую нужно создать |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

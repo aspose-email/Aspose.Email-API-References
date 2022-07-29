@@ -1,14 +1,14 @@
 ---
 title: TransportMessageHeaders
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит специфичную для транспорта информацию о конверте сообщения для электронной почты. ОбластьЭлектронная почта Каноническое имяPidTagTransportMessageHeaders Альтернативные именаPR_TRANSPORT_MESSAGE_HEADERS PR_TRANSPORT_MESSAGE_HEADERS_A PR_TRANSPORT_MESSAGE_HEADERS_W
+description: Содержит информацию о конверте сообщения для конкретного транспорта для электронной почты. Область Email Каноническое имя PidTagTransportMessageHeaders Альтернативные имена PR_TRANSPORT_MESSAGE_HEADERS PR_TRANSPORT_MESSAGE_HEADERS_A PR_TRANSPORT_MESSAGE_HEADERS_W
 type: docs
 weight: 19110
 url: /ru/net/aspose.email.mapi/knownpropertylist/transportmessageheaders/
 ---
 ## KnownPropertyList.TransportMessageHeaders field
 
-Содержит специфичную для транспорта информацию о конверте сообщения для электронной почты. Область:Электронная почта Каноническое имя:PidTagTransportMessageHeaders Альтернативные имена:PR_TRANSPORT_MESSAGE_HEADERS, PR_TRANSPORT_MESSAGE_HEADERS_A, PR_TRANSPORT_MESSAGE_HEADERS_W
+Содержит информацию о конверте сообщения для конкретного транспорта для электронной почты. Область: Email Каноническое имя: PidTagTransportMessageHeaders Альтернативные имена: PR_TRANSPORT_MESSAGE_HEADERS, PR_TRANSPORT_MESSAGE_HEADERS_A, PR_TRANSPORT_MESSAGE_HEADERS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransportMessageHeaders;

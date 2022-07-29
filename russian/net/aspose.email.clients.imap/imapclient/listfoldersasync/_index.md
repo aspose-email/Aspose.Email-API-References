@@ -16,7 +16,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -42,7 +42,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | parentFolder | String | Имя папки |
 
 ### Возвращаемое значение
@@ -69,7 +69,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, b
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
+| connection | IConnection | Подключение к серверу |
 | loadFullInfo | Boolean | Значение true указывает, что информация о папках должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
 
 ### Возвращаемое значение
@@ -96,7 +96,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync()
 
 ### Возвращаемое значение
 
-Объект задачи, с делегат для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -117,11 +117,11 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
+| parentFolder | String | Имя папки |
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом на эту операцию
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -167,8 +167,8 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
-| loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| parentFolder | String | Имя папки |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папках должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
 
 ### Возвращаемое значение
 
@@ -194,9 +194,9 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | parentFolder | String | Имя папки |
-| loadFullInfo | Boolean | Значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папках должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
 
 ### Возвращаемое значение
 
@@ -223,10 +223,10 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
-| loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
-| options | ListFoldersOptions | Опции операции |
-| returnOptions | ListFoldersReturnOptions | Возврат опции операции |
+| parentFolder | String | Имя папки |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| options | ListFoldersOptions | Варианты работы |
+| returnOptions | ListFoldersReturnOptions | Варианты возврата для операции |
 
 ### Возвращаемое значение
 
@@ -254,11 +254,11 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | parentFolder | String | Имя папки |
-| loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть извлечены с сервера полностью, в противном случае извлекаются только имена папок. |
-| options | ListFoldersOptions | Опции операции |
-| returnOptions | ListFoldersReturnOptions | Возврат опции операции |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| options | ListFoldersOptions | Варианты работы |
+| returnOptions | ListFoldersReturnOptions | Варианты возврата для операции |
 
 ### Возвращаемое значение
 
@@ -287,7 +287,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -315,9 +315,9 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | parentFolder | String | Имя папки |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -344,7 +344,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, b
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
+| connection | IConnection | Подключение к серверу |
 | loadFullInfo | Boolean | Значение true указывает, что информация о папках должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -372,7 +372,7 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| token | CancellationToken | Распространяет уведомление что операции должны быть отменены. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -397,8 +397,8 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, Canc
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
-| token | CancellationToken | Распространяет уведомление о необходимости отмены операций. |
+| parentFolder | String | Имя папки |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -450,8 +450,8 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
-| loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| parentFolder | String | Имя папки |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папках должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -478,9 +478,9 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | parentFolder | String | Имя папки |
-| loadFullInfo | Boolean | Значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папках должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -508,10 +508,10 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder, bool
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
-| loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
-| options | ListFoldersOptions | Опции операции |
-| returnOptions | ListFoldersReturnOptions | Возврат опции операции |
+| parentFolder | String | Имя папки |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| options | ListFoldersOptions | Варианты работы |
+| returnOptions | ListFoldersReturnOptions | Варианты возврата для операции |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -541,11 +541,11 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(IConnection connection, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | parentFolder | String | Имя папки |
-| loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть извлечены с сервера полностью, в противном случае извлекаются только имена папок. |
-| options | ListFoldersOptions | Опции операции |
-| returnOptions | ListFoldersReturnOptions | Возврат опции операции |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| options | ListFoldersOptions | Варианты работы |
+| returnOptions | ListFoldersReturnOptions | Варианты возврата для операции |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

@@ -1,14 +1,14 @@
 ---
 title: ReadReceiptRequested
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрашивает ли отправитель электронной почты уведомление о прочтении у всех получателей когда это сообщение электронной почты прочитано или открыто. ОбластьЭлектронная почта Каноническое имяPidTagReadReceiptRequested Альтернативные именаPR_READ_RECEIPT_REQUESTED ptagReadReceiptRequested
+description: Указывает запрашивает ли отправитель электронной почты уведомление о прочтении у всех получателей когда это сообщение электронной почты прочитано или открыто. Область Email Каноническое имя PidTagReadReceiptRequested Альтернативные имена PR_READ_RECEIPT_REQUESTED ptagReadReceiptRequested
 type: docs
 weight: 15230
 url: /ru/net/aspose.email.mapi/knownpropertylist/readreceiptrequested/
 ---
 ## KnownPropertyList.ReadReceiptRequested field
 
-Указывает, запрашивает ли отправитель электронной почты уведомление о прочтении у всех получателей, когда это сообщение электронной почты прочитано или открыто. Область:Электронная почта Каноническое имя:PidTagReadReceiptRequested Альтернативные имена:PR_READ_RECEIPT_REQUESTED, ptagReadReceiptRequested,
+Указывает, запрашивает ли отправитель электронной почты уведомление о прочтении у всех получателей, когда это сообщение электронной почты прочитано или открыто. Область: Email Каноническое имя: PidTagReadReceiptRequested Альтернативные имена: PR_READ_RECEIPT_REQUESTED, ptagReadReceiptRequested,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReadReceiptRequested;

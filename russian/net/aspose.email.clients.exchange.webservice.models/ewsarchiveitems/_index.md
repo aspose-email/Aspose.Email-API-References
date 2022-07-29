@@ -1,14 +1,14 @@
 ---
 title: EwsArchiveItems
 second_title: Справочник по Aspose.Email для .NET API
-description: ArchiveItemsAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasyncпараметры метода.
+description: ArchiveItemsAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync параметры метода.
 type: docs
 weight: 4050
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/
 ---
 ## EwsArchiveItems class
 
-[`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync)параметры метода.
+[`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync) параметры метода.
 
 ```csharp
 public class EwsArchiveItems
@@ -18,7 +18,7 @@ public class EwsArchiveItems
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/create)(string) | СоздатьEwsArchiveItemsнабор параметров метода. |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/create)(string) | Создать[`ArchiveItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync) набор параметров метода. |
 | [AddItem](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem#additem)(Appointment) | Добавить элемент в архив. |
 | [AddItem](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem#additem_1)(ExchangeTask) | Добавить элемент в архив. |
 | [AddItem](../../aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additem#additem_2)(MapiMessageItemBase) | Добавить элемент в архив. |

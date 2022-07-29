@@ -1,14 +1,14 @@
 ---
 title: UnselectSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение UNSELECT Подробнееhttps//tools.ietf.org/html/rfc2342
+description: Получает информацию о том поддерживается ли расширение UNSELECT Подробнее https//tools.ietf.org/html/rfc2342
 type: docs
 weight: 330
 url: /ru/net/aspose.email.clients.imap/imapclient/unselectsupported/
 ---
 ## ImapClient.UnselectSupported property
 
-Получает информацию о том, поддерживается ли расширение UNSELECT Подробнее:https://tools.ietf.org/html/rfc2342
+Получает информацию о том, поддерживается ли расширение UNSELECT Подробнее: https://tools.ietf.org/html/rfc2342
 
 ```csharp
 public bool UnselectSupported { get; set; }

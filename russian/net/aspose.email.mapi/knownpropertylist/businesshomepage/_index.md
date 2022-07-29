@@ -1,14 +1,14 @@
 ---
 title: BusinessHomePage
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит URL домашней страницы пользователя почты. ОбластьСвойства контакта Каноническое имяPidTagBusinessHomePage Альтернативные именаPR_BUSINESS_HOME_PAGE PR_BUSINESS_HOME_PAGE_A PR_BUSINESS_HOME_PAGE_W
+description: Содержит URL-адрес домашней страницы компании почтового пользователя. Область Свойства контакта Каноническое имя PidTagBusinessHomePage Альтернативные имена PR_BUSINESS_HOME_PAGE PR_BUSINESS_HOME_PAGE_A PR_BUSINESS_HOME_PAGE_W
 type: docs
 weight: 2130
 url: /ru/net/aspose.email.mapi/knownpropertylist/businesshomepage/
 ---
 ## KnownPropertyList.BusinessHomePage field
 
-Содержит URL домашней страницы пользователя почты. Область:Свойства контакта Каноническое имя:PidTagBusinessHomePage Альтернативные имена:PR_BUSINESS_HOME_PAGE, PR_BUSINESS_HOME_PAGE_A, PR_BUSINESS_HOME_PAGE_W,
+Содержит URL-адрес домашней страницы компании почтового пользователя. Область: Свойства контакта Каноническое имя: PidTagBusinessHomePage Альтернативные имена: PR_BUSINESS_HOME_PAGE, PR_BUSINESS_HOME_PAGE_A, PR_BUSINESS_HOME_PAGE_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BusinessHomePage;

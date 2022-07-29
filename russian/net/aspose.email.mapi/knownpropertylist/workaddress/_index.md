@@ -1,14 +1,14 @@
 ---
 title: WorkAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает полный адрес рабочего адреса контакта. ОбластьСвойства контакта Каноническое имяPidLidWorkAddress Альтернативные именаdispidWorkAddress
+description: Указывает полный адрес рабочего адреса контакта. Область Свойства контакта Каноническое имя PidLidWorkAddress Альтернативные имена dispidWorkAddress
 type: docs
 weight: 19550
 url: /ru/net/aspose.email.mapi/knownpropertylist/workaddress/
 ---
 ## KnownPropertyList.WorkAddress field
 
-Указывает полный адрес рабочего адреса контакта. Область:Свойства контакта Каноническое имя:PidLidWorkAddress Альтернативные имена:dispidWorkAddress
+Указывает полный адрес рабочего адреса контакта. Область: Свойства контакта Каноническое имя: PidLidWorkAddress Альтернативные имена: dispidWorkAddress
 
 ```csharp
 public static readonly PidLidPropertyDescriptor WorkAddress;

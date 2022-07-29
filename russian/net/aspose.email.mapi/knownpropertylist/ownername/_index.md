@@ -1,14 +1,14 @@
 ---
 title: OwnerName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя владельца почтового ящика. ОбластьВстречи Каноническое имяPidLidOwnerName Альтернативные именаdispidOwnerName
+description: Указывает имя владельца почтового ящика. Область Meetings Каноническое имя PidLidOwnerName Альтернативные имена dispidOwnerName
 type: docs
 weight: 14110
 url: /ru/net/aspose.email.mapi/knownpropertylist/ownername/
 ---
 ## KnownPropertyList.OwnerName field
 
-Указывает имя владельца почтового ящика. Область:Встречи Каноническое имя:PidLidOwnerName Альтернативные имена:dispidOwnerName
+Указывает имя владельца почтового ящика. Область: Meetings Каноническое имя: PidLidOwnerName Альтернативные имена: dispidOwnerName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OwnerName;

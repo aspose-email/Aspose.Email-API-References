@@ -1,14 +1,14 @@
 ---
 title: UnifiedMessaging
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиЕдиная система обмена сообщениями Имя набора свойствPSETID_UnifiedMessaging
+description: Имя области Единая система обмена сообщениями Имя набора свойств PSETID_UnifiedMessaging
 type: docs
 weight: 180
 url: /ru/net/aspose.email.mapi/knownpropertysets/unifiedmessaging/
 ---
 ## KnownPropertySets.UnifiedMessaging field
 
-Имя области:Единая система обмена сообщениями Имя набора свойств:PSETID_UnifiedMessaging
+Имя области: Единая система обмена сообщениями Имя набора свойств: PSETID_UnifiedMessaging
 
 ```csharp
 public static readonly Guid UnifiedMessaging;

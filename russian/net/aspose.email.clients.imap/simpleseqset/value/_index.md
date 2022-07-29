@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение для поиска
+description: Получает или задает значение search
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/simpleseqset/value/
 ---
 ## SimpleSeqSet.Value property
 
-Получает или задает значение для поиска
+Получает или задает значение search
 
 ```csharp
 public string Value { get; set; }

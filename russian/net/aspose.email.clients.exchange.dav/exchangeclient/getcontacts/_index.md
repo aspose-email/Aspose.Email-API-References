@@ -1,14 +1,14 @@
 ---
 title: GetContacts
 second_title: Справочник по Aspose.Email для .NET API
-description: Список контактов расположенных в указанной папке на сервере
+description: Список контактов расположенных в указанной папке на server
 type: docs
 weight: 200
 url: /ru/net/aspose.email.clients.exchange.dav/exchangeclient/getcontacts/
 ---
 ## ExchangeClient.GetContacts method
 
-Список контактов, расположенных в указанной папке на сервере
+Список контактов, расположенных в указанной папке на server
 
 ```csharp
 public Contact[] GetContacts(string folderUri)
@@ -20,7 +20,7 @@ public Contact[] GetContacts(string folderUri)
 
 ### Возвращаемое значение
 
-Массив read[`Contact`](../../../aspose.email.personalinfo/contact)который представляет контактную информацию
+Массив чтения[`Contact`](../../../aspose.email.personalinfo/contact) который представляет контактную информацию
 
 ### Смотрите также
 

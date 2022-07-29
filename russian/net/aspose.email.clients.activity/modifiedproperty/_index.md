@@ -24,8 +24,8 @@ public class ModifiedProperty
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.email.clients.activity/modifiedproperty/name) { get; set; } | Получает или устанавливает имя свойства |
-| [NewValue](../../aspose.email.clients.activity/modifiedproperty/newvalue) { get; set; } | Получает или устанавливает новое значение свойства |
+| [Name](../../aspose.email.clients.activity/modifiedproperty/name) { get; set; } | Получает или задает имя свойства |
+| [NewValue](../../aspose.email.clients.activity/modifiedproperty/newvalue) { get; set; } | Получает или задает новое значение свойства |
 | [OldValue](../../aspose.email.clients.activity/modifiedproperty/oldvalue) { get; set; } | Получает или устанавливает старое значение свойства |
 
 ### Смотрите также

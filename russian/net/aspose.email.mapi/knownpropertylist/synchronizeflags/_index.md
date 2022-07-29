@@ -1,14 +1,14 @@
 ---
 title: SynchronizeFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SYNCHRONIZE_FLAGS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SYNCHRONIZE_FLAGS
 type: docs
 weight: 18450
 url: /ru/net/aspose.email.mapi/knownpropertylist/synchronizeflags/
 ---
 ## KnownPropertyList.SynchronizeFlags field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SYNCHRONIZE_FLAGS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SYNCHRONIZE_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SynchronizeFlags;

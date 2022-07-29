@@ -1,14 +1,14 @@
 ---
 title: Private
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает желает ли конечный пользователь чтобы этот объект Message был скрыт от других пользователей имеющих доступ к объекту Message. ОбластьОбщие свойства сообщения Каноническое имяPidLidPrivate Альтернативные именаdispidPrivate
+description: Указывает желает ли конечный пользователь чтобы этот объект сообщения был скрыт от других пользователей имеющих доступ к объекту сообщения. Область Общие свойства сообщения Каноническое имя PidLidPrivate Альтернативные имена dispidPrivate
 type: docs
 weight: 14620
 url: /ru/net/aspose.email.mapi/knownpropertylist/private/
 ---
 ## KnownPropertyList.Private field
 
-Указывает, желает ли конечный пользователь, чтобы этот объект Message был скрыт от других пользователей, имеющих доступ к объекту Message. Область:Общие свойства сообщения Каноническое имя:PidLidPrivate Альтернативные имена:dispidPrivate
+Указывает, желает ли конечный пользователь, чтобы этот объект сообщения был скрыт от других пользователей, имеющих доступ к объекту сообщения. Область: Общие свойства сообщения Каноническое имя: PidLidPrivate Альтернативные имена: dispidPrivate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Private;

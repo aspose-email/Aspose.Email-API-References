@@ -1,14 +1,14 @@
 ---
 title: ChangeAdvisor
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CHANGE_ADVISOR
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CHANGE_ADVISOR
 type: docs
 weight: 2550
 url: /ru/net/aspose.email.mapi/knownpropertylist/changeadvisor/
 ---
 ## KnownPropertyList.ChangeAdvisor field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CHANGE_ADVISOR
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CHANGE_ADVISOR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ChangeAdvisor;

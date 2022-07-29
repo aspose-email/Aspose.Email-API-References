@@ -1,14 +1,14 @@
 ---
 title: MessageEncoding
 second_title: Справочник по Aspose.Email для .NET API
-description: Кодировка двоичного тела сообщения
+description: Кодировка двоичного сообщения body
 type: docs
 weight: 110
 url: /ru/net/aspose.email.tools.logging/logentry/messageencoding/
 ---
 ## LogEntry.MessageEncoding property
 
-Кодировка двоичного тела сообщения
+Кодировка двоичного сообщения body
 
 ```csharp
 public Encoding MessageEncoding { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EventId
 second_title: Справочник по Aspose.Email для .NET API
-description: Номер события или идентификатор.
+description: Номер или идентификатор события.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.tools.logging/logentry/eventid/
 ---
 ## LogEntry.EventId property
 
-Номер события или идентификатор.
+Номер или идентификатор события.
 
 ```csharp
 public int EventId { get; set; }

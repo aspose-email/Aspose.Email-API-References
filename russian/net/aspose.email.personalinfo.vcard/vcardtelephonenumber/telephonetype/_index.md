@@ -1,14 +1,14 @@
 ---
 title: TelephoneType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип телефонного номера
+description: Получает или задает номер телефона type
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo.vcard/vcardtelephonenumber/telephonetype/
 ---
 ## VCardTelephoneNumber.TelephoneType property
 
-Получает или задает тип телефонного номера
+Получает или задает номер телефона type
 
 ```csharp
 public VCardTelephoneType TelephoneType { get; set; }
@@ -18,7 +18,7 @@ public VCardTelephoneType TelephoneType { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *value*не определено в[`VCardTelephoneType`](../../vcardtelephonetype) |
+| ArgumentException | *value* не определяется в[`VCardTelephoneType`](../../vcardtelephonetype) |
 
 ### Смотрите также
 

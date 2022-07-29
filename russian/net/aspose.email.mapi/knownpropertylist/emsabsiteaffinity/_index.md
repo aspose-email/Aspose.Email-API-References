@@ -1,14 +1,14 @@
 ---
 title: EmsAbSiteAffinity
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SITE_AFFINITY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SITE_AFFINITY
 type: docs
 weight: 8840
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsiteaffinity/
 ---
 ## KnownPropertyList.EmsAbSiteAffinity field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SITE_AFFINITY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SITE_AFFINITY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSiteAffinity;

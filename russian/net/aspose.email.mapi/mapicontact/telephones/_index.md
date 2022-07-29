@@ -1,14 +1,14 @@
 ---
 title: Telephones
 second_title: Справочник по Aspose.Email для .NET API
-description: Укажите телефоны для контакта
+description: Укажите номера телефонов для контакта
 type: docs
 weight: 120
 url: /ru/net/aspose.email.mapi/mapicontact/telephones/
 ---
 ## MapiContact.Telephones property
 
-Укажите телефоны для контакта
+Укажите номера телефонов для контакта
 
 ```csharp
 public MapiContactTelephonePropertySet Telephones { get; set; }

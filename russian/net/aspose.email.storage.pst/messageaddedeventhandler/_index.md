@@ -1,14 +1,14 @@
 ---
 title: MessageAddedEventHandler
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет метод который будет обрабатывать событиеMessageAdded./folderinfo/messageadded.
+description: Представляет метод который будет обрабатыватьMessageAdded./folderinfo/messageadded событие.
 type: docs
-weight: 20190
+weight: 20240
 url: /ru/net/aspose.email.storage.pst/messageaddedeventhandler/
 ---
 ## MessageAddedEventHandler delegate
 
-Представляет метод, который будет обрабатывать событие[`MessageAdded`](../folderinfo/messageadded).
+Представляет метод, который будет обрабатывать[`MessageAdded`](../folderinfo/messageadded) событие.
 
 ```csharp
 public delegate void MessageAddedEventHandler(object sender, MessageAddedEventArgs e);

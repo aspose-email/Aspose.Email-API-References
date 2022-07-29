@@ -1,14 +1,14 @@
 ---
 title: Keys
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает System.Collections.Generic.ICollectionltlonggt содержащий ключи в коллекции.
+description: Получает System.Collections.Generic.ICollectionltlonggt содержащую ключи в коллекции.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/mapipropertycollection/keys/
 ---
 ## MapiPropertyCollection.Keys property
 
-Получает System.Collections.Generic.ICollection&lt;long&gt; содержащий ключи в коллекции.
+Получает System.Collections.Generic.ICollection&lt;long&gt;, содержащую ключи в коллекции.
 
 ```csharp
 public ICollection<long> Keys { get; }

@@ -1,14 +1,14 @@
 ---
 title: MboxStorageReader
 second_title: Справочник по Aspose.Email для .NET API
-description: Базовый класс для любой программы чтения почты на основе mbox.
+description: Базовый класс для любой программы чтения почты на базе mbox.
 type: docs
-weight: 19980
+weight: 20030
 url: /ru/net/aspose.email.storage.mbox/mboxstoragereader/
 ---
 ## MboxStorageReader class
 
-Базовый класс для любой программы чтения почты на основе mbox.
+Базовый класс для любой программы чтения почты на базе mbox.
 
 ```csharp
 public abstract class MboxStorageReader : IDisposable
@@ -25,15 +25,15 @@ public abstract class MboxStorageReader : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader)(Stream, MboxLoadOptions) | Создает экземпляр читателя. |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_3)(string, MboxLoadOptions) | Создает экземпляр читателя. |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_1)(Stream, MboxLoadOptions, CancellationToken) | Создает экземпляр читателя. |
-| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_4)(string, MboxLoadOptions, CancellationToken) | Создает экземпляр читателя. |
-| [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader)(Stream, MboxLoadOptions) | Создает экземпляр reader. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_3)(string, MboxLoadOptions) | Создает экземпляр reader. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_1)(Stream, MboxLoadOptions, CancellationToken) | Создает экземпляр reader. |
+| static [CreateReader](../../aspose.email.storage.mbox/mboxstoragereader/createreader#createreader_4)(string, MboxLoadOptions, CancellationToken) | Создает экземпляр reader. |
+| [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | Предоставляет перечислитель, который поддерживает итерацию сообщений в хранилище. |
 | abstract [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxstoragereader/gettotalitemscount)() | Возвращает количество сообщений в хранилище. |
-| abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage#readnextmessage)() | Читает следующее сообщение из базового потока хранения. |
-| abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage#readnextmessage_1)(out string) | Читает следующее сообщение из базового потока хранения. |
+| abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage#readnextmessage)() | Читает следующее сообщение из основного потока хранения. |
+| abstract [ReadNextMessage](../../aspose.email.storage.mbox/mboxstoragereader/readnextmessage#readnextmessage_1)(out string) | Читает следующее сообщение из основного потока хранения. |
 
 ### Смотрите также
 

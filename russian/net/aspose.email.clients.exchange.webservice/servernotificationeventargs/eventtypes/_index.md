@@ -1,14 +1,14 @@
 ---
 title: EventTypes
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип события
+description: Определяет тип события
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice/servernotificationeventargs/eventtypes/
 ---
 ## ServerNotificationEventArgs.EventTypes property
 
-Указывает тип события
+Определяет тип события
 
 ```csharp
 public EventTypes EventTypes { get; }

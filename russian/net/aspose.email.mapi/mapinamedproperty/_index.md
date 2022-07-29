@@ -3,7 +3,7 @@ title: MapiNamedProperty
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет тип данных именованного свойства.
 type: docs
-weight: 18480
+weight: 18510
 url: /ru/net/aspose.email.mapi/mapinamedproperty/
 ---
 ## MapiNamedProperty class
@@ -18,11 +18,11 @@ public sealed class MapiNamedProperty : MapiProperty
 
 | Имя | Описание |
 | --- | --- |
-| [MapiNamedProperty](mapinamedproperty#constructor)() | Инициализирует новый экземпляр класса[`MapiNamedProperty`](../mapinamedproperty). |
-| [MapiNamedProperty](mapinamedproperty#constructor_1)(INamedPropertyTagProvider, PidLidPropertyDescriptor, object) | Инициализирует новый экземпляр класса[`MapiNamedProperty`](../mapinamedproperty). |
-| [MapiNamedProperty](mapinamedproperty#constructor_2)(INamedPropertyTagProvider, PidNamePropertyDescriptor, object) | Инициализирует новый экземпляр класса[`MapiNamedProperty`](../mapinamedproperty). |
-| [MapiNamedProperty](mapinamedproperty#constructor_3)(long, long, Guid, byte[]) | Инициализирует новый экземпляр класса[`MapiNamedProperty`](../mapinamedproperty). |
-| [MapiNamedProperty](mapinamedproperty#constructor_4)(long, string, Guid, byte[]) | Инициализирует новый экземпляр класса[`MapiNamedProperty`](../mapinamedproperty). |
+| [MapiNamedProperty](mapinamedproperty#constructor)() | Инициализирует новый экземпляр[`MapiNamedProperty`](../mapinamedproperty) класс. |
+| [MapiNamedProperty](mapinamedproperty#constructor_1)(INamedPropertyTagProvider, PidLidPropertyDescriptor, object) | Инициализирует новый экземпляр[`MapiNamedProperty`](../mapinamedproperty) класс. |
+| [MapiNamedProperty](mapinamedproperty#constructor_2)(INamedPropertyTagProvider, PidNamePropertyDescriptor, object) | Инициализирует новый экземпляр[`MapiNamedProperty`](../mapinamedproperty) класс. |
+| [MapiNamedProperty](mapinamedproperty#constructor_3)(long, long, Guid, byte[]) | Инициализирует новый экземпляр[`MapiNamedProperty`](../mapinamedproperty) класс. |
+| [MapiNamedProperty](mapinamedproperty#constructor_4)(long, string, Guid, byte[]) | Инициализирует новый экземпляр[`MapiNamedProperty`](../mapinamedproperty) класс. |
 
 ## Характеристики
 
@@ -31,16 +31,16 @@ public sealed class MapiNamedProperty : MapiProperty
 | virtual [Data](../../aspose.email.mapi/mapiproperty/data) { get; } | Получает двоичные данные. |
 | virtual [DataType](../../aspose.email.mapi/mapiproperty/datatype) { get; } | Получает тип данных. |
 | [Descriptor](../../aspose.email.mapi/mapiproperty/descriptor) { get; } | Получает дескриптор свойства MAPI |
-| [Guid](../../aspose.email.mapi/mapinamedproperty/guid) { get; } | получает GUID именованного свойства |
+| [Guid](../../aspose.email.mapi/mapinamedproperty/guid) { get; } | получает именованное свойство GUID |
 | virtual [Identifier](../../aspose.email.mapi/mapiproperty/identifier) { get; } | Получает индикатор. |
 | [IsNamed](../../aspose.email.mapi/mapiproperty/isnamed) { get; } | Указывает, является ли свойство именованным свойством. |
 | virtual [IsSigned](../../aspose.email.mapi/mapiproperty/issigned) { get; set; } | Указывает, подписаны ли двоичные данные. |
-| [Kind](../../aspose.email.mapi/mapinamedproperty/kind) { get; } | получает именованный вид свойства |
+| [Kind](../../aspose.email.mapi/mapinamedproperty/kind) { get; } | получает именованное свойство kind |
 | [MVEntries](../../aspose.email.mapi/mapiproperty/mventries) { get; } | Получает список записей MV. |
 | virtual [Name](../../aspose.email.mapi/mapiproperty/name) { get; } | Получает имя. |
-| [NameId](../../aspose.email.mapi/mapinamedproperty/nameid) { get; } | получает идентификатор именованного свойства |
+| [NameId](../../aspose.email.mapi/mapinamedproperty/nameid) { get; } | получает именованное свойство ID |
 | [Oom](../../aspose.email.mapi/mapinamedproperty/oom) { get; } | получает значение OOM |
-| virtual [PropertyTagName](../../aspose.email.mapi/mapiproperty/propertytagname) { get; } | Получает PropertyName. |
+| virtual [PropertyTagName](../../aspose.email.mapi/mapiproperty/propertytagname) { get; } | Получает имя свойства. |
 | virtual [Tag](../../aspose.email.mapi/mapiproperty/tag) { get; } | Получает тег. |
 
 ## Методы
@@ -48,19 +48,19 @@ public sealed class MapiNamedProperty : MapiProperty
 | Имя | Описание |
 | --- | --- |
 | virtual [GetBoolean](../../aspose.email.mapi/mapiproperty/getboolean)() | Получает первые байты двоичных данных как логическое значение. |
-| virtual [GetCurrency](../../aspose.email.mapi/mapiproperty/getcurrency)() | Получает валюту в виде строки, используя указанную кодовую страницу. |
+| virtual [GetCurrency](../../aspose.email.mapi/mapiproperty/getcurrency)() | Получает валюту в виде строки с использованием указанной кодовой страницы. |
 | virtual [GetDateTime](../../aspose.email.mapi/mapiproperty/getdatetime)() | Получает первые байты двоичных данных в виде даты и времени. |
-| virtual [GetDouble](../../aspose.email.mapi/mapiproperty/getdouble)() | Получает байты двоичных данных как двойные. |
-| virtual [GetFloat](../../aspose.email.mapi/mapiproperty/getfloat)() | Получает байты двоичных данных как число с плавающей запятой. |
-| virtual [GetFloatingDate](../../aspose.email.mapi/mapiproperty/getfloatingdate)() | Получает байты двоичных данных в формате DateTime. |
+| virtual [GetDouble](../../aspose.email.mapi/mapiproperty/getdouble)() | Получает байты двоичных данных как double. |
+| virtual [GetFloat](../../aspose.email.mapi/mapiproperty/getfloat)() | Получает байты двоичных данных в виде числа с плавающей запятой. |
+| virtual [GetFloatingDate](../../aspose.email.mapi/mapiproperty/getfloatingdate)() | Получает байты двоичных данных как DateTime. |
 | virtual [GetGuid](../../aspose.email.mapi/mapiproperty/getguid)() | Получает байты двоичных данных в виде Guid. |
 | virtual [GetInt32](../../aspose.email.mapi/mapiproperty/getint32)() | Получает первые 4 байта двоичных данных как int32. |
-| virtual [GetLong](../../aspose.email.mapi/mapiproperty/getlong)() | Получает первые 8 байтов двоичных данных заданной длины. |
+| virtual [GetLong](../../aspose.email.mapi/mapiproperty/getlong)() | Получает первые 8 байтов двоичных данных такой длины. |
 | virtual [GetShort](../../aspose.email.mapi/mapiproperty/getshort)() | Получает первые 2 байта двоичных данных как короткие. |
 | virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)() | Получает двоичные данные в виде строки. |
 | virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)(int) | Получает двоичные данные в виде строки с использованием указанной кодовой страницы. |
-| [GetValue](../../aspose.email.mapi/mapiproperty/getvalue)() | Получает значение как объект |
-| override [ToString](../../aspose.email.mapi/mapiproperty/tostring)() | ВозвращаетString, который представляет текущийObject. |
+| [GetValue](../../aspose.email.mapi/mapiproperty/getvalue)() | Получает значение как object |
+| override [ToString](../../aspose.email.mapi/mapiproperty/tostring)() | ВозвращаетString который представляет текущийObject . |
 
 ### Смотрите также
 

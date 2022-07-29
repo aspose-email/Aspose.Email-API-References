@@ -1,14 +1,14 @@
 ---
 title: IpmJournalEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID папки журнала. ОбластьСвойства папки Каноническое имяPidTagIpmJournalEntryId Альтернативные именаPR_IPM_JOURNAL_ENTRYID
+description: Содержит EntryID папки журнала. Область Свойства папки Каноническое имя PidTagIpmJournalEntryId Альтернативные имена PR_IPM_JOURNAL_ENTRYID
 type: docs
 weight: 11670
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmjournalentryid/
 ---
 ## KnownPropertyList.IpmJournalEntryId field
 
-Содержит EntryID папки журнала. Область:Свойства папки Каноническое имя:PidTagIpmJournalEntryId Альтернативные имена:PR_IPM_JOURNAL_ENTRYID
+Содержит EntryID папки журнала. Область: Свойства папки Каноническое имя: PidTagIpmJournalEntryId Альтернативные имена: PR_IPM_JOURNAL_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmJournalEntryId;

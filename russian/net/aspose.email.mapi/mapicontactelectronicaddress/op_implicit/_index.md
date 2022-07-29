@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Выполняет неявное преобразование изStringвMapiContactElectronicAddressaspose.email.mapi/mapicontactelectronicaddress.
+description: Выполняет неявное преобразование изString кMapiContactElectronicAddressaspose.email.mapi/mapicontactelectronicaddress .
 type: docs
 weight: 110
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddress/op_implicit/
 ---
 ## MapiContactElectronicAddress Implicit operator
 
-Выполняет неявное преобразование изStringв[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress).
+Выполняет неявное преобразование изString к[`MapiContactElectronicAddress`](../../mapicontactelectronicaddress) .
 
 ```csharp
 public static implicit operator MapiContactElectronicAddress(string emailAddress)

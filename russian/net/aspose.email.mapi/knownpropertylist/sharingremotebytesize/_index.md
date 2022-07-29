@@ -1,14 +1,14 @@
 ---
 title: SharingRemoteByteSize
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingRemoteByteSize Альтернативные именаdispidSharingRemoteByteSize
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingRemoteByteSize Альтернативные имена dispidSharingRemoteByteSize
 type: docs
 weight: 17770
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingremotebytesize/
 ---
 ## KnownPropertyList.SharingRemoteByteSize field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingRemoteByteSize Альтернативные имена:dispidSharingRemoteByteSize
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingRemoteByteSize Альтернативные имена: dispidSharingRemoteByteSize
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingRemoteByteSize;

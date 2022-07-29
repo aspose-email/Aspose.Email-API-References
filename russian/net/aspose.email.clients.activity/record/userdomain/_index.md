@@ -1,14 +1,14 @@
 ---
 title: UserDomain
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает идентификационную информацию арендатора TII. ОбязательноДа
+description: Получает или задает идентификационную информацию арендатора TII. Обязательно Yes
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.activity/record/userdomain/
 ---
 ## Record.UserDomain property
 
-Получает или задает идентификационную информацию арендатора (TII). Обязательно:Да
+Получает или задает идентификационную информацию арендатора (TII). Обязательно: Yes
 
 ```csharp
 public string UserDomain { get; set; }

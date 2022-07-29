@@ -1,14 +1,14 @@
 ---
 title: AccessControlListData
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список разрешений для папки. ОбластьСвойства контроля доступа Каноническое имяPidTagAccessControlListData Альтернативные именаPR_ACL_DATA ptagACLData
+description: Содержит список разрешений для папки. Область Свойства контроля доступа Каноническое имя PidTagAccessControlListData Альтернативные имена PR_ACL_DATA ptagACLData
 type: docs
 weight: 260
 url: /ru/net/aspose.email.mapi/knownpropertylist/accesscontrollistdata/
 ---
 ## KnownPropertyList.AccessControlListData field
 
-Содержит список разрешений для папки. Область:Свойства контроля доступа Каноническое имя:PidTagAccessControlListData Альтернативные имена:PR_ACL_DATA, ptagACLData
+Содержит список разрешений для папки. Область: Свойства контроля доступа Каноническое имя: PidTagAccessControlListData Альтернативные имена: PR_ACL_DATA, ptagACLData
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AccessControlListData;

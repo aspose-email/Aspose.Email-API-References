@@ -1,14 +1,14 @@
 ---
 title: SetConnection
 second_title: Справочник по Aspose.Email для .NET API
-description: Подключение к серверу опционально.
+description: Подключение к серверу необязательно.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.smtp.models/smtpforward/setconnection/
 ---
 ## SmtpForward.SetConnection method
 
-Подключение к серверу (опционально).
+Подключение к серверу (необязательно).
 
 ```csharp
 public SmtpForward SetConnection(IConnection connection)

@@ -1,14 +1,14 @@
 ---
 title: FileDropTargetManager
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет класс менеджера для цели перетаскивания файлов.
+description: Представляет класс менеджера для цели перетаскивания файла.
 type: docs
-weight: 20870
+weight: 20920
 url: /ru/net/aspose.email.windows.forms/filedroptargetmanager/
 ---
 ## FileDropTargetManager class
 
-Представляет класс менеджера для цели перетаскивания файлов.
+Представляет класс менеджера для цели перетаскивания файла.
 
 ```csharp
 public sealed class FileDropTargetManager : IDropTarget
@@ -18,7 +18,7 @@ public sealed class FileDropTargetManager : IDropTarget
 
 | Имя | Описание |
 | --- | --- |
-| [FileDropTargetManager](filedroptargetmanager)(Control) | Инициализирует новый экземпляр класса[`FileDropTargetManager`](../filedroptargetmanager). |
+| [FileDropTargetManager](filedroptargetmanager)(Control) | Инициализирует новый экземпляр[`FileDropTargetManager`](../filedroptargetmanager) класс. |
 
 ## Характеристики
 

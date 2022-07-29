@@ -1,14 +1,14 @@
 ---
 title: ReportName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя объекта обычно агента сервера создавшего отчетное сообщение. ОбластьMapiEnvelope Каноническое имяPidTagReportName Альтернативные именаPR_REPORT_NAME PR_REPORT_NAME_A PR_REPORT_NAME_W
+description: Содержит отображаемое имя объекта обычно агента сервера создавшего отчетное сообщение. Область MapiEnvelope Каноническое имя PidTagReportName Альтернативные имена PR_REPORT_NAME PR_REPORT_NAME_A PR_REPORT_NAME_W
 type: docs
 weight: 16060
 url: /ru/net/aspose.email.mapi/knownpropertylist/reportname/
 ---
 ## KnownPropertyList.ReportName field
 
-Содержит отображаемое имя объекта (обычно агента сервера), создавшего отчетное сообщение. Область:MapiEnvelope Каноническое имя:PidTagReportName Альтернативные имена:PR_REPORT_NAME, PR_REPORT_NAME_A, PR_REPORT_NAME_W
+Содержит отображаемое имя объекта (обычно агента сервера), создавшего отчетное сообщение. Область: MapiEnvelope Каноническое имя: PidTagReportName Альтернативные имена: PR_REPORT_NAME, PR_REPORT_NAME_A, PR_REPORT_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportName;

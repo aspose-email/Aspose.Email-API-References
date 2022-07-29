@@ -1,14 +1,14 @@
 ---
 title: ExchangeReminderInterval
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет время в секундах между напоминаниями. ОбластьОбщие Каноническое имяPidNameExchangeReminderInterval Альтернативные именаhttp//schemas.microsoft.com/exchange/reminderinterval
+description: Определяет время в секундах между напоминаниями. Область Common Каноническое имя PidNameExchangeReminderInterval Альтернативные имена http//schemas.microsoft.com/exchange/reminderinterval
 type: docs
 weight: 9890
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchangereminderinterval/
 ---
 ## KnownPropertyList.ExchangeReminderInterval field
 
-Определяет время в секундах между напоминаниями. Область:Общие Каноническое имя:PidNameExchangeReminderInterval Альтернативные имена:http://schemas.microsoft.com/exchange/reminderinterval
+Определяет время в секундах между напоминаниями. Область: Common Каноническое имя: PidNameExchangeReminderInterval Альтернативные имена: http://schemas.microsoft.com/exchange/reminderinterval
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangeReminderInterval;

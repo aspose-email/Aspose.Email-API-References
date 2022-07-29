@@ -3,7 +3,7 @@ title: MailServerValidatingEventArgs
 second_title: Справочник по Aspose.Email для .NET API
 description: Предоставляет данные для события MailServerValidatingEvent.
 type: docs
-weight: 20760
+weight: 20810
 url: /ru/net/aspose.email.tools.verifications/mailservervalidatingeventargs/
 ---
 ## MailServerValidatingEventArgs class
@@ -25,11 +25,11 @@ public class MailServerValidatingEventArgs : DomainValidatingEventArgs
 | Имя | Описание |
 | --- | --- |
 | [Domain](../../aspose.email.tools.verifications/domainvalidatingeventargs/domain) { get; } | Получает домен. |
-| [Mail](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/mail) { get; } | Получает проверяемый почтовый адрес. |
+| [Mail](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/mail) { get; } | Получает почтовый адрес, который проверяется. |
 | [MailAddress](../../aspose.email.tools.verifications/domainvalidatingeventargs/mailaddress) { get; } | Получает адрес электронной почты. |
 | [MailExchangeServers](../../aspose.email.tools.verifications/mailservervalidatingeventargs/mailexchangeservers) { get; } | Получает список серверов почтового обмена. |
 | [Result](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/result) { get; set; } | Получает или задает результат проверки. |
-| [Skip](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/skip) { get; set; } | Указывает, игнорировать ли проверку. |
+| [Skip](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/skip) { get; set; } | Указывает, следует ли игнорировать проверку. |
 
 ### Смотрите также
 

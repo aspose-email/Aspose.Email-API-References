@@ -1,14 +1,14 @@
 ---
 title: ExpiryUnits
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит единицу времени на которую умножается значение свойства PidTagExpiryNumber раздел 2.679. ОбластьMapiStatus Каноническое имяPidTagExpiryUnits Альтернативные именаPR_EXPIRY_UNITS
+description: Содержит единицу времени на которую умножается значение свойства PidTagExpiryNumber раздел 2.679. Область MapiStatus Каноническое имя PidTagExpiryUnits Альтернативные имена PR_EXPIRY_UNITS
 type: docs
 weight: 9960
 url: /ru/net/aspose.email.mapi/knownpropertylist/expiryunits/
 ---
 ## KnownPropertyList.ExpiryUnits field
 
-Содержит единицу времени, на которую умножается значение свойства PidTagExpiryNumber (раздел 2.679). Область:MapiStatus Каноническое имя:PidTagExpiryUnits Альтернативные имена:PR_EXPIRY_UNITS
+Содержит единицу времени, на которую умножается значение свойства PidTagExpiryNumber (раздел 2.679). Область: MapiStatus Каноническое имя: PidTagExpiryUnits Альтернативные имена: PR_EXPIRY_UNITS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExpiryUnits;

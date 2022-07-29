@@ -16,7 +16,7 @@ public bool Contains(AssociatedPerson value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | AssociatedPerson | Объект для поиска в списке. |
+| value | AssociatedPerson | Объект, который нужно найти в списке. |
 
 ### Возвращаемое значение
 

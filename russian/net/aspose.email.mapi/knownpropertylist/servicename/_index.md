@@ -1,14 +1,14 @@
 ---
 title: ServiceName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SERVICE_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SERVICE_NAME
 type: docs
 weight: 17350
 url: /ru/net/aspose.email.mapi/knownpropertylist/servicename/
 ---
 ## KnownPropertyList.ServiceName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SERVICE_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SERVICE_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ServiceName;

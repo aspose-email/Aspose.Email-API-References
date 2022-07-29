@@ -1,14 +1,14 @@
 ---
 title: FaxNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает телефонный номер основного факсимильного аппарата пользователя почты
+description: Получает или задает номер телефона основного факсимильного аппарата пользователя почты
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddress/faxnumber/
 ---
 ## MapiContactElectronicAddress.FaxNumber property
 
-Получает или устанавливает телефонный номер основного факсимильного аппарата пользователя почты
+Получает или задает номер телефона основного факсимильного аппарата пользователя почты
 
 ```csharp
 public string FaxNumber { get; set; }

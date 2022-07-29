@@ -1,14 +1,14 @@
 ---
 title: ExceptionReplaceTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время в формате UTC в шаблоне повторения который заменит исключение. ОбластьКалендарь Каноническое имяPidLidExceptionReplaceTime Альтернативные именаdispidExceptionReplaceTime
+description: Указывает дату и время в формате UTC в шаблоне повторения который заменит исключение. Область Calendar Каноническое имя PidLidExceptionReplaceTime Альтернативные имена dispidExceptionReplaceTime
 type: docs
 weight: 9790
 url: /ru/net/aspose.email.mapi/knownpropertylist/exceptionreplacetime/
 ---
 ## KnownPropertyList.ExceptionReplaceTime field
 
-Указывает дату и время в формате UTC в шаблоне повторения, который заменит исключение. Область:Календарь Каноническое имя:PidLidExceptionReplaceTime Альтернативные имена:dispidExceptionReplaceTime
+Указывает дату и время в формате UTC в шаблоне повторения, который заменит исключение. Область: Calendar Каноническое имя: PidLidExceptionReplaceTime Альтернативные имена: dispidExceptionReplaceTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ExceptionReplaceTime;

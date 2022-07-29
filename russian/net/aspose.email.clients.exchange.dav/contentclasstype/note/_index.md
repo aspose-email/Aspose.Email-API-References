@@ -1,14 +1,14 @@
 ---
 title: Note
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение представляющее класс содержимого urncontent-classesnote.
+description: Получает значение представляющее класс контента urncontent-classesnote.
 type: docs
 weight: 150
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/note/
 ---
 ## ContentClassType.Note property
 
-Получает значение, представляющее класс содержимого urn:content-classes:note.
+Получает значение, представляющее класс контента urn:content-classes:note.
 
 ```csharp
 public static ContentClassType Note { get; }

@@ -1,14 +1,14 @@
 ---
 title: EmsAbReplicationSensitivity
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_REPLICATION_SENSITIVITY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_REPLICATION_SENSITIVITY
 type: docs
 weight: 8460
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabreplicationsensitivity/
 ---
 ## KnownPropertyList.EmsAbReplicationSensitivity field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_REPLICATION_SENSITIVITY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_REPLICATION_SENSITIVITY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbReplicationSensitivity;

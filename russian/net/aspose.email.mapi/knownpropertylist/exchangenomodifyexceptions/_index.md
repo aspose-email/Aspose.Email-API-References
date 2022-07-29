@@ -1,14 +1,14 @@
 ---
 title: ExchangeNoModifyExceptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает можно ли изменить исключения для повторяющейся встречи. ОбластьОбщие Каноническое имяPidNameExchangeNoModifyExceptions Альтернативные именаhttp//schemas.microsoft.com/exchange/nomodifyexceptions
+description: Указывает можно ли изменить исключения для повторяющейся встречи. Область Common Каноническое имя PidNameExchangeNoModifyExceptions Альтернативные имена http//schemas.microsoft.com/exchange/nomodifyexceptions
 type: docs
 weight: 9850
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchangenomodifyexceptions/
 ---
 ## KnownPropertyList.ExchangeNoModifyExceptions field
 
-Указывает, можно ли изменить исключения для повторяющейся встречи. Область:Общие Каноническое имя:PidNameExchangeNoModifyExceptions Альтернативные имена:http://schemas.microsoft.com/exchange/nomodifyexceptions
+Указывает, можно ли изменить исключения для повторяющейся встречи. Область: Common Каноническое имя: PidNameExchangeNoModifyExceptions Альтернативные имена: http://schemas.microsoft.com/exchange/nomodifyexceptions
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangeNoModifyExceptions;

@@ -1,14 +1,14 @@
 ---
 title: ContentId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает непрозрачную строку однозначно идентифицирующую содержимое.
+description: Получает или задает непрозрачную строку которая однозначно идентифицирует содержимое.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activity/contentinfo/contentid/
 ---
 ## ContentInfo.ContentId property
 
-Получает или задает непрозрачную строку, однозначно идентифицирующую содержимое.
+Получает или задает непрозрачную строку, которая однозначно идентифицирует содержимое.
 
 ```csharp
 public string ContentId { get; set; }

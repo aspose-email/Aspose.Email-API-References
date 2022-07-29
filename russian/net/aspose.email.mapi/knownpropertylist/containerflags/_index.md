@@ -1,14 +1,14 @@
 ---
 title: ContainerFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит битовую маску флагов описывающих возможности контейнера адресной книги. ОбластьАдресная книга Каноническое имяPidTagContainerFlags Альтернативные именаPR_CONTAINER_FLAGS
+description: Содержит битовую маску флагов описывающих возможности контейнера адресной книги. Область Адресная книга Каноническое имя PidTagContainerFlags Альтернативные имена PR_CONTAINER_FLAGS
 type: docs
 weight: 3120
 url: /ru/net/aspose.email.mapi/knownpropertylist/containerflags/
 ---
 ## KnownPropertyList.ContainerFlags field
 
-Содержит битовую маску флагов, описывающих возможности контейнера адресной книги. Область:Адресная книга Каноническое имя:PidTagContainerFlags Альтернативные имена:PR_CONTAINER_FLAGS
+Содержит битовую маску флагов, описывающих возможности контейнера адресной книги. Область: Адресная книга Каноническое имя: PidTagContainerFlags Альтернативные имена: PR_CONTAINER_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContainerFlags;

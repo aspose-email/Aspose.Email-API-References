@@ -1,14 +1,14 @@
 ---
 title: AddExtendedProperties
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавьте расширенные свойства для извлечения.
+description: Добавить расширенные свойства для извлечения.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/addextendedproperties/
 ---
 ## EwsFetchItems.AddExtendedProperties method
 
-Добавьте расширенные свойства для извлечения.
+Добавить расширенные свойства для извлечения.
 
 ```csharp
 public EwsFetchItems AddExtendedProperties(IEnumerable<PropertyDescriptor> properties)

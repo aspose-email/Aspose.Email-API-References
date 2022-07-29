@@ -1,14 +1,14 @@
 ---
 title: DocumentSharer
 second_title: Справочник по Aspose.Email для .NET API
-description: Пользователь который последним изменил общий доступ к документу. ОбязательноДа
+description: Пользователь который последним изменил общий доступ к документу. Обязательно Да
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/documentsharer/
 ---
 ## SharePointMetadata.DocumentSharer property
 
-Пользователь, который последним изменил общий доступ к документу. Обязательно:Да
+Пользователь, который последним изменил общий доступ к документу. Обязательно: Да
 
 ```csharp
 public string DocumentSharer { get; set; }

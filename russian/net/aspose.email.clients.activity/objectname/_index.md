@@ -1,14 +1,14 @@
 ---
 title: ObjectName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя объекта в потоке данных идентифицированного с помощью идентификаторов.
+description: Содержит имя объекта в потоке данных идентифицированного guids.
 type: docs
 weight: 2680
 url: /ru/net/aspose.email.clients.activity/objectname/
 ---
 ## ObjectName class
 
-Содержит имя объекта в потоке данных, идентифицированного с помощью идентификаторов.
+Содержит имя объекта в потоке данных, идентифицированного guids.
 
 ```csharp
 public class ObjectName
@@ -18,14 +18,14 @@ public class ObjectName
 
 | Имя | Описание |
 | --- | --- |
-| [ObjectName](objectname)() | Инициализирует новый экземпляр класса[`ObjectName`](../objectname). |
+| [ObjectName](objectname)() | Инициализирует новый экземпляр[`ObjectName`](../objectname) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Id](../../aspose.email.clients.activity/objectname/id) { get; set; } | Получает или устанавливает идентификатор имени объекта |
-| [Name](../../aspose.email.clients.activity/objectname/name) { get; set; } | Получает или устанавливает имя объекта |
+| [Id](../../aspose.email.clients.activity/objectname/id) { get; set; } | Получает или задает идентификатор имени объекта |
+| [Name](../../aspose.email.clients.activity/objectname/name) { get; set; } | Получает или задает имя объекта |
 
 ## Методы
 

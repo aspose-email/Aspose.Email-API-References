@@ -1,14 +1,14 @@
 ---
 title: PidLidPropertyDescriptor
 second_title: Справочник по Aspose.Email для .NET API
-description: Класс содержит информацию описания свойства.
+description: Класс содержит информацию об описании свойства.
 type: docs
-weight: 18940
+weight: 18970
 url: /ru/net/aspose.email.mapi/pidlidpropertydescriptor/
 ---
 ## PidLidPropertyDescriptor class
 
-Класс содержит информацию описания свойства.
+Класс содержит информацию об описании свойства.
 
 ```csharp
 public class PidLidPropertyDescriptor : PropertyDescriptor
@@ -18,20 +18,20 @@ public class PidLidPropertyDescriptor : PropertyDescriptor
 
 | Имя | Описание |
 | --- | --- |
-| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor)(long, PropertyDataType, Guid) | Инициализирует новый экземпляр класса[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) Свойства, определенные беззнаковое 32-битное количество вместе с набором свойств. |
-| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_1)(string, long, PropertyDataType, Guid) | Инициализирует новый экземпляр класса[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) Свойства, определенные беззнаковое 32-битное количество вместе с набором свойств. |
-| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_2)(string, string, long, PropertyDataType, Guid) | Инициализирует новый экземпляр класса[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) Свойства, определенные беззнаковое 32-битное количество вместе с набором свойств. |
+| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor)(long, PropertyDataType, Guid) | Инициализирует новый экземпляр[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class Свойства, определяемые 32-битной величиной без знака вместе с набором свойств. |
+| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_1)(string, long, PropertyDataType, Guid) | Инициализирует новый экземпляр[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class Свойства, определяемые 32-битной величиной без знака вместе с набором свойств. |
+| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_2)(string, string, long, PropertyDataType, Guid) | Инициализирует новый экземпляр[`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class Свойства, определяемые 32-битной величиной без знака вместе с набором свойств. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CanonicalName](../../aspose.email.mapi/propertydescriptor/canonicalname) { get; } | Имя, используемое для ссылки на свойство в документации. Префикс канонического имени идентифицирует основные характеристики свойства для разработчика. Каноническая структура именования использует три категории, которые обозначаются следующими префиксами к имени канонического свойства: * Префикс PidLid:свойства, определяемые 32-битной величиной без знака вместе с набор свойств. * Префикс PidName:свойства, определяемые строковым именем вместе с набором свойств. * Префикс PidTag:Свойства, определяемые 16-битной величиной без знака. |
-| [DataType](../../aspose.email.mapi/propertydescriptor/datatype) { get; } | Тип значения свойства, как описано в [MS-OXCDATA], который указывает тип значений, разрешенных для свойства. |
-| [LongId](../../aspose.email.mapi/pidlidpropertydescriptor/longid) { get; } | Получает 32-разрядную величину без знака, которая вместе с набором свойств идентифицирует именованное свойство. |
+| [CanonicalName](../../aspose.email.mapi/propertydescriptor/canonicalname) { get; } | Имя, используемое для ссылки на свойство в документации. Префикс канонического имени идентифицирует основные характеристики свойства для разработчика. Каноническая структура именования использует три категории, которые обозначаются следующими префиксами к имени канонического свойства: * Префикс PidLid: свойства, определяемые беззнаковым 32-битным числом вместе с набором свойств. * Префикс PidName: Свойства, определяемые строковым именем вместе с набором свойств. * Префикс PidTag: Свойства, определяемые 16-битной величиной без знака. |
+| [DataType](../../aspose.email.mapi/propertydescriptor/datatype) { get; } | Тип значения свойства, как описано в [MS-OXCDATA], указывающий тип значений, разрешенных для свойства. |
+| [LongId](../../aspose.email.mapi/pidlidpropertydescriptor/longid) { get; } | Получает 32-битную величину без знака, которая вместе с набором свойств идентифицирует именованное свойство. |
 | [MultipleValuesDataType](../../aspose.email.mapi/propertydescriptor/multiplevaluesdatatype) { get; } | Указывает, содержит ли тип данных несколько значений |
-| [Name](../../aspose.email.mapi/propertydescriptor/name) { get; } | Получает строку, которая идентифицирует свойство. |
-| [PropertySet](../../aspose.email.mapi/pidlidpropertydescriptor/propertyset) { get; } | GUID, который идентифицирует группу свойств с аналогичной целью. |
+| [Name](../../aspose.email.mapi/propertydescriptor/name) { get; } | Получает строку, идентифицирующую свойство. |
+| [PropertySet](../../aspose.email.mapi/pidlidpropertydescriptor/propertyset) { get; } | GUID, идентифицирующий группу свойств с аналогичной целью. |
 
 ## Методы
 
@@ -39,7 +39,7 @@ public class PidLidPropertyDescriptor : PropertyDescriptor
 | --- | --- |
 | override [Equals](../../aspose.email.mapi/pidlidpropertydescriptor/equals#equals_1)(object) | Определяет, равен ли указанный System.Object текущему System.Object. |
 | override [Equals](../../aspose.email.mapi/pidlidpropertydescriptor/equals#equals)(PropertyDescriptor) | Указывает, равен ли текущий объект другому объекту того же типа. |
-| override [GetHashCode](../../aspose.email.mapi/pidlidpropertydescriptor/gethashcode)() | Служит хэш-функцией для типа. |
+| override [GetHashCode](../../aspose.email.mapi/pidlidpropertydescriptor/gethashcode)() | Служит хеш-функцией для типа. |
 | override [ToString](../../aspose.email.mapi/pidlidpropertydescriptor/tostring)() | Возвращает строку, представляющую описание свойства. |
 | [operator ==](../../aspose.email.mapi/pidlidpropertydescriptor/op_equality) | Определяет, равны ли указанные объекты друг другу. |
 | [operator !=](../../aspose.email.mapi/pidlidpropertydescriptor/op_inequality) | Определяет, не равны ли указанные объекты друг другу. |

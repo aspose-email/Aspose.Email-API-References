@@ -1,14 +1,14 @@
 ---
 title: PersonalStorageQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPersonalStorageQueryBuilderaspose.email.storage.pst/personalstoragequerybuilder.
+description: Инициализирует новый экземплярPersonalStorageQueryBuilderaspose.email.storage.pst/personalstoragequerybuilder класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.pst/personalstoragequerybuilder/personalstoragequerybuilder/
 ---
 ## PersonalStorageQueryBuilder constructor
 
-Инициализирует новый экземпляр класса[`PersonalStorageQueryBuilder`](../../personalstoragequerybuilder).
+Инициализирует новый экземпляр[`PersonalStorageQueryBuilder`](../../personalstoragequerybuilder) класс.
 
 ```csharp
 public PersonalStorageQueryBuilder()

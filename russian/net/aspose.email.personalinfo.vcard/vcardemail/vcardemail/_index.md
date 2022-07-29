@@ -1,14 +1,14 @@
 ---
 title: VCardEmail
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаVCardEmailaspose.email.personalinfo.vcard/vcardemail
+description: Инициализирует новый экземплярVCardEmailaspose.email.personalinfo.vcard/vcardemail класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo.vcard/vcardemail/vcardemail/
 ---
 ## VCardEmail constructor
 
-Инициализирует новый экземпляр класса[`VCardEmail`](../../vcardemail)
+Инициализирует новый экземпляр[`VCardEmail`](../../vcardemail) класс
 
 ```csharp
 public VCardEmail()

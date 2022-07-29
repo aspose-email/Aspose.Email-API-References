@@ -18,7 +18,7 @@ public class ExtendedPropertiesComparisonField : ComparisonField
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.email.clients.exchange/extendedpropertiescomparisonfield/item) { get; } | Получает[`ComparisonFieldAdapter`](../comparisonfieldadapter)for[`PropertyDescriptor`](../../aspose.email.mapi/propertydescriptor) |
+| [Item](../../aspose.email.clients.exchange/extendedpropertiescomparisonfield/item) { get; } | получает[`ComparisonFieldAdapter`](../comparisonfieldadapter) за[`PropertyDescriptor`](../../aspose.email.mapi/propertydescriptor) |
 
 ## Методы
 

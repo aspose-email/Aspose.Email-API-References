@@ -1,14 +1,14 @@
 ---
 title: ExpiryTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит время в формате UTC после которого клиент хочет получить событие истечения срока действия если сообщение приходит с опозданием. ОбластьMapiEnvelope Каноническое имяPidTagExpiryTime Альтернативные именаPR_EXPIRY_TIME ptagExpiryTime urnschemashttpmailexpiry-date
+description: Содержит время в формате UTC после которого клиент хочет получить событие истечения срока действия если сообщение приходит с опозданием. Область MapiEnvelope Каноническое имя PidTagExpiryTime Альтернативные имена PR_EXPIRY_TIME ptagExpiryTime urnschemashttpmailexpiry-date
 type: docs
 weight: 9950
 url: /ru/net/aspose.email.mapi/knownpropertylist/expirytime/
 ---
 ## KnownPropertyList.ExpiryTime field
 
-Содержит время в формате UTC, после которого клиент хочет получить событие истечения срока действия, если сообщение приходит с опозданием. Область:MapiEnvelope Каноническое имя:PidTagExpiryTime Альтернативные имена:PR_EXPIRY_TIME, ptagExpiryTime, urn:schemas:httpmail:expiry-date,
+Содержит время в формате UTC, после которого клиент хочет получить событие истечения срока действия, если сообщение приходит с опозданием. Область: MapiEnvelope Каноническое имя: PidTagExpiryTime Альтернативные имена: PR_EXPIRY_TIME, ptagExpiryTime, urn:schemas:httpmail:expiry-date,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExpiryTime;

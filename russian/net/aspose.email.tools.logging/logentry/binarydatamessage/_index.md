@@ -1,14 +1,14 @@
 ---
 title: BinaryDataMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Двоичное тело сообщения для регистрации.
+description: Тело двоичного сообщения для регистрации.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.tools.logging/logentry/binarydatamessage/
 ---
 ## LogEntry.BinaryDataMessage property
 
-Двоичное тело сообщения для регистрации.
+Тело двоичного сообщения для регистрации.
 
 ```csharp
 public byte[] BinaryDataMessage { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GlobalLastDeliveryTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает время доставки сообщения полученного в последний раз в этом диалоге во всех папках почтового ящика.
+description: Получает время доставки сообщения полученного в последний раз в этом диалоге во все папки почтового ящика.
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeconversation/globallastdeliverytime/
 ---
 ## ExchangeConversation.GlobalLastDeliveryTime property
 
-Получает время доставки сообщения, полученного в последний раз в этом диалоге, во всех папках почтового ящика.
+Получает время доставки сообщения, полученного в последний раз в этом диалоге, во все папки почтового ящика.
 
 ```csharp
 public DateTime GlobalLastDeliveryTime { get; }

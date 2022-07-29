@@ -1,14 +1,14 @@
 ---
 title: FetchAttachmentAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает указанное вложение
+description: Извлекает указанное вложение
 type: docs
 weight: 640
 url: /ru/net/aspose.email.clients.imap/imapclient/fetchattachmentasync/
 ---
 ## FetchAttachmentAsync(IConnection, int, string) {#fetchattachmentasync}
 
-Выбирает указанное вложение
+Извлекает указанное вложение
 
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenceNumber, 
@@ -17,7 +17,7 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | attachmentName | String | Имя вложения |
 
@@ -37,7 +37,7 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 
 ## FetchAttachmentAsync(int, string) {#fetchattachmentasync_2}
 
-Выбирает указанное вложение
+Извлекает указанное вложение
 
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachmentName)
@@ -63,7 +63,7 @@ public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachme
 
 ## FetchAttachmentAsync(IConnection, int, string, CancellationToken) {#fetchattachmentasync_1}
 
-Выбирает указанное вложение
+Извлекает указанное вложение
 
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenceNumber, 
@@ -72,7 +72,7 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | attachmentName | String | Имя вложения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -93,7 +93,7 @@ public Task<Attachment> FetchAttachmentAsync(IConnection connection, int sequenc
 
 ## FetchAttachmentAsync(int, string, CancellationToken) {#fetchattachmentasync_3}
 
-Выбирает указанное вложение
+Извлекает указанное вложение
 
 ```csharp
 public Task<Attachment> FetchAttachmentAsync(int sequenceNumber, string attachmentName, 

@@ -1,14 +1,14 @@
 ---
 title: NormalizedSubject
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит нормализованную тему сообщения. ОбластьЭлектронная почта Каноническое имяPidTagNormalizedSubject Альтернативные именаPR_NORMALIZED_SUBJECT PR_NORMALIZED_SUBJECT_A
+description: Содержит нормализованную тему сообщения. Область Email Каноническое имя PidTagNormalizedSubject Альтернативные имена PR_NORMALIZED_SUBJECT PR_NORMALIZED_SUBJECT_A
 type: docs
 weight: 13070
 url: /ru/net/aspose.email.mapi/knownpropertylist/normalizedsubject/
 ---
 ## KnownPropertyList.NormalizedSubject field
 
-Содержит нормализованную тему сообщения. Область:Электронная почта Каноническое имя:PidTagNormalizedSubject Альтернативные имена:PR_NORMALIZED_SUBJECT, PR_NORMALIZED_SUBJECT_A,
+Содержит нормализованную тему сообщения. Область: Email Каноническое имя: PidTagNormalizedSubject Альтернативные имена: PR_NORMALIZED_SUBJECT, PR_NORMALIZED_SUBJECT_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NormalizedSubject;

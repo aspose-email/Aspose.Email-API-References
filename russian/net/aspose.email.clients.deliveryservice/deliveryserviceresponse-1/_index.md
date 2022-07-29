@@ -27,7 +27,7 @@ public class DeliveryServiceResponse<T>
 | [ErrorMessages](../../aspose.email.clients.deliveryservice/deliveryserviceresponse`1/errormessages) { get; } | Сообщения об ошибках |
 | [Id](../../aspose.email.clients.deliveryservice/deliveryserviceresponse`1/id) { get; } | Идентификатор сообщения |
 | [Object](../../aspose.email.clients.deliveryservice/deliveryserviceresponse`1/object) { get; } | Объект |
-| [Successful](../../aspose.email.clients.deliveryservice/deliveryserviceresponse`1/successful) { get; } | Успешно |
+| [Successful](../../aspose.email.clients.deliveryservice/deliveryserviceresponse`1/successful) { get; } | успешно |
 
 ### Смотрите также
 

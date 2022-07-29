@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: СоздатьPop3SaveMessageaspose.email.clients.pop3.models/pop3savemessage.
+description: СоздатьPop3SaveMessageaspose.email.clients.pop3.models/pop3savemessage .
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.pop3.models/pop3savemessage/create/
 ---
 ## Pop3SaveMessage.Create method
 
-Создать[`Pop3SaveMessage`](../../pop3savemessage).
+Создать[`Pop3SaveMessage`](../../pop3savemessage) .
 
 ```csharp
 public static Pop3SaveMessage Create()

@@ -1,14 +1,14 @@
 ---
 title: InternetCodepage
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает кодовую страницу используемую для свойства PidTagBody раздел 2.609 или свойства PidTagBodyHtml раздел 2.612. ОбластьПрочие свойства Каноническое имяPidTagInternetCodepage Альтернативные именаPR_INTERNET_CPID ptagInternetCpid
+description: Указывает кодовую страницу используемую для свойства PidTagBody раздел 2.609 или свойства PidTagBodyHtml раздел 2.612. Область Прочие свойства Каноническое имя PidTagInternetCodepage Альтернативные имена PR_INTERNET_CPID ptagInternetCpid
 type: docs
 weight: 11460
 url: /ru/net/aspose.email.mapi/knownpropertylist/internetcodepage/
 ---
 ## KnownPropertyList.InternetCodepage field
 
-Указывает кодовую страницу, используемую для свойства PidTagBody (раздел 2.609) или свойства PidTagBodyHtml (раздел 2.612). Область:Прочие свойства Каноническое имя:PidTagInternetCodepage Альтернативные имена:PR_INTERNET_CPID, ptagInternetCpid
+Указывает кодовую страницу, используемую для свойства PidTagBody (раздел 2.609) или свойства PidTagBodyHtml (раздел 2.612). Область: Прочие свойства Каноническое имя: PidTagInternetCodepage Альтернативные имена: PR_INTERNET_CPID, ptagInternetCpid
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InternetCodepage;

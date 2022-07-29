@@ -20,13 +20,13 @@ public Attachment FetchAttachment(string attachmentUri)
 
 ### Возвращаемое значение
 
-[`Attachment`](../../../aspose.email/attachment)что представляет полученное вложение
+[`Attachment`](../../../aspose.email/attachment) который представляет полученное вложение
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *attachmentUri*null или пусто |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *attachmentUri* является нулевым или пустым |
 
 ### Смотрите также
 

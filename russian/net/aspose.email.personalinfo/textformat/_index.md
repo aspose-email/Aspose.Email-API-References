@@ -3,7 +3,7 @@ title: TextFormat
 second_title: Справочник по Aspose.Email для .NET API
 description: Определяет формат текста.
 type: docs
-weight: 19490
+weight: 19520
 url: /ru/net/aspose.email.personalinfo/textformat/
 ---
 ## TextFormat enumeration
@@ -19,7 +19,7 @@ public enum TextFormat
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Text | `0` | Простой текст. |
-| Html | `1` | Формат html. |
+| Html | `1` | HTML-формат. |
 
 ### Смотрите также
 

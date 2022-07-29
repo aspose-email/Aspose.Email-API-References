@@ -1,14 +1,14 @@
 ---
 title: AppointmentReplyTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время когда участник ответил на полученный запрос на собрание или объект обновления собрания. ОбластьВстречи Каноническое имяPidLidAppointmentReplyTime Альтернативные именаdispidApptReplyTime
+description: Указывает дату и время когда участник ответил на полученное приглашение на собрание или объект обновления собрания. Область Meetings Каноническое имя PidLidAppointmentReplyTime Альтернативные имена dispidApptReplyTime
 type: docs
 weight: 1270
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentreplytime/
 ---
 ## KnownPropertyList.AppointmentReplyTime field
 
-Указывает дату и время, когда участник ответил на полученный запрос на собрание или объект обновления собрания. Область:Встречи Каноническое имя:PidLidAppointmentReplyTime Альтернативные имена:dispidApptReplyTime
+Указывает дату и время, когда участник ответил на полученное приглашение на собрание или объект обновления собрания. Область: Meetings Каноническое имя: PidLidAppointmentReplyTime Альтернативные имена: dispidApptReplyTime
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentReplyTime;

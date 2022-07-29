@@ -22,9 +22,9 @@ public void DeleteChildItem(byte[] entryId)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выбрасывает, если entryId равен нулю. |
+| ArgumentNullException | бросает, если entryId равен нулю. |
 | InvalidOperationException | выдает, если элемент не принадлежит папке или элемент не может быть удален или entryID имеет неверное значение. |
-| InvalidOperationException | выдает, если PST открыт только для чтения. |
+| InvalidOperationException | бросает, если PST открыт только для чтения. |
 
 ### Примечания
 

@@ -1,14 +1,14 @@
 ---
 title: OtherAddressPostalCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит почтовый индекс для другого почтового адреса пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagOtherAddressPostalCode Альтернативные именаPR_OTHER_ADDRESS_POSTAL_CODE PR_OTHER_ADDRESS_POSTAL_CODE_A
+description: Содержит почтовый индекс для другого почтового адреса почтового пользователя. Область Address Properties Каноническое имя PidTagOtherAddressPostalCode Альтернативные имена PR_OTHER_ADDRESS_POSTAL_CODE PR_OTHER_ADDRESS_POSTAL_CODE_A
 type: docs
 weight: 13980
 url: /ru/net/aspose.email.mapi/knownpropertylist/otheraddresspostalcode/
 ---
 ## KnownPropertyList.OtherAddressPostalCode field
 
-Содержит почтовый индекс для другого почтового адреса пользователя почты. Область:Свойства адреса Каноническое имя:PidTagOtherAddressPostalCode Альтернативные имена:PR_OTHER_ADDRESS_POSTAL_CODE, PR_OTHER_ADDRESS_POSTAL_CODE_A,
+Содержит почтовый индекс для другого почтового адреса почтового пользователя. Область: Address Properties Каноническое имя: PidTagOtherAddressPostalCode Альтернативные имена: PR_OTHER_ADDRESS_POSTAL_CODE, PR_OTHER_ADDRESS_POSTAL_CODE_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressPostalCode;

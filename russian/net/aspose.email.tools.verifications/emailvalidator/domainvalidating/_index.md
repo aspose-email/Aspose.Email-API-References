@@ -1,14 +1,14 @@
 ---
 title: DomainValidating
 second_title: Справочник по Aspose.Email для .NET API
-description: Это событие возникает при проверке домена адреса электронной почты.
+description: Это событие возникает при проверке домена адресов электронной почты.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.tools.verifications/emailvalidator/domainvalidating/
 ---
 ## EmailValidator.DomainValidating event
 
-Это событие возникает при проверке домена адреса электронной почты.
+Это событие возникает при проверке домена адресов электронной почты.
 
 ```csharp
 public event DomainValidatingEventHandler DomainValidating;

@@ -1,14 +1,14 @@
 ---
 title: WebDavContactSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаWebDavContactSaveOptionsaspose.email.mapi/webdavcontactsaveoptions.
+description: Инициализирует новый экземплярWebDavContactSaveOptionsaspose.email.mapi/webdavcontactsaveoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/webdavcontactsaveoptions/webdavcontactsaveoptions/
 ---
 ## WebDavContactSaveOptions constructor
 
-Инициализирует новый экземпляр класса[`WebDavContactSaveOptions`](../../webdavcontactsaveoptions).
+Инициализирует новый экземпляр[`WebDavContactSaveOptions`](../../webdavcontactsaveoptions) класс.
 
 ```csharp
 public WebDavContactSaveOptions()

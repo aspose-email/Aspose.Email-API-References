@@ -1,14 +1,14 @@
 ---
 title: ClassificationGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит GUID определяющий список категорий классификации электронной почты используемых объектом Message. ОбластьОбщие свойства сообщения Каноническое имяPidLidClassificationGuid Альтернативные именаdispidClassGuid
+description: Содержит GUID определяющий список категорий классификации электронной почты используемых объектом Message. Область Общие свойства сообщения Каноническое имя PidLidClassificationGuid Альтернативные имена dispidClassGuid
 type: docs
 weight: 2640
 url: /ru/net/aspose.email.mapi/knownpropertylist/classificationguid/
 ---
 ## KnownPropertyList.ClassificationGuid field
 
-Содержит GUID, определяющий список категорий классификации электронной почты, используемых объектом Message. Область:Общие свойства сообщения Каноническое имя:PidLidClassificationGuid Альтернативные имена:dispidClassGuid
+Содержит GUID, определяющий список категорий классификации электронной почты, используемых объектом Message. Область: Общие свойства сообщения Каноническое имя: PidLidClassificationGuid Альтернативные имена: dispidClassGuid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClassificationGuid;

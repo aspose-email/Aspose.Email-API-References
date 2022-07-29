@@ -1,14 +1,14 @@
 ---
 title: NewValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает новое значение свойства
+description: Получает или задает новое значение свойства
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/modifiedproperty/newvalue/
 ---
 ## ModifiedProperty.NewValue property
 
-Получает или устанавливает новое значение свойства
+Получает или задает новое значение свойства
 
 ```csharp
 public string NewValue { get; set; }

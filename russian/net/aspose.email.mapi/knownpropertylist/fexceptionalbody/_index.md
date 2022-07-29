@@ -1,14 +1,14 @@
 ---
 title: FExceptionalBody
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что тело объекта встроенного сообщения об исключении отличается от тела объекта повторяющегося календаря. ОбластьВстречи Каноническое имяPidLidFExceptionalBody Альтернативные именаdispidFExceptionalBody
+description: Указывает что объект встроенного сообщения об исключении имеет тело которое отличается от объекта повторяющегося календаря. Область Meetings Каноническое имя PidLidFExceptionalBody Альтернативные имена dispidFExceptionalBody
 type: docs
 weight: 10270
 url: /ru/net/aspose.email.mapi/knownpropertylist/fexceptionalbody/
 ---
 ## KnownPropertyList.FExceptionalBody field
 
-Указывает, что тело объекта встроенного сообщения об исключении отличается от тела объекта повторяющегося календаря. Область:Встречи Каноническое имя:PidLidFExceptionalBody Альтернативные имена:dispidFExceptionalBody
+Указывает, что объект встроенного сообщения об исключении имеет тело, которое отличается от объекта повторяющегося календаря. Область: Meetings Каноническое имя: PidLidFExceptionalBody Альтернативные имена: dispidFExceptionalBody
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FExceptionalBody;

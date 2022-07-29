@@ -1,14 +1,14 @@
 ---
 title: BusinessCardCardPicture
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит изображение которое будет использоваться на визитной карточке. ОбластьСвойства контакта Каноническое имяPidLidBusinessCardCardPicture Альтернативные именаdispidBCCardPicture
+description: Содержит изображение которое будет использоваться на визитной карточке. Область Свойства контакта Каноническое имя PidLidBusinessCardCardPicture Альтернативные имена dispidBCCardPicture
 type: docs
 weight: 2100
 url: /ru/net/aspose.email.mapi/knownpropertylist/businesscardcardpicture/
 ---
 ## KnownPropertyList.BusinessCardCardPicture field
 
-Содержит изображение, которое будет использоваться на визитной карточке. Область:Свойства контакта Каноническое имя:PidLidBusinessCardCardPicture Альтернативные имена:dispidBCCardPicture
+Содержит изображение, которое будет использоваться на визитной карточке. Область: Свойства контакта Каноническое имя: PidLidBusinessCardCardPicture Альтернативные имена: dispidBCCardPicture
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BusinessCardCardPicture;

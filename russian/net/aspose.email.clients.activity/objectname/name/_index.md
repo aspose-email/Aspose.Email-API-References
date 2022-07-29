@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает имя объекта
+description: Получает или задает имя объекта
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/objectname/name/
 ---
 ## ObjectName.Name property
 
-Получает или устанавливает имя объекта
+Получает или задает имя объекта
 
 ```csharp
 public string Name { get; set; }

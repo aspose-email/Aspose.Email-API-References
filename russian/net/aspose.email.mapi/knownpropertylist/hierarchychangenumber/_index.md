@@ -1,14 +1,14 @@
 ---
 title: HierarchyChangeNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит число которое монотонно увеличивается каждый раз когда вложенная папка добавляется или удаляется из этой папки. ОбластьExchangeFolder Каноническое имяPidTagHierarchyChangeNumber Альтернативные именаPR_HIERARCHY_CHANGE_NUM
+description: Содержит число которое монотонно увеличивается каждый раз когда вложенная папка добавляется или удаляется из этой папки. Область ExchangeFolder Каноническое имя PidTagHierarchyChangeNumber Альтернативные имена PR_HIERARCHY_CHANGE_NUM
 type: docs
 weight: 10930
 url: /ru/net/aspose.email.mapi/knownpropertylist/hierarchychangenumber/
 ---
 ## KnownPropertyList.HierarchyChangeNumber field
 
-Содержит число, которое монотонно увеличивается каждый раз, когда вложенная папка добавляется или удаляется из этой папки. Область:ExchangeFolder Каноническое имя:PidTagHierarchyChangeNumber Альтернативные имена:PR_HIERARCHY_CHANGE_NUM
+Содержит число, которое монотонно увеличивается каждый раз, когда вложенная папка добавляется или удаляется из этой папки. Область: ExchangeFolder Каноническое имя: PidTagHierarchyChangeNumber Альтернативные имена: PR_HIERARCHY_CHANGE_NUM
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HierarchyChangeNumber;

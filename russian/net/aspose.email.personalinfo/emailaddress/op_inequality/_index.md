@@ -17,7 +17,7 @@ public static bool operator !=(EmailAddress a, EmailAddress b)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | EmailAddress | Первый объект для сравнения |
-| b | EmailAddress | Второй объект для сравнения compare |
+| b | EmailAddress | Второй объект для сравнения |
 
 ### Возвращаемое значение
 

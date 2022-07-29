@@ -17,7 +17,7 @@ public Appointment UpdateAppointment(string calendarId, Appointment appointment)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | calendarId | String | Идентификатор календаря. |
-| appointment | Appointment | Экземпляр объекта назначения для обновления. |
+| appointment | Appointment | Экземпляр объекта встречи для обновления. |
 
 ### Возвращаемое значение
 

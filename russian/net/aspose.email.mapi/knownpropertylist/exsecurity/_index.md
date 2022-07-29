@@ -1,14 +1,14 @@
 ---
 title: ExSecurity
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SECURITY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SECURITY
 type: docs
 weight: 9980
 url: /ru/net/aspose.email.mapi/knownpropertylist/exsecurity/
 ---
 ## KnownPropertyList.ExSecurity field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SECURITY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SECURITY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExSecurity;

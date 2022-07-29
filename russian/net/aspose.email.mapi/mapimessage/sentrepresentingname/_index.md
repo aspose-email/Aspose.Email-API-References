@@ -20,7 +20,7 @@ public string SentRepresentingName { get; set; }
 
 ### Примечания
 
-При установке нулевого значения или пустой строки значения устанавливаются в SentRepresentingEmailAddress.
+При установке нулевого значения или пустой строки значения свойства устанавливаются в SentRepresentingEmailAddress.
 
 ### Смотрите также
 

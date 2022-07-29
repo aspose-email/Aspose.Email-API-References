@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoAutoAcceptAppointments
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает должен ли клиент или сервер автоматически отвечать на все приглашения на собрания для участника или ресурса. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoAutoAcceptAppointments Альтернативные именаPR_SCHDINFO_AUTO_ACCEPT_APPTS
+description: Указывает должен ли клиент или сервер автоматически отвечать на все приглашения на собрания для участника или ресурса. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoAutoAcceptAppointments Альтернативные имена PR_SCHDINFO_AUTO_ACCEPT_APPTS
 type: docs
 weight: 16720
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfoautoacceptappointments/
 ---
 ## KnownPropertyList.ScheduleInfoAutoAcceptAppointments field
 
-Указывает, должен ли клиент или сервер автоматически отвечать на все приглашения на собрания для участника или ресурса. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoAutoAcceptAppointments Альтернативные имена:PR_SCHDINFO_AUTO_ACCEPT_APPTS
+Указывает, должен ли клиент или сервер автоматически отвечать на все приглашения на собрания для участника или ресурса. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoAutoAcceptAppointments Альтернативные имена: PR_SCHDINFO_AUTO_ACCEPT_APPTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoAutoAcceptAppointments;

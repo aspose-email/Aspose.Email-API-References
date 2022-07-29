@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает заголовок файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameTitle Альтернативные именаurnschemas-microsoft-comofficeofficeTitle
+description: Указывает заголовок файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameTitle Альтернативные имена urnschemas-microsoft-comofficeofficeTitle
 type: docs
 weight: 19000
 url: /ru/net/aspose.email.mapi/knownpropertylist/title/
 ---
 ## KnownPropertyList.Title field
 
-Указывает заголовок файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameTitle Альтернативные имена:urn:schemas-microsoft-com:office:office#Title
+Указывает заголовок файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameTitle Альтернативные имена: urn:schemas-microsoft-com:office:office#Title
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Title;

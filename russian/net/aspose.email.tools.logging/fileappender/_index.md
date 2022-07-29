@@ -1,14 +1,14 @@
 ---
 title: FileAppender
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет добавление файла.
+description: Представляет файл appender.
 type: docs
-weight: 20430
+weight: 20480
 url: /ru/net/aspose.email.tools.logging/fileappender/
 ---
 ## FileAppender class
 
-Представляет добавление файла.
+Представляет файл appender.
 
 ```csharp
 public sealed class FileAppender : Appender
@@ -30,15 +30,15 @@ public sealed class FileAppender : Appender
 | --- | --- |
 | [Encoding](../../aspose.email.tools.logging/fileappender/encoding) { get; set; } | Получает или задает кодировку. |
 | [FileName](../../aspose.email.tools.logging/fileappender/filename) { get; set; } | Получает или задает имя файла. |
-| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Получает или задает средство форматирования. |
+| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Получает или задает модуль форматирования. |
 | [UseDate](../../aspose.email.tools.logging/fileappender/usedate) { get; set; } | Получает или задает значение, указывающее, используется ли дата для ведения журнала. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Append](../../aspose.email.tools.logging/fileappender/append#append)(LogEntry) | Добавляет информацию о записи журнала в приложение. |
-| [Append](../../aspose.email.tools.logging/fileappender/append#append_1)(LogEntry[]) | Добавляет набор записей журнала в приложение. |
+| override [Append](../../aspose.email.tools.logging/fileappender/append#append)(LogEntry) | Добавляет информацию о записи журнала в appender. |
+| [Append](../../aspose.email.tools.logging/fileappender/append#append_1)(LogEntry[]) | Добавляет набор записей журнала в appender. |
 | override [AppendHeader](../../aspose.email.tools.logging/fileappender/appendheader)() | Запускает файл журнала с определенным заголовком. |
 | override [Close](../../aspose.email.tools.logging/fileappender/close)() | Закрывает приложение. |
 | [Dispose](../../aspose.email.tools.logging/appender/dispose)() | Освобождает неуправляемые ресурсы, используемые Appender. |

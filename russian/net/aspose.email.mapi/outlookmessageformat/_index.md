@@ -3,7 +3,7 @@ title: OutlookMessageFormat
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет формат сообщения Outlook.
 type: docs
-weight: 18930
+weight: 18960
 url: /ru/net/aspose.email.mapi/outlookmessageformat/
 ---
 ## OutlookMessageFormat enumeration

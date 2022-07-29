@@ -1,14 +1,14 @@
 ---
 title: RemoveMessageFlagsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Снимает флаги сообщения
+description: Удаляет флаги сообщения
 type: docs
 weight: 1000
 url: /ru/net/aspose.email.clients.imap/imapclient/removemessageflagsasync/
 ---
 ## RemoveMessageFlagsAsync(IConnection, int, ImapMessageFlags) {#removemessageflagsasync}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber, 
@@ -17,9 +17,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 
 ### Возвращаемое значение
 
@@ -37,7 +37,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 ## RemoveMessageFlagsAsync(IConnection, string, ImapMessageFlags) {#removemessageflagsasync_20}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, string uniqueId, ImapMessageFlags flags)
@@ -45,9 +45,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string uniqueId, Ima
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 
 ### Возвращаемое значение
 
@@ -73,8 +73,8 @@ public Task RemoveMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 
 ### Возвращаемое значение
 
@@ -91,7 +91,7 @@ public Task RemoveMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags)
 
 ## RemoveMessageFlagsAsync(string, ImapMessageFlags) {#removemessageflagsasync_48}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags)
@@ -99,8 +99,8 @@ public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор message |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| uniqueId | String | Уникальный идентификатор сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 
 ### Возвращаемое значение
 
@@ -117,7 +117,7 @@ public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags)
 
 ## RemoveMessageFlagsAsync(IConnection, int, ImapMessageFlags, long) {#removemessageflagsasync_1}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber, 
@@ -126,14 +126,14 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -147,7 +147,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 ## RemoveMessageFlagsAsync(IConnection, string, ImapMessageFlags, long) {#removemessageflagsasync_21}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, string uniqueId, 
@@ -156,14 +156,14 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string uniqueId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -186,13 +186,13 @@ public Task RemoveMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -205,7 +205,7 @@ public Task RemoveMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 ## RemoveMessageFlagsAsync(string, ImapMessageFlags, long) {#removemessageflagsasync_49}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, 
@@ -214,13 +214,13 @@ public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор message |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| uniqueId | String | Уникальный идентификатор сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -241,9 +241,9 @@ public Task RemoveMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startUid | String | Начальный UID сообщения список сообщений |
+| startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги для изменен |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Возвращаемое значение
 
@@ -270,7 +270,7 @@ public Task RemoveMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| flags | ImapMessageFlags | Флаги подлежащий удалению |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 
 ### Возвращаемое значение
 
@@ -287,7 +287,7 @@ public Task RemoveMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## RemoveMessageFlagsAsync(IConnection, string, string, ImapMessageFlags) {#removemessageflagsasync_24}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
@@ -296,10 +296,10 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Возвращаемое значение
 
@@ -317,7 +317,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## RemoveMessageFlagsAsync(IConnection, int, int, ImapMessageFlags) {#removemessageflagsasync_4}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
@@ -326,10 +326,10 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int startSequence, i
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
-| endSequence | Int32 | Конечный порядковый номер список сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
+| endSequence | Int32 | Конечный порядковый номер списка сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 
 ### Возвращаемое значение
 
@@ -356,14 +356,14 @@ public Task RemoveMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startUid | String | Начальный UID сообщения список сообщений |
+| startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги для изменено |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -387,12 +387,12 @@ public Task RemoveMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -405,7 +405,7 @@ public Task RemoveMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## RemoveMessageFlagsAsync(IConnection, string, string, ImapMessageFlags, long) {#removemessageflagsasync_25}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
@@ -414,15 +414,15 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги, подлежащие изменению |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -436,7 +436,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## RemoveMessageFlagsAsync(IConnection, int, int, ImapMessageFlags, long) {#removemessageflagsasync_5}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
@@ -445,15 +445,15 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int startSequence, i
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
-| endSequence | Int32 | Конечный порядковый номер список сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| endSequence | Int32 | Конечный порядковый номер списка сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -476,11 +476,11 @@ public Task RemoveMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -501,8 +501,8 @@ public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | Набор последовательности номера для сообщений |
-| flags | ImapMessageFlags | Флаги, которые необходимо удалить |
+| sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 
 ### Возвращаемое значение
 
@@ -519,7 +519,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags) {#removemessageflagsasync_16}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
@@ -528,9 +528,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Возвращаемое значение
 
@@ -548,7 +548,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags) {#removemessageflagsasync_12}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -557,9 +557,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 
 ### Возвращаемое значение
 
@@ -587,12 +587,12 @@ public Task RemoveMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги, подлежащие изменению |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -614,13 +614,13 @@ public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | Набор последовательности номера для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -633,7 +633,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long) {#removemessageflagsasync_17}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
@@ -642,14 +642,14 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор набора UID для сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -663,7 +663,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long) {#removemessageflagsasync_13}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -672,14 +672,14 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -703,7 +703,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Возвращаемое значение
 
@@ -721,7 +721,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags) {#removemessageflagsasync_8}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, 
@@ -730,9 +730,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 
 ### Возвращаемое значение
 
@@ -761,12 +761,12 @@ public Task RemoveMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги, подлежащие изменению |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -780,7 +780,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long) {#removemessageflagsasync_9}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, 
@@ -789,14 +789,14 @@ public Task RemoveMessageFlagsAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги для изменения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Возвращаемое значение
 
-Объект задачи, с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -811,7 +811,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection,
 
 ## RemoveMessageFlagsAsync(IConnection, int, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_3}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber, 
@@ -820,9 +820,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -841,7 +841,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 ## RemoveMessageFlagsAsync(IConnection, string, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_23}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, string uniqueId, 
@@ -850,9 +850,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string uniqueId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -880,9 +880,9 @@ public Task RemoveMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -899,7 +899,7 @@ public Task RemoveMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 ## RemoveMessageFlagsAsync(string, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_51}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, 
@@ -908,8 +908,8 @@ public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор message |
-| flags | ImapMessageFlags | Добавляемые флаги |
+| uniqueId | String | Уникальный идентификатор сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -927,7 +927,7 @@ public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 
 ## RemoveMessageFlagsAsync(IConnection, int, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_2}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber, 
@@ -936,10 +936,10 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -958,7 +958,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int sequenceNumber,
 
 ## RemoveMessageFlagsAsync(IConnection, string, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_22}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, string uniqueId, 
@@ -967,10 +967,10 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string uniqueId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -998,9 +998,9 @@ public Task RemoveMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Порядковый номер сообщение |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1018,7 +1018,7 @@ public Task RemoveMessageFlagsAsync(int sequenceNumber, ImapMessageFlags flags,
 
 ## RemoveMessageFlagsAsync(string, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_50}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags, 
@@ -1027,9 +1027,9 @@ public Task RemoveMessageFlagsAsync(string uniqueId, ImapMessageFlags flags,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный идентификатор message |
-| flags | ImapMessageFlags | Добавляемые флаги |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| uniqueId | String | Уникальный идентификатор сообщения |
+| flags | ImapMessageFlags | Флаги, которые нужно добавить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1056,9 +1056,9 @@ public Task RemoveMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startUid | String | Начальный UID сообщения список сообщений |
+| startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги для изменено |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1087,7 +1087,7 @@ public Task RemoveMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1105,7 +1105,7 @@ public Task RemoveMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## RemoveMessageFlagsAsync(IConnection, string, string, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_27}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
@@ -1114,10 +1114,10 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1136,7 +1136,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## RemoveMessageFlagsAsync(IConnection, int, int, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_7}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
@@ -1145,11 +1145,11 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int startSequence, i
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
-| endSequence | Int32 | Конечный порядковый номер список сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| endSequence | Int32 | Конечный порядковый номер списка сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -1176,10 +1176,10 @@ public Task RemoveMessageFlagsAsync(string startUid, string endUid, ImapMessageF
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startUid | String | Начальный UID сообщения список сообщений |
+| startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги для изменено |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1208,8 +1208,8 @@ public Task RemoveMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1227,7 +1227,7 @@ public Task RemoveMessageFlagsAsync(int startSequence, int endSequence, ImapMess
 
 ## RemoveMessageFlagsAsync(IConnection, string, string, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_26}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, string endUid, 
@@ -1236,11 +1236,11 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| flags | ImapMessageFlags | Флаги, подлежащие изменению |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1259,7 +1259,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, string startUid, str
 
 ## RemoveMessageFlagsAsync(IConnection, int, int, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_6}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, int startSequence, int endSequence, 
@@ -1268,11 +1268,11 @@ public Task RemoveMessageFlagsAsync(IConnection connection, int startSequence, i
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
-| endSequence | Int32 | Конечный порядковый номер список сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| endSequence | Int32 | Конечный порядковый номер списка сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1301,8 +1301,8 @@ public Task RemoveMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -1328,9 +1328,9 @@ public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | Набор последовательности номера для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -1347,7 +1347,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_19}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
@@ -1356,9 +1356,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1377,7 +1377,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_15}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -1386,9 +1386,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1417,8 +1417,8 @@ public Task RemoveMessageFlagsAsync(IEnumerable<string> uidSet, ImapMessageFlags
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| flags | ImapMessageFlags | Флаги, подлежащие изменению |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1445,9 +1445,9 @@ public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceSet | IEnumerable`1 | Набор последовательности номера для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1465,7 +1465,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<int> sequenceSet, ImapMessageFla
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;string&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_18}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> uidSet, 
@@ -1474,10 +1474,10 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор набора UID для сообщений |
-| flags | ImapMessageFlags | Флаги для изменения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1496,7 +1496,7 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<string> 
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;int&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_14}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> sequenceSet, 
@@ -1505,10 +1505,10 @@ public Task RemoveMessageFlagsAsync(IConnection connection, IEnumerable<int> seq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| flags | ImapMessageFlags | Флаги для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно убрать |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1537,7 +1537,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1556,7 +1556,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, CancellationToken) {#removemessageflagsasync_11}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, 
@@ -1565,9 +1565,9 @@ public Task RemoveMessageFlagsAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги для изменения |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1597,8 +1597,8 @@ public Task RemoveMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги, подлежащие изменению |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -1617,7 +1617,7 @@ public Task RemoveMessageFlagsAsync(IEnumerable<ImapMessageInfo> messageInfoSet,
 
 ## RemoveMessageFlagsAsync(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, ImapMessageFlags, long, CancellationToken) {#removemessageflagsasync_10}
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(IConnection connection, 
@@ -1627,10 +1627,10 @@ public Task RemoveMessageFlagsAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| flags | ImapMessageFlags | Флаги для изменения |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| flags | ImapMessageFlags | Флаги, которые нужно изменить |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

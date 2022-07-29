@@ -1,14 +1,14 @@
 ---
 title: PredecessorChangeList
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое содержит сериализованное представление структуры PredecessorChangeList. ОбластьСинхронизация Каноническое имяPidTagPredecessorChangeList Альтернативные именаPR_PREDECESSOR_CHANGE_LIST
+description: Содержит значение которое содержит сериализованное представление структуры PredecessorChangeList. Область Sync Каноническое имя PidTagPredecessorChangeList Альтернативные имена PR_PREDECESSOR_CHANGE_LIST
 type: docs
 weight: 14510
 url: /ru/net/aspose.email.mapi/knownpropertylist/predecessorchangelist/
 ---
 ## KnownPropertyList.PredecessorChangeList field
 
-Содержит значение, которое содержит сериализованное представление структуры PredecessorChangeList. Область:Синхронизация Каноническое имя:PidTagPredecessorChangeList Альтернативные имена:PR_PREDECESSOR_CHANGE_LIST
+Содержит значение, которое содержит сериализованное представление структуры PredecessorChangeList. Область: Sync Каноническое имя: PidTagPredecessorChangeList Альтернативные имена: PR_PREDECESSOR_CHANGE_LIST
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PredecessorChangeList;

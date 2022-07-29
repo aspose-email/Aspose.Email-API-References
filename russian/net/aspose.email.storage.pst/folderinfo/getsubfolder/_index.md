@@ -32,7 +32,7 @@ public FolderInfo GetSubFolder(string name)
 
 ## GetSubFolder(string, bool) {#getsubfolder_1}
 
-Получает вложенную папку.
+Получает подпапку.
 
 ```csharp
 public FolderInfo GetSubFolder(string name, bool ignoreCase)

@@ -1,14 +1,14 @@
 ---
 title: CustomerId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает идентификатор клиента
+description: Получает или задает идентификатор клиента
 type: docs
 weight: 80
 url: /ru/net/aspose.email.personalinfo/contact/customerid/
 ---
 ## Contact.CustomerId property
 
-Получает или устанавливает идентификатор клиента
+Получает или задает идентификатор клиента
 
 ```csharp
 public string CustomerId { get; set; }

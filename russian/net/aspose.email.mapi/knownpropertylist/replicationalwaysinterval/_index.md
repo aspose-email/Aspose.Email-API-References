@@ -1,14 +1,14 @@
 ---
 title: ReplicationAlwaysInterval
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REPLICATION_ALWAYS_INTERVAL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REPLICATION_ALWAYS_INTERVAL
 type: docs
 weight: 15860
 url: /ru/net/aspose.email.mapi/knownpropertylist/replicationalwaysinterval/
 ---
 ## KnownPropertyList.ReplicationAlwaysInterval field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REPLICATION_ALWAYS_INTERVAL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REPLICATION_ALWAYS_INTERVAL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplicationAlwaysInterval;

@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает экземпляр объектаDeletionOptionsaspose.email.clients.exchange.webservice/deletionoptionsс настройками используемыми по умолчанию
+description: Получает экземплярDeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions объект с настройками использует по умолчанию
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice/calendardeletionoptions/default/
 ---
 ## CalendarDeletionOptions.Default property
 
-Получает экземпляр объекта[`DeletionOptions`](../../deletionoptions)с настройками, используемыми по умолчанию
+Получает экземпляр[`DeletionOptions`](../../deletionoptions) объект с настройками использует по умолчанию
 
 ```csharp
 public static CalendarDeletionOptions Default { get; }

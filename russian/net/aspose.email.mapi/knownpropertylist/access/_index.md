@@ -1,14 +1,14 @@
 ---
 title: Access
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает операции доступные клиенту для объекта. ОбластьСвойства контроля доступа Каноническое имяPidTagAccess Альтернативные именаPR_ACCESS ptagAccess
+description: Указывает операции доступные клиенту для объекта. Область Свойства управления доступом Каноническое имя PidTagAccess Альтернативные имена PR_ACCESS ptagAccess
 type: docs
 weight: 250
 url: /ru/net/aspose.email.mapi/knownpropertylist/access/
 ---
 ## KnownPropertyList.Access field
 
-Указывает операции, доступные клиенту для объекта. Область:Свойства контроля доступа Каноническое имя:PidTagAccess Альтернативные имена:PR_ACCESS, ptagAccess
+Указывает операции, доступные клиенту для объекта. Область: Свойства управления доступом Каноническое имя: PidTagAccess Альтернативные имена: PR_ACCESS, ptagAccess
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Access;

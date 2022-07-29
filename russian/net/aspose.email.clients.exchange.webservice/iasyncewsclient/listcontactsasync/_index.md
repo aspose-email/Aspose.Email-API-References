@@ -20,11 +20,11 @@ public Task<IEnumerable<MapiContact>> ListContactsAsync(string folderUri,
 | --- | --- | --- |
 | folderUri | String | Папка для поиска контактов. |
 | mapiProperties | IEnumerable`1 | Необходимые дополнительные свойства карты. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-Массив read[`MapiContact`](../../../aspose.email.mapi/mapicontact), представляющий контактную информацию.
+Массив чтения[`MapiContact`](../../../aspose.email.mapi/mapicontact) который представляет контактную информацию.
 
 ### Смотрите также
 

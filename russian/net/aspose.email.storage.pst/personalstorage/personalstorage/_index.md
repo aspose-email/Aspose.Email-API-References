@@ -1,14 +1,14 @@
 ---
 title: PersonalStorage
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPersonalStorageaspose.email.storage.pst/personalstorage. Позволяет установить метод обратного вызова для обработки исключений возникающих при обходе PST.
+description: Инициализирует новый экземплярPersonalStorageaspose.email.storage.pst/personalstorage class. Позволяет установить метод обратного вызова для обработки исключений возникающих при обходе PST.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.pst/personalstorage/personalstorage/
 ---
 ## PersonalStorage constructor
 
-Инициализирует новый экземпляр класса[`PersonalStorage`](../../personalstorage). Позволяет установить метод обратного вызова для обработки исключений, возникающих при обходе PST.
+Инициализирует новый экземпляр[`PersonalStorage`](../../personalstorage) class. Позволяет установить метод обратного вызова для обработки исключений, возникающих при обходе PST.
 
 ```csharp
 public PersonalStorage(TraversalExceptionsCallback callback)

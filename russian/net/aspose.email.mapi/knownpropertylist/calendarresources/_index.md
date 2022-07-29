@@ -1,14 +1,14 @@
 ---
 title: CalendarResources
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует список ресурсов таких как комнаты и видеооборудование которые доступны для встречи. ОбластьОбщие Каноническое имяPidNameCalendarResources Альтернативные именаurnschemascalendarresources
+description: Идентифицирует список ресурсов таких как комнаты и видеооборудование которые доступны для встречи. Область Common Каноническое имя PidNameCalendarResources Альтернативные имена urnschemascalendarresources
 type: docs
 weight: 2380
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarresources/
 ---
 ## KnownPropertyList.CalendarResources field
 
-Идентифицирует список ресурсов, таких как комнаты и видеооборудование, которые доступны для встречи. Область:Общие Каноническое имя:PidNameCalendarResources Альтернативные имена:urn:schemas:calendar:resources
+Идентифицирует список ресурсов, таких как комнаты и видеооборудование, которые доступны для встречи. Область: Common Каноническое имя: PidNameCalendarResources Альтернативные имена: urn:schemas:calendar:resources
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarResources;

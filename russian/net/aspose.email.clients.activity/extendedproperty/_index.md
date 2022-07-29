@@ -25,7 +25,7 @@ public class ExtendedProperty
 | Имя | Описание |
 | --- | --- |
 | [Name](../../aspose.email.clients.activity/extendedproperty/name) { get; set; } | Имя расширенных свойств |
-| [Value](../../aspose.email.clients.activity/extendedproperty/value) { get; set; } | Значение расширенных свойств |
+| [Value](../../aspose.email.clients.activity/extendedproperty/value) { get; set; } | Расширенные свойства value |
 
 ### Смотрите также
 

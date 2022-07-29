@@ -1,14 +1,14 @@
 ---
 title: Failed
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает почтовые сообщения которые были обработаны с ошибками
+description: Получает почтовые сообщения обработанные с ошибками
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/appendmessagesresult/failed/
 ---
 ## AppendMessagesResult.Failed property
 
-Получает почтовые сообщения, которые были обработаны с ошибками
+Получает почтовые сообщения, обработанные с ошибками
 
 ```csharp
 public Dictionary<MailMessage, Exception> Failed { get; }

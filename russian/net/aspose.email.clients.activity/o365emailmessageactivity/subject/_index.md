@@ -1,14 +1,14 @@
 ---
 title: Subject
 second_title: Справочник по Aspose.Email для .NET API
-description: Строка темы сообщения. ОбязательноДа
+description: Тема сообщения. Обязательно Yes
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.activity/o365emailmessageactivity/subject/
 ---
 ## O365EmailMessageActivity.Subject property
 
-Строка темы сообщения. Обязательно:Да
+Тема сообщения. Обязательно: Yes
 
 ```csharp
 public string Subject { get; set; }

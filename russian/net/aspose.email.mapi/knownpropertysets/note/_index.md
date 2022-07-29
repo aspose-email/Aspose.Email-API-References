@@ -1,14 +1,14 @@
 ---
 title: Note
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиЗаметка Имя набора свойствPSETID_Note
+description: Имя области заметка Имя набора свойств PSETID_Note
 type: docs
 weight: 130
 url: /ru/net/aspose.email.mapi/knownpropertysets/note/
 ---
 ## KnownPropertySets.Note field
 
-Имя области:Заметка Имя набора свойств:PSETID_Note
+Имя области: заметка Имя набора свойств: PSETID_Note
 
 ```csharp
 public static readonly Guid Note;

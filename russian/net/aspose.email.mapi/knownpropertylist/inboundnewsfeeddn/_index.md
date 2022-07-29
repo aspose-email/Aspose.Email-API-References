@@ -1,14 +1,14 @@
 ---
 title: InboundNewsfeedDn
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_INBOUND_NEWSFEED_DN
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_INBOUND_NEWSFEED_DN
 type: docs
 weight: 11290
 url: /ru/net/aspose.email.mapi/knownpropertylist/inboundnewsfeeddn/
 ---
 ## KnownPropertyList.InboundNewsfeedDn field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_INBOUND_NEWSFEED_DN
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_INBOUND_NEWSFEED_DN
 
 ```csharp
 public static readonly PidTagPropertyDescriptor InboundNewsfeedDn;

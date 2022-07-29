@@ -1,14 +1,14 @@
 ---
 title: AddressBookManager
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит одну строку которая ссылается на менеджера пользователя почты. ОбластьАдресная книга Каноническое имяPidTagAddressBookManager Альтернативные именаPR_EMS_AB_MANAGER PR_EMS_AB_MANAGER_A PR_EMS_AB_MANAGER_W
+description: Содержит одну строку которая ссылается на менеджера пользователя почты. Область Адресная книга Каноническое имя PidTagAddressBookManager Альтернативные имена PR_EMS_AB_MANAGER PR_EMS_AB_MANAGER_A PR_EMS_AB_MANAGER_W
 type: docs
 weight: 710
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookmanager/
 ---
 ## KnownPropertyList.AddressBookManager field
 
-Содержит одну строку, которая ссылается на менеджера пользователя почты. Область:Адресная книга Каноническое имя:PidTagAddressBookManager Альтернативные имена:PR_EMS_AB_MANAGER, PR_EMS_AB_MANAGER_A, PR_EMS_AB_MANAGER_W
+Содержит одну строку, которая ссылается на менеджера пользователя почты. Область: Адресная книга Каноническое имя: PidTagAddressBookManager Альтернативные имена: PR_EMS_AB_MANAGER, PR_EMS_AB_MANAGER_A, PR_EMS_AB_MANAGER_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookManager;

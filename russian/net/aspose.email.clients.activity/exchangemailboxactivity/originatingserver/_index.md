@@ -1,14 +1,14 @@
 ---
 title: OriginatingServer
 second_title: Справочник по Aspose.Email для .NET API
-description: Отсюда и началась операция.
+description: Это источник операции.
 type: docs
 weight: 170
 url: /ru/net/aspose.email.clients.activity/exchangemailboxactivity/originatingserver/
 ---
 ## ExchangeMailboxActivity.OriginatingServer property
 
-Отсюда и началась операция.
+Это источник операции.
 
 ```csharp
 public string OriginatingServer { get; set; }

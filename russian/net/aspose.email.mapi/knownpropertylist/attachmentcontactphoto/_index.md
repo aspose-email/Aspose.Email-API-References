@@ -1,14 +1,14 @@
 ---
 title: AttachmentContactPhoto
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что к контактному объекту прикреплено вложение с фотографией контакта. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachmentContactPhoto Альтернативные именаPR_ATTACHMENT_CONTACTPHOTO
+description: Указывает что вложение с фотографией контакта прикреплено к объекту Contact. Область Свойства вложения сообщения Каноническое имя PidTagAttachmentContactPhoto Альтернативные имена PR_ATTACHMENT_CONTACTPHOTO
 type: docs
 weight: 1630
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachmentcontactphoto/
 ---
 ## KnownPropertyList.AttachmentContactPhoto field
 
-Указывает, что к контактному объекту прикреплено вложение с фотографией контакта. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachmentContactPhoto Альтернативные имена:PR_ATTACHMENT_CONTACTPHOTO
+Указывает, что вложение с фотографией контакта прикреплено к объекту Contact. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachmentContactPhoto Альтернативные имена: PR_ATTACHMENT_CONTACTPHOTO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentContactPhoto;

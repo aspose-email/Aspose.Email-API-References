@@ -1,14 +1,14 @@
 ---
 title: GoogleContactGroup
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет группу которой принадлежит контакт
+description: Представляет группу  которой принадлежит контакт
 type: docs
 weight: 15770
 url: /ru/net/aspose.email.clients.google/googlecontactgroup/
 ---
 ## GoogleContactGroup class
 
-Представляет группу которой принадлежит контакт
+Представляет группу , которой принадлежит контакт
 
 ```csharp
 public sealed class GoogleContactGroup
@@ -18,10 +18,10 @@ public sealed class GoogleContactGroup
 
 | Имя | Описание |
 | --- | --- |
-| [Content](../../aspose.email.clients.google/googlecontactgroup/content) { get; } | Получает содержимое записи группы |
-| [Id](../../aspose.email.clients.google/googlecontactgroup/id) { get; } | Получает уникальный идентификатор для записи группы |
-| [Title](../../aspose.email.clients.google/googlecontactgroup/title) { get; } | Получает удобочитаемый заголовок для записи группы |
-| [Updated](../../aspose.email.clients.google/googlecontactgroup/updated) { get; } | Получает дату, указывающую самый последний момент времени когда запись группы была изменена |
+| [Content](../../aspose.email.clients.google/googlecontactgroup/content) { get; } | Получает содержимое группы entry |
+| [Id](../../aspose.email.clients.google/googlecontactgroup/id) { get; } | Получает уникальный идентификатор для группы entry |
+| [Title](../../aspose.email.clients.google/googlecontactgroup/title) { get; } | Получает удобочитаемый заголовок для группы entry |
+| [Updated](../../aspose.email.clients.google/googlecontactgroup/updated) { get; } | Получает дату, указывающую самый последний момент времени time , когда запись группы была изменена |
 
 ## Методы
 

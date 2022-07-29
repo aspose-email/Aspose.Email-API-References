@@ -1,14 +1,14 @@
 ---
 title: ListSubFoldersByPageAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Поиск указанной папки в заданной родительской папке с пейджингом Метод поддерживает пейджинг.
+description: Ищет указанную папку в заданной родительской папке с paging Метод поддерживает paging.
 type: docs
 weight: 490
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/listsubfoldersbypageasync/
 ---
 ## IAsyncEwsClient.ListSubFoldersByPageAsync method
 
-Поиск указанной папки в заданной родительской папке с пейджингом Метод поддерживает пейджинг.
+Ищет указанную папку в заданной родительской папке с paging Метод поддерживает paging.
 
 ```csharp
 public Task<ExchangeFolderPageInfo> ListSubFoldersByPageAsync(string parentFolderUri, 
@@ -19,11 +19,11 @@ public Task<ExchangeFolderPageInfo> ListSubFoldersByPageAsync(string parentFolde
 | --- | --- | --- |
 | parentFolderUri | String | URI родительской папки |
 | page | PageInfo | Информация о странице |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-A[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo)содержащий найденную папку, если имя папки указан; в противном случае возвращает все подпапки
+А[`ExchangeFolderPageInfo`](../../../aspose.email.clients.exchange/exchangefolderpageinfo) содержащий найденную папку, если указано имя папки; в противном случае возвращает все подпапки
 
 ### Смотрите также
 

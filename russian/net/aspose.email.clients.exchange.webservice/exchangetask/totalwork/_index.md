@@ -1,14 +1,14 @@
 ---
 title: TotalWork
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает общий объем работы которую пользователь ожидает от работы над задачей.
+description: Получает или задает общий объем работы которую пользователь ожидает выполнить над задачей.
 type: docs
 weight: 110
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangetask/totalwork/
 ---
 ## ExchangeTask.TotalWork property
 
-Получает или задает общий объем работы, которую пользователь ожидает от работы над задачей.
+Получает или задает общий объем работы, которую пользователь ожидает выполнить над задачей.
 
 ```csharp
 public int TotalWork { get; set; }

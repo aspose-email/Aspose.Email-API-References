@@ -1,14 +1,70 @@
 ---
 title: CommitDeletes
 second_title: Справочник по Aspose.Email для .NET API
-description: Зафиксировать удаление Этот метод работает только если сервер поддерживает расширение UIDPLUS. Подробнее https//tools.ietf.org/html/rfc4315
+description: Подтвердить удаление
 type: docs
 weight: 460
 url: /ru/net/aspose.email.clients.imap/imapclient/commitdeletes/
 ---
+## CommitDeletes() {#commitdeletes}
+
+Подтвердить удаление
+
+```csharp
+public void CommitDeletes()
+```
+
+### Смотрите также
+
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
+## CommitDeletes(int) {#commitdeletes_6}
+
+Подтвердить удаление
+
+```csharp
+public void CommitDeletes(int sleep)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| sleep | Int32 | Время ожидания завершения операции в миллисекундах |
+
+### Смотрите также
+
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
+## CommitDeletes(IEnumerable&lt;string&gt;) {#commitdeletes_7}
+
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
+
+```csharp
+public void CommitDeletes(IEnumerable<string> uidSet)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| uidSet | IEnumerable`1 | Набор уникальных идентификаторов для сообщений |
+
+### Смотрите также
+
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
 ## CommitDeletes(string) {#commitdeletes_8}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void CommitDeletes(string uniqueId)
@@ -16,7 +72,7 @@ public void CommitDeletes(string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Uid сообщения |
+| uniqueId | String | UID сообщения |
 
 ### Смотрите также
 
@@ -49,7 +105,7 @@ public void CommitDeletes(string startUid, string endUid)
 
 ## CommitDeletes(IConnection, IEnumerable&lt;string&gt;) {#commitdeletes_3}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void CommitDeletes(IConnection connection, IEnumerable<string> uidSet)
@@ -58,7 +114,7 @@ public void CommitDeletes(IConnection connection, IEnumerable<string> uidSet)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| uidSet | IEnumerable`1 | Набор уникальных идентификаторов сообщений |
+| uidSet | IEnumerable`1 | Набор уникальных идентификаторов для сообщений |
 
 ### Смотрите также
 
@@ -71,7 +127,7 @@ public void CommitDeletes(IConnection connection, IEnumerable<string> uidSet)
 
 ## CommitDeletes(IConnection, string) {#commitdeletes_4}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public void CommitDeletes(IConnection connection, string uniqueId)
@@ -79,7 +135,7 @@ public void CommitDeletes(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
 
 ### Смотрите также
@@ -93,7 +149,7 @@ public void CommitDeletes(IConnection connection, string uniqueId)
 
 ## CommitDeletes(IConnection, string, string) {#commitdeletes_5}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void CommitDeletes(IConnection connection, string startUid, string endUid)
@@ -116,7 +172,7 @@ public void CommitDeletes(IConnection connection, string startUid, string endUid
 
 ## CommitDeletes(IConnection) {#commitdeletes_1}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public void CommitDeletes(IConnection connection)
@@ -124,7 +180,7 @@ public void CommitDeletes(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Смотрите также
 
@@ -137,7 +193,7 @@ public void CommitDeletes(IConnection connection)
 
 ## CommitDeletes(IConnection, int) {#commitdeletes_2}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public void CommitDeletes(IConnection connection, int sleep)
@@ -145,68 +201,12 @@ public void CommitDeletes(IConnection connection, int sleep)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sleep | Int32 | Время ожидания завершения операции в миллисекундах |
 
 ### Смотрите также
 
 * interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## CommitDeletes() {#commitdeletes}
-
-Зафиксировать удаление
-
-```csharp
-public void CommitDeletes()
-```
-
-### Смотрите также
-
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## CommitDeletes(int) {#commitdeletes_6}
-
-Зафиксировать удаление
-
-```csharp
-public void CommitDeletes(int sleep)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| sleep | Int32 | Время ожидания завершения операции в миллисекундах |
-
-### Смотрите также
-
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## CommitDeletes(IEnumerable&lt;string&gt;) {#commitdeletes_7}
-
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Подробнее https://tools.ietf.org/html/rfc4315
-
-```csharp
-public void CommitDeletes(IEnumerable<string> uidSet)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| uidSet | IEnumerable`1 | Набор уникальных идентификаторов для сообщений |
-
-### Смотрите также
-
 * class [ImapClient](../../imapclient)
 * пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
 * сборка [Aspose.Email](../../../)

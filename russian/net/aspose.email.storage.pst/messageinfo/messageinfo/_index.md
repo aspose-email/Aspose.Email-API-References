@@ -1,14 +1,14 @@
 ---
 title: MessageInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMessageInfoaspose.email.storage.pst/messageinfo.
+description: Инициализирует новый экземплярMessageInfoaspose.email.storage.pst/messageinfo класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.pst/messageinfo/messageinfo/
 ---
 ## MessageInfo constructor
 
-Инициализирует новый экземпляр класса[`MessageInfo`](../../messageinfo).
+Инициализирует новый экземпляр[`MessageInfo`](../../messageinfo) класс.
 
 ```csharp
 public MessageInfo()

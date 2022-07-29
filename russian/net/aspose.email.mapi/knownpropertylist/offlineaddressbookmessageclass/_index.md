@@ -1,14 +1,14 @@
 ---
 title: OfflineAddressBookMessageClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит класс сообщений для полных сообщений автономной адресной книги. ОбластьСвойства автономной адресной книги Каноническое имяPidTagOfflineAddressBookMessageClass Альтернативные именаPR_OAB_MESSAGE_CLASS
+description: Содержит класс сообщений для полных сообщений автономной адресной книги. Область Свойства автономной адресной книги Каноническое имя PidTagOfflineAddressBookMessageClass Альтернативные имена PR_OAB_MESSAGE_CLASS
 type: docs
 weight: 13260
 url: /ru/net/aspose.email.mapi/knownpropertylist/offlineaddressbookmessageclass/
 ---
 ## KnownPropertyList.OfflineAddressBookMessageClass field
 
-Содержит класс сообщений для полных сообщений автономной адресной книги. Область:Свойства автономной адресной книги Каноническое имя:PidTagOfflineAddressBookMessageClass Альтернативные имена:PR_OAB_MESSAGE_CLASS
+Содержит класс сообщений для полных сообщений автономной адресной книги. Область: Свойства автономной адресной книги Каноническое имя: PidTagOfflineAddressBookMessageClass Альтернативные имена: PR_OAB_MESSAGE_CLASS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineAddressBookMessageClass;

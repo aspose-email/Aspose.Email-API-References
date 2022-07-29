@@ -1,14 +1,14 @@
 ---
 title: FetchMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает сообщение с указанным идентификатором
+description: Получает сообщение в указанном id
 type: docs
 weight: 220
 url: /ru/net/aspose.email.clients.graph/igraphclient/fetchmessage/
 ---
 ## IGraphClient.FetchMessage method
 
-Получает сообщение с указанным идентификатором
+Получает сообщение в указанном id
 
 ```csharp
 public MapiMessage FetchMessage(string id)
@@ -16,11 +16,11 @@ public MapiMessage FetchMessage(string id)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | String | Идентификатор сообщения для выборки |
+| id | String | Идентификатор сообщения для извлечения |
 
 ### Возвращаемое значение
 
-Сообщение Mapi
+Мапи-сообщение
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CopyMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Скопировать сообщение
+description: Скопируйте сообщениеeg
 type: docs
 weight: 500
 url: /ru/net/aspose.email.clients.imap/imapclient/copymessages/
 ---
 ## CopyMessages(IConnection, int, int, string) {#copymessages}
 
-Скопировать сообщение
+Скопируйте сообщениеeg
 
 ```csharp
 public void CopyMessages(IConnection connection, int startSequence, int endSequence, 
@@ -20,7 +20,7 @@ public void CopyMessages(IConnection connection, int startSequence, int endSeque
 | connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -43,7 +43,7 @@ public void CopyMessages(int startSequence, int endSequence, string folderName)
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| folderName | String | Имя папки, в которой находится сообщение для перемещения |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public void CopyMessages(IConnection connection, string startUid, string endUid,
 | connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -89,7 +89,7 @@ public void CopyMessages(string startUid, string endUid, string folderName)
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| folderName | String | Имя папки, в которой должно быть сообщение перемещено |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -110,8 +110,8 @@ public void CopyMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
-| commitDeletions | Boolean | Указывает, следует ли выполнять удаление . |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
+| commitDeletions | Boolean | Указывает, должны ли быть зафиксированы удаления. |
 
 ### Смотрите также
 
@@ -123,7 +123,7 @@ public void CopyMessages(IEnumerable<int> sequenceSet, string folderName, bool c
 
 ## CopyMessages(IConnection, IEnumerable&lt;int&gt;, string) {#copymessages_2}
 
-Скопировать сообщение
+Скопируйте сообщениеeg
 
 ```csharp
 public void CopyMessages(IConnection connection, IEnumerable<int> sequenceSet, string folderName)
@@ -133,7 +133,7 @@ public void CopyMessages(IConnection connection, IEnumerable<int> sequenceSet, s
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -155,7 +155,7 @@ public void CopyMessages(IEnumerable<int> sequenceSet, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -177,7 +177,7 @@ public void CopyMessages(IConnection connection, IEnumerable<string> uidSet, str
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, куда должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -199,7 +199,7 @@ public void CopyMessages(IEnumerable<string> uidSet, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -222,7 +222,7 @@ public void CopyMessages(IConnection connection, IEnumerable<ImapMessageInfo> me
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 
@@ -245,7 +245,7 @@ public void CopyMessages(IEnumerable<ImapMessageInfo> messageInfoSet, string fol
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo |
-| folderName | String | Имя папки, в которую должно быть перемещено сообщение |
+| folderName | String | Имя папки, куда нужно переместить сообщение |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OutOfOfficeState
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает является ли пользователь OOF. ОбластьСвойства хранилища сообщений Каноническое имяPidTagOutOfOfficeState Альтернативные именаPR_OOF_STATE ptagOOFState
+description: Указывает является ли пользователь OOF. Область Свойства хранилища сообщений Каноническое имя PidTagOutOfOfficeState Альтернативные имена PR_OOF_STATE ptagOOFState
 type: docs
 weight: 14040
 url: /ru/net/aspose.email.mapi/knownpropertylist/outofofficestate/
 ---
 ## KnownPropertyList.OutOfOfficeState field
 
-Указывает, является ли пользователь OOF. Область:Свойства хранилища сообщений Каноническое имя:PidTagOutOfOfficeState Альтернативные имена:PR_OOF_STATE, ptagOOFState
+Указывает, является ли пользователь OOF. Область: Свойства хранилища сообщений Каноническое имя: PidTagOutOfOfficeState Альтернативные имена: PR_OOF_STATE, ptagOOFState
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OutOfOfficeState;

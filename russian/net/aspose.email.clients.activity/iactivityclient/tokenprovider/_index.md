@@ -1,14 +1,14 @@
 ---
 title: TokenProvider
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает объект позволяющий получить маркер доступа OAuth.
+description: Получает или задает объект позволяющий получить токен доступа OAuth.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activity/iactivityclient/tokenprovider/
 ---
 ## IActivityClient.TokenProvider property
 
-Получает или задает объект, позволяющий получить маркер доступа OAuth.
+Получает или задает объект, позволяющий получить токен доступа OAuth.
 
 ```csharp
 public ITokenProvider TokenProvider { get; set; }

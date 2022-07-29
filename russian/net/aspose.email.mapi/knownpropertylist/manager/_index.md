@@ -1,14 +1,14 @@
 ---
 title: Manager
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает менеджер файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameManager Альтернативные именаurnschemas-microsoft-comofficeofficeManager
+description: Указывает менеджера файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameManager Альтернативные имена urnschemas-microsoft-comofficeofficeManager
 type: docs
 weight: 12350
 url: /ru/net/aspose.email.mapi/knownpropertylist/manager/
 ---
 ## KnownPropertyList.Manager field
 
-Задает менеджер файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameManager Альтернативные имена:urn:schemas-microsoft-com:office:office#Manager
+Указывает менеджера файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameManager Альтернативные имена: urn:schemas-microsoft-com:office:office#Manager
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Manager;

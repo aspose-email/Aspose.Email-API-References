@@ -1,14 +1,14 @@
 ---
 title: TasksUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает uri задач.
+description: Получает задачи uri.
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/tasksuri/
 ---
 ## ExchangeMailboxInfo.TasksUri property
 
-Получает uri задач.
+Получает задачи uri.
 
 ```csharp
 public abstract string TasksUri { get; set; }

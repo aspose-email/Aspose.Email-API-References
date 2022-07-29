@@ -1,14 +1,14 @@
 ---
 title: StartDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает дату и время начала события. Если дата не установлена возвращается значение по умолчанию дляDateTime.
+description: Получает или задает дату и время начала события. Если дата не задана значение по умолчанию дляDateTime возвращается.
 type: docs
 weight: 180
 url: /ru/net/aspose.email.mapi/mapicalendar/startdate/
 ---
 ## MapiCalendar.StartDate property
 
-Получает или задает дату и время начала события. Если дата не установлена, возвращается значение по умолчанию дляDateTime.
+Получает или задает дату и время начала события. Если дата не задана, значение по умолчанию дляDateTime возвращается.
 
 ```csharp
 public DateTime StartDate { get; set; }

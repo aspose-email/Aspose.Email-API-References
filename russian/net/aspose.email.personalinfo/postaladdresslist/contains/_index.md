@@ -16,7 +16,7 @@ public bool Contains(PostalAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | PostalAddress | Объект для поиска в списке. |
+| value | PostalAddress | Объект, который нужно найти в списке. |
 
 ### Возвращаемое значение
 

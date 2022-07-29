@@ -3,7 +3,7 @@ title: MailClientAgent
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет агент почтового клиента.
 type: docs
-weight: 20900
+weight: 20950
 url: /ru/net/aspose.email.windows.forms/mailclientagent/
 ---
 ## MailClientAgent class
@@ -18,7 +18,7 @@ public class MailClientAgent
 
 | Имя | Описание |
 | --- | --- |
-| [MailClientAgent](mailclientagent)() | Инициализирует новый экземпляр класса[`MailClientAgent`](../mailclientagent). |
+| [MailClientAgent](mailclientagent)() | Инициализирует новый экземпляр[`MailClientAgent`](../mailclientagent) класс. |
 
 ## Методы
 

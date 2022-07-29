@@ -1,14 +1,14 @@
 ---
 title: ExpandDistributionList
 second_title: Справочник по Aspose.Email для .NET API
-description: Расширяет список членов общедоступного списка рассылки.
+description: Расширяет список участников общедоступного списка рассылки.
 type: docs
 weight: 690
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/expanddistributionlist/
 ---
 ## IEWSClient.ExpandDistributionList method
 
-Расширяет список членов общедоступного списка рассылки.
+Расширяет список участников общедоступного списка рассылки.
 
 ```csharp
 public MailAddressCollection ExpandDistributionList(MailAddress mailAddress)
@@ -16,11 +16,11 @@ public MailAddressCollection ExpandDistributionList(MailAddress mailAddress)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mailAddress | MailAddress | Общедоступный[`MailAddress`](../../../aspose.email/mailaddress)для расширения. |
+| mailAddress | MailAddress | общественность[`MailAddress`](../../../aspose.email/mailaddress) расширять. |
 
 ### Возвращаемое значение
 
-Коллекция[`MailAddressCollection`](../../../aspose.email/mailaddresscollection), содержащая элементы из указанного общедоступного списка рассылки.
+А[`MailAddressCollection`](../../../aspose.email/mailaddresscollection) который содержит членов из указанного общедоступного списка рассылки.
 
 ### Смотрите также
 

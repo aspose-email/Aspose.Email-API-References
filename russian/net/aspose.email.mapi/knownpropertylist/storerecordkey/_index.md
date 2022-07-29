@@ -1,14 +1,14 @@
 ---
 title: StoreRecordKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_STORE_RECORD_KEY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_STORE_RECORD_KEY
 type: docs
 weight: 18280
 url: /ru/net/aspose.email.mapi/knownpropertylist/storerecordkey/
 ---
 ## KnownPropertyList.StoreRecordKey field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_STORE_RECORD_KEY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_STORE_RECORD_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StoreRecordKey;

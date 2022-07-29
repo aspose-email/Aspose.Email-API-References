@@ -18,20 +18,20 @@ public class MapiAttachmentCollection : List<MapiAttachment>
 
 | Имя | Описание |
 | --- | --- |
-| [MapiAttachmentCollection](mapiattachmentcollection#constructor)() | Инициализирует новый экземпляр класса[`MapiAttachmentCollection`](../mapiattachmentcollection). |
+| [MapiAttachmentCollection](mapiattachmentcollection#constructor)() | Инициализирует новый экземпляр[`MapiAttachmentCollection`](../mapiattachmentcollection) класс. |
 | [MapiAttachmentCollection](mapiattachmentcollection#constructor_1)(MapiMessageItemBase) | Инициализирует новый экземпляр класса MapiAttachmentCollection. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.email.mapi/mapiattachmentcollection/add#add)(MapiAttachment) | Добавляет объект в конецCollection. |
+| [Add](../../aspose.email.mapi/mapiattachmentcollection/add#add)(MapiAttachment) | Добавляет объект в конецCollection . |
 | [Add](../../aspose.email.mapi/mapiattachmentcollection/add#add_3)(string, byte[]) | Добавляет новое вложение. |
 | [Add](../../aspose.email.mapi/mapiattachmentcollection/add#add_2)(string, MapiMessage) | Добавляет новое вложение как встроенное сообщение. |
-| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert#insert)(int, MapiAttachment) | Вставляет элемент вCollectionпо указанному индексу. |
-| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert#insert_2)(int, string, MapiMessage) | Вставляет сообщение как вложение в коллекцию[`MapiAttachmentCollection`](../mapiattachmentcollection)по указанному индексу. |
-| [Remove](../../aspose.email.mapi/mapiattachmentcollection/remove#remove)(MapiAttachment) | Удаляет первое вхождение определенного объекта из коллекции MapiAttachmentCollection. |
-| [RemoveAt](../../aspose.email.mapi/mapiattachmentcollection/removeat#removeat)(int) | Удаляет элемент по указанному индексу из коллекции MapiAttachmentCollection. |
+| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert#insert)(int, MapiAttachment) | Вставляет элемент вCollection по указанному индексу. |
+| [Insert](../../aspose.email.mapi/mapiattachmentcollection/insert#insert_2)(int, string, MapiMessage) | Вставляет сообщение как вложение в[`MapiAttachmentCollection`](../mapiattachmentcollection) по указанному индексу. |
+| [Remove](../../aspose.email.mapi/mapiattachmentcollection/remove#remove)(MapiAttachment) | Удаляет первое вхождение определенного объекта из MapiAttachmentCollection. |
+| [RemoveAt](../../aspose.email.mapi/mapiattachmentcollection/removeat#removeat)(int) | Удаляет элемент по указанному индексу MapiAttachmentCollection. |
 | [Replace](../../aspose.email.mapi/mapiattachmentcollection/replace)(int, string, MapiMessage) | Заменяет элемент по указанному индексу. |
 
 ### Смотрите также

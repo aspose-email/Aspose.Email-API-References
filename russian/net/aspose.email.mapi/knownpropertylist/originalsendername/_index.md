@@ -1,14 +1,14 @@
 ---
 title: OriginalSenderName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagSenderName отправителя исходного сообщения раздел 2.995 и устанавливается в сообщениях отчета о доставке. ОбластьОбщие свойства сообщения Каноническое имяPidTagOriginalSenderName Альтернативные именаPR_ORIGINAL_SENDER_NAME PR_ORIGINAL_SENDER_NAME_A ptagOriginalSenderName PR_ORIGINAL_SENDER_NAME_W
+description: Содержит значение свойства PidTagSenderName отправителя исходного сообщения раздел 2.995 и устанавливается в отчетах о доставке. Область Общие свойства сообщения Каноническое имя PidTagOriginalSenderName Альтернативные имена PR_ORIGINAL_SENDER_NAME PR_ORIGINAL_SENDER_NAME_A ptagOriginalSenderName PR_ORIGINAL_SENDER_NAME_W
 type: docs
 weight: 13690
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalsendername/
 ---
 ## KnownPropertyList.OriginalSenderName field
 
-Содержит значение свойства PidTagSenderName отправителя исходного сообщения (раздел 2.995) и устанавливается в сообщениях отчета о доставке. Область:Общие свойства сообщения Каноническое имя:PidTagOriginalSenderName Альтернативные имена:PR_ORIGINAL_SENDER_NAME, PR_ORIGINAL_SENDER_NAME_A, ptagOriginalSenderName, PR_ORIGINAL_SENDER_NAME_W,
+Содержит значение свойства PidTagSenderName отправителя исходного сообщения (раздел 2.995) и устанавливается в отчетах о доставке. Область: Общие свойства сообщения Каноническое имя: PidTagOriginalSenderName Альтернативные имена: PR_ORIGINAL_SENDER_NAME, PR_ORIGINAL_SENDER_NAME_A, ptagOriginalSenderName, PR_ORIGINAL_SENDER_NAME_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSenderName;

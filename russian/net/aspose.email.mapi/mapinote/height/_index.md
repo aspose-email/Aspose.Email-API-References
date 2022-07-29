@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает высоту видимого окна сообщения в пикселях
+description: Получает или задает высоту видимого окна сообщения в пикселях
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapinote/height/
 ---
 ## MapiNote.Height property
 
-Получает или устанавливает высоту видимого окна сообщения в пикселях
+Получает или задает высоту видимого окна сообщения в пикселях
 
 ```csharp
 public int Height { get; set; }

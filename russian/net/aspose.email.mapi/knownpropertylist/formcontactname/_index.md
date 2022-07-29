@@ -1,14 +1,14 @@
 ---
 title: FormContactName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FORM_CONTACT_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FORM_CONTACT_NAME
 type: docs
 weight: 10530
 url: /ru/net/aspose.email.mapi/knownpropertylist/formcontactname/
 ---
 ## KnownPropertyList.FormContactName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FORM_CONTACT_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FORM_CONTACT_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FormContactName;

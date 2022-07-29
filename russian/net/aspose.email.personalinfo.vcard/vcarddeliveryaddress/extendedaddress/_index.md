@@ -1,14 +1,14 @@
 ---
 title: ExtendedAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает расширенный адрес
+description: Получает или задает расширенный адрес
 type: docs
 weight: 40
 url: /ru/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/extendedaddress/
 ---
 ## VCardDeliveryAddress.ExtendedAddress property
 
-Получает или устанавливает расширенный адрес
+Получает или задает расширенный адрес
 
 ```csharp
 public string ExtendedAddress { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SendGridClientOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Опции для установки параметров SendGridClient.
+description: Параметры для установки параметров SendGridClient.
 type: docs
 weight: 3010
 url: /ru/net/aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/
 ---
 ## SendGridClientOptions class
 
-Опции для установки параметров SendGridClient.
+Параметры для установки параметров SendGridClient.
 
 ```csharp
 public class SendGridClientOptions : DeliveryServiceOptions

@@ -1,14 +1,14 @@
 ---
 title: CalendarLastModified
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время в формате UTC когда встреча была изменена в последний раз. ОбластьОбщие Каноническое имяPidNameCalendarLastModified Альтернативные именаurnschemascalendarlastmodified
+description: Указывает дату и время в формате UTC когда встреча была изменена в последний раз. Область Common Каноническое имя PidNameCalendarLastModified Альтернативные имена urnschemascalendarlastmodified
 type: docs
 weight: 2310
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarlastmodified/
 ---
 ## KnownPropertyList.CalendarLastModified field
 
-Указывает дату и время в формате UTC, когда встреча была изменена в последний раз. Область:Общие Каноническое имя:PidNameCalendarLastModified Альтернативные имена:urn:schemas:calendar:lastmodified
+Указывает дату и время в формате UTC, когда встреча была изменена в последний раз. Область: Common Каноническое имя: PidNameCalendarLastModified Альтернативные имена: urn:schemas:calendar:lastmodified
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarLastModified;

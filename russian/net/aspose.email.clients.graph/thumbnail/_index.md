@@ -30,7 +30,7 @@ public class Thumbnail
 | [IsWidthSpecified](../../aspose.email.clients.graph/thumbnail/iswidthspecified) { get; set; } | Указывает, указано ли свойство Ширина. |
 | [SourceItemId](../../aspose.email.clients.graph/thumbnail/sourceitemid) { get; set; } | Уникальный идентификатор элемента, предоставившего эскиз. Доступен только при запросе эскиза папки. |
 | [Url](../../aspose.email.clients.graph/thumbnail/url) { get; set; } | URL-адрес, используемый для получения содержимого эскиза. |
-| [Width](../../aspose.email.clients.graph/thumbnail/width) { get; set; } | Ширина миниатюры в пикселях. |
+| [Width](../../aspose.email.clients.graph/thumbnail/width) { get; set; } | Ширина эскиза в пикселях. |
 
 ### Смотрите также
 

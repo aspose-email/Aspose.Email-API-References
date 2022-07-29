@@ -1,14 +1,14 @@
 ---
 title: CalendarContact
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует имя контакта который является участником собрания. ОбластьОбщие Каноническое имяPidNameCalendarContact Альтернативные именаurnschemascalendarcontact
+description: Идентифицирует имя контакта который является участником собрания. Область Common Каноническое имя PidNameCalendarContact Альтернативные имена urnschemascalendarcontact
 type: docs
 weight: 2200
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarcontact/
 ---
 ## KnownPropertyList.CalendarContact field
 
-Идентифицирует имя контакта, который является участником собрания. Область:Общие Каноническое имя:PidNameCalendarContact Альтернативные имена:urn:schemas:calendar:contact
+Идентифицирует имя контакта, который является участником собрания. Область: Common Каноническое имя: PidNameCalendarContact Альтернативные имена: urn:schemas:calendar:contact
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarContact;

@@ -1,14 +1,14 @@
 ---
 title: HasDeferredActionMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имеет ли объект Message связанное с ним сообщение об отложенном действии. ОбластьПравила Каноническое имяPidTagHasDeferredActionMessages Альтернативные именаPR_HAS_DAMS ptagHasDAMs
+description: Указывает имеет ли объект Message связанное с ним сообщение об отложенном действии.
 type: docs
 weight: 10850
 url: /ru/net/aspose.email.mapi/knownpropertylist/hasdeferredactionmessages/
 ---
 ## KnownPropertyList.HasDeferredActionMessages field
 
-Указывает, имеет ли объект Message связанное с ним сообщение об отложенном действии. Область:Правила Каноническое имя:PidTagHasDeferredActionMessages Альтернативные имена:PR_HAS_DAMS, ptagHasDAMs
+Указывает, имеет ли объект Message связанное с ним сообщение об отложенном действии.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HasDeferredActionMessages;

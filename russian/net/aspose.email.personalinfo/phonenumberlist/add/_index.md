@@ -16,7 +16,7 @@ public void Add(PhoneNumber value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | PhoneNumber | ОбъектObjectдля добавления в список. |
+| value | PhoneNumber | Object добавить в список. |
 
 ### Возвращаемое значение
 

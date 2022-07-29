@@ -20,7 +20,7 @@ public override bool Equals(object other)
 
 ### Возвращаемое значение
 
-true, если указанный System.Object равен текущему System.Object; в противном случае ложно.
+Значение true, если указанный System.Object равен текущему System.Object; в противном случае ложно.
 
 ### Смотрите также
 

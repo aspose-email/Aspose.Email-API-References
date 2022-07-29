@@ -28,7 +28,7 @@ public void Send(string itemId)
 
 ## Send(MapiMessage) {#send}
 
-Отправляет сообщение электронной почты
+Отправляет электронное сообщение
 
 ```csharp
 public void Send(MapiMessage message)
@@ -49,7 +49,7 @@ public void Send(MapiMessage message)
 
 ## Send(MapiMessage, bool) {#send_1}
 
-Отправляет сообщение электронной почты
+Отправляет электронное сообщение
 
 ```csharp
 public void Send(MapiMessage message, bool saveToSentItems)
@@ -58,7 +58,7 @@ public void Send(MapiMessage message, bool saveToSentItems)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | MapiMessage | Сообщение Mapi для отправки |
-| saveToSentItems | Boolean | Указывает, следует ли сохранять сообщение в папке "Отправленные". |
+| saveToSentItems | Boolean | Указывает, следует ли сохранять сообщение в папке «Отправленные». |
 
 ### Смотрите также
 

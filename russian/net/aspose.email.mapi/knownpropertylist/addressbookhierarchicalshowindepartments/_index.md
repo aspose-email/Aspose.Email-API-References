@@ -1,14 +1,14 @@
 ---
 title: AddressBookHierarchicalShowInDepartments
 second_title: Справочник по Aspose.Email для .NET API
-description: Список всех объектов отдела членом которых является пользователь почты. ОбластьАдресная книга Каноническое имяPidTagAddressBookHierarchicalShowInDepartments Альтернативные именаPR_EMS_AB_HAB_SHOW_IN_DEPARTMENTS
+description: Список всех объектов отдела членом которых является пользователь почты. Область Адресная книга Каноническое имя PidTagAddressBookHierarchicalShowInDepartments Альтернативные имена PR_EMS_AB_HAB_SHOW_IN_DEPARTMENTS
 type: docs
 weight: 660
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalshowindepartments/
 ---
 ## KnownPropertyList.AddressBookHierarchicalShowInDepartments field
 
-Список всех объектов отдела, членом которых является пользователь почты. Область:Адресная книга Каноническое имя:PidTagAddressBookHierarchicalShowInDepartments Альтернативные имена:PR_EMS_AB_HAB_SHOW_IN_DEPARTMENTS
+Список всех объектов отдела, членом которых является пользователь почты. Область: Адресная книга Каноническое имя: PidTagAddressBookHierarchicalShowInDepartments Альтернативные имена: PR_EMS_AB_HAB_SHOW_IN_DEPARTMENTS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHierarchicalShowInDepartments;

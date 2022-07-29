@@ -1,14 +1,14 @@
 ---
 title: ExchangeAdvancedSyntaxQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет построитель выражения поиска на основе расширенного синтаксиса запросов AQS используемого протоколом Exchange. AQS является альтернативой поисковым фильтрам для выражения критериев поиска.
+description: Представляет построитель поискового выражения на основе расширенного синтаксиса запросов AQS используемого протоколом Exchange. AQS  это альтернатива поисковым фильтрам для выражения критериев поиска.
 type: docs
 weight: 3170
 url: /ru/net/aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/
 ---
 ## ExchangeAdvancedSyntaxQueryBuilder class
 
-Представляет построитель выражения поиска на основе расширенного синтаксиса запросов (AQS), используемого протоколом Exchange. AQS является альтернативой поисковым фильтрам для выражения критериев поиска.
+Представляет построитель поискового выражения на основе расширенного синтаксиса запросов (AQS), используемого протоколом Exchange. AQS — это альтернатива поисковым фильтрам для выражения критериев поиска.
 
 ```csharp
 public sealed class ExchangeAdvancedSyntaxQueryBuilder : MailQueryBuilder
@@ -38,9 +38,9 @@ public sealed class ExchangeAdvancedSyntaxQueryBuilder : MailQueryBuilder
 | [IsRead](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/isread) { get; } |  |
 | [Kind](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/kind) { get; } |  |
 | [Participants](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/participants) { get; } |  |
-| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее найти сообщения по дате отправки. |
+| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее находить сообщения по дате отправки. |
 | [Size](../../aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/size) { get; } |  |
-| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее находить сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
+| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
 | [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в заголовках (тема, от, кому, копия) и теле сообщения. |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле TO структуры конверта. |
 

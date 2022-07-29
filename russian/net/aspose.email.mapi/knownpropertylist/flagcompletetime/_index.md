@@ -1,14 +1,14 @@
 ---
 title: FlagCompleteTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время в формате UTC когда объект Message был помечен как завершенный. ОбластьПрочие свойства Каноническое имяPidTagFlagCompleteTime Альтернативные именаPR_FLAG_COMPLETE_TIME ptagFlagCompleteTime
+description: Указывает дату и время в формате UTC когда объект Message был помечен как завершенный.
 type: docs
 weight: 10340
 url: /ru/net/aspose.email.mapi/knownpropertylist/flagcompletetime/
 ---
 ## KnownPropertyList.FlagCompleteTime field
 
-Указывает дату и время в формате UTC, когда объект Message был помечен как завершенный. Область:Прочие свойства Каноническое имя:PidTagFlagCompleteTime Альтернативные имена:PR_FLAG_COMPLETE_TIME, ptagFlagCompleteTime,
+Указывает дату и время в формате UTC, когда объект Message был помечен как завершенный.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FlagCompleteTime;

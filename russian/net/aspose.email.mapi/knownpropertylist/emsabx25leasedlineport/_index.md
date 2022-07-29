@@ -1,14 +1,14 @@
 ---
 title: EmsAbX25LeasedLinePort
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_X25_LEASED_LINE_PORT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_X25_LEASED_LINE_PORT
 type: docs
 weight: 9620
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabx25leasedlineport/
 ---
 ## KnownPropertyList.EmsAbX25LeasedLinePort field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_X25_LEASED_LINE_PORT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_X25_LEASED_LINE_PORT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbX25LeasedLinePort;

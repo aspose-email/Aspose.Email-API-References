@@ -1,14 +1,14 @@
 ---
 title: Gender
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение представляющее пол пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagGender Альтернативные именаPR_GENDER urnschemascontactsgender
+description: Содержит значение представляющее пол пользователя почты. Область MapiMailUser Каноническое имя PidTagGender Альтернативные имена PR_GENDER urnschemascontactsgender
 type: docs
 weight: 10760
 url: /ru/net/aspose.email.mapi/knownpropertylist/gender/
 ---
 ## KnownPropertyList.Gender field
 
-Содержит значение, представляющее пол пользователя почты. Область:MapiMailUser Каноническое имя:PidTagGender Альтернативные имена:PR_GENDER, urn:schemas:contacts:gender
+Содержит значение, представляющее пол пользователя почты. Область: MapiMailUser Каноническое имя: PidTagGender Альтернативные имена: PR_GENDER, urn:schemas:contacts:gender
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Gender;

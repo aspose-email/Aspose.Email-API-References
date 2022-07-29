@@ -1,14 +1,14 @@
 ---
 title: ViewDescriptorName
 second_title: Справочник по Aspose.Email для .NET API
-description: ОбластьMessageClassDefinedTransmittable Каноническое имяPidTagViewDescriptorName Альтернативные именаPR_VD_NAME PR_VD_NAME_W
+description: Область MessageClassDefinedTransmittable Каноническое имя PidTagViewDescriptorName Альтернативные имена PR_VD_NAME PR_VD_NAME_W
 type: docs
 weight: 19260
 url: /ru/net/aspose.email.mapi/knownpropertylist/viewdescriptorname/
 ---
 ## KnownPropertyList.ViewDescriptorName field
 
-Область:MessageClassDefinedTransmittable Каноническое имя:PidTagViewDescriptorName Альтернативные имена:PR_VD_NAME, PR_VD_NAME_W
+Область: MessageClassDefinedTransmittable Каноническое имя: PidTagViewDescriptorName Альтернативные имена: PR_VD_NAME, PR_VD_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ViewDescriptorName;

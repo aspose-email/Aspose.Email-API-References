@@ -1,14 +1,14 @@
 ---
 title: RuleUserFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит непрозрачное свойство которое клиент устанавливает для исключительного использования клиентом. ОбластьСвойства серверных правил Каноническое имяPidTagRuleUserFlags Альтернативные именаPR_RULE_USER_FLAGS ptagRuleUserFlags
+description: Содержит непрозрачное свойство которое клиент устанавливает для исключительного использования клиентом. Область Свойства правил на стороне сервера Каноническое имя PidTagRuleUserFlags Альтернативные имена PR_RULE_USER_FLAGS ptagRuleUserFlags
 type: docs
 weight: 16670
 url: /ru/net/aspose.email.mapi/knownpropertylist/ruleuserflags/
 ---
 ## KnownPropertyList.RuleUserFlags field
 
-Содержит непрозрачное свойство, которое клиент устанавливает для исключительного использования клиентом. Область:Свойства серверных правил Каноническое имя:PidTagRuleUserFlags Альтернативные имена:PR_RULE_USER_FLAGS, ptagRuleUserFlags
+Содержит непрозрачное свойство, которое клиент устанавливает для исключительного использования клиентом. Область: Свойства правил на стороне сервера Каноническое имя: PidTagRuleUserFlags Альтернативные имена: PR_RULE_USER_FLAGS, ptagRuleUserFlags
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleUserFlags;

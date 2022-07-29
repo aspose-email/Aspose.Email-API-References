@@ -1,14 +1,14 @@
 ---
 title: SendonBehalfOfUserMailboxGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: GUID Exchange почтового ящика к которому был осуществлен доступ для отправки почты от имени.
+description: GUID почтового ящика Exchange доступ к которому был осуществлен для отправки почты от имени.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activity/exchangemailboxauditactivity/sendonbehalfofusermailboxguid/
 ---
 ## ExchangeMailboxAuditActivity.SendonBehalfOfUserMailboxGuid property
 
-GUID Exchange почтового ящика, к которому был осуществлен доступ для отправки почты от имени.
+GUID почтового ящика Exchange, доступ к которому был осуществлен для отправки почты от имени.
 
 ```csharp
 public Guid SendonBehalfOfUserMailboxGuid { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RuleMessageState
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит флаги определяющие состояние правила. Установите на сообщение FAI. ОбластьExchangeNonTransmittableReserved Каноническое имяPidTagRuleMessageState Альтернативные именаPR_RULE_MSG_STATE ptagRuleMsgState
+description: Содержит флаги определяющие состояние правила. Установите в сообщении FAI. Область ExchangeNonTransmittableReserved Каноническое имя PidTagRuleMessageState Альтернативные имена PR_RULE_MSG_STATE ptagRuleMsgState
 type: docs
 weight: 16570
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulemessagestate/
 ---
 ## KnownPropertyList.RuleMessageState field
 
-Содержит флаги, определяющие состояние правила. Установите на сообщение FAI. Область:ExchangeNonTransmittableReserved Каноническое имя:PidTagRuleMessageState Альтернативные имена:PR_RULE_MSG_STATE, ptagRuleMsgState
+Содержит флаги, определяющие состояние правила. Установите в сообщении FAI. Область: ExchangeNonTransmittableReserved Каноническое имя: PidTagRuleMessageState Альтернативные имена: PR_RULE_MSG_STATE, ptagRuleMsgState
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageState;

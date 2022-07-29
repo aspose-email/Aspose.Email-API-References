@@ -1,14 +1,14 @@
 ---
 title: AddressBookEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID службы имен объекта каталога ссылающегося на общую папку. ОбластьАдресная книга Каноническое имяPidTagAddressBookEntryId Альтернативные именаPR_ADDRESS_BOOK_ENTRYID ptagAddressBookEntryId
+description: Содержит EntryID службы имен объекта каталога который ссылается на общую папку.
 type: docs
 weight: 440
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookentryid/
 ---
 ## KnownPropertyList.AddressBookEntryId field
 
-Содержит EntryID службы имен объекта каталога, ссылающегося на общую папку. Область:Адресная книга Каноническое имя:PidTagAddressBookEntryId Альтернативные имена:PR_ADDRESS_BOOK_ENTRYID, ptagAddressBookEntryId
+Содержит EntryID службы имен объекта каталога, который ссылается на общую папку.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookEntryId;

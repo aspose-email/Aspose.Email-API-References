@@ -1,14 +1,14 @@
 ---
 title: ReportDispositionMode
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит описание действия которое клиент выполнил от имени пользователя только отчетные сообщения. ОбластьЭлектронная почта Каноническое имяPidTagReportDispositionMode Альтернативные именаPR_REPORT_DISPOSITION_MODE_W
+description: Содержит описание действия которое клиент выполнил от имени пользователя только отчетные сообщения. Область Email Каноническое имя PidTagReportDispositionMode Альтернативные имена PR_REPORT_DISPOSITION_MODE_W
 type: docs
 weight: 16010
 url: /ru/net/aspose.email.mapi/knownpropertylist/reportdispositionmode/
 ---
 ## KnownPropertyList.ReportDispositionMode field
 
-Содержит описание действия, которое клиент выполнил от имени пользователя (только отчетные сообщения). Область:Электронная почта Каноническое имя:PidTagReportDispositionMode Альтернативные имена:PR_REPORT_DISPOSITION_MODE_W
+Содержит описание действия, которое клиент выполнил от имени пользователя (только отчетные сообщения). Область: Email Каноническое имя: PidTagReportDispositionMode Альтернативные имена: PR_REPORT_DISPOSITION_MODE_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReportDispositionMode;

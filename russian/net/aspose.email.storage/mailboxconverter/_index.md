@@ -1,14 +1,14 @@
 ---
 title: MailboxConverter
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет подпрограммы преобразования почтовых ящиков.
+description: Предоставляет процедуры преобразования почтовых ящиков.
 type: docs
-weight: 19960
+weight: 20010
 url: /ru/net/aspose.email.storage/mailboxconverter/
 ---
 ## MailboxConverter class
 
-Предоставляет подпрограммы преобразования почтовых ящиков.
+Предоставляет процедуры преобразования почтовых ящиков.
 
 ```csharp
 public static class MailboxConverter
@@ -18,8 +18,8 @@ public static class MailboxConverter
 
 | Имя | Описание |
 | --- | --- |
-| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox)(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) | Преобразует[`PersonalStorage`](../../aspose.email.storage.pst/personalstorage)в формат mbox, используя заданный[`MboxStorageWriter`](../../aspose.email.storage.mbox/mboxstoragewriter). |
-| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox_1)(PersonalStorage, string, MessageAcceptanceCallback) | Преобразует[`PersonalStorage`](../../aspose.email.storage.pst/personalstorage)в формат mbox, используя указанный путь. |
+| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox)(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) | Преобразует[`PersonalStorage`](../../aspose.email.storage.pst/personalstorage) в формат mbox, используя данный[`MboxStorageWriter`](../../aspose.email.storage.mbox/mboxstoragewriter) . |
+| static [ConvertPersonalStorageToMbox](../../aspose.email.storage/mailboxconverter/convertpersonalstoragetombox#convertpersonalstoragetombox_1)(PersonalStorage, string, MessageAcceptanceCallback) | Преобразует[`PersonalStorage`](../../aspose.email.storage.pst/personalstorage)в формат mbox, используя заданный путь. |
 
 ### Смотрите также
 

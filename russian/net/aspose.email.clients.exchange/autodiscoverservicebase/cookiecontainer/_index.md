@@ -16,7 +16,7 @@ public CookieContainer CookieContainer { get; set; }
 
 ### Стоимость имущества
 
-Контейнер cookie.
+Контейнер для печенья.
 
 ### Смотрите также
 

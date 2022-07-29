@@ -16,7 +16,7 @@ public void RemoveHeader(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя заголовка |
+| name | String | Название заголовка |
 
 ### Смотрите также
 

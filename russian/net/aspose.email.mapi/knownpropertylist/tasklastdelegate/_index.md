@@ -1,14 +1,14 @@
 ---
 title: TaskLastDelegate
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя пользователя который последним назначил задачу или пользователя которому она была назначена последним. ОбластьЗадачи Каноническое имяPidLidTaskLastDelegate Альтернативные именаdispidTaskLastDelegate
+description: Содержит имя пользователя который последним назначил задачу или пользователя которому она была назначена последним. Область Tasks Каноническое имя PidLidTaskLastDelegate Альтернативные имена dispidTaskLastDelegate
 type: docs
 weight: 18690
 url: /ru/net/aspose.email.mapi/knownpropertylist/tasklastdelegate/
 ---
 ## KnownPropertyList.TaskLastDelegate field
 
-Содержит имя пользователя, который последним назначил задачу, или пользователя, которому она была назначена последним. Область:Задачи Каноническое имя:PidLidTaskLastDelegate Альтернативные имена:dispidTaskLastDelegate
+Содержит имя пользователя, который последним назначил задачу, или пользователя, которому она была назначена последним. Область: Tasks Каноническое имя: PidLidTaskLastDelegate Альтернативные имена: dispidTaskLastDelegate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskLastDelegate;

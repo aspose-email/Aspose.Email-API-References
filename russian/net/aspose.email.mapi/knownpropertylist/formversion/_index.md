@@ -1,14 +1,14 @@
 ---
 title: FormVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FORM_VERSION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FORM_VERSION
 type: docs
 weight: 10590
 url: /ru/net/aspose.email.mapi/knownpropertylist/formversion/
 ---
 ## KnownPropertyList.FormVersion field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FORM_VERSION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FORM_VERSION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FormVersion;

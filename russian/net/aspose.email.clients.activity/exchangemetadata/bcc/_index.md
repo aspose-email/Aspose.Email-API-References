@@ -1,14 +1,14 @@
 ---
 title: BCC
 second_title: Справочник по Aspose.Email для .NET API
-description: Набор адресов электронной почты которые были в строке скрытой копии сообщения. ОбязательноНет
+description: Набор адресов электронной почты которые были в строке BCC сообщения. Обязательно No
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activity/exchangemetadata/bcc/
 ---
 ## ExchangeMetadata.BCC property
 
-Набор адресов электронной почты, которые были в строке скрытой копии сообщения. Обязательно:Нет
+Набор адресов электронной почты, которые были в строке BCC сообщения. Обязательно: No
 
 ```csharp
 public string[] BCC { get; set; }

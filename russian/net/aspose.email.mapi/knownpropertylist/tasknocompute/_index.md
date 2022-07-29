@@ -1,14 +1,14 @@
 ---
 title: TaskNoCompute
 second_title: Справочник по Aspose.Email для .NET API
-description: Не используется. Клиент может установить это свойство но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. ОбластьЗадачи Каноническое имяPidLidTaskNoCompute Альтернативные именаdispidTaskNoCompute
+description: Не используется. Клиент может установить это свойство но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. Область Tasks Каноническое имя PidLidTaskNoCompute Альтернативные имена dispidTaskNoCompute
 type: docs
 weight: 18740
 url: /ru/net/aspose.email.mapi/knownpropertylist/tasknocompute/
 ---
 ## KnownPropertyList.TaskNoCompute field
 
-Не используется. Клиент может установить это свойство, но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. Область:Задачи Каноническое имя:PidLidTaskNoCompute Альтернативные имена:dispidTaskNoCompute
+Не используется. Клиент может установить это свойство, но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. Область: Tasks Каноническое имя: PidLidTaskNoCompute Альтернативные имена: dispidTaskNoCompute
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskNoCompute;

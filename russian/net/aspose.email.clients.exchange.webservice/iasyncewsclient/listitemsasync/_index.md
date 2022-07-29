@@ -17,11 +17,11 @@ public Task<string[]> ListItemsAsync(string folder, string mailbox = null, MailQ
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | папку в элементы поиска |
-| почтовыйящик | String | Почтовый ящик, используемый для инициализации класса идентификатора папки. |
-| query | MailQuery | Дополнительные условия для выбора элементов |
+| folder | String | папка для поиска предметов |
+| mailbox | String | Почтовый ящик, который используется для инициализации класса идентификатора папки. |
+| query | MailQuery | Дополнительные условия для выбора товаров |
 | recursive | Boolean | Указывает, должен ли запрос быть рекурсивным. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

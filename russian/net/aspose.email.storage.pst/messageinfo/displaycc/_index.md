@@ -1,14 +1,14 @@
 ---
 title: DisplayCC
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает строку CC.
+description: Получает CC line.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.storage.pst/messageinfo/displaycc/
 ---
 ## MessageInfo.DisplayCC property
 
-Получает строку CC:.
+Получает CC: line.
 
 ```csharp
 public string DisplayCC { get; }
@@ -16,7 +16,7 @@ public string DisplayCC { get; }
 
 ### Стоимость имущества
 
-Отображение cc.
+Дисплей cc.
 
 ### Смотрите также
 

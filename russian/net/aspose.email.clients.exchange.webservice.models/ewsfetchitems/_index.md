@@ -1,14 +1,14 @@
 ---
 title: EwsFetchItems
 second_title: Справочник по Aspose.Email для .NET API
-description: ПредставляетEwsFetchItemsпараметры.
+description: ПредставляетFetchItemsAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync параметры.
 type: docs
 weight: 4060
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/
 ---
 ## EwsFetchItems class
 
-ПредставляетEwsFetchItemsпараметры.
+Представляет[`FetchItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync) параметры.
 
 ```csharp
 public class EwsFetchItems
@@ -18,12 +18,12 @@ public class EwsFetchItems
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/create)() | СоздаетEwsFetchItemsнабор параметров метода. |
-| [AddExtendedProperties](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/addextendedproperties)(IEnumerable&lt;PropertyDescriptor&gt;) | Добавьте расширенные свойства для извлечения. |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/create)() | Создает[`FetchItemsAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync) набор параметров метода. |
+| [AddExtendedProperties](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/addextendedproperties)(IEnumerable&lt;PropertyDescriptor&gt;) | Добавить расширенные свойства для извлечения. |
 | [AddExtendedProperty](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/addextendedproperty)(PropertyDescriptor) | Добавить расширенное свойство для извлечения. |
 | [AddUri](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/adduri)(string) | Добавить URI сообщения для извлечения. |
-| [AddUris](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/adduris)(IEnumerable&lt;string&gt;) | Добавить URI сообщения для извлечения. |
-| [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/setcancellationtoken)(CancellationToken) | Установите токен отмены. |
+| [AddUris](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/adduris)(IEnumerable&lt;string&gt;) | Добавить URI сообщений для выборки. |
+| [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/setcancellationtoken)(CancellationToken) | Установить токен отмены. |
 | [SkipAttachments](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/skipattachments)() | Не получать содержимое вложения. |
 | [WithAttachments](../../aspose.email.clients.exchange.webservice.models/ewsfetchitems/withattachments)(bool) | Получить все вложения. |
 

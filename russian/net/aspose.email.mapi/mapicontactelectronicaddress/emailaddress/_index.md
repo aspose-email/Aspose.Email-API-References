@@ -1,14 +1,14 @@
 ---
 title: EmailAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает адрес электронной почты контакта
+description: Получает или задает адрес электронной почты контакта
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddress/emailaddress/
 ---
 ## MapiContactElectronicAddress.EmailAddress property
 
-Получает или устанавливает адрес электронной почты контакта
+Получает или задает адрес электронной почты контакта
 
 ```csharp
 public string EmailAddress { get; set; }

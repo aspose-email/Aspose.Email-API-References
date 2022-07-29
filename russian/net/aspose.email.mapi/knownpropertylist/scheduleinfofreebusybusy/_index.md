@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoFreeBusyBusy
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет блоки времени для которых статус свободен/занят установлен на значение занятости. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoFreeBusyBusy Альтернативные именаPR_SCHDINFO_FREEBUSY_BUSY
+description: Определяет блоки времени для которых статус свободен/занят со значением занято.
 type: docs
 weight: 16830
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusybusy/
 ---
 ## KnownPropertyList.ScheduleInfoFreeBusyBusy field
 
-Определяет блоки времени, для которых статус свободен/занят установлен на значение занятости. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoFreeBusyBusy Альтернативные имена:PR_SCHDINFO_FREEBUSY_BUSY
+Определяет блоки времени, для которых статус свободен/занят со значением «занято».
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoFreeBusyBusy;

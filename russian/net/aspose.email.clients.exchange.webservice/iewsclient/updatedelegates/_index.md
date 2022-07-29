@@ -16,15 +16,15 @@ public void UpdateDelegates(ExchangeDelegateUserCollection delegateUsers, string
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| delegateUsers | ExchangeDelegateUserCollection | A[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection)содержащий новый настройки делегатов. |
-| mailbox | String | Почтовый ящик, доступ к которому предоставляется делегированным пользователям. |
+| delegateUsers | ExchangeDelegateUserCollection | А[`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection) содержащий новые настройки делегатов. |
+| mailbox | String | Почтовый ящик, доступ к которому предоставлен делегированным пользователям. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers*is` null` . |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` или` пусто` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers* является`нулевой`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

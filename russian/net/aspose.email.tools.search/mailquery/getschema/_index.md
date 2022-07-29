@@ -1,14 +1,14 @@
 ---
 title: GetSchema
 second_title: Справочник по Aspose.Email для .NET API
-description: Этот метод зарезервирован и не должен использоваться. При реализации интерфейса IXmlSerializable из этого метода следует возвращать значение null Nothing в Visual Basic а вместо этого если требуется указание пользовательской схемы применять атрибутXmlSchemaProviderAttributeк классу.
+description: Этот метод зарезервирован и не должен использоваться. При реализации интерфейса IXmlSerializable из этого метода следует возвращать null ничего в Visual Basic а вместо этого если требуется указать пользовательскую схему применитьXmlSchemaProviderAttribute в класс.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.tools.search/mailquery/getschema/
 ---
 ## MailQuery.GetSchema method
 
-Этот метод зарезервирован и не должен использоваться. При реализации интерфейса IXmlSerializable из этого метода следует возвращать значение null (Nothing в Visual Basic), а вместо этого, если требуется указание пользовательской схемы, применять атрибутXmlSchemaProviderAttributeк классу.
+Этот метод зарезервирован и не должен использоваться. При реализации интерфейса IXmlSerializable из этого метода следует возвращать null (ничего в Visual Basic), а вместо этого, если требуется указать пользовательскую схему, применитьXmlSchemaProviderAttribute в класс.
 
 ```csharp
 public XmlSchema GetSchema()
@@ -16,7 +16,7 @@ public XmlSchema GetSchema()
 
 ### Возвращаемое значение
 
-AnXmlSchemaкоторый описывает XML-представление объекта, созданного методомXmlWriter)и используемогоXmlReader)метод.
+АнXmlSchema который описывает XML-представление объекта, созданногоXmlWriter) метод и потребляетсяXmlReader) метод.
 
 ### Смотрите также
 

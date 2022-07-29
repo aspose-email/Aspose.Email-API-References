@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает новый объектLogEntryaspose.email.tools.logging/logentry который является копией текущего экземпляра.
+description: Создает новыйLogEntryaspose.email.tools.logging/logentry это копия текущего экземпляра.
 type: docs
 weight: 180
 url: /ru/net/aspose.email.tools.logging/logentry/clone/
 ---
 ## LogEntry.Clone method
 
-Создает новый объект[`LogEntry`](../../logentry), который является копией текущего экземпляра.
+Создает новый[`LogEntry`](../../logentry) это копия текущего экземпляра.
 
 ```csharp
 public LogEntry Clone()
@@ -16,7 +16,7 @@ public LogEntry Clone()
 
 ### Возвращаемое значение
 
-Новый` LogEntry` , который является копией текущего экземпляра .
+новый`LogEntry` это копия текущего экземпляра.
 
 ### Смотрите также
 

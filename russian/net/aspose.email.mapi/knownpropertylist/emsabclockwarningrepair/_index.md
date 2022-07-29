@@ -1,14 +1,14 @@
 ---
 title: EmsAbClockWarningRepair
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_CLOCK_WARNING_REPAIR
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_CLOCK_WARNING_REPAIR
 type: docs
 weight: 5210
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabclockwarningrepair/
 ---
 ## KnownPropertyList.EmsAbClockWarningRepair field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_CLOCK_WARNING_REPAIR
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_CLOCK_WARNING_REPAIR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbClockWarningRepair;

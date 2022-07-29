@@ -16,8 +16,8 @@ public MailMessageCollection Instantiate(DataTable table, IColumnMappingCollecti
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | DataTable | Таблица данных, содержащая исходные данные для создания экземпляра шаблона. |
-| mappings | IColumnMappingCollection | Коллекция IColumnMappingCollection, представляющая сопоставление между исходным столбцом в DataTable и целевым полем в шаблоне |
+| table | DataTable | DataTable, который содержит исходные данные для создания экземпляра шаблона. |
+| mappings | IColumnMappingCollection | Коллекция IColumnMappingCollection, представляющая сопоставление между исходным столбцом в DataTable и целевым полем в шаблоне. |
 
 ### Возвращаемое значение
 
@@ -42,7 +42,7 @@ public MailMessageCollection Instantiate(DataTable table)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| table | DataTable | Таблица данных, содержащая исходные данные для создания экземпляра шаблона. |
+| table | DataTable | DataTable, который содержит исходные данные для создания экземпляра шаблона. |
 
 ### Возвращаемое значение
 
@@ -67,8 +67,8 @@ public MailMessageCollection Instantiate(DataRowCollection rows, IColumnMappingC
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rows | DataRowCollection | Коллекция DataRowCollection, которая содержит исходные данные для создания экземпляра шаблона. |
-| mappings | IColumnMappingCollection | Коллекция IColumnMappingCollection, представляющая сопоставление между исходным столбцом в источнике данных и целевым полем в шаблоне |
+| rows | DataRowCollection | Коллекция DataRowCollection, содержащая исходные данные для создания экземпляра шаблона. |
+| mappings | IColumnMappingCollection | Коллекция IColumnMappingCollection, представляющая сопоставление между исходным столбцом в источнике данных и целевым полем в шаблоне. |
 
 ### Возвращаемое значение
 
@@ -93,7 +93,7 @@ public MailMessageCollection Instantiate(DataRowCollection rows)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rows | DataRowCollection | Коллекция DataRowCollection, которая содержит исходные данные для создания экземпляра шаблона. |
+| rows | DataRowCollection | Коллекция DataRowCollection, содержащая исходные данные для создания экземпляра шаблона. |
 
 ### Возвращаемое значение
 

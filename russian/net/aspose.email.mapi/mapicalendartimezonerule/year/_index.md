@@ -1,14 +1,14 @@
 ---
 title: Year
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает год
+description: Получает или задает год
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mapi/mapicalendartimezonerule/year/
 ---
 ## MapiCalendarTimeZoneRule.Year property
 
-Получает или устанавливает год
+Получает или задает год
 
 ```csharp
 public ushort Year { get; set; }

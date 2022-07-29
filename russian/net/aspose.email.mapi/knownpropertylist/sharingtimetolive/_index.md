@@ -1,14 +1,14 @@
 ---
 title: SharingTimeToLive
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingTimeToLive Альтернативные именаdispidSharingTimeToLive
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingTimeToLive Альтернативные имена dispidSharingTimeToLive
 type: docs
 weight: 17980
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingtimetolive/
 ---
 ## KnownPropertyList.SharingTimeToLive field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingTimeToLive Альтернативные имена:dispidSharingTimeToLive
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingTimeToLive Альтернативные имена: dispidSharingTimeToLive
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingTimeToLive;

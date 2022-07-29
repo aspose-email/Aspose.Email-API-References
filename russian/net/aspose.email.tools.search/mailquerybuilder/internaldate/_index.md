@@ -16,7 +16,7 @@ public DateComparisonField InternalDate { get; }
 
 ### Стоимость имущества
 
-The[`DateComparisonField`](../../datecomparisonfield)который представляет внутреннее поле поиска даты.
+[`DateComparisonField`](../../datecomparisonfield) которое представляет внутреннее поле поиска даты.
 
 ### Смотрите также
 

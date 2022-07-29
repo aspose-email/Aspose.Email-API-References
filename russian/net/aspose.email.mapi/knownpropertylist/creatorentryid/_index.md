@@ -1,14 +1,14 @@
 ---
 title: CreatorEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает исходного автора сообщения в соответствии с его идентификатором записи в адресной книге. ОбластьСвойства идентификатора Каноническое имяPidTagCreatorEntryId Альтернативные именаPR_CREATOR_ENTRYID ptagCreatorEntryId
+description: Указывает исходного автора сообщения в соответствии с его EntryID в адресной книге. Область ID Properties Каноническое имя PidTagCreatorEntryId Альтернативные имена PR_CREATOR_ENTRYID ptagCreatorEntryId
 type: docs
 weight: 3560
 url: /ru/net/aspose.email.mapi/knownpropertylist/creatorentryid/
 ---
 ## KnownPropertyList.CreatorEntryId field
 
-Указывает исходного автора сообщения в соответствии с его идентификатором записи в адресной книге. Область:Свойства идентификатора Каноническое имя:PidTagCreatorEntryId Альтернативные имена:PR_CREATOR_ENTRYID, ptagCreatorEntryId
+Указывает исходного автора сообщения в соответствии с его EntryID в адресной книге. Область: ID Properties Каноническое имя: PidTagCreatorEntryId Альтернативные имена: PR_CREATOR_ENTRYID, ptagCreatorEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CreatorEntryId;

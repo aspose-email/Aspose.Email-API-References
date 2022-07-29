@@ -1,14 +1,14 @@
 ---
 title: ToDoTitle
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит определяемый пользователем текст для идентификации этого объекта Message в сводном списке дел. ОбластьЗадачи Каноническое имяPidLidToDoTitle Альтернативные именаdispidToDoTitle
+description: Содержит определяемый пользователем текст для идентификации этого объекта Message в сводном списке дел. Область Tasks Каноническое имя PidLidToDoTitle Альтернативные имена dispidToDoTitle
 type: docs
 weight: 19060
 url: /ru/net/aspose.email.mapi/knownpropertylist/todotitle/
 ---
 ## KnownPropertyList.ToDoTitle field
 
-Содержит определяемый пользователем текст для идентификации этого объекта Message в сводном списке дел. Область:Задачи Каноническое имя:PidLidToDoTitle Альтернативные имена:dispidToDoTitle
+Содержит определяемый пользователем текст для идентификации этого объекта Message в сводном списке дел. Область: Tasks Каноническое имя: PidLidToDoTitle Альтернативные имена: dispidToDoTitle
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ToDoTitle;

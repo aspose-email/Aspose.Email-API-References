@@ -1,14 +1,14 @@
 ---
 title: ThumbnailPhoto
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит фотографию пользователя почты в формате .jpg. ОбластьАдресная книга Каноническое имяPidTagThumbnailPhoto Альтернативные именаPR_EMS_AB_THUMBNAIL_PHOTO
+description: Содержит фотографию пользователя почты в формате .jpg. Область Адресная книга Каноническое имя PidTagThumbnailPhoto Альтернативные имена PR_EMS_AB_THUMBNAIL_PHOTO
 type: docs
 weight: 18960
 url: /ru/net/aspose.email.mapi/knownpropertylist/thumbnailphoto/
 ---
 ## KnownPropertyList.ThumbnailPhoto field
 
-Содержит фотографию пользователя почты в формате .jpg. Область:Адресная книга Каноническое имя:PidTagThumbnailPhoto Альтернативные имена:PR_EMS_AB_THUMBNAIL_PHOTO
+Содержит фотографию пользователя почты в формате .jpg. Область: Адресная книга Каноническое имя: PidTagThumbnailPhoto Альтернативные имена: PR_EMS_AB_THUMBNAIL_PHOTO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ThumbnailPhoto;

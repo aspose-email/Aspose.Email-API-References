@@ -1,14 +1,14 @@
 ---
 title: ReadMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Анализирует текущий поток и возвращает данные как MapiMessage.
+description: Анализирует текущий поток и возвращает данные в виде сообщения MapiMessage.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapimessagereader/readmessage/
 ---
 ## MapiMessageReader.ReadMessage method
 
-Анализирует текущий поток и возвращает данные как MapiMessage.
+Анализирует текущий поток и возвращает данные в виде сообщения MapiMessage.
 
 ```csharp
 public MapiMessage ReadMessage()

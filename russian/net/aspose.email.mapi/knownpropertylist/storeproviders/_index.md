@@ -1,14 +1,14 @@
 ---
 title: StoreProviders
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_STORE_PROVIDERS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_STORE_PROVIDERS
 type: docs
 weight: 18270
 url: /ru/net/aspose.email.mapi/knownpropertylist/storeproviders/
 ---
 ## KnownPropertyList.StoreProviders field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_STORE_PROVIDERS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_STORE_PROVIDERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StoreProviders;

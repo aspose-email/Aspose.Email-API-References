@@ -1,14 +1,14 @@
 ---
 title: SecureOrigination
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SECURE_ORIGINATION
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SECURE_ORIGINATION
 type: docs
 weight: 17050
 url: /ru/net/aspose.email.mapi/knownpropertylist/secureorigination/
 ---
 ## KnownPropertyList.SecureOrigination field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SECURE_ORIGINATION
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SECURE_ORIGINATION
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SecureOrigination;

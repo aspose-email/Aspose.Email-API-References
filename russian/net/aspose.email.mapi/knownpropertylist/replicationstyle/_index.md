@@ -1,14 +1,14 @@
 ---
 title: ReplicationStyle
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REPLICATION_STYLE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REPLICATION_STYLE
 type: docs
 weight: 15900
 url: /ru/net/aspose.email.mapi/knownpropertylist/replicationstyle/
 ---
 ## KnownPropertyList.ReplicationStyle field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REPLICATION_STYLE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REPLICATION_STYLE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplicationStyle;

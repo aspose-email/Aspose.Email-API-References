@@ -1,14 +1,14 @@
 ---
 title: FetchMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает сообщения асинхронно
+description: Получает сообщения асинхронно
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.pop3/pop3client/fetchmessagesasync/
 ---
 ## FetchMessagesAsync(IEnumerable&lt;int&gt;) {#fetchmessagesasync_4}
 
-Выбирает сообщения асинхронно
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumbers)
@@ -33,7 +33,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumb
 
 ## FetchMessagesAsync(IEnumerable&lt;string&gt;) {#fetchmessagesasync_6}
 
-Выбирает сообщения асинхронно
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids)
@@ -58,7 +58,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids)
 
 ## FetchMessagesAsync(IConnection, IEnumerable&lt;int&gt;) {#fetchmessagesasync}
 
-Асинхронно получает сообщения
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, 
@@ -67,7 +67,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumbers | IEnumerable`1 | Порядковые номера сообщений |
 
 ### Возвращаемое значение
@@ -86,7 +86,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 
 ## FetchMessagesAsync(IConnection, IEnumerable&lt;string&gt;) {#fetchmessagesasync_2}
 
-Асинхронно получает сообщения
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, IEnumerable<string> uids)
@@ -94,7 +94,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, IEnum
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uids | IEnumerable`1 | Порядковые номера сообщений |
 
 ### Возвращаемое значение
@@ -113,7 +113,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, IEnum
 
 ## FetchMessagesAsync(IEnumerable&lt;int&gt;, CancellationToken) {#fetchmessagesasync_5}
 
-Выбирает сообщения асинхронно
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumbers, 
@@ -140,7 +140,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumb
 
 ## FetchMessagesAsync(IEnumerable&lt;string&gt;, CancellationToken) {#fetchmessagesasync_7}
 
-Выбирает сообщения асинхронно
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids, 
@@ -167,7 +167,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids,
 
 ## FetchMessagesAsync(IConnection, IEnumerable&lt;int&gt;, CancellationToken) {#fetchmessagesasync_1}
 
-Асинхронно получает сообщения
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, 
@@ -176,7 +176,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumbers | IEnumerable`1 | Порядковые номера сообщений |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -196,7 +196,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 
 ## FetchMessagesAsync(IConnection, IEnumerable&lt;string&gt;, CancellationToken) {#fetchmessagesasync_3}
 
-Асинхронно получает сообщения
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, 
@@ -205,7 +205,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uids | IEnumerable`1 | Порядковые номера сообщений |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

@@ -1,14 +1,14 @@
 ---
 title: OriginalSubject
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тему исходного сообщения. ОбластьОбщие свойства сообщения Каноническое имяPidTagOriginalSubject Альтернативные именаPR_ORIGINAL_SUBJECT PR_ORIGINAL_SUBJECT_A ptagOriginalSubject
+description: Указывает тему исходного сообщения. Область Общие свойства сообщения Каноническое имя PidTagOriginalSubject Альтернативные имена PR_ORIGINAL_SUBJECT PR_ORIGINAL_SUBJECT_A ptagOriginalSubject
 type: docs
 weight: 13780
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalsubject/
 ---
 ## KnownPropertyList.OriginalSubject field
 
-Указывает тему исходного сообщения. Область:Общие свойства сообщения Каноническое имя:PidTagOriginalSubject Альтернативные имена:PR_ORIGINAL_SUBJECT, PR_ORIGINAL_SUBJECT_A, ptagOriginalSubject,
+Указывает тему исходного сообщения. Область: Общие свойства сообщения Каноническое имя: PidTagOriginalSubject Альтернативные имена: PR_ORIGINAL_SUBJECT, PR_ORIGINAL_SUBJECT_A, ptagOriginalSubject,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSubject;

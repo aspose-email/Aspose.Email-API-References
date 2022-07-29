@@ -1,14 +1,14 @@
 ---
 title: JunkPhishingEnableLinks
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает следует ли игнорировать штамп фишинга в сообщении. ОбластьСпам Каноническое имяPidTagJunkPhishingEnableLinks Альтернативные именаPR_JUNK_PHISHING_ENABLE_LINKS
+description: Указывает следует ли игнорировать штамп фишинга в сообщении. Область Spam Каноническое имя PidTagJunkPhishingEnableLinks Альтернативные имена PR_JUNK_PHISHING_ENABLE_LINKS
 type: docs
 weight: 11900
 url: /ru/net/aspose.email.mapi/knownpropertylist/junkphishingenablelinks/
 ---
 ## KnownPropertyList.JunkPhishingEnableLinks field
 
-Указывает, следует ли игнорировать штамп фишинга в сообщении. Область:Спам Каноническое имя:PidTagJunkPhishingEnableLinks Альтернативные имена:PR_JUNK_PHISHING_ENABLE_LINKS
+Указывает, следует ли игнорировать штамп фишинга в сообщении. Область: Spam Каноническое имя: PidTagJunkPhishingEnableLinks Альтернативные имена: PR_JUNK_PHISHING_ENABLE_LINKS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor JunkPhishingEnableLinks;

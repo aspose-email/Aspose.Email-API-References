@@ -1,14 +1,14 @@
 ---
 title: StopMonitoring
 second_title: Справочник по Aspose.Email для .NET API
-description: Останавливает мониторинг изменений сообщений для указанной папки.
+description: Прекращает отслеживать изменения сообщений для указанной папки.
 type: docs
 weight: 1190
 url: /ru/net/aspose.email.clients.imap/imapclient/stopmonitoring/
 ---
 ## StopMonitoring(string) {#stopmonitoring_1}
 
-Останавливает мониторинг изменений сообщений для указанной папки.
+Прекращает отслеживать изменения сообщений для указанной папки.
 
 ```csharp
 public void StopMonitoring(string folderName)
@@ -16,7 +16,7 @@ public void StopMonitoring(string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | указанная папка для операции мониторинга |
+| folderName | String | указанная папка для мониторинга работы |
 
 ### Смотрите также
 

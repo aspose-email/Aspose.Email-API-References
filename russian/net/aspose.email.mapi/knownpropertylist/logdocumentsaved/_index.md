@@ -1,14 +1,14 @@
 ---
 title: LogDocumentSaved
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает был ли документ сохранен во время ведения журнала. ОбластьЖурнал Каноническое имяPidLidLogDocumentSaved Альтернативные именаdispidLogDocSaved
+description: Указывает был ли документ сохранен во время ведения журнала. Область Journal Каноническое имя PidLidLogDocumentSaved Альтернативные имена dispidLogDocSaved
 type: docs
 weight: 12240
 url: /ru/net/aspose.email.mapi/knownpropertylist/logdocumentsaved/
 ---
 ## KnownPropertyList.LogDocumentSaved field
 
-Указывает, был ли документ сохранен во время ведения журнала. Область:Журнал Каноническое имя:PidLidLogDocumentSaved Альтернативные имена:dispidLogDocSaved
+Указывает, был ли документ сохранен во время ведения журнала. Область: Journal Каноническое имя: PidLidLogDocumentSaved Альтернативные имена: dispidLogDocSaved
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogDocumentSaved;

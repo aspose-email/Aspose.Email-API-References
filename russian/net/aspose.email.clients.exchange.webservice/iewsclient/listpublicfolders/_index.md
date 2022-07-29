@@ -16,7 +16,7 @@ public ExchangeFolderInfoCollection ListPublicFolders()
 
 ### Возвращаемое значение
 
-[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection), который содержит подпапки из корневой общей папки
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) который содержит подпапки из корневой общей папки
 
 ### Смотрите также
 

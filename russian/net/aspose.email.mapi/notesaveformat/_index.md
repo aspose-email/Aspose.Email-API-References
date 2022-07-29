@@ -1,14 +1,14 @@
 ---
 title: NoteSaveFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет NoteSaveFormat
+description: перечисляет NoteSaveFormat
 type: docs
-weight: 18910
+weight: 18940
 url: /ru/net/aspose.email.mapi/notesaveformat/
 ---
 ## NoteSaveFormat enumeration
 
-Перечисляет NoteSaveFormat
+перечисляет NoteSaveFormat
 
 ```csharp
 public enum NoteSaveFormat

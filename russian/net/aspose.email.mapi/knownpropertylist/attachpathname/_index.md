@@ -1,14 +1,14 @@
 ---
 title: AttachPathname
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя 8.3 свойства PidTagAttachLongPathname раздел 2.587. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachPathname Альтернативные именаPR_ATTACH_PATHNAME PR_ATTACH_PATHNAME_A ptagAttachPathname PR_ATTACH_PATHNAME_W
+description: Содержит имя 8.3 свойства PidTagAttachLongPathname раздел 2.587. Область Свойства вложения сообщения Каноническое имя PidTagAttachPathname Альтернативные имена PR_ATTACH_PATHNAME PR_ATTACH_PATHNAME_A ptagAttachPathname PR_ATTACH_PAxTH_0W_PAxNAME
 type: docs
 weight: 1750
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachpathname/
 ---
 ## KnownPropertyList.AttachPathname field
 
-Содержит имя 8.3 свойства PidTagAttachLongPathname (раздел 2.587). Область:Свойства вложения сообщения Каноническое имя:PidTagAttachPathname Альтернативные имена:PR_ATTACH_PATHNAME, PR_ATTACH_PATHNAME_A, ptagAttachPathname, PR_ATTACH_PATHNAME_W
+Содержит имя 8.3 свойства PidTagAttachLongPathname (раздел 2.587). Область: Свойства вложения сообщения Каноническое имя: PidTagAttachPathname Альтернативные имена: PR_ATTACH_PATHNAME, PR_ATTACH_PATHNAME_A, ptagAttachPathname, PR_ATTACH_PAxTH_0W_PAxNAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachPathname;

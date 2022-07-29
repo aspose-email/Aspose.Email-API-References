@@ -1,14 +1,14 @@
 ---
 title: MonitoringState
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит состояние мониторинга папки. Этот объект можно использовать для возобновления наблюдения за папкой с места  где оно было остановлено при возникновении ошибки. ИспользоватьResumeMonitoringaspose.email.clients.imap/imapclient/resumemonitoringметод.
+description: Содержит состояние мониторинга папки. Этот объект можно использовать для возобновления наблюдения за папкой с места  где оно было остановлено при возникновении ошибки. ИспользованиеResumeMonitoringaspose.email.clients.imap/imapclient/resumemonitoring метод.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/imapmonitoringerroreventargs/monitoringstate/
 ---
 ## ImapMonitoringErrorEventArgs.MonitoringState property
 
-Содержит состояние мониторинга папки. Этот объект можно использовать для возобновления наблюдения за папкой с места , где оно было остановлено при возникновении ошибки. Использовать[`ResumeMonitoring`](../../imapclient/resumemonitoring)метод.
+Содержит состояние мониторинга папки. Этот объект можно использовать для возобновления наблюдения за папкой с места , где оно было остановлено при возникновении ошибки. Использование[`ResumeMonitoring`](../../imapclient/resumemonitoring) метод.
 
 ```csharp
 public IImapMonitoringState MonitoringState { get; }

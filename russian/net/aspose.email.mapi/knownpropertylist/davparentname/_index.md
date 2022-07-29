@@ -1,14 +1,14 @@
 ---
 title: DavParentName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя объекта Папка содержащего объект Календарь. ОбластьОбщие Каноническое имяPidNameDavParentName Альтернативные именаDAVparentname
+description: Указывает имя объекта Папка который содержит объект Календарь. Область Common Каноническое имя PidNameDavParentName Альтернативные имена DAVparentname
 type: docs
 weight: 3670
 url: /ru/net/aspose.email.mapi/knownpropertylist/davparentname/
 ---
 ## KnownPropertyList.DavParentName field
 
-Указывает имя объекта "Папка", содержащего объект "Календарь". Область:Общие Каноническое имя:PidNameDavParentName Альтернативные имена:DAV:parentname
+Указывает имя объекта «Папка», который содержит объект «Календарь». Область: Common Каноническое имя: PidNameDavParentName Альтернативные имена: DAV:parentname
 
 ```csharp
 public static readonly PidNamePropertyDescriptor DavParentName;

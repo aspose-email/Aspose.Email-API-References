@@ -1,14 +1,14 @@
 ---
 title: ParagraphCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество абзацев в файле прикрепленном к объекту Document. ОбластьОбщие Каноническое имяPidNameParagraphCount Альтернативные именаurnschemas-microsoft-comofficeofficeParagraphs
+description: Указывает количество абзацев в файле прикрепленном к объекту Document. Область Common Каноническое имя PidNameParagraphCount Альтернативные имена urnschemas-microsoft-comofficeofficeParagraphs
 type: docs
 weight: 14170
 url: /ru/net/aspose.email.mapi/knownpropertylist/paragraphcount/
 ---
 ## KnownPropertyList.ParagraphCount field
 
-Указывает количество абзацев в файле, прикрепленном к объекту Document. Область:Общие Каноническое имя:PidNameParagraphCount Альтернативные имена:urn:schemas-microsoft-com:office:office#Paragraphs
+Указывает количество абзацев в файле, прикрепленном к объекту Document. Область: Common Каноническое имя: PidNameParagraphCount Альтернативные имена: urn:schemas-microsoft-com:office:office#Paragraphs
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ParagraphCount;

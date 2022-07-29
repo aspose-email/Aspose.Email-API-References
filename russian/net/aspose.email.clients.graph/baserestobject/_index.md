@@ -18,7 +18,7 @@ public abstract class BaseRestObject
 
 | Имя | Описание |
 | --- | --- |
-| [BaseRestObject](baserestobject)(MapiPropertyCollection, PropertyDescriptor[]) | Инициализирует новый экземпляр класса[`FolderInfo`](../folderinfo). |
+| [BaseRestObject](baserestobject)(MapiPropertyCollection, PropertyDescriptor[]) | Инициализирует новый экземпляр[`FolderInfo`](../folderinfo) класс. |
 
 ## Характеристики
 

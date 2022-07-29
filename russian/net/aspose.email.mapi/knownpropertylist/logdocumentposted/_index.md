@@ -1,14 +1,14 @@
 ---
 title: LogDocumentPosted
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает был ли документ отправлен по электронной почте или отправлен в папку сервера во время ведения журнала. ОбластьЖурнал Каноническое имяPidLidLogDocumentPosted Альтернативные именаdispidLogDocPosted
+description: Указывает был ли документ отправлен по электронной почте или размещен в папке сервера во время ведения журнала. Область Journal Каноническое имя PidLidLogDocumentPosted Альтернативные имена dispidLogDocPosted
 type: docs
 weight: 12210
 url: /ru/net/aspose.email.mapi/knownpropertylist/logdocumentposted/
 ---
 ## KnownPropertyList.LogDocumentPosted field
 
-Указывает, был ли документ отправлен по электронной почте или отправлен в папку сервера во время ведения журнала. Область:Журнал Каноническое имя:PidLidLogDocumentPosted Альтернативные имена:dispidLogDocPosted
+Указывает, был ли документ отправлен по электронной почте или размещен в папке сервера во время ведения журнала. Область: Journal Каноническое имя: PidLidLogDocumentPosted Альтернативные имена: dispidLogDocPosted
 
 ```csharp
 public static readonly PidLidPropertyDescriptor LogDocumentPosted;

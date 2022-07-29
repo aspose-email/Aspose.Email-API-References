@@ -1,14 +1,14 @@
 ---
 title: DistributionListName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имя личного списка рассылки. ОбластьСвойства контакта Каноническое имяPidLidDistributionListName Альтернативные именаdispidDLName
+description: Указывает имя личного списка рассылки. Область Свойства контакта Каноническое имя PidLidDistributionListName Альтернативные имена dispidDLName
 type: docs
 weight: 4210
 url: /ru/net/aspose.email.mapi/knownpropertylist/distributionlistname/
 ---
 ## KnownPropertyList.DistributionListName field
 
-Указывает имя личного списка рассылки. Область:Свойства контакта Каноническое имя:PidLidDistributionListName Альтернативные имена:dispidDLName
+Указывает имя личного списка рассылки. Область: Свойства контакта Каноническое имя: PidLidDistributionListName Альтернативные имена: dispidDLName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DistributionListName;

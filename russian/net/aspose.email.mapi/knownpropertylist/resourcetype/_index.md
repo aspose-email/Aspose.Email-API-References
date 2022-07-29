@@ -1,14 +1,14 @@
 ---
 title: ResourceType
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RESOURCE_TYPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RESOURCE_TYPE
 type: docs
 weight: 16180
 url: /ru/net/aspose.email.mapi/knownpropertylist/resourcetype/
 ---
 ## KnownPropertyList.ResourceType field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RESOURCE_TYPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RESOURCE_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ResourceType;

@@ -1,14 +1,14 @@
 ---
 title: AuthId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает идентификатор аутентификации
+description: Получает или задает идентификатор проверки подлинности
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/webhook/authid/
 ---
 ## Webhook.AuthId property
 
-Получает или устанавливает идентификатор аутентификации
+Получает или задает идентификатор проверки подлинности
 
 ```csharp
 public string AuthId { get; set; }

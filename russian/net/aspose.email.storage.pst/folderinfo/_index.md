@@ -3,7 +3,7 @@ title: FolderInfo
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет информацию о личной папке в PST.
 type: docs
-weight: 20110
+weight: 20160
 url: /ru/net/aspose.email.storage.pst/folderinfo/
 ---
 ## FolderInfo class
@@ -18,7 +18,7 @@ public sealed class FolderInfo
 
 | Имя | Описание |
 | --- | --- |
-| [FolderInfo](folderinfo)() | Инициализирует новый экземпляр класса[`FolderInfo`](../folderinfo). |
+| [FolderInfo](folderinfo)() | Инициализирует новый экземпляр[`FolderInfo`](../folderinfo) класс. |
 
 ## Характеристики
 
@@ -53,9 +53,9 @@ public sealed class FolderInfo
 | [DeleteChildItems](../../aspose.email.storage.pst/folderinfo/deletechilditems)(IEnumerable&lt;string&gt;) | Удаляет дочерние сообщения. |
 | [EnumerateFolders](../../aspose.email.storage.pst/folderinfo/enumeratefolders#enumeratefolders)() | Предоставляет перечислитель, который поддерживает итерацию подпапок в папке. |
 | [EnumerateFolders](../../aspose.email.storage.pst/folderinfo/enumeratefolders#enumeratefolders_1)(FolderKind) | Предоставляет перечислитель, который поддерживает итерацию подпапок в папке. |
-| [EnumerateMapiMessages](../../aspose.email.storage.pst/folderinfo/enumeratemapimessages)() | Предоставляет перечислитель, который поддерживает итерацию сообщений в папке. |
-| [EnumerateMessageObjects](../../aspose.email.storage.pst/folderinfo/enumeratemessageobjects)() | Предоставляет перечислитель, который поддерживает итерацию сообщений в папке. |
-| [EnumerateMessages](../../aspose.email.storage.pst/folderinfo/enumeratemessages)() | Предоставляет перечислитель, который поддерживает итерацию сообщений в папке. |
+| [EnumerateMapiMessages](../../aspose.email.storage.pst/folderinfo/enumeratemapimessages)() | Предоставляет перечислитель, поддерживающий итерацию сообщений в папке. |
+| [EnumerateMessageObjects](../../aspose.email.storage.pst/folderinfo/enumeratemessageobjects)() | Предоставляет перечислитель, поддерживающий итерацию сообщений в папке. |
+| [EnumerateMessages](../../aspose.email.storage.pst/folderinfo/enumeratemessages)() | Предоставляет перечислитель, поддерживающий итерацию сообщений в папке. |
 | [EnumerateMessagesEntryId](../../aspose.email.storage.pst/folderinfo/enumeratemessagesentryid)() | Перечисляет entryID сообщений. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents)() | Получить коллекцию сообщений. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_3)(bool) | Получить коллекцию сообщений. |
@@ -63,15 +63,15 @@ public sealed class FolderInfo
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_1)(MessageKind) | Получить коллекцию сообщений. |
 | [GetContents](../../aspose.email.storage.pst/folderinfo/getcontents#getcontents_4)(int, int) | Получает коллекцию сообщений. |
 | [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder#getsubfolder)(string) | Получить подпапку. |
-| [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder#getsubfolder_1)(string, bool) | Получает вложенную папку. |
-| [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders#getsubfolders)() | Получает набор вложенных папок. |
-| [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders#getsubfolders_1)(FolderKind) | Получает набор вложенных папок. |
-| [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders#getsubfolders_2)(MailQuery) | Получает набор вложенных папок. |
-| [MergeWith](../../aspose.email.storage.pst/folderinfo/mergewith#mergewith)(FolderInfo) | Сливает папку с папкой из другого pst. |
-| [MergeWith](../../aspose.email.storage.pst/folderinfo/mergewith#mergewith_1)(FolderInfo, bool) | Сливает папку с папкой из другого pst. Событие OnItemMoved вызывается как для сообщений, так и для каталогов. |
+| [GetSubFolder](../../aspose.email.storage.pst/folderinfo/getsubfolder#getsubfolder_1)(string, bool) | Получает подпапку. |
+| [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders#getsubfolders)() | Получает коллекцию подпапок. |
+| [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders#getsubfolders_1)(FolderKind) | Получает коллекцию подпапок. |
+| [GetSubFolders](../../aspose.email.storage.pst/folderinfo/getsubfolders#getsubfolders_2)(MailQuery) | Получает коллекцию подпапок. |
+| [MergeWith](../../aspose.email.storage.pst/folderinfo/mergewith#mergewith)(FolderInfo) | Объединяет папку с папкой из другого pst. |
+| [MergeWith](../../aspose.email.storage.pst/folderinfo/mergewith#mergewith_1)(FolderInfo, bool) | Объединяет папку с папкой из другого pst. Событие OnItemMoved вызывается как для сообщений, так и для каталогов. |
 | [MoveContents](../../aspose.email.storage.pst/folderinfo/movecontents)(FolderInfo) | Перемещает содержимое в новую папку. |
-| [MoveSubfolders](../../aspose.email.storage.pst/folderinfo/movesubfolders)(FolderInfo) | Перемещает вложенные папки в новую родительскую папку. |
-| [RetrieveFullPath](../../aspose.email.storage.pst/folderinfo/retrievefullpath)() | Получает полный путь к папке в файле PST. |
+| [MoveSubfolders](../../aspose.email.storage.pst/folderinfo/movesubfolders)(FolderInfo) | Перемещает подпапки в новую родительскую папку. |
+| [RetrieveFullPath](../../aspose.email.storage.pst/folderinfo/retrievefullpath)() | Извлекает полный путь к папке в файле PST. |
 | [UpdateMessage](../../aspose.email.storage.pst/folderinfo/updatemessage)(string, MapiMessageItemBase) | Обновляет сообщение в папке. |
 
 ### Смотрите также

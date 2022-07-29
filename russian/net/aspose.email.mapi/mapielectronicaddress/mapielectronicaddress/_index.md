@@ -1,14 +1,14 @@
 ---
 title: MapiElectronicAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiElectronicAddressaspose.email.mapi/mapielectronicaddress.
+description: Инициализирует новый экземплярMapiElectronicAddressaspose.email.mapi/mapielectronicaddress класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapielectronicaddress/mapielectronicaddress/
 ---
 ## MapiElectronicAddress() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiElectronicAddress`](../../mapielectronicaddress).
+Инициализирует новый экземпляр[`MapiElectronicAddress`](../../mapielectronicaddress) класс.
 
 ```csharp
 public MapiElectronicAddress()
@@ -24,7 +24,7 @@ public MapiElectronicAddress()
 
 ## MapiElectronicAddress(string, string, string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`MapiElectronicAddress`](../../mapielectronicaddress).
+Инициализирует новый экземпляр[`MapiElectronicAddress`](../../mapielectronicaddress) класс.
 
 ```csharp
 public MapiElectronicAddress(string displayName, string addressType, string emailAddress)
@@ -46,7 +46,7 @@ public MapiElectronicAddress(string displayName, string addressType, string emai
 
 ## MapiElectronicAddress(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiElectronicAddress`](../../mapielectronicaddress).
+Инициализирует новый экземпляр[`MapiElectronicAddress`](../../mapielectronicaddress) класс.
 
 ```csharp
 public MapiElectronicAddress(string emailAddress)
@@ -66,7 +66,7 @@ public MapiElectronicAddress(string emailAddress)
 
 ## MapiElectronicAddress(string, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MapiElectronicAddress`](../../mapielectronicaddress).
+Инициализирует новый экземпляр[`MapiElectronicAddress`](../../mapielectronicaddress) класс.
 
 ```csharp
 public MapiElectronicAddress(string faxNumber, string emailAddress)

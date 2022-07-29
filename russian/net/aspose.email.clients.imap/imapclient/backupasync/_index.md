@@ -17,7 +17,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к server |
+| connection | IConnection | Подключение к серверу |
 | folders | ImapFolderInfoCollection | Папки для резервного копирования |
 | fileName | String | Путь к файлу личного хранилища |
 | options | BackupSettings | Параметры резервного копирования |
@@ -48,7 +48,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к server |
+| connection | IConnection | Подключение к серверу |
 | folders | ImapFolderInfoCollection | Папки для резервного копирования |
 | stream | Stream | Поток для записи |
 | options | BackupSettings | Параметры резервного копирования |
@@ -78,7 +78,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, string fileName, Backu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ImapFolderInfoCollection | Папки в backup |
+| folders | ImapFolderInfoCollection | Папки для резервного копирования |
 | fileName | String | Путь к файлу личного хранилища |
 | options | BackupSettings | Параметры резервного копирования |
 
@@ -106,8 +106,8 @@ public Task BackupAsync(ImapFolderInfoCollection folders, Stream stream, BackupS
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ImapFolderInfoCollection | Папки в backup |
-| stream | Stream | Поток для записи в |
+| folders | ImapFolderInfoCollection | Папки для резервного копирования |
+| stream | Stream | Поток для записи |
 | options | BackupSettings | Параметры резервного копирования |
 
 ### Возвращаемое значение
@@ -135,7 +135,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к server |
+| connection | IConnection | Подключение к серверу |
 | folders | ImapFolderInfoCollection | Папки для резервного копирования |
 | fileName | String | Путь к файлу личного хранилища |
 | options | BackupSettings | Параметры резервного копирования |
@@ -167,7 +167,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к server |
+| connection | IConnection | Подключение к серверу |
 | folders | ImapFolderInfoCollection | Папки для резервного копирования |
 | stream | Stream | Поток для записи |
 | options | BackupSettings | Параметры резервного копирования |
@@ -199,7 +199,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, string fileName, Backu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ImapFolderInfoCollection | Папки в backup |
+| folders | ImapFolderInfoCollection | Папки для резервного копирования |
 | fileName | String | Путь к файлу личного хранилища |
 | options | BackupSettings | Параметры резервного копирования |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -229,8 +229,8 @@ public Task BackupAsync(ImapFolderInfoCollection folders, Stream stream, BackupS
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ImapFolderInfoCollection | Папки в backup |
-| stream | Stream | Поток для записи в |
+| folders | ImapFolderInfoCollection | Папки для резервного копирования |
+| stream | Stream | Поток для записи |
 | options | BackupSettings | Параметры резервного копирования |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

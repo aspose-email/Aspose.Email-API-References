@@ -1,14 +1,14 @@
 ---
 title: AddressBookMember
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит членов списка рассылки. ОбластьАдресная книга Каноническое имяPidTagAddressBookMember Альтернативные именаPR_EMS_AB_MEMBER PR_EMS_AB_MEMBER_A PR_EMS_AB_MEMBER_W
+description: Содержит членов списка рассылки. Область Адресная книга Каноническое имя PidTagAddressBookMember Альтернативные имена PR_EMS_AB_MEMBER PR_EMS_AB_MEMBER_A PR_EMS_AB_MEMBER_W
 type: docs
 weight: 730
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookmember/
 ---
 ## KnownPropertyList.AddressBookMember field
 
-Содержит членов списка рассылки. Область:Адресная книга Каноническое имя:PidTagAddressBookMember Альтернативные имена:PR_EMS_AB_MEMBER, PR_EMS_AB_MEMBER_A, PR_EMS_AB_MEMBER_W
+Содержит членов списка рассылки. Область: Адресная книга Каноническое имя: PidTagAddressBookMember Альтернативные имена: PR_EMS_AB_MEMBER, PR_EMS_AB_MEMBER_A, PR_EMS_AB_MEMBER_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookMember;

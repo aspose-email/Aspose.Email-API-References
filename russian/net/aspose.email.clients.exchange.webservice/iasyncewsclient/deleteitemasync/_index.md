@@ -17,9 +17,9 @@ public Task DeleteItemAsync(string itemUri, DeletionOptions options,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemUri | String | Элемент uri |
+| itemUri | String | URI элемента |
 | options | DeletionOptions | Определяет параметры для удаления элемента |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Смотрите также
 

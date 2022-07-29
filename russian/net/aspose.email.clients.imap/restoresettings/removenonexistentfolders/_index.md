@@ -1,14 +1,14 @@
 ---
 title: RemoveNonexistentFolders
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что почтовые папки не имеющие одинаковых папок в личном хранилище должны быть удалены
+description: Указывает что почтовые папки не имеющие аналогов в личном хранилище должны быть удалены
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.imap/restoresettings/removenonexistentfolders/
 ---
 ## RestoreSettings.RemoveNonexistentFolders property
 
-Указывает, что почтовые папки, не имеющие одинаковых папок в личном хранилище, должны быть удалены
+Указывает, что почтовые папки, не имеющие аналогов в личном хранилище, должны быть удалены
 
 ```csharp
 public bool RemoveNonexistentFolders { get; set; }

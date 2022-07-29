@@ -1,14 +1,14 @@
 ---
 title: Url
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает URL-адрес
+description: Получает или задает URL
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo.vcard/vcardurl/url/
 ---
 ## VCardUrl.Url property
 
-Получает или устанавливает URL-адрес
+Получает или задает URL
 
 ```csharp
 public string Url { get; set; }

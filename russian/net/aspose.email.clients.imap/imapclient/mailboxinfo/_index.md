@@ -1,14 +1,14 @@
 ---
 title: MailboxInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает набор почтовых ящиков специального назначения Подробнееhttp//tools.ietf.org/html/rfc6154 и https// tools.ietf.org/html/rfc8457
+description: Получает набор почтовых ящиков специального назначения Подробнее см. http//tools.ietf.org/html/rfc6154 и https//tools.ietf.org/html/rfc8457
 type: docs
 weight: 180
 url: /ru/net/aspose.email.clients.imap/imapclient/mailboxinfo/
 ---
 ## ImapClient.MailboxInfo property
 
-Получает набор почтовых ящиков специального назначения Подробнее:http://tools.ietf.org/html/rfc6154 и https:// tools.ietf.org/html/rfc8457
+Получает набор почтовых ящиков специального назначения Подробнее см.: http://tools.ietf.org/html/rfc6154 и https://tools.ietf.org/html/rfc8457
 
 ```csharp
 public ImapMailboxInfo MailboxInfo { get; }

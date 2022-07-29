@@ -1,14 +1,14 @@
 ---
 title: AttachLongPathname
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит полный путь и имя файла с расширением. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachLongPathname Альтернативные именаPR_ATTACH_LONG_PATHNAME PR_ATTACH_LONG_PATHNAME_A ptagAttachLongPathname PR_ATTACH_LONG_PATHNAME_W
+description: Содержит полный путь и имя файла с расширением. Область Свойства вложения сообщения Каноническое имя PidTagAttachLongPathname Альтернативные имена PR_ATTACH_LONG_PATHNAME PR_ATTACH_LONG_PATHNAME_A ptagAttachLongPathname PR_ATTACH_LONG_x0NAME_0d_0d
 type: docs
 weight: 1620
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachlongpathname/
 ---
 ## KnownPropertyList.AttachLongPathname field
 
-Содержит полный путь и имя файла с расширением. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachLongPathname Альтернативные имена:PR_ATTACH_LONG_PATHNAME, PR_ATTACH_LONG_PATHNAME_A, ptagAttachLongPathname, PR_ATTACH_LONG_PATHNAME_W
+Содержит полный путь и имя файла с расширением. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachLongPathname Альтернативные имена: PR_ATTACH_LONG_PATHNAME, PR_ATTACH_LONG_PATHNAME_A, ptagAttachLongPathname, PR_ATTACH_LONG_x0NAME_0d_0d
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachLongPathname;

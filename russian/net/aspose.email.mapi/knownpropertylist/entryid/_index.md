@@ -1,14 +1,14 @@
 ---
 title: EntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию для идентификации многих различных типов объектов обмена сообщениями. ОбластьСвойства ID Каноническое имяPidTagEntryId Альтернативные именаPR_ENTRYID ptagEntryId
+description: Содержит информацию для идентификации различных типов объектов обмена сообщениями. Область ID Properties Каноническое имя PidTagEntryId Альтернативные имена PR_ENTRYID ptagEntryId
 type: docs
 weight: 9760
 url: /ru/net/aspose.email.mapi/knownpropertylist/entryid/
 ---
 ## KnownPropertyList.EntryId field
 
-Содержит информацию для идентификации многих различных типов объектов обмена сообщениями. Область:Свойства ID Каноническое имя:PidTagEntryId Альтернативные имена:PR_ENTRYID, ptagEntryId
+Содержит информацию для идентификации различных типов объектов обмена сообщениями. Область: ID Properties Каноническое имя: PidTagEntryId Альтернативные имена: PR_ENTRYID, ptagEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EntryId;

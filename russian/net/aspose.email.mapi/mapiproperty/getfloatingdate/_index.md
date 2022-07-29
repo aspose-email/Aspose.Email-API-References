@@ -1,14 +1,14 @@
 ---
 title: GetFloatingDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает байты двоичных данных в формате DateTime.
+description: Получает байты двоичных данных как DateTime.
 type: docs
 weight: 200
 url: /ru/net/aspose.email.mapi/mapiproperty/getfloatingdate/
 ---
 ## MapiProperty.GetFloatingDate method
 
-Получает байты двоичных данных в формате DateTime.
+Получает байты двоичных данных как DateTime.
 
 ```csharp
 public virtual DateTime GetFloatingDate()
@@ -16,7 +16,7 @@ public virtual DateTime GetFloatingDate()
 
 ### Возвращаемое значение
 
-Значение DateTime.
+Значение даты и времени.
 
 ### Смотрите также
 

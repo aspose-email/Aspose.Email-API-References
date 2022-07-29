@@ -16,17 +16,17 @@ public static FollowUpOptions GetOptions(MapiMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | The[`MapiMessage`](../../mapimessage)в котором установлены параметры. |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в каких опциях установлено. |
 
 ### Возвращаемое значение
 
-[`FollowUpOptions`](../../followupoptions)который представляет варианты использования флажков отслеживания, напоминаний, категорий и кнопок голосования.
+[`FollowUpOptions`](../../followupoptions) который представляет варианты использования флажков последующих действий, напоминаний, категорий и кнопок голосования.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
+| ArgumentNullException | Если*message* нулевой. |
 
 ### Смотрите также
 

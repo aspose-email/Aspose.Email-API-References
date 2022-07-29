@@ -1,14 +1,14 @@
 ---
 title: ImapQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаImapQueryBuilderaspose.email.clients.imap/imapquerybuilder.
+description: Инициализирует новый экземплярImapQueryBuilderaspose.email.clients.imap/imapquerybuilder класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/imapquerybuilder/imapquerybuilder/
 ---
 ## ImapQueryBuilder(Encoding) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ImapQueryBuilder`](../../imapquerybuilder).
+Инициализирует новый экземпляр[`ImapQueryBuilder`](../../imapquerybuilder) класс.
 
 ```csharp
 public ImapQueryBuilder(Encoding defaultEncoding)
@@ -28,7 +28,7 @@ public ImapQueryBuilder(Encoding defaultEncoding)
 
 ## ImapQueryBuilder() {#constructor}
 
-Инициализирует новый экземпляр класса[`ImapQueryBuilder`](../../imapquerybuilder).
+Инициализирует новый экземпляр[`ImapQueryBuilder`](../../imapquerybuilder) класс.
 
 ```csharp
 public ImapQueryBuilder()

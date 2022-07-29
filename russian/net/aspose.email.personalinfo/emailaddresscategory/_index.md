@@ -3,7 +3,7 @@ title: EmailAddressCategory
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет категорию для адреса электронной почты
 type: docs
-weight: 19340
+weight: 19370
 url: /ru/net/aspose.email.personalinfo/emailaddresscategory/
 ---
 ## EmailAddressCategory class
@@ -18,18 +18,18 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 
 | Имя | Описание |
 | --- | --- |
-| [EmailAddressCategory](emailaddresscategory)(string) | Инициализирует новый экземпляр класса[`EmailAddressCategory`](../emailaddresscategory)с категорией Custom. |
+| [EmailAddressCategory](emailaddresscategory)(string) | Инициализирует новый экземпляр[`EmailAddressCategory`](../emailaddresscategory) класс с категорией «Пользовательский». |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | static [Custom](../../aspose.email.personalinfo/emailaddresscategory/custom) { get; } | Пользовательская категория |
-| static [Email1](../../aspose.email.personalinfo/emailaddresscategory/email1) { get; } | Категория Email1. Используется сервером MS Exchange. |
-| static [Email2](../../aspose.email.personalinfo/emailaddresscategory/email2) { get; } | Категория Email2. Используется сервером MS Exchange. |
-| static [Email3](../../aspose.email.personalinfo/emailaddresscategory/email3) { get; } | Категория Email3. Используется сервером MS Exchange. |
+| static [Email1](../../aspose.email.personalinfo/emailaddresscategory/email1) { get; } | Категория электронной почты 1. Используется сервером MS Exchange. |
+| static [Email2](../../aspose.email.personalinfo/emailaddresscategory/email2) { get; } | Категория электронной почты2. Используется сервером MS Exchange. |
+| static [Email3](../../aspose.email.personalinfo/emailaddresscategory/email3) { get; } | Категория электронной почты3. Используется сервером MS Exchange. |
 | static [Home](../../aspose.email.personalinfo/emailaddresscategory/home) { get; } | Домашняя категория |
-| static [Work](../../aspose.email.personalinfo/emailaddresscategory/work) { get; } | Категория работы |
+| static [Work](../../aspose.email.personalinfo/emailaddresscategory/work) { get; } | Рабочая категория |
 | [Description](../../aspose.email.personalinfo/emailaddresscategory/description) { get; } | Получает описание для категории «Пользовательский» адреса электронной почты |
 | [Value](../../aspose.email.personalinfo/emailaddresscategory/value) { get; } | Получает категорию адреса электронной почты |
 
@@ -49,11 +49,11 @@ public class EmailAddressCategory : IEquatable<EmailAddressCategory>
 | Имя | Описание |
 | --- | --- |
 | const [CustomValue](../../aspose.email.personalinfo/emailaddresscategory/customvalue) | Строковое значение для категории "Пользовательский" |
-| const [Email1Value](../../aspose.email.personalinfo/emailaddresscategory/email1value) | Строковое значение для категории 'Email1' |
-| const [Email2Value](../../aspose.email.personalinfo/emailaddresscategory/email2value) | Строковое значение для категории 'Email2' |
-| const [Email3Value](../../aspose.email.personalinfo/emailaddresscategory/email3value) | Строковое значение для категории 'Email3' |
-| const [HomeValue](../../aspose.email.personalinfo/emailaddresscategory/homevalue) | Строковое значение для категории «Дом» |
-| const [WorkValue](../../aspose.email.personalinfo/emailaddresscategory/workvalue) | Строковое значение для категории «Работа» |
+| const [Email1Value](../../aspose.email.personalinfo/emailaddresscategory/email1value) | Строковое значение для категории "Email1" |
+| const [Email2Value](../../aspose.email.personalinfo/emailaddresscategory/email2value) | Строковое значение для категории "Email2" |
+| const [Email3Value](../../aspose.email.personalinfo/emailaddresscategory/email3value) | Строковое значение для категории "Email3" |
+| const [HomeValue](../../aspose.email.personalinfo/emailaddresscategory/homevalue) | Строковое значение для категории "Главная" |
+| const [WorkValue](../../aspose.email.personalinfo/emailaddresscategory/workvalue) | Строковое значение для категории "Работа" |
 
 ### Смотрите также
 

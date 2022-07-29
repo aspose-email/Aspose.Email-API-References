@@ -1,14 +1,14 @@
 ---
 title: TelecommunicationsDeviceForDeafTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит телекоммуникационное устройство пользователя почты для телефонного номера глухих TTY/TDD. ОбластьMapiMailUser Каноническое имяPidTagTagTe CommunicationsDeviceForDeafTelephoneNumber Альтернативные именаPR_TTYTDD_PHONE_NUMBER PR_TTYTDD_PHONE_NUMBER_A
+description: Содержит телекоммуникационное устройство пользователя почты для номера телефона глухих TTY/TDD. Область MapiMailUser Каноническое имя PidTagTagTecommunicationDeviceForDeafTelephoneNumber Альтернативные имена PR_TTYTDD_PHONE_NUMBER PR_TTYTDD_PHONE_NUMBER_A
 type: docs
 weight: 18880
 url: /ru/net/aspose.email.mapi/knownpropertylist/telecommunicationsdevicefordeaftelephonenumber/
 ---
 ## KnownPropertyList.TelecommunicationsDeviceForDeafTelephoneNumber field
 
-Содержит телекоммуникационное устройство пользователя почты для телефонного номера глухих (TTY/TDD). Область:MapiMailUser Каноническое имя:PidTagTagTe CommunicationsDeviceForDeafTelephoneNumber Альтернативные имена:PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A,
+Содержит телекоммуникационное устройство пользователя почты для номера телефона глухих (TTY/TDD). Область: MapiMailUser Каноническое имя: PidTagTagTecommunicationDeviceForDeafTelephoneNumber Альтернативные имена: PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TelecommunicationsDeviceForDeafTelephoneNumber;

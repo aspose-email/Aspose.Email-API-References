@@ -20,7 +20,7 @@ public MailQuery HasNoFlags(ExchangeMessageFlag flags)
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос (один критерий поиска).
+[`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос (один критерий поиска).
 
 ### Смотрите также
 

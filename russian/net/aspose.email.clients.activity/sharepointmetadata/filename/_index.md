@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя пути. ОбязательноДа
+description: Имя пути. Обязательно Да
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/filename/
 ---
 ## SharePointMetadata.FileName property
 
-Имя пути. Обязательно:Да
+Имя пути. Обязательно: Да
 
 ```csharp
 public string FileName { get; set; }

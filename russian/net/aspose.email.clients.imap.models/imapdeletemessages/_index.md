@@ -1,14 +1,14 @@
 ---
 title: ImapDeleteMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: DeleteMessagesAsync../aspose.email.clients.imap/iasyncimapclient/deletemessagesasyncнабор параметров.
+description: DeleteMessagesAsync../aspose.email.clients.imap/iasyncimapclient/deletemessagesasync набор параметров.
 type: docs
 weight: 16560
 url: /ru/net/aspose.email.clients.imap.models/imapdeletemessages/
 ---
 ## ImapDeleteMessages class
 
-[`DeleteMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/deletemessagesasync)набор параметров.
+[`DeleteMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/deletemessagesasync) набор параметров.
 
 ```csharp
 public class ImapDeleteMessages : ImapMessageSet<ImapDeleteMessages>
@@ -18,7 +18,7 @@ public class ImapDeleteMessages : ImapMessageSet<ImapDeleteMessages>
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapdeletemessages/create)() | Создать[`ImapDeleteMessages`](../imapdeletemessages)instance. |
+| static [Create](../../aspose.email.clients.imap.models/imapdeletemessages/create)() | Создать[`ImapDeleteMessages`](../imapdeletemessages) экземпляр. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetCommitNow](../../aspose.email.clients.imap.models/imapdeletemessages/setcommitnow)(bool) | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
@@ -29,7 +29,7 @@ public class ImapDeleteMessages : ImapMessageSet<ImapDeleteMessages>
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages)(IEnumerable&lt;string&gt;) |  |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages)(int, int) |  |
 | [SetMessages](../../aspose.email.clients.imap.models/imapmessageset`1/setmessages)(string, string) |  |
-| [SetModificationSequence](../../aspose.email.clients.imap.models/imapdeletemessages/setmodificationsequence)(long) | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| [SetModificationSequence](../../aspose.email.clients.imap.models/imapdeletemessages/setmodificationsequence)(long) | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 

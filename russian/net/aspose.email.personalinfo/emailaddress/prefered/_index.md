@@ -1,14 +1,14 @@
 ---
 title: Prefered
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает значение определяющее является ли предпочтительным адрес электронной почты.
+description: Получает или задает значение определяющее является ли адрес электронной почты предпочтительным.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo/emailaddress/prefered/
 ---
 ## EmailAddress.Prefered property
 
-Получает или задает значение, определяющее, является ли предпочтительным адрес электронной почты.
+Получает или задает значение, определяющее, является ли адрес электронной почты предпочтительным.
 
 ```csharp
 public bool Prefered { get; set; }

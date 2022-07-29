@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionListMemberCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор объектовMapiDistributionListMember./mapidistributionlistmember.
+description: Представляет наборMapiDistributionListMember./mapidistributionlistmember объекты.
 type: docs
-weight: 18370
+weight: 18400
 url: /ru/net/aspose.email.mapi/mapidistributionlistmembercollection/
 ---
 ## MapiDistributionListMemberCollection class
 
-Представляет набор объектов[`MapiDistributionListMember`](../mapidistributionlistmember).
+Представляет набор[`MapiDistributionListMember`](../mapidistributionlistmember) объекты.
 
 ```csharp
 public sealed class MapiDistributionListMemberCollection : List<MapiDistributionListMember>

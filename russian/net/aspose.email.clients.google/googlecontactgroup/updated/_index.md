@@ -1,14 +1,14 @@
 ---
 title: Updated
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает дату указывающую самый последний момент времени когда запись группы была изменена
+description: Получает дату указывающую самый последний момент времени time  когда запись группы была изменена
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.google/googlecontactgroup/updated/
 ---
 ## GoogleContactGroup.Updated property
 
-Получает дату, указывающую самый последний момент времени когда запись группы была изменена
+Получает дату, указывающую самый последний момент времени time , когда запись группы была изменена
 
 ```csharp
 public DateTime Updated { get; }

@@ -1,14 +1,14 @@
 ---
 title: QresyncSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение QRESYNC Подробнееhttps//tools.ietf.org/html/rfc7162
+description: Получает информацию о том поддерживается ли расширение QRESYNC Подробнее https//tools.ietf.org/html/rfc7162
 type: docs
 weight: 210
 url: /ru/net/aspose.email.clients.imap/imapclient/qresyncsupported/
 ---
 ## ImapClient.QresyncSupported property
 
-Получает информацию о том, поддерживается ли расширение QRESYNC Подробнее:https://tools.ietf.org/html/rfc7162
+Получает информацию о том, поддерживается ли расширение QRESYNC Подробнее: https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public bool QresyncSupported { get; set; }

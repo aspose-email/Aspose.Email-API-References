@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Выполняет неявное преобразование изInt64вImapMessageFlagsaspose.email.clients.imap/imapmessageflags.
+description: Выполняет неявное преобразование изInt64 кImapMessageFlagsaspose.email.clients.imap/imapmessageflags .
 type: docs
 weight: 200
 url: /ru/net/aspose.email.clients.imap/imapmessageflags/op_implicit/
 ---
 ## ImapMessageFlags Implicit operator
 
-Выполняет неявное преобразование изInt64в[`ImapMessageFlags`](../../imapmessageflags).
+Выполняет неявное преобразование изInt64 к[`ImapMessageFlags`](../../imapmessageflags) .
 
 ```csharp
 public static implicit operator ImapMessageFlags(string type)

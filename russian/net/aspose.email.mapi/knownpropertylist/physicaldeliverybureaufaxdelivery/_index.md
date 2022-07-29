@@ -1,14 +1,14 @@
 ---
 title: PhysicalDeliveryBureauFaxDelivery
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY
 type: docs
 weight: 14270
 url: /ru/net/aspose.email.mapi/knownpropertylist/physicaldeliverybureaufaxdelivery/
 ---
 ## KnownPropertyList.PhysicalDeliveryBureauFaxDelivery field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PhysicalDeliveryBureauFaxDelivery;

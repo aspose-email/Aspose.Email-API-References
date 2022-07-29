@@ -1,14 +1,14 @@
 ---
 title: MemberId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный идентификатор который сервер обмена сообщениями генерирует для каждого пользователя. ОбластьСвойства контроля доступа Каноническое имяPidTagMemberId Альтернативные именаPR_MEMBER_ID ptagMemberId
+description: Содержит уникальный идентификатор который сервер обмена сообщениями генерирует для каждого пользователя. Область Свойства управления доступом Каноническое имя PidTagMemberId Альтернативные имена PR_MEMBER_ID ptagMemberId
 type: docs
 weight: 12420
 url: /ru/net/aspose.email.mapi/knownpropertylist/memberid/
 ---
 ## KnownPropertyList.MemberId field
 
-Содержит уникальный идентификатор, который сервер обмена сообщениями генерирует для каждого пользователя. Область:Свойства контроля доступа Каноническое имя:PidTagMemberId Альтернативные имена:PR_MEMBER_ID, ptagMemberId
+Содержит уникальный идентификатор, который сервер обмена сообщениями генерирует для каждого пользователя. Область: Свойства управления доступом Каноническое имя: PidTagMemberId Альтернативные имена: PR_MEMBER_ID, ptagMemberId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MemberId;

@@ -17,7 +17,7 @@ public MapiMessage CreateMessage(string folderId, MapiMessage message)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folderId | String | Идентификатор родительской папки |
-| message | MapiMessage | Сообщение Mapi для создания |
+| message | MapiMessage | Сообщение Mapi, которое будет создано |
 
 ### Возвращаемое значение
 

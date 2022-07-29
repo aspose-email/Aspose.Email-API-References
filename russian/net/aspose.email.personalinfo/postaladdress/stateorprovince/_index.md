@@ -1,14 +1,14 @@
 ---
 title: StateOrProvince
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает регион
+description: Получает или задает регион
 type: docs
 weight: 110
 url: /ru/net/aspose.email.personalinfo/postaladdress/stateorprovince/
 ---
 ## PostalAddress.StateOrProvince property
 
-Получает или устанавливает регион
+Получает или задает регион
 
 ```csharp
 public string StateOrProvince { get; set; }

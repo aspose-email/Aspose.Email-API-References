@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaPrevRemoteEntriesO
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_O
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_O
 type: docs
 weight: 5860
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxaprevremoteentrieso/
 ---
 ## KnownPropertyList.EmsAbDxaPrevRemoteEntriesO field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_O
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_PREV_REMOTE_ENTRIES_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaPrevRemoteEntriesO;

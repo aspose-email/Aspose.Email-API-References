@@ -1,14 +1,14 @@
 ---
 title: EmsAbLdapSearchCfg
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_LDAP_SEARCH_CFG
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_LDAP_SEARCH_CFG
 type: docs
 weight: 7010
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabldapsearchcfg/
 ---
 ## KnownPropertyList.EmsAbLdapSearchCfg field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_LDAP_SEARCH_CFG
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_LDAP_SEARCH_CFG
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbLdapSearchCfg;

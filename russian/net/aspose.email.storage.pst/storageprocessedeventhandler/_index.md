@@ -1,14 +1,14 @@
 ---
 title: StorageProcessedEventHandler
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет метод который будет обрабатывать событиеStorageProcessed./personalstorage/storageprocessed.
+description: Представляет метод который будет обрабатыватьStorageProcessed./personalstorage/storageprocessed событие.
 type: docs
-weight: 20320
+weight: 20370
 url: /ru/net/aspose.email.storage.pst/storageprocessedeventhandler/
 ---
 ## StorageProcessedEventHandler delegate
 
-Представляет метод, который будет обрабатывать событие[`StorageProcessed`](../personalstorage/storageprocessed).
+Представляет метод, который будет обрабатывать[`StorageProcessed`](../personalstorage/storageprocessed) событие.
 
 ```csharp
 public delegate void StorageProcessedEventHandler(object sender, StorageProcessedEventArgs e);

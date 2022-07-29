@@ -16,13 +16,13 @@ public static void ClearVotingButtons(MapiMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | Сообщение[`MapiMessage`](../../mapimessage)в котором категории будут очищены . |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором категории будут очищены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
+| ArgumentNullException | Если*message* нулевой. |
 
 ### Смотрите также
 

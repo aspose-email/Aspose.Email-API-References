@@ -1,14 +1,14 @@
 ---
 title: FolderType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип папки включающей корневую папку общую папку и папку поиска. ОбластьMapiContainer Каноническое имяPidTagFolderType Альтернативные именаPR_FOLDER_TYPE ptagFolderType
+description: Указывает тип папки которая включает корневую папку общую папку и папку поиска. Область MapiContainer Каноническое имя PidTagFolderType Альтернативные имена PR_FOLDER_TYPE ptagFolderType
 type: docs
 weight: 10450
 url: /ru/net/aspose.email.mapi/knownpropertylist/foldertype/
 ---
 ## KnownPropertyList.FolderType field
 
-Указывает тип папки, включающей корневую папку, общую папку и папку поиска. Область:MapiContainer Каноническое имя:PidTagFolderType Альтернативные имена:PR_FOLDER_TYPE, ptagFolderType
+Указывает тип папки, которая включает корневую папку, общую папку и папку поиска. Область: MapiContainer Каноническое имя: PidTagFolderType Альтернативные имена: PR_FOLDER_TYPE, ptagFolderType
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderType;

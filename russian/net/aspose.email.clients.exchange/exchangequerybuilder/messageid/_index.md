@@ -16,7 +16,7 @@ public StringComparisonField MessageId { get; }
 
 ### Стоимость имущества
 
-[`DateComparisonField`](../../../aspose.email.tools.search/datecomparisonfield)представляет поле поиска MessageId.
+[`DateComparisonField`](../../../aspose.email.tools.search/datecomparisonfield) который представляет поле поиска MessageId.
 
 ### Смотрите также
 

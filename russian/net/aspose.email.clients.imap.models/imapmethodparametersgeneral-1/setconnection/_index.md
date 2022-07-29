@@ -1,14 +1,14 @@
 ---
 title: SetConnection
 second_title: Справочник по Aspose.Email для .NET API
-description: Подключение к серверу опционально.
+description: Подключение к серверу необязательно.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap.models/imapmethodparametersgeneral-1/setconnection/
 ---
 ## ImapMethodParametersGeneral&lt;T&gt;.SetConnection method
 
-Подключение к серверу (опционально).
+Подключение к серверу (необязательно).
 
 ```csharp
 public T SetConnection(IConnection connection)

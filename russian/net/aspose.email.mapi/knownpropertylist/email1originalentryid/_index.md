@@ -1,14 +1,14 @@
 ---
 title: Email1OriginalEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает EntryID объекта соответствующего этому электронному адресу. ОбластьСвойства контакта Каноническое имяPidLidEmail1OriginalEntryId Альтернативные именаdispidEmail1OriginalEntryID
+description: Указывает EntryID объекта соответствующего этому электронному адресу. Область Свойства контакта Каноническое имя PidLidEmail1OriginalEntryId Альтернативные имена dispidEmail1OriginalEntryID
 type: docs
 weight: 4360
 url: /ru/net/aspose.email.mapi/knownpropertylist/email1originalentryid/
 ---
 ## KnownPropertyList.Email1OriginalEntryId field
 
-Задает EntryID объекта, соответствующего этому электронному адресу. Область:Свойства контакта Каноническое имя:PidLidEmail1OriginalEntryId Альтернативные имена:dispidEmail1OriginalEntryID
+Указывает EntryID объекта, соответствующего этому электронному адресу. Область: Свойства контакта Каноническое имя: PidLidEmail1OriginalEntryId Альтернативные имена: dispidEmail1OriginalEntryID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Email1OriginalEntryId;

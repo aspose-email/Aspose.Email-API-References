@@ -1,14 +1,14 @@
 ---
 title: EmsAbExtensionData
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_EXTENSION_DATA
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_EXTENSION_DATA
 type: docs
 weight: 6250
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabextensiondata/
 ---
 ## KnownPropertyList.EmsAbExtensionData field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_EXTENSION_DATA
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_EXTENSION_DATA
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbExtensionData;

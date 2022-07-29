@@ -1,14 +1,14 @@
 ---
 title: BaseRestObject
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFolderInfoaspose.email.clients.graph/folderinfo.
+description: Инициализирует новый экземплярFolderInfoaspose.email.clients.graph/folderinfo класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.graph/baserestobject/baserestobject/
 ---
 ## BaseRestObject constructor
 
-Инициализирует новый экземпляр класса[`FolderInfo`](../../folderinfo).
+Инициализирует новый экземпляр[`FolderInfo`](../../folderinfo) класс.
 
 ```csharp
 public BaseRestObject(MapiPropertyCollection properties, PropertyDescriptor[] explicitProperties)
@@ -17,7 +17,7 @@ public BaseRestObject(MapiPropertyCollection properties, PropertyDescriptor[] ex
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | properties | MapiPropertyCollection | MapiProperties для этой папки |
-| explicitProperties | PropertyDescriptor[] | Содержит перечисление Свойства MAPI, которые передаются как явные свойства объекта |
+| explicitProperties | PropertyDescriptor[] | Содержит перечисление свойств MAPI, которые передаются как явные свойства объекта. |
 
 ### Смотрите также
 

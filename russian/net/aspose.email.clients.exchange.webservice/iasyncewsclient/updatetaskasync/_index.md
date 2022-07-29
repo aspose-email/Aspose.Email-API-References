@@ -16,8 +16,8 @@ public Task UpdateTaskAsync(ExchangeTask task, CancellationToken cancellationTok
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | ExchangeTask | An[`ExchangeTask`](../../exchangetask)содержащий задачу Информация. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| task | ExchangeTask | Ан[`ExchangeTask`](../../exchangetask) содержащие информацию о задании. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Смотрите также
 

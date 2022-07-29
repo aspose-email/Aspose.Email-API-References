@@ -1,14 +1,14 @@
 ---
 title: AppointmentStartDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату начала встречи. ОбластьКалендарь Каноническое имяPidLidAppointmentStartDate Альтернативные именаdispidApptStartDate
+description: Определяет дату начала встречи. Область Calendar Каноническое имя PidLidAppointmentStartDate Альтернативные имена dispidApptStartDate
 type: docs
 weight: 1300
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentstartdate/
 ---
 ## KnownPropertyList.AppointmentStartDate field
 
-Указывает дату начала встречи. Область:Календарь Каноническое имя:PidLidAppointmentStartDate Альтернативные имена:dispidApptStartDate
+Определяет дату начала встречи. Область: Calendar Каноническое имя: PidLidAppointmentStartDate Альтернативные имена: dispidApptStartDate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentStartDate;

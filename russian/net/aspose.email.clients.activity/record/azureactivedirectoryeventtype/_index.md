@@ -1,14 +1,14 @@
 ---
 title: AzureActiveDirectoryEventType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип события Azure AD. ОбязательноДа
+description: Получает или задает тип события Azure AD. Обязательно Yes
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activity/record/azureactivedirectoryeventtype/
 ---
 ## Record.AzureActiveDirectoryEventType property
 
-Получает или задает тип события Azure AD. Обязательно:Да
+Получает или задает тип события Azure AD. Обязательно: Yes
 
 ```csharp
 public ActivityAzureActiveDirectoryEventType AzureActiveDirectoryEventType { get; set; }

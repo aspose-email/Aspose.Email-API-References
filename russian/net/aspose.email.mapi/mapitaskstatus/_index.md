@@ -3,7 +3,7 @@ title: MapiTaskStatus
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет статусы выполнения пользователем задачи.
 type: docs
-weight: 18720
+weight: 18750
 url: /ru/net/aspose.email.mapi/mapitaskstatus/
 ---
 ## MapiTaskStatus enumeration
@@ -22,7 +22,7 @@ public enum MapiTaskStatus
 | InProgress | `1` | Выполняется работа пользователя над этим объектом Task. |
 | Complete | `2` | Работа пользователя над этим объектом Task завершена. |
 | Waiting | `3` | Пользователь ожидает кого-то другого. |
-| Deferred | `4` | Пользователь отложил работу над объектом Task. |
+| Deferred | `4` | Пользователь отложил работу над объектом «Задача». |
 
 ### Смотрите также
 

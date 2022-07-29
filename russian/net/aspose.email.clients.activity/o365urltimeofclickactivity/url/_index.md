@@ -1,14 +1,14 @@
 ---
 title: URL
 second_title: Справочник по Aspose.Email для .NET API
-description: URL по которому щелкнул пользователь. ОбязательноДа
+description: URL по которому щелкнул пользователь. Обязательно Yes
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activity/o365urltimeofclickactivity/url/
 ---
 ## O365URLTimeOfClickActivity.URL property
 
-URL, по которому щелкнул пользователь. Обязательно:Да
+URL, по которому щелкнул пользователь. Обязательно: Yes
 
 ```csharp
 public string URL { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmsAbMonitoringRecipientsO
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MONITORING_RECIPIENTS_O
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MONITORING_RECIPIENTS_O
 type: docs
 weight: 7510
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmonitoringrecipientso/
 ---
 ## KnownPropertyList.EmsAbMonitoringRecipientsO field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MONITORING_RECIPIENTS_O
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MONITORING_RECIPIENTS_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMonitoringRecipientsO;

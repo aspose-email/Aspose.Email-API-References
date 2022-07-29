@@ -1,14 +1,14 @@
 ---
 title: ExchangeNTSecurityDescriptor
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит рассчитанный дескриптор безопасности для элемента. ОбластьДокумент календаря Каноническое имяPidTagExchangeNTSecurityDescriptor Альтернативные именаhttp//schemas.microsoft.com/exchange/ntsecuritydescriptor
+description: Содержит рассчитанный дескриптор безопасности для элемента. Область Calendar Document Каноническое имя PidTagExchangeNTSecurityDescriptor Альтернативные имена http//schemas.microsoft.com/exchange/ntsecuritydescriptor
 type: docs
 weight: 9860
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchangentsecuritydescriptor/
 ---
 ## KnownPropertyList.ExchangeNTSecurityDescriptor field
 
-Содержит рассчитанный дескриптор безопасности для элемента. Область:Документ календаря Каноническое имя:PidTagExchangeNTSecurityDescriptor Альтернативные имена:http://schemas.microsoft.com/exchange/ntsecuritydescriptor,
+Содержит рассчитанный дескриптор безопасности для элемента. Область: Calendar Document Каноническое имя: PidTagExchangeNTSecurityDescriptor Альтернативные имена: http://schemas.microsoft.com/exchange/ntsecuritydescriptor,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExchangeNTSecurityDescriptor;

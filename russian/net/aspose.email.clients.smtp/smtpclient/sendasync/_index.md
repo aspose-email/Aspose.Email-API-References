@@ -43,7 +43,7 @@ public Task SendAsync(MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MailMessage | MailMessage, представляющий сообщение электронной почты. |
+| message | MailMessage | Объект MailMessage, представляющий сообщение электронной почты. |
 
 ### Возвращаемое значение
 
@@ -85,7 +85,7 @@ public Task SendAsync(params MailMessage[] messages)
 
 ## SendAsync(MailMessageCollection) {#sendasync_13}
 
-Отправить указанный набор сообщений.
+Отправить указанную коллекцию сообщений.
 
 ```csharp
 public Task SendAsync(MailMessageCollection messages)
@@ -93,7 +93,7 @@ public Task SendAsync(MailMessageCollection messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | MailMessageCollection | Коллекция сообщений. |
+| messages | MailMessageCollection | Сбор сообщений. |
 
 ### Возвращаемое значение
 
@@ -118,7 +118,7 @@ public Task SendAsync(IEnumerable<MailMessage> messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | IEnumerable`1 | IEnumerator, поддерживающий итерацию сообщений. |
+| messages | IEnumerable`1 | IEnumerator, поддерживающий итерацию сообщения. |
 
 ### Возвращаемое значение
 
@@ -144,8 +144,8 @@ public Task SendAsync(IConnection connection, string from, string recipients, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| from | String | Строка, которая содержит адрес отправителя сообщения. |
+| connection | IConnection | Подключение к серверу |
+| from | String | Строка, содержащая адрес отправителя сообщения. |
 | recipients | String | Строка, содержащая адреса получателей. |
 | subject | String | Тема сообщения. |
 | body | String | Тело сообщения. |
@@ -173,8 +173,8 @@ public Task SendAsync(IConnection connection, MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| message | MailMessage | Сообщение, которое представляет собой сообщение электронной почты. |
+| connection | IConnection | Подключение к серверу |
+| message | MailMessage | Объект MailMessage, представляющий сообщение электронной почты. |
 
 ### Возвращаемое значение
 
@@ -200,7 +200,7 @@ public Task SendAsync(IConnection connection, params MailMessage[] messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | messages | MailMessage[] | Массив MailMessage, который представляет сообщения электронной почты для отправки. |
 
 ### Возвращаемое значение
@@ -219,7 +219,7 @@ public Task SendAsync(IConnection connection, params MailMessage[] messages)
 
 ## SendAsync(IConnection, MailMessageCollection) {#sendasync_2}
 
-Отправить указанный набор сообщений.
+Отправить указанную коллекцию сообщений.
 
 ```csharp
 public Task SendAsync(IConnection connection, MailMessageCollection messages)
@@ -227,8 +227,8 @@ public Task SendAsync(IConnection connection, MailMessageCollection messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messages | MailMessageCollection | Коллекция Сообщения. |
+| connection | IConnection | Подключение к серверу |
+| messages | MailMessageCollection | Сбор сообщений. |
 
 ### Возвращаемое значение
 
@@ -254,8 +254,8 @@ public Task SendAsync(IConnection connection, IEnumerable<MailMessage> messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messages | IEnumerable`1 | IEnumerator, который поддерживает итерацию сообщения. |
+| connection | IConnection | Подключение к серверу |
+| messages | IEnumerable`1 | IEnumerator, поддерживающий итерацию сообщения. |
 
 ### Возвращаемое значение
 
@@ -310,7 +310,7 @@ public Task SendAsync(MailMessage message, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MailMessage | MailMessage, представляющий сообщение электронной почты. |
+| message | MailMessage | Объект MailMessage, представляющий сообщение электронной почты. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -354,7 +354,7 @@ public Task SendAsync(CancellationToken token, params MailMessage[] messages)
 
 ## SendAsync(MailMessageCollection, CancellationToken) {#sendasync_14}
 
-Отправить указанный набор сообщений.
+Отправить указанную коллекцию сообщений.
 
 ```csharp
 public Task SendAsync(MailMessageCollection messages, CancellationToken token)
@@ -362,7 +362,7 @@ public Task SendAsync(MailMessageCollection messages, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | MailMessageCollection | Коллекция сообщений. |
+| messages | MailMessageCollection | Сбор сообщений. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -388,7 +388,7 @@ public Task SendAsync(IEnumerable<MailMessage> messages, CancellationToken token
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messages | IEnumerable`1 | IEnumerator, поддерживающий итерацию сообщений. |
+| messages | IEnumerable`1 | IEnumerator, поддерживающий итерацию сообщения. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -415,8 +415,8 @@ public Task SendAsync(IConnection connection, string from, string recipients, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| from | String | Строка, которая содержит адрес отправителя сообщения. |
+| connection | IConnection | Подключение к серверу |
+| from | String | Строка, содержащая адрес отправителя сообщения. |
 | recipients | String | Строка, содержащая адреса получателей. |
 | subject | String | Тема сообщения. |
 | body | String | Тело сообщения. |
@@ -445,8 +445,8 @@ public Task SendAsync(IConnection connection, MailMessage message, CancellationT
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| message | MailMessage | Сообщение, которое представляет собой сообщение электронной почты. |
+| connection | IConnection | Подключение к серверу |
+| message | MailMessage | Объект MailMessage, представляющий сообщение электронной почты. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -474,7 +474,7 @@ public Task SendAsync(IConnection connection, CancellationToken token,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 | messages | MailMessage[] | Массив MailMessage, который представляет сообщения электронной почты для отправки. |
 
@@ -494,7 +494,7 @@ public Task SendAsync(IConnection connection, CancellationToken token,
 
 ## SendAsync(IConnection, MailMessageCollection, CancellationToken) {#sendasync_3}
 
-Отправить указанный набор сообщений.
+Отправить указанную коллекцию сообщений.
 
 ```csharp
 public Task SendAsync(IConnection connection, MailMessageCollection messages, 
@@ -503,8 +503,8 @@ public Task SendAsync(IConnection connection, MailMessageCollection messages,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messages | MailMessageCollection | Коллекция Сообщения. |
+| connection | IConnection | Подключение к серверу |
+| messages | MailMessageCollection | Сбор сообщений. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -532,8 +532,8 @@ public Task SendAsync(IConnection connection, IEnumerable<MailMessage> messages,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messages | IEnumerable`1 | IEnumerator, который поддерживает итерацию сообщения. |
+| connection | IConnection | Подключение к серверу |
+| messages | IEnumerable`1 | IEnumerator, поддерживающий итерацию сообщения. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

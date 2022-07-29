@@ -1,14 +1,14 @@
 ---
 title: MailboxOwnerName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя владельца почтового ящика. ОбластьСвойства хранилища сообщений Каноническое имяPidTagMailboxOwnerName Альтернативные именаPR_MAILBOX_OWNER_NAME PR_MAILBOX_OWNER_NAME_A ptagMailboxOwnerName PR_MAILBOX_OWNER_NAME_W
+description: Содержит отображаемое имя владельца почтового ящика. Область Свойства хранилища сообщений Каноническое имя PidTagMailboxOwnerName Альтернативные имена PR_MAILBOX_OWNER_NAME PR_MAILBOX_OWNER_NAME_A ptagMailboxOwnerName PR_MAILBOX_OWNER_NAME_W
 type: docs
 weight: 12330
 url: /ru/net/aspose.email.mapi/knownpropertylist/mailboxownername/
 ---
 ## KnownPropertyList.MailboxOwnerName field
 
-Содержит отображаемое имя владельца почтового ящика. Область:Свойства хранилища сообщений Каноническое имя:PidTagMailboxOwnerName Альтернативные имена:PR_MAILBOX_OWNER_NAME, PR_MAILBOX_OWNER_NAME_A, ptagMailboxOwnerName, PR_MAILBOX_OWNER_NAME_W
+Содержит отображаемое имя владельца почтового ящика. Область: Свойства хранилища сообщений Каноническое имя: PidTagMailboxOwnerName Альтернативные имена: PR_MAILBOX_OWNER_NAME, PR_MAILBOX_OWNER_NAME_A, ptagMailboxOwnerName, PR_MAILBOX_OWNER_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MailboxOwnerName;

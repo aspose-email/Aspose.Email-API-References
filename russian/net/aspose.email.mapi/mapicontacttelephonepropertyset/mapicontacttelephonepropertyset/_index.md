@@ -1,14 +1,14 @@
 ---
 title: MapiContactTelephonePropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiContactTelephonePropertySetaspose.email.mapi/mapicontacttelephonepropertysetclass
+description: Инициализирует новый экземплярMapiContactTelephonePropertySetaspose.email.mapi/mapicontacttelephonepropertyset класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontacttelephonepropertyset/mapicontacttelephonepropertyset/
 ---
 ## MapiContactTelephonePropertySet() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset)class
+Инициализирует новый экземпляр[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) класс
 
 ```csharp
 public MapiContactTelephonePropertySet()
@@ -24,7 +24,7 @@ public MapiContactTelephonePropertySet()
 
 ## MapiContactTelephonePropertySet(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset).
+Инициализирует новый экземпляр[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) класс.
 
 ```csharp
 public MapiContactTelephonePropertySet(string primaryTelephoneNumber)
@@ -44,7 +44,7 @@ public MapiContactTelephonePropertySet(string primaryTelephoneNumber)
 
 ## MapiContactTelephonePropertySet(MapiPropertyCollection) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset)class
+Инициализирует новый экземпляр[`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) класс
 
 ```csharp
 public MapiContactTelephonePropertySet(MapiPropertyCollection properties)
@@ -52,7 +52,7 @@ public MapiContactTelephonePropertySet(MapiPropertyCollection properties)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A[`MapiPropertyCollection`](../../mapipropertycollection)содержит свойства контактного телефона |
+| properties | MapiPropertyCollection | А[`MapiPropertyCollection`](../../mapipropertycollection) содержащие свойства контактного телефона |
 
 ### Смотрите также
 

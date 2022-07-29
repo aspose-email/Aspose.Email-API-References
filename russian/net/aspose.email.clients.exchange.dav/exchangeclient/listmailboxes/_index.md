@@ -16,7 +16,7 @@ public MapiContactCollection ListMailboxes()
 
 ### Возвращаемое значение
 
-A[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)который представляет контакты.
+А[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) который представляет контактную информацию.
 
 ### Смотрите также
 

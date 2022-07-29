@@ -1,14 +1,14 @@
 ---
 title: VoiceMessageDuration
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает длину вложенного звукового сообщения в секундах. ОбластьЕдиная система обмена сообщениями Каноническое имяPidTagVoiceMessageDuration Альтернативные именаInternalSchemaVoiceMessageDuration
+description: Указывает длину вложенного звукового сообщения в секундах. Область Единая система обмена сообщениями Каноническое имя PidTagVoiceMessageDuration Альтернативные имена InternalSchemaVoiceMessageDuration
 type: docs
 weight: 19310
 url: /ru/net/aspose.email.mapi/knownpropertylist/voicemessageduration/
 ---
 ## KnownPropertyList.VoiceMessageDuration field
 
-Указывает длину вложенного звукового сообщения в секундах. Область:Единая система обмена сообщениями Каноническое имя:PidTagVoiceMessageDuration Альтернативные имена:InternalSchemaVoiceMessageDuration
+Указывает длину вложенного звукового сообщения в секундах. Область: Единая система обмена сообщениями Каноническое имя: PidTagVoiceMessageDuration Альтернативные имена: InternalSchemaVoiceMessageDuration
 
 ```csharp
 public static readonly PidTagPropertyDescriptor VoiceMessageDuration;

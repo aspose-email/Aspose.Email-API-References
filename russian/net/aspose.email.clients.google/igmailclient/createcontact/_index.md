@@ -1,14 +1,14 @@
 ---
 title: CreateContact
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает контакт для указанной электронной почты
+description: Создает контакт для указанного адреса электронной почты
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.google/igmailclient/createcontact/
 ---
 ## CreateContact(Contact) {#createcontact}
 
-Создает контакт для указанной электронной почты
+Создает контакт для указанного адреса электронной почты
 
 ```csharp
 public string CreateContact(Contact contact)
@@ -33,7 +33,7 @@ public string CreateContact(Contact contact)
 
 ## CreateContact(Contact, string) {#createcontact_1}
 
-Создает контакт для указанной электронной почты
+Создает контакт для указанного адреса электронной почты
 
 ```csharp
 public string CreateContact(Contact contact, string emailAddress)

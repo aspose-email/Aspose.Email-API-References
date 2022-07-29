@@ -1,14 +1,14 @@
 ---
 title: TaskRole
 second_title: Справочник по Aspose.Email для .NET API
-description: Не используется. Клиент может установить это свойство но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. ОбластьЗадачи Каноническое имяPidLidTaskRole Альтернативные именаdispidTaskRole
+description: Не используется. Клиент может установить это свойство но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. Область Tasks Каноническое имя PidLidTaskRole Альтернативные имена dispidTaskRole
 type: docs
 weight: 18800
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskrole/
 ---
 ## KnownPropertyList.TaskRole field
 
-Не используется. Клиент может установить это свойство, но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. Область:Задачи Каноническое имя:PidLidTaskRole Альтернативные имена:dispidTaskRole
+Не используется. Клиент может установить это свойство, но оно не влияет на протокол связанных с задачей объектов и игнорируется сервером. Область: Tasks Каноническое имя: PidLidTaskRole Альтернативные имена: dispidTaskRole
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskRole;

@@ -21,7 +21,7 @@ public static bool operator !=(PropertyDescriptor pd1, PropertyDescriptor pd2)
 
 ### Возвращаемое значение
 
-true, если указанный PropertyDescriptor не равен другому PropertyDescriptor; в противном случае false.
+true, если указанный дескриптор свойства не равен другому дескриптору свойства; иначе false.
 
 ### Смотрите также
 

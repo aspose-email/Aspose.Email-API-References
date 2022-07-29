@@ -16,14 +16,14 @@ public void CloseAccess(string delegateSmtpAddress, string mailbox)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| delegateSmtpAddress | String | Основной smtp-адрес пользователя-делегата. |
+| delegateSmtpAddress | String | Основной smtp-адрес делегированного пользователя. |
 | mailbox | String | Почтовый ящик. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *delegateSmtpAddress*или*mailbox*is` null` или` пустой` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *delegateSmtpAddress*или же*mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 
@@ -50,8 +50,8 @@ public void CloseAccess(ExchangeFolderUserInfo userInfo, string mailbox)
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *userInfo*is` null` . |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` или` пусто` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *userInfo* является`нулевой`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 
@@ -72,15 +72,15 @@ public void CloseAccess(ExchangeDelegateUser delegateUser, string mailbox)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| delegateUser | ExchangeDelegateUser | Пользователь делегирования. |
+| delegateUser | ExchangeDelegateUser | Делегированный пользователь. |
 | mailbox | String | Почтовый ящик. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser*is` null` . |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` или` пусто` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser* является`нулевой`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 
@@ -108,8 +108,8 @@ public void CloseAccess(ExchangeDelegateUserCollection delegateUsers, string mai
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers*is` null` . |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` или` пусто` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUsers* является`нулевой`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

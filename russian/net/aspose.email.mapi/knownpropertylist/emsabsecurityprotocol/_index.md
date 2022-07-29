@@ -1,14 +1,14 @@
 ---
 title: EmsAbSecurityProtocol
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SECURITY_PROTOCOL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SECURITY_PROTOCOL
 type: docs
 weight: 8710
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsecurityprotocol/
 ---
 ## KnownPropertyList.EmsAbSecurityProtocol field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SECURITY_PROTOCOL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SECURITY_PROTOCOL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSecurityProtocol;

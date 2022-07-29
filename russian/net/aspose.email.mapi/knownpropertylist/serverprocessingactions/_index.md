@@ -1,14 +1,14 @@
 ---
 title: ServerProcessingActions
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает какие действия по обработке были предприняты для этого объекта запроса на собрание или объекта обновления собрания. ОбластьКалендарь Каноническое имяPidLidServerProcessingActions Альтернативные именаdispidExchangeProcessingAction
+description: Указывает какие действия по обработке были предприняты для этого объекта запроса на собрание или объекта обновления собрания. Область Calendar Каноническое имя PidLidServerProcessingActions Альтернативные имена dispidExchangeProcessingAction
 type: docs
 weight: 17300
 url: /ru/net/aspose.email.mapi/knownpropertylist/serverprocessingactions/
 ---
 ## KnownPropertyList.ServerProcessingActions field
 
-Указывает, какие действия по обработке были предприняты для этого объекта запроса на собрание или объекта обновления собрания. Область:Календарь Каноническое имя:PidLidServerProcessingActions Альтернативные имена:dispidExchangeProcessingAction
+Указывает, какие действия по обработке были предприняты для этого объекта запроса на собрание или объекта обновления собрания. Область: Calendar Каноническое имя: PidLidServerProcessingActions Альтернативные имена: dispidExchangeProcessingAction
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ServerProcessingActions;

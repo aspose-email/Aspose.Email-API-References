@@ -1,14 +1,14 @@
 ---
 title: RuleActions
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит набор действий связанных с правилом. ОбластьСвойства серверных правил Каноническое имяPidTagRuleActions Альтернативные именаPR_RULE_ACTIONS ptagRuleActions
+description: Содержит набор действий связанных с правилом. Область Свойства серверных правил Каноническое имя PidTagRuleActions Альтернативные имена PR_RULE_ACTIONS ptagRuleActions
 type: docs
 weight: 16440
 url: /ru/net/aspose.email.mapi/knownpropertylist/ruleactions/
 ---
 ## KnownPropertyList.RuleActions field
 
-Содержит набор действий, связанных с правилом. Область:Свойства серверных правил Каноническое имя:PidTagRuleActions Альтернативные имена:PR_RULE_ACTIONS, ptagRuleActions
+Содержит набор действий, связанных с правилом. Область: Свойства серверных правил Каноническое имя: PidTagRuleActions Альтернативные имена: PR_RULE_ACTIONS, ptagRuleActions
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleActions;

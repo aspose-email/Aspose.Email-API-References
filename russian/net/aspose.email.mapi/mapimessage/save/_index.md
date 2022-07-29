@@ -36,8 +36,8 @@ public void Save(string fileName, SaveOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Поток, в котором сохраняется сообщение. |
-| options | SaveOptions | Дополнительные параметры сохранения[`SaveOptions`](../../../aspose.email/saveoptions). |
+| fileName | String | Поток, в который сохраняется сообщение. |
+| options | SaveOptions | Дополнительные возможности для сохранения[`SaveOptions`](../../../aspose.email/saveoptions). |
 
 ### Смотрите также
 
@@ -59,7 +59,7 @@ public void Save(Stream stream, SaveOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, в который сохраняется сообщение. |
-| options | SaveOptions | Дополнительные параметры сохранения[`SaveOptions`](../../../aspose.email/saveoptions). |
+| options | SaveOptions | Дополнительные возможности для сохранения[`SaveOptions`](../../../aspose.email/saveoptions). |
 
 ### Смотрите также
 

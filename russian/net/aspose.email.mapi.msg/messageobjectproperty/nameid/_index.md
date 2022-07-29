@@ -1,14 +1,14 @@
 ---
 title: NameId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает идентификатор имени свойства если оно именовано.
+description: Получает или задает идентификатор имени свойства если оно имеет имя.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.mapi.msg/messageobjectproperty/nameid/
 ---
 ## MessageObjectProperty.NameId property
 
-Получает или задает идентификатор имени свойства, если оно именовано.
+Получает или задает идентификатор имени свойства, если оно имеет имя.
 
 ```csharp
 public uint NameId { get; set; }

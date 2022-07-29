@@ -1,14 +1,14 @@
 ---
 title: ExchangeJunkEmailMoveStamp
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что сообщение не должно обрабатываться спам-фильтром. ОбластьСвойства безопасного обмена сообщениями Каноническое имяPidNameExchangeJunkEmailMoveStamp Альтернативные именаhttp//schemas.microsoft.com/exchange/junkemailmovestamp
+description: Указывает что сообщение не должно обрабатываться спам-фильтром. Область Свойства безопасного обмена сообщениями Каноническое имя PidNameExchangeJunkEmailMoveStamp Альтернативные имена http//schemas.microsoft.com/exchange/junkemailmovestamp
 type: docs
 weight: 9830
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchangejunkemailmovestamp/
 ---
 ## KnownPropertyList.ExchangeJunkEmailMoveStamp field
 
-Указывает, что сообщение не должно обрабатываться спам-фильтром. Область:Свойства безопасного обмена сообщениями Каноническое имя:PidNameExchangeJunkEmailMoveStamp Альтернативные имена:http://schemas.microsoft.com/exchange/junkemailmovestamp
+Указывает, что сообщение не должно обрабатываться спам-фильтром. Область: Свойства безопасного обмена сообщениями Каноническое имя: PidNameExchangeJunkEmailMoveStamp Альтернативные имена: http://schemas.microsoft.com/exchange/junkemailmovestamp
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchangeJunkEmailMoveStamp;

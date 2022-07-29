@@ -18,13 +18,13 @@ public class ServerNotificationEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [ServerNotificationEventArgs](servernotificationeventargs)(KnownFolders, EventTypes) | Инициализирует новый экземпляр класса[`ServerNotificationEventArgs`](../servernotificationeventargs) |
+| [ServerNotificationEventArgs](servernotificationeventargs)(KnownFolders, EventTypes) | Инициализирует новый экземпляр[`ServerNotificationEventArgs`](../servernotificationeventargs) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [EventTypes](../../aspose.email.clients.exchange.webservice/servernotificationeventargs/eventtypes) { get; } | Указывает тип события |
+| [EventTypes](../../aspose.email.clients.exchange.webservice/servernotificationeventargs/eventtypes) { get; } | Определяет тип события |
 | [Folder](../../aspose.email.clients.exchange.webservice/servernotificationeventargs/folder) { get; } | Указывает известную папку сервера Exchange. |
 
 ### Смотрите также

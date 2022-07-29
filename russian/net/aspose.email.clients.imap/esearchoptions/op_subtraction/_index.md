@@ -1,14 +1,14 @@
 ---
 title: op_Subtraction
 second_title: Справочник по Aspose.Email для .NET API
-description: Определена минусовая операция
+description: Отрицательная операция определена
 type: docs
 weight: 100
 url: /ru/net/aspose.email.clients.imap/esearchoptions/op_subtraction/
 ---
 ## ESearchOptions Subtraction operator
 
-Определена минусовая операция
+Отрицательная операция определена
 
 ```csharp
 public static ESearchOptions operator -(ESearchOptions val1, ESearchOptions val2)

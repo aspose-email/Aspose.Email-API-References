@@ -1,14 +1,14 @@
 ---
 title: ListSubFoldersAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает коллекцию дочерних папок от родительской
+description: Получает коллекцию дочерних папок от parent
 type: docs
 weight: 480
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/listsubfoldersasync/
 ---
 ## IAsyncEwsClient.ListSubFoldersAsync method
 
-Получает коллекцию дочерних папок от родительской
+Получает коллекцию дочерних папок от parent
 
 ```csharp
 public Task<ExchangeFolderInfoCollection> ListSubFoldersAsync(string mailbox, 
@@ -19,11 +19,11 @@ public Task<ExchangeFolderInfoCollection> ListSubFoldersAsync(string mailbox,
 | --- | --- | --- |
 | mailbox | String | Почтовый ящик, который используется для инициализации класса идентификатора папки. |
 | parentFolderUri | String | Родительская папка |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)которая содержит подпапки из родительской папки
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) который содержит подпапки из родительской папки
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmsAbProxyGenerationEnabled
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_PROXY_GENERATION_ENABLED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_PROXY_GENERATION_ENABLED
 type: docs
 weight: 8200
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabproxygenerationenabled/
 ---
 ## KnownPropertyList.EmsAbProxyGenerationEnabled field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_PROXY_GENERATION_ENABLED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_PROXY_GENERATION_ENABLED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbProxyGenerationEnabled;

@@ -16,7 +16,7 @@ public MessageInfoCollection GetContents(bool tryToReadCorruptedContents)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tryToReadCorruptedContents | Boolean | Если значение этого параметра равно true, метод попытается прочитать содержимое даже если файл поврежден. Это значение можно использовать, если метод GetContents() выдает исключение о повреждении файла. Если значение этого параметра равно false, то метод работает так же, как и метод GetContents() без параметров. |
+| tryToReadCorruptedContents | Boolean | Если значение этого параметра равно true, метод попытается прочитать содержимое, даже если файл поврежден. Это значение можно использовать, если метод GetContents() выдает исключение о повреждении файла. Если значение этого параметра равно false, метод работает так же, как и метод GetContents() без параметров. |
 
 ### Возвращаемое значение
 
@@ -88,7 +88,7 @@ public MessageInfoCollection GetContents(MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 
 ### Возвращаемое значение
 
@@ -114,8 +114,8 @@ public MessageInfoCollection GetContents(int startIndex, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | Int32 | Индекс стартового сообщения. |
-| count | Int32 | Количество сообщений, которые будут извлечены. |
+| startIndex | Int32 | Индекс начального сообщения. |
+| count | Int32 | Количество сообщений, которые будут получены. |
 
 ### Возвращаемое значение
 
@@ -125,12 +125,12 @@ public MessageInfoCollection GetContents(int startIndex, int count)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | выдает, если startIndex меньше 0. |
-| ArgumentOutOfRangeException | выдает, если startIndex больше или равен общему количеству сообщений, содержащихся в этой папке. |
+| ArgumentOutOfRangeException | бросает, если startIndex меньше 0. |
+| ArgumentOutOfRangeException | бросает, если startIndex больше или равен общему количеству сообщений, содержащихся в этой папке. |
 
 ### Примечания
 
-Если параметр "count" меньше 0 или больше количества оставшихся сообщений, то будет возвращено количество оставшихся сообщений.
+Если параметр count меньше 0 или больше количества оставшихся сообщений, то будет возвращено количество оставшихся сообщений.
 
 ### Смотрите также
 

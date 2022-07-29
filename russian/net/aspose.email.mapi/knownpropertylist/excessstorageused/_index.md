@@ -1,14 +1,14 @@
 ---
 title: ExcessStorageUsed
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EXCESS_STORAGE_USED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EXCESS_STORAGE_USED
 type: docs
 weight: 9810
 url: /ru/net/aspose.email.mapi/knownpropertylist/excessstorageused/
 ---
 ## KnownPropertyList.ExcessStorageUsed field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EXCESS_STORAGE_USED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EXCESS_STORAGE_USED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExcessStorageUsed;

@@ -1,14 +1,14 @@
 ---
 title: AttachLongFilename
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит полное имя файла и расширение объекта вложения. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachLongFilename Альтернативные именаPR_ATTACH_LONG_FILENAME PR_ATTACH_LONG_FILENAME_A
+description: Содержит полное имя файла и расширение объекта вложения. Область Свойства вложения сообщения Каноническое имя PidTagAttachLongFilename Альтернативные имена PR_ATTACH_LONG_FILENAME PR_ATTACH_LONG_FILENAME_A
 type: docs
 weight: 1610
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachlongfilename/
 ---
 ## KnownPropertyList.AttachLongFilename field
 
-Содержит полное имя файла и расширение объекта вложения. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachLongFilename Альтернативные имена:PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A,
+Содержит полное имя файла и расширение объекта вложения. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachLongFilename Альтернативные имена: PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachLongFilename;

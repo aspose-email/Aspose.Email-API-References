@@ -1,14 +1,14 @@
 ---
 title: JournalFolderEventFilter
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет типы событий для папки журнала
+description: Указывает типы событий для папки журнала
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/journalfoldereventfilter/
 ---
 ## IEWSClient.JournalFolderEventFilter property
 
-Определяет типы событий для папки журнала
+Указывает типы событий для папки журнала
 
 ```csharp
 public EventTypes JournalFolderEventFilter { get; set; }

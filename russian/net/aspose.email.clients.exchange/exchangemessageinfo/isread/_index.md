@@ -1,14 +1,14 @@
 ---
 title: IsRead
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее прочитано ли сообщение
+description: Получает значение указывающее было ли сообщение прочитано
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange/exchangemessageinfo/isread/
 ---
 ## ExchangeMessageInfo.IsRead property
 
-Получает значение, указывающее, прочитано ли сообщение
+Получает значение, указывающее, было ли сообщение прочитано
 
 ```csharp
 public virtual bool IsRead { get; }

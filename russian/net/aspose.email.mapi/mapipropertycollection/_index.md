@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет набор элементов MapiProperty.
+description: Представляет коллекцию элементов MapiProperty.
 type: docs
-weight: 18540
+weight: 18570
 url: /ru/net/aspose.email.mapi/mapipropertycollection/
 ---
 ## MapiPropertyCollection class
 
-Представляет набор элементов MapiProperty.
+Представляет коллекцию элементов MapiProperty.
 
 ```csharp
 public class MapiPropertyCollection : IDictionary<long, MapiProperty>, INamedPropertyTagProvider
@@ -27,8 +27,8 @@ public class MapiPropertyCollection : IDictionary<long, MapiProperty>, INamedPro
 | [Count](../../aspose.email.mapi/mapipropertycollection/count) { get; } | Получает количество элементов, содержащихся в коллекции. |
 | [IsReadOnly](../../aspose.email.mapi/mapipropertycollection/isreadonly) { get; } | Получает значение, указывающее, доступна ли коллекция только для чтения. |
 | [Item](../../aspose.email.mapi/mapipropertycollection/item) { get; set; } | Получает или задает значение, связанное с указанным ключом. (2 indexers) |
-| [Keys](../../aspose.email.mapi/mapipropertycollection/keys) { get; } | Получает System.Collections.Generic.ICollection&lt;long&gt; содержащий ключи в коллекции. |
-| [Values](../../aspose.email.mapi/mapipropertycollection/values) { get; } | Получает объект System.Collections.Generic.ICollection&lt;MapiProperty&gt; содержащие значения в коллекции. |
+| [Keys](../../aspose.email.mapi/mapipropertycollection/keys) { get; } | Получает System.Collections.Generic.ICollection&lt;long&gt;, содержащую ключи в коллекции. |
+| [Values](../../aspose.email.mapi/mapipropertycollection/values) { get; } | Получает System.Collections.Generic.ICollection&lt;MapiProperty&gt;, содержащий значения в коллекции. |
 
 ## Методы
 

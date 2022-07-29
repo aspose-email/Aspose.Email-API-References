@@ -1,14 +1,14 @@
 ---
 title: WlinkSaveStamp
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает целое число позволяющее клиенту с высокой вероятностью определить был ли ярлык навигации сохранен текущим клиентским сеансом. ОбластьКонфигурация Каноническое имяPidTagWlinkSaveStamp Альтернативные имена
+description: Указывает целое число позволяющее клиенту с высокой вероятностью определить был ли сохранен ярлык навигации текущим сеансом клиента. Область Configuration Каноническое имя PidTagWlinkSaveStamp Альтернативные имена
 type: docs
 weight: 19500
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinksavestamp/
 ---
 ## KnownPropertyList.WlinkSaveStamp field
 
-Задает целое число, позволяющее клиенту с высокой вероятностью определить, был ли ярлык навигации сохранен текущим клиентским сеансом. Область:Конфигурация Каноническое имя:PidTagWlinkSaveStamp Альтернативные имена:
+Указывает целое число, позволяющее клиенту с высокой вероятностью определить, был ли сохранен ярлык навигации текущим сеансом клиента. Область: Configuration Каноническое имя: PidTagWlinkSaveStamp Альтернативные имена:
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkSaveStamp;

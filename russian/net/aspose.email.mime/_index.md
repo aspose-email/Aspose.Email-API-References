@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Mime
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.Mime предоставляет классы расширяющие формат электронной почты.
+description: Aspose.Email.Mime namespace предоставляет классы расширяющие формат электронной почты.
 type: docs
 weight: 330
 url: /ru/net/aspose.email.mime/
 ---
-Пространство имен **Aspose.Email.Mime** предоставляет классы, расширяющие формат электронной почты.
+**Aspose.Email.Mime** namespace предоставляет классы, расширяющие формат электронной почты.
 
 ## Классы
 
@@ -14,7 +14,7 @@ url: /ru/net/aspose.email.mime/
 | --- | --- |
 | [ContentDisposition](./contentdisposition) | Представляет заголовок Content-Disposition. |
 | [ContentType](./contenttype) | Представляет заголовок Content-Type. |
-| [DispositionTypeNames](./dispositiontypenames) | Представляет имена типов расположения. |
+| [DispositionTypeNames](./dispositiontypenames) | Представляет имена типов размещения. |
 | [HeaderCollection](./headercollection) | Определяет набор полей заголовка |
 | [MediaTypeNames](./mediatypenames) | Указывает имена типов мультимедиа для сообщения электронной почты. |
 | [MimeException](./mimeexception) | Предоставляет информацию об ошибках MIME |

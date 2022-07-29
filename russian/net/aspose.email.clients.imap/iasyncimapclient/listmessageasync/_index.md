@@ -18,7 +18,7 @@ public Task<ImapMessageInfo> ListMessageAsync(int sequenceNumber,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | Int32 | Соединение с сервером |
+| connection | Int32 | Подключение к серверу |
 | sequenceNumber | IEnumerable`1 | Порядковый номер сообщения |
 | messageExtraFields | IConnection | Список дополнительных параметров для сообщения, которое будет запрошено. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
@@ -49,7 +49,7 @@ public Task<ImapMessageInfo> ListMessageAsync(string uniqueId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Соединение с сервером |
+| connection | String | Подключение к серверу |
 | uniqueId | IEnumerable`1 | Уникальный идентификатор сообщения |
 | messageExtraFields | IConnection | Список дополнительных параметров для сообщения, которое будет запрошено. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |

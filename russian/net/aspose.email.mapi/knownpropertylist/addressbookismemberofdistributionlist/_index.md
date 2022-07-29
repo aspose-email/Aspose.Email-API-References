@@ -1,14 +1,14 @@
 ---
 title: AddressBookIsMemberOfDistributionList
 second_title: Справочник по Aspose.Email для .NET API
-description: Список всех списков рассылки членом которых является объект. Это свойство возвращается с сервера NSPI в виде PtypEmbeddedTable. В противном случае используется тип данных PtypString8. ОбластьАдресная книга Каноническое имяPidTagAddressBookIsMemberOfDistributionList Альтернативные именаPR_EMS_AB_IS_MEMBER_OF_DL PR_EMS_AB_IS_MEMBER_OF_DL_A PR_EMS_AB_IS_MEMBER_OF_DL_W
+description: Список всех списков рассылки членом которых является объект. Это свойство возвращается с сервера NSPI в виде PtypEmbeddedTable. В противном случае используется тип данных PtypString8. Область Адресная книга Каноническое имя PidTagAddressBookIsMemberOfDistributionList Альтернативные имена PR_EMS_AB_IS_MEMBER_OF_DL PR_EMS_AB_IS_MEMBER_OF_DL_A PR_EMS_AB_IS_MEMBER_OF_DL_W
 type: docs
 weight: 690
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookismemberofdistributionlist/
 ---
 ## KnownPropertyList.AddressBookIsMemberOfDistributionList field
 
-Список всех списков рассылки, членом которых является объект. Это свойство возвращается с сервера NSPI в виде PtypEmbeddedTable. В противном случае используется тип данных PtypString8. Область:Адресная книга Каноническое имя:PidTagAddressBookIsMemberOfDistributionList Альтернативные имена:PR_EMS_AB_IS_MEMBER_OF_DL, PR_EMS_AB_IS_MEMBER_OF_DL_A, PR_EMS_AB_IS_MEMBER_OF_DL_W
+Список всех списков рассылки, членом которых является объект. Это свойство возвращается с сервера NSPI в виде PtypEmbeddedTable. В противном случае используется тип данных PtypString8. Область: Адресная книга Каноническое имя: PidTagAddressBookIsMemberOfDistributionList Альтернативные имена: PR_EMS_AB_IS_MEMBER_OF_DL, PR_EMS_AB_IS_MEMBER_OF_DL_A, PR_EMS_AB_IS_MEMBER_OF_DL_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookIsMemberOfDistributionList;

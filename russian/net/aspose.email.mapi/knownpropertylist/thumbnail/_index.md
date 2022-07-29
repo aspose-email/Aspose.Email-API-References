@@ -1,14 +1,14 @@
 ---
 title: Thumbnail
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает данные представляющие эскиз изображения документа. ОбластьОбщие Каноническое имяPidNameThumbnail Альтернативные именаurnschemas-microsoft-comofficeofficeThumbNail
+description: Задает данные представляющие эскиз изображения документа. Область Common Каноническое имя PidNameThumbnail Альтернативные имена urnschemas-microsoft-comofficeofficeThumbNail
 type: docs
 weight: 18950
 url: /ru/net/aspose.email.mapi/knownpropertylist/thumbnail/
 ---
 ## KnownPropertyList.Thumbnail field
 
-Задает данные, представляющие эскиз изображения документа. Область:Общие Каноническое имя:PidNameThumbnail Альтернативные имена:urn:schemas-microsoft-com:office:office#ThumbNail
+Задает данные, представляющие эскиз изображения документа. Область: Common Каноническое имя: PidNameThumbnail Альтернативные имена: urn:schemas-microsoft-com:office:office#ThumbNail
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Thumbnail;

@@ -1,14 +1,14 @@
 ---
 title: ContentClassType
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаContentClassTypeaspose.email.clients.exchange.dav/contentclasstype.
+description: Инициализирует новый экземплярContentClassTypeaspose.email.clients.exchange.dav/contentclasstype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/contentclasstype/
 ---
 ## ContentClassType constructor
 
-Инициализирует новый экземпляр класса[`ContentClassType`](../../contentclasstype).
+Инициализирует новый экземпляр[`ContentClassType`](../../contentclasstype) класс.
 
 ```csharp
 public ContentClassType(string value)

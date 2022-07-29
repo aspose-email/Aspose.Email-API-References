@@ -16,12 +16,12 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет сообщение электронной почты message
 
 ### Смотрите также
 
@@ -43,13 +43,13 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber, bool
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| ignoreAttachment | Boolean | Значение, определяющее, вложения не должны загружаться. Если установлено значение` true` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
+| ignoreAttachment | Boolean | Значение, определяющее, следует ли загружать вложения. Если установлено значение`истинный` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)который представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет сообщение электронной почты message
 
 ### Смотрите также
 
@@ -63,7 +63,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber, bool
 
 ## FetchMessage(int) {#fetchmessage_3}
 
-Выбирает сообщение
+Получает сообщение
 
 ```csharp
 public MailMessage FetchMessage(int sequenceNumber)
@@ -75,7 +75,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)который представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет сообщение электронной почты message
 
 ### Смотрите также
 
@@ -88,7 +88,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 
 ## FetchMessage(int, bool) {#fetchmessage_4}
 
-Выбирает сообщение
+Получает сообщение
 
 ```csharp
 public MailMessage FetchMessage(int sequenceNumber, bool ignoreAttachment)
@@ -97,11 +97,11 @@ public MailMessage FetchMessage(int sequenceNumber, bool ignoreAttachment)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| ignoreAttachment | Boolean | Значение, определяющее, следует ли загружать вложения. Если установлено значение` true` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
+| ignoreAttachment | Boolean | Значение, определяющее, следует ли загружать вложения. Если установлено значение`истинный` , то извлекаются только заголовки сообщений, тело сообщения и информация о вложениях. Содержимое вложения не загружено |
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)который представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет сообщение электронной почты message
 
 ### Смотрите также
 
@@ -122,12 +122,12 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет сообщение электронной почты message
 
 ### Смотрите также
 
@@ -153,7 +153,7 @@ public MailMessage FetchMessage(string uniqueId)
 
 ### Возвращаемое значение
 
-[`MailMessage`](../../../aspose.email/mailmessage)который представляет сообщение электронной почты
+[`MailMessage`](../../../aspose.email/mailmessage) который представляет сообщение электронной почты message
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RetrieveFullPath
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает полный путь к папке в файле PST.
+description: Извлекает полный путь к папке в файле PST.
 type: docs
 weight: 340
 url: /ru/net/aspose.email.storage.pst/folderinfo/retrievefullpath/
 ---
 ## FolderInfo.RetrieveFullPath method
 
-Получает полный путь к папке в файле PST.
+Извлекает полный путь к папке в файле PST.
 
 ```csharp
 public string RetrieveFullPath()

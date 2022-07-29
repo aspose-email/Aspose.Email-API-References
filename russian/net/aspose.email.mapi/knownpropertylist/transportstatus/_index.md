@@ -1,14 +1,14 @@
 ---
 title: TransportStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_TRANSPORT_STATUS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_TRANSPORT_STATUS
 type: docs
 weight: 19130
 url: /ru/net/aspose.email.mapi/knownpropertylist/transportstatus/
 ---
 ## KnownPropertyList.TransportStatus field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_TRANSPORT_STATUS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_TRANSPORT_STATUS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransportStatus;

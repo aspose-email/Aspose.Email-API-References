@@ -1,14 +1,14 @@
 ---
 title: BeforeOrEqual
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что дата в сообщении должна быть раньше или равна указанной дате.
+description: Указывает что дата в сообщении должна быть более ранней или равной указанной дате.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.tools.search/datecomparisonfield/beforeorequal/
 ---
 ## BeforeOrEqual(DateTime) {#beforeorequal}
 
-Указывает, что дата в сообщении должна быть раньше или равна указанной дате.
+Указывает, что дата в сообщении должна быть более ранней или равной указанной дате.
 
 ```csharp
 public MailQuery BeforeOrEqual(DateTime value)
@@ -20,7 +20,7 @@ public MailQuery BeforeOrEqual(DateTime value)
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../mailquery), представляющий поисковый запрос (один критерий поиска).
+[`MailQuery`](../../mailquery) который представляет поисковый запрос (один критерий поиска).
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public MailQuery BeforeOrEqual(DateTime value)
 
 ## BeforeOrEqual(DateTime, DateComparisonType) {#beforeorequal_1}
 
-Указывает, что дата в сообщении должна быть раньше или равна указанной дате.
+Указывает, что дата в сообщении должна быть более ранней или равной указанной дате.
 
 ```csharp
 public MailQuery BeforeOrEqual(DateTime value, DateComparisonType comparisonType)
@@ -46,7 +46,7 @@ public MailQuery BeforeOrEqual(DateTime value, DateComparisonType comparisonType
 
 ### Возвращаемое значение
 
-[`MailQuery`](../../mailquery), представляющий поисковый запрос (один критерий поиска).
+[`MailQuery`](../../mailquery) который представляет поисковый запрос (один критерий поиска).
 
 ### Смотрите также
 

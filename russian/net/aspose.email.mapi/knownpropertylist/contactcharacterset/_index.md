@@ -1,14 +1,14 @@
 ---
 title: ContactCharacterSet
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает набор символов используемый для объекта Contact. ОбластьСвойства контакта Каноническое имяPidLidContactCharacterSet Альтернативные именаdispidContactCharSet
+description: Определяет набор символов используемый для объекта Contact. Область Свойства контакта Каноническое имя PidLidContactCharacterSet Альтернативные имена dispidContactCharSet
 type: docs
 weight: 2900
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactcharacterset/
 ---
 ## KnownPropertyList.ContactCharacterSet field
 
-Указывает набор символов, используемый для объекта Contact. Область:Свойства контакта Каноническое имя:PidLidContactCharacterSet Альтернативные имена:dispidContactCharSet
+Определяет набор символов, используемый для объекта Contact. Область: Свойства контакта Каноническое имя: PidLidContactCharacterSet Альтернативные имена: dispidContactCharSet
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactCharacterSet;

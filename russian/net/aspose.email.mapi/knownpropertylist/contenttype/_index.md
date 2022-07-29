@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип содержимого части тела. ОбластьЭлектронная почта Каноническое имяPidNameContentType Альтернативные именаurnschemasmailheadercontent-type
+description: Указывает тип содержимого части тела. Область Email Каноническое имя PidNameContentType Альтернативные имена urnschemasmailheadercontent-type
 type: docs
 weight: 3280
 url: /ru/net/aspose.email.mapi/knownpropertylist/contenttype/
 ---
 ## KnownPropertyList.ContentType field
 
-Указывает тип содержимого части тела. Область:Электронная почта Каноническое имя:PidNameContentType Альтернативные имена:urn:schemas:mailheader:content-type
+Указывает тип содержимого части тела. Область: Email Каноническое имя: PidNameContentType Альтернативные имена: urn:schemas:mailheader:content-type
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ContentType;

@@ -1,14 +1,14 @@
 ---
 title: ObsoletedIpms
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_OBSOLETED_IPMS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_OBSOLETED_IPMS
 type: docs
 weight: 13200
 url: /ru/net/aspose.email.mapi/knownpropertylist/obsoletedipms/
 ---
 ## KnownPropertyList.ObsoletedIpms field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_OBSOLETED_IPMS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_OBSOLETED_IPMS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ObsoletedIpms;

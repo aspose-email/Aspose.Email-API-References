@@ -18,10 +18,10 @@ public class OperationCanceledException : AsposeException
 
 | Имя | Описание |
 | --- | --- |
-| [OperationCanceledException](operationcanceledexception#constructor)() | Инициализирует новый экземпляр классаOperationCanceledException. |
-| [OperationCanceledException](operationcanceledexception#constructor_1)(string) | Инициализирует новый экземпляр классаOperationCanceledExceptionс указанным сообщением об ошибке. |
-| [OperationCanceledException](operationcanceledexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр классаOperationCanceledException с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
-| [OperationCanceledException](operationcanceledexception#constructor_3)(string, params object[]) | Инициализирует новый экземпляр классаOperationCanceledExceptionс указанным сообщением об ошибке. |
+| [OperationCanceledException](operationcanceledexception#constructor)() | Инициализирует новый экземплярOperationCanceledException класс. |
+| [OperationCanceledException](operationcanceledexception#constructor_1)(string) | Инициализирует новый экземплярOperationCanceledException класс с указанным сообщением об ошибке. |
+| [OperationCanceledException](operationcanceledexception#constructor_2)(string, Exception) | Инициализирует новый экземплярOperationCanceledException класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [OperationCanceledException](operationcanceledexception#constructor_3)(string, params object[]) | Инициализирует новый экземплярOperationCanceledException класс с указанным сообщением об ошибке. |
 
 ## Характеристики
 

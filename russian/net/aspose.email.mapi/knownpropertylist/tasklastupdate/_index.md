@@ -1,14 +1,14 @@
 ---
 title: TaskLastUpdate
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату и время последнего изменения объекта Task. ОбластьЗадачи Каноническое имяPidLidTaskLastUpdate Альтернативные именаdispidTaskLastUpdate
+description: Содержит дату и время последнего изменения объекта Task. Область Tasks Каноническое имя PidLidTaskLastUpdate Альтернативные имена dispidTaskLastUpdate
 type: docs
 weight: 18700
 url: /ru/net/aspose.email.mapi/knownpropertylist/tasklastupdate/
 ---
 ## KnownPropertyList.TaskLastUpdate field
 
-Содержит дату и время последнего изменения объекта Task. Область:Задачи Каноническое имя:PidLidTaskLastUpdate Альтернативные имена:dispidTaskLastUpdate
+Содержит дату и время последнего изменения объекта Task. Область: Tasks Каноническое имя: PidLidTaskLastUpdate Альтернативные имена: dispidTaskLastUpdate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskLastUpdate;

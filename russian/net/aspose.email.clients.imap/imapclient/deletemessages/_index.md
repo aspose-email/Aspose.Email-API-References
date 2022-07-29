@@ -101,9 +101,9 @@ public void DeleteMessages(IConnection connection, IEnumerable<int> sequenceSet,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -127,7 +127,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet,
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -149,7 +149,7 @@ public void DeleteMessages(IEnumerable<int> sequenceSet, long modificationSequen
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sequenceSet | IEnumerable`1 | Набор порядковых номеров для сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -170,7 +170,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -182,7 +182,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence
 
 ## DeleteMessages(IEnumerable&lt;string&gt;, bool) {#deletemessages_25}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IEnumerable<string> uidSet, bool commitNow)
@@ -203,7 +203,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, bool commitNow)
 
 ## DeleteMessages(IConnection, IEnumerable&lt;string&gt;, bool) {#deletemessages_9}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet, bool commitNow)
@@ -226,7 +226,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet, b
 
 ## DeleteMessages(IEnumerable&lt;string&gt;, long, bool) {#deletemessages_27}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence, bool commitNow)
@@ -235,7 +235,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Смотрите также
@@ -248,7 +248,7 @@ public void DeleteMessages(IEnumerable<string> uidSet, long modificationSequence
 
 ## DeleteMessages(IConnection, IEnumerable&lt;string&gt;, long, bool) {#deletemessages_11}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet, 
@@ -259,7 +259,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<string> uidSet,
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | uidSet | IEnumerable`1 | Набор UID для сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Смотрите также
@@ -281,7 +281,7 @@ public void DeleteMessages(IConnection connection, int startSequence, int endSeq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
 
@@ -370,10 +370,10 @@ public void DeleteMessages(IConnection connection, int startSequence, int endSeq
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -398,7 +398,7 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 | connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -421,7 +421,7 @@ public void DeleteMessages(int startSequence, int endSequence, long modification
 | --- | --- | --- |
 | startSequence | Int32 | Начальный порядковый номер списка сообщений |
 | endSequence | Int32 | Конечный порядковый номер списка сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -443,7 +443,7 @@ public void DeleteMessages(string startUid, string endUid, long modificationSequ
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -455,7 +455,7 @@ public void DeleteMessages(string startUid, string endUid, long modificationSequ
 
 ## DeleteMessages(string, string, bool) {#deletemessages_29}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(string startUid, string endUid, bool commitNow)
@@ -477,7 +477,7 @@ public void DeleteMessages(string startUid, string endUid, bool commitNow)
 
 ## DeleteMessages(IConnection, string, string, bool) {#deletemessages_13}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IConnection connection, string startUid, string endUid, bool commitNow)
@@ -501,7 +501,7 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 
 ## DeleteMessages(string, string, long, bool) {#deletemessages_31}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(string startUid, string endUid, long modificationSequence, 
@@ -512,7 +512,7 @@ public void DeleteMessages(string startUid, string endUid, long modificationSequ
 | --- | --- | --- |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Смотрите также
@@ -525,7 +525,7 @@ public void DeleteMessages(string startUid, string endUid, long modificationSequ
 
 ## DeleteMessages(IConnection, string, string, long, bool) {#deletemessages_15}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IConnection connection, string startUid, string endUid, 
@@ -537,7 +537,7 @@ public void DeleteMessages(IConnection connection, string startUid, string endUi
 | connection | IConnection | Подключение к серверу |
 | startUid | String | Начальный UID списка сообщений |
 | endUid | String | Конечный UID списка сообщений |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Смотрите также
@@ -606,7 +606,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -629,7 +629,7 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long mod
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, читайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 
 ### Смотрите также
 
@@ -642,7 +642,7 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long mod
 
 ## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_19}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, bool commitNow)
@@ -664,7 +664,7 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, bool com
 
 ## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, bool) {#deletemessages_3}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
@@ -689,7 +689,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 
 ## DeleteMessages(IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_21}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long modificationSequence, 
@@ -699,7 +699,7 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long mod
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Смотрите также
@@ -713,7 +713,7 @@ public void DeleteMessages(IEnumerable<ImapMessageInfo> messageInfoSet, long mod
 
 ## DeleteMessages(IConnection, IEnumerable&lt;ImapMessageInfo&gt;, long, bool) {#deletemessages_5}
 
-Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если это указывает пользователь. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Помечает сообщение с указанным уникальным идентификатором как удаленное и фиксирует удаление, если пользователь укажет это. Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> messageInfoSet, 
@@ -724,7 +724,7 @@ public void DeleteMessages(IConnection connection, IEnumerable<ImapMessageInfo> 
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
 | messageInfoSet | IEnumerable`1 | Набор ImapMessageInfo для удаления |
-| modificationSequence | Int64 | Последовательность модификации. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
+| modificationSequence | Int64 | Последовательность модификаций. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc7162 |
 | commitNow | Boolean | Определяет, должно ли сообщение быть зафиксировано сейчас. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315 |
 
 ### Смотрите также

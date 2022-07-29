@@ -1,14 +1,14 @@
 ---
 title: EmsAbNntpDistributionsFlag
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_NNTP_DISTRIBUTIONS_FLAG
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_NNTP_DISTRIBUTIONS_FLAG
 type: docs
 weight: 7680
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabnntpdistributionsflag/
 ---
 ## KnownPropertyList.EmsAbNntpDistributionsFlag field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_NNTP_DISTRIBUTIONS_FLAG
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_NNTP_DISTRIBUTIONS_FLAG
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbNntpDistributionsFlag;

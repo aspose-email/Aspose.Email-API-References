@@ -3,7 +3,7 @@ title: ContactLoadFormat
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет форматы загрузки контактов
 type: docs
-weight: 19300
+weight: 19330
 url: /ru/net/aspose.email.personalinfo/contactloadformat/
 ---
 ## ContactLoadFormat enumeration

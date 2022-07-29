@@ -1,14 +1,14 @@
 ---
 title: EmsAbPeriodRepSyncTimes
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_PERIOD_REP_SYNC_TIMES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_PERIOD_REP_SYNC_TIMES
 type: docs
 weight: 8050
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabperiodrepsynctimes/
 ---
 ## KnownPropertyList.EmsAbPeriodRepSyncTimes field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_PERIOD_REP_SYNC_TIMES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_PERIOD_REP_SYNC_TIMES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbPeriodRepSyncTimes;

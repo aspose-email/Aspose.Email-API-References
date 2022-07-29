@@ -1,14 +1,14 @@
 ---
 title: Send
 second_title: Справочник по Aspose.Email для .NET API
-description: Синхронно отправляет электронную почту
+description: Отправляет электронную почту синхронно
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/send/
 ---
 ## MailgunClient.Send method
 
-Синхронно отправляет электронную почту
+Отправляет электронную почту синхронно
 
 ```csharp
 public DeliveryServiceResponse<MailMessage> Send(MailMessage message, List<string> tags = null, 
@@ -17,9 +17,9 @@ public DeliveryServiceResponse<MailMessage> Send(MailMessage message, List<strin
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MailMessage | MailMessage, представляющий электронную почту. сообщение. |
+| message | MailMessage | Объект MailMessage, представляющий сообщение электронной почты. |
 | tags | List`1 |  |
-| токен | Nullable`1 |  |
+| token | Nullable`1 |  |
 
 ### Смотрите также
 

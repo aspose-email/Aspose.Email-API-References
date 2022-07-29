@@ -1,14 +1,14 @@
 ---
 title: ProfileConnectFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_CONNECT_FLAGS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_CONNECT_FLAGS
 type: docs
 weight: 14710
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileconnectflags/
 ---
 ## KnownPropertyList.ProfileConnectFlags field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_CONNECT_FLAGS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_CONNECT_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileConnectFlags;

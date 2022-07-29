@@ -16,17 +16,17 @@ public ExchangeFolderInfo GetFolderInfo(string folder)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | URI папки или различимая папка name |
+| folder | String | URI папки или отличительное имя папки |
 
 ### Возвращаемое значение
 
-A[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo)который представляет информацию о папке
+А[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) который представляет информацию о папке
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folder*is` null` или` empty` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folder* является`нулевой`или же`пустой` |
 | [ExchangeException](../../../aspose.email/exchangeexception) | Сервер ответил сообщением об ошибке |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: GetContact
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает контактную информацию по указанному идентификатору.
+description: Извлекает контактную информацию в соответствии с указанным идентификатором.
 type: docs
 weight: 900
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/getcontact/
 ---
 ## GetContact(ObjectIdentifier) {#getcontact}
 
-Получает контактную информацию по указанному идентификатору.
+Извлекает контактную информацию в соответствии с указанным идентификатором.
 
 ```csharp
 public Contact GetContact(ObjectIdentifier contactId)
@@ -20,7 +20,7 @@ public Contact GetContact(ObjectIdentifier contactId)
 
 ### Возвращаемое значение
 
-Контактная информация
+Контакты
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public Contact GetContact(ObjectIdentifier contactId)
 
 ## GetContact(ObjectIdentifier, ExchangeListContactsOptions) {#getcontact_1}
 
-Получает контактную информацию по указанному идентификатору.
+Извлекает контактную информацию в соответствии с указанным идентификатором.
 
 ```csharp
 public Contact GetContact(ObjectIdentifier contactId, ExchangeListContactsOptions options)
@@ -47,7 +47,7 @@ public Contact GetContact(ObjectIdentifier contactId, ExchangeListContactsOption
 
 ### Возвращаемое значение
 
-Контактная информация
+Контакты
 
 ### Смотрите также
 
@@ -62,7 +62,7 @@ public Contact GetContact(ObjectIdentifier contactId, ExchangeListContactsOption
 
 ## GetContact(string) {#getcontact_2}
 
-Получает контактную информацию по указанному идентификатору.
+Извлекает контактную информацию в соответствии с указанным идентификатором.
 
 ```csharp
 public Contact GetContact(string contactId)
@@ -74,7 +74,7 @@ public Contact GetContact(string contactId)
 
 ### Возвращаемое значение
 
-Контактная информация
+Контакты
 
 ### Смотрите также
 
@@ -87,7 +87,7 @@ public Contact GetContact(string contactId)
 
 ## GetContact(string, ExchangeListContactsOptions) {#getcontact_3}
 
-Получает контактную информацию по указанному идентификатору.
+Извлекает контактную информацию в соответствии с указанным идентификатором.
 
 ```csharp
 public Contact GetContact(string contactId, ExchangeListContactsOptions options)
@@ -100,7 +100,7 @@ public Contact GetContact(string contactId, ExchangeListContactsOptions options)
 
 ### Возвращаемое значение
 
-Контактная информация
+Контакты
 
 ### Смотрите также
 

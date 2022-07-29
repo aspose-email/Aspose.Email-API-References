@@ -1,14 +1,14 @@
 ---
 title: WriteFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Записывает сообщение в указанном формате в приложения.
+description: Записывает сообщение указанного формата в appenders.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.tools.logging/logger/writeformat/
 ---
 ## Logger.WriteFormat method
 
-Записывает сообщение в указанном формате в приложения.
+Записывает сообщение указанного формата в appenders.
 
 ```csharp
 public void WriteFormat(string format, params object[] arguments)
@@ -17,7 +17,7 @@ public void WriteFormat(string format, params object[] arguments)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | format | String |  |
-| аргументы | Object[] |  |
+| arguments | Object[] |  |
 
 ### Смотрите также
 

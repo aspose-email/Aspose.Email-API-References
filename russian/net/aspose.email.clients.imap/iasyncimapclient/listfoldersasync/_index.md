@@ -19,11 +19,11 @@ public Task<ImapFolderInfoCollection> ListFoldersAsync(string parentFolder = nul
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
+| parentFolder | String | Имя папки |
 | loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
-| options | ListFoldersOptions | Параметры операции |
-| returnOptions | ListFoldersReturnOptions | Возвращает опции операции |
-| connection | IConnection | Соединение с сервером |
+| options | ListFoldersOptions | Варианты работы |
+| returnOptions | ListFoldersReturnOptions | Варианты возврата для операции |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

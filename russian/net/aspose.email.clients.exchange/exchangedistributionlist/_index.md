@@ -1,14 +1,14 @@
 ---
 title: ExchangeDistributionList
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет свойства списка рассылки
+description: Представляет список рассылки properties
 type: docs
 weight: 3250
 url: /ru/net/aspose.email.clients.exchange/exchangedistributionlist/
 ---
 ## ExchangeDistributionList class
 
-Представляет свойства списка рассылки
+Представляет список рассылки properties
 
 ```csharp
 public class ExchangeDistributionList
@@ -25,7 +25,7 @@ public class ExchangeDistributionList
 | Имя | Описание |
 | --- | --- |
 | [ChangeKey](../../aspose.email.clients.exchange/exchangedistributionlist/changekey) { get; set; } | Изменить ключ списка |
-| [DisplayName](../../aspose.email.clients.exchange/exchangedistributionlist/displayname) { get; set; } | Показать имя списка |
+| [DisplayName](../../aspose.email.clients.exchange/exchangedistributionlist/displayname) { get; set; } | Отображаемое имя list |
 | [Id](../../aspose.email.clients.exchange/exchangedistributionlist/id) { get; set; } | Идентификатор списка |
 
 ## Методы

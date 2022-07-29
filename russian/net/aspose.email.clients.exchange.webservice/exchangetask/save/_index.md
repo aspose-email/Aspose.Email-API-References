@@ -30,7 +30,7 @@ public override void Save(Stream stream, TaskSaveFormat saveFormat)
 
 ## Save(string, TaskSaveFormat) {#save_3}
 
-Сохраняет текущий объект в файл с использованием указанного формата.
+Сохраняет текущий объект в файл в указанном формате.
 
 ```csharp
 public override void Save(string filePath, TaskSaveFormat saveFormat)

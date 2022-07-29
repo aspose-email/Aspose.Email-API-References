@@ -17,7 +17,7 @@ public AccessControlRule UpdateAccessRule(string calendarId, AccessControlRule r
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | calendarId | String | Идентификатор календаря. |
-| role | AccessControlRule | Правило управления доступом |
+| role | AccessControlRule | Правило контроля доступа |
 
 ### Возвращаемое значение
 

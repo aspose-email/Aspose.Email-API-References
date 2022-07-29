@@ -1,14 +1,14 @@
 ---
 title: MiniIcon
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_MINI_ICON
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_MINI_ICON
 type: docs
 weight: 12710
 url: /ru/net/aspose.email.mapi/knownpropertylist/miniicon/
 ---
 ## KnownPropertyList.MiniIcon field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_MINI_ICON
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_MINI_ICON
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MiniIcon;

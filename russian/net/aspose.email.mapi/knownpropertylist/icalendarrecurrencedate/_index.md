@@ -1,14 +1,14 @@
 ---
 title: ICalendarRecurrenceDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует массив экземпляров повторяющейся встречи. ОбластьОбщие Каноническое имяPidNameICalendarRecurrenceDate Альтернативные именаurnschemascalendarrdate
+description: Идентифицирует массив экземпляров повторяющейся встречи. Область Common Каноническое имя PidNameICalendarRecurrenceDate Альтернативные имена urnschemascalendarrdate
 type: docs
 weight: 11160
 url: /ru/net/aspose.email.mapi/knownpropertylist/icalendarrecurrencedate/
 ---
 ## KnownPropertyList.ICalendarRecurrenceDate field
 
-Идентифицирует массив экземпляров повторяющейся встречи. Область:Общие Каноническое имя:PidNameICalendarRecurrenceDate Альтернативные имена:urn:schemas:calendar:rdate
+Идентифицирует массив экземпляров повторяющейся встречи. Область: Common Каноническое имя: PidNameICalendarRecurrenceDate Альтернативные имена: urn:schemas:calendar:rdate
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ICalendarRecurrenceDate;

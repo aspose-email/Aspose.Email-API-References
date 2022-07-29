@@ -1,14 +1,14 @@
 ---
 title: VCardGeo
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет глобальное расположение контакта vCard
+description: Представляет глобальное расположение vCard contact
 type: docs
-weight: 19630
+weight: 19660
 url: /ru/net/aspose.email.personalinfo.vcard/vcardgeo/
 ---
 ## VCardGeo class
 
-Представляет глобальное расположение контакта vCard
+Представляет глобальное расположение vCard contact
 
 ```csharp
 public sealed class VCardGeo
@@ -18,14 +18,14 @@ public sealed class VCardGeo
 
 | Имя | Описание |
 | --- | --- |
-| [VCardGeo](vcardgeo)() | Инициализирует новый экземпляр класса[`VCardGeo`](../vcardgeo) |
+| [VCardGeo](vcardgeo)() | Инициализирует новый экземпляр[`VCardGeo`](../vcardgeo) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Latitude](../../aspose.email.personalinfo.vcard/vcardgeo/latitude) { get; set; } | Получает или устанавливает широту |
-| [Longitude](../../aspose.email.personalinfo.vcard/vcardgeo/longitude) { get; set; } | Получает или устанавливает долготу |
+| [Latitude](../../aspose.email.personalinfo.vcard/vcardgeo/latitude) { get; set; } | Получает или задает широту |
+| [Longitude](../../aspose.email.personalinfo.vcard/vcardgeo/longitude) { get; set; } | Получает или задает долготу |
 
 ### Смотрите также
 

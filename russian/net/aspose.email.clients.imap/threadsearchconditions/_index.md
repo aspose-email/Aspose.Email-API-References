@@ -1,14 +1,14 @@
 ---
 title: ThreadSearchConditions
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет условия поиска для извлечения ветки электронной почты. Совместимость с расширением THREAD IMAP описанным в https//tools.ietf.org/html/rfc5256
+description: Предоставляет условия поиска для извлечения ветки электронной почты. Совместимость с расширением THREAD IMAP описанным на странице https//tools.ietf.org/html/rfc5256
 type: docs
 weight: 16740
 url: /ru/net/aspose.email.clients.imap/threadsearchconditions/
 ---
 ## ThreadSearchConditions class
 
-Предоставляет условия поиска для извлечения ветки электронной почты. Совместимость с расширением THREAD IMAP, описанным в https://tools.ietf.org/html/rfc5256
+Предоставляет условия поиска для извлечения ветки электронной почты. Совместимость с расширением THREAD IMAP, описанным на странице https://tools.ietf.org/html/rfc5256
 
 ```csharp
 public sealed class ThreadSearchConditions : BaseSearchConditions
@@ -26,9 +26,9 @@ public sealed class ThreadSearchConditions : BaseSearchConditions
 | --- | --- |
 | [Algorithm](../../aspose.email.clients.imap/threadsearchconditions/algorithm) { get; set; } | Получает или задает алгоритм многопоточности, поддерживаемый сервером IMAP. |
 | [Charset](../../aspose.email.clients.imap/basesearchconditions/charset) { get; set; } | Получает или устанавливает кодировку. Указывает кодировку строк, которые появляются в критериях поиска. |
-| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | Получает или задает дату сообщения с , которой соответствуют критерии поиска. |
+| [Since](../../aspose.email.clients.imap/basesearchconditions/since) { get; set; } | Получает или задает дату сообщения начиная с , которая соответствует критериям поиска. |
 | [Text](../../aspose.email.clients.imap/basesearchconditions/text) { get; set; } | Получает или задает текст темы. |
-| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | Получает или задает значение, указывающее, возвращает ли метод порядковые номера или UID сообщений. |
+| [UseUId](../../aspose.email.clients.imap/basesearchconditions/useuid) { get; set; } | Получает или задает значение, указывающее, возвращает ли метод поиска порядковые номера или UID сообщений. |
 
 ### Смотрите также
 

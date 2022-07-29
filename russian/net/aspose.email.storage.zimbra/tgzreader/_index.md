@@ -3,7 +3,7 @@ title: TgzReader
 second_title: Справочник по Aspose.Email для .NET API
 description: Читатель элементов почтового ящика хранилища Zimbra tgz.
 type: docs
-weight: 20330
+weight: 20380
 url: /ru/net/aspose.email.storage.zimbra/tgzreader/
 ---
 ## TgzReader class
@@ -18,7 +18,7 @@ public class TgzReader : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [TgzReader](tgzreader)(string) | Инициализирует новый экземпляр класса[`TgzReader`](../tgzreader). |
+| [TgzReader](tgzreader)(string) | Инициализирует новый экземпляр[`TgzReader`](../tgzreader) класс. |
 
 ## Характеристики
 
@@ -31,8 +31,8 @@ public class TgzReader : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.storage.zimbra/tgzreader/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| [ExportTo](../../aspose.email.storage.zimbra/tgzreader/exportto)(string) | Сохранить сообщения и структуру каталогов по указанному пути. |
+| [Dispose](../../aspose.email.storage.zimbra/tgzreader/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| [ExportTo](../../aspose.email.storage.zimbra/tgzreader/exportto)(string) | Сохранить сообщения и структуру каталогов, используя заданный путь. |
 | [ReadNextMessage](../../aspose.email.storage.zimbra/tgzreader/readnextmessage)() | Читает следующее сообщение. |
 
 ### Смотрите также

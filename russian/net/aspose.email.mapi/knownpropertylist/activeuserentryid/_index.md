@@ -1,14 +1,14 @@
 ---
 title: ActiveUserEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ACTIVE_USER_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ACTIVE_USER_ENTRYID
 type: docs
 weight: 290
 url: /ru/net/aspose.email.mapi/knownpropertylist/activeuserentryid/
 ---
 ## KnownPropertyList.ActiveUserEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ACTIVE_USER_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ACTIVE_USER_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ActiveUserEntryid;

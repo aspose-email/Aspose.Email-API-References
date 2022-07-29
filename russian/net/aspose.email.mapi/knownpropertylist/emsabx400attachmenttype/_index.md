@@ -1,14 +1,14 @@
 ---
 title: EmsAbX400AttachmentType
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_X400_ATTACHMENT_TYPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_X400_ATTACHMENT_TYPE
 type: docs
 weight: 9650
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabx400attachmenttype/
 ---
 ## KnownPropertyList.EmsAbX400AttachmentType field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_X400_ATTACHMENT_TYPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_X400_ATTACHMENT_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbX400AttachmentType;

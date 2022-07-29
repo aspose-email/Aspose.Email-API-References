@@ -3,7 +3,7 @@ title: StandardIpmFolder
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет папки стандартных межличностных сообщений IPM.
 type: docs
-weight: 20300
+weight: 20350
 url: /ru/net/aspose.email.storage.pst/standardipmfolder/
 ---
 ## StandardIpmFolder enumeration
@@ -20,17 +20,17 @@ public enum StandardIpmFolder
 | --- | --- | --- |
 | Inbox | `0` | Папка "Входящие". |
 | DeletedItems | `1` | Папка "Удаленные". Клиентское приложение перемещает удаленные сообщения в папку "Удаленные". |
-| Outbox | `2` | Исходящие папки. Исходящие сообщения обычно создаются в папке Исходящие. |
+| Outbox | `2` | Папка Исходящие. Исходящие сообщения обычно создаются в папке Исходящие. |
 | SentItems | `3` | Папка "Отправленные". После отправки сообщения обычно помещаются в папку "Отправленные". |
 | Appointments | `4` | Папка календаря Outlook. |
 | Contacts | `5` | Папка контактов Outlook. |
-| Drafts | `6` | Папка Outlook Drafts. |
+| Drafts | `6` | Папка черновиков Outlook. |
 | Journal | `7` | Папка журнала Outlook. |
-| Notes | `8` | Папка Outlook Notes. |
+| Notes | `8` | Папка заметок Outlook. |
 | Tasks | `9` | Папка задач Outlook. |
-| SyncIssues | `10` | Папка с проблемами синхронизации |
+| SyncIssues | `10` | Проблемы с синхронизацией папки |
 | JunkEmail | `11` | Папка нежелательной почты |
-| Unspecified | `12` | Незаданное значение. |
+| Unspecified | `12` | Неуказанное значение. |
 
 ### Смотрите также
 

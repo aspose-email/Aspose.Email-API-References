@@ -1,14 +1,14 @@
 ---
 title: PostalCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит почтовый индекс почтового адреса пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagPostalCode Альтернативные именаPR_POSTAL_CODE PR_POSTAL_CODE_A PR_POSTAL_CODE_W PR_BUSINESS_ADDRESS_POTAL_CODE PR_BUSINESS_ADDRESS_POTAL_CODE_A
+description: Содержит почтовый индекс почтового адреса пользователя почты. Область MapiMailUser Каноническое имя PidTagPostalCode Альтернативные имена PR_POSTAL_CODE PR_POSTAL_CODE_A PR_POSTAL_CODE_W PR_BUSINESS_ADDRESS_POSTAL_CODE PR_xBUSINESS_0POS_ADDRESS_ADDRESS
 type: docs
 weight: 14370
 url: /ru/net/aspose.email.mapi/knownpropertylist/postalcode/
 ---
 ## KnownPropertyList.PostalCode field
 
-Содержит почтовый индекс почтового адреса пользователя почты. Область:MapiMailUser Каноническое имя:PidTagPostalCode Альтернативные имена:PR_POSTAL_CODE, PR_POSTAL_CODE_A, PR_POSTAL_CODE_W, PR_BUSINESS_ADDRESS_POTAL_CODE, PR_BUSINESS_ADDRESS_POTAL_CODE_A,
+Содержит почтовый индекс почтового адреса пользователя почты. Область: MapiMailUser Каноническое имя: PidTagPostalCode Альтернативные имена: PR_POSTAL_CODE, PR_POSTAL_CODE_A, PR_POSTAL_CODE_W, PR_BUSINESS_ADDRESS_POSTAL_CODE, PR_xBUSINESS_0POS_ADDRESS_ADDRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PostalCode;

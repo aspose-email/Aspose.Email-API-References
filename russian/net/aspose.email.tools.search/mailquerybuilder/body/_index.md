@@ -16,7 +16,7 @@ public StringComparisonField Body { get; }
 
 ### Стоимость имущества
 
-[`DateComparisonField`](../../datecomparisonfield), которое представляет поле поиска тела.
+[`DateComparisonField`](../../datecomparisonfield) который представляет поле поиска тела.
 
 ### Смотрите также
 

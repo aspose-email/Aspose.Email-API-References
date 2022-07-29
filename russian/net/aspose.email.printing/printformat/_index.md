@@ -1,14 +1,14 @@
 ---
 title: PrintFormat
 second_title: Справочник по Aspose.Email для .NET API
-description: Описывает возможные форматы печати дляMailPrinter./mailprinter.
+description: Описывает возможные форматы печати дляMailPrinter./mailprinter .
 type: docs
-weight: 19840
+weight: 19890
 url: /ru/net/aspose.email.printing/printformat/
 ---
 ## PrintFormat enumeration
 
-Описывает возможные форматы печати для[`MailPrinter`](../mailprinter).
+Описывает возможные форматы печати для[`MailPrinter`](../mailprinter) .
 
 ```csharp
 public enum PrintFormat

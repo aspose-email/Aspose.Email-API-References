@@ -16,8 +16,8 @@ public void Insert(int index, CustomerEvent value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить*value*. |
-| value | CustomerEvent | ОбъектObjectдля вставки в список. |
+| index | Int32 | Отсчитываемый от нуля индекс, при котором*value* следует вставить. |
+| value | CustomerEvent | Object вставить в список. |
 
 ### Смотрите также
 

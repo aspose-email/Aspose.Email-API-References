@@ -1,14 +1,14 @@
 ---
 title: VCardAgent
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаVCardAgentaspose.email.personalinfo.vcard/vcardagent
+description: Инициализирует новый экземплярVCardAgentaspose.email.personalinfo.vcard/vcardagent класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo.vcard/vcardagent/vcardagent/
 ---
 ## VCardAgent constructor
 
-Инициализирует новый экземпляр класса[`VCardAgent`](../../vcardagent)
+Инициализирует новый экземпляр[`VCardAgent`](../../vcardagent) класс
 
 ```csharp
 public VCardAgent()

@@ -1,14 +1,14 @@
 ---
 title: PR_BODY_HTML_W
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит тело текста в кодировке HTML. Компиляция ЮНИКОД.
+description: Содержит тело текста в кодировке HTML. Компиляция UNICODE.
 type: docs
 weight: 1040
 url: /ru/net/aspose.email.mapi/mapipropertytag/pr_body_html_w/
 ---
 ## MapiPropertyTag.PR_BODY_HTML_W field
 
-Содержит тело текста в кодировке HTML. Компиляция ЮНИКОД.
+Содержит тело текста в кодировке HTML. Компиляция UNICODE.
 
 ```csharp
 public static readonly long PR_BODY_HTML_W;

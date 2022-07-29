@@ -1,14 +1,14 @@
 ---
 title: EmsAbMonitorClock
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MONITOR_CLOCK
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MONITOR_CLOCK
 type: docs
 weight: 7270
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmonitorclock/
 ---
 ## KnownPropertyList.EmsAbMonitorClock field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MONITOR_CLOCK
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MONITOR_CLOCK
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMonitorClock;

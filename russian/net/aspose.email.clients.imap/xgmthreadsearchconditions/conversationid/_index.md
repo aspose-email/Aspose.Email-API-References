@@ -1,14 +1,14 @@
 ---
 title: ConversationId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает идентификатор беседы который Gmail предоставляет для связывания групп сообщений.
+description: Получает или задает идентификатор цепочки сообщений который Gmail предоставляет для связывания групп сообщений.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/xgmthreadsearchconditions/conversationid/
 ---
 ## XGMThreadSearchConditions.ConversationId property
 
-Получает или задает идентификатор беседы, который Gmail предоставляет для связывания групп сообщений.
+Получает или задает идентификатор цепочки сообщений, который Gmail предоставляет для связывания групп сообщений.
 
 ```csharp
 public string ConversationId { get; set; }

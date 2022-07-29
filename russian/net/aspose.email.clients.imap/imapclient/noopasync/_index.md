@@ -16,7 +16,7 @@ public Task NoopAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -41,7 +41,7 @@ public Task NoopAsync()
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом для этого операция
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -61,7 +61,7 @@ public Task NoopAsync(IConnection connection, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -79,7 +79,7 @@ public Task NoopAsync(IConnection connection, CancellationToken token)
 
 ## NoopAsync(CancellationToken) {#noopasync_3}
 
-Команда 'Нет операции'
+Команда "Нет операции"
 
 ```csharp
 public Task NoopAsync(CancellationToken token)
@@ -87,7 +87,7 @@ public Task NoopAsync(CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 

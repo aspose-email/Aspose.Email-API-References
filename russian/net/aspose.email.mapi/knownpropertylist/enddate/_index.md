@@ -1,14 +1,14 @@
 ---
 title: EndDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidLidAppointmentEndWhole раздел 2.14. ОбластьНабор свойств MapiEnvelope Каноническое имяPidTagEndDate Альтернативные именаPR_END_DATE http//schemas.microsoft.com/mapi/end_date
+description: Содержит значение свойства PidLidAppointmentEndWhole раздел 2.14
 type: docs
 weight: 9730
 url: /ru/net/aspose.email.mapi/knownpropertylist/enddate/
 ---
 ## KnownPropertyList.EndDate field
 
-Содержит значение свойства PidLidAppointmentEndWhole (раздел 2.14). Область:Набор свойств MapiEnvelope Каноническое имя:PidTagEndDate Альтернативные имена:PR_END_DATE, http://schemas.microsoft.com/mapi/end_date
+Содержит значение свойства PidLidAppointmentEndWhole (раздел 2.14)
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EndDate;

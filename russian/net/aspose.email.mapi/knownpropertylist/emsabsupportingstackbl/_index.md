@@ -1,14 +1,14 @@
 ---
 title: EmsAbSupportingStackBl
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SUPPORTING_STACK_BL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SUPPORTING_STACK_BL
 type: docs
 weight: 9040
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsupportingstackbl/
 ---
 ## KnownPropertyList.EmsAbSupportingStackBl field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SUPPORTING_STACK_BL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SUPPORTING_STACK_BL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSupportingStackBl;

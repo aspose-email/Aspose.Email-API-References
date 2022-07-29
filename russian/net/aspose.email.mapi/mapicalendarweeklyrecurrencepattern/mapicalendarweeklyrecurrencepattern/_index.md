@@ -1,14 +1,14 @@
 ---
 title: MapiCalendarWeeklyRecurrencePattern
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземплярMapiCalendarWeeklyRecurrencePatternaspose.email.mapi/mapicalendarweeklyrecurrencepatternclass
+description: Инициализирует новый экземплярMapiCalendarWeeklyRecurrencePatternaspose.email.mapi/mapicalendarweeklyrecurrencepattern класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicalendarweeklyrecurrencepattern/mapicalendarweeklyrecurrencepattern/
 ---
 ## MapiCalendarWeeklyRecurrencePattern constructor
 
-Инициализирует новый экземпляр[`MapiCalendarWeeklyRecurrencePattern`](../../mapicalendarweeklyrecurrencepattern)class
+Инициализирует новый экземпляр[`MapiCalendarWeeklyRecurrencePattern`](../../mapicalendarweeklyrecurrencepattern) класс
 
 ```csharp
 public MapiCalendarWeeklyRecurrencePattern()

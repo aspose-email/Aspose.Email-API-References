@@ -1,14 +1,14 @@
 ---
 title: ExtendedRuleSizeLimit
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит максимальный размер в байтах который пользователь может накапливать для одного расширенного правила. ОбластьПравила Каноническое имяPidTagExtendedRuleSizeLimit Альтернативные именаPR_EXTENDED_RULE_SIZE_LIMIT
+description: Содержит максимальный размер в байтах который пользователь может накапливать для одного расширенного правила. Область Rules Каноническое имя PidTagExtendedRuleSizeLimit Альтернативные имена PR_EXTENDED_RULE_SIZE_LIMIT
 type: docs
 weight: 10030
 url: /ru/net/aspose.email.mapi/knownpropertylist/extendedrulesizelimit/
 ---
 ## KnownPropertyList.ExtendedRuleSizeLimit field
 
-Содержит максимальный размер в байтах, который пользователь может накапливать для одного расширенного правила. Область:Правила Каноническое имя:PidTagExtendedRuleSizeLimit Альтернативные имена:PR_EXTENDED_RULE_SIZE_LIMIT
+Содержит максимальный размер в байтах, который пользователь может накапливать для одного расширенного правила. Область: Rules Каноническое имя: PidTagExtendedRuleSizeLimit Альтернативные имена: PR_EXTENDED_RULE_SIZE_LIMIT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExtendedRuleSizeLimit;

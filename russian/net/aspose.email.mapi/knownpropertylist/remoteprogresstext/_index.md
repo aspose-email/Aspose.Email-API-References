@@ -1,14 +1,14 @@
 ---
 title: RemoteProgressText
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REMOTE_PROGRESS_TEXT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REMOTE_PROGRESS_TEXT
 type: docs
 weight: 15800
 url: /ru/net/aspose.email.mapi/knownpropertylist/remoteprogresstext/
 ---
 ## KnownPropertyList.RemoteProgressText field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REMOTE_PROGRESS_TEXT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REMOTE_PROGRESS_TEXT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RemoteProgressText;

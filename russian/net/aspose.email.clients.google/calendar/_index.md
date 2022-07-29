@@ -1,14 +1,14 @@
 ---
 title: Calendar
 second_title: Справочник по Aspose.Email для .NET API
-description: Набор метаданных таких как описание для одного календаря.
+description: Набор метаданных например описание для одного календаря.
 type: docs
 weight: 15640
 url: /ru/net/aspose.email.clients.google/calendar/
 ---
 ## Calendar class
 
-Набор метаданных, таких как описание, для одного календаря.
+Набор метаданных, например описание, для одного календаря.
 
 ```csharp
 public class Calendar : BaseDataObject
@@ -31,7 +31,7 @@ public class Calendar : BaseDataObject
 | --- | --- |
 | virtual [ConferenceProperties](../../aspose.email.clients.google/calendar/conferenceproperties) { get; } | Получает свойства конференции для этого календаря. |
 | virtual [Description](../../aspose.email.clients.google/calendar/description) { get; set; } | Описание календаря. |
-| virtual [ETag](../../aspose.email.clients.google/basedataobject/etag) { get; set; } | ETag или тег сущности — это один из нескольких механизмов, которые HTTP предоставляет для проверки веб-кеша и который позволяет клиенту делать условные запросы. Это позволяет кэшировать более эффективно и экономит пропускную способность, поскольку веб-серверу не нужно отправлять полный ответ, если содержимое не изменилось. ETag также можно использовать для управления оптимистичным параллелизмом, чтобы предотвратить перезапись одновременных обновлений ресурса друг другом. |
+| virtual [ETag](../../aspose.email.clients.google/basedataobject/etag) { get; set; } | ETag или тег объекта — это один из нескольких механизмов, которые HTTP предоставляет для проверки веб-кеша и который позволяет клиенту делать условные запросы. Это позволяет повысить эффективность кэшей и экономит пропускную способность, поскольку веб-серверу не нужно отправлять полный ответ, если содержимое не изменилось. ETag также можно использовать для управления оптимистичным параллелизмом, чтобы предотвратить одновременные обновления ресурса от перезаписи друг друга. |
 | virtual [Id](../../aspose.email.clients.google/basedataobject/id) { get; set; } | Идентификатор ресурса. |
 | virtual [Kind](../../aspose.email.clients.google/basedataobject/kind) { get; } | Тип ресурса |
 | virtual [Location](../../aspose.email.clients.google/calendar/location) { get; set; } | Географическое положение календаря в виде текста произвольной формы. |

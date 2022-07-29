@@ -3,7 +3,7 @@ title: MailPrinter
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет принтер для почтовых сообщений.
 type: docs
-weight: 19820
+weight: 19870
 url: /ru/net/aspose.email.printing/mailprinter/
 ---
 ## MailPrinter class
@@ -18,15 +18,15 @@ public sealed class MailPrinter : IPrintSettingsProvider
 
 | Имя | Описание |
 | --- | --- |
-| [MailPrinter](mailprinter#constructor)() | Инициализирует новый экземпляр класса[`MailPrinter`](../mailprinter)с настройкой бумаги A4 для размера страницы и поля 0,5 дюйма. для всех сторон. |
-| [MailPrinter](mailprinter#constructor_1)(IPrintSettingsProvider) | Инициализирует новый экземпляр класса[`MailPrinter`](../mailprinter)с использованием заданного поставщика настроек. |
+| [MailPrinter](mailprinter#constructor)() | Инициализирует новый экземпляр[`MailPrinter`](../mailprinter) класс с настройкой бумаги формата A4 для размера страницы и полем 0,5 дюйма для всех сторон. |
+| [MailPrinter](mailprinter#constructor_1)(IPrintSettingsProvider) | Инициализирует новый экземпляр[`MailPrinter`](../mailprinter) класс, использующий заданный провайдер настроек. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [CultureName](../../aspose.email.printing/mailprinter/culturename) { get; set; } | Получает или задает имя языка и региональных параметров в формате код_языка2-страна/код_региона2. |
-| [DpiX](../../aspose.email.printing/mailprinter/dpix) { get; set; } | Получает или задает горизонтальное значение DPI. |
+| [DpiX](../../aspose.email.printing/mailprinter/dpix) { get; set; } | Получает или задает горизонтальный DPI. |
 | [DpiY](../../aspose.email.printing/mailprinter/dpiy) { get; set; } | Получает или задает вертикальный DPI. |
 | [FormattingFlags](../../aspose.email.printing/mailprinter/formattingflags) { get; set; } | Получает или задает параметры принтера. |
 | [MarginBottom](../../aspose.email.printing/mailprinter/marginbottom) { get; set; } | Получает или задает нижнее поле. |
@@ -34,7 +34,7 @@ public sealed class MailPrinter : IPrintSettingsProvider
 | [MarginRight](../../aspose.email.printing/mailprinter/marginright) { get; set; } | Получает или задает правое поле. |
 | [MarginTop](../../aspose.email.printing/mailprinter/margintop) { get; set; } | Получает или задает верхнее поле. |
 | [PageHeight](../../aspose.email.printing/mailprinter/pageheight) { get; set; } | Получает или задает высоту страницы. |
-| [PageUnit](../../aspose.email.printing/mailprinter/pageunit) { get; set; } | Получает или задает единицу страницы. |
+| [PageUnit](../../aspose.email.printing/mailprinter/pageunit) { get; set; } | Получает или задает единицу измерения страницы. |
 | [PageWidth](../../aspose.email.printing/mailprinter/pagewidth) { get; set; } | Получает или задает ширину страницы. |
 
 ## Методы

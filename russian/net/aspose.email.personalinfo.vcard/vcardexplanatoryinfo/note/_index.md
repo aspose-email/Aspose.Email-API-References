@@ -3,7 +3,7 @@ title: Note
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает или устанавливает комментарий
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/note/
 ---
 ## VCardExplanatoryInfo.Note property

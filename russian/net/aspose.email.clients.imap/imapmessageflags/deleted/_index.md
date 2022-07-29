@@ -1,14 +1,14 @@
 ---
 title: Deleted
 second_title: Справочник по Aspose.Email для .NET API
-description: Сообщение удалено для последующего удаления с помощью EXPUNGE.
+description: Сообщение удалено для последующего удаления EXPUNGE.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/imapmessageflags/deleted/
 ---
 ## ImapMessageFlags.Deleted property
 
-Сообщение "удалено" для последующего удаления с помощью EXPUNGE.
+Сообщение "удалено" для последующего удаления EXPUNGE.
 
 ```csharp
 public static ImapMessageFlags Deleted { get; }

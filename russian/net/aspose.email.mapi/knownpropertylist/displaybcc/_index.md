@@ -1,14 +1,14 @@
 ---
 title: DisplayBcc
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список отображаемых имен получателей скрытой копии СК. ОбластьСвойства сообщения Каноническое имяPidTagDisplayBcc Альтернативные именаPR_DISPLAY_BCC PR_DISPLAY_BCC_A ptagDisplayBcc PR_DISPLAY_BCC_W
+description: Содержит список отображаемых имен получателей скрытой копии СК. Область Свойства сообщения Каноническое имя PidTagDisplayBcc Альтернативные имена PR_DISPLAY_BCC PR_DISPLAY_BCC_A ptagDisplayBcc PR_DISPLAY_BCC_W
 type: docs
 weight: 4120
 url: /ru/net/aspose.email.mapi/knownpropertylist/displaybcc/
 ---
 ## KnownPropertyList.DisplayBcc field
 
-Содержит список отображаемых имен получателей скрытой копии (СК). Область:Свойства сообщения Каноническое имя:PidTagDisplayBcc Альтернативные имена:PR_DISPLAY_BCC, PR_DISPLAY_BCC_A, ptagDisplayBcc, PR_DISPLAY_BCC_W,
+Содержит список отображаемых имен получателей скрытой копии (СК). Область: Свойства сообщения Каноническое имя: PidTagDisplayBcc Альтернативные имена: PR_DISPLAY_BCC, PR_DISPLAY_BCC_A, ptagDisplayBcc, PR_DISPLAY_BCC_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayBcc;

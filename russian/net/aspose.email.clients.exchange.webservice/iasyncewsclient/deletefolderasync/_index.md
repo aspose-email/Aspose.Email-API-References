@@ -19,13 +19,13 @@ public Task DeleteFolderAsync(string folderUri, bool deletePermanently = false,
 | --- | --- | --- |
 | folderUri | String | URI папки |
 | deletePermanently | Boolean | Указывает, следует ли удалить папку навсегда или ее следует переместить в папку DeletedItems |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` или пустой |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* является`нулевой` или пустой |
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public class UnifiedMessagingConfiguration
 
 | Имя | Описание |
 | --- | --- |
-| [PlayOnPhoneDialString](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphonedialstring) { get; } | Воспроизвести строку набора номера телефона |
+| [PlayOnPhoneDialString](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphonedialstring) { get; } | Воспроизвести на телефоне строку набора номера |
 | [PlayOnPhoneEnabled](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphoneenabled) { get; } | Указывает, включено ли воспроизведение на телефоне |
 | [UMEnabled](../../aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/umenabled) { get; } | UMEnabled определяет, включен ли почтовый ящик для единой системы обмена сообщениями. |
 

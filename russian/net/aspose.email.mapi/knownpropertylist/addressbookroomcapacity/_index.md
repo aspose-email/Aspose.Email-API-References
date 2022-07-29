@@ -1,14 +1,14 @@
 ---
 title: AddressBookRoomCapacity
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит максимальную занятость комнаты. ОбластьАдресная книга Каноническое имяPidTagAddressBookRoomCapacity Альтернативные именаPR_EMS_AB_ROOM_CAPACITY
+description: Содержит максимальную вместимость комнаты. Область Адресная книга Каноническое имя PidTagAddressBookRoomCapacity Альтернативные имена PR_EMS_AB_ROOM_CAPACITY
 type: docs
 weight: 930
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookroomcapacity/
 ---
 ## KnownPropertyList.AddressBookRoomCapacity field
 
-Содержит максимальную занятость комнаты. Область:Адресная книга Каноническое имя:PidTagAddressBookRoomCapacity Альтернативные имена:PR_EMS_AB_ROOM_CAPACITY
+Содержит максимальную вместимость комнаты. Область: Адресная книга Каноническое имя: PidTagAddressBookRoomCapacity Альтернативные имена: PR_EMS_AB_ROOM_CAPACITY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookRoomCapacity;

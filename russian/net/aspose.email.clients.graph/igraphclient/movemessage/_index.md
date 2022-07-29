@@ -1,14 +1,14 @@
 ---
 title: MoveMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Переместить сообщение в другую папку.
+description: Переместить сообщение в другую почтовую папку.
 type: docs
 weight: 350
 url: /ru/net/aspose.email.clients.graph/igraphclient/movemessage/
 ---
 ## IGraphClient.MoveMessage method
 
-Переместить сообщение в другую папку.
+Переместить сообщение в другую почтовую папку.
 
 ```csharp
 public MapiMessage MoveMessage(string newParentId, string itemId)
@@ -17,7 +17,7 @@ public MapiMessage MoveMessage(string newParentId, string itemId)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newParentId | String | Идентификатор новой родительской папки |
-| itemId | String | Идентификатор элемента для быть перемещенным |
+| itemId | String | Идентификатор предмета, который нужно переместить |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: SendingAs
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает адрес электронной почты который пользователь пытается отправить.
+description: Получает или задает адрес электронной почты который пользователь пытается отправить как.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange.webservice/getmailtipsoptions/sendingas/
 ---
 ## GetMailTipsOptions.SendingAs property
 
-Получает или задает адрес электронной почты, который пользователь пытается отправить.
+Получает или задает адрес электронной почты, который пользователь пытается отправить как.
 
 ```csharp
 public MailAddress SendingAs { get; set; }
@@ -18,7 +18,7 @@ public MailAddress SendingAs { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *value*is` null` |
+| ArgumentNullException | *value* является`нулевой` |
 
 ### Смотрите также
 

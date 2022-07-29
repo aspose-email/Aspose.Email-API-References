@@ -1,14 +1,14 @@
 ---
 title: EmsAbHomeMta
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_HOME_MTA
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_HOME_MTA
 type: docs
 weight: 6620
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabhomemta/
 ---
 ## KnownPropertyList.EmsAbHomeMta field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_HOME_MTA
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_HOME_MTA
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHomeMta;

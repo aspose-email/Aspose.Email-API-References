@@ -3,7 +3,7 @@ title: MapiCalendarTimeZone
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет информацию о часовом поясе календаря mapi
 type: docs
-weight: 18090
+weight: 18120
 url: /ru/net/aspose.email.mapi/mapicalendartimezone/
 ---
 ## MapiCalendarTimeZone class
@@ -18,15 +18,15 @@ public sealed class MapiCalendarTimeZone
 
 | Имя | Описание |
 | --- | --- |
-| [MapiCalendarTimeZone](mapicalendartimezone#constructor)() | Инициализирует новый экземпляр класса[`MapiCalendarTimeZone`](../mapicalendartimezone). |
-| [MapiCalendarTimeZone](mapicalendartimezone#constructor_1)(TimeZoneInfo) | Создает новый экземпляр класса[`MapiCalendarTimeZone`](../mapicalendartimezone)из стандартного часового пояса. |
+| [MapiCalendarTimeZone](mapicalendartimezone#constructor)() | Инициализирует новый экземпляр[`MapiCalendarTimeZone`](../mapicalendartimezone) класс. |
+| [MapiCalendarTimeZone](mapicalendartimezone#constructor_1)(TimeZoneInfo) | Создает новый экземпляр[`MapiCalendarTimeZone`](../mapicalendartimezone) класс из стандартного часового пояса. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [KeyName](../../aspose.email.mapi/mapicalendartimezone/keyname) { get; set; } | Получает или задает удобочитаемое описание часового пояса |
-| [TimeZoneRules](../../aspose.email.mapi/mapicalendartimezone/timezonerules) { get; set; } | Получает или устанавливает правила часового пояса |
+| [TimeZoneRules](../../aspose.email.mapi/mapicalendartimezone/timezonerules) { get; set; } | Получает или задает правила часового пояса |
 
 ### Смотрите также
 

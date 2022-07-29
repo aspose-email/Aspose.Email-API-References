@@ -1,14 +1,14 @@
 ---
 title: DeleteInboxRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Удаляет указанное правило для папки Входящие
+description: Удаляет указанное правило папки Входящие
 type: docs
 weight: 630
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/deleteinboxrule/
 ---
 ## DeleteInboxRule(string) {#deleteinboxrule}
 
-Удаляет указанное правило для папки "Входящие"
+Удаляет указанное правило папки "Входящие"
 
 ```csharp
 public void DeleteInboxRule(string ruleId)
@@ -16,13 +16,13 @@ public void DeleteInboxRule(string ruleId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ruleId | String | Идентификатор правила для папки "Входящие" для удаления |
+| ruleId | String | Идентификатор правила для папки «Входящие», которое нужно удалить. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | выдает, когда*ruleId*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | бросает, когда*ruleId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public void DeleteInboxRule(string ruleId)
 
 ## DeleteInboxRule(string, string) {#deleteinboxrule_1}
 
-Удаляет указанное правило для папки "Входящие"
+Удаляет указанное правило папки "Входящие"
 
 ```csharp
 public void DeleteInboxRule(string ruleId, string mailbox)
@@ -42,14 +42,14 @@ public void DeleteInboxRule(string ruleId, string mailbox)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ruleId | String | Идентификатор правила для папки "Входящие" удалить |
-| mailbox | String | Почтовый ящик, в котором находится правило. Примечание:если установлено значение` null` или` empty` , правило будет искаться в почтовый ящик по умолчанию |
+| ruleId | String | Идентификатор правила для папки «Входящие», которое нужно удалить. |
+| mailbox | String | Почтовый ящик, в котором находится правило. Примечание: если установлено значение`нулевой`или же`пустой`, правило будет искаться в почтовом ящике по умолчанию |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | выдает, когда*ruleId*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | бросает, когда*ruleId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public StringComparisonField To { get; }
 
 ### Стоимость имущества
 
-[`DateComparisonField`](../../datecomparisonfield)представляет поле поиска TO.
+[`DateComparisonField`](../../datecomparisonfield) который представляет поле поиска TO.
 
 ### Смотрите также
 

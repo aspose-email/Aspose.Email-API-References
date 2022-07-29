@@ -1,14 +1,14 @@
 ---
 title: BackupSettings
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаBackupSettingsaspose.email.clients.imap/backupsettings
+description: Инициализирует новый экземплярBackupSettingsaspose.email.clients.imap/backupsettings класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/backupsettings/backupsettings/
 ---
 ## BackupSettings() {#constructor}
 
-Инициализирует новый экземпляр класса[`BackupSettings`](../../backupsettings)
+Инициализирует новый экземпляр[`BackupSettings`](../../backupsettings) класс
 
 ```csharp
 public BackupSettings()
@@ -24,7 +24,7 @@ public BackupSettings()
 
 ## BackupSettings(BackupOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`BackupSettings`](../../backupsettings)
+Инициализирует новый экземпляр[`BackupSettings`](../../backupsettings) класс
 
 ```csharp
 public BackupSettings(BackupOptions options)
@@ -32,7 +32,7 @@ public BackupSettings(BackupOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | BackupOptions | перечисляет параметры резервного копирования |
+| options | BackupOptions | перечисляет варианты резервного копирования |
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public BackupSettings(BackupOptions options)
 
 ## BackupSettings(bool, bool, int, int) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`BackupSettings`](../../backupsettings)
+Инициализирует новый экземпляр[`BackupSettings`](../../backupsettings) класс
 
 ```csharp
 public BackupSettings(bool executeRecursively, bool restoreConnection, int numberOfAttempts, 
@@ -55,9 +55,9 @@ public BackupSettings(bool executeRecursively, bool restoreConnection, int numbe
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | executeRecursively | Boolean | определяет, должно ли резервное копирование выполняться рекурсивно |
-| restoreConnection | Boolean | определяет, нужно ли восстанавливать соединение в случае если сервер принудительно закрывает соединение |
+| restoreConnection | Boolean | определяет, нужно ли восстанавливать соединение в случае, если сервер принудительно закрывает соединение |
 | numberOfAttempts | Int32 | определяет количество попыток повторить неудачную операцию |
-| timeoutBetweenAttempts | Int32 | определяет тайм-аут (в миллисекундах) между попытками повторного выполнения операции |
+| timeoutBetweenAttempts | Int32 | определяет тайм-аут (в миллисекундах) между попытками выполнить операцию снова |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: HighestModSequence
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение всех сообщений в почтовом ящике. Подробнееhttps//tools.ietf.org/html/rfc7162
+description: Получает значение всех сообщений в почтовом ящике. Подробнее https//tools.ietf.org/html/rfc7162
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/imapfolderinfo/highestmodsequence/
 ---
 ## ImapFolderInfo.HighestModSequence property
 
-Получает значение всех сообщений в почтовом ящике. Подробнее:https://tools.ietf.org/html/rfc7162
+Получает значение всех сообщений в почтовом ящике. Подробнее: https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public long HighestModSequence { get; }

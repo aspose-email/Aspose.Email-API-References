@@ -1,14 +1,14 @@
 ---
 title: MessageRecipientMe
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что принимающий почтовый ящик является основным получателем или получателем копии Cc этого сообщения электронной почты. ОбластьОбщие свойства сообщения Каноническое имяPidTagMessageRecipientMe Альтернативные именаPR_MESSAGE_RECIP_ME ptagMessageRecipMe
+description: Указывает что принимающий почтовый ящик является основным получателем или получателем копии Cc этого сообщения электронной почты. Область Общие свойства сообщения Каноническое имя PidTagMessageRecipientMe Альтернативные имена PR_MESSAGE_RECIP_ME ptagMessageRecipMe
 type: docs
 weight: 12570
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagerecipientme/
 ---
 ## KnownPropertyList.MessageRecipientMe field
 
-Указывает, что принимающий почтовый ящик является основным получателем или получателем копии (Cc) этого сообщения электронной почты. Область:Общие свойства сообщения Каноническое имя:PidTagMessageRecipientMe Альтернативные имена:PR_MESSAGE_RECIP_ME, ptagMessageRecipMe
+Указывает, что принимающий почтовый ящик является основным получателем или получателем копии (Cc) этого сообщения электронной почты. Область: Общие свойства сообщения Каноническое имя: PidTagMessageRecipientMe Альтернативные имена: PR_MESSAGE_RECIP_ME, ptagMessageRecipMe
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageRecipientMe;

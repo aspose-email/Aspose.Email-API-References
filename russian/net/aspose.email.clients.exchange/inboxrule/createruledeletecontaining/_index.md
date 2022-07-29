@@ -20,13 +20,13 @@ public static InboxRule CreateRuleDeleteContaining(string[] filter)
 
 ### Возвращаемое значение
 
-A created[`InboxRule`](../../inboxrule)
+Созданный[`InboxRule`](../../inboxrule)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *filter*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *filter* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

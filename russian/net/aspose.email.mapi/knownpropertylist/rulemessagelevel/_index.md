@@ -1,14 +1,14 @@
 ---
 title: RuleMessageLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит 0x00000000. Установите на сообщение FAI. ОбластьExchangeNonTransmittableReserved Каноническое имяPidTagRuleMessageLevel Альтернативные именаPR_RULE_MSG_LEVEL ptagRuleMsgLevel
+description: Содержит 0x00000000. Установите в сообщении FAI. Область ExchangeNonTransmittableReserved Каноническое имя PidTagRuleMessageLevel Альтернативные имена PR_RULE_MSG_LEVEL ptagRuleMsgLevel
 type: docs
 weight: 16520
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulemessagelevel/
 ---
 ## KnownPropertyList.RuleMessageLevel field
 
-Содержит 0x00000000. Установите на сообщение FAI. Область:ExchangeNonTransmittableReserved Каноническое имя:PidTagRuleMessageLevel Альтернативные имена:PR_RULE_MSG_LEVEL, ptagRuleMsgLevel
+Содержит 0x00000000. Установите в сообщении FAI. Область: ExchangeNonTransmittableReserved Каноническое имя: PidTagRuleMessageLevel Альтернативные имена: PR_RULE_MSG_LEVEL, ptagRuleMsgLevel
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageLevel;

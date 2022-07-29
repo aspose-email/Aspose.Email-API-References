@@ -1,14 +1,14 @@
 ---
 title: SharingParticipants
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingParticipants Альтернативные именаdispidSharingParticipants
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingParticipants Альтернативные имена dispidSharingParticipants
 type: docs
 weight: 17680
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingparticipants/
 ---
 ## KnownPropertyList.SharingParticipants field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingParticipants Альтернативные имена:dispidSharingParticipants
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingParticipants Альтернативные имена: dispidSharingParticipants
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingParticipants;

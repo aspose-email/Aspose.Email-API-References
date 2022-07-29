@@ -18,17 +18,17 @@ public class CalendarDeletionOptions : DeletionOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CalendarDeletionOptions](calendardeletionoptions#constructor)() | Инициализирует новый экземпляр класса[`CalendarDeletionOptions`](../calendardeletionoptions). |
-| [CalendarDeletionOptions](calendardeletionoptions#constructor_1)(DeletionType) | Инициализирует новый экземпляр класса[`CalendarDeletionOptions`](../calendardeletionoptions). |
-| [CalendarDeletionOptions](calendardeletionoptions#constructor_2)(DeletionType, CalendarItemCreateOrDeleteOperation) | Инициализирует новый экземпляр класса[`CalendarDeletionOptions`](../calendardeletionoptions). |
+| [CalendarDeletionOptions](calendardeletionoptions#constructor)() | Инициализирует новый экземпляр[`CalendarDeletionOptions`](../calendardeletionoptions) класс. |
+| [CalendarDeletionOptions](calendardeletionoptions#constructor_1)(DeletionType) | Инициализирует новый экземпляр[`CalendarDeletionOptions`](../calendardeletionoptions) класс. |
+| [CalendarDeletionOptions](calendardeletionoptions#constructor_2)(DeletionType, CalendarItemCreateOrDeleteOperation) | Инициализирует новый экземпляр[`CalendarDeletionOptions`](../calendardeletionoptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [Default](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/default) { get; } | Получает экземпляр объекта[`DeletionOptions`](../deletionoptions)с настройками, используемыми по умолчанию |
-| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/deletepermanently) { get; } | Получает экземпляр объекта[`DeletionOptions`](../deletionoptions)с настройками для безвозвратного удаления |
-| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/movetodeleteditems) { get; } | Получает экземпляр объекта[`DeletionOptions`](../deletionoptions)с настройками для перехода к удаленным элементам |
+| static [Default](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/default) { get; } | Получает экземпляр[`DeletionOptions`](../deletionoptions) объект с настройками использует по умолчанию |
+| static [DeletePermanently](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/deletepermanently) { get; } | Получает экземпляр[`DeletionOptions`](../deletionoptions) объект с настройками для постоянного удаления |
+| static [MoveToDeletedItems](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/movetodeleteditems) { get; } | Получает экземпляр[`DeletionOptions`](../deletionoptions) объект с настройками перехода к удаленным элементам |
 | [NotyficationType](../../aspose.email.clients.exchange.webservice/calendardeletionoptions/notyficationtype) { get; set; } | Получает или задает значение, указывающее, как должны быть уведомлены участники события |
 | [Type](../../aspose.email.clients.exchange.webservice/deletionoptions/type) { get; set; } | Тип удаления |
 

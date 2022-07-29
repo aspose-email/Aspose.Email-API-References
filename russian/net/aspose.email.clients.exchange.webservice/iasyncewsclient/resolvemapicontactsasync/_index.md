@@ -1,14 +1,14 @@
 ---
 title: ResolveMapiContactsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов  100. Это ограничение используемой операции EWS. .
+description: Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов  100. Это ограничение используемой операции EWS.
 type: docs
 weight: 590
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/resolvemapicontactsasync/
 ---
 ## IAsyncEwsClient.ResolveMapiContactsAsync method
 
-Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов — 100. Это ограничение используемой операции EWS. .
+Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов — 100. Это ограничение используемой операции EWS.
 
 ```csharp
 public Task<MapiContactCollection> ResolveMapiContactsAsync(string unresolvedEntry, 
@@ -18,11 +18,11 @@ public Task<MapiContactCollection> ResolveMapiContactsAsync(string unresolvedEnt
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | unresolvedEntry | String | Имя контакта для разрешения |
-| cancellationToken | CancellationToken | токен отмены |
+| cancellationToken | CancellationToken | Токен отмены |
 
 ### Возвращаемое значение
 
-A[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection)который представляет контактную информацию
+А[`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) который представляет контактную информацию
 
 ### Смотрите также
 

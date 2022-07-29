@@ -1,14 +1,14 @@
 ---
 title: IsContactLinked
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает связан ли контакт с другими контактами. ОбластьСвойства контакта Каноническое имяPidLidIsContactLinked Альтернативные именаdispidIsContactLinked
+description: Указывает связан ли контакт с другими контактами. Область Свойства контакта Каноническое имя PidLidIsContactLinked Альтернативные имена dispidIsContactLinked
 type: docs
 weight: 11800
 url: /ru/net/aspose.email.mapi/knownpropertylist/iscontactlinked/
 ---
 ## KnownPropertyList.IsContactLinked field
 
-Указывает, связан ли контакт с другими контактами. Область:Свойства контакта Каноническое имя:PidLidIsContactLinked Альтернативные имена:dispidIsContactLinked
+Указывает, связан ли контакт с другими контактами. Область: Свойства контакта Каноническое имя: PidLidIsContactLinked Альтернативные имена: dispidIsContactLinked
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IsContactLinked;

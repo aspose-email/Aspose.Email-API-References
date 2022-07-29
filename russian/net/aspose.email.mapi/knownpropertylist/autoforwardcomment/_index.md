@@ -1,14 +1,14 @@
 ---
 title: AutoForwardComment
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит текст включенный в автоматически сгенерированное сообщение. ОбластьОбщие свойства отчета Каноническое имяPidTagAutoForwardComment Альтернативные именаPR_AUTO_FORWARD_COMMENT_A PR_AUTO_FORWARD_COMMENT_W
+description: Содержит текст включенный в автоматически сгенерированное сообщение. Область Общие свойства отчета Каноническое имя PidTagAutoForwardComment Альтернативные имена PR_AUTO_FORWARD_COMMENT PR_AUTO_FORWARD_COMMENT_A PR_AUTO_FORWARD_COMMENT_W
 type: docs
 weight: 1900
 url: /ru/net/aspose.email.mapi/knownpropertylist/autoforwardcomment/
 ---
 ## KnownPropertyList.AutoForwardComment field
 
-Содержит текст, включенный в автоматически сгенерированное сообщение. Область:Общие свойства отчета Каноническое имя:PidTagAutoForwardComment Альтернативные имена:PR_AUTO_FORWARD_COMMENT_A, PR_AUTO_FORWARD_COMMENT_W
+Содержит текст, включенный в автоматически сгенерированное сообщение. Область: Общие свойства отчета Каноническое имя: PidTagAutoForwardComment Альтернативные имена: PR_AUTO_FORWARD_COMMENT, PR_AUTO_FORWARD_COMMENT_A, PR_AUTO_FORWARD_COMMENT_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AutoForwardComment;

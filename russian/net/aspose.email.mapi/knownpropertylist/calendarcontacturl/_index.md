@@ -1,14 +1,14 @@
 ---
 title: CalendarContactUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес по которому можно получить доступ к контактной информации в формате HTML. ОбластьОбщие Каноническое имяPidNameCalendarContactUrl Альтернативные именаurnschemascalendarcontacturl
+description: Определяет URL-адрес по которому вы можете получить доступ к контактной информации в формате HTML. Область Common Каноническое имя PidNameCalendarContactUrl Альтернативные имена urnschemascalendarcontacturl
 type: docs
 weight: 2210
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarcontacturl/
 ---
 ## KnownPropertyList.CalendarContactUrl field
 
-Указывает URL-адрес, по которому можно получить доступ к контактной информации в формате HTML. Область:Общие Каноническое имя:PidNameCalendarContactUrl Альтернативные имена:urn:schemas:calendar:contacturl
+Определяет URL-адрес, по которому вы можете получить доступ к контактной информации в формате HTML. Область: Common Каноническое имя: PidNameCalendarContactUrl Альтернативные имена: urn:schemas:calendar:contacturl
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarContactUrl;

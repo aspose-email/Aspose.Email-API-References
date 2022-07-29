@@ -1,14 +1,14 @@
 ---
 title: RecipientTrackStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Статус ответа получателя на приглашение на собрание.
+description: Статус ответа получателя на приглашение на встречу.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.mapi/mapirecipient/recipienttrackstatus/
 ---
 ## MapiRecipient.RecipientTrackStatus property
 
-Статус ответа получателя на приглашение на собрание.
+Статус ответа получателя на приглашение на встречу.
 
 ```csharp
 public MapiRecipientTrackStatus RecipientTrackStatus { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmsAbUserPassword
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_USER_PASSWORD
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_USER_PASSWORD
 type: docs
 weight: 9320
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabuserpassword/
 ---
 ## KnownPropertyList.EmsAbUserPassword field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_USER_PASSWORD
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_USER_PASSWORD
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbUserPassword;

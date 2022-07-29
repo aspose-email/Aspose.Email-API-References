@@ -18,21 +18,21 @@ public abstract class GraphClient : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| virtual [MultipleServicesTokenProvider](../../aspose.email.clients.graph/graphclient/multipleservicestokenprovider) { get; set; } | Получает или задает объект, позволяющий получить маркер доступа OAuth. |
-| virtual [Proxy](../../aspose.email.clients.graph/graphclient/proxy) { get; set; } | Получает или устанавливает данные для прокси-доступа к серверу Exchange. |
+| virtual [MultipleServicesTokenProvider](../../aspose.email.clients.graph/graphclient/multipleservicestokenprovider) { get; set; } | Получает или задает объект, позволяющий получить токен доступа OAuth. |
+| virtual [Proxy](../../aspose.email.clients.graph/graphclient/proxy) { get; set; } | Получает или задает данные для прокси-доступа к серверу Exchange. |
 | virtual [Resource](../../aspose.email.clients.graph/graphclient/resource) { get; set; } | Получает или задает тип ресурса. |
-| virtual [ResourceId](../../aspose.email.clients.graph/graphclient/resourceid) { get; set; } | Получает или устанавливает идентификатор ресурса. Например, для пользователей это может быть основное имя пользователя (UPN) или идентификатор пользователя |
+| virtual [ResourceId](../../aspose.email.clients.graph/graphclient/resourceid) { get; set; } | Получает или устанавливает идентификатор ресурса. Например, для пользователей это может быть имя участника-пользователя (UPN) или идентификатор пользователя |
 | virtual [TenantId](../../aspose.email.clients.graph/graphclient/tenantid) { get; set; } | Получает или задает идентификатор арендатора |
 | virtual [Timeout](../../aspose.email.clients.graph/graphclient/timeout) { get; set; } | Получает или задает количество миллисекунд ожидания до истечения времени ожидания операции. Значение по умолчанию — 100 000 миллисекунд (100 секунд). |
-| virtual [TokenProvider](../../aspose.email.clients.graph/graphclient/tokenprovider) { get; set; } | Получает или задает объект, позволяющий получить маркер доступа OAuth. |
+| virtual [TokenProvider](../../aspose.email.clients.graph/graphclient/tokenprovider) { get; set; } | Получает или задает объект, позволяющий получить токен доступа OAuth. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Dispose](../../aspose.email.clients.graph/graphclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | Инициализирует новый экземпляр класса[`GraphClient`](../graphclient)на основе |
-| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient_1)(ITokenProvider, string) | Инициализирует новый экземпляр класса[`GraphClient`](../graphclient)на основе |
+| virtual [Dispose](../../aspose.email.clients.graph/graphclient/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
+| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | Инициализирует новый экземпляр[`GraphClient`](../graphclient) на основе class |
+| static [GetClient](../../aspose.email.clients.graph/graphclient/getclient#getclient_1)(ITokenProvider, string) | Инициализирует новый экземпляр[`GraphClient`](../graphclient) на основе class |
 
 ### Смотрите также
 

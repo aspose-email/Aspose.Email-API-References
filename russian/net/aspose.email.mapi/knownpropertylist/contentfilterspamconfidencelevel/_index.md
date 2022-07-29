@@ -1,14 +1,14 @@
 ---
 title: ContentFilterSpamConfidenceLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает уровень уверенности в том что сообщение является спамом. ОбластьСвойства безопасного обмена сообщениями Каноническое имяPidTagContentFilterSpamConfidenceLevel Альтернативные именаPR_CONTENT_FILTER_SCL ptagContentFilterSCL
+description: Указывает уровень уверенности в том что сообщение является спамом. Область Свойства безопасного обмена сообщениями Каноническое имя PidTagContentFilterSpamConfidenceLevel Альтернативные имена PR_CONTENT_FILTER_SCL ptagContentFilterSCL
 type: docs
 weight: 3200
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentfilterspamconfidencelevel/
 ---
 ## KnownPropertyList.ContentFilterSpamConfidenceLevel field
 
-Указывает уровень уверенности в том, что сообщение является спамом. Область:Свойства безопасного обмена сообщениями Каноническое имя:PidTagContentFilterSpamConfidenceLevel Альтернативные имена:PR_CONTENT_FILTER_SCL, ptagContentFilterSCL
+Указывает уровень уверенности в том, что сообщение является спамом. Область: Свойства безопасного обмена сообщениями Каноническое имя: PidTagContentFilterSpamConfidenceLevel Альтернативные имена: PR_CONTENT_FILTER_SCL, ptagContentFilterSCL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentFilterSpamConfidenceLevel;

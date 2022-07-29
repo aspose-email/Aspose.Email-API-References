@@ -1,14 +1,14 @@
 ---
 title: ReadXml
 second_title: Справочник по Aspose.Email для .NET API
-description: Генерирует объект из его XML-представления. Не реализовано для класса ExchangeAdvancedMailQuery.
+description: Создает объект из его XML-представления. Не реализовано для класса ExchangeAdvancedMailQuery.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/readxml/
 ---
 ## ExchangeAdvancedSyntaxMailQuery.ReadXml method
 
-Генерирует объект из его XML-представления. Не реализовано для класса ExchangeAdvancedMailQuery.
+Создает объект из его XML-представления. Не реализовано для класса ExchangeAdvancedMailQuery.
 
 ```csharp
 public override void ReadXml(XmlReader reader)
@@ -16,7 +16,7 @@ public override void ReadXml(XmlReader reader)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| reader | XmlReader | ПотокXmlReader, из которого десериализуется объект. |
+| reader | XmlReader | XmlReader поток, из которого десериализуется объект. |
 
 ### Исключения
 

@@ -1,14 +1,14 @@
 ---
 title: VoiceMessageAttachmentOrder
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список имен файлов для вложений аудиофайлов которые должны воспроизводиться как часть сообщения. ОбластьЕдиная система обмена сообщениями Каноническое имяPidTagVoiceMessageAttachmentOrder Альтернативные именаInternalSchemaVoiceMessageAttachmentOrder
+description: Содержит список имен файлов для вложений аудиофайлов которые должны воспроизводиться как часть сообщения. Область Единая система обмена сообщениями Каноническое имя PidTagVoiceMessageAttachmentOrder Альтернативные имена InternalSchemaVoiceMessageAttachmentOrder
 type: docs
 weight: 19300
 url: /ru/net/aspose.email.mapi/knownpropertylist/voicemessageattachmentorder/
 ---
 ## KnownPropertyList.VoiceMessageAttachmentOrder field
 
-Содержит список имен файлов для вложений аудиофайлов, которые должны воспроизводиться как часть сообщения. Область:Единая система обмена сообщениями Каноническое имя:PidTagVoiceMessageAttachmentOrder Альтернативные имена:InternalSchemaVoiceMessageAttachmentOrder
+Содержит список имен файлов для вложений аудиофайлов, которые должны воспроизводиться как часть сообщения. Область: Единая система обмена сообщениями Каноническое имя: PidTagVoiceMessageAttachmentOrder Альтернативные имена: InternalSchemaVoiceMessageAttachmentOrder
 
 ```csharp
 public static readonly PidTagPropertyDescriptor VoiceMessageAttachmentOrder;

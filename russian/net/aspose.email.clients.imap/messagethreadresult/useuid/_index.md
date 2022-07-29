@@ -1,14 +1,14 @@
 ---
 title: UseUId
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее следует ли использовать тип метода UID.
+description: Получает значение указывающее должен ли использоваться метод типа UID.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.imap/messagethreadresult/useuid/
 ---
 ## MessageThreadResult.UseUId property
 
-Получает значение, указывающее, следует ли использовать тип метода UID.
+Получает значение, указывающее, должен ли использоваться метод типа UID.
 
 ```csharp
 public bool UseUId { get; }

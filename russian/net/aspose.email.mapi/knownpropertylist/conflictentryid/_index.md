@@ -1,14 +1,14 @@
 ---
 title: ConflictEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID сообщения разрешения конфликта. ОбластьICS Каноническое имяPidTagConflictEntryId Альтернативные именаPR_CONFLICT_ENTRYID ptagConflictEntryId
+description: Содержит EntryID сообщения разрешения конфликта. Область ICS Каноническое имя PidTagConflictEntryId Альтернативные имена PR_CONFLICT_ENTRYID ptagConflictEntryId
 type: docs
 weight: 2880
 url: /ru/net/aspose.email.mapi/knownpropertylist/conflictentryid/
 ---
 ## KnownPropertyList.ConflictEntryId field
 
-Содержит EntryID сообщения разрешения конфликта. Область:ICS Каноническое имя:PidTagConflictEntryId Альтернативные имена:PR_CONFLICT_ENTRYID, ptagConflictEntryId
+Содержит EntryID сообщения разрешения конфликта. Область: ICS Каноническое имя: PidTagConflictEntryId Альтернативные имена: PR_CONFLICT_ENTRYID, ptagConflictEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConflictEntryId;

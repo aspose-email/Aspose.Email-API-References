@@ -1,14 +1,14 @@
 ---
 title: DefaultViewEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DEFAULT_VIEW_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DEFAULT_VIEW_ENTRYID
 type: docs
 weight: 3740
 url: /ru/net/aspose.email.mapi/knownpropertylist/defaultviewentryid/
 ---
 ## KnownPropertyList.DefaultViewEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DEFAULT_VIEW_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DEFAULT_VIEW_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DefaultViewEntryid;

@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.imap/iasyncimapclient/subscribefolderasync/
 ---
 ## IAsyncImapClient.SubscribeFolderAsync method
 
-Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор "активных" почтовых ящиков сервера.
+Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор «активных» почтовых ящиков сервера.
 
 ```csharp
 public Task SubscribeFolderAsync(string folderName, IConnection connection = null, 
@@ -17,8 +17,8 @@ public Task SubscribeFolderAsync(string folderName, IConnection connection = nul
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | String | Соединение с сервером |
-| folderName | IConnection | Имя папка |
+| connection | String | Подключение к серверу |
+| folderName | IConnection | Имя папки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Смотрите также

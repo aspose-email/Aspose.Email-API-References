@@ -1,14 +1,14 @@
 ---
 title: ReferenceEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает значение EntryID объекта Contact если только объект Contact не является копией более раннего оригинала. ОбластьСвойства контакта Каноническое имяPidLidReferenceEntryId Альтернативные именаdispidReferenceEID
+description: Указывает значение EntryID объекта Contact если только объект Contact не является копией более раннего оригинала. Область Свойства контакта Каноническое имя PidLidReferenceEntryId Альтернативные имена dispidReferenceEID
 type: docs
 weight: 15630
 url: /ru/net/aspose.email.mapi/knownpropertylist/referenceentryid/
 ---
 ## KnownPropertyList.ReferenceEntryId field
 
-Задает значение EntryID объекта Contact, если только объект Contact не является копией более раннего оригинала. Область:Свойства контакта Каноническое имя:PidLidReferenceEntryId Альтернативные имена:dispidReferenceEID
+Указывает значение EntryID объекта Contact, если только объект Contact не является копией более раннего оригинала. Область: Свойства контакта Каноническое имя: PidLidReferenceEntryId Альтернативные имена: dispidReferenceEID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReferenceEntryId;

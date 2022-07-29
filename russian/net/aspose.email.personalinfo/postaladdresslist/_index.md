@@ -3,7 +3,7 @@ title: PostalAddressList
 second_title: Справочник по Aspose.Email для .NET API
 description: Список почтовых адресов для контакта.
 type: docs
-weight: 19480
+weight: 19510
 url: /ru/net/aspose.email.personalinfo/postaladdresslist/
 ---
 ## PostalAddressList class
@@ -24,7 +24,7 @@ public class PostalAddressList : IList<PostalAddress>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.email.personalinfo/postaladdresslist/count) { get; } | Получает количество элементов, содержащихся в коллекцииICollection. |
+| [Count](../../aspose.email.personalinfo/postaladdresslist/count) { get; } | Получает количество элементов, содержащихся вICollection . |
 | [HomeAddress](../../aspose.email.personalinfo/postaladdresslist/homeaddress) { get; set; } | Домашний адрес по умолчанию |
 | [IsReadOnly](../../aspose.email.personalinfo/postaladdresslist/isreadonly) { get; } | Получает значение, указывающее, доступен ли список только для чтения. |
 | [Item](../../aspose.email.personalinfo/postaladdresslist/item) { get; set; } | Получает или задает элемент по указанному индексу. |

@@ -18,12 +18,12 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя папки. |
-| defaultFolder | StandardIpmFolder | Значение перечисления[`StandardIpmFolder`](../../standardipmfolder). |
-| createHierarchy | Boolean | если установлено значение` true` , можно создать иерархию папок, используя строковую нотацию . Обратная косая черта ('\') используется как разделитель пути. |
+| defaultFolder | StandardIpmFolder | Значение[`StandardIpmFolder`](../../standardipmfolder) перечисление. |
+| createHierarchy | Boolean | если установлено`истинный`можно создать иерархию папок, используя строковую нотацию. Обратная косая черта ('\') используется как разделитель пути. |
 
 ### Возвращаемое значение
 
-A[`FolderInfo`](../../folderinfo)объект, представляющий стандартную папку IPM.
+А[`FolderInfo`](../../folderinfo) объект, представляющий стандартную папку IPM.
 
 ### Смотрите также
 
@@ -46,11 +46,11 @@ public FolderInfo CreatePredefinedFolder(string name, StandardIpmFolder defaultF
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя папки. |
-| defaultFolder | StandardIpmFolder | Значение перечисления[`StandardIpmFolder`](../../standardipmfolder). |
+| defaultFolder | StandardIpmFolder | Значение[`StandardIpmFolder`](../../standardipmfolder) перечисление. |
 
 ### Возвращаемое значение
 
-A[`FolderInfo`](../../folderinfo)объект, представляющий стандартную папку IPM.
+А[`FolderInfo`](../../folderinfo) объект, представляющий стандартную папку IPM.
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: MapiCalendarRecurrenceFrequency
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет частоту повторения календаря mapi
 type: docs
-weight: 18040
+weight: 18060
 url: /ru/net/aspose.email.mapi/mapicalendarrecurrencefrequency/
 ---
 ## MapiCalendarRecurrenceFrequency enumeration

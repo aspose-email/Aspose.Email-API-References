@@ -24,12 +24,12 @@ public void Add(string address, string displayName, MapiRecipientType recipientT
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выбрасывает, если адрес получателя нулевой или пустой. |
-| ArgumentException | выдает исключение, если адрес получателя находится в нераспознанном формате. |
+| ArgumentNullException | бросает, если адрес получателя нулевой или пустой. |
+| ArgumentException | бросает, если адрес получателя не находится в распознанном формате. |
 
 ### Примечания
 
-При добавлении нового получателя значение либо MapiMessage.DisplayTo или MapiMessage.DisplayBcc или MapiMessage.DisplayCC также обновляется в зависимости от типа получателя.
+При добавлении нового получателя значение либо MapiMessage.DisplayTo, либо MapiMessage.DisplayBcc, либо MapiMessage.DisplayCC также обновляется в зависимости от типа получателя.
 
 ### Смотрите также
 
@@ -60,12 +60,12 @@ public void Add(string address, string addressType, string displayName,
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выбрасывает, если адрес получателя нулевой или пустой. |
-| ArgumentException | выдает исключение, если адрес получателя находится в нераспознанном формате. |
+| ArgumentNullException | бросает, если адрес получателя нулевой или пустой. |
+| ArgumentException | бросает, если адрес получателя не находится в распознанном формате. |
 
 ### Примечания
 
-При добавлении нового получателя значение либо MapiMessage.DisplayTo или MapiMessage.DisplayBcc или MapiMessage.DisplayCC также обновляется в зависимости от типа получателя.
+При добавлении нового получателя значение либо MapiMessage.DisplayTo, либо MapiMessage.DisplayBcc, либо MapiMessage.DisplayCC также обновляется в зависимости от типа получателя.
 
 ### Смотрите также
 
@@ -78,7 +78,7 @@ public void Add(string address, string addressType, string displayName,
 
 ## Add(MapiRecipient) {#add}
 
-Добавляет объект в конецCollection.
+Добавляет объект в конецCollection .
 
 ```csharp
 public void Add(MapiRecipient item)
@@ -86,7 +86,7 @@ public void Add(MapiRecipient item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | MapiRecipient | Объект, добавляемый в конецCollection. Значение может быть нулевым для ссылочных типов. |
+| item | MapiRecipient | Объект, который нужно добавить в конецCollection. Значение может быть нулевым для ссылочных типов. |
 
 ### Смотрите также
 

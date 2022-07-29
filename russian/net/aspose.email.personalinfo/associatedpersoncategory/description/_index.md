@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает описание для категории Custom человека
+description: Получает описание для категории Пользовательский человека
 type: docs
 weight: 170
 url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/description/
 ---
 ## AssociatedPersonCategory.Description property
 
-Получает описание для категории 'Custom' человека
+Получает описание для категории «Пользовательский» человека
 
 ```csharp
 public string Description { get; }

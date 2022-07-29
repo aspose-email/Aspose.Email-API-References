@@ -1,14 +1,14 @@
 ---
 title: Deltay
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DELTAY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DELTAY
 type: docs
 weight: 3980
 url: /ru/net/aspose.email.mapi/knownpropertylist/deltay/
 ---
 ## KnownPropertyList.Deltay field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DELTAY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DELTAY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Deltay;

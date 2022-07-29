@@ -1,14 +1,14 @@
 ---
 title: BusyStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает доступность пользователя для события описываемого объектом. ОбластьКалендарь Каноническое имяPidLidBusyStatus Альтернативные именаdispidBusyStatus
+description: Определяет доступность пользователя для события описываемого объектом. Область Calendar Каноническое имя PidLidBusyStatus Альтернативные имена dispidBusyStatus
 type: docs
 weight: 2150
 url: /ru/net/aspose.email.mapi/knownpropertylist/busystatus/
 ---
 ## KnownPropertyList.BusyStatus field
 
-Указывает доступность пользователя для события, описываемого объектом. Область:Календарь Каноническое имя:PidLidBusyStatus Альтернативные имена:dispidBusyStatus
+Определяет доступность пользователя для события, описываемого объектом. Область: Calendar Каноническое имя: PidLidBusyStatus Альтернативные имена: dispidBusyStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BusyStatus;

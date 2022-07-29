@@ -20,7 +20,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder)
 
 ### Возвращаемое значение
 
-A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+А[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
 ### Смотрите также
 
@@ -46,7 +46,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 
 ### Возвращаемое значение
 
-A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+А[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
 ### Смотрите также
 
@@ -70,7 +70,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, string messageC
 | --- | --- | --- |
 | folder | String | Папка. |
 | messageClass | String | Класс сообщения. |
-| recursive | Boolean | , если установлено значение` true` [рекурсивный]. |
+| recursive | Boolean | если установлено`истинный` [рекурсивный]. |
 
 ### Смотрите также
 
@@ -91,12 +91,12 @@ public ExchangeMessageInfoCollection ListMessages(string folder, bool recursive)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | Папка Uri |
+| folder | String | Папка Ури |
 | recursive | Boolean | Указывает, рекурсивный листинг или нет. |
 
 ### Возвращаемое значение
 
-Коллекция информации о сообщениях
+Сбор информации о сообщениях
 
 ### Смотрите также
 
@@ -140,12 +140,12 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folder | String | Uri папки, содержащей сообщения. |
-| query | MailQuery | Объект[`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий критерии поиска. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска. |
 | recursive | Boolean | Указывает, рекурсивный листинг или нет. |
 
 ### Возвращаемое значение
 
-Коллекция информации о сообщениях.
+Коллекция сведений о сообщениях.
 
 ### Смотрите также
 
@@ -159,7 +159,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 
 ## ListMessages(string, ExchangeListMessagesOptions) {#listmessages_1}
 
-Список сообщений электронной почты в указанной папке.
+Список почтовых сообщений в указанной папке.
 
 ```csharp
 public ExchangeMessageInfoCollection ListMessages(string folder, 
@@ -169,11 +169,11 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folder | String | URL-адрес папки |
-| options | ExchangeListMessagesOptions | Задает настройки листинг |
+| options | ExchangeListMessagesOptions | Задает настройки листинга |
 
 ### Возвращаемое значение
 
-A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)коллекция.
+А[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) коллекция.
 
 ### Смотрите также
 
@@ -196,13 +196,13 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | Папка Uri |
+| folder | String | Папка Ури |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений |
 | options | ExchangeListMessagesOptions | Задает настройки листинга |
 
 ### Возвращаемое значение
 
-Коллекция информации о сообщениях
+Сбор информации о сообщениях
 
 ### Смотрите также
 

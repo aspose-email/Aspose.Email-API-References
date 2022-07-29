@@ -3,7 +3,7 @@ title: DomainValidatingEventArgs
 second_title: Справочник по Aspose.Email для .NET API
 description: Предоставляет данные для события DomainValidating.
 type: docs
-weight: 20730
+weight: 20780
 url: /ru/net/aspose.email.tools.verifications/domainvalidatingeventargs/
 ---
 ## DomainValidatingEventArgs class
@@ -25,10 +25,10 @@ public class DomainValidatingEventArgs : SyntaxValidatingEventArgs
 | Имя | Описание |
 | --- | --- |
 | [Domain](../../aspose.email.tools.verifications/domainvalidatingeventargs/domain) { get; } | Получает домен. |
-| [Mail](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/mail) { get; } | Получает проверяемый почтовый адрес. |
+| [Mail](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/mail) { get; } | Получает почтовый адрес, который проверяется. |
 | [MailAddress](../../aspose.email.tools.verifications/domainvalidatingeventargs/mailaddress) { get; } | Получает адрес электронной почты. |
 | [Result](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/result) { get; set; } | Получает или задает результат проверки. |
-| [Skip](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/skip) { get; set; } | Указывает, игнорировать ли проверку. |
+| [Skip](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/skip) { get; set; } | Указывает, следует ли игнорировать проверку. |
 
 ### Смотрите также
 

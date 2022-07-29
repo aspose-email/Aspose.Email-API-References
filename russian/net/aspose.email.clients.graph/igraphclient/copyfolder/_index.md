@@ -17,7 +17,7 @@ public FolderInfo CopyFolder(string newParentId, string itemId)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newParentId | String | Идентификатор новой родительской папки |
-| itemId | String | Идентификатор элемента для копируется |
+| itemId | String | Идентификатор элемента, который необходимо скопировать |
 
 ### Возвращаемое значение
 

@@ -3,7 +3,7 @@ title: MapiCalendarOverrideFlags
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает какие данные в структуре MapiCalendarOverrideFlags имеют значение отличное от повторяющегося ряда.
 type: docs
-weight: 18010
+weight: 18030
 url: /ru/net/aspose.email.mapi/mapicalendaroverrideflags/
 ---
 ## MapiCalendarOverrideFlags enumeration
@@ -24,7 +24,7 @@ public enum MapiCalendarOverrideFlags
 | ReminderDelta | `4` | Указывает, что поле ReminderDelta присутствует. |
 | Reminder | `8` | Указывает, что поле ReminderSet присутствует. |
 | Location | `10` | Указывает, что поля Location, LocationLength и LocationLength2 присутствуют. |
-| BusyStatus | `20` | Указывает, что поле BusyStatus присутствует. |
+| BusyStatus | `20` | Указывает на наличие поля BusyStatus. |
 | Attachment | `40` | Указывает, что поле вложения присутствует. |
 | Subtype | `80` | Указывает, что поле SubType присутствует. |
 | AppointmentColor | `100` | Зарезервировано для будущего использования и НЕ ДОЛЖНО устанавливаться. |

@@ -1,14 +1,14 @@
 ---
 title: ThreadSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживаются ли команды Thread
+description: Получает информацию о том поддерживается ли команда Thread
 type: docs
 weight: 310
 url: /ru/net/aspose.email.clients.imap/imapclient/threadsupported/
 ---
 ## ImapClient.ThreadSupported property
 
-Получает информацию о том, поддерживаются ли команды Thread
+Получает информацию о том, поддерживается ли команда Thread
 
 ```csharp
 public bool ThreadSupported { get; set; }

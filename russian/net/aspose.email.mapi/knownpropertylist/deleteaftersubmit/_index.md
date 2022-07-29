@@ -1,14 +1,14 @@
 ---
 title: DeleteAfterSubmit
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что исходное сообщение должно быть удалено после его отправки. ОбластьMapiNonTransmittable Каноническое имяPidTagDeleteAfterSubmit Альтернативные именаPR_DELETE_AFTER_SUBMIT ptagDeleteAfterSubmit
+description: Указывает что исходное сообщение должно быть удалено после его отправки. Область MapiNonTransmittable Каноническое имя PidTagDeleteAfterSubmit Альтернативные имена PR_DELETE_AFTER_SUBMIT ptagDeleteAfterSubmit
 type: docs
 weight: 3860
 url: /ru/net/aspose.email.mapi/knownpropertylist/deleteaftersubmit/
 ---
 ## KnownPropertyList.DeleteAfterSubmit field
 
-Указывает, что исходное сообщение должно быть удалено после его отправки. Область:MapiNonTransmittable Каноническое имя:PidTagDeleteAfterSubmit Альтернативные имена:PR_DELETE_AFTER_SUBMIT, ptagDeleteAfterSubmit
+Указывает, что исходное сообщение должно быть удалено после его отправки. Область: MapiNonTransmittable Каноническое имя: PidTagDeleteAfterSubmit Альтернативные имена: PR_DELETE_AFTER_SUBMIT, ptagDeleteAfterSubmit
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeleteAfterSubmit;

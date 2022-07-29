@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает строковое представление категории события
+description: Получает строковое представление категории событий
 type: docs
 weight: 60
 url: /ru/net/aspose.email.personalinfo/eventcategory/value/
 ---
 ## EventCategory.Value property
 
-Получает строковое представление категории события
+Получает строковое представление категории событий
 
 ```csharp
 public string Value { get; }

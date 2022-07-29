@@ -1,14 +1,14 @@
 ---
 title: AutoLog
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает приложению создавать ли объект журнала для каждого действия связанного с этим объектом контакта. ОбластьСвойства контакта Каноническое имяPidLidAutoLog Альтернативные именаdispidAutoLog
+description: Указывает приложению создавать ли объект журнала для каждого действия связанного с этим объектом контакта. Область Свойства контакта Каноническое имя PidLidAutoLog Альтернативные имена dispidAutoLog
 type: docs
 weight: 1920
 url: /ru/net/aspose.email.mapi/knownpropertylist/autolog/
 ---
 ## KnownPropertyList.AutoLog field
 
-Указывает приложению, создавать ли объект журнала для каждого действия, связанного с этим объектом контакта. Область:Свойства контакта Каноническое имя:PidLidAutoLog Альтернативные имена:dispidAutoLog
+Указывает приложению, создавать ли объект журнала для каждого действия, связанного с этим объектом контакта. Область: Свойства контакта Каноническое имя: PidLidAutoLog Альтернативные имена: dispidAutoLog
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AutoLog;

@@ -1,14 +1,14 @@
 ---
 title: AllowExternalCheck
 second_title: Справочник по Aspose.Email для .NET API
-description: Это свойство имеет значение TRUE. ОбластьКонференц-связь Каноническое имяPidLidAllowExternalCheck Альтернативные именаdispidAllowExternCheck
+description: Для этого свойства установлено значение TRUE. Область Conferencing Каноническое имя PidLidAllowExternalCheck Альтернативные имена dispidAllowExternCheck
 type: docs
 weight: 1050
 url: /ru/net/aspose.email.mapi/knownpropertylist/allowexternalcheck/
 ---
 ## KnownPropertyList.AllowExternalCheck field
 
-Это свойство имеет значение TRUE. Область:Конференц-связь Каноническое имя:PidLidAllowExternalCheck Альтернативные имена:dispidAllowExternCheck
+Для этого свойства установлено значение TRUE. Область: Conferencing Каноническое имя: PidLidAllowExternalCheck Альтернативные имена: dispidAllowExternCheck
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AllowExternalCheck;

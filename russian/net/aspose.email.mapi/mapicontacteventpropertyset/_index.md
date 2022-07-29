@@ -1,14 +1,14 @@
 ---
 title: MapiContactEventPropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Указать события связанные с контактом
+description: Укажите события связанные с контактом
 type: docs
-weight: 18200
+weight: 18230
 url: /ru/net/aspose.email.mapi/mapicontacteventpropertyset/
 ---
 ## MapiContactEventPropertySet class
 
-Указать события, связанные с контактом
+Укажите события, связанные с контактом
 
 ```csharp
 public sealed class MapiContactEventPropertySet
@@ -18,15 +18,15 @@ public sealed class MapiContactEventPropertySet
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor)() | Инициализирует новый экземпляр класса[`MapiContactEventPropertySet`](../mapicontacteventpropertyset) |
-| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр класса[`MapiContactEventPropertySet`](../mapicontacteventpropertyset) |
+| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor)() | Инициализирует новый экземпляр[`MapiContactEventPropertySet`](../mapicontacteventpropertyset) класс |
+| [MapiContactEventPropertySet](mapicontacteventpropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр[`MapiContactEventPropertySet`](../mapicontacteventpropertyset) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Birthday](../../aspose.email.mapi/mapicontacteventpropertyset/birthday) { get; set; } | Указывает день рождения контакта |
-| [WeddingAnniversary](../../aspose.email.mapi/mapicontacteventpropertyset/weddinganniversary) { get; set; } | Годовщина свадьбы контакта |
+| [WeddingAnniversary](../../aspose.email.mapi/mapicontacteventpropertyset/weddinganniversary) { get; set; } | Указывает годовщину свадьбы контакта |
 
 ### Смотрите также
 

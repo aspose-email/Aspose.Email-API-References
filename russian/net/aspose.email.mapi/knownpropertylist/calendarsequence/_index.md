@@ -1,14 +1,14 @@
 ---
 title: CalendarSequence
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает порядковый номер версии встречи. ОбластьОбщие Каноническое имяPidNameCalendarSequence Альтернативные именаurnschemascalendarsequence
+description: Указывает порядковый номер версии встречи. Область Common Каноническое имя PidNameCalendarSequence Альтернативные имена urnschemascalendarsequence
 type: docs
 weight: 2400
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarsequence/
 ---
 ## KnownPropertyList.CalendarSequence field
 
-Задает порядковый номер версии встречи. Область:Общие Каноническое имя:PidNameCalendarSequence Альтернативные имена:urn:schemas:calendar:sequence
+Указывает порядковый номер версии встречи. Область: Common Каноническое имя: PidNameCalendarSequence Альтернативные имена: urn:schemas:calendar:sequence
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarSequence;

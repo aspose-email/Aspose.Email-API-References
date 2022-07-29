@@ -1,14 +1,14 @@
 ---
 title: LastAccessTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_LAST_ACCESS_TIME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_LAST_ACCESS_TIME
 type: docs
 weight: 11960
 url: /ru/net/aspose.email.mapi/knownpropertylist/lastaccesstime/
 ---
 ## KnownPropertyList.LastAccessTime field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_LAST_ACCESS_TIME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_LAST_ACCESS_TIME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastAccessTime;

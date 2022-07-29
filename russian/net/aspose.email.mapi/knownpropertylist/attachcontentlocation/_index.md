@@ -1,14 +1,14 @@
 ---
 title: AttachContentLocation
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит относительный или полный URI который соответствует соответствующей ссылке в теле HTML объекта Message. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachContentLocation Альтернативные именаPR_ATTACH_CONTENT_LOCATION PR_ATTACH_CONTENT_LOCATION_A PR_ATTACH_CONTENT_LOCATION_W
+description: Содержит относительный или полный URI который соответствует соответствующей ссылке в теле HTML объекта Message. Область Свойства вложения сообщения Каноническое имя PidTagAttachContentLocation Альтернативные имена PR_ATTACH_CONTENT_LOCATION PR_ATTACH_CONTENT_LOCATION_A PR_ATTACH_CONTENT_LOCATION_W
 type: docs
 weight: 1540
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachcontentlocation/
 ---
 ## KnownPropertyList.AttachContentLocation field
 
-Содержит относительный или полный URI, который соответствует соответствующей ссылке в теле HTML объекта Message. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachContentLocation Альтернативные имена:PR_ATTACH_CONTENT_LOCATION, PR_ATTACH_CONTENT_LOCATION_A, PR_ATTACH_CONTENT_LOCATION_W
+Содержит относительный или полный URI, который соответствует соответствующей ссылке в теле HTML объекта Message. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachContentLocation Альтернативные имена: PR_ATTACH_CONTENT_LOCATION, PR_ATTACH_CONTENT_LOCATION_A, PR_ATTACH_CONTENT_LOCATION_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachContentLocation;

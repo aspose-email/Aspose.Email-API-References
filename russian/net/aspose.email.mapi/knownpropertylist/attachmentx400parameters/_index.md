@@ -1,14 +1,14 @@
 ---
 title: AttachmentX400Parameters
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ATTACHMENT_X400_PARAMETERS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ATTACHMENT_X400_PARAMETERS
 type: docs
 weight: 1690
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachmentx400parameters/
 ---
 ## KnownPropertyList.AttachmentX400Parameters field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ATTACHMENT_X400_PARAMETERS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ATTACHMENT_X400_PARAMETERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentX400Parameters;

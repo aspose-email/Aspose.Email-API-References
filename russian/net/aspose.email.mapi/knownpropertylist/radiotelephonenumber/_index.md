@@ -1,14 +1,14 @@
 ---
 title: RadioTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер радиотелефона пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagRadioTelephoneNumber Альтернативные именаPR_RADIO_TELEPHONE_NUMBER PR_RADIO_TELEPHONE_NUMBER_A PR_RADIO_TELEPHONE_NUMBER_W
+description: Содержит номер радиотелефона пользователя почты. Область MapiMailUser Каноническое имя PidTagRadioTelephoneNumber Альтернативные имена PR_RADIO_TELEPHONE_NUMBER PR_RADIO_TELEPHONE_NUMBER_A PR_RADIO_TELEPHONE_NUMBER_W
 type: docs
 weight: 15170
 url: /ru/net/aspose.email.mapi/knownpropertylist/radiotelephonenumber/
 ---
 ## KnownPropertyList.RadioTelephoneNumber field
 
-Содержит номер радиотелефона пользователя почты. Область:MapiMailUser Каноническое имя:PidTagRadioTelephoneNumber Альтернативные имена:PR_RADIO_TELEPHONE_NUMBER, PR_RADIO_TELEPHONE_NUMBER_A, PR_RADIO_TELEPHONE_NUMBER_W
+Содержит номер радиотелефона пользователя почты. Область: MapiMailUser Каноническое имя: PidTagRadioTelephoneNumber Альтернативные имена: PR_RADIO_TELEPHONE_NUMBER, PR_RADIO_TELEPHONE_NUMBER_A, PR_RADIO_TELEPHONE_NUMBER_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RadioTelephoneNumber;

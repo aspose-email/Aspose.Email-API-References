@@ -23,7 +23,7 @@ public MboxrdStorageReader(Stream stream, MboxLoadOptions options)
 
 ## MboxrdStorageReader(string, MboxLoadOptions) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MboxrdStorageReader`](../../mboxrdstoragereader).
+Инициализирует новый экземпляр[`MboxrdStorageReader`](../../mboxrdstoragereader) класс.
 
 ```csharp
 public MboxrdStorageReader(string fileName, MboxLoadOptions options)

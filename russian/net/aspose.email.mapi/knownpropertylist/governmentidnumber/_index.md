@@ -1,14 +1,14 @@
 ---
 title: GovernmentIdNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит правительственный идентификатор пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagGovernmentIdNumber Альтернативные именаPR_GOVERNMENT_ID_NUMBER PR_GOVERNMENT_ID_NUMBER_A
+description: Содержит правительственный идентификатор пользователя почты. Область MapiMailUser Каноническое имя PidTagGovernmentIdNumber Альтернативные имена PR_GOVERNMENT_ID_NUMBER PR_GOVERNMENT_ID_NUMBER_A
 type: docs
 weight: 10800
 url: /ru/net/aspose.email.mapi/knownpropertylist/governmentidnumber/
 ---
 ## KnownPropertyList.GovernmentIdNumber field
 
-Содержит правительственный идентификатор пользователя почты. Область:MapiMailUser Каноническое имя:PidTagGovernmentIdNumber Альтернативные имена:PR_GOVERNMENT_ID_NUMBER, PR_GOVERNMENT_ID_NUMBER_A,
+Содержит правительственный идентификатор пользователя почты. Область: MapiMailUser Каноническое имя: PidTagGovernmentIdNumber Альтернативные имена: PR_GOVERNMENT_ID_NUMBER, PR_GOVERNMENT_ID_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GovernmentIdNumber;

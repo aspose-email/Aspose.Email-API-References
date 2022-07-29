@@ -32,8 +32,8 @@ public Range(DateTime start, DateTime end)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| start | DateTime | Начало периода времени. |
-| end | DateTime | Конец периода времени. |
+| start | DateTime | Начало временного периода. |
+| end | DateTime | Конец временного периода. |
 
 ### Смотрите также
 

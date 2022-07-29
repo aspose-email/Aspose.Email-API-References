@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значения по умолчаниюVCardSaveOptionsaspose.email.personalinfo.vcard/vcardsaveoptions
+description: Получает значение по умолчаниюVCardSaveOptionsaspose.email.personalinfo.vcard/vcardsaveoptions
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsaveoptions/default/
 ---
 ## VCardSaveOptions.Default property
 
-Получает значения по умолчанию[`VCardSaveOptions`](../../vcardsaveoptions)
+Получает значение по умолчанию[`VCardSaveOptions`](../../vcardsaveoptions)
 
 ```csharp
 public static VCardSaveOptions Default { get; }

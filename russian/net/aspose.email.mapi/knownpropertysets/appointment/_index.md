@@ -1,14 +1,14 @@
 ---
 title: Appointment
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиКалендарь Имя набора свойствPSETID_Appointment
+description: Имя области Календарь Имя набора свойств PSETID_Appointment
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/knownpropertysets/appointment/
 ---
 ## KnownPropertySets.Appointment field
 
-Имя области:Календарь Имя набора свойств:PSETID_Appointment
+Имя области: Календарь Имя набора свойств: PSETID_Appointment
 
 ```csharp
 public static readonly Guid Appointment;

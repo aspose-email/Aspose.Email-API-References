@@ -1,14 +1,14 @@
 ---
 title: SharingLocalPath
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingLocalPath Альтернативные именаdispidSharingLocalPath
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingLocalPath Альтернативные имена dispidSharingLocalPath
 type: docs
 weight: 17620
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharinglocalpath/
 ---
 ## KnownPropertyList.SharingLocalPath field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingLocalPath Альтернативные имена:dispidSharingLocalPath
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingLocalPath Альтернативные имена: dispidSharingLocalPath
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingLocalPath;

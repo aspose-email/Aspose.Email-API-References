@@ -1,14 +1,14 @@
 ---
 title: EmsAbSiteProxySpace
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SITE_PROXY_SPACE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SITE_PROXY_SPACE
 type: docs
 weight: 8880
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsiteproxyspace/
 ---
 ## KnownPropertyList.EmsAbSiteProxySpace field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SITE_PROXY_SPACE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SITE_PROXY_SPACE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSiteProxySpace;

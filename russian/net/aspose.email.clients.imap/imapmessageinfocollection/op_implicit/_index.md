@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует коллекцию ImapMessageInfo в массив
+description: Преобразует коллекцию ImapMessageInfo в array
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.imap/imapmessageinfocollection/op_implicit/
 ---
 ## implicit operator {#op_implicit_2}
 
-Преобразует коллекцию ImapMessageInfo в массив
+Преобразует коллекцию ImapMessageInfo в array
 
 ```csharp
 public static implicit operator ImapMessageInfo[](ImapMessageInfoCollection messageInfoCol)
@@ -16,7 +16,7 @@ public static implicit operator ImapMessageInfo[](ImapMessageInfoCollection mess
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageInfoCol | ImapMessageInfoCollection | Коллекция ImapMessageInfo в convert |
+| messageInfoCol | ImapMessageInfoCollection | Коллекция ImapMessageInfo для преобразования |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ public static implicit operator ImapMessageInfo[](ImapMessageInfoCollection mess
 
 ## implicit operator {#op_implicit}
 
-Преобразует массив ImapMessageInfo в коллекцию
+Преобразует массив ImapMessageInfo в collection
 
 ```csharp
 public static implicit operator ImapMessageInfoCollection(ImapMessageInfo[] messageInfoArr)
@@ -41,7 +41,7 @@ public static implicit operator ImapMessageInfoCollection(ImapMessageInfo[] mess
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageInfoArr | ImapMessageInfo[] | Массив ImapMessageInfo в convert |
+| messageInfoArr | ImapMessageInfo[] | Массив ImapMessageInfo для преобразования |
 
 ### Возвращаемое значение
 
@@ -58,7 +58,7 @@ public static implicit operator ImapMessageInfoCollection(ImapMessageInfo[] mess
 
 ## implicit operator {#op_implicit_3}
 
-Преобразует коллекцию ImapMessageInfo в список
+Преобразует коллекцию ImapMessageInfo в list
 
 ```csharp
 public static implicit operator List<ImapMessageInfo>(ImapMessageInfoCollection messageInfoCol)
@@ -66,7 +66,7 @@ public static implicit operator List<ImapMessageInfo>(ImapMessageInfoCollection 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageInfoCol | ImapMessageInfoCollection | Коллекция ImapMessageInfo в convert |
+| messageInfoCol | ImapMessageInfoCollection | Коллекция ImapMessageInfo для преобразования |
 
 ### Возвращаемое значение
 
@@ -83,7 +83,7 @@ public static implicit operator List<ImapMessageInfo>(ImapMessageInfoCollection 
 
 ## implicit operator {#op_implicit_1}
 
-Преобразует список ImapMessageInfo в коллекцию
+Преобразует список ImapMessageInfo в collection
 
 ```csharp
 public static implicit operator ImapMessageInfoCollection(List<ImapMessageInfo> messageInfoLst)
@@ -91,7 +91,7 @@ public static implicit operator ImapMessageInfoCollection(List<ImapMessageInfo> 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageInfoLst | List`1 | Список ImapMessageInfo в convert |
+| messageInfoLst | List`1 | Список ImapMessageInfo для преобразования |
 
 ### Возвращаемое значение
 

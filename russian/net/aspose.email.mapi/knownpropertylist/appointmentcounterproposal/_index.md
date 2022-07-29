@@ -1,14 +1,14 @@
 ---
 title: AppointmentCounterProposal
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает является ли объект ответа на собрание встречным предложением. ОбластьВстречи Каноническое имяPidLidAppointmentCounterProposal Альтернативные именаdispidApptCounterProposal
+description: Указывает является ли объект ответа на собрание встречным предложением. Область Meetings Каноническое имя PidLidAppointmentCounterProposal Альтернативные имена dispidApptCounterProposal
 type: docs
 weight: 1130
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentcounterproposal/
 ---
 ## KnownPropertyList.AppointmentCounterProposal field
 
-Указывает, является ли объект ответа на собрание встречным предложением. Область:Встречи Каноническое имя:PidLidAppointmentCounterProposal Альтернативные имена:dispidApptCounterProposal
+Указывает, является ли объект ответа на собрание встречным предложением. Область: Meetings Каноническое имя: PidLidAppointmentCounterProposal Альтернативные имена: dispidApptCounterProposal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentCounterProposal;

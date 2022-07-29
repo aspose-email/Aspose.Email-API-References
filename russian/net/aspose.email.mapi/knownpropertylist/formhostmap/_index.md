@@ -1,14 +1,14 @@
 ---
 title: FormHostMap
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FORM_HOST_MAP
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FORM_HOST_MAP
 type: docs
 weight: 10570
 url: /ru/net/aspose.email.mapi/knownpropertylist/formhostmap/
 ---
 ## KnownPropertyList.FormHostMap field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FORM_HOST_MAP
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FORM_HOST_MAP
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FormHostMap;

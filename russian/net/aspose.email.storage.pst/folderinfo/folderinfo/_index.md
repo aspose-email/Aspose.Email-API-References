@@ -1,14 +1,14 @@
 ---
 title: FolderInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFolderInfoaspose.email.storage.pst/folderinfo.
+description: Инициализирует новый экземплярFolderInfoaspose.email.storage.pst/folderinfo класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.pst/folderinfo/folderinfo/
 ---
 ## FolderInfo constructor
 
-Инициализирует новый экземпляр класса[`FolderInfo`](../../folderinfo).
+Инициализирует новый экземпляр[`FolderInfo`](../../folderinfo) класс.
 
 ```csharp
 public FolderInfo()

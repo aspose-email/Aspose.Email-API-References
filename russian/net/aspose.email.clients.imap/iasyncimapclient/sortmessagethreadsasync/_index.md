@@ -1,14 +1,14 @@
 ---
 title: SortMessageThreadsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Сортировка веток сообщений.
+description: Сортировать цепочки сообщений.
 type: docs
 weight: 360
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/sortmessagethreadsasync/
 ---
 ## IAsyncImapClient.SortMessageThreadsAsync method
 
-Сортировка веток сообщений.
+Сортировать цепочки сообщений.
 
 ```csharp
 public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions conditions, 
@@ -17,13 +17,13 @@ public Task<List<MessageThreadResult>> SortMessageThreadsAsync(SortConditions co
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | SortConditions | Соединение с сервером |
+| connection | SortConditions | Подключение к серверу |
 | conditions | IConnection | Условия потока. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
-Темы сообщений
+Цепочки сообщений
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: UseAutocomplete
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что один электронный адрес заполняется автоматически в случае если пользователь не задает электронный адрес
+description: Указывает что один электронный адрес заполняется автоматически в случае если пользователь не задает какой-либо электронный адрес
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/useautocomplete/
 ---
 ## MapiContactElectronicAddressPropertySet.UseAutocomplete property
 
-Указывает, что один электронный адрес заполняется автоматически в случае, если пользователь не задает электронный адрес
+Указывает, что один электронный адрес заполняется автоматически в случае, если пользователь не задает какой-либо электронный адрес
 
 ```csharp
 public bool UseAutocomplete { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество страниц в файле прикрепленном к объекту Document. ОбластьОбщие Каноническое имяPidNamePageCount Альтернативные именаurnschemas-microsoft-comofficeofficePages
+description: Указывает количество страниц файла прикрепленного к объекту Document. Область Common Каноническое имя PidNamePageCount Альтернативные имена urnschemas-microsoft-comofficeofficePages
 type: docs
 weight: 14150
 url: /ru/net/aspose.email.mapi/knownpropertylist/pagecount/
 ---
 ## KnownPropertyList.PageCount field
 
-Указывает количество страниц в файле, прикрепленном к объекту Document. Область:Общие Каноническое имя:PidNamePageCount Альтернативные имена:urn:schemas-microsoft-com:office:office#Pages
+Указывает количество страниц файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNamePageCount Альтернативные имена: urn:schemas-microsoft-com:office:office#Pages
 
 ```csharp
 public static readonly PidNamePropertyDescriptor PageCount;

@@ -1,14 +1,14 @@
 ---
 title: DestFolder
 second_title: Справочник по Aspose.Email для .NET API
-description: Папка назначения для таких операций как Переместить.
+description: Папка назначения для таких операций как Move.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/destfolder/
 ---
 ## ExchangeMailboxAuditGroupActivity.DestFolder property
 
-Папка назначения для таких операций, как Переместить.
+Папка назначения для таких операций, как Move.
 
 ```csharp
 public ExchangeFolder DestFolder { get; set; }

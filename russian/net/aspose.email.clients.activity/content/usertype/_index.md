@@ -1,14 +1,14 @@
 ---
 title: UserType
 second_title: Справочник по Aspose.Email для .NET API
-description: Тип пользователя выполнившего операцию. ОбязательноДа
+description: Тип пользователя выполнившего операцию. Обязательно Да
 type: docs
 weight: 130
 url: /ru/net/aspose.email.clients.activity/content/usertype/
 ---
 ## Content.UserType property
 
-Тип пользователя, выполнившего операцию. Обязательно:Да
+Тип пользователя, выполнившего операцию. Обязательно: Да
 
 ```csharp
 public UserType UserType { get; set; }

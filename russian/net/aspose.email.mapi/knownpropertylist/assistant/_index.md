@@ -1,14 +1,14 @@
 ---
 title: Assistant
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя административного помощника пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagAssistant Альтернативные именаPR_ASSISTANT PR_ASSISTANT_A PR_ASSISTANT_W
+description: Содержит имя административного помощника пользователя почты. Область Address Properties Каноническое имя PidTagAssistant Альтернативные имена PR_ASSISTANT PR_ASSISTANT_A PR_ASSISTANT_W
 type: docs
 weight: 1440
 url: /ru/net/aspose.email.mapi/knownpropertylist/assistant/
 ---
 ## KnownPropertyList.Assistant field
 
-Содержит имя административного помощника пользователя почты. Область:Свойства адреса Каноническое имя:PidTagAssistant Альтернативные имена:PR_ASSISTANT, PR_ASSISTANT_A, PR_ASSISTANT_W,
+Содержит имя административного помощника пользователя почты. Область: Address Properties Каноническое имя: PidTagAssistant Альтернативные имена: PR_ASSISTANT, PR_ASSISTANT_A, PR_ASSISTANT_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Assistant;

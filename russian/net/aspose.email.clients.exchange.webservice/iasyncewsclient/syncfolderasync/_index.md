@@ -1,14 +1,14 @@
 ---
 title: SyncFolderAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает изменения элементов в указанной папке.
+description: Извлекает изменения элементов в указанной папке.
 type: docs
 weight: 650
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/syncfolderasync/
 ---
 ## IAsyncEwsClient.SyncFolderAsync method
 
-Получает изменения элементов в указанной папке.
+Извлекает изменения элементов в указанной папке.
 
 ```csharp
 public Task<SyncFolderResult> SyncFolderAsync(SyncState syncState, 
@@ -18,7 +18,7 @@ public Task<SyncFolderResult> SyncFolderAsync(SyncState syncState,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | syncState | SyncState | Состояние синхронизации. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

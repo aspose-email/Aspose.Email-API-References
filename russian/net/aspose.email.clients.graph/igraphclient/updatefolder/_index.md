@@ -1,14 +1,14 @@
 ---
 title: UpdateFolder
 second_title: Справочник по Aspose.Email для .NET API
-description: Обновляет папку.
+description: Папка обновлений.
 type: docs
 weight: 390
 url: /ru/net/aspose.email.clients.graph/igraphclient/updatefolder/
 ---
 ## IGraphClient.UpdateFolder method
 
-Обновляет папку.
+Папка обновлений.
 
 ```csharp
 public FolderInfo UpdateFolder(FolderInfo folderInfo)

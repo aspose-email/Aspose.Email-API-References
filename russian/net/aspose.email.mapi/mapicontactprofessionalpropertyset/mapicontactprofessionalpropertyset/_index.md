@@ -1,14 +1,14 @@
 ---
 title: MapiContactProfessionalPropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiContactProfessionalPropertySetaspose.email.mapi/mapicontactprofessionalpropertyset.
+description: Инициализирует новый экземплярMapiContactProfessionalPropertySetaspose.email.mapi/mapicontactprofessionalpropertyset класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapicontactprofessionalpropertyset/mapicontactprofessionalpropertyset/
 ---
 ## MapiContactProfessionalPropertySet() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiContactProfessionalPropertySet`](../../mapicontactprofessionalpropertyset).
+Инициализирует новый экземпляр[`MapiContactProfessionalPropertySet`](../../mapicontactprofessionalpropertyset) класс.
 
 ```csharp
 public MapiContactProfessionalPropertySet()
@@ -24,7 +24,7 @@ public MapiContactProfessionalPropertySet()
 
 ## MapiContactProfessionalPropertySet(string, string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MapiContactProfessionalPropertySet`](../../mapicontactprofessionalpropertyset).
+Инициализирует новый экземпляр[`MapiContactProfessionalPropertySet`](../../mapicontactprofessionalpropertyset) класс.
 
 ```csharp
 public MapiContactProfessionalPropertySet(string companyName, string title)
@@ -45,7 +45,7 @@ public MapiContactProfessionalPropertySet(string companyName, string title)
 
 ## MapiContactProfessionalPropertySet(MapiPropertyCollection) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiContactProfessionalPropertySet`](../../mapicontactprofessionalpropertyset)class
+Инициализирует новый экземпляр[`MapiContactProfessionalPropertySet`](../../mapicontactprofessionalpropertyset) класс
 
 ```csharp
 public MapiContactProfessionalPropertySet(MapiPropertyCollection properties)
@@ -53,7 +53,7 @@ public MapiContactProfessionalPropertySet(MapiPropertyCollection properties)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| properties | MapiPropertyCollection | A[`MapiPropertyCollection`](../../mapipropertycollection)содержит профессиональные свойства контакта |
+| properties | MapiPropertyCollection | А[`MapiPropertyCollection`](../../mapipropertycollection) содержащие контактные профессиональные свойства |
 
 ### Смотрите также
 

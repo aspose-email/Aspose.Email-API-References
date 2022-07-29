@@ -1,14 +1,14 @@
 ---
 title: PrimarySendAccount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает первый сервер который клиент должен использовать для отправки электронной почты. ОбластьMapiNonTransmittable Каноническое имяPidTagPrimarySendAccount Альтернативные именаPR_PRIMARY_SEND_ACCT
+description: Указывает первый сервер который клиент должен использовать для отправки электронной почты. Область MapiNonTransmittable Каноническое имя PidTagPrimarySendAccount Альтернативные имена PR_PRIMARY_SEND_ACCT
 type: docs
 weight: 14590
 url: /ru/net/aspose.email.mapi/knownpropertylist/primarysendaccount/
 ---
 ## KnownPropertyList.PrimarySendAccount field
 
-Указывает первый сервер, который клиент должен использовать для отправки электронной почты. Область:MapiNonTransmittable Каноническое имя:PidTagPrimarySendAccount Альтернативные имена:PR_PRIMARY_SEND_ACCT
+Указывает первый сервер, который клиент должен использовать для отправки электронной почты. Область: MapiNonTransmittable Каноническое имя: PidTagPrimarySendAccount Альтернативные имена: PR_PRIMARY_SEND_ACCT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PrimarySendAccount;

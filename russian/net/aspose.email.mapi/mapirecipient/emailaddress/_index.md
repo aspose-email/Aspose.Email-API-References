@@ -22,12 +22,12 @@ public string EmailAddress { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выбрасывает, если адрес получателя нулевой или пустой. |
-| ArgumentException | выдает исключение, если адрес получателя находится в нераспознанном формате. |
+| ArgumentNullException | бросает, если адрес получателя нулевой или пустой. |
+| ArgumentException | бросает, если адрес получателя не находится в распознанном формате. |
 
 ### Примечания
 
-Обратите внимание, это свойство отображает адрес в формате SMTP. Это означает, что если MapiRecipient.AddressType == "EX" и MapiPropertyTag.PR_EMAIL_ADDRESS содержат адрес в стиле Exchange, значение для mapiRecipient.EmailAddress заполнение свойства выбирается из PR_SMTP_ADDRESS. При установке значения также обновляются значения свойств PR_SEARCH_KEY и PR_ENTRYID.
+Обратите внимание, это свойство отображает адрес в формате SMTP. Означает, что если MapiRecipient.AddressType == "EX" и MapiPropertyTag.PR_EMAIL_ADDRESS содержат адрес в стиле Exchange, значение для заполнения свойства mapiRecipient.EmailAddress выбирается из PR_SMTP_ADDRESS. При установке значения значения PR_SEARCH_KEY Также обновлены свойства и PR_ENTRYID.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: NonReceiptNotificationRequested
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает отправляет ли клиент уведомление о непрочтении. ОбластьЭлектронная почта Каноническое имяPidTagNonReceiptNotificationRequested Альтернативные именаPR_NON_RECEIPT_NOTIFICATION_REQUESTED
+description: Указывает отправляет ли клиент уведомление о непрочтении. Область Email Каноническое имя PidTagNonReceiptNotificationRequested Альтернативные имена PR_NON_RECEIPT_NOTIFICATION_REQUESTED
 type: docs
 weight: 12990
 url: /ru/net/aspose.email.mapi/knownpropertylist/nonreceiptnotificationrequested/
 ---
 ## KnownPropertyList.NonReceiptNotificationRequested field
 
-Указывает, отправляет ли клиент уведомление о непрочтении. Область:Электронная почта Каноническое имя:PidTagNonReceiptNotificationRequested Альтернативные имена:PR_NON_RECEIPT_NOTIFICATION_REQUESTED
+Указывает, отправляет ли клиент уведомление о непрочтении. Область: Email Каноническое имя: PidTagNonReceiptNotificationRequested Альтернативные имена: PR_NON_RECEIPT_NOTIFICATION_REQUESTED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonReceiptNotificationRequested;

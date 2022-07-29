@@ -3,7 +3,7 @@ title: ValidationResult
 second_title: Справочник по Aspose.Email для .NET API
 description: Представьте результат проверки электронной почты.
 type: docs
-weight: 20820
+weight: 20870
 url: /ru/net/aspose.email.tools.verifications/validationresult/
 ---
 ## ValidationResult class
@@ -19,8 +19,8 @@ public class ValidationResult
 | Имя | Описание |
 | --- | --- |
 | [ValidationResult](validationresult#constructor)() | Создать экземпляр класса ValidationResult |
-| [ValidationResult](validationresult#constructor_1)(ValidationResponseCode) | Создать экземпляр класса ValidationResult с указанным ValidationResponseCode |
-| [ValidationResult](validationresult#constructor_2)(ValidationResponseCode, Exception) | Создать экземпляр класса ValidationResult с указанным ValidationResponseCodeИ последнее исключение. |
+| [ValidationResult](validationresult#constructor_1)(ValidationResponseCode) | Создать экземпляр класса ValidationResult с указаннымВалидатионреспонсекоде |
+| [ValidationResult](validationresult#constructor_2)(ValidationResponseCode, Exception) | Создать экземпляр класса ValidationResult с указаннымВалидатионреспонсекоде , и последнее исключение. |
 
 ## Характеристики
 

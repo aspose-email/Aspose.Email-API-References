@@ -1,14 +1,14 @@
 ---
 title: DisplayCc
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список отображаемых имен получателей копий Cc. ОбластьСвойства сообщения Каноническое имяPidTagDisplayCc Альтернативные именаPR_DISPLAY_CC PR_DISPLAY_CC_A ptagDisplayCc PR_DISPLAY_CC_W
+description: Содержит список отображаемых имен получателей копий. Область Свойства сообщения Каноническое имя PidTagDisplayCc Альтернативные имена PR_DISPLAY_CC PR_DISPLAY_CC_A ptagDisplayCc PR_DISPLAY_CC_W
 type: docs
 weight: 4130
 url: /ru/net/aspose.email.mapi/knownpropertylist/displaycc/
 ---
 ## KnownPropertyList.DisplayCc field
 
-Содержит список отображаемых имен получателей копий (Cc). Область:Свойства сообщения Каноническое имя:PidTagDisplayCc Альтернативные имена:PR_DISPLAY_CC, PR_DISPLAY_CC_A, ptagDisplayCc, PR_DISPLAY_CC_W,
+Содержит список отображаемых имен получателей копий. Область: Свойства сообщения Каноническое имя: PidTagDisplayCc Альтернативные имена: PR_DISPLAY_CC, PR_DISPLAY_CC_A, ptagDisplayCc, PR_DISPLAY_CC_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayCc;

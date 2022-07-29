@@ -1,14 +1,14 @@
 ---
 title: GetSubFolders
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает набор вложенных папок.
+description: Получает коллекцию подпапок.
 type: docs
 weight: 300
 url: /ru/net/aspose.email.storage.pst/folderinfo/getsubfolders/
 ---
 ## GetSubFolders() {#getsubfolders}
 
-Получает набор вложенных папок.
+Получает коллекцию подпапок.
 
 ```csharp
 public FolderInfoCollection GetSubFolders()
@@ -29,7 +29,7 @@ public FolderInfoCollection GetSubFolders()
 
 ## GetSubFolders(FolderKind) {#getsubfolders_1}
 
-Получает набор вложенных папок.
+Получает коллекцию подпапок.
 
 ```csharp
 public FolderInfoCollection GetSubFolders(FolderKind kind)
@@ -37,7 +37,7 @@ public FolderInfoCollection GetSubFolders(FolderKind kind)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| kind | FolderKind | The[`FolderKind`](../../folderkind)который представляет тип папки. |
+| kind | FolderKind | [`FolderKind`](../../folderkind) который представляет тип папки. |
 
 ### Возвращаемое значение
 
@@ -55,7 +55,7 @@ public FolderInfoCollection GetSubFolders(FolderKind kind)
 
 ## GetSubFolders(MailQuery) {#getsubfolders_2}
 
-Получает набор вложенных папок.
+Получает коллекцию подпапок.
 
 ```csharp
 public FolderInfoCollection GetSubFolders(MailQuery query)
@@ -63,7 +63,7 @@ public FolderInfoCollection GetSubFolders(MailQuery query)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), представляющий поисковый запрос. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет поисковый запрос. |
 
 ### Возвращаемое значение
 

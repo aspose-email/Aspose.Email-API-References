@@ -1,14 +1,14 @@
 ---
 title: SpoolerStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SPOOLER_STATUS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SPOOLER_STATUS
 type: docs
 weight: 18130
 url: /ru/net/aspose.email.mapi/knownpropertylist/spoolerstatus/
 ---
 ## KnownPropertyList.SpoolerStatus field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SPOOLER_STATUS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SPOOLER_STATUS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SpoolerStatus;

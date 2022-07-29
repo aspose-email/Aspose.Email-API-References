@@ -1,14 +1,14 @@
 ---
 title: GenerateNamedPropertyTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает тег именованного свойства
+description: Генерирует именованный тег свойства
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag/
 ---
 ## GenerateNamedPropertyTag(PropertyDataType) {#generatenamedpropertytag_1}
 
-Создает тег именованного свойства
+Генерирует именованный тег свойства
 
 ```csharp
 public long GenerateNamedPropertyTag(PropertyDataType dataType)
@@ -33,7 +33,7 @@ public long GenerateNamedPropertyTag(PropertyDataType dataType)
 
 ## GenerateNamedPropertyTag(MapiPropertyType) {#generatenamedpropertytag}
 
-Создает тег именованного свойства
+Генерирует именованный тег свойства
 
 ```csharp
 public long GenerateNamedPropertyTag(MapiPropertyType dataType)
@@ -58,7 +58,7 @@ public long GenerateNamedPropertyTag(MapiPropertyType dataType)
 
 ## GenerateNamedPropertyTag(long) {#generatenamedpropertytag_2}
 
-Создает тег именованного свойства
+Генерирует именованный тег свойства
 
 ```csharp
 public long GenerateNamedPropertyTag(long dataType)

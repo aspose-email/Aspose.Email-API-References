@@ -3,7 +3,7 @@ title: MessageObjectRecipientEntity
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет запись получателя в объекте сообщения.
 type: docs
-weight: 18860
+weight: 18890
 url: /ru/net/aspose.email.mapi.msg/messageobjectrecipiententity/
 ---
 ## MessageObjectRecipientEntity class
@@ -18,7 +18,7 @@ public class MessageObjectRecipientEntity : IMessageObjectPropertyContainer
 
 | Имя | Описание |
 | --- | --- |
-| [MessageObjectRecipientEntity](messageobjectrecipiententity)() | Инициализирует новый экземпляр класса[`MessageObjectRecipientEntity`](../messageobjectrecipiententity). |
+| [MessageObjectRecipientEntity](messageobjectrecipiententity)() | Инициализирует новый экземпляр[`MessageObjectRecipientEntity`](../messageobjectrecipiententity) класс. |
 
 ## Характеристики
 

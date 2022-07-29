@@ -1,14 +1,14 @@
 ---
 title: BlockStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает предпочтения пользователя для просмотра внешнего содержимого например ссылок на изображения на HTTP-сервере в теле сообщения. ОбластьСвойства безопасного обмена сообщениями Каноническое имяPidTagBlockStatus Альтернативные именаPR_BLOCK_STATUS ptagBlockStatus
+description: Указывает предпочтения пользователя для просмотра внешнего содержимого например ссылок на изображения на HTTP-сервере в теле сообщения. Область Свойства безопасного обмена сообщениями Каноническое имя PidTagBlockStatus Альтернативные имена PR_BLOCK_STATUS ptagBlockStatus
 type: docs
 weight: 2020
 url: /ru/net/aspose.email.mapi/knownpropertylist/blockstatus/
 ---
 ## KnownPropertyList.BlockStatus field
 
-Указывает предпочтения пользователя для просмотра внешнего содержимого (например, ссылок на изображения на HTTP-сервере) в теле сообщения. Область:Свойства безопасного обмена сообщениями Каноническое имя:PidTagBlockStatus Альтернативные имена:PR_BLOCK_STATUS, ptagBlockStatus
+Указывает предпочтения пользователя для просмотра внешнего содержимого (например, ссылок на изображения на HTTP-сервере) в теле сообщения. Область: Свойства безопасного обмена сообщениями Каноническое имя: PidTagBlockStatus Альтернативные имена: PR_BLOCK_STATUS, ptagBlockStatus
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BlockStatus;

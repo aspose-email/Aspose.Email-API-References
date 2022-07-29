@@ -1,14 +1,14 @@
 ---
 title: AddressBookDisplayNamePrintable
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит печатную строковую версию отображаемого имени. ОбластьАдресная книга Каноническое имяPidTagAddressBookDisplayNamePrintable Альтернативные именаPR_EMS_AB_DISPLAY_NAME_PRINTABLE ptagSimpleDisplayName
+description: Содержит печатную строку отображаемого имени. Область Адресная книга Каноническое имя PidTagAddressBookDisplayNamePrintable Альтернативные имена PR_EMS_AB_DISPLAY_NAME_PRINTABLE ptagSimpleDisplayName
 type: docs
 weight: 370
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookdisplaynameprintable/
 ---
 ## KnownPropertyList.AddressBookDisplayNamePrintable field
 
-Содержит печатную строковую версию отображаемого имени. Область:Адресная книга Каноническое имя:PidTagAddressBookDisplayNamePrintable Альтернативные имена:PR_EMS_AB_DISPLAY_NAME_PRINTABLE, ptagSimpleDisplayName
+Содержит печатную строку отображаемого имени. Область: Адресная книга Каноническое имя: PidTagAddressBookDisplayNamePrintable Альтернативные имена: PR_EMS_AB_DISPLAY_NAME_PRINTABLE, ptagSimpleDisplayName
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDisplayNamePrintable;

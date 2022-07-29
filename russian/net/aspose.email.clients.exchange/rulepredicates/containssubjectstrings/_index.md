@@ -1,14 +1,14 @@
 ---
 title: ContainsSubjectStrings
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает строки которые появляются в теме входящих сообщений чтобы применить условие или исключение.
+description: Получает или задает строки которые отображаются в теме входящих сообщений для применения условия или исключения.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.exchange/rulepredicates/containssubjectstrings/
 ---
 ## RulePredicates.ContainsSubjectStrings property
 
-Получает или задает строки, которые появляются в теме входящих сообщений, чтобы применить условие или исключение.
+Получает или задает строки, которые отображаются в теме входящих сообщений для применения условия или исключения.
 
 ```csharp
 public StringCollection ContainsSubjectStrings { get; set; }

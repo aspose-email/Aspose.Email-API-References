@@ -1,14 +1,14 @@
 ---
 title: AppointmentSequence
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает порядковый номер объекта Meeting. ОбластьВстречи Каноническое имяPidLidAppointmentSequence Альтернативные именаdispidApptSequence
+description: Задает порядковый номер объекта Meeting. Область Meetings Каноническое имя PidLidAppointmentSequence Альтернативные имена dispidApptSequence
 type: docs
 weight: 1280
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentsequence/
 ---
 ## KnownPropertyList.AppointmentSequence field
 
-Указывает порядковый номер объекта Meeting. Область:Встречи Каноническое имя:PidLidAppointmentSequence Альтернативные имена:dispidApptSequence
+Задает порядковый номер объекта Meeting. Область: Meetings Каноническое имя: PidLidAppointmentSequence Альтернативные имена: dispidApptSequence
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentSequence;

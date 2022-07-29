@@ -1,14 +1,14 @@
 ---
 title: Inline
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя встроенного типа размещения.
+description: Имя встроенного типа расположения.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mime/dispositiontypenames/inline/
 ---
 ## DispositionTypeNames.Inline field
 
-Имя встроенного типа размещения.
+Имя встроенного типа расположения.
 
 ```csharp
 public const string Inline;

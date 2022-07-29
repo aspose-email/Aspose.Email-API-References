@@ -3,7 +3,7 @@ title: MapiContactPhotoImageFormat
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет формат фотоизображения MapiContact.
 type: docs
-weight: 18260
+weight: 18290
 url: /ru/net/aspose.email.mapi/mapicontactphotoimageformat/
 ---
 ## MapiContactPhotoImageFormat enumeration
@@ -19,7 +19,7 @@ public enum MapiContactPhotoImageFormat
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Undefined | `-1` | Неопределенный формат. |
-| Jpeg | `0` | Формат Jpeg |
+| Jpeg | `0` | Формат JPEG |
 | Gif | `1` | Формат обмена графикой. |
 | Wmf | `2` | Метафайл MS Windows. |
 | Bmp | `3` | Растровое изображение MS Windows. |

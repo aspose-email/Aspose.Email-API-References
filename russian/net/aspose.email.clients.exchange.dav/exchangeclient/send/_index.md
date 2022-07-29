@@ -16,7 +16,7 @@ public void Send(MailMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MailMessage | Почтовое сообщение для отправки. |
+| message | MailMessage | Почтовое сообщение, которое нужно отправить. |
 
 ### Смотрите также
 

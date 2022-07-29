@@ -1,14 +1,14 @@
 ---
 title: MessageClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Обозначает конкретный тип объекта Message. ОбластьОбщий набор свойств Каноническое имяPidTagMessageClass Альтернативные именаPR_MESSAGE_CLASS PR_MESSAGE_CLASS_A ptagMessageClass PR_MESSAGE_CLASS_W
+description: Обозначает конкретный тип объекта Message. Область Общее свойство set Каноническое имя PidTagMessageClass Альтернативные имена PR_MESSAGE_CLASS PR_MESSAGE_CLASS_A ptagMessageClass PR_MESSAGE_CLASS_W
 type: docs
 weight: 12470
 url: /ru/net/aspose.email.mapi/knownpropertylist/messageclass/
 ---
 ## KnownPropertyList.MessageClass field
 
-Обозначает конкретный тип объекта Message. Область:Общий набор свойств Каноническое имя:PidTagMessageClass Альтернативные имена:PR_MESSAGE_CLASS, PR_MESSAGE_CLASS_A, ptagMessageClass, PR_MESSAGE_CLASS_W,
+Обозначает конкретный тип объекта Message. Область: Общее свойство set Каноническое имя: PidTagMessageClass Альтернативные имена: PR_MESSAGE_CLASS, PR_MESSAGE_CLASS_A, ptagMessageClass, PR_MESSAGE_CLASS_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageClass;

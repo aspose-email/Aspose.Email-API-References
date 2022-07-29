@@ -1,14 +1,14 @@
 ---
 title: Bucket
 second_title: Справочник по Aspose.Email для .NET API
-description: https//docs.microsoft.com/en-us/graph/api/resources/plannerbucketviewgraph-rest-1.0 Ресурс plannerBucket представляет собой корзину или настраиваемый столбец для задач в плане в Office 365. Он содержится в plannerPlan и может содержать коллекцию plannerTasks.
+description: https//docs.microsoft.com/en-us/graph/api/resources/plannerbucketviewgraph-rest-1.0 Ресурс plannerBucket представляет собой сегмент или настраиваемый столбец для задач в плане в Office 365. Содержится в plannerPlan и может содержать коллекцию plannerTasks.
 type: docs
 weight: 15860
 url: /ru/net/aspose.email.clients.graph/bucket/
 ---
 ## Bucket class
 
-https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 Ресурс plannerBucket представляет собой корзину (или «настраиваемый столбец») для задач в плане в Office 365. Он содержится в plannerPlan и может содержать коллекцию plannerTasks.
+https://docs.microsoft.com/en-us/graph/api/resources/plannerbucket?view=graph-rest-1.0 Ресурс plannerBucket представляет собой сегмент (или «настраиваемый столбец») для задач в плане в Office 365. Содержится в plannerPlan и может содержать коллекцию plannerTasks.
 
 ```csharp
 public class Bucket
@@ -26,7 +26,7 @@ public class Bucket
 | --- | --- |
 | [Id](../../aspose.email.clients.graph/bucket/id) { get; set; } | ID корзины. Только для чтения. |
 | [Name](../../aspose.email.clients.graph/bucket/name) { get; set; } | Имя корзины. |
-| [OrderHint](../../aspose.email.clients.graph/bucket/orderhint) { get; set; } | Подсказка, используемая для упорядочения элементов этого типа в представлении списка. Формат определяется, как описано здесь. |
+| [OrderHint](../../aspose.email.clients.graph/bucket/orderhint) { get; set; } | Подсказка, используемая для упорядочивания элементов этого типа в представлении списка. Формат определяется, как указано здесь. |
 | [PlanId](../../aspose.email.clients.graph/bucket/planid) { get; set; } | Идентификатор плана, которому принадлежит сегмент. |
 
 ### Смотрите также

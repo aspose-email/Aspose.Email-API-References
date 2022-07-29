@@ -1,14 +1,14 @@
 ---
 title: Recipients
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает получателейMessageObjectaspose.email.mapi.msg/messageobject.
+description: Получает получателейMessageObjectaspose.email.mapi.msg/messageobject .
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi.msg/messageobject/recipients/
 ---
 ## MessageObject.Recipients property
 
-Получает получателей[`MessageObject`](../../messageobject).
+Получает получателей[`MessageObject`](../../messageobject) .
 
 ```csharp
 public MessageObjectRecipientsCollection Recipients { get; }

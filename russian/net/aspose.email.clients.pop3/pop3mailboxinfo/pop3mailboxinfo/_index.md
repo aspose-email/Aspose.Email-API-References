@@ -1,14 +1,14 @@
 ---
 title: Pop3MailboxInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаPop3MailboxInfoaspose.email.clients.pop3/pop3mailboxinfo.
+description: Инициализирует новый экземплярPop3MailboxInfoaspose.email.clients.pop3/pop3mailboxinfo класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.pop3/pop3mailboxinfo/pop3mailboxinfo/
 ---
 ## Pop3MailboxInfo constructor
 
-Инициализирует новый экземпляр класса[`Pop3MailboxInfo`](../../pop3mailboxinfo).
+Инициализирует новый экземпляр[`Pop3MailboxInfo`](../../pop3mailboxinfo) класс.
 
 ```csharp
 public Pop3MailboxInfo(int count, long size)

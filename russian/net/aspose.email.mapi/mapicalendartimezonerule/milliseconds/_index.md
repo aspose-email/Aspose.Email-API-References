@@ -1,14 +1,14 @@
 ---
 title: Milliseconds
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает миллисекунды
+description: Получает или задает миллисекунды
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/mapicalendartimezonerule/milliseconds/
 ---
 ## MapiCalendarTimeZoneRule.Milliseconds property
 
-Получает или устанавливает миллисекунды
+Получает или задает миллисекунды
 
 ```csharp
 public ushort Milliseconds { get; set; }

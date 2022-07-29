@@ -1,14 +1,14 @@
 ---
 title: DeletedFolderCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DELETED_FOLDER_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DELETED_FOLDER_COUNT
 type: docs
 weight: 3900
 url: /ru/net/aspose.email.mapi/knownpropertylist/deletedfoldercount/
 ---
 ## KnownPropertyList.DeletedFolderCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DELETED_FOLDER_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DELETED_FOLDER_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeletedFolderCount;

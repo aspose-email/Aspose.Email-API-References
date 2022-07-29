@@ -16,7 +16,7 @@ public bool Contains(CustomerEvent value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | CustomerEvent | Объект для поиска в списке. |
+| value | CustomerEvent | Объект, который нужно найти в списке. |
 
 ### Возвращаемое значение
 

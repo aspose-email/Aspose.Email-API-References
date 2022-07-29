@@ -1,14 +1,14 @@
 ---
 title: Send
 second_title: Справочник по Aspose.Email для .NET API
-description: Отправить сообщение электронной почты.
+description: Отправить сообщение по электронной почте.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.smtp/imailtransferagent/send/
 ---
 ## IMailTransferAgent.Send method
 
-Отправить сообщение электронной почты.
+Отправить сообщение по электронной почте.
 
 ```csharp
 public void Send(MailMessage message)

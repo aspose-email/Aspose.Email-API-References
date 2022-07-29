@@ -1,14 +1,14 @@
 ---
 title: EventTypes
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип события
+description: Определяет тип события
 type: docs
 weight: 3700
 url: /ru/net/aspose.email.clients.exchange.webservice/eventtypes/
 ---
 ## EventTypes enumeration
 
-Указывает тип события
+Определяет тип события
 
 ```csharp
 [Flags]

@@ -22,8 +22,8 @@ public void ChangeDisplayName(string newName)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | выдает, если PST открыт только для чтения. |
-| NotImplementedException | выдает, если версия файла PST — ANSI. |
+| InvalidOperationException | бросает, если PST открыт только для чтения. |
+| NotImplementedException | выдает, если версия PST-файла — ANSI. |
 
 ### Смотрите также
 

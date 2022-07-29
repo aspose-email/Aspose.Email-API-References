@@ -1,14 +1,14 @@
 ---
 title: IsdnNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает интегрированные услуги номер цифровой сети ISDN
+description: Получает или задает интегрированные услуги номер цифровой сети ISDN
 type: docs
 weight: 110
 url: /ru/net/aspose.email.mapi/mapicontacttelephonepropertyset/isdnnumber/
 ---
 ## MapiContactTelephonePropertySet.IsdnNumber property
 
-Получает или устанавливает интегрированные услуги номер цифровой сети (ISDN)
+Получает или задает интегрированные услуги номер цифровой сети (ISDN)
 
 ```csharp
 public string IsdnNumber { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MapiMessagePropertyStream
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiMessagePropertyStreamaspose.email.mapi/mapimessagepropertystream.
+description: Инициализирует новый экземплярMapiMessagePropertyStreamaspose.email.mapi/mapimessagepropertystream класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapimessagepropertystream/mapimessagepropertystream/
 ---
 ## MapiMessagePropertyStream constructor
 
-Инициализирует новый экземпляр класса[`MapiMessagePropertyStream`](../../mapimessagepropertystream).
+Инициализирует новый экземпляр[`MapiMessagePropertyStream`](../../mapimessagepropertystream) класс.
 
 ```csharp
 public MapiMessagePropertyStream(MapiMessageItemBase parent)

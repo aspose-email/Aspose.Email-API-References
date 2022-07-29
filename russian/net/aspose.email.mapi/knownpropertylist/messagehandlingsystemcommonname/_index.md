@@ -1,14 +1,14 @@
 ---
 title: MessageHandlingSystemCommonName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит общее имя пользователя обмена сообщениями для использования в заголовке сообщения. ОбластьСвойства адреса Каноническое имяPidTagMessageHandlingSystemCommonName Альтернативные именаPR_MHS_COMMON_NAME PR_MHS_COMMON_NAME_A
+description: Содержит общее имя пользователя обмена сообщениями для использования в заголовке сообщения. Область Свойства адреса Каноническое имя PidTagMessageHandlingSystemCommonName Альтернативные имена PR_MHS_COMMON_NAME PR_MHS_COMMON_NAME_A
 type: docs
 weight: 12540
 url: /ru/net/aspose.email.mapi/knownpropertylist/messagehandlingsystemcommonname/
 ---
 ## KnownPropertyList.MessageHandlingSystemCommonName field
 
-Содержит общее имя пользователя обмена сообщениями для использования в заголовке сообщения. Область:Свойства адреса Каноническое имя:PidTagMessageHandlingSystemCommonName Альтернативные имена:PR_MHS_COMMON_NAME, PR_MHS_COMMON_NAME_A,
+Содержит общее имя пользователя обмена сообщениями для использования в заголовке сообщения. Область: Свойства адреса Каноническое имя: PidTagMessageHandlingSystemCommonName Альтернативные имена: PR_MHS_COMMON_NAME, PR_MHS_COMMON_NAME_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MessageHandlingSystemCommonName;

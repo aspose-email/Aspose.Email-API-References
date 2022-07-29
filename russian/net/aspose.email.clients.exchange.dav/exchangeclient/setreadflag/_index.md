@@ -16,13 +16,13 @@ public void SetReadFlag(string messageUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageUri | String | URI сообщения. |
+| messageUri | String | Ури сообщения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*is` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 
@@ -42,14 +42,14 @@ public void SetReadFlag(string messageUri, bool suppressReceipt)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageUri | String | URI сообщения. |
+| messageUri | String | Ури сообщения. |
 | suppressReceipt | Boolean | Значение, указывающее, следует ли подавлять отправку уведомления о прочтении. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*is` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

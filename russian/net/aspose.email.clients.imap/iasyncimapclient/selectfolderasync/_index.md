@@ -18,8 +18,8 @@ public Task SelectFolderAsync(string folderName, bool? readOnly = false,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | String | Подключение к серверу |
-| folderName | Nullable`1 | Выбираемая папка |
-| readOnly | IConnection | Указывает, следует ли выбирать папку только для чтения |
+| folderName | Nullable`1 | Папка для выбора |
+| readOnly | IConnection | Указывает, должна ли папка быть выбрана только для чтения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

@@ -3,7 +3,7 @@ title: MapiImportance
 second_title: Справочник по Aspose.Email для .NET API
 description: Содержит значения которые указывают на важность сообщения.
 type: docs
-weight: 20160
+weight: 20210
 url: /ru/net/aspose.email.storage.pst/mapiimportance/
 ---
 ## MapiImportance enumeration

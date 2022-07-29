@@ -1,14 +1,14 @@
 ---
 title: ReadReceiptName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя для конечного пользователя которому направлено уведомление о прочтении. ОбластьТранспортный конверт Каноническое имяPidTagReadReceiptName Альтернативные именаptagReadReceiptDisplayName ReadReceiptDisplayName
+description: Содержит отображаемое имя для конечного пользователя которому направлено уведомление о прочтении. Область Transport Envelope Каноническое имя PidTagReadReceiptName Альтернативные имена ptagReadReceiptDisplayName ReadReceiptDisplayName
 type: docs
 weight: 15220
 url: /ru/net/aspose.email.mapi/knownpropertylist/readreceiptname/
 ---
 ## KnownPropertyList.ReadReceiptName field
 
-Содержит отображаемое имя для конечного пользователя, которому направлено уведомление о прочтении. Область:Транспортный конверт Каноническое имя:PidTagReadReceiptName Альтернативные имена:ptagReadReceiptDisplayName, ReadReceiptDisplayName
+Содержит отображаемое имя для конечного пользователя, которому направлено уведомление о прочтении. Область: Transport Envelope Каноническое имя: PidTagReadReceiptName Альтернативные имена: ptagReadReceiptDisplayName, ReadReceiptDisplayName
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReadReceiptName;

@@ -1,14 +1,14 @@
 ---
 title: ExchangeFolderUserInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeFolderUserInfoaspose.email.clients.exchange/exchangefolderuserinfo
+description: Инициализирует новый экземплярExchangeFolderUserInfoaspose.email.clients.exchange/exchangefolderuserinfo класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/exchangefolderuserinfo/exchangefolderuserinfo/
 ---
 ## ExchangeFolderUserInfo constructor
 
-Инициализирует новый экземпляр класса[`ExchangeFolderUserInfo`](../../exchangefolderuserinfo)
+Инициализирует новый экземпляр[`ExchangeFolderUserInfo`](../../exchangefolderuserinfo) класс
 
 ```csharp
 public ExchangeFolderUserInfo()

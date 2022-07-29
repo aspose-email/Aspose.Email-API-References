@@ -18,10 +18,10 @@ public sealed class FollowUpOptions
 
 | Имя | Описание |
 | --- | --- |
-| [FollowUpOptions](followupoptions#constructor)() | Инициализирует новый экземпляр класса[`FollowUpOptions`](../followupoptions). |
-| [FollowUpOptions](followupoptions#constructor_1)(string) | Инициализирует новый экземпляр класса[`FollowUpOptions`](../followupoptions). |
-| [FollowUpOptions](followupoptions#constructor_2)(string, DateTime, DateTime) | Инициализирует новый экземпляр класса[`FollowUpOptions`](../followupoptions). |
-| [FollowUpOptions](followupoptions#constructor_3)(string, DateTime, DateTime, DateTime) | Инициализирует новый экземпляр класса[`FollowUpOptions`](../followupoptions). |
+| [FollowUpOptions](followupoptions#constructor)() | Инициализирует новый экземпляр[`FollowUpOptions`](../followupoptions) класс. |
+| [FollowUpOptions](followupoptions#constructor_1)(string) | Инициализирует новый экземпляр[`FollowUpOptions`](../followupoptions) класс. |
+| [FollowUpOptions](followupoptions#constructor_2)(string, DateTime, DateTime) | Инициализирует новый экземпляр[`FollowUpOptions`](../followupoptions) класс. |
+| [FollowUpOptions](followupoptions#constructor_3)(string, DateTime, DateTime, DateTime) | Инициализирует новый экземпляр[`FollowUpOptions`](../followupoptions) класс. |
 
 ## Характеристики
 
@@ -29,14 +29,14 @@ public sealed class FollowUpOptions
 | --- | --- |
 | [Categories](../../aspose.email.mapi/followupoptions/categories) { get; set; } | Получает или задает строку, представляющую список категорий, разделенных точкой с запятой (;). |
 | [CodePage](../../aspose.email.mapi/followupoptions/codepage) { get; set; } | Получает или задает кодовую страницу. |
-| [DueDate](../../aspose.email.mapi/followupoptions/duedate) { get; set; } | Получает или задает дату, указывающую срок выполнения помеченного сообщения. |
+| [DueDate](../../aspose.email.mapi/followupoptions/duedate) { get; set; } | Получает или задает дату, указывающую дату выполнения для помеченного сообщения. |
 | [FlagRequest](../../aspose.email.mapi/followupoptions/flagrequest) { get; set; } | Получает или задает строку, указывающую запрошенное действие для сообщения электронной почты. |
 | [IsCompleted](../../aspose.email.mapi/followupoptions/iscompleted) { get; } | Получает значение, указывающее, был ли объект Message помечен как завершенный. |
 | [RecipientsFlagRequest](../../aspose.email.mapi/followupoptions/recipientsflagrequest) { get; set; } | Получает или задает строку, указывающую запрошенное действие для получателей сообщения электронной почты. |
 | [RecipientsReminderTime](../../aspose.email.mapi/followupoptions/recipientsremindertime) { get; set; } | Получает или задает дату для получателей, указывающую дату и время, когда должно появиться напоминание. |
 | [ReminderTime](../../aspose.email.mapi/followupoptions/remindertime) { get; set; } | Получает или задает дату, указывающую дату и время, когда должно появиться напоминание. |
 | [StartDate](../../aspose.email.mapi/followupoptions/startdate) { get; set; } | Получает или задает дату, указывающую начальную дату и время для помеченного сообщения. |
-| [VotingButtons](../../aspose.email.mapi/followupoptions/votingbuttons) { get; set; } | Получает или задает строку, представляющую список названий кнопок голосования, разделенных точкой с запятой (;). |
+| [VotingButtons](../../aspose.email.mapi/followupoptions/votingbuttons) { get; set; } | Получает или задает строку, представляющую список имен кнопок голосования, разделенных точкой с запятой (;). |
 
 ### Смотрите также
 

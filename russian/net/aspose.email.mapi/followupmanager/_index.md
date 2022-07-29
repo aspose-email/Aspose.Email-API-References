@@ -1,14 +1,14 @@
 ---
 title: FollowUpManager
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет возможность устанавливать и обрабатывать последующие флаги и категории Outlook. Поддерживает функции добавления и удаления флага в MapiMessage./mapimessage а также пометить его как завершенный.
+description: Предоставляет возможность устанавливать и обрабатывать последующие флаги и категории Outlook. Поддерживает функции добавления и удаления флага в MapiMessage./mapimessage  а также пометить его как выполненное.
 type: docs
 weight: 17800
 url: /ru/net/aspose.email.mapi/followupmanager/
 ---
 ## FollowUpManager class
 
-Предоставляет возможность устанавливать и обрабатывать последующие флаги и категории Outlook. Поддерживает функции добавления и удаления флага в [`MapiMessage`](../mapimessage), а также пометить его как завершенный.
+Предоставляет возможность устанавливать и обрабатывать последующие флаги и категории Outlook. Поддерживает функции добавления и удаления флага в [`MapiMessage`](../mapimessage) , а также пометить его как выполненное.
 
 ```csharp
 public static class FollowUpManager
@@ -18,14 +18,14 @@ public static class FollowUpManager
 
 | Имя | Описание |
 | --- | --- |
-| static [AddCategory](../../aspose.email.mapi/followupmanager/addcategory)(MapiMessage, string) | Добавляет категорию сообщения. |
+| static [AddCategory](../../aspose.email.mapi/followupmanager/addcategory)(MapiMessage, string) | Добавляет категорию для сообщения. |
 | static [AddVotingButton](../../aspose.email.mapi/followupmanager/addvotingbutton)(MapiMessage, string) | Добавляет кнопку голосования. |
 | static [ClearCategories](../../aspose.email.mapi/followupmanager/clearcategories)(MapiMessage) | Очищает категории. |
 | static [ClearFlag](../../aspose.email.mapi/followupmanager/clearflag)(MapiMessage) | Сбрасывает флаг продолжения и напоминание. |
 | static [ClearVotingButtons](../../aspose.email.mapi/followupmanager/clearvotingbuttons)(MapiMessage) | Удаляет кнопки голосования. |
 | static [GetCategories](../../aspose.email.mapi/followupmanager/getcategories)(MapiMessage) | Получить доступные категории сообщений. |
 | static [GetOptions](../../aspose.email.mapi/followupmanager/getoptions)(MapiMessage) | Получает дополнительные параметры сообщения. |
-| static [GetVotingButtons](../../aspose.email.mapi/followupmanager/getvotingbuttons)(MapiMessage) | Получить доступные кнопки голосования сообщений. |
+| static [GetVotingButtons](../../aspose.email.mapi/followupmanager/getvotingbuttons)(MapiMessage) | Получить доступные кнопки голосования сообщениями. |
 | static [MarkAsCompleted](../../aspose.email.mapi/followupmanager/markascompleted)(MapiMessage) | Помечает помеченное сообщение как завершенное. |
 | static [RemoveCategory](../../aspose.email.mapi/followupmanager/removecategory)(MapiMessage, string) | Удаляет категорию. |
 | static [RemoveVotingButton](../../aspose.email.mapi/followupmanager/removevotingbutton)(MapiMessage, string) | Удаляет кнопку голосования. |

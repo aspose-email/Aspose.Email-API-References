@@ -1,14 +1,14 @@
 ---
 title: HasAttachments
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает содержит ли объект сообщения хотя бы одно вложение. ОбластьСвойства вложения сообщения Набор свойств Каноническое имяPidTagHasAttachments Альтернативные именаPR_HASATTACH ptagHasAttach urnschemashttpmailhasattachment
+description: Указывает содержит ли объект сообщения хотя бы одно вложение. Область Свойства вложения сообщения Свойство set Каноническое имя PidTagHasAttachments Альтернативные имена PR_HASATTACH ptagHasAttach urnschemashttpmailhasattachment
 type: docs
 weight: 10840
 url: /ru/net/aspose.email.mapi/knownpropertylist/hasattachments/
 ---
 ## KnownPropertyList.HasAttachments field
 
-Указывает, содержит ли объект сообщения хотя бы одно вложение. Область:Свойства вложения сообщения Набор свойств Каноническое имя:PidTagHasAttachments Альтернативные имена:PR_HASATTACH, ptagHasAttach, urn:schemas:httpmail:hasattachment
+Указывает, содержит ли объект сообщения хотя бы одно вложение. Область: Свойства вложения сообщения Свойство set Каноническое имя: PidTagHasAttachments Альтернативные имена: PR_HASATTACH, ptagHasAttach, urn:schemas:httpmail:hasattachment
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HasAttachments;

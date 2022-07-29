@@ -16,7 +16,7 @@ public bool Contains(InstantMessengerAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | InstantMessengerAddress | Объект для поиска в списке. |
+| value | InstantMessengerAddress | Объект, который нужно найти в списке. |
 
 ### Возвращаемое значение
 

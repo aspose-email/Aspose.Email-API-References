@@ -1,14 +1,14 @@
 ---
 title: Recipient
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает адреса электронной почты людей получающих сообщение.
+description: Получает или устанавливает адреса электронной почты людей которые получают сообщение.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/recipient/
 ---
 ## FindMessageTrackingReportOptions.Recipient property
 
-Получает или задает адреса электронной почты людей, получающих сообщение.
+Получает или устанавливает адреса электронной почты людей, которые получают сообщение.
 
 ```csharp
 public MailAddress Recipient { get; set; }

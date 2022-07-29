@@ -1,14 +1,14 @@
 ---
 title: AttachDataBinary
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит содержимое присоединяемого файла. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachDataBinary Альтернативные именаPR_ATTACH_DATA_BIN ptagAttachDataBin
+description: Содержит содержимое присоединяемого файла. Область Свойства вложения сообщения Каноническое имя PidTagAttachDataBinary Альтернативные имена PR_ATTACH_DATA_BIN ptagAttachDataBin
 type: docs
 weight: 1550
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachdatabinary/
 ---
 ## KnownPropertyList.AttachDataBinary field
 
-Содержит содержимое присоединяемого файла. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachDataBinary Альтернативные имена:PR_ATTACH_DATA_BIN, ptagAttachDataBin
+Содержит содержимое присоединяемого файла. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachDataBinary Альтернативные имена: PR_ATTACH_DATA_BIN, ptagAttachDataBin
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachDataBinary;

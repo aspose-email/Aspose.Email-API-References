@@ -1,14 +1,14 @@
 ---
 title: DisplayNamePrefix
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит почетный титул пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagDisplayNamePrefix Альтернативные именаPR_DISPLAY_NAME_PREFIX PR_DISPLAY_NAME_PREFIX_A
+description: Содержит почетный титул пользователя почты. Область MapiMailUser Каноническое имя PidTagDisplayNamePrefix Альтернативные имена PR_DISPLAY_NAME_PREFIX PR_DISPLAY_NAME_PREFIX_A
 type: docs
 weight: 4150
 url: /ru/net/aspose.email.mapi/knownpropertylist/displaynameprefix/
 ---
 ## KnownPropertyList.DisplayNamePrefix field
 
-Содержит почетный титул пользователя почты. Область:MapiMailUser Каноническое имя:PidTagDisplayNamePrefix Альтернативные имена:PR_DISPLAY_NAME_PREFIX, PR_DISPLAY_NAME_PREFIX_A,
+Содержит почетный титул пользователя почты. Область: MapiMailUser Каноническое имя: PidTagDisplayNamePrefix Альтернативные имена: PR_DISPLAY_NAME_PREFIX, PR_DISPLAY_NAME_PREFIX_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayNamePrefix;

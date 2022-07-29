@@ -1,14 +1,14 @@
 ---
 title: MarkAllItemsAsRead
 second_title: Справочник по Aspose.Email для .NET API
-description: Помечает все сообщения в папке Входящие как прочитанные без квитанций.
+description: Помечает все элементы в папке Входящие как прочитанные без квитанций.
 type: docs
 weight: 1250
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/markallitemsasread/
 ---
 ## MarkAllItemsAsRead() {#markallitemsasread}
 
-Помечает все сообщения в папке "Входящие" как прочитанные без квитанций.
+Помечает все элементы в папке "Входящие" как прочитанные без квитанций.
 
 ```csharp
 public void MarkAllItemsAsRead()

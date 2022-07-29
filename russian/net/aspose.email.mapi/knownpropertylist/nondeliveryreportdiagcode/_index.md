@@ -1,14 +1,14 @@
 ---
 title: NonDeliveryReportDiagCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит диагностический код для уведомления о состоянии доставки как указано в RFC3464. ОбластьЭлектронная почта Каноническое имяPidTagNonDeliveryReportDiagCode Альтернативные именаPR_NDR_DIAG_CODE ptagNonDeliveryDiagCode
+description: Содержит диагностический код для уведомления о состоянии доставки как указано в RFC3464. Область Email Каноническое имя PidTagNonDeliveryReportDiagCode Альтернативные имена PR_NDR_DIAG_CODE ptagNonDeliveryDiagCode
 type: docs
 weight: 12950
 url: /ru/net/aspose.email.mapi/knownpropertylist/nondeliveryreportdiagcode/
 ---
 ## KnownPropertyList.NonDeliveryReportDiagCode field
 
-Содержит диагностический код для уведомления о состоянии доставки, как указано в [RFC3464]. Область:Электронная почта Каноническое имя:PidTagNonDeliveryReportDiagCode Альтернативные имена:PR_NDR_DIAG_CODE, ptagNonDeliveryDiagCode
+Содержит диагностический код для уведомления о состоянии доставки, как указано в [RFC3464]. Область: Email Каноническое имя: PidTagNonDeliveryReportDiagCode Альтернативные имена: PR_NDR_DIAG_CODE, ptagNonDeliveryDiagCode
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NonDeliveryReportDiagCode;

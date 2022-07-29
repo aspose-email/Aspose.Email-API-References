@@ -1,14 +1,14 @@
 ---
 title: AnniversaryValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Строковое значение для категории Юбилей
+description: Строковое значение для категории Годовщина
 type: docs
 weight: 100
 url: /ru/net/aspose.email.personalinfo/eventcategory/anniversaryvalue/
 ---
 ## EventCategory.AnniversaryValue field
 
-Строковое значение для категории "Юбилей"
+Строковое значение для категории «Годовщина»
 
 ```csharp
 public const string AnniversaryValue;

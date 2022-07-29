@@ -32,7 +32,7 @@ public bool ExistFolder(string folderName)
 
 ## ExistFolder(string, out ImapFolderInfo) {#existfolder_3}
 
-Проверить, существует ли эта папка, извлечь информацию о папке, если да
+Проверить, существует ли эта папка, извлечь информацию о папке, если так
 
 ```csharp
 public bool ExistFolder(string folderName, out ImapFolderInfo folderInfo)
@@ -40,12 +40,12 @@ public bool ExistFolder(string folderName, out ImapFolderInfo folderInfo)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| имя_папки | String | Имя папки |
+| folderName | String | Имя папки |
 | folderInfo | ImapFolderInfo& | Информация о папке |
 
 ### Возвращаемое значение
 
-Возвращает true, если папка существует, иначе возвращает ложь
+Возвращает true, если папка существует, иначе возвращает false
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public bool ExistFolder(IConnection connection, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Имя папки |
 
 ### Возвращаемое значение
@@ -84,7 +84,7 @@ public bool ExistFolder(IConnection connection, string folderName)
 
 ## ExistFolder(IConnection, string, out ImapFolderInfo) {#existfolder_1}
 
-Проверить, существует ли эта папка, извлечь информацию о папке, если да
+Проверить, существует ли эта папка, извлечь информацию о папке, если так
 
 ```csharp
 public bool ExistFolder(IConnection connection, string folderName, out ImapFolderInfo folderInfo)

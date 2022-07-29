@@ -1,14 +1,14 @@
 ---
 title: ExchangeIdAutomatically
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает значение указывающее должен ли клиент автоматически вводить информацию о себе на сервер. Подробнееhttps//tools.ietf.org/html/rfc2971
+description: Получает или задает значение указывающее должен ли клиент автоматически вводить информацию о себе на сервер. Подробнее https//tools.ietf.org/html/rfc2971
 type: docs
 weight: 140
 url: /ru/net/aspose.email.clients.imap/imapclient/exchangeidautomatically/
 ---
 ## ImapClient.ExchangeIdAutomatically property
 
-Получает или устанавливает значение, указывающее, должен ли клиент автоматически вводить информацию о себе на сервер. Подробнее:https://tools.ietf.org/html/rfc2971
+Получает или задает значение, указывающее, должен ли клиент автоматически вводить информацию о себе на сервер. Подробнее: https://tools.ietf.org/html/rfc2971
 
 ```csharp
 public bool ExchangeIdAutomatically { get; set; }

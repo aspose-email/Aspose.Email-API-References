@@ -1,14 +1,14 @@
 ---
 title: DisableWinsock
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DISABLE_WINSOCK
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DISABLE_WINSOCK
 type: docs
 weight: 4060
 url: /ru/net/aspose.email.mapi/knownpropertylist/disablewinsock/
 ---
 ## KnownPropertyList.DisableWinsock field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DISABLE_WINSOCK
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DISABLE_WINSOCK
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisableWinsock;

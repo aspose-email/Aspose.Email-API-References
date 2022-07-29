@@ -1,14 +1,14 @@
 ---
 title: TimeZoneRules
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает правила часового пояса
+description: Получает или задает правила часового пояса
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapicalendartimezone/timezonerules/
 ---
 ## MapiCalendarTimeZone.TimeZoneRules property
 
-Получает или устанавливает правила часового пояса
+Получает или задает правила часового пояса
 
 ```csharp
 public MapiCalendarTimeZoneInfoCollection TimeZoneRules { get; set; }

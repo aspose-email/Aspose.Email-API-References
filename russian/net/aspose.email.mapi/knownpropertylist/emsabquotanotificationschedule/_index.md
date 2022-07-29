@@ -1,14 +1,14 @@
 ---
 title: EmsAbQuotaNotificationSchedule
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_QUOTA_NOTIFICATION_SCHEDULE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_QUOTA_NOTIFICATION_SCHEDULE
 type: docs
 weight: 8260
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabquotanotificationschedule/
 ---
 ## KnownPropertyList.EmsAbQuotaNotificationSchedule field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_QUOTA_NOTIFICATION_SCHEDULE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_QUOTA_NOTIFICATION_SCHEDULE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbQuotaNotificationSchedule;

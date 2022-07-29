@@ -30,12 +30,12 @@ public class FreebusyQuery
 
 | Имя | Описание |
 | --- | --- |
-| [CalendarExpansionMax](../../aspose.email.clients.google/freebusyquery/calendarexpansionmax) { get; set; } | Максимальное количество календарей, для которых должна предоставляться информация FreeBusy. По желанию. |
+| [CalendarExpansionMax](../../aspose.email.clients.google/freebusyquery/calendarexpansionmax) { get; set; } | Максимальное количество календарей, для которых должна предоставляться информация FreeBusy. Дополнительно. |
 | [GroupExpansionMax](../../aspose.email.clients.google/freebusyquery/groupexpansionmax) { get; set; } | Максимальное количество идентификаторов календаря для одной группы. По желанию. Ошибка будет возвращена для группы с большим количеством участников, чем это значение. |
 | [Items](../../aspose.email.clients.google/freebusyquery/items) { get; } | Список календарей и/или групп для запроса. Содержит идентификаторы календаря или группы. |
 | [TimeMax](../../aspose.email.clients.google/freebusyquery/timemax) { get; set; } | Конец интервала для запроса. |
 | [TimeMin](../../aspose.email.clients.google/freebusyquery/timemin) { get; set; } | Начало интервала для запроса. |
-| [TimeZone](../../aspose.email.clients.google/freebusyquery/timezone) { get; set; } | Часовой пояс, использованный в ответе. По желанию. По умолчанию используется UTC. |
+| [TimeZone](../../aspose.email.clients.google/freebusyquery/timezone) { get; set; } | Часовой пояс, использованный в ответе. По желанию. По умолчанию используется UTC. . |
 
 ### Смотрите также
 

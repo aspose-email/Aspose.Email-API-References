@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает уникальный идентификатор записи аудита. ОбязательноДа
+description: Получает или задает уникальный идентификатор записи аудита. Обязательно Yes
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activity/record/id/
 ---
 ## Record.Id property
 
-Получает или задает уникальный идентификатор записи аудита. Обязательно:Да
+Получает или задает уникальный идентификатор записи аудита. Обязательно: Yes
 
 ```csharp
 public Guid Id { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TimeZone
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает часовой пояс
+description: Получает или задает часовой пояс
 type: docs
-weight: 130
+weight: 140
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/timezone/
 ---
 ## VCardContact.TimeZone property
 
-Получает или устанавливает часовой пояс
+Получает или задает часовой пояс
 
 ```csharp
 public string TimeZone { get; set; }

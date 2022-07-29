@@ -1,14 +1,14 @@
 ---
 title: PostRssChannel
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит содержимое поля заголовка из XML фида Atom или канала RSS. ОбластьRSS Каноническое имяPidLidPostRssChannel Альтернативные именаdispidPostRssChannel
+description: Содержит содержимое поля заголовка из XML-файла канала Atom или канала RSS. Область RSS Каноническое имя PidLidPostRssChannel Альтернативные имена dispidPostRssChannel
 type: docs
 weight: 14440
 url: /ru/net/aspose.email.mapi/knownpropertylist/postrsschannel/
 ---
 ## KnownPropertyList.PostRssChannel field
 
-Содержит содержимое поля заголовка из XML фида Atom или канала RSS. Область:RSS Каноническое имя:PidLidPostRssChannel Альтернативные имена:dispidPostRssChannel
+Содержит содержимое поля заголовка из XML-файла канала Atom или канала RSS. Область: RSS Каноническое имя: PidLidPostRssChannel Альтернативные имена: dispidPostRssChannel
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssChannel;

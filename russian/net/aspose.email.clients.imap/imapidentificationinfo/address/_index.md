@@ -1,14 +1,14 @@
 ---
 title: Address
 second_title: Справочник по Aspose.Email для .NET API
-description: Почтовый адрес контактного лица/продавца
+description: Почтовый адрес контактного лица/поставщика
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/imapidentificationinfo/address/
 ---
 ## ImapIdentificationInfo.Address property
 
-Почтовый адрес контактного лица/продавца
+Почтовый адрес контактного лица/поставщика
 
 ```csharp
 public string Address { get; set; }

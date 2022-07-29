@@ -1,14 +1,14 @@
 ---
 title: ProviderUid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROVIDER_UID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROVIDER_UID
 type: docs
 weight: 15080
 url: /ru/net/aspose.email.mapi/knownpropertylist/provideruid/
 ---
 ## KnownPropertyList.ProviderUid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROVIDER_UID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROVIDER_UID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProviderUid;

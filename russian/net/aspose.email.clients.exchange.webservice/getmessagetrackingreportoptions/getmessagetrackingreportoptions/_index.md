@@ -1,14 +1,14 @@
 ---
 title: GetMessageTrackingReportOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаGetMessageTrackingReportOptionsaspose.email.clients.exchange.webservice/getmessagetrackingreportoptions
+description: Инициализирует новый экземплярGetMessageTrackingReportOptionsaspose.email.clients.exchange.webservice/getmessagetrackingreportoptions класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/getmessagetrackingreportoptions/
 ---
 ## GetMessageTrackingReportOptions constructor
 
-Инициализирует новый экземпляр класса[`GetMessageTrackingReportOptions`](../../getmessagetrackingreportoptions)
+Инициализирует новый экземпляр[`GetMessageTrackingReportOptions`](../../getmessagetrackingreportoptions) класс
 
 ```csharp
 public GetMessageTrackingReportOptions(string scope, string messageTrackingReportId)
@@ -17,14 +17,14 @@ public GetMessageTrackingReportOptions(string scope, string messageTrackingRepor
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | scope | String | Указывает, где выполнять поиск |
-| messageTrackingReportId | String | Указывает строку идентификатора, полученную из операция FindMessageTrackingReport |
+| messageTrackingReportId | String | Задает строку идентификатора, полученную в результате операции FindMessageTrackingReport. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *scope*is` null` или` пусто` |
-| ArgumentException | *messageTrackingReportId*есть` null` или` пусто` |
+| ArgumentException | *scope* является`нулевой`или же`пустой` |
+| ArgumentException | *messageTrackingReportId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

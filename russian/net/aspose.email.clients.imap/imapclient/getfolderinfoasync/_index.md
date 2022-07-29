@@ -6,6 +6,33 @@ type: docs
 weight: 700
 url: /ru/net/aspose.email.clients.imap/imapclient/getfolderinfoasync/
 ---
+## GetFolderInfoAsync(IConnection, string) {#getfolderinfoasync}
+
+Возвращает информацию об указанной папке без ее выбора
+
+```csharp
+public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Папка для получения информации о |
+
+### Возвращаемое значение
+
+Объект задачи с делегатом для этой операции
+
+### Смотрите также
+
+* class [ImapFolderInfo](../../imapfolderinfo)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [ImapClient](../../imapclient)
+* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
+* сборка [Aspose.Email](../../../)
+
+---
+
 ## GetFolderInfoAsync(string) {#getfolderinfoasync_2}
 
 Возвращает информацию об указанной папке без ее выбора
@@ -16,11 +43,11 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Папка получить информацию об объекте |
+| folderName | String | Папка для получения информации о |
 
 ### Возвращаемое значение
 
-Task с делегатом для этой операции
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -42,9 +69,9 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string fo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | folderName | String | Папка для получения информации о |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны отменен. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -80,33 +107,6 @@ public Task<ImapFolderInfo> GetFolderInfoAsync(string folderName, CancellationTo
 ### Смотрите также
 
 * class [ImapFolderInfo](../../imapfolderinfo)
-* class [ImapClient](../../imapclient)
-* пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
-* сборка [Aspose.Email](../../../)
-
----
-
-## GetFolderInfoAsync(IConnection, string) {#getfolderinfoasync}
-
-Возвращает информацию об указанной папке без ее выбора
-
-```csharp
-public Task<ImapFolderInfo> GetFolderInfoAsync(IConnection connection, string folderName)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| connection | IConnection | Connection на сервер |
-| folderName | String | Папка для получения информации об объекте |
-
-### Возвращаемое значение
-
-Task с делегатом для этой операции
-
-### Смотрите также
-
-* class [ImapFolderInfo](../../imapfolderinfo)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [ImapClient](../../imapclient)
 * пространство имен [Aspose.Email.Clients.Imap](../../imapclient)
 * сборка [Aspose.Email](../../../)

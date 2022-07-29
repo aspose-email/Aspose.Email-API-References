@@ -1,14 +1,14 @@
 ---
 title: PR_LAST_VERB_EXECUTED
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет последнюю команду выполненную для элемента сообщения к которому он относится
+description: Определяет последнюю команду выполненную для элемента сообщения с которым она связана
 type: docs
 weight: 13510
 url: /ru/net/aspose.email.mapi/mapipropertytag/pr_last_verb_executed/
 ---
 ## MapiPropertyTag.PR_LAST_VERB_EXECUTED field
 
-Определяет последнюю команду, выполненную для элемента сообщения, к которому он относится
+Определяет последнюю команду, выполненную для элемента сообщения, с которым она связана
 
 ```csharp
 public static readonly long PR_LAST_VERB_EXECUTED;

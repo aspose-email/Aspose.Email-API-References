@@ -1,14 +1,14 @@
 ---
 title: EmsAbDlMemberRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DL_MEMBER_RULE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DL_MEMBER_RULE
 type: docs
 weight: 5500
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdlmemberrule/
 ---
 ## KnownPropertyList.EmsAbDlMemberRule field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DL_MEMBER_RULE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DL_MEMBER_RULE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDlMemberRule;

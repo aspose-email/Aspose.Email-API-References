@@ -1,14 +1,14 @@
 ---
 title: ExchangeConversationFlagStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет статус флага для диалога.
+description: Перечисляет состояние флага для диалога.
 type: docs
 weight: 3750
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeconversationflagstatus/
 ---
 ## ExchangeConversationFlagStatus enumeration
 
-Перечисляет статус флага для диалога.
+Перечисляет состояние флага для диалога.
 
 ```csharp
 public enum ExchangeConversationFlagStatus
@@ -18,9 +18,9 @@ public enum ExchangeConversationFlagStatus
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Undefined | `-1` | Статус не определен |
+| Undefined | `-1` | Неопределенный статус |
 | NotFlagged | `0` | Указывает состояние отсутствия флажка. |
-| Flagged | `1` | Указывает состояние флажка. |
+| Flagged | `1` | Определяет статус помеченного флага. |
 | Complete | `2` | Указывает полный статус флага. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: ProfileUiState
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_UI_STATE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_UI_STATE
 type: docs
 weight: 14920
 url: /ru/net/aspose.email.mapi/knownpropertylist/profileuistate/
 ---
 ## KnownPropertyList.ProfileUiState field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_UI_STATE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_UI_STATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileUiState;

@@ -1,14 +1,14 @@
 ---
 title: RelatedIpms
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RELATED_IPMS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RELATED_IPMS
 type: docs
 weight: 15660
 url: /ru/net/aspose.email.mapi/knownpropertylist/relatedipms/
 ---
 ## KnownPropertyList.RelatedIpms field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RELATED_IPMS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RELATED_IPMS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RelatedIpms;

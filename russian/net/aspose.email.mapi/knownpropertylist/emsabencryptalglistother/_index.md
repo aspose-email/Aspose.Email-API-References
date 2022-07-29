@@ -1,14 +1,14 @@
 ---
 title: EmsAbEncryptAlgListOther
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_ENCRYPT_ALG_LIST_OTHER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_ENCRYPT_ALG_LIST_OTHER
 type: docs
 weight: 6160
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabencryptalglistother/
 ---
 ## KnownPropertyList.EmsAbEncryptAlgListOther field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_ENCRYPT_ALG_LIST_OTHER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_ENCRYPT_ALG_LIST_OTHER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbEncryptAlgListOther;

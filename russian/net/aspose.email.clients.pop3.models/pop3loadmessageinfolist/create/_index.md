@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: СоздатьPop3LoadMessageInfoListaspose.email.clients.pop3.models/pop3loadmessageinfolist.
+description: СоздатьPop3LoadMessageInfoListaspose.email.clients.pop3.models/pop3loadmessageinfolist .
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.pop3.models/pop3loadmessageinfolist/create/
 ---
 ## Pop3LoadMessageInfoList.Create method
 
-Создать[`Pop3LoadMessageInfoList`](../../pop3loadmessageinfolist).
+Создать[`Pop3LoadMessageInfoList`](../../pop3loadmessageinfolist) .
 
 ```csharp
 public static Pop3LoadMessageInfoList Create()

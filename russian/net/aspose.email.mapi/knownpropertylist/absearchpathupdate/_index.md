@@ -1,14 +1,14 @@
 ---
 title: AbSearchPathUpdate
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_AB_SEARCH_PATH_UPDATE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_AB_SEARCH_PATH_UPDATE
 type: docs
 weight: 220
 url: /ru/net/aspose.email.mapi/knownpropertylist/absearchpathupdate/
 ---
 ## KnownPropertyList.AbSearchPathUpdate field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_AB_SEARCH_PATH_UPDATE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_AB_SEARCH_PATH_UPDATE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AbSearchPathUpdate;

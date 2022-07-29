@@ -3,7 +3,7 @@ title: MapiElectronicAddress
 second_title: Справочник по Aspose.Email для .NET API
 description: Относится к группе свойств которые определяют адрес электронной почты или адрес факса.
 type: docs
-weight: 18380
+weight: 18410
 url: /ru/net/aspose.email.mapi/mapielectronicaddress/
 ---
 ## MapiElectronicAddress class
@@ -18,27 +18,27 @@ public sealed class MapiElectronicAddress
 
 | Имя | Описание |
 | --- | --- |
-| [MapiElectronicAddress](mapielectronicaddress#constructor)() | Инициализирует новый экземпляр класса[`MapiElectronicAddress`](../mapielectronicaddress). |
-| [MapiElectronicAddress](mapielectronicaddress#constructor_1)(string) | Инициализирует новый экземпляр класса[`MapiElectronicAddress`](../mapielectronicaddress). |
-| [MapiElectronicAddress](mapielectronicaddress#constructor_2)(string, string) | Инициализирует новый экземпляр класса[`MapiElectronicAddress`](../mapielectronicaddress). |
-| [MapiElectronicAddress](mapielectronicaddress#constructor_3)(string, string, string) | Инициализирует новый экземпляр класса[`MapiElectronicAddress`](../mapielectronicaddress). |
+| [MapiElectronicAddress](mapielectronicaddress#constructor)() | Инициализирует новый экземпляр[`MapiElectronicAddress`](../mapielectronicaddress) класс. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor_1)(string) | Инициализирует новый экземпляр[`MapiElectronicAddress`](../mapielectronicaddress) класс. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor_2)(string, string) | Инициализирует новый экземпляр[`MapiElectronicAddress`](../mapielectronicaddress) класс. |
+| [MapiElectronicAddress](mapielectronicaddress#constructor_3)(string, string, string) | Инициализирует новый экземпляр[`MapiElectronicAddress`](../mapielectronicaddress) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [AddressType](../../aspose.email.mapi/mapielectronicaddress/addresstype) { get; set; } | Получает или задает тип адреса электронного адреса. |
-| [DisplayName](../../aspose.email.mapi/mapielectronicaddress/displayname) { get; set; } | Получает или задает удобочитаемое для пользователя отображаемое имя для адреса электронной почты. |
+| [DisplayName](../../aspose.email.mapi/mapielectronicaddress/displayname) { get; set; } | Получает или задает удобочитаемое отображаемое имя для адреса электронной почты. |
 | [EmailAddress](../../aspose.email.mapi/mapielectronicaddress/emailaddress) { get; set; } | Получает или задает адрес электронной почты. |
-| [FaxNumber](../../aspose.email.mapi/mapielectronicaddress/faxnumber) { get; set; } | Получает или задает телефонный номер основного факсимильного аппарата почтового пользователя. |
-| [IsEmpty](../../aspose.email.mapi/mapielectronicaddress/isempty) { get; } | Показывает, если MapiElectronicAddress пуст |
-| [OriginalDisplayName](../../aspose.email.mapi/mapielectronicaddress/originaldisplayname) { get; set; } | Получает или задает адрес электронной почты SMTP, который соответствует адресу электронной почты. |
+| [FaxNumber](../../aspose.email.mapi/mapielectronicaddress/faxnumber) { get; set; } | Получает или задает номер телефона основного факсимильного аппарата почтового пользователя. |
+| [IsEmpty](../../aspose.email.mapi/mapielectronicaddress/isempty) { get; } | Показывает, является ли MapiElectronicAddress пустым |
+| [OriginalDisplayName](../../aspose.email.mapi/mapielectronicaddress/originaldisplayname) { get; set; } | Получает или задает адрес электронной почты SMTP, который соответствует адресу электронной почты . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [implicit operator](../../aspose.email.mapi/mapielectronicaddress/op_implicit) | Выполняет неявное преобразование изStringв[`MapiElectronicAddress`](../mapielectronicaddress). |
+| [implicit operator](../../aspose.email.mapi/mapielectronicaddress/op_implicit) | Выполняет неявное преобразование изString к[`MapiElectronicAddress`](../mapielectronicaddress) . |
 
 ### Смотрите также
 

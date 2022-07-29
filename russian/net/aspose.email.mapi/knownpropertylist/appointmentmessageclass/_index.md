@@ -1,14 +1,14 @@
 ---
 title: AppointmentMessageClass
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает класс сообщений объекта Meeting который должен быть сгенерирован из объекта Meeting Request. ОбластьВстречи Каноническое имяPidLidAppointmentMessageClass Альтернативные именаdispidApptMessageClass
+description: Указывает класс сообщения объекта Meeting который должен быть сгенерирован из объекта Meeting Request. Область Meetings Каноническое имя PidLidAppointmentMessageClass Альтернативные имена dispidApptMessageClass
 type: docs
 weight: 1190
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentmessageclass/
 ---
 ## KnownPropertyList.AppointmentMessageClass field
 
-Указывает класс сообщений объекта Meeting, который должен быть сгенерирован из объекта Meeting Request. Область:Встречи Каноническое имя:PidLidAppointmentMessageClass Альтернативные имена:dispidApptMessageClass
+Указывает класс сообщения объекта Meeting, который должен быть сгенерирован из объекта Meeting Request. Область: Meetings Каноническое имя: PidLidAppointmentMessageClass Альтернативные имена: dispidApptMessageClass
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentMessageClass;

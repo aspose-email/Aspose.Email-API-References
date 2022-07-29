@@ -1,14 +1,14 @@
 ---
 title: IpmFavoritesEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IPM_FAVORITES_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IPM_FAVORITES_ENTRYID
 type: docs
 weight: 11650
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmfavoritesentryid/
 ---
 ## KnownPropertyList.IpmFavoritesEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IPM_FAVORITES_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IPM_FAVORITES_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmFavoritesEntryid;

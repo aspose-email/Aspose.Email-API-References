@@ -1,14 +1,14 @@
 ---
 title: ProhibitSendQuota
 second_title: Справочник по Aspose.Email для .NET API
-description: Максимальный размер в килобайтах который пользователь может накопить в своем почтовом ящике прежде чем пользователь больше не сможет отправлять электронную почту. ОбластьExchangeAdministrative Каноническое имяPidTagProhibitSendQuota Альтернативные именаPR_PROHIBIT_SEND_QUOTA ptagProhibitSendQuota
+description: Максимальный размер в килобайтах который пользователь может накопить в своем почтовом ящике прежде чем пользователь больше не сможет отправлять электронную почту. Область ExchangeAdministrative Каноническое имя PidTagProhibitSendQuota Альтернативные имена PR_PROHIBIT_SEND_QUOTA ptagProhibitSendQuota
 type: docs
 weight: 14980
 url: /ru/net/aspose.email.mapi/knownpropertylist/prohibitsendquota/
 ---
 ## KnownPropertyList.ProhibitSendQuota field
 
-Максимальный размер в килобайтах, который пользователь может накопить в своем почтовом ящике, прежде чем пользователь больше не сможет отправлять электронную почту. Область:ExchangeAdministrative Каноническое имя:PidTagProhibitSendQuota Альтернативные имена:PR_PROHIBIT_SEND_QUOTA, ptagProhibitSendQuota
+Максимальный размер в килобайтах, который пользователь может накопить в своем почтовом ящике, прежде чем пользователь больше не сможет отправлять электронную почту. Область: ExchangeAdministrative Каноническое имя: PidTagProhibitSendQuota Альтернативные имена: PR_PROHIBIT_SEND_QUOTA, ptagProhibitSendQuota
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProhibitSendQuota;

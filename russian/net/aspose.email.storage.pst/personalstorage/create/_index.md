@@ -29,12 +29,12 @@ public static PersonalStorage Create(string fileName, FileFormatVersion version,
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если создается версия файла ANSI |
-| ArgumentNullException | выдает, если имя файла равно null или пусто |
+| NotImplementedException | бросает, если создается версия файла ANSI |
+| ArgumentNullException | бросает, если имя файла равно null или пусто |
 
 ### Примечания
 
-Обратите внимание, что теперь поддерживается только создание версии файла Unicode.
+Обратите внимание, что сейчас поддерживается только создание версии файла Unicode.
 
 ### Смотрите также
 
@@ -68,12 +68,12 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если создается версия файла ANSI |
-| ArgumentNullException | выдает, если имя файла равно null или пусто |
+| NotImplementedException | бросает, если создается версия файла ANSI |
+| ArgumentNullException | бросает, если имя файла равно null или пусто |
 
 ### Примечания
 
-Обратите внимание, что теперь поддерживается только создание версии файла Unicode.
+Обратите внимание, что сейчас поддерживается только создание версии файла Unicode.
 
 ### Смотрите также
 
@@ -97,7 +97,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 | --- | --- | --- |
 | stream | Stream | Поток, в котором создается PST. |
 | version | FileFormatVersion | Версия файла PST. |
-| leaveStreamOpen | Boolean | Оставить поток открытым при удалении PersonalStorage. |
+| leaveStreamOpen | Boolean | Оставьте поток открытым при удалении PersonalStorage. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -108,12 +108,12 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version,
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если создается версия файла ANSI |
-| ArgumentNullException | выдает, если имя файла равно null или пусто |
+| NotImplementedException | бросает, если создается версия файла ANSI |
+| ArgumentNullException | бросает, если имя файла равно null или пусто |
 
 ### Примечания
 
-Обратите внимание, что теперь поддерживается только создание версии файла Unicode.
+Обратите внимание, что сейчас поддерживается только создание версии файла Unicode.
 
 ### Смотрите также
 
@@ -145,12 +145,12 @@ public static PersonalStorage Create(string fileName, FileFormatVersion version)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если создается версия файла ANSI |
-| ArgumentNullException | выдает, если имя файла равно null или пусто |
+| NotImplementedException | бросает, если создается версия файла ANSI |
+| ArgumentNullException | бросает, если имя файла равно null или пусто |
 
 ### Примечания
 
-Обратите внимание, что теперь поддерживается только создание версии файла Unicode.
+Обратите внимание, что сейчас поддерживается только создание версии файла Unicode.
 
 ### Смотрите также
 
@@ -182,12 +182,12 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если создается версия файла ANSI |
-| ArgumentNullException | выдает, если поток равен null |
+| NotImplementedException | бросает, если создается версия файла ANSI |
+| ArgumentNullException | бросает, если поток равен нулю |
 
 ### Примечания
 
-Обратите внимание, что теперь поддерживается только создание версии файла Unicode.
+Обратите внимание, что сейчас поддерживается только создание версии файла Unicode.
 
 ### Смотрите также
 
@@ -210,7 +210,7 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version, b
 | --- | --- | --- |
 | stream | Stream | Поток, в котором создается PST. |
 | version | FileFormatVersion | Версия файла PST. |
-| leaveStreamOpen | Boolean | Оставить поток открытым при удалении PersonalStorage. |
+| leaveStreamOpen | Boolean | Оставьте поток открытым при удалении PersonalStorage. |
 
 ### Возвращаемое значение
 
@@ -220,12 +220,12 @@ public static PersonalStorage Create(Stream stream, FileFormatVersion version, b
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | выдает, если создается версия файла ANSI |
-| ArgumentNullException | выдает, если поток равен null |
+| NotImplementedException | бросает, если создается версия файла ANSI |
+| ArgumentNullException | бросает, если поток равен нулю |
 
 ### Примечания
 
-Обратите внимание, что теперь поддерживается только создание версии файла Unicode.
+Обратите внимание, что сейчас поддерживается только создание версии файла Unicode.
 
 ### Смотрите также
 

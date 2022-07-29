@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает местоположение события. ОбластьКалендарь Каноническое имяPidLidLocation Альтернативные именаdispidLocation
+description: Указывает местоположение события. Область Calendar Каноническое имя PidLidLocation Альтернативные имена dispidLocation
 type: docs
 weight: 12190
 url: /ru/net/aspose.email.mapi/knownpropertylist/location/
 ---
 ## KnownPropertyList.Location field
 
-Указывает местоположение события. Область:Календарь Каноническое имя:PidLidLocation Альтернативные имена:dispidLocation
+Указывает местоположение события. Область: Calendar Каноническое имя: PidLidLocation Альтернативные имена: dispidLocation
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Location;

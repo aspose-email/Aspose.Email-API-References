@@ -1,14 +1,14 @@
 ---
 title: SpamOriginalFolder
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает в какой папке находилось сообщение до того как оно было отфильтровано в папку нежелательной почты. ОбластьСпам Каноническое имяPidLidSpamOriginalFolder Альтернативные именаdispidSpamOriginalFolder
+description: Указывает в какой папке находилось сообщение до того как оно было отфильтровано в папку Нежелательная почта.
 type: docs
 weight: 18110
 url: /ru/net/aspose.email.mapi/knownpropertylist/spamoriginalfolder/
 ---
 ## KnownPropertyList.SpamOriginalFolder field
 
-Указывает, в какой папке находилось сообщение до того, как оно было отфильтровано в папку нежелательной почты. Область:Спам Каноническое имя:PidLidSpamOriginalFolder Альтернативные имена:dispidSpamOriginalFolder
+Указывает, в какой папке находилось сообщение до того, как оно было отфильтровано в папку «Нежелательная почта».
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SpamOriginalFolder;

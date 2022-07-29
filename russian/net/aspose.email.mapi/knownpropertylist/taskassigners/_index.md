@@ -1,14 +1,14 @@
 ---
 title: TaskAssigners
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит стек записей каждая из которых представляет назначающую задачу. ОбластьЗадачи Каноническое имяPidLidTaskAssigners Альтернативные именаdispidTaskMyDelegators
+description: Содержит набор записей каждая из которых представляет назначающую задачу. Область Tasks Каноническое имя PidLidTaskAssigners Альтернативные имена dispidTaskMyDelegators
 type: docs
 weight: 18570
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskassigners/
 ---
 ## KnownPropertyList.TaskAssigners field
 
-Содержит стек записей, каждая из которых представляет назначающую задачу. Область:Задачи Каноническое имя:PidLidTaskAssigners Альтернативные имена:dispidTaskMyDelegators
+Содержит набор записей, каждая из которых представляет назначающую задачу. Область: Tasks Каноническое имя: PidLidTaskAssigners Альтернативные имена: dispidTaskMyDelegators
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskAssigners;

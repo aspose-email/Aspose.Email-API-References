@@ -1,14 +1,14 @@
 ---
 title: MapiDistributionList
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMapiDistributionListaspose.email.mapi/mapidistributionlist.
+description: Инициализирует новый экземплярMapiDistributionListaspose.email.mapi/mapidistributionlist класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi/mapidistributionlist/mapidistributionlist/
 ---
 ## MapiDistributionList() {#constructor}
 
-Инициализирует новый экземпляр класса[`MapiDistributionList`](../../mapidistributionlist).
+Инициализирует новый экземпляр[`MapiDistributionList`](../../mapidistributionlist) класс.
 
 ```csharp
 public MapiDistributionList()
@@ -24,7 +24,7 @@ public MapiDistributionList()
 
 ## MapiDistributionList(string, MapiDistributionListMemberCollection) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MapiDistributionList`](../../mapidistributionlist).
+Инициализирует новый экземпляр[`MapiDistributionList`](../../mapidistributionlist) класс.
 
 ```csharp
 public MapiDistributionList(string displayName, MapiDistributionListMemberCollection members)

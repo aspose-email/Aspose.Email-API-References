@@ -1,14 +1,14 @@
 ---
 title: SendMessagesResult
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит результат работы с сообщениями
+description: Содержит результат работы с messages
 type: docs
 weight: 17020
 url: /ru/net/aspose.email.clients.smtp/sendmessagesresult/
 ---
 ## SendMessagesResult class
 
-Содержит результат работы с сообщениями
+Содержит результат работы с messages
 
 ```csharp
 public class SendMessagesResult
@@ -24,8 +24,8 @@ public class SendMessagesResult
 
 | Имя | Описание |
 | --- | --- |
-| [Failed](../../aspose.email.clients.smtp/sendmessagesresult/failed) { get; } | Получает почтовые сообщения, которые были обработаны с ошибками |
-| [NotHandled](../../aspose.email.clients.smtp/sendmessagesresult/nothandled) { get; } | Получает необработанные почтовые сообщения |
+| [Failed](../../aspose.email.clients.smtp/sendmessagesresult/failed) { get; } | Получает почтовые сообщения, обработанные с ошибками |
+| [NotHandled](../../aspose.email.clients.smtp/sendmessagesresult/nothandled) { get; } | Получает почтовые сообщения, которые не были обработаны |
 | [Succeeded](../../aspose.email.clients.smtp/sendmessagesresult/succeeded) { get; } | Получает почтовые сообщения, которые были успешно обработаны |
 
 ### Смотрите также

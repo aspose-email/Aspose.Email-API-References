@@ -1,14 +1,14 @@
 ---
 title: EmsAbModerator
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MODERATOR
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MODERATOR
 type: docs
 weight: 7260
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmoderator/
 ---
 ## KnownPropertyList.EmsAbModerator field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MODERATOR
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MODERATOR
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbModerator;

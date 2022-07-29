@@ -17,7 +17,7 @@ public Task<ExchangeConversation[]> FindConversationsAsync(string folderId,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderId | String | Идентификатор папки в котором выполняется поиск |
+| folderId | String | id папки, в которой искать |
 | cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
@@ -28,7 +28,7 @@ public Task<ExchangeConversation[]> FindConversationsAsync(string folderId,
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderId*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderId* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

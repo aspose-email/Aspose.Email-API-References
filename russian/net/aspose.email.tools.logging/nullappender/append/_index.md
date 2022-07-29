@@ -16,7 +16,7 @@ public override void Append(LogEntry entry)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entry | LogEntry | Запись должна быть зарегистрирована. |
+| entry | LogEntry | Запись должна войти. |
 
 ### Смотрите также
 

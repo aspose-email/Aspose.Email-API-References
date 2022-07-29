@@ -3,7 +3,7 @@ title: MapiTaskState
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает состояние назначения объекта Task.
 type: docs
-weight: 18710
+weight: 18740
 url: /ru/net/aspose.email.mapi/mapitaskstate/
 ---
 ## MapiTaskState enumeration
@@ -19,10 +19,10 @@ public enum MapiTaskState
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotAssigned | `1` | Объект Задача не назначен. |
-| AssigneesCopyOfAssignedTask | `2` | Объект Task является копией назначенного объекта Task исполнителем . |
-| AssignersCopyOfAssignedTask | `3` | Объект Task является копией назначенного объекта Task для лица, назначающего задачу, . |
-| AssignersCopyOfRejectedTask | `4` | Объект Task - это копия отклоненного объекта Task для лица, назначающего задачу . |
-| EmbeddedInTaskRejection | `0` | Этот объект Task был создан, чтобы соответствовать объекту Task, который был встроен в задачу отклонение, но не мог найти локально. |
+| AssigneesCopyOfAssignedTask | `2` | Объект Task — это копия назначенного объекта Task исполнителя задачи. |
+| AssignersCopyOfAssignedTask | `3` | Объект «Задача» — это копия назначенного объекта «Задача» назначенного лица, назначающего задачу. |
+| AssignersCopyOfRejectedTask | `4` | Объект Task — это копия отклоненного объекта Task, назначенная назначающим задачу. |
+| EmbeddedInTaskRejection | `0` | Этот объект Task был создан для соответствия объекту Task, который был встроен в отклонение задачи , но не может быть найден локально. |
 
 ### Смотрите также
 

@@ -16,13 +16,13 @@ public void DeleteFolder(string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка Uri |
+| folderUri | String | Папка Ури |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri*is` null` or` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folderUri* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

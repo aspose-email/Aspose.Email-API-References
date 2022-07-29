@@ -1,14 +1,14 @@
 ---
 title: EventCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр CustomEventCategoryaspose.email.personalinfo/eventcategory.
+description: Инициализирует новый экземпляр CustomEventCategoryaspose.email.personalinfo/eventcategory .
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo/eventcategory/eventcategory/
 ---
 ## EventCategory constructor
 
-Инициализирует новый экземпляр Custom[`EventCategory`](../../eventcategory).
+Инициализирует новый экземпляр Custom[`EventCategory`](../../eventcategory) .
 
 ```csharp
 public EventCategory(string description)

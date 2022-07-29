@@ -3,7 +3,7 @@ title: VCardOrganization
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет свойства организации vCard
 type: docs
-weight: 19650
+weight: 19700
 url: /ru/net/aspose.email.personalinfo.vcard/vcardorganization/
 ---
 ## VCardOrganization class
@@ -18,15 +18,15 @@ public sealed class VCardOrganization
 
 | Имя | Описание |
 | --- | --- |
-| [VCardOrganization](vcardorganization)() | Инициализирует новый экземпляр класса[`VCardOrganization`](../vcardorganization) |
+| [VCardOrganization](vcardorganization)() | Инициализирует новый экземпляр[`VCardOrganization`](../vcardorganization) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Agent](../../aspose.email.personalinfo.vcard/vcardorganization/agent) { get; set; } | Получает или устанавливает агент |
-| [Departments](../../aspose.email.personalinfo.vcard/vcardorganization/departments) { get; set; } | Получает или устанавливает отделы |
-| [Logo](../../aspose.email.personalinfo.vcard/vcardorganization/logo) { get; set; } | Получает или устанавливает логотип |
+| [Agent](../../aspose.email.personalinfo.vcard/vcardorganization/agent) { get; set; } | Получает или задает агент |
+| [Departments](../../aspose.email.personalinfo.vcard/vcardorganization/departments) { get; set; } | Получает или задает отделы |
+| [Logo](../../aspose.email.personalinfo.vcard/vcardorganization/logo) { get; set; } | Получает или задает логотип |
 | [Organization](../../aspose.email.personalinfo.vcard/vcardorganization/organization) { get; set; } | Получает или задает организацию |
 | [Role](../../aspose.email.personalinfo.vcard/vcardorganization/role) { get; set; } | Получает или устанавливает роль |
 | [Title](../../aspose.email.personalinfo.vcard/vcardorganization/title) { get; set; } | Получает или задает название должности |

@@ -1,14 +1,14 @@
 ---
 title: ContactFolder
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает класс содержимого The urncontent-classescontactfolder  который определяет набор свойств для папки который в основном содержит контактные элементы.
+description: Получает класс содержимого The urncontent-classescontactfolder  который определяет набор свойств для папки  которая в основном содержит элементы контактов.
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange.dav/contentclasstype/contactfolder/
 ---
 ## ContentClassType.ContactFolder property
 
-Получает класс содержимого The urn:content-classes:contactfolder , который определяет набор свойств для папки который в основном содержит контактные элементы.
+Получает класс содержимого The urn:content-classes:contactfolder , который определяет набор свойств для папки , которая в основном содержит элементы контактов.
 
 ```csharp
 public static ContentClassType ContactFolder { get; }

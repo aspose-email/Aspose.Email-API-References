@@ -16,11 +16,11 @@ public bool Remove(PropertyDescriptor item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | PropertyDescriptor | Объект, удаляемый из System.Collections.Generic.ICollection. |
+| item | PropertyDescriptor | Объект, который нужно удалить из System.Collections.Generic.ICollection. |
 
 ### Возвращаемое значение
 
-true, если элемент был успешно удален из System.Collections.Generic.ICollection; в противном случае false. Этот метод также возвращает false, если элемент не найден в исходном System.Collections.Generic.ICollection .
+true, если элемент был успешно удален из System.Collections.Generic.ICollection; в противном случае — false. Этот метод также возвращает false, если элемент не найден в исходной коллекции System.Collections.Generic.ICollection. .
 
 ### Смотрите также
 

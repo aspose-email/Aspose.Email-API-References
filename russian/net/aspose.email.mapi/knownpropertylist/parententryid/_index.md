@@ -1,14 +1,14 @@
 ---
 title: ParentEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID папки в которой находятся сообщения или подпапки. ОбластьСвойства идентификатора Каноническое имяPidTagParentEntryId Альтернативные именаPR_PARENT_ENTRYID ptagParentEntryId
+description: Содержит EntryID папки в которой находятся сообщения или подпапки. Область ID Properties Каноническое имя PidTagParentEntryId Альтернативные имена PR_PARENT_ENTRYID ptagParentEntryId
 type: docs
 weight: 14190
 url: /ru/net/aspose.email.mapi/knownpropertylist/parententryid/
 ---
 ## KnownPropertyList.ParentEntryId field
 
-Содержит EntryID папки, в которой находятся сообщения или подпапки. Область:Свойства идентификатора Каноническое имя:PidTagParentEntryId Альтернативные имена:PR_PARENT_ENTRYID, ptagParentEntryId
+Содержит EntryID папки, в которой находятся сообщения или подпапки. Область: ID Properties Каноническое имя: PidTagParentEntryId Альтернативные имена: PR_PARENT_ENTRYID, ptagParentEntryId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ParentEntryId;

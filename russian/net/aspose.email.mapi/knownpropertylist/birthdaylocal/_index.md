@@ -1,14 +1,14 @@
 ---
 title: BirthdayLocal
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает день рождения контакта. ОбластьСвойства контакта Каноническое имяPidLidBirthdayLocal Альтернативные именаdispidApptBirthdayLocal
+description: Указывает день рождения контакта. Область Свойства контакта Каноническое имя PidLidBirthdayLocal Альтернативные имена dispidApptBirthdayLocal
 type: docs
 weight: 2010
 url: /ru/net/aspose.email.mapi/knownpropertylist/birthdaylocal/
 ---
 ## KnownPropertyList.BirthdayLocal field
 
-Указывает день рождения контакта. Область:Свойства контакта Каноническое имя:PidLidBirthdayLocal Альтернативные имена:dispidApptBirthdayLocal
+Указывает день рождения контакта. Область: Свойства контакта Каноническое имя: PidLidBirthdayLocal Альтернативные имена: dispidApptBirthdayLocal
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BirthdayLocal;

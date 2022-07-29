@@ -58,7 +58,7 @@ public MapiProperty(PidTagPropertyDescriptor pd, object data)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pd | PidTagPropertyDescriptor | Дескриптор свойства |
-| data | Object | Данные свойства . |
+| data | Object | Данные недвижимости. |
 
 ### Смотрите также
 
@@ -80,7 +80,7 @@ public MapiProperty(PidLidPropertyDescriptor pd, object data)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pd | PidLidPropertyDescriptor | Дескриптор свойства |
-| data | Object | Данные свойства . |
+| data | Object | Данные недвижимости. |
 
 ### Смотрите также
 
@@ -93,7 +93,7 @@ public MapiProperty(PidLidPropertyDescriptor pd, object data)
 
 ## MapiProperty(long, IList&lt;object&gt;) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`MapiProperty`](../../mapiproperty). Эта перегрузка используется для создания свойства с несколькими значениями, PT_MV_*.
+Инициализирует новый экземпляр[`MapiProperty`](../../mapiproperty) class. Эта перегрузка используется для создания свойства с несколькими значениями, PT_MV_*.
 
 ```csharp
 public MapiProperty(long tag, IList<object> values)
@@ -102,7 +102,7 @@ public MapiProperty(long tag, IList<object> values)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | tag | Int64 | Тег свойства. |
-| values | IList`1 | Значения. |
+| values | IList`1 | Ценности. |
 
 ### Смотрите также
 
@@ -114,7 +114,7 @@ public MapiProperty(long tag, IList<object> values)
 
 ## MapiProperty(long, long, byte[]) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`MapiProperty`](../../mapiproperty).
+Инициализирует новый экземпляр[`MapiProperty`](../../mapiproperty) класс.
 
 ```csharp
 public MapiProperty(long tag, long signedParam, byte[] data)
@@ -124,7 +124,7 @@ public MapiProperty(long tag, long signedParam, byte[] data)
 | --- | --- | --- |
 | tag | Int64 | Тег свойства. |
 | signedParam | Int64 | Подписанный. |
-| data | Byte[] | Данные свойства. |
+| data | Byte[] | Данные о собственности. |
 
 ### Смотрите также
 
@@ -144,7 +144,7 @@ public MapiProperty(string name, long tag, long signedParam, byte[] data)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя. |
+| name | String | Название. |
 | tag | Int64 | Ключ тега свойства. |
 | signedParam | Int64 | Указывает, подписаны данные или нет. |
 | data | Byte[] | Двоичные данные свойства. |

@@ -20,7 +20,7 @@ public sealed class ExchangeUploadItemResult
 | --- | --- |
 | [ErrorMessage](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/errormessage) { get; } | Получает сообщение об ошибке (если не удалось загрузить элемент) |
 | [IsSuccessful](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/issuccessful) { get; } | Получает значение, указывающее, успешно ли загружен элемент |
-| [ItemId](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/itemid) { get; } | Получает идентификатор элемента |
+| [ItemId](../../aspose.email.clients.exchange.webservice/exchangeuploaditemresult/itemid) { get; } | Получает элемент с идентификатором |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Logo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает логотип
+description: Получает или задает логотип
 type: docs
 weight: 40
 url: /ru/net/aspose.email.personalinfo.vcard/vcardorganization/logo/
 ---
 ## VCardOrganization.Logo property
 
-Получает или устанавливает логотип
+Получает или задает логотип
 
 ```csharp
 public VCardPhoto Logo { get; set; }

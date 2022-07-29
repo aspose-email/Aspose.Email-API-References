@@ -16,7 +16,7 @@ public MapiAttachmentCollection Attachments { get; set; }
 
 ### Стоимость имущества
 
-Вложение.
+Прикрепление.
 
 ### Смотрите также
 

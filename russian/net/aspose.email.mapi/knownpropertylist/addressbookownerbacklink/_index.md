@@ -1,14 +1,14 @@
 ---
 title: AddressBookOwnerBackLink
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список списков рассылки принадлежащих почтовому пользователю. ОбластьАдресная книга Каноническое имяPidTagAddressBookOwnerBackLink Альтернативные именаPR_EMS_AB_OWNER_BL_O
+description: Содержит список списков рассылки принадлежащих пользователю почты. Область Адресная книга Каноническое имя PidTagAddressBookOwnerBackLink Альтернативные имена PR_EMS_AB_OWNER_BL_O
 type: docs
 weight: 810
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookownerbacklink/
 ---
 ## KnownPropertyList.AddressBookOwnerBackLink field
 
-Содержит список списков рассылки, принадлежащих почтовому пользователю. Область:Адресная книга Каноническое имя:PidTagAddressBookOwnerBackLink Альтернативные имена:PR_EMS_AB_OWNER_BL_O
+Содержит список списков рассылки, принадлежащих пользователю почты. Область: Адресная книга Каноническое имя: PidTagAddressBookOwnerBackLink Альтернативные имена: PR_EMS_AB_OWNER_BL_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookOwnerBackLink;

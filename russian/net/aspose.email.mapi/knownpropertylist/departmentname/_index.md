@@ -1,14 +1,14 @@
 ---
 title: DepartmentName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название отдела в котором работает пользователь почты. ОбластьMapiMailUser Каноническое имяPidTagDepartmentName Альтернативные именаPR_ИМЯ_ОТДЕЛА PR_ИМЯ_ОТДЕЛА_A PR_ИМЯ_ОТДЕЛА_W
+description: Содержит название отдела в котором работает пользователь почты. Область MapiMailUser Каноническое имя PidTagDepartmentName Альтернативные имена PR_DEPARTMENT_NAME PR_DEPARTMENT_NAME_A PR_DEPARTMENT_NAME_W
 type: docs
 weight: 4000
 url: /ru/net/aspose.email.mapi/knownpropertylist/departmentname/
 ---
 ## KnownPropertyList.DepartmentName field
 
-Содержит название отдела, в котором работает пользователь почты. Область:MapiMailUser Каноническое имя:PidTagDepartmentName Альтернативные имена:PR_ИМЯ_ОТДЕЛА, PR_ИМЯ_ОТДЕЛА_A, PR_ИМЯ_ОТДЕЛА_W,
+Содержит название отдела, в котором работает пользователь почты. Область: MapiMailUser Каноническое имя: PidTagDepartmentName Альтернативные имена: PR_DEPARTMENT_NAME, PR_DEPARTMENT_NAME_A, PR_DEPARTMENT_NAME_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DepartmentName;

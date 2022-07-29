@@ -1,14 +1,14 @@
 ---
 title: EndRange
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает конечную границу диапазона для поиска
+description: Получает или задает конечную границу диапазона search
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap/rangeseqset/endrange/
 ---
 ## RangeSeqSet.EndRange property
 
-Получает или задает конечную границу диапазона для поиска
+Получает или задает конечную границу диапазона search
 
 ```csharp
 public SimpleSeqSet EndRange { get; set; }

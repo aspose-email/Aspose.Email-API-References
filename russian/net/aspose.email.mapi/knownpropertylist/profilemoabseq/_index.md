@@ -1,14 +1,14 @@
 ---
 title: ProfileMoabSeq
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROFILE_MOAB_SEQ
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROFILE_MOAB_SEQ
 type: docs
 weight: 14810
 url: /ru/net/aspose.email.mapi/knownpropertylist/profilemoabseq/
 ---
 ## KnownPropertyList.ProfileMoabSeq field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROFILE_MOAB_SEQ
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROFILE_MOAB_SEQ
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProfileMoabSeq;

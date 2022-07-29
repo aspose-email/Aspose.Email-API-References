@@ -1,14 +1,14 @@
 ---
 title: NativeBody
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает наилучший доступный формат для хранения тела сообщения. ОбластьBestBody Каноническое имяPidTagNativeBody Альтернативные именаPR_NATIVE_BODY_INFO ptagNativeBodyInfo
+description: Указывает наилучший доступный формат для хранения тела сообщения. Область BestBody Каноническое имя PidTagNativeBody Альтернативные имена PR_NATIVE_BODY_INFO ptagNativeBodyInfo
 type: docs
 weight: 12820
 url: /ru/net/aspose.email.mapi/knownpropertylist/nativebody/
 ---
 ## KnownPropertyList.NativeBody field
 
-Указывает наилучший доступный формат для хранения тела сообщения. Область:BestBody Каноническое имя:PidTagNativeBody Альтернативные имена:PR_NATIVE_BODY_INFO, ptagNativeBodyInfo
+Указывает наилучший доступный формат для хранения тела сообщения. Область: BestBody Каноническое имя: PidTagNativeBody Альтернативные имена: PR_NATIVE_BODY_INFO, ptagNativeBodyInfo
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NativeBody;

@@ -1,14 +1,14 @@
 ---
 title: ICalendarReminderNextTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату и время в формате UTC для активации следующего напоминания. ОбластьКалендарь Каноническое имяPidTagICalendarReminderNextTime Альтернативные именаurnschemascalendarremindernexttime
+description: Содержит дату и время в формате UTC для активации следующего напоминания. Область Calendar Каноническое имя PidTagICalendarReminderNextTime Альтернативные имена urnschemascalendarremindernexttime
 type: docs
 weight: 11180
 url: /ru/net/aspose.email.mapi/knownpropertylist/icalendarremindernexttime/
 ---
 ## KnownPropertyList.ICalendarReminderNextTime field
 
-Содержит дату и время в формате UTC для активации следующего напоминания. Область:Календарь Каноническое имя:PidTagICalendarReminderNextTime Альтернативные имена:urn:schemas:calendar:remindernexttime
+Содержит дату и время в формате UTC для активации следующего напоминания. Область: Calendar Каноническое имя: PidTagICalendarReminderNextTime Альтернативные имена: urn:schemas:calendar:remindernexttime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ICalendarReminderNextTime;

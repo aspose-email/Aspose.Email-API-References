@@ -1,14 +1,14 @@
 ---
 title: TransferEnabled
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_TRANSFER_ENABLED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_TRANSFER_ENABLED
 type: docs
 weight: 19080
 url: /ru/net/aspose.email.mapi/knownpropertylist/transferenabled/
 ---
 ## KnownPropertyList.TransferEnabled field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_TRANSFER_ENABLED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_TRANSFER_ENABLED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransferEnabled;

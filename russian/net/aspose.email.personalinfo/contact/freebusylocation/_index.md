@@ -1,14 +1,14 @@
 ---
 title: FreeBusyLocation
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает URL-адрес по которому клиент может получить информацию о занятости контакта в виде файла iCal
+description: Получает или задает URL-адрес по которому клиент может получить информацию о занятости для контакта в виде файла iCal
 type: docs
 weight: 150
 url: /ru/net/aspose.email.personalinfo/contact/freebusylocation/
 ---
 ## Contact.FreeBusyLocation property
 
-Получает или задает URL-адрес, по которому клиент может получить информацию о занятости контакта в виде файла iCal
+Получает или задает URL-адрес, по которому клиент может получить информацию о занятости для контакта в виде файла iCal
 
 ```csharp
 public string FreeBusyLocation { get; set; }

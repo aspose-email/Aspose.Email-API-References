@@ -1,14 +1,14 @@
 ---
 title: SharingProviderName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое пользователем имя провайдера совместного использования определяемое свойством PidLidSharingProviderGuid раздел 2.266. ОбластьСовместное использование Каноническое имяPidLidSharingProviderName Альтернативные именаdispidSharingProviderName
+description: Содержит отображаемое пользователем имя провайдера совместного использования определяемое свойством PidLidSharingProviderGuid раздел 2.266. Область Sharing Каноническое имя PidLidSharingProviderName Альтернативные имена dispidSharingProviderName
 type: docs
 weight: 17720
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingprovidername/
 ---
 ## KnownPropertyList.SharingProviderName field
 
-Содержит отображаемое пользователем имя провайдера совместного использования, определяемое свойством PidLidSharingProviderGuid (раздел 2.266). Область:Совместное использование Каноническое имя:PidLidSharingProviderName Альтернативные имена:dispidSharingProviderName
+Содержит отображаемое пользователем имя провайдера совместного использования, определяемое свойством PidLidSharingProviderGuid (раздел 2.266). Область: Sharing Каноническое имя: PidLidSharingProviderName Альтернативные имена: dispidSharingProviderName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingProviderName;

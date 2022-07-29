@@ -1,14 +1,14 @@
 ---
 title: VCardSecurity
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаVCardSecurityaspose.email.personalinfo.vcard/vcardsecurity
+description: Инициализирует новый экземплярVCardSecurityaspose.email.personalinfo.vcard/vcardsecurity класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsecurity/vcardsecurity/
 ---
 ## VCardSecurity constructor
 
-Инициализирует новый экземпляр класса[`VCardSecurity`](../../vcardsecurity)
+Инициализирует новый экземпляр[`VCardSecurity`](../../vcardsecurity) класс
 
 ```csharp
 public VCardSecurity()

@@ -16,11 +16,11 @@ public string UpdateNote(MapiNote note)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| note | MapiNote | An[`MapiNote`](../../../aspose.email.mapi/mapinote)содержащий информацию о заметке. |
+| note | MapiNote | Ан[`MapiNote`](../../../aspose.email.mapi/mapinote) содержащую информацию о примечании. |
 
 ### Возвращаемое значение
 
-Примечание uri.
+Обратите внимание на ури.
 
 ### Смотрите также
 
@@ -42,11 +42,11 @@ public string UpdateNote(string uri, MapiNote note)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uri | String | Идентификатор заметки |
-| note | MapiNote | An[`MapiNote`](../../../aspose.email.mapi/mapinote), содержащий информацию о заметке. |
+| note | MapiNote | Ан[`MapiNote`](../../../aspose.email.mapi/mapinote) содержащую информацию о примечании. |
 
 ### Возвращаемое значение
 
-Примечание uri.
+Обратите внимание на ури.
 
 ### Смотрите также
 
@@ -69,12 +69,12 @@ public string UpdateNote(string uri, MapiNote note,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | uri | String | Идентификатор заметки |
-| note | MapiNote | An[`MapiNote`](../../../aspose.email.mapi/mapinote), содержащий информацию о заметке. |
+| note | MapiNote | Ан[`MapiNote`](../../../aspose.email.mapi/mapinote) содержащую информацию о примечании. |
 | additionalProperties | IEnumerable`1 | Дополнительные свойства MAPI, которые можно использовать в объекте MAPI. |
 
 ### Возвращаемое значение
 
-Примечание uri.
+Обратите внимание на ури.
 
 ### Смотрите также
 

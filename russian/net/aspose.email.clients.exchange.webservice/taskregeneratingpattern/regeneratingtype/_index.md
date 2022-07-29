@@ -1,14 +1,14 @@
 ---
 title: RegeneratingType
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип шаблона регенерации.
+description: Получает или задает тип регенерирующего шаблона.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice/taskregeneratingpattern/regeneratingtype/
 ---
 ## TaskRegeneratingPattern.RegeneratingType property
 
-Получает или задает тип шаблона регенерации.
+Получает или задает тип регенерирующего шаблона.
 
 ```csharp
 public TaskRegeneratingType RegeneratingType { get; set; }

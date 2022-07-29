@@ -1,14 +1,14 @@
 ---
 title: Office
 second_title: Справочник по Aspose.Email для .NET API
-description: Телефон офиса
+description: Номер рабочего телефона
 type: docs
 weight: 120
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/office/
 ---
 ## PhoneNumberCategory.Office property
 
-Телефон офиса
+Номер рабочего телефона
 
 ```csharp
 public static PhoneNumberCategory Office { get; }

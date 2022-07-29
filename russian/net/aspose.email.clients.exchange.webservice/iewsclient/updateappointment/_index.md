@@ -16,7 +16,7 @@ public void UpdateAppointment(MapiCalendar appointment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | MapiCalendar | Календарная встреча. |
+| appointment | MapiCalendar | Календарное назначение. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void UpdateAppointment(MapiCalendar appointment, string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | MapiCalendar | Календарная встреча. |
+| appointment | MapiCalendar | Календарное назначение. |
 | folderUri | String | URI родительской папки встреч. |
 
 ### Смотрите также
@@ -59,7 +59,7 @@ public void UpdateAppointment(Appointment appointment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | Appointment | Календарная встреча. |
+| appointment | Appointment | Календарное назначение. |
 
 ### Смотрите также
 
@@ -80,7 +80,7 @@ public void UpdateAppointment(Appointment appointment, string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| встреча | Appointment | Календарная встреча. |
+| appointment | Appointment | Календарное назначение. |
 | folderUri | String | URI родительской папки встреч. |
 
 ### Смотрите также

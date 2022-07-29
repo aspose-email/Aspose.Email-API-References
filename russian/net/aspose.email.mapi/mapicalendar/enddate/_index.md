@@ -1,14 +1,14 @@
 ---
 title: EndDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает дату и время окончания события. Если дата не установлена возвращается значение по умолчанию дляDateTime.
+description: Получает или задает дату и время окончания события. Если дата не установлена значение по умолчанию дляDateTime возвращается.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.mapi/mapicalendar/enddate/
 ---
 ## MapiCalendar.EndDate property
 
-Получает или задает дату и время окончания события. Если дата не установлена, возвращается значение по умолчанию дляDateTime.
+Получает или задает дату и время окончания события. Если дата не установлена, значение по умолчанию дляDateTime возвращается.
 
 ```csharp
 public DateTime EndDate { get; set; }

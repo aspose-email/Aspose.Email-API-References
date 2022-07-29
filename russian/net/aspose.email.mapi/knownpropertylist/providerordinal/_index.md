@@ -1,14 +1,14 @@
 ---
 title: ProviderOrdinal
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PROVIDER_ORDINAL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PROVIDER_ORDINAL
 type: docs
 weight: 15060
 url: /ru/net/aspose.email.mapi/knownpropertylist/providerordinal/
 ---
 ## KnownPropertyList.ProviderOrdinal field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PROVIDER_ORDINAL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PROVIDER_ORDINAL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ProviderOrdinal;

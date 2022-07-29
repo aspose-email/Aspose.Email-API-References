@@ -1,14 +1,14 @@
 ---
 title: SearchFolderEfpFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает флаги управляющие отображением папки. ОбластьПоиск Каноническое имяPidTagSearchFolderEfpFlags Альтернативные именаPR_WB_SF_EFP_FLAGS
+description: Указывает флаги управляющие отображением папки. Область Search Каноническое имя PidTagSearchFolderEfpFlags Альтернативные имена PR_WB_SF_EFP_FLAGS
 type: docs
 weight: 16950
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchfolderefpflags/
 ---
 ## KnownPropertyList.SearchFolderEfpFlags field
 
-Указывает флаги, управляющие отображением папки. Область:Поиск Каноническое имя:PidTagSearchFolderEfpFlags Альтернативные имена:PR_WB_SF_EFP_FLAGS
+Указывает флаги, управляющие отображением папки. Область: Search Каноническое имя: PidTagSearchFolderEfpFlags Альтернативные имена: PR_WB_SF_EFP_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderEfpFlags;

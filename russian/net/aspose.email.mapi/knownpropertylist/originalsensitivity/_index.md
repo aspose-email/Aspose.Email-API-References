@@ -1,14 +1,14 @@
 ---
 title: OriginalSensitivity
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение конфиденциальности исходного сообщения электронной почты. ОбластьОбщие свойства сообщения Каноническое имяPidTagOriginalSensitivity Альтернативные именаPR_ORIGINAL_SENSITIVITY ptagOriginalSensitivity
+description: Содержит значение конфиденциальности исходного сообщения электронной почты. Область Общие свойства сообщения Каноническое имя PidTagOriginalSensitivity Альтернативные имена PR_ORIGINAL_SENSITIVITY ptagOriginalSensitivity
 type: docs
 weight: 13710
 url: /ru/net/aspose.email.mapi/knownpropertylist/originalsensitivity/
 ---
 ## KnownPropertyList.OriginalSensitivity field
 
-Содержит значение конфиденциальности исходного сообщения электронной почты. Область:Общие свойства сообщения Каноническое имя:PidTagOriginalSensitivity Альтернативные имена:PR_ORIGINAL_SENSITIVITY, ptagOriginalSensitivity
+Содержит значение конфиденциальности исходного сообщения электронной почты. Область: Общие свойства сообщения Каноническое имя: PidTagOriginalSensitivity Альтернативные имена: PR_ORIGINAL_SENSITIVITY, ptagOriginalSensitivity
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalSensitivity;

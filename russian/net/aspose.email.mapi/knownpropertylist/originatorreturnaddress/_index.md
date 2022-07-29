@@ -1,14 +1,14 @@
 ---
 title: OriginatorReturnAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ORIGINATOR_RETURN_ADDRESS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ORIGINATOR_RETURN_ADDRESS
 type: docs
 weight: 13900
 url: /ru/net/aspose.email.mapi/knownpropertylist/originatorreturnaddress/
 ---
 ## KnownPropertyList.OriginatorReturnAddress field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ORIGINATOR_RETURN_ADDRESS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ORIGINATOR_RETURN_ADDRESS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorReturnAddress;

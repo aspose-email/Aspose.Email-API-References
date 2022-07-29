@@ -1,14 +1,14 @@
 ---
 title: ObjectUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит uri объекта. Это свойство не передается через транспортные протоколы. ОбластьОпределенные пользователем свойства Aspose Альтернативные именаObjectUri
+description: Содержит uri объекта. Это свойство не передается через транспортные протоколы. Область Определяется пользователем Aspose указанных свойств Альтернативные имена ObjectUri
 type: docs
 weight: 13190
 url: /ru/net/aspose.email.mapi/knownpropertylist/objecturi/
 ---
 ## KnownPropertyList.ObjectUri field
 
-Содержит uri объекта. Это свойство не передается через транспортные протоколы. Область:Определенные пользователем свойства Aspose Альтернативные имена:ObjectUri
+Содержит uri объекта. Это свойство не передается через транспортные протоколы. Область: Определяется пользователем Aspose указанных свойств Альтернативные имена: ObjectUri
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ObjectUri;

@@ -1,14 +1,14 @@
 ---
 title: ClipStart
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает дату первого экземпляра
+description: Получает или задает дату первого экземпляра
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapicalendareventrecurrence/clipstart/
 ---
 ## MapiCalendarEventRecurrence.ClipStart property
 
-Получает или устанавливает дату первого экземпляра
+Получает или задает дату первого экземпляра
 
 ```csharp
 public DateTime ClipStart { get; set; }

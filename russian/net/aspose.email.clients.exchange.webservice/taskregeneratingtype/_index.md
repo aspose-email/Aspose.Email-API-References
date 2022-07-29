@@ -1,14 +1,14 @@
 ---
 title: TaskRegeneratingType
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет типы регенерирующего шаблона.
+description: Перечисляет типы шаблона регенерации.
 type: docs
 weight: 15530
 url: /ru/net/aspose.email.clients.exchange.webservice/taskregeneratingtype/
 ---
 ## TaskRegeneratingType enumeration
 
-Перечисляет типы регенерирующего шаблона.
+Перечисляет типы шаблона регенерации.
 
 ```csharp
 public enum TaskRegeneratingType
@@ -18,7 +18,7 @@ public enum TaskRegeneratingType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Daily | `0` | Указывает режим ежедневной регенерации. |
+| Daily | `0` | Указывает шаблон ежедневной регенерации. |
 | Weekly | `1` | Указывает шаблон еженедельной регенерации. |
 | Monthly | `2` | Указывает шаблон ежемесячной регенерации. |
 | Yearly | `3` | Указывает шаблон ежегодного восстановления. |

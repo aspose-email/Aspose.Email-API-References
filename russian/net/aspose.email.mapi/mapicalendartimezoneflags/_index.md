@@ -3,7 +3,7 @@ title: MapiCalendarTimeZoneFlags
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет отдельные битовые флаги которые определяют информацию о TimeZoneRule
 type: docs
-weight: 18100
+weight: 18130
 url: /ru/net/aspose.email.mapi/mapicalendartimezoneflags/
 ---
 ## MapiCalendarTimeZoneFlags enumeration
@@ -19,8 +19,8 @@ public enum MapiCalendarTimeZoneFlags
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| TZRULE_FLAG_RECUR_CURRENT_TZREG | `1` | Указывает, что это правило связано с повторяющимся рядом. |
-| TZRULE_FLAG_EFFECTIVE_TZREG | `2` | Этот флаг указывает, что данное правило является действующим. |
+| TZRULE_FLAG_RECUR_CURRENT_TZREG | `1` | Указывает, что это правило связано с повторяющейся серией. |
+| TZRULE_FLAG_EFFECTIVE_TZREG | `2` | Этот флаг указывает, что данное правило является действующим правилом. |
 
 ### Смотрите также
 

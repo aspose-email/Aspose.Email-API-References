@@ -1,14 +1,14 @@
 ---
 title: PostRssItemLink
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит URL-адрес ссылки из элемента RSS или Atom. ОбластьRSS Каноническое имяPidLidPostRssItemLink Альтернативные именаdispidPostRssItemLink
+description: Содержит URL-адрес ссылки из элемента RSS или Atom. Область RSS Каноническое имя PidLidPostRssItemLink Альтернативные имена dispidPostRssItemLink
 type: docs
 weight: 14480
 url: /ru/net/aspose.email.mapi/knownpropertylist/postrssitemlink/
 ---
 ## KnownPropertyList.PostRssItemLink field
 
-Содержит URL-адрес ссылки из элемента RSS или Atom. Область:RSS Каноническое имя:PidLidPostRssItemLink Альтернативные имена:dispidPostRssItemLink
+Содержит URL-адрес ссылки из элемента RSS или Atom. Область: RSS Каноническое имя: PidLidPostRssItemLink Альтернативные имена: dispidPostRssItemLink
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostRssItemLink;

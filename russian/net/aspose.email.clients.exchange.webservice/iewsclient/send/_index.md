@@ -38,7 +38,7 @@ public void Send(string from, string to, string subject, string body)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | from | String | От адреса |
-| to | String | Адресу |
+| to | String | Адресовать |
 | subject | String | Тема сообщения |
 | body | String | Тело сообщения |
 
@@ -60,8 +60,8 @@ public void Send(MailMessage message, FollowUpOptions messageOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MailMessage | [`MailMessage`](../../../aspose.email/mailmessage)для отправки. |
-| messageOptions | FollowUpOptions | [`FollowUpOptions`](../../../aspose.email.mapi/followupoptions)который представляет дополнительные опции для использования Follow вверх флаги и кнопки голосования. |
+| message | MailMessage | [`MailMessage`](../../../aspose.email/mailmessage) быть отправленным. |
+| messageOptions | FollowUpOptions | [`FollowUpOptions`](../../../aspose.email.mapi/followupoptions) который представляет собой дополнительные параметры для использования флагов отслеживания и кнопок голосования. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmsAbMapiId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MAPI_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MAPI_ID
 type: docs
 weight: 7150
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmapiid/
 ---
 ## KnownPropertyList.EmsAbMapiId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MAPI_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MAPI_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMapiId;

@@ -24,7 +24,7 @@ public class UpdateSettings
 
 | Имя | Описание |
 | --- | --- |
-| [SkipAttachments](../../aspose.email.clients.graph/updatesettings/skipattachments) { get; set; } | Указывает, должны ли вложения игнорироваться при обновлении |
+| [SkipAttachments](../../aspose.email.clients.graph/updatesettings/skipattachments) { get; set; } | Указывает, следует ли игнорировать вложения в операции обновления |
 
 ### Смотрите также
 

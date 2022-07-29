@@ -3,7 +3,7 @@ title: MapiContactProfessionalPropertySet
 second_title: Справочник по Aspose.Email для .NET API
 description: Свойства используются для хранения профессиональных сведений о лице представленном контактом
 type: docs
-weight: 18290
+weight: 18320
 url: /ru/net/aspose.email.mapi/mapicontactprofessionalpropertyset/
 ---
 ## MapiContactProfessionalPropertySet class
@@ -18,21 +18,21 @@ public sealed class MapiContactProfessionalPropertySet
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset#constructor)() | Инициализирует новый экземпляр класса[`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset). |
-| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр класса[`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset)class |
-| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset#constructor_2)(string, string) | Инициализирует новый экземпляр класса[`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset). |
+| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset#constructor)() | Инициализирует новый экземпляр[`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset) класс. |
+| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр[`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset) класс |
+| [MapiContactProfessionalPropertySet](mapicontactprofessionalpropertyset#constructor_2)(string, string) | Инициализирует новый экземпляр[`MapiContactProfessionalPropertySet`](../mapicontactprofessionalpropertyset) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Assistant](../../aspose.email.mapi/mapicontactprofessionalpropertyset/assistant) { get; set; } | Получает или задает имя помощника контакта |
-| [CompanyName](../../aspose.email.mapi/mapicontactprofessionalpropertyset/companyname) { get; set; } | Получает или задает компанию в которой работает контакт |
-| [DepartmentName](../../aspose.email.mapi/mapicontactprofessionalpropertyset/departmentname) { get; set; } | Получает или задает имя отдела которому принадлежит контакт |
+| [CompanyName](../../aspose.email.mapi/mapicontactprofessionalpropertyset/companyname) { get; set; } | Получает или задает компанию , в которой работает контакт |
+| [DepartmentName](../../aspose.email.mapi/mapicontactprofessionalpropertyset/departmentname) { get; set; } | Получает или задает имя отдела , которому принадлежит контакт |
 | [ManagerName](../../aspose.email.mapi/mapicontactprofessionalpropertyset/managername) { get; set; } | Получает или задает имя менеджера контакта |
 | [OfficeLocation](../../aspose.email.mapi/mapicontactprofessionalpropertyset/officelocation) { get; set; } | Получает или задает местоположение офиса, в котором работает контакт |
 | [Profession](../../aspose.email.mapi/mapicontactprofessionalpropertyset/profession) { get; set; } | Получает или устанавливает профессию контакта |
-| [Title](../../aspose.email.mapi/mapicontactprofessionalpropertyset/title) { get; set; } | Получает или устанавливает должность контакта |
+| [Title](../../aspose.email.mapi/mapicontactprofessionalpropertyset/title) { get; set; } | Получает или задает должность контакта |
 
 ### Смотрите также
 

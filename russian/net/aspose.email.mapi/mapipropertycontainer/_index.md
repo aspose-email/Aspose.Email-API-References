@@ -1,14 +1,14 @@
 ---
 title: MapiPropertyContainer
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет базовый класс для MapiAttachment./mapiattachment MapiRecipient./mapirecipient MapiMessage./mapimessage.
+description: Представляет базовый класс для MapiAttachment./mapiattachment  MapiRecipient./mapirecipient  MapiMessage./mapimessage .
 type: docs
-weight: 18550
+weight: 18580
 url: /ru/net/aspose.email.mapi/mapipropertycontainer/
 ---
 ## MapiPropertyContainer class
 
-Представляет базовый класс для [`MapiAttachment`](../mapiattachment), [`MapiRecipient`](../mapirecipient), [`MapiMessage`](../mapimessage).
+Представляет базовый класс для [`MapiAttachment`](../mapiattachment) , [`MapiRecipient`](../mapirecipient) , [`MapiMessage`](../mapimessage) .
 
 ```csharp
 public class MapiPropertyContainer
@@ -19,24 +19,24 @@ public class MapiPropertyContainer
 | Имя | Описание |
 | --- | --- |
 | virtual [CodePage](../../aspose.email.mapi/mapipropertycontainer/codepage) { get; } | Получает кодовую страницу. |
-| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties) { get; } | Получает коллекцию свойств. |
+| virtual [Properties](../../aspose.email.mapi/mapipropertycontainer/properties) { get; } | Получает набор свойств. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | virtual [GetProperty](../../aspose.email.mapi/mapipropertycontainer/getproperty)(PropertyDescriptor) | Получает свойство MAPI по дескриптору свойства. |
-| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | Получает значение свойства, указанного тегом, как булев тип. |
+| [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | Получает значение свойства, указанного тегом, в виде логического типа. |
 | [GetPropertyBytes](../../aspose.email.mapi/mapipropertycontainer/getpropertybytes)(long) | Получает строковое значение свойства, указанного тегом. |
-| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime)(long) | Получает значение свойства, указанного тегом, как тип DateTime. |
+| [GetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/getpropertydatetime)(long) | Получает значение свойства, указанного тегом как тип DateTime. |
 | [GetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/getpropertyint32)(long) | Получает значение int32 свойства, указанного тегом. |
 | [GetPropertyLong](../../aspose.email.mapi/mapipropertycontainer/getpropertylong)(long) | Получает значение свойства, указанного тегом, типа Long (int64). |
-| [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort)(long) | Получает значение свойства, указанного тегом, типа Short. |
+| [GetPropertyShort](../../aspose.email.mapi/mapipropertycontainer/getpropertyshort)(long) | Получает значение свойства, указанного тегом, как тип Short. |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring#getpropertystring)(long) | Получает строковое значение свойства, указанного тегом. |
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring#getpropertystring_1)(long, int) | Получает строковое значение свойства, указанного тегом. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Определяет, закодированы ли строковые свойства в Unicode или нет. |
-| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty#setproperty)(MapiProperty) | Устанавливает свойство. |
-| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty#setproperty_1)(PropertyDescriptor, object) | Устанавливает свойство MAPI. |
+| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty#setproperty)(MapiProperty) | Задает свойство. |
+| virtual [SetProperty](../../aspose.email.mapi/mapipropertycontainer/setproperty#setproperty_1)(PropertyDescriptor, object) | Задает свойство MAPI. |
 | [TryGetPropertyData](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydata)(long) | Попытаться получить данные свойства с указанным ключом тега. |
 | [TryGetPropertyDateTime](../../aspose.email.mapi/mapipropertycontainer/trygetpropertydatetime)(long, ref DateTime) | Получает значение указанного свойства как тип DateTime. Возвращаемое значение указывает, успешно ли выполнена операция. |
 | [TryGetPropertyInt32](../../aspose.email.mapi/mapipropertycontainer/trygetpropertyint32)(long, ref int) | Получает значение указанного свойства как тип Int32. Возвращаемое значение указывает, успешно ли выполнена операция. |

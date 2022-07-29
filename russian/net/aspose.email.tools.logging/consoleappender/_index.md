@@ -1,14 +1,14 @@
 ---
 title: ConsoleAppender
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет приложение для вывода на консоль.
+description: Представляет приложение для вывода консоли.
 type: docs
-weight: 20400
+weight: 20450
 url: /ru/net/aspose.email.tools.logging/consoleappender/
 ---
 ## ConsoleAppender class
 
-Представляет приложение для вывода на консоль.
+Представляет приложение для вывода консоли.
 
 ```csharp
 public class ConsoleAppender : Appender
@@ -24,13 +24,13 @@ public class ConsoleAppender : Appender
 
 | Имя | Описание |
 | --- | --- |
-| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Получает или задает средство форматирования. |
+| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Получает или задает модуль форматирования. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Append](../../aspose.email.tools.logging/consoleappender/append)(LogEntry) | Добавляет указанную запись журнала в приложение. |
+| override [Append](../../aspose.email.tools.logging/consoleappender/append)(LogEntry) | Добавляет указанную запись журнала в appender. |
 | virtual [AppendHeader](../../aspose.email.tools.logging/appender/appendheader)() | Запускает файл журнала с определенным заголовком. |
 | virtual [Close](../../aspose.email.tools.logging/appender/close)() | Закрывает приложение. |
 | [Dispose](../../aspose.email.tools.logging/appender/dispose)() | Освобождает неуправляемые ресурсы, используемые Appender. |

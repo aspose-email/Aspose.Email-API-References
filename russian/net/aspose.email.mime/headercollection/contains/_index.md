@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее содержится ли указанный заголовок в коллекции
+description: Получает значение указывающее содержится ли указанный заголовок в collection
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mime/headercollection/contains/
 ---
 ## HeaderCollection.Contains method
 
-Получает значение, указывающее, содержится ли указанный заголовок в коллекции
+Получает значение, указывающее, содержится ли указанный заголовок в collection
 
 ```csharp
 public bool Contains(string item)
@@ -20,7 +20,7 @@ public bool Contains(string item)
 
 ### Возвращаемое значение
 
-` True` если коллекция содержит указанный*item*; в противном случае` false`
+`Истинный` если коллекция содержит указанные*item* ; в противном случае,`ЛОЖЬ`
 
 ### Смотрите также
 

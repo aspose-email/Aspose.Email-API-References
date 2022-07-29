@@ -17,8 +17,8 @@ public Task<IEnumerable<ExchangeUploadItemResult>> UpdateItemsAsync(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| items | IEnumerable`1 | Элементы для обновления. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| items | IEnumerable`1 | Элементы, которые необходимо обновить. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
@@ -28,8 +28,8 @@ public Task<IEnumerable<ExchangeUploadItemResult>> UpdateItemsAsync(
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *items*is` null` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *items*is` empty` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *items* является`нулевой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *items* является`пустой` |
 
 ### Смотрите также
 

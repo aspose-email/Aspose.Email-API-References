@@ -1,14 +1,14 @@
 ---
 title: HomeTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит основной номер домашнего телефона пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagHomeTelephoneNumber Альтернативные именаPR_HOME_TELEPHONE_NUMBER PR_HOME_TELEPHONE_NUMBER_A
+description: Содержит основной номер телефона домашнего пользователя почты. Область MapiMailUser Каноническое имя PidTagHomeTelephoneNumber Альтернативные имена PR_HOME_TELEPHONE_NUMBER PR_HOME_TELEPHONE_NUMBER_A
 type: docs
 weight: 11090
 url: /ru/net/aspose.email.mapi/knownpropertylist/hometelephonenumber/
 ---
 ## KnownPropertyList.HomeTelephoneNumber field
 
-Содержит основной номер домашнего телефона пользователя почты. Область:MapiMailUser Каноническое имя:PidTagHomeTelephoneNumber Альтернативные имена:PR_HOME_TELEPHONE_NUMBER, PR_HOME_TELEPHONE_NUMBER_A,
+Содержит основной номер телефона домашнего пользователя почты. Область: MapiMailUser Каноническое имя: PidTagHomeTelephoneNumber Альтернативные имена: PR_HOME_TELEPHONE_NUMBER, PR_HOME_TELEPHONE_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HomeTelephoneNumber;

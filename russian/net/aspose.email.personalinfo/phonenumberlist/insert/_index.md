@@ -16,8 +16,8 @@ public void Insert(int index, PhoneNumber value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить*value*. |
-| value | PhoneNumber | ОбъектObjectдля вставки в список. |
+| index | Int32 | Отсчитываемый от нуля индекс, при котором*value* следует вставить. |
+| value | PhoneNumber | Object вставить в список. |
 
 ### Смотрите также
 

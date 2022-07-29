@@ -1,14 +1,14 @@
 ---
 title: VCardGeo
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаVCardGeoaspose.email.personalinfo.vcard/vcardgeo
+description: Инициализирует новый экземплярVCardGeoaspose.email.personalinfo.vcard/vcardgeo класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo.vcard/vcardgeo/vcardgeo/
 ---
 ## VCardGeo constructor
 
-Инициализирует новый экземпляр класса[`VCardGeo`](../../vcardgeo)
+Инициализирует новый экземпляр[`VCardGeo`](../../vcardgeo) класс
 
 ```csharp
 public VCardGeo()

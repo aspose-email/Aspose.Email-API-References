@@ -1,14 +1,14 @@
 ---
 title: CreateTask
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает указанную задачу в папке задач по умолчанию.
+description: Создает данную задачу в папке задач по умолчанию.
 type: docs
 weight: 550
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/createtask/
 ---
 ## CreateTask(ExchangeTask) {#createtask}
 
-Создает указанную задачу в папке задач по умолчанию.
+Создает данную задачу в папке задач по умолчанию.
 
 ```csharp
 public string CreateTask(ExchangeTask task)
@@ -16,7 +16,7 @@ public string CreateTask(ExchangeTask task)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| task | ExchangeTask | Задача для создания. |
+| task | ExchangeTask | Задача создать. |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,7 @@ URI задачи
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*is` null` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task* является`нулевой`. |
 
 ### Смотрите также
 
@@ -47,8 +47,8 @@ public string CreateTask(string folder, ExchangeTask task)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | Папка, в которой должна быть создана задача. |
-| task | ExchangeTask | Задача для создания. |
+| folder | String | Папка, в которой нужно создать задачу. |
+| task | ExchangeTask | Задача создать. |
 
 ### Возвращаемое значение
 
@@ -58,8 +58,8 @@ URI задачи
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folder*is` null` или` пусто` . |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task*is` null` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *folder* является`нулевой`или же`пустой`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *task* является`нулевой`. |
 
 ### Смотрите также
 

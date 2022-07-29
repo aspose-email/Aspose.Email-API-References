@@ -17,10 +17,10 @@ public Task<Appointment[]> ListAppointmentsAsync(string folderUri, MailQuery que
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка для поиска встреч в. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery)который представляет критерии поиска встреч. |
+| folderUri | String | Папка для поиска встреч. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска встреч. |
 | recursive | Boolean | Указывает, рекурсивный листинг или нет. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

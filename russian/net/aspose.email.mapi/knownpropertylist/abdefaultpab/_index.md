@@ -1,14 +1,14 @@
 ---
 title: AbDefaultPab
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_AB_DEFAULT_PAB
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_AB_DEFAULT_PAB
 type: docs
 weight: 180
 url: /ru/net/aspose.email.mapi/knownpropertylist/abdefaultpab/
 ---
 ## KnownPropertyList.AbDefaultPab field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_AB_DEFAULT_PAB
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_AB_DEFAULT_PAB
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AbDefaultPab;

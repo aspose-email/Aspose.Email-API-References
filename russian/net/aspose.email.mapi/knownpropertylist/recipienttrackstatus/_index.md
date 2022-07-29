@@ -1,14 +1,14 @@
 ---
 title: RecipientTrackStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает статус ответа возвращаемый участником. ОбластьTransportRecipient Каноническое имяPidTagRecipientTrackStatus Альтернативные именаPR_RECIPIENT_TRACKSTATUS ptagRecipientTrackStatus
+description: Указывает статус ответа возвращаемый участником. Область TransportRecipient Каноническое имя PidTagRecipientTrackStatus Альтернативные имена PR_RECIPIENT_TRACKSTATUS ptagRecipientTrackStatus
 type: docs
 weight: 15540
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipienttrackstatus/
 ---
 ## KnownPropertyList.RecipientTrackStatus field
 
-Указывает статус ответа, возвращаемый участником. Область:TransportRecipient Каноническое имя:PidTagRecipientTrackStatus Альтернативные имена:PR_RECIPIENT_TRACKSTATUS, ptagRecipientTrackStatus
+Указывает статус ответа, возвращаемый участником. Область: TransportRecipient Каноническое имя: PidTagRecipientTrackStatus Альтернативные имена: PR_RECIPIENT_TRACKSTATUS, ptagRecipientTrackStatus
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientTrackStatus;

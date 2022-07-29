@@ -1,14 +1,14 @@
 ---
 title: WithinSizeRange
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает минимальный и максимальный размеры входящих сообщений чтобы применялось условие или исключение.
+description: Получает или задает минимальный и максимальный размеры которые должны быть у входящих сообщений для применения условия или исключения.
 type: docs
 weight: 190
 url: /ru/net/aspose.email.clients.exchange/rulepredicates/withinsizerange/
 ---
 ## RulePredicates.WithinSizeRange property
 
-Получает или задает минимальный и максимальный размеры входящих сообщений, чтобы применялось условие или исключение.
+Получает или задает минимальный и максимальный размеры, которые должны быть у входящих сообщений для применения условия или исключения.
 
 ```csharp
 public SizeRange WithinSizeRange { get; set; }

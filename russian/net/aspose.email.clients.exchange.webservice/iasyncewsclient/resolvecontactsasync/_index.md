@@ -1,14 +1,14 @@
 ---
 title: ResolveContactsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов  100. Это ограничение используемой операции EWS. .
+description: Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов  100. Это ограничение используемой операции EWS.
 type: docs
 weight: 580
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/resolvecontactsasync/
 ---
 ## IAsyncEwsClient.ResolveContactsAsync method
 
-Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов — 100. Это ограничение используемой операции EWS. .
+Разрешает неоднозначные адреса электронной почты и отображаемые имена Примечание. Максимальное количество возвращаемых контактов — 100. Это ограничение используемой операции EWS.
 
 ```csharp
 public Task<Contact[]> ResolveContactsAsync(string unresolvedEntry, 
@@ -30,7 +30,7 @@ public Task<Contact[]> ResolveContactsAsync(string unresolvedEntry,
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *unresolvedEntry*is` null` или` пустой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *unresolvedEntry* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

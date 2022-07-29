@@ -1,14 +1,14 @@
 ---
 title: SaveMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает и сохраняет сообщение как поток
+description: Извлекает и сохраняет сообщение как поток
 type: docs
 weight: 350
 url: /ru/net/aspose.email.clients.pop3/pop3client/savemessage/
 ---
 ## SaveMessage(IConnection, string, Stream) {#savemessage_2}
 
-Выбирает и сохраняет сообщение как поток
+Извлекает и сохраняет сообщение как поток
 
 ```csharp
 public void SaveMessage(IConnection connection, string uniqueId, Stream outputStream)
@@ -16,9 +16,9 @@ public void SaveMessage(IConnection connection, string uniqueId, Stream outputSt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервер |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
-| outputStream | Stream | Поток, в котором будет сохранено сообщение |
+| outputStream | Stream | Поток, где сообщение будет сохранено |
 
 ### Смотрите также
 
@@ -31,7 +31,7 @@ public void SaveMessage(IConnection connection, string uniqueId, Stream outputSt
 
 ## SaveMessage(IConnection, string, string) {#savemessage_3}
 
-Выбирает и сохраняет сообщение в файл
+Извлекает и сохраняет сообщение в файл
 
 ```csharp
 public void SaveMessage(IConnection connection, string uniqueId, string fileName)
@@ -39,7 +39,7 @@ public void SaveMessage(IConnection connection, string uniqueId, string fileName
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервер |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | Уникальный идентификатор сообщения |
 | fileName | String | Имя файла для сообщения |
 
@@ -54,7 +54,7 @@ public void SaveMessage(IConnection connection, string uniqueId, string fileName
 
 ## SaveMessage(IConnection, int, Stream) {#savemessage}
 
-Выбирает и сохраняет сообщение как поток
+Извлекает и сохраняет сообщение как поток
 
 ```csharp
 public void SaveMessage(IConnection connection, int sequenceNumber, Stream outputStream)
@@ -62,9 +62,9 @@ public void SaveMessage(IConnection connection, int sequenceNumber, Stream outpu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервер |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
-| outputStream | Stream | Поток, в котором будет сохранено сообщение |
+| outputStream | Stream | Поток, где сообщение будет сохранено |
 
 ### Смотрите также
 
@@ -77,7 +77,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, Stream outpu
 
 ## SaveMessage(IConnection, int, string) {#savemessage_1}
 
-Выбирает и сохраняет сообщение в файл
+Извлекает и сохраняет сообщение в файл
 
 ```csharp
 public void SaveMessage(IConnection connection, int sequenceNumber, string fileName)
@@ -85,7 +85,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, string fileN
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервер |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumber | Int32 | Порядковый номер сообщения |
 | fileName | String | Имя файла для сообщения |
 
@@ -100,7 +100,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, string fileN
 
 ## SaveMessage(string, Stream) {#savemessage_6}
 
-Выбирает и сохраняет сообщение как поток
+Извлекает и сохраняет сообщение как поток
 
 ```csharp
 public void SaveMessage(string uniqueId, Stream outputStream)
@@ -108,8 +108,8 @@ public void SaveMessage(string uniqueId, Stream outputStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный Идентификатор сообщения |
-| outputStream | Stream | Поток, в котором будет сохранено сообщение |
+| uniqueId | String | Уникальный идентификатор сообщения |
+| outputStream | Stream | Поток, где сообщение будет сохранено |
 
 ### Смотрите также
 
@@ -121,7 +121,7 @@ public void SaveMessage(string uniqueId, Stream outputStream)
 
 ## SaveMessage(string, string) {#savemessage_7}
 
-Выбирает и сохраняет сообщение в файл
+Извлекает и сохраняет сообщение в файл
 
 ```csharp
 public void SaveMessage(string uniqueId, string fileName)
@@ -129,7 +129,7 @@ public void SaveMessage(string uniqueId, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Уникальный Идентификатор сообщения |
+| uniqueId | String | Уникальный идентификатор сообщения |
 | fileName | String | Имя файла для сообщения |
 
 ### Смотрите также
@@ -142,7 +142,7 @@ public void SaveMessage(string uniqueId, string fileName)
 
 ## SaveMessage(int, Stream) {#savemessage_4}
 
-Выбирает и сохраняет сообщение как поток
+Извлекает и сохраняет сообщение как поток
 
 ```csharp
 public void SaveMessage(int sequenceNumber, Stream outputStream)
@@ -150,8 +150,8 @@ public void SaveMessage(int sequenceNumber, Stream outputStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Последовательность номер сообщения |
-| outputStream | Stream | Поток, в котором будет сохранено сообщение |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
+| outputStream | Stream | Поток, где сообщение будет сохранено |
 
 ### Смотрите также
 
@@ -163,7 +163,7 @@ public void SaveMessage(int sequenceNumber, Stream outputStream)
 
 ## SaveMessage(int, string) {#savemessage_5}
 
-Выбирает и сохраняет сообщение в файл
+Извлекает и сохраняет сообщение в файл
 
 ```csharp
 public void SaveMessage(int sequenceNumber, string fileName)
@@ -171,7 +171,7 @@ public void SaveMessage(int sequenceNumber, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sequenceNumber | Int32 | Последовательность номер сообщения |
+| sequenceNumber | Int32 | Порядковый номер сообщения |
 | fileName | String | Имя файла для сообщения |
 
 ### Смотрите также

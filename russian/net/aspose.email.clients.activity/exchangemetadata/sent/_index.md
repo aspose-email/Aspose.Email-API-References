@@ -1,14 +1,14 @@
 ---
 title: Sent
 second_title: Справочник по Aspose.Email для .NET API
-description: Время в формате UTC когда электронное письмо было отправлено. ОбязательноДа
+description: Время в формате UTC когда было отправлено электронное письмо. Обязательно Yes
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activity/exchangemetadata/sent/
 ---
 ## ExchangeMetadata.Sent property
 
-Время в формате UTC, когда электронное письмо было отправлено. Обязательно:Да
+Время в формате UTC, когда было отправлено электронное письмо. Обязательно: Yes
 
 ```csharp
 public DateTime Sent { get; set; }

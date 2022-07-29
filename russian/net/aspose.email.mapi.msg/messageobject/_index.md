@@ -1,14 +1,14 @@
 ---
 title: MessageObject
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет объект сообщения Outlook. Ограничения оценкипри загрузке сообщения читается только 1 вложение и 1 получатель при сохранении сообщения будет добавлен водяной знак.
+description: Представляет объект сообщения Outlook. Ограничения оценки при загрузке сообщения читается только 1 вложение и 1 получатель при сохранении сообщения будет добавлен водяной знак.
 type: docs
-weight: 18790
+weight: 18820
 url: /ru/net/aspose.email.mapi.msg/messageobject/
 ---
 ## MessageObject class
 
-Представляет объект сообщения Outlook. Ограничения оценки:при загрузке сообщения читается только 1 вложение и 1 получатель, при сохранении сообщения будет добавлен водяной знак.
+Представляет объект сообщения Outlook. Ограничения оценки: при загрузке сообщения читается только 1 вложение и 1 получатель, при сохранении сообщения будет добавлен водяной знак.
 
 ```csharp
 public sealed class MessageObject : IMessageObjectPropertyContainer
@@ -18,23 +18,23 @@ public sealed class MessageObject : IMessageObjectPropertyContainer
 
 | Имя | Описание |
 | --- | --- |
-| [MessageObject](messageobject#constructor)(Stream, MessageObjectLoadFormat) | Инициализирует новый экземпляр класса[`MessageObject`](../messageobject). |
-| [MessageObject](messageobject#constructor_1)(string, MessageObjectLoadFormat) | Инициализирует новый экземпляр класса[`MessageObject`](../messageobject). |
+| [MessageObject](messageobject#constructor)(Stream, MessageObjectLoadFormat) | Инициализирует новый экземпляр[`MessageObject`](../messageobject) класс. |
+| [MessageObject](messageobject#constructor_1)(string, MessageObjectLoadFormat) | Инициализирует новый экземпляр[`MessageObject`](../messageobject) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Attachments](../../aspose.email.mapi.msg/messageobject/attachments) { get; } | Получает вложения объекта[`MessageObject`](../messageobject). |
-| [Codepage](../../aspose.email.mapi.msg/messageobject/codepage) { get; } | Получает кодовую страницу, используемую для кодирования/декодирования строковых свойств в случаеPT_STRING8type for их используют. |
-| [Properties](../../aspose.email.mapi.msg/messageobject/properties) { get; } | Получает свойства объекта[`MessageObject`](../messageobject). |
-| [Recipients](../../aspose.email.mapi.msg/messageobject/recipients) { get; } | Получает получателей[`MessageObject`](../messageobject). |
+| [Attachments](../../aspose.email.mapi.msg/messageobject/attachments) { get; } | Получает вложения[`MessageObject`](../messageobject) . |
+| [Codepage](../../aspose.email.mapi.msg/messageobject/codepage) { get; } | Получает кодовую страницу, используемую для кодирования/декодирования строковых свойств в случаеPT_STRING8 тип для них используется. |
+| [Properties](../../aspose.email.mapi.msg/messageobject/properties) { get; } | Получает свойства[`MessageObject`](../messageobject) . |
+| [Recipients](../../aspose.email.mapi.msg/messageobject/recipients) { get; } | Получает получателей[`MessageObject`](../messageobject) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetIdForNamedProperty](../../aspose.email.mapi.msg/messageobject/getidfornamedproperty)() | Получает идентификатор, который будет использоваться для именованного свойства, именованные свойства являются специальными свойствами, и их идентификаторы должны быть выровнены в диапазоне [0x8000,0xfffe]. начиная с 0x8000 последовательно. Используйте этот метод, чтобы найти доступный идентификатор, потому что его может быть сложно вычислить самостоятельно. |
+| [GetIdForNamedProperty](../../aspose.email.mapi.msg/messageobject/getidfornamedproperty)() | Получает идентификатор, который будет использоваться для именованного свойства, именованные свойства являются специальными свойствами и должны иметь свои идентификаторы в диапазоне [0x8000,0xfffe], выровненные последовательно, начиная с 0x8000. Используйте этот метод, чтобы найти доступный идентификатор, потому что это может быть трудно посчитайте сами. |
 | [Save](../../aspose.email.mapi.msg/messageobject/save#save)(Stream, MessageObjectSaveFormat) | Сохраняет текущий объект сообщения в указанный поток. |
 | [Save](../../aspose.email.mapi.msg/messageobject/save#save_1)(string, MessageObjectSaveFormat) | Сохраняет текущий объект сообщения в указанный файл. |
 

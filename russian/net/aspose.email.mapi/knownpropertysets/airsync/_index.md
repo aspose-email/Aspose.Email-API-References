@@ -1,14 +1,14 @@
 ---
 title: AirSync
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиSync Имя набора свойствPSETID_AirSync
+description: Имя области Sync Имя набора свойств PSETID_AirSync
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi/knownpropertysets/airsync/
 ---
 ## KnownPropertySets.AirSync field
 
-Имя области:Sync Имя набора свойств:PSETID_AirSync
+Имя области: Sync Имя набора свойств: PSETID_AirSync
 
 ```csharp
 public static readonly Guid AirSync;

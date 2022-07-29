@@ -1,14 +1,14 @@
 ---
 title: UpdateDelegate
 second_title: Справочник по Aspose.Email для .NET API
-description: Обновляет настройки пользователя-делегата которому предоставлен доступ к указанному почтовому ящику.
+description: Обновляет настройки делегированного пользователя которому предоставлен доступ к указанному почтовому ящику.
 type: docs
 weight: 1460
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/updatedelegate/
 ---
 ## IEWSClient.UpdateDelegate method
 
-Обновляет настройки пользователя-делегата, которому предоставлен доступ к указанному почтовому ящику.
+Обновляет настройки делегированного пользователя, которому предоставлен доступ к указанному почтовому ящику.
 
 ```csharp
 public void UpdateDelegate(ExchangeDelegateUser delegateUser, string mailbox)
@@ -16,15 +16,15 @@ public void UpdateDelegate(ExchangeDelegateUser delegateUser, string mailbox)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| delegateUser | ExchangeDelegateUser | Новые настройки делегированного пользователя. |
-| mailbox | String | Почтовый ящик, доступ к которому предоставляется делегированному пользователю. |
+| delegateUser | ExchangeDelegateUser | Новые настройки делегирования пользователя. |
+| mailbox | String | Почтовый ящик, доступ к которому предоставлен делегированному пользователю. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser*is` null` . |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox*is` null` или` пусто` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *delegateUser* является`нулевой`. |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *mailbox* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

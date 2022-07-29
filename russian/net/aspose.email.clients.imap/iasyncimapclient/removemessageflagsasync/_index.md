@@ -1,14 +1,14 @@
 ---
 title: RemoveMessageFlagsAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Снимает флаги сообщения
+description: Удаляет флаги сообщения
 type: docs
 weight: 290
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/removemessageflagsasync/
 ---
 ## IAsyncImapClient.RemoveMessageFlagsAsync method
 
-Снимает флаги сообщения
+Удаляет флаги сообщения
 
 ```csharp
 public Task RemoveMessageFlagsAsync(ImapChangeMessageFlags parameters)
@@ -16,7 +16,7 @@ public Task RemoveMessageFlagsAsync(ImapChangeMessageFlags parameters)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parameters | ImapChangeMessageFlags | Параметр установлен. |
+| parameters | ImapChangeMessageFlags | Набор параметров. |
 
 ### Смотрите также
 

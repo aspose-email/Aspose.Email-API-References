@@ -16,7 +16,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -42,7 +42,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | parentFolder | String | Имя папки |
 
 ### Возвращаемое значение
@@ -69,7 +69,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, bool loadFul
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Подключение к сервер |
+| connection | IConnection | Подключение к серверу |
 | loadFullInfo | Boolean | Значение true указывает, что информация о папках должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
 
 ### Возвращаемое значение
@@ -117,7 +117,7 @@ public ImapFolderInfoCollection ListFolders(string parentFolder)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
+| parentFolder | String | Имя папки |
 
 ### Возвращаемое значение
 
@@ -167,8 +167,8 @@ public ImapFolderInfoCollection ListFolders(string parentFolder, bool loadFullIn
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
-| loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| parentFolder | String | Имя папки |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папках должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
 
 ### Возвращаемое значение
 
@@ -194,9 +194,9 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | parentFolder | String | Имя папки |
-| loadFullInfo | Boolean | Значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папках должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
 
 ### Возвращаемое значение
 
@@ -223,10 +223,10 @@ public ImapFolderInfoCollection ListFolders(string parentFolder, bool loadFullIn
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | String | Name папки |
-| loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
-| options | ListFoldersOptions | Опции операции |
-| returnOptions | ListFoldersReturnOptions | Возврат опции операции |
+| parentFolder | String | Имя папки |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| options | ListFoldersOptions | Варианты работы |
+| returnOptions | ListFoldersReturnOptions | Варианты возврата для операции |
 
 ### Возвращаемое значение
 
@@ -254,11 +254,11 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Connection на сервер |
+| connection | IConnection | Подключение к серверу |
 | parentFolder | String | Имя папки |
-| loadFullInfo | Boolean | Если значение true указывает, что информация о папке должна быть извлечены с сервера полностью, в противном случае извлекаются только имена папок. |
-| options | ListFoldersOptions | Опции операции |
-| returnOptions | ListFoldersReturnOptions | Возврат опции операции |
+| loadFullInfo | Boolean | Значение true указывает, что информация о папке должна быть получена с сервера полностью, в противном случае извлекаются только имена папок. |
+| options | ListFoldersOptions | Варианты работы |
+| returnOptions | ListFoldersReturnOptions | Варианты возврата для операции |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: SyntaxValidatingEventHandler
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет обработчик событий для SyntaxValidatingEvent.
+description: Представляет обработчик события SyntaxValidatingEvent.
 type: docs
-weight: 20790
+weight: 20840
 url: /ru/net/aspose.email.tools.verifications/syntaxvalidatingeventhandler/
 ---
 ## SyntaxValidatingEventHandler delegate
 
-Представляет обработчик событий для SyntaxValidatingEvent.
+Представляет обработчик события SyntaxValidatingEvent.
 
 ```csharp
 public delegate void SyntaxValidatingEventHandler(object sender, SyntaxValidatingEventArgs e);

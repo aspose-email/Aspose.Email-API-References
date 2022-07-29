@@ -1,14 +1,14 @@
 ---
 title: EmsAbOutboundHostType
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_OUTBOUND_HOST_TYPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_OUTBOUND_HOST_TYPE
 type: docs
 weight: 7970
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsaboutboundhosttype/
 ---
 ## KnownPropertyList.EmsAbOutboundHostType field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_OUTBOUND_HOST_TYPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_OUTBOUND_HOST_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbOutboundHostType;

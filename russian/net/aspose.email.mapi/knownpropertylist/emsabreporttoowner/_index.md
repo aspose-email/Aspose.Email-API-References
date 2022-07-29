@@ -1,14 +1,14 @@
 ---
 title: EmsAbReportToOwner
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_REPORT_TO_OWNER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_REPORT_TO_OWNER
 type: docs
 weight: 8490
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabreporttoowner/
 ---
 ## KnownPropertyList.EmsAbReportToOwner field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_REPORT_TO_OWNER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_REPORT_TO_OWNER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbReportToOwner;

@@ -16,7 +16,7 @@ public bool Remove(Url value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Url | ОбъектObjectдля удаления из списка. |
+| value | Url | Object удалить из списка. |
 
 ### Смотрите также
 

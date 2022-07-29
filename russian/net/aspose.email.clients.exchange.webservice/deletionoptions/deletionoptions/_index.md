@@ -1,14 +1,14 @@
 ---
 title: DeletionOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаDeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions.
+description: Инициализирует новый экземплярDeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/deletionoptions/deletionoptions/
 ---
 ## DeletionOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`DeletionOptions`](../../deletionoptions).
+Инициализирует новый экземпляр[`DeletionOptions`](../../deletionoptions) класс.
 
 ```csharp
 public DeletionOptions()
@@ -24,7 +24,7 @@ public DeletionOptions()
 
 ## DeletionOptions(DeletionType) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DeletionOptions`](../../deletionoptions).
+Инициализирует новый экземпляр[`DeletionOptions`](../../deletionoptions) класс.
 
 ```csharp
 public DeletionOptions(DeletionType type)

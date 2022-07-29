@@ -1,14 +1,14 @@
 ---
 title: ExtractedPhones
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит XML-документ с одним элементом PhoneSet. ОбластьИзвлеченные объекты Каноническое имяPidNameExtractedPhones Альтернативные именаdispidXmlExtractedPhones
+description: Содержит XML-документ с одним элементом PhoneSet. Область Извлеченные объекты Каноническое имя PidNameExtractedPhones Альтернативные имена dispidXmlExtractedPhones
 type: docs
 weight: 10080
 url: /ru/net/aspose.email.mapi/knownpropertylist/extractedphones/
 ---
 ## KnownPropertyList.ExtractedPhones field
 
-Содержит XML-документ с одним элементом PhoneSet. Область:Извлеченные объекты Каноническое имя:PidNameExtractedPhones Альтернативные имена:dispidXmlExtractedPhones
+Содержит XML-документ с одним элементом PhoneSet. Область: Извлеченные объекты Каноническое имя: PidNameExtractedPhones Альтернативные имена: dispidXmlExtractedPhones
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExtractedPhones;

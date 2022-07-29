@@ -1,14 +1,14 @@
 ---
 title: FetchMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает указанные сообщения.
+description: Извлекает указанные сообщения.
 type: docs
 weight: 270
 url: /ru/net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchmessagesasync/
 ---
 ## IAsyncEwsClient.FetchMessagesAsync method
 
-Выбирает указанные сообщения.
+Извлекает указанные сообщения.
 
 ```csharp
 public Task<MailMessageCollection> FetchMessagesAsync(IEnumerable<string> uris, 
@@ -18,19 +18,19 @@ public Task<MailMessageCollection> FetchMessagesAsync(IEnumerable<string> uris,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uris | IEnumerable`1 | AIEnumerableсодержащий Uris сообщения получено |
-| extendedProperties | IEnumerable`1 | Перечисление расширенных свойств |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| uris | IEnumerable`1 | АIEnumerable содержащий URI сообщения, которое нужно получить |
+| extendedProperties | IEnumerable`1 | Перечень расширенных свойств |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-A[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащий извлеченные сообщения
+А[`MailMessageCollection`](../../../aspose.email/mailmessagecollection)содержащие извлеченные сообщения
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *uris* является`нулевой` |
 
 ### Смотрите также
 

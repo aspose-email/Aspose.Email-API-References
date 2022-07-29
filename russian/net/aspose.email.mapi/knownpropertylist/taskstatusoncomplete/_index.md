@@ -1,14 +1,14 @@
 ---
 title: TaskStatusOnComplete
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрашивался ли у исполнителя задачи отправка обновленного сообщения электронной почты после завершения назначенной задачи. ОбластьЗадачи Каноническое имяPidLidTaskStatusOnComplete Альтернативные именаdispidTaskSOC
+description: Указывает запрашивался ли у исполнителя задачи отправка обновленного сообщения электронной почты после завершения назначенной задачи. Область Tasks Каноническое имя PidLidTaskStatusOnComplete Альтернативные имена dispidTaskSOC
 type: docs
 weight: 18840
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskstatusoncomplete/
 ---
 ## KnownPropertyList.TaskStatusOnComplete field
 
-Указывает, запрашивался ли у исполнителя задачи отправка обновленного сообщения электронной почты после завершения назначенной задачи. Область:Задачи Каноническое имя:PidLidTaskStatusOnComplete Альтернативные имена:dispidTaskSOC
+Указывает, запрашивался ли у исполнителя задачи отправка обновленного сообщения электронной почты после завершения назначенной задачи. Область: Tasks Каноническое имя: PidLidTaskStatusOnComplete Альтернативные имена: dispidTaskSOC
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskStatusOnComplete;

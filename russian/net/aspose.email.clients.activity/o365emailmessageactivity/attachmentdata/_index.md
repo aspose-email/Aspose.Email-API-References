@@ -1,14 +1,14 @@
 ---
 title: AttachmentData
 second_title: Справочник по Aspose.Email для .NET API
-description: Данные о вложениях в сообщении электронной почты вызвавшем событие. ОбязательноНет
+description: Данные о вложениях в сообщении электронной почты вызвавшем событие. Обязательно No
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activity/o365emailmessageactivity/attachmentdata/
 ---
 ## O365EmailMessageActivity.AttachmentData property
 
-Данные о вложениях в сообщении электронной почты, вызвавшем событие. Обязательно:Нет
+Данные о вложениях в сообщении электронной почты, вызвавшем событие. Обязательно: No
 
 ```csharp
 public AttachmentData AttachmentData { get; set; }

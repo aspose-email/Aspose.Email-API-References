@@ -1,14 +1,14 @@
 ---
 title: OriginatorAddrtype
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ORIGINATOR_ADDRTYPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ORIGINATOR_ADDRTYPE
 type: docs
 weight: 13820
 url: /ru/net/aspose.email.mapi/knownpropertylist/originatoraddrtype/
 ---
 ## KnownPropertyList.OriginatorAddrtype field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ORIGINATOR_ADDRTYPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ORIGINATOR_ADDRTYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginatorAddrtype;

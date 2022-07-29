@@ -16,7 +16,7 @@ public bool Remove(InstantMessengerAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | InstantMessengerAddress | ОбъектObjectдля удаления из списка. |
+| value | InstantMessengerAddress | Object удалить из списка. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RecipientTrackStatusTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время ответа участника. ОбластьTransportRecipient Каноническое имяPidTagRecipientTrackStatusTime Альтернативные именаPR_RECIPIENT_TRACKSTATUS_TIME ptagRecipientTrackStatusTime
+description: Указывает дату и время ответа посетителя. Область TransportRecipient Каноническое имя PidTagRecipientTrackStatusTime Альтернативные имена PR_RECIPIENT_TRACKSTATUS_TIME ptagRecipientTrackStatusTime
 type: docs
 weight: 15550
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipienttrackstatustime/
 ---
 ## KnownPropertyList.RecipientTrackStatusTime field
 
-Указывает дату и время ответа участника. Область:TransportRecipient Каноническое имя:PidTagRecipientTrackStatusTime Альтернативные имена:PR_RECIPIENT_TRACKSTATUS_TIME, ptagRecipientTrackStatusTime
+Указывает дату и время ответа посетителя. Область: TransportRecipient Каноническое имя: PidTagRecipientTrackStatusTime Альтернативные имена: PR_RECIPIENT_TRACKSTATUS_TIME, ptagRecipientTrackStatusTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientTrackStatusTime;

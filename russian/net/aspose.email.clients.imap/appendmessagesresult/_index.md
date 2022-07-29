@@ -1,14 +1,14 @@
 ---
 title: AppendMessagesResult
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит результат работы с сообщениями
+description: Содержит результат работы с messages
 type: docs
 weight: 16190
 url: /ru/net/aspose.email.clients.imap/appendmessagesresult/
 ---
 ## AppendMessagesResult class
 
-Содержит результат работы с сообщениями
+Содержит результат работы с messages
 
 ```csharp
 public class AppendMessagesResult
@@ -24,8 +24,8 @@ public class AppendMessagesResult
 
 | Имя | Описание |
 | --- | --- |
-| [Failed](../../aspose.email.clients.imap/appendmessagesresult/failed) { get; } | Получает почтовые сообщения, которые были обработаны с ошибками |
-| [NotHandled](../../aspose.email.clients.imap/appendmessagesresult/nothandled) { get; } | Получает необработанные почтовые сообщения |
+| [Failed](../../aspose.email.clients.imap/appendmessagesresult/failed) { get; } | Получает почтовые сообщения, обработанные с ошибками |
+| [NotHandled](../../aspose.email.clients.imap/appendmessagesresult/nothandled) { get; } | Получает почтовые сообщения, которые не были обработаны |
 | [Succeeded](../../aspose.email.clients.imap/appendmessagesresult/succeeded) { get; } | Получает почтовые сообщения, которые были успешно обработаны |
 
 ### Смотрите также

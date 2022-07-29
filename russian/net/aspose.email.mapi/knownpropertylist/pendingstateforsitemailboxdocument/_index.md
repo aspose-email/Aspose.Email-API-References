@@ -1,14 +1,14 @@
 ---
 title: PendingStateForSiteMailboxDocument
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает состояние синхронизации объекта Document который находится в папке Document Libraries почтового ящика сайта. ОбластьПочтовый ящик сайта Каноническое имяPidLidPendingStateForSiteMailboxDocument Альтернативные именаdispidPendingStateforTMDocument
+description: Указывает состояние синхронизации объекта Документ который находится в папке Библиотеки документов почтового ящика сайта. Область Почтовый ящик сайта Каноническое имя PidLidPendingStateForSiteMailboxDocument Альтернативные имена dispidPendingStateforTMDocument
 type: docs
 weight: 14230
 url: /ru/net/aspose.email.mapi/knownpropertylist/pendingstateforsitemailboxdocument/
 ---
 ## KnownPropertyList.PendingStateForSiteMailboxDocument field
 
-Указывает состояние синхронизации объекта Document, который находится в папке Document Libraries почтового ящика сайта. Область:Почтовый ящик сайта Каноническое имя:PidLidPendingStateForSiteMailboxDocument Альтернативные имена:dispidPendingStateforTMDocument
+Указывает состояние синхронизации объекта «Документ», который находится в папке «Библиотеки документов» почтового ящика сайта. Область: Почтовый ящик сайта Каноническое имя: PidLidPendingStateForSiteMailboxDocument Альтернативные имена: dispidPendingStateforTMDocument
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PendingStateForSiteMailboxDocument;

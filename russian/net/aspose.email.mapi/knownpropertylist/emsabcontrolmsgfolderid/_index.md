@@ -1,14 +1,14 @@
 ---
 title: EmsAbControlMsgFolderId
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_CONTROL_MSG_FOLDER_ID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_CONTROL_MSG_FOLDER_ID
 type: docs
 weight: 5300
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabcontrolmsgfolderid/
 ---
 ## KnownPropertyList.EmsAbControlMsgFolderId field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_CONTROL_MSG_FOLDER_ID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_CONTROL_MSG_FOLDER_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbControlMsgFolderId;

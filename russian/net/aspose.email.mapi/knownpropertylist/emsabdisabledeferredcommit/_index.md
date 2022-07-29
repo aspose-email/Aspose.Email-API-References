@@ -1,14 +1,14 @@
 ---
 title: EmsAbDisableDeferredCommit
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DISABLE_DEFERRED_COMMIT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DISABLE_DEFERRED_COMMIT
 type: docs
 weight: 5460
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdisabledeferredcommit/
 ---
 ## KnownPropertyList.EmsAbDisableDeferredCommit field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DISABLE_DEFERRED_COMMIT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DISABLE_DEFERRED_COMMIT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDisableDeferredCommit;

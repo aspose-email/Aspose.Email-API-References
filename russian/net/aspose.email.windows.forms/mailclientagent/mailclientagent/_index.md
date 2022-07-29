@@ -1,14 +1,14 @@
 ---
 title: MailClientAgent
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMailClientAgentaspose.email.windows.forms/mailclientagent.
+description: Инициализирует новый экземплярMailClientAgentaspose.email.windows.forms/mailclientagent класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.windows.forms/mailclientagent/mailclientagent/
 ---
 ## MailClientAgent constructor
 
-Инициализирует новый экземпляр класса[`MailClientAgent`](../../mailclientagent).
+Инициализирует новый экземпляр[`MailClientAgent`](../../mailclientagent) класс.
 
 ```csharp
 public MailClientAgent()

@@ -1,14 +1,14 @@
 ---
 title: GetAllContacts
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает все контакты.
+description: Извлекает все контакты.
 type: docs
 weight: 150
 url: /ru/net/aspose.email.clients.google/igmailclient/getallcontacts/
 ---
 ## IGmailClient.GetAllContacts method
 
-Выбирает все контакты.
+Извлекает все контакты.
 
 ```csharp
 public Contact[] GetAllContacts()

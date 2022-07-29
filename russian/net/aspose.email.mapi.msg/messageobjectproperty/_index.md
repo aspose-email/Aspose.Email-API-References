@@ -1,14 +1,14 @@
 ---
 title: MessageObjectProperty
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет свойство объектаMessageObject./messageobject.
+description: Представляет свойство наMessageObject./messageobject .
 type: docs
-weight: 18840
+weight: 18870
 url: /ru/net/aspose.email.mapi.msg/messageobjectproperty/
 ---
 ## MessageObjectProperty class
 
-Представляет свойство объекта[`MessageObject`](../messageobject).
+Представляет свойство на[`MessageObject`](../messageobject) .
 
 ```csharp
 public sealed class MessageObjectProperty
@@ -18,22 +18,22 @@ public sealed class MessageObjectProperty
 
 | Имя | Описание |
 | --- | --- |
-| [MessageObjectProperty](messageobjectproperty#constructor_1)(long, MapiPropertyFlags, object) | Инициализирует новый экземпляр класса[`MessageObjectProperty`](../messageobjectproperty). |
-| [MessageObjectProperty](messageobjectproperty#constructor)(int, MapiType, MapiPropertyFlags, object) | Инициализирует новый экземпляр класса[`MessageObjectProperty`](../messageobjectproperty). |
+| [MessageObjectProperty](messageobjectproperty#constructor_1)(long, MapiPropertyFlags, object) | Инициализирует новый экземпляр[`MessageObjectProperty`](../messageobjectproperty) класс. |
+| [MessageObjectProperty](messageobjectproperty#constructor)(int, MapiType, MapiPropertyFlags, object) | Инициализирует новый экземпляр[`MessageObjectProperty`](../messageobjectproperty) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Atomic](../../aspose.email.mapi.msg/messageobjectproperty/atomic) { get; } | Получает значение, указывающее, является ли это[`MessageObjectProperty`](../messageobjectproperty)атомарным. |
+| [Atomic](../../aspose.email.mapi.msg/messageobjectproperty/atomic) { get; } | Получает значение, указывающее, является ли это[`MessageObjectProperty`](../messageobjectproperty) является атомарным. |
 | [Flags](../../aspose.email.mapi.msg/messageobjectproperty/flags) { get; } | Получает флаги, установленные для свойства. |
 | [Guid](../../aspose.email.mapi.msg/messageobjectproperty/guid) { get; set; } | Получает или задает GUID для именованного свойства. |
 | [Id](../../aspose.email.mapi.msg/messageobjectproperty/id) { get; } | Получает идентификатор свойства. |
-| [Name](../../aspose.email.mapi.msg/messageobjectproperty/name) { get; set; } | Получает или задает имя свойства, если оно именовано. |
-| [Named](../../aspose.email.mapi.msg/messageobjectproperty/named) { get; } | Получает значение, указывающее, является ли это[`MessageObjectProperty`](../messageobjectproperty)именованным свойством. |
-| [NameId](../../aspose.email.mapi.msg/messageobjectproperty/nameid) { get; set; } | Получает или задает идентификатор имени свойства, если оно именовано. |
+| [Name](../../aspose.email.mapi.msg/messageobjectproperty/name) { get; set; } | Получает или задает имя свойства, если оно задано. |
+| [Named](../../aspose.email.mapi.msg/messageobjectproperty/named) { get; } | Получает значение, указывающее, является ли это[`MessageObjectProperty`](../messageobjectproperty) является именованным свойством. |
+| [NameId](../../aspose.email.mapi.msg/messageobjectproperty/nameid) { get; set; } | Получает или задает идентификатор имени свойства, если оно имеет имя. |
 | [PropertyKind](../../aspose.email.mapi.msg/messageobjectproperty/propertykind) { get; set; } | Получает или задает тип свойства, если оно именовано. |
-| [PropertyTag](../../aspose.email.mapi.msg/messageobjectproperty/propertytag) { get; } | Получает тег свойства, объединенное значение, которое содержит[`Id`](./id)и[`PropertyType`](./propertytype) |
+| [PropertyTag](../../aspose.email.mapi.msg/messageobjectproperty/propertytag) { get; } | Получает тег свойства, объединенное значение, которое содержит[`Id`](./id) а также[`PropertyType`](./propertytype) |
 | [PropertyType](../../aspose.email.mapi.msg/messageobjectproperty/propertytype) { get; } | Получает тип свойства. |
 | [Value](../../aspose.email.mapi.msg/messageobjectproperty/value) { get; set; } | Получает или задает значение свойства. |
 
@@ -42,7 +42,7 @@ public sealed class MessageObjectProperty
 | Имя | Описание |
 | --- | --- |
 | [ToDateTime](../../aspose.email.mapi.msg/messageobjectproperty/todatetime)() | Преобразует значение свойства в DateTime. |
-| [ToGuid](../../aspose.email.mapi.msg/messageobjectproperty/toguid)() | Преобразует значение свойства в[`Guid`](./guid). |
+| [ToGuid](../../aspose.email.mapi.msg/messageobjectproperty/toguid)() | Преобразует значение свойства в[`Guid`](./guid) . |
 | [ToInt](../../aspose.email.mapi.msg/messageobjectproperty/toint)() | Преобразует значение свойства в целое число. |
 | [ToList&lt;T&gt;](../../aspose.email.mapi.msg/messageobjectproperty/tolist)() | Преобразует значение свойства в список значений. |
 | [ToStringRepresentation](../../aspose.email.mapi.msg/messageobjectproperty/tostringrepresentation)() | Преобразует значение свойства в строку. |

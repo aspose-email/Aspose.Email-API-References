@@ -1,14 +1,14 @@
 ---
 title: FileDataObjectCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаFileDataObjectCollectionaspose.email.windows.forms/filedataobjectcollection.
+description: Инициализирует новый экземплярFileDataObjectCollectionaspose.email.windows.forms/filedataobjectcollection класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.windows.forms/filedataobjectcollection/filedataobjectcollection/
 ---
 ## FileDataObjectCollection constructor
 
-Инициализирует новый экземпляр класса[`FileDataObjectCollection`](../../filedataobjectcollection).
+Инициализирует новый экземпляр[`FileDataObjectCollection`](../../filedataobjectcollection) класс.
 
 ```csharp
 public FileDataObjectCollection()

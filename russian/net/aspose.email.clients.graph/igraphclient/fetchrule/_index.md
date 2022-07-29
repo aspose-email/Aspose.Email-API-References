@@ -1,14 +1,14 @@
 ---
 title: FetchRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Получите свойства и отношения объекта правила сообщения. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше в том числе о том как выбрать разрешения см. Разрешения. Делегировано рабочая или учебная учетная запись MailboxSettings.Read Делегировано личная учетная запись Microsoft MailboxSettings.Read Application MailboxSettings.Read
+description: Получить свойства и отношения объекта правила сообщения. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше в том числе о том как выбрать разрешения см. Разрешения. Делегированный рабочая или учебная учетная запись MailboxSettings.Read Делегированный личная учетная запись Microsoft MailboxSettings.Read Application MailboxSettings.Read
 type: docs
 weight: 240
 url: /ru/net/aspose.email.clients.graph/igraphclient/fetchrule/
 ---
 ## IGraphClient.FetchRule method
 
-Получите свойства и отношения объекта правила сообщения. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше, в том числе о том, как выбрать разрешения, см. Разрешения. Делегировано (рабочая или учебная учетная запись) MailboxSettings.Read Делегировано (личная учетная запись Microsoft) MailboxSettings.Read Application MailboxSettings.Read
+Получить свойства и отношения объекта правила сообщения. Разрешения Для вызова этого API требуется одно из следующих разрешений. Чтобы узнать больше, в том числе о том, как выбрать разрешения, см. Разрешения. Делегированный (рабочая или учебная учетная запись) MailboxSettings.Read Делегированный (личная учетная запись Microsoft) MailboxSettings.Read Application MailboxSettings.Read
 
 ```csharp
 public InboxRule FetchRule(string itemId)
@@ -20,7 +20,7 @@ public InboxRule FetchRule(string itemId)
 
 ### Возвращаемое значение
 
-Правило папки "Входящие"
+Правило для папки "Входящие"
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Minute
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает минуты
+description: Получает или задает минуты
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/mapicalendartimezonerule/minute/
 ---
 ## MapiCalendarTimeZoneRule.Minute property
 
-Получает или устанавливает минуты
+Получает или задает минуты
 
 ```csharp
 public ushort Minute { get; set; }

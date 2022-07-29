@@ -1,14 +1,14 @@
 ---
 title: BodyHtml
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит тело HTML объекта сообщения. ОбластьОбщие свойства сообщения Каноническое имяPidTagBodyHtml Альтернативные именаPR_BODY_HTML PR_BODY_HTML_A ptagBodyHtml PR_BODY_HTML_W
+description: Содержит тело HTML объекта сообщения. Область Общие свойства сообщения Каноническое имя PidTagBodyHtml Альтернативные имена PR_BODY_HTML PR_BODY_HTML_A ptagBodyHtml PR_BODY_HTML_W
 type: docs
 weight: 2070
 url: /ru/net/aspose.email.mapi/knownpropertylist/bodyhtml/
 ---
 ## KnownPropertyList.BodyHtml field
 
-Содержит тело HTML объекта сообщения. Область:Общие свойства сообщения Каноническое имя:PidTagBodyHtml Альтернативные имена:PR_BODY_HTML, PR_BODY_HTML_A, ptagBodyHtml, PR_BODY_HTML_W
+Содержит тело HTML объекта сообщения. Область: Общие свойства сообщения Каноническое имя: PidTagBodyHtml Альтернативные имена: PR_BODY_HTML, PR_BODY_HTML_A, ptagBodyHtml, PR_BODY_HTML_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BodyHtml;

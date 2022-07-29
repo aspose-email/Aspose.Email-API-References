@@ -3,7 +3,7 @@ title: MapiJournalFlags
 second_title: Справочник по Aspose.Email для .NET API
 description: Содержит метаданные об объекте журнала. Должен быть равен нулю или следующим значениям.
 type: docs
-weight: 18410
+weight: 18440
 url: /ru/net/aspose.email.mapi/mapijournalflags/
 ---
 ## MapiJournalFlags enumeration
@@ -19,7 +19,7 @@ public enum MapiJournalFlags
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Объект журнала не имеет вложения, связанного с журналом. |
+| None | `0` | Объект журнала не имеет вложения, связанного с журналом . |
 | HasAttachment | `40000000` | Объект журнала имеет вложение, связанное с журналом. |
 
 ### Смотрите также

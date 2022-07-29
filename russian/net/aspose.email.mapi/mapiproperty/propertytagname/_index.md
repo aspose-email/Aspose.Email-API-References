@@ -1,14 +1,14 @@
 ---
 title: PropertyTagName
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает PropertyName.
+description: Получает имя свойства.
 type: docs
 weight: 130
 url: /ru/net/aspose.email.mapi/mapiproperty/propertytagname/
 ---
 ## MapiProperty.PropertyTagName property
 
-Получает PropertyName.
+Получает имя свойства.
 
 ```csharp
 public virtual string PropertyTagName { get; }

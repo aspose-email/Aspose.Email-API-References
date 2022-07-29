@@ -16,13 +16,13 @@ public void UpdateUserConfiguration(UserConfiguration userConfiguration)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| userConfiguration | UserConfiguration | [`UserConfiguration`](../../userconfiguration)для обновления |
+| userConfiguration | UserConfiguration | [`UserConfiguration`](../../userconfiguration) обновить |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*userConfiguration*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*userConfiguration* является`нулевой` |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SharingPermissions
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingPermissions Альтернативные именаdispidSharingPermissions
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingPermissions Альтернативные имена dispidSharingPermissions
 type: docs
 weight: 17690
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingpermissions/
 ---
 ## KnownPropertyList.SharingPermissions field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingPermissions Альтернативные имена:dispidSharingPermissions
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingPermissions Альтернативные имена: dispidSharingPermissions
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingPermissions;

@@ -1,14 +1,14 @@
 ---
 title: DeletedItemsUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает uri удаленных элементов.
+description: Получает удаленные элементы uri.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/deleteditemsuri/
 ---
 ## ExchangeMailboxInfo.DeletedItemsUri property
 
-Получает uri удаленных элементов.
+Получает удаленные элементы uri.
 
 ```csharp
 public abstract string DeletedItemsUri { get; set; }

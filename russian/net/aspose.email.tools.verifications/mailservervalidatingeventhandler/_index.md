@@ -3,7 +3,7 @@ title: MailServerValidatingEventHandler
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет обработчик событий для MailServerValidatingEvent.
 type: docs
-weight: 20770
+weight: 20820
 url: /ru/net/aspose.email.tools.verifications/mailservervalidatingeventhandler/
 ---
 ## MailServerValidatingEventHandler delegate

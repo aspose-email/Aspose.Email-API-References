@@ -1,14 +1,14 @@
 ---
 title: ResourceFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RESOURCE_FLAGS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RESOURCE_FLAGS
 type: docs
 weight: 16150
 url: /ru/net/aspose.email.mapi/knownpropertylist/resourceflags/
 ---
 ## KnownPropertyList.ResourceFlags field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RESOURCE_FLAGS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RESOURCE_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ResourceFlags;

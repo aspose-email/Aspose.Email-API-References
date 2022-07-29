@@ -16,7 +16,7 @@ public void RegisterRoutine(string name, TemplateRoutine routine)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя функции. |
+| name | String | Название функции. |
 | routine | TemplateRoutine | Делегировать обработку данных |
 
 ### Смотрите также

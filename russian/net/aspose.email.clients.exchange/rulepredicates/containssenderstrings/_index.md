@@ -1,14 +1,14 @@
 ---
 title: ContainsSenderStrings
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает строки которые отображаются в свойстве From входящих сообщений чтобы применить условие или исключение
+description: Получает или задает строки которые появляются в свойстве From входящих сообщений чтобы применить условие или исключение
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.exchange/rulepredicates/containssenderstrings/
 ---
 ## RulePredicates.ContainsSenderStrings property
 
-Получает или задает строки, которые отображаются в свойстве From входящих сообщений, чтобы применить условие или исключение
+Получает или задает строки, которые появляются в свойстве From входящих сообщений, чтобы применить условие или исключение
 
 ```csharp
 public StringCollection ContainsSenderStrings { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: NameId
 second_title: Справочник по Aspose.Email для .NET API
-description: получает идентификатор именованного свойства
+description: получает именованное свойство ID
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapinamedproperty/nameid/
 ---
 ## MapiNamedProperty.NameId property
 
-получает идентификатор именованного свойства
+получает именованное свойство ID
 
 ```csharp
 public string NameId { get; }

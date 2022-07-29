@@ -16,18 +16,18 @@ public MapiMessage FetchMapiMessage(string messageUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageUri | String | uri сообщения. |
+| messageUri | String | Сообщение uri. |
 
 ### Возвращаемое значение
 
-Объект[`MapiMessage`](../../../aspose.email.mapi/mapimessage)содержит сообщение.
+А[`MapiMessage`](../../../aspose.email.mapi/mapimessage) объект содержит сообщение.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri*равно null |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri*пустая строка |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *messageUri* нулевой |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *messageUri* пустая строка |
 
 ### Смотрите также
 

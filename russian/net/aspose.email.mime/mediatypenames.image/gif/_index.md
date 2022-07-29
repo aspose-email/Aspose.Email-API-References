@@ -1,14 +1,14 @@
 ---
 title: Gif
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип изображения/gif
+description: Определяет тип носителя изображения/gif
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mime/mediatypenames.image/gif/
 ---
 ## MediaTypeNames.Image.Gif field
 
-Указывает тип изображения/gif
+Определяет тип носителя изображения/gif
 
 ```csharp
 public const string Gif;

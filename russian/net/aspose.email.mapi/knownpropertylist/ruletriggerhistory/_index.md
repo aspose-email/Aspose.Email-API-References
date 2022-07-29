@@ -1,14 +1,14 @@
 ---
 title: RuleTriggerHistory
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RULE_TRIGGER_HISTORY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RULE_TRIGGER_HISTORY
 type: docs
 weight: 16660
 url: /ru/net/aspose.email.mapi/knownpropertylist/ruletriggerhistory/
 ---
 ## KnownPropertyList.RuleTriggerHistory field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RULE_TRIGGER_HISTORY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RULE_TRIGGER_HISTORY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleTriggerHistory;

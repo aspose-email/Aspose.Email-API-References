@@ -3,7 +3,7 @@ title: PersonalStorageLoadOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает дополнительные параметры при загрузке хранилища PST.
 type: docs
-weight: 20250
+weight: 20300
 url: /ru/net/aspose.email.storage.pst/personalstorageloadoptions/
 ---
 ## PersonalStorageLoadOptions class
@@ -24,7 +24,7 @@ public class PersonalStorageLoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [LeaveStreamOpen](../../aspose.email.storage.pst/personalstorageloadoptions/leavestreamopen) { get; set; } | Оставить поток открытым при удалении PersonalStorage. Всегда должно быть false, если используется метод[`FromFile`](../personalstorage/fromfile). |
+| [LeaveStreamOpen](../../aspose.email.storage.pst/personalstorageloadoptions/leavestreamopen) { get; set; } | Оставить поток открытым при удалении PersonalStorage. Всегда должно быть ложным, когда[`FromFile`](../personalstorage/fromfile) используется метод. |
 | [Writable](../../aspose.email.storage.pst/personalstorageloadoptions/writable) { get; set; } | Получает или задает значение, указывающее, доступен ли файл pst для записи. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: SmtpAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит SMTP-адрес объекта Message. ОбластьСвойства адреса Каноническое имяPidTagSmtpAddress Альтернативные именаPR_SMTP_ADDRESS PR_SMTP_ADDRESS_A PR_SMTP_ADDRESS_W
+description: Содержит SMTP-адрес объекта Message. Область Address Properties Каноническое имя PidTagSmtpAddress Альтернативные имена PR_SMTP_ADDRESS PR_SMTP_ADDRESS_A PR_SMTP_ADDRESS_W
 type: docs
 weight: 18080
 url: /ru/net/aspose.email.mapi/knownpropertylist/smtpaddress/
 ---
 ## KnownPropertyList.SmtpAddress field
 
-Содержит SMTP-адрес объекта Message. Область:Свойства адреса Каноническое имя:PidTagSmtpAddress Альтернативные имена:PR_SMTP_ADDRESS, PR_SMTP_ADDRESS_A, PR_SMTP_ADDRESS_W
+Содержит SMTP-адрес объекта Message. Область: Address Properties Каноническое имя: PidTagSmtpAddress Альтернативные имена: PR_SMTP_ADDRESS, PR_SMTP_ADDRESS_A, PR_SMTP_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SmtpAddress;

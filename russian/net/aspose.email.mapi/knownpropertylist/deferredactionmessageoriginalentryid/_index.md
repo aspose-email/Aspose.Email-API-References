@@ -1,14 +1,14 @@
 ---
 title: DeferredActionMessageOriginalEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID сервера для DAM. ОбластьСвойства правил на стороне сервера Каноническое имяPidTagDeferredActionMessageOriginalEntryId Альтернативные именаPR_DAM_ORIG_MSG_SVREID ptagDamOrgMsgSvrEID
+description: Содержит EntryID сервера для DAM. Область Правила на стороне сервера Properties Каноническое имя PidTagDeferredActionMessageOriginalEntryId Альтернативные имена PR_DAM_ORIG_MSG_SVREID ptagDamOrgMsgSvrEID
 type: docs
 weight: 3770
 url: /ru/net/aspose.email.mapi/knownpropertylist/deferredactionmessageoriginalentryid/
 ---
 ## KnownPropertyList.DeferredActionMessageOriginalEntryId field
 
-Содержит EntryID сервера для DAM. Область:Свойства правил на стороне сервера Каноническое имя:PidTagDeferredActionMessageOriginalEntryId Альтернативные имена:PR_DAM_ORIG_MSG_SVREID, ptagDamOrgMsgSvrEID
+Содержит EntryID сервера для DAM. Область: Правила на стороне сервера Properties Каноническое имя: PidTagDeferredActionMessageOriginalEntryId Альтернативные имена: PR_DAM_ORIG_MSG_SVREID, ptagDamOrgMsgSvrEID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeferredActionMessageOriginalEntryId;

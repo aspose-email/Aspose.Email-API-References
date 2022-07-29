@@ -1,14 +1,14 @@
 ---
 title: EmsAbGwartLastModified
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_GWART_LAST_MODIFIED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_GWART_LAST_MODIFIED
 type: docs
 weight: 6480
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabgwartlastmodified/
 ---
 ## KnownPropertyList.EmsAbGwartLastModified field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_GWART_LAST_MODIFIED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_GWART_LAST_MODIFIED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbGwartLastModified;

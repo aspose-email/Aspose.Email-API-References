@@ -1,14 +1,14 @@
 ---
 title: RecipientFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает битовое поле описывающее статус получателя. ОбластьTransportRecipient Каноническое имяPidTagRecipientFlags Альтернативные именаPR_RECIPIENT_FLAGS
+description: Задает битовое поле описывающее статус получателя. Область TransportRecipient Каноническое имя PidTagRecipientFlags Альтернативные имена PR_RECIPIENT_FLAGS
 type: docs
 weight: 15430
 url: /ru/net/aspose.email.mapi/knownpropertylist/recipientflags/
 ---
 ## KnownPropertyList.RecipientFlags field
 
-Задает битовое поле, описывающее статус получателя. Область:TransportRecipient Каноническое имя:PidTagRecipientFlags Альтернативные имена:PR_RECIPIENT_FLAGS
+Задает битовое поле, описывающее статус получателя. Область: TransportRecipient Каноническое имя: PidTagRecipientFlags Альтернативные имена: PR_RECIPIENT_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecipientFlags;

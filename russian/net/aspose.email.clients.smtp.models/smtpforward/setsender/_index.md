@@ -1,14 +1,14 @@
 ---
 title: SetSender
 second_title: Справочник по Aspose.Email для .NET API
-description: Отправитель пересылаемого сообщения.
+description: Отправитель переадресованного сообщения.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.smtp.models/smtpforward/setsender/
 ---
 ## SmtpForward.SetSender method
 
-Отправитель пересылаемого сообщения.
+Отправитель переадресованного сообщения.
 
 ```csharp
 public SmtpForward SetSender(string sender)

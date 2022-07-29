@@ -1,14 +1,14 @@
 ---
 title: ForwardInstance
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает представляет ли объект запроса на собрание исключение из повторяющегося приглашения отправляемого организатором. ОбластьВстречи Каноническое имяPidLidForwardInstance Альтернативные именаdispidFwrdInstance
+description: Указывает представляет ли объект запроса на собрание исключение из повторяющегося приглашения отправляемого организатором. Область Meetings Каноническое имя PidLidForwardInstance Альтернативные имена dispidFwrdInstance
 type: docs
 weight: 10600
 url: /ru/net/aspose.email.mapi/knownpropertylist/forwardinstance/
 ---
 ## KnownPropertyList.ForwardInstance field
 
-Указывает, представляет ли объект запроса на собрание исключение из повторяющегося приглашения, отправляемого организатором. Область:Встречи Каноническое имя:PidLidForwardInstance Альтернативные имена:dispidFwrdInstance
+Указывает, представляет ли объект запроса на собрание исключение из повторяющегося приглашения, отправляемого организатором. Область: Meetings Каноническое имя: PidLidForwardInstance Альтернативные имена: dispidFwrdInstance
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ForwardInstance;

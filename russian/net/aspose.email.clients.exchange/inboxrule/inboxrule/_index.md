@@ -1,14 +1,14 @@
 ---
 title: InboxRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаInboxRuleaspose.email.clients.exchange/inboxrule
+description: Инициализирует новый экземплярInboxRuleaspose.email.clients.exchange/inboxrule класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/inboxrule/inboxrule/
 ---
 ## InboxRule constructor
 
-Инициализирует новый экземпляр класса[`InboxRule`](../../inboxrule)
+Инициализирует новый экземпляр[`InboxRule`](../../inboxrule) класс
 
 ```csharp
 public InboxRule()

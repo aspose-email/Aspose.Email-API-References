@@ -1,14 +1,14 @@
 ---
 title: AddressBookOwner
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит одну строку которая ссылается на владельца списка рассылки. ОбластьАдресная книга Каноническое имяPidTagAddressBookOwner Альтернативные именаPR_EMS_AB_OWNER_O
+description: Содержит одну строку которая ссылается на владельца списка рассылки. Область Адресная книга Каноническое имя PidTagAddressBookOwner Альтернативные имена PR_EMS_AB_OWNER_O
 type: docs
 weight: 800
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookowner/
 ---
 ## KnownPropertyList.AddressBookOwner field
 
-Содержит одну строку, которая ссылается на владельца списка рассылки. Область:Адресная книга Каноническое имя:PidTagAddressBookOwner Альтернативные имена:PR_EMS_AB_OWNER_O
+Содержит одну строку, которая ссылается на владельца списка рассылки. Область: Адресная книга Каноническое имя: PidTagAddressBookOwner Альтернативные имена: PR_EMS_AB_OWNER_O
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookOwner;

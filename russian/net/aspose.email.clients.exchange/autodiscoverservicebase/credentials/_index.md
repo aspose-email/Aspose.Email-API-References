@@ -1,14 +1,14 @@
 ---
 title: Credentials
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает учетные данные используемые для аутентификации в веб-службах Exchange. Установка свойства Credentials автоматически устанавливает для UseDefaultCredentials значение false.
+description: Получает или задает учетные данные используемые для аутентификации в веб-службах Exchange. Установка Credentials property автоматически устанавливает для UseDefaultCredentials значение false.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.exchange/autodiscoverservicebase/credentials/
 ---
 ## AutodiscoverServiceBase.Credentials property
 
-Получает или задает учетные данные, используемые для аутентификации в веб-службах Exchange. Установка свойства Credentials автоматически устанавливает для UseDefaultCredentials значение false.
+Получает или задает учетные данные, используемые для аутентификации в веб-службах Exchange. Установка Credentials property автоматически устанавливает для UseDefaultCredentials значение false.
 
 ```csharp
 public ICredentials Credentials { get; set; }

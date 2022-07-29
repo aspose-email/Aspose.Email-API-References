@@ -1,14 +1,14 @@
 ---
 title: Pop3SaveMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: TheSaveMessageAsync../aspose.email.clients.pop3/iasyncpop3client/savemessageasyncнабор параметров.
+description: SaveMessageAsync../aspose.email.clients.pop3/iasyncpop3client/savemessageasync набор параметров.
 type: docs
 weight: 16870
 url: /ru/net/aspose.email.clients.pop3.models/pop3savemessage/
 ---
 ## Pop3SaveMessage class
 
-The[`SaveMessageAsync`](../../aspose.email.clients.pop3/iasyncpop3client/savemessageasync)набор параметров.
+[`SaveMessageAsync`](../../aspose.email.clients.pop3/iasyncpop3client/savemessageasync) набор параметров.
 
 ```csharp
 public class Pop3SaveMessage
@@ -18,10 +18,10 @@ public class Pop3SaveMessage
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.pop3.models/pop3savemessage/create)() | Создать[`Pop3SaveMessage`](../pop3savemessage). |
+| static [Create](../../aspose.email.clients.pop3.models/pop3savemessage/create)() | Создать[`Pop3SaveMessage`](../pop3savemessage) . |
 | [SetCancellationToken](../../aspose.email.clients.pop3.models/pop3savemessage/setcancellationtoken)(CancellationToken) | Установите токен отмены (необязательно). |
-| [SetConnection](../../aspose.email.clients.pop3.models/pop3savemessage/setconnection)(IConnection) | Подключение к серверу (опционально). |
-| [SetFileName](../../aspose.email.clients.pop3.models/pop3savemessage/setfilename)(string) | Установите имя выходного файла. |
+| [SetConnection](../../aspose.email.clients.pop3.models/pop3savemessage/setconnection)(IConnection) | Подключение к серверу (необязательно). |
+| [SetFileName](../../aspose.email.clients.pop3.models/pop3savemessage/setfilename)(string) | Установить имя выходного файла. |
 | [SetOutputStream](../../aspose.email.clients.pop3.models/pop3savemessage/setoutputstream)(Stream) | Установить выходной поток. |
 | [SetSequenceNumber](../../aspose.email.clients.pop3.models/pop3savemessage/setsequencenumber)(int) | Установить порядковый номер сообщения. |
 | [SetUniqueId](../../aspose.email.clients.pop3.models/pop3savemessage/setuniqueid)(string) | Установить уникальный идентификатор сообщения. |

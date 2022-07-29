@@ -1,14 +1,14 @@
 ---
 title: IsNewsgroup
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IS_NEWSGROUP
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IS_NEWSGROUP
 type: docs
 weight: 11830
 url: /ru/net/aspose.email.mapi/knownpropertylist/isnewsgroup/
 ---
 ## KnownPropertyList.IsNewsgroup field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IS_NEWSGROUP
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IS_NEWSGROUP
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IsNewsgroup;

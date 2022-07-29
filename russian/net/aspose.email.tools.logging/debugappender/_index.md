@@ -1,14 +1,14 @@
 ---
 title: DebugAppender
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет что добавление включено только при отладке.
+description: Представляет что приложение включено только при отладке.
 type: docs
-weight: 20410
+weight: 20460
 url: /ru/net/aspose.email.tools.logging/debugappender/
 ---
 ## DebugAppender class
 
-Представляет, что добавление включено только при отладке.
+Представляет, что приложение включено только при отладке.
 
 ```csharp
 public class DebugAppender : Appender
@@ -18,19 +18,19 @@ public class DebugAppender : Appender
 
 | Имя | Описание |
 | --- | --- |
-| [DebugAppender](debugappender)() | Инициализирует новый экземпляр класса[`DebugAppender`](../debugappender). |
+| [DebugAppender](debugappender)() | Инициализирует новый экземпляр[`DebugAppender`](../debugappender) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Получает или задает средство форматирования. |
+| [Formatter](../../aspose.email.tools.logging/appender/formatter) { get; set; } | Получает или задает модуль форматирования. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Append](../../aspose.email.tools.logging/debugappender/append)(LogEntry) | Добавляет указанную запись журнала в приложение. |
+| override [Append](../../aspose.email.tools.logging/debugappender/append)(LogEntry) | Добавляет указанную запись журнала в appender. |
 | virtual [AppendHeader](../../aspose.email.tools.logging/appender/appendheader)() | Запускает файл журнала с определенным заголовком. |
 | virtual [Close](../../aspose.email.tools.logging/appender/close)() | Закрывает приложение. |
 | [Dispose](../../aspose.email.tools.logging/appender/dispose)() | Освобождает неуправляемые ресурсы, используемые Appender. |

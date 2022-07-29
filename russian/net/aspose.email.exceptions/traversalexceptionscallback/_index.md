@@ -1,14 +1,14 @@
 ---
 title: TraversalExceptionsCallback
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет метод обратного вызова который обрабатывает исключения во время обхода хранилища.
+description: Представляет метод обратного вызова обрабатывающий исключения во время обхода хранилища.
 type: docs
 weight: 17410
 url: /ru/net/aspose.email.exceptions/traversalexceptionscallback/
 ---
 ## TraversalExceptionsCallback delegate
 
-Представляет метод обратного вызова, который обрабатывает исключения во время обхода хранилища.
+Представляет метод обратного вызова, обрабатывающий исключения во время обхода хранилища.
 
 ```csharp
 public delegate void TraversalExceptionsCallback(TraversalAsposeException exception, string itemId);

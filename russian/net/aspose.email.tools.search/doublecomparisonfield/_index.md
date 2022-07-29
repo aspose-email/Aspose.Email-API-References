@@ -3,7 +3,7 @@ title: DoubleComparisonField
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет двойное поле поиска.
 type: docs
-weight: 20650
+weight: 20700
 url: /ru/net/aspose.email.tools.search/doublecomparisonfield/
 ---
 ## DoubleComparisonField class
@@ -18,7 +18,7 @@ public sealed class DoubleComparisonField : ComparisonField
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.email.tools.search/doublecomparisonfield/equals#equals)(double) | Указывает, что поле должно быть равно указанному значению. |
+| [Equals](../../aspose.email.tools.search/doublecomparisonfield/equals#equals)(double) | Указывает, что поле должно быть равным указанному значению. |
 | [Greater](../../aspose.email.tools.search/doublecomparisonfield/greater)(double) | Указывает, что поле должно быть больше указанного значения. |
 | [GreaterOrEqual](../../aspose.email.tools.search/doublecomparisonfield/greaterorequal)(double) | Указывает, что поле должно быть больше или равно указанному значению. |
 | [Less](../../aspose.email.tools.search/doublecomparisonfield/less)(double) | Указывает, что поле должно быть меньше указанного значения. |

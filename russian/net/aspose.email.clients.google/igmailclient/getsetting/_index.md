@@ -16,7 +16,7 @@ public string GetSetting(string setting)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| setting | String | Имя настройки |
+| setting | String | Название настройки |
 
 ### Возвращаемое значение
 

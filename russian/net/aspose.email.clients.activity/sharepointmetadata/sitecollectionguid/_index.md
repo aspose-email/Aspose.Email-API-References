@@ -1,14 +1,14 @@
 ---
 title: SiteCollectionGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: GUID семейства сайтов. ОбязательноДа
+description: GUID семейства веб-сайтов. Обязательно Yes
 type: docs
 weight: 100
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/sitecollectionguid/
 ---
 ## SharePointMetadata.SiteCollectionGuid property
 
-GUID семейства сайтов. Обязательно:Да
+GUID семейства веб-сайтов. Обязательно: Yes
 
 ```csharp
 public Guid SiteCollectionGuid { get; set; }

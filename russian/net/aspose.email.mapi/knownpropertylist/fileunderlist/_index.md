@@ -1,14 +1,14 @@
 ---
 title: FileUnderList
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает список возможных значений свойства PidLidFileUnderId раздел 2.133. ОбластьСвойства контакта Каноническое имяPidLidFileUnderList Альтернативные именаdispidFileUnderList
+description: Задает список возможных значений свойства PidLidFileUnderId раздел 2.133. Область Свойства контакта Каноническое имя PidLidFileUnderList Альтернативные имена dispidFileUnderList
 type: docs
 weight: 10300
 url: /ru/net/aspose.email.mapi/knownpropertylist/fileunderlist/
 ---
 ## KnownPropertyList.FileUnderList field
 
-Задает список возможных значений свойства PidLidFileUnderId (раздел 2.133). Область:Свойства контакта Каноническое имя:PidLidFileUnderList Альтернативные имена:dispidFileUnderList
+Задает список возможных значений свойства PidLidFileUnderId (раздел 2.133). Область: Свойства контакта Каноническое имя: PidLidFileUnderList Альтернативные имена: dispidFileUnderList
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FileUnderList;

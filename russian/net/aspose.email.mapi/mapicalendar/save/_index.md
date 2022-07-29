@@ -1,12 +1,71 @@
 ---
 title: Save
 second_title: Справочник по Aspose.Email для .NET API
-description: Сохраняет объект календаря в файл формата iCalendar используя параметры сохранения по умолчанию
+description: Сохраняет объект календаря в файл указанного формата используя параметры сохранения по умолчанию
 type: docs
 weight: 220
 url: /ru/net/aspose.email.mapi/mapicalendar/save/
 ---
-## Save(string) {#save_2}
+## Save(string, MapiCalendarSaveOptions) {#save_5}
+
+Сохраняет объект календаря в файл указанного формата, используя параметры сохранения по умолчанию
+
+```csharp
+public void Save(string filePath, MapiCalendarSaveOptions saveOptions)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| filePath | String | Путь к файлу |
+| saveOptions | MapiCalendarSaveOptions | Параметры сохранения |
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
+| NotSupportedException | указанные параметры сохранения не поддерживаются |
+
+### Смотрите также
+
+* class [MapiCalendarSaveOptions](../../mapicalendarsaveoptions)
+* class [MapiCalendar](../../mapicalendar)
+* пространство имен [Aspose.Email.Mapi](../../mapicalendar)
+* сборка [Aspose.Email](../../../)
+
+---
+
+## Save(Stream, MapiCalendarSaveOptions) {#save_2}
+
+Сохраняет календарь в поток с указанными параметрами сохранения
+
+```csharp
+public void Save(Stream stream, MapiCalendarSaveOptions saveOptions)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| stream | Stream | Поток для сохранения |
+| saveOptions | MapiCalendarSaveOptions | Параметры сохранения |
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentNullException | *saveOptions*или же*stream* является`нулевой` |
+| NotSupportedException | указанные параметры сохранения не поддерживаются |
+| NotSupportedException | поток не поддерживает запись |
+
+### Смотрите также
+
+* class [MapiCalendarSaveOptions](../../mapicalendarsaveoptions)
+* class [MapiCalendar](../../mapicalendar)
+* пространство имен [Aspose.Email.Mapi](../../mapicalendar)
+* сборка [Aspose.Email](../../../)
+
+---
+
+## Save(string) {#save_3}
 
 Сохраняет объект календаря в файл формата iCalendar, используя параметры сохранения по умолчанию
 
@@ -22,7 +81,7 @@ public void Save(string filePath)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пусто` |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 
@@ -32,9 +91,9 @@ public void Save(string filePath)
 
 ---
 
-## Save(string, AppointmentSaveFormat) {#save_3}
+## Save(string, AppointmentSaveFormat) {#save_4}
 
-Сохраняет объект календаря в файл с указанным форматом, используя параметры сохранения по умолчанию
+Сохраняет объект календаря в файл указанного формата, используя параметры сохранения по умолчанию
 
 ```csharp
 public void Save(string filePath, AppointmentSaveFormat saveFormat)
@@ -49,8 +108,8 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | *filePath*is` null` или` пустой` |
-| NotSupportedException | Указанный*saveFormat*не поддерживается |
+| ArgumentException | *filePath* является`нулевой`или же`пустой` |
+| NotSupportedException | Указанный*saveFormat* не поддерживается |
 
 ### Смотрите также
 
@@ -71,13 +130,13 @@ public void Save(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения в |
+| stream | Stream | Поток для сохранения |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
+| ArgumentNullException | *stream* является`нулевой` |
 | NotSupportedException | поток не поддерживает запись |
 
 ### Смотрите также
@@ -98,15 +157,15 @@ public void Save(Stream stream, AppointmentSaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для сохранения в |
+| stream | Stream | Поток для сохранения |
 | saveFormat | AppointmentSaveFormat | Формат сохранения |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *stream*is` null` |
-| NotSupportedException | Указанный*saveFormat*не поддерживается |
+| ArgumentNullException | *stream* является`нулевой` |
+| NotSupportedException | Указанный*saveFormat* не поддерживается |
 | NotSupportedException | поток не поддерживает запись |
 
 ### Смотрите также

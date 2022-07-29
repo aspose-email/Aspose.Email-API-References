@@ -1,14 +1,14 @@
 ---
 title: CalendarGeoLongitude
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает географическую долготу места встречи. АреалОбщий Каноническое имяPidNameCalendarGeoLongitude Альтернативные названияurnschemascalendargeolongitude
+description: Указывает географическую долготу места встречи. Область Common Каноническое имя PidNameCalendarGeoLongitude Альтернативные имена urnschemascalendargeolongitude
 type: docs
 weight: 2280
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendargeolongitude/
 ---
 ## KnownPropertyList.CalendarGeoLongitude field
 
-Указывает географическую долготу места встречи. Ареал:Общий Каноническое имя:PidNameCalendarGeoLongitude Альтернативные названия:urn:schemas:calendar:geolongitude
+Указывает географическую долготу места встречи. Область: Common Каноническое имя: PidNameCalendarGeoLongitude Альтернативные имена: urn:schemas:calendar:geolongitude
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarGeoLongitude;

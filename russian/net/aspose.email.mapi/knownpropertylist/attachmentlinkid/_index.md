@@ -1,14 +1,14 @@
 ---
 title: AttachmentLinkId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит тип объекта сообщения с которым связано вложение. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachmentLinkId Альтернативные именаPR_ATTACHMENT_LINKID ptagAttachmentLinkId
+description: Содержит тип объекта сообщения с которым связано вложение. Область Свойства вложения сообщения Каноническое имя PidTagAttachmentLinkId Альтернативные имена PR_ATTACHMENT_LINKID ptagAttachmentLinkId
 type: docs
 weight: 1660
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachmentlinkid/
 ---
 ## KnownPropertyList.AttachmentLinkId field
 
-Содержит тип объекта сообщения, с которым связано вложение. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachmentLinkId Альтернативные имена:PR_ATTACHMENT_LINKID, ptagAttachmentLinkId
+Содержит тип объекта сообщения, с которым связано вложение. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachmentLinkId Альтернативные имена: PR_ATTACHMENT_LINKID, ptagAttachmentLinkId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachmentLinkId;

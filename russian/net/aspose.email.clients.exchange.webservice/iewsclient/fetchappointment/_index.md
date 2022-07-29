@@ -16,17 +16,17 @@ public Appointment FetchAppointment(string appointmentUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| appointmentUri | String | URI назначения, которое необходимо получить. |
+| appointmentUri | String | Ури встречи, которую нужно получить. |
 
 ### Возвращаемое значение
 
-Получено[`Appointment`](../../../aspose.email.calendar/appointment).
+принесенный[`Appointment`](../../../aspose.email.calendar/appointment).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri*is` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 
@@ -47,18 +47,18 @@ public Appointment FetchAppointment(string appointmentUri, string folderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| appointmentUri | String | URI назначения, которое необходимо получить. |
+| appointmentUri | String | Ури встречи, которую нужно получить. |
 | folderUri | String | URI родительской папки встреч. |
 
 ### Возвращаемое значение
 
-Получено[`Appointment`](../../../aspose.email.calendar/appointment).
+принесенный[`Appointment`](../../../aspose.email.calendar/appointment).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri*is` null` или` пусто` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *appointmentUri* является`нулевой`или же`пустой`. |
 
 ### Смотрите также
 

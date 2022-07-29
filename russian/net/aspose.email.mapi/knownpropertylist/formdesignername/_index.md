@@ -1,14 +1,14 @@
 ---
 title: FormDesignerName
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FORM_DESIGNER_NAME
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FORM_DESIGNER_NAME
 type: docs
 weight: 10550
 url: /ru/net/aspose.email.mapi/knownpropertylist/formdesignername/
 ---
 ## KnownPropertyList.FormDesignerName field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FORM_DESIGNER_NAME
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FORM_DESIGNER_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FormDesignerName;

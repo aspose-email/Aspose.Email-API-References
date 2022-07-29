@@ -1,14 +1,14 @@
 ---
 title: Longitude
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает долготу
+description: Получает или задает долготу
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo.vcard/vcardgeo/longitude/
 ---
 ## VCardGeo.Longitude property
 
-Получает или устанавливает долготу
+Получает или задает долготу
 
 ```csharp
 public float Longitude { get; set; }

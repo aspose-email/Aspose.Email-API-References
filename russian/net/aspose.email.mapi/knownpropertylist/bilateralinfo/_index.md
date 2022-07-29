@@ -1,14 +1,14 @@
 ---
 title: BilateralInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_BILATERAL_INFO
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_BILATERAL_INFO
 type: docs
 weight: 1970
 url: /ru/net/aspose.email.mapi/knownpropertylist/bilateralinfo/
 ---
 ## KnownPropertyList.BilateralInfo field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_BILATERAL_INFO
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_BILATERAL_INFO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor BilateralInfo;

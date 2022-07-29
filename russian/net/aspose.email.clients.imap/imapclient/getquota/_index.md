@@ -47,7 +47,7 @@ public ImapQuota[] GetQuota(string quotaRootName)
 
 ### Возвращаемое значение
 
-Информация о квотах
+Информация о квоте
 
 ### Смотрите также
 

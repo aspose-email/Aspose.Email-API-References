@@ -1,14 +1,14 @@
 ---
 title: SearchFolderTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение подсвойства SearchFolderTag свойства PidTagExtendedFolderFlags раздел 2.682 контейнера папки поиска. ОбластьПоиск Каноническое имяPidTagSearchFolderTag Альтернативные именаPR_WB_SF_TAG
+description: Содержит значение подсвойства SearchFolderTag свойства PidTagExtendedFolderFlags раздел 2.682 контейнера папки поиска. Область Search Каноническое имя PidTagSearchFolderTag Альтернативные имена PR_WB_SF_TAG
 type: docs
 weight: 17010
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchfoldertag/
 ---
 ## KnownPropertyList.SearchFolderTag field
 
-Содержит значение подсвойства SearchFolderTag свойства PidTagExtendedFolderFlags (раздел 2.682) контейнера папки поиска. Область:Поиск Каноническое имя:PidTagSearchFolderTag Альтернативные имена:PR_WB_SF_TAG
+Содержит значение подсвойства SearchFolderTag свойства PidTagExtendedFolderFlags (раздел 2.682) контейнера папки поиска. Область: Search Каноническое имя: PidTagSearchFolderTag Альтернативные имена: PR_WB_SF_TAG
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderTag;

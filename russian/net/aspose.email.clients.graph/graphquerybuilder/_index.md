@@ -1,14 +1,14 @@
 ---
 title: GraphQueryBuilder
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет конструктор поискового выражения на основе поисковых фильтров используемых протоколом MS Graph.
+description: Представляет построитель поискового выражения на основе поисковых фильтров используемых протоколом MS Graph.
 type: docs
 weight: 15940
 url: /ru/net/aspose.email.clients.graph/graphquerybuilder/
 ---
 ## GraphQueryBuilder class
 
-Представляет конструктор поискового выражения на основе поисковых фильтров, используемых протоколом MS Graph.
+Представляет построитель поискового выражения на основе поисковых фильтров, используемых протоколом MS Graph.
 
 ```csharp
 public class GraphQueryBuilder : MailQueryBuilder
@@ -18,7 +18,7 @@ public class GraphQueryBuilder : MailQueryBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [GraphQueryBuilder](graphquerybuilder)() | Инициализирует новый экземпляр класса[`GraphQueryBuilder`](../graphquerybuilder). |
+| [GraphQueryBuilder](graphquerybuilder)() | Инициализирует новый экземпляр[`GraphQueryBuilder`](../graphquerybuilder) класс. |
 
 ## Характеристики
 
@@ -31,8 +31,8 @@ public class GraphQueryBuilder : MailQueryBuilder
 | [From](../../aspose.email.tools.search/mailquerybuilder/from) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле FROM структуры конверта. |
 | [InternalDate](../../aspose.email.tools.search/mailquerybuilder/internaldate) { get; } | Получает поле, позволяющее находить сообщения по внутренней дате. |
 | [IsRead](../../aspose.email.clients.graph/graphquerybuilder/isread) { get; } | Получает поле, позволяющее найти непрочитанные элементы. |
-| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее найти сообщения по дате отправки. |
-| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее находить сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
+| [SentDate](../../aspose.email.tools.search/mailquerybuilder/sentdate) { get; } | Получает поле, позволяющее находить сообщения по дате отправки. |
+| [Subject](../../aspose.email.tools.search/mailquerybuilder/subject) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле SUBJECT структуры конверта. |
 | [Text](../../aspose.email.tools.search/mailquerybuilder/text) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в заголовках (тема, от, кому, копия) и теле сообщения. |
 | [To](../../aspose.email.tools.search/mailquerybuilder/to) { get; } | Получает поле, позволяющее найти сообщения, содержащие указанную строку в поле TO структуры конверта. |
 

@@ -1,14 +1,14 @@
 ---
 title: MboxoStorageReader
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет собой считыватель хранилища формата mboxo этот формат используется Eudora.
+description: Представляет считыватель хранилища формата mboxo этот формат используется Eudora.
 type: docs
-weight: 20000
+weight: 20050
 url: /ru/net/aspose.email.storage.mbox/mboxostoragereader/
 ---
 ## MboxoStorageReader class
 
-Представляет собой считыватель хранилища формата mboxo, этот формат используется Eudora.
+Представляет считыватель хранилища формата mboxo, этот формат используется Eudora.
 
 ```csharp
 public sealed class MboxoStorageReader : MboxStorageReader
@@ -18,8 +18,8 @@ public sealed class MboxoStorageReader : MboxStorageReader
 
 | Имя | Описание |
 | --- | --- |
-| [MboxoStorageReader](mboxostoragereader#constructor)(Stream, MboxLoadOptions) | Инициализирует новый экземпляр класса[`MboxoStorageReader`](../mboxostoragereader). |
-| [MboxoStorageReader](mboxostoragereader#constructor_2)(string, MboxLoadOptions) | Инициализирует новый экземпляр класса[`MboxrdStorageReader`](../mboxrdstoragereader). |
+| [MboxoStorageReader](mboxostoragereader#constructor)(Stream, MboxLoadOptions) | Инициализирует новый экземпляр[`MboxoStorageReader`](../mboxostoragereader) учебный класс. |
+| [MboxoStorageReader](mboxostoragereader#constructor_2)(string, MboxLoadOptions) | Инициализирует новый экземпляр[`MboxrdStorageReader`](../mboxrdstoragereader) класс. |
 
 ## Характеристики
 
@@ -32,11 +32,11 @@ public sealed class MboxoStorageReader : MboxStorageReader
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email.storage.mbox/mboxstoragereader/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением или сбросом неуправляемых ресурсов. |
 | [EnumerateMessages](../../aspose.email.storage.mbox/mboxstoragereader/enumeratemessages)() | Предоставляет перечислитель, который поддерживает итерацию сообщений в хранилище. |
 | override [GetTotalItemsCount](../../aspose.email.storage.mbox/mboxostoragereader/gettotalitemscount)() | Возвращает количество сообщений в хранилище. |
-| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage)() | Читает следующее сообщение из базового потока хранения. |
-| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage_1)(out string) | Читает следующее сообщение из базового потока хранения. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage)() | Читает следующее сообщение из основного потока хранения. |
+| override [ReadNextMessage](../../aspose.email.storage.mbox/mboxostoragereader/readnextmessage#readnextmessage_1)(out string) | Читает следующее сообщение из основного потока хранения. |
 
 ### Смотрите также
 

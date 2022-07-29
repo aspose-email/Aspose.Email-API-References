@@ -1,14 +1,14 @@
 ---
 title: SenderTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер телефона вызывающего абонента связанный с сообщением голосовой почты. ОбластьЕдиная система обмена сообщениями Каноническое имяPidTagSenderTelephoneNumber Альтернативные именаInternalSchemaSenderTelephoneNumber
+description: Содержит номер телефона вызывающего абонента связанного с сообщением голосовой почты. Область Единая система обмена сообщениями Каноническое имя PidTagSenderTelephoneNumber Альтернативные имена InternalSchemaSenderTelephoneNumber
 type: docs
 weight: 17160
 url: /ru/net/aspose.email.mapi/knownpropertylist/sendertelephonenumber/
 ---
 ## KnownPropertyList.SenderTelephoneNumber field
 
-Содержит номер телефона вызывающего абонента, связанный с сообщением голосовой почты. Область:Единая система обмена сообщениями Каноническое имя:PidTagSenderTelephoneNumber Альтернативные имена:InternalSchemaSenderTelephoneNumber
+Содержит номер телефона вызывающего абонента, связанного с сообщением голосовой почты. Область: Единая система обмена сообщениями Каноническое имя: PidTagSenderTelephoneNumber Альтернативные имена: InternalSchemaSenderTelephoneNumber
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderTelephoneNumber;

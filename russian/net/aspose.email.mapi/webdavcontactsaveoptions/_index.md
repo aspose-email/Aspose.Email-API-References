@@ -3,7 +3,7 @@ title: WebDavContactSaveOptions
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает параметры сохранения контактов.
 type: docs
-weight: 19000
+weight: 19030
 url: /ru/net/aspose.email.mapi/webdavcontactsaveoptions/
 ---
 ## WebDavContactSaveOptions class
@@ -18,7 +18,7 @@ public class WebDavContactSaveOptions : ContactSaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [WebDavContactSaveOptions](webdavcontactsaveoptions)() | Инициализирует новый экземпляр класса[`WebDavContactSaveOptions`](../webdavcontactsaveoptions). |
+| [WebDavContactSaveOptions](webdavcontactsaveoptions)() | Инициализирует новый экземпляр[`WebDavContactSaveOptions`](../webdavcontactsaveoptions) класс. |
 
 ## Характеристики
 

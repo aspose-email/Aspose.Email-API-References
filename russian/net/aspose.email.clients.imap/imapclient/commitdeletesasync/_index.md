@@ -1,14 +1,14 @@
 ---
 title: CommitDeletesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Зафиксировать удаление
+description: Подтвердить удаление
 type: docs
 weight: 470
 url: /ru/net/aspose.email.clients.imap/imapclient/commitdeletesasync/
 ---
 ## CommitDeletesAsync(IConnection) {#commitdeletesasync_1}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection)
@@ -16,7 +16,7 @@ public Task CommitDeletesAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ public Task CommitDeletesAsync(IConnection connection)
 
 ## CommitDeletesAsync(IConnection, int) {#commitdeletesasync_2}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, int sleep)
@@ -41,7 +41,7 @@ public Task CommitDeletesAsync(IConnection connection, int sleep)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sleep | Int32 | Время ожидания завершения операции в миллисекундах |
 
 ### Возвращаемое значение
@@ -59,7 +59,7 @@ public Task CommitDeletesAsync(IConnection connection, int sleep)
 
 ## CommitDeletesAsync() {#commitdeletesasync}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync()
@@ -79,7 +79,7 @@ public Task CommitDeletesAsync()
 
 ## CommitDeletesAsync(int) {#commitdeletesasync_11}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(int sleep)
@@ -103,7 +103,7 @@ public Task CommitDeletesAsync(int sleep)
 
 ## CommitDeletesAsync(IEnumerable&lt;string&gt;) {#commitdeletesasync_13}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task CommitDeletesAsync(IEnumerable<string> uidSet)
@@ -127,7 +127,7 @@ public Task CommitDeletesAsync(IEnumerable<string> uidSet)
 
 ## CommitDeletesAsync(string) {#commitdeletesasync_15}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task CommitDeletesAsync(string uniqueId)
@@ -135,7 +135,7 @@ public Task CommitDeletesAsync(string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Uid сообщения |
+| uniqueId | String | UID сообщения |
 
 ### Возвращаемое значение
 
@@ -176,7 +176,7 @@ public Task CommitDeletesAsync(string startUid, string endUid)
 
 ## CommitDeletesAsync(IConnection, IEnumerable&lt;string&gt;) {#commitdeletesasync_4}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, IEnumerable<string> uidSet)
@@ -185,7 +185,7 @@ public Task CommitDeletesAsync(IConnection connection, IEnumerable<string> uidSe
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| uidSet | IEnumerable`1 | Набор уникальных идентификаторов сообщений |
+| uidSet | IEnumerable`1 | Набор уникальных идентификаторов для сообщений |
 
 ### Возвращаемое значение
 
@@ -202,7 +202,7 @@ public Task CommitDeletesAsync(IConnection connection, IEnumerable<string> uidSe
 
 ## CommitDeletesAsync(IConnection, string) {#commitdeletesasync_6}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, string uniqueId)
@@ -210,7 +210,7 @@ public Task CommitDeletesAsync(IConnection connection, string uniqueId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
 
 ### Возвращаемое значение
@@ -228,7 +228,7 @@ public Task CommitDeletesAsync(IConnection connection, string uniqueId)
 
 ## CommitDeletesAsync(IConnection, string, string) {#commitdeletesasync_7}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, string startUid, string endUid)
@@ -255,7 +255,7 @@ public Task CommitDeletesAsync(IConnection connection, string startUid, string e
 
 ## CommitDeletesAsync(IConnection, CancellationToken) {#commitdeletesasync_10}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, CancellationToken token)
@@ -263,7 +263,7 @@ public Task CommitDeletesAsync(IConnection connection, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -281,7 +281,7 @@ public Task CommitDeletesAsync(IConnection connection, CancellationToken token)
 
 ## CommitDeletesAsync(IConnection, int, CancellationToken) {#commitdeletesasync_3}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, int sleep, CancellationToken token)
@@ -289,7 +289,7 @@ public Task CommitDeletesAsync(IConnection connection, int sleep, CancellationTo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sleep | Int32 | Время ожидания завершения операции в миллисекундах |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -308,7 +308,7 @@ public Task CommitDeletesAsync(IConnection connection, int sleep, CancellationTo
 
 ## CommitDeletesAsync(CancellationToken) {#commitdeletesasync_19}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(CancellationToken token)
@@ -316,7 +316,7 @@ public Task CommitDeletesAsync(CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены . |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -332,7 +332,7 @@ public Task CommitDeletesAsync(CancellationToken token)
 
 ## CommitDeletesAsync(int, CancellationToken) {#commitdeletesasync_12}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(int sleep, CancellationToken token)
@@ -357,7 +357,7 @@ public Task CommitDeletesAsync(int sleep, CancellationToken token)
 
 ## CommitDeletesAsync(IEnumerable&lt;string&gt;, CancellationToken) {#commitdeletesasync_14}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task CommitDeletesAsync(IEnumerable<string> uidSet, CancellationToken token)
@@ -382,7 +382,7 @@ public Task CommitDeletesAsync(IEnumerable<string> uidSet, CancellationToken tok
 
 ## CommitDeletesAsync(string, CancellationToken) {#commitdeletesasync_18}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task CommitDeletesAsync(string uniqueId, CancellationToken token)
@@ -390,7 +390,7 @@ public Task CommitDeletesAsync(string uniqueId, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uniqueId | String | Uid сообщения |
+| uniqueId | String | UID сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -433,7 +433,7 @@ public Task CommitDeletesAsync(string startUid, string endUid, CancellationToken
 
 ## CommitDeletesAsync(IConnection, IEnumerable&lt;string&gt;, CancellationToken) {#commitdeletesasync_5}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, IEnumerable<string> uidSet, 
@@ -461,7 +461,7 @@ public Task CommitDeletesAsync(IConnection connection, IEnumerable<string> uidSe
 
 ## CommitDeletesAsync(IConnection, string, CancellationToken) {#commitdeletesasync_9}
 
-Зафиксировать удаление
+Подтвердить удаление
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, string uniqueId, CancellationToken token)
@@ -469,7 +469,7 @@ public Task CommitDeletesAsync(IConnection connection, string uniqueId, Cancella
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | uniqueId | String | UID сообщения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -488,7 +488,7 @@ public Task CommitDeletesAsync(IConnection connection, string uniqueId, Cancella
 
 ## CommitDeletesAsync(IConnection, string, string, CancellationToken) {#commitdeletesasync_8}
 
-Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, читайте подробнее https://tools.ietf.org/html/rfc4315
+Зафиксировать удаление Этот метод работает, только если сервер поддерживает расширение UIDPLUS. Пожалуйста, прочитайте больше https://tools.ietf.org/html/rfc4315
 
 ```csharp
 public Task CommitDeletesAsync(IConnection connection, string startUid, string endUid, 

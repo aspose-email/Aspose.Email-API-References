@@ -1,14 +1,14 @@
 ---
 title: IpmTaskEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит EntryID папки Tasks. ОбластьСвойства папки Каноническое имяPidTagIpmTaskEntryId Альтернативные именаPR_IPM_TASK_ENTRYID
+description: Содержит EntryID папки Tasks. Область Свойства папки Каноническое имя PidTagIpmTaskEntryId Альтернативные имена PR_IPM_TASK_ENTRYID
 type: docs
 weight: 11770
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmtaskentryid/
 ---
 ## KnownPropertyList.IpmTaskEntryId field
 
-Содержит EntryID папки Tasks. Область:Свойства папки Каноническое имя:PidTagIpmTaskEntryId Альтернативные имена:PR_IPM_TASK_ENTRYID
+Содержит EntryID папки Tasks. Область: Свойства папки Каноническое имя: PidTagIpmTaskEntryId Альтернативные имена: PR_IPM_TASK_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmTaskEntryId;

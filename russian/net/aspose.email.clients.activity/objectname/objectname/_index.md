@@ -1,14 +1,14 @@
 ---
 title: ObjectName
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаObjectNameaspose.email.clients.activity/objectname.
+description: Инициализирует новый экземплярObjectNameaspose.email.clients.activity/objectname класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.activity/objectname/objectname/
 ---
 ## ObjectName constructor
 
-Инициализирует новый экземпляр класса[`ObjectName`](../../objectname).
+Инициализирует новый экземпляр[`ObjectName`](../../objectname) класс.
 
 ```csharp
 public ObjectName()

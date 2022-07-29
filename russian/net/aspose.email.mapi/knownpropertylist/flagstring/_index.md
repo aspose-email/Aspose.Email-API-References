@@ -1,14 +1,14 @@
 ---
 title: FlagString
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит индекс идентифицирующий одну из набора предопределенных текстовых строк которые должны быть связаны с флагом. ОбластьЗадачи Каноническое имяPidLidFlagString Альтернативные именаdispidFlagStringEnum
+description: Содержит индекс идентифицирующий одну из набора предопределенных текстовых строк которые будут связаны с флагом. Область Tasks Каноническое имя PidLidFlagString Альтернативные имена dispidFlagStringEnum
 type: docs
 weight: 10370
 url: /ru/net/aspose.email.mapi/knownpropertylist/flagstring/
 ---
 ## KnownPropertyList.FlagString field
 
-Содержит индекс, идентифицирующий одну из набора предопределенных текстовых строк, которые должны быть связаны с флагом. Область:Задачи Каноническое имя:PidLidFlagString Альтернативные имена:dispidFlagStringEnum
+Содержит индекс, идентифицирующий одну из набора предопределенных текстовых строк, которые будут связаны с флагом. Область: Tasks Каноническое имя: PidLidFlagString Альтернативные имена: dispidFlagStringEnum
 
 ```csharp
 public static readonly PidLidPropertyDescriptor FlagString;

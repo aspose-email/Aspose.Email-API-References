@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает uri карты агента  null ifValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocationis INLINE 
+description: Получает или задает uri карты агента нулевой еслиValueLocationaspose.email.personalinfo.vcard/vcardagent/valuelocation являетсяВ СООТВЕТСТВИИ
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo.vcard/vcardagent/uri/
 ---
 ## VCardAgent.Uri property
 
-Получает или устанавливает uri карты агента (` null` if[`ValueLocation`](../valuelocation)is` INLINE` )
+Получает или задает uri карты агента (`нулевой` если[`ValueLocation`](../valuelocation) является`В СООТВЕТСТВИИ`)
 
 ```csharp
 public string Uri { get; set; }

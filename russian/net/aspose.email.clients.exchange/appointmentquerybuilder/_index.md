@@ -22,7 +22,7 @@ public sealed class AppointmentQueryBuilder
 | [EndTimeZoneId](../../aspose.email.clients.exchange/appointmentquerybuilder/endtimezoneid) { get; } | Получает поле, позволяющее найти элементы с указанным EndTimeZoneId. |
 | [IsAllDayEvent](../../aspose.email.clients.exchange/appointmentquerybuilder/isalldayevent) { get; } | Получает поле, позволяющее найти элементы AllDayEvent. |
 | [IsCancelled](../../aspose.email.clients.exchange/appointmentquerybuilder/iscancelled) { get; } | Получает поле, позволяющее найти отмененные элементы. |
-| [IsMeeting](../../aspose.email.clients.exchange/appointmentquerybuilder/ismeeting) { get; } | Получает поле, позволяющее найти элементы собрания. |
+| [IsMeeting](../../aspose.email.clients.exchange/appointmentquerybuilder/ismeeting) { get; } | Получает поле, позволяющее находить элементы собрания. |
 | [IsOrganizer](../../aspose.email.clients.exchange/appointmentquerybuilder/isorganizer) { get; } | Получает поле, позволяющее найти элементы, где пользователь является организатором. |
 | [IsRecurring](../../aspose.email.clients.exchange/appointmentquerybuilder/isrecurring) { get; } | Получает поле, позволяющее находить повторяющиеся элементы. |
 | [Location](../../aspose.email.clients.exchange/appointmentquerybuilder/location) { get; } | Получает поле, позволяющее найти элементы с указанным Location. |

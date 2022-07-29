@@ -1,14 +1,14 @@
 ---
 title: ThumbnailSet
 second_title: Справочник по Aspose.Email для .NET API
-description: https//docs.microsoft.com/en-us/graph/api/resources/thumbnailsetviewgraph-rest-1.0 Ресурс ThumbnailSet представляет собой набор ресурсов эскизов с ключом. Он используется для представления набора эскизов связанных с DriveItem.
+description: https//docs.microsoft.com/en-us/graph/api/resources/thumbnailsetviewgraph-rest-1.0 Ресурс ThumbnailSet представляет собой набор ресурсов эскизов с ключами. Используется для представления набора эскизов связанных с DriveItem.
 type: docs
 weight: 16080
 url: /ru/net/aspose.email.clients.graph/thumbnailset/
 ---
 ## ThumbnailSet class
 
-https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 Ресурс ThumbnailSet представляет собой набор ресурсов эскизов с ключом. Он используется для представления набора эскизов, связанных с DriveItem.
+https://docs.microsoft.com/en-us/graph/api/resources/thumbnailset?view=graph-rest-1.0 Ресурс ThumbnailSet представляет собой набор ресурсов эскизов с ключами. Используется для представления набора эскизов, связанных с DriveItem.
 
 ```csharp
 public class ThumbnailSet
@@ -24,11 +24,11 @@ public class ThumbnailSet
 
 | Имя | Описание |
 | --- | --- |
-| [Id](../../aspose.email.clients.graph/thumbnailset/id) { get; set; } | Идентификатор внутри элемента. Только для чтения. |
+| [Id](../../aspose.email.clients.graph/thumbnailset/id) { get; set; } | Идентификатор в элементе. Только для чтения. |
 | [Large](../../aspose.email.clients.graph/thumbnailset/large) { get; set; } | Миниатюра в масштабе 1920x1920. |
-| [Medium](../../aspose.email.clients.graph/thumbnailset/medium) { get; set; } | Миниатюра в масштабе 176x176. |
-| [Small](../../aspose.email.clients.graph/thumbnailset/small) { get; set; } | Обрезанная миниатюра 48x48. |
-| [Source](../../aspose.email.clients.graph/thumbnailset/source) { get; set; } | Пользовательское изображение эскиза или исходное изображение, используемое для создания других эскизов. |
+| [Medium](../../aspose.email.clients.graph/thumbnailset/medium) { get; set; } | Миниатюра 176x176 в масштабе. |
+| [Small](../../aspose.email.clients.graph/thumbnailset/small) { get; set; } | Обрезанный эскиз 48x48. |
+| [Source](../../aspose.email.clients.graph/thumbnailset/source) { get; set; } | Пользовательское эскизное изображение или исходное изображение, используемое для создания других эскизов. |
 
 ### Смотрите также
 

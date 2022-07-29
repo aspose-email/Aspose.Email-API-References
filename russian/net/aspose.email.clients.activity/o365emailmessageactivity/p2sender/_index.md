@@ -1,14 +1,14 @@
 ---
 title: P2Sender
 second_title: Справочник по Aspose.Email для .NET API
-description: Отправитель сообщения электронной почты. ОбязательноДа
+description: Отправитель сообщения электронной почты. Обязательно Yes
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.activity/o365emailmessageactivity/p2sender/
 ---
 ## O365EmailMessageActivity.P2Sender property
 
-Отправитель сообщения электронной почты. Обязательно:Да
+Отправитель сообщения электронной почты. Обязательно: Yes
 
 ```csharp
 public string P2Sender { get; set; }

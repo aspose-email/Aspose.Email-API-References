@@ -1,14 +1,14 @@
 ---
 title: ExchangeAdvancedSyntaxMailQuery
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeAdvancedSyntaxMailQueryaspose.email.clients.exchange/exchangeadvancedsyntaxmailquery.
+description: Инициализирует новый экземплярExchangeAdvancedSyntaxMailQueryaspose.email.clients.exchange/exchangeadvancedsyntaxmailquery класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/exchangeadvancedsyntaxmailquery/
 ---
 ## ExchangeAdvancedSyntaxMailQuery constructor
 
-Инициализирует новый экземпляр класса[`ExchangeAdvancedSyntaxMailQuery`](../../exchangeadvancedsyntaxmailquery).
+Инициализирует новый экземпляр[`ExchangeAdvancedSyntaxMailQuery`](../../exchangeadvancedsyntaxmailquery) класс.
 
 ```csharp
 public ExchangeAdvancedSyntaxMailQuery(string advancedSyntaxQueryString)

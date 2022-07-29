@@ -1,14 +1,14 @@
 ---
 title: Xml
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип носителя text/xml
+description: Определяет тип носителя text/xml
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mime/mediatypenames.text/xml/
 ---
 ## MediaTypeNames.Text.Xml field
 
-Указывает тип носителя text/xml
+Определяет тип носителя text/xml
 
 ```csharp
 public const string Xml;

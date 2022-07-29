@@ -1,14 +1,14 @@
 ---
 title: itemCreationTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Отметка даты и времени в формате UTC когда событие регистрируется. ОбязательноДа
+description: Отметка даты и времени в формате UTC когда событие было зарегистрировано. Обязательно Yes
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/itemcreationtime/
 ---
 ## SharePointMetadata.itemCreationTime property
 
-Отметка даты и времени в формате UTC, когда событие регистрируется. Обязательно:Да
+Отметка даты и времени в формате UTC, когда событие было зарегистрировано. Обязательно: Yes
 
 ```csharp
 public DateTime itemCreationTime { get; set; }

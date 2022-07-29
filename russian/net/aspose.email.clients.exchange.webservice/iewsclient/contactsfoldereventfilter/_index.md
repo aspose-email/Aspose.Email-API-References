@@ -1,14 +1,14 @@
 ---
 title: ContactsFolderEventFilter
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет типы событий для папки Контакты
+description: Указывает типы событий для папки Контакты
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/contactsfoldereventfilter/
 ---
 ## IEWSClient.ContactsFolderEventFilter property
 
-Определяет типы событий для папки Контакты
+Указывает типы событий для папки «Контакты»
 
 ```csharp
 public EventTypes ContactsFolderEventFilter { get; set; }

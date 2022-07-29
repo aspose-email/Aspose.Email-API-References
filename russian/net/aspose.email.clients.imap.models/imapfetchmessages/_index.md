@@ -1,14 +1,14 @@
 ---
 title: ImapFetchMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: FetchMessagesAsync../aspose.email.clients.imap/iasyncimapclient/fetchmessagesasyncнабор параметров метода.
+description: FetchMessagesAsync../aspose.email.clients.imap/iasyncimapclient/fetchmessagesasync набор параметров метода.
 type: docs
 weight: 16570
 url: /ru/net/aspose.email.clients.imap.models/imapfetchmessages/
 ---
 ## ImapFetchMessages class
 
-[`FetchMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/fetchmessagesasync)набор параметров метода.
+[`FetchMessagesAsync`](../../aspose.email.clients.imap/iasyncimapclient/fetchmessagesasync) набор параметров метода.
 
 ```csharp
 public class ImapFetchMessages : ImapMethodParametersGeneral<ImapFetchMessages>
@@ -18,7 +18,7 @@ public class ImapFetchMessages : ImapMethodParametersGeneral<ImapFetchMessages>
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapfetchmessages/create)() | Создать новый экземпляр[`ImapFetchMessages`](../imapfetchmessages). |
+| static [Create](../../aspose.email.clients.imap.models/imapfetchmessages/create)() | Создать новый[`ImapFetchMessages`](../imapfetchmessages) экземпляр. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
 | [SetMessage](../../aspose.email.clients.imap.models/imapfetchmessages/setmessage#setmessage)(int) | Установить порядковый номер сообщения. |

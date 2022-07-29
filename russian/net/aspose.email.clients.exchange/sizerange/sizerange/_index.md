@@ -1,14 +1,14 @@
 ---
 title: SizeRange
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаSizeRangeaspose.email.clients.exchange/sizerange
+description: Инициализирует новый экземплярSizeRangeaspose.email.clients.exchange/sizerange класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange/sizerange/sizerange/
 ---
 ## SizeRange constructor
 
-Инициализирует новый экземпляр класса[`SizeRange`](../../sizerange)
+Инициализирует новый экземпляр[`SizeRange`](../../sizerange) класс
 
 ```csharp
 public SizeRange()

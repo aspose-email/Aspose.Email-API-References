@@ -16,7 +16,7 @@ public ExchangeMailboxInfo GetMailboxInfo()
 
 ### Возвращаемое значение
 
-[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo)который представляет информацию о почтовом ящике
+[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo) который представляет информацию о почтовом ящике
 
 ### Смотрите также
 
@@ -41,7 +41,7 @@ public ExchangeMailboxInfo GetMailboxInfo(string mailbox)
 
 ### Возвращаемое значение
 
-[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo)который представляет информацию о почтовом ящике
+[`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo) который представляет информацию о почтовом ящике
 
 ### Смотрите также
 

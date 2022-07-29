@@ -1,14 +1,14 @@
 ---
 title: NotesStorageFacility
 second_title: Справочник по Aspose.Email для .NET API
-description: Файл базы данных Notes Storage Facility NSF используется IBM Lotus Notes и Domino для хранения различные виды объектов такие как электронная почта встречи и документы а также формы приложений и представления.
+description: Файл базы данных Notes Storage Facility NSF используется IBM Lotus Notes и Domino для хранения различных объектов таких как электронная почта встречи и документы  а также формы приложений и представления.
 type: docs
-weight: 20030
+weight: 20080
 url: /ru/net/aspose.email.storage.nsf/notesstoragefacility/
 ---
 ## NotesStorageFacility class
 
-Файл базы данных Notes Storage Facility (NSF) используется (IBM) Lotus Notes и Domino для хранения различные виды объектов, такие как электронная почта, встречи и документы, а также формы приложений и представления.
+Файл базы данных Notes Storage Facility (NSF) используется (IBM) Lotus Notes и Domino для хранения различных объектов, таких как электронная почта, встречи и документы, , а также формы приложений и представления.
 
 ```csharp
 public class NotesStorageFacility : IDisposable
@@ -18,20 +18,20 @@ public class NotesStorageFacility : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [NotesStorageFacility](notesstoragefacility#constructor)(Stream) | Инициализирует новый экземпляр класса[`NotesStorageFacility`](../notesstoragefacility). |
-| [NotesStorageFacility](notesstoragefacility#constructor_4)(string) | Инициализирует новый экземпляр класса[`NotesStorageFacility`](../notesstoragefacility). |
-| [NotesStorageFacility](notesstoragefacility#constructor_3)(Stream, CancellationToken) | Инициализирует новый экземпляр класса[`NotesStorageFacility`](../notesstoragefacility). |
-| [NotesStorageFacility](notesstoragefacility#constructor_1)(Stream, NsfLoadOptions) | Инициализирует новый экземпляр класса[`NotesStorageFacility`](../notesstoragefacility). |
-| [NotesStorageFacility](notesstoragefacility#constructor_7)(string, CancellationToken) | Инициализирует новый экземпляр класса[`NotesStorageFacility`](../notesstoragefacility). |
-| [NotesStorageFacility](notesstoragefacility#constructor_5)(string, NsfLoadOptions) | Инициализирует новый экземпляр класса[`NotesStorageFacility`](../notesstoragefacility). |
-| [NotesStorageFacility](notesstoragefacility#constructor_2)(Stream, NsfLoadOptions, CancellationToken) | Инициализирует новый экземпляр класса[`NotesStorageFacility`](../notesstoragefacility). |
-| [NotesStorageFacility](notesstoragefacility#constructor_6)(string, NsfLoadOptions, CancellationToken) | Инициализирует новый экземпляр класса[`NotesStorageFacility`](../notesstoragefacility). |
+| [NotesStorageFacility](notesstoragefacility#constructor)(Stream) | Инициализирует новый экземпляр[`NotesStorageFacility`](../notesstoragefacility) класс. |
+| [NotesStorageFacility](notesstoragefacility#constructor_4)(string) | Инициализирует новый экземпляр[`NotesStorageFacility`](../notesstoragefacility) класс. |
+| [NotesStorageFacility](notesstoragefacility#constructor_3)(Stream, CancellationToken) | Инициализирует новый экземпляр[`NotesStorageFacility`](../notesstoragefacility) класс. |
+| [NotesStorageFacility](notesstoragefacility#constructor_1)(Stream, NsfLoadOptions) | Инициализирует новый экземпляр[`NotesStorageFacility`](../notesstoragefacility) класс. |
+| [NotesStorageFacility](notesstoragefacility#constructor_7)(string, CancellationToken) | Инициализирует новый экземпляр[`NotesStorageFacility`](../notesstoragefacility) класс. |
+| [NotesStorageFacility](notesstoragefacility#constructor_5)(string, NsfLoadOptions) | Инициализирует новый экземпляр[`NotesStorageFacility`](../notesstoragefacility) класс. |
+| [NotesStorageFacility](notesstoragefacility#constructor_2)(Stream, NsfLoadOptions, CancellationToken) | Инициализирует новый экземпляр[`NotesStorageFacility`](../notesstoragefacility) класс. |
+| [NotesStorageFacility](notesstoragefacility#constructor_6)(string, NsfLoadOptions, CancellationToken) | Инициализирует новый экземпляр[`NotesStorageFacility`](../notesstoragefacility) класс. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Dispose](../../aspose.email.storage.nsf/notesstoragefacility/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением, или сбросом неуправляемых ресурсов. |
+| [Dispose](../../aspose.email.storage.nsf/notesstoragefacility/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, высвобождением, или сбросом неуправляемых ресурсов. |
 | [EnumerateMessages](../../aspose.email.storage.nsf/notesstoragefacility/enumeratemessages)() | Предоставляет перечислитель, который поддерживает итерацию сообщений в хранилище. |
 
 ### Смотрите также

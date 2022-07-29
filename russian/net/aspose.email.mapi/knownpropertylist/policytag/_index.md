@@ -1,14 +1,14 @@
 ---
 title: PolicyTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает GUID тега хранения. ОбластьАрхив Каноническое имяPidTagPolicyTag Альтернативные именаPR_POLICY_TAG ptagPolicyTag
+description: Указывает GUID тега хранения. Область Archive Каноническое имя PidTagPolicyTag Альтернативные имена PR_POLICY_TAG ptagPolicyTag
 type: docs
 weight: 14340
 url: /ru/net/aspose.email.mapi/knownpropertylist/policytag/
 ---
 ## KnownPropertyList.PolicyTag field
 
-Указывает GUID тега хранения. Область:Архив Каноническое имя:PidTagPolicyTag Альтернативные имена:PR_POLICY_TAG, ptagPolicyTag
+Указывает GUID тега хранения. Область: Archive Каноническое имя: PidTagPolicyTag Альтернативные имена: PR_POLICY_TAG, ptagPolicyTag
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PolicyTag;

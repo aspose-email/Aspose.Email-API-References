@@ -1,14 +1,14 @@
 ---
 title: ConversationId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор потока сообщений.
+description: Идентификатор цепочки сообщений.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/messagethreadresult/conversationid/
 ---
 ## MessageThreadResult.ConversationId property
 
-Идентификатор потока сообщений.
+Идентификатор цепочки сообщений.
 
 ```csharp
 public string ConversationId { get; set; }

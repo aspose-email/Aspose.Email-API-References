@@ -1,14 +1,14 @@
 ---
 title: EmsAbOwaServer
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_OWA_SERVER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_OWA_SERVER
 type: docs
 weight: 8030
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabowaserver/
 ---
 ## KnownPropertyList.EmsAbOwaServer field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_OWA_SERVER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_OWA_SERVER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbOwaServer;

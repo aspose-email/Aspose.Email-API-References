@@ -1,14 +1,14 @@
 ---
 title: ToAttendeesString
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список всех отправляемых участников которые также являются обязательными участниками. ОбластьВстречи Каноническое имяPidLidToAttendeesString Альтернативные именаdispidToAttendeesString
+description: Содержит список всех отправляемых участников которые также являются обязательными участниками. Область Meetings Каноническое имя PidLidToAttendeesString Альтернативные имена dispidToAttendeesString
 type: docs
 weight: 19020
 url: /ru/net/aspose.email.mapi/knownpropertylist/toattendeesstring/
 ---
 ## KnownPropertyList.ToAttendeesString field
 
-Содержит список всех отправляемых участников, которые также являются обязательными участниками. Область:Встречи Каноническое имя:PidLidToAttendeesString Альтернативные имена:dispidToAttendeesString
+Содержит список всех отправляемых участников, которые также являются обязательными участниками. Область: Meetings Каноническое имя: PidLidToAttendeesString Альтернативные имена: dispidToAttendeesString
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ToAttendeesString;

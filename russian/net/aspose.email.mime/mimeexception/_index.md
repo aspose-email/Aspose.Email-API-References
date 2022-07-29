@@ -3,7 +3,7 @@ title: MimeException
 second_title: Справочник по Aspose.Email для .NET API
 description: Предоставляет информацию об ошибках MIME
 type: docs
-weight: 19180
+weight: 19210
 url: /ru/net/aspose.email.mime/mimeexception/
 ---
 ## MimeException class
@@ -18,9 +18,9 @@ public class MimeException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [MimeException](mimeexception#constructor)() | Инициализирует новый экземпляр класса[`MimeException`](../mimeexception). |
-| [MimeException](mimeexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`MimeException`](../mimeexception). |
-| [MimeException](mimeexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`MimeException`](../mimeexception). |
+| [MimeException](mimeexception#constructor)() | Инициализирует новый экземпляр[`MimeException`](../mimeexception) класс. |
+| [MimeException](mimeexception#constructor_1)(string) | Инициализирует новый экземпляр[`MimeException`](../mimeexception) класс. |
+| [MimeException](mimeexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`MimeException`](../mimeexception) класс. |
 
 ### Смотрите также
 

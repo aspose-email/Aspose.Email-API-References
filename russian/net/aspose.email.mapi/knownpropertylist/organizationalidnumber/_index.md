@@ -1,14 +1,14 @@
 ---
 title: OrganizationalIdNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор пользователя почты используемый в организации пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagOrganizationalIdNumber Альтернативные именаPR_ORGANIZATIONAL_ID_NUMBER PR_ORGANIZATIONAL_ID_NUMBER_A
+description: Содержит идентификатор пользователя почты используемого в организации пользователя почты. Область Address Properties Каноническое имя PidTagOrganizationalIdNumber Альтернативные имена PR_ORGANIZATIONAL_ID_NUMBER PR_ORGANIZATIONAL_ID_NUMBER_A
 type: docs
 weight: 13450
 url: /ru/net/aspose.email.mapi/knownpropertylist/organizationalidnumber/
 ---
 ## KnownPropertyList.OrganizationalIdNumber field
 
-Содержит идентификатор пользователя почты, используемый в организации пользователя почты. Область:Свойства адреса Каноническое имя:PidTagOrganizationalIdNumber Альтернативные имена:PR_ORGANIZATIONAL_ID_NUMBER, PR_ORGANIZATIONAL_ID_NUMBER_A,
+Содержит идентификатор пользователя почты, используемого в организации пользователя почты. Область: Address Properties Каноническое имя: PidTagOrganizationalIdNumber Альтернативные имена: PR_ORGANIZATIONAL_ID_NUMBER, PR_ORGANIZATIONAL_ID_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OrganizationalIdNumber;

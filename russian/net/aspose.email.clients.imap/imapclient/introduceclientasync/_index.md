@@ -1,14 +1,14 @@
 ---
 title: IntroduceClientAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Вводит информацию о клиенте на сервер.
+description: Представляет информацию о клиенте серверу.
 type: docs
 weight: 800
 url: /ru/net/aspose.email.clients.imap/imapclient/introduceclientasync/
 ---
 ## IntroduceClientAsync() {#introduceclientasync}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public Task<ImapIdentificationInfo> IntroduceClientAsync()
@@ -29,7 +29,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync()
 
 ## IntroduceClientAsync(IConnection) {#introduceclientasync_1}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection)
@@ -37,7 +37,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 
 ### Возвращаемое значение
 
@@ -55,7 +55,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection)
 
 ## IntroduceClientAsync(ImapIdentificationInfo) {#introduceclientasync_5}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public Task<ImapIdentificationInfo> IntroduceClientAsync(
@@ -68,7 +68,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом для эта операция
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -81,7 +81,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 
 ## IntroduceClientAsync(IConnection, ImapIdentificationInfo) {#introduceclientasync_2}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection, 
@@ -90,7 +90,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | clientIdentificationInfo | ImapIdentificationInfo | Идентификационная информация клиента |
 
 ### Возвращаемое значение
@@ -109,7 +109,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 
 ## IntroduceClientAsync(CancellationToken) {#introduceclientasync_7}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public Task<ImapIdentificationInfo> IntroduceClientAsync(CancellationToken token)
@@ -134,7 +134,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(CancellationToken token
 
 ## IntroduceClientAsync(IConnection, CancellationToken) {#introduceclientasync_4}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection, 
@@ -143,7 +143,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -162,7 +162,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 
 ## IntroduceClientAsync(ImapIdentificationInfo, CancellationToken) {#introduceclientasync_6}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public Task<ImapIdentificationInfo> IntroduceClientAsync(
@@ -172,7 +172,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | clientIdentificationInfo | ImapIdentificationInfo | Идентификационная информация клиента |
-| token | CancellationToken | Распространяет уведомление об операциях следует отменить. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 
@@ -189,7 +189,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(
 
 ## IntroduceClientAsync(IConnection, ImapIdentificationInfo, CancellationToken) {#introduceclientasync_3}
 
-Вводит информацию о клиенте на сервер.
+Представляет информацию о клиенте серверу.
 
 ```csharp
 public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection, 
@@ -198,7 +198,7 @@ public Task<ImapIdentificationInfo> IntroduceClientAsync(IConnection connection,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | clientIdentificationInfo | ImapIdentificationInfo | Идентификационная информация клиента |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 

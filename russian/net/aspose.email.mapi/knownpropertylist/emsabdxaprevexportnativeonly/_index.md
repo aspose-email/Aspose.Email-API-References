@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaPrevExportNativeOnly
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_PREV_EXPORT_NATIVE_ONLY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_PREV_EXPORT_NATIVE_ONLY
 type: docs
 weight: 5830
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxaprevexportnativeonly/
 ---
 ## KnownPropertyList.EmsAbDxaPrevExportNativeOnly field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_PREV_EXPORT_NATIVE_ONLY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_PREV_EXPORT_NATIVE_ONLY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaPrevExportNativeOnly;

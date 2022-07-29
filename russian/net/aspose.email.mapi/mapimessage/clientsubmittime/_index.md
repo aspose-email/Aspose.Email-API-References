@@ -1,14 +1,14 @@
 ---
 title: ClientSubmitTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает дату и время отправитель сообщения отправил сообщение.
+description: Получает или задает дату и время отправки сообщения отправителем.
 type: docs
 weight: 70
 url: /ru/net/aspose.email.mapi/mapimessage/clientsubmittime/
 ---
 ## MapiMessage.ClientSubmitTime property
 
-Получает или устанавливает дату и время отправитель сообщения отправил сообщение.
+Получает или задает дату и время отправки сообщения отправителем.
 
 ```csharp
 public DateTime ClientSubmitTime { get; set; }

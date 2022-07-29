@@ -1,14 +1,14 @@
 ---
 title: DisplayTo
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список отображаемых имен основных получателей разделенных точкой с запятой если сообщение электронной почты имеет основных получателей. ОбластьСвойства сообщения Каноническое имяPidTagDisplayTo Альтернативные именаPR_DISPLAY_TO PR_DISPLAY_TO_A ptagDisplayTo PR_DISPLAY_TO_W
+description: Содержит список отображаемых имен основных получателей разделенных точкой с запятой если у сообщения электронной почты есть основные получатели. Область Свойства сообщения Каноническое имя PidTagDisplayTo Альтернативные имена PR_DISPLAY_TO PR_DISPLAY_TO_A ptagDisplayTo PR_DISPLAY_TO_W
 type: docs
 weight: 4160
 url: /ru/net/aspose.email.mapi/knownpropertylist/displayto/
 ---
 ## KnownPropertyList.DisplayTo field
 
-Содержит список отображаемых имен основных получателей, разделенных точкой с запятой, если сообщение электронной почты имеет основных получателей. Область:Свойства сообщения Каноническое имя:PidTagDisplayTo Альтернативные имена:PR_DISPLAY_TO, PR_DISPLAY_TO_A, ptagDisplayTo, PR_DISPLAY_TO_W
+Содержит список отображаемых имен основных получателей, разделенных точкой с запятой, если у сообщения электронной почты есть основные получатели. Область: Свойства сообщения Каноническое имя: PidTagDisplayTo Альтернативные имена: PR_DISPLAY_TO, PR_DISPLAY_TO_A, ptagDisplayTo, PR_DISPLAY_TO_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayTo;

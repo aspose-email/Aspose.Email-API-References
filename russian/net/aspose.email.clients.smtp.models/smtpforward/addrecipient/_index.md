@@ -1,14 +1,14 @@
 ---
 title: AddRecipient
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавить получателя пересылаемого сообщения.
+description: Добавить получателя переадресованного сообщения.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.smtp.models/smtpforward/addrecipient/
 ---
 ## AddRecipient(string) {#addrecipient_1}
 
-Добавить получателя пересылаемого сообщения.
+Добавить получателя переадресованного сообщения.
 
 ```csharp
 public SmtpForward AddRecipient(string recipient)
@@ -24,7 +24,7 @@ public SmtpForward AddRecipient(string recipient)
 
 ## AddRecipient(MailAddress) {#addrecipient}
 
-Добавить получателя пересылаемого сообщения.
+Добавить получателя переадресованного сообщения.
 
 ```csharp
 public SmtpForward AddRecipient(MailAddress recipient)

@@ -1,14 +1,14 @@
 ---
 title: FetchNotebook
 second_title: Справочник по Aspose.Email для .NET API
-description: Получить свойства и отношения объекта блокнота. Разрешения Для вызова этого API требуется одно из следующих разрешений. Делегировано рабочая или учебная учетная запись Notes.Create Notes.Read Notes.ReadWrite Notes.Read.All Notes.ReadWrite.All Делегировано личная учетная запись Microsoft Notes.Create Notes.Read Notes.ReadWrite Application Notes.Read.All Notes.ReadWrite.All
+description: Получение свойств и взаимосвязей объекта блокнота. Разрешения Для вызова этого API требуется одно из следующих разрешений. Делегировано рабочая или учебная учетная запись Notes.Create Notes.Read Notes.ReadWrite Notes.Read.All  Notes.ReadWrite.All Делегированный личная учетная запись Microsoft Notes.Create Notes.Read Notes.ReadWrite Application Notes.Read.All Notes.ReadWrite.All
 type: docs
 weight: 230
 url: /ru/net/aspose.email.clients.graph/igraphclient/fetchnotebook/
 ---
 ## IGraphClient.FetchNotebook method
 
-Получить свойства и отношения объекта блокнота. Разрешения Для вызова этого API требуется одно из следующих разрешений. Делегировано (рабочая или учебная учетная запись) Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All, Notes.ReadWrite.All Делегировано (личная учетная запись Microsoft) Notes.Create, Notes.Read, Notes.ReadWrite Application Notes.Read.All, Notes.ReadWrite.All
+Получение свойств и взаимосвязей объекта блокнота. Разрешения Для вызова этого API требуется одно из следующих разрешений. Делегировано (рабочая или учебная учетная запись) Notes.Create, Notes.Read, Notes.ReadWrite, Notes.Read.All , Notes.ReadWrite.All Делегированный (личная учетная запись Microsoft) Notes.Create, Notes.Read, Notes.ReadWrite Application Notes.Read.All, Notes.ReadWrite.All
 
 ```csharp
 public Notebook FetchNotebook(string itemId)
@@ -20,7 +20,7 @@ public Notebook FetchNotebook(string itemId)
 
 ### Возвращаемое значение
 
-Объект блокнота
+Блокнот объект
 
 ### Смотрите также
 

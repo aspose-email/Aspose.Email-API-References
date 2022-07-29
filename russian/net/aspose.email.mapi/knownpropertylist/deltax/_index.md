@@ -1,14 +1,14 @@
 ---
 title: Deltax
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DELTAX
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DELTAX
 type: docs
 weight: 3970
 url: /ru/net/aspose.email.mapi/knownpropertylist/deltax/
 ---
 ## KnownPropertyList.Deltax field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DELTAX
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DELTAX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Deltax;

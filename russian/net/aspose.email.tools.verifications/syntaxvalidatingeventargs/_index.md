@@ -3,7 +3,7 @@ title: SyntaxValidatingEventArgs
 second_title: Справочник по Aspose.Email для .NET API
 description: Предоставляет данные для события SyntaxValidating.
 type: docs
-weight: 20780
+weight: 20830
 url: /ru/net/aspose.email.tools.verifications/syntaxvalidatingeventargs/
 ---
 ## SyntaxValidatingEventArgs class
@@ -24,9 +24,9 @@ public class SyntaxValidatingEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [Mail](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/mail) { get; } | Получает проверяемый почтовый адрес. |
+| [Mail](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/mail) { get; } | Получает почтовый адрес, который проверяется. |
 | [Result](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/result) { get; set; } | Получает или задает результат проверки. |
-| [Skip](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/skip) { get; set; } | Указывает, игнорировать ли проверку. |
+| [Skip](../../aspose.email.tools.verifications/syntaxvalidatingeventargs/skip) { get; set; } | Указывает, следует ли игнорировать проверку. |
 
 ### Смотрите также
 

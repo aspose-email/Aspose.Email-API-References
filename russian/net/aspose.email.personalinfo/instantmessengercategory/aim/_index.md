@@ -1,14 +1,14 @@
 ---
 title: AIM
 second_title: Справочник по Aspose.Email для .NET API
-description: AIM
+description: ЦЕЛЬ
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo/instantmessengercategory/aim/
 ---
 ## InstantMessengerCategory.AIM property
 
-AIM
+ЦЕЛЬ
 
 ```csharp
 public static InstantMessengerCategory AIM { get; }

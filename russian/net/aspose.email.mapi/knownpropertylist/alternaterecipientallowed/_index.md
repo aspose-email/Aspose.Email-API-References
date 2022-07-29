@@ -1,14 +1,14 @@
 ---
 title: AlternateRecipientAllowed
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает разрешает ли отправитель автоматическую пересылку сообщения. ОбластьСвойства адреса Каноническое имяPidTagAlternateRecipientAllowed Альтернативные именаPR_ALTERNATE_RECIPIENT_ALLOWED ptagAlternateRecipientAllowed
+description: Указывает разрешает ли отправитель автоматическую переадресацию сообщения.
 type: docs
 weight: 1070
 url: /ru/net/aspose.email.mapi/knownpropertylist/alternaterecipientallowed/
 ---
 ## KnownPropertyList.AlternateRecipientAllowed field
 
-Указывает, разрешает ли отправитель автоматическую пересылку сообщения. Область:Свойства адреса Каноническое имя:PidTagAlternateRecipientAllowed Альтернативные имена:PR_ALTERNATE_RECIPIENT_ALLOWED, ptagAlternateRecipientAllowed
+Указывает, разрешает ли отправитель автоматическую переадресацию сообщения.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AlternateRecipientAllowed;

@@ -17,8 +17,8 @@ public Task<string[]> GetServerTimeZoneIdsAsync(IEnumerable<string> timeZoneIds,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| timeZoneIds | IEnumerable`1 | Идентификаторы часовых поясов для проверки существования на сервере. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| timeZoneIds | IEnumerable`1 | Идентификаторы часовых поясов для проверки наличия на сервере. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

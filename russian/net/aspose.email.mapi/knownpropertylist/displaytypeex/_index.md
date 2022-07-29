@@ -1,14 +1,14 @@
 ---
 title: DisplayTypeEx
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит целочисленное значение указывающее как отображать объект адресной книги в таблице или в качестве получателя сообщения. ОбластьMapiAddressBook Каноническое имяPidTagDisplayTypeEx Альтернативные именаPR_DISPLAY_TYPE_EX
+description: Содержит целочисленное значение указывающее как отображать объект адресной книги в таблице или в качестве получателя сообщения. Область MapiAddressBook Каноническое имя PidTagDisplayTypeEx Альтернативные имена PR_DISPLAY_TYPE_EX
 type: docs
 weight: 4180
 url: /ru/net/aspose.email.mapi/knownpropertylist/displaytypeex/
 ---
 ## KnownPropertyList.DisplayTypeEx field
 
-Содержит целочисленное значение, указывающее, как отображать объект адресной книги в таблице или в качестве получателя сообщения. Область:MapiAddressBook Каноническое имя:PidTagDisplayTypeEx Альтернативные имена:PR_DISPLAY_TYPE_EX
+Содержит целочисленное значение, указывающее, как отображать объект адресной книги в таблице или в качестве получателя сообщения. Область: MapiAddressBook Каноническое имя: PidTagDisplayTypeEx Альтернативные имена: PR_DISPLAY_TYPE_EX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DisplayTypeEx;

@@ -16,7 +16,7 @@ public void CopyTo(PropertyDescriptor[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | PropertyDescriptor[] | Одномерный System.Array, который является местом назначения элементов, скопированных из System.Collections.Generic.ICollection. System.Array должен иметь индексацию с отсчетом от нуля. |
+| array | PropertyDescriptor[] | Одномерный массив System.Array, который является местом назначения элементов, скопированных из System.Collections.Generic.ICollection. System.Array должен иметь индексацию с отсчетом от нуля. |
 | arrayIndex | Int32 | Отсчитываемый от нуля индекс в массиве, с которого начинается копирование. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_FLAGS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_FLAGS
 type: docs
 weight: 5700
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxaflags/
 ---
 ## KnownPropertyList.EmsAbDxaFlags field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_FLAGS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaFlags;

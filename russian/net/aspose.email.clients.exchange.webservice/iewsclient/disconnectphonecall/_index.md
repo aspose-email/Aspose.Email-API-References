@@ -1,14 +1,14 @@
 ---
 title: DisconnectPhoneCall
 second_title: Справочник по Aspose.Email для .NET API
-description: Разъединяет телефонный звонок указанный идентификатором.
+description: Разъединяет телефонный звонок указанный id.
 type: docs
 weight: 670
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/disconnectphonecall/
 ---
 ## IEWSClient.DisconnectPhoneCall method
 
-Разъединяет телефонный звонок, указанный идентификатором.
+Разъединяет телефонный звонок, указанный id.
 
 ```csharp
 public void DisconnectPhoneCall(string callId)

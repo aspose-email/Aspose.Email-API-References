@@ -1,14 +1,14 @@
 ---
 title: ImAddress3
 second_title: Справочник по Aspose.Email для .NET API
-description: ImAddress3 тип мессенджера
+description: Мессенджер ImAddress3 kind
 type: docs
 weight: 80
 url: /ru/net/aspose.email.personalinfo/instantmessengercategory/imaddress3/
 ---
 ## InstantMessengerCategory.ImAddress3 property
 
-ImAddress3 тип мессенджера
+Мессенджер ImAddress3 kind
 
 ```csharp
 public static InstantMessengerCategory ImAddress3 { get; }

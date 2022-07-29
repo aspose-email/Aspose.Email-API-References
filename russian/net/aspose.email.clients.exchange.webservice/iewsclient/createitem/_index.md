@@ -20,7 +20,7 @@ public string CreateItem(MapiMessageItemBase item)
 
 ### Возвращаемое значение
 
-Элемент Uri
+Пункт Ури
 
 ### Смотрите также
 
@@ -46,7 +46,7 @@ public string CreateItem(string folderUri, MapiMessageItemBase item)
 
 ### Возвращаемое значение
 
-Элемент Uri
+Пункт Ури
 
 ### Смотрите также
 

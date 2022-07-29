@@ -3,7 +3,7 @@ title: RecipientType
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает тип получателя.
 type: docs
-weight: 20930
+weight: 20980
 url: /ru/net/aspose.email.windows.forms/recipienttype/
 ---
 ## RecipientType enumeration

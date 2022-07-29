@@ -1,14 +1,14 @@
 ---
 title: FormCategorySub
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_FORM_CATEGORY_SUB
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_FORM_CATEGORY_SUB
 type: docs
 weight: 10510
 url: /ru/net/aspose.email.mapi/knownpropertylist/formcategorysub/
 ---
 ## KnownPropertyList.FormCategorySub field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_FORM_CATEGORY_SUB
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_FORM_CATEGORY_SUB
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FormCategorySub;

@@ -1,14 +1,14 @@
 ---
 title: MailPrinter
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMailPrinteraspose.email.printing/mailprinterс настройкой бумаги A4 для размера страницы и поля 05 дюйма. для всех сторон.
+description: Инициализирует новый экземплярMailPrinteraspose.email.printing/mailprinter класс с настройкой бумаги формата A4 для размера страницы и полем 05 дюйма для всех сторон.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.printing/mailprinter/mailprinter/
 ---
 ## MailPrinter() {#constructor}
 
-Инициализирует новый экземпляр класса[`MailPrinter`](../../mailprinter)с настройкой бумаги A4 для размера страницы и поля 0,5 дюйма. для всех сторон.
+Инициализирует новый экземпляр[`MailPrinter`](../../mailprinter) класс с настройкой бумаги формата A4 для размера страницы и полем 0,5 дюйма для всех сторон.
 
 ```csharp
 public MailPrinter()
@@ -24,7 +24,7 @@ public MailPrinter()
 
 ## MailPrinter(IPrintSettingsProvider) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MailPrinter`](../../mailprinter)с использованием заданного поставщика настроек.
+Инициализирует новый экземпляр[`MailPrinter`](../../mailprinter) класс, использующий заданный провайдер настроек.
 
 ```csharp
 public MailPrinter(IPrintSettingsProvider printSettingsProvider)

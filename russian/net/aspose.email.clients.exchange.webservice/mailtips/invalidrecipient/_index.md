@@ -1,14 +1,14 @@
 ---
 title: InvalidRecipient
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее является ли получатель недопустимым.
+description: Получает значение указывающее является ли получатель недействительным.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange.webservice/mailtips/invalidrecipient/
 ---
 ## MailTips.InvalidRecipient property
 
-Получает значение, указывающее, является ли получатель недопустимым.
+Получает значение, указывающее, является ли получатель недействительным.
 
 ```csharp
 public bool InvalidRecipient { get; }

@@ -1,14 +1,14 @@
 ---
 title: EmsAbMonitoringRpcUpdateInterval
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MONITORING_RPC_UPDATE_INTERVAL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MONITORING_RPC_UPDATE_INTERVAL
 type: docs
 weight: 7520
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmonitoringrpcupdateinterval/
 ---
 ## KnownPropertyList.EmsAbMonitoringRpcUpdateInterval field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MONITORING_RPC_UPDATE_INTERVAL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MONITORING_RPC_UPDATE_INTERVAL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMonitoringRpcUpdateInterval;

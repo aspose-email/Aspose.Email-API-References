@@ -1,14 +1,14 @@
 ---
 title: X400EnvelopeType
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_X400_ENVELOPE_TYPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_X400_ENVELOPE_TYPE
 type: docs
 weight: 19650
 url: /ru/net/aspose.email.mapi/knownpropertylist/x400envelopetype/
 ---
 ## KnownPropertyList.X400EnvelopeType field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_X400_ENVELOPE_TYPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_X400_ENVELOPE_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor X400EnvelopeType;

@@ -1,14 +1,14 @@
 ---
 title: RtfCompressed
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит основной текст сообщения в сжатом формате RTF. ОбластьEmail Каноническое имяPidTagRtfCompressed Альтернативные именаPR_RTF_COMPRESSED ptagRTFCompressed
+description: Содержит основной текст сообщения в сжатом формате RTF. Область Email Каноническое имя PidTagRtfCompressed Альтернативные имена PR_RTF_COMPRESSED ptagRTFCompressed
 type: docs
 weight: 16360
 url: /ru/net/aspose.email.mapi/knownpropertylist/rtfcompressed/
 ---
 ## KnownPropertyList.RtfCompressed field
 
-Содержит основной текст сообщения в сжатом формате RTF. Область:Email Каноническое имя:PidTagRtfCompressed Альтернативные имена:PR_RTF_COMPRESSED, ptagRTFCompressed
+Содержит основной текст сообщения в сжатом формате RTF. Область: Email Каноническое имя: PidTagRtfCompressed Альтернативные имена: PR_RTF_COMPRESSED, ptagRTFCompressed
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RtfCompressed;

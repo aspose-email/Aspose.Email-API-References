@@ -1,14 +1,14 @@
 ---
 title: WriteXml
 second_title: Справочник по Aspose.Email для .NET API
-description: Преобразует объект в его XML-представление. Не реализовано для класса ExchangeAdvancedMailQuery.
+description: Преобразует объект в его представление XML. Не реализовано для класса ExchangeAdvancedMailQuery.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/writexml/
 ---
 ## ExchangeAdvancedSyntaxMailQuery.WriteXml method
 
-Преобразует объект в его XML-представление. Не реализовано для класса ExchangeAdvancedMailQuery.
+Преобразует объект в его представление XML. Не реализовано для класса ExchangeAdvancedMailQuery.
 
 ```csharp
 public override void WriteXml(XmlWriter writer)
@@ -16,7 +16,7 @@ public override void WriteXml(XmlWriter writer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| writer | XmlWriter | ПотокXmlWriter, в который сериализуется объект. |
+| writer | XmlWriter | XmlWriter поток, в который сериализуется объект. |
 
 ### Исключения
 

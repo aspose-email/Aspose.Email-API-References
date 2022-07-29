@@ -1,14 +1,14 @@
 ---
 title: ExchDataSchemaCollectionReference
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает массив имен который указывает ожидаемые классы содержимого элементов в папке. ОбластьОбщие Каноническое имяPidNameExchDataSchemaCollectionReference Альтернативные именаurnschemas-microsoft-comexch-dataschema-collection-ref
+description: Задает массив имен указывающих ожидаемые классы содержимого элементов в папке. Область Common Каноническое имя PidNameExchDataSchemaCollectionReference Альтернативные имена urnschemas-microsoft-comexch-dataschema-collection-ref
 type: docs
 weight: 9920
 url: /ru/net/aspose.email.mapi/knownpropertylist/exchdataschemacollectionreference/
 ---
 ## KnownPropertyList.ExchDataSchemaCollectionReference field
 
-Задает массив имен, который указывает ожидаемые классы содержимого элементов в папке. Область:Общие Каноническое имя:PidNameExchDataSchemaCollectionReference Альтернативные имена:urn:schemas-microsoft-com:exch-data:schema-collection-ref
+Задает массив имен, указывающих ожидаемые классы содержимого элементов в папке. Область: Common Каноническое имя: PidNameExchDataSchemaCollectionReference Альтернативные имена: urn:schemas-microsoft-com:exch-data:schema-collection-ref
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ExchDataSchemaCollectionReference;

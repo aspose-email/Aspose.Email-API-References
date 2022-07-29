@@ -1,14 +1,14 @@
 ---
 title: Fax2AddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит строковое значение ФАКС. ОбластьСвойства контакта Каноническое имяPidLidFax2AddressType Альтернативные именаdispidFax2AddrType
+description: Содержит строковое значение ФАКС. Область Свойства контакта Каноническое имя PidLidFax2AddressType Альтернативные имена dispidFax2AddrType
 type: docs
 weight: 10170
 url: /ru/net/aspose.email.mapi/knownpropertylist/fax2addresstype/
 ---
 ## KnownPropertyList.Fax2AddressType field
 
-Содержит строковое значение "ФАКС". Область:Свойства контакта Каноническое имя:PidLidFax2AddressType Альтернативные имена:dispidFax2AddrType
+Содержит строковое значение "ФАКС". Область: Свойства контакта Каноническое имя: PidLidFax2AddressType Альтернативные имена: dispidFax2AddrType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Fax2AddressType;

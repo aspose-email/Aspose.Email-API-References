@@ -1,14 +1,14 @@
 ---
 title: ConvertPersonalStorageToMbox
 second_title: Справочник по Aspose.Email для .NET API
-description: ПреобразуетPersonalStorageaspose.email.storage.pst/personalstorageв формат mbox используя указанный путь.
+description: ПреобразуетPersonalStorageaspose.email.storage.pst/personalstorageв формат mbox используя заданный путь.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage/mailboxconverter/convertpersonalstoragetombox/
 ---
 ## ConvertPersonalStorageToMbox(PersonalStorage, string, MessageAcceptanceCallback) {#convertpersonalstoragetombox_1}
 
-Преобразует[`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage)в формат mbox, используя указанный путь.
+Преобразует[`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage)в формат mbox, используя заданный путь.
 
 ```csharp
 public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage, 
@@ -18,19 +18,19 @@ public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | personalStorage | PersonalStorage | Личное хранилище. |
-| storagePath | String | Путь для сохранения*personalStorage*структуры. |
+| storagePath | String | Путь к спасению*personalStorage* структура к. |
 | acceptanceCallback | MessageAcceptanceCallback | Обратный вызов принятия может быть нулевым. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*personalStorage*равно null. |
-| ArgumentNullException | Если*storagePath*равно null. |
+| ArgumentNullException | Если*personalStorage* нулевой. |
+| ArgumentNullException | Если*storagePath* нулевой. |
 
 ### Примечания
 
-Результирующая папка будет содержать точную копию*personalStorage*например, дерево каталогов будет воссоздано на диске.
+Результирующая папка будет содержать точную копию*personalStorage* например, дерево каталогов будет воссоздано на диске.
 
 ### Смотрите также
 
@@ -44,7 +44,7 @@ public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage,
 
 ## ConvertPersonalStorageToMbox(PersonalStorage, MboxStorageWriter, MessageAcceptanceCallback) {#convertpersonalstoragetombox}
 
-Преобразует[`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage)в формат mbox, используя заданный[`MboxStorageWriter`](../../../aspose.email.storage.mbox/mboxstoragewriter).
+Преобразует[`PersonalStorage`](../../../aspose.email.storage.pst/personalstorage) в формат mbox, используя данный[`MboxStorageWriter`](../../../aspose.email.storage.mbox/mboxstoragewriter) .
 
 ```csharp
 public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage, 
@@ -54,19 +54,19 @@ public static void ConvertPersonalStorageToMbox(PersonalStorage personalStorage,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | personalStorage | PersonalStorage | Личное хранилище. |
-| mboxStorageWriter | MboxStorageWriter | Модуль записи в хранилище mbox. |
+| mboxStorageWriter | MboxStorageWriter | Модуль записи хранилища mbox. |
 | acceptanceCallback | MessageAcceptanceCallback | Обратный вызов принятия может быть нулевым. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*personalStorage*равно null. |
-| ArgumentNullException | Если*mboxStorageWriter*имеет значение null. |
+| ArgumentNullException | Если*personalStorage* нулевой. |
+| ArgumentNullException | Если*mboxStorageWriter* нулевой. |
 
 ### Примечания
 
-Результирующее хранилище mbox будет содержать только одну простую папку входящих сообщений со всеми сообщениями, если вам нужно сохранить исходную структуру хранилища, используйте XXX_метод вместо этого.
+Результирующее хранилище mbox будет содержать только одну обычную папку «Входящие» со всеми сообщениями, если вам нужно сохранить исходную структуру хранилища, используйте вместо этого метод XXX_.
 
 ### Смотрите также
 

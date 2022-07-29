@@ -1,14 +1,14 @@
 ---
 title: ConversationIndex
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает относительную позицию этого сообщения в потоке диалога. ОбластьОбщие свойства сообщения Каноническое имяPidTagConversationIndex Альтернативные именаPR_CONVERSATION_INDEX ptagConversationIndex
+description: Указывает относительное положение этого сообщения в потоке беседы. Область Общие свойства сообщения Каноническое имя PidTagConversationIndex Альтернативные имена PR_CONVERSATION_INDEX ptagConversationIndex
 type: docs
 weight: 3400
 url: /ru/net/aspose.email.mapi/knownpropertylist/conversationindex/
 ---
 ## KnownPropertyList.ConversationIndex field
 
-Указывает относительную позицию этого сообщения в потоке диалога. Область:Общие свойства сообщения Каноническое имя:PidTagConversationIndex Альтернативные имена:PR_CONVERSATION_INDEX, ptagConversationIndex
+Указывает относительное положение этого сообщения в потоке беседы. Область: Общие свойства сообщения Каноническое имя: PidTagConversationIndex Альтернативные имена: PR_CONVERSATION_INDEX, ptagConversationIndex
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ConversationIndex;

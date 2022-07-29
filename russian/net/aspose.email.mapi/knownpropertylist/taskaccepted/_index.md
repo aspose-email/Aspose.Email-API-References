@@ -1,14 +1,14 @@
 ---
 title: TaskAccepted
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает ответил ли ответственный за задачу на запрос задачи для этого объекта задачи. ОбластьЗадачи Каноническое имяPidLidTaskAccepted Альтернативные именаdispidTaskAccepted
+description: Указывает ответил ли ответственный за задачу на запрос задачи для этого объекта Task. Область Tasks Каноническое имя PidLidTaskAccepted Альтернативные имена dispidTaskAccepted
 type: docs
 weight: 18540
 url: /ru/net/aspose.email.mapi/knownpropertylist/taskaccepted/
 ---
 ## KnownPropertyList.TaskAccepted field
 
-Указывает, ответил ли ответственный за задачу на запрос задачи для этого объекта задачи. Область:Задачи Каноническое имя:PidLidTaskAccepted Альтернативные имена:dispidTaskAccepted
+Указывает, ответил ли ответственный за задачу на запрос задачи для этого объекта Task. Область: Tasks Каноническое имя: PidLidTaskAccepted Альтернативные имена: dispidTaskAccepted
 
 ```csharp
 public static readonly PidLidPropertyDescriptor TaskAccepted;

@@ -16,7 +16,7 @@ public static WebDavContactSaveOptions Default { get; }
 
 ### Стоимость имущества
 
-[`WebDavContactSaveOptions`](../../webdavcontactsaveoptions)по умолчанию.
+[`WebDavContactSaveOptions`](../../webdavcontactsaveoptions) по умолчанию.
 
 ### Смотрите также
 

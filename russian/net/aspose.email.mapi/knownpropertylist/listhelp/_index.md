@@ -1,14 +1,14 @@
 ---
 title: ListHelp
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит URI предоставляющий подробную справочную информацию для списка рассылки из которого было отправлено сообщение электронной почты. ОбластьПрочие свойства Каноническое имяPidTagListHelp Альтернативные именаPR_LIST_HELP PR_LIST_HELP_A PR_LIST_HELP_W
+description: Содержит URI предоставляющий подробную справочную информацию для списка рассылки из которого было отправлено сообщение электронной почты. Область Прочие свойства Каноническое имя PidTagListHelp Альтернативные имена PR_LIST_HELP PR_LIST_HELP_A PR_LIST_HELP_W
 type: docs
 weight: 12120
 url: /ru/net/aspose.email.mapi/knownpropertylist/listhelp/
 ---
 ## KnownPropertyList.ListHelp field
 
-Содержит URI, предоставляющий подробную справочную информацию для списка рассылки, из которого было отправлено сообщение электронной почты. Область:Прочие свойства Каноническое имя:PidTagListHelp Альтернативные имена:PR_LIST_HELP, PR_LIST_HELP_A, PR_LIST_HELP_W
+Содержит URI, предоставляющий подробную справочную информацию для списка рассылки, из которого было отправлено сообщение электронной почты. Область: Прочие свойства Каноническое имя: PidTagListHelp Альтернативные имена: PR_LIST_HELP, PR_LIST_HELP_A, PR_LIST_HELP_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ListHelp;

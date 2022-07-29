@@ -1,14 +1,14 @@
 ---
 title: EformsRegistryEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EFORMS_REGISTRY_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EFORMS_REGISTRY_ENTRYID
 type: docs
 weight: 4310
 url: /ru/net/aspose.email.mapi/knownpropertylist/eformsregistryentryid/
 ---
 ## KnownPropertyList.EformsRegistryEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EFORMS_REGISTRY_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EFORMS_REGISTRY_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EformsRegistryEntryid;

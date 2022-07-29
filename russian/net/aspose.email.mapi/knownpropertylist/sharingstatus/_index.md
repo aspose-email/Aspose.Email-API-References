@@ -1,14 +1,14 @@
 ---
 title: SharingStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingStatus Альтернативные именаdispidSharingStatus
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingStatus Альтернативные имена dispidSharingStatus
 type: docs
 weight: 17940
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingstatus/
 ---
 ## KnownPropertyList.SharingStatus field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingStatus Альтернативные имена:dispidSharingStatus
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingStatus Альтернативные имена: dispidSharingStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingStatus;

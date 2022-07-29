@@ -1,14 +1,14 @@
 ---
 title: SharingInitiatorEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagEntryId раздел 2.674 для объекта адресной книги текущего пользователя вошедшего в систему. ОбластьСовместное использование Каноническое имяPidLidSharingInitiatorEntryId Альтернативные именаdispidSharingInitiatorEid
+description: Содержит значение свойства PidTagEntryId раздел 2.674 для объекта адресной книги текущего пользователя вошедшего в систему. Область Sharing Каноническое имя PidLidSharingInitiatorEntryId Альтернативные имена dispidSharingInitiatorEid
 type: docs
 weight: 17530
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharinginitiatorentryid/
 ---
 ## KnownPropertyList.SharingInitiatorEntryId field
 
-Содержит значение свойства PidTagEntryId (раздел 2.674) для объекта адресной книги текущего пользователя, вошедшего в систему. Область:Совместное использование Каноническое имя:PidLidSharingInitiatorEntryId Альтернативные имена:dispidSharingInitiatorEid
+Содержит значение свойства PidTagEntryId (раздел 2.674) для объекта адресной книги текущего пользователя, вошедшего в систему. Область: Sharing Каноническое имя: PidLidSharingInitiatorEntryId Альтернативные имена: dispidSharingInitiatorEid
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingInitiatorEntryId;

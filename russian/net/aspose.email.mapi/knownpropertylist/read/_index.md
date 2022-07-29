@@ -1,14 +1,14 @@
 ---
 title: Read
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает было ли прочитано сообщение. ОбластьMapiNonTransmittable Набор свойств Каноническое имяPidTagRead Альтернативные именаPR_READ ptagRead urnschemashttpmailread
+description: Указывает было ли сообщение прочитано. Область свойство MapiNonTransmittable set Каноническое имя PidTagRead Альтернативные имена PR_READ ptagRead urnschemashttpmailread
 type: docs
 weight: 15180
 url: /ru/net/aspose.email.mapi/knownpropertylist/read/
 ---
 ## KnownPropertyList.Read field
 
-Указывает, было ли прочитано сообщение. Область:MapiNonTransmittable Набор свойств Каноническое имя:PidTagRead Альтернативные имена:PR_READ, ptagRead, urn:schemas:httpmail:read
+Указывает, было ли сообщение прочитано. Область: свойство MapiNonTransmittable set Каноническое имя: PidTagRead Альтернативные имена: PR_READ, ptagRead, urn:schemas:httpmail:read
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Read;

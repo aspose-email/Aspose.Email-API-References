@@ -1,14 +1,14 @@
 ---
 title: DayOfMonth
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет день месяца для встречи или встречи. ОбластьКалендарь Каноническое имяPidLidDayOfMonth Альтернативные имена
+description: Определяет день месяца для встречи или встречи. Область Calendar Каноническое имя PidLidDayOfMonth Альтернативные имена
 type: docs
 weight: 3700
 url: /ru/net/aspose.email.mapi/knownpropertylist/dayofmonth/
 ---
 ## KnownPropertyList.DayOfMonth field
 
-Определяет день месяца для встречи или встречи. Область:Календарь Каноническое имя:PidLidDayOfMonth Альтернативные имена:
+Определяет день месяца для встречи или встречи. Область: Calendar Каноническое имя: PidLidDayOfMonth Альтернативные имена:
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DayOfMonth;

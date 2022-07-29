@@ -3,7 +3,7 @@ title: MapiMessageReader
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет средство чтения которое может читать документ формата сообщения Microsoft Outlook.
 type: docs
-weight: 18470
+weight: 18500
 url: /ru/net/aspose.email.mapi/mapimessagereader/
 ---
 ## MapiMessageReader class
@@ -27,7 +27,7 @@ public sealed class MapiMessageReader : IDisposable
 | --- | --- |
 | [Dispose](../../aspose.email.mapi/mapimessagereader/dispose)() | Освобождает неуправляемые ресурсы, используемые MapiMessageReader. |
 | [ReadAttachments](../../aspose.email.mapi/mapimessagereader/readattachments)() | Извлекает вложение из файлов сообщений Outlook. |
-| [ReadMessage](../../aspose.email.mapi/mapimessagereader/readmessage)() | Анализирует текущий поток и возвращает данные как MapiMessage. |
+| [ReadMessage](../../aspose.email.mapi/mapimessagereader/readmessage)() | Анализирует текущий поток и возвращает данные в виде сообщения MapiMessage. |
 
 ### Смотрите также
 

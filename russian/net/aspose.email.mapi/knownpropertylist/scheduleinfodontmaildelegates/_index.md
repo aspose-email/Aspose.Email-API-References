@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoDontMailDelegates
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение установленное клиентом в TRUE независимо от ввода пользователя. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoDontMailDelegates Альтернативные именаPR_SCHDINFO_DONT_MAIL_DELEGATES
+description: Содержит значение установленное клиентом в TRUE независимо от ввода пользователя. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoDontMailDelegates Альтернативные имена PR_SCHDINFO_DONT_MAIL_DELEGATES
 type: docs
 weight: 16800
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfodontmaildelegates/
 ---
 ## KnownPropertyList.ScheduleInfoDontMailDelegates field
 
-Содержит значение, установленное клиентом в TRUE, независимо от ввода пользователя. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoDontMailDelegates Альтернативные имена:PR_SCHDINFO_DONT_MAIL_DELEGATES
+Содержит значение, установленное клиентом в TRUE, независимо от ввода пользователя. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoDontMailDelegates Альтернативные имена: PR_SCHDINFO_DONT_MAIL_DELEGATES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDontMailDelegates;

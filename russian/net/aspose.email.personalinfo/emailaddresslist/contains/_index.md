@@ -16,7 +16,7 @@ public bool Contains(EmailAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | EmailAddress | Объект для поиска в списке. |
+| value | EmailAddress | Объект, который нужно найти в списке. |
 
 ### Возвращаемое значение
 

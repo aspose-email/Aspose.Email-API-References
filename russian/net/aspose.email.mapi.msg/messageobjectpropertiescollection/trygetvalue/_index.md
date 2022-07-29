@@ -20,7 +20,7 @@ public MessageObjectProperty TryGetValue(long propertyTag)
 
 ### Возвращаемое значение
 
-[`MessageObjectProperty`](../../messageobjectproperty)объект, если операция выполнена успешно, иначе null.
+[`MessageObjectProperty`](../../messageobjectproperty) объект, если операция выполнена успешно, иначе null.
 
 ### Смотрите также
 

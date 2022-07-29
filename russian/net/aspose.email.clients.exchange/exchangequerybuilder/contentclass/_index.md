@@ -16,7 +16,7 @@ public StringComparisonField ContentClass { get; }
 
 ### Стоимость имущества
 
-[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield), представляющий класс содержимого.
+[`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield) который представляет класс контента.
 
 ### Смотрите также
 

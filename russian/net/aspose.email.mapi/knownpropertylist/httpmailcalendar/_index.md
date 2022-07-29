@@ -1,14 +1,14 @@
 ---
 title: HttpmailCalendar
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает URL-адрес папки календаря для конкретного пользователя. ОбластьОбщие Каноническое имяPidNameHttpmailCalendar Альтернативные именаurnschemashttpmailcalendar
+description: Указывает URL-адрес папки календаря для конкретного пользователя. Область Common Каноническое имя PidNameHttpmailCalendar Альтернативные имена urnschemashttpmailcalendar
 type: docs
 weight: 11110
 url: /ru/net/aspose.email.mapi/knownpropertylist/httpmailcalendar/
 ---
 ## KnownPropertyList.HttpmailCalendar field
 
-Указывает URL-адрес папки календаря для конкретного пользователя. Область:Общие Каноническое имя:PidNameHttpmailCalendar Альтернативные имена:urn:schemas:httpmail:calendar
+Указывает URL-адрес папки календаря для конкретного пользователя. Область: Common Каноническое имя: PidNameHttpmailCalendar Альтернативные имена: urn:schemas:httpmail:calendar
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HttpmailCalendar;

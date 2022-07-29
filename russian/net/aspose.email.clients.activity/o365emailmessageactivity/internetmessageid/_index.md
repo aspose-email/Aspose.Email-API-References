@@ -1,14 +1,14 @@
 ---
 title: InternetMessageId
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентификатор интернет-сообщения. ОбязательноДа
+description: Идентификатор интернет-сообщения. Обязательно Да
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.activity/o365emailmessageactivity/internetmessageid/
 ---
 ## O365EmailMessageActivity.InternetMessageId property
 
-Идентификатор интернет-сообщения. Обязательно:Да
+Идентификатор интернет-сообщения. Обязательно: Да
 
 ```csharp
 public string InternetMessageId { get; set; }

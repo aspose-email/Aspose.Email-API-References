@@ -16,7 +16,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| writer | XmlWriter | ПотокXmlWriter, в который сериализуется объект. |
+| writer | XmlWriter | XmlWriter поток, в который сериализуется объект. |
 
 ### Смотрите также
 

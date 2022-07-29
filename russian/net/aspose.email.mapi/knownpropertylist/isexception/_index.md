@@ -1,14 +1,14 @@
 ---
 title: IsException
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает представляет ли объект исключение включая потерянный экземпляр. ОбластьВстречи Каноническое имяPidLidIsException Альтернативные именаLID_IS_EXCEPTION
+description: Указывает представляет ли объект исключение включая потерянный экземпляр. Область Meetings Каноническое имя PidLidIsException Альтернативные имена LID_IS_EXCEPTION
 type: docs
 weight: 11820
 url: /ru/net/aspose.email.mapi/knownpropertylist/isexception/
 ---
 ## KnownPropertyList.IsException field
 
-Указывает, представляет ли объект исключение (включая потерянный экземпляр). Область:Встречи Каноническое имя:PidLidIsException Альтернативные имена:LID_IS_EXCEPTION
+Указывает, представляет ли объект исключение (включая потерянный экземпляр). Область: Meetings Каноническое имя: PidLidIsException Альтернативные имена: LID_IS_EXCEPTION
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IsException;

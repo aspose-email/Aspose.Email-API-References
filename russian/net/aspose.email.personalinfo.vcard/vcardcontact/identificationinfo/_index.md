@@ -1,14 +1,14 @@
 ---
 title: IdentificationInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает свойства идентификации
+description: Получает или задает идентификационные свойства
 type: docs
 weight: 80
 url: /ru/net/aspose.email.personalinfo.vcard/vcardcontact/identificationinfo/
 ---
 ## VCardContact.IdentificationInfo property
 
-Получает или устанавливает свойства идентификации
+Получает или задает идентификационные свойства
 
 ```csharp
 public VCardIdentificationInfo IdentificationInfo { get; set; }

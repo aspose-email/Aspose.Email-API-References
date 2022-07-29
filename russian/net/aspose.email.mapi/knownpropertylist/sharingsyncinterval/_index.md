@@ -1,14 +1,14 @@
 ---
 title: SharingSyncInterval
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidLidSharingSyncInterval Альтернативные именаdispidSharingSyncInterval
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingSyncInterval Альтернативные имена dispidSharingSyncInterval
 type: docs
 weight: 17970
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingsyncinterval/
 ---
 ## KnownPropertyList.SharingSyncInterval field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidLidSharingSyncInterval Альтернативные имена:dispidSharingSyncInterval
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingSyncInterval Альтернативные имена: dispidSharingSyncInterval
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingSyncInterval;

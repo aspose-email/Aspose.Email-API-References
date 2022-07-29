@@ -1,14 +1,14 @@
 ---
 title: KeyWords
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает категории объекта календаря
+description: Получает или задает категории календаря object
 type: docs
 weight: 100
 url: /ru/net/aspose.email.mapi/mapicalendar/keywords/
 ---
 ## MapiCalendar.KeyWords property
 
-Получает или задает категории объекта календаря
+Получает или задает категории календаря object
 
 ```csharp
 public string KeyWords { get; set; }

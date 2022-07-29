@@ -1,14 +1,14 @@
 ---
 title: ExtendedRuleMessageActions
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит информацию о действиях с именованными свойствами используемыми в правиле. ОбластьПравила Каноническое имяPidTagExtendedRuleMessageActions Альтернативные именаPR_EXTENDED_RULE_MSG_ACTIONS
+description: Содержит информацию о действиях с именованными свойствами используемыми в правиле. Область Rules Каноническое имя PidTagExtendedRuleMessageActions Альтернативные имена PR_EXTENDED_RULE_MSG_ACTIONS
 type: docs
 weight: 10010
 url: /ru/net/aspose.email.mapi/knownpropertylist/extendedrulemessageactions/
 ---
 ## KnownPropertyList.ExtendedRuleMessageActions field
 
-Содержит информацию о действиях с именованными свойствами, используемыми в правиле. Область:Правила Каноническое имя:PidTagExtendedRuleMessageActions Альтернативные имена:PR_EXTENDED_RULE_MSG_ACTIONS
+Содержит информацию о действиях с именованными свойствами, используемыми в правиле. Область: Rules Каноническое имя: PidTagExtendedRuleMessageActions Альтернативные имена: PR_EXTENDED_RULE_MSG_ACTIONS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExtendedRuleMessageActions;

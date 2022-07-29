@@ -16,8 +16,8 @@ public Task UpdateContactAsync(Contact contact, CancellationToken cancellationTo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| contact | Contact | Элемент контакта. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| contact | Contact | Контактный пункт. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Смотрите также
 

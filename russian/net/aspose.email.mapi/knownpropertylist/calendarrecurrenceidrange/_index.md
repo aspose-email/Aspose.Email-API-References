@@ -1,14 +1,14 @@
 ---
 title: CalendarRecurrenceIdRange
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает на какие экземпляры повторяющейся встречи ссылаются. ОбластьОбщие Каноническое имяPidNameCalendarRecurrenceIdRange Альтернативные именаurnschemascalendarrecurrenceidrange
+description: Указывает на какие экземпляры повторяющейся встречи ссылаются. Область Common Каноническое имя PidNameCalendarRecurrenceIdRange Альтернативные имена urnschemascalendarrecurrenceidrange
 type: docs
 weight: 2360
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarrecurrenceidrange/
 ---
 ## KnownPropertyList.CalendarRecurrenceIdRange field
 
-Указывает, на какие экземпляры повторяющейся встречи ссылаются. Область:Общие Каноническое имя:PidNameCalendarRecurrenceIdRange Альтернативные имена:urn:schemas:calendar:recurrenceidrange
+Указывает, на какие экземпляры повторяющейся встречи ссылаются. Область: Common Каноническое имя: PidNameCalendarRecurrenceIdRange Альтернативные имена: urn:schemas:calendar:recurrenceidrange
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarRecurrenceIdRange;

@@ -3,7 +3,7 @@ title: UrlCategory
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет категорию для URL
 type: docs
-weight: 19510
+weight: 19540
 url: /ru/net/aspose.email.personalinfo/urlcategory/
 ---
 ## UrlCategory class
@@ -18,7 +18,7 @@ public class UrlCategory : IEquatable<UrlCategory>
 
 | Имя | Описание |
 | --- | --- |
-| [UrlCategory](urlcategory)(string) | Инициализирует новый экземпляр класса[`UrlCategory`](../urlcategory)с категорией Custom. |
+| [UrlCategory](urlcategory)(string) | Инициализирует новый экземпляр[`UrlCategory`](../urlcategory) класс с категорией «Пользовательский». |
 
 ## Характеристики
 
@@ -27,11 +27,11 @@ public class UrlCategory : IEquatable<UrlCategory>
 | static [Blog](../../aspose.email.personalinfo/urlcategory/blog) { get; } | URL блога |
 | static [Custom](../../aspose.email.personalinfo/urlcategory/custom) { get; } | URL пользовательской страницы |
 | static [Ftp](../../aspose.email.personalinfo/urlcategory/ftp) { get; } | URL-адрес FTP |
-| static [Home](../../aspose.email.personalinfo/urlcategory/home) { get; } | Домашний сайт Контакта. |
+| static [Home](../../aspose.email.personalinfo/urlcategory/home) { get; } | Домашний сайт контакта. |
 | static [HomePage](../../aspose.email.personalinfo/urlcategory/homepage) { get; } | URL домашней страницы |
-| static [Profile](../../aspose.email.personalinfo/urlcategory/profile) { get; } | URL профиля |
+| static [Profile](../../aspose.email.personalinfo/urlcategory/profile) { get; } | URL-адрес профиля |
 | static [Work](../../aspose.email.personalinfo/urlcategory/work) { get; } | Рабочий сайт контакта. |
-| [Description](../../aspose.email.personalinfo/urlcategory/description) { get; } | Получает описание категории "Пользовательский" URL-адреса |
+| [Description](../../aspose.email.personalinfo/urlcategory/description) { get; } | Получает описание категории «Пользовательский» URL |
 | [Value](../../aspose.email.personalinfo/urlcategory/value) { get; } | Получает категорию URL |
 
 ## Методы
@@ -49,13 +49,13 @@ public class UrlCategory : IEquatable<UrlCategory>
 
 | Имя | Описание |
 | --- | --- |
-| const [BlogValue](../../aspose.email.personalinfo/urlcategory/blogvalue) | Строковое значение для категории «Блог» |
+| const [BlogValue](../../aspose.email.personalinfo/urlcategory/blogvalue) | Строковое значение для категории "Блог" |
 | const [CustomValue](../../aspose.email.personalinfo/urlcategory/customvalue) | Строковое значение для категории "Пользовательский" |
-| const [FtpValue](../../aspose.email.personalinfo/urlcategory/ftpvalue) | Строковое значение для категории 'Ftp' |
+| const [FtpValue](../../aspose.email.personalinfo/urlcategory/ftpvalue) | Строковое значение для категории "Ftp" |
 | const [HomePageValue](../../aspose.email.personalinfo/urlcategory/homepagevalue) | Строковое значение для категории «Домашняя страница» |
-| const [HomeValue](../../aspose.email.personalinfo/urlcategory/homevalue) | Строковое значение для категории «Дом» |
+| const [HomeValue](../../aspose.email.personalinfo/urlcategory/homevalue) | Строковое значение для категории "Главная" |
 | const [ProfileValue](../../aspose.email.personalinfo/urlcategory/profilevalue) | Строковое значение для категории «Профиль» |
-| const [WorkValue](../../aspose.email.personalinfo/urlcategory/workvalue) | Строковое значение для категории «Работа» |
+| const [WorkValue](../../aspose.email.personalinfo/urlcategory/workvalue) | Строковое значение для категории "Работа" |
 
 ### Смотрите также
 

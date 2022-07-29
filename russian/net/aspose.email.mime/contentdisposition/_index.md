@@ -3,7 +3,7 @@ title: ContentDisposition
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет заголовок Content-Disposition.
 type: docs
-weight: 19100
+weight: 19130
 url: /ru/net/aspose.email.mime/contentdisposition/
 ---
 ## ContentDisposition class
@@ -18,8 +18,8 @@ public class ContentDisposition
 
 | Имя | Описание |
 | --- | --- |
-| [ContentDisposition](contentdisposition#constructor)() | Инициализирует новый экземпляр класса[`ContentDisposition`](../contentdisposition). |
-| [ContentDisposition](contentdisposition#constructor_1)(string) | Инициализирует новый экземпляр класса[`ContentDisposition`](../contentdisposition). |
+| [ContentDisposition](contentdisposition#constructor)() | Инициализирует новый экземпляр[`ContentDisposition`](../contentdisposition) класс. |
+| [ContentDisposition](contentdisposition#constructor_1)(string) | Инициализирует новый экземпляр[`ContentDisposition`](../contentdisposition) класс. |
 
 ## Характеристики
 
@@ -38,9 +38,9 @@ public class ContentDisposition
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.email.mime/contentdisposition/equals)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.email.mime/contentdisposition/equals)(object) | Определяет, является ли указанныйObject равен этому экземпляру. |
 | override [GetHashCode](../../aspose.email.mime/contentdisposition/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.email.mime/contentdisposition/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.email.mime/contentdisposition/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

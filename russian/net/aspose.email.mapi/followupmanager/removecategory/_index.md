@@ -17,14 +17,14 @@ public static void RemoveCategory(MapiMessage message, string categoryName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | MapiMessage | Сообщение. |
-| categoryName | String | Имя категории. |
+| categoryName | String | Название категории. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
-| ArgumentException | Если*categoryName*равно null или пусто. |
+| ArgumentNullException | Если*message* нулевой. |
+| ArgumentException | Если*categoryName* является нулевым или пустым. |
 
 ### Смотрите также
 

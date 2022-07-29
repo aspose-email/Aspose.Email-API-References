@@ -1,14 +1,14 @@
 ---
 title: VerbStream
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает какие ответы на голосование пользователь может сделать в ответ на сообщение. ОбластьКонфигурация во время выполнения Каноническое имяPidLidVerbStream Альтернативные именаdispidVerbStream
+description: Указывает какие ответы на голосование пользователь может сделать в ответ на сообщение. Область Конфигурация во время выполнения Каноническое имя PidLidVerbStream Альтернативные имена dispidVerbStream
 type: docs
 weight: 19240
 url: /ru/net/aspose.email.mapi/knownpropertylist/verbstream/
 ---
 ## KnownPropertyList.VerbStream field
 
-Указывает, какие ответы на голосование пользователь может сделать в ответ на сообщение. Область:Конфигурация во время выполнения Каноническое имя:PidLidVerbStream Альтернативные имена:dispidVerbStream
+Указывает, какие ответы на голосование пользователь может сделать в ответ на сообщение. Область: Конфигурация во время выполнения Каноническое имя: PidLidVerbStream Альтернативные имена: dispidVerbStream
 
 ```csharp
 public static readonly PidLidPropertyDescriptor VerbStream;

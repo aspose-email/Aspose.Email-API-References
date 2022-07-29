@@ -1,14 +1,14 @@
 ---
 title: Append
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавляет информацию о записи журнала в приложение.
+description: Добавляет информацию о записи журнала в appender.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.tools.logging/fileappender/append/
 ---
 ## Append(LogEntry) {#append}
 
-Добавляет информацию о записи журнала в приложение.
+Добавляет информацию о записи журнала в appender.
 
 ```csharp
 public override void Append(LogEntry logEntry)
@@ -16,7 +16,7 @@ public override void Append(LogEntry logEntry)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| logEntry | LogEntry | Запись журнала. |
+| logEntry | LogEntry | Запись в журнале. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public override void Append(LogEntry logEntry)
 
 ## Append(LogEntry[]) {#append_1}
 
-Добавляет набор записей журнала в приложение.
+Добавляет набор записей журнала в appender.
 
 ```csharp
 public void Append(LogEntry[] logEntries)

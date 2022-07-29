@@ -1,14 +1,14 @@
 ---
 title: Departments
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает отделы
+description: Получает или задает отделы
 type: docs
 weight: 30
 url: /ru/net/aspose.email.personalinfo.vcard/vcardorganization/departments/
 ---
 ## VCardOrganization.Departments property
 
-Получает или устанавливает отделы
+Получает или задает отделы
 
 ```csharp
 public StringCollection Departments { get; set; }

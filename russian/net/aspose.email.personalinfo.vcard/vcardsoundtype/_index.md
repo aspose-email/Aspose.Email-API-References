@@ -3,7 +3,7 @@ title: VCardSoundType
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет типы звуков cVard
 type: docs
-weight: 19710
+weight: 19760
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsoundtype/
 ---
 ## VCardSoundType enumeration
@@ -22,9 +22,9 @@ public enum VCardSoundType
 | WAVE | `1` | Формат волны |
 | PCM | `2` | Базовый аудиотип MIME |
 | AIFF | `3` | Формат AIFF |
-| MPEG | `4` | Аудио в формате mpeg |
+| MPEG | `4` | Аудио в формате MPEG |
 | MP4 | `5` | Аудио в формате mp4 |
-| OGG | `6` | Звук ogg |
+| OGG | `6` | Аудиофайл ogg |
 | WMA | `7` | Аудио Windows Media |
 
 ### Смотрите также

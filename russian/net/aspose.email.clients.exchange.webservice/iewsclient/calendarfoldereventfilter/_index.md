@@ -1,14 +1,14 @@
 ---
 title: CalendarFolderEventFilter
 second_title: Справочник по Aspose.Email для .NET API
-description: Определяет типы событий для папки календаря
+description: Указывает типы событий для папки календаря
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/calendarfoldereventfilter/
 ---
 ## IEWSClient.CalendarFolderEventFilter property
 
-Определяет типы событий для папки календаря
+Указывает типы событий для папки календаря
 
 ```csharp
 public EventTypes CalendarFolderEventFilter { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Errors
 second_title: Справочник по Aspose.Email для .NET API
-description: Необязательные ошибки если вычисление для календаря не удалось.
+description: Дополнительные ошибки если вычисление календаря не удалось.
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.google/freebusycalendarinfo/errors/
 ---
 ## FreebusyCalendarInfo.Errors property
 
-Необязательные ошибки (если вычисление для календаря не удалось).
+Дополнительные ошибки (если вычисление календаря не удалось).
 
 ```csharp
 public List<ErrorDetails> Errors { get; }

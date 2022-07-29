@@ -1,14 +1,14 @@
 ---
 title: ExchangeUserAvailability
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeUserAvailabilityaspose.email.clients.exchange.webservice/exchangeuseravailability.
+description: Инициализирует новый экземплярExchangeUserAvailabilityaspose.email.clients.exchange.webservice/exchangeuseravailability класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangeuseravailability/exchangeuseravailability/
 ---
 ## ExchangeUserAvailability constructor
 
-Инициализирует новый экземпляр класса[`ExchangeUserAvailability`](../../exchangeuseravailability).
+Инициализирует новый экземпляр[`ExchangeUserAvailability`](../../exchangeuseravailability) класс.
 
 ```csharp
 public ExchangeUserAvailability()

@@ -1,14 +1,14 @@
 ---
 title: SortingKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Критерии сортировки для команды СОРТИРОВКА Подробнееhttps//tools.ietf.org/html/rfc5256
+description: Критерии сортировки для команды СОРТИРОВКА Подробнее https//tools.ietf.org/html/rfc5256
 type: docs
 weight: 16730
 url: /ru/net/aspose.email.clients.imap/sortingkey/
 ---
 ## SortingKey enumeration
 
-Критерии сортировки для команды "СОРТИРОВКА" Подробнее:https://tools.ietf.org/html/rfc5256
+Критерии сортировки для команды "СОРТИРОВКА" Подробнее: https://tools.ietf.org/html/rfc5256
 
 ```csharp
 [Flags]
@@ -19,7 +19,7 @@ public enum SortingKey
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Arrival | `1` | По внутренней дате и времени сообщения. Это отличается от критерия ON в SEARCH, который использует только внутреннюю дату. |
+| Arrival | `1` | По внутренней дате и времени сообщения. Это отличается от критерия ON в ПОИСКЕ, который использует только внутреннюю дату. |
 | Cc | `2` | По первому адресу "cc". |
 | Date | `4` | По дате и времени отправки. |
 | From | `8` | По первому адресу "От". |

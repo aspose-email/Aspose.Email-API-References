@@ -1,14 +1,14 @@
 ---
 title: NonSendCcTrackStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение из таблицы ответов. ОбластьОбщие свойства сообщения Каноническое имяPidLidNonSendCcTrackStatus Альтернативные именаdispidNonSendCcTrackStatus
+description: Содержит значение из таблицы ответов. Область Общие свойства сообщения Каноническое имя PidLidNonSendCcTrackStatus Альтернативные имена dispidNonSendCcTrackStatus
 type: docs
 weight: 13050
 url: /ru/net/aspose.email.mapi/knownpropertylist/nonsendcctrackstatus/
 ---
 ## KnownPropertyList.NonSendCcTrackStatus field
 
-Содержит значение из таблицы ответов. Область:Общие свойства сообщения Каноническое имя:PidLidNonSendCcTrackStatus Альтернативные имена:dispidNonSendCcTrackStatus
+Содержит значение из таблицы ответов. Область: Общие свойства сообщения Каноническое имя: PidLidNonSendCcTrackStatus Альтернативные имена: dispidNonSendCcTrackStatus
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NonSendCcTrackStatus;

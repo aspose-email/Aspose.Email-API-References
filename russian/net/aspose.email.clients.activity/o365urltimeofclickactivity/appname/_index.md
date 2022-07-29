@@ -1,14 +1,14 @@
 ---
 title: AppName
 second_title: Справочник по Aspose.Email для .NET API
-description: Служба Office 365 из которой был выбран URL-адрес например Почта. ОбязательноДа
+description: Служба Office 365 из которой был выбран URL-адрес например Почта. Обязательно Да
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activity/o365urltimeofclickactivity/appname/
 ---
 ## O365URLTimeOfClickActivity.AppName property
 
-Служба Office 365, из которой был выбран URL-адрес (например, Почта). Обязательно:Да
+Служба Office 365, из которой был выбран URL-адрес (например, Почта). Обязательно: Да
 
 ```csharp
 public string AppName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CompressSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение COMPRESS Подробнееhttps//tools.ietf.org/html/rfc4978
+description: Получает информацию о том поддерживается ли расширение COMPRESS Подробнее https//tools.ietf.org/html/rfc4978
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.imap/imapclient/compresssupported/
 ---
 ## ImapClient.CompressSupported property
 
-Получает информацию о том, поддерживается ли расширение COMPRESS Подробнее:https://tools.ietf.org/html/rfc4978
+Получает информацию о том, поддерживается ли расширение COMPRESS Подробнее: https://tools.ietf.org/html/rfc4978
 
 ```csharp
 public bool CompressSupported { get; set; }

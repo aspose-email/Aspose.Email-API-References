@@ -3,7 +3,7 @@ title: IFileDropTargetControl
 second_title: Справочник по Aspose.Email для .NET API
 description: Определяет интерфейс для элементов управления которые могут быть целью перетаскивания.
 type: docs
-weight: 20890
+weight: 20940
 url: /ru/net/aspose.email.windows.forms/ifiledroptargetcontrol/
 ---
 ## IFileDropTargetControl interface

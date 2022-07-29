@@ -1,14 +1,14 @@
 ---
 title: Locality
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает местоположение
+description: Получает или задает locality
 type: docs
 weight: 50
 url: /ru/net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/locality/
 ---
 ## VCardDeliveryAddress.Locality property
 
-Получает или задает местоположение
+Получает или задает locality
 
 ```csharp
 public string Locality { get; set; }

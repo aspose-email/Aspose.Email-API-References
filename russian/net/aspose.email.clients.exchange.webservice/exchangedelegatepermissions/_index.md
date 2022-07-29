@@ -1,14 +1,14 @@
 ---
 title: ExchangeDelegatePermissions
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет права доступа к папке для пользователя-делегата
+description: Представляет права доступа к папке для делегата user
 type: docs
 weight: 3780
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/
 ---
 ## ExchangeDelegatePermissions class
 
-Представляет права доступа к папке для пользователя-делегата
+Представляет права доступа к папке для делегата user
 
 ```csharp
 public class ExchangeDelegatePermissions
@@ -18,18 +18,18 @@ public class ExchangeDelegatePermissions
 
 | Имя | Описание |
 | --- | --- |
-| [ExchangeDelegatePermissions](exchangedelegatepermissions)() | Инициализирует новый экземпляр класса[`ExchangeDelegatePermissions`](../exchangedelegatepermissions) |
+| [ExchangeDelegatePermissions](exchangedelegatepermissions)() | Инициализирует новый экземпляр[`ExchangeDelegatePermissions`](../exchangedelegatepermissions) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [CalendarFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/calendarfolderpermissionlevel) { get; set; } | Получает или задает разрешения, которые делегированный пользователь имеет в папке календаря по умолчанию |
-| [ContactsFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/contactsfolderpermissionlevel) { get; set; } | Получает или устанавливает разрешения, которые делегированный пользователь имеет в папке контактов по умолчанию |
+| [ContactsFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/contactsfolderpermissionlevel) { get; set; } | Получает или задает разрешения, которые делегированный пользователь имеет в папке контактов по умолчанию |
 | [InboxFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/inboxfolderpermissionlevel) { get; set; } | Получает или задает разрешения, которые делегированный пользователь имеет в папке «Входящие» по умолчанию |
-| [JournalFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/journalfolderpermissionlevel) { get; set; } | Получает или устанавливает разрешения, которые делегированный пользователь имеет в папке журнала по умолчанию |
-| [NotesFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/notesfolderpermissionlevel) { get; set; } | Получает или устанавливает разрешения, которые делегированный пользователь имеет в папке Notes по умолчанию |
-| [TasksFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/tasksfolderpermissionlevel) { get; set; } | Получает или устанавливает разрешения, которые делегированный пользователь имеет в папке задач по умолчанию |
+| [JournalFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/journalfolderpermissionlevel) { get; set; } | Получает или задает разрешения, которые делегированный пользователь имеет для папки журнала по умолчанию |
+| [NotesFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/notesfolderpermissionlevel) { get; set; } | Получает или задает разрешения, которые делегированный пользователь имеет для папки Notes по умолчанию |
+| [TasksFolderPermissionLevel](../../aspose.email.clients.exchange.webservice/exchangedelegatepermissions/tasksfolderpermissionlevel) { get; set; } | Получает или задает разрешения, которые делегированный пользователь имеет в папке Tasks по умолчанию |
 
 ## Методы
 

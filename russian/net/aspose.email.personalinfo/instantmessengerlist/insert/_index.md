@@ -16,8 +16,8 @@ public void Insert(int index, InstantMessengerAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить*value*. |
-| value | InstantMessengerAddress | ОбъектObjectдля вставки в список. |
+| index | Int32 | Отсчитываемый от нуля индекс, при котором*value* следует вставить. |
+| value | InstantMessengerAddress | Object вставить в список. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CurrentVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает номер сборки клиентского приложения отправившего сообщение. ОбластьОбщие свойства сообщения Каноническое имяPidLidCurrentVersion Альтернативные именаdispidCurrentVersion
+description: Указывает номер сборки клиентского приложения отправившего сообщение. Область Общие свойства сообщения Каноническое имя PidLidCurrentVersion Альтернативные имена dispidCurrentVersion
 type: docs
 weight: 3590
 url: /ru/net/aspose.email.mapi/knownpropertylist/currentversion/
 ---
 ## KnownPropertyList.CurrentVersion field
 
-Указывает номер сборки клиентского приложения, отправившего сообщение. Область:Общие свойства сообщения Каноническое имя:PidLidCurrentVersion Альтернативные имена:dispidCurrentVersion
+Указывает номер сборки клиентского приложения, отправившего сообщение. Область: Общие свойства сообщения Каноническое имя: PidLidCurrentVersion Альтернативные имена: dispidCurrentVersion
 
 ```csharp
 public static readonly PidLidPropertyDescriptor CurrentVersion;

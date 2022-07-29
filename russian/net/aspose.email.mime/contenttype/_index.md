@@ -3,7 +3,7 @@ title: ContentType
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет заголовок Content-Type.
 type: docs
-weight: 19110
+weight: 19140
 url: /ru/net/aspose.email.mime/contenttype/
 ---
 ## ContentType class
@@ -18,26 +18,26 @@ public class ContentType
 
 | Имя | Описание |
 | --- | --- |
-| [ContentType](contenttype#constructor)() | Инициализирует новый экземпляр класса[`ContentType`](../contenttype). |
-| [ContentType](contenttype#constructor_1)(string) | Инициализирует новый экземпляр класса[`ContentType`](../contenttype). |
+| [ContentType](contenttype#constructor)() | Инициализирует новый экземпляр[`ContentType`](../contenttype) класс. |
+| [ContentType](contenttype#constructor_1)(string) | Инициализирует новый экземпляр[`ContentType`](../contenttype) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Boundary](../../aspose.email.mime/contenttype/boundary) { get; set; } | Получает или задает значение параметра границы , включенного в заголовок Content-Type. |
+| [Boundary](../../aspose.email.mime/contenttype/boundary) { get; set; } | Получает или задает значение граничного параметра , включенного в заголовок Content-Type. |
 | [CharSet](../../aspose.email.mime/contenttype/charset) { get; set; } | Получает или задает значение параметра charset. |
 | [MediaType](../../aspose.email.mime/contenttype/mediatype) { get; set; } | Получает или задает тип интернет-медиа. |
-| [Name](../../aspose.email.mime/contenttype/name) { get; set; } | Получает или задает значение параметра name. |
+| [Name](../../aspose.email.mime/contenttype/name) { get; set; } | Получает или задает значение параметра имени. |
 | [Parameters](../../aspose.email.mime/contenttype/parameters) { get; } | Получает словарь, содержащий параметры. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.email.mime/contenttype/equals)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.email.mime/contenttype/equals)(object) | Определяет, является ли указанныйObject равен этому экземпляру. |
 | override [GetHashCode](../../aspose.email.mime/contenttype/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.email.mime/contenttype/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.email.mime/contenttype/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

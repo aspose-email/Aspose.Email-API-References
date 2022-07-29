@@ -1,14 +1,14 @@
 ---
 title: SearchFolderRecreateInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Это свойство не должно использоваться. ОбластьПоиск Каноническое имяPidTagSearchFolderRecreateInfo Альтернативные именаPR_WB_SF_RECREATE_INFO
+description: Это свойство не должно использоваться. Область Search Каноническое имя PidTagSearchFolderRecreateInfo Альтернативные имена PR_WB_SF_RECREATE_INFO
 type: docs
 weight: 16990
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchfolderrecreateinfo/
 ---
 ## KnownPropertyList.SearchFolderRecreateInfo field
 
-Это свойство не должно использоваться. Область:Поиск Каноническое имя:PidTagSearchFolderRecreateInfo Альтернативные имена:PR_WB_SF_RECREATE_INFO
+Это свойство не должно использоваться. Область: Search Каноническое имя: PidTagSearchFolderRecreateInfo Альтернативные имена: PR_WB_SF_RECREATE_INFO
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderRecreateInfo;

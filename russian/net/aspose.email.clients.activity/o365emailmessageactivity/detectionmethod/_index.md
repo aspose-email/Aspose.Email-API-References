@@ -1,14 +1,14 @@
 ---
 title: DetectionMethod
 second_title: Справочник по Aspose.Email для .NET API
-description: Метод или технология используемые Office 365 ATP для обнаружения. ОбязательноДа
+description: Метод или технология используемые Office 365 ATP для обнаружения. Обязательно Yes
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/o365emailmessageactivity/detectionmethod/
 ---
 ## O365EmailMessageActivity.DetectionMethod property
 
-Метод или технология, используемые Office 365 ATP для обнаружения. Обязательно:Да
+Метод или технология, используемые Office 365 ATP для обнаружения. Обязательно: Yes
 
 ```csharp
 public string DetectionMethod { get; set; }

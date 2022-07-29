@@ -17,17 +17,17 @@ public MessageTrackingReportInfo[] FindMessageTrackingReport(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | FindMessageTrackingReportOptions | Опции, определяющие критерии поиска |
+| options | FindMessageTrackingReportOptions | Параметры, определяющие критерии поиска |
 
 ### Возвращаемое значение
 
-Массив[`MessageTrackingReportInfo`](../../messagetrackingreportinfo), который представляет информацию отчета об отслеживании сообщений
+Массив[`MessageTrackingReportInfo`](../../messagetrackingreportinfo) который представляет отчет об отслеживании сообщений information
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*options*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*options* является`нулевой` |
 
 ### Смотрите также
 

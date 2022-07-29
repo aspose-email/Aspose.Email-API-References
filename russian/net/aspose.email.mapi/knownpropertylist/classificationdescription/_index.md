@@ -1,14 +1,14 @@
 ---
 title: ClassificationDescription
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит удобочитаемую сводку каждой из категорий классификации включенных в свойство PidLidClassification раздел 2.53. ОбластьОбщие свойства сообщения Каноническое имяPidLidClassificationDescription Альтернативные именаdispidClassDesc
+description: Содержит удобочитаемую сводку каждой из категорий классификации включенных в свойство PidLidClassification раздел 2.53. Область Общие свойства сообщения Каноническое имя PidLidClassificationDescription Альтернативные имена dispidClassDesc
 type: docs
 weight: 2630
 url: /ru/net/aspose.email.mapi/knownpropertylist/classificationdescription/
 ---
 ## KnownPropertyList.ClassificationDescription field
 
-Содержит удобочитаемую сводку каждой из категорий классификации, включенных в свойство PidLidClassification (раздел 2.53). Область:Общие свойства сообщения Каноническое имя:PidLidClassificationDescription Альтернативные имена:dispidClassDesc
+Содержит удобочитаемую сводку каждой из категорий классификации, включенных в свойство PidLidClassification (раздел 2.53). Область: Общие свойства сообщения Каноническое имя: PidLidClassificationDescription Альтернативные имена: dispidClassDesc
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClassificationDescription;

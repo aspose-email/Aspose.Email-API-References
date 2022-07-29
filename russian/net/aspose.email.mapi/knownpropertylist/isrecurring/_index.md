@@ -1,14 +1,14 @@
 ---
 title: IsRecurring
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает связан ли объект с повторяющейся серией. ОбластьВстречи Каноническое имяPidLidIsRecurring Альтернативные именаLID_IS_RECURRING
+description: Указывает связан ли объект с повторяющейся серией. Область Meetings Каноническое имя PidLidIsRecurring Альтернативные имена LID_IS_RECURRING
 type: docs
 weight: 11850
 url: /ru/net/aspose.email.mapi/knownpropertylist/isrecurring/
 ---
 ## KnownPropertyList.IsRecurring field
 
-Указывает, связан ли объект с повторяющейся серией. Область:Встречи Каноническое имя:PidLidIsRecurring Альтернативные имена:LID_IS_RECURRING
+Указывает, связан ли объект с повторяющейся серией. Область: Meetings Каноническое имя: PidLidIsRecurring Альтернативные имена: LID_IS_RECURRING
 
 ```csharp
 public static readonly PidLidPropertyDescriptor IsRecurring;

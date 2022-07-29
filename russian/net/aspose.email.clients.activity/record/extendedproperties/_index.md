@@ -1,14 +1,14 @@
 ---
 title: ExtendedProperties
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает список расширенных свойств для изменяемого параметра. Каждое свойство будет иметь имя и значение. ОбязательноНет
+description: Получает или задает список расширенных свойств для изменяемого параметра. Каждое свойство будет иметь Имя и Значение. Обязательно No
 type: docs
 weight: 60
 url: /ru/net/aspose.email.clients.activity/record/extendedproperties/
 ---
 ## Record.ExtendedProperties property
 
-Получает или задает список расширенных свойств для изменяемого параметра. Каждое свойство будет иметь имя и значение. Обязательно:Нет
+Получает или задает список расширенных свойств для изменяемого параметра. Каждое свойство будет иметь Имя и Значение. Обязательно: No
 
 ```csharp
 public ExtendedProperty[] ExtendedProperties { get; set; }

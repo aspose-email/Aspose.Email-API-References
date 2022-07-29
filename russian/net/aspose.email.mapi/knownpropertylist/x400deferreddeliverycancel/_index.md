@@ -1,14 +1,14 @@
 ---
 title: X400DeferredDeliveryCancel
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_X400_DEFERRED_DELIVERY_CANCEL
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_X400_DEFERRED_DELIVERY_CANCEL
 type: docs
 weight: 19640
 url: /ru/net/aspose.email.mapi/knownpropertylist/x400deferreddeliverycancel/
 ---
 ## KnownPropertyList.X400DeferredDeliveryCancel field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_X400_DEFERRED_DELIVERY_CANCEL
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_X400_DEFERRED_DELIVERY_CANCEL
 
 ```csharp
 public static readonly PidTagPropertyDescriptor X400DeferredDeliveryCancel;

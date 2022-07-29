@@ -1,14 +1,14 @@
 ---
 title: DocumentLastModifier
 second_title: Справочник по Aspose.Email для .NET API
-description: Пользователь который последним изменил документ. ОбязательноДа
+description: Пользователь который последним изменил документ. Обязательно Yes
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/documentlastmodifier/
 ---
 ## SharePointMetadata.DocumentLastModifier property
 
-Пользователь, который последним изменил документ. Обязательно:Да
+Пользователь, который последним изменил документ. Обязательно: Yes
 
 ```csharp
 public string DocumentLastModifier { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Atomic
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее является ли этоMessageObjectPropertyaspose.email.mapi.msg/messageobjectpropertyатомарным.
+description: Получает значение указывающее является ли этоMessageObjectPropertyaspose.email.mapi.msg/messageobjectproperty является атомарным.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.mapi.msg/messageobjectproperty/atomic/
 ---
 ## MessageObjectProperty.Atomic property
 
-Получает значение, указывающее, является ли это[`MessageObjectProperty`](../../messageobjectproperty)атомарным.
+Получает значение, указывающее, является ли это[`MessageObjectProperty`](../../messageobjectproperty) является атомарным.
 
 ```csharp
 public bool Atomic { get; }
@@ -16,7 +16,7 @@ public bool Atomic { get; }
 
 ### Стоимость имущества
 
-` true` если атомарный; в противном случае` false` .
+`истинный` если атомарный; в противном случае,`ЛОЖЬ`.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ListSubFolders
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает коллекцию дочерних папок от родительской
+description: Получает коллекцию дочерних папок от parent
 type: docs
 weight: 1180
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/listsubfolders/
 ---
 ## ListSubFolders(string, string) {#listsubfolders_2}
 
-Получает коллекцию дочерних папок от родительской
+Получает коллекцию дочерних папок от parent
 
 ```csharp
 public ExchangeFolderInfoCollection ListSubFolders(string mailbox, string parentFolderUri)
@@ -21,7 +21,7 @@ public ExchangeFolderInfoCollection ListSubFolders(string mailbox, string parent
 
 ### Возвращаемое значение
 
-[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection), который содержит вложенные папки из родительской папки
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) который содержит подпапки из родительской папки
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public ExchangeFolderInfoCollection ListSubFolders(string mailbox, string parent
 
 ## ListSubFolders(string) {#listsubfolders_1}
 
-Получает коллекцию дочерних папок от родительской
+Получает коллекцию дочерних папок от parent
 
 ```csharp
 public ExchangeFolderInfoCollection ListSubFolders(string parentFolderUri)
@@ -42,11 +42,11 @@ public ExchangeFolderInfoCollection ListSubFolders(string parentFolderUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolderUri | String | URI папки родительская папка |
+| parentFolderUri | String | URI родительской папки |
 
 ### Возвращаемое значение
 
-[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection)содержащая подпапки из родительской папки
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) который содержит подпапки из родительской папки
 
 ### Смотрите также
 
@@ -59,7 +59,7 @@ public ExchangeFolderInfoCollection ListSubFolders(string parentFolderUri)
 
 ## ListSubFolders(ExchangeFolderInfo) {#listsubfolders}
 
-Получает коллекцию дочерних общих папок от родительского
+Получает коллекцию дочерних общих папок от parent
 
 ```csharp
 public ExchangeFolderInfoCollection ListSubFolders(ExchangeFolderInfo parentFolder)
@@ -67,11 +67,11 @@ public ExchangeFolderInfoCollection ListSubFolders(ExchangeFolderInfo parentFold
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentFolder | ExchangeFolderInfo | Родительский[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) |
+| parentFolder | ExchangeFolderInfo | Родитель[`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) |
 
 ### Возвращаемое значение
 
-[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection), который содержит подпапки из родительской папки
+[`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) который содержит подпапки из родительской папки
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OlmStorage
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаOlmStorageaspose.email.storage.olm/olmstorage. Позволяет задать метод обратного вызова для обработки исключений возникающих при обходе хранилища OLM.
+description: Инициализирует новый экземплярOlmStorageaspose.email.storage.olm/olmstorageclass. Позволяет задать метод обратного вызова для обработки исключений возникающих при обходе хранилища OLM.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.olm/olmstorage/olmstorage/
 ---
 ## OlmStorage(TraversalExceptionsCallback) {#constructor}
 
-Инициализирует новый экземпляр класса[`OlmStorage`](../../olmstorage). Позволяет задать метод обратного вызова для обработки исключений, возникающих при обходе хранилища OLM.
+Инициализирует новый экземпляр[`OlmStorage`](../../olmstorage)class. Позволяет задать метод обратного вызова для обработки исключений, возникающих при обходе хранилища OLM.
 
 ```csharp
 public OlmStorage(TraversalExceptionsCallback callback)
@@ -29,7 +29,7 @@ public OlmStorage(TraversalExceptionsCallback callback)
 
 ## OlmStorage(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`OlmStorage`](../../olmstorage).
+Инициализирует новый экземпляр[`OlmStorage`](../../olmstorage) класс.
 
 ```csharp
 public OlmStorage(string fileName)
@@ -41,13 +41,13 @@ public OlmStorage(string fileName)
 
 ### Возвращаемое значение
 
-Возвращает экземпляр OlmStorage, загружаемый из указанного файла.
+Возвращает экземпляр OlmStorage, загруженный из указанного файла.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выдает, если имя файла равно null или пусто |
+| ArgumentNullException | бросает, если имя файла равно null или пусто |
 
 ### Смотрите также
 
@@ -59,7 +59,7 @@ public OlmStorage(string fileName)
 
 ## OlmStorage(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`OlmStorage`](../../olmstorage).
+Инициализирует новый экземпляр[`OlmStorage`](../../olmstorage) класс.
 
 ```csharp
 public OlmStorage(Stream stream)
@@ -67,7 +67,7 @@ public OlmStorage(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Исходный потокStreamс данными хранилища OLM. |
+| stream | Stream | Исходный потокStream с данными хранилища OLM. |
 
 ### Возвращаемое значение
 
@@ -77,7 +77,7 @@ public OlmStorage(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | выдает, если поток равен нулю |
+| ArgumentNullException | бросает, если поток равен нулю |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: DetectionType
 second_title: Справочник по Aspose.Email для .NET API
-description: Тип обнаружения. ОбязательноДа
+description: Тип обнаружения. Обязательно Да
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.activity/o365emailmessageactivity/detectiontype/
 ---
 ## O365EmailMessageActivity.DetectionType property
 
-Тип обнаружения. Обязательно:Да
+Тип обнаружения. Обязательно: Да
 
 ```csharp
 public DetectionType DetectionType { get; set; }

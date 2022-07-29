@@ -1,14 +1,14 @@
 ---
 title: FlagStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает состояние флага объекта Message. ОбластьПрочие свойства Каноническое имяPidTagFlagStatus Альтернативные именаPR_FLAG_STATUS ptagFlagStatus
+description: Определяет состояние флага объекта Message. Область Прочие свойства Каноническое имя PidTagFlagStatus Альтернативные имена PR_FLAG_STATUS ptagFlagStatus
 type: docs
 weight: 10360
 url: /ru/net/aspose.email.mapi/knownpropertylist/flagstatus/
 ---
 ## KnownPropertyList.FlagStatus field
 
-Указывает состояние флага объекта Message. Область:Прочие свойства Каноническое имя:PidTagFlagStatus Альтернативные имена:PR_FLAG_STATUS, ptagFlagStatus
+Определяет состояние флага объекта Message. Область: Прочие свойства Каноническое имя: PidTagFlagStatus Альтернативные имена: PR_FLAG_STATUS, ptagFlagStatus
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FlagStatus;

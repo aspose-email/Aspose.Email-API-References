@@ -1,14 +1,14 @@
 ---
 title: DaylightBias
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает смещение в минутах от lBias в летнее время.
+description: Получает или задает смещение в минутах от lBias при переходе на летнее время.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapicalendartimezoneinfo/daylightbias/
 ---
 ## MapiCalendarTimeZoneInfo.DaylightBias property
 
-Получает или задает смещение в минутах от lBias в летнее время.
+Получает или задает смещение в минутах от lBias при переходе на летнее время.
 
 ```csharp
 public int DaylightBias { get; set; }

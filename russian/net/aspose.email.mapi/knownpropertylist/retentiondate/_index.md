@@ -1,14 +1,14 @@
 ---
 title: RetentionDate
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату в формате UTC после которой срок действия объекта Message истекает на сервере. ОбластьАрхив Каноническое имяPidTagRetentionDate Альтернативные именаPR_RETENTION_DATE ptagRetentionDate
+description: Указывает дату в формате UTC после которой срок действия объекта Message истекает сервером.
 type: docs
 weight: 16240
 url: /ru/net/aspose.email.mapi/knownpropertylist/retentiondate/
 ---
 ## KnownPropertyList.RetentionDate field
 
-Указывает дату в формате UTC, после которой срок действия объекта Message истекает на сервере. Область:Архив Каноническое имя:PidTagRetentionDate Альтернативные имена:PR_RETENTION_DATE, ptagRetentionDate
+Указывает дату в формате UTC, после которой срок действия объекта Message истекает сервером.
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RetentionDate;

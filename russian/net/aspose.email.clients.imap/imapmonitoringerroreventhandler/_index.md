@@ -1,14 +1,14 @@
 ---
 title: ImapMonitoringErrorEventHandler
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет метод который будет обрабатывать событие ошибки мониторинга imap
+description: Представляет метод который будет обрабатывать ошибку мониторинга imap event
 type: docs
 weight: 16400
 url: /ru/net/aspose.email.clients.imap/imapmonitoringerroreventhandler/
 ---
 ## ImapMonitoringErrorEventHandler delegate
 
-Представляет метод, который будет обрабатывать событие ошибки мониторинга imap
+Представляет метод, который будет обрабатывать ошибку мониторинга imap event
 
 ```csharp
 public delegate void ImapMonitoringErrorEventHandler(object sender, ImapMonitoringErrorEventArgs e);
@@ -17,7 +17,7 @@ public delegate void ImapMonitoringErrorEventHandler(object sender, ImapMonitori
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sender | Object | Источник события. |
-| e | ImapMonitoringErrorEventArgs | Объект содержит данные о событии ошибки мониторинга. |
+| e | ImapMonitoringErrorEventArgs | Объект содержит данные о событиях ошибок мониторинга. |
 
 ### Смотрите также
 

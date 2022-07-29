@@ -18,8 +18,8 @@ public sealed class DateRange
 
 | Имя | Описание |
 | --- | --- |
-| [DateRange](daterange#constructor)() | Инициализирует новый экземпляр класса[`DateRange`](../daterange) |
-| [DateRange](daterange#constructor_1)(DateTime, DateTime) | Инициализирует новый экземпляр класса[`DateRange`](../daterange) |
+| [DateRange](daterange#constructor)() | Инициализирует новый экземпляр[`DateRange`](../daterange) класс |
+| [DateRange](daterange#constructor_1)(DateTime, DateTime) | Инициализирует новый экземпляр[`DateRange`](../daterange) класс |
 
 ## Характеристики
 

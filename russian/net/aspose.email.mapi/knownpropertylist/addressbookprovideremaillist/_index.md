@@ -1,14 +1,14 @@
 ---
 title: AddressBookProviderEmailList
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает какие свойства электронного адреса установлены для объекта Contact. ОбластьСвойства контакта Каноническое имяPidLidAddressBookProviderEmailList Альтернативные именаdispidABPEmailList
+description: Указывает какие свойства электронного адреса установлены для объекта Contact. Область Свойства контакта Каноническое имя PidLidAddressBookProviderEmailList Альтернативные имена dispidABPEmailList
 type: docs
 weight: 890
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookprovideremaillist/
 ---
 ## KnownPropertyList.AddressBookProviderEmailList field
 
-Указывает, какие свойства электронного адреса установлены для объекта Contact. Область:Свойства контакта Каноническое имя:PidLidAddressBookProviderEmailList Альтернативные имена:dispidABPEmailList
+Указывает, какие свойства электронного адреса установлены для объекта Contact. Область: Свойства контакта Каноническое имя: PidLidAddressBookProviderEmailList Альтернативные имена: dispidABPEmailList
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AddressBookProviderEmailList;

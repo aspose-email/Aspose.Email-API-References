@@ -1,14 +1,14 @@
 ---
 title: SharingLocalName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingLocalName Альтернативные именаdispidSharingLocalName
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingLocalName Альтернативные имена dispidSharingLocalName
 type: docs
 weight: 17610
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharinglocalname/
 ---
 ## KnownPropertyList.SharingLocalName field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingLocalName Альтернативные имена:dispidSharingLocalName
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingLocalName Альтернативные имена: dispidSharingLocalName
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingLocalName;

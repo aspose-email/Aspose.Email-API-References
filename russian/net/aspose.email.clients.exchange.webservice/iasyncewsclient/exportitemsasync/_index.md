@@ -17,8 +17,8 @@ public Task<IEnumerable<ExchangeStreamedItem>> ExportItemsAsync(IEnumerable<stri
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| itemIds | IEnumerable`1 | Идентификаторы элементов в быть экспортированным |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| itemIds | IEnumerable`1 | Идентификаторы предметов для экспорта |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
@@ -28,8 +28,8 @@ public Task<IEnumerable<ExchangeStreamedItem>> ExportItemsAsync(IEnumerable<stri
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *itemIds*is` null` |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemIds*is` empty` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *itemIds* является`нулевой` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *itemIds* является`пустой` |
 
 ### Смотрите также
 

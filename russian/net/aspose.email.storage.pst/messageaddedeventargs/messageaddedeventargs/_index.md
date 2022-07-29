@@ -1,14 +1,14 @@
 ---
 title: MessageAddedEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMessageAddedEventArgsaspose.email.storage.pst/messageaddedeventargs.
+description: Инициализирует новый экземплярMessageAddedEventArgsaspose.email.storage.pst/messageaddedeventargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.pst/messageaddedeventargs/messageaddedeventargs/
 ---
 ## MessageAddedEventArgs constructor
 
-Инициализирует новый экземпляр класса[`MessageAddedEventArgs`](../../messageaddedeventargs).
+Инициализирует новый экземпляр[`MessageAddedEventArgs`](../../messageaddedeventargs) класс.
 
 ```csharp
 public MessageAddedEventArgs(string entryId, MapiMessage message)

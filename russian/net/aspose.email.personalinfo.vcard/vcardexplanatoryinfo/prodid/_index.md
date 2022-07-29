@@ -3,7 +3,7 @@ title: ProdId
 second_title: Справочник по Aspose.Email для .NET API
 description: Получает идентификатор продукта создавшего vCard
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/prodid/
 ---
 ## VCardExplanatoryInfo.ProdId property

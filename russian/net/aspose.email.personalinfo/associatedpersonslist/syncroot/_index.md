@@ -1,14 +1,14 @@
 ---
 title: SyncRoot
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает объект который можно использовать для синхронизации доступа кICollection.
+description: Получает объект который можно использовать для синхронизации доступа кICollection .
 type: docs
 weight: 200
 url: /ru/net/aspose.email.personalinfo/associatedpersonslist/syncroot/
 ---
 ## AssociatedPersonsList.SyncRoot property
 
-Получает объект, который можно использовать для синхронизации доступа кICollection.
+Получает объект, который можно использовать для синхронизации доступа кICollection .
 
 ```csharp
 public object SyncRoot { get; }
@@ -16,7 +16,7 @@ public object SyncRoot { get; }
 
 ### Возвращаемое значение
 
-Объект, который можно использовать для синхронизации доступа кICollection.
+Объект, который можно использовать для синхронизации доступа кICollection .
 
 ### Смотрите также
 

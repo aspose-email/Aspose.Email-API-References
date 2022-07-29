@@ -1,14 +1,14 @@
 ---
 title: Priority
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает запрос клиента на приоритет с которым сообщение должно быть отправлено системой обмена сообщениями. ОбластьЭлектронная почта Каноническое имяPidTagPriority Альтернативные именаPR_PRIORITY ptagPriority urnschemashttpmailpriority
+description: Указывает запрос клиента на приоритет с которым сообщение должно быть отправлено системой обмена сообщениями. Область Email Каноническое имя PidTagPriority Альтернативные имена PR_PRIORITY ptagPriority urnschemashttpmailpriority
 type: docs
 weight: 14610
 url: /ru/net/aspose.email.mapi/knownpropertylist/priority/
 ---
 ## KnownPropertyList.Priority field
 
-Указывает запрос клиента на приоритет, с которым сообщение должно быть отправлено системой обмена сообщениями. Область:Электронная почта Каноническое имя:PidTagPriority Альтернативные имена:PR_PRIORITY, ptagPriority, urn:schemas:httpmail:priority,
+Указывает запрос клиента на приоритет, с которым сообщение должно быть отправлено системой обмена сообщениями. Область: Email Каноническое имя: PidTagPriority Альтернативные имена: PR_PRIORITY, ptagPriority, urn:schemas:httpmail:priority,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Priority;

@@ -1,14 +1,14 @@
 ---
 title: UserConfigurationName
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаUserConfigurationNameaspose.email.clients.exchange.webservice/userconfigurationname
+description: Инициализирует новый экземплярUserConfigurationNameaspose.email.clients.exchange.webservice/userconfigurationname класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/userconfigurationname/userconfigurationname/
 ---
 ## UserConfigurationName constructor
 
-Инициализирует новый экземпляр класса[`UserConfigurationName`](../../userconfigurationname)
+Инициализирует новый экземпляр[`UserConfigurationName`](../../userconfigurationname) класс
 
 ```csharp
 public UserConfigurationName(string name, string folderId)
@@ -16,14 +16,14 @@ public UserConfigurationName(string name, string folderId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Указывает имя пользовательской конфигурации |
-| folderId | String | Указывает ассоциированную папку для объекта пользовательской конфигурации |
+| name | String | Указывает имя конфигурации пользователя |
+| folderId | String | Указывает связанную папку для объекта конфигурации пользователя. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *name*is` null` или` пусто` |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | *name* является`нулевой`или же`пустой` |
 
 ### Смотрите также
 

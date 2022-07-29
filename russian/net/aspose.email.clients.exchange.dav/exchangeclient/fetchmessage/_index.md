@@ -1,14 +1,14 @@
 ---
 title: FetchMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает почтовое сообщение с указанным uri.
+description: Извлекает почтовое сообщение с указанным uri.
 type: docs
 weight: 180
 url: /ru/net/aspose.email.clients.exchange.dav/exchangeclient/fetchmessage/
 ---
 ## ExchangeClient.FetchMessage method
 
-Получает почтовое сообщение с указанным uri.
+Извлекает почтовое сообщение с указанным uri.
 
 ```csharp
 public MailMessage FetchMessage(string messageUri)
@@ -16,7 +16,7 @@ public MailMessage FetchMessage(string messageUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageUri | String | uri сообщения. |
+| messageUri | String | Сообщение uri. |
 
 ### Возвращаемое значение
 

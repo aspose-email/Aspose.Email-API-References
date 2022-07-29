@@ -1,14 +1,14 @@
 ---
 title: RecurrenceType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип повторения повторяющегося ряда. ОбластьКалендарь Каноническое имяPidLidRecurrenceType Альтернативные именаdispidRecurType
+description: Определяет тип повторения повторяющейся серии. Область Calendar Каноническое имя PidLidRecurrenceType Альтернативные имена dispidRecurType
 type: docs
 weight: 15600
 url: /ru/net/aspose.email.mapi/knownpropertylist/recurrencetype/
 ---
 ## KnownPropertyList.RecurrenceType field
 
-Указывает тип повторения повторяющегося ряда. Область:Календарь Каноническое имя:PidLidRecurrenceType Альтернативные имена:dispidRecurType
+Определяет тип повторения повторяющейся серии. Область: Calendar Каноническое имя: PidLidRecurrenceType Альтернативные имена: dispidRecurType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor RecurrenceType;

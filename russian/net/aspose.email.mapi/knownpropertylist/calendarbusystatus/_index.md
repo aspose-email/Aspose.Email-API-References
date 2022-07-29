@@ -1,14 +1,14 @@
 ---
 title: CalendarBusystatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает занят ли участник во время встречи в своем календаре. ОбластьОбщие Каноническое имяPidNameCalendarBusystatus Альтернативные именаurnschemascalendarbusystatus
+description: Указывает занят ли участник во время встречи в своем календаре. Область Common Каноническое имя PidNameCalendarBusystatus Альтернативные имена urnschemascalendarbusystatus
 type: docs
 weight: 2190
 url: /ru/net/aspose.email.mapi/knownpropertylist/calendarbusystatus/
 ---
 ## KnownPropertyList.CalendarBusystatus field
 
-Указывает, занят ли участник во время встречи в своем календаре. Область:Общие Каноническое имя:PidNameCalendarBusystatus Альтернативные имена:urn:schemas:calendar:busystatus
+Указывает, занят ли участник во время встречи в своем календаре. Область: Common Каноническое имя: PidNameCalendarBusystatus Альтернативные имена: urn:schemas:calendar:busystatus
 
 ```csharp
 public static readonly PidNamePropertyDescriptor CalendarBusystatus;

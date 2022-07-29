@@ -43,7 +43,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -61,7 +61,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 
 ## GetMailboxInfoAsync(bool) {#getmailboxinfoasync_5}
 
-Получает информацию о статусе почтового ящика
+Получает информацию о состоянии почтового ящика
 
 ```csharp
 public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction)
@@ -69,7 +69,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| closeTransaction | Boolean | Указывает, была ли текущая транзакция быть закрытым до того, как список будет получен. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 
 ### Возвращаемое значение
 
@@ -94,7 +94,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync()
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом для этого операция
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -144,7 +144,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта до получения списка. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -163,7 +163,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 
 ## GetMailboxInfoAsync(bool, CancellationToken) {#getmailboxinfoasync_6}
 
-Получает информацию о статусе почтового ящика
+Получает информацию о состоянии почтового ящика
 
 ```csharp
 public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction, CancellationToken token)
@@ -171,7 +171,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction, Cancella
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| closeTransaction | Boolean | Указывает, была ли текущая транзакция быть закрытым до того, как список будет получен. |
+| closeTransaction | Boolean | Указывает, должна ли текущая транзакция быть закрыта перед получением списка. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -197,7 +197,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменен. |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 

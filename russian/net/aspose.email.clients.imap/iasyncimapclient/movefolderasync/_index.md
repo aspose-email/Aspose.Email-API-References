@@ -18,8 +18,8 @@ public Task MoveFolderAsync(string newParentFolder, string folderName,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newParentFolder | String | Новое место для перемещенной папки |
-| folderName | String | Папка для move |
-| connection | IConnection | Соединение с сервером |
+| folderName | String | Папка для перемещения |
+| connection | IConnection | Подключение к серверу |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Смотрите также

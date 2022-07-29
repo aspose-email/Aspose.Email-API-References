@@ -46,7 +46,7 @@ public FolderInfo CreateFolder(string parentFolderId, string folderName)
 
 ### Возвращаемое значение
 
-Возвращает папку для указанного id
+Возвращает папку для указанного идентификатора
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RecordKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный двоично-сопоставимый идентификатор для определенного объекта. ОбластьСвойства ID Каноническое имяPidTagRecordKey Альтернативные именаPR_RECORD_KEY ptagRecordKey
+description: Содержит уникальный двоично-сопоставимый идентификатор для определенного объекта. Область ID Properties Каноническое имя PidTagRecordKey Альтернативные имена PR_RECORD_KEY ptagRecordKey
 type: docs
 weight: 15570
 url: /ru/net/aspose.email.mapi/knownpropertylist/recordkey/
 ---
 ## KnownPropertyList.RecordKey field
 
-Содержит уникальный двоично-сопоставимый идентификатор для определенного объекта. Область:Свойства ID Каноническое имя:PidTagRecordKey Альтернативные имена:PR_RECORD_KEY, ptagRecordKey
+Содержит уникальный двоично-сопоставимый идентификатор для определенного объекта. Область: ID Properties Каноническое имя: PidTagRecordKey Альтернативные имена: PR_RECORD_KEY, ptagRecordKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RecordKey;

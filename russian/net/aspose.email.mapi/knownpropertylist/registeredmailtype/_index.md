@@ -1,14 +1,14 @@
 ---
 title: RegisteredMailType
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REGISTERED_MAIL_TYPE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REGISTERED_MAIL_TYPE
 type: docs
 weight: 15650
 url: /ru/net/aspose.email.mapi/knownpropertylist/registeredmailtype/
 ---
 ## KnownPropertyList.RegisteredMailType field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REGISTERED_MAIL_TYPE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REGISTERED_MAIL_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RegisteredMailType;

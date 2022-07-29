@@ -1,14 +1,14 @@
 ---
 title: RtfSyncPrefixCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_RTF_SYNC_PREFIX_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_RTF_SYNC_PREFIX_COUNT
 type: docs
 weight: 16410
 url: /ru/net/aspose.email.mapi/knownpropertylist/rtfsyncprefixcount/
 ---
 ## KnownPropertyList.RtfSyncPrefixCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_RTF_SYNC_PREFIX_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_RTF_SYNC_PREFIX_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RtfSyncPrefixCount;

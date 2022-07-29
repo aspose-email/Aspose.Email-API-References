@@ -1,14 +1,14 @@
 ---
 title: GetDouble
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает байты двоичных данных как двойные.
+description: Получает байты двоичных данных как double.
 type: docs
 weight: 180
 url: /ru/net/aspose.email.mapi/mapiproperty/getdouble/
 ---
 ## MapiProperty.GetDouble method
 
-Получает байты двоичных данных как двойные.
+Получает байты двоичных данных как double.
 
 ```csharp
 public virtual double GetDouble()

@@ -1,14 +1,14 @@
 ---
 title: MultimediaClipCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает количество мультимедийных клипов в файле прикрепленном к объекту Document. ОбластьОбщие Каноническое имяPidNameMultimediaClipCount Альтернативные именаurnschemas-microsoft-comofficeofficeMultimediaClips
+description: Указывает количество мультимедийных клипов в файле прикрепленном к объекту Document. Область Common Каноническое имя PidNameMultimediaClipCount Альтернативные имена urnschemas-microsoft-comofficeofficeMultimediaClips
 type: docs
 weight: 12810
 url: /ru/net/aspose.email.mapi/knownpropertylist/multimediaclipcount/
 ---
 ## KnownPropertyList.MultimediaClipCount field
 
-Указывает количество мультимедийных клипов в файле, прикрепленном к объекту Document. Область:Общие Каноническое имя:PidNameMultimediaClipCount Альтернативные имена:urn:schemas-microsoft-com:office:office#MultimediaClips
+Указывает количество мультимедийных клипов в файле, прикрепленном к объекту Document. Область: Common Каноническое имя: PidNameMultimediaClipCount Альтернативные имена: urn:schemas-microsoft-com:office:office#MultimediaClips
 
 ```csharp
 public static readonly PidNamePropertyDescriptor MultimediaClipCount;

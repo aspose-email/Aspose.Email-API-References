@@ -1,14 +1,14 @@
 ---
 title: MapiConversionOptions
 second_title: Справочник по Aspose.Email для .NET API
-description: Этот класс позволяет пользователю указывать дополнительные параметры при преобразовании из MailMessage в MapiMessage.
+description: Этот класс позволяет пользователю указать дополнительные параметры при преобразовании из MailMessage в MapiMessage.
 type: docs
-weight: 18320
+weight: 18350
 url: /ru/net/aspose.email.mapi/mapiconversionoptions/
 ---
 ## MapiConversionOptions class
 
-Этот класс позволяет пользователю указывать дополнительные параметры при преобразовании из MailMessage в MapiMessage.
+Этот класс позволяет пользователю указать дополнительные параметры при преобразовании из MailMessage в MapiMessage.
 
 ```csharp
 public class MapiConversionOptions
@@ -18,8 +18,8 @@ public class MapiConversionOptions
 
 | Имя | Описание |
 | --- | --- |
-| [MapiConversionOptions](mapiconversionoptions#constructor)() | Инициализирует новый экземпляр класса[`MapiConversionOptions`](../mapiconversionoptions). |
-| [MapiConversionOptions](mapiconversionoptions#constructor_1)(OutlookMessageFormat) | Инициализирует новый экземпляр класса[`MapiConversionOptions`](../mapiconversionoptions)с указанным OutlookMessageFormat. |
+| [MapiConversionOptions](mapiconversionoptions#constructor)() | Инициализирует новый экземпляр[`MapiConversionOptions`](../mapiconversionoptions) класс. |
+| [MapiConversionOptions](mapiconversionoptions#constructor_1)(OutlookMessageFormat) | Инициализирует новый экземпляр[`MapiConversionOptions`](../mapiconversionoptions) класс с указанным OutlookMessageFormat. |
 
 ## Характеристики
 
@@ -30,10 +30,10 @@ public class MapiConversionOptions
 | [CustomProgressHandler](../../aspose.email.mapi/mapiconversionoptions/customprogresshandler) { get; set; } |  |
 | [ForcedRtfBodyForAppointment](../../aspose.email.mapi/mapiconversionoptions/forcedrtfbodyforappointment) { get; set; } | Получает или задает значение, указывающее, необходимо ли использовать принудительное тело RTF для встречи. Значение по умолчанию — true. |
 | [Format](../../aspose.email.mapi/mapiconversionoptions/format) { get; set; } | Представляет формат сообщения Outlook. |
-| [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mapiconversionoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, необходимо ли сохранять преобразование вложения .eml в вложение .msg. |
+| [PreserveEmbeddedMessageFormat](../../aspose.email.mapi/mapiconversionoptions/preserveembeddedmessageformat) { get; set; } | Получает или задает значение, указывающее, необходимо ли сохранять вложение преобразования .eml в вложение .msg. |
 | [PreserveOriginalAddresses](../../aspose.email.mapi/mapiconversionoptions/preserveoriginaladdresses) { get; set; } | Получает или задает значение, указывающее, необходимо ли сохранять исходное значение почтовых адресов (без проверки). |
 | [PreserveOriginalDates](../../aspose.email.mapi/mapiconversionoptions/preserveoriginaldates) { get; set; } | Получает или задает значение, указывающее, необходимо ли генерировать новые даты сохранения и изменения при преобразовании сообщения. |
-| [PreserveSignature](../../aspose.email.mapi/mapiconversionoptions/preservesignature) { get; set; } | Установить в true, если подпись должна быть сохранена. |
+| [PreserveSignature](../../aspose.email.mapi/mapiconversionoptions/preservesignature) { get; set; } | Установите значение true, если подпись должна быть сохранена. |
 | [UseBodyCompression](../../aspose.email.mapi/mapiconversionoptions/usebodycompression) { get; set; } | Установите значение true, если требуется сжатие тела RTF. |
 
 ### Смотрите также

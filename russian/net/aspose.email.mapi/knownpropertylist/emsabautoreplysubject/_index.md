@@ -1,14 +1,14 @@
 ---
 title: EmsAbAutoreplySubject
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_AUTOREPLY_SUBJECT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_AUTOREPLY_SUBJECT
 type: docs
 weight: 4850
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabautoreplysubject/
 ---
 ## KnownPropertyList.EmsAbAutoreplySubject field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_AUTOREPLY_SUBJECT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_AUTOREPLY_SUBJECT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbAutoreplySubject;

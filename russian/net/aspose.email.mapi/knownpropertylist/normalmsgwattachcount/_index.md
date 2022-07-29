@@ -1,14 +1,14 @@
 ---
 title: NormalMsgWAttachCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_NORMAL_MSG_W_ATTACH_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_NORMAL_MSG_W_ATTACH_COUNT
 type: docs
 weight: 13100
 url: /ru/net/aspose.email.mapi/knownpropertylist/normalmsgwattachcount/
 ---
 ## KnownPropertyList.NormalMsgWAttachCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_NORMAL_MSG_W_ATTACH_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_NORMAL_MSG_W_ATTACH_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor NormalMsgWAttachCount;

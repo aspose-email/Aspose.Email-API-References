@@ -1,14 +1,14 @@
 ---
 title: Append
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавляет указанную запись журнала в приложение.
+description: Добавляет указанную запись журнала в appender.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.tools.logging/debugappender/append/
 ---
 ## DebugAppender.Append method
 
-Добавляет указанную запись журнала в приложение.
+Добавляет указанную запись журнала в appender.
 
 ```csharp
 public override void Append(LogEntry entry)
@@ -16,7 +16,7 @@ public override void Append(LogEntry entry)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| entry | LogEntry | Запись журнала. |
+| entry | LogEntry | Запись в журнале. |
 
 ### Смотрите также
 

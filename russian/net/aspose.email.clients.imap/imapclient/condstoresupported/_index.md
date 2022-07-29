@@ -1,14 +1,14 @@
 ---
 title: CondstoreSupported
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает информацию о том поддерживается ли расширение CONDSTORE Подробнееhttps//tools.ietf.org/html/rfc7162
+description: Получает информацию о том поддерживается ли расширение CONDSTORE Подробнее https//tools.ietf.org/html/rfc7162
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.imap/imapclient/condstoresupported/
 ---
 ## ImapClient.CondstoreSupported property
 
-Получает информацию о том, поддерживается ли расширение CONDSTORE Подробнее:https://tools.ietf.org/html/rfc7162
+Получает информацию о том, поддерживается ли расширение CONDSTORE Подробнее: https://tools.ietf.org/html/rfc7162
 
 ```csharp
 public bool CondstoreSupported { get; set; }

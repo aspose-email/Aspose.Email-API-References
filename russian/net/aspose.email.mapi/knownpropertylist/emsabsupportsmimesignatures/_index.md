@@ -1,14 +1,14 @@
 ---
 title: EmsAbSupportSmimeSignatures
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_SUPPORT_SMIME_SIGNATURES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_SUPPORT_SMIME_SIGNATURES
 type: docs
 weight: 9070
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabsupportsmimesignatures/
 ---
 ## KnownPropertyList.EmsAbSupportSmimeSignatures field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_SUPPORT_SMIME_SIGNATURES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_SUPPORT_SMIME_SIGNATURES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbSupportSmimeSignatures;

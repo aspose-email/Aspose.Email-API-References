@@ -1,14 +1,14 @@
 ---
 title: ICalendarRecurrenceRule
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает правило для шаблона определяющего повторяющуюся встречу. ОбластьОбщие Каноническое имяPidNameICalendarRecurrenceRule Альтернативные именаurnschemascalendarrrule
+description: Задает правило для шаблона определяющего повторяющуюся встречу. Область Common Каноническое имя PidNameICalendarRecurrenceRule Альтернативные имена urnschemascalendarrrule
 type: docs
 weight: 11170
 url: /ru/net/aspose.email.mapi/knownpropertylist/icalendarrecurrencerule/
 ---
 ## KnownPropertyList.ICalendarRecurrenceRule field
 
-Задает правило для шаблона, определяющего повторяющуюся встречу. Область:Общие Каноническое имя:PidNameICalendarRecurrenceRule Альтернативные имена:urn:schemas:calendar:rrule
+Задает правило для шаблона, определяющего повторяющуюся встречу. Область: Common Каноническое имя: PidNameICalendarRecurrenceRule Альтернативные имена: urn:schemas:calendar:rrule
 
 ```csharp
 public static readonly PidNamePropertyDescriptor ICalendarRecurrenceRule;

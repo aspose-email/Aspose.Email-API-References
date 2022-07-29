@@ -1,14 +1,14 @@
 ---
 title: XSharingInstanceGuid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьСовместное использование Каноническое имяPidNameXSharingInstanceGuid Альтернативные имена
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidNameXSharingInstanceGuid Альтернативные имена
 type: docs
 weight: 19760
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharinginstanceguid/
 ---
 ## KnownPropertyList.XSharingInstanceGuid field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Совместное использование Каноническое имя:PidNameXSharingInstanceGuid Альтернативные имена:
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidNameXSharingInstanceGuid Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingInstanceGuid;

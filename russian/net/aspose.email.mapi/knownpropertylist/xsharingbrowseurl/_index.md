@@ -1,14 +1,14 @@
 ---
 title: XSharingBrowseUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidNameXSharingBrowseUrl Альтернативные имена
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidNameXSharingBrowseUrl Альтернативные имена
 type: docs
 weight: 19710
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingbrowseurl/
 ---
 ## KnownPropertyList.XSharingBrowseUrl field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidNameXSharingBrowseUrl Альтернативные имена:
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidNameXSharingBrowseUrl Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingBrowseUrl;

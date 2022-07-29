@@ -1,14 +1,14 @@
 ---
 title: Fax2OriginalEntryId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает одноразовый EntryID соответствующий этому адресу факса. ОбластьСвойства контакта Каноническое имяPidLidFax2OriginalEntryId Альтернативные именаdispidFax2OriginalEntryID
+description: Указывает одноразовый EntryID соответствующий этому адресу факса. Область Свойства контакта Каноническое имя PidLidFax2OriginalEntryId Альтернативные имена dispidFax2OriginalEntryID
 type: docs
 weight: 10200
 url: /ru/net/aspose.email.mapi/knownpropertylist/fax2originalentryid/
 ---
 ## KnownPropertyList.Fax2OriginalEntryId field
 
-Указывает одноразовый EntryID, соответствующий этому адресу факса. Область:Свойства контакта Каноническое имя:PidLidFax2OriginalEntryId Альтернативные имена:dispidFax2OriginalEntryID
+Указывает одноразовый EntryID, соответствующий этому адресу факса. Область: Свойства контакта Каноническое имя: PidLidFax2OriginalEntryId Альтернативные имена: dispidFax2OriginalEntryID
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Fax2OriginalEntryId;

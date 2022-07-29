@@ -16,8 +16,8 @@ public void Insert(int index, PostalAddress value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить*value*. |
-| value | PostalAddress | ОбъектObjectдля вставки в список. |
+| index | Int32 | Отсчитываемый от нуля индекс, при котором*value* следует вставить. |
+| value | PostalAddress | Object вставить в список. |
 
 ### Смотрите также
 

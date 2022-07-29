@@ -1,14 +1,14 @@
 ---
 title: ExchangeTask
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаExchangeTaskaspose.email.clients.exchange.webservice/exchangetask.
+description: Инициализирует новый экземплярExchangeTaskaspose.email.clients.exchange.webservice/exchangetask класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/exchangetask/exchangetask/
 ---
 ## ExchangeTask constructor
 
-Инициализирует новый экземпляр класса[`ExchangeTask`](../../exchangetask).
+Инициализирует новый экземпляр[`ExchangeTask`](../../exchangetask) класс.
 
 ```csharp
 public ExchangeTask()

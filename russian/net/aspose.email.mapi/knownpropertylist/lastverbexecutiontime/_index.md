@@ -1,14 +1,14 @@
 ---
 title: LastVerbExecutionTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату и время в формате UTC в течение которых выполнялась операция представленная в свойстве PidTagLastVerbExecuted раздел 2.758. ОбластьСвойства истории Каноническое имяPidTagLastVerbExecutionTime Альтернативные именаPR_LAST_VERB_EXECUTION_TIME ptagLastVerbExecutionTime
+description: Содержит дату и время в формате UTC в течение которых выполнялась операция представленная в свойстве PidTagLastVerbExecuted раздел 2.758. Область Свойства истории Каноническое имя PidTagLastVerbExecutionTime Альтернативные имена PR_LAST_VERB_EXECUTION_TIME ptagLastVerbExecutionTime
 type: docs
 weight: 12070
 url: /ru/net/aspose.email.mapi/knownpropertylist/lastverbexecutiontime/
 ---
 ## KnownPropertyList.LastVerbExecutionTime field
 
-Содержит дату и время в формате UTC, в течение которых выполнялась операция, представленная в свойстве PidTagLastVerbExecuted (раздел 2.758). Область:Свойства истории Каноническое имя:PidTagLastVerbExecutionTime Альтернативные имена:PR_LAST_VERB_EXECUTION_TIME, ptagLastVerbExecutionTime
+Содержит дату и время в формате UTC, в течение которых выполнялась операция, представленная в свойстве PidTagLastVerbExecuted (раздел 2.758). Область: Свойства истории Каноническое имя: PidTagLastVerbExecutionTime Альтернативные имена: PR_LAST_VERB_EXECUTION_TIME, ptagLastVerbExecutionTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor LastVerbExecutionTime;

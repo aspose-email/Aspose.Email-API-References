@@ -1,14 +1,14 @@
 ---
 title: LogonUserDisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Понятное имя пользователя выполнившего операцию.
+description: Удобное имя пользователя выполнившего операцию.
 type: docs
 weight: 100
 url: /ru/net/aspose.email.clients.activity/exchangemailboxactivity/logonuserdisplayname/
 ---
 ## ExchangeMailboxActivity.LogonUserDisplayName property
 
-Понятное имя пользователя, выполнившего операцию.
+Удобное имя пользователя, выполнившего операцию.
 
 ```csharp
 public string LogonUserDisplayName { get; set; }

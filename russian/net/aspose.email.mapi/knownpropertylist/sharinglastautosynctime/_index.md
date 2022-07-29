@@ -1,14 +1,14 @@
 ---
 title: SharingLastAutoSyncTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. ОбластьОбщий доступ Каноническое имяPidLidSharingLastAutoSyncTime Альтернативные именаdispidSharingLastAutoSync
+description: Содержит значение которое игнорируется сервером независимо от того какое значение генерирует клиент. Область Sharing Каноническое имя PidLidSharingLastAutoSyncTime Альтернативные имена dispidSharingLastAutoSync
 type: docs
 weight: 17570
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharinglastautosynctime/
 ---
 ## KnownPropertyList.SharingLastAutoSyncTime field
 
-Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область:Общий доступ Каноническое имя:PidLidSharingLastAutoSyncTime Альтернативные имена:dispidSharingLastAutoSync
+Содержит значение, которое игнорируется сервером независимо от того, какое значение генерирует клиент. Область: Sharing Каноническое имя: PidLidSharingLastAutoSyncTime Альтернативные имена: dispidSharingLastAutoSync
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingLastAutoSyncTime;

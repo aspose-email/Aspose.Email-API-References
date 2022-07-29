@@ -1,14 +1,14 @@
 ---
 title: SetCommitDeletions
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает следует ли выполнять удаление.
+description: Указывает должны ли быть зафиксированы удаления.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.imap.models/imapmovemessages/setcommitdeletions/
 ---
 ## ImapMoveMessages.SetCommitDeletions method
 
-Указывает, следует ли выполнять удаление.
+Указывает, должны ли быть зафиксированы удаления.
 
 ```csharp
 public ImapMoveMessages SetCommitDeletions(bool commitDeletions = true)

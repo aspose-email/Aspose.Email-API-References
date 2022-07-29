@@ -3,7 +3,7 @@ title: MapiCalendarRecurrencePatternType
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет типы шаблонов повторения календаря mapi
 type: docs
-weight: 18070
+weight: 18090
 url: /ru/net/aspose.email.mapi/mapicalendarrecurrencepatterntype/
 ---
 ## MapiCalendarRecurrencePatternType enumeration
@@ -24,7 +24,7 @@ public enum MapiCalendarRecurrencePatternType
 | MonthEnd | `4` | Событие повторяется в конце месяца. |
 | MonthNth | `3` | Событие проходит каждый n-й месяц. |
 | HjMonth | `10` | Событие ежемесячно повторяется в календаре Хиджры |
-| HjMonthNth | `11` | Событие проходит каждый n-й месяц в календаре Хиджры. |
+| HjMonthNth | `11` | Событие проходит каждый n-й месяц в календаре хиджры. |
 | HjMonthEnd | `12` | Событие повторяется в конце месяца в календаре Хиджры. |
 
 ### Смотрите также

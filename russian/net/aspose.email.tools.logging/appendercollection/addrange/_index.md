@@ -16,7 +16,7 @@ public void AddRange(IEnumerable<IAppender> value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IEnumerable`1 | Перечисление IAppenders, добавляемое в конец коллекции. |
+| value | IEnumerable`1 | Перечисление IAppenders, которое нужно добавить в конец коллекции. |
 
 ### Смотрите также
 

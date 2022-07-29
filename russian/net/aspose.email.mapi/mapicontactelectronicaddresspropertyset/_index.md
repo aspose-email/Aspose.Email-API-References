@@ -1,14 +1,14 @@
 ---
 title: MapiContactElectronicAddressPropertySet
 second_title: Справочник по Aspose.Email для .NET API
-description: Укажите свойства до трех разных адресов электронной почты Email1 Email2 и Email3 и трех разные адреса факса основной факс рабочий факс и домашний факс
+description: Укажите свойства до трех разных адресов электронной почты Email1 Email2 и Email3 и трех разных адресов факса основной факс рабочий факс и домашний факс
 type: docs
-weight: 18190
+weight: 18220
 url: /ru/net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/
 ---
 ## MapiContactElectronicAddressPropertySet class
 
-Укажите свойства до трех разных адресов электронной почты (Email1, Email2 и Email3) и трех разные адреса факса (основной факс, рабочий факс и домашний факс)
+Укажите свойства до трех разных адресов электронной почты (Email1, Email2 и Email3) и трех разных адресов факса (основной факс, рабочий факс и домашний факс)
 
 ```csharp
 public sealed class MapiContactElectronicAddressPropertySet
@@ -18,22 +18,22 @@ public sealed class MapiContactElectronicAddressPropertySet
 
 | Имя | Описание |
 | --- | --- |
-| [MapiContactElectronicAddressPropertySet](mapicontactelectronicaddresspropertyset#constructor)() | Инициализирует новый экземпляр[`MapiContactElectronicAddressPropertySet`](../mapicontactelectronicaddresspropertyset)class |
-| [MapiContactElectronicAddressPropertySet](mapicontactelectronicaddresspropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр[`MapiContactElectronicAddressPropertySet`](../mapicontactelectronicaddresspropertyset)class |
+| [MapiContactElectronicAddressPropertySet](mapicontactelectronicaddresspropertyset#constructor)() | Инициализирует новый экземпляр[`MapiContactElectronicAddressPropertySet`](../mapicontactelectronicaddresspropertyset) класс |
+| [MapiContactElectronicAddressPropertySet](mapicontactelectronicaddresspropertyset#constructor_1)(MapiPropertyCollection) | Инициализирует новый экземпляр[`MapiContactElectronicAddressPropertySet`](../mapicontactelectronicaddresspropertyset) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BusinessFax](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/businessfax) { get; set; } | Относится к группе свойств , которые определяют рабочий адрес факса для контакта. |
-| [DefaultEmailAddress](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/defaultemailaddress) { get; set; } | Значение электронного адреса по умолчанию Используется, когда пользователь не задает никакого электронного адреса, если свойство UseAutocomplete установлено как «истина» |
+| [BusinessFax](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/businessfax) { get; set; } | Относится к группе свойств , определяющих служебный адрес факса для контакта. |
+| [DefaultEmailAddress](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/defaultemailaddress) { get; set; } | Значение электронного адреса по умолчанию Используется, когда пользователь не задает электронный адрес, если для свойства UseAutocomplete установлено значение «true» |
 | [Email1](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/email1) { get; set; } | Относится к группе свойств , которые определяют первый адрес электронной почты для контакта. |
 | [Email2](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/email2) { get; set; } | Относится к группе свойств , которые определяют второй адрес электронной почты для контакта. |
 | [Email3](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/email3) { get; set; } | Относится к группе свойств , которые определяют третий адрес электронной почты для контакта. |
 | [HomeFax](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/homefax) { get; set; } | Относится к группе свойств , определяющих домашний адрес факса для контакта. |
-| [IsEmpty](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/isempty) { get; } | Показывает, если MapiContactElectronicAddressPropertySet пуст |
+| [IsEmpty](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/isempty) { get; } | Показывает, является ли MapiContactElectronicAddressPropertySet пустым |
 | [PrimaryFax](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/primaryfax) { get; set; } | Относится к группе свойств , определяющих основной адрес факса для контакта. |
-| [UseAutocomplete](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/useautocomplete) { get; set; } | Указывает, что один электронный адрес заполняется автоматически в случае, если пользователь не задает электронный адрес |
+| [UseAutocomplete](../../aspose.email.mapi/mapicontactelectronicaddresspropertyset/useautocomplete) { get; set; } | Указывает, что один электронный адрес заполняется автоматически в случае, если пользователь не задает какой-либо электронный адрес |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: MessageObjectAttachmentsCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет коллекцию для объектовMessageObjectAttachmentEntity./messageobjectattachmententity.
+description: Представляет коллекцию дляMessageObjectAttachmentEntity./messageobjectattachmententity объекты.
 type: docs
-weight: 18810
+weight: 18840
 url: /ru/net/aspose.email.mapi.msg/messageobjectattachmentscollection/
 ---
 ## MessageObjectAttachmentsCollection class
 
-Представляет коллекцию для объектов[`MessageObjectAttachmentEntity`](../messageobjectattachmententity).
+Представляет коллекцию для[`MessageObjectAttachmentEntity`](../messageobjectattachmententity) объекты.
 
 ```csharp
 public sealed class MessageObjectAttachmentsCollection : List<MessageObjectAttachmentEntity>

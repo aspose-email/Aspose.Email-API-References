@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.imap/imapclient/subscribefolder/
 ---
 ## SubscribeFolder(IConnection, string) {#subscribefolder}
 
-Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор "активных" почтовых ящиков сервера.
+Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор «активных» почтовых ящиков сервера.
 
 ```csharp
 public void SubscribeFolder(IConnection connection, string folderName)
@@ -16,8 +16,8 @@ public void SubscribeFolder(IConnection connection, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| folderName | String | Имя папка |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Имя папки |
 
 ### Смотрите также
 
@@ -30,7 +30,7 @@ public void SubscribeFolder(IConnection connection, string folderName)
 
 ## SubscribeFolder(string) {#subscribefolder_1}
 
-Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор "активных" почтовых ящиков сервера.
+Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор «активных» почтовых ящиков сервера.
 
 ```csharp
 public void SubscribeFolder(string folderName)

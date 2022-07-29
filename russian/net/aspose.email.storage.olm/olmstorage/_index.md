@@ -3,7 +3,7 @@ title: OlmStorage
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет файл хранилища Outlook для Mac .OLM.
 type: docs
-weight: 20070
+weight: 20120
 url: /ru/net/aspose.email.storage.olm/olmstorage/
 ---
 ## OlmStorage class
@@ -18,9 +18,9 @@ public class OlmStorage : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [OlmStorage](olmstorage#constructor_1)(Stream) | Инициализирует новый экземпляр класса[`OlmStorage`](../olmstorage). |
-| [OlmStorage](olmstorage#constructor_2)(string) | Инициализирует новый экземпляр класса[`OlmStorage`](../olmstorage). |
-| [OlmStorage](olmstorage#constructor)(TraversalExceptionsCallback) | Инициализирует новый экземпляр класса[`OlmStorage`](../olmstorage). Позволяет задать метод обратного вызова для обработки исключений, возникающих при обходе хранилища OLM. |
+| [OlmStorage](olmstorage#constructor_1)(Stream) | Инициализирует новый экземпляр[`OlmStorage`](../olmstorage) класс. |
+| [OlmStorage](olmstorage#constructor_2)(string) | Инициализирует новый экземпляр[`OlmStorage`](../olmstorage) класс. |
+| [OlmStorage](olmstorage#constructor)(TraversalExceptionsCallback) | Инициализирует новый экземпляр[`OlmStorage`](../olmstorage)class. Позволяет задать метод обратного вызова для обработки исключений, возникающих при обходе хранилища OLM. |
 
 ## Характеристики
 
@@ -34,8 +34,8 @@ public class OlmStorage : IDisposable
 | --- | --- |
 | static [FromFile](../../aspose.email.storage.olm/olmstorage/fromfile)(string) | Загрузить хранилище OLM из файла. |
 | static [FromStream](../../aspose.email.storage.olm/olmstorage/fromstream)(Stream) | Загрузить OLM из потока. |
-| [Dispose](../../aspose.email.storage.olm/olmstorage/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, освобождением или сбросом неуправляемых ресурсов. |
-| [EnumerateMessages](../../aspose.email.storage.olm/olmstorage/enumeratemessages)(OlmFolder) | Предоставляет перечислитель, который поддерживает итерацию сообщений в папке. |
+| [Dispose](../../aspose.email.storage.olm/olmstorage/dispose)() | Выполняет определяемые приложением задачи, связанные с освобождением, выпуском или сбросом неуправляемых ресурсов. |
+| [EnumerateMessages](../../aspose.email.storage.olm/olmstorage/enumeratemessages)(OlmFolder) | Предоставляет перечислитель, поддерживающий итерацию сообщений в папке. |
 | [ExtractMapiMessage](../../aspose.email.storage.olm/olmstorage/extractmapimessage)(OlmMessageInfo) | Получить сообщение из хранилища OLM. |
 | [GetFolder](../../aspose.email.storage.olm/olmstorage/getfolder)(string, bool) | Получает папку по имени. |
 | [GetFolders](../../aspose.email.storage.olm/olmstorage/getfolders)() | Получает коллекцию папок. |

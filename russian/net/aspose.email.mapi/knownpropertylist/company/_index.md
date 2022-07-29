@@ -1,14 +1,14 @@
 ---
 title: Company
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает компанию для которой был создан файл. ОбластьОбщие Каноническое имяPidNameCompany Альтернативные именаurnschemas-microsoft-comofficeofficeCompany
+description: Указывает компанию для которой был создан файл. Область Common Каноническое имя PidNameCompany Альтернативные имена urnschemas-microsoft-comofficeofficeCompany
 type: docs
 weight: 2820
 url: /ru/net/aspose.email.mapi/knownpropertylist/company/
 ---
 ## KnownPropertyList.Company field
 
-Указывает компанию, для которой был создан файл. Область:Общие Каноническое имя:PidNameCompany Альтернативные имена:urn:schemas-microsoft-com:office:office#Company
+Указывает компанию, для которой был создан файл. Область: Common Каноническое имя: PidNameCompany Альтернативные имена: urn:schemas-microsoft-com:office:office#Company
 
 ```csharp
 public static readonly PidNamePropertyDescriptor Company;

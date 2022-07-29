@@ -19,7 +19,7 @@ public interface IMapiMessageItem
 | Имя | Описание |
 | --- | --- |
 | [Body](../../aspose.email.mapi/imapimessageitem/body) { get; set; } | Получает тело сообщения |
-| [MessageClass](../../aspose.email.mapi/imapimessageitem/messageclass) { get; } | Получает класс сообщения |
+| [MessageClass](../../aspose.email.mapi/imapimessageitem/messageclass) { get; } | Получает сообщение class |
 | [Subject](../../aspose.email.mapi/imapimessageitem/subject) { get; set; } | Получает тему сообщения |
 
 ### Смотрите также

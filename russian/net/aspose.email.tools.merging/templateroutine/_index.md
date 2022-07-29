@@ -3,7 +3,7 @@ title: TemplateRoutine
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет подпрограмму используемую в файле шаблона.
 type: docs
-weight: 20560
+weight: 20610
 url: /ru/net/aspose.email.tools.merging/templateroutine/
 ---
 ## TemplateRoutine delegate

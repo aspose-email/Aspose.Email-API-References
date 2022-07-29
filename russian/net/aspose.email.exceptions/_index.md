@@ -16,8 +16,8 @@ url: /ru/net/aspose.email.exceptions/
 | [ObjectDisposedException](./objectdisposedexception) | Представляет ошибки, возникающие при отмене операции. |
 | [OperationCanceledException](./operationcanceledexception) | Представляет ошибки, возникающие при отмене операции. |
 | [TraversalAsposeException](./traversalasposeexception) | Представляет исключение, которое может возникнуть при обходе хранилища. |
-| [TraversalExceptionsCallback](./traversalexceptionscallback) | Представляет метод обратного вызова, который обрабатывает исключения во время обхода хранилища. |
-| [TraversalFailureKind](./traversalfailurekind) | Представляет тип сбоя, который может возникнуть при обходе хранилища. |
+| [TraversalExceptionsCallback](./traversalexceptionscallback) | Представляет метод обратного вызова, обрабатывающий исключения во время обхода хранилища. |
+| [TraversalFailureKind](./traversalfailurekind) | Представляет вид сбоя, который может возникнуть при обходе хранилища. |
 ## перечисление
 
 | перечисление | Описание |

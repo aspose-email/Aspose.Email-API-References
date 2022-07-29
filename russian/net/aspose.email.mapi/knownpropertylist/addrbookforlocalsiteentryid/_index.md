@@ -1,14 +1,14 @@
 ---
 title: AddrbookForLocalSiteEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID
 type: docs
 weight: 320
 url: /ru/net/aspose.email.mapi/knownpropertylist/addrbookforlocalsiteentryid/
 ---
 ## KnownPropertyList.AddrbookForLocalSiteEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ADDRBOOK_FOR_LOCAL_SITE_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddrbookForLocalSiteEntryid;

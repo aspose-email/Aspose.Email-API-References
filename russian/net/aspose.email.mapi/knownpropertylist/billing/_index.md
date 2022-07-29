@@ -1,14 +1,14 @@
 ---
 title: Billing
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает платежную информацию для контакта. ОбластьОбщие свойства сообщения Каноническое имяPidLidBilling Альтернативные именаdispidBilling
+description: Указывает платежную информацию для контакта. Область Общие свойства сообщения Каноническое имя PidLidBilling Альтернативные имена dispidBilling
 type: docs
 weight: 1980
 url: /ru/net/aspose.email.mapi/knownpropertylist/billing/
 ---
 ## KnownPropertyList.Billing field
 
-Указывает платежную информацию для контакта. Область:Общие свойства сообщения Каноническое имя:PidLidBilling Альтернативные имена:dispidBilling
+Указывает платежную информацию для контакта. Область: Общие свойства сообщения Каноническое имя: PidLidBilling Альтернативные имена: dispidBilling
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Billing;

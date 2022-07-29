@@ -16,7 +16,7 @@ public Contact[] GetMailboxes()
 
 ### Возвращаемое значение
 
-Массив объектов[`Contact`](../../../aspose.email.personalinfo/contact).
+Массив[`Contact`](../../../aspose.email.personalinfo/contact) объекты.
 
 ### Смотрите также
 

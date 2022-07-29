@@ -18,13 +18,13 @@ public sealed class InboxRule
 
 | Имя | Описание |
 | --- | --- |
-| [InboxRule](inboxrule)() | Инициализирует новый экземпляр класса[`InboxRule`](../inboxrule) |
+| [InboxRule](inboxrule)() | Инициализирует новый экземпляр[`InboxRule`](../inboxrule) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Actions](../../aspose.email.clients.exchange/inboxrule/actions) { get; set; } | Получает или задает действия, выполняемые над сообщением при выполнении условий. |
+| [Actions](../../aspose.email.clients.exchange/inboxrule/actions) { get; set; } | Получает или задает действия, которые необходимо выполнить над сообщением при выполнении условий. |
 | [Conditions](../../aspose.email.clients.exchange/inboxrule/conditions) { get; set; } | Получает или задает условия, выполнение которых инициирует действия правила для этого правила. |
 | [DisplayName](../../aspose.email.clients.exchange/inboxrule/displayname) { get; set; } | Получает или задает отображаемое имя правила. |
 | [Exceptions](../../aspose.email.clients.exchange/inboxrule/exceptions) { get; set; } | Получает или задает исключения, представляющие все доступные условия исключения правила для правила папки "Входящие". |
@@ -40,7 +40,7 @@ public sealed class InboxRule
 | Имя | Описание |
 | --- | --- |
 | static [CreateRuleDeleteContaining](../../aspose.email.clients.exchange/inboxrule/createruledeletecontaining)(string[]) | Создает правило для папки "Входящие", которое удаляет сообщения, содержащие указанные строки либо в теле, либо в теме |
-| static [CreateRuleDeleteFrom](../../aspose.email.clients.exchange/inboxrule/createruledeletefrom)(MailAddress) | Создает правило папки "Входящие", которое удаляет сообщения от указанных отправителей |
+| static [CreateRuleDeleteFrom](../../aspose.email.clients.exchange/inboxrule/createruledeletefrom)(MailAddress) | Создает правило для папки "Входящие", которое удаляет сообщения от указанных отправителей |
 | static [CreateRuleMoveContaining](../../aspose.email.clients.exchange/inboxrule/createrulemovecontaining)(string[], string) | Создает правило для папки "Входящие", которое перемещает сообщения, содержащие указанные строки в теле или теме, в указанную папку |
 | static [CreateRuleMoveFrom](../../aspose.email.clients.exchange/inboxrule/createrulemovefrom)(MailAddress, string) | Создает правило для папки "Входящие", которое перемещает сообщения от указанных отправителей в указанную папку |
 

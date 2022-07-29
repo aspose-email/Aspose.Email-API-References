@@ -1,14 +1,14 @@
 ---
 title: Isdn
 second_title: Справочник по Aspose.Email для .NET API
-description: Номер телефона Isdn
+description: Isdn номер телефона
 type: docs
 weight: 100
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/isdn/
 ---
 ## PhoneNumberCategory.Isdn property
 
-Номер телефона Isdn
+Isdn номер телефона
 
 ```csharp
 public static PhoneNumberCategory Isdn { get; }

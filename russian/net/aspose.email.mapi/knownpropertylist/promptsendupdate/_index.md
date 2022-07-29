@@ -1,14 +1,14 @@
 ---
 title: PromptSendUpdate
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что объект ответа на собрание был устаревшим на момент его получения. ОбластьОтвет на встречу Каноническое имяPidLidPromptSendUpdate Альтернативные именаdispidPromptSendUpdate
+description: Указывает что объект ответа на собрание был устаревшим на момент его получения. Область ответ на собрание Каноническое имя PidLidPromptSendUpdate Альтернативные имена dispidPromptSendUpdate
 type: docs
 weight: 14990
 url: /ru/net/aspose.email.mapi/knownpropertylist/promptsendupdate/
 ---
 ## KnownPropertyList.PromptSendUpdate field
 
-Указывает, что объект ответа на собрание был устаревшим на момент его получения. Область:Ответ на встречу Каноническое имя:PidLidPromptSendUpdate Альтернативные имена:dispidPromptSendUpdate
+Указывает, что объект ответа на собрание был устаревшим на момент его получения. Область: ответ на собрание Каноническое имя: PidLidPromptSendUpdate Альтернативные имена: dispidPromptSendUpdate
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PromptSendUpdate;

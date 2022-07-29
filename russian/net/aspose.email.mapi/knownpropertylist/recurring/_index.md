@@ -1,14 +1,14 @@
 ---
 title: Recurring
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает представляет ли объект повторяющуюся серию. ОбластьКалендарь Каноническое имяPidLidRecurring Альтернативные именаdispidRecurring
+description: Указывает представляет ли объект повторяющуюся серию. Область Calendar Каноническое имя PidLidRecurring Альтернативные имена dispidRecurring
 type: docs
 weight: 15610
 url: /ru/net/aspose.email.mapi/knownpropertylist/recurring/
 ---
 ## KnownPropertyList.Recurring field
 
-Указывает, представляет ли объект повторяющуюся серию. Область:Календарь Каноническое имя:PidLidRecurring Альтернативные имена:dispidRecurring
+Указывает, представляет ли объект повторяющуюся серию. Область: Calendar Каноническое имя: PidLidRecurring Альтернативные имена: dispidRecurring
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Recurring;

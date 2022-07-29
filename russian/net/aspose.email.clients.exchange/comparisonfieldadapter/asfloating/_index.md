@@ -1,14 +1,14 @@
 ---
 title: AsFloating
 second_title: Справочник по Aspose.Email для .NET API
-description: Возвращает текущийComparisonFieldaspose.email.tools.search/comparisonfieldкакDoubleComparisonFieldaspose.email.tools.search/doublecomparisonfield
+description: Возвращает текущийComparisonFieldaspose.email.tools.search/comparisonfield в качествеDoubleComparisonFieldaspose.email.tools.search/doublecomparisonfield
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.exchange/comparisonfieldadapter/asfloating/
 ---
 ## ComparisonFieldAdapter.AsFloating property
 
-Возвращает текущий[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield)как[`DoubleComparisonField`](../../../aspose.email.tools.search/doublecomparisonfield)
+Возвращает текущий[`ComparisonField`](../../../aspose.email.tools.search/comparisonfield) в качестве[`DoubleComparisonField`](../../../aspose.email.tools.search/doublecomparisonfield)
 
 ```csharp
 public DoubleComparisonField AsFloating { get; }

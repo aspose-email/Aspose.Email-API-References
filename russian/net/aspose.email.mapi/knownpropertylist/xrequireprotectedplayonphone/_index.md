@@ -1,14 +1,14 @@
 ---
 title: XRequireProtectedPlayOnPhone
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что клиент отображает сообщение только на телефоне. ОбластьЕдиная система обмена сообщениями Каноническое имяPidNameXRequireProtectedPlayOnPhone Альтернативные имена
+description: Указывает что клиент отображает сообщение только на телефоне. Область Единая система обмена сообщениями Каноническое имя PidNameXRequireProtectedPlayOnPhone Альтернативные имена
 type: docs
 weight: 19690
 url: /ru/net/aspose.email.mapi/knownpropertylist/xrequireprotectedplayonphone/
 ---
 ## KnownPropertyList.XRequireProtectedPlayOnPhone field
 
-Указывает, что клиент отображает сообщение только на телефоне. Область:Единая система обмена сообщениями Каноническое имя:PidNameXRequireProtectedPlayOnPhone Альтернативные имена:
+Указывает, что клиент отображает сообщение только на телефоне. Область: Единая система обмена сообщениями Каноническое имя: PidNameXRequireProtectedPlayOnPhone Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XRequireProtectedPlayOnPhone;

@@ -1,14 +1,14 @@
 ---
 title: UrlCategory
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаUrlCategoryaspose.email.personalinfo/urlcategoryс категорией Custom.
+description: Инициализирует новый экземплярUrlCategoryaspose.email.personalinfo/urlcategory класс с категорией Пользовательский.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.personalinfo/urlcategory/urlcategory/
 ---
 ## UrlCategory constructor
 
-Инициализирует новый экземпляр класса[`UrlCategory`](../../urlcategory)с категорией Custom.
+Инициализирует новый экземпляр[`UrlCategory`](../../urlcategory) класс с категорией «Пользовательский».
 
 ```csharp
 public UrlCategory(string description)

@@ -18,12 +18,12 @@ public class SmtpFailedRecipientException : SmtpException
 
 | Имя | Описание |
 | --- | --- |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor)() | Инициализирует новый экземпляр класса[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_3)(string) | Инициализирует новый экземпляр класса[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_1)(SmtpStatusCode, string) | Инициализирует новый экземпляр класса[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_4)(string, Exception) | Инициализирует новый экземпляр класса[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_2)(SmtpStatusCode, string, string) | Инициализирует новый экземпляр класса[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) |
-| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_5)(string, string, Exception) | Инициализирует новый экземпляр класса[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor)() | Инициализирует новый экземпляр[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) класс |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_3)(string) | Инициализирует новый экземпляр[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) класс |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_1)(SmtpStatusCode, string) | Инициализирует новый экземпляр[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) класс |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_4)(string, Exception) | Инициализирует новый экземпляр[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) класс |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_2)(SmtpStatusCode, string, string) | Инициализирует новый экземпляр[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) класс |
+| [SmtpFailedRecipientException](smtpfailedrecipientexception#constructor_5)(string, string, Exception) | Инициализирует новый экземпляр[`SmtpFailedRecipientException`](../smtpfailedrecipientexception) класс |
 
 ## Характеристики
 

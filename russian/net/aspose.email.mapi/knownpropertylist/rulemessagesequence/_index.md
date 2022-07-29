@@ -1,14 +1,14 @@
 ---
 title: RuleMessageSequence
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение используемое для определения порядка в котором оцениваются и выполняются правила. Установите на сообщение FAI. ОбластьExchangeNonTransmittableReserved Каноническое имяPidTagRuleMessageSequence Альтернативные именаPR_RULE_MSG_SEQUENCE ptagRuleMsgSequence
+description: Содержит значение используемое для определения порядка в котором оцениваются и выполняются правила. Установите на сообщение FAI. Область ExchangeNonTransmittableReserved Каноническое имя PidTagRuleMessageSequence Альтернативные имена PR_RULE_MSG_SEQUENCE ptagRuleMsgSequence
 type: docs
 weight: 16560
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulemessagesequence/
 ---
 ## KnownPropertyList.RuleMessageSequence field
 
-Содержит значение, используемое для определения порядка, в котором оцениваются и выполняются правила. Установите на сообщение FAI. Область:ExchangeNonTransmittableReserved Каноническое имя:PidTagRuleMessageSequence Альтернативные имена:PR_RULE_MSG_SEQUENCE, ptagRuleMsgSequence
+Содержит значение, используемое для определения порядка, в котором оцениваются и выполняются правила. Установите на сообщение FAI. Область: ExchangeNonTransmittableReserved Каноническое имя: PidTagRuleMessageSequence Альтернативные имена: PR_RULE_MSG_SEQUENCE, ptagRuleMsgSequence
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageSequence;

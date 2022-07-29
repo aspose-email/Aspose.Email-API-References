@@ -20,7 +20,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder)
 
 ### Возвращаемое значение
 
-A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+А[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
 ### Смотрите также
 
@@ -47,7 +47,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 
 ### Возвращаемое значение
 
-A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+А[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
 ### Смотрите также
 
@@ -74,7 +74,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 
 ### Возвращаемое значение
 
-A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+А[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
 ### Смотрите также
 
@@ -102,7 +102,7 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 
 ### Возвращаемое значение
 
-A[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
+А[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)
 
 ### Смотрите также
 
@@ -125,12 +125,12 @@ public ExchangeMessageInfoCollection ListMessages(string mailbox, string folder,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | mailbox | String | Почтовый ящик, который используется для инициализации класса идентификатора папки. |
-| folder | String | Папка для поиска сообщений в |
-| recursive | Boolean | Указывает, используется ли рекурсивный листинг |
+| folder | String | Папка для поиска сообщений |
+| recursive | Boolean | Указывает, рекурсивный листинг или нет |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)которая содержит сообщения из указанной папки
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) который содержит сообщения из указанной папки
 
 ### Смотрите также
 
@@ -151,13 +151,13 @@ public ExchangeMessageInfoCollection ListMessages(string mailbox, string folder,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mailbox | String | Почтовый ящик, используемый для инициализации класса идентификатора папки. |
+| mailbox | String | Почтовый ящик, который используется для инициализации класса идентификатора папки. |
 | folder | String | Папка для поиска сообщений. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска сообщений. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска сообщения. |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)содержащий сообщения из указанной папки.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)который содержит сообщения из указанной папки.
 
 ### Смотрите также
 
@@ -179,12 +179,12 @@ public ExchangeMessageInfoCollection ListMessages(string folder, bool recursive)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | Папка для поиск сообщений в |
+| folder | String | Папка для поиска сообщений |
 | recursive | Boolean | Указывает, рекурсивный листинг или нет |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection), который содержит сообщения из указанной папки
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) который содержит сообщения из указанной папки
 
 ### Смотрите также
 
@@ -206,13 +206,13 @@ public ExchangeMessageInfoCollection ListMessages(string folder,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | String | Папка для искать сообщения в |
+| folder | String | Папка для поиска сообщений |
 | options | ExchangeListMessagesOptions | Задает настройки листинга |
 | extendedProperties | IEnumerable`1 | Расширенные свойства полученных сообщений |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)содержащий сообщения из указанной папки
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) который содержит сообщения из указанной папки
 
 ### Смотрите также
 
@@ -236,11 +236,11 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folder | String | Папка для поиска сообщений. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска сообщения. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска сообщений. |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection), содержащий сообщения из указанной папки.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) содержащий сообщения из указанной папки.
 
 ### Смотрите также
 
@@ -263,12 +263,12 @@ public ExchangeMessageInfoCollection ListMessages(string folder, MailQuery query
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folder | String | Папка для поиска сообщений. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска сообщения. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска сообщений. |
 | recursive | Boolean | Указывает, рекурсивный листинг или нет. |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection), содержащий сообщения из указанной папки.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) содержащий сообщения из указанной папки.
 
 ### Смотрите также
 
@@ -293,12 +293,12 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | --- | --- | --- |
 | folder | String | Папка для поиска сообщений. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска сообщения. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска сообщения. |
 | recursive | Boolean | Указывает, рекурсивный листинг или нет. |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)содержащий сообщения из указанной папки.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)который содержит сообщения из указанной папки.
 
 ### Смотрите также
 
@@ -324,7 +324,7 @@ public ExchangeMessageInfoCollection ListMessages(IEnumerable<string> iDs)
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection), который содержит сообщения с.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) который содержит сообщения с.
 
 ### Смотрите также
 
@@ -345,7 +345,7 @@ public ExchangeMessageInfoCollection ListMessages()
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)из папки "Входящие".
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) из папки входящие.
 
 ### Смотрите также
 
@@ -369,11 +369,11 @@ public ExchangeMessageInfoCollection ListMessages(string folder, int maxNumberOf
 | --- | --- | --- |
 | folder | String | Папка для поиска сообщений. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска сообщения. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска сообщения. |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)содержащий сообщения из указанной папки.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)который содержит сообщения из указанной папки.
 
 ### Смотрите также
 

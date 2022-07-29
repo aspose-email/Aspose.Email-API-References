@@ -1,14 +1,14 @@
 ---
 title: HasNamedProperties
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имеет ли объект Message именованное свойство. ОбластьExchangeMessageReadOnly Каноническое имяPidTagHasNamedProperties Альтернативные именаPR_HAS_NAMED_PROPERTIES ptagHasNamedProperties
+description: Указывает имеет ли объект Message именованное свойство. Область ExchangeMessageReadOnly Каноническое имя PidTagHasNamedProperties Альтернативные имена PR_HAS_NAMED_PROPERTIES ptagHasNamedProperties
 type: docs
 weight: 10870
 url: /ru/net/aspose.email.mapi/knownpropertylist/hasnamedproperties/
 ---
 ## KnownPropertyList.HasNamedProperties field
 
-Указывает, имеет ли объект Message именованное свойство. Область:ExchangeMessageReadOnly Каноническое имя:PidTagHasNamedProperties Альтернативные имена:PR_HAS_NAMED_PROPERTIES, ptagHasNamedProperties
+Указывает, имеет ли объект Message именованное свойство. Область: ExchangeMessageReadOnly Каноническое имя: PidTagHasNamedProperties Альтернативные имена: PR_HAS_NAMED_PROPERTIES, ptagHasNamedProperties
 
 ```csharp
 public static readonly PidTagPropertyDescriptor HasNamedProperties;

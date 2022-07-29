@@ -1,14 +1,14 @@
 ---
 title: CreateTemplates
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CREATE_TEMPLATES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CREATE_TEMPLATES
 type: docs
 weight: 3530
 url: /ru/net/aspose.email.mapi/knownpropertylist/createtemplates/
 ---
 ## KnownPropertyList.CreateTemplates field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CREATE_TEMPLATES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CREATE_TEMPLATES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CreateTemplates;

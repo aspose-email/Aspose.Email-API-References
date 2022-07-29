@@ -1,14 +1,14 @@
 ---
 title: ImapUniqueIdParameterSet
 second_title: Справочник по Aspose.Email для .NET API
-description: Набор параметров методаIAsyncImapClient../aspose.email.clients.imap/iasyncimapclientс набором уникальных идентификаторов сообщения.
+description: IAsyncImapClient../aspose.email.clients.imap/iasyncimapclient набор параметров метода с набором уникальных идентификаторов сообщений.
 type: docs
 weight: 16610
 url: /ru/net/aspose.email.clients.imap.models/imapuniqueidparameterset/
 ---
 ## ImapUniqueIdParameterSet class
 
-Набор параметров метода[`IAsyncImapClient`](../../aspose.email.clients.imap/iasyncimapclient)с набором уникальных идентификаторов сообщения.
+[`IAsyncImapClient`](../../aspose.email.clients.imap/iasyncimapclient) набор параметров метода с набором уникальных идентификаторов сообщений.
 
 ```csharp
 public class ImapUniqueIdParameterSet : ImapMethodParametersGeneral<ImapUniqueIdParameterSet>
@@ -18,12 +18,12 @@ public class ImapUniqueIdParameterSet : ImapMethodParametersGeneral<ImapUniqueId
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.imap.models/imapuniqueidparameterset/create)() | Создать экземпляр[`ImapUniqueIdParameterSet`](../imapuniqueidparameterset). |
+| static [Create](../../aspose.email.clients.imap.models/imapuniqueidparameterset/create)() | Создать[`ImapUniqueIdParameterSet`](../imapuniqueidparameterset) экземпляр. |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) |  |
 | [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) |  |
 | [SetMessage](../../aspose.email.clients.imap.models/imapuniqueidparameterset/setmessage)(string) | Установить уникальный идентификатор сообщения. |
 | [SetMessages](../../aspose.email.clients.imap.models/imapuniqueidparameterset/setmessages#setmessages)(IEnumerable&lt;string&gt;) | Установить уникальные идентификаторы сообщения. |
-| [SetMessages](../../aspose.email.clients.imap.models/imapuniqueidparameterset/setmessages#setmessages_1)(string, string) | Установите диапазон уникальных идентификаторов сообщений. |
+| [SetMessages](../../aspose.email.clients.imap.models/imapuniqueidparameterset/setmessages#setmessages_1)(string, string) | Установить диапазон уникальных идентификаторов сообщений. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OfflineAddressBookTruncatedProperties
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список тегов свойств которые были усечены или ограничены сервером. ОбластьСвойства автономной адресной книги Каноническое имяPidTagOfflineAddressBookTruncatedProperties Альтернативные именаPR_OAB_TRUNCATED_PROPS
+description: Содержит список тегов свойств которые были усечены или ограничены сервером. Область Свойства автономной адресной книги Каноническое имя PidTagOfflineAddressBookTruncatedProperties Альтернативные имена PR_OAB_TRUNCATED_PROPS
 type: docs
 weight: 13290
 url: /ru/net/aspose.email.mapi/knownpropertylist/offlineaddressbooktruncatedproperties/
 ---
 ## KnownPropertyList.OfflineAddressBookTruncatedProperties field
 
-Содержит список тегов свойств, которые были усечены или ограничены сервером. Область:Свойства автономной адресной книги Каноническое имя:PidTagOfflineAddressBookTruncatedProperties Альтернативные имена:PR_OAB_TRUNCATED_PROPS
+Содержит список тегов свойств, которые были усечены или ограничены сервером. Область: Свойства автономной адресной книги Каноническое имя: PidTagOfflineAddressBookTruncatedProperties Альтернативные имена: PR_OAB_TRUNCATED_PROPS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OfflineAddressBookTruncatedProperties;

@@ -18,13 +18,13 @@ public class MailMessageEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [MailMessageEventArgs](mailmessageeventargs)(MailMessage) | Инициализирует новый экземпляр класса[`MailMessageEventArgs`](../mailmessageeventargs). |
+| [MailMessageEventArgs](mailmessageeventargs)(MailMessage) | Инициализирует новый экземпляр[`MailMessageEventArgs`](../mailmessageeventargs) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Message](../../aspose.email.clients.smtp/mailmessageeventargs/message) { get; } | Получает отправляемое сообщение. |
+| [Message](../../aspose.email.clients.smtp/mailmessageeventargs/message) { get; } | Получает сообщение об отправке. |
 
 ### Смотрите также
 

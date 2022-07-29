@@ -1,14 +1,14 @@
 ---
 title: AttachRendering
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит метафайл Windows как указано в MS-WMF для объекта вложения. ОбластьСвойства вложения сообщения Каноническое имяPidTagAttachRendering Альтернативные именаPR_ATTACH_RENDERING ptagAttachRendering
+description: Содержит метафайл Windows как указано в MS-WMF для объекта вложения. Область Свойства вложения сообщения Каноническое имя PidTagAttachRendering Альтернативные имена PR_ATTACH_RENDERING ptagAttachRendering
 type: docs
 weight: 1780
 url: /ru/net/aspose.email.mapi/knownpropertylist/attachrendering/
 ---
 ## KnownPropertyList.AttachRendering field
 
-Содержит метафайл Windows, как указано в [MS-WMF], для объекта вложения. Область:Свойства вложения сообщения Каноническое имя:PidTagAttachRendering Альтернативные имена:PR_ATTACH_RENDERING, ptagAttachRendering
+Содержит метафайл Windows, как указано в [MS-WMF], для объекта вложения. Область: Свойства вложения сообщения Каноническое имя: PidTagAttachRendering Альтернативные имена: PR_ATTACH_RENDERING, ptagAttachRendering
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AttachRendering;

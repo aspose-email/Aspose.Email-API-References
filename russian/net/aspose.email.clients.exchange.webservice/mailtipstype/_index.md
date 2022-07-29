@@ -1,14 +1,14 @@
 ---
 title: MailTipsType
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет типы почтовых подсказок
+description: Перечисляет типы почтовых советов
 type: docs
 weight: 4000
 url: /ru/net/aspose.email.clients.exchange.webservice/mailtipstype/
 ---
 ## MailTipsType enumeration
 
-Перечисляет типы почтовых подсказок
+Перечисляет типы почтовых советов
 
 ```csharp
 [Flags]
@@ -24,7 +24,7 @@ public enum MailTipsType
 | MailboxFullStatus | `4` | Представляет состояние заполненного почтового ящика. |
 | CustomMailTip | `8` | Представляет пользовательскую почтовую подсказку. |
 | ExternalMemberCount | `10` | Представляет количество внешних членов. |
-| TotalMemberCount | `20` | Представляет количество всех членов. |
+| TotalMemberCount | `20` | Представляет количество всех участников. |
 | MaxMessageSize | `40` | Представляет максимальный размер сообщения, который может принять получатель. |
 | DeliveryRestriction | `80` | Указывает, будут ли ограничения доставки препятствовать тому, чтобы сообщение отправителя достигло получателя. |
 | ModerationStatus | `100` | Указывает, будет ли сообщение отправителя рассмотрено модератором. |

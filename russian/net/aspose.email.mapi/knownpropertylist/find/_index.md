@@ -16,11 +16,11 @@ public PropertyDescriptor[] Find(params Guid[] propertySets)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| propertySets | Guid[] | PropertySet для find |
+| propertySets | Guid[] | Набор свойств, чтобы найти |
 
 ### Возвращаемое значение
 
-Массив объектов[`PropertyDescriptor`](../../propertydescriptor)с требуемым набором свойств, если он найден в списке; иначе пустой массив.
+Массив[`PropertyDescriptor`](../../propertydescriptor)объекты с требуемым PropertySet, если они найдены в списке; иначе пустой массив.
 
 ### Смотрите также
 
@@ -41,11 +41,11 @@ public PropertyDescriptor Find(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Используемое имя ссылаться на свойство. |
+| name | String | Имя, используемое для ссылки на свойство. |
 
 ### Возвращаемое значение
 
-[`PropertyDescriptor`](../../propertydescriptor)объект, если он найден в списке; в противном случае ноль.
+[`PropertyDescriptor`](../../propertydescriptor) объект, если он найден в списке; в противном случае ноль.
 
 ### Смотрите также
 
@@ -58,7 +58,7 @@ public PropertyDescriptor Find(string name)
 
 ## Find(int, PropertyDataType) {#find_4}
 
-Находит[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)свойство в списке
+Находит[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) свойство в списке
 
 ```csharp
 public PidTagPropertyDescriptor Find(int id, PropertyDataType type)
@@ -66,12 +66,12 @@ public PidTagPropertyDescriptor Find(int id, PropertyDataType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | Int32 | id для поиска |
+| id | Int32 | идентификатор, чтобы найти |
 | type | PropertyDataType | Тип данных свойства |
 
 ### Возвращаемое значение
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)объект с определенным тегом, если он найден в списке; в противном случае ноль.
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) объект с определенным тегом, если он найден в списке; в противном случае ноль.
 
 ### Смотрите также
 
@@ -85,7 +85,7 @@ public PidTagPropertyDescriptor Find(int id, PropertyDataType type)
 
 ## Find(int) {#find_6}
 
-Находит[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)свойства в списке
+Находит[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) свойства в list
 
 ```csharp
 public PidTagPropertyDescriptor[] Find(int id)
@@ -93,11 +93,11 @@ public PidTagPropertyDescriptor[] Find(int id)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | Int32 | id для поиска |
+| id | Int32 | идентификатор, чтобы найти |
 
 ### Возвращаемое значение
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)Массив объектов с определенным тегом, если он найден в списке; иначе пустой массив.
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) Массив объектов с определенным тегом, если он найден в списке; иначе пустой массив.
 
 ### Смотрите также
 
@@ -110,7 +110,7 @@ public PidTagPropertyDescriptor[] Find(int id)
 
 ## Find(long) {#find_5}
 
-Находит[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)свойство в списке
+Находит[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) свойство в списке
 
 ```csharp
 public PidTagPropertyDescriptor Find(long tag)
@@ -118,11 +118,11 @@ public PidTagPropertyDescriptor Find(long tag)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tag | Int64 | Тег для поиска |
+| tag | Int64 | Отметьте, чтобы найти |
 
 ### Возвращаемое значение
 
-[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor)объект с определенным тег, если он найден в списке; в противном случае ноль.
+[`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) объект с определенным тегом, если он найден в списке; в противном случае ноль.
 
 ### Смотрите также
 
@@ -135,7 +135,7 @@ public PidTagPropertyDescriptor Find(long tag)
 
 ## Find(string, PropertyDataType, Guid) {#find_2}
 
-Находит[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)свойство в списке по требуемым параметрам
+Находит[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) свойство в списке по требуемым параметрам
 
 ```csharp
 public PidNamePropertyDescriptor Find(string name, PropertyDataType type, Guid propertySet)
@@ -143,13 +143,13 @@ public PidNamePropertyDescriptor Find(string name, PropertyDataType type, Guid p
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства |
+| name | String | Название свойства |
 | type | PropertyDataType | Тип данных свойства |
 | propertySet | Guid | PropertySet свойства |
 
 ### Возвращаемое значение
 
-[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)объект, если он найден в списке; в противном случае ноль.
+[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) объект, если он найден в списке; в противном случае ноль.
 
 ### Смотрите также
 
@@ -163,7 +163,7 @@ public PidNamePropertyDescriptor Find(string name, PropertyDataType type, Guid p
 
 ## Find(string, Guid) {#find_3}
 
-Находит[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)свойство в списке по требуемым параметрам Это упрощено операция поиска без сравнения типов данных.
+Находит[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)свойство в списке по требуемым параметрам Это упрощенная операция поиска без сравнения типов данных.
 
 ```csharp
 public PidNamePropertyDescriptor Find(string name, Guid propertySet)
@@ -171,12 +171,12 @@ public PidNamePropertyDescriptor Find(string name, Guid propertySet)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства |
-| propertySet | Guid | PropertySet свойство |
+| name | String | Название свойства |
+| propertySet | Guid | PropertySet свойства |
 
 ### Возвращаемое значение
 
-[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor)объект, если он найден в списке; в противном случае ноль.
+[`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) объект, если он найден в списке; в противном случае ноль.
 
 ### Смотрите также
 
@@ -189,7 +189,7 @@ public PidNamePropertyDescriptor Find(string name, Guid propertySet)
 
 ## Find(long, PropertyDataType, Guid) {#find}
 
-Находит[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)свойство в списке по требуемым параметрам
+Находит[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) свойство в списке по требуемым параметрам
 
 ```csharp
 public PidLidPropertyDescriptor Find(long lid, PropertyDataType type, Guid propertySet)
@@ -203,7 +203,7 @@ public PidLidPropertyDescriptor Find(long lid, PropertyDataType type, Guid prope
 
 ### Возвращаемое значение
 
-[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)object if нашел в списке; в противном случае ноль.
+[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) объект, если он найден в списке; в противном случае ноль.
 
 ### Смотрите также
 
@@ -217,7 +217,7 @@ public PidLidPropertyDescriptor Find(long lid, PropertyDataType type, Guid prope
 
 ## Find(long, Guid) {#find_1}
 
-Находит[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)свойство в списке по требуемым параметрам Это упрощено операция поиска без сравнения типов данных.
+Находит[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)свойство в списке по требуемым параметрам Это упрощенная операция поиска без сравнения типов данных.
 
 ```csharp
 public PidLidPropertyDescriptor Find(long lid, Guid propertySet)
@@ -226,11 +226,11 @@ public PidLidPropertyDescriptor Find(long lid, Guid propertySet)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | lid | Int64 | Длинный идентификатор свойства |
-| propertySet | Guid | PropertySet of свойство |
+| propertySet | Guid | PropertySet свойства |
 
 ### Возвращаемое значение
 
-[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor)объект, если он найден в списке; в противном случае ноль.
+[`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) объект, если он найден в списке; в противном случае ноль.
 
 ### Смотрите также
 

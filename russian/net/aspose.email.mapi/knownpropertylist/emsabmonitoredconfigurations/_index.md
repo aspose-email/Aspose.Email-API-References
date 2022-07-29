@@ -1,14 +1,14 @@
 ---
 title: EmsAbMonitoredConfigurations
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MONITORED_CONFIGURATIONS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MONITORED_CONFIGURATIONS
 type: docs
 weight: 7280
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmonitoredconfigurations/
 ---
 ## KnownPropertyList.EmsAbMonitoredConfigurations field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MONITORED_CONFIGURATIONS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MONITORED_CONFIGURATIONS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMonitoredConfigurations;

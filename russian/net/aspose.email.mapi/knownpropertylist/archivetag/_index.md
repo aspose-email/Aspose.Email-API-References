@@ -1,14 +1,14 @@
 ---
 title: ArchiveTag
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает GUID тега архива. ОбластьАрхив Каноническое имяPidTagArchiveTag Альтернативные именаPR_ARCHIVE_TAG ptagArchiveTag
+description: Указывает GUID тега архива. Область Archive Каноническое имя PidTagArchiveTag Альтернативные имена PR_ARCHIVE_TAG ptagArchiveTag
 type: docs
 weight: 1420
 url: /ru/net/aspose.email.mapi/knownpropertylist/archivetag/
 ---
 ## KnownPropertyList.ArchiveTag field
 
-Указывает GUID тега архива. Область:Архив Каноническое имя:PidTagArchiveTag Альтернативные имена:PR_ARCHIVE_TAG, ptagArchiveTag
+Указывает GUID тега архива. Область: Archive Каноническое имя: PidTagArchiveTag Альтернативные имена: PR_ARCHIVE_TAG, ptagArchiveTag
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ArchiveTag;

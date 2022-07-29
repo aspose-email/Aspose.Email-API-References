@@ -16,7 +16,7 @@ public static IList<string> GetCategories(MapiMessage message)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)в котором добавляются категории. |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором добавляются категории. |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,7 @@ public static IList<string> GetCategories(MapiMessage message)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
+| ArgumentNullException | Если*message* нулевой. |
 
 ### Смотрите также
 

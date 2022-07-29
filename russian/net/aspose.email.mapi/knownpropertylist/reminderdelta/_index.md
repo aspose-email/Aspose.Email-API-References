@@ -1,14 +1,14 @@
 ---
 title: ReminderDelta
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает интервал в минутах между временем когда напоминание становится просроченным и временем начала объекта календаря. ОбластьНапоминания Каноническое имяPidLidReminderDelta Альтернативные именаdispidReminderDelta http//schemas.microsoft.com/mapi/reminderdelta
+description: Задает интервал в минутах между временем когда напоминание впервые становится просроченным и временем начала объекта календаря. Область Reminders Каноническое имя PidLidReminderDelta Альтернативные имена dispidReminderDelta http//schemas.microsoft.com/mapi/reminderdelta
 type: docs
 weight: 15670
 url: /ru/net/aspose.email.mapi/knownpropertylist/reminderdelta/
 ---
 ## KnownPropertyList.ReminderDelta field
 
-Задает интервал в минутах между временем, когда напоминание становится просроченным, и временем начала объекта календаря. Область:Напоминания Каноническое имя:PidLidReminderDelta Альтернативные имена:dispidReminderDelta, http://schemas.microsoft.com/mapi/reminderdelta
+Задает интервал в минутах между временем, когда напоминание впервые становится просроченным, и временем начала объекта календаря. Область: Reminders Каноническое имя: PidLidReminderDelta Альтернативные имена: dispidReminderDelta, http://schemas.microsoft.com/mapi/reminderdelta
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ReminderDelta;

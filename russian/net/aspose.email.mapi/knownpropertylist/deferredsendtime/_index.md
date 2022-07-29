@@ -1,14 +1,14 @@
 ---
 title: DeferredSendTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит количество времени по истечении которого клиент хотел бы отложить отправку сообщения. ОбластьMapiStatus Каноническое имяPidTagDeferredSendTime Альтернативные именаPR_DEFERRED_SEND_TIME ptagDeferredSendTime
+description: Содержит количество времени по истечении которого клиент хотел бы отложить отправку сообщения. Область MapiStatus Каноническое имя PidTagDeferredSendTime Альтернативные имена PR_DEFERRED_SEND_TIME ptagDeferredSendTime
 type: docs
 weight: 3800
 url: /ru/net/aspose.email.mapi/knownpropertylist/deferredsendtime/
 ---
 ## KnownPropertyList.DeferredSendTime field
 
-Содержит количество времени, по истечении которого клиент хотел бы отложить отправку сообщения. Область:MapiStatus Каноническое имя:PidTagDeferredSendTime Альтернативные имена:PR_DEFERRED_SEND_TIME, ptagDeferredSendTime
+Содержит количество времени, по истечении которого клиент хотел бы отложить отправку сообщения. Область: MapiStatus Каноническое имя: PidTagDeferredSendTime Альтернативные имена: PR_DEFERRED_SEND_TIME, ptagDeferredSendTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeferredSendTime;

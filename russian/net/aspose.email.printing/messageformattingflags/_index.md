@@ -3,7 +3,7 @@ title: MessageFormattingFlags
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет возможные параметры которые можно установить в процессе форматирования сообщения для различных выходных данных.
 type: docs
-weight: 19830
+weight: 19880
 url: /ru/net/aspose.email.printing/messageformattingflags/
 ---
 ## MessageFormattingFlags enumeration
@@ -20,8 +20,8 @@ public enum MessageFormattingFlags
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Ни один из параметров не установлен. |
-| MailInfo | `1` | Указывает, что заголовок сообщения, включая From,To, CC, DateSent &amp; Тема должна быть включена в результат. |
-| AutoFitWidth | `2` | Указывает, соответствует ли ширина страницы содержимому автоматически. |
+| MailInfo | `1` | Указывает, что заголовок сообщения, включая From, To, CC, DateSent и Subject, должен быть включен в результат. |
+| AutoFitWidth | `2` | Указывает, подгоняется ли ширина страницы под содержимое автоматически. |
 | Attachments | `4` | Указывает, что имена почтовых вложений должны быть включены в результат. |
 
 ### Смотрите также

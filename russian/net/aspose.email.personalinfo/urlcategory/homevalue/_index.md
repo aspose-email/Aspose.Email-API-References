@@ -1,14 +1,14 @@
 ---
 title: HomeValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Строковое значение для категории Дом
+description: Строковое значение для категории Главная
 type: docs
 weight: 180
 url: /ru/net/aspose.email.personalinfo/urlcategory/homevalue/
 ---
 ## UrlCategory.HomeValue field
 
-Строковое значение для категории «Дом»
+Строковое значение для категории "Главная"
 
 ```csharp
 public const string HomeValue;

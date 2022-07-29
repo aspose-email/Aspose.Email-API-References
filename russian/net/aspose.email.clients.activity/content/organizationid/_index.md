@@ -1,14 +1,14 @@
 ---
 title: OrganizationId
 second_title: Справочник по Aspose.Email для .NET API
-description: GUID для клиента Office 365 вашей организации. Это значение всегда будет одинаковым для вашей организации независимо от службы Office 365 в которой оно встречается. ОбязательноДа
+description: GUID для клиента Office 365 вашей организации. Это значение всегда будет одинаковым для вашей организации независимо от службы Office 365 в которой оно используется. Обязательно Yes
 type: docs
 weight: 70
 url: /ru/net/aspose.email.clients.activity/content/organizationid/
 ---
 ## Content.OrganizationId property
 
-GUID для клиента Office 365 вашей организации. Это значение всегда будет одинаковым для вашей организации, независимо от службы Office 365, в которой оно встречается. Обязательно:Да
+GUID для клиента Office 365 вашей организации. Это значение всегда будет одинаковым для вашей организации, независимо от службы Office 365, в которой оно используется. Обязательно: Yes
 
 ```csharp
 public Guid OrganizationId { get; set; }

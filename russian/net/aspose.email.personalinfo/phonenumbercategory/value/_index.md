@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает категорию телефонного номера
+description: Получить категорию номера телефона
 type: docs
 weight: 210
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/value/
 ---
 ## PhoneNumberCategory.Value property
 
-Получает категорию телефонного номера
+Получить категорию номера телефона
 
 ```csharp
 public string Value { get; }

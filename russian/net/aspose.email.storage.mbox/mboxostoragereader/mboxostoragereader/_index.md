@@ -1,14 +1,14 @@
 ---
 title: MboxoStorageReader
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMboxoStorageReaderaspose.email.storage.mbox/mboxostoragereader.
+description: Инициализирует новый экземплярMboxoStorageReaderaspose.email.storage.mbox/mboxostoragereader учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.mbox/mboxostoragereader/mboxostoragereader/
 ---
 ## MboxoStorageReader(Stream, MboxLoadOptions) {#constructor}
 
-Инициализирует новый экземпляр класса[`MboxoStorageReader`](../../mboxostoragereader).
+Инициализирует новый экземпляр[`MboxoStorageReader`](../../mboxostoragereader) учебный класс.
 
 ```csharp
 public MboxoStorageReader(Stream stream, MboxLoadOptions options)
@@ -36,7 +36,7 @@ public MboxoStorageReader(Stream stream, MboxLoadOptions options)
 
 ## MboxoStorageReader(string, MboxLoadOptions) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MboxrdStorageReader`](../../mboxrdstoragereader).
+Инициализирует новый экземпляр[`MboxrdStorageReader`](../../mboxrdstoragereader) класс.
 
 ```csharp
 public MboxoStorageReader(string fileName, MboxLoadOptions options)

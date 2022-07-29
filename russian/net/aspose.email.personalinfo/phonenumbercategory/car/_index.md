@@ -1,14 +1,14 @@
 ---
 title: Car
 second_title: Справочник по Aspose.Email для .NET API
-description: Телефон автомобиля
+description: Автомобильный номер телефона
 type: docs
 weight: 40
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/car/
 ---
 ## PhoneNumberCategory.Car property
 
-Телефон автомобиля
+Автомобильный номер телефона
 
 ```csharp
 public static PhoneNumberCategory Car { get; }

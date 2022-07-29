@@ -1,14 +1,14 @@
 ---
 title: PostalAddressId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает какой физический адрес является почтовым адресом для этого контакта. ОбластьСвойства контакта Каноническое имяPidLidPostalAddressId Альтернативные именаdispidPostalAddressId
+description: Указывает какой физический адрес является почтовым адресом для этого контакта. Область Свойства контакта Каноническое имя PidLidPostalAddressId Альтернативные имена dispidPostalAddressId
 type: docs
 weight: 14360
 url: /ru/net/aspose.email.mapi/knownpropertylist/postaladdressid/
 ---
 ## KnownPropertyList.PostalAddressId field
 
-Указывает, какой физический адрес является почтовым адресом для этого контакта. Область:Свойства контакта Каноническое имя:PidLidPostalAddressId Альтернативные имена:dispidPostalAddressId
+Указывает, какой физический адрес является почтовым адресом для этого контакта. Область: Свойства контакта Каноническое имя: PidLidPostalAddressId Альтернативные имена: dispidPostalAddressId
 
 ```csharp
 public static readonly PidLidPropertyDescriptor PostalAddressId;

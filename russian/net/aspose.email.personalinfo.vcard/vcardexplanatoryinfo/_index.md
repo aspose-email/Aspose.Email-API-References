@@ -3,7 +3,7 @@ title: VCardExplanatoryInfo
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет пояснительные свойства vCard
 type: docs
-weight: 19610
+weight: 19640
 url: /ru/net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/
 ---
 ## VCardExplanatoryInfo class
@@ -18,21 +18,22 @@ public sealed class VCardExplanatoryInfo
 
 | Имя | Описание |
 | --- | --- |
-| [VCardExplanatoryInfo](vcardexplanatoryinfo)() | Инициализирует новый экземпляр класса[`VCardExplanatoryInfo`](../vcardexplanatoryinfo)class |
+| [VCardExplanatoryInfo](vcardexplanatoryinfo)() | Инициализирует новый экземпляр[`VCardExplanatoryInfo`](../vcardexplanatoryinfo) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Categories](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/categories) { get; set; } | Получает или устанавливает информацию о категориях |
+| [FbUrl](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/fburl) { get; set; } | Получает или задает URI для времени занятости, связанного с объектом, который представляет vCard. |
 | [Note](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/note) { get; set; } | Получает или устанавливает комментарий |
 | [ProdId](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/prodid) { get; } | Получает идентификатор продукта, создавшего vCard |
-| [Revision](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/revision) { get; set; } | Получает или задает время ревизии |
+| [Revision](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/revision) { get; set; } | Получает или задает время редакции |
 | [SortString](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sortstring) { get; set; } | Получает или задает строку сортировки |
 | [Sound](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sound) { get; set; } | Получает или устанавливает звук |
 | [Uid](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/uid) { get; set; } | Получает или задает уникальный идентификатор |
-| [Urls](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/urls) { get; set; } | Получает или устанавливает URL-адрес |
-| [Version](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/version) { get; } | Получает версию vCard |
+| [Urls](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/urls) { get; set; } | Получает или задает urls |
+| [Version](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/version) { get; } | Получает vCard version |
 
 ### Смотрите также
 

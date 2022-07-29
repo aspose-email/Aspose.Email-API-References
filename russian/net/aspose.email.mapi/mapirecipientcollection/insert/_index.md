@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по Aspose.Email для .NET API
-description: Вставляет элемент вCollectionпо указанному индексу.
+description: Вставляет элемент вCollection по указанному индексу.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapirecipientcollection/insert/
 ---
 ## MapiRecipientCollection.Insert method
 
-Вставляет элемент вCollectionпо указанному индексу.
+Вставляет элемент вCollection по указанному индексу.
 
 ```csharp
 public void Insert(int index, MapiRecipient item)
@@ -16,14 +16,14 @@ public void Insert(int index, MapiRecipient item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен*item*. |
-| item | MapiRecipient | Вставляемый объект. Значение может быть нулевым для ссылочных типов. |
+| index | Int32 | Отсчитываемый от нуля индекс, при котором*item* следует вставить. |
+| item | MapiRecipient | Объект для вставки. Значение может быть нулевым для ссылочных типов. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*меньше нуля. |
+| ArgumentOutOfRangeException | *index* меньше нуля. |
 
 ### Смотрите также
 

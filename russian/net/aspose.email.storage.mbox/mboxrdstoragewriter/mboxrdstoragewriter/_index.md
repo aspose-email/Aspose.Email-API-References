@@ -1,14 +1,14 @@
 ---
 title: MboxrdStorageWriter
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMboxrdStorageWriteraspose.email.storage.mbox/mboxrdstoragewriter.
+description: Инициализирует новый экземплярMboxrdStorageWriteraspose.email.storage.mbox/mboxrdstoragewriter учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.storage.mbox/mboxrdstoragewriter/mboxrdstoragewriter/
 ---
 ## MboxrdStorageWriter(Stream, bool) {#constructor}
 
-Инициализирует новый экземпляр класса[`MboxrdStorageWriter`](../../mboxrdstoragewriter).
+Инициализирует новый экземпляр[`MboxrdStorageWriter`](../../mboxrdstoragewriter) учебный класс.
 
 ```csharp
 public MboxrdStorageWriter(Stream stream, bool leaveOpen)
@@ -17,7 +17,7 @@ public MboxrdStorageWriter(Stream stream, bool leaveOpen)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| leaveOpen | Boolean | если установлено` true` оставляет базовый поток открытым после удаления. |
+| leaveOpen | Boolean | , если установлено значение`истинный` оставляет базовый поток открытым после удаления. |
 
 ### Исключения
 
@@ -35,7 +35,7 @@ public MboxrdStorageWriter(Stream stream, bool leaveOpen)
 
 ## MboxrdStorageWriter(string, bool) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MboxrdStorageWriter`](../../mboxrdstoragewriter).
+Инициализирует новый экземпляр[`MboxrdStorageWriter`](../../mboxrdstoragewriter) класс.
 
 ```csharp
 public MboxrdStorageWriter(string fileName, bool leaveOpen)
@@ -44,7 +44,7 @@ public MboxrdStorageWriter(string fileName, bool leaveOpen)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла. |
-| leaveOpen | Boolean | , если установлено значение` true` оставляет базовый поток открытым после удаления. |
+| leaveOpen | Boolean | если установлено`истинный` оставляет основной поток открытым после удаления. |
 
 ### Исключения
 

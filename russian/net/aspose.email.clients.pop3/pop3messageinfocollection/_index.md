@@ -1,14 +1,14 @@
 ---
 title: Pop3MessageInfoCollection
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет информацию о почтовом сообщении с сервера Pop3.
+description: Представляет информацию о почтовом сообщении от сервера Pop3.
 type: docs
 weight: 16930
 url: /ru/net/aspose.email.clients.pop3/pop3messageinfocollection/
 ---
 ## Pop3MessageInfoCollection class
 
-Представляет информацию о почтовом сообщении с сервера Pop3.
+Представляет информацию о почтовом сообщении от сервера Pop3.
 
 ```csharp
 public sealed class Pop3MessageInfoCollection : Collection<Pop3MessageInfo>
@@ -24,8 +24,8 @@ public sealed class Pop3MessageInfoCollection : Collection<Pop3MessageInfo>
 
 | Имя | Описание |
 | --- | --- |
-| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage)(int) | Получает[`Pop3MessageInfo`](../pop3messageinfo)сообщения электронной почты. |
-| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage_1)(string) | Получает[`Pop3MessageInfo`](../pop3messageinfo)сообщения электронной почты. |
+| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage)(int) | Получает[`Pop3MessageInfo`](../pop3messageinfo) сообщения электронной почты. |
+| [GetMessage](../../aspose.email.clients.pop3/pop3messageinfocollection/getmessage#getmessage_1)(string) | Получает[`Pop3MessageInfo`](../pop3messageinfo) сообщения электронной почты. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Rowid
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит уникальный идентификатор получателя в таблице получателей сообщения. ОбластьMapiCommon Каноническое имяPidTagRowid Альтернативные именаPR_ROWID ptagRowId
+description: Содержит уникальный идентификатор получателя в таблице получателей сообщения. Область MapiCommon Каноническое имя PidTagRowid Альтернативные имена PR_ROWID ptagRowId
 type: docs
 weight: 16340
 url: /ru/net/aspose.email.mapi/knownpropertylist/rowid/
 ---
 ## KnownPropertyList.Rowid field
 
-Содержит уникальный идентификатор получателя в таблице получателей сообщения. Область:MapiCommon Каноническое имя:PidTagRowid Альтернативные имена:PR_ROWID, ptagRowId
+Содержит уникальный идентификатор получателя в таблице получателей сообщения. Область: MapiCommon Каноническое имя: PidTagRowid Альтернативные имена: PR_ROWID, ptagRowId
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Rowid;

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Clients.Google
 second_title: Справочник по Aspose.Email для .NET API
-description: Пространство имен Aspose.Email.Clients.Google предоставляет классы для доступа к учетной записи Google.
+description: Aspose.Электронная почта.Клиенты.Google пространство имен предоставляет классы для доступа к учетной записи Google.
 type: docs
 weight: 200
 url: /ru/net/aspose.email.clients.google/
 ---
-Пространство имен **Aspose.Email.Clients.Google** предоставляет классы для доступа к учетной записи Google.
+**Aspose.Электронная почта.Клиенты.Google** пространство имен предоставляет классы для доступа к учетной записи Google.
 
 ## Классы
 
@@ -15,9 +15,9 @@ url: /ru/net/aspose.email.clients.google/
 | [AccessControlRule](./accesscontrolrule) | Правило контроля доступа. |
 | [AclScope](./aclscope) | Область действия правила доступа. |
 | [BaseDataObject](./basedataobject) | Базовый класс для объектов данных Google. |
-| [Calendar](./calendar) | Набор метаданных, таких как описание, для одного календаря. |
-| [Colors](./colors) | Набор цветов для объекта календаря |
-| [ColorsInfo](./colorsinfo) | Содержит определения цветов для календарей и событий |
+| [Calendar](./calendar) | Набор метаданных, например описание, для одного календаря. |
+| [Colors](./colors) | Набор цветов для календаря object |
+| [ColorsInfo](./colorsinfo) | Содержит определение цветов для календарей и событий |
 | [ConferenceProperties](./conferenceproperties) | Свойства конференции для этого календаря. |
 | [ContactGroupCollection](./contactgroupcollection) | Представляет коллекцию объектов GmailContactGroup |
 | [ErrorDetails](./errordetails) | Информация об ошибке |
@@ -25,10 +25,10 @@ url: /ru/net/aspose.email.clients.google/
 | [FreebusyCalendarInfo](./freebusycalendarinfo) | Определяет список информации о занятости для указанного календаря. |
 | [FreebusyGroupInfo](./freebusygroupinfo) | Задает список календарей, входящих в группы. |
 | [FreebusyQuery](./freebusyquery) | Запрос информации о занятости для набора календарей. |
-| [FreebusyResponse](./freebusyresponse) | Ответ на свободную занятость |
+| [FreebusyResponse](./freebusyresponse) | Ответ о свободной занятости |
 | [Gadget](./gadget) | Гаджет, который продлевает это событие. |
 | [GmailClient](./gmailclient) | Базовый класс для клиента Gmail |
-| [GoogleContactGroup](./googlecontactgroup) | Представляет группу которой принадлежит контакт |
+| [GoogleContactGroup](./googlecontactgroup) | Представляет группу , которой принадлежит контакт |
 | [Range](./range) | Диапазон времени, в течение которого календарь считается занятым. |
 | [Reminders](./reminders) | Информация о напоминаниях о событии для аутентифицированного пользователя. |
 ## Интерфейсы
@@ -41,7 +41,7 @@ url: /ru/net/aspose.email.clients.google/
 
 | перечисление | Описание |
 | --- | --- |
-| [AccessRole](./accessrole) | Эффективная роль доступа, которую пользователь, прошедший проверку подлинности, имеет в календаре. |
+| [AccessRole](./accessrole) | Эффективная роль доступа, которую имеет аутентифицированный пользователь в календаре. |
 | [AclScopeType](./aclscopetype) | Тип области ACL. |
 | [AllowedConferenceSolutionTypes](./allowedconferencesolutiontypes) | Типы решений для конференций, которые поддерживаются для этого календаря. |
 | [NotificationMethod](./notificationmethod) | Метод, используемый этим уведомлением. |

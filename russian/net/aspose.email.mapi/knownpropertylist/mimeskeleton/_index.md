@@ -1,14 +1,14 @@
 ---
 title: MimeSkeleton
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит заголовки сообщений MIME верхнего уровня заголовки всех частей тела сообщения MIME вложения. Областьсвойства MIME Каноническое имяPidTagMimeSkeleton Альтернативные именаptagMimeSkeleton
+description: Содержит заголовки сообщений MIME верхнего уровня все заголовки частей тела сообщения MIME вложения. Область свойства MIME Каноническое имя PidTagMimeSkeleton Альтернативные имена ptagMimeSkeleton
 type: docs
 weight: 12700
 url: /ru/net/aspose.email.mapi/knownpropertylist/mimeskeleton/
 ---
 ## KnownPropertyList.MimeSkeleton field
 
-Содержит заголовки сообщений MIME верхнего уровня, заголовки всех частей тела сообщения MIME, вложения. Область:свойства MIME Каноническое имя:PidTagMimeSkeleton Альтернативные имена:ptagMimeSkeleton
+Содержит заголовки сообщений MIME верхнего уровня, все заголовки частей тела сообщения MIME, вложения. Область: свойства MIME Каноническое имя: PidTagMimeSkeleton Альтернативные имена: ptagMimeSkeleton
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MimeSkeleton;

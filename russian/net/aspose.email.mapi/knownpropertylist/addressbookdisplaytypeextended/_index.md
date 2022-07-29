@@ -1,14 +1,14 @@
 ---
 title: AddressBookDisplayTypeExtended
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение указывающее как отображать объект адресной книги в таблице или в качестве получателя сообщения. ОбластьАдресная книга Каноническое имяPidTagAddressBookDisplayTypeExtended Альтернативные именаPR_EMS_AB_DISPLAY_TYPE_EX
+description: Содержит значение указывающее как отображать объект адресной книги в таблице или в качестве получателя сообщения. Область Адресная книга Каноническое имя PidTagAddressBookDisplayTypeExtended Альтернативные имена PR_EMS_AB_DISPLAY_TYPE_EX
 type: docs
 weight: 380
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookdisplaytypeextended/
 ---
 ## KnownPropertyList.AddressBookDisplayTypeExtended field
 
-Содержит значение, указывающее, как отображать объект адресной книги в таблице или в качестве получателя сообщения. Область:Адресная книга Каноническое имя:PidTagAddressBookDisplayTypeExtended Альтернативные имена:PR_EMS_AB_DISPLAY_TYPE_EX
+Содержит значение, указывающее, как отображать объект адресной книги в таблице или в качестве получателя сообщения. Область: Адресная книга Каноническое имя: PidTagAddressBookDisplayTypeExtended Альтернативные имена: PR_EMS_AB_DISPLAY_TYPE_EX
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDisplayTypeExtended;

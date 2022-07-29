@@ -1,14 +1,14 @@
 ---
 title: SenderName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя владельца отправляющего почтового ящика. ОбластьСвойства адреса Каноническое имяPidTagSenderName Альтернативные именаPR_SENDER_NAME PR_SENDER_NAME_A ptagSenderName
+description: Содержит отображаемое имя владельца отправляющего почтового ящика. Область Address Properties Каноническое имя PidTagSenderName Альтернативные имена PR_SENDER_NAME PR_SENDER_NAME_A ptagSenderName
 type: docs
 weight: 17130
 url: /ru/net/aspose.email.mapi/knownpropertylist/sendername/
 ---
 ## KnownPropertyList.SenderName field
 
-Содержит отображаемое имя владельца отправляющего почтового ящика. Область:Свойства адреса Каноническое имя:PidTagSenderName Альтернативные имена:PR_SENDER_NAME, PR_SENDER_NAME_A, ptagSenderName,
+Содержит отображаемое имя владельца отправляющего почтового ящика. Область: Address Properties Каноническое имя: PidTagSenderName Альтернативные имена: PR_SENDER_NAME, PR_SENDER_NAME_A, ptagSenderName,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SenderName;

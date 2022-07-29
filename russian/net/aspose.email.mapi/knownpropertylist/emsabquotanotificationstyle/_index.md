@@ -1,14 +1,14 @@
 ---
 title: EmsAbQuotaNotificationStyle
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_QUOTA_NOTIFICATION_STYLE
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_QUOTA_NOTIFICATION_STYLE
 type: docs
 weight: 8270
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabquotanotificationstyle/
 ---
 ## KnownPropertyList.EmsAbQuotaNotificationStyle field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_QUOTA_NOTIFICATION_STYLE
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_QUOTA_NOTIFICATION_STYLE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbQuotaNotificationStyle;

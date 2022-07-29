@@ -1,14 +1,14 @@
 ---
 title: UniqueId
 second_title: Справочник по Aspose.Email для .NET API
-description: GUID идентифицирующий файл. ОбязательноДа
+description: GUID идентифицирующий файл. Обязательно Да
 type: docs
 weight: 120
 url: /ru/net/aspose.email.clients.activity/sharepointmetadata/uniqueid/
 ---
 ## SharePointMetadata.UniqueId property
 
-GUID, идентифицирующий файл. Обязательно:Да
+GUID, идентифицирующий файл. Обязательно: Да
 
 ```csharp
 public string UniqueId { get; set; }

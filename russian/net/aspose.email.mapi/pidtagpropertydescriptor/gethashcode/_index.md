@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Email для .NET API
-description: Служит хэш-функцией для типа.
+description: Служит хеш-функцией для типа.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.mapi/pidtagpropertydescriptor/gethashcode/
 ---
 ## PidTagPropertyDescriptor.GetHashCode method
 
-Служит хэш-функцией для типа.
+Служит хеш-функцией для типа.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хэш-код текущего объекта.
+Хэш-код для текущего объекта.
 
 ### Смотрите также
 

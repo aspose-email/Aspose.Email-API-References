@@ -1,14 +1,14 @@
 ---
 title: ContactEmailAddresses
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTACT_EMAIL_ADDRESSES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTACT_EMAIL_ADDRESSES
 type: docs
 weight: 2930
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactemailaddresses/
 ---
 ## KnownPropertyList.ContactEmailAddresses field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTACT_EMAIL_ADDRESSES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTACT_EMAIL_ADDRESSES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContactEmailAddresses;

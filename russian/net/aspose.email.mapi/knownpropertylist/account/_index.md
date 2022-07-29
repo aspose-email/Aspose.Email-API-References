@@ -1,14 +1,14 @@
 ---
 title: Account
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит псевдоним объекта адресной книги который является альтернативным именем по которому можно идентифицировать объект. ОбластьАдресная книга Каноническое имяPidTagAccount Альтернативные именаPR_ACCOUNT PR_ACCOUNT_A PR_ACCOUNT_W urnschemascontactsaccount
+description: Содержит псевдоним объекта адресной книги который является альтернативным именем по которому можно идентифицировать объект. Область Адресная книга Каноническое имя PidTagAccount Альтернативные имена PR_ACCOUNT PR_ACCOUNT_A PR_ACCOUNT_W urnschemascontactsaccount
 type: docs
 weight: 280
 url: /ru/net/aspose.email.mapi/knownpropertylist/account/
 ---
 ## KnownPropertyList.Account field
 
-Содержит псевдоним объекта адресной книги, который является альтернативным именем, по которому можно идентифицировать объект. Область:Адресная книга Каноническое имя:PidTagAccount Альтернативные имена:PR_ACCOUNT, PR_ACCOUNT_A, PR_ACCOUNT_W, urn:schemas:contacts:account
+Содержит псевдоним объекта адресной книги, который является альтернативным именем, по которому можно идентифицировать объект. Область: Адресная книга Каноническое имя: PidTagAccount Альтернативные имена: PR_ACCOUNT, PR_ACCOUNT_A, PR_ACCOUNT_W, urn:schemas:contacts:account
 
 ```csharp
 public static readonly PidTagPropertyDescriptor Account;

@@ -1,14 +1,14 @@
 ---
 title: InboxUri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает uri почтового ящика.
+description: Получает uri папки Входящие.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.exchange/exchangemailboxinfo/inboxuri/
 ---
 ## ExchangeMailboxInfo.InboxUri property
 
-Получает uri почтового ящика.
+Получает uri папки "Входящие".
 
 ```csharp
 public abstract string InboxUri { get; set; }

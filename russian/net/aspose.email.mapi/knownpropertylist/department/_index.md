@@ -1,14 +1,14 @@
 ---
 title: Department
 second_title: Справочник по Aspose.Email для .NET API
-description: Это свойство игнорируется сервером и устанавливается клиентом в пустую строку. ОбластьСвойства контакта Каноническое имяPidLidDepartment Альтернативные именаdispidDepartment
+description: Это свойство игнорируется сервером и устанавливается клиентом в пустую строку. Область Свойства контакта Каноническое имя PidLidDepartment Альтернативные имена dispidDepartment
 type: docs
 weight: 3990
 url: /ru/net/aspose.email.mapi/knownpropertylist/department/
 ---
 ## KnownPropertyList.Department field
 
-Это свойство игнорируется сервером и устанавливается клиентом в пустую строку. Область:Свойства контакта Каноническое имя:PidLidDepartment Альтернативные имена:dispidDepartment
+Это свойство игнорируется сервером и устанавливается клиентом в пустую строку. Область: Свойства контакта Каноническое имя: PidLidDepartment Альтернативные имена: dispidDepartment
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Department;

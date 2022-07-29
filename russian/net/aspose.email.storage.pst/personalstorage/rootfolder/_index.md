@@ -16,7 +16,7 @@ public FolderInfo RootFolder { get; }
 
 ### Стоимость имущества
 
-[`FolderInfo`](../../folderinfo)который представляет корневую папку.
+[`FolderInfo`](../../folderinfo) который представляет корневую папку.
 
 ### Смотрите также
 

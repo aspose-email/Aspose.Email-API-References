@@ -1,14 +1,14 @@
 ---
 title: ExchangeFolderUserType
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет различающиеся учетные записи пользователей
+description: Перечисляет выделенные учетные записи пользователей
 type: docs
 weight: 3360
 url: /ru/net/aspose.email.clients.exchange/exchangefolderusertype/
 ---
 ## ExchangeFolderUserType enumeration
 
-Перечисляет различающиеся учетные записи пользователей
+Перечисляет выделенные учетные записи пользователей
 
 ```csharp
 public enum ExchangeFolderUserType

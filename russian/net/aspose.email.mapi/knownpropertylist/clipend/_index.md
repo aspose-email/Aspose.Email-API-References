@@ -1,14 +1,14 @@
 ---
 title: ClipEnd
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает дату и время окончания события в формате UTC. ОбластьКалендарь Каноническое имяPidLidClipEnd Альтернативные именаdispidClipEnd
+description: Указывает дату и время окончания события в формате UTC. Область Calendar Каноническое имя PidLidClipEnd Альтернативные имена dispidClipEnd
 type: docs
 weight: 2710
 url: /ru/net/aspose.email.mapi/knownpropertylist/clipend/
 ---
 ## KnownPropertyList.ClipEnd field
 
-Указывает дату и время окончания события в формате UTC. Область:Календарь Каноническое имя:PidLidClipEnd Альтернативные имена:dispidClipEnd
+Указывает дату и время окончания события в формате UTC. Область: Calendar Каноническое имя: PidLidClipEnd Альтернативные имена: dispidClipEnd
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ClipEnd;

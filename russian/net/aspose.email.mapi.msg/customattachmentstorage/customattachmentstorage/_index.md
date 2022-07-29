@@ -1,14 +1,14 @@
 ---
 title: CustomAttachmentStorage
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаCustomAttachmentStorageaspose.email.mapi.msg/customattachmentstorage.
+description: Инициализирует новый экземплярCustomAttachmentStorageaspose.email.mapi.msg/customattachmentstorage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.mapi.msg/customattachmentstorage/customattachmentstorage/
 ---
 ## CustomAttachmentStorage constructor
 
-Инициализирует новый экземпляр класса[`CustomAttachmentStorage`](../../customattachmentstorage).
+Инициализирует новый экземпляр[`CustomAttachmentStorage`](../../customattachmentstorage) класс.
 
 ```csharp
 public CustomAttachmentStorage()

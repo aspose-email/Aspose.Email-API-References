@@ -1,14 +1,14 @@
 ---
 title: DistributionListOneOffMembers
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает список одноразовых EntryID соответствующих членам личного списка рассылки. ОбластьСвойства контакта Каноническое имяPidLidDistributionListOneOffMembers Альтернативные именаdispidDLOneOffMembers
+description: Задает список одноразовых идентификаторов EntryID соответствующих членам личного списка рассылки. Область Свойства контакта Каноническое имя PidLidDistributionListOneOffMembers Альтернативные имена dispidDLOneOffMembers
 type: docs
 weight: 4220
 url: /ru/net/aspose.email.mapi/knownpropertylist/distributionlistoneoffmembers/
 ---
 ## KnownPropertyList.DistributionListOneOffMembers field
 
-Задает список одноразовых EntryID, соответствующих членам личного списка рассылки. Область:Свойства контакта Каноническое имя:PidLidDistributionListOneOffMembers Альтернативные имена:dispidDLOneOffMembers
+Задает список одноразовых идентификаторов EntryID, соответствующих членам личного списка рассылки. Область: Свойства контакта Каноническое имя: PidLidDistributionListOneOffMembers Альтернативные имена: dispidDLOneOffMembers
 
 ```csharp
 public static readonly PidLidPropertyDescriptor DistributionListOneOffMembers;

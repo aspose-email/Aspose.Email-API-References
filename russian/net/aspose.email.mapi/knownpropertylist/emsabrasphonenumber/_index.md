@@ -1,14 +1,14 @@
 ---
 title: EmsAbRasPhoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_RAS_PHONE_NUMBER
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_RAS_PHONE_NUMBER
 type: docs
 weight: 8340
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabrasphonenumber/
 ---
 ## KnownPropertyList.EmsAbRasPhoneNumber field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_RAS_PHONE_NUMBER
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_RAS_PHONE_NUMBER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbRasPhoneNumber;

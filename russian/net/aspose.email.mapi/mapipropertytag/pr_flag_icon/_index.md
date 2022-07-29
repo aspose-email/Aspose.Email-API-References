@@ -1,14 +1,14 @@
 ---
 title: PR_FLAG_ICON
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает значок флага объекта сообщения.
+description: Определяет значок флага объекта сообщения.
 type: docs
 weight: 11540
 url: /ru/net/aspose.email.mapi/mapipropertytag/pr_flag_icon/
 ---
 ## MapiPropertyTag.PR_FLAG_ICON field
 
-Указывает значок флага объекта сообщения.
+Определяет значок флага объекта сообщения.
 
 ```csharp
 public static readonly long PR_FLAG_ICON;

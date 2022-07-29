@@ -1,14 +1,14 @@
 ---
 title: PR_LTP_ROW_VER
 second_title: Справочник по Aspose.Email для .NET API
-description: LTP Row Ver.
+description: Строка LTP Вер.
 type: docs
 weight: 13630
 url: /ru/net/aspose.email.mapi/mapipropertytag/pr_ltp_row_ver/
 ---
 ## MapiPropertyTag.PR_LTP_ROW_VER field
 
-LTP Row Ver.
+Строка LTP Вер.
 
 ```csharp
 public static readonly long PR_LTP_ROW_VER;

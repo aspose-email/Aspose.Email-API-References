@@ -1,14 +1,14 @@
 ---
 title: ContentLength
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTENT_LENGTH
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTENT_LENGTH
 type: docs
 weight: 3230
 url: /ru/net/aspose.email.mapi/knownpropertylist/contentlength/
 ---
 ## KnownPropertyList.ContentLength field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTENT_LENGTH
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTENT_LENGTH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContentLength;

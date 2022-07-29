@@ -1,14 +1,14 @@
 ---
 title: WlinkGroupName
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает значение PidTagNormalizedSubject раздел 2.803 заголовка группы связанного с ярлыком. ОбластьКонфигурация Каноническое имяPidTagWlinkGroupName Альтернативные именаPR_WLINK_GROUP_NAME
+description: Указывает значение PidTagNormalizedSubject раздел 2.803 заголовка группы связанного с ярлыком. Область Configuration Каноническое имя PidTagWlinkGroupName Альтернативные имена PR_WLINK_GROUP_NAME
 type: docs
 weight: 19460
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkgroupname/
 ---
 ## KnownPropertyList.WlinkGroupName field
 
-Указывает значение PidTagNormalizedSubject (раздел 2.803) заголовка группы, связанного с ярлыком. Область:Конфигурация Каноническое имя:PidTagWlinkGroupName Альтернативные имена:PR_WLINK_GROUP_NAME
+Указывает значение PidTagNormalizedSubject (раздел 2.803) заголовка группы, связанного с ярлыком. Область: Configuration Каноническое имя: PidTagWlinkGroupName Альтернативные имена: PR_WLINK_GROUP_NAME
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkGroupName;

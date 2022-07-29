@@ -1,14 +1,14 @@
 ---
 title: CreateRuleDeleteFrom
 second_title: Справочник по Aspose.Email для .NET API
-description: Создает правило папки Входящие которое удаляет сообщения от указанных отправителей
+description: Создает правило для папки Входящие которое удаляет сообщения от указанных отправителей
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.exchange/inboxrule/createruledeletefrom/
 ---
 ## InboxRule.CreateRuleDeleteFrom method
 
-Создает правило папки "Входящие", которое удаляет сообщения от указанных отправителей
+Создает правило для папки "Входящие", которое удаляет сообщения от указанных отправителей
 
 ```csharp
 public static InboxRule CreateRuleDeleteFrom(MailAddress from)
@@ -16,17 +16,17 @@ public static InboxRule CreateRuleDeleteFrom(MailAddress from)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| from | MailAddress | A[`EmailAddress`](../../../aspose.email.personalinfo/emailaddress)отправителя |
+| from | MailAddress | А[`EmailAddress`](../../../aspose.email.personalinfo/emailaddress) отправителя |
 
 ### Возвращаемое значение
 
-A создал[`InboxRule`](../../inboxrule)
+Созданный[`InboxRule`](../../inboxrule)
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *from*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *from* является`нулевой` |
 
 ### Смотрите также
 

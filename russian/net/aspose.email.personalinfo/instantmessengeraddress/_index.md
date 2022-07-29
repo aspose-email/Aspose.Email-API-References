@@ -3,7 +3,7 @@ title: InstantMessengerAddress
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет адрес службы мгновенных сообщений.
 type: docs
-weight: 19400
+weight: 19430
 url: /ru/net/aspose.email.personalinfo/instantmessengeraddress/
 ---
 ## InstantMessengerAddress class
@@ -33,7 +33,7 @@ public class InstantMessengerAddress : IComparable<InstantMessengerAddress>,
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.email.personalinfo/instantmessengeraddress/compareto)(InstantMessengerAddress) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| [CompareTo](../../aspose.email.personalinfo/instantmessengeraddress/compareto)(InstantMessengerAddress) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals#equals)(InstantMessengerAddress) | Определяет, равен ли указанный объект текущему объекту. |
 | override [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals#equals_2)(object) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals#equals_1)(InstantMessengerAddress, InstantMessengerAddress) | Определяет, считаются ли указанные экземпляры объектов равными. |

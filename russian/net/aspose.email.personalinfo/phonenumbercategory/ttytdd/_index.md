@@ -1,14 +1,14 @@
 ---
 title: TtyTdd
 second_title: Справочник по Aspose.Email для .NET API
-description: Tty/Tdd
+description: Телетайп/Tdd
 type: docs
 weight: 170
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/ttytdd/
 ---
 ## PhoneNumberCategory.TtyTdd property
 
-Tty/Tdd
+Телетайп/Tdd
 
 ```csharp
 public static PhoneNumberCategory TtyTdd { get; }

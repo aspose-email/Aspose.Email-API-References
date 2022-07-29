@@ -24,17 +24,17 @@ public class SharePointMetadata
 
 | Имя | Описание |
 | --- | --- |
-| [DocumentLastModifier](../../aspose.email.clients.activity/sharepointmetadata/documentlastmodifier) { get; set; } | Пользователь, который последним изменил документ. Обязательно:Да |
-| [DocumentSharer](../../aspose.email.clients.activity/sharepointmetadata/documentsharer) { get; set; } | Пользователь, который последним изменил общий доступ к документу. Обязательно:Да |
-| [FileName](../../aspose.email.clients.activity/sharepointmetadata/filename) { get; set; } | Имя пути. Обязательно:Да |
-| [FileOwner](../../aspose.email.clients.activity/sharepointmetadata/fileowner) { get; set; } | Владелец документа. Обязательно:Да |
-| [FilePathUrl](../../aspose.email.clients.activity/sharepointmetadata/filepathurl) { get; set; } | URL документа Обязательно:Да |
-| [From](../../aspose.email.clients.activity/sharepointmetadata/from) { get; set; } | Пользователь, инициировавший событие. Это будет либо FileOwner, LastModifier, либо LastSharer. Обязательно:Да |
-| [itemCreationTime](../../aspose.email.clients.activity/sharepointmetadata/itemcreationtime) { get; set; } | Отметка даты и времени в формате UTC, когда событие регистрируется. Обязательно:Да |
-| [LastModifiedTime](../../aspose.email.clients.activity/sharepointmetadata/lastmodifiedtime) { get; set; } | Временная метка в формате UTC, когда документ был в последний раз изменен. Обязательно:Да |
-| [SiteCollectionGuid](../../aspose.email.clients.activity/sharepointmetadata/sitecollectionguid) { get; set; } | GUID семейства сайтов. Обязательно:Да |
-| [SiteCollectionUrl](../../aspose.email.clients.activity/sharepointmetadata/sitecollectionurl) { get; set; } | Имя сайта SharePoint. Обязательно:Да |
-| [UniqueId](../../aspose.email.clients.activity/sharepointmetadata/uniqueid) { get; set; } | GUID, идентифицирующий файл. Обязательно:Да |
+| [DocumentLastModifier](../../aspose.email.clients.activity/sharepointmetadata/documentlastmodifier) { get; set; } | Пользователь, который последним изменил документ. Обязательно: Yes |
+| [DocumentSharer](../../aspose.email.clients.activity/sharepointmetadata/documentsharer) { get; set; } | Пользователь, который последним изменил общий доступ к документу. Обязательно: Да |
+| [FileName](../../aspose.email.clients.activity/sharepointmetadata/filename) { get; set; } | Имя пути. Обязательно: Да |
+| [FileOwner](../../aspose.email.clients.activity/sharepointmetadata/fileowner) { get; set; } | Владелец документа. Обязательно: Да |
+| [FilePathUrl](../../aspose.email.clients.activity/sharepointmetadata/filepathurl) { get; set; } | URL-адрес документа Обязательно: Да |
+| [From](../../aspose.email.clients.activity/sharepointmetadata/from) { get; set; } | Пользователь, инициировавший событие. Это будет либо FileOwner, LastModifier, либо LastSharer. Обязательно: Yes |
+| [itemCreationTime](../../aspose.email.clients.activity/sharepointmetadata/itemcreationtime) { get; set; } | Отметка даты и времени в формате UTC, когда событие было зарегистрировано. Обязательно: Yes |
+| [LastModifiedTime](../../aspose.email.clients.activity/sharepointmetadata/lastmodifiedtime) { get; set; } | Временная метка в формате UTC для даты последнего изменения документа. Обязательно: Yes |
+| [SiteCollectionGuid](../../aspose.email.clients.activity/sharepointmetadata/sitecollectionguid) { get; set; } | GUID семейства веб-сайтов. Обязательно: Yes |
+| [SiteCollectionUrl](../../aspose.email.clients.activity/sharepointmetadata/sitecollectionurl) { get; set; } | Имя сайта SharePoint. Обязательно: Да |
+| [UniqueId](../../aspose.email.clients.activity/sharepointmetadata/uniqueid) { get; set; } | GUID, идентифицирующий файл. Обязательно: Да |
 
 ### Смотрите также
 

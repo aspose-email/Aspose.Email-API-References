@@ -1,14 +1,14 @@
 ---
 title: OwnerAppointmentId
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает квазиуникальное значение среди всех объектов Calendar в почтовом ящике пользователя. ОбластьНазначение Каноническое имяPidTagOwnerAppointmentId Альтернативные именаPR_OWNER_APPT_ID http//schemas.microsoft.com/mapi/owner_appt_id
+description: Указывает почти уникальное значение среди всех объектов календаря в почтовом ящике пользователя. Область Appointment Каноническое имя PidTagOwnerAppointmentId Альтернативные имена PR_OWNER_APPT_ID http//schemas.microsoft.com/mapi/owner_appt_id
 type: docs
 weight: 14080
 url: /ru/net/aspose.email.mapi/knownpropertylist/ownerappointmentid/
 ---
 ## KnownPropertyList.OwnerAppointmentId field
 
-Указывает квазиуникальное значение среди всех объектов Calendar в почтовом ящике пользователя. Область:Назначение Каноническое имя:PidTagOwnerAppointmentId Альтернативные имена:PR_OWNER_APPT_ID, http://schemas.microsoft.com/mapi/owner_appt_id
+Указывает почти уникальное значение среди всех объектов календаря в почтовом ящике пользователя. Область: Appointment Каноническое имя: PidTagOwnerAppointmentId Альтернативные имена: PR_OWNER_APPT_ID, http://schemas.microsoft.com/mapi/owner_appt_id
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OwnerAppointmentId;

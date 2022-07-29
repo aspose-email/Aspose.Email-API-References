@@ -1,14 +1,14 @@
 ---
 title: SharingProviderUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит URL-адрес относящийся к поставщику совместного использования указанному в свойстве PidLidSharingProviderGuid раздел 2.266. ОбластьСовместное использование Каноническое имяPidLidSharingProviderUrl Альтернативные именаdispidSharingProviderUrl
+description: Содержит URL-адрес относящийся к поставщику общего доступа указанному в свойстве PidLidSharingProviderGuid раздел 2.266. Область Sharing Каноническое имя PidLidSharingProviderUrl Альтернативные имена dispidSharingProviderUrl
 type: docs
 weight: 17730
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingproviderurl/
 ---
 ## KnownPropertyList.SharingProviderUrl field
 
-Содержит URL-адрес, относящийся к поставщику совместного использования, указанному в свойстве PidLidSharingProviderGuid (раздел 2.266). Область:Совместное использование Каноническое имя:PidLidSharingProviderUrl Альтернативные имена:dispidSharingProviderUrl
+Содержит URL-адрес, относящийся к поставщику общего доступа, указанному в свойстве PidLidSharingProviderGuid (раздел 2.266). Область: Sharing Каноническое имя: PidLidSharingProviderUrl Альтернативные имена: dispidSharingProviderUrl
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingProviderUrl;

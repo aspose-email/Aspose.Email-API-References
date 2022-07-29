@@ -3,7 +3,7 @@ title: MapiTaskHistory
 second_title: Справочник по Aspose.Email для .NET API
 description: Указывает тип последнего изменения объекта Task.
 type: docs
-weight: 18670
+weight: 18700
 url: /ru/net/aspose.email.mapi/mapitaskhistory/
 ---
 ## MapiTaskHistory enumeration
@@ -19,10 +19,10 @@ public enum MapiTaskHistory
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | DueDateChanged | `4` | Изменено свойство PidLidTaskDueDate. |
-| AnotherPropertyChanged | `3` | Изменено другое свойство. |
-| Accepted | `1` | Ответственный за задачу принял этот объект Задачи. |
+| AnotherPropertyChanged | `3` | Другое свойство было изменено. |
+| Accepted | `1` | Ответственный за задачу принял этот объект задачи. |
 | Rejected | `2` | Ответственный за задачу отклонил этот объект задачи. |
-| Assigned | `5` | Объект Task был назначен исполнителю задачи. |
+| Assigned | `5` | Объект «Задача» был назначен исполнителю задачи. |
 | NoChanges | `0` | Изменения не вносились. |
 
 ### Смотрите также

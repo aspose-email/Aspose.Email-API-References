@@ -1,14 +1,14 @@
 ---
 title: AgingDontAgeMe
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает следует ли автоматически архивировать сообщение. ОбластьОбщие Каноническое имяPidLidAgingDontAgeMe Альтернативные именаdispidAgingDontAgeMe
+description: Указывает следует ли автоматически архивировать сообщение. Область Common Каноническое имя PidLidAgingDontAgeMe Альтернативные имена dispidAgingDontAgeMe
 type: docs
 weight: 1030
 url: /ru/net/aspose.email.mapi/knownpropertylist/agingdontageme/
 ---
 ## KnownPropertyList.AgingDontAgeMe field
 
-Указывает, следует ли автоматически архивировать сообщение. Область:Общие Каноническое имя:PidLidAgingDontAgeMe Альтернативные имена:dispidAgingDontAgeMe
+Указывает, следует ли автоматически архивировать сообщение. Область: Common Каноническое имя: PidLidAgingDontAgeMe Альтернативные имена: dispidAgingDontAgeMe
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AgingDontAgeMe;

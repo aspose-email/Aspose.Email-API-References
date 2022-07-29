@@ -1,14 +1,14 @@
 ---
 title: MeetingType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип объекта запроса на собрание или объекта обновления собрания. ОбластьВстречи Каноническое имяPidLidMeetingType Альтернативные именаdispidMeetingType
+description: Указывает тип объекта запроса на собрание или объекта обновления собрания. Область Meetings Каноническое имя PidLidMeetingType Альтернативные имена dispidMeetingType
 type: docs
 weight: 12400
 url: /ru/net/aspose.email.mapi/knownpropertylist/meetingtype/
 ---
 ## KnownPropertyList.MeetingType field
 
-Указывает тип объекта запроса на собрание или объекта обновления собрания. Область:Встречи Каноническое имя:PidLidMeetingType Альтернативные имена:dispidMeetingType
+Указывает тип объекта запроса на собрание или объекта обновления собрания. Область: Meetings Каноническое имя: PidLidMeetingType Альтернативные имена: dispidMeetingType
 
 ```csharp
 public static readonly PidLidPropertyDescriptor MeetingType;

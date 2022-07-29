@@ -1,14 +1,14 @@
 ---
 title: RuleMessageProviderData
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит непрозрачные данные установленные клиентом для исключительного использования клиентом. Установите на сообщение FAI. ОбластьExchangeNonTransmittableReserved Каноническое имяPidTagRuleMessageProviderData Альтернативные именаPR_RULE_MSG_PROVIDER_DATA ptagRuleMsgProviderData
+description: Содержит непрозрачные данные установленные клиентом для исключительного использования клиентом. Установите на сообщение FAI. Область ExchangeNonTransmittableReserved Каноническое имя PidTagRuleMessageProviderData Альтернативные имена PR_RULE_MSG_PROVIDER_DATA ptagRuleMsgProviderData
 type: docs
 weight: 16550
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulemessageproviderdata/
 ---
 ## KnownPropertyList.RuleMessageProviderData field
 
-Содержит непрозрачные данные, установленные клиентом для исключительного использования клиентом. Установите на сообщение FAI. Область:ExchangeNonTransmittableReserved Каноническое имя:PidTagRuleMessageProviderData Альтернативные имена:PR_RULE_MSG_PROVIDER_DATA, ptagRuleMsgProviderData
+Содержит непрозрачные данные, установленные клиентом для исключительного использования клиентом. Установите на сообщение FAI. Область: ExchangeNonTransmittableReserved Каноническое имя: PidTagRuleMessageProviderData Альтернативные имена: PR_RULE_MSG_PROVIDER_DATA, ptagRuleMsgProviderData
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleMessageProviderData;

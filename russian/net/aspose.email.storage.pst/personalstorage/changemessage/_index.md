@@ -23,9 +23,9 @@ public void ChangeMessage(string entryId, MapiPropertyCollection updatedProperti
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | Не реализовано редактирование версии файла ANSI. |
+| NotImplementedException | Редактирование версии файла ANSI не реализовано. |
 | InvalidOperationException | PST открыт только для чтения. или Неверный идентификатор записи. |
-| ArgumentNullException | entryIdCollection;Набор идентификаторов записей не может быть нулевым. или updatedProperties;Набор свойств не может быть нулевым. |
+| ArgumentNullException | entryIdCollection;Набор идентификаторов записей не может быть нулевым. or updatedProperties;Набор свойств не может быть нулевым. |
 
 ### Смотрите также
 

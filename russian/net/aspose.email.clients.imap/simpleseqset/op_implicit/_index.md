@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Email для .NET API
-description: Неявная операция преобразования изStringвSimpleSeqSetaspose.email.clients.imap/simpleseqset
+description: Неявная операция преобразования изString кSimpleSeqSetaspose.email.clients.imap/simpleseqset
 type: docs
 weight: 40
 url: /ru/net/aspose.email.clients.imap/simpleseqset/op_implicit/
 ---
 ## implicit operator {#op_implicit}
 
-Неявная операция преобразования изStringв[`SimpleSeqSet`](../../simpleseqset)
+Неявная операция преобразования изString к[`SimpleSeqSet`](../../simpleseqset)
 
 ```csharp
 public static implicit operator SimpleSeqSet(string simple)
@@ -32,7 +32,7 @@ public static implicit operator SimpleSeqSet(string simple)
 
 ## implicit operator {#op_implicit_1}
 
-Неявная операция преобразования из[`SimpleSeqSet`](../../simpleseqset)вString
+Неявная операция преобразования из[`SimpleSeqSet`](../../simpleseqset) кString
 
 ```csharp
 public static implicit operator string(SimpleSeqSet simple)

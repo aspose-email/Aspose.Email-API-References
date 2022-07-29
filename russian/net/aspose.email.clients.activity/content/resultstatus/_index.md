@@ -1,14 +1,14 @@
 ---
 title: ResultStatus
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает было ли действие указанное в свойстве Operation успешным или нет. Возможные значенияуспешно частично успешно или не удалось. Для действия администратора Exchange значение равно True или False. ОбязательноНет
+description: Указывает было ли действие указанное в свойстве Operation успешным или нет. Возможные значения Успешно Частично Успешно или Сбой. Для действий администратора Exchange значение равно True или False. Обязательно No
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.activity/content/resultstatus/
 ---
 ## Content.ResultStatus property
 
-Указывает, было ли действие (указанное в свойстве Operation) успешным или нет. Возможные значения:успешно, частично успешно или не удалось. Для действия администратора Exchange значение равно True или False. Обязательно:Нет
+Указывает, было ли действие (указанное в свойстве Operation) успешным или нет. Возможные значения: Успешно, Частично Успешно или Сбой. Для действий администратора Exchange значение равно True или False. Обязательно: No
 
 ```csharp
 public ResultStatus ResultStatus { get; set; }

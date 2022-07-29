@@ -1,14 +1,14 @@
 ---
 title: SharingCapabilities
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает что объект Сообщение относится к специальной папке. ОбластьСовместное использование Каноническое имяPidLidSharingCapabilities Альтернативные именаdispidSharingCaps
+description: Указывает что объект Message относится к специальной папке. Область Sharing Каноническое имя PidLidSharingCapabilities Альтернативные имена dispidSharingCaps
 type: docs
 weight: 17420
 url: /ru/net/aspose.email.mapi/knownpropertylist/sharingcapabilities/
 ---
 ## KnownPropertyList.SharingCapabilities field
 
-Указывает, что объект "Сообщение" относится к специальной папке. Область:Совместное использование Каноническое имя:PidLidSharingCapabilities Альтернативные имена:dispidSharingCaps
+Указывает, что объект Message относится к специальной папке. Область: Sharing Каноническое имя: PidLidSharingCapabilities Альтернативные имена: dispidSharingCaps
 
 ```csharp
 public static readonly PidLidPropertyDescriptor SharingCapabilities;

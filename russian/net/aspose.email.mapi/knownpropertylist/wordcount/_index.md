@@ -1,14 +1,14 @@
 ---
 title: WordCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает количество слов в файле прикрепленном к объекту Document. ОбластьОбщие Каноническое имяPidNameWordCount Альтернативные именаurnschemas-microsoft-comofficeofficeWords
+description: Указывает количество слов в файле прикрепленном к объекту Document. Область Common Каноническое имя PidNameWordCount Альтернативные имена urnschemas-microsoft-comofficeofficeWords
 type: docs
 weight: 19540
 url: /ru/net/aspose.email.mapi/knownpropertylist/wordcount/
 ---
 ## KnownPropertyList.WordCount field
 
-Задает количество слов в файле, прикрепленном к объекту Document. Область:Общие Каноническое имя:PidNameWordCount Альтернативные имена:urn:schemas-microsoft-com:office:office#Words
+Указывает количество слов в файле, прикрепленном к объекту Document. Область: Common Каноническое имя: PidNameWordCount Альтернативные имена: urn:schemas-microsoft-com:office:office#Words
 
 ```csharp
 public static readonly PidNamePropertyDescriptor WordCount;

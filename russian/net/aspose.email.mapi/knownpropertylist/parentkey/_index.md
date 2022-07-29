@@ -1,14 +1,14 @@
 ---
 title: ParentKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит ключ поиска который используется для сопоставления исходного сообщения и отчетов об исходном сообщении. ОбластьMapiEnvelope Каноническое имяPidTagParentKey Альтернативные именаPR_PARENT_KEY ptagParentKey
+description: Содержит ключ поиска который используется для сопоставления исходного сообщения и отчетов об исходном сообщении. Область MapiEnvelope Каноническое имя PidTagParentKey Альтернативные имена PR_PARENT_KEY ptagParentKey
 type: docs
 weight: 14210
 url: /ru/net/aspose.email.mapi/knownpropertylist/parentkey/
 ---
 ## KnownPropertyList.ParentKey field
 
-Содержит ключ поиска, который используется для сопоставления исходного сообщения и отчетов об исходном сообщении. Область:MapiEnvelope Каноническое имя:PidTagParentKey Альтернативные имена:PR_PARENT_KEY, ptagParentKey
+Содержит ключ поиска, который используется для сопоставления исходного сообщения и отчетов об исходном сообщении. Область: MapiEnvelope Каноническое имя: PidTagParentKey Альтернативные имена: PR_PARENT_KEY, ptagParentKey
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ParentKey;

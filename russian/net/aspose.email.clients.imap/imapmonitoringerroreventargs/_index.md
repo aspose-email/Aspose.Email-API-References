@@ -1,14 +1,14 @@
 ---
 title: ImapMonitoringErrorEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Класс содержит данные об ошибках мониторинга.
+description: Класс содержит данные о событиях ошибок мониторинга.
 type: docs
 weight: 16390
 url: /ru/net/aspose.email.clients.imap/imapmonitoringerroreventargs/
 ---
 ## ImapMonitoringErrorEventArgs class
 
-Класс содержит данные об ошибках мониторинга.
+Класс содержит данные о событиях ошибок мониторинга.
 
 ```csharp
 public class ImapMonitoringErrorEventArgs : EventArgs
@@ -19,8 +19,8 @@ public class ImapMonitoringErrorEventArgs : EventArgs
 | Имя | Описание |
 | --- | --- |
 | [Error](../../aspose.email.clients.imap/imapmonitoringerroreventargs/error) { get; } | Ошибка мониторинга IMAP. |
-| [FolderName](../../aspose.email.clients.imap/imapmonitoringerroreventargs/foldername) { get; } | Указана папка для наблюдения за работой. |
-| [MonitoringState](../../aspose.email.clients.imap/imapmonitoringerroreventargs/monitoringstate) { get; } | Содержит состояние мониторинга папки. Этот объект можно использовать для возобновления наблюдения за папкой с места , где оно было остановлено при возникновении ошибки. Использовать[`ResumeMonitoring`](../imapclient/resumemonitoring)метод. |
+| [FolderName](../../aspose.email.clients.imap/imapmonitoringerroreventargs/foldername) { get; } | Указана папка для мониторинга операции. |
+| [MonitoringState](../../aspose.email.clients.imap/imapmonitoringerroreventargs/monitoringstate) { get; } | Содержит состояние мониторинга папки. Этот объект можно использовать для возобновления наблюдения за папкой с места , где оно было остановлено при возникновении ошибки. Использование[`ResumeMonitoring`](../imapclient/resumemonitoring) метод. |
 
 ### Смотрите также
 

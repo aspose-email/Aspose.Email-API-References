@@ -1,14 +1,14 @@
 ---
 title: HiddenCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает скрытое значение файла прикрепленного к объекту Document. ОбластьОбщие Каноническое имяPidNameHiddenCount Альтернативные именаurnschemas-microsoft-comofficeofficeHiddenSlides
+description: Указывает скрытое значение файла прикрепленного к объекту Document. Область Common Каноническое имя PidNameHiddenCount Альтернативные имена urnschemas-microsoft-comofficeofficeHiddenSlides
 type: docs
 weight: 10920
 url: /ru/net/aspose.email.mapi/knownpropertylist/hiddencount/
 ---
 ## KnownPropertyList.HiddenCount field
 
-Задает скрытое значение файла, прикрепленного к объекту Document. Область:Общие Каноническое имя:PidNameHiddenCount Альтернативные имена:urn:schemas-microsoft-com:office:office#HiddenSlides
+Указывает скрытое значение файла, прикрепленного к объекту Document. Область: Common Каноническое имя: PidNameHiddenCount Альтернативные имена: urn:schemas-microsoft-com:office:office#HiddenSlides
 
 ```csharp
 public static readonly PidNamePropertyDescriptor HiddenCount;

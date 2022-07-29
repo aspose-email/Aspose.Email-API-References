@@ -1,14 +1,14 @@
 ---
 title: ContactLinkEntry
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит элементы свойства PidLidContacts раздел 2.77. ОбластьСвойства контакта Каноническое имяPidLidContactLinkEntry Альтернативные именаdispidContactLinkEntry
+description: Содержит элементы свойства PidLidContacts раздел 2.77. Область Свойства контакта Каноническое имя PidLidContactLinkEntry Альтернативные имена dispidContactLinkEntry
 type: docs
 weight: 2970
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactlinkentry/
 ---
 ## KnownPropertyList.ContactLinkEntry field
 
-Содержит элементы свойства PidLidContacts (раздел 2.77). Область:Свойства контакта Каноническое имя:PidLidContactLinkEntry Альтернативные имена:dispidContactLinkEntry
+Содержит элементы свойства PidLidContacts (раздел 2.77). Область: Свойства контакта Каноническое имя: PidLidContactLinkEntry Альтернативные имена: dispidContactLinkEntry
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ContactLinkEntry;

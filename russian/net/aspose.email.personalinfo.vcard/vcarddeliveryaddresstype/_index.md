@@ -1,14 +1,14 @@
 ---
 title: VCardDeliveryAddressType
 second_title: Справочник по Aspose.Email для .NET API
-description: Перечисляет типы адресов доставки vCard
+description: Перечисляет адреса доставки vCard types
 type: docs
-weight: 19570
+weight: 19600
 url: /ru/net/aspose.email.personalinfo.vcard/vcarddeliveryaddresstype/
 ---
 ## VCardDeliveryAddressType enumeration
 
-Перечисляет типы адресов доставки vCard
+Перечисляет адреса доставки vCard types
 
 ```csharp
 [Flags]
@@ -25,7 +25,7 @@ public enum VCardDeliveryAddressType
 | DOM | `4` | Внутренний адрес |
 | PARCEL | `8` | Адрес доставки посылки |
 | HOME | `10` | Адрес доставки на дом |
-| WORK | `20` | Рабочий адрес доставки |
+| WORK | `20` | Адрес доставки работы |
 | INTL | `40` | Международный адрес |
 
 ### Смотрите также

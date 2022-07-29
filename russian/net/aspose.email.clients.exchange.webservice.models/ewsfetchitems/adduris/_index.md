@@ -1,14 +1,14 @@
 ---
 title: AddUris
 second_title: Справочник по Aspose.Email для .NET API
-description: Добавить URI сообщения для извлечения.
+description: Добавить URI сообщений для выборки.
 type: docs
 weight: 50
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/adduris/
 ---
 ## EwsFetchItems.AddUris method
 
-Добавить URI сообщения для извлечения.
+Добавить URI сообщений для выборки.
 
 ```csharp
 public EwsFetchItems AddUris(IEnumerable<string> uris)

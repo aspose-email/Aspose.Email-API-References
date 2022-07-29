@@ -1,14 +1,14 @@
 ---
 title: Sharing
 second_title: Справочник по Aspose.Email для .NET API
-description: Имя областиОбщий доступ Имя набора свойствPSETID_Sharing
+description: Имя области Общий доступ Имя набора свойств PSETID_Sharing
 type: docs
 weight: 160
 url: /ru/net/aspose.email.mapi/knownpropertysets/sharing/
 ---
 ## KnownPropertySets.Sharing field
 
-Имя области:Общий доступ Имя набора свойств:PSETID_Sharing
+Имя области: Общий доступ Имя набора свойств: PSETID_Sharing
 
 ```csharp
 public static readonly Guid Sharing;

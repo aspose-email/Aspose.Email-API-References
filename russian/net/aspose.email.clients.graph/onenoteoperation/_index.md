@@ -1,14 +1,14 @@
 ---
 title: OnenoteOperation
 second_title: Справочник по Aspose.Email для .NET API
-description: Статус некоторых длительных операций OneNote.
+description: Состояние некоторых длительных операций OneNote.
 type: docs
 weight: 16040
 url: /ru/net/aspose.email.clients.graph/onenoteoperation/
 ---
 ## OnenoteOperation class
 
-Статус некоторых длительных операций OneNote.
+Состояние некоторых длительных операций OneNote.
 
 ```csharp
 public class OnenoteOperation
@@ -30,10 +30,10 @@ public class OnenoteOperation
 | [IsCreatedDateTimeSpecified](../../aspose.email.clients.graph/onenoteoperation/iscreateddatetimespecified) { get; } | Указывает, указано ли свойство CreatedDateTime. |
 | [IsLastActionDateTimeSpecified](../../aspose.email.clients.graph/onenoteoperation/islastactiondatetimespecified) { get; } | Указывает, указано ли свойство LastActionDateTime. |
 | [LastActionDateTime](../../aspose.email.clients.graph/onenoteoperation/lastactiondatetime) { get; } | Время последнего действия операции. |
-| [PercentComplete](../../aspose.email.clients.graph/onenoteoperation/percentcomplete) { get; } | Процент завершения операции, если операция все еще находится в состоянии выполнения |
+| [PercentComplete](../../aspose.email.clients.graph/onenoteoperation/percentcomplete) { get; } | Процент завершения операции, если операция все еще выполняется status |
 | [ResourceId](../../aspose.email.clients.graph/onenoteoperation/resourceid) { get; } | Идентификатор ресурса. |
 | [ResourceLocation](../../aspose.email.clients.graph/onenoteoperation/resourcelocation) { get; } | URI ресурса для объекта. Например, URI ресурса для скопированной страницы или раздела. |
-| [Status](../../aspose.email.clients.graph/onenoteoperation/status) { get; } | Текущий статус операции:не начато, выполняется, завершено, не удалось |
+| [Status](../../aspose.email.clients.graph/onenoteoperation/status) { get; } | Текущий статус операции: не начато, выполняется, завершено, не удалось |
 
 ### Смотрите также
 

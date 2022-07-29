@@ -1,14 +1,14 @@
 ---
 title: EmsAbHierarchyPath
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_HIERARCHY_PATH
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_HIERARCHY_PATH
 type: docs
 weight: 6590
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabhierarchypath/
 ---
 ## KnownPropertyList.EmsAbHierarchyPath field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_HIERARCHY_PATH
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_HIERARCHY_PATH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbHierarchyPath;

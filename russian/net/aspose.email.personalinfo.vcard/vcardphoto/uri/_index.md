@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает uri фотографии  null ifvalueLocationis встроенный 
+description: Получает или задает uri фотографии нулевой еслиvalueLocation являетсяв соответствии
 type: docs
 weight: 40
 url: /ru/net/aspose.email.personalinfo.vcard/vcardphoto/uri/
 ---
 ## VCardPhoto.Uri property
 
-Получает или устанавливает uri фотографии (` null` ifvalueLocationis` встроенный` )
+Получает или задает uri фотографии (`нулевой` еслиvalueLocation является`в соответствии`)
 
 ```csharp
 public string Uri { get; set; }

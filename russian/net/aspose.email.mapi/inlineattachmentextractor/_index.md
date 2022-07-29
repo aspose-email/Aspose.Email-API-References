@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.mapi/inlineattachmentextractor/
 ---
 ## InlineAttachmentExtractor class
 
-Предоставляет возможность извлекать файлы из пакетов MSO. Может использоваться для обработки "oledata.mso" и подобных файлов, обычно вложенных в сообщения, созданные с помощью Outlook.
+Предоставляет возможность извлекать файлы из пакетов MSO. Может использоваться для обработки «oledata.mso» и подобных файлов, обычно вложенных в сообщения, созданные с помощью Outlook.
 
 ```csharp
 public static class InlineAttachmentExtractor
@@ -18,7 +18,7 @@ public static class InlineAttachmentExtractor
 
 | Имя | Описание |
 | --- | --- |
-| static [EnumerateMsoPackage](../../aspose.email.mapi/inlineattachmentextractor/enumeratemsopackage)(Stream) | Перечисляет пакет MSO и возвращает словарь, содержащий данные файлов. Ключ является идентификатором файла, а значение содержит фактические данные. Файлы обычно упоминаются в теле сообщения с использованием предоставленных идентификаторов. |
+| static [EnumerateMsoPackage](../../aspose.email.mapi/inlineattachmentextractor/enumeratemsopackage)(Stream) | Перечисляет пакет MSO и возвращает словарь, содержащий данные о файлах. Ключ представляет собой идентификатор файла, а значение содержит фактические данные. Файлы обычно упоминаются в теле сообщения с использованием предоставленных идентификаторов. |
 
 ### Смотрите также
 

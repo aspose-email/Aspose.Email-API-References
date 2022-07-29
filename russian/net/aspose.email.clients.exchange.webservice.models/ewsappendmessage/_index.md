@@ -1,14 +1,14 @@
 ---
 title: EwsAppendMessage
 second_title: Справочник по Aspose.Email для .NET API
-description: ПредставляетEwsAppendMessageпараметры.
+description: ПредставляетAppendMessagesAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync параметры.
 type: docs
 weight: 4040
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/
 ---
 ## EwsAppendMessage class
 
-ПредставляетEwsAppendMessageпараметры.
+Представляет[`AppendMessagesAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync) параметры.
 
 ```csharp
 public class EwsAppendMessage
@@ -18,12 +18,12 @@ public class EwsAppendMessage
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/create)() | СоздаетEwsAppendMessageнабор параметров метода. |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/create)() | Создает[`AppendMessagesAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync) набор параметров метода. |
 | [AddMessage](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage#addmessage)(MailMessage) | Добавить почтовое сообщение для добавления. |
 | [AddMessage](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage#addmessage_1)(MapiMessage) | Добавить сообщение MAPI для добавления. |
 | [AddMessages](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessages#addmessages)(IEnumerable&lt;MailMessage&gt;) | Добавить список почтовых сообщений для добавления. |
 | [AddMessages](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessages#addmessages_1)(IEnumerable&lt;MapiMessage&gt;) | Добавить список сообщений MAPI для добавления. |
-| [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/setcancellationtoken)(CancellationToken) | Установите токен отмены. |
+| [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/setcancellationtoken)(CancellationToken) | Установить токен отмены. |
 | [SetFolder](../../aspose.email.clients.exchange.webservice.models/ewsappendmessage/setfolder)(string) | Папка, в которую загружаются сообщения. |
 
 ### Смотрите также

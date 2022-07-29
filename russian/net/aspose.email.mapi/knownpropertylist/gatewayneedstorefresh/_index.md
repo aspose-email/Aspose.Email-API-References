@@ -1,14 +1,14 @@
 ---
 title: GatewayNeedsToRefresh
 second_title: Справочник по Aspose.Email для .NET API
-description: Это свойство устарело и НЕ ДОЛЖНО использоваться. ОбластьMessageClassDefinedTransmittable Каноническое имяPidTagGatewayNeedsToRefresh Альтернативные именаPR_GATEWAY_NEEDS_TO_REFRESH
+description: Это свойство устарело и его НЕ СЛЕДУЕТ использовать. Область MessageClassDefinedTransmittable Каноническое имя PidTagGatewayNeedsToRefresh Альтернативные имена PR_GATEWAY_NEEDS_TO_REFRESH
 type: docs
 weight: 10730
 url: /ru/net/aspose.email.mapi/knownpropertylist/gatewayneedstorefresh/
 ---
 ## KnownPropertyList.GatewayNeedsToRefresh field
 
-Это свойство устарело и НЕ ДОЛЖНО использоваться. Область:MessageClassDefinedTransmittable Каноническое имя:PidTagGatewayNeedsToRefresh Альтернативные имена:PR_GATEWAY_NEEDS_TO_REFRESH
+Это свойство устарело, и его НЕ СЛЕДУЕТ использовать. Область: MessageClassDefinedTransmittable Каноническое имя: PidTagGatewayNeedsToRefresh Альтернативные имена: PR_GATEWAY_NEEDS_TO_REFRESH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GatewayNeedsToRefresh;

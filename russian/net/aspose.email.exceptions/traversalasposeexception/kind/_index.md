@@ -1,14 +1,14 @@
 ---
 title: Kind
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает тип ошибки.
+description: Получает или задает вид ошибки.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.exceptions/traversalasposeexception/kind/
 ---
 ## TraversalAsposeException.Kind property
 
-Получает или задает тип ошибки.
+Получает или задает вид ошибки.
 
 ```csharp
 public TraversalFailureKind Kind { get; set; }
@@ -16,7 +16,7 @@ public TraversalFailureKind Kind { get; set; }
 
 ### Стоимость имущества
 
-Тип[`TraversalFailureKind`](../../traversalfailurekind), который может возникнуть при обходе хранилища.
+[`TraversalFailureKind`](../../traversalfailurekind) что может произойти при обходе хранилища.
 
 ### Смотрите также
 

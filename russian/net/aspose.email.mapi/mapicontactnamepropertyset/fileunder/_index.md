@@ -1,14 +1,14 @@
 ---
 title: FileUnder
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает имя под которым записывать этот контакт при отображении списка контактов
+description: Получает или задает имя под которым будет хранить этот контакт при отображении списка контактов
 type: docs
 weight: 40
 url: /ru/net/aspose.email.mapi/mapicontactnamepropertyset/fileunder/
 ---
 ## MapiContactNamePropertySet.FileUnder property
 
-Получает или задает имя, под которым записывать этот контакт при отображении списка контактов
+Получает или задает имя, под которым будет хранить этот контакт при отображении списка контактов
 
 ```csharp
 public string FileUnder { get; set; }

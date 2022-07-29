@@ -1,14 +1,14 @@
 ---
 title: AddressBookPublicDelegates
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список пользователей почты которым разрешено отправлять электронную почту от имени владельца почтового ящика. ОбластьАдресная книга Каноническое имяPidTagAddressBookPublicDelegates Альтернативные именаPR_EMS_AB_PUBLIC_DELEGATES PR_EMS_AB_PUBLIC_DELEGATES_A PR_EMS_AB_PUBLIC_DELEGATES_W
+description: Содержит список пользователей почты которым разрешено отправлять электронную почту от имени владельца почтового ящика. Область Адресная книга Каноническое имя PidTagAddressBookPublicDelegates Альтернативные имена PR_EMS_AB_PUBLIC_DELEGATES PR_EMS_AB_PUBLIC_DELEGATES_A PR_EMS_AB_PUBLIC_DELEGATES_W
 type: docs
 weight: 910
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookpublicdelegates/
 ---
 ## KnownPropertyList.AddressBookPublicDelegates field
 
-Содержит список пользователей почты, которым разрешено отправлять электронную почту от имени владельца почтового ящика. Область:Адресная книга Каноническое имя:PidTagAddressBookPublicDelegates Альтернативные имена:PR_EMS_AB_PUBLIC_DELEGATES, PR_EMS_AB_PUBLIC_DELEGATES_A, PR_EMS_AB_PUBLIC_DELEGATES_W
+Содержит список пользователей почты, которым разрешено отправлять электронную почту от имени владельца почтового ящика. Область: Адресная книга Каноническое имя: PidTagAddressBookPublicDelegates Альтернативные имена: PR_EMS_AB_PUBLIC_DELEGATES, PR_EMS_AB_PUBLIC_DELEGATES_A, PR_EMS_AB_PUBLIC_DELEGATES_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookPublicDelegates;

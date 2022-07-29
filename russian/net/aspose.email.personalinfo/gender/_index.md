@@ -3,7 +3,7 @@ title: Gender
 second_title: Справочник по Aspose.Email для .NET API
 description: Enum определяет пол человека
 type: docs
-weight: 19390
+weight: 19420
 url: /ru/net/aspose.email.personalinfo/gender/
 ---
 ## Gender enumeration

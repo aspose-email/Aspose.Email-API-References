@@ -32,7 +32,7 @@ public ImapMessageInfoCollection(IEnumerable<ImapMessageInfo> messageInfoEn)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageInfoEn | IEnumerable`1 | начальное значение |
+| messageInfoEn | IEnumerable`1 | Начальное значение |
 
 ### Смотрите также
 

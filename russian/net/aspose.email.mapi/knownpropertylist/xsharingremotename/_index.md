@@ -1,14 +1,14 @@
 ---
 title: XSharingRemoteName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит то же значение что и свойство PidLidSharingRemoteName раздел 2.277. ОбластьСовместное использование Каноническое имяPidNameXSharingRemoteName Альтернативные имена
+description: Содержит то же значение что и свойство PidLidSharingRemoteName раздел 2.277. Область Sharing Каноническое имя PidNameXSharingRemoteName Альтернативные имена
 type: docs
 weight: 19810
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingremotename/
 ---
 ## KnownPropertyList.XSharingRemoteName field
 
-Содержит то же значение, что и свойство PidLidSharingRemoteName (раздел 2.277). Область:Совместное использование Каноническое имя:PidNameXSharingRemoteName Альтернативные имена:
+Содержит то же значение, что и свойство PidLidSharingRemoteName (раздел 2.277). Область: Sharing Каноническое имя: PidNameXSharingRemoteName Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingRemoteName;

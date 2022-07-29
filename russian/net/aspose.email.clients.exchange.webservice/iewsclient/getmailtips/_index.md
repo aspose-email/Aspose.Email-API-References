@@ -1,14 +1,14 @@
 ---
 title: GetMailTips
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает почтовые подсказки
+description: Получает советы по почте
 type: docs
 weight: 1000
 url: /ru/net/aspose.email.clients.exchange.webservice/iewsclient/getmailtips/
 ---
 ## IEWSClient.GetMailTips method
 
-Получает почтовые подсказки
+Получает советы по почте
 
 ```csharp
 public MailTips[] GetMailTips(GetMailTipsOptions options)
@@ -16,7 +16,7 @@ public MailTips[] GetMailTips(GetMailTipsOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | GetMailTipsOptions | Опции, определяющие критерии поиска |
+| options | GetMailTipsOptions | Параметры, определяющие критерии поиска |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,7 @@ public MailTips[] GetMailTips(GetMailTipsOptions options)
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | выдает, когда*options*is` null` |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | бросает, когда*options* является`нулевой` |
 
 ### Смотрите также
 

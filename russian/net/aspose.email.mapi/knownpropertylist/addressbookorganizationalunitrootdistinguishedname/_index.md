@@ -1,14 +1,14 @@
 ---
 title: AddressBookOrganizationalUnitRootDistinguishedName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит DN объекта Organization организации почтового пользователя. ОбластьАдресная книга Каноническое имяPidTagAddressBookOrganizationalUnitRootDistinguishedName Альтернативные именаPR_EMS_AB_ORG_UNIT_ROOT_DN msExchOURoot
+description: Содержит DN объекта Organization организации почтового пользователя. Область Address Book Каноническое имя PidTagAddressBookOrganizationalUnitRootDistinguishedName Альтернативные имена PR_EMS_AB_ORG_UNIT_ROOT_DN msExchOURoot
 type: docs
 weight: 790
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookorganizationalunitrootdistinguishedname/
 ---
 ## KnownPropertyList.AddressBookOrganizationalUnitRootDistinguishedName field
 
-Содержит DN объекта Organization организации почтового пользователя. Область:Адресная книга Каноническое имя:PidTagAddressBookOrganizationalUnitRootDistinguishedName Альтернативные имена:PR_EMS_AB_ORG_UNIT_ROOT_DN, msExchOURoot
+Содержит DN объекта Organization организации почтового пользователя. Область: Address Book Каноническое имя: PidTagAddressBookOrganizationalUnitRootDistinguishedName Альтернативные имена: PR_EMS_AB_ORG_UNIT_ROOT_DN, msExchOURoot
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookOrganizationalUnitRootDistinguishedName;

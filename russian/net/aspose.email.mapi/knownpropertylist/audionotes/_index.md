@@ -1,14 +1,14 @@
 ---
 title: AudioNotes
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит текстовые аннотации к голосовому сообщению после его доставки в почтовый ящик пользователя. ОбластьЕдиная система обмена сообщениями Каноническое имяPidNameAudioNotes Альтернативные именаUMAudioNotes
+description: Содержит текстовые аннотации к голосовому сообщению после его доставки в почтовый ящик пользователя. Область Единая система обмена сообщениями Каноническое имя PidNameAudioNotes Альтернативные имена UMAudioNotes
 type: docs
 weight: 1850
 url: /ru/net/aspose.email.mapi/knownpropertylist/audionotes/
 ---
 ## KnownPropertyList.AudioNotes field
 
-Содержит текстовые аннотации к голосовому сообщению после его доставки в почтовый ящик пользователя. Область:Единая система обмена сообщениями Каноническое имя:PidNameAudioNotes Альтернативные имена:UMAudioNotes
+Содержит текстовые аннотации к голосовому сообщению после его доставки в почтовый ящик пользователя. Область: Единая система обмена сообщениями Каноническое имя: PidNameAudioNotes Альтернативные имена: UMAudioNotes
 
 ```csharp
 public static readonly PidNamePropertyDescriptor AudioNotes;

@@ -17,9 +17,9 @@ public Task<AppendMessagesResult> AppendMessagesAsync(IEnumerable<MailMessage> m
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IEnumerable`1 | Подключение к сервер |
+| connection | IEnumerable`1 | Подключение к серверу |
 | folderName | String | Папка, в которую будет поступать почтовое сообщение |
-| messages | IConnection | Перечисление сообщений электронной почты для be upload |
+| messages | IConnection | Перечисление сообщений электронной почты для загрузки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

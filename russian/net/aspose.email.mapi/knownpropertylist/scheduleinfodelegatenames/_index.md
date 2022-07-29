@@ -1,14 +1,14 @@
 ---
 title: ScheduleInfoDelegateNames
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает имена делегатов. AreaFree/Busy Properties Каноническое имяPidTagScheduleInfoDelegateNames Альтернативные именаPR_SCHDINFO_DELEGATE_NAMES
+description: Указывает имена делегатов. Область Free/Busy Properties Каноническое имя PidTagScheduleInfoDelegateNames Альтернативные имена PR_SCHDINFO_DELEGATE_NAMES
 type: docs
 weight: 16740
 url: /ru/net/aspose.email.mapi/knownpropertylist/scheduleinfodelegatenames/
 ---
 ## KnownPropertyList.ScheduleInfoDelegateNames field
 
-Указывает имена делегатов. Area:Free/Busy Properties Каноническое имя:PidTagScheduleInfoDelegateNames Альтернативные имена:PR_SCHDINFO_DELEGATE_NAMES
+Указывает имена делегатов. Область: Free/Busy Properties Каноническое имя: PidTagScheduleInfoDelegateNames Альтернативные имена: PR_SCHDINFO_DELEGATE_NAMES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ScheduleInfoDelegateNames;

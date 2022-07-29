@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Email для .NET API
-description: СоздатьImapChangeMessageFlagsaspose.email.clients.imap.models/imapchangemessageflagsinstance.
+description: СоздатьImapChangeMessageFlagsaspose.email.clients.imap.models/imapchangemessageflags экземпляр.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap.models/imapchangemessageflags/create/
 ---
 ## ImapChangeMessageFlags.Create method
 
-Создать[`ImapChangeMessageFlags`](../../imapchangemessageflags)instance.
+Создать[`ImapChangeMessageFlags`](../../imapchangemessageflags) экземпляр.
 
 ```csharp
 public static ImapChangeMessageFlags Create()

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Email для .NET API
-description: Значение расширенных свойств
+description: Расширенные свойства value
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.activity/extendedproperty/value/
 ---
 ## ExtendedProperty.Value property
 
-Значение расширенных свойств
+Расширенные свойства value
 
 ```csharp
 public string Value { get; set; }

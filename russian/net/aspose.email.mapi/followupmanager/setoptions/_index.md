@@ -16,15 +16,15 @@ public static void SetOptions(MapiMessage message, FollowUpOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| message | MapiMessage | [`MapiMessage`](../../mapimessage)в котором будет установлен флаг . |
-| options | FollowUpOptions | Элемент[`FollowUpOptions`](../../followupoptions)который представляет опции для использования follow- вверх флаги и напоминания. |
+| message | MapiMessage | [`MapiMessage`](../../mapimessage) в котором будет установлен флаг. |
+| options | FollowUpOptions | [`FollowUpOptions`](../../followupoptions) который представляет варианты использования флажков и напоминаний о последующих действиях . |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если*message*равно null. |
-| ArgumentNullException | Если*options*равно null. |
+| ArgumentNullException | Если*message* нулевой. |
+| ArgumentNullException | Если*options* нулевой. |
 
 ### Смотрите также
 

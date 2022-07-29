@@ -1,14 +1,14 @@
 ---
 title: OldRecurrenceType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает шаблон повторения встречи или собрания. ОбластьВстречи Каноническое имяPidLidOldRecurrenceType Альтернативные именаLID_RECUR_TYPE
+description: Указывает шаблон повторения встречи или встречи. Область Meetings Каноническое имя PidLidOldRecurrenceType Альтернативные имена LID_RECUR_TYPE
 type: docs
 weight: 13340
 url: /ru/net/aspose.email.mapi/knownpropertylist/oldrecurrencetype/
 ---
 ## KnownPropertyList.OldRecurrenceType field
 
-Указывает шаблон повторения встречи или собрания. Область:Встречи Каноническое имя:PidLidOldRecurrenceType Альтернативные имена:LID_RECUR_TYPE
+Указывает шаблон повторения встречи или встречи. Область: Meetings Каноническое имя: PidLidOldRecurrenceType Альтернативные имена: LID_RECUR_TYPE
 
 ```csharp
 public static readonly PidLidPropertyDescriptor OldRecurrenceType;

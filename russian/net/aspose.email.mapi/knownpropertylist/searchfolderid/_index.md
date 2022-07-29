@@ -1,14 +1,14 @@
 ---
 title: SearchFolderId
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит идентификатор GUID определяющий папку поиска. ОбластьПоиск Каноническое имяPidTagSearchFolderId Альтернативные именаPR_WB_SF_ID
+description: Содержит GUID идентифицирующий папку поиска. Область Search Каноническое имя PidTagSearchFolderId Альтернативные имена PR_WB_SF_ID
 type: docs
 weight: 16970
 url: /ru/net/aspose.email.mapi/knownpropertylist/searchfolderid/
 ---
 ## KnownPropertyList.SearchFolderId field
 
-Содержит идентификатор GUID, определяющий папку поиска. Область:Поиск Каноническое имя:PidTagSearchFolderId Альтернативные имена:PR_WB_SF_ID
+Содержит GUID, идентифицирующий папку поиска. Область: Search Каноническое имя: PidTagSearchFolderId Альтернативные имена: PR_WB_SF_ID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor SearchFolderId;

@@ -3,7 +3,7 @@ title: Url
 second_title: Справочник по Aspose.Email для .NET API
 description: Objects представляет URL-адрес и его категорию.
 type: docs
-weight: 19500
+weight: 19530
 url: /ru/net/aspose.email.personalinfo/url/
 ---
 ## Url class
@@ -25,14 +25,14 @@ public class Url : IComparable<Url>
 | Имя | Описание |
 | --- | --- |
 | [Category](../../aspose.email.personalinfo/url/category) { get; set; } | Получает или задает категорию объекта |
-| [Href](../../aspose.email.personalinfo/url/href) { get; set; } | Получает или задает URL-адрес |
+| [Href](../../aspose.email.personalinfo/url/href) { get; set; } | Получает или задает URL |
 | [Prefered](../../aspose.email.personalinfo/url/prefered) { get; set; } | Получает или задает значение, определяющее, является ли объект предпочтительным. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [CompareTo](../../aspose.email.personalinfo/url/compareto)(Url) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| virtual [CompareTo](../../aspose.email.personalinfo/url/compareto)(Url) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | [Equals](../../aspose.email.personalinfo/url/equals#equals)(Url) | Определяет, равен ли указанный объект текущему объекту. |
 | [Equals](../../aspose.email.personalinfo/url/equals#equals_1)(Url, Url) | Определяет, считаются ли указанные экземпляры объектов равными. |
 | override [GetHashCode](../../aspose.email.personalinfo/url/gethashcode#gethashcode)() | GetHashCode возвращает хеш-функцию для этого объекта. |

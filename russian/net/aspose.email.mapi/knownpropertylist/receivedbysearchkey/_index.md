@@ -1,14 +1,14 @@
 ---
 title: ReceivedBySearchKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Идентифицирует ключ поиска в адресной книге который содержит двоично-сопоставимый ключ используемый для идентификации связанных объектов для поиска. ОбластьСвойства адреса Каноническое имяPidTagReceivedBySearchKey Альтернативные именаPR_RECEIVED_BY_SEARCH_KEY
+description: Идентифицирует ключ поиска в адресной книге который содержит двоично-сопоставимый ключ используемый для идентификации связанных объектов для поиска. Область Свойства адреса Каноническое имя PidTagReceivedBySearchKey Альтернативные имена PR_RECEIVED_BY_SEARCH_KEY
 type: docs
 weight: 15310
 url: /ru/net/aspose.email.mapi/knownpropertylist/receivedbysearchkey/
 ---
 ## KnownPropertyList.ReceivedBySearchKey field
 
-Идентифицирует ключ поиска в адресной книге, который содержит двоично-сопоставимый ключ, используемый для идентификации связанных объектов для поиска. Область:Свойства адреса Каноническое имя:PidTagReceivedBySearchKey Альтернативные имена:PR_RECEIVED_BY_SEARCH_KEY
+Идентифицирует ключ поиска в адресной книге, который содержит двоично-сопоставимый ключ, используемый для идентификации связанных объектов для поиска. Область: Свойства адреса Каноническое имя: PidTagReceivedBySearchKey Альтернативные имена: PR_RECEIVED_BY_SEARCH_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReceivedBySearchKey;

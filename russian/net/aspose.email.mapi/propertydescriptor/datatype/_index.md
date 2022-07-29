@@ -1,14 +1,14 @@
 ---
 title: DataType
 second_title: Справочник по Aspose.Email для .NET API
-description: Тип значения свойства как описано в MS-OXCDATA который указывает тип значений разрешенных для свойства.
+description: Тип значения свойства как описано в MS-OXCDATA указывающий тип значений разрешенных для свойства.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/propertydescriptor/datatype/
 ---
 ## PropertyDescriptor.DataType property
 
-Тип значения свойства, как описано в [MS-OXCDATA], который указывает тип значений, разрешенных для свойства.
+Тип значения свойства, как описано в [MS-OXCDATA], указывающий тип значений, разрешенных для свойства.
 
 ```csharp
 public PropertyDataType DataType { get; }

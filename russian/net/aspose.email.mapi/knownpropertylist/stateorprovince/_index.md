@@ -1,14 +1,14 @@
 ---
 title: StateOrProvince
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название штата или провинции почтового пользователя. ОбластьMapiMailUser Каноническое имяPidTagStateOrProvince Альтернативные именаPR_STATE_OR_PROVINCE PR_STATE_OR_PROVINCE_A PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A
+description: Содержит название штата или провинции почтового пользователя. Область MapiMailUser Каноническое имя PidTagStateOrProvince Альтернативные имена PR_STATE_OR_PROVINCE PR_STATE_OR_PROVINCE_A PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A
 type: docs
 weight: 18190
 url: /ru/net/aspose.email.mapi/knownpropertylist/stateorprovince/
 ---
 ## KnownPropertyList.StateOrProvince field
 
-Содержит название штата или провинции почтового пользователя. Область:MapiMailUser Каноническое имя:PidTagStateOrProvince Альтернативные имена:PR_STATE_OR_PROVINCE, PR_STATE_OR_PROVINCE_A, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A,
+Содержит название штата или провинции почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagStateOrProvince Альтернативные имена: PR_STATE_OR_PROVINCE, PR_STATE_OR_PROVINCE_A, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor StateOrProvince;

@@ -1,14 +1,14 @@
 ---
 title: AddressBookIsMaster
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит логическое значение TRUE если в этом контейнере можно создать объекты адресной книги и FALSE в противном случае. ОбластьАдресная книга Каноническое имяPidTagAddressBookIsMaster Альтернативные именаPR_EMS_AB_IS_MASTER
+description: Содержит логическое значение TRUE если в этом контейнере можно создавать объекты адресной книги и FALSE в противном случае. Область Адресная книга Каноническое имя PidTagAddressBookIsMaster Альтернативные имена PR_EMS_AB_IS_MASTER
 type: docs
 weight: 680
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookismaster/
 ---
 ## KnownPropertyList.AddressBookIsMaster field
 
-Содержит логическое значение TRUE, если в этом контейнере можно создать объекты адресной книги, и FALSE в противном случае. Область:Адресная книга Каноническое имя:PidTagAddressBookIsMaster Альтернативные имена:PR_EMS_AB_IS_MASTER
+Содержит логическое значение TRUE, если в этом контейнере можно создавать объекты адресной книги, и FALSE в противном случае. Область: Адресная книга Каноническое имя: PidTagAddressBookIsMaster Альтернативные имена: PR_EMS_AB_IS_MASTER
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookIsMaster;

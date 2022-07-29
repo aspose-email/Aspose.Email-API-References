@@ -1,14 +1,14 @@
 ---
 title: BusinessCardDisplayDefinition
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит сведения о пользовательской настройке для отображения контакта в виде визитной карточки. ОбластьСвойства контакта Каноническое имяPidLidBusinessCardDisplayDefinition Альтернативные именаdispidBCDisplayDefinition
+description: Содержит сведения о пользовательской настройке для отображения контакта в виде визитной карточки. Область Свойства контакта Каноническое имя PidLidBusinessCardDisplayDefinition Альтернативные имена dispidBCDisplayDefinition
 type: docs
 weight: 2110
 url: /ru/net/aspose.email.mapi/knownpropertylist/businesscarddisplaydefinition/
 ---
 ## KnownPropertyList.BusinessCardDisplayDefinition field
 
-Содержит сведения о пользовательской настройке для отображения контакта в виде визитной карточки. Область:Свойства контакта Каноническое имя:PidLidBusinessCardDisplayDefinition Альтернативные имена:dispidBCDisplayDefinition
+Содержит сведения о пользовательской настройке для отображения контакта в виде визитной карточки. Область: Свойства контакта Каноническое имя: PidLidBusinessCardDisplayDefinition Альтернативные имена: dispidBCDisplayDefinition
 
 ```csharp
 public static readonly PidLidPropertyDescriptor BusinessCardDisplayDefinition;

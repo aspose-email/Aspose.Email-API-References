@@ -1,14 +1,14 @@
 ---
 title: EmsAbMonitoringMailUpdateUnits
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MONITORING_MAIL_UPDATE_UNITS
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MONITORING_MAIL_UPDATE_UNITS
 type: docs
 weight: 7450
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmonitoringmailupdateunits/
 ---
 ## KnownPropertyList.EmsAbMonitoringMailUpdateUnits field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MONITORING_MAIL_UPDATE_UNITS
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MONITORING_MAIL_UPDATE_UNITS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMonitoringMailUpdateUnits;

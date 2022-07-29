@@ -1,14 +1,14 @@
 ---
 title: StartRange
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает начальную границу диапазона для поиска
+description: Получает или задает начальную границу диапазона search
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.imap/rangeseqset/startrange/
 ---
 ## RangeSeqSet.StartRange property
 
-Получает или задает начальную границу диапазона для поиска
+Получает или задает начальную границу диапазона search
 
 ```csharp
 public SimpleSeqSet StartRange { get; set; }

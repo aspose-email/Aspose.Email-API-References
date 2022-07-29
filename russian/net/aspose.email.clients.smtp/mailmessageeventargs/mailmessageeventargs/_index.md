@@ -1,14 +1,14 @@
 ---
 title: MailMessageEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаMailMessageEventArgsaspose.email.clients.smtp/mailmessageeventargs.
+description: Инициализирует новый экземплярMailMessageEventArgsaspose.email.clients.smtp/mailmessageeventargs класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.smtp/mailmessageeventargs/mailmessageeventargs/
 ---
 ## MailMessageEventArgs constructor
 
-Инициализирует новый экземпляр класса[`MailMessageEventArgs`](../../mailmessageeventargs).
+Инициализирует новый экземпляр[`MailMessageEventArgs`](../../mailmessageeventargs) класс.
 
 ```csharp
 public MailMessageEventArgs(MailMessage message)

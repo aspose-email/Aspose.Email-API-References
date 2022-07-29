@@ -1,14 +1,14 @@
 ---
 title: XVoiceMessageAttachmentOrder
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список имен вложений аудиофайлов которые должны воспроизводиться как часть сообщения в обратном порядке. ОбластьЕдиная система обмена сообщениями Каноническое имяPidNameXVoiceMessageAttachmentOrder Альтернативные имена
+description: Содержит список имен вложений аудиофайлов которые должны воспроизводиться как часть сообщения в обратном порядке. Область Единая система обмена сообщениями Каноническое имя PidNameXVoiceMessageAttachmentOrder Альтернативные имена
 type: docs
 weight: 19860
 url: /ru/net/aspose.email.mapi/knownpropertylist/xvoicemessageattachmentorder/
 ---
 ## KnownPropertyList.XVoiceMessageAttachmentOrder field
 
-Содержит список имен вложений аудиофайлов, которые должны воспроизводиться как часть сообщения, в обратном порядке. Область:Единая система обмена сообщениями Каноническое имя:PidNameXVoiceMessageAttachmentOrder Альтернативные имена:
+Содержит список имен вложений аудиофайлов, которые должны воспроизводиться как часть сообщения, в обратном порядке. Область: Единая система обмена сообщениями Каноническое имя: PidNameXVoiceMessageAttachmentOrder Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XVoiceMessageAttachmentOrder;

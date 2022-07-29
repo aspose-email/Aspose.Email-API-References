@@ -1,14 +1,14 @@
 ---
 title: ServerNotificationEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаServerNotificationEventArgsaspose.email.clients.exchange.webservice/servernotificationeventargs
+description: Инициализирует новый экземплярServerNotificationEventArgsaspose.email.clients.exchange.webservice/servernotificationeventargs класс
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.exchange.webservice/servernotificationeventargs/servernotificationeventargs/
 ---
 ## ServerNotificationEventArgs constructor
 
-Инициализирует новый экземпляр класса[`ServerNotificationEventArgs`](../../servernotificationeventargs)
+Инициализирует новый экземпляр[`ServerNotificationEventArgs`](../../servernotificationeventargs) класс
 
 ```csharp
 public ServerNotificationEventArgs(KnownFolders folder, EventTypes eventTypes)
@@ -16,8 +16,8 @@ public ServerNotificationEventArgs(KnownFolders folder, EventTypes eventTypes)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folder | KnownFolders | Задает известные папки сервера Exchange. |
-| eventTypes | EventTypes | Определяет тип события |
+| folder | KnownFolders | Указывает известные папки сервера Exchange. |
+| eventTypes | EventTypes | Указывает тип события |
 
 ### Смотрите также
 

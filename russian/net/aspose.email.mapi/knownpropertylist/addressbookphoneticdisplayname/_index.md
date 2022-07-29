@@ -1,14 +1,14 @@
 ---
 title: AddressBookPhoneticDisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит фонетическое представление свойства PidTagDisplayName раздел 2.667. ОбластьАдресная книга Каноническое имяPidTagAddressBookPhoneticDisplayName Альтернативные именаPR_EMS_AB_PHONETIC_DISPLAY_NAME PR_EMS_AB_PHONETIC_DISPLAY_NAME_A PR_EMS_AB_PHONETIC_DISPLAY_NAME_W
+description: Содержит фонетическое представление свойства PidTagDisplayName раздел 2.667. Область Адресная книга Каноническое имя PidTagAddressBookPhoneticDisplayName Альтернативные имена PR_EMS_AB_PHONETIC_DISPLAY_NAME PR_EMS_AB_PHONETIC_DISPLAY_NAME_A PR_EMS_AB_PHONETIC_DISPLAY_NAME_W
 type: docs
 weight: 850
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookphoneticdisplayname/
 ---
 ## KnownPropertyList.AddressBookPhoneticDisplayName field
 
-Содержит фонетическое представление свойства PidTagDisplayName (раздел 2.667). Область:Адресная книга Каноническое имя:PidTagAddressBookPhoneticDisplayName Альтернативные имена:PR_EMS_AB_PHONETIC_DISPLAY_NAME, PR_EMS_AB_PHONETIC_DISPLAY_NAME_A, PR_EMS_AB_PHONETIC_DISPLAY_NAME_W
+Содержит фонетическое представление свойства PidTagDisplayName (раздел 2.667). Область: Адресная книга Каноническое имя: PidTagAddressBookPhoneticDisplayName Альтернативные имена: PR_EMS_AB_PHONETIC_DISPLAY_NAME, PR_EMS_AB_PHONETIC_DISPLAY_NAME_A, PR_EMS_AB_PHONETIC_DISPLAY_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookPhoneticDisplayName;

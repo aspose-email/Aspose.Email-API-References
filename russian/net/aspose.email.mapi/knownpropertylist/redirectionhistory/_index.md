@@ -1,14 +1,14 @@
 ---
 title: RedirectionHistory
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_REDIRECTION_HISTORY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_REDIRECTION_HISTORY
 type: docs
 weight: 15620
 url: /ru/net/aspose.email.mapi/knownpropertylist/redirectionhistory/
 ---
 ## KnownPropertyList.RedirectionHistory field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_REDIRECTION_HISTORY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_REDIRECTION_HISTORY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RedirectionHistory;

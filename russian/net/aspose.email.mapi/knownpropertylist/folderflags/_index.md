@@ -1,14 +1,14 @@
 ---
 title: FolderFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит вычисляемое значение для указания типа или состояния папки. ОбластьExchangeAdministrative Каноническое имяPidTagFolderFlags Альтернативные именаPR_FOLDER_FLAGS
+description: Содержит вычисляемое значение для указания типа или состояния папки. Область ExchangeAdministrative Каноническое имя PidTagFolderFlags Альтернативные имена PR_FOLDER_FLAGS
 type: docs
 weight: 10420
 url: /ru/net/aspose.email.mapi/knownpropertylist/folderflags/
 ---
 ## KnownPropertyList.FolderFlags field
 
-Содержит вычисляемое значение для указания типа или состояния папки. Область:ExchangeAdministrative Каноническое имя:PidTagFolderFlags Альтернативные имена:PR_FOLDER_FLAGS
+Содержит вычисляемое значение для указания типа или состояния папки. Область: ExchangeAdministrative Каноническое имя: PidTagFolderFlags Альтернативные имена: PR_FOLDER_FLAGS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FolderFlags;

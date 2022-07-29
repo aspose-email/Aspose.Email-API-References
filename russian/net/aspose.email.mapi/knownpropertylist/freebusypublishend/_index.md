@@ -1,14 +1,14 @@
 ---
 title: FreeBusyPublishEnd
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает конечное время в формате UTC для диапазона публикации. AreaFree/Busy Properties Каноническое имяPidTagFreeBusyPublishEnd Альтернативные именаPR_FREEBUSY_PUBLISH_END
+description: Указывает время окончания диапазона публикации в формате UTC. Область Free/Busy Properties Каноническое имя PidTagFreeBusyPublishEnd Альтернативные имена PR_FREEBUSY_PUBLISH_END
 type: docs
 weight: 10680
 url: /ru/net/aspose.email.mapi/knownpropertylist/freebusypublishend/
 ---
 ## KnownPropertyList.FreeBusyPublishEnd field
 
-Указывает конечное время в формате UTC для диапазона публикации. Area:Free/Busy Properties Каноническое имя:PidTagFreeBusyPublishEnd Альтернативные имена:PR_FREEBUSY_PUBLISH_END
+Указывает время окончания диапазона публикации в формате UTC. Область: Free/Busy Properties Каноническое имя: PidTagFreeBusyPublishEnd Альтернативные имена: PR_FREEBUSY_PUBLISH_END
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FreeBusyPublishEnd;

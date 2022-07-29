@@ -1,14 +1,14 @@
 ---
 title: EwsUpdateItem
 second_title: Справочник по Aspose.Email для .NET API
-description: ПредставляетEwsUpdateItemпараметры метода.
+description: ПредставляетUpdateItemAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync параметры метода.
 type: docs
 weight: 4080
 url: /ru/net/aspose.email.clients.exchange.webservice.models/ewsupdateitem/
 ---
 ## EwsUpdateItem class
 
-ПредставляетEwsUpdateItemпараметры метода.
+Представляет[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) параметры метода.
 
 ```csharp
 public class EwsUpdateItem
@@ -18,10 +18,10 @@ public class EwsUpdateItem
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_1)(MapiContact) | Инициализирует файл[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)набор параметров метода с элементом MapiContact . |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create)(MapiCalendar, string) | Инициализирует файл[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)параметр метода, установленный с элементом MapiCalendar . |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_2)(MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) | Инициализирует файл[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)параметр метода, установленный с элементом MapiNote . |
-| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_3)(MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) | Инициализирует файл[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync)параметр метода, установленный с элементом MapiTask . |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_1)(MapiContact) | Инициализирует[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) набор параметров метода с MapiContact item. |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create)(MapiCalendar, string) | Инициализирует[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) набор параметров метода с помощью MapiCalendar item. |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_2)(MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) | Инициализирует[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) набор параметров метода с помощью MapiNote item. |
+| static [Create](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/create#create_3)(MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) | Инициализирует[`UpdateItemAsync`](../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) набор параметров метода с помощью MapiTask item. |
 | [SetCancellationToken](../../aspose.email.clients.exchange.webservice.models/ewsupdateitem/setcancellationtoken)(CancellationToken) | Устанавливает токен отмены. |
 
 ### Смотрите также

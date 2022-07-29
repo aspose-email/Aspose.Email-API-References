@@ -16,7 +16,7 @@ public MapiAttachment FetchAttachment(string id)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| id | String | ID вложения |
+| id | String | Идентификатор вложения |
 
 ### Возвращаемое значение
 

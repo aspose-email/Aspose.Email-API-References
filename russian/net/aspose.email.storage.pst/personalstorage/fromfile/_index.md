@@ -45,7 +45,7 @@ public static PersonalStorage FromFile(string fileName, bool writable)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя PST-файла. |
-| writable | Boolean | если установлено значение` true` , то файл pst будет поддерживать запись, иначе он будет открыт только для чтения. |
+| writable | Boolean | если установлено`истинный` тогда файл pst будет поддерживать запись, в противном случае он будет открыт в режиме только для чтения. |
 
 ### Возвращаемое значение
 
@@ -70,7 +70,7 @@ public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptio
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя PST-файла. |
-| loadOptions | PersonalStorageLoadOptions | Параметры загрузки. |
+| loadOptions | PersonalStorageLoadOptions | Варианты загрузки. |
 
 ### Возвращаемое значение
 
@@ -80,7 +80,7 @@ public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptio
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | fileName - Имя файла не может быть нулевым или пустым |
+| ArgumentNullException | fileName — имя файла не может быть нулевым или пустым |
 | ArgumentException | PersonalStorageLoadOptions.LeaveStreamOpen не может быть истинным. |
 
 ### Смотрите также
@@ -147,7 +147,7 @@ public static PersonalStorage FromFile(string fileName, PersonalStorageLoadOptio
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя PST-файла. |
-| loadOptions | PersonalStorageLoadOptions | Параметры загрузки. |
+| loadOptions | PersonalStorageLoadOptions | Варианты загрузки. |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

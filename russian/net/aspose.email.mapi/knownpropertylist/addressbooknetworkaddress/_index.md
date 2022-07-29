@@ -1,14 +1,14 @@
 ---
 title: AddressBookNetworkAddress
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит список имен под которыми сервер известен различным транспортным средствам используемым в сети. ОбластьАдресная книга Каноническое имяPidTagAddressBookNetworkAddress Альтернативные именаPR_EMS_AB_NETWORK_ADDRESS PR_EMS_AB_NETWORK_ADDRESS_A PR_EMS_AB_NETWORK_ADDRESS_W
+description: Содержит список имен под которыми сервер известен различным транспортным средствам используемым в сети. Область Адресная книга Каноническое имя PidTagAddressBookNetworkAddress Альтернативные имена PR_EMS_AB_NETWORK_ADDRESS PR_EMS_AB_NETWORK_ADDRESS_A PR_EMS_AB_NETWORK_ADDRESS_W
 type: docs
 weight: 760
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbooknetworkaddress/
 ---
 ## KnownPropertyList.AddressBookNetworkAddress field
 
-Содержит список имен, под которыми сервер известен различным транспортным средствам, используемым в сети. Область:Адресная книга Каноническое имя:PidTagAddressBookNetworkAddress Альтернативные имена:PR_EMS_AB_NETWORK_ADDRESS, PR_EMS_AB_NETWORK_ADDRESS_A, PR_EMS_AB_NETWORK_ADDRESS_W
+Содержит список имен, под которыми сервер известен различным транспортным средствам, используемым в сети. Область: Адресная книга Каноническое имя: PidTagAddressBookNetworkAddress Альтернативные имена: PR_EMS_AB_NETWORK_ADDRESS, PR_EMS_AB_NETWORK_ADDRESS_A, PR_EMS_AB_NETWORK_ADDRESS_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookNetworkAddress;

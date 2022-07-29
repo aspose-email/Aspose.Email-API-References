@@ -1,14 +1,14 @@
 ---
 title: EmsAbMimeTypes
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_MIME_TYPES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_MIME_TYPES
 type: docs
 weight: 7240
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabmimetypes/
 ---
 ## KnownPropertyList.EmsAbMimeTypes field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_MIME_TYPES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_MIME_TYPES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbMimeTypes;

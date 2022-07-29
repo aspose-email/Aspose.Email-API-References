@@ -1,14 +1,14 @@
 ---
 title: AddressBookDeliveryContentLength
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает максимальный размер в байтах сообщения которое может получить получатель. ОбластьАдресная книга Каноническое имяPidTagAddressBookDeliveryContentLength Альтернативные именаPR_EMS_AB_DELIV_CONT_LENGTH
+description: Задает максимальный размер сообщения в байтах которое может получить получатель. Область Адресная книга Каноническое имя PidTagAddressBookDeliveryContentLength Альтернативные имена PR_EMS_AB_DELIV_CONT_LENGTH
 type: docs
 weight: 350
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookdeliverycontentlength/
 ---
 ## KnownPropertyList.AddressBookDeliveryContentLength field
 
-Указывает максимальный размер в байтах сообщения, которое может получить получатель. Область:Адресная книга Каноническое имя:PidTagAddressBookDeliveryContentLength Альтернативные имена:PR_EMS_AB_DELIV_CONT_LENGTH
+Задает максимальный размер сообщения в байтах, которое может получить получатель. Область: Адресная книга Каноническое имя: PidTagAddressBookDeliveryContentLength Альтернативные имена: PR_EMS_AB_DELIV_CONT_LENGTH
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookDeliveryContentLength;

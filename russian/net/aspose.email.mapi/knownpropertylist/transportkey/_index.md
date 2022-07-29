@@ -1,14 +1,14 @@
 ---
 title: TransportKey
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_TRANSPORT_KEY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_TRANSPORT_KEY
 type: docs
 weight: 19100
 url: /ru/net/aspose.email.mapi/knownpropertylist/transportkey/
 ---
 ## KnownPropertyList.TransportKey field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_TRANSPORT_KEY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_TRANSPORT_KEY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransportKey;

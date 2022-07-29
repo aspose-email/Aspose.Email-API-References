@@ -1,14 +1,14 @@
 ---
 title: ExceptionEndTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит дату и время окончания исключения в локальном часовом поясе компьютера на момент создания исключения. ОбластьMessageClassDefinedNonTransmittable Каноническое имяPidTagExceptionEndTime Альтернативные именаPR_EXCEPTION_ENDTIME ptagExceptionEndTime
+description: Содержит дату и время окончания исключения в локальном часовом поясе компьютера при создании исключения. Область MessageClassDefinedNonTransmittable Каноническое имя PidTagExceptionEndTime Альтернативные имена PR_EXCEPTION_ENDTIME ptagExceptionEndTime
 type: docs
 weight: 9780
 url: /ru/net/aspose.email.mapi/knownpropertylist/exceptionendtime/
 ---
 ## KnownPropertyList.ExceptionEndTime field
 
-Содержит дату и время окончания исключения в локальном часовом поясе компьютера на момент создания исключения. Область:MessageClassDefinedNonTransmittable Каноническое имя:PidTagExceptionEndTime Альтернативные имена:PR_EXCEPTION_ENDTIME, ptagExceptionEndTime
+Содержит дату и время окончания исключения в локальном часовом поясе компьютера при создании исключения. Область: MessageClassDefinedNonTransmittable Каноническое имя: PidTagExceptionEndTime Альтернативные имена: PR_EXCEPTION_ENDTIME, ptagExceptionEndTime
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ExceptionEndTime;

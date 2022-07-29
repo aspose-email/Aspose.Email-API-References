@@ -1,14 +1,14 @@
 ---
 title: EnumerateMessages
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет перечислитель который поддерживает итерацию сообщений в папке.
+description: Предоставляет перечислитель поддерживающий итерацию сообщений в папке.
 type: docs
 weight: 160
 url: /ru/net/aspose.email.storage.pst/personalstorage/enumeratemessages/
 ---
 ## EnumerateMessages(string) {#enumeratemessages}
 
-Предоставляет перечислитель, который поддерживает итерацию сообщений в папке.
+Предоставляет перечислитель, поддерживающий итерацию сообщений в папке.
 
 ```csharp
 public IEnumerable<MessageInfo> EnumerateMessages(string entryId)
@@ -20,7 +20,7 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId)
 
 ### Возвращаемое значение
 
-IEnumerable, который представляет перечислитель, который перебирает сообщения в папке.
+IEnumerable, , представляющий перечислитель, перебирающий сообщения в папке.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ IEnumerable, который представляет перечислитель,
 
 ## EnumerateMessages(string, int, int) {#enumeratemessages_1}
 
-Предоставляет перечислитель, который поддерживает итерацию сообщений в папке.
+Предоставляет перечислитель, поддерживающий итерацию сообщений в папке.
 
 ```csharp
 public IEnumerable<MessageInfo> EnumerateMessages(string entryId, int startIndex, int count)
@@ -42,12 +42,12 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId, int startIndex
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | entryId | String | Строка, представляющая идентификатор записи родительской папки. |
-| startIndex | Int32 | Индекс стартового сообщения. |
-| count | Int32 | Количество сообщений, которые будут извлечены. |
+| startIndex | Int32 | Индекс начального сообщения. |
+| count | Int32 | Количество сообщений, которые будут получены. |
 
 ### Возвращаемое значение
 
-IEnumerable, который представляет перечислитель, который перебирает сообщения в папке.
+IEnumerable, , представляющий перечислитель, перебирающий сообщения в папке.
 
 ### Смотрите также
 

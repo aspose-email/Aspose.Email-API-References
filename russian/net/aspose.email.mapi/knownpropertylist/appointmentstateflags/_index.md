@@ -1,14 +1,14 @@
 ---
 title: AppointmentStateFlags
 second_title: Справочник по Aspose.Email для .NET API
-description: Задает битовое поле описывающее состояние объекта. ОбластьВстречи Каноническое имяPidLidAppointmentStateFlags Альтернативные именаdispidApptStateFlags
+description: Указывает битовое поле описывающее состояние объекта. Область Meetings Каноническое имя PidLidAppointmentStateFlags Альтернативные имена dispidApptStateFlags
 type: docs
 weight: 1330
 url: /ru/net/aspose.email.mapi/knownpropertylist/appointmentstateflags/
 ---
 ## KnownPropertyList.AppointmentStateFlags field
 
-Задает битовое поле, описывающее состояние объекта. Область:Встречи Каноническое имя:PidLidAppointmentStateFlags Альтернативные имена:dispidApptStateFlags
+Указывает битовое поле, описывающее состояние объекта. Область: Meetings Каноническое имя: PidLidAppointmentStateFlags Альтернативные имена: dispidApptStateFlags
 
 ```csharp
 public static readonly PidLidPropertyDescriptor AppointmentStateFlags;

@@ -42,7 +42,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumberList | IEnumerable`1 | Список порядковых номеров сообщений |
 
 ### Возвращаемое значение
@@ -70,7 +70,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageInfoList | IEnumerable`1 | Информационный список сообщений |
+| messageInfoList | IEnumerable`1 | Список информации о сообщениях |
 
 ### Возвращаемое значение
 
@@ -97,8 +97,8 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messageInfoList | IEnumerable`1 | Информационный список сообщений |
+| connection | IConnection | Подключение к серверу |
+| messageInfoList | IEnumerable`1 | Список информации о сообщениях |
 
 ### Возвращаемое значение
 
@@ -153,7 +153,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
+| connection | IConnection | Подключение к серверу |
 | sequenceNumberList | IEnumerable`1 | Список порядковых номеров сообщений |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
@@ -182,7 +182,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| messageInfoList | IEnumerable`1 | Информационный список сообщений |
+| messageInfoList | IEnumerable`1 | Список информации о сообщениях |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -210,8 +210,8 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| messageInfoList | IEnumerable`1 | Информационный список сообщений |
+| connection | IConnection | Подключение к серверу |
+| messageInfoList | IEnumerable`1 | Список информации о сообщениях |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение

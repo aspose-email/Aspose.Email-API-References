@@ -1,14 +1,14 @@
 ---
 title: CompanyName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит название компании почтового пользователя. ОбластьСвойства контакта Каноническое имяPidTagCompanyName Альтернативные именаPR_COMPANY_NAME PR_COMPANY_NAME_A PR_COMPANY_NAME_W
+description: Содержит название компании почтового пользователя. Область Свойства контакта Каноническое имя PidTagCompanyName Альтернативные имена PR_COMPANY_NAME PR_COMPANY_NAME_A PR_COMPANY_NAME_W
 type: docs
 weight: 2840
 url: /ru/net/aspose.email.mapi/knownpropertylist/companyname/
 ---
 ## KnownPropertyList.CompanyName field
 
-Содержит название компании почтового пользователя. Область:Свойства контакта Каноническое имя:PidTagCompanyName Альтернативные имена:PR_COMPANY_NAME, PR_COMPANY_NAME_A, PR_COMPANY_NAME_W,
+Содержит название компании почтового пользователя. Область: Свойства контакта Каноническое имя: PidTagCompanyName Альтернативные имена: PR_COMPANY_NAME, PR_COMPANY_NAME_A, PR_COMPANY_NAME_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor CompanyName;

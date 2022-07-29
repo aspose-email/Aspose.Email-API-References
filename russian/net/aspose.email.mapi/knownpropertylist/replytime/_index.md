@@ -1,14 +1,14 @@
 ---
 title: ReplyTime
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время в формате UTC которое отправитель указал для выполнения связанного рабочего элемента. ОбластьMapiEnvelope Каноническое имяPidTagReplyTime Альтернативные именаPR_REPLY_TIME urnschemashttpmailreply-by
+description: Указывает время в формате UTC которое отправитель указал для выполнения связанного рабочего элемента. Область MapiEnvelope Каноническое имя PidTagReplyTime Альтернативные имена PR_REPLY_TIME urnschemashttpmailreply-by
 type: docs
 weight: 15970
 url: /ru/net/aspose.email.mapi/knownpropertylist/replytime/
 ---
 ## KnownPropertyList.ReplyTime field
 
-Указывает время в формате UTC, которое отправитель указал для выполнения связанного рабочего элемента. Область:MapiEnvelope Каноническое имя:PidTagReplyTime Альтернативные имена:PR_REPLY_TIME, urn:schemas:httpmail:reply-by,
+Указывает время в формате UTC, которое отправитель указал для выполнения связанного рабочего элемента. Область: MapiEnvelope Каноническое имя: PidTagReplyTime Альтернативные имена: PR_REPLY_TIME, urn:schemas:httpmail:reply-by,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReplyTime;

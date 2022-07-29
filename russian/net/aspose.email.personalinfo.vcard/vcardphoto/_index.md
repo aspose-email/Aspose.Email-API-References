@@ -1,14 +1,14 @@
 ---
 title: VCardPhoto
 second_title: Справочник по Aspose.Email для .NET API
-description: Представляет свойство фотографии vCard
+description: Представляет свойство vCard photo
 type: docs
-weight: 19660
+weight: 19710
 url: /ru/net/aspose.email.personalinfo.vcard/vcardphoto/
 ---
 ## VCardPhoto class
 
-Представляет свойство фотографии vCard
+Представляет свойство vCard photo
 
 ```csharp
 public sealed class VCardPhoto
@@ -18,16 +18,16 @@ public sealed class VCardPhoto
 
 | Имя | Описание |
 | --- | --- |
-| [VCardPhoto](vcardphoto)() | Инициализирует новый экземпляр класса[`VCardPhoto`](../vcardphoto)class |
+| [VCardPhoto](vcardphoto)() | Инициализирует новый экземпляр[`VCardPhoto`](../vcardphoto) класс |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Data](../../aspose.email.personalinfo.vcard/vcardphoto/data) { get; set; } | Получает или устанавливает данные изображения (` null` ifvalueLocationis not` встроенный` ) |
+| [Data](../../aspose.email.personalinfo.vcard/vcardphoto/data) { get; set; } | Получает или задает данные изображения (`нулевой` еслиvalueLocation не является`в соответствии`) |
 | [PhotoType](../../aspose.email.personalinfo.vcard/vcardphoto/phototype) { get; set; } | Получает или задает тип фотографии |
-| [Uri](../../aspose.email.personalinfo.vcard/vcardphoto/uri) { get; set; } | Получает или устанавливает uri фотографии (` null` ifvalueLocationis` встроенный` ) |
-| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardphoto/valuelocation) { get; set; } | Получает или задает местоположение значения |
+| [Uri](../../aspose.email.personalinfo.vcard/vcardphoto/uri) { get; set; } | Получает или задает uri фотографии (`нулевой` еслиvalueLocation является`в соответствии`) |
+| [ValueLocation](../../aspose.email.personalinfo.vcard/vcardphoto/valuelocation) { get; set; } | Получает или задает значение location |
 
 ### Смотрите также
 

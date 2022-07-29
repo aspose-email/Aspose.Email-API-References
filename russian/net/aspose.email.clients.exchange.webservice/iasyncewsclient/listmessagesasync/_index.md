@@ -22,14 +22,14 @@ public Task<ExchangeMessageInfoCollection> ListMessagesAsync(string folder, stri
 | folder | String | Папка для поиска сообщений. |
 | mailbox | String | Почтовый ящик, который используется для инициализации класса идентификатора папки. |
 | maxNumberOfMessages | Int32 | Максимальное количество сообщений. |
-| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery), который представляет критерии поиска сообщения. |
+| query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) который представляет критерии поиска сообщения. |
 | recursive | Boolean | Указывает, рекурсивный листинг или нет. |
 | extendedProperties | IEnumerable`1 | Расширенные свойства полученных сообщений |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)содержащий сообщения из указанной папки.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)который содержит сообщения из указанной папки.
 
 ### Смотрите также
 
@@ -54,11 +54,11 @@ public Task<ExchangeMessageInfoCollection> ListMessagesAsync(IEnumerable<string>
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | ids | IEnumerable`1 | Перечисление идентификаторов сообщений |
-| cancellationToken | CancellationToken | Маркер отмены . |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 
-[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection)который содержит сообщения с.
+[`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) который содержит сообщения с.
 
 ### Смотрите также
 

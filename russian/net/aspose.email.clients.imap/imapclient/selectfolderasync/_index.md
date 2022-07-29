@@ -17,7 +17,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| folderName | String | Выбираемая папка |
+| folderName | String | Папка для выбора |
 
 ### Возвращаемое значение
 
@@ -43,8 +43,8 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| folderName | String | Выбираемая папка |
-| readOnly | Nullable`1 | Указывает, следует ли выбирать папку только для чтения |
+| folderName | String | Папка для выбора |
+| readOnly | Nullable`1 | Указывает, должна ли папка быть выбрана только для чтения |
 
 ### Возвращаемое значение
 
@@ -69,7 +69,7 @@ public Task SelectFolderAsync(string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Выбираемая папка |
+| folderName | String | Папка для выбора |
 
 ### Возвращаемое значение
 
@@ -93,12 +93,12 @@ public Task SelectFolderAsync(string folderName, bool? readOnly)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Выбираемая папка |
-| readOnly | Nullable`1 | Указывает, должна ли папка быть выбрана как доступная только для чтения |
+| folderName | String | Папка для выбора |
+| readOnly | Nullable`1 | Указывает, должна ли папка быть выбрана только для чтения |
 
 ### Возвращаемое значение
 
-Объект задачи с делегатом для эта операция
+Объект задачи с делегатом для этой операции
 
 ### Смотрите также
 
@@ -119,7 +119,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, Cancell
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| folderName | String | Выбираемая папка |
+| folderName | String | Папка для выбора |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -147,8 +147,8 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | connection | IConnection | Подключение к серверу |
-| folderName | String | Выбираемая папка |
-| readOnly | Nullable`1 | Указывает, следует ли выбирать папку только для чтения |
+| folderName | String | Папка для выбора |
+| readOnly | Nullable`1 | Указывает, должна ли папка быть выбрана только для чтения |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -174,7 +174,7 @@ public Task SelectFolderAsync(string folderName, CancellationToken token)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Выбираемая папка |
+| folderName | String | Папка для выбора |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -199,9 +199,9 @@ public Task SelectFolderAsync(string folderName, bool? readOnly, CancellationTok
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderName | String | Выбираемая папка |
-| readOnly | Nullable`1 | Указывает, следует ли выбирать папку только для чтения |
-| token | CancellationToken | Распространяет уведомление о том, что операции следует отменить. |
+| folderName | String | Папка для выбора |
+| readOnly | Nullable`1 | Указывает, должна ли папка быть выбрана только для чтения |
+| token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
 

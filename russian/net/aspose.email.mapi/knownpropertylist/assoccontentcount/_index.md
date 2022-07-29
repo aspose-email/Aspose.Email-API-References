@@ -1,14 +1,14 @@
 ---
 title: AssocContentCount
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_ASSOC_CONTENT_COUNT
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_ASSOC_CONTENT_COUNT
 type: docs
 weight: 1460
 url: /ru/net/aspose.email.mapi/knownpropertylist/assoccontentcount/
 ---
 ## KnownPropertyList.AssocContentCount field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_ASSOC_CONTENT_COUNT
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_ASSOC_CONTENT_COUNT
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AssocContentCount;

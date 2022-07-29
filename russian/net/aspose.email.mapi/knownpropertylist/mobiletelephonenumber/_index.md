@@ -1,14 +1,14 @@
 ---
 title: MobileTelephoneNumber
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит номер мобильного телефона почтового пользователя. ОбластьСвойства адреса Каноническое имяPidTagMobileTelephoneNumber Альтернативные именаPR_MOBILE_TELEPHONE_NUMBER PR_MOBILE_TELEPHONE_NUMBER_A
+description: Содержит номер сотового телефона почтового пользователя. Область Address Properties Каноническое имя PidTagMobileTelephoneNumber Альтернативные имена PR_MOBILE_TELEPHONE_NUMBER PR_MOBILE_TELEPHONE_NUMBER_A
 type: docs
 weight: 12720
 url: /ru/net/aspose.email.mapi/knownpropertylist/mobiletelephonenumber/
 ---
 ## KnownPropertyList.MobileTelephoneNumber field
 
-Содержит номер мобильного телефона почтового пользователя. Область:Свойства адреса Каноническое имя:PidTagMobileTelephoneNumber Альтернативные имена:PR_MOBILE_TELEPHONE_NUMBER, PR_MOBILE_TELEPHONE_NUMBER_A,
+Содержит номер сотового телефона почтового пользователя. Область: Address Properties Каноническое имя: PidTagMobileTelephoneNumber Альтернативные имена: PR_MOBILE_TELEPHONE_NUMBER, PR_MOBILE_TELEPHONE_NUMBER_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor MobileTelephoneNumber;

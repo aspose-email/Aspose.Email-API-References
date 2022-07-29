@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает данные изображения  null ifvalueLocationis not встроенный 
+description: Получает или задает данные изображения нулевой еслиvalueLocation не являетсяв соответствии
 type: docs
 weight: 20
 url: /ru/net/aspose.email.personalinfo.vcard/vcardphoto/data/
 ---
 ## VCardPhoto.Data property
 
-Получает или устанавливает данные изображения (` null` ifvalueLocationis not` встроенный` )
+Получает или задает данные изображения (`нулевой` еслиvalueLocation не является`в соответствии`)
 
 ```csharp
 public byte[] Data { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ServiceSupportFiles
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_SERVICE_SUPPORT_FILES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_SERVICE_SUPPORT_FILES
 type: docs
 weight: 17370
 url: /ru/net/aspose.email.mapi/knownpropertylist/servicesupportfiles/
 ---
 ## KnownPropertyList.ServiceSupportFiles field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_SERVICE_SUPPORT_FILES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_SERVICE_SUPPORT_FILES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ServiceSupportFiles;

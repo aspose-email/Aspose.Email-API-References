@@ -1,14 +1,14 @@
 ---
 title: FreeBusyRangeTimestamp
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает время публикации данных в формате UTC. AreaFree/Busy Properties Каноническое имяPidTagFreeBusyRangeTimestamp Альтернативные именаPR_FREEBUSY_RANGE_TIMESTAMP
+description: Указывает время в формате UTC когда данные были опубликованы. Область Free/Busy Properties Каноническое имя PidTagFreeBusyRangeTimestamp Альтернативные имена PR_FREEBUSY_RANGE_TIMESTAMP
 type: docs
 weight: 10700
 url: /ru/net/aspose.email.mapi/knownpropertylist/freebusyrangetimestamp/
 ---
 ## KnownPropertyList.FreeBusyRangeTimestamp field
 
-Указывает время публикации данных в формате UTC. Area:Free/Busy Properties Каноническое имя:PidTagFreeBusyRangeTimestamp Альтернативные имена:PR_FREEBUSY_RANGE_TIMESTAMP
+Указывает время в формате UTC, когда данные были опубликованы. Область: Free/Busy Properties Каноническое имя: PidTagFreeBusyRangeTimestamp Альтернативные имена: PR_FREEBUSY_RANGE_TIMESTAMP
 
 ```csharp
 public static readonly PidTagPropertyDescriptor FreeBusyRangeTimestamp;

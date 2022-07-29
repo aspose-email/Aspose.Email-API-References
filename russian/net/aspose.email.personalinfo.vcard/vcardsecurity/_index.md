@@ -3,7 +3,7 @@ title: VCardSecurity
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет свойства безопасности vCard
 type: docs
-weight: 19690
+weight: 19740
 url: /ru/net/aspose.email.personalinfo.vcard/vcardsecurity/
 ---
 ## VCardSecurity class
@@ -18,7 +18,7 @@ public sealed class VCardSecurity
 
 | Имя | Описание |
 | --- | --- |
-| [VCardSecurity](vcardsecurity)() | Инициализирует новый экземпляр класса[`VCardSecurity`](../vcardsecurity) |
+| [VCardSecurity](vcardsecurity)() | Инициализирует новый экземпляр[`VCardSecurity`](../vcardsecurity) класс |
 
 ## Характеристики
 
@@ -26,7 +26,7 @@ public sealed class VCardSecurity
 | --- | --- |
 | [AccessClass](../../aspose.email.personalinfo.vcard/vcardsecurity/accessclass) { get; set; } | Получает или задает класс доступа |
 | [Encoding](../../aspose.email.personalinfo.vcard/vcardsecurity/encoding) { get; set; } | Получает или задает ContentTransferEncoding |
-| [Key](../../aspose.email.personalinfo.vcard/vcardsecurity/key) { get; set; } | Получает или устанавливает открытый ключ (или сертификат проверки подлинности) |
+| [Key](../../aspose.email.personalinfo.vcard/vcardsecurity/key) { get; set; } | Получает или устанавливает открытый ключ (или сертификат аутентификации) |
 
 ## Методы
 

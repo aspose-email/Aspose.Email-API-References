@@ -1,14 +1,14 @@
 ---
 title: Errors
 second_title: Справочник по Aspose.Email для .NET API
-description: Необязательные ошибки если вычисление для группы не удалось.
+description: Дополнительные ошибки если вычисление для группы не удалось.
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.google/freebusygroupinfo/errors/
 ---
 ## FreebusyGroupInfo.Errors property
 
-Необязательные ошибки (если вычисление для группы не удалось).
+Дополнительные ошибки (если вычисление для группы не удалось).
 
 ```csharp
 public List<ErrorDetails> Errors { get; }

@@ -1,14 +1,14 @@
 ---
 title: DeletedMessageSizeExtended
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_DELETED_MESSAGE_SIZE_EXTENDED
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_DELETED_MESSAGE_SIZE_EXTENDED
 type: docs
 weight: 3910
 url: /ru/net/aspose.email.mapi/knownpropertylist/deletedmessagesizeextended/
 ---
 ## KnownPropertyList.DeletedMessageSizeExtended field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_DELETED_MESSAGE_SIZE_EXTENDED
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_DELETED_MESSAGE_SIZE_EXTENDED
 
 ```csharp
 public static readonly PidTagPropertyDescriptor DeletedMessageSizeExtended;

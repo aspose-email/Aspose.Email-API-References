@@ -1,14 +1,14 @@
 ---
 title: ImapMethodParametersGeneralT
 second_title: Справочник по Aspose.Email для .NET API
-description: IAsyncImapClient../aspose.email.clients.imap/iasyncimapclientобщие параметры метода.
+description: IAsyncImapClient../aspose.email.clients.imap/iasyncimapclient общие параметры метода.
 type: docs
 weight: 16590
 url: /ru/net/aspose.email.clients.imap.models/imapmethodparametersgeneral-1/
 ---
 ## ImapMethodParametersGeneral&lt;T&gt; class
 
-[`IAsyncImapClient`](../../aspose.email.clients.imap/iasyncimapclient)общие параметры метода.
+[`IAsyncImapClient`](../../aspose.email.clients.imap/iasyncimapclient) общие параметры метода.
 
 ```csharp
 public abstract class ImapMethodParametersGeneral<T>
@@ -20,7 +20,7 @@ public abstract class ImapMethodParametersGeneral<T>
 | Имя | Описание |
 | --- | --- |
 | [SetCancellationToken](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setcancellationtoken)(CancellationToken) | Установите токен отмены (необязательно). |
-| [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) | Подключение к серверу (опционально). |
+| [SetConnection](../../aspose.email.clients.imap.models/imapmethodparametersgeneral`1/setconnection)(IConnection) | Подключение к серверу (необязательно). |
 
 ### Смотрите также
 

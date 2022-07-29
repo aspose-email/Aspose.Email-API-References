@@ -1,14 +1,14 @@
 ---
 title: DiagnosticsLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает сведения о времени и производительности которые будут использоваться для получения отчета.
+description: Получает или задает время и информацию о производительности которая будет использоваться для получения отчета.
 type: docs
 weight: 20
 url: /ru/net/aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/diagnosticslevel/
 ---
 ## GetMessageTrackingReportOptions.DiagnosticsLevel property
 
-Получает или задает сведения о времени и производительности, которые будут использоваться для получения отчета.
+Получает или задает время и информацию о производительности, которая будет использоваться для получения отчета.
 
 ```csharp
 public string DiagnosticsLevel { get; set; }

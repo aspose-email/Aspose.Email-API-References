@@ -1,14 +1,14 @@
 ---
 title: DomesticPartner
 second_title: Справочник по Aspose.Email для .NET API
-description: Партнер по дому
+description: Домашний партнер
 type: docs
 weight: 60
 url: /ru/net/aspose.email.personalinfo/associatedpersoncategory/domesticpartner/
 ---
 ## AssociatedPersonCategory.DomesticPartner property
 
-Партнер по дому
+Домашний партнер
 
 ```csharp
 public static AssociatedPersonCategory DomesticPartner { get; }

@@ -1,14 +1,14 @@
 ---
 title: NonExistent
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает значение указывающее относится ли имя папки к существующей папке. Подробнееhttp//tools.ietf.org/html/rfc5258
+description: Получает значение указывающее относится ли имя папки к существующей папке.
 type: docs
 weight: 90
 url: /ru/net/aspose.email.clients.imap/imapfolderinfo/nonexistent/
 ---
 ## ImapFolderInfo.NonExistent property
 
-Получает значение, указывающее, относится ли имя папки к существующей папке. Подробнее:http://tools.ietf.org/html/rfc5258
+Получает значение, указывающее, относится ли имя папки к существующей папке.
 
 ```csharp
 public bool NonExistent { get; }

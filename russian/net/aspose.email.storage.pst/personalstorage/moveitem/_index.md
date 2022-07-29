@@ -1,14 +1,14 @@
 ---
 title: MoveItem
 second_title: Справочник по Aspose.Email для .NET API
-description: Перемещает указанное сообщение в новую папку в текущем PST.
+description: Перемещает указанное сообщение в новую папку в текущем pst.
 type: docs
 weight: 270
 url: /ru/net/aspose.email.storage.pst/personalstorage/moveitem/
 ---
 ## MoveItem(MessageInfo, FolderInfo) {#moveitem_1}
 
-Перемещает указанное сообщение в новую папку в текущем PST.
+Перемещает указанное сообщение в новую папку в текущем pst.
 
 ```csharp
 public void MoveItem(MessageInfo message, FolderInfo newFolder)
@@ -31,7 +31,7 @@ public void MoveItem(MessageInfo message, FolderInfo newFolder)
 
 ## MoveItem(FolderInfo, FolderInfo) {#moveitem}
 
-Перемещает указанную папку в новую родительскую папку в текущем PST.
+Перемещает указанную папку в новую родительскую папку в текущем pst.
 
 ```csharp
 public void MoveItem(FolderInfo folder, FolderInfo newFolder)

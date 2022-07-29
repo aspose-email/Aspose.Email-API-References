@@ -1,14 +1,14 @@
 ---
 title: MobileValue
 second_title: Справочник по Aspose.Email для .NET API
-description: Строковое значение для категории Мобильные
+description: Строковое значение для категории Мобильные устройства
 type: docs
 weight: 340
 url: /ru/net/aspose.email.personalinfo/phonenumbercategory/mobilevalue/
 ---
 ## PhoneNumberCategory.MobileValue field
 
-Строковое значение для категории «Мобильные»
+Строковое значение для категории "Мобильные устройства"
 
 ```csharp
 public const string MobileValue;

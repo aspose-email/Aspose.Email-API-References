@@ -1,14 +1,14 @@
 ---
 title: RuleLevel
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит 0x00000000. Это свойство не используется. ОбластьСвойства серверных правил Каноническое имяPidTagRuleLevel Альтернативные именаPR_RULE_LEVEL ptagRuleLevel
+description: Содержит 0x00000000. Это свойство не используется. Область Свойства правил на стороне сервера Каноническое имя PidTagRuleLevel Альтернативные имена PR_RULE_LEVEL ptagRuleLevel
 type: docs
 weight: 16510
 url: /ru/net/aspose.email.mapi/knownpropertylist/rulelevel/
 ---
 ## KnownPropertyList.RuleLevel field
 
-Содержит 0x00000000. Это свойство не используется. Область:Свойства серверных правил Каноническое имя:PidTagRuleLevel Альтернативные имена:PR_RULE_LEVEL, ptagRuleLevel
+Содержит 0x00000000. Это свойство не используется. Область: Свойства правил на стороне сервера Каноническое имя: PidTagRuleLevel Альтернативные имена: PR_RULE_LEVEL, ptagRuleLevel
 
 ```csharp
 public static readonly PidTagPropertyDescriptor RuleLevel;

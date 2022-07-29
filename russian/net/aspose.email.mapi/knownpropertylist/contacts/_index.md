@@ -1,14 +1,14 @@
 ---
 title: Contacts
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит свойство PidTagDisplayName раздел 2.667 каждого EntryID адресной книги на который ссылается значение свойства PidLidContactLinkEntry раздел 2.70. ОбластьОбщие свойства сообщения Каноническое имяPidLidContacts Альтернативные именаdispidContacts
+description: Содержит свойство PidTagDisplayName раздел 2.667 каждого ID записи адресной книги на который ссылается значение свойства PidLidContactLinkEntry раздел 2.70. Область Общие свойства сообщения Каноническое имя PidLidContacts Альтернативные имена dispidContacts
 type: docs
 weight: 3040
 url: /ru/net/aspose.email.mapi/knownpropertylist/contacts/
 ---
 ## KnownPropertyList.Contacts field
 
-Содержит свойство PidTagDisplayName (раздел 2.667) каждого EntryID адресной книги, на который ссылается значение свойства PidLidContactLinkEntry (раздел 2.70). Область:Общие свойства сообщения Каноническое имя:PidLidContacts Альтернативные имена:dispidContacts
+Содержит свойство PidTagDisplayName (раздел 2.667) каждого ID записи адресной книги, на который ссылается значение свойства PidLidContactLinkEntry (раздел 2.70). Область: Общие свойства сообщения Каноническое имя: PidLidContacts Альтернативные имена: dispidContacts
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Contacts;

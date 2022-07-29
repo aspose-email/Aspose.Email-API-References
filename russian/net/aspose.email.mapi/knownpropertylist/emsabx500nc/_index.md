@@ -1,14 +1,14 @@
 ---
 title: EmsAbX500Nc
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_X500_NC
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_X500_NC
 type: docs
 weight: 9680
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabx500nc/
 ---
 ## KnownPropertyList.EmsAbX500Nc field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_X500_NC
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_X500_NC
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbX500Nc;

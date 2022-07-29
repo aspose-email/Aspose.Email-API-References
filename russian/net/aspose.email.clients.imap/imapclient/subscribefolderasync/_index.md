@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.clients.imap/imapclient/subscribefolderasync/
 ---
 ## SubscribeFolderAsync(IConnection, string) {#subscribefolderasync}
 
-Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор "активных" почтовых ящиков сервера.
+Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор «активных» почтовых ящиков сервера.
 
 ```csharp
 public Task SubscribeFolderAsync(IConnection connection, string folderName)
@@ -16,8 +16,8 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| folderName | String | Имя папка |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Имя папки |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName)
 
 ## SubscribeFolderAsync(string) {#subscribefolderasync_2}
 
-Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор "активных" почтовых ящиков сервера.
+Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор «активных» почтовых ящиков сервера.
 
 ```csharp
 public Task SubscribeFolderAsync(string folderName)
@@ -58,7 +58,7 @@ public Task SubscribeFolderAsync(string folderName)
 
 ## SubscribeFolderAsync(IConnection, string, CancellationToken) {#subscribefolderasync_1}
 
-Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор "активных" почтовых ящиков сервера.
+Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор «активных» почтовых ящиков сервера.
 
 ```csharp
 public Task SubscribeFolderAsync(IConnection connection, string folderName, CancellationToken token)
@@ -66,8 +66,8 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName, Canc
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| connection | IConnection | Соединение с сервером |
-| folderName | String | Имя папка |
+| connection | IConnection | Подключение к серверу |
+| folderName | String | Имя папки |
 | token | CancellationToken | Распространяет уведомление о том, что операции должны быть отменены. |
 
 ### Возвращаемое значение
@@ -85,7 +85,7 @@ public Task SubscribeFolderAsync(IConnection connection, string folderName, Canc
 
 ## SubscribeFolderAsync(string, CancellationToken) {#subscribefolderasync_3}
 
-Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор "активных" почтовых ящиков сервера.
+Отправлена команда SUBSCRIBE, которая добавляет указанное имя почтового ящика в набор «активных» почтовых ящиков сервера.
 
 ```csharp
 public Task SubscribeFolderAsync(string folderName, CancellationToken token)

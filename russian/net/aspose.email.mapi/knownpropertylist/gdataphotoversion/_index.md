@@ -1,14 +1,14 @@
 ---
 title: GDataPhotoVersion
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит версию фотографии GData ETag. https//developers.google.com/contacts/v3/ https//developers.google.com/gdata/docs/2.0/referencecsw1 ResourceVersioning Это свойство не передается через транспортные протоколы. ОбластьОпределенные пользователем свойства Aspose
+description: Содержит версию фотографии GData ETag. https//developers.google.com/contacts/v3/ https//developers.google.com/gdata/docs/2.0/referencecsw1ResourceVersioning Это свойство не передается через транспортные протоколы. Область  Определяемые пользователем Aspose указанные properties
 type: docs
 weight: 10750
 url: /ru/net/aspose.email.mapi/knownpropertylist/gdataphotoversion/
 ---
 ## KnownPropertyList.GDataPhotoVersion field
 
-Содержит версию фотографии GData (ETag). https://developers.google.com/contacts/v3/ https://developers.google.com/gdata/docs/2.0/reference?csw=1# ResourceVersioning Это свойство не передается через транспортные протоколы. Область:Определенные пользователем свойства Aspose
+Содержит версию фотографии GData (ETag). https://developers.google.com/contacts/v3/ https://developers.google.com/gdata/docs/2.0/reference?csw=1#ResourceVersioning Это свойство не передается через транспортные протоколы. Область : Определяемые пользователем Aspose указанные properties
 
 ```csharp
 public static readonly PidTagPropertyDescriptor GDataPhotoVersion;

@@ -1,14 +1,14 @@
 ---
 title: IpmDafEntryid
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_IPM_DAF_ENTRYID
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_IPM_DAF_ENTRYID
 type: docs
 weight: 11630
 url: /ru/net/aspose.email.mapi/knownpropertylist/ipmdafentryid/
 ---
 ## KnownPropertyList.IpmDafEntryid field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_IPM_DAF_ENTRYID
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_IPM_DAF_ENTRYID
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IpmDafEntryid;

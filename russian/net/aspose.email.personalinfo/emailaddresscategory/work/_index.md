@@ -1,14 +1,14 @@
 ---
 title: Work
 second_title: Справочник по Aspose.Email для .NET API
-description: Категория работы
+description: Рабочая категория
 type: docs
 weight: 70
 url: /ru/net/aspose.email.personalinfo/emailaddresscategory/work/
 ---
 ## EmailAddressCategory.Work property
 
-Категория работы
+Рабочая категория
 
 ```csharp
 public static EmailAddressCategory Work { get; }

@@ -1,14 +1,14 @@
 ---
 title: PrimaryCapability
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_PRIMARY_CAPABILITY
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_PRIMARY_CAPABILITY
 type: docs
 weight: 14570
 url: /ru/net/aspose.email.mapi/knownpropertylist/primarycapability/
 ---
 ## KnownPropertyList.PrimaryCapability field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_PRIMARY_CAPABILITY
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_PRIMARY_CAPABILITY
 
 ```csharp
 public static readonly PidTagPropertyDescriptor PrimaryCapability;

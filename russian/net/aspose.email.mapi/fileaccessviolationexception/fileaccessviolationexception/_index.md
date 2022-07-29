@@ -44,7 +44,7 @@ public FileAccessViolationException(string message)
 
 ## FileAccessViolationException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса Exception с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр класса Exception с указанным сообщением об ошибке и ссылкой на исключение inner , которое является причиной этого исключения.
 
 ```csharp
 public FileAccessViolationException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public FileAccessViolationException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об ошибке, объясняющее причину исключения. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения. Если параметр innerException не является ссылкой NULL (ничего в Visual Basic), текущее исключение возбуждается в блоке catch, который обрабатывает внутреннюю исключение. |
+| innerException | Exception | Исключение, являющееся причиной текущего исключения. Если параметр innerException не имеет значение NULL reference (ничего в Visual Basic), текущее исключение вызывается в блоке catch, обрабатывающем внутреннее исключение. |
 
 ### Смотрите также
 

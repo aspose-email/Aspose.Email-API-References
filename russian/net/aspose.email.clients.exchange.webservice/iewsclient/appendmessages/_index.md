@@ -66,7 +66,7 @@ public string[] AppendMessages(string folderUri, params MailMessage[] messages)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка URI, на который загружается сообщение. |
+| folderUri | String | URI папки, в которую загружается сообщение. |
 | messages | MailMessage[] | Сообщения для загрузки |
 
 ### Возвращаемое значение
@@ -92,7 +92,7 @@ public string[] AppendMessages(string folderUri, IEnumerable<MailMessage> messag
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка URI, на который загружается сообщение. |
+| folderUri | String | URI папки, в которую загружается сообщение. |
 | messages | IEnumerable`1 | Сообщения для загрузки |
 
 ### Возвращаемое значение
@@ -118,7 +118,7 @@ public string[] AppendMessages(string folderUri, IEnumerable<MapiMessage> messag
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folderUri | String | Папка URI, на который загружается сообщение. |
+| folderUri | String | URI папки, в которую загружается сообщение. |
 | messages | IEnumerable`1 | Сообщения для загрузки |
 
 ### Возвращаемое значение

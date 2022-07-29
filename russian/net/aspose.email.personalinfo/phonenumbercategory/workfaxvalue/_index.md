@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/phonenumbercategory/workfaxvalue/
 ---
 ## PhoneNumberCategory.WorkFaxValue field
 
-Строковое значение для категории «Факс»
+Строковое значение для категории "Факс"
 
 ```csharp
 public const string WorkFaxValue;

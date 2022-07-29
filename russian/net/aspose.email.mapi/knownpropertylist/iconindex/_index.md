@@ -1,14 +1,14 @@
 ---
 title: IconIndex
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает какой значок должен использоваться пользовательским интерфейсом при отображении группы объектов Message. ОбластьОбщие свойства сообщения Каноническое имяPidTagIconIndex Альтернативные именаPR_ICON_INDEX ptagIconIndex
+description: Указывает какой значок должен использоваться пользовательским интерфейсом при отображении группы объектов Message. Область Общие свойства сообщения Каноническое имя PidTagIconIndex Альтернативные имена PR_ICON_INDEX ptagIconIndex
 type: docs
 weight: 11210
 url: /ru/net/aspose.email.mapi/knownpropertylist/iconindex/
 ---
 ## KnownPropertyList.IconIndex field
 
-Указывает, какой значок должен использоваться пользовательским интерфейсом при отображении группы объектов Message. Область:Общие свойства сообщения Каноническое имя:PidTagIconIndex Альтернативные имена:PR_ICON_INDEX, ptagIconIndex
+Указывает, какой значок должен использоваться пользовательским интерфейсом при отображении группы объектов Message. Область: Общие свойства сообщения Каноническое имя: PidTagIconIndex Альтернативные имена: PR_ICON_INDEX, ptagIconIndex
 
 ```csharp
 public static readonly PidTagPropertyDescriptor IconIndex;

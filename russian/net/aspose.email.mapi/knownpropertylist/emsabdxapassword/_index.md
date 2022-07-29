@@ -1,14 +1,14 @@
 ---
 title: EmsAbDxaPassword
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_EMS_AB_DXA_PASSWORD
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_EMS_AB_DXA_PASSWORD
 type: docs
 weight: 5810
 url: /ru/net/aspose.email.mapi/knownpropertylist/emsabdxapassword/
 ---
 ## KnownPropertyList.EmsAbDxaPassword field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_EMS_AB_DXA_PASSWORD
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_EMS_AB_DXA_PASSWORD
 
 ```csharp
 public static readonly PidTagPropertyDescriptor EmsAbDxaPassword;

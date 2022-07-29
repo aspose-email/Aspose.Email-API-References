@@ -1,14 +1,14 @@
 ---
 title: FetchMessagesAsync
 second_title: Справочник по Aspose.Email для .NET API
-description: Выбирает сообщения асинхронно
+description: Получает сообщения асинхронно
 type: docs
 weight: 150
 url: /ru/net/aspose.email.clients.imap/iasyncimapclient/fetchmessagesasync/
 ---
 ## IAsyncImapClient.FetchMessagesAsync method
 
-Выбирает сообщения асинхронно
+Получает сообщения асинхронно
 
 ```csharp
 public Task<IEnumerable<MailMessage>> FetchMessagesAsync(ImapFetchMessages parameters)
@@ -20,7 +20,7 @@ public Task<IEnumerable<MailMessage>> FetchMessagesAsync(ImapFetchMessages param
 
 ### Возвращаемое значение
 
-Список объектов[`MailMessage`](../../../aspose.email/mailmessage)
+Список[`MailMessage`](../../../aspose.email/mailmessage) объекты
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: MergeWith
 second_title: Справочник по Aspose.Email для .NET API
-description: Сливает папку с папкой из другого pst.
+description: Объединяет папку с папкой из другого pst.
 type: docs
 weight: 310
 url: /ru/net/aspose.email.storage.pst/folderinfo/mergewith/
 ---
 ## MergeWith(FolderInfo) {#mergewith}
 
-Сливает папку с папкой из другого pst.
+Объединяет папку с папкой из другого pst.
 
 ```csharp
 public void MergeWith(FolderInfo sourceFolder)
@@ -22,7 +22,7 @@ public void MergeWith(FolderInfo sourceFolder)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Выдает, когда исходная папка находится в том же pst. |
+| InvalidOperationException | Выдает, когда исходная папка находится в том же файле pst. |
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public void MergeWith(FolderInfo sourceFolder)
 
 ## MergeWith(FolderInfo, bool) {#mergewith_1}
 
-Сливает папку с папкой из другого pst. Событие OnItemMoved вызывается как для сообщений, так и для каталогов.
+Объединяет папку с папкой из другого pst. Событие OnItemMoved вызывается как для сообщений, так и для каталогов.
 
 ```csharp
 public void MergeWith(FolderInfo sourceFolder, bool recursiveHandler)
@@ -49,7 +49,7 @@ public void MergeWith(FolderInfo sourceFolder, bool recursiveHandler)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Выдает, когда исходная папка находится в том же pst. |
+| InvalidOperationException | Выдает, когда исходная папка находится в том же файле pst. |
 
 ### Смотрите также
 

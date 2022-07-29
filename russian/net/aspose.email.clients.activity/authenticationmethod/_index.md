@@ -18,26 +18,26 @@ public enum AuthenticationMethod
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Min | `0` | Метод аутентификации - Min |
-| Password | `1` | Метод аутентификации - пароль. |
+| Min | `0` | Метод аутентификации — Min |
+| Password | `1` | Метод аутентификации — пароль. |
 | Digest | `2` | Метод аутентификации — дайджест. |
 | ProxyAuth | `3` | Метод аутентификации — ProxyAuth. |
-| InfoCard | `4` | Метод аутентификации - InfoCard |
+| InfoCard | `4` | Метод аутентификации — InfoCard |
 | DAToken | `5` | Метод аутентификации — DAToken. |
 | Sha1RememberMyPassword | `6` | Метод аутентификации — Sha1RememberMyPassword. |
 | LMPasswordHash | `7` | Метод аутентификации — LMPasswordHash. |
-| ADFSFederatedToken | `8` | Метод проверки подлинности — ADFSFederatedToken. |
+| ADFSFederatedToken | `8` | Метод аутентификации — ADFSFederatedToken. |
 | EID | `9` | Метод аутентификации — EID. |
 | DeviceID | `10` | Метод аутентификации — DeviceID. |
-| MD5 | `11` | Метод аутентификации - MD5. |
+| MD5 | `11` | Метод аутентификации — MD5. |
 | EncProxyPasswordHash | `12` | Метод аутентификации — EncProxyPasswordHash. |
 | LWAFederation | `13` | Метод аутентификации — LWAFederation. |
 | Sha1HashedPassword | `14` | Метод аутентификации — Sha1HashedPassword. |
 | SecurePin | `15` | Метод аутентификации — безопасный PIN-код. |
-| SecurePinReset | `16` | Метод аутентификации — безопасный сброс PIN-кода. |
+| SecurePinReset | `16` | Метод проверки подлинности — безопасный сброс PIN-кода. |
 | SAML20PostSimpleSign | `17` | Метод аутентификации — SAML20PostSimpleSign. |
 | SAML20Post | `18` | Метод аутентификации — SAML20Post. |
-| OneTimeCode | `19` | Метод аутентификации - одноразовый код. |
+| OneTimeCode | `19` | Метод аутентификации — одноразовый код. |
 
 ### Смотрите также
 

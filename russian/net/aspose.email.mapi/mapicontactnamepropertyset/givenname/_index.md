@@ -1,14 +1,14 @@
 ---
 title: GivenName
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает заданное имя имя контакта
+description: Получает или задает данное имя имя контакта
 type: docs
 weight: 70
 url: /ru/net/aspose.email.mapi/mapicontactnamepropertyset/givenname/
 ---
 ## MapiContactNamePropertySet.GivenName property
 
-Получает или задает заданное имя (имя) контакта
+Получает или задает данное имя (имя) контакта
 
 ```csharp
 public string GivenName { get; set; }

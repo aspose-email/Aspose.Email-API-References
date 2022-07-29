@@ -3,7 +3,7 @@ title: VCardTelephoneType
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет типы телефонов vCard
 type: docs
-weight: 19740
+weight: 19790
 url: /ru/net/aspose.email.personalinfo.vcard/vcardtelephonetype/
 ---
 ## VCardTelephoneType enumeration
@@ -23,7 +23,7 @@ public enum VCardTelephoneType
 | VOICE | `1` | Номер голоса |
 | PREF | `2` | Предпочтительный номер |
 | WORK | `4` | Рабочий номер |
-| HOME | `8` | Домашний номер |
+| HOME | `8` | Номер дома |
 | FAX | `10` | Номер факса |
 | CELL | `20` | Сотовый номер |
 | PAGER | `40` | Номер пейджера |
@@ -32,8 +32,8 @@ public enum VCardTelephoneType
 | CAR | `200` | Автомобильный номер телефона |
 | ISDN | `400` | Номер ISDN |
 | VIDEO | `800` | Номер видеотелефона |
-| PCS | `1000` | Телефон службы персональной связи |
-| MSG | `2000` | Служба обмена сообщениями на номер |
+| PCS | `1000` | Номер телефона службы персональной связи |
+| MSG | `2000` | Служба обмена сообщениями на номере |
 
 ### Смотрите также
 

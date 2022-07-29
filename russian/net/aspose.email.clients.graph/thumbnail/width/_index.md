@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Email для .NET API
-description: Ширина миниатюры в пикселях.
+description: Ширина эскиза в пикселях.
 type: docs
 weight: 80
 url: /ru/net/aspose.email.clients.graph/thumbnail/width/
 ---
 ## Thumbnail.Width property
 
-Ширина миниатюры в пикселях.
+Ширина эскиза в пикселях.
 
 ```csharp
 public int Width { get; set; }

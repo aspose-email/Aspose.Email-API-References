@@ -1,14 +1,14 @@
 ---
 title: OtherAddressStreet
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит другой почтовый адрес пользователя почты. ОбластьСвойства адреса Каноническое имяPidTagOtherAddressStreet Альтернативные именаPR_OTHER_ADDRESS_STREET PR_OTHER_ADDRESS_STREET_A
+description: Содержит другой почтовый адрес пользователя почты. Область Свойства адреса Каноническое имя PidTagOtherAddressStreet Альтернативные имена PR_OTHER_ADDRESS_STREET PR_OTHER_ADDRESS_STREET_A
 type: docs
 weight: 14010
 url: /ru/net/aspose.email.mapi/knownpropertylist/otheraddressstreet/
 ---
 ## KnownPropertyList.OtherAddressStreet field
 
-Содержит другой почтовый адрес пользователя почты. Область:Свойства адреса Каноническое имя:PidTagOtherAddressStreet Альтернативные имена:PR_OTHER_ADDRESS_STREET, PR_OTHER_ADDRESS_STREET_A,
+Содержит другой почтовый адрес пользователя почты. Область: Свойства адреса Каноническое имя: PidTagOtherAddressStreet Альтернативные имена: PR_OTHER_ADDRESS_STREET, PR_OTHER_ADDRESS_STREET_A,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OtherAddressStreet;

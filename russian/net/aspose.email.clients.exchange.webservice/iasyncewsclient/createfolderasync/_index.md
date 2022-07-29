@@ -22,7 +22,7 @@ public Task<ExchangeFolderInfo> CreateFolderAsync(string parentFolderUri, string
 | name | String | Имя новой папки |
 | permissions | ExchangeFolderPermissionCollection | Разрешение на новую папку |
 | folderClass | String | Класс новой папки |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Возвращаемое значение
 

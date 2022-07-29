@@ -1,14 +1,14 @@
 ---
 title: WlinkROGroupType
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает тип заголовка группы. ОбластьКонфигурация Каноническое имяPidTagWlinkROGroupType Альтернативные именаPR_WLINK_RO_GROUP_TYPE
+description: Указывает тип заголовка группы. Область Configuration Каноническое имя PidTagWlinkROGroupType Альтернативные имена PR_WLINK_RO_GROUP_TYPE
 type: docs
 weight: 19490
 url: /ru/net/aspose.email.mapi/knownpropertylist/wlinkrogrouptype/
 ---
 ## KnownPropertyList.WlinkROGroupType field
 
-Указывает тип заголовка группы. Область:Конфигурация Каноническое имя:PidTagWlinkROGroupType Альтернативные имена:PR_WLINK_RO_GROUP_TYPE
+Указывает тип заголовка группы. Область: Configuration Каноническое имя: PidTagWlinkROGroupType Альтернативные имена: PR_WLINK_RO_GROUP_TYPE
 
 ```csharp
 public static readonly PidTagPropertyDescriptor WlinkROGroupType;

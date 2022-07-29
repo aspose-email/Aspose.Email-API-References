@@ -18,7 +18,7 @@ public class ImapMonitoringEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [ImapMonitoringEventArgs](imapmonitoringeventargs#constructor)(string, ImapMessageInfo[], ImapMessageInfo[]) | Инициализирует новый экземпляр класса[`ImapMonitoringEventArgs`](../imapmonitoringeventargs)class |
+| [ImapMonitoringEventArgs](imapmonitoringeventargs#constructor)(string, ImapMessageInfo[], ImapMessageInfo[]) | Инициализирует новый экземпляр[`ImapMonitoringEventArgs`](../imapmonitoringeventargs) класс |
 
 ## Характеристики
 

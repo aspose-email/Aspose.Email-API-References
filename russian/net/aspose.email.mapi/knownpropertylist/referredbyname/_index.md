@@ -1,14 +1,14 @@
 ---
 title: ReferredByName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит имя реферала пользователя почты. ОбластьMapiMailUser Каноническое имяPidTagReferredByName Альтернативные именаPR_REFERRED_BY_NAME PR_REFERRED_BY_NAME_A PR_REFERRED_BY_NAME_W
+description: Содержит имя реферала почтового пользователя. Область MapiMailUser Каноническое имя PidTagReferredByName Альтернативные имена PR_REFERRED_BY_NAME PR_REFERRED_BY_NAME_A PR_REFERRED_BY_NAME_W
 type: docs
 weight: 15640
 url: /ru/net/aspose.email.mapi/knownpropertylist/referredbyname/
 ---
 ## KnownPropertyList.ReferredByName field
 
-Содержит имя реферала пользователя почты. Область:MapiMailUser Каноническое имя:PidTagReferredByName Альтернативные имена:PR_REFERRED_BY_NAME, PR_REFERRED_BY_NAME_A, PR_REFERRED_BY_NAME_W
+Содержит имя реферала почтового пользователя. Область: MapiMailUser Каноническое имя: PidTagReferredByName Альтернативные имена: PR_REFERRED_BY_NAME, PR_REFERRED_BY_NAME_A, PR_REFERRED_BY_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ReferredByName;

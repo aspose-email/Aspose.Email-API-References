@@ -24,8 +24,8 @@ public void Print(MapiMessage message, string outputFile, PrintFormat printingFo
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Если*printingFormat*не поддерживается. |
-| ArgumentNullException | Если один из аргументов равен null. |
+| ArgumentOutOfRangeException | Если*printingFormat* не поддерживается. |
+| ArgumentNullException | Если один из аргументов равен нулю. |
 | InvalidOperationException | Если объект не может быть обработан. |
 
 ### Смотрите также
@@ -56,8 +56,8 @@ public void Print(MapiMessage message, Stream outputStream, PrintFormat printing
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Если*printingFormat*не поддерживается. |
-| ArgumentNullException | Если один из аргументов равен null. |
+| ArgumentOutOfRangeException | Если*printingFormat* не поддерживается. |
+| ArgumentNullException | Если один из аргументов равен нулю. |
 | InvalidOperationException | Если объект не может быть обработан. |
 
 ### Смотрите также
@@ -88,8 +88,8 @@ public void Print(MailMessage message, string outputFile, PrintFormat printingFo
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Если*printingFormat*не поддерживается. |
-| ArgumentNullException | Если один из аргументов равен null. |
+| ArgumentOutOfRangeException | Если*printingFormat* не поддерживается. |
+| ArgumentNullException | Если один из аргументов равен нулю. |
 | InvalidOperationException | Если объект не может быть обработан. |
 
 ### Смотрите также
@@ -120,8 +120,8 @@ public void Print(MailMessage message, Stream outputStream, PrintFormat printing
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Если*printingFormat*не поддерживается. |
-| ArgumentNullException | Если один из аргументов равен null. |
+| ArgumentOutOfRangeException | Если*printingFormat* не поддерживается. |
+| ArgumentNullException | Если один из аргументов равен нулю. |
 | InvalidOperationException | Если объект не может быть обработан. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: Generation
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или устанавливает суффикс поколения контакта
+description: Получает или задает суффикс поколения контакта
 type: docs
 weight: 60
 url: /ru/net/aspose.email.mapi/mapicontactnamepropertyset/generation/
 ---
 ## MapiContactNamePropertySet.Generation property
 
-Получает или устанавливает суффикс поколения контакта
+Получает или задает суффикс поколения контакта
 
 ```csharp
 public string Generation { get; set; }

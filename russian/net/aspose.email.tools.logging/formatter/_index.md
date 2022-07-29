@@ -3,7 +3,7 @@ title: Formatter
 second_title: Справочник по Aspose.Email для .NET API
 description: Представляет интерфейс для форматирования сообщений журнала.
 type: docs
-weight: 20440
+weight: 20490
 url: /ru/net/aspose.email.tools.logging/formatter/
 ---
 ## Formatter class
@@ -18,10 +18,10 @@ public abstract class Formatter : IFormatter
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | Получает или устанавливает нижний колонтитул. |
-| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | Получает или задает заголовок. |
-| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Получает или устанавливает заголовок журнала |
-| static [DefaultFormatter](../../aspose.email.tools.logging/formatter/defaultformatter) { get; set; } | Получает или устанавливает средство форматирования по умолчанию |
+| virtual [Footer](../../aspose.email.tools.logging/formatter/footer) { get; } | Получает или задает нижний колонтитул. |
+| virtual [Header](../../aspose.email.tools.logging/formatter/header) { get; } | Получает или устанавливает заголовок. |
+| virtual [LogHeader](../../aspose.email.tools.logging/formatter/logheader) { get; } | Получает или задает заголовок журнала |
+| static [DefaultFormatter](../../aspose.email.tools.logging/formatter/defaultformatter) { get; set; } | Получает или задает средство форматирования по умолчанию |
 
 ## Методы
 

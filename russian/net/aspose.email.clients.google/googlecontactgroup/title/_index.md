@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает удобочитаемый заголовок для записи группы
+description: Получает удобочитаемый заголовок для группы entry
 type: docs
 weight: 30
 url: /ru/net/aspose.email.clients.google/googlecontactgroup/title/
 ---
 ## GoogleContactGroup.Title property
 
-Получает удобочитаемый заголовок для записи группы
+Получает удобочитаемый заголовок для группы entry
 
 ```csharp
 public string Title { get; }
@@ -16,7 +16,7 @@ public string Title { get; }
 
 ### Стоимость имущества
 
-Строка, представляющая заголовок для записи группы
+Строка, представляющая заголовок для записи группы.
 
 ### Смотрите также
 

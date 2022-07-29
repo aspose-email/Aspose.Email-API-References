@@ -1,14 +1,14 @@
 ---
 title: ContactAddrtypes
 second_title: Справочник по Aspose.Email для .NET API
-description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные именаPR_CONTACT_ADDRTYPES
+description: Microsoft Exchange определяет это свойство которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя Альтернативные имена PR_CONTACT_ADDRTYPES
 type: docs
 weight: 2890
 url: /ru/net/aspose.email.mapi/knownpropertylist/contactaddrtypes/
 ---
 ## KnownPropertyList.ContactAddrtypes field
 
-Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена:PR_CONTACT_ADDRTYPES
+Microsoft� Exchange определяет это свойство, которое используется сервером Microsoft Exchange и клиентом Microsoft Exchange. Каноническое имя: Альтернативные имена: PR_CONTACT_ADDRTYPES
 
 ```csharp
 public static readonly PidTagPropertyDescriptor ContactAddrtypes;

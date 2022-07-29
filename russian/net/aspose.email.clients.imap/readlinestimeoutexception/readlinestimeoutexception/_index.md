@@ -1,14 +1,14 @@
 ---
 title: ReadLinesTimeoutException
 second_title: Справочник по Aspose.Email для .NET API
-description: Инициализирует новый экземпляр классаReadLinesTimeoutExceptionaspose.email.clients.imap/readlinestimeoutexception.
+description: Инициализирует новый экземплярReadLinesTimeoutExceptionaspose.email.clients.imap/readlinestimeoutexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.email.clients.imap/readlinestimeoutexception/readlinestimeoutexception/
 ---
 ## ReadLinesTimeoutException() {#constructor}
 
-Инициализирует новый экземпляр класса[`ReadLinesTimeoutException`](../../readlinestimeoutexception).
+Инициализирует новый экземпляр[`ReadLinesTimeoutException`](../../readlinestimeoutexception) класс.
 
 ```csharp
 public ReadLinesTimeoutException()
@@ -24,7 +24,7 @@ public ReadLinesTimeoutException()
 
 ## ReadLinesTimeoutException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ReadLinesTimeoutException`](../../readlinestimeoutexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`ReadLinesTimeoutException`](../../readlinestimeoutexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public ReadLinesTimeoutException(string message)
@@ -44,7 +44,7 @@ public ReadLinesTimeoutException(string message)
 
 ## ReadLinesTimeoutException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`ReadLinesTimeoutException`](../../readlinestimeoutexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`ReadLinesTimeoutException`](../../readlinestimeoutexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public ReadLinesTimeoutException(string message, Exception inner)

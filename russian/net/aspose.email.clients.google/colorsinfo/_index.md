@@ -1,14 +1,14 @@
 ---
 title: ColorsInfo
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит определения цветов для календарей и событий
+description: Содержит определение цветов для календарей и событий
 type: docs
 weight: 15660
 url: /ru/net/aspose.email.clients.google/colorsinfo/
 ---
 ## ColorsInfo class
 
-Содержит определения цветов для календарей и событий
+Содержит определение цветов для календарей и событий
 
 ```csharp
 public class ColorsInfo
@@ -26,14 +26,14 @@ public class ColorsInfo
 | Имя | Описание |
 | --- | --- |
 | [Calendar](../../aspose.email.clients.google/colorsinfo/calendar) { get; } | Палитра цветов календаря, сопоставление идентификатора цвета с его определением. Ресурс 'calendarListEntry' ссылается на один из этих идентификаторов цвета в своем поле 'color'. |
-| [Event](../../aspose.email.clients.google/colorsinfo/event) { get; } | Палитра цветов события, сопоставление идентификатора цвета с его определением. Ресурс "событие" может ссылаться на один из этих идентификаторов цвета в своем поле "цвет". |
+| [Event](../../aspose.email.clients.google/colorsinfo/event) { get; } | Палитра цветов событий, сопоставление идентификатора цвета с его определением. Ресурс "событие" может ссылаться на один из этих идентификаторов цвета в своем поле "цвет". |
 | [Updated](../../aspose.email.clients.google/colorsinfo/updated) { get; set; } | Время последней модификации цветовой палитры. |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| const [KIND](../../aspose.email.clients.google/colorsinfo/kind) | Тип ресурса "calendar#colors". |
+| const [KIND](../../aspose.email.clients.google/colorsinfo/kind) | Тип ресурса "календарь#цвета". |
 
 ### Смотрите также
 

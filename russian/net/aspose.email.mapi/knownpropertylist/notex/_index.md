@@ -1,14 +1,14 @@
 ---
 title: NoteX
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает расстояние в пикселях от левого края экрана на котором пользовательский интерфейс отображает объект Note. ОбластьSticky Notes Каноническое имяPidLidNoteX Альтернативные именаdispidNoteX
+description: Определяет расстояние в пикселях от левого края экрана на котором пользовательский интерфейс отображает объект Note. Область Sticky Notes Каноническое имя PidLidNoteX Альтернативные имена dispidNoteX
 type: docs
 weight: 13150
 url: /ru/net/aspose.email.mapi/knownpropertylist/notex/
 ---
 ## KnownPropertyList.NoteX field
 
-Указывает расстояние в пикселях от левого края экрана, на котором пользовательский интерфейс отображает объект Note. Область:Sticky Notes Каноническое имя:PidLidNoteX Альтернативные имена:dispidNoteX
+Определяет расстояние в пикселях от левого края экрана, на котором пользовательский интерфейс отображает объект Note. Область: Sticky Notes Каноническое имя: PidLidNoteX Альтернативные имена: dispidNoteX
 
 ```csharp
 public static readonly PidLidPropertyDescriptor NoteX;

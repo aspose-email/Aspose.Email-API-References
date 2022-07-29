@@ -17,17 +17,17 @@ public Task BackupAsync(ExchangeFolderInfoCollection folders, string fileName,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | Набор папок для резервного копирования. |
+| folders | ExchangeFolderInfoCollection | Коллекция папок для резервного копирования. |
 | fileName | String | Путь к файлу личного хранилища. |
-| options | BackupOptions | Параметры резервного копирования. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| options | BackupOptions | Варианты резервного копирования. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | A*fileName*is` null` или` пусто` . |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*is` null` . |
+| [AsposeArgumentException](../../../aspose.email/asposeargumentexception) | А*fileName* является`нулевой`или же`пустой`. |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders* является`нулевой`. |
 
 ### Смотрите также
 
@@ -50,17 +50,17 @@ public Task BackupAsync(ExchangeFolderInfoCollection folders, Stream stream, Bac
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| folders | ExchangeFolderInfoCollection | Набор папок для резервного копирования. |
+| folders | ExchangeFolderInfoCollection | Коллекция папок для резервного копирования. |
 | stream | Stream | Поток для записи. |
-| options | BackupOptions | Параметры резервного копирования. |
-| cancellationToken | CancellationToken | Маркер отмены. |
+| options | BackupOptions | Варианты резервного копирования. |
+| cancellationToken | CancellationToken | Токен отмены. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | NotSupportedException | Данный поток не поддерживает запись. |
-| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*or*stream*is` null` . |
+| [AsposeArgumentNullException](../../../aspose.email/asposeargumentnullexception) | *folders*или же*stream* является`нулевой`. |
 
 ### Смотрите также
 

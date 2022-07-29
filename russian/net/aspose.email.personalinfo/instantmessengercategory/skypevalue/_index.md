@@ -8,7 +8,7 @@ url: /ru/net/aspose.email.personalinfo/instantmessengercategory/skypevalue/
 ---
 ## InstantMessengerCategory.SkypeValue field
 
-Строковое значение для категории «Skype»
+Строковое значение для категории "Skype"
 
 ```csharp
 public const string SkypeValue;

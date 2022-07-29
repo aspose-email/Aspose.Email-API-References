@@ -1,14 +1,14 @@
 ---
 title: XSharingConfigUrl
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит то же значение что и свойство PidLidSharingConfigurationUrl раздел 2.238. ОбластьСовместное использование Каноническое имяPidNameXSharingConfigUrl Альтернативные имена
+description: Содержит то же значение что и свойство PidLidSharingConfigurationUrl раздел 2.238. Область Sharing Каноническое имя PidNameXSharingConfigUrl Альтернативные имена
 type: docs
 weight: 19730
 url: /ru/net/aspose.email.mapi/knownpropertylist/xsharingconfigurl/
 ---
 ## KnownPropertyList.XSharingConfigUrl field
 
-Содержит то же значение, что и свойство PidLidSharingConfigurationUrl (раздел 2.238). Область:Совместное использование Каноническое имя:PidNameXSharingConfigUrl Альтернативные имена:
+Содержит то же значение, что и свойство PidLidSharingConfigurationUrl (раздел 2.238). Область: Sharing Каноническое имя: PidNameXSharingConfigUrl Альтернативные имена:
 
 ```csharp
 public static readonly PidNamePropertyDescriptor XSharingConfigUrl;

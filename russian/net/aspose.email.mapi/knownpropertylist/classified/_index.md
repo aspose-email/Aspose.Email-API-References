@@ -1,14 +1,14 @@
 ---
 title: Classified
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает считается ли содержимое этого сообщения секретной информацией. ОбластьОбщие свойства сообщения Каноническое имяPidLidClassified Альтернативные именаdispidClassified
+description: Указывает считается ли содержимое этого сообщения секретной информацией. Область Общие свойства сообщения Каноническое имя PidLidClassified Альтернативные имена dispidClassified
 type: docs
 weight: 2660
 url: /ru/net/aspose.email.mapi/knownpropertylist/classified/
 ---
 ## KnownPropertyList.Classified field
 
-Указывает, считается ли содержимое этого сообщения секретной информацией. Область:Общие свойства сообщения Каноническое имя:PidLidClassified Альтернативные имена:dispidClassified
+Указывает, считается ли содержимое этого сообщения секретной информацией. Область: Общие свойства сообщения Каноническое имя: PidLidClassified Альтернативные имена: dispidClassified
 
 ```csharp
 public static readonly PidLidPropertyDescriptor Classified;

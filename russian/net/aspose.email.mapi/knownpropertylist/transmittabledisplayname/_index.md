@@ -1,14 +1,14 @@
 ---
 title: TransmittableDisplayName
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит отображаемое имя объекта адресной книги которое передается вместе с сообщением. ОбластьСвойства адреса Каноническое имяPidTagTransmittableDisplayName Альтернативные именаPR_TRANSMITABLE_DISPLAY_NAME PR_TRANSMITABLE_DISPLAY_NAME_A ptagTransmitableDisplayName PR_TRANSMITABLE_DISPLAY_NAME_W
+description: Содержит отображаемое имя объекта адресной книги которое передается вместе с сообщением. Область Address Properties Каноническое имя PidTagTransmittableDisplayName Альтернативные имена PR_TRANSMITABLE_DISPLAY_NAME PR_TRANSMITABLE_DISPLAY_NAME_A ptagTransmitableDisplayName PR_TRANSMITABLE_DISPLAY_NAME_W
 type: docs
 weight: 19090
 url: /ru/net/aspose.email.mapi/knownpropertylist/transmittabledisplayname/
 ---
 ## KnownPropertyList.TransmittableDisplayName field
 
-Содержит отображаемое имя объекта адресной книги, которое передается вместе с сообщением. Область:Свойства адреса Каноническое имя:PidTagTransmittableDisplayName Альтернативные имена:PR_TRANSMITABLE_DISPLAY_NAME, PR_TRANSMITABLE_DISPLAY_NAME_A, ptagTransmitableDisplayName, PR_TRANSMITABLE_DISPLAY_NAME_W
+Содержит отображаемое имя объекта адресной книги, которое передается вместе с сообщением. Область: Address Properties Каноническое имя: PidTagTransmittableDisplayName Альтернативные имена: PR_TRANSMITABLE_DISPLAY_NAME, PR_TRANSMITABLE_DISPLAY_NAME_A, ptagTransmitableDisplayName, PR_TRANSMITABLE_DISPLAY_NAME_W
 
 ```csharp
 public static readonly PidTagPropertyDescriptor TransmittableDisplayName;

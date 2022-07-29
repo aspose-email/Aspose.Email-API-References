@@ -1,14 +1,14 @@
 ---
 title: ServerProcessed
 second_title: Справочник по Aspose.Email для .NET API
-description: Указывает был ли обработан объект запроса на собрание или объект обновления собрания. ОбластьКалендарь Каноническое имяPidLidServerProcessed Альтернативные именаdispidExchangeProcessed
+description: Указывает был ли обработан объект запроса на собрание или объект обновления собрания. Область Calendar Каноническое имя PidLidServerProcessed Альтернативные имена dispidExchangeProcessed
 type: docs
 weight: 17290
 url: /ru/net/aspose.email.mapi/knownpropertylist/serverprocessed/
 ---
 ## KnownPropertyList.ServerProcessed field
 
-Указывает, был ли обработан объект запроса на собрание или объект обновления собрания. Область:Календарь Каноническое имя:PidLidServerProcessed Альтернативные имена:dispidExchangeProcessed
+Указывает, был ли обработан объект запроса на собрание или объект обновления собрания. Область: Calendar Каноническое имя: PidLidServerProcessed Альтернативные имена: dispidExchangeProcessed
 
 ```csharp
 public static readonly PidLidPropertyDescriptor ServerProcessed;

@@ -1,14 +1,14 @@
 ---
 title: ItemMovedEventArgs
 second_title: Справочник по Aspose.Email для .NET API
-description: Предоставляет данные дляItemMoved./folderinfo/itemmovedevent
+description: Предоставляет данные дляItemMoved./folderinfo/itemmoved событие
 type: docs
-weight: 20140
+weight: 20190
 url: /ru/net/aspose.email.storage.pst/itemmovedeventargs/
 ---
 ## ItemMovedEventArgs class
 
-Предоставляет данные для[`ItemMoved`](../folderinfo/itemmoved)event
+Предоставляет данные для[`ItemMoved`](../folderinfo/itemmoved) событие
 
 ```csharp
 public class ItemMovedEventArgs : EventArgs
@@ -18,9 +18,9 @@ public class ItemMovedEventArgs : EventArgs
 
 | Имя | Описание |
 | --- | --- |
-| [ItemMovedEventArgs](itemmovedeventargs#constructor)(FolderInfo) | Инициализирует новый экземпляр класса[`ItemMovedEventArgs`](../itemmovedeventargs). |
-| [ItemMovedEventArgs](itemmovedeventargs#constructor_1)(MessageInfo) | Инициализирует новый экземпляр класса[`ItemMovedEventArgs`](../itemmovedeventargs). |
-| [ItemMovedEventArgs](itemmovedeventargs#constructor_2)(string, MapiPropertyCollection) | Инициализирует новый экземпляр класса[`ItemMovedEventArgs`](../itemmovedeventargs). |
+| [ItemMovedEventArgs](itemmovedeventargs#constructor)(FolderInfo) | Инициализирует новый экземпляр[`ItemMovedEventArgs`](../itemmovedeventargs) класс. |
+| [ItemMovedEventArgs](itemmovedeventargs#constructor_1)(MessageInfo) | Инициализирует новый экземпляр[`ItemMovedEventArgs`](../itemmovedeventargs) класс. |
+| [ItemMovedEventArgs](itemmovedeventargs#constructor_2)(string, MapiPropertyCollection) | Инициализирует новый экземпляр[`ItemMovedEventArgs`](../itemmovedeventargs) класс. |
 
 ## Характеристики
 

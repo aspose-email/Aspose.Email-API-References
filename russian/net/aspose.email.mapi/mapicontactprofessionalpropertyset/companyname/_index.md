@@ -1,14 +1,14 @@
 ---
 title: CompanyName
 second_title: Справочник по Aspose.Email для .NET API
-description: Получает или задает компанию в которой работает контакт
+description: Получает или задает компанию  в которой работает контакт
 type: docs
 weight: 30
 url: /ru/net/aspose.email.mapi/mapicontactprofessionalpropertyset/companyname/
 ---
 ## MapiContactProfessionalPropertySet.CompanyName property
 
-Получает или задает компанию в которой работает контакт
+Получает или задает компанию , в которой работает контакт
 
 ```csharp
 public string CompanyName { get; set; }

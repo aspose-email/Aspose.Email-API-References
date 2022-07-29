@@ -1,14 +1,14 @@
 ---
 title: AddressBookHierarchicalDepartmentMembers
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит всех почтовых пользователей принадлежащих этому отделу. ОбластьАдресная книга Каноническое имяPidTagAddressBookHierarchicalDepartmentMembers Альтернативные именаPR_EMS_AB_HAB_DEPARTMENT_MEMBERS
+description: Содержит всех пользователей почты принадлежащих этому отделу. Область Адресная книга Каноническое имя PidTagAddressBookHierarchicalDepartmentMembers Альтернативные имена PR_EMS_AB_HAB_DEPARTMENT_MEMBERS
 type: docs
 weight: 620
 url: /ru/net/aspose.email.mapi/knownpropertylist/addressbookhierarchicaldepartmentmembers/
 ---
 ## KnownPropertyList.AddressBookHierarchicalDepartmentMembers field
 
-Содержит всех почтовых пользователей, принадлежащих этому отделу. Область:Адресная книга Каноническое имя:PidTagAddressBookHierarchicalDepartmentMembers Альтернативные имена:PR_EMS_AB_HAB_DEPARTMENT_MEMBERS
+Содержит всех пользователей почты, принадлежащих этому отделу. Область: Адресная книга Каноническое имя: PidTagAddressBookHierarchicalDepartmentMembers Альтернативные имена: PR_EMS_AB_HAB_DEPARTMENT_MEMBERS
 
 ```csharp
 public static readonly PidTagPropertyDescriptor AddressBookHierarchicalDepartmentMembers;

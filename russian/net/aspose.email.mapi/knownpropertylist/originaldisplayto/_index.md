@@ -1,14 +1,14 @@
 ---
 title: OriginalDisplayTo
 second_title: Справочник по Aspose.Email для .NET API
-description: Содержит значение свойства PidTagDisplayTo раздел 2.669 из исходного сообщения. ОбластьОбщие свойства сообщения Каноническое имяPidTagOriginalDisplayTo Альтернативные именаPR_ORIGINAL_DISPLAY_TO PR_ORIGINAL_DISPLAY_TO_A ptagOriginalDisplayTo PR_ORIGINAL_DISPLAY_TO_W
+description: Содержит значение свойства PidTagDisplayTo раздел 2.669 из исходного сообщения. Область Общие свойства сообщения Каноническое имя PidTagOriginalDisplayTo Альтернативные имена PR_ORIGINAL_DISPLAY_TO PR_ORIGINAL_DISPLAY_TO_A ptagOriginalDisplayTo PR_ORIGINAL_DISPLAY_TO_W
 type: docs
 weight: 13560
 url: /ru/net/aspose.email.mapi/knownpropertylist/originaldisplayto/
 ---
 ## KnownPropertyList.OriginalDisplayTo field
 
-Содержит значение свойства PidTagDisplayTo (раздел 2.669) из исходного сообщения. Область:Общие свойства сообщения Каноническое имя:PidTagOriginalDisplayTo Альтернативные имена:PR_ORIGINAL_DISPLAY_TO, PR_ORIGINAL_DISPLAY_TO_A, ptagOriginalDisplayTo, PR_ORIGINAL_DISPLAY_TO_W,
+Содержит значение свойства PidTagDisplayTo (раздел 2.669) из исходного сообщения. Область: Общие свойства сообщения Каноническое имя: PidTagOriginalDisplayTo Альтернативные имена: PR_ORIGINAL_DISPLAY_TO, PR_ORIGINAL_DISPLAY_TO_A, ptagOriginalDisplayTo, PR_ORIGINAL_DISPLAY_TO_W,
 
 ```csharp
 public static readonly PidTagPropertyDescriptor OriginalDisplayTo;

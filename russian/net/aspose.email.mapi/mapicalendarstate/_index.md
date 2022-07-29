@@ -3,7 +3,7 @@ title: MapiCalendarState
 second_title: Справочник по Aspose.Email для .NET API
 description: Перечисляет состояние встречи
 type: docs
-weight: 18080
+weight: 18110
 url: /ru/net/aspose.email.mapi/mapicalendarstate/
 ---
 ## MapiCalendarState enumeration
@@ -20,8 +20,8 @@ public enum MapiCalendarState
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Meeting | `1` | Указывает, что представленный объект календаря является объектом собрания |
-| Received | `2` | Указывает, что представленный объект календаря был получен от кого-то другого |
-| Canceled | `4` | Указывает, что объект Meeting был отменен. |
+| Received | `2` | Указывает, что представленный объект календаря был получен от кого-то еще |
+| Canceled | `4` | Указывает, что объект встречи был отменен. |
 
 ### Смотрите также
 
