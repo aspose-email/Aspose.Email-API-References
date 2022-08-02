@@ -1,0 +1,69 @@
+---
+title: RecurrenceRule
+second_title: Referencia de la API de Aspose.Email para .NET
+description: Representa una recurrencia o regla de excepción en un patrón de recurrencia.
+type: docs
+weight: 770
+url: /es/net/aspose.email.calendar.recurrences/recurrencerule/
+---
+## RecurrenceRule class
+
+Representa una recurrencia o regla de excepción en un patrón de recurrencia.
+
+```csharp
+public class RecurrenceRule
+```
+
+## Constructores
+
+| Nombre | Descripción |
+| --- | --- |
+| [RecurrenceRule](recurrencerule)() | Inicializa una nueva instancia del[`RecurrenceRule`](../recurrencerule) clase. |
+
+## Propiedades
+
+| Nombre | Descripción |
+| --- | --- |
+| [ByDay](../../aspose.email.calendar.recurrences/recurrencerule/byday) { get; } | Obtiene el por día. |
+| [ByHour](../../aspose.email.calendar.recurrences/recurrencerule/byhour) { get; } | Obtiene el por hora. |
+| [ByMinute](../../aspose.email.calendar.recurrences/recurrencerule/byminute) { get; } | Obtiene el por minuto. |
+| [ByMonth](../../aspose.email.calendar.recurrences/recurrencerule/bymonth) { get; } | Obtiene el por mes. |
+| [ByMonthDay](../../aspose.email.calendar.recurrences/recurrencerule/bymonthday) { get; } | Obtiene el día por mes. |
+| [BySecond](../../aspose.email.calendar.recurrences/recurrencerule/bysecond) { get; } | Obtiene el por segundo. |
+| [BySetPos](../../aspose.email.calendar.recurrences/recurrencerule/bysetpos) { get; } | Obtiene la pos. por set. |
+| [ByWeekNo](../../aspose.email.calendar.recurrences/recurrencerule/byweekno) { get; } | Obtiene el número por semana |
+| [ByYearDay](../../aspose.email.calendar.recurrences/recurrencerule/byyearday) { get; } | Obtiene el día por año. |
+| [Count](../../aspose.email.calendar.recurrences/recurrencerule/count) { get; set; } | Obtiene o establece el conteo. |
+| [EndType](../../aspose.email.calendar.recurrences/recurrencerule/endtype) { get; set; } | Obtiene o establece el tipo final. |
+| [Frequency](../../aspose.email.calendar.recurrences/recurrencerule/frequency) { get; set; } | Obtiene o establece el tipo de regla de recurrencia. |
+| [FriendlyText](../../aspose.email.calendar.recurrences/recurrencerule/friendlytext) { get; } | Obtiene el texto fácil de usar de la regla. |
+| [Interval](../../aspose.email.calendar.recurrences/recurrencerule/interval) { get; set; } | Obtiene o establece el intervalo. |
+| [Until](../../aspose.email.calendar.recurrences/recurrencerule/until) { get; set; } | Obtiene o establece el hasta. |
+| [WeekStart](../../aspose.email.calendar.recurrences/recurrencerule/weekstart) { get; set; } | Obtiene o establece el día de inicio de la semana. |
+
+### Observaciones
+
+Corresponde a la parte RRULE o EXRULE en iCalendar.
+
+Para construir una regla de recurrencia, normalmente necesita:
+
+1. Especifique el tipo de regla en[`Frequency`](./frequency).
+
+2. Especifique cómo termina el patrón de recurrencia usando[`EndType`](./endtype) , [`Count`](./count)o[`Until`](./until).
+
+3. Especifique valores en una o más colecciones ByXXX.
+
+Tenga en cuenta que si se encuentran valores de parte de la regla ByXXX que están más allá del alcance available (es decir, BYMONTHDAY=30 en febrero), simplemente se ignoran.
+
+Información, no incluida en la regla, necesaria para determinar las diversas instancias de recurrencia la fecha y la hora de inicio se derivan de[`StartDate`](../calendarrecurrence/startdate). Por ejemplo, "FREQ=YEARLY;BYMONTH=1" no especifica un día específico dentro del mes o una hora. Esta información sería la misma que se especifica para DTSTART.
+
+Las partes de la regla ByXXX modifican la recurrencia de alguna manera. Las partes de la regla ByXXX por un período de tiempo que es igual o mayor que la frecuencia generalmente reducen o limitan el número de ocurrencias de la recurrencia generada. Por ejemplo, "FREQ=DAILY;BYMONTH=1" reduce el número de instancias de recurrencia de todos los días (si la etiqueta BYMONTH no está presente) a todos los días de enero. ByXXX parte de la regla por un período de tiempo menor que la frecuencia generalmente aumenta o expande el número de ocurrencias de la recurrencia. Por ejemplo, "FREQ=YEARLY;BYMONTH=1,2" aumenta el número de días dentro del conjunto de recurrencia anual de 1 (si la etiqueta BYMONTH no está presente) a 2.
+
+Si se especifican varias partes de la regla ByXXX, luego de evaluar las partes de la regla Frecuencia e Intervalo especificadas, las partes de la regla ByXXX se aplican al conjunto actual de ocurrencias evaluadas en el siguiente orden :[`ByMonth`](./bymonth) ,[`ByWeekNo`](./byweekno) ,[`ByYearDay`](./byyearday) ,[`ByMonthDay`](./bymonthday) , [`ByDay`](./byday) ,[`ByHour`](./byhour) ,[`ByMinute`](./byminute) ,[`BySecond`](./bysecond) y [`BySetPos`](./bysetpos) ; después[`Count`](./count) y[`Until`](./until) son evaluados.
+
+### Ver también
+
+* espacio de nombres [Aspose.Email.Calendar.Recurrences](../../aspose.email.calendar.recurrences)
+* asamblea [Aspose.Email](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Email.dll -->
