@@ -196,11 +196,7 @@ url: /java/com.aspose.email/
 | [ExchangeCalendarPermission](../com.aspose.email/exchangecalendarpermission) | Represents a permission on a calendar folder. |
 | [ExchangeCalendarPermissionLevel](../com.aspose.email/exchangecalendarpermissionlevel) | Specifies the permission level that a user has on a calendar folder. |
 | [ExchangeCalendarPermissionReadAccess](../com.aspose.email/exchangecalendarpermissionreadaccess) | Sspecifies whether a user has permission to read items in a folder. |
-| [ExchangeClient](../com.aspose.email/exchangeclient) | \`\`\`
-
-The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol.
-
-\`\`\` |
+| [ExchangeClient](../com.aspose.email/exchangeclient) | The ExchangeClient class allows applications to manage E-Mail box in Microsoft Exchange Server by using WebDav Exchange Store Protocol.|
 | [ExchangeClientBase](../com.aspose.email/exchangeclientbase) | Provides the abstract base class to MS Exchange Server access. |
 | [ExchangeConversation](../com.aspose.email/exchangeconversation) | Represents a single conversation. |
 | [ExchangeConversationFlagStatus](../com.aspose.email/exchangeconversationflagstatus) | Enumerates the flag status for conversation. |
