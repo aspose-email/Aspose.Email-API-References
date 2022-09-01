@@ -1,7 +1,7 @@
 ---
 title: Delete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the list of responses to delete operations.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/synccommandsresponse/delete/

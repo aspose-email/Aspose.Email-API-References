@@ -1,7 +1,7 @@
 ---
 title: MailMessageCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of the class MailMessageCollectionaspose.email/mailmessagecollection.
 type: docs
 weight: 10
 url: /net/aspose.email/mailmessagecollection/mailmessagecollection/

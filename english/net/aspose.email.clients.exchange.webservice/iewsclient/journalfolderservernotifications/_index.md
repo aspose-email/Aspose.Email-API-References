@@ -1,7 +1,7 @@
 ---
 title: JournalFolderServerNotifications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when arises specified event type for Journal folder.
 type: docs
 weight: 290
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/journalfolderservernotifications/

@@ -1,7 +1,7 @@
 ---
 title: Assistant
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Assistant phone number
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo/phonenumbercategory/assistant/

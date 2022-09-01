@@ -1,7 +1,7 @@
 ---
 title: ExchangeUploadItemResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a result of updating or creating a streamed item
 type: docs
 weight: 3850
 url: /net/aspose.email.clients.exchange.webservice/exchangeuploaditemresult/

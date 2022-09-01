@@ -1,7 +1,7 @@
 ---
 title: TemplateDescription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Template description
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/templatedescription/

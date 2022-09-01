@@ -1,7 +1,7 @@
 ---
 title: Interval
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the number of recurrence units.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar.recurrences/recurrencepattern/interval/
@@ -14,7 +14,7 @@ Gets or sets the number of recurrence units.
 public int Interval { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of recurrence units.
 

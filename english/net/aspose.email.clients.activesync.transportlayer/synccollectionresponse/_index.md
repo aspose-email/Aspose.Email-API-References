@@ -1,7 +1,7 @@
 ---
 title: SyncCollectionResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Class contains commands and options that apply to a Sync response.
 type: docs
 weight: 2200
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/

@@ -1,7 +1,7 @@
 ---
 title: ProvisionPolicy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a security policy.
 type: docs
 weight: 1720
 url: /net/aspose.email.clients.activesync.transportlayer/provisionpolicy/

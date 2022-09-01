@@ -1,12 +1,12 @@
 ---
 title: Format
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Formats a log entry and return a string to be outputted.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.logging/iformatter/format/
 ---
-## IFormatter.Format method (1 of 2)
+## Format(LogEntry) {#format}
 
 Formats a log entry and return a string to be outputted.
 
@@ -18,7 +18,7 @@ public string Format(LogEntry entry)
 | --- | --- | --- |
 | entry | LogEntry | The Log entry to format. |
 
-## Return Value
+### Return Value
 
 String representing the log entry.
 
@@ -31,7 +31,7 @@ String representing the log entry.
 
 ---
 
-## IFormatter.Format method (2 of 2)
+## Format(DateTime) {#format_1}
 
 Formats a datetime and return a string to be outputted.
 

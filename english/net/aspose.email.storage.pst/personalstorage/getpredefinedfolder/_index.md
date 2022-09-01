@@ -1,7 +1,7 @@
 ---
 title: GetPredefinedFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the standard interpersonal message IPM folder from PST. Outlook can create a number of default folders such as Outbox Deleted Items Sent Items etc.
 type: docs
 weight: 240
 url: /net/aspose.email.storage.pst/personalstorage/getpredefinedfolder/
@@ -18,7 +18,7 @@ public FolderInfo GetPredefinedFolder(StandardIpmFolder defaultFolder)
 | --- | --- | --- |
 | defaultFolder | StandardIpmFolder | The value of [`StandardIpmFolder`](../../standardipmfolder) enumeration. |
 
-## Return Value
+### Return Value
 
 A [`FolderInfo`](../../folderinfo) object that represents a standard IPM folder.
 

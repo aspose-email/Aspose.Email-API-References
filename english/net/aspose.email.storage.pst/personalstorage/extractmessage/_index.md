@@ -1,12 +1,12 @@
 ---
 title: ExtractMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the message from PST.
 type: docs
 weight: 180
 url: /net/aspose.email.storage.pst/personalstorage/extractmessage/
 ---
-## PersonalStorage.ExtractMessage method (1 of 3)
+## ExtractMessage(MessageInfo) {#extractmessage}
 
 Get the message from PST.
 
@@ -18,7 +18,7 @@ public MapiMessage ExtractMessage(MessageInfo messageInfo)
 | --- | --- | --- |
 | messageInfo | MessageInfo | A MessageInfo object that represents information about message. |
 
-## Return Value
+### Return Value
 
 A MapiMessage object.
 
@@ -32,7 +32,7 @@ A MapiMessage object.
 
 ---
 
-## PersonalStorage.ExtractMessage method (2 of 3)
+## ExtractMessage(byte[]) {#extractmessage_1}
 
 Get the message from PST.
 
@@ -44,7 +44,7 @@ public MapiMessage ExtractMessage(byte[] entryId)
 | --- | --- | --- |
 | entryId | Byte[] | EntryId of message. |
 
-## Return Value
+### Return Value
 
 A MapiMessage object.
 
@@ -57,7 +57,7 @@ A MapiMessage object.
 
 ---
 
-## PersonalStorage.ExtractMessage method (3 of 3)
+## ExtractMessage(string) {#extractmessage_2}
 
 Get the message from PST.
 
@@ -69,7 +69,7 @@ public MapiMessage ExtractMessage(string entryId)
 | --- | --- | --- |
 | entryId | String | String representation of EntryId. |
 
-## Return Value
+### Return Value
 
 A MapiMessage object.
 

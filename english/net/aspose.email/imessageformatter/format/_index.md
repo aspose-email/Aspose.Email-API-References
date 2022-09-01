@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Formats the specified message.
 type: docs
 weight: 20
 url: /net/aspose.email/imessageformatter/format/

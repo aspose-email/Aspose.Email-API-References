@@ -1,7 +1,7 @@
 ---
 title: ResolveRecipientsRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information to resolve recipients.
 type: docs
 weight: 1860
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsrequest/

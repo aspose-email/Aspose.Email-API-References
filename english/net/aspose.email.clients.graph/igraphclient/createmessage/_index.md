@@ -1,7 +1,7 @@
 ---
 title: CreateMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates message in specified folder
 type: docs
 weight: 140
 url: /net/aspose.email.clients.graph/igraphclient/createmessage/
@@ -19,7 +19,7 @@ public MapiMessage CreateMessage(string folderId, MapiMessage message)
 | folderId | String | Parent folder id |
 | message | MapiMessage | Mapi message to be created |
 
-## Return Value
+### Return Value
 
 Created message
 

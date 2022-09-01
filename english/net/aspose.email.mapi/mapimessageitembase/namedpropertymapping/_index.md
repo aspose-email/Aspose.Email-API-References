@@ -1,7 +1,7 @@
 ---
 title: NamedPropertyMapping
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the named property mapping.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapimessageitembase/namedpropertymapping/
@@ -14,7 +14,7 @@ Gets the named property mapping.
 public MapiNamedPropertyMappingStorage NamedPropertyMapping { get; }
 ```
 
-## Property Value
+### Property Value
 
 The named property mapping.
 

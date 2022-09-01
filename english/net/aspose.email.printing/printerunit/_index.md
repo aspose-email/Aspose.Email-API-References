@@ -1,9 +1,9 @@
 ---
 title: PrinterUnit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents supported units for PageUnit./mailprinter/pageunit.
 type: docs
-weight: 19680
+weight: 19910
 url: /net/aspose.email.printing/printerunit/
 ---
 ## PrinterUnit enumeration
@@ -14,7 +14,7 @@ Represents supported units for [`PageUnit`](../mailprinter/pageunit).
 public enum PrinterUnit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Timeout
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the timeout used when sending HTTP requests and when receiving HTTP responses in milliseconds. Defaults to 100000.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/timeout/

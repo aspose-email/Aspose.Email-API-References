@@ -1,7 +1,7 @@
 ---
 title: MIMESupport
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enables MIME support for email items that are sent from the server to the client. If the airsyncMIMESupport element is set to SendForSecureMIMEonly 1 or SendForAll 2 in the Search request  The property of the airsyncbaseBodyPreference the Type SHOULD be included in the Search request containing a value of MIME 4 to inform the server that the device can read the MIME BLOB.  The response from the server MUST include the airsyncbaseBody which is a child of the Properties. The airsyncbaseBody MUST contain the following properties in an S/MIME Search response  The airsyncbaseType with a value of MIME 4 to inform the device that the data is a MIME BLOB.  The airsyncbaseEstimatedDataSize to specify the rough total size of the data.  The airsyncbaseTruncated to indicate whether the MIME BLOB is truncated.  The airsyncbaseData that contains the full MIME BLOB.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/searchoptions/mimesupport/

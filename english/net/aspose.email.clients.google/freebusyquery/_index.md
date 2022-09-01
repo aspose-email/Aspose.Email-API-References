@@ -1,7 +1,7 @@
 ---
 title: FreebusyQuery
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Request free/busy information for a set of calendars.
 type: docs
 weight: 15730
 url: /net/aspose.email.clients.google/freebusyquery/
@@ -18,13 +18,13 @@ public class FreebusyQuery
 
 | Name | Description |
 | --- | --- |
-| [FreebusyQuery](freebusyquery)() | Initializes a new instance of the FreebusyQuery class. |
-| [FreebusyQuery](freebusyquery)(DateTime, DateTime, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyQuery class. |
-| [FreebusyQuery](freebusyquery)(DateTime, DateTime, params string[]) | Initializes a new instance of the FreebusyQuery class. |
-| [FreebusyQuery](freebusyquery)(DateTime, DateTime, string, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyQuery class. |
-| [FreebusyQuery](freebusyquery)(DateTime, DateTime, string, params string[]) | Initializes a new instance of the FreebusyQuery class. |
-| [FreebusyQuery](freebusyquery)(DateTime, DateTime, string, int?, int?, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyQuery class. |
-| [FreebusyQuery](freebusyquery)(DateTime, DateTime, string, int?, int?, params string[]) | Initializes a new instance of the FreebusyQuery class. |
+| [FreebusyQuery](freebusyquery#constructor)() | Initializes a new instance of the FreebusyQuery class. |
+| [FreebusyQuery](freebusyquery#constructor_1)(DateTime, DateTime, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyQuery class. |
+| [FreebusyQuery](freebusyquery#constructor_6)(DateTime, DateTime, params string[]) | Initializes a new instance of the FreebusyQuery class. |
+| [FreebusyQuery](freebusyquery#constructor_2)(DateTime, DateTime, string, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyQuery class. |
+| [FreebusyQuery](freebusyquery#constructor_5)(DateTime, DateTime, string, params string[]) | Initializes a new instance of the FreebusyQuery class. |
+| [FreebusyQuery](freebusyquery#constructor_3)(DateTime, DateTime, string, int?, int?, IEnumerable&lt;string&gt;) | Initializes a new instance of the FreebusyQuery class. |
+| [FreebusyQuery](freebusyquery#constructor_4)(DateTime, DateTime, string, int?, int?, params string[]) | Initializes a new instance of the FreebusyQuery class. |
 
 ## Properties
 

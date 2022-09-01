@@ -1,7 +1,7 @@
 ---
 title: HasSubfolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search folders which contains subfolders.
 type: docs
 weight: 150
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/hassubfolders/
@@ -14,7 +14,7 @@ Search folders which contains subfolders.
 public MailQuery HasSubfolders()
 ```
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query (one searching criteria).
 

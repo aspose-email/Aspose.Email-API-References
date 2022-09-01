@@ -1,7 +1,7 @@
 ---
 title: HomeTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the home telephone number
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/hometelephonenumber/

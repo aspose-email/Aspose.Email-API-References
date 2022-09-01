@@ -1,12 +1,12 @@
 ---
 title: ListAppointmentsByPage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves page with appointments for calendar folder
 type: docs
 weight: 1080
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listappointmentsbypage/
 ---
-## IEWSClient.ListAppointmentsByPage method (1 of 8)
+## ListAppointmentsByPage(int) {#listappointmentsbypage_2}
 
 Retrieves page with appointments for calendar folder
 
@@ -18,7 +18,7 @@ public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage)
 | --- | --- | --- |
 | itemsPerPage | Int32 | A number of items in page |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -31,7 +31,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (2 of 8)
+## ListAppointmentsByPage(string, int) {#listappointmentsbypage_6}
 
 Retrieves page with appointments for specified calendar folder
 
@@ -44,7 +44,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, int itemsPer
 | folderUri | String | A folder to search appointments in. |
 | itemsPerPage | Int32 | A number of items in page |
 
-## Return Value
+### Return Value
 
 Returns collection of appointments
 
@@ -57,7 +57,7 @@ Returns collection of appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (3 of 8)
+## ListAppointmentsByPage(MailQuery, int) {#listappointmentsbypage}
 
 Retrieves page with appointments for calendar folder
 
@@ -70,7 +70,7 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -84,7 +84,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (4 of 8)
+## ListAppointmentsByPage(string, MailQuery, int) {#listappointmentsbypage_4}
 
 Retrieves page with appointments for specified calendar folder
 
@@ -99,7 +99,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
 | itemsPerPage | Int32 | A number of items in page |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -113,7 +113,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (5 of 8)
+## ListAppointmentsByPage(int, int) {#listappointmentsbypage_3}
 
 Retrieves page with appointments for calendar folder
 
@@ -126,7 +126,7 @@ public AppointmentPageInfo ListAppointmentsByPage(int itemsPerPage, int itemOffs
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -139,7 +139,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (6 of 8)
+## ListAppointmentsByPage(string, int, int) {#listappointmentsbypage_7}
 
 Retrieves page with appointments for specified calendar folder
 
@@ -154,7 +154,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, int itemsPer
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -167,7 +167,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (7 of 8)
+## ListAppointmentsByPage(MailQuery, int, int) {#listappointmentsbypage_1}
 
 Retrieves page with appointments for calendar folder
 
@@ -181,7 +181,7 @@ public AppointmentPageInfo ListAppointmentsByPage(MailQuery query, int itemsPerP
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 
@@ -195,7 +195,7 @@ Returns page with appointments
 
 ---
 
-## IEWSClient.ListAppointmentsByPage method (8 of 8)
+## ListAppointmentsByPage(string, MailQuery, int, int) {#listappointmentsbypage_5}
 
 Retrieves page with appointments for specified calendar folder
 
@@ -211,7 +211,7 @@ public AppointmentPageInfo ListAppointmentsByPage(string folderUri, MailQuery qu
 | itemsPerPage | Int32 | A number of items in page |
 | itemOffset | Int32 | An offset of next item in view |
 
-## Return Value
+### Return Value
 
 Returns page with appointments
 

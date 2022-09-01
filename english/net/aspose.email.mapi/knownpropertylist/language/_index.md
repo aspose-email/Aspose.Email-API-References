@@ -1,7 +1,7 @@
 ---
 title: Language
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a value that indicates the language in which the messaging user is writing messages. Area Address Properties Canonical name PidTagLanguage Alternate names PR_LANGUAGE PR_LANGUAGE_A PR_LANGUAGE_W
 type: docs
 weight: 11940
 url: /net/aspose.email.mapi/knownpropertylist/language/

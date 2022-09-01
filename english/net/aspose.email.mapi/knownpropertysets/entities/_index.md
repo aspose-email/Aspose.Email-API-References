@@ -1,7 +1,7 @@
 ---
 title: Entities
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Extracted entities Property set name PSETID_XmlExtractedEntities
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/knownpropertysets/entities/

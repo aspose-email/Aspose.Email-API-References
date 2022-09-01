@@ -1,12 +1,12 @@
 ---
 title: FromStream
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Load PST from stream.
 type: docs
 weight: 40
 url: /net/aspose.email.storage.pst/personalstorage/fromstream/
 ---
-## PersonalStorage.FromStream method (1 of 6)
+## FromStream(Stream, bool) {#fromstream_3}
 
 Load PST from stream.
 
@@ -19,7 +19,7 @@ public static PersonalStorage FromStream(Stream stream, bool writable)
 | stream | Stream | The System.IO.Stream. |
 | writable | Boolean | if set to `true` then the the pst will support writing, otherwise it will be opened in read-only mode. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -31,7 +31,7 @@ A PersonalStorage object that represents the current PST.
 
 ---
 
-## PersonalStorage.FromStream method (2 of 6)
+## FromStream(Stream, PersonalStorageLoadOptions) {#fromstream_1}
 
 Load PST from stream.
 
@@ -44,7 +44,7 @@ public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptio
 | stream | Stream | The System.IO.Stream. |
 | loadOptions | PersonalStorageLoadOptions | The load options. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -57,7 +57,7 @@ A PersonalStorage object that represents the current PST.
 
 ---
 
-## PersonalStorage.FromStream method (3 of 6)
+## FromStream(Stream) {#fromstream}
 
 Load PST from stream.
 
@@ -69,7 +69,7 @@ public static PersonalStorage FromStream(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The System.IO.Stream. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -85,7 +85,7 @@ By default, the pst will support writing.
 
 ---
 
-## PersonalStorage.FromStream method (4 of 6)
+## FromStream(Stream, CancellationToken) {#fromstream_5}
 
 Load PST from file.
 
@@ -98,7 +98,7 @@ public static PersonalStorage FromStream(Stream stream, CancellationToken token)
 | stream | Stream | The System.IO.Stream. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 
@@ -114,7 +114,7 @@ By default, the pst will support writing.
 
 ---
 
-## PersonalStorage.FromStream method (5 of 6)
+## FromStream(Stream, bool, CancellationToken) {#fromstream_4}
 
 ```csharp
 public static PersonalStorage FromStream(Stream stream, bool writable, CancellationToken token)
@@ -128,7 +128,7 @@ public static PersonalStorage FromStream(Stream stream, bool writable, Cancellat
 
 ---
 
-## PersonalStorage.FromStream method (6 of 6)
+## FromStream(Stream, PersonalStorageLoadOptions, CancellationToken) {#fromstream_2}
 
 Load PST from file.
 
@@ -143,7 +143,7 @@ public static PersonalStorage FromStream(Stream stream, PersonalStorageLoadOptio
 | loadOptions | PersonalStorageLoadOptions | The load options. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A PersonalStorage object that represents the current PST.
 

@@ -1,7 +1,7 @@
 ---
 title: GetUMConfiguration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves unified messaging configuration
 type: docs
 weight: 1030
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getumconfiguration/
@@ -14,7 +14,7 @@ Retrieves unified messaging configuration
 public UnifiedMessagingConfiguration GetUMConfiguration()
 ```
 
-## Return Value
+### Return Value
 
 Returns unified messaging configuration
 

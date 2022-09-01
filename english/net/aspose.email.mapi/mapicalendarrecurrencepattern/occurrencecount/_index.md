@@ -1,7 +1,7 @@
 ---
 title: OccurrenceCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the number of occurrences in a recurrence.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/occurrencecount/

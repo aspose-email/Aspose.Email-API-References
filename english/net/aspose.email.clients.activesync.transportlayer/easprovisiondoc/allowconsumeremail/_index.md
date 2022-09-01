@@ -1,7 +1,7 @@
 ---
 title: AllowConsumerEmail
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows the user to configure a personal email account.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowconsumeremail/

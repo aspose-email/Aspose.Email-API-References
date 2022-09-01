@@ -1,7 +1,7 @@
 ---
 title: ProvisionResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains response information for provision command
 type: docs
 weight: 1770
 url: /net/aspose.email.clients.activesync.transportlayer/provisionresponse/

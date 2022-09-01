@@ -1,7 +1,7 @@
 ---
 title: Mileage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mileage information that is associated with an item.
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/mapimessageitembase/mileage/

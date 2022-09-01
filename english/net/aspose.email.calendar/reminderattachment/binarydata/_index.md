@@ -1,7 +1,7 @@
 ---
 title: BinaryData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contain a character encoding of inline binary data.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/reminderattachment/binarydata/

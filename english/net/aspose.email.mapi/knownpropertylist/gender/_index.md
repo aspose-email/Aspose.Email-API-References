@@ -1,7 +1,7 @@
 ---
 title: Gender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a value that represents the mail users gender. Area MapiMailUser Canonical name PidTagGender Alternate names PR_GENDER urnschemascontactsgender
 type: docs
 weight: 10760
 url: /net/aspose.email.mapi/knownpropertylist/gender/

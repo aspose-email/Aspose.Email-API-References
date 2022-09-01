@@ -1,12 +1,12 @@
 ---
 title: MapiNote
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiNoteaspose.email.mapi/mapinote class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapinote/mapinote/
 ---
-## MapiNote constructor (1 of 2)
+## MapiNote() {#constructor}
 
 Initializes a new instance of the [`MapiNote`](../../mapinote) class.
 
@@ -22,7 +22,7 @@ public MapiNote()
 
 ---
 
-## MapiNote constructor (2 of 2)
+## MapiNote(string, string) {#constructor_1}
 
 Initializes a new instance of the [`MapiNote`](../../mapinote) class.
 

@@ -1,7 +1,7 @@
 ---
 title: GreaterOrEqualTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets a value to search for messages that have modification sequence greater or equal to this value.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/modificationsequencefield/greaterorequalto/

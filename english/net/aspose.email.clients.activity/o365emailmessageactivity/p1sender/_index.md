@@ -1,7 +1,7 @@
 ---
 title: P1Sender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The return path of sender of the email message. Mandatory Yes
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activity/o365emailmessageactivity/p1sender/

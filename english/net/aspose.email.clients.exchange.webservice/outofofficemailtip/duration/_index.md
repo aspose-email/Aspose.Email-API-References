@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the start and end time for sending OOF messages
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/outofofficemailtip/duration/

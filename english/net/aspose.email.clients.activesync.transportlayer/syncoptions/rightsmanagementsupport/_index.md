@@ -1,7 +1,7 @@
 ---
 title: RightsManagementSupport
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies how the server returns rightsmanaged email messages to the client. If the value of this element is TRUE the server will decompress and decrypt rightsmanaged email messages before sending them to the client as specified in section 3.2.4.3. If the value is FALSE 0 the server will not decompress or decrypt rightsmanaged email messages before sending them to the client. If the RightsManagementSupport element is not defined a default value of FALSE is assumed.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activesync.transportlayer/syncoptions/rightsmanagementsupport/

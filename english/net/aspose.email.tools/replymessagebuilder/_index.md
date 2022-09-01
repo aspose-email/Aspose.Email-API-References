@@ -1,9 +1,9 @@
 ---
 title: ReplyMessageBuilder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides creation and formatting the replying messages.
 type: docs
-weight: 20410
+weight: 20640
 url: /net/aspose.email.tools/replymessagebuilder/
 ---
 ## ReplyMessageBuilder class
@@ -33,8 +33,8 @@ public class ReplyMessageBuilder : ResponseMessageBuilder
 
 | Name | Description |
 | --- | --- |
-| override [BuildResponse](../../aspose.email.tools/replymessagebuilder/buildresponse)(MailMessage) | Builds the replying messages. |
-| override [BuildResponse](../../aspose.email.tools/replymessagebuilder/buildresponse)(MapiMessage) | Builds the replying messages. |
+| override [BuildResponse](../../aspose.email.tools/replymessagebuilder/buildresponse#buildresponse)(MailMessage) | Builds the replying messages. |
+| override [BuildResponse](../../aspose.email.tools/replymessagebuilder/buildresponse#buildresponse_1)(MapiMessage) | Builds the replying messages. |
 
 ### See Also
 

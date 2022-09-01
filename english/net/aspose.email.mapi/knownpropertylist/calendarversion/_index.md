@@ -1,7 +1,7 @@
 ---
 title: CalendarVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the version of the iCalendar specification as specified in MSOXCICAL section 2.1.3.1.1.3 that is required to correctly interpret an iCalendar object. Area Common Canonical name PidNameCalendarVersion Alternate names urnschemascalendarversion
 type: docs
 weight: 2460
 url: /net/aspose.email.mapi/knownpropertylist/calendarversion/

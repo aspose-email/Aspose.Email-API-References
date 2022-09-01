@@ -1,7 +1,7 @@
 ---
 title: Yahoo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default Yahoo id
 type: docs
 weight: 120
 url: /net/aspose.email.personalinfo/instantmessengerlist/yahoo/

@@ -1,7 +1,7 @@
 ---
 title: PurportedSenderDomain
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the domain responsible for transmitting the current message. Area TransportEnvelope Canonical name PidTagPurportedSenderDomain Alternate names PR_PURPORTED_SENDER_DOMAIN
 type: docs
 weight: 15150
 url: /net/aspose.email.mapi/knownpropertylist/purportedsenderdomain/

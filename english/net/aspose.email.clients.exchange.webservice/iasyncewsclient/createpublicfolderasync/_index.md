@@ -1,12 +1,12 @@
 ---
 title: CreatePublicFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the specified public folder in the root public folder
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createpublicfolderasync/
 ---
-## IAsyncEwsClient.CreatePublicFolderAsync method (1 of 2)
+## CreatePublicFolderAsync(string, ExchangeFolderPermissionCollection, ExchangeFolderType, string, CancellationToken) {#createpublicfolderasync}
 
 Creates the specified public folder in the root public folder
 
@@ -24,7 +24,7 @@ public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name,
 | parentFolderUri | String | The URI of parent folder |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -39,7 +39,7 @@ Returns folder information
 
 ---
 
-## IAsyncEwsClient.CreatePublicFolderAsync method (2 of 2)
+## CreatePublicFolderAsync(string, ExchangeFolderPermissionCollection, string, CancellationToken) {#createpublicfolderasync_1}
 
 Creates the specified public folder in the root public folder
 
@@ -56,7 +56,7 @@ public Task<ExchangeFolderInfo> CreatePublicFolderAsync(string name,
 | parentFolderUri | String | The URI of parent folder |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns folder information
 

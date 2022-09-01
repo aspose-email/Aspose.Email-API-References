@@ -1,7 +1,7 @@
 ---
 title: FolderHierarchy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: FolderHierarchy namespace of the ActiveSync protocol
 type: docs
 weight: 1250
 url: /net/aspose.email.clients.activesync.transportlayer/folderhierarchy/
@@ -14,7 +14,7 @@ FolderHierarchy namespace of the ActiveSync protocol
 public enum FolderHierarchy
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

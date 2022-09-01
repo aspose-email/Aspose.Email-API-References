@@ -1,7 +1,7 @@
 ---
 title: RemoteWipe
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a remote wipe directive from the server.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/provisionresponse/remotewipe/

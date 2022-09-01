@@ -1,7 +1,7 @@
 ---
 title: DeletedInstanceDates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: An array of dates each of which is the original instance date of either a deleted instance or a modified instance for this recurrence.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/deletedinstancedates/

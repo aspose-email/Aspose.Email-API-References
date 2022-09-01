@@ -1,7 +1,7 @@
 ---
 title: Fax3OriginalEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a oneoff EntryID that corresponds to this fax address. Area Contact Properties Canonical name PidLidFax3OriginalEntryId Alternate names dispidFax3OriginalEntryID
 type: docs
 weight: 10240
 url: /net/aspose.email.mapi/knownpropertylist/fax3originalentryid/

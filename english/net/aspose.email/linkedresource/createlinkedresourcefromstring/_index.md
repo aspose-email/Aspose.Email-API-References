@@ -1,12 +1,12 @@
 ---
 title: CreateLinkedResourceFromString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the linked resource from string.
 type: docs
 weight: 20
 url: /net/aspose.email/linkedresource/createlinkedresourcefromstring/
 ---
-## LinkedResource.CreateLinkedResourceFromString method (1 of 3)
+## CreateLinkedResourceFromString(string) {#createlinkedresourcefromstring}
 
 Creates the linked resource from string.
 
@@ -18,7 +18,7 @@ public static LinkedResource CreateLinkedResourceFromString(string content)
 | --- | --- | --- |
 | content | String | A string that contains the resource to be included in the email attachment. |
 
-## Return Value
+### Return Value
 
 A LinkedResource object that contains the embedded resource.
 
@@ -30,7 +30,7 @@ A LinkedResource object that contains the embedded resource.
 
 ---
 
-## LinkedResource.CreateLinkedResourceFromString method (2 of 3)
+## CreateLinkedResourceFromString(string, Encoding, string) {#createlinkedresourcefromstring_2}
 
 Creates the linked resource from string.
 
@@ -45,7 +45,7 @@ public static LinkedResource CreateLinkedResourceFromString(string content,
 | contentEncoding | Encoding | The content encoding. |
 | mediaType | String | The MIME media type of the content. |
 
-## Return Value
+### Return Value
 
 A LinkedResource object that contains the embedded resource.
 
@@ -57,7 +57,7 @@ A LinkedResource object that contains the embedded resource.
 
 ---
 
-## LinkedResource.CreateLinkedResourceFromString method (3 of 3)
+## CreateLinkedResourceFromString(string, ContentType) {#createlinkedresourcefromstring_1}
 
 Creates the linked resource from string.
 
@@ -70,7 +70,7 @@ public static LinkedResource CreateLinkedResourceFromString(string content, Cont
 | content | String | A string that contains the resource to be included in the email attachment. |
 | contentType | ContentType | The type of the content. |
 
-## Return Value
+### Return Value
 
 A LinkedResource object that contains the embedded resource.
 

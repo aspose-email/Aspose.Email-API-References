@@ -1,7 +1,7 @@
 ---
 title: UseBasicAuthorization
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which indicates whether basic authorization is used
 type: docs
 weight: 90
 url: /net/aspose.email.clients/tokenprovider/usebasicauthorization/

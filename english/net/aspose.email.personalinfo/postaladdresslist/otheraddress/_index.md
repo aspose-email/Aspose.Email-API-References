@@ -1,7 +1,7 @@
 ---
 title: OtherAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default other address
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/postaladdresslist/otheraddress/

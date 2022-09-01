@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default instant messenger address for specified category
 type: docs
 weight: 70
 url: /net/aspose.email.personalinfo/instantmessengerlist/item/
@@ -35,7 +35,7 @@ public InstantMessengerAddress this[int index] { get; set; }
 | --- | --- |
 | index | The zero-based index of the element to get or set. |
 
-## Return Value
+### Return Value
 
 The element at the specified index.
 

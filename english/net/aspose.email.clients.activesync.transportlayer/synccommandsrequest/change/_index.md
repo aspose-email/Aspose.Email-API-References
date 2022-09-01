@@ -1,7 +1,7 @@
 ---
 title: Change
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the list of update operations.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/synccommandsrequest/change/

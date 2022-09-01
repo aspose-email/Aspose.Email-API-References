@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the address collection that contains the recipients of message.
 type: docs
 weight: 70
 url: /net/aspose.email.storage.olm/olmmessageinfo/to/

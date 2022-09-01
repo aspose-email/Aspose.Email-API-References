@@ -1,7 +1,7 @@
 ---
 title: Fax
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fax number
 type: docs
 weight: 70
 url: /net/aspose.email.personalinfo/phonenumbercategory/fax/

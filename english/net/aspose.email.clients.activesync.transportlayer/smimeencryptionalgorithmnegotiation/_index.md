@@ -1,7 +1,7 @@
 ---
 title: SMIMEEncryptionAlgorithmNegotiation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Controls the negotiation of the encryption algorithm.
 type: docs
 weight: 1920
 url: /net/aspose.email.clients.activesync.transportlayer/smimeencryptionalgorithmnegotiation/
@@ -14,7 +14,7 @@ Controls the negotiation of the encryption algorithm.
 public enum SMIMEEncryptionAlgorithmNegotiation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

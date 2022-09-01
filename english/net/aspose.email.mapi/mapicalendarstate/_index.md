@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the appointment state
 type: docs
-weight: 17910
+weight: 18120
 url: /net/aspose.email.mapi/mapicalendarstate/
 ---
 ## MapiCalendarState enumeration
@@ -15,7 +15,7 @@ Enumerates the appointment state
 public enum MapiCalendarState
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

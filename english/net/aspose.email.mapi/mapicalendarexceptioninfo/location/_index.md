@@ -1,7 +1,7 @@
 ---
 title: Location
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the location.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/location/
@@ -14,7 +14,7 @@ Gets or sets the location.
 public string Location { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The location.
 

@@ -1,7 +1,7 @@
 ---
 title: NotificationMethod
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The method used by this notification.
 type: docs
 weight: 15800
 url: /net/aspose.email.clients.google/notificationmethod/
@@ -14,7 +14,7 @@ The method used by this notification.
 public enum NotificationMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

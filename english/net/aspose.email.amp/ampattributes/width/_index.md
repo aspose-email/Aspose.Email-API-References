@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Width of element.
 type: docs
 weight: 110
 url: /net/aspose.email.amp/ampattributes/width/

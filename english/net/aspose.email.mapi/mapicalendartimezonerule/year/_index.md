@@ -1,7 +1,7 @@
 ---
 title: Year
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the year
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicalendartimezonerule/year/

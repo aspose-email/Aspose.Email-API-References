@@ -1,7 +1,7 @@
 ---
 title: IsPlaceHolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The placeholder attribute indicates that the element marked with this attribute acts as a placeholder for the parent AMP element.
 type: docs
 weight: 60
 url: /net/aspose.email.amp/ampattributes/isplaceholder/

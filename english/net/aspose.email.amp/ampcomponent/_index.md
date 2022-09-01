@@ -1,7 +1,7 @@
 ---
 title: AmpComponent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Base class to representation amp components.
 type: docs
 weight: 100
 url: /net/aspose.email.amp/ampcomponent/

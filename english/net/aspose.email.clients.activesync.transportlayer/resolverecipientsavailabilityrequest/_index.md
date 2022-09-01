@@ -1,7 +1,7 @@
 ---
 title: ResolveRecipientsAvailabilityRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates to the server that free/busy data is being requested by the client and identifies the start time and end time of the free/busy data to retrieve. The Availability is not supported when the protocol version is 12.1.
 type: docs
 weight: 1820
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsavailabilityrequest/

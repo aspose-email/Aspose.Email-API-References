@@ -1,7 +1,7 @@
 ---
 title: MessageInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MessageInfoaspose.email.storage.pst/messageinfo class.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/messageinfo/messageinfo/

@@ -1,7 +1,7 @@
 ---
 title: GatewayNeedsToRefresh
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This property is deprecated and SHOULD NOT be used. Area MessageClassDefinedTransmittable Canonical name PidTagGatewayNeedsToRefresh Alternate names PR_GATEWAY_NEEDS_TO_REFRESH
 type: docs
 weight: 10730
 url: /net/aspose.email.mapi/knownpropertylist/gatewayneedstorefresh/

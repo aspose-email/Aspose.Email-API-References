@@ -1,12 +1,12 @@
 ---
 title: SetLicense
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Licenses the component.
 type: docs
 weight: 20
 url: /net/aspose.email/license/setlicense/
 ---
-## License.SetLicense method (1 of 3)
+## SetLicense(string) {#setlicense_2}
 
 Licenses the component.
 
@@ -70,7 +70,7 @@ Can be a full or short file name or name of an embedded resource. Use an empty s
 
 ---
 
-## License.SetLicense method (2 of 3)
+## SetLicense(Stream) {#setlicense_1}
 
 Licenses the component.
 
@@ -112,7 +112,7 @@ license.setLicense(myStream);
 
 ---
 
-## License.SetLicense method (3 of 3)
+## SetLicense(FileInfo) {#setlicense}
 
 Licenses the component.
 

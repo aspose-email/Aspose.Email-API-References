@@ -1,7 +1,7 @@
 ---
 title: RequireManualSyncWhenRoaming
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device requires manual synchronization when the device is roaming.
 type: docs
 weight: 390
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requiremanualsyncwhenroaming/

@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the receiptants of the EMail message.
 type: docs
 weight: 140
 url: /net/aspose.email.clients/messageinfobase/to/

@@ -1,7 +1,7 @@
 ---
 title: GetWorkingHours
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the working hours in the specified date taking into account the users timezone.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/exchangeuseravailability/getworkinghours/
@@ -18,7 +18,7 @@ public DateRange GetWorkingHours(DateTime date)
 | --- | --- | --- |
 | date | DateTime | The date to get information for. |
 
-## Return Value
+### Return Value
 
 A start and end time of the working day for the specified date.
 

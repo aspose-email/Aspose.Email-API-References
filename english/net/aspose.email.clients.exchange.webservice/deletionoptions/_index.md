@@ -1,7 +1,7 @@
 ---
 title: DeletionOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines parameters for item deletion
 type: docs
 weight: 3660
 url: /net/aspose.email.clients.exchange.webservice/deletionoptions/
@@ -18,8 +18,8 @@ public class DeletionOptions
 
 | Name | Description |
 | --- | --- |
-| [DeletionOptions](deletionoptions)() | Initializes a new instance of the [`DeletionOptions`](../deletionoptions) class. |
-| [DeletionOptions](deletionoptions)(DeletionType) | Initializes a new instance of the [`DeletionOptions`](../deletionoptions) class. |
+| [DeletionOptions](deletionoptions#constructor)() | Initializes a new instance of the [`DeletionOptions`](../deletionoptions) class. |
+| [DeletionOptions](deletionoptions#constructor_1)(DeletionType) | Initializes a new instance of the [`DeletionOptions`](../deletionoptions) class. |
 
 ## Properties
 

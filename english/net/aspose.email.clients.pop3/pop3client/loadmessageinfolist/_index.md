@@ -1,12 +1,12 @@
 ---
 title: LoadMessageInfoList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Loads list of Pop3MessageInfo
 type: docs
 weight: 310
 url: /net/aspose.email.clients.pop3/pop3client/loadmessageinfolist/
 ---
-## Pop3Client.LoadMessageInfoList method (1 of 4)
+## LoadMessageInfoList(IEnumerable&lt;int&gt;) {#loadmessageinfolist_3}
 
 Loads list of Pop3MessageInfo
 
@@ -18,7 +18,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IEnumerable<int> sequenceNu
 | --- | --- | --- |
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -31,7 +31,7 @@ Pop3MessageInfoCollection
 
 ---
 
-## Pop3Client.LoadMessageInfoList method (2 of 4)
+## LoadMessageInfoList(IConnection, IEnumerable&lt;int&gt;) {#loadmessageinfolist_1}
 
 Loads list of Pop3MessageInfo
 
@@ -45,7 +45,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IConnection connection,
 | connection | IConnection | Connection to a server |
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -59,7 +59,7 @@ Pop3MessageInfoCollection
 
 ---
 
-## Pop3Client.LoadMessageInfoList method (3 of 4)
+## LoadMessageInfoList(IEnumerable&lt;Pop3MessageInfo&gt;) {#loadmessageinfolist_2}
 
 Loads list of Pop3MessageInfo
 
@@ -71,7 +71,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IEnumerable<Pop3MessageInfo
 | --- | --- | --- |
 | messageInfoList | IEnumerable`1 | Message info list |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -85,7 +85,7 @@ Pop3MessageInfoCollection
 
 ---
 
-## Pop3Client.LoadMessageInfoList method (4 of 4)
+## LoadMessageInfoList(IConnection, IEnumerable&lt;Pop3MessageInfo&gt;) {#loadmessageinfolist}
 
 Loads list of Pop3MessageInfo
 
@@ -99,7 +99,7 @@ public Pop3MessageInfoCollection LoadMessageInfoList(IConnection connection,
 | connection | IConnection | Connection to a server |
 | messageInfoList | IEnumerable`1 | Message info list |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 

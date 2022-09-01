@@ -1,7 +1,7 @@
 ---
 title: Appointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets object with appointment properties to create query
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/appointment/

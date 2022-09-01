@@ -1,12 +1,12 @@
 ---
 title: DetectFileFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Detects and returns the information about a format of a file stored in a stream.
 type: docs
 weight: 10
 url: /net/aspose.email.tools/fileformatutil/detectfileformat/
 ---
-## FileFormatUtil.DetectFileFormat method (1 of 2)
+## DetectFileFormat(Stream) {#detectfileformat}
 
 Detects and returns the information about a format of a file stored in a stream.
 
@@ -18,7 +18,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Source stream. |
 
-## Return Value
+### Return Value
 
 The result [`FileFormatInfo`](../../../aspose.email/fileformatinfo)
 
@@ -31,7 +31,7 @@ The result [`FileFormatInfo`](../../../aspose.email/fileformatinfo)
 
 ---
 
-## FileFormatUtil.DetectFileFormat method (2 of 2)
+## DetectFileFormat(string) {#detectfileformat_1}
 
 Detects and returns the information about a format of a file.
 
@@ -43,7 +43,7 @@ public static FileFormatInfo DetectFileFormat(string filePath)
 | --- | --- | --- |
 | filePath | String | Path to the source file. |
 
-## Return Value
+### Return Value
 
 The result [`FileFormatInfo`](../../../aspose.email/fileformatinfo)
 

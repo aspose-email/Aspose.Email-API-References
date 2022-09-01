@@ -1,7 +1,7 @@
 ---
 title: Recipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a list of recipients to check for mail tips.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/getmailtipsoptions/recipients/

@@ -1,7 +1,7 @@
 ---
 title: NativeBody
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the best available format for storing the message body. Area BestBody Canonical name PidTagNativeBody Alternate names PR_NATIVE_BODY_INFO ptagNativeBodyInfo
 type: docs
 weight: 12820
 url: /net/aspose.email.mapi/knownpropertylist/nativebody/

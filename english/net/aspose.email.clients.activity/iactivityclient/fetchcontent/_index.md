@@ -1,7 +1,7 @@
 ---
 title: FetchContent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This operation fetches content currently available for retrieval for the specified content id.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activity/iactivityclient/fetchcontent/
@@ -18,7 +18,7 @@ public Content[] FetchContent(string contentId)
 | --- | --- | --- |
 | contentId | String | URL to use when retrieving the content. |
 
-## Return Value
+### Return Value
 
 The returned content will be an array of one more actions or events.
 

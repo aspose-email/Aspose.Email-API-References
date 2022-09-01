@@ -1,7 +1,7 @@
 ---
 title: Parent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Parent
 type: docs
 weight: 110
 url: /net/aspose.email.personalinfo/associatedpersoncategory/parent/

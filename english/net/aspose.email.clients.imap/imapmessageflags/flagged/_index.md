@@ -1,7 +1,7 @@
 ---
 title: Flagged
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Message is flagged for urgent/special attention.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/imapmessageflags/flagged/

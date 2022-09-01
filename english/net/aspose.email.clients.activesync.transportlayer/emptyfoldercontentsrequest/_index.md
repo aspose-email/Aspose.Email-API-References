@@ -1,7 +1,7 @@
 ---
 title: EmptyFolderContentsRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains request about deleting the contents of a folder. EmptyFolderContents supports a single child element of the Options element the DeleteSubFolders which determines whether subfolders contained in the folder are deleted. If the DeleteSubFolders option is not included in the request the subfolders of the specified CollectionId are not deleted.
 type: docs
 weight: 1220
 url: /net/aspose.email.clients.activesync.transportlayer/emptyfoldercontentsrequest/

@@ -1,12 +1,12 @@
 ---
 title: GetMailboxInfoAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the mailbox status info
 type: docs
 weight: 160
 url: /net/aspose.email.clients.pop3/pop3client/getmailboxinfoasync/
 ---
-## Pop3Client.GetMailboxInfoAsync method (1 of 8)
+## GetMailboxInfoAsync(IConnection) {#getmailboxinfoasync_1}
 
 Gets the mailbox status info
 
@@ -18,7 +18,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxInfoAsync method (2 of 8)
+## GetMailboxInfoAsync(IConnection, bool) {#getmailboxinfoasync_2}
 
 Gets the mailbox status info
 
@@ -45,7 +45,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 | connection | IConnection | Connection to a server |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -59,7 +59,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxInfoAsync method (3 of 8)
+## GetMailboxInfoAsync(bool) {#getmailboxinfoasync_5}
 
 Gets the mailbox status info
 
@@ -71,7 +71,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -84,7 +84,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxInfoAsync method (4 of 8)
+## GetMailboxInfoAsync() {#getmailboxinfoasync}
 
 Gets the mailbox status info
 
@@ -92,7 +92,7 @@ Gets the mailbox status info
 public Task<Pop3MailboxInfo> GetMailboxInfoAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -105,7 +105,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxInfoAsync method (5 of 8)
+## GetMailboxInfoAsync(IConnection, CancellationToken) {#getmailboxinfoasync_4}
 
 Gets the mailbox status info
 
@@ -118,7 +118,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, Cancell
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -132,7 +132,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxInfoAsync method (6 of 8)
+## GetMailboxInfoAsync(IConnection, bool, CancellationToken) {#getmailboxinfoasync_3}
 
 Gets the mailbox status info
 
@@ -147,7 +147,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(IConnection connection, bool cl
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -161,7 +161,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxInfoAsync method (7 of 8)
+## GetMailboxInfoAsync(bool, CancellationToken) {#getmailboxinfoasync_6}
 
 Gets the mailbox status info
 
@@ -174,7 +174,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(bool closeTransaction, Cancella
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -187,7 +187,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxInfoAsync method (8 of 8)
+## GetMailboxInfoAsync(CancellationToken) {#getmailboxinfoasync_7}
 
 Gets the mailbox status info
 
@@ -199,7 +199,7 @@ public Task<Pop3MailboxInfo> GetMailboxInfoAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

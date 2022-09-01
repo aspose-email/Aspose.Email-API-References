@@ -1,12 +1,12 @@
 ---
 title: GetContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches contact
 type: docs
 weight: 180
 url: /net/aspose.email.clients.google/igmailclient/getcontact/
 ---
-## IGmailClient.GetContact method (1 of 2)
+## GetContact(string) {#getcontact_1}
 
 Fetches contact
 
@@ -18,7 +18,7 @@ public Contact GetContact(string contactUri)
 | --- | --- | --- |
 | contactUri | String | String, that represents contact's uri |
 
-## Return Value
+### Return Value
 
 [`Contact`](../../../aspose.email.personalinfo/contact) object, that represents a contact of gmail
 
@@ -37,7 +37,7 @@ public Contact GetContact(string contactUri)
 
 ---
 
-## IGmailClient.GetContact method (2 of 2)
+## GetContact(Contact) {#getcontact}
 
 Contact to refresh[`Contact`](../../../aspose.email.personalinfo/contact) object, that represents a contact of gmail when operation fails
 

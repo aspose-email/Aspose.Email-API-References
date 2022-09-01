@@ -1,9 +1,9 @@
 ---
 title: MapiContactElectronicAddressPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify properties for up to three different email addresses Email1 Email2 and Email3 and three different fax addresses Primary Fax Business Fax and Home Fax
 type: docs
-weight: 18020
+weight: 18230
 url: /net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/
 ---
 ## MapiContactElectronicAddressPropertySet class
@@ -18,8 +18,8 @@ public sealed class MapiContactElectronicAddressPropertySet
 
 | Name | Description |
 | --- | --- |
-| [MapiContactElectronicAddressPropertySet](mapicontactelectronicaddresspropertyset)() | Initializes a new instance of the [`MapiContactElectronicAddressPropertySet`](../mapicontactelectronicaddresspropertyset) class |
-| [MapiContactElectronicAddressPropertySet](mapicontactelectronicaddresspropertyset)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactElectronicAddressPropertySet`](../mapicontactelectronicaddresspropertyset) class |
+| [MapiContactElectronicAddressPropertySet](mapicontactelectronicaddresspropertyset#constructor)() | Initializes a new instance of the [`MapiContactElectronicAddressPropertySet`](../mapicontactelectronicaddresspropertyset) class |
+| [MapiContactElectronicAddressPropertySet](mapicontactelectronicaddresspropertyset#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactElectronicAddressPropertySet`](../mapicontactelectronicaddresspropertyset) class |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: AddressBookIsMaster
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a Boolean value of TRUE if it is possible to create Address Book objects in that container and FALSE otherwise. Area Address Book Canonical name PidTagAddressBookIsMaster Alternate names PR_EMS_AB_IS_MASTER
 type: docs
 weight: 680
 url: /net/aspose.email.mapi/knownpropertylist/addressbookismaster/

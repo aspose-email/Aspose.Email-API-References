@@ -1,7 +1,7 @@
 ---
 title: Preview
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum length of the Unicode plain text message or message part preview to be returned to the client. This property MUST have a value set from 0 to 255 inclusive.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/bodypreference/preview/

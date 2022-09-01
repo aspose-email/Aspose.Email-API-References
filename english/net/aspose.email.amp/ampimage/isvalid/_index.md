@@ -1,7 +1,7 @@
 ---
 title: IsValid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether this image is valid of AmpImage.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/ampimage/isvalid/

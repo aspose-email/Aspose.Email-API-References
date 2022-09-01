@@ -1,7 +1,7 @@
 ---
 title: FileFormatType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets file format type.
 type: docs
 weight: 10
 url: /net/aspose.email/fileformatinfo/fileformattype/

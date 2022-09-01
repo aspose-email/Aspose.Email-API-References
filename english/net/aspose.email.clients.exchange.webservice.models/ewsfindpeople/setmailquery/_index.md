@@ -1,7 +1,7 @@
 ---
 title: SetMailQuery
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the mail query and the folder URI to search contacts in the specified users personal mailbox.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/setmailquery/

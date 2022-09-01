@@ -1,9 +1,9 @@
 ---
 title: FormatNotSupportedException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exception that is thrown during document load when the document format is not recognized or not supported by the component.
 type: docs
-weight: 17310
+weight: 17480
 url: /net/aspose.email/formatnotsupportedexception/
 ---
 ## FormatNotSupportedException class
@@ -18,9 +18,9 @@ public class FormatNotSupportedException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [FormatNotSupportedException](formatnotsupportedexception)() | Initializes a new instance of the [`FormatNotSupportedException`](../formatnotsupportedexception) class. |
-| [FormatNotSupportedException](formatnotsupportedexception)(string) | Initializes a new instance of the [`FormatNotSupportedException`](../formatnotsupportedexception) class with a specified error message. |
-| [FormatNotSupportedException](formatnotsupportedexception)(string, Exception) | Initializes a new instance of the [`FormatNotSupportedException`](../formatnotsupportedexception) class with a specified error message. |
+| [FormatNotSupportedException](formatnotsupportedexception#constructor)() | Initializes a new instance of the [`FormatNotSupportedException`](../formatnotsupportedexception) class. |
+| [FormatNotSupportedException](formatnotsupportedexception#constructor_1)(string) | Initializes a new instance of the [`FormatNotSupportedException`](../formatnotsupportedexception) class with a specified error message. |
+| [FormatNotSupportedException](formatnotsupportedexception#constructor_2)(string, Exception) | Initializes a new instance of the [`FormatNotSupportedException`](../formatnotsupportedexception) class with a specified error message. |
 
 ## Properties
 

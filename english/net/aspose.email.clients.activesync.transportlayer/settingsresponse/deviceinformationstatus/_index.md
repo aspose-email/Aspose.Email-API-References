@@ -1,7 +1,7 @@
 ---
 title: DeviceInformationStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the result of the DeviceInformation setup request
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/settingsresponse/deviceinformationstatus/

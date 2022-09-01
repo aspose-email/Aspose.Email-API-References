@@ -1,7 +1,7 @@
 ---
 title: AddRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds an IAppenders enumeration to the end of collection.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.logging/appendercollection/addrange/

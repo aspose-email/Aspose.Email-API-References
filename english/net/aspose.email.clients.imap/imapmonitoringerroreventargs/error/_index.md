@@ -1,7 +1,7 @@
 ---
 title: Error
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: IMAP monitoring error.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/imapmonitoringerroreventargs/error/

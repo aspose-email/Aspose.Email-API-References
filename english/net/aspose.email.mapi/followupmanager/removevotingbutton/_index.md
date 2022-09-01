@@ -1,7 +1,7 @@
 ---
 title: RemoveVotingButton
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes the voting button.
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/followupmanager/removevotingbutton/

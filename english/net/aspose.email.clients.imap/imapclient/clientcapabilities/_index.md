@@ -1,12 +1,12 @@
 ---
 title: ClientCapabilities
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Notifies server which extensions are supported by client. Please note this operation works only in case if server supports RFC5161 See more https//tools.ietf.org/html/rfc5161
 type: docs
 weight: 440
 url: /net/aspose.email.clients.imap/imapclient/clientcapabilities/
 ---
-## ImapClient.ClientCapabilities method (1 of 2)
+## ClientCapabilities(params string[]) {#clientcapabilities_1}
 
 Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161
 
@@ -18,7 +18,7 @@ public string[] ClientCapabilities(params string[] capabilityNames)
 | --- | --- | --- |
 | capabilityNames | String[] | Array of capabilities which are supported by client |
 
-## Return Value
+### Return Value
 
 Returns array with capabilities which are supported by a server.
 
@@ -30,7 +30,7 @@ Returns array with capabilities which are supported by a server.
 
 ---
 
-## ImapClient.ClientCapabilities method (2 of 2)
+## ClientCapabilities(IConnection, params string[]) {#clientcapabilities}
 
 Notifies server which extensions are supported by client. Please note, this operation works only in case if server supports RFC5161 See more https://tools.ietf.org/html/rfc5161
 
@@ -43,7 +43,7 @@ public string[] ClientCapabilities(IConnection connection, params string[] capab
 | connection | IConnection | Connection to a server |
 | capabilityNames | String[] | Array of capabilities which are supported by client |
 
-## Return Value
+### Return Value
 
 Returns array with capabilities which are supported by a server.
 

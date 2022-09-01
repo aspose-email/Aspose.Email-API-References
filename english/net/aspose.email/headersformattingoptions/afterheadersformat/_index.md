@@ -1,7 +1,7 @@
 ---
 title: AfterHeadersFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: After headers format.
 type: docs
 weight: 20
 url: /net/aspose.email/headersformattingoptions/afterheadersformat/
@@ -14,7 +14,7 @@ After headers format.
 public string AfterHeadersFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The styles to be injected into resulting html body.
 

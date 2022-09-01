@@ -1,7 +1,7 @@
 ---
 title: ProgrammaticAccessAllowed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the contents of the email message can be accessed programmatically by third party applications. The value is TRUE if third party applications can access the content of the email message programmatically otherwise FALSE. A value of TRUE indicates whether the protected content is accessible by other applications. Protected content consists of the message body and attachments.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/programmaticaccessallowed/

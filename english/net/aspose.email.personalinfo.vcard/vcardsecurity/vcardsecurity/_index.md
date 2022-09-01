@@ -1,7 +1,7 @@
 ---
 title: VCardSecurity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the VCardSecurityaspose.email.personalinfo.vcard/vcardsecurity class
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo.vcard/vcardsecurity/vcardsecurity/

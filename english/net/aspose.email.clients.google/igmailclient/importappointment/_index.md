@@ -1,7 +1,7 @@
 ---
 title: ImportAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Imports appointment to calendar
 type: docs
 weight: 240
 url: /net/aspose.email.clients.google/igmailclient/importappointment/
@@ -19,7 +19,7 @@ public Appointment ImportAppointment(string calendarId, Appointment appointment)
 | calendarId | String | Calendar identifier. |
 | appointment | Appointment | An instance of appointment object to import. |
 
-## Return Value
+### Return Value
 
 Returns the imported appointment.
 

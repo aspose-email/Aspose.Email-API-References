@@ -1,7 +1,7 @@
 ---
 title: ErrorMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Error messages for failed operations
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/errormessages/

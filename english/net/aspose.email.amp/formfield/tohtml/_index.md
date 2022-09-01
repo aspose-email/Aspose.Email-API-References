@@ -1,7 +1,7 @@
 ---
 title: ToHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents html version of field.
 type: docs
 weight: 100
 url: /net/aspose.email.amp/formfield/tohtml/

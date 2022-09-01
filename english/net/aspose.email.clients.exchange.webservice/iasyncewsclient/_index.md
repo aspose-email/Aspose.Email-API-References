@@ -1,7 +1,7 @@
 ---
 title: IAsyncEwsClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the async interface for Exchange client.
 type: docs
 weight: 3950
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/
@@ -27,8 +27,8 @@ public interface IAsyncEwsClient : IExchangeClientBase
 | --- | --- |
 | [AppendMessagesAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/appendmessagesasync)(EwsAppendMessage) | Uploads mail messages to the specified folder. |
 | [ArchiveItemsAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/archiveitemsasync)(EwsArchiveItems) | The ArchiveItem operation moves an item into the mailbox user's archive mailbox. |
-| [BackupAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/backupasync)(ExchangeFolderInfoCollection, Stream, BackupOptions, CancellationToken) | Backups the content of the specified folders. |
-| [BackupAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/backupasync)(ExchangeFolderInfoCollection, string, BackupOptions, CancellationToken) | Backups the content of the specified folders. |
+| [BackupAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/backupasync#backupasync)(ExchangeFolderInfoCollection, Stream, BackupOptions, CancellationToken) | Backups the content of the specified folders. |
+| [BackupAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/backupasync#backupasync_1)(ExchangeFolderInfoCollection, string, BackupOptions, CancellationToken) | Backups the content of the specified folders. |
 | [CancelAppointmentAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/cancelappointmentasync)(string, string, CancellationToken) | Cancels an exiting meeting on an organizers calendar |
 | [CopyConversationItemsAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/copyconversationitemsasync)(string, string, string, CancellationToken) | Copies the conversation items, which are located in the specified folder, into the specified target folder |
 | [CopyItemAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/copyitemasync)(string, string, CancellationToken) | Copies the item to specified folder |
@@ -36,8 +36,8 @@ public interface IAsyncEwsClient : IExchangeClientBase
 | [CreateFolderAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/createfolderasync)(string, string, ExchangeFolderPermissionCollection, string, CancellationToken) | Creates the new folder |
 | [CreateItemAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/createitemasync)(MapiMessageItemBase, string, CancellationToken) | Creates the given item in the specified folder. |
 | [CreateItemsAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/createitemsasync)(IEnumerable&lt;ExchangeStreamedItem&gt;, string, CancellationToken) | Creates the specified items in the specified folder |
-| [CreatePublicFolderAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/createpublicfolderasync)(string, ExchangeFolderPermissionCollection, string, CancellationToken) | Creates the specified public folder in the root public folder |
-| [CreatePublicFolderAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/createpublicfolderasync)(string, ExchangeFolderPermissionCollection, ExchangeFolderType, string, CancellationToken) | Creates the specified public folder in the root public folder |
+| [CreatePublicFolderAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/createpublicfolderasync#createpublicfolderasync_1)(string, ExchangeFolderPermissionCollection, string, CancellationToken) | Creates the specified public folder in the root public folder |
+| [CreatePublicFolderAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/createpublicfolderasync#createpublicfolderasync)(string, ExchangeFolderPermissionCollection, ExchangeFolderType, string, CancellationToken) | Creates the specified public folder in the root public folder |
 | [CreateTaskAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/createtaskasync)(ExchangeTask, string, CancellationToken) | Creates the given task in the specified folder. |
 | [DeleteConversationItemsAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/deleteconversationitemsasync)(string, string, CancellationToken) | Deletes the conversation items, which are located in the specified folder |
 | [DeleteFolderAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/deletefolderasync)(string, bool, CancellationToken) | Deletes the folder |
@@ -69,10 +69,10 @@ public interface IAsyncEwsClient : IExchangeClientBase
 | [ListContactsAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listcontactsasync)(string, IEnumerable&lt;PropertyDescriptor&gt;, CancellationToken) | Lists contacts located in the specified folder on server. |
 | [ListItemsAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listitemsasync)(string, string, MailQuery, bool, CancellationToken) | Retrieve list of item URIes in specified folder |
 | [ListMailboxesAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listmailboxesasync)(string, CancellationToken) | Lists mailboxes having smtp addresses. Note: the maximum count of returned contacts is 100. This is a restriction of used EWS operation. |
-| [ListMessagesAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesasync)(IEnumerable&lt;string&gt;, CancellationToken) | List the messages in the specified folder. |
-| [ListMessagesAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesasync)(string, string, int, MailQuery, bool, IEnumerable&lt;PropertyDescriptor&gt;, CancellationToken) | List the messages in the specified folder. |
-| [ListMessagesByPageAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesbypageasync)(string, PageInfo, CancellationToken) | List the messages in the specified folder. |
-| [ListMessagesByPageAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesbypageasync)(string, int, int, MailQuery, CancellationToken) | List the messages in the specified folder. |
+| [ListMessagesAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesasync#listmessagesasync)(IEnumerable&lt;string&gt;, CancellationToken) | List the messages in the specified folder. |
+| [ListMessagesAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesasync#listmessagesasync_1)(string, string, int, MailQuery, bool, IEnumerable&lt;PropertyDescriptor&gt;, CancellationToken) | List the messages in the specified folder. |
+| [ListMessagesByPageAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesbypageasync#listmessagesbypageasync)(string, PageInfo, CancellationToken) | List the messages in the specified folder. |
+| [ListMessagesByPageAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesbypageasync#listmessagesbypageasync_1)(string, int, int, MailQuery, CancellationToken) | List the messages in the specified folder. |
 | [ListPublicFoldersAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listpublicfoldersasync)(CancellationToken) | Gets collection of public folders from root public folder |
 | [ListSubFoldersAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listsubfoldersasync)(string, string, CancellationToken) | Gets collection of child folders from parent |
 | [ListSubFoldersByPageAsync](../../aspose.email.clients.exchange.webservice/iasyncewsclient/listsubfoldersbypageasync)(string, PageInfo, CancellationToken) | Searches the specified folder in the given parent folder with paging Method supports paging. |

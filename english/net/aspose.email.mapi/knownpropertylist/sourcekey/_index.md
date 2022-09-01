@@ -1,7 +1,7 @@
 ---
 title: SourceKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a value that contains an internal global identifier GID for this folder or message. Area Sync Canonical name PidTagSourceKey Alternate names PR_SOURCE_KEY
 type: docs
 weight: 18100
 url: /net/aspose.email.mapi/knownpropertylist/sourcekey/

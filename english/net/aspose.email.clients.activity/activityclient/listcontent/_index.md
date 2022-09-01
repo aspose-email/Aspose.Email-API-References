@@ -6,7 +6,7 @@ type: docs
 weight: 90
 url: /net/aspose.email.clients.activity/activityclient/listcontent/
 ---
-## ActivityClient.ListContent method (1 of 2)
+## ListContent(string) {#listcontent}
 
 ```csharp
 public ContentInfo[] ListContent(string contentType)
@@ -21,7 +21,7 @@ public ContentInfo[] ListContent(string contentType)
 
 ---
 
-## ActivityClient.ListContent method (2 of 2)
+## ListContent(string, DateTime?, DateTime?) {#listcontent_1}
 
 ```csharp
 public ContentInfo[] ListContent(string contentType, DateTime? startTime, DateTime? endTime)

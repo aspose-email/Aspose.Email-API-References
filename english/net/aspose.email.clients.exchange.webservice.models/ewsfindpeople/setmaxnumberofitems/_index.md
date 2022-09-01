@@ -1,7 +1,7 @@
 ---
 title: SetMaxNumberOfItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the maximum number of items to find.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/setmaxnumberofitems/

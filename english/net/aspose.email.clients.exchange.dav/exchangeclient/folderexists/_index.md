@@ -1,12 +1,12 @@
 ---
 title: FolderExists
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Checks whether the specified folder exists.
 type: docs
 weight: 190
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/folderexists/
 ---
-## ExchangeClient.FolderExists method (1 of 2)
+## FolderExists(string, string) {#folderexists}
 
 Checks whether the specified folder exists.
 
@@ -19,7 +19,7 @@ public bool FolderExists(string parentFolderUri, string folderName)
 | parentFolderUri | String | An uri of parent folder. |
 | folderName | String | A folder name. |
 
-## Return Value
+### Return Value
 
 `true` if the specified folder exists in the specified parent folder; otherwise, `false`.
 
@@ -37,7 +37,7 @@ public bool FolderExists(string parentFolderUri, string folderName)
 
 ---
 
-## ExchangeClient.FolderExists method (2 of 2)
+## FolderExists(string, string, out ExchangeFolderInfo) {#folderexists_1}
 
 Checks whether the specified folder exists.
 
@@ -51,7 +51,7 @@ public bool FolderExists(string parentFolderUri, string folderName, out Exchange
 | folderName | String | A folder name. |
 | folder | ExchangeFolderInfo& | A [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) that represents the found folder information, if folder exists. |
 
-## Return Value
+### Return Value
 
 `true` if the specified folder exists in the specified parent folder; otherwise, `false`.
 

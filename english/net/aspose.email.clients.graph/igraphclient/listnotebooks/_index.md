@@ -1,7 +1,7 @@
 ---
 title: ListNotebooks
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieve a list of notebook objects. Permissions One of the following permissions is required to call this API. Delegated work or school account Notes.Create Notes.Read Notes.ReadWrite Notes.Read.All Notes.ReadWrite.All Delegated personal Microsoft account Notes.Create Notes.Read Notes.ReadWrite Application Notes.Read.All Notes.ReadWrite.All
 type: docs
 weight: 310
 url: /net/aspose.email.clients.graph/igraphclient/listnotebooks/
@@ -14,7 +14,7 @@ Retrieve a list of notebook objects. Permissions One of the following permission
 public NotebookCollection ListNotebooks()
 ```
 
-## Return Value
+### Return Value
 
 List of notebooks
 

@@ -1,7 +1,7 @@
 ---
 title: Certificates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the list of X509 certificates as binary large object BLOB. This element is returned by the server only if the client specifies a value of 2 in the CertificateRetrieval in the ResolveRecipients command request.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificates/

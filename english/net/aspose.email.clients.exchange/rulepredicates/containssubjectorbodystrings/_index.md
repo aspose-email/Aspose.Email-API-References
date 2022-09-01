@@ -1,7 +1,7 @@
 ---
 title: ContainsSubjectOrBodyStrings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the strings that appear in either the body or the subject of incoming messages in order for the condition or exception to apply.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange/rulepredicates/containssubjectorbodystrings/

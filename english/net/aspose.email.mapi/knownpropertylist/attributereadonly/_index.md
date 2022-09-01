@@ -1,7 +1,7 @@
 ---
 title: AttributeReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether an item can be modified or deleted. Area Access Control Properties Canonical name PidTagAttributeReadOnly Alternate names PR_ATTR_READONLY ptagAttrReadonly DAVisreadonly
 type: docs
 weight: 1840
 url: /net/aspose.email.mapi/knownpropertylist/attributereadonly/

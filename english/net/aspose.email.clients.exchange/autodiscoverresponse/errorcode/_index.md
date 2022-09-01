@@ -1,7 +1,7 @@
 ---
 title: ErrorCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the error code that was returned by the service.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/autodiscoverresponse/errorcode/

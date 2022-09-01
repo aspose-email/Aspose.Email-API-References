@@ -1,7 +1,7 @@
 ---
 title: Calendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Palette of calendar colors mapping from the color ID to its definition. An calendarListEntry resource refers to one of these color IDs in its color field.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/colorsinfo/calendar/

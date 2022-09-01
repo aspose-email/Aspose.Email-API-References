@@ -1,7 +1,7 @@
 ---
 title: FetchAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the attachment
 type: docs
 weight: 720
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchattachment/
@@ -18,7 +18,7 @@ public Attachment FetchAttachment(string attachmentUri)
 | --- | --- | --- |
 | attachmentUri | String | The attachment uri |
 
-## Return Value
+### Return Value
 
 [`Attachment`](../../../aspose.email/attachment) that represents fetched attachment
 

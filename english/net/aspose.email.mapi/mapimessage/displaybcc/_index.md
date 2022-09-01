@@ -1,7 +1,7 @@
 ---
 title: DisplayBcc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a list of the display names of any blind carbon copy BCC message recipients separated by semicolons .
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapimessage/displaybcc/
@@ -14,7 +14,7 @@ Gets a list of the display names of any blind carbon copy (BCC) message recipien
 public string DisplayBcc { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents display bcc.
 

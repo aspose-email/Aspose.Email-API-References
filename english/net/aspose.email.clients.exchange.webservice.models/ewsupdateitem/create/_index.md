@@ -1,12 +1,12 @@
 ---
 title: Create
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes the UpdateItemAsyncaspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync methods parameter set with MapiTask item.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice.models/ewsupdateitem/create/
 ---
-## EwsUpdateItem.Create method (1 of 4)
+## Create(MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) {#create_3}
 
 Initializes the [`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) method's parameter set with MapiTask item.
 
@@ -30,7 +30,7 @@ public static EwsUpdateItem Create(MapiTask item,
 
 ---
 
-## EwsUpdateItem.Create method (2 of 4)
+## Create(MapiContact) {#create_1}
 
 Initializes the [`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) method's parameter set with MapiContact item.
 
@@ -51,7 +51,7 @@ public static EwsUpdateItem Create(MapiContact item)
 
 ---
 
-## EwsUpdateItem.Create method (3 of 4)
+## Create(MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) {#create_2}
 
 Initializes the [`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) method's parameter set with MapiNote item.
 
@@ -75,7 +75,7 @@ public static EwsUpdateItem Create(MapiNote item,
 
 ---
 
-## EwsUpdateItem.Create method (4 of 4)
+## Create(MapiCalendar, string) {#create}
 
 Initializes the [`UpdateItemAsync`](../../../aspose.email.clients.exchange.webservice/iasyncewsclient/updateitemasync) method's parameter set with MapiCalendar item.
 

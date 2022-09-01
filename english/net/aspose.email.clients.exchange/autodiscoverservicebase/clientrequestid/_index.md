@@ -1,7 +1,7 @@
 ---
 title: ClientRequestId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the request id for the request.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/clientrequestid/

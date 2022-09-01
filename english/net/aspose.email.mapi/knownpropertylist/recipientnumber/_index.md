@@ -1,7 +1,7 @@
 ---
 title: RecipientNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_RECIPIENT_NUMBER
 type: docs
 weight: 15440
 url: /net/aspose.email.mapi/knownpropertylist/recipientnumber/

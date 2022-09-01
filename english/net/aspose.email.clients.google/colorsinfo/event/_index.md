@@ -1,7 +1,7 @@
 ---
 title: Event
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Palette of event colors mapping from the color ID to its definition. An event resource may refer to one of these color IDs in its color field.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/colorsinfo/event/

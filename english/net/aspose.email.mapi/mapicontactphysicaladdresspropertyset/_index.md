@@ -1,9 +1,9 @@
 ---
 title: MapiContactPhysicalAddressPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify three physical addresses Home Address Work Address and Other Address. One of the addresses can be marked as the Mailing Address
 type: docs
-weight: 18110
+weight: 18320
 url: /net/aspose.email.mapi/mapicontactphysicaladdresspropertyset/
 ---
 ## MapiContactPhysicalAddressPropertySet class
@@ -18,8 +18,8 @@ public sealed class MapiContactPhysicalAddressPropertySet
 
 | Name | Description |
 | --- | --- |
-| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset)() | Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) class |
-| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) class |
+| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor)() | Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) class |
+| [MapiContactPhysicalAddressPropertySet](mapicontactphysicaladdresspropertyset#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactPhysicalAddressPropertySet`](../mapicontactphysicaladdresspropertyset) class |
 
 ## Properties
 

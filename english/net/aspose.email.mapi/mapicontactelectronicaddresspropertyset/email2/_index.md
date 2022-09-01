@@ -1,7 +1,7 @@
 ---
 title: Email2
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Refers to the group of properties that define the second email address for a contact.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/email2/

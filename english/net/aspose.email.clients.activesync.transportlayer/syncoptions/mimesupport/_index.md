@@ -1,7 +1,7 @@
 ---
 title: MIMESupport
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enables MIME support for email items that are sent from the server to the client.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/syncoptions/mimesupport/

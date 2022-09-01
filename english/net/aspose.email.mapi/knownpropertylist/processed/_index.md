@@ -1,7 +1,7 @@
 ---
 title: Processed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether a client has already processed a received task communication. Area Calendar Canonical name PidTagProcessed Alternate names PR_PROCESSED
 type: docs
 weight: 14630
 url: /net/aspose.email.mapi/knownpropertylist/processed/

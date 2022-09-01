@@ -1,7 +1,7 @@
 ---
 title: EndType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies how the recurrence rule ends.
 type: docs
 weight: 730
 url: /net/aspose.email.calendar.recurrences/endtype/
@@ -14,7 +14,7 @@ Specifies how the recurrence rule ends.
 public enum EndType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

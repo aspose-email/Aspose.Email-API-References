@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the settings for a policy. Used in the Policy responses only. It is not present in responses to acknowledgment requests.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/provisionpolicy/data/

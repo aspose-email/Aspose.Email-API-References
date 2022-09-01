@@ -1,9 +1,9 @@
 ---
 title: Recipient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a Recipient for a MapiMailMessage.
 type: docs
-weight: 20740
+weight: 20970
 url: /net/aspose.email.windows.forms/recipient/
 ---
 ## Recipient class
@@ -18,10 +18,10 @@ public class Recipient
 
 | Name | Description |
 | --- | --- |
-| [Recipient](recipient)(string) | Creates a new recipient with the specified address. |
-| [Recipient](recipient)(string, RecipientType) | Creates a new recipient with the specified address and recipient type. |
-| [Recipient](recipient)(string, string) | Creates a new recipient with the specified address and display name. |
-| [Recipient](recipient)(string, string, RecipientType) | Creates a new recipient with the specified address, display name and recipient type. |
+| [Recipient](recipient#constructor)(string) | Creates a new recipient with the specified address. |
+| [Recipient](recipient#constructor_1)(string, RecipientType) | Creates a new recipient with the specified address and recipient type. |
+| [Recipient](recipient#constructor_2)(string, string) | Creates a new recipient with the specified address and display name. |
+| [Recipient](recipient#constructor_3)(string, string, RecipientType) | Creates a new recipient with the specified address, display name and recipient type. |
 
 ## Properties
 

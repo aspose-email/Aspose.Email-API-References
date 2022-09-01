@@ -1,7 +1,7 @@
 ---
 title: Preview
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the Unicode plain text message or message part preview returned to the client.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/body/preview/

@@ -1,7 +1,7 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implicit conversion operation from RangeSeqSetaspose.email.clients.imap/rangeseqset to String
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/rangeseqset/op_implicit/
@@ -18,7 +18,7 @@ public static implicit operator string(RangeSeqSet range)
 | --- | --- | --- |
 | range | RangeSeqSet | Object to convert |
 
-## Return Value
+### Return Value
 
 Returns string representation of converted object.
 

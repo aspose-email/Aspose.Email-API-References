@@ -1,7 +1,7 @@
 ---
 title: Keys
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a System.Collections.Generic.ICollectionltlonggt containing the keys in the collection.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapipropertycollection/keys/

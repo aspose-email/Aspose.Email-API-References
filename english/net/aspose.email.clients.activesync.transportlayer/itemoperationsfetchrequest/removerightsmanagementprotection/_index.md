@@ -1,7 +1,7 @@
 ---
 title: RemoveRightsManagementProtection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: If present or true it indicates that the client is removing the IRM protection from the email. IRM protection can only be removed from email messages when the ExportAllowed element is set to TRUE.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/removerightsmanagementprotection/

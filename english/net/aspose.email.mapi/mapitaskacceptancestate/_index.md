@@ -1,9 +1,9 @@
 ---
 title: MapiTaskAcceptanceState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the acceptance state of the task.
 type: docs
-weight: 18480
+weight: 18690
 url: /net/aspose.email.mapi/mapitaskacceptancestate/
 ---
 ## MapiTaskAcceptanceState enumeration
@@ -14,7 +14,7 @@ Indicates the acceptance state of the task.
 public enum MapiTaskAcceptanceState
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Collections
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains list of objects with commands and options that apply to a particular collection.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/syncrequest/collections/

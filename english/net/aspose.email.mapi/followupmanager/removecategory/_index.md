@@ -1,7 +1,7 @@
 ---
 title: RemoveCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes the category.
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/followupmanager/removecategory/

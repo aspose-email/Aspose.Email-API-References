@@ -1,12 +1,12 @@
 ---
 title: CopyConversationItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copies the conversation items into the specified target folder
 type: docs
 weight: 440
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/copyconversationitems/
 ---
-## IEWSClient.CopyConversationItems method (1 of 2)
+## CopyConversationItems(string, string) {#copyconversationitems}
 
 Copies the conversation items into the specified target folder
 
@@ -34,7 +34,7 @@ public void CopyConversationItems(string conversationId, string destinationFolde
 
 ---
 
-## IEWSClient.CopyConversationItems method (2 of 2)
+## CopyConversationItems(string, string, string) {#copyconversationitems_1}
 
 Copies the conversation items, which are located in the specified folder, into the specified target folder
 

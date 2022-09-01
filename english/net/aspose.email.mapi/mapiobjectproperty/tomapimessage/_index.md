@@ -1,7 +1,7 @@
 ---
 title: ToMapiMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the MapiMessage from object data.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapiobjectproperty/tomapimessage/
@@ -14,7 +14,7 @@ Creates the MapiMessage from object data.
 public MapiMessage ToMapiMessage()
 ```
 
-## Return Value
+### Return Value
 
 The resultant [`MapiMessage`](../../mapimessage).
 

@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implements the operator .
 type: docs
 weight: 150
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/op_inequality/
@@ -19,7 +19,7 @@ public static bool operator !=(CalendarRecurrence left, CalendarRecurrence right
 | left | CalendarRecurrence | The left. |
 | right | CalendarRecurrence | The right. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 

@@ -1,7 +1,7 @@
 ---
 title: Oof
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a request for retrieving and setting Out of Office OOF information.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/settingsrequest/oof/

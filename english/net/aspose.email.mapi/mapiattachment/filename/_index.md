@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an attachments base filename and extension excluding path.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapiattachment/filename/
@@ -14,7 +14,7 @@ Gets an attachment's base filename and extension, excluding path.
 public string FileName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The file name.
 

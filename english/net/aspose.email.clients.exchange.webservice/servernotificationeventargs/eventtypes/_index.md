@@ -1,7 +1,7 @@
 ---
 title: EventTypes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event type
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/servernotificationeventargs/eventtypes/

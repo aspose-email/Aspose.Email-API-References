@@ -1,7 +1,7 @@
 ---
 title: SmartReply
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The SmartReply command is used by clients to reply to messages without retrieving the full original message from the server.
 type: docs
 weight: 230
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/smartreply/

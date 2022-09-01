@@ -1,7 +1,7 @@
 ---
 title: TemplateID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Template identifier
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/templateid/

@@ -1,7 +1,7 @@
 ---
 title: IBaseActiveSyncTLClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Base ActiveSync client interface
 type: docs
 weight: 1320
 url: /net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/

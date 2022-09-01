@@ -1,7 +1,7 @@
 ---
 title: EnumerateMessagesEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the entryID of messages.
 type: docs
 weight: 270
 url: /net/aspose.email.storage.pst/folderinfo/enumeratemessagesentryid/
@@ -14,7 +14,7 @@ Enumerates the entryID of messages.
 public IEnumerable<string> EnumerateMessagesEntryId()
 ```
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through entryID of messages in folder.
 

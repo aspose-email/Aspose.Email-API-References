@@ -1,7 +1,7 @@
 ---
 title: DefaultPort
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets default port for client
 type: docs
 weight: 30
 url: /net/aspose.email.clients.pop3/pop3client/defaultport/

@@ -1,7 +1,7 @@
 ---
 title: ToHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents html version of component.
 type: docs
 weight: 70
 url: /net/aspose.email.amp/ampfittext/tohtml/

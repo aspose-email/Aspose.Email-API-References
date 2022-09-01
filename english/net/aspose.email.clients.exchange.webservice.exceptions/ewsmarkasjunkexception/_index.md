@@ -1,7 +1,7 @@
 ---
 title: EwsMarkAsJunkException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: MarkAsJunk failed exception
 type: docs
 weight: 3710
 url: /net/aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/

@@ -1,7 +1,7 @@
 ---
 title: SyncFetchResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Requests the application data of an item that was truncated in a synchronization response from the server.
 type: docs
 weight: 2240
 url: /net/aspose.email.clients.activesync.transportlayer/syncfetchresponse/

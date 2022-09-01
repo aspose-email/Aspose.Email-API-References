@@ -1,7 +1,7 @@
 ---
 title: IsShared
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the notebook is shared. If true the contents of the notebook can be seen by people other than the owner. Readonly.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.graph/notebook/isshared/

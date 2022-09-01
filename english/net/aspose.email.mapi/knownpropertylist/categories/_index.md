@@ -1,7 +1,7 @@
 ---
 title: Categories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the array of text labels assigned to this Message object. Area Common Canonical name PidLidCategories Alternate names dispidCategories
 type: docs
 weight: 2510
 url: /net/aspose.email.mapi/knownpropertylist/categories/

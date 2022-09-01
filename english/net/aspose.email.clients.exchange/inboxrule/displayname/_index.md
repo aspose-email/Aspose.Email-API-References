@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the display name of a rule.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange/inboxrule/displayname/

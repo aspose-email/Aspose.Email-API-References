@@ -1,7 +1,7 @@
 ---
 title: Hobbies
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the hobbies of the contact
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/hobbies/

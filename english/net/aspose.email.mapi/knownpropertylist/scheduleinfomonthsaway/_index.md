@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoMonthsAway
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the months for which free/busy data of type OOF is present in the free/busy message. Area Free/Busy Properties Canonical name PidTagScheduleInfoMonthsAway Alternate names PR_SCHDINFO_MONTHS_OOF
 type: docs
 weight: 16860
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfomonthsaway/

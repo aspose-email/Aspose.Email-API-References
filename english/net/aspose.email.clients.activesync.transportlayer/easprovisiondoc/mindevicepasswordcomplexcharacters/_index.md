@@ -1,7 +1,7 @@
 ---
 title: MinDevicePasswordComplexCharacters
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the required level of complexity of the client password. The value specifies the number of character groups that are required to be present in the password. The character groups are defined as Lower case alphabetical characters  1 Lower case and Upper case alphabetical characters  2 Lower case Upper case alphabetical characters and Numbers  3 Lower case and Upper case alphabetical characters Numbers and Nonalphanumeric characters  4 For example If the value of MinDevicePasswordComplexCharacters is 2 a password with both upper case and lower case alphabetical characters would be sufficient as would a password with lower case alphabetical characters and numbers.
 type: docs
 weight: 330
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/mindevicepasswordcomplexcharacters/

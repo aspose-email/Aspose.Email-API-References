@@ -1,12 +1,12 @@
 ---
 title: AppendMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Uploads the mail message to the specified folder
 type: docs
 weight: 370
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/appendmessage/
 ---
-## IEWSClient.AppendMessage method (1 of 5)
+## AppendMessage(MapiMessage) {#appendmessage_1}
 
 Uploads the mail message to the specified folder
 
@@ -18,7 +18,7 @@ public string AppendMessage(MapiMessage mapiMessage)
 | --- | --- | --- |
 | mapiMessage | MapiMessage | A message to upload |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -31,7 +31,7 @@ An uri of created message
 
 ---
 
-## IEWSClient.AppendMessage method (2 of 5)
+## AppendMessage(MapiMessage, bool) {#appendmessage_2}
 
 Uploads the mail message to the specified folder
 
@@ -44,7 +44,7 @@ public string AppendMessage(MapiMessage mapiMessage, bool markAsSent)
 | mapiMessage | MapiMessage | A message to upload |
 | markAsSent | Boolean | A value indicating whether the message should be appended as a sent message or a draft. |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -57,7 +57,7 @@ An uri of created message
 
 ---
 
-## IEWSClient.AppendMessage method (3 of 5)
+## AppendMessage(string, MapiMessage, bool) {#appendmessage_5}
 
 Uploads the mail message to the specified folder
 
@@ -71,7 +71,7 @@ public string AppendMessage(string folderUri, MapiMessage mapiMessage, bool mark
 | mapiMessage | MapiMessage | A message to upload |
 | markAsSent | Boolean | A value indicating whether the message should be appended as a sent message or a draft. |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -91,7 +91,7 @@ An uri of created message
 
 ---
 
-## IEWSClient.AppendMessage method (4 of 5)
+## AppendMessage(MailMessage) {#appendmessage}
 
 Uploads the mail message to the Inbox folder
 
@@ -103,7 +103,7 @@ public string AppendMessage(MailMessage message)
 | --- | --- | --- |
 | message | MailMessage | A message to upload |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -116,7 +116,7 @@ An uri of created message
 
 ---
 
-## IEWSClient.AppendMessage method (5 of 5)
+## AppendMessage(string, MailMessage) {#appendmessage_3}
 
 Uploads the mail message to the specified folder
 
@@ -129,7 +129,7 @@ public string AppendMessage(string folderUri, MailMessage message)
 | folderUri | String | A folder URI to which message is uploaded. |
 | message | MailMessage | A message to upload |
 
-## Return Value
+### Return Value
 
 An uri of created message
 

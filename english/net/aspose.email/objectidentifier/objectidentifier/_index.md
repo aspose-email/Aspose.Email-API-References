@@ -1,7 +1,7 @@
 ---
 title: ObjectIdentifier
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of the ObjectIdentifieraspose.email/objectidentifier class.
 type: docs
 weight: 10
 url: /net/aspose.email/objectidentifier/objectidentifier/

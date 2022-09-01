@@ -1,7 +1,7 @@
 ---
 title: GovernmentIdNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a government identifier for the mail user. Area MapiMailUser Canonical name PidTagGovernmentIdNumber Alternate names PR_GOVERNMENT_ID_NUMBER PR_GOVERNMENT_ID_NUMBER_A
 type: docs
 weight: 10800
 url: /net/aspose.email.mapi/knownpropertylist/governmentidnumber/

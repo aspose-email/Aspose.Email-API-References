@@ -1,7 +1,7 @@
 ---
 title: Username
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Username for proxy authentication
 type: docs
 weight: 40
 url: /net/aspose.email.clients/proxy/username/

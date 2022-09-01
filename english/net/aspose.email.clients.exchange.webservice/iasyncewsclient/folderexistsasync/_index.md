@@ -1,7 +1,7 @@
 ---
 title: FolderExistsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Checks whether the specified folder exists.
 type: docs
 weight: 310
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/folderexistsasync/
@@ -21,7 +21,7 @@ public Task<bool> FolderExistsAsync(string parentFolderUri, string folderName,
 | folderName | String | A folder name. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 `true` if the specified folder exists in the specified parent folder; otherwise, `false`.
 

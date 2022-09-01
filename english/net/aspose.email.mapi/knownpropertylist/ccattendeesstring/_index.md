@@ -1,7 +1,7 @@
 ---
 title: CcAttendeesString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of all the sendable attendees who are also optional attendees. Area Meetings Canonical name PidLidCcAttendeesString Alternate names dispidCCAttendeesString
 type: docs
 weight: 2530
 url: /net/aspose.email.mapi/knownpropertylist/ccattendeesstring/

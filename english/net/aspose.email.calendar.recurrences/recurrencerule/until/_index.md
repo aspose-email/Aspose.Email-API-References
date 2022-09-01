@@ -1,7 +1,7 @@
 ---
 title: Until
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the until.
 type: docs
 weight: 160
 url: /net/aspose.email.calendar.recurrences/recurrencerule/until/
@@ -14,7 +14,7 @@ Gets or sets the until.
 public DateTime Until { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The until.
 

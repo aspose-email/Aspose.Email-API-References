@@ -1,7 +1,7 @@
 ---
 title: ReminderTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the initial signal time for objects that are not Calendar objects. Area Reminders Canonical name PidLidReminderTime Alternate names dispidReminderTime
 type: docs
 weight: 15740
 url: /net/aspose.email.mapi/knownpropertylist/remindertime/

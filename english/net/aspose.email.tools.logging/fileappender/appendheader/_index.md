@@ -1,7 +1,7 @@
 ---
 title: AppendHeader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Starts log file with specific header.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.logging/fileappender/appendheader/

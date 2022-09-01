@@ -1,7 +1,7 @@
 ---
 title: EstimatedDataSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies an informational estimate of the size of the data associated with the parent element. The EstimatedDataSize element SHOULD be presented whenever the Truncated element is set to TRUE
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/body/estimateddatasize/

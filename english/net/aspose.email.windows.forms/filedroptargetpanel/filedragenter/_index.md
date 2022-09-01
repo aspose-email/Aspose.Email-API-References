@@ -1,7 +1,7 @@
 ---
 title: FileDragEnter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when file drag enter.
 type: docs
 weight: 40
 url: /net/aspose.email.windows.forms/filedroptargetpanel/filedragenter/

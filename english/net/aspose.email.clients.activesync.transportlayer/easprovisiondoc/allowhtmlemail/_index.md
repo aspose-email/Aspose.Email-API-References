@@ -1,7 +1,7 @@
 ---
 title: AllowHTMLEmail
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the client uses HTMLformatted email.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowhtmlemail/

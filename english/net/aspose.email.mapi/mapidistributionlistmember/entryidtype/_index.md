@@ -1,7 +1,7 @@
 ---
 title: EntryIdType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the type of EntryID.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapidistributionlistmember/entryidtype/
@@ -14,7 +14,7 @@ Gets or sets the type of EntryID.
 public MapiDistributionListEntryIdType EntryIdType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the entry id.
 

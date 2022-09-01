@@ -1,9 +1,9 @@
 ---
 title: ExceptionManager.IgnoreExceptionsCallback
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Ignore Exceptions callback.
 type: docs
-weight: 17170
+weight: 17340
 url: /net/aspose.email.exceptions/exceptionmanager.ignoreexceptionscallback/
 ---
 ## ExceptionManager.IgnoreExceptionsCallback delegate

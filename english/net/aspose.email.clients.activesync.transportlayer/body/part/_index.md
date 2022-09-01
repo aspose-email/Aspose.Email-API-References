@@ -1,7 +1,7 @@
 ---
 title: Part
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an integer index into the metadata of the multipart response. This property MUST be present in multipart responses. This property MUST NOT be present in requests or nonmultipart responses.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/body/part/

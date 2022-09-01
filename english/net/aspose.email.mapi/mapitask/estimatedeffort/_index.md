@@ -1,7 +1,7 @@
 ---
 title: EstimatedEffort
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the number of minutes that the user expects to work on a task.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapitask/estimatedeffort/

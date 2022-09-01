@@ -1,7 +1,7 @@
 ---
 title: StartDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the start date.
 type: docs
 weight: 90
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/startdate/
@@ -14,7 +14,7 @@ Gets or sets the start date.
 public DateTime StartDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The start date.
 

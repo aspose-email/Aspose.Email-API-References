@@ -1,7 +1,7 @@
 ---
 title: SubStorages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the sub storages.
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapiattachment/substorages/
@@ -14,7 +14,7 @@ Gets the sub storages.
 public MapiPropertyCollection SubStorages { get; }
 ```
 
-## Property Value
+### Property Value
 
 The sub storages.
 

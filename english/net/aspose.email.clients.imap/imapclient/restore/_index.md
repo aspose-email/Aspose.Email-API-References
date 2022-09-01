@@ -1,7 +1,7 @@
 ---
 title: Restore
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Begins to restore imap folders from the given personal storage.
 type: docs
 weight: 1050
 url: /net/aspose.email.clients.imap/imapclient/restore/

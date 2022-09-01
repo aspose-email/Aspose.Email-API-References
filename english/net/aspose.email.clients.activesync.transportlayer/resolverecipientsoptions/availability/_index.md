@@ -1,7 +1,7 @@
 ---
 title: Availability
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates to the server that free/busy data is being requested by the client and identifies the start time and end time of the free/busy data to retrieve. When the Availability is included in a ResolveRecipients request the server retrieves free/busy information for the users identified in the To elements included in the request and returns the free/busy information in the MergedFreeBusy in the response. If the Availability element is included in the ResolveRecipients request the request MUST also include a valid StartTime value and EndTime value. When the server parses the request the server first resolves the recipients identified by the To elements and then determines the users free/busy information for the specified time span before returning the free/busy data in the MergedFreeBusy.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/availability/

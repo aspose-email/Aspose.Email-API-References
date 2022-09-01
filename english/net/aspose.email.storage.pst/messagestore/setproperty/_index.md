@@ -1,7 +1,7 @@
 ---
 title: SetProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the property.
 type: docs
 weight: 70
 url: /net/aspose.email.storage.pst/messagestore/setproperty/

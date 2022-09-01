@@ -1,7 +1,7 @@
 ---
 title: LoginStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets login status Mandatory Yes
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/record/loginstatus/

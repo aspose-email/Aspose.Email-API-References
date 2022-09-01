@@ -1,7 +1,7 @@
 ---
 title: Recent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Message is recently arrived in this mailbox.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.imap/imapmessageflags/recent/

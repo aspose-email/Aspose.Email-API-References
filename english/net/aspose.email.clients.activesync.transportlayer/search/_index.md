@@ -1,7 +1,7 @@
 ---
 title: Search
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search namespace of the ActiveSync protocol
 type: docs
 weight: 1930
 url: /net/aspose.email.clients.activesync.transportlayer/search/
@@ -14,7 +14,7 @@ Search namespace of the ActiveSync protocol
 public enum Search
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: WriteXml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts an object into its XML representation. Not implemented for the ExchangeAdvancedMailQuery class.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/writexml/

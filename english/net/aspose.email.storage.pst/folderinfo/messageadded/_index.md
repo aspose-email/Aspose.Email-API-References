@@ -1,7 +1,7 @@
 ---
 title: MessageAdded
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when a message is added to the current folder.
 type: docs
 weight: 120
 url: /net/aspose.email.storage.pst/folderinfo/messageadded/

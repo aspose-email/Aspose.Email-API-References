@@ -1,7 +1,7 @@
 ---
 title: InReplyTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reference to message which this message is a reply to.
 type: docs
 weight: 130
 url: /net/aspose.email/headertype/inreplyto/

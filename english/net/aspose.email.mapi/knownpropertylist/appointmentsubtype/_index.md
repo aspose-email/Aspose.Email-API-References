@@ -1,7 +1,7 @@
 ---
 title: AppointmentSubType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the event is an allday event. Area Calendar Canonical name PidLidAppointmentSubType Alternate names dispidApptSubType
 type: docs
 weight: 1340
 url: /net/aspose.email.mapi/knownpropertylist/appointmentsubtype/

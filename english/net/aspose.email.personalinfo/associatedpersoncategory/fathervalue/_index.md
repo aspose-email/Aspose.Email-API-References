@@ -1,7 +1,7 @@
 ---
 title: FatherValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Father category
 type: docs
 weight: 270
 url: /net/aspose.email.personalinfo/associatedpersoncategory/fathervalue/

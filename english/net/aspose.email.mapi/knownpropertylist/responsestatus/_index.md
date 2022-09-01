@@ -1,7 +1,7 @@
 ---
 title: ResponseStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the response status of an attendee. Area Meetings Canonical name PidLidResponseStatus Alternate names dispidResponseStatus
 type: docs
 weight: 16200
 url: /net/aspose.email.mapi/knownpropertylist/responsestatus/

@@ -1,12 +1,12 @@
 ---
 title: GetInstance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets instance of Gmail client
 type: docs
 weight: 80
 url: /net/aspose.email.clients.google/gmailclient/getinstance/
 ---
-## GmailClient.GetInstance method (1 of 4)
+## GetInstance(string, string) {#getinstance_1}
 
 Gets instance of Gmail client
 
@@ -19,7 +19,7 @@ public static IGmailClient GetInstance(string accessToken, string defaultEmail)
 | accessToken | String | OAuth 2.0 access token |
 | defaultEmail | String | Default email address |
 
-## Return Value
+### Return Value
 
 Returns instance of Gmail client
 
@@ -32,7 +32,7 @@ Returns instance of Gmail client
 
 ---
 
-## GmailClient.GetInstance method (2 of 4)
+## GetInstance(string, IWebProxy, string) {#getinstance}
 
 Gets instance of Gmail client
 
@@ -46,7 +46,7 @@ public static IGmailClient GetInstance(string accessToken, IWebProxy proxy, stri
 | proxy | IWebProxy | IWebProxy for Gmail client |
 | defaultEmail | String | Default email address |
 
-## Return Value
+### Return Value
 
 Returns instance of Gmail client
 
@@ -59,7 +59,7 @@ Returns instance of Gmail client
 
 ---
 
-## GmailClient.GetInstance method (3 of 4)
+## GetInstance(string, string, string, string) {#getinstance_3}
 
 Gets instance of Gmail client
 
@@ -75,7 +75,7 @@ public static IGmailClient GetInstance(string clientId, string clientSecret, str
 | refreshToken | String | OAuth 2.0 refresh token |
 | defaultEmail | String | Default email address |
 
-## Return Value
+### Return Value
 
 Returns instance of Gmail client
 
@@ -88,7 +88,7 @@ Returns instance of Gmail client
 
 ---
 
-## GmailClient.GetInstance method (4 of 4)
+## GetInstance(string, string, string, IWebProxy, string) {#getinstance_2}
 
 Gets instance of Gmail client
 
@@ -105,7 +105,7 @@ public static IGmailClient GetInstance(string clientId, string clientSecret, str
 | proxy | IWebProxy | IWebProxy for Gmail client |
 | defaultEmail | String | Default email address |
 
-## Return Value
+### Return Value
 
 Returns instance of Gmail client
 

@@ -1,7 +1,7 @@
 ---
 title: ItOpFetchOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the options for the ItemOperations.Fetch operation.
 type: docs
 weight: 1340
 url: /net/aspose.email.clients.activesync.transportlayer/itopfetchoptions/

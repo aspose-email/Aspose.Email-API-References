@@ -1,7 +1,7 @@
 ---
 title: Home
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Home phone number
 type: docs
 weight: 80
 url: /net/aspose.email.personalinfo/phonenumbercategory/home/

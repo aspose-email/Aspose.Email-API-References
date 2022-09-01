@@ -1,12 +1,12 @@
 ---
 title: ObjectDisposedException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ObjectDisposedException class.
 type: docs
 weight: 10
 url: /net/aspose.email.exceptions/objectdisposedexception/objectdisposedexception/
 ---
-## ObjectDisposedException constructor (1 of 4)
+## ObjectDisposedException() {#constructor}
 
 Initializes a new instance of the ObjectDisposedException class.
 
@@ -22,7 +22,7 @@ public ObjectDisposedException()
 
 ---
 
-## ObjectDisposedException constructor (2 of 4)
+## ObjectDisposedException(string) {#constructor_1}
 
 Initializes a new instance of the ObjectDisposedException class with a specified error message.
 
@@ -42,7 +42,7 @@ public ObjectDisposedException(string message)
 
 ---
 
-## ObjectDisposedException constructor (3 of 4)
+## ObjectDisposedException(string, params object[]) {#constructor_3}
 
 Initializes a new instance of the ObjectDisposedException class with a specified error message.
 
@@ -63,7 +63,7 @@ public ObjectDisposedException(string format, params object[] parameters)
 
 ---
 
-## ObjectDisposedException constructor (4 of 4)
+## ObjectDisposedException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the ObjectDisposedException class with a specified error message and a reference to the inner exception that is the cause of this exception.
 

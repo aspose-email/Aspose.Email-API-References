@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Not equel operation is defined
 type: docs
 weight: 90
 url: /net/aspose.email.clients.imap/esearchoptions/op_inequality/

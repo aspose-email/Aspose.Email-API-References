@@ -1,7 +1,7 @@
 ---
 title: FolderClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the content class of the folder to be monitored.
 type: docs
 weight: 1240
 url: /net/aspose.email.clients.activesync.transportlayer/folderclass/
@@ -14,7 +14,7 @@ Specifies the content class of the folder to be monitored.
 public enum FolderClass
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

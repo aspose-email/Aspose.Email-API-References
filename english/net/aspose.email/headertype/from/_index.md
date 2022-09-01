@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This field contains the identity of the persons who wished this message to be sent. The messagecreation process should default this field to be a single authenticated machine address indicating the AGENT person system or process composing the message. If this is not done the Sender field MUST be present. If the From field IS defaulted this way the Sender field is optional and is redundant with the From field. Example From Mr. Some One someonesomedomain.com
 type: docs
 weight: 110
 url: /net/aspose.email/headertype/from/

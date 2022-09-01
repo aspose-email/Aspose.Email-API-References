@@ -1,7 +1,7 @@
 ---
 title: NotificationType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The type of notification.
 type: docs
 weight: 15810
 url: /net/aspose.email.clients.google/notificationtype/
@@ -14,7 +14,7 @@ The type of notification.
 public enum NotificationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

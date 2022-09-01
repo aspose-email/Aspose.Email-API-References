@@ -1,7 +1,7 @@
 ---
 title: op_Explicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts tag value to tagged property
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/pidtagpropertydescriptor/op_explicit/

@@ -1,7 +1,7 @@
 ---
 title: XSenderTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the telephone number of the caller associated with a voice mail message. Area Unified Messaging Canonical name PidNameXSenderTelephoneNumber Alternate names
 type: docs
 weight: 19700
 url: /net/aspose.email.mapi/knownpropertylist/xsendertelephonenumber/

@@ -1,7 +1,7 @@
 ---
 title: Prefered
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value which defines whether email address is preferred.
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/emailaddress/prefered/

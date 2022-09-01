@@ -1,7 +1,7 @@
 ---
 title: OsVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Version of the operating system
 type: docs
 weight: 100
 url: /net/aspose.email.clients.imap/imapidentificationinfo/osversion/

@@ -1,7 +1,7 @@
 ---
 title: MessageID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Unique ID of this message. Defined In RFC 822 4.6.1 RFC 1036 2.1.5.
 type: docs
 weight: 140
 url: /net/aspose.email/headertype/messageid/

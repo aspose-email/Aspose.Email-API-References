@@ -1,7 +1,7 @@
 ---
 title: EditItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a client can edit items.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/exchangebasepermission/edititems/

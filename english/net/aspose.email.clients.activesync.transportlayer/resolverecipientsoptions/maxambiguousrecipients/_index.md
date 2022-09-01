@@ -1,7 +1,7 @@
 ---
 title: MaxAmbiguousRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Limits the number of suggestions that are returned for each ambiguous recipient node in the response. The value of the MaxAmbiguousRecipients is limited to a range of 09999. Each ambiguous recipient node receives only this many suggestions and no more. The recipient count returned in the RecipientCount can be used by the client to determine the total number of suggestions available for that recipient.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/maxambiguousrecipients/

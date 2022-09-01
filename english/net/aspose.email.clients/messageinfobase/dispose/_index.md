@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Performs tasks associated with freeing releasing or resetting unmanaged resources.
 type: docs
 weight: 150
 url: /net/aspose.email.clients/messageinfobase/dispose/

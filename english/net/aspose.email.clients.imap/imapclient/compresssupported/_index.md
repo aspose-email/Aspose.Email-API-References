@@ -1,7 +1,7 @@
 ---
 title: CompressSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether COMPRESS extension is supported See more https//tools.ietf.org/html/rfc4978
 type: docs
 weight: 70
 url: /net/aspose.email.clients.imap/imapclient/compresssupported/

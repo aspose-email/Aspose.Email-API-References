@@ -1,7 +1,7 @@
 ---
 title: ExtractedContacts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an XML document with a single ContactSet element. Area Extracted Entities Canonical name PidNameExtractedContacts Alternate names dispidXmlExtractedContacts
 type: docs
 weight: 10050
 url: /net/aspose.email.mapi/knownpropertylist/extractedcontacts/

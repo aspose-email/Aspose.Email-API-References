@@ -1,7 +1,7 @@
 ---
 title: BySecond
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the by second.
 type: docs
 weight: 70
 url: /net/aspose.email.calendar.recurrences/recurrencerule/bysecond/
@@ -14,7 +14,7 @@ Gets the by second.
 public ByNumberCollection BySecond { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by second.
 

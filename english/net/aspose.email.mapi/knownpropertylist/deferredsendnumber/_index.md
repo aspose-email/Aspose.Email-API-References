@@ -1,7 +1,7 @@
 ---
 title: DeferredSendNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a number used in the calculation of how long to defer sending a message. Area MapiStatus Canonical name PidTagDeferredSendNumber Alternate names PR_DEFERRED_SEND_NUMBER
 type: docs
 weight: 3790
 url: /net/aspose.email.mapi/knownpropertylist/deferredsendnumber/

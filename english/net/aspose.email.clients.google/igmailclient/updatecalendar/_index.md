@@ -1,12 +1,12 @@
 ---
 title: UpdateCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates a calendar
 type: docs
 weight: 320
 url: /net/aspose.email.clients.google/igmailclient/updatecalendar/
 ---
-## IGmailClient.UpdateCalendar method (1 of 2)
+## UpdateCalendar(Calendar) {#updatecalendar}
 
 Updates a calendar
 
@@ -27,7 +27,7 @@ public void UpdateCalendar(Calendar calendar)
 
 ---
 
-## IGmailClient.UpdateCalendar method (2 of 2)
+## UpdateCalendar(Calendar, bool) {#updatecalendar_1}
 
 Updates a calendar
 

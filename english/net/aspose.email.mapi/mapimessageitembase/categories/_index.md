@@ -1,7 +1,7 @@
 ---
 title: Categories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains keywords or categories for the message object.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapimessageitembase/categories/

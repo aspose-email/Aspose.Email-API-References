@@ -1,7 +1,7 @@
 ---
 title: UserId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets UPN User Principal Name of the user who performed the action specified in the Operation property that resulted in the record being logged for example my_namemy_domain_name. Note that records for activity performed by system accounts such as SHAREPOINTsystem or NT AUTHORITYSYSTEM are also included. Mandatory Yes
 type: docs
 weight: 150
 url: /net/aspose.email.clients.activity/record/userid/

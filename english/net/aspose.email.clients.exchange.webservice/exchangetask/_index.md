@@ -1,7 +1,7 @@
 ---
 title: ExchangeTask
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exchange task information.
 type: docs
 weight: 3830
 url: /net/aspose.email.clients.exchange.webservice/exchangetask/
@@ -57,8 +57,8 @@ public sealed class ExchangeTask : Task
 | [Request](../../aspose.email.calendar/task/request)() | Requests the object. |
 | virtual [Save](../../aspose.email.calendar/task/save)(Stream) | Saves current object to the given stream using MSG format. |
 | virtual [Save](../../aspose.email.calendar/task/save)(string) | Saves current object into file using MSG format. |
-| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save)(Stream, TaskSaveFormat) | Saves current object to the given stream using specified format. |
-| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save)(string, TaskSaveFormat) | Saves current object into file using specified format. |
+| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save#save_1)(Stream, TaskSaveFormat) | Saves current object to the given stream using specified format. |
+| override [Save](../../aspose.email.clients.exchange.webservice/exchangetask/save#save_3)(string, TaskSaveFormat) | Saves current object into file using specified format. |
 
 ### See Also
 

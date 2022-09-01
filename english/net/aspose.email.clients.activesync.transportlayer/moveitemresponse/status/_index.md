@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the success or failure the MoveItems command request.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/moveitemresponse/status/

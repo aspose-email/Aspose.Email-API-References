@@ -1,7 +1,7 @@
 ---
 title: DefaultTimeout
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the default timeout value for ActiveSync client instances The default value is 100000 milliseconds 100 seconds.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.activesync.transportlayer/activesynctlclient/defaulttimeout/

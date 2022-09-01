@@ -1,7 +1,7 @@
 ---
 title: Flags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message flags.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.imap/imapmessageinfo/flags/
@@ -14,7 +14,7 @@ Gets the message flags.
 public ImapMessageFlags Flags { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message flags.
 

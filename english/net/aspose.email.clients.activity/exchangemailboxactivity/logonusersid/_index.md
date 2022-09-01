@@ -1,7 +1,7 @@
 ---
 title: LogonUserSid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The SID of the user who performed the operation.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/logonusersid/

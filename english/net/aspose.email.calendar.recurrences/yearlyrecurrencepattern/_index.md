@@ -1,7 +1,7 @@
 ---
 title: YearlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a recurrence pattern of yearly recurrence type.
 type: docs
 weight: 800
 url: /net/aspose.email.calendar.recurrences/yearlyrecurrencepattern/
@@ -18,9 +18,9 @@ public class YearlyRecurrencePattern : RecurrencePattern
 
 | Name | Description |
 | --- | --- |
-| [YearlyRecurrencePattern](yearlyrecurrencepattern)() | Initializes a new instance of the [`YearlyRecurrencePattern`](../yearlyrecurrencepattern) class. |
-| [YearlyRecurrencePattern](yearlyrecurrencepattern)(int, CalendarMonth) | Initializes a new instance of the [`YearlyRecurrencePattern`](../yearlyrecurrencepattern) class. |
-| [YearlyRecurrencePattern](yearlyrecurrencepattern)(CalendarDay, CalendarMonth, DayPosition) | Initializes a new instance of the [`YearlyRecurrencePattern`](../yearlyrecurrencepattern) class. |
+| [YearlyRecurrencePattern](yearlyrecurrencepattern#constructor)() | Initializes a new instance of the [`YearlyRecurrencePattern`](../yearlyrecurrencepattern) class. |
+| [YearlyRecurrencePattern](yearlyrecurrencepattern#constructor_2)(int, CalendarMonth) | Initializes a new instance of the [`YearlyRecurrencePattern`](../yearlyrecurrencepattern) class. |
+| [YearlyRecurrencePattern](yearlyrecurrencepattern#constructor_1)(CalendarDay, CalendarMonth, DayPosition) | Initializes a new instance of the [`YearlyRecurrencePattern`](../yearlyrecurrencepattern) class. |
 
 ## Properties
 

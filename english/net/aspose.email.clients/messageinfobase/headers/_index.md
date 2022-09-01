@@ -1,7 +1,7 @@
 ---
 title: Headers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Headers of the EMail message.
 type: docs
 weight: 60
 url: /net/aspose.email.clients/messageinfobase/headers/
@@ -14,7 +14,7 @@ Gets the Headers of the E-Mail message.
 public HeaderCollection Headers { get; }
 ```
 
-## Property Value
+### Property Value
 
 The headers.
 

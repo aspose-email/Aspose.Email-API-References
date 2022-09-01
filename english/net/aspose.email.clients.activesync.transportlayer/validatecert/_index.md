@@ -1,7 +1,7 @@
 ---
 title: ValidateCert
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ValidateCert namespace of the ActiveSync protocol
 type: docs
 weight: 2330
 url: /net/aspose.email.clients.activesync.transportlayer/validatecert/
@@ -14,7 +14,7 @@ ValidateCert namespace of the ActiveSync protocol
 public enum ValidateCert
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

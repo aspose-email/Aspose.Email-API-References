@@ -1,7 +1,7 @@
 ---
 title: AsposeNotSupportedException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The exception that is thrown when an invoked method or parameter is not supported or when there is an attempt to read seek or write to a stream that does not support the invoked functionality.
 type: docs
 weight: 340
 url: /net/aspose.email/asposenotsupportedexception/
@@ -18,12 +18,12 @@ public class AsposeNotSupportedException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [AsposeNotSupportedException](asposenotsupportedexception)() | Initializes a new instance of the [`AsposeNotSupportedException`](../asposenotsupportedexception) class. |
-| [AsposeNotSupportedException](asposenotsupportedexception)(Exception) |  |
-| [AsposeNotSupportedException](asposenotsupportedexception)(string) | Initializes a new instance of the [`AsposeNotSupportedException`](../asposenotsupportedexception) class with a specified error message. |
-| [AsposeNotSupportedException](asposenotsupportedexception)(string, Exception) | Initializes a new instance of the [`AsposeNotSupportedException`](../asposenotsupportedexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeNotSupportedException](asposenotsupportedexception)(string, params object[]) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
-| [AsposeNotSupportedException](asposenotsupportedexception)(string, string) |  |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor)() | Initializes a new instance of the [`AsposeNotSupportedException`](../asposenotsupportedexception) class. |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_1)(Exception) |  |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_2)(string) | Initializes a new instance of the [`AsposeNotSupportedException`](../asposenotsupportedexception) class with a specified error message. |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_3)(string, Exception) | Initializes a new instance of the [`AsposeNotSupportedException`](../asposenotsupportedexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_4)(string, params object[]) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
+| [AsposeNotSupportedException](asposenotsupportedexception#constructor_5)(string, string) |  |
 
 ## Properties
 

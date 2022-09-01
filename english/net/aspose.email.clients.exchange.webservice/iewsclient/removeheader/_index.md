@@ -1,7 +1,7 @@
 ---
 title: RemoveHeader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Remove WebHeader from WebHeaderCollection in EWS request.
 type: docs
 weight: 1310
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/removeheader/

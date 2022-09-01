@@ -1,12 +1,12 @@
 ---
 title: GetMessageUniqueIdAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message unique id
 type: docs
 weight: 280
 url: /net/aspose.email.clients.pop3/pop3client/getmessageuniqueidasync/
 ---
-## Pop3Client.GetMessageUniqueIdAsync method (1 of 4)
+## GetMessageUniqueIdAsync(IConnection, int) {#getmessageuniqueidasync}
 
 Gets the message unique id
 
@@ -19,7 +19,7 @@ public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequence
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageUniqueIdAsync method (2 of 4)
+## GetMessageUniqueIdAsync(int) {#getmessageuniqueidasync_2}
 
 Gets the message unique id
 
@@ -44,7 +44,7 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageUniqueIdAsync method (3 of 4)
+## GetMessageUniqueIdAsync(IConnection, int, CancellationToken) {#getmessageuniqueidasync_1}
 
 Gets the message unique id
 
@@ -71,7 +71,7 @@ public Task<string> GetMessageUniqueIdAsync(IConnection connection, int sequence
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -84,7 +84,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageUniqueIdAsync method (4 of 4)
+## GetMessageUniqueIdAsync(int, CancellationToken) {#getmessageuniqueidasync_3}
 
 Gets the message unique id
 
@@ -97,7 +97,7 @@ public Task<string> GetMessageUniqueIdAsync(int sequenceNumber, CancellationToke
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

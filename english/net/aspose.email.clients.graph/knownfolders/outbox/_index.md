@@ -1,7 +1,7 @@
 ---
 title: Outbox
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The outbox folder.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.graph/knownfolders/outbox/

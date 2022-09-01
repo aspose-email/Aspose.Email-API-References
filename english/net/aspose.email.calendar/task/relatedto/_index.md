@@ -1,7 +1,7 @@
 ---
 title: RelatedTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a related UID
 type: docs
 weight: 100
 url: /net/aspose.email.calendar/task/relatedto/

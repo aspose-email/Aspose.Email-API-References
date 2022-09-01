@@ -1,7 +1,7 @@
 ---
 title: AutodiscoverResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Result of the Autodiscover operation
 type: docs
 weight: 1010
 url: /net/aspose.email.clients.activesync.transportlayer/autodiscoverresult/
@@ -18,9 +18,9 @@ public class AutodiscoverResult
 
 | Name | Description |
 | --- | --- |
-| [AutodiscoverResult](autodiscoverresult)(CultureInfo, string, string, ServerInfo[]) | Initializes a new instance of the AutodiscoverResult class. |
-| [AutodiscoverResult](autodiscoverresult)(CultureInfo, string, string, string) | Initializes a new instance of the AutodiscoverResult class. |
-| [AutodiscoverResult](autodiscoverresult)(CultureInfo, string, string, string, ServerInfo[]) | Initializes a new instance of the AutodiscoverResult class. |
+| [AutodiscoverResult](autodiscoverresult#constructor)(CultureInfo, string, string, ServerInfo[]) | Initializes a new instance of the AutodiscoverResult class. |
+| [AutodiscoverResult](autodiscoverresult#constructor_1)(CultureInfo, string, string, string) | Initializes a new instance of the AutodiscoverResult class. |
+| [AutodiscoverResult](autodiscoverresult#constructor_2)(CultureInfo, string, string, string, ServerInfo[]) | Initializes a new instance of the AutodiscoverResult class. |
 
 ## Properties
 

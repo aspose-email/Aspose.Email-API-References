@@ -1,12 +1,12 @@
 ---
 title: AsposeBadServerResponceException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AsposeBadServerResponceExceptionaspose.email/asposebadserverresponceexception class with a specified error message.
 type: docs
 weight: 10
 url: /net/aspose.email/asposebadserverresponceexception/asposebadserverresponceexception/
 ---
-## AsposeBadServerResponceException constructor (1 of 4)
+## AsposeBadServerResponceException(string) {#constructor_2}
 
 Initializes a new instance of the [`AsposeBadServerResponceException`](../../asposebadserverresponceexception) class with a specified error message.
 
@@ -26,7 +26,7 @@ public AsposeBadServerResponceException(string message)
 
 ---
 
-## AsposeBadServerResponceException constructor (2 of 4)
+## AsposeBadServerResponceException() {#constructor}
 
 Initializes a new instance of the [`AsposeBadServerResponceException`](../../asposebadserverresponceexception) class.
 
@@ -42,7 +42,7 @@ public AsposeBadServerResponceException()
 
 ---
 
-## AsposeBadServerResponceException constructor (3 of 4)
+## AsposeBadServerResponceException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`AsposeBadServerResponceException`](../../asposebadserverresponceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -63,7 +63,7 @@ public AsposeBadServerResponceException(string message, Exception innerException
 
 ---
 
-## AsposeBadServerResponceException constructor (4 of 4)
+## AsposeBadServerResponceException(Exception) {#constructor_1}
 
 Initializes a new instance of the [`AsposeBadServerResponceException`](../../asposebadserverresponceexception) class with a reference to the inner exception that is the cause of this exception.
 

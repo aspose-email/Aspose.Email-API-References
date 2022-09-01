@@ -1,7 +1,7 @@
 ---
 title: ReminderTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the initial signal time for a reminder.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactotherpropertyset/remindertime/

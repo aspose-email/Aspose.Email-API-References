@@ -1,7 +1,7 @@
 ---
 title: ListMailboxes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists mailboxes in the global address list.
 type: docs
 weight: 270
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/listmailboxes/
@@ -14,7 +14,7 @@ Lists mailboxes in the global address list.
 public MapiContactCollection ListMailboxes()
 ```
 
-## Return Value
+### Return Value
 
 A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contact information.
 

@@ -1,9 +1,9 @@
 ---
 title: VCardFullName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents vCard contact full name N property
 type: docs
-weight: 19450
+weight: 19660
 url: /net/aspose.email.personalinfo.vcard/vcardfullname/
 ---
 ## VCardFullName class

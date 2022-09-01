@@ -1,7 +1,7 @@
 ---
 title: OriginalDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the SMTP email address that corresponds to the email address .
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapielectronicaddress/originaldisplayname/
@@ -14,7 +14,7 @@ Gets or sets the SMTP e-mail address that corresponds to the e-mail address .
 public string OriginalDisplayName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The SMTP e-mail address.
 

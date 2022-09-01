@@ -1,12 +1,12 @@
 ---
 title: ExchangeClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of the class ExchageClientaspose.email.clients.exchange.dav/exchangeclient
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/exchangeclient/
 ---
-## ExchangeClient constructor (1 of 3)
+## ExchangeClient(string, string, string) {#constructor_1}
 
 Initialize a new instance of the class [`ExchageClient`](../../exchangeclient)
 
@@ -28,7 +28,7 @@ public ExchangeClient(string mailboxUri, string username, string password)
 
 ---
 
-## ExchangeClient constructor (2 of 3)
+## ExchangeClient(string, string, string, string) {#constructor_2}
 
 Initialize a new instance of the class [`ExchageClient`](../../exchangeclient)
 
@@ -51,7 +51,7 @@ public ExchangeClient(string mailboxUri, string username, string password, strin
 
 ---
 
-## ExchangeClient constructor (3 of 3)
+## ExchangeClient(string, ICredentials) {#constructor}
 
 Initialize a new instance of the class [`ExchageClient`](../../exchangeclient)
 

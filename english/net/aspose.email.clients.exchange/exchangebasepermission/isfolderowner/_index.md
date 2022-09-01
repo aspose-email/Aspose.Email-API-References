@@ -1,7 +1,7 @@
 ---
 title: IsFolderOwner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the user is the owner of a folder.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/exchangebasepermission/isfolderowner/

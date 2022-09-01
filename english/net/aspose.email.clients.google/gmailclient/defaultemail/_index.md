@@ -1,7 +1,7 @@
 ---
 title: DefaultEmail
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets default email address
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/gmailclient/defaultemail/

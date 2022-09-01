@@ -1,7 +1,7 @@
 ---
 title: RootFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for Root folder
 type: docs
 weight: 170
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/rootfoldereventfilter/

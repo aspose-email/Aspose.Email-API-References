@@ -1,7 +1,7 @@
 ---
 title: TaskRegeneratingPattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the TaskRegeneratingPatternaspose.email.clients.exchange.webservice/taskregeneratingpattern class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/taskregeneratingpattern/taskregeneratingpattern/

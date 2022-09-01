@@ -1,7 +1,7 @@
 ---
 title: Notification
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Object contains an aggregation of actions and events harvested from multiple servers across multiple datacenters.
 type: docs
 weight: 2640
 url: /net/aspose.email.clients.activity/notification/

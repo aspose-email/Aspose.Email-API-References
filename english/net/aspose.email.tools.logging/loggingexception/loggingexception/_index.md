@@ -1,12 +1,12 @@
 ---
 title: LoggingException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the LoggingException class.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.logging/loggingexception/loggingexception/
 ---
-## LoggingException constructor (1 of 3)
+## LoggingException() {#constructor}
 
 Initializes a new instance of the LoggingException class.
 
@@ -22,7 +22,7 @@ public LoggingException()
 
 ---
 
-## LoggingException constructor (2 of 3)
+## LoggingException(string) {#constructor_1}
 
 Initializes a new instance of the LoggingException class.
 
@@ -42,7 +42,7 @@ public LoggingException(string message)
 
 ---
 
-## LoggingException constructor (3 of 3)
+## LoggingException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the LoggingException class.
 

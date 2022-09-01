@@ -1,7 +1,7 @@
 ---
 title: HeadingPairs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies which group of headings are indented in the document. Area Common Canonical name PidNameHeadingPairs Alternate names urnschemasmicrosoftcomofficeofficeHeadingPairs
 type: docs
 weight: 10910
 url: /net/aspose.email.mapi/knownpropertylist/headingpairs/

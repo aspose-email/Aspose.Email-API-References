@@ -1,7 +1,7 @@
 ---
 title: ByMinute
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the by minute.
 type: docs
 weight: 40
 url: /net/aspose.email.calendar.recurrences/recurrencerule/byminute/
@@ -14,7 +14,7 @@ Gets the by minute.
 public ByNumberCollection ByMinute { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by minute.
 

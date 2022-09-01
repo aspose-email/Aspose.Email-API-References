@@ -1,7 +1,7 @@
 ---
 title: RecipientCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of recipients that are returned in the ResolveRecipients command response.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/recipientcount/

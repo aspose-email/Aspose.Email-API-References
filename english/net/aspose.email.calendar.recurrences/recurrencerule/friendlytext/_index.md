@@ -1,7 +1,7 @@
 ---
 title: FriendlyText
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets user friendly text of rule.
 type: docs
 weight: 140
 url: /net/aspose.email.calendar.recurrences/recurrencerule/friendlytext/

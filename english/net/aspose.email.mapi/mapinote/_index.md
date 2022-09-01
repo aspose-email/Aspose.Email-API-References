@@ -1,9 +1,9 @@
 ---
 title: MapiNote
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents outlook Note object sticky note
 type: docs
-weight: 18330
+weight: 18540
 url: /net/aspose.email.mapi/mapinote/
 ---
 ## MapiNote class
@@ -18,8 +18,8 @@ public sealed class MapiNote : MapiMessageItemBase
 
 | Name | Description |
 | --- | --- |
-| [MapiNote](mapinote)() | Initializes a new instance of the [`MapiNote`](../mapinote) class. |
-| [MapiNote](mapinote)(string, string) | Initializes a new instance of the [`MapiNote`](../mapinote) class. |
+| [MapiNote](mapinote#constructor)() | Initializes a new instance of the [`MapiNote`](../mapinote) class. |
+| [MapiNote](mapinote#constructor_1)(string, string) | Initializes a new instance of the [`MapiNote`](../mapinote) class. |
 
 ## Properties
 
@@ -69,8 +69,8 @@ public sealed class MapiNote : MapiMessageItemBase
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long, int) | Gets the string value of the property specified by tag. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty)(long) | Provides correctly removing property from all collections. |
-| [Save](../../aspose.email.mapi/mapinote/save)(Stream, NoteSaveFormat) | Saves this [`MapiNote`](../mapinote) to the given stream using specified format. |
-| [Save](../../aspose.email.mapi/mapinote/save)(string, NoteSaveFormat) | Saves this [`MapiNote`](../mapinote) into file using specified format. |
+| [Save](../../aspose.email.mapi/mapinote/save#save)(Stream, NoteSaveFormat) | Saves this [`MapiNote`](../mapinote) to the given stream using specified format. |
+| [Save](../../aspose.email.mapi/mapinote/save#save_1)(string, NoteSaveFormat) | Saves this [`MapiNote`](../mapinote) into file using specified format. |
 | virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent)(string, BodyContentType) | Sets the content of the body. |
 | virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent)(string, BodyContentType, bool) | Sets the content of the body. |
 | [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf)(string, bool) | Gets or sets the RTF formatted message text. |

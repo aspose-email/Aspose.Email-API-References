@@ -1,7 +1,7 @@
 ---
 title: UserName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the username of the account leveraged to fetch the desired item. The UserName value can be up to 100 characters in length.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activesync.transportlayer/itopfetchoptions/username/

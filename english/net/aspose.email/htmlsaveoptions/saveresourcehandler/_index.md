@@ -1,7 +1,7 @@
 ---
 title: SaveResourceHandler
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This handler is called for saving all message attachments if EmbedResources is false.
 type: docs
 weight: 50
 url: /net/aspose.email/htmlsaveoptions/saveresourcehandler/

@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a string that represents the current object.
 type: docs
 weight: 90
 url: /net/aspose.email.personalinfo/postaladdresscategory/tostring/
@@ -14,7 +14,7 @@ Returns a string that represents the current object.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 Returns a string that represents the current object.
 

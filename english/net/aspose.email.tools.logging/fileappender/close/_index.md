@@ -1,7 +1,7 @@
 ---
 title: Close
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Closes the appender.
 type: docs
 weight: 70
 url: /net/aspose.email.tools.logging/fileappender/close/

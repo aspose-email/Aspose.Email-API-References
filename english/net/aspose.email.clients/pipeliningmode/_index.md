@@ -1,9 +1,9 @@
 ---
 title: PipeliningMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines how mail client supports the pipelining
 type: docs
-weight: 16720
+weight: 16830
 url: /net/aspose.email.clients/pipeliningmode/
 ---
 ## PipeliningMode enumeration
@@ -14,7 +14,7 @@ Defines how mail client supports the pipelining
 public enum PipeliningMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

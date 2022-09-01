@@ -1,12 +1,12 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts collection of ImapMessageInfo to array
 type: docs
 weight: 90
 url: /net/aspose.email.clients.imap/imapmessageinfocollection/op_implicit/
 ---
-## ImapMessageInfoCollection Implicit operator (1 of 4)
+## implicit operator {#op_implicit_2}
 
 Converts collection of ImapMessageInfo to array
 
@@ -18,7 +18,7 @@ public static implicit operator ImapMessageInfo[](ImapMessageInfoCollection mess
 | --- | --- | --- |
 | messageInfoCol | ImapMessageInfoCollection | Collection of ImapMessageInfo to convert |
 
-## Return Value
+### Return Value
 
 Array of ImapMessageInfo
 
@@ -31,7 +31,7 @@ Array of ImapMessageInfo
 
 ---
 
-## ImapMessageInfoCollection Implicit operator (2 of 4)
+## implicit operator {#op_implicit}
 
 Converts array of ImapMessageInfo to collection
 
@@ -43,7 +43,7 @@ public static implicit operator ImapMessageInfoCollection(ImapMessageInfo[] mess
 | --- | --- | --- |
 | messageInfoArr | ImapMessageInfo[] | Array of ImapMessageInfo to convert |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo
 
@@ -56,7 +56,7 @@ Collection of ImapMessageInfo
 
 ---
 
-## ImapMessageInfoCollection Implicit operator (3 of 4)
+## implicit operator {#op_implicit_3}
 
 Converts collection of ImapMessageInfo to list
 
@@ -68,7 +68,7 @@ public static implicit operator List<ImapMessageInfo>(ImapMessageInfoCollection 
 | --- | --- | --- |
 | messageInfoCol | ImapMessageInfoCollection | Collection of ImapMessageInfo to convert |
 
-## Return Value
+### Return Value
 
 List of ImapMessageInfo
 
@@ -81,7 +81,7 @@ List of ImapMessageInfo
 
 ---
 
-## ImapMessageInfoCollection Implicit operator (4 of 4)
+## implicit operator {#op_implicit_1}
 
 Converts list of ImapMessageInfo to collection
 
@@ -93,7 +93,7 @@ public static implicit operator ImapMessageInfoCollection(List<ImapMessageInfo> 
 | --- | --- | --- |
 | messageInfoLst | List`1 | List of ImapMessageInfo to convert |
 
-## Return Value
+### Return Value
 
 Collection of ImapMessageInfo
 

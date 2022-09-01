@@ -1,9 +1,9 @@
 ---
 title: Dispose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Releases all resources used by the MailMessage
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.email/mailmessage/dispose/
 ---
 ## MailMessage.Dispose method

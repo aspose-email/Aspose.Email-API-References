@@ -1,7 +1,7 @@
 ---
 title: Search
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Search is used to find entries in an address book mailbox or document library UNC or Windows SharePoint Services.
 type: docs
 weight: 190
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/search/
@@ -18,7 +18,7 @@ public SearchResponse Search(SearchRequest request)
 | --- | --- | --- |
 | request | SearchRequest | Search operation parameters |
 
-## Return Value
+### Return Value
 
 Returns Search operation result
 

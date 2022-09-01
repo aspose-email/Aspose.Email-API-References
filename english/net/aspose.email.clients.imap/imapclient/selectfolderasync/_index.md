@@ -1,12 +1,12 @@
 ---
 title: SelectFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Selects the specified folder
 type: docs
 weight: 1120
 url: /net/aspose.email.clients.imap/imapclient/selectfolderasync/
 ---
-## ImapClient.SelectFolderAsync method (1 of 8)
+## SelectFolderAsync(IConnection, string) {#selectfolderasync}
 
 Selects the specified folder
 
@@ -19,7 +19,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to be selected |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (2 of 8)
+## SelectFolderAsync(IConnection, string, bool?) {#selectfolderasync_1}
 
 Selects the specified folder
 
@@ -46,7 +46,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 | folderName | String | Folder to be selected |
 | readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -59,7 +59,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (3 of 8)
+## SelectFolderAsync(string) {#selectfolderasync_4}
 
 Selects the specified folder
 
@@ -71,7 +71,7 @@ public Task SelectFolderAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to be selected |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -83,7 +83,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (4 of 8)
+## SelectFolderAsync(string, bool?) {#selectfolderasync_5}
 
 Selects the specified folder
 
@@ -96,7 +96,7 @@ public Task SelectFolderAsync(string folderName, bool? readOnly)
 | folderName | String | Folder to be selected |
 | readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -108,7 +108,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (5 of 8)
+## SelectFolderAsync(IConnection, string, CancellationToken) {#selectfolderasync_3}
 
 Selects the specified folder
 
@@ -122,7 +122,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, Cancell
 | folderName | String | Folder to be selected |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -135,7 +135,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (6 of 8)
+## SelectFolderAsync(IConnection, string, bool?, CancellationToken) {#selectfolderasync_2}
 
 Selects the specified folder
 
@@ -151,7 +151,7 @@ public Task SelectFolderAsync(IConnection connection, string folderName, bool? r
 | readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -164,7 +164,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (7 of 8)
+## SelectFolderAsync(string, CancellationToken) {#selectfolderasync_7}
 
 Selects the specified folder
 
@@ -177,7 +177,7 @@ public Task SelectFolderAsync(string folderName, CancellationToken token)
 | folderName | String | Folder to be selected |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -189,7 +189,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SelectFolderAsync method (8 of 8)
+## SelectFolderAsync(string, bool?, CancellationToken) {#selectfolderasync_6}
 
 Selects the specified folder
 
@@ -203,7 +203,7 @@ public Task SelectFolderAsync(string folderName, bool? readOnly, CancellationTok
 | readOnly | Nullable`1 | Specifies whether the folder is to be selected as read-only |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -1,7 +1,7 @@
 ---
 title: ServerVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the information about the current version of MS Exchange.
 type: docs
 weight: 190
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/serverversion/

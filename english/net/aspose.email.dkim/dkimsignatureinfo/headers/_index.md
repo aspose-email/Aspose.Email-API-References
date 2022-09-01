@@ -1,7 +1,7 @@
 ---
 title: Headers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Headers that are included in the signature h.
 type: docs
 weight: 60
 url: /net/aspose.email.dkim/dkimsignatureinfo/headers/

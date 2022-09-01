@@ -1,7 +1,7 @@
 ---
 title: FilterType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies an optional time window for the objects
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/itemestimateoptions/filtertype/

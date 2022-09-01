@@ -1,7 +1,7 @@
 ---
 title: InternetFollowupTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_INTERNET_FOLLOWUP_TO
 type: docs
 weight: 11490
 url: /net/aspose.email.mapi/knownpropertylist/internetfollowupto/

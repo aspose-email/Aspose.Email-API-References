@@ -1,7 +1,7 @@
 ---
 title: DeletesAsMoves
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Requests that indicates that any deleted items SHOULD be moved to the Deleted Items folder. If the DeletesAsMoves element is set to false the deletion is permanent. If the client wants to permanently delete items the request MUST include the DeletesAsMoves element with a value of FALSE. A value of TRUE which is the default indicates that any deleted items are moved to the Deleted Items folder.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/deletesasmoves/

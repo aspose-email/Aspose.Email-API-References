@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the value associated with the specified key.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapipropertycollection/item/
@@ -18,7 +18,7 @@ public MapiProperty this[long tag] { get; set; }
 | --- | --- |
 | tag | The tag key whose value to get or set. |
 
-## Return Value
+### Return Value
 
 The value associated with the specified key.
 
@@ -43,7 +43,7 @@ public MapiProperty this[PropertyDescriptor pd] { get; set; }
 | --- | --- |
 | pd | The [`PropertyDescriptor`](../../propertydescriptor) key whose value to get or set. |
 
-## Return Value
+### Return Value
 
 The value associated with the specified key.
 

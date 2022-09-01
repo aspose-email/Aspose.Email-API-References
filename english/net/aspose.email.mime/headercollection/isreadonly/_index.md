@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Is collection readonly
 type: docs
 weight: 40
 url: /net/aspose.email.mime/headercollection/isreadonly/

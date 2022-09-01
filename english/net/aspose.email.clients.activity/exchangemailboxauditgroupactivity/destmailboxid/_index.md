@@ -1,7 +1,7 @@
 ---
 title: DestMailboxId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set only if the CrossMailboxOperations parameter is True. Specifies the target mailbox GUID.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/destmailboxid/

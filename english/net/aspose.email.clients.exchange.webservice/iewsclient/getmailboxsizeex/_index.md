@@ -1,7 +1,7 @@
 ---
 title: GetMailboxSizeEx
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the size of the mailbox Please note this operation is performed recursively for all subfolders and make take some time
 type: docs
 weight: 990
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getmailboxsizeex/
@@ -18,7 +18,7 @@ public long GetMailboxSizeEx(string folderUri)
 | --- | --- | --- |
 | folderUri | String | Folder uri |
 
-## Return Value
+### Return Value
 
 size of the mailbox in bytes
 

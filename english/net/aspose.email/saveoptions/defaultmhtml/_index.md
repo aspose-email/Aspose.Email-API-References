@@ -1,7 +1,7 @@
 ---
 title: DefaultMhtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets options with default values for saving message to Mhtml format.
 type: docs
 weight: 60
 url: /net/aspose.email/saveoptions/defaultmhtml/

@@ -1,7 +1,7 @@
 ---
 title: FindPeopleAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Find contacts.
 type: docs
 weight: 300
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/findpeopleasync/
@@ -18,7 +18,7 @@ public Task<IEnumerable<Contact>> FindPeopleAsync(EwsFindPeople parameters)
 | --- | --- | --- |
 | parameters | EwsFindPeople | The search parameters. |
 
-## Return Value
+### Return Value
 
 An array of [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 

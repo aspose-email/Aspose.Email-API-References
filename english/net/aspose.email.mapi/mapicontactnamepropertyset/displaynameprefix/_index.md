@@ -1,7 +1,7 @@
 ---
 title: DisplayNamePrefix
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the title of the contact
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicontactnamepropertyset/displaynameprefix/

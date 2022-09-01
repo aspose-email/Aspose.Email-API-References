@@ -1,7 +1,7 @@
 ---
 title: LineNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a number of line where error was found.
 type: docs
 weight: 30
 url: /net/aspose.email/emlvalidationerror/linenumber/

@@ -1,7 +1,7 @@
 ---
 title: AddressBookReports
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists all of the mail users direct reports. Area Address Book Canonical name PidTagAddressBookReports Alternate names PR_EMS_AB_REPORTS PR_EMS_AB_REPORTS_A PR_EMS_AB_REPORTS_W
 type: docs
 weight: 920
 url: /net/aspose.email.mapi/knownpropertylist/addressbookreports/

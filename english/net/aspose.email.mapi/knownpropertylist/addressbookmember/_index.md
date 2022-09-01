@@ -1,7 +1,7 @@
 ---
 title: AddressBookMember
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the members of the distribution list. Area Address Book Canonical name PidTagAddressBookMember Alternate names PR_EMS_AB_MEMBER PR_EMS_AB_MEMBER_A PR_EMS_AB_MEMBER_W
 type: docs
 weight: 730
 url: /net/aspose.email.mapi/knownpropertylist/addressbookmember/

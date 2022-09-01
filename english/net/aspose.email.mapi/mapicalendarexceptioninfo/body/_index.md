@@ -1,7 +1,7 @@
 ---
 title: Body
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the body.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/body/
@@ -14,7 +14,7 @@ Gets or sets the body.
 public string Body { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The body.
 

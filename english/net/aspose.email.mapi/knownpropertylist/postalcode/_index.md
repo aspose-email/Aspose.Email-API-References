@@ -1,7 +1,7 @@
 ---
 title: PostalCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the postal code for the mail users postal address. Area MapiMailUser Canonical name PidTagPostalCode Alternate names PR_POSTAL_CODE PR_POSTAL_CODE_A PR_POSTAL_CODE_W PR_BUSINESS_ADDRESS_POSTAL_CODE PR_BUSINESS_ADDRESS_POSTAL_CODE_A
 type: docs
 weight: 14370
 url: /net/aspose.email.mapi/knownpropertylist/postalcode/

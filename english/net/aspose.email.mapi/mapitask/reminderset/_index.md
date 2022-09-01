@@ -1,7 +1,7 @@
 ---
 title: ReminderSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a reminder is set on the object
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapitask/reminderset/

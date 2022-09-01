@@ -1,7 +1,7 @@
 ---
 title: GetUserInformation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Requests a list of a users email addresses from the server.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/settingsrequest/getuserinformation/

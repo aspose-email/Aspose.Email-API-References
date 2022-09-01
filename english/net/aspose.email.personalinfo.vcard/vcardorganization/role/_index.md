@@ -1,7 +1,7 @@
 ---
 title: Role
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a role
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo.vcard/vcardorganization/role/

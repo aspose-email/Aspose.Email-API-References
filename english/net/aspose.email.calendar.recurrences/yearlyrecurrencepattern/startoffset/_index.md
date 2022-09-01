@@ -1,7 +1,7 @@
 ---
 title: StartOffset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the start offset.
 type: docs
 weight: 40
 url: /net/aspose.email.calendar.recurrences/yearlyrecurrencepattern/startoffset/
@@ -14,7 +14,7 @@ Gets or sets the start offset.
 public int StartOffset { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The start offset.
 

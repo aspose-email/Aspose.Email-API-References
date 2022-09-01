@@ -1,7 +1,7 @@
 ---
 title: ToAmpHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: AmpHtml representation of section value.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/sectionvalue/toamphtml/

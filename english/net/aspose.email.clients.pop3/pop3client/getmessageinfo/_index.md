@@ -1,12 +1,12 @@
 ---
 title: GetMessageInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the information for that message
 type: docs
 weight: 230
 url: /net/aspose.email.clients.pop3/pop3client/getmessageinfo/
 ---
-## Pop3Client.GetMessageInfo method (1 of 8)
+## GetMessageInfo(IConnection, string, Pop3ListFields) {#getmessageinfo_3}
 
 Gets the information for that message
 
@@ -21,7 +21,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, string uniqueId,
 | uniqueId | String | The unique id of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -36,7 +36,7 @@ Pop3MessageInfo
 
 ---
 
-## Pop3Client.GetMessageInfo method (2 of 8)
+## GetMessageInfo(IConnection, string) {#getmessageinfo_2}
 
 Gets the information for that message
 
@@ -49,7 +49,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -63,7 +63,7 @@ Pop3MessageInfo
 
 ---
 
-## Pop3Client.GetMessageInfo method (3 of 8)
+## GetMessageInfo(string) {#getmessageinfo_6}
 
 Gets the information for that message
 
@@ -75,7 +75,7 @@ public Pop3MessageInfo GetMessageInfo(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -88,7 +88,7 @@ Pop3MessageInfo
 
 ---
 
-## Pop3Client.GetMessageInfo method (4 of 8)
+## GetMessageInfo(string, Pop3ListFields) {#getmessageinfo_7}
 
 Gets the information for that message
 
@@ -101,7 +101,7 @@ public Pop3MessageInfo GetMessageInfo(string uniqueId, Pop3ListFields fields)
 | uniqueId | String | The unique id of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -115,7 +115,7 @@ Pop3MessageInfo
 
 ---
 
-## Pop3Client.GetMessageInfo method (5 of 8)
+## GetMessageInfo(IConnection, int, Pop3ListFields) {#getmessageinfo_1}
 
 Gets the information for that message
 
@@ -130,7 +130,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, int sequenceNumber
 | sequenceNumber | Int32 | The sequence number of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -145,7 +145,7 @@ Pop3MessageInfo
 
 ---
 
-## Pop3Client.GetMessageInfo method (6 of 8)
+## GetMessageInfo(IConnection, int) {#getmessageinfo}
 
 Gets the information for that message
 
@@ -158,7 +158,7 @@ public Pop3MessageInfo GetMessageInfo(IConnection connection, int sequenceNumber
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -172,7 +172,7 @@ Pop3MessageInfo
 
 ---
 
-## Pop3Client.GetMessageInfo method (7 of 8)
+## GetMessageInfo(int) {#getmessageinfo_4}
 
 Gets the information for that message
 
@@ -184,7 +184,7 @@ public Pop3MessageInfo GetMessageInfo(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 
@@ -197,7 +197,7 @@ Pop3MessageInfo
 
 ---
 
-## Pop3Client.GetMessageInfo method (8 of 8)
+## GetMessageInfo(int, Pop3ListFields) {#getmessageinfo_5}
 
 Gets the information for that message
 
@@ -210,7 +210,7 @@ public Pop3MessageInfo GetMessageInfo(int sequenceNumber, Pop3ListFields fields)
 | sequenceNumber | Int32 | The sequence number of the message |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfo
 

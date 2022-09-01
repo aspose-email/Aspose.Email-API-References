@@ -1,7 +1,7 @@
 ---
 title: ReportTemplate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the type of report to get.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/getmessagetrackingreportoptions/reporttemplate/

@@ -1,7 +1,7 @@
 ---
 title: DevicePasswordEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether a client requires a password.
 type: docs
 weight: 230
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/devicepasswordenabled/

@@ -1,7 +1,7 @@
 ---
 title: WeekStartDay
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the first day of the calendar week.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/weekstartday/

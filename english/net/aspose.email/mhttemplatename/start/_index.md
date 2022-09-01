@@ -1,7 +1,7 @@
 ---
 title: Start
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Start header.
 type: docs
 weight: 180
 url: /net/aspose.email/mhttemplatename/start/

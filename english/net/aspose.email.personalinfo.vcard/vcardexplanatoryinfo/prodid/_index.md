@@ -1,9 +1,9 @@
 ---
 title: ProdId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an id of product that created a vCard
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/prodid/
 ---
 ## VCardExplanatoryInfo.ProdId property

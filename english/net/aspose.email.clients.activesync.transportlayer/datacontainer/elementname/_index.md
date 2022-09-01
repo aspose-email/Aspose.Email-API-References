@@ -1,7 +1,7 @@
 ---
 title: ElementName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Name of the element whose data are contained in the data container.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/elementname/

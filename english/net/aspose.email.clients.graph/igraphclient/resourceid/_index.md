@@ -1,7 +1,7 @@
 ---
 title: ResourceId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets resource id. For instance for users it may be user principal name UPN or user id
 type: docs
 weight: 40
 url: /net/aspose.email.clients.graph/igraphclient/resourceid/

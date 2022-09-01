@@ -1,7 +1,7 @@
 ---
 title: Email
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Email namespace of the ActiveSync protocol
 type: docs
 weight: 1200
 url: /net/aspose.email.clients.activesync.transportlayer/email/
@@ -14,7 +14,7 @@ Email namespace of the ActiveSync protocol
 public enum Email
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: CrossReference
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the host with domains omitted and a whitespaceseparated list of colonseparated pairs of newsgroup names and message numbers. Area Email Canonical name PidNameCrossReference Alternate names urnschemasmailheaderxref
 type: docs
 weight: 3580
 url: /net/aspose.email.mapi/knownpropertylist/crossreference/

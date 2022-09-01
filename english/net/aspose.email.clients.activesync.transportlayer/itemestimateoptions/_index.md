@@ -1,7 +1,7 @@
 ---
 title: ItemEstimateOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains elements that filter the results of the GetItemEstimate operation.
 type: docs
 weight: 1370
 url: /net/aspose.email.clients.activesync.transportlayer/itemestimateoptions/
@@ -18,8 +18,8 @@ public class ItemEstimateOptions
 
 | Name | Description |
 | --- | --- |
-| [ItemEstimateOptions](itemestimateoptions)() | Initializes a new instance of the ItemEstimateOptions class. |
-| [ItemEstimateOptions](itemestimateoptions)(AirsyncClass?, AirsyncFilterType?, int?) | Initializes a new instance of the ItemEstimateOptions class. |
+| [ItemEstimateOptions](itemestimateoptions#constructor)() | Initializes a new instance of the ItemEstimateOptions class. |
+| [ItemEstimateOptions](itemestimateoptions#constructor_1)(AirsyncClass?, AirsyncFilterType?, int?) | Initializes a new instance of the ItemEstimateOptions class. |
 
 ## Properties
 

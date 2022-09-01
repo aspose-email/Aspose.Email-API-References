@@ -1,7 +1,7 @@
 ---
 title: GetIdForNamedProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the id to be used for named property named properties are special properties and should have their ids in range 0x80000xfffe aligned starting from 0x8000 sequentally. Use this method to find the available id cause it could be hard to calculate it yourself.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi.msg/messageobject/getidfornamedproperty/
@@ -14,7 +14,7 @@ Gets the id to be used for named property, named properties are special properti
 public int GetIdForNamedProperty()
 ```
 
-## Return Value
+### Return Value
 
 Available id for the named property.
 

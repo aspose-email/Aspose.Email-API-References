@@ -1,7 +1,7 @@
 ---
 title: Address
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The domain name or IP address of the proxy server
 type: docs
 weight: 10
 url: /net/aspose.email.clients/proxy/address/

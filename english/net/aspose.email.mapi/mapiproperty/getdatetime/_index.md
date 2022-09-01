@@ -1,7 +1,7 @@
 ---
 title: GetDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the first bytes of the binary data as datetime.
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/mapiproperty/getdatetime/
@@ -14,7 +14,7 @@ Gets the first bytes of the binary data as datetime.
 public virtual DateTime GetDateTime()
 ```
 
-## Return Value
+### Return Value
 
 The datetime value.
 

@@ -1,7 +1,7 @@
 ---
 title: NewMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets new messages
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/imapmonitoringeventargs/newmessages/

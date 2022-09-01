@@ -1,7 +1,7 @@
 ---
 title: Picture
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the client is requesting that contact photos be returned in the server response. The Picture is not supported when the protocol version is 12.1 or 14.0. Contains the data related to the contact photos.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/picture/

@@ -1,7 +1,7 @@
 ---
 title: Fetch
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains requests about retrieving an items from the server.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsrequest/fetch/

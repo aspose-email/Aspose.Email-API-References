@@ -1,7 +1,7 @@
 ---
 title: GetProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets MAPI property by property descriptor.
 type: docs
 weight: 210
 url: /net/aspose.email.mapi/mapimessageitembase/getproperty/
@@ -18,7 +18,7 @@ public override MapiProperty GetProperty(PropertyDescriptor pd)
 | --- | --- | --- |
 | pd | PropertyDescriptor | Property descriptor for looked property |
 
-## Return Value
+### Return Value
 
 Mapi property if it is found, otherwise null.
 

@@ -1,7 +1,7 @@
 ---
 title: ValidFlagStringProof
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the PidTagMessageDeliveryTime property section 2.780 when modifying the PidLidFlagRequest property section 2.136. Area Tasks Canonical name PidLidValidFlagStringProof Alternate names dispidValidFlagStringProof
 type: docs
 weight: 19210
 url: /net/aspose.email.mapi/knownpropertylist/validflagstringproof/

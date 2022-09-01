@@ -1,12 +1,12 @@
 ---
 title: ValidateCert
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ValidateCert command is used by the client to validate a certificate that has been received via an S/MIME mail.
 type: docs
 weight: 250
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/validatecert/
 ---
-## IActiveSyncTLClient.ValidateCert method (1 of 8)
+## ValidateCert(X509Certificate) {#validatecert_4}
 
 The ValidateCert command is used by the client to validate a certificate that has been received via an S/MIME mail.
 
@@ -18,7 +18,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate)
 | --- | --- | --- |
 | certificate | X509Certificate | Certificate that has to be validated. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -31,7 +31,7 @@ List of validation certificate statuses
 
 ---
 
-## IActiveSyncTLClient.ValidateCert method (2 of 8)
+## ValidateCert(X509Certificate, bool) {#validatecert_5}
 
 The ValidateCert is used by the client to validate a certificate that has been received via an S/MIME mail.
 
@@ -44,7 +44,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate, bool 
 | certificate | X509Certificate | Certificate that has to be validated. |
 | checkCrl | Boolean | Specifies whether the server SHOULD ignore an unverifiable revocation status. The revocation status of a certificate cannot be verified when the certificate revocation lists (CRLs) cannot be retrieved. When the CheckCRL value is set to TRUE, the server MUST NOT ignore an unverifiable revocation status. When the CheckCRL value is set to FALSE, the server SHOULD ignore an unverifiable revocation status. The default value is FALSE. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -57,7 +57,7 @@ List of validation certificate statuses
 
 ---
 
-## IActiveSyncTLClient.ValidateCert method (3 of 8)
+## ValidateCert(X509Certificate, IEnumerable&lt;X509Certificate&gt;) {#validatecert_6}
 
 The ValidateCert is used by the client to validate a certificate that has been received via an S/MIME mail.
 
@@ -71,7 +71,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate,
 | certificate | X509Certificate | Certificate that has to be validated. |
 | certificateChains | IEnumerable`1 | List of certificates to be validated. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -84,7 +84,7 @@ List of validation certificate statuses
 
 ---
 
-## IActiveSyncTLClient.ValidateCert method (4 of 8)
+## ValidateCert(X509Certificate, IEnumerable&lt;X509Certificate&gt;, bool) {#validatecert_7}
 
 The ValidateCert is used by the client to validate a certificate that has been received via an S/MIME mail.
 
@@ -99,7 +99,7 @@ public List<CertificateStatuses> ValidateCert(X509Certificate certificate,
 | certificateChains | IEnumerable`1 | List of certificates that have to be validated. |
 | checkCrl | Boolean | Specifies whether the server SHOULD ignore an unverifiable revocation status. The revocation status of a certificate cannot be verified when the certificate revocation lists (CRLs) cannot be retrieved. When the CheckCRL value is set to TRUE, the server MUST NOT ignore an unverifiable revocation status. When the CheckCRL value is set to FALSE, the server SHOULD ignore an unverifiable revocation status. The default value is FALSE. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -112,7 +112,7 @@ List of validation certificate statuses
 
 ---
 
-## IActiveSyncTLClient.ValidateCert method (5 of 8)
+## ValidateCert(IEnumerable&lt;X509Certificate&gt;) {#validatecert}
 
 The ValidateCert is used by the client to validate a certificate that has been received via an S/MIME mail.
 
@@ -124,7 +124,7 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 | --- | --- | --- |
 | certificates | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -137,7 +137,7 @@ List of validation certificate statuses
 
 ---
 
-## IActiveSyncTLClient.ValidateCert method (6 of 8)
+## ValidateCert(IEnumerable&lt;X509Certificate&gt;, bool) {#validatecert_1}
 
 The ValidateCert is used by the client to validate a certificate that has been received via an S/MIME mail.
 
@@ -151,7 +151,7 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 | certificates | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 | checkCrl | Boolean | Specifies whether the server SHOULD ignore an unverifiable revocation status. The revocation status of a certificate cannot be verified when the certificate revocation lists (CRLs) cannot be retrieved. When the CheckCRL value is set to TRUE, the server MUST NOT ignore an unverifiable revocation status. When the CheckCRL value is set to FALSE, the server SHOULD ignore an unverifiable revocation status. The default value is FALSE. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -164,7 +164,7 @@ List of validation certificate statuses
 
 ---
 
-## IActiveSyncTLClient.ValidateCert method (7 of 8)
+## ValidateCert(IEnumerable&lt;X509Certificate&gt;, IEnumerable&lt;X509Certificate&gt;) {#validatecert_2}
 
 The ValidateCert is used by the client to validate a certificate that has been received via an S/MIME mail.
 
@@ -178,7 +178,7 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 | certificates | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 | certificateChains | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 
@@ -191,7 +191,7 @@ List of validation certificate statuses
 
 ---
 
-## IActiveSyncTLClient.ValidateCert method (8 of 8)
+## ValidateCert(IEnumerable&lt;X509Certificate&gt;, IEnumerable&lt;X509Certificate&gt;, bool) {#validatecert_3}
 
 The ValidateCert is used by the client to validate a certificate that has been received via an S/MIME mail.
 
@@ -206,7 +206,7 @@ public List<CertificateStatuses> ValidateCert(IEnumerable<X509Certificate> certi
 | certificateChains | IEnumerable`1 | Enumeration of certificates that have to be validated. |
 | checkCrl | Boolean | Specifies whether the server SHOULD ignore an unverifiable revocation status. The revocation status of a certificate cannot be verified when the certificate revocation lists (CRLs) cannot be retrieved. When the CheckCRL value is set to TRUE, the server MUST NOT ignore an unverifiable revocation status. When the CheckCRL value is set to FALSE, the server SHOULD ignore an unverifiable revocation status. The default value is FALSE. |
 
-## Return Value
+### Return Value
 
 List of validation certificate statuses
 

@@ -1,7 +1,7 @@
 ---
 title: ContainerFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a bitmask of flags that describe capabilities of an address book container. Area Address Book Canonical name PidTagContainerFlags Alternate names PR_CONTAINER_FLAGS
 type: docs
 weight: 3120
 url: /net/aspose.email.mapi/knownpropertylist/containerflags/

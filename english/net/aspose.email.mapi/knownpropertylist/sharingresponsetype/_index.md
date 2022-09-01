@@ -1,7 +1,7 @@
 ---
 title: SharingResponseType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the type of response with which the recipient of the sharing request responded. Area Sharing Canonical name PidLidSharingResponseType Alternate names dispidSharingResponseType
 type: docs
 weight: 17910
 url: /net/aspose.email.mapi/knownpropertylist/sharingresponsetype/

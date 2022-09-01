@@ -1,7 +1,7 @@
 ---
 title: DeleteDistributionList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the Distribution List.
 type: docs
 weight: 590
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/deletedistributionlist/

@@ -1,7 +1,7 @@
 ---
 title: ReadReceiptAddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the address type of the end user to whom a read receipt is directed. Area Transport Envelope Canonical name PidTagReadReceiptAddressType Alternate names ptagReadReceiptAddrType ReadReceiptAddrType
 type: docs
 weight: 15190
 url: /net/aspose.email.mapi/knownpropertylist/readreceiptaddresstype/

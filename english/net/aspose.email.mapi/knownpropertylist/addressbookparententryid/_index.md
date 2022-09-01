@@ -1,7 +1,7 @@
 ---
 title: AddressBookParentEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the parent container in a hierarchy of address book containers. Area Address Book Canonical name PidTagAddressBookParentEntryId Alternate names PR_EMS_AB_PARENT_ENTRYID
 type: docs
 weight: 820
 url: /net/aspose.email.mapi/knownpropertylist/addressbookparententryid/

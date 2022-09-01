@@ -1,7 +1,7 @@
 ---
 title: UserConfiguration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents user configuration
 type: docs
 weight: 15560
 url: /net/aspose.email.clients.exchange.webservice/userconfiguration/

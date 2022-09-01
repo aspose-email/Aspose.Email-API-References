@@ -1,7 +1,7 @@
 ---
 title: HomeAddressPostalCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the postal code for the mail users home postal address. Area MapiMailUser Canonical name PidTagHomeAddressPostalCode Alternate names PR_HOME_ADDRESS_POSTAL_CODE PR_HOME_ADDRESS_POSTAL_CODE_A
 type: docs
 weight: 11040
 url: /net/aspose.email.mapi/knownpropertylist/homeaddresspostalcode/

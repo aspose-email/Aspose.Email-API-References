@@ -1,7 +1,7 @@
 ---
 title: AddressBookPhoneticSurname
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the phonetic representation of the PidTagSurname property section 2.1026. Area Address Book Canonical name PidTagAddressBookPhoneticSurname Alternate names PR_EMS_AB_PHONETIC_SURNAME PR_EMS_AB_PHONETIC_SURNAME_A PR_EMS_AB_PHONETIC_SURNAME_W
 type: docs
 weight: 870
 url: /net/aspose.email.mapi/knownpropertylist/addressbookphoneticsurname/

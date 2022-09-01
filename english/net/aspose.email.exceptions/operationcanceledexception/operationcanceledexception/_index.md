@@ -1,12 +1,12 @@
 ---
 title: OperationCanceledException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the OperationCanceledException class.
 type: docs
 weight: 10
 url: /net/aspose.email.exceptions/operationcanceledexception/operationcanceledexception/
 ---
-## OperationCanceledException constructor (1 of 4)
+## OperationCanceledException() {#constructor}
 
 Initializes a new instance of the OperationCanceledException class.
 
@@ -22,7 +22,7 @@ public OperationCanceledException()
 
 ---
 
-## OperationCanceledException constructor (2 of 4)
+## OperationCanceledException(string) {#constructor_1}
 
 Initializes a new instance of the OperationCanceledException class with a specified error message.
 
@@ -42,7 +42,7 @@ public OperationCanceledException(string message)
 
 ---
 
-## OperationCanceledException constructor (3 of 4)
+## OperationCanceledException(string, params object[]) {#constructor_3}
 
 Initializes a new instance of the OperationCanceledException class with a specified error message.
 
@@ -63,7 +63,7 @@ public OperationCanceledException(string format, params object[] parameters)
 
 ---
 
-## OperationCanceledException constructor (4 of 4)
+## OperationCanceledException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the OperationCanceledException class with a specified error message and a reference to the inner exception that is the cause of this exception.
 

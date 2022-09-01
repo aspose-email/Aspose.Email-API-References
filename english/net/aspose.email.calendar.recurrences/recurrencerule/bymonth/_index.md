@@ -1,7 +1,7 @@
 ---
 title: ByMonth
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the by month.
 type: docs
 weight: 50
 url: /net/aspose.email.calendar.recurrences/recurrencerule/bymonth/
@@ -14,7 +14,7 @@ Gets the by month.
 public ByNumberCollection ByMonth { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by month.
 

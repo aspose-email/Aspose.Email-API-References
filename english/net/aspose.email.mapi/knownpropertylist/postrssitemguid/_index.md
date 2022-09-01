@@ -1,7 +1,7 @@
 ---
 title: PostRssItemGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a unique identifier for the RSS object. Area RSS Canonical name PidLidPostRssItemGuid Alternate names dispidPostRssItemGuid
 type: docs
 weight: 14460
 url: /net/aspose.email.mapi/knownpropertylist/postrssitemguid/

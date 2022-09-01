@@ -1,7 +1,7 @@
 ---
 title: DeepTraversal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the client wants the server to search all subfolders for the folders that are specified in the query.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/searchoptions/deeptraversal/

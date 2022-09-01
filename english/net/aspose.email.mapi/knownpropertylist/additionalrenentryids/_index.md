@@ -1,7 +1,7 @@
 ---
 title: AdditionalRenEntryIds
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the indexed entry IDs for several special folders related to conflicts sync issues local failures server failures junk email and spam. Area Outlook Application Canonical name PidTagAdditionalRenEntryIds Alternate names PR_ADDITIONAL_REN_ENTRYIDS ptagAdditionalRenEntryIds
 type: docs
 weight: 300
 url: /net/aspose.email.mapi/knownpropertylist/additionalrenentryids/

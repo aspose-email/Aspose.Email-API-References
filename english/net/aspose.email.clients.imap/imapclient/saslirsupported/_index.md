@@ -1,7 +1,7 @@
 ---
 title: SaslIrSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether SASL Initial Client Response extension is supported See more https//tools.ietf.org/html/rfc4959
 type: docs
 weight: 240
 url: /net/aspose.email.clients.imap/imapclient/saslirsupported/

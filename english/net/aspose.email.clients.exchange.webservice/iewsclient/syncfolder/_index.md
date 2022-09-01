@@ -1,12 +1,12 @@
 ---
 title: SyncFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves changes of the items and subfolders in a specified folder.
 type: docs
 weight: 1430
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/syncfolder/
 ---
-## IEWSClient.SyncFolder method (1 of 5)
+## SyncFolder(string) {#syncfolder_1}
 
 Retrieves changes of the items and subfolders in a specified folder.
 
@@ -18,7 +18,7 @@ public SyncFolderResult SyncFolder(string folderUri)
 | --- | --- | --- |
 | folderUri | String | The folder uri |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 
@@ -31,7 +31,7 @@ Returns result of SyncFolder operation.
 
 ---
 
-## IEWSClient.SyncFolder method (2 of 5)
+## SyncFolder(string, SyncFolderType) {#syncfolder_2}
 
 Retrieves changes of the items and subfolders in a specified folder.
 
@@ -44,7 +44,7 @@ public SyncFolderResult SyncFolder(string folderUri, SyncFolderType syncType)
 | folderUri | String | The folder uri |
 | syncType | SyncFolderType | Folder synchronization type |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 
@@ -58,7 +58,7 @@ Returns result of SyncFolder operation.
 
 ---
 
-## IEWSClient.SyncFolder method (3 of 5)
+## SyncFolder(SyncState) {#syncfolder}
 
 Retrieves changes of the items in a specified folder.
 
@@ -70,7 +70,7 @@ public SyncFolderResult SyncFolder(SyncState syncState)
 | --- | --- | --- |
 | syncState | SyncState | The synchronization state. |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 
@@ -84,7 +84,7 @@ Returns result of SyncFolder operation.
 
 ---
 
-## IEWSClient.SyncFolder method (4 of 5)
+## SyncFolder(string, string) {#syncfolder_3}
 
 Retrieves changes of the items in a specified folder.
 
@@ -97,7 +97,7 @@ public SyncFolderResult SyncFolder(string folderUri, string syncState)
 | folderUri | String | The folder uri |
 | syncState | String | The optional synchronization state. Must be null for first synchronization. |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 
@@ -110,7 +110,7 @@ Returns result of SyncFolder operation.
 
 ---
 
-## IEWSClient.SyncFolder method (5 of 5)
+## SyncFolder(string, string, IEnumerable&lt;string&gt;) {#syncfolder_4}
 
 Retrieves changes of the items in a specified folder.
 
@@ -125,7 +125,7 @@ public SyncFolderResult SyncFolder(string folderUri, string syncState,
 | syncState | String | The optional synchronization state. Must be null for first synchronization. |
 | ignoreList | IEnumerable`1 | The optional list of item uris that should be ignored. |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 

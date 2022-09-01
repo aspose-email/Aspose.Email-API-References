@@ -1,7 +1,7 @@
 ---
 title: MoveSubfolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the subfolders to a new parent folder.
 type: docs
 weight: 330
 url: /net/aspose.email.storage.pst/folderinfo/movesubfolders/

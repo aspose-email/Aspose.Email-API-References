@@ -1,7 +1,7 @@
 ---
 title: MessageDeliveryTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the time in UTC when the server received the message. Area Message Time Properties Canonical name PidTagMessageDeliveryTime Alternate names PR_MESSAGE_DELIVERY_TIME urnschemashttpmaildatereceived
 type: docs
 weight: 12500
 url: /net/aspose.email.mapi/knownpropertylist/messagedeliverytime/

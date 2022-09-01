@@ -1,7 +1,7 @@
 ---
 title: PoBox
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a PO box
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/pobox/

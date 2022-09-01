@@ -1,12 +1,12 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the Status class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/status/status/
 ---
-## Status constructor (1 of 3)
+## Status(Status) {#constructor}
 
 Initializes a new instance of the Status class.
 
@@ -26,7 +26,7 @@ public Status(Status status)
 
 ---
 
-## Status constructor (2 of 3)
+## Status(string) {#constructor_2}
 
 Initializes a new instance of the Status class. Status code is initialized with 0 value.
 
@@ -46,7 +46,7 @@ public Status(string description)
 
 ---
 
-## Status constructor (3 of 3)
+## Status(int, string) {#constructor_1}
 
 Initializes a new instance of the Status class.
 

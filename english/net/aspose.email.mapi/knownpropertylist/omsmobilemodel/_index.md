@@ -1,7 +1,7 @@
 ---
 title: OMSMobileModel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the model of the mobile device used to send the SMS or MMS message. Area SMS Canonical name PidNameOMSMobileModel Alternate names
 type: docs
 weight: 13380
 url: /net/aspose.email.mapi/knownpropertylist/omsmobilemodel/

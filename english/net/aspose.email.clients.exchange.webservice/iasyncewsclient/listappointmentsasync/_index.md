@@ -1,7 +1,7 @@
 ---
 title: ListAppointmentsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves list of appointments for specified calendar folder
 type: docs
 weight: 400
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listappointmentsasync/
@@ -22,7 +22,7 @@ public Task<Appointment[]> ListAppointmentsAsync(string folderUri, MailQuery que
 | recursive | Boolean | Indicates whether recursive listing or not. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 

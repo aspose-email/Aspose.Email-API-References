@@ -1,7 +1,7 @@
 ---
 title: Task
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Task Property set name PSETID_Task
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/knownpropertysets/task/

@@ -1,7 +1,7 @@
 ---
 title: Attachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Name for attachment disposition type.
 type: docs
 weight: 10
 url: /net/aspose.email.mime/dispositiontypenames/attachment/

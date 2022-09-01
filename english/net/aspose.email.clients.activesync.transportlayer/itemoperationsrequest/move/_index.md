@@ -1,7 +1,7 @@
 ---
 title: Move
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains requests about moving a conversations to specific folders.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsrequest/move/

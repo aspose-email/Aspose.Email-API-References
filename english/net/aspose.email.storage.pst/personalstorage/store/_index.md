@@ -1,7 +1,7 @@
 ---
 title: Store
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the PST message store.
 type: docs
 weight: 90
 url: /net/aspose.email.storage.pst/personalstorage/store/
@@ -14,7 +14,7 @@ Gets the PST message store.
 public MessageStore Store { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`MessageStore`](../../messagestore) which is the rough equivalent of the top of a Mailbox.
 

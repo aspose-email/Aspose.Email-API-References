@@ -1,7 +1,7 @@
 ---
 title: GetTotalItemsCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns the number of messages in a storage.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.mbox/mboxostoragereader/gettotalitemscount/
@@ -14,7 +14,7 @@ Returns the number of messages in a storage.
 public override int GetTotalItemsCount()
 ```
 
-## Return Value
+### Return Value
 
 Returns the number of messages in a storage.
 

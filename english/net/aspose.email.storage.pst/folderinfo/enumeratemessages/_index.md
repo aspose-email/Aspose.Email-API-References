@@ -1,7 +1,7 @@
 ---
 title: EnumerateMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exposes the enumerator which supports an iteration of messages in folder.
 type: docs
 weight: 260
 url: /net/aspose.email.storage.pst/folderinfo/enumeratemessages/
@@ -14,7 +14,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 public IEnumerable<MessageInfo> EnumerateMessages()
 ```
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 

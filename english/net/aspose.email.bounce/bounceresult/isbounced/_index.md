@@ -1,7 +1,7 @@
 ---
 title: IsBounced
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: True if email is a delivery failure or deliver delay report.
 type: docs
 weight: 30
 url: /net/aspose.email.bounce/bounceresult/isbounced/

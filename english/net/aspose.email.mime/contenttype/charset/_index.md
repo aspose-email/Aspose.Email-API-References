@@ -1,7 +1,7 @@
 ---
 title: CharSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the value of the charset parameter.
 type: docs
 weight: 30
 url: /net/aspose.email.mime/contenttype/charset/
@@ -14,7 +14,7 @@ Gets or sets the value of the charset parameter.
 public string CharSet { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A string that contains the value of charset parameter.
 

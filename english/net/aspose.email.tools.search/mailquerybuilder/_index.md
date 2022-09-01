@@ -1,9 +1,9 @@
 ---
 title: MailQueryBuilder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the builder of search expression.
 type: docs
-weight: 20530
+weight: 20760
 url: /net/aspose.email.tools.search/mailquerybuilder/
 ---
 ## MailQueryBuilder class
@@ -18,8 +18,8 @@ public class MailQueryBuilder
 
 | Name | Description |
 | --- | --- |
-| [MailQueryBuilder](mailquerybuilder)() | Initializes a new instance of the [`MailQueryBuilder`](../mailquerybuilder) class. |
-| [MailQueryBuilder](mailquerybuilder)(Encoding) | Initializes a new instance of the [`MailQueryBuilder`](../mailquerybuilder) class. |
+| [MailQueryBuilder](mailquerybuilder#constructor)() | Initializes a new instance of the [`MailQueryBuilder`](../mailquerybuilder) class. |
+| [MailQueryBuilder](mailquerybuilder#constructor_1)(Encoding) | Initializes a new instance of the [`MailQueryBuilder`](../mailquerybuilder) class. |
 
 ## Properties
 

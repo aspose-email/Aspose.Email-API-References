@@ -1,7 +1,7 @@
 ---
 title: Accounts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains list of objects with users account information.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/userinformationresponse/accounts/

@@ -1,7 +1,7 @@
 ---
 title: Office
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Office phone number
 type: docs
 weight: 120
 url: /net/aspose.email.personalinfo/phonenumbercategory/office/

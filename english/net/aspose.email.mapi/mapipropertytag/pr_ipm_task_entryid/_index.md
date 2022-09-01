@@ -1,7 +1,7 @@
 ---
 title: PR_IPM_TASK_ENTRYID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Outlook Tasks folder.
 type: docs
 weight: 13250
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_task_entryid/

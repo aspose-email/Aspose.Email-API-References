@@ -1,9 +1,9 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows to specify additional options when saving MailMessage to Html format.
 type: docs
-weight: 17380
+weight: 17550
 url: /net/aspose.email/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class

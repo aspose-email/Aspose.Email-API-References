@@ -1,7 +1,7 @@
 ---
 title: Skype
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Skype
 type: docs
 weight: 120
 url: /net/aspose.email.personalinfo/instantmessengercategory/skype/

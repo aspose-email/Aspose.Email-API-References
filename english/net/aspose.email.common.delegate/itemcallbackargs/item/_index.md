@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The item being processed.
 type: docs
 weight: 20
 url: /net/aspose.email.common.delegate/itemcallbackargs/item/

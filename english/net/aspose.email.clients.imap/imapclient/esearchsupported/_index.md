@@ -1,7 +1,7 @@
 ---
 title: ESearchSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether ESEARCH extension is supported See more https//tools.ietf.org/html/rfc4731
 type: docs
 weight: 130
 url: /net/aspose.email.clients.imap/imapclient/esearchsupported/

@@ -1,7 +1,7 @@
 ---
 title: ExchangeListMessagesOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the list messages options
 type: docs
 weight: 3370
 url: /net/aspose.email.clients.exchange/exchangelistmessagesoptions/
@@ -15,7 +15,7 @@ Enumerates the list messages options
 public enum ExchangeListMessagesOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

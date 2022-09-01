@@ -1,12 +1,12 @@
 ---
 title: Pop3Client
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the Pop3Clientaspose.email.clients.pop3/pop3client class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.pop3/pop3client/pop3client/
 ---
-## Pop3Client constructor (1 of 13)
+## Pop3Client() {#constructor}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -22,7 +22,7 @@ public Pop3Client()
 
 ---
 
-## Pop3Client constructor (2 of 13)
+## Pop3Client(string) {#constructor_1}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -42,7 +42,7 @@ public Pop3Client(string host)
 
 ---
 
-## Pop3Client constructor (3 of 13)
+## Pop3Client(string, SecurityOptions) {#constructor_2}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -64,7 +64,7 @@ public Pop3Client(string host, SecurityOptions securityOptions)
 
 ---
 
-## Pop3Client constructor (4 of 13)
+## Pop3Client(string, int) {#constructor_3}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -85,7 +85,7 @@ public Pop3Client(string host, int port)
 
 ---
 
-## Pop3Client constructor (5 of 13)
+## Pop3Client(string, int, SecurityOptions) {#constructor_4}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -108,7 +108,7 @@ public Pop3Client(string host, int port, SecurityOptions securityOptions)
 
 ---
 
-## Pop3Client constructor (6 of 13)
+## Pop3Client(string, string, string) {#constructor_11}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -130,7 +130,7 @@ public Pop3Client(string host, string username, string password)
 
 ---
 
-## Pop3Client constructor (7 of 13)
+## Pop3Client(string, string, string, SecurityOptions) {#constructor_12}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -154,7 +154,7 @@ public Pop3Client(string host, string username, string password, SecurityOptions
 
 ---
 
-## Pop3Client constructor (8 of 13)
+## Pop3Client(string, int, string, string) {#constructor_6}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -177,7 +177,7 @@ public Pop3Client(string host, int port, string username, string password)
 
 ---
 
-## Pop3Client constructor (9 of 13)
+## Pop3Client(string, int, string, string, SecurityOptions) {#constructor_7}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -203,7 +203,7 @@ public Pop3Client(string host, int port, string username, string password,
 
 ---
 
-## Pop3Client constructor (10 of 13)
+## Pop3Client(string, int, string, string, bool, SecurityOptions) {#constructor_8}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -230,7 +230,7 @@ public Pop3Client(string host, int port, string username, string authInfo, bool 
 
 ---
 
-## Pop3Client constructor (11 of 13)
+## Pop3Client(string, int, string, ITokenProvider, SecurityOptions) {#constructor_5}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -257,7 +257,7 @@ public Pop3Client(string host, int port, string username, ITokenProvider tokenPr
 
 ---
 
-## Pop3Client constructor (12 of 13)
+## Pop3Client(string, int, string, string, RemoteCertificateValidationCallback) {#constructor_9}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 
@@ -282,7 +282,7 @@ public Pop3Client(string host, int port, string username, string password,
 
 ---
 
-## Pop3Client constructor (13 of 13)
+## Pop3Client(string, int, string, string, RemoteCertificateValidationCallback, SecurityOptions) {#constructor_10}
 
 Initializes a new instance of the [`Pop3Client`](../../pop3client) class
 

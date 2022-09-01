@@ -1,7 +1,7 @@
 ---
 title: AccessRole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The effective access role that the authenticated user has on the calendar.
 type: docs
 weight: 15590
 url: /net/aspose.email.clients.google/accessrole/
@@ -14,7 +14,7 @@ The effective access role that the authenticated user has on the calendar.
 public enum AccessRole
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: CreateFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the new folder
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createfolderasync/
@@ -24,7 +24,7 @@ public Task<ExchangeFolderInfo> CreateFolderAsync(string parentFolderUri, string
 | folderClass | String | The class of new folder |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns folder information
 

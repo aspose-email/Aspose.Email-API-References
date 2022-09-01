@@ -1,7 +1,7 @@
 ---
 title: Method
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The method attribute tells the server about the request method.
 type: docs
 weight: 50
 url: /net/aspose.email.amp/ampform/method/

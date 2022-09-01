@@ -1,9 +1,9 @@
 ---
 title: InstantMessengerAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an instant messanger address.
 type: docs
-weight: 19230
+weight: 19440
 url: /net/aspose.email.personalinfo/instantmessengeraddress/
 ---
 ## InstantMessengerAddress class
@@ -34,11 +34,11 @@ public class InstantMessengerAddress : IComparable<InstantMessengerAddress>,
 | Name | Description |
 | --- | --- |
 | [CompareTo](../../aspose.email.personalinfo/instantmessengeraddress/compareto)(InstantMessengerAddress) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
-| [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals)(InstantMessengerAddress) | Determines whether the specified Object is equal to the current Object. |
-| override [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals)(InstantMessengerAddress, InstantMessengerAddress) | Determines whether the specified object instances are considered equal. |
-| override [GetHashCode](../../aspose.email.personalinfo/instantmessengeraddress/gethashcode)() | GetHashCode returns a hash function for this object. |
-| [GetHashCode](../../aspose.email.personalinfo/instantmessengeraddress/gethashcode)(InstantMessengerAddress) | GetHashCode returns a hash function for specified object. |
+| [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals#equals)(InstantMessengerAddress) | Determines whether the specified Object is equal to the current Object. |
+| override [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals#equals_2)(object) | Determines whether the specified Object is equal to the current Object. |
+| [Equals](../../aspose.email.personalinfo/instantmessengeraddress/equals#equals_1)(InstantMessengerAddress, InstantMessengerAddress) | Determines whether the specified object instances are considered equal. |
+| override [GetHashCode](../../aspose.email.personalinfo/instantmessengeraddress/gethashcode#gethashcode)() | GetHashCode returns a hash function for this object. |
+| [GetHashCode](../../aspose.email.personalinfo/instantmessengeraddress/gethashcode#gethashcode_1)(InstantMessengerAddress) | GetHashCode returns a hash function for specified object. |
 | override [ToString](../../aspose.email.personalinfo/instantmessengeraddress/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.personalinfo/instantmessengeraddress/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/instantmessengeraddress/op_inequality) | Determines whether the specified objects are not equal. |

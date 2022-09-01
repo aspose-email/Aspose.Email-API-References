@@ -1,7 +1,7 @@
 ---
 title: SyncOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies options that control certain aspects of how the synchronization is performed.
 type: docs
 weight: 2270
 url: /net/aspose.email.clients.activesync.transportlayer/syncoptions/

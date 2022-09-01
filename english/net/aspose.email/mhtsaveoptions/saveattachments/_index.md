@@ -1,7 +1,7 @@
 ---
 title: SaveAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether to save attachments.
 type: docs
 weight: 60
 url: /net/aspose.email/mhtsaveoptions/saveattachments/
@@ -14,7 +14,7 @@ Gets or sets a value indicating whether to save attachments.
 public bool SaveAttachments { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if attachments should be saved; otherwise, `false`.
 

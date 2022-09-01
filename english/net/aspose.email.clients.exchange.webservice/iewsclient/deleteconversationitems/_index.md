@@ -1,12 +1,12 @@
 ---
 title: DeleteConversationItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes all items of the specified conversation
 type: docs
 weight: 580
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/deleteconversationitems/
 ---
-## IEWSClient.DeleteConversationItems method (1 of 2)
+## DeleteConversationItems(string) {#deleteconversationitems}
 
 Deletes all items of the specified conversation
 
@@ -32,7 +32,7 @@ public void DeleteConversationItems(string conversationId)
 
 ---
 
-## IEWSClient.DeleteConversationItems method (2 of 2)
+## DeleteConversationItems(string, string) {#deleteconversationitems_1}
 
 Deletes the conversation items, which are located in the specified folder
 

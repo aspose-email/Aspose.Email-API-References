@@ -1,7 +1,7 @@
 ---
 title: ContactFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the The urncontentclassescontactfolder content class that defines a set of properties for a folder that primarily contains contact items.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/contactfolder/
@@ -14,7 +14,7 @@ Gets the The urn:content-classes:contactfolder content class that defines a set 
 public static ContentClassType ContactFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The contact folder content class.
 

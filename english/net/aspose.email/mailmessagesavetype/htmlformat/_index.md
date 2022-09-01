@@ -1,7 +1,7 @@
 ---
 title: HtmlFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Html.
 type: docs
 weight: 30
 url: /net/aspose.email/mailmessagesavetype/htmlformat/
@@ -14,7 +14,7 @@ Gets the Html.
 public static MailMessageSaveType HtmlFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The Html.
 

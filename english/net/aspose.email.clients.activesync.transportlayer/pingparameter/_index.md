@@ -1,7 +1,7 @@
 ---
 title: PingParameter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the ping command parameters
 type: docs
 weight: 1700
 url: /net/aspose.email.clients.activesync.transportlayer/pingparameter/

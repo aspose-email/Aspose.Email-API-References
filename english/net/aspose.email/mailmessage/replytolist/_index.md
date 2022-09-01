@@ -1,9 +1,9 @@
 ---
 title: ReplyToList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the list of addresses to reply to for the mail message
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.email/mailmessage/replytolist/
 ---
 ## MailMessage.ReplyToList property

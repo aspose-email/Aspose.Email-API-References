@@ -1,7 +1,7 @@
 ---
 title: DefaultReminders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The default reminders that the authenticated user has for this calendar.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.google/extendedcalendar/defaultreminders/

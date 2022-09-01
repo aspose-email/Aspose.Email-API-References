@@ -1,7 +1,7 @@
 ---
 title: IsLastActionDateTimeSpecified
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether LastActionDateTime property is specified.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.graph/onenoteoperation/islastactiondatetimespecified/

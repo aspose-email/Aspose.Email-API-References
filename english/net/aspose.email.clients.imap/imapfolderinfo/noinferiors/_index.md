@@ -1,7 +1,7 @@
 ---
 title: NoInferiors
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether this folder can have child levels. If it is True then no child levels exist now and none can be created in the future
 type: docs
 weight: 70
 url: /net/aspose.email.clients.imap/imapfolderinfo/noinferiors/

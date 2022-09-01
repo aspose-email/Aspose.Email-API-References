@@ -1,7 +1,7 @@
 ---
 title: EventId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Event number or identifier.
 type: docs
 weight: 70
 url: /net/aspose.email.tools.logging/logentry/eventid/

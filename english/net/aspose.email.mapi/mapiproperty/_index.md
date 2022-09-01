@@ -1,9 +1,9 @@
 ---
 title: MapiProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the mapi property.
 type: docs
-weight: 18360
+weight: 18570
 url: /net/aspose.email.mapi/mapiproperty/
 ---
 ## MapiProperty class
@@ -18,13 +18,13 @@ public class MapiProperty
 
 | Name | Description |
 | --- | --- |
-| [MapiProperty](mapiproperty)(long) | Initializes a new instance of the MapiProperty class. |
-| [MapiProperty](mapiproperty)(long, byte[]) | Initializes a new instance of the MapiProperty class. |
-| [MapiProperty](mapiproperty)(long, IList&lt;object&gt;) | Initializes a new instance of the [`MapiProperty`](../mapiproperty) class. This overload is used to create a multiple valued property, PT_MV_*. |
-| [MapiProperty](mapiproperty)(PidLidPropertyDescriptor, object) | Initializes a new instance of the MapiProperty class. |
-| [MapiProperty](mapiproperty)(PidTagPropertyDescriptor, object) | Initializes a new instance of the MapiProperty class. |
-| [MapiProperty](mapiproperty)(long, long, byte[]) | Initializes a new instance of the [`MapiProperty`](../mapiproperty) class. |
-| [MapiProperty](mapiproperty)(string, long, long, byte[]) | Initializes a new instance of the MapiProperty class. |
+| [MapiProperty](mapiproperty#constructor_2)(long) | Initializes a new instance of the MapiProperty class. |
+| [MapiProperty](mapiproperty#constructor_3)(long, byte[]) | Initializes a new instance of the MapiProperty class. |
+| [MapiProperty](mapiproperty#constructor_5)(long, IList&lt;object&gt;) | Initializes a new instance of the [`MapiProperty`](../mapiproperty) class. This overload is used to create a multiple valued property, PT_MV_*. |
+| [MapiProperty](mapiproperty#constructor)(PidLidPropertyDescriptor, object) | Initializes a new instance of the MapiProperty class. |
+| [MapiProperty](mapiproperty#constructor_1)(PidTagPropertyDescriptor, object) | Initializes a new instance of the MapiProperty class. |
+| [MapiProperty](mapiproperty#constructor_4)(long, long, byte[]) | Initializes a new instance of the [`MapiProperty`](../mapiproperty) class. |
+| [MapiProperty](mapiproperty#constructor_6)(string, long, long, byte[]) | Initializes a new instance of the MapiProperty class. |
 
 ## Properties
 
@@ -47,8 +47,8 @@ public class MapiProperty
 | --- | --- |
 | static [CreateMapiPropertyFromBytes](../../aspose.email.mapi/mapiproperty/createmapipropertyfrombytes)(long, byte[]) | Creates the mapi property from bytes. |
 | static [CreateMapiPropertyFromDateTime](../../aspose.email.mapi/mapiproperty/createmapipropertyfromdatetime)(long, DateTime) | Creates the mapi property from date time. |
-| static [CreateMapiPropertyFromLong](../../aspose.email.mapi/mapiproperty/createmapipropertyfromlong)(long, long) | Creates the mapi property from long. |
-| static [CreateMapiPropertyFromLong](../../aspose.email.mapi/mapiproperty/createmapipropertyfromlong)(long, long, long) | Creates the mapi property from long. |
+| static [CreateMapiPropertyFromLong](../../aspose.email.mapi/mapiproperty/createmapipropertyfromlong#createmapipropertyfromlong)(long, long) | Creates the mapi property from long. |
+| static [CreateMapiPropertyFromLong](../../aspose.email.mapi/mapiproperty/createmapipropertyfromlong#createmapipropertyfromlong_1)(long, long, long) | Creates the mapi property from long. |
 | virtual [GetBoolean](../../aspose.email.mapi/mapiproperty/getboolean)() | Gets the first bytes of the binary data as boolean. |
 | virtual [GetCurrency](../../aspose.email.mapi/mapiproperty/getcurrency)() | Gets the Currency as string using the specified code page. |
 | virtual [GetDateTime](../../aspose.email.mapi/mapiproperty/getdatetime)() | Gets the first bytes of the binary data as datetime. |
@@ -59,8 +59,8 @@ public class MapiProperty
 | virtual [GetInt32](../../aspose.email.mapi/mapiproperty/getint32)() | Gets the first 4 bytes of the binary data as int32. |
 | virtual [GetLong](../../aspose.email.mapi/mapiproperty/getlong)() | Gets the first 8 bytes of the binary data as long. |
 | virtual [GetShort](../../aspose.email.mapi/mapiproperty/getshort)() | Gets the first 2 bytes of the binary data as short. |
-| virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)() | Gets the binary data as string. |
-| virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring)(int) | Gets the binary data as string using the specified code page. |
+| virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring#getstring)() | Gets the binary data as string. |
+| virtual [GetString](../../aspose.email.mapi/mapiproperty/getstring#getstring_1)(int) | Gets the binary data as string using the specified code page. |
 | [GetValue](../../aspose.email.mapi/mapiproperty/getvalue)() | Gets value as object |
 | override [ToString](../../aspose.email.mapi/mapiproperty/tostring)() | Returns a String that represents the current Object. |
 

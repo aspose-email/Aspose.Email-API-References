@@ -1,7 +1,7 @@
 ---
 title: TimeZone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The time zone of the calendar.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.google/calendar/timezone/

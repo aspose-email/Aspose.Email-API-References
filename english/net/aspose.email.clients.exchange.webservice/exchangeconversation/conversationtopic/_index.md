@@ -1,7 +1,7 @@
 ---
 title: ConversationTopic
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the conversation topic.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/conversationtopic/

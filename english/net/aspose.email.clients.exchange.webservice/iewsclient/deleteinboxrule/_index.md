@@ -1,12 +1,12 @@
 ---
 title: DeleteInboxRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the specified inbox rule
 type: docs
 weight: 630
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/deleteinboxrule/
 ---
-## IEWSClient.DeleteInboxRule method (1 of 2)
+## DeleteInboxRule(string) {#deleteinboxrule}
 
 Deletes the specified inbox rule
 
@@ -32,7 +32,7 @@ public void DeleteInboxRule(string ruleId)
 
 ---
 
-## IEWSClient.DeleteInboxRule method (2 of 2)
+## DeleteInboxRule(string, string) {#deleteinboxrule_1}
 
 Deletes the specified inbox rule
 

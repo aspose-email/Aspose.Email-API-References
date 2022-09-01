@@ -1,12 +1,12 @@
 ---
 title: SelectFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Selects the specified folder
 type: docs
 weight: 1110
 url: /net/aspose.email.clients.imap/imapclient/selectfolder/
 ---
-## ImapClient.SelectFolder method (1 of 4)
+## SelectFolder(IConnection, string) {#selectfolder}
 
 Selects the specified folder
 
@@ -28,7 +28,7 @@ public void SelectFolder(IConnection connection, string folderName)
 
 ---
 
-## ImapClient.SelectFolder method (2 of 4)
+## SelectFolder(IConnection, string, bool?) {#selectfolder_1}
 
 Selects the specified folder
 
@@ -51,7 +51,7 @@ public void SelectFolder(IConnection connection, string folderName, bool? readOn
 
 ---
 
-## ImapClient.SelectFolder method (3 of 4)
+## SelectFolder(string) {#selectfolder_2}
 
 Selects the specified folder
 
@@ -71,7 +71,7 @@ public void SelectFolder(string folderName)
 
 ---
 
-## ImapClient.SelectFolder method (4 of 4)
+## SelectFolder(string, bool?) {#selectfolder_3}
 
 Selects the specified folder
 

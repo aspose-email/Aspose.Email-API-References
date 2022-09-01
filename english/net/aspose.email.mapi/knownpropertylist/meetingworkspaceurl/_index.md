@@ -1,7 +1,7 @@
 ---
 title: MeetingWorkspaceUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the URL of the Meeting Workspace that is associated with a Calendar object. Area Meetings Canonical name PidLidMeetingWorkspaceUrl Alternate names dispidMWSURL
 type: docs
 weight: 12410
 url: /net/aspose.email.mapi/knownpropertylist/meetingworkspaceurl/

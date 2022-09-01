@@ -1,7 +1,7 @@
 ---
 title: FolderId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the Folder ID FID MSOXCDATA section 2.2.1.1 of the folder. Area ID Properties Canonical name PidTagFolderId Alternate names ptagFID
 type: docs
 weight: 10430
 url: /net/aspose.email.mapi/knownpropertylist/folderid/

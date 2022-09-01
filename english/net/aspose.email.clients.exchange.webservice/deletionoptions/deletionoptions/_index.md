@@ -1,12 +1,12 @@
 ---
 title: DeletionOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/deletionoptions/deletionoptions/
 ---
-## DeletionOptions constructor (1 of 2)
+## DeletionOptions() {#constructor}
 
 Initializes a new instance of the [`DeletionOptions`](../../deletionoptions) class.
 
@@ -22,7 +22,7 @@ public DeletionOptions()
 
 ---
 
-## DeletionOptions constructor (2 of 2)
+## DeletionOptions(DeletionType) {#constructor_1}
 
 Initializes a new instance of the [`DeletionOptions`](../../deletionoptions) class.
 

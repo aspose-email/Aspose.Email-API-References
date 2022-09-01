@@ -1,12 +1,12 @@
 ---
 title: CreateFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the new folder with the specified name in the specified parent folder.
 type: docs
 weight: 500
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createfolder/
 ---
-## IEWSClient.CreateFolder method (1 of 6)
+## CreateFolder(string, string) {#createfolder_2}
 
 Creates the new folder with the specified name in the specified parent folder.
 
@@ -34,7 +34,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name)
 
 ---
 
-## IEWSClient.CreateFolder method (2 of 6)
+## CreateFolder(string, string, ExchangeFolderPermissionCollection) {#createfolder_3}
 
 Creates the new folder
 
@@ -49,7 +49,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name,
 | name | String | The name of new folder |
 | permissions | ExchangeFolderPermissionCollection | A permission on new folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -63,7 +63,7 @@ Returns folder information
 
 ---
 
-## IEWSClient.CreateFolder method (3 of 6)
+## CreateFolder(string, string, ExchangeFolderPermissionCollection, string) {#createfolder_4}
 
 Creates the new folder
 
@@ -79,7 +79,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name,
 | permissions | ExchangeFolderPermissionCollection | A permission on new folder |
 | folderClass | String | The class of new folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -93,7 +93,7 @@ Returns folder information
 
 ---
 
-## IEWSClient.CreateFolder method (4 of 6)
+## CreateFolder(string, ExchangeFolderType) {#createfolder_1}
 
 Creates new folder in the root folder.
 
@@ -106,7 +106,7 @@ public ExchangeFolderInfo CreateFolder(string name, ExchangeFolderType folderTyp
 | name | String | The name of new folder |
 | folderType | ExchangeFolderType | Type of folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -120,7 +120,7 @@ Returns folder information
 
 ---
 
-## IEWSClient.CreateFolder method (5 of 6)
+## CreateFolder(string, string, ExchangeFolderType) {#createfolder_5}
 
 Creates the new folder
 
@@ -135,7 +135,7 @@ public ExchangeFolderInfo CreateFolder(string parentFolderUri, string name,
 | name | String | The name of new folder |
 | folderType | ExchangeFolderType | Type of folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 
@@ -149,7 +149,7 @@ Returns folder information
 
 ---
 
-## IEWSClient.CreateFolder method (6 of 6)
+## CreateFolder(string) {#createfolder}
 
 Creates new folder in the root folder.
 
@@ -161,7 +161,7 @@ public ExchangeFolderInfo CreateFolder(string name)
 | --- | --- | --- |
 | name | String | The name of new folder |
 
-## Return Value
+### Return Value
 
 Returns folder information
 

@@ -1,7 +1,7 @@
 ---
 title: CreateRuleMoveContaining
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates inbox rule that moves messages containing the specified strings in either the body or the subject into the specified folder
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/inboxrule/createrulemovecontaining/
@@ -19,7 +19,7 @@ public static InboxRule CreateRuleMoveContaining(string[] filter, string destina
 | filter | String[] | A strings to search |
 | destinationFolderId | String | An id of folder in which messages will be moved |
 
-## Return Value
+### Return Value
 
 A created [`InboxRule`](../../inboxrule)
 

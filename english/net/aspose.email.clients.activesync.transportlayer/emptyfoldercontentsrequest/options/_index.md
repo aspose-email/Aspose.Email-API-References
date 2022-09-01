@@ -1,7 +1,7 @@
 ---
 title: Options
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the options for the ItemOperations.EmptyFolderContents operation
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/emptyfoldercontentsrequest/options/

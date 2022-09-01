@@ -1,7 +1,7 @@
 ---
 title: ByDay
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the by day.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar.recurrences/recurrencerule/byday/
@@ -14,7 +14,7 @@ Gets the by day.
 public ByDayCollection ByDay { get; }
 ```
 
-## Property Value
+### Property Value
 
 The by day.
 

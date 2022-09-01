@@ -1,9 +1,9 @@
 ---
 title: ICommand
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines a command.
 type: docs
-weight: 16130
+weight: 16150
 url: /net/aspose.email.clients/icommand/
 ---
 ## ICommand interface
@@ -25,12 +25,6 @@ public interface ICommand : IDisposable
 | Name | Description |
 | --- | --- |
 | [Execute](../../aspose.email.clients/icommand/execute)() | Defines the method to be called when the command is invoked. |
-
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [CanExecuteChanged](canexecutechanged) | Occurs when changes occur that affect whether or not the command should execute. |
 
 ### See Also
 

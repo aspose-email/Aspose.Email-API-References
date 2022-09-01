@@ -1,12 +1,12 @@
 ---
 title: MoveAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves an appointment to another calendar.
 type: docs
 weight: 290
 url: /net/aspose.email.clients.google/igmailclient/moveappointment/
 ---
-## IGmailClient.MoveAppointment method (1 of 2)
+## MoveAppointment(string, string, string) {#moveappointment}
 
 Moves an appointment to another calendar.
 
@@ -21,7 +21,7 @@ public Appointment MoveAppointment(string sourceCalendarId, string destinationCa
 | destinationCalendarId | String | Identifier of destination calendar. |
 | appointmentId | String | Appointment identifier. |
 
-## Return Value
+### Return Value
 
 Returns moved appointment.
 
@@ -34,7 +34,7 @@ Returns moved appointment.
 
 ---
 
-## IGmailClient.MoveAppointment method (2 of 2)
+## MoveAppointment(string, string, string, bool) {#moveappointment_1}
 
 Moves an appointment to another calendar.
 
@@ -50,7 +50,7 @@ public Appointment MoveAppointment(string sourceCalendarId, string destinationCa
 | appointmentId | String | Appointment identifier. |
 | sendNotifications | Boolean | Specifies whether notification should be sent. |
 
-## Return Value
+### Return Value
 
 Returns moved appointment.
 

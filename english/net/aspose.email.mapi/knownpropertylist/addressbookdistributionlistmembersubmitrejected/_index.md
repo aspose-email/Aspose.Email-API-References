@@ -1,7 +1,7 @@
 ---
 title: AddressBookDistributionListMemberSubmitRejected
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that delivery restrictions exist for a recipient. Area Address Book Canonical name PidTagAddressBookDistributionListMemberSubmitRejected Alternate names PR_EMS_AB_DL_MEM_SUBMIT_PERMS
 type: docs
 weight: 420
 url: /net/aspose.email.mapi/knownpropertylist/addressbookdistributionlistmembersubmitrejected/

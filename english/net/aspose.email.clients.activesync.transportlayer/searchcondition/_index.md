@@ -1,7 +1,7 @@
 ---
 title: SearchCondition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a condition for search requests
 type: docs
 weight: 1940
 url: /net/aspose.email.clients.activesync.transportlayer/searchcondition/

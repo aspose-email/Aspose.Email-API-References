@@ -1,7 +1,7 @@
 ---
 title: DestMailboxOwnerMasterAccountSid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set only if the CrossMailboxOperations parameter is True. Specifies the SID for the master account SID of the target mailbox owner.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/destmailboxownermasteraccountsid/

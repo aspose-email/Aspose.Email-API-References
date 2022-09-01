@@ -1,7 +1,7 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts status to int value
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/status/op_implicit/
@@ -18,7 +18,7 @@ public static implicit operator int(Status status)
 | --- | --- | --- |
 | status | Status | Object to convert. |
 
-## Return Value
+### Return Value
 
 Returns status code value.
 

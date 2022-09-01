@@ -1,7 +1,7 @@
 ---
 title: Reply
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reply to the senders message.
 type: docs
 weight: 1320
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/reply/

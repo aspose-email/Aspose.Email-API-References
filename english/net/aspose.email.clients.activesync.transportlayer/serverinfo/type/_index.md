@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server type The following are the valid values for the Type element MobileSync  Indicates that the URL that is returned by the URL element section 2.2.3.172 can be accessed by clients. CertEnroll  Indicates that the URL that is returned by the URL element can be accessed by clients to obtain a client certificate for Secure Sockets Layer SSL negotiation.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/serverinfo/type/

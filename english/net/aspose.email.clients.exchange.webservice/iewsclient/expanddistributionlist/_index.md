@@ -1,7 +1,7 @@
 ---
 title: ExpandDistributionList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Expands the public Distribution List members.
 type: docs
 weight: 690
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/expanddistributionlist/
@@ -18,7 +18,7 @@ public MailAddressCollection ExpandDistributionList(MailAddress mailAddress)
 | --- | --- | --- |
 | mailAddress | MailAddress | A public [`MailAddress`](../../../aspose.email/mailaddress) to expand. |
 
-## Return Value
+### Return Value
 
 A [`MailAddressCollection`](../../../aspose.email/mailaddresscollection) that contains members from the specified public Distribution List.
 

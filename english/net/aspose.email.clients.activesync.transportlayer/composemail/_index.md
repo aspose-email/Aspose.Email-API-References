@@ -1,7 +1,7 @@
 ---
 title: ComposeMail
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ComposeMail namespace of the ActiveSync protocol
 type: docs
 weight: 1120
 url: /net/aspose.email.clients.activesync.transportlayer/composemail/
@@ -14,7 +14,7 @@ ComposeMail namespace of the ActiveSync protocol
 public enum ComposeMail
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

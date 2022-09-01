@@ -1,7 +1,7 @@
 ---
 title: ColorId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The color of the calendar. This is an ID referring to an entry in the calendar section of the colors definition see the colors endpoint.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.google/extendedcalendar/colorid/

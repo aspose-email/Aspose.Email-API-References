@@ -1,7 +1,7 @@
 ---
 title: ConversationId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the conversation that has to be moved.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/conversationid/

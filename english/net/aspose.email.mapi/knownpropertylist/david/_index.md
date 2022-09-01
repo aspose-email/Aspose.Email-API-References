@@ -1,7 +1,7 @@
 ---
 title: DavId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a unique ID for the calendar item. Area Common Canonical name PidNameDavId Alternate names DAVid
 type: docs
 weight: 3640
 url: /net/aspose.email.mapi/knownpropertylist/david/

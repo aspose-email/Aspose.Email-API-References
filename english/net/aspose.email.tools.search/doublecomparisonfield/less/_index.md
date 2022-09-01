@@ -1,7 +1,7 @@
 ---
 title: Less
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field must be less than the specified value.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.search/doublecomparisonfield/less/
@@ -18,7 +18,7 @@ public MailQuery Less(double value)
 | --- | --- | --- |
 | value | Double | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

@@ -1,7 +1,7 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server ID of the collection from which the item estimate is being obtained.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/itemestimate/collectionid/

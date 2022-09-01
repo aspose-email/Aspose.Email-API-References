@@ -1,7 +1,7 @@
 ---
 title: RecipientType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the type of recipient.
 type: docs
 weight: 1800
 url: /net/aspose.email.clients.activesync.transportlayer/recipienttype/
@@ -14,7 +14,7 @@ Indicates the type of recipient.
 public enum RecipientType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

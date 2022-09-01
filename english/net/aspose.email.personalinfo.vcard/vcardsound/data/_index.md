@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a sound data null if valueLocation is not inline
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo.vcard/vcardsound/data/

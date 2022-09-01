@@ -1,7 +1,7 @@
 ---
 title: GreaterOrEqual
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field must be greater or equal to the specified value.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.search/intcomparisonfield/greaterorequal/
@@ -18,7 +18,7 @@ public MailQuery GreaterOrEqual(int value)
 | --- | --- | --- |
 | value | Int32 | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

@@ -1,7 +1,7 @@
 ---
 title: ExchDataExpectedContentClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies an array of names that indicates the expected content classes of items within a folder. Area Common Canonical name PidNameExchDataExpectedContentClass Alternate names urnschemasmicrosoftcomexchdataexpectedcontentclass
 type: docs
 weight: 9910
 url: /net/aspose.email.mapi/knownpropertylist/exchdataexpectedcontentclass/

@@ -1,7 +1,7 @@
 ---
 title: SentRepresentingAddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the address type for the messaging user represented by the sender.
 type: docs
 weight: 260
 url: /net/aspose.email.mapi/mapimessage/sentrepresentingaddresstype/
@@ -14,7 +14,7 @@ Gets the address type for the messaging user represented by the sender.
 public string SentRepresentingAddressType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents sent representing address type.
 

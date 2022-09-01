@@ -1,7 +1,7 @@
 ---
 title: MultipleServicesTokenProvider
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an object allows to retrieve OAuth access token.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activity/activityclient/multipleservicestokenprovider/

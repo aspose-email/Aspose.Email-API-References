@@ -1,7 +1,7 @@
 ---
 title: EditTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the time that the file was last edited. Area Common Canonical name PidNameEditTime Alternate names urnschemasmicrosoftcomofficeofficeTotalTime
 type: docs
 weight: 4280
 url: /net/aspose.email.mapi/knownpropertylist/edittime/

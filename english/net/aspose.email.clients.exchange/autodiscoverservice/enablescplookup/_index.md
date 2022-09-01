@@ -1,7 +1,7 @@
 ---
 title: EnableScpLookup
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the AutodiscoverService should perform SCP ServiceConnectionPoint record lookup when determining the Autodiscover service URL.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/autodiscoverservice/enablescplookup/

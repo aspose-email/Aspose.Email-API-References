@@ -1,12 +1,12 @@
 ---
 title: HeaderCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the HeaderCollectionaspose.email.mime/headercollection class.
 type: docs
 weight: 10
 url: /net/aspose.email.mime/headercollection/headercollection/
 ---
-## HeaderCollection constructor (1 of 2)
+## HeaderCollection(HeaderCollection) {#constructor_1}
 
 Initializes a new instance of the [`HeaderCollection`](../../headercollection) class.
 
@@ -26,7 +26,7 @@ public HeaderCollection(HeaderCollection col)
 
 ---
 
-## HeaderCollection constructor (2 of 2)
+## HeaderCollection() {#constructor}
 
 Initializes a new instance of the [`HeaderCollection`](../../headercollection) class.
 

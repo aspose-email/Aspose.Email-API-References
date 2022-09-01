@@ -1,7 +1,7 @@
 ---
 title: UserInformationResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains status of the request and a list of a users account information email addresses.
 type: docs
 weight: 2310
 url: /net/aspose.email.clients.activesync.transportlayer/userinformationresponse/

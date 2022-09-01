@@ -1,12 +1,12 @@
 ---
 title: FromRecurrence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a recurrence pattern from XML pattern string.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/fromrecurrence/
 ---
-## CalendarRecurrence.FromRecurrence method (1 of 2)
+## FromRecurrence(string) {#fromrecurrence}
 
 Gets a recurrence pattern from XML pattern string.
 
@@ -18,7 +18,7 @@ public static CalendarRecurrence FromRecurrence(string xmlString)
 | --- | --- | --- |
 | xmlString | String | XML stringString of pattern. |
 
-## Return Value
+### Return Value
 
 Recurrence pattern[`CalendarRecurrence`](../../calendarrecurrence).
 
@@ -30,7 +30,7 @@ Recurrence pattern[`CalendarRecurrence`](../../calendarrecurrence).
 
 ---
 
-## CalendarRecurrence.FromRecurrence method (2 of 2)
+## FromRecurrence(XmlElement) {#fromrecurrence_1}
 
 Gets a recurrence pattern from XmlElement.
 
@@ -42,7 +42,7 @@ public static CalendarRecurrence FromRecurrence(XmlElement xmlElement)
 | --- | --- | --- |
 | xmlElement | XmlElement | XmlElementXmlElement of pattern. |
 
-## Return Value
+### Return Value
 
 Recurrence pattern[`CalendarRecurrence`](../../calendarrecurrence).
 

@@ -1,7 +1,7 @@
 ---
 title: MailgunRegion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the Mailgun Region
 type: docs
 weight: 2990
 url: /net/aspose.email.clients.deliveryservice.mailgun/mailgunregion/
@@ -14,7 +14,7 @@ Represents the Mailgun Region
 public enum MailgunRegion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

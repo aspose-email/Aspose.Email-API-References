@@ -1,7 +1,7 @@
 ---
 title: TimeoutBetweenAttempts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which defines timeout in milliseconds between attemptions to execute operation again This option has to be used together with NumberOfAttemptsToRrepeat option.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.imap/backupsettings/timeoutbetweenattempts/

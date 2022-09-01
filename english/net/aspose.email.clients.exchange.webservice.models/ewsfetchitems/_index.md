@@ -1,7 +1,7 @@
 ---
 title: EwsFetchItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents FetchItemsAsync../aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemsasync parameters.
 type: docs
 weight: 4060
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/

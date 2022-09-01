@@ -1,12 +1,12 @@
 ---
 title: Merge
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Merge a source MailMessage with the template
 type: docs
 weight: 40
 url: /net/aspose.email.tools.merging/templateengine/merge/
 ---
-## TemplateEngine.Merge method (1 of 2)
+## Merge(MailMessage) {#merge}
 
 Merge a source MailMessage with the template
 
@@ -18,7 +18,7 @@ public MailMessage Merge(MailMessage source)
 | --- | --- | --- |
 | source | MailMessage | The source MailMessage |
 
-## Return Value
+### Return Value
 
 The MailMessage merged with template
 
@@ -31,7 +31,7 @@ The MailMessage merged with template
 
 ---
 
-## TemplateEngine.Merge method (2 of 2)
+## Merge(DataRow) {#merge_1}
 
 Merge a source DataRow with the template.
 
@@ -43,7 +43,7 @@ public MailMessage Merge(DataRow row)
 | --- | --- | --- |
 | row | DataRow | The source DataRow. |
 
-## Return Value
+### Return Value
 
 The MailMessage merged with template.
 

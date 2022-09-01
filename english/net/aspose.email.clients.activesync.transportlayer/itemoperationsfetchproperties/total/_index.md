@@ -1,7 +1,7 @@
 ---
 title: Total
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the total size of an item on the server in bytes.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/total/

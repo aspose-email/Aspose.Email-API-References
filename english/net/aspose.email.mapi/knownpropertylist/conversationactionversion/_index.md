@@ -1,7 +1,7 @@
 ---
 title: ConversationActionVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the version of the conversation action FAI message. Area Conversation Actions Canonical name PidLidConversationActionVersion Alternate names dispidConvActionVersion
 type: docs
 weight: 3380
 url: /net/aspose.email.mapi/knownpropertylist/conversationactionversion/

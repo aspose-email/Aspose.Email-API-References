@@ -1,7 +1,7 @@
 ---
 title: Class
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the class of the item. The valid airsyncClass element values are  Tasks  Email  Calendar  Contacts  Notes  SMS The following classes are supported for mailbox searches when the protocol version is 12.1 Email Calendar Contacts Tasks. The SMS and Notes classes are only available if the protocol version is 14.0 or 14.1. The Search request can include one or more Class elements in the request to limit the type of data included in the Search response. If one or more Class elements are not included in the Search request the server will return all supported classes. If the Class is included as a child of any element other than the And element the server responds with a Status value of 8 SearchTooComplex.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/querytype/class/

@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the subject of the file attached to the Document object. Area Common Canonical name PidNameSubject Alternate names urnschemasmicrosoftcomofficeofficeSubject
 type: docs
 weight: 18340
 url: /net/aspose.email.mapi/knownpropertylist/subject/

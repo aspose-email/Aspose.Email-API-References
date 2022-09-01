@@ -1,7 +1,7 @@
 ---
 title: PreserveOriginalAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether it is necessary to keep original value of mail addresses without validation.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapiconversionoptions/preserveoriginaladdresses/

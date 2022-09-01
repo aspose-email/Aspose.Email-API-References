@@ -1,7 +1,7 @@
 ---
 title: Hour
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the hour
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendartimezonerule/hour/

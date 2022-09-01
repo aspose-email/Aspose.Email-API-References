@@ -1,12 +1,12 @@
 ---
 title: GetMailboxSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the size of the maibox
 type: docs
 weight: 240
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/getmailboxsize/
 ---
-## ExchangeClient.GetMailboxSize method (1 of 2)
+## GetMailboxSize() {#getmailboxsize}
 
 Get the size of the maibox
 
@@ -14,7 +14,7 @@ Get the size of the maibox
 public long GetMailboxSize()
 ```
 
-## Return Value
+### Return Value
 
 The size of the mailbox
 
@@ -26,7 +26,7 @@ The size of the mailbox
 
 ---
 
-## ExchangeClient.GetMailboxSize method (2 of 2)
+## GetMailboxSize(string) {#getmailboxsize_1}
 
 Get the size of the maibox
 
@@ -38,7 +38,7 @@ public long GetMailboxSize(string mailbox)
 | --- | --- | --- |
 | mailbox | String | A mailbox. Note: if it is set to `null` or `empty` the default mailbox will be used |
 
-## Return Value
+### Return Value
 
 The size of the mailbox
 

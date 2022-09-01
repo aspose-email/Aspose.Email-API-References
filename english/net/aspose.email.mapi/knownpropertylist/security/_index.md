@@ -1,7 +1,7 @@
 ---
 title: Security
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the security level of the file attached to the Document object. Area Common Canonical name PidNameSecurity Alternate names urnschemasmicrosoftcomofficeofficeSecurity
 type: docs
 weight: 17060
 url: /net/aspose.email.mapi/knownpropertylist/security/

@@ -1,7 +1,7 @@
 ---
 title: ActionXhr
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a server endpoint to handle the form input and submit the form via XMLHttpRequest XHR.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/ampform/actionxhr/

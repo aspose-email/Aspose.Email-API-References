@@ -1,7 +1,7 @@
 ---
 title: Isdn
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default isdn phone number
 type: docs
 weight: 110
 url: /net/aspose.email.personalinfo/phonenumberlist/isdn/

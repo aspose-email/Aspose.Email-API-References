@@ -1,7 +1,7 @@
 ---
 title: StoreType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains infarmation that specify the location for the operations.
 type: docs
 weight: 2120
 url: /net/aspose.email.clients.activesync.transportlayer/storetype/
@@ -14,7 +14,7 @@ Contains infarmation that specify the location, for the operations.
 public enum StoreType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

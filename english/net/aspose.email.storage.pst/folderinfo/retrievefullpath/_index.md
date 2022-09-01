@@ -1,7 +1,7 @@
 ---
 title: RetrieveFullPath
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves the full path of folder within the PST file.
 type: docs
 weight: 340
 url: /net/aspose.email.storage.pst/folderinfo/retrievefullpath/
@@ -14,7 +14,7 @@ Retrieves the full path of folder within the PST file.
 public string RetrieveFullPath()
 ```
 
-## Return Value
+### Return Value
 
 The string that represents the full path.
 

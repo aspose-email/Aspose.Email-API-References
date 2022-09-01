@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets object identification information
 type: docs
 weight: 60
 url: /net/aspose.email/mailaddress/id/

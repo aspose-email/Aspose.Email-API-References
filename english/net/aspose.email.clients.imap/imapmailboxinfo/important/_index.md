@@ -1,7 +1,7 @@
 ---
 title: Important
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets mailbox is used to hold messages that have been marked as important. Please note this value may be null if server does not support rfc8457 or folder has not been created.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/imapmailboxinfo/important/

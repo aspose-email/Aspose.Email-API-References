@@ -1,7 +1,7 @@
 ---
 title: FromString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates MapiCalendarRecurrencePattern from string pattern of recurrence rule.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicalendarrecurrencepatternfactory/fromstring/

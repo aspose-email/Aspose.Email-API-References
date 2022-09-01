@@ -1,7 +1,7 @@
 ---
 title: Tasks
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Tasks namespace of the ActiveSync protocol
 type: docs
 weight: 2290
 url: /net/aspose.email.clients.activesync.transportlayer/tasks/
@@ -14,7 +14,7 @@ Tasks namespace of the ActiveSync protocol
 public enum Tasks
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

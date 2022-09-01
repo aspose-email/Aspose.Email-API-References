@@ -1,12 +1,12 @@
 ---
 title: MapiTask
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiTaskaspose.email.mapi/mapitask class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapitask/mapitask/
 ---
-## MapiTask constructor (1 of 2)
+## MapiTask() {#constructor}
 
 Initializes a new instance of the [`MapiTask`](../../mapitask) class.
 
@@ -22,7 +22,7 @@ public MapiTask()
 
 ---
 
-## MapiTask constructor (2 of 2)
+## MapiTask(string, string, DateTime, DateTime) {#constructor_1}
 
 Initializes a new instance of the [`MapiTask`](../../mapitask) class.
 

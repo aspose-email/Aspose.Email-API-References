@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoFreeBusyTentative
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the blocks of times for which the free/busy status is set to a value of tentative. Area Free/Busy Properties Canonical name PidTagScheduleInfoFreeBusyTentative Alternate names PR_SCHDINFO_FREEBUSY_TENTATIVE
 type: docs
 weight: 16850
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusytentative/

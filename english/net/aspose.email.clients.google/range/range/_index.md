@@ -1,12 +1,12 @@
 ---
 title: Range
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the Range class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/range/range/
 ---
-## Range constructor (1 of 2)
+## Range() {#constructor}
 
 Initializes a new instance of the Range class.
 
@@ -22,7 +22,7 @@ public Range()
 
 ---
 
-## Range constructor (2 of 2)
+## Range(DateTime, DateTime) {#constructor_1}
 
 Initializes a new instance of the Range class.
 

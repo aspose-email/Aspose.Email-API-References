@@ -1,7 +1,7 @@
 ---
 title: AddressBookContainerId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the ID of a container on an NSPI server. Area Address Book Canonical name PidTagAddressBookContainerId Alternate names PR_EMS_AB_CONTAINERID
 type: docs
 weight: 340
 url: /net/aspose.email.mapi/knownpropertylist/addressbookcontainerid/

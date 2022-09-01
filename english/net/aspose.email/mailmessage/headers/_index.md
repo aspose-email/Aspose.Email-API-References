@@ -1,7 +1,7 @@
 ---
 title: Headers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets headers collection of message
 type: docs
 weight: 140
 url: /net/aspose.email/mailmessage/headers/

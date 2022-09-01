@@ -1,12 +1,12 @@
 ---
 title: GetMailboxInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the mailbox status info
 type: docs
 weight: 150
 url: /net/aspose.email.clients.pop3/pop3client/getmailboxinfo/
 ---
-## Pop3Client.GetMailboxInfo method (1 of 4)
+## GetMailboxInfo(IConnection) {#getmailboxinfo_1}
 
 Gets the mailbox status info
 
@@ -18,7 +18,7 @@ public Pop3MailboxInfo GetMailboxInfo(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Mailbox information
 
@@ -32,7 +32,7 @@ Mailbox information
 
 ---
 
-## Pop3Client.GetMailboxInfo method (2 of 4)
+## GetMailboxInfo(IConnection, bool) {#getmailboxinfo_2}
 
 Gets the mailbox status info
 
@@ -45,7 +45,7 @@ public Pop3MailboxInfo GetMailboxInfo(IConnection connection, bool closeTransact
 | connection | IConnection | Connection to a server |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Mailbox information
 
@@ -59,7 +59,7 @@ Mailbox information
 
 ---
 
-## Pop3Client.GetMailboxInfo method (3 of 4)
+## GetMailboxInfo(bool) {#getmailboxinfo_3}
 
 Gets the mailbox status info
 
@@ -71,7 +71,7 @@ public Pop3MailboxInfo GetMailboxInfo(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Mailbox information
 
@@ -84,7 +84,7 @@ Mailbox information
 
 ---
 
-## Pop3Client.GetMailboxInfo method (4 of 4)
+## GetMailboxInfo() {#getmailboxinfo}
 
 Gets the mailbox status info
 
@@ -92,7 +92,7 @@ Gets the mailbox status info
 public Pop3MailboxInfo GetMailboxInfo()
 ```
 
-## Return Value
+### Return Value
 
 Mailbox information
 

@@ -1,7 +1,7 @@
 ---
 title: ErrorMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Error Messages
 type: docs
 weight: 20
 url: /net/aspose.email.clients.deliveryservice/deliveryserviceresponse-1/errormessages/

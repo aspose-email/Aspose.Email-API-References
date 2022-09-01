@@ -1,7 +1,7 @@
 ---
 title: GetOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The GetOptions static method is used to discover what protocol versions are supported and which protocol commands are supported on the server. The client uses the GetOptions static method to determine whether the server supports the same versions of the protocol that the client supports.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.activesync.transportlayer/activesynctlclient/getoptions/
@@ -22,7 +22,7 @@ public static ASProtocolVersions GetOptions(string uri, NetworkCredential creden
 | supportedServerCommands | String[]& | Out parameter, returns supported protocol commands |
 | supportedServerProtocols | String[]& | Out parameter, returns supported versions of the protocol |
 
-## Return Value
+### Return Value
 
 Returns latest supported protocol version
 

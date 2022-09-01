@@ -1,7 +1,7 @@
 ---
 title: DecodeSignedContent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether signed message will be decoded.
 type: docs
 weight: 20
 url: /net/aspose.email/msgloadoptions/decodesignedcontent/
@@ -14,7 +14,7 @@ Gets or sets a value indicating whether signed message will be decoded.
 public bool DecodeSignedContent { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if signed message will be decoded; otherwise, `false`.
 

@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the status of the users progress on the task.
 type: docs
 weight: 200
 url: /net/aspose.email.mapi/mapitask/status/

@@ -1,7 +1,7 @@
 ---
 title: OofState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the availability of the Oof property.
 type: docs
 weight: 1660
 url: /net/aspose.email.clients.activesync.transportlayer/oofstate/
@@ -14,7 +14,7 @@ Specifies the availability of the Oof property.
 public enum OofState
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

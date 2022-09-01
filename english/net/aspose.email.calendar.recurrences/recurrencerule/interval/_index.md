@@ -1,7 +1,7 @@
 ---
 title: Interval
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the interval.
 type: docs
 weight: 150
 url: /net/aspose.email.calendar.recurrences/recurrencerule/interval/
@@ -14,7 +14,7 @@ Gets or sets the interval.
 public int Interval { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The interval.
 

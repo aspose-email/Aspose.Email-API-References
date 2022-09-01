@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether access to the ICollection is synchronized thread safe.
 type: docs
 weight: 100
 url: /net/aspose.email.personalinfo/associatedpersonslist/issynchronized/
@@ -14,7 +14,7 @@ Gets a value indicating whether access to the ICollection is synchronized (threa
 public bool IsSynchronized { get; }
 ```
 
-## Return Value
+### Return Value
 
 true if access to the ICollection is synchronized (thread safe); otherwise, false.
 

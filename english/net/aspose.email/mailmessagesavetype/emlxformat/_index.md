@@ -1,7 +1,7 @@
 ---
 title: EmlxFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the emlx.
 type: docs
 weight: 20
 url: /net/aspose.email/mailmessagesavetype/emlxformat/
@@ -14,7 +14,7 @@ Gets the emlx.
 public static MailMessageSaveType EmlxFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The emlx.
 

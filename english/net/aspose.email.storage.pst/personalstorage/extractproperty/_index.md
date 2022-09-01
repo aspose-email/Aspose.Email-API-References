@@ -1,7 +1,7 @@
 ---
 title: ExtractProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the specified property of item without extract the item fully.
 type: docs
 weight: 190
 url: /net/aspose.email.storage.pst/personalstorage/extractproperty/
@@ -19,7 +19,7 @@ public MapiProperty ExtractProperty(byte[] entryId, long tag)
 | entryId | Byte[] | The entry id of item. |
 | tag | Int64 | The property tag. |
 
-## Return Value
+### Return Value
 
 The MapiProperty.
 

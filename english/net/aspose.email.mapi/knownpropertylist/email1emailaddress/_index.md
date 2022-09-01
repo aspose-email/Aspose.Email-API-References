@@ -1,7 +1,7 @@
 ---
 title: Email1EmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the email address of the contact. Area Contact Properties Canonical name PidLidEmail1EmailAddress Alternate names dispidEmail1EmailAddress
 type: docs
 weight: 4340
 url: /net/aspose.email.mapi/knownpropertylist/email1emailaddress/

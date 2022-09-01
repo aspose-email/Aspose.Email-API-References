@@ -1,7 +1,7 @@
 ---
 title: TimeMin
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The start of the interval for the query.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.google/freebusyresponse/timemin/

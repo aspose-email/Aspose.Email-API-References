@@ -1,12 +1,12 @@
 ---
 title: ContentDisposition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ContentDispositionaspose.email.mime/contentdisposition class.
 type: docs
 weight: 10
 url: /net/aspose.email.mime/contentdisposition/contentdisposition/
 ---
-## ContentDisposition constructor (1 of 2)
+## ContentDisposition() {#constructor}
 
 Initializes a new instance of the [`ContentDisposition`](../../contentdisposition) class.
 
@@ -22,7 +22,7 @@ public ContentDisposition()
 
 ---
 
-## ContentDisposition constructor (2 of 2)
+## ContentDisposition(string) {#constructor_1}
 
 Initializes a new instance of the [`ContentDisposition`](../../contentdisposition) class.
 

@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a MapiProperty item with specified tag.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapipropertycollection/add/
 ---
-## MapiPropertyCollection.Add method (1 of 3)
+## Add(long, MapiProperty) {#add_1}
 
 Adds a MapiProperty item with specified tag.
 
@@ -28,7 +28,7 @@ public virtual void Add(long key, MapiProperty value)
 
 ---
 
-## MapiPropertyCollection.Add method (2 of 3)
+## Add(MapiProperty) {#add}
 
 Adds a MapiProperty item with specified tag.
 
@@ -49,7 +49,7 @@ public virtual void Add(MapiProperty value)
 
 ---
 
-## MapiPropertyCollection.Add method (3 of 3)
+## Add(KeyValuePair&lt;long, MapiProperty&gt;) {#add_2}
 
 ```csharp
 public void Add(KeyValuePair<long, MapiProperty> item)

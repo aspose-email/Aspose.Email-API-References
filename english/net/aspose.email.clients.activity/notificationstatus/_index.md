@@ -12,7 +12,7 @@ url: /net/aspose.email.clients.activity/notificationstatus/
 public enum NotificationStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

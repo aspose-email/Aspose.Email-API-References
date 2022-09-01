@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the recovery password of the client device which is stored by the server. The value of the DevicePassword has a maximum length of 255 characters.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/devicepasswordrequest/password/

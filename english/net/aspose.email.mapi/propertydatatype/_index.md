@@ -1,9 +1,9 @@
 ---
 title: PropertyDataType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: MSOXCDATA Data Structures
 type: docs
-weight: 18800
+weight: 19010
 url: /net/aspose.email.mapi/propertydatatype/
 ---
 ## PropertyDataType enumeration
@@ -14,7 +14,7 @@ url: /net/aspose.email.mapi/propertydatatype/
 public enum PropertyDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

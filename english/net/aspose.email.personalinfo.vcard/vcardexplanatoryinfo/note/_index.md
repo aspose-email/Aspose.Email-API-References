@@ -1,9 +1,9 @@
 ---
 title: Note
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a comments
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/note/
 ---
 ## VCardExplanatoryInfo.Note property

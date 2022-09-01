@@ -1,7 +1,7 @@
 ---
 title: TasksFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for Tasks folder
 type: docs
 weight: 200
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/tasksfoldereventfilter/

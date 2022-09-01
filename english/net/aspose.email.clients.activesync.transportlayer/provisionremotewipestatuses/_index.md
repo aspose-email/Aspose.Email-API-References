@@ -1,7 +1,7 @@
 ---
 title: ProvisionRemoteWipeStatuses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The value indicates the success or failure of a remote wipe operation on the client.
 type: docs
 weight: 1750
 url: /net/aspose.email.clients.activesync.transportlayer/provisionremotewipestatuses/
@@ -14,7 +14,7 @@ The value indicates the success or failure of a remote wipe operation on the cli
 public enum ProvisionRemoteWipeStatuses
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

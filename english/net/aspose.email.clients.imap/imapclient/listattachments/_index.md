@@ -1,7 +1,7 @@
 ---
 title: ListAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message attachments list. Gets an information for each attachment in message.
 type: docs
 weight: 810
 url: /net/aspose.email.clients.imap/imapclient/listattachments/
@@ -18,7 +18,7 @@ public ImapAttachmentInfoCollection ListAttachments(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The message sequence number. |
 
-## Return Value
+### Return Value
 
 [`ImapMessageInfoCollection`](../../imapmessageinfocollection) that represents collection of [`ImapAttachmentInfo`](../../imapattachmentinfo)
 

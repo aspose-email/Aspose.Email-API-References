@@ -1,12 +1,12 @@
 ---
 title: GetApplicationDataList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets list of DataContainers for selected element
 type: docs
 weight: 110
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist/
 ---
-## DataContainer.GetApplicationDataList method (1 of 15)
+## GetApplicationDataList(AirSync) {#getapplicationdatalist}
 
 Gets list of DataContainers for selected element
 
@@ -18,7 +18,7 @@ public List<DataContainer> GetApplicationDataList(AirSync elementName)
 | --- | --- | --- |
 | elementName | AirSync | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -31,7 +31,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (2 of 15)
+## GetApplicationDataList(AirSyncBase) {#getapplicationdatalist_1}
 
 Gets list of DataContainers for selected element
 
@@ -43,7 +43,7 @@ public List<DataContainer> GetApplicationDataList(AirSyncBase elementName)
 | --- | --- | --- |
 | elementName | AirSyncBase | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -56,7 +56,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (3 of 15)
+## GetApplicationDataList(Email) {#getapplicationdatalist_6}
 
 Gets list of DataContainers for selected element
 
@@ -68,7 +68,7 @@ public List<DataContainer> GetApplicationDataList(Email elementName)
 | --- | --- | --- |
 | elementName | Email | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -81,7 +81,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (4 of 15)
+## GetApplicationDataList(Email2) {#getapplicationdatalist_7}
 
 Gets list of DataContainers for selected element
 
@@ -93,7 +93,7 @@ public List<DataContainer> GetApplicationDataList(Email2 elementName)
 | --- | --- | --- |
 | elementName | Email2 | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -106,7 +106,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (5 of 15)
+## GetApplicationDataList(Calendar) {#getapplicationdatalist_2}
 
 Gets list of DataContainers for selected element
 
@@ -118,7 +118,7 @@ public List<DataContainer> GetApplicationDataList(Calendar elementName)
 | --- | --- | --- |
 | elementName | Calendar | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -131,7 +131,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (6 of 15)
+## GetApplicationDataList(DocumentLibrary) {#getapplicationdatalist_5}
 
 Gets list of DataContainers for selected element
 
@@ -143,7 +143,7 @@ public List<DataContainer> GetApplicationDataList(DocumentLibrary elementName)
 | --- | --- | --- |
 | elementName | DocumentLibrary | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -156,7 +156,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (7 of 15)
+## GetApplicationDataList(Contacts) {#getapplicationdatalist_3}
 
 Gets list of DataContainers for selected element
 
@@ -168,7 +168,7 @@ public List<DataContainer> GetApplicationDataList(Contacts elementName)
 | --- | --- | --- |
 | elementName | Contacts | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -181,7 +181,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (8 of 15)
+## GetApplicationDataList(Contacts2) {#getapplicationdatalist_4}
 
 Gets list of DataContainers for selected element
 
@@ -193,7 +193,7 @@ public List<DataContainer> GetApplicationDataList(Contacts2 elementName)
 | --- | --- | --- |
 | elementName | Contacts2 | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -206,7 +206,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (9 of 15)
+## GetApplicationDataList(Tasks) {#getapplicationdatalist_14}
 
 Gets list of DataContainers for selected element
 
@@ -218,7 +218,7 @@ public List<DataContainer> GetApplicationDataList(Tasks elementName)
 | --- | --- | --- |
 | elementName | Tasks | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -231,7 +231,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (10 of 15)
+## GetApplicationDataList(Notes) {#getapplicationdatalist_10}
 
 Gets list of DataContainers for selected element
 
@@ -243,7 +243,7 @@ public List<DataContainer> GetApplicationDataList(Notes elementName)
 | --- | --- | --- |
 | elementName | Notes | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -256,7 +256,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (11 of 15)
+## GetApplicationDataList(RightsManagement) {#getapplicationdatalist_11}
 
 Gets list of DataContainers for selected element
 
@@ -268,7 +268,7 @@ public List<DataContainer> GetApplicationDataList(RightsManagement elementName)
 | --- | --- | --- |
 | elementName | RightsManagement | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -281,7 +281,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (12 of 15)
+## GetApplicationDataList(Settings) {#getapplicationdatalist_13}
 
 Gets list of DataContainers for selected element
 
@@ -293,7 +293,7 @@ public List<DataContainer> GetApplicationDataList(Settings elementName)
 | --- | --- | --- |
 | elementName | Settings | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -306,7 +306,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (13 of 15)
+## GetApplicationDataList(ItemOperations) {#getapplicationdatalist_9}
 
 Gets list of DataContainers for selected element
 
@@ -318,7 +318,7 @@ public List<DataContainer> GetApplicationDataList(ItemOperations elementName)
 | --- | --- | --- |
 | elementName | ItemOperations | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -331,7 +331,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (14 of 15)
+## GetApplicationDataList(GAL) {#getapplicationdatalist_8}
 
 Gets list of DataContainers for selected element
 
@@ -343,7 +343,7 @@ public List<DataContainer> GetApplicationDataList(GAL elementName)
 | --- | --- | --- |
 | elementName | GAL | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 
@@ -356,7 +356,7 @@ Returns list of DataContainers for selected element
 
 ---
 
-## DataContainer.GetApplicationDataList method (15 of 15)
+## GetApplicationDataList(Search) {#getapplicationdatalist_12}
 
 Gets list of DataContainers for selected element
 
@@ -368,7 +368,7 @@ public List<DataContainer> GetApplicationDataList(Search elementName)
 | --- | --- | --- |
 | elementName | Search | Element name |
 
-## Return Value
+### Return Value
 
 Returns list of DataContainers for selected element
 

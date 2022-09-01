@@ -1,9 +1,9 @@
 ---
 title: LoggingException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The exception that is thrown when error is found in logging.
 type: docs
-weight: 20340
+weight: 20570
 url: /net/aspose.email.tools.logging/loggingexception/
 ---
 ## LoggingException class
@@ -18,9 +18,9 @@ public class LoggingException : Exception
 
 | Name | Description |
 | --- | --- |
-| [LoggingException](loggingexception)() | Initializes a new instance of the LoggingException class. |
-| [LoggingException](loggingexception)(string) | Initializes a new instance of the LoggingException class. |
-| [LoggingException](loggingexception)(string, Exception) | Initializes a new instance of the LoggingException class. |
+| [LoggingException](loggingexception#constructor)() | Initializes a new instance of the LoggingException class. |
+| [LoggingException](loggingexception#constructor_1)(string) | Initializes a new instance of the LoggingException class. |
+| [LoggingException](loggingexception#constructor_2)(string, Exception) | Initializes a new instance of the LoggingException class. |
 
 ### See Also
 

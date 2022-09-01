@@ -1,9 +1,9 @@
 ---
 title: FailureItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the item type that retrieval failed during the traversal.
 type: docs
-weight: 17190
+weight: 17360
 url: /net/aspose.email.exceptions/failureitem/
 ---
 ## FailureItem enumeration
@@ -14,7 +14,7 @@ Indicates the item type that retrieval failed during the traversal.
 public enum FailureItem
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

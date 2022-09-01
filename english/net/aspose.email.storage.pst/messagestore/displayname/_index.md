@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the display Name of PST.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/messagestore/displayname/
@@ -14,7 +14,7 @@ Gets the display Name of PST.
 public string DisplayName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents display name.
 

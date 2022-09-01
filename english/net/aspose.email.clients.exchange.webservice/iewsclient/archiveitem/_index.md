@@ -1,12 +1,12 @@
 ---
 title: ArchiveItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ArchiveItem operation moves an item into the mailbox users archive mailbox.
 type: docs
 weight: 390
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/archiveitem/
 ---
-## IEWSClient.ArchiveItem method (1 of 4)
+## ArchiveItem(string, MapiMessageItemBase) {#archiveitem_2}
 
 The ArchiveItem operation moves an item into the mailbox user's archive mailbox.
 
@@ -28,7 +28,7 @@ public void ArchiveItem(string sourceFolderUri, MapiMessageItemBase item)
 
 ---
 
-## IEWSClient.ArchiveItem method (2 of 4)
+## ArchiveItem(string, Appointment) {#archiveitem}
 
 The ArchiveItem operation moves an item into the mailbox user's archive mailbox.
 
@@ -50,7 +50,7 @@ public void ArchiveItem(string sourceFolderUri, Appointment appointment)
 
 ---
 
-## IEWSClient.ArchiveItem method (3 of 4)
+## ArchiveItem(string, ExchangeTask) {#archiveitem_1}
 
 The ArchiveItem operation moves an item into the mailbox user's archive mailbox.
 
@@ -72,7 +72,7 @@ public void ArchiveItem(string sourceFolderUri, ExchangeTask task)
 
 ---
 
-## IEWSClient.ArchiveItem method (4 of 4)
+## ArchiveItem(string, string) {#archiveitem_3}
 
 The ArchiveItem operation moves an item into the mailbox user's archive mailbox.
 

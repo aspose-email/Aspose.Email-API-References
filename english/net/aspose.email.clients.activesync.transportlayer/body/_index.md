@@ -1,7 +1,7 @@
 ---
 title: Body
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a freeform variablelength data field associated with a stored item on the server.
 type: docs
 weight: 1030
 url: /net/aspose.email.clients.activesync.transportlayer/body/

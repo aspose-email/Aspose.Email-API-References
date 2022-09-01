@@ -1,12 +1,12 @@
 ---
 title: MoveFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves specified folder and its subfolders to new location.
 type: docs
 weight: 920
 url: /net/aspose.email.clients.imap/imapclient/movefolderasync/
 ---
-## ImapClient.MoveFolderAsync method (1 of 4)
+## MoveFolderAsync(string, string) {#movefolderasync_2}
 
 Moves specified folder and its subfolders to new location.
 
@@ -19,7 +19,7 @@ public Task MoveFolderAsync(string newParentFolder, string folderName)
 | newParentFolder | String | New location for moved folder |
 | folderName | String | Folder to move |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveFolderAsync method (2 of 4)
+## MoveFolderAsync(IConnection, string, string) {#movefolderasync}
 
 Moves specified folder and its subfolders to new location.
 
@@ -45,7 +45,7 @@ public Task MoveFolderAsync(IConnection connection, string newParentFolder, stri
 | newParentFolder | String | New location for moved folder |
 | folderName | String | Folder to move |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -58,7 +58,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveFolderAsync method (3 of 4)
+## MoveFolderAsync(string, string, CancellationToken) {#movefolderasync_3}
 
 Moves specified folder and its subfolders to new location.
 
@@ -72,7 +72,7 @@ public Task MoveFolderAsync(string newParentFolder, string folderName, Cancellat
 | folderName | String | Folder to move |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -84,7 +84,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveFolderAsync method (4 of 4)
+## MoveFolderAsync(IConnection, string, string, CancellationToken) {#movefolderasync_1}
 
 Moves specified folder and its subfolders to new location.
 
@@ -100,7 +100,7 @@ public Task MoveFolderAsync(IConnection connection, string newParentFolder, stri
 | folderName | String | Folder to move |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

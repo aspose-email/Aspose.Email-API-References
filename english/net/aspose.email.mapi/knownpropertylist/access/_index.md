@@ -1,7 +1,7 @@
 ---
 title: Access
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the operations available to the client for the object. Area Access Control Properties Canonical name PidTagAccess Alternate names PR_ACCESS ptagAccess
 type: docs
 weight: 250
 url: /net/aspose.email.mapi/knownpropertylist/access/

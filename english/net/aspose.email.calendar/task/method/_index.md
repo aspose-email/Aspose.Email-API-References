@@ -1,7 +1,7 @@
 ---
 title: Method
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets iTIP methods associated with an task.
 type: docs
 weight: 60
 url: /net/aspose.email.calendar/task/method/

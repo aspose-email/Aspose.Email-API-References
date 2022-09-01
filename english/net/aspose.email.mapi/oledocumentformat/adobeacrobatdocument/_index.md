@@ -1,7 +1,7 @@
 ---
 title: AdobeAcrobatDocument
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adobe PDF format.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/oledocumentformat/adobeacrobatdocument/

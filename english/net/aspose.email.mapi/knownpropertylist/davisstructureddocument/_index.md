@@ -1,7 +1,7 @@
 ---
 title: DavIsStructuredDocument
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether a Calendar object is a structured document. Area Common Canonical name PidNameDavIsStructuredDocument Alternate names DAVisstructureddocument
 type: docs
 weight: 3660
 url: /net/aspose.email.mapi/knownpropertylist/davisstructureddocument/

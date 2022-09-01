@@ -1,7 +1,7 @@
 ---
 title: IsSharedSpecified
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether IsShared property is specified.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.graph/notebook/issharedspecified/

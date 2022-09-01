@@ -1,7 +1,7 @@
 ---
 title: InstanceId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the instance of a recurrence for the source item. If the InstanceId is present both the FolderId and ItemId SHOULD be present.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequestsource/instanceid/

@@ -1,7 +1,7 @@
 ---
 title: AsposeArgumentNullException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ArgumentException is thrown when an argument is null when it shouldnt be.
 type: docs
 weight: 270
 url: /net/aspose.email/asposeargumentnullexception/
@@ -18,12 +18,12 @@ public class AsposeArgumentNullException : AsposeArgumentException
 
 | Name | Description |
 | --- | --- |
-| [AsposeArgumentNullException](asposeargumentnullexception)() | Initializes a new instance of the [`AsposeArgumentNullException`](../asposeargumentnullexception) class. |
-| [AsposeArgumentNullException](asposeargumentnullexception)(Exception) | Initializes a new instance of the [`AsposeArgumentNullException`](../asposeargumentnullexception) class with a reference to the inner exception that is the cause of this exception. |
-| [AsposeArgumentNullException](asposeargumentnullexception)(string) | Initializes a new instance of the [`AsposeArgumentNullException`](../asposeargumentnullexception) class with a specified error message. |
-| [AsposeArgumentNullException](asposeargumentnullexception)(string, Exception) | Initializes a new instance of the [`AsposeException`](../asposeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeArgumentNullException](asposeargumentnullexception)(string, params object[]) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
-| [AsposeArgumentNullException](asposeargumentnullexception)(string, string) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor)() | Initializes a new instance of the [`AsposeArgumentNullException`](../asposeargumentnullexception) class. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_1)(Exception) | Initializes a new instance of the [`AsposeArgumentNullException`](../asposeargumentnullexception) class with a reference to the inner exception that is the cause of this exception. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_2)(string) | Initializes a new instance of the [`AsposeArgumentNullException`](../asposeargumentnullexception) class with a specified error message. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_3)(string, Exception) | Initializes a new instance of the [`AsposeException`](../asposeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_4)(string, params object[]) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
+| [AsposeArgumentNullException](asposeargumentnullexception#constructor_5)(string, string) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
 
 ## Properties
 

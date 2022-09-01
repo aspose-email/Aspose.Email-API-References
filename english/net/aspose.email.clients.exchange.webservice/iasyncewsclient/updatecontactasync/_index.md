@@ -1,7 +1,7 @@
 ---
 title: UpdateContactAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates a contact item in the Exchange store.
 type: docs
 weight: 670
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/updatecontactasync/

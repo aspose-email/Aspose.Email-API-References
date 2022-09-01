@@ -1,7 +1,7 @@
 ---
 title: Answered
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether Flags property contains the Answered flag.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/imapmessageinfo/answered/
@@ -14,7 +14,7 @@ Gets a value indicating whether Flags property contains the Answered flag.
 public bool Answered { get; }
 ```
 
-## Property Value
+### Property Value
 
 The answered flag.
 

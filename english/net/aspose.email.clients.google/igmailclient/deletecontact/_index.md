@@ -1,7 +1,7 @@
 ---
 title: DeleteContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes specified contact
 type: docs
 weight: 100
 url: /net/aspose.email.clients.google/igmailclient/deletecontact/

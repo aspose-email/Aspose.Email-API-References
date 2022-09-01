@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the humanreadable title for a group entry
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/googlecontactgroup/title/
@@ -14,7 +14,7 @@ Gets the human-readable title for a group entry
 public string Title { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents title for a group entry
 

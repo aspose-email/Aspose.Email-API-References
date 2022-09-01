@@ -1,12 +1,12 @@
 ---
 title: Pop3Exception
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the Pop3Exceptionaspose.email/pop3exception class.
 type: docs
 weight: 10
 url: /net/aspose.email/pop3exception/pop3exception/
 ---
-## Pop3Exception constructor (1 of 4)
+## Pop3Exception() {#constructor}
 
 Initializes a new instance of the [`Pop3Exception`](../../pop3exception) class.
 
@@ -22,7 +22,7 @@ public Pop3Exception()
 
 ---
 
-## Pop3Exception constructor (2 of 4)
+## Pop3Exception(string) {#constructor_1}
 
 Initializes a new instance of the [`Pop3Exception`](../../pop3exception) class.
 
@@ -42,7 +42,7 @@ public Pop3Exception(string message)
 
 ---
 
-## Pop3Exception constructor (3 of 4)
+## Pop3Exception(string, params object[]) {#constructor_3}
 
 Initializes a new instance of the [`Pop3Exception`](../../pop3exception) class with a specified error message.
 
@@ -63,7 +63,7 @@ public Pop3Exception(string format, params object[] parameters)
 
 ---
 
-## Pop3Exception constructor (4 of 4)
+## Pop3Exception(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`Pop3Exception`](../../pop3exception) class.
 

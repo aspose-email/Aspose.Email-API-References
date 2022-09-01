@@ -1,9 +1,9 @@
 ---
 title: FileCompatibilityMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines inner conversions that are necessarily to be done when loading or saving a message. By default CR is not replaces by CRLF Tnefattachment is not saved.
 type: docs
-weight: 17270
+weight: 17440
 url: /net/aspose.email/filecompatibilitymode/
 ---
 ## FileCompatibilityMode enumeration
@@ -15,7 +15,7 @@ Defines inner conversions, that are necessarily to be done when loading or savin
 public enum FileCompatibilityMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

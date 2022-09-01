@@ -1,7 +1,7 @@
 ---
 title: ReminderAction
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the action to be invoked when an alarm is triggered.
 type: docs
 weight: 810
 url: /net/aspose.email.calendar/reminderaction/
@@ -14,7 +14,7 @@ Defines the action to be invoked when an alarm is triggered.
 public enum ReminderAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

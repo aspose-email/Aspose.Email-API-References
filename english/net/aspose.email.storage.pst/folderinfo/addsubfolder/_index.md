@@ -1,12 +1,12 @@
 ---
 title: AddSubFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the new subfolder.
 type: docs
 weight: 170
 url: /net/aspose.email.storage.pst/folderinfo/addsubfolder/
 ---
-## FolderInfo.AddSubFolder method (1 of 3)
+## AddSubFolder(string, bool) {#addsubfolder_1}
 
 Adds the new sub-folder.
 
@@ -19,7 +19,7 @@ public FolderInfo AddSubFolder(string name, bool createHierarchy)
 | name | String | The name of sub-folder. |
 | createHierarchy | Boolean | if set to `true`, it is possible to create a folder hierarchy using string notation. Backslash ('\') is used as path separator. |
 
-## Return Value
+### Return Value
 
 The new sub-folder.
 
@@ -39,7 +39,7 @@ The new sub-folder.
 
 ---
 
-## FolderInfo.AddSubFolder method (2 of 3)
+## AddSubFolder(string) {#addsubfolder}
 
 Adds the new sub-folder.
 
@@ -51,7 +51,7 @@ public FolderInfo AddSubFolder(string name)
 | --- | --- | --- |
 | name | String | The name of sub-folder. |
 
-## Return Value
+### Return Value
 
 The new sub-folder.
 
@@ -71,7 +71,7 @@ The new sub-folder.
 
 ---
 
-## FolderInfo.AddSubFolder method (3 of 3)
+## AddSubFolder(string, string) {#addsubfolder_2}
 
 Adds the new subfolder.
 
@@ -84,7 +84,7 @@ public FolderInfo AddSubFolder(string name, string containerClass)
 | name | String | The name of subfolder. |
 | containerClass | String | Container class of the sub-Folder object. |
 
-## Return Value
+### Return Value
 
 The new subfolder.
 

@@ -1,7 +1,7 @@
 ---
 title: CompanyName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a company name.
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/contact/companyname/

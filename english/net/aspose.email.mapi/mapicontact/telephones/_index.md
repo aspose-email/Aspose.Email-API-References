@@ -1,7 +1,7 @@
 ---
 title: Telephones
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify telephone numbers for the contact
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapicontact/telephones/

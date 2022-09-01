@@ -1,7 +1,7 @@
 ---
 title: WlinkSaveStamp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies an integer that allows a client to identify with a high probability whether the navigation shortcut was saved by the current client session. Area Configuration Canonical name PidTagWlinkSaveStamp Alternate names
 type: docs
 weight: 19500
 url: /net/aspose.email.mapi/knownpropertylist/wlinksavestamp/

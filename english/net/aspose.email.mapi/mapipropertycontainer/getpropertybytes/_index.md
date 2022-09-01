@@ -1,7 +1,7 @@
 ---
 title: GetPropertyBytes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the string value of the property specified by tag.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertybytes/
@@ -18,7 +18,7 @@ public byte[] GetPropertyBytes(long tag)
 | --- | --- | --- |
 | tag | Int64 | The MAPI property tag. |
 
-## Return Value
+### Return Value
 
 The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 

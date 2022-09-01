@@ -1,7 +1,7 @@
 ---
 title: OneNoteWebUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Opens the notebook in readonly OneNote on the web.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/notebooklinks/onenoteweburl/

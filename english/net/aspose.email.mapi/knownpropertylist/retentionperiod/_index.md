@@ -1,7 +1,7 @@
 ---
 title: RetentionPeriod
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of days that a Message object can remain unarchived. Area Archive Canonical name PidTagRetentionPeriod Alternate names PR_RETENTION_PERIOD ptagRetentionPeriod
 type: docs
 weight: 16260
 url: /net/aspose.email.mapi/knownpropertylist/retentionperiod/

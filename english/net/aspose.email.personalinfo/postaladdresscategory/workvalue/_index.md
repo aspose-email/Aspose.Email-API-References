@@ -1,7 +1,7 @@
 ---
 title: WorkValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Work category
 type: docs
 weight: 120
 url: /net/aspose.email.personalinfo/postaladdresscategory/workvalue/

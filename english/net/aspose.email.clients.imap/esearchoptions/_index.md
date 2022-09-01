@@ -1,9 +1,9 @@
 ---
 title: ESearchOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ESEARCH Result Options This method works only if server supports ESEARCH extension. Please read more https//tools.ietf.org/html/rfc4315
 type: docs
-weight: 16200
+weight: 16220
 url: /net/aspose.email.clients.imap/esearchoptions/
 ---
 ## ESearchOptions class
@@ -26,8 +26,8 @@ public class ESearchOptions : QueryField
 
 | Name | Description |
 | --- | --- |
-| [CreateQuery](../../aspose.email.clients.imap/esearchoptions/createquery)() | Creates the search key. |
-| [CreateQuery](../../aspose.email.clients.imap/esearchoptions/createquery)(MailQueryBuilder) | Creates the search key. |
+| [CreateQuery](../../aspose.email.clients.imap/esearchoptions/createquery#createquery)() | Creates the search key. |
+| [CreateQuery](../../aspose.email.clients.imap/esearchoptions/createquery#createquery_1)(MailQueryBuilder) | Creates the search key. |
 | override [Equals](../../aspose.email.clients.imap/esearchoptions/equals)(object) |  |
 | override [ToString](../../aspose.email.clients.imap/esearchoptions/tostring)() | String representation of an object |
 | [operator +](../../aspose.email.clients.imap/esearchoptions/op_addition) | Plus operation is defined |

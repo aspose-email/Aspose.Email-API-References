@@ -1,7 +1,7 @@
 ---
 title: LinkId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a Uniform Resource Identifier URI that is assigned by the server to certain resources such as Windows SharePoint Services or UNC documents. Can be used by the Fetch element to refer to the location of an item.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/linkid/

@@ -1,7 +1,7 @@
 ---
 title: CertificateCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of valid certificates that were found for the recipient. If a Status value of 8 is returned with the Certificates the CertificateCount specifies the number of recipient certificates that were not returned.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/certificatecount/

@@ -1,7 +1,7 @@
 ---
 title: DisplayNamePrefix
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users honorific title. Area MapiMailUser Canonical name PidTagDisplayNamePrefix Alternate names PR_DISPLAY_NAME_PREFIX PR_DISPLAY_NAME_PREFIX_A
 type: docs
 weight: 4150
 url: /net/aspose.email.mapi/knownpropertylist/displaynameprefix/

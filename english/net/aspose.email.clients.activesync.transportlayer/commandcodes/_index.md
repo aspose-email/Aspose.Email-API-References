@@ -1,7 +1,7 @@
 ---
 title: CommandCodes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The following table provides the numeric codes that correspond to the ActiveSync commands. The numeric code is used in the Command code field of the base64 encoded URI to specify the command.
 type: docs
 weight: 1100
 url: /net/aspose.email.clients.activesync.transportlayer/commandcodes/
@@ -14,7 +14,7 @@ The following table provides the numeric codes that correspond to the ActiveSync
 public enum CommandCodes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

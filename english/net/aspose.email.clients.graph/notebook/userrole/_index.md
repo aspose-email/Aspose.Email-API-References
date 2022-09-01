@@ -1,7 +1,7 @@
 ---
 title: UserRole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Possible values are Owner Contributor Reader None. Owner represents ownerlevel access to the notebook. Contributor represents read/write access to the notebook. Reader represents readonly access to the notebook. Readonly.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.graph/notebook/userrole/

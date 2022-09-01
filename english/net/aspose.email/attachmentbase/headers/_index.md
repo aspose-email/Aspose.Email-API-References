@@ -1,7 +1,7 @@
 ---
 title: Headers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets headers collection of attachment.
 type: docs
 weight: 40
 url: /net/aspose.email/attachmentbase/headers/

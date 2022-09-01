@@ -1,7 +1,7 @@
 ---
 title: Location
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the location of the event. Area Calendar Canonical name PidLidLocation Alternate names dispidLocation
 type: docs
 weight: 12190
 url: /net/aspose.email.mapi/knownpropertylist/location/

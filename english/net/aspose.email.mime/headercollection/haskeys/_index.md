@@ -1,7 +1,7 @@
 ---
 title: HasKeys
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the collection contains keys.
 type: docs
 weight: 170
 url: /net/aspose.email.mime/headercollection/haskeys/
@@ -14,7 +14,7 @@ Gets a value indicating whether the collection contains keys.
 public bool HasKeys()
 ```
 
-## Return Value
+### Return Value
 
 Returns true if collection has an items, otherwise returns false.
 

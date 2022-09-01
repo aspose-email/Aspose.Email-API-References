@@ -1,7 +1,7 @@
 ---
 title: UserField2
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: UserField2 header.
 type: docs
 weight: 300
 url: /net/aspose.email/mhttemplatename.contact/userfield2/

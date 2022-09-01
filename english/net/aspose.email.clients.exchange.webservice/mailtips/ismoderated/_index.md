@@ -1,7 +1,7 @@
 ---
 title: IsModerated
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the recipients mailbox is being moderated.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.webservice/mailtips/ismoderated/

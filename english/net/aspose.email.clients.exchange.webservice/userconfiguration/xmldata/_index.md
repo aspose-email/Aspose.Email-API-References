@@ -1,7 +1,7 @@
 ---
 title: XmlData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets XML data property content.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.webservice/userconfiguration/xmldata/

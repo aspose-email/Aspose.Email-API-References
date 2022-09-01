@@ -1,12 +1,12 @@
 ---
 title: LogEntry
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of a LogEntryaspose.email.tools.logging/logentry class.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.logging/logentry/logentry/
 ---
-## LogEntry constructor (1 of 13)
+## LogEntry() {#constructor}
 
 Initialize a new instance of a [`LogEntry`](../../logentry) class.
 
@@ -22,7 +22,7 @@ public LogEntry()
 
 ---
 
-## LogEntry constructor (2 of 13)
+## LogEntry(string) {#constructor_5}
 
 Initialize a new instance of a [`LogEntry`](../../logentry) class.
 
@@ -42,7 +42,7 @@ public LogEntry(string message)
 
 ---
 
-## LogEntry constructor (3 of 13)
+## LogEntry(string, DateTime) {#constructor_9}
 
 Initialize a new instance of a [`LogEntry`](../../logentry) class.
 
@@ -63,7 +63,7 @@ public LogEntry(string message, DateTime time)
 
 ---
 
-## LogEntry constructor (4 of 13)
+## LogEntry(string, Exception) {#constructor_10}
 
 Initialize a new instance of a [`LogEntry`](../../logentry) class.
 
@@ -84,7 +84,7 @@ public LogEntry(string message, Exception innerException)
 
 ---
 
-## LogEntry constructor (5 of 13)
+## LogEntry(string, LogLevel) {#constructor_6}
 
 Initialize a new instance of a [`LogEntry`](../../logentry) class.
 
@@ -106,7 +106,7 @@ public LogEntry(string message, LogLevel severity)
 
 ---
 
-## LogEntry constructor (6 of 13)
+## LogEntry(string, Exception, LogLevel) {#constructor_11}
 
 Initialize a new instance of a [`LogEntry`](../../logentry) class.
 
@@ -129,7 +129,7 @@ public LogEntry(string message, Exception innerException, LogLevel severity)
 
 ---
 
-## LogEntry constructor (7 of 13)
+## LogEntry(string, IDictionary&lt;string, string&gt;) {#constructor_8}
 
 Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
 
@@ -150,7 +150,7 @@ public LogEntry(string message, IDictionary<string, string> properties)
 
 ---
 
-## LogEntry constructor (8 of 13)
+## LogEntry(byte[]) {#constructor_1}
 
 Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
 
@@ -170,7 +170,7 @@ public LogEntry(byte[] binaryDataMessage)
 
 ---
 
-## LogEntry constructor (9 of 13)
+## LogEntry(byte[], Encoding) {#constructor_3}
 
 Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
 
@@ -191,7 +191,7 @@ public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding)
 
 ---
 
-## LogEntry constructor (10 of 13)
+## LogEntry(byte[], IDictionary&lt;string, string&gt;) {#constructor_2}
 
 Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
 
@@ -212,7 +212,7 @@ public LogEntry(byte[] binaryDataMessage, IDictionary<string, string> properties
 
 ---
 
-## LogEntry constructor (11 of 13)
+## LogEntry(byte[], Encoding, IDictionary&lt;string, string&gt;) {#constructor_4}
 
 Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
 
@@ -235,7 +235,7 @@ public LogEntry(byte[] binaryDataMessage, Encoding messageEncoding,
 
 ---
 
-## LogEntry constructor (12 of 13)
+## LogEntry(string, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) {#constructor_7}
 
 Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
 
@@ -262,7 +262,7 @@ public LogEntry(string message, LogLevel severity, string category, int eventId,
 
 ---
 
-## LogEntry constructor (13 of 13)
+## LogEntry(string, Exception, LogLevel, string, int, string, IDictionary&lt;string, string&gt;) {#constructor_12}
 
 Create a new instance of [`LogEntry`](../../logentry) with a full set of constructor parameters
 

@@ -1,7 +1,7 @@
 ---
 title: ClientId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the clients unique message ID MID. The ClientId value can be up to 40 characters in length and MUST be unique for each message as the server will use the ClientId value to identify duplicate messages. The ClientId value can be a simple counter incremented for each new message.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequest/clientid/

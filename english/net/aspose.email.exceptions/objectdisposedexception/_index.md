@@ -1,9 +1,9 @@
 ---
 title: ObjectDisposedException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents errors that occur when an operation canceled.
 type: docs
-weight: 17210
+weight: 17380
 url: /net/aspose.email.exceptions/objectdisposedexception/
 ---
 ## ObjectDisposedException class
@@ -18,10 +18,10 @@ public class ObjectDisposedException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [ObjectDisposedException](objectdisposedexception)() | Initializes a new instance of the ObjectDisposedException class. |
-| [ObjectDisposedException](objectdisposedexception)(string) | Initializes a new instance of the ObjectDisposedException class with a specified error message. |
-| [ObjectDisposedException](objectdisposedexception)(string, Exception) | Initializes a new instance of the ObjectDisposedException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [ObjectDisposedException](objectdisposedexception)(string, params object[]) | Initializes a new instance of the ObjectDisposedException class with a specified error message. |
+| [ObjectDisposedException](objectdisposedexception#constructor)() | Initializes a new instance of the ObjectDisposedException class. |
+| [ObjectDisposedException](objectdisposedexception#constructor_1)(string) | Initializes a new instance of the ObjectDisposedException class with a specified error message. |
+| [ObjectDisposedException](objectdisposedexception#constructor_2)(string, Exception) | Initializes a new instance of the ObjectDisposedException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [ObjectDisposedException](objectdisposedexception#constructor_3)(string, params object[]) | Initializes a new instance of the ObjectDisposedException class with a specified error message. |
 
 ## Properties
 

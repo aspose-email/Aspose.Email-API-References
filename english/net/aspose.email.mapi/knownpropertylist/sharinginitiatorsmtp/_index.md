@@ -1,7 +1,7 @@
 ---
 title: SharingInitiatorSmtp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the PidTagSmtpAddress property section 2.1010 from the Address Book object identified by the PidLidSharingInitiatorEntryId property section 2.248. Area Sharing Canonical name PidLidSharingInitiatorSmtp Alternate names dispidSharingInitiatorSmtp
 type: docs
 weight: 17550
 url: /net/aspose.email.mapi/knownpropertylist/sharinginitiatorsmtp/

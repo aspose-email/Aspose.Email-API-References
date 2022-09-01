@@ -1,7 +1,7 @@
 ---
 title: CreateItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the specified items in the speciifed folder
 type: docs
 weight: 530
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createitems/
@@ -19,7 +19,7 @@ public ExchangeUploadItemResult[] CreateItems(ExchangeStreamedItem[] items, stri
 | items | ExchangeStreamedItem[] | An items to be uploaded |
 | parentFolderUri | String | Specifies the folder in which to place the items |
 
-## Return Value
+### Return Value
 
 An array of [`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
 

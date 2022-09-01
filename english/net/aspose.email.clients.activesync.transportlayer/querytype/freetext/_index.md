@@ -1,7 +1,7 @@
 ---
 title: FreeText
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a string value for which to search. If the FreeText property is set other than the And property the server responds with a Status value of 8 SearchTooComplex.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/querytype/freetext/

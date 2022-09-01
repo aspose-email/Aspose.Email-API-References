@@ -1,12 +1,12 @@
 ---
 title: GetQuota
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets quota information
 type: docs
 weight: 750
 url: /net/aspose.email.clients.imap/imapclient/getquota/
 ---
-## ImapClient.GetQuota method (1 of 2)
+## GetQuota(IConnection, string) {#getquota}
 
 Gets quota information
 
@@ -19,7 +19,7 @@ public ImapQuota[] GetQuota(IConnection connection, string quotaRootName)
 | connection | IConnection | Connection to a server |
 | quotaRootName | String | quota root name |
 
-## Return Value
+### Return Value
 
 Quota information
 
@@ -33,7 +33,7 @@ Quota information
 
 ---
 
-## ImapClient.GetQuota method (2 of 2)
+## GetQuota(string) {#getquota_1}
 
 Gets quota information
 
@@ -45,7 +45,7 @@ public ImapQuota[] GetQuota(string quotaRootName)
 | --- | --- | --- |
 | quotaRootName | String | quota root name |
 
-## Return Value
+### Return Value
 
 Quota information
 

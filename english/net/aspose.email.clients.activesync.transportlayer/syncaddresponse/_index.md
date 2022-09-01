@@ -1,7 +1,7 @@
 ---
 title: SyncAddResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Serves to indicate that a new object has to be created in a collection.
 type: docs
 weight: 2140
 url: /net/aspose.email.clients.activesync.transportlayer/syncaddresponse/

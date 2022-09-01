@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the display name of the ole object in an attachment.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapiattachment/displayname/
@@ -14,7 +14,7 @@ Gets the display name of the ole object in an attachment.
 public string DisplayName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The display name.
 

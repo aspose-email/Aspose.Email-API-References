@@ -1,7 +1,7 @@
 ---
 title: MailboxOwnerUPN
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The email address of the person who owns the mailbox that was accessed.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/mailboxownerupn/

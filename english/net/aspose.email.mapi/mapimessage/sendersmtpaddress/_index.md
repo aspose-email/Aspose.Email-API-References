@@ -1,7 +1,7 @@
 ---
 title: SenderSmtpAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the message senders email address.
 type: docs
 weight: 250
 url: /net/aspose.email.mapi/mapimessage/sendersmtpaddress/
@@ -14,7 +14,7 @@ Gets or sets the message sender's e-mail address.
 public string SenderSmtpAddress { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents sender email address.
 

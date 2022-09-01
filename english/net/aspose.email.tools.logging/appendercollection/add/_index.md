@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds an IAppender object to the end of collection.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.logging/appendercollection/add/
@@ -18,7 +18,7 @@ public int Add(IAppender value)
 | --- | --- | --- |
 | value | IAppender | The IAppender to be added to the end of the collection. The value can be null. |
 
-## Return Value
+### Return Value
 
 The index at which the value has been added.
 

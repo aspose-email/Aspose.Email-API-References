@@ -1,7 +1,7 @@
 ---
 title: ContactLinkSearchKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the list of SearchKeys for a Contact object linked to by the Message object. Area Contact Properties Canonical name PidLidContactLinkSearchKey Alternate names dispidContactLinkSearchKey
 type: docs
 weight: 3020
 url: /net/aspose.email.mapi/knownpropertylist/contactlinksearchkey/

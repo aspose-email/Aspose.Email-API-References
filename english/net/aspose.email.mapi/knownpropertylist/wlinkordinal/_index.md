@@ -1,7 +1,7 @@
 ---
 title: WlinkOrdinal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a variablelength binary property to be used to sort shortcuts lexicographically. Area Configuration Canonical name PidTagWlinkOrdinal Alternate names PR_WLINK_ORDINAL
 type: docs
 weight: 19470
 url: /net/aspose.email.mapi/knownpropertylist/wlinkordinal/

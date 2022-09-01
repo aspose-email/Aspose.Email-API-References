@@ -1,12 +1,12 @@
 ---
 title: ImapFolderInfoCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ImapFolderInfoCollection class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/imapfolderinfocollection/imapfolderinfocollection/
 ---
-## ImapFolderInfoCollection constructor (1 of 2)
+## ImapFolderInfoCollection() {#constructor}
 
 Initializes a new instance of the ImapFolderInfoCollection class.
 
@@ -22,7 +22,7 @@ public ImapFolderInfoCollection()
 
 ---
 
-## ImapFolderInfoCollection constructor (2 of 2)
+## ImapFolderInfoCollection(params ImapFolderInfo[]) {#constructor_1}
 
 Initializes a new instance of the ImapFolderInfoCollection class.
 

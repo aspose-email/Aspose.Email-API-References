@@ -1,7 +1,7 @@
 ---
 title: Overrides
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: If the event doesnt use the default reminders this lists the reminders specific to the event or if not set indicates that no reminders are set for this event.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/reminders/overrides/

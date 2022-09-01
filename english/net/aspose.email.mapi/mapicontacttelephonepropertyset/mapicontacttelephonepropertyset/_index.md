@@ -1,12 +1,12 @@
 ---
 title: MapiContactTelephonePropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiContactTelephonePropertySetaspose.email.mapi/mapicontacttelephonepropertyset class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/mapicontacttelephonepropertyset/
 ---
-## MapiContactTelephonePropertySet constructor (1 of 3)
+## MapiContactTelephonePropertySet() {#constructor}
 
 Initializes a new instance of the [`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) class
 
@@ -22,7 +22,7 @@ public MapiContactTelephonePropertySet()
 
 ---
 
-## MapiContactTelephonePropertySet constructor (2 of 3)
+## MapiContactTelephonePropertySet(string) {#constructor_2}
 
 Initializes a new instance of the [`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) class.
 
@@ -42,7 +42,7 @@ public MapiContactTelephonePropertySet(string primaryTelephoneNumber)
 
 ---
 
-## MapiContactTelephonePropertySet constructor (3 of 3)
+## MapiContactTelephonePropertySet(MapiPropertyCollection) {#constructor_1}
 
 Initializes a new instance of the [`MapiContactTelephonePropertySet`](../../mapicontacttelephonepropertyset) class
 

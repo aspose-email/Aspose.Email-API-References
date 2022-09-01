@@ -1,7 +1,7 @@
 ---
 title: RwRulesStream
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains additional rule data about the Rule FAI message. Area Message Class Defined Transmittable Canonical name PidTagRwRulesStream Alternate names PR_RW_RULES_STREAM
 type: docs
 weight: 16680
 url: /net/aspose.email.mapi/knownpropertylist/rwrulesstream/

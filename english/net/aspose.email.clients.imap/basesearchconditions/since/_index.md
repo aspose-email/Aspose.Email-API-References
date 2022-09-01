@@ -1,7 +1,7 @@
 ---
 title: Since
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the message date since which the search criteria matches.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/basesearchconditions/since/

@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Suject of the email message. Mandatory No
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/exchangemetadata/subject/

@@ -1,7 +1,7 @@
 ---
 title: Recipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the recipients of the MessageObjectaspose.email.mapi.msg/messageobject.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi.msg/messageobject/recipients/
@@ -14,7 +14,7 @@ Gets the recipients of the [`MessageObject`](../../messageobject).
 public MessageObjectRecipientsCollection Recipients { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recipients.
 

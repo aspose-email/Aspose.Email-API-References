@@ -1,12 +1,12 @@
 ---
 title: SmtpException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the SmtpExceptionaspose.email/smtpexception class
 type: docs
 weight: 10
 url: /net/aspose.email/smtpexception/smtpexception/
 ---
-## SmtpException constructor (1 of 8)
+## SmtpException(SmtpStatusCode) {#constructor_1}
 
 Initializes a new instance of the [`SmtpException`](../../smtpexception) class
 
@@ -27,7 +27,7 @@ public SmtpException(SmtpStatusCode statusCode)
 
 ---
 
-## SmtpException constructor (2 of 8)
+## SmtpException(SmtpStatusCode, string) {#constructor_2}
 
 Initializes a new instance of the [`SmtpException`](../../smtpexception) class
 
@@ -49,7 +49,7 @@ public SmtpException(SmtpStatusCode statusCode, string message)
 
 ---
 
-## SmtpException constructor (3 of 8)
+## SmtpException() {#constructor}
 
 Initializes a new instance of the [`SmtpException`](../../smtpexception) class
 
@@ -65,7 +65,7 @@ public SmtpException()
 
 ---
 
-## SmtpException constructor (4 of 8)
+## SmtpException(string) {#constructor_3}
 
 Initializes a new instance of the [`SmtpException`](../../smtpexception) class
 
@@ -85,7 +85,7 @@ public SmtpException(string message)
 
 ---
 
-## SmtpException constructor (5 of 8)
+## SmtpException(string, SendMessagesResult) {#constructor_4}
 
 Initializes a new instance of the [`SmtpException`](../../smtpexception) class
 
@@ -107,7 +107,7 @@ public SmtpException(string message, SendMessagesResult result)
 
 ---
 
-## SmtpException constructor (6 of 8)
+## SmtpException(string, Exception) {#constructor_6}
 
 Initializes a new instance of the [`SmtpException`](../../smtpexception) class
 
@@ -128,7 +128,7 @@ public SmtpException(string message, Exception innerException)
 
 ---
 
-## SmtpException constructor (7 of 8)
+## SmtpException(string, Exception, MailMessage) {#constructor_7}
 
 Initializes a new instance of the [`SmtpException`](../../smtpexception) class
 
@@ -151,7 +151,7 @@ public SmtpException(string message, Exception innerException, MailMessage mailM
 
 ---
 
-## SmtpException constructor (8 of 8)
+## SmtpException(string, MailMessage) {#constructor_5}
 
 ```csharp
 public SmtpException(string message, MailMessage mailMessage)

@@ -1,7 +1,7 @@
 ---
 title: SharingProviderGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46. Area Sharing Canonical name PidLidSharingProviderGuid Alternate names dispidSharingProviderGuid
 type: docs
 weight: 17710
 url: /net/aspose.email.mapi/knownpropertylist/sharingproviderguid/

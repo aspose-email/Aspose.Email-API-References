@@ -1,9 +1,9 @@
 ---
 title: EventCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents category for an event
 type: docs
-weight: 19190
+weight: 19400
 url: /net/aspose.email.personalinfo/eventcategory/
 ---
 ## EventCategory class
@@ -34,20 +34,20 @@ public class EventCategory : IEquatable<EventCategory>
 
 | Name | Description |
 | --- | --- |
-| virtual [Equals](../../aspose.email.personalinfo/eventcategory/equals)(EventCategory) | Determines whether the specified object is equal to the current object. |
-| override [Equals](../../aspose.email.personalinfo/eventcategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
+| virtual [Equals](../../aspose.email.personalinfo/eventcategory/equals#equals)(EventCategory) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.email.personalinfo/eventcategory/equals#equals_1)(object) | Determines whether the specified Object is equal to the current Object. |
 | override [GetHashCode](../../aspose.email.personalinfo/eventcategory/gethashcode)() | GetHashCode returns a hash function for this object. |
 | override [ToString](../../aspose.email.personalinfo/eventcategory/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.personalinfo/eventcategory/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/eventcategory/op_inequality) | Determines whether the specified objects are not equal. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [AnniversaryValue](anniversaryvalue) | String value for 'Anniversary' category |
-| const [BirthdayValue](birthdayvalue) | String value for 'Birthday' category |
-| const [CustomValue](customvalue) | String value for 'Custom' category |
+| const [AnniversaryValue](../../aspose.email.personalinfo/eventcategory/anniversaryvalue) | String value for 'Anniversary' category |
+| const [BirthdayValue](../../aspose.email.personalinfo/eventcategory/birthdayvalue) | String value for 'Birthday' category |
+| const [CustomValue](../../aspose.email.personalinfo/eventcategory/customvalue) | String value for 'Custom' category |
 
 ### See Also
 

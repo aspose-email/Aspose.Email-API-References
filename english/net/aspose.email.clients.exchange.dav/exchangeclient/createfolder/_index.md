@@ -1,7 +1,7 @@
 ---
 title: CreateFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the new folder with the specified name in the specified parent folder.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/createfolder/

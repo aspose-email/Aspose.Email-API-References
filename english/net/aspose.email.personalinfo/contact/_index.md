@@ -1,9 +1,9 @@
 ---
 title: Contact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents contact information.
 type: docs
-weight: 19120
+weight: 19330
 url: /net/aspose.email.personalinfo/contact/
 ---
 ## Contact class
@@ -67,18 +67,18 @@ public class Contact : IPreferredTextEncodingProvider
 
 | Name | Description |
 | --- | --- |
-| static [Load](../../aspose.email.personalinfo/contact/load)(Stream) | Loads contact data |
-| static [Load](../../aspose.email.personalinfo/contact/load)(string) | Loads contact data |
-| static [Load](../../aspose.email.personalinfo/contact/load)(Stream, ContactLoadFormat) | Loads contact data |
-| static [Load](../../aspose.email.personalinfo/contact/load)(string, ContactLoadFormat) | Loads contact data |
-| [Save](../../aspose.email.personalinfo/contact/save)(Stream) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact) into the given stream with vCard format. The supported vCard version is 2.1 |
-| [Save](../../aspose.email.personalinfo/contact/save)(string) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact) to the vCard file with a default options. The supported vCard version is 2.1 |
-| [Save](../../aspose.email.personalinfo/contact/save)(Stream, ContactSaveFormat) | Saves this [`Contact`](../contact) to the given stream with a format using the default options. |
-| [Save](../../aspose.email.personalinfo/contact/save)(Stream, ContactSaveOptions) | Saves this [`Contact`](../contact) to the given stream using specified save options. |
-| [Save](../../aspose.email.personalinfo/contact/save)(string, ContactSaveFormat) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact) to the specified file with a format using the default options. The supported save format is vCard. |
-| [Save](../../aspose.email.personalinfo/contact/save)(string, ContactSaveOptions) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact) into file using specified save options. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions) |
+| static [Load](../../aspose.email.personalinfo/contact/load#load)(Stream) | Loads contact data |
+| static [Load](../../aspose.email.personalinfo/contact/load#load_2)(string) | Loads contact data |
+| static [Load](../../aspose.email.personalinfo/contact/load#load_1)(Stream, ContactLoadFormat) | Loads contact data |
+| static [Load](../../aspose.email.personalinfo/contact/load#load_3)(string, ContactLoadFormat) | Loads contact data |
+| [Save](../../aspose.email.personalinfo/contact/save#save)(Stream) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact) into the given stream with vCard format. The supported vCard version is 2.1 |
+| [Save](../../aspose.email.personalinfo/contact/save#save_3)(string) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact) to the vCard file with a default options. The supported vCard version is 2.1 |
+| [Save](../../aspose.email.personalinfo/contact/save#save_1)(Stream, ContactSaveFormat) | Saves this [`Contact`](../contact) to the given stream with a format using the default options. |
+| [Save](../../aspose.email.personalinfo/contact/save#save_2)(Stream, ContactSaveOptions) | Saves this [`Contact`](../contact) to the given stream using specified save options. |
+| [Save](../../aspose.email.personalinfo/contact/save#save_4)(string, ContactSaveFormat) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact) to the specified file with a format using the default options. The supported save format is vCard. |
+| [Save](../../aspose.email.personalinfo/contact/save#save_5)(string, ContactSaveOptions) | Saves this [`MapiContact`](../../aspose.email.mapi/mapicontact) into file using specified save options. The supported save options is [`VCardSaveOptions`](../../aspose.email.personalinfo.vcard/vcardsaveoptions) |
 | override [ToString](../../aspose.email.personalinfo/contact/tostring)() | Returns a string that represents the current object. |
-| [implicit operator](../../aspose.email.personalinfo/contact/op_implicit) | Converts [`Contact`](../contact) to [`MapiContact`](../../aspose.email.mapi/mapicontact) object (2 operators) |
+| [implicit operator](../../aspose.email.personalinfo/contact/op_implicit#op_implicit) | Converts [`Contact`](../contact) to [`MapiContact`](../../aspose.email.mapi/mapicontact) object (2 operators) |
 
 ### See Also
 

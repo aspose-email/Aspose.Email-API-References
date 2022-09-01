@@ -1,7 +1,7 @@
 ---
 title: DavIsCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether a Calendar object is a collection. Area Common Canonical name PidNameDavIsCollection Alternate names DAViscollection
 type: docs
 weight: 3650
 url: /net/aspose.email.mapi/knownpropertylist/daviscollection/

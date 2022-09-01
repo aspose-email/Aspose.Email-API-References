@@ -1,7 +1,7 @@
 ---
 title: ExportTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Save messages and directory structure using given path.
 type: docs
 weight: 50
 url: /net/aspose.email.storage.zimbra/tgzreader/exportto/

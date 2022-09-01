@@ -1,7 +1,7 @@
 ---
 title: MessageEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Encoding for binary message body
 type: docs
 weight: 110
 url: /net/aspose.email.tools.logging/logentry/messageencoding/

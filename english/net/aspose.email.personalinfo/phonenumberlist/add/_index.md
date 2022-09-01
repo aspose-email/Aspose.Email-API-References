@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds an item to the list.
 type: docs
 weight: 220
 url: /net/aspose.email.personalinfo/phonenumberlist/add/
@@ -18,7 +18,7 @@ public void Add(PhoneNumber value)
 | --- | --- | --- |
 | value | PhoneNumber | The Object to add to the list. |
 
-## Return Value
+### Return Value
 
 The position into which the new element was inserted.
 

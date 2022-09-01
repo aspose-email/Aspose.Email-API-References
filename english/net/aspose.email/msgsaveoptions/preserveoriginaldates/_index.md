@@ -1,7 +1,7 @@
 ---
 title: PreserveOriginalDates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether it is necessary to generate new saving and modification dates when saving a message.
 type: docs
 weight: 20
 url: /net/aspose.email/msgsaveoptions/preserveoriginaldates/

@@ -1,7 +1,7 @@
 ---
 title: Src
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Similar to the src attribute on the img tag. The value must be a URL that points to a publiclycacheable image file
 type: docs
 weight: 50
 url: /net/aspose.email.amp/ampimage/src/

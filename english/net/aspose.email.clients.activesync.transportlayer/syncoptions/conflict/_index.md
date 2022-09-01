@@ -1,7 +1,7 @@
 ---
 title: Conflict
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies how to resolve the conflict that occurs when an object has been changed on both the client and the server. The value specifies which objectthe client object or the server objectto keep if there is a conflict. If value is not defined the server object will replace the client object when a conflict occurs.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/syncoptions/conflict/

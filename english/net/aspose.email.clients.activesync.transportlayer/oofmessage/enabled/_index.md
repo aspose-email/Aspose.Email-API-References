@@ -1,7 +1,7 @@
 ---
 title: Enabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether an OOF message is sent to this audience while the sending user is OOF.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/oofmessage/enabled/

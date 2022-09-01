@@ -1,7 +1,7 @@
 ---
 title: Range
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum number of matching entries to return. The format of the Range element value is in the form of a zerobased index specifier formed with a zero a hyphen and another numeric value mn. The m indicates the lowest index of a zerobased array that would hold the items. The n indicates the highest index of a zerobased array that would hold the items. For example a Range element value of 09 indicates 10 items and 010 indicates 11 items. A Range element value of 00 indicates 1 item. If Range is null the default Range value for each Store type is used. The following table identifies the default Range values and maximum results returned for each Store type Mailbox  Default range value 099  Maximum results returned 100 DocumentLibrary  Default range value 0999  Maximum results returned 1000 GAL  Default range value 099  Maximum results returned 100 If the Range value specified in the request exceeds the default range value a Status value of 12 is returned to indicate that the maximum range has been exceeded. In the Search command response the Total property indicates an estimate of the total number of entries that matched the Query value. Search results are stored in a search folder on the server. This way when a client comes back with the same query but a new row range rows are pulled from the result set that is currently stored in the search folder. The entire result set does not have to be rebuilt.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/searchoptions/range/

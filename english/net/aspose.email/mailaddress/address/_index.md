@@ -1,7 +1,7 @@
 ---
 title: Address
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the email address.
 type: docs
 weight: 20
 url: /net/aspose.email/mailaddress/address/
@@ -14,7 +14,7 @@ Gets or sets the e-mail address.
 public string Address { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A String that contains the e-mail address.
 

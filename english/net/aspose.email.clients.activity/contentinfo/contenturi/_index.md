@@ -1,7 +1,7 @@
 ---
 title: ContentUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets URL to use when retrieving the content.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/contentinfo/contenturi/

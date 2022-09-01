@@ -1,7 +1,7 @@
 ---
 title: Generation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the generation suffix of the contact
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicontactnamepropertyset/generation/

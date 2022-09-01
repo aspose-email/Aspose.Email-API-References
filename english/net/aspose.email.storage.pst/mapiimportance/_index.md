@@ -1,9 +1,9 @@
 ---
 title: MapiImportance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a values that indicates the message importance.
 type: docs
-weight: 19990
+weight: 20220
 url: /net/aspose.email.storage.pst/mapiimportance/
 ---
 ## MapiImportance enumeration
@@ -14,7 +14,7 @@ Contains a values that indicates the message importance.
 public enum MapiImportance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

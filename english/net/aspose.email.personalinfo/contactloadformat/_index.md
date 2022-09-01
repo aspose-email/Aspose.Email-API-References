@@ -1,9 +1,9 @@
 ---
 title: ContactLoadFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates contact load formats
 type: docs
-weight: 19130
+weight: 19340
 url: /net/aspose.email.personalinfo/contactloadformat/
 ---
 ## ContactLoadFormat enumeration
@@ -14,7 +14,7 @@ Enumerates contact load formats
 public enum ContactLoadFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

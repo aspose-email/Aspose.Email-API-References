@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an image data.
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo/contactphoto/data/

@@ -1,7 +1,7 @@
 ---
 title: ErrorCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the error code.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/usersettingerror/errorcode/
@@ -14,7 +14,7 @@ Gets the error code.
 public AutodiscoverErrorCode ErrorCode { get; }
 ```
 
-## Property Value
+### Property Value
 
 The error code.
 

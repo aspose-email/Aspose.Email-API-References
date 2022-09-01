@@ -1,7 +1,7 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server ID of the folder to be synchronized.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/collectionid/

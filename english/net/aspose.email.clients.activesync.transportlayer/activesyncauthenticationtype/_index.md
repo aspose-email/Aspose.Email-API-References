@@ -1,7 +1,7 @@
 ---
 title: ActiveSyncAuthenticationType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enum specifies type of authentication
 type: docs
 weight: 940
 url: /net/aspose.email.clients.activesync.transportlayer/activesyncauthenticationtype/
@@ -14,7 +14,7 @@ Enum specifies type of authentication
 public enum ActiveSyncAuthenticationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: ClearCategories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Clears the categories.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/followupmanager/clearcategories/

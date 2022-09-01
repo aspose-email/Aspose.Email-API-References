@@ -1,7 +1,7 @@
 ---
 title: StartDateFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the start date format.
 type: docs
 weight: 90
 url: /net/aspose.email.calendar/appointmentformattingoptions/startdateformat/
@@ -14,7 +14,7 @@ Gets or sets the start date format.
 public string StartDateFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The start date format.
 

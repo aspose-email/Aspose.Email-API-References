@@ -1,9 +1,9 @@
 ---
 title: OutlookMessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents outlook message format.
 type: docs
-weight: 18760
+weight: 18970
 url: /net/aspose.email.mapi/outlookmessageformat/
 ---
 ## OutlookMessageFormat enumeration
@@ -14,7 +14,7 @@ Represents outlook message format.
 public enum OutlookMessageFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

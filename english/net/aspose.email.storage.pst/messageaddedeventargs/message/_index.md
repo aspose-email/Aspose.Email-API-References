@@ -1,7 +1,7 @@
 ---
 title: Message
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message that has been added.
 type: docs
 weight: 30
 url: /net/aspose.email.storage.pst/messageaddedeventargs/message/
@@ -14,7 +14,7 @@ Gets the message that has been added.
 public MapiMessage Message { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message.
 

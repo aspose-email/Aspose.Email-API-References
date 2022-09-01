@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesdocument content class that defines a set of properties for an item that is a document such as a Microsoft Word file.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/document/
@@ -14,7 +14,7 @@ Gets the urn:content-classes:document content class that defines a set of proper
 public static ContentClassType Document { get; }
 ```
 
-## Property Value
+### Property Value
 
 The document content class.
 

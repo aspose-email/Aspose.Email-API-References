@@ -1,12 +1,12 @@
 ---
 title: ListMessagesByPageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List the messages in the specified folder.
 type: docs
 weight: 460
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listmessagesbypageasync/
 ---
-## IAsyncEwsClient.ListMessagesByPageAsync method (1 of 2)
+## ListMessagesByPageAsync(string, int, int, MailQuery, CancellationToken) {#listmessagesbypageasync_1}
 
 List the messages in the specified folder.
 
@@ -23,7 +23,7 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, int 
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search criteria. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 
@@ -37,7 +37,7 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, int 
 
 ---
 
-## IAsyncEwsClient.ListMessagesByPageAsync method (2 of 2)
+## ListMessagesByPageAsync(string, PageInfo, CancellationToken) {#listmessagesbypageasync}
 
 List the messages in the specified folder.
 
@@ -52,7 +52,7 @@ public Task<ExchangeMessagePageInfo> ListMessagesByPageAsync(string folder, Page
 | pageInfo | PageInfo | A page info |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMessageInfoCollection`](../../../aspose.email.clients.exchange/exchangemessageinfocollection) that contains messages from the specified folder.
 

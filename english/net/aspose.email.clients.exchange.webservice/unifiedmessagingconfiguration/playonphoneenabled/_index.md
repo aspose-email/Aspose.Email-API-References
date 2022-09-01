@@ -1,7 +1,7 @@
 ---
 title: PlayOnPhoneEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether Play On Phone enabled
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/playonphoneenabled/

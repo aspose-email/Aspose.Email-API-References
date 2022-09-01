@@ -1,7 +1,7 @@
 ---
 title: DeviceType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Device types used to access Sway for the triggered event.
 type: docs
 weight: 2450
 url: /net/aspose.email.clients.activity/devicetype/
@@ -14,7 +14,7 @@ Device types used to access Sway for the triggered event.
 public enum DeviceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

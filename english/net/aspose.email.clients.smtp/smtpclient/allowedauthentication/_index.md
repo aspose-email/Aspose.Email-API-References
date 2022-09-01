@@ -1,7 +1,7 @@
 ---
 title: AllowedAuthentication
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets enumeration of allowed by user authentication types
 type: docs
 weight: 20
 url: /net/aspose.email.clients.smtp/smtpclient/allowedauthentication/

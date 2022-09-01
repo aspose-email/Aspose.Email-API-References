@@ -1,7 +1,7 @@
 ---
 title: ReferredByName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the mail users referral. Area MapiMailUser Canonical name PidTagReferredByName Alternate names PR_REFERRED_BY_NAME PR_REFERRED_BY_NAME_A PR_REFERRED_BY_NAME_W
 type: docs
 weight: 15640
 url: /net/aspose.email.mapi/knownpropertylist/referredbyname/

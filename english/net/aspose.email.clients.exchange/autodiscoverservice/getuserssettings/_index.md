@@ -1,7 +1,7 @@
 ---
 title: GetUsersSettings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves the specified settings for a set of users.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange/autodiscoverservice/getuserssettings/
@@ -20,7 +20,7 @@ public GetUserSettingsResponseCollection GetUsersSettings(IEnumerable<string> us
 | userSmtpAddresses | IEnumerable`1 | The SMTP addresses of the users. |
 | userSettingNames | UserSettingName[] | The user setting names. |
 
-## Return Value
+### Return Value
 
 A GetUserSettingsResponseCollection object containing the responses for each individual user.
 

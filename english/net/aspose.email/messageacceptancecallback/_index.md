@@ -1,9 +1,9 @@
 ---
 title: MessageAcceptanceCallback
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Callback function which is being called during the conversion process.
 type: docs
-weight: 18840
+weight: 19050
 url: /net/aspose.email/messageacceptancecallback/
 ---
 ## MessageAcceptanceCallback delegate
@@ -18,7 +18,7 @@ public delegate bool MessageAcceptanceCallback(MapiMessage mapiMessage);
 | --- | --- | --- |
 | mapiMessage | MapiMessage | [`MapiMessage`](../../aspose.email.mapi/mapimessage) to check. |
 
-## Return Value
+### Return Value
 
 If it returns true it indicates that message can be accepted for conversion, otherwise it will be skipped.
 

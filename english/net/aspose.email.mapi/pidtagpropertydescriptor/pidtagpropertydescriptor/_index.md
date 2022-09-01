@@ -1,12 +1,12 @@
 ---
 title: PidTagPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the PidTagPropertyDescriptoraspose.email.mapi/pidtagpropertydescriptor class A property that is defined by a 16bit property ID and a 16bit property type. The property ID for a tagged property is in the range 0x001  0x7FFF. Property IDs in the range 0x8000  0x8FFF are reserved for assignment to named properties
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/pidtagpropertydescriptor/pidtagpropertydescriptor/
 ---
-## PidTagPropertyDescriptor constructor (1 of 5)
+## PidTagPropertyDescriptor(int, PropertyDataType) {#constructor}
 
 Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 
@@ -28,7 +28,7 @@ public PidTagPropertyDescriptor(int id, PropertyDataType type)
 
 ---
 
-## PidTagPropertyDescriptor constructor (2 of 5)
+## PidTagPropertyDescriptor(string, int, PropertyDataType) {#constructor_2}
 
 Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 
@@ -51,7 +51,7 @@ public PidTagPropertyDescriptor(string canonicalName, int id, PropertyDataType t
 
 ---
 
-## PidTagPropertyDescriptor constructor (3 of 5)
+## PidTagPropertyDescriptor(string, string, int, PropertyDataType) {#constructor_3}
 
 Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 
@@ -75,7 +75,7 @@ public PidTagPropertyDescriptor(string canonicalName, string name, int id, Prope
 
 ---
 
-## PidTagPropertyDescriptor constructor (4 of 5)
+## PidTagPropertyDescriptor(long) {#constructor_1}
 
 Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 
@@ -95,7 +95,7 @@ public PidTagPropertyDescriptor(long tag)
 
 ---
 
-## PidTagPropertyDescriptor constructor (5 of 5)
+## PidTagPropertyDescriptor(string, string, long) {#constructor_4}
 
 Initializes a new instance of the [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) class A property that is defined by a 16-bit property ID and a 16-bit property type. The property ID for a tagged property is in the range 0x001 � 0x7FFF. Property IDs in the range 0x8000 � 0x8FFF are reserved for assignment to named properties
 

@@ -1,7 +1,7 @@
 ---
 title: SetBodyContent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the content of the body.
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapicontact/setbodycontent/

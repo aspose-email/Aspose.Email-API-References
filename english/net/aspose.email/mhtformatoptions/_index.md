@@ -1,9 +1,9 @@
 ---
 title: MhtFormatOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the Mht format options
 type: docs
-weight: 18870
+weight: 19080
 url: /net/aspose.email/mhtformatoptions/
 ---
 ## MhtFormatOptions enumeration
@@ -15,7 +15,7 @@ Enumerates the Mht format options
 public enum MhtFormatOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

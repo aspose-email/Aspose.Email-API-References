@@ -1,7 +1,7 @@
 ---
 title: BusinessFax
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Refers to the group of properties that define the business fax address for a contact.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/businessfax/

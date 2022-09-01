@@ -1,7 +1,7 @@
 ---
 title: FolderSyncResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains changes to the folder hierarchy.
 type: docs
 weight: 1270
 url: /net/aspose.email.clients.activesync.transportlayer/foldersyncresult/

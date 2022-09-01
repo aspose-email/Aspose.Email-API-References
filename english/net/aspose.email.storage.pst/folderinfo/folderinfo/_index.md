@@ -1,7 +1,7 @@
 ---
 title: FolderInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FolderInfoaspose.email.storage.pst/folderinfo class.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/folderinfo/folderinfo/

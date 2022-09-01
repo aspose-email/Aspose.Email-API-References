@@ -1,7 +1,7 @@
 ---
 title: Guid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the GUID for the named property.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi.msg/messageobjectproperty/guid/
@@ -14,7 +14,7 @@ Gets or sets the GUID for the named property.
 public Guid Guid { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GUID.
 

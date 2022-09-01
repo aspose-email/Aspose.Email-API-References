@@ -1,9 +1,9 @@
 ---
 title: MapiContactTelephonePropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify optional telephone numbers for the contact
 type: docs
-weight: 18140
+weight: 18350
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/
 ---
 ## MapiContactTelephonePropertySet class
@@ -18,9 +18,9 @@ public sealed class MapiContactTelephonePropertySet
 
 | Name | Description |
 | --- | --- |
-| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset)() | Initializes a new instance of the [`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) class |
-| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) class |
-| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset)(string) | Initializes a new instance of the [`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) class. |
+| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor)() | Initializes a new instance of the [`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) class |
+| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_1)(MapiPropertyCollection) | Initializes a new instance of the [`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) class |
+| [MapiContactTelephonePropertySet](mapicontacttelephonepropertyset#constructor_2)(string) | Initializes a new instance of the [`MapiContactTelephonePropertySet`](../mapicontacttelephonepropertyset) class. |
 
 ## Properties
 

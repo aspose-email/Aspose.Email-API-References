@@ -1,7 +1,7 @@
 ---
 title: FreeBusyPublishStart
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the start time in UTC of the publishing range. Area Free/Busy Properties Canonical name PidTagFreeBusyPublishStart Alternate names PR_FREEBUSY_PUBLISH_START
 type: docs
 weight: 10690
 url: /net/aspose.email.mapi/knownpropertylist/freebusypublishstart/

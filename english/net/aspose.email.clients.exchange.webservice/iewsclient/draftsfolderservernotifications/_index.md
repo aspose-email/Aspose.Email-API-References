@@ -1,7 +1,7 @@
 ---
 title: DraftsFolderServerNotifications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when arises specified event type for Drafts folder.
 type: docs
 weight: 260
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/draftsfolderservernotifications/

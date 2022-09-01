@@ -1,7 +1,7 @@
 ---
 title: CalendarFolderServerNotifications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when arises specified event type for Calendar folder.
 type: docs
 weight: 230
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/calendarfolderservernotifications/

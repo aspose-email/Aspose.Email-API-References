@@ -1,12 +1,12 @@
 ---
 title: GetMessageSizeAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the size of the message
 type: docs
 weight: 260
 url: /net/aspose.email.clients.pop3/pop3client/getmessagesizeasync/
 ---
-## Pop3Client.GetMessageSizeAsync method (1 of 8)
+## GetMessageSizeAsync(IConnection, string) {#getmessagesizeasync_2}
 
 Gets the size of the message
 
@@ -19,7 +19,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageSizeAsync method (2 of 8)
+## GetMessageSizeAsync(string) {#getmessagesizeasync_6}
 
 Gets the size of the message
 
@@ -44,7 +44,7 @@ public Task<long> GetMessageSizeAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageSizeAsync method (3 of 8)
+## GetMessageSizeAsync(IConnection, int) {#getmessagesizeasync}
 
 Gets the size of the message
 
@@ -69,7 +69,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, int sequenceNumber
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -82,7 +82,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageSizeAsync method (4 of 8)
+## GetMessageSizeAsync(int) {#getmessagesizeasync_4}
 
 Gets the size of the message
 
@@ -94,7 +94,7 @@ public Task<long> GetMessageSizeAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -106,7 +106,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageSizeAsync method (5 of 8)
+## GetMessageSizeAsync(IConnection, string, CancellationToken) {#getmessagesizeasync_3}
 
 Gets the size of the message
 
@@ -121,7 +121,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, string uniqueId,
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -134,7 +134,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageSizeAsync method (6 of 8)
+## GetMessageSizeAsync(string, CancellationToken) {#getmessagesizeasync_7}
 
 Gets the size of the message
 
@@ -147,7 +147,7 @@ public Task<long> GetMessageSizeAsync(string uniqueId, CancellationToken token)
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -159,7 +159,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageSizeAsync method (7 of 8)
+## GetMessageSizeAsync(IConnection, int, CancellationToken) {#getmessagesizeasync_1}
 
 Gets the size of the message
 
@@ -174,7 +174,7 @@ public Task<long> GetMessageSizeAsync(IConnection connection, int sequenceNumber
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -187,7 +187,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageSizeAsync method (8 of 8)
+## GetMessageSizeAsync(int, CancellationToken) {#getmessagesizeasync_5}
 
 Gets the size of the message
 
@@ -200,7 +200,7 @@ public Task<long> GetMessageSizeAsync(int sequenceNumber, CancellationToken toke
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

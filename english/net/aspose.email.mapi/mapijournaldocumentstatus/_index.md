@@ -1,9 +1,9 @@
 ---
 title: MapiJournalDocumentStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the status of document.
 type: docs
-weight: 18230
+weight: 18440
 url: /net/aspose.email.mapi/mapijournaldocumentstatus/
 ---
 ## MapiJournalDocumentStatus enumeration
@@ -15,7 +15,7 @@ Indicates the status of document.
 public enum MapiJournalDocumentStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

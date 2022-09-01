@@ -1,7 +1,7 @@
 ---
 title: LayoutType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The layout attribute gives you easy perelement control over how your element should render on screen.
 type: docs
 weight: 200
 url: /net/aspose.email.amp/layouttype/
@@ -14,7 +14,7 @@ The layout attribute gives you easy, per-element control over how your element s
 public enum LayoutType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

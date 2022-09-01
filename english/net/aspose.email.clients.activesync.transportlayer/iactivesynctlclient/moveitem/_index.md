@@ -1,7 +1,7 @@
 ---
 title: MoveItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The MoveItems command moves an item or items from one folder on the server to another.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/moveitem/
@@ -20,7 +20,7 @@ public MoveItemResponse MoveItem(string srcMsgId, string srcFldId, string dstFld
 | srcFldId | String | Specifies the server ID of the source folder (that is, the folder that contains the items to be moved). The SrcFldId element value can be up to 64 characters in length |
 | dstFldId | String | Specifies the server ID of the destination folder (that is, the folder to which the items are moved). The DstFldId property value can be up to 64 characters in length. |
 
-## Return Value
+### Return Value
 
 Returns information that describe the moved item.
 

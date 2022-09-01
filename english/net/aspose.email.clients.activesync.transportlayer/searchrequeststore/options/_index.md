@@ -1,7 +1,7 @@
 ---
 title: Options
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the search options. The UserName and Password can only be sent in the request after receiving a Status value of 14. The server requires these credentials to access the requested resources. The client MUST only send these over a secure or trusted connection and only in response to a Status value of 14. The supported options vary according to the store that is being searched. The following table lists the valid options for each store. GAL Range UserName Password Picture Mailbox Range DeepTraversal RebuildResults BodyPreference BodyPartPreference RightsManagementSupport DocumentLibrary Range UserName Password The BodyPartPreference is only valid in Search command requests that include a ConversationId.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/searchrequeststore/options/

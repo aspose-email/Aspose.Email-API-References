@@ -1,7 +1,7 @@
 ---
 title: OldValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets old value of property
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/modifiedproperty/oldvalue/

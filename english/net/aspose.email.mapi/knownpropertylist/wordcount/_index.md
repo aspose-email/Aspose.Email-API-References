@@ -1,7 +1,7 @@
 ---
 title: WordCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the word count of the file attached to the Document object. Area Common Canonical name PidNameWordCount Alternate names urnschemasmicrosoftcomofficeofficeWords
 type: docs
 weight: 19540
 url: /net/aspose.email.mapi/knownpropertylist/wordcount/

@@ -1,7 +1,7 @@
 ---
 title: UserDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the display name of the user associated with the given account. The UserDisplayName value can be up to 512 characters in length. The UserDisplayName is not supported when the protocol version is 12.1 or 14.0.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/accountinformation/userdisplayname/

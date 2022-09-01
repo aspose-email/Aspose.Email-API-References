@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets unique identifier of the override.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/classificationoverride/id/

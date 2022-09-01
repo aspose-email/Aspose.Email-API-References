@@ -1,7 +1,7 @@
 ---
 title: FromConnectedAccounts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the email account names from which incoming messages have to have been aggregated in order for the condition or exception to apply.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.exchange/rulepredicates/fromconnectedaccounts/

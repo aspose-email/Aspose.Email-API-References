@@ -1,7 +1,7 @@
 ---
 title: GAL
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: GAL namespace of the ActiveSync protocol
 type: docs
 weight: 1290
 url: /net/aspose.email.clients.activesync.transportlayer/gal/
@@ -14,7 +14,7 @@ GAL namespace of the ActiveSync protocol
 public enum GAL
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

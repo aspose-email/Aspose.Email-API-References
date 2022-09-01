@@ -1,7 +1,7 @@
 ---
 title: SentToAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the email addresses that incoming messages have to have been sent to in order for the condition or exception to apply.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.exchange/rulepredicates/senttoaddresses/

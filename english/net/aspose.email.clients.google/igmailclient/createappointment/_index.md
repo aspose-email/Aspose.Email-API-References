@@ -1,7 +1,7 @@
 ---
 title: CreateAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates an appointment.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/igmailclient/createappointment/
@@ -19,7 +19,7 @@ public Appointment CreateAppointment(string calendarId, Appointment appointment)
 | calendarId | String | Calendar identifier. |
 | appointment | Appointment | An instance of appointment object to create. |
 
-## Return Value
+### Return Value
 
 Returns the created appointment.
 

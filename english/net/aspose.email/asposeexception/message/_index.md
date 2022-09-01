@@ -1,7 +1,7 @@
 ---
 title: Message
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a message that describes the current exception.
 type: docs
 weight: 30
 url: /net/aspose.email/asposeexception/message/

@@ -1,7 +1,7 @@
 ---
 title: RecipientType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the type of the recipient or sender.
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapirecipient/recipienttype/
@@ -14,7 +14,7 @@ Gets the type of the recipient or sender.
 public MapiRecipientType RecipientType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The recipient type.
 

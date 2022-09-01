@@ -1,7 +1,7 @@
 ---
 title: HomeAddressCity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the mail users home locality such as the town or city. Area MapiMailUser Canonical name PidTagHomeAddressCity Alternate names PR_HOME_ADDRESS_CITY PR_HOME_ADDRESS_CITY_A
 type: docs
 weight: 11010
 url: /net/aspose.email.mapi/knownpropertylist/homeaddresscity/

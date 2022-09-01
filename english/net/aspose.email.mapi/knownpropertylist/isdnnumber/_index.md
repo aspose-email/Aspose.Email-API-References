@@ -1,7 +1,7 @@
 ---
 title: IsdnNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the Integrated Services Digital Network ISDN telephone number of the mail user. Area Address Properties Canonical name PidTagIsdnNumber Alternate names PR_ISDN_NUMBER PR_ISDN_NUMBER_A PR_ISDN_NUMBER_W
 type: docs
 weight: 11810
 url: /net/aspose.email.mapi/knownpropertylist/isdnnumber/

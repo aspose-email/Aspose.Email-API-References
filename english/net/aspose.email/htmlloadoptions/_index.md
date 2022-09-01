@@ -1,9 +1,9 @@
 ---
 title: HtmlLoadOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows to specify additional options when loading MailMessage from Html format.
 type: docs
-weight: 17370
+weight: 17540
 url: /net/aspose.email/htmlloadoptions/
 ---
 ## HtmlLoadOptions class

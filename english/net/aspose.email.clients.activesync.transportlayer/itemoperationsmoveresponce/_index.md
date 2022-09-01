@@ -1,7 +1,7 @@
 ---
 title: ItemOperationsMoveResponce
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the body of the response as containing the operation that moves a given conversation.
 type: docs
 weight: 1450
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsmoveresponce/

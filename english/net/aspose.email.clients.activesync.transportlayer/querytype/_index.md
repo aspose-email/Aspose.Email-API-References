@@ -1,7 +1,7 @@
 ---
 title: QueryType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the keywords to use for matching the entries in the store that is being searched. The value of the Query is used as a prefixstring matching pattern and returns entries that match the beginning of the string. For example searching for John would match John Frum or Barry Johnson but would not match James Littlejohn. All nonempty text properties in the GAL that are indexed by using ANR are compared with the Query element value. Search comparisons are performed by using caseinsensitive matching. For a Windows SharePoint Services document library search this protocol supports queries of the following form LinkId  value where value specifies the URL of the item or folder and LinkId indicates that the value is to be compared to the link ID property. For mailbox search the query syntax is as follows  Folders can be specified in the following ways Specified ID Specified folder and subfolders All email folders including Draft Inbox and subfolders Outbox and Sent Items  The basic keyword query can be composed of the following The basic operator And section 2.2.3.10 A dateTime filter specified by using the GreaterThan section 2.2.3.78 and LessThan elements section 2.2.3.87 FreeText elements section 2.2.3.73 that contain keywords The basic keyword query is executed against all indexed properties.
 type: docs
 weight: 1780
 url: /net/aspose.email.clients.activesync.transportlayer/querytype/

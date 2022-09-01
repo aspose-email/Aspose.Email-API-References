@@ -1,7 +1,7 @@
 ---
 title: XMailer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Information about the client software of the originator. Example XMailer Aspose.Email
 type: docs
 weight: 270
 url: /net/aspose.email/headertype/xmailer/

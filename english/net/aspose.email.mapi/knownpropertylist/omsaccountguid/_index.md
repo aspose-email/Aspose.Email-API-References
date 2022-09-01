@@ -1,7 +1,7 @@
 ---
 title: OMSAccountGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the GUID of the SMS account used to deliver the message. Area SMS Canonical name PidNameOMSAccountGuid Alternate names
 type: docs
 weight: 13370
 url: /net/aspose.email.mapi/knownpropertylist/omsaccountguid/

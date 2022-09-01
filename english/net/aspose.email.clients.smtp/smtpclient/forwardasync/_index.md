@@ -1,12 +1,12 @@
 ---
 title: ForwardAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Forwards specified message to recipient
 type: docs
 weight: 140
 url: /net/aspose.email.clients.smtp/smtpclient/forwardasync/
 ---
-## SmtpClient.ForwardAsync method (1 of 12)
+## ForwardAsync(IConnection, string, string, MailMessage) {#forwardasync_4}
 
 Forwards specified message to recipient
 
@@ -22,7 +22,7 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 | recipient | String | Recipient of the forwarded message. |
 | message | MailMessage | The message for a forwarding. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -36,7 +36,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (2 of 12)
+## ForwardAsync(IConnection, string, MailAddressCollection, MailMessage) {#forwardasync}
 
 Forwards specified message to recipient
 
@@ -52,7 +52,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | recipients | MailAddressCollection | Recipients of the forwarded message. |
 | message | MailMessage | The message for a forwarding. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -67,7 +67,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (3 of 12)
+## ForwardAsync(string, string, MailMessage) {#forwardasync_10}
 
 Forwards specified message to recipient
 
@@ -81,7 +81,7 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message)
 | recipient | String | Recipient of the forwarded message. |
 | message | MailMessage | The message for a forwarding. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -94,7 +94,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (4 of 12)
+## ForwardAsync(string, MailAddressCollection, MailMessage) {#forwardasync_6}
 
 Forwards specified message to recipient
 
@@ -108,7 +108,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 | recipients | MailAddressCollection | Recipients of the forwarded message. |
 | message | MailMessage | The message for a forwarding. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -122,7 +122,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (5 of 12)
+## ForwardAsync(IConnection, string, MailAddressCollection, Stream) {#forwardasync_2}
 
 Forwards specified message to recipient
 
@@ -138,7 +138,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | recipients | MailAddressCollection | Recipients of the forwarded message. |
 | messageStream | Stream | The stream that represents message in eml format. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -152,7 +152,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (6 of 12)
+## ForwardAsync(string, MailAddressCollection, Stream) {#forwardasync_8}
 
 Forwards specified message to recipient
 
@@ -166,7 +166,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 | recipients | MailAddressCollection | Recipients of the forwarded message. |
 | messageStream | Stream | The stream that represents message in eml format. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -179,7 +179,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (7 of 12)
+## ForwardAsync(IConnection, string, string, MailMessage, CancellationToken) {#forwardasync_5}
 
 Forwards specified message to recipient
 
@@ -196,7 +196,7 @@ public Task ForwardAsync(IConnection connection, string sender, string recipient
 | message | MailMessage | The message for a forwarding. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -210,7 +210,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (8 of 12)
+## ForwardAsync(IConnection, string, MailAddressCollection, MailMessage, CancellationToken) {#forwardasync_1}
 
 Forwards specified message to recipient
 
@@ -227,7 +227,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | message | MailMessage | The message for a forwarding. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -242,7 +242,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (9 of 12)
+## ForwardAsync(string, string, MailMessage, CancellationToken) {#forwardasync_11}
 
 Forwards specified message to recipient
 
@@ -258,7 +258,7 @@ public Task ForwardAsync(string sender, string recipient, MailMessage message,
 | message | MailMessage | The message for a forwarding. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -271,7 +271,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (10 of 12)
+## ForwardAsync(string, MailAddressCollection, MailMessage, CancellationToken) {#forwardasync_7}
 
 Forwards specified message to recipient
 
@@ -287,7 +287,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, MailMe
 | message | MailMessage | The message for a forwarding. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -301,7 +301,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (11 of 12)
+## ForwardAsync(IConnection, string, MailAddressCollection, Stream, CancellationToken) {#forwardasync_3}
 
 Forwards specified message to recipient
 
@@ -318,7 +318,7 @@ public Task ForwardAsync(IConnection connection, string sender, MailAddressColle
 | messageStream | Stream | The stream that represents message in eml format. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -332,7 +332,7 @@ Task object, with delegate for this operation
 
 ---
 
-## SmtpClient.ForwardAsync method (12 of 12)
+## ForwardAsync(string, MailAddressCollection, Stream, CancellationToken) {#forwardasync_9}
 
 Forwards specified message to recipient
 
@@ -348,7 +348,7 @@ public Task ForwardAsync(string sender, MailAddressCollection recipients, Stream
 | messageStream | Stream | The stream that represents message in eml format. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

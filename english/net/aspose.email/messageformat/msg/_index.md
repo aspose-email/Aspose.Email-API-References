@@ -1,7 +1,7 @@
 ---
 title: Msg
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates message in Msg format used by Microsoft Outlook.
 type: docs
 weight: 50
 url: /net/aspose.email/messageformat/msg/

@@ -1,7 +1,7 @@
 ---
 title: OriginalStartDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the original start date.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/originalstartdate/
@@ -14,7 +14,7 @@ Gets or sets the original start date.
 public DateTime OriginalStartDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The original start date.
 

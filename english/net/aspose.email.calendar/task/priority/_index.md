@@ -1,7 +1,7 @@
 ---
 title: Priority
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a task priority.
 type: docs
 weight: 90
 url: /net/aspose.email.calendar/task/priority/

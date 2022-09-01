@@ -1,7 +1,7 @@
 ---
 title: OptionalAttendees
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies optional attendees. Area Meetings Canonical name PidLidOptionalAttendees Alternate names LID_OPTIONAL_ATTENDEES
 type: docs
 weight: 13430
 url: /net/aspose.email.mapi/knownpropertylist/optionalattendees/

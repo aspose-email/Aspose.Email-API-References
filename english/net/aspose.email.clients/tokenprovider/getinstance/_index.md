@@ -1,7 +1,7 @@
 ---
 title: GetInstance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an instance of the OutlookTokenProvider for defined parameters.
 type: docs
 weight: 10
 url: /net/aspose.email.clients/tokenprovider/getinstance/
@@ -22,7 +22,7 @@ public static TokenProvider GetInstance(string requestUrl, string clientId, stri
 | clientSecret | String | The client secret obtained during application registration. |
 | refreshToken | String | OAuth 2.0 refresh token |
 
-## Return Value
+### Return Value
 
 Returns an instance of the OutlookTokenProvider for defined parameters.
 

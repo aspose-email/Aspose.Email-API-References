@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the specified header is contained in the collection
 type: docs
 weight: 100
 url: /net/aspose.email.mime/headercollection/contains/
@@ -18,7 +18,7 @@ public bool Contains(string item)
 | --- | --- | --- |
 | item | String | A header to search |
 
-## Return Value
+### Return Value
 
 `True` if collection contains specified *item*; otherwise, `false`
 

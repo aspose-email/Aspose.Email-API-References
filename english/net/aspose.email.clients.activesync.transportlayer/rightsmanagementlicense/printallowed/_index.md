@@ -1,7 +1,7 @@
 ---
 title: PrintAllowed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the email can be printed by the user. This element does not indicate client support for printing an email message it only specifies whether the email message can be printed if the client supports printing. The value is TRUE if the email can be printed by the user otherwise FALSE.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/printallowed/

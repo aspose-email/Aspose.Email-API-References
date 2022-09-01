@@ -1,7 +1,7 @@
 ---
 title: ModifiedInstanceDates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: An array of dates each of which is the date of a modified instance.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/modifiedinstancedates/

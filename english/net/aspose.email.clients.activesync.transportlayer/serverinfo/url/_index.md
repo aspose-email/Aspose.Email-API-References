@@ -1,7 +1,7 @@
 ---
 title: Url
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a URL string that conveys the protocol port resource location and other information.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/serverinfo/url/

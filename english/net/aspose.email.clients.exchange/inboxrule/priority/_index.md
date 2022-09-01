@@ -1,7 +1,7 @@
 ---
 title: Priority
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value that indicates the order in which a rule is to be run.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.exchange/inboxrule/priority/

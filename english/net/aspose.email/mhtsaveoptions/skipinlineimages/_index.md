@@ -1,7 +1,7 @@
 ---
 title: SkipInlineImages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines whether skip references on images at saving in mhtml or not. Default value is false.
 type: docs
 weight: 70
 url: /net/aspose.email/mhtsaveoptions/skipinlineimages/

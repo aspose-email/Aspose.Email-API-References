@@ -1,7 +1,7 @@
 ---
 title: PR_BODY_HTML
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the Hypertext Markup Language HTMLencoded text body.
 type: docs
 weight: 1020
 url: /net/aspose.email.mapi/mapipropertytag/pr_body_html/

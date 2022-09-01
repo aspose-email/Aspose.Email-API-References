@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified objects are equal to each another.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/pidlidpropertydescriptor/op_equality/
@@ -19,7 +19,7 @@ public static bool operator ==(PidLidPropertyDescriptor pd1, PropertyDescriptor 
 | pd1 | PidLidPropertyDescriptor | The object to compare with another object. |
 | pd2 | PropertyDescriptor | The object to compare with another object. |
 
-## Return Value
+### Return Value
 
 true if the specified PropertyDescriptor is equal to the another PropertyDescriptor; otherwise, false.
 

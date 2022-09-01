@@ -1,7 +1,7 @@
 ---
 title: AmpMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Message which allows senders to include AMP components inside emails.
 type: docs
 weight: 140
 url: /net/aspose.email.amp/ampmessage/
@@ -43,6 +43,7 @@ public class AmpMessage : MailMessage
 | virtual [IsEncrypted](../../aspose.email/mailmessage/isencrypted) { get; } | Gets a value indicating whether the message is encrypted. |
 | virtual [IsReadOnly](../../aspose.email/mailmessage/isreadonly) { get; } | Gets a value indicating whether the message is read only |
 | virtual [IsSigned](../../aspose.email/mailmessage/issigned) { get; } | Gets a value indicating whether the message is signed. |
+| virtual [ItemId](../../aspose.email/mailmessage/itemid) { get; } | Represents identification information about message in a mailbox. |
 | virtual [LinkedResources](../../aspose.email/mailmessage/linkedresources) { get; } | Gets the collection of linked resources of message |
 | virtual [MessageId](../../aspose.email/mailmessage/messageid) { get; set; } | Gets or sets the message id |
 | virtual [OriginalIsTnef](../../aspose.email/mailmessage/originalistnef) { get; } | Gets a value indicating whether original EML message is in TNEF format. |
@@ -92,7 +93,7 @@ public class AmpMessage : MailMessage
 | virtual [RemoveSignature](../../aspose.email/mailmessage/removesignature)() | Remove signature |
 | virtual [Save](../../aspose.email/mailmessage/save)(Stream) | Save message as a stream |
 | virtual [Save](../../aspose.email/mailmessage/save)(string) | Save message as a file |
-| override [Save](../../aspose.email.amp/ampmessage/save)(Stream, SaveOptions) | Save message as a stream |
+| override [Save](../../aspose.email.amp/ampmessage/save#save_1)(Stream, SaveOptions) | Save message as a stream |
 | virtual [Save](../../aspose.email/mailmessage/save)(string, SaveOptions) | Save message as a file with additional options. |
 | virtual [SetHtmlBody](../../aspose.email/mailmessage/sethtmlbody)(string, bool) | Sets html body. |
 | override [ToString](../../aspose.email/mailmessage/tostring)() | Returns a string that represents the current object. |

@@ -1,7 +1,7 @@
 ---
 title: ResponseRequested
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a response is requested to a Message object.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicalendarattendees/responserequested/

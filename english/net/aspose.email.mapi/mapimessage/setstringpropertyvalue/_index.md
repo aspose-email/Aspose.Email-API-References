@@ -1,7 +1,7 @@
 ---
 title: SetStringPropertyValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the string property value.
 type: docs
 weight: 380
 url: /net/aspose.email.mapi/mapimessage/setstringpropertyvalue/

@@ -1,7 +1,7 @@
 ---
 title: SmartRequestSource
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information about the source message.
 type: docs
 weight: 2100
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequestsource/

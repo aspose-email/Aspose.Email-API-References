@@ -1,7 +1,7 @@
 ---
 title: TimeZoneStruct
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the time zone information for a recurring meeting.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicalendareventrecurrence/timezonestruct/

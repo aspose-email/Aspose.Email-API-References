@@ -1,7 +1,7 @@
 ---
 title: CrossMailboxOperations
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates if the operation involved more than one mailbox.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/crossmailboxoperations/

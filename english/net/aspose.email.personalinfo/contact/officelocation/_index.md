@@ -1,7 +1,7 @@
 ---
 title: OfficeLocation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets office location
 type: docs
 weight: 300
 url: /net/aspose.email.personalinfo/contact/officelocation/

@@ -1,12 +1,12 @@
 ---
 title: GetInboxRules
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets inbox rules
 type: docs
 weight: 950
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getinboxrules/
 ---
-## IEWSClient.GetInboxRules method (1 of 2)
+## GetInboxRules() {#getinboxrules}
 
 Gets inbox rules
 
@@ -14,7 +14,7 @@ Gets inbox rules
 public InboxRule[] GetInboxRules()
 ```
 
-## Return Value
+### Return Value
 
 An array of [`InboxRule`](../../../aspose.email.clients.exchange/inboxrule)
 
@@ -27,7 +27,7 @@ An array of [`InboxRule`](../../../aspose.email.clients.exchange/inboxrule)
 
 ---
 
-## IEWSClient.GetInboxRules method (2 of 2)
+## GetInboxRules(string) {#getinboxrules_1}
 
 Gets inbox rules
 
@@ -39,7 +39,7 @@ public InboxRule[] GetInboxRules(string mailbox)
 | --- | --- | --- |
 | mailbox | String | A mailbox to read inbox rule from. Note: if it is set to `null` or `empty`, the rules will be read from the default mailbox |
 
-## Return Value
+### Return Value
 
 An array of [`InboxRule`](../../../aspose.email.clients.exchange/inboxrule)
 

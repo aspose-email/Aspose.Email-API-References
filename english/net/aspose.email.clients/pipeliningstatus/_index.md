@@ -1,9 +1,9 @@
 ---
 title: PipeliningStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines pipelining status for mail client.
 type: docs
-weight: 16730
+weight: 16840
 url: /net/aspose.email.clients/pipeliningstatus/
 ---
 ## PipeliningStatus class
@@ -27,7 +27,7 @@ public class PipeliningStatus
 | Name | Description |
 | --- | --- |
 | override [ToString](../../aspose.email.clients/pipeliningstatus/tostring)() | Returns a string that represents the current object. |
-| [implicit operator](../../aspose.email.clients/pipeliningstatus/op_implicit) | Converts boolean value to [`PipeliningStatus`](../pipeliningstatus) object (4 operators) |
+| [implicit operator](../../aspose.email.clients/pipeliningstatus/op_implicit#op_implicit_2) | Converts boolean value to [`PipeliningStatus`](../pipeliningstatus) object (4 operators) |
 
 ### See Also
 

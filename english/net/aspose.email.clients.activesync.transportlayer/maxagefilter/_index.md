@@ -1,7 +1,7 @@
 ---
 title: MaxAgeFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum number of calendar days that can be synchronized.
 type: docs
 weight: 1500
 url: /net/aspose.email.clients.activesync.transportlayer/maxagefilter/
@@ -14,7 +14,7 @@ Specifies the maximum number of calendar days that can be synchronized.
 public enum MaxAgeFilter
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

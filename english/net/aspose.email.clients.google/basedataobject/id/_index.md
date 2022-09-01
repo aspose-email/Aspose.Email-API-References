@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifier of the resource.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/basedataobject/id/

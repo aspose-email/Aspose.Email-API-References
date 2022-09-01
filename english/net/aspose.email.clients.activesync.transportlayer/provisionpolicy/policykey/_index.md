@@ -1,7 +1,7 @@
 ---
 title: PolicyKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: PolicyKey is used by the server to mark the state of policy settings on the client in the settings download phase of the Provision command. The PolicyKey is an element of type string with a maximum of 64 characters. The value of the PolicyKey SHOULD be a string representation of a 32bit unsigned integer.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/provisionpolicy/policykey/

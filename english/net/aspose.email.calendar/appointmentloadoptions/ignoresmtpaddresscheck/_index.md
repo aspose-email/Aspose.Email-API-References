@@ -1,7 +1,7 @@
 ---
 title: IgnoreSmtpAddressCheck
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines whether the SMTP address validation is skipped.
 type: docs
 weight: 50
 url: /net/aspose.email.calendar/appointmentloadoptions/ignoresmtpaddresscheck/

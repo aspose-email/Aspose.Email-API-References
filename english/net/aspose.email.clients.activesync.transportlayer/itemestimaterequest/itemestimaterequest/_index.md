@@ -1,12 +1,12 @@
 ---
 title: ItemEstimateRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ItemEstimateRequest class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/itemestimaterequest/itemestimaterequest/
 ---
-## ItemEstimateRequest constructor (1 of 3)
+## ItemEstimateRequest() {#constructor}
 
 Initializes a new instance of the ItemEstimateRequest class.
 
@@ -22,7 +22,7 @@ public ItemEstimateRequest()
 
 ---
 
-## ItemEstimateRequest constructor (2 of 3)
+## ItemEstimateRequest(string, string, ItemEstimateOptions[], bool?) {#constructor_1}
 
 Initializes a new instance of the ItemEstimateRequest class.
 
@@ -47,7 +47,7 @@ public ItemEstimateRequest(string syncKey, string collectionId, ItemEstimateOpti
 
 ---
 
-## ItemEstimateRequest constructor (3 of 3)
+## ItemEstimateRequest(string, string, AirsyncFilterType?) {#constructor_2}
 
 Initializes a new instance of the ItemEstimateRequest class.
 

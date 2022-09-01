@@ -1,7 +1,7 @@
 ---
 title: MaxEmailAgeFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the email age limit for synchronization. Valid values are listed bellow Sync all 1 day 3 days 1 week 2 weeks 1 month
 type: docs
 weight: 290
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/maxemailagefilter/

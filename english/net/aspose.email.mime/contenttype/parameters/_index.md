@@ -1,7 +1,7 @@
 ---
 title: Parameters
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the dictionary that contains the parameters.
 type: docs
 weight: 60
 url: /net/aspose.email.mime/contenttype/parameters/
@@ -14,7 +14,7 @@ Gets the dictionary that contains the parameters.
 public TrackingStringDictionary Parameters { get; }
 ```
 
-## Property Value
+### Property Value
 
 A StringDictionary that contains name and value pairs.
 

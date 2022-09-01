@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find messages that contain the specified string in the envelope structures TO field.
 type: docs
 weight: 110
 url: /net/aspose.email.tools.search/mailquerybuilder/to/
@@ -14,7 +14,7 @@ Gets the field that allows to find messages that contain the specified string in
 public StringComparisonField To { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`DateComparisonField`](../../datecomparisonfield) that represents TO search field.
 

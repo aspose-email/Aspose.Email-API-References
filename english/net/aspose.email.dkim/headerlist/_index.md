@@ -1,9 +1,9 @@
 ---
 title: HeaderList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Colection with name of headers that are included in the DKIM signature.
 type: docs
-weight: 17060
+weight: 17230
 url: /net/aspose.email.dkim/headerlist/
 ---
 ## HeaderList class

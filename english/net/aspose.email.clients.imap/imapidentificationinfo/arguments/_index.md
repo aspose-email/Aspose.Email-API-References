@@ -1,7 +1,7 @@
 ---
 title: Arguments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Arguments supplied on the command line if any.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/imapidentificationinfo/arguments/

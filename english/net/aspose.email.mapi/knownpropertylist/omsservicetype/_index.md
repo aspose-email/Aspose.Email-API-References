@@ -1,7 +1,7 @@
 ---
 title: OMSServiceType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the type of service used to send an SMS or MMS message. Area SMS Canonical name PidNameOMSServiceType Alternate names
 type: docs
 weight: 13400
 url: /net/aspose.email.mapi/knownpropertylist/omsservicetype/

@@ -1,7 +1,7 @@
 ---
 title: MailServerValidating
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This event occurs when validating an email addresss on its mail server.
 type: docs
 weight: 50
 url: /net/aspose.email.tools.verifications/emailvalidator/mailservervalidating/

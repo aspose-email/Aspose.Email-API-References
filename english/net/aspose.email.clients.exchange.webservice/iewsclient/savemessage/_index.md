@@ -1,12 +1,12 @@
 ---
 title: SaveMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves the message.
 type: docs
 weight: 1390
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/savemessage/
 ---
-## IEWSClient.SaveMessage method (1 of 2)
+## SaveMessage(string, string) {#savemessage_1}
 
 Saves the message.
 
@@ -27,7 +27,7 @@ public void SaveMessage(string messageUri, string path)
 
 ---
 
-## IEWSClient.SaveMessage method (2 of 2)
+## SaveMessage(string, Stream) {#savemessage}
 
 Saves the message.
 

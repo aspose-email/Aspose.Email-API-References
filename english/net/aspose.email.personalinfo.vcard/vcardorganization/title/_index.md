@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a job title
 type: docs
 weight: 70
 url: /net/aspose.email.personalinfo.vcard/vcardorganization/title/

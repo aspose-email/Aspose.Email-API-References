@@ -1,7 +1,7 @@
 ---
 title: AsposeArgumentOutOfRangeException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The exception that is thrown when one of the arguments provided to a method is out of range.
 type: docs
 weight: 280
 url: /net/aspose.email/asposeargumentoutofrangeexception/
@@ -18,13 +18,13 @@ public class AsposeArgumentOutOfRangeException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception)() | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class. |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception)(Exception) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a reference to the inner exception that is the cause of this exception. |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception)(string) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception)(string, Exception) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception)(string, int) |  |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception)(string, params object[]) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
-| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception)(string, string) |  |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor)() | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_1)(Exception) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a reference to the inner exception that is the cause of this exception. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_2)(string) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_4)(string, Exception) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_3)(string, int) |  |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_5)(string, params object[]) | Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../asposeargumentoutofrangeexception) class with a specified error message. |
+| [AsposeArgumentOutOfRangeException](asposeargumentoutofrangeexception#constructor_6)(string, string) |  |
 
 ## Properties
 

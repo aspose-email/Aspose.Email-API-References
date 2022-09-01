@@ -1,7 +1,7 @@
 ---
 title: CompanyMainTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the company phone number
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/companymaintelephonenumber/

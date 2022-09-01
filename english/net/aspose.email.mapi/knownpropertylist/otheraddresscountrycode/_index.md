@@ -1,7 +1,7 @@
 ---
 title: OtherAddressCountryCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the country code portion of the other address of the contact. Area Contact Properties Canonical name PidLidOtherAddressCountryCode Alternate names dispidOtherAddressCountryCode
 type: docs
 weight: 13970
 url: /net/aspose.email.mapi/knownpropertylist/otheraddresscountrycode/

@@ -1,9 +1,9 @@
 ---
 title: MapiJournalFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains metadata about the Journal object. Must be either zero or the following values.
 type: docs
-weight: 18240
+weight: 18450
 url: /net/aspose.email.mapi/mapijournalflags/
 ---
 ## MapiJournalFlags enumeration
@@ -15,7 +15,7 @@ Contains metadata about the Journal object. Must be either zero or the following
 public enum MapiJournalFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

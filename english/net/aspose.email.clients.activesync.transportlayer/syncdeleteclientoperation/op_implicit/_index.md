@@ -1,7 +1,7 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts server id to SyncDeleteClientOperation object
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/op_implicit/
@@ -18,7 +18,7 @@ public static implicit operator SyncDeleteClientOperation(string serverId)
 | --- | --- | --- |
 | serverId | String | Represents a unique identifier that is assigned by the server to each object that can be synchronized. |
 
-## Return Value
+### Return Value
 
 Returns instance of the SyncDeleteClientOperation class
 

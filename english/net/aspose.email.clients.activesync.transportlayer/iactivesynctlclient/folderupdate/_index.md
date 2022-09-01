@@ -1,12 +1,12 @@
 ---
 title: FolderUpdate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The FolderUpdate command moves a folder from one location to another on the server. The command is also used to rename a folder.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/folderupdate/
 ---
-## IActiveSyncTLClient.FolderUpdate method (1 of 2)
+## FolderUpdate(string, string, string) {#folderupdate_1}
 
 The FolderUpdate command moves a folder from one location to another on the server. The command is also used to rename a folder.
 
@@ -28,7 +28,7 @@ public void FolderUpdate(string serverId, string parentId, string displayName)
 
 ---
 
-## IActiveSyncTLClient.FolderUpdate method (2 of 2)
+## FolderUpdate(FolderInfo) {#folderupdate}
 
 The FolderUpdate command moves a folder from one location to another on the server. The command is also used to rename a folder.
 

@@ -1,7 +1,7 @@
 ---
 title: UidPlusSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information whether UIDPLUS extension is supported See more https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 320
 url: /net/aspose.email.clients.imap/imapclient/uidplussupported/

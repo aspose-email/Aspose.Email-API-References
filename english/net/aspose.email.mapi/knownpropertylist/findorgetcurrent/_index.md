@@ -1,7 +1,7 @@
 ---
 title: FindOrGetCurrent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Finds property in list with canonical name
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/knownpropertylist/findorgetcurrent/
@@ -18,7 +18,7 @@ public PropertyDescriptor FindOrGetCurrent(PropertyDescriptor item)
 | --- | --- | --- |
 | item | PropertyDescriptor | Property descriptor to search |
 
-## Return Value
+### Return Value
 
 [`PropertyDescriptor`](../../propertydescriptor) object if found in the list; otherwise [`PropertyDescriptor`](../../propertydescriptor) object from parameter.
 

@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The inequality operator  returns false if its operands are equal true otherwise.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/status/op_inequality/
@@ -19,7 +19,7 @@ public static bool operator !=(Status status1, Status status2)
 | status1 | Status | First object to compare |
 | status2 | Status | Second object to compare |
 
-## Return Value
+### Return Value
 
 true if the first status is not equal to the second status; otherwise, false.
 

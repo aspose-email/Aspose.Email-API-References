@@ -1,7 +1,7 @@
 ---
 title: VCardContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the VCardContactaspose.email.personalinfo.vcard/vcardcontact class
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/vcardcontact/

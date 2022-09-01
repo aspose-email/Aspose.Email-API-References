@@ -1,12 +1,12 @@
 ---
 title: ByDay
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of ByDay class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar.recurrences/byday/byday/
 ---
-## ByDay constructor (1 of 2)
+## ByDay(DayOfWeek) {#constructor_1}
 
 Initializes a new instance of ByDay class.
 
@@ -26,7 +26,7 @@ public ByDay(DayOfWeek dayOfWeek)
 
 ---
 
-## ByDay constructor (2 of 2)
+## ByDay(int, DayOfWeek) {#constructor}
 
 Initializes a new instance of ByDay class.
 

@@ -1,7 +1,7 @@
 ---
 title: AttachmentContactPhoto
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that a contact photo attachment is attached to a Contact object. Area Message Attachment Properties Canonical name PidTagAttachmentContactPhoto Alternate names PR_ATTACHMENT_CONTACTPHOTO
 type: docs
 weight: 1630
 url: /net/aspose.email.mapi/knownpropertylist/attachmentcontactphoto/

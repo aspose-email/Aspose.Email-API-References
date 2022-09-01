@@ -1,7 +1,7 @@
 ---
 title: UserSettingErrors
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets error information for settings that could not be returned.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/getusersettingsresponse/usersettingerrors/

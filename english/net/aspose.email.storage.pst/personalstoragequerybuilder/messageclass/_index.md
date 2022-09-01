@@ -1,7 +1,7 @@
 ---
 title: MessageClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets messages with an specified message class.
 type: docs
 weight: 60
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/messageclass/
@@ -14,7 +14,7 @@ Gets messages with an specified message class.
 public StringComparisonField MessageClass { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`StringComparisonField`](../../../aspose.email.tools.search/stringcomparisonfield) that represents a message class.
 

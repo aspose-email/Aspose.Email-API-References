@@ -1,7 +1,7 @@
 ---
 title: RegisterRoutine
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Registers the template routine to the temaplate engine.
 type: docs
 weight: 50
 url: /net/aspose.email.tools.merging/templateengine/registerroutine/

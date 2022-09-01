@@ -1,7 +1,7 @@
 ---
 title: CalendarDuration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the duration in seconds of an appointment or meeting. Area Common Canonical name PidNameCalendarDuration Alternate names urnschemascalendarduration
 type: docs
 weight: 2240
 url: /net/aspose.email.mapi/knownpropertylist/calendarduration/

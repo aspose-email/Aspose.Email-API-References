@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the format type of the body content of the item.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/bodypart/type/

@@ -1,7 +1,7 @@
 ---
 title: Truncated
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the body of the item has been truncated according to the BodyPreference element indicated by the client. If the value is TRUE then the body of the item has been truncated. If the value is FALSE or Truncated property is not set then the body of the item has not been truncated.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/bodypart/truncated/

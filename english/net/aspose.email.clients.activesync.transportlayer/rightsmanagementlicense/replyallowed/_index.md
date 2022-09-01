@@ -1,7 +1,7 @@
 ---
 title: ReplyAllowed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the user is allowed to reply to the email message. The value is TRUE if the user can reply to the email message otherwise FALSE.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/replyallowed/

@@ -1,7 +1,7 @@
 ---
 title: RightsManagementTemplates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The list of RightsManagementTemplates. A maximum of 20 RightsManagementTemplate objects can be returned to the client.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementinformationresponce/rightsmanagementtemplates/

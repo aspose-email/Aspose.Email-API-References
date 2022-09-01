@@ -1,12 +1,12 @@
 ---
 title: BuildResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Builds the forwarding messages.
 type: docs
 weight: 20
 url: /net/aspose.email.tools/forwardmessagebuilder/buildresponse/
 ---
-## ForwardMessageBuilder.BuildResponse method (1 of 2)
+## BuildResponse(MailMessage) {#buildresponse}
 
 Builds the forwarding messages.
 
@@ -18,7 +18,7 @@ public override MailMessage BuildResponse(MailMessage msg)
 | --- | --- | --- |
 | msg | MailMessage | Original message [`MailMessage`](../../../aspose.email/mailmessage). |
 
-## Return Value
+### Return Value
 
 Resultant message [`MailMessage`](../../../aspose.email/mailmessage).
 
@@ -31,7 +31,7 @@ Resultant message [`MailMessage`](../../../aspose.email/mailmessage).
 
 ---
 
-## ForwardMessageBuilder.BuildResponse method (2 of 2)
+## BuildResponse(MapiMessage) {#buildresponse_1}
 
 Builds the forwarding messages.
 
@@ -43,7 +43,7 @@ public override MapiMessage BuildResponse(MapiMessage msg)
 | --- | --- | --- |
 | msg | MapiMessage | Original message [`MapiMessage`](../../../aspose.email.mapi/mapimessage). |
 
-## Return Value
+### Return Value
 
 Resultant message [`MapiMessage`](../../../aspose.email.mapi/mapimessage).
 

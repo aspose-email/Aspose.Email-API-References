@@ -1,7 +1,7 @@
 ---
 title: SyncIssues
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The folder that contains synchronization logs created by Outlook.
 type: docs
 weight: 200
 url: /net/aspose.email.clients.graph/knownfolders/syncissues/

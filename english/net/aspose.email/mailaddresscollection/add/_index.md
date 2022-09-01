@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add a MailAddressaspose.email/mailaddress to the collection.
 type: docs
 weight: 20
 url: /net/aspose.email/mailaddresscollection/add/
 ---
-## MailAddressCollection.Add method (1 of 2)
+## Add(MailAddress) {#add}
 
 Add a [`MailAddress`](../../mailaddress) to the collection.
 
@@ -27,7 +27,7 @@ public void Add(MailAddress address)
 
 ---
 
-## MailAddressCollection.Add method (2 of 2)
+## Add(string) {#add_2}
 
 Add a list of e-mail addresses to the collection.
 

@@ -1,12 +1,12 @@
 ---
 title: FetchAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the specified attachment
 type: docs
 weight: 630
 url: /net/aspose.email.clients.imap/imapclient/fetchattachment/
 ---
-## ImapClient.FetchAttachment method (1 of 2)
+## FetchAttachment(IConnection, int, string) {#fetchattachment}
 
 Fetches the specified attachment
 
@@ -20,7 +20,7 @@ public Attachment FetchAttachment(IConnection connection, int sequenceNumber, st
 | sequenceNumber | Int32 | The sequence number of a message |
 | attachmentName | String | A name of attachment |
 
-## Return Value
+### Return Value
 
 [`Attachment`](../../../aspose.email/attachment) that represents attachment
 
@@ -34,7 +34,7 @@ public Attachment FetchAttachment(IConnection connection, int sequenceNumber, st
 
 ---
 
-## ImapClient.FetchAttachment method (2 of 2)
+## FetchAttachment(int, string) {#fetchattachment_1}
 
 Fetches the specified attachment
 
@@ -47,7 +47,7 @@ public Attachment FetchAttachment(int sequenceNumber, string attachmentName)
 | sequenceNumber | Int32 | The sequence number of a message |
 | attachmentName | String | A name of attachment |
 
-## Return Value
+### Return Value
 
 [`Attachment`](../../../aspose.email/attachment) that represents attachment
 

@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Clears all headers.
 type: docs
 weight: 90
 url: /net/aspose.email.mime/headercollection/clear/

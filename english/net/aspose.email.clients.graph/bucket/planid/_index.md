@@ -1,7 +1,7 @@
 ---
 title: PlanId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Plan ID to which the bucket belongs.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.graph/bucket/planid/

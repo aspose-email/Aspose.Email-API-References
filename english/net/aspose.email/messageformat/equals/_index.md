@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Equalses the specified o.
 type: docs
 weight: 70
 url: /net/aspose.email/messageformat/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | An object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are an equal, otherwise returns false.
 

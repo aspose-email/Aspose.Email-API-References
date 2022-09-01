@@ -1,7 +1,7 @@
 ---
 title: CalendarFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the The urncontentclassescalendarfolder content class that defines a set of properties for a folder that primarily contains appointment items.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/calendarfolder/
@@ -14,7 +14,7 @@ Gets the The urn:content-classes:calendarfolder content class that defines a set
 public static ContentClassType CalendarFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The calendar folder content calss.
 

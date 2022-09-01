@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field in message must be equal to the specified value.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.search/enumcomparisonfield/equals/
@@ -18,7 +18,7 @@ public MailQuery Equals(Enum value)
 | --- | --- | --- |
 | value | Enum | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

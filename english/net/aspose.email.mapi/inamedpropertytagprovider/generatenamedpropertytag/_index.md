@@ -1,12 +1,12 @@
 ---
 title: GenerateNamedPropertyTag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Generates named property tag
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/inamedpropertytagprovider/generatenamedpropertytag/
 ---
-## INamedPropertyTagProvider.GenerateNamedPropertyTag method (1 of 3)
+## GenerateNamedPropertyTag(PropertyDataType) {#generatenamedpropertytag_1}
 
 Generates named property tag
 
@@ -18,7 +18,7 @@ public long GenerateNamedPropertyTag(PropertyDataType dataType)
 | --- | --- | --- |
 | dataType | PropertyDataType | Named property data type |
 
-## Return Value
+### Return Value
 
 Returns tag for named property for current tag provider
 
@@ -31,7 +31,7 @@ Returns tag for named property for current tag provider
 
 ---
 
-## INamedPropertyTagProvider.GenerateNamedPropertyTag method (2 of 3)
+## GenerateNamedPropertyTag(MapiPropertyType) {#generatenamedpropertytag}
 
 Generates named property tag
 
@@ -43,7 +43,7 @@ public long GenerateNamedPropertyTag(MapiPropertyType dataType)
 | --- | --- | --- |
 | dataType | MapiPropertyType | Named property data type |
 
-## Return Value
+### Return Value
 
 Returns tag for named property for current tag provider
 
@@ -56,7 +56,7 @@ Returns tag for named property for current tag provider
 
 ---
 
-## INamedPropertyTagProvider.GenerateNamedPropertyTag method (3 of 3)
+## GenerateNamedPropertyTag(long) {#generatenamedpropertytag_2}
 
 Generates named property tag
 
@@ -68,7 +68,7 @@ public long GenerateNamedPropertyTag(long dataType)
 | --- | --- | --- |
 | dataType | Int64 | Named property data type |
 
-## Return Value
+### Return Value
 
 Returns tag for named property for current tag provider
 

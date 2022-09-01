@@ -1,7 +1,7 @@
 ---
 title: ArchiveTag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the GUID of an archive tag. Area Archive Canonical name PidTagArchiveTag Alternate names PR_ARCHIVE_TAG ptagArchiveTag
 type: docs
 weight: 1420
 url: /net/aspose.email.mapi/knownpropertylist/archivetag/

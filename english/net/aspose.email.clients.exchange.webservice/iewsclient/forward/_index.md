@@ -1,7 +1,7 @@
 ---
 title: Forward
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Forward a message.
 type: docs
 weight: 880
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/forward/

@@ -1,7 +1,7 @@
 ---
 title: ModifiedProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The property is included for admin events. The property includes the name of the property that was modified the new value of the modified property and the previous value of the modified object.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/exchangeadminactivity/modifiedproperties/

@@ -1,7 +1,7 @@
 ---
 title: AddCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the category for a message.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/followupmanager/addcategory/

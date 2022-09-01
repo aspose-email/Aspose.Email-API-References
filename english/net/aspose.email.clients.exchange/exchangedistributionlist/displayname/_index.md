@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Display name of list
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/exchangedistributionlist/displayname/

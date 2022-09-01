@@ -1,7 +1,7 @@
 ---
 title: MobileTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the mobile telephone number
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/mobiletelephonenumber/

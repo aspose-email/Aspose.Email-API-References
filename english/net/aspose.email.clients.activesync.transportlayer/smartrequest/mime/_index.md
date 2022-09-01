@@ -1,7 +1,7 @@
 ---
 title: Mime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the MIMEencoded message. The Mime content is transferred as an opaque BLOB within the WBXML tags as specified in WBXML1.2. If the message contains a meeting request the Mime element contains the details of meeting in iCalendar format MSOXCICAL or Transport Neutral Encapsulation Format TNEF format MSOXTNEF. As specified in RFC2447 section 3.4 iCalendar meeting requests have a content type of text/calendar with the method parameter set to REQUEST.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequest/mime/

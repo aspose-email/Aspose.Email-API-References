@@ -1,7 +1,7 @@
 ---
 title: ChangeDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Changes the display name.
 type: docs
 weight: 190
 url: /net/aspose.email.storage.pst/folderinfo/changedisplayname/

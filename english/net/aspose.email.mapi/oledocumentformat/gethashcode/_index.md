@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns the hash code of this instance.
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/oledocumentformat/gethashcode/
@@ -14,7 +14,7 @@ Returns the hash code of this instance.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 The hash code for this instance.
 

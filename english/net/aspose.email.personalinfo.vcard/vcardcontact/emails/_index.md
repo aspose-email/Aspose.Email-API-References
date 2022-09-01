@@ -1,7 +1,7 @@
 ---
 title: Emails
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a contacts email addresses
 type: docs
 weight: 40
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/emails/

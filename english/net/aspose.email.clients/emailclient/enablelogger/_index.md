@@ -1,7 +1,7 @@
 ---
 title: EnableLogger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which allows enable/disable logger
 type: docs
 weight: 90
 url: /net/aspose.email.clients/emailclient/enablelogger/

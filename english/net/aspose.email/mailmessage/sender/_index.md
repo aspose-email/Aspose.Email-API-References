@@ -1,9 +1,9 @@
 ---
 title: Sender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets sender address
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.email/mailmessage/sender/
 ---
 ## MailMessage.Sender property

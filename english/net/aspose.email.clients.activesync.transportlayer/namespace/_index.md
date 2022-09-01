@@ -1,7 +1,7 @@
 ---
 title: Namespace
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ActiveSync Code Pages
 type: docs
 weight: 1590
 url: /net/aspose.email.clients.activesync.transportlayer/namespace/
@@ -14,7 +14,7 @@ ActiveSync Code Pages
 public enum Namespace
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

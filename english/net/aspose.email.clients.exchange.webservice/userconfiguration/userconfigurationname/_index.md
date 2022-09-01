@@ -1,7 +1,7 @@
 ---
 title: UserConfigurationName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the user configuration object name.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/userconfiguration/userconfigurationname/

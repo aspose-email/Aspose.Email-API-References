@@ -1,7 +1,7 @@
 ---
 title: Locale
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: By default the local is set to en however you can specify other locales. See full list of supported locales https//amp.dev/documentation/components/amptimeago/formatemail
 type: docs
 weight: 40
 url: /net/aspose.email.amp/amptimeago/locale/

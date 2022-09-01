@@ -1,7 +1,7 @@
 ---
 title: ExchangeJunkEmailMoveStamp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the message is not to be processed by a spam filter. Area Secure Messaging Properties Canonical name PidNameExchangeJunkEmailMoveStamp Alternate names http//schemas.microsoft.com/exchange/junkemailmovestamp
 type: docs
 weight: 9830
 url: /net/aspose.email.mapi/knownpropertylist/exchangejunkemailmovestamp/

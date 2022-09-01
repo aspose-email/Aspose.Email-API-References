@@ -1,12 +1,12 @@
 ---
 title: ListFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the list of folders in the mailbox
 type: docs
 weight: 830
 url: /net/aspose.email.clients.imap/imapclient/listfolders/
 ---
-## ImapClient.ListFolders method (1 of 10)
+## ListFolders(IConnection) {#listfolders_1}
 
 Gets the list of folders in the mailbox
 
@@ -18,7 +18,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -32,7 +32,7 @@ Collection of ImapFolderInfo objects
 
 ---
 
-## ImapClient.ListFolders method (2 of 10)
+## ListFolders(IConnection, string) {#listfolders_3}
 
 Gets the list of subfolders in the specified folder
 
@@ -45,7 +45,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 | connection | IConnection | Connection to a server |
 | parentFolder | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -59,7 +59,7 @@ Collection of ImapFolderInfo objects
 
 ---
 
-## ImapClient.ListFolders method (3 of 10)
+## ListFolders(IConnection, bool) {#listfolders_2}
 
 Gets the list of folders in the mailbox
 
@@ -72,7 +72,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, bool loadFul
 | connection | IConnection | Connection to a server |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -86,7 +86,7 @@ Collection of ImapFolderInfo objects
 
 ---
 
-## ImapClient.ListFolders method (4 of 10)
+## ListFolders() {#listfolders}
 
 Gets the list of folders in the mailbox
 
@@ -94,7 +94,7 @@ Gets the list of folders in the mailbox
 public ImapFolderInfoCollection ListFolders()
 ```
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -107,7 +107,7 @@ Collection of ImapFolderInfo objects
 
 ---
 
-## ImapClient.ListFolders method (5 of 10)
+## ListFolders(string) {#listfolders_7}
 
 Gets the list of subfolders in the specified folder
 
@@ -119,7 +119,7 @@ public ImapFolderInfoCollection ListFolders(string parentFolder)
 | --- | --- | --- |
 | parentFolder | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -132,7 +132,7 @@ Collection of ImapFolderInfo objects
 
 ---
 
-## ImapClient.ListFolders method (6 of 10)
+## ListFolders(bool) {#listfolders_6}
 
 Gets the list of folders in the mailbox
 
@@ -144,7 +144,7 @@ public ImapFolderInfoCollection ListFolders(bool loadFullInfo)
 | --- | --- | --- |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -157,7 +157,7 @@ Collection of ImapFolderInfo objects
 
 ---
 
-## ImapClient.ListFolders method (7 of 10)
+## ListFolders(string, bool) {#listfolders_8}
 
 Gets the list of subfolders in the specified folder
 
@@ -170,7 +170,7 @@ public ImapFolderInfoCollection ListFolders(string parentFolder, bool loadFullIn
 | parentFolder | String | Name of the folder |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -183,7 +183,7 @@ Collection of ImapFolderInfo objects
 
 ---
 
-## ImapClient.ListFolders method (8 of 10)
+## ListFolders(IConnection, string, bool) {#listfolders_4}
 
 Gets the list of subfolders in the specified folder
 
@@ -198,7 +198,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 | parentFolder | String | Name of the folder |
 | loadFullInfo | Boolean | If true indicates that folder information should be retrieved from a server completely, otherwise only folder names are retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -212,7 +212,7 @@ Collection of ImapFolderInfo objects
 
 ---
 
-## ImapClient.ListFolders method (9 of 10)
+## ListFolders(string, bool, ListFoldersOptions, ListFoldersReturnOptions) {#listfolders_9}
 
 Gets the list of subfolders in the specified folder
 
@@ -228,7 +228,7 @@ public ImapFolderInfoCollection ListFolders(string parentFolder, bool loadFullIn
 | options | ListFoldersOptions | Options for operation |
 | returnOptions | ListFoldersReturnOptions | Return options for operation |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 
@@ -243,7 +243,7 @@ Collection of ImapFolderInfo objects
 
 ---
 
-## ImapClient.ListFolders method (10 of 10)
+## ListFolders(IConnection, string, bool, ListFoldersOptions, ListFoldersReturnOptions) {#listfolders_5}
 
 Gets the list of subfolders in the specified folder
 
@@ -260,7 +260,7 @@ public ImapFolderInfoCollection ListFolders(IConnection connection, string paren
 | options | ListFoldersOptions | Options for operation |
 | returnOptions | ListFoldersReturnOptions | Return options for operation |
 
-## Return Value
+### Return Value
 
 Collection of ImapFolderInfo objects
 

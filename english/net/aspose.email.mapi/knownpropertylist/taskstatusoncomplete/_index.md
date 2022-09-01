@@ -1,7 +1,7 @@
 ---
 title: TaskStatusOnComplete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the task assignee has been requested to send an email message update upon completion of the assigned task. Area Tasks Canonical name PidLidTaskStatusOnComplete Alternate names dispidTaskSOC
 type: docs
 weight: 18840
 url: /net/aspose.email.mapi/knownpropertylist/taskstatusoncomplete/

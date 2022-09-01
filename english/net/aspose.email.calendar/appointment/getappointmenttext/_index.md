@@ -1,12 +1,12 @@
 ---
 title: GetAppointmentText
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the calendar text.
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.email.calendar/appointment/getappointmenttext/
 ---
-## Appointment.GetAppointmentText method (1 of 2)
+## GetAppointmentText() {#getappointmenttext}
 
 Gets the calendar text.
 
@@ -14,7 +14,7 @@ Gets the calendar text.
 public string GetAppointmentText()
 ```
 
-## Return Value
+### Return Value
 
 String value of calendar as plain text.
 
@@ -26,7 +26,7 @@ String value of calendar as plain text.
 
 ---
 
-## Appointment.GetAppointmentText method (2 of 2)
+## GetAppointmentText(AppointmentFormattingOptions) {#getappointmenttext_1}
 
 Gets the calendar text.
 
@@ -38,7 +38,7 @@ public string GetAppointmentText(AppointmentFormattingOptions formattingOptions)
 | --- | --- | --- |
 | formattingOptions | AppointmentFormattingOptions | [`AppointmentFormattingOptions`](../../appointmentformattingoptions) that represents appointment formatting options. |
 
-## Return Value
+### Return Value
 
 The text representation of appointment.
 

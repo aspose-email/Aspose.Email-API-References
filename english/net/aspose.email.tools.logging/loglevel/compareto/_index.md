@@ -1,7 +1,7 @@
 ---
 title: CompareTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Compares the level to the other LogLevelaspose.email.tools.logging/loglevel object.
 type: docs
 weight: 70
 url: /net/aspose.email.tools.logging/loglevel/compareto/
@@ -18,7 +18,7 @@ public int CompareTo(object obj)
 | --- | --- | --- |
 | obj | Object | the object object |
 
-## Return Value
+### Return Value
 
 a value less than zero when this logger's Ordinal is less than the other logger's ordinal, 0 when they are equal and greater than zero when this ordinal is greater than the other ordinal.
 

@@ -1,7 +1,7 @@
 ---
 title: SmartForward
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The SmartForward command is used by clients to forward messages without retrieving the full original message from the server.
 type: docs
 weight: 220
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/smartforward/

@@ -1,12 +1,12 @@
 ---
 title: OAuthToken
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the OAuthTokenaspose.email.clients/oauthtoken class
 type: docs
 weight: 10
 url: /net/aspose.email.clients/oauthtoken/oauthtoken/
 ---
-## OAuthToken constructor (1 of 3)
+## OAuthToken(string) {#constructor}
 
 Initializes a new instance of the [`OAuthToken`](../../oauthtoken) class
 
@@ -26,7 +26,7 @@ public OAuthToken(string token)
 
 ---
 
-## OAuthToken constructor (2 of 3)
+## OAuthToken(string, DateTime) {#constructor_2}
 
 Initializes a new instance of the [`OAuthToken`](../../oauthtoken) class
 
@@ -47,7 +47,7 @@ public OAuthToken(string token, DateTime expirationDate)
 
 ---
 
-## OAuthToken constructor (3 of 3)
+## OAuthToken(string, TokenType, DateTime) {#constructor_1}
 
 Initializes a new instance of the [`OAuthToken`](../../oauthtoken) class
 

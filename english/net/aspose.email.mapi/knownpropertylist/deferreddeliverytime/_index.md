@@ -1,7 +1,7 @@
 ---
 title: DeferredDeliveryTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the date and time in UTC at which the sender prefers that the message be delivered. Area MapiEnvelope Canonical name PidTagDeferredDeliveryTime Alternate names PR_DEFERRED_DELIVERY_TIME ptagDeferredDeliveryTime
 type: docs
 weight: 3780
 url: /net/aspose.email.mapi/knownpropertylist/deferreddeliverytime/

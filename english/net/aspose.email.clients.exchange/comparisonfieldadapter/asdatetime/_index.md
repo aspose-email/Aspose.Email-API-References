@@ -1,7 +1,7 @@
 ---
 title: AsDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns current ComparisonFieldaspose.email.tools.search/comparisonfield as DateComparisonFieldaspose.email.tools.search/datecomparisonfield
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/comparisonfieldadapter/asdatetime/

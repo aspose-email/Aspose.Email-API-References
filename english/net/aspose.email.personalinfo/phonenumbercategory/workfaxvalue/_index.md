@@ -1,7 +1,7 @@
 ---
 title: WorkFaxValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Fax category
 type: docs
 weight: 410
 url: /net/aspose.email.personalinfo/phonenumbercategory/workfaxvalue/

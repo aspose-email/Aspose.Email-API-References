@@ -1,9 +1,9 @@
 ---
 title: MapiTaskPriority
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the priority on the task.
 type: docs
-weight: 18530
+weight: 18740
 url: /net/aspose.email.mapi/mapitaskpriority/
 ---
 ## MapiTaskPriority enumeration
@@ -14,7 +14,7 @@ Represents the priority on the task.
 public enum MapiTaskPriority
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: MergedFreeBusy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the free/busy information for the users or distribution list.
 type: docs
 weight: 1540
 url: /net/aspose.email.clients.activesync.transportlayer/mergedfreebusy/
@@ -14,7 +14,7 @@ Specifies the free/busy information for the users or distribution list.
 public enum MergedFreeBusy
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

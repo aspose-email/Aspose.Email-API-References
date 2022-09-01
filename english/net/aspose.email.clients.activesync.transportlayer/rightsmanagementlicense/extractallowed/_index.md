@@ -1,7 +1,7 @@
 ---
 title: ExtractAllowed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the user can copy content out of the email message. The value is TRUE if the content of the email message can be cut copied or a screen capture can be taken of the content otherwise FALSE.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/extractallowed/

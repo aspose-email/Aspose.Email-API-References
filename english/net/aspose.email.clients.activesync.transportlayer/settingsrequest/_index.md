@@ -1,7 +1,7 @@
 ---
 title: SettingsRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Settings command supports get and set operations on global properties and Out of Office OOF settings for the user. The Settings command also sends device information to the server implements the device password/personal identification number PIN recovery and retrieves a list of the users email addresses.
 type: docs
 weight: 2060
 url: /net/aspose.email.clients.activesync.transportlayer/settingsrequest/

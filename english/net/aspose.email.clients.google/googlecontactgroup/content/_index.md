@@ -1,7 +1,7 @@
 ---
 title: Content
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the content of the group entry
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/googlecontactgroup/content/
@@ -14,7 +14,7 @@ Gets the content of the group entry
 public string Content { get; }
 ```
 
-## Property Value
+### Property Value
 
 string that represents content
 

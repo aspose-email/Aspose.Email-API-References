@@ -1,7 +1,7 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the folder that has to be fetched. Contains ServerId of a folder.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/collectionid/

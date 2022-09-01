@@ -1,7 +1,7 @@
 ---
 title: DefaultHeaderFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default header line format.
 type: docs
 weight: 50
 url: /net/aspose.email/headersformattingoptions/defaultheaderformat/
@@ -14,7 +14,7 @@ Default header line format.
 public string DefaultHeaderFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The styles to be injected into resulting html body.
 

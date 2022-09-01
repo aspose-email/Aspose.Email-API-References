@@ -1,7 +1,7 @@
 ---
 title: OneNoteClientUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Opens the notebook in readonly the OneNote readonly native client if its installed.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.graph/notebooklinks/onenoteclienturl/

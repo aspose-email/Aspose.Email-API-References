@@ -1,12 +1,12 @@
 ---
 title: GetFolderInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns information about the specified folder without selecting it
 type: docs
 weight: 690
 url: /net/aspose.email.clients.imap/imapclient/getfolderinfo/
 ---
-## ImapClient.GetFolderInfo method (1 of 2)
+## GetFolderInfo(IConnection, string) {#getfolderinfo}
 
 Returns information about the specified folder without selecting it
 
@@ -19,7 +19,7 @@ public ImapFolderInfo GetFolderInfo(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to retrieve information about |
 
-## Return Value
+### Return Value
 
 The specified folder information
 
@@ -33,7 +33,7 @@ The specified folder information
 
 ---
 
-## ImapClient.GetFolderInfo method (2 of 2)
+## GetFolderInfo(string) {#getfolderinfo_1}
 
 Returns information about the specified folder without selecting it
 
@@ -45,7 +45,7 @@ public ImapFolderInfo GetFolderInfo(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to retrieve information about |
 
-## Return Value
+### Return Value
 
 The specified folder information
 

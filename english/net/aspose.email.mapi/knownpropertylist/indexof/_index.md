@@ -1,12 +1,12 @@
 ---
 title: IndexOf
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines the index of a specific item in the System.Collections.Generic.IList.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/knownpropertylist/indexof/
 ---
-## KnownPropertyList.IndexOf method (1 of 2)
+## IndexOf(PropertyDescriptor) {#indexof}
 
 Determines the index of a specific item in the System.Collections.Generic.IList.
 
@@ -18,7 +18,7 @@ public int IndexOf(PropertyDescriptor item)
 | --- | --- | --- |
 | item | PropertyDescriptor | The object to locate in the System.Collections.Generic.IList. |
 
-## Return Value
+### Return Value
 
 The index of item if found in the list; otherwise, -1.
 
@@ -31,7 +31,7 @@ The index of item if found in the list; otherwise, -1.
 
 ---
 
-## KnownPropertyList.IndexOf method (2 of 2)
+## IndexOf(string) {#indexof_1}
 
 Determines the index of a specific item in the System.Collections.Generic.IList.
 
@@ -43,7 +43,7 @@ public int IndexOf(string name)
 | --- | --- | --- |
 | name | String | The name used to refer to the property. |
 
-## Return Value
+### Return Value
 
 The index of item if found in the list; otherwise, -1.
 

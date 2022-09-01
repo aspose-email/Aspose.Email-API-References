@@ -1,7 +1,7 @@
 ---
 title: State
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The state.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/restoresettingsasync/state/

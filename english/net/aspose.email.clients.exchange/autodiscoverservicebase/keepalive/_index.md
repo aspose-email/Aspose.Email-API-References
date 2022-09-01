@@ -1,7 +1,7 @@
 ---
 title: KeepAlive
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets if the request to the internet resource should contain a Connection HTTP header with the value Keepalive
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/keepalive/

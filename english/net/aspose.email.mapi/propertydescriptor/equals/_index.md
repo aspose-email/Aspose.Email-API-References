@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the current object is equal to another object of the same type.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/propertydescriptor/equals/
@@ -18,7 +18,7 @@ public abstract bool Equals(PropertyDescriptor other)
 | --- | --- | --- |
 | other | PropertyDescriptor | An object to compare with this object. |
 
-## Return Value
+### Return Value
 
 true if the current object is equal to the other parameter; otherwise, false.
 

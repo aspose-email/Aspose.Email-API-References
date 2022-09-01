@@ -1,7 +1,7 @@
 ---
 title: FolderId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the identifier of folder containing the user configuration object.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/userconfigurationname/folderid/

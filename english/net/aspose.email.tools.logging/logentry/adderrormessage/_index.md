@@ -1,7 +1,7 @@
 ---
 title: AddErrorMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add an error or warning message to the start of the messages string builder. Used by the distributor to record problems.
 type: docs
 weight: 170
 url: /net/aspose.email.tools.logging/logentry/adderrormessage/

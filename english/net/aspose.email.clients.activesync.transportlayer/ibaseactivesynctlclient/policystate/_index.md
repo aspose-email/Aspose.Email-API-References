@@ -1,7 +1,7 @@
 ---
 title: PolicyState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: An unsigned integer that indicates the state of policy settings on the client device as specified in MSASPROV section 2.2.2.41.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/policystate/

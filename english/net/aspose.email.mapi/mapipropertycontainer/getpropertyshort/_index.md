@@ -1,7 +1,7 @@
 ---
 title: GetPropertyShort
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value of the property specified by tag as Short type.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertyshort/
@@ -18,7 +18,7 @@ public short? GetPropertyShort(long tag)
 | --- | --- | --- |
 | tag | Int64 | The MAPI property tag. |
 
-## Return Value
+### Return Value
 
 The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 

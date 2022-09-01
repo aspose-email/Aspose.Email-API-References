@@ -1,7 +1,7 @@
 ---
 title: LongId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an unsigned 32bit quantity that along with the property set identifies a named property.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/pidlidpropertydescriptor/longid/

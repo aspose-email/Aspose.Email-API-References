@@ -1,7 +1,7 @@
 ---
 title: EntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the information to identify many different types of messaging objects. Area ID Properties Canonical name PidTagEntryId Alternate names PR_ENTRYID ptagEntryId
 type: docs
 weight: 9760
 url: /net/aspose.email.mapi/knownpropertylist/entryid/

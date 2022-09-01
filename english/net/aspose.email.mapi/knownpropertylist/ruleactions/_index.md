@@ -1,7 +1,7 @@
 ---
 title: RuleActions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the set of actions associated with the rule. Area ServerSide Rules Properties Canonical name PidTagRuleActions Alternate names PR_RULE_ACTIONS ptagRuleActions
 type: docs
 weight: 16440
 url: /net/aspose.email.mapi/knownpropertylist/ruleactions/

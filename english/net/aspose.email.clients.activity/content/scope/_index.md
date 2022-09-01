@@ -1,7 +1,7 @@
 ---
 title: Scope
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Was this event created by a hosted O365 service or an onpremises server Possible values are online and onprem. Note that SharePoint is the only workload currently sending events from onpremises to O365. Mandatory No
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activity/content/scope/

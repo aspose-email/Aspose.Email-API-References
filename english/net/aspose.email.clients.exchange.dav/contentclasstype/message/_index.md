@@ -1,7 +1,7 @@
 ---
 title: Message
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesmessage content class that defines a set of properties for an item that is a message.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/message/
@@ -14,7 +14,7 @@ Gets the urn:content-classes:message content class that defines a set of propert
 public static ContentClassType Message { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message content class.
 

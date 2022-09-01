@@ -1,9 +1,9 @@
 ---
 title: OAuthToken
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains OAuth token data such like token value token type expiration date.
 type: docs
-weight: 16700
+weight: 16810
 url: /net/aspose.email.clients/oauthtoken/
 ---
 ## OAuthToken class
@@ -18,9 +18,9 @@ public class OAuthToken
 
 | Name | Description |
 | --- | --- |
-| [OAuthToken](oauthtoken)(string) | Initializes a new instance of the [`OAuthToken`](../oauthtoken) class |
-| [OAuthToken](oauthtoken)(string, DateTime) | Initializes a new instance of the [`OAuthToken`](../oauthtoken) class |
-| [OAuthToken](oauthtoken)(string, TokenType, DateTime) | Initializes a new instance of the [`OAuthToken`](../oauthtoken) class |
+| [OAuthToken](oauthtoken#constructor)(string) | Initializes a new instance of the [`OAuthToken`](../oauthtoken) class |
+| [OAuthToken](oauthtoken#constructor_2)(string, DateTime) | Initializes a new instance of the [`OAuthToken`](../oauthtoken) class |
+| [OAuthToken](oauthtoken#constructor_1)(string, TokenType, DateTime) | Initializes a new instance of the [`OAuthToken`](../oauthtoken) class |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: ForwardToRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the email addresses to which messages are to be forwarded.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/ruleactions/forwardtorecipients/

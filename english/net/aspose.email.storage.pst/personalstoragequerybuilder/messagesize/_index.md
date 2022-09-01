@@ -1,7 +1,7 @@
 ---
 title: MessageSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search messages with an specified size.
 type: docs
 weight: 80
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/messagesize/

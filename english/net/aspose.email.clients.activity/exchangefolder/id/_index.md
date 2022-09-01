@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The store ID of the folder object.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/exchangefolder/id/

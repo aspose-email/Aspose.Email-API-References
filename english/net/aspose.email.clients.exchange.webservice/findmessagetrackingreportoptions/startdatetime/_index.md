@@ -1,7 +1,7 @@
 ---
 title: StartDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the search time period indicating that the message was sent after this value.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/startdatetime/

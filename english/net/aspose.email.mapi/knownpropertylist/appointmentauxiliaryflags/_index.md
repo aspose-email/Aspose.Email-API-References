@@ -1,7 +1,7 @@
 ---
 title: AppointmentAuxiliaryFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a bit field that describes the auxiliary state of the object. Area Meetings Canonical name PidLidAppointmentAuxiliaryFlags Alternate names dispidApptAuxFlags
 type: docs
 weight: 1110
 url: /net/aspose.email.mapi/knownpropertylist/appointmentauxiliaryflags/

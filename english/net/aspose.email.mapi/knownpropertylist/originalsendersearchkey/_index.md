@@ -1,7 +1,7 @@
 ---
 title: OriginalSenderSearchKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an address book search key set on the original email message. Area General Message Properties Canonical name PidTagOriginalSenderSearchKey Alternate names PR_ORIGINAL_SENDER_SEARCH_KEY ptagOriginalSenderSearchKey
 type: docs
 weight: 13700
 url: /net/aspose.email.mapi/knownpropertylist/originalsendersearchkey/

@@ -1,7 +1,7 @@
 ---
 title: Group
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value that represents the content class urncontentclassesgroup.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/group/
@@ -14,7 +14,7 @@ Gets the value that represents the content class urn:content-classes:group.
 public static ContentClassType Group { get; }
 ```
 
-## Property Value
+### Property Value
 
 The group content class.
 

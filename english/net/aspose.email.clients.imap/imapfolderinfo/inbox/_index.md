@@ -1,7 +1,7 @@
 ---
 title: InBox
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets inbox name.
 type: docs
 weight: 200
 url: /net/aspose.email.clients.imap/imapfolderinfo/inbox/

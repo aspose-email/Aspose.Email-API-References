@@ -1,9 +1,9 @@
 ---
 title: MailSensitivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the sensitivity of a MailMessage.
 type: docs
-weight: 17580
+weight: 17750
 url: /net/aspose.email/mailsensitivity/
 ---
 ## MailSensitivity enumeration
@@ -14,7 +14,7 @@ Specifies the sensitivity of a MailMessage.
 public enum MailSensitivity
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

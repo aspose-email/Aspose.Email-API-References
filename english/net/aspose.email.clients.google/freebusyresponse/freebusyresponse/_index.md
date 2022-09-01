@@ -1,12 +1,12 @@
 ---
 title: FreebusyResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FreebusyResponse class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/freebusyresponse/freebusyresponse/
 ---
-## FreebusyResponse constructor (1 of 3)
+## FreebusyResponse() {#constructor}
 
 Initializes a new instance of the FreebusyResponse class.
 
@@ -22,7 +22,7 @@ public FreebusyResponse()
 
 ---
 
-## FreebusyResponse constructor (2 of 3)
+## FreebusyResponse(DateTime, DateTime) {#constructor_1}
 
 Initializes a new instance of the FreebusyResponse class.
 
@@ -43,7 +43,7 @@ public FreebusyResponse(DateTime timeMin, DateTime timeMax)
 
 ---
 
-## FreebusyResponse constructor (3 of 3)
+## FreebusyResponse(DateTime, DateTime, Dictionary&lt;string, FreebusyGroupInfo&gt;, Dictionary&lt;string, FreebusyCalendarInfo&gt;) {#constructor_2}
 
 Initializes a new instance of the FreebusyResponse class.
 

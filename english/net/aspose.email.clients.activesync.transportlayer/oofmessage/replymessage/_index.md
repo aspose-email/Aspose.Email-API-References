@@ -1,7 +1,7 @@
 ---
 title: ReplyMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the message to be shown to a particular audience when the user is OOF.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/oofmessage/replymessage/

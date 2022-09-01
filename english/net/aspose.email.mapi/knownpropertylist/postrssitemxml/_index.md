@@ -1,7 +1,7 @@
 ---
 title: PostRssItemXml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the item element and all of its subelements from an RSS feed or the entry element and all of its subelements from an Atom feed. Area RSS Canonical name PidLidPostRssItemXml Alternate names dispidPostRssItemXml
 type: docs
 weight: 14490
 url: /net/aspose.email.mapi/knownpropertylist/postrssitemxml/

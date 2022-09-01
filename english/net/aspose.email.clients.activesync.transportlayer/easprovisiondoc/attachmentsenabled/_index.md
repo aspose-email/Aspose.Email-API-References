@@ -1,7 +1,7 @@
 ---
 title: AttachmentsEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether email attachments are enabled.
 type: docs
 weight: 220
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/attachmentsenabled/

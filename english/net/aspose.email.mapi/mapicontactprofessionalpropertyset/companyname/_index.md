@@ -1,7 +1,7 @@
 ---
 title: CompanyName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the company that employs the contact
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/companyname/

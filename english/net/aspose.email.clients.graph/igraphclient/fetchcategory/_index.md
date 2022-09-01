@@ -1,7 +1,7 @@
 ---
 title: FetchCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the properties and relationships of the specified outlookCategory object.
 type: docs
 weight: 210
 url: /net/aspose.email.clients.graph/igraphclient/fetchcategory/
@@ -18,7 +18,7 @@ public OutlookCategory FetchCategory(string itemId)
 | --- | --- | --- |
 | itemId | String | Item id to be fetched |
 
-## Return Value
+### Return Value
 
 Category specified by id
 

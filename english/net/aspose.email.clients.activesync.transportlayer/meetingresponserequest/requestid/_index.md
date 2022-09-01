@@ -1,7 +1,7 @@
 ---
 title: RequestId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server ID of the meeting request message item. Optional if LongId is included. The RequestId value can be up to 64 characters in length.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/meetingresponserequest/requestid/

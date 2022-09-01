@@ -1,7 +1,7 @@
 ---
 title: VerbResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the voting option that a respondent has selected. Area General Message Properties Canonical name PidLidVerbResponse Alternate names dispidVerbResponse
 type: docs
 weight: 19230
 url: /net/aspose.email.mapi/knownpropertylist/verbresponse/

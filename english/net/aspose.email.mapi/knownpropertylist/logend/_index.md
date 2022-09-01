@@ -1,7 +1,7 @@
 ---
 title: LogEnd
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the time in UTC at which the activity ended. Area Journal Canonical name PidLidLogEnd Alternate names dispidLogEnd
 type: docs
 weight: 12260
 url: /net/aspose.email.mapi/knownpropertylist/logend/

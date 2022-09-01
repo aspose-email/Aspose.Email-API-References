@@ -1,7 +1,7 @@
 ---
 title: DaylightDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date and local time that indicate when to begin using the DaylightBias.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/daylightdate/

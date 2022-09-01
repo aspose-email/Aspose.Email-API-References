@@ -1,7 +1,7 @@
 ---
 title: DeletePermanently
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets instance of the DeletionOptionsaspose.email.clients.exchange.webservice/deletionoptions object with settings for permanent deletion
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/calendardeletionoptions/deletepermanently/

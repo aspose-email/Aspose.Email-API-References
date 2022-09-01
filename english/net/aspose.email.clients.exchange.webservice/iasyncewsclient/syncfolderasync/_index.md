@@ -1,7 +1,7 @@
 ---
 title: SyncFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves changes of the items in a specified folder.
 type: docs
 weight: 650
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/syncfolderasync/
@@ -20,7 +20,7 @@ public Task<SyncFolderResult> SyncFolderAsync(SyncState syncState,
 | syncState | SyncState | The synchronization state. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns result of SyncFolder operation.
 

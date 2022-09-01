@@ -1,7 +1,7 @@
 ---
 title: ConnectionState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Describes the current state of the connection.
 type: docs
 weight: 2920
 url: /net/aspose.email.clients/connectionstate/
@@ -14,7 +14,7 @@ Describes the current state of the connection.
 public enum ConnectionState
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

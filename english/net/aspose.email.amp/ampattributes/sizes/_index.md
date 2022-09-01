@@ -1,7 +1,7 @@
 ---
 title: Sizes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The value of the AMP sizes attribute is a sizes expression that selects the defined size corresponding to the media query based on the current window size.
 type: docs
 weight: 100
 url: /net/aspose.email.amp/ampattributes/sizes/

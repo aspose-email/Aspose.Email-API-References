@@ -1,7 +1,7 @@
 ---
 title: GetLong
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the first 8 bytes of the binary data as long.
 type: docs
 weight: 230
 url: /net/aspose.email.mapi/mapiproperty/getlong/
@@ -14,7 +14,7 @@ Gets the first 8 bytes of the binary data as long.
 public virtual long GetLong()
 ```
 
-## Return Value
+### Return Value
 
 The long value.
 

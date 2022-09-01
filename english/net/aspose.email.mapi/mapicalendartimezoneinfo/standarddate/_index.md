@@ -1,7 +1,7 @@
 ---
 title: StandardDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date and local time that indicate when to begin using the StandardBias.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/standarddate/

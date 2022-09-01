@@ -1,7 +1,7 @@
 ---
 title: ServerFailures
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The folder that contains items that exist on the server but could not be synchronized to the local client.
 type: docs
 weight: 190
 url: /net/aspose.email.clients.graph/knownfolders/serverfailures/

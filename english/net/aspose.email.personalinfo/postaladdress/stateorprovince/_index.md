@@ -1,7 +1,7 @@
 ---
 title: StateOrProvince
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a region
 type: docs
 weight: 110
 url: /net/aspose.email.personalinfo/postaladdress/stateorprovince/

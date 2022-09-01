@@ -1,7 +1,7 @@
 ---
 title: YomiFirstName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the phonetic pronunciation of the given name of the contact. Area Contact Properties Canonical name PidLidYomiFirstName Alternate names dispidYomiFirstName
 type: docs
 weight: 19910
 url: /net/aspose.email.mapi/knownpropertylist/yomifirstname/

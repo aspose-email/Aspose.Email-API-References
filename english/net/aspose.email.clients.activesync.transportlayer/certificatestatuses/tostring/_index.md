@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a string which concatinated statuses
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/certificatestatuses/tostring/
@@ -14,7 +14,7 @@ Returns a string which concatinated statuses
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents the current object.
 

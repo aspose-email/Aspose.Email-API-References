@@ -1,12 +1,12 @@
 ---
 title: ReminderAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of ReminderAttachmentaspose.email.calendar/reminderattachment class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/reminderattachment/reminderattachment/
 ---
-## ReminderAttachment constructor (1 of 2)
+## ReminderAttachment(byte[]) {#constructor}
 
 Initialize a new instance of [`ReminderAttachment`](../../reminderattachment) class.
 
@@ -26,7 +26,7 @@ public ReminderAttachment(byte[] binaryData)
 
 ---
 
-## ReminderAttachment constructor (2 of 2)
+## ReminderAttachment(Uri) {#constructor_1}
 
 Initialize a new instance of [`ReminderAttachment`](../../reminderattachment) class.
 

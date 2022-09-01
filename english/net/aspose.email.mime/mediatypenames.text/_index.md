@@ -1,9 +1,9 @@
 ---
 title: MediaTypeNames.Text
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the type of text data in an email message attachment.
 type: docs
-weight: 19000
+weight: 19210
 url: /net/aspose.email.mime/mediatypenames.text/
 ---
 ## MediaTypeNames.Text class
@@ -13,6 +13,15 @@ Specifies the type of text data in an e-mail message attachment.
 ```csharp
 public sealed class Text
 ```
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [Html](../../aspose.email.mime/text/html) | Specifies text/html media type |
+| const [Plain](../../aspose.email.mime/text/plain) | Specifies text/plain media type |
+| const [RichText](../../aspose.email.mime/text/richtext) | Specifies text/richtext media type |
+| const [Xml](../../aspose.email.mime/text/xml) | Specifies text/xml media type |
 
 ### See Also
 

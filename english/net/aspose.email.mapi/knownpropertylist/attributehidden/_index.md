@@ -1,7 +1,7 @@
 ---
 title: AttributeHidden
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the hide or show status of a folder. Area Access Control Properties Canonical name PidTagAttributeHidden Alternate names PR_ATTR_HIDDEN ptagAttrHidden DAVishidden
 type: docs
 weight: 1830
 url: /net/aspose.email.mapi/knownpropertylist/attributehidden/

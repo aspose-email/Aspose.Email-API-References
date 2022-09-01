@@ -1,7 +1,7 @@
 ---
 title: ExtractMapiMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the message from OLM storage.
 type: docs
 weight: 70
 url: /net/aspose.email.storage.olm/olmstorage/extractmapimessage/
@@ -18,7 +18,7 @@ public MapiMessage ExtractMapiMessage(OlmMessageInfo messageInfo)
 | --- | --- | --- |
 | messageInfo | OlmMessageInfo | An OlmMessageInfo object that represents information about message. |
 
-## Return Value
+### Return Value
 
 A MapiMessage object.
 

@@ -1,7 +1,7 @@
 ---
 title: DstMsgId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the new server ID of the item after the item is moved to the destination folder. The DstMsgId element value can be up to 64 characters in length.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/moveitemresponse/dstmsgid/

@@ -1,7 +1,7 @@
 ---
 title: Email3OriginalEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the EntryID of the object that corresponds to this electronic address. Area Contact Properties Canonical name PidLidEmail3OriginalEntryId Alternate names dispidEmail3OriginalEntryID
 type: docs
 weight: 4460
 url: /net/aspose.email.mapi/knownpropertylist/email3originalentryid/

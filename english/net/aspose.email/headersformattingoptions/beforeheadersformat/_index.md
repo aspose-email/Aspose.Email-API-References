@@ -1,7 +1,7 @@
 ---
 title: BeforeHeadersFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Before headers format.
 type: docs
 weight: 30
 url: /net/aspose.email/headersformattingoptions/beforeheadersformat/
@@ -14,7 +14,7 @@ Before headers format.
 public string BeforeHeadersFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The styles to be injected into resulting html body.
 

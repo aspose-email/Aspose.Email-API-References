@@ -1,7 +1,7 @@
 ---
 title: DeleteSubFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether to delete the subfolders of the specified folder. If the DeleteSubFolders option is not included in the request the subfolders of the specified CollectionId are not deleted.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/itopempfldcntoptions/deletesubfolders/

@@ -1,7 +1,7 @@
 ---
 title: UseDefaultCredentials
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a Boolean value that controls whether the DefaultCredentials are sent with requests. This option is used with NTLM authentication ONLY
 type: docs
 weight: 220
 url: /net/aspose.email.clients/emailclient/usedefaultcredentials/

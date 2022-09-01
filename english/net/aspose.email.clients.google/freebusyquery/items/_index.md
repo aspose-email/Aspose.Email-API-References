@@ -1,7 +1,7 @@
 ---
 title: Items
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of calendars and/or groups to query. Contains identifiers of a calendar or a group.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.google/freebusyquery/items/

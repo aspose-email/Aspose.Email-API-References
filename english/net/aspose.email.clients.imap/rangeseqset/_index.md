@@ -1,9 +1,9 @@
 ---
 title: RangeSeqSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Container with range of values to search.
 type: docs
-weight: 16540
+weight: 16650
 url: /net/aspose.email.clients.imap/rangeseqset/
 ---
 ## RangeSeqSet class
@@ -18,11 +18,11 @@ public class RangeSeqSet : SequenceSetBaseValue
 
 | Name | Description |
 | --- | --- |
-| [RangeSeqSet](rangeseqset)() | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
-| [RangeSeqSet](rangeseqset)(SimpleSeqSet) | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
-| [RangeSeqSet](rangeseqset)(string) | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
-| [RangeSeqSet](rangeseqset)(SimpleSeqSet, SimpleSeqSet) | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
-| [RangeSeqSet](rangeseqset)(string, string) | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
+| [RangeSeqSet](rangeseqset#constructor)() | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
+| [RangeSeqSet](rangeseqset#constructor_1)(SimpleSeqSet) | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
+| [RangeSeqSet](rangeseqset#constructor_3)(string) | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
+| [RangeSeqSet](rangeseqset#constructor_2)(SimpleSeqSet, SimpleSeqSet) | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
+| [RangeSeqSet](rangeseqset#constructor_4)(string, string) | Initializes a new instance of the [`RangeSeqSet`](../rangeseqset) class. |
 
 ## Properties
 

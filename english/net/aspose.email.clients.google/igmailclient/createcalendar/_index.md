@@ -1,12 +1,12 @@
 ---
 title: CreateCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a calendar.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.google/igmailclient/createcalendar/
 ---
-## IGmailClient.CreateCalendar method (1 of 2)
+## CreateCalendar(Calendar) {#createcalendar}
 
 Creates a calendar.
 
@@ -18,7 +18,7 @@ public string CreateCalendar(Calendar calendar)
 | --- | --- | --- |
 | calendar | Calendar | An instance of calendar object to create. |
 
-## Return Value
+### Return Value
 
 Returns calendar identifier
 
@@ -31,7 +31,7 @@ Returns calendar identifier
 
 ---
 
-## IGmailClient.CreateCalendar method (2 of 2)
+## CreateCalendar(Calendar, bool) {#createcalendar_1}
 
 Creates a calendar.
 
@@ -44,7 +44,7 @@ public string CreateCalendar(Calendar calendar, bool useColorRgbFormat)
 | calendar | Calendar | An instance of calendar object to create. |
 | useColorRgbFormat | Boolean | Indicates whether color rgb format is used. |
 
-## Return Value
+### Return Value
 
 Returns calendar identifier
 

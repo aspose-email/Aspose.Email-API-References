@@ -1,7 +1,7 @@
 ---
 title: IsHeightSpecified
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether Height property is specified.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.graph/thumbnail/isheightspecified/

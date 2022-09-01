@@ -1,7 +1,7 @@
 ---
 title: Result
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Operation state
 type: docs
 weight: 30
 url: /net/aspose.email.clients/asynccommandresulteventargs/result/

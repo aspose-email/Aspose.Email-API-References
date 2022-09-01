@@ -1,7 +1,7 @@
 ---
 title: AddItemId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add item to archive.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice.models/ewsarchiveitems/additemid/

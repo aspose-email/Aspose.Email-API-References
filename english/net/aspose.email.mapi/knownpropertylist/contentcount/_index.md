@@ -1,7 +1,7 @@
 ---
 title: ContentCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of rows under the header row. Area Folder Properties Canonical name PidTagContentCount Alternate names PR_CONTENT_COUNT ptagContentCount DAVvisiblecount
 type: docs
 weight: 3190
 url: /net/aspose.email.mapi/knownpropertylist/contentcount/

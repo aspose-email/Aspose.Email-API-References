@@ -1,7 +1,7 @@
 ---
 title: FileAsMapping
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value which specifies how to generate and recompute the value of the FileAs property when other contact name properties change.
 type: docs
 weight: 140
 url: /net/aspose.email.personalinfo/contact/fileasmapping/

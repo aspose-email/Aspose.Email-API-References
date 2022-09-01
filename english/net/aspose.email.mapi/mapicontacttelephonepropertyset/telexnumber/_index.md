@@ -1,7 +1,7 @@
 ---
 title: TelexNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the telex number
 type: docs
 weight: 180
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/telexnumber/

@@ -1,9 +1,9 @@
 ---
 title: TokenType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines OAuth token types
 type: docs
-weight: 16980
+weight: 17150
 url: /net/aspose.email.clients/tokentype/
 ---
 ## TokenType enumeration
@@ -14,7 +14,7 @@ Defines OAuth token types
 public enum TokenType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

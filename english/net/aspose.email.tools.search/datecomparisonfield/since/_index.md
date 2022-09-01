@@ -1,12 +1,12 @@
 ---
 title: Since
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that date in message must be within or later than the specified date.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.search/datecomparisonfield/since/
 ---
-## DateComparisonField.Since method (1 of 2)
+## Since(DateTime) {#since}
 
 Indicates that date in message must be within or later than the specified date.
 
@@ -18,7 +18,7 @@ public MailQuery Since(DateTime value)
 | --- | --- | --- |
 | value | DateTime | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -31,7 +31,7 @@ public MailQuery Since(DateTime value)
 
 ---
 
-## DateComparisonField.Since method (2 of 2)
+## Since(DateTime, DateComparisonType) {#since_1}
 
 Indicates that date in message must be within or later than the specified date.
 
@@ -44,7 +44,7 @@ public MailQuery Since(DateTime value, DateComparisonType comparisonType)
 | value | DateTime | The value. |
 | comparisonType | DateComparisonType | Specifies a type of comparison |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

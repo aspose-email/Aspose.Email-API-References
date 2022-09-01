@@ -1,12 +1,12 @@
 ---
 title: SyncState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the SyncStateaspose.email.clients.exchange.webservice/syncstate class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/syncstate/syncstate/
 ---
-## SyncState constructor (1 of 2)
+## SyncState() {#constructor}
 
 Initializes a new instance of the [`SyncState`](../../syncstate) class
 
@@ -22,7 +22,7 @@ public SyncState()
 
 ---
 
-## SyncState constructor (2 of 2)
+## SyncState(string) {#constructor_1}
 
 Initializes a new instance of the [`SyncState`](../../syncstate) class
 

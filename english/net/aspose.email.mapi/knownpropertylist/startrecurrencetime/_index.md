@@ -1,7 +1,7 @@
 ---
 title: StartRecurrenceTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the start time of the recurrence pattern. Area Meetings Canonical name PidLidStartRecurrenceTime Alternate names LID_START_RECUR_TIME
 type: docs
 weight: 18180
 url: /net/aspose.email.mapi/knownpropertylist/startrecurrencetime/

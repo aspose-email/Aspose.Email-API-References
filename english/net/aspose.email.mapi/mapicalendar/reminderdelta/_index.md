@@ -1,7 +1,7 @@
 ---
 title: ReminderDelta
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the interval in minutes between the time at which the reminder first becomes overdue and the start time of the Calendar object
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapicalendar/reminderdelta/

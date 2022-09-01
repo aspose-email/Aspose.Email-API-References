@@ -1,7 +1,7 @@
 ---
 title: FailedMessageIds
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The array of message ID which havent been moved to the junk mail folder.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/failedmessageids/

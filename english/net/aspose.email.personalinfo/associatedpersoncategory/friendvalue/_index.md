@@ -1,7 +1,7 @@
 ---
 title: FriendValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Friend category
 type: docs
 weight: 280
 url: /net/aspose.email.personalinfo/associatedpersoncategory/friendvalue/

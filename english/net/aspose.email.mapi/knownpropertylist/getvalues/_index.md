@@ -1,7 +1,7 @@
 ---
 title: GetValues
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets PropertyList with all properties.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/knownpropertylist/getvalues/
@@ -14,7 +14,7 @@ Gets PropertyList with all properties.
 public static KnownPropertyList GetValues()
 ```
 
-## Return Value
+### Return Value
 
 Returns instance of PropertyList.
 

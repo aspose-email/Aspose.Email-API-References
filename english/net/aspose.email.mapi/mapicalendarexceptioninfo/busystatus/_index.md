@@ -1,7 +1,7 @@
 ---
 title: BusyStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the busy status.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/busystatus/
@@ -14,7 +14,7 @@ Gets or sets the busy status.
 public MapiCalendarBusyStatus BusyStatus { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The busy status.
 

@@ -1,7 +1,7 @@
 ---
 title: MailboxInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the mailbox info.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/mailboxinfo/
@@ -14,7 +14,7 @@ Gets the mailbox info.
 public ExchangeMailboxInfo MailboxInfo { get; }
 ```
 
-## Property Value
+### Property Value
 
 The mailbox info.
 

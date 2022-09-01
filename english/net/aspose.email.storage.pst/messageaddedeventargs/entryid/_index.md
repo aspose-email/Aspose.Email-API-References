@@ -1,7 +1,7 @@
 ---
 title: EntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the string that represents the EntryId of the added message.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/messageaddedeventargs/entryid/
@@ -14,7 +14,7 @@ Gets the string that represents the EntryId of the added message.
 public string EntryId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The entry id.
 

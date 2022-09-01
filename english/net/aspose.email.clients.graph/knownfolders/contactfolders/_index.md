@@ -1,7 +1,7 @@
 ---
 title: ContactFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Mail folders root
 type: docs
 weight: 50
 url: /net/aspose.email.clients.graph/knownfolders/contactfolders/

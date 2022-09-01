@@ -1,7 +1,7 @@
 ---
 title: PS_PUBLIC_STRINGS
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies PS_PUBLIC_STRINGS property set.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi.msg/mapiguidconstants/ps_public_strings/

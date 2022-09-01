@@ -1,7 +1,7 @@
 ---
 title: StoreEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the unique EntryID of the message store where an object resides. Area ID Properties Canonical name PidTagStoreEntryId Alternate names PR_STORE_ENTRYID ptagStoreEntryId
 type: docs
 weight: 18250
 url: /net/aspose.email.mapi/knownpropertylist/storeentryid/

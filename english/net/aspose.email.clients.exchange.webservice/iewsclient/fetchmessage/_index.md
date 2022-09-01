@@ -1,12 +1,12 @@
 ---
 title: FetchMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the message.
 type: docs
 weight: 810
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchmessage/
 ---
-## IEWSClient.FetchMessage method (1 of 2)
+## FetchMessage(string) {#fetchmessage}
 
 Fetches the message.
 
@@ -18,7 +18,7 @@ public MailMessage FetchMessage(string messageUri)
 | --- | --- | --- |
 | messageUri | String | The message URI. |
 
-## Return Value
+### Return Value
 
 Returns a message
 
@@ -31,7 +31,7 @@ Returns a message
 
 ---
 
-## IEWSClient.FetchMessage method (2 of 2)
+## FetchMessage(string, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmessage_1}
 
 Fetches the message from server
 
@@ -45,7 +45,7 @@ public MailMessage FetchMessage(string messageUri,
 | messageUri | String | The URI of the message |
 | extendedProperties | IEnumerable`1 | An enumeration of extended properties |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message, if custom properties have been found and set you can access them using [`Headers`](../../../aspose.email/mailmessage/headers) collection.
 

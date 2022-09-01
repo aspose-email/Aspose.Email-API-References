@@ -1,12 +1,12 @@
 ---
 title: NotOn
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the date in message must not be in the specified date.
 type: docs
 weight: 40
 url: /net/aspose.email.tools.search/datecomparisonfield/noton/
 ---
-## DateComparisonField.NotOn method (1 of 2)
+## NotOn(DateTime) {#noton}
 
 Indicates that the date in message must not be in the specified date.
 
@@ -18,7 +18,7 @@ public MailQuery NotOn(DateTime value)
 | --- | --- | --- |
 | value | DateTime | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -31,7 +31,7 @@ public MailQuery NotOn(DateTime value)
 
 ---
 
-## DateComparisonField.NotOn method (2 of 2)
+## NotOn(DateTime, DateComparisonType) {#noton_1}
 
 Indicates that the date in message must not be in the specified date.
 
@@ -44,7 +44,7 @@ public MailQuery NotOn(DateTime value, DateComparisonType comparisonType)
 | value | DateTime | The value. |
 | comparisonType | DateComparisonType | Specifies a type of comparison |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

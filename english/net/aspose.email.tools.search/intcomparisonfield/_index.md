@@ -1,9 +1,9 @@
 ---
 title: IntComparisonField
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the integer search field.
 type: docs
-weight: 20500
+weight: 20730
 url: /net/aspose.email.tools.search/intcomparisonfield/
 ---
 ## IntComparisonField class
@@ -18,7 +18,7 @@ public sealed class IntComparisonField : ComparisonField
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.email.tools.search/intcomparisonfield/equals)(int) | Indicates that field must be equal to the specified value. |
+| [Equals](../../aspose.email.tools.search/intcomparisonfield/equals#equals)(int) | Indicates that field must be equal to the specified value. |
 | [Greater](../../aspose.email.tools.search/intcomparisonfield/greater)(int) | Indicates that field must be greater than the specified value. |
 | [GreaterOrEqual](../../aspose.email.tools.search/intcomparisonfield/greaterorequal)(int) | Indicates that field must be greater or equal to the specified value. |
 | [Less](../../aspose.email.tools.search/intcomparisonfield/less)(int) | Indicates that field must be less than the specified value. |

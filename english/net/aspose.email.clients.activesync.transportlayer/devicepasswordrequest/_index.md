@@ -1,7 +1,7 @@
 ---
 title: DevicePasswordRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the request to set recovery password of the client device by the server. To clear an existing recovery password the client MUST send an empty Password.
 type: docs
 weight: 1170
 url: /net/aspose.email.clients.activesync.transportlayer/devicepasswordrequest/

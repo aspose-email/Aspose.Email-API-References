@@ -1,7 +1,7 @@
 ---
 title: BodyType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the format type of the body content of the item.
 type: docs
 weight: 1060
 url: /net/aspose.email.clients.activesync.transportlayer/bodytype/
@@ -14,7 +14,7 @@ Specifies the format type of the body content of the item.
 public enum BodyType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

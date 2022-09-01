@@ -1,7 +1,7 @@
 ---
 title: NotEquals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field must not be equal to the specified value.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.search/intcomparisonfield/notequals/
@@ -18,7 +18,7 @@ public MailQuery NotEquals(int value)
 | --- | --- | --- |
 | value | Int32 | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

@@ -1,7 +1,7 @@
 ---
 title: Wmf
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies MS windows metafile image/xwmf
 type: docs
 weight: 60
 url: /net/aspose.email.mime/mediatypenames.image/wmf/

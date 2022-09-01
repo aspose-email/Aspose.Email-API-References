@@ -1,12 +1,12 @@
 ---
 title: CloseAccess
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Closes access on the specified mailbox for the specified user.
 type: docs
 weight: 430
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/closeaccess/
 ---
-## IEWSClient.CloseAccess method (1 of 4)
+## CloseAccess(string, string) {#closeaccess_3}
 
 Closes access on the specified mailbox for the specified user.
 
@@ -33,7 +33,7 @@ public void CloseAccess(string delegateSmtpAddress, string mailbox)
 
 ---
 
-## IEWSClient.CloseAccess method (2 of 4)
+## CloseAccess(ExchangeFolderUserInfo, string) {#closeaccess}
 
 Closes access on the specified mailbox for the specified user.
 
@@ -62,7 +62,7 @@ public void CloseAccess(ExchangeFolderUserInfo userInfo, string mailbox)
 
 ---
 
-## IEWSClient.CloseAccess method (3 of 4)
+## CloseAccess(ExchangeDelegateUser, string) {#closeaccess_1}
 
 Closes access on the specified mailbox for the specified user.
 
@@ -91,7 +91,7 @@ public void CloseAccess(ExchangeDelegateUser delegateUser, string mailbox)
 
 ---
 
-## IEWSClient.CloseAccess method (4 of 4)
+## CloseAccess(ExchangeDelegateUserCollection, string) {#closeaccess_2}
 
 Closes access on the specified mailbox for the specified user.
 

@@ -1,7 +1,7 @@
 ---
 title: XConfirmReadingTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This header requests an automated confirmation notice when the message is received or read. It is typically ignored presumably some software acts on it.
 type: docs
 weight: 260
 url: /net/aspose.email/headertype/xconfirmreadingto/

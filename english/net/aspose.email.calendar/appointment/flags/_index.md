@@ -1,9 +1,9 @@
 ---
 title: Flags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets appointment flags.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.calendar/appointment/flags/
 ---
 ## Appointment.Flags property

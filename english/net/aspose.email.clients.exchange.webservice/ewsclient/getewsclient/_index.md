@@ -1,12 +1,12 @@
 ---
 title: GetEWSClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the EWSClientaspose.email.clients.exchange.webservice/ewsclient based class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/ewsclient/getewsclient/
 ---
-## EWSClient.GetEWSClient method (1 of 8)
+## GetEWSClient(string, ICredentials) {#getewsclient_2}
 
 Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
 
@@ -19,7 +19,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credential
 | mailboxUri | String | The URI of mailbox |
 | credentials | ICredentials | Contains the credentials for authentication. |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -32,7 +32,7 @@ Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
 ---
 
-## EWSClient.GetEWSClient method (2 of 8)
+## GetEWSClient(string, string, string) {#getewsclient_4}
 
 Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
 
@@ -46,7 +46,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 | username | String | The username |
 | password | String | The password |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -59,7 +59,7 @@ Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
 ---
 
-## EWSClient.GetEWSClient method (3 of 8)
+## GetEWSClient(string, string, string, WebProxy) {#getewsclient_5}
 
 Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
 
@@ -75,7 +75,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 | password | String | The password |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -88,7 +88,7 @@ Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
 ---
 
-## EWSClient.GetEWSClient method (4 of 8)
+## GetEWSClient(string, string, string, string) {#getewsclient_6}
 
 Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
 
@@ -104,7 +104,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 | password | String | The password |
 | domain | String | The domain name |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -117,7 +117,7 @@ Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
 ---
 
-## EWSClient.GetEWSClient method (5 of 8)
+## GetEWSClient(string, string, string, string, WebProxy) {#getewsclient_7}
 
 Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
 
@@ -134,7 +134,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, string username, string
 | domain | String | The domain name |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -147,7 +147,7 @@ Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
 ---
 
-## EWSClient.GetEWSClient method (6 of 8)
+## GetEWSClient(ExchangeVersion, string, ICredentials, WebProxy) {#getewsclient_1}
 
 Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
 
@@ -163,7 +163,7 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion, string mail
 | credentials | ICredentials | Contains the credentials for authentication. |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -177,7 +177,7 @@ Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
 ---
 
-## EWSClient.GetEWSClient method (7 of 8)
+## GetEWSClient(ExchangeVersion, bool, string, string, ICredentials, WebProxy) {#getewsclient}
 
 Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
 
@@ -196,7 +196,7 @@ public static IEWSClient GetEWSClient(ExchangeVersion serverVersion,
 | credentials | ICredentials | Contains the credentials for authentication. |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
@@ -210,7 +210,7 @@ Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 
 ---
 
-## EWSClient.GetEWSClient method (8 of 8)
+## GetEWSClient(string, ICredentials, WebProxy) {#getewsclient_3}
 
 Initializes a new instance of the [`EWSClient`](../../ewsclient) based class
 
@@ -224,7 +224,7 @@ public static IEWSClient GetEWSClient(string mailboxUri, ICredentials credential
 | credentials | ICredentials | Contains the credentials for authentication. |
 | proxy | WebProxy | Contains HTTP proxy settings |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 

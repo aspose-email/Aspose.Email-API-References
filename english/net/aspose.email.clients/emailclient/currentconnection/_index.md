@@ -1,7 +1,7 @@
 ---
 title: CurrentConnection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets current connection according to ConnectionAsgmtMode option
 type: docs
 weight: 70
 url: /net/aspose.email.clients/emailclient/currentconnection/

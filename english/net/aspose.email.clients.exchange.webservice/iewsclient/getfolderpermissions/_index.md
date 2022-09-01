@@ -1,7 +1,7 @@
 ---
 title: GetFolderPermissions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the folder permissions.
 type: docs
 weight: 940
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getfolderpermissions/
@@ -18,7 +18,7 @@ public ExchangePermissionCollection GetFolderPermissions(string folderUrl)
 | --- | --- | --- |
 | folderUrl | String | The folder URL. |
 
-## Return Value
+### Return Value
 
 The [`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
 

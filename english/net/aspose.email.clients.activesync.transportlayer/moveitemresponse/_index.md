@@ -1,7 +1,7 @@
 ---
 title: MoveItemResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information that describe the moved items.
 type: docs
 weight: 1580
 url: /net/aspose.email.clients.activesync.transportlayer/moveitemresponse/
@@ -18,8 +18,8 @@ public class MoveItemResponse
 
 | Name | Description |
 | --- | --- |
-| [MoveItemResponse](moveitemresponse)() | Initializes a new instance of the MoveItemResponse class. |
-| [MoveItemResponse](moveitemresponse)(Status, string, string) | Initializes a new instance of the MoveItemResponse class. |
+| [MoveItemResponse](moveitemresponse#constructor)() | Initializes a new instance of the MoveItemResponse class. |
+| [MoveItemResponse](moveitemresponse#constructor_1)(Status, string, string) | Initializes a new instance of the MoveItemResponse class. |
 
 ## Properties
 

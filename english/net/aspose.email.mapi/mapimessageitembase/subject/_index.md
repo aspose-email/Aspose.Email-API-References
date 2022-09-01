@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the subject of the message.
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/mapimessageitembase/subject/
@@ -14,7 +14,7 @@ Gets or sets the subject of the message.
 public string Subject { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents message subject.
 

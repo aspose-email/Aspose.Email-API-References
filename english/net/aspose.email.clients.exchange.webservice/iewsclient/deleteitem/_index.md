@@ -1,7 +1,7 @@
 ---
 title: DeleteItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes specified item
 type: docs
 weight: 640
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/deleteitem/

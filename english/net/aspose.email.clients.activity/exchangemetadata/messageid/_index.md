@@ -1,7 +1,7 @@
 ---
 title: MessageID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The message ID of the email that triggered the event. Mandatory Yes
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activity/exchangemetadata/messageid/

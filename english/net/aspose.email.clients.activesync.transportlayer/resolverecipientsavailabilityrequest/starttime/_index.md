@@ -1,7 +1,7 @@
 ---
 title: StartTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the start of the span of free/busy time requested by the client. The StartTime is not supported when the protocol version is 12.1. If the Availability is included in the request the request MUST also include the StartTime and EndTime. If the client sends an invalid StartTime value then the server returns a Status value of 5 in the ResolveRecipients command response.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsavailabilityrequest/starttime/

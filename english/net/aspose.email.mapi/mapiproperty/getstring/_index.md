@@ -1,12 +1,12 @@
 ---
 title: GetString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the binary data as string.
 type: docs
 weight: 250
 url: /net/aspose.email.mapi/mapiproperty/getstring/
 ---
-## MapiProperty.GetString method (1 of 2)
+## GetString() {#getstring}
 
 Gets the binary data as string.
 
@@ -14,7 +14,7 @@ Gets the binary data as string.
 public virtual string GetString()
 ```
 
-## Return Value
+### Return Value
 
 A string contains the binary data.
 
@@ -26,7 +26,7 @@ A string contains the binary data.
 
 ---
 
-## MapiProperty.GetString method (2 of 2)
+## GetString(int) {#getstring_1}
 
 Gets the binary data as string using the specified code page.
 
@@ -38,7 +38,7 @@ public virtual string GetString(int codepage)
 | --- | --- | --- |
 | codepage | Int32 | The code page. |
 
-## Return Value
+### Return Value
 
 A string contains the binary data.
 

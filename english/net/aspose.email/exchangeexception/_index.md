@@ -1,9 +1,9 @@
 ---
 title: ExchangeException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Thrown if there is a MS Exchange communication failure.
 type: docs
-weight: 17260
+weight: 17430
 url: /net/aspose.email/exchangeexception/
 ---
 ## ExchangeException class
@@ -18,10 +18,10 @@ public class ExchangeException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [ExchangeException](exchangeexception)() | Initializes a new instance of the [`ExchangeException`](../exchangeexception) class. |
-| [ExchangeException](exchangeexception)(string) | Initializes a new instance of the [`ExchangeException`](../exchangeexception) class. |
-| [ExchangeException](exchangeexception)(string, Exception) | Initializes a new instance of the [`ExchangeException`](../exchangeexception) class. |
-| [ExchangeException](exchangeexception)(string, params object[]) | Initializes a new instance of the [`ExchangeException`](../exchangeexception) class with a specified error message. |
+| [ExchangeException](exchangeexception#constructor)() | Initializes a new instance of the [`ExchangeException`](../exchangeexception) class. |
+| [ExchangeException](exchangeexception#constructor_1)(string) | Initializes a new instance of the [`ExchangeException`](../exchangeexception) class. |
+| [ExchangeException](exchangeexception#constructor_2)(string, Exception) | Initializes a new instance of the [`ExchangeException`](../exchangeexception) class. |
+| [ExchangeException](exchangeexception#constructor_3)(string, params object[]) | Initializes a new instance of the [`ExchangeException`](../exchangeexception) class with a specified error message. |
 
 ## Properties
 

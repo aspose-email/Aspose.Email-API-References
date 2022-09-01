@@ -1,7 +1,7 @@
 ---
 title: RemoveNonexistentItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that mail items which do not have the equal items in the personal storage should be removed
 type: docs
 weight: 90
 url: /net/aspose.email.clients.imap/restoresettings/removenonexistentitems/

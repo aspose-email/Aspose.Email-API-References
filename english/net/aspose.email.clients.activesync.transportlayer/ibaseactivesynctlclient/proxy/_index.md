@@ -1,7 +1,7 @@
 ---
 title: Proxy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the proxy.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/proxy/

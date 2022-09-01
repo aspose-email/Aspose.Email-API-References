@@ -1,7 +1,7 @@
 ---
 title: ReminderAttendee
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of ReminderAttendeeaspose.email.calendar/reminderattendee class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/reminderattendee/reminderattendee/

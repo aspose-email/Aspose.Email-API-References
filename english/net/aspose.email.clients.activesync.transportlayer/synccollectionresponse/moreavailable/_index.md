@@ -1,7 +1,7 @@
 ---
 title: MoreAvailable
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates there are more changes than the number that are requested in the WindowSize element. In Exchange 2007 the server sends Sync response messages containing the MoreAvailable and between zero 0 and WindowSize schema changes when it encounters elements external to the protocol.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/moreavailable/

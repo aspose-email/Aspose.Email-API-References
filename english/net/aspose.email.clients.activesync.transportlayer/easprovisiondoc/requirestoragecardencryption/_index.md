@@ -1,7 +1,7 @@
 ---
 title: RequireStorageCardEncryption
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device encrypts content that is stored on the device. This property SHOULD be ignored if the client does not support storing data on removable storage.
 type: docs
 weight: 420
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requirestoragecardencryption/

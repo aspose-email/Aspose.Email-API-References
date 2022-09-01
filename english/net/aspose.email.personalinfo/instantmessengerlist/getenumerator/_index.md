@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns an enumerator that iterates through a collection.
 type: docs
 weight: 170
 url: /net/aspose.email.personalinfo/instantmessengerlist/getenumerator/
@@ -14,7 +14,7 @@ Returns an enumerator that iterates through a collection.
 public IEnumerator<InstantMessengerAddress> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 An IEnumerator object that can be used to iterate through the collection.
 

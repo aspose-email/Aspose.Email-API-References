@@ -1,7 +1,7 @@
 ---
 title: Company
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Company header.
 type: docs
 weight: 70
 url: /net/aspose.email/mhttemplatename.contact/company/

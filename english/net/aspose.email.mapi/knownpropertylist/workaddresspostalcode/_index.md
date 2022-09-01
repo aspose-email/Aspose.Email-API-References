@@ -1,7 +1,7 @@
 ---
 title: WorkAddressPostalCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the postal code ZIP code portion of the work address of the contact. Area Contact Properties Canonical name PidLidWorkAddressPostalCode Alternate names dispidWorkAddressPostalCode
 type: docs
 weight: 19590
 url: /net/aspose.email.mapi/knownpropertylist/workaddresspostalcode/

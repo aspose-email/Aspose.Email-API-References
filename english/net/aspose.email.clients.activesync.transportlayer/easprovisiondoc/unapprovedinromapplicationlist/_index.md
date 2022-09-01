@@ -1,7 +1,7 @@
 ---
 title: UnapprovedInROMApplicationList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a list of inROM applications that are not approved for execution. Only applications that are preinstalled in ROM are affected by the entries in this property. This property does not apply to applications that are installed inmemory.
 type: docs
 weight: 430
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/unapprovedinromapplicationlist/

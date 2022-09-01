@@ -1,7 +1,7 @@
 ---
 title: AssemblyVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the version number of the assembly.
 type: docs
 weight: 10
 url: /net/aspose.email/buildversioninfo/assemblyversion/

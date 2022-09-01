@@ -1,7 +1,7 @@
 ---
 title: AirSyncKeys
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a values that is used by the server to mark the synchronization state of a every synchronized collection. Where dictionary key is server Id and dictionary value is SyncKey. For GetItemEstimate and Sync commands.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/airsynckeys/

@@ -1,7 +1,7 @@
 ---
 title: NameId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the name id of the property if its named.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi.msg/messageobjectproperty/nameid/
@@ -14,7 +14,7 @@ Gets or sets the name id of the property if it's named.
 public uint NameId { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The name id.
 

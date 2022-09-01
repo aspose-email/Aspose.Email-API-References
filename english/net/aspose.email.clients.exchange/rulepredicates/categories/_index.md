@@ -1,7 +1,7 @@
 ---
 title: Categories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the categories that an incoming message is labeled with in order for the condition or exception to apply.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/rulepredicates/categories/

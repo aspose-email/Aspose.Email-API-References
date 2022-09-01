@@ -1,7 +1,7 @@
 ---
 title: ConversationId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the conversation for which to search. The value is a GUID. The ConversationId is not supported when the protocol version is 12.1. If the ConversationId is included as a child of any element other than the And element the server responds with a Status value of 8 SearchTooComplex.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/querytype/conversationid/

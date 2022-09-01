@@ -1,7 +1,7 @@
 ---
 title: FormMethod
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The method tells the server about the request method.
 type: docs
 weight: 180
 url: /net/aspose.email.amp/formmethod/
@@ -14,7 +14,7 @@ The method tells the server about the request method.
 public enum FormMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

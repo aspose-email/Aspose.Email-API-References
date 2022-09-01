@@ -1,12 +1,12 @@
 ---
 title: AppointmentCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AppointmentCollection class that is empty.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/appointmentcollection/appointmentcollection/
 ---
-## AppointmentCollection constructor (1 of 2)
+## AppointmentCollection() {#constructor}
 
 Initializes a new instance of the AppointmentCollection class that is empty.
 
@@ -22,7 +22,7 @@ public AppointmentCollection()
 
 ---
 
-## AppointmentCollection constructor (2 of 2)
+## AppointmentCollection(IEnumerable&lt;Appointment&gt;) {#constructor_1}
 
 Initializes a new instance of the AppointmentCollection class
 

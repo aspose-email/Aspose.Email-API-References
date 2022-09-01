@@ -1,7 +1,7 @@
 ---
 title: SyncAddClientOperation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a new object in a collection on the client.
 type: docs
 weight: 2130
 url: /net/aspose.email.clients.activesync.transportlayer/syncaddclientoperation/

@@ -1,7 +1,7 @@
 ---
 title: StateOrProvince
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the state or province portion of the contacts address
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/stateorprovince/

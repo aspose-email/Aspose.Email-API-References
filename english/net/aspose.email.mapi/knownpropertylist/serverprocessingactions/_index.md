@@ -1,7 +1,7 @@
 ---
 title: ServerProcessingActions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates what processing actions have been taken on this Meeting Request object or Meeting Update object. Area Calendar Canonical name PidLidServerProcessingActions Alternate names dispidExchangeProcessingAction
 type: docs
 weight: 17300
 url: /net/aspose.email.mapi/knownpropertylist/serverprocessingactions/

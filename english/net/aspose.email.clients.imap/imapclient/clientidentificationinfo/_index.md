@@ -1,7 +1,7 @@
 ---
 title: ClientIdentificationInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets client identification information See more https//tools.ietf.org/html/rfc2971
 type: docs
 weight: 60
 url: /net/aspose.email.clients.imap/imapclient/clientidentificationinfo/

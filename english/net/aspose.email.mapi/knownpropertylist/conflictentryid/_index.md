@@ -1,7 +1,7 @@
 ---
 title: ConflictEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the conflict resolve message. Area ICS Canonical name PidTagConflictEntryId Alternate names PR_CONFLICT_ENTRYID ptagConflictEntryId
 type: docs
 weight: 2880
 url: /net/aspose.email.mapi/knownpropertylist/conflictentryid/

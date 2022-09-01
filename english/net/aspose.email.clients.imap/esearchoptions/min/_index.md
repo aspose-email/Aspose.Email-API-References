@@ -1,7 +1,7 @@
 ---
 title: Min
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Return the lowest message
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/esearchoptions/min/

@@ -1,7 +1,7 @@
 ---
 title: NonSendableCc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of all of the unsendable attendees who are also optional attendees. Area Meetings Canonical name PidLidNonSendableCc Alternate names dispidNonSendableCC
 type: docs
 weight: 13020
 url: /net/aspose.email.mapi/knownpropertylist/nonsendablecc/

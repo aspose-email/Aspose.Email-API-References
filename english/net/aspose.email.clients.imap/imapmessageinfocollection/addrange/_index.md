@@ -1,7 +1,7 @@
 ---
 title: AddRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the enumeration of ImapMessageInfo objects to the end of the collection
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/imapmessageinfocollection/addrange/

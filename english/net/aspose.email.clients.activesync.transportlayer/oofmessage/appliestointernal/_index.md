@@ -1,7 +1,7 @@
 ---
 title: AppliesToInternal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the OOF message applies to internal users.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/oofmessage/appliestointernal/

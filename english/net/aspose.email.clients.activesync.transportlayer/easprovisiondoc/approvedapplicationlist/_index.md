@@ -1,7 +1,7 @@
 ---
 title: ApprovedApplicationList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a list of inmemory applications that are approved for execution. Only inmemory applications are affected by this property. This property does not apply to inROM applications. If non empty the client MUST only allow the inmemory applications specified by this property to execute.
 type: docs
 weight: 210
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/approvedapplicationlist/

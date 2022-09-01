@@ -1,7 +1,7 @@
 ---
 title: PropertyTag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the property tag a combined value which contains Idaspose.email.mapi.msg/messageobjectproperty/id and PropertyTypeaspose.email.mapi.msg/messageobjectproperty/propertytype
 type: docs
 weight: 100
 url: /net/aspose.email.mapi.msg/messageobjectproperty/propertytag/
@@ -14,7 +14,7 @@ Gets the property tag, a combined value which contains [`Id`](../id) and [`Prope
 public long PropertyTag { get; }
 ```
 
-## Property Value
+### Property Value
 
 The property tag.
 

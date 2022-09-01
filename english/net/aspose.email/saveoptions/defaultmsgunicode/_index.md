@@ -1,7 +1,7 @@
 ---
 title: DefaultMsgUnicode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets options with default values for saving message to MsgUnicode format.
 type: docs
 weight: 80
 url: /net/aspose.email/saveoptions/defaultmsgunicode/

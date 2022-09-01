@@ -1,7 +1,7 @@
 ---
 title: Clutter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The clutter folder lowpriority messages are moved to when using the Clutter feature.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/knownfolders/clutter/

@@ -1,12 +1,12 @@
 ---
 title: MimeException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MimeExceptionaspose.email.mime/mimeexception class.
 type: docs
 weight: 10
 url: /net/aspose.email.mime/mimeexception/mimeexception/
 ---
-## MimeException constructor (1 of 3)
+## MimeException() {#constructor}
 
 Initializes a new instance of the [`MimeException`](../../mimeexception) class.
 
@@ -22,7 +22,7 @@ public MimeException()
 
 ---
 
-## MimeException constructor (2 of 3)
+## MimeException(string) {#constructor_1}
 
 Initializes a new instance of the [`MimeException`](../../mimeexception) class.
 
@@ -42,7 +42,7 @@ public MimeException(string message)
 
 ---
 
-## MimeException constructor (3 of 3)
+## MimeException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`MimeException`](../../mimeexception) class.
 

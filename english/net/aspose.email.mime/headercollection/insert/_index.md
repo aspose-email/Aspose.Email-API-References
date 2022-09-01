@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Inserts the header in collection. If collection contains headers with the same name this header will be inserted before other headers with the same name.
 type: docs
 weight: 180
 url: /net/aspose.email.mime/headercollection/insert/

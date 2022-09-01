@@ -1,12 +1,12 @@
 ---
 title: GetPhoto
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches a contact photo
 type: docs
 weight: 210
 url: /net/aspose.email.clients.google/igmailclient/getphoto/
 ---
-## IGmailClient.GetPhoto method (1 of 2)
+## GetPhoto(ContactPhoto) {#getphoto}
 
 Fetches a contact photo
 
@@ -18,7 +18,7 @@ public ContactPhoto GetPhoto(ContactPhoto photo)
 | --- | --- | --- |
 | photo | ContactPhoto | ContactPhoto object with identifier |
 
-## Return Value
+### Return Value
 
 Returns a contact photo
 
@@ -31,7 +31,7 @@ Returns a contact photo
 
 ---
 
-## IGmailClient.GetPhoto method (2 of 2)
+## GetPhoto(string) {#getphoto_1}
 
 Fetches a contact photo
 
@@ -43,7 +43,7 @@ public ContactPhoto GetPhoto(string photoUri)
 | --- | --- | --- |
 | photoUri | String | Uri of an image. |
 
-## Return Value
+### Return Value
 
 Returns a contact photo
 

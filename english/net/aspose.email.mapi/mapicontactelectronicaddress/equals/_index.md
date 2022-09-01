@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified object is equal to the current object.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicontactelectronicaddress/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified object is equal to the current object; otherwise, false.
 

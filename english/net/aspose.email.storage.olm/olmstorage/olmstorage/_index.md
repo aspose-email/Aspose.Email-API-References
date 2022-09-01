@@ -1,12 +1,12 @@
 ---
 title: OlmStorage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the OlmStorageaspose.email.storage.olm/olmstorage class. Allows setting a callback method for handling exceptions that occur during OLM storage traversal.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.olm/olmstorage/olmstorage/
 ---
-## OlmStorage constructor (1 of 3)
+## OlmStorage(TraversalExceptionsCallback) {#constructor}
 
 Initializes a new instance of the [`OlmStorage`](../../olmstorage) class. Allows setting a callback method for handling exceptions that occur during OLM storage traversal.
 
@@ -27,7 +27,7 @@ public OlmStorage(TraversalExceptionsCallback callback)
 
 ---
 
-## OlmStorage constructor (2 of 3)
+## OlmStorage(string) {#constructor_2}
 
 Initializes a new instance of the [`OlmStorage`](../../olmstorage) class.
 
@@ -39,7 +39,7 @@ public OlmStorage(string fileName)
 | --- | --- | --- |
 | fileName | String | OLM file name. |
 
-## Return Value
+### Return Value
 
 Returns an OlmStorage instance which is loaded from the specified file.
 
@@ -57,7 +57,7 @@ Returns an OlmStorage instance which is loaded from the specified file.
 
 ---
 
-## OlmStorage constructor (3 of 3)
+## OlmStorage(Stream) {#constructor_1}
 
 Initializes a new instance of the [`OlmStorage`](../../olmstorage) class.
 
@@ -69,7 +69,7 @@ public OlmStorage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Source stream Stream with OLM storage data. |
 
-## Return Value
+### Return Value
 
 Returns an OlmStorage instance which is loaded from the specified stream.
 

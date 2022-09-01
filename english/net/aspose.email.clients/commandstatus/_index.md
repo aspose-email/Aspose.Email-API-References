@@ -1,7 +1,7 @@
 ---
 title: CommandStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the result of an operation.
 type: docs
 weight: 2890
 url: /net/aspose.email.clients/commandstatus/

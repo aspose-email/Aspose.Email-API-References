@@ -1,7 +1,7 @@
 ---
 title: Children
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of names of children.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/children/

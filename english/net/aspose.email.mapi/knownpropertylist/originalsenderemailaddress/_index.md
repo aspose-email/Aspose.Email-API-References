@@ -1,7 +1,7 @@
 ---
 title: OriginalSenderEmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the original message senders PidTagSenderEmailAddress property section 2.992. Area General Message Properties Canonical name PidTagOriginalSenderEmailAddress Alternate names PR_ORIGINAL_SENDER_EMAIL_ADDRESS PR_ORIGINAL_SENDER_EMAIL_ADDRESS_A PR_ORIGINAL_SENDER_EMAIL_ADDRESS_W
 type: docs
 weight: 13670
 url: /net/aspose.email.mapi/knownpropertylist/originalsenderemailaddress/

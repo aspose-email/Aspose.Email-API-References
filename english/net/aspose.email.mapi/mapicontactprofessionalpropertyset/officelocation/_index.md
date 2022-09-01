@@ -1,7 +1,7 @@
 ---
 title: OfficeLocation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the location of the office that the contact works in
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/officelocation/

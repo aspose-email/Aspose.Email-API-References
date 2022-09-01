@@ -1,7 +1,7 @@
 ---
 title: Version
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the time at which a document item was last modified. The Version element is present only when the ItemOperations command is used to access a Windows SharePoint Services or UNC resource.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/version/

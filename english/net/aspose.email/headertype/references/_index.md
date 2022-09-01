@@ -1,7 +1,7 @@
 ---
 title: References
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reference to other related messages.
 type: docs
 weight: 180
 url: /net/aspose.email/headertype/references/

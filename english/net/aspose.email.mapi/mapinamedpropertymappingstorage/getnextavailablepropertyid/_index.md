@@ -1,7 +1,7 @@
 ---
 title: GetNextAvailablePropertyId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the next available property id in entries stream based on property datatype.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapinamedpropertymappingstorage/getnextavailablepropertyid/
@@ -18,7 +18,7 @@ public long GetNextAvailablePropertyId(MapiPropertyType dataType)
 | --- | --- | --- |
 | dataType | MapiPropertyType | Type of the data for the property. |
 
-## Return Value
+### Return Value
 
 An id that can be lately used to add property mapping.
 

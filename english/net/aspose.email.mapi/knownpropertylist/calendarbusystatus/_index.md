@@ -1,7 +1,7 @@
 ---
 title: CalendarBusystatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the attendee is busy at the time of an appointment on their calendar. Area Common Canonical name PidNameCalendarBusystatus Alternate names urnschemascalendarbusystatus
 type: docs
 weight: 2190
 url: /net/aspose.email.mapi/knownpropertylist/calendarbusystatus/

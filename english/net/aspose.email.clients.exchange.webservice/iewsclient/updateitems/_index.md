@@ -1,7 +1,7 @@
 ---
 title: UpdateItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the specified items in to a mailbox
 type: docs
 weight: 1490
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updateitems/
@@ -19,7 +19,7 @@ public ExchangeUploadItemResult[] UpdateItems(ExchangeStreamedItem[] items, stri
 | items | ExchangeStreamedItem[] | An items to be updated |
 | parentFolderUri | String | Specifies the folder that contains the items to update |
 
-## Return Value
+### Return Value
 
 An array of [`ExchangeUploadItemResult`](../../exchangeuploaditemresult)
 

@@ -1,7 +1,7 @@
 ---
 title: AutodiscoverResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the base class for all responses returned by the Autodiscover service.
 type: docs
 weight: 3070
 url: /net/aspose.email.clients.exchange/autodiscoverresponse/

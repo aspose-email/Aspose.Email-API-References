@@ -1,7 +1,7 @@
 ---
 title: GetMessageTrackingReport
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets message tracking report
 type: docs
 weight: 1010
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getmessagetrackingreport/
@@ -18,7 +18,7 @@ public MessageTrackingReport GetMessageTrackingReport(GetMessageTrackingReportOp
 | --- | --- | --- |
 | options | GetMessageTrackingReportOptions | Options specifying a search criteria |
 
-## Return Value
+### Return Value
 
 A found [`MessageTrackingReport`](../../messagetrackingreport) or `null` if no message tracking report was found
 

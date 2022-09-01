@@ -1,7 +1,7 @@
 ---
 title: LoginType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Login types
 type: docs
 weight: 2600
 url: /net/aspose.email.clients.activity/logintype/
@@ -14,7 +14,7 @@ Login types
 public enum LoginType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

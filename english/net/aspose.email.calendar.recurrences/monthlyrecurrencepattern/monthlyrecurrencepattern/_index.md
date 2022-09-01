@@ -1,12 +1,12 @@
 ---
 title: MonthlyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MonthlyRecurrencePatternaspose.email.calendar.recurrences/monthlyrecurrencepattern class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar.recurrences/monthlyrecurrencepattern/monthlyrecurrencepattern/
 ---
-## MonthlyRecurrencePattern constructor (1 of 3)
+## MonthlyRecurrencePattern() {#constructor}
 
 Initializes a new instance of the [`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern) class.
 
@@ -22,7 +22,7 @@ public MonthlyRecurrencePattern()
 
 ---
 
-## MonthlyRecurrencePattern constructor (2 of 3)
+## MonthlyRecurrencePattern(int, int) {#constructor_2}
 
 Initializes a new instance of the [`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern) class.
 
@@ -43,7 +43,7 @@ public MonthlyRecurrencePattern(int startOffset, int interval)
 
 ---
 
-## MonthlyRecurrencePattern constructor (3 of 3)
+## MonthlyRecurrencePattern(DayPosition, CalendarDay, int) {#constructor_1}
 
 Initializes a new instance of the [`MonthlyRecurrencePattern`](../../monthlyrecurrencepattern) class.
 

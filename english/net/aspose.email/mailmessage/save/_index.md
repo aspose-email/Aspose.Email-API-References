@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Save message as a file
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.email/mailmessage/save/
 ---
-## MailMessage.Save method (1 of 4)
+## Save(string) {#save_2}
 
 Save message as a file
 
@@ -26,7 +26,7 @@ public virtual void Save(string fileName)
 
 ---
 
-## MailMessage.Save method (2 of 4)
+## Save(string, SaveOptions) {#save_3}
 
 Save message as a file with additional options.
 
@@ -48,7 +48,7 @@ public virtual void Save(string fileName, SaveOptions options)
 
 ---
 
-## MailMessage.Save method (3 of 4)
+## Save(Stream, SaveOptions) {#save_1}
 
 Save message as a stream with additional options.
 
@@ -70,7 +70,7 @@ public virtual void Save(Stream stream, SaveOptions options)
 
 ---
 
-## MailMessage.Save method (4 of 4)
+## Save(Stream) {#save}
 
 Save message as a stream
 

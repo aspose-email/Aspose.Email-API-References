@@ -1,12 +1,12 @@
 ---
 title: RenameFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Renames a specified folder to a new name
 type: docs
 weight: 1010
 url: /net/aspose.email.clients.imap/imapclient/renamefolder/
 ---
-## ImapClient.RenameFolder method (1 of 2)
+## RenameFolder(IConnection, string, string) {#renamefolder}
 
 Renames a specified folder to a new name
 
@@ -29,7 +29,7 @@ public void RenameFolder(IConnection connection, string folderName, string newFo
 
 ---
 
-## ImapClient.RenameFolder method (2 of 2)
+## RenameFolder(string, string) {#renamefolder_1}
 
 Renames a specified folder to a new name
 

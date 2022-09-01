@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a URL if the Type element section 2.2.3.170.1 value is set to MobileSync. If the Type element value is MobileSync then the Name element specifies the URL that conveys the protocol. If the Type element value is CertEnroll then the Name element value is NULL.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/serverinfo/name/

@@ -1,7 +1,7 @@
 ---
 title: ContainsRecipientStrings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the strings that appear in either the ToRecipients or CcRecipients properties of incoming messages in order for the condition or exception to apply.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/rulepredicates/containsrecipientstrings/

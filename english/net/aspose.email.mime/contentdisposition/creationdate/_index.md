@@ -1,7 +1,7 @@
 ---
 title: CreationDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the creation date.
 type: docs
 weight: 20
 url: /net/aspose.email.mime/contentdisposition/creationdate/
@@ -14,7 +14,7 @@ Gets or sets the creation date.
 public DateTime CreationDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A DateTime value that indicates the file creation date; otherwise, MinValue if no date was specified.
 

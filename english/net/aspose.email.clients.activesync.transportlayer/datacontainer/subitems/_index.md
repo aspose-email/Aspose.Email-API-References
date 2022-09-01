@@ -1,7 +1,7 @@
 ---
 title: SubItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copies the subelements of the ApplicationData to a new List.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/subitems/

@@ -1,7 +1,7 @@
 ---
 title: CommandParameters
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Command parameters.
 type: docs
 weight: 1110
 url: /net/aspose.email.clients.activesync.transportlayer/commandparameters/
@@ -14,7 +14,7 @@ Command parameters.
 public enum CommandParameters
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

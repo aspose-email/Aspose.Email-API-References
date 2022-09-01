@@ -1,7 +1,7 @@
 ---
 title: Content
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the content.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapirecipient/content/
@@ -14,7 +14,7 @@ Gets the content.
 public object Content { get; }
 ```
 
-## Property Value
+### Property Value
 
 The content.
 

@@ -1,7 +1,7 @@
 ---
 title: Deleted
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Message is deleted for removal by later EXPUNGE.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/imapmessageflags/deleted/

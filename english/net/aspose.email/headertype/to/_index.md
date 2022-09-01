@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Primary recipients. Example To someonesomedomain.com
 type: docs
 weight: 250
 url: /net/aspose.email/headertype/to/

@@ -1,7 +1,7 @@
 ---
 title: StatusCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Smtp status code
 type: docs
 weight: 30
 url: /net/aspose.email/smtpexception/statuscode/

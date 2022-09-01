@@ -1,9 +1,9 @@
 ---
 title: Gender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enum defines gender of a person
 type: docs
-weight: 19220
+weight: 19430
 url: /net/aspose.email.personalinfo/gender/
 ---
 ## Gender enumeration
@@ -14,7 +14,7 @@ Enum defines gender of a person
 public enum Gender
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

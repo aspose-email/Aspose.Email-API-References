@@ -1,7 +1,7 @@
 ---
 title: Sender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the addres from which the response message will be sent.
 type: docs
 weight: 30
 url: /net/aspose.email.tools/responsemessagebuilder/sender/

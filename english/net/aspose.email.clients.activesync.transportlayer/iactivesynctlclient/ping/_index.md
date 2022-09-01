@@ -1,12 +1,12 @@
 ---
 title: Ping
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Ping command is used to request that the server monitor specified folders for changes that would require the client to resynchronize.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/ping/
 ---
-## IActiveSyncTLClient.Ping method (1 of 6)
+## Ping(string, FolderClass) {#ping_5}
 
 The Ping command is used to request that the server monitor specified folders for changes that would require the client to resynchronize.
 
@@ -19,7 +19,7 @@ public string[] Ping(string serverId, FolderClass fClass)
 | serverId | String | The Id element is a required child element of the Folder element in Ping command requests that specifies the server ID of the folder to be monitored. |
 | fClass | FolderClass | The Class element is a required child element of the Folder element in Ping command requests that specifies the content class of the folder to be monitored. |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -32,7 +32,7 @@ Array of folders where changes has been discovered
 
 ---
 
-## IActiveSyncTLClient.Ping method (2 of 6)
+## Ping(int, string, FolderClass) {#ping_3}
 
 The Ping command is used to request that the server monitor specified folders for changes that would require the client to resynchronize.
 
@@ -46,7 +46,7 @@ public string[] Ping(int heartbeatInterval, string serverId, FolderClass fClass)
 | serverId | String | The Id element is a required child element of the Folder element in Ping command requests that specifies the server ID of the folder to be monitored. |
 | fClass | FolderClass | The Class element is a required child element of the Folder element in Ping command requests that specifies the content class of the folder to be monitored. |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -59,7 +59,7 @@ Array of folders where changes has been discovered
 
 ---
 
-## IActiveSyncTLClient.Ping method (3 of 6)
+## Ping(params PingParameter[]) {#ping}
 
 The Ping command is used to request that the server monitor specified folders for changes that would require the client to resynchronize.
 
@@ -71,7 +71,7 @@ public string[] Ping(params PingParameter[] pingParameters)
 | --- | --- | --- |
 | pingParameters | PingParameter[] | Ping parameters |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -84,7 +84,7 @@ Array of folders where changes has been discovered
 
 ---
 
-## IActiveSyncTLClient.Ping method (4 of 6)
+## Ping(int, params PingParameter[]) {#ping_1}
 
 The Ping command is used to request that the server monitor specified folders for changes that would require the client to resynchronize.
 
@@ -97,7 +97,7 @@ public string[] Ping(int heartbeatInterval, params PingParameter[] pingParameter
 | heartbeatInterval | Int32 | The HeartbeatInterval specifies the length of time, in seconds, that the server SHOULD wait before sending a response if no new items are added to the specified set of folders. |
 | pingParameters | PingParameter[] | Ping parameters |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -110,7 +110,7 @@ Array of folders where changes has been discovered
 
 ---
 
-## IActiveSyncTLClient.Ping method (5 of 6)
+## Ping(IEnumerable&lt;PingParameter&gt;) {#ping_4}
 
 The Ping command is used to request that the server monitor specified folders for changes that would require the client to resynchronize.
 
@@ -122,7 +122,7 @@ public string[] Ping(IEnumerable<PingParameter> pingParameters)
 | --- | --- | --- |
 | pingParameters | IEnumerable`1 | Ping parameters |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 
@@ -135,7 +135,7 @@ Array of folders where changes has been discovered
 
 ---
 
-## IActiveSyncTLClient.Ping method (6 of 6)
+## Ping(int, IEnumerable&lt;PingParameter&gt;) {#ping_2}
 
 The Ping command is used to request that the server monitor specified folders for changes that would require the client to resynchronize.
 
@@ -148,7 +148,7 @@ public string[] Ping(int heartbeatInterval, IEnumerable<PingParameter> pingParam
 | heartbeatInterval | Int32 | The HeartbeatInterval specifies the length of time, in seconds, that the server SHOULD wait before sending a response if no new items are added to the specified set of folders. |
 | pingParameters | IEnumerable`1 | Ping parameters |
 
-## Return Value
+### Return Value
 
 Array of folders where changes has been discovered
 

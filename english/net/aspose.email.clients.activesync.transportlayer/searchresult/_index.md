@@ -1,7 +1,7 @@
 ---
 title: SearchResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Container for an individual matching mailbox item. When the store that is being searched is the mailbox  There is one Result element for each match that is found in the mailbox. If no matches are found an empty Result element is present in the Store container element of the response XML.  Inside the Result element the Properties element contains a list of requested properties for the mailbox item. When the store that is being searched is the document library  The first result that is returned in the Search response is the metadata for the Root folder or item to which the LinkId value is pointing. The client can choose to ignore this entry if it does not require it.  If the documentlibraryLinkId element value in the request points to a folder the metadata properties of the folder are returned as the first item and the contents of the folder are returned as subsequent results. The Range applies to these results with no difference for example the index 0 would always be for the root item to which the link is pointing.  If the documentlibraryLinkId element value in the request points to an item only one result is returned the metadata for the item.  Inside the Result element the Properties element contains a list of requested properties for the mailbox item.
 type: docs
 weight: 2010
 url: /net/aspose.email.clients.activesync.transportlayer/searchresult/

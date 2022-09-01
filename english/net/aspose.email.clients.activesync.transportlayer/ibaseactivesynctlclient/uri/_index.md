@@ -1,7 +1,7 @@
 ---
 title: Uri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the server uri
 type: docs
 weight: 110
 url: /net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/uri/

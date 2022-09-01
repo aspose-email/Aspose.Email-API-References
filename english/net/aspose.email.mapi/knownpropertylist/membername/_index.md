@@ -1,7 +1,7 @@
 ---
 title: MemberName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the userreadable name of the user. Area Access Control Properties Canonical name PidTagMemberName Alternate names PR_MEMBER_NAME PR_MEMBER_NAME_A ptagMemberName PR_MEMBER_NAME_W
 type: docs
 weight: 12430
 url: /net/aspose.email.mapi/knownpropertylist/membername/

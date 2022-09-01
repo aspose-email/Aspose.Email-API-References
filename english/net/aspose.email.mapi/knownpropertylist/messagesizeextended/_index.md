@@ -1,7 +1,7 @@
 ---
 title: MessageSizeExtended
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the 64bit version of the PidTagMessageSize property section 2.787. Area General Message Properties Canonical name PidTagMessageSizeExtended Alternate names PR_MESSAGE_SIZE_EXTENDED ptagMessageSizeExtended
 type: docs
 weight: 12620
 url: /net/aspose.email.mapi/knownpropertylist/messagesizeextended/

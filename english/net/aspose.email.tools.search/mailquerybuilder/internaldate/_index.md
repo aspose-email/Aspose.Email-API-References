@@ -1,7 +1,7 @@
 ---
 title: InternalDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find messages by internal date.
 type: docs
 weight: 70
 url: /net/aspose.email.tools.search/mailquerybuilder/internaldate/
@@ -14,7 +14,7 @@ Gets the field that allows to find messages by internal date.
 public DateComparisonField InternalDate { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`DateComparisonField`](../../datecomparisonfield) that represents internal date search field.
 

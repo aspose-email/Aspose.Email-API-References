@@ -1,7 +1,7 @@
 ---
 title: Default
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets BackupSettingsaspose.email.clients.imap/backupsettings class with settings by default
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/backupsettings/default/

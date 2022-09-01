@@ -1,7 +1,7 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Attachments header.
 type: docs
 weight: 10
 url: /net/aspose.email/mhttemplatename/attachments/

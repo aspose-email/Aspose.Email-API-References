@@ -1,7 +1,7 @@
 ---
 title: Anniversary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Wedding anniversary
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo/eventlist/anniversary/

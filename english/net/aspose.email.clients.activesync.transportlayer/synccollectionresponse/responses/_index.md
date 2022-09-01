@@ -1,7 +1,7 @@
 ---
 title: Responses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains responses to operations such as Add Fetch Change that are processed by the server.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/responses/

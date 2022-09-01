@@ -1,7 +1,7 @@
 ---
 title: GetPropertyDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value of the property specified by tag as DateTime type.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertydatetime/
@@ -18,7 +18,7 @@ public DateTime? GetPropertyDateTime(long key)
 | --- | --- | --- |
 | key | Int64 | The MAPI property tag. |
 
-## Return Value
+### Return Value
 
 The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 

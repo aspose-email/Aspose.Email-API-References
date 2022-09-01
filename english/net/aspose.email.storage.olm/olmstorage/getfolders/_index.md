@@ -1,7 +1,7 @@
 ---
 title: GetFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets collection of folders.
 type: docs
 weight: 90
 url: /net/aspose.email.storage.olm/olmstorage/getfolders/
@@ -14,7 +14,7 @@ Gets collection of folders.
 public List<OlmFolder> GetFolders()
 ```
 
-## Return Value
+### Return Value
 
 The collection of folders that belong to the storage, i.e. the sub-folders of the current OLMStorage object.
 

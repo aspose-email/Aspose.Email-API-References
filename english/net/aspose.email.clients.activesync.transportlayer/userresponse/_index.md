@@ -1,7 +1,7 @@
 ---
 title: UserResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the meeting is being accepted tentatively accepted or declined.
 type: docs
 weight: 2320
 url: /net/aspose.email.clients.activesync.transportlayer/userresponse/
@@ -14,7 +14,7 @@ Indicates whether the meeting is being accepted, tentatively accepted, or declin
 public enum UserResponse
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

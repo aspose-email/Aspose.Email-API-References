@@ -1,7 +1,7 @@
 ---
 title: CalendarAttendeeRole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the role of the attendee. Area Common Canonical name PidNameCalendarAttendeeRole Alternate names urnschemascalendarattendeerole
 type: docs
 weight: 2180
 url: /net/aspose.email.mapi/knownpropertylist/calendarattendeerole/

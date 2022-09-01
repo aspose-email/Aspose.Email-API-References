@@ -1,7 +1,7 @@
 ---
 title: ExtractedMeetings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an XML document with a single MeetingSet element. Area Extracted Entities Canonical name PidNameExtractedMeetings Alternate names dispidXmlExtractedMeetings
 type: docs
 weight: 10070
 url: /net/aspose.email.mapi/knownpropertylist/extractedmeetings/

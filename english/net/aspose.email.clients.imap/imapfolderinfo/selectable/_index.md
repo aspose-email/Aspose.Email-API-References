@@ -1,7 +1,7 @@
 ---
 title: Selectable
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether it is possible to select this folder.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.imap/imapfolderinfo/selectable/

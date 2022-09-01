@@ -1,7 +1,7 @@
 ---
 title: ReminderAttendee
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines an Attendee within a alarm.
 type: docs
 weight: 840
 url: /net/aspose.email.calendar/reminderattendee/

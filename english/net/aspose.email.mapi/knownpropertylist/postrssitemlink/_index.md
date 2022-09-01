@@ -1,7 +1,7 @@
 ---
 title: PostRssItemLink
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the URL of the link from an RSS or Atom item. Area RSS Canonical name PidLidPostRssItemLink Alternate names dispidPostRssItemLink
 type: docs
 weight: 14480
 url: /net/aspose.email.mapi/knownpropertylist/postrssitemlink/

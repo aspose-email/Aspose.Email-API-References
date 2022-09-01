@@ -1,7 +1,7 @@
 ---
 title: SetUpStream
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Configures proxyserver to transport data to the target host.
 type: docs
 weight: 40
 url: /net/aspose.email.clients/socksproxy/setupstream/

@@ -1,7 +1,7 @@
 ---
 title: ReceiptTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the sent time for a message disposition notification as specified in RFC3798. Area Email Canonical name PidTagReceiptTime Alternate names PR_RECEIPT_TIME ptagReceiptTime
 type: docs
 weight: 15260
 url: /net/aspose.email.mapi/knownpropertylist/receipttime/

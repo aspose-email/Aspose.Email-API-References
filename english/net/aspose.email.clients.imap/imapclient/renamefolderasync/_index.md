@@ -1,12 +1,12 @@
 ---
 title: RenameFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Renames a specified folder to a new name
 type: docs
 weight: 1020
 url: /net/aspose.email.clients.imap/imapclient/renamefolderasync/
 ---
-## ImapClient.RenameFolderAsync method (1 of 4)
+## RenameFolderAsync(IConnection, string, string) {#renamefolderasync}
 
 Renames a specified folder to a new name
 
@@ -20,7 +20,7 @@ public Task RenameFolderAsync(IConnection connection, string folderName, string 
 | folderName | String | Folder to be renamed |
 | newFolderName | String | New folder name |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -33,7 +33,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.RenameFolderAsync method (2 of 4)
+## RenameFolderAsync(string, string) {#renamefolderasync_2}
 
 Renames a specified folder to a new name
 
@@ -46,7 +46,7 @@ public Task RenameFolderAsync(string folderName, string newFolderName)
 | folderName | String | Folder to be renamed |
 | newFolderName | String | New folder name |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -58,7 +58,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.RenameFolderAsync method (3 of 4)
+## RenameFolderAsync(IConnection, string, string, CancellationToken) {#renamefolderasync_1}
 
 Renames a specified folder to a new name
 
@@ -74,7 +74,7 @@ public Task RenameFolderAsync(IConnection connection, string folderName, string 
 | newFolderName | String | New folder name |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -87,7 +87,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.RenameFolderAsync method (4 of 4)
+## RenameFolderAsync(string, string, CancellationToken) {#renamefolderasync_3}
 
 Renames a specified folder to a new name
 
@@ -101,7 +101,7 @@ public Task RenameFolderAsync(string folderName, string newFolderName, Cancellat
 | newFolderName | String | New folder name |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

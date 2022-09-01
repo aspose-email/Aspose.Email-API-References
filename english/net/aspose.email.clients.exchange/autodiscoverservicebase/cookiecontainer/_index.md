@@ -1,7 +1,7 @@
 ---
 title: CookieContainer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the cookie container.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/cookiecontainer/
@@ -14,7 +14,7 @@ Gets or sets the cookie container.
 public CookieContainer CookieContainer { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The cookie container.
 

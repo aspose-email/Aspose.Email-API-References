@@ -1,7 +1,7 @@
 ---
 title: op_Explicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts string representation of recurrence pattern in ICalendar format to object
 type: docs
 weight: 60
 url: /net/aspose.email.calendar.recurrences/recurrencepattern/op_explicit/

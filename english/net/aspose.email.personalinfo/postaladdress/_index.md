@@ -1,9 +1,9 @@
 ---
 title: PostalAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a postal address.
 type: docs
-weight: 19290
+weight: 19500
 url: /net/aspose.email.personalinfo/postaladdress/
 ---
 ## PostalAddress class
@@ -41,11 +41,11 @@ public class PostalAddress : IComparable<PostalAddress>, IEquatable<PostalAddres
 | Name | Description |
 | --- | --- |
 | virtual [CompareTo](../../aspose.email.personalinfo/postaladdress/compareto)(PostalAddress) | Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object. |
-| override [Equals](../../aspose.email.personalinfo/postaladdress/equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| [Equals](../../aspose.email.personalinfo/postaladdress/equals)(PostalAddress) |  |
-| [Equals](../../aspose.email.personalinfo/postaladdress/equals)(PostalAddress, PostalAddress) | Determines whether the specified object instances are considered equal. |
-| override [GetHashCode](../../aspose.email.personalinfo/postaladdress/gethashcode)() | GetHashCode returns a hash function for this object. |
-| virtual [GetHashCode](../../aspose.email.personalinfo/postaladdress/gethashcode)(PostalAddress) | GetHashCode returns a hash function for specified object. |
+| override [Equals](../../aspose.email.personalinfo/postaladdress/equals#equals_2)(object) | Determines whether the specified Object is equal to the current Object. |
+| [Equals](../../aspose.email.personalinfo/postaladdress/equals#equals)(PostalAddress) |  |
+| [Equals](../../aspose.email.personalinfo/postaladdress/equals#equals_1)(PostalAddress, PostalAddress) | Determines whether the specified object instances are considered equal. |
+| override [GetHashCode](../../aspose.email.personalinfo/postaladdress/gethashcode#gethashcode)() | GetHashCode returns a hash function for this object. |
+| virtual [GetHashCode](../../aspose.email.personalinfo/postaladdress/gethashcode#gethashcode_1)(PostalAddress) | GetHashCode returns a hash function for specified object. |
 | override [ToString](../../aspose.email.personalinfo/postaladdress/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.personalinfo/postaladdress/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/postaladdress/op_inequality) | Determines whether the specified objects are not equal. |

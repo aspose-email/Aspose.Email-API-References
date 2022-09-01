@@ -1,9 +1,9 @@
 ---
 title: MboxStorageWriter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A base class for any mboxbased mail storage writer.
 type: docs
-weight: 19820
+weight: 20050
 url: /net/aspose.email.storage.mbox/mboxstoragewriter/
 ---
 ## MboxStorageWriter class
@@ -25,8 +25,8 @@ public abstract class MboxStorageWriter : IDisposable
 | Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.email.storage.mbox/mboxstoragewriter/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| abstract [WriteMessage](../../aspose.email.storage.mbox/mboxstoragewriter/writemessage)(MailMessage) | Writes the message to underlying storage stream. |
-| abstract [WriteMessage](../../aspose.email.storage.mbox/mboxstoragewriter/writemessage)(MailMessage, out string) | Writes the message to underlying storage stream. |
+| abstract [WriteMessage](../../aspose.email.storage.mbox/mboxstoragewriter/writemessage#writemessage)(MailMessage) | Writes the message to underlying storage stream. |
+| abstract [WriteMessage](../../aspose.email.storage.mbox/mboxstoragewriter/writemessage#writemessage_1)(MailMessage, out string) | Writes the message to underlying storage stream. |
 
 ### See Also
 

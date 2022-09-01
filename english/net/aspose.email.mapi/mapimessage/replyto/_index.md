@@ -1,7 +1,7 @@
 ---
 title: ReplyTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the reply to names.
 type: docs
 weight: 210
 url: /net/aspose.email.mapi/mapimessage/replyto/
@@ -14,7 +14,7 @@ Gets or sets the reply to names.
 public string ReplyTo { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The reply to names.
 

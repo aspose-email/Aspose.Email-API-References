@@ -1,7 +1,7 @@
 ---
 title: DeferredActionMessageOriginalEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the server EntryID for the DAM. Area Serverside Rules Properties Canonical name PidTagDeferredActionMessageOriginalEntryId Alternate names PR_DAM_ORIG_MSG_SVREID ptagDamOrgMsgSvrEID
 type: docs
 weight: 3770
 url: /net/aspose.email.mapi/knownpropertylist/deferredactionmessageoriginalentryid/

@@ -1,7 +1,7 @@
 ---
 title: Sent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The time in UTC of when the email was sent. Mandatory Yes
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activity/exchangemetadata/sent/

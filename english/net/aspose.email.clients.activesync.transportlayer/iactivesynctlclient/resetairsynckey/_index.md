@@ -1,12 +1,12 @@
 ---
 title: ResetAirSyncKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reset SyncKey for GetItemEstimate and Sync operations for defined collection.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/resetairsynckey/
 ---
-## IActiveSyncTLClient.ResetAirSyncKey method (1 of 2)
+## ResetAirSyncKey(string) {#resetairsynckey_1}
 
 Reset SyncKey for GetItemEstimate and Sync operations for defined collection.
 
@@ -26,7 +26,7 @@ public void ResetAirSyncKey(string serverId)
 
 ---
 
-## IActiveSyncTLClient.ResetAirSyncKey method (2 of 2)
+## ResetAirSyncKey() {#resetairsynckey}
 
 Reset SyncKeys for GetItemEstimate and Sync operations for all collections.
 

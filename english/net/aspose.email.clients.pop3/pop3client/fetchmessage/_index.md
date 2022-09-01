@@ -1,12 +1,12 @@
 ---
 title: FetchMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the message
 type: docs
 weight: 110
 url: /net/aspose.email.clients.pop3/pop3client/fetchmessage/
 ---
-## Pop3Client.FetchMessage method (1 of 4)
+## FetchMessage(IConnection, string) {#fetchmessage_1}
 
 Fetches the message
 
@@ -19,7 +19,7 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -33,7 +33,7 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 
 ---
 
-## Pop3Client.FetchMessage method (2 of 4)
+## FetchMessage(IConnection, int) {#fetchmessage}
 
 Fetches the message
 
@@ -46,7 +46,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -60,7 +60,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 
 ---
 
-## Pop3Client.FetchMessage method (3 of 4)
+## FetchMessage(string) {#fetchmessage_3}
 
 Fetches the message
 
@@ -72,7 +72,7 @@ public MailMessage FetchMessage(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -85,7 +85,7 @@ public MailMessage FetchMessage(string uniqueId)
 
 ---
 
-## Pop3Client.FetchMessage method (4 of 4)
+## FetchMessage(int) {#fetchmessage_2}
 
 Fetches the message
 
@@ -97,7 +97,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 

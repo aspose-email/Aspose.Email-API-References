@@ -1,7 +1,7 @@
 ---
 title: Importance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the importance.
 type: docs
 weight: 120
 url: /net/aspose.email/headertype/importance/
@@ -14,7 +14,7 @@ Gets the importance.
 public static HeaderType Importance { get; }
 ```
 
-## Property Value
+### Property Value
 
 The importance.
 

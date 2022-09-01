@@ -1,7 +1,7 @@
 ---
 title: GroupExpansionMax
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Maximal number of calendar identifiers to be provided for a single group. Optional. An error will be returned for a group with more members than this value.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/freebusyquery/groupexpansionmax/

@@ -1,7 +1,7 @@
 ---
 title: ServerId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Id element is a required child element of the Folder element in Ping command requests that specifies the server ID of the folder to be monitored. Elements referenced in this section are defined in the Ping namespace except where otherwise indicated by the presence of a namespace prefix as defined in section 2.2.1.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/pingparameter/serverid/

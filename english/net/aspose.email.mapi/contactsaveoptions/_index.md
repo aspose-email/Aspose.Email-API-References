@@ -1,9 +1,9 @@
 ---
 title: ContactSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the base contact save options
 type: docs
-weight: 17610
+weight: 17790
 url: /net/aspose.email.mapi/contactsaveoptions/
 ---
 ## ContactSaveOptions class

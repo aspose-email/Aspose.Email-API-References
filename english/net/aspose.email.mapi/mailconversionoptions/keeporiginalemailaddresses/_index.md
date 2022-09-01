@@ -1,7 +1,7 @@
 ---
 title: KeepOriginalEmailAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether need keep original email address.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mailconversionoptions/keeporiginalemailaddresses/

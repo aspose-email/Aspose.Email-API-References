@@ -1,7 +1,7 @@
 ---
 title: DefaultTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default value of electronic address Uses when user does not set any electronic address if UseAutocomplete property is set true
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/defaulttelephonenumber/

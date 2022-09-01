@@ -1,7 +1,7 @@
 ---
 title: InnerException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the inner exception object.
 type: docs
 weight: 80
 url: /net/aspose.email.tools.logging/logentry/innerexception/

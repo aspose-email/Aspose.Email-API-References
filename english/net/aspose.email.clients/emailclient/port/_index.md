@@ -1,7 +1,7 @@
 ---
 title: Port
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the port.
 type: docs
 weight: 140
 url: /net/aspose.email.clients/emailclient/port/
@@ -14,7 +14,7 @@ Gets or sets the port.
 public virtual int Port { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The port number.
 

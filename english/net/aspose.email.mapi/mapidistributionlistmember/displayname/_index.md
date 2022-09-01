@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the recipients display name.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapidistributionlistmember/displayname/
@@ -14,7 +14,7 @@ Gets or sets the recipient's display name.
 public string DisplayName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The display name.
 

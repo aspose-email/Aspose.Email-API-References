@@ -1,7 +1,7 @@
 ---
 title: UniqueId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Unique Id of the EMail message.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.pop3/pop3messageinfo/uniqueid/
@@ -14,7 +14,7 @@ Gets the Unique Id of the E-Mail message.
 public string UniqueId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The unique id.
 

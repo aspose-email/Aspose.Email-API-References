@@ -1,7 +1,7 @@
 ---
 title: PrefferedTextEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets preferred encoding for message. Forcibly sets the preferred encoding for message subject and body. The default value is null.
 type: docs
 weight: 20
 url: /net/aspose.email/loadoptions/prefferedtextencoding/

@@ -1,7 +1,7 @@
 ---
 title: Sharing
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Sharing Property set name PSETID_Sharing
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/knownpropertysets/sharing/

@@ -1,7 +1,7 @@
 ---
 title: InternetHeaders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Email Property set name PS_INTERNET_HEADERS
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/knownpropertysets/internetheaders/

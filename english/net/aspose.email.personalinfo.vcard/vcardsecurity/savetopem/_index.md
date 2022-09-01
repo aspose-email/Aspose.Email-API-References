@@ -1,12 +1,12 @@
 ---
 title: SaveToPEM
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves base64 key to PEM format.
 type: docs
 weight: 50
 url: /net/aspose.email.personalinfo.vcard/vcardsecurity/savetopem/
 ---
-## VCardSecurity.SaveToPEM method (1 of 2)
+## SaveToPEM(string) {#savetopem_1}
 
 Saves base64 key to PEM format.
 
@@ -26,7 +26,7 @@ public void SaveToPEM(string path)
 
 ---
 
-## VCardSecurity.SaveToPEM method (2 of 2)
+## SaveToPEM(Stream) {#savetopem}
 
 Saves base64 key in PEM format to the stream.
 

@@ -1,7 +1,7 @@
 ---
 title: Notes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a notes
 type: docs
 weight: 280
 url: /net/aspose.email.personalinfo/contact/notes/

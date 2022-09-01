@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The email address of a user or group or the name of a domain depending on the scope type. Omitted for type default.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/aclscope/value/

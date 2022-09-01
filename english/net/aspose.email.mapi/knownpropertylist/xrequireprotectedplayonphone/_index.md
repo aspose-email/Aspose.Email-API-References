@@ -1,7 +1,7 @@
 ---
 title: XRequireProtectedPlayOnPhone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the client only renders the message on a phone. Area Unified Messaging Canonical name PidNameXRequireProtectedPlayOnPhone Alternate names
 type: docs
 weight: 19690
 url: /net/aspose.email.mapi/knownpropertylist/xrequireprotectedplayonphone/

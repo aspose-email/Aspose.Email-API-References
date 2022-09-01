@@ -1,7 +1,7 @@
 ---
 title: AcceptGzipEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether GZip compression encoding should be accepted.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/acceptgzipencoding/

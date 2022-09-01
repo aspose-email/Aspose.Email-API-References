@@ -1,7 +1,7 @@
 ---
 title: TaskAssigner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the name of the user that last assigned the task. Area Tasks Canonical name PidLidTaskAssigner Alternate names dispidTaskDelegator
 type: docs
 weight: 18560
 url: /net/aspose.email.mapi/knownpropertylist/taskassigner/

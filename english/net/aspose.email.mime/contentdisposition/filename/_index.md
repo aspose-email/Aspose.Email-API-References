@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the file name for an attachment.
 type: docs
 weight: 40
 url: /net/aspose.email.mime/contentdisposition/filename/
@@ -14,7 +14,7 @@ Gets or sets the file name for an attachment.
 public string FileName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The name of the file.
 

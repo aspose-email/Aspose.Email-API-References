@@ -1,7 +1,7 @@
 ---
 title: SMTPAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies one of the users email addresses. The element is only supported when the protocol version is 12.1 or 14.0.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/userinformationresponse/smtpaddresses/

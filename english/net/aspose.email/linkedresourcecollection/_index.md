@@ -1,9 +1,9 @@
 ---
 title: LinkedResourceCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a collection of LinkedResource objects
 type: docs
-weight: 17480
+weight: 17650
 url: /net/aspose.email/linkedresourcecollection/
 ---
 ## LinkedResourceCollection class
@@ -18,9 +18,9 @@ public sealed class LinkedResourceCollection : Collection<LinkedResource>, IDisp
 
 | Name | Description |
 | --- | --- |
-| [Clear](../../aspose.email/linkedresourcecollection/clear)(bool) | Removes all elements from this collection. |
+| [Clear](../../aspose.email/linkedresourcecollection/clear#clear_1)(bool) | Removes all elements from this collection. |
 | [Dispose](../../aspose.email/linkedresourcecollection/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [RemoveAt](../../aspose.email/linkedresourcecollection/removeat)(int, bool) | Removes the element at the specified index from this collection. |
+| [RemoveAt](../../aspose.email/linkedresourcecollection/removeat#removeat_1)(int, bool) | Removes the element at the specified index from this collection. |
 
 ### See Also
 

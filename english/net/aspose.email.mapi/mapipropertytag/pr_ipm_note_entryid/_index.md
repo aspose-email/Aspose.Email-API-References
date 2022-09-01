@@ -1,7 +1,7 @@
 ---
 title: PR_IPM_NOTE_ENTRYID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Outlook Notes folder.
 type: docs
 weight: 13160
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_note_entryid/

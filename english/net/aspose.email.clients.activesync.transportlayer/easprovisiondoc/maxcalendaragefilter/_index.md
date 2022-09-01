@@ -1,7 +1,7 @@
 ---
 title: MaxCalendarAgeFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum number of calendar days that can be synchronized. Valid values are listed bellow All days 2 weeks 1 month 3 months 6 months
 type: docs
 weight: 270
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/maxcalendaragefilter/

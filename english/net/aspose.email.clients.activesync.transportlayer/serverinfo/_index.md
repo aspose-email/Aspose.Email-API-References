@@ -1,7 +1,7 @@
 ---
 title: ServerInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Server settings in Autodiscover operation
 type: docs
 weight: 2030
 url: /net/aspose.email.clients.activesync.transportlayer/serverinfo/

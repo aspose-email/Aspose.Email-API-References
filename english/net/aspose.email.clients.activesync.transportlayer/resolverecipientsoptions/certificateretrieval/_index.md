@@ -1,7 +1,7 @@
 ---
 title: CertificateRetrieval
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether S/MIME certificates SHOULD be returned by the server for each resolved recipient.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/certificateretrieval/

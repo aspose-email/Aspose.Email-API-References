@@ -1,7 +1,7 @@
 ---
 title: DeleteAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes attachment
 type: docs
 weight: 190
 url: /net/aspose.email.clients.graph/igraphclient/deleteattachment/

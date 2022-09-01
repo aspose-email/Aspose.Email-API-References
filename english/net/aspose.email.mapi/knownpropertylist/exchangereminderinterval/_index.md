@@ -1,7 +1,7 @@
 ---
 title: ExchangeReminderInterval
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the time in seconds between reminders. Area Common Canonical name PidNameExchangeReminderInterval Alternate names http//schemas.microsoft.com/exchange/reminderinterval
 type: docs
 weight: 9890
 url: /net/aspose.email.mapi/knownpropertylist/exchangereminderinterval/

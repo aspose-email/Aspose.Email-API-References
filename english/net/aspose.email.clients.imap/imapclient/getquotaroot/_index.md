@@ -1,12 +1,12 @@
 ---
 title: GetQuotaRoot
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets quota root information for mailbox
 type: docs
 weight: 770
 url: /net/aspose.email.clients.imap/imapclient/getquotaroot/
 ---
-## ImapClient.GetQuotaRoot method (1 of 2)
+## GetQuotaRoot(IConnection, string) {#getquotaroot}
 
 Gets quota root information for mailbox
 
@@ -19,7 +19,7 @@ public ImapQuotaRoot[] GetQuotaRoot(IConnection connection, string mailboxName)
 | connection | IConnection | Connection to a server |
 | mailboxName | String | mailbox name |
 
-## Return Value
+### Return Value
 
 Quota root information for mailbox
 
@@ -33,7 +33,7 @@ Quota root information for mailbox
 
 ---
 
-## ImapClient.GetQuotaRoot method (2 of 2)
+## GetQuotaRoot(string) {#getquotaroot_1}
 
 Gets quota root information for mailbox
 
@@ -45,7 +45,7 @@ public ImapQuotaRoot[] GetQuotaRoot(string mailboxName)
 | --- | --- | --- |
 | mailboxName | String | mailbox name |
 
-## Return Value
+### Return Value
 
 Quota root information for mailbox
 

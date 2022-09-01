@@ -1,7 +1,7 @@
 ---
 title: DstFldId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server ID of the destination folder that is the folder to which the items are moved. The DstFldId property value can be up to 64 characters in length.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/moveitemdata/dstfldid/

@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the size of a file attachment.
 type: docs
 weight: 90
 url: /net/aspose.email.mime/contentdisposition/size/
@@ -14,7 +14,7 @@ Gets or sets the size of a file attachment.
 public long Size { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A Int32 that specifies the number of bytes in the file attachment.
 

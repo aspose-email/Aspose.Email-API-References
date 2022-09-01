@@ -1,12 +1,12 @@
 ---
 title: DelegateAccess
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Delegates access on the principal mailbox to the specified user.
 type: docs
 weight: 570
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/delegateaccess/
 ---
-## IEWSClient.DelegateAccess method (1 of 3)
+## DelegateAccess(string, ExchangeDelegateFolderPermissionLevel, string) {#delegateaccess_2}
 
 Delegates access on the principal mailbox to the specified user.
 
@@ -36,7 +36,7 @@ public void DelegateAccess(string delegateSmtpAddress,
 
 ---
 
-## IEWSClient.DelegateAccess method (2 of 3)
+## DelegateAccess(ExchangeDelegateUser, string) {#delegateaccess}
 
 Delegates access on the specified mailbox to the specified user.
 
@@ -65,7 +65,7 @@ public void DelegateAccess(ExchangeDelegateUser delegateUser, string mailbox)
 
 ---
 
-## IEWSClient.DelegateAccess method (3 of 3)
+## DelegateAccess(ExchangeDelegateUserCollection, string) {#delegateaccess_1}
 
 Delegates access on the mailbox to the specified users.
 

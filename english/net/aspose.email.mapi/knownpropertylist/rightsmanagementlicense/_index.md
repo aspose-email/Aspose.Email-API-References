@@ -1,7 +1,7 @@
 ---
 title: RightsManagementLicense
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the value used to cache the Use License for the rightsmanaged email message. Area Secure Messaging Properties Canonical name PidNameRightsManagementLicense Alternate names
 type: docs
 weight: 16300
 url: /net/aspose.email.mapi/knownpropertylist/rightsmanagementlicense/

@@ -1,7 +1,7 @@
 ---
 title: LastDelegate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the name of the mailboxs delegate who most recently assigned the task or an empty string if there is no delegate.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapitaskusers/lastdelegate/

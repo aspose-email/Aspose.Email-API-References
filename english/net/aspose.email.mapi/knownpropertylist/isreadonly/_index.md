@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: true if the System.Collections.Generic.ICollection is readonly otherwise false.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/knownpropertylist/isreadonly/

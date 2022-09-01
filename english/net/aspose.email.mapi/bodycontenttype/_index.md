@@ -1,9 +1,9 @@
 ---
 title: BodyContentType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The content type of message body.
 type: docs
-weight: 17590
+weight: 17770
 url: /net/aspose.email.mapi/bodycontenttype/
 ---
 ## BodyContentType enumeration
@@ -14,7 +14,7 @@ The content type of message body.
 public enum BodyContentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

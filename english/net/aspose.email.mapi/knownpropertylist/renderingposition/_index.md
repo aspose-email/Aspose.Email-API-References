@@ -1,7 +1,7 @@
 ---
 title: RenderingPosition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an offset in rendered characters to use when rendering an attachment within the main message text. Area MapiAttachment Canonical name PidTagRenderingPosition Alternate names PR_RENDERING_POSITION ptagRenderingPosition
 type: docs
 weight: 15830
 url: /net/aspose.email.mapi/knownpropertylist/renderingposition/

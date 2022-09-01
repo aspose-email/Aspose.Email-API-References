@@ -1,7 +1,7 @@
 ---
 title: IsFolderVisible
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether a user can view a folder.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange/exchangebasepermission/isfoldervisible/

@@ -1,12 +1,12 @@
 ---
 title: DeleteFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the folder
 type: docs
 weight: 600
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/deletefolder/
 ---
-## IEWSClient.DeleteFolder method (1 of 2)
+## DeleteFolder(string) {#deletefolder}
 
 Deletes the folder
 
@@ -26,7 +26,7 @@ public void DeleteFolder(string folderUri)
 
 ---
 
-## IEWSClient.DeleteFolder method (2 of 2)
+## DeleteFolder(string, bool) {#deletefolder_1}
 
 Deletes the folder
 

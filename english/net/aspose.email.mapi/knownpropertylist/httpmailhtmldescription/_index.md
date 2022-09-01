@@ -1,7 +1,7 @@
 ---
 title: HttpmailHtmlDescription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the HTML content of the message. Area Common Canonical name PidNameHttpmailHtmlDescription Alternate names urnschemashttpmailhtmldescription
 type: docs
 weight: 11120
 url: /net/aspose.email.mapi/knownpropertylist/httpmailhtmldescription/

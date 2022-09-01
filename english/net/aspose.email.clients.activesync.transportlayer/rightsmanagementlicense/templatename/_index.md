@@ -1,7 +1,7 @@
 ---
 title: TemplateName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the name of the rights policy template represented by the parent RightsManagementLicense element. This element is used for informational presentation purposes only. The maximum length of the TemplateName element is 256 characters.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/templatename/

@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets height of the visible message window in pixels
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapinote/height/

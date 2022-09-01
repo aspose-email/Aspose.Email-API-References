@@ -1,7 +1,7 @@
 ---
 title: BrotherValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Brother category
 type: docs
 weight: 230
 url: /net/aspose.email.personalinfo/associatedpersoncategory/brothervalue/

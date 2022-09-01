@@ -1,9 +1,9 @@
 ---
 title: MapiSensitivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a values that indicates the message sensitivity.
 type: docs
-weight: 20000
+weight: 20230
 url: /net/aspose.email.storage.pst/mapisensitivity/
 ---
 ## MapiSensitivity enumeration
@@ -14,7 +14,7 @@ Contains a values that indicates the message sensitivity.
 public enum MapiSensitivity
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

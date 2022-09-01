@@ -1,7 +1,7 @@
 ---
 title: AllowBluetooth
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the use of Bluetooth on the device.
 type: docs
 weight: 1000
 url: /net/aspose.email.clients.activesync.transportlayer/allowbluetooth/
@@ -14,7 +14,7 @@ Specifies the use of Bluetooth on the device.
 public enum AllowBluetooth
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

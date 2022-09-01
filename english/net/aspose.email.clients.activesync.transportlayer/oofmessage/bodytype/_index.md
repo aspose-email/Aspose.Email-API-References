@@ -1,7 +1,7 @@
 ---
 title: BodyType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the format of the OOF message. The following are the permitted values for the BodyType element  Text  HTML
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/oofmessage/bodytype/

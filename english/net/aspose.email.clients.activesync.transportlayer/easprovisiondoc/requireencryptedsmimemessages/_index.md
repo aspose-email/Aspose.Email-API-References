@@ -1,7 +1,7 @@
 ---
 title: RequireEncryptedSMIMEMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the client sends encrypted email messages.
 type: docs
 weight: 370
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requireencryptedsmimemessages/

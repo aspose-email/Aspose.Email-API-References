@@ -1,7 +1,7 @@
 ---
 title: And
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the keywords to use for matching the entries in the store that is being searched.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/searchquery/and/

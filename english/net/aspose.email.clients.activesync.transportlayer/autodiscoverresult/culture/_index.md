@@ -1,7 +1,7 @@
 ---
 title: Culture
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the client culture which is used to localize error messages.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/autodiscoverresult/culture/

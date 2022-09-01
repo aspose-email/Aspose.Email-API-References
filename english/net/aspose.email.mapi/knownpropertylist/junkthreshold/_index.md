@@ -1,7 +1,7 @@
 ---
 title: JunkThreshold
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates how aggressively incoming email is to be sent to the Junk Email folder. Area Spam Canonical name PidTagJunkThreshold Alternate names PR_JUNK_THRESHOLD
 type: docs
 weight: 11910
 url: /net/aspose.email.mapi/knownpropertylist/junkthreshold/

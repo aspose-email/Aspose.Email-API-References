@@ -1,7 +1,7 @@
 ---
 title: RemoteStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the remote status of the calendar item. Area Runtime configuration Canonical name PidLidRemoteStatus Alternate names dispidRemoteStatus
 type: docs
 weight: 15810
 url: /net/aspose.email.mapi/knownpropertylist/remotestatus/

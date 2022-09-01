@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the type of the content.
 type: docs
 weight: 30
 url: /net/aspose.email/attachmentbase/contenttype/
@@ -14,7 +14,7 @@ Gets or sets the type of the content.
 public ContentType ContentType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the content.
 

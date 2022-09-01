@@ -1,9 +1,9 @@
 ---
 title: TokenProvider
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Class TokenProvider allows to retrieve access token for mail services.
 type: docs
-weight: 16950
+weight: 17120
 url: /net/aspose.email.clients/tokenprovider/
 ---
 ## TokenProvider class
@@ -33,8 +33,8 @@ public class TokenProvider : ITokenProvider
 | --- | --- |
 | static [GetInstance](../../aspose.email.clients/tokenprovider/getinstance)(string, string, string, string) | Gets an instance of the OutlookTokenProvider for defined parameters. |
 | virtual [Dispose](../../aspose.email.clients/tokenprovider/dispose)() | Performs releasing resources. |
-| virtual [GetAccessToken](../../aspose.email.clients/tokenprovider/getaccesstoken)() | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
-| virtual [GetAccessToken](../../aspose.email.clients/tokenprovider/getaccesstoken)(bool) | Gets oAuth access token. |
+| virtual [GetAccessToken](../../aspose.email.clients/tokenprovider/getaccesstoken#getaccesstoken)() | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
+| virtual [GetAccessToken](../../aspose.email.clients/tokenprovider/getaccesstoken#getaccesstoken_1)(bool) | Gets oAuth access token. |
 
 ## Other Members
 

@@ -1,12 +1,12 @@
 ---
 title: ListAppointments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves list of appointments for default calendar folder
 type: docs
 weight: 1070
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listappointments/
 ---
-## IEWSClient.ListAppointments method (1 of 8)
+## ListAppointments() {#listappointments}
 
 Retrieves list of appointments for default calendar folder
 
@@ -14,7 +14,7 @@ Retrieves list of appointments for default calendar folder
 public Appointment[] ListAppointments()
 ```
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 
@@ -27,7 +27,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (2 of 8)
+## ListAppointments(string) {#listappointments_4}
 
 Retrieves list of appointments for specified calendar folder
 
@@ -39,7 +39,7 @@ public Appointment[] ListAppointments(string folderUri)
 | --- | --- | --- |
 | folderUri | String | A folder to search appointments in. |
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 
@@ -52,7 +52,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (3 of 8)
+## ListAppointments(string, bool) {#listappointments_7}
 
 Retrieves list of appointments for specified calendar folder
 
@@ -65,7 +65,7 @@ public Appointment[] ListAppointments(string folderUri, bool recursive)
 | folderUri | String | A folder to search appointments in. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 
@@ -78,7 +78,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (4 of 8)
+## ListAppointments(bool) {#listappointments_3}
 
 Retrieves list of appointments for default calendar folder
 
@@ -90,7 +90,7 @@ public Appointment[] ListAppointments(bool recursive)
 | --- | --- | --- |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 
@@ -103,7 +103,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (5 of 8)
+## ListAppointments(MailQuery) {#listappointments_1}
 
 Retrieves list of appointments for default calendar folder
 
@@ -115,7 +115,7 @@ public Appointment[] ListAppointments(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 
@@ -129,7 +129,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (6 of 8)
+## ListAppointments(string, MailQuery) {#listappointments_5}
 
 Retrieves list of appointments for specified calendar folder
 
@@ -142,7 +142,7 @@ public Appointment[] ListAppointments(string folderUri, MailQuery query)
 | folderUri | String | A folder to search appointments in. |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 
@@ -156,7 +156,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (7 of 8)
+## ListAppointments(MailQuery, bool) {#listappointments_2}
 
 Retrieves list of appointments for default calendar folder
 
@@ -169,7 +169,7 @@ public Appointment[] ListAppointments(MailQuery query, bool recursive)
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 
@@ -183,7 +183,7 @@ Returns array of appointments
 
 ---
 
-## IEWSClient.ListAppointments method (8 of 8)
+## ListAppointments(string, MailQuery, bool) {#listappointments_6}
 
 Retrieves list of appointments for specified calendar folder
 
@@ -197,7 +197,7 @@ public Appointment[] ListAppointments(string folderUri, MailQuery query, bool re
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents appointments search criteria. |
 | recursive | Boolean | Indicates whether recursive listing or not. |
 
-## Return Value
+### Return Value
 
 Returns array of appointments
 

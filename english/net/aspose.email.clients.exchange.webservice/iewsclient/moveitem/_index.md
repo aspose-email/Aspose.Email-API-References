@@ -1,7 +1,7 @@
 ---
 title: MoveItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the item to specified folder
 type: docs
 weight: 1290
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/moveitem/
@@ -19,7 +19,7 @@ public string MoveItem(string itemUri, string destinationFolderUri)
 | itemUri | String | The item URI |
 | destinationFolderUri | String | The destination folder URI |
 
-## Return Value
+### Return Value
 
 An uri of the moved message
 

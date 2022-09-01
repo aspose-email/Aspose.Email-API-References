@@ -1,7 +1,7 @@
 ---
 title: ResolveRecipientsResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information as to whether the recipient was resolved. If the recipient was resolved the it also contains the type of recipient the email address that the recipient resolved to and optionally the S/MIME certificate for the recipient.
 type: docs
 weight: 1870
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/

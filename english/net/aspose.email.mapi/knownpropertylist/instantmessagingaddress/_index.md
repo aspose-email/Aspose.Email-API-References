@@ -1,7 +1,7 @@
 ---
 title: InstantMessagingAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the instant messaging address of the contact. Area Contact Properties Canonical name PidLidInstantMessagingAddress Alternate names dispidInstMsg
 type: docs
 weight: 11380
 url: /net/aspose.email.mapi/knownpropertylist/instantmessagingaddress/

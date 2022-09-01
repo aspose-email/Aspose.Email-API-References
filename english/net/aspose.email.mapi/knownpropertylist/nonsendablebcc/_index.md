@@ -1,7 +1,7 @@
 ---
 title: NonSendableBcc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of all of the unsendable attendees who are also resources. Area Meetings Canonical name PidLidNonSendableBcc Alternate names dispidNonSendableBCC
 type: docs
 weight: 13010
 url: /net/aspose.email.mapi/knownpropertylist/nonsendablebcc/

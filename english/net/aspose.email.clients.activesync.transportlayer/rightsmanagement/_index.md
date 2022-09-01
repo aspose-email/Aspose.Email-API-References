@@ -1,7 +1,7 @@
 ---
 title: RightsManagement
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: RightsManagement namespace of the ActiveSync protocol
 type: docs
 weight: 1880
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagement/
@@ -14,7 +14,7 @@ RightsManagement namespace of the ActiveSync protocol
 public enum RightsManagement
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

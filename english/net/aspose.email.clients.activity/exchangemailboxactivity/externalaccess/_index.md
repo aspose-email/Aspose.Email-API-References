@@ -1,7 +1,7 @@
 ---
 title: ExternalAccess
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This is true if the logon users domain is different from the mailbox owners domain.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/externalaccess/

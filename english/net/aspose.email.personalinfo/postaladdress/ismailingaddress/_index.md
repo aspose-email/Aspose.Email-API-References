@@ -1,7 +1,7 @@
 ---
 title: IsMailingAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value which defines whether address may be used for mailing.
 type: docs
 weight: 70
 url: /net/aspose.email.personalinfo/postaladdress/ismailingaddress/

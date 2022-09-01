@@ -1,7 +1,7 @@
 ---
 title: SetBodyRtf
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the RTF formatted message text.
 type: docs
 weight: 240
 url: /net/aspose.email.mapi/mapimessageitembase/setbodyrtf/

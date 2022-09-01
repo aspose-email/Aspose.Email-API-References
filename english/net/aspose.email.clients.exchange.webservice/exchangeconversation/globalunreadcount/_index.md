@@ -1,7 +1,7 @@
 ---
 title: GlobalUnreadCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a count of all the unread conversation items in the mailbox.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globalunreadcount/

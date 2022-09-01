@@ -1,7 +1,7 @@
 ---
 title: ModifiedProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Modified property
 type: docs
 weight: 2630
 url: /net/aspose.email.clients.activity/modifiedproperty/

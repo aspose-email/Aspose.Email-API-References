@@ -1,7 +1,7 @@
 ---
 title: Workload
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets Office 365 service where the activity occurred. Mandatory No
 type: docs
 weight: 180
 url: /net/aspose.email.clients.activity/record/workload/

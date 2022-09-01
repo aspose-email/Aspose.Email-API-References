@@ -1,12 +1,12 @@
 ---
 title: MoveMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the message.
 type: docs
 weight: 330
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/movemessage/
 ---
-## ExchangeClient.MoveMessage method (1 of 4)
+## MoveMessage(ExchangeMessageInfo, string) {#movemessage}
 
 Moves the message.
 
@@ -28,7 +28,7 @@ public void MoveMessage(ExchangeMessageInfo msgInfo, string destinationFolderUri
 
 ---
 
-## ExchangeClient.MoveMessage method (2 of 4)
+## MoveMessage(ExchangeMessageInfo, string, bool) {#movemessage_1}
 
 Moves the message.
 
@@ -51,7 +51,7 @@ public void MoveMessage(ExchangeMessageInfo msgInfo, string destinationFolderUri
 
 ---
 
-## ExchangeClient.MoveMessage method (3 of 4)
+## MoveMessage(string, string) {#movemessage_3}
 
 Moves the message.
 
@@ -72,7 +72,7 @@ public void MoveMessage(string destinationFolderUri, string messageUri)
 
 ---
 
-## ExchangeClient.MoveMessage method (4 of 4)
+## MoveMessage(string, bool, string) {#movemessage_2}
 
 Moves the message.
 

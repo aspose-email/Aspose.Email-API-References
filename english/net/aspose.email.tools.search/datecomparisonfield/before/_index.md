@@ -1,12 +1,12 @@
 ---
 title: Before
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the date in message must be earlier than the specified date.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.search/datecomparisonfield/before/
 ---
-## DateComparisonField.Before method (1 of 2)
+## Before(DateTime) {#before}
 
 Indicates that the date in message must be earlier than the specified date.
 
@@ -18,7 +18,7 @@ public MailQuery Before(DateTime value)
 | --- | --- | --- |
 | value | DateTime | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -31,7 +31,7 @@ public MailQuery Before(DateTime value)
 
 ---
 
-## DateComparisonField.Before method (2 of 2)
+## Before(DateTime, DateComparisonType) {#before_1}
 
 Indicates that the date in message must be earlier than the specified date.
 
@@ -44,7 +44,7 @@ public MailQuery Before(DateTime value, DateComparisonType comparisonType)
 | value | DateTime | The value. |
 | comparisonType | DateComparisonType | Specifies a type of comparison |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

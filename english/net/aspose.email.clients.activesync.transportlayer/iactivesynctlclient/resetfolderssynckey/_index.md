@@ -1,7 +1,7 @@
 ---
 title: ResetFoldersSyncKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reset SyncKey for operations with folders
 type: docs
 weight: 170
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/resetfolderssynckey/

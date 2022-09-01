@@ -1,7 +1,7 @@
 ---
 title: Ping
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Ping namespace of the ActiveSync protocol
 type: docs
 weight: 1690
 url: /net/aspose.email.clients.activesync.transportlayer/ping/
@@ -14,7 +14,7 @@ Ping namespace of the ActiveSync protocol
 public enum Ping
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

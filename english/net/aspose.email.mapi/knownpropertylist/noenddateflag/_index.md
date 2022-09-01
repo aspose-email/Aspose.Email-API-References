@@ -1,7 +1,7 @@
 ---
 title: NoEndDateFlag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the recurrence pattern has an end date. Area Calendar Canonical name PidLidNoEndDateFlag Alternate names http//schemas.microsoft.com/mapi/fnoenddate
 type: docs
 weight: 12940
 url: /net/aspose.email.mapi/knownpropertylist/noenddateflag/

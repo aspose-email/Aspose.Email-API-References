@@ -1,7 +1,7 @@
 ---
 title: ToDoOrdinalDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the current time in UTC which is used to determine the sort order of objects in a consolidated todo list. Area Tasks Canonical name PidLidToDoOrdinalDate Alternate names dispidToDoOrdinalDate
 type: docs
 weight: 19040
 url: /net/aspose.email.mapi/knownpropertylist/todoordinaldate/

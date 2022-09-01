@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets message subject
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/imapimessageitem/subject/

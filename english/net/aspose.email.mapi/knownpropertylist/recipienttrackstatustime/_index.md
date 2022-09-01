@@ -1,7 +1,7 @@
 ---
 title: RecipientTrackStatusTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the date and time at which the attendee responded. Area TransportRecipient Canonical name PidTagRecipientTrackStatusTime Alternate names PR_RECIPIENT_TRACKSTATUS_TIME ptagRecipientTrackStatusTime
 type: docs
 weight: 15550
 url: /net/aspose.email.mapi/knownpropertylist/recipienttrackstatustime/

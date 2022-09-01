@@ -1,7 +1,7 @@
 ---
 title: SetMeteredKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets metered public and private key
 type: docs
 weight: 20
 url: /net/aspose.email/metered/setmeteredkey/

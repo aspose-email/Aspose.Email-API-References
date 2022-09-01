@@ -1,7 +1,7 @@
 ---
 title: EmsAbVoiceMailRecordingLength
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_VOICE_MAIL_RECORDING_LENGTH
 type: docs
 weight: 9510
 url: /net/aspose.email.mapi/knownpropertylist/emsabvoicemailrecordinglength/

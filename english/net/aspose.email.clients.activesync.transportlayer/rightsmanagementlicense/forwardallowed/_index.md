@@ -1,7 +1,7 @@
 ---
 title: ForwardAllowed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the user can forward the email message. The value is TRUE if the user can forward the email message otherwise FALSE.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/forwardallowed/

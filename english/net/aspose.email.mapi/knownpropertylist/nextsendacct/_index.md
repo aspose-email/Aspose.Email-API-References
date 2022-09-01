@@ -1,7 +1,7 @@
 ---
 title: NextSendAcct
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server that a client is currently attempting to use to send email. Area Outlook Application Canonical name PidTagNextSendAcct Alternate names PR_NEXT_SEND_ACCT
 type: docs
 weight: 12890
 url: /net/aspose.email.mapi/knownpropertylist/nextsendacct/

@@ -1,7 +1,7 @@
 ---
 title: CopyMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copy a Message to another mailfolder.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.graph/igraphclient/copymessage/
@@ -19,7 +19,7 @@ public MapiMessage CopyMessage(string newParentId, string itemId)
 | newParentId | String | New parent folder id |
 | itemId | String | Item id to be copied |
 
-## Return Value
+### Return Value
 
 Copied message
 

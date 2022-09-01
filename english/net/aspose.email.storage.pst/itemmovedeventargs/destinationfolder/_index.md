@@ -1,7 +1,7 @@
 ---
 title: DestinationFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the destination folder.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/itemmovedeventargs/destinationfolder/
@@ -14,7 +14,7 @@ Gets the destination folder.
 public FolderInfo DestinationFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The destination folder.
 

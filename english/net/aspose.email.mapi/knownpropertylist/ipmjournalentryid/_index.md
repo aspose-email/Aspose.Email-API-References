@@ -1,7 +1,7 @@
 ---
 title: IpmJournalEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Journal folder. Area Folder Properties Canonical name PidTagIpmJournalEntryId Alternate names PR_IPM_JOURNAL_ENTRYID
 type: docs
 weight: 11670
 url: /net/aspose.email.mapi/knownpropertylist/ipmjournalentryid/

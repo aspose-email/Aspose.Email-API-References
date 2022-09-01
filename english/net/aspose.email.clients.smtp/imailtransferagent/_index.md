@@ -1,9 +1,9 @@
 ---
 title: IMailTransferAgent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides the base interface for mail transfer agents.
 type: docs
-weight: 16830
+weight: 16980
 url: /net/aspose.email.clients.smtp/imailtransferagent/
 ---
 ## IMailTransferAgent interface

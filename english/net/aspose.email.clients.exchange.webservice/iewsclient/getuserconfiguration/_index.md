@@ -1,7 +1,7 @@
 ---
 title: GetUserConfiguration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the specified user configuration
 type: docs
 weight: 1040
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getuserconfiguration/
@@ -18,7 +18,7 @@ public UserConfiguration GetUserConfiguration(UserConfigurationName userConfigur
 | --- | --- | --- |
 | userConfigurationName | UserConfigurationName | Specifies a user configuration to search |
 
-## Return Value
+### Return Value
 
 A received [`UserConfiguration`](../../userconfiguration)
 

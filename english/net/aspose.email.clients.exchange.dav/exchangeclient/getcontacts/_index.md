@@ -1,7 +1,7 @@
 ---
 title: GetContacts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists contacts located in the specified folder on server
 type: docs
 weight: 200
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/getcontacts/
@@ -18,7 +18,7 @@ public Contact[] GetContacts(string folderUri)
 | --- | --- | --- |
 | folderUri | String | The URI of folder |
 
-## Return Value
+### Return Value
 
 An array of read [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 

@@ -1,7 +1,7 @@
 ---
 title: AllowDesktopSync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows synchronization with Desktop ActiveSync. This property SHOULD be ignored if the client does not support connecting to a personal computer.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowdesktopsync/

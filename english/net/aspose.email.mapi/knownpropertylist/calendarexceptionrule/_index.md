@@ -1,7 +1,7 @@
 ---
 title: CalendarExceptionRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies an exception rule for a recurring appointment. Area Common Canonical name PidNameCalendarExceptionRule Alternate names urnschemascalendarexrule
 type: docs
 weight: 2260
 url: /net/aspose.email.mapi/knownpropertylist/calendarexceptionrule/

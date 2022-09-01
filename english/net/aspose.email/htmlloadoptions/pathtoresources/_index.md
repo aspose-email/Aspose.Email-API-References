@@ -1,7 +1,7 @@
 ---
 title: PathToResources
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Path to directory with resources files.
 type: docs
 weight: 20
 url: /net/aspose.email/htmlloadoptions/pathtoresources/

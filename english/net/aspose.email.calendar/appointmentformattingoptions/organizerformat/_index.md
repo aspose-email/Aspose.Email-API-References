@@ -1,7 +1,7 @@
 ---
 title: OrganizerFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the organizer format.
 type: docs
 weight: 80
 url: /net/aspose.email.calendar/appointmentformattingoptions/organizerformat/
@@ -14,7 +14,7 @@ Gets or sets the organizer format.
 public string OrganizerFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The organizer format.
 

@@ -1,7 +1,7 @@
 ---
 title: InboxUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the inbox uri.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/exchangemailboxinfo/inboxuri/

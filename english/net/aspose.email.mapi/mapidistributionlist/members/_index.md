@@ -1,7 +1,7 @@
 ---
 title: Members
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the list of the members of the personal distribution list.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapidistributionlist/members/
@@ -14,7 +14,7 @@ Gets the list of the members of the personal distribution list.
 public MapiDistributionListMemberCollection Members { get; }
 ```
 
-## Property Value
+### Property Value
 
 The collection of MapiDistributionListMember.
 

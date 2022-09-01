@@ -1,7 +1,7 @@
 ---
 title: HeartbeatInterval
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of seconds that the server SHOULD delay a response if no new items are added to the included folders. Valid values for HeartbeatInterval are 60 through 3540 seconds 59 minutes. When the client requests an interval that is outside the acceptable range the server will send a response that includes a Status value of 14 and a Limit element. Either the HeartbeatInterval or the Wait can be included in a Sync command request but not both. If both elements are included the server response will contain a Status value of 4.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/syncrequest/heartbeatinterval/

@@ -1,7 +1,7 @@
 ---
 title: CalendarMonth
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a calendar month.
 type: docs
 weight: 680
 url: /net/aspose.email.calendar.recurrences/calendarmonth/
@@ -14,7 +14,7 @@ Represents a calendar month.
 public enum CalendarMonth
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

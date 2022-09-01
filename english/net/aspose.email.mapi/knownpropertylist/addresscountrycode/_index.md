@@ -1,7 +1,7 @@
 ---
 title: AddressCountryCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the country code portion of the mailing address of the contact. Area Contact Properties Canonical name PidLidAddressCountryCode Alternate names dispidAddressCountryCode
 type: docs
 weight: 1010
 url: /net/aspose.email.mapi/knownpropertylist/addresscountrycode/

@@ -1,7 +1,7 @@
 ---
 title: ContactCharacterSet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the character set used for a Contact object. Area Contact Properties Canonical name PidLidContactCharacterSet Alternate names dispidContactCharSet
 type: docs
 weight: 2900
 url: /net/aspose.email.mapi/knownpropertylist/contactcharacterset/

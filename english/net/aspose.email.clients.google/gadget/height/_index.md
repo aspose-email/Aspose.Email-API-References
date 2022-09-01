@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The gadgets height in pixels.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/gadget/height/

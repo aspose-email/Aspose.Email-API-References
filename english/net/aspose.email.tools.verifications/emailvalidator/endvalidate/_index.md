@@ -1,7 +1,7 @@
 ---
 title: EndValidate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Ends an asynchronous validating process for an email address.
 type: docs
 weight: 80
 url: /net/aspose.email.tools.verifications/emailvalidator/endvalidate/

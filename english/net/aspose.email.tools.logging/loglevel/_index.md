@@ -1,9 +1,9 @@
 ---
 title: LogLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines available log levels.
 type: docs
-weight: 20310
+weight: 20540
 url: /net/aspose.email.tools.logging/loglevel/
 ---
 ## LogLevel class
@@ -25,16 +25,16 @@ public class LogLevel
 | [operator &lt;](../../aspose.email.tools.logging/loglevel/op_lessthan) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is less than the second one. |
 | [operator &lt;=](../../aspose.email.tools.logging/loglevel/op_lessthanorequal) | Compares two [`LogLevel`](../loglevel) objects and returns a value indicating whether the first one is less than or equal to the second one. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| static readonly [Debug](debug) | The Debug level. |
-| static readonly [Error](error) | The Error level. |
-| static readonly [Fatal](fatal) | The Fatal level. |
-| static readonly [Information](information) | The Info level. |
-| static readonly [Trace](trace) | The Trace level. |
-| static readonly [Warning](warning) | The Warn level. |
+| static readonly [Debug](../../aspose.email.tools.logging/loglevel/debug) | The Debug level. |
+| static readonly [Error](../../aspose.email.tools.logging/loglevel/error) | The Error level. |
+| static readonly [Fatal](../../aspose.email.tools.logging/loglevel/fatal) | The Fatal level. |
+| static readonly [Information](../../aspose.email.tools.logging/loglevel/information) | The Info level. |
+| static readonly [Trace](../../aspose.email.tools.logging/loglevel/trace) | The Trace level. |
+| static readonly [Warning](../../aspose.email.tools.logging/loglevel/warning) | The Warn level. |
 
 ### See Also
 

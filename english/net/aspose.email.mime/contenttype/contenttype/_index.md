@@ -1,12 +1,12 @@
 ---
 title: ContentType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ContentTypeaspose.email.mime/contenttype class.
 type: docs
 weight: 10
 url: /net/aspose.email.mime/contenttype/contenttype/
 ---
-## ContentType constructor (1 of 2)
+## ContentType() {#constructor}
 
 Initializes a new instance of the [`ContentType`](../../contenttype) class.
 
@@ -22,7 +22,7 @@ public ContentType()
 
 ---
 
-## ContentType constructor (2 of 2)
+## ContentType(string) {#constructor_1}
 
 Initializes a new instance of the [`ContentType`](../../contenttype) class.
 

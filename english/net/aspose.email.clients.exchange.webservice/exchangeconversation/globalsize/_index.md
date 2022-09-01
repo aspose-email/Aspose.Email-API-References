@@ -1,7 +1,7 @@
 ---
 title: GlobalSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the size of the conversation calculated from the size of all conversation items in the mailbox.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globalsize/

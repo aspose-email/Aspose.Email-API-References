@@ -1,7 +1,7 @@
 ---
 title: DepartmentName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the name of the department to which the contact belongs
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/departmentname/

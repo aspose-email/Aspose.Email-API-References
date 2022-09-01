@@ -1,7 +1,7 @@
 ---
 title: AccountId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the account from which an email is sent. If the AccountId is null the server sends the email using the account identified by the settingsPrimarySmtpAddress returned in the Settings command response. If AccountId is included in the request the value MUST equal one of the settingsAccountId element values included in the Settings command response. The server MUST validate that the AccountId element value provided is valid for sending email. A Status value of 166 is returned if the AccountId element value is not valid. A Status element value of 167 is returned if the account does not support sending email. Note The server sends the email using the account specified by the AccountId and not the account specified by the From. The AccountId element is not supported when the protocol version is 12.1 or 14.0. Exchange 2007 returns Status value 103 if the AccountId element is included in a SendMail command request a SmartForward command request or a SmartReply command request.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequest/accountid/

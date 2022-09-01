@@ -1,12 +1,12 @@
 ---
 title: MoveMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the messaeg
 type: docs
 weight: 940
 url: /net/aspose.email.clients.imap/imapclient/movemessageasync/
 ---
-## ImapClient.MoveMessageAsync method (1 of 16)
+## MoveMessageAsync(IConnection, int, string, bool) {#movemessageasync_1}
 
 Moves the messaeg
 
@@ -22,7 +22,7 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -35,7 +35,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (2 of 16)
+## MoveMessageAsync(IConnection, string, string, bool) {#movemessageasync_5}
 
 Moves the message
 
@@ -51,7 +51,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -64,7 +64,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (3 of 16)
+## MoveMessageAsync(int, string, bool) {#movemessageasync_9}
 
 Moves the message
 
@@ -78,7 +78,7 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -90,7 +90,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (4 of 16)
+## MoveMessageAsync(string, string, bool) {#movemessageasync_13}
 
 Moves the message
 
@@ -104,7 +104,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool co
 | folderName | String | Folder name where a message is to be moved |
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -116,7 +116,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (5 of 16)
+## MoveMessageAsync(IConnection, int, string) {#movemessageasync}
 
 Moves the messaeg
 
@@ -130,7 +130,7 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | sequenceNumber | Int32 | The sequence number of the message |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -143,7 +143,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (6 of 16)
+## MoveMessageAsync(IConnection, string, string) {#movemessageasync_4}
 
 Moves the message
 
@@ -157,7 +157,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 | uniqueId | String | The uid of the message |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -170,7 +170,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (7 of 16)
+## MoveMessageAsync(int, string) {#movemessageasync_8}
 
 Moves the message
 
@@ -183,7 +183,7 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName)
 | sequenceNumber | Int32 | The sequence number of the message |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -195,7 +195,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (8 of 16)
+## MoveMessageAsync(string, string) {#movemessageasync_12}
 
 Moves the message
 
@@ -208,7 +208,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName)
 | uniqueId | String | The uid of the message |
 | folderName | String | Folder name where a message is to be moved |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -220,7 +220,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (9 of 16)
+## MoveMessageAsync(IConnection, int, string, bool, CancellationToken) {#movemessageasync_2}
 
 Moves the messaeg
 
@@ -237,7 +237,7 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -250,7 +250,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (10 of 16)
+## MoveMessageAsync(IConnection, string, string, bool, CancellationToken) {#movemessageasync_6}
 
 Moves the message
 
@@ -267,7 +267,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -280,7 +280,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (11 of 16)
+## MoveMessageAsync(int, string, bool, CancellationToken) {#movemessageasync_10}
 
 Moves the message
 
@@ -296,7 +296,7 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, bool
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -308,7 +308,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (12 of 16)
+## MoveMessageAsync(string, string, bool, CancellationToken) {#movemessageasync_14}
 
 Moves the message
 
@@ -324,7 +324,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, bool co
 | commitDeletions | Boolean | Specifies whether deletions should be committed. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -336,7 +336,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (13 of 16)
+## MoveMessageAsync(IConnection, int, string, CancellationToken) {#movemessageasync_3}
 
 Moves the messaeg
 
@@ -352,7 +352,7 @@ public Task<string> MoveMessageAsync(IConnection connection, int sequenceNumber,
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -365,7 +365,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (14 of 16)
+## MoveMessageAsync(IConnection, string, string, CancellationToken) {#movemessageasync_7}
 
 Moves the message
 
@@ -381,7 +381,7 @@ public Task<string> MoveMessageAsync(IConnection connection, string uniqueId, st
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -394,7 +394,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (15 of 16)
+## MoveMessageAsync(int, string, CancellationToken) {#movemessageasync_11}
 
 Moves the message
 
@@ -408,7 +408,7 @@ public Task<string> MoveMessageAsync(int sequenceNumber, string folderName, Canc
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -420,7 +420,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.MoveMessageAsync method (16 of 16)
+## MoveMessageAsync(string, string, CancellationToken) {#movemessageasync_15}
 
 Moves the message
 
@@ -434,7 +434,7 @@ public Task<string> MoveMessageAsync(string uniqueId, string folderName, Cancell
 | folderName | String | Folder name where a message is to be moved |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

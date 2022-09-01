@@ -1,7 +1,7 @@
 ---
 title: ReceivedRepresentingAddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the email address type for the end user represented by the receiving mailbox owner. Area Address Properties Canonical name PidTagReceivedRepresentingAddressType Alternate names PR_RCVD_REPRESENTING_ADDRTYPE PR_RCVD_REPRESENTING_ADDRTYPE_A ptagRcvdRepresentingAddrType PR_RCVD_REPRESENTING_ADDRTYPE_W
 type: docs
 weight: 15330
 url: /net/aspose.email.mapi/knownpropertylist/receivedrepresentingaddresstype/

@@ -1,7 +1,7 @@
 ---
 title: AppointmentDuration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the length of the event in minutes. Area Calendar Canonical name PidLidAppointmentDuration Alternate names dispidApptDuration
 type: docs
 weight: 1140
 url: /net/aspose.email.mapi/knownpropertylist/appointmentduration/

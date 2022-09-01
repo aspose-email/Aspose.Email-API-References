@@ -1,7 +1,7 @@
 ---
 title: AppDomainName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The AppDomain in which we are running
 type: docs
 weight: 20
 url: /net/aspose.email.tools.logging/logentry/appdomainname/

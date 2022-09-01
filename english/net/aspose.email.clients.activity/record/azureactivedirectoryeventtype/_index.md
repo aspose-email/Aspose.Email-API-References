@@ -1,7 +1,7 @@
 ---
 title: AzureActiveDirectoryEventType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets type of Azure AD event. Mandatory Yes
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/record/azureactivedirectoryeventtype/

@@ -1,7 +1,7 @@
 ---
 title: TaskDeadOccurrence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether new occurrences remain to be generated. Area Tasks Canonical name PidLidTaskDeadOccurrence Alternate names dispidTaskDeadOccur
 type: docs
 weight: 18610
 url: /net/aspose.email.mapi/knownpropertylist/taskdeadoccurrence/

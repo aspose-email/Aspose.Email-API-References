@@ -1,7 +1,7 @@
 ---
 title: Anniversary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Anniversary header.
 type: docs
 weight: 10
 url: /net/aspose.email/mhttemplatename.contact/anniversary/

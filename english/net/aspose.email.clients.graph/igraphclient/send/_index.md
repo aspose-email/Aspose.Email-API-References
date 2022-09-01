@@ -1,12 +1,12 @@
 ---
 title: Send
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Send a message in the draft folder. The draft message can be a new message draft reply draft replyall draft or a forward draft. The message is then saved in the Sent Items folder.
 type: docs
 weight: 360
 url: /net/aspose.email.clients.graph/igraphclient/send/
 ---
-## IGraphClient.Send method (1 of 3)
+## Send(string) {#send_2}
 
 Send a message in the draft folder. The draft message can be a new message draft, reply draft, reply-all draft, or a forward draft. The message is then saved in the Sent Items folder.
 
@@ -26,7 +26,7 @@ public void Send(string itemId)
 
 ---
 
-## IGraphClient.Send method (2 of 3)
+## Send(MapiMessage) {#send}
 
 Sends email message
 
@@ -47,7 +47,7 @@ public void Send(MapiMessage message)
 
 ---
 
-## IGraphClient.Send method (3 of 3)
+## Send(MapiMessage, bool) {#send_1}
 
 Sends email message
 

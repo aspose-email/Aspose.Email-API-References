@@ -1,7 +1,7 @@
 ---
 title: Relative
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Relative
 type: docs
 weight: 140
 url: /net/aspose.email.personalinfo/associatedpersoncategory/relative/

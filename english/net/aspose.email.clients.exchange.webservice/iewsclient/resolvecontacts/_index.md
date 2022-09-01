@@ -1,12 +1,12 @@
 ---
 title: ResolveContacts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Resolves ambiguous mailbox display names. Note the maximum count of returned contacts is 100. This is a restriction of used exchange command.
 type: docs
 weight: 1370
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/resolvecontacts/
 ---
-## IEWSClient.ResolveContacts method (1 of 2)
+## ResolveContacts(string) {#resolvecontacts}
 
 Resolves ambiguous mailbox display names. Note: the maximum count of returned contacts is 100. This is a restriction of used exchange command.
 
@@ -18,7 +18,7 @@ public Contact[] ResolveContacts(string unresolvedEntry)
 | --- | --- | --- |
 | unresolvedEntry | String | A name of contact to resolve. |
 
-## Return Value
+### Return Value
 
 An array of [`Contact`](../../../aspose.email.personalinfo/contact) objects.
 
@@ -31,7 +31,7 @@ An array of [`Contact`](../../../aspose.email.personalinfo/contact) objects.
 
 ---
 
-## IEWSClient.ResolveContacts method (2 of 2)
+## ResolveContacts(string, ExchangeListContactsOptions) {#resolvecontacts_1}
 
 Resolves ambiguous e-mail addresses and display names Note: the maximum count of returned contacts is 100. This is a restriction of used EWS operation.
 
@@ -44,7 +44,7 @@ public Contact[] ResolveContacts(string unresolvedEntry, ExchangeListContactsOpt
 | unresolvedEntry | String | A name of contact to resolve |
 | options | ExchangeListContactsOptions | Enumerates the list contacts options |
 
-## Return Value
+### Return Value
 
 Contacts that represents contacts information
 

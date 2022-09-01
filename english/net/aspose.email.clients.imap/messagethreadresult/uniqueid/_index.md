@@ -1,7 +1,7 @@
 ---
 title: UniqueId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message unique ID.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.imap/messagethreadresult/uniqueid/

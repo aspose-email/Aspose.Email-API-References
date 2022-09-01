@@ -1,7 +1,7 @@
 ---
 title: AlternateView
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the format to view a message.
 type: docs
 weight: 30
 url: /net/aspose.email/alternateview/
@@ -18,12 +18,12 @@ public class AlternateView : AttachmentBase
 
 | Name | Description |
 | --- | --- |
-| [AlternateView](alternateview)(Stream) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
-| [AlternateView](alternateview)(string) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
-| [AlternateView](alternateview)(Stream, ContentType) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
-| [AlternateView](alternateview)(Stream, string) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
-| [AlternateView](alternateview)(string, ContentType) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
-| [AlternateView](alternateview)(string, string) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
+| [AlternateView](alternateview#constructor)(Stream) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
+| [AlternateView](alternateview#constructor_3)(string) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
+| [AlternateView](alternateview#constructor_1)(Stream, ContentType) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
+| [AlternateView](alternateview#constructor_2)(Stream, string) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
+| [AlternateView](alternateview#constructor_4)(string, ContentType) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
+| [AlternateView](alternateview#constructor_5)(string, string) | Initializes a new instance of the [`AlternateView`](../alternateview) class. |
 
 ## Properties
 
@@ -41,10 +41,10 @@ public class AlternateView : AttachmentBase
 
 | Name | Description |
 | --- | --- |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring)(string) | Creates a AlternateView of using the content specified in a string. |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring)(string, ContentType) | Creates a AlternateView of using the content specified in a string. |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring)(string, ContentType, TransferEncoding) | Creates a AlternateView of using the content specified in a string. |
-| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring)(string, Encoding, string) | Creates a AlternateView of using the content specified in a string. |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring)(string) | Creates a AlternateView of using the content specified in a string. |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring_1)(string, ContentType) | Creates a AlternateView of using the content specified in a string. |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring_2)(string, ContentType, TransferEncoding) | Creates a AlternateView of using the content specified in a string. |
+| static [CreateAlternateViewFromString](../../aspose.email/alternateview/createalternateviewfromstring#createalternateviewfromstring_3)(string, Encoding, string) | Creates a AlternateView of using the content specified in a string. |
 | [Dispose](../../aspose.email/attachmentbase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Saves the specified stream. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(string) | Saves the specified file name. |

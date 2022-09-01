@@ -1,7 +1,7 @@
 ---
 title: Gender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gender header.
 type: docs
 weight: 170
 url: /net/aspose.email/mhttemplatename.contact/gender/

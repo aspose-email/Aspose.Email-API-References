@@ -1,7 +1,7 @@
 ---
 title: CalendarWriter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows write the set of Events in one ics file or stream.
 type: docs
 weight: 600
 url: /net/aspose.email.calendar/calendarwriter/
@@ -18,10 +18,10 @@ public class CalendarWriter : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [CalendarWriter](calendarwriter)(Stream) | Initializes a new instance of CalendarReader with source stream and default AppointmentIcsSaveOptions. |
-| [CalendarWriter](calendarwriter)(string) | Initializes a new instance of CalendarReader with source file and default AppointmentIcsSaveOptions. |
-| [CalendarWriter](calendarwriter)(Stream, AppointmentIcsSaveOptions) | Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions. |
-| [CalendarWriter](calendarwriter)(string, AppointmentIcsSaveOptions) | Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions. |
+| [CalendarWriter](calendarwriter#constructor)(Stream) | Initializes a new instance of CalendarReader with source stream and default AppointmentIcsSaveOptions. |
+| [CalendarWriter](calendarwriter#constructor_2)(string) | Initializes a new instance of CalendarReader with source file and default AppointmentIcsSaveOptions. |
+| [CalendarWriter](calendarwriter#constructor_1)(Stream, AppointmentIcsSaveOptions) | Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions. |
+| [CalendarWriter](calendarwriter#constructor_3)(string, AppointmentIcsSaveOptions) | Initializes a new instance of CalendarReader with source file and additional AppointmentIcsSaveOptions. |
 
 ## Methods
 

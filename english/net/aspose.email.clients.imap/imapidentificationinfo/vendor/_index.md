@@ -1,7 +1,7 @@
 ---
 title: Vendor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Vendor of the client server
 type: docs
 weight: 120
 url: /net/aspose.email.clients.imap/imapidentificationinfo/vendor/

@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a month week day hour minute or second to the collection.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar.recurrences/bynumbercollection/add/
 ---
-## ByNumberCollection.Add method (1 of 2)
+## Add(int) {#add}
 
 Adds a month, week, day, hour, minute or second to the collection.
 
@@ -18,7 +18,7 @@ public int Add(int value)
 | --- | --- | --- |
 | value | Int32 | The value to add. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 
@@ -34,7 +34,7 @@ Throws an exception if the value is outside of the valid range for the time unit
 
 ---
 
-## ByNumberCollection.Add method (2 of 2)
+## Add(int[]) {#add_2}
 
 Adds an array of month, week, day, hour, minute or second to the collection.
 

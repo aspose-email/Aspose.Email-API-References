@@ -1,7 +1,7 @@
 ---
 title: EqualTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a property and a value that are compared for a Equal To condition during a search.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/searchquery/equalto/

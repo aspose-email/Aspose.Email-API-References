@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Equel operation is defined
 type: docs
 weight: 80
 url: /net/aspose.email.clients.imap/esearchoptions/op_equality/

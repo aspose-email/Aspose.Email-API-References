@@ -1,12 +1,12 @@
 ---
 title: GetAccessToken
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets oAuth access token. If token exists and its expiration date is not expired returns current token otherwise requests new token from a server.
 type: docs
 weight: 10
 url: /net/aspose.email.clients/itokenprovider/getaccesstoken/
 ---
-## ITokenProvider.GetAccessToken method (1 of 2)
+## GetAccessToken() {#getaccesstoken}
 
 Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server.
 
@@ -14,7 +14,7 @@ Gets oAuth access token. If token exists and its expiration date is not expired 
 public OAuthToken GetAccessToken()
 ```
 
-## Return Value
+### Return Value
 
 Returns oAuth access token
 
@@ -27,7 +27,7 @@ Returns oAuth access token
 
 ---
 
-## ITokenProvider.GetAccessToken method (2 of 2)
+## GetAccessToken(bool) {#getaccesstoken_1}
 
 Gets oAuth access token.
 
@@ -39,7 +39,7 @@ public OAuthToken GetAccessToken(bool ignoreExistingToken)
 | --- | --- | --- |
 | ignoreExistingToken | Boolean | If ignoreExistingToken is true, requests new token from a server. Otherwise behaviour is depended on whether token exists or not. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
 
-## Return Value
+### Return Value
 
 Returns oAuth access token
 

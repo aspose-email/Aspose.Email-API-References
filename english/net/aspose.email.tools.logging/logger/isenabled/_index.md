@@ -1,7 +1,7 @@
 ---
 title: IsEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines if logging is enabled for the specified level.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.logging/logger/isenabled/
@@ -18,7 +18,7 @@ public bool IsEnabled(LogLevel level)
 | --- | --- | --- |
 | level | LogLevel | level to be checked |
 
-## Return Value
+### Return Value
 
 `true` if logging is enabled for the specified level, otherwise it returns `false`.
 

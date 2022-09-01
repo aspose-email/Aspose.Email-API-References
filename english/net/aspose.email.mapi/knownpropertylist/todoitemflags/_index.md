@@ -1,7 +1,7 @@
 ---
 title: ToDoItemFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains flags associated with objects. Area MapiNonTransmittable Canonical name PidTagToDoItemFlags Alternate names PR_TODO_ITEM_FLAGS ptagToDoItemFlags
 type: docs
 weight: 19030
 url: /net/aspose.email.mapi/knownpropertylist/todoitemflags/

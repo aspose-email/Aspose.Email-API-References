@@ -1,7 +1,7 @@
 ---
 title: Updated
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains array of modified folders.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/foldersyncresult/updated/

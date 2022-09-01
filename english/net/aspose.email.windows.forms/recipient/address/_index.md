@@ -1,7 +1,7 @@
 ---
 title: Address
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The email address of this recipient.
 type: docs
 weight: 20
 url: /net/aspose.email.windows.forms/recipient/address/

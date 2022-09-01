@@ -1,7 +1,7 @@
 ---
 title: BaseUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the base URI.
 type: docs
 weight: 30
 url: /net/aspose.email/alternateview/baseuri/
@@ -14,7 +14,7 @@ Gets or sets the base URI.
 public Uri BaseUri { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The base URI.
 

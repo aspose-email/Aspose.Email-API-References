@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Name of the bucket.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/bucket/name/

@@ -1,7 +1,7 @@
 ---
 title: ItemId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The item id uses with a server
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapiattachment/itemid/

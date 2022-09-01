@@ -1,7 +1,7 @@
 ---
 title: ContentClassType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the content class of item.
 type: docs
 weight: 3140
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/

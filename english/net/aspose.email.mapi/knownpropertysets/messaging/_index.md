@@ -1,7 +1,7 @@
 ---
 title: Messaging
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Messaging Property set name PSETID_Messaging
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/knownpropertysets/messaging/

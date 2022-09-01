@@ -1,7 +1,7 @@
 ---
 title: ReportTag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the data that is used to correlate the report and the original message. Area MapiEnvelope Canonical name PidTagReportTag Alternate names PR_REPORT_TAG ptagReportTag
 type: docs
 weight: 16080
 url: /net/aspose.email.mapi/knownpropertylist/reporttag/

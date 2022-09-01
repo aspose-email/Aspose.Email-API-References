@@ -1,7 +1,7 @@
 ---
 title: EmsAbRemoteBridgeHeadAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_REMOTE_BRIDGE_HEAD_ADDRESS
 type: docs
 weight: 8390
 url: /net/aspose.email.mapi/knownpropertylist/emsabremotebridgeheadaddress/

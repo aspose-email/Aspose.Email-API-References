@@ -1,7 +1,7 @@
 ---
 title: Address
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Contact Property set name PSETID_Address
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/knownpropertysets/address/

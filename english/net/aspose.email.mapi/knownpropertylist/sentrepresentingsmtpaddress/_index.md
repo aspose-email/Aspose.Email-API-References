@@ -1,7 +1,7 @@
 ---
 title: SentRepresentingSmtpAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the SMTP email address of the end user who is represented by the sending mailbox owner. Area Mail Canonical name PidTagSentRepresentingSmtpAddress Alternate names ptagRecipientSentRepresentingSMTPAddress SentRepresentingSMTPAddressXSO PR_SENT_REPRESENTING_SMTP_ADDRESS
 type: docs
 weight: 17280
 url: /net/aspose.email.mapi/knownpropertylist/sentrepresentingsmtpaddress/

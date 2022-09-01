@@ -1,7 +1,7 @@
 ---
 title: SyncState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Synchronization object for folder synchronization operation.
 type: docs
 weight: 15510
 url: /net/aspose.email.clients.exchange.webservice/syncstate/
@@ -18,8 +18,8 @@ public class SyncState
 
 | Name | Description |
 | --- | --- |
-| [SyncState](syncstate)() | Initializes a new instance of the [`SyncState`](../syncstate) class |
-| [SyncState](syncstate)(string) | Initializes a new instance of the [`SyncState`](../syncstate) class |
+| [SyncState](syncstate#constructor)() | Initializes a new instance of the [`SyncState`](../syncstate) class |
+| [SyncState](syncstate#constructor_1)(string) | Initializes a new instance of the [`SyncState`](../syncstate) class |
 
 ## Properties
 

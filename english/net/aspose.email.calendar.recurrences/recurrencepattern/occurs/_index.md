@@ -1,7 +1,7 @@
 ---
 title: Occurs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the number of occurrences of the recurrence pattern.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar.recurrences/recurrencepattern/occurs/
@@ -14,7 +14,7 @@ Gets or sets the number of occurrences of the recurrence pattern.
 public int Occurs { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of occurrences.
 

@@ -1,12 +1,12 @@
 ---
 title: LoadMessageInfoListAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Loads list of Pop3MessageInfo
 type: docs
 weight: 320
 url: /net/aspose.email.clients.pop3/pop3client/loadmessageinfolistasync/
 ---
-## Pop3Client.LoadMessageInfoListAsync method (1 of 8)
+## LoadMessageInfoListAsync(IEnumerable&lt;int&gt;) {#loadmessageinfolistasync_7}
 
 Loads list of Pop3MessageInfo
 
@@ -18,7 +18,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IEnumerable<int>
 | --- | --- | --- |
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.LoadMessageInfoListAsync method (2 of 8)
+## LoadMessageInfoListAsync(IConnection, IEnumerable&lt;int&gt;) {#loadmessageinfolistasync_2}
 
 Loads list of Pop3MessageInfo
 
@@ -45,7 +45,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | connection | IConnection | Connection to a server |
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -59,7 +59,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.LoadMessageInfoListAsync method (3 of 8)
+## LoadMessageInfoListAsync(IEnumerable&lt;Pop3MessageInfo&gt;) {#loadmessageinfolistasync_5}
 
 Loads list of Pop3MessageInfo
 
@@ -72,7 +72,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 | --- | --- | --- |
 | messageInfoList | IEnumerable`1 | Message info list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -86,7 +86,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.LoadMessageInfoListAsync method (4 of 8)
+## LoadMessageInfoListAsync(IConnection, IEnumerable&lt;Pop3MessageInfo&gt;) {#loadmessageinfolistasync}
 
 Loads list of Pop3MessageInfo
 
@@ -100,7 +100,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | connection | IConnection | Connection to a server |
 | messageInfoList | IEnumerable`1 | Message info list |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -115,7 +115,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.LoadMessageInfoListAsync method (5 of 8)
+## LoadMessageInfoListAsync(IEnumerable&lt;int&gt;, CancellationToken) {#loadmessageinfolistasync_8}
 
 Loads list of Pop3MessageInfo
 
@@ -129,7 +129,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -142,7 +142,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.LoadMessageInfoListAsync method (6 of 8)
+## LoadMessageInfoListAsync(IConnection, IEnumerable&lt;int&gt;, CancellationToken) {#loadmessageinfolistasync_3}
 
 Loads list of Pop3MessageInfo
 
@@ -157,7 +157,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | sequenceNumberList | IEnumerable`1 | The sequence numbers list of messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -171,7 +171,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.LoadMessageInfoListAsync method (7 of 8)
+## LoadMessageInfoListAsync(IEnumerable&lt;Pop3MessageInfo&gt;, CancellationToken) {#loadmessageinfolistasync_6}
 
 Loads list of Pop3MessageInfo
 
@@ -185,7 +185,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(
 | messageInfoList | IEnumerable`1 | Message info list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -199,7 +199,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.LoadMessageInfoListAsync method (8 of 8)
+## LoadMessageInfoListAsync(IConnection, IEnumerable&lt;Pop3MessageInfo&gt;, CancellationToken) {#loadmessageinfolistasync_1}
 
 Loads list of Pop3MessageInfo
 
@@ -214,7 +214,7 @@ public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(IConnection conn
 | messageInfoList | IEnumerable`1 | Message info list |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -223,6 +223,32 @@ Task object, with delegate for this operation
 * class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
 * interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [Pop3MessageInfo](../../pop3messageinfo)
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## LoadMessageInfoListAsync(Pop3LoadMessageInfoList) {#loadmessageinfolistasync_4}
+
+Loads list of Pop3MessageInfo
+
+```csharp
+public Task<Pop3MessageInfoCollection> LoadMessageInfoListAsync(Pop3LoadMessageInfoList parameters)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | Pop3LoadMessageInfoList | The parameter set |
+
+### Return Value
+
+Loaded message information list
+
+### See Also
+
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
+* class [Pop3LoadMessageInfoList](../../../aspose.email.clients.pop3.models/pop3loadmessageinfolist)
 * class [Pop3Client](../../pop3client)
 * namespace [Aspose.Email.Clients.Pop3](../../pop3client)
 * assembly [Aspose.Email](../../../)

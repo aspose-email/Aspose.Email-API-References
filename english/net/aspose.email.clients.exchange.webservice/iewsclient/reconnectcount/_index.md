@@ -1,7 +1,7 @@
 ---
 title: ReconnectCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the number of reconnect attempts at connection breaks.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/reconnectcount/

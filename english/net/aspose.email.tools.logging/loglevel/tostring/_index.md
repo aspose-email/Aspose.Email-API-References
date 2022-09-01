@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a string representation of the log level.
 type: docs
 weight: 80
 url: /net/aspose.email.tools.logging/loglevel/tostring/
@@ -14,7 +14,7 @@ Returns a string representation of the log level.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 Log level name.
 

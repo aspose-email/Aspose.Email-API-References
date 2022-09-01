@@ -1,7 +1,7 @@
 ---
 title: BeginValidate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Begins an asynchronous validating process for an email address.
 type: docs
 weight: 70
 url: /net/aspose.email.tools.verifications/emailvalidator/beginvalidate/
@@ -23,7 +23,7 @@ public IAsyncResult BeginValidate(string mailAddress, ValidationPolicy policy,
 | asyncCallback | AsyncCallback | The AsyncCallback delegate |
 | stateObject | Object | An object that contains state information for this request. |
 
-## Return Value
+### Return Value
 
 An IAsyncResult that references the asynchronous connection.
 

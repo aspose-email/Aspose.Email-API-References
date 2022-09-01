@@ -1,9 +1,9 @@
 ---
 title: MapiTaskStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the statuses of the users progress on the task.
 type: docs
-weight: 18550
+weight: 18760
 url: /net/aspose.email.mapi/mapitaskstatus/
 ---
 ## MapiTaskStatus enumeration
@@ -14,7 +14,7 @@ Represents the statuses of the user's progress on the task.
 public enum MapiTaskStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

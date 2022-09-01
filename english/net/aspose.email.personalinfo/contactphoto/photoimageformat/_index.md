@@ -1,7 +1,7 @@
 ---
 title: PhotoImageFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a photo type.
 type: docs
 weight: 40
 url: /net/aspose.email.personalinfo/contactphoto/photoimageformat/

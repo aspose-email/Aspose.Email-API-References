@@ -1,7 +1,7 @@
 ---
 title: CreateContactPhoto
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates contact photo
 type: docs
 weight: 60
 url: /net/aspose.email.clients.google/igmailclient/createcontactphoto/

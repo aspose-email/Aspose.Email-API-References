@@ -1,7 +1,7 @@
 ---
 title: WriteFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Writes the message with specified format to appenders.
 type: docs
 weight: 80
 url: /net/aspose.email.tools.logging/logger/writeformat/

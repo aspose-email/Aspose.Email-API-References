@@ -1,7 +1,7 @@
 ---
 title: FolderTypes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the type of the folder that was updated renamed or moved or added on the server.
 type: docs
 weight: 1280
 url: /net/aspose.email.clients.activesync.transportlayer/foldertypes/
@@ -14,7 +14,7 @@ Specifies the type of the folder that was updated (renamed or moved) or added on
 public enum FolderTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

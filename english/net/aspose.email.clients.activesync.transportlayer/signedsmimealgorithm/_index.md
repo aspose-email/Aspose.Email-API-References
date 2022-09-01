@@ -1,7 +1,7 @@
 ---
 title: SignedSMIMEAlgorithm
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the algorithm used when signing S/MIME messages.
 type: docs
 weight: 2080
 url: /net/aspose.email.clients.activesync.transportlayer/signedsmimealgorithm/
@@ -14,7 +14,7 @@ Specifies the algorithm used when signing S/MIME messages.
 public enum SignedSMIMEAlgorithm
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

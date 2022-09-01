@@ -1,7 +1,7 @@
 ---
 title: FetchTaskAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the specified task.
 type: docs
 weight: 280
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchtaskasync/
@@ -20,7 +20,7 @@ public Task<ExchangeTask> FetchTaskAsync(string taskUri,
 | taskUri | String | A task uri. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 A fetched [`ExchangeTask`](../../exchangetask)
 

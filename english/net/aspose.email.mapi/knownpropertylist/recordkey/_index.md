@@ -1,7 +1,7 @@
 ---
 title: RecordKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a unique binarycomparable identifier for a specific object. Area ID Properties Canonical name PidTagRecordKey Alternate names PR_RECORD_KEY ptagRecordKey
 type: docs
 weight: 15570
 url: /net/aspose.email.mapi/knownpropertylist/recordkey/

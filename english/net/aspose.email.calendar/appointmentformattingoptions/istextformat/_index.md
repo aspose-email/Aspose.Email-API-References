@@ -1,7 +1,7 @@
 ---
 title: IsTextFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether template has a text format.
 type: docs
 weight: 60
 url: /net/aspose.email.calendar/appointmentformattingoptions/istextformat/
@@ -14,7 +14,7 @@ Gets a value indicating whether template has a text format.
 public bool IsTextFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if template has a text format; otherwise, `false`.
 

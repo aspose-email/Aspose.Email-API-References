@@ -1,7 +1,7 @@
 ---
 title: RulePredicateFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the RulePredicate flags
 type: docs
 weight: 3540
 url: /net/aspose.email.clients.exchange/rulepredicateflags/
@@ -15,7 +15,7 @@ Represents the RulePredicate flags
 public enum RulePredicateFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: FileReference
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a unique identifier that is assigned by the server to each attachment. In an ItemOperations request only one FileReference identifier can exist per Fetch. Violation of this constraint results in a Status element value of 2 being returned from the server. The client can however retrieve multiple attachments by using one Fetch node per attachment.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/filereference/

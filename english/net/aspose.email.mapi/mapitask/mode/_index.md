@@ -1,7 +1,7 @@
 ---
 title: Mode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the assignment status of the Task object.
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapitask/mode/

@@ -1,7 +1,7 @@
 ---
 title: ASProtocolVersions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ASProtocolVersions indicates the versions of the ActiveSync protocol.
 type: docs
 weight: 920
 url: /net/aspose.email.clients.activesync.transportlayer/asprotocolversions/
@@ -14,7 +14,7 @@ The ASProtocolVersions indicates the versions of the ActiveSync protocol.
 public enum ASProtocolVersions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

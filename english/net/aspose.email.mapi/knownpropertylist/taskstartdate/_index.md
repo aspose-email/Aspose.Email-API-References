@@ -1,7 +1,7 @@
 ---
 title: TaskStartDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the date on which the user expects work on the task to begin. Area Tasks Canonical name PidLidTaskStartDate Alternate names dispidTaskStartDate
 type: docs
 weight: 18810
 url: /net/aspose.email.mapi/knownpropertylist/taskstartdate/

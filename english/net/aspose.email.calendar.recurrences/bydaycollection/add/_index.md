@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a ByDayaspose.email.calendar.recurrences/byday to the collection.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar.recurrences/bydaycollection/add/
 ---
-## ByDayCollection.Add method (1 of 3)
+## Add(ByDay) {#add}
 
 Adds a [`ByDay`](../../byday) to the collection.
 
@@ -18,7 +18,7 @@ public int Add(ByDay byDay)
 | --- | --- | --- |
 | byDay | ByDay | The item to add to the collection. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 
@@ -31,7 +31,7 @@ The zero-based index of the newly added item.
 
 ---
 
-## ByDayCollection.Add method (2 of 3)
+## Add(DayOfWeek) {#add_2}
 
 Creates and adds a [`ByDay`](../../byday) that represents all occurrences of the day of the week to the collection.
 
@@ -43,7 +43,7 @@ public int Add(DayOfWeek dayOfWeek)
 | --- | --- | --- |
 | dayOfWeek | DayOfWeek | A day of the week. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 
@@ -55,7 +55,7 @@ The zero-based index of the newly added item.
 
 ---
 
-## ByDayCollection.Add method (3 of 3)
+## Add(int, DayOfWeek) {#add_1}
 
 Creates and adds a [`ByDay`](../../byday) to the collection.
 
@@ -68,7 +68,7 @@ public int Add(int nthOccurrence, DayOfWeek dayOfWeek)
 | nthOccurrence | Int32 | The nth occurrence of the day of the week. |
 | dayOfWeek | DayOfWeek | A day of the week. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the newly added item.
 

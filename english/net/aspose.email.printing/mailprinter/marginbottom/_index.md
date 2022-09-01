@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the bottom margin.
 type: docs
 weight: 60
 url: /net/aspose.email.printing/mailprinter/marginbottom/
@@ -14,7 +14,7 @@ Gets or sets the bottom margin.
 public double MarginBottom { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bottom margin.
 

@@ -1,7 +1,7 @@
 ---
 title: ItemEstimate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an assessment on the requested folder
 type: docs
 weight: 1360
 url: /net/aspose.email.clients.activesync.transportlayer/itemestimate/
@@ -18,8 +18,8 @@ public class ItemEstimate
 
 | Name | Description |
 | --- | --- |
-| [ItemEstimate](itemestimate)(Status) | Initializes a new instance of the ItemEstimate class. |
-| [ItemEstimate](itemestimate)(Status, string, int) | Initializes a new instance of the ItemEstimate class. |
+| [ItemEstimate](itemestimate#constructor)(Status) | Initializes a new instance of the ItemEstimate class. |
+| [ItemEstimate](itemestimate#constructor_1)(Status, string, int) | Initializes a new instance of the ItemEstimate class. |
 
 ## Properties
 

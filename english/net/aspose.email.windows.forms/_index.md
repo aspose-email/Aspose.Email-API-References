@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Windows.Forms
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Aspose.Email.Windows.Forms namespace contains classes that provide ability to handle files dragged from Outlook.
 type: docs
-weight: 450
+weight: 480
 url: /net/aspose.email.windows.forms/
 ---
-
+The **Aspose.Email.Windows.Forms** namespace contains classes that provide ability to handle files dragged from Outlook.
 
 ## Classes
 

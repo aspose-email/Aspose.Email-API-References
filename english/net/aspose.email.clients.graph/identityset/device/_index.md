@@ -1,7 +1,7 @@
 ---
 title: Device
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Optional.The device associated with this action.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/identityset/device/

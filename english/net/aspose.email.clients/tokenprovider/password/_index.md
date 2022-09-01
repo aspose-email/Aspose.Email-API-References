@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets password for basic authorization
 type: docs
 weight: 60
 url: /net/aspose.email.clients/tokenprovider/password/

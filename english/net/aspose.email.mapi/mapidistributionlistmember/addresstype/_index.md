@@ -1,7 +1,7 @@
 ---
 title: AddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the recipients email address type.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapidistributionlistmember/addresstype/
@@ -14,7 +14,7 @@ Gets or sets the recipient's e-mail address type.
 public string AddressType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the address.
 

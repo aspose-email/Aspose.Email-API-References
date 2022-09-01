@@ -1,9 +1,9 @@
 ---
 title: VCardDeliveryAddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates a vCard delivery address types
 type: docs
-weight: 19400
+weight: 19610
 url: /net/aspose.email.personalinfo.vcard/vcarddeliveryaddresstype/
 ---
 ## VCardDeliveryAddressType enumeration
@@ -15,7 +15,7 @@ Enumerates a vCard delivery address types
 public enum VCardDeliveryAddressType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

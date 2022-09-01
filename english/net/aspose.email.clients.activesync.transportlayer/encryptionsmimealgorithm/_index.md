@@ -1,7 +1,7 @@
 ---
 title: EncryptionSMIMEAlgorithm
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the algorithm used when encrypting S/MIME messages.
 type: docs
 weight: 1230
 url: /net/aspose.email.clients.activesync.transportlayer/encryptionsmimealgorithm/
@@ -14,7 +14,7 @@ Specifies the algorithm used when encrypting S/MIME messages.
 public enum EncryptionSMIMEAlgorithm
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

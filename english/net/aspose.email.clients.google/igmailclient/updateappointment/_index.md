@@ -1,7 +1,7 @@
 ---
 title: UpdateAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates an appointment.
 type: docs
 weight: 310
 url: /net/aspose.email.clients.google/igmailclient/updateappointment/
@@ -19,7 +19,7 @@ public Appointment UpdateAppointment(string calendarId, Appointment appointment)
 | calendarId | String | Calendar identifier. |
 | appointment | Appointment | An instance of appointment object to update. |
 
-## Return Value
+### Return Value
 
 Returns updated appointment.
 

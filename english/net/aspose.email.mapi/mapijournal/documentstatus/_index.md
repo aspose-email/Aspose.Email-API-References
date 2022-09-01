@@ -1,7 +1,7 @@
 ---
 title: DocumentStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the status of document.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapijournal/documentstatus/
@@ -14,7 +14,7 @@ Gets or sets the status of document.
 public MapiJournalDocumentStatus DocumentStatus { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The document status.
 

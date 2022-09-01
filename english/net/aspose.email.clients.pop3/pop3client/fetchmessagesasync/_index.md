@@ -1,12 +1,12 @@
 ---
 title: FetchMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the messages asynchronously
 type: docs
 weight: 140
 url: /net/aspose.email.clients.pop3/pop3client/fetchmessagesasync/
 ---
-## Pop3Client.FetchMessagesAsync method (1 of 8)
+## FetchMessagesAsync(IEnumerable&lt;int&gt;) {#fetchmessagesasync_4}
 
 Fetches the messages asynchronously
 
@@ -18,7 +18,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumb
 | --- | --- | --- |
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessagesAsync method (2 of 8)
+## FetchMessagesAsync(IEnumerable&lt;string&gt;) {#fetchmessagesasync_6}
 
 Fetches the messages asynchronously
 
@@ -43,7 +43,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids)
 | --- | --- | --- |
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessagesAsync method (3 of 8)
+## FetchMessagesAsync(IConnection, IEnumerable&lt;int&gt;) {#fetchmessagesasync}
 
 Fetches the messages asynchronously
 
@@ -70,7 +70,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -84,7 +84,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessagesAsync method (4 of 8)
+## FetchMessagesAsync(IConnection, IEnumerable&lt;string&gt;) {#fetchmessagesasync_2}
 
 Fetches the messages asynchronously
 
@@ -97,7 +97,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection, IEnum
 | connection | IConnection | Connection to a server |
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -111,7 +111,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessagesAsync method (5 of 8)
+## FetchMessagesAsync(IEnumerable&lt;int&gt;, CancellationToken) {#fetchmessagesasync_5}
 
 Fetches the messages asynchronously
 
@@ -125,7 +125,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<int> sequenceNumb
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -138,7 +138,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessagesAsync method (6 of 8)
+## FetchMessagesAsync(IEnumerable&lt;string&gt;, CancellationToken) {#fetchmessagesasync_7}
 
 Fetches the messages asynchronously
 
@@ -152,7 +152,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IEnumerable<string> uids,
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -165,7 +165,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessagesAsync method (7 of 8)
+## FetchMessagesAsync(IConnection, IEnumerable&lt;int&gt;, CancellationToken) {#fetchmessagesasync_1}
 
 Fetches the messages asynchronously
 
@@ -180,7 +180,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -194,7 +194,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.FetchMessagesAsync method (8 of 8)
+## FetchMessagesAsync(IConnection, IEnumerable&lt;string&gt;, CancellationToken) {#fetchmessagesasync_3}
 
 Fetches the messages asynchronously
 
@@ -209,7 +209,7 @@ public Task<IList<MailMessage>> FetchMessagesAsync(IConnection connection,
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

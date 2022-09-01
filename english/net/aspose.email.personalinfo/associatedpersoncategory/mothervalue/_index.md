@@ -1,7 +1,7 @@
 ---
 title: MotherValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Mother category
 type: docs
 weight: 300
 url: /net/aspose.email.personalinfo/associatedpersoncategory/mothervalue/

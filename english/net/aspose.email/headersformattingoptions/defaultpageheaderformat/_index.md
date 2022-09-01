@@ -1,7 +1,7 @@
 ---
 title: DefaultPageHeaderFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default page header format.
 type: docs
 weight: 60
 url: /net/aspose.email/headersformattingoptions/defaultpageheaderformat/
@@ -14,7 +14,7 @@ Default page header format.
 public string DefaultPageHeaderFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The styles to be injected into resulting html body.
 

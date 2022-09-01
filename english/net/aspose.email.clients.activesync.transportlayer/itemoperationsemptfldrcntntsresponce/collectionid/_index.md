@@ -1,7 +1,7 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the folder that has to be emptied. Contains ServerId of a folder.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsemptfldrcntntsresponce/collectionid/

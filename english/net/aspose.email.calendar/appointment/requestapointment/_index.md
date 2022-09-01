@@ -1,12 +1,12 @@
 ---
 title: RequestApointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Requests the apointment.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.email.calendar/appointment/requestapointment/
 ---
-## Appointment.RequestApointment method (1 of 2)
+## RequestApointment() {#requestapointment}
 
 Requests the apointment.
 
@@ -14,7 +14,7 @@ Requests the apointment.
 public AlternateView RequestApointment()
 ```
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 
@@ -27,7 +27,7 @@ AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represe
 
 ---
 
-## Appointment.RequestApointment method (2 of 2)
+## RequestApointment(int) {#requestapointment_1}
 
 Requests the apointment.
 
@@ -39,7 +39,7 @@ public AlternateView RequestApointment(int seqId)
 | --- | --- | --- |
 | seqId | Int32 | The sequence id. |
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 

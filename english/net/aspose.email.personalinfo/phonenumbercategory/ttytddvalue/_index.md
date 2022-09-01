@@ -1,7 +1,7 @@
 ---
 title: TtyTddValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for TtyTdd category
 type: docs
 weight: 400
 url: /net/aspose.email.personalinfo/phonenumbercategory/ttytddvalue/

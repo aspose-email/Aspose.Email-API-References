@@ -1,7 +1,7 @@
 ---
 title: ValidateCredentials
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Checks if the credentials are valid
 type: docs
 weight: 340
 url: /net/aspose.email.clients/emailclient/validatecredentials/
@@ -14,7 +14,7 @@ Checks if the credentials are valid
 public abstract bool ValidateCredentials()
 ```
 
-## Return Value
+### Return Value
 
 True if authentication was successful, otherwise false.
 

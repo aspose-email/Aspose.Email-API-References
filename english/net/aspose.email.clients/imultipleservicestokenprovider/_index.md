@@ -1,9 +1,9 @@
 ---
 title: IMultipleServicesTokenProvider
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines interface allowing to retrieve access token.
 type: docs
-weight: 16150
+weight: 16170
 url: /net/aspose.email.clients/imultipleservicestokenprovider/
 ---
 ## IMultipleServicesTokenProvider interface
@@ -18,8 +18,8 @@ public interface IMultipleServicesTokenProvider : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [GetAccessToken](../../aspose.email.clients/imultipleservicestokenprovider/getaccesstoken)(string) | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
-| [GetAccessToken](../../aspose.email.clients/imultipleservicestokenprovider/getaccesstoken)(bool, string) | Gets oAuth access token. |
+| [GetAccessToken](../../aspose.email.clients/imultipleservicestokenprovider/getaccesstoken#getaccesstoken_1)(string) | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
+| [GetAccessToken](../../aspose.email.clients/imultipleservicestokenprovider/getaccesstoken#getaccesstoken)(bool, string) | Gets oAuth access token. |
 
 ### See Also
 

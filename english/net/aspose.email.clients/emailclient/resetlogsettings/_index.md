@@ -1,7 +1,7 @@
 ---
 title: ResetLogSettings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Resets logging settings to default.
 type: docs
 weight: 320
 url: /net/aspose.email.clients/emailclient/resetlogsettings/

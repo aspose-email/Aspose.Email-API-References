@@ -1,7 +1,7 @@
 ---
 title: Or
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search messages that match either search key. Provides disjunction between two expressions OR.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange/exchangeadvancedsyntaxquerybuilder/or/
@@ -19,7 +19,7 @@ public MailQuery Or(MailQuery query1, MailQuery query2)
 | query1 | MailQuery | The query1. |
 | query2 | MailQuery | The query2. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query (one searching criterion).
 

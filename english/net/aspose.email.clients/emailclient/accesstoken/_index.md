@@ -1,7 +1,7 @@
 ---
 title: AccessToken
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the access token.
 type: docs
 weight: 10
 url: /net/aspose.email.clients/emailclient/accesstoken/
@@ -14,7 +14,7 @@ Gets or sets the access token.
 public virtual string AccessToken { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents access token.
 

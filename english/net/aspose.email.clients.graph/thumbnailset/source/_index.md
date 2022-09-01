@@ -1,7 +1,7 @@
 ---
 title: Source
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A custom thumbnail image or the original image used to generate other thumbnails.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.graph/thumbnailset/source/

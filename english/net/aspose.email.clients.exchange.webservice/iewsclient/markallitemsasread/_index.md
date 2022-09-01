@@ -1,12 +1,12 @@
 ---
 title: MarkAllItemsAsRead
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks all items in inbox folder as read without receipts.
 type: docs
 weight: 1250
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/markallitemsasread/
 ---
-## IEWSClient.MarkAllItemsAsRead method (1 of 3)
+## MarkAllItemsAsRead() {#markallitemsasread}
 
 Marks all items in inbox folder as read without receipts.
 
@@ -22,7 +22,7 @@ public void MarkAllItemsAsRead()
 
 ---
 
-## IEWSClient.MarkAllItemsAsRead method (2 of 3)
+## MarkAllItemsAsRead(params string[]) {#markallitemsasread_2}
 
 Marks all items in specified folders as read without receipts.
 
@@ -42,7 +42,7 @@ public void MarkAllItemsAsRead(params string[] folderIds)
 
 ---
 
-## IEWSClient.MarkAllItemsAsRead method (3 of 3)
+## MarkAllItemsAsRead(IEnumerable&lt;string&gt;) {#markallitemsasread_1}
 
 Marks all items in specified folders as read without receipts.
 

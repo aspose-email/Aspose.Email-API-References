@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes the first occurrence of a specific object from the list.
 type: docs
 weight: 200
 url: /net/aspose.email.personalinfo/instantmessengerlist/remove/

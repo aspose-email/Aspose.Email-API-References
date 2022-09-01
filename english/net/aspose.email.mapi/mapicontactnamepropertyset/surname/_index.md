@@ -1,7 +1,7 @@
 ---
 title: Surname
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the surname family name of the contact
 type: docs
 weight: 110
 url: /net/aspose.email.mapi/mapicontactnamepropertyset/surname/

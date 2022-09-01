@@ -1,7 +1,7 @@
 ---
 title: IsModeratedSpecified
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the IsModeratedaspose.email.clients.exchange.webservice/mailtips/ismoderated is specified
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange.webservice/mailtips/ismoderatedspecified/

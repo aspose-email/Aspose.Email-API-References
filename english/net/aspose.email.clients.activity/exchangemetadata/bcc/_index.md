@@ -1,7 +1,7 @@
 ---
 title: BCC
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A collection of email addresses that were on the BCC line of the message. Mandatory No
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/exchangemetadata/bcc/

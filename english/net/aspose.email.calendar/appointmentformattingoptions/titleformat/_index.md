@@ -1,7 +1,7 @@
 ---
 title: TitleFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the title format.
 type: docs
 weight: 110
 url: /net/aspose.email.calendar/appointmentformattingoptions/titleformat/
@@ -14,7 +14,7 @@ Gets or sets the title format.
 public string TitleFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The title format.
 

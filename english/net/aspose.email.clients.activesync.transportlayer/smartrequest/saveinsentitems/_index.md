@@ -1,7 +1,7 @@
 ---
 title: SaveInSentItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether a copy of the message will be stored in the Sent Items folder.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequest/saveinsentitems/

@@ -1,7 +1,7 @@
 ---
 title: DataContainer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains data elements from the content classes.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/datacontainer/

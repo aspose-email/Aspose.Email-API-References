@@ -1,7 +1,7 @@
 ---
 title: CurrentFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the current folder
 type: docs
 weight: 90
 url: /net/aspose.email.clients.imap/imapclient/currentfolder/
@@ -14,7 +14,7 @@ Gets the current folder
 public ImapFolderInfo CurrentFolder { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 ImapFolderInfo that represents current folder
 

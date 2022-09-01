@@ -1,7 +1,7 @@
 ---
 title: GoogleTalk
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default Google Talk id
 type: docs
 weight: 40
 url: /net/aspose.email.personalinfo/instantmessengerlist/googletalk/

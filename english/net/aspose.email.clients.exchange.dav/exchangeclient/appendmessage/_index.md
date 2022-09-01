@@ -1,12 +1,12 @@
 ---
 title: AppendMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Uploads the mail message to the specified folder
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/appendmessage/
 ---
-## ExchangeClient.AppendMessage method (1 of 2)
+## AppendMessage(string, MailMessage) {#appendmessage}
 
 Uploads the mail message to the specified folder
 
@@ -19,7 +19,7 @@ public string AppendMessage(string folder, MailMessage message)
 | folder | String | A folder to which message is uploaded |
 | message | MailMessage | A message to upload |
 
-## Return Value
+### Return Value
 
 An uri of created message
 
@@ -39,7 +39,7 @@ An uri of created message
 
 ---
 
-## ExchangeClient.AppendMessage method (2 of 2)
+## AppendMessage(string, MailMessage, bool) {#appendmessage_1}
 
 Uploads the mail message to the specified folder
 
@@ -53,7 +53,7 @@ public string AppendMessage(string folder, MailMessage message, bool markAsSent)
 | message | MailMessage | A message to upload |
 | markAsSent | Boolean | A value indicating whether the message should be appended as a sent message or a draft. |
 
-## Return Value
+### Return Value
 
 An uri of created message
 

@@ -1,7 +1,7 @@
 ---
 title: SyncChangeServerOperation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains properties of an existing object on the the server that were modified. The changed object is identified by its ServerId element.
 type: docs
 weight: 2180
 url: /net/aspose.email.clients.activesync.transportlayer/syncchangeserveroperation/
@@ -18,8 +18,8 @@ public class SyncChangeServerOperation
 
 | Name | Description |
 | --- | --- |
-| [SyncChangeServerOperation](syncchangeserveroperation)() | Initializes a new instance of the SyncChangeServerOperation class. |
-| [SyncChangeServerOperation](syncchangeserveroperation)(string, DataContainer) | Initializes a new instance of the SyncChangeServerOperation class. |
+| [SyncChangeServerOperation](syncchangeserveroperation#constructor)() | Initializes a new instance of the SyncChangeServerOperation class. |
+| [SyncChangeServerOperation](syncchangeserveroperation#constructor_1)(string, DataContainer) | Initializes a new instance of the SyncChangeServerOperation class. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: SenderSmtpAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the SMTP email address format of the email address of the sending mailbox owner. Area Mail Canonical name PidTagSenderSmtpAddress Alternate names SenderSmtpAddress ptagSenderSmtpAddress
 type: docs
 weight: 17150
 url: /net/aspose.email.mapi/knownpropertylist/sendersmtpaddress/

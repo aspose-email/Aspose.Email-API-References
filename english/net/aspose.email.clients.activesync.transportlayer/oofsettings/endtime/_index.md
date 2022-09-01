@@ -1,7 +1,7 @@
 ---
 title: EndTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: End time during which the user is out of office.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/oofsettings/endtime/

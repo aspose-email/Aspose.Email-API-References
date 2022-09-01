@@ -1,7 +1,7 @@
 ---
 title: MarkAsRead
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether messages are to be marked as read.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange/ruleactions/markasread/

@@ -1,7 +1,7 @@
 ---
 title: Supported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Elements of the Contact class and the Calendar class that are not ghosted can be included as child elements of the Supported element. For details about the use of ghosted properties see section 2.2.3.154.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/supported/

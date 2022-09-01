@@ -1,7 +1,7 @@
 ---
 title: Sister
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sister
 type: docs
 weight: 150
 url: /net/aspose.email.personalinfo/associatedpersoncategory/sister/

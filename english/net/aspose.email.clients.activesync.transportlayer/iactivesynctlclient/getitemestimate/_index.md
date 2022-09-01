@@ -1,12 +1,12 @@
 ---
 title: GetItemEstimate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The GetItemEstimate command gets an estimate of the number of items in a collection or folder on the server that have to be synchronized.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/getitemestimate/
 ---
-## IActiveSyncTLClient.GetItemEstimate method (1 of 3)
+## GetItemEstimate(ItemEstimateRequest) {#getitemestimate}
 
 The GetItemEstimate command gets an estimate of the number of items in a collection or folder on the server that have to be synchronized.
 
@@ -18,7 +18,7 @@ public ItemEstimate GetItemEstimate(ItemEstimateRequest request)
 | --- | --- | --- |
 | request | ItemEstimateRequest | ItemEstimate request parameters |
 
-## Return Value
+### Return Value
 
 Estimate on the requested folder
 
@@ -32,7 +32,7 @@ Estimate on the requested folder
 
 ---
 
-## IActiveSyncTLClient.GetItemEstimate method (2 of 3)
+## GetItemEstimate(params ItemEstimateRequest[]) {#getitemestimate_1}
 
 The GetItemEstimate command gets an estimate of the number of items in a collection or folder on the server that have to be synchronized.
 
@@ -44,7 +44,7 @@ public ItemEstimate[] GetItemEstimate(params ItemEstimateRequest[] request)
 | --- | --- | --- |
 | request | ItemEstimateRequest[] | Array with ItemEstimate request parameters |
 
-## Return Value
+### Return Value
 
 Contains array with estimates on the requested folders
 
@@ -58,7 +58,7 @@ Contains array with estimates on the requested folders
 
 ---
 
-## IActiveSyncTLClient.GetItemEstimate method (3 of 3)
+## GetItemEstimate(IEnumerable&lt;ItemEstimateRequest&gt;) {#getitemestimate_2}
 
 The GetItemEstimate command gets an estimate of the number of items in a collection or folder on the server that have to be synchronized.
 
@@ -70,7 +70,7 @@ public ItemEstimate[] GetItemEstimate(IEnumerable<ItemEstimateRequest> request)
 | --- | --- | --- |
 | request | IEnumerable`1 | Enumeration with ItemEstimate request parameters |
 
-## Return Value
+### Return Value
 
 Contains array with estimates on the requested folders
 

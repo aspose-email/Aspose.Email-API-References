@@ -1,12 +1,12 @@
 ---
 title: GetInstance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an instance of the ActiveSync client The version of the ActiveSync protocol is selected automatically according to server response.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.activesync.transportlayer/activesynctlclient/getinstance/
 ---
-## ActiveSyncTLClient.GetInstance method (1 of 2)
+## GetInstance(string, NetworkCredential) {#getinstance}
 
 Gets an instance of the ActiveSync client The version of the ActiveSync protocol is selected automatically according to server response.
 
@@ -19,7 +19,7 @@ public static IActiveSyncTLClient GetInstance(string uri, NetworkCredential cred
 | uri | String | server uri |
 | credentials | NetworkCredential | user credentials |
 
-## Return Value
+### Return Value
 
 Returns an instance of the ActiveSync client
 
@@ -32,7 +32,7 @@ Returns an instance of the ActiveSync client
 
 ---
 
-## ActiveSyncTLClient.GetInstance method (2 of 2)
+## GetInstance(string, NetworkCredential, ASProtocolVersions) {#getinstance_1}
 
 Gets an instance of the ActiveSync client
 
@@ -47,7 +47,7 @@ public static IActiveSyncTLClient GetInstance(string uri, NetworkCredential cred
 | credentials | NetworkCredential | user credentials |
 | version | ASProtocolVersions | ActiveSync protocol version |
 
-## Return Value
+### Return Value
 
 Returns an instance of the ActiveSync client
 

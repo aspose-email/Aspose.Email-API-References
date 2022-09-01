@@ -1,7 +1,7 @@
 ---
 title: ExchangeDelegateOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates delegation options
 type: docs
 weight: 3770
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegateoptions/
@@ -15,7 +15,7 @@ Enumerates delegation options
 public enum ExchangeDelegateOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,9 +1,9 @@
 ---
 title: InstantMessengerList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of instant messenger addresses for a contact.
 type: docs
-weight: 19250
+weight: 19460
 url: /net/aspose.email.personalinfo/instantmessengerlist/
 ---
 ## InstantMessengerList class

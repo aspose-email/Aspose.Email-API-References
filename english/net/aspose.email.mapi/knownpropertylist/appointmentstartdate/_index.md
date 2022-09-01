@@ -1,7 +1,7 @@
 ---
 title: AppointmentStartDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the date that the appointment starts. Area Calendar Canonical name PidLidAppointmentStartDate Alternate names dispidApptStartDate
 type: docs
 weight: 1300
 url: /net/aspose.email.mapi/knownpropertylist/appointmentstartdate/

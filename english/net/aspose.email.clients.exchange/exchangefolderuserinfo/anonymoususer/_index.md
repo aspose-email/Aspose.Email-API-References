@@ -1,7 +1,7 @@
 ---
 title: AnonymousUser
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets Anonymous user account
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/exchangefolderuserinfo/anonymoususer/

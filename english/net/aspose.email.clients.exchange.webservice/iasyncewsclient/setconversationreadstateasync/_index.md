@@ -1,7 +1,7 @@
 ---
 title: SetConversationReadStateAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set read state of the conversation items which are located in the specified folder to the specified value
 type: docs
 weight: 620
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/setconversationreadstateasync/

@@ -1,12 +1,12 @@
 ---
 title: FormatNotSupportedException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FormatNotSupportedExceptionaspose.email/formatnotsupportedexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/formatnotsupportedexception/formatnotsupportedexception/
 ---
-## FormatNotSupportedException constructor (1 of 3)
+## FormatNotSupportedException() {#constructor}
 
 Initializes a new instance of the [`FormatNotSupportedException`](../../formatnotsupportedexception) class.
 
@@ -22,7 +22,7 @@ public FormatNotSupportedException()
 
 ---
 
-## FormatNotSupportedException constructor (2 of 3)
+## FormatNotSupportedException(string) {#constructor_1}
 
 Initializes a new instance of the [`FormatNotSupportedException`](../../formatnotsupportedexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public FormatNotSupportedException(string message)
 
 ---
 
-## FormatNotSupportedException constructor (3 of 3)
+## FormatNotSupportedException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`FormatNotSupportedException`](../../formatnotsupportedexception) class with a specified error message.
 

@@ -1,7 +1,7 @@
 ---
 title: Archive
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The archive folder messages are sent to when using the One_Click Archive feature in Outlook clients that support it. Note this is not the same as the Archive Mailbox feature of Exchange online.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.graph/knownfolders/archive/

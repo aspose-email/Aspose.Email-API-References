@@ -1,9 +1,9 @@
 ---
 title: ForwardMessageBuilder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides creation and formatting the forwarding messages.
 type: docs
-weight: 20200
+weight: 20430
 url: /net/aspose.email.tools/forwardmessagebuilder/
 ---
 ## ForwardMessageBuilder class
@@ -32,8 +32,8 @@ public class ForwardMessageBuilder : ResponseMessageBuilder
 
 | Name | Description |
 | --- | --- |
-| override [BuildResponse](../../aspose.email.tools/forwardmessagebuilder/buildresponse)(MailMessage) | Builds the forwarding messages. |
-| override [BuildResponse](../../aspose.email.tools/forwardmessagebuilder/buildresponse)(MapiMessage) | Builds the forwarding messages. |
+| override [BuildResponse](../../aspose.email.tools/forwardmessagebuilder/buildresponse#buildresponse)(MailMessage) | Builds the forwarding messages. |
+| override [BuildResponse](../../aspose.email.tools/forwardmessagebuilder/buildresponse#buildresponse_1)(MapiMessage) | Builds the forwarding messages. |
 
 ### See Also
 

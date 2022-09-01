@@ -1,7 +1,7 @@
 ---
 title: AllOrNone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A client can include multiple BodyPreference elements in a command request with different values for the Type element section 2.2.2.22.4. By default the server returns the data truncated to the size requested by TruncationSize for the Type element that matches the native storage format of the items Body element. But if the client also includes the AllOrNone element with a value of TRUE along with the TruncationSize element it is instructing the server not to return a truncated response for that type when the size in bytes of the available data exceeds the value of the TruncationSize element. For example a client can use these two elements to signify that it cannot process partial Rich Text Format RTF data a Type element value of 3. In this case if the client has specified multiple BodyPreference elements the server selects the next BodyPreference element that will return the maximum amount of body text to the client. Assume that the client specifies two BodyPreference elements. If the AllOrNone element is not defined then the truncated or nontruncated content is searched synchronized or retrieved as if the value was set to FALSE.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/bodypreference/allornone/

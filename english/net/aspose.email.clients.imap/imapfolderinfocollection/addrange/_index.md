@@ -1,7 +1,7 @@
 ---
 title: AddRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the ImapFolderInfo to the ImapFolderInfoCollection.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/imapfolderinfocollection/addrange/

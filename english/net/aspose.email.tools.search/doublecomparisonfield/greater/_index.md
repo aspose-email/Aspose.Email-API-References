@@ -1,7 +1,7 @@
 ---
 title: Greater
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field must be greater than the specified value.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.search/doublecomparisonfield/greater/
@@ -18,7 +18,7 @@ public MailQuery Greater(double value)
 | --- | --- | --- |
 | value | Double | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

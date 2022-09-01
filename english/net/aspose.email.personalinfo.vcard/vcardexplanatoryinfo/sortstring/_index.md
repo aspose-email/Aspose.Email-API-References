@@ -1,9 +1,9 @@
 ---
 title: SortString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a sort string
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sortstring/
 ---
 ## VCardExplanatoryInfo.SortString property

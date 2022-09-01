@@ -1,9 +1,9 @@
 ---
 title: FileDataObject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the file data.
 type: docs
-weight: 20660
+weight: 20890
 url: /net/aspose.email.windows.forms/filedataobject/
 ---
 ## FileDataObject class

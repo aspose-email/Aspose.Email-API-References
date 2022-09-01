@@ -1,7 +1,7 @@
 ---
 title: SettingName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the name of the setting.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/usersettingerror/settingname/
@@ -14,7 +14,7 @@ Gets the name of the setting.
 public string SettingName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The name of the setting.
 

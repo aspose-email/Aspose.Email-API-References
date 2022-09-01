@@ -1,7 +1,7 @@
 ---
 title: ClientSecret
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The client secret obtained during application registration.
 type: docs
 weight: 30
 url: /net/aspose.email.clients/tokenprovider/clientsecret/

@@ -1,7 +1,7 @@
 ---
 title: Recipient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a single recipient that has been resolved.
 type: docs
 weight: 1790
 url: /net/aspose.email.clients.activesync.transportlayer/recipient/

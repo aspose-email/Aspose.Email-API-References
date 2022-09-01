@@ -1,7 +1,7 @@
 ---
 title: ExchangeMessageInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ExchangeMessageInfo represents the EMail message info fetched from the Exchange Store.
 type: docs
 weight: 3400
 url: /net/aspose.email.clients.exchange/exchangemessageinfo/

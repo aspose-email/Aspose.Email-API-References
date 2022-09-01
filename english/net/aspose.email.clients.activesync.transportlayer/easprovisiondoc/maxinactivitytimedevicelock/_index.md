@@ -1,7 +1,7 @@
 ---
 title: MaxInactivityTimeDeviceLock
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum number of seconds of inactivity before the device locks itself. If this value is greater than or equal to 9999 the client interprets it as unlimited. If the MaxInactivityTimeDeviceLock is null the client interprets this as meaning that no time device lock has been set by the security policy.
 type: docs
 weight: 320
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/maxinactivitytimedevicelock/

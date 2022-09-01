@@ -1,7 +1,7 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the folder in which to search. If the DeepTraversal is present it applies to all folders under each CollectionId. If the CollectionId is included as a child of any element other than And the server responds with a Status value of 8 SearchTooComplex.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/querytype/collectionid/

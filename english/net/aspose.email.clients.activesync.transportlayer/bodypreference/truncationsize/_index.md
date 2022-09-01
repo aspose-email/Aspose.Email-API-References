@@ -1,7 +1,7 @@
 ---
 title: TruncationSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the size which is used by a server to truncate returned data. The maximum value for TruncationSize is 4294967295. If the TruncationSize element is not defined the entire content is used for the request.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/bodypreference/truncationsize/

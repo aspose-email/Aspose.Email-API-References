@@ -1,7 +1,7 @@
 ---
 title: PR_EXCEPTION_REPLACETIME
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the original date and time in UTC at which the instance in the recurrence pattern would have occurred if it were not an exception.
 type: docs
 weight: 11390
 url: /net/aspose.email.mapi/mapipropertytag/pr_exception_replacetime/

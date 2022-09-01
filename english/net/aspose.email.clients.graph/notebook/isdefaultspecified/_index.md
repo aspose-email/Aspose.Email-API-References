@@ -1,7 +1,7 @@
 ---
 title: IsDefaultSpecified
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether IsDefault property is specified.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.graph/notebook/isdefaultspecified/

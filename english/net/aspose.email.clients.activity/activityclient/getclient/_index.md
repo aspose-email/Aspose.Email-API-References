@@ -1,12 +1,12 @@
 ---
 title: GetClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ActivityClientaspose.email.clients.activity/activityclient based class
 type: docs
 weight: 140
 url: /net/aspose.email.clients.activity/activityclient/getclient/
 ---
-## ActivityClient.GetClient method (1 of 2)
+## GetClient(IMultipleServicesTokenProvider, string) {#getclient}
 
 Initializes a new instance of the [`ActivityClient`](../../activityclient) based class
 
@@ -20,7 +20,7 @@ public static IActivityClient GetClient(IMultipleServicesTokenProvider tokenProv
 | tokenProvider | IMultipleServicesTokenProvider | Token provider allows to retrieve OAuth access token |
 | tenantId | String | A tenant is representation of an organization. It's a dedicated instance of Azure AD that an organization or app developer receives when the organization or app developer, creates a relationship with Microsoft like signing up for Azure, Microsoft Intune, or Microsoft 365. |
 
-## Return Value
+### Return Value
 
 Returns IActivityClient object
 
@@ -34,7 +34,7 @@ Returns IActivityClient object
 
 ---
 
-## ActivityClient.GetClient method (2 of 2)
+## GetClient(ITokenProvider, string) {#getclient_1}
 
 Initializes a new instance of the [`ActivityClient`](../../activityclient) based class
 
@@ -47,7 +47,7 @@ public static IActivityClient GetClient(ITokenProvider tokenProvider, string ten
 | tokenProvider | ITokenProvider | Token provider allows to retrieve OAuth access token |
 | tenantId | String | A tenant is representation of an organization. It's a dedicated instance of Azure AD that an organization or app developer receives when the organization or app developer, creates a relationship with Microsoft like signing up for Azure, Microsoft Intune, or Microsoft 365. |
 
-## Return Value
+### Return Value
 
 Returns IActivityClient object
 

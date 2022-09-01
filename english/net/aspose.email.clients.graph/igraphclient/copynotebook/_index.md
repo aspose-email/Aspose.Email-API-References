@@ -1,7 +1,7 @@
 ---
 title: CopyNotebook
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copies a notebook to the Notebooks folder in the destination Documents library. The folder is created if it doesnt exist. For Copy operations you follow an asynchronous calling pattern First call the Copy action and then poll the operation endpoint for the result. Permissions One of the following permissions is required to call this API. Delegatedwork or school account Notes.Create Notes.ReadWrite Notes.ReadWrite.All Delegatedpersonal Microsoft account Notes.Create Notes.ReadWrite Application Notes.ReadWrite.All
 type: docs
 weight: 100
 url: /net/aspose.email.clients.graph/igraphclient/copynotebook/
@@ -20,7 +20,7 @@ public string CopyNotebook(string itemId, string groupId, string renameAs)
 | groupId | String | The id of the group to copy to. Use only when copying to an Office 365 group. |
 | renameAs | String | The name of the copy. Defaults to the name of the existing item. |
 
-## Return Value
+### Return Value
 
 If successful, this method returns an Operation-Location string. You may use this value to get the status of the operation.
 

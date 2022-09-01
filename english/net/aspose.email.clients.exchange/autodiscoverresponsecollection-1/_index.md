@@ -1,7 +1,7 @@
 ---
 title: AutodiscoverResponseCollectionTResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a collection of responses to a call to the Autodiscover service.
 type: docs
 weight: 3080
 url: /net/aspose.email.clients.exchange/autodiscoverresponsecollection-1/

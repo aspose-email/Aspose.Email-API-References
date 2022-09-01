@@ -1,7 +1,7 @@
 ---
 title: Parent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Parent DataContainer
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/parent/

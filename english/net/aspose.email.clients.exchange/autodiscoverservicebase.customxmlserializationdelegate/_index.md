@@ -1,7 +1,7 @@
 ---
 title: AutodiscoverServiceBase.CustomXmlSerializationDelegate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines a delegate that is used to allow applications to emit custom XML when SOAP requests are sent to Exchange.
 type: docs
 weight: 3110
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase.customxmlserializationdelegate/

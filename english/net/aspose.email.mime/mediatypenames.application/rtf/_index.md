@@ -1,7 +1,7 @@
 ---
 title: Rtf
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies application/rtf media type
 type: docs
 weight: 30
 url: /net/aspose.email.mime/mediatypenames.application/rtf/

@@ -1,7 +1,7 @@
 ---
 title: ClassificationKeep
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the message uses any classification categories. Area General Message Properties Canonical name PidLidClassificationKeep Alternate names dispidClassKeep
 type: docs
 weight: 2650
 url: /net/aspose.email.mapi/knownpropertylist/classificationkeep/

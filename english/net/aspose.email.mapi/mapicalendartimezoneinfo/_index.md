@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarTimeZoneInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the mapi calendar time zone rule
 type: docs
-weight: 17940
+weight: 18150
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/
 ---
 ## MapiCalendarTimeZoneInfo class

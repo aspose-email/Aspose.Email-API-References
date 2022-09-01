@@ -1,7 +1,7 @@
 ---
 title: IntendedBusyStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the PidLidBusyStatus property section 2.47 on the Meeting object was sent. Area Meetings Canonical name PidLidIntendedBusyStatus Alternate names dispidIntendedBusyStatus
 type: docs
 weight: 11400
 url: /net/aspose.email.mapi/knownpropertylist/intendedbusystatus/

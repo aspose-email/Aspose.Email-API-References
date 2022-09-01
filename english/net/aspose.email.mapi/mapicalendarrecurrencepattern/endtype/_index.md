@@ -1,7 +1,7 @@
 ---
 title: EndType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the ending type for the recurrence.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicalendarrecurrencepattern/endtype/

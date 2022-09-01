@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Finalizes all operations with a server.
 type: docs
 weight: 600
 url: /net/aspose.email.clients.imap/imapclient/dispose/

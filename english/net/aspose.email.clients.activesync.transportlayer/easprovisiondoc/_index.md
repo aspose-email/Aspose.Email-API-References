@@ -1,7 +1,7 @@
 ---
 title: EASProvisionDoc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the collection of security settings for device provisioning.
 type: docs
 weight: 1190
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/

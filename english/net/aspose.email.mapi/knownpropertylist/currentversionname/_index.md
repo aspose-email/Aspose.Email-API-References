@@ -1,7 +1,7 @@
 ---
 title: CurrentVersionName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the name of the client application that sent the message. Area General Message Properties Canonical name PidLidCurrentVersionName Alternate names dispidCurrentVersionName
 type: docs
 weight: 3600
 url: /net/aspose.email.mapi/knownpropertylist/currentversionname/

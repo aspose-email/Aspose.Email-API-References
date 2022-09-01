@@ -1,7 +1,7 @@
 ---
 title: FileCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets dropped files collection.
 type: docs
 weight: 20
 url: /net/aspose.email.windows.wpf/filedropeventargs/filecollection/

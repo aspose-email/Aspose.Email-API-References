@@ -1,7 +1,7 @@
 ---
 title: EnsureRegistered
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Ensures the registered.
 type: docs
 weight: 30
 url: /net/aspose.email.windows.forms/filedroptargetmanager/ensureregistered/

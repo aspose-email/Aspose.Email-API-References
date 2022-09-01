@@ -1,7 +1,7 @@
 ---
 title: CountryCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a country code
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/postaladdress/countrycode/

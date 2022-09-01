@@ -1,7 +1,7 @@
 ---
 title: ReceivedByEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the address book EntryID of the mailbox receiving the Email object. Area Address Properties Canonical name PidTagReceivedByEntryId Alternate names PR_RECEIVED_BY_ENTRYID
 type: docs
 weight: 15290
 url: /net/aspose.email.mapi/knownpropertylist/receivedbyentryid/

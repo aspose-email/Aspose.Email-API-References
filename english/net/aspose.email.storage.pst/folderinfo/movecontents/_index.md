@@ -1,7 +1,7 @@
 ---
 title: MoveContents
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Moves the contents to a new folder.
 type: docs
 weight: 320
 url: /net/aspose.email.storage.pst/folderinfo/movecontents/

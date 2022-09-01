@@ -1,7 +1,7 @@
 ---
 title: ClipStart
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the start date and time of the event in UTC. Area Calendar Canonical name PidLidClipStart Alternate names dispidClipStart
 type: docs
 weight: 2720
 url: /net/aspose.email.mapi/knownpropertylist/clipstart/

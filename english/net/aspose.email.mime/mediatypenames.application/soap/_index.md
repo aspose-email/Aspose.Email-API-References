@@ -1,7 +1,7 @@
 ---
 title: Soap
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies application/soapxml media type
 type: docs
 weight: 40
 url: /net/aspose.email.mime/mediatypenames.application/soap/

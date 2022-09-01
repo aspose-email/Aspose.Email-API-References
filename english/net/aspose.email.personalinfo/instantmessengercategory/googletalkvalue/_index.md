@@ -1,7 +1,7 @@
 ---
 title: GoogleTalkValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for GoogleTalk category
 type: docs
 weight: 210
 url: /net/aspose.email.personalinfo/instantmessengercategory/googletalkvalue/

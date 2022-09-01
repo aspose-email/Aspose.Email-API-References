@@ -1,7 +1,7 @@
 ---
 title: CopyToFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the folder that email items will be copied to.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/ruleactions/copytofolder/

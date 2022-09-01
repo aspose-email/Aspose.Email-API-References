@@ -1,7 +1,7 @@
 ---
 title: NoModSeq
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value which indicates if mailbox supports modsequences. This property works only if server supports CONDSTORE extension. Please read more https//tools.ietf.org/html/rfc4551section3.1.2
 type: docs
 weight: 80
 url: /net/aspose.email.clients.imap/imapfolderinfo/nomodseq/

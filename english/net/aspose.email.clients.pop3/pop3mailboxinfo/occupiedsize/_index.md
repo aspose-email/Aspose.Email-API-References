@@ -1,7 +1,7 @@
 ---
 title: OccupiedSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the occupied size of the mailbox.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.pop3/pop3mailboxinfo/occupiedsize/
@@ -14,7 +14,7 @@ Gets the occupied size of the mailbox.
 public long OccupiedSize { get; }
 ```
 
-## Property Value
+### Property Value
 
 The occupied size.
 

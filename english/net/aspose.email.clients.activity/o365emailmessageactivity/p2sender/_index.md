@@ -1,7 +1,7 @@
 ---
 title: P2Sender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The from sender of the email message. Mandatory Yes
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/o365emailmessageactivity/p2sender/

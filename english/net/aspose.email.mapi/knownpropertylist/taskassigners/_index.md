@@ -1,7 +1,7 @@
 ---
 title: TaskAssigners
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a stack of entries each of which represents a task assigner. Area Tasks Canonical name PidLidTaskAssigners Alternate names dispidTaskMyDelegators
 type: docs
 weight: 18570
 url: /net/aspose.email.mapi/knownpropertylist/taskassigners/

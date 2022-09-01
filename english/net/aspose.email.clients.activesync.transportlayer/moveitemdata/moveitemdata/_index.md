@@ -1,12 +1,12 @@
 ---
 title: MoveItemData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MoveItemData class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/moveitemdata/moveitemdata/
 ---
-## MoveItemData constructor (1 of 2)
+## MoveItemData() {#constructor}
 
 Initializes a new instance of the MoveItemData class.
 
@@ -22,7 +22,7 @@ public MoveItemData()
 
 ---
 
-## MoveItemData constructor (2 of 2)
+## MoveItemData(string, string, string) {#constructor_1}
 
 Initializes a new instance of the MoveItemData class.
 

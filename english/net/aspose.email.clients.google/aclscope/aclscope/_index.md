@@ -1,12 +1,12 @@
 ---
 title: AclScope
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AclScope class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/aclscope/aclscope/
 ---
-## AclScope constructor (1 of 2)
+## AclScope() {#constructor}
 
 Initializes a new instance of the AclScope class.
 
@@ -22,7 +22,7 @@ public AclScope()
 
 ---
 
-## AclScope constructor (2 of 2)
+## AclScope(AclScopeType, string) {#constructor_1}
 
 Initializes a new instance of the AclScope class.
 

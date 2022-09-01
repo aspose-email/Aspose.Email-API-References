@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The identitys display name. Note that this may not always be available or up to date. For example if a user changes their display name the API may show the new value in a future response but the items associated with the user wont show up as having changed when using delta.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.graph/identity/displayname/

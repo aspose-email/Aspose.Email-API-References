@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a display name.
 type: docs
 weight: 40
 url: /net/aspose.email/mailaddress/displayname/
@@ -14,7 +14,7 @@ Gets or sets a display name.
 public string DisplayName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A String that contains the display name.
 

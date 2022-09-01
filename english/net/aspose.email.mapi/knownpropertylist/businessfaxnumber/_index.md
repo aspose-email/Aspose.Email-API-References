@@ -1,7 +1,7 @@
 ---
 title: BusinessFaxNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the telephone number of the mail users business fax machine. Area Contact Properties Canonical name PidTagBusinessFaxNumber Alternate names PR_BUSINESS_FAX_NUMBER PR_BUSINESS_FAX_NUMBER_A
 type: docs
 weight: 2120
 url: /net/aspose.email.mapi/knownpropertylist/businessfaxnumber/

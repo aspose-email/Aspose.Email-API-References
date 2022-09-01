@@ -1,7 +1,7 @@
 ---
 title: LocationFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the where format.
 type: docs
 weight: 70
 url: /net/aspose.email.calendar/appointmentformattingoptions/locationformat/
@@ -14,7 +14,7 @@ Gets or sets the where format.
 public string LocationFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The where format.
 

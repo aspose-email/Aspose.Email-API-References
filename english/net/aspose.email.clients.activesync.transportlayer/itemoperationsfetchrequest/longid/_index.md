@@ -1,7 +1,7 @@
 ---
 title: LongId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a unique identifier that was assigned by the server to each result returned by a previous Search response. The LongId value can be up to 256 characters in length.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/longid/

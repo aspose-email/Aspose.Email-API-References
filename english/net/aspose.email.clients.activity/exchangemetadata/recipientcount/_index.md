@@ -1,7 +1,7 @@
 ---
 title: RecipientCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The total number of all recipients on the TO CC and BCC lines of the message. Mandatory Yes
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/exchangemetadata/recipientcount/

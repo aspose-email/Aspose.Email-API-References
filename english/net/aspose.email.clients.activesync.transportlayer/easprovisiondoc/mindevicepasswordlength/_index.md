@@ -1,7 +1,7 @@
 ---
 title: MinDevicePasswordLength
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the minimum client password length. The MinDevicePasswordLength can be empty or have a value no less than 1 and no greater than 16. If the property is null or the value of this property is 1 there is no minimum length for the device password. If the value of the DevicePasswordEnabled is FALSE the client SHOULD ignore this property .
 type: docs
 weight: 340
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/mindevicepasswordlength/

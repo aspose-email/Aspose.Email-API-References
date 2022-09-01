@@ -1,7 +1,7 @@
 ---
 title: StartTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Start time during which the user is out of office.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/oofsettings/starttime/

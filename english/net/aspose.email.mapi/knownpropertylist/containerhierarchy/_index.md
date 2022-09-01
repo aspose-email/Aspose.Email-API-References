@@ -1,7 +1,7 @@
 ---
 title: ContainerHierarchy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies all of the subfolders of the current folder. Area Container Properties Canonical name PidTagContainerHierarchy Alternate names PR_CONTAINER_HIERARCHY ptagContainerHierarchy
 type: docs
 weight: 3130
 url: /net/aspose.email.mapi/knownpropertylist/containerhierarchy/

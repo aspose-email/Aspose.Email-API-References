@@ -1,7 +1,7 @@
 ---
 title: FolderType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the folder type for a given folder.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/foldertype/

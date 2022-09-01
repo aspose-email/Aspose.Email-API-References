@@ -1,7 +1,7 @@
 ---
 title: AddressBookHierarchicalChildDepartments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the child departments in a hierarchy of departments. Area Address Book Canonical name PidTagAddressBookHierarchicalChildDepartments Alternate names PR_EMS_AB_HAB_CHILD_DEPARTMENTS
 type: docs
 weight: 610
 url: /net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalchilddepartments/

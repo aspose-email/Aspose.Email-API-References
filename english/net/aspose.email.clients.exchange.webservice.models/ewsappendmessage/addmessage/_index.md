@@ -1,12 +1,12 @@
 ---
 title: AddMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add a mail message to append.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice.models/ewsappendmessage/addmessage/
 ---
-## EwsAppendMessage.AddMessage method (1 of 2)
+## AddMessage(MailMessage) {#addmessage}
 
 Add a mail message to append.
 
@@ -23,7 +23,7 @@ public EwsAppendMessage AddMessage(MailMessage message)
 
 ---
 
-## EwsAppendMessage.AddMessage method (2 of 2)
+## AddMessage(MapiMessage) {#addmessage_1}
 
 Add a MAPI message to append.
 

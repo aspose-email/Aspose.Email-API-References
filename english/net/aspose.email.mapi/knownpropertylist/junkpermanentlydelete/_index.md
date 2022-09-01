@@ -1,7 +1,7 @@
 ---
 title: JunkPermanentlyDelete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether messages identified as spam can be permanently deleted. Area Spam Canonical name PidTagJunkPermanentlyDelete Alternate names PR_JUNK_PERMANENTLY_DELETE
 type: docs
 weight: 11890
 url: /net/aspose.email.mapi/knownpropertylist/junkpermanentlydelete/

@@ -1,7 +1,7 @@
 ---
 title: LastModificationTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the last modification time.
 type: docs
 weight: 90
 url: /net/aspose.email.storage.pst/folderinfo/lastmodificationtime/
@@ -14,7 +14,7 @@ Gets the last modification time.
 public DateTime LastModificationTime { get; }
 ```
 
-## Property Value
+### Property Value
 
 The last modification time. If the folder doesn't have PR_LAST_MODIFICATION_TIME property, DateTime.MinValue is returned.
 

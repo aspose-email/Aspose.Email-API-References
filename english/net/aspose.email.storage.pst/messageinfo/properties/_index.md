@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the MessageInfo properties.
 type: docs
 weight: 80
 url: /net/aspose.email.storage.pst/messageinfo/properties/
@@ -14,7 +14,7 @@ Gets the MessageInfo properties.
 public MapiPropertyCollection Properties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The properties of MessageInfo.
 

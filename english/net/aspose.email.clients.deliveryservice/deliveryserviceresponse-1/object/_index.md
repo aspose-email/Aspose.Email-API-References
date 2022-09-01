@@ -1,7 +1,7 @@
 ---
 title: Object
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Object
 type: docs
 weight: 40
 url: /net/aspose.email.clients.deliveryservice/deliveryserviceresponse-1/object/

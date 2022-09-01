@@ -1,7 +1,7 @@
 ---
 title: Person
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesperson content class that defines a set of properties for an item that is a contact.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/person/
@@ -14,7 +14,7 @@ Gets the urn:content-classes:person content class that defines a set of properti
 public static ContentClassType Person { get; }
 ```
 
-## Property Value
+### Property Value
 
 The person content class.
 

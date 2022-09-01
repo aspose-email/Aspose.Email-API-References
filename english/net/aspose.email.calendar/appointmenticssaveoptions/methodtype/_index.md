@@ -1,7 +1,7 @@
 ---
 title: MethodType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the iCalendar object method type associated with the calendar object.
 type: docs
 weight: 60
 url: /net/aspose.email.calendar/appointmenticssaveoptions/methodtype/

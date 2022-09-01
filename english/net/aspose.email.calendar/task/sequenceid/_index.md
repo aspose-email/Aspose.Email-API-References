@@ -1,7 +1,7 @@
 ---
 title: SequenceId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the sequence id.
 type: docs
 weight: 110
 url: /net/aspose.email.calendar/task/sequenceid/
@@ -14,7 +14,7 @@ Gets or sets the sequence id.
 public int SequenceId { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The sequence id.
 

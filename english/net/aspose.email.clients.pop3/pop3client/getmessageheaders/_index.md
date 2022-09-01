@@ -1,12 +1,12 @@
 ---
 title: GetMessageHeaders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message headers
 type: docs
 weight: 210
 url: /net/aspose.email.clients.pop3/pop3client/getmessageheaders/
 ---
-## Pop3Client.GetMessageHeaders method (1 of 4)
+## GetMessageHeaders(IConnection, int) {#getmessageheaders}
 
 Gets the message headers
 
@@ -19,7 +19,7 @@ public HeaderCollection GetMessageHeaders(IConnection connection, int sequenceNu
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 HeaderCollection that represents collection of the headers
 
@@ -33,7 +33,7 @@ HeaderCollection that represents collection of the headers
 
 ---
 
-## Pop3Client.GetMessageHeaders method (2 of 4)
+## GetMessageHeaders(int) {#getmessageheaders_2}
 
 Gets the message headers
 
@@ -45,7 +45,7 @@ public HeaderCollection GetMessageHeaders(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 HeaderCollection that represents collection of the headers
 
@@ -58,7 +58,7 @@ HeaderCollection that represents collection of the headers
 
 ---
 
-## Pop3Client.GetMessageHeaders method (3 of 4)
+## GetMessageHeaders(IConnection, string) {#getmessageheaders_1}
 
 Gets the message headers
 
@@ -71,7 +71,7 @@ public HeaderCollection GetMessageHeaders(IConnection connection, string uniqueI
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 HeaderCollection that represents collection of the headers
 
@@ -85,7 +85,7 @@ HeaderCollection that represents collection of the headers
 
 ---
 
-## Pop3Client.GetMessageHeaders method (4 of 4)
+## GetMessageHeaders(string) {#getmessageheaders_3}
 
 Gets the message headers
 
@@ -97,7 +97,7 @@ public HeaderCollection GetMessageHeaders(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 HeaderCollection that represents collection of the headers
 

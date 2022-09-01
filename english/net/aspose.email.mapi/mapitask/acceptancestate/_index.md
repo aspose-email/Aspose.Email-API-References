@@ -1,7 +1,7 @@
 ---
 title: AcceptanceState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the acceptance state of the task.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapitask/acceptancestate/

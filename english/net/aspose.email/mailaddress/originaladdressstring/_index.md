@@ -1,7 +1,7 @@
 ---
 title: OriginalAddressString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the original email address string.
 type: docs
 weight: 80
 url: /net/aspose.email/mailaddress/originaladdressstring/
@@ -14,7 +14,7 @@ Gets or sets the original e-mail address string.
 public string OriginalAddressString { get; }
 ```
 
-## Property Value
+### Property Value
 
 A String that contains the original e-mail address.
 

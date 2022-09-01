@@ -1,7 +1,7 @@
 ---
 title: ImapMonitoringEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ImapMonitoringEventArgsaspose.email.clients.imap/imapmonitoringeventargs class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/imapmonitoringeventargs/imapmonitoringeventargs/

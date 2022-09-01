@@ -1,12 +1,12 @@
 ---
 title: FromMailMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates an instance of MapiMessage from the MailMessage.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapimessage/frommailmessage/
 ---
-## MapiMessage.FromMailMessage method (1 of 3)
+## FromMailMessage(string) {#frommailmessage_2}
 
 Creates an instance of MapiMessage from the MailMessage.
 
@@ -18,7 +18,7 @@ public static MapiMessage FromMailMessage(string fileName)
 | --- | --- | --- |
 | fileName | String | The file name of MailMessage. |
 
-## Return Value
+### Return Value
 
 Returns a MapiMessage instance which is loaded from the MailMessage.
 
@@ -30,7 +30,7 @@ Returns a MapiMessage instance which is loaded from the MailMessage.
 
 ---
 
-## MapiMessage.FromMailMessage method (2 of 3)
+## FromMailMessage(MailMessage) {#frommailmessage}
 
 Creates an instance of MapiMessage from the MailMessage.
 
@@ -42,7 +42,7 @@ public static MapiMessage FromMailMessage(MailMessage message)
 | --- | --- | --- |
 | message | MailMessage | The MailMessage. |
 
-## Return Value
+### Return Value
 
 Returns a MapiMessage instance which is loaded from the MailMessage.
 
@@ -55,7 +55,7 @@ Returns a MapiMessage instance which is loaded from the MailMessage.
 
 ---
 
-## MapiMessage.FromMailMessage method (3 of 3)
+## FromMailMessage(MailMessage, MapiConversionOptions) {#frommailmessage_1}
 
 Creates an instance of MapiMessage from the MailMessage.
 
@@ -68,7 +68,7 @@ public static MapiMessage FromMailMessage(MailMessage message, MapiConversionOpt
 | message | MailMessage | The MailMessage. |
 | options | MapiConversionOptions | MapiFromMailMessageOptions [`MapiConversionOptions`](../../mapiconversionoptions) |
 
-## Return Value
+### Return Value
 
 [`MapiMessage`](../../mapimessage) that represents Outlook message.
 

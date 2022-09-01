@@ -1,7 +1,7 @@
 ---
 title: MovedMessageIds
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The array of message ID which are moved to the junk mail folder.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice.exceptions/ewsmarkasjunkexception/movedmessageids/

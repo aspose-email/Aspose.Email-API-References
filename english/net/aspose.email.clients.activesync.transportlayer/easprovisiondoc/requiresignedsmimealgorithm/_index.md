@@ -1,7 +1,7 @@
 ---
 title: RequireSignedSMIMEAlgorithm
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the algorithm used when signing S/MIME messages.
 type: docs
 weight: 400
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requiresignedsmimealgorithm/

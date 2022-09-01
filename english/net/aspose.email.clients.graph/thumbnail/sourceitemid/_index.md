@@ -1,7 +1,7 @@
 ---
 title: SourceItemId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The unique identifier of the item that provided the thumbnail.This is only available when a folder thumbnail is requested.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.graph/thumbnail/sourceitemid/

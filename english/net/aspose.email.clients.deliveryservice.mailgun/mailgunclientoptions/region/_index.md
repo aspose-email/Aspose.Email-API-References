@@ -1,7 +1,7 @@
 ---
 title: Region
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: US or EU region.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.deliveryservice.mailgun/mailgunclientoptions/region/

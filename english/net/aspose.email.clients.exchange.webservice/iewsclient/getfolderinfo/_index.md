@@ -1,7 +1,7 @@
 ---
 title: GetFolderInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the folder information
 type: docs
 weight: 930
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getfolderinfo/
@@ -18,7 +18,7 @@ public ExchangeFolderInfo GetFolderInfo(string folder)
 | --- | --- | --- |
 | folder | String | A folder uri or distinguished folder name |
 
-## Return Value
+### Return Value
 
 A [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) that represents the folder information
 

@@ -1,7 +1,7 @@
 ---
 title: DateCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a collection of DateTime values.
 type: docs
 weight: 710
 url: /net/aspose.email.calendar.recurrences/datecollection/

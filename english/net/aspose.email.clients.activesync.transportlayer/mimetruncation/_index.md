@@ -1,7 +1,7 @@
 ---
 title: MIMETruncation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the MIME data of the email item SHOULD be truncated when it is sent from the server to the client.
 type: docs
 weight: 1490
 url: /net/aspose.email.clients.activesync.transportlayer/mimetruncation/
@@ -14,7 +14,7 @@ Specifies whether the MIME data of the email item SHOULD be truncated when it is
 public enum MIMETruncation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

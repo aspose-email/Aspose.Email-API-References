@@ -1,7 +1,7 @@
 ---
 title: EMailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the SMTP email address of the user and is used to identify the users mailbox in the network.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/autodiscoverresult/emailaddress/

@@ -1,7 +1,7 @@
 ---
 title: DeliveryAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a delivery addresses
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/deliveryaddresses/

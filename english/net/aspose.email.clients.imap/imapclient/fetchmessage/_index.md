@@ -1,12 +1,12 @@
 ---
 title: FetchMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the message
 type: docs
 weight: 650
 url: /net/aspose.email.clients.imap/imapclient/fetchmessage/
 ---
-## ImapClient.FetchMessage method (1 of 6)
+## FetchMessage(IConnection, int) {#fetchmessage}
 
 Fetches the message
 
@@ -19,7 +19,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -33,7 +33,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber)
 
 ---
 
-## ImapClient.FetchMessage method (2 of 6)
+## FetchMessage(IConnection, int, bool) {#fetchmessage_1}
 
 Fetches the message
 
@@ -47,7 +47,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber, bool
 | sequenceNumber | Int32 | The sequence number of message |
 | ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -61,7 +61,7 @@ public MailMessage FetchMessage(IConnection connection, int sequenceNumber, bool
 
 ---
 
-## ImapClient.FetchMessage method (3 of 6)
+## FetchMessage(int) {#fetchmessage_3}
 
 Fetches the message
 
@@ -73,7 +73,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -86,7 +86,7 @@ public MailMessage FetchMessage(int sequenceNumber)
 
 ---
 
-## ImapClient.FetchMessage method (4 of 6)
+## FetchMessage(int, bool) {#fetchmessage_4}
 
 Fetches the message
 
@@ -99,7 +99,7 @@ public MailMessage FetchMessage(int sequenceNumber, bool ignoreAttachment)
 | sequenceNumber | Int32 | The sequence number of message |
 | ignoreAttachment | Boolean | A value that defines whether the attachments should not be loaded. If it is set to `true`, then only message headers, message body and attachment information are fetched. Attachment content is not loaded |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -112,7 +112,7 @@ public MailMessage FetchMessage(int sequenceNumber, bool ignoreAttachment)
 
 ---
 
-## ImapClient.FetchMessage method (5 of 6)
+## FetchMessage(IConnection, string) {#fetchmessage_2}
 
 Fetches the message
 
@@ -125,7 +125,7 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 
@@ -139,7 +139,7 @@ public MailMessage FetchMessage(IConnection connection, string uniqueId)
 
 ---
 
-## ImapClient.FetchMessage method (6 of 6)
+## FetchMessage(string) {#fetchmessage_5}
 
 Fetches the message
 
@@ -151,7 +151,7 @@ public MailMessage FetchMessage(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of message |
 
-## Return Value
+### Return Value
 
 [`MailMessage`](../../../aspose.email/mailmessage) that represents e-mail message
 

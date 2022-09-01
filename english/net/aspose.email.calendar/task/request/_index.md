@@ -1,7 +1,7 @@
 ---
 title: Request
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Requests the object.
 type: docs
 weight: 160
 url: /net/aspose.email.calendar/task/request/
@@ -14,7 +14,7 @@ Requests the object.
 public AlternateView Request()
 ```
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 

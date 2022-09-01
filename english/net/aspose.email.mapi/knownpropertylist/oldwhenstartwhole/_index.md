@@ -1,7 +1,7 @@
 ---
 title: OldWhenStartWhole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the original value of the PidLidAppointmentStartWhole property section 2.29 before a meeting update. Area Meetings Canonical name PidLidOldWhenStartWhole Alternate names dispidOldWhenStartWhole
 type: docs
 weight: 13360
 url: /net/aspose.email.mapi/knownpropertylist/oldwhenstartwhole/

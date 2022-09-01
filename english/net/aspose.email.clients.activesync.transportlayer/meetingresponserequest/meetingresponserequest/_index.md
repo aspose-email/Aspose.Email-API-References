@@ -1,12 +1,12 @@
 ---
 title: MeetingResponseRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MeetingResponseRequest class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/meetingresponserequest/meetingresponserequest/
 ---
-## MeetingResponseRequest constructor (1 of 2)
+## MeetingResponseRequest() {#constructor}
 
 Initializes a new instance of the MeetingResponseRequest class.
 
@@ -22,7 +22,7 @@ public MeetingResponseRequest()
 
 ---
 
-## MeetingResponseRequest constructor (2 of 2)
+## MeetingResponseRequest(UserResponse, string, string, string, string) {#constructor_1}
 
 Initializes a new instance of the MeetingResponseRequest class.
 

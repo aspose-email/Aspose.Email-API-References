@@ -1,7 +1,7 @@
 ---
 title: RecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a recurrence pattern.
 type: docs
 weight: 760
 url: /net/aspose.email.calendar.recurrences/recurrencepattern/

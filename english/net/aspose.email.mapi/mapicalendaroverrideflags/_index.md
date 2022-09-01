@@ -1,9 +1,9 @@
 ---
 title: MapiCalendarOverrideFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies what data in the MapiCalendarOverrideFlags structure has a value different from the recurring series.
 type: docs
-weight: 17840
+weight: 18040
 url: /net/aspose.email.mapi/mapicalendaroverrideflags/
 ---
 ## MapiCalendarOverrideFlags enumeration
@@ -15,7 +15,7 @@ Specifies what data in the MapiCalendarOverrideFlags structure has a value diffe
 public enum MapiCalendarOverrideFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

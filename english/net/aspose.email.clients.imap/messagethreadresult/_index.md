@@ -1,9 +1,9 @@
 ---
 title: MessageThreadResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains result for SORT ot THREAD methods See more https//tools.ietf.org/html/rfc5256
 type: docs
-weight: 16500
+weight: 16530
 url: /net/aspose.email.clients.imap/messagethreadresult/
 ---
 ## MessageThreadResult class

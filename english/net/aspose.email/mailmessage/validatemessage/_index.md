@@ -1,12 +1,12 @@
 ---
 title: ValidateMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Validate eml message for corresponding to mime specification.
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.email/mailmessage/validatemessage/
 ---
-## MailMessage.ValidateMessage method (1 of 2)
+## ValidateMessage(string) {#validatemessage_1}
 
 Validate eml message for corresponding to mime specification.
 
@@ -18,7 +18,7 @@ public static EmlValidationErrorCollection ValidateMessage(string fileName)
 | --- | --- | --- |
 | fileName | String | A file name (eml). |
 
-## Return Value
+### Return Value
 
 A [`EmlValidationErrorCollection`](../../emlvalidationerrorcollection) containing the found validation error messages.
 
@@ -38,7 +38,7 @@ A [`EmlValidationErrorCollection`](../../emlvalidationerrorcollection) containin
 
 ---
 
-## MailMessage.ValidateMessage method (2 of 2)
+## ValidateMessage(Stream) {#validatemessage}
 
 Validate eml message for corresponding to mime specification.
 
@@ -50,7 +50,7 @@ public static EmlValidationErrorCollection ValidateMessage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream containing the message in eml format. |
 
-## Return Value
+### Return Value
 
 A [`EmlValidationErrorCollection`](../../emlvalidationerrorcollection) containing the found validation error messages.
 

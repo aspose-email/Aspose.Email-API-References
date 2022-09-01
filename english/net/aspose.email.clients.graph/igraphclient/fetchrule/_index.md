@@ -1,7 +1,7 @@
 ---
 title: FetchRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the properties and relationships of a message rule object. Permissions One of the following permissions is required to call this API.To learn more including how to choose permissions see Permissions. Delegated work or school account MailboxSettings.Read Delegated personal Microsoft account MailboxSettings.Read Application MailboxSettings.Read
 type: docs
 weight: 240
 url: /net/aspose.email.clients.graph/igraphclient/fetchrule/
@@ -18,7 +18,7 @@ public InboxRule FetchRule(string itemId)
 | --- | --- | --- |
 | itemId | String | Item id |
 
-## Return Value
+### Return Value
 
 Inbox rule
 

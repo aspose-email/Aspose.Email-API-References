@@ -1,7 +1,7 @@
 ---
 title: DataContainer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains data for a particular object such as a contact email message calendar appointment or task item. The DataContainer can be used to change items add items or fetch items on the client device or server.
 type: docs
 weight: 1150
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/
@@ -18,10 +18,10 @@ public class DataContainer : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [DataContainer](datacontainer)(string, Namespace) | Initializes a new instance of the DataContainer class. |
-| [DataContainer](datacontainer)(string, Namespace, DataContainer) | Initializes a new instance of the DataContainer class. |
-| [DataContainer](datacontainer)(string, Namespace, DataContainer, string) | Initializes a new instance of the DataContainer class. |
-| [DataContainer](datacontainer)(string, Namespace, DataContainer, string, bool) | Initializes a new instance of the DataContainer class. |
+| [DataContainer](datacontainer#constructor)(string, Namespace) | Initializes a new instance of the DataContainer class. |
+| [DataContainer](datacontainer#constructor_1)(string, Namespace, DataContainer) | Initializes a new instance of the DataContainer class. |
+| [DataContainer](datacontainer#constructor_2)(string, Namespace, DataContainer, string) | Initializes a new instance of the DataContainer class. |
+| [DataContainer](datacontainer#constructor_3)(string, Namespace, DataContainer, string, bool) | Initializes a new instance of the DataContainer class. |
 
 ## Properties
 
@@ -40,26 +40,26 @@ public class DataContainer : IEnumerable
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add)(string) | Adds data of element in xml format to the DataContainer. |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add)(XmlNode) | Adds data of element in xml format to the DataContainer. |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add)(int, Namespace) | Adds empty DataContainer for element. |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add)(int, string, Namespace) | Adds data of element to the DataContainer. |
-| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add)(int, string, bool, Namespace) | Adds data of element to the DataContainer. |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(AirSync) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(AirSyncBase) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(Calendar) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(Contacts) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(Contacts2) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(DocumentLibrary) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(Email) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(Email2) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(GAL) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(ItemOperations) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(Notes) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(RightsManagement) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(Search) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(Settings) | Gets list of DataContainers for selected element |
-| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist)(Tasks) | Gets list of DataContainers for selected element |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_3)(string) | Adds data of element in xml format to the DataContainer. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_4)(XmlNode) | Adds data of element in xml format to the DataContainer. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add)(int, Namespace) | Adds empty DataContainer for element. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_1)(int, string, Namespace) | Adds data of element to the DataContainer. |
+| [Add](../../aspose.email.clients.activesync.transportlayer/datacontainer/add#add_2)(int, string, bool, Namespace) | Adds data of element to the DataContainer. |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist)(AirSync) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_1)(AirSyncBase) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_2)(Calendar) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_3)(Contacts) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_4)(Contacts2) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_5)(DocumentLibrary) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_6)(Email) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_7)(Email2) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_8)(GAL) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_9)(ItemOperations) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_10)(Notes) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_11)(RightsManagement) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_12)(Search) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_13)(Settings) | Gets list of DataContainers for selected element |
+| [GetApplicationDataList](../../aspose.email.clients.activesync.transportlayer/datacontainer/getapplicationdatalist#getapplicationdatalist_14)(Tasks) | Gets list of DataContainers for selected element |
 | [GetEnumerator](../../aspose.email.clients.activesync.transportlayer/datacontainer/getenumerator)() | Returns an enumerator that iterates through the collection. |
 | override [ToString](../../aspose.email.clients.activesync.transportlayer/datacontainer/tostring)() | Returns a string that represents the current object. |
 

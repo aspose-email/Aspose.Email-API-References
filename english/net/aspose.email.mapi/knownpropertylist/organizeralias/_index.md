@@ -1,7 +1,7 @@
 ---
 title: OrganizerAlias
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the email address of the organizer. Area Conferencing Canonical name PidLidOrganizerAlias Alternate names dispidOrgAlias
 type: docs
 weight: 13460
 url: /net/aspose.email.mapi/knownpropertylist/organizeralias/

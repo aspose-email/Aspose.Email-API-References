@@ -1,7 +1,7 @@
 ---
 title: SrcFldId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server ID of the source folder that is the folder that contains the items to be moved. The SrcFldId element value can be up to 64 characters in length.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/moveitemdata/srcfldid/

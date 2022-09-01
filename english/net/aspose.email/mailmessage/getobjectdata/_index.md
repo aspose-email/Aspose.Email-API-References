@@ -1,9 +1,9 @@
 ---
 title: GetObjectData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Populates a SerializationInfo with the data needed to serialize the target object.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.email/mailmessage/getobjectdata/
 ---
 ## MailMessage.GetObjectData method

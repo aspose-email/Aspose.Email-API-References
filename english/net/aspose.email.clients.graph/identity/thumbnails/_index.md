@@ -1,7 +1,7 @@
 ---
 title: Thumbnails
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ThumbnailSet resource is a keyed collection of thumbnail resources.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.graph/identity/thumbnails/

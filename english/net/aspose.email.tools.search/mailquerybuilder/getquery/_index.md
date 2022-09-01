@@ -1,7 +1,7 @@
 ---
 title: GetQuery
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the query.
 type: docs
 weight: 120
 url: /net/aspose.email.tools.search/mailquerybuilder/getquery/
@@ -14,7 +14,7 @@ Gets the query.
 public MailQuery GetQuery()
 ```
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query.
 

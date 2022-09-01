@@ -1,7 +1,7 @@
 ---
 title: MergedFreeBusy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the free/busy information for the users or distribution list identified in the request. Each item in the MergedFreeBusy list indicates the free/busy status for the user or distribution list for every 30 minute interval.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsavailabilityresponse/mergedfreebusy/

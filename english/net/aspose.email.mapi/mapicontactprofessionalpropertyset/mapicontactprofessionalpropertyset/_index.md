@@ -1,12 +1,12 @@
 ---
 title: MapiContactProfessionalPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiContactProfessionalPropertySetaspose.email.mapi/mapicontactprofessionalpropertyset class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/mapicontactprofessionalpropertyset/
 ---
-## MapiContactProfessionalPropertySet constructor (1 of 3)
+## MapiContactProfessionalPropertySet() {#constructor}
 
 Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../../mapicontactprofessionalpropertyset) class.
 
@@ -22,7 +22,7 @@ public MapiContactProfessionalPropertySet()
 
 ---
 
-## MapiContactProfessionalPropertySet constructor (2 of 3)
+## MapiContactProfessionalPropertySet(string, string) {#constructor_2}
 
 Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../../mapicontactprofessionalpropertyset) class.
 
@@ -43,7 +43,7 @@ public MapiContactProfessionalPropertySet(string companyName, string title)
 
 ---
 
-## MapiContactProfessionalPropertySet constructor (3 of 3)
+## MapiContactProfessionalPropertySet(MapiPropertyCollection) {#constructor_1}
 
 Initializes a new instance of the [`MapiContactProfessionalPropertySet`](../../mapicontactprofessionalpropertyset) class
 

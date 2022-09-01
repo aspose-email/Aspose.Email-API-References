@@ -1,12 +1,12 @@
 ---
 title: MailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MailAddressaspose.email/mailaddress class.
 type: docs
 weight: 10
 url: /net/aspose.email/mailaddress/mailaddress/
 ---
-## MailAddress constructor (1 of 6)
+## MailAddress(string, bool) {#constructor_1}
 
 Initializes a new instance of the [`MailAddress`](../../mailaddress) class.
 
@@ -27,7 +27,7 @@ public MailAddress(string address, bool ignoreSmtpCheck)
 
 ---
 
-## MailAddress constructor (2 of 6)
+## MailAddress(string, string, bool) {#constructor_3}
 
 Initializes a new instance of the [`MailAddress`](../../mailaddress) class.
 
@@ -49,7 +49,7 @@ public MailAddress(string address, string displayName, bool ignoreSmtpCheck)
 
 ---
 
-## MailAddress constructor (3 of 6)
+## MailAddress(string, string, Encoding) {#constructor_4}
 
 Initializes a new instance of the [`MailAddress`](../../mailaddress) class.
 
@@ -71,7 +71,7 @@ public MailAddress(string address, string displayName, Encoding displayNameEncod
 
 ---
 
-## MailAddress constructor (4 of 6)
+## MailAddress(string, string, Encoding, bool) {#constructor_5}
 
 Initializes a new instance of the [`MailAddress`](../../mailaddress) class.
 
@@ -95,7 +95,7 @@ public MailAddress(string address, string displayName, Encoding displayNameEncod
 
 ---
 
-## MailAddress constructor (5 of 6)
+## MailAddress(string) {#constructor}
 
 Initializes a new instance of the [`MailAddress`](../../mailaddress) class.
 
@@ -115,7 +115,7 @@ public MailAddress(string address)
 
 ---
 
-## MailAddress constructor (6 of 6)
+## MailAddress(string, string) {#constructor_2}
 
 Initializes a new instance of the [`MailAddress`](../../mailaddress) class.
 

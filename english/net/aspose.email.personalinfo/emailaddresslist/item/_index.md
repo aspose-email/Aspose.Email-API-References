@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default email address for specified category.
 type: docs
 weight: 80
 url: /net/aspose.email.personalinfo/emailaddresslist/item/
@@ -18,7 +18,7 @@ public EmailAddress this[EmailAddressCategory category] { get; set; }
 | --- | --- |
 | category | Category for email address |
 
-## Return Value
+### Return Value
 
 default email address for specified category.
 
@@ -44,7 +44,7 @@ public EmailAddress this[int index] { get; set; }
 | --- | --- |
 | index | The zero-based index of the element to get or set. |
 
-## Return Value
+### Return Value
 
 The element at the specified index.
 

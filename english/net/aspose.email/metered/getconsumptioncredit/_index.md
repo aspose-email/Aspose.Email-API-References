@@ -1,7 +1,7 @@
 ---
 title: GetConsumptionCredit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets consumption credit
 type: docs
 weight: 30
 url: /net/aspose.email/metered/getconsumptioncredit/
@@ -14,7 +14,7 @@ Gets consumption credit
 public static decimal GetConsumptionCredit()
 ```
 
-## Return Value
+### Return Value
 
 consumption quantity
 

@@ -1,7 +1,7 @@
 ---
 title: Redirect
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the SMTP address of the requested user.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/autodiscoverresult/redirect/

@@ -1,7 +1,7 @@
 ---
 title: AllowUnsignedInstallationPackages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows unsigned cabinet .cab files to be installed.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowunsignedinstallationpackages/

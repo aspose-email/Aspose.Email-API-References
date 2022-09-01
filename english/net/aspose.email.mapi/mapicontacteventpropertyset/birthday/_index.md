@@ -1,7 +1,7 @@
 ---
 title: Birthday
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the birthday of the contact
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontacteventpropertyset/birthday/

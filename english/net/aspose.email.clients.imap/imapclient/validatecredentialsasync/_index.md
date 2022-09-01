@@ -1,12 +1,12 @@
 ---
 title: ValidateCredentialsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Executes credentials validation
 type: docs
 weight: 1300
 url: /net/aspose.email.clients.imap/imapclient/validatecredentialsasync/
 ---
-## ImapClient.ValidateCredentialsAsync method (1 of 4)
+## ValidateCredentialsAsync(IConnection) {#validatecredentialsasync_1}
 
 Executes credentials validation
 
@@ -18,7 +18,7 @@ public Task<bool> ValidateCredentialsAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ValidateCredentialsAsync method (2 of 4)
+## ValidateCredentialsAsync() {#validatecredentialsasync}
 
 Executes credentials validation
 
@@ -39,7 +39,7 @@ Executes credentials validation
 public Task<bool> ValidateCredentialsAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -51,7 +51,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ValidateCredentialsAsync method (3 of 4)
+## ValidateCredentialsAsync(IConnection, CancellationToken) {#validatecredentialsasync_2}
 
 Executes credentials validation
 
@@ -64,7 +64,7 @@ public Task<bool> ValidateCredentialsAsync(IConnection connection, CancellationT
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -77,7 +77,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ValidateCredentialsAsync method (4 of 4)
+## ValidateCredentialsAsync(CancellationToken) {#validatecredentialsasync_3}
 
 Executes credentials validation
 
@@ -89,7 +89,7 @@ public Task<bool> ValidateCredentialsAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

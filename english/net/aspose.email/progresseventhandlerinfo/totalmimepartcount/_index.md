@@ -1,7 +1,7 @@
 ---
 title: TotalMimePartCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Total amount of mime parts.
 type: docs
 weight: 40
 url: /net/aspose.email/progresseventhandlerinfo/totalmimepartcount/

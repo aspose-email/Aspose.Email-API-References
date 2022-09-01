@@ -1,7 +1,7 @@
 ---
 title: EntryIdString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets string representation of entry ID.
 type: docs
 weight: 70
 url: /net/aspose.email.storage.pst/folderinfo/entryidstring/
@@ -14,7 +14,7 @@ Gets string representation of entry ID.
 public string EntryIdString { get; }
 ```
 
-## Property Value
+### Property Value
 
 The entry id string.
 

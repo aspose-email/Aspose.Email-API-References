@@ -1,7 +1,7 @@
 ---
 title: PhoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Telephone number
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activesync.transportlayer/deviceinformation/phonenumber/

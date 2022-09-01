@@ -1,7 +1,7 @@
 ---
 title: PreAuthenticate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value that indicates whether HTTP preauthentication should be performed.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/preauthenticate/

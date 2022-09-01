@@ -1,7 +1,7 @@
 ---
 title: BitwiseAnd
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implements the operator amp.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.imap/imapmessageflags/bitwiseand/
@@ -19,7 +19,7 @@ public static ImapMessageFlags BitwiseAnd(ImapMessageFlags a, ImapMessageFlags b
 | a | ImapMessageFlags | First set of imap message flags. |
 | b | ImapMessageFlags | Second set of imap message flags. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 

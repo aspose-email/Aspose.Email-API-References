@@ -1,7 +1,7 @@
 ---
 title: ReplyAllAllowed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the user can reply to all of the recipients 1 of the original email message. The value is TRUE if the user can reply to all of the recipients of the email message otherwise FALSE.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/replyallallowed/

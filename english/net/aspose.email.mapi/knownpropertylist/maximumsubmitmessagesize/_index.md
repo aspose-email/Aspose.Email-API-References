@@ -1,7 +1,7 @@
 ---
 title: MaximumSubmitMessageSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Maximum size in kilobytes of a message that a user is allowed to submit for transmission to another user. Area Message Store Properties Canonical name PidTagMaximumSubmitMessageSize Alternate names PR_MAX_SUBMIT_MESSAGE_SIZE
 type: docs
 weight: 12380
 url: /net/aspose.email.mapi/knownpropertylist/maximumsubmitmessagesize/

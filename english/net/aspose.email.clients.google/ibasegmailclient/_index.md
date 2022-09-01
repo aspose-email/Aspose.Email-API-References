@@ -1,7 +1,7 @@
 ---
 title: IBaseGmailClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Interface for base class of Gmail client
 type: docs
 weight: 15780
 url: /net/aspose.email.clients.google/ibasegmailclient/

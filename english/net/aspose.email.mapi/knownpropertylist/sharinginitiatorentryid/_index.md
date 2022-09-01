@@ -1,7 +1,7 @@
 ---
 title: SharingInitiatorEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the PidTagEntryId property section 2.674 for the Address Book object of the currently loggedon user. Area Sharing Canonical name PidLidSharingInitiatorEntryId Alternate names dispidSharingInitiatorEid
 type: docs
 weight: 17530
 url: /net/aspose.email.mapi/knownpropertylist/sharinginitiatorentryid/

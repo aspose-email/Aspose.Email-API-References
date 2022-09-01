@@ -1,7 +1,7 @@
 ---
 title: AlternateViews
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the collection of alternate views of message
 type: docs
 weight: 30
 url: /net/aspose.email/mailmessage/alternateviews/

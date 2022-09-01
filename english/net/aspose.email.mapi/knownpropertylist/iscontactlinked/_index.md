@@ -1,7 +1,7 @@
 ---
 title: IsContactLinked
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the contact is linked to other contacts. Area Contact Properties Canonical name PidLidIsContactLinked Alternate names dispidIsContactLinked
 type: docs
 weight: 11800
 url: /net/aspose.email.mapi/knownpropertylist/iscontactlinked/

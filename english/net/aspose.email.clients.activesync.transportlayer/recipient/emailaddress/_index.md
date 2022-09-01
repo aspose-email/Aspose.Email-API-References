@@ -1,7 +1,7 @@
 ---
 title: EmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the email address of the recipient in SMTP format.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/recipient/emailaddress/

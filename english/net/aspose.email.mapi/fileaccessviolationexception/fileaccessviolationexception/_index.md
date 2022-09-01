@@ -1,12 +1,12 @@
 ---
 title: FileAccessViolationException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the class with default error message.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/fileaccessviolationexception/fileaccessviolationexception/
 ---
-## FileAccessViolationException constructor (1 of 3)
+## FileAccessViolationException() {#constructor}
 
 Initializes a new instance of the class with default error message.
 
@@ -22,7 +22,7 @@ public FileAccessViolationException()
 
 ---
 
-## FileAccessViolationException constructor (2 of 3)
+## FileAccessViolationException(string) {#constructor_1}
 
 Initializes a new instance of the class with a specified error message.
 
@@ -42,7 +42,7 @@ public FileAccessViolationException(string message)
 
 ---
 
-## FileAccessViolationException constructor (3 of 3)
+## FileAccessViolationException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the Exception class with a specified error message and a reference to the inner exception that is the cause of this exception.
 

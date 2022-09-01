@@ -1,12 +1,12 @@
 ---
 title: Load
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Loads contact data
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo/contact/load/
 ---
-## Contact.Load method (1 of 4)
+## Load(string) {#load_2}
 
 Loads contact data
 
@@ -18,7 +18,7 @@ public static Contact Load(string filePath)
 | --- | --- | --- |
 | filePath | String | file path |
 
-## Return Value
+### Return Value
 
 Returns contact object
 
@@ -30,7 +30,7 @@ Returns contact object
 
 ---
 
-## Contact.Load method (2 of 4)
+## Load(string, ContactLoadFormat) {#load_3}
 
 Loads contact data
 
@@ -43,7 +43,7 @@ public static Contact Load(string filePath, ContactLoadFormat format)
 | filePath | String | file path |
 | format | ContactLoadFormat | Represents contact format |
 
-## Return Value
+### Return Value
 
 Returns contact object
 
@@ -56,7 +56,7 @@ Returns contact object
 
 ---
 
-## Contact.Load method (3 of 4)
+## Load(Stream) {#load}
 
 Loads contact data
 
@@ -68,7 +68,7 @@ public static Contact Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Contact stream |
 
-## Return Value
+### Return Value
 
 Returns contact object
 
@@ -80,7 +80,7 @@ Returns contact object
 
 ---
 
-## Contact.Load method (4 of 4)
+## Load(Stream, ContactLoadFormat) {#load_1}
 
 Loads contact data
 
@@ -93,7 +93,7 @@ public static Contact Load(Stream stream, ContactLoadFormat format)
 | stream | Stream | Contact stream |
 | format | ContactLoadFormat | Represents contact format |
 
-## Return Value
+### Return Value
 
 Returns contact object
 

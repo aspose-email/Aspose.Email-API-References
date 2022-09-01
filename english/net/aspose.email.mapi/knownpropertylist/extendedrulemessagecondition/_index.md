@@ -1,7 +1,7 @@
 ---
 title: ExtendedRuleMessageCondition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains condition information about named properties used in the rule. Area Rules Canonical name PidTagExtendedRuleMessageCondition Alternate names PR_EXTENDED_RULE_MSG_CONDITION
 type: docs
 weight: 10020
 url: /net/aspose.email.mapi/knownpropertylist/extendedrulemessagecondition/

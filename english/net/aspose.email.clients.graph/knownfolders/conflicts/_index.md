@@ -1,7 +1,7 @@
 ---
 title: Conflicts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The folder that contains conflicting items in the mailbox.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.graph/knownfolders/conflicts/

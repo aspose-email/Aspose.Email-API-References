@@ -1,7 +1,7 @@
 ---
 title: GetSubFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the subfolder by name.
 type: docs
 weight: 80
 url: /net/aspose.email.storage.olm/olmfolder/getsubfolder/
@@ -19,7 +19,7 @@ public OlmFolder GetSubFolder(string subfolderName, bool ignoreCase)
 | subfolderName | String | Name of subfolder. |
 | ignoreCase | Boolean | A value that indicates whether the name to match is case insensitive. |
 
-## Return Value
+### Return Value
 
 An OlmFolder object.
 

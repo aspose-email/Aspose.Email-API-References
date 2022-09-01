@@ -1,7 +1,7 @@
 ---
 title: Notes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Notes namespace of the ActiveSync protocol
 type: docs
 weight: 1600
 url: /net/aspose.email.clients.activesync.transportlayer/notes/
@@ -14,7 +14,7 @@ Notes namespace of the ActiveSync protocol
 public enum Notes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

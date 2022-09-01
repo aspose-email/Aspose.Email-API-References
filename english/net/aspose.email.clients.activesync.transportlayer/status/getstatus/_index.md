@@ -1,12 +1,12 @@
 ---
 title: GetStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets status by code.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/status/getstatus/
 ---
-## Status.GetStatus method (1 of 5)
+## GetStatus(int) {#getstatus_4}
 
 Gets status by code.
 
@@ -18,7 +18,7 @@ public static Status GetStatus(int statusCode)
 | --- | --- | --- |
 | statusCode | Int32 | Contains status code |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 
@@ -30,7 +30,7 @@ Returns status specified by code.
 
 ---
 
-## Status.GetStatus method (2 of 5)
+## GetStatus(CommandCodes, string) {#getstatus_2}
 
 Gets status by code.
 
@@ -43,7 +43,7 @@ public static Status GetStatus(CommandCodes commandCode, string statusCode)
 | commandCode | CommandCodes | Specifies ActiveSync command code. |
 | statusCode | String | Contains status code |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 
@@ -56,7 +56,7 @@ Returns status specified by code.
 
 ---
 
-## Status.GetStatus method (3 of 5)
+## GetStatus(CommandCodes, int) {#getstatus}
 
 Gets status by code.
 
@@ -69,7 +69,7 @@ public static Status GetStatus(CommandCodes commandCode, int statusCode)
 | commandCode | CommandCodes | Specifies ActiveSync command code. |
 | statusCode | Int32 | Contains status code |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 
@@ -82,7 +82,7 @@ Returns status specified by code.
 
 ---
 
-## Status.GetStatus method (4 of 5)
+## GetStatus(CommandCodes, string, int) {#getstatus_3}
 
 Gets status by code.
 
@@ -96,7 +96,7 @@ public static Status GetStatus(CommandCodes commandCode, string statusCode, int 
 | statusCode | String | Contains status code |
 | subCategory | Int32 | Specifies subcategory for status |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 
@@ -109,7 +109,7 @@ Returns status specified by code.
 
 ---
 
-## Status.GetStatus method (5 of 5)
+## GetStatus(CommandCodes, int, int) {#getstatus_1}
 
 Gets status by code.
 
@@ -123,7 +123,7 @@ public static Status GetStatus(CommandCodes commandCode, int statusCode, int sub
 | statusCode | Int32 | Contains status code |
 | subCategory | Int32 | Specifies subcategory for status |
 
-## Return Value
+### Return Value
 
 Returns status specified by code.
 

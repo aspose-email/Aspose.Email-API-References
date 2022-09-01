@@ -1,12 +1,12 @@
 ---
 title: ListMessagesByPageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the list of messages
 type: docs
 weight: 900
 url: /net/aspose.email.clients.imap/imapclient/listmessagesbypageasync/
 ---
-## ImapClient.ListMessagesByPageAsync method (1 of 4)
+## ListMessagesByPageAsync(int, int, PageSettings) {#listmessagesbypageasync_2}
 
 Gets the list of messages
 
@@ -21,7 +21,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffs
 | pageOffset | Int32 | An offset of next page in view |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -35,7 +35,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessagesByPageAsync method (2 of 4)
+## ListMessagesByPageAsync(MailQuery, PageInfo, PageSettings) {#listmessagesbypageasync}
 
 Gets the list of messages
 
@@ -50,7 +50,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo page
 | pageInfo | PageInfo | The next page to retrieve. |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -66,7 +66,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessagesByPageAsync method (3 of 4)
+## ListMessagesByPageAsync(int, int, PageSettings, CancellationToken) {#listmessagesbypageasync_3}
 
 Gets the list of messages
 
@@ -82,7 +82,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(int itemsPerPage, int pageOffs
 | settings | PageSettings | The settings. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -96,7 +96,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ListMessagesByPageAsync method (4 of 4)
+## ListMessagesByPageAsync(MailQuery, PageInfo, PageSettings, CancellationToken) {#listmessagesbypageasync_1}
 
 Gets the list of messages
 
@@ -112,7 +112,7 @@ public Task<ImapPageInfo> ListMessagesByPageAsync(MailQuery query, PageInfo page
 | settings | PageSettings | The settings. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

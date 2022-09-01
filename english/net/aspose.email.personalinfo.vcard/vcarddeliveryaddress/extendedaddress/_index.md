@@ -1,7 +1,7 @@
 ---
 title: ExtendedAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an extended address
 type: docs
 weight: 40
 url: /net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/extendedaddress/

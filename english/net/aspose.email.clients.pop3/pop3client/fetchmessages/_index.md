@@ -1,12 +1,12 @@
 ---
 title: FetchMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the messages
 type: docs
 weight: 130
 url: /net/aspose.email.clients.pop3/pop3client/fetchmessages/
 ---
-## Pop3Client.FetchMessages method (1 of 4)
+## FetchMessages(IEnumerable&lt;int&gt;) {#fetchmessages_2}
 
 Fetches the messages
 
@@ -18,7 +18,7 @@ public IList<MailMessage> FetchMessages(IEnumerable<int> sequenceNumbers)
 | --- | --- | --- |
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 
@@ -31,7 +31,7 @@ List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 
 ---
 
-## Pop3Client.FetchMessages method (2 of 4)
+## FetchMessages(IEnumerable&lt;string&gt;) {#fetchmessages_3}
 
 Fetches the messages
 
@@ -43,7 +43,7 @@ public IList<MailMessage> FetchMessages(IEnumerable<string> uids)
 | --- | --- | --- |
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 
@@ -56,7 +56,7 @@ List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 
 ---
 
-## Pop3Client.FetchMessages method (3 of 4)
+## FetchMessages(IConnection, IEnumerable&lt;int&gt;) {#fetchmessages}
 
 Fetches the messages
 
@@ -69,7 +69,7 @@ public IList<MailMessage> FetchMessages(IConnection connection, IEnumerable<int>
 | connection | IConnection | Connection to a server |
 | sequenceNumbers | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 
@@ -83,7 +83,7 @@ List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 
 ---
 
-## Pop3Client.FetchMessages method (4 of 4)
+## FetchMessages(IConnection, IEnumerable&lt;string&gt;) {#fetchmessages_1}
 
 Fetches the messages
 
@@ -96,7 +96,7 @@ public IList<MailMessage> FetchMessages(IConnection connection, IEnumerable<stri
 | connection | IConnection | Connection to a server |
 | uids | IEnumerable`1 | The sequence numbers of the messages |
 
-## Return Value
+### Return Value
 
 List of [`MailMessage`](../../../aspose.email/mailmessage) objects
 

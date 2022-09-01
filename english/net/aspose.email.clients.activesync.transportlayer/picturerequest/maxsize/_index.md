@@ -1,7 +1,7 @@
 ---
 title: MaxSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum size of an individual contact photo that is returned in the response in bytes. The MaxSize is not supported when the protocol version is 12.1 or 14.0. The maximum value of the MaxSize is 100 KB or 102400 bytes.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/picturerequest/maxsize/

@@ -1,7 +1,7 @@
 ---
 title: Class
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the class of the item being added to the collection. Used in server responses only.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/class/

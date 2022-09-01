@@ -1,7 +1,7 @@
 ---
 title: TaskMultipleRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides optimization hints about the recipients of a Task object. Area Tasks Canonical name PidLidTaskMultipleRecipients Alternate names dispidTaskMultRecips
 type: docs
 weight: 18730
 url: /net/aspose.email.mapi/knownpropertylist/taskmultiplerecipients/

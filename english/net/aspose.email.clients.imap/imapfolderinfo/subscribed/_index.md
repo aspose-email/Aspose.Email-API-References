@@ -1,7 +1,7 @@
 ---
 title: Subscribed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value that indicates that a folder name is subscribed to. See more http//tools.ietf.org/html/rfc5258
 type: docs
 weight: 140
 url: /net/aspose.email.clients.imap/imapfolderinfo/subscribed/

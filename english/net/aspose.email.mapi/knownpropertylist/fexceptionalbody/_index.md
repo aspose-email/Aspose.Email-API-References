@@ -1,7 +1,7 @@
 ---
 title: FExceptionalBody
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the Exception Embedded Message object has a body that differs from the Recurring Calendar object. Area Meetings Canonical name PidLidFExceptionalBody Alternate names dispidFExceptionalBody
 type: docs
 weight: 10270
 url: /net/aspose.email.mapi/knownpropertylist/fexceptionalbody/

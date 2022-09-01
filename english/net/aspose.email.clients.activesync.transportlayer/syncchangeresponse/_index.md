@@ -1,7 +1,7 @@
 ---
 title: SyncChangeResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Serves to Indicate that an object has been modified.
 type: docs
 weight: 2170
 url: /net/aspose.email.clients.activesync.transportlayer/syncchangeresponse/

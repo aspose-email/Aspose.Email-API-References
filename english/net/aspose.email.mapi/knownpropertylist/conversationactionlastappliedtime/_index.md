@@ -1,7 +1,7 @@
 ---
 title: ConversationActionLastAppliedTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the time in UTC that an Email object was last received in the conversation or the last time that the user modified the conversation action whichever occurs later. Area Conversation Actions Canonical name PidLidConversationActionLastAppliedTime Alternate names dispidConvActionLastAppliedTime
 type: docs
 weight: 3340
 url: /net/aspose.email.mapi/knownpropertylist/conversationactionlastappliedtime/

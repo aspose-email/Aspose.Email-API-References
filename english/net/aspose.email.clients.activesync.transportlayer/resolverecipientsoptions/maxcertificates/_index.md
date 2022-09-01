@@ -1,7 +1,7 @@
 ---
 title: MaxCertificates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Limits the total number of certificates that are returned by the server. The value of the MaxCertificates is limited to a range of 09999. This limit ensures that no individual recipient receives an incomplete set of certificates. If the MaxCertificates limit is reached while enumerating certificates for an address list that address list will not get back any certificates and a Status value of 8 is returned.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/maxcertificates/

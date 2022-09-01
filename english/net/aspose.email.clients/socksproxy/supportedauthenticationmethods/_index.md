@@ -1,7 +1,7 @@
 ---
 title: SupportedAuthenticationMethods
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The supported authentication methods to connect to SOCKS server
 type: docs
 weight: 20
 url: /net/aspose.email.clients/socksproxy/supportedauthenticationmethods/

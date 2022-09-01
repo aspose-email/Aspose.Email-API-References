@@ -1,7 +1,7 @@
 ---
 title: UnicodeFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns MapiConversionOptions with OutlookMessageFormat is UnicodePreserveSignature is False UseBodyCompression is False.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapiconversionoptions/unicodeformat/

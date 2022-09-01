@@ -1,7 +1,7 @@
 ---
 title: PageUnit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the page unit.
 type: docs
 weight: 110
 url: /net/aspose.email.printing/mailprinter/pageunit/
@@ -14,7 +14,7 @@ Gets or sets the page unit.
 public PrinterUnit PageUnit { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The page unit.
 

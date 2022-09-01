@@ -1,7 +1,7 @@
 ---
 title: IsNotSupported
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the rule cannot be modified with the managed code APIs.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange/inboxrule/isnotsupported/

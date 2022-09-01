@@ -1,7 +1,7 @@
 ---
 title: ReminderDuration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of ReminderDurationaspose.email.calendar/reminderduration class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/reminderduration/reminderduration/

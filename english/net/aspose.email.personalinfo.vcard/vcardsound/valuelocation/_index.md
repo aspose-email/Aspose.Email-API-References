@@ -1,7 +1,7 @@
 ---
 title: ValueLocation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value location
 type: docs
 weight: 50
 url: /net/aspose.email.personalinfo.vcard/vcardsound/valuelocation/

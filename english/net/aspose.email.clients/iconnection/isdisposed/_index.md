@@ -1,7 +1,7 @@
 ---
 title: IsDisposed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value which is indicates whether connection is disposed
 type: docs
 weight: 20
 url: /net/aspose.email.clients/iconnection/isdisposed/

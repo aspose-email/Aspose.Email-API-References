@@ -1,7 +1,7 @@
 ---
 title: LastPrinted
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the time in UTC that the file was last printed. Area Common Canonical name PidNameLastPrinted Alternate names urnschemasmicrosoftcomofficeofficeLastPrinted
 type: docs
 weight: 12040
 url: /net/aspose.email.mapi/knownpropertylist/lastprinted/

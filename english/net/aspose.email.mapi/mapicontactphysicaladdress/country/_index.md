@@ -1,7 +1,7 @@
 ---
 title: Country
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the country or region portion of the contacts address
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/country/

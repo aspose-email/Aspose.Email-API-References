@@ -1,12 +1,12 @@
 ---
 title: MapiProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiProperty class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapiproperty/mapiproperty/
 ---
-## MapiProperty constructor (1 of 7)
+## MapiProperty(long, byte[]) {#constructor_3}
 
 Initializes a new instance of the MapiProperty class.
 
@@ -27,7 +27,7 @@ public MapiProperty(long tag, byte[] data)
 
 ---
 
-## MapiProperty constructor (2 of 7)
+## MapiProperty(long) {#constructor_2}
 
 Initializes a new instance of the MapiProperty class.
 
@@ -47,7 +47,7 @@ public MapiProperty(long tag)
 
 ---
 
-## MapiProperty constructor (3 of 7)
+## MapiProperty(PidTagPropertyDescriptor, object) {#constructor_1}
 
 Initializes a new instance of the MapiProperty class.
 
@@ -69,7 +69,7 @@ public MapiProperty(PidTagPropertyDescriptor pd, object data)
 
 ---
 
-## MapiProperty constructor (4 of 7)
+## MapiProperty(PidLidPropertyDescriptor, object) {#constructor}
 
 Initializes a new instance of the MapiProperty class.
 
@@ -91,7 +91,7 @@ public MapiProperty(PidLidPropertyDescriptor pd, object data)
 
 ---
 
-## MapiProperty constructor (5 of 7)
+## MapiProperty(long, IList&lt;object&gt;) {#constructor_5}
 
 Initializes a new instance of the [`MapiProperty`](../../mapiproperty) class. This overload is used to create a multiple valued property, PT_MV_*.
 
@@ -112,7 +112,7 @@ public MapiProperty(long tag, IList<object> values)
 
 ---
 
-## MapiProperty constructor (6 of 7)
+## MapiProperty(long, long, byte[]) {#constructor_4}
 
 Initializes a new instance of the [`MapiProperty`](../../mapiproperty) class.
 
@@ -134,7 +134,7 @@ public MapiProperty(long tag, long signedParam, byte[] data)
 
 ---
 
-## MapiProperty constructor (7 of 7)
+## MapiProperty(string, long, long, byte[]) {#constructor_6}
 
 Initializes a new instance of the MapiProperty class.
 

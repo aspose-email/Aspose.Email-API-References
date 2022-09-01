@@ -1,7 +1,7 @@
 ---
 title: Move
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Move namespace of the ActiveSync protocol
 type: docs
 weight: 1560
 url: /net/aspose.email.clients.activesync.transportlayer/move/
@@ -14,7 +14,7 @@ Move namespace of the ActiveSync protocol
 public enum Move
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

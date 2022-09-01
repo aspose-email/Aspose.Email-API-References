@@ -1,7 +1,7 @@
 ---
 title: JournalFolderPermissionLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the permissions which the delegate user has on the default Journal folder
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/journalfolderpermissionlevel/

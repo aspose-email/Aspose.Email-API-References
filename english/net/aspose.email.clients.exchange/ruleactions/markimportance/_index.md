@@ -1,7 +1,7 @@
 ---
 title: MarkImportance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the importance that is to be stamped on messages.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange/ruleactions/markimportance/

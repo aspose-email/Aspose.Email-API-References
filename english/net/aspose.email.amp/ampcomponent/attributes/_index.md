@@ -1,7 +1,7 @@
 ---
 title: Attributes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: AMP provides a set of common attributes that are extended to many AMP components.
 type: docs
 weight: 10
 url: /net/aspose.email.amp/ampcomponent/attributes/

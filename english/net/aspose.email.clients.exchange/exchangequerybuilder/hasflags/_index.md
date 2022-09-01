@@ -1,7 +1,7 @@
 ---
 title: HasFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search messages with the specified flags.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/hasflags/
@@ -18,7 +18,7 @@ public MailQuery HasFlags(ExchangeMessageFlag flags)
 | --- | --- | --- |
 | flags | ExchangeMessageFlag | The flags. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query (one searching criteria).
 

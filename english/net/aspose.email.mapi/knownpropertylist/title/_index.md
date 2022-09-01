@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the title of the file attached to the Document object. Area Common Canonical name PidNameTitle Alternate names urnschemasmicrosoftcomofficeofficeTitle
 type: docs
 weight: 19000
 url: /net/aspose.email.mapi/knownpropertylist/title/

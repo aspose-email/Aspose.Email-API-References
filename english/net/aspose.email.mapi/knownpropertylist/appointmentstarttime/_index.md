@@ -1,7 +1,7 @@
 ---
 title: AppointmentStartTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the time that the appointment starts. Area Calendar Canonical name PidLidAppointmentStartTime Alternate names dispidApptStartTime
 type: docs
 weight: 1310
 url: /net/aspose.email.mapi/knownpropertylist/appointmentstarttime/

@@ -1,7 +1,7 @@
 ---
 title: CalendarIsOrganizer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether an attendee is the organizer of an appointment or meeting. Area Common Canonical name PidNameCalendarIsOrganizer Alternate names urnschemascalendarisorganizer
 type: docs
 weight: 2300
 url: /net/aspose.email.mapi/knownpropertylist/calendarisorganizer/

@@ -1,7 +1,7 @@
 ---
 title: MemberId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a unique identifier that the messaging server generates for each user. Area Access Control Properties Canonical name PidTagMemberId Alternate names PR_MEMBER_ID ptagMemberId
 type: docs
 weight: 12420
 url: /net/aspose.email.mapi/knownpropertylist/memberid/

@@ -1,7 +1,7 @@
 ---
 title: NextEvent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reads next Event from source and save it to the Current.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/calendarreader/nextevent/
@@ -14,7 +14,7 @@ Reads next Event from source and save it to the Current.
 public bool NextEvent()
 ```
 
-## Return Value
+### Return Value
 
 True if success otherwise false.
 

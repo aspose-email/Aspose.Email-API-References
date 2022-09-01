@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Description of the calendar.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.google/calendar/description/

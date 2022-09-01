@@ -1,7 +1,7 @@
 ---
 title: HasSubFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the Folder object has any subfolders.
 type: docs
 weight: 80
 url: /net/aspose.email.storage.pst/folderinfo/hassubfolders/
@@ -14,7 +14,7 @@ Gets a value indicating whether the Folder object has any subfolders.
 public bool HasSubFolders { get; }
 ```
 
-## Property Value
+### Property Value
 
 The has sub folders.
 

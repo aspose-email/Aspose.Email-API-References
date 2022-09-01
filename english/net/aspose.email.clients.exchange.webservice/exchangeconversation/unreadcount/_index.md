@@ -1,7 +1,7 @@
 ---
 title: UnreadCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a count of all the unread conversation items in the current folder.
 type: docs
 weight: 280
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/unreadcount/

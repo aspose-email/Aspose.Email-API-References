@@ -1,12 +1,12 @@
 ---
 title: ListMessagesByPage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the list of messages
 type: docs
 weight: 890
 url: /net/aspose.email.clients.imap/imapclient/listmessagesbypage/
 ---
-## ImapClient.ListMessagesByPage method (1 of 4)
+## ListMessagesByPage(int, PageSettings) {#listmessagesbypage_2}
 
 Gets the list of messages
 
@@ -19,7 +19,7 @@ public ImapPageInfo ListMessagesByPage(int itemsPerPage, PageSettings settings)
 | itemsPerPage | Int32 | A number of items in page |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 IAsyncResult that represents the status of an asynchronous operation.
 
@@ -33,7 +33,7 @@ IAsyncResult that represents the status of an asynchronous operation.
 
 ---
 
-## ImapClient.ListMessagesByPage method (2 of 4)
+## ListMessagesByPage(int, int, PageSettings) {#listmessagesbypage_3}
 
 Gets the list of messages
 
@@ -47,7 +47,7 @@ public ImapPageInfo ListMessagesByPage(int itemsPerPage, int pageOffset, PageSet
 | pageOffset | Int32 | An offset of next page in view |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 IAsyncResult that represents the status of an asynchronous operation.
 
@@ -61,7 +61,7 @@ IAsyncResult that represents the status of an asynchronous operation.
 
 ---
 
-## ImapClient.ListMessagesByPage method (3 of 4)
+## ListMessagesByPage(PageInfo, PageSettings) {#listmessagesbypage}
 
 Gets the list of messages
 
@@ -74,7 +74,7 @@ public ImapPageInfo ListMessagesByPage(PageInfo pageInfo, PageSettings settings)
 | pageInfo | PageInfo | The next page to retrieve. |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 IAsyncResult that represents the status of an asynchronous operation.
 
@@ -89,7 +89,7 @@ IAsyncResult that represents the status of an asynchronous operation.
 
 ---
 
-## ImapClient.ListMessagesByPage method (4 of 4)
+## ListMessagesByPage(MailQuery, PageInfo, PageSettings) {#listmessagesbypage_1}
 
 Gets the list of messages
 
@@ -103,7 +103,7 @@ public ImapPageInfo ListMessagesByPage(MailQuery query, PageInfo pageInfo, PageS
 | pageInfo | PageInfo | The next page to retrieve. |
 | settings | PageSettings | The settings. |
 
-## Return Value
+### Return Value
 
 IAsyncResult that represents the status of an asynchronous operation.
 

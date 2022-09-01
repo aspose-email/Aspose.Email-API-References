@@ -1,7 +1,7 @@
 ---
 title: StartDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the start date and time of the event. If the date is not set default value for DateTime is returned.
 type: docs
 weight: 180
 url: /net/aspose.email.mapi/mapicalendar/startdate/

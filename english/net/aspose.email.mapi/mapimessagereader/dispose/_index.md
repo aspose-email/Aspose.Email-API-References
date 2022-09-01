@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Releases the unmanaged resources used by the MapiMessageReader.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapimessagereader/dispose/

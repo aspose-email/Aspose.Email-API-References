@@ -1,7 +1,7 @@
 ---
 title: MapiCalendarAttendees
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiCalendarAttendeesaspose.email.mapi/mapicalendarattendees class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicalendarattendees/mapicalendarattendees/

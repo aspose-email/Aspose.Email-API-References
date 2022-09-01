@@ -1,7 +1,7 @@
 ---
 title: AirSync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: AirSync namespace of the ActiveSync protocol
 type: docs
 weight: 960
 url: /net/aspose.email.clients.activesync.transportlayer/airsync/
@@ -14,7 +14,7 @@ AirSync namespace of the ActiveSync protocol
 public enum AirSync
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

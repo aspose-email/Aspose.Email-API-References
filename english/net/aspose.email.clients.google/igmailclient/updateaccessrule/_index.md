@@ -1,7 +1,7 @@
 ---
 title: UpdateAccessRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates access rule
 type: docs
 weight: 300
 url: /net/aspose.email.clients.google/igmailclient/updateaccessrule/
@@ -19,7 +19,7 @@ public AccessControlRule UpdateAccessRule(string calendarId, AccessControlRule r
 | calendarId | String | Calendar identifier. |
 | role | AccessControlRule | Access control rule |
 
-## Return Value
+### Return Value
 
 Returns updated access rule
 

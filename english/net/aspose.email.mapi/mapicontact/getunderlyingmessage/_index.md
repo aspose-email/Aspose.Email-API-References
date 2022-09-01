@@ -1,7 +1,7 @@
 ---
 title: GetUnderlyingMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the MapiMessage that represent contact.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapicontact/getunderlyingmessage/
@@ -14,7 +14,7 @@ Get the MapiMessage that represent contact.
 public MapiMessage GetUnderlyingMessage()
 ```
 
-## Return Value
+### Return Value
 
 The [`MapiMessage`](../../mapimessage) object.
 

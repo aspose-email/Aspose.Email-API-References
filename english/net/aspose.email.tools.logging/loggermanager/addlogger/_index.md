@@ -1,7 +1,7 @@
 ---
 title: AddLogger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a logger to the LoggerManager with specified name.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.logging/loggermanager/addlogger/

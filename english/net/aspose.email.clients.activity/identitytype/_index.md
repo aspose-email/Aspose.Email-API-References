@@ -1,7 +1,7 @@
 ---
 title: IdentityType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identity types
 type: docs
 weight: 2580
 url: /net/aspose.email.clients.activity/identitytype/
@@ -14,7 +14,7 @@ Identity types
 public enum IdentityType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

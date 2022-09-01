@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The user who sent the email. Mandatory Yes
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/exchangemetadata/from/

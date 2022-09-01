@@ -1,7 +1,7 @@
 ---
 title: TemplateID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a string that identifies the rights policy template represented by the parent RightsManagementLicense element.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequest/templateid/

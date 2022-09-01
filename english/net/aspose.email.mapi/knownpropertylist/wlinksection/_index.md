@@ -1,7 +1,7 @@
 ---
 title: WlinkSection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the section where the shortcut should be grouped. Area Configuration Canonical name PidTagWlinkSection Alternate names PR_WLINK_SECTION
 type: docs
 weight: 19510
 url: /net/aspose.email.mapi/knownpropertylist/wlinksection/

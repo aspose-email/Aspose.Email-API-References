@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the count.
 type: docs
 weight: 110
 url: /net/aspose.email.calendar.recurrences/recurrencerule/count/
@@ -14,7 +14,7 @@ Gets or sets the count.
 public int Count { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The count.
 

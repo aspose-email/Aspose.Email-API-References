@@ -1,12 +1,12 @@
 ---
 title: AsposeArgumentNullException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AsposeArgumentNullExceptionaspose.email/asposeargumentnullexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/asposeargumentnullexception/asposeargumentnullexception/
 ---
-## AsposeArgumentNullException constructor (1 of 6)
+## AsposeArgumentNullException() {#constructor}
 
 Initializes a new instance of the [`AsposeArgumentNullException`](../../asposeargumentnullexception) class.
 
@@ -22,7 +22,7 @@ public AsposeArgumentNullException()
 
 ---
 
-## AsposeArgumentNullException constructor (2 of 6)
+## AsposeArgumentNullException(string) {#constructor_2}
 
 Initializes a new instance of the [`AsposeArgumentNullException`](../../asposeargumentnullexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public AsposeArgumentNullException(string message)
 
 ---
 
-## AsposeArgumentNullException constructor (3 of 6)
+## AsposeArgumentNullException(string, string) {#constructor_5}
 
 Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message.
 
@@ -63,7 +63,7 @@ public AsposeArgumentNullException(string format, string parameters)
 
 ---
 
-## AsposeArgumentNullException constructor (4 of 6)
+## AsposeArgumentNullException(string, params object[]) {#constructor_4}
 
 Initializes a new instance of the [`AsposeArgumentOutOfRangeException`](../../asposeargumentoutofrangeexception) class with a specified error message.
 
@@ -84,7 +84,7 @@ public AsposeArgumentNullException(string format, params object[] parameters)
 
 ---
 
-## AsposeArgumentNullException constructor (5 of 6)
+## AsposeArgumentNullException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`AsposeException`](../../asposeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -105,7 +105,7 @@ public AsposeArgumentNullException(string message, Exception innerException)
 
 ---
 
-## AsposeArgumentNullException constructor (6 of 6)
+## AsposeArgumentNullException(Exception) {#constructor_1}
 
 Initializes a new instance of the [`AsposeArgumentNullException`](../../asposeargumentnullexception) class with a reference to the inner exception that is the cause of this exception.
 

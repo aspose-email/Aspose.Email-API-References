@@ -1,7 +1,7 @@
 ---
 title: ExchangeIdAutomatically
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which indicates whether client should to introduce information about itself to a server automatically. See more https//tools.ietf.org/html/rfc2971
 type: docs
 weight: 140
 url: /net/aspose.email.clients.imap/imapclient/exchangeidautomatically/

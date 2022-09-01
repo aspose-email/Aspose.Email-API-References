@@ -1,7 +1,7 @@
 ---
 title: SectionValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the content of the section.
 type: docs
 weight: 240
 url: /net/aspose.email.amp/sectionvalue/

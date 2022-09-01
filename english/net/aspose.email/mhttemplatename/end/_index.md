@@ -1,7 +1,7 @@
 ---
 title: End
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: End header.
 type: docs
 weight: 60
 url: /net/aspose.email/mhttemplatename/end/

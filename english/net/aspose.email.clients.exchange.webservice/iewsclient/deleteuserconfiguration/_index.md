@@ -1,7 +1,7 @@
 ---
 title: DeleteUserConfiguration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the specified user configuration
 type: docs
 weight: 660
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/deleteuserconfiguration/

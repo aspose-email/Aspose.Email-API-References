@@ -1,7 +1,7 @@
 ---
 title: ContentExpiryDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the expiration date for the license. The ContentExpiryDate element is set to 99991230T235959.999Z if the rights management license has no expiration date set.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/contentexpirydate/

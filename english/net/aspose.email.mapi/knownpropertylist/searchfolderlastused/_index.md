@@ -1,7 +1,7 @@
 ---
 title: SearchFolderLastUsed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the last time in UTC that the folder was accessed. Area Search Canonical name PidTagSearchFolderLastUsed Alternate names PR_WB_SF_LAST_USED
 type: docs
 weight: 16980
 url: /net/aspose.email.mapi/knownpropertylist/searchfolderlastused/

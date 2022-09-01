@@ -1,7 +1,7 @@
 ---
 title: EndTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the end of a time period.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/daterange/endtime/

@@ -1,7 +1,7 @@
 ---
 title: HiddenRecipient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the recipient was added by an organization policy that should be hidden from unprivileged users
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.webservice/recipienttrackingevent/hiddenrecipient/

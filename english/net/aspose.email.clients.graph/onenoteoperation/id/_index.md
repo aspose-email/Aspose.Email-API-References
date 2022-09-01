@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The operation id. Readonly.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.graph/onenoteoperation/id/

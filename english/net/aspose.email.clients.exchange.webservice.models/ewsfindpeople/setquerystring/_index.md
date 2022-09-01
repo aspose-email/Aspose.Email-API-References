@@ -1,7 +1,7 @@
 ---
 title: SetQueryString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the query string to search contacts in global address list GAL.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfindpeople/setquerystring/

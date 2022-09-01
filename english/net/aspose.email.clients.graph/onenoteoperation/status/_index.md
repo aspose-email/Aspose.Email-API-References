@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The current status of the operation notstarted running completed failed
 type: docs
 weight: 110
 url: /net/aspose.email.clients.graph/onenoteoperation/status/

@@ -1,7 +1,7 @@
 ---
 title: CalendarKind
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Type of the resource calendarcalendar.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.google/calendar/calendarkind/

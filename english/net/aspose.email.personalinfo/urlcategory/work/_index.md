@@ -1,7 +1,7 @@
 ---
 title: Work
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contacts workrelated site.
 type: docs
 weight: 80
 url: /net/aspose.email.personalinfo/urlcategory/work/

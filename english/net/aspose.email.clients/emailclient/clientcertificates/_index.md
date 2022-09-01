@@ -1,7 +1,7 @@
 ---
 title: ClientCertificates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains collection of clients certificates
 type: docs
 weight: 20
 url: /net/aspose.email.clients/emailclient/clientcertificates/

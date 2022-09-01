@@ -1,7 +1,7 @@
 ---
 title: SenderAddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message senders email address type.
 type: docs
 weight: 220
 url: /net/aspose.email.mapi/mapimessage/senderaddresstype/
@@ -14,7 +14,7 @@ Gets the message sender's e-mail address type.
 public string SenderAddressType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents sender address type.
 

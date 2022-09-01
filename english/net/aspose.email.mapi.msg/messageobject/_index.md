@@ -1,9 +1,9 @@
 ---
 title: MessageObject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an Outlook message object. Evaluation limits only 1 attachment and 1 recipient are read when message is being loaded watermark will be added when the message is being saved.
 type: docs
-weight: 18620
+weight: 18830
 url: /net/aspose.email.mapi.msg/messageobject/
 ---
 ## MessageObject class
@@ -18,8 +18,8 @@ public sealed class MessageObject : IMessageObjectPropertyContainer
 
 | Name | Description |
 | --- | --- |
-| [MessageObject](messageobject)(Stream, MessageObjectLoadFormat) | Initializes a new instance of the [`MessageObject`](../messageobject) class. |
-| [MessageObject](messageobject)(string, MessageObjectLoadFormat) | Initializes a new instance of the [`MessageObject`](../messageobject) class. |
+| [MessageObject](messageobject#constructor)(Stream, MessageObjectLoadFormat) | Initializes a new instance of the [`MessageObject`](../messageobject) class. |
+| [MessageObject](messageobject#constructor_1)(string, MessageObjectLoadFormat) | Initializes a new instance of the [`MessageObject`](../messageobject) class. |
 
 ## Properties
 
@@ -35,8 +35,8 @@ public sealed class MessageObject : IMessageObjectPropertyContainer
 | Name | Description |
 | --- | --- |
 | [GetIdForNamedProperty](../../aspose.email.mapi.msg/messageobject/getidfornamedproperty)() | Gets the id to be used for named property, named properties are special properties and should have their ids in range [0x8000,0xfffe] aligned starting from 0x8000 sequentally. Use this method to find the available id cause it could be hard to calculate it yourself. |
-| [Save](../../aspose.email.mapi.msg/messageobject/save)(Stream, MessageObjectSaveFormat) | Saves the current message object to the specified stream. |
-| [Save](../../aspose.email.mapi.msg/messageobject/save)(string, MessageObjectSaveFormat) | Saves the current message object to the specified file. |
+| [Save](../../aspose.email.mapi.msg/messageobject/save#save)(Stream, MessageObjectSaveFormat) | Saves the current message object to the specified stream. |
+| [Save](../../aspose.email.mapi.msg/messageobject/save#save_1)(string, MessageObjectSaveFormat) | Saves the current message object to the specified file. |
 
 ### See Also
 

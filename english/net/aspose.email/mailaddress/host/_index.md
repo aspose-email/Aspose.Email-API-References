@@ -1,7 +1,7 @@
 ---
 title: Host
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the host portion of the address.
 type: docs
 weight: 50
 url: /net/aspose.email/mailaddress/host/
@@ -14,7 +14,7 @@ Gets the host portion of the address.
 public string Host { get; }
 ```
 
-## Property Value
+### Property Value
 
 A String that contains the name of the host.
 

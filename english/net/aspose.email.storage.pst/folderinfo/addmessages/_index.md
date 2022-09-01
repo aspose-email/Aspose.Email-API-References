@@ -1,7 +1,7 @@
 ---
 title: AddMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides message adding in a bulk mode.
 type: docs
 weight: 160
 url: /net/aspose.email.storage.pst/folderinfo/addmessages/

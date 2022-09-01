@@ -1,7 +1,7 @@
 ---
 title: DetectionType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The type of detection. Mandatory Yes
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/o365emailmessageactivity/detectiontype/

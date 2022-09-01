@@ -1,7 +1,7 @@
 ---
 title: LastActionDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The time of the last action of the operation.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.graph/onenoteoperation/lastactiondatetime/

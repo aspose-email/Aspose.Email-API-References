@@ -1,7 +1,7 @@
 ---
 title: PingParameter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the PingParameter class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/pingparameter/pingparameter/

@@ -1,7 +1,7 @@
 ---
 title: Billing
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the billing information associated with an item.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapimessageitembase/billing/

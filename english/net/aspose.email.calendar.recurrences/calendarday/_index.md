@@ -1,7 +1,7 @@
 ---
 title: CalendarDay
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the day of the week.
 type: docs
 weight: 670
 url: /net/aspose.email.calendar.recurrences/calendarday/
@@ -14,7 +14,7 @@ Represents the day of the week.
 public enum CalendarDay
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

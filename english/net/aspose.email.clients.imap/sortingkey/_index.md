@@ -1,9 +1,9 @@
 ---
 title: SortingKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sort criterias for SORT command See more https//tools.ietf.org/html/rfc5256
 type: docs
-weight: 16620
+weight: 16730
 url: /net/aspose.email.clients.imap/sortingkey/
 ---
 ## SortingKey enumeration
@@ -15,7 +15,7 @@ Sort criterias for "SORT" command See more: https://tools.ietf.org/html/rfc5256
 public enum SortingKey
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

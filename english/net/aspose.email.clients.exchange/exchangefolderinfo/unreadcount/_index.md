@@ -1,7 +1,7 @@
 ---
 title: UnreadCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the count of unread items.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.exchange/exchangefolderinfo/unreadcount/
@@ -14,7 +14,7 @@ Gets the count of unread items.
 public int UnreadCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The unread items count.
 

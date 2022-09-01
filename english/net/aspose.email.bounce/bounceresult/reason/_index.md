@@ -1,7 +1,7 @@
 ---
 title: Reason
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: For a failed or delayed recipient contains the actual diagnostic code issued by the mail transport.
 type: docs
 weight: 50
 url: /net/aspose.email.bounce/bounceresult/reason/

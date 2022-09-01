@@ -1,7 +1,7 @@
 ---
 title: LineCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of lines in the file attached to the Document object. Area Common Canonical name PidNameLineCount Alternate names urnschemasmicrosoftcomofficeofficeLines
 type: docs
 weight: 12090
 url: /net/aspose.email.mapi/knownpropertylist/linecount/

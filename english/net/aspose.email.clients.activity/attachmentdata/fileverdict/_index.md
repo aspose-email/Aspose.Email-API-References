@@ -1,7 +1,7 @@
 ---
 title: FileVerdict
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The file malware verdict. Mandatory Yes
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/attachmentdata/fileverdict/

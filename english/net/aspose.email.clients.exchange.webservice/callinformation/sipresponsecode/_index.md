@@ -1,7 +1,7 @@
 ---
 title: SIPResponseCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: SIP response code This list details all the SIP response codes defined in IETF RFCs and registered with the IANA as of 18 April 2013. It also includes SIP response codes defined in obsolete SIP RFCs specifically RFC 2543 which are therefore not registered with the IANA these are explicitly noted as such. 1xxProvisional Responses 2xxSuccessful Responses 3xxRedirection Responses 4xxClient Failure Responses 5xxServer Failure Responses 6xxGlobal Failure Responses
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/callinformation/sipresponsecode/

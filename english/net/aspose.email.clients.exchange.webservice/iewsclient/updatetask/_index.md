@@ -1,12 +1,12 @@
 ---
 title: UpdateTask
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the specified task.
 type: docs
 weight: 1520
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updatetask/
 ---
-## IEWSClient.UpdateTask method (1 of 5)
+## UpdateTask(MapiTask) {#updatetask}
 
 Updates the specified task.
 
@@ -18,7 +18,7 @@ public string UpdateTask(MapiTask task)
 | --- | --- | --- |
 | task | MapiTask | An [`MapiTask`](../../../aspose.email.mapi/mapitask) containing the task information. |
 
-## Return Value
+### Return Value
 
 Task uri.
 
@@ -31,7 +31,7 @@ Task uri.
 
 ---
 
-## IEWSClient.UpdateTask method (2 of 5)
+## UpdateTask(string, MapiTask) {#updatetask_1}
 
 Updates the specified task.
 
@@ -44,7 +44,7 @@ public string UpdateTask(string uri, MapiTask task)
 | uri | String | Task identifier |
 | task | MapiTask | An [`ExchangeTask`](../../exchangetask) containing the task information. |
 
-## Return Value
+### Return Value
 
 Task uri.
 
@@ -57,7 +57,7 @@ Task uri.
 
 ---
 
-## IEWSClient.UpdateTask method (3 of 5)
+## UpdateTask(string, MapiTask, IEnumerable&lt;PropertyDescriptor&gt;) {#updatetask_2}
 
 Updates the specified task.
 
@@ -72,7 +72,7 @@ public string UpdateTask(string uri, MapiTask task,
 | task | MapiTask | An [`ExchangeTask`](../../exchangetask) containing the task information. |
 | additionalProperties | IEnumerable`1 | An additional MAPI properties which can be used in MAPI object. |
 
-## Return Value
+### Return Value
 
 Task uri.
 
@@ -86,7 +86,7 @@ Task uri.
 
 ---
 
-## IEWSClient.UpdateTask method (4 of 5)
+## UpdateTask(ExchangeTask) {#updatetask_3}
 
 Updates the specified task.
 
@@ -114,7 +114,7 @@ public void UpdateTask(ExchangeTask task)
 
 ---
 
-## IEWSClient.UpdateTask method (5 of 5)
+## UpdateTask(ExchangeTask, UpdateTaskOptions) {#updatetask_4}
 
 Updates the specified task.
 

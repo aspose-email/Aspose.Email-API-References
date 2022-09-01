@@ -1,9 +1,9 @@
 ---
 title: MimeHeader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the mime header defined in RFC 2822.
 type: docs
-weight: 19020
+weight: 19230
 url: /net/aspose.email.mime/mimeheader/
 ---
 ## MimeHeader class

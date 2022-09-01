@@ -1,7 +1,7 @@
 ---
 title: ExportAllowed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the IRM protection on the email message can be removed by the user. The value is TRUE if the user can remove the IRM protection when the user forwards replies or replies all to the email message otherwise FALSE. If a rightsmanaged email message is forwarded or replied to using the SmartForward or SmartReply command the following conditions are evaluated  The original rights policy template has the ExportAllowed element set to TRUE  The TemplateID on the new message is set to the No Restriction template TemplateID value 00000000000000000000000000000000 If both of the conditions are true the IRM protection is removed from the outgoing message. The original message retains its IRM protection.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/exportallowed/

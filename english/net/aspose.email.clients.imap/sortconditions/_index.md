@@ -1,9 +1,9 @@
 ---
 title: SortConditions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides the search conditions for the SORT extension. Compatibles with SORT IMAP extension described at https//tools.ietf.org/html/rfc5256
 type: docs
-weight: 16610
+weight: 16720
 url: /net/aspose.email.clients.imap/sortconditions/
 ---
 ## SortConditions class

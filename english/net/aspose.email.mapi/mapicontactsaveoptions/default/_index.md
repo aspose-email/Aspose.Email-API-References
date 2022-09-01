@@ -1,7 +1,7 @@
 ---
 title: Default
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the default options.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactsaveoptions/default/
@@ -14,7 +14,7 @@ Gets the default options.
 public static MapiContactSaveOptions Default { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`MapiContactSaveOptions`](../../mapicontactsaveoptions) by default.
 

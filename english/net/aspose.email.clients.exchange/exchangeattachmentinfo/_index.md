@@ -1,7 +1,7 @@
 ---
 title: ExchangeAttachmentInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an attachment information transmitted over exchange protocols
 type: docs
 weight: 3180
 url: /net/aspose.email.clients.exchange/exchangeattachmentinfo/

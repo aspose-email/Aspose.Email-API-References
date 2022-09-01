@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Storage.Zimbra
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Aspose.Email.Storage.Zimbra namespace contains classes for work with Zimbra storage.
 type: docs
-weight: 390
+weight: 420
 url: /net/aspose.email.storage.zimbra/
 ---
-
+The **Aspose.Email.Storage.Zimbra** namespace contains classes for work with Zimbra storage.
 
 ## Classes
 

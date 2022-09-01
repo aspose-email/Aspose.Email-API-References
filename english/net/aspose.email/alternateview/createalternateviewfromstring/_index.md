@@ -1,12 +1,12 @@
 ---
 title: CreateAlternateViewFromString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a AlternateView of using the content specified in a string.
 type: docs
 weight: 20
 url: /net/aspose.email/alternateview/createalternateviewfromstring/
 ---
-## AlternateView.CreateAlternateViewFromString method (1 of 4)
+## CreateAlternateViewFromString(string) {#createalternateviewfromstring}
 
 Creates a AlternateView of using the content specified in a string.
 
@@ -18,7 +18,7 @@ public static AlternateView CreateAlternateViewFromString(string content)
 | --- | --- | --- |
 | content | String | The string that contains the content. |
 
-## Return Value
+### Return Value
 
 An AlternateView object that represents an alternate view.
 
@@ -30,7 +30,7 @@ An AlternateView object that represents an alternate view.
 
 ---
 
-## AlternateView.CreateAlternateViewFromString method (2 of 4)
+## CreateAlternateViewFromString(string, Encoding, string) {#createalternateviewfromstring_3}
 
 Creates a AlternateView of using the content specified in a string.
 
@@ -45,7 +45,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Encodi
 | contentEncoding | Encoding | The content encoding. |
 | mediaType | String | Internet media type. |
 
-## Return Value
+### Return Value
 
 An AlternateView object that represents an alternate view.
 
@@ -57,7 +57,7 @@ An AlternateView object that represents an alternate view.
 
 ---
 
-## AlternateView.CreateAlternateViewFromString method (3 of 4)
+## CreateAlternateViewFromString(string, ContentType) {#createalternateviewfromstring_1}
 
 Creates a AlternateView of using the content specified in a string.
 
@@ -70,7 +70,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Conten
 | content | String | The string that contains the content. |
 | contentType | ContentType | Content type. |
 
-## Return Value
+### Return Value
 
 An AlternateView object that represents an alternate view.
 
@@ -83,7 +83,7 @@ An AlternateView object that represents an alternate view.
 
 ---
 
-## AlternateView.CreateAlternateViewFromString method (4 of 4)
+## CreateAlternateViewFromString(string, ContentType, TransferEncoding) {#createalternateviewfromstring_2}
 
 Creates a AlternateView of using the content specified in a string.
 
@@ -98,7 +98,7 @@ public static AlternateView CreateAlternateViewFromString(string content, Conten
 | contentType | ContentType | Content type. |
 | transferencoding | TransferEncoding | The transfer encoding. |
 
-## Return Value
+### Return Value
 
 An AlternateView object that represents an alternate view.
 

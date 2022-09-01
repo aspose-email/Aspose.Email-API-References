@@ -1,7 +1,7 @@
 ---
 title: ResumeMonitoringAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Resumes monitoring of message changes for specified folder. Unlike the StartMonitoring method it will find all missing mailbox changes and call the callback for them.
 type: docs
 weight: 1080
 url: /net/aspose.email.clients.imap/imapclient/resumemonitoringasync/
@@ -12,7 +12,8 @@ Resumes monitoring of message changes for specified folder. Unlike the StartMoni
 
 ```csharp
 public Task ResumeMonitoringAsync(ImapMonitoringEventHandler callback, 
-    ImapMonitoringErrorEventHandler errorCallback, IImapMonitoringState monitoringState)
+    ImapMonitoringErrorEventHandler errorCallback, IImapMonitoringState monitoringState, 
+    CancellationToken token = default)
 ```
 
 | Parameter | Type | Description |
@@ -20,6 +21,7 @@ public Task ResumeMonitoringAsync(ImapMonitoringEventHandler callback,
 | callback | ImapMonitoringEventHandler | The callback function for monitoring operation. |
 | errorCallback | ImapMonitoringErrorEventHandler | The callback function for monitoring error handling. Monitoring of specified folder is stopped when this callback is called. The callback also provides a state holder so folder monitoring could be resumed using `ResumeMonitoringAsync` method. |
 | monitoringState | IImapMonitoringState | The monitoring state to resume folder monitoring from. Can be retrieved from [`MonitoringState`](../../imapmonitoringerroreventargs/monitoringstate). |
+| token | CancellationToken | The cancellation token |
 
 ### See Also
 

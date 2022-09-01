@@ -1,7 +1,7 @@
 ---
 title: DeviceInformation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Device information. When the protocol version is 14.1 the client MUST send the DeviceInformation element with its contents when sending an initial Provision command request to the server but not on subsequent requests.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/provisionrequest/deviceinformation/

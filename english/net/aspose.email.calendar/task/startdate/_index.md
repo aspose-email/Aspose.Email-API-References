@@ -1,7 +1,7 @@
 ---
 title: StartDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a start date of task.
 type: docs
 weight: 120
 url: /net/aspose.email.calendar/task/startdate/

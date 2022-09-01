@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the list contains a specific value.
 type: docs
 weight: 240
 url: /net/aspose.email.personalinfo/phonenumberlist/contains/
@@ -18,7 +18,7 @@ public bool Contains(PhoneNumber value)
 | --- | --- | --- |
 | value | PhoneNumber | The object to locate in the list. |
 
-## Return Value
+### Return Value
 
 true if the object is found in the list; otherwise, false.
 

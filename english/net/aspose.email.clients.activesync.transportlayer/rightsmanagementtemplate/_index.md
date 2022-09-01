@@ -1,7 +1,7 @@
 ---
 title: RightsManagementTemplate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the template identifier name and description of a rights policy template available on the client.
 type: docs
 weight: 1910
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementtemplate/
@@ -18,8 +18,8 @@ public class RightsManagementTemplate
 
 | Name | Description |
 | --- | --- |
-| [RightsManagementTemplate](rightsmanagementtemplate)() | Initializes a new instance of the RightsManagementTemplate class. |
-| [RightsManagementTemplate](rightsmanagementtemplate)(string, string, string) | Initializes a new instance of the RightsManagementTemplate class. |
+| [RightsManagementTemplate](rightsmanagementtemplate#constructor)() | Initializes a new instance of the RightsManagementTemplate class. |
+| [RightsManagementTemplate](rightsmanagementtemplate#constructor_1)(string, string, string) | Initializes a new instance of the RightsManagementTemplate class. |
 
 ## Properties
 

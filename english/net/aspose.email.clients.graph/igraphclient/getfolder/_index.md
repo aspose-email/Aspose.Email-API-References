@@ -1,7 +1,7 @@
 ---
 title: GetFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets folder by an id.
 type: docs
 weight: 250
 url: /net/aspose.email.clients.graph/igraphclient/getfolder/
@@ -18,7 +18,7 @@ public FolderInfo GetFolder(string id)
 | --- | --- | --- |
 | id | String | Folder id |
 
-## Return Value
+### Return Value
 
 Returns folder for specified id
 

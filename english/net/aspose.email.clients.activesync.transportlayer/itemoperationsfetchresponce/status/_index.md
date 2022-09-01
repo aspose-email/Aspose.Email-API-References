@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a code and description that indicates the success or failure of the ItemOperations operation
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/status/

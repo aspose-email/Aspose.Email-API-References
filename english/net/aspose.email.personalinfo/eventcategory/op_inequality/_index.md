@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified objects are not equal.
 type: docs
 weight: 140
 url: /net/aspose.email.personalinfo/eventcategory/op_inequality/
@@ -19,7 +19,7 @@ public static bool operator !=(EventCategory a, EventCategory b)
 | a | EventCategory | First object to compare |
 | b | EventCategory | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are not equal, otherwise false.
 

@@ -1,7 +1,7 @@
 ---
 title: ErrorMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the error message that was returned by the service.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/autodiscoverresponse/errormessage/
@@ -14,7 +14,7 @@ Gets the error message that was returned by the service.
 public string ErrorMessage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The error message.
 

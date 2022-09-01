@@ -1,7 +1,7 @@
 ---
 title: ReplyTemplateId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the GUID that points to a Reply template. Area Rules Canonical name PidTagReplyTemplateId Alternate names PR_REPLY_TEMPLATE_ID ptagReplyTemplateId
 type: docs
 weight: 15960
 url: /net/aspose.email.mapi/knownpropertylist/replytemplateid/

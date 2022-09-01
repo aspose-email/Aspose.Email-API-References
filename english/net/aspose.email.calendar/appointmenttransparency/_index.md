@@ -1,7 +1,7 @@
 ---
 title: AppointmentTransparency
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether or not this appointment is intended to be visible in availability searches.
 type: docs
 weight: 580
 url: /net/aspose.email.calendar/appointmenttransparency/
@@ -14,7 +14,7 @@ Specifies whether or not this appointment is intended to be visible in availabil
 public enum AppointmentTransparency
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

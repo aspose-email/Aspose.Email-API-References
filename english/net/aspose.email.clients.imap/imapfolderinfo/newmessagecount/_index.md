@@ -1,7 +1,7 @@
 ---
 title: NewMessageCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the number of the new messages.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.imap/imapfolderinfo/newmessagecount/

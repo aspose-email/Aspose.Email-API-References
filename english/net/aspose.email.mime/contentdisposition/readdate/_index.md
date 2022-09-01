@@ -1,7 +1,7 @@
 ---
 title: ReadDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the read date.
 type: docs
 weight: 80
 url: /net/aspose.email.mime/contentdisposition/readdate/
@@ -14,7 +14,7 @@ Gets or sets the read date.
 public DateTime ReadDate { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A DateTime value that indicates the file read date; otherwise, MinValue if no date was specified.
 

@@ -1,12 +1,12 @@
 ---
 title: StandardFormatter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the StandardFormatteraspose.email.tools.logging/standardformatter class.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.logging/standardformatter/standardformatter/
 ---
-## StandardFormatter constructor (1 of 3)
+## StandardFormatter() {#constructor}
 
 Initializes a new instance of the [`StandardFormatter`](../../standardformatter) class.
 
@@ -22,7 +22,7 @@ public StandardFormatter()
 
 ---
 
-## StandardFormatter constructor (2 of 3)
+## StandardFormatter(StringBuilder) {#constructor_2}
 
 Initializes a new instance of the [`StandardFormatter`](../../standardformatter) class.
 
@@ -42,7 +42,7 @@ public StandardFormatter(StringBuilder headerText)
 
 ---
 
-## StandardFormatter constructor (3 of 3)
+## StandardFormatter(string) {#constructor_1}
 
 Initializes a new instance of the [`StandardFormatter`](../../standardformatter) class.
 

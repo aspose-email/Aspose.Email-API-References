@@ -1,7 +1,7 @@
 ---
 title: Token
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets token value
 type: docs
 weight: 40
 url: /net/aspose.email.clients/oauthtoken/token/

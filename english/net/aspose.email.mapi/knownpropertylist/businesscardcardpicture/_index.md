@@ -1,7 +1,7 @@
 ---
 title: BusinessCardCardPicture
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the image to be used on a business card. Area Contact Properties Canonical name PidLidBusinessCardCardPicture Alternate names dispidBCCardPicture
 type: docs
 weight: 2100
 url: /net/aspose.email.mapi/knownpropertylist/businesscardcardpicture/

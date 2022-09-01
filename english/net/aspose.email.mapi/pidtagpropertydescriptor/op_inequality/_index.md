@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified objects are not equal to each another.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/pidtagpropertydescriptor/op_inequality/
@@ -19,7 +19,7 @@ public static bool operator !=(PidTagPropertyDescriptor pd1, PropertyDescriptor 
 | pd1 | PidTagPropertyDescriptor | The object to compare with another object. |
 | pd2 | PropertyDescriptor | The object to compare with another object. |
 
-## Return Value
+### Return Value
 
 true if the specified PropertyDescriptor is not equal to the another PropertyDescriptor; otherwise, false.
 

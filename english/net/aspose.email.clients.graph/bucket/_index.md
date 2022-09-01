@@ -1,7 +1,7 @@
 ---
 title: Bucket
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: https//docs.microsoft.com/enus/graph/api/resources/plannerbucketviewgraphrest1.0 The plannerBucket resource represents a bucket or custom column for tasks in a plan in Office 365. It is contained in a plannerPlan and can have a collection of plannerTasks.
 type: docs
 weight: 15860
 url: /net/aspose.email.clients.graph/bucket/

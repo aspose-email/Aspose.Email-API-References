@@ -1,7 +1,7 @@
 ---
 title: RuleProvider
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A string identifying the client application that owns a rule. Area ServerSide Rules Properties Canonical name PidTagRuleProvider Alternate names PR_RULE_PROVIDER ptagRuleProvider PR_RULE_PROVIDER_W
 type: docs
 weight: 16600
 url: /net/aspose.email.mapi/knownpropertylist/ruleprovider/

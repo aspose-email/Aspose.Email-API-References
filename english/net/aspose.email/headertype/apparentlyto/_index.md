@@ -1,7 +1,7 @@
 ---
 title: ApparentlyTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Inserted by sending email when there is no To recipient in the original message. This causes the recipients derived from the envelope to be listed in the message heading. This behavior is not quite proper MTAs should not modify headers except inserting Received lines and it can in some cases cause Bcc recipients to be wrongly divulged to nonBcc recipients. Example ApparentlyTo someonesomedomain.com Nonstandard header that is discouraged in use mentioned in RFC1211.
 type: docs
 weight: 10
 url: /net/aspose.email/headertype/apparentlyto/

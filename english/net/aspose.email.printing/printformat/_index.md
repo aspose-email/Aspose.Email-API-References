@@ -1,9 +1,9 @@
 ---
 title: PrintFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Descibes possible printing formats for MailPrinter./mailprinter.
 type: docs
-weight: 19670
+weight: 19900
 url: /net/aspose.email.printing/printformat/
 ---
 ## PrintFormat enumeration
@@ -14,7 +14,7 @@ Descibes possible printing formats for [`MailPrinter`](../mailprinter).
 public enum PrintFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

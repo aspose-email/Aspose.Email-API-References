@@ -1,7 +1,7 @@
 ---
 title: SyncKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the current state of a collection.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/itemestimaterequest/synckey/

@@ -1,7 +1,7 @@
 ---
 title: AccountId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies an account. The primary account as identified by the PrimarySmtpAddress element does not have an AccountId value. The AccountId is not supported when the protocol version is 12.1 or 14.0.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/accountinformation/accountid/

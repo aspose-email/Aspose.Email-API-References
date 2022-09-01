@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds data of element in xml format to the DataContainer.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/add/
 ---
-## DataContainer.Add method (1 of 5)
+## Add(string) {#add_3}
 
 Adds data of element in xml format to the DataContainer.
 
@@ -18,7 +18,7 @@ public DataContainer Add(string applicationDataXml)
 | --- | --- | --- |
 | applicationDataXml | String | Contains data of element in xml format |
 
-## Return Value
+### Return Value
 
 Returns the DataContainer with added data.
 
@@ -30,7 +30,7 @@ Returns the DataContainer with added data.
 
 ---
 
-## DataContainer.Add method (2 of 5)
+## Add(XmlNode) {#add_4}
 
 Adds data of element in xml format to the DataContainer.
 
@@ -42,7 +42,7 @@ public DataContainer Add(XmlNode node)
 | --- | --- | --- |
 | node | XmlNode | Contains data of element in xml format |
 
-## Return Value
+### Return Value
 
 Returns the DataContainer with added data.
 
@@ -54,7 +54,7 @@ Returns the DataContainer with added data.
 
 ---
 
-## DataContainer.Add method (3 of 5)
+## Add(int, Namespace) {#add}
 
 Adds empty DataContainer for element.
 
@@ -67,7 +67,7 @@ public DataContainer Add(int element, Namespace ns)
 | element | Int32 | Name of the element |
 | ns | Namespace | NameSpace of the element |
 
-## Return Value
+### Return Value
 
 Returns empty DataContainer.
 
@@ -80,7 +80,7 @@ Returns empty DataContainer.
 
 ---
 
-## DataContainer.Add method (4 of 5)
+## Add(int, string, Namespace) {#add_1}
 
 Adds data of element to the DataContainer.
 
@@ -94,7 +94,7 @@ public DataContainer Add(int element, string value, Namespace ns)
 | value | String | Value of the element |
 | ns | Namespace | NameSpace of the element, whose data are contained in the data container. |
 
-## Return Value
+### Return Value
 
 Returns the DataContainer with added data.
 
@@ -107,7 +107,7 @@ Returns the DataContainer with added data.
 
 ---
 
-## DataContainer.Add method (5 of 5)
+## Add(int, string, bool, Namespace) {#add_2}
 
 Adds data of element to the DataContainer.
 
@@ -122,7 +122,7 @@ public DataContainer Add(int element, string value, bool binaryData, Namespace n
 | binaryData | Boolean | Specifies if data is binary. |
 | ns | Namespace | NameSpace of the element, whose data are contained in the data container. |
 
-## Return Value
+### Return Value
 
 Returns the DataContainer with added data.
 

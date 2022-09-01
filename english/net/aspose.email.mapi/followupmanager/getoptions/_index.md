@@ -1,7 +1,7 @@
 ---
 title: GetOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the followup options of a message.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/followupmanager/getoptions/
@@ -18,7 +18,7 @@ public static FollowUpOptions GetOptions(MapiMessage message)
 | --- | --- | --- |
 | message | MapiMessage | The [`MapiMessage`](../../mapimessage) in which options is set. |
 
-## Return Value
+### Return Value
 
 The [`FollowUpOptions`](../../followupoptions) that represents options for using follow-up flags, reminders, category and voting buttons.
 

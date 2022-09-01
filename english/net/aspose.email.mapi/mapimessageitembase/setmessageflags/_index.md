@@ -1,7 +1,7 @@
 ---
 title: SetMessageFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets the message flags.
 type: docs
 weight: 250
 url: /net/aspose.email.mapi/mapimessageitembase/setmessageflags/

@@ -1,7 +1,7 @@
 ---
 title: ConversationMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether to include items that are included within the conversation modality within the results of the GetItemEstimate command response.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/itemestimaterequest/conversationmode/

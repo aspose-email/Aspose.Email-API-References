@@ -1,7 +1,7 @@
 ---
 title: SyncAddServerOperation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a new object in a collection on the server.
 type: docs
 weight: 2150
 url: /net/aspose.email.clients.activesync.transportlayer/syncaddserveroperation/

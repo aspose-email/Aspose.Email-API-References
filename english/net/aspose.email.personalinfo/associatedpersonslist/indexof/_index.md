@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines the index of a specific item in the list.
 type: docs
 weight: 260
 url: /net/aspose.email.personalinfo/associatedpersonslist/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(AssociatedPerson value)
 | --- | --- | --- |
 | value | AssociatedPerson | The Object to locate in the list. |
 
-## Return Value
+### Return Value
 
 The index of *value* if found in the list; otherwise, -1.
 

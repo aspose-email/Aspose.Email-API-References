@@ -1,7 +1,7 @@
 ---
 title: AllowRemoteDesktop
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows the use of Remote Desktop. This property SHOULD be ignored if the client does not support connecting remotely to a personal computer.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowremotedesktop/

@@ -1,7 +1,7 @@
 ---
 title: TemplateData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Describes the controls used in the template that is used to retrieve address book information. Area Address Book Canonical name PidTagTemplateData Alternate names PR_EMS_TEMPLATE_BLOB
 type: docs
 weight: 18910
 url: /net/aspose.email.mapi/knownpropertylist/templatedata/

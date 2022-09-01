@@ -1,7 +1,7 @@
 ---
 title: SentRepresentingFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area Miscellaneous Properties Canonical name PidTagSentRepresentingFlags Alternate names ptagSentRepresentingFlags
 type: docs
 weight: 17250
 url: /net/aspose.email.mapi/knownpropertylist/sentrepresentingflags/

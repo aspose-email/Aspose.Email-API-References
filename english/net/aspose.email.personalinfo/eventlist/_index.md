@@ -1,9 +1,9 @@
 ---
 title: EventList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of events for a contact
 type: docs
-weight: 19200
+weight: 19410
 url: /net/aspose.email.personalinfo/eventlist/
 ---
 ## EventList class

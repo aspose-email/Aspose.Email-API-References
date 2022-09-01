@@ -1,12 +1,12 @@
 ---
 title: DeleteFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the specified folders
 type: docs
 weight: 610
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/deletefolders/
 ---
-## IEWSClient.DeleteFolders method (1 of 4)
+## DeleteFolders(ExchangeFolderInfoCollection) {#deletefolders}
 
 Deletes the specified folders
 
@@ -33,7 +33,7 @@ public void DeleteFolders(ExchangeFolderInfoCollection folders)
 
 ---
 
-## IEWSClient.DeleteFolders method (2 of 4)
+## DeleteFolders(StringCollection) {#deletefolders_2}
 
 Deletes the specified folders
 
@@ -59,7 +59,7 @@ public void DeleteFolders(StringCollection folderUris)
 
 ---
 
-## IEWSClient.DeleteFolders method (3 of 4)
+## DeleteFolders(ExchangeFolderInfoCollection, bool) {#deletefolders_1}
 
 Deletes the specified folders
 
@@ -87,7 +87,7 @@ public void DeleteFolders(ExchangeFolderInfoCollection folders, bool deletePerma
 
 ---
 
-## IEWSClient.DeleteFolders method (4 of 4)
+## DeleteFolders(StringCollection, bool) {#deletefolders_3}
 
 Deletes the folder
 

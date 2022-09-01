@@ -1,7 +1,7 @@
 ---
 title: DestMailboxOwnerUPN
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set only if the CrossMailboxOperations parameter is True. Specifies the UPN of the owner of the target mailbox.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activity/exchangemailboxauditgroupactivity/destmailboxownerupn/

@@ -1,7 +1,7 @@
 ---
 title: FlagRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains userspecifiable text to be associated with the flag. Area Flagging Canonical name PidLidFlagRequest Alternate names dispidRequest
 type: docs
 weight: 10350
 url: /net/aspose.email.mapi/knownpropertylist/flagrequest/

@@ -1,7 +1,7 @@
 ---
 title: CustomAttachmentStorageData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the custom attachment storage data.Can be null.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi.msg/messageobjectattachmententity/customattachmentstoragedata/
@@ -14,7 +14,7 @@ Gets or sets the custom attachment storage data.Can be null.
 public CustomAttachmentStorage CustomAttachmentStorageData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The custom attachment storage data.
 

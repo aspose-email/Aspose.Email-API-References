@@ -1,7 +1,7 @@
 ---
 title: OOFMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the OOF message for a particular audience. Exchange 2007 Exchange 2010 and Exchange 2013 require that the reply message for unknown external and known external audiences be the same. The property supports the following three audiences for an OOF message Internal  A user who is in the same organization as the sending user. Known external  A user who is outside the sending users organization but is represented in the sending users contacts. Unknown external  A user who is outside the sending users organization and is not represented in the sending users contacts.
 type: docs
 weight: 1610
 url: /net/aspose.email.clients.activesync.transportlayer/oofmessage/

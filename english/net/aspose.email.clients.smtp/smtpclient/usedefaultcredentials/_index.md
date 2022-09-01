@@ -1,7 +1,7 @@
 ---
 title: UseDefaultCredentials
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a Boolean value that controls whether the DefaultCredentials are sent with requests.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.smtp/smtpclient/usedefaultcredentials/

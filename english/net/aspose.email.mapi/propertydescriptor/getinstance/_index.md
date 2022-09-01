@@ -1,12 +1,12 @@
 ---
 title: GetInstance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves PidTagPropertyDescriptoraspose.email.mapi/pidtagpropertydescriptor object
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/propertydescriptor/getinstance/
 ---
-## PropertyDescriptor.GetInstance method (1 of 5)
+## GetInstance(int, PropertyDataType) {#getinstance_2}
 
 Retrieves [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
 
@@ -19,7 +19,7 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 | id | Int32 | Id of a property |
 | dataType | PropertyDataType | Data type of a property |
 
-## Return Value
+### Return Value
 
 [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
 
@@ -33,7 +33,7 @@ public static PidTagPropertyDescriptor GetInstance(int id, PropertyDataType data
 
 ---
 
-## PropertyDescriptor.GetInstance method (2 of 5)
+## GetInstance(long) {#getinstance_3}
 
 Retrieves [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
 
@@ -45,7 +45,7 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 | --- | --- | --- |
 | tag | Int64 | Tag of a property |
 
-## Return Value
+### Return Value
 
 [`PidTagPropertyDescriptor`](../../pidtagpropertydescriptor) object
 
@@ -58,7 +58,7 @@ public static PidTagPropertyDescriptor GetInstance(long tag)
 
 ---
 
-## PropertyDescriptor.GetInstance method (3 of 5)
+## GetInstance(long, PropertyDataType, Guid) {#getinstance}
 
 Retrieves [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) object
 
@@ -73,7 +73,7 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 | dataType | PropertyDataType | Data type of a property |
 | propertySet | Guid | PropertySet of a property |
 
-## Return Value
+### Return Value
 
 [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) object
 
@@ -87,7 +87,7 @@ public static PidLidPropertyDescriptor GetInstance(long lid, PropertyDataType da
 
 ---
 
-## PropertyDescriptor.GetInstance method (4 of 5)
+## GetInstance(string, PropertyDataType, Guid) {#getinstance_1}
 
 Retrieves [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) object
 
@@ -102,7 +102,7 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 | dataType | PropertyDataType | Data type of a property |
 | propertySet | Guid | PropertySet of a property |
 
-## Return Value
+### Return Value
 
 [`PidNamePropertyDescriptor`](../../pidnamepropertydescriptor) object
 
@@ -116,7 +116,7 @@ public static PidNamePropertyDescriptor GetInstance(string name, PropertyDataTyp
 
 ---
 
-## PropertyDescriptor.GetInstance method (5 of 5)
+## GetInstance(MapiProperty) {#getinstance_4}
 
 Retrieves [`PropertyDescriptor`](../../propertydescriptor) object from MAPI property
 

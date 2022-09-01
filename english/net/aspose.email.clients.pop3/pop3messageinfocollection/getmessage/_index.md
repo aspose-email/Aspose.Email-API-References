@@ -1,12 +1,12 @@
 ---
 title: GetMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the Pop3MessageInfoaspose.email.clients.pop3/pop3messageinfo of the EMail message.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.pop3/pop3messageinfocollection/getmessage/
 ---
-## Pop3MessageInfoCollection.GetMessage method (1 of 2)
+## GetMessage(string) {#getmessage_1}
 
 Gets the [`Pop3MessageInfo`](../../pop3messageinfo) of the E-Mail message.
 
@@ -18,7 +18,7 @@ public Pop3MessageInfo GetMessage(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | Unique Id of the E-Mail message. |
 
-## Return Value
+### Return Value
 
 Returns [`Pop3MessageInfo`](../../pop3messageinfo) if exists, otherwise returns null.
 
@@ -31,7 +31,7 @@ Returns [`Pop3MessageInfo`](../../pop3messageinfo) if exists, otherwise returns 
 
 ---
 
-## Pop3MessageInfoCollection.GetMessage method (2 of 2)
+## GetMessage(int) {#getmessage}
 
 Gets the [`Pop3MessageInfo`](../../pop3messageinfo) of the E-Mail message.
 
@@ -43,7 +43,7 @@ public Pop3MessageInfo GetMessage(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | Sequence number of the E-Mail message. |
 
-## Return Value
+### Return Value
 
 Returns [`Pop3MessageInfo`](../../pop3messageinfo) if exists, otherwise returns null.
 

@@ -1,7 +1,7 @@
 ---
 title: Provision
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provision namespace of the ActiveSync protocol
 type: docs
 weight: 1710
 url: /net/aspose.email.clients.activesync.transportlayer/provision/
@@ -14,7 +14,7 @@ Provision namespace of the ActiveSync protocol
 public enum Provision
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

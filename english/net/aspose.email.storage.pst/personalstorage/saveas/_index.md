@@ -1,12 +1,12 @@
 ---
 title: SaveAs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves the current object to a specified file format in a different file.
 type: docs
 weight: 280
 url: /net/aspose.email.storage.pst/personalstorage/saveas/
 ---
-## PersonalStorage.SaveAs method (1 of 2)
+## SaveAs(string, FileFormat) {#saveas_1}
 
 Saves the current object to a specified file format in a different file.
 
@@ -28,7 +28,7 @@ public void SaveAs(string fileName, FileFormat format)
 
 ---
 
-## PersonalStorage.SaveAs method (2 of 2)
+## SaveAs(Stream, FileFormat) {#saveas}
 
 Saves the current object to a specified file format in a stream.
 

@@ -1,9 +1,9 @@
 ---
 title: ImapFolderInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an IMAP folder.
 type: docs
-weight: 16270
+weight: 16300
 url: /net/aspose.email.clients.imap/imapfolderinfo/
 ---
 ## ImapFolderInfo class
@@ -43,11 +43,11 @@ public sealed class ImapFolderInfo
 | --- | --- |
 | override [ToString](../../aspose.email.clients.imap/imapfolderinfo/tostring)() | Returns a string that represents the current object. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [InBox](inbox) | Gets inbox name. |
+| const [InBox](../../aspose.email.clients.imap/imapfolderinfo/inbox) | Gets inbox name. |
 
 ### See Also
 

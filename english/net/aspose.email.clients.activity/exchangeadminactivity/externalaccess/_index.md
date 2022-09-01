@@ -1,7 +1,7 @@
 ---
 title: ExternalAccess
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the cmdlet was run by a user in your organization by Microsoft datacenter personnel or a datacenter service account or by a delegated administrator. The value False indicates that the cmdlet was run by someone in your organization. The value True indicates that the cmdlet was run by datacenter personnel a datacenter service account or a delegated administrator.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/exchangeadminactivity/externalaccess/

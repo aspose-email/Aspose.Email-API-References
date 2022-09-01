@@ -1,7 +1,7 @@
 ---
 title: Atomic
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether this MessageObjectPropertyaspose.email.mapi.msg/messageobjectproperty is atomic.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi.msg/messageobjectproperty/atomic/
@@ -14,7 +14,7 @@ Gets a value indicating whether this [`MessageObjectProperty`](../../messageobje
 public bool Atomic { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if atomic; otherwise, `false`.
 

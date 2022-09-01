@@ -1,7 +1,7 @@
 ---
 title: Email1
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Email1 category. Used by MS Exchange server.
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/emailaddresscategory/email1/

@@ -1,7 +1,7 @@
 ---
 title: LastUser
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the name of the most recent user to have been the task owner.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapitaskusers/lastuser/

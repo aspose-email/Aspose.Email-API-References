@@ -1,7 +1,7 @@
 ---
 title: AppointmentSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents base appointment save options
 type: docs
 weight: 560
 url: /net/aspose.email.calendar/appointmentsaveoptions/

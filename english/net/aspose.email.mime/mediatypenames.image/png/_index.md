@@ -1,7 +1,7 @@
 ---
 title: Png
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies image/png media type
 type: docs
 weight: 40
 url: /net/aspose.email.mime/mediatypenames.image/png/

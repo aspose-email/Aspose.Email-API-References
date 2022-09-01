@@ -1,7 +1,7 @@
 ---
 title: City
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the city or locality portion of the contacts address
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicontactphysicaladdress/city/

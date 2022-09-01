@@ -1,9 +1,9 @@
 ---
 title: FileAppender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reprensents a file appender.
 type: docs
-weight: 20260
+weight: 20490
 url: /net/aspose.email.tools.logging/fileappender/
 ---
 ## FileAppender class
@@ -18,11 +18,11 @@ public sealed class FileAppender : Appender
 
 | Name | Description |
 | --- | --- |
-| [FileAppender](fileappender)() | Initializes a new instance of the FileAppender class. |
-| [FileAppender](fileappender)(string) | Initializes a new instance of the FileAppender class. |
-| [FileAppender](fileappender)(string, bool) | Initializes a new instance of the FileAppender class. |
-| [FileAppender](fileappender)(string, IFormatter) | Initializes a new instance of the FileAppender class. |
-| [FileAppender](fileappender)(string, bool, IFormatter) | Initializes a new instance of the FileAppender class. |
+| [FileAppender](fileappender#constructor)() | Initializes a new instance of the FileAppender class. |
+| [FileAppender](fileappender#constructor_1)(string) | Initializes a new instance of the FileAppender class. |
+| [FileAppender](fileappender#constructor_3)(string, bool) | Initializes a new instance of the FileAppender class. |
+| [FileAppender](fileappender#constructor_2)(string, IFormatter) | Initializes a new instance of the FileAppender class. |
+| [FileAppender](fileappender#constructor_4)(string, bool, IFormatter) | Initializes a new instance of the FileAppender class. |
 
 ## Properties
 
@@ -37,8 +37,8 @@ public sealed class FileAppender : Appender
 
 | Name | Description |
 | --- | --- |
-| override [Append](../../aspose.email.tools.logging/fileappender/append)(LogEntry) | Appends the log entry information to the appender. |
-| [Append](../../aspose.email.tools.logging/fileappender/append)(LogEntry[]) | Appends a set of log entries to the appender. |
+| override [Append](../../aspose.email.tools.logging/fileappender/append#append)(LogEntry) | Appends the log entry information to the appender. |
+| [Append](../../aspose.email.tools.logging/fileappender/append#append_1)(LogEntry[]) | Appends a set of log entries to the appender. |
 | override [AppendHeader](../../aspose.email.tools.logging/fileappender/appendheader)() | Starts log file with specific header. |
 | override [Close](../../aspose.email.tools.logging/fileappender/close)() | Closes the appender. |
 | [Dispose](../../aspose.email.tools.logging/appender/dispose)() | Releases the unmanaged resources used by the Appender. |

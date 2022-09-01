@@ -1,7 +1,7 @@
 ---
 title: Work
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default work email address.
 type: docs
 weight: 100
 url: /net/aspose.email.personalinfo/emailaddresslist/work/

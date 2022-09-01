@@ -1,9 +1,9 @@
 ---
 title: SimpleFormatter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the default implementation of IFormatter interface.
 type: docs
-weight: 20360
+weight: 20590
 url: /net/aspose.email.tools.logging/simpleformatter/
 ---
 ## SimpleFormatter class
@@ -18,8 +18,8 @@ public sealed class SimpleFormatter : Formatter
 
 | Name | Description |
 | --- | --- |
-| [SimpleFormatter](simpleformatter)() | Creates a new SimpleFormatter instance. |
-| [SimpleFormatter](simpleformatter)(string, string) | Creates a new SimpleFormatter instance. |
+| [SimpleFormatter](simpleformatter#constructor)() | Creates a new SimpleFormatter instance. |
+| [SimpleFormatter](simpleformatter#constructor_1)(string, string) | Creates a new SimpleFormatter instance. |
 
 ## Properties
 
@@ -33,8 +33,8 @@ public sealed class SimpleFormatter : Formatter
 
 | Name | Description |
 | --- | --- |
-| override [Format](../../aspose.email.tools.logging/simpleformatter/format)(DateTime) | Formats a datetime and return a string to be outputted. |
-| override [Format](../../aspose.email.tools.logging/simpleformatter/format)(LogEntry) | Formats a log entry and return a string to be outputted. |
+| override [Format](../../aspose.email.tools.logging/simpleformatter/format#format_1)(DateTime) | Formats a datetime and return a string to be outputted. |
+| override [Format](../../aspose.email.tools.logging/simpleformatter/format#format)(LogEntry) | Formats a log entry and return a string to be outputted. |
 
 ### See Also
 

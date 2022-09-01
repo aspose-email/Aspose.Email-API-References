@@ -1,7 +1,7 @@
 ---
 title: Plain
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies text/plain media type
 type: docs
 weight: 20
 url: /net/aspose.email.mime/mediatypenames.text/plain/

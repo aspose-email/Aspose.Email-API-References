@@ -1,7 +1,7 @@
 ---
 title: VCardFullName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the VCardFullNameaspose.email.personalinfo.vcard/vcardfullname class
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo.vcard/vcardfullname/vcardfullname/

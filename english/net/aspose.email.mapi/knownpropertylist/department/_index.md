@@ -1,7 +1,7 @@
 ---
 title: Department
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This property is ignored by the server and is set to an empty string by the client. Area Contact Properties Canonical name PidLidDepartment Alternate names dispidDepartment
 type: docs
 weight: 3990
 url: /net/aspose.email.mapi/knownpropertylist/department/

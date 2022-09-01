@@ -1,7 +1,7 @@
 ---
 title: Quotas
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets usage of resource
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/imapquotaroot/quotas/

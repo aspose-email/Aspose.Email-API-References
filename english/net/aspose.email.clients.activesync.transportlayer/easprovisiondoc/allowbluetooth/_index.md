@@ -1,7 +1,7 @@
 ---
 title: AllowBluetooth
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the use of Bluetooth on the device. This property SHOULD be ignored if the client does not support Bluetooth.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowbluetooth/

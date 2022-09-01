@@ -1,7 +1,7 @@
 ---
 title: MapiCalendarEventRecurrence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiCalendarEventRecurrenceaspose.email.mapi/mapicalendareventrecurrence class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicalendareventrecurrence/mapicalendareventrecurrence/

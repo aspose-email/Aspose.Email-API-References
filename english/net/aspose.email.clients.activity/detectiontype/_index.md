@@ -1,7 +1,7 @@
 ---
 title: DetectionType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The type of detection.
 type: docs
 weight: 2440
 url: /net/aspose.email.clients.activity/detectiontype/
@@ -14,7 +14,7 @@ The type of detection.
 public enum DetectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,9 +1,9 @@
 ---
 title: ItemCallbackArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ItemCallbackArgs contains item being processed.
 type: docs
-weight: 17000
+weight: 17170
 url: /net/aspose.email.common.delegate/itemcallbackargs/
 ---
 ## ItemCallbackArgs class

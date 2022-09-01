@@ -1,7 +1,7 @@
 ---
 title: RootFolderServerNotifications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Occurs when arises specified event type for Root folder.
 type: docs
 weight: 320
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/rootfolderservernotifications/

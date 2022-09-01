@@ -1,7 +1,7 @@
 ---
 title: Action
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a server endpoint to handle the form input. The value must be an https URL absolute or relative and must not be a link to a CDN
 type: docs
 weight: 20
 url: /net/aspose.email.amp/ampform/action/

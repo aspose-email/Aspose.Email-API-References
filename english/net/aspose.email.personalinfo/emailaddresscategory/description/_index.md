@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets description for the Custom category of a email address
 type: docs
 weight: 80
 url: /net/aspose.email.personalinfo/emailaddresscategory/description/

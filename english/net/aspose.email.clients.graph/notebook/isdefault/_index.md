@@ -1,7 +1,7 @@
 ---
 title: IsDefault
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether this is the users default notebook. Readonly.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.graph/notebook/isdefault/

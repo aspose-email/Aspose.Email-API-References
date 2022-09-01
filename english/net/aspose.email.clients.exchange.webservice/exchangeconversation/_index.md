@@ -1,7 +1,7 @@
 ---
 title: ExchangeConversation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a single conversation.
 type: docs
 weight: 3740
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/

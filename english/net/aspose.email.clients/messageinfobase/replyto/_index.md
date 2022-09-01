@@ -1,7 +1,7 @@
 ---
 title: ReplyTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the list of addresses that should receive replies to this message.
 type: docs
 weight: 100
 url: /net/aspose.email.clients/messageinfobase/replyto/
@@ -14,7 +14,7 @@ Gets the list of addresses that should receive replies to this message.
 public MailAddressCollection ReplyTo { get; }
 ```
 
-## Property Value
+### Property Value
 
 The list of addresses.
 

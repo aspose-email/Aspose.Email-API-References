@@ -1,9 +1,9 @@
 ---
 title: TimeZone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a timeZone
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/timezone/
 ---
 ## VCardContact.TimeZone property

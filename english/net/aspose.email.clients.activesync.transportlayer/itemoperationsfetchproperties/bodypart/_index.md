@@ -1,7 +1,7 @@
 ---
 title: BodyPart
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies details about the message part of an email in a response.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/bodypart/

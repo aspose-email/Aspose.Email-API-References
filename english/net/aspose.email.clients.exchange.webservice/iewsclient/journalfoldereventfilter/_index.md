@@ -1,7 +1,7 @@
 ---
 title: JournalFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for Journal folder
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/journalfoldereventfilter/

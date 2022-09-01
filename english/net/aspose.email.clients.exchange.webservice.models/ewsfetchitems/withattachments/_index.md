@@ -1,7 +1,7 @@
 ---
 title: WithAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetch all attachments.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/withattachments/

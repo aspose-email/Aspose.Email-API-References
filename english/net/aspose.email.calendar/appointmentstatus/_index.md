@@ -1,7 +1,7 @@
 ---
 title: AppointmentStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the overall status or confirmation for the appointment.
 type: docs
 weight: 570
 url: /net/aspose.email.calendar/appointmentstatus/
@@ -14,7 +14,7 @@ Defines the overall status or confirmation for the appointment.
 public enum AppointmentStatus
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

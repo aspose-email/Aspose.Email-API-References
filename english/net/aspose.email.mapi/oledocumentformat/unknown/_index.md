@@ -1,7 +1,7 @@
 ---
 title: Unknown
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Unknown type.
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/oledocumentformat/unknown/

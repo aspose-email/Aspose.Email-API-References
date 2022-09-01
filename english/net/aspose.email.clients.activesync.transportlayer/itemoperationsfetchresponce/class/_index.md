@@ -1,7 +1,7 @@
 ---
 title: Class
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the class of the item. The valid Class element values are  Email  Contacts  Calendar  Tasks
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/class/

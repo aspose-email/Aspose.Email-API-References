@@ -1,7 +1,7 @@
 ---
 title: ContainsKeyword
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether Flags property contains the Keyword flag.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.imap/imapmessageinfo/containskeyword/

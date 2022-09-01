@@ -1,9 +1,9 @@
 ---
 title: HttpProxy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: HTTP proxy client.
 type: docs
-weight: 16100
+weight: 16120
 url: /net/aspose.email.clients/httpproxy/
 ---
 ## HttpProxy class
@@ -18,8 +18,8 @@ public class HttpProxy : Proxy, IWebProxy
 
 | Name | Description |
 | --- | --- |
-| [HttpProxy](httpproxy)(string, int) | Initializes a new instance of the [`HttpProxy`](../httpproxy) class to connect to proxy server without authentication. |
-| [HttpProxy](httpproxy)(string, int, string, string) | Initializes a new instance of the [`HttpProxy`](../httpproxy) class to connect to proxy server with defined username and password. |
+| [HttpProxy](httpproxy#constructor)(string, int) | Initializes a new instance of the [`HttpProxy`](../httpproxy) class to connect to proxy server without authentication. |
+| [HttpProxy](httpproxy#constructor_1)(string, int, string, string) | Initializes a new instance of the [`HttpProxy`](../httpproxy) class to connect to proxy server with defined username and password. |
 
 ## Properties
 

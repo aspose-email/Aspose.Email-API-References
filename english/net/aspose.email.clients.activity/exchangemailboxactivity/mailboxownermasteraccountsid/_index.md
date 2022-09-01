@@ -1,7 +1,7 @@
 ---
 title: MailboxOwnerMasterAccountSid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Mailbox owner accounts master account SID.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/mailboxownermasteraccountsid/

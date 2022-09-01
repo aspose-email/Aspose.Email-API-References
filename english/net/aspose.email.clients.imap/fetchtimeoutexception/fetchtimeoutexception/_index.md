@@ -1,12 +1,12 @@
 ---
 title: FetchTimeoutException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FetchTimeoutExceptionaspose.email.clients.imap/fetchtimeoutexception class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/fetchtimeoutexception/fetchtimeoutexception/
 ---
-## FetchTimeoutException constructor (1 of 3)
+## FetchTimeoutException() {#constructor}
 
 Initializes a new instance of the [`FetchTimeoutException`](../../fetchtimeoutexception) class.
 
@@ -22,7 +22,7 @@ public FetchTimeoutException()
 
 ---
 
-## FetchTimeoutException constructor (2 of 3)
+## FetchTimeoutException(string) {#constructor_1}
 
 Initializes a new instance of the [`FetchTimeoutException`](../../fetchtimeoutexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public FetchTimeoutException(string message)
 
 ---
 
-## FetchTimeoutException constructor (3 of 3)
+## FetchTimeoutException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`FetchTimeoutException`](../../fetchtimeoutexception) class with a specified error message.
 

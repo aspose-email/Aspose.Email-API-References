@@ -1,7 +1,7 @@
 ---
 title: AssignCategories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the categories that are stamped on email messages.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/ruleactions/assigncategories/

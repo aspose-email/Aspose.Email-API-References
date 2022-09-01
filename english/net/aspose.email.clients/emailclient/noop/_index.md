@@ -1,12 +1,12 @@
 ---
 title: Noop
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: No operation command
 type: docs
 weight: 310
 url: /net/aspose.email.clients/emailclient/noop/
 ---
-## EmailClient.Noop method (1 of 2)
+## Noop() {#noop}
 
 'No operation' command
 
@@ -22,7 +22,7 @@ public abstract void Noop()
 
 ---
 
-## EmailClient.Noop method (2 of 2)
+## Noop(IConnection) {#noop_1}
 
 'No operation' command
 

@@ -1,9 +1,9 @@
 ---
 title: TextFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines format of a text.
 type: docs
-weight: 19320
+weight: 19530
 url: /net/aspose.email.personalinfo/textformat/
 ---
 ## TextFormat enumeration
@@ -14,7 +14,7 @@ Defines format of a text.
 public enum TextFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

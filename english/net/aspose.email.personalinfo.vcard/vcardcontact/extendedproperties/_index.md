@@ -1,7 +1,7 @@
 ---
 title: ExtendedProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an extended properties
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/extendedproperties/

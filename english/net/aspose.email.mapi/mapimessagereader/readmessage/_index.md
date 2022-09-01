@@ -1,7 +1,7 @@
 ---
 title: ReadMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Parse the current stream and returns the data as a MapiMessage.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapimessagereader/readmessage/
@@ -14,7 +14,7 @@ Parse the current stream and returns the data as a MapiMessage.
 public MapiMessage ReadMessage()
 ```
 
-## Return Value
+### Return Value
 
 The MapiMessage from the input stream.
 

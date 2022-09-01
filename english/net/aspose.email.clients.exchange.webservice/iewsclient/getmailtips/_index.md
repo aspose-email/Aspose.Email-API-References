@@ -1,7 +1,7 @@
 ---
 title: GetMailTips
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets mail tips
 type: docs
 weight: 1000
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getmailtips/
@@ -18,7 +18,7 @@ public MailTips[] GetMailTips(GetMailTipsOptions options)
 | --- | --- | --- |
 | options | GetMailTipsOptions | Options specifying a search criteria |
 
-## Return Value
+### Return Value
 
 An array of [`MailTips`](../../mailtips)
 

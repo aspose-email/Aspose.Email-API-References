@@ -1,7 +1,7 @@
 ---
 title: MessageHandlingSystemCommonName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the common name of a messaging user for use in a message header. Area Address Properties Canonical name PidTagMessageHandlingSystemCommonName Alternate names PR_MHS_COMMON_NAME PR_MHS_COMMON_NAME_A
 type: docs
 weight: 12540
 url: /net/aspose.email.mapi/knownpropertylist/messagehandlingsystemcommonname/

@@ -1,7 +1,7 @@
 ---
 title: Profession
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the profession of the contact
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/profession/

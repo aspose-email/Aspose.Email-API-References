@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a String that represents this instance.
 type: docs
 weight: 90
 url: /net/aspose.email.mime/contenttype/tostring/
@@ -14,7 +14,7 @@ Returns a String that represents this instance.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A String that represents this instance.
 

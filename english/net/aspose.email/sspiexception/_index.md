@@ -1,9 +1,9 @@
 ---
 title: SSPIException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents errors that occur during SSPI execution.
 type: docs
-weight: 19740
+weight: 19970
 url: /net/aspose.email/sspiexception/
 ---
 ## SSPIException class
@@ -18,11 +18,11 @@ public class SSPIException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [SSPIException](sspiexception)() | Initializes a new instance of the [`SSPIException`](../sspiexception) class. |
-| [SSPIException](sspiexception)(Exception) | Initializes a new instance of the [`SSPIException`](../sspiexception) class with a reference to the inner exception that is the cause of this exception. |
-| [SSPIException](sspiexception)(string) | Initializes a new instance of the [`SSPIException`](../sspiexception) class with a specified error message. |
-| [SSPIException](sspiexception)(string, Exception) | Initializes a new instance of the [`SSPIException`](../sspiexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [SSPIException](sspiexception)(string, params object[]) | Initializes a new instance of the [`SSPIException`](../sspiexception) class with a specified error message. |
+| [SSPIException](sspiexception#constructor)() | Initializes a new instance of the [`SSPIException`](../sspiexception) class. |
+| [SSPIException](sspiexception#constructor_1)(Exception) | Initializes a new instance of the [`SSPIException`](../sspiexception) class with a reference to the inner exception that is the cause of this exception. |
+| [SSPIException](sspiexception#constructor_2)(string) | Initializes a new instance of the [`SSPIException`](../sspiexception) class with a specified error message. |
+| [SSPIException](sspiexception#constructor_3)(string, Exception) | Initializes a new instance of the [`SSPIException`](../sspiexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [SSPIException](sspiexception#constructor_4)(string, params object[]) | Initializes a new instance of the [`SSPIException`](../sspiexception) class with a specified error message. |
 
 ## Properties
 

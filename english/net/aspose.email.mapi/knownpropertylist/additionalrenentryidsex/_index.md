@@ -1,7 +1,7 @@
 ---
 title: AdditionalRenEntryIdsEx
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an array of blocks that specify the EntryIDs of several special folders. Area Outlook Application Canonical name PidTagAdditionalRenEntryIdsEx Alternate names PR_ADDITIONAL_REN_ENTRYIDS_EX ptagAdditionalRenEntryIdsEx
 type: docs
 weight: 310
 url: /net/aspose.email.mapi/knownpropertylist/additionalrenentryidsex/

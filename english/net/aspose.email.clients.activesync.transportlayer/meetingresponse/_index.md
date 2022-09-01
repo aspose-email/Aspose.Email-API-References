@@ -1,7 +1,7 @@
 ---
 title: MeetingResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: MeetingResponse namespace of the ActiveSync protocol
 type: docs
 weight: 1510
 url: /net/aspose.email.clients.activesync.transportlayer/meetingresponse/
@@ -14,7 +14,7 @@ MeetingResponse namespace of the ActiveSync protocol
 public enum MeetingResponse
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

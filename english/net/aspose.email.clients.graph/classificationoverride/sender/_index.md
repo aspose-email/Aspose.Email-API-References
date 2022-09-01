@@ -1,7 +1,7 @@
 ---
 title: Sender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets email address information of the sender for whom the override is created.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.graph/classificationoverride/sender/

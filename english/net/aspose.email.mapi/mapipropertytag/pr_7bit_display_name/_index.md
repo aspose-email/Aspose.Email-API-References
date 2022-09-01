@@ -1,7 +1,7 @@
 ---
 title: PR_7BIT_DISPLAY_NAME
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The PR_7BIT_DISPLAY_NAME property contains a 7bit ASCII version of a messaging users name.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapipropertytag/pr_7bit_display_name/

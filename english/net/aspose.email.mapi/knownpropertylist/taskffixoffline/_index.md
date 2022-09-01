@@ -1,7 +1,7 @@
 ---
 title: TaskFFixOffline
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the accuracy of the PidLidTaskOwner property section 2.328. Area Tasks Canonical name PidLidTaskFFixOffline Alternate names dispidTaskFFixOffline
 type: docs
 weight: 18650
 url: /net/aspose.email.mapi/knownpropertylist/taskffixoffline/

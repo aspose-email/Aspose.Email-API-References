@@ -1,7 +1,7 @@
 ---
 title: RoamingDatatypes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a bitmask that indicates which stream properties exist on the message. Area Configuration Canonical name PidTagRoamingDatatypes Alternate names PR_ROAMING_DATATYPES
 type: docs
 weight: 16310
 url: /net/aspose.email.mapi/knownpropertylist/roamingdatatypes/

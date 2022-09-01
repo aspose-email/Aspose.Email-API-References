@@ -1,7 +1,7 @@
 ---
 title: CustomerId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the contacts customer ID number
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/customerid/

@@ -1,7 +1,7 @@
 ---
 title: ChangeContainerClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Changes the container class.
 type: docs
 weight: 180
 url: /net/aspose.email.storage.pst/folderinfo/changecontainerclass/

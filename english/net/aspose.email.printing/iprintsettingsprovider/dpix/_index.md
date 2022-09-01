@@ -1,7 +1,7 @@
 ---
 title: DpiX
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the horizontal DPI.
 type: docs
 weight: 20
 url: /net/aspose.email.printing/iprintsettingsprovider/dpix/
@@ -14,7 +14,7 @@ Gets or sets the horizontal DPI.
 public double DpiX { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The horizontal DPI.
 

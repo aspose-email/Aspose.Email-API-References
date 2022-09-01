@@ -1,12 +1,12 @@
 ---
 title: UpdateAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates appointment.
 type: docs
 weight: 1440
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updateappointment/
 ---
-## IEWSClient.UpdateAppointment method (1 of 4)
+## UpdateAppointment(MapiCalendar) {#updateappointment_2}
 
 Updates appointment.
 
@@ -27,7 +27,7 @@ public void UpdateAppointment(MapiCalendar appointment)
 
 ---
 
-## IEWSClient.UpdateAppointment method (2 of 4)
+## UpdateAppointment(MapiCalendar, string) {#updateappointment_3}
 
 Updates appointment.
 
@@ -49,7 +49,7 @@ public void UpdateAppointment(MapiCalendar appointment, string folderUri)
 
 ---
 
-## IEWSClient.UpdateAppointment method (3 of 4)
+## UpdateAppointment(Appointment) {#updateappointment}
 
 Updates appointment.
 
@@ -70,7 +70,7 @@ public void UpdateAppointment(Appointment appointment)
 
 ---
 
-## IEWSClient.UpdateAppointment method (4 of 4)
+## UpdateAppointment(Appointment, string) {#updateappointment_1}
 
 Updates appointment.
 

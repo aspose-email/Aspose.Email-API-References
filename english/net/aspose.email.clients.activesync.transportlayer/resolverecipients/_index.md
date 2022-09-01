@@ -1,7 +1,7 @@
 ---
 title: ResolveRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ResolveRecipients namespace of the ActiveSync protocol
 type: docs
 weight: 1810
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipients/
@@ -14,7 +14,7 @@ ResolveRecipients namespace of the ActiveSync protocol
 public enum ResolveRecipients
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

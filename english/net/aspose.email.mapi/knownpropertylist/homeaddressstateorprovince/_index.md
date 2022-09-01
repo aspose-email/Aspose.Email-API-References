@@ -1,7 +1,7 @@
 ---
 title: HomeAddressStateOrProvince
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the mail users home state or province. Area MapiMailUser Canonical name PidTagHomeAddressStateOrProvince Alternate names PR_HOME_ADDRESS_STATE_OR_PROVINCE PR_HOME_ADDRESS_STATE_OR_PROVINCE_A PR_HOME_ADDRESS_STATE_OR_PROVINCE_W
 type: docs
 weight: 11060
 url: /net/aspose.email.mapi/knownpropertylist/homeaddressstateorprovince/

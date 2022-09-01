@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value of condition
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/searchcondition/value/

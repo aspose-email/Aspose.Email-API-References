@@ -1,7 +1,7 @@
 ---
 title: Send
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sends the mail message.
 type: docs
 weight: 370
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/send/

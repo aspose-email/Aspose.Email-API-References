@@ -1,12 +1,12 @@
 ---
 title: CreateAttachmentFromString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the attachment from string.
 type: docs
 weight: 20
 url: /net/aspose.email/attachment/createattachmentfromstring/
 ---
-## Attachment.CreateAttachmentFromString method (1 of 3)
+## CreateAttachmentFromString(string, string) {#createattachmentfromstring_1}
 
 Creates the attachment from string.
 
@@ -19,7 +19,7 @@ public static Attachment CreateAttachmentFromString(string content, string name)
 | content | String | A string that represents the content of attachment. |
 | name | String | The attachment name. |
 
-## Return Value
+### Return Value
 
 Returns created attachment
 
@@ -31,7 +31,7 @@ Returns created attachment
 
 ---
 
-## Attachment.CreateAttachmentFromString method (2 of 3)
+## CreateAttachmentFromString(string, string, Encoding, string) {#createattachmentfromstring_2}
 
 Creates the attachment from string.
 
@@ -47,7 +47,7 @@ public static Attachment CreateAttachmentFromString(string content, string name,
 | contentEncoding | Encoding | The content encoding. |
 | mediaType | String | The media type name |
 
-## Return Value
+### Return Value
 
 Returns created attachment
 
@@ -59,7 +59,7 @@ Returns created attachment
 
 ---
 
-## Attachment.CreateAttachmentFromString method (3 of 3)
+## CreateAttachmentFromString(string, ContentType) {#createattachmentfromstring}
 
 Creates the attachment from string.
 
@@ -72,7 +72,7 @@ public static Attachment CreateAttachmentFromString(string content, ContentType 
 | content | String | A string that represents the content of attachment. |
 | contentType | ContentType | The [`ContentType`](../../../aspose.email.mime/contenttype). |
 
-## Return Value
+### Return Value
 
 Returns created attachment
 

@@ -1,7 +1,7 @@
 ---
 title: GetFolderInfoAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the folder information
 type: docs
 weight: 340
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getfolderinfoasync/
@@ -20,7 +20,7 @@ public Task<ExchangeFolderInfo> GetFolderInfoAsync(string folder,
 | folder | String | A folder uri, distinguished folder name. path/to/folder can also be used, if UseSlashAsFolderSeparator is set |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 A [`ExchangeFolderInfo`](../../../aspose.email.clients.exchange/exchangefolderinfo) that represents the folder information
 

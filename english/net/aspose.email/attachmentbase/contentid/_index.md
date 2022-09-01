@@ -1,7 +1,7 @@
 ---
 title: ContentId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the content id.
 type: docs
 weight: 10
 url: /net/aspose.email/attachmentbase/contentid/
@@ -14,7 +14,7 @@ Gets or sets the content id.
 public string ContentId { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The content id.
 

@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified Object is equal to this instance.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.imap/imapmessageflags/equals/
 ---
-## ImapMessageFlags.Equals method (1 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified Object is equal to this instance.
 
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 `true` if the specified Object is equal to this instance; otherwise, `false`.
 
@@ -36,7 +36,7 @@ public override bool Equals(object obj)
 
 ---
 
-## ImapMessageFlags.Equals method (2 of 2)
+## Equals(ImapMessageFlags) {#equals}
 
 Determines whether the specified object is equal to the current object.
 
@@ -48,7 +48,7 @@ public virtual bool Equals(ImapMessageFlags other)
 | --- | --- | --- |
 | other | ImapMessageFlags | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified object is equal to the current object; otherwise, false.
 

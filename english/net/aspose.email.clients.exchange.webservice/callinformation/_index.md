@@ -1,7 +1,7 @@
 ---
 title: CallInformation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Phone call information
 type: docs
 weight: 3630
 url: /net/aspose.email.clients.exchange.webservice/callinformation/

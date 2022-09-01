@@ -1,7 +1,7 @@
 ---
 title: UserEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Address book EntryID of the user logged on to the public folders. Area ExchangeMessageStore Canonical name PidTagUserEntryId Alternate names PR_USER_ENTRYID ptagUserEntryId
 type: docs
 weight: 19170
 url: /net/aspose.email.mapi/knownpropertylist/userentryid/

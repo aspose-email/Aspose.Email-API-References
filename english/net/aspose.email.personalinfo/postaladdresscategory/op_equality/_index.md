@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified objects are equal.
 type: docs
 weight: 130
 url: /net/aspose.email.personalinfo/postaladdresscategory/op_equality/
@@ -19,7 +19,7 @@ public static bool operator ==(PostalAddressCategory a, PostalAddressCategory b)
 | a | PostalAddressCategory | First object to compare |
 | b | PostalAddressCategory | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise false.
 

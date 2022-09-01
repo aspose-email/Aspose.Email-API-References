@@ -1,7 +1,7 @@
 ---
 title: CreateAppointmentAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates appointment.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createappointmentasync/
@@ -21,7 +21,7 @@ public Task<string> CreateAppointmentAsync(Appointment appointment, string folde
 | folderUri | String | An uri of appointments parent folder. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Returns appointment UID
 

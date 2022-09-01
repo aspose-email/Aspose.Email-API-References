@@ -1,7 +1,7 @@
 ---
 title: AccessControlListData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a permissions list for a folder. Area Access Control Properties Canonical name PidTagAccessControlListData Alternate names PR_ACL_DATA ptagACLData
 type: docs
 weight: 260
 url: /net/aspose.email.mapi/knownpropertylist/accesscontrollistdata/

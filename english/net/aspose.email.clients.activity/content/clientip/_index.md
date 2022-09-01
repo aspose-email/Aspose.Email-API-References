@@ -1,7 +1,7 @@
 ---
 title: ClientIP
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The IP address of the device that was used when the activity was logged. The IP address is displayed in either an IPv4 or IPv6 address format. Mandatory Yes
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/content/clientip/

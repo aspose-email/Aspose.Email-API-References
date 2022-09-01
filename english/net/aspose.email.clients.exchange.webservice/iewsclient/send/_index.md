@@ -1,12 +1,12 @@
 ---
 title: Send
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sends the specified message.
 type: docs
 weight: 1400
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/send/
 ---
-## IEWSClient.Send method (1 of 3)
+## Send(MailMessage) {#send}
 
 Sends the specified message.
 
@@ -27,7 +27,7 @@ public void Send(MailMessage message)
 
 ---
 
-## IEWSClient.Send method (2 of 3)
+## Send(string, string, string, string) {#send_2}
 
 Sends the specified message
 
@@ -50,7 +50,7 @@ public void Send(string from, string to, string subject, string body)
 
 ---
 
-## IEWSClient.Send method (3 of 3)
+## Send(MailMessage, FollowUpOptions) {#send_1}
 
 Sends the message.
 

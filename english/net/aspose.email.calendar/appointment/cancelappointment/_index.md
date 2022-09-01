@@ -1,12 +1,12 @@
 ---
 title: CancelAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Cancels the appointment.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.email.calendar/appointment/cancelappointment/
 ---
-## Appointment.CancelAppointment method (1 of 2)
+## CancelAppointment() {#cancelappointment}
 
 Cancels the appointment.
 
@@ -14,7 +14,7 @@ Cancels the appointment.
 public AlternateView CancelAppointment()
 ```
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 
@@ -27,7 +27,7 @@ AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represe
 
 ---
 
-## Appointment.CancelAppointment method (2 of 2)
+## CancelAppointment(int) {#cancelappointment_1}
 
 Cancels the appointment.
 
@@ -39,7 +39,7 @@ public AlternateView CancelAppointment(int seqId)
 | --- | --- | --- |
 | seqId | Int32 | The sequence id. |
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 

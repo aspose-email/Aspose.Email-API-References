@@ -1,7 +1,7 @@
 ---
 title: UidNotSticky
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value which indicates if mail store does not support persistent UIDs This property works only if server supports UIDPLUS extension. Please read more https//tools.ietf.org/html/rfc4315
 type: docs
 weight: 170
 url: /net/aspose.email.clients.imap/imapfolderinfo/uidnotsticky/

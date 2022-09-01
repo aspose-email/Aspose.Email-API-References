@@ -1,7 +1,7 @@
 ---
 title: DistributionListName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the name of the personal distribution list. Area Contact Properties Canonical name PidLidDistributionListName Alternate names dispidDLName
 type: docs
 weight: 4210
 url: /net/aspose.email.mapi/knownpropertylist/distributionlistname/

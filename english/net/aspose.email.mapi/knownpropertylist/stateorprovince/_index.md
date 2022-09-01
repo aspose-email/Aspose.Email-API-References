@@ -1,7 +1,7 @@
 ---
 title: StateOrProvince
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the name of the mail users state or province. Area MapiMailUser Canonical name PidTagStateOrProvince Alternate names PR_STATE_OR_PROVINCE PR_STATE_OR_PROVINCE_A PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A
 type: docs
 weight: 18190
 url: /net/aspose.email.mapi/knownpropertylist/stateorprovince/

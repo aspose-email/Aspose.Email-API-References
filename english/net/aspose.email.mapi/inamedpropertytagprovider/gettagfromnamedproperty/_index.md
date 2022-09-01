@@ -1,12 +1,12 @@
 ---
 title: GetTagFromNamedProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the tag from named property.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/inamedpropertytagprovider/gettagfromnamedproperty/
 ---
-## INamedPropertyTagProvider.GetTagFromNamedProperty method (1 of 2)
+## GetTagFromNamedProperty(long) {#gettagfromnamedproperty}
 
 Gets the tag from named property.
 
@@ -18,7 +18,7 @@ public long GetTagFromNamedProperty(long LId)
 | --- | --- | --- |
 | LId | Int64 | The property id. |
 
-## Return Value
+### Return Value
 
 The property tag value.
 
@@ -30,7 +30,7 @@ The property tag value.
 
 ---
 
-## INamedPropertyTagProvider.GetTagFromNamedProperty method (2 of 2)
+## GetTagFromNamedProperty(string) {#gettagfromnamedproperty_1}
 
 Gets the tag from named property.
 
@@ -42,7 +42,7 @@ public long GetTagFromNamedProperty(string name)
 | --- | --- | --- |
 | name | String | The property name |
 
-## Return Value
+### Return Value
 
 The property tag value.
 

@@ -1,12 +1,12 @@
 ---
 title: GetPrivateKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reads private key from stream.
 type: docs
 weight: 10
 url: /net/aspose.email.dkim/pemreader/getprivatekey/
 ---
-## PemReader.GetPrivateKey method (1 of 2)
+## GetPrivateKey(Stream) {#getprivatekey}
 
 Reads private key from stream.
 
@@ -18,7 +18,7 @@ public static RSACryptoServiceProvider GetPrivateKey(Stream pem)
 | --- | --- | --- |
 | pem | Stream | Stream to read from. |
 
-## Return Value
+### Return Value
 
 Certificate that was read.
 
@@ -30,7 +30,7 @@ Certificate that was read.
 
 ---
 
-## PemReader.GetPrivateKey method (2 of 2)
+## GetPrivateKey(string) {#getprivatekey_1}
 
 Reads private key from PEM file.
 
@@ -42,7 +42,7 @@ public static RSACryptoServiceProvider GetPrivateKey(string path)
 | --- | --- | --- |
 | path | String | Path to file to read from. |
 
-## Return Value
+### Return Value
 
 Certificate that was read.
 

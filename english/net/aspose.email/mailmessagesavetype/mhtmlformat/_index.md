@@ -1,7 +1,7 @@
 ---
 title: MHtmlFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the MHT.
 type: docs
 weight: 40
 url: /net/aspose.email/mailmessagesavetype/mhtmlformat/
@@ -14,7 +14,7 @@ Gets the MHT.
 public static MailMessageSaveType MHtmlFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The MHT.
 

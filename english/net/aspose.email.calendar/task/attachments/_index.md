@@ -1,7 +1,7 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a collection of file attached to the task.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/task/attachments/

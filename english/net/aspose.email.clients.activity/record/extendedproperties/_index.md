@@ -1,7 +1,7 @@
 ---
 title: ExtendedProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets list of extended properties for the setting being changed. Each property will have a Name and Value. Mandatory No
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/record/extendedproperties/

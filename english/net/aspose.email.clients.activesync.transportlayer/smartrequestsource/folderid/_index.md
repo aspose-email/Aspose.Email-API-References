@@ -1,7 +1,7 @@
 ---
 title: FolderId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the folder ID for the source message which is returned in the FolderSync command. If the FolderId is present the ItemId MUST also be present. The FolderId value can be up to 64 characters in length.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequestsource/folderid/

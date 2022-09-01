@@ -1,7 +1,7 @@
 ---
 title: Users
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets information about task users.
 type: docs
 weight: 210
 url: /net/aspose.email.mapi/mapitask/users/

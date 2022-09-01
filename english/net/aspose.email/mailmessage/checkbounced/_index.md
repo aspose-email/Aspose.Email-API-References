@@ -1,9 +1,9 @@
 ---
 title: CheckBounced
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Checks whether this message can be treated as a bounce message.
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.email/mailmessage/checkbounced/
 ---
 ## MailMessage.CheckBounced method
@@ -14,7 +14,7 @@ Checks whether this message can be treated as a bounce message.
 public virtual BounceResult CheckBounced()
 ```
 
-## Return Value
+### Return Value
 
 Result of checking[`BounceResult`](../../../aspose.email.bounce/bounceresult).
 

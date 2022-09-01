@@ -1,12 +1,12 @@
 ---
 title: FreebusyCalendarInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FreebusyCalendarInfo class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/freebusycalendarinfo/freebusycalendarinfo/
 ---
-## FreebusyCalendarInfo constructor (1 of 4)
+## FreebusyCalendarInfo() {#constructor}
 
 Initializes a new instance of the FreebusyCalendarInfo class.
 
@@ -22,7 +22,7 @@ public FreebusyCalendarInfo()
 
 ---
 
-## FreebusyCalendarInfo constructor (2 of 4)
+## FreebusyCalendarInfo(string, IEnumerable&lt;ErrorDetails&gt;) {#constructor_1}
 
 Initializes a new instance of the FreebusyCalendarInfo class.
 
@@ -44,7 +44,7 @@ public FreebusyCalendarInfo(string calendarId, IEnumerable<ErrorDetails> errors)
 
 ---
 
-## FreebusyCalendarInfo constructor (3 of 4)
+## FreebusyCalendarInfo(string, IEnumerable&lt;Range&gt;) {#constructor_3}
 
 Initializes a new instance of the FreebusyCalendarInfo class.
 
@@ -66,7 +66,7 @@ public FreebusyCalendarInfo(string calendarId, IEnumerable<Range> busy)
 
 ---
 
-## FreebusyCalendarInfo constructor (4 of 4)
+## FreebusyCalendarInfo(string, IEnumerable&lt;ErrorDetails&gt;, IEnumerable&lt;Range&gt;) {#constructor_2}
 
 Initializes a new instance of the FreebusyCalendarInfo class.
 

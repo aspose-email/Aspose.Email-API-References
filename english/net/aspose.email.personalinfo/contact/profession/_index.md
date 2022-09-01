@@ -1,7 +1,7 @@
 ---
 title: Profession
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a job position of a person in a company.
 type: docs
 weight: 370
 url: /net/aspose.email.personalinfo/contact/profession/

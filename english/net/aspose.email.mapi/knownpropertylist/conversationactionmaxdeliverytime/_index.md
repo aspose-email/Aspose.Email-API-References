@@ -1,7 +1,7 @@
 ---
 title: ConversationActionMaxDeliveryTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the maximum value of the PidTagMessageDeliveryTime property section conversation action on the client. Area Conversation Actions Canonical name PidLidConversationActionMaxDeliveryTime Alternate names dispidConvActionMaxDeliveryTime
 type: docs
 weight: 3350
 url: /net/aspose.email.mapi/knownpropertylist/conversationactionmaxdeliverytime/

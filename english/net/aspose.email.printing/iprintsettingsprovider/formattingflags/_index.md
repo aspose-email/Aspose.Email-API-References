@@ -1,7 +1,7 @@
 ---
 title: FormattingFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the printer options.
 type: docs
 weight: 40
 url: /net/aspose.email.printing/iprintsettingsprovider/formattingflags/
@@ -14,7 +14,7 @@ Gets or sets the printer options.
 public MessageFormattingFlags FormattingFlags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The printer options.
 

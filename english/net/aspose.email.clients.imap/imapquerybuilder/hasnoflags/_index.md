@@ -1,7 +1,7 @@
 ---
 title: HasNoFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search messages with the unspecified flags.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.imap/imapquerybuilder/hasnoflags/
@@ -18,7 +18,7 @@ public MailQuery HasNoFlags(ImapMessageFlags flags)
 | --- | --- | --- |
 | flags | ImapMessageFlags | The flags. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query (one searching criteria).
 

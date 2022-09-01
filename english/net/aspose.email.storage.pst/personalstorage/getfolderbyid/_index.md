@@ -1,12 +1,12 @@
 ---
 title: GetFolderById
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the personal folder from PST.
 type: docs
 weight: 220
 url: /net/aspose.email.storage.pst/personalstorage/getfolderbyid/
 ---
-## PersonalStorage.GetFolderById method (1 of 2)
+## GetFolderById(byte[]) {#getfolderbyid}
 
 Gets the personal folder from PST.
 
@@ -18,7 +18,7 @@ public FolderInfo GetFolderById(byte[] entryId)
 | --- | --- | --- |
 | entryId | Byte[] | The Entry id. |
 
-## Return Value
+### Return Value
 
 A FolderInfo object.
 
@@ -31,7 +31,7 @@ A FolderInfo object.
 
 ---
 
-## PersonalStorage.GetFolderById method (2 of 2)
+## GetFolderById(string) {#getfolderbyid_1}
 
 Gets the personal folder from PST.
 
@@ -43,7 +43,7 @@ public FolderInfo GetFolderById(string entryIdString)
 | --- | --- | --- |
 | entryIdString | String | String representation of entry ID. |
 
-## Return Value
+### Return Value
 
 A FolderInfo object.
 

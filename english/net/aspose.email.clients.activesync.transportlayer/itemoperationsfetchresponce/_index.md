@@ -1,7 +1,7 @@
 ---
 title: ItemOperationsFetchResponce
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains responce about retrieving an items from the server.
 type: docs
 weight: 1430
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/

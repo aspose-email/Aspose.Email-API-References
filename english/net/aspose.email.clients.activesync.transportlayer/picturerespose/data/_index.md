@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the binary data of the contact photo. The Data is not supported when the protocol version is 12.1 or 14.0.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/picturerespose/data/

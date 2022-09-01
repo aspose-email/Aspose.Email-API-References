@@ -1,7 +1,7 @@
 ---
 title: SrcMsgId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server ID of the item to be moved. The SrcMsgId element value can be up to 64 characters in length.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/moveitemresponse/srcmsgid/

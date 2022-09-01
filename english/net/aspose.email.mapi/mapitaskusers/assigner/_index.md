@@ -1,7 +1,7 @@
 ---
 title: Assigner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the group of properties that defines the display name and email address of user who created task.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapitaskusers/assigner/

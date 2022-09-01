@@ -1,12 +1,12 @@
 ---
 title: op_BitwiseOr
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implements the operator x7C.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.imap/imapmessageflags/op_bitwiseor/
 ---
-## ImapMessageFlags BitwiseOr operator (1 of 3)
+## operator &#x7C; {#op_bitwiseor}
 
 Implements the operator &#x7C;.
 
@@ -19,7 +19,7 @@ public static ImapMessageFlags operator |(ImapMessageFlags a, ImapMessageFlags b
 | a | ImapMessageFlags | First set of imap message flags. |
 | b | ImapMessageFlags | Second set of imap message flags. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 
@@ -31,7 +31,7 @@ The result of the operator.
 
 ---
 
-## ImapMessageFlags BitwiseOr operator (2 of 3)
+## operator &#x7C; {#op_bitwiseor_1}
 
 Implements the operator &#x7C;.
 
@@ -44,7 +44,7 @@ public static ImapMessageFlags operator |(ImapMessageFlags a, string b)
 | a | ImapMessageFlags | First set of imap message flags. |
 | b | String | Second set of imap message flags. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 
@@ -56,7 +56,7 @@ The result of the operator.
 
 ---
 
-## ImapMessageFlags BitwiseOr operator (3 of 3)
+## operator &#x7C; {#op_bitwiseor_2}
 
 Implements the operator &#x7C;.
 
@@ -69,7 +69,7 @@ public static ImapMessageFlags operator |(string a, ImapMessageFlags b)
 | a | String | First set of imap message flags. |
 | b | ImapMessageFlags | Second set of imap message flags. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 

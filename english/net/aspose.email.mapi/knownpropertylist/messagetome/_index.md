@@ -1,7 +1,7 @@
 ---
 title: MessageToMe
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the receiving mailbox owner is one of the primary recipients of this email message. Area General Message Properties Canonical name PidTagMessageToMe Alternate names PR_MESSAGE_TO_ME ptagMessageToMe
 type: docs
 weight: 12660
 url: /net/aspose.email.mapi/knownpropertylist/messagetome/

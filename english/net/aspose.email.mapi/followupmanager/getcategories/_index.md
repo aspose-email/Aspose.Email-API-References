@@ -1,7 +1,7 @@
 ---
 title: GetCategories
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get the available message categories.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/followupmanager/getcategories/
@@ -18,7 +18,7 @@ public static IList<string> GetCategories(MapiMessage message)
 | --- | --- | --- |
 | message | MapiMessage | The [`MapiMessage`](../../mapimessage) in which the categories are added. |
 
-## Return Value
+### Return Value
 
 The list of added categories.
 

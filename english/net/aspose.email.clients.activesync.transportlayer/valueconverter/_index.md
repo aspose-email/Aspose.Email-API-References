@@ -1,7 +1,7 @@
 ---
 title: ValueConverter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Class converts ActiveSync protocol version from string representation to enum and back.
 type: docs
 weight: 2340
 url: /net/aspose.email.clients.activesync.transportlayer/valueconverter/

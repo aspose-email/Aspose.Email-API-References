@@ -1,9 +1,9 @@
 ---
 title: UpdateFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates folder.
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.email.clients.graph/igraphclient/updatefolder/
 ---
 ## IGraphClient.UpdateFolder method
@@ -18,7 +18,7 @@ public FolderInfo UpdateFolder(FolderInfo folderInfo)
 | --- | --- | --- |
 | folderInfo | FolderInfo | Folder to update |
 
-## Return Value
+### Return Value
 
 Returns updated folder
 

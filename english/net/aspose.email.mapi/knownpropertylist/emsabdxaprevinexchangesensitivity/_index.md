@@ -1,7 +1,7 @@
 ---
 title: EmsAbDxaPrevInExchangeSensitivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_DXA_PREV_IN_EXCHANGE_SENSITIVITY
 type: docs
 weight: 5840
 url: /net/aspose.email.mapi/knownpropertylist/emsabdxaprevinexchangesensitivity/

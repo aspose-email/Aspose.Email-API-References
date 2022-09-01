@@ -1,7 +1,7 @@
 ---
 title: ToASProtocolVersions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts ActiveSync protocol version from string representation to enum.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/valueconverter/toasprotocolversions/
@@ -18,7 +18,7 @@ public static ASProtocolVersions ToASProtocolVersions(string version)
 | --- | --- | --- |
 | version | String | String representation of ActiveSync protocol version |
 
-## Return Value
+### Return Value
 
 Returns ActiveSync protocol version.
 

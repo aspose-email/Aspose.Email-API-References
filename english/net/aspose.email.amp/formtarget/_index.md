@@ -1,7 +1,7 @@
 ---
 title: FormTarget
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates where to display the form response after submitting the form. The value must be _blank or _top.
 type: docs
 weight: 190
 url: /net/aspose.email.amp/formtarget/
@@ -14,7 +14,7 @@ Indicates where to display the form response after submitting the form. The valu
 public enum FormTarget
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

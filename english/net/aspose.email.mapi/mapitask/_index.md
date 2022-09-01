@@ -1,9 +1,9 @@
 ---
 title: MapiTask
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the Outlook Task object.
 type: docs
-weight: 18470
+weight: 18680
 url: /net/aspose.email.mapi/mapitask/
 ---
 ## MapiTask class
@@ -18,8 +18,8 @@ public class MapiTask : MapiMessageItemBase
 
 | Name | Description |
 | --- | --- |
-| [MapiTask](mapitask)() | Initializes a new instance of the [`MapiTask`](../mapitask) class. |
-| [MapiTask](mapitask)(string, string, DateTime, DateTime) | Initializes a new instance of the [`MapiTask`](../mapitask) class. |
+| [MapiTask](mapitask#constructor)() | Initializes a new instance of the [`MapiTask`](../mapitask) class. |
+| [MapiTask](mapitask#constructor_1)(string, string, DateTime, DateTime) | Initializes a new instance of the [`MapiTask`](../mapitask) class. |
 
 ## Properties
 
@@ -69,10 +69,10 @@ public class MapiTask : MapiMessageItemBase
 
 | Name | Description |
 | --- | --- |
-| static [FromVTodo](../../aspose.email.mapi/mapitask/fromvtodo)(Stream) | Creates an instance of MapiTask from the specified stream. |
-| static [FromVTodo](../../aspose.email.mapi/mapitask/fromvtodo)(string) | Creates an instance of MapiTask from the specified .ics file. |
-| static [FromVTodo](../../aspose.email.mapi/mapitask/fromvtodo)(Stream, bool) | Creates an instance of MapiTask from the specified stream. |
-| static [FromVTodo](../../aspose.email.mapi/mapitask/fromvtodo)(string, bool) | Creates an instance of MapiTask from the specified .ics file. |
+| static [FromVTodo](../../aspose.email.mapi/mapitask/fromvtodo#fromvtodo)(Stream) | Creates an instance of MapiTask from the specified stream. |
+| static [FromVTodo](../../aspose.email.mapi/mapitask/fromvtodo#fromvtodo_2)(string) | Creates an instance of MapiTask from the specified .ics file. |
+| static [FromVTodo](../../aspose.email.mapi/mapitask/fromvtodo#fromvtodo_1)(Stream, bool) | Creates an instance of MapiTask from the specified stream. |
+| static [FromVTodo](../../aspose.email.mapi/mapitask/fromvtodo#fromvtodo_3)(string, bool) | Creates an instance of MapiTask from the specified .ics file. |
 | virtual [Dispose](../../aspose.email.mapi/mapimessageitembase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | override [GetProperty](../../aspose.email.mapi/mapimessageitembase/getproperty)(PropertyDescriptor) | Gets MAPI property by property descriptor. |
 | [GetPropertyBoolean](../../aspose.email.mapi/mapipropertycontainer/getpropertyboolean)(long) | Gets the value of the property specified by tag as Boolean type. |
@@ -85,8 +85,8 @@ public class MapiTask : MapiMessageItemBase
 | [GetPropertyString](../../aspose.email.mapi/mapipropertycontainer/getpropertystring)(long, int) | Gets the string value of the property specified by tag. |
 | [IsStoreUnicodeOk](../../aspose.email.mapi/mapipropertycontainer/isstoreunicodeok)() | Determines if string properties are Unicode encoded or not. |
 | [RemoveProperty](../../aspose.email.mapi/mapimessageitembase/removeproperty)(long) | Provides correctly removing property from all collections. |
-| [Save](../../aspose.email.mapi/mapitask/save)(Stream, TaskSaveFormat) | Saves this [`MapiTask`](../mapitask) to the given stream using specified format. |
-| [Save](../../aspose.email.mapi/mapitask/save)(string, TaskSaveFormat) | Saves this [`MapiTask`](../mapitask) into file using specified format. |
+| [Save](../../aspose.email.mapi/mapitask/save#save)(Stream, TaskSaveFormat) | Saves this [`MapiTask`](../mapitask) to the given stream using specified format. |
+| [Save](../../aspose.email.mapi/mapitask/save#save_1)(string, TaskSaveFormat) | Saves this [`MapiTask`](../mapitask) into file using specified format. |
 | virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent)(string, BodyContentType) | Sets the content of the body. |
 | virtual [SetBodyContent](../../aspose.email.mapi/mapimessageitembase/setbodycontent)(string, BodyContentType, bool) | Sets the content of the body. |
 | [SetBodyRtf](../../aspose.email.mapi/mapimessageitembase/setbodyrtf)(string, bool) | Gets or sets the RTF formatted message text. |

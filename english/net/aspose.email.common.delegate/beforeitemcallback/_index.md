@@ -1,9 +1,9 @@
 ---
 title: BeforeItemCallback
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: BeforeItemCallback is called before the next item is processed the type of which depends on the task being performed.
 type: docs
-weight: 16990
+weight: 17160
 url: /net/aspose.email.common.delegate/beforeitemcallback/
 ---
 ## BeforeItemCallback delegate

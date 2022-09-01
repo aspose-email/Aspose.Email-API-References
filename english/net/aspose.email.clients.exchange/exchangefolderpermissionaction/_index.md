@@ -1,7 +1,7 @@
 ---
 title: ExchangeFolderPermissionAction
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines which items in a folder a user has permission to edit or delete.
 type: docs
 weight: 3300
 url: /net/aspose.email.clients.exchange/exchangefolderpermissionaction/
@@ -14,7 +14,7 @@ Defines which items in a folder a user has permission to edit or delete.
 public enum ExchangeFolderPermissionAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,9 +1,9 @@
 ---
 title: MessageStore
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Message store is the root of the PST which is the rough equivalent of the top of a Mailbox.
 type: docs
-weight: 20060
+weight: 20290
 url: /net/aspose.email.storage.pst/messagestore/
 ---
 ## MessageStore class

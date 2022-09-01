@@ -1,7 +1,7 @@
 ---
 title: UpdateContactPhoto
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates or updates contact photo
 type: docs
 weight: 340
 url: /net/aspose.email.clients.google/igmailclient/updatecontactphoto/

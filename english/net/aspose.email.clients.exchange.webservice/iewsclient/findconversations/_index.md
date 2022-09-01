@@ -1,7 +1,7 @@
 ---
 title: FindConversations
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Finds conversations in the specified folder
 type: docs
 weight: 840
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/findconversations/
@@ -18,7 +18,7 @@ public ExchangeConversation[] FindConversations(string folderId)
 | --- | --- | --- |
 | folderId | String | An id of folder in which search |
 
-## Return Value
+### Return Value
 
 An array of found [`ExchangeConversation`](../../exchangeconversation)
 

@@ -1,7 +1,7 @@
 ---
 title: MoveItemData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information about moving items
 type: docs
 weight: 1570
 url: /net/aspose.email.clients.activesync.transportlayer/moveitemdata/
@@ -18,8 +18,8 @@ public class MoveItemData
 
 | Name | Description |
 | --- | --- |
-| [MoveItemData](moveitemdata)() | Initializes a new instance of the MoveItemData class. |
-| [MoveItemData](moveitemdata)(string, string, string) | Initializes a new instance of the MoveItemData class. |
+| [MoveItemData](moveitemdata#constructor)() | Initializes a new instance of the MoveItemData class. |
+| [MoveItemData](moveitemdata#constructor_1)(string, string, string) | Initializes a new instance of the MoveItemData class. |
 
 ## Properties
 

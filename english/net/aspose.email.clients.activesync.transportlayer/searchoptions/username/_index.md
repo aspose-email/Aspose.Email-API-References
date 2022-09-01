@@ -1,7 +1,7 @@
 ---
 title: UserName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the user account used to search the document from the document library. The UserName value can be up to 100 characters in length.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.activesync.transportlayer/searchoptions/username/

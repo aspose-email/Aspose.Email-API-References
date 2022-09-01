@@ -1,7 +1,7 @@
 ---
 title: GetContactAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves contact information according to specified identifier.
 type: docs
 weight: 320
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getcontactasync/
@@ -22,7 +22,7 @@ public Task<Contact> GetContactAsync(string contactId,
 | options | ExchangeListContactsOptions | Settings for retrieving contact. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 Contact information
 

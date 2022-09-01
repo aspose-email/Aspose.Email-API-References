@@ -1,7 +1,7 @@
 ---
 title: Custom
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default custom phone category
 type: docs
 weight: 70
 url: /net/aspose.email.personalinfo/phonenumberlist/custom/

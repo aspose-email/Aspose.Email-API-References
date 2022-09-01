@@ -1,7 +1,7 @@
 ---
 title: ParseName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts file name extension to media type name
 type: docs
 weight: 10
 url: /net/aspose.email.mime/mediatypenames/parsename/
@@ -18,7 +18,7 @@ public static string ParseName(string name)
 | --- | --- | --- |
 | name | String | File name extension |
 
-## Return Value
+### Return Value
 
 Returns media type name
 

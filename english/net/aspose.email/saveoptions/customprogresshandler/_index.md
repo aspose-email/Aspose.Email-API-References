@@ -1,7 +1,7 @@
 ---
 title: CustomProgressHandler
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents method that usually supplied by calling side and handles progress events.
 type: docs
 weight: 20
 url: /net/aspose.email/saveoptions/customprogresshandler/

@@ -1,7 +1,7 @@
 ---
 title: StartTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the time at which the activity began.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapijournal/starttime/
@@ -14,7 +14,7 @@ Gets or sets the time at which the activity began.
 public DateTime StartTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The value that represents time at which the activity began.
 

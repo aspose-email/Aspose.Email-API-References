@@ -1,7 +1,7 @@
 ---
 title: AclScope
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The scope of the access rule.
 type: docs
 weight: 15600
 url: /net/aspose.email.clients.google/aclscope/
@@ -18,8 +18,8 @@ public class AclScope
 
 | Name | Description |
 | --- | --- |
-| [AclScope](aclscope)() | Initializes a new instance of the AclScope class. |
-| [AclScope](aclscope)(AclScopeType, string) | Initializes a new instance of the AclScope class. |
+| [AclScope](aclscope#constructor)() | Initializes a new instance of the AclScope class. |
+| [AclScope](aclscope#constructor_1)(AclScopeType, string) | Initializes a new instance of the AclScope class. |
 
 ## Properties
 

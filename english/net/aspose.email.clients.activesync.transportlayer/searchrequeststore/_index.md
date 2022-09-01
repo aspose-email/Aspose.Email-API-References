@@ -1,7 +1,7 @@
 ---
 title: SearchRequestStore
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify the name query and options for the search.
 type: docs
 weight: 1980
 url: /net/aspose.email.clients.activesync.transportlayer/searchrequeststore/

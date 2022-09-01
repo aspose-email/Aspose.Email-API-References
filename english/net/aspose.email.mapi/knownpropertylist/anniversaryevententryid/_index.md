@@ -1,7 +1,7 @@
 ---
 title: AnniversaryEventEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the EntryID of the Appointment object that represents an anniversary of the contact. Area Contact Properties Canonical name PidLidAnniversaryEventEntryId Alternate names dispidAnniversaryEventEID
 type: docs
 weight: 1080
 url: /net/aspose.email.mapi/knownpropertylist/anniversaryevententryid/

@@ -1,7 +1,7 @@
 ---
 title: RuleState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains flags that specify the state of the rule. Area ServerSide Rules Properties Canonical name PidTagRuleState Alternate names PR_RULE_STATE ptagRuleState
 type: docs
 weight: 16650
 url: /net/aspose.email.mapi/knownpropertylist/rulestate/

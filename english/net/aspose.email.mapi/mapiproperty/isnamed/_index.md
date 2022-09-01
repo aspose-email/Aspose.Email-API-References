@@ -1,7 +1,7 @@
 ---
 title: IsNamed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the property is a named property.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapiproperty/isnamed/

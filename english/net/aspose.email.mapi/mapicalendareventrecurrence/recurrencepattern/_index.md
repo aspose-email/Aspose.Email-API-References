@@ -1,7 +1,7 @@
 ---
 title: RecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the recurrence pattern
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapicalendareventrecurrence/recurrencepattern/

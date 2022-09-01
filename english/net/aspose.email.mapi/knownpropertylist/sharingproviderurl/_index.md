@@ -1,7 +1,7 @@
 ---
 title: SharingProviderUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a URL related to the sharing provider identified by the PidLidSharingProviderGuid property section 2.266. Area Sharing Canonical name PidLidSharingProviderUrl Alternate names dispidSharingProviderUrl
 type: docs
 weight: 17730
 url: /net/aspose.email.mapi/knownpropertylist/sharingproviderurl/

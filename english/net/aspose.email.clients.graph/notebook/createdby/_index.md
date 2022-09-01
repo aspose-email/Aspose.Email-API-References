@@ -1,7 +1,7 @@
 ---
 title: CreatedBy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identity of the user device and application which created the item. Readonly.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.graph/notebook/createdby/

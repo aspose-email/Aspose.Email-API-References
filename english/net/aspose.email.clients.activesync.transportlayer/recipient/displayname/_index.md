@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the display name of the recipient.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/recipient/displayname/

@@ -1,7 +1,7 @@
 ---
 title: CreateTaskAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the given task in the specified folder.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/createtaskasync/

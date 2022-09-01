@@ -1,7 +1,7 @@
 ---
 title: WorkAddressPostOfficeBox
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the post office box portion of the work address of the contact. Area Contact Properties Canonical name PidLidWorkAddressPostOfficeBox Alternate names dispidWorkAddressPostOfficeBox
 type: docs
 weight: 19600
 url: /net/aspose.email.mapi/knownpropertylist/workaddresspostofficebox/

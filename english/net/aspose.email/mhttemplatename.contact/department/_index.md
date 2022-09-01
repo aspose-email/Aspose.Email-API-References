@@ -1,7 +1,7 @@
 ---
 title: Department
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Department header.
 type: docs
 weight: 80
 url: /net/aspose.email/mhttemplatename.contact/department/

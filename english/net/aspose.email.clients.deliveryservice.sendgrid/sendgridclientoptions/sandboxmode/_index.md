@@ -1,7 +1,7 @@
 ---
 title: SandBoxMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set the sandbox mode setting.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.deliveryservice.sendgrid/sendgridclientoptions/sandboxmode/

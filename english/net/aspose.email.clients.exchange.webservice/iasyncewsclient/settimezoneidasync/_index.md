@@ -1,7 +1,7 @@
 ---
 title: SetTimezoneIdAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets timezone id.
 type: docs
 weight: 640
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/settimezoneidasync/

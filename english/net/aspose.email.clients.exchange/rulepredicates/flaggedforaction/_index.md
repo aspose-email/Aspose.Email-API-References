@@ -1,7 +1,7 @@
 ---
 title: FlaggedForAction
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the flag for action value that appears on incoming messages in order for the condition or exception to apply.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange/rulepredicates/flaggedforaction/

@@ -1,7 +1,7 @@
 ---
 title: Recipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents recipients that have been resolved. More than one Recipient are returned in a Response if the To specified in the request was either resolved to a distribution list or found to be ambiguous. The status code returned in the Response can be used to determine if the recipient was found to be ambiguous. The recipient would be a suggested match if the recipient specified in the request was found to be ambiguous. Certificates are returned if the client requested certificates to be returned in the response.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsresponse/recipients/

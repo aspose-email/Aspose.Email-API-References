@@ -1,7 +1,7 @@
 ---
 title: UMEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The UMEnabled determines whether a mailbox is enabled for Unified Messaging.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/unifiedmessagingconfiguration/umenabled/

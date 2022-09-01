@@ -3,7 +3,7 @@ title: Aspose.Email.Clients.Pop3
 second_title: Aspose.Email for .NET API Reference
 description: The Aspose.Email.Clients.Pop3 namespace provides classes to access and manipulate messages by using the Post Office Protocol Version 3 POP3.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.email.clients.pop3/
 ---
 The **Aspose.Email.Clients.Pop3** namespace provides classes to access and manipulate messages by using the Post Office Protocol Version 3 (POP3).
@@ -16,6 +16,11 @@ The **Aspose.Email.Clients.Pop3** namespace provides classes to access and manip
 | [Pop3MailboxInfo](./pop3mailboxinfo) | Represents the status of the mailbox. |
 | [Pop3MessageInfo](./pop3messageinfo) | The Pop3MessageInfo represents the E-Mail message info fetched from the Pop3 server. |
 | [Pop3MessageInfoCollection](./pop3messageinfocollection) | Represents the information of a mail message from Pop3 server. |
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
+| [IAsyncPop3Client](./iasyncpop3client) | Allows applications to access and manipulate messages by using the Post Office Protocol Version 3 (POP3). |
 ## Enumeration
 
 | Enumeration | Description |

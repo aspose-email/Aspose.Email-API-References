@@ -1,9 +1,9 @@
 ---
 title: HeadersFormattingOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows to specify headers formatting options when saving MailMessage to Mhtml or Html format.
 type: docs
-weight: 17350
+weight: 17520
 url: /net/aspose.email/headersformattingoptions/
 ---
 ## HeadersFormattingOptions class

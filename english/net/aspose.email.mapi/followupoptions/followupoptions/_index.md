@@ -1,12 +1,12 @@
 ---
 title: FollowUpOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the FollowUpOptionsaspose.email.mapi/followupoptions class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/followupoptions/followupoptions/
 ---
-## FollowUpOptions constructor (1 of 4)
+## FollowUpOptions() {#constructor}
 
 Initializes a new instance of the [`FollowUpOptions`](../../followupoptions) class.
 
@@ -22,7 +22,7 @@ public FollowUpOptions()
 
 ---
 
-## FollowUpOptions constructor (2 of 4)
+## FollowUpOptions(string) {#constructor_1}
 
 Initializes a new instance of the [`FollowUpOptions`](../../followupoptions) class.
 
@@ -42,7 +42,7 @@ public FollowUpOptions(string flagRequest)
 
 ---
 
-## FollowUpOptions constructor (3 of 4)
+## FollowUpOptions(string, DateTime, DateTime) {#constructor_2}
 
 Initializes a new instance of the [`FollowUpOptions`](../../followupoptions) class.
 
@@ -64,7 +64,7 @@ public FollowUpOptions(string flagRequest, DateTime startDate, DateTime dueDate)
 
 ---
 
-## FollowUpOptions constructor (4 of 4)
+## FollowUpOptions(string, DateTime, DateTime, DateTime) {#constructor_3}
 
 Initializes a new instance of the [`FollowUpOptions`](../../followupoptions) class.
 

@@ -1,12 +1,12 @@
 ---
 title: SaveMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Downloads the message with the specified sequence number and writes its data into a supplied stream
 type: docs
 weight: 1090
 url: /net/aspose.email.clients.imap/imapclient/savemessage/
 ---
-## ImapClient.SaveMessage method (1 of 8)
+## SaveMessage(IConnection, int, Stream) {#savemessage}
 
 Downloads the message with the specified sequence number and writes its data into a supplied stream
 
@@ -29,7 +29,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, Stream resul
 
 ---
 
-## ImapClient.SaveMessage method (2 of 8)
+## SaveMessage(IConnection, string, Stream) {#savemessage_2}
 
 Downloads the message with the specified sequence number and writes its data into a supplied stream
 
@@ -52,7 +52,7 @@ public void SaveMessage(IConnection connection, string uniqueId, Stream resultSt
 
 ---
 
-## ImapClient.SaveMessage method (3 of 8)
+## SaveMessage(IConnection, string, string) {#savemessage_3}
 
 Downloads the message with the specified sequence number and writes its data into a local file
 
@@ -75,7 +75,7 @@ public void SaveMessage(IConnection connection, string uniqueId, string fileName
 
 ---
 
-## ImapClient.SaveMessage method (4 of 8)
+## SaveMessage(IConnection, int, string) {#savemessage_1}
 
 Downloads the message with the specified sequence number and writes its data into a local file
 
@@ -98,7 +98,7 @@ public void SaveMessage(IConnection connection, int sequenceNumber, string fileN
 
 ---
 
-## ImapClient.SaveMessage method (5 of 8)
+## SaveMessage(int, Stream) {#savemessage_4}
 
 Downloads the message with the specified sequence number and writes its data into a supplied stream
 
@@ -119,7 +119,7 @@ public void SaveMessage(int sequenceNumber, Stream resultStream)
 
 ---
 
-## ImapClient.SaveMessage method (6 of 8)
+## SaveMessage(string, Stream) {#savemessage_6}
 
 Downloads the message with the specified sequence number and writes its data into a supplied stream
 
@@ -140,7 +140,7 @@ public void SaveMessage(string uniqueId, Stream resultStream)
 
 ---
 
-## ImapClient.SaveMessage method (7 of 8)
+## SaveMessage(string, string) {#savemessage_7}
 
 Downloads the message with the specified sequence number and writes its data into a local file
 
@@ -161,7 +161,7 @@ public void SaveMessage(string uniqueId, string fileName)
 
 ---
 
-## ImapClient.SaveMessage method (8 of 8)
+## SaveMessage(int, string) {#savemessage_5}
 
 Downloads the message with the specified sequence number and writes its data into a local file
 

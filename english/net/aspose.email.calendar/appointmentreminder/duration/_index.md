@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the delay period after which the alarm will repeat.
 type: docs
 weight: 70
 url: /net/aspose.email.calendar/appointmentreminder/duration/

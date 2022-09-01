@@ -1,7 +1,7 @@
 ---
 title: Action
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the action to be invoked when an alarm is triggered.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/appointmentreminder/action/

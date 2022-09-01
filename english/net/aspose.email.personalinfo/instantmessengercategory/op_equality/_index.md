@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified objects are equal.
 type: docs
 weight: 310
 url: /net/aspose.email.personalinfo/instantmessengercategory/op_equality/
@@ -19,7 +19,7 @@ public static bool operator ==(InstantMessengerCategory a, InstantMessengerCateg
 | a | InstantMessengerCategory | First object to compare |
 | b | InstantMessengerCategory | Second object to compare |
 
-## Return Value
+### Return Value
 
 Returns true if objects are equal, otherwise false.
 

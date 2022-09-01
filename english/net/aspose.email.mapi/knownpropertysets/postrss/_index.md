@@ -1,7 +1,7 @@
 ---
 title: PostRss
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name RSS feed Property set name PSETID_PostRss
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/knownpropertysets/postrss/

@@ -1,12 +1,34 @@
 ---
 title: SetProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets MAPI property.
 type: docs
 weight: 120
 url: /net/aspose.email.mapi/mapipropertycontainer/setproperty/
 ---
-## MapiPropertyContainer.SetProperty method (1 of 2)
+## SetProperty(PropertyDescriptor, object) {#setproperty_1}
+
+Sets MAPI property.
+
+```csharp
+public virtual void SetProperty(PropertyDescriptor pd, object value)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pd | PropertyDescriptor | The property descriptor. |
+| value | Object | The property data. |
+
+### See Also
+
+* class [PropertyDescriptor](../../propertydescriptor)
+* class [MapiPropertyContainer](../../mapipropertycontainer)
+* namespace [Aspose.Email.Mapi](../../mapipropertycontainer)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## SetProperty(MapiProperty) {#setproperty}
 
 Sets the property.
 
@@ -29,28 +51,6 @@ public virtual void SetProperty(MapiProperty value)
 ### See Also
 
 * class [MapiProperty](../../mapiproperty)
-* class [MapiPropertyContainer](../../mapipropertycontainer)
-* namespace [Aspose.Email.Mapi](../../mapipropertycontainer)
-* assembly [Aspose.Email](../../../)
-
----
-
-## MapiPropertyContainer.SetProperty method (2 of 2)
-
-Sets MAPI property.
-
-```csharp
-public virtual void SetProperty(PropertyDescriptor pd, object value)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pd | PropertyDescriptor | The property descriptor. |
-| value | Object | The property data. |
-
-### See Also
-
-* class [PropertyDescriptor](../../propertydescriptor)
 * class [MapiPropertyContainer](../../mapipropertycontainer)
 * namespace [Aspose.Email.Mapi](../../mapipropertycontainer)
 * assembly [Aspose.Email](../../../)

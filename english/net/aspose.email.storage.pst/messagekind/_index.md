@@ -1,9 +1,9 @@
 ---
 title: MessageKind
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the different kinds of messages in pst.
 type: docs
-weight: 20050
+weight: 20280
 url: /net/aspose.email.storage.pst/messagekind/
 ---
 ## MessageKind enumeration
@@ -15,7 +15,7 @@ Represents the different kinds of messages in pst.
 public enum MessageKind
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Hobbies
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Hobbies header.
 type: docs
 weight: 180
 url: /net/aspose.email/mhttemplatename.contact/hobbies/

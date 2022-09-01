@@ -1,12 +1,12 @@
 ---
 title: SyncDeleteClientOperation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the SyncDeleteClientOperation class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/syncdeleteclientoperation/
 ---
-## SyncDeleteClientOperation constructor (1 of 3)
+## SyncDeleteClientOperation() {#constructor}
 
 Initializes a new instance of the SyncDeleteClientOperation class.
 
@@ -22,7 +22,7 @@ public SyncDeleteClientOperation()
 
 ---
 
-## SyncDeleteClientOperation constructor (2 of 3)
+## SyncDeleteClientOperation(string) {#constructor_1}
 
 Initializes a new instance of the SyncDeleteClientOperation class.
 
@@ -42,7 +42,7 @@ public SyncDeleteClientOperation(string serverId)
 
 ---
 
-## SyncDeleteClientOperation constructor (3 of 3)
+## SyncDeleteClientOperation(string, AirsyncClass) {#constructor_2}
 
 Initializes a new instance of the SyncDeleteClientOperation class.
 

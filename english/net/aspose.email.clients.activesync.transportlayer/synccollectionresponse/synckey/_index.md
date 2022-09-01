@@ -1,7 +1,7 @@
 ---
 title: SyncKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: SyncKey value is used by the server to mark the synchronization state of a collection. A synchronization key of value 0 zero initializes the synchronization state on the server and causes a full synchronization of the collection.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/synckey/

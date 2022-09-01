@@ -1,7 +1,7 @@
 ---
 title: ShowTimeAs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ShowTimeAs header.
 type: docs
 weight: 170
 url: /net/aspose.email/mhttemplatename/showtimeas/

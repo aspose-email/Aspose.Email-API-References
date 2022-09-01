@@ -1,7 +1,7 @@
 ---
 title: ETag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: An ETag or entity tag is one of several mechanisms that HTTP provides for web cache validation and which allows a client to make conditional requests. This allows caches to be more efficient and saves bandwidth as a web server does not need to send a full response if the content has not changed. ETags can also be used for optimistic concurrency control as a way to help prevent simultaneous updates of a resource from overwriting each other.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/basedataobject/etag/

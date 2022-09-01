@@ -1,7 +1,7 @@
 ---
 title: op_Subtraction
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Minus operation is defined
 type: docs
 weight: 100
 url: /net/aspose.email.clients.imap/esearchoptions/op_subtraction/

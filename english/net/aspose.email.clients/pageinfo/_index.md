@@ -1,9 +1,9 @@
 ---
 title: PageInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information about retrieved page when paging methods are used.
 type: docs
-weight: 16710
+weight: 16820
 url: /net/aspose.email.clients/pageinfo/
 ---
 ## PageInfo class
@@ -18,10 +18,10 @@ public class PageInfo
 
 | Name | Description |
 | --- | --- |
-| [PageInfo](pageinfo)(int) | Initializes a new instance of the [`PageInfo`](../pageinfo) class |
-| [PageInfo](pageinfo)(int, int) | Initializes a new instance of the [`PageInfo`](../pageinfo) class |
-| [PageInfo](pageinfo)(int, int, int, bool) | Initializes a new instance of the [`PageInfo`](../pageinfo) class |
-| [PageInfo](pageinfo)(int, int, int, int, bool) | Initializes a new instance of the [`PageInfo`](../pageinfo) class |
+| [PageInfo](pageinfo#constructor)(int) | Initializes a new instance of the [`PageInfo`](../pageinfo) class |
+| [PageInfo](pageinfo#constructor_1)(int, int) | Initializes a new instance of the [`PageInfo`](../pageinfo) class |
+| [PageInfo](pageinfo#constructor_2)(int, int, int, bool) | Initializes a new instance of the [`PageInfo`](../pageinfo) class |
+| [PageInfo](pageinfo#constructor_3)(int, int, int, int, bool) | Initializes a new instance of the [`PageInfo`](../pageinfo) class |
 
 ## Properties
 

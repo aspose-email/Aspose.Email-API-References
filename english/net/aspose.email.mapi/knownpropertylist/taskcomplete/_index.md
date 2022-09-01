@@ -1,7 +1,7 @@
 ---
 title: TaskComplete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the task is complete. Area Tasks Canonical name PidLidTaskComplete Alternate names dispidTaskComplete
 type: docs
 weight: 18580
 url: /net/aspose.email.mapi/knownpropertylist/taskcomplete/

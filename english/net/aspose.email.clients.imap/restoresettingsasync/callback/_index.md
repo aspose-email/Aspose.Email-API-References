@@ -1,7 +1,7 @@
 ---
 title: Callback
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: References a method to be called when a corresponding asynchronous operation completes.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/restoresettingsasync/callback/

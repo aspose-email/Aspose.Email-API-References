@@ -1,7 +1,7 @@
 ---
 title: Send
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sends email synchronously
 type: docs
 weight: 30
 url: /net/aspose.email.clients.deliveryservice.mailgun/mailgunclient/send/

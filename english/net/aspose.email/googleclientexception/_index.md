@@ -1,9 +1,9 @@
 ---
 title: GoogleClientException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents errors that occur during ActiveSync protocol execution.
 type: docs
-weight: 17330
+weight: 17500
 url: /net/aspose.email/googleclientexception/
 ---
 ## GoogleClientException class
@@ -18,10 +18,10 @@ public class GoogleClientException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [GoogleClientException](googleclientexception)() | Initializes a new instance of the [`GoogleClientException`](../googleclientexception) class. |
-| [GoogleClientException](googleclientexception)(Exception) | Initializes a new instance of the [`GoogleClientException`](../googleclientexception) class with a reference to the inner exception that is the cause of this exception. |
-| [GoogleClientException](googleclientexception)(string) | Initializes a new instance of the [`GoogleClientException`](../googleclientexception) class with a specified error message. |
-| [GoogleClientException](googleclientexception)(string, Exception) | Initializes a new instance of the [`GoogleClientException`](../googleclientexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [GoogleClientException](googleclientexception#constructor)() | Initializes a new instance of the [`GoogleClientException`](../googleclientexception) class. |
+| [GoogleClientException](googleclientexception#constructor_1)(Exception) | Initializes a new instance of the [`GoogleClientException`](../googleclientexception) class with a reference to the inner exception that is the cause of this exception. |
+| [GoogleClientException](googleclientexception#constructor_2)(string) | Initializes a new instance of the [`GoogleClientException`](../googleclientexception) class with a specified error message. |
+| [GoogleClientException](googleclientexception#constructor_3)(string, Exception) | Initializes a new instance of the [`GoogleClientException`](../googleclientexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ## Properties
 

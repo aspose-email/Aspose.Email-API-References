@@ -1,7 +1,7 @@
 ---
 title: OrganizationalIdNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies an organizational ID number for the contact
 type: docs
 weight: 170
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/organizationalidnumber/

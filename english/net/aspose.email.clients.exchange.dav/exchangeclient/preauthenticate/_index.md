@@ -1,7 +1,7 @@
 ---
 title: PreAuthenticate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether to do preauthentication.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/preauthenticate/

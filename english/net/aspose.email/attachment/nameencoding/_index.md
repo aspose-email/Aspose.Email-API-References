@@ -1,7 +1,7 @@
 ---
 title: NameEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an encoding of attachment name
 type: docs
 weight: 70
 url: /net/aspose.email/attachment/nameencoding/

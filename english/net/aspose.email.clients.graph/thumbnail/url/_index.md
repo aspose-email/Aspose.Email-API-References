@@ -1,7 +1,7 @@
 ---
 title: Url
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The URL used to fetch the thumbnail content.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.graph/thumbnail/url/

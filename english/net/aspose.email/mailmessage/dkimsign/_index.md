@@ -1,9 +1,9 @@
 ---
 title: DKIMSign
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Signs this message using DKIM DomainKeys Identified Mail signature.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.email/mailmessage/dkimsign/
 ---
 ## MailMessage.DKIMSign method

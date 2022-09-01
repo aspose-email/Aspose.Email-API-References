@@ -1,12 +1,12 @@
 ---
 title: GetNamespaces
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets namespaces that are available on a server.
 type: docs
 weight: 730
 url: /net/aspose.email.clients.imap/imapclient/getnamespaces/
 ---
-## ImapClient.GetNamespaces method (1 of 2)
+## GetNamespaces() {#getnamespaces}
 
 Gets namespaces that are available on a server.
 
@@ -14,7 +14,7 @@ Gets namespaces that are available on a server.
 public ImapNamespace[] GetNamespaces()
 ```
 
-## Return Value
+### Return Value
 
 Returns namespaces that are available on a server.
 
@@ -27,7 +27,7 @@ Returns namespaces that are available on a server.
 
 ---
 
-## ImapClient.GetNamespaces method (2 of 2)
+## GetNamespaces(IConnection) {#getnamespaces_1}
 
 Gets namespaces that are available on a server.
 
@@ -39,7 +39,7 @@ public ImapNamespace[] GetNamespaces(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Returns namespaces that are available on a server.
 

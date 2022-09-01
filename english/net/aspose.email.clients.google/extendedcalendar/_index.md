@@ -1,7 +1,7 @@
 ---
 title: ExtendedCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A set of extended metadata such as a colors for a single calendar.
 type: docs
 weight: 15700
 url: /net/aspose.email.clients.google/extendedcalendar/
@@ -18,13 +18,13 @@ public class ExtendedCalendar : Calendar
 
 | Name | Description |
 | --- | --- |
-| [ExtendedCalendar](extendedcalendar)() | Initializes a new instance of the ExtendedCalendar class. |
-| [ExtendedCalendar](extendedcalendar)(string) | Initializes a new instance of the ExtendedCalendar class. |
-| [ExtendedCalendar](extendedcalendar)(string, string) | Initializes a new instance of the ExtendedCalendar class. |
-| [ExtendedCalendar](extendedcalendar)(string, string, string, string) | Initializes a new instance of the ExtendedCalendar class. |
-| [ExtendedCalendar](extendedcalendar)(string, string, string, string, string) | Initializes a new instance of the ExtendedCalendar class. |
-| [ExtendedCalendar](extendedcalendar)(string, string, string, string, string, string, string, string, string, bool, bool, AccessRole, KeyValuePair&lt;ReminderMethods, int&gt;[], bool) | Initializes a new instance of the ExtendedCalendar class. |
-| [ExtendedCalendar](extendedcalendar)(string, string, string, string, string, string, string, string, string, string, bool, bool, AccessRole, KeyValuePair&lt;ReminderMethods, int&gt;[], bool) | Initializes a new instance of the ExtendedCalendar class. |
+| [ExtendedCalendar](extendedcalendar#constructor)() | Initializes a new instance of the ExtendedCalendar class. |
+| [ExtendedCalendar](extendedcalendar#constructor_1)(string) | Initializes a new instance of the ExtendedCalendar class. |
+| [ExtendedCalendar](extendedcalendar#constructor_2)(string, string) | Initializes a new instance of the ExtendedCalendar class. |
+| [ExtendedCalendar](extendedcalendar#constructor_3)(string, string, string, string) | Initializes a new instance of the ExtendedCalendar class. |
+| [ExtendedCalendar](extendedcalendar#constructor_4)(string, string, string, string, string) | Initializes a new instance of the ExtendedCalendar class. |
+| [ExtendedCalendar](extendedcalendar#constructor_5)(string, string, string, string, string, string, string, string, string, bool, bool, AccessRole, KeyValuePair&lt;ReminderMethods, int&gt;[], bool) | Initializes a new instance of the ExtendedCalendar class. |
+| [ExtendedCalendar](extendedcalendar#constructor_6)(string, string, string, string, string, string, string, string, string, string, bool, bool, AccessRole, KeyValuePair&lt;ReminderMethods, int&gt;[], bool) | Initializes a new instance of the ExtendedCalendar class. |
 
 ## Properties
 
@@ -55,12 +55,12 @@ public class ExtendedCalendar : Calendar
 | --- | --- |
 | override [ToString](../../aspose.email.clients.google/extendedcalendar/tostring)() | Returns a string which represents the object instance. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [ExtendedCalendarKind](extendedcalendarkind) | Type of the resource "calendar#calendarListEntry". |
-| const [ListKind](listkind) | Type of the resources list "calendar#calendarList". |
+| const [ExtendedCalendarKind](../../aspose.email.clients.google/extendedcalendar/extendedcalendarkind) | Type of the resource "calendar#calendarListEntry". |
+| const [ListKind](../../aspose.email.clients.google/extendedcalendar/listkind) | Type of the resources list "calendar#calendarList". |
 
 ### See Also
 

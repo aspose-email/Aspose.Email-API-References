@@ -1,9 +1,9 @@
 ---
 title: EmlxLoadOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows to specify additional options when loading MailMessage from Eml format.
 type: docs
-weight: 17150
+weight: 17320
 url: /net/aspose.email/emlxloadoptions/
 ---
 ## EmlxLoadOptions class

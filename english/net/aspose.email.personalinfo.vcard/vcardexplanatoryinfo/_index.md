@@ -1,9 +1,9 @@
 ---
 title: VCardExplanatoryInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents vCard explanatory properties
 type: docs
-weight: 19440
+weight: 19650
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/
 ---
 ## VCardExplanatoryInfo class
@@ -25,6 +25,7 @@ public sealed class VCardExplanatoryInfo
 | Name | Description |
 | --- | --- |
 | [Categories](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/categories) { get; set; } | Gets or sets a categories information |
+| [FbUrl](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/fburl) { get; set; } | Gets or sets URI for the busy time associated with the object that the vCard represents. |
 | [Note](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/note) { get; set; } | Gets or sets a comments |
 | [ProdId](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/prodid) { get; } | Gets an id of product that created a vCard |
 | [Revision](../../aspose.email.personalinfo.vcard/vcardexplanatoryinfo/revision) { get; set; } | Gets or sets a revision time |

@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoFreeBusyBusy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the blocks of time for which the free/busy status is set to a value of busy. Area Free/Busy Properties Canonical name PidTagScheduleInfoFreeBusyBusy Alternate names PR_SCHDINFO_FREEBUSY_BUSY
 type: docs
 weight: 16830
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusybusy/

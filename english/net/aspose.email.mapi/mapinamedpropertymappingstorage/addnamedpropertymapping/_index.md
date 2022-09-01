@@ -1,12 +1,12 @@
 ---
 title: AddNamedPropertyMapping
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the named property mapping for numeric named property.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/mapinamedpropertymappingstorage/addnamedpropertymapping/
 ---
-## MapiNamedPropertyMappingStorage.AddNamedPropertyMapping method (1 of 2)
+## AddNamedPropertyMapping(MapiProperty, long, Guid) {#addnamedpropertymapping}
 
 Adds the named property mapping for numeric named property.
 
@@ -33,7 +33,7 @@ public void AddNamedPropertyMapping(MapiProperty property, long nameId, Guid gui
 
 ---
 
-## MapiNamedPropertyMappingStorage.AddNamedPropertyMapping method (2 of 2)
+## AddNamedPropertyMapping(MapiProperty, string, Guid) {#addnamedpropertymapping_1}
 
 Adds the named property mapping for string named property.
 

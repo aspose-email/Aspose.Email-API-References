@@ -1,7 +1,7 @@
 ---
 title: LogDocumentSaved
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the document was saved during journaling. Area Journal Canonical name PidLidLogDocumentSaved Alternate names dispidLogDocSaved
 type: docs
 weight: 12240
 url: /net/aspose.email.mapi/knownpropertylist/logdocumentsaved/

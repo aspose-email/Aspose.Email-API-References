@@ -1,7 +1,7 @@
 ---
 title: MemberRoleType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Type of a user role within the team.
 type: docs
 weight: 2620
 url: /net/aspose.email.clients.activity/memberroletype/
@@ -14,7 +14,7 @@ Type of a user role within the team.
 public enum MemberRoleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

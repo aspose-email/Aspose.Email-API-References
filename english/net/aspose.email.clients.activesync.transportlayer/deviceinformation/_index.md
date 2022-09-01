@@ -1,7 +1,7 @@
 ---
 title: DeviceInformation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Request that is used for sending the client devices properties to the server.
 type: docs
 weight: 1160
 url: /net/aspose.email.clients.activesync.transportlayer/deviceinformation/

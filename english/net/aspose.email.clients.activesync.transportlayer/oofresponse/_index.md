@@ -1,7 +1,7 @@
 ---
 title: OOFResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a class for retrieving and setting Out of Office OOF information.
 type: docs
 weight: 1640
 url: /net/aspose.email.clients.activesync.transportlayer/oofresponse/

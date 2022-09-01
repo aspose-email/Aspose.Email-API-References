@@ -1,7 +1,7 @@
 ---
 title: Location
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the location of the contact
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/location/

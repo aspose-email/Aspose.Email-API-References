@@ -1,9 +1,9 @@
 ---
 title: SocksProxy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: SOCKS proxy client. Supported versions of the protocol are SOCKS4 and SOCKS5.
 type: docs
-weight: 16930
+weight: 17100
 url: /net/aspose.email.clients/socksproxy/
 ---
 ## SocksProxy class
@@ -18,10 +18,10 @@ public class SocksProxy : Proxy
 
 | Name | Description |
 | --- | --- |
-| [SocksProxy](socksproxy)(string, int) | Initializes a new instance of the [`SocksProxy`](../socksproxy) class to connect to SOCKS4 server without authentication. |
-| [SocksProxy](socksproxy)(string, int, SocksVersion) | Initializes a new instance of the [`SocksProxy`](../socksproxy) class to connect to SOCKS4 or SOCKS5 server without authentication. |
-| [SocksProxy](socksproxy)(string, int, string) | Initializes a new instance of the [`SocksProxy`](../socksproxy) class to connect to SOCKS4 server without authentication. |
-| [SocksProxy](socksproxy)(string, int, string, string) | Initializes a new instance of the [`SocksProxy`](../socksproxy) class to connect to SOCKS5 server with defined username and password. |
+| [SocksProxy](socksproxy#constructor)(string, int) | Initializes a new instance of the [`SocksProxy`](../socksproxy) class to connect to SOCKS4 server without authentication. |
+| [SocksProxy](socksproxy#constructor_1)(string, int, SocksVersion) | Initializes a new instance of the [`SocksProxy`](../socksproxy) class to connect to SOCKS4 or SOCKS5 server without authentication. |
+| [SocksProxy](socksproxy#constructor_2)(string, int, string) | Initializes a new instance of the [`SocksProxy`](../socksproxy) class to connect to SOCKS4 server without authentication. |
+| [SocksProxy](socksproxy#constructor_3)(string, int, string, string) | Initializes a new instance of the [`SocksProxy`](../socksproxy) class to connect to SOCKS5 server with defined username and password. |
 
 ## Properties
 

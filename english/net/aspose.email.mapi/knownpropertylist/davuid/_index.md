@@ -1,7 +1,7 @@
 ---
 title: DavUid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the unique identifier for an item. Area Common Canonical name PidNameDavUid Alternate names DAVuid
 type: docs
 weight: 3680
 url: /net/aspose.email.mapi/knownpropertylist/davuid/

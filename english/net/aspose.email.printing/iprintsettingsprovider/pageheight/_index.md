@@ -1,7 +1,7 @@
 ---
 title: PageHeight
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the height of the page.
 type: docs
 weight: 90
 url: /net/aspose.email.printing/iprintsettingsprovider/pageheight/
@@ -14,7 +14,7 @@ Gets or sets the height of the page.
 public double PageHeight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The height of the page.
 

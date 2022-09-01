@@ -1,7 +1,7 @@
 ---
 title: CallId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a unique identifier associated with the phone call. Area Unified Messaging Canonical name PidTagCallId Alternate names InternalSchemaCallID
 type: docs
 weight: 2480
 url: /net/aspose.email.mapi/knownpropertylist/callid/

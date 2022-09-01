@@ -1,7 +1,7 @@
 ---
 title: Related
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify the relationship of the alarm trigger with respect to the start or end of the event.
 type: docs
 weight: 40
 url: /net/aspose.email.calendar/remindertrigger/related/

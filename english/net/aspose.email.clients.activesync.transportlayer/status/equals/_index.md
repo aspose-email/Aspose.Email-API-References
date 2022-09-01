@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified object is equal to the current object.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/status/equals/
 ---
-## Status.Equals method (1 of 2)
+## Equals(Status) {#equals}
 
 Determines whether the specified object is equal to the current object.
 
@@ -18,7 +18,7 @@ public virtual bool Equals(Status other)
 | --- | --- | --- |
 | other | Status | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified object is equal to the current object; otherwise, false.
 
@@ -30,7 +30,7 @@ true if the specified object is equal to the current object; otherwise, false.
 
 ---
 
-## Status.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified object is equal to the current object.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified object is equal to the current object; otherwise, false.
 

@@ -1,7 +1,7 @@
 ---
 title: ListMailboxesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists mailboxes having smtp addresses. Note the maximum count of returned contacts is 100. This is a restriction of used EWS operation.
 type: docs
 weight: 440
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/listmailboxesasync/
@@ -20,7 +20,7 @@ public Task<MapiContactCollection> ListMailboxesAsync(string filter = null,
 | filter | String | Filter string |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contact information
 

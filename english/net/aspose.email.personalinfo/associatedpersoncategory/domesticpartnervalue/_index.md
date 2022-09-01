@@ -1,7 +1,7 @@
 ---
 title: DomesticPartnerValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for DomesticPartner category
 type: docs
 weight: 260
 url: /net/aspose.email.personalinfo/associatedpersoncategory/domesticpartnervalue/

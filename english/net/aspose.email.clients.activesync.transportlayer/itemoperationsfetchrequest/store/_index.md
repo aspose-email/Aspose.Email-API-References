@@ -1,7 +1,7 @@
 ---
 title: Store
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the name of the store to which the parent operation applies. The following values are valid for the Store element  Document Library Microsoft SharePoint Server and UNC links  Mailbox items and attachments
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/store/

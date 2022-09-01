@@ -1,7 +1,7 @@
 ---
 title: AllowUnsignedApplications
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows unsigned applications to execute.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowunsignedapplications/

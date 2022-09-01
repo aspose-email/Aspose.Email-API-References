@@ -1,7 +1,7 @@
 ---
 title: ResolveContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Resolves ambiguous mailbox names.
 type: docs
 weight: 1360
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/resolvecontact/
@@ -18,7 +18,7 @@ public MapiContactCollection ResolveContact(string unresolvedEntry)
 | --- | --- | --- |
 | unresolvedEntry | String | A name of contact to resolve. |
 
-## Return Value
+### Return Value
 
 A [`MapiContactCollection`](../../../aspose.email.mapi/mapicontactcollection) that represents contacts information.
 

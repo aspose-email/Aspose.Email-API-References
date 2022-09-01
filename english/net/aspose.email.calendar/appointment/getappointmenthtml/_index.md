@@ -1,9 +1,9 @@
 ---
 title: GetAppointmentHtml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the calendar HTML.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.email.calendar/appointment/getappointmenthtml/
 ---
 ## Appointment.GetAppointmentHtml method
@@ -14,7 +14,7 @@ Gets the calendar HTML.
 public string GetAppointmentHtml()
 ```
 
-## Return Value
+### Return Value
 
 String value of calendar as HTML.
 

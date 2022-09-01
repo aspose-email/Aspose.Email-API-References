@@ -1,7 +1,7 @@
 ---
 title: ShouldAddPlainTextView
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether to add a text representation of the body or not. Default value is false.
 type: docs
 weight: 30
 url: /net/aspose.email/htmlloadoptions/shouldaddplaintextview/

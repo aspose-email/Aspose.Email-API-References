@@ -1,7 +1,7 @@
 ---
 title: UpdateSubscription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates subscriptions
 type: docs
 weight: 1510
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updatesubscription/

@@ -1,7 +1,7 @@
 ---
 title: MonthOfYear
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the month of the year in which the appointment or meeting occurs. Area Calendar Canonical name PidLidMonthOfYear Alternate names
 type: docs
 weight: 12750
 url: /net/aspose.email.mapi/knownpropertylist/monthofyear/

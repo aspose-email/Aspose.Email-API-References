@@ -1,7 +1,7 @@
 ---
 title: ErrorInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value that represents operation error.
 type: docs
 weight: 10
 url: /net/aspose.email.clients/iasyncresultext/errorinfo/

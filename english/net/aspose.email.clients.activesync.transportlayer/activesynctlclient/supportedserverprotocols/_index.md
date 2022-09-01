@@ -1,7 +1,7 @@
 ---
 title: SupportedServerProtocols
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the versions of ActiveSync protocols which are supported
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activesync.transportlayer/activesynctlclient/supportedserverprotocols/

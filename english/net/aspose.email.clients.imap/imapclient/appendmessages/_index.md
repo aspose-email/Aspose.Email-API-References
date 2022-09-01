@@ -1,12 +1,12 @@
 ---
 title: AppendMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Uploads the mail message to the current folder If current folder hasnt been specified default folder is used.
 type: docs
 weight: 380
 url: /net/aspose.email.clients.imap/imapclient/appendmessages/
 ---
-## ImapClient.AppendMessages method (1 of 4)
+## AppendMessages(IConnection, IEnumerable&lt;MailMessage&gt;) {#appendmessages}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -20,7 +20,7 @@ public AppendMessagesResult AppendMessages(IConnection connection,
 | connection | IConnection | Connection to a server |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -35,7 +35,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessages method (2 of 4)
+## AppendMessages(IConnection, string, IEnumerable&lt;MailMessage&gt;) {#appendmessages_1}
 
 Uploads the mail message to the specified folder
 
@@ -50,7 +50,7 @@ public AppendMessagesResult AppendMessages(IConnection connection, string folder
 | folderName | String | Folder that will receive the mail message |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -65,7 +65,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessages method (3 of 4)
+## AppendMessages(IEnumerable&lt;MailMessage&gt;) {#appendmessages_2}
 
 Uploads the mail message to the current folder If current folder hasn't been specified default folder is used.
 
@@ -77,7 +77,7 @@ public AppendMessagesResult AppendMessages(IEnumerable<MailMessage> messages)
 | --- | --- | --- |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 
@@ -91,7 +91,7 @@ An unique id of appended message
 
 ---
 
-## ImapClient.AppendMessages method (4 of 4)
+## AppendMessages(string, IEnumerable&lt;MailMessage&gt;) {#appendmessages_3}
 
 Uploads the mail message to the specified folder
 
@@ -104,7 +104,7 @@ public AppendMessagesResult AppendMessages(string folderName, IEnumerable<MailMe
 | folderName | String | Folder that will receive the mail message |
 | messages | IEnumerable`1 | Enumeration of email messages to be upload |
 
-## Return Value
+### Return Value
 
 An unique id of appended message
 

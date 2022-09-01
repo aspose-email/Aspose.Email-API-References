@@ -1,7 +1,7 @@
 ---
 title: LessThan
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a property and a value that are compared for a Less than conditions during a search.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/querytype/lessthan/

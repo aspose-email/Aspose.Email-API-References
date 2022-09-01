@@ -1,7 +1,7 @@
 ---
 title: PreserveTnefAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Controls loading TNEF attachment behavior.
 type: docs
 weight: 50
 url: /net/aspose.email/msgloadoptions/preservetnefattachments/

@@ -1,7 +1,7 @@
 ---
 title: RDates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the R dates.
 type: docs
 weight: 70
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/rdates/
@@ -14,7 +14,7 @@ Gets the R dates.
 public DateCollection RDates { get; }
 ```
 
-## Property Value
+### Property Value
 
 The R dates.
 

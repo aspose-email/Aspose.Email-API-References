@@ -1,7 +1,7 @@
 ---
 title: AutoCommit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether commit operation are executed automatically when folder is changed or before connection is closed.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.imap/imapclient/autocommit/

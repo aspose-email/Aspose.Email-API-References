@@ -1,9 +1,9 @@
 ---
 title: ImapException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exception that is thrown when the ImapClient is not able to complete an operation.
 type: docs
-weight: 17450
+weight: 17620
 url: /net/aspose.email/imapexception/
 ---
 ## ImapException class
@@ -18,10 +18,10 @@ public class ImapException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [ImapException](imapexception)() | Initializes a new instance of the [`ImapException`](../imapexception) class. |
-| [ImapException](imapexception)(string) | Initializes a new instance of the [`ImapException`](../imapexception) class. |
-| [ImapException](imapexception)(string, Exception) | Initializes a new instance of the [`ImapException`](../imapexception) class. |
-| [ImapException](imapexception)(string, params object[]) | Initializes a new instance of the [`ImapException`](../imapexception) class with a specified error message. |
+| [ImapException](imapexception#constructor)() | Initializes a new instance of the [`ImapException`](../imapexception) class. |
+| [ImapException](imapexception#constructor_1)(string) | Initializes a new instance of the [`ImapException`](../imapexception) class. |
+| [ImapException](imapexception#constructor_2)(string, Exception) | Initializes a new instance of the [`ImapException`](../imapexception) class. |
+| [ImapException](imapexception#constructor_3)(string, params object[]) | Initializes a new instance of the [`ImapException`](../imapexception) class with a specified error message. |
 
 ## Properties
 

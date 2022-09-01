@@ -1,9 +1,9 @@
 ---
 title: GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns a hash code for object
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.email/mailmessage/gethashcode/
 ---
 ## MailMessage.GetHashCode method

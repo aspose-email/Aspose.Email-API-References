@@ -1,7 +1,7 @@
 ---
 title: AirsyncClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the class of the item. The following classes are supported for mailbox searches when the protocol version is 12.1  Email  Calendar  Contacts  Tasks The SMS and Notes classes are only available if the protocol version is 14.0 or 14.1.
 type: docs
 weight: 980
 url: /net/aspose.email.clients.activesync.transportlayer/airsyncclass/
@@ -14,7 +14,7 @@ Identifies the class of the item. The following classes are supported for mailbo
 public enum AirsyncClass
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

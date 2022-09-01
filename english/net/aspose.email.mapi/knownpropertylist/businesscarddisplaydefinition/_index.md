@@ -1,7 +1,7 @@
 ---
 title: BusinessCardDisplayDefinition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains user customization details for displaying a contact as a business card. Area Contact Properties Canonical name PidLidBusinessCardDisplayDefinition Alternate names dispidBCDisplayDefinition
 type: docs
 weight: 2110
 url: /net/aspose.email.mapi/knownpropertylist/businesscarddisplaydefinition/

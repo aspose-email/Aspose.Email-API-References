@@ -1,7 +1,7 @@
 ---
 title: ReminderMethods
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The method used by this reminder.
 type: docs
 weight: 15830
 url: /net/aspose.email.clients.google/remindermethods/
@@ -14,7 +14,7 @@ The method used by this reminder.
 public enum ReminderMethods
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

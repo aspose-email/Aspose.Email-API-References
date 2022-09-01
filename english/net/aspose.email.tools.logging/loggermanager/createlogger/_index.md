@@ -1,12 +1,12 @@
 ---
 title: CreateLogger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a logger with specified name and appender.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.logging/loggermanager/createlogger/
 ---
-## LoggerManager.CreateLogger method (1 of 4)
+## CreateLogger(string, Appender) {#createlogger}
 
 Creates a logger with specified name and appender.
 
@@ -19,7 +19,7 @@ public static Logger CreateLogger(string name, Appender appender)
 | name | String | The logger name. |
 | appender | Appender | The appender. |
 
-## Return Value
+### Return Value
 
 The created logger.
 
@@ -33,7 +33,7 @@ The created logger.
 
 ---
 
-## LoggerManager.CreateLogger method (2 of 4)
+## CreateLogger(string, params Appender[]) {#createlogger_1}
 
 Creates a logger with specified name and appender.
 
@@ -46,7 +46,7 @@ public static Logger CreateLogger(string name, params Appender[] appenders)
 | name | String | The logger name. |
 | appenders | Appender[] | The appender. |
 
-## Return Value
+### Return Value
 
 The created logger.
 
@@ -60,7 +60,7 @@ The created logger.
 
 ---
 
-## LoggerManager.CreateLogger method (3 of 4)
+## CreateLogger(string, LogLevel, Appender) {#createlogger_2}
 
 Creates a logger with specified name and appender.
 
@@ -74,7 +74,7 @@ public static Logger CreateLogger(string name, LogLevel severity, Appender appen
 | severity | LogLevel | The severity. |
 | appender | Appender | The appender. |
 
-## Return Value
+### Return Value
 
 The created logger.
 
@@ -89,7 +89,7 @@ The created logger.
 
 ---
 
-## LoggerManager.CreateLogger method (4 of 4)
+## CreateLogger(string, LogLevel, params Appender[]) {#createlogger_3}
 
 Creates a logger with specified name and appender.
 
@@ -103,7 +103,7 @@ public static Logger CreateLogger(string name, LogLevel severity, params Appende
 | severity | LogLevel | The severity. |
 | appenders | Appender[] | The appenders array. |
 
-## Return Value
+### Return Value
 
 The created logger.
 

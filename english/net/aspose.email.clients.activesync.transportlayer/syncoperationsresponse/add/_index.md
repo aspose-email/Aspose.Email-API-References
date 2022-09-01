@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of objects that indicates that a new object has to be created in a collection.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/syncoperationsresponse/add/

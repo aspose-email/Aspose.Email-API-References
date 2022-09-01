@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Headers value.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/sectionheader/value/

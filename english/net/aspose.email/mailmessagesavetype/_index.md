@@ -1,9 +1,9 @@
 ---
 title: MailMessageSaveType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the mail message format.It can be in emlmsg or mhtml format.
 type: docs
-weight: 17560
+weight: 17730
 url: /net/aspose.email/mailmessagesavetype/
 ---
 ## MailMessageSaveType class

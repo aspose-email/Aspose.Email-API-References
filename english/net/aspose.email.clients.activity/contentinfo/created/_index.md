@@ -1,7 +1,7 @@
 ---
 title: Created
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets datetime when the content was made available.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activity/contentinfo/created/

@@ -1,7 +1,7 @@
 ---
 title: AsposeInvalidDataException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The exception that is thrown when one of the arguments provided to a method is not valid.
 type: docs
 weight: 310
 url: /net/aspose.email/asposeinvaliddataexception/
@@ -18,11 +18,11 @@ public class AsposeInvalidDataException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [AsposeInvalidDataException](asposeinvaliddataexception)() | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class. |
-| [AsposeInvalidDataException](asposeinvaliddataexception)(Exception) | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class with a reference to the inner exception that is the cause of this exception. |
-| [AsposeInvalidDataException](asposeinvaliddataexception)(string) | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class with a specified error message. |
-| [AsposeInvalidDataException](asposeinvaliddataexception)(string, Exception) | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [AsposeInvalidDataException](asposeinvaliddataexception)(string, params object[]) | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class with a specified error message. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor)() | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_1)(Exception) | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class with a reference to the inner exception that is the cause of this exception. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_2)(string) | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class with a specified error message. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_3)(string, Exception) | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [AsposeInvalidDataException](asposeinvaliddataexception#constructor_4)(string, params object[]) | Initializes a new instance of the [`AsposeInvalidDataException`](../asposeinvaliddataexception) class with a specified error message. |
 
 ## Properties
 

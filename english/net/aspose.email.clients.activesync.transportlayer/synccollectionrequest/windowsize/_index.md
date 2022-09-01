@@ -1,7 +1,7 @@
 ---
 title: WindowSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a maximum number of changed items in a collection or a request that SHOULD be included in the synchronization response. If the WindowSize is not defined the server behaves as if a WindowSize element with a value of 100 were submitted. The server interprets the value 0 zero and values above 512 as 512.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/windowsize/

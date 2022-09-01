@@ -1,7 +1,7 @@
 ---
 title: XSharingProviderUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the same value as the PidLidSharingProviderUrl property section 2.268. Area Sharing Canonical name PidNameXSharingProviderUrl Alternate names
 type: docs
 weight: 19800
 url: /net/aspose.email.mapi/knownpropertylist/xsharingproviderurl/

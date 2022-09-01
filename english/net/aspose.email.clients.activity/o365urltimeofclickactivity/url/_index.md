@@ -1,7 +1,7 @@
 ---
 title: URL
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: URL clicked by the user. Mandatory Yes
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/url/

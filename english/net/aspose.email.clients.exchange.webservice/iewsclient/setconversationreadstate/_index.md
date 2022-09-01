@@ -1,12 +1,12 @@
 ---
 title: SetConversationReadState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set read state of the conversation items to the specified value
 type: docs
 weight: 1410
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/setconversationreadstate/
 ---
-## IEWSClient.SetConversationReadState method (1 of 2)
+## SetConversationReadState(string, bool) {#setconversationreadstate}
 
 Set read state of the conversation items to the specified value
 
@@ -33,7 +33,7 @@ public void SetConversationReadState(string conversationId, bool isRead)
 
 ---
 
-## IEWSClient.SetConversationReadState method (2 of 2)
+## SetConversationReadState(string, string, bool) {#setconversationreadstate_1}
 
 Set read state of the conversation items, which are located in the specified folder, to the specified value
 

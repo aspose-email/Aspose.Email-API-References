@@ -1,7 +1,7 @@
 ---
 title: ImpersonateUser
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Impersonates the user.
 type: docs
 weight: 1060
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/impersonateuser/

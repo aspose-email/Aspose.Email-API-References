@@ -1,7 +1,7 @@
 ---
 title: SMTPAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies one of the users email addresses.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/accountinformation/smtpaddresses/

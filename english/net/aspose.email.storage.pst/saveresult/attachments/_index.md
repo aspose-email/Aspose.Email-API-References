@@ -1,7 +1,7 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the save results of attachments.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/saveresult/attachments/
@@ -14,7 +14,7 @@ Gets the save results of attachments.
 public List<SaveResult> Attachments { get; }
 ```
 
-## Property Value
+### Property Value
 
 The list of [`SaveResult`](../../saveresult).
 

@@ -1,7 +1,7 @@
 ---
 title: StartMonitoring
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Starts monitoring of message changes for specified folder.
 type: docs
 weight: 1170
 url: /net/aspose.email.clients.imap/imapclient/startmonitoring/

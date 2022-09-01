@@ -1,12 +1,12 @@
 ---
 title: ItemEstimate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ItemEstimate class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/itemestimate/itemestimate/
 ---
-## ItemEstimate constructor (1 of 2)
+## ItemEstimate(Status) {#constructor}
 
 Initializes a new instance of the ItemEstimate class.
 
@@ -27,7 +27,7 @@ public ItemEstimate(Status status)
 
 ---
 
-## ItemEstimate constructor (2 of 2)
+## ItemEstimate(Status, string, int) {#constructor_1}
 
 Initializes a new instance of the ItemEstimate class.
 

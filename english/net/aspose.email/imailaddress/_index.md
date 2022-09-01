@@ -1,9 +1,9 @@
 ---
 title: IMailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a common mail address interface
 type: docs
-weight: 17410
+weight: 17580
 url: /net/aspose.email/imailaddress/
 ---
 ## IMailAddress interface

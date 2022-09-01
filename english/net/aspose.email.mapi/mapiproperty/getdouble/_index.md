@@ -1,7 +1,7 @@
 ---
 title: GetDouble
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the bytes of the binary data as double.
 type: docs
 weight: 180
 url: /net/aspose.email.mapi/mapiproperty/getdouble/
@@ -14,7 +14,7 @@ Gets the bytes of the binary data as double.
 public virtual double GetDouble()
 ```
 
-## Return Value
+### Return Value
 
 The double value.
 

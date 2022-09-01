@@ -1,7 +1,7 @@
 ---
 title: RecipientCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of members belonging to a distribution list. It can be used to determine whether all recipients belonging to a distribution list have valid certificates by comparing values of the CertificateCount and RecipientCount elements.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientscertificates/recipientcount/

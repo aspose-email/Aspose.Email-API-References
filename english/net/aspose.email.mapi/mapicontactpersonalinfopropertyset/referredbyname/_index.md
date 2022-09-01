@@ -1,7 +1,7 @@
 ---
 title: ReferredByName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the name of the person who referred this contact to the user
 type: docs
 weight: 190
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/referredbyname/

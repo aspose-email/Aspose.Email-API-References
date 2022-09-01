@@ -1,12 +1,12 @@
 ---
 title: AutodiscoverResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AutodiscoverResult class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/autodiscoverresult/autodiscoverresult/
 ---
-## AutodiscoverResult constructor (1 of 3)
+## AutodiscoverResult(CultureInfo, string, string, string) {#constructor_1}
 
 Initializes a new instance of the AutodiscoverResult class.
 
@@ -30,7 +30,7 @@ public AutodiscoverResult(CultureInfo culture, string displayName, string emailA
 
 ---
 
-## AutodiscoverResult constructor (2 of 3)
+## AutodiscoverResult(CultureInfo, string, string, ServerInfo[]) {#constructor}
 
 Initializes a new instance of the AutodiscoverResult class.
 
@@ -55,7 +55,7 @@ public AutodiscoverResult(CultureInfo culture, string displayName, string emailA
 
 ---
 
-## AutodiscoverResult constructor (3 of 3)
+## AutodiscoverResult(CultureInfo, string, string, string, ServerInfo[]) {#constructor_2}
 
 Initializes a new instance of the AutodiscoverResult class.
 

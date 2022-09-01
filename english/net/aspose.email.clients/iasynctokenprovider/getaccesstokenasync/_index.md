@@ -1,7 +1,7 @@
 ---
 title: GetAccessTokenAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets oAuth access token.
 type: docs
 weight: 10
 url: /net/aspose.email.clients/iasynctokenprovider/getaccesstokenasync/
@@ -20,7 +20,7 @@ public Task<OAuthToken> GetAccessTokenAsync(bool ignoreExistingToken = false,
 | ignoreExistingToken | Boolean | If ignoreExistingToken is true, requests new token from a server. Otherwise behaviour is depended on whether token exists or not. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 Returns oAuth access token
 

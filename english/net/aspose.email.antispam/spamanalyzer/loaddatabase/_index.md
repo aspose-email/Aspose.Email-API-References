@@ -1,12 +1,12 @@
 ---
 title: LoadDatabase
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Loads Bayesian database from file.
 type: docs
 weight: 20
 url: /net/aspose.email.antispam/spamanalyzer/loaddatabase/
 ---
-## SpamAnalyzer.LoadDatabase method (1 of 2)
+## LoadDatabase(string) {#loaddatabase_1}
 
 Loads Bayesian database from file.
 
@@ -32,7 +32,7 @@ public void LoadDatabase(string filePath)
 
 ---
 
-## SpamAnalyzer.LoadDatabase method (2 of 2)
+## LoadDatabase(Stream) {#loaddatabase}
 
 Loads Bayesian database from stream.
 

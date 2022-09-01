@@ -1,7 +1,7 @@
 ---
 title: TeamTask
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This property is set by the client but is ignored by the server. Area Tasks Canonical name PidLidTeamTask Alternate names dispidTeamTask
 type: docs
 weight: 18870
 url: /net/aspose.email.mapi/knownpropertylist/teamtask/

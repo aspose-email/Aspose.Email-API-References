@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes all items from the list.
 type: docs
 weight: 220
 url: /net/aspose.email.personalinfo/associatedpersonslist/clear/

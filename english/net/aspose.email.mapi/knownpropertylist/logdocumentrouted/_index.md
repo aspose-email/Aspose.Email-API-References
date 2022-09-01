@@ -1,7 +1,7 @@
 ---
 title: LogDocumentRouted
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the document was sent to a routing recipient during journaling. Area Journal Canonical name PidLidLogDocumentRouted Alternate names dispidLogDocRouted
 type: docs
 weight: 12230
 url: /net/aspose.email.mapi/knownpropertylist/logdocumentrouted/

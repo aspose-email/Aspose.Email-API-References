@@ -1,7 +1,7 @@
 ---
 title: ObjectName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains name for object in the data feed identified by guids.
 type: docs
 weight: 2680
 url: /net/aspose.email.clients.activity/objectname/

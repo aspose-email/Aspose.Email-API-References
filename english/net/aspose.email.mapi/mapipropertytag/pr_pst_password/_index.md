@@ -1,7 +1,7 @@
 ---
 title: PR_PST_PASSWORD
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the CRC32 hash of the password string of PST. If the property exists and is nonzero then the PST file is password protected.
 type: docs
 weight: 17360
 url: /net/aspose.email.mapi/mapipropertytag/pr_pst_password/

@@ -1,7 +1,7 @@
 ---
 title: BillingInformation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Billing Information header.
 type: docs
 weight: 20
 url: /net/aspose.email/mhttemplatename.task/billinginformation/

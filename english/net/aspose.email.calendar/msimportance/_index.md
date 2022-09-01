@@ -1,7 +1,7 @@
 ---
 title: MSImportance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the importance of an appointment.
 type: docs
 weight: 620
 url: /net/aspose.email.calendar/msimportance/
@@ -14,7 +14,7 @@ Specifies the importance of an appointment.
 public enum MSImportance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

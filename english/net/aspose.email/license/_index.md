@@ -1,9 +1,9 @@
 ---
 title: License
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides methods to license the component.
 type: docs
-weight: 17460
+weight: 17630
 url: /net/aspose.email/license/
 ---
 ## License class
@@ -24,9 +24,9 @@ public class License
 
 | Name | Description |
 | --- | --- |
-| [SetLicense](../../aspose.email/license/setlicense)(FileInfo) | Licenses the component. |
-| [SetLicense](../../aspose.email/license/setlicense)(Stream) | Licenses the component. |
-| [SetLicense](../../aspose.email/license/setlicense)(string) | Licenses the component. |
+| [SetLicense](../../aspose.email/license/setlicense#setlicense)(FileInfo) | Licenses the component. |
+| [SetLicense](../../aspose.email/license/setlicense#setlicense_1)(Stream) | Licenses the component. |
+| [SetLicense](../../aspose.email/license/setlicense#setlicense_2)(string) | Licenses the component. |
 
 ### Examples
 

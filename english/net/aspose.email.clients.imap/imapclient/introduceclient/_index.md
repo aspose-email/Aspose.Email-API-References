@@ -1,12 +1,12 @@
 ---
 title: IntroduceClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Introduces client information to a server.
 type: docs
 weight: 790
 url: /net/aspose.email.clients.imap/imapclient/introduceclient/
 ---
-## ImapClient.IntroduceClient method (1 of 4)
+## IntroduceClient() {#introduceclient}
 
 Introduces client information to a server.
 
@@ -14,7 +14,7 @@ Introduces client information to a server.
 public ImapIdentificationInfo IntroduceClient()
 ```
 
-## Return Value
+### Return Value
 
 Returns server identification information
 
@@ -27,7 +27,7 @@ Returns server identification information
 
 ---
 
-## ImapClient.IntroduceClient method (2 of 4)
+## IntroduceClient(IConnection) {#introduceclient_1}
 
 Introduces client information to a server.
 
@@ -39,7 +39,7 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Returns server identification information
 
@@ -53,7 +53,7 @@ Returns server identification information
 
 ---
 
-## ImapClient.IntroduceClient method (3 of 4)
+## IntroduceClient(ImapIdentificationInfo) {#introduceclient_3}
 
 Introduces client information to a server.
 
@@ -65,7 +65,7 @@ public ImapIdentificationInfo IntroduceClient(ImapIdentificationInfo clientIdent
 | --- | --- | --- |
 | clientIdentificationInfo | ImapIdentificationInfo | Client identification information |
 
-## Return Value
+### Return Value
 
 Returns server identification information
 
@@ -78,7 +78,7 @@ Returns server identification information
 
 ---
 
-## ImapClient.IntroduceClient method (4 of 4)
+## IntroduceClient(IConnection, ImapIdentificationInfo) {#introduceclient_2}
 
 Introduces client information to a server.
 
@@ -92,7 +92,7 @@ public ImapIdentificationInfo IntroduceClient(IConnection connection,
 | connection | IConnection | Connection to a server |
 | clientIdentificationInfo | ImapIdentificationInfo | Client identification information |
 
-## Return Value
+### Return Value
 
 Returns server identification information
 

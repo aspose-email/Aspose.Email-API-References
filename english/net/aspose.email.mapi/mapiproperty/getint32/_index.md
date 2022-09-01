@@ -1,7 +1,7 @@
 ---
 title: GetInt32
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the first 4 bytes of the binary data as int32.
 type: docs
 weight: 220
 url: /net/aspose.email.mapi/mapiproperty/getint32/
@@ -14,7 +14,7 @@ Gets the first 4 bytes of the binary data as int32.
 public virtual int GetInt32()
 ```
 
-## Return Value
+### Return Value
 
 The int32 value.
 

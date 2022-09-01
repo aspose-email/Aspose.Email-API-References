@@ -1,7 +1,7 @@
 ---
 title: AppointmentCounterProposal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether a Meeting Response object is a counter proposal. Area Meetings Canonical name PidLidAppointmentCounterProposal Alternate names dispidApptCounterProposal
 type: docs
 weight: 1130
 url: /net/aspose.email.mapi/knownpropertylist/appointmentcounterproposal/

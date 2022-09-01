@@ -1,7 +1,7 @@
 ---
 title: ContactUserField3
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains text used to add custom text to a business card representation of a Contact object. Area Contact Properties Canonical name PidLidContactUserField3 Alternate names dispidContactUserField3
 type: docs
 weight: 3070
 url: /net/aspose.email.mapi/knownpropertylist/contactuserfield3/

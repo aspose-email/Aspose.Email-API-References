@@ -1,7 +1,7 @@
 ---
 title: MaxDevicePasswordFailedAttempts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum number of failed password logon attempts that are permitted. The client SHOULD perform a local wipe or enter a timed lock out mode if the maximum number of failed password logon attempts is reached. The MaxDevicePasswordFailedAttempts can be null or have a value in the range from 4 through 16. If the property is null the client interprets this as meaning that no maximum number of failed password logon attempts has been set by the security policy. If the value of the DevicePasswordEnabled is set to FALSE the client ignores this property.
 type: docs
 weight: 280
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/maxdevicepasswordfailedattempts/

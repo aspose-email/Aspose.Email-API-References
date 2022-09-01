@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Implements the operator .
 type: docs
 weight: 190
 url: /net/aspose.email.clients.imap/imapmessageflags/op_equality/
@@ -19,7 +19,7 @@ public static bool operator ==(ImapMessageFlags a, ImapMessageFlags b)
 | a | ImapMessageFlags | First set of imap message flags. |
 | b | ImapMessageFlags | Second set of imap message flags. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 

@@ -1,7 +1,7 @@
 ---
 title: Address
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the email address.
 type: docs
 weight: 20
 url: /net/aspose.email.calendar/reminderattendee/address/

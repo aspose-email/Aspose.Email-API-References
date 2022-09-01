@@ -1,7 +1,7 @@
 ---
 title: Fatal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Fatal level.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.logging/loglevel/fatal/

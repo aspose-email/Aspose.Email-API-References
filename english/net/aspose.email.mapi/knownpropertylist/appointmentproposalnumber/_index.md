@@ -1,7 +1,7 @@
 ---
 title: AppointmentProposalNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of attendees who have sent counter proposals that have not been accepted or rejected by the organizer. Area Meetings Canonical name PidLidAppointmentProposalNumber Alternate names dispidApptProposalNum
 type: docs
 weight: 1210
 url: /net/aspose.email.mapi/knownpropertylist/appointmentproposalnumber/

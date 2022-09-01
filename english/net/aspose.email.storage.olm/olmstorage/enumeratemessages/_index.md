@@ -1,7 +1,7 @@
 ---
 title: EnumerateMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exposes the enumerator which supports an iteration of messages in folder.
 type: docs
 weight: 60
 url: /net/aspose.email.storage.olm/olmstorage/enumeratemessages/
@@ -18,7 +18,7 @@ public IEnumerable<MapiMessage> EnumerateMessages(OlmFolder folder)
 | --- | --- | --- |
 | folder | OlmFolder | [`OlmFolder`](../../olmfolder) that represents information about folder in OLM storage. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 

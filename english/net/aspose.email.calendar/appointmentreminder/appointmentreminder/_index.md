@@ -1,7 +1,7 @@
 ---
 title: AppointmentReminder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of AppointmentReminderaspose.email.calendar/appointmentreminder class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/appointmentreminder/appointmentreminder/

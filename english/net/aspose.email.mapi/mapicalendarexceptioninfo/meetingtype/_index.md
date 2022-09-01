@@ -1,7 +1,7 @@
 ---
 title: MeetingType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the type of the meeting.
 type: docs
 weight: 80
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/meetingtype/
@@ -14,7 +14,7 @@ Gets or sets the type of the meeting.
 public MapiCalendarState MeetingType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the meeting.
 

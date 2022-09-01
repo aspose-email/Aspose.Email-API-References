@@ -1,7 +1,7 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the attachment collection.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicalendar/attachments/

@@ -1,12 +1,12 @@
 ---
 title: MoveItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The MoveItems command moves an item or items from one folder on the server to another.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/moveitems/
 ---
-## IActiveSyncTLClient.MoveItems method (1 of 2)
+## MoveItems(IEnumerable&lt;MoveItemData&gt;) {#moveitems_1}
 
 The MoveItems command moves an item or items from one folder on the server to another.
 
@@ -18,7 +18,7 @@ public MoveItemResponse[] MoveItems(IEnumerable<MoveItemData> request)
 | --- | --- | --- |
 | request | IEnumerable`1 | Enumeration of the items that has to be moved |
 
-## Return Value
+### Return Value
 
 Returns array of objects that describe the moved item.
 
@@ -32,7 +32,7 @@ Returns array of objects that describe the moved item.
 
 ---
 
-## IActiveSyncTLClient.MoveItems method (2 of 2)
+## MoveItems(params MoveItemData[]) {#moveitems}
 
 The MoveItems command moves an item or items from one folder on the server to another.
 
@@ -44,7 +44,7 @@ public MoveItemResponse[] MoveItems(params MoveItemData[] request)
 | --- | --- | --- |
 | request | MoveItemData[] | Array of the items that has to be moved |
 
-## Return Value
+### Return Value
 
 Returns array of objects that describe the moved item.
 

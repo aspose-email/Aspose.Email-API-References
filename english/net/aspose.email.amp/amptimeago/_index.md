@@ -1,7 +1,7 @@
 ---
 title: AmpTimeago
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides fuzzy timestamps by formatting dates as X time ago
 type: docs
 weight: 150
 url: /net/aspose.email.amp/amptimeago/
@@ -18,8 +18,8 @@ public class AmpTimeago : AmpComponent
 
 | Name | Description |
 | --- | --- |
-| [AmpTimeago](amptimeago)(DateTime) | Create instance of AmpTimeago. |
-| [AmpTimeago](amptimeago)(DateTime, int, int) | Create instance of AmpTimeago. |
+| [AmpTimeago](amptimeago#constructor)(DateTime) | Create instance of AmpTimeago. |
+| [AmpTimeago](amptimeago#constructor_1)(DateTime, int, int) | Create instance of AmpTimeago. |
 
 ## Properties
 

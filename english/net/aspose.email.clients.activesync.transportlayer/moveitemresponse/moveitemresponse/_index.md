@@ -1,12 +1,12 @@
 ---
 title: MoveItemResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MoveItemResponse class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/moveitemresponse/moveitemresponse/
 ---
-## MoveItemResponse constructor (1 of 2)
+## MoveItemResponse() {#constructor}
 
 Initializes a new instance of the MoveItemResponse class.
 
@@ -22,7 +22,7 @@ public MoveItemResponse()
 
 ---
 
-## MoveItemResponse constructor (2 of 2)
+## MoveItemResponse(Status, string, string) {#constructor_1}
 
 Initializes a new instance of the MoveItemResponse class.
 

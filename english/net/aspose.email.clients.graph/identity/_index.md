@@ -1,9 +1,9 @@
 ---
 title: Identity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: https//docs.microsoft.com/enus/graph/api/resources/identityviewgraphrest1.0 The Identity resource represents an identity of an actor. For example an actor can be a user device or application.
 type: docs
-weight: 15940
+weight: 15960
 url: /net/aspose.email.clients.graph/identity/
 ---
 ## Identity class

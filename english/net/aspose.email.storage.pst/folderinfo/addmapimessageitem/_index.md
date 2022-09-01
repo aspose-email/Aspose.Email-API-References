@@ -1,7 +1,7 @@
 ---
 title: AddMapiMessageItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the IMapiMessageItem object into folder.
 type: docs
 weight: 140
 url: /net/aspose.email.storage.pst/folderinfo/addmapimessageitem/
@@ -18,7 +18,7 @@ public string AddMapiMessageItem(IMapiMessageItem item)
 | --- | --- | --- |
 | item | IMapiMessageItem | The item necessary to add. |
 
-## Return Value
+### Return Value
 
 The string that represents the EntryId of the added item.
 

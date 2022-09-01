@@ -1,7 +1,7 @@
 ---
 title: Company
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the company for which the file was created. Area Common Canonical name PidNameCompany Alternate names urnschemasmicrosoftcomofficeofficeCompany
 type: docs
 weight: 2820
 url: /net/aspose.email.mapi/knownpropertylist/company/

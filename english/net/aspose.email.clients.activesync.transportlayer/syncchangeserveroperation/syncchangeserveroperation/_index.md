@@ -1,12 +1,12 @@
 ---
 title: SyncChangeServerOperation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the SyncChangeServerOperation class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/syncchangeserveroperation/syncchangeserveroperation/
 ---
-## SyncChangeServerOperation constructor (1 of 2)
+## SyncChangeServerOperation() {#constructor}
 
 Initializes a new instance of the SyncChangeServerOperation class.
 
@@ -22,7 +22,7 @@ public SyncChangeServerOperation()
 
 ---
 
-## SyncChangeServerOperation constructor (2 of 2)
+## SyncChangeServerOperation(string, DataContainer) {#constructor_1}
 
 Initializes a new instance of the SyncChangeServerOperation class.
 

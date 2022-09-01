@@ -1,7 +1,7 @@
 ---
 title: EWSId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exchange web service id
 type: docs
 weight: 20
 url: /net/aspose.email/objectidentifier/ewsid/

@@ -1,7 +1,7 @@
 ---
 title: TagSubject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the subject of the email message. Area General Message Properties Canonical name PidTagSubject Alternate names PR_SUBJECT PR_SUBJECT_A ptagSubject PR_SUBJECT_W
 type: docs
 weight: 18500
 url: /net/aspose.email.mapi/knownpropertylist/tagsubject/

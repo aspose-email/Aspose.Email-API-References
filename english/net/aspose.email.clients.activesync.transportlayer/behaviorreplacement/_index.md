@@ -1,7 +1,7 @@
 ---
 title: BehaviorReplacement
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies how to resolve the conflict that occurs when an object has been changed on both the client and the server. The value specifies which objectthe client object or the server objectto keep if there is a conflict.
 type: docs
 weight: 1020
 url: /net/aspose.email.clients.activesync.transportlayer/behaviorreplacement/
@@ -14,7 +14,7 @@ Specifies how to resolve the conflict that occurs when an object has been change
 public enum BehaviorReplacement
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: ReminderDuration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Used to identify properties that contain a duration of time.
 type: docs
 weight: 860
 url: /net/aspose.email.calendar/reminderduration/

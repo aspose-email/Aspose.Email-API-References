@@ -1,7 +1,7 @@
 ---
 title: EventType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Type of progress event that occured.
 type: docs
 weight: 20
 url: /net/aspose.email/progresseventhandlerinfo/eventtype/

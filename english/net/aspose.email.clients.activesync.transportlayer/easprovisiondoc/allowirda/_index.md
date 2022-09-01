@@ -1,7 +1,7 @@
 ---
 title: AllowIrDA
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows the use of IrDA infrared connections. This property SHOULD be ignored if the client does not have the capability of transmitting or receiving infrared signals.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowirda/

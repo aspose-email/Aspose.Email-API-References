@@ -1,7 +1,7 @@
 ---
 title: GetMailboxInfoAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the mailbox information
 type: docs
 weight: 370
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getmailboxinfoasync/
@@ -20,7 +20,7 @@ public Task<ExchangeMailboxInfo> GetMailboxInfoAsync(string mailbox = null,
 | mailbox | String | A mailbox to read from. Note: if mailbox is set to `null` or `empty` the default mailbox will be used |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`ExchangeMailboxInfo`](../../../aspose.email.clients.exchange/exchangemailboxinfo) that represents mailbox information
 

@@ -1,7 +1,7 @@
 ---
 title: EncryptionProtocols
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the possible versions of encryption protocols.
 type: docs
 weight: 2870
 url: /net/aspose.email.clients.base/encryptionprotocols/
@@ -15,7 +15,7 @@ Defines the possible versions of encryption protocols.
 public enum EncryptionProtocols
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

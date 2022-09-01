@@ -1,12 +1,12 @@
 ---
 title: Aspose.Email.Exceptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Aspose.Email.Exceptions namespace provides exception classes as well as classes for exception handling.
 type: docs
-weight: 270
+weight: 300
 url: /net/aspose.email.exceptions/
 ---
-
+The **Aspose.Email.Exceptions** namespace provides exception classes as well as classes for exception handling.
 
 ## Classes
 

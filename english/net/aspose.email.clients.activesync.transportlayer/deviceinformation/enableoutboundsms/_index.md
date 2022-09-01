@@ -1,7 +1,7 @@
 ---
 title: EnableOutboundSMS
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Whether to enable outbound SMS
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/deviceinformation/enableoutboundsms/

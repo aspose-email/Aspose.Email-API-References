@@ -1,7 +1,7 @@
 ---
 title: ToMapiMessageItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Convert MapiMessage to IMapiMessageItem object in dependence with MessageClass.
 type: docs
 weight: 400
 url: /net/aspose.email.mapi/mapimessage/tomapimessageitem/
@@ -14,7 +14,7 @@ Convert MapiMessage to IMapiMessageItem object in dependence with MessageClass.
 public IMapiMessageItem ToMapiMessageItem()
 ```
 
-## Return Value
+### Return Value
 
 The IMapiMessageItem interface.
 

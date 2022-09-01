@@ -1,12 +1,12 @@
 ---
 title: SpamAnalyzer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of the SpamAnalyzeraspose.email.antispam/spamanalyzer class.
 type: docs
 weight: 10
 url: /net/aspose.email.antispam/spamanalyzer/spamanalyzer/
 ---
-## SpamAnalyzer constructor (1 of 3)
+## SpamAnalyzer() {#constructor}
 
 Initialize a new instance of the [`SpamAnalyzer`](../../spamanalyzer) class.
 
@@ -22,7 +22,7 @@ public SpamAnalyzer()
 
 ---
 
-## SpamAnalyzer constructor (2 of 3)
+## SpamAnalyzer(Stream) {#constructor_1}
 
 Initialize a new instance of the [`SpamAnalyzer`](../../spamanalyzer) class.
 
@@ -48,7 +48,7 @@ public SpamAnalyzer(Stream stream)
 
 ---
 
-## SpamAnalyzer constructor (3 of 3)
+## SpamAnalyzer(string) {#constructor_2}
 
 Initialize a new instance of the [`SpamAnalyzer`](../../spamanalyzer) class.
 

@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the properties of the MessageObjectaspose.email.mapi.msg/messageobject.
 type: docs
 weight: 40
 url: /net/aspose.email.mapi.msg/messageobject/properties/
@@ -14,7 +14,7 @@ Gets the properties of the [`MessageObject`](../../messageobject).
 public MessageObjectPropertiesCollection Properties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The properties.
 

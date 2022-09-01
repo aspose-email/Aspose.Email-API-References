@@ -1,7 +1,7 @@
 ---
 title: VCardSound
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the VCardSoundaspose.email.personalinfo.vcard/vcardsound class
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo.vcard/vcardsound/vcardsound/

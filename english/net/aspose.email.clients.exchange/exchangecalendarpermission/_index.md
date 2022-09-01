@@ -1,7 +1,7 @@
 ---
 title: ExchangeCalendarPermission
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a permission on a calendar folder.
 type: docs
 weight: 3210
 url: /net/aspose.email.clients.exchange/exchangecalendarpermission/

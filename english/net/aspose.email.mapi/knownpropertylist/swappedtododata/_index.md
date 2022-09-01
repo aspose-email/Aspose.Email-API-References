@@ -1,7 +1,7 @@
 ---
 title: SwappedToDoData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a secondary storage location for flags when sender flags or sender reminders are supported. Area MapiNonTransmittable Canonical name PidTagSwappedToDoData Alternate names PR_SWAPPED_TODO_DATA ptagSwappedTodoData
 type: docs
 weight: 18430
 url: /net/aspose.email.mapi/knownpropertylist/swappedtododata/

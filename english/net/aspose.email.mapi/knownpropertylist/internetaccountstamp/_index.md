@@ -1,7 +1,7 @@
 ---
 title: InternetAccountStamp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the email account ID through which the email message is sent. Area General Message Properties Canonical name PidLidInternetAccountStamp Alternate names dispidInetAcctStamp
 type: docs
 weight: 11420
 url: /net/aspose.email.mapi/knownpropertylist/internetaccountstamp/

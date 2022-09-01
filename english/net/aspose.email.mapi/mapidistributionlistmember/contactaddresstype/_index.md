@@ -1,7 +1,7 @@
 ---
 title: ContactAddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the type of the address when EntryId property contains a the EntryID of a Contact object.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapidistributionlistmember/contactaddresstype/
@@ -14,7 +14,7 @@ Gets or sets the type of the address, when EntryId property contains a the Entry
 public MapiDistributionListContactAddressType ContactAddressType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the address.
 

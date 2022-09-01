@@ -1,7 +1,7 @@
 ---
 title: UserCertificate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an ASN.1 authentication certificate for a messaging user. Area MapiMailUser Canonical name PidTagUserCertificate Alternate names PR_USER_CERTIFICATE ptagUserCertificate urnschemascontactsusercertificate
 type: docs
 weight: 19160
 url: /net/aspose.email.mapi/knownpropertylist/usercertificate/

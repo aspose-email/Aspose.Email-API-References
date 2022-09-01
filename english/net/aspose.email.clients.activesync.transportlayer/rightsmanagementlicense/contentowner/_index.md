@@ -1,7 +1,7 @@
 ---
 title: ContentOwner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the content of the original email can be modified by the user when the user forwards replies or replies all to the email message. The value is TRUE if the email can be modified by the user otherwise FALSE. A value of FALSE requires that the client MUST exclude the original rightsmanaged email message from the SmartForward or SmartReply request. Consequently inline replies are not allowed if the EditAllowed element is set to FALSE. When EditAllowed is set to FALSE and ReplaceMime is not present in a SmartForward or SmartReply request the server will add the original rightsmanaged email message as an attachment to the new message. Conversely if ReplaceMime is present the server will not attach the original rightsmanaged email message as an attachment.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/contentowner/

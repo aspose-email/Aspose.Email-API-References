@@ -1,7 +1,7 @@
 ---
 title: Busy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of time ranges during which this calendar should be regarded as busy.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/freebusycalendarinfo/busy/

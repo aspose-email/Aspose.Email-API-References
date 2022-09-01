@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The height of the thumbnail in pixels.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/thumbnail/height/

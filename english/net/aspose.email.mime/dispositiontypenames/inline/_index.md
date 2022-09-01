@@ -1,7 +1,7 @@
 ---
 title: Inline
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Name for inline disposition type.
 type: docs
 weight: 20
 url: /net/aspose.email.mime/dispositiontypenames/inline/

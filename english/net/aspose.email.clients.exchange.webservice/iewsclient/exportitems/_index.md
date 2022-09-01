@@ -1,7 +1,7 @@
 ---
 title: ExportItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exports the specified items from mailbox
 type: docs
 weight: 700
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/exportitems/
@@ -18,7 +18,7 @@ public ExchangeStreamedItem[] ExportItems(params string[] itemIds)
 | --- | --- | --- |
 | itemIds | String[] | Ids of itmes to be exported |
 
-## Return Value
+### Return Value
 
 An array of [`ExchangeStreamedItem`](../../exchangestreameditem)
 

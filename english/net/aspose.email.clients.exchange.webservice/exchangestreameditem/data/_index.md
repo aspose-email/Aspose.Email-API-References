@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the item data
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/exchangestreameditem/data/

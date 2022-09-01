@@ -1,7 +1,7 @@
 ---
 title: Attachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an email attachment.
 type: docs
 weight: 350
 url: /net/aspose.email/attachment/
@@ -18,12 +18,12 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 
 | Name | Description |
 | --- | --- |
-| [Attachment](attachment)(string) | Initializes a new instance of the [`Attachment`](../attachment) class. |
-| [Attachment](attachment)(Stream, ContentType) | Initializes a new instance of the [`Attachment`](../attachment) class. |
-| [Attachment](attachment)(Stream, string) | Initializes a new instance of the [`Attachment`](../attachment) class. |
-| [Attachment](attachment)(string, ContentType) | Initializes a new instance of the [`Attachment`](../attachment) class. |
-| [Attachment](attachment)(string, string) | Initializes a new instance of the [`Attachment`](../attachment) class. |
-| [Attachment](attachment)(Stream, string, string) | Initializes a new instance of the [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_3)(string) | Initializes a new instance of the [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor)(Stream, ContentType) | Initializes a new instance of the [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_1)(Stream, string) | Initializes a new instance of the [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_4)(string, ContentType) | Initializes a new instance of the [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_5)(string, string) | Initializes a new instance of the [`Attachment`](../attachment) class. |
+| [Attachment](attachment#constructor_2)(Stream, string, string) | Initializes a new instance of the [`Attachment`](../attachment) class. |
 
 ## Properties
 
@@ -45,9 +45,9 @@ public class Attachment : AttachmentBase, IAttachment, IPreferredTextEncodingPro
 
 | Name | Description |
 | --- | --- |
-| static [CreateAttachmentFromString](../../aspose.email/attachment/createattachmentfromstring)(string, ContentType) | Creates the attachment from string. |
-| static [CreateAttachmentFromString](../../aspose.email/attachment/createattachmentfromstring)(string, string) | Creates the attachment from string. |
-| static [CreateAttachmentFromString](../../aspose.email/attachment/createattachmentfromstring)(string, string, Encoding, string) | Creates the attachment from string. |
+| static [CreateAttachmentFromString](../../aspose.email/attachment/createattachmentfromstring#createattachmentfromstring)(string, ContentType) | Creates the attachment from string. |
+| static [CreateAttachmentFromString](../../aspose.email/attachment/createattachmentfromstring#createattachmentfromstring_1)(string, string) | Creates the attachment from string. |
+| static [CreateAttachmentFromString](../../aspose.email/attachment/createattachmentfromstring#createattachmentfromstring_2)(string, string, Encoding, string) | Creates the attachment from string. |
 | [Dispose](../../aspose.email/attachmentbase/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(Stream) | Saves the specified stream. |
 | virtual [Save](../../aspose.email/attachmentbase/save)(string) | Saves the specified file name. |

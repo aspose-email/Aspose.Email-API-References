@@ -1,7 +1,7 @@
 ---
 title: ServerSupportedCompression
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information which compression types are supported by a server. See more https//tools.ietf.org/html/rfc4978
 type: docs
 weight: 260
 url: /net/aspose.email.clients.imap/imapclient/serversupportedcompression/

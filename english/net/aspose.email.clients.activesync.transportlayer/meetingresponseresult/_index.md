@@ -1,7 +1,7 @@
 ---
 title: MeetingResponseResult
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Meeting response result object
 type: docs
 weight: 1530
 url: /net/aspose.email.clients.activesync.transportlayer/meetingresponseresult/

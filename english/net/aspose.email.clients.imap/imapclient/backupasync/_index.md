@@ -1,12 +1,12 @@
 ---
 title: BackupAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Backups the content of the specified folders
 type: docs
 weight: 410
 url: /net/aspose.email.clients.imap/imapclient/backupasync/
 ---
-## ImapClient.BackupAsync method (1 of 8)
+## BackupAsync(IConnection, ImapFolderInfoCollection, string, BackupSettings) {#backupasync_2}
 
 Backups the content of the specified folders
 
@@ -22,7 +22,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 | fileName | String | A path to the presonal storage file |
 | options | BackupSettings | A backup options |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -37,7 +37,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.BackupAsync method (2 of 8)
+## BackupAsync(IConnection, ImapFolderInfoCollection, Stream, BackupSettings) {#backupasync}
 
 Backups the content of the specified folders
 
@@ -53,7 +53,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 | stream | Stream | A stream to write into |
 | options | BackupSettings | A backup options |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -68,7 +68,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.BackupAsync method (3 of 8)
+## BackupAsync(ImapFolderInfoCollection, string, BackupSettings) {#backupasync_6}
 
 Backups the content of the specified folders
 
@@ -82,7 +82,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, string fileName, Backu
 | fileName | String | A path to the presonal storage file |
 | options | BackupSettings | A backup options |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -96,7 +96,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.BackupAsync method (4 of 8)
+## BackupAsync(ImapFolderInfoCollection, Stream, BackupSettings) {#backupasync_4}
 
 Backups the content of the specified folders
 
@@ -110,7 +110,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, Stream stream, BackupS
 | stream | Stream | A stream to write into |
 | options | BackupSettings | A backup options |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -124,7 +124,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.BackupAsync method (5 of 8)
+## BackupAsync(IConnection, ImapFolderInfoCollection, string, BackupSettings, CancellationToken) {#backupasync_3}
 
 Backups the content of the specified folders
 
@@ -141,7 +141,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 | options | BackupSettings | A backup options |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -156,7 +156,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.BackupAsync method (6 of 8)
+## BackupAsync(IConnection, ImapFolderInfoCollection, Stream, BackupSettings, CancellationToken) {#backupasync_1}
 
 Backups the content of the specified folders
 
@@ -173,7 +173,7 @@ public Task BackupAsync(IConnection connection, ImapFolderInfoCollection folders
 | options | BackupSettings | A backup options |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -188,7 +188,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.BackupAsync method (7 of 8)
+## BackupAsync(ImapFolderInfoCollection, string, BackupSettings, CancellationToken) {#backupasync_7}
 
 Backups the content of the specified folders
 
@@ -204,7 +204,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, string fileName, Backu
 | options | BackupSettings | A backup options |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -218,7 +218,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.BackupAsync method (8 of 8)
+## BackupAsync(ImapFolderInfoCollection, Stream, BackupSettings, CancellationToken) {#backupasync_5}
 
 Backups the content of the specified folders
 
@@ -234,7 +234,7 @@ public Task BackupAsync(ImapFolderInfoCollection folders, Stream stream, BackupS
 | options | BackupSettings | A backup options |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the number of elements contained in the ICollection.
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/instantmessengerlist/count/
@@ -14,7 +14,7 @@ Gets the number of elements contained in the ICollection.
 public int Count { get; }
 ```
 
-## Return Value
+### Return Value
 
 The number of elements contained in the ICollection.
 

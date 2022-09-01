@@ -1,7 +1,7 @@
 ---
 title: NotificationSettings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The notifications that the authenticated user is receiving for this calendar.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.google/extendedcalendar/notificationsettings/

@@ -1,7 +1,7 @@
 ---
 title: FolderCreate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The FolderCreate creates a new folder as a child folder of the specified parent folder.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/foldercreate/
@@ -20,7 +20,7 @@ public FolderInfo FolderCreate(string parentId, string displayName, UserCreatedF
 | displayName | String | Specifies the name of the folder that is shown to the user. |
 | type | UserCreatedFolderTypes | Specifies the type of the folder to be created. |
 
-## Return Value
+### Return Value
 
 Returns folder information of the created folder
 

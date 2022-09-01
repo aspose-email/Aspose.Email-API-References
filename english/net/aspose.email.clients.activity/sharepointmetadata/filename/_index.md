@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Name of the path. Mandatory Yes
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/sharepointmetadata/filename/

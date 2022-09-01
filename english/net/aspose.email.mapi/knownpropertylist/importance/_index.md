@@ -1,7 +1,7 @@
 ---
 title: Importance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the level of importance assigned by the end user to the Message object. Area General Message Properties Canonical name PidTagImportance Alternate names PR_IMPORTANCE ptagImportance urnschemashttpmailimportance
 type: docs
 weight: 11270
 url: /net/aspose.email.mapi/knownpropertylist/importance/

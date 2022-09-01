@@ -1,12 +1,12 @@
 ---
 title: GetMessageThreadsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get message threads.
 type: docs
 weight: 720
 url: /net/aspose.email.clients.imap/imapclient/getmessagethreadsasync/
 ---
-## ImapClient.GetMessageThreadsAsync method (1 of 4)
+## GetMessageThreadsAsync(IConnection, BaseSearchConditions) {#getmessagethreadsasync}
 
 Get message threads.
 
@@ -20,7 +20,7 @@ public Task<List<MessageThreadResult>> GetMessageThreadsAsync(IConnection connec
 | connection | IConnection | Connection to a server |
 | conditions | BaseSearchConditions | Thread conditions. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -35,7 +35,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetMessageThreadsAsync method (2 of 4)
+## GetMessageThreadsAsync(BaseSearchConditions) {#getmessagethreadsasync_2}
 
 Get message threads.
 
@@ -47,7 +47,7 @@ public Task<List<MessageThreadResult>> GetMessageThreadsAsync(BaseSearchConditio
 | --- | --- | --- |
 | conditions | BaseSearchConditions | Thread conditions. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -61,7 +61,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetMessageThreadsAsync method (3 of 4)
+## GetMessageThreadsAsync(IConnection, BaseSearchConditions, CancellationToken) {#getmessagethreadsasync_1}
 
 Get message threads.
 
@@ -76,7 +76,7 @@ public Task<List<MessageThreadResult>> GetMessageThreadsAsync(IConnection connec
 | conditions | BaseSearchConditions | Thread conditions. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -91,7 +91,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.GetMessageThreadsAsync method (4 of 4)
+## GetMessageThreadsAsync(BaseSearchConditions, CancellationToken) {#getmessagethreadsasync_3}
 
 Get message threads.
 
@@ -105,7 +105,7 @@ public Task<List<MessageThreadResult>> GetMessageThreadsAsync(BaseSearchConditio
 | conditions | BaseSearchConditions | Thread conditions. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -1,9 +1,9 @@
 ---
 title: MapiContactElectronicAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Refers to the group of properties that define the email address or fax address for a contact.
 type: docs
-weight: 18010
+weight: 18220
 url: /net/aspose.email.mapi/mapicontactelectronicaddress/
 ---
 ## MapiContactElectronicAddress class
@@ -18,10 +18,10 @@ public sealed class MapiContactElectronicAddress
 
 | Name | Description |
 | --- | --- |
-| [MapiContactElectronicAddress](mapicontactelectronicaddress)() | Initializes a new instance of the [`MapiContactElectronicAddress`](../mapicontactelectronicaddress) class. |
-| [MapiContactElectronicAddress](mapicontactelectronicaddress)(string) | Initializes a new instance of the [`MapiContactElectronicAddress`](../mapicontactelectronicaddress) class. |
-| [MapiContactElectronicAddress](mapicontactelectronicaddress)(string, string) | Initializes a new instance of the [`MapiContactElectronicAddress`](../mapicontactelectronicaddress) class. |
-| [MapiContactElectronicAddress](mapicontactelectronicaddress)(string, string, string) | Initializes a new instance of the [`MapiContactElectronicAddress`](../mapicontactelectronicaddress) class. |
+| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor)() | Initializes a new instance of the [`MapiContactElectronicAddress`](../mapicontactelectronicaddress) class. |
+| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor_1)(string) | Initializes a new instance of the [`MapiContactElectronicAddress`](../mapicontactelectronicaddress) class. |
+| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor_2)(string, string) | Initializes a new instance of the [`MapiContactElectronicAddress`](../mapicontactelectronicaddress) class. |
+| [MapiContactElectronicAddress](mapicontactelectronicaddress#constructor_3)(string, string, string) | Initializes a new instance of the [`MapiContactElectronicAddress`](../mapicontactelectronicaddress) class. |
 
 ## Properties
 

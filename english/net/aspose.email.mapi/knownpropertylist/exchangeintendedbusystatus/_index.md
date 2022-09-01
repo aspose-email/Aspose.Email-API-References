@@ -1,7 +1,7 @@
 ---
 title: ExchangeIntendedBusyStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the intended free/busy status of a meeting in a Meeting request. Area Common Canonical name PidNameExchangeIntendedBusyStatus Alternate names http//schemas.microsoft.com/exchange/intendedbusystatus
 type: docs
 weight: 9820
 url: /net/aspose.email.mapi/knownpropertylist/exchangeintendedbusystatus/

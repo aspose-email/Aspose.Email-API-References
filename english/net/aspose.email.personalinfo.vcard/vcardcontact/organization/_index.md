@@ -1,9 +1,9 @@
 ---
 title: Organization
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an organization information
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/organization/
 ---
 ## VCardContact.Organization property

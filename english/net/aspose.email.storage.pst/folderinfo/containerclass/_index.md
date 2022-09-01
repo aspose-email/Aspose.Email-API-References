@@ -1,7 +1,7 @@
 ---
 title: ContainerClass
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets container class of the folder object.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/folderinfo/containerclass/
@@ -14,7 +14,7 @@ Gets container class of the folder object.
 public string ContainerClass { get; }
 ```
 
-## Property Value
+### Property Value
 
 The container class.
 

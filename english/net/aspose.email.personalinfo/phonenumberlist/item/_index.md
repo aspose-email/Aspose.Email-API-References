@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the element at the specified index.
 type: docs
 weight: 130
 url: /net/aspose.email.personalinfo/phonenumberlist/item/
@@ -18,7 +18,7 @@ public PhoneNumber this[int index] { get; set; }
 | --- | --- |
 | index | The zero-based index of the element to get or set. |
 
-## Return Value
+### Return Value
 
 The element at the specified index.
 

@@ -1,7 +1,7 @@
 ---
 title: LogonType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the type of user who accessed the mailbox and performed the operation that was logged.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/logontype/

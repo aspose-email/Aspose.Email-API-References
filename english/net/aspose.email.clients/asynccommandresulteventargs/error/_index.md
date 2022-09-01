@@ -1,7 +1,7 @@
 ---
 title: Error
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Operation error
 type: docs
 weight: 20
 url: /net/aspose.email.clients/asynccommandresulteventargs/error/

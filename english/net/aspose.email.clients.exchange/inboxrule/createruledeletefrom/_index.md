@@ -1,7 +1,7 @@
 ---
 title: CreateRuleDeleteFrom
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates inbox rule that deletes messages from specified senders
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/inboxrule/createruledeletefrom/
@@ -18,7 +18,7 @@ public static InboxRule CreateRuleDeleteFrom(MailAddress from)
 | --- | --- | --- |
 | from | MailAddress | A [`EmailAddress`](../../../aspose.email.personalinfo/emailaddress) of sender |
 
-## Return Value
+### Return Value
 
 A created [`InboxRule`](../../inboxrule)
 

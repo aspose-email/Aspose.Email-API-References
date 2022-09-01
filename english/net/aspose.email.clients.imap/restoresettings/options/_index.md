@@ -1,7 +1,7 @@
 ---
 title: Options
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Restore options.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.imap/restoresettings/options/

@@ -1,12 +1,12 @@
 ---
 title: GetServerTimeZoneIds
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The GetServerTimeZoneIds returns information from time zone id that are available on an Exchange server.
 type: docs
 weight: 1020
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getservertimezoneids/
 ---
-## IEWSClient.GetServerTimeZoneIds method (1 of 3)
+## GetServerTimeZoneIds() {#getservertimezoneids}
 
 The GetServerTimeZoneIds returns information from time zone id that are available on an Exchange server.
 
@@ -14,7 +14,7 @@ The GetServerTimeZoneIds returns information from time zone id that are availabl
 public string[] GetServerTimeZoneIds()
 ```
 
-## Return Value
+### Return Value
 
 Returns an array of time zone id that are available on an Exchange server.
 
@@ -26,7 +26,7 @@ Returns an array of time zone id that are available on an Exchange server.
 
 ---
 
-## IEWSClient.GetServerTimeZoneIds method (2 of 3)
+## GetServerTimeZoneIds(params string[]) {#getservertimezoneids_2}
 
 The GetServerTimeZoneIds returns information from time zone id that are available on an Exchange server.
 
@@ -38,7 +38,7 @@ public string[] GetServerTimeZoneIds(params string[] timeZoneIds)
 | --- | --- | --- |
 | timeZoneIds | String[] | Identifiers of time zones for checking existence on the server. |
 
-## Return Value
+### Return Value
 
 Returns an array of time zone id that are available on an Exchange server.
 
@@ -50,7 +50,7 @@ Returns an array of time zone id that are available on an Exchange server.
 
 ---
 
-## IEWSClient.GetServerTimeZoneIds method (3 of 3)
+## GetServerTimeZoneIds(IEnumerable&lt;string&gt;) {#getservertimezoneids_1}
 
 The GetServerTimeZoneIds returns information from time zone id that are available on an Exchange server.
 
@@ -62,7 +62,7 @@ public string[] GetServerTimeZoneIds(IEnumerable<string> timeZoneIds)
 | --- | --- | --- |
 | timeZoneIds | IEnumerable`1 | Identifiers of time zones for checking existence on the server. |
 
-## Return Value
+### Return Value
 
 Returns an array of time zone id that are available on an Exchange server.
 

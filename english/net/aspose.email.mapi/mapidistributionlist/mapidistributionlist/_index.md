@@ -1,12 +1,12 @@
 ---
 title: MapiDistributionList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiDistributionListaspose.email.mapi/mapidistributionlist class.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapidistributionlist/mapidistributionlist/
 ---
-## MapiDistributionList constructor (1 of 2)
+## MapiDistributionList() {#constructor}
 
 Initializes a new instance of the [`MapiDistributionList`](../../mapidistributionlist) class.
 
@@ -22,7 +22,7 @@ public MapiDistributionList()
 
 ---
 
-## MapiDistributionList constructor (2 of 2)
+## MapiDistributionList(string, MapiDistributionListMemberCollection) {#constructor_1}
 
 Initializes a new instance of the [`MapiDistributionList`](../../mapidistributionlist) class.
 

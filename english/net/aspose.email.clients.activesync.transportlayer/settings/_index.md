@@ -1,7 +1,7 @@
 ---
 title: Settings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Settings namespace of the ActiveSync protocol
 type: docs
 weight: 2050
 url: /net/aspose.email.clients.activesync.transportlayer/settings/
@@ -14,7 +14,7 @@ Settings namespace of the ActiveSync protocol
 public enum Settings
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

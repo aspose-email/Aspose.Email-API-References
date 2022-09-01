@@ -1,7 +1,7 @@
 ---
 title: PersonalStorage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the PersonalStorageaspose.email.storage.pst/personalstorage class. Allows setting a callback method for handling exceptions that occur during PST traversal.
 type: docs
 weight: 10
 url: /net/aspose.email.storage.pst/personalstorage/personalstorage/

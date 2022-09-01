@@ -1,7 +1,7 @@
 ---
 title: GetUserSettingsResponseCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a collection of responses to GetUserSettings
 type: docs
 weight: 3480
 url: /net/aspose.email.clients.exchange/getusersettingsresponsecollection/

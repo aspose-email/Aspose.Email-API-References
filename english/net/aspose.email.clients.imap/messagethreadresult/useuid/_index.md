@@ -1,7 +1,7 @@
 ---
 title: UseUId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value which is indicates whether UID kind of method has to be used.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.imap/messagethreadresult/useuid/

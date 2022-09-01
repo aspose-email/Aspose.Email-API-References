@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a new LogEntryaspose.email.tools.logging/logentry that is a copy of the current instance.
 type: docs
 weight: 180
 url: /net/aspose.email.tools.logging/logentry/clone/
@@ -14,7 +14,7 @@ Creates a new [`LogEntry`](../../logentry) that is a copy of the current instanc
 public LogEntry Clone()
 ```
 
-## Return Value
+### Return Value
 
 A new `LogEntry` that is a copy of the current instance.
 

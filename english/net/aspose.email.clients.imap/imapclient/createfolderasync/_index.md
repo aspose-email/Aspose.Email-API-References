@@ -1,12 +1,12 @@
 ---
 title: CreateFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a folder with the specified name
 type: docs
 weight: 530
 url: /net/aspose.email.clients.imap/imapclient/createfolderasync/
 ---
-## ImapClient.CreateFolderAsync method (1 of 4)
+## CreateFolderAsync(IConnection, string) {#createfolderasync}
 
 Creates a folder with the specified name
 
@@ -19,7 +19,7 @@ public Task CreateFolderAsync(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to be created |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CreateFolderAsync method (2 of 4)
+## CreateFolderAsync(string) {#createfolderasync_2}
 
 Creates a folder with the specified name
 
@@ -44,7 +44,7 @@ public Task CreateFolderAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to be created |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CreateFolderAsync method (3 of 4)
+## CreateFolderAsync(IConnection, string, CancellationToken) {#createfolderasync_1}
 
 Creates a folder with the specified name
 
@@ -70,7 +70,7 @@ public Task CreateFolderAsync(IConnection connection, string folderName, Cancell
 | folderName | String | Folder to be created |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -83,7 +83,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.CreateFolderAsync method (4 of 4)
+## CreateFolderAsync(string, CancellationToken) {#createfolderasync_3}
 
 Creates a folder with the specified name
 
@@ -96,7 +96,7 @@ public Task CreateFolderAsync(string folderName, CancellationToken token)
 | folderName | String | Folder to be created |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

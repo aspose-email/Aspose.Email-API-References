@@ -1,7 +1,7 @@
 ---
 title: MSN
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default MSN id
 type: docs
 weight: 90
 url: /net/aspose.email.personalinfo/instantmessengerlist/msn/

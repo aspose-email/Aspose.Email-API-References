@@ -1,7 +1,7 @@
 ---
 title: DraftsFolderEventFilter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event types for Drafts folder
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/draftsfoldereventfilter/

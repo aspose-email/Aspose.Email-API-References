@@ -1,7 +1,7 @@
 ---
 title: OtherTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an alternate telephone number for the mail user. Area Address Properties Canonical name PidTagOtherTelephoneNumber Alternate names PR_OTHER_TELEPHONE_NUMBER PR_OTHER_TELEPHONE_NUMBER_A
 type: docs
 weight: 14020
 url: /net/aspose.email.mapi/knownpropertylist/othertelephonenumber/

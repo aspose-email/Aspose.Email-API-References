@@ -1,7 +1,7 @@
 ---
 title: OrderHint
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Hint used to order items of this type in a list view.The format is defined as outlined here.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.graph/bucket/orderhint/

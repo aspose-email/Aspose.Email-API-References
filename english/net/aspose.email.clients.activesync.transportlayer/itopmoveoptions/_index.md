@@ -1,7 +1,7 @@
 ---
 title: ItOpMoveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the options for the ItemOperations.Move operation.
 type: docs
 weight: 1350
 url: /net/aspose.email.clients.activesync.transportlayer/itopmoveoptions/

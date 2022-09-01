@@ -1,7 +1,7 @@
 ---
 title: Flagged
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether Flags property contains the Flagged flag.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.imap/imapmessageinfo/flagged/
@@ -14,7 +14,7 @@ Gets a value indicating whether Flags property contains the Flagged flag.
 public bool Flagged { get; }
 ```
 
-## Property Value
+### Property Value
 
 The flagged flag.
 

@@ -1,7 +1,7 @@
 ---
 title: JournalUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the journal uri.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/exchangemailboxinfo/journaluri/

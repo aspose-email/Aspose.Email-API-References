@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the password for the given UserName. The value of the Password has a maximum length of 100 characters.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/searchoptions/password/

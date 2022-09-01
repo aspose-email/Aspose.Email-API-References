@@ -1,7 +1,7 @@
 ---
 title: Change
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of objects that indicates that a object has to be modified in a collection.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/syncoperationsresponse/change/

@@ -1,12 +1,12 @@
 ---
 title: CreateAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates appointment.
 type: docs
 weight: 460
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createappointment/
 ---
-## IEWSClient.CreateAppointment method (1 of 3)
+## CreateAppointment(Appointment) {#createappointment}
 
 Creates appointment.
 
@@ -18,7 +18,7 @@ public string CreateAppointment(Appointment appointment)
 | --- | --- | --- |
 | appointment | Appointment | Calendar appointment. |
 
-## Return Value
+### Return Value
 
 Returns appointment UID
 
@@ -31,7 +31,7 @@ Returns appointment UID
 
 ---
 
-## IEWSClient.CreateAppointment method (2 of 3)
+## CreateAppointment(Appointment, string) {#createappointment_1}
 
 Creates appointment.
 
@@ -44,7 +44,7 @@ public string CreateAppointment(Appointment appointment, string folderUri)
 | appointment | Appointment | Calendar appointment. |
 | folderUri | String | An uri of appointments parent folder. |
 
-## Return Value
+### Return Value
 
 Returns appointment UID
 
@@ -57,7 +57,7 @@ Returns appointment UID
 
 ---
 
-## IEWSClient.CreateAppointment method (3 of 3)
+## CreateAppointment(MapiCalendar, string, bool) {#createappointment_4}
 
 Creates appointment.
 
@@ -72,7 +72,7 @@ public string CreateAppointment(MapiCalendar appointment, string folderUri,
 | folderUri | String | An uri of appointments parent folder. |
 | suppressInvitations | Boolean | If true, invitations won't be sent to attendees. |
 
-## Return Value
+### Return Value
 
 Returns PidLidGlobalObjectId as base64 string
 

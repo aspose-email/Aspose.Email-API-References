@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an enumerator that iterates through the elements of the collection.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/autodiscoverresponsecollection-1/getenumerator/
@@ -14,7 +14,7 @@ Gets an enumerator that iterates through the elements of the collection.
 public IEnumerator<TResponse> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 An IEnumerator for the collection.
 

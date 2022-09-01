@@ -1,7 +1,7 @@
 ---
 title: Body
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message text.
 type: docs
 weight: 60
 url: /net/aspose.email.mapi/mapimessage/body/
@@ -14,7 +14,7 @@ Gets the message text.
 public string Body { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents message body.
 

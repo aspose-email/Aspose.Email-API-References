@@ -1,12 +1,71 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves calendar object to the file with specified format using te default save options
 type: docs
 weight: 220
 url: /net/aspose.email.mapi/mapicalendar/save/
 ---
-## MapiCalendar.Save method (1 of 4)
+## Save(string, MapiCalendarSaveOptions) {#save_5}
+
+Saves calendar object to the file with specified format using te default save options
+
+```csharp
+public void Save(string filePath, MapiCalendarSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | A file path |
+| saveOptions | MapiCalendarSaveOptions | A save options |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | *filePath* is `null` or `empty` |
+| NotSupportedException | the specified save options are not supported |
+
+### See Also
+
+* class [MapiCalendarSaveOptions](../../mapicalendarsaveoptions)
+* class [MapiCalendar](../../mapicalendar)
+* namespace [Aspose.Email.Mapi](../../mapicalendar)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Save(Stream, MapiCalendarSaveOptions) {#save_2}
+
+Saves calendar to the stream with specified save options
+
+```csharp
+public void Save(Stream stream, MapiCalendarSaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | A stream to save to |
+| saveOptions | MapiCalendarSaveOptions | A save options |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *saveOptions* or *stream* is `null` |
+| NotSupportedException | the specified save options are not supported |
+| NotSupportedException | stream does not support writing |
+
+### See Also
+
+* class [MapiCalendarSaveOptions](../../mapicalendarsaveoptions)
+* class [MapiCalendar](../../mapicalendar)
+* namespace [Aspose.Email.Mapi](../../mapicalendar)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## Save(string) {#save_3}
 
 Saves calendar object to the file with iCalendar format using te default save options
 
@@ -32,7 +91,7 @@ public void Save(string filePath)
 
 ---
 
-## MapiCalendar.Save method (2 of 4)
+## Save(string, AppointmentSaveFormat) {#save_4}
 
 Saves calendar object to the file with specified format using te default save options
 
@@ -61,7 +120,7 @@ public void Save(string filePath, AppointmentSaveFormat saveFormat)
 
 ---
 
-## MapiCalendar.Save method (3 of 4)
+## Save(Stream) {#save}
 
 Saves calendar object to the file with iCalendar format using te default save options
 
@@ -88,7 +147,7 @@ public void Save(Stream stream)
 
 ---
 
-## MapiCalendar.Save method (4 of 4)
+## Save(Stream, AppointmentSaveFormat) {#save_1}
 
 Saves calendar object to the stream with specified format using te default save options
 

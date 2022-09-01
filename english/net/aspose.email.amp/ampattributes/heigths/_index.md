@@ -1,7 +1,7 @@
 ---
 title: Heigths
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The value of this attribute is a sizes expression based on media expressions.
 type: docs
 weight: 30
 url: /net/aspose.email.amp/ampattributes/heigths/

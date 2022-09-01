@@ -1,7 +1,7 @@
 ---
 title: ToAttendeesString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of all of the sendable attendees who are also required attendees. Area Meetings Canonical name PidLidToAttendeesString Alternate names dispidToAttendeesString
 type: docs
 weight: 19020
 url: /net/aspose.email.mapi/knownpropertylist/toattendeesstring/

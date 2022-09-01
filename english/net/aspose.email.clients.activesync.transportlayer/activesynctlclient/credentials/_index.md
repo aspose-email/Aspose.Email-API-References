@@ -1,7 +1,7 @@
 ---
 title: Credentials
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Users credentials for Exchange server
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/activesynctlclient/credentials/

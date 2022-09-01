@@ -1,7 +1,7 @@
 ---
 title: Statuses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the result of a validation.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/certificatestatuses/statuses/

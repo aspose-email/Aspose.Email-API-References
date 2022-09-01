@@ -1,7 +1,7 @@
 ---
 title: CdoRecurrenceid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies a specific instance of a recurring appointment. Area Exchange Canonical name PidTagCdoRecurrenceid Alternate names PR_CDO_RECURRENCEID urnschemascalendarrecurrenceid
 type: docs
 weight: 2540
 url: /net/aspose.email.mapi/knownpropertylist/cdorecurrenceid/

@@ -1,7 +1,7 @@
 ---
 title: AccountName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the friendly name for the given account. The AccountName value is a string value up to 512 characters in length. The AccountName is not supported when the protocol version is 12.1 or 14.0.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/accountinformation/accountname/

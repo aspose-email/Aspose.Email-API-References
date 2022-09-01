@@ -1,7 +1,7 @@
 ---
 title: ImAddress1Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for ImAddress1 category
 type: docs
 weight: 230
 url: /net/aspose.email.personalinfo/instantmessengercategory/imaddress1value/

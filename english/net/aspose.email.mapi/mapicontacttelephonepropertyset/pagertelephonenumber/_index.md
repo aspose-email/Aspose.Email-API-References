@@ -1,7 +1,7 @@
 ---
 title: PagerTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a pager telephone number
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapicontacttelephonepropertyset/pagertelephonenumber/

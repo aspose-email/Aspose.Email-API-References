@@ -1,12 +1,12 @@
 ---
 title: MailException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MailExceptionaspose.email/mailexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/mailexception/mailexception/
 ---
-## MailException constructor (1 of 3)
+## MailException() {#constructor}
 
 Initializes a new instance of the [`MailException`](../../mailexception) class.
 
@@ -22,7 +22,7 @@ public MailException()
 
 ---
 
-## MailException constructor (2 of 3)
+## MailException(string) {#constructor_1}
 
 Initializes a new instance of the [`MailException`](../../mailexception) class.
 
@@ -42,7 +42,7 @@ public MailException(string message)
 
 ---
 
-## MailException constructor (3 of 3)
+## MailException(string, Exception) {#constructor_2}
 
 ```csharp
 public MailException(string message, Exception inner)

@@ -1,7 +1,7 @@
 ---
 title: ItemOperationsRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains ItemOperations request.
 type: docs
 weight: 1460
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsrequest/

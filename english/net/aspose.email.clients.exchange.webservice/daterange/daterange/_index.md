@@ -1,12 +1,12 @@
 ---
 title: DateRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the DateRangeaspose.email.clients.exchange.webservice/daterange class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/daterange/daterange/
 ---
-## DateRange constructor (1 of 2)
+## DateRange(DateTime, DateTime) {#constructor_1}
 
 Initializes a new instance of the [`DateRange`](../../daterange) class
 
@@ -27,7 +27,7 @@ public DateRange(DateTime startTime, DateTime endTime)
 
 ---
 
-## DateRange constructor (2 of 2)
+## DateRange() {#constructor}
 
 Initializes a new instance of the [`DateRange`](../../daterange) class
 

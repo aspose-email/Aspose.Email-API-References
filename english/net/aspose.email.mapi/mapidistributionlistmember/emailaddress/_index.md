@@ -1,7 +1,7 @@
 ---
 title: EmailAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the recipients email address.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapidistributionlistmember/emailaddress/
@@ -14,7 +14,7 @@ Gets or sets the recipient's e-mail address.
 public string EmailAddress { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The email address.
 

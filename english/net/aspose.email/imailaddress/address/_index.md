@@ -1,7 +1,7 @@
 ---
 title: Address
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a mail address
 type: docs
 weight: 10
 url: /net/aspose.email/imailaddress/address/

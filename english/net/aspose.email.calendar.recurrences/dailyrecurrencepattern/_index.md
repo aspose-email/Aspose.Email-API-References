@@ -1,7 +1,7 @@
 ---
 title: DailyRecurrencePattern
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a recurrence pattern of daily recurrence type.
 type: docs
 weight: 700
 url: /net/aspose.email.calendar.recurrences/dailyrecurrencepattern/
@@ -18,10 +18,10 @@ public class DailyRecurrencePattern : RecurrencePattern
 
 | Name | Description |
 | --- | --- |
-| [DailyRecurrencePattern](dailyrecurrencepattern)(DateTime) | Initializes a new instance of the [`DailyRecurrencePattern`](../dailyrecurrencepattern) class. |
-| [DailyRecurrencePattern](dailyrecurrencepattern)(int) | Initializes a new instance of the [`DailyRecurrencePattern`](../dailyrecurrencepattern) class. |
-| [DailyRecurrencePattern](dailyrecurrencepattern)(DateTime, int) | Initializes a new instance of the [`DailyRecurrencePattern`](../dailyrecurrencepattern) class. |
-| [DailyRecurrencePattern](dailyrecurrencepattern)(int, int) | Initializes a new instance of the [`DailyRecurrencePattern`](../dailyrecurrencepattern) class. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_2)(DateTime) | Initializes a new instance of the [`DailyRecurrencePattern`](../dailyrecurrencepattern) class. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor)(int) | Initializes a new instance of the [`DailyRecurrencePattern`](../dailyrecurrencepattern) class. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_3)(DateTime, int) | Initializes a new instance of the [`DailyRecurrencePattern`](../dailyrecurrencepattern) class. |
+| [DailyRecurrencePattern](dailyrecurrencepattern#constructor_1)(int, int) | Initializes a new instance of the [`DailyRecurrencePattern`](../dailyrecurrencepattern) class. |
 
 ## Properties
 

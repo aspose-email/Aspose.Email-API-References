@@ -1,7 +1,7 @@
 ---
 title: Range
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the range of bytes that the client can receive in response to the Fetch operation for a document library item. The Range element is an optional field. The Range element contains a string value in the format MN where M is less than N and M is the minimum value and N is the maximum value. The byte range is zeroindexed the first byte is indicated by a 0 zero. If the Range is omitted in the Fetch request the whole item is fetched. If the FileReference is present in the request then the Range element is the only valid child element of the Options element.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/itopfetchoptions/range/

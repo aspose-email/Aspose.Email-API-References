@@ -1,9 +1,9 @@
 ---
 title: OlmMessageInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents an information about message in the OLM storage.
 type: docs
-weight: 19890
+weight: 20120
 url: /net/aspose.email.storage.olm/olmmessageinfo/
 ---
 ## OlmMessageInfo class

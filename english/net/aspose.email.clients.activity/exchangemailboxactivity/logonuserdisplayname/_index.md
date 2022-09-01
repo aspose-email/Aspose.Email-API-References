@@ -1,7 +1,7 @@
 ---
 title: LogonUserDisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The userfriendly name of the user who performed the operation.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activity/exchangemailboxactivity/logonuserdisplayname/

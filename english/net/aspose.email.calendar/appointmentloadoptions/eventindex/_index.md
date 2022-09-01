@@ -1,7 +1,7 @@
 ---
 title: EventIndex
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines VEVENT index in case multiple events in a single ics file. The starting VEVENT in case reading multiple events by CalendarReaderCalendarReaderaspose.email.calendar/calendarreader.
 type: docs
 weight: 40
 url: /net/aspose.email.calendar/appointmentloadoptions/eventindex/

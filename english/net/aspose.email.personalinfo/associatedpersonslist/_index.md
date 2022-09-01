@@ -1,9 +1,9 @@
 ---
 title: AssociatedPersonsList
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List of associated persons for a contact
 type: docs
-weight: 19110
+weight: 19320
 url: /net/aspose.email.personalinfo/associatedpersonslist/
 ---
 ## AssociatedPersonsList class

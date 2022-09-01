@@ -1,7 +1,7 @@
 ---
 title: FolderDelete
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the collection with the matching identifier.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/folderdelete/

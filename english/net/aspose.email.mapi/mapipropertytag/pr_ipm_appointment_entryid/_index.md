@@ -1,7 +1,7 @@
 ---
 title: PR_IPM_APPOINTMENT_ENTRYID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Outlook Calendar folder.
 type: docs
 weight: 13090
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_appointment_entryid/

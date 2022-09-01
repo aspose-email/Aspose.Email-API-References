@@ -1,7 +1,7 @@
 ---
 title: InboxRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the InboxRuleaspose.email.clients.exchange/inboxrule class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/inboxrule/inboxrule/

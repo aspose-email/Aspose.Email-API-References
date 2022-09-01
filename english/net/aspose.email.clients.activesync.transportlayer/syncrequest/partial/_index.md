@@ -1,7 +1,7 @@
 ---
 title: Partial
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates to the server that the client sent a partial list of collections in which case the server obtains the rest of the collections from its cache.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/syncrequest/partial/

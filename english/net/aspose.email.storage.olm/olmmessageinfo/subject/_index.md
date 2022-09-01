@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message subject.
 type: docs
 weight: 60
 url: /net/aspose.email.storage.olm/olmmessageinfo/subject/

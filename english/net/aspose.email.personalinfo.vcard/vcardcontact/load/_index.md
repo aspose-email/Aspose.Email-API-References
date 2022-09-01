@@ -1,12 +1,12 @@
 ---
 title: Load
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reads VCardContactaspose.email.personalinfo.vcard/vcardcontact from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/load/
 ---
-## VCardContact.Load method (1 of 8)
+## Load(Stream, CancellationToken) {#load_3}
 
 Reads [`VCardContact`](../../vcardcontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
@@ -19,7 +19,7 @@ public static VCardContact Load(Stream stream, CancellationToken token)
 | stream | Stream | A stream to read from |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -38,7 +38,7 @@ A read [`VCardContact`](../../vcardcontact)
 
 ---
 
-## VCardContact.Load method (2 of 8)
+## Load(Stream, Encoding, CancellationToken) {#load_2}
 
 Reads [`VCardContact`](../../vcardcontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
@@ -52,7 +52,7 @@ public static VCardContact Load(Stream stream, Encoding encoding, CancellationTo
 | encoding | Encoding | Stream data encoding |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -71,7 +71,7 @@ A read [`VCardContact`](../../vcardcontact)
 
 ---
 
-## VCardContact.Load method (3 of 8)
+## Load(string, CancellationToken) {#load_7}
 
 Reads [`VCardContact`](../../vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -84,7 +84,7 @@ public static VCardContact Load(string filePath, CancellationToken token)
 | filePath | String | A file name to read from |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -102,7 +102,7 @@ A read [`VCardContact`](../../vcardcontact)
 
 ---
 
-## VCardContact.Load method (4 of 8)
+## Load(string, Encoding, CancellationToken) {#load_6}
 
 Reads [`VCardContact`](../../vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -116,7 +116,7 @@ public static VCardContact Load(string filePath, Encoding encoding, Cancellation
 | encoding | Encoding | Stream data encoding |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -134,7 +134,7 @@ A read [`VCardContact`](../../vcardcontact)
 
 ---
 
-## VCardContact.Load method (5 of 8)
+## Load(string) {#load_4}
 
 Reads [`VCardContact`](../../vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -146,7 +146,7 @@ public static VCardContact Load(string filePath)
 | --- | --- | --- |
 | filePath | String | A file name to read from |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -164,7 +164,7 @@ A read [`VCardContact`](../../vcardcontact)
 
 ---
 
-## VCardContact.Load method (6 of 8)
+## Load(string, Encoding) {#load_5}
 
 Reads [`VCardContact`](../../vcardcontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -177,7 +177,7 @@ public static VCardContact Load(string filePath, Encoding encoding)
 | filePath | String | A file name to read from |
 | encoding | Encoding | File encoding |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -195,7 +195,7 @@ A read [`VCardContact`](../../vcardcontact)
 
 ---
 
-## VCardContact.Load method (7 of 8)
+## Load(Stream) {#load}
 
 Reads [`VCardContact`](../../vcardcontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
@@ -207,7 +207,7 @@ public static VCardContact Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream to read from |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 
@@ -226,7 +226,7 @@ A read [`VCardContact`](../../vcardcontact)
 
 ---
 
-## VCardContact.Load method (8 of 8)
+## Load(Stream, Encoding) {#load_1}
 
 Reads [`VCardContact`](../../vcardcontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
@@ -239,7 +239,7 @@ public static VCardContact Load(Stream stream, Encoding encoding)
 | stream | Stream | A stream to read from |
 | encoding | Encoding | Stream data encoding |
 
-## Return Value
+### Return Value
 
 A read [`VCardContact`](../../vcardcontact)
 

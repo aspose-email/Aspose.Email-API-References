@@ -1,7 +1,7 @@
 ---
 title: IsPasswordProtected
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the storage is password protected.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/messagestore/ispasswordprotected/
@@ -14,7 +14,7 @@ Gets a value indicating whether the storage is password protected.
 public bool IsPasswordProtected { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the storage is password protected; otherwise, `false`.
 

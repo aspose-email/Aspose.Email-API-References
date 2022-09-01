@@ -1,7 +1,7 @@
 ---
 title: FoldersSyncKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Used by the server to track the current state of the client. For operations with folders only
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/folderssynckey/

@@ -1,7 +1,7 @@
 ---
 title: ContentUnreadCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the number of unread items in the folder.
 type: docs
 weight: 40
 url: /net/aspose.email.storage.pst/folderinfo/contentunreadcount/
@@ -14,7 +14,7 @@ Gets the number of unread items in the folder.
 public int ContentUnreadCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The content unread count.
 

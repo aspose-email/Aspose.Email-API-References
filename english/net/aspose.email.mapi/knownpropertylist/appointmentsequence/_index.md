@@ -1,7 +1,7 @@
 ---
 title: AppointmentSequence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the sequence number of a Meeting object. Area Meetings Canonical name PidLidAppointmentSequence Alternate names dispidApptSequence
 type: docs
 weight: 1280
 url: /net/aspose.email.mapi/knownpropertylist/appointmentsequence/

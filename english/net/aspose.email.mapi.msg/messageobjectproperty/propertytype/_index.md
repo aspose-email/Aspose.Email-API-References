@@ -1,7 +1,7 @@
 ---
 title: PropertyType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the type of the property.
 type: docs
 weight: 110
 url: /net/aspose.email.mapi.msg/messageobjectproperty/propertytype/
@@ -14,7 +14,7 @@ Gets the type of the property.
 public MapiType PropertyType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the property.
 

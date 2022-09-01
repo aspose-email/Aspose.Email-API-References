@@ -1,12 +1,12 @@
 ---
 title: SendMail
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The SendMail is used by clients to send MIMEformatted email messages to the server.
 type: docs
 weight: 200
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/sendmail/
 ---
-## IActiveSyncTLClient.SendMail method (1 of 4)
+## SendMail(string) {#sendmail}
 
 The SendMail is used by clients to send MIME-formatted email messages to the server.
 
@@ -18,7 +18,7 @@ public string SendMail(string mimeContent)
 | --- | --- | --- |
 | mimeContent | String | Contains the MIME-encoded message. |
 
-## Return Value
+### Return Value
 
 Returns the client's unique message ID (MID).
 
@@ -30,7 +30,7 @@ Returns the client's unique message ID (MID).
 
 ---
 
-## IActiveSyncTLClient.SendMail method (2 of 4)
+## SendMail(string, bool) {#sendmail_1}
 
 The SendMail is used by clients to send MIME-formatted email messages to the server.
 
@@ -43,7 +43,7 @@ public string SendMail(string mimeContent, bool saveInSentItems)
 | mimeContent | String | Contains the MIME-encoded message. |
 | saveInSentItems | Boolean | Specifies whether a copy of the message will be stored in the Sent Items folder. |
 
-## Return Value
+### Return Value
 
 Returns the client's unique message ID (MID).
 
@@ -55,7 +55,7 @@ Returns the client's unique message ID (MID).
 
 ---
 
-## IActiveSyncTLClient.SendMail method (3 of 4)
+## SendMail(string, bool, string) {#sendmail_2}
 
 The SendMail is used by clients to send MIME-formatted email messages to the server.
 
@@ -69,7 +69,7 @@ public string SendMail(string mimeContent, bool saveInSentItems, string accountI
 | saveInSentItems | Boolean | Specifies whether a copy of the message will be stored in the Sent Items folder. |
 | accountId | String | Identifies the account from which an email is sent. |
 
-## Return Value
+### Return Value
 
 Returns the client's unique message ID (MID).
 
@@ -81,7 +81,7 @@ Returns the client's unique message ID (MID).
 
 ---
 
-## IActiveSyncTLClient.SendMail method (4 of 4)
+## SendMail(string, bool, string, string) {#sendmail_3}
 
 The SendMail is used by clients to send MIME-formatted email messages to the server.
 
@@ -97,7 +97,7 @@ public string SendMail(string mimeContent, bool saveInSentItems, string accountI
 | accountId | String | Identifies the account from which an email is sent. |
 | templateId | String | Contains a string that identifies the rights policy template. |
 
-## Return Value
+### Return Value
 
 Returns the client's unique message ID (MID).
 

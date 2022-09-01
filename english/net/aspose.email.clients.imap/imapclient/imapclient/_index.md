@@ -1,12 +1,12 @@
 ---
 title: ImapClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ImapClientaspose.email.clients.imap/imapclient class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/imapclient/imapclient/
 ---
-## ImapClient constructor (1 of 19)
+## ImapClient() {#constructor}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -22,7 +22,7 @@ public ImapClient()
 
 ---
 
-## ImapClient constructor (2 of 19)
+## ImapClient(string) {#constructor_1}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -42,7 +42,7 @@ public ImapClient(string host)
 
 ---
 
-## ImapClient constructor (3 of 19)
+## ImapClient(string, SecurityOptions) {#constructor_2}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -64,7 +64,7 @@ public ImapClient(string host, SecurityOptions securityOptions)
 
 ---
 
-## ImapClient constructor (4 of 19)
+## ImapClient(string, int) {#constructor_3}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -85,7 +85,7 @@ public ImapClient(string host, int port)
 
 ---
 
-## ImapClient constructor (5 of 19)
+## ImapClient(string, int, SecurityOptions) {#constructor_4}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -108,7 +108,7 @@ public ImapClient(string host, int port, SecurityOptions securityOptions)
 
 ---
 
-## ImapClient constructor (6 of 19)
+## ImapClient(string, string, string) {#constructor_15}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -130,7 +130,7 @@ public ImapClient(string host, string username, string password)
 
 ---
 
-## ImapClient constructor (7 of 19)
+## ImapClient(string, string, string, SecurityOptions) {#constructor_16}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -154,7 +154,7 @@ public ImapClient(string host, string username, string password, SecurityOptions
 
 ---
 
-## ImapClient constructor (8 of 19)
+## ImapClient(string, int, string, string) {#constructor_7}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -177,7 +177,7 @@ public ImapClient(string host, int port, string username, string password)
 
 ---
 
-## ImapClient constructor (9 of 19)
+## ImapClient(string, int, string, string, SecurityOptions) {#constructor_8}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -203,7 +203,7 @@ public ImapClient(string host, int port, string username, string password,
 
 ---
 
-## ImapClient constructor (10 of 19)
+## ImapClient(string, int, string, string, RemoteCertificateValidationCallback) {#constructor_11}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -228,7 +228,7 @@ public ImapClient(string host, int port, string username, string password,
 
 ---
 
-## ImapClient constructor (11 of 19)
+## ImapClient(string, int, string, string, RemoteCertificateValidationCallback, SecurityOptions) {#constructor_12}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -256,7 +256,7 @@ public ImapClient(string host, int port, string username, string password,
 
 ---
 
-## ImapClient constructor (12 of 19)
+## ImapClient(string, string, string, bool) {#constructor_17}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -279,7 +279,7 @@ public ImapClient(string host, string username, string authInfo, bool useOAuth)
 
 ---
 
-## ImapClient constructor (13 of 19)
+## ImapClient(string, string, string, bool, SecurityOptions) {#constructor_18}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -305,7 +305,7 @@ public ImapClient(string host, string username, string authInfo, bool useOAuth,
 
 ---
 
-## ImapClient constructor (14 of 19)
+## ImapClient(string, int, string, string, bool) {#constructor_9}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -329,7 +329,7 @@ public ImapClient(string host, int port, string username, string authInfo, bool 
 
 ---
 
-## ImapClient constructor (15 of 19)
+## ImapClient(string, int, string, string, bool, SecurityOptions) {#constructor_10}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -356,7 +356,7 @@ public ImapClient(string host, int port, string username, string authInfo, bool 
 
 ---
 
-## ImapClient constructor (16 of 19)
+## ImapClient(string, string, ITokenProvider) {#constructor_13}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -379,7 +379,7 @@ public ImapClient(string host, string username, ITokenProvider tokenProvider)
 
 ---
 
-## ImapClient constructor (17 of 19)
+## ImapClient(string, string, ITokenProvider, SecurityOptions) {#constructor_14}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -405,7 +405,7 @@ public ImapClient(string host, string username, ITokenProvider tokenProvider,
 
 ---
 
-## ImapClient constructor (18 of 19)
+## ImapClient(string, int, string, ITokenProvider) {#constructor_5}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 
@@ -429,7 +429,7 @@ public ImapClient(string host, int port, string username, ITokenProvider tokenPr
 
 ---
 
-## ImapClient constructor (19 of 19)
+## ImapClient(string, int, string, ITokenProvider, SecurityOptions) {#constructor_6}
 
 Initializes a new instance of the [`ImapClient`](../../imapclient) class
 

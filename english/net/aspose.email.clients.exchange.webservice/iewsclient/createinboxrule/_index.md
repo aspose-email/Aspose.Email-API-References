@@ -1,12 +1,12 @@
 ---
 title: CreateInboxRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the specified inbox rule
 type: docs
 weight: 510
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/createinboxrule/
 ---
-## IEWSClient.CreateInboxRule method (1 of 2)
+## CreateInboxRule(InboxRule) {#createinboxrule}
 
 Creates the specified inbox rule
 
@@ -33,7 +33,7 @@ public void CreateInboxRule(InboxRule rule)
 
 ---
 
-## IEWSClient.CreateInboxRule method (2 of 2)
+## CreateInboxRule(InboxRule, string) {#createinboxrule_1}
 
 Creates the specified inbox rule
 

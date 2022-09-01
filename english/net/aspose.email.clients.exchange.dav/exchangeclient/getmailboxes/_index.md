@@ -1,7 +1,7 @@
 ---
 title: GetMailboxes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists mailboxes in the global address list.
 type: docs
 weight: 220
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/getmailboxes/
@@ -14,7 +14,7 @@ Lists mailboxes in the global address list.
 public Contact[] GetMailboxes()
 ```
 
-## Return Value
+### Return Value
 
 An array of [`Contact`](../../../aspose.email.personalinfo/contact) objects.
 

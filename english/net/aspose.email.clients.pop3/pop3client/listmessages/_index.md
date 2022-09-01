@@ -1,12 +1,12 @@
 ---
 title: ListMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists the messages. Gets an information for earch message
 type: docs
 weight: 290
 url: /net/aspose.email.clients.pop3/pop3client/listmessages/
 ---
-## Pop3Client.ListMessages method (1 of 14)
+## ListMessages(IEnumerable&lt;string&gt;) {#listmessages_13}
 
 Lists the messages. Gets an information for earch message
 
@@ -18,7 +18,7 @@ public Pop3MessageInfoCollection ListMessages(IEnumerable<string> uniqueIdLst)
 | --- | --- | --- |
 | uniqueIdLst | IEnumerable`1 | UniqueId list for [`Pop3MessageInfo`](../../pop3messageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -35,7 +35,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (2 of 14)
+## ListMessages(IEnumerable&lt;int&gt;) {#listmessages_12}
 
 Lists the messages. Gets an information for earch message
 
@@ -47,7 +47,7 @@ public Pop3MessageInfoCollection ListMessages(IEnumerable<int> sequenceNumberLst
 | --- | --- | --- |
 | sequenceNumberLst | IEnumerable`1 | sequenceNumber list for [`Pop3MessageInfo`](../../pop3messageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -64,7 +64,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (3 of 14)
+## ListMessages(IConnection, IEnumerable&lt;string&gt;) {#listmessages_7}
 
 Lists the messages. Gets an information for earch message
 
@@ -78,7 +78,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection,
 | connection | IConnection | Connection to a server |
 | uniqueIdLst | IEnumerable`1 | UniqueId list for [`Pop3MessageInfo`](../../pop3messageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -96,7 +96,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (4 of 14)
+## ListMessages(IConnection, IEnumerable&lt;int&gt;) {#listmessages_6}
 
 Lists the messages. Gets an information for earch message
 
@@ -110,7 +110,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection,
 | connection | IConnection | Connection to a server |
 | sequenceNumberLst | IEnumerable`1 | sequenceNumber list for [`Pop3MessageInfo`](../../pop3messageinfo) to retrieve from a server. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -128,7 +128,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (5 of 14)
+## ListMessages(IConnection) {#listmessages_1}
 
 Lists the messages. Gets an information for earch message
 
@@ -140,7 +140,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -158,7 +158,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (6 of 14)
+## ListMessages(IConnection, bool) {#listmessages_5}
 
 Lists the messages. Gets an information for earch message
 
@@ -171,7 +171,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, bool close
 | connection | IConnection | Connection to a server |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -189,7 +189,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (7 of 14)
+## ListMessages(IConnection, MailQuery) {#listmessages_4}
 
 Lists the messages.
 
@@ -202,7 +202,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, MailQuery 
 | connection | IConnection | Connection to a server |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -217,7 +217,7 @@ Collection of Pop3MessageInfo objects.
 
 ---
 
-## Pop3Client.ListMessages method (8 of 14)
+## ListMessages(IConnection, Pop3ListFields) {#listmessages_2}
 
 Lists the messages.
 
@@ -230,7 +230,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, Pop3ListFi
 | connection | IConnection | Connection to a server |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -249,7 +249,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (9 of 14)
+## ListMessages(IConnection, Pop3ListFields, bool, MailQuery) {#listmessages_3}
 
 Lists the messages.
 
@@ -265,7 +265,7 @@ public Pop3MessageInfoCollection ListMessages(IConnection connection, Pop3ListFi
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -281,7 +281,7 @@ Pop3MessageInfoCollection
 
 ---
 
-## Pop3Client.ListMessages method (10 of 14)
+## ListMessages() {#listmessages}
 
 Lists the messages. Gets an information for earch message
 
@@ -289,7 +289,7 @@ Lists the messages. Gets an information for earch message
 public Pop3MessageInfoCollection ListMessages()
 ```
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -306,7 +306,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (11 of 14)
+## ListMessages(bool) {#listmessages_11}
 
 Lists the messages. Gets an information for earch message
 
@@ -318,7 +318,7 @@ public Pop3MessageInfoCollection ListMessages(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -335,7 +335,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (12 of 14)
+## ListMessages(MailQuery) {#listmessages_10}
 
 Lists the messages.
 
@@ -347,7 +347,7 @@ public Pop3MessageInfoCollection ListMessages(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -361,7 +361,7 @@ Collection of Pop3MessageInfo objects.
 
 ---
 
-## Pop3Client.ListMessages method (13 of 14)
+## ListMessages(Pop3ListFields) {#listmessages_8}
 
 Lists the messages.
 
@@ -373,7 +373,7 @@ public Pop3MessageInfoCollection ListMessages(Pop3ListFields fields)
 | --- | --- | --- |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 
@@ -391,7 +391,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessages method (14 of 14)
+## ListMessages(Pop3ListFields, bool, MailQuery) {#listmessages_9}
 
 Lists the messages.
 
@@ -406,7 +406,7 @@ public Pop3MessageInfoCollection ListMessages(Pop3ListFields fields, bool closeT
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Pop3MessageInfoCollection
 

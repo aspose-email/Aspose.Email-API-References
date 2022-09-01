@@ -1,7 +1,7 @@
 ---
 title: PR_FLAG_ICON
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the flag icon of the message object.
 type: docs
 weight: 11540
 url: /net/aspose.email.mapi/mapipropertytag/pr_flag_icon/

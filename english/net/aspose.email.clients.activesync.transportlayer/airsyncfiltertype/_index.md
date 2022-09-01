@@ -1,7 +1,7 @@
 ---
 title: AirsyncFilterType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies an optional time window for the objects
 type: docs
 weight: 990
 url: /net/aspose.email.clients.activesync.transportlayer/airsyncfiltertype/
@@ -14,7 +14,7 @@ Specifies an optional time window for the objects
 public enum AirsyncFilterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

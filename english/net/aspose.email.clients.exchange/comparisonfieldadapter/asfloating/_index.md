@@ -1,7 +1,7 @@
 ---
 title: AsFloating
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns current ComparisonFieldaspose.email.tools.search/comparisonfield as DoubleComparisonFieldaspose.email.tools.search/doublecomparisonfield
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/comparisonfieldadapter/asfloating/

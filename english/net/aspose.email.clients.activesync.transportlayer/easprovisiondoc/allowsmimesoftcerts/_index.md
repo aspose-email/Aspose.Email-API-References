@@ -1,7 +1,7 @@
 ---
 title: AllowSMIMESoftCerts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the client can use soft certificates to sign outgoing messages.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowsmimesoftcerts/

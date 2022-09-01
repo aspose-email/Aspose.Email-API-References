@@ -1,7 +1,7 @@
 ---
 title: CultureName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the culture name in the format languagecode2country/regioncode2.
 type: docs
 weight: 20
 url: /net/aspose.email.printing/mailprinter/culturename/
@@ -14,7 +14,7 @@ Gets or sets the culture name in the format languagecode2-country/regioncode2.
 public string CultureName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A string that represents the current culture.
 

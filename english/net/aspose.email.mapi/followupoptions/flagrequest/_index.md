@@ -1,7 +1,7 @@
 ---
 title: FlagRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a string indicating the requested action for an email message.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/followupoptions/flagrequest/

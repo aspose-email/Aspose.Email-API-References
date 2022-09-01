@@ -1,7 +1,7 @@
 ---
 title: CreateAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates new attachment for specified item
 type: docs
 weight: 110
 url: /net/aspose.email.clients.graph/igraphclient/createattachment/
@@ -19,7 +19,7 @@ public MapiAttachment CreateAttachment(string parentId, MapiAttachment attachmen
 | parentId | String | Item id |
 | attachment | MapiAttachment | Attachment to create |
 
-## Return Value
+### Return Value
 
 Returns created attachment
 

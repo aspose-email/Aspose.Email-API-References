@@ -1,7 +1,7 @@
 ---
 title: SendChunked
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether send chunked.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/sendchunked/
@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [send chunked].
 public bool SendChunked { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [send chunked]; otherwise, `false`.
 

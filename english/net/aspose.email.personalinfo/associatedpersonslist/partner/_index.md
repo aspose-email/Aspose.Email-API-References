@@ -1,7 +1,7 @@
 ---
 title: Partner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default partner
 type: docs
 weight: 150
 url: /net/aspose.email.personalinfo/associatedpersonslist/partner/

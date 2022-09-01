@@ -1,7 +1,7 @@
 ---
 title: PictureRespose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the data related to the contact photos. The Picture is not supported when the protocol version is 12.1 or 14.0.
 type: docs
 weight: 1680
 url: /net/aspose.email.clients.activesync.transportlayer/picturerespose/

@@ -1,7 +1,7 @@
 ---
 title: OriginalStoreEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the EntryID of the delegators message store. Area Meetings Canonical name PidLidOriginalStoreEntryId Alternate names dispidOrigStoreEid http//schemas.microsoft.com/mapi/origstoreeid
 type: docs
 weight: 13770
 url: /net/aspose.email.mapi/knownpropertylist/originalstoreentryid/

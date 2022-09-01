@@ -1,7 +1,7 @@
 ---
 title: MaxItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum number of recipients that is the top N most frequently used recipients to keep synchronized from within the recipient information cache. This element MUST only be included in a request when the value of the CollectionId element section 2.2.3.30.5 maps to the recipient information cache. The value of the MaxItems element does not specify the maximum estimate of additions and deletions to make to the recipient information cache it only specifies the number of recipients to keep synchronized. A complete replacement of each recipient would be double the number of MaxItems or items in the store as each recipient update requires a deletion and an addition.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/syncoptions/maxitems/

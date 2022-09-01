@@ -1,7 +1,7 @@
 ---
 title: ActivityAzureActiveDirectoryEventType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The type of Azure AD event.
 type: docs
 weight: 2350
 url: /net/aspose.email.clients.activity/activityazureactivedirectoryeventtype/
@@ -14,7 +14,7 @@ The type of Azure AD event.
 public enum ActivityAzureActiveDirectoryEventType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

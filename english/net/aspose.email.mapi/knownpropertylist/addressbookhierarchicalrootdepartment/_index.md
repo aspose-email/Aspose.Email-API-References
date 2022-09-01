@@ -1,7 +1,7 @@
 ---
 title: AddressBookHierarchicalRootDepartment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the distinguished name DN of either the root Department object or the root departmental group in the department hierarchy for the organization. Area Address Book Canonical name PidTagAddressBookHierarchicalRootDepartment Alternate names PR_EMS_AB_HAB_ROOT_DEPARTMENT
 type: docs
 weight: 650
 url: /net/aspose.email.mapi/knownpropertylist/addressbookhierarchicalrootdepartment/

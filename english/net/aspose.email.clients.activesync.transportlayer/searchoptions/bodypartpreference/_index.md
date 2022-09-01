@@ -1,7 +1,7 @@
 ---
 title: BodyPartPreference
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains preference information related to the type and size of information that is returned from searching synchronizing or fetching a message part.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/searchoptions/bodypartpreference/

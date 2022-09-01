@@ -1,7 +1,7 @@
 ---
 title: AutoForwarded
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that a Message object has been automatically generated or automatically forwarded. Area General Report Properties Canonical name PidTagAutoForwarded Alternate names PR_AUTO_FORWARDED ptagAutoForwarded
 type: docs
 weight: 1910
 url: /net/aspose.email.mapi/knownpropertylist/autoforwarded/

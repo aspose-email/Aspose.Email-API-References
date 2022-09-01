@@ -1,7 +1,7 @@
 ---
 title: ReminderTrigger
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies when an alarm will trigger.
 type: docs
 weight: 880
 url: /net/aspose.email.calendar/remindertrigger/
@@ -18,8 +18,8 @@ public class ReminderTrigger
 
 | Name | Description |
 | --- | --- |
-| [ReminderTrigger](remindertrigger)(DateTime) | Initialize a new instance of [`ReminderTrigger`](../remindertrigger) class. |
-| [ReminderTrigger](remindertrigger)(ReminderDuration, ReminderRelated) | Initialize a new instance of [`ReminderTrigger`](../remindertrigger) class. |
+| [ReminderTrigger](remindertrigger#constructor_1)(DateTime) | Initialize a new instance of [`ReminderTrigger`](../remindertrigger) class. |
+| [ReminderTrigger](remindertrigger#constructor)(ReminderDuration, ReminderRelated) | Initialize a new instance of [`ReminderTrigger`](../remindertrigger) class. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: FetchAppointmentAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetch the specified appointment from server.
 type: docs
 weight: 220
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchappointmentasync/
@@ -21,7 +21,7 @@ public Task<Appointment> FetchAppointmentAsync(string appointmentUri, string fol
 | folderUri | String | An uri of appointments parent folder. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 A fetched [`Appointment`](../../../aspose.email.calendar/appointment).
 

@@ -1,12 +1,12 @@
 ---
 title: GetParentFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the parent folder of message.
 type: docs
 weight: 230
 url: /net/aspose.email.storage.pst/personalstorage/getparentfolder/
 ---
-## PersonalStorage.GetParentFolder method (1 of 2)
+## GetParentFolder(string) {#getparentfolder_1}
 
 Gets the parent folder of message.
 
@@ -18,7 +18,7 @@ public FolderInfo GetParentFolder(string entryIdString)
 | --- | --- | --- |
 | entryIdString | String | String representation of Entry Id of message or folder. |
 
-## Return Value
+### Return Value
 
 The parent folder[`FolderInfo`](../../folderinfo) of message.
 
@@ -31,7 +31,7 @@ The parent folder[`FolderInfo`](../../folderinfo) of message.
 
 ---
 
-## PersonalStorage.GetParentFolder method (2 of 2)
+## GetParentFolder(byte[]) {#getparentfolder}
 
 Gets the parent folder of message.
 
@@ -43,7 +43,7 @@ public FolderInfo GetParentFolder(byte[] entryId)
 | --- | --- | --- |
 | entryId | Byte[] | Entry Id of message or folder. |
 
-## Return Value
+### Return Value
 
 The parent folder[`FolderInfo`](../../folderinfo) of message.
 

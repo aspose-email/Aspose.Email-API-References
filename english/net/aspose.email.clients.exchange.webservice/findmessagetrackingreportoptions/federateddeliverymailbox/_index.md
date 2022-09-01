@@ -1,7 +1,7 @@
 ---
 title: FederatedDeliveryMailbox
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the mailbox to which a crosspremise message was sent.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/federateddeliverymailbox/

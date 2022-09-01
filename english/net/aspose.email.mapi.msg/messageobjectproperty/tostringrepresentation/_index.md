@@ -1,7 +1,7 @@
 ---
 title: ToStringRepresentation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts the value of the property to string.
 type: docs
 weight: 170
 url: /net/aspose.email.mapi.msg/messageobjectproperty/tostringrepresentation/
@@ -14,7 +14,7 @@ Converts the value of the property to string.
 public string ToStringRepresentation()
 ```
 
-## Return Value
+### Return Value
 
 String value, if type can't be converted to string returns empty string.
 

@@ -1,7 +1,7 @@
 ---
 title: EmsAbTeletexTerminalIdentifier
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft Exchange defines this property that is used by the Microsoft Exchange Server and the Microsoft Exchange Client. Canonical name Alternate names PR_EMS_AB_TELETEX_TERMINAL_IDENTIFIER
 type: docs
 weight: 9110
 url: /net/aspose.email.mapi/knownpropertylist/emsabteletexterminalidentifier/

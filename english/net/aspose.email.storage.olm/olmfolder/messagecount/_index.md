@@ -1,7 +1,7 @@
 ---
 title: MessageCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message count.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.olm/olmfolder/messagecount/
@@ -14,7 +14,7 @@ Gets the message count.
 public int MessageCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The message count.
 

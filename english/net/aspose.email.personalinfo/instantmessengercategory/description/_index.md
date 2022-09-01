@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets description for the Custom category of an instant messenger address
 type: docs
 weight: 140
 url: /net/aspose.email.personalinfo/instantmessengercategory/description/

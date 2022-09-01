@@ -1,7 +1,7 @@
 ---
 title: AppointmentRecur
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the dates and times when a recurring series occurs. Area Calendar Canonical name PidLidAppointmentRecur Alternate names dispidApptRecur
 type: docs
 weight: 1250
 url: /net/aspose.email.mapi/knownpropertylist/appointmentrecur/

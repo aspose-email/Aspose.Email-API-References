@@ -1,7 +1,7 @@
 ---
 title: Autodiscover
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Autodiscover command facilitates the discovery of core account configuration information by using the users Simple Mail Transfer Protocol SMTP address as the primary input.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/autodiscover/
@@ -18,7 +18,7 @@ public AutodiscoverResult Autodiscover(string emailAddress)
 | --- | --- | --- |
 | emailAddress | String | The email address is a required child element of the autodiscover request |
 
-## Return Value
+### Return Value
 
 Result of the Autodiscover operation
 

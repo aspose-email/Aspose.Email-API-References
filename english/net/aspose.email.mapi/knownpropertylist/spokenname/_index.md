@@ -1,7 +1,7 @@
 ---
 title: SpokenName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a recording of the mail users name pronunciation. Area Address Book Canonical name PidTagSpokenName Alternate names PR_EMS_AB_UM_SPOKEN_NAME
 type: docs
 weight: 18120
 url: /net/aspose.email.mapi/knownpropertylist/spokenname/

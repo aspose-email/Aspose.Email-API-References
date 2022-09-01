@@ -1,7 +1,7 @@
 ---
 title: AddUris
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add message URIs to fetch.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/adduris/

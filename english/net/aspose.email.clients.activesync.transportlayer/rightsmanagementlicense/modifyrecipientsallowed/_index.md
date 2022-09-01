@@ -1,7 +1,7 @@
 ---
 title: ModifyRecipientsAllowed
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the user can modify the recipient list when the user forwards or replies to the email message. The value is TRUE if the user can modify the recipient 1 list otherwise FALSE.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/modifyrecipientsallowed/

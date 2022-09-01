@@ -1,7 +1,7 @@
 ---
 title: NonSendBccTrackStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value from the response table. Area General Message Properties Canonical name PidLidNonSendBccTrackStatus Alternate names dispidNonSendBccTrackStatus
 type: docs
 weight: 13040
 url: /net/aspose.email.mapi/knownpropertylist/nonsendbcctrackstatus/

@@ -1,7 +1,7 @@
 ---
 title: ServerData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ServerData specifies the template name for the client certificate. Optional.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/serverinfo/serverdata/

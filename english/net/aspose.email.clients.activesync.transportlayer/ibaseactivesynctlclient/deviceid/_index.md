@@ -1,7 +1,7 @@
 ---
 title: DeviceID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A GUID that identifies the device. The device ID is specified by the deviceidspec ABNF rule portion of the plain text query value. The value represented by the deviceid ABNF rule is a string that specifies the device. Each device MUST have a unique device ID string. Each request from the device MUST include the same device ID string.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/deviceid/

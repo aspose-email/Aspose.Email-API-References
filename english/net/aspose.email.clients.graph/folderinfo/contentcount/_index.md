@@ -1,7 +1,7 @@
 ---
 title: ContentCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the total number of items in the folder.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.graph/folderinfo/contentcount/
@@ -14,7 +14,7 @@ Gets the total number of items in the folder.
 public virtual int ContentCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The content count.
 

@@ -1,7 +1,7 @@
 ---
 title: ChangeKey
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Change key of list
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/exchangedistributionlist/changekey/

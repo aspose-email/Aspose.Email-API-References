@@ -1,7 +1,7 @@
 ---
 title: Updated
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the date indicating the most recent instant in time when an group entry was modified
 type: docs
 weight: 40
 url: /net/aspose.email.clients.google/googlecontactgroup/updated/
@@ -14,7 +14,7 @@ Gets the date indicating the most recent instant in time when an group entry was
 public DateTime Updated { get; }
 ```
 
-## Property Value
+### Property Value
 
 DateTime value that represents updated date
 

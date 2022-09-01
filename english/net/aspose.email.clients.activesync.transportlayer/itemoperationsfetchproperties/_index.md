@@ -1,7 +1,7 @@
 ---
 title: ItemOperationsFetchProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the properties that are returned for items in the response.
 type: docs
 weight: 1410
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchproperties/

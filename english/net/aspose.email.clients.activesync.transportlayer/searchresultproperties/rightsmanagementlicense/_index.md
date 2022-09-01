@@ -1,7 +1,7 @@
 ---
 title: RightsManagementLicense
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the rights policy template settings for the template applied to the email message being synchronized.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/searchresultproperties/rightsmanagementlicense/

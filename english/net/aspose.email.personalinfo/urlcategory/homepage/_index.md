@@ -1,7 +1,7 @@
 ---
 title: HomePage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Home page URL
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/urlcategory/homepage/

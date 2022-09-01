@@ -1,7 +1,7 @@
 ---
 title: SourceId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifier for the Office 365 service from which the URL was clicked e.g. for Mail this is the Exchange Online Network Message Id. Mandatory Yes
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/sourceid/

@@ -1,7 +1,7 @@
 ---
 title: TimeOfClick
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The date and time in Coordinated Universal Time UTC when the user clicked the URL. Mandatory Yes
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/timeofclick/

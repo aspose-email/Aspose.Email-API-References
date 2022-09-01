@@ -1,7 +1,7 @@
 ---
 title: SoundType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a sound type
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo.vcard/vcardsound/soundtype/

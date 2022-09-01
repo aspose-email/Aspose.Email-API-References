@@ -1,7 +1,7 @@
 ---
 title: Calendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Calendar namespace of the ActiveSync protocol
 type: docs
 weight: 1070
 url: /net/aspose.email.clients.activesync.transportlayer/calendar/
@@ -14,7 +14,7 @@ Calendar namespace of the ActiveSync protocol
 public enum Calendar
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

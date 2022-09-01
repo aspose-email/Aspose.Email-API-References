@@ -1,7 +1,7 @@
 ---
 title: DevicePasswordExpiration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum number of days until a password expires. The DevicePasswordExpiration can be null indicating that no password expiration policy is set. Valid values are listed bellow  0  Passwords do not expire. gt 0  Passwords expire in the specified maximum number of days. If DevicePasswordExpiration is null a client SHOULD treat this value as 0. If the value of the DevicePasswordEnabled is set to FALSE the client SHOULD ignore this property.
 type: docs
 weight: 240
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/devicepasswordexpiration/

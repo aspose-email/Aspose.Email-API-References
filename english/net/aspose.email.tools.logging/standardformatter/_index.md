@@ -1,9 +1,9 @@
 ---
 title: StandardFormatter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the class for formatting log entry messsages.
 type: docs
-weight: 20370
+weight: 20600
 url: /net/aspose.email.tools.logging/standardformatter/
 ---
 ## StandardFormatter class
@@ -18,9 +18,9 @@ public class StandardFormatter : Formatter
 
 | Name | Description |
 | --- | --- |
-| [StandardFormatter](standardformatter)() | Initializes a new instance of the [`StandardFormatter`](../standardformatter) class. |
-| [StandardFormatter](standardformatter)(string) | Initializes a new instance of the [`StandardFormatter`](../standardformatter) class. |
-| [StandardFormatter](standardformatter)(StringBuilder) | Initializes a new instance of the [`StandardFormatter`](../standardformatter) class. |
+| [StandardFormatter](standardformatter#constructor)() | Initializes a new instance of the [`StandardFormatter`](../standardformatter) class. |
+| [StandardFormatter](standardformatter#constructor_1)(string) | Initializes a new instance of the [`StandardFormatter`](../standardformatter) class. |
+| [StandardFormatter](standardformatter#constructor_2)(StringBuilder) | Initializes a new instance of the [`StandardFormatter`](../standardformatter) class. |
 
 ## Properties
 
@@ -35,7 +35,7 @@ public class StandardFormatter : Formatter
 | Name | Description |
 | --- | --- |
 | virtual [Format](../../aspose.email.tools.logging/formatter/format)(DateTime) | Formats a datetime and return a string to be outputted. |
-| override [Format](../../aspose.email.tools.logging/standardformatter/format)(LogEntry) | Formats a log entry and return a string to be outputted. |
+| override [Format](../../aspose.email.tools.logging/standardformatter/format#format)(LogEntry) | Formats a log entry and return a string to be outputted. |
 
 ### See Also
 

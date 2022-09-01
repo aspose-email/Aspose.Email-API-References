@@ -1,7 +1,7 @@
 ---
 title: LongId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the long ID for the source meeting request which is returned in the Search command response message. If the LongId is present the CollectionId InstanceId and RequestId are not present. The LongId value can be up to 256 characters in length.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/meetingresponserequest/longid/

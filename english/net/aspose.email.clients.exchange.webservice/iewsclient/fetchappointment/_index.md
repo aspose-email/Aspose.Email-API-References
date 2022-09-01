@@ -1,12 +1,12 @@
 ---
 title: FetchAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetch the specified appointment from server.
 type: docs
 weight: 710
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchappointment/
 ---
-## IEWSClient.FetchAppointment method (1 of 2)
+## FetchAppointment(string) {#fetchappointment}
 
 Fetch the specified appointment from server.
 
@@ -18,7 +18,7 @@ public Appointment FetchAppointment(string appointmentUri)
 | --- | --- | --- |
 | appointmentUri | String | An uri of appointment to be fetched. |
 
-## Return Value
+### Return Value
 
 A fetched [`Appointment`](../../../aspose.email.calendar/appointment).
 
@@ -37,7 +37,7 @@ A fetched [`Appointment`](../../../aspose.email.calendar/appointment).
 
 ---
 
-## IEWSClient.FetchAppointment method (2 of 2)
+## FetchAppointment(string, string) {#fetchappointment_1}
 
 Fetch the specified appointment from server.
 
@@ -50,7 +50,7 @@ public Appointment FetchAppointment(string appointmentUri, string folderUri)
 | appointmentUri | String | An uri of appointment to be fetched. |
 | folderUri | String | An uri of appointments parent folder. |
 
-## Return Value
+### Return Value
 
 A fetched [`Appointment`](../../../aspose.email.calendar/appointment).
 

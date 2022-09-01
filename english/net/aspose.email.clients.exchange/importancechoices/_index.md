@@ -1,7 +1,7 @@
 ---
 title: ImportanceChoices
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the levels of importance for an item
 type: docs
 weight: 3500
 url: /net/aspose.email.clients.exchange/importancechoices/
@@ -14,7 +14,7 @@ Enumerates the levels of importance for an item
 public enum ImportanceChoices
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

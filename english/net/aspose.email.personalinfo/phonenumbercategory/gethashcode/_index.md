@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: GetHashCode returns a hash function for this object.
 type: docs
 weight: 230
 url: /net/aspose.email.personalinfo/phonenumbercategory/gethashcode/
@@ -14,7 +14,7 @@ GetHashCode returns a hash function for this object.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 Returns a hash function for this object.
 

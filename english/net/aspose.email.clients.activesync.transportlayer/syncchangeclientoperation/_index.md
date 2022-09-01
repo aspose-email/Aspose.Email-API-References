@@ -1,7 +1,7 @@
 ---
 title: SyncChangeClientOperation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains properties of an existing object on the client device that were modified. The changed object is identified by its ServerId element.
 type: docs
 weight: 2160
 url: /net/aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/
@@ -18,8 +18,8 @@ public class SyncChangeClientOperation
 
 | Name | Description |
 | --- | --- |
-| [SyncChangeClientOperation](syncchangeclientoperation)() | Initializes a new instance of the SyncChangeClientOperation class. |
-| [SyncChangeClientOperation](syncchangeclientoperation)(string, DataContainer, AirsyncClass) | Initializes a new instance of the SyncChangeClientOperation class. |
+| [SyncChangeClientOperation](syncchangeclientoperation#constructor)() | Initializes a new instance of the SyncChangeClientOperation class. |
+| [SyncChangeClientOperation](syncchangeclientoperation#constructor_1)(string, DataContainer, AirsyncClass) | Initializes a new instance of the SyncChangeClientOperation class. |
 
 ## Properties
 

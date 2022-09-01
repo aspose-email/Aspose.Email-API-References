@@ -1,7 +1,7 @@
 ---
 title: DiagnosticsLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets diagnostics level specifying how detailed the tracing report should be.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/diagnosticslevel/

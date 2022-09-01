@@ -1,7 +1,7 @@
 ---
 title: Wait
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of minutes that the server SHOULD delay a response if no new items are added to the included folders. Valid values for the Wait are 1 through 59. When the client requests a wait interval that is outside the acceptable range the server will send a response that includes a Status value of 14 and a Limit. Either the Wait or the HeartbeatInterval can be included in a Sync command request but not both. If both are included the server response will contain a Status value of 4.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/syncrequest/wait/

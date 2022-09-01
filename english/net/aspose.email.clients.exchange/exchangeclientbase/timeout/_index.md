@@ -1,7 +1,7 @@
 ---
 title: Timeout
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the number of milliseconds to wait before the operation times out. The default value is 100000 milliseconds 100 seconds.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange/exchangeclientbase/timeout/
@@ -14,7 +14,7 @@ Gets or sets the number of milliseconds to wait before the operation times out. 
 public virtual int Timeout { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Timeout in milliseconds
 

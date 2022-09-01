@@ -1,7 +1,7 @@
 ---
 title: ExchangeFolderType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates the distinguished folder types. This values also contained in PidTagContainerClass property.
 type: docs
 weight: 3340
 url: /net/aspose.email.clients.exchange/exchangefoldertype/
@@ -14,7 +14,7 @@ Enumerates the distinguished folder types. This values also contained in PidTagC
 public enum ExchangeFolderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

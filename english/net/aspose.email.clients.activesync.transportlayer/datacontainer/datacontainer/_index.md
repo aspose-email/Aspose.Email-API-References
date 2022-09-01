@@ -1,12 +1,12 @@
 ---
 title: DataContainer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the DataContainer class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/datacontainer/
 ---
-## DataContainer constructor (1 of 4)
+## DataContainer(string, Namespace) {#constructor}
 
 Initializes a new instance of the DataContainer class.
 
@@ -28,7 +28,7 @@ public DataContainer(string elementName, Namespace nameSpace)
 
 ---
 
-## DataContainer constructor (2 of 4)
+## DataContainer(string, Namespace, DataContainer) {#constructor_1}
 
 Initializes a new instance of the DataContainer class.
 
@@ -51,7 +51,7 @@ public DataContainer(string elementName, Namespace nameSpace, DataContainer pare
 
 ---
 
-## DataContainer constructor (3 of 4)
+## DataContainer(string, Namespace, DataContainer, string) {#constructor_2}
 
 Initializes a new instance of the DataContainer class.
 
@@ -75,7 +75,7 @@ public DataContainer(string elementName, Namespace nameSpace, DataContainer pare
 
 ---
 
-## DataContainer constructor (4 of 4)
+## DataContainer(string, Namespace, DataContainer, string, bool) {#constructor_3}
 
 Initializes a new instance of the DataContainer class.
 

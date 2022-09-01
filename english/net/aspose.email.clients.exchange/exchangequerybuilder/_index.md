@@ -1,7 +1,7 @@
 ---
 title: ExchangeQueryBuilder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the builder of search expression based on search filters that used by Exchange protocol.
 type: docs
 weight: 3440
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/

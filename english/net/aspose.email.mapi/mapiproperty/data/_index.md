@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the binary data.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapiproperty/data/

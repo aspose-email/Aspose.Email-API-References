@@ -1,7 +1,7 @@
 ---
 title: FreebusyResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Freebusy response
 type: docs
 weight: 15740
 url: /net/aspose.email.clients.google/freebusyresponse/
@@ -18,9 +18,9 @@ public class FreebusyResponse
 
 | Name | Description |
 | --- | --- |
-| [FreebusyResponse](freebusyresponse)() | Initializes a new instance of the FreebusyResponse class. |
-| [FreebusyResponse](freebusyresponse)(DateTime, DateTime) | Initializes a new instance of the FreebusyResponse class. |
-| [FreebusyResponse](freebusyresponse)(DateTime, DateTime, Dictionary&lt;string, FreebusyGroupInfo&gt;, Dictionary&lt;string, FreebusyCalendarInfo&gt;) | Initializes a new instance of the FreebusyResponse class. |
+| [FreebusyResponse](freebusyresponse#constructor)() | Initializes a new instance of the FreebusyResponse class. |
+| [FreebusyResponse](freebusyresponse#constructor_1)(DateTime, DateTime) | Initializes a new instance of the FreebusyResponse class. |
+| [FreebusyResponse](freebusyresponse#constructor_2)(DateTime, DateTime, Dictionary&lt;string, FreebusyGroupInfo&gt;, Dictionary&lt;string, FreebusyCalendarInfo&gt;) | Initializes a new instance of the FreebusyResponse class. |
 
 ## Properties
 
@@ -30,6 +30,12 @@ public class FreebusyResponse
 | [Groups](../../aspose.email.clients.google/freebusyresponse/groups) { get; } | Expansion of groups. |
 | [TimeMax](../../aspose.email.clients.google/freebusyresponse/timemax) { get; set; } | The end of the interval for the query. |
 | [TimeMin](../../aspose.email.clients.google/freebusyresponse/timemin) { get; set; } | The start of the interval for the query. |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [KIND](../../aspose.email.clients.google/freebusyresponse/kind) | Type of the resource "calendar#freeBusy". |
 
 ### See Also
 

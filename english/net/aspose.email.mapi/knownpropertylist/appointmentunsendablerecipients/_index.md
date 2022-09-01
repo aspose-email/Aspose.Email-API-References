@@ -1,7 +1,7 @@
 ---
 title: AppointmentUnsendableRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a list of unsendable attendees. Area Meetings Canonical name PidLidAppointmentUnsendableRecipients Alternate names dispidApptUnsendableRecips
 type: docs
 weight: 1380
 url: /net/aspose.email.mapi/knownpropertylist/appointmentunsendablerecipients/

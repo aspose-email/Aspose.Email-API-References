@@ -1,7 +1,7 @@
 ---
 title: Add_
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the header.
 type: docs
 weight: 80
 url: /net/aspose.email.mime/headercollection/add_/

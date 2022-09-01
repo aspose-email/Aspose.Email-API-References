@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified Object is equal to the current Object.
 type: docs
 weight: 190
 url: /net/aspose.email.personalinfo/associatedpersoncategory/equals/
 ---
-## AssociatedPersonCategory.Equals method (1 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified Object is equal to the current Object.
 
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to compare with the current Object. |
 
-## Return Value
+### Return Value
 
 Returns a boolean indicating if the passed in object obj is Equal to this.
 
@@ -30,7 +30,7 @@ Returns a boolean indicating if the passed in object obj is Equal to this.
 
 ---
 
-## AssociatedPersonCategory.Equals method (2 of 2)
+## Equals(AssociatedPersonCategory) {#equals}
 
 Determines whether the specified object is equal to the current object.
 
@@ -42,7 +42,7 @@ public virtual bool Equals(AssociatedPersonCategory other)
 | --- | --- | --- |
 | other | AssociatedPersonCategory | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified object is equal to the current object; otherwise, false.
 

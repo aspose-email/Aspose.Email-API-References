@@ -1,12 +1,12 @@
 ---
 title: SaveAsTnef
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Save message in TNEF format.
 type: docs
 weight: 370
 url: /net/aspose.email.mapi/mapimessage/saveastnef/
 ---
-## MapiMessage.SaveAsTnef method (1 of 2)
+## SaveAsTnef(Stream) {#saveastnef}
 
 Save message in TNEF format.
 
@@ -26,7 +26,7 @@ public void SaveAsTnef(Stream stream)
 
 ---
 
-## MapiMessage.SaveAsTnef method (2 of 2)
+## SaveAsTnef(string) {#saveastnef_1}
 
 Save message in TNEF format.
 

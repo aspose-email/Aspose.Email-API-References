@@ -1,7 +1,7 @@
 ---
 title: ICalendarStartTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the date and time in UTC when the appointment or meeting starts. Area Calendar Property set Canonical name PidTagICalendarStartTime Alternate names urnschemascalendardtstart
 type: docs
 weight: 11190
 url: /net/aspose.email.mapi/knownpropertylist/icalendarstarttime/

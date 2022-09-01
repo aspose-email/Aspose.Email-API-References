@@ -1,7 +1,7 @@
 ---
 title: PR_BODY_HTML_W
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the HTMLencoded text body. UNICODE compilation.
 type: docs
 weight: 1040
 url: /net/aspose.email.mapi/mapipropertytag/pr_body_html_w/

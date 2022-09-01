@@ -1,7 +1,7 @@
 ---
 title: ReplyTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This header field is meant to indicate where the sender wants replies to go. Unfortunately this is ambiguous since there are different kinds of replies which the sender may wish to go to different addresses. In particular there are personal replies intended for only one person and group replies intended for the whole group of people who read the repliedto message often a mailing list anewsgroup name cannot appear here because of different syntax see FollowupTo ..
 type: docs
 weight: 190
 url: /net/aspose.email/headertype/replyto/

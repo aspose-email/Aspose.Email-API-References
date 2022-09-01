@@ -1,7 +1,7 @@
 ---
 title: Author
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the author of the file attached to the Document object. Area Common Canonical name PidNameAuthor Alternate names urnschemasmicrosoftcomofficeofficeAuthor
 type: docs
 weight: 1860
 url: /net/aspose.email.mapi/knownpropertylist/author/

@@ -1,7 +1,7 @@
 ---
 title: RadioValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Radio category
 type: docs
 weight: 380
 url: /net/aspose.email.personalinfo/phonenumbercategory/radiovalue/

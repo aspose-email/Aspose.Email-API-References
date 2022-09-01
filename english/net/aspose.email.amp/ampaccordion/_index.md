@@ -1,7 +1,7 @@
 ---
 title: AmpAccordion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A UI element that facilitates showing/hiding different sections.
 type: docs
 weight: 60
 url: /net/aspose.email.amp/ampaccordion/

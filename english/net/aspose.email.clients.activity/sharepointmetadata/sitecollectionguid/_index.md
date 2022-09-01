@@ -1,7 +1,7 @@
 ---
 title: SiteCollectionGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The GUID of the site collection. Mandatory Yes
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activity/sharepointmetadata/sitecollectionguid/

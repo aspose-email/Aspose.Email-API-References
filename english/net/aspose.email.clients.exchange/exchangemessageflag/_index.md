@@ -1,7 +1,7 @@
 ---
 title: ExchangeMessageFlag
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a flags of message.
 type: docs
 weight: 3390
 url: /net/aspose.email.clients.exchange/exchangemessageflag/
@@ -15,7 +15,7 @@ Represents a flags of message.
 public enum ExchangeMessageFlag
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

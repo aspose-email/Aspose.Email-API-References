@@ -1,7 +1,7 @@
 ---
 title: Flags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the indication flags of the Task object.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/mapitask/flags/

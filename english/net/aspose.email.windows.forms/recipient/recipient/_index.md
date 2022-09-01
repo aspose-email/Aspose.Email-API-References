@@ -1,12 +1,12 @@
 ---
 title: Recipient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a new recipient with the specified address.
 type: docs
 weight: 10
 url: /net/aspose.email.windows.forms/recipient/recipient/
 ---
-## Recipient constructor (1 of 4)
+## Recipient(string) {#constructor}
 
 Creates a new recipient with the specified address.
 
@@ -22,7 +22,7 @@ public Recipient(string address)
 
 ---
 
-## Recipient constructor (2 of 4)
+## Recipient(string, string) {#constructor_2}
 
 Creates a new recipient with the specified address and display name.
 
@@ -38,7 +38,7 @@ public Recipient(string address, string displayName)
 
 ---
 
-## Recipient constructor (3 of 4)
+## Recipient(string, RecipientType) {#constructor_1}
 
 Creates a new recipient with the specified address and recipient type.
 
@@ -55,7 +55,7 @@ public Recipient(string address, RecipientType recipientType)
 
 ---
 
-## Recipient constructor (4 of 4)
+## Recipient(string, string, RecipientType) {#constructor_3}
 
 Creates a new recipient with the specified address, display name and recipient type.
 

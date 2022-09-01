@@ -1,7 +1,7 @@
 ---
 title: Path
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the path.
 type: docs
 weight: 40
 url: /net/aspose.email.storage.olm/olmfolder/path/
@@ -14,7 +14,7 @@ Gets the path.
 public string Path { get; }
 ```
 
-## Property Value
+### Property Value
 
 The folder path.
 

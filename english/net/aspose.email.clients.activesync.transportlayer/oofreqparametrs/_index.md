@@ -1,7 +1,7 @@
 ---
 title: OOFReqParametrs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets OOF information settings from the server.
 type: docs
 weight: 1620
 url: /net/aspose.email.clients.activesync.transportlayer/oofreqparametrs/

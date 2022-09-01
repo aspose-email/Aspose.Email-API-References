@@ -1,7 +1,7 @@
 ---
 title: InternetAccountName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the uservisible email account name through which the email message is sent. Area General Message Properties Canonical name PidLidInternetAccountName Alternate names dispidInetAcctName
 type: docs
 weight: 11410
 url: /net/aspose.email.mapi/knownpropertylist/internetaccountname/

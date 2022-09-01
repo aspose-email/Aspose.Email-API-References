@@ -1,7 +1,7 @@
 ---
 title: ResolveRecipientsOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the options for resolving the list of recipients.
 type: docs
 weight: 1850
 url: /net/aspose.email.clients.activesync.transportlayer/resolverecipientsoptions/

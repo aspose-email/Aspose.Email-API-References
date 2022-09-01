@@ -1,7 +1,7 @@
 ---
 title: SendGridClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the SendGrid client
 type: docs
 weight: 3000
 url: /net/aspose.email.clients.deliveryservice.sendgrid/sendgridclient/

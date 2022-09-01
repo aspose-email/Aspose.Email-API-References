@@ -1,7 +1,7 @@
 ---
 title: AddFile
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a file into pst folder.
 type: docs
 weight: 130
 url: /net/aspose.email.storage.pst/folderinfo/addfile/
@@ -19,7 +19,7 @@ public string AddFile(string fileName, string messageClass)
 | fileName | String | The name of file necessary to add. |
 | messageClass | String | The message class. |
 
-## Return Value
+### Return Value
 
 The string that represents the EntryId of the added message.
 

@@ -1,12 +1,12 @@
 ---
 title: GetClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the GraphClientaspose.email.clients.graph/graphclient based class
 type: docs
 weight: 90
 url: /net/aspose.email.clients.graph/graphclient/getclient/
 ---
-## GraphClient.GetClient method (1 of 2)
+## GetClient(IMultipleServicesTokenProvider, string) {#getclient}
 
 Initializes a new instance of the [`GraphClient`](../../graphclient) based class
 
@@ -19,7 +19,7 @@ public static IGraphClient GetClient(IMultipleServicesTokenProvider tokenProvide
 | tokenProvider | IMultipleServicesTokenProvider | Token provider allows to retrieve OAuth access token |
 | tenantId | String | A tenant is representation of an organization. It's a dedicated instance of Azure AD that an organization or app developer receives when the organization or app developer, creates a relationship with Microsoft like signing up for Azure, Microsoft Intune, or Microsoft 365. |
 
-## Return Value
+### Return Value
 
 Returns IGraphClient object
 
@@ -33,7 +33,7 @@ Returns IGraphClient object
 
 ---
 
-## GraphClient.GetClient method (2 of 2)
+## GetClient(ITokenProvider, string) {#getclient_1}
 
 Initializes a new instance of the [`GraphClient`](../../graphclient) based class
 
@@ -46,7 +46,7 @@ public static IGraphClient GetClient(ITokenProvider tokenProvider, string tenant
 | tokenProvider | ITokenProvider | Token provider allows to retrieve OAuth access token |
 | tenantId | String | A tenant is representation of an organization. It's a dedicated instance of Azure AD that an organization or app developer receives when the organization or app developer, creates a relationship with Microsoft like signing up for Azure, Microsoft Intune, or Microsoft 365. |
 
-## Return Value
+### Return Value
 
 Returns IGraphClient object
 

@@ -1,7 +1,7 @@
 ---
 title: AppointmentSaveFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Enumerates AppointmentSaveFormat
 type: docs
 weight: 550
 url: /net/aspose.email.calendar/appointmentsaveformat/
@@ -14,7 +14,7 @@ Enumerates AppointmentSaveFormat
 public enum AppointmentSaveFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

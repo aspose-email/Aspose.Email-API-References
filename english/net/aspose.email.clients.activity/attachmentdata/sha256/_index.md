@@ -1,7 +1,7 @@
 ---
 title: SHA256
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The file SHA256 hash. Mandatory Yes
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/attachmentdata/sha256/

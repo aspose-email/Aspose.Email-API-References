@@ -1,12 +1,12 @@
 ---
 title: BeforeOrEqual
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the date in message must be earlier or equel to the specified date.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.search/datecomparisonfield/beforeorequal/
 ---
-## DateComparisonField.BeforeOrEqual method (1 of 2)
+## BeforeOrEqual(DateTime) {#beforeorequal}
 
 Indicates that the date in message must be earlier or equel to the specified date.
 
@@ -18,7 +18,7 @@ public MailQuery BeforeOrEqual(DateTime value)
 | --- | --- | --- |
 | value | DateTime | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -31,7 +31,7 @@ public MailQuery BeforeOrEqual(DateTime value)
 
 ---
 
-## DateComparisonField.BeforeOrEqual method (2 of 2)
+## BeforeOrEqual(DateTime, DateComparisonType) {#beforeorequal_1}
 
 Indicates that the date in message must be earlier or equel to the specified date.
 
@@ -44,7 +44,7 @@ public MailQuery BeforeOrEqual(DateTime value, DateComparisonType comparisonType
 | value | DateTime | The value. |
 | comparisonType | DateComparisonType | Specifies a type of comparison |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

@@ -1,7 +1,7 @@
 ---
 title: YPosition
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the distance in pixels from the top edge of the screen that a user interface displays a Note object
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapinote/yposition/

@@ -1,7 +1,7 @@
 ---
 title: FromFile
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Load OLM storage from file.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.olm/olmstorage/fromfile/
@@ -18,7 +18,7 @@ public static OlmStorage FromFile(string fileName)
 | --- | --- | --- |
 | fileName | String | Name of .olm file. |
 
-## Return Value
+### Return Value
 
 An OlmStorage object that represents the current OLM file.
 

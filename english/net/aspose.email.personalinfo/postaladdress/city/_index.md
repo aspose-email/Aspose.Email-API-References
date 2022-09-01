@@ -1,7 +1,7 @@
 ---
 title: City
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a city
 type: docs
 weight: 40
 url: /net/aspose.email.personalinfo/postaladdress/city/

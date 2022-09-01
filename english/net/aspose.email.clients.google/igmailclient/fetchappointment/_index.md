@@ -1,7 +1,7 @@
 ---
 title: FetchAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches appointment by identifier.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.google/igmailclient/fetchappointment/
@@ -19,7 +19,7 @@ public Appointment FetchAppointment(string calendarId, string appointmentId)
 | calendarId | String | Calendar identifier. |
 | appointmentId | String | Appointment identifier. |
 
-## Return Value
+### Return Value
 
 Returns fetched appointment.
 

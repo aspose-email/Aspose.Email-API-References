@@ -1,7 +1,7 @@
 ---
 title: MailboxUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the mailbox uri
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/exchangeclientbase/mailboxuri/
@@ -14,7 +14,7 @@ Gets or sets the mailbox uri
 public virtual string MailboxUri { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Uri of the mailbox
 

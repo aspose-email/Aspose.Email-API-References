@@ -1,7 +1,7 @@
 ---
 title: Items
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets collection of ImapMessageInfo objects
 type: docs
 weight: 10
 url: /net/aspose.email.clients.imap/imappageinfo/items/

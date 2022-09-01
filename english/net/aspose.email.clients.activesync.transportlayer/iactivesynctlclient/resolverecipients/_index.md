@@ -1,7 +1,7 @@
 ---
 title: ResolveRecipients
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ResolveRecipients is used to resolve a list of supplied recipients to retrieve their free/busy information and optionally to retrieve their S/MIME certificates so that clients can send encrypted S/MIME email messages. Retrieval of free/busy information using the Availability element in the ResolveRecipients command is not supported when the protocol version is 12.1.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/resolverecipients/
@@ -18,7 +18,7 @@ public ResolveRecipientsResponse ResolveRecipients(ResolveRecipientsRequest requ
 | --- | --- | --- |
 | request | ResolveRecipientsRequest | ResolveRecipients operation parameters |
 
-## Return Value
+### Return Value
 
 Returns ResolveRecipients operation result
 

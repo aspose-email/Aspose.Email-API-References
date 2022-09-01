@@ -1,7 +1,7 @@
 ---
 title: AddressBookHierarchicalDepartmentMembers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains all of the mail users that belong to this department. Area Address Book Canonical name PidTagAddressBookHierarchicalDepartmentMembers Alternate names PR_EMS_AB_HAB_DEPARTMENT_MEMBERS
 type: docs
 weight: 620
 url: /net/aspose.email.mapi/knownpropertylist/addressbookhierarchicaldepartmentmembers/

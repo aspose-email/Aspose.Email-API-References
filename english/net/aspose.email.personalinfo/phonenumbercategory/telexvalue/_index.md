@@ -1,7 +1,7 @@
 ---
 title: TelexValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Telex category
 type: docs
 weight: 390
 url: /net/aspose.email.personalinfo/phonenumbercategory/telexvalue/

@@ -1,7 +1,7 @@
 ---
 title: Body
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a task body.
 type: docs
 weight: 40
 url: /net/aspose.email.calendar/task/body/

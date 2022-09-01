@@ -1,7 +1,7 @@
 ---
 title: ReceivedByAddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the email message receivers email address type. Area MapiEnvelope Canonical name PidTagReceivedByAddressType Alternate names PR_RECEIVED_BY_ADDRTYPE PR_RECEIVED_BY_ADDRTYPE_A ptagReceivedByAddrType PR_RECEIVED_BY_ADDRTYPE_W
 type: docs
 weight: 15270
 url: /net/aspose.email.mapi/knownpropertylist/receivedbyaddresstype/

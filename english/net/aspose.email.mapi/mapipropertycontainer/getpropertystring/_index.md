@@ -1,12 +1,12 @@
 ---
 title: GetPropertyString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the string value of the property specified by tag.
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapipropertycontainer/getpropertystring/
 ---
-## MapiPropertyContainer.GetPropertyString method (1 of 2)
+## GetPropertyString(long, int) {#getpropertystring_1}
 
 Gets the string value of the property specified by tag.
 
@@ -19,7 +19,7 @@ public string GetPropertyString(long tag, int codepage)
 | tag | Int64 | The MAPI property tag. |
 | codepage | Int32 | The specified codepage used to get string value. |
 
-## Return Value
+### Return Value
 
 The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 
@@ -31,7 +31,7 @@ The value of the property. If the property does not exist, returns NULL; otherwi
 
 ---
 
-## MapiPropertyContainer.GetPropertyString method (2 of 2)
+## GetPropertyString(long) {#getpropertystring}
 
 Gets the string value of the property specified by tag.
 
@@ -43,7 +43,7 @@ public string GetPropertyString(long tag)
 | --- | --- | --- |
 | tag | Int64 | The MAPI property tag. |
 
-## Return Value
+### Return Value
 
 The value of the property. If the property does not exist, returns NULL; otherwise, returns the value.
 

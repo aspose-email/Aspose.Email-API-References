@@ -1,7 +1,7 @@
 ---
 title: PhysicalAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets list of postal addresses
 type: docs
 weight: 340
 url: /net/aspose.email.personalinfo/contact/physicaladdresses/

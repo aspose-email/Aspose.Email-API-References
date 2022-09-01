@@ -1,7 +1,7 @@
 ---
 title: AppointmentIcsSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents iCalendar save options
 type: docs
 weight: 490
 url: /net/aspose.email.calendar/appointmenticssaveoptions/
@@ -18,8 +18,8 @@ public sealed class AppointmentIcsSaveOptions : AppointmentSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AppointmentIcsSaveOptions](appointmenticssaveoptions)() | Initializes a new instance of the [`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) class |
-| [AppointmentIcsSaveOptions](appointmenticssaveoptions)(AppointmentAction) | Initializes a new instance of the [`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) class |
+| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor)() | Initializes a new instance of the [`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) class |
+| [AppointmentIcsSaveOptions](appointmenticssaveoptions#constructor_1)(AppointmentAction) | Initializes a new instance of the [`AppointmentIcsSaveOptions`](../appointmenticssaveoptions) class |
 
 ## Properties
 

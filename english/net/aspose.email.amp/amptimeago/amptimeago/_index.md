@@ -1,12 +1,12 @@
 ---
 title: AmpTimeago
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Create instance of AmpTimeago.
 type: docs
 weight: 10
 url: /net/aspose.email.amp/amptimeago/amptimeago/
 ---
-## AmpTimeago constructor (1 of 2)
+## AmpTimeago(DateTime) {#constructor}
 
 Create instance of AmpTimeago.
 
@@ -26,7 +26,7 @@ public AmpTimeago(DateTime dateTime)
 
 ---
 
-## AmpTimeago constructor (2 of 2)
+## AmpTimeago(DateTime, int, int) {#constructor_1}
 
 Create instance of AmpTimeago.
 

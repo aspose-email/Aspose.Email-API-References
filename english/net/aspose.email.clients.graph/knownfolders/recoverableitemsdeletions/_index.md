@@ -1,7 +1,7 @@
 ---
 title: RecoverableItemsDeletions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The folder that contains softdeleted items deleted either from the Deleted Items folder or by pressing shiftdelete in Outlook. This folder is not visible in any Outlook email client but end users can interact with it through the Recover Deleted Items from Server feature in Outlook or Outlook on the web.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.graph/knownfolders/recoverableitemsdeletions/

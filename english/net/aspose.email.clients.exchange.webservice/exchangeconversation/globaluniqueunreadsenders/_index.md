@@ -1,7 +1,7 @@
 ---
 title: GlobalUniqueUnreadSenders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a list of all the people who have sent messages that are currently unread in this conversation across all folders in the mailbox.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/globaluniqueunreadsenders/

@@ -1,7 +1,7 @@
 ---
 title: MessageInfoType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the type of the message
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange/exchangemessageinfo/messageinfotype/

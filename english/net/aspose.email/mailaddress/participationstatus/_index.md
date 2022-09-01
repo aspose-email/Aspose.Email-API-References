@@ -1,7 +1,7 @@
 ---
 title: ParticipationStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the participation status for the calendar user.
 type: docs
 weight: 90
 url: /net/aspose.email/mailaddress/participationstatus/

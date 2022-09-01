@@ -1,7 +1,7 @@
 ---
 title: RenderingHeaders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets list of headers for rendering.
 type: docs
 weight: 90
 url: /net/aspose.email/headersformattingoptions/renderingheaders/

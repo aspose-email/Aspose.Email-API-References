@@ -1,7 +1,7 @@
 ---
 title: ICalendarReminderNextTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the date and time in UTC for the activation of the next reminder. Area Calendar Canonical name PidTagICalendarReminderNextTime Alternate names urnschemascalendarremindernexttime
 type: docs
 weight: 11180
 url: /net/aspose.email.mapi/knownpropertylist/icalendarremindernexttime/

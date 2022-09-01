@@ -1,7 +1,7 @@
 ---
 title: ExchangeDelegatePermissions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ExchangeDelegatePermissionsaspose.email.clients.exchange.webservice/exchangedelegatepermissions class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/exchangedelegatepermissions/exchangedelegatepermissions/

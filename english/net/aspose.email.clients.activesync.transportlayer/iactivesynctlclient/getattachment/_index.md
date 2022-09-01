@@ -1,7 +1,7 @@
 ---
 title: GetAttachment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The GetAttachment retrieves an email attachment from the server. The GetAttachment is not supported when the protocol version is 14.0 or 14.1. Use the Fetch element of the ItemOperations command instead.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/getattachment/
@@ -18,7 +18,7 @@ public byte[] GetAttachment(string attachmentName)
 | --- | --- | --- |
 | attachmentName | String | The name of the attachment to be retrieved. |
 
-## Return Value
+### Return Value
 
 Returns attachment data
 

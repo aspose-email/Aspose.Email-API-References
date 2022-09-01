@@ -1,7 +1,7 @@
 ---
 title: QQ
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default QQ id
 type: docs
 weight: 100
 url: /net/aspose.email.personalinfo/instantmessengerlist/qq/

@@ -1,7 +1,7 @@
 ---
 title: FetchMapiMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the mapi message with specified uri.
 type: docs
 weight: 170
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/fetchmapimessage/
@@ -18,7 +18,7 @@ public MapiMessage FetchMapiMessage(string messageUri)
 | --- | --- | --- |
 | messageUri | String | The message uri. |
 
-## Return Value
+### Return Value
 
 A [`MapiMessage`](../../../aspose.email.mapi/mapimessage) object contains the message.
 

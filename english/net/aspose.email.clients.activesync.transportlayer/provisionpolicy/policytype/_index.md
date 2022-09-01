@@ -1,7 +1,7 @@
 ---
 title: PolicyType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the format in which the policy settings are to be provided to the client device.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/provisionpolicy/policytype/

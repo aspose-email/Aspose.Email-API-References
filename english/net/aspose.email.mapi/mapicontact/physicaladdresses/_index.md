@@ -1,7 +1,7 @@
 ---
 title: PhysicalAddresses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify three physical addresses Home Address Work Address and Other Address. One of the addresses can be marked as the Mailing Address
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapicontact/physicaladdresses/

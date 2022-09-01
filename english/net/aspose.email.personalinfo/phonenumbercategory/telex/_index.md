@@ -1,7 +1,7 @@
 ---
 title: Telex
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Telex
 type: docs
 weight: 160
 url: /net/aspose.email.personalinfo/phonenumbercategory/telex/

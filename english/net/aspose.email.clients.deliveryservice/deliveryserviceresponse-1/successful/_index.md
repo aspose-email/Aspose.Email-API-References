@@ -1,7 +1,7 @@
 ---
 title: Successful
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Successful
 type: docs
 weight: 50
 url: /net/aspose.email.clients.deliveryservice/deliveryserviceresponse-1/successful/

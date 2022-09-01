@@ -1,7 +1,7 @@
 ---
 title: Bcc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A copy of the email message that is sent to one or more recipients without the knowledge of the primary recipients. Primary recipients are listed in the To and Cc lines. This is useful if you want to copy a message to many people without each of them seeing who the other recipients are. If you see this header on incoming mail something is wrong because it does not appear in the headers.
 type: docs
 weight: 30
 url: /net/aspose.email/headertype/bcc/

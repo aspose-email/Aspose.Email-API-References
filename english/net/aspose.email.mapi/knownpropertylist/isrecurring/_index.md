@@ -1,7 +1,7 @@
 ---
 title: IsRecurring
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the object is associated with a recurring series. Area Meetings Canonical name PidLidIsRecurring Alternate names LID_IS_RECURRING
 type: docs
 weight: 11850
 url: /net/aspose.email.mapi/knownpropertylist/isrecurring/

@@ -1,12 +1,12 @@
 ---
 title: AddCustomProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the custom property.
 type: docs
 weight: 310
 url: /net/aspose.email.mapi/mapimessage/addcustomproperty/
 ---
-## MapiMessage.AddCustomProperty method (1 of 2)
+## AddCustomProperty(MapiProperty, string) {#addcustomproperty}
 
 Adds the custom property.
 
@@ -36,7 +36,7 @@ public void AddCustomProperty(MapiProperty property, string stringNameId)
 
 ---
 
-## MapiMessage.AddCustomProperty method (2 of 2)
+## AddCustomProperty(MapiPropertyType, byte[], string) {#addcustomproperty_1}
 
 Adds the custom property.
 

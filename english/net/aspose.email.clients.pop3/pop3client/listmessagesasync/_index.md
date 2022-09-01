@@ -1,12 +1,102 @@
 ---
 title: ListMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists the messages. Gets an information for earch message
 type: docs
 weight: 300
 url: /net/aspose.email.clients.pop3/pop3client/listmessagesasync/
 ---
-## Pop3Client.ListMessagesAsync method (1 of 20)
+## ListMessagesAsync(IConnection) {#listmessagesasync_1}
+
+Lists the messages. Gets an information for earch message
+
+```csharp
+public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### Remarks
+
+Note that messages marked as deleted are not listed
+
+### See Also
+
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(IConnection, bool) {#listmessagesasync_8}
+
+Lists the messages. Gets an information for earch message
+
+```csharp
+public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, 
+    bool closeTransaction)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
+
+### Return Value
+
+Task object, with delegate for this operation
+
+### Remarks
+
+Note that messages marked as deleted are not listed
+
+### See Also
+
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(IConnection, MailQuery) {#listmessagesasync_6}
+
+Lists the messages.
+
+```csharp
+public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, MailQuery query)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | IConnection | Connection to a server |
+| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
+
+### Return Value
+
+Collection of Pop3MessageInfo objects.
+
+### See Also
+
+* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
+* interface [IConnection](../../../aspose.email.clients/iconnection)
+* class [MailQuery](../../../aspose.email.tools.search/mailquery)
+* class [Pop3Client](../../pop3client)
+* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## ListMessagesAsync(IConnection, Pop3ListFields) {#listmessagesasync_2}
 
 Lists the messages.
 
@@ -20,7 +110,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -39,7 +129,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (2 of 20)
+## ListMessagesAsync(IConnection, Pop3ListFields, bool, MailQuery) {#listmessagesasync_3}
 
 Lists the messages.
 
@@ -55,7 +145,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -71,7 +161,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.ListMessagesAsync method (3 of 20)
+## ListMessagesAsync() {#listmessagesasync}
 
 Lists the messages. Gets an information for earch message
 
@@ -79,7 +169,7 @@ Lists the messages. Gets an information for earch message
 public Task<Pop3MessageInfoCollection> ListMessagesAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -96,7 +186,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (4 of 20)
+## ListMessagesAsync(bool) {#listmessagesasync_17}
 
 Lists the messages. Gets an information for earch message
 
@@ -108,7 +198,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction)
 | --- | --- | --- |
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -125,7 +215,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (5 of 20)
+## ListMessagesAsync(MailQuery) {#listmessagesasync_15}
 
 Lists the messages.
 
@@ -137,7 +227,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -151,7 +241,7 @@ Collection of Pop3MessageInfo objects.
 
 ---
 
-## Pop3Client.ListMessagesAsync method (6 of 20)
+## ListMessagesAsync(Pop3ListFields) {#listmessagesasync_11}
 
 Lists the messages.
 
@@ -163,7 +253,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields)
 | --- | --- | --- |
 | fields | Pop3ListFields | The fields that we want get |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -181,7 +271,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (7 of 20)
+## ListMessagesAsync(Pop3ListFields, bool, MailQuery) {#listmessagesasync_12}
 
 Lists the messages.
 
@@ -196,7 +286,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -211,7 +301,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.ListMessagesAsync method (8 of 20)
+## ListMessagesAsync(IConnection, CancellationToken) {#listmessagesasync_10}
 
 Lists the messages. Gets an information for earch message
 
@@ -225,7 +315,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -243,7 +333,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (9 of 20)
+## ListMessagesAsync(IConnection, bool, CancellationToken) {#listmessagesasync_9}
 
 Lists the messages. Gets an information for earch message
 
@@ -258,7 +348,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -276,7 +366,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (10 of 20)
+## ListMessagesAsync(IConnection, MailQuery, CancellationToken) {#listmessagesasync_7}
 
 Lists the messages.
 
@@ -291,7 +381,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -306,7 +396,7 @@ Collection of Pop3MessageInfo objects.
 
 ---
 
-## Pop3Client.ListMessagesAsync method (11 of 20)
+## ListMessagesAsync(IConnection, Pop3ListFields, CancellationToken) {#listmessagesasync_5}
 
 Lists the messages.
 
@@ -321,7 +411,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | fields | Pop3ListFields | The fields that we want get |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -340,7 +430,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (12 of 20)
+## ListMessagesAsync(IConnection, Pop3ListFields, bool, MailQuery, CancellationToken) {#listmessagesasync_4}
 
 Lists the messages.
 
@@ -357,7 +447,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection,
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -373,7 +463,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.ListMessagesAsync method (13 of 20)
+## ListMessagesAsync(CancellationToken) {#listmessagesasync_19}
 
 Lists the messages. Gets an information for earch message
 
@@ -385,7 +475,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(CancellationToken token
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -402,7 +492,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (14 of 20)
+## ListMessagesAsync(bool, CancellationToken) {#listmessagesasync_18}
 
 Lists the messages. Gets an information for earch message
 
@@ -416,7 +506,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(bool closeTransaction,
 | closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -433,7 +523,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (15 of 20)
+## ListMessagesAsync(MailQuery, CancellationToken) {#listmessagesasync_16}
 
 Lists the messages.
 
@@ -446,7 +536,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(MailQuery query, Cancel
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Collection of Pop3MessageInfo objects.
 
@@ -460,7 +550,7 @@ Collection of Pop3MessageInfo objects.
 
 ---
 
-## Pop3Client.ListMessagesAsync method (16 of 20)
+## ListMessagesAsync(Pop3ListFields, CancellationToken) {#listmessagesasync_14}
 
 Lists the messages.
 
@@ -474,7 +564,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | fields | Pop3ListFields | The fields that we want get |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -492,7 +582,7 @@ Note that messages marked as deleted are not listed
 
 ---
 
-## Pop3Client.ListMessagesAsync method (17 of 20)
+## ListMessagesAsync(Pop3ListFields, bool, MailQuery, CancellationToken) {#listmessagesasync_13}
 
 Lists the messages.
 
@@ -508,7 +598,7 @@ public Task<Pop3MessageInfoCollection> ListMessagesAsync(Pop3ListFields fields,
 | query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -516,96 +606,6 @@ Task object, with delegate for this operation
 
 * class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
 * enum [Pop3ListFields](../../pop3listfields)
-* class [MailQuery](../../../aspose.email.tools.search/mailquery)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Pop3Client.ListMessagesAsync method (18 of 20)
-
-Lists the messages. Gets an information for earch message
-
-```csharp
-public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-
-## Return Value
-
-Task object, with delegate for this operation
-
-### Remarks
-
-Note that messages marked as deleted are not listed
-
-### See Also
-
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Pop3Client.ListMessagesAsync method (19 of 20)
-
-Lists the messages. Gets an information for earch message
-
-```csharp
-public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, 
-    bool closeTransaction)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| closeTransaction | Boolean | Indicates if current transaction has to be closed, before the list is retrieved. |
-
-## Return Value
-
-Task object, with delegate for this operation
-
-### Remarks
-
-Note that messages marked as deleted are not listed
-
-### See Also
-
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
-* class [Pop3Client](../../pop3client)
-* namespace [Aspose.Email.Clients.Pop3](../../pop3client)
-* assembly [Aspose.Email](../../../)
-
----
-
-## Pop3Client.ListMessagesAsync method (20 of 20)
-
-Lists the messages.
-
-```csharp
-public Task<Pop3MessageInfoCollection> ListMessagesAsync(IConnection connection, MailQuery query)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | IConnection | Connection to a server |
-| query | MailQuery | The [`MailQuery`](../../../aspose.email.tools.search/mailquery) object. |
-
-## Return Value
-
-Collection of Pop3MessageInfo objects.
-
-### See Also
-
-* class [Pop3MessageInfoCollection](../../pop3messageinfocollection)
-* interface [IConnection](../../../aspose.email.clients/iconnection)
 * class [MailQuery](../../../aspose.email.tools.search/mailquery)
 * class [Pop3Client](../../pop3client)
 * namespace [Aspose.Email.Clients.Pop3](../../pop3client)

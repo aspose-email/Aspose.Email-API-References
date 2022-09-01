@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Id of list
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/exchangedistributionlist/id/

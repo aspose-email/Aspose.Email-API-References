@@ -1,7 +1,7 @@
 ---
 title: InternetMessageId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Corresponds to the messageid field. Area MIME Properties Canonical name PidTagInternetMessageId Alternate names PR_INTERNET_MESSAGE_ID PR_INTERNET_MESSAGE_ID_A PR_INTERNET_MESSAGE_ID_W
 type: docs
 weight: 11520
 url: /net/aspose.email.mapi/knownpropertylist/internetmessageid/

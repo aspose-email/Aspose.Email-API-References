@@ -1,7 +1,7 @@
 ---
 title: RequireEncryptionSMIMEAlgorithm
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the algorithm used when encrypting S/MIME messages.
 type: docs
 weight: 380
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requireencryptionsmimealgorithm/

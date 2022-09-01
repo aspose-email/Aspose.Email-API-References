@@ -1,7 +1,7 @@
 ---
 title: Attachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets attachments in the recurrence exception.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendarexceptioninfo/attachments/
@@ -14,7 +14,7 @@ Gets or sets attachments in the recurrence exception.
 public MapiAttachmentCollection Attachments { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The attachment.
 

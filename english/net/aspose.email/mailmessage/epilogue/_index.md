@@ -1,7 +1,7 @@
 ---
 title: Epilogue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an epilogue text. It is located after the last boundary.
 type: docs
 weight: 120
 url: /net/aspose.email/mailmessage/epilogue/
@@ -14,7 +14,7 @@ Gets or sets an epilogue text. It is located after the last boundary.
 public string Epilogue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string value that represents an epilogue.
 

@@ -1,7 +1,7 @@
 ---
 title: TargetEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the message ID of a Message object being submitted for optimization MS OXOMSG section 3.2.4.4. Area ID Properties Canonical name PidTagTargetEntryId Alternate names PR_TARGET_ENTRYID ptagTargetEntryId
 type: docs
 weight: 18520
 url: /net/aspose.email.mapi/knownpropertylist/targetentryid/

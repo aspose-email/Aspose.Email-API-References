@@ -1,12 +1,12 @@
 ---
 title: GetMailboxSizeAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the size of the mailbox
 type: docs
 weight: 180
 url: /net/aspose.email.clients.pop3/pop3client/getmailboxsizeasync/
 ---
-## Pop3Client.GetMailboxSizeAsync method (1 of 4)
+## GetMailboxSizeAsync(IConnection) {#getmailboxsizeasync_1}
 
 Gets the size of the mailbox
 
@@ -18,7 +18,7 @@ public Task<long> GetMailboxSizeAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxSizeAsync method (2 of 4)
+## GetMailboxSizeAsync() {#getmailboxsizeasync}
 
 Gets the size of the mailbox
 
@@ -39,7 +39,7 @@ Gets the size of the mailbox
 public Task<long> GetMailboxSizeAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -51,7 +51,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxSizeAsync method (3 of 4)
+## GetMailboxSizeAsync(IConnection, CancellationToken) {#getmailboxsizeasync_2}
 
 Gets the size of the mailbox
 
@@ -64,7 +64,7 @@ public Task<long> GetMailboxSizeAsync(IConnection connection, CancellationToken 
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -77,7 +77,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMailboxSizeAsync method (4 of 4)
+## GetMailboxSizeAsync(CancellationToken) {#getmailboxsizeasync_3}
 
 Gets the size of the mailbox
 
@@ -89,7 +89,7 @@ public Task<long> GetMailboxSizeAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

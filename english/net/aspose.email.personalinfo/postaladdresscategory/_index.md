@@ -1,9 +1,9 @@
 ---
 title: PostalAddressCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents category for a postal address
 type: docs
-weight: 19300
+weight: 19510
 url: /net/aspose.email.personalinfo/postaladdresscategory/
 ---
 ## PostalAddressCategory class
@@ -34,20 +34,20 @@ public class PostalAddressCategory : IEquatable<PostalAddressCategory>
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.email.personalinfo/postaladdresscategory/equals)(object) | Determines whether the specified Object is equal to the current Object. |
-| virtual [Equals](../../aspose.email.personalinfo/postaladdresscategory/equals)(PostalAddressCategory) | Determines whether the specified object is equal to the current object. |
+| override [Equals](../../aspose.email.personalinfo/postaladdresscategory/equals#equals_1)(object) | Determines whether the specified Object is equal to the current Object. |
+| virtual [Equals](../../aspose.email.personalinfo/postaladdresscategory/equals#equals)(PostalAddressCategory) | Determines whether the specified object is equal to the current object. |
 | override [GetHashCode](../../aspose.email.personalinfo/postaladdresscategory/gethashcode)() | GetHashCode returns a hash function for this object. |
 | override [ToString](../../aspose.email.personalinfo/postaladdresscategory/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.personalinfo/postaladdresscategory/op_equality) | Determines whether the specified objects are equal. |
 | [operator !=](../../aspose.email.personalinfo/postaladdresscategory/op_inequality) | Determines whether the specified objects are not equal. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [CustomValue](customvalue) | String value for 'Custom' category |
-| const [HomeValue](homevalue) | String value for 'Home' category |
-| const [WorkValue](workvalue) | String value for 'Work' category |
+| const [CustomValue](../../aspose.email.personalinfo/postaladdresscategory/customvalue) | String value for 'Custom' category |
+| const [HomeValue](../../aspose.email.personalinfo/postaladdresscategory/homevalue) | String value for 'Home' category |
+| const [WorkValue](../../aspose.email.personalinfo/postaladdresscategory/workvalue) | String value for 'Work' category |
 
 ### See Also
 

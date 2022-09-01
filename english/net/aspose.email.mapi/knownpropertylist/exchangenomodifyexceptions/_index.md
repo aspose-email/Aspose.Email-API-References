@@ -1,7 +1,7 @@
 ---
 title: ExchangeNoModifyExceptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether exceptions to a recurring appointment can be modified. Area Common Canonical name PidNameExchangeNoModifyExceptions Alternate names http//schemas.microsoft.com/exchange/nomodifyexceptions
 type: docs
 weight: 9850
 url: /net/aspose.email.mapi/knownpropertylist/exchangenomodifyexceptions/

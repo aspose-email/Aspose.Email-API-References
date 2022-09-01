@@ -1,7 +1,7 @@
 ---
 title: Codepage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the codepage used to encode/decode string properties in case PT_STRING8 type for them is used.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi.msg/messageobject/codepage/
@@ -14,7 +14,7 @@ Gets the codepage used to encode/decode string properties in case PT_STRING8 typ
 public int Codepage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The codepage.
 

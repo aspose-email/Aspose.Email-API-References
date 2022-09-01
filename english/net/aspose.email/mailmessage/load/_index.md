@@ -1,12 +1,12 @@
 ---
 title: Load
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Load message from file
 type: docs
 weight: 20
 url: /net/aspose.email/mailmessage/load/
 ---
-## MailMessage.Load method (1 of 4)
+## Load(string) {#load_2}
 
 Load message from file
 
@@ -18,7 +18,7 @@ public static MailMessage Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Message file name. The message file must be in eml or msg format. |
 
-## Return Value
+### Return Value
 
 E-mail message
 
@@ -30,7 +30,7 @@ E-mail message
 
 ---
 
-## MailMessage.Load method (2 of 4)
+## Load(Stream) {#load}
 
 Load message from stream
 
@@ -42,7 +42,7 @@ public static MailMessage Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Stream that represents message in eml or msg format |
 
-## Return Value
+### Return Value
 
 E-mail message
 
@@ -54,7 +54,7 @@ E-mail message
 
 ---
 
-## MailMessage.Load method (3 of 4)
+## Load(string, LoadOptions) {#load_3}
 
 Load message from file with additional options.
 
@@ -67,7 +67,7 @@ public static MailMessage Load(string fileName, LoadOptions options)
 | fileName | String | Source file pathString. |
 | options | LoadOptions | Additional options [`LoadOptions`](../../loadoptions). |
 
-## Return Value
+### Return Value
 
 Mail message[`MailMessage`](../../mailmessage).
 
@@ -86,7 +86,7 @@ Mail message[`MailMessage`](../../mailmessage).
 
 ---
 
-## MailMessage.Load method (4 of 4)
+## Load(Stream, LoadOptions) {#load_1}
 
 Load message from stream with additional options.
 
@@ -99,7 +99,7 @@ public static MailMessage Load(Stream stream, LoadOptions options)
 | stream | Stream | Source streamStream. |
 | options | LoadOptions | Additional options [`LoadOptions`](../../loadoptions). |
 
-## Return Value
+### Return Value
 
 Mail message[`MailMessage`](../../mailmessage).
 

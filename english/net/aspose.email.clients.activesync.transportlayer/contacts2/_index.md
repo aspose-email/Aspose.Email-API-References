@@ -1,7 +1,7 @@
 ---
 title: Contacts2
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contacts2 namespace of the ActiveSync protocol
 type: docs
 weight: 1140
 url: /net/aspose.email.clients.activesync.transportlayer/contacts2/
@@ -14,7 +14,7 @@ Contacts2 namespace of the ActiveSync protocol
 public enum Contacts2
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

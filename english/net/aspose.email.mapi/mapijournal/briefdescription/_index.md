@@ -1,7 +1,7 @@
 ---
 title: BriefDescription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the brief description of activity that is being recorded.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapijournal/briefdescription/
@@ -14,7 +14,7 @@ Gets or sets the brief description of activity that is being recorded.
 public string BriefDescription { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents activity.
 

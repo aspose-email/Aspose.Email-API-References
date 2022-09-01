@@ -1,7 +1,7 @@
 ---
 title: TIPMethod
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines the iTIP iCalendar TransportIndependent Interoperability Protocol methods associated with an object.
 type: docs
 weight: 890
 url: /net/aspose.email.calendar/tipmethod/
@@ -14,7 +14,7 @@ Defines the iTIP (iCalendar Transport-Independent Interoperability Protocol) met
 public enum TIPMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the subject of the message.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreport/subject/

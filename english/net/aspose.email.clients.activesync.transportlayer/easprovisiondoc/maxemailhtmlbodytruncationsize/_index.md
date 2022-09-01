@@ -1,7 +1,7 @@
 ---
 title: MaxEmailHTMLBodyTruncationSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the truncation size for HTMLformatted email. Valid values are listed bellow 1 No truncation. 0 Truncate only the header. gt0 Truncate the email body to the specified size.
 type: docs
 weight: 310
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/maxemailhtmlbodytruncationsize/

@@ -1,7 +1,7 @@
 ---
 title: Date
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the date and time when message was delivered
 type: docs
 weight: 60
 url: /net/aspose.email/imessage/date/

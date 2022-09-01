@@ -1,7 +1,7 @@
 ---
 title: UserCreatedFolderTypes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the type of the folder to be created.
 type: docs
 weight: 2300
 url: /net/aspose.email.clients.activesync.transportlayer/usercreatedfoldertypes/
@@ -14,7 +14,7 @@ Specifies the type of the folder to be created.
 public enum UserCreatedFolderTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

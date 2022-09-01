@@ -1,7 +1,7 @@
 ---
 title: ExchangeQueryBuilder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ExchangeQueryBuilderaspose.email.clients.exchange/exchangequerybuilder class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/exchangequerybuilder/

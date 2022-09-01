@@ -1,7 +1,7 @@
 ---
 title: DstFldId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server ID of the destination folder.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsmoverequest/dstfldid/

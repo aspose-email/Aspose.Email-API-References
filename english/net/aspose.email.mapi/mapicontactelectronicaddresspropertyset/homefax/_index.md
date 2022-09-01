@@ -1,7 +1,7 @@
 ---
 title: HomeFax
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Refers to the group of properties that define the home fax address for a contact.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapicontactelectronicaddresspropertyset/homefax/

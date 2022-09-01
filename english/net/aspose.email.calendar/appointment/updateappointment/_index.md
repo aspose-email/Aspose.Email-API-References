@@ -1,12 +1,12 @@
 ---
 title: UpdateAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the appointment.
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.email.calendar/appointment/updateappointment/
 ---
-## Appointment.UpdateAppointment method (1 of 2)
+## UpdateAppointment() {#updateappointment}
 
 Updates the appointment.
 
@@ -14,7 +14,7 @@ Updates the appointment.
 public AlternateView UpdateAppointment()
 ```
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 
@@ -27,7 +27,7 @@ AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represe
 
 ---
 
-## Appointment.UpdateAppointment method (2 of 2)
+## UpdateAppointment(int) {#updateappointment_1}
 
 Updates the appointment.
 
@@ -39,7 +39,7 @@ public AlternateView UpdateAppointment(int seqId)
 | --- | --- | --- |
 | seqId | Int32 | The sequence id. |
 
-## Return Value
+### Return Value
 
 AlternateView[`AlternateView`](../../../aspose.email/alternateview) that represents the format to view an email message.
 

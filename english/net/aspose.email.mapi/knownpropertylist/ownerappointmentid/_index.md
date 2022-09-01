@@ -1,7 +1,7 @@
 ---
 title: OwnerAppointmentId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a quasiunique value among all of the Calendar objects in a users mailbox. Area Appointment Canonical name PidTagOwnerAppointmentId Alternate names PR_OWNER_APPT_ID http//schemas.microsoft.com/mapi/owner_appt_id
 type: docs
 weight: 14080
 url: /net/aspose.email.mapi/knownpropertylist/ownerappointmentid/

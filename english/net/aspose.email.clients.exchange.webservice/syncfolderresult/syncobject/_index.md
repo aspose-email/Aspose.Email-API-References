@@ -1,7 +1,7 @@
 ---
 title: SyncObject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Synchronization object for next synchronization operation.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.webservice/syncfolderresult/syncobject/

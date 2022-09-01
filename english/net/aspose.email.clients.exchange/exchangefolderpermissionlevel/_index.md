@@ -1,7 +1,7 @@
 ---
 title: ExchangeFolderPermissionLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the permission level that a user has on a folder.
 type: docs
 weight: 3320
 url: /net/aspose.email.clients.exchange/exchangefolderpermissionlevel/
@@ -14,7 +14,7 @@ Specifies the permission level that a user has on a folder.
 public enum ExchangeFolderPermissionLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: UserType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: User types
 type: docs
 weight: 2810
 url: /net/aspose.email.clients.activity/usertype/
@@ -14,7 +14,7 @@ User types
 public enum UserType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

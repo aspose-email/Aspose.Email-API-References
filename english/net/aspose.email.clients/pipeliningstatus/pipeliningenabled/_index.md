@@ -1,7 +1,7 @@
 ---
 title: PipeliningEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value that defines if pipelining mode is enabled.
 type: docs
 weight: 20
 url: /net/aspose.email.clients/pipeliningstatus/pipeliningenabled/

@@ -1,7 +1,7 @@
 ---
 title: O365EmailMessageActivity
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Extends the Common schema with the properties specific to Office 365 Advanced Threat Protection and Threat Intelligence data. Office 365 Advanced Threat Protection ATP and Threat Intelligence events are available for Office 365 customers who have an ATP Threat Intelligence or E5 subscription. Each event in the ATP and Threat Intelligence feed corresponds to An email message sent by or received by a user in the organization with detections are made on messages at delivery time and from Zero hour auto purge.
 type: docs
 weight: 2660
 url: /net/aspose.email.clients.activity/o365emailmessageactivity/

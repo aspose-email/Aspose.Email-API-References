@@ -1,7 +1,7 @@
 ---
 title: PreserveOriginalBoundaries
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines whether need keep original boundaries in mail message when saving or not.
 type: docs
 weight: 40
 url: /net/aspose.email/mhtsaveoptions/preserveoriginalboundaries/

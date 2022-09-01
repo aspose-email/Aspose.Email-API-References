@@ -1,9 +1,9 @@
 ---
 title: TransferEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the ContentTransferEncoding header information.
 type: docs
-weight: 19040
+weight: 19250
 url: /net/aspose.email.mime/transferencoding/
 ---
 ## TransferEncoding enumeration
@@ -14,7 +14,7 @@ Specifies the Content-Transfer-Encoding header information.
 public enum TransferEncoding
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

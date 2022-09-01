@@ -1,7 +1,7 @@
 ---
 title: EnableDecompression
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value that indicates whether decompression is enabled
 type: docs
 weight: 60
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/enabledecompression/

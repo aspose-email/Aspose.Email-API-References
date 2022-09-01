@@ -1,7 +1,7 @@
 ---
 title: ServerId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a unique identifier that is assigned by the server to each object that can be synchronized or have an item operation applied to it.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchresponce/serverid/

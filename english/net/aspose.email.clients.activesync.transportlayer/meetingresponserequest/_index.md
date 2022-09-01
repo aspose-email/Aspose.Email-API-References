@@ -1,7 +1,7 @@
 ---
 title: MeetingResponseRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the meeting request that is being responded to the response to that meeting request and the folder on the server that the meeting request is located in.
 type: docs
 weight: 1520
 url: /net/aspose.email.clients.activesync.transportlayer/meetingresponserequest/
@@ -18,8 +18,8 @@ public class MeetingResponseRequest
 
 | Name | Description |
 | --- | --- |
-| [MeetingResponseRequest](meetingresponserequest)() | Initializes a new instance of the MeetingResponseRequest class. |
-| [MeetingResponseRequest](meetingresponserequest)(UserResponse, string, string, string, string) | Initializes a new instance of the MeetingResponseRequest class. |
+| [MeetingResponseRequest](meetingresponserequest#constructor)() | Initializes a new instance of the MeetingResponseRequest class. |
+| [MeetingResponseRequest](meetingresponserequest#constructor_1)(UserResponse, string, string, string, string) | Initializes a new instance of the MeetingResponseRequest class. |
 
 ## Properties
 

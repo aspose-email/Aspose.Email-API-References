@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Releases all resources.
 type: docs
 weight: 210
 url: /net/aspose.email.mapi/mapicalendar/dispose/

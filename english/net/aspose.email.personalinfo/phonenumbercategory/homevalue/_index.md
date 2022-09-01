@@ -1,7 +1,7 @@
 ---
 title: HomeValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Home category
 type: docs
 weight: 320
 url: /net/aspose.email.personalinfo/phonenumbercategory/homevalue/

@@ -1,7 +1,7 @@
 ---
 title: CalendarReader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows read the calendar with multi events to the Appointment object from a file or stream.
 type: docs
 weight: 590
 url: /net/aspose.email.calendar/calendarreader/
@@ -18,10 +18,10 @@ public class CalendarReader
 
 | Name | Description |
 | --- | --- |
-| [CalendarReader](calendarreader)(Stream) | Initializes a new instance of CalendarReader with source stream and default Appointment LoadOptions. |
-| [CalendarReader](calendarreader)(string) | Initializes a new instance of CalendarReader with source file and default Appointment LoadOptions. |
-| [CalendarReader](calendarreader)(Stream, AppointmentLoadOptions) | Initializes a new instance of CalendarReader with source stream and Appointment LoadOptions. |
-| [CalendarReader](calendarreader)(string, AppointmentLoadOptions) | Initializes a new instance of CalendarReader with source file and Appointment LoadOptions. |
+| [CalendarReader](calendarreader#constructor)(Stream) | Initializes a new instance of CalendarReader with source stream and default Appointment LoadOptions. |
+| [CalendarReader](calendarreader#constructor_2)(string) | Initializes a new instance of CalendarReader with source file and default Appointment LoadOptions. |
+| [CalendarReader](calendarreader#constructor_1)(Stream, AppointmentLoadOptions) | Initializes a new instance of CalendarReader with source stream and Appointment LoadOptions. |
+| [CalendarReader](calendarreader#constructor_3)(string, AppointmentLoadOptions) | Initializes a new instance of CalendarReader with source file and Appointment LoadOptions. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoFreeBusy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This property is deprecated and is not to be used. Area Free/Busy Properties Canonical name PidTagScheduleInfoFreeBusy Alternate names PR_SCHDINFO_FREEBUSY
 type: docs
 weight: 16810
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusy/

@@ -1,7 +1,7 @@
 ---
 title: SendOnBehalfOfUserSmtp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: SMTP address of the user on whose behalf the email is sent.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activity/exchangemailboxauditactivity/sendonbehalfofusersmtp/

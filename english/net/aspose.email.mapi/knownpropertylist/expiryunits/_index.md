@@ -1,7 +1,7 @@
 ---
 title: ExpiryUnits
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the unit of time that the value of the PidTagExpiryNumber property section 2.679 multiplies. Area MapiStatus Canonical name PidTagExpiryUnits Alternate names PR_EXPIRY_UNITS
 type: docs
 weight: 9960
 url: /net/aspose.email.mapi/knownpropertylist/expiryunits/

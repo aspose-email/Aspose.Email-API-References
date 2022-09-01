@@ -1,7 +1,7 @@
 ---
 title: EventTypes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies event type
 type: docs
 weight: 3700
 url: /net/aspose.email.clients.exchange.webservice/eventtypes/
@@ -15,7 +15,7 @@ Specifies event type
 public enum EventTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

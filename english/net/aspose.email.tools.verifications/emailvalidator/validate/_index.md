@@ -1,12 +1,12 @@
 ---
 title: Validate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Validating the email address
 type: docs
 weight: 90
 url: /net/aspose.email.tools.verifications/emailvalidator/validate/
 ---
-## EmailValidator.Validate method (1 of 2)
+## Validate(string, ValidationPolicy, out ValidationResult) {#validate}
 
 Validating the email address
 
@@ -30,7 +30,7 @@ public void Validate(string mailAddress, ValidationPolicy policy, out Validation
 
 ---
 
-## EmailValidator.Validate method (2 of 2)
+## Validate(string, out ValidationResult) {#validate_1}
 
 Validate email address, with the MailServer validation policy.
 

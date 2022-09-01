@@ -1,12 +1,12 @@
 ---
 title: FromVCard
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Reads MapiContactaspose.email.mapi/mapicontact from the specified vCard file The supported vCard versions are 2.1 and 3.0
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontact/fromvcard/
 ---
-## MapiContact.FromVCard method (1 of 4)
+## FromVCard(string) {#fromvcard_2}
 
 Reads [`MapiContact`](../../mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -18,7 +18,7 @@ public static MapiContact FromVCard(string filePath)
 | --- | --- | --- |
 | filePath | String | A file name to read from |
 
-## Return Value
+### Return Value
 
 A read [`MapiContact`](../../mapicontact)
 
@@ -36,7 +36,7 @@ A read [`MapiContact`](../../mapicontact)
 
 ---
 
-## MapiContact.FromVCard method (2 of 4)
+## FromVCard(string, Encoding) {#fromvcard_3}
 
 Reads [`MapiContact`](../../mapicontact) from the specified vCard file The supported vCard versions are 2.1 and 3.0
 
@@ -49,7 +49,7 @@ public static MapiContact FromVCard(string filePath, Encoding encoding)
 | filePath | String | A file name to read from |
 | encoding | Encoding | File data encoding |
 
-## Return Value
+### Return Value
 
 A read [`MapiContact`](../../mapicontact)
 
@@ -67,7 +67,7 @@ A read [`MapiContact`](../../mapicontact)
 
 ---
 
-## MapiContact.FromVCard method (3 of 4)
+## FromVCard(Stream) {#fromvcard}
 
 Reads [`MapiContact`](../../mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
@@ -79,7 +79,7 @@ public static MapiContact FromVCard(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream to read from |
 
-## Return Value
+### Return Value
 
 A read [`MapiContact`](../../mapicontact)
 
@@ -98,7 +98,7 @@ A read [`MapiContact`](../../mapicontact)
 
 ---
 
-## MapiContact.FromVCard method (4 of 4)
+## FromVCard(Stream, Encoding) {#fromvcard_1}
 
 Reads [`MapiContact`](../../mapicontact) from the specified stream containing vCard. The supported vCard versions are 2.1 and 3.0
 
@@ -111,7 +111,7 @@ public static MapiContact FromVCard(Stream stream, Encoding encoding)
 | stream | Stream | A stream to read from |
 | encoding | Encoding | Stream data encoding |
 
-## Return Value
+### Return Value
 
 A read [`MapiContact`](../../mapicontact)
 

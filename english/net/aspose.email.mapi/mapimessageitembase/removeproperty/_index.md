@@ -1,7 +1,7 @@
 ---
 title: RemoveProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides correctly removing property from all collections.
 type: docs
 weight: 220
 url: /net/aspose.email.mapi/mapimessageitembase/removeproperty/

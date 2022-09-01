@@ -1,7 +1,7 @@
 ---
 title: DefaultMsg
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets options with default values for saving message to MsgASCII format.
 type: docs
 weight: 70
 url: /net/aspose.email/saveoptions/defaultmsg/

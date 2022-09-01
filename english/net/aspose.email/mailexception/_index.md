@@ -1,9 +1,9 @@
 ---
 title: MailException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the exception that is thrown when the mail message processing.
 type: docs
-weight: 17530
+weight: 17700
 url: /net/aspose.email/mailexception/
 ---
 ## MailException class
@@ -18,9 +18,9 @@ public class MailException : Exception
 
 | Name | Description |
 | --- | --- |
-| [MailException](mailexception)() | Initializes a new instance of the [`MailException`](../mailexception) class. |
-| [MailException](mailexception)(string) | Initializes a new instance of the [`MailException`](../mailexception) class. |
-| [MailException](mailexception)(string, Exception) |  |
+| [MailException](mailexception#constructor)() | Initializes a new instance of the [`MailException`](../mailexception) class. |
+| [MailException](mailexception#constructor_1)(string) | Initializes a new instance of the [`MailException`](../mailexception) class. |
+| [MailException](mailexception#constructor_2)(string, Exception) |  |
 
 ### See Also
 

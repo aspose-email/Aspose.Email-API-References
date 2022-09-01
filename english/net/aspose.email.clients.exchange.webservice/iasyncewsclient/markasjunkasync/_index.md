@@ -1,7 +1,7 @@
 ---
 title: MarkAsJunkAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The MarkAsJunk method moves mail messages to the junk mail folder and blocks message sender.
 type: docs
 weight: 550
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/markasjunkasync/
@@ -22,7 +22,7 @@ public Task<IEnumerable<string>> MarkAsJunkAsync(IEnumerable<string> messageUris
 | moveItem | Boolean | Indicates, whether messages is moved to the junk mail folder. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 The set of identifiers of moved items
 

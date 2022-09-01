@@ -1,9 +1,9 @@
 ---
 title: MapiMessageParseException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This exception is thrown when errors occur in parsing MapiMessage.
 type: docs
-weight: 18280
+weight: 18490
 url: /net/aspose.email.mapi/mapimessageparseexception/
 ---
 ## MapiMessageParseException class
@@ -18,9 +18,9 @@ public class MapiMessageParseException : Exception
 
 | Name | Description |
 | --- | --- |
-| [MapiMessageParseException](mapimessageparseexception)() | Initializes a new instance of the MapiMessageParseException class. |
-| [MapiMessageParseException](mapimessageparseexception)(string) | Initializes a new instance of the MapiMessageParseException class. |
-| [MapiMessageParseException](mapimessageparseexception)(string, Exception) | Initializes a new instance of the MapiMessageParseException class. |
+| [MapiMessageParseException](mapimessageparseexception#constructor)() | Initializes a new instance of the MapiMessageParseException class. |
+| [MapiMessageParseException](mapimessageparseexception#constructor_1)(string) | Initializes a new instance of the MapiMessageParseException class. |
+| [MapiMessageParseException](mapimessageparseexception#constructor_2)(string, Exception) | Initializes a new instance of the MapiMessageParseException class. |
 
 ### See Also
 

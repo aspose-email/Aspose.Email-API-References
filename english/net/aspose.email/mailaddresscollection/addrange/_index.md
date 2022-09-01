@@ -1,12 +1,12 @@
 ---
 title: AddRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds addresses to collection
 type: docs
 weight: 30
 url: /net/aspose.email/mailaddresscollection/addrange/
 ---
-## MailAddressCollection.AddRange method (1 of 2)
+## AddRange(MailAddressCollection) {#addrange}
 
 Adds addresses to collection
 
@@ -26,7 +26,7 @@ public void AddRange(MailAddressCollection addresses)
 
 ---
 
-## MailAddressCollection.AddRange method (2 of 2)
+## AddRange(IEnumerable&lt;MailAddress&gt;) {#addrange_1}
 
 Adds addresses to collection
 

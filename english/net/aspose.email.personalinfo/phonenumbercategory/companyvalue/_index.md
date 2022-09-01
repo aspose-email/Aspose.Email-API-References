@@ -1,7 +1,7 @@
 ---
 title: CompanyValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Company category
 type: docs
 weight: 280
 url: /net/aspose.email.personalinfo/phonenumbercategory/companyvalue/

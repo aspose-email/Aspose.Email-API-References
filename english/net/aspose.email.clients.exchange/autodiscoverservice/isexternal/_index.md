@@ -1,7 +1,7 @@
 ---
 title: IsExternal
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the Autodiscover service that URL points to is internal inside the corporate network or external outside the corporate network.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/autodiscoverservice/isexternal/

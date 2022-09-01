@@ -1,7 +1,7 @@
 ---
 title: PostalAddressCategory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the PostalAddressCategoryaspose.email.personalinfo/postaladdresscategory class with Custom category.
 type: docs
 weight: 10
 url: /net/aspose.email.personalinfo/postaladdresscategory/postaladdresscategory/

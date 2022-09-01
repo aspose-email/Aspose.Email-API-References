@@ -1,7 +1,7 @@
 ---
 title: DeleteChildItem
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the item folder or message by its entryId.
 type: docs
 weight: 210
 url: /net/aspose.email.storage.pst/folderinfo/deletechilditem/

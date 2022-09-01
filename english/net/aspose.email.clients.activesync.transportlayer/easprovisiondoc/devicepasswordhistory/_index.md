@@ -1,7 +1,7 @@
 ---
 title: DevicePasswordHistory
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the minimum number of previously used passwords stored to prevent reuse by the client. Valid values are listed bellow  0  Storage of previously used passwords is not required. gt 0  The minimum number of previously used passwords to be stored. If DevicePasswordHistory is null then a client SHOULD treat this value as 0. If the value of the DevicePasswordEnabled is set to TRUE the client disallows the user from using a stored prior password after a password expires. If the value of the DevicePasswordEnabled is set to FALSE the client SHOULD ignore this property.
 type: docs
 weight: 250
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/devicepasswordhistory/

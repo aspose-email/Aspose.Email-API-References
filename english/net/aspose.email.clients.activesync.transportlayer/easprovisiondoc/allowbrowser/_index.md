@@ -1,7 +1,7 @@
 ---
 title: AllowBrowser
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows the use of a web browser.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowbrowser/

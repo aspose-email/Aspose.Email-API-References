@@ -1,7 +1,7 @@
 ---
 title: Sync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Sync synchronizes changes in a collection between the client and the server.
 type: docs
 weight: 240
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/sync/
@@ -18,7 +18,7 @@ public List<SyncCollectionResponse> Sync(SyncRequest request)
 | --- | --- | --- |
 | request | SyncRequest | Sync request parameters |
 
-## Return Value
+### Return Value
 
 Returns list of responses for Sync operations such as Add, Fetch, Change
 

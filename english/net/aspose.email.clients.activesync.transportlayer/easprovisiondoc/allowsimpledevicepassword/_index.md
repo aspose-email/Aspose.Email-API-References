@@ -1,7 +1,7 @@
 ---
 title: AllowSimpleDevicePassword
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the client allows simple passwords. A simple password is one consisting only of repeated 2222 or sequential abcd characters. If AllowSimpleDevicePassword is null a client SHOULD treat this value as TRUE. If the value of the DevicePasswordEnabled is set to FALSE the client SHOULD ignore this property.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowsimpledevicepassword/

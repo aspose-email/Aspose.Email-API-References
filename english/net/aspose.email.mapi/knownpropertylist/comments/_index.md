@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the comments of the file attached to the Document object. Area Common Canonical name PidNameComments Alternate names urnschemasmicrosoftcomofficeofficeComments
 type: docs
 weight: 2770
 url: /net/aspose.email.mapi/knownpropertylist/comments/

@@ -1,7 +1,7 @@
 ---
 title: ClassificationType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: https//docs.microsoft.com/enus/graph/api/resources/enumsviewgraphrest1.0 https//docs.microsoft.com/enus/graph/api/resources/inferenceclassificationoverrideviewgraphrest1.0 Specifies how incoming messages from a specific sender should always be classified as.
 type: docs
 weight: 15890
 url: /net/aspose.email.clients.graph/classificationtype/
@@ -14,7 +14,7 @@ https://docs.microsoft.com/en-us/graph/api/resources/enums?view=graph-rest-1.0 h
 public enum ClassificationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

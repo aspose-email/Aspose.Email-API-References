@@ -1,7 +1,7 @@
 ---
 title: Mileage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Mileage header.
 type: docs
 weight: 70
 url: /net/aspose.email/mhttemplatename.task/mileage/

@@ -1,7 +1,7 @@
 ---
 title: Schema
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the schema of the item to be fetched. The Schema is supported within options for PIM Fetch section 2.2.3.63.1 requests. It is not supported when the client is retrieving items from a document library or retrieving an attachment. If the Schema element is not specified the server allows all properties to be retrieved.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/itopfetchoptions/schema/

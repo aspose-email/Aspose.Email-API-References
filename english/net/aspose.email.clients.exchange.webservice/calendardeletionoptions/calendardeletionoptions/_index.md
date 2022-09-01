@@ -1,12 +1,12 @@
 ---
 title: CalendarDeletionOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the CalendarDeletionOptionsaspose.email.clients.exchange.webservice/calendardeletionoptions class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/calendardeletionoptions/calendardeletionoptions/
 ---
-## CalendarDeletionOptions constructor (1 of 3)
+## CalendarDeletionOptions() {#constructor}
 
 Initializes a new instance of the [`CalendarDeletionOptions`](../../calendardeletionoptions) class.
 
@@ -22,7 +22,7 @@ public CalendarDeletionOptions()
 
 ---
 
-## CalendarDeletionOptions constructor (2 of 3)
+## CalendarDeletionOptions(DeletionType) {#constructor_1}
 
 Initializes a new instance of the [`CalendarDeletionOptions`](../../calendardeletionoptions) class.
 
@@ -43,7 +43,7 @@ public CalendarDeletionOptions(DeletionType type)
 
 ---
 
-## CalendarDeletionOptions constructor (3 of 3)
+## CalendarDeletionOptions(DeletionType, CalendarItemCreateOrDeleteOperation) {#constructor_2}
 
 Initializes a new instance of the [`CalendarDeletionOptions`](../../calendardeletionoptions) class.
 

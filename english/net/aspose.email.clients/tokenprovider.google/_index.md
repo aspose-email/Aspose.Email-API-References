@@ -1,9 +1,9 @@
 ---
 title: TokenProvider.Google
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides an instance of the TokenProvider for Google mail server
 type: docs
-weight: 16960
+weight: 17130
 url: /net/aspose.email.clients/tokenprovider.google/
 ---
 ## TokenProvider.Google class

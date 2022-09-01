@@ -1,7 +1,7 @@
 ---
 title: ProvisionPolicyStatuses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The value indicates the success or failure of the client to apply the policy settings retrieved from the server.
 type: docs
 weight: 1740
 url: /net/aspose.email.clients.activesync.transportlayer/provisionpolicystatuses/
@@ -14,7 +14,7 @@ The value indicates the success or failure of the client to apply the policy set
 public enum ProvisionPolicyStatuses
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Performs an implicit conversion from Int64 to ImapMessageFlagsaspose.email.clients.imap/imapmessageflags.
 type: docs
 weight: 200
 url: /net/aspose.email.clients.imap/imapmessageflags/op_implicit/
@@ -18,7 +18,7 @@ public static implicit operator ImapMessageFlags(string type)
 | --- | --- | --- |
 | type | String | Value of a type. |
 
-## Return Value
+### Return Value
 
 The result of the conversion.
 

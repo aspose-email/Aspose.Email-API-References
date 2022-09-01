@@ -1,7 +1,7 @@
 ---
 title: LocaleId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the Logon object LocaleID. Area Miscellaneous Properties Canonical name PidTagLocaleId Alternate names PR_LOCALE_ID ptagLocaleId
 type: docs
 weight: 12170
 url: /net/aspose.email.mapi/knownpropertylist/localeid/

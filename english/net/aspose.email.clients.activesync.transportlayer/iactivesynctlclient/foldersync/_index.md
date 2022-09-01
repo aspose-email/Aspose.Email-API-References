@@ -1,12 +1,12 @@
 ---
 title: FolderSync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The FolderSync synchronizes the collection hierarchy but does not synchronize the items in the collections themselves.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/foldersync/
 ---
-## IActiveSyncTLClient.FolderSync method (1 of 2)
+## FolderSync() {#foldersync}
 
 The FolderSync synchronizes the collection hierarchy but does not synchronize the items in the collections themselves.
 
@@ -14,7 +14,7 @@ The FolderSync synchronizes the collection hierarchy but does not synchronize th
 public FolderSyncResult FolderSync()
 ```
 
-## Return Value
+### Return Value
 
 Returns changes to the folder hierarchy.
 
@@ -27,7 +27,7 @@ Returns changes to the folder hierarchy.
 
 ---
 
-## IActiveSyncTLClient.FolderSync method (2 of 2)
+## FolderSync(bool) {#foldersync_1}
 
 The FolderSync synchronizes the collection hierarchy but does not synchronize the items in the collections themselves.
 
@@ -39,7 +39,7 @@ public FolderSyncResult FolderSync(bool resetSyncKey)
 | --- | --- | --- |
 | resetSyncKey | Boolean | Indicates if SyncKey for operations with folders has to be reseted or not. |
 
-## Return Value
+### Return Value
 
 Returns changes to the folder hierarchy.
 

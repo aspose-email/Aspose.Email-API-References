@@ -1,7 +1,7 @@
 ---
 title: MaxPictures
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Limits the number of contact photos returned in the server response. The MaxPictures is not supported when the protocol version is 12.1 or 14.0. The server returns the first N results that have contact photos where N is the value of the MaxPictures. After the MaxPictures limit is reached the server returns Status value 173 NoPicture if the contact has no photo Status value 174 PictureTooLarge if the contacts photo is too large or Status value 175 PictureLimitReached if the contact has a photo but the MaxPictures limit was reached. Note that the MaxPictures identifies the number of contact photos returned per query. Therefore if the client includes three recipients to resolve and sets the MaxPictures value to 3 in the ResolveRecipients command request a maximum of 9 contact photos can be returned.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/picturerequest/maxpictures/

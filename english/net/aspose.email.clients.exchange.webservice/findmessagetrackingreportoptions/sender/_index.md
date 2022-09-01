@@ -1,7 +1,7 @@
 ---
 title: Sender
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the email address of the person who is sending the message.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange.webservice/findmessagetrackingreportoptions/sender/

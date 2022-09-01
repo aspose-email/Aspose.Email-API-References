@@ -1,7 +1,7 @@
 ---
 title: Events
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specify events associated with a contact
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicontact/events/

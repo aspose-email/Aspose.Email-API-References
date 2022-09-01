@@ -1,9 +1,9 @@
 ---
 title: PreferredTextEncoding
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets preferred encoding for all text properties
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.email/mailmessage/preferredtextencoding/
 ---
 ## MailMessage.PreferredTextEncoding property

@@ -1,9 +1,9 @@
 ---
 title: XMailer
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the XMailer the software that created the email message
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.email/mailmessage/xmailer/
 ---
 ## MailMessage.XMailer property

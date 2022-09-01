@@ -1,7 +1,7 @@
 ---
 title: SendingAs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an email address that a user is trying to send as.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/getmailtipsoptions/sendingas/

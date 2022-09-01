@@ -1,7 +1,7 @@
 ---
 title: NonDeliveryReportDiagCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the diagnostic code for a delivery status notification as specified in RFC3464. Area Email Canonical name PidTagNonDeliveryReportDiagCode Alternate names PR_NDR_DIAG_CODE ptagNonDeliveryDiagCode
 type: docs
 weight: 12950
 url: /net/aspose.email.mapi/knownpropertylist/nondeliveryreportdiagcode/

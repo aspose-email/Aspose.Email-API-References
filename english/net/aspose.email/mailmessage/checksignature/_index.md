@@ -1,12 +1,12 @@
 ---
 title: CheckSignature
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Checks the signature of the specified eml file.
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.email/mailmessage/checksignature/
 ---
-## MailMessage.CheckSignature method (1 of 3)
+## CheckSignature(string) {#checksignature_1}
 
 Checks the signature of the specified eml file.
 
@@ -18,7 +18,7 @@ public static bool CheckSignature(string fileName)
 | --- | --- | --- |
 | fileName | String | A file name (eml). |
 
-## Return Value
+### Return Value
 
 `True` if signature is valid; otherwise, `false`.
 
@@ -39,7 +39,7 @@ public static bool CheckSignature(string fileName)
 
 ---
 
-## MailMessage.CheckSignature method (2 of 3)
+## CheckSignature(Stream) {#checksignature}
 
 Checks the signature of the specified eml message.
 
@@ -51,7 +51,7 @@ public static bool CheckSignature(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream containing the message in eml format. |
 
-## Return Value
+### Return Value
 
 `True` if signature is valid; otherwise, `false`.
 
@@ -71,7 +71,7 @@ public static bool CheckSignature(Stream stream)
 
 ---
 
-## MailMessage.CheckSignature method (3 of 3)
+## CheckSignature()
 
 Checking signature exsisting MailMessage.
 
@@ -79,7 +79,7 @@ Checking signature exsisting MailMessage.
 public virtual X509Certificate2[] CheckSignature()
 ```
 
-## Return Value
+### Return Value
 
 X.509 signers certificates
 

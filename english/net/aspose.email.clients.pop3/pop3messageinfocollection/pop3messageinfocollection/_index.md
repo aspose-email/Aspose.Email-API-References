@@ -1,7 +1,7 @@
 ---
 title: Pop3MessageInfoCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the Pop3MessageInfoCollection class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.pop3/pop3messageinfocollection/pop3messageinfocollection/

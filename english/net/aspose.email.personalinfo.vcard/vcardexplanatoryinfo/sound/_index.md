@@ -1,9 +1,9 @@
 ---
 title: Sound
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a sound
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/sound/
 ---
 ## VCardExplanatoryInfo.Sound property

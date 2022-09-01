@@ -1,7 +1,7 @@
 ---
 title: BodyType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the format type of the body content of the item. The following are the permitted values for the BodyType element  Text  HTML
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/oofreqparametrs/bodytype/

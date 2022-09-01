@@ -1,7 +1,7 @@
 ---
 title: ElementIndex
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The index of the processed element.
 type: docs
 weight: 20
 url: /net/aspose.email/elementprocessingexception/elementindex/

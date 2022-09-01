@@ -1,7 +1,7 @@
 ---
 title: DisableSessionStates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Set this attribute on the ampaccordion to opt out of preserving the collapsed/expanded state of the accordion.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/ampaccordion/disablesessionstates/

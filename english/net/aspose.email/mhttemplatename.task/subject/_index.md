@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Subject header.
 type: docs
 weight: 120
 url: /net/aspose.email/mhttemplatename.task/subject/

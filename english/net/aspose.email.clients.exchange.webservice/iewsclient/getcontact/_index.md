@@ -1,12 +1,12 @@
 ---
 title: GetContact
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves contact information according to specified identifier.
 type: docs
 weight: 900
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/getcontact/
 ---
-## IEWSClient.GetContact method (1 of 4)
+## GetContact(ObjectIdentifier) {#getcontact}
 
 Retrieves contact information according to specified identifier.
 
@@ -18,7 +18,7 @@ public Contact GetContact(ObjectIdentifier contactId)
 | --- | --- | --- |
 | contactId | ObjectIdentifier | Contact identifier |
 
-## Return Value
+### Return Value
 
 Contact information
 
@@ -32,7 +32,7 @@ Contact information
 
 ---
 
-## IEWSClient.GetContact method (2 of 4)
+## GetContact(ObjectIdentifier, ExchangeListContactsOptions) {#getcontact_1}
 
 Retrieves contact information according to specified identifier.
 
@@ -45,7 +45,7 @@ public Contact GetContact(ObjectIdentifier contactId, ExchangeListContactsOption
 | contactId | ObjectIdentifier | Contact identifier |
 | options | ExchangeListContactsOptions | Settings for retrieving contact. |
 
-## Return Value
+### Return Value
 
 Contact information
 
@@ -60,7 +60,7 @@ Contact information
 
 ---
 
-## IEWSClient.GetContact method (3 of 4)
+## GetContact(string) {#getcontact_2}
 
 Retrieves contact information according to specified identifier.
 
@@ -72,7 +72,7 @@ public Contact GetContact(string contactId)
 | --- | --- | --- |
 | contactId | String | Contact identifier |
 
-## Return Value
+### Return Value
 
 Contact information
 
@@ -85,7 +85,7 @@ Contact information
 
 ---
 
-## IEWSClient.GetContact method (4 of 4)
+## GetContact(string, ExchangeListContactsOptions) {#getcontact_3}
 
 Retrieves contact information according to specified identifier.
 
@@ -98,7 +98,7 @@ public Contact GetContact(string contactId, ExchangeListContactsOptions options)
 | contactId | String | Contact identifier |
 | options | ExchangeListContactsOptions | Settings for retrieving contact. |
 
-## Return Value
+### Return Value
 
 Contact information
 

@@ -1,7 +1,7 @@
 ---
 title: IgnoredItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The optional list of item uris that should be ignored.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/syncstate/ignoreditems/

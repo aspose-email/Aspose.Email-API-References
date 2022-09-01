@@ -1,7 +1,7 @@
 ---
 title: FlagStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the aggregated flag status for conversation items in the current folder.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/exchangeconversation/flagstatus/

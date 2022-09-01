@@ -1,7 +1,7 @@
 ---
 title: AllowPOPIMAPEmail
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows access to POP or IMAP email.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowpopimapemail/

@@ -1,7 +1,7 @@
 ---
 title: ModifiedDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the date of message.
 type: docs
 weight: 50
 url: /net/aspose.email.storage.olm/olmmessageinfo/modifieddate/

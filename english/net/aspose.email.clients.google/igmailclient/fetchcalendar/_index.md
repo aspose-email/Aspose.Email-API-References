@@ -1,7 +1,7 @@
 ---
 title: FetchCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches calendar by identifier.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.google/igmailclient/fetchcalendar/
@@ -18,7 +18,7 @@ public ExtendedCalendar FetchCalendar(string calendarId)
 | --- | --- | --- |
 | calendarId | String | Calendar identifier. |
 
-## Return Value
+### Return Value
 
 Returns fetched calendar.
 

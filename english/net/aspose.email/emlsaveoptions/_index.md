@@ -1,9 +1,9 @@
 ---
 title: EmlSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows to specify additional options when saving MailMessage to Eml and Emlx format.
 type: docs
-weight: 17110
+weight: 17280
 url: /net/aspose.email/emlsaveoptions/
 ---
 ## EmlSaveOptions class

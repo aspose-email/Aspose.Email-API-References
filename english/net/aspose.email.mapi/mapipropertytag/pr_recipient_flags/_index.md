@@ -1,7 +1,7 @@
 ---
 title: PR_RECIPIENT_FLAGS
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a bit field that describes the recipient status.
 type: docs
 weight: 17810
 url: /net/aspose.email.mapi/mapipropertytag/pr_recipient_flags/

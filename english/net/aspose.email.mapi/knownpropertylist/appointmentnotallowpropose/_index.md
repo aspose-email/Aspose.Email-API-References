@@ -1,7 +1,7 @@
 ---
 title: AppointmentNotAllowPropose
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether attendees are not allowed to propose a new date and/or time for the meeting. Area Meetings Canonical name PidLidAppointmentNotAllowPropose Alternate names dispidApptNotAllowPropose
 type: docs
 weight: 1200
 url: /net/aspose.email.mapi/knownpropertylist/appointmentnotallowpropose/

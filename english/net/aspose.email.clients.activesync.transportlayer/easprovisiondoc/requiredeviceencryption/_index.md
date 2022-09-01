@@ -1,7 +1,7 @@
 ---
 title: RequireDeviceEncryption
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the client uses encryption.
 type: docs
 weight: 360
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requiredeviceencryption/

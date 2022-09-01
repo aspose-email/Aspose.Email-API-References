@@ -1,7 +1,7 @@
 ---
 title: CC
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This header can be considered an extension of the To field as it is used to specifiy additional recipients. In this case the copy of an email message sent to a recipient has the recipients address appearing in the message. This is useful if you want to copy a message to many people with each of them seeing who the other recipients are contrast with Bcc above. This header does appear in incoming email. Exmple Cc gboydnetcom.com
 type: docs
 weight: 40
 url: /net/aspose.email/headertype/cc/

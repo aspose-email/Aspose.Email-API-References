@@ -1,7 +1,7 @@
 ---
 title: DeviceType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The device type is specified by the devicetypespec ABNF rule portion of the plain text query value. The value represented by the devicetype ABNF rule is any string that specifies a device type. SP specifies a SmartPhone and PPC specifies a PocketPC. Other client devices send unique strings for their specific device type. Each request from a client device MUST include the same device type string.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/ibaseactivesynctlclient/devicetype/

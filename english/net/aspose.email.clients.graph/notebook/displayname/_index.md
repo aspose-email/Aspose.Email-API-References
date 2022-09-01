@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The name of the notebook.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.graph/notebook/displayname/

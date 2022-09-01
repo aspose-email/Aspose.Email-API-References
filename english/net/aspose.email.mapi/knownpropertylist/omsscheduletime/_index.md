@@ -1,7 +1,7 @@
 ---
 title: OMSScheduleTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the time in UTC at which the client requested that the service provider send the SMS or MMS message. Area SMS Canonical name PidNameOMSScheduleTime Alternate names
 type: docs
 weight: 13390
 url: /net/aspose.email.mapi/knownpropertylist/omsscheduletime/

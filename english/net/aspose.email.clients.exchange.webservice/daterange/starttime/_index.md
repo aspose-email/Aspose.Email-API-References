@@ -1,7 +1,7 @@
 ---
 title: StartTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the start of a time period.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/daterange/starttime/

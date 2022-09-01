@@ -1,7 +1,7 @@
 ---
 title: SyncRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains Sync request parameters
 type: docs
 weight: 2280
 url: /net/aspose.email.clients.activesync.transportlayer/syncrequest/

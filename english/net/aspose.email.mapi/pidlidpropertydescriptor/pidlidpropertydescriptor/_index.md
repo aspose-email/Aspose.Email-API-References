@@ -1,12 +1,12 @@
 ---
 title: PidLidPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the PidLidPropertyDescriptoraspose.email.mapi/pidlidpropertydescriptor class Properties identified by an unsigned 32bit quantity along with a property set.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/pidlidpropertydescriptor/pidlidpropertydescriptor/
 ---
-## PidLidPropertyDescriptor constructor (1 of 3)
+## PidLidPropertyDescriptor(long, PropertyDataType, Guid) {#constructor}
 
 Initializes a new instance of the [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) class Properties identified by an unsigned 32-bit quantity along with a property set.
 
@@ -29,7 +29,7 @@ public PidLidPropertyDescriptor(long longId, PropertyDataType type, Guid propert
 
 ---
 
-## PidLidPropertyDescriptor constructor (2 of 3)
+## PidLidPropertyDescriptor(string, long, PropertyDataType, Guid) {#constructor_1}
 
 Initializes a new instance of the [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) class Properties identified by an unsigned 32-bit quantity along with a property set.
 
@@ -54,7 +54,7 @@ public PidLidPropertyDescriptor(string canonicalName, long longId, PropertyDataT
 
 ---
 
-## PidLidPropertyDescriptor constructor (3 of 3)
+## PidLidPropertyDescriptor(string, string, long, PropertyDataType, Guid) {#constructor_2}
 
 Initializes a new instance of the [`PidLidPropertyDescriptor`](../../pidlidpropertydescriptor) class Properties identified by an unsigned 32-bit quantity along with a property set.
 

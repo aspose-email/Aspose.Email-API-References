@@ -1,7 +1,7 @@
 ---
 title: Subject
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a message subject
 type: docs
 weight: 90
 url: /net/aspose.email/imessage/subject/

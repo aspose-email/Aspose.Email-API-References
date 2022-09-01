@@ -1,7 +1,7 @@
 ---
 title: Blocked
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This is true if the URL click is blocked by Office 365 ATP Safe Links protection. Mandatory Yes
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/o365urltimeofclickactivity/blocked/

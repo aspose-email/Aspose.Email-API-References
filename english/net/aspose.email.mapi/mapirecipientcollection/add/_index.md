@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds the new recipient.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapirecipientcollection/add/
 ---
-## MapiRecipientCollection.Add method (1 of 3)
+## Add(string, string, MapiRecipientType) {#add_2}
 
 Adds the new recipient.
 
@@ -40,7 +40,7 @@ When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMe
 
 ---
 
-## MapiRecipientCollection.Add method (2 of 3)
+## Add(string, string, string, MapiRecipientType) {#add_3}
 
 Adds the new recipient.
 
@@ -76,7 +76,7 @@ When adding a new recepient, the value of either MapiMessage.DisplayTo or MapiMe
 
 ---
 
-## MapiRecipientCollection.Add method (3 of 3)
+## Add(MapiRecipient) {#add}
 
 Adds an object to the end of the Collection.
 

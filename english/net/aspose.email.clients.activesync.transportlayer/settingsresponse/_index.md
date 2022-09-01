@@ -1,7 +1,7 @@
 ---
 title: SettingsResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a response with Out of Office OOF settings and list of the users accounts.
 type: docs
 weight: 2070
 url: /net/aspose.email.clients.activesync.transportlayer/settingsresponse/

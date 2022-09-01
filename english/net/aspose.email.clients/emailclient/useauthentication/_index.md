@@ -1,7 +1,7 @@
 ---
 title: UseAuthentication
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether authentication is used.
 type: docs
 weight: 200
 url: /net/aspose.email.clients/emailclient/useauthentication/

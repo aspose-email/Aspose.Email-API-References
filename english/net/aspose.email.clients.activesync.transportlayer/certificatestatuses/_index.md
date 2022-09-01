@@ -1,7 +1,7 @@
 ---
 title: CertificateStatuses
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether certificate was successfully validated.
 type: docs
 weight: 1090
 url: /net/aspose.email.clients.activesync.transportlayer/certificatestatuses/

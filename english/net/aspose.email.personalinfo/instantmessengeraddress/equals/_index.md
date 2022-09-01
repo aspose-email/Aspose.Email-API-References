@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified Object is equal to the current Object.
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/instantmessengeraddress/equals/
 ---
-## InstantMessengerAddress.Equals method (1 of 3)
+## Equals(object) {#equals_2}
 
 Determines whether the specified Object is equal to the current Object.
 
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to compare with the current Object. |
 
-## Return Value
+### Return Value
 
 Returns a boolean indicating if the passed in object obj is Equal to this.
 
@@ -30,7 +30,7 @@ Returns a boolean indicating if the passed in object obj is Equal to this.
 
 ---
 
-## InstantMessengerAddress.Equals method (2 of 3)
+## Equals(InstantMessengerAddress) {#equals}
 
 Determines whether the specified Object is equal to the current Object.
 
@@ -42,7 +42,7 @@ public bool Equals(InstantMessengerAddress obj)
 | --- | --- | --- |
 | obj | InstantMessengerAddress | The Object to compare with the current Object. |
 
-## Return Value
+### Return Value
 
 Returns a boolean indicating if the passed in object obj is Equal to this.
 
@@ -54,7 +54,7 @@ Returns a boolean indicating if the passed in object obj is Equal to this.
 
 ---
 
-## InstantMessengerAddress.Equals method (3 of 3)
+## Equals(InstantMessengerAddress, InstantMessengerAddress) {#equals_1}
 
 Determines whether the specified object instances are considered equal.
 
@@ -67,7 +67,7 @@ public bool Equals(InstantMessengerAddress x, InstantMessengerAddress y)
 | x | InstantMessengerAddress | The first object to compare. |
 | y | InstantMessengerAddress | The second object to compare. |
 
-## Return Value
+### Return Value
 
 true if the objects are considered equal; otherwise, false. If both objA and objB are null, the method returns true.
 

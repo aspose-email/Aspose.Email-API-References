@@ -1,7 +1,7 @@
 ---
 title: RightsManagementInformation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains rights management information settings retrieved from the server.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/settingsresponse/rightsmanagementinformation/

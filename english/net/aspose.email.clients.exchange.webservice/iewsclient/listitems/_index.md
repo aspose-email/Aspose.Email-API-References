@@ -1,12 +1,12 @@
 ---
 title: ListItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieve list of item uries in specified folder
 type: docs
 weight: 1120
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listitems/
 ---
-## IEWSClient.ListItems method (1 of 6)
+## ListItems(string, string) {#listitems_3}
 
 Retrieve list of item uries in specified folder
 
@@ -19,7 +19,7 @@ public string[] ListItems(string mailbox, string folder)
 | mailbox | String | The mailbox that is used to initialize the folder id class. |
 | folder | String | folder to search items |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -31,7 +31,7 @@ Returns list of item uries
 
 ---
 
-## IEWSClient.ListItems method (2 of 6)
+## ListItems(string, string, MailQuery) {#listitems_4}
 
 Retrieve list of item uries in specified folder
 
@@ -45,7 +45,7 @@ public string[] ListItems(string mailbox, string folder, MailQuery query)
 | folder | String | folder to search items |
 | query | MailQuery | Additional conditions to select items |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -58,7 +58,7 @@ Returns list of item uries
 
 ---
 
-## IEWSClient.ListItems method (3 of 6)
+## ListItems(string, string, MailQuery, bool) {#listitems_5}
 
 Retrieve list of item uries in specified folder
 
@@ -73,7 +73,7 @@ public string[] ListItems(string mailbox, string folder, MailQuery query, bool r
 | query | MailQuery | Additional conditions to select items |
 | recursive | Boolean | Specifies whether request should be reqursive. |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -86,7 +86,7 @@ Returns list of item uries
 
 ---
 
-## IEWSClient.ListItems method (4 of 6)
+## ListItems(string) {#listitems}
 
 Retrieve list of item uries in specified folder
 
@@ -98,7 +98,7 @@ public string[] ListItems(string folder)
 | --- | --- | --- |
 | folder | String | folder to search items |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -110,7 +110,7 @@ Returns list of item uries
 
 ---
 
-## IEWSClient.ListItems method (5 of 6)
+## ListItems(string, MailQuery) {#listitems_1}
 
 Retrieve list of item uries in specified folder
 
@@ -123,7 +123,7 @@ public string[] ListItems(string folder, MailQuery query)
 | folder | String | folder to search items |
 | query | MailQuery | Additional conditions to select items |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 
@@ -136,7 +136,7 @@ Returns list of item uries
 
 ---
 
-## IEWSClient.ListItems method (6 of 6)
+## ListItems(string, MailQuery, bool) {#listitems_2}
 
 Retrieve list of item uries in specified folder
 
@@ -150,7 +150,7 @@ public string[] ListItems(string folder, MailQuery query, bool recursive)
 | query | MailQuery | Additional conditions to select items |
 | recursive | Boolean | Specifies whether request should be reqursive. |
 
-## Return Value
+### Return Value
 
 Returns list of item uries
 

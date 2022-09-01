@@ -1,12 +1,12 @@
 ---
 title: op_Implicit
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts Contactaspose.email.personalinfo/contact to MapiContactaspose.email.mapi/mapicontact object
 type: docs
 weight: 430
 url: /net/aspose.email.personalinfo/contact/op_implicit/
 ---
-## Contact Implicit operator (1 of 2)
+## implicit operator {#op_implicit}
 
 Converts [`Contact`](../../contact) to [`MapiContact`](../../../aspose.email.mapi/mapicontact) object
 
@@ -18,7 +18,7 @@ public static implicit operator MapiContact(Contact contact)
 | --- | --- | --- |
 | contact | Contact | Object for conversion |
 
-## Return Value
+### Return Value
 
 [`MapiContact`](../../../aspose.email.mapi/mapicontact) object
 
@@ -31,7 +31,7 @@ public static implicit operator MapiContact(Contact contact)
 
 ---
 
-## Contact Implicit operator (2 of 2)
+## implicit operator {#op_implicit_1}
 
 Converts [`MapiContact`](../../../aspose.email.mapi/mapicontact) to [`Contact`](../../contact) object
 
@@ -43,7 +43,7 @@ public static implicit operator Contact(MapiContact contact)
 | --- | --- | --- |
 | contact | MapiContact | Object for conversion |
 
-## Return Value
+### Return Value
 
 [`Contact`](../../contact) object
 

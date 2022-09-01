@@ -1,7 +1,7 @@
 ---
 title: ExecuteRecursively
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets value which defines if backup should be executed recursively
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/backupsettings/executerecursively/

@@ -1,7 +1,7 @@
 ---
 title: MaxFontSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the maximum font size as an integer that the ampfittext can use.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/ampfittext/maxfontsize/

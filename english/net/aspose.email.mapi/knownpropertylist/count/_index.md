@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the number of elements contained in the System.Collections.Generic.ICollection.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/knownpropertylist/count/

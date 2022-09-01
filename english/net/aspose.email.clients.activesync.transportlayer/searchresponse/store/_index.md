@@ -1,7 +1,7 @@
 ---
 title: Store
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the Status Result Range and Total elements for the returned mailbox entries.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/searchresponse/store/

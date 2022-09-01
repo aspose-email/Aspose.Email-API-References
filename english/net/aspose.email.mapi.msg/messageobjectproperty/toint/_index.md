@@ -1,7 +1,7 @@
 ---
 title: ToInt
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Converts the value of the property to integer.
 type: docs
 weight: 150
 url: /net/aspose.email.mapi.msg/messageobjectproperty/toint/
@@ -14,7 +14,7 @@ Converts the value of the property to integer.
 public int ToInt()
 ```
 
-## Return Value
+### Return Value
 
 Integer value, if type can't be converted to integer returns 0.
 

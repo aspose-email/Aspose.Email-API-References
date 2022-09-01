@@ -1,7 +1,7 @@
 ---
 title: CalendarResources
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies a list of resources such as rooms and video equipment that are available for an appointment. Area Common Canonical name PidNameCalendarResources Alternate names urnschemascalendarresources
 type: docs
 weight: 2380
 url: /net/aspose.email.mapi/knownpropertylist/calendarresources/

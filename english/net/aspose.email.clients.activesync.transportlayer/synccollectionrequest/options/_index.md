@@ -1,7 +1,7 @@
 ---
 title: Options
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies options that control certain aspects of how the synchronization is performed. Number allowed 0...2. Synchronization options enable the client to specify truncation and content settings. These settings are encapsulated within a airsyncbaseBodyPreference child element as specified in MSASAIRS section 2.2.2.7. Because synchronization options are specified on a collection the client can specify a unique airsyncbaseBodyPreference element value for each collection that it is being synchronized. For more details about the airsyncbaseBodyPreference element see MSASAIRS section 2.2.2.7. The server preserves the Options block across requests using a concept referred to as sticky options. If the Options block is not included in a request the previous Options block is used. Whenever the client specifies new options by including an Options block in the request the server MUST replace the original Options block with the new Options block. If two Options elements are included in a single Sync command request one of the Options elements MUST specify the synchronization options for the SMS class while the other Options element specifies the options for the default class of the given folder.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionrequest/options/

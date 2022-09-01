@@ -1,7 +1,7 @@
 ---
 title: MessageCodepage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the code page used to encode the nonUnicode string properties on this Message object. Area Common Canonical name PidTagMessageCodepage Alternate names PR_MESSAGE_CODEPAGE
 type: docs
 weight: 12480
 url: /net/aspose.email.mapi/knownpropertylist/messagecodepage/

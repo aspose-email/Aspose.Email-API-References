@@ -1,7 +1,7 @@
 ---
 title: RemoteWipeStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a clients confirmation of a servers remote wipe directive. The value indicates the success or failure of a remote wipe operation on the client.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/provisionrequest/remotewipestatus/

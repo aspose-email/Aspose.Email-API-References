@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the user configuration object item identifier.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange.webservice/userconfiguration/id/

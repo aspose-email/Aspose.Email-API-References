@@ -1,7 +1,7 @@
 ---
 title: AIMValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for AIM category
 type: docs
 weight: 190
 url: /net/aspose.email.personalinfo/instantmessengercategory/aimvalue/

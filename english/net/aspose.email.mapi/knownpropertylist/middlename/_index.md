@@ -1,7 +1,7 @@
 ---
 title: MiddleName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the middle names of the contact. Area Address Properties Canonical name PidTagMiddleName Alternate names PR_MIDDLE_NAME PR_MIDDLE_NAME_A PR_MIDDLE_NAME_W
 type: docs
 weight: 12680
 url: /net/aspose.email.mapi/knownpropertylist/middlename/

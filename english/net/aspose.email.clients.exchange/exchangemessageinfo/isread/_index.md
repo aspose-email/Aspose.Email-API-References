@@ -1,7 +1,7 @@
 ---
 title: IsRead
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the message has been read
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/exchangemessageinfo/isread/

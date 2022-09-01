@@ -1,12 +1,12 @@
 ---
 title: ExtendedCalendar
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ExtendedCalendar class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/extendedcalendar/extendedcalendar/
 ---
-## ExtendedCalendar constructor (1 of 7)
+## ExtendedCalendar() {#constructor}
 
 Initializes a new instance of the ExtendedCalendar class.
 
@@ -22,7 +22,7 @@ public ExtendedCalendar()
 
 ---
 
-## ExtendedCalendar constructor (2 of 7)
+## ExtendedCalendar(string) {#constructor_1}
 
 Initializes a new instance of the ExtendedCalendar class.
 
@@ -42,7 +42,7 @@ public ExtendedCalendar(string summary)
 
 ---
 
-## ExtendedCalendar constructor (3 of 7)
+## ExtendedCalendar(string, string) {#constructor_2}
 
 Initializes a new instance of the ExtendedCalendar class.
 
@@ -63,7 +63,7 @@ public ExtendedCalendar(string id, string summary)
 
 ---
 
-## ExtendedCalendar constructor (4 of 7)
+## ExtendedCalendar(string, string, string, string) {#constructor_3}
 
 Initializes a new instance of the ExtendedCalendar class.
 
@@ -86,7 +86,7 @@ public ExtendedCalendar(string summary, string description, string location, str
 
 ---
 
-## ExtendedCalendar constructor (5 of 7)
+## ExtendedCalendar(string, string, string, string, string) {#constructor_4}
 
 Initializes a new instance of the ExtendedCalendar class.
 
@@ -111,7 +111,7 @@ public ExtendedCalendar(string id, string summary, string description, string lo
 
 ---
 
-## ExtendedCalendar constructor (6 of 7)
+## ExtendedCalendar(string, string, string, string, string, string, string, string, string, bool, bool, AccessRole, KeyValuePair&lt;ReminderMethods, int&gt;[], bool) {#constructor_5}
 
 Initializes a new instance of the ExtendedCalendar class.
 
@@ -149,7 +149,7 @@ public ExtendedCalendar(string id, string summary, string description, string lo
 
 ---
 
-## ExtendedCalendar constructor (7 of 7)
+## ExtendedCalendar(string, string, string, string, string, string, string, string, string, string, bool, bool, AccessRole, KeyValuePair&lt;ReminderMethods, int&gt;[], bool) {#constructor_6}
 
 Initializes a new instance of the ExtendedCalendar class.
 

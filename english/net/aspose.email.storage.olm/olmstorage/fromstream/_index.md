@@ -1,7 +1,7 @@
 ---
 title: FromStream
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Load OLM from stream.
 type: docs
 weight: 30
 url: /net/aspose.email.storage.olm/olmstorage/fromstream/
@@ -18,7 +18,7 @@ public static OlmStorage FromStream(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The System.IO.Stream. |
 
-## Return Value
+### Return Value
 
 An OlmStorage object that represents the current OLM storage.
 

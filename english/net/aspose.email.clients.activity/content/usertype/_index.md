@@ -1,7 +1,7 @@
 ---
 title: UserType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The type of user that performed the operation. Mandatory Yes
 type: docs
 weight: 130
 url: /net/aspose.email.clients.activity/content/usertype/

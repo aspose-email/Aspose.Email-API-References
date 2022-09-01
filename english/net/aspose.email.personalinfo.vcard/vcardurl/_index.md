@@ -1,9 +1,9 @@
 ---
 title: VCardUrl
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a vCard URL property
 type: docs
-weight: 19580
+weight: 19810
 url: /net/aspose.email.personalinfo.vcard/vcardurl/
 ---
 ## VCardUrl class

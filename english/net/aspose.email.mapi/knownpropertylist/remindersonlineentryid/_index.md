@@ -1,7 +1,7 @@
 ---
 title: RemindersOnlineEntryId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains an EntryID for the Reminders folder. Area MapiContainer Canonical name PidTagRemindersOnlineEntryId Alternate names PR_REM_ONLINE_ENTRYID ptagRemOnlineEntryId
 type: docs
 weight: 15730
 url: /net/aspose.email.mapi/knownpropertylist/remindersonlineentryid/

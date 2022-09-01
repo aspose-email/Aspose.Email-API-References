@@ -1,7 +1,7 @@
 ---
 title: AccessControlRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Access control rule.
 type: docs
 weight: 15580
 url: /net/aspose.email.clients.google/accesscontrolrule/
@@ -18,10 +18,10 @@ public class AccessControlRule : BaseDataObject
 
 | Name | Description |
 | --- | --- |
-| [AccessControlRule](accesscontrolrule)() | Initializes a new instance of the AccessControlRule class. |
-| [AccessControlRule](accesscontrolrule)(AclScope, AccessRole) | Initializes a new instance of the AccessControlRule class. |
-| [AccessControlRule](accesscontrolrule)(string, AclScope, AccessRole) | Initializes a new instance of the AccessControlRule class. |
-| [AccessControlRule](accesscontrolrule)(string, string, AclScope, AccessRole) | Initializes a new instance of the AccessControlRule class. |
+| [AccessControlRule](accesscontrolrule#constructor)() | Initializes a new instance of the AccessControlRule class. |
+| [AccessControlRule](accesscontrolrule#constructor_1)(AclScope, AccessRole) | Initializes a new instance of the AccessControlRule class. |
+| [AccessControlRule](accesscontrolrule#constructor_2)(string, AclScope, AccessRole) | Initializes a new instance of the AccessControlRule class. |
+| [AccessControlRule](accesscontrolrule#constructor_3)(string, string, AclScope, AccessRole) | Initializes a new instance of the AccessControlRule class. |
 
 ## Properties
 
@@ -39,11 +39,11 @@ public class AccessControlRule : BaseDataObject
 | --- | --- |
 | override [ToString](../../aspose.email.clients.google/accesscontrolrule/tostring)() | Returns a string which represents the object instance. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [AccessControlRuleKind](accesscontrolrulekind) | Type of the resource ("calendar#calendar"). |
+| const [AccessControlRuleKind](../../aspose.email.clients.google/accesscontrolrule/accesscontrolrulekind) | Type of the resource ("calendar#calendar"). |
 
 ### See Also
 

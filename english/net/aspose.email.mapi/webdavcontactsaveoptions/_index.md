@@ -1,9 +1,9 @@
 ---
 title: WebDavContactSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the contact save options.
 type: docs
-weight: 18830
+weight: 19040
 url: /net/aspose.email.mapi/webdavcontactsaveoptions/
 ---
 ## WebDavContactSaveOptions class

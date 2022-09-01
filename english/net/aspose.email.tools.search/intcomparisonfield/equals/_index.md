@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field must be equal to the specified value.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.search/intcomparisonfield/equals/
@@ -18,7 +18,7 @@ public MailQuery Equals(int value)
 | --- | --- | --- |
 | value | Int32 | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

@@ -1,12 +1,12 @@
 ---
 title: GetMessageHeadersAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the message headers
 type: docs
 weight: 220
 url: /net/aspose.email.clients.pop3/pop3client/getmessageheadersasync/
 ---
-## Pop3Client.GetMessageHeadersAsync method (1 of 8)
+## GetMessageHeadersAsync(IConnection, int) {#getmessageheadersasync}
 
 Gets the message headers
 
@@ -19,7 +19,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, int
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -33,7 +33,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (2 of 8)
+## GetMessageHeadersAsync(int) {#getmessageheadersasync_4}
 
 Gets the message headers
 
@@ -45,7 +45,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -58,7 +58,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (3 of 8)
+## GetMessageHeadersAsync(IConnection, string) {#getmessageheadersasync_2}
 
 Gets the message headers
 
@@ -71,7 +71,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, str
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -85,7 +85,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (4 of 8)
+## GetMessageHeadersAsync(string) {#getmessageheadersasync_6}
 
 Gets the message headers
 
@@ -97,7 +97,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -110,7 +110,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (5 of 8)
+## GetMessageHeadersAsync(IConnection, int, CancellationToken) {#getmessageheadersasync_1}
 
 Gets the message headers
 
@@ -125,7 +125,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, int
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -139,7 +139,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (6 of 8)
+## GetMessageHeadersAsync(int, CancellationToken) {#getmessageheadersasync_5}
 
 Gets the message headers
 
@@ -152,7 +152,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(int sequenceNumber, Cancell
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -165,7 +165,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (7 of 8)
+## GetMessageHeadersAsync(IConnection, string, CancellationToken) {#getmessageheadersasync_3}
 
 Gets the message headers
 
@@ -180,7 +180,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(IConnection connection, str
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -194,7 +194,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.GetMessageHeadersAsync method (8 of 8)
+## GetMessageHeadersAsync(string, CancellationToken) {#getmessageheadersasync_7}
 
 Gets the message headers
 
@@ -207,7 +207,7 @@ public Task<HeaderCollection> GetMessageHeadersAsync(string uniqueId, Cancellati
 | uniqueId | String | The unique id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -1,7 +1,7 @@
 ---
 title: ContentId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an opaque string that uniquely identifies the content.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/contentinfo/contentid/

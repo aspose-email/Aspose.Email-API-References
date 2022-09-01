@@ -1,7 +1,7 @@
 ---
 title: NotHandled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets mail messages that have not been handled
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/appendmessagesresult/nothandled/

@@ -1,7 +1,7 @@
 ---
 title: GetSetting
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets settings by the name
 type: docs
 weight: 220
 url: /net/aspose.email.clients.google/igmailclient/getsetting/
@@ -18,7 +18,7 @@ public string GetSetting(string setting)
 | --- | --- | --- |
 | setting | String | Setting name |
 
-## Return Value
+### Return Value
 
 Returns settings value
 

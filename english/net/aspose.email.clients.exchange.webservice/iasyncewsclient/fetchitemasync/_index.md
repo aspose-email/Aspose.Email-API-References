@@ -1,7 +1,7 @@
 ---
 title: FetchItemAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Retrieves the complete item with attachments.
 type: docs
 weight: 250
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchitemasync/
@@ -22,7 +22,7 @@ public Task<MapiMessage> FetchItemAsync(string uri,
 | extendedProperties | IEnumerable`1 | Specified properties to retrieve. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 [`MapiMessage`](../../../aspose.email.mapi/mapimessage) object.
 

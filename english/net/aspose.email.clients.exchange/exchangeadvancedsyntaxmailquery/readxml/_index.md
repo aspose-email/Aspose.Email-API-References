@@ -1,7 +1,7 @@
 ---
 title: ReadXml
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Generates an object from its XML representation. Not implemented for the ExchangeAdvancedMailQuery class.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/exchangeadvancedsyntaxmailquery/readxml/

@@ -1,7 +1,7 @@
 ---
 title: Added
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains array of added folders.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/foldersyncresult/added/

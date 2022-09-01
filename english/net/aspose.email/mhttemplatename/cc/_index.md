@@ -1,7 +1,7 @@
 ---
 title: Cc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Cc header.
 type: docs
 weight: 40
 url: /net/aspose.email/mhttemplatename/cc/

@@ -1,7 +1,7 @@
 ---
 title: EventSource
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Audit event sources
 type: docs
 weight: 2470
 url: /net/aspose.email.clients.activity/eventsource/
@@ -14,7 +14,7 @@ Audit event sources
 public enum EventSource
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns an enumerator that iterates through the collection.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/getenumerator/
@@ -14,7 +14,7 @@ Returns an enumerator that iterates through the collection.
 public IEnumerator<DataContainer> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 A IEnumerator that can be used to iterate through the collection.
 

@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Additional description of the log entry message.
 type: docs
 weight: 160
 url: /net/aspose.email.tools.logging/logentry/title/

@@ -1,12 +1,12 @@
 ---
 title: Appointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initialize a new instance of the Appointmentaspose.email.calendar/appointment class.
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/appointment/appointment/
 ---
-## Appointment constructor (1 of 5)
+## Appointment(string, DateTime, DateTime, MailAddress, MailAddressCollection) {#constructor}
 
 Initialize a new instance of the [`Appointment`](../../appointment) class.
 
@@ -33,7 +33,7 @@ public Appointment(string location, DateTime startDate, DateTime endDate, MailAd
 
 ---
 
-## Appointment constructor (2 of 5)
+## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection) {#constructor_1}
 
 Initialize a new instance of the [`Appointment`](../../appointment) class.
 
@@ -62,7 +62,7 @@ public Appointment(string location, string summary, string description, DateTime
 
 ---
 
-## Appointment constructor (3 of 5)
+## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string) {#constructor_3}
 
 Initialize a new instance of the [`Appointment`](../../appointment) class.
 
@@ -92,7 +92,7 @@ public Appointment(string location, string summary, string description, DateTime
 
 ---
 
-## Appointment constructor (4 of 5)
+## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, RecurrencePattern) {#constructor_2}
 
 Initialize a new instance of the [`Appointment`](../../appointment) class.
 
@@ -124,7 +124,7 @@ public Appointment(string location, string summary, string description, DateTime
 
 ---
 
-## Appointment constructor (5 of 5)
+## Appointment(string, string, string, DateTime, DateTime, MailAddress, MailAddressCollection, string, RecurrencePattern) {#constructor_4}
 
 Initialize a new instance of the [`Appointment`](../../appointment) class.
 

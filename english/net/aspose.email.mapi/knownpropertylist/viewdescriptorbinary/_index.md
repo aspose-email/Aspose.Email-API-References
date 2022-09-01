@@ -1,7 +1,7 @@
 ---
 title: ViewDescriptorBinary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains view definitions. Area MessageClassDefinedTransmittable Canonical name PidTagViewDescriptorBinary Alternate names PR_VD_BINARY
 type: docs
 weight: 19250
 url: /net/aspose.email.mapi/knownpropertylist/viewdescriptorbinary/

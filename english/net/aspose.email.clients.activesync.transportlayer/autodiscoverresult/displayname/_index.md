@@ -1,7 +1,7 @@
 ---
 title: DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the users display name in the directory service.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/autodiscoverresult/displayname/

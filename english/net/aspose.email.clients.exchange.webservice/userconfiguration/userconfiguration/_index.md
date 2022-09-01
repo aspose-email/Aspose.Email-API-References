@@ -1,7 +1,7 @@
 ---
 title: UserConfiguration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the UserConfigurationaspose.email.clients.exchange.webservice/userconfiguration class
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/userconfiguration/userconfiguration/

@@ -1,7 +1,7 @@
 ---
 title: ClientSubmitTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the current time in UTC when the email message is submitted. Area Message Time Properties Canonical name PidTagClientSubmitTime Alternate names PR_CLIENT_SUBMIT_TIME urnschemashttpmaildate
 type: docs
 weight: 2700
 url: /net/aspose.email.mapi/knownpropertylist/clientsubmittime/

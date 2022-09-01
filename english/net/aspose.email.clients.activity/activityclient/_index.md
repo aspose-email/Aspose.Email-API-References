@@ -1,7 +1,7 @@
 ---
 title: ActivityClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides access to MS Exchange Server Office365 by using REST API.
 type: docs
 weight: 2360
 url: /net/aspose.email.clients.activity/activityclient/
@@ -31,14 +31,14 @@ public abstract class ActivityClient : IActivityClient
 | --- | --- |
 | virtual [Dispose](../../aspose.email.clients.activity/activityclient/dispose)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [FetchContent](../../aspose.email.clients.activity/activityclient/fetchcontent)(string) |  |
-| [ListContent](../../aspose.email.clients.activity/activityclient/listcontent)(string) |  |
-| [ListContent](../../aspose.email.clients.activity/activityclient/listcontent)(string, DateTime?, DateTime?) |  |
+| [ListContent](../../aspose.email.clients.activity/activityclient/listcontent#listcontent)(string) |  |
+| [ListContent](../../aspose.email.clients.activity/activityclient/listcontent#listcontent_1)(string, DateTime?, DateTime?) |  |
 | [ListFriendlyNames](../../aspose.email.clients.activity/activityclient/listfriendlynames)() |  |
 | [ListSubscriptions](../../aspose.email.clients.activity/activityclient/listsubscriptions)() |  |
 | [StartSubscription](../../aspose.email.clients.activity/activityclient/startsubscription)(string, Webhook) |  |
 | [StopSubscription](../../aspose.email.clients.activity/activityclient/stopsubscription)(string) |  |
-| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient)(IMultipleServicesTokenProvider, string) | Initializes a new instance of the [`ActivityClient`](../activityclient) based class |
-| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient)(ITokenProvider, string) | Initializes a new instance of the [`ActivityClient`](../activityclient) based class |
+| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient)(IMultipleServicesTokenProvider, string) | Initializes a new instance of the [`ActivityClient`](../activityclient) based class |
+| static [GetClient](../../aspose.email.clients.activity/activityclient/getclient#getclient_1)(ITokenProvider, string) | Initializes a new instance of the [`ActivityClient`](../activityclient) based class |
 
 ### See Also
 

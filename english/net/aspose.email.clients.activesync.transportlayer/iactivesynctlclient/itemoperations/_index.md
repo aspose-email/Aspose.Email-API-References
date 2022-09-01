@@ -1,7 +1,7 @@
 ---
 title: ItemOperations
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The ItemOperations provides batched online handling of the Fetch the EmptyFolderContents and the Move operations.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/itemoperations/
@@ -18,7 +18,7 @@ public ItemOperationsResponse ItemOperations(ItemOperationsRequest request)
 | --- | --- | --- |
 | request | ItemOperationsRequest | ItemOperations request. |
 
-## Return Value
+### Return Value
 
 Returns ItemOperations result
 

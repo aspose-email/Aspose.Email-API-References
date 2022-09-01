@@ -1,7 +1,7 @@
 ---
 title: AmpImage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Create instance of AmpImage.
 type: docs
 weight: 10
 url: /net/aspose.email.amp/ampimage/ampimage/

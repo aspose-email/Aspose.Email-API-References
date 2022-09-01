@@ -1,7 +1,7 @@
 ---
 title: MultipleValuesDataType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates if data type contains of multiple values
 type: docs
 weight: 40
 url: /net/aspose.email.mapi/propertydescriptor/multiplevaluesdatatype/

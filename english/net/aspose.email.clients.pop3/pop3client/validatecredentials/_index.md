@@ -1,12 +1,12 @@
 ---
 title: ValidateCredentials
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Executes credentials validation
 type: docs
 weight: 390
 url: /net/aspose.email.clients.pop3/pop3client/validatecredentials/
 ---
-## Pop3Client.ValidateCredentials method (1 of 2)
+## ValidateCredentials(IConnection) {#validatecredentials_1}
 
 Executes credentials validation
 
@@ -18,7 +18,7 @@ public bool ValidateCredentials(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 True if authentication was successful, otherwise false.
 
@@ -31,7 +31,7 @@ True if authentication was successful, otherwise false.
 
 ---
 
-## Pop3Client.ValidateCredentials method (2 of 2)
+## ValidateCredentials() {#validatecredentials}
 
 Executes credentials validation
 
@@ -39,7 +39,7 @@ Executes credentials validation
 public override bool ValidateCredentials()
 ```
 
-## Return Value
+### Return Value
 
 True if authentication was successful, otherwise false.
 

@@ -1,7 +1,7 @@
 ---
 title: WorkAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the complete address of the work address of the contact. Area Contact Properties Canonical name PidLidWorkAddress Alternate names dispidWorkAddress
 type: docs
 weight: 19550
 url: /net/aspose.email.mapi/knownpropertylist/workaddress/

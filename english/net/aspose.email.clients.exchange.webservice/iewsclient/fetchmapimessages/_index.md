@@ -1,12 +1,12 @@
 ---
 title: FetchMapiMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the speciifed messages
 type: docs
 weight: 780
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/fetchmapimessages/
 ---
-## IEWSClient.FetchMapiMessages method (1 of 2)
+## FetchMapiMessages(IEnumerable&lt;string&gt;) {#fetchmapimessages}
 
 Fetches the speciifed messages
 
@@ -18,7 +18,7 @@ public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris)
 | --- | --- | --- |
 | uris | IEnumerable`1 | A IEnumerable&lt;string&gt; "/&gt; containing message uris to be retrieved |
 
-## Return Value
+### Return Value
 
 An array of [`MapiMessage`](../../../aspose.email.mapi/mapimessage) containing fetched messages
 
@@ -31,7 +31,7 @@ An array of [`MapiMessage`](../../../aspose.email.mapi/mapimessage) containing f
 
 ---
 
-## IEWSClient.FetchMapiMessages method (2 of 2)
+## FetchMapiMessages(IEnumerable&lt;string&gt;, IEnumerable&lt;PropertyDescriptor&gt;) {#fetchmapimessages_1}
 
 Fetches the speciifed messages
 
@@ -45,7 +45,7 @@ public MapiMessage[] FetchMapiMessages(IEnumerable<string> uris,
 | uris | IEnumerable`1 | A StringCollection containing message uris to be retrieved |
 | extendedProperties | IEnumerable`1 | An enumeration of extended properties |
 
-## Return Value
+### Return Value
 
 An array of [`MapiMessage`](../../../aspose.email.mapi/mapimessage) containing fetched messages
 

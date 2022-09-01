@@ -1,7 +1,7 @@
 ---
 title: ClipEnd
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date of the last instance
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapicalendareventrecurrence/clipend/

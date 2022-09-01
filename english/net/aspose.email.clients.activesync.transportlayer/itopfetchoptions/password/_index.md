@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the password for the given UserName. The server accepts password values up to 256 characters in length.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/itopfetchoptions/password/

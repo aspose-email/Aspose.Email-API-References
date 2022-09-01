@@ -1,7 +1,7 @@
 ---
 title: LastSaveDateTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the time in UTC that the file was last saved. Area Common Canonical name PidNameLastSaveDateTime Alternate names urnschemasmicrosoftcomofficeofficeLastSaved
 type: docs
 weight: 12050
 url: /net/aspose.email.mapi/knownpropertylist/lastsavedatetime/

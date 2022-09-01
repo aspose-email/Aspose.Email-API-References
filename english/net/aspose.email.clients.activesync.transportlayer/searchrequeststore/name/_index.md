@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains infarmation that specify the location for the operations.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/searchrequeststore/name/

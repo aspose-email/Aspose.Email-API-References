@@ -1,9 +1,9 @@
 ---
 title: RecipientCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a colleciton of recipients for a mail message.
 type: docs
-weight: 20750
+weight: 20980
 url: /net/aspose.email.windows.forms/recipientcollection/
 ---
 ## RecipientCollection class
@@ -30,10 +30,10 @@ public class RecipientCollection : Collection<Recipient>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.email.windows.forms/recipientcollection/add)(string) | Adds a new recipient with the specified address to this collection. |
-| [Add](../../aspose.email.windows.forms/recipientcollection/add)(string, RecipientType) | Adds a new recipient with the specified address and recipient type to this collection. |
-| [Add](../../aspose.email.windows.forms/recipientcollection/add)(string, string) | Adds a new recipient with the specified address and display name to this collection. |
-| [Add](../../aspose.email.windows.forms/recipientcollection/add)(string, string, RecipientType) | Adds a new recipient with the specified address, display name and recipient type to this collection. |
+| [Add](../../aspose.email.windows.forms/recipientcollection/add#add_1)(string) | Adds a new recipient with the specified address to this collection. |
+| [Add](../../aspose.email.windows.forms/recipientcollection/add#add_2)(string, RecipientType) | Adds a new recipient with the specified address and recipient type to this collection. |
+| [Add](../../aspose.email.windows.forms/recipientcollection/add#add_3)(string, string) | Adds a new recipient with the specified address and display name to this collection. |
+| [Add](../../aspose.email.windows.forms/recipientcollection/add#add_4)(string, string, RecipientType) | Adds a new recipient with the specified address, display name and recipient type to this collection. |
 
 ### See Also
 

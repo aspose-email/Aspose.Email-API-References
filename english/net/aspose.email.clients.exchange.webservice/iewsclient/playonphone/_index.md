@@ -1,7 +1,7 @@
 ---
 title: PlayOnPhone
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The PlayOnPhone operation initiates an outbound call and plays a message over the telephone.
 type: docs
 weight: 1300
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/playonphone/
@@ -19,7 +19,7 @@ public string PlayOnPhone(string messageId, string dialString)
 | messageId | String | Specifies message id. |
 | dialString | String | Specifies telephone to play message. |
 
-## Return Value
+### Return Value
 
 Returns phone call id
 

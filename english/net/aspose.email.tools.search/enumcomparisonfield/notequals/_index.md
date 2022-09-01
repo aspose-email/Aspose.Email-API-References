@@ -1,7 +1,7 @@
 ---
 title: NotEquals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field in message must not be equal to the specified value.
 type: docs
 weight: 30
 url: /net/aspose.email.tools.search/enumcomparisonfield/notequals/
@@ -18,7 +18,7 @@ public MailQuery NotEquals(Enum value)
 | --- | --- | --- |
 | value | Enum | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

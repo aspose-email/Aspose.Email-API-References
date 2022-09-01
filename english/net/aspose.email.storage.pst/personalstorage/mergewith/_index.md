@@ -1,12 +1,12 @@
 ---
 title: MergeWith
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Merges the pst storage with one or more other pst files. Thus the combined files are sources.
 type: docs
 weight: 260
 url: /net/aspose.email.storage.pst/personalstorage/mergewith/
 ---
-## PersonalStorage.MergeWith method (1 of 2)
+## MergeWith(string[]) {#mergewith_1}
 
 Merges the pst storage with one or more other pst files. Thus, the combined files are sources.
 
@@ -33,7 +33,7 @@ public void MergeWith(string[] sourceFileNames)
 
 ---
 
-## PersonalStorage.MergeWith method (2 of 2)
+## MergeWith(Stream[]) {#mergewith}
 
 Merges the pst storage with one or more other pst streams. Thus, the combined stream are sources.
 

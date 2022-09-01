@@ -1,7 +1,7 @@
 ---
 title: ContentFilterSpamConfidenceLevel
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates a confidence level that the message is spam. Area Secure Messaging Properties Canonical name PidTagContentFilterSpamConfidenceLevel Alternate names PR_CONTENT_FILTER_SCL ptagContentFilterSCL
 type: docs
 weight: 3200
 url: /net/aspose.email.mapi/knownpropertylist/contentfilterspamconfidencelevel/

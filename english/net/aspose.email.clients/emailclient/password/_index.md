@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the password. Password limitations are defined by server implementation which client connects.
 type: docs
 weight: 130
 url: /net/aspose.email.clients/emailclient/password/
@@ -14,7 +14,7 @@ Gets or sets the password. Password limitations are defined by server implementa
 public virtual string Password { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents the password.
 

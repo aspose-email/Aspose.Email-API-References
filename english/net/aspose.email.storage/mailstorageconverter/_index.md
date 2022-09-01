@@ -1,9 +1,9 @@
 ---
 title: MailStorageConverter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Mail storage converter provides services for storage conversion operations.
 type: docs
-weight: 19770
+weight: 20000
 url: /net/aspose.email.storage/mailstorageconverter/
 ---
 ## MailStorageConverter class
@@ -14,14 +14,20 @@ Mail storage converter provides services for storage conversion operations.
 public static class MailStorageConverter
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| static [MboxMessageOptions](../../aspose.email.storage/mailstorageconverter/mboxmessageoptions) { get; set; } | Gets or sets email load options when parsing an Mbox storage. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst)(Stream, string) | Converts an mboxrd message store to PST. |
-| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst)(string, string) | Converts an mboxrd message store to PST. |
-| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst)(Stream, string, MailHandler) | Converts an mboxrd message store to PST. |
-| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst)(string, string, MailHandler) | Converts an mboxrd message store to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst)(Stream, string) | Converts an mboxrd message store to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_2)(string, string) | Converts an mboxrd message store to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_1)(Stream, string, MailHandler) | Converts an mboxrd message store to PST. |
+| static [MboxToPst](../../aspose.email.storage/mailstorageconverter/mboxtopst#mboxtopst_3)(string, string, MailHandler) | Converts an mboxrd message store to PST. |
 
 ## Other Members
 

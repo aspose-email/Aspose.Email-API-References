@@ -1,9 +1,9 @@
 ---
 title: AddAlternateView
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add an alternate view to message
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.email/mailmessage/addalternateview/
 ---
 ## MailMessage.AddAlternateView method

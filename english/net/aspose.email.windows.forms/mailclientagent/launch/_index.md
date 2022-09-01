@@ -1,12 +1,12 @@
 ---
 title: Launch
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Launches the agent.
 type: docs
 weight: 20
 url: /net/aspose.email.windows.forms/mailclientagent/launch/
 ---
-## MailClientAgent.Launch method (1 of 2)
+## Launch(string, string, RecipientCollection, string[]) {#launch_1}
 
 Launches the agent.
 
@@ -31,7 +31,7 @@ public virtual void Launch(string subject, string body, RecipientCollection reci
 
 ---
 
-## MailClientAgent.Launch method (2 of 2)
+## Launch(string, string, RecipientCollection) {#launch}
 
 Launches the agent.
 

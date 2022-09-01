@@ -1,7 +1,7 @@
 ---
 title: SmartRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains smart request information
 type: docs
 weight: 2090
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequest/

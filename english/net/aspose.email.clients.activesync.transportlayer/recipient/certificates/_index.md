@@ -1,7 +1,7 @@
 ---
 title: Certificates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information about the certificates for a recipient.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/recipient/certificates/

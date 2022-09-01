@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Overridden. Returns a string representation of this instance.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/oledocumentformat/tostring/
@@ -14,7 +14,7 @@ Overridden. Returns a string representation of this instance.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string contains the mail addresse.
 

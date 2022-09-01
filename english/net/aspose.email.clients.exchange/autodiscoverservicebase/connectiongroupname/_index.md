@@ -1,7 +1,7 @@
 ---
 title: ConnectionGroupName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the name of the connection group for the request.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/connectiongroupname/

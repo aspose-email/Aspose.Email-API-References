@@ -1,7 +1,7 @@
 ---
 title: MarginTop
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the top margin.
 type: docs
 weight: 90
 url: /net/aspose.email.printing/mailprinter/margintop/
@@ -14,7 +14,7 @@ Gets or sets the top margin.
 public double MarginTop { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The top margin.
 

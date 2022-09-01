@@ -1,7 +1,7 @@
 ---
 title: AddHeader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds name and value to WebHeaderCollection in EWS request.
 type: docs
 weight: 350
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/addheader/

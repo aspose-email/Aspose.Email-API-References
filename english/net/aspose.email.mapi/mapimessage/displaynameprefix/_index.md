@@ -1,7 +1,7 @@
 ---
 title: DisplayNamePrefix
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a prefix of the display name.
 type: docs
 weight: 130
 url: /net/aspose.email.mapi/mapimessage/displaynameprefix/
@@ -14,7 +14,7 @@ Gets a prefix of the display name.
 public string DisplayNamePrefix { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents display name prefix.
 

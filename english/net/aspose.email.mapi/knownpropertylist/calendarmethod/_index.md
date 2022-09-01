@@ -1,7 +1,7 @@
 ---
 title: CalendarMethod
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the iCalendar method that is associated with an Appointment object. Area Common Canonical name PidNameCalendarMethod Alternate names urnschemascalendarmethod
 type: docs
 weight: 2340
 url: /net/aspose.email.mapi/knownpropertylist/calendarmethod/

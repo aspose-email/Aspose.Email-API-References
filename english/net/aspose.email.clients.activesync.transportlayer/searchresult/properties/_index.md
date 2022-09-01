@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Search command response Properties is a container for properties that apply to an individual entry that matches the Query element search string. For example the Properties element contains an element for each nonempty textvalued GAL property that is attached to the matching GAL entry. Only those properties that are attached to the specific GAL entry are returned therefore different sets of properties can be returned in the response XML for different matching GAL entries. Each element in the Properties container is scoped to the appropriate namespace that is specified in the toplevel Search element.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/searchresult/properties/

@@ -1,9 +1,9 @@
 ---
 title: MessageObjectRecipientsCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a collection for MessageObjectRecipientEntity./messageobjectrecipiententity objects.
 type: docs
-weight: 18700
+weight: 18910
 url: /net/aspose.email.mapi.msg/messageobjectrecipientscollection/
 ---
 ## MessageObjectRecipientsCollection class

@@ -1,12 +1,12 @@
 ---
 title: MergeWith
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Merges the folder with the folder from another pst.
 type: docs
 weight: 310
 url: /net/aspose.email.storage.pst/folderinfo/mergewith/
 ---
-## FolderInfo.MergeWith method (1 of 2)
+## MergeWith(FolderInfo) {#mergewith}
 
 Merges the folder with the folder from another pst.
 
@@ -32,7 +32,7 @@ public void MergeWith(FolderInfo sourceFolder)
 
 ---
 
-## FolderInfo.MergeWith method (2 of 2)
+## MergeWith(FolderInfo, bool) {#mergewith_1}
 
 Merges the folder with the folder from another pst. OnItemMoved event is called on both messages and directories.
 

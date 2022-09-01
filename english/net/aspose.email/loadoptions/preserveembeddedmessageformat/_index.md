@@ -1,7 +1,7 @@
 ---
 title: PreserveEmbeddedMessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether it is necessary to preserve format of embedded message at loading in MailMessage.
 type: docs
 weight: 30
 url: /net/aspose.email/loadoptions/preserveembeddedmessageformat/

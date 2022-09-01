@@ -1,12 +1,12 @@
 ---
 title: Insert
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Inserts an element into the Collection at the specified index.
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapiattachmentcollection/insert/
 ---
-## MapiAttachmentCollection.Insert method (1 of 2)
+## Insert(int, MapiAttachment) {#insert}
 
 Inserts an element into the Collection at the specified index.
 
@@ -34,7 +34,7 @@ public void Insert(int index, MapiAttachment item)
 
 ---
 
-## MapiAttachmentCollection.Insert method (2 of 2)
+## Insert(int, string, MapiMessage) {#insert_2}
 
 Inserts a message as attachment into the [`MapiAttachmentCollection`](../../mapiattachmentcollection) at the specified index.
 

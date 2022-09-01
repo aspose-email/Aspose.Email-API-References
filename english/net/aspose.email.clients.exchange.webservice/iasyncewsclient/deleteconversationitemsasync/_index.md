@@ -1,7 +1,7 @@
 ---
 title: DeleteConversationItemsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the conversation items which are located in the specified folder
 type: docs
 weight: 150
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/deleteconversationitemsasync/

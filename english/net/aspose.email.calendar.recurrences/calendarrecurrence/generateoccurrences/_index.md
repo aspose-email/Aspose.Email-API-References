@@ -1,12 +1,12 @@
 ---
 title: GenerateOccurrences
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Generates the occurrences.
 type: docs
 weight: 110
 url: /net/aspose.email.calendar.recurrences/calendarrecurrence/generateoccurrences/
 ---
-## CalendarRecurrence.GenerateOccurrences method (1 of 4)
+## GenerateOccurrences() {#generateoccurrences}
 
 Generates the occurrences.
 
@@ -14,7 +14,7 @@ Generates the occurrences.
 public DateCollection GenerateOccurrences()
 ```
 
-## Return Value
+### Return Value
 
 Collection of dates[`DateCollection`](../../datecollection).
 
@@ -33,7 +33,7 @@ Collection of dates[`DateCollection`](../../datecollection).
 
 ---
 
-## CalendarRecurrence.GenerateOccurrences method (2 of 4)
+## GenerateOccurrences(int) {#generateoccurrences_1}
 
 Generates n next occurrences.
 
@@ -45,7 +45,7 @@ public DateCollection GenerateOccurrences(int nNextOccurrences)
 | --- | --- | --- |
 | nNextOccurrences | Int32 | The amount of needed occurrences. |
 
-## Return Value
+### Return Value
 
 Collection of dates[`DateCollection`](../../datecollection).
 
@@ -65,7 +65,7 @@ Collection of dates[`DateCollection`](../../datecollection).
 
 ---
 
-## CalendarRecurrence.GenerateOccurrences method (3 of 4)
+## GenerateOccurrences(DateTime, DateTime) {#generateoccurrences_2}
 
 Generates the occurrences.
 
@@ -78,7 +78,7 @@ public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd
 | rangeStart | DateTime | The range start. |
 | rangeEnd | DateTime | The range end. |
 
-## Return Value
+### Return Value
 
 Collection of dates[`DateCollection`](../../datecollection).
 
@@ -97,7 +97,7 @@ Collection of dates[`DateCollection`](../../datecollection).
 
 ---
 
-## CalendarRecurrence.GenerateOccurrences method (4 of 4)
+## GenerateOccurrences(DateTime, DateTime, int) {#generateoccurrences_3}
 
 Generates n next occurrences.
 
@@ -112,7 +112,7 @@ public DateCollection GenerateOccurrences(DateTime rangeStart, DateTime rangeEnd
 | rangeEnd | DateTime | The range end. |
 | nNextOccurrences | Int32 | The amount of needed occurrences. |
 
-## Return Value
+### Return Value
 
 Collection of dates[`DateCollection`](../../datecollection).
 

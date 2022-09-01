@@ -1,7 +1,7 @@
 ---
 title: Sent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sent header.
 type: docs
 weight: 160
 url: /net/aspose.email/mhttemplatename/sent/

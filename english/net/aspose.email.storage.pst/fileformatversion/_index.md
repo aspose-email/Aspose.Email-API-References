@@ -1,9 +1,9 @@
 ---
 title: FileFormatVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents version of file.
 type: docs
-weight: 19930
+weight: 20160
 url: /net/aspose.email.storage.pst/fileformatversion/
 ---
 ## FileFormatVersion enumeration
@@ -14,7 +14,7 @@ Represents version of file.
 public enum FileFormatVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

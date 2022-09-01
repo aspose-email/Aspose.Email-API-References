@@ -1,7 +1,7 @@
 ---
 title: SubmitTime
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the time at which the message was sent to the server.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.exchange.webservice/messagetrackingreport/submittime/

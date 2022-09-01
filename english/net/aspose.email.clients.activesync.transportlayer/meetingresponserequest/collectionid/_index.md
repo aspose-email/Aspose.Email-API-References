@@ -1,7 +1,7 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the folder that contains the meeting request. Optional if LongId is included. The CollectionId value can be up to 64 characters in length.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/meetingresponserequest/collectionid/

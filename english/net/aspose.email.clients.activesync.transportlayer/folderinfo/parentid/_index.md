@@ -1,7 +1,7 @@
 ---
 title: ParentId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server ID of the parent folder of the folder on the server
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/folderinfo/parentid/

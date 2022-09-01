@@ -1,7 +1,7 @@
 ---
 title: Estimate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the estimated number of items in the collection or folder that have to be synchronized.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/itemestimate/estimate/

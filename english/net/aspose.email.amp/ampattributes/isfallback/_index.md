@@ -1,7 +1,7 @@
 ---
 title: IsFallback
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Define that current element is fallback.
 type: docs
 weight: 40
 url: /net/aspose.email.amp/ampattributes/isfallback/

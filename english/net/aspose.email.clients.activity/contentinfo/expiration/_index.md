@@ -1,7 +1,7 @@
 ---
 title: Expiration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets datetime after which the content will no longer be available for retrieval.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/contentinfo/expiration/

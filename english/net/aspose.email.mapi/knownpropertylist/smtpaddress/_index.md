@@ -1,7 +1,7 @@
 ---
 title: SmtpAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the SMTP address of the Message object. Area Address Properties Canonical name PidTagSmtpAddress Alternate names PR_SMTP_ADDRESS PR_SMTP_ADDRESS_A PR_SMTP_ADDRESS_W
 type: docs
 weight: 18080
 url: /net/aspose.email.mapi/knownpropertylist/smtpaddress/

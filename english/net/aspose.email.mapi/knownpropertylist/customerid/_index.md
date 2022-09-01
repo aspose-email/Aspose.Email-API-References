@@ -1,7 +1,7 @@
 ---
 title: CustomerId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users customer identification number. Area Contact Properties Canonical name PidTagCustomerId Alternate names PR_CUSTOMER_ID PR_CUSTOMER_ID_A PR_CUSTOMER_ID_W
 type: docs
 weight: 3610
 url: /net/aspose.email.mapi/knownpropertylist/customerid/

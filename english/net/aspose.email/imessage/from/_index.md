@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a from address
 type: docs
 weight: 70
 url: /net/aspose.email/imessage/from/

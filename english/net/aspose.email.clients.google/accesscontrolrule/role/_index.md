@@ -1,7 +1,7 @@
 ---
 title: Role
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The role assigned to the scope.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/accesscontrolrule/role/

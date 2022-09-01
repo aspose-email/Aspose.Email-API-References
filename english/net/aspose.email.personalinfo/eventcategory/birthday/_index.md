@@ -1,7 +1,7 @@
 ---
 title: Birthday
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Birthday
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/eventcategory/birthday/

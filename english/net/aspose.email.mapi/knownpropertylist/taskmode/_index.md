@@ -1,7 +1,7 @@
 ---
 title: TaskMode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the assignment status of the embedded Task object. Area Tasks Canonical name PidLidTaskMode Alternate names dispidTaskMode
 type: docs
 weight: 18720
 url: /net/aspose.email.mapi/knownpropertylist/taskmode/

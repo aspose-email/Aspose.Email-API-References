@@ -1,7 +1,7 @@
 ---
 title: ContextualProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Dictionary of key/value pairs to record.
 type: docs
 weight: 50
 url: /net/aspose.email.tools.logging/logentry/contextualproperties/

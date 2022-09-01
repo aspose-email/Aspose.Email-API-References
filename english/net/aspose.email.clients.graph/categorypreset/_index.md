@@ -1,7 +1,7 @@
 ---
 title: CategoryPreset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A preset color enumeration that characterizes a categories and that is mapped to one of 25 predefined colors. Note The possible values for color are preset constants such as None preset0 and preset1. Each preset constant is further mapped to a color the actual color is dependent on the Outlook client that the categories are being displayed in.
 type: docs
 weight: 15870
 url: /net/aspose.email.clients.graph/categorypreset/
@@ -14,7 +14,7 @@ A pre-set color enumeration that characterizes a categories, and that is mapped 
 public enum CategoryPreset
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

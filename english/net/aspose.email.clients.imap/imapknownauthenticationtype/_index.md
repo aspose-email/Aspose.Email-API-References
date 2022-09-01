@@ -3,7 +3,7 @@ title: ImapKnownAuthenticationType
 second_title: Aspose.Email for .NET API Reference
 description: 
 type: docs
-weight: 16300
+weight: 16330
 url: /net/aspose.email.clients.imap/imapknownauthenticationtype/
 ---
 ## ImapKnownAuthenticationType enumeration
@@ -13,7 +13,7 @@ url: /net/aspose.email.clients.imap/imapknownauthenticationtype/
 public enum ImapKnownAuthenticationType : long
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

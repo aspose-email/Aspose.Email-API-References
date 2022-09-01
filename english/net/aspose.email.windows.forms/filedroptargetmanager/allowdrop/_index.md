@@ -1,7 +1,7 @@
 ---
 title: AllowDrop
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The AllowDrop property gets or sets permission for drag and drop operations.
 type: docs
 weight: 20
 url: /net/aspose.email.windows.forms/filedroptargetmanager/allowdrop/

@@ -1,7 +1,7 @@
 ---
 title: UnreadContentsCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search folders with an specified unread contents count.
 type: docs
 weight: 100
 url: /net/aspose.email.storage.pst/personalstoragequerybuilder/unreadcontentscount/

@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an attachment size in bytes
 type: docs
 weight: 40
 url: /net/aspose.email.clients.exchange/exchangeattachmentinfo/size/

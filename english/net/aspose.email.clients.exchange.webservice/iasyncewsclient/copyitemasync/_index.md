@@ -1,7 +1,7 @@
 ---
 title: CopyItemAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copies the item to specified folder
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/copyitemasync/
@@ -21,7 +21,7 @@ public Task<string> CopyItemAsync(string itemUri, string destinationFolderUri,
 | destinationFolderUri | String | The destination folder URI |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 An uri of the copied message
 

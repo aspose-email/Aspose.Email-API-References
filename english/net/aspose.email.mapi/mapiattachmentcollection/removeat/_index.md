@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Removes the element at the specified index of the MapiAttachmentCollection.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapiattachmentcollection/removeat/

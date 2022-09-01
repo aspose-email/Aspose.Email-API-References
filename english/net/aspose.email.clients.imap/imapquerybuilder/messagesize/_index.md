@@ -1,7 +1,7 @@
 ---
 title: MessageSize
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets messages with an specified size.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/imapquerybuilder/messagesize/
@@ -14,7 +14,7 @@ Gets messages with an specified size.
 public IntComparisonField MessageSize { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`IntComparisonField`](../../../aspose.email.tools.search/intcomparisonfield) that represents a message size.
 

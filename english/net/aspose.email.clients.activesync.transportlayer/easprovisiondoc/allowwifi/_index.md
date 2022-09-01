@@ -1,7 +1,7 @@
 ---
 title: AllowWiFi
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows the use of WiFi connections. This property SHOULD be ignored if the client does not have WiFi capability.
 type: docs
 weight: 190
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowwifi/

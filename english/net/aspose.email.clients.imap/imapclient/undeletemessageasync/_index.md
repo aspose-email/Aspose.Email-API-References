@@ -1,12 +1,12 @@
 ---
 title: UndeleteMessageAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks a message with the specified sequence number as not deleted
 type: docs
 weight: 1240
 url: /net/aspose.email.clients.imap/imapclient/undeletemessageasync/
 ---
-## ImapClient.UndeleteMessageAsync method (1 of 16)
+## UndeleteMessageAsync(IConnection, int) {#undeletemessageasync}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -19,7 +19,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber)
 | connection | IConnection | Connection to a server |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (2 of 16)
+## UndeleteMessageAsync(IConnection, string) {#undeletemessageasync_4}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -45,7 +45,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId)
 | connection | IConnection | Connection to a server |
 | uniqueId | String | The unique Id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -58,7 +58,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (3 of 16)
+## UndeleteMessageAsync(int) {#undeletemessageasync_8}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -70,7 +70,7 @@ public Task UndeleteMessageAsync(int sequenceNumber)
 | --- | --- | --- |
 | sequenceNumber | Int32 | The sequence number of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -82,7 +82,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (4 of 16)
+## UndeleteMessageAsync(string) {#undeletemessageasync_12}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -94,7 +94,7 @@ public Task UndeleteMessageAsync(string uniqueId)
 | --- | --- | --- |
 | uniqueId | String | The unique Id of the message |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -106,7 +106,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (5 of 16)
+## UndeleteMessageAsync(IConnection, int, long) {#undeletemessageasync_1}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -121,7 +121,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 | sequenceNumber | Int32 | The sequence number of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -134,7 +134,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (6 of 16)
+## UndeleteMessageAsync(IConnection, string, long) {#undeletemessageasync_5}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -148,7 +148,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, long m
 | uniqueId | String | The unique Id of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -161,7 +161,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (7 of 16)
+## UndeleteMessageAsync(int, long) {#undeletemessageasync_9}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -174,7 +174,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence)
 | sequenceNumber | Int32 | The sequence number of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -186,7 +186,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (8 of 16)
+## UndeleteMessageAsync(string, long) {#undeletemessageasync_13}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -199,7 +199,7 @@ public Task UndeleteMessageAsync(string uniqueId, long modificationSequence)
 | uniqueId | String | The unique Id of the message |
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -211,7 +211,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (9 of 16)
+## UndeleteMessageAsync(IConnection, int, CancellationToken) {#undeletemessageasync_3}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -226,7 +226,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -239,7 +239,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (10 of 16)
+## UndeleteMessageAsync(IConnection, string, CancellationToken) {#undeletemessageasync_7}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -253,7 +253,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId, Cancel
 | uniqueId | String | The unique Id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -266,7 +266,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (11 of 16)
+## UndeleteMessageAsync(int, CancellationToken) {#undeletemessageasync_11}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -279,7 +279,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, CancellationToken token)
 | sequenceNumber | Int32 | The sequence number of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -291,7 +291,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (12 of 16)
+## UndeleteMessageAsync(string, CancellationToken) {#undeletemessageasync_15}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -304,7 +304,7 @@ public Task UndeleteMessageAsync(string uniqueId, CancellationToken token)
 | uniqueId | String | The unique Id of the message |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -316,7 +316,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (13 of 16)
+## UndeleteMessageAsync(IConnection, int, long, CancellationToken) {#undeletemessageasync_2}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -332,7 +332,7 @@ public Task UndeleteMessageAsync(IConnection connection, int sequenceNumber,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -345,7 +345,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (14 of 16)
+## UndeleteMessageAsync(IConnection, string, long, CancellationToken) {#undeletemessageasync_6}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -361,7 +361,7 @@ public Task UndeleteMessageAsync(IConnection connection, string uniqueId,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -374,7 +374,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (15 of 16)
+## UndeleteMessageAsync(int, long, CancellationToken) {#undeletemessageasync_10}
 
 Marks a message with the specified sequence number as not deleted
 
@@ -389,7 +389,7 @@ public Task UndeleteMessageAsync(int sequenceNumber, long modificationSequence,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -401,7 +401,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.UndeleteMessageAsync method (16 of 16)
+## UndeleteMessageAsync(string, long, CancellationToken) {#undeletemessageasync_14}
 
 Marks a message with the specified sequence number as not deleted.
 
@@ -416,7 +416,7 @@ public Task UndeleteMessageAsync(string uniqueId, long modificationSequence,
 | modificationSequence | Int64 | Modification sequence. Please, read more https://tools.ietf.org/html/rfc7162 |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

@@ -1,7 +1,7 @@
 ---
 title: GetPropertyName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the name of the property.
 type: docs
 weight: 20370
 url: /net/aspose.email.mapi/mapipropertytag/getpropertyname/
@@ -18,7 +18,7 @@ public static string GetPropertyName(long tag)
 | --- | --- | --- |
 | tag | Int64 | The property tag. |
 
-## Return Value
+### Return Value
 
 A String that represents property name.
 

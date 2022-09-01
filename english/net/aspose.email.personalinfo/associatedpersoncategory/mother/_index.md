@@ -1,7 +1,7 @@
 ---
 title: Mother
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Mother
 type: docs
 weight: 100
 url: /net/aspose.email.personalinfo/associatedpersoncategory/mother/

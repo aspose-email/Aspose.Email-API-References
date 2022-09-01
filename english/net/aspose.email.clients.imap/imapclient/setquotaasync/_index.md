@@ -1,12 +1,12 @@
 ---
 title: SetQuotaAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets quota information
 type: docs
 weight: 1140
 url: /net/aspose.email.clients.imap/imapclient/setquotaasync/
 ---
-## ImapClient.SetQuotaAsync method (1 of 4)
+## SetQuotaAsync(IConnection, string, string, int) {#setquotaasync}
 
 Sets quota information
 
@@ -22,7 +22,7 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 | resourceName | String | resource name |
 | resourceLimit | Int32 | resource limit |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -36,7 +36,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SetQuotaAsync method (2 of 4)
+## SetQuotaAsync(string, string, int) {#setquotaasync_2}
 
 Sets quota information
 
@@ -50,7 +50,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 | resourceName | String | resource name |
 | resourceLimit | Int32 | resource limit |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -63,7 +63,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SetQuotaAsync method (3 of 4)
+## SetQuotaAsync(IConnection, string, string, int, CancellationToken) {#setquotaasync_1}
 
 Sets quota information
 
@@ -80,7 +80,7 @@ public Task<ImapQuota[]> SetQuotaAsync(IConnection connection, string quotaRootN
 | resourceLimit | Int32 | resource limit |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -94,7 +94,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.SetQuotaAsync method (4 of 4)
+## SetQuotaAsync(string, string, int, CancellationToken) {#setquotaasync_3}
 
 Sets quota information
 
@@ -110,7 +110,7 @@ public Task<ImapQuota[]> SetQuotaAsync(string quotaRootName, string resourceName
 | resourceLimit | Int32 | resource limit |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

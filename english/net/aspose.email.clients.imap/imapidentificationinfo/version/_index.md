@@ -1,7 +1,7 @@
 ---
 title: Version
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Version number of the program
 type: docs
 weight: 130
 url: /net/aspose.email.clients.imap/imapidentificationinfo/version/

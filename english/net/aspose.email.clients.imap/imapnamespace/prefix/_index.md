@@ -1,7 +1,7 @@
 ---
 title: Prefix
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets namespace prefix
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/imapnamespace/prefix/

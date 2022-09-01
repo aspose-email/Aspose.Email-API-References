@@ -1,7 +1,7 @@
 ---
 title: BodyPart
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies details about the message part of an email in a response. The BodyPart element MUST be included in a command response when the BodyPartPreference is specified in a request.
 type: docs
 weight: 1040
 url: /net/aspose.email.clients.activesync.transportlayer/bodypart/

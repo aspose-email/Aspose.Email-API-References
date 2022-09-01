@@ -1,9 +1,9 @@
 ---
 title: ITokenProvider
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines interface allowing to retrieve access token.
 type: docs
-weight: 16160
+weight: 16180
 url: /net/aspose.email.clients/itokenprovider/
 ---
 ## ITokenProvider interface
@@ -18,8 +18,8 @@ public interface ITokenProvider : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [GetAccessToken](../../aspose.email.clients/itokenprovider/getaccesstoken)() | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
-| [GetAccessToken](../../aspose.email.clients/itokenprovider/getaccesstoken)(bool) | Gets oAuth access token. |
+| [GetAccessToken](../../aspose.email.clients/itokenprovider/getaccesstoken#getaccesstoken)() | Gets oAuth access token. If token exists and its expiration date is not expired returns current token, otherwise requests new token from a server. |
+| [GetAccessToken](../../aspose.email.clients/itokenprovider/getaccesstoken#getaccesstoken_1)(bool) | Gets oAuth access token. |
 
 ### See Also
 

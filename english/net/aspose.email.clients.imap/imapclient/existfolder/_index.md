@@ -1,12 +1,12 @@
 ---
 title: ExistFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Check whether this folder exists
 type: docs
 weight: 610
 url: /net/aspose.email.clients.imap/imapclient/existfolder/
 ---
-## ImapClient.ExistFolder method (1 of 4)
+## ExistFolder(string) {#existfolder_2}
 
 Check whether this folder exists
 
@@ -18,7 +18,7 @@ public bool ExistFolder(string folderName)
 | --- | --- | --- |
 | folderName | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Returns true if the folder is existing, otherwise returns false
 
@@ -30,7 +30,7 @@ Returns true if the folder is existing, otherwise returns false
 
 ---
 
-## ImapClient.ExistFolder method (2 of 4)
+## ExistFolder(string, out ImapFolderInfo) {#existfolder_3}
 
 Check whether this folder exists, extract folder info if so
 
@@ -43,7 +43,7 @@ public bool ExistFolder(string folderName, out ImapFolderInfo folderInfo)
 | folderName | String | Name of the folder |
 | folderInfo | ImapFolderInfo& | Folder information |
 
-## Return Value
+### Return Value
 
 Returns true if the folder is existing, otherwise returns false
 
@@ -56,7 +56,7 @@ Returns true if the folder is existing, otherwise returns false
 
 ---
 
-## ImapClient.ExistFolder method (3 of 4)
+## ExistFolder(IConnection, string) {#existfolder}
 
 Check whether this folder exists
 
@@ -69,7 +69,7 @@ public bool ExistFolder(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Returns true if the folder is existing, otherwise returns false
 
@@ -82,7 +82,7 @@ Returns true if the folder is existing, otherwise returns false
 
 ---
 
-## ImapClient.ExistFolder method (4 of 4)
+## ExistFolder(IConnection, string, out ImapFolderInfo) {#existfolder_1}
 
 Check whether this folder exists, extract folder info if so
 
@@ -96,7 +96,7 @@ public bool ExistFolder(IConnection connection, string folderName, out ImapFolde
 | folderName | String | Name of the folder |
 | folderInfo | ImapFolderInfo& | Folder information |
 
-## Return Value
+### Return Value
 
 Returns true if the folder is existing, otherwise returns false
 

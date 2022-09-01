@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Adds a new recipient with the specified address to this collection.
 type: docs
 weight: 30
 url: /net/aspose.email.windows.forms/recipientcollection/add/
 ---
-## RecipientCollection.Add method (1 of 4)
+## Add(string) {#add_1}
 
 Adds a new recipient with the specified address to this collection.
 
@@ -22,7 +22,7 @@ public void Add(string address)
 
 ---
 
-## RecipientCollection.Add method (2 of 4)
+## Add(string, string) {#add_3}
 
 Adds a new recipient with the specified address and display name to this collection.
 
@@ -38,7 +38,7 @@ public void Add(string address, string displayName)
 
 ---
 
-## RecipientCollection.Add method (3 of 4)
+## Add(string, RecipientType) {#add_2}
 
 Adds a new recipient with the specified address and recipient type to this collection.
 
@@ -55,7 +55,7 @@ public void Add(string address, RecipientType recipientType)
 
 ---
 
-## RecipientCollection.Add method (4 of 4)
+## Add(string, string, RecipientType) {#add_4}
 
 Adds a new recipient with the specified address, display name and recipient type to this collection.
 

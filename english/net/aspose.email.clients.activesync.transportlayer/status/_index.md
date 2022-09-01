@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the result of an operation.
 type: docs
 weight: 2110
 url: /net/aspose.email.clients.activesync.transportlayer/status/
@@ -18,9 +18,9 @@ public class Status : CommandStatus, IEquatable<Status>
 
 | Name | Description |
 | --- | --- |
-| [Status](status)(Status) | Initializes a new instance of the Status class. |
-| [Status](status)(string) | Initializes a new instance of the Status class. Status code is initialized with 0 value. |
-| [Status](status)(int, string) | Initializes a new instance of the Status class. |
+| [Status](status#constructor)(Status) | Initializes a new instance of the Status class. |
+| [Status](status#constructor_2)(string) | Initializes a new instance of the Status class. Status code is initialized with 0 value. |
+| [Status](status#constructor_1)(int, string) | Initializes a new instance of the Status class. |
 
 ## Properties
 
@@ -33,13 +33,13 @@ public class Status : CommandStatus, IEquatable<Status>
 
 | Name | Description |
 | --- | --- |
-| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(int) | Gets status by code. |
-| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(CommandCodes, int) | Gets status by code. |
-| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(CommandCodes, string) | Gets status by code. |
-| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(CommandCodes, int, int) | Gets status by code. |
-| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus)(CommandCodes, string, int) | Gets status by code. |
-| override [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals)(object) | Determines whether the specified object is equal to the current object. |
-| virtual [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals)(Status) | Determines whether the specified object is equal to the current object. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus#getstatus_4)(int) | Gets status by code. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus#getstatus)(CommandCodes, int) | Gets status by code. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus#getstatus_2)(CommandCodes, string) | Gets status by code. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus#getstatus_1)(CommandCodes, int, int) | Gets status by code. |
+| static [GetStatus](../../aspose.email.clients.activesync.transportlayer/status/getstatus#getstatus_3)(CommandCodes, string, int) | Gets status by code. |
+| override [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals#equals_1)(object) | Determines whether the specified object is equal to the current object. |
+| virtual [Equals](../../aspose.email.clients.activesync.transportlayer/status/equals#equals)(Status) | Determines whether the specified object is equal to the current object. |
 | override [GetHashCode](../../aspose.email.clients.activesync.transportlayer/status/gethashcode)() | Serves as a hash function for a particular type. |
 | override [ToString](../../aspose.email.clients/commandstatus/tostring)() | Returns a string that represents the current object. |
 | [operator ==](../../aspose.email.clients.activesync.transportlayer/status/op_equality) | The inequality operator (==) returns true if its operands are equal, false otherwise. |

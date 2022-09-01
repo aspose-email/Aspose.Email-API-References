@@ -1,7 +1,7 @@
 ---
 title: ItemOperationsEmptFldrCntntsResponce
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Identifies the body of the response as containing the operation that deletes the contents of a folder.
 type: docs
 weight: 1400
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsemptfldrcntntsresponce/

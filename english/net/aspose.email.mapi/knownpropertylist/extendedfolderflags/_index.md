@@ -1,7 +1,7 @@
 ---
 title: ExtendedFolderFlags
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains encoded subproperties for a folder. Area MapiContainer Canonical name PidTagExtendedFolderFlags Alternate names PR_EXTENDED_FOLDER_FLAGS ptagExtendedFolderFlags
 type: docs
 weight: 10000
 url: /net/aspose.email.mapi/knownpropertylist/extendedfolderflags/

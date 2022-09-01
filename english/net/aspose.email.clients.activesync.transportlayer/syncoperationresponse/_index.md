@@ -1,7 +1,7 @@
 ---
 title: SyncOperationResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Base abstract class for Sync operation responses
 type: docs
 weight: 2250
 url: /net/aspose.email.clients.activesync.transportlayer/syncoperationresponse/

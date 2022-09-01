@@ -1,9 +1,9 @@
 ---
 title: IsMultiContacts
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Checks whether source stream contains multi contacts.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.email.personalinfo.vcard/vcardcontact/ismulticontacts/
 ---
 ## VCardContact.IsMultiContacts method
@@ -18,7 +18,7 @@ public static bool IsMultiContacts(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Source stream |
 
-## Return Value
+### Return Value
 
 True if multi contacts, otherwise false.
 

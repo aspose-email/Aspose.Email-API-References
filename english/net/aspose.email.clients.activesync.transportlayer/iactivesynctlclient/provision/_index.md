@@ -1,7 +1,7 @@
 ---
 title: Provision
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Provision command enables client devices to request from the server the security policy settings that the administrator sets such as the minimum personal identification number PIN password length requirement.
 type: docs
 weight: 150
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/provision/
@@ -18,7 +18,7 @@ public ProvisionResponse Provision(ProvisionRequest request)
 | --- | --- | --- |
 | request | ProvisionRequest | Provision operation parameters |
 
-## Return Value
+### Return Value
 
 Returns Provision operation result
 

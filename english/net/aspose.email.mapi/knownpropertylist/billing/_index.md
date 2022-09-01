@@ -1,7 +1,7 @@
 ---
 title: Billing
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies billing information for the contact. Area General Message Properties Canonical name PidLidBilling Alternate names dispidBilling
 type: docs
 weight: 1980
 url: /net/aspose.email.mapi/knownpropertylist/billing/

@@ -1,7 +1,7 @@
 ---
 title: Email1DisplayName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the userreadable display name for the email address. Area Contact Properties Canonical name PidLidEmail1DisplayName Alternate names dispidEmail1DisplayName
 type: docs
 weight: 4330
 url: /net/aspose.email.mapi/knownpropertylist/email1displayname/

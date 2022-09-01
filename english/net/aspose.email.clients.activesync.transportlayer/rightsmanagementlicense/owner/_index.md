@@ -1,7 +1,7 @@
 ---
 title: Owner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the user is the owner of the email message. The value is TRUE if the user is the owner of the email message otherwise FALSE. A value of TRUE indicates that the authenticated user has owner rights on this message. This element is used for information presentation purposes only. The Allowed elements EditAllowed ReplyAllowed etc. are used to evaluate whether a particular action is permitted or restricted.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/owner/

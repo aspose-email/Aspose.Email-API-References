@@ -1,7 +1,7 @@
 ---
 title: DateRange
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the date range
 type: docs
 weight: 3650
 url: /net/aspose.email.clients.exchange.webservice/daterange/
@@ -18,8 +18,8 @@ public sealed class DateRange
 
 | Name | Description |
 | --- | --- |
-| [DateRange](daterange)() | Initializes a new instance of the [`DateRange`](../daterange) class |
-| [DateRange](daterange)(DateTime, DateTime) | Initializes a new instance of the [`DateRange`](../daterange) class |
+| [DateRange](daterange#constructor)() | Initializes a new instance of the [`DateRange`](../daterange) class |
+| [DateRange](daterange#constructor_1)(DateTime, DateTime) | Initializes a new instance of the [`DateRange`](../daterange) class |
 
 ## Properties
 

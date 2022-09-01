@@ -1,7 +1,7 @@
 ---
 title: AppointmentProposedStartWhole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the proposed value for the PidLidAppointmentStartWhole property section 2.29 for a counter proposal. Area Meetings Canonical name PidLidAppointmentProposedStartWhole Alternate names dispidApptProposedStartWhole
 type: docs
 weight: 1240
 url: /net/aspose.email.mapi/knownpropertylist/appointmentproposedstartwhole/

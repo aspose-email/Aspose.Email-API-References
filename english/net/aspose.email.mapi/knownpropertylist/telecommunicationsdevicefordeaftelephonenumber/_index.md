@@ -1,7 +1,7 @@
 ---
 title: TelecommunicationsDeviceForDeafTelephoneNumber
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the mail users telecommunication device for the deaf TTY/TDD telephone number. Area MapiMailUser Canonical name PidTagTelecommunicationsDeviceForDeafTelephoneNumber Alternate names PR_TTYTDD_PHONE_NUMBER PR_TTYTDD_PHONE_NUMBER_A
 type: docs
 weight: 18880
 url: /net/aspose.email.mapi/knownpropertylist/telecommunicationsdevicefordeaftelephonenumber/

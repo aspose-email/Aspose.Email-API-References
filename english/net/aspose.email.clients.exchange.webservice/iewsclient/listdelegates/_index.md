@@ -1,7 +1,7 @@
 ---
 title: ListDelegates
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists the users who are granted access on the specified mailbox.
 type: docs
 weight: 1100
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listdelegates/
@@ -18,7 +18,7 @@ public ExchangeDelegateUserCollection ListDelegates(string mailbox)
 | --- | --- | --- |
 | mailbox | String | A mailbox. |
 
-## Return Value
+### Return Value
 
 A [`ExchangeDelegateUserCollection`](../../exchangedelegateusercollection) representing the delegate users.
 

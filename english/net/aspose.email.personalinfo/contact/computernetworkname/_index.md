@@ -1,7 +1,7 @@
 ---
 title: ComputerNetworkName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a name of the mail users computer network.
 type: docs
 weight: 70
 url: /net/aspose.email.personalinfo/contact/computernetworkname/

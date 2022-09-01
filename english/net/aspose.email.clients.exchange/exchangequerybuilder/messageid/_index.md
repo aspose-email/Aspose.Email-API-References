@@ -1,7 +1,7 @@
 ---
 title: MessageId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find messages that contain the specified string in the envelope structures MessageId field.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/messageid/
@@ -14,7 +14,7 @@ Gets the field that allows to find messages that contain the specified string in
 public StringComparisonField MessageId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`DateComparisonField`](../../../aspose.email.tools.search/datecomparisonfield) that represents MessageId search field.
 

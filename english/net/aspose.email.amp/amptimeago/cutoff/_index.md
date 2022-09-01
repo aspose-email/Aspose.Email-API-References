@@ -1,7 +1,7 @@
 ---
 title: Cutoff
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Display the original date if time distance is older than cutoff seconds.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/amptimeago/cutoff/

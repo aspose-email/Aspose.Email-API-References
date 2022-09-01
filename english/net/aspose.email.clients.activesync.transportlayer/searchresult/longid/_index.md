@@ -1,7 +1,7 @@
 ---
 title: LongId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a unique identifier that is assigned by the server to each result set that is returned. The value of the LongId can be used as the long ID specified in the ItemOperations command request the SmartReply command request the SmartForward command request or the MeetingResponse command request to reference the result set. The client MUST store the value of LongId as an opaque string of up to 256 characters.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/searchresult/longid/

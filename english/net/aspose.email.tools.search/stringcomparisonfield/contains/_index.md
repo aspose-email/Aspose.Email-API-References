@@ -1,12 +1,12 @@
 ---
 title: Contains
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field in message must contain the specified value.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.search/stringcomparisonfield/contains/
 ---
-## StringComparisonField.Contains method (1 of 2)
+## Contains(string) {#contains}
 
 Indicates that field in message must contain the specified value.
 
@@ -18,7 +18,7 @@ public MailQuery Contains(string value)
 | --- | --- | --- |
 | value | String | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -31,7 +31,7 @@ public MailQuery Contains(string value)
 
 ---
 
-## StringComparisonField.Contains method (2 of 2)
+## Contains(string, bool) {#contains_1}
 
 Indicates that field in message must contain the specified value.
 
@@ -44,7 +44,7 @@ public MailQuery Contains(string value, bool ignoreCase)
 | value | String | The value. |
 | ignoreCase | Boolean | true to ignore case during the comparison; otherwise, false. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

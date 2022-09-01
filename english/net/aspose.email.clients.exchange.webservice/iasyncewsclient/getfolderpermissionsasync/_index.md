@@ -1,7 +1,7 @@
 ---
 title: GetFolderPermissionsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the folder permissions.
 type: docs
 weight: 350
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getfolderpermissionsasync/
@@ -20,7 +20,7 @@ public Task<ExchangePermissionCollection> GetFolderPermissionsAsync(string folde
 | folderUrl | String | The folder URL. |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 The [`ExchangePermissionCollection`](../../../aspose.email.clients.exchange/exchangepermissioncollection)
 

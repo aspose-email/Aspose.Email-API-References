@@ -1,7 +1,7 @@
 ---
 title: AddressBookHomeMessageDatabase
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the DN expressed in the X500 DN format. This property is returned from a PtypString8. Area Address Book Canonical name PidTagAddressBookHomeMessageDatabase Alternate names PR_EMS_AB_HOME_MDB PR_EMS_AB_HOME_MDB_A PR_EMS_AB_HOME_MDB_W
 type: docs
 weight: 670
 url: /net/aspose.email.mapi/knownpropertylist/addressbookhomemessagedatabase/

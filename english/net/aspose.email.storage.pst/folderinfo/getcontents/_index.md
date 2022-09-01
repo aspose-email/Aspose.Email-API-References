@@ -1,12 +1,12 @@
 ---
 title: GetContents
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get collection of messages.
 type: docs
 weight: 280
 url: /net/aspose.email.storage.pst/folderinfo/getcontents/
 ---
-## FolderInfo.GetContents method (1 of 5)
+## GetContents(bool) {#getcontents_3}
 
 Get collection of messages.
 
@@ -18,7 +18,7 @@ public MessageInfoCollection GetContents(bool tryToReadCorruptedContents)
 | --- | --- | --- |
 | tryToReadCorruptedContents | Boolean | If the value of this parameter is true, the method will try to read the content even if the file is corrupted. This value can be used if the GetContents() method throws an exception about the file corruption. If the value of this parameter is false, the method works in the same way as GetContents() method without parameters. |
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 
@@ -31,7 +31,7 @@ Collection of MessageInfo.
 
 ---
 
-## FolderInfo.GetContents method (2 of 5)
+## GetContents() {#getcontents}
 
 Get collection of messages.
 
@@ -39,7 +39,7 @@ Get collection of messages.
 public MessageInfoCollection GetContents()
 ```
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 
@@ -52,7 +52,7 @@ Collection of MessageInfo.
 
 ---
 
-## FolderInfo.GetContents method (3 of 5)
+## GetContents(MessageKind) {#getcontents_1}
 
 Get collection of messages.
 
@@ -64,7 +64,7 @@ public MessageInfoCollection GetContents(MessageKind kind)
 | --- | --- | --- |
 | kind | MessageKind | The message kind. |
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 
@@ -78,7 +78,7 @@ Collection of MessageInfo.
 
 ---
 
-## FolderInfo.GetContents method (4 of 5)
+## GetContents(MailQuery) {#getcontents_2}
 
 Get collection of messages.
 
@@ -90,7 +90,7 @@ public MessageInfoCollection GetContents(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 
@@ -104,7 +104,7 @@ Collection of MessageInfo.
 
 ---
 
-## FolderInfo.GetContents method (5 of 5)
+## GetContents(int, int) {#getcontents_4}
 
 Gets the collection of messages.
 
@@ -117,7 +117,7 @@ public MessageInfoCollection GetContents(int startIndex, int count)
 | startIndex | Int32 | The start message index. |
 | count | Int32 | The number of messages that will be retrieved. |
 
-## Return Value
+### Return Value
 
 Collection of MessageInfo.
 

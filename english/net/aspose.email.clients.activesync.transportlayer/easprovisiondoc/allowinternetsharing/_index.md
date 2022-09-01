@@ -1,7 +1,7 @@
 ---
 title: AllowInternetSharing
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows the use of Internet Sharing. This property SHOULD be ignored if the client does not support sharing its internet connection with other devices.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowinternetsharing/

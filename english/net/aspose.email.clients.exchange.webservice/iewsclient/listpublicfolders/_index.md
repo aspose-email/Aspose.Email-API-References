@@ -1,7 +1,7 @@
 ---
 title: ListPublicFolders
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets collection of public folders from root public folder
 type: docs
 weight: 1170
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/listpublicfolders/
@@ -14,7 +14,7 @@ Gets collection of public folders from root public folder
 public ExchangeFolderInfoCollection ListPublicFolders()
 ```
 
-## Return Value
+### Return Value
 
 [`ExchangeFolderInfoCollection`](../../../aspose.email.clients.exchange/exchangefolderinfocollection) that contains subfolders from the root public folder
 

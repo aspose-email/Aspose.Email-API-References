@@ -1,7 +1,7 @@
 ---
 title: SearchFolderId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a GUID that identifies the search folder. Area Search Canonical name PidTagSearchFolderId Alternate names PR_WB_SF_ID
 type: docs
 weight: 16970
 url: /net/aspose.email.mapi/knownpropertylist/searchfolderid/

@@ -1,12 +1,12 @@
 ---
 title: AttachSignature
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates a signed message. Creates a readonly copy of the specified MailMessage and adds a digital signature to it.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.email/mailmessage/attachsignature/
 ---
-## MailMessage.AttachSignature method (1 of 4)
+## AttachSignature(X509Certificate2, bool) {#attachsignature_3}
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 
@@ -27,7 +27,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate, bool de
 
 ---
 
-## MailMessage.AttachSignature method (2 of 4)
+## AttachSignature(CmsSigner, bool) {#attachsignature_1}
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 
@@ -40,7 +40,7 @@ public virtual MailMessage AttachSignature(CmsSigner signer, bool detached)
 | signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
 | detached | Boolean | .If detached is true, the signature is detached.If detached is false(the default), the signature is not detached. |
 
-## Return Value
+### Return Value
 
 The signed MailMessage.
 
@@ -52,7 +52,7 @@ The signed MailMessage.
 
 ---
 
-## MailMessage.AttachSignature method (3 of 4)
+## AttachSignature(X509Certificate2) {#attachsignature_2}
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 
@@ -64,7 +64,7 @@ public virtual MailMessage AttachSignature(X509Certificate2 certificate)
 | --- | --- | --- |
 | certificate | X509Certificate2 | X.509 certificate. |
 
-## Return Value
+### Return Value
 
 The signed MailMessage.
 
@@ -76,7 +76,7 @@ The signed MailMessage.
 
 ---
 
-## MailMessage.AttachSignature method (4 of 4)
+## AttachSignature(CmsSigner) {#attachsignature}
 
 Creates a signed message. Creates a read-only copy of the specified MailMessage and adds a digital signature to it.
 
@@ -88,7 +88,7 @@ public virtual MailMessage AttachSignature(CmsSigner signer)
 | --- | --- | --- |
 | signer | CmsSigner | System.Security.Cryptography.Pkcs.CmsSigner. |
 
-## Return Value
+### Return Value
 
 The signed MailMessage.
 

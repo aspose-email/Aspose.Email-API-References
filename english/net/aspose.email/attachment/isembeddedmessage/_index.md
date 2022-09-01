@@ -1,7 +1,7 @@
 ---
 title: IsEmbeddedMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the attachment is an embedded message.
 type: docs
 weight: 40
 url: /net/aspose.email/attachment/isembeddedmessage/

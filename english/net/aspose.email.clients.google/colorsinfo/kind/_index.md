@@ -1,7 +1,7 @@
 ---
 title: KIND
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Type of the resource calendarcolors.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.google/colorsinfo/kind/

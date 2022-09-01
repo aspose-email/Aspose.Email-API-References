@@ -1,12 +1,12 @@
 ---
 title: ExchangeMessageInfoCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the ExchangeMessageInfoCollection class that is empty.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/exchangemessageinfocollection/exchangemessageinfocollection/
 ---
-## ExchangeMessageInfoCollection constructor (1 of 2)
+## ExchangeMessageInfoCollection() {#constructor}
 
 Initializes a new instance of the ExchangeMessageInfoCollection class that is empty.
 
@@ -22,7 +22,7 @@ public ExchangeMessageInfoCollection()
 
 ---
 
-## ExchangeMessageInfoCollection constructor (2 of 2)
+## ExchangeMessageInfoCollection(IEnumerable&lt;ExchangeMessageInfo&gt;) {#constructor_1}
 
 Initializes a new instance of the ExchangeMessageInfoCollection class
 

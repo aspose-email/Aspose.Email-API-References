@@ -1,7 +1,7 @@
 ---
 title: Picture
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the data related to the contact photos.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/recipient/picture/

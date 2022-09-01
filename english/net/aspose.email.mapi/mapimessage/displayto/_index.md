@@ -1,7 +1,7 @@
 ---
 title: DisplayTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a list of the display names of the primary To message recipients separated by semicolons .
 type: docs
 weight: 140
 url: /net/aspose.email.mapi/mapimessage/displayto/
@@ -14,7 +14,7 @@ Gets a list of the display names of the primary (To) message recipients, separat
 public string DisplayTo { get; }
 ```
 
-## Property Value
+### Property Value
 
 The string that represents display to.
 

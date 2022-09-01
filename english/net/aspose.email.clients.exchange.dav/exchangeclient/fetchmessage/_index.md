@@ -1,7 +1,7 @@
 ---
 title: FetchMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the mail message with specified uri.
 type: docs
 weight: 180
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/fetchmessage/
@@ -18,7 +18,7 @@ public MailMessage FetchMessage(string messageUri)
 | --- | --- | --- |
 | messageUri | String | The message uri. |
 
-## Return Value
+### Return Value
 
 A MailMessage object contains the message.
 

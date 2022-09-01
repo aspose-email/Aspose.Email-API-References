@@ -1,7 +1,7 @@
 ---
 title: ActiveSyncTLClient
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Basic class for ActiveSync client implementations
 type: docs
 weight: 950
 url: /net/aspose.email.clients.activesync.transportlayer/activesynctlclient/
@@ -40,8 +40,8 @@ public class ActiveSyncTLClient : IBaseActiveSyncTLClient
 | virtual [Autodiscover](../../aspose.email.clients.activesync.transportlayer/activesynctlclient/autodiscover)(string) | The Autodiscover command facilitates the discovery of core account configuration information by using the user's Simple Mail Transfer Protocol (SMTP) address as the primary input. |
 | [Dispose](../../aspose.email.clients.activesync.transportlayer/activesynctlclient/dispose)() | Performs tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | static [Autodiscover](../../aspose.email.clients.activesync.transportlayer/activesynctlclient/autodiscover)(string, NetworkCredential, string) | The Autodiscover command facilitates the discovery of core account configuration information by using the user's Simple Mail Transfer Protocol (SMTP) address as the primary input. |
-| static [GetInstance](../../aspose.email.clients.activesync.transportlayer/activesynctlclient/getinstance)(string, NetworkCredential) | Gets an instance of the ActiveSync client The version of the ActiveSync protocol is selected automatically according to server response. |
-| static [GetInstance](../../aspose.email.clients.activesync.transportlayer/activesynctlclient/getinstance)(string, NetworkCredential, ASProtocolVersions) | Gets an instance of the ActiveSync client |
+| static [GetInstance](../../aspose.email.clients.activesync.transportlayer/activesynctlclient/getinstance#getinstance)(string, NetworkCredential) | Gets an instance of the ActiveSync client The version of the ActiveSync protocol is selected automatically according to server response. |
+| static [GetInstance](../../aspose.email.clients.activesync.transportlayer/activesynctlclient/getinstance#getinstance_1)(string, NetworkCredential, ASProtocolVersions) | Gets an instance of the ActiveSync client |
 | static [GetOptions](../../aspose.email.clients.activesync.transportlayer/activesynctlclient/getoptions)(string, NetworkCredential, out string[], out string[]) | The GetOptions static method is used to discover what protocol versions are supported, and which protocol commands are supported on the server. The client uses the GetOptions static method to determine whether the server supports the same versions of the protocol that the client supports. |
 
 ### See Also

@@ -1,7 +1,7 @@
 ---
 title: TtyTdd
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default Tty/Tdd
 type: docs
 weight: 190
 url: /net/aspose.email.personalinfo/phonenumberlist/ttytdd/

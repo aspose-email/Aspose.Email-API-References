@@ -1,12 +1,12 @@
 ---
 title: DeleteFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes a specified folder. This method represents IMAP DELETE command
 type: docs
 weight: 550
 url: /net/aspose.email.clients.imap/imapclient/deletefolderasync/
 ---
-## ImapClient.DeleteFolderAsync method (1 of 4)
+## DeleteFolderAsync(IConnection, string) {#deletefolderasync}
 
 Deletes a specified folder. This method represents IMAP DELETE command
 
@@ -19,7 +19,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Folder to be deleted |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -32,7 +32,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteFolderAsync method (2 of 4)
+## DeleteFolderAsync(string) {#deletefolderasync_2}
 
 Deletes a specified folder. This method represents IMAP DELETE command
 
@@ -44,7 +44,7 @@ public Task DeleteFolderAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | Folder to be deleted |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteFolderAsync method (3 of 4)
+## DeleteFolderAsync(IConnection, string, CancellationToken) {#deletefolderasync_1}
 
 Deletes a specified folder. This method represents IMAP DELETE command
 
@@ -70,7 +70,7 @@ public Task DeleteFolderAsync(IConnection connection, string folderName, Cancell
 | folderName | String | Folder to be deleted |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -83,7 +83,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.DeleteFolderAsync method (4 of 4)
+## DeleteFolderAsync(string, CancellationToken) {#deletefolderasync_3}
 
 Deletes a specified folder. This method represents IMAP DELETE command
 
@@ -96,7 +96,7 @@ public Task DeleteFolderAsync(string folderName, CancellationToken token)
 | folderName | String | Folder to be deleted |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

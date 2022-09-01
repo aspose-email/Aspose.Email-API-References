@@ -1,7 +1,7 @@
 ---
 title: IsSigned
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the binary data is signed.
 type: docs
 weight: 100
 url: /net/aspose.email.mapi/mapiproperty/issigned/

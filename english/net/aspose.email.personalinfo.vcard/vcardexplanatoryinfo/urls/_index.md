@@ -1,9 +1,9 @@
 ---
 title: Urls
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a urls
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.email.personalinfo.vcard/vcardexplanatoryinfo/urls/
 ---
 ## VCardExplanatoryInfo.Urls property

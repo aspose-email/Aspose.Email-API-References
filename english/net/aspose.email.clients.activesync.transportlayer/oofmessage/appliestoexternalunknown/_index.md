@@ -1,7 +1,7 @@
 ---
 title: AppliesToExternalUnknown
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that the OOF message applies to unknown external users.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/oofmessage/appliestoexternalunknown/

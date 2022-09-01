@@ -1,7 +1,7 @@
 ---
 title: NonDeliveryReportStatusCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the Status field for a delivery status notification as specified in RFC3464. Area Email Canonical name PidTagNonDeliveryReportStatusCode Alternate names PR_NDR_STATUS_CODE ptagNDRStatusCode
 type: docs
 weight: 12970
 url: /net/aspose.email.mapi/knownpropertylist/nondeliveryreportstatuscode/

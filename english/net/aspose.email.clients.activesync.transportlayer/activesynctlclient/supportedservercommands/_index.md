@@ -1,7 +1,7 @@
 ---
 title: SupportedServerCommands
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the versions of ActiveSync commands which are supported
 type: docs
 weight: 80
 url: /net/aspose.email.clients.activesync.transportlayer/activesynctlclient/supportedservercommands/

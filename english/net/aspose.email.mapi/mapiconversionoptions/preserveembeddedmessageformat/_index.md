@@ -1,7 +1,7 @@
 ---
 title: PreserveEmbeddedMessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether it is necessary to preserve conversion .eml attachment to .msg attachment.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/mapiconversionoptions/preserveembeddedmessageformat/

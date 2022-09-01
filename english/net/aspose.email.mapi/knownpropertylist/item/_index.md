@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the element at the specified index.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/knownpropertylist/item/
@@ -18,7 +18,7 @@ public PropertyDescriptor this[int index] { get; set; }
 | --- | --- |
 | index | The zero-based index of the element to get or set. |
 
-## Return Value
+### Return Value
 
 The property is set and the System.Collections.Generic.IList is read-only.
 

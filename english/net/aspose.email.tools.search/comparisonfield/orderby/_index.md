@@ -1,7 +1,7 @@
 ---
 title: OrderBy
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Sets value which indicates if client uses ascending or descending sorting on the Field.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.search/comparisonfield/orderby/

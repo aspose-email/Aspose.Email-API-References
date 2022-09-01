@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies a relative time for the trigger of the alarm.
 type: docs
 weight: 30
 url: /net/aspose.email.calendar/remindertrigger/duration/

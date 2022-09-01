@@ -1,7 +1,7 @@
 ---
 title: BusinessHomePage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: BusinessHomePage header.
 type: docs
 weight: 60
 url: /net/aspose.email/mhttemplatename.contact/businesshomepage/

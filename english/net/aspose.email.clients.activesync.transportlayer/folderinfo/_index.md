@@ -1,7 +1,7 @@
 ---
 title: FolderInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: FolderInfo class contains folder information
 type: docs
 weight: 1260
 url: /net/aspose.email.clients.activesync.transportlayer/folderinfo/

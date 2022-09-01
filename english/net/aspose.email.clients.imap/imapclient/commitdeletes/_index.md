@@ -1,12 +1,12 @@
 ---
 title: CommitDeletes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Commit the deletions
 type: docs
 weight: 460
 url: /net/aspose.email.clients.imap/imapclient/commitdeletes/
 ---
-## ImapClient.CommitDeletes method (1 of 10)
+## CommitDeletes(IConnection) {#commitdeletes_1}
 
 Commit the deletions
 
@@ -27,7 +27,7 @@ public void CommitDeletes(IConnection connection)
 
 ---
 
-## ImapClient.CommitDeletes method (2 of 10)
+## CommitDeletes(IConnection, int) {#commitdeletes_2}
 
 Commit the deletions
 
@@ -49,7 +49,7 @@ public void CommitDeletes(IConnection connection, int sleep)
 
 ---
 
-## ImapClient.CommitDeletes method (3 of 10)
+## CommitDeletes() {#commitdeletes}
 
 Commit the deletions
 
@@ -65,7 +65,7 @@ public void CommitDeletes()
 
 ---
 
-## ImapClient.CommitDeletes method (4 of 10)
+## CommitDeletes(int) {#commitdeletes_6}
 
 Commit the deletions
 
@@ -85,7 +85,7 @@ public void CommitDeletes(int sleep)
 
 ---
 
-## ImapClient.CommitDeletes method (5 of 10)
+## CommitDeletes(IEnumerable&lt;string&gt;) {#commitdeletes_7}
 
 Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -105,7 +105,7 @@ public void CommitDeletes(IEnumerable<string> uidSet)
 
 ---
 
-## ImapClient.CommitDeletes method (6 of 10)
+## CommitDeletes(string) {#commitdeletes_8}
 
 Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -125,7 +125,7 @@ public void CommitDeletes(string uniqueId)
 
 ---
 
-## ImapClient.CommitDeletes method (7 of 10)
+## CommitDeletes(string, string) {#commitdeletes_9}
 
 Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -146,7 +146,7 @@ public void CommitDeletes(string startUid, string endUid)
 
 ---
 
-## ImapClient.CommitDeletes method (8 of 10)
+## CommitDeletes(IConnection, IEnumerable&lt;string&gt;) {#commitdeletes_3}
 
 Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -168,7 +168,7 @@ public void CommitDeletes(IConnection connection, IEnumerable<string> uidSet)
 
 ---
 
-## ImapClient.CommitDeletes method (9 of 10)
+## CommitDeletes(IConnection, string) {#commitdeletes_4}
 
 Commit the deletions
 
@@ -190,7 +190,7 @@ public void CommitDeletes(IConnection connection, string uniqueId)
 
 ---
 
-## ImapClient.CommitDeletes method (10 of 10)
+## CommitDeletes(IConnection, string, string) {#commitdeletes_5}
 
 Commit the deletions This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 

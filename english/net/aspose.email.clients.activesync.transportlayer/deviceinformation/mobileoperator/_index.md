@@ -1,7 +1,7 @@
 ---
 title: MobileOperator
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Mobile operator name
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/deviceinformation/mobileoperator/

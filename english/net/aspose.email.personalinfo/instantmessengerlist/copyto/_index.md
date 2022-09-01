@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Copies the elements to an array starting at a particular array index.
 type: docs
 weight: 160
 url: /net/aspose.email.personalinfo/instantmessengerlist/copyto/

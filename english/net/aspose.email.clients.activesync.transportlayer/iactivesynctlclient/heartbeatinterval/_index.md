@@ -1,7 +1,7 @@
 ---
 title: HeartbeatInterval
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The HeartbeatInterval element is a child element of the Ping element in Ping command requests and responses. In Ping command requests it specifies the length of time in seconds that the server SHOULD wait before sending a response if no new items are added to the specified set of folders as specified in section 3.1.5.6. The HeartbeatInterval element is also returned by the server with a status code of 5 and specifies either the minimum or maximum interval that is allowed when the client has requested a heartbeat interval that is outside the acceptable range.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/heartbeatinterval/

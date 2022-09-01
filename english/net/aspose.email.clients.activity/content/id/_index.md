@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Unique identifier of an audit record. Mandatory Yes
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activity/content/id/

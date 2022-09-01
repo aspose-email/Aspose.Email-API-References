@@ -1,7 +1,7 @@
 ---
 title: GetContactsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Lists contacts located in the specified folder on server
 type: docs
 weight: 330
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/getcontactsasync/
@@ -22,7 +22,7 @@ public Task<Contact[]> GetContactsAsync(string folder,
 | options | ExchangeListContactsOptions | Enumerates the list contacts options |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 An array of read [`Contact`](../../../aspose.email.personalinfo/contact) that represents contact information
 

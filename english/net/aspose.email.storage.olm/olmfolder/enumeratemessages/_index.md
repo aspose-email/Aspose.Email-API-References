@@ -1,12 +1,12 @@
 ---
 title: EnumerateMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exposes the enumerator which supports an iteration of messages in folder.
 type: docs
 weight: 70
 url: /net/aspose.email.storage.olm/olmfolder/enumeratemessages/
 ---
-## OlmFolder.EnumerateMessages method (1 of 3)
+## EnumerateMessages() {#enumeratemessages}
 
 Exposes the enumerator, which supports an iteration of messages in folder.
 
@@ -14,7 +14,7 @@ Exposes the enumerator, which supports an iteration of messages in folder.
 public IEnumerable<OlmMessageInfo> EnumerateMessages()
 ```
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 
@@ -27,7 +27,7 @@ IEnumerable, that represents an enumerator that iterates through a messages in f
 
 ---
 
-## OlmFolder.EnumerateMessages method (2 of 3)
+## EnumerateMessages(int, int) {#enumeratemessages_2}
 
 Exposes the enumerator, which supports an iteration of messages in folder.
 
@@ -40,7 +40,7 @@ public IEnumerable<OlmMessageInfo> EnumerateMessages(int startIndex, int count)
 | startIndex | Int32 | The start message index. |
 | count | Int32 | The number of messages that will be retrieved. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 
@@ -64,7 +64,7 @@ If "count" param is less than 0 or more than remained message count then remaine
 
 ---
 
-## OlmFolder.EnumerateMessages method (3 of 3)
+## EnumerateMessages(MailQuery) {#enumeratemessages_1}
 
 Exposes the enumerator, which supports an iteration of messages in folder.
 
@@ -76,7 +76,7 @@ public IEnumerable<OlmMessageInfo> EnumerateMessages(MailQuery query)
 | --- | --- | --- |
 | query | MailQuery | [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 

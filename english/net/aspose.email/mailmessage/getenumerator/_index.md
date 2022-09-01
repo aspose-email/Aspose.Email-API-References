@@ -1,9 +1,9 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns an enumerator that iterates through a collection.
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.email/mailmessage/getenumerator/
 ---
 ## MailMessage.GetEnumerator method
@@ -14,7 +14,7 @@ Returns an enumerator that iterates through a collection.
 public IEnumerator GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 An IEnumerator object that can be used to iterate through the collection.
 

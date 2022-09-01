@@ -1,9 +1,9 @@
 ---
 title: IImapMonitoringState
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Holds folder monitoring state. This can be used to resume folder monitoring from place where it stopped when error occured. Use ResumeMonitoring./imapclient/resumemonitoring method.
 type: docs
-weight: 16220
+weight: 16250
 url: /net/aspose.email.clients.imap/iimapmonitoringstate/
 ---
 ## IImapMonitoringState interface

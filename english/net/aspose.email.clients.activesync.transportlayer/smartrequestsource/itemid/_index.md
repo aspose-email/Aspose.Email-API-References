@@ -1,7 +1,7 @@
 ---
 title: ItemId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the item ID for the source message which is returned in the Sync command. If the ItemId is present the FolderId MUST also be present if the message being forwarded or replied to is stored in a folder other than the Inbox folder. The ItemId element value can be up to 64 characters in length.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequestsource/itemid/

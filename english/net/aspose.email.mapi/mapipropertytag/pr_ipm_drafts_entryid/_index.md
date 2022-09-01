@@ -1,7 +1,7 @@
 ---
 title: PR_IPM_DRAFTS_ENTRYID
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the EntryID of the Outlook Drafts folder.
 type: docs
 weight: 13120
 url: /net/aspose.email.mapi/mapipropertytag/pr_ipm_drafts_entryid/

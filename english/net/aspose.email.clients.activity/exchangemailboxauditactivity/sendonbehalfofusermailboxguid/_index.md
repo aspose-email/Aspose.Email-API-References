@@ -1,7 +1,7 @@
 ---
 title: SendonBehalfOfUserMailboxGuid
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Exchange GUID of the mailbox that was accessed to send mail on behalf of.
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activity/exchangemailboxauditactivity/sendonbehalfofusermailboxguid/

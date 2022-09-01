@@ -1,9 +1,9 @@
 ---
 title: OperationCanceledException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents errors that occur when an operation canceled.
 type: docs
-weight: 17220
+weight: 17390
 url: /net/aspose.email.exceptions/operationcanceledexception/
 ---
 ## OperationCanceledException class
@@ -18,10 +18,10 @@ public class OperationCanceledException : AsposeException
 
 | Name | Description |
 | --- | --- |
-| [OperationCanceledException](operationcanceledexception)() | Initializes a new instance of the OperationCanceledException class. |
-| [OperationCanceledException](operationcanceledexception)(string) | Initializes a new instance of the OperationCanceledException class with a specified error message. |
-| [OperationCanceledException](operationcanceledexception)(string, Exception) | Initializes a new instance of the OperationCanceledException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [OperationCanceledException](operationcanceledexception)(string, params object[]) | Initializes a new instance of the OperationCanceledException class with a specified error message. |
+| [OperationCanceledException](operationcanceledexception#constructor)() | Initializes a new instance of the OperationCanceledException class. |
+| [OperationCanceledException](operationcanceledexception#constructor_1)(string) | Initializes a new instance of the OperationCanceledException class with a specified error message. |
+| [OperationCanceledException](operationcanceledexception#constructor_2)(string, Exception) | Initializes a new instance of the OperationCanceledException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [OperationCanceledException](operationcanceledexception#constructor_3)(string, params object[]) | Initializes a new instance of the OperationCanceledException class with a specified error message. |
 
 ## Properties
 

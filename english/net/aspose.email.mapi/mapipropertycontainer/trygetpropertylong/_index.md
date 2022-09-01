@@ -1,7 +1,7 @@
 ---
 title: TryGetPropertyLong
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value of the specified property as Long type. A return value indicates whether the operation succeeded.
 type: docs
 weight: 160
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertylong/
@@ -19,7 +19,7 @@ public bool TryGetPropertyLong(long tag, ref long value)
 | tag | Int64 | The MAPI property tag. |
 | value | Int64& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
 
-## Return Value
+### Return Value
 
 true if s was converted successfully; otherwise, false.
 

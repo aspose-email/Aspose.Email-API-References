@@ -1,7 +1,7 @@
 ---
 title: Jpeg
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies image/jpeg media type
 type: docs
 weight: 30
 url: /net/aspose.email.mime/mediatypenames.image/jpeg/

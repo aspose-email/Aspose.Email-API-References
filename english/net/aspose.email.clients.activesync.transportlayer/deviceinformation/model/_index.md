@@ -1,7 +1,7 @@
 ---
 title: Model
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Device model
 type: docs
 weight: 60
 url: /net/aspose.email.clients.activesync.transportlayer/deviceinformation/model/

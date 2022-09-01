@@ -1,7 +1,7 @@
 ---
 title: AccessToken
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets OAuth 2.0 access token In case if refresh token is set access token is generated automatically.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/gmailclient/accesstoken/

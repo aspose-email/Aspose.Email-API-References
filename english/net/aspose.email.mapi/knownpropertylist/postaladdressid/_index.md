@@ -1,7 +1,7 @@
 ---
 title: PostalAddressId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies which physical address is the mailing address for this contact. Area Contact Properties Canonical name PidLidPostalAddressId Alternate names dispidPostalAddressId
 type: docs
 weight: 14360
 url: /net/aspose.email.mapi/knownpropertylist/postaladdressid/

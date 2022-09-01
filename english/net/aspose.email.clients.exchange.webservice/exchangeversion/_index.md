@@ -1,7 +1,7 @@
 ---
 title: ExchangeVersion
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exchange server versions
 type: docs
 weight: 3910
 url: /net/aspose.email.clients.exchange.webservice/exchangeversion/
@@ -14,7 +14,7 @@ Exchange server versions
 public enum ExchangeVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

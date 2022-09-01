@@ -1,7 +1,7 @@
 ---
 title: TaskStatus
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the field that allows to find tasks that contains the specified status. Server compatibility Exchange 2010 and higher
 type: docs
 weight: 80
 url: /net/aspose.email.clients.exchange/exchangequerybuilder/taskstatus/

@@ -1,7 +1,7 @@
 ---
 title: OscSyncEnabled
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether contact synchronization with an external source is handled by the server. Area Contact Properties Canonical name PidTagOscSyncEnabled Alternate names PR_OSC_SYNC_ENABLEDONSERVER
 type: docs
 weight: 13920
 url: /net/aspose.email.mapi/knownpropertylist/oscsyncenabled/

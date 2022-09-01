@@ -1,7 +1,7 @@
 ---
 title: LinkedTaskItems
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates whether the user did not include any text in the body of the Meeting Response object. Area Tasks Canonical name PidLidLinkedTaskItems Alternate names dispidLinkedTaskItems
 type: docs
 weight: 12100
 url: /net/aspose.email.mapi/knownpropertylist/linkedtaskitems/

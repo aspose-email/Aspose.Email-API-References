@@ -1,7 +1,7 @@
 ---
 title: FtpSite
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the File Transfer Protocol FTP site address of the mail user. Area MapiMailUser Canonical name PidTagFtpSite Alternate names PR_FTP_SITE PR_FTP_SITE_A PR_FTP_SITE_W urnschemascontactsftpsite
 type: docs
 weight: 10720
 url: /net/aspose.email.mapi/knownpropertylist/ftpsite/

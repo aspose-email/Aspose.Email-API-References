@@ -1,9 +1,9 @@
 ---
 title: PidLidPropertyDescriptor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Class contains property description information.
 type: docs
-weight: 18770
+weight: 18980
 url: /net/aspose.email.mapi/pidlidpropertydescriptor/
 ---
 ## PidLidPropertyDescriptor class
@@ -18,9 +18,9 @@ public class PidLidPropertyDescriptor : PropertyDescriptor
 
 | Name | Description |
 | --- | --- |
-| [PidLidPropertyDescriptor](pidlidpropertydescriptor)(long, PropertyDataType, Guid) | Initializes a new instance of the [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class Properties identified by an unsigned 32-bit quantity along with a property set. |
-| [PidLidPropertyDescriptor](pidlidpropertydescriptor)(string, long, PropertyDataType, Guid) | Initializes a new instance of the [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class Properties identified by an unsigned 32-bit quantity along with a property set. |
-| [PidLidPropertyDescriptor](pidlidpropertydescriptor)(string, string, long, PropertyDataType, Guid) | Initializes a new instance of the [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class Properties identified by an unsigned 32-bit quantity along with a property set. |
+| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor)(long, PropertyDataType, Guid) | Initializes a new instance of the [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class Properties identified by an unsigned 32-bit quantity along with a property set. |
+| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_1)(string, long, PropertyDataType, Guid) | Initializes a new instance of the [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class Properties identified by an unsigned 32-bit quantity along with a property set. |
+| [PidLidPropertyDescriptor](pidlidpropertydescriptor#constructor_2)(string, string, long, PropertyDataType, Guid) | Initializes a new instance of the [`PidLidPropertyDescriptor`](../pidlidpropertydescriptor) class Properties identified by an unsigned 32-bit quantity along with a property set. |
 
 ## Properties
 
@@ -37,8 +37,8 @@ public class PidLidPropertyDescriptor : PropertyDescriptor
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.email.mapi/pidlidpropertydescriptor/equals)(object) | Determines whether the specified System.Object is equal to the current System.Object. |
-| override [Equals](../../aspose.email.mapi/pidlidpropertydescriptor/equals)(PropertyDescriptor) | Indicates whether the current object is equal to another object of the same type. |
+| override [Equals](../../aspose.email.mapi/pidlidpropertydescriptor/equals#equals_1)(object) | Determines whether the specified System.Object is equal to the current System.Object. |
+| override [Equals](../../aspose.email.mapi/pidlidpropertydescriptor/equals#equals)(PropertyDescriptor) | Indicates whether the current object is equal to another object of the same type. |
 | override [GetHashCode](../../aspose.email.mapi/pidlidpropertydescriptor/gethashcode)() | Serves as a hash function for a type. |
 | override [ToString](../../aspose.email.mapi/pidlidpropertydescriptor/tostring)() | Returns a string that represents the property description. |
 | [operator ==](../../aspose.email.mapi/pidlidpropertydescriptor/op_equality) | Determines whether the specified objects are equal to each another. |

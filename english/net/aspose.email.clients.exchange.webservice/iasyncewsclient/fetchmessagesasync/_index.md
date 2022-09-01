@@ -1,7 +1,7 @@
 ---
 title: FetchMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Fetches the specified messages.
 type: docs
 weight: 270
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/fetchmessagesasync/
@@ -22,7 +22,7 @@ public Task<MailMessageCollection> FetchMessagesAsync(IEnumerable<string> uris,
 | extendedProperties | IEnumerable`1 | An enumeration of extended properties |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 A [`MailMessageCollection`](../../../aspose.email/mailmessagecollection) containing fetched messages
 

@@ -1,9 +1,9 @@
 ---
 title: MsgLoadOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Allows to specify additional options when loading MailMessage from Msg format.
 type: docs
-weight: 19050
+weight: 19260
 url: /net/aspose.email/msgloadoptions/
 ---
 ## MsgLoadOptions class

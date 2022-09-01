@@ -1,7 +1,7 @@
 ---
 title: In
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field vlaue in message must be in list of specified values.
 type: docs
 weight: 20
 url: /net/aspose.email.tools.search/enumcomparisonfield/in/
@@ -18,7 +18,7 @@ public MailQuery In(IEnumerable values)
 | --- | --- | --- |
 | values | IEnumerable | Values . |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

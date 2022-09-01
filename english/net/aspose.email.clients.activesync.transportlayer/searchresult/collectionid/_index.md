@@ -1,7 +1,7 @@
 ---
 title: CollectionId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the folders in which the item was found.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/searchresult/collectionid/

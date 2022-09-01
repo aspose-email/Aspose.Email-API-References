@@ -1,7 +1,7 @@
 ---
 title: TemplateDescription
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a description of the rights policy template represented by the parent RightsManagementLicense element. This element is used for informational presentation purposes only. The maximum length of the TemplateDescription element is 10240 characters.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.activesync.transportlayer/rightsmanagementlicense/templatedescription/

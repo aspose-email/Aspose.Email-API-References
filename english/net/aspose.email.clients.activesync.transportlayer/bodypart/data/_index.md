@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The content of the Data element is a string in the format that is specified by the Type property. If the value of the Type is RTF the value of the Data element is encoded using base64 encoding. If the Truncated property set true the data in the Data element is truncated. The EstimatedDataSize property provides a rough estimation of the actual size of the complete content of the Data string.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/bodypart/data/

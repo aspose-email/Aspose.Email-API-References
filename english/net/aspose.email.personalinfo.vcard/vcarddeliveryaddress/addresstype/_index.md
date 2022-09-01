@@ -1,7 +1,7 @@
 ---
 title: AddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets an address type
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo.vcard/vcarddeliveryaddress/addresstype/

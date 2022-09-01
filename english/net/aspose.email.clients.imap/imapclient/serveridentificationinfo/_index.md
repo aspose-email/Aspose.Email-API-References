@@ -1,7 +1,7 @@
 ---
 title: ServerIdentificationInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets server identification information See more https//tools.ietf.org/html/rfc2971
 type: docs
 weight: 250
 url: /net/aspose.email.clients.imap/imapclient/serveridentificationinfo/

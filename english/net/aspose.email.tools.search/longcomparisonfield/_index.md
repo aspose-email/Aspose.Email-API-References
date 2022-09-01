@@ -1,9 +1,9 @@
 ---
 title: LongComparisonField
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the Int64 search field.
 type: docs
-weight: 20510
+weight: 20740
 url: /net/aspose.email.tools.search/longcomparisonfield/
 ---
 ## LongComparisonField class
@@ -18,7 +18,7 @@ public sealed class LongComparisonField : ComparisonField
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.email.tools.search/longcomparisonfield/equals)(long) | Indicates that field must be equal to the specified value. |
+| [Equals](../../aspose.email.tools.search/longcomparisonfield/equals#equals)(long) | Indicates that field must be equal to the specified value. |
 | [Greater](../../aspose.email.tools.search/longcomparisonfield/greater)(long) | Indicates that field must be greater than the specified value. |
 | [GreaterOrEqual](../../aspose.email.tools.search/longcomparisonfield/greaterorequal)(long) | Indicates that field must be greater or equal to the specified value. |
 | [Less](../../aspose.email.tools.search/longcomparisonfield/less)(long) | Indicates that field must be less than the specified value. |

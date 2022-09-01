@@ -1,7 +1,7 @@
 ---
 title: SpouseValue
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: String value for Spouse category
 type: docs
 weight: 360
 url: /net/aspose.email.personalinfo/associatedpersoncategory/spousevalue/

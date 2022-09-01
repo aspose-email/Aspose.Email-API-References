@@ -1,7 +1,7 @@
 ---
 title: AuthId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets authentication identifier
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activity/webhook/authid/

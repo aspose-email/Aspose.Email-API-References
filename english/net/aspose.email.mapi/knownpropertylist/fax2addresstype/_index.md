@@ -1,7 +1,7 @@
 ---
 title: Fax2AddressType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the string value FAX. Area Contact Properties Canonical name PidLidFax2AddressType Alternate names dispidFax2AddrType
 type: docs
 weight: 10170
 url: /net/aspose.email.mapi/knownpropertylist/fax2addresstype/

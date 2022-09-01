@@ -1,9 +1,9 @@
 ---
 title: MapiNamedProperty
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents the data type of Named Property.
 type: docs
-weight: 18310
+weight: 18520
 url: /net/aspose.email.mapi/mapinamedproperty/
 ---
 ## MapiNamedProperty class
@@ -18,11 +18,11 @@ public sealed class MapiNamedProperty : MapiProperty
 
 | Name | Description |
 | --- | --- |
-| [MapiNamedProperty](mapinamedproperty)() | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
-| [MapiNamedProperty](mapinamedproperty)(INamedPropertyTagProvider, PidLidPropertyDescriptor, object) | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
-| [MapiNamedProperty](mapinamedproperty)(INamedPropertyTagProvider, PidNamePropertyDescriptor, object) | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
-| [MapiNamedProperty](mapinamedproperty)(long, long, Guid, byte[]) | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
-| [MapiNamedProperty](mapinamedproperty)(long, string, Guid, byte[]) | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
+| [MapiNamedProperty](mapinamedproperty#constructor)() | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
+| [MapiNamedProperty](mapinamedproperty#constructor_1)(INamedPropertyTagProvider, PidLidPropertyDescriptor, object) | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
+| [MapiNamedProperty](mapinamedproperty#constructor_2)(INamedPropertyTagProvider, PidNamePropertyDescriptor, object) | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
+| [MapiNamedProperty](mapinamedproperty#constructor_3)(long, long, Guid, byte[]) | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
+| [MapiNamedProperty](mapinamedproperty#constructor_4)(long, string, Guid, byte[]) | Initializes a new instance of the [`MapiNamedProperty`](../mapinamedproperty) class. |
 
 ## Properties
 

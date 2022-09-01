@@ -1,7 +1,7 @@
 ---
 title: GetStream
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns configured network stream to transport data to the required host through the proxy server.
 type: docs
 weight: 60
 url: /net/aspose.email.clients/proxy/getstream/
@@ -19,7 +19,7 @@ public Stream GetStream(string address, int port)
 | address | String | The domain name of the host we want to contact |
 | port | Int32 | The port number of the host we want to contact |
 
-## Return Value
+### Return Value
 
 Returns configure network stream to connect with required host through the proxy server.
 

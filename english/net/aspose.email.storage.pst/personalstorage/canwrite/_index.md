@@ -1,7 +1,7 @@
 ---
 title: CanWrite
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets a value indicating whether the current pst supports writing.
 type: docs
 weight: 50
 url: /net/aspose.email.storage.pst/personalstorage/canwrite/

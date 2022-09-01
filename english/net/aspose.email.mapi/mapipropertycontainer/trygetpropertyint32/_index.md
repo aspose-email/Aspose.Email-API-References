@@ -1,7 +1,7 @@
 ---
 title: TryGetPropertyInt32
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the value of the specified property as Int32 type. A return value indicates whether the operation succeeded.
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/mapipropertycontainer/trygetpropertyint32/
@@ -19,7 +19,7 @@ public bool TryGetPropertyInt32(long tag, ref int value)
 | tag | Int64 | The MAPI property tag. |
 | value | Int32& | When this method returns, contains the value of the specified property, if the property exists. This parameter is passed uninitialized. |
 
-## Return Value
+### Return Value
 
 true if s was converted successfully; otherwise, false.
 

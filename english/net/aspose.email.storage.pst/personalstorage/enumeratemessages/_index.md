@@ -1,12 +1,12 @@
 ---
 title: EnumerateMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Exposes the enumerator which supports an iteration of messages in folder.
 type: docs
 weight: 160
 url: /net/aspose.email.storage.pst/personalstorage/enumeratemessages/
 ---
-## PersonalStorage.EnumerateMessages method (1 of 2)
+## EnumerateMessages(string) {#enumeratemessages}
 
 Exposes the enumerator, which supports an iteration of messages in folder.
 
@@ -18,7 +18,7 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId)
 | --- | --- | --- |
 | entryId | String | The string that represents a parent folder entry ID. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 
@@ -31,7 +31,7 @@ IEnumerable, that represents an enumerator that iterates through a messages in f
 
 ---
 
-## PersonalStorage.EnumerateMessages method (2 of 2)
+## EnumerateMessages(string, int, int) {#enumeratemessages_1}
 
 Exposes the enumerator, which supports an iteration of messages in folder.
 
@@ -45,7 +45,7 @@ public IEnumerable<MessageInfo> EnumerateMessages(string entryId, int startIndex
 | startIndex | Int32 | The start message index. |
 | count | Int32 | The number of messages that will be retrieved. |
 
-## Return Value
+### Return Value
 
 IEnumerable, that represents an enumerator that iterates through a messages in folder.
 

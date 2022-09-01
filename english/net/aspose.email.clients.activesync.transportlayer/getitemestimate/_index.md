@@ -1,7 +1,7 @@
 ---
 title: GetItemEstimate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: GetItemEstimate namespace of the ActiveSync protocol
 type: docs
 weight: 1300
 url: /net/aspose.email.clients.activesync.transportlayer/getitemestimate/
@@ -14,7 +14,7 @@ GetItemEstimate namespace of the ActiveSync protocol
 public enum GetItemEstimate
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

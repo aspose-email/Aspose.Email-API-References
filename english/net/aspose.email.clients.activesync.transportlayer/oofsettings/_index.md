@@ -1,7 +1,7 @@
 ---
 title: OOFSettings
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: OOF information settings.
 type: docs
 weight: 1650
 url: /net/aspose.email.clients.activesync.transportlayer/oofsettings/

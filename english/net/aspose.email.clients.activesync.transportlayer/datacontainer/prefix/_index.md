@@ -1,7 +1,7 @@
 ---
 title: Prefix
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Prefix in xml node for the element
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/prefix/

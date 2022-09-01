@@ -1,7 +1,7 @@
 ---
 title: AppointmentProposedEndWhole
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the proposed value for the PidLidAppointmentEndWhole property section 2.14 for a counter proposal. Area Meetings Canonical name PidLidAppointmentProposedEndWhole Alternate names dispidApptProposedEndWhole
 type: docs
 weight: 1230
 url: /net/aspose.email.mapi/knownpropertylist/appointmentproposedendwhole/

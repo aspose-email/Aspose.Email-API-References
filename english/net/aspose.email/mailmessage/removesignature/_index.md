@@ -1,9 +1,9 @@
 ---
 title: RemoveSignature
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Remove signature
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.email/mailmessage/removesignature/
 ---
 ## MailMessage.RemoveSignature method
@@ -14,7 +14,7 @@ Remove signature
 public virtual MailMessage RemoveSignature()
 ```
 
-## Return Value
+### Return Value
 
 E-mail message
 

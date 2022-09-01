@@ -1,7 +1,7 @@
 ---
 title: NoteColor
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the suggested background color of the Note object. Area Sticky Notes Canonical name PidLidNoteColor Alternate names dispidNoteColor
 type: docs
 weight: 13110
 url: /net/aspose.email.mapi/knownpropertylist/notecolor/

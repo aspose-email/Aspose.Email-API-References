@@ -1,7 +1,7 @@
 ---
 title: IsRequired
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Get or set value that define field as required.
 type: docs
 weight: 40
 url: /net/aspose.email.amp/formfield/isrequired/

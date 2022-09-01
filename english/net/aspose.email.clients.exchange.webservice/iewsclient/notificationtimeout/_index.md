@@ -1,7 +1,7 @@
 ---
 title: NotificationTimeout
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Defines timeout for server notifications
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/notificationtimeout/

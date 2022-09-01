@@ -1,7 +1,7 @@
 ---
 title: Draft
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Message has been marked as a draft.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/imapmessageflags/draft/

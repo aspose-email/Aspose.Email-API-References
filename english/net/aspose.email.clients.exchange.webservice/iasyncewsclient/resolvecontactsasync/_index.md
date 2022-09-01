@@ -1,7 +1,7 @@
 ---
 title: ResolveContactsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Resolves ambiguous email addresses and display names Note the maximum count of returned contacts is 100. This is a restriction of used EWS operation.
 type: docs
 weight: 580
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/resolvecontactsasync/
@@ -22,7 +22,7 @@ public Task<Contact[]> ResolveContactsAsync(string unresolvedEntry,
 | options | ExchangeListContactsOptions | Enumerates the list contacts options |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 Contacts that represent contact information
 

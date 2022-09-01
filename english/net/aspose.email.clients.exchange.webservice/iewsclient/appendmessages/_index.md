@@ -1,12 +1,12 @@
 ---
 title: AppendMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Uploads the mail message to the specified folder
 type: docs
 weight: 380
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/appendmessages/
 ---
-## IEWSClient.AppendMessages method (1 of 4)
+## AppendMessages(params MailMessage[]) {#appendmessages}
 
 Uploads the mail message to the specified folder
 
@@ -18,7 +18,7 @@ public string[] AppendMessages(params MailMessage[] messages)
 | --- | --- | --- |
 | messages | MailMessage[] | A messages to upload |
 
-## Return Value
+### Return Value
 
 List of uri of created messages
 
@@ -31,7 +31,7 @@ List of uri of created messages
 
 ---
 
-## IEWSClient.AppendMessages method (2 of 4)
+## AppendMessages(IEnumerable&lt;MailMessage&gt;) {#appendmessages_1}
 
 Uploads the mail message to the specified folder
 
@@ -43,7 +43,7 @@ public string[] AppendMessages(IEnumerable<MailMessage> messages)
 | --- | --- | --- |
 | messages | IEnumerable`1 | A messages to upload |
 
-## Return Value
+### Return Value
 
 List of uri of created messages
 
@@ -56,7 +56,7 @@ List of uri of created messages
 
 ---
 
-## IEWSClient.AppendMessages method (3 of 4)
+## AppendMessages(string, params MailMessage[]) {#appendmessages_2}
 
 Uploads the mail message to the specified folder
 
@@ -69,7 +69,7 @@ public string[] AppendMessages(string folderUri, params MailMessage[] messages)
 | folderUri | String | A folder URI to which message is uploaded. |
 | messages | MailMessage[] | A messages to upload |
 
-## Return Value
+### Return Value
 
 List of uri of created messages
 
@@ -82,9 +82,9 @@ List of uri of created messages
 
 ---
 
-## IEWSClient.AppendMessages method (4 of 4)
+## AppendMessages(string, IEnumerable&lt;MailMessage&gt;) {#appendmessages_3}
 
-Uploads the mail message to the specified folder
+Uploads the mail messages to the specified folder
 
 ```csharp
 public string[] AppendMessages(string folderUri, IEnumerable<MailMessage> messages)
@@ -95,13 +95,39 @@ public string[] AppendMessages(string folderUri, IEnumerable<MailMessage> messag
 | folderUri | String | A folder URI to which message is uploaded. |
 | messages | IEnumerable`1 | A messages to upload |
 
-## Return Value
+### Return Value
 
 List of uri of created messages
 
 ### See Also
 
 * class [MailMessage](../../../aspose.email/mailmessage)
+* interface [IEWSClient](../../iewsclient)
+* namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
+* assembly [Aspose.Email](../../../)
+
+---
+
+## AppendMessages(string, IEnumerable&lt;MapiMessage&gt;) {#appendmessages_4}
+
+Uploads the mapi messages to the specified folder
+
+```csharp
+public string[] AppendMessages(string folderUri, IEnumerable<MapiMessage> messages)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderUri | String | A folder URI to which message is uploaded. |
+| messages | IEnumerable`1 | A messages to upload |
+
+### Return Value
+
+List of uri of created messages
+
+### See Also
+
+* class [MapiMessage](../../../aspose.email.mapi/mapimessage)
 * interface [IEWSClient](../../iewsclient)
 * namespace [Aspose.Email.Clients.Exchange.WebService](../../iewsclient)
 * assembly [Aspose.Email](../../../)

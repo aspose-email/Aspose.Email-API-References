@@ -1,12 +1,12 @@
 ---
 title: UndeleteMessagesAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Undeletes the messages. If any messages have been marked as deleted by the POP3 server they are unmarked.
 type: docs
 weight: 380
 url: /net/aspose.email.clients.pop3/pop3client/undeletemessagesasync/
 ---
-## Pop3Client.UndeleteMessagesAsync method (1 of 4)
+## UndeleteMessagesAsync(IConnection) {#undeletemessagesasync_1}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 
@@ -18,7 +18,7 @@ public Task UndeleteMessagesAsync(IConnection connection)
 | --- | --- | --- |
 | connection | IConnection | Connection to a server |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -31,7 +31,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.UndeleteMessagesAsync method (2 of 4)
+## UndeleteMessagesAsync() {#undeletemessagesasync}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 
@@ -39,7 +39,7 @@ Undeletes the messages. If any messages have been marked as deleted by the POP3 
 public Task UndeleteMessagesAsync()
 ```
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -51,7 +51,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.UndeleteMessagesAsync method (3 of 4)
+## UndeleteMessagesAsync(IConnection, CancellationToken) {#undeletemessagesasync_2}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 
@@ -64,7 +64,7 @@ public Task UndeleteMessagesAsync(IConnection connection, CancellationToken toke
 | connection | IConnection | Connection to a server |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -77,7 +77,7 @@ Task object, with delegate for this operation
 
 ---
 
-## Pop3Client.UndeleteMessagesAsync method (4 of 4)
+## UndeleteMessagesAsync(CancellationToken) {#undeletemessagesasync_3}
 
 Undeletes the messages. If any messages have been marked as deleted by the POP3 server, they are unmarked.
 
@@ -89,7 +89,7 @@ public Task UndeleteMessagesAsync(CancellationToken token)
 | --- | --- | --- |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

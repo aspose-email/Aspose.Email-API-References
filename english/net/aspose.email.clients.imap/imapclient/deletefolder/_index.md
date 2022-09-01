@@ -1,12 +1,12 @@
 ---
 title: DeleteFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes a specified folder. This method represents IMAP DELETE command
 type: docs
 weight: 540
 url: /net/aspose.email.clients.imap/imapclient/deletefolder/
 ---
-## ImapClient.DeleteFolder method (1 of 2)
+## DeleteFolder(IConnection, string) {#deletefolder}
 
 Deletes a specified folder. This method represents IMAP DELETE command
 
@@ -28,7 +28,7 @@ public void DeleteFolder(IConnection connection, string folderName)
 
 ---
 
-## ImapClient.DeleteFolder method (2 of 2)
+## DeleteFolder(string) {#deletefolder_1}
 
 Deletes a specified folder. This method represents IMAP DELETE command
 

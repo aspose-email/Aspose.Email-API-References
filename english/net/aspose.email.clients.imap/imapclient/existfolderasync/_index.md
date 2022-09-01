@@ -1,12 +1,12 @@
 ---
 title: ExistFolderAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Check whether this folder exists
 type: docs
 weight: 620
 url: /net/aspose.email.clients.imap/imapclient/existfolderasync/
 ---
-## ImapClient.ExistFolderAsync method (1 of 4)
+## ExistFolderAsync(string) {#existfolderasync_2}
 
 Check whether this folder exists
 
@@ -18,7 +18,7 @@ public Task<bool> ExistFolderAsync(string folderName)
 | --- | --- | --- |
 | folderName | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -30,7 +30,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ExistFolderAsync method (2 of 4)
+## ExistFolderAsync(IConnection, string) {#existfolderasync}
 
 Check whether this folder exists
 
@@ -43,7 +43,7 @@ public Task<bool> ExistFolderAsync(IConnection connection, string folderName)
 | connection | IConnection | Connection to a server |
 | folderName | String | Name of the folder |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -56,7 +56,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ExistFolderAsync method (3 of 4)
+## ExistFolderAsync(string, CancellationToken) {#existfolderasync_3}
 
 Check whether this folder exists
 
@@ -69,7 +69,7 @@ public Task<bool> ExistFolderAsync(string folderName, CancellationToken token)
 | folderName | String | Name of the folder |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 
@@ -81,7 +81,7 @@ Task object, with delegate for this operation
 
 ---
 
-## ImapClient.ExistFolderAsync method (4 of 4)
+## ExistFolderAsync(IConnection, string, CancellationToken) {#existfolderasync_1}
 
 Check whether this folder exists
 
@@ -96,7 +96,7 @@ public Task<bool> ExistFolderAsync(IConnection connection, string folderName,
 | folderName | String | Name of the folder |
 | token | CancellationToken | Propagates notification that operations should be canceled. |
 
-## Return Value
+### Return Value
 
 Task object, with delegate for this operation
 

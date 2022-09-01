@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets an object that can be used to synchronize access to the ICollection.
 type: docs
 weight: 200
 url: /net/aspose.email.personalinfo/associatedpersonslist/syncroot/
@@ -14,7 +14,7 @@ Gets an object that can be used to synchronize access to the ICollection.
 public object SyncRoot { get; }
 ```
 
-## Return Value
+### Return Value
 
 An object that can be used to synchronize access to the ICollection.
 

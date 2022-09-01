@@ -1,7 +1,7 @@
 ---
 title: StandardBias
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the offset in minutes from lBias during standard time.
 type: docs
 weight: 50
 url: /net/aspose.email.mapi/mapicalendartimezoneinfo/standardbias/

@@ -1,7 +1,7 @@
 ---
 title: DeleteAppointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes an appointment.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.google/igmailclient/deleteappointment/

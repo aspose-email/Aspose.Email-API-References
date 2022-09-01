@@ -1,7 +1,7 @@
 ---
 title: ApplicationData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ApplicationData contains data for a particular object such as a contact email message calendar appointment or task item.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/syncchangeclientoperation/applicationdata/

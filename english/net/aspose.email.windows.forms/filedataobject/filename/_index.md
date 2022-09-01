@@ -1,7 +1,7 @@
 ---
 title: FileName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the name of the file.
 type: docs
 weight: 10
 url: /net/aspose.email.windows.forms/filedataobject/filename/
@@ -14,7 +14,7 @@ Gets the name of the file.
 public string FileName { get; }
 ```
 
-## Property Value
+### Property Value
 
 The name of the file.
 

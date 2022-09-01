@@ -1,7 +1,7 @@
 ---
 title: Class
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Class element is a required child element of the Folder element in Ping command requests that specifies the content class of the folder to be monitored. The valid Class element values are Email Calendar Contacts Tasks Notes
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activesync.transportlayer/pingparameter/class/

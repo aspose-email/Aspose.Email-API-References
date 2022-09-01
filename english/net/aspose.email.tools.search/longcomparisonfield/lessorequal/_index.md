@@ -1,7 +1,7 @@
 ---
 title: LessOrEqual
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field must be less or equal to the specified value.
 type: docs
 weight: 50
 url: /net/aspose.email.tools.search/longcomparisonfield/lessorequal/
@@ -18,7 +18,7 @@ public MailQuery LessOrEqual(long value)
 | --- | --- | --- |
 | value | Int64 | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

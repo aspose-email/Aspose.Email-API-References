@@ -1,7 +1,7 @@
 ---
 title: ListFriendlyNames
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This operation retrieves friendly names for objects in the data feed identified by guids.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activity/iactivityclient/listfriendlynames/

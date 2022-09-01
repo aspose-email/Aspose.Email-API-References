@@ -1,12 +1,12 @@
 ---
 title: SSPIException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the SSPIExceptionaspose.email/sspiexception class with a specified error message.
 type: docs
 weight: 10
 url: /net/aspose.email/sspiexception/sspiexception/
 ---
-## SSPIException constructor (1 of 5)
+## SSPIException(string) {#constructor_2}
 
 Initializes a new instance of the [`SSPIException`](../../sspiexception) class with a specified error message.
 
@@ -26,7 +26,7 @@ public SSPIException(string message)
 
 ---
 
-## SSPIException constructor (2 of 5)
+## SSPIException(string, params object[]) {#constructor_4}
 
 Initializes a new instance of the [`SSPIException`](../../sspiexception) class with a specified error message.
 
@@ -47,7 +47,7 @@ public SSPIException(string format, params object[] parameters)
 
 ---
 
-## SSPIException constructor (3 of 5)
+## SSPIException() {#constructor}
 
 Initializes a new instance of the [`SSPIException`](../../sspiexception) class.
 
@@ -63,7 +63,7 @@ public SSPIException()
 
 ---
 
-## SSPIException constructor (4 of 5)
+## SSPIException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`SSPIException`](../../sspiexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -84,7 +84,7 @@ public SSPIException(string message, Exception innerException)
 
 ---
 
-## SSPIException constructor (5 of 5)
+## SSPIException(Exception) {#constructor_1}
 
 Initializes a new instance of the [`SSPIException`](../../sspiexception) class with a reference to the inner exception that is the cause of this exception.
 

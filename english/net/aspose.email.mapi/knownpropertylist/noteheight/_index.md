@@ -1,7 +1,7 @@
 ---
 title: NoteHeight
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the height of the visible message window in pixels. Area Sticky Notes Canonical name PidLidNoteHeight Alternate names dispidNoteHeight
 type: docs
 weight: 13130
 url: /net/aspose.email.mapi/knownpropertylist/noteheight/

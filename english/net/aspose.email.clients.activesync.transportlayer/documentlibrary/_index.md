@@ -1,7 +1,7 @@
 ---
 title: DocumentLibrary
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: DocumentLibrary namespace of the ActiveSync protocol
 type: docs
 weight: 1180
 url: /net/aspose.email.clients.activesync.transportlayer/documentlibrary/
@@ -14,7 +14,7 @@ DocumentLibrary namespace of the ActiveSync protocol
 public enum DocumentLibrary
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,12 +1,12 @@
 ---
 title: AccessControlRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AccessControlRule class.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.google/accesscontrolrule/accesscontrolrule/
 ---
-## AccessControlRule constructor (1 of 4)
+## AccessControlRule() {#constructor}
 
 Initializes a new instance of the AccessControlRule class.
 
@@ -22,7 +22,7 @@ public AccessControlRule()
 
 ---
 
-## AccessControlRule constructor (2 of 4)
+## AccessControlRule(AclScope, AccessRole) {#constructor_1}
 
 Initializes a new instance of the AccessControlRule class.
 
@@ -45,7 +45,7 @@ public AccessControlRule(AclScope scope, AccessRole role)
 
 ---
 
-## AccessControlRule constructor (3 of 4)
+## AccessControlRule(string, AclScope, AccessRole) {#constructor_2}
 
 Initializes a new instance of the AccessControlRule class.
 
@@ -69,7 +69,7 @@ public AccessControlRule(string id, AclScope scope, AccessRole role)
 
 ---
 
-## AccessControlRule constructor (4 of 4)
+## AccessControlRule(string, string, AclScope, AccessRole) {#constructor_3}
 
 Initializes a new instance of the AccessControlRule class.
 

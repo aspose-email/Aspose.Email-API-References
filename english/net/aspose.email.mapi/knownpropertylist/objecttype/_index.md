@@ -1,7 +1,7 @@
 ---
 title: ObjectType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the type of Server object. Area Common Canonical name PidTagObjectType Alternate names PR_OBJECT_TYPE ptagObjectType
 type: docs
 weight: 13180
 url: /net/aspose.email.mapi/knownpropertylist/objecttype/

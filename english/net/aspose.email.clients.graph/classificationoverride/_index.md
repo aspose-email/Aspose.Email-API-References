@@ -1,7 +1,7 @@
 ---
 title: ClassificationOverride
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a users override for how incoming messages from a specific sender should always be classified as.
 type: docs
 weight: 15880
 url: /net/aspose.email.clients.graph/classificationoverride/
@@ -18,9 +18,9 @@ public class ClassificationOverride
 
 | Name | Description |
 | --- | --- |
-| [ClassificationOverride](classificationoverride)() | Initalizes static members of class [`ClassificationOverride`](../classificationoverride). |
-| [ClassificationOverride](classificationoverride)(MailAddress, ClassificationType) | Initalizes static members of class [`ClassificationOverride`](../classificationoverride). |
-| [ClassificationOverride](classificationoverride)(string, MailAddress, ClassificationType) | Initalizes static members of class [`ClassificationOverride`](../classificationoverride). |
+| [ClassificationOverride](classificationoverride#constructor)() | Initalizes static members of class [`ClassificationOverride`](../classificationoverride). |
+| [ClassificationOverride](classificationoverride#constructor_1)(MailAddress, ClassificationType) | Initalizes static members of class [`ClassificationOverride`](../classificationoverride). |
+| [ClassificationOverride](classificationoverride#constructor_2)(string, MailAddress, ClassificationType) | Initalizes static members of class [`ClassificationOverride`](../classificationoverride). |
 
 ## Properties
 

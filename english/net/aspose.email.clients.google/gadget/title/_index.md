@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The gadgets title.
 type: docs
 weight: 70
 url: /net/aspose.email.clients.google/gadget/title/

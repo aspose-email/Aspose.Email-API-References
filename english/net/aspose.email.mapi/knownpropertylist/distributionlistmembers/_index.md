@@ -1,7 +1,7 @@
 ---
 title: DistributionListMembers
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the list of EntryIDs of the objects corresponding to the members of the personal distribution list. Area Contact Properties Canonical name PidLidDistributionListMembers Alternate names dispidDLMembers
 type: docs
 weight: 4200
 url: /net/aspose.email.mapi/knownpropertylist/distributionlistmembers/

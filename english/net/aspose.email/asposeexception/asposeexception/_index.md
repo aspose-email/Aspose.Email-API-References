@@ -1,12 +1,12 @@
 ---
 title: AsposeException
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AsposeExceptionaspose.email/asposeexception class.
 type: docs
 weight: 10
 url: /net/aspose.email/asposeexception/asposeexception/
 ---
-## AsposeException constructor (1 of 6)
+## AsposeException() {#constructor}
 
 Initializes a new instance of the [`AsposeException`](../../asposeexception) class.
 
@@ -22,7 +22,7 @@ public AsposeException()
 
 ---
 
-## AsposeException constructor (2 of 6)
+## AsposeException(string) {#constructor_2}
 
 Initializes a new instance of the [`AsposeException`](../../asposeexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public AsposeException(string message)
 
 ---
 
-## AsposeException constructor (3 of 6)
+## AsposeException(string, params object[]) {#constructor_4}
 
 Initializes a new instance of the [`AsposeException`](../../asposeexception) class with a specified error message.
 
@@ -63,7 +63,7 @@ public AsposeException(string format, params object[] parameters)
 
 ---
 
-## AsposeException constructor (4 of 6)
+## AsposeException(string, string) {#constructor_5}
 
 ```csharp
 public AsposeException(string format, string parameter)
@@ -77,7 +77,7 @@ public AsposeException(string format, string parameter)
 
 ---
 
-## AsposeException constructor (5 of 6)
+## AsposeException(string, Exception) {#constructor_3}
 
 Initializes a new instance of the [`AsposeException`](../../asposeexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -98,7 +98,7 @@ public AsposeException(string message, Exception innerException)
 
 ---
 
-## AsposeException constructor (6 of 6)
+## AsposeException(Exception) {#constructor_1}
 
 ```csharp
 public AsposeException(Exception innerException)

@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the size of the EMail message.
 type: docs
 weight: 120
 url: /net/aspose.email.clients/messageinfobase/size/
@@ -14,7 +14,7 @@ Gets the size of the E-Mail message.
 public long Size { get; }
 ```
 
-## Property Value
+### Property Value
 
 The size of the E-Mail message.
 

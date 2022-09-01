@@ -1,7 +1,7 @@
 ---
 title: OS
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Device operating system
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/deviceinformation/os/

@@ -1,7 +1,7 @@
 ---
 title: Remote
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets value indicating that a folder is a remote mailbox. This option is accessible only in case if server supports IMAP4 LIST Command Extensions rfc5258 See more http//tools.ietf.org/html/rfc5258
 type: docs
 weight: 120
 url: /net/aspose.email.clients.imap/imapfolderinfo/remote/

@@ -1,7 +1,7 @@
 ---
 title: PrimarySmtpAddress
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the primary SMTP address for the given account. The value of the PrimarySmtpAddress can also be returned as a value for the SMTPAddress. The PrimarySmtpAddress is not supported when the protocol version is 12.1 or 14.0.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/accountinformation/primarysmtpaddress/

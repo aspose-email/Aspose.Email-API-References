@@ -1,7 +1,7 @@
 ---
 title: ConversationId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Message thread identifier.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.imap/messagethreadresult/conversationid/

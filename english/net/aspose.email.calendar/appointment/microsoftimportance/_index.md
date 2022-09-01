@@ -1,9 +1,9 @@
 ---
 title: MicrosoftImportance
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the importance of an appointment.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.email.calendar/appointment/microsoftimportance/
 ---
 ## Appointment.MicrosoftImportance property

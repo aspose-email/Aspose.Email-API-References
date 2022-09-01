@@ -1,7 +1,7 @@
 ---
 title: MicrosoftPowerPointPresentation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Microsoft power point format.
 type: docs
 weight: 70
 url: /net/aspose.email.mapi/oledocumentformat/microsoftpowerpointpresentation/

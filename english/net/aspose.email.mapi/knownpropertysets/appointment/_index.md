@@ -1,7 +1,7 @@
 ---
 title: Appointment
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Calendar Property set name PSETID_Appointment
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/knownpropertysets/appointment/

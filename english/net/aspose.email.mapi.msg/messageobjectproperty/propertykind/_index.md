@@ -1,7 +1,7 @@
 ---
 title: PropertyKind
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the kind of the property if its named.
 type: docs
 weight: 90
 url: /net/aspose.email.mapi.msg/messageobjectproperty/propertykind/
@@ -14,7 +14,7 @@ Gets or sets the kind of the property if it's named.
 public NamedPropertyKind PropertyKind { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The kind of the property.
 

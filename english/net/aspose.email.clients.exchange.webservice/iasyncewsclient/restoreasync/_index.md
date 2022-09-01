@@ -1,7 +1,7 @@
 ---
 title: RestoreAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Restores the specified exchange folders from the given personal storage.
 type: docs
 weight: 600
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/restoreasync/

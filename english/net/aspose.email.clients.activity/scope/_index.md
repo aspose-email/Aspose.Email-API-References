@@ -1,7 +1,7 @@
 ---
 title: Scope
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Audit scope
 type: docs
 weight: 2750
 url: /net/aspose.email.clients.activity/scope/
@@ -14,7 +14,7 @@ Audit scope
 public enum Scope
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

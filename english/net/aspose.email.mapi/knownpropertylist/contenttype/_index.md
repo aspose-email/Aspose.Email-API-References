@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the type of the body part content. Area Email Canonical name PidNameContentType Alternate names urnschemasmailheadercontenttype
 type: docs
 weight: 3280
 url: /net/aspose.email.mapi/knownpropertylist/contenttype/

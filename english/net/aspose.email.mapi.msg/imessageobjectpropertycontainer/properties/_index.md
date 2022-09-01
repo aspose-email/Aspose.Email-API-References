@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the properties of the container.
 type: docs
 weight: 10
 url: /net/aspose.email.mapi.msg/imessageobjectpropertycontainer/properties/
@@ -14,7 +14,7 @@ Gets the properties of the container.
 public MessageObjectPropertiesCollection Properties { get; }
 ```
 
-## Property Value
+### Property Value
 
 The properties.
 

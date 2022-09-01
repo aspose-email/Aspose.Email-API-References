@@ -1,7 +1,7 @@
 ---
 title: Inbox
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The inbox folder.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.graph/knownfolders/inbox/

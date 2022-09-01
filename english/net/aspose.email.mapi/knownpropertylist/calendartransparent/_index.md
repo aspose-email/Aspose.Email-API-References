@@ -1,7 +1,7 @@
 ---
 title: CalendarTransparent
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether an appointment or meeting is visible to busy time searches. Area Common Canonical name PidNameCalendarTransparent Alternate names urnschemascalendartransparent
 type: docs
 weight: 2430
 url: /net/aspose.email.mapi/knownpropertylist/calendartransparent/

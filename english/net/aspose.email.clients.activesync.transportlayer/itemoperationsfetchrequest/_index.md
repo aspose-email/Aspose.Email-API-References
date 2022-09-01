@@ -1,7 +1,7 @@
 ---
 title: ItemOperationsFetchRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains request about retrieving an item from the server.
 type: docs
 weight: 1420
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperationsfetchrequest/

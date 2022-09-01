@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the type of the folder.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/folderinfo/type/

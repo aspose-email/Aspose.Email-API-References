@@ -1,7 +1,7 @@
 ---
 title: Record
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Audit log record
 type: docs
 weight: 2720
 url: /net/aspose.email.clients.activity/record/

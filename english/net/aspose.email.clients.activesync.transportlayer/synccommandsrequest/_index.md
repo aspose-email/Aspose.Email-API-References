@@ -1,7 +1,7 @@
 ---
 title: SyncCommandsRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains operations that apply to a collection. Available operations are Add Delete Change Fetch and SoftDelete.
 type: docs
 weight: 2210
 url: /net/aspose.email.clients.activesync.transportlayer/synccommandsrequest/

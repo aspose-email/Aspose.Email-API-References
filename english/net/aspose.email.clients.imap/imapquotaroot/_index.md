@@ -1,9 +1,9 @@
 ---
 title: ImapQuotaRoot
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains information about quota root for mailbox resource.
 type: docs
-weight: 16450
+weight: 16480
 url: /net/aspose.email.clients.imap/imapquotaroot/
 ---
 ## ImapQuotaRoot class

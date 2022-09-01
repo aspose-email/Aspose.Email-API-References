@@ -1,7 +1,7 @@
 ---
 title: GroupId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Group id
 type: docs
 weight: 40
 url: /net/aspose.email.clients.google/freebusygroupinfo/groupid/

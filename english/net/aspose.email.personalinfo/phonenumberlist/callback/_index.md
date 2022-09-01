@@ -1,7 +1,7 @@
 ---
 title: Callback
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default callback phone number
 type: docs
 weight: 30
 url: /net/aspose.email.personalinfo/phonenumberlist/callback/

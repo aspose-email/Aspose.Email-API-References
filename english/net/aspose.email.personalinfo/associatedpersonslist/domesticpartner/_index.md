@@ -1,7 +1,7 @@
 ---
 title: DomesticPartner
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default domestic partner
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/associatedpersonslist/domesticpartner/

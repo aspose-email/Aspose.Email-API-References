@@ -1,12 +1,12 @@
 ---
 title: Autodiscover
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The Autodiscover command facilitates the discovery of core account configuration information by using the users Simple Mail Transfer Protocol SMTP address as the primary input.
 type: docs
 weight: 160
 url: /net/aspose.email.clients.activesync.transportlayer/activesynctlclient/autodiscover/
 ---
-## ActiveSyncTLClient.Autodiscover method (1 of 2)
+## Autodiscover(string, NetworkCredential, string)
 
 The Autodiscover command facilitates the discovery of core account configuration information by using the user's Simple Mail Transfer Protocol (SMTP) address as the primary input.
 
@@ -21,7 +21,7 @@ public static AutodiscoverResult Autodiscover(string autodiscoverUri, NetworkCre
 | credential | NetworkCredential | Credentials for connecting to the server. |
 | emailAddress | String | The email address is a required child element of the autodiscover request |
 
-## Return Value
+### Return Value
 
 Autodiscover result
 
@@ -34,7 +34,7 @@ Autodiscover result
 
 ---
 
-## ActiveSyncTLClient.Autodiscover method (2 of 2)
+## Autodiscover(string)
 
 The Autodiscover command facilitates the discovery of core account configuration information by using the user's Simple Mail Transfer Protocol (SMTP) address as the primary input.
 
@@ -46,7 +46,7 @@ public virtual AutodiscoverResult Autodiscover(string emailAddress)
 | --- | --- | --- |
 | emailAddress | String | The email address is a required child element of the autodiscover request |
 
-## Return Value
+### Return Value
 
 Autodiscover result
 

@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Determines whether the specified Object is equal to the current Object.
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/url/equals/
 ---
-## Url.Equals method (1 of 2)
+## Equals(Url) {#equals}
 
 Determines whether the specified Object is equal to the current Object.
 
@@ -18,7 +18,7 @@ public bool Equals(Url obj)
 | --- | --- | --- |
 | obj | Url | The Object to compare with the current Object. |
 
-## Return Value
+### Return Value
 
 Returns a boolean indicating if the passed in object obj is Equal to this.
 
@@ -30,7 +30,7 @@ Returns a boolean indicating if the passed in object obj is Equal to this.
 
 ---
 
-## Url.Equals method (2 of 2)
+## Equals(Url, Url) {#equals_1}
 
 Determines whether the specified object instances are considered equal.
 
@@ -43,7 +43,7 @@ public bool Equals(Url x, Url y)
 | x | Url | The first object to compare. |
 | y | Url | The second object to compare. |
 
-## Return Value
+### Return Value
 
 true if the objects are considered equal; otherwise, false. If both objA and objB are null, the method returns true.
 

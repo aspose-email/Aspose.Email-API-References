@@ -1,7 +1,7 @@
 ---
 title: SideEffects
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies how a Message object is handled by the client in relation to certain user interface actions by the user such as deleting a message. Area Runtime configuration Canonical name PidLidSideEffects Alternate names dispidSideEffects
 type: docs
 weight: 18040
 url: /net/aspose.email.mapi/knownpropertylist/sideeffects/

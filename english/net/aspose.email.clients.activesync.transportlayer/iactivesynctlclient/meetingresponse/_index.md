@@ -1,12 +1,12 @@
 ---
 title: MeetingResponse
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Accepts tentatively accepts or declines a meeting request in the users Inbox folder or Calendar folder.
 type: docs
 weight: 110
 url: /net/aspose.email.clients.activesync.transportlayer/iactivesynctlclient/meetingresponse/
 ---
-## IActiveSyncTLClient.MeetingResponse method (1 of 4)
+## MeetingResponse(UserResponse, string, string) {#meetingresponse}
 
 Accepts, tentatively accepts, or declines a meeting request in the user's Inbox folder or Calendar folder.
 
@@ -21,7 +21,7 @@ public MeetingResponseResult MeetingResponse(UserResponse userResponse, string c
 | collectionId | String | Specifies the folder that contains the meeting request. Optional if LongId is included. The CollectionId value can be up to 64 characters in length. |
 | requestId | String | Specifies the server ID of the meeting request message item. Optional if LongId is included. The RequestId value can be up to 64 characters in length. |
 
-## Return Value
+### Return Value
 
 Returns MeetingResponseResult object.
 
@@ -35,7 +35,7 @@ Returns MeetingResponseResult object.
 
 ---
 
-## IActiveSyncTLClient.MeetingResponse method (2 of 4)
+## MeetingResponse(UserResponse, string, string, string, string) {#meetingresponse_1}
 
 Accepts, tentatively accepts, or declines a meeting request in the user's Inbox folder or Calendar folder.
 
@@ -52,7 +52,7 @@ public MeetingResponseResult MeetingResponse(UserResponse userResponse, string c
 | longId | String | Specifies the long ID for the source meeting request, which is returned in the Search command response message. If the LongId is present, the CollectionId, InstanceId, and RequestId are not present. The LongId value can be up to 256 characters in length. |
 | instanceId | String | Specifies the instance of the recurring meeting to be modified. The InstanceId is not supported when the protocol version is 12.1 or 14.0. A Status value of 2 is returned if the InstanceId element is included in requests in which the protocol version is 12.1 or 14.0. The InstanceId contains the start time of the appointment or meeting instance to be modified. If the InstanceId is not included in the MeetingResponse request, then the action is to be taken on every instance of the recurring item. The InstanceId can specify the start time of an exception to a recurring appointment or meeting. The InstanceId can be used with the LongId to identify a calendar item, or it can be used with the CollectionId and RequestId to identify a calendar item. The format of the InstanceId value is a string in dateTime format with the punctuation separators, for example, 2010-04-08T18:16:00.000Z. If the InstanceId value specified is not in the proper format, the server responds with a Status element value of 104. If the InstanceId value specifies a non-recurring meeting, the server responds with a Status element value of 146. |
 
-## Return Value
+### Return Value
 
 Returns MeetingResponseResult object.
 
@@ -66,7 +66,7 @@ Returns MeetingResponseResult object.
 
 ---
 
-## IActiveSyncTLClient.MeetingResponse method (3 of 4)
+## MeetingResponse(params MeetingResponseRequest[]) {#meetingresponse_2}
 
 Accepts, tentatively accepts, or declines a meeting request in the user's Inbox folder or Calendar folder.
 
@@ -78,7 +78,7 @@ public MeetingResponseResult[] MeetingResponse(params MeetingResponseRequest[] r
 | --- | --- | --- |
 | request | MeetingResponseRequest[] | Array of MeetingResponseRequest objects |
 
-## Return Value
+### Return Value
 
 Returns array of MeetingResponseResult objects.
 
@@ -92,7 +92,7 @@ Returns array of MeetingResponseResult objects.
 
 ---
 
-## IActiveSyncTLClient.MeetingResponse method (4 of 4)
+## MeetingResponse(IEnumerable&lt;MeetingResponseRequest&gt;) {#meetingresponse_3}
 
 Accepts, tentatively accepts, or declines a meeting request in the user's Inbox folder or Calendar folder.
 
@@ -104,7 +104,7 @@ public MeetingResponseResult[] MeetingResponse(IEnumerable<MeetingResponseReques
 | --- | --- | --- |
 | request | IEnumerable`1 | Enumeration of MeetingResponseRequest objects |
 
-## Return Value
+### Return Value
 
 Returns array of MeetingResponseResult objects.
 

@@ -1,7 +1,7 @@
 ---
 title: DisplayCC
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the CC line.
 type: docs
 weight: 20
 url: /net/aspose.email.storage.pst/messageinfo/displaycc/
@@ -14,7 +14,7 @@ Gets the CC: line.
 public string DisplayCC { get; }
 ```
 
-## Property Value
+### Property Value
 
 The display cc.
 

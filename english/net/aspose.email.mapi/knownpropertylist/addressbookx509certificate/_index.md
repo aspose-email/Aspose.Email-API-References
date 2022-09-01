@@ -1,7 +1,7 @@
 ---
 title: AddressBookX509Certificate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the ASN_1 DER encoded X.509 certificates for the mail user. Area Address Book Canonical name PidTagAddressBookX509Certificate Alternate names PR_EMS_AB_X509_CERT
 type: docs
 weight: 1000
 url: /net/aspose.email.mapi/knownpropertylist/addressbookx509certificate/

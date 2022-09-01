@@ -1,7 +1,7 @@
 ---
 title: AbsoluteOffset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets additinal offset added to start index of a page
 type: docs
 weight: 20
 url: /net/aspose.email.clients/pageinfo/absoluteoffset/

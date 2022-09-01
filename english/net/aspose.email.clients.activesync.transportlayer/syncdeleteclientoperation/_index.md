@@ -1,7 +1,7 @@
 ---
 title: SyncDeleteClientOperation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes an object on the client device or the server. The object is identified by its ServerId.
 type: docs
 weight: 2230
 url: /net/aspose.email.clients.activesync.transportlayer/syncdeleteclientoperation/
@@ -18,9 +18,9 @@ public class SyncDeleteClientOperation
 
 | Name | Description |
 | --- | --- |
-| [SyncDeleteClientOperation](syncdeleteclientoperation)() | Initializes a new instance of the SyncDeleteClientOperation class. |
-| [SyncDeleteClientOperation](syncdeleteclientoperation)(string) | Initializes a new instance of the SyncDeleteClientOperation class. |
-| [SyncDeleteClientOperation](syncdeleteclientoperation)(string, AirsyncClass) | Initializes a new instance of the SyncDeleteClientOperation class. |
+| [SyncDeleteClientOperation](syncdeleteclientoperation#constructor)() | Initializes a new instance of the SyncDeleteClientOperation class. |
+| [SyncDeleteClientOperation](syncdeleteclientoperation#constructor_1)(string) | Initializes a new instance of the SyncDeleteClientOperation class. |
+| [SyncDeleteClientOperation](syncdeleteclientoperation#constructor_2)(string, AirsyncClass) | Initializes a new instance of the SyncDeleteClientOperation class. |
 
 ## Properties
 

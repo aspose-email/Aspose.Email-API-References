@@ -1,7 +1,7 @@
 ---
 title: SendAsUserSmtp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: SMTP address of the user who is being impersonated.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activity/exchangemailboxauditactivity/sendasusersmtp/

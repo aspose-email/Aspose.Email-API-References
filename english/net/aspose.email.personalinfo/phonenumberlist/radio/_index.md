@@ -1,7 +1,7 @@
 ---
 title: Radio
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Default radio phone number
 type: docs
 weight: 170
 url: /net/aspose.email.personalinfo/phonenumberlist/radio/

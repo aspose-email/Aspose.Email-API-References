@@ -1,12 +1,12 @@
 ---
 title: MapiContactPersonalInfoPropertySet
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the MapiContactPersonalInfoPropertySetaspose.email.mapi/mapicontactpersonalinfopropertyset class
 type: docs
 weight: 10
 url: /net/aspose.email.mapi/mapicontactpersonalinfopropertyset/mapicontactpersonalinfopropertyset/
 ---
-## MapiContactPersonalInfoPropertySet constructor (1 of 2)
+## MapiContactPersonalInfoPropertySet() {#constructor}
 
 Initializes a new instance of the [`MapiContactPersonalInfoPropertySet`](../../mapicontactpersonalinfopropertyset) class
 
@@ -22,7 +22,7 @@ public MapiContactPersonalInfoPropertySet()
 
 ---
 
-## MapiContactPersonalInfoPropertySet constructor (2 of 2)
+## MapiContactPersonalInfoPropertySet(MapiPropertyCollection) {#constructor_1}
 
 Initializes a new instance of the [`MapiContactPersonalInfoPropertySet`](../../mapicontactpersonalinfopropertyset) class
 

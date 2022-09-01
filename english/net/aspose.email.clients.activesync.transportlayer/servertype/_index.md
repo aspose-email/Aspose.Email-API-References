@@ -1,7 +1,7 @@
 ---
 title: ServerType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the server type
 type: docs
 weight: 2040
 url: /net/aspose.email.clients.activesync.transportlayer/servertype/
@@ -14,7 +14,7 @@ Specifies the server type
 public enum ServerType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

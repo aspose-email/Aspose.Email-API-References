@@ -1,7 +1,7 @@
 ---
 title: SearchRequest
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains search request information
 type: docs
 weight: 1970
 url: /net/aspose.email.clients.activesync.transportlayer/searchrequest/

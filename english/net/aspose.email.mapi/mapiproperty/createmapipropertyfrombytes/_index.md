@@ -1,7 +1,7 @@
 ---
 title: CreateMapiPropertyFromBytes
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Creates the mapi property from bytes.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapiproperty/createmapipropertyfrombytes/

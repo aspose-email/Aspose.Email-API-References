@@ -1,7 +1,7 @@
 ---
 title: ResourceLocation
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The resource URI for the object. For example the resource URI for a copied page or section.
 type: docs
 weight: 100
 url: /net/aspose.email.clients.graph/onenoteoperation/resourcelocation/

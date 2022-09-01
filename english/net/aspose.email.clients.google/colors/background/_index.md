@@ -1,7 +1,7 @@
 ---
 title: Background
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The background color associated with this color definition.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/colors/background/

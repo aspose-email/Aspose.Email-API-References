@@ -1,7 +1,7 @@
 ---
 title: AsyncCommandResults
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The result of asynchronous command.
 type: docs
 weight: 2860
 url: /net/aspose.email.clients/asynccommandresults/
@@ -14,7 +14,7 @@ The result of asynchronous command.
 public enum AsyncCommandResults
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

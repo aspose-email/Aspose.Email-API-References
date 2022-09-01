@@ -1,7 +1,7 @@
 ---
 title: SlideCount
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the number of slides in the file attached to the Document object. Area Common Canonical name PidNameSlideCount Alternate names urnschemasmicrosoftcomofficeofficeSlides
 type: docs
 weight: 18060
 url: /net/aspose.email.mapi/knownpropertylist/slidecount/

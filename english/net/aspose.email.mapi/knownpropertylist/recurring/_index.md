@@ -1,7 +1,7 @@
 ---
 title: Recurring
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the object represents a recurring series. Area Calendar Canonical name PidLidRecurring Alternate names dispidRecurring
 type: docs
 weight: 15610
 url: /net/aspose.email.mapi/knownpropertylist/recurring/

@@ -1,7 +1,7 @@
 ---
 title: DeletedMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets deleted messages
 type: docs
 weight: 20
 url: /net/aspose.email.clients.imap/imapmonitoringeventargs/deletedmessages/

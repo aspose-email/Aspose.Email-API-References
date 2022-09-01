@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Value of the element
 type: docs
 weight: 90
 url: /net/aspose.email.clients.activesync.transportlayer/datacontainer/value/

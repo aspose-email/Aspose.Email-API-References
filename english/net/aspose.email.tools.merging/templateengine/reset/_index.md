@@ -1,7 +1,7 @@
 ---
 title: Reset
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Resets this instance.
 type: docs
 weight: 60
 url: /net/aspose.email.tools.merging/templateengine/reset/

@@ -1,7 +1,7 @@
 ---
 title: AddExtendedProperties
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Add extended properties to retrieve.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice.models/ewsfetchitems/addextendedproperties/

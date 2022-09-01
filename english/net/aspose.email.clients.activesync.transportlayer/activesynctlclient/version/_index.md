@@ -1,7 +1,7 @@
 ---
 title: Version
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the version of the protocol which is used in ActiveSync client.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.activesync.transportlayer/activesynctlclient/version/

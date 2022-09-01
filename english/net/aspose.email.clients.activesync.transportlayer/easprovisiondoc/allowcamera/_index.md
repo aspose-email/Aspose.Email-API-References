@@ -1,7 +1,7 @@
 ---
 title: AllowCamera
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the device allows the use of the builtin camera. This property SHOULD be ignored if the client does not have a camera and no camera can be attached to the device.
 type: docs
 weight: 40
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/allowcamera/

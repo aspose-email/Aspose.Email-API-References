@@ -1,12 +1,12 @@
 ---
 title: GetHashCode
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: GetHashCode returns a hash function for this object.
 type: docs
 weight: 60
 url: /net/aspose.email.personalinfo/customerevent/gethashcode/
 ---
-## CustomerEvent.GetHashCode method (1 of 2)
+## GetHashCode() {#gethashcode}
 
 GetHashCode returns a hash function for this object.
 
@@ -14,7 +14,7 @@ GetHashCode returns a hash function for this object.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 Returns a hash function for this object.
 
@@ -26,7 +26,7 @@ Returns a hash function for this object.
 
 ---
 
-## CustomerEvent.GetHashCode method (2 of 2)
+## GetHashCode(CustomerEvent) {#gethashcode_1}
 
 GetHashCode returns a hash function for specified object.
 
@@ -38,7 +38,7 @@ public int GetHashCode(CustomerEvent obj)
 | --- | --- | --- |
 | obj | CustomerEvent | The Object for which a hash code is to be returned. |
 
-## Return Value
+### Return Value
 
 Returns a hash function for specified object.
 

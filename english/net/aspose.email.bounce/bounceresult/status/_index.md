@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a transportindependent status code which indicates the delivery status of the message to that recipient.
 type: docs
 weight: 70
 url: /net/aspose.email.bounce/bounceresult/status/

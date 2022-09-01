@@ -1,9 +1,9 @@
 ---
 title: OptionalAttendees
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the optional attendees.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.email.calendar/appointment/optionalattendees/
 ---
 ## Appointment.OptionalAttendees property
@@ -14,7 +14,7 @@ Gets the optional attendees.
 public MailAddressCollection OptionalAttendees { get; }
 ```
 
-## Property Value
+### Property Value
 
 The address collection of optional attendees.
 

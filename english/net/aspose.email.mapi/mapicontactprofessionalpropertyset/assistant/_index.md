@@ -1,7 +1,7 @@
 ---
 title: Assistant
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the name of the contacts assistant
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicontactprofessionalpropertyset/assistant/

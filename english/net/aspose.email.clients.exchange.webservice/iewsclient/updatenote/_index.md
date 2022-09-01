@@ -1,12 +1,12 @@
 ---
 title: UpdateNote
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Updates the specified note.
 type: docs
 weight: 1500
 url: /net/aspose.email.clients.exchange.webservice/iewsclient/updatenote/
 ---
-## IEWSClient.UpdateNote method (1 of 3)
+## UpdateNote(MapiNote) {#updatenote}
 
 Updates the specified note.
 
@@ -18,7 +18,7 @@ public string UpdateNote(MapiNote note)
 | --- | --- | --- |
 | note | MapiNote | An [`MapiNote`](../../../aspose.email.mapi/mapinote) containing the note information. |
 
-## Return Value
+### Return Value
 
 Note uri.
 
@@ -31,7 +31,7 @@ Note uri.
 
 ---
 
-## IEWSClient.UpdateNote method (2 of 3)
+## UpdateNote(string, MapiNote) {#updatenote_1}
 
 Updates the specified note.
 
@@ -44,7 +44,7 @@ public string UpdateNote(string uri, MapiNote note)
 | uri | String | Note identifier |
 | note | MapiNote | An [`MapiNote`](../../../aspose.email.mapi/mapinote) containing the note information. |
 
-## Return Value
+### Return Value
 
 Note uri.
 
@@ -57,7 +57,7 @@ Note uri.
 
 ---
 
-## IEWSClient.UpdateNote method (3 of 3)
+## UpdateNote(string, MapiNote, IEnumerable&lt;PropertyDescriptor&gt;) {#updatenote_2}
 
 Updates the specified note.
 
@@ -72,7 +72,7 @@ public string UpdateNote(string uri, MapiNote note,
 | note | MapiNote | An [`MapiNote`](../../../aspose.email.mapi/mapinote) containing the note information. |
 | additionalProperties | IEnumerable`1 | An additional MAPI properties which can be used in MAPI object. |
 
-## Return Value
+### Return Value
 
 Note uri.
 

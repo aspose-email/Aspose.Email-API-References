@@ -1,7 +1,7 @@
 ---
 title: DeleteFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Deletes the folder
 type: docs
 weight: 140
 url: /net/aspose.email.clients.exchange.dav/exchangeclient/deletefolder/

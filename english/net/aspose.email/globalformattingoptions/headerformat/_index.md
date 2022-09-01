@@ -1,7 +1,7 @@
 ---
 title: HeaderFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: HeaderFormat for instances of HeadersFormattingOptions if DefaultHeaderFormat is not set.
 type: docs
 weight: 30
 url: /net/aspose.email/globalformattingoptions/headerformat/

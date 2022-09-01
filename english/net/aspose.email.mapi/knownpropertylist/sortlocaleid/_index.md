@@ -1,7 +1,7 @@
 ---
 title: SortLocaleId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the locale identifier. Area ExchangeAdministrative Canonical name PidTagSortLocaleId Alternate names PR_SORT_LOCALE_ID ptagSortLocaleId
 type: docs
 weight: 18090
 url: /net/aspose.email.mapi/knownpropertylist/sortlocaleid/

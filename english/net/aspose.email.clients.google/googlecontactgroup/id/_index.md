@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the unique identifier for a group entry
 type: docs
 weight: 20
 url: /net/aspose.email.clients.google/googlecontactgroup/id/
@@ -14,7 +14,7 @@ Gets the unique identifier for a group entry
 public string Id { get; }
 ```
 
-## Property Value
+### Property Value
 
 string that represents an unique identifier
 

@@ -1,7 +1,7 @@
 ---
 title: ServerInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets information associated with the server that processed the last request. Will be null if no requests have been processed.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/serverinfo/

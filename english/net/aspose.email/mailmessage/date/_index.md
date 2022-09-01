@@ -1,7 +1,7 @@
 ---
 title: Date
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the date of message
 type: docs
 weight: 100
 url: /net/aspose.email/mailmessage/date/

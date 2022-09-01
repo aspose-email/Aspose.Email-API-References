@@ -1,12 +1,12 @@
 ---
 title: PageInfo
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the PageInfoaspose.email.clients/pageinfo class
 type: docs
 weight: 10
 url: /net/aspose.email.clients/pageinfo/pageinfo/
 ---
-## PageInfo constructor (1 of 4)
+## PageInfo(int) {#constructor}
 
 Initializes a new instance of the [`PageInfo`](../../pageinfo) class
 
@@ -26,7 +26,7 @@ public PageInfo(int itemsPerPage)
 
 ---
 
-## PageInfo constructor (2 of 4)
+## PageInfo(int, int) {#constructor_1}
 
 Initializes a new instance of the [`PageInfo`](../../pageinfo) class
 
@@ -47,7 +47,7 @@ public PageInfo(int itemsPerPage, int offset)
 
 ---
 
-## PageInfo constructor (3 of 4)
+## PageInfo(int, int, int, bool) {#constructor_2}
 
 Initializes a new instance of the [`PageInfo`](../../pageinfo) class
 
@@ -70,7 +70,7 @@ public PageInfo(int totalCount, int itemsPerPage, int offset, bool lastPage)
 
 ---
 
-## PageInfo constructor (4 of 4)
+## PageInfo(int, int, int, int, bool) {#constructor_3}
 
 Initializes a new instance of the [`PageInfo`](../../pageinfo) class
 

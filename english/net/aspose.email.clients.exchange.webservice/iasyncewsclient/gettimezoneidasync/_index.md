@@ -1,7 +1,7 @@
 ---
 title: GetTimezoneIdAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets timezone id.
 type: docs
 weight: 390
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/gettimezoneidasync/

@@ -1,7 +1,7 @@
 ---
 title: AttachmentData
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Data about attachments in the email message that triggered the event. Mandatory No
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/o365emailmessageactivity/attachmentdata/

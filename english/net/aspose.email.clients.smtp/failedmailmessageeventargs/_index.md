@@ -1,9 +1,9 @@
 ---
 title: FailedMailMessageEventArgs
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides data for the MessageSending and MessageSent events.
 type: docs
-weight: 16820
+weight: 16960
 url: /net/aspose.email.clients.smtp/failedmailmessageeventargs/
 ---
 ## FailedMailMessageEventArgs class

@@ -1,9 +1,9 @@
 ---
 title: MapiConversionOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This class allows the user to specify additional options when converting from MailMessage to MapiMessage.
 type: docs
-weight: 18150
+weight: 18360
 url: /net/aspose.email.mapi/mapiconversionoptions/
 ---
 ## MapiConversionOptions class
@@ -18,8 +18,8 @@ public class MapiConversionOptions
 
 | Name | Description |
 | --- | --- |
-| [MapiConversionOptions](mapiconversionoptions)() | Initializes a new instance of the [`MapiConversionOptions`](../mapiconversionoptions) class. |
-| [MapiConversionOptions](mapiconversionoptions)(OutlookMessageFormat) | Initializes a new instance of the [`MapiConversionOptions`](../mapiconversionoptions) class with specified OutlookMessageFormat. |
+| [MapiConversionOptions](mapiconversionoptions#constructor)() | Initializes a new instance of the [`MapiConversionOptions`](../mapiconversionoptions) class. |
+| [MapiConversionOptions](mapiconversionoptions#constructor_1)(OutlookMessageFormat) | Initializes a new instance of the [`MapiConversionOptions`](../mapiconversionoptions) class with specified OutlookMessageFormat. |
 
 ## Properties
 

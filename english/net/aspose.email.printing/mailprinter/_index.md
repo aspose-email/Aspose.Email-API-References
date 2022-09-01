@@ -1,9 +1,9 @@
 ---
 title: MailPrinter
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents a printer for mail messages.
 type: docs
-weight: 19650
+weight: 19880
 url: /net/aspose.email.printing/mailprinter/
 ---
 ## MailPrinter class
@@ -18,8 +18,8 @@ public sealed class MailPrinter : IPrintSettingsProvider
 
 | Name | Description |
 | --- | --- |
-| [MailPrinter](mailprinter)() | Initializes a new instance of the [`MailPrinter`](../mailprinter) class with A4 paper setting for page size and 0.5in margin for all sides. |
-| [MailPrinter](mailprinter)(IPrintSettingsProvider) | Initializes a new instance of the [`MailPrinter`](../mailprinter) class using given settings provider. |
+| [MailPrinter](mailprinter#constructor)() | Initializes a new instance of the [`MailPrinter`](../mailprinter) class with A4 paper setting for page size and 0.5in margin for all sides. |
+| [MailPrinter](mailprinter#constructor_1)(IPrintSettingsProvider) | Initializes a new instance of the [`MailPrinter`](../mailprinter) class using given settings provider. |
 
 ## Properties
 
@@ -41,10 +41,10 @@ public sealed class MailPrinter : IPrintSettingsProvider
 
 | Name | Description |
 | --- | --- |
-| [Print](../../aspose.email.printing/mailprinter/print)(MailMessage, Stream, PrintFormat) | Prints the specified message object using the desired format. |
-| [Print](../../aspose.email.printing/mailprinter/print)(MailMessage, string, PrintFormat) | Prints the specified message object using the desired format. |
-| [Print](../../aspose.email.printing/mailprinter/print)(MapiMessage, Stream, PrintFormat) | Prints the specified MSG object using the desired format. |
-| [Print](../../aspose.email.printing/mailprinter/print)(MapiMessage, string, PrintFormat) | Prints the specified MSG object using the desired format. |
+| [Print](../../aspose.email.printing/mailprinter/print#print)(MailMessage, Stream, PrintFormat) | Prints the specified message object using the desired format. |
+| [Print](../../aspose.email.printing/mailprinter/print#print_1)(MailMessage, string, PrintFormat) | Prints the specified message object using the desired format. |
+| [Print](../../aspose.email.printing/mailprinter/print#print_2)(MapiMessage, Stream, PrintFormat) | Prints the specified MSG object using the desired format. |
+| [Print](../../aspose.email.printing/mailprinter/print#print_3)(MapiMessage, string, PrintFormat) | Prints the specified MSG object using the desired format. |
 
 ### See Also
 

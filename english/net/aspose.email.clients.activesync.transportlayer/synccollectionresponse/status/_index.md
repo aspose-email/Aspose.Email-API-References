@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates the status of the command operation
 type: docs
 weight: 70
 url: /net/aspose.email.clients.activesync.transportlayer/synccollectionresponse/status/

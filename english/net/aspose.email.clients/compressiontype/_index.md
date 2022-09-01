@@ -1,7 +1,7 @@
 ---
 title: CompressionType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Compression types which are used by mail protocols
 type: docs
 weight: 2900
 url: /net/aspose.email.clients/compressiontype/
@@ -15,7 +15,7 @@ Compression types which are used by mail protocols
 public enum CompressionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

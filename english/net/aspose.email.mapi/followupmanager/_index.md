@@ -1,9 +1,9 @@
 ---
 title: FollowUpManager
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Provides the ability to set and handle followup Outlook flags and categories. Supports the features to add and remove a flag in MapiMessage./mapimessage and mark it as completed as well.
 type: docs
-weight: 17630
+weight: 17810
 url: /net/aspose.email.mapi/followupmanager/
 ---
 ## FollowUpManager class
@@ -29,10 +29,10 @@ public static class FollowUpManager
 | static [MarkAsCompleted](../../aspose.email.mapi/followupmanager/markascompleted)(MapiMessage) | Marks the flagged message as completed. |
 | static [RemoveCategory](../../aspose.email.mapi/followupmanager/removecategory)(MapiMessage, string) | Removes the category. |
 | static [RemoveVotingButton](../../aspose.email.mapi/followupmanager/removevotingbutton)(MapiMessage, string) | Removes the voting button. |
-| static [SetFlag](../../aspose.email.mapi/followupmanager/setflag)(MapiMessage, string) | Sets the follow-up flag for a message. |
-| static [SetFlag](../../aspose.email.mapi/followupmanager/setflag)(MapiMessage, string, DateTime, DateTime) | Sets the follow-up flag for a message. |
-| static [SetFlagForRecipients](../../aspose.email.mapi/followupmanager/setflagforrecipients)(MapiMessage, string) | Sets the flag for a draft message to remind recipients to follow-up. |
-| static [SetFlagForRecipients](../../aspose.email.mapi/followupmanager/setflagforrecipients)(MapiMessage, string, DateTime) | Sets the flag for a draft message to remind recipients to follow-up. |
+| static [SetFlag](../../aspose.email.mapi/followupmanager/setflag#setflag)(MapiMessage, string) | Sets the follow-up flag for a message. |
+| static [SetFlag](../../aspose.email.mapi/followupmanager/setflag#setflag_1)(MapiMessage, string, DateTime, DateTime) | Sets the follow-up flag for a message. |
+| static [SetFlagForRecipients](../../aspose.email.mapi/followupmanager/setflagforrecipients#setflagforrecipients)(MapiMessage, string) | Sets the flag for a draft message to remind recipients to follow-up. |
+| static [SetFlagForRecipients](../../aspose.email.mapi/followupmanager/setflagforrecipients#setflagforrecipients_1)(MapiMessage, string, DateTime) | Sets the flag for a draft message to remind recipients to follow-up. |
 | static [SetOptions](../../aspose.email.mapi/followupmanager/setoptions)(MapiMessage, FollowUpOptions) | Sets the additional follow-up options for a message. |
 
 ### See Also

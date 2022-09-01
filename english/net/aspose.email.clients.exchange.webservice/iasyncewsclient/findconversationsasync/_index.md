@@ -1,7 +1,7 @@
 ---
 title: FindConversationsAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Finds conversations in the specified folder
 type: docs
 weight: 290
 url: /net/aspose.email.clients.exchange.webservice/iasyncewsclient/findconversationsasync/
@@ -20,7 +20,7 @@ public Task<ExchangeConversation[]> FindConversationsAsync(string folderId,
 | folderId | String | An id of folder in which search |
 | cancellationToken | CancellationToken | The cancellation token. |
 
-## Return Value
+### Return Value
 
 An array of found [`ExchangeConversation`](../../exchangeconversation)
 

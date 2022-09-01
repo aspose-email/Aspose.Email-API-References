@@ -1,7 +1,7 @@
 ---
 title: SkipAttachments
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies if attachments has to be igored in update operation
 type: docs
 weight: 20
 url: /net/aspose.email.clients.graph/updatesettings/skipattachments/

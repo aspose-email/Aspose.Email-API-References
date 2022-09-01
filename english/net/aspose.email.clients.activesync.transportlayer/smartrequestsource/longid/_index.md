@@ -1,7 +1,7 @@
 ---
 title: LongId
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the long ID for the source message which is returned in the Search command. If the LongId is present the FolderId ItemId and InstanceId are not present. The LongId value can be up to 256 characters in length.
 type: docs
 weight: 50
 url: /net/aspose.email.clients.activesync.transportlayer/smartrequestsource/longid/

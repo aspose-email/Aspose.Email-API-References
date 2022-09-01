@@ -1,7 +1,7 @@
 ---
 title: ExchangeCalendarEventCollection
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange.webservice/exchangecalendareventcollection/exchangecalendareventcollection/

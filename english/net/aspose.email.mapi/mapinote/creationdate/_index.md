@@ -1,7 +1,7 @@
 ---
 title: CreationDate
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the creation date of note
 type: docs
 weight: 30
 url: /net/aspose.email.mapi/mapinote/creationdate/

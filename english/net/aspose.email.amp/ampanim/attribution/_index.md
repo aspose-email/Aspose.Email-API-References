@@ -1,7 +1,7 @@
 ---
 title: Attribution
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: A string that indicates the attribution of the image.
 type: docs
 weight: 20
 url: /net/aspose.email.amp/ampanim/attribution/

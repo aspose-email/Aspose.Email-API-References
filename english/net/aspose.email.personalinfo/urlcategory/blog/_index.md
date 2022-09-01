@@ -1,7 +1,7 @@
 ---
 title: Blog
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Blog URL
 type: docs
 weight: 20
 url: /net/aspose.email.personalinfo/urlcategory/blog/

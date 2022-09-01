@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Subscription content type
 type: docs
 weight: 20
 url: /net/aspose.email.clients.activity/subscription/contenttype/

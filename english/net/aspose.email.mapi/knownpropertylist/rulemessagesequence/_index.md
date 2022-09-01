@@ -1,7 +1,7 @@
 ---
 title: RuleMessageSequence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains a value used to determine the order in which rules are evaluated and executed. Set on the FAI message. Area ExchangeNonTransmittableReserved Canonical name PidTagRuleMessageSequence Alternate names PR_RULE_MSG_SEQUENCE ptagRuleMsgSequence
 type: docs
 weight: 16560
 url: /net/aspose.email.mapi/knownpropertylist/rulemessagesequence/

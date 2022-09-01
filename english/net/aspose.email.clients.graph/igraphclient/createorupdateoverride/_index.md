@@ -1,12 +1,12 @@
 ---
 title: CreateOrUpdateOverride
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Create an override for a sender identified by an SMTP address. Future messages from that SMTP address will be consistently classified as specified in the override. Note  If an override already exists with the same SMTP address then the classifyAs and name fields of that override are updated with the provided values.  The maximum number of overrides supported for a mailbox is 1000 based on unique sender SMTP addresses. Permissions Delegatedwork or school account Mail.ReadWrite Delegatedpersonal Microsoft account Mail.ReadWrite Application Mail.ReadWrite
 type: docs
 weight: 160
 url: /net/aspose.email.clients.graph/igraphclient/createorupdateoverride/
 ---
-## IGraphClient.CreateOrUpdateOverride method (1 of 2)
+## CreateOrUpdateOverride(MailAddress, ClassificationType) {#createorupdateoverride_1}
 
 Create an override for a sender identified by an SMTP address. Future messages from that SMTP address will be consistently classified as specified in the override. Note: - If an override already exists with the same SMTP address, then the classifyAs and name fields of that override are updated with the provided values. - The maximum number of overrides supported for a mailbox is 1000, based on unique sender SMTP addresses. Permissions: Delegated(work or school account) Mail.ReadWrite Delegated(personal Microsoft account) Mail.ReadWrite Application Mail.ReadWrite
 
@@ -31,7 +31,7 @@ public ClassificationOverride CreateOrUpdateOverride(MailAddress sender,
 
 ---
 
-## IGraphClient.CreateOrUpdateOverride method (2 of 2)
+## CreateOrUpdateOverride(ClassificationOverride) {#createorupdateoverride}
 
 Create an override for a sender identified by an SMTP address. Future messages from that SMTP address will be consistently classified as specified in the override. Note: - If an override already exists with the same SMTP address, then the classifyAs and name fields of that override are updated with the provided values. - The maximum number of overrides supported for a mailbox is 1000, based on unique sender SMTP addresses. Permissions: Delegated(work or school account) Mail.ReadWrite Delegated(personal Microsoft account) Mail.ReadWrite Application Mail.ReadWrite
 

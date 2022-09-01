@@ -1,7 +1,7 @@
 ---
 title: TasksUri
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the tasks uri.
 type: docs
 weight: 140
 url: /net/aspose.email.clients.exchange/exchangemailboxinfo/tasksuri/

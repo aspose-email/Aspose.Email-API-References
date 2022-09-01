@@ -1,7 +1,7 @@
 ---
 title: SendClientLatencies
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether client latency info is push to server.
 type: docs
 weight: 130
 url: /net/aspose.email.clients.exchange/autodiscoverservicebase/sendclientlatencies/

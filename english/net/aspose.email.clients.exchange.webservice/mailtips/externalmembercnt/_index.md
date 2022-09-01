@@ -1,7 +1,7 @@
 ---
 title: ExternalMemberCnt
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the number of external members in a group.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.exchange.webservice/mailtips/externalmembercnt/

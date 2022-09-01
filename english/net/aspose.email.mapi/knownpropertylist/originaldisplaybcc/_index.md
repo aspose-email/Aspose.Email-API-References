@@ -1,7 +1,7 @@
 ---
 title: OriginalDisplayBcc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the PidTagDisplayBcc property section 2.665 from the original message. Area General Message Properties Canonical name PidTagOriginalDisplayBcc Alternate names PR_ORIGINAL_DISPLAY_BCC PR_ORIGINAL_DISPLAY_BCC_A ptagOriginalDisplayBcc PR_ORIGINAL_DISPLAY_BCC_W
 type: docs
 weight: 13530
 url: /net/aspose.email.mapi/knownpropertylist/originaldisplaybcc/

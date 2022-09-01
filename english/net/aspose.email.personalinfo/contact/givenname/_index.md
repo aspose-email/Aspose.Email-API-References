@@ -1,7 +1,7 @@
 ---
 title: GivenName
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets a given name that is a part of a persons full name. A given name is also known as a personal name first name forename or Christian name.
 type: docs
 weight: 170
 url: /net/aspose.email.personalinfo/contact/givenname/

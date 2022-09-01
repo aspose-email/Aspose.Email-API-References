@@ -1,7 +1,7 @@
 ---
 title: OutlookMessageFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the MSG.
 type: docs
 weight: 50
 url: /net/aspose.email/mailmessagesavetype/outlookmessageformat/
@@ -14,7 +14,7 @@ Gets the MSG.
 public static MailMessageSaveType OutlookMessageFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The MSG.
 

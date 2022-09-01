@@ -1,7 +1,7 @@
 ---
 title: Birthday
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Birthday header.
 type: docs
 weight: 20
 url: /net/aspose.email/mhttemplatename.contact/birthday/

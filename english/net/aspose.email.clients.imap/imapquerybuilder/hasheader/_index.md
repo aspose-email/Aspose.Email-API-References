@@ -1,7 +1,7 @@
 ---
 title: HasHeader
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Search messages that have a header with the specified fieldname and that contains the specified string in the text of the header what comes after the colon. If the string to search is zerolength this matches all messages that have a header line with the specified fieldname regardless of the contents.
 type: docs
 weight: 80
 url: /net/aspose.email.clients.imap/imapquerybuilder/hasheader/
@@ -19,7 +19,7 @@ public MailQuery HasHeader(string fieldName, string fieldValue)
 | fieldName | String | Name of the field. |
 | fieldValue | String | The field value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../../aspose.email.tools.search/mailquery) that represents search query (one searching criteria).
 

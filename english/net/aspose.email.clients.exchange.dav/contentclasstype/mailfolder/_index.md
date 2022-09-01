@@ -1,7 +1,7 @@
 ---
 title: MailFolder
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the urncontentclassesmailfolder content class that defines a set of properties for a folder that primarily contains messages.
 type: docs
 weight: 120
 url: /net/aspose.email.clients.exchange.dav/contentclasstype/mailfolder/
@@ -14,7 +14,7 @@ Gets the urn:content-classes:mailfolder content class that defines a set of prop
 public static ContentClassType MailFolder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The mail folder content class.
 

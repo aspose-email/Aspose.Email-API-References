@@ -1,7 +1,7 @@
 ---
 title: ItemOperations
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: ItemOperations namespace of the ActiveSync protocol
 type: docs
 weight: 1390
 url: /net/aspose.email.clients.activesync.transportlayer/itemoperations/
@@ -14,7 +14,7 @@ ItemOperations namespace of the ActiveSync protocol
 public enum ItemOperations
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

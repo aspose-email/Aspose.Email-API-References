@@ -1,7 +1,7 @@
 ---
 title: ASCIIFormat
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Returns MapiConversionOptions with OutlookMessageFormat is ASCIIPreserveSignature is False UseBodyCompression is False.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapiconversionoptions/asciiformat/

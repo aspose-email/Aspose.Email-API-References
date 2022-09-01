@@ -1,7 +1,7 @@
 ---
 title: ScheduleInfoFreeBusyAway
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the times for which the free/busy status is set a value of OOF. Area Free/Busy Properties Canonical name PidTagScheduleInfoFreeBusyAway Alternate names PR_SCHDINFO_FREEBUSY_OOF
 type: docs
 weight: 16820
 url: /net/aspose.email.mapi/knownpropertylist/scheduleinfofreebusyaway/

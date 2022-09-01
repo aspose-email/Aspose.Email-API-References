@@ -1,7 +1,7 @@
 ---
 title: RequireSignedSMIMEMessages
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies whether the client sends signed S/MIME messages.
 type: docs
 weight: 410
 url: /net/aspose.email.clients.activesync.transportlayer/easprovisiondoc/requiresignedsmimemessages/

@@ -1,7 +1,7 @@
 ---
 title: Range
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Time range during which calendar should be regarded as busy.
 type: docs
 weight: 15820
 url: /net/aspose.email.clients.google/range/
@@ -18,8 +18,8 @@ public class Range
 
 | Name | Description |
 | --- | --- |
-| [Range](range)() | Initializes a new instance of the Range class. |
-| [Range](range)(DateTime, DateTime) | Initializes a new instance of the Range class. |
+| [Range](range#constructor)() | Initializes a new instance of the Range class. |
+| [Range](range#constructor_1)(DateTime, DateTime) | Initializes a new instance of the Range class. |
 
 ## Properties
 

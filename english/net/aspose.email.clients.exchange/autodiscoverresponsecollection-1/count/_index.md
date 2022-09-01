@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the number of responses in the collection.
 type: docs
 weight: 10
 url: /net/aspose.email.clients.exchange/autodiscoverresponsecollection-1/count/

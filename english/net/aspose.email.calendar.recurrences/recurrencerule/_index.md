@@ -1,7 +1,7 @@
 ---
 title: RecurrenceRule
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Represents one recurrence or exception rule in a recurrence pattern.
 type: docs
 weight: 770
 url: /net/aspose.email.calendar.recurrences/recurrencerule/

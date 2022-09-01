@@ -1,7 +1,7 @@
 ---
 title: Log
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Area name Journal Property set name PSETID_Log
 type: docs
 weight: 90
 url: /net/aspose.email.mapi/knownpropertysets/log/

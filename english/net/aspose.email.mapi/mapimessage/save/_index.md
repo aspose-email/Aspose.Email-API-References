@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Saves to the specified stream as Msg.
 type: docs
 weight: 350
 url: /net/aspose.email.mapi/mapimessage/save/
 ---
-## MapiMessage.Save method (1 of 4)
+## Save(Stream) {#save}
 
 Saves to the specified stream as Msg.
 
@@ -26,7 +26,7 @@ public void Save(Stream stream)
 
 ---
 
-## MapiMessage.Save method (2 of 4)
+## Save(string, SaveOptions) {#save_3}
 
 Saves message as a file with additional options.
 
@@ -48,7 +48,7 @@ public void Save(string fileName, SaveOptions options)
 
 ---
 
-## MapiMessage.Save method (3 of 4)
+## Save(Stream, SaveOptions) {#save_1}
 
 Saves message as a stream with additional options.
 
@@ -70,7 +70,7 @@ public void Save(Stream stream, SaveOptions options)
 
 ---
 
-## MapiMessage.Save method (4 of 4)
+## Save(string) {#save_2}
 
 Saves to the specified file as Msg.
 

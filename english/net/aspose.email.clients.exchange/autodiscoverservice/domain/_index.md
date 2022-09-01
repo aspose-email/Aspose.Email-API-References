@@ -1,7 +1,7 @@
 ---
 title: Domain
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the domain this service is bound to. When this property is set the domain name is used to automatically determine the Autodiscover service URL.
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange/autodiscoverservice/domain/

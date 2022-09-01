@@ -1,7 +1,7 @@
 ---
 title: Day
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets day of the month on which the recurrence falls.
 type: docs
 weight: 20
 url: /net/aspose.email.mapi/mapicalendaryearlyandmonthlyrecurrencepattern/day/

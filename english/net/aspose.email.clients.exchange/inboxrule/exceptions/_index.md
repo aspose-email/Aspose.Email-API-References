@@ -1,7 +1,7 @@
 ---
 title: Exceptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets or sets the exceptions that represent all the available rule exception conditions for the inbox rule.
 type: docs
 weight: 90
 url: /net/aspose.email.clients.exchange/inboxrule/exceptions/

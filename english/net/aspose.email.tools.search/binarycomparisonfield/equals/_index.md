@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Indicates that field must be equal to the specified value.
 type: docs
 weight: 10
 url: /net/aspose.email.tools.search/binarycomparisonfield/equals/
 ---
-## BinaryComparisonField.Equals method (1 of 2)
+## Equals(byte[]) {#equals}
 
 Indicates that field must be equal to the specified value.
 
@@ -18,7 +18,7 @@ public MailQuery Equals(byte[] value)
 | --- | --- | --- |
 | value | Byte[] | The value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 
@@ -31,7 +31,7 @@ public MailQuery Equals(byte[] value)
 
 ---
 
-## BinaryComparisonField.Equals method (2 of 2)
+## Equals(string) {#equals_1}
 
 Indicates that field must be equal to the specified value.
 
@@ -43,7 +43,7 @@ public MailQuery Equals(string value)
 | --- | --- | --- |
 | value | String | The base 64 string value. |
 
-## Return Value
+### Return Value
 
 [`MailQuery`](../../mailquery) that represents search query (one searching criterion).
 

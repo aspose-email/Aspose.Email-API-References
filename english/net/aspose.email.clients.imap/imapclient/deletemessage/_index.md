@@ -1,12 +1,12 @@
 ---
 title: DeleteMessage
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Marks a message with the specified sequence number as deleted
 type: docs
 weight: 560
 url: /net/aspose.email.clients.imap/imapclient/deletemessage/
 ---
-## ImapClient.DeleteMessage method (1 of 12)
+## DeleteMessage(IConnection, int) {#deletemessage}
 
 Marks a message with the specified sequence number as deleted
 
@@ -28,7 +28,7 @@ public void DeleteMessage(IConnection connection, int sequenceNumber)
 
 ---
 
-## ImapClient.DeleteMessage method (2 of 12)
+## DeleteMessage(IConnection, string) {#deletemessage_2}
 
 Marks a message with the specified sequence number as deleted
 
@@ -50,7 +50,7 @@ public void DeleteMessage(IConnection connection, string uniqueId)
 
 ---
 
-## ImapClient.DeleteMessage method (3 of 12)
+## DeleteMessage(int) {#deletemessage_6}
 
 Marks a message with the specified sequence number as deleted
 
@@ -70,7 +70,7 @@ public void DeleteMessage(int sequenceNumber)
 
 ---
 
-## ImapClient.DeleteMessage method (4 of 12)
+## DeleteMessage(string) {#deletemessage_8}
 
 Marks a message with the specified sequence number as deleted
 
@@ -90,7 +90,7 @@ public void DeleteMessage(string uniqueId)
 
 ---
 
-## ImapClient.DeleteMessage method (5 of 12)
+## DeleteMessage(IConnection, int, long) {#deletemessage_1}
 
 Marks a message with the specified sequence number as deleted
 
@@ -113,7 +113,7 @@ public void DeleteMessage(IConnection connection, int sequenceNumber, long modif
 
 ---
 
-## ImapClient.DeleteMessage method (6 of 12)
+## DeleteMessage(IConnection, string, long) {#deletemessage_4}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -136,7 +136,7 @@ public void DeleteMessage(IConnection connection, string uniqueId, long modifica
 
 ---
 
-## ImapClient.DeleteMessage method (7 of 12)
+## DeleteMessage(int, long) {#deletemessage_7}
 
 Marks a message with the specified sequence number as deleted
 
@@ -157,7 +157,7 @@ public void DeleteMessage(int sequenceNumber, long modificationSequence)
 
 ---
 
-## ImapClient.DeleteMessage method (8 of 12)
+## DeleteMessage(string, long) {#deletemessage_10}
 
 Marks a message with the specified unique identifier as deleted
 
@@ -178,7 +178,7 @@ public void DeleteMessage(string uniqueId, long modificationSequence)
 
 ---
 
-## ImapClient.DeleteMessage method (9 of 12)
+## DeleteMessage(string, bool) {#deletemessage_9}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -199,7 +199,7 @@ public void DeleteMessage(string uniqueId, bool commitNow)
 
 ---
 
-## ImapClient.DeleteMessage method (10 of 12)
+## DeleteMessage(IConnection, string, bool) {#deletemessage_3}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -222,7 +222,7 @@ public void DeleteMessage(IConnection connection, string uniqueId, bool commitNo
 
 ---
 
-## ImapClient.DeleteMessage method (11 of 12)
+## DeleteMessage(string, long, bool) {#deletemessage_11}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 
@@ -244,7 +244,7 @@ public void DeleteMessage(string uniqueId, long modificationSequence, bool commi
 
 ---
 
-## ImapClient.DeleteMessage method (12 of 12)
+## DeleteMessage(IConnection, string, long, bool) {#deletemessage_5}
 
 Marks a message with the specified unique identifier as deleted and commits the deletions if user specifies this. This method works only if server supports UIDPLUS extension. Please, read more https://tools.ietf.org/html/rfc4315
 

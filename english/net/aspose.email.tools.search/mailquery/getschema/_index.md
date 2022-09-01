@@ -1,7 +1,7 @@
 ---
 title: GetSchema
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: This method is reserved and should not be used. When implementing the IXmlSerializable interface you should return null Nothing in Visual Basic from this method and instead if specifying a custom schema is required apply the XmlSchemaProviderAttribute to the class.
 type: docs
 weight: 50
 url: /net/aspose.email.tools.search/mailquery/getschema/
@@ -14,7 +14,7 @@ This method is reserved and should not be used. When implementing the IXmlSerial
 public XmlSchema GetSchema()
 ```
 
-## Return Value
+### Return Value
 
 An XmlSchema that describes the XML representation of the object that is produced by the XmlWriter) method and consumed by the XmlReader) method.
 

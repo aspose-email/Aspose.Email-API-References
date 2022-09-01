@@ -1,12 +1,12 @@
 ---
 title: AppointmentIcsSaveOptions
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the AppointmentIcsSaveOptionsaspose.email.calendar/appointmenticssaveoptions class
 type: docs
 weight: 10
 url: /net/aspose.email.calendar/appointmenticssaveoptions/appointmenticssaveoptions/
 ---
-## AppointmentIcsSaveOptions constructor (1 of 2)
+## AppointmentIcsSaveOptions() {#constructor}
 
 Initializes a new instance of the [`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions) class
 
@@ -22,7 +22,7 @@ public AppointmentIcsSaveOptions()
 
 ---
 
-## AppointmentIcsSaveOptions constructor (2 of 2)
+## AppointmentIcsSaveOptions(AppointmentAction) {#constructor_1}
 
 Initializes a new instance of the [`AppointmentIcsSaveOptions`](../../appointmenticssaveoptions) class
 

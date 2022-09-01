@@ -1,7 +1,7 @@
 ---
 title: GetEwsClientAsync
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Initializes a new instance of the EWSClientaspose.email.clients.exchange.webservice/ewsclient based class
 type: docs
 weight: 20
 url: /net/aspose.email.clients.exchange.webservice/ewsclient/getewsclientasync/
@@ -22,7 +22,7 @@ public static Task<IAsyncEwsClient> GetEwsClientAsync(string mailboxUri, ICreden
 | proxy | WebProxy | Contains HTTP proxy settings |
 | cancellationToken | CancellationToken | The cancellation token |
 
-## Return Value
+### Return Value
 
 Instance of the class based on the [`EWSClient`](../../ewsclient) class.
 

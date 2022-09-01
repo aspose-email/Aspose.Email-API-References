@@ -1,7 +1,7 @@
 ---
 title: BodyPreference
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains preference information related to the type and size of information that is returned from searching synchronizing or fetching.
 type: docs
 weight: 30
 url: /net/aspose.email.clients.activesync.transportlayer/syncoptions/bodypreference/

@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: List is readonly. Operation is not supported.
 type: docs
 weight: 150
 url: /net/aspose.email.mapi/knownpropertylist/remove/
@@ -18,7 +18,7 @@ public bool Remove(PropertyDescriptor item)
 | --- | --- | --- |
 | item | PropertyDescriptor | The object to remove from the System.Collections.Generic.ICollection. |
 
-## Return Value
+### Return Value
 
 true if item was successfully removed from the System.Collections.Generic.ICollection; otherwise, false. This method also returns false if item is not found in the original System.Collections.Generic.ICollection.
 

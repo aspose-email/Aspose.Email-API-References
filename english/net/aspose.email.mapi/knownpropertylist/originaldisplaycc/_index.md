@@ -1,7 +1,7 @@
 ---
 title: OriginalDisplayCc
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Contains the value of the PidTagDisplayCc propertysection 2.666 from the original message. Area General Message Properties Canonical name PidTagOriginalDisplayCc Alternate names PR_ORIGINAL_DISPLAY_CC PR_ORIGINAL_DISPLAY_CC_A ptagOriginalDisplayCc PR_ORIGINAL_DISPLAY_CC_W
 type: docs
 weight: 13540
 url: /net/aspose.email.mapi/knownpropertylist/originaldisplaycc/

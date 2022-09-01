@@ -1,7 +1,7 @@
 ---
 title: FreeBusyRangeTimestamp
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Specifies the time in UTC that the data was published. Area Free/Busy Properties Canonical name PidTagFreeBusyRangeTimestamp Alternate names PR_FREEBUSY_RANGE_TIMESTAMP
 type: docs
 weight: 10700
 url: /net/aspose.email.mapi/knownpropertylist/freebusyrangetimestamp/

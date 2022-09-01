@@ -1,7 +1,7 @@
 ---
 title: ModificationSequence
 second_title: Aspose.Email for .NET API Reference
-description: 
+description: Gets the modification sequence of this message. See more https//tools.ietf.org/html/rfc7162
 type: docs
 weight: 100
 url: /net/aspose.email.clients.imap/imapmessageinfo/modificationsequence/
