@@ -18,7 +18,6 @@ is_root: true
 | [Aspose.Email.Calendar](./aspose.email.calendar) | The **Aspose.Email.Calendar** namespace contains classes for work with calendar. |
 | [Aspose.Email.Calendar.Recurrences](./aspose.email.calendar.recurrences) | The **Aspose.Email.Calendar.Recurrences** namespace contains classes for work with calendar recurrence patterns. |
 | [Aspose.Email.Clients](./aspose.email.clients) | The **Aspose.Email.Clients** namespace provides classes to access messages by using mail protocols. |
-| [Aspose.Email.Clients.ActiveSync.TransportLayer](./aspose.email.clients.activesync.transportlayer) |  |
 | [Aspose.Email.Clients.Activity](./aspose.email.clients.activity) | The **Aspose.Email.Clients.Activity** namespace provides classes that implement the Office 365 Management Activity API. |
 | [Aspose.Email.Clients.Base](./aspose.email.clients.base) | The **Aspose.Email.Clients.Base** namespace contains the basic types used by email client implementations. |
 | [Aspose.Email.Clients.DeliveryService](./aspose.email.clients.deliveryservice) | The **Aspose.Email.Clients.DeliveryService** namespace contains general types to implementing delivery service clients. |
@@ -27,16 +26,15 @@ is_root: true
 | [Aspose.Email.Clients.Exchange](./aspose.email.clients.exchange) | The **Aspose.Email.Clients.Exchange** namespace provides classes for Microsoft Exchange Server access. |
 | [Aspose.Email.Clients.Exchange.Dav](./aspose.email.clients.exchange.dav) | The **Aspose.Email.Clients.Exchange.Dav** namespace provides classes for access by using WebDav Exchange Store Protocol. |
 | [Aspose.Email.Clients.Exchange.WebService](./aspose.email.clients.exchange.webservice) | The **Aspose.Email.Clients.Exchange.WebService** namespace provides access to MS Exchange Server by using Exchange Web Services (EWS). |
-| [Aspose.Email.Clients.Exchange.WebService.Exceptions](./aspose.email.clients.exchange.webservice.exceptions) |  |
-| [Aspose.Email.Clients.Exchange.WebService.Models](./aspose.email.clients.exchange.webservice.models) |  |
+| [Aspose.Email.Clients.Exchange.WebService.Models](./aspose.email.clients.exchange.webservice.models) | The **Aspose.Email.Clients.Exchange.WebService.Models** namespace provides classes to configure the EWS client's methods behavior. |
 | [Aspose.Email.Clients.Google](./aspose.email.clients.google) | The **Aspose.Email.Clients.Google** namespace provides classes for access to Google account. |
 | [Aspose.Email.Clients.Graph](./aspose.email.clients.graph) | The **Aspose.Email.Clients.Graph** namespace provides classes for access to access to Microsoft 365 services by using REST API. |
 | [Aspose.Email.Clients.Imap](./aspose.email.clients.imap) | The **Aspose.Email.Clients.Imap** namespace provides classes to access and manipulate messages by using the Internet Message Access Protocol (IMAP). |
-| [Aspose.Email.Clients.Imap.Models](./aspose.email.clients.imap.models) |  |
+| [Aspose.Email.Clients.Imap.Models](./aspose.email.clients.imap.models) | The **Aspose.Email.Clients.Exchange.Imap.Models** namespace provides classes to configure the IMAP client's methods behavior. |
 | [Aspose.Email.Clients.Pop3](./aspose.email.clients.pop3) | The **Aspose.Email.Clients.Pop3** namespace provides classes to access and manipulate messages by using the Post Office Protocol Version 3 (POP3). |
-| [Aspose.Email.Clients.Pop3.Models](./aspose.email.clients.pop3.models) |  |
+| [Aspose.Email.Clients.Pop3.Models](./aspose.email.clients.pop3.models) | The **Aspose.Email.Clients.Exchange.POP3.Models** namespace provides classes to configure the POP3 client's methods behavior. |
 | [Aspose.Email.Clients.Smtp](./aspose.email.clients.smtp) | The **Aspose.Email.Clients.Smtp** namespace provides classes for sending messages by using the Simple Mail Transfer Protocol (SMTP). |
-| [Aspose.Email.Clients.Smtp.Models](./aspose.email.clients.smtp.models) |  |
+| [Aspose.Email.Clients.Smtp.Models](./aspose.email.clients.smtp.models) | The **Aspose.Email.Clients.Exchange.SMTP.Models** namespace provides classes to configure the SMTP client's methods behavior. |
 | [Aspose.Email.Common.Delegate](./aspose.email.common.delegate) | The **Aspose.Email.Common.Delegate** namespace provides common delegate types. |
 | [Aspose.Email.DKIM](./aspose.email.dkim) | The **Aspose.Email.Mail.DKIM** namespace provides classes for work with DKIM signature. |
 | [Aspose.Email.Exceptions](./aspose.email.exceptions) | The **Aspose.Email.Exceptions** namespace provides exception classes as well as classes for exception handling. |
